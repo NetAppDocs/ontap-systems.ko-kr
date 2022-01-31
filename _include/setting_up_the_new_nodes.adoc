@@ -1,0 +1,127 @@
+= 
+
+
+스토리지를 이동하여 업그레이드하는 동안 노드 3과 노드 4의 전원을 켜고 소프트웨어 이미지를 부팅하고 노드를 구성합니다. 원래 노드와 새 노드 간의 물리적 포트 레이아웃은 다를 수 있습니다. 원래 노드와 대체 노드 간의 포트 매핑은 포트와 연결의 적절한 레이아웃을 식별하기 위해 수행해야 합니다.
+
+새 노드에서 실행되는 ONTAP 버전이 원래 노드의 버전과 다른 경우 NetApp Support 사이트에서 웹 액세스 가능한 디렉토리로 올바른 <ONTAP_VERSION>_IMAGE.tgz 파일을 다운로드해야 합니다(4단계 참조). 시스템의 netboot를 수행하려면 <ONTAP_VERSION>_IMAGE.tgz 파일이 필요합니다.
+
+.단계
+. 노드 3의 전원을 켠 다음 콘솔 터미널에서 Ctrl-C를 즉시 눌러 로더 프롬프트에 액세스합니다.
++
+노드 3과 노드 4가 동일한 섀시에 있는 경우 2단계로 이동합니다. 그렇지 않은 경우 3단계로 이동합니다.
+
+. 노드 3과 노드 4가 단일 섀시 구성(동일한 섀시의 컨트롤러)에 있는 경우:
++
+.. 노드 4에 직렬 콘솔을 연결합니다.
+.. 노드 4의 전원이 켜져 있지 않으면 전원을 켠 다음 콘솔 터미널에서 Ctrl-C를 눌러 로더 프롬프트에 액세스하여 부팅 프로세스를 중단합니다.
++
+두 컨트롤러가 동일한 섀시에 있는 경우 전원이 이미 켜져 있어야 합니다.
+
++
+LOADER 프롬프트에서 node4를 그대로 둡니다. 이 절차로 돌아가 node3이 설치된 후에 이 단계를 반복합니다.
+
+
+
+. LOADER 프롬프트에서 'Set-defaults' 명령어를 입력한다
+. 로더 프롬프트에서 관리 LIF의 netboot 연결을 구성합니다.
++
+[cols="1,2"]
+|===
+| IP 주소 지정이... | 그러면... 
+
+
+ a| 
+DHCP를 선택합니다
+ a| 
+ Configure the automatic connection:
+ifconfig e0M-auto를 선택합니다
+
+
+
+ a| 
+ Static a| 
+ Configure the manual connection:
+ifconfig e0M-addr=ip_addr-mask=netmask"-GW=gateway입니다
+
+|===
+. LOADER 프롬프트에서 node3에서 netboot를 수행합니다.
++
+[cols="1,2"]
+|===
+| 대상... | 그러면... 
+
+
+ a| 
+* FAS2200, FAS2500, FAS3200, FAS6200, FAS/AFF8000 시리즈 시스템 *
+ a| 
+'+netboot http://web_server_ip/path_to_web-accessible_directory/netboot/kernel+`[]
+
+
+
+ a| 
+* 다른 모든 시스템 *
+ a| 
+'+netboot http://web_server_ip/path_to_web-accessible_directory/<ontap_version>_image.tgz+`[]
+
+|===
++
+path_to_the_web-Accessible_directory는 다운로드한 <ONTAP_version>_image.tgz 파일의 위치입니다.
+
++
+
+NOTE: 새 컨트롤러를 netboot에 연결할 수 없으면 기술 지원 부서에 문의하십시오.
+
+. 부팅 메뉴에서 옵션 * (7) 새 소프트웨어를 먼저 설치 * 를 선택하여 새 소프트웨어 이미지를 다운로드하여 부팅 장치에 설치합니다.
++
+"이 절차는 HA 쌍에서 무중단 업그레이드를 지원하지 않습니다."라는 메시지를 무시하십시오. 무중단 소프트웨어 업그레이드에는 적용되며 컨트롤러 업그레이드에는 적용되지 않습니다.
+
+. 절차를 계속하라는 메시지가 나타나면 y를 입력하고 패키지를 입력하라는 메시지가 나타나면 이미지 파일의 URL(+ http://web_server_ip/path_to_web-accessible_directory/<ontap_version>_image.tgz+` )을 입력합니다.
++
+해당하는 경우 사용자 이름/암호를 입력하거나 Enter 키를 눌러 계속합니다.
+
+. 다음과 유사한 프롬프트가 표시되면 "n"을 입력하여 백업 복구를 건너뜁니다.
++
+[listing]
+----
+Do you want to restore the backup configuration now? {y|n}
+----
+. 다음과 유사한 프롬프트가 나타나면 y를 입력하여 재부팅합니다.
++
+[listing]
+----
+The node must be rebooted to start using the newly installed software. Do you want to reboot now? {y|n}
+----
+. 재부팅 프로세스를 중단하려면 Ctrl+C를 눌러 부팅 메뉴를 표시한 다음, 재부팅 프로세스를 중단합니다.
+. 부팅 메뉴에서 * (5) Maintenance mode boot * 를 선택하여 Maintenance 모드에 액세스합니다.
+. 필요한 경우 노드의 FC 또는 CNA 포트를 변경한 다음 노드를 유지보수 모드로 재부팅합니다.
++
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html["ONTAP 9 SAN 관리 가이드 를 참조하십시오"]
+
++
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30092["사용 중인 Data ONTAP 8 버전에 대한 SAN 관리 가이드를 찾으십시오"]
+
+. 명령 출력에 ha가 표시되는지 확인해야 합니다.
++
+[listing]
+----
+*> ha-config show
+   Chassis HA configuration: ha
+   Controller HA configuration: ha
+----
++
+시스템은 HA 쌍 또는 독립형 구성에 관계없이 PROM에 기록합니다. 독립 실행형 시스템 또는 HA 쌍 내의 모든 구성 요소에서 상태가 동일해야 합니다
+
++
+ha-config modify controller ha 명령은 컨트롤러 설정에 대해 ha를 구성합니다. ha-config modify chassis ha 명령은 섀시 설정에 대해 ha를 구성합니다.
+
++
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-hacg/home.html["ONTAP 9 고가용성 구성 가이드"]
+
++
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30092["사용 중인 Data ONTAP 8 버전에 대한 고가용성 구성 가이드를 찾아보십시오"]
+
+. 유지보수 모드를 종료합니다
++
+LOADER 프롬프트에서 시스템이 중지됩니다.
+
+

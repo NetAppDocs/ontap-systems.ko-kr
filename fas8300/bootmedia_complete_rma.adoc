@@ -1,0 +1,13 @@
+---
+permalink: fas8300/bootmedia-complete-rma.html 
+sidebar: sidebar 
+keywords: fas8300, fas8300, replace, part, return, fail, netapp, rema, instruction, ship, kit, technical, support, complete, replacement, process, complete the replacement process 
+summary: '부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 기술 지원 부서(에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.' 
+---
+= 장애가 발생한 부품을 NetApp-AFF fas8300 및 FAS8700으로 반환합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 기술 지원 부서(에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.

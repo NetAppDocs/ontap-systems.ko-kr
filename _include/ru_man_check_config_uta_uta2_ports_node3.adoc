@@ -1,0 +1,255 @@
+= 노드 3의 UTA/UTA2 포트를 확인하고 구성합니다
+
+
+
+
+== 노드 3의 UTA/UTA2 포트를 확인하고 구성합니다
+
+노드 3에 온보드 UTA/UTA2 포트 또는 UTA/UTA2 카드를 사용하는 경우, 업그레이드 시스템을 사용할 방식에 따라 포트 구성을 확인하고 필요에 따라 포트를 다시 구성해야 합니다.
+
+UTA/UTA2 포트에 알맞은 SFP+ 모듈이 있어야 합니다.
+
+FC에 UTA/UTA2(Unified Target Adapter) 포트를 사용하려면 먼저 포트 구성 방법을 확인해야 합니다.
+
+
+NOTE: NetApp 마케팅 자료에서는 UTA2 용어를 사용하여 CNA 어댑터 및 포트를 참조할 수 있습니다. 그러나 CLI에서는 CNA라는 용어를 사용합니다.
+
+'ucadmin show' 명령을 사용하여 현재 포트 구성을 확인할 수 있습니다.
+
+[listing]
+----
+*> ucadmin show
+          Current  Current    Pending  Pending    Admin
+ Adapter  Mode     Type       Mode     Type       Status
+ -------  -------  ---------  -------  ---------  -----------
+ 0e       fc       target     -        initiator  offline
+ 0f       fc       target     -        initiator  offline
+ 0g       fc       target     -        initiator  offline
+ 0h       fc       target     -        initiator  offline
+ 1a       fc       target     -        -          online
+ 1b       fc       target     -        -          online
+6 entries were displayed.
+----
+UTA/UTA2 포트를 네이티브 FC 모드 또는 UTA/UTA2 모드로 구성할 수 있습니다. FC 모드는 FC 이니시에이터 및 FC 타겟을 지원하며, UTA/UTA2 모드는 동일한 10GbE SFP+ 인터페이스를 공유하는 NIC 및 FCoE 트래픽을 동시에 허용할 수 있으며 FC 타겟을 지원합니다.
+
+UTA/UTA2 포트는 어댑터 또는 컨트롤러에서 찾을 수 있으며 다음과 같은 구성을 가지고 있지만 노드 3의 UTA/UTA2 포트 구성을 확인하고 필요에 따라 변경해야 합니다.
+
+* 컨트롤러를 주문할 때 주문한 UTA/UTA2 카드는 사용자가 요청하는 Personality를 요청하기 위해 배송 전에 구성되었습니다.
+* 컨트롤러와 별도로 주문한 UTA/UTA2 카드는 기본 FC 대상 퍼스낼리티로 제공됩니다.
+* 새 컨트롤러의 온보드 UTA/UTA2 포트는 배송 전에 사용자가 요청하는 Personality를 사용하도록 구성되었습니다.
++
+
+NOTE: * 주의 *: 시스템에 스토리지 디스크가 있는 경우 유지보수 모드로 들어가라는 지시가 없는 한 클러스터 프롬프트에서 이 섹션에 있는 명령을 입력합니다. V시리즈 시스템이 있거나 FlexArray 가상화 소프트웨어가 있고 스토리지 어레이에 연결되어 있는 경우, 유지보수 모드 프롬프트에서 이 섹션에 명령을 입력합니다. UTA/UTA2 포트를 구성하려면 유지보수 모드여야 합니다.
+
+
+
+.단계
+. [[step1]] 노드 3에서 다음 명령의 입력 포트가 현재 어떻게 구성되어 있는지 확인합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | '시스템 노드 하드웨어 통합 접속 쇼 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 'ucadmin 쇼' 
+|===
++
+다음 예와 유사한 출력이 표시됩니다.
+
++
+[listing]
+----
+ cluster1::> system node hardware unified-connect show
+
+                Current  Current    Pending  Pending  Admin
+ Node  Adapter  Mode     Type       Mode     Type     Status
+ ----  -------  -------  ---------  -------  -------  ------
+ f-a   0e       fc       initiator  -        -        online
+ f-a   0f       fc       initiator  -        -        online
+ f-a   0g       cna      target     -        -        online
+ f-a   0h       cna      target     -        -        online
+ f-b   0e       fc       initiator  -        -        online
+ f-b   0f       fc       initiator  -        -        online
+ f-b   0g       cna      target     -        -        online
+ f-b   0h       cna      target     -        -        online
+ 12 entries were displayed.
+----
++
+[listing]
+----
+*> ucadmin show
+         Current  Current    Pending  Pending  Admin
+Adapter  Mode     Type       Mode     Type     Status
+-------  -------  ---------  -------  -------  ------
+0e       fc       initiator  -        -        online
+0f       fc       initiator  -        -        online
+0g       cna      target     -        -        online
+0h       cna      target     -        -        online
+0e       fc       initiator  -        -        online
+0f       fc       initiator  -        -        online
+0g       cna      target     -        -        online
+0h       cna      target     -        -        online
+*>
+----
+. [[step2]] 현재 SFP+ 모듈이 원하는 용과 일치하지 않으면 올바른 SFP+ 모듈로 교체하십시오.
++
+올바른 SFP+ 모듈을 얻으려면 NetApp 담당자에게 문의하십시오.
+
+. [[step3]'시스템 노드 하드웨어 unified-connect show' 또는 'ucadmin show' 명령의 출력을 확인하여 UTA/UTA2 포트가 원하는 특성을 갖고 있는지 여부를 결정합니다.
+. [[4단계]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| UTA/UTA2 포트... | 그러면... 
+
+
+| 원하는 개성을 표현하지 마십시오 | 로 이동합니다 <<man_check_3_step5,5단계>>. 
+
+
+| 원하는 개성을 갖고 싶어하세요 | 단계 5에서 단계 12까지 건너뛰고 로 이동합니다 <<man_check_3_step13,13단계>>. 
+|===
+. [[man_check_3_step5]]다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| Clustered Data ONTAP 8.3을 실행 중인 스토리지 디스크가 있습니다 | 노드3를 부팅하고 유지보수 모드:boot_ONTAP maint를 입력합니다 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 로 이동합니다 <<man_check_3_step6,6단계>>. 이미 유지보수 모드여야 합니다. 
+|===
+. [[man_check_3_step6]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 구성 중인 경우... | 그러면... 
+
+
+| UTA/UTA2 카드 포트 | 로 이동합니다 <<man_check_3_step7,7단계>>. 
+
+
+| 온보드 UTA/UTA2 포트 | 7단계를 건너뛰고 로 이동합니다 <<man_check_3_step8,8단계>>. 
+|===
+. [[man_check_3_step7] 어댑터가 이니시에이터 모드에 있고 UTA/UTA2 포트가 온라인 상태인 경우 UTA/UTA2 포트를 오프라인으로 전환합니다.
++
+'스토리지 비활성화 어댑터 <adapter_name>'
+
++
+유지 관리 모드에서는 대상 모드의 어댑터가 자동으로 오프라인 상태가 됩니다.
+
+. [[man_check_3_step8]] 현재 구성이 원하는 사용과는 일치하지 않으면 필요에 따라 구성을 변경하십시오.
++
+''ucadmin modify -m fc|CNA-t initiator|target<adapter_name>'
+
++
+** m은 성격 모드, 즉 fc, CNA.
+** t는 FC4형, target 또는 initiator입니다.
++
+
+NOTE: 테이프 드라이브, FlexArray 가상화 시스템 및 MetroCluster 구성에 FC Initiator를 사용해야 합니다. SAN 클라이언트에 FC 타겟을 사용해야 합니다.
+
+
+
+. 설정을 확인합니다.
++
+'ucadmin 쇼'
+
+. 설정을 확인합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다  a| 
+.. 시스템을 중지합니다.
++
+"중지"
+
++
+부팅 환경 프롬프트에서 시스템이 중지됩니다.
+
+.. 다음 명령을 입력합니다.
++
+부트 ONTAP
+
+
+
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 유지보수 모드로 재부팅합니다. 'boot_netapp maint 
+|===
+. [[step11]] 설정을 확인합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | '시스템 노드 하드웨어 통합 접속 쇼 
+
+
+| V-Series 또는 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 'ucadmin 쇼' 
+|===
++
+다음 예제의 출력은 어댑터 "1b"의 FC4 유형이 "이니시에이터"로 변경되고 어댑터 "2a"와 "2b"의 모드가 "CNA"로 변경된다는 것을 보여줍니다.
+
++
+[listing]
+----
+ cluster1::> system node hardware unified-connect show
+
+                Current  Current    Pending  Pending      Admin
+ Node  Adapter  Mode     Type       Mode     Type         Status
+ ----  -------  -------  ---------  -------  -----------  ------
+ f-a   1a       fc       initiator  -        -            online
+ f-a   1b       fc       target     -        initiator    online
+ f-a   2a       fc       target     cna      -            online
+ f-a   2b       fc       target     cna      -            online
+
+ 4 entries were displayed.
+----
++
+[listing]
+----
+*> ucadmin show
+         Current  Current    Pending  Pending    Admin
+Adapter  Mode     Type       Mode     Type       Status
+-------  -------  ---------  -------  ---------  ------
+1a       fc       initiator  -        -          online
+1b       fc       target     -        initiator  online
+2a       fc       target     cna      -          online
+2b       fc       target     cna      -          online
+*>
+----
+. [[step12a]] 각 포트에 대해 다음 명령 중 하나를 한 번 입력하여 대상 포트를 온라인으로 전환합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 'network fcp adapter modify -node <node_name> - adapter <adapter_name> - state up' 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 'fcp config <adapter_name> up' 
+|===
+. [[man_check_3_step13]] 포트에 케이블을 연결합니다.
+. [[pep14]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 로 이동합니다 link:map_ports_node1_node3.html["노드 1의 포트를 노드 3으로 매핑합니다"]. 
+
+
+| V-시리즈 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 에서 _Install로 돌아가서 node3_을 부팅한 다음 를 다시 시작합니다 link:install_boot_node3.html#step7["7단계"]. 
+|===
+

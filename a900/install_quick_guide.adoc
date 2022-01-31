@@ -1,0 +1,17 @@
+---
+permalink: a900/install_quick_guide.html 
+sidebar: sidebar 
+keywords: AFF A900 
+summary: 이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 
+---
+= 빠른 단계 - AFF A900
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 콘텐츠를 사용합니다.
+
+설치 및 설정 지침_PDF 포스터에 액세스합니다.
+
+link:../media/PDF/December_2021_Rev-1_AFFA900_ISI.pdf["AFF A900 설치 및 설정 지침"^]

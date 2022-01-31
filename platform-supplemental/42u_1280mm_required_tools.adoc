@@ -1,0 +1,26 @@
+---
+permalink: platform-supplemental/42u-1280mm-required-tools.html 
+sidebar: sidebar 
+keywords: unpack, install, cabinet, necessary, tool, equipment, system, maintenance, require tools and equipment 
+summary: 시스템 캐비닛에 포장을 풀고 설치하기 전에 시스템 캐비닛을 제 위치로 이동하고 설치하거나 유지보수 작업을 수행하는 데 필요한 도구와 장비를 수집해야 합니다. 
+---
+= 필요한 공구 및 장비
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 캐비닛에 포장을 풀고 설치하기 전에 시스템 캐비닛을 제 위치로 이동하고 설치하거나 유지보수 작업을 수행하는 데 필요한 도구와 장비를 수집해야 합니다.
+
+* 디스크 쉘프에 적합한 하드웨어 가이드를 참조하십시오
+* 시스템에 대한 적절한 설치 및 설정 지침
++
+https://www.netapp.com/data-storage/all-flash-documentation/["All Flash FAS 문서 리소스"]
+
++
+https://www.netapp.com/data-storage/fas/documentation/["FAS 스토리지 시스템 설명서 리소스"]
+
+* #1 및 #2 십자 드라이버
+* 시스템 캐비닛 나사용 Torx 드라이버
+* 시스템 캐비닛 수평 조정을 위한 레벨링 도구
+

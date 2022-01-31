@@ -1,0 +1,27 @@
+= 
+
+
+. 스토리지 시스템에 FC 이니시에이터 포트를 새 호스트로 추가하여 스토리지 LUN을 새 호스트에 매핑합니다.
++
+자세한 내용은 스토리지 배열 및 조닝 설명서를 참조하십시오.
+
+. 스토리지 어레이의 어레이 LUN과 연결된 호스트 또는 볼륨 그룹에서 WWPN(Worldwide Port Name) 값을 수정합니다.
++
+새 컨트롤러 모듈을 설치하면 각 온보드 FC 포트에 연결된 WWPN 값이 변경됩니다.
+
+. 구성에서 스위치 기반 조닝을 사용하는 경우 새 WWPN 값이 반영되도록 조닝을 조정하십시오.
+. [[step27]] NSE(NetApp Storage Encryption)를 이 구성에서 사용 중인 경우, 'setup.storageenv.storageencryption.support'명령을 'true'로 설정해야 하며, node2 구성이 로드된 후 부트 루프를 방지하려면 kmip.init.maxwait` 변수를 'off'로 설정해야 합니다.
++
+에테네 부타그 storageencryption.support true
+
++
+'셋프 kmip.init.maxwait off'
+
+. 부팅 메뉴로 노드 부팅:
++
+boot_ontap 메뉴
+
++
+FC 또는 UTA/UTA2 구성을 사용하지 않는 경우, 를 실행합니다 link:set_fc_or_uta_uta2_config_node4.html#auto_check_node4_step15["노드 4, 15단계에서 UTA/UTA2 포트를 확인하고 구성합니다"] 따라서 노드 4는 노드 2의 디스크를 인식할 수 있습니다.
+
+

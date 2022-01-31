@@ -1,0 +1,31 @@
+---
+permalink: platform-supplemental/42u-1280mm-install-additional-rails.html 
+sidebar: sidebar 
+keywords: system cabinets, system, cabinet, support, rail, install, component, install additional support rail 
+summary: 시스템 캐비닛에는 일부 지지 레일이 이미 설치되어 있습니다. 시스템에 추가 지원 레일이 필요한 경우 시스템 구성 요소를 설치하기 전에 해당 레일을 설치해야 합니다. 
+---
+= 추가 지지 레일을 설치합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 캐비닛에는 일부 지지 레일이 이미 설치되어 있습니다. 시스템에 추가 지원 레일이 필요한 경우 시스템 구성 요소를 설치하기 전에 해당 레일을 설치해야 합니다.
+
+이 작업은 DS212C 및 DE212C 디스크 쉘프를 제외한 모든 컨트롤러 및 디스크 쉘프에 적용됩니다. 해당 디스크 쉘프 2개에 해당하는 레일 키트 전단의 지침을 사용하십시오.
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2484194["2 포스트 또는 4 포스트 랙에 DE212C 또는 DS212C 선반 설치"]
+
+. 장비에 필요한 공간을 결정합니다.
++
+장비 높이에 따라 장비가 필요한 U 공간(U당 1.75인치)을 계산한 다음 사용 가능한 공간에 따라 시스템 캐비닛에 장비를 설치할 위치를 결정합니다.
+
+. 지지대 레일이 필요한 위치를 찾은 후 다음 그림을 참조하여 설치합니다.
++
+image::../media/drw_syscab_ozeki_support_rail_installation.gif[drw syscab ozeki 지원 레일 설치]
+
+. 장비 장착 플랜지가 지지 레일의 나사 구멍을 지나 연장되면 필요한 경우 지지 레일 위에 케이지 너트를 설치합니다.
++
+image::../media/drw_clip_nut_install.gif[drw 클립 너트 설치]
+
+

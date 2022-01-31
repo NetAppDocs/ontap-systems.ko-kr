@@ -1,0 +1,72 @@
+---
+section: fas2600
+title: FAS2600 시스템
+url: "/fas2600/index.html"
+entries:
+- title: 설치 및 설정
+  pdf-filename: FAS2600 설치 및 설정
+  entries:
+  - title: 클러스터 구성 워크시트
+    url: "/fas2600/install-worksheet-linkout.html"
+  - title: 설치 및 설정 환경을 선택합니다
+    url: "/fas2600/install-setup.html"
+  - title: 빠른 단계
+    url: "/fas2600/install-setup-linkout.html"
+  - title: 비디오 단계
+    url: "/fas2600/install-video-linkout.html"
+- title: 유지 관리
+  pdf-filename: FAS2600은 이 상태를 유지합니다
+  entries:
+  - title: 미디어를 부팅합니다
+    pdf-filename: FAS2600 부팅 미디어
+    entries:
+    - title: 개요
+      url: "/fas2600/bootmedia-replace-overview.html"
+    - title: 온보드 암호화 키를 확인합니다
+      url: "/fas2600/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas2600/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/fas2600/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/fas2600/bootmedia-recovery-image-boot-non-2n-mcc.html"
+    - title: OKM, NSE 및 NVE를 복원합니다
+      url: "/fas2600/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas2600/bootmedia-complete-rma.html"
+  - title: 캐싱 모듈
+    url: "/fas2600/caching-module-replace.html"
+  - title: 섀시
+    pdf-filename: FAS2600 섀시
+    entries:
+    - title: 개요
+      url: "/fas2600/chassis-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas2600/chassis-replace-shutdown.html"
+    - title: 하드웨어를 교체합니다
+      url: "/fas2600/chassis-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/fas2600/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러 모듈
+    pdf-filename: FAS2600 컨트롤러 모듈
+    entries:
+    - title: 개요
+      url: "/fas2600/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas2600/controller-replace-shutdown.html"
+    - title: 컨트롤러 모듈을 교체합니다
+      url: "/fas2600/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/fas2600/controller-replace-system-config-restore-and-verify.html"
+    - title: 회수 가능 시스템
+      url: "/fas2600/controller-replace-recable-reassign-disks.html"
+    - title: 시스템 복원을 완료합니다
+      url: "/fas2600/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    url: "/fas2600/dimm-replace.html"
+  - title: NVMEM 배터리
+    url: "/fas2600/nvmem-nvram-battery-replace.html"
+  - title: 전원 공급 장치
+    url: "/fas2600/power-supply-swap-out.html"
+  - title: 실시간 시계 배터리
+    url: "/fas2600/rtc-battery-replace.html"

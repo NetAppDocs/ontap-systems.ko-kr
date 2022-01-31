@@ -1,0 +1,131 @@
+= 노드 3에서 FC 포트를 구성합니다
+
+
+
+
+== 노드 3에서 FC 포트를 구성합니다
+
+노드 3에 온보드 또는 FC 어댑터의 FC 포트가 있는 경우 포트가 사전 구성되어 있지 않으므로 서비스를 시작하기 전에 노드에서 포트 구성을 설정해야 합니다. 포트가 구성되지 않은 경우 서비스가 중단될 수 있습니다.
+
+에 저장한 노드 1의 FC 포트 설정 값이 있어야 합니다 link:prepare_nodes_for_upgrade.html["업그레이드할 노드를 준비합니다"].
+
+시스템에 FC 구성이 없는 경우 이 섹션을 건너뛸 수 있습니다. 시스템에 온보드 UTA/UTA2 포트 또는 UTA/UTA2 카드가 있는 경우, 에서 포트를 구성합니다 <<Check and configure UTA/UTA2 ports on node3>>.
+
+
+NOTE: * 중요 *: 시스템에 스토리지 디스크가 있는 경우 이 섹션의 명령을 클러스터 프롬프트에 입력합니다. V-Series 시스템이 있거나 FlexArray 가상화 소프트웨어가 있고 스토리지 어레이에 연결되어 있는 경우, 유지보수 모드에서 이 섹션의 명령을 입력하십시오.
+
+.단계
+. [[1단계]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 로 이동합니다 <<man_config_3_step5,5단계>> 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 로 이동합니다 <<man_config_3_step2,2단계>> 
+|===
+. [[man_config_3_step2]] 노드 3을 부팅하고 유지보수 모드에 액세스합니다.
++
+boot_ONTAP maint를 선택합니다
+
+. [[step3]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 'system node hardware unified-connect show' 명령어를 입력한다 
+
+
+| V-시리즈 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다. | 다음 명령 'ucadmin show'를 입력합니다 
+|===
++
+시스템에 있는 모든 FC 및 통합 네트워크 어댑터에 대한 정보가 표시됩니다.
+
+. [[step4]] 노드 3의 FC 설정을 노드 1에서 이전에 캡처한 설정과 비교합니다.
+. [[man_config_3_step5]]다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 새 노드의 기본 FC 설정이... | 그러면... 
+
+
+| 노드 1에서 캡처한 것과 동일합니다 | 로 이동합니다 <<man_config_3_step11,11단계>>. 
+
+
+| 노드 1에서 캡처한 것과 다릅니다 | 로 이동합니다 <<man_config_3_step6,6단계>>. 
+|===
+. [[man_config_3_step6]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다  a| 
+다음 명령 중 하나를 입력하여 필요에 따라 노드 3의 FC 포트를 수정합니다.
+
+** 대상 포트를 프로그래밍하려면 시스템 노드 하드웨어 unified-connect modify-type|-t target-adapter <port_name>'을 선택합니다
+** 이니시에이터 포트를 프로그래밍하려면 'system node hardware unified-connect modify -type|-t initiator-adapter <port_name>'을 사용합니다
+
+
+'-t'는 FC4 유형이며 타겟이나 이니시에이터입니다.
+
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 필요에 따라 다음 명령을 입력하여 노드 3의 FC 포트를 수정합니다. 'ucadmin modify -m fc -t initiator -f <adapter_port_name>' -t'는 FC4 유형, 타겟 또는 이니시에이터입니다. * 참고 *: FC 포트는 이니시에이터로 프로그래밍해야 합니다. 
+|===
+. [[7단계]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 'system node hardware unified-connect show' 명령을 입력하고 출력을 확인하여 새로운 설정을 확인한다 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 다음 명령을 입력하고 출력을 확인하여 새 설정을 확인합니다. 'ucadmin show' 
+|===
+. [[step8]] 다음 명령을 입력하여 유지보수 모드를 종료합니다.
++
+"중지"
+
+. [[step9]] 명령을 입력한 후 부팅 환경 프롬프트에서 시스템이 중지될 때까지 기다립니다.
+. [[10단계]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| V-Series 시스템이거나 clustered Data ONTAP 8.3을 실행하는 FlexArray 가상화 소프트웨어가 있습니다 | 부팅 환경 프롬프트에서 node3를 부팅하고 "boot_ONTAP maint" 액세스 유지보수를 수행합니다 
+
+
+| V-Series 시스템이 아니거나 FlexArray 가상화 소프트웨어가 없습니다 | 부팅 환경 프롬프트에서 node3를 부팅합니다. boot_ontap 
+|===
+. [[man_config_3_step11]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다  a| 
+** 노드 3에 UTA/UTA2 카드 또는 UTA/UTA2 온보드 포트가 있는 경우 로 이동하십시오 <<Check and configure UTA/UTA2 ports on node3>>.
+** 노드 3에 UTA/UTA2 카드 또는 UTA/UTA2 온보드 포트가 없는 경우 건너뛰십시오 <<Check and configure UTA/UTA2 ports on node3>> 로 이동합니다 link:map_ports_node1_node3.html["노드 1의 포트를 노드 3으로 매핑합니다"].
+
+
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다  a| 
+** 노드 3에 카드 또는 온보드 포트가 있는 경우 로 이동합니다 <<Check and configure UTA/UTA2 ports on node3>>.
+** 노드 3에 카드 또는 온보드 포트가 없는 경우 건너뛰십시오 <<Check and configure UTA/UTA2 ports on node3>>그런 다음, _Install로 돌아가서 node3_을 부팅하고 에서 다시 시작합니다 link:install_boot_node3.html#step7["7단계"].
+
+
+|===
+

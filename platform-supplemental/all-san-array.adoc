@@ -1,0 +1,15 @@
+---
+permalink: platform-supplemental/all-san-array.html 
+sidebar: sidebar 
+keywords: asa, all san array 
+summary: 모든 SAN 어레이 시스템은 AFF 시스템과 동일한 설명서를 사용합니다. 
+---
+= 모든 SAN 어레이 시스템
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ASA 시스템과 함께 AFF 설명서를 사용할 수 있습니다. AFF 모델에 대한 정보는 해당 ASA 시스템에 적용됩니다. 예를 들어, AFF A400 시스템의 모든 케이블 연결 및 기타 정보는 ASA AFF A400 시스템에도 적용됩니다.
+
+https://docs.netapp.com/us-en/ontap/task_asa_software_configuration.html["모든 SAN 어레이 소프트웨어 구성"]

@@ -1,0 +1,15 @@
+---
+permalink: platform-supplemental/drive-video.html 
+sidebar: sidebar 
+keywords: video, overview, embedded, drive, replacement, procedure, video overview 
+summary: 이 비디오는 내장형 드라이브 교체 절차에 대한 개요를 보여 줍니다. 
+---
+= 비디오 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 비디오는 내장형 드라이브 교체 절차에 대한 개요를 보여 줍니다.
+
+https://www.youtube.com/embed/Ziqg9HL8oYQ?rel=0["NetApp 비디오: 내부 디스크 드라이브 핫 스와핑"]

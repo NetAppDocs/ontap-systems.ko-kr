@@ -1,0 +1,181 @@
+---
+permalink: a900/add_io_module.html 
+sidebar:  
+keywords:  
+summary: 완전히 채워진 시스템에서 기존 입출력 모듈을 새 입출력 모듈로 교체하거나 새 입출력 모듈을 섀시의 빈 슬롯에 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다. 
+---
+= 입출력 모듈 추가 - AFF A900
+
+
+NIC 또는 스토리지 어댑터를 완전히 채워진 시스템의 새 NIC 또는 스토리지 어댑터로 교체하거나 시스템의 빈 섀시 슬롯에 새 NIC 또는 스토리지 어댑터를 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다.
+
+.시작하기 전에
+* 를 확인하십시오 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"] 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.
+* 여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"] 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.
+* 입출력 모듈을 무중단으로 추가하려면 타겟 컨트롤러를 인수하고, 타겟 슬롯에서 슬롯 블랭킹 커버를 제거하거나, 기존 입출력 모듈을 제거하고, 새 입출력 모듈 또는 교체 입출력 모듈을 추가한 다음 타겟 컨트롤러를 반환해야 합니다.
+* 다른 모든 구성 요소가 제대로 작동하는지 확인합니다.
+
+
+
+
+== 옵션 1: 슬롯이 열린 시스템에 입출력 모듈을 추가합니다
+
+[role="lead"]
+시스템의 빈 모듈 슬롯에 입출력 모듈을 NIC 또는 NS224 스토리지 셸프용 스토리지 모듈로 추가할 수 있습니다.
+
+. 컨트롤러 A 종료:
++
+.. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
+.. 'storage failover takeover -ofnode target_node_name' 타겟 노드를 인수합니다
++
+콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.
+
+
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 타겟 슬롯 블랭킹 커버를 탈거하십시오.
++
+.. 문자 및 번호가 매겨진 캠 버튼을 누릅니다.
+.. 캠 래치가 열림 위치가 될 때까지 아래로 돌립니다.
+.. 블랭킹 커버를 탈거하십시오.
+
+
+. 입출력 모듈을 설치합니다.
++
+.. 입출력 모듈을 슬롯의 가장자리에 맞춥니다.
+.. 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 밀어 넣습니다.
+.. I/O 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.
+
+
+. 교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.
++
+
+NOTE: 사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.
+
+. LOADER 프롬프트에서 노드를 재부팅합니다. _bye_
+. 파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다
+. 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
+. 네트워킹에 슬롯 3 및/또는 7을 사용하는 경우, 네트워킹 사용을 위해 슬롯을 변환하려면 'storage port modify -node__<node name>___port__<port name>__-mode network' 명령어를 사용한다.
+. 컨트롤러 B에 대해 이 단계를 반복합니다
+. 스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"].
+
+
+
+
+== 옵션 2: 슬롯이 없는 시스템에 입출력 모듈을 추가합니다
+
+[role="lead"]
+완전히 채워진 시스템에 하나 이상의 입출력 모듈을 설치하려면 시스템에 기존 NIC 또는 스토리지 모듈을 하나 이상 제거해야 합니다.
+
+. 다음과 같은 경우:
++
+[cols="1,2"]
+|===
+| 교체 중... | 그러면... 
+
+
+ a| 
+같은 수의 포트가 있는 NIC 입출력 모듈
+ a| 
+LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니다.
+
+
+
+ a| 
+포트 수가 적은 NIC 입출력 모듈
+ a| 
+영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
+
+
+
+ a| 
+스토리지 입출력 모듈이 있는 NIC 입출력 모듈
+ a| 
+에 설명된 대로 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"].
+
+|===
+. 컨트롤러 A 종료:
++
+.. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
+.. 'storage failover takeover -ofnode target_node_name' 타겟 노드를 인수합니다
++
+콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.
+
+
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 대상 I/O 모듈의 케이블을 뽑습니다.
+. 섀시에서 대상 I/O 모듈을 분리합니다.
++
+.. 문자 및 번호가 매겨진 캠 버튼을 누릅니다.
++
+캠 버튼이 섀시에서 멀어져 있습니다.
+
+.. 캠 래치가 수평 위치에 올 때까지 아래로 돌립니다.
++
+I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동합니다.
+
+.. 모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 I/O 모듈을 분리합니다.
++
+입출력 모듈이 있던 슬롯을 추적해야 합니다.
+
++
+https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6["입출력 모듈 분리 또는 교체"^]
+
++
+image:../media/drw_a900_remove_PCIe_module.png[""]
+
+
+
++
+[cols="10,90"]
+|===
+
+
+ a| 
+image::../media/legend_icon_01.png[범례 아이콘 01]
+ a| 
+문자 및 숫자 I/O 캠 래치
+
+
+
+ a| 
+image:../media/legend_icon_02.png[""]
+ a| 
+I/O 캠 래치가 완전히 잠금 해제되었습니다
+
+|===
+. 입출력 모듈을 타겟 슬롯에 설치합니다.
++
+.. 입출력 모듈을 슬롯의 가장자리에 맞춥니다.
+.. 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 밀어 넣습니다.
+.. I/O 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.
+
+
+. 분리 및 설치 단계를 반복하여 컨트롤러 A의 추가 모듈을 교체합니다
+. 교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.
+. LOADER 프롬프트에서 노드를 재부팅합니다. _bye_
+. 파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다
+. 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
+. 추가한 경우:
++
+[cols="1,2"]
+|===
+| I/O 모듈이...인 경우 | 그러면... 
+
+
+ a| 
+슬롯 3 또는 7의 NIC 모듈,
+ a| 
+포트별 Storage port modify -node *_<node name>___-port * _<port name>__-mode network' 명령어를 사용한다.
+
+
+
+ a| 
+스토리지 모듈
+ a| 
+에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"].
+
+|===
+. 컨트롤러 B에 대해 이 단계를 반복합니다
+

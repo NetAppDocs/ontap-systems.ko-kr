@@ -1,0 +1,145 @@
+= 
+
+
+. 노드 4에서 netboot 수행:
++
+[cols="30,70"]
+|===
+| 대상... | 그러면... 
+
+
+| FAS/AFF8000 시리즈 시스템 | "netboot\http://<web_server_ip/path_to_web-accessible_directory>/netboot/kernel` 
+
+
+| 기타 모든 시스템 | "netboot\http://<web_server_ip/path_to_web-accessible_directory>/<ontap_version>_image.tgz` 
+|===
++
+"<path_to_the_web-Accessible_directory>"는 섹션 1의 "<ONTAP_version>_image.tgz"를 다운로드한 위치로 이어져야 합니다 link:prepare_for_netboot.html["netboot를 준비합니다"].
+
++
+
+NOTE: 부팅을 중단하지 마십시오.
+
+. 부팅 메뉴에서 '(7) Install new software first(새 소프트웨어를 먼저 설치)' 옵션을 선택합니다.
++
+이 메뉴 옵션은 새 ONTAP 이미지를 다운로드하여 부팅 장치에 설치합니다.
+
++
+
+NOTE: 다음 메시지는 무시하십시오. "HA 쌍의 무중단 업그레이드를 위해 이 절차가 지원되지 않습니다." 이 메모는 ONTAP의 무중단 업그레이드와 컨트롤러 업그레이드에 적용되지 않습니다. 항상 netboot를 사용하여 새 노드를 원하는 이미지로 업데이트합니다. 다른 방법을 사용하여 새 컨트롤러에 이미지를 설치할 경우 잘못된 이미지가 설치될 수 있습니다. 이 문제는 모든 ONTAP 릴리스에 적용됩니다.
+
+. 절차를 계속하라는 메시지가 나타나면 "y"를 입력하고 패키지를 입력하라는 메시지가 나타나면 URL을 입력합니다.
++
+'\http://<web_server_ip/path_to_web-accessible_directory>/<ontap_version>_image.tgz`
+
+. 컨트롤러 모듈을 재부팅하려면 다음 하위 단계를 완료하십시오.
++
+.. 다음 프롬프트가 표시되면 "n"을 입력하여 백업 복구를 건너뜁니다.
++
+....
+Do you want to restore the backup configuration now? {y|n}
+....
+.. 다음 프롬프트가 표시되면 y를 입력하여 재부팅합니다.
++
+....
+The node must be rebooted to start using the newly installed software. Do you want to reboot now? {y|n}
+....
++
+부팅 장치가 다시 포맷되어 구성 데이터를 복원해야 하므로 컨트롤러 모듈이 재부팅되지만 부팅 메뉴에서 중지됩니다.
+
+
+
+. 부팅 메뉴에서 유지보수 모드 5를 선택하고 부팅을 계속하라는 메시지가 표시되면 y를 입력합니다.
+. 컨트롤러 및 섀시가 HA로 구성되었는지 확인:
++
+하구성 쇼
+
++
+다음 예제는 "ha-config show" 명령의 출력을 보여줍니다.
+
++
+....
+Chassis HA configuration: ha
+Controller HA configuration: ha
+....
++
+
+NOTE: HA 쌍 또는 독립 실행형 구성에 관계없이 PROM에서 시스템 기록. 독립 실행형 시스템 또는 HA 쌍 내의 모든 구성 요소에서 상태가 동일해야 합니다.
+
+. 컨트롤러 및 섀시가 HA로 구성되지 않은 경우 다음 명령을 사용하여 구성을 수정하십시오.
++
+ha-config controller ha
+
++
+하구성 수정 섀시 하
+
++
+MetroCluster 구성이 있는 경우 다음 명령을 사용하여 컨트롤러 및 섀시를 수정합니다.
+
++
+하구성 수정 컨트롤러 MCC
+
++
+하구성 수정 새시 MCC
+
+. 유지보수 모드 종료:
++
+"중지"
+
++
+부팅 환경 프롬프트에서 Ctrl+C를 눌러 자동 부팅을 중단시킵니다.
+
+. [[auto_install4_step15]] 노드 3에서 시스템 날짜, 시간 및 시간대를 확인합니다.
++
+다
+
+. 노드 4의 부팅 환경 프롬프트에서 다음 명령을 사용하여 날짜를 확인합니다.
++
+날짜
+
+. 필요한 경우 노드 4의 날짜를 설정합니다.
++
+'날짜 설정 < mm/dd/yyyy>'
+
+. 노드 4의 부팅 환경 프롬프트에서 다음 명령을 사용하여 시간을 확인합니다.
++
+'시간'입니다
+
+. 필요한 경우 node4의 시간을 설정합니다.
++
+'세트 시간<hh:mm:ss>'
+
+. 필요한 경우 노드 4에서 파트너 시스템 ID를 설정합니다.
++
+'setenv PARTNER-sysid <node2_sysid>'
+
++
+.. 설정을 저장합니다.
++
+'사베에프'
+
+
+
+. [[auto_install4_step21]] 부트 로더에서 'partner-sysid' 매개 변수를 설정해야 합니다. 노드 4의 경우 'partner-sysid'가 노드 3의 syid여야 합니다. 노드 3의 'partner-sysid'를 확인합니다.
++
+'printenv partner-sysid
+
+. [[step22]] 다음 작업 중 하나를 수행합니다.
++
+[cols="30,70"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 디스크 및 백엔드 스토리지가 없습니다 | 로 이동합니다 <<auto_install4_step23,23단계>>. 
+
+
+| 는 스토리지 어레이에 연결된 FlexArray 가상화 소프트웨어가 설치된 V-Series 시스템 또는 시스템입니다  a| 
+.. 섹션으로 이동합니다 link:set_fc_or_uta_uta2_config_node4.html["노드 4에 FC 또는 UTA/UTA2 구성을 설정합니다"] 이 섹션의 하위 섹션을 완료하십시오.
+.. 이 섹션으로 돌아가 나머지 단계를 완료합니다 <<auto_install4_step23,23단계>>.
+
+
+* 중요 *: ONTAP 가상화 소프트웨어를 사용하여 V-Series 또는 시스템에서 FlexArray를 부팅하기 전에 FC 온보드 포트, CNA 온보드 포트 및 CNA 카드를 재구성해야 합니다.
+
+|===
+

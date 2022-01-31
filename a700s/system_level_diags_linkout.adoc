@@ -1,0 +1,14 @@
+---
+permalink: a700s/system-level-diags-linkout.html 
+sidebar: sidebar 
+keywords: aff a700s, system-level diagnostics guide 
+summary: AFF A700s에 대한 시스템 레벨 진단 가이드 링크 
+---
+= AFF A700s에 대한 시스템 레벨 진단
+:icons: font
+:imagesdir: ../media/
+
+
+AFF A700s에 대한 시스템 레벨 진단은 이 라이브러리 외부에서 사용할 수 있습니다. NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2595434["AFF A700s 시스템 레벨 진단"]

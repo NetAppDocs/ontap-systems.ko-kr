@@ -1,0 +1,84 @@
+---
+indexpage:
+  lead: NetApp의 AFF 및 FAS 스토리지 시스템은 업계 최고의 데이터 관리 기능을 갖춘 첨단 엔터프라이즈급 스케일아웃 All-Flash
+    또는 하이브리드 스토리지를 제공합니다. 이 사이트의 문서를 사용하여 AFF, FAS 또는 모든 SAN 어레이 시스템을 설치, 확장, 업그레이드
+    및 유지 관리할 수 있습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: ONTAP 릴리즈 노트
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
+  - title: AFF 시스템
+    links:
+    - title: AFF C190
+      url: "/c190/index.html"
+    - title: AFF A200
+      url: "/a200/index.html"
+    - title: AFF A220
+      url: "/fas2700/index.html"
+    - title: AFF A250
+      url: "/a250/index.html"
+    - title: AFF A300
+      url: "/a300/index.html"
+    - title: AFF A320
+      url: "/a320/index.html"
+    - title: AFF A400
+      url: "/a400/index.html"
+    - title: AFF A700
+      url: "/fas9000/index.html"
+    - title: AFF A700s를 참조하십시오
+      url: "/a700s/index.html"
+    - title: AFF A800
+      url: "/a800/index.html"
+    - title: AFF A900
+      url: "/a900/index.html"
+  - title: FAS 시스템
+    links:
+    - title: 500f로 설정합니다
+      url: "/fas500f/index.html"
+    - title: FAS2600
+      url: "/fas2600/index.html"
+    - title: FAS2700
+      url: "/fas2700/index.html"
+    - title: FAS8200
+      url: "/fas8200/index.html"
+    - title: FAS8300
+      url: "/fas8300/index.html"
+    - title: FAS8700
+      url: "/fas8300/index.html"
+    - title: FAS9000
+      url: "/fas9000/index.html"
+  - title: 드라이브 쉘프
+    links:
+    - title: NS224
+      url: "/ns224/index.html"
+    - title: IOM12가 포함된 SAS
+      url: "/sas3/index.html"
+  - title: 클러스터 및 스토리지 스위치
+    links:
+    - title: Broadcom 지원 BES-53248
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/overview-bes53248.html
+    - title: Cisco 9336)을 참조하십시오
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336/9336-overview.html
+    - title: 공유 구성의 Cisco 9336
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-shared/9336c_setup_and_configuration_guide_for_cisco_shared_switches.html
+    - title: Cisco 92300YC
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-92300/92300-overview.html
+  - title: 플랫폼 업그레이드
+    links:
+    - title: 대부분의 시스템에 대한 업그레이드
+      url: https://docs.netapp.com/us-en/ontap-systems-upgrade/index.html
+    - title: MetroCluster 구성의 시스템 업그레이드
+      url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/index.html
+  - title: 더 많은 리소스
+    links:
+    - title: ONTAP 설명서
+      url: https://docs.netapp.com/us-en/ontap/index.html
+    - title: NetApp Hardware Universe를 참조하십시오
+      url: https://hwu.netapp.com/
+    - title: NetApp Active IQ Config Advisor를 참조하십시오
+      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
+    - title: NetApp 상호 운용성 매트릭스
+      url: https://mysupport.netapp.com/matrix/#welcome
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/ONTAP-and-FAS/ct-p/fas-ontap-oncommand-and-related-plug-ins

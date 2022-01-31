@@ -1,0 +1,33 @@
+---
+section: ns224
+title: NS224 쉘프
+url: "/ns224/index.html"
+entries:
+- title: 및 케이블을 설치합니다
+  pdf-filename: NS224 선반 설치 및 케이블
+  entries:
+  - title: 쉘프를 핫 추가합니다
+    url: "/ns224/hot-add-shelf.html"
+  - title: 쉘프 ID를 변경합니다
+    url: "/ns224/change-shelf-id.html"
+  - title: 스위치 연결 스토리지로 쉘프를 연결합니다
+    url: "/ns224/cable-as-switch-attached.html"
+- title: 유지 관리
+  pdf-filename: NS224 선반 유지 관리
+  entries:
+  - title: 미디어를 부팅합니다
+    url: "/ns224/service-replace-boot-media.html"
+  - title: DIMM
+    url: "/ns224/service-replace-dimm.html"
+  - title: 드라이브
+    url: "/ns224/service-replace-drive.html"
+  - title: 팬
+    url: "/ns224/service-replace-fan.html"
+  - title: 쉘프 핫 제거
+    url: "/ns224/hot-remove-shelf.html"
+  - title: NSM 모듈
+    url: "/ns224/service-replace-nsm100.html"
+  - title: 전원 공급 장치
+    url: "/ns224/service-replace-power-supply.html"
+  - title: 실시간 시계 배터리
+    url: "/ns224/service-replace-rtc-battery.html"

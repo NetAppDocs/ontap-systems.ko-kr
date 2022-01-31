@@ -1,0 +1,29 @@
+---
+permalink: fas2700/install-videos.html 
+sidebar: sidebar 
+keywords: fas2700, aff a220, video, rack, cable, system, manager, guided, setup, configuration 
+summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설치하고 케이블을 연결하는 방법을 보여 주는 것이고 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 것입니다. 
+---
+= 비디오 - AFF A220 및 FAS2700
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설치하고 케이블을 연결하는 방법을 보여 주는 것이고 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 것입니다.
+
+
+
+== 비디오 2: 하드웨어 설치 및 케이블 연결
+
+다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
+
+https://www.youtube.com/embed/5g-34qxG9HA?rel=0["NetApp 비디오: AFF A220 및 FAS2700 시스템: 설치 및 설정 지침"]
+
+
+
+== 비디오 2: 종단 간 소프트웨어 구성 수행
+
+다음 비디오에서는 ONTAP 9.2 이상을 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.
+
+https://www.youtube.com/embed/WAE0afWhj1c?rel=0["NetApp 비디오: ONTAP 9.2를 실행하는 FAS/AFF 시스템용 vSphere NAS 데이터 저장소의 소프트웨어 구성"]

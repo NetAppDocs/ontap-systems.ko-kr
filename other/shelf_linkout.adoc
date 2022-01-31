@@ -1,0 +1,18 @@
+---
+permalink: other/shelf-linkout.html 
+sidebar: sidebar 
+keywords: ds4243, ds2246, ds4486 
+summary: 다른 스토리지 쉘프 모델에는 이러한 링크를 사용할 수 있습니다. 
+---
+= 그 밖의 스토리지 쉘프 모델
+:icons: font
+:imagesdir: ../media/
+
+
+link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30410["DS2246 디스크 쉘프 문서"]
+
+link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=61387["DS4486 디스크 쉘프 설명서"]
+
+link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=61469["DS4246 디스크 쉘프 문서"]
+
+link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30411&language=en-US&archive=true["DS4243 디스크 쉘프 문서"]

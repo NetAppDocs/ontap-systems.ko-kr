@@ -1,0 +1,97 @@
+---
+section: a700s
+title: AFF A700s 시스템
+url: "/a700s/index.html"
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF A700s 설치 및 설정
+  entries:
+  - title: 클러스터 구성 워크시트
+    url: "/a700s/install-worksheet-linkout.html"
+  - title: 설치 및 설정 환경을 선택합니다
+    url: "/a700s/install-setup.html"
+  - title: 빠른 단계
+    url: "/a700s/install-setup-linkout.html"
+  - title: 비디오 단계
+    url: "/a700s/install-video-linkout.html"
+- title: 유지 관리
+  pdf-filename: AFF A700s는 유지됩니다
+  entries:
+  - title: 미디어를 부팅합니다
+    pdf-filename: AFF A700s는 미디어를 부팅합니다
+    entries:
+    - title: 개요
+      url: "/a700s/bootmedia-replace-overview.html"
+    - title: 온보드 암호화를 확인합니다
+      url: "/a700s/bootmedia-encryption-preshutdown-checks.html"
+    - title: 노드를 종료합니다
+      url: "/a700s/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/a700s/bootmedia-replace.html"
+    - title: 부팅 이미지를 전송합니다
+      url: "/a700s/bootmedia-transfer-boot-image.html"
+    - title: 부팅 복구 이미지
+      url: "/a700s/bootmedia-recovery-image-boot-non-2n-mcc.html"
+    - title: OKM, NSE 및 NVE를 복원합니다
+      url: "/a700s/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/a700s/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: AFF A700s 섀시
+    entries:
+    - title: 개요
+      url: "/a700s/chassis-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a700s/chassis-replace-shutdown.html"
+    - title: 하드웨어를 교체합니다
+      url: "/a700s/chassis-replace-move-hardware.html"
+    - title: 전체 교체
+      url: "/a700s/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러
+    pdf-filename: AFF A700s 컨트롤러
+    entries:
+    - title: 개요
+      url: "/a700s/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a700s/controller-replace-shutdown.html"
+    - title: 컨트롤러 모듈을 교체합니다
+      url: "/a700s/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/a700s/controller-replace-system-config-restore-and-verify.html"
+    - title: 회수 가능 시스템
+      url: "/a700s/controller-replace-recable-reassign-disks.html"
+    - title: 교체 프로세스를 완료합니다
+      url: "/a700s/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    pdf-filename: AFF A700s DIMM
+    url: "/a700s/dimm-replace.html"
+  - title: 팬
+    entries:
+    - title: 손상된 노드를 종료합니다
+      url: "/a700s/fan-impaired-controller-shutdown.html"
+    - title: 컨트롤러 모듈을 분리합니다
+      url: "/a700s/fan-controller-remove.html"
+    - title: 팬
+      pdf-filename: AFF A700s 팬
+      url: "/a700s/fan-replace.html"
+    - title: 컨트롤러 모듈을 다시 설치합니다
+      url: "/a700s/fan-controller-reinstall-pcie-rtc.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/a700s/fan-complete-rma.html"
+  - title: NVRAM 배터리
+    pdf-filename: AFF A700s NVRAM 배터리
+    url: "/a700s/nvmem-nvram-battery-replace.html"
+  - title: NVRAM
+    pdf-filename: AFF A700s NVRAM
+    url: "/a700s/nvram-or-nvram-dimm-replacement.html"
+  - title: PCIe 카드
+    pdf-filename: AFF A700s PCIe 카드
+    url: "/a700s/pci-cards-and-risers-replace.html"
+  - title: 전원 공급 장치
+    pdf-filename: AFF A700s 전원 공급 장치
+    url: "/a700s/power-supply-swap-out.html"
+  - title: 실시간 시계 배터리
+    pdf-filename: AFF A700s 실시간 시계 배터리
+    url: "/a700s/rtc-battery-replace.html"
+  - title: 시스템 레벨 진단
+    url: "/a700s/system-level-diags-linkout.html"

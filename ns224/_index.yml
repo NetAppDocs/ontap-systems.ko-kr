@@ -1,0 +1,49 @@
+---
+indexpage:
+  tiles:
+  - title: 시작하십시오 
+    links:
+    - title: ONTAP 릴리즈 노트
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
+    - title: 스토리지 데이터 시트
+      url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
+  - title: 설치 및 설정
+    links:
+    - title: 쉘프를 핫 추가합니다
+      url: "/hot-add-shelf.html"
+    - title: 쉘프 ID를 변경합니다
+      url: "/change-shelf-id.html"
+    - title: 스위치 연결 스토리지로 쉘프를 연결합니다
+      url: "/cable-as-switch-attached.html"
+  - title: 유지 관리
+    links:
+    - title: 미디어를 부팅합니다
+      url: "/service-replace-boot-media.html"
+    - title: DIMM
+      url: "/service-replace-dimm.html"
+    - title: 드라이브
+      url: "/service-replace-drive.html"
+    - title: 팬
+      url: "/service-replace-fan.html"
+    - title: 쉘프를 핫 제거할 수 있습니다
+      url: "/hot-remove-shelf.html"
+    - title: NSM 모듈
+      url: "/service-replace-nsm100.html"
+    - title: 전원 공급 장치
+      url: "/service-replace-power-supply.html"
+    - title: RTC 배터리
+      url: "/service-replace-rtc-battery.html"
+  - title: 더 많은 리소스
+    links:
+    - title: ONTAP 설명서
+      url: https://docs.netapp.com/us-en/ontap/
+    - title: NetApp Hardware Universe를 참조하십시오
+      url: https://hwu.netapp.com/home/index
+    - title: NetApp Active IQ Config Advisor를 참조하십시오
+      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
+    - title: NetApp 상호 운용성 매트릭스 툴
+      url: https://mysupport.netapp.com/matrix/#welcome
+    - title: NetApp 지원 기술 자료
+      url: https://kb.netapp.com/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

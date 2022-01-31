@@ -1,0 +1,87 @@
+= 
+
+
+. [[man_lif_verify_3_step6]] 각 LIF에 대해 다음 명령을 한 번 입력하여 각 NAS 데이터 LIF를 노드 3으로 마이그레이션합니다.
++
+'network interface migrate -vserver <vserver_name> -lif <LIF_name> -destination-node <node3> -destination-port <NetPort | ifgrp>'
+
+. [[man_lif_verify_3_step7]] 데이터 마이그레이션이 영구한지 확인합니다.
++
+'network interface modify -vserver <vserver_name> -lif <LIF_name> -home-port <NetPort | ifgrp> -home-node <node3>'
+
+. [[man_lif_verify_3_step8]] SAN LIF가 노드 3의 올바른 포트에 있는지 확인합니다.
++
+.. 다음 명령을 입력하고 출력을 검사합니다.
++
+'network interface show-data-protocol iscsi | fcp-home-node <node3>'
+
++
+시스템은 다음 예제와 유사한 출력을 반환합니다.
+
++
+[listing]
+----
+cluster::> net int show -data-protocol iscsi|fcp -home-node node3
+              Logical     Status      Network             Current        Current  Is
+ Vserver      Interface   Admin/Oper  Address/Mask        Node           Port     Home
+ -----------  ----------  ----------  ------------------  -------------  -------  ----
+ vs0
+              a0a         up/down     10.63.0.53/24       node3          a0a      true
+              data1       up/up       10.63.0.50/18       node3          e0c      true
+              rads1       up/up       10.63.0.51/18       node3          e1a      true
+              rads2       up/down     10.63.0.52/24       node3          e1b      true
+ vs1
+              lif1        up/up       172.17.176.120/24   node3          e0c      true
+              lif2        up/up       172.17.176.121/24   node3          e1a      true
+----
+.. 노드 3에 노드 1에 없는 포트에 있거나 다른 포트에 매핑해야 하는 SAN LIF 그룹 또는 SAN LIF가 있는 경우 다음 하위 단계를 완료하여 노드 3의 적절한 포트로 LIF를 이동합니다.
++
+... LIF 상태를 "아래쪽"으로 설정합니다.
++
+'network interface modify -vserver <vserver_name> -lif <LIF_name> -status -admin down'
+
+... 포트 세트에서 LIF를 제거합니다.
++
+' remove-vserver <vserver_name> - 포트셋 <포트셋_이름> -포트-이름 <포트_이름>'
+
+... 다음 명령 중 하나를 입력합니다.
++
+**** 단일 LIF 이동:
++
+'network interface modify -vserver <vserver_name> -lif <LIF_name> -home-port <new_home_port>'
+
+**** 존재하지 않거나 잘못된 단일 포트에 있는 모든 LIF를 새 포트로 이동:
++
+'network interface modify {-home-port <port_on_node1>-home-node <node1>-role data} - home-port <new_home_port_on_node3>'
+
+**** 포트 세트에 LIF를 다시 추가합니다.
++
+'<add-vserver_name> - 포트셋 <포트셋_이름> -포트-이름 <포트_이름>'
+
++
+
+NOTE: SAN LIF를 원래 포트와 동일한 링크 속도를 가진 포트로 이동해야 합니다.
+
+
+
+
+
+
+
+. 모든 LIF의 상태를 "Up"으로 수정하여 LIF가 노드에서 트래픽을 수락 및 전송할 수 있도록 합니다.
++
+'network interface modify -home-port <port_name> -home-node <node3> -lif data-status-admin up'
+
+. 두 노드 중 하나에서 다음 명령을 입력하고 출력을 검사하여 LIF가 올바른 포트로 이동되었으며, LIF가 두 노드 중 하나에 다음 명령을 입력하고 출력을 검사하여 "Up" 상태인지 확인하십시오.
++
+'network interface show-home-node <node3> - role data'
+
+. [[man_lif_verify_3_step11]]LIF가 다운된 경우 각 LIF에 대해 다음 명령을 한 번 입력하여 LIF의 관리 상태를 "Up"으로 설정하십시오.
++
+'network interface modify -vserver <vserver_name> -lif <LIF_name> -status -admin up'
+
+. 노드 1의 경우 업그레이드 후 AutoSupport 메시지를 NetApp에 보냅니다.
++
+'system node AutoSupport invoke -node <node3> -type all-message "node1이 <platform_old>에서 <platform_new>로 업그레이드되었습니다.
+
+

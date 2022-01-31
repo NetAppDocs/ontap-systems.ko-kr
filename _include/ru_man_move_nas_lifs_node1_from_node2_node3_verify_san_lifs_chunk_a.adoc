@@ -1,0 +1,55 @@
+= 
+
+
+원격 LIF는 업그레이드 절차 중에 SAN LUN의 트래픽을 처리합니다. 업그레이드 중에 클러스터 또는 서비스 상태를 위해 SAN LIF를 이동할 필요가 없습니다. SAN LIF는 새 포트에 매핑되지 않으면 이동하지 않습니다. 노드 3을 온라인으로 설정한 후 LIF가 정상 작동하는지 확인합니다.
+
+.단계
+. [[step1]] 노드 중 하나에 다음 명령을 입력하고 출력을 캡처하여 node2가 소유하지 않는 모든 NAS 데이터 LIF를 나열합니다.
++
+'network interface show-role data-curr-node <node2>-is-home false-home-node <node3>'
+
+. [[step2]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 노드 1인 경우 | 그러면... 
+
+
+| 인터페이스 그룹 또는 VLAN이 구성되어 있었습니다 | 로 이동합니다 <<man_lif_verify_3_step3,3단계>>. 
+
+
+| 인터페이스 그룹 또는 VLAN이 구성되지 않았습니다 | 3단계를 건너뛰고 로 이동합니다 <<man_lif_verify_3_step4,4단계>>. 
+|===
+. [[man_lif_verify_3_step3]] 다음 하위 단계를 수행하여 노드 2에서 노드 3으로 노드 1에 원래 있던 인터페이스 그룹 및 VLAN에 호스팅된 NAS 데이터 LIF를 모두 마이그레이션합니다.
++
+.. [[man_lif_verify_3_substa]] 인터페이스 그룹의 노드 1에 있던 노드 2에 호스팅된 데이터 LIF를 노드 3의 포트로 마이그레이션: 각 LIF에 대해 다음 명령을 한 번 입력하여 동일한 네트워크에서 LIF를 호스팅할 수 있습니다.
++
+'network interface migrate -vserver <vserver_name> -lif <LIF_name> -destination-node <node3> – destination-port <NetPort | ifgrp>'
+
+.. 에서 LIF의 홈 포트 및 홈 노드를 수정합니다 <<man_lif_verify_3_substepa,하위 단계 A>> 각 LIF에 대해 다음 명령을 입력하여 현재 LIF를 호스팅하는 포트 및 노드에 대해 다음을 수행합니다.
++
+'network interface modify -vserver <vserver_name> -lif <LIF_name> -home-node <node3> -home-port <NetPort | ifgrp>'
+
+.. [[man_lif_verify_3_substeepc]] 이전에 VLAN 포트의 노드 1에 속해 있던 노드 2에 호스팅된 데이터 LIF를 노드 3의 포트로 마이그레이션: 각 LIF에 대해 다음 명령을 한 번 입력하여 동일한 네트워크에서 LIF를 호스팅할 수 있습니다.
++
+'network interface migrate -vserver <vserver_name> -lif <LIF_name> -destination-node <node3> – destination-port <NetPort | ifgrp>'
+
+.. 에서 LIF의 홈 포트 및 홈 노드를 수정합니다 <<man_lif_verify_3_substepc,하위 단계 c>> 각 LIF에 대해 다음 명령을 입력하여 현재 LIF를 호스팅하는 포트 및 노드에 대해 다음을 수행합니다.
++
+'network interface modify -vserver <vserver_name> -lif <LIF_name> -home-node <node3> -home-port <NetPort | ifgrp>'
+
+
+
+. [[man_lif_verify_3_step4]] 다음 작업 중 하나를 수행합니다.
++
+[cols="25,75"]
+|===
+| 클러스터가 구성된 경우... | 그러면... 
+
+
+| NAS | 완료 <<man_lif_verify_3_step5,5단계>> 및 <<man_lif_verify_3_step6,6단계>>, 7단계를 건너뛰고 완료합니다 <<man_lif_verify_3_step8,8단계>> 부터 까지 <<man_lif_verify_3_step11,11단계>>. 
+
+
+| 산 | 업그레이드 시 노드의 모든 SAN LIF를 비활성화:'network interface modify -vserver <vserver_name> -lif <LIF_name> -home-node <node_to_upgrade> -home-port <NetPort|ifgrp> -status-admin down' 
+|===
+

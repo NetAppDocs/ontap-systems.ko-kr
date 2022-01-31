@@ -1,0 +1,63 @@
+---
+permalink: a800/chassis-replace-shutdown.html 
+sidebar: sidebar 
+keywords: aff a800, shutdown the controllers 
+summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
+---
+= 컨트롤러 종료 - AFF A800
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+새 섀시로 노드를 이동하기 전에 섀시의 노드 또는 노드를 종료해야 합니다.
+
+.이 작업에 대해
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대한 "거짓"이 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/index.html["CLI를 사용한 관리 개요"^].
+* AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+
+
+.단계
+. 시스템에 2개의 컨트롤러 모듈이 있는 경우 HA 쌍을 비활성화합니다.
++
+[cols="1,2"]
+|===
+| 시스템에서 clustered ONTAP을 실행하는 경우... | 그러면... 
+
+
+ a| 
+클러스터 내 2개 노드
+ a| 
+클러스터 ha 수정 설정 false 스토리지 장애 복구 수정 노드 Node0 설정 false
+
+
+
+ a| 
+클러스터에 2개 이상의 노드가 있습니다
+ a| 
+'Storage failover modify -node Node0 -enabled false'
+
+|===
+. 노드를 정지시키고 'system node halt-node_node_name_'을(를) 확인하라는 메시지가 나타나면 'y'를 누릅니다
++
+확인 메시지는 다음과 같습니다.
+
++
+[listing]
+----
+Warning: This operation will cause node "node-name" to be marked as unhealthy. Unhealthy nodes do not participate in quorum voting. If the node goes out of service and one more node goes out of service there will be a data serving failure for the entire cluster. This will cause a client disruption. Use "cluster show" to verify cluster state. If possible bring other nodes online to improve the resiliency of this cluster.
+
+Do you want to continue? {y|n}:
+----
++
+
+NOTE: 비휘발성 메모리(NVMEM/NVRAM)에서 기록되지 않은 데이터가 손실되지 않도록 섀시를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. 시스템에 따라 NVMEM/NVRAM LED가 깜박이면 NVMEM/NVRAM에 디스크에 저장되지 않은 콘텐츠가 있습니다. 노드를 재부팅하고 이 절차의 처음부터 시작해야 합니다. 노드를 완전히 종료하려고 반복적으로 시도하는 경우, 디스크에 저장되지 않은 데이터가 손실될 수 있습니다.
+
+. 해당되는 경우 HA 쌍 구성에서 쿼럼 오류 메시지가 발생하지 않도록 두 번째 노드를 중단합니다. 'system node halt-node_second_node_name_-ignore-quorum-warnings true-skip-lif-migration-before-shutdown true'
++
+메시지가 나타나면 y를 선택합니다.
+
+

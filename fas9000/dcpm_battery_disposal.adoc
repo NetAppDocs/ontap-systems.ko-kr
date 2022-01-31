@@ -1,0 +1,15 @@
+---
+permalink: fas9000/dcpm-battery-disposal.html 
+sidebar: sidebar 
+keywords: aff a700, fas9000, dipose, throw, away, battery, return, batteries, rma, instructions 
+summary: 배터리는 배터리 재활용 또는 폐기에 관한 현지 규정에 따라 폐기해야 합니다. 배터리를 올바르게 폐기할 수 없는 경우 키트와 함께 제공된 RMA 지침에 따라 배터리를 NetApp에 반환해야 합니다. 
+---
+= 배터리 폐기 - AFF A700 및 FAS9000
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+배터리는 배터리 재활용 또는 폐기에 관한 현지 규정에 따라 폐기해야 합니다. 배터리를 올바르게 폐기할 수 없는 경우 키트와 함께 제공된 RMA 지침에 따라 배터리를 NetApp에 반환해야 합니다.
+
+https://library.netapp.com/ecm/ecm_download_file/ECMP12475945[]

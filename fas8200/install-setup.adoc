@@ -1,0 +1,29 @@
+---
+permalink: fas8200/install-setup.html 
+sidebar: sidebar 
+keywords: fas8200, install, setup, initial configuration 
+summary: 시스템을 설치하고 설정합니다. 
+---
+= 여기서 시작: 설치 및 설정 환경을 선택합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+대부분의 구성에서 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.
+
+* link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2573725["빠른 단계"]
++
+추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침의 인쇄 가능한 PDF입니다.
+
+* link:https://youtu.be/WAE0afWhj1c["비디오 단계"^]
++
+단계별 지침을 비디오로 제공합니다.
+
+
+
+MetroCluster 구성의 경우 다음 중 하나를 참조하십시오.
+
+* https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["MetroCluster IP 구성을 설치합니다"^]
+* https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html["MetroCluster 패브릭 연결 구성을 설치합니다"^]
+

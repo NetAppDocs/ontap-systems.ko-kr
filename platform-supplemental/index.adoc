@@ -1,0 +1,11 @@
+---
+permalink: platform-supplemental/index.html 
+sidebar: sidebar 
+keywords: supplemental information, supplemental, information 
+summary: 보충 정보 
+---
+= 보충 정보
+:icons: font
+:imagesdir: ../media/
+
+

@@ -1,0 +1,13 @@
+---
+permalink: a800/install-quick-guide.html 
+sidebar: sidebar 
+keywords: aff a800, quick steps 
+summary: 이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오. 
+---
+= 빠른 단계 - AFF A800
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2842668["AFF A800 시스템 설치 및 설정 지침"^] NetApp 시스템 설치에 익숙한 경우

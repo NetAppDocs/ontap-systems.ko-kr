@@ -1,0 +1,74 @@
+---
+section: fas500f
+title: 500f 시스템 FAS500f
+url: "/fas500f/index.html"
+entries:
+- title: 설치 및 설정
+  pdf-filename: FAS500f 설치 및 설정
+  entries:
+  - title: 설치 및 설정 환경을 선택합니다
+    url: "/fas500f/install-setup.html"
+  - title: 빠른 단계
+    url: "/fas500f/install-quick-guide.html"
+  - title: 비디오 단계
+    url: "/fas500f/install-videos.html"
+  - title: 세부 단계
+    url: "/fas500f/install-detailed-guide.html"
+- title: 유지 관리
+  pdf-filename: 500f의 유지 관리
+  entries:
+  - title: 미디어를 부팅합니다
+    pdf-filename: FAS500f 부팅 미디어
+    entries:
+    - title: 개요
+      url: "/fas500f/bootmedia-replace-overview.html"
+    - title: 온보드 암호화 키를 확인합니다
+      url: "/fas500f/bootmedia-encryption-preshutdown-checks.html"
+    - title: 노드를 종료합니다
+      url: "/fas500f/bootmedia-shutdown.html"
+    - title: 부팅 이미지를 교체합니다
+      url: "/fas500f/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/fas500f/bootmedia-recovery-image-boot-non-2n-mcc.html"
+    - title: OKM, NSE 및 NVE를 복원합니다
+      url: "/fas500f/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas500f/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: FAS500f 섀시
+    entries:
+    - title: 개요
+      url: "/fas500f/chassis-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas500f/chassis-replace-shutdown.html"
+    - title: 하드웨어를 교체합니다
+      url: "/fas500f/chassis-replace-move-hardware.html"
+    - title: 전체 교체
+      url: "/fas500f/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러
+    pdf-filename: 500f 컨트롤러 모듈
+    entries:
+    - title: 개요
+      url: "/fas500f/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas500f/controller-replace-shutdown.html"
+    - title: 컨트롤러 모듈을 교체합니다
+      url: "/fas500f/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/fas500f/controller-replace-system-config-restore-and-verify.html"
+    - title: 회수 가능 시스템
+      url: "/fas500f/controller-replace-recable-reassign-disks.html"
+    - title: 시스템 복원을 완료합니다
+      url: "/fas500f/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    url: "/fas500f/dimm-replace.html"
+  - title: 팬
+    url: "/fas500f/fan-replace.html"
+  - title: 메자닌 카드
+    url: "/fas500f/mezzanine-replace.html"
+  - title: NVMEM 배터리
+    url: "/fas500f/nvmem-battery-replace.html"
+  - title: 전원 공급 장치
+    url: "/fas500f/power-supply-replace.html"
+  - title: 실시간 시계 배터리
+    url: "/fas500f/rtc-battery-replace.html"

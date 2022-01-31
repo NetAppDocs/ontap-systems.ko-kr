@@ -1,0 +1,15 @@
+---
+permalink: platform-supplemental/42u-1280mm-unpack.html 
+sidebar: sidebar 
+keywords: remove, pack, material, surround, system, cabinet, recycle, unpack, unpack the system cabinet 
+summary: 시스템 캐비닛을 제자리에 배치하기 전에 시스템 캐비닛 주변의 포장재를 제거해야 합니다. 캐비닛을 개봉한 후에는 포장재를 재활용해야 합니다. 
+---
+= 시스템 캐비닛의 포장을 풉니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 캐비닛을 제자리에 배치하기 전에 시스템 캐비닛 주변의 포장재를 제거해야 합니다. 캐비닛을 개봉한 후에는 포장재를 재활용해야 합니다.
+
+image::../media/drw_sys_cab_unpacking_instructions_ozeki.gif[drw sys CAB 압축 해제 지침 ozeki]

@@ -1,0 +1,37 @@
+---
+permalink: sas3/overview-cabling-rules-examples.html 
+sidebar: sidebar 
+keywords: disk, shelves, shelf, iom12, module, single-controller, configuration, support, platform, sas, cabling, cable, rule, controller, shelf-to-shelf, connection, rule, controller-to-stack, mini-sas, hd, optical, cable, rule, sas cabling rules 
+summary: IOM12 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되는 다음과 같은 SAS 케이블 연결 규칙, 예제 및 워크시트를 사용할 수 있습니다. 
+---
+= SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+IOM12 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되도록 SAS 케이블 연결 규칙, 워크시트 및 예제 콘텐츠를 필요에 따라 사용할 수 있습니다.
+
+SAS 케이블 연결 규칙 *
+
+* link:install-cabling-rules.html#configuration-rules["설정"]
+* link:install-cabling-rules.html#controller-slot-numbering-rules["컨트롤러 슬롯 번호 지정"]
+* link:install-cabling-rules.html#shelf-to-shelf-connection-rules["쉘프-쉘프 연결"]
+* link:install-cabling-rules.html#controller-to-stack-connection-rules["컨트롤러-스택 연결"]
+* link:install-cabling-rules.html#mini-sas-hd-sas-optical-cable-rules["미니 SAS HD SAS 광 케이블"]
+
+
+* 워크시트 및 예제 케이블 연결 *
+
+* link:install-cabling-worksheets-examples-multipath.html["공통 다중 경로 HA 구성"]
+* link:install-cabling-worksheets-examples-fas2600.html["공통 AFF A200, AFF A220, FAS2600 및 FAS2700 구성"]
+* link:install-worksheets-examples-quadpath.html["4중 경로 HA 구성"]
+
+
+* 케이블링 워크시트 템플릿 *
+
+* link:install-cabling-worksheet-template-multipath.html["다중 경로 연결"]
+* link:install-cabling-worksheet-template-quadpath.html["4중 경로 접속 구성"]
+* link:install-cabling-worksheets-how-to-read-multipath.html["다중 경로 연결을 위해 워크시트를 읽는 방법"]
+* link:install-cabling-worksheets-how-to-read-quadpath.html["4중 경로 연결을 위해 워크시트를 읽는 방법"]
+

@@ -1,0 +1,217 @@
+= 노드 4의 UTA/UTA2 포트를 확인하고 구성합니다
+
+
+
+
+== 노드 4의 UTA/UTA2 포트를 확인하고 구성합니다
+
+노드 4에 온보드 UTA/UTA2 포트 또는 UTA/UTA2A 카드가 있는 경우 업그레이드 시스템을 사용할 방식에 따라 포트 구성을 확인하고 포트를 구성해야 합니다.
+
+UTA/UTA2 포트에 알맞은 SFP+ 모듈이 있어야 합니다.
+
+UTA/UTA2 포트를 네이티브 FC 모드 또는 UTA/UTA2A 모드로 구성할 수 있습니다. FC 모드는 FC 이니시에이터 및 FC 타겟을 지원하며, UTA/UTA2 모드를 사용하면 동시 NIC 및 FCoE 트래픽이 동일한 10GbE SFP+ 인터페이스를 공유할 수 있으며 FC 타겟을 지원합니다.
+
+
+NOTE: NetApp 마케팅 자료에서는 UTA2 용어를 사용하여 CNA 어댑터 및 포트를 참조할 수 있습니다. 그러나 CLI에서는 CNA라는 용어를 사용합니다.
+
+UTA/UTA2 포트는 다음 구성을 사용하여 어댑터 또는 컨트롤러에 있을 수 있습니다.
+
+* UTA/UTA2 카드를 컨트롤러와 동시에 주문했으며 사용자가 요청한 Personality를 구성하기 위해 배송 전에 구성되었습니다.
+* 컨트롤러와 별도로 주문한 UTA/UTA2 카드는 기본 FC 대상 퍼스낼리티로 제공됩니다.
+* 새 컨트롤러의 온보드 UTA/UTA2 포트는 사용자가 요청한 Personality를 구성하기 위해 배송 전에 구성되었습니다.
+
+
+하지만 노드 4의 UTA/UTA2 포트 구성을 확인하고 필요한 경우 이를 변경해야 합니다.
+
+* 주의 *: 시스템에 스토리지 디스크가 있는 경우, 유지보수 모드로 들어가라는 지시가 없는 한 클러스터 프롬프트에서 이 섹션에 있는 명령을 입력합니다. 스토리지 어레이에 연결된 MetroCluster FC 시스템, V-Series 시스템 또는 FlexArray 가상화 소프트웨어가 설치된 시스템에서 UTA/UTA2 포트를 구성하려면 유지 관리 모드에 있어야 합니다.
+
+.단계
+. 노드 4에서 다음 명령 중 하나를 사용하여 포트가 현재 어떻게 구성되어 있는지 확인합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | '시스템 노드 하드웨어 통합 접속 쇼 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 'ucadmin 쇼' 
+|===
++
+다음 예와 유사한 출력이 표시됩니다.
+
++
+....
+*> ucadmin show
+                Current  Current    Pending   Pending   Admin
+Node   Adapter  Mode     Type       Mode      Type      Status
+----   -------  ---      ---------  -------   --------  -------
+f-a    0e       fc       initiator  -          -        online
+f-a    0f       fc       initiator  -          -        online
+f-a    0g       cna      target     -          -        online
+f-a    0h       cna      target     -          -        online
+f-a    0e       fc       initiator  -          -        online
+f-a    0f       fc       initiator  -          -        online
+f-a    0g       cna      target     -          -        online
+f-a    0h       cna      target     -          -        online
+*>
+....
+. 현재 SFP+ 모듈이 원하는 용과 일치하지 않는 경우 올바른 SFP+ 모듈로 교체하십시오.
++
+올바른 SFP+ 모듈을 얻으려면 NetApp 담당자에게 문의하십시오.
+
+. 'system node hardware unified-connect show' 또는 'ucadmin show' 명령의 출력을 확인하여 UTA/UTA2 포트가 원하는 특성을 갖고 있는지 여부를 결정합니다.
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| CNA 포트... | 그러면... 
+
+
+| 원하는 개성을 표현하지 마십시오 | 로 이동합니다 <<man_check_4_Step5,5단계>>. 
+
+
+| 원하는 개성을 갖고 싶어하세요 | 단계 5에서 단계 12까지 건너뛰고 로 이동합니다 <<man_check_4_Step13,13단계>>. 
+|===
+. [[man_check_4_Step5]]다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 디스크 스토리지를 보유하고 있으며 Data ONTAP 8.3을 실행 중입니다 | 노드4를 부팅하고 유지보수 모드:boot_ONTAP maint를 입력합니다 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 로 이동합니다 <<man_check_4_Step6,6단계>>. 이미 유지 관리 모드에 있어야 합니다. 
+|===
+. [[man_check_4_Step6]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 구성 중인 경우... | 그러면... 
+
+
+| UTA/UTA2A 카드의 포트 | 로 이동합니다 <<man_check_4_Step7,7단계>>. 
+
+
+| 온보드 UTA/UTA2 포트 | 7단계를 건너뛰고 로 이동합니다 <<man_check_4_Step8,8단계>>. 
+|===
+. [[man_check_4_Step7] 어댑터가 이니시에이터 모드에 있고 UTA/UTA2 포트가 온라인 상태인 경우 UTA/UTA2 포트를 오프라인으로 전환합니다.
++
+'스토리지 비활성화 어댑터 <adapter_name>'
+
++
+대상 모드의 어댑터는 유지 관리 모드에서 자동으로 오프라인 상태가 됩니다.
+
+. [[man_check_4_Step8]] 현재 구성이 원하는 용과 일치하지 않으면 다음 명령을 입력하여 필요에 따라 구성을 변경합니다.
++
+''ucadmin modify -m fc|CNA-t initiator|target<adapter_name>'
+
++
+** '-m'은 성격 모드: FC 또는 10GbE UTA.
+** '-t'는 FC4 유형이며 타겟이나 이니시에이터입니다.
+
+
++
+
+NOTE: 테이프 드라이브 및 FlexArray 가상화 시스템에는 FC Initiator를 사용해야 합니다. SAN 클라이언트에 FC 타겟을 사용해야 합니다.
+
+. 다음 명령을 입력하고 출력을 확인하여 설정을 확인합니다.
++
+'ucadmin 쇼'
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다  a| 
+.. 다음 명령을 입력합니다.
++
+"중지"
+
++
+부팅 환경 프롬프트에서 시스템이 중지됩니다.
+
+.. 다음 명령을 입력합니다.
++
+부트 ONTAP
+
+
+
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있으며 Data ONTAP 8.3을 실행 중입니다 | 유지보수 모드로 재부팅합니다. 'boot_ONTAP maint 
+|===
+. 설정을 확인합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 'system node hardware unified-connect show' 명령어를 입력한다 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 'ucadmin show' 명령어를 입력한다 
+|===
++
+다음 예제의 출력은 어댑터 "1b"의 FC4 유형이 "이니시에이터"로 변경되고 어댑터 "2a"와 "2b"의 모드가 "CNA"로 변경된다는 것을 보여줍니다.
+
++
+[listing]
+----
+cluster1::> system node hardware unified-connect show
+               Current  Current   Pending  Pending    Admin
+Node  Adapter  Mode     Type      Mode     Type       Status
+----  -------  -------  --------- -------  -------    -----
+f-a    1a      fc       initiator -        -          online
+f-a    1b      fc       target    -        initiator  online
+f-a    2a      fc       target    cna      -          online
+f-a    2b      fc       target    cna      -          online
+4 entries were displayed.
+----
++
+[listing]
+----
+*> ucadmin show
+               Current Current   Pending  Pending    Admin
+Node  Adapter  Mode    Type      Mode     Type       Status
+----  -------  ------- --------- -------  -------    -----
+f-a    1a      fc      initiator -        -          online
+f-a    1b      fc      target    -        initiator  online
+f-a    2a      fc      target    cna      -          online
+f-a    2b      fc      target    cna      -          online
+4 entries were displayed.
+*>
+----
+. 각 포트에 대해 다음 명령 중 하나를 입력하여 타겟 포트를 온라인으로 전환합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 'network fcp adapter modify -node <node_name> - adapter <adapter_name> - state up' 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | 'fcp config <adapter_name> up' 
+|===
+. [[man_check_4_Step13]] 포트에 케이블을 연결합니다.
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 스토리지 디스크가 있습니다 | 로 이동합니다 link:map_ports_node2_node4.html["노드 2의 포트를 노드 4로 매핑합니다"]. 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다 | _Install and boot node4_ 섹션으로 돌아가서 에서 섹션을 다시 시작합니다 link:install_boot_node4.html#Step9["9단계"]. 
+|===
+

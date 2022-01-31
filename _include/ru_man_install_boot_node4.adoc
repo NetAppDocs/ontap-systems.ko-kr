@@ -1,0 +1,456 @@
+= 
+
+
+랙에 노드 4를 설치하고, 노드 2의 연결을 노드 4로 전송하고, 노드 4를 부팅해야 합니다. 또한 노드 2 스페어, 루트에 속한 디스크, 이전에 노드 3에 재배치되지 않은 모든 비루트 애그리게이트를 재할당해야 합니다.
+
+노드 2에 설치된 ONTAP 9의 버전이 같지 않으면 노드 4를 netboot 해야 합니다. 노드 4를 설치한 후 웹 서버에 저장된 ONTAP 9 이미지에서 부팅합니다. 그런 다음 의 지침에 따라 부팅 미디어 장치에 올바른 파일을 다운로드하여 나중에 시스템을 부팅할 수 있습니다 link:prepare_for_netboot.html["netboot를 준비합니다"]
+
+그러나 노드 2에 설치된 Data ONTAP 9의 이후 버전이 같은 경우에는 노드 4를 netboot 하지 않아도 됩니다.
+
+* 중요 *:
+
+* 스토리지 어레이에 연결된 FlexArray 가상화 소프트웨어가 설치된 V-Series 시스템 또는 시스템을 업그레이드하려면 시스템을 업그레이드해야 합니다 <<man_install4_Step1,1단계>> 부터 까지 <<man_install4_Step7,7단계>>에서 이 섹션을 그대로 둡니다 <<man_install4_Step8,8단계>> 및 의 지침을 따릅니다 link:set_fc_uta_uta2_config_node4.html["노드 4에 FC 또는 UTA/UTA2 구성을 설정합니다"] 필요에 따라 유지보수 모드에서 명령을 입력합니다. 그런 다음 이 섹션으로 돌아가서 에서 절차를 재개해야 합니다 <<man_install4_Step9,9단계>>.
+* 그러나 스토리지 디스크가 있는 시스템을 업그레이드하는 경우 이 전체 섹션을 완료한 다음 섹션으로 이동하십시오 link:set_fc_uta_uta2_config_node4.html["노드 4에 FC 또는 UTA/UTA2 구성을 설정합니다"], 클러스터 프롬프트에서 명령 입력
+
+
+.단계
+. [[man_install4_Step1]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 노드 4가 다음과 같은 경우 | 그러면... 
+
+
+| 노드 3과 분리된 섀시 | 로 이동합니다 <<man_install4_Step2,2단계>>. 
+
+
+| 노드 3의 동일한 섀시 | 2단계와 3단계를 건너뛰고 로 이동합니다 <<man_install4_Step4,4단계>>. 
+|===
+. [[man_install4_Step2]] 노드 4에 충분한 랙 공간이 있는지 확인합니다.
++
+노드 4가 노드 3과 다른 섀시에 있는 경우 노드 4를 노드 2와 같은 위치에 배치할 수 있습니다. 노드 3과 노드 4가 동일한 섀시에 있는 경우 노드 4는 이미 적절한 랙 위치에 있습니다.
+
+. 노드 모델의 _설치 및 설치 지침_ 에 나온 지침에 따라 랙에 노드 4를 설치합니다.
+. [[man_install4_Step4]] 노드 4를 케이블로 연결하여 노드 2에서 노드 4로 연결을 이동합니다.
++
+다음 참조는 올바른 케이블 연결에 도움이 됩니다. 로 이동합니다 link:other_references.html["참조"] 링크를 클릭합니다.
+
++
+** _설치 및 설치 지침_ 또는 _FlexArray 가상화 설치 요구 사항 및 노드 4 플랫폼에 대한 참조 _.
+** 디스크 쉘프 가이드를 참조하십시오.
+** ONTAP 9 고가용성 구성 가이드 _
++
+다음 연결부에 케이블을 연결합니다.
+
+** 콘솔(원격 관리 포트)
+** 클러스터 포트
+** 데이터 포트
+** 클러스터 및 노드 관리 포트
+** 스토리지
+** SAN 구성: iSCSI 이더넷 및 FC 스위치 포트
+
+
++
+
+NOTE: 대부분의 플랫폼 모델에 고유한 상호 연결 카드 모델이 있으므로 노드 2에서 노드 4로 상호 연결 카드/FC_VI 카드 또는 상호 연결/FC_VI 케이블 연결을 이동할 필요가 없습니다.
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 노드 4가 다음과 같은 경우 | 그러면... 
+
+
+| 노드 3과 동일한 섀시 | 로 이동합니다 <<man_install4_Step8,8단계>>. 
+
+
+| 노드 3과 분리된 섀시 | 로 이동합니다 <<man_install4_Step6,6단계>>. 
+|===
+. [[man_install4_Step6]]노드 4의 전원을 켠 다음 Ctrl+C를 눌러 부팅을 중단하고 부트 환경 프롬프트에 액세스합니다.
++
+
+NOTE: 노드 4를 부팅할 때 다음 메시지가 나타날 수 있습니다.
+
++
+[listing]
+----
+WARNING: The battery is unfit to retain data during a power
+         outage. This is likely because the battery is
+         discharged but could be due to other temporary
+         conditions.
+         When the battery is ready, the boot process will
+         complete and services will be engaged.
+         To override this delay, press 'c' followed by 'Enter'
+----
+. [[man_install4_Step7]] 6단계에서 경고 메시지가 나타나면 다음 작업을 수행합니다.
++
+.. NVRAM 배터리 부족 이외의 다른 문제를 나타내는 콘솔 메시지를 확인하고 필요한 경우 수정 조치를 수행합니다.
+.. 배터리가 충전되고 부팅 프로세스가 완료될 때까지 기다립니다.
++
+
+WARNING: * 경고: 지연을 무시하지 마십시오. 배터리를 충전하지 않으면 데이터가 손실될 수 있습니다.*
+
+
+
+. [[man_install4_Step8]] 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 시스템이... | 그러면... 
+
+
+| 디스크 및 백엔드 스토리지가 없습니다 | 9단계 - 14단계를 건너뛰고 로 이동합니다 <<man_install4_Step15,15단계>>. 
+
+
+| V-Series 시스템이거나 FlexArray 가상화 소프트웨어가 있으며 스토리지 어레이에 연결되어 있습니다  a| 
+.. node4_의 FC 또는 UTA/UTA2 구성 섹션으로 이동하여 섹션을 완료하십시오 link:set_fc_uta_uta2_config_node4.html#configure-fc-ports-on-node4["노드 4에서 FC 포트를 구성합니다"] 및 시스템에 맞게.
+.. 이 섹션으로 돌아가 나머지 단계를 완료합니다 <<man_install4_Step9,9단계>>.
+
+
+* 중요 *: V-Series 시스템에서 Data ONTAP를 부팅하기 전에 FC 온보드 포트, UTA/UTA2 온보드 포트 및 UTA/UTA2 카드를 재구성해야 합니다.
+
+|===
+. [[man_install4_Step9]] 새 노드의 FC 이니시에이터 포트를 스위치 영역에 추가합니다.
++
+자세한 내용은 스토리지 배열 및 조닝 설명서를 참조하십시오.
+
+. 스토리지 시스템에 FC 이니시에이터 포트를 새 호스트로 추가하여 스토리지 LUN을 새 호스트에 매핑합니다.
++
+자세한 내용은 스토리지 배열 및 조닝 설명서를 참조하십시오.
+
+. 스토리지 시스템의 어레이 LUN과 연결된 호스트 또는 볼륨 그룹에서 WWPN(World Wide Port Name) 값을 수정합니다.
++
+새 컨트롤러 모듈을 설치하면 각 온보드 FC 포트에 연결된 WWPN 값이 변경됩니다.
+
+. 구성에서 스위치 기반 조닝을 사용하는 경우 새 WWPN 값이 반영되도록 조닝을 조정하십시오.
+. 다음 명령을 입력하고 해당 출력을 확인하여 스토리지 LUN이 이제 노드 4에 표시되는지 확인합니다.
++
+'Sysconfig-v'입니다
+
++
+각 FC 이니시에이터 포트에 표시되는 모든 스토리지 LUN이 표시됩니다. 어레이 LUN이 표시되지 않으면 이 섹션 뒷부분의 노드 2에서 노드 4로 디스크를 재할당할 수 없습니다.
+
+. Ctrl-C를 눌러 부팅 메뉴를 표시하고 유지보수 모드를 선택합니다.
+. [[man_install4_Step15]] 유지 관리 모드 프롬프트에서 다음 명령을 입력합니다.
++
+"중지"
+
++
+부팅 환경 프롬프트에서 시스템이 중지됩니다.
+
+. ONTAP용 노드 4 구성:
++
+세트 기본값
+
+. 이 구성에서 FDE를 사용하는 경우 'setup bootarg.storageencryption.support'를 'true'로 설정해야 하며 node2 구성이 로드된 후 부트 루프를 방지하려면 kmip.init.maxwait` 변수를 'off'로 설정해야 합니다.
++
+에테네 부타그 storageencryption.support true
+
++
+'셋프 kmip.init.maxwait off'
+
+. 노드 4에 설치된 ONTAP 버전이 노드 2에 설치된 ONTAP 9 버전과 동일하거나 더 높은 버전인 경우 다음 명령을 입력합니다.
++
+boot_ontap 메뉴
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 업그레이드 중인 시스템의 경우... | 그러면... 
+
+
+| 노드 4에 올바른 또는 최신 ONTAP 버전이 없습니다 | 로 이동합니다 <<man_install4_Step20,20단계>>. 
+
+
+| 노드 4의 ONTAP 버전이 올바르고 현재 버전입니다 | 로 이동합니다 <<man_install4_Step25,25단계>>. 
+|===
+. [[man_install4_Step20]] 다음 작업 중 하나를 선택하여 netboot 연결을 구성합니다.
++
+
+NOTE: 관리 포트와 IP 주소를 netboot 연결로 사용해야 합니다. 업그레이드를 수행하는 동안 데이터 LIF IP 주소를 사용하지 않거나 데이터 중단이 발생할 수 있습니다.
+
++
+[cols="30,70"]
+|===
+| DHCP(Dynamic Host Configuration Protocol)가 다음과 같은 경우 | 그러면... 
+
+
+| 실행 중입니다 | 부트 환경 프롬프트에 'ifconfig e0M-auto'를 입력하여 연결을 자동으로 구성합니다 
+
+
+| 실행 중이 아닙니다 | 부트 환경 프롬프트에 다음 명령을 입력하여 연결을 수동으로 구성합니다. 'ifconfig e0M -addr=<filer_addr> mask=<netmask> -GW=<gateway> DNS=<DNS_addr> domain=<DNS_domain>'<filer_addr>'은 스토리지 시스템의 IP 주소입니다. "<netmask>"는 스토리지 시스템의 네트워크 마스크입니다. '<gateway>'는 스토리지 시스템의 게이트웨이입니다. "<dns_addr>"은 네트워크에 있는 이름 서버의 IP 주소입니다. '<dns_domain>'은 DNS(Domain Name Service) 도메인 이름입니다. 이 선택적 매개 변수를 사용하는 경우 netboot 서버 URL에 정규화된 도메인 이름이 필요하지 않습니다. 서버의 호스트 이름만 있으면 됩니다. * 참고 *: 인터페이스에 다른 매개 변수가 필요할 수 있습니다. 펌웨어 프롬프트에 "help ifconfig"를 입력하여 세부 정보를 확인합니다. 
+|===
+. 노드 4에서 netboot 수행:
++
+[cols="30,70"]
+|===
+| 대상... | 그러면... 
+
+
+| FAS/AFF8000 시리즈 시스템 | "netboot\http://<web_server_ip/path_to_webaccessible_directory>/netboot/kernel` 
+
+
+| 기타 모든 시스템 | "netboot\http://<web_server_ip/path_to_webaccessible_directory/ontap_version>_image.tgz` 
+|===
++
+"<path_to_the_web-Accessible_directory>"는 에서 "<ONTAP_version>_image.tgz"를 다운로드한 위치로 이어져야 합니다 link:prepare_for_netboot.html#man_netboot_Step1["1단계"] netboot_에 대한 준비 섹션에서
+
++
+
+NOTE: 부팅을 중단하지 마십시오.
+
+. 부팅 메뉴에서 옵션 (7) 새 소프트웨어 먼저 설치 를 선택합니다.
++
+이 메뉴 옵션은 새 Data ONTAP 이미지를 다운로드하여 부팅 장치에 설치합니다.
+
++
+다음 메시지는 무시하십시오.
+
++
+""이 절차는 HA 쌍에서 무중단 업그레이드를 지원하지 않습니다."
+
++
+참고 사항은 Data ONTAP의 무중단 업그레이드에는 적용되고 컨트롤러 업그레이드에는 적용되지 않습니다.
+
+. [[man_install4_step23]] 절차를 계속하라는 메시지가 나타나면 y 를 입력하고 패키지를 입력하라는 메시지가 나타나면 URL을 입력합니다.
++
+'\http://<web_server_ip/path_to_web-accessible_directory/ontap_version>_image.tgz`
+
+. 다음 하위 단계를 완료합니다.
++
+.. 다음 프롬프트가 표시되면 "n"을 입력하여 백업 복구를 건너뜁니다.
++
+[listing]
+----
+Do you want to restore the backup configuration now? {y|n}
+----
+.. 다음 프롬프트가 표시되면 y를 입력하여 재부팅합니다.
++
+[listing]
+----
+The node must be rebooted to start using the newly installed software. Do you want to reboot now? {y|n}
+----
++
+부팅 장치가 다시 포맷되고 구성 데이터를 복원해야 하기 때문에 컨트롤러 모듈이 재부팅되지만 부팅 메뉴에서 중지됩니다.
+
+
+
+. [[man_install4_Step25]]부팅 메뉴에서 유지 관리 모드 '5'를 선택하고 부팅을 계속하라는 메시지가 나타나면 'y'를 입력합니다.
+. [[man_install4_Step26]] 계속하기 전에 로 이동합니다 link:set_fc_uta_uta2_config_node4.html["노드 4에 FC 또는 UTA/UTA2 구성을 설정합니다"] 노드의 FC 또는 UTA/UTA2 포트를 필요에 따라 변경합니다. 이 섹션에서 권장된 내용을 변경하고 노드를 재부팅한 다음 유지보수 모드로 전환합니다.
+. 다음 명령을 입력하고 출력을 검사하여 node4의 시스템 ID를 찾습니다.
++
+'디스크 쇼-A'
+
++
+다음 예와 같이 노드의 시스템 ID와 해당 디스크에 대한 정보가 표시됩니다.
+
++
+[listing]
+----
+*> disk show -a
+Local System ID: 536881109
+DISK         OWNER                       POOL   SERIAL NUMBER   HOME
+------------ -------------               -----  -------------   -------------
+0b.02.23     nst-fas2520-2(536880939)    Pool0  KPG2RK6F        nst-fas2520-2(536880939)
+0b.02.13     nst-fas2520-2(536880939)    Pool0  KPG3DE4F        nst-fas2520-2(536880939)
+0b.01.13     nst-fas2520-2(536880939)    Pool0  PPG4KLAA        nst-fas2520-2(536880939)
+......
+0a.00.0                   (536881109)    Pool0  YFKSX6JG                     (536881109)
+......
+----
+. 섹션 앞부분의 노드 3에 재배치되지 않은 노드 2의 스페어, 루트에 속한 디스크 및 루트 이외의 애그리게이트를 재할당합니다 link:relocate_non_root_aggr_node2_node3.html["노드 2에서 노드 3으로 비루트 애그리게이트를 재배치합니다"]:
++
+[cols="35,65"]
+|===
+| 디스크 유형... | 명령 실행... 
+
+
+| 공유 디스크를 사용합니다 | disk reassign -s'<node2_sysid> -d <node4_sysid> -p <node3_sysid>' 
+
+
+| 공유 안 됨 | 디스크 재할당 ''<node2_sysid>-d<node4_sysid>'을(를) 확인합니다 
+|===
++
+"<node2_sysid>" 값에 대해 에서 캡처한 정보를 사용합니다 link:record_node2_information.html#man_node2_info_step10["10단계"] 를 참조하십시오. '<node4_sysid>'의 경우 에 캡처된 정보를 사용합니다 <<man_install4_step23,23단계>>.
+
++
+
+NOTE: '-p' 옵션은 공유 디스크가 있는 경우에만 유지보수 모드에서 필요합니다.
+
++
+"디스크 재할당" 명령은 "<node2_sysid>"이 현재 소유자인 디스크만 재할당합니다.
+
++
+다음과 같은 메시지가 표시됩니다.
+
++
+[listing]
+----
+Partner node must not be in Takeover mode during disk reassignment from maintenance mode.
+Serious problems could result!!
+Do not proceed with reassignment if the partner is in takeover mode. Abort reassignment (y/n)? n
+----
++
+디스크 재할당을 중단하라는 메시지가 나타나면 "n"을 입력합니다.
+
++
+디스크 재할당을 중단하라는 메시지가 표시되면 다음 단계에 표시된 것처럼 일련의 프롬프트에 응답해야 합니다.
+
++
+.. 다음과 같은 메시지가 표시됩니다.
++
+[listing]
+----
+After the node becomes operational, you must perform a takeover and giveback of the HA partner node to ensure disk reassignment is successful.
+Do you want to continue (y/n)? y
+----
+.. 계속하려면 y를 입력하십시오.
++
+다음과 같은 메시지가 표시됩니다.
+
++
+[listing]
+----
+Disk ownership will be updated on all disks previously belonging to Filer with sysid <sysid>.
+Do you want to continue (y/n)? y
+----
+.. 디스크 소유권을 업데이트하려면 "y"를 입력합니다.
+
+
+. 외부 디스크가 있는 시스템에서 내부 및 외부 디스크(예: A800 시스템)를 지원하는 시스템으로 업그레이드하는 경우 노드 4를 루트로 설정하여 노드 2의 루트 애그리게이트에서 부팅되도록 하십시오.
++
+
+WARNING: * 경고: 표시된 정확한 순서로 다음 하위 단계를 수행해야 합니다. 그렇지 않으면 운영 중단이나 데이터 손실이 발생할 수 있습니다. *
+
++
+다음 절차에서는 노드 4가 노드 2의 루트 애그리게이트에서 부팅되도록 설정합니다.
+
++
+.. 노드 2 애그리게이트의 RAID, plex 및 체크섬 정보를 확인합니다.
++
+'gagr status-r'입니다
+
+.. 노드 2 애그리게이트의 전체 상태를 확인합니다.
++
+'기정 상태'입니다
+
+.. 필요한 경우 node2 애그리게이트를 온라인 상태로 전환합니다.
++
+'aggr_online root_aggr_from_<node2>'
+
+.. 노드 4가 원래 루트 애그리게이트로부터 부팅하지 않도록 합니다.
++
+'<root_aggr_on_node4> 오프라인 집계'
+
+.. 노드 2의 루트 애그리게이트를 노드 4의 새 루트 애그리게이트로 설정합니다.
++
+'aggr options aggr_from_<node2> root'
+
+
+
+. 다음 명령을 입력하고 출력을 관찰하여 컨트롤러 및 섀시가 "ha"로 구성되었는지 확인합니다.
++
+하구성 쇼
+
++
+다음 예제는 "ha-config show" 명령의 출력을 보여줍니다.
+
++
+[listing]
+----
+*> ha-config show
+   Chassis HA configuration: ha
+   Controller HA configuration: ha
+----
++
+시스템은 HA 쌍 또는 독립형 구성에 관계없이 PROM에 기록합니다. 독립 실행형 시스템 또는 HA 쌍 내의 모든 구성 요소에서 상태가 동일해야 합니다.
+
++
+컨트롤러 및 섀시가 "ha"로 구성되지 않은 경우 다음 명령을 사용하여 구성을 수정하십시오.
+
++
+ha-config controller ha
+
++
+하구성 수정 섀시 하.
+
++
+MetroCluster 구성이 있는 경우 다음 명령을 사용하여 구성을 수정하십시오.
+
++
+하구성 수정 컨트롤러 MCC
+
++
+하구성 수정 새시 MCC.
+
+. 노드 4의 메일박스 제거:
++
+'데일박스 파기 지역
+
+. 유지 관리 모드 종료:
++
+"중지"
+
++
+부팅 환경 프롬프트에서 시스템이 중지됩니다.
+
+. 노드 3에서 시스템 날짜, 시간 및 시간대를 확인합니다.
++
+다
+
+. 노드 4에서 부팅 환경 프롬프트에서 날짜를 확인합니다.
++
+날짜
+
+. 필요한 경우 노드 4의 날짜를 설정합니다.
++
+'날짜 설정 < mm/dd/yyyy>'
+
+. 노드 4에서 부팅 환경 프롬프트에서 시간을 확인합니다.
++
+'시간'입니다
+
+. 필요한 경우 node4의 시간을 설정합니다.
++
+'세트 시간<hh:mm:ss>'
+
+. 에 설명된 대로 파트너 시스템 ID가 올바르게 설정되어 있는지 확인합니다 <<man_install4_Step26,26단계>> 옵션을 선택합니다.
++
+'printenv partner-sysid
+
+. 필요한 경우 노드 4에서 파트너 시스템 ID를 설정합니다.
++
+'setenv PARTNER-sysid <node3_sysid>'
+
++
+.. 설정을 저장합니다.
++
+'사베에프'
+
+
+
+. 부팅 환경 프롬프트에서 부팅 메뉴로 들어갑니다.
++
+boot_ontap 메뉴
+
+. 부팅 메뉴에서 프롬프트에 "6"을 입력하여 백업 구성 * 에서 플래시 업데이트 옵션을 선택합니다.
++
+다음과 같은 메시지가 표시됩니다.
+
++
+[listing]
+----
+This will replace all flash-based configuration with the last backup to disks. Are you sure you want to continue?:
+----
+. 프롬프트에 y를 입력합니다.
++
+부팅이 정상적으로 진행되면 시스템 ID 불일치 여부를 확인하는 메시지가 표시됩니다.
+
++
+
+NOTE: 시스템이 두 번 재부팅된 후 불일치 경고가 표시될 수 있습니다.
+
+. 불일치를 확인합니다. 노드가 정상적으로 부팅되기 전에 1라운드 재부팅을 완료할 수 있습니다.
+. 노드 4에 로그인합니다.
+

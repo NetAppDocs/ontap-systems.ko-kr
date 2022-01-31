@@ -1,0 +1,113 @@
+---
+prefix: upgrade-arl-auto-app
+entries:
+- title: 애그리게이트 재배치를 사용하여 컨트롤러 하드웨어를 업그레이드합니다
+  entries:
+  - title: 개요
+    url: "/using_aggregate_relocation_to_upgrade_controller_hardware_overview.html"
+  - title: 컨트롤러 업그레이드 프로세스를 자동화합니다
+    url: "/automating_the_controller_upgrade_process.html"
+- title: 애그리게이트 재배치 가이드 사용 여부를 결정합니다
+  url: "/deciding_whether_to_use_the_aggregate_relocation_guide.html"
+- title: 필요한 도구 및 문서
+  url: "/required_tools_and_documentation.html"
+- title: ARL을 사용한 컨트롤러 업그레이드 지침
+  url: "/guidelines_for_upgrading_controllers_with_arl.html"
+- title: MetroCluster 구성의 상태를 확인합니다
+  url: "/verifying_the_health_of_the_metrocluster_configuration.html"
+- title: MetroCluster 구성 오류를 확인합니다
+  url: "/checking_for_metrocluster_configuration_errors.html"
+- title: 전환, 복구, 스위치백을 확인합니다
+  url: "/verifying_switchover,_healing,_and_switchback.html"
+- title: ARL 업그레이드 개요
+  url: "/overview_of_the_arl_upgrade.html"
+- title: 노드 쌍을 업그레이드합니다
+  url: "/upgrading_the_node_pair.html"
+- title: 1단계 업그레이드 준비
+  entries:
+  - title: 개요
+    url: "/stage_1_preparing_for_upgrade_overview.html"
+  - title: 업그레이드할 노드를 준비합니다
+    url: "/preparing_the_nodes_for_upgrade.html"
+  - title: 스토리지 암호화를 위한 외부 키 관리 서버의 IP 주소를 가져옵니다
+    url: "/getting_an_ip_address_of_an_external_key_management_server_for_storage_encryption.html"
+- title: 2단계 노드1 재배치 및 폐기
+  entries:
+  - title: 개요
+    url: "/stage_2_relocating_and_retiring_node1_overview.html"
+  - title: 노드 1이 소유한 루트 이외의 Aggregate 및 NAS 데이터 LIF를 노드 2로 재배치합니다
+    url: "/relocating_non-root_aggregates_and_nas_data_lifs_owned_by_node1_to_node2.html"
+  - title: 장애가 발생하거나 거부권을 행사한 Aggregate를 재배치합니다
+    url: "/relocating_failed_or_vetoed_aggregates.html"
+  - title: 노드1을 폐기합니다
+    url: "/retiring_node1.html"
+  - title: netboot를 준비합니다
+    url: "/preparing_for_netboot.html"
+- title: 3단계 노드 3을 설치하고 부팅합니다
+  entries:
+  - title: 개요
+    url: "/stage_3_installing_and_booting_node3_overview.html"
+  - title: 노드3을 설치하고 부팅합니다
+    url: "/installing_and_booting_node3.html"
+  - title: 노드 3에 FC 또는 UTA/UTA2 구성을 설정합니다
+    url: "/setting_the_fc_or_uta_uta2_configuration_on_node3.html"
+  - title: 노드3 설치를 확인합니다
+    url: "/verifying_the_node3_installation.html"
+  - title: 노드 3에서 키 관리자 구성을 복원합니다
+    url: "/restoring_key-manager_configuration_on_node3.html"
+  - title: 노드 1이 소유하는 루트 이외의 Aggregate 및 NAS 데이터 LIF를 노드 2에서 노드 3으로 이동합니다
+    url: "/moving_non-root_aggregates_and_nas_data_lifs_owned_by_node1_from_node2_to_node3.html"
+- title: 4단계 노드2 재배치 및 폐기
+  entries:
+  - title: 개요
+    url: "/stage_4_relocating_and_retiring_node2_overview.html"
+  - title: 루트 이외의 애그리게이트 및 NAS 데이터 LIF를 노드 2에서 노드 3으로 재배치합니다
+    url: "/relocating_non-root_aggregates_and_nas_data_lifs_from_node2_to_node3.html"
+  - title: 노드2를 폐기합니다
+    url: "/retiring_node2.html"
+- title: 5단계 노드 4를 설치하고 부팅합니다
+  entries:
+  - title: 개요
+    url: "/stage_5_installing_and_booting_node4_overview.html"
+  - title: 노드 4를 설치하고 부팅합니다
+    url: "/installing_and_booting_node4.html"
+  - title: 노드 4에 FC 또는 UTA/UTA2 구성을 설정합니다
+    url: "/setting_the_fc_or_uta_uta2_configuration_on_node4.html"
+  - title: 노드 4 설치를 확인합니다
+    url: "/verifying_the_node4_installation.html"
+  - title: 노드 4의 키 관리자 구성을 복원합니다
+    url: "/restoring_key-manager_configuration_on_node4.html"
+  - title: 노드 2가 소유한 루트 이외의 애그리게이트 및 NAS 데이터 LIF를 노드 3에서 노드 4로 이동합니다
+    url: "/moving_non-root_aggregates_and_nas_data_lifs_owned_by_node2_from_node3_to_node4.html"
+- title: 6단계 업그레이드를 완료합니다
+  entries:
+  - title: 개요
+    url: "/stage_6_completing_the_upgrade_overview.html"
+  - title: MetroCluster FC 구성의 업그레이드를 완료합니다
+    url: "/completing_the_upgrade_for_metrocluster_fc_configuration.html"
+  - title: 새 컨트롤러가 올바르게 설정되었는지 확인합니다
+    url: "/ensuring_that_the_new_controllers_are_set_up_correctly.html"
+  - title: 새 컨트롤러 모듈에서 스토리지 암호화를 설정합니다
+    url: "/setting_up_storage_encryption_on_the_new_controller_module.html"
+  - title: 새 컨트롤러 모듈에서 NetApp Volume Encryption 설정
+    url: "/setting_up_netapp_volume_encryption_on_the_new_controller_module.html"
+  - title: 기존 시스템을 폐기합니다
+    url: "/decommissioning_the_old_system.html"
+  - title: SnapMirror 작업을 재개합니다
+    url: "/resuming_snapmirror_operations.html"
+- title: 문제 해결
+  entries:
+  - title: 개요
+    url: "/troubleshooting_overview.html"
+  - title: 애그리게이트 재배치 실패
+    url: "/aggregate_relocation_failures.html"
+  - title: 애그리게이트 재배치 실패 여부를 확인합니다
+    url: "/checking_for_aggregate_relocation_failure.html"
+  - title: 노드 1의 원래 애그리게이트는 업그레이드 완료 후 노드 4에서 소유합니다
+    url: "/aggregates_originally_on_node1_are_owned_by_node4_after_completion_of_the_upgrade.html"
+  - title: 재부팅, 패닉 또는 전원 껐다 켜기
+    url: "/reboots_panics_or_power_cycles.html"
+  - title: 절차의 여러 단계에서 발생할 수 있는 문제입니다
+    url: "/issues_that_can_arise_in_multiple_stages_of_the_procedure.html"
+  - title: LIF 마이그레이션 실패
+    url: "/lif_migration_failure.html"

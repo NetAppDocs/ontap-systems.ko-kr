@@ -1,0 +1,90 @@
+---
+section: platform-supplemental
+title: 기타 플랫폼 절차
+entries:
+- title: 시스템 레벨 진단
+  entries:
+  - title: 소개
+    url: "/platform-supplemental/sldiag-introduction.html"
+  - title: 요구 사항
+    url: "/platform-supplemental/sldiag-requirements.html"
+  - title: 명령줄 도움말을 사용하는 방법
+    url: "/platform-supplemental/sldiag-use-cli-help.html"
+  - title: 시스템 설치 진단 프로그램을 실행합니다
+    url: "/platform-supplemental/sldiag-system-installation-diagnostics.html"
+  - title: 시스템 패닉 진단을 실행합니다
+    url: "/platform-supplemental/sldiag-system-panic-diagnostics.html"
+  - title: 시스템 응답 속도 저하 진단 유틸리티를 실행합니다
+    url: "/platform-supplemental/sldiag-slow-system-diagnostics.html"
+  - title: 하드웨어 설치 진단 유틸리티를 실행합니다
+    url: "/platform-supplemental/sldiag-hardware-installation-diagnostics.html"
+  - title: 장치 오류 진단을 실행합니다
+    url: "/platform-supplemental/sldiag-device-failure-diagnostics.html"
+- title: SuperRail 키트
+  url: "/platform-supplemental/superrail-install.html"
+- title: AFF A700/FAS9000 2포스트 레일 키트
+  url: "/platform-supplemental/telco-installation-instructions.html"
+- title: 42U 1280 mm 시스템 캐비닛
+  entries:
+  - title: 캐비닛 설치를 준비합니다
+    entries:
+    - title: 캐비닛 기능
+      url: "/platform-supplemental/42u-1280mm-features.html"
+    - title: 필요한 공구/장비
+      url: "/platform-supplemental/42u-1280mm-required-tools.html"
+    - title: 공간 요구 사항 및 캐비닛 치수
+      url: "/platform-supplemental/42u-1280mm-space-and-dimensions.html"
+    - title: 지원되는 PDU 유형 및 사양
+      url: "/platform-supplemental/42u-1280mm-supported-pdu-types-and-specifications.html"
+  - title: 시스템 캐비닛의 포장을 풉니다
+    url: "/platform-supplemental/42u-1280mm-unpack.html"
+  - title: 캐비닛을 설치합니다
+    entries:
+    - title: 개요
+      url: "/platform-supplemental/42u-1280mm-install.html"
+    - title: 캐비닛 상호 연결 키트를 설치합니다
+      url: "/platform-supplemental/42u-1280mm-install-cabinet-interconnect-kit.html"
+    - title: 볼트 다운 키트를 장착하십시오
+      url: "/platform-supplemental/42u-1280mm-install-bolt-down-kit.html"
+    - title: 지지 레일을 설치합니다
+      url: "/platform-supplemental/42u-1280mm-install-additional-rails.html"
+    - title: 장비를 설치합니다
+      url: "/platform-supplemental/42u-1280mm-install-equipment.html"
+    - title: 캐비닛 전원을 켭니다
+      url: "/platform-supplemental/42u-1280mm-power-on.html"
+  - title: PDU를 교체합니다
+    url: "/platform-supplemental/42u-1280mm-replace-pdus.html"
+  - title: 캐비닛 전면 덮개를 반대로 합니다
+    entries:
+    - title: 필요한 것
+      url: "/platform-supplemental/42u-1280mm-reverse-front-door.html"
+    - title: 조명이 들어오는 배지를 제거하십시오
+      url: "/platform-supplemental/42u-1280mm-remove-illuminated-badge.html"
+    - title: 캐비닛 도어를 제거합니다
+      url: "/platform-supplemental/42u-1280mm-remove-door.html"
+    - title: 배지 전원 공급 장치 및 케이블을 이동합니다
+      url: "/platform-supplemental/42u-1280mm-move-badge-ps-and-cabling.html"
+    - title: 도어 힌지 및 잠금 캐치를 반대로 합니다
+      url: "/platform-supplemental/42u-1280mm-reverse-hinge-and-lock.html"
+    - title: 도어 및 조명 배지를 다시 장착하십시오
+      url: "/platform-supplemental/42u-1280mm-reinstall-door-and-badge.html"
+- title: 내부 디스크 드라이브를 스왑 아웃합니다
+  entries:
+  - title: 비디오 개요
+    url: "/platform-supplemental/drive-video.html"
+  - title: 핫 스왑 내장 드라이브
+    entries:
+    - title: 사용할 절차입니다
+      url: "/platform-supplemental/drive-hotswap.html"
+    - title: 핫 스왑 SSD
+      url: "/platform-supplemental/drive-hotswap-drive.html"
+    - title: 핫 스왑 HDD
+      url: "/platform-supplemental/drive-hotswap-sas.html"
+- title: 모든 SAN 어레이 시스템
+  entries:
+  - title: 설치 및 유지 관리
+    url: "/platform-supplemental/all-san-array.html"
+- title: 하드웨어 업그레이드
+  entries:
+  - title: 업그레이드 절차
+    url: "/platform-supplemental/upgrade-linkout.html"

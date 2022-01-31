@@ -1,0 +1,130 @@
+= 
+
+
+노드 2를 종료하고 폐기하기 전에 클러스터 네트워크, 관리, FC 포트 및 NVRAM 시스템 ID에 대한 정보를 기록해야 합니다. 나중에 노드 2를 노드 4에 매핑하고 디스크를 재할당할 때 이 정보가 필요합니다.
+
+.단계
+. 노드 2에서 클러스터 네트워크, 노드 관리, 인터클러스터 및 클러스터 관리 포트를 찾습니다.
++
+'network interface show-curr-node <node_name> - 역할 클러스터, 인터클러스터, notemgmt, 클러스터 관리
+
++
+다음 예제와 같이 시스템에서 클러스터의 해당 노드 및 기타 노드에 대한 LIF를 표시합니다.
+
++
+[listing]
+----
+cluster::> network interface show -curr-node node2 -role
+cluster,intercluster,node-mgmt,cluster-mgmt
+         Logical     Status     Network            Current     Current Is
+Vserver  Interface   Admin/Oper Address/Mask       Node        Port    Home
+-------- ----------  ---------- ------------------ ----------  ------- ----
+node2
+         intercluster up/up     192.168.1.202/24   node2       e0e     true
+         clus1        up/up     169.254.xx.xx/24   node2       e0a     true
+         clus2        up/up     169.254.xx.xx/24   node2       e0b     true
+         mgmt1        up/up     192.168.0.xxx/24   node2       e0c     true
+4 entries were displayed.
+----
++
+
+NOTE: 시스템에 인터클러스터 LIF가 없을 수 있습니다. 클러스터 관리 LIF는 노드 쌍의 한 노드에만 있습니다. 의 예제 출력에 클러스터 관리 LIF가 표시됩니다 link:record_node1_information.html#step["1단계"] IN_레코드 노드1 포트 정보 _.
+
+. 섹션에서 사용할 출력 정보를 캡처합니다 link:map_ports_node2_node4.html["노드 2의 포트를 노드 4로 매핑합니다"].
++
+새 컨트롤러 포트를 이전 컨트롤러 포트에 매핑하려면 출력 정보가 필요합니다.
+
+. 노드 2의 물리적 포트 확인:
++
+'network port show-node <node_name>-type physical'+
+
++
+node_name은 마이그레이션되는 노드입니다.
+
++
+다음 예제와 같이 시스템이 노드 2의 물리적 포트를 표시합니다.
+
++
+[listing]
+----
+cluster::> network port show -node node2 -type physical
+
+                                                             Speed (Mbps)
+Node   Port      IPspace      Broadcast Domain Link   MTU    Admin/Oper
+------ --------- ------------ ---------------- ----- ------- -----------
+node2
+       e0M       Default      IP_address       up       1500  auto/100
+       e0a       Default      -                up       1500  auto/1000
+       e0b       Default      -                up       1500  auto/1000
+       e1a       Cluster      Cluster          up       9000  auto/10000
+       e1b       Cluster      Cluster          up       9000  auto/10000
+5 entries were displayed.
+----
+. 포트와 해당 브로드캐스트 도메인을 기록합니다.
++
+브로드캐스트 도메인은 나중에 이 절차의 뒷부분에 있는 새 컨트롤러의 포트에 매핑되어야 합니다.
+
+. 노드 2의 FC 포트를 확인합니다.
++
+네트워크 FCP 어댑터가 표시됩니다
+
++
+다음 예에서와 같이 노드 2의 FC 포트가 표시됩니다.
+
++
+[listing]
+----
+cluster::> network fcp adapter show -node node2
+                     Connection  Host
+Node         Adapter Established Port Address
+------------ ------- ----------- ------------
+node2
+             0a      ptp         11400
+node2
+             0c      ptp         11700
+node2
+             6a      loop        0
+node2
+             6b      loop        0
+4 entries were displayed.
+----
+. 포트를 기록합니다.
++
+절차의 뒷부분에서 새 FC 포트에 새 FC 포트를 매핑하는 데 출력 정보가 필요합니다.
+
+. 앞서 하지 않은 경우 노드 2에 구성된 인터페이스 그룹 또는 VLAN이 있는지 확인합니다.
++
+ifgrp show를 사용합니다
+
++
+VLAN 쇼
+
++
+섹션의 정보를 사용합니다 link:map_ports_node2_node4.html["노드 2의 포트를 노드 4로 매핑합니다"].
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 만약... | 그러면... 
+
+
+| 에 기록된 NVRAM 시스템 ID 번호입니다 link:prepare_nodes_for_upgrade.html["업그레이드할 노드를 준비합니다"] | 로 이동합니다 link:retire_node2.html["노드2를 폐기합니다"]. 
+
+
+| 에 NVRAM 시스템 ID 번호를 기록하지 않았습니다 link:prepare_nodes_for_upgrade.html["업그레이드할 노드를 준비합니다"] | 완료 <<man_record_2_step9,9단계>> 및 <<man_record_2_step10,10단계>> 다음 섹션으로 이동합니다. link:retire_node2.html["노드2를 폐기합니다"]. 
+|===
+. [[man_record_2_step9]]노드 2의 속성을 표시합니다.
++
+'system node show-instance-node node2'
+
++
+[listing]
+----
+cluster::> system node show -instance -node node2
+                            ...
+                 NVRAM System ID: system_ID
+                           ...
+----
+. [[Man_record_2_step10]] 섹션에 사용할 NVRAM 시스템 ID를 기록합니다 link:install_boot_node4.html["노드 4를 설치하고 부팅합니다"].
+

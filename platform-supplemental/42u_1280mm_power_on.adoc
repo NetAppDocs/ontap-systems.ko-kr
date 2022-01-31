@@ -1,0 +1,33 @@
+---
+permalink: platform-supplemental/42u-1280mm-power-on.html 
+sidebar: sidebar 
+keywords: connect, system, component, pdu, cable, ac, power, source, cabinet, power on the system cabinet 
+summary: PDU에 시스템 구성 요소를 연결하고 PDU 케이블을 AC 전원에 연결한 다음 전원을 켭니다. 
+---
+= 시스템 캐비닛의 전원을 켭니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+PDU에 시스템 구성 요소를 연결하고 PDU 케이블을 AC 전원에 연결한 다음 전원을 켭니다.
+
+시스템 캐비닛의 각 PDU에 대해 사용할 수 있는 별도의 전원 회로가 있어야 합니다.
+
+. PDU에 장비를 연결하고 각 구성 요소의 전원 공급 장치를 시스템 캐비닛의 반대쪽에 있는 PDU에 연결합니다.
+. 시스템 캐비닛의 구멍을 통해 PDU 전원 케이블을 연결합니다.
++
+다음 개구부 중 하나를 사용하십시오.
+
++
+** 시스템 캐비닛 상단
+** 시스템 캐비닛의 후면 도어 하단과 프레임 사이
+** 시스템 캐비닛 아래와 바닥 구멍을 통해
+
+
+. PDU의 전원 스위치 또는 회로 차단기를 끕니다.
+. 각 PDU 전원 케이블을 별도의 AC 회로에 있는 개별 AC 전원에 연결합니다.
+. 전원 스위치 또는 회로 차단기를 PDU에 켭니다.
+. 구성 요소의 전원을 켠 다음 시스템을 부팅합니다.
+. 시스템 캐비닛 도어를 닫고 잠급니다.
+

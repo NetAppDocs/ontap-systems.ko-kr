@@ -1,0 +1,419 @@
+---
+permalink: fas9000/caching-module-and-core-dump-module-replace.html 
+sidebar: sidebar 
+keywords: aff a700, fas9000, replace caching module 
+summary: '시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다.' 
+---
+= 캐싱 모듈을 교체하거나 코어 덤프 모듈 AFF A700 및 FAS9000을 추가/교체합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다. AutoSupport가 활성화되지 않은 경우 모듈 전면에 있는 오류 LED를 통해 장애가 발생한 캐시 모듈을 찾을 수 있습니다. AFF A700 시스템에 NS224 드라이브 쉘프를 설치하는 경우 필요한 1TB, X9170A 코어 덤프 모듈을 추가하거나 교체할 수도 있습니다.
+
+.시작하기 전에
+* 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
+* 캐시 모듈의 핫 스와핑에 대한 지침은 을 참조하십시오 link:../fas9000/caching-module-hot-swap.html["캐시 모듈 핫 스왑"].
+* 캐싱 또는 코어 덤프 모듈을 제거, 교체 또는 추가할 때 로더에 대한 타겟 노드를 중단해야 합니다.
+* AFF A700은 NS224 드라이브 쉘프를 추가하는 경우 필요한 1TB 코어 덤프 모듈 X9170A를 지원합니다.
+* 코어 덤프 모듈은 슬롯 6-1과 6-2에 설치할 수 있습니다. 권장 모범 사례는 슬롯 6-1에 모듈을 설치하는 것입니다.
+* X9170A 코어 덤프 모듈은 핫 스왑이 불가능합니다.
+
+
+
+
+== 1단계: 손상된 컨트롤러 종료
+
+[role="lead"]
+스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.
+
+
+
+=== 옵션 1: 대부분의 구성
+
+손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.
+
+노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/system-admin/index.html["CLI를 사용한 관리 개요"^].
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상 노드의 콘솔에서 'storage failover modify – node local-auto-반환 false'의 자동 반환 기능을 해제합니다
+. 손상된 노드를 LOADER 프롬프트로 가져갑니다.
++
+[cols="1,2"]
+|===
+| 손상된 노드가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+컨트롤러 모듈 제거 로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상 노드인 'storage failover takeover-ofnode_impaired_node_name_'에서 손상된 노드를 인계하거나 중단합니다
+
+손상된 노드에 반환 대기 중... 이 표시되면 Ctrl-C를 누른 다음 "y"로 응답합니다.
+
+를 누릅니다
+
+|===
+
+
+
+
+=== 옵션 2: 컨트롤러가 MetroCluster에 있습니다
+
+
+NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
+
+손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/system-admin/index.html["CLI를 사용한 관리 개요"^].
+* MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.
+
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상 노드의 콘솔에서 'storage failover modify – node local-auto-반환 false'의 자동 반환 기능을 해제합니다
+. 손상된 노드를 LOADER 프롬프트로 가져갑니다.
++
+[cols="1,2"]
+|===
+| 손상된 노드가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+컨트롤러 모듈 제거 로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상 노드인 'storage failover takeover-ofnode_impaired_node_name_'에서 손상된 노드를 인계하거나 중단합니다
+
+손상된 노드에 반환 대기 중... 이 표시되면 Ctrl-C를 누른 다음 "y"로 응답합니다.
+
+를 누릅니다
+
+|===
+
+
+
+
+=== 옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다
+
+[role="lead"]
+손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드 간에 전환해야 합니다.
+
+.이 작업에 대해
+* NetApp Storage Encryption을 사용하는 경우 의 "FIPS 드라이브 또는 SED를 보호되지 않는 모드로 되돌리기" 섹션의 지침에 따라 MSID를 재설정해야 합니다 link:https://docs.netapp.com/us-en/ontap/encryption-at-rest/return-seds-unprotected-mode-task.html["CLI를 통한 NetApp 암호화 개요"^].
+* 정상 노드에 전원을 공급하려면 이 절차의 마지막에 전원 공급 장치를 켜 두어야 합니다.
+
+
+.단계
+. 장애가 발생한 노드가 정상 노드인 'MetroCluster show'로 자동 전환되었는지 확인하려면 MetroCluster 상태를 확인하십시오
+. 자동 절체가 발생했는지 여부에 따라 다음 표에 따라 진행합니다.
++
+[cols="1,2"]
+|===
+| 장애가 있는 노드가... | 그러면... 
+
+
+ a| 
+가 자동으로 전환되었습니다
+ a| 
+다음 단계를 진행합니다.
+
+
+
+ a| 
+가 자동으로 전환되지 않았습니다
+ a| 
+정상 노드인 MetroCluster Switchover에서 계획된 절체 작업을 수행한다
+
+
+
+ a| 
+가 자동으로 전환되지 않고, 'MetroCluster switchover' 명령으로 전환을 시도했으며, 스위치오버가 거부되었습니다
+ a| 
+거부권 메시지를 검토하고 가능한 경우 문제를 해결한 후 다시 시도하십시오. 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십시오.
+
+|===
+. 정상적인 클러스터에서 'MetroCluster 환원 단계 집계' 명령을 실행하여 데이터 애그리게이트를 재동기화합니다.
++
+[listing]
+----
+controller_A_1::> metrocluster heal -phase aggregates
+[Job 130] Job succeeded: Heal Aggregates is successful.
+----
++
+치유가 거부되면 '-override-vetoes' 매개 변수를 사용하여 'MetroCluster 환원' 명령을 재실행할 수 있습니다. 이 선택적 매개 변수를 사용하는 경우 시스템은 복구 작업을 방지하는 모든 소프트 베인을 재정의합니다.
+
+. MetroCluster operation show 명령을 사용하여 작업이 완료되었는지 확인합니다.
++
+[listing]
+----
+controller_A_1::> metrocluster operation show
+    Operation: heal-aggregates
+      State: successful
+Start Time: 7/25/2016 18:45:55
+   End Time: 7/25/2016 18:45:56
+     Errors: -
+----
+. 'storage aggregate show' 명령을 사용하여 애그리게이트의 상태를 확인하십시오.
++
+[listing]
+----
+controller_A_1::> storage aggregate show
+Aggregate     Size Available Used% State   #Vols  Nodes            RAID Status
+--------- -------- --------- ----- ------- ------ ---------------- ------------
+...
+aggr_b2    227.1GB   227.1GB    0% online       0 mcc1-a2          raid_dp, mirrored, normal...
+----
+. MetroCluster 환원 단계 루트 애그리게이트( heal-phase root-aggregate) 명령을 사용하여 루트 애그리게이트를 수정합니다.
++
+[listing]
+----
+mcc1A::> metrocluster heal -phase root-aggregates
+[Job 137] Job succeeded: Heal Root Aggregates is successful
+----
++
+치유가 거부되면 -override-vetoes 매개변수를 사용하여 'MetroCluster 환원' 명령을 재실행할 수 있습니다. 이 선택적 매개 변수를 사용하는 경우 시스템은 복구 작업을 방지하는 모든 소프트 베인을 재정의합니다.
+
+. 대상 클러스터에서 'MetroCluster operation show' 명령을 사용하여 환원 작업이 완료되었는지 확인합니다.
++
+[listing]
+----
+
+mcc1A::> metrocluster operation show
+  Operation: heal-root-aggregates
+      State: successful
+ Start Time: 7/29/2016 20:54:41
+   End Time: 7/29/2016 20:54:42
+     Errors: -
+----
+. 손상된 컨트롤러 모듈에서 전원 공급 장치를 분리합니다.
+
+
+
+
+== 2단계: 캐싱 모듈을 교체하거나 추가하십시오
+
+[role="lead"]
+NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)은 별도의 모듈입니다. NVRAM 모듈의 전면에 있습니다. 캐시 모듈을 교체하거나 추가하려면 슬롯 6의 시스템 뒷면에서 캐시 모듈을 찾은 다음 특정 순서에 따라 교체하십시오.
+
+스토리지 시스템은 상황에 따라 특정 기준을 충족해야 합니다.
+
+* 설치하는 캐싱 모듈에 적합한 운영 체제가 있어야 합니다.
+* 캐싱 용량을 지원해야 합니다.
+* 캐시 모듈을 추가하거나 교체하기 전에 타겟 노드가 LOADER 프롬프트에 있어야 합니다.
+* 대체 캐싱 모듈의 용량은 실패한 캐싱 모듈과 동일해야 하지만 지원되는 다른 공급업체에서 제공하는 것이어야 합니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 슬롯 6에서 캐싱 모듈 전면에 있는 주황색 주의 LED를 통해 장애가 발생한 캐시 모듈을 찾습니다.
+. 캐싱 모듈을 제거합니다.
++
+
+NOTE: 시스템에 다른 캐시 모듈을 추가하는 경우 빈 모듈을 제거하고 다음 단계로 이동합니다.
+
++
+image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거합니다]
+
++
+|===
+
+
+| image:../media/legend_icon_01.png[""] | 주황색 해제 버튼 
+
+
+ a| 
+image:../media/legend_icon_02.png[""]
+| 캐시 모듈 캠 핸들. 
+|===
++
+.. 캐싱 모듈 앞면에 있는 주황색 분리 단추를 누릅니다.
++
+
+NOTE: 번호가 매겨진 문자 I/O 캠 래치를 사용하여 캐싱 모듈을 꺼내지 마십시오. 번호가 매겨진 입출력됨 래치는 캐싱 모듈이 아닌 전체 NVRAM10 모듈을 배출합니다.
+
+.. 캐싱 모듈이 NVRAM10 모듈에서 빠져나올 때까지 캠 핸들을 돌립니다.
+.. 캠 핸들을 사용자 쪽으로 똑바로 천천히 당겨 NVRAM10 모듈에서 캐싱 모듈을 제거합니다.
++
+NVRAM10 모듈에서 제거할 때 캐싱 모듈을 지원해야 합니다.
+
+
+
+. 캐싱 모듈을 설치합니다.
++
+.. 캐싱 모듈의 가장자리를 NVRAM10 모듈의 입구에 맞춥니다.
+.. 캠 핸들이 맞물릴 때까지 캐싱 모듈을 베이에 부드럽게 밀어 넣습니다.
+.. 캠 핸들이 제자리에 고정될 때까지 돌립니다.
+
+
+
+
+
+
+== 3단계: X9170A 코어 덤프 모듈을 추가하거나 교체합니다
+
+[role="lead"]
+1TB 캐시 코어 덤프 X9170A는 AFF A700 시스템에서만 사용됩니다. 코어 덤프 모듈을 핫 스왑할 수 없습니다. 코어 덤프 모듈은 일반적으로 시스템 후면의 슬롯 6-1에 있는 NVRAM 모듈 전면에 있습니다. 코어 덤프 모듈을 교체하거나 추가하려면 슬롯 6-1을 찾은 다음 특정 순서에 따라 추가 또는 교체합니다.
+
+.시작하기 전에
+* 코어 덤프 모듈을 추가하려면 시스템에서 ONTAP 9.8 이상을 실행해야 합니다.
+* X9170A 코어 덤프 모듈은 핫 스왑이 불가능합니다.
+* 코드 덤프 모듈을 추가하거나 교체하기 전에 대상 노드가 LOADER 프롬프트에 있어야 합니다.
+* 각 컨트롤러에 하나씩 X9170 코어 덤프 모듈 2개를 받아야 합니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 장애가 발생한 코어 덤프 모듈을 교체하는 경우 다음을 찾아 제거합니다.
++
+image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거합니다]
+
++
+[cols="1,3"]
+|===
+
+
+| image:../media/legend_icon_01.png[""] | 주황색 해제 버튼 
+
+
+ a| 
+image:../media/legend_icon_02.png[""]
+ a| 
+코어 덤프 모듈 캠 핸들.
+
+|===
++
+.. 모듈 앞면에 있는 주황색 주의 LED를 사용하여 오류가 발생한 모듈을 찾습니다.
+.. 코어 덤프 모듈 앞면에 있는 주황색 분리 단추를 누릅니다.
++
+
+NOTE: 코어 덤프 모듈을 꺼낼 때 번호가 매겨진 입출력부 래치를 사용하지 마십시오. 번호가 매겨진 입출력부 래치는 코어 덤프 모듈이 아니라 전체 NVRAM10 모듈을 배출합니다.
+
+.. 코어 덤프 모듈이 NVRAM10 모듈에서 미끄러지기 시작할 때까지 캠 핸들을 돌립니다.
+.. 캠 핸들을 사용자 쪽으로 똑바로 조심스럽게 당겨 NVRAM10 모듈에서 코어 덤프 모듈을 분리하여 한쪽에 둡니다.
++
+코어 덤프 모듈을 NVRAM10 모듈에서 제거할 때 반드시 지지해야 합니다.
+
+
+
+. 코어 덤프 모듈을 설치합니다.
++
+.. 새 코어 덤프 모듈을 설치하는 경우 슬롯 6-1에서 빈 모듈을 제거합니다.
+.. 코어 덤프 모듈의 가장자리를 NVRAM10 모듈의 입구에 맞춥니다.
+.. 캠 핸들이 맞물릴 때까지 코어 덤프 모듈을 조심스럽게 베이에 밀어 넣습니다.
+.. 캠 핸들이 제자리에 고정될 때까지 돌립니다.
+
+
+
+
+
+
+== 4단계: FRU 교체 후 컨트롤러를 재부팅합니다
+
+[role="lead"]
+FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
+
+.단계
+. LOADER 프롬프트에서 ONTAP를 부팅하려면 bye를 입력합니다.
+
+
+
+
+== 5단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
+
+2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 그러면 이전 사이트의 SVM(Sync-Source Storage Virtual Machine)이 활성 상태이고 로컬 디스크 풀에서 데이터를 제공하는 구성을 정상 운영 상태로 되돌릴 수 있습니다.
+
+이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
+
+.단계
+. 모든 노드가 "enabled" 상태(MetroCluster node show)에 있는지 확인합니다
++
+[listing]
+----
+cluster_B::>  metrocluster node show
+
+DR                           Configuration  DR
+Group Cluster Node           State          Mirroring Mode
+----- ------- -------------- -------------- --------- --------------------
+1     cluster_A
+              controller_A_1 configured     enabled   heal roots completed
+      cluster_B
+              controller_B_1 configured     enabled   waiting for switchback recovery
+2 entries were displayed.
+----
+. 모든 SVM에서 재동기화가 완료되었는지 확인합니다. 'MetroCluster vserver show'
+. 복구 작업에 의해 수행되는 자동 LIF 마이그레이션이 'MetroCluster check lif show'에 성공적으로 완료되었는지 확인합니다
+. 정상적인 클러스터에 있는 모든 노드에서 'MetroCluster 스위치백' 명령을 사용하여 스위치백을 수행합니다.
+. 스위치백 작업이 완료되었는지 확인합니다. 'MetroCluster show'
++
+클러스터가 "대기 중 - 스위치백" 상태에 있으면 스위치백 작업이 여전히 실행 중입니다.
+
++
+[listing]
+----
+cluster_B::> metrocluster show
+Cluster              Configuration State    Mode
+--------------------	------------------- 	---------
+ Local: cluster_B configured       	switchover
+Remote: cluster_A configured       	waiting-for-switchback
+----
++
+클러스터가 '정상' 상태에 있으면 스위치백 작업이 완료됩니다.
+
++
+[listing]
+----
+cluster_B::> metrocluster show
+Cluster              Configuration State    Mode
+--------------------	------------------- 	---------
+ Local: cluster_B configured      		normal
+Remote: cluster_A configured      		normal
+----
++
+스위치백을 완료하는 데 시간이 오래 걸리는 경우 MetroCluster config-replication resync resync-status show 명령을 사용하여 진행 중인 기준선의 상태를 확인할 수 있습니다.
+
+. SnapMirror 또는 SnapVault 구성을 다시 설정합니다.
+
+
+
+
+== 6단계: 장애가 발생한 부품을 NetApp에 반환
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 기술 지원 부서(에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.

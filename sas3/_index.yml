@@ -1,0 +1,55 @@
+---
+indexpage:
+  tiles:
+  - title: 시작하십시오 
+    links:
+    - title: ONTAP 릴리즈 노트
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
+    - title: 스토리지 데이터 시트
+      url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
+  - title: 설치 및 설정
+    links:
+    - title: 새 스토리지 시스템에 쉘프를 설치합니다
+      url: "/install-new-system.html"
+    - title: 쉘프를 핫 추가합니다
+      url: "/install-hot-add-shelf.html"
+    - title: 쉘프 ID를 변경합니다
+      url: "/install-change-shelf-id.html"
+    - title: IOM6 쉘프 스택에 쉘프 핫 추가(혼합 스택)
+      url: "/iom12-hot-add-mix.html"
+    - title: SAS 케이블 연결 규칙, 워크시트 및 예
+      url: "/overview-cabling-rules-examples.html"
+  - title: 유지 관리
+    links:
+    - title: DS224C 또는 DS212C 쉘프의 디스크 드라이브
+      url: "/service-hot-swap-drive-ds224c-ds212c.html"
+    - title: DS460C 쉘프의 디스크 드라이브
+      url: "/service-hot-swap-drive-ds460c.html"
+    - title: DS460C 쉘프의 드라이브 서랍
+      url: "/service-replace-drawer-ds460c.html"
+    - title: DS460C 쉘프에 팬을 탑재합니다
+      url: "/service-replace-fan-ds460c.html"
+    - title: 쉘프를 핫 제거할 수 있습니다
+      url: "/hot-remove-shelf.html"
+    - title: IOM12 모듈
+      url: "/service-hot-swap-iom.html"
+    - title: 전원 공급 장치
+      url: "/service-hot-swap-power-supply.html"
+    - title: 쉘프 LED 상태 조건
+      url: "/service-monitor-leds.html"
+    - title: RTC 배터리
+      url: "/sas3/service-replace-rtc-battery.html"
+  - title: 더 많은 리소스
+    links:
+    - title: ONTAP 설명서
+      url: https://docs.netapp.com/us-en/ontap/
+    - title: NetApp Hardware Universe를 참조하십시오
+      url: https://hwu.netapp.com/home/index
+    - title: NetApp Active IQ Config Advisor를 참조하십시오
+      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
+    - title: NetApp 상호 운용성 매트릭스 툴
+      url: https://mysupport.netapp.com/matrix/#welcome
+    - title: NetApp 지원 기술 자료
+      url: https://kb.netapp.com/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

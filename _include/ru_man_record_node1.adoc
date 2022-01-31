@@ -1,0 +1,190 @@
+= 
+
+
+노드 1을 종료하고 폐기하기 전에 클러스터 네트워크, 관리, FC 포트 및 NVRAM 시스템 ID에 대한 정보를 기록해야 합니다. 나중에 노드 1을 노드 3에 매핑하고 디스크를 재할당할 때 이 정보가 필요합니다.
+
+.단계
+. [[step1]] 다음 명령을 입력하고 출력을 캡처합니다.
++
+네트워크 라우트 쇼
+
++
+다음 예와 유사한 출력이 표시됩니다.
+
++
+[listing]
+----
+ cluster::> network route show
+
+ Vserver        Destination    Gateway      Metric
+  -------------- -------------- ----------- -------
+  iscsi vserver  0.0.0.0/0      10.10.50.1  20
+  node1          0.0.0.0/0      10.10.20.1  10
+  ....
+  node2          0.0.0.0/0      192.169.1.1 20
+----
+. 다음 명령을 입력하고 출력을 캡처합니다.
++
+'vserver services name-service dns show'
+
++
+다음 예와 유사한 출력이 표시됩니다.
+
++
+[listing]
+----
+ cluster::> vserver services name-service dns show
+                                                               Name
+ Vserver        State     Domains                              Servers
+ -------------- --------- ------------------------------------ ---------------
+ node 1 2       enabled   alpha.beta.gamma.netapp.com          10.10.60.10,
+                                                               10.10.60.20
+ vs_base1       enabled   alpha.beta.gamma.netapp.com,         10.10.60.10,
+                          beta.gamma.netapp.com,               10.10.60.20
+ ...
+ ...
+ vs peer1        enabled  alpha.beta.gamma.netapp.com,         10.10.60.10,
+                          gamma.netapp.com                     10.10.60.20
+----
+. [[man_record_node1_step3]] 두 컨트롤러 중 하나에서 다음 명령을 입력하여 노드 1의 클러스터 네트워크 및 노드 관리 포트를 찾습니다.
++
+네트워크 인터페이스 show-curr-node <node1> - 역할 클러스터, 인터클러스터, 노드 관리, 클러스터 관리
+
++
+다음 예제와 같이 시스템에서 클러스터의 노드에 대한 클러스터, 인터클러스터, 노드 관리 및 클러스터 관리 LIF를 표시합니다.
+
++
+[listing]
+----
+ cluster::> network interface show -curr-node <node1>
+            -role cluster,intercluster,node-mgmt,cluster-mgmt
+
+              Logical       Status     Network            Current  Current Is
+  Vserver     Interface     Admin/Oper Address/Mask       Node     Port    Home
+  ----------- ------------- ---------- ------------------ -------- ------- ----
+  vserver1
+              cluster mgmt   up/up     192.168.x.xxx/24   node1    e0c     true
+  node1
+              intercluster   up/up     192.168.x.xxx/24   node1    e0e     true
+              clus1          up/up     169.254.xx.xx/24   node1    e0a     true
+              clus2          up/up     169.254.xx.xx/24   node1    e0b     true
+              mgmt1          up/up     192.168.x.xxx/24   node1    e0c     true
+ 5 entries were displayed.
+----
++
+
+NOTE: 시스템에 인터클러스터 LIF가 없을 수 있습니다.
+
+. 의 명령 출력에서 정보를 캡처합니다 <<man_record_node1_step3,3단계>> 섹션을 참조하십시오 link:map_ports_node1_node3.html["노드 1의 포트를 노드 3으로 매핑합니다"].
++
+새 컨트롤러 포트를 이전 컨트롤러 포트에 매핑하려면 출력 정보가 필요합니다.
+
+. 노드 1에서 다음 명령을 입력합니다.
++
+'network port show-node <node1>-type physical'
+
++
+다음 예에서와 같이 시스템의 노드에 물리적 포트가 표시됩니다.
+
++
+[listing]
+----
+ sti8080mcc-htp-008::> network port show -node sti8080mcc-htp-008 -type physical
+
+ Node: sti8080mcc-htp-008
+
+                                                                  Ignore
+                                            Speed(Mbps)  Health   Health
+ Port  IPspace  Broadcast Domain Link MTU   Admin/Oper   Status   Status
+ ----  -------  ---------------- ---- ----  -----------  -------  -------
+ e0M   Default  Mgmt             up   1500  auto/1000    healthy  false
+ e0a   Default  Default          up   9000  auto/10000   healthy  false
+ e0b   Default  -                up   9000  auto/10000   healthy  false
+ e0c   Default  -                down 9000  auto/-       -        false
+ e0d   Default  -                down 9000  auto/-       -        false
+ e0e   Cluster  Cluster          up   9000  auto/10000   healthy  false
+ e0f   Default  -                up   9000  auto/10000   healthy  false
+ e0g   Cluster  Cluster          up   9000  auto/10000   healthy  false
+ e0h   Default  Default          up   9000  auto/10000   healthy  false
+ 9 entries were displayed.
+----
+. 포트와 해당 브로드캐스트 도메인을 기록합니다.
++
+브로드캐스트 도메인은 나중에 이 절차의 뒷부분에 있는 새 컨트롤러의 새 포트에 매핑되어야 합니다.
+
+. 노드 1에서 다음 명령을 입력합니다.
++
+'network fcp adapter show-node <node1>'
+
++
+다음 예에 표시된 대로 노드의 FC 포트가 표시됩니다.
+
++
+[listing]
+----
+ cluster::> fcp adapter show -node <node1>
+                      Connection  Host
+ Node         Adapter Established Port Address
+ ------------ ------- ----------- ------------
+ node1
+               0a     ptp         11400
+ node1
+               0c     ptp         11700
+ node1
+               6a     loop        0
+ node1
+               6b     loop        0
+ 4 entries were displayed.
+----
+. 포트를 기록합니다.
++
+절차의 뒷부분에서 새 FC 포트에 새 FC 포트를 매핑하는 데 출력 정보가 필요합니다.
+
+. 앞서 구성하지 않은 경우 다음 명령을 입력하여 노드 1에 인터페이스 그룹 또는 VLAN이 구성되어 있는지 확인하십시오.
++
+'network port ifgrp show'
+
++
+네트워크 포트 VLAN 표시
+
++
+섹션의 정보를 사용합니다 link:map_ports_node1_node3.html["노드 1의 포트를 노드 3으로 매핑합니다"].
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="60,40"]
+|===
+| 만약... | 그러면... 
+
+
+| 섹션에서 NVRAM 시스템 ID 번호를 기록했습니다 link:prepare_nodes_for_upgrade.html["업그레이드를 위해 노드를 준비합니다"]. | 다음 섹션으로 이동합니다. link:retire_node1.html["노드1을 폐기합니다"]. 
+
+
+| 섹션에 NVRAM 시스템 ID 번호를 기록하지 않았습니다 link:prepare_nodes_for_upgrade.html["업그레이드를 위해 노드를 준비합니다"] | 완료 <<man_record_node1_step11,11단계>> 및 <<man_record_node1_step12,12단계>> 그런 다음 를 계속 진행합니다 link:retire_node1.html["노드1을 폐기합니다"]. 
+|===
+. [[man_record_node1_step11]] 두 컨트롤러 중 하나에서 다음 명령을 입력합니다.
++
+'System node show-instance-node <node1>'
+
++
+다음 예제와 같이 시스템이 node1에 대한 정보를 표시합니다.
+
++
+[listing]
+----
+ cluster::> system node show -instance -node <node1>
+                              Node: node1
+                             Owner:
+                          Location: GDl
+                             Model: FAS6240
+                     Serial Number: 700000484678
+                         Asset Tag: -
+                            Uptime: 20 days 00:07
+                   NVRAM System ID: 1873757983
+                         System ID: 1873757983
+                            Vendor: NetApp
+                            Health: true
+                       Eligibility: true
+----
+. [[man_record_node1_step12]] 섹션에 사용할 NVRAM 시스템 ID 번호를 기록합니다 link:install_boot_node3.html["노드3을 설치하고 부팅합니다"].
+

@@ -1,0 +1,27 @@
+---
+permalink: ns224/cable-as-switch-attached.html 
+sidebar: sidebar 
+keywords: system, n224, drive, shelves, shelf, switch-attach, storage, cable, cabling, cable ns224 drive shelves as switch-attached storage 
+summary: 'NS224 드라이브 쉘프를 스위치 연결 스토리지\(직접 연결 스토리지\ 아님)로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용하십시오.' 
+---
+= 스위치 연결 스토리지로서의 케이블 선반 — NS224 선반
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NS224 드라이브 쉘프를 직접 연결 스토리지가 아닌 스위치 연결 스토리지로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용합니다.
+
+* 스토리지 스위치를 통해 NS224 드라이브 쉘프 케이블 연결:
++
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2876580["스위치 연결 NS224 드라이브 쉘프 케이블 연결 정보"^]
+
+* 스토리지 스위치 설치:
++
+https://docs.netapp.com/us-en/ontap-systems-switches/index.html["AFF 및 FAS 스위치 문서"^]
+
+* 플랫폼 모델에 대해 스토리지 스위치 및 케이블과 같은 지원되는 하드웨어를 확인합니다.
++
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+
+

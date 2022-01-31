@@ -1,0 +1,25 @@
+---
+permalink: platform-supplemental/telco-installation-instructions.html 
+sidebar: sidebar 
+keywords: aff a700, fas9000, two, post, support, kit, installation, instructions, install, two, post, flush, mid, rail 
+summary: FAS9000 및 AFF A700 시스템에는 2개의 2포스트 지원 레일 키트가 사용할 수 있습니다. 하나의 키트로 시스템을 2-포스트 랙에 플러시 장착할 수 있고 다른 키트를 사용하여 시스템을 2-포스트 랙에 미드마운트할 수 있습니다. 
+---
+= 2포스트 지원 레일 키트 설치 지침 - AFF A700 및 FAS9000
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FAS9000 및 AFF A700 시스템에는 2개의 2포스트 지원 레일 키트가 사용할 수 있습니다. 하나의 키트로 시스템을 2-포스트 랙에 플러시 장착할 수 있고 다른 키트를 사용하여 시스템을 2-포스트 랙에 미드마운트할 수 있습니다.
+
+
+
+== 2-포스트 미드마운트 레일 키트를 장착하십시오
+
+image::../media/drw_telco_mid_mount_1.png[drw Telco MID 마운트 1]
+
+
+
+== 2-포스트 플러시 마운트 레일 키트를 설치합니다
+
+image::../media/drw_telco_front_mount_1.png[drw 통신 전면 마운트 1]

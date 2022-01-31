@@ -1,0 +1,19 @@
+---
+permalink: a800/bootmedia-replace-overview.html 
+sidebar: sidebar 
+keywords: aff a800, replace the boot media 
+summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
+---
+= 부팅 미디어 교체 - AFF A800
+:icons: font
+:imagesdir: ../media/
+
+
+* 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
+* 다음 단계에 따라 올바른 노드에 명령을 적용하는 것이 중요합니다.
++
+** impaired_node는 유지 관리를 수행하는 노드입니다.
+** healy node_는 손상된 노드의 HA 파트너입니다.
+
+
+

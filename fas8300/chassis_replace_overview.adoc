@@ -1,0 +1,17 @@
+---
+permalink: fas8300/chassis-replace-overview.html 
+sidebar: sidebar 
+keywords: fas8300, fas8700, shut, chassis, controller, replace, remove, swap, verify, install, power, supply, metrocluster, aggregates, replacement, process, equipment, rack, ha, state, system 
+summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
+---
+= 섀시를 교체합니다. - FAS8300 및 FAS8700
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+* 이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다.
+* 이 절차는 중단을 따릅니다. 2노드 클러스터의 경우, 다중 노드 클러스터의 서비스 중단이 완전히 완료되고 부분 중단이 발생할 것입니다.
+

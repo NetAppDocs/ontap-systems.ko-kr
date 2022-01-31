@@ -1,0 +1,135 @@
+= 
+
+
+내부 디스크 드라이브로 컨트롤러를 업그레이드하는 경우, 여러 명령을 완료하고 해당 출력을 확인하여 내부 디스크 드라이브에 루트 애그리게이트 또는 데이터 애그리게이트가 없는지 확인해야 합니다.
+
+내부 디스크 드라이브에서 애그리게이트가 포함된 컨트롤러를 업그레이드하지 않을 경우 이 섹션을 건너뛰고 섹션으로 이동하십시오 link:prepare_nodes_for_upgrade.html["업그레이드할 노드를 준비합니다"].
+
+.단계
+. 원래 노드 각각에 대해 한 번씩 노드 쉘을 입력합니다.
++
+'System node run-node <node_name>'입니다
+
+. 내부 드라이브를 표시합니다.
++
+시즈구성-AV
+
++
+다음 예에 표시된 부분 출력에 표시된 것처럼 스토리지를 포함하여 노드의 구성에 대한 자세한 정보가 표시됩니다.
+
++
+....
+
+node> sysconfig -av
+slot 0: SAS Host Adapter 0a (PMC-Sierra PM8001 rev. C, SAS, UP)
+                Firmware rev: 01.11.06.00
+                 Base WWN: 5:00a098:0008a3b:b0
+                 Phy State: [0] Enabled, 6.0 Gb/s
+                            [1] Enabled, 6.0 Gb/s
+                            [2] Enabled, 6.0 Gb/s
+                            [3] Enabled, 6.0 Gb/s
+                ID Vendor Model FW Size
+                00.0 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.1 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.2 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.3 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.4 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.5 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.6 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.7 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.8 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.9 : NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.10: NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+                00.11: NETAPP X306_HMARK02TSSM NA04 1695.4GB (3907029168 512B/sect)
+...
+....
+. 'sysconfig-AV' 명령의 스토리지 출력을 확인하여 내부 디스크 드라이브를 식별한 다음 정보를 기록합니다.
++
+내부 드라이브는 ID의 시작 부분에 "00"이 있습니다. "00"은 내부 디스크 쉘프를, 소수점 이하 숫자는 개별 디스크 드라이브를 나타냅니다.
+
+. [[man_aggr_step4]] 두 컨트롤러 모두에 대해 다음 명령을 입력합니다.
++
+'gagr status-r'입니다
+
++
+다음 예제에서와 같이 부분 출력에 표시된 노드의 애그리게이트 상태가 표시됩니다.
+
++
+[listing]
+----
+node> aggr status -r
+Aggregate aggr2 (online, raid_dp, parity uninit'd!) (block checksums)
+Plex /aggr2/plex0 (online, normal, active)
+RAID group /aggr2/plex0/rg0 (normal, block checksums)
+
+RAID Disk Device    HA SHELF BAY CHAN Pool Type RPM  Used (MB/blks)     Phys (MB/blks)
+--------- --------- -- ----- --- ---- ---- ---- ---- ------------------ ------------------
+dparity   0a.00.1   0a   0    1  SA:B  0   BSAS 7200 1695466/3472315904 1695759/3472914816
+parity    0a.00.3   0a   0    3  SA:B  0   BSAS 7200 1695466/3472315904 1695759/3472914816
+data      0a.00.9   0a   0    9  SA:B  0   BSAS 7200 1695466/3472315904 1695759/3472914816
+...
+----
++
+
+NOTE: Aggregate를 생성하는 데 사용되는 장치는 물리적 디스크가 아니지만 파티션일 수 있습니다.
+
+. 'aggr status -r' 명령의 출력을 확인하여 내부 디스크 드라이브를 사용하는 애그리게이트를 식별한 후 정보를 기록합니다.
++
+이전 단계의 예에서 "aggr2"는 쉘프 ID가 "0"으로 표시된 대로 내부 드라이브를 사용합니다.
+
+. 두 컨트롤러 모두에 대해 다음 명령을 입력합니다.
++
+'거스상태 - y'
+
++
+다음 예제의 부분 출력에 표시된 것처럼 시스템은 Aggregate의 볼륨에 대한 정보를 표시합니다.
+
++
+....
+node> aggr status -v
+...
+ aggr2   online   raid_dp, aggr    nosnap=off, raidtype=raid_dp, raidsize=14,
+                  64-bit           raid_lost_write=on, ignore_inconsistent=off,
+                  rlw_on           snapmirrored=off, resyncsnaptime=60,
+                                   fs_size_fixed=off, lost_write_protect=on,
+                                   ha_policy=cfo, hybrid_enabled=off, percent_snapshot_space=0%,
+                                   free_space_realloc=off, raid_cv=on, thorough_scrub=off
+         Volumes: vol6, vol5, vol14
+...
+ aggr0   online   raid_dp, aggr    root, diskroot, nosnap=off, raidtype=raid_dp,
+                  64-bit           raidsize=14, raid_lost_write=on, ignore_inconsistent=off,
+                  rlw_on           snapmirrored=off,  resyncsnaptime=60, fs_size_fixed=off,
+                                   lost_write_protect=on, ha_policy=cfo, hybrid_enabled=off,
+                                   percent_snapshot_space=0%, free_space_realloc=off, raid_cv=on
+         Volumes: vol0
+....
++
+의 출력을 기반으로 합니다 <<man_aggr_step4,4단계>> 6단계, aggr2는 "0a.00.1", "0a.00.3", "0a.00.9" 등 3개의 내부 드라이브를 사용하며, "aggr2"의 볼륨은 "vol6", "vol5" 및 "vol14"입니다. 또한 6단계 출력의 "aggr0"에 대한 판독값에는 집계 정보의 시작 부분에 "root"라는 단어가 포함되어 있습니다. 루트 볼륨이 포함되어 있음을 나타냅니다.
+
+. 'aggr status -v' 명령의 출력을 확인하여 내부 드라이브에 있는 애그리게이트에 속한 볼륨과 해당 볼륨에 루트 볼륨이 포함되어 있는지 확인하십시오.
+. 각 컨트롤러에 대해 다음 명령을 입력하여 노드 쉘을 종료합니다.
++
+종료
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="35,65"]
+|===
+| 만약 컨트롤러라면 | 그러면... 
+
+
+| 내부 디스크 드라이브에 애그리게이트를 포함하지 마십시오 | 이 절차를 계속합니다. 
+
+
+| 애그리게이트를 포함하지만 내부 디스크 드라이브에는 볼륨을 포함하지 않습니다 | 이 절차를 계속합니다. * 참고 *: 계속하기 전에 애그리게이트를 오프라인 상태로 전환한 다음 내부 디스크 드라이브에서 애그리게이트를 제거해야 합니다. 을 참조하십시오 link:other_references.html["참조"] Aggregate 관리에 대한 자세한 내용은 _Disk 및 Aggregate Power Guide_에 대한 링크를 참조하십시오. 
+
+
+| 내부 드라이브에 루트가 아닌 볼륨이 포함되어 있습니다 | 이 절차를 계속합니다. * 참고 *: 계속하기 전에 볼륨을 외부 디스크 쉘프로 이동하고, 애그리게이트를 오프라인 상태로 전환한 다음, 내부 디스크 드라이브에서 애그리게이트를 제거해야 합니다. 을 참조하십시오 link:other_references.html["참조"] 볼륨 이동에 대한 자세한 내용은 _ 디스크 및 애그리게이트 전원 가이드 _ 에 대한 링크를 참조하십시오. 
+
+
+| 내부 드라이브의 루트 볼륨을 포함합니다 | 이 절차를 계속 진행하지 마십시오. 를 참조하여 컨트롤러를 업그레이드할 수 있습니다 link:other_references.html["참조"] 를 사용하여 _NetApp Support 사이트_에 연결하고, _ 절차를 사용하여 clustered Data ONTAP을 실행하는 노드 쌍에서 컨트롤러 하드웨어 업그레이드 _ 를 수행하여 볼륨을 이동합니다. 
+
+
+| 내부 드라이브에 루트가 아닌 볼륨을 포함하고 외부 스토리지로 볼륨을 이동할 수 없습니다 | 이 절차를 계속 진행하지 마십시오. 볼륨 _ 을(를) 이동하여 clustered Data ONTAP을 실행하는 노드 쌍에서 컨트롤러 하드웨어 업그레이드 절차를 수행하여 컨트롤러를 업그레이드할 수 있습니다. 을 참조하십시오 link:other_references.html["참조"] 이 절차를 액세스할 수 있는 _NetApp Support 사이트_에 대한 링크. 
+|===
+

@@ -1,0 +1,43 @@
+= 
+
+
+루트 볼륨에서 부팅 장치로 구성 정보를 복원해야 합니다.
+
+다음 단계로 진행하기 전에 노드 3과 노드 4에서 다음 단계를 수행하여 한 노드에서 각 단계를 완료한 다음 다른 노드에서 다른 단계를 완료해야 합니다.
+
+.단계
+. LOADER 프롬프트에서 boot 메뉴에 액세스합니다
+. 부팅 메뉴에서 (6) Update flash from backup config(백업 구성에서 플래시 업데이트)를 선택하고 계속할 것인지 묻는 메시지가 나타나면 "y"를 입력합니다.
++
+[listing]
+----
+Please choose one of the following:
+
+(1) Normal Boot.
+(2) Boot without /etc/rc.
+(3) Change password.
+(4) Clean configuration and initialize all disks.
+(5) Maintenance mode boot.
+(6) Update flash from backup config.
+(7) Install new software first.
+(8) Reboot node.
+(9) Configure Advanced Drive Partitioning.
+Selection (1-9)? 6
+
+This will replace all flash-based configuration with the last backup to
+disks. Are you sure you want to continue?: y
+----
++
+업데이트 플래시 프로세스가 몇 분 동안 실행된 후 시스템이 재부팅됩니다.
+
+. 시스템 ID 불일치를 확인하는 메시지가 나타나면 y를 입력합니다.
++
+[listing]
+----
+WARNING: System id mismatch. This usually occurs when replacing CF or NVRAM cards!
+Override system id? {y|n} [n] y
+----
++
+시동 시퀀스가 정상적으로 진행됩니다.
+
+
