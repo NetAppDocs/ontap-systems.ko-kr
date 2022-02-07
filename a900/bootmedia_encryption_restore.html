@@ -5204,7 +5204,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 16:29:39 +0000">01/31/2022</time>
+    <time datetime="2022-02-07 15:45:04 +0000">02/07/2022</time>
     
   
 
@@ -5217,19 +5217,19 @@
           style="border-radius: 50%;"/>
   </a>
   
-  <a target="_blank" href="https://github.com/thrisun">
-    <img  class="avatar avatar-small"
-          alt="thrisun"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/30325635?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
   <a target="_blank" href="https://github.com/netapp-martyh">
     <img  class="avatar avatar-small"
           alt="netapp-martyh"
           width="20" height="20"
           src="https://avatars.githubusercontent.com/u/66496079?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/thrisun">
+    <img  class="avatar avatar-small"
+          alt="thrisun"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/30325635?v=4"
           style="border-radius: 50%;"/>
   </a>
   
@@ -5242,7 +5242,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)가 활성화된 시스템과 관련된 단계를 완료해야 합니다.</p>
+<p>환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)를 복원하는 특정 단계를 완료해야 합니다.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -5309,7 +5309,7 @@
 <p>메시지: Do you wish to halt this node than wait [y/n]? y를 입력합니다</p>
 </li>
 <li>
-<p>LOADER 프롬프트에서 boot_ontap 메뉴 명령을 입력합니다.</p>
+<p>LOADER 프롬프트에서 'boot_ontap menu' 명령을 입력한다.</p>
 </li>
 </ol>
 </div></div></td>
@@ -5324,7 +5324,7 @@
 <p>이 절차를 시작할 때 고객으로부터 받은 온보드 키 관리자의 암호를 입력합니다.</p>
 </li>
 <li>
-<p>백업 데이터를 입력하라는 메시지가 나타나면 이 절차의 시작 부분에서 캡처한 백업 데이터를 붙여 넣습니다. security key-manager backup show 또는 security key-manager 온보드 show-backup 명령의 출력을 붙여 넣습니다.</p>
+<p>백업 데이터를 입력하라는 메시지가 나타나면 이 섹션의 시작 부분에 캡처한 백업 데이터를 붙여 넣습니다. Security key-manager backup show 또는 security key-manager 온보드 show-backup 명령의 출력을 붙여 넣는다.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -5332,7 +5332,7 @@
 <img src="/us-en/ontap-systems/images/note.svg" alt="참고">
 </td>
 <td class="content">
-이 데이터는 보안 키 관리자 backup show 또는 보안 키 관리자 온보드 show-backup 명령에서 출력됩니다.
+이 데이터는 보안 키 관리자 백업 쇼 또는 보안 키 관리자 온보드 show-backup 명령을 통해 출력됩니다.
 </td>
 </tr>
 </table>
@@ -5342,6 +5342,16 @@
 </div>
 <div class="paragraph">
 <p>백업 데이터 입력:</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>------------------------------ 백업 시작 ------------------------------------------------------- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACOVAAABAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVHAVH0AAVAAVAAVHAAVHAAAHABOH0AAH0AAHAAAH0AAH0AAHAAAHAAAHAAAH0AAH0AAAAAAAAHAAAH0AAAAHAAAHAAAHAAAHAAAHAAAH0AAHAAAHAAAH0AAAAAAAAAAAAAAAAH0AAAAAAAAAAAAHAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAAA . . . H4nPQM0nrDRYRA9SCv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+</div>
+<div class="paragraph">
+<p>+---------------------------- 엔드 백업 ------------------------</p>
+</div>
+</div>
 </div>
 </li>
 <li>
@@ -5388,7 +5398,7 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 </div>
 </li>
 <li>
-<p>반환이 완료되면 'storage failover show' 및 storage failover show-반환 명령을 사용하여 페일오버 및 반환 상태를 확인하십시오.</p>
+<p>반환이 완료되면 'storage failover show' 및 'storage failover show-반환' 명령을 사용하여 페일오버 및 반환 상태를 확인하십시오.</p>
 <div class="paragraph">
 <p>CFO 애그리게이트(루트 애그리게이트 및 CFO 스타일 데이터 애그리게이트)만 표시됩니다.</p>
 </div>
@@ -5398,10 +5408,10 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>보안 키 관리자 온보드 동기화 명령을 실행한 다음 메시지가 나타나면 암호를 입력합니다.</p>
+<p>Security key-manager 온보드 sync 명령을 실행한 다음 메시지가 나타나면 암호를 입력합니다.</p>
 </li>
 <li>
-<p>보안 키 관리자 키 쿼리 명령을 입력하여 온보드 키 관리자에 저장된 모든 키의 세부 보기를 확인하고 모든 인증 키에 대해 "restored" 열 = "yes/true"인지 확인합니다.</p>
+<p>'Security key-manager key-query' 명령어를 입력하여 Onboard Key Manager에 저장된 모든 키의 상세 보기를 확인하고 모든 인증 키의 복원된 칼럼 = yes/true를 확인한다.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -5428,7 +5438,7 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 <p>'storage failover -fromnode local' 명령을 사용하여 타겟 노드를 다시 지정합니다.</p>
 </li>
 <li>
-<p>'storage failover show' 명령을 사용하여 완료 후 3분 동안 반환 상태를 확인하십시오.</p>
+<p>'storage failover show' 명령을 사용하여 완료 후 3분 후에 반환 상태를 확인하십시오.</p>
 <div class="paragraph">
 <p>20분 후 기브백이 완료되지 않으면 고객 지원 팀에 문의하십시오.</p>
 </div>
@@ -5440,10 +5450,10 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 </div>
 </li>
 <li>
-<p>콘솔 케이블을 타겟 노드로 이동하고 version -v 명령을 실행하여 ONTAP 버전을 확인합니다.</p>
+<p>콘솔 케이블을 대상 노드로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인한다.</p>
 </li>
 <li>
-<p>스토리지 페일오버 modify -node local -auto -반환 true 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 작업을 복구합니다.</p>
+<p>'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.</p>
 </li>
 </ol>
 </div>
@@ -5492,7 +5502,7 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 <p>파트너 노드에 로그인합니다.</p>
 </li>
 <li>
-<p>스토리지 페일오버 show 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.</p>
+<p>'storage failover show' 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.</p>
 </li>
 </ol>
 </div></div></td>
@@ -5537,20 +5547,20 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 <li>
 <p>클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.</p>
 <div class="paragraph">
-<p>"false"로 표시된 인터페이스가 있으면 net int revert 명령을 사용하여 해당 인터페이스를 홈 포트로 되돌립니다.</p>
+<p>만약 어떤 인터페이스가 false로 나열된다면, net int revert 명령을 사용하여 그 인터페이스를 홈 포트로 되돌리십시오.</p>
 </div>
 </li>
 <li>
-<p>콘솔 케이블을 타겟 노드로 이동하고 version -v 명령을 실행하여 ONTAP 버전을 확인합니다.</p>
+<p>콘솔 케이블을 대상 노드로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인한다.</p>
 </li>
 <li>
-<p>스토리지 페일오버 modify -node local -auto -반환 true 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 작업을 복구합니다.</p>
+<p>'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.</p>
 </li>
 <li>
-<p>클러스터 셸 프롬프트에서 스토리지 암호화 disk show 를 사용하여 출력을 검토합니다.</p>
+<p>클러스터 셸 프롬프트에서 '스토리지 암호화 디스크 표시&#8217;를 사용하여 출력을 검토합니다.</p>
 </li>
 <li>
-<p>보안 키 관리자 키 쿼리 명령을 사용하여 키 관리 서버에 저장된 인증 키의 키 ID를 표시합니다.</p>
+<p>Security key-manager key-query 명령을 사용하여 키 관리 서버에 저장된 암호화 및 인증 키를 표시합니다.</p>
 <div class="ulist">
 <ul>
 <li>
@@ -5574,7 +5584,7 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 <li>
 <p>Key Manager type="Onboard" 및 "restored" column = yes/true" 이외의 경우 보안 키 관리자 온보드 동기화 명령을 사용하여 Key Manager 유형을 다시 동기화하십시오.</p>
 <div class="paragraph">
-<p>보안 키 관리자 키 쿼리를 사용하여 모든 인증 키에 대해 "restored" 열 = "yes/true"인지 확인합니다.</p>
+<p>Security key-manager key-query 명령을 사용하여 모든 인증 키에 대해 restored column = yes/true인지 확인한다.</p>
 </div>
 </li>
 </ul>
@@ -5587,7 +5597,7 @@ CIFS를 종료하면 데이터가 손실될 수 있습니다.
 <p>스토리지 페일오버 반환 -fromnode local 명령을 사용하여 노드를 다시 제공합니다.</p>
 </li>
 <li>
-<p>스토리지 페일오버 modify -node local -auto -반환 true 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 작업을 복구합니다.</p>
+<p>'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.</p>
 </li>
 </ol>
 </div>

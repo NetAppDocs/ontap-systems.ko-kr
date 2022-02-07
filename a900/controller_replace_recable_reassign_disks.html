@@ -5204,7 +5204,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 16:29:39 +0000">01/31/2022</time>
+    <time datetime="2022-02-07 15:45:04 +0000">02/07/2022</time>
     
   
 
@@ -5300,16 +5300,16 @@
 <p>replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</p>
 </li>
 <li>
-<p>system ID mismatch에 의한 시스템 ID를 override 하라는 메시지가 나타나면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 y를 입력합니다</p>
+<p>system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 y를 입력합니다</p>
 </li>
 <li>
-<p>replacement_node 콘솔에 'waiting for 반환&#8230;&#8203;' 메시지가 표시될 때까지 기다린 다음, 정상 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. storage failover show</p>
+<p>replacement_node 콘솔에 'waiting for 반환&#8230;&#8203;' 메시지가 표시될 때까지 기다린 후 정상적인 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. 'storage failover show</p>
 <div class="paragraph">
 <p>명령 출력에는 손상된 노드에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage failover show
+<pre>node1&gt; `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -5377,7 +5377,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>반환이 완료된 후 HA 쌍이 정상 상태이며 테이크오버 가능 여부를 확인합니다. 스토리지 페일오버가 표시됩니다</p>
+<p>기브백이 완료된 후 HA 쌍이 정상 작동 중인지, 그리고 테이크오버가 가능한지, 즉 '스토리지 페일오버 표시&#8217;인지 확인합니다</p>
 <div class="paragraph">
 <p>'storage failover show' 명령의 출력에는 파트너 메시지에서 변경된 시스템 ID가 포함되지 않아야 합니다.</p>
 </div>
@@ -5392,7 +5392,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage disk show -ownership
+<pre>node1&gt; `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
@@ -5407,7 +5407,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 <li>
 <p>시스템이 MetroCluster 구성인 경우 'MetroCluster node show' 노드의 상태를 모니터링한다</p>
 <div class="paragraph">
-<p>MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. 'MetroCluster node show-fields node-systemid' 명령 출력에는 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID가 표시됩니다.</p>
+<p>MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. ''MetroCluster node show-fields node-systemid'' 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</p>
 </div>
 </li>
 <li>

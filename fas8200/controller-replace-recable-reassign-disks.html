@@ -5204,7 +5204,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 16:29:39 +0000">01/31/2022</time>
+    <time datetime="2022-02-07 15:45:04 +0000">02/07/2022</time>
     
   
 
@@ -5302,7 +5302,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage failover show
+<pre>node1&gt; `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -5385,7 +5385,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage disk show -ownership
+<pre>node1&gt; `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
@@ -5434,7 +5434,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 </div>
 </li>
 <li>
-<p>정상 노드인 MetroCluster node show-fields node-systemid, dr-partner-systemid에서 기존 시스템 ID를 봅니다</p>
+<p>정상 노드의 기존 시스템 ID를 보면 MetroCluster node show-fields node-systemid, dr-partner-systemid가 보입니다</p>
 <div class="paragraph">
 <p>이 예에서 Node_B_1은 이전 시스템 ID가 11807329인 이전 노드입니다.</p>
 </div>

@@ -5204,7 +5204,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 16:29:39 +0000">01/31/2022</time>
+    <time datetime="2022-02-07 15:45:04 +0000">02/07/2022</time>
     
   
 
@@ -5973,7 +5973,7 @@ aggr_b2    227.1GB   227.1GB    0% online       0 mcc1-a2          raid_dp, mirr
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage failover show
+<pre>node1&gt; `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -6043,7 +6043,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 <li>
 <p>기브백이 완료된 후 HA 쌍이 정상 작동 중인지, 그리고 테이크오버가 가능한지, 즉 '스토리지 페일오버 표시&#8217;인지 확인합니다</p>
 <div class="paragraph">
-<p>'storage failover show' 명령의 출력 파트너 시스템 ID 변경 메시지를 포함해서는 안 됩니다.</p>
+<p>'storage failover show' 명령의 출력에는 'system ID changed on partner' 메시지가 포함되지 않아야 한다.</p>
 </div>
 </li>
 </ol>
@@ -6056,7 +6056,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage disk show -ownership
+<pre>node1&gt; `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
@@ -6155,7 +6155,7 @@ dr-group-id            cluster node           configuration-state
 </div>
 </li>
 <li>
-<p>정상 노드인 MetroCluster node show-fields node-systemid, dr-partner-systemid에서 기존 시스템 ID를 봅니다</p>
+<p>정상 노드의 기존 시스템 ID를 보면 MetroCluster node show-fields node-systemid, dr-partner-systemid가 보입니다</p>
 <div class="paragraph">
 <p>이 예에서 Node_B_1은 이전 시스템 ID가 11807329인 이전 노드입니다.</p>
 </div>
@@ -6317,21 +6317,26 @@ dr-group-id            cluster node           configuration-state
 <div class="paragraph lead">
 <p>이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.</p>
 </div>
-<div class="paragraph">
+<div class="olist arabic">
+<div class="title">단계</div>
+<ol class="arabic">
+<li>
 <p>에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 <a href="https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html">"CLI를 통한 NetApp 암호화 개요"</a>.</p>
-</div>
-<div class="paragraph">
+</li>
+<li>
 <p>온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
-<p>"'온보드 키 관리 암호화 키 복원'"</p>
+<p><a href="https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html">"온보드 키 관리 암호화 키를 복원합니다"</a></p>
 </li>
 <li>
-<p>"'외부 키 관리 암호화 키 복원'"</p>
+<p><a href="https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html">"외부 키 관리 암호화 키를 복원합니다"</a></p>
 </li>
 </ul>
+</div>
+</li>
+</ol>
 </div>
 </div>
 </div>

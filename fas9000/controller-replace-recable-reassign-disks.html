@@ -5204,7 +5204,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 16:29:39 +0000">01/31/2022</time>
+    <time datetime="2022-02-07 15:45:04 +0000">02/07/2022</time>
     
   
 
@@ -5305,7 +5305,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage failover show
+<pre>node1&gt; `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -5388,7 +5388,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage disk show -ownership
+<pre>node1&gt; `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
@@ -5403,7 +5403,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 <li>
 <p>시스템이 MetroCluster 구성인 경우 'MetroCluster node show' 노드의 상태를 모니터링한다</p>
 <div class="paragraph">
-<p>MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력에는 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID가 표시됩니다.</p>
+<p>MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</p>
 </div>
 </li>
 <li>

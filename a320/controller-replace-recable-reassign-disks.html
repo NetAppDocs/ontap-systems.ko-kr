@@ -5195,7 +5195,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 16:29:39 +0000">01/31/2022</time>
+    <time datetime="2022-02-07 15:45:04 +0000">02/07/2022</time>
     
   
 
@@ -5279,7 +5279,7 @@
 <p>replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다</p>
 </li>
 <li>
-<p>system ID mismatch에 의한 시스템 ID를 override 하라는 메시지가 나타나면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 y를 입력합니다</p>
+<p>system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 y를 입력합니다</p>
 </li>
 <li>
 <p>replacement_node 콘솔에 'waiting for 반환&#8230;&#8203;' 메시지가 표시될 때까지 기다린 후 정상적인 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. 'storage failover show</p>
@@ -5288,7 +5288,7 @@
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage failover show
+<pre>node1&gt; `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -5371,7 +5371,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>node1&gt; storage disk show -ownership
+<pre>node1&gt; `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
