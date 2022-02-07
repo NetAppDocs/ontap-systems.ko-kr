@@ -399,9 +399,9 @@ NOTE: 기브백이 거부되면 거부권을 재정의할 수 있습니다.
 +
 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/high-availability/ha_manual_giveback.html#if-giveback-is-interrupted["수동 반환 명령"^] 거부권을 무효화하기 위한 주제.
 
-.. 반환이 완료된 후 HA 쌍이 정상 상태이며 테이크오버 가능 여부를 확인합니다. 스토리지 페일오버가 표시됩니다
+.. 기브백이 완료된 후 HA 쌍이 정상 작동 중인지, 그리고 테이크오버가 가능한지, 즉 '스토리지 페일오버 표시'인지 확인합니다
 +
-스토리지 failover show 명령의 출력에는 파트너 메시지에서 변경된 시스템 ID가 포함되어서는 안 됩니다.
+'storage failover show' 명령의 출력에는 파트너 메시지에서 변경된 시스템 ID가 포함되지 않아야 합니다.
 
 
 
@@ -424,7 +424,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 ----
 . 시스템이 MetroCluster 구성인 경우 'MetroCluster node show' 노드의 상태를 모니터링한다
 +
-MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력에는 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID가 표시됩니다.
+MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.
 
 . 노드가 MetroCluster 구성에 있는 경우 MetroCluster 상태에 따라 원래 소유자가 재해 사이트의 노드인 경우 DR 홈 ID 필드에 디스크의 원래 소유자가 표시되는지 확인합니다.
 +
@@ -464,12 +464,14 @@ dr-group-id            cluster node           configuration-state
 [role="lead"]
 이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.
 
-에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"].
+.단계
+. 에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"].
+. 온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
++
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html["온보드 키 관리 암호화 키를 복원합니다"]
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html["외부 키 관리 암호화 키를 복원합니다"]
 
-온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
 
-* "'온보드 키 관리 암호화 키 복원'"
-* "'외부 키 관리 암호화 키 복원'"
 
 
 

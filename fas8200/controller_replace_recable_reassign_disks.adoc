@@ -53,7 +53,7 @@ replacement_node를 부팅할 때 시스템 ID 변경을 확인한 다음 변경
 +
 [listing]
 ----
-node1> storage failover show
+node1> `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -104,7 +104,7 @@ replacement_node에 속한 디스크는 새 시스템 ID를 표시해야 합니�
 +
 [listing]
 ----
-node1> storage disk show -ownership
+node1> `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
@@ -136,7 +136,7 @@ ONTAP를 실행하는 2노드 MetroCluster 구성에서는 시스템을 정상 �
 +
 시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 Y를 입력해야 합니다.
 
-. 정상 노드인 MetroCluster node show-fields node-systemid, dr-partner-systemid에서 기존 시스템 ID를 봅니다
+. 정상 노드의 기존 시스템 ID를 보면 MetroCluster node show-fields node-systemid, dr-partner-systemid가 보입니다
 +
 이 예에서 Node_B_1은 이전 시스템 ID가 11807329인 이전 노드입니다.
 

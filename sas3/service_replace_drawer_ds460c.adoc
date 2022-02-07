@@ -76,6 +76,7 @@ NOTE: * 가능한 하드웨어 손상: * 선반의 정전기 방전 손상을 �
 image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[28 DWG e2860 de460c 팬 캐니스터 핸들과 설명선]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -94,6 +95,7 @@ image:../media/legend_icon_01.png[""]
 image::../media/2860_dwg_full_back_view_chain_connectors.gif[2860 DWG 풀 백 뷰 체인 커넥터]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -126,6 +128,7 @@ image:../media/legend_icon_03.png[""]
 image::../media/2860_dwg_vertical_ring_for_chain.gif[체인용 2860 DWG 수직 링]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -147,6 +150,7 @@ image:../media/legend_icon_01.png[""]
 image::../media/2860_dwg_horiz_ring_for_chain.gif[2860 DWG 수평 링이 체인에 사용됩니다]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -230,6 +234,7 @@ NOTE: * 데이터 액세스 손실 가능성: * 자기장을 사용하면 드라
 image::../media/92_pht_de6600_drive_drawer_release_lever.gif[92 PHT de6600 드라이브 서랍 분리 레버]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -270,6 +275,7 @@ image:../media/legend_icon_01.png[""]
 image::../media/92_pht_de6600_lock_out_tumbler_detail.gif[92 PHT de6600 락아웃 텀블러 디테일]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -319,6 +325,7 @@ image::../media/dwg_trafford_drawer_with_hdds_callouts.gif[HDD 속성 표시기�
 image::../media/28_dwg_e2860_de460c_drive_cru.gif[28 DWG e2860 de460c 드라이브 CRU]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -418,6 +425,7 @@ image:../media/legend_icon_02.png[""]
 image::../media/2860_dwg_guide_rail.gif[2860 DWG 가이드 레일]
 
 +
+[cols="10,90"]
 |===
 
 

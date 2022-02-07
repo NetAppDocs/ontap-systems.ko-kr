@@ -54,7 +54,7 @@ replacement_node를 부팅할 때 시스템 ID 변경을 확인한 다음 변경
 +
 [listing]
 ----
-node1> storage failover show
+node1> `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -105,7 +105,7 @@ replacement_node에 속한 디스크는 새 시스템 ID를 표시해야 합니�
 +
 [listing]
 ----
-node1> storage disk show -ownership
+node1> `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---

@@ -109,7 +109,7 @@ date-and-time [node-name:iscsi.session.stateChanged:notice]: iSCSI session state
 반환 대기 중...
  a| 
 .. 파트너 노드에 로그인합니다.
-.. 스토리지 페일오버 show 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.
+.. 'storage failover show' 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.
 
 
 |===

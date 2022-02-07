@@ -17,7 +17,7 @@ ONTAP를 실행하는 2노드 MetroCluster 구성에서는 시스템을 정상 �
 +
 시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 Y를 입력해야 합니다.
 
-. 정상 노드인 MetroCluster node show-fields node-systemid, dr-partner-systemid에서 기존 시스템 ID를 봅니다
+. 정상 노드의 기존 시스템 ID를 보면 MetroCluster node show-fields node-systemid, dr-partner-systemid가 보입니다
 +
 이 예에서 Node_B_1은 이전 시스템 ID가 11807329인 이전 노드입니다.
 

@@ -77,7 +77,7 @@ NOTE: CIFS를 종료하면 데이터가 손실될 수 있습니다.
 ** NDMP, SnapMirror 또는 SnapVault 프로세스로 인해 명령이 실패하면 프로세스를 해제합니다. 자세한 내용은 해당 문서 센터를 참조하십시오.
 
 
-. 반환이 완료되면 'storage failover show' 및 'storage failover show-반환' 명령을 사용하여 페일오버 및 반환 상태를 확인하십시오.
+. 반환이 완료되면 'storage failover show' 및 'storage failover show'-반환 명령으로 페일오버와 반환 상태를 확인하십시오.
 +
 CFO 애그리게이트(루트 애그리게이트 및 CFO 스타일 데이터 애그리게이트)만 표시됩니다.
 

@@ -459,7 +459,7 @@ boot_ONTAP bye
 +
 [listing]
 ----
-node1> storage failover show
+node1> `storage failover show`
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -499,7 +499,7 @@ http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62
 
 .. 기브백이 완료된 후 HA 쌍이 정상 작동 중인지, 그리고 테이크오버가 가능한지, 즉 '스토리지 페일오버 표시'인지 확인합니다
 +
-'storage failover show' 명령의 출력 파트너 시스템 ID 변경 메시지를 포함해서는 안 됩니다.
+'storage failover show' 명령의 출력에는 'system ID changed on partner' 메시지가 포함되지 않아야 한다.
 
 
 
@@ -510,7 +510,7 @@ replacement_node에 속한 디스크는 새 시스템 ID를 표시해야 합니�
 +
 [listing]
 ----
-node1> storage disk show -ownership
+node1> `storage disk show -ownership`
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
@@ -575,7 +575,7 @@ ONTAP를 실행하는 2노드 MetroCluster 구성에서는 시스템을 정상 �
 +
 시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 Y를 입력해야 합니다.
 
-. 정상 노드인 MetroCluster node show-fields node-systemid, dr-partner-systemid에서 기존 시스템 ID를 봅니다
+. 정상 노드의 기존 시스템 ID를 보면 MetroCluster node show-fields node-systemid, dr-partner-systemid가 보입니다
 +
 이 예에서 Node_B_1은 이전 시스템 ID가 11807329인 이전 노드입니다.
 
@@ -688,12 +688,14 @@ Config Advisor를 실행한 후 도구의 출력을 검토하고 출력에서 �
 [role="lead"]
 이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.
 
-에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"].
+.단계
+. 에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"].
+. 온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
++
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html["온보드 키 관리 암호화 키를 복원합니다"]
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html["외부 키 관리 암호화 키를 복원합니다"]
 
-온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
 
-* "'온보드 키 관리 암호화 키 복원'"
-* "'외부 키 관리 암호화 키 복원'"
 
 
 

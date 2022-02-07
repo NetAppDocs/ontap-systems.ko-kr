@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, n224, drive, shelves, shelf, switch-attach, storage, cable, cabling, cable ns224 drive shelves as switch-attached storage 
 summary: 'NS224 드라이브 쉘프를 스위치 연결 스토리지\(직접 연결 스토리지\ 아님)로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용하십시오.' 
 ---
-= 스위치 연결 스토리지로서의 케이블 선반 — NS224 선반
+= 스위치 연결 스토리지 - NS224 셸프로 선반을 케이블로 연결합니다
 :icons: font
 :imagesdir: ../media/
 

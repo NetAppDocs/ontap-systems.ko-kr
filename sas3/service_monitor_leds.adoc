@@ -329,6 +329,7 @@ image::../media/2860_dwg_drive_drawer_leds.gif[2860 DWG 드라이브 드로어 L
 
 image::../media/2860_dwg_amber_on_drive.gif[드라이브의 2860 DWG 호박색입니다]
 
+[cols="10,90"]
 |===
 
 
