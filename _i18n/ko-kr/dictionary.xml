@@ -8040,7 +8040,6 @@
   <block id="098be92f0aeba04b5ea336aeb0e987a0" category="sidebar">스위치 연결 스토리지로 쉘프를 연결합니다</block>
   <block id="f2c6151d6c0d99f3666129b97e2100f5" category="sidebar">드라이브</block>
   <block id="87ad0a7d7737882bd3a94656d7433131" category="sidebar">NSM 모듈</block>
-  <block id="8cf04a9734132302f96da8e113e80ce5" category="sidebar">홈</block>
   <block id="8fb4b518ce39a0704f920c9d4f2f7b77" category="sidebar">애그리게이트 재배치를 사용하여 컨트롤러 하드웨어를 업그레이드합니다</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
   <block id="3ffee04e4bb020103f1bece18c2ac58e" category="sidebar">컨트롤러 업그레이드 프로세스를 자동화합니다</block>
@@ -8365,4 +8364,107 @@
   <block id="10535f3c95548bd83d9b23d6567b98e4" category="doc">Shelf-NS224 쉘프 핫 제거</block>
   <block id="2cc84b3be9e849adc2789fc0cd994e1b" category="doc">실시간 시계 배터리 - NS224 쉘프를 교체합니다</block>
   <block id="89d4335ef7ebbfe1db510925f09d4702" category="doc">부팅 미디어-NS224 쉘프를 교체합니다</block>
+  <block id="2f2c60dca423ec5715985231d7044062" category="doc">FAS 및 AFF 시스템의 새로운 기능</block>
+  <block id="426345b53ce830fc944ab03c4c6232df" category="paragraph">FAS 및 AFF 시스템의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="302f8678c032e39790505ccc892157d6" category="section-title">새로운 어댑터 지원</block>
+  <block id="24f29c7fbb4c8e016166824caf65cde6" category="cell">어댑터 부품 번호</block>
+  <block id="3adbdb3ac060038aa0e6e6c138ef9873" category="cell">범주</block>
+  <block id="198fc1af468509094e8d40e07916c836" category="cell">처음부터 사용할 수 있습니다</block>
+  <block id="f08a499816d36838908b782ddbffd503" category="inline-link">X91148A</block>
+  <block id="1e31a710f534945bdc20072a93bfc508" category="paragraph"><block ref="1e31a710f534945bdc20072a93bfc508" category="inline-link-rx"></block></block>
+  <block id="d0bd58a775995caf32be9674d7e105e8" category="paragraph">2포트 100GbE RoCE QSFP28</block>
+  <block id="a5fa5746370b608090b994a97b49e98b" category="list-text">네트워킹</block>
+  <block id="04e5807be0e6821b9804d78226e4476a" category="list-text">HA/MetroCluster</block>
+  <block id="2abfff2974f589f7a217325f304e0ec5" category="paragraph">ONTAP 9.8</block>
+  <block id="0328774aec0a00ab97b619f670f3584f" category="inline-link">X91122A</block>
+  <block id="22fb50240417da3b46a5b9bc9f4fba23" category="paragraph"><block ref="22fb50240417da3b46a5b9bc9f4fba23" category="inline-link-rx"></block></block>
+  <block id="0c54c33cbdaf870abc3b1f6dccea1cd7" category="paragraph">2-포트 25GbE RoCE QSFP28</block>
+  <block id="8c6eb6a8f3b879a85c9abb062dcf57b6" category="inline-link">X9170A</block>
+  <block id="dfd3db7fdc1a7e88e6e8d964ce5bed7b" category="paragraph"><block ref="dfd3db7fdc1a7e88e6e8d964ce5bed7b" category="inline-link-rx"></block></block>
+  <block id="8ed5851faf32cc00c77e732fa7ccd048" category="paragraph">NVMe SSD 모듈(1TB)</block>
+  <block id="7cf14d1ebaa748e0c979614ac964b725" category="paragraph">코어 덤프 장치</block>
+  <block id="925214212b01eccbe569020ac0ec7569" category="section-title">새로운 스위치 지원</block>
+  <block id="0052efad5d260a806d52bfcfe640936f" category="cell">스위치</block>
+  <block id="d580be6c6f7c3c0fa749d81a5cd7cd95" category="inline-link">36포트 100GbE Cisco 스위치(X190200)</block>
+  <block id="deb0a21917c7eb0c3c9938d678ab438a" category="paragraph"><block ref="deb0a21917c7eb0c3c9938d678ab438a" category="inline-link-rx"></block></block>
+  <block id="123e4b878b0b13297b19666d44ad9918" category="paragraph">MetroCluster IP 구성을 포함하여 동일한 Cisco Nexus 9336C-FX2 스위치 쌍에서 공유 인프라(클러스터, HA 및 스위치 연결 스토리지)를 지원합니다.</block>
+  <block id="74eb178224c5fa701fbcd96998feaafe" category="paragraph">ONTAP 9.9.1</block>
+  <block id="b35c80b21274714ff3bddbab4058ca2d" category="inline-link">36포트 100GbE Cisco 스위치(X190200 및 X190210)</block>
+  <block id="f8fcbafd01f8949c32d6eda760c789d1" category="paragraph"><block ref="f8fcbafd01f8949c32d6eda760c789d1" category="inline-link-rx"></block></block>
+  <block id="89d274f5355a3e0e5f362e8cbb94f354" category="paragraph">Cisco Nexus 9336C-FX2 클러스터 인터커넥트 스위치 및 스토리지 스위치 지원으로 AFF/FAS 컨트롤러 및 프런트 엔드 데이터 연결 지원</block>
+  <block id="deba35864593b3bc749c649b8ffc8b8a" category="inline-link">Broadcom BES-53248 스위치(X190005 및 X190005R)</block>
+  <block id="acee3e35fac9100c5030755c314eab73" category="paragraph"><block ref="acee3e35fac9100c5030755c314eab73" category="inline-link-rx"></block></block>
+  <block id="3e3c90d3e7cba2e9c472cc6c982b426c" category="paragraph">40/100GbE 포트가 있는 AFF/FAS 컨트롤러에 대한 Broadcom BES-53248 클러스터 인터커넥트 스위치 지원</block>
+  <block id="76b8d0202e0ebac8536bfbb927cb77cf" category="inline-link">32포트 100GbE Cisco 스위치(X190100 및 X190100R)</block>
+  <block id="289176b1f2563464b0dfb798658c0152" category="paragraph"><block ref="deb0a21917c7eb0c3c9938d678ab438a" category="inline-link-rx"></block><block ref="18e71ce452675f527b9e6ee74d504889" category="inline-link-rx"></block></block>
+  <block id="856f27e361c1b2c9da2793619e1bea84" category="paragraph">Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.</block>
+  <block id="fe3922b3af83dfb6ba506bb4b7969408" category="list-text">AFF A800/AFF ASA A800</block>
+  <block id="040a43f160d19358d6aaa58c129061c6" category="list-text">AFF A700/AFF ASA A700</block>
+  <block id="a2830a8a6b7415efd3d60ab3af3c1b02" category="list-text">AFF A400/AFF ASA A400</block>
+  <block id="fc2c2083a19a418b8843fac67146e44d" category="paragraph">Broadcom BES-53248 클러스터 인터커넥트 스위치는 10/25GbE 포트가 있는 AFF/FAS 컨트롤러를 지원합니다.</block>
+  <block id="afa798215d91c0ee616815befa600f66" category="paragraph">ONTAP 9.5P8</block>
+  <block id="ad30bda50ee1d84821c1e37d140d5779" category="section-title">새로운 플랫폼 지원</block>
+  <block id="8d5222cdfab2ef87317118b2f5929210" category="cell">플랫폼(데이터 시트에 대한 링크 포함)</block>
+  <block id="ca4b82b36a4dc81f4031a7b488d4b39f" category="paragraph"><block ref="ca4b82b36a4dc81f4031a7b488d4b39f" category="inline-link-rx"></block></block>
+  <block id="ab8296c5ef7a7b056b384680f89a9379" category="paragraph">ONTAP 9.10.1</block>
+  <block id="7a5c1b3b42cd33e030fad3a09cb47892" category="inline-link">AFF A250/AFF ASA A250</block>
+  <block id="9c592efb6951109c06abfa313c448910" category="paragraph"><block ref="9c592efb6951109c06abfa313c448910" category="inline-link-rx"></block></block>
+  <block id="972a6d8ca1f22a603149f7918e94b4b5" category="paragraph"><block ref="972a6d8ca1f22a603149f7918e94b4b5" category="inline-link-rx"></block></block>
+  <block id="fc7ee7d68ea47bebe0d5a0d9f09a0db6" category="inline-link">AFF ASA A800</block>
+  <block id="d08e349865d8a611a4efa0b375aa9a53" category="paragraph"><block ref="d08e349865d8a611a4efa0b375aa9a53" category="inline-link-rx"></block></block>
+  <block id="f3226db0bedff5ebe7d408b5769cc3a1" category="paragraph"><block ref="f3226db0bedff5ebe7d408b5769cc3a1" category="inline-link-rx"></block></block>
+  <block id="3b3ba73020e2a1c395088d82f035a824" category="paragraph"><block ref="3b3ba73020e2a1c395088d82f035a824" category="inline-link-rx"></block></block>
+  <block id="1e88c1b0eef3bd8731168448839c607e" category="paragraph"><block ref="1e88c1b0eef3bd8731168448839c607e" category="inline-link-rx"></block></block>
+  <block id="d82ff6a667a08641467a53a4dd90ba99" category="inline-link">AFF ASA A220</block>
+  <block id="fc8a74184b0a6f06b20122b246aebb3b" category="paragraph"><block ref="fc8a74184b0a6f06b20122b246aebb3b" category="inline-link-rx"></block></block>
+  <block id="8aad31d89be54b8bac4e5fd542398209" category="inline-link">AFF ASA A700</block>
+  <block id="55d66a8c57f020bf7f89ebbe23192880" category="paragraph"><block ref="55d66a8c57f020bf7f89ebbe23192880" category="inline-link-rx"></block></block>
+  <block id="6d87926678e7eabaac4460afed784d2b" category="paragraph"><block ref="6d87926678e7eabaac4460afed784d2b" category="inline-link-rx"></block></block>
+  <block id="d031966d3750279e57bedf297cc882ab" category="paragraph"><block ref="d031966d3750279e57bedf297cc882ab" category="inline-link-rx"></block></block>
+  <block id="8fb3915f86fbc4fd2aabaf4ff9cd2391" category="section-title">새로운 쉘프 지원</block>
+  <block id="35658b297cf9ed96b6caf7fb1fa6e9b8" category="section-title">새 하드웨어 업데이트</block>
+  <block id="e7e0038bb30579a3120d266861982881" category="cell">기능</block>
+  <block id="3100460fa3d7ba2ea001abefda93f3bc" category="cell">설명 및 자세한 내용</block>
+  <block id="77a5cc80abc33195772f4153e3373440" category="paragraph">NS224 드라이브 쉘프를 위한 플랫폼 지원 확장</block>
+  <block id="97f5affc0c506da7179d6bff20940da1" category="paragraph">다음 플랫폼은 NS224 드라이브 쉘프를 지원합니다.</block>
+  <block id="08eed4f274ea307f3e2eea8d2970b57e" category="paragraph">6Gb SAS 스토리지 스택에 12Gb SAS 쉘프를 핫 추가합니다</block>
+  <block id="9dc812e3ee72f2236c9121a61ac67152" category="paragraph">이제 SAS 스토리지 스택에서 6Gb에서 12Gb로 단일 속도 전환이 지원됩니다. 따라서 12Gb 쉘프를 사용하여 기존 6Gb 스택의 스토리지를 확장할 수 있습니다.</block>
+  <block id="420766222a929fd9b32b65dbb060314b" category="inline-link">IOM6 모듈을 사용해 쉘프 스택에 IOM12 모듈을 장착한 상태로 쉘프 추가</block>
+  <block id="1f1c067ab37a0e7d7639b39f2c4a9863" category="paragraph"><block ref="1f1c067ab37a0e7d7639b39f2c4a9863" category="inline-link-rx"></block></block>
+  <block id="7ebd8d0d42466b09b19073ae00f72945" category="paragraph">ONTAP 9.7P4</block>
+  <block id="6f2977e3ee99fb8e3f9058e09374bdac" category="paragraph">ONTAP 9.6P9</block>
+  <block id="11f1d8b1ae01cc9ffc60cebf4b24af37" category="paragraph">ONTAP 9.5P14</block>
+  <block id="d2ce523f68b472a867f3bd2b22235971" category="section-title">새로운 하드웨어 향상</block>
+  <block id="25bb4e4a069ff20f27f5a435822dd06e" category="paragraph">ONTAP 9.8에서는 자동 포트 배치 기능이 도입되어 하드웨어 업그레이드 절차가 단순화되었습니다. ONTAP 9.8을 실행하는 시스템을 업그레이드할 때는 올바른 절차를 사용하여 포트 배치 기능을 고려해야 합니다.</block>
+  <block id="fe2331c22be633c0221229b4b8251766" category="paragraph">사용 가능한 업그레이드 절차를 보려면 다음 표를 검토하십시오. 절차가 적절한지 판단하기 위한 자세한 내용은 각 가이드를 참조하십시오.</block>
+  <block id="301e2a674920a7bb1b220a6ccd88ce36" category="inline-link">업그레이드 또는 새로 고침 방법 선택</block>
+  <block id="8e39b9aa91b065e9d66d9c539e9dee09" category="paragraph">MetroCluster 관련 추가 절차는 를 참조하십시오<block ref="2c4f45f6db308a425e052afade2ba656" category="inline-link-rx"></block>.</block>
+  <block id="3b2a75ebc087c7f3c4fa9ac0e2a92ebe" category="cell">ONTAP 버전입니다</block>
+  <block id="b8910962b1d031cc1eb8e8ad588c4c48" category="cell">무중단</block>
+  <block id="6a4e2fb80a022a097095074de0872ba8" category="cell">MetroCluster를 지원합니다</block>
+  <block id="e4fca24933722ffa2a9b1722f5b7c98b" category="paragraph">9.8 ~ 9.0.x</block>
+  <block id="102701de9cd91bb85d0be0b827e7249c" category="paragraph"><block ref="976e9ef467c15e49d11b0c7b029246aa" category="inline-link-rx"></block> (기존 물리적 스토리지 이동)</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="paragraph">아니요</block>
+  <block id="1bae30ddf0085229a83e78a9a81e702d" category="paragraph"><block ref="976e9ef467c15e49d11b0c7b029246aa" category="inline-link-rx"></block> (새 스토리지로 볼륨 이동)</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="paragraph">예</block>
+  <block id="4f7dd0fe0940df4a5fda327a4ee4ddbd" category="paragraph">9.8</block>
+  <block id="6e0e0f332bfb66d274b91109411b3f32" category="inline-link">"시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 실행하는 컨트롤러 하드웨어를 업그레이드합니다</block>
+  <block id="7d7b5e7e6f18571263a6102de668df97" category="paragraph"><block ref="7d7b5e7e6f18571263a6102de668df97" category="inline-link-rx"></block></block>
+  <block id="581517cb09027ad76c00869dee6ebc72" category="paragraph">예(FC)</block>
+  <block id="0da585fbf16ad6857f399de508f7bd98" category="inline-link">Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드할 수 있습니다</block>
+  <block id="4e3ad587dedcb205e51c2c68fea2b06c" category="paragraph"><block ref="4e3ad587dedcb205e51c2c68fea2b06c" category="inline-link-rx"></block></block>
+  <block id="be19b2cc956046248e1ef8386533881c" category="paragraph">9.7 ~ 9.5</block>
+  <block id="95c2e51299e797320f63ebcb8537047d" category="inline-link">"시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 실행하는 컨트롤러 하드웨어를 ONTAP 9.7로 업그레이드합니다</block>
+  <block id="ab874cc6c54612fa57c8de133e3a234d" category="paragraph"><block ref="ab874cc6c54612fa57c8de133e3a234d" category="inline-link-rx"></block></block>
+  <block id="4b8a576fb64d5b6a41905d5d9b5d1568" category="paragraph">9.7 이하</block>
+  <block id="2f92df8531df1f2b3292aaca0327afca" category="inline-link">Aggregate Relocation을 사용하여 컨트롤러 업그레이드 ONTAP 9.7 이하를 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드합니다</block>
+  <block id="9cd2ad15fd6e17e2089c3e6d267284e8" category="paragraph"><block ref="9cd2ad15fd6e17e2089c3e6d267284e8" category="inline-link-rx"></block></block>
+  <block id="c715a9373bbec24b23f4dc8858259082" category="summary">ONTAP 릴리스 정보</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">릴리스 정보</block>
+  <block id="425e1349202124b82f3764d0351df734" category="paragraph">릴리스 정보는 이 사이트 외부에서 사용할 수 있습니다. NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="e43128f7c789cef4c5803c71a455e62b" category="inline-link">ONTAP 9 릴리즈 노트에 액세스합니다</block>
+  <block id="aee57c40ad1b8fc3b33e5e954861e270" category="paragraph"><block ref="aee57c40ad1b8fc3b33e5e954861e270" category="inline-link-rx"></block></block>
+  <block id="262434bb76bf9aa49a3efe7de43d9a4e" category="sidebar">AFF 및 FAS 시스템 문서</block>
+  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
 </blocks>
