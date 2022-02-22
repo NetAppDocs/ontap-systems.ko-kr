@@ -1260,8 +1260,6 @@
 
 
 
-
-
           
         </li>
       </ul>
@@ -3966,7 +3964,7 @@
       <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/fas2700/controller-replace-overview.html">
         개요
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/fas2700/controller-replace-shutdown.html">
-        노드를 종료합니다
+        손상된 컨트롤러를 종료합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/fas2700/controller-replace-move-hardware.html">
         컨트롤러 하드웨어를 교체합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/fas2700/controller-replace-system-config-restore-and-verify.html">
@@ -4185,12 +4183,10 @@
         컨트롤러 모듈을 교체합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/controller-replace-system-config-restore-and-verify.html">
         시스템 구성을 복원합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/controller-repalce-recable-reassign-disks.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/controller-replace-recable-reassign-disks.html">
         회수 가능 시스템
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/controller-replace-complete-system-restoration.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/controller-replace-restore-system-rma.html">
         시스템 복원을 완료합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/controller-replace-complete-rma.html">
-        전체 교체
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/dimm-replace.html">
         DIMM
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a320/fan-swap-out.html">
@@ -5237,7 +5233,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-02-22 09:36:01 +0000">02/22/2022</time>
+    <time datetime="2022-02-22 22:32:49 +0000">02/22/2022</time>
     
   
 
@@ -5488,82 +5484,6 @@
 <p>자동 부팅 시작 메시지가 표시되면 Ctrl-C를 눌러 로더 프롬프트에서 중지 부팅 프로세스를 중단합니다. 중단하려면 Ctrl-C를 누릅니다</p>
 <div class="paragraph">
 <p>이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 노드를 정지하여 로더로 부팅합니다.</p>
-</div>
-</li>
-<li>
-<p>환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv variable-name &lt;value&gt;' 명령을 사용하여 오류를 수정해야 합니다.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>부팅 환경 변수를 확인합니다.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>bootarg.init.boot_clustered</p>
-</li>
-<li>
-<p>파트너 - sysid</p>
-</li>
-<li>
-<p>AFF의 경우 bootarg.init.flash_optimized</p>
-</li>
-<li>
-<p>AFF의 경우 bootarg.init.san_optimized</p>
-</li>
-<li>
-<p>bootarg.init.switchless_cluster.enable</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>External Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>bootarg.storageencryption.support&lt;value&gt;</p>
-</li>
-<li>
-<p>bootarg.keymanager.support&lt;value&gt;</p>
-</li>
-<li>
-<p>kmip.init.interface &lt;값&gt;</p>
-</li>
-<li>
-<p>kmip.init.ipaddr &lt;값&gt;</p>
-</li>
-<li>
-<p>kmip.init.netmask &lt;값&gt;</p>
-</li>
-<li>
-<p>kmip.init.gateway &lt;값&gt;</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Onboard Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>bootarg.storageencryption.support&lt;value&gt;</p>
-</li>
-<li>
-<p>bootarg.keymanager.support&lt;value&gt;</p>
-</li>
-<li>
-<p>bootarg.Onboard_keymanager &lt;값&gt;</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>'avenv' 명령으로 변경한 환경 변수를 저장합니다</p>
-</li>
-<li>
-<p>'printenv variable-name' 명령을 사용하여 변경 사항을 확인합니다.</p>
-</li>
-</ol>
 </div>
 </li>
 <li>
