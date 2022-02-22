@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700s, aff, a700s, replace, fail, nvram, card, remove, riser, controller, module, system, id, nvram, dimm, shut, down, reassign, disk, restore, encryption, functionality, complete, replacement, process, replace the nvram module and/or nvram dimms, shut down the impaired controller, shut down the impaired node, remove the controller module, remove the nvram card, reinstall the controller module and booting the system, reassign disks, restore storage and volume encryption functionality, complete the replacement process 
 summary: 오류가 발생한 NVRAM 카드를 교체하려면 NVRAM 라이저, 라이저 1을 컨트롤러 모듈에서 분리하고, 라이저에서 오류가 발생한 카드를 제거하고, 새 NVRAM 카드를 라이저에 설치한 다음, 라이저를 컨트롤러 모듈에 다시 설치해야 합니다. 시스템 ID는 NVRAM 카드에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다. 
 ---
-= NVRAM 모듈 및/또는 NVRAM DIMM - AFF A700s를 교체합니다
+= NVRAM 모듈 및 NVRAM DIMM - AFF A700s를 교체합니다
 :icons: font
 :imagesdir: ../media/
 

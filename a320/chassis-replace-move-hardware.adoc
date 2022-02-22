@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, replace, chassis, fan, controller, module, impair, model, shut, down, replacing, remove, move, equipment, rack, diagnostic, complete, replacement, process, replace the chassis, shut down the controllers when replacing a chassis, remove the controller modules, move the fans, replace a chassis from within the equipment rack or system cabinet, install the controller modules, run diagnostics, complete the replacement process 
 summary: 손상된 섀시에서 팬, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
 ---
-= 하드웨어 이동 및 교체 - AFF A320
+= 하드웨어 교체 - AFF A320
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, move the hardware components 
 summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고 시스템을 유지보수 모드로 부팅해야 합니다. 
 ---
-= 컨트롤러 모듈 교체 - FAS500f
+= 컨트롤러 모듈 하드웨어 교체 - FAS500f
 :icons: font
 :imagesdir: ../media/
 

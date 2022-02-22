@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, boot, media, store, primary, secondary, set, system, boot, image, file, replace, replace the boot media 
 summary: '부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다.' 
 ---
-= 컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A320)로 전송합니다
+= 부팅 미디어 교체 - AFF A320
 :icons: font
 :imagesdir: ../media/
 
@@ -153,38 +153,6 @@ NOTE: 래칭 메커니즘 암이 섀시에 밀어 넣습니다.
 .. 로더 프롬프트에서 중지하려면 Ctrl+C를 눌러 부팅 프로세스를 중단합니다.
 +
 이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 노드를 정지하여 로더로 부팅합니다.
-
-.. 환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv variable-name <value>' 명령을 사용하여 오류를 수정해야 합니다.
-+
-... 부팅 환경 변수를 확인합니다.
-+
-**** "bootarg.init.boot_clustered`
-**** 파트너-시시드
-**** 'AFF C190/AFF A220(All Flash FAS)용 bootarg.init.flash_optimized`
-**** AFF A220 및 모든 SAN 어레이에 대한 bootarg.init.san_optimized`
-**** "bootarg.init.switchless_cluster.enable`
-
-
-... External Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-**** bootarg.storageencryption.support<value>
-**** bootarg.keymanager.support<value>
-**** ' kmip.init.interface <값>'
-**** ' kmip.init.ipaddr <값>'
-**** ' kmip.init.netmask <값>'
-**** ' kmip.init.gateway <값>'
-
-
-... Onboard Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-**** bootarg.storageencryption.support<value>
-**** bootarg.keymanager.support<value>
-**** ' bootarg.온보드_keymanager <값>'
-
-
-... 'avenv' 명령으로 변경한 환경 변수를 저장합니다
-... 'printenv_variable-name_' 명령을 사용하여 변경 사항을 확인합니다.
-
 
 .. LOADER 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅하십시오: "boot_recovery"
 +

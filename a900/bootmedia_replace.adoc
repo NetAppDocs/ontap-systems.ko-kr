@@ -146,38 +146,6 @@ USB 콘솔 포트가 아니라 USB 장치용 슬롯에 USB 플래시 드라이�
 +
 이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 노드를 정지하여 로더로 부팅합니다.
 
-. 환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv variable-name <value>' 명령을 사용하여 오류를 수정해야 합니다.
-+
-.. 부팅 환경 변수를 확인합니다.
-+
-*** bootarg.init.boot_clustered
-*** 파트너 - sysid
-*** AFF의 경우 bootarg.init.flash_optimized
-*** AFF의 경우 bootarg.init.san_optimized
-*** bootarg.init.switchless_cluster.enable
-
-
-.. External Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-*** bootarg.storageencryption.support<value>
-*** bootarg.keymanager.support<value>
-*** kmip.init.interface <값>
-*** kmip.init.ipaddr <값>
-*** kmip.init.netmask <값>
-*** kmip.init.gateway <값>
-
-
-.. Onboard Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-*** bootarg.storageencryption.support<value>
-*** bootarg.keymanager.support<value>
-*** bootarg.Onboard_keymanager <값>
-
-
-.. 'avenv' 명령으로 변경한 환경 변수를 저장합니다
-.. 'printenv variable-name' 명령을 사용하여 변경 사항을 확인합니다.
-
-
 . LOADER 프롬프트에서 네트워크 연결 유형을 설정합니다.
 +
 ** DHCP:'ifconfig e0a-auto'를 구성하는 경우

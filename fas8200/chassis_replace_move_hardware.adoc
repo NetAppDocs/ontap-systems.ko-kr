@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8200, move hardware components, replace the chassis 
 summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 팬 및 컨트롤러 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
 ---
-= hardware-FAS8200을 이동 및 교체합니다
+= 하드웨어 교체 - FAS8200
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, replace, boot, media, primary, secondary, image, disruptive, nondisruptive 
 summary: '부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.' 
 ---
-= 부팅 미디어 AFF A700 및 FAS9000을 교체합니다
+= 부팅 미디어 교체 개요 - AFF A700 및 FAS9000
 :icons: font
 :imagesdir: ../media/
 

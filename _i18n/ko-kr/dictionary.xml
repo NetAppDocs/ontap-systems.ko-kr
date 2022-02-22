@@ -151,7 +151,6 @@
   <block id="073b364a34edc88074c1df13d44748dc" category="list-text">자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true'를 다시 설정합니다</block>
   <block id="3b9e3b1b2ab53b0241dc5867f9200f0f" category="section-title">5단계: 교체 프로세스를 완료합니다</block>
   <block id="7182b14422325235a1325aec0997297b" category="summary">컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.</block>
-  <block id="9ec7d6a6908af6dbd3df71f1bf41a195" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어로 전송합니다. - AFF C190</block>
   <block id="e5c77732c72900008e8eb20c104f7bfd" category="paragraph">부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.</block>
   <block id="ef13404364a970b4fd05be667ebe059d" category="section-title">1단계: 컨트롤러를 제거합니다</block>
   <block id="d67487df6ee13914e99a3efddf90ac53" category="section-title">2단계: 부팅 매체를 교체합니다</block>
@@ -179,11 +178,9 @@
   <block id="4f3e92738b97672e7c43585384d07fa0" category="paragraph">노드가 섀시에 완전히 설치되는 즉시 부팅되기 시작합니다.</block>
   <block id="3ad4ff48e03cad4f50c0e486f9347051" category="list-text">'자동 부팅 시작'이 표시되면 Ctrl-C를 눌러 로더 프롬프트에서 부팅 프로세스를 중단하고 Ctrl-C를 눌러 중단하십시오</block>
   <block id="d6247cf97fface5e53fdbd950c4cd532" category="paragraph">이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음 로더로 부팅하려면 노드를 "중지"하십시오.</block>
-  <block id="bf4692a201a712700b2e5626b77a5791" category="list-text">환경 변수와 boots는 그대로 유지되지만, 'printenv_bootarg name_' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv_variable-name&lt;value&gt;_' 명령을 사용하여 오류를 수정해야 합니다.</block>
   <block id="0032ff6878e0eb024d2d7d2145235782" category="list-text">부팅 환경 변수를 확인합니다.</block>
   <block id="67cee8596d9c8d2c1fc298a78f8c3906" category="list-text">"bootarg.init.boot_clustered`</block>
   <block id="a1969dbd1bcea583ab8a2d860a39b3af" category="list-text">파트너-시시드</block>
-  <block id="7cd5e0d13ff4c129549064f956a3a423" category="list-text">AFF C190의 경우 bootarg.init.flash_optimized`</block>
   <block id="2e3640de5e9fa3ac8b95ece22f56c6a0" category="list-text">"bootarg.init.switchless_cluster.enable`</block>
   <block id="7c7ef6e57bb05fedf24ffcf44a231f11" category="list-text">External Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.</block>
   <block id="7b8c83358fbe746786ab219aac22aed9" category="list-text">bootarg.storageencryption.support&lt;value&gt;</block>
@@ -194,8 +191,6 @@
   <block id="5bae5cc82bcacd8e4ce8b54ee658b287" category="list-text">' kmip.init.gateway &lt;값&gt;'</block>
   <block id="9446ce43dbd627b98b6c0d3af5d83a7c" category="list-text">Onboard Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.</block>
   <block id="0d0f28ffb7fd93c3dd19fa097dce2ff7" category="list-text">' bootarg.온보드_keymanager &lt;값&gt;'</block>
-  <block id="63bf196da0a71b579342a8c36b458ea1" category="list-text">변경한 환경 변수를 ' * savenv * ' 명령으로 저장합니다</block>
-  <block id="727378491f0999b5dc0f175c2ad5db46" category="list-text">'* printenv_variable-name_*' 명령을 사용하여 변경 사항을 확인하십시오.</block>
   <block id="49b41220392a7e4170d9ce3bbd097866" category="list-text">복구 이미지를 부팅합니다.</block>
   <block id="c73e1789eacd9f37e24782c40b72f17d" category="paragraph">'* BOOT_RECOVERY__ONTAP_IMAGE_NAME__.tgz * '</block>
   <block id="bced4119afb0340cd3e5c3533733a941" category="admonition">image.tgz 파일의 이름이 boot_recovery 9_4.tgz와 같은 image.tgz 이외의 파일인 경우 boot_recovery 명령에 다른 파일 이름을 포함시켜야 합니다.</block>
@@ -532,7 +527,6 @@
   <block id="aeef38b8f860290dfafd28f807c628f7" category="admonition">주소의 형식은 +https://x.x.x.x+ 입니다.</block>
   <block id="abda447c368c0080cdf2af6a77ea3d22" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다 <block ref="571ad76602d16a750ecd1119ab38063c" category="inline-link-macro-rx"></block>.</block>
   <block id="48cb3ada49a99389f0b8a03abf466ec8" category="summary">섀시의 HA 상태를 확인하고 시스템 수준 진단을 실행해야 합니다.</block>
-  <block id="ae66ff9f4454403fc4560484ed0e7cec" category="doc">구성 복원 및 확인 - AFF C190</block>
   <block id="a9c0a6c57639677722b2d4d4893acd60" category="section-title">1단계: 섀시의 HA 상태를 확인하고 설정합니다</block>
   <block id="33898f2b0901ae118cff99b50f8848b8" category="paragraph">섀시의 HA 상태를 확인하고 필요한 경우 시스템 구성에 맞게 상태를 업데이트해야 합니다.</block>
   <block id="d8d0a8b4117d13248466eeef738784f1" category="list-text">유지보수 모드의 경우, 두 컨트롤러 모듈 중 하나에서 로컬 컨트롤러 모듈 및 섀시의 HA 상태를 표시합니다.</block>
@@ -596,7 +590,6 @@
   <block id="fefd734f0bdff8f12e4dd22d5240abe0" category="summary">AFF C190 시스템 설명서를 사용하여 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="69df5da6ba52630e5f329314c7e74f75" category="doc">AFF C190 시스템 설명서</block>
   <block id="b78bf62e6c1dd80b4eab87a4a3039f94" category="summary">컨트롤러 모듈 하드웨어를 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
-  <block id="c3386973a8577ef6660070259a82cd76" category="doc">컨트롤러 모듈 교체 - AFF C190</block>
   <block id="ff9a2f89454589a74ceb25742ee79817" category="paragraph">컨트롤러 모듈을 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
   <block id="f65880020d1427cb243e627e392ce6ef" category="section-title">1단계: 컨트롤러 모듈을 분리합니다</block>
   <block id="f15dadbdff53b4a73700cd5ec217e288" category="paragraph">컨트롤러 모듈을 교체하려면 먼저 섀시에서 이전 컨트롤러 모듈을 분리해야 합니다.</block>
@@ -687,7 +680,6 @@
   <block id="7ae49995844c9617612930d57089c2b1" category="paragraph">+시스템 수준 진단을 완료했습니다.</block>
   <block id="d88c7eb1c7ef4b32e4cdba82c917bfae" category="doc">노드 종료 - AFF C190</block>
   <block id="6f00135662159734f14958c139370d97" category="summary">교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다.</block>
-  <block id="18108ac2d1d4890bfa267d1c329e82cc" category="doc">컨트롤러 모듈 교체 - AFF C190</block>
   <block id="271c5a034296b2fd598c729a341c9b8a" category="list-text">모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.</block>
   <block id="0012bcaadb56ca5543ace124a6a404f9" category="list-text">시스템이 HA 쌍인 경우 정상적인 노드가 교체되는 노드를 인수할 수 있어야 합니다("손상된 노드" 절차라고 함).</block>
   <block id="90aef159b4ad02a5aa95f62d5be7d66d" category="list-text">이 절차에는 시스템 구성에 따라 드라이브를 _replacement_node에 자동으로 또는 수동으로 재할당하는 단계가 포함되어 있습니다.</block>
@@ -702,7 +694,6 @@
   <block id="ef82d539dc8acbd089c50343493834e6" category="list-text">노드의 콘솔 출력을 항상 텍스트 파일로 캡처해야 합니다.</block>
   <block id="c05037a88de91ff2d60122b1ccf7291a" category="paragraph">교체 프로세스 중에 발생할 수 있는 문제를 해결할 수 있도록 절차에 대한 기록을 제공합니다.</block>
   <block id="b4c31341ab0f1e49529261f974be146d" category="summary">손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 노드의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
-  <block id="9b0a11193fefe2f787bd01bc7b799472" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF C190</block>
   <block id="325cef81d6a2e0da8d766cd78aeedd6c" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="5f63b18eda466634ee235fd0cb5a9d6a" category="inline-link-macro-rx"></block>.</block>
   <block id="b8ab0743311e15b4dca69b87da3c3e1a" category="list-text">장애가 발생한 노드의 상태를 점검한다.</block>
   <block id="03582aa0f2a939731c07b9900422cd22" category="list-text">장애가 발생한 노드가 로그인 프롬프트에 있는 경우 admin으로 로그인합니다.</block>
@@ -744,7 +735,6 @@
   <block id="a5e337a3469d0028e9b72fe170e6d372" category="list-text">Onboard security key-manager sync command:'security key-manager external sync'를 입력한다</block>
   <block id="f0bb66ccc33b2423473b4997076e2e15" category="paragraph">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.</block>
   <block id="ea4513e2fbde4152c809a34c62a93e1f" category="summary">손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다.</block>
-  <block id="9eb6861003219a994b9c41cc634af5a2" category="doc">섀시 교체 - AFF C190</block>
   <block id="390911875f818301a4ee051939794a66" category="paragraph">섀시를 교체하려면 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꿔야 합니다.</block>
   <block id="bc4c3148602338c7b283fc42b60407da" category="list-text">이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다.</block>
   <block id="1e67e0629d0e05c486b4b70e46c2e403" category="list-text">이 절차는 모든 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 구성됩니다.</block>
@@ -886,7 +876,6 @@
   <block id="a3e79fff93cae393b9fcd5d08d264b15" category="list-text"><block ref="a3e79fff93cae393b9fcd5d08d264b15" category="inline-link-macro-rx"></block></block>
   <block id="f0589341a30d82c76a3635dc142e3cde" category="paragraph">추가 컨텐츠에 대한 라이브 링크가 포함된 온라인 단계별 지침.</block>
   <block id="09ac3cf69812c78f2f80f6ff73219ec3" category="summary">하드웨어 교체를 완료하고 유지 관리 모드로 부팅한 후에는 교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다.</block>
-  <block id="34b8a670110b44f61bb0f87c29767333" category="doc">시스템 구성 복원 및 확인 - AFF C190</block>
   <block id="38378f74fe70c284e9945a43bfb092d1" category="section-title">1단계: 컨트롤러를 교체한 후 시스템 시간을 설정하고 확인합니다</block>
   <block id="8fe193e2b54d387ed2fed605221a5c28" category="paragraph">교체 컨트롤러 모듈의 시간과 날짜를 HA 쌍의 정상 컨트롤러 모듈 또는 독립형 구성의 안정적인 시간 서버와 확인해야 합니다. 시간과 날짜가 일치하지 않으면 시간 차이로 인해 클라이언트가 중단되는 것을 방지하기 위해 교체 컨트롤러 모듈에서 해당 날짜와 시간을 재설정해야 합니다.</block>
   <block id="cdb851485439024512881c41e7de982a" category="paragraph">올바른 시스템에 다음 단계에 있는 명령을 적용하는 것이 중요합니다.</block>
@@ -1524,7 +1513,6 @@
   <block id="5cc3ac161d068bd18a26a529762bedc8" category="summary">스토리지 쉘프 문서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="e528f2a51a17d9bc176b9c9c5872d278" category="doc">IOM12 모듈이 포함된 SAS 쉘프</block>
   <block id="8a1a993c74cc431e2e022e6bd26ad915" category="summary">드라이브 드로어를 교체하기 전에 모든 호스트 I/O 활동을 중지하고 쉘프의 전원을 꺼야 합니다.</block>
-  <block id="e62a559839495c7e61b9ce5a088b786c" category="doc">DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12 모듈로 교체합니다</block>
   <block id="1d7bbe9c194670e89233cc6c1dc79534" category="paragraph">이러한 60-드라이브 쉘프에는 각각 5개의 드라이브 서랍이 있습니다.</block>
   <block id="efdce0991089cb793985d216e3fc1bbc" category="image-alt">28 DWG e2860 de460c 전면 설명선 없음</block>
   <block id="76ad7e322a2be745998c576cb12affcd" category="paragraph">5개의 서랍식 용지함에는 최대 12개의 드라이브를 장착할 수 있습니다.</block>
@@ -1536,7 +1524,6 @@
   <block id="68103d0e27146f9689251724a7fbf29f" category="list-text">좌측 및 우측 케이블 체인 교체</block>
   <block id="75b0ae11d26c806413ef6e8aed1ece4f" category="list-text">플래시</block>
   <block id="c8c22257eb9d1c1c2a60aad49bd446f7" category="list-text">영구 마커</block>
-  <block id="2e3d3f0aa5e64af89c170da27ccf0cb2" category="section-title">케이블 체인 제거</block>
   <block id="12cd6af9147d69765327244240949e1f" category="paragraph">DS460C 드라이브 쉘프의 각 드라이브 서랍에 대한 왼쪽 및 오른쪽 케이블 체인을 사용하면 서랍을 밀어 넣을 수 있습니다. 드라이브 드로어를 제거하려면 먼저 두 케이블 체인을 모두 제거해야 합니다.</block>
   <block id="b4aaf296207d91e05752ac7857824f14" category="list-text">호스트 I/O 작업을 중지하고 쉘프 전원을 껐습니다.</block>
   <block id="295e1710be0bb53c45ab0ed9001e275c" category="list-text">다음 항목을 획득하였습니다.</block>
@@ -1578,7 +1565,6 @@
   <block id="b698e09fab0c0cb543414b7caec27e3c" category="list-text">주황색 링에 손가락을 넣습니다.</block>
   <block id="3ed1c59be0305378fd05c017ff86e232" category="list-text">케이블 체인을 분리하려면 손가락을 약 2.5cm(1인치) 정도 사용자 쪽으로 당기되, 케이블 체인 커넥터는 수직 브래킷 안에 둡니다.</block>
   <block id="461b154350e671de29d85bdc26c17b45" category="list-text">수평 브래킷에서 좌측 케이블 체인을 분리하고, 전체 케이블 체인을 드라이브 쉘프에서 빼내십시오.</block>
-  <block id="bbbd51c2b3c60d5e9becdcf09d29b105" category="section-title">드라이브 드로어 분리</block>
   <block id="335dce1d41f6ceb784ef37e86cc55836" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고, 드라이브 위치를 기록하고, 드라이브를 제거하고, 드라이브 드로어를 제거해야 합니다.</block>
   <block id="08d7859a247f6ad39ca81761af784495" category="list-text">드라이브 드로어의 오른쪽 및 왼쪽 케이블 체인을 제거했습니다.</block>
   <block id="28d152fcbe5214a7616239c6b7d7dd6f" category="list-text">오른쪽 및 왼쪽 팬 모듈을 교체했습니다.</block>
@@ -1603,7 +1589,6 @@
   <block id="d97c00b9a1dae1b32ba8e26b84d61f46" category="list-text">래치를 사용자 쪽으로 당겨 두 분리 레버를 모두 엽니다.</block>
   <block id="ed3feb0427e42faaeb0702007b184c2f" category="list-text">두 분리 레버를 모두 잡은 상태에서 드라이브 드로어를 사용자 쪽으로 당깁니다.</block>
   <block id="f600133ba4287bc55c2092afd014a9a2" category="list-text">드라이브 쉘프에서 드라이브 드로어를 제거합니다.</block>
-  <block id="fe8265ac3d0f9c648e57474b40e2e5d8" category="section-title">드라이브 드로어 설치</block>
   <block id="aa88d15bb6aa9c2d7b1282acbe7f8338" category="paragraph">드라이브 서랍을 드라이브 쉘프에 설치하는 경우, 서랍을 빈 슬롯에 밀어 넣고 드라이브를 설치한 다음 전면 베젤을 다시 끼워야 합니다.</block>
   <block id="00a6e09fe995a9431b12ec0b25d1e616" category="list-text">각 드라이브의 설치 위치를 알 수 있습니다.</block>
   <block id="1c0cc2116ea595f697955e9248420c5f" category="list-text">드라이브 선반의 전면에서 손전등을 빈 서랍 슬롯에 비추고 해당 슬롯의 잠금 해제 텀블러를 찾습니다.</block>
@@ -1630,7 +1615,6 @@
   <block id="d6ff75ca96a3f7b0da1db5214e2a5a07" category="list-text">드로어를 중앙에서 밀어 드라이브 쉘프로 다시 밀어 넣은 후 두 레버를 닫습니다.</block>
   <block id="88ca50989638a87f86de89481f4cf935" category="admonition">* 장비 오작동 위험: * 두 레버를 모두 눌러 드라이브 드로어를 완전히 닫아야 합니다. 적절한 공기 흐름을 허용하고 과열을 방지하려면 드라이브 드로어를 완전히 닫아야 합니다.</block>
   <block id="55451c7cebd8269f03ecac9742984329" category="list-text">드라이브 쉘프 전면에 베젤을 부착합니다.</block>
-  <block id="2731a32bd20082112cb21bea67097d21" category="section-title">케이블 체인 부착</block>
   <block id="0170a7ad27d76cb01573cd1f22614cf7" category="paragraph">드라이브 드로어를 설치하는 마지막 단계는 드라이브 쉘프에 왼쪽 및 오른쪽 케이블 체인을 연결하는 것입니다. 케이블 체인을 연결할 때는 케이블 체인을 분리할 때 사용한 역순으로 케이블을 연결합니다. 체인의 수직 커넥터를 인클로저의 수직 브래킷에 삽입하기 전에 체인의 수평 커넥터를 인클로저의 수평 브래킷에 삽입해야 합니다.</block>
   <block id="4ab9a12c053dc60c1cfdd6c7dd07687e" category="list-text">드라이브 드로어 및 모든 드라이브를 교체했습니다.</block>
   <block id="72774896cf4456a17908ca4b102fbb02" category="list-text">왼쪽 및 오른쪽으로 표시된 교체용 케이블 체인 2개가 있습니다(드라이브 드로어 옆의 수평 커넥터에 있음).</block>
@@ -2317,7 +2301,6 @@
   <block id="88f619f79a466f76f35e017863a94304" category="section-title">6단계: 진단 프로그램을 실행한 후 컨트롤러 모듈을 작동 상태로 복원합니다</block>
   <block id="9e70237e8106527e732b0c345e0d528e" category="paragraph">진단 유틸리티를 완료한 후에는 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.</block>
   <block id="cf10f00c0112c9e38ae28a3188c8cbd6" category="section-title">7단계: 장애가 발생한 부품을 NetApp에 반환</block>
-  <block id="1461c9db08e46c1e8c70cf3e0a9f73d8" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A320</block>
   <block id="3672b64d07583e651fa9761c4dd84ce8" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 다음 섹션으로 이동하십시오.</block>
   <block id="c694147ee40e260d30d4121d2213ee14" category="doc">비디오 - AFF A320</block>
   <block id="807593caf956f9dfe122fe9d50597706" category="inline-link">NetApp 비디오: AFF A320 설치 및 설정</block>
@@ -2327,7 +2310,6 @@
   <block id="2d8b1cc5d54ecd8a729105fdf07054a0" category="section-title">1단계: ONTAP에서 교체 노드에 대한 라이센스를 설치합니다</block>
   <block id="ff3a1a304de699b15bd2a5a39798c5a8" category="section-title">2단계: 스토리지 및 볼륨 암호화 기능 복원</block>
   <block id="92f82264c734da3126796f6bfa718d0f" category="section-title">3단계: LIF 확인 및 일련 번호 등록</block>
-  <block id="22d60fd320a2cb32a44ae61d0779e892" category="doc">섀시 교체 - AFF A320</block>
   <block id="5ab7856b7ebec8f0df312e997fb8acf9" category="paragraph">섀시를 교체하려면 팬과 컨트롤러 모듈을 손상된 섀시에서 손상된 섀시와 동일한 모델의 새 섀시로 옮겨야 합니다.</block>
   <block id="de13eae43e74bcedacee29c89051ee54" category="list-text">이 절차는 컨트롤러 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 구성됩니다.</block>
   <block id="3e39936f936e4834cc06a63b1868d4c5" category="summary">시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
@@ -2461,12 +2443,10 @@
   <block id="1746bc42c6a0bcc08b35a19a88025470" category="inline-link">드라이브 쉘프 ID 설정</block>
   <block id="91b9dae90e904c2901e5a02752e081c0" category="paragraph"><block ref="91b9dae90e904c2901e5a02752e081c0" category="inline-link-rx"></block></block>
   <block id="58599a78c7345fe9e241e0a8a135d733" category="list-text">NetApp ONTAP 구성 가이드 _ 에서 수집한 데이터를 사용하여 시스템을 구성합니다.</block>
-  <block id="139f44aa7a23de183d912d94013db6d0" category="doc">컨트롤러 모듈 교체 - AFF A320</block>
   <block id="62bbf44c561b37677a0688281d60958e" category="list-text">정상 노드는 교체되는 노드를 인수할 수 있어야 합니다("손상된 노드"라고 함).</block>
   <block id="82bbfcee09add33fd33001d4761a8949" category="inline-link">올바른 복구 절차 선택</block>
   <block id="07915727e4f5cb3e1172a8852c17c2bb" category="list-text">시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다<block ref="dbcae02c495cc3db61b37ce85396171e" category="inline-link-rx"></block> 이 절차를 사용해야 하는지 여부를 확인합니다.</block>
   <block id="3a23955ad584199d013caf86411a3e19" category="paragraph">이 절차를 사용해야 하는 경우 4 또는 8노드 MetroCluster 구성의 노드에 대한 컨트롤러 교체 절차는 HA 쌍 구성과 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.</block>
-  <block id="c9c809ca8c1b2b30aa31e5c08e6ae9b7" category="doc">컨트롤러 모듈 교체 - AFF A320</block>
   <block id="e2f9fc0be7a0bec719378633fe5d0324" category="section-title">1단계: 컨트롤러 모듈을 분리합니다</block>
   <block id="c75b039e7117dd559fe2e9c54d35354b" category="paragraph">다음 이미지 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.</block>
   <block id="f26a5008ba3ae6c52cababa034f37688" category="paragraph">다음 이미지는 손상된 컨트롤러 모듈에서 케이블 및 케이블 관리 암을 분리하는 방법을 보여줍니다.</block>
@@ -2561,7 +2541,6 @@
   <block id="dec6a1059fef7846f11606837d66ab54" category="inline-link">AFF A320 시스템 설치 및 설정 지침</block>
   <block id="6b59b1ed1da90d67a9669493c83f5dbe" category="paragraph"><block ref="6b59b1ed1da90d67a9669493c83f5dbe" category="inline-link-rx"></block></block>
   <block id="611cf47f3569074932e1d1554c9dcfdd" category="doc">장애가 발생한 부품을 NetApp-AFF A320으로 되돌립니다</block>
-  <block id="4a911cf3dad818b3c0821fe7d7fbb266" category="doc">교체 프로세스 완료 - AFF A320</block>
   <block id="f18d3ce1458eacbbf20206e503ce6dcf" category="doc">DIMM-AFF A320을 교체합니다</block>
   <block id="5beb49709902306e7264c7704117a827" category="section-title">3단계: 시스템 DIMM을 교체합니다</block>
   <block id="3848c7730c285ede150ddd598894cf0b" category="paragraph">시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵 또는 마더보드의 LED를 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.</block>
@@ -2571,7 +2550,6 @@
   <block id="8ba440c17426059f99ad1e5e963ed7e2" category="list-text">표시된 메뉴에서 * Stress-Test system * 을 선택합니다.</block>
   <block id="ec0d0904d577b30f49df1757109008c2" category="list-text">표시된 하위 메뉴에서 옵션을 선택하고 검사를 실행합니다.</block>
   <block id="b06018bc829da55a1eb1a43b93312dc5" category="summary">부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다.</block>
-  <block id="586dc1291903d6b3fba43b4bdded2253" category="doc">컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A320)로 전송합니다</block>
   <block id="e6b7941c3f8bfc56083e6d96c76bea05" category="image-alt">A320 drw 부팅 미디어 교체 애니메이션 gif</block>
   <block id="e7ee072a3e06310afcc412655144e84b" category="section-title">3단계: USB 플래시 드라이브를 사용하여 부팅 이미지를 부팅 미디어로 전송합니다</block>
   <block id="0186f6c22953c36e3e4978bb091e11b3" category="paragraph">설치한 교체 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다.</block>
@@ -2669,7 +2647,6 @@
   <block id="85addff4e956c9308629fe5df9a5e466" category="list-text">'storage failover -fromnode local' 명령을 사용하여 노드를 다시 지정합니다</block>
   <block id="e9ca370a0e8565dd4c2f659637e04cda" category="doc">컨트롤러 종료 - AFF A320</block>
   <block id="3db791f86840d722803e10a186dc04c8" category="summary">손상된 섀시에서 팬, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오.</block>
-  <block id="b105e52bdfefa0ec7be78e234263fd7d" category="doc">하드웨어 이동 및 교체 - AFF A320</block>
   <block id="47e6ca7a31b3f3492d704b44dea3bc0e" category="section-title">1단계: 컨트롤러 모듈을 분리합니다</block>
   <block id="c488924be9cfde77f802e82e996e90e1" category="paragraph">섀시를 교체하려면 이전 섀시에서 컨트롤러 모듈을 분리해야 합니다.</block>
   <block id="e73f79c9112f5779897d8c0a650b3b99" category="list-text">전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.</block>
@@ -2776,7 +2753,6 @@
   <block id="e62b4750e70bd7d70bffad33b5e2a973" category="list-text">전원 케이블을 전원 공급 장치와 전원에 다시 연결한 다음 전원을 켜서 부팅 프로세스를 시작합니다.</block>
   <block id="8f511756e5bb3f8ab1b0c5b4c59ad2d1" category="section-title">5단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다</block>
   <block id="5cdd6ca46c1bd8446e669172ffdc9515" category="summary">컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다.</block>
-  <block id="3f7ce49a0d1e698f3c797b097e7fe96c" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어 - FAS8200으로 전송합니다</block>
   <block id="8ccbd61b66565f6f1198c3dcd986738d" category="image-alt">drw rxl 부팅 미디어</block>
   <block id="df68d4c5603d466ecfbda6373c7b02e9" category="paragraph">이미지가 설치된 USB 플래시 드라이브를 사용하여 교체 부팅 미디어에 시스템 이미지를 설치할 수 있습니다. 그러나 이 절차 중에 var 파일 시스템을 복원해야 합니다.</block>
   <block id="04259c8bd4001fa7fbc720d70c9ea430" category="list-text">자동 부팅 시작 메시지가 표시되면 Ctrl-C를 눌러 로더 프롬프트에서 중지 부팅 프로세스를 중단합니다. 중단하려면 Ctrl-C를 누릅니다</block>
@@ -2873,7 +2849,6 @@
   <block id="e5a1c9478e22eed2b8ae96009afe24a1" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="72822038b68cdd9969cf7e86feb8bbff" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="34aec6eeba64b78b33ad52ec1e1cd899" category="summary">스토리지 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="9d1976464339a2dc5b681ea4cacc276d" category="doc">FAS8200 시스템 설명서</block>
-  <block id="610ebc0f92fc28129db791d1a49c1f29" category="doc">컨트롤러 모듈 교체 - FAS8200</block>
   <block id="d555d8d5b180690f03f434585c90b8d9" category="section-title">1단계: 컨트롤러 모듈을 엽니다</block>
   <block id="57f6abeeecbe08c578cdfb6a3a2675ac" category="section-title">2단계: 부팅 장치를 이동합니다</block>
   <block id="d2e659a165a5fc9686cffcf720df161a" category="paragraph">부팅 미디어를 찾아 지침에 따라 이전 컨트롤러에서 제거한 다음 새 컨트롤러에 삽입해야 합니다.</block>
@@ -2934,10 +2909,8 @@
   <block id="2eea170e7de15002c353944160886c8d" category="list-text">손상된 노드가 HA 쌍의 일부인 경우 정상 노드의 콘솔에서 'Storage failover modify -node local -auto-반환 false'를 자동 반환하도록 해제합니다</block>
   <block id="2c605d107b8b0f8d344d6c863e4c47a9" category="paragraph">Ctrl+C를 누른 다음 y를 누릅니다.</block>
   <block id="ba70fdaa734ba4fd788cb6febeb14209" category="paragraph">장애가 발생한 노드가 반환 대기 중인 것으로 나타나면 노드 장애 조치 takeover-ofnode_impaired_node_name_'을 인계하거나 중지하고 Ctrl+C를 누른 다음 "y"를 응답합니다.</block>
-  <block id="76955bcf53f2288773176cce5b8b9be2" category="doc">컨트롤러 모듈 - FAS8200을 교체합니다</block>
   <block id="2cbabd3028fd0cb6f4a57144ace2ee33" category="list-text">시스템이 FlexArray 시스템이거나 V_StorageAttach 라이센스가 있는 경우 이 절차를 수행하기 전에 필요한 추가 단계를 참조해야 합니다.</block>
   <block id="18286caf45baac43fedf94bfeaff35fa" category="list-text">기존 컨트롤러 모듈에서 새 컨트롤러 모듈로 또는 기존 고객 사이트 인벤토리에서 추가된 PCIe 카드는 교체 컨트롤러 모듈에서 지원해야 합니다.</block>
-  <block id="3d72eea16a1ba04c6ccbe2a269646078" category="doc">필요에 따라 온보드 암호화 키 확인 - FAS8200</block>
   <block id="ce895c4f6ee583d1352aa92ca42a2e7a" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="814a166e20bd32e0eb4f111e2d255525" category="inline-xref-macro-rx"></block>.</block>
   <block id="3bdbfc08b67b8b5c267819cc7ef67535" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="9431a288e6ce7a6d88bc6ae31dccd0f0" category="inline-xref-macro-rx"></block>.</block>
   <block id="598fddf79c16170c6db6427cdff14daa" category="section-title">옵션 1: ONTAP 9.5 이전 버전을 실행 중인 시스템에서 NVE 또는 NSE를 확인합니다</block>
@@ -2967,7 +2940,6 @@
   <block id="dfeb46620d45b8d49ed48c1634840b5c" category="admonition">OKM 정보가 로그 파일에 저장되었는지 확인합니다. 이 정보는 OKM을 수동으로 복구해야 하는 재해 시나리오에서 필요합니다.</block>
   <block id="f715a6054e8d53c0d1e16dc1d6abcac0" category="list-text">백업 정보의 내용을 별도의 파일 또는 로그에 복사합니다. OKM을 수동으로 복구해야 하는 재해 시나리오에서 이 구성 이 필요합니다.</block>
   <block id="eb924216b30cedba77ddd9a35ecc861e" category="section-title">옵션 2: ONTAP 9.6 이상을 실행하는 시스템에서 NVE 또는 NSE를 확인합니다</block>
-  <block id="cb4445ae1b422344b5e920dcd1d953f1" category="doc">섀시 - FAS8200을 교체합니다</block>
   <block id="8385c47a31a80f44b8892894d86e73a6" category="paragraph">섀시를 교체하려면 전원 공급 장치, 팬 및 컨트롤러 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 손상된 섀시와 동일한 모델의 새 섀시로 바꿔야 합니다.</block>
   <block id="47dab8e7deee5ba45f8438d286d83eb4" category="list-text">이 절차는 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 이루어져 있습니다.</block>
   <block id="ce0f07ee43e7bb986cfbe4574d968557" category="summary">시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다.</block>
@@ -2992,7 +2964,6 @@
   <block id="8201e3355db97566c09d18421a92c87a" category="paragraph">다음 단계를 진행합니다. MetroCluster 스위치백 절차는 교체 프로세스의 다음 작업에서 수행됩니다.</block>
   <block id="d5d42b0e0da2c67e5793c924f8a71d8f" category="section-title">7단계: 교체 프로세스를 완료합니다</block>
   <block id="ce7ac078a00405de488856f37bcd6f09" category="summary">키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 시스템 수준 진단을 실행하고, 애그리게이트를 다시 전환하고, 장애가 발생한 부품을 NetApp에 반환해야 합니다.</block>
-  <block id="6d6ccbb5c3f3daf9671e02820c125375" category="doc">구성 복원 및 확인 - FAS8200</block>
   <block id="ad0e39682bcd1cd18eb8f815706bdc7d" category="paragraph">하상태 값은 다음 중 하나일 수 있습니다. *** ha *** mcc *** mcc-2n *** mccip *** non-ha</block>
   <block id="ebb1194e26e6cc8c6c5c749fda017889" category="paragraph">유지보수 모드 종료: 정지하십시오. 로더 프롬프트가 나타납니다.</block>
   <block id="5b4ee3a586a70994a6b23f95262ecb80" category="list-text">유지보수 모드 프롬프트에서 상호 연결 진단 테스트를 활성화합니다. 'sldiag device modify -dev interconnect -sel enable'</block>
@@ -3005,7 +2976,6 @@
   <block id="d82169514c0fc290b9b51bccb1746c90" category="paragraph">2노드 MetroCluster 구성의 경우</block>
   <block id="9d2a810337a7aa9c3699cd8746f6d93e" category="section-title">3단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다</block>
   <block id="a75dd44a30c437dc825bac9da1d4e3b5" category="summary">손상된 섀시에서 새 섀시로 전원 공급 장치, 팬 및 컨트롤러 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오.</block>
-  <block id="cffb18da589dc8eb39d4f5a7cbaa5a2e" category="doc">hardware-FAS8200을 이동 및 교체합니다</block>
   <block id="5a05c6605a020e1a2163f79eb10968be" category="section-title">1단계: 전원 공급 장치를 이동합니다</block>
   <block id="88eec411dfba0693644591d63a044cce" category="admonition">전원 공급 장치에는 전원 케이블만 연결하십시오. 이때 전원 케이블을 전원에 연결하지 마십시오.</block>
   <block id="ef04965c46c97b1b98ea3ea5fde7b27c" category="section-title">2단계: 팬을 이동합니다</block>
@@ -3018,7 +2988,6 @@
   <block id="f03c92168a16d01cf92fdfdfc719b6b5" category="summary">이 워크시트를 사용하면 ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록할 수 있습니다.</block>
   <block id="e7d6ca5a4598f4102e93853e3167db4f" category="doc">클러스터 구성 워크시트 - FAS8200</block>
   <block id="47172f1226f9908865e044955d2f091b" category="paragraph">를 사용할 수 있습니다 <block ref="cb0390cbe2f3cf678134885ff143b6ba" category="inline-link-macro-rx"></block> ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록합니다.</block>
-  <block id="fe533c64e3a7324140fc23379a87ccc4" category="doc">컨트롤러 -- FAS8200을 종료합니다</block>
   <block id="c055245c084600ec7129f0f3c0692170" category="section-title">옵션 2: 컨트롤러가 2노드 MetroCluster 구성에 포함됩니다</block>
   <block id="c6f502d8dd8eb8b387d8da2e59e48c95" category="summary">다음 비디오에서는 ONTAP 9.2를 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.</block>
   <block id="b311ba9effd852411b6aecb7b5d10b32" category="doc">설치 및 설정 비디오 - FAS8200</block>
@@ -3141,7 +3110,6 @@
   <block id="a7f375a810d73a673cfac8d89305ccac" category="paragraph">RTC 배터리 및 하우징</block>
   <block id="5ac2ce23b602bd690adf87a4ddadc899" category="section-title">컨트롤러 모듈을 재설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</block>
   <block id="e5869c3e3552c60a1a151cf93d8bdbee" category="summary">컨트롤러 모듈에서 중간 PCIe 모듈을 분리하고, 부팅 미디어 근처의 LED로 결함이 있는 부팅 미디어를 찾은 다음 부팅 미디어를 교체해야 합니다.</block>
-  <block id="ec221492ab283fe7bbfd27ad39bbda82" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어(AFF A700s)를 교체합니다</block>
   <block id="e9e66c1bd59e20ff8acce6fb41f94461" category="paragraph">섀시에서 컨트롤러 모듈을 분리하고 연 다음, 결함이 있는 부팅 미디어를 교체해야 합니다.</block>
   <block id="e88eebc1797d32d10ed4abe331b3ecb6" category="section-title">2단계: 부팅 미디어 교체 - AFF A700s</block>
   <block id="588550e231fd9dcead167f2e3a8a2926" category="paragraph">부트 미디어를 제자리에 고정하는 나사를 분리하려면 십자 드라이버가 필요합니다.</block>
@@ -3203,7 +3171,6 @@
   <block id="08b1c3ca7a11560dc5469640d0575de2" category="summary">AFF A700s 시스템 설명서를 사용하면 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="12fa8b293937af24714101545edb706a" category="doc">AFF A700s 시스템 설명서</block>
   <block id="0b95a4177e24ad5d46eb1b71d70c2697" category="summary">컨트롤러 모듈을 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
-  <block id="1b2c61f715888e410f2b1fd6cbd9382b" category="doc">하드웨어를 AFF A700s로 이동합니다</block>
   <block id="d9119345c9a007e36472326a6510319b" category="section-title">2단계: NVRAM 카드를 이동합니다</block>
   <block id="63f3a7c41a55885608d548f506cf6e84" category="paragraph">컨트롤러 교체 프로세스의 일부로 손상된 컨트롤러 모듈의 라이저 1에서 NVRAM 카드를 분리하고 교체 컨트롤러 모듈의 라이저 1에 카드를 설치해야 합니다. 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 DIMM을 이동한 후에만 라이저 1을 교체 컨트롤러 모듈에 다시 설치해야 합니다.</block>
   <block id="1ab810cfbdc8e768a7dd00d6ecd7d645" category="list-text">컨트롤러 모듈에서 NVRAM 라이저, 라이저 1을 분리합니다.</block>
@@ -3287,7 +3254,6 @@
   <block id="3da447ebdb632dcafa2eee47ac09d128" category="paragraph">장애가 발생한 컨트롤러 모듈에서 교체 컨트롤러 모듈로 모든 구성 요소를 이동한 후에는 교체 컨트롤러 모듈을 섀시에 설치하고 유지보수 모드로 부팅해야 합니다.</block>
   <block id="bd29c68c1d822e5458bc751793cb0415" category="list-text">Press Ctrl-C for Boot Menu가 표시되면 Ctrl-C를 눌러 부팅 프로세스를 중단합니다.</block>
   <block id="9a86085357934b0a1859c727c4e1e2ff" category="summary">오류가 발생한 NVRAM 카드를 교체하려면 NVRAM 라이저, 라이저 1을 컨트롤러 모듈에서 분리하고, 라이저에서 오류가 발생한 카드를 제거하고, 새 NVRAM 카드를 라이저에 설치한 다음, 라이저를 컨트롤러 모듈에 다시 설치해야 합니다. 시스템 ID는 NVRAM 카드에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
-  <block id="c2127d294bb8e1a8a88b8a6b351981ac" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM - AFF A700s를 교체합니다</block>
   <block id="93042cc4c4d4eead8d68941113308dfd" category="list-text">모든 디스크 쉘프가 올바로 작동하고 있어야 합니다.</block>
   <block id="cfdacb5b8eea6906da1318b4cc5ee5a2" category="list-text">시스템이 HA 쌍 내에 있는 경우 파트너 노드가 교체할 NVRAM 모듈과 연결된 노드를 인수할 수 있어야 합니다.</block>
   <block id="105e727cdc375bb7add37bd9f101765d" category="list-text">이 절차에서는 다음과 같은 용어를 사용합니다.</block>
@@ -3306,7 +3272,6 @@
   <block id="c2deae7c367921c0b07893dc6e315415" category="section-title">스토리지 및 볼륨 암호화 기능을 복원합니다</block>
   <block id="7b1c040ceba02d6d19a8157caebae0e2" category="doc">장애가 발생한 노드인 AFF A700s를 종료합니다</block>
   <block id="8a9d9ac73cd783fd8be1adef7a7b3710" category="summary">주 부팅 매체는 시스템이 부팅될 때 사용하는 ONTAP 부팅 이미지를 저장합니다. 보조 부팅 미디어의 ONTAP 이미지를 사용하거나 필요한 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어 이미지를 복원할 수 있습니다.</block>
-  <block id="7b8acdbd6cb1e8cc2c32a3dce8ab8048" category="doc">부팅 미디어 교체 - AFF A700s</block>
   <block id="327cba4c3b39fe95536adbd9bda04a68" category="paragraph">보조 부팅 미디어에 오류가 있거나 image.tgz 파일이 없는 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어를 복원해야 합니다. 드라이브는 FAT32로 포맷해야 하며 image_xxx.tgz 파일을 저장할 적절한 저장 공간이 있어야 합니다.</block>
   <block id="c36778782b4ef6254390f7e747b95625" category="list-text">교체 프로세스는 보조 부팅 미디어 또는 USB 플래시 드라이브에서 기본 부팅 미디어로 var 파일 시스템을 복구합니다.</block>
   <block id="320003b122e9ced04801080d4fca8abd" category="list-text"><block ref="320003b122e9ced04801080d4fca8abd" category="inline-link-macro-rx"></block></block>
@@ -3331,14 +3296,10 @@
   <block id="42276924a11ced220d6673bca09aab34" category="list-text">컨트롤러 모듈에서 분리한 라이저를 모두 재설치합니다.</block>
   <block id="f7d2e85282b0ca5073c032b071225e16" category="paragraph">NVRAM 라이저, 라이저 1을 분리한 경우 NVRAM 배터리를 컨트롤러 모듈에 꽂아야 합니다.</block>
   <block id="5a9efed957a764efe5954f9cb1a6df54" category="section-title">진단 유틸리티를 실행합니다</block>
-  <block id="9e5d9be7658096dcf2c948eacff48791" category="doc">컨트롤러 모듈 AFF A700s를 교체합니다</block>
-  <block id="90005359fdbebd719077974048e1306f" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A700s</block>
-  <block id="3da7b4731a98bf94adb8ae43c535d9eb" category="doc">섀시 교체 - AFF A700s</block>
   <block id="2b1646515c4dcacd96acd971239a6f14" category="paragraph">섀시를 교체하려면, 컨트롤러 모듈과 SSD 드라이브를 손상된 섀시에서 교체 섀시로 옮긴 다음 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 분리하고 교체 섀시를 제자리에 설치해야 합니다.</block>
   <block id="c465df44865c02db52bc6f37023b5b75" category="list-text">이 절차는 SSD 및 컨트롤러 모듈을 새 섀시로 이동하는 가정 하에 작성되었으며, 교체 섀시는 NetApp의 새로운 구성 요소가 됩니다.</block>
   <block id="d574c271d37aff5dfc97b6ecd338458f" category="doc">복원 및 교체 프로세스 - AFF A700s를 완료하십시오</block>
   <block id="675f472ebd03f28204a76004420e0dc6" category="doc">node-AFF A700s를 종료합니다</block>
-  <block id="dc7c1c2416a08fd0a085e8329fda76ff" category="doc">하드웨어- AFF A700s를 이동 및 교체하십시오</block>
   <block id="94d1159091c1890578647fdf6494e0c8" category="list-text">컨트롤러 모듈을 안전한 곳에 두고 섀시의 다른 컨트롤러 모듈에 대해서도 이 단계를 반복합니다.</block>
   <block id="8bf527b8feaef96125c0221bc5542368" category="section-title">2단계: 드라이브를 새 섀시로 이동합니다</block>
   <block id="82d2f9dc416e137517b7e7fdd5976473" category="paragraph">캠 핸들이 드라이브 캐리어 전면과 올바르게 정렬되도록 캠 핸들을 천천히 닫아야 합니다. 보안 상태가 되면 클릭합니다.</block>
@@ -4845,7 +4806,6 @@
   <block id="8809109bc3c32c4643721e11bd2daa4b" category="list-text">정상 부트 프로세스를 중단하고 'Ctrl-C'를 눌러 로더로 부팅합니다.</block>
   <block id="53a6eef1d61ae1268797df395fb6c8cd" category="admonition">시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 옵션을 선택합니다.</block>
   <block id="601c15b5101316dedeb3a25975e9e2f9" category="summary">컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.</block>
-  <block id="8e3daca783076f9b3bcb927610eec9b7" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어-AFF A400으로 전송합니다</block>
   <block id="a695ddd31702bf0ddff2a7cf2f63d196" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.</block>
   <block id="88ef394be03c2dee8da212eb3ce203d3" category="paragraph">잠금 래치</block>
   <block id="be0b7bebdbc010beb298a7c7fac29946" category="paragraph">컨트롤러를 섀시 밖으로 밀어냅니다</block>
@@ -4868,16 +4828,6 @@
   <block id="4d1146c66e0636390c5fcd1e7c177a2a" category="list-text">부츠</block>
   <block id="797462bacc0f6fc2b9a4b4f5c1ec212e" category="list-text">EFI</block>
   <block id="f33d22080714eee8f244e5ef03575052" category="list-text">EFI 폴더를 USB 플래시 드라이브의 최상위 디렉토리에 복사합니다.</block>
-  <block id="415fa0688df8274c164b59b4198962c0" category="list-text">환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv_variable-name_&lt;value&gt;' 명령을 사용하여 오류를 수정해야 합니다.</block>
-  <block id="fb6256876c77c84f7b123f77e4a76065" category="list-text">bootarg.storageencryption.support_&lt;value&gt;_</block>
-  <block id="b0c502405f3d38003102dc9ff6ecbacf" category="list-text">"bootarg.keymanager.support _<block ref="5e35286d16f4c4f2856a334908410e6e" category="inline-xref-macro-rx"></block>_'</block>
-  <block id="389654b5df7e597b0dca2e5dd38ab206" category="list-text">"kmip.init.interface _<block ref="5e35286d16f4c4f2856a334908410e6e" category="inline-xref-macro-rx"></block>_'</block>
-  <block id="dce763a51232b8b7a8be0369ee4aa6e5" category="list-text">' kmip.init.ipaddr_&lt;값&gt;_'</block>
-  <block id="c587f8e3331dc8af219f5fb544e45305" category="list-text">' kmip.init.netmask_&lt;값&gt;_'</block>
-  <block id="379e757e77ad9295fd49ed6e0b90b587" category="list-text">' kmip.init.gateway_&lt;값&gt;_'</block>
-  <block id="70ec885c1913cf08b606fb77bb7fea71" category="list-text">bootarg.storageencryption.support_value_</block>
-  <block id="fa7b780cb4a0299b9e38a76a2f8334b4" category="list-text">bootarg.keymanager.support_value' _</block>
-  <block id="ba844d2376aed6be7889241c01a7d4a6" category="list-text">'bootarg.온보드_keymanager_value_'</block>
   <block id="22cc15dad4c522616e5130f927446d07" category="doc">장애가 발생한 부품을 NetApp-AFF A400으로 되돌립니다</block>
   <block id="376ecb7742395c276940c386f403f622" category="doc">NVDIMM 배터리-AFF A400을 교체합니다</block>
   <block id="2cf2814258fcdc62e9d952b1e5b1ae63" category="paragraph">NVDIMM 전지를 교체하려면, 컨트롤러 모듈에서 결함이 있는 전지를 제거하고 교체 전지를 컨트롤러 모듈에 설치해야 합니다. NVDIMM 배터리를 찾으려면 컨트롤러 모듈 내부의 FRU 맵을 참조하십시오.</block>
@@ -4979,13 +4929,11 @@
   <block id="35f4e915b526ce8b8efbd50940ab41ea" category="paragraph"><block ref="35f4e915b526ce8b8efbd50940ab41ea" category="inline-link-rx"></block></block>
   <block id="c7f2defea9cd5b73fda5cc58aadedfcc" category="admonition">초기 부팅에는 최대 8분이 소요될 수 있습니다.</block>
   <block id="ec15ae659445c6b6db2f5a726a8eac48" category="admonition">주소의 형식은 +https://x.x.x.x.+ 입니다</block>
-  <block id="3efcbf9d7a96ee14c191f92732d09d9d" category="doc">복구 이미지 부팅 - AFF A400</block>
   <block id="4afe550d309fda5baa26dd6ae61e8442" category="cell">* 표시되는 경우...</block>
   <block id="d4d4b346339524be979b964b901a1b92" category="cell">그러면... *</block>
   <block id="d21dc442f2ac95e798154d9d5d6e5d0a" category="doc">손상된 컨트롤러-AFF A400을 종료합니다</block>
   <block id="1d12ee1cc1c3273cce6fc45b1b8482e3" category="summary">AFF A400 시스템 문서를 사용하여 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="516df41b194629b6a76a27a58159488d" category="doc">AFF A400 시스템 문서</block>
-  <block id="b0d5a2d8a517331a96575fab39f0fa39" category="doc">컨트롤러 모듈 교체 - AFF A400</block>
   <block id="d77f71cbbb3c8057b08d0dfb49aa5664" category="paragraph">다음 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.</block>
   <block id="2010d72cb8663ac4f3960dead61f921e" category="paragraph"><block ref="2010d72cb8663ac4f3960dead61f921e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4c10aef61f6ce27a93c5212bf85139d" category="list-text">교체 컨트롤러 모듈에서 에어 덕트를 열고 애니메이션, 그림 또는 작성된 단계를 사용하여 컨트롤러 모듈에서 빈 라이저를 분리합니다.</block>
@@ -5042,14 +4990,10 @@
   <block id="282abcd1229d5f110894e126192603b3" category="inline-link">시스템 DIMM 교체</block>
   <block id="212baf733d07a5e386f7f5c6424c0168" category="paragraph"><block ref="212baf733d07a5e386f7f5c6424c0168" category="inline-link-rx"></block></block>
   <block id="ef3d6a7034bbb6a1a5a3adc4e54f05da" category="paragraph">DIMM은 소켓 2, 4, 13 및 15에 있습니다. NVDIMM은 슬롯 11에 있습니다.</block>
-  <block id="8cb1266935764fdd7f06905f51f47216" category="doc">컨트롤러 모듈 AFF A400을 교체합니다</block>
   <block id="77e5d5e9e3fe25e357bcca8804d9d2dd" category="list-text">replacement node_는 손상된 노드를 교체하는 새 노드입니다.</block>
-  <block id="e50ddfa110fbe30b27fc543c1c1b1e72" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A400</block>
-  <block id="09febcdc659d47fa316ea77a5da343ff" category="doc">섀시 AFF A400을 교체합니다</block>
   <block id="8eea6ffadcece75bbf0826ed26885fb9" category="list-text">이 절차는 중단을 따릅니다. 2노드 클러스터의 경우 완벽한 서비스 중단을 경험하며 다중 노드 클러스터의 일부 중단이 발생할 수 있습니다.</block>
   <block id="9f10aac4e72d368f5602754ad5076de6" category="doc">복원 및 교체 프로세스 - AFF A400을 완료합니다</block>
   <block id="0ecf4967de705c4a27e4c0f0513becb3" category="paragraph">HA-STATE_의 값은 다음 중 하나일 수 있습니다.</block>
-  <block id="59c64930b708a1fa2fc4216bab7c8a0e" category="doc">하드웨어-AFF A400을 교체 및 교체합니다</block>
   <block id="f63746c86a42cd15d7a70dfdd276f719" category="doc">컨트롤러 종료 - AFF A400</block>
   <block id="0288adc0f71efbfccd93c799c7b290be" category="section-title">옵션 1: 섀시를 교체할 때 컨트롤러를 종료합니다</block>
   <block id="56eb83c06d36c90e76429cda40aea7ed" category="section-title">옵션 2: 2노드 MetroCluster 구성에서 노드를 종료합니다</block>
@@ -5104,7 +5048,6 @@
   <block id="3970e41706ca509bbbe93d6bce9c9705" category="paragraph">컨트롤러 모듈의 구성 요소를 교체한 후 섀시에 다시 설치합니다.</block>
   <block id="b6f66be9dc65274f1a5ad75f80aae188" category="inline-link-macro">AFF FAS2600 RTC 배터리 교체 비디오</block>
   <block id="0c023decff1a18deafa6980867c1ca2b" category="paragraph"><block ref="0c023decff1a18deafa6980867c1ca2b" category="inline-link-macro-rx"></block></block>
-  <block id="166d0b02f30259134a5bf79406bfa018" category="doc">컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(FAS2600)로 전송합니다</block>
   <block id="88de6a437c20bc32d754f16685e940b8" category="image-alt">drw 2600 부트 미디어 move aminated gif</block>
   <block id="a47803b6b6d01b67efcc88a157378c39" category="doc">장애가 발생한 부품을 NetApp-FAS2600으로 반환합니다</block>
   <block id="d2efa0c31f219abbc043377bfd4ffa3b" category="doc">복구 이미지 - FAS2600을 부팅합니다</block>
@@ -5120,7 +5063,6 @@
   <block id="cdc94270d32a037fc80536b1ce6a1948" category="inline-link-macro">AFF FAS2600 설치 및 설정 지침</block>
   <block id="352c7fcaa0834bc994a6cf4d8953c111" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="5dc38b4c94702b8e594dd848db91e158" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="1f747d7a59e4bce713446ceffc970c2d" category="doc">FAS2600 시스템 설명서</block>
-  <block id="056d6aad4fcec151946644ac7f6ae3b1" category="doc">컨트롤러 모듈-FAS2600을 교체하십시오</block>
   <block id="5b9bf9643d348558871bac7550eb6bf2" category="inline-link-macro">AFF FAS2600 컨트롤러 교체 비디오</block>
   <block id="bfc5f4fff0a27940b1f4676800d974c4" category="paragraph"><block ref="bfc5f4fff0a27940b1f4676800d974c4" category="inline-link-macro-rx"></block></block>
   <block id="86b067a1faa816ad3c0a245cc1e409ad" category="section-title">5단계: 캐싱 모듈을 이동합니다</block>
@@ -5138,9 +5080,6 @@
   <block id="7a463f9e839bbbeef6456ebce3997799" category="paragraph">스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수하십시오.</block>
   <block id="cc0229491324372575d8e9833b910f02" category="list-text">NVMEM LED를 다시 확인하십시오.</block>
   <block id="45bad0a220769ce3e5e852b8009c6c12" category="doc">노드-FAS2600을 종료합니다</block>
-  <block id="a2cba29e1f4ab1cb06b4dd48b71d24af" category="doc">컨트롤러 모듈 - FAS2600을 교체하십시오</block>
-  <block id="1ccd7522f9e312cb2fe8037a5bf347e3" category="doc">필요에 따라 온보드 암호화 키 확인 - FAS2600</block>
-  <block id="e3c233308d778f0b7a43f46954788a7e" category="doc">섀시-FAS2600을 교체합니다</block>
   <block id="e36ec33be061816b4fbfa1c3e8e42798" category="inline-link-macro">AFF FAS2600 섀시 교체 비디오</block>
   <block id="f126a748aa68879f9dcff06da9ee7d1e" category="paragraph"><block ref="f126a748aa68879f9dcff06da9ee7d1e" category="inline-link-macro-rx"></block></block>
   <block id="a618373732a54299b15020c4fdcc9ff7" category="doc">캐싱 모듈-FAS2600을 교체하십시오</block>
@@ -5159,7 +5098,6 @@
   <block id="01ca059245897bf13f451aefdac2252d" category="section-title">3단계: 캐싱 모듈을 교체합니다</block>
   <block id="fcb47fab108a0238221cf0b2d24663f3" category="paragraph">컨트롤러의 레이블에 M.2 PCIe 카드라고 하는 캐싱 모듈을 교체하려면 컨트롤러 내부의 슬롯을 찾아 특정 단계를 따릅니다.</block>
   <block id="b37236c3c4a90442c4db951305ea57a0" category="image-alt">drw 2600 FCache repl 애니메이션 gif</block>
-  <block id="2b46c7b8b025b3627340674fb8b8b4fe" category="doc">구성 복원 및 확인 - FAS2600</block>
   <block id="f40996a53c6875d0f06b63b50c75345e" category="paragraph">'node::::&gt; cluster ha modify -configured true node:::::&gt; storage failover modify -node Node0 -enabled true' 명령을 실행합니다</block>
   <block id="41646e300bc69ef2a9312f19877f3d78" category="paragraph">'node:::&gt; storage failover modify -node Node0 -enabled true' 명령을 실행합니다</block>
   <block id="df6822f659c151f8e258eb209eb61168" category="paragraph">이 특정 작업에 대한 추가 단계가 없습니다.</block>
@@ -5174,10 +5112,8 @@
   <block id="7d529e0ab83dded43342f45ed2a098bd" category="inline-link-macro">AFF FAS2600 설정 비디오</block>
   <block id="5f3f6cd3a4d5edc50129f46b603aa9c2" category="paragraph"><block ref="5f3f6cd3a4d5edc50129f46b603aa9c2" category="inline-link-macro-rx"></block></block>
   <block id="5e57d07ff1fc6536107cc6e45fe9f281" category="doc">필요에 따라 OKM, NSE 및 NVE를 복원합니다 - FAS2600</block>
-  <block id="4342953395146d05ad58dd5114ab6c6c" category="doc">시스템 구성 복원 및 확인 - FAS2600</block>
   <block id="1903509c2e0527e99c5b6bf04998c1bd" category="doc">NVMEM 배터리 - AFF A220 및 FAS2700을 교체합니다</block>
   <block id="1d55adb1b1c1ca94fb7937df775d3004" category="paragraph">MetroCluster 스위치백 절차는 교체 프로세스의 다음 작업에서 수행됩니다.</block>
-  <block id="b1108e16cfbf9bfec6507ad13906c2e5" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A220 및 FAS2700)로 전송합니다</block>
   <block id="10c7f296fbe86b208c1b89ca81a28947" category="doc">장애가 발생한 부품을 NetApp-AFF A220 및 FAS2700으로 반환합니다</block>
   <block id="7322467d01726afa3b63a66bb748a30d" category="doc">복구 이미지(AFF A220 및 FAS2700)를 부팅합니다</block>
   <block id="da131b1d779564146cdbca445e6cfbec" category="doc">시스템을 재할당하고 디스크를 재할당할 수 있습니다 - AFF A220 및 FAS2700</block>
@@ -5265,7 +5201,6 @@
   <block id="2c51278d41ddd5b0a5e4e43d5d054024" category="admonition">주소의 형식은 입니다<block ref="e3a42c8b12a27a5e78828d7419e57eb0" category="inline-link-rx"></block>.</block>
   <block id="4a548135158bf0dbaee8622657e29f8a" category="doc">손상된 컨트롤러(AFF A220 및 FAS2700)를 종료합니다</block>
   <block id="e899cd265eb0284d156930495e1a6147" category="doc">AFF A220 및 FAS2700 시스템 설명서</block>
-  <block id="3e89a7e8253deaaafd229f0b5d846d1f" category="doc">컨트롤러 모듈 교체 - AFF A220 및 FAS2700</block>
   <block id="616fd6518ea3af054114db97fda5ce99" category="section-title">2단계: NVMEM 배터리를 이동합니다</block>
   <block id="b6790ed19ee7185948334edd9ddcca05" category="section-title">3단계: 부팅 미디어를 이동합니다</block>
   <block id="1952d412a2089ae2581c6a09ce1f7282" category="section-title">5단계: 캐시 모듈이 있는 경우 이동합니다</block>
@@ -5280,12 +5215,8 @@
   <block id="c4de84ea78d221e98599baf30d3e65d1" category="doc">DIMM-AFF A220 및 FAS2700을 교체합니다</block>
   <block id="376b1cae869bbe8ab1cce68fdb30b696" category="inline-link-macro">DIMM을 교체합니다</block>
   <block id="91e13f2779cb51174165fa30eaba7e5b" category="list-text">로 돌아갑니다 <block ref="cf268cc4bc5a73daf7348170b397c07d" category="inline-link-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
-  <block id="b400af1ab4656073ad62b92f9b916c24" category="doc">컨트롤러 모듈(AFF A220 및 FAS2700)을 교체합니다</block>
-  <block id="8e52a3809fdb034a02d082c36f777f91" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A220 및 FAS2700</block>
-  <block id="75877f072c08497206c90d0292eeae79" category="doc">섀시 교체 - AFF A220 및 FAS2700</block>
   <block id="322391dba2ed1aad7de572d3e59d7971" category="doc">캐싱 모듈(AFF A220 및 FAS2700)을 교체합니다</block>
   <block id="97b1f2a399a9f8be834e6f759850413e" category="paragraph">를 누릅니다<block ref="38093d6513bb2e960eab247f00f04533" category="inline-link-rx"></block></block>
-  <block id="225990e93efbda40e50290405349df37" category="doc">구성 복원 및 확인 - AFF A220 및 FAS2700</block>
   <block id="036daea01da005d10d91194975a425c2" category="doc">하드웨어 교체 - AFF A220 및 FAS2700</block>
   <block id="7b8a615da4ff1a4b66afd353c0a6117c" category="doc">컨트롤러 - AFF A220 및 FAS2700을 종료합니다</block>
   <block id="9da34b3563e3dc0c838ac5494efca1fe" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A220 및 FAS2700</block>
@@ -5307,11 +5238,8 @@
   <block id="c65be06145c6932d272087d8bd0dc751" category="inline-link-macro">Nexus 5596</block>
   <block id="648e8e37330666bde8dd4d1d7be3ea1f" category="list-text"><block ref="648e8e37330666bde8dd4d1d7be3ea1f" category="inline-link-macro-rx"></block></block>
   <block id="ee9afd7df5d1f09abe628235a0bbd29c" category="inline-link-macro">Nexus 3232C</block>
-  <block id="7b01d1a60f929493e4caa403ce23427c" category="list-text"><block ref="7b01d1a60f929493e4caa403ce23427c" category="inline-link-macro-rx"></block></block>
   <block id="43f44eb6eab88bd3dd44d614bab79684" category="inline-link-macro">Nexus 3132Q-V</block>
-  <block id="a81d355d860ea6fe08143e2be27b7ed6" category="list-text"><block ref="a81d355d860ea6fe08143e2be27b7ed6" category="inline-link-macro-rx"></block></block>
   <block id="3c45f2f6b490b6057b0b3cee9eab4438" category="inline-link-macro">CN1610</block>
-  <block id="dc6d73a1180661c5f71f36e0c7d35afb" category="list-text"><block ref="dc6d73a1180661c5f71f36e0c7d35afb" category="inline-link-macro-rx"></block></block>
   <block id="1829a6378e29fdb2a01976800d3ca60e" category="inline-link-macro">CN1601</block>
   <block id="3c6aef09c74bd93941262638ee643789" category="list-text"><block ref="3c6aef09c74bd93941262638ee643789" category="inline-link-macro-rx"></block></block>
   <block id="6fac6f4e16017f2b4bc0f9591a002153" category="summary">이 링크를 다른 AFF 및 FAS 모델에 사용할 수 있습니다.</block>
@@ -5358,7 +5286,6 @@
   <block id="b7d2c15ba4d23a3704c6e0fa1cd09303" category="paragraph">손상된 컨트롤러의 하드웨어 구성 요소를 교체한 후 PCIe 라이저를 다시 설치합니다.</block>
   <block id="5b6534f621851e68cd3102bd5d746226" category="section-title">6단계: 컨트롤러 모듈을 다시 설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</block>
   <block id="759e216c6a22313a95c34c198ce8cb0b" category="summary">부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라이저 3을 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다.</block>
-  <block id="702228952a2bbb039b5de60bbb9bdc9e" category="doc">컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A800)로 전송합니다</block>
   <block id="c77a1ae1297b5c5dbfc50dce06f417ff" category="image-alt">drw A800 부트 미디어 교체</block>
   <block id="413c7cb867bfe063a5a3a480228674da" category="paragraph">라이저 3</block>
   <block id="d4d3885e3484305b905fde6b3ef5c19c" category="paragraph">Phillips #1 드라이버</block>
@@ -5371,8 +5298,6 @@
   <block id="98bdc3e90693534845f2b1eeaabe98be" category="list-text">USB 플래시 드라이브를 컨트롤러 모듈의 USB 슬롯에 삽입합니다. + USB 콘솔 포트가 아닌 USB 장치용 슬롯에 USB 플래시 드라이브를 설치해야 합니다.</block>
   <block id="66e081aa9e9235fecee66d668b33a06c" category="list-text">컨트롤러 모듈 잠금 후크가 상승하기 시작할 때까지 컨트롤러 모듈을 천천히 시스템에 밀어 넣고 잠금 후크를 단단히 눌러 컨트롤러 모듈 장착을 완료한 다음 잠금 후크를 컨트롤러 모듈의 핀 위에 있는 잠금 위치로 돌립니다. + 노드가 섀시에 완전히 설치되는 즉시 부팅되기 시작합니다.</block>
   <block id="ce526ec45d4379a40bad44d2a49da7f1" category="list-text">로더 프롬프트에서 중지하려면 Ctrl+C를 눌러 부팅 프로세스를 중단합니다. + 이 메시지가 표시되지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 로더 부팅 시 노드를 중단합니다.</block>
-  <block id="48c4f2c3bb2ee493632edbffc490b423" category="list-text">"bootarg.init.flash_optimized`</block>
-  <block id="f350afbe0323f52439b3ab71beee1b58" category="list-text">"모든 SAN 어레이에 대한 bootarg.init.san_optimized`</block>
   <block id="228833e7e465458067df236eb339d948" category="doc">장애가 발생한 부품을 NetApp-AFF A800으로 반환</block>
   <block id="2ee0c03cb33be156e12b5b33dbf8e422" category="doc">NVDIMM 배터리 교체 - AFF A800</block>
   <block id="a2a7f6c4d01f5224a71aaaa23dd37c83" category="list-text">케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 시스템 케이블과 SFP 및 QSFP 모듈(필요한 경우)을 컨트롤러 모듈에서 분리하여 케이블이 연결된 위치를 추적합니다. 케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블을 분리합니다.</block>
@@ -5478,7 +5403,6 @@
   <block id="217b7a2dfa322681da15c973e1a5f487" category="image-alt">drw 콘솔 연결 affa800</block>
   <block id="6da02acc5640a92145614bae8f8d9a0f" category="image-alt">drw 클라이언트 관리 서브넷 affa800</block>
   <block id="9757dfef94af2886048fc48fd0f2508e" category="doc">AFF A800 시스템 문서</block>
-  <block id="48af71f8234ee9045396a05b47a22265" category="doc">하드웨어-AFF A800을 이동합니다</block>
   <block id="56ea39f220f0f9a4e092906ae1b4e2a2" category="paragraph">컨트롤러 모듈을 교체할 때 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 전원 공급 장치를 이동해야 합니다.</block>
   <block id="0368ad4cb6b0c6375825fb1435656e38" category="image-alt">drw A800은 PSU를 대체합니다</block>
   <block id="489f4d822f036e8983d65332d7a37f54" category="section-title">3단계: 팬을 이동합니다</block>
@@ -5523,11 +5447,8 @@
   <block id="359472a70133529fc01e7b943ee51b2d" category="paragraph">라이저 2 및 DIMM 뱅크 7-10, 12-13 및 15-18</block>
   <block id="5c2989b756c1c0a4f26576c2a249cb73" category="paragraph">라이저 3 및 DIMM 19-22 및 24</block>
   <block id="deed19e25ff1800b42b409fbd813f32a" category="paragraph">* 참고: * 슬롯 2와 14는 비어 있습니다. 이 슬롯에 DIMM을 설치하지 마십시오.</block>
-  <block id="58eb7c7475c6fdc8a1136e6958568701" category="doc">손상된 노드-AFF A800을 종료합니다</block>
-  <block id="ad4efc4cdb2f366ad32bdd16719d53f6" category="doc">컨트롤러 모듈 교체 - AFF A800</block>
   <block id="b43b6ffe97034eb968501fc99ef0a1c4" category="list-text">healy node_는 정상적인 노드입니다.</block>
   <block id="0965105e8b2fca5f6bc22be96233c5e0" category="admonition">파트너 노드 또는 이전 컨트롤러 모듈과 일치하도록 _replacement_node의 BIOS 버전을 다운그레이드하지 마십시오.</block>
-  <block id="665494fdfd944918e2a1f81d0b26a659" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A800</block>
   <block id="5fb89931e5b269129a2ad5936878a851" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="b9f6f8746149f87def14842273c93bfe" category="inline-xref-macro-rx"></block>.</block>
   <block id="70c3e5c6b05722334dd3cfb521d9e159" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="e0569187fa90a6ae4bbbe053355b82c8" category="inline-xref-macro-rx"></block>.</block>
   <block id="b8984f02e6cfd8c017d9d0f4737d0ac7" category="doc">섀시 교체 - AFF A800</block>
@@ -5576,12 +5497,9 @@
   <block id="889b878f17fd664e744718e80f4d60de" category="doc">장애가 있는 컨트롤러-AFF A300을 종료합니다</block>
   <block id="8311fdba7d6af817bbd917e36ee0241a" category="doc">실시간 시계 배터리 - AFF A300을 교체합니다</block>
   <block id="e3d77d25c42b5b22d3782666486eb37f" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A300</block>
-  <block id="2a9296d88a715260cb3afe5e0adcc9f7" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A300</block>
   <block id="6a9185c32ed25a745ad5a6b2fb9c702e" category="doc">시스템 구성 복원 및 확인 - AFF A300</block>
-  <block id="fe390618945e8c579889137dd8562a92" category="doc">섀시 교체 - AFF A300</block>
   <block id="8a73953f68f7fdf48a4b4ff53aac3e33" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF A300</block>
   <block id="e935849faf7cd25a183a726f34797bb7" category="doc">컨트롤러 모듈 교체 - AFF A300</block>
-  <block id="480b3c349b362d8de0e5dd543018f343" category="doc">컨트롤러 모듈 교체 - AFF A300</block>
   <block id="3f7f4ac12f292fdfd3a03d2e6ca590ad" category="summary">AFF A300 시스템 문서에서는 시스템을 설치, 설정, 유지보수할 수 있습니다.</block>
   <block id="8c8521d7bd33c3aaeafeef557f4eadbb" category="doc">AFF A300 시스템 설명서</block>
   <block id="a23c69960d3b280b58087226f261d0e1" category="doc">복구 이미지 부팅 - AFF A300</block>
@@ -5594,7 +5512,6 @@
   <block id="3f98fa9dd0068de7a3158d3cefe04024" category="list-text"><block ref="3f98fa9dd0068de7a3158d3cefe04024" category="inline-link-macro-rx"></block></block>
   <block id="22a0944cdb4fa603e25d6c2d3d91664d" category="doc">클러스터 구성 워크시트 - AFF A300</block>
   <block id="29d730ab27c3a5abafda950a34d545ff" category="doc">PCIe 카드 교체 - AFF A300</block>
-  <block id="12ede52e9575dc4f85c8c9cbd624a4aa" category="doc">컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어 - AFF A300으로 전송합니다</block>
   <block id="31681f3abbed1ceeaf397023a488e2e2" category="section-title">2단계: 부팅 미디어 교체 - AFF A300</block>
   <block id="e63d72ed0cd02fd6dc373efe52370adf" category="doc">설치 및 설정 PDF 포스터 - AFF A300</block>
   <block id="26fa42b1e179247a86e500fd0bdc576c" category="inline-link-macro">AFF A300 설치 및 설정 지침</block>
@@ -5614,8 +5531,6 @@
   <block id="11cedb2a3ea1c051845c4666a3942624" category="doc">컨트롤러 종료 -- AFF A300</block>
   <block id="4cbf72a112e69e9ca004dad9b0b05d49" category="section-title">옵션 2: 컨트롤러는 2노드 MetroCluster 구성에 있습니다</block>
   <block id="75e670af7a515907420be152e288dc75" category="doc">FAN-AFF A300을 스왑한다</block>
-  <block id="670c1e072419ad754fc3c7f092342506" category="doc">하드웨어 이동 및 교체 - AFF A300</block>
-  <block id="185574c79808587d2f0c3a23363b4587" category="doc">구성 복원 및 확인 - AFF A300</block>
   <block id="3746182c68f1f041a5f57979560a0566" category="list-text">로 이동합니다 <block ref="1665eb69960f5979fe40ff23600bffd1" category="inline-xref-macro-rx"></block>.</block>
   <block id="6929ed15e0e67e0b58c79d2b8b2dcb7b" category="summary">완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.</block>
   <block id="aea1fbf1aeb17ba68bafba9f77a5cdc4" category="doc">빈 슬롯이 없는 시스템에 AFF A700 및 FAS9000의 X91148A 스토리지 모듈을 추가합니다</block>
@@ -5683,7 +5598,6 @@
   <block id="f1acf88ce1b64e66be230f01fc83f63a" category="paragraph">RTC 배터리 하우징</block>
   <block id="34b0fd94c5c9f42571c8dbe794b3702c" category="list-text">컨트롤러 모듈 덮개를 다시 설치합니다.</block>
   <block id="41f1900893059b1540d80744e44303eb" category="section-title">4단계: 컨트롤러 모듈을 다시 설치하고 시간/날짜를 설정합니다</block>
-  <block id="fd1b90f6b267b9c4bc56682e00624287" category="doc">컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A700 및 FAS9000)로 전송합니다</block>
   <block id="221a009c2c8e027e67f318554e11c21c" category="paragraph"><block ref="221a009c2c8e027e67f318554e11c21c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f098bab9337722dcf96ec8db49fd9ff" category="paragraph">분리 탭을 누릅니다</block>
   <block id="c8587180911d070686f7467322a07db1" category="list-text">뚜껑의 핀을 마더보드 캐리어의 슬롯에 맞추고 덮개를 제자리에 밀어 넣어 컨트롤러 모듈 덮개를 다시 설치합니다.</block>
@@ -5743,7 +5657,6 @@
   <block id="772b3d601fb0517d5ef4e922b24709a1" category="list-text">양손으로 전원 공급 장치의 가장자리를 시스템 섀시의 입구에 맞춘 다음 전원 공급 장치가 제자리에 고정될 때까지 조심스럽게 섀시에 밀어 넣습니다.</block>
   <block id="ef20366d8eeda4ed0725f1a5a164c558" category="paragraph">PSU가 섀시에 완전히 삽입되면 녹색 전원 LED가 켜지고 황색 주의 LED가 처음에는 깜박이지만 몇 분 후에 꺼집니다.</block>
   <block id="a807e98301721a3033173dc23ac9fd93" category="summary">NVRAM10 배터리가 포함된 디스테이지 컨트롤러 전원 모듈(DCPM)을 핫 스왑하려면 실패한 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
-  <block id="641f349f2152b2dcf9ef8ebb8e931ac1" category="doc">NVRAM10 배터리 - AFF A700 및 FAS9000이 포함된 디스테이징 컨트롤러 전원 모듈을 교체합니다</block>
   <block id="9b9f090ead8603008076b06ff01712ce" category="paragraph">고장난 모듈을 섀시에서 분리하기 전에 교체용 DCPM 모듈이 있어야 하며, 분리 후 5분 이내에 교체해야 합니다. 섀시에서 DCPM 모듈을 제거한 후에는 DCPM 모듈을 소유하는 컨트롤러 모듈에 대한 셧다운 보호가 없으며, 다른 컨트롤러 모듈에 대한 장애 조치 이외의 다른 모듈은 차단되지 않습니다.</block>
   <block id="7d7208507cb6b8b1db8929051420283d" category="section-title">DCPM 모듈 교체</block>
   <block id="5a00f3de99220093cfa367a074d35fec" category="paragraph">시스템에서 DCPM 모듈을 교체하려면 시스템에서 실패한 DCPM 모듈을 제거한 다음 새 DCPM 모듈로 교체해야 합니다.</block>
@@ -5833,7 +5746,6 @@
   <block id="1f71a9eeabff4e5f30b29ba00e836e57" category="inline-link">컨트롤러의 전원을 켭니다</block>
   <block id="57baf06207321952e0c7d552b4d23995" category="paragraph"><block ref="57baf06207321952e0c7d552b4d23995" category="inline-link-rx"></block></block>
   <block id="98e0a55b81b9188cead04d30df43a89c" category="image-alt">drw 9000 케이블 콘솔 스위치 컨트롤러</block>
-  <block id="49cc9697d19126586f947ef6e21ed54a" category="doc">컨트롤러 모듈 AFF A700 및 FAS9000을 교체합니다</block>
   <block id="7b76c70a3880af1ff9cad2a56ea732d6" category="doc">복구 이미지 AFF A700 및 FAS9000을 부팅합니다</block>
   <block id="524e28e47589d1c72cc806b496a8da04" category="section-title">옵션 1 대부분의 시스템에서 복구 이미지를 부팅합니다</block>
   <block id="44cc7055d64e9241fd58fa9511a21357" category="section-title">옵션 2: 2노드 MetroCluster 구성으로 복구 이미지를 부팅합니다</block>
@@ -5842,7 +5754,6 @@
   <block id="7882fbe8d6edf8d5b486832cb819249c" category="doc">AFF A700 및 FAS9000 시스템 문서</block>
   <block id="50b1779c690b0fd94ee913e82cbb2328" category="doc">배터리 폐기 - AFF A700 및 FAS9000</block>
   <block id="6c5689e6cebd33e09bd3177ac7c907ca" category="summary">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.</block>
-  <block id="d61a7d8d9f24f1b3cf8f6103ae12f979" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM - AFF A700 및 FAS9000을 교체합니다</block>
   <block id="4722e247b6f4c8b13c5d0223d4ef06c3" category="paragraph">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 제거하고, NVRAM 모듈에서 FlashCache 모듈을 제거하고, DIMM을 교체 모듈로 이동하고, FlashCache 모듈을 다시 설치하고, 교체 NVRAM 모듈을 섀시에 설치해야 합니다. 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
   <block id="17e2d63e3b45ecbfe13bcc32fec929d0" category="paragraph">* 시작하기 전에 *</block>
   <block id="71e38f927e8a1c6f9bc875e8ab8112eb" category="open-title">옵션 1: MOST 구성</block>
@@ -5906,10 +5817,8 @@
   <block id="727b43bb986548fddfd9fbbfd6c3c609" category="summary">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다.</block>
   <block id="647f24f2eb58a916547a537a4937864d" category="doc">전체 시스템 복원 - AFF A700 및 FAS9000</block>
   <block id="bbc9c42b99312692d6c920df2a10da53" category="section-title">4단계(MetroCluster만 해당): 2노드 MetroCluster 구성에서 애그리게이트 되돌리기</block>
-  <block id="9add295f96851a9e3eb3033ba7ffa527" category="doc">필요에 따라 온보드 암호화 키를 확인하십시오</block>
   <block id="9c675ab95a17d7706cc75c5ef43cd314" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="bb573a9efe1b6bf0e0892d0c586f8500" category="inline-xref-macro-rx"></block>.</block>
   <block id="08b4a74e7beb4fdd66d8c35f48e446dd" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="51b5502ad45a0354bf57a42b448e6184" category="inline-xref-macro-rx"></block>.</block>
-  <block id="ccec777db695e38806674625cc62f7e7" category="doc">섀시 교체 - AFF A700 및 FAS9000</block>
   <block id="db1a20a219feecb8c4e586f86bdc60b7" category="doc">복구 및 교체 프로세스 - AFF A700 및 FAS9000을 완료합니다</block>
   <block id="299fe45efcdacbb68bc84ef67b7c2627" category="paragraph">HA 상태 값은 다음 중 하나일 수 있습니다.</block>
   <block id="70ad01591507045d24043df2aa0d5763" category="section-title">2단계: 시스템 수준 진단 프로그램 실행</block>
@@ -5954,7 +5863,6 @@
   <block id="ee4dd5265b030d75cb20761a5fba9978" category="section-title">12단계: 컨트롤러를 설치합니다</block>
   <block id="55b0e11d7fc34ae2b7fbd2be3acb1424" category="list-text">캠 핸들을 열린 위치에 둔 상태에서 컨트롤러 모듈을 섀시에 밀어 넣고 미드플레인과 완전히 연결될 때까지 컨트롤러 모듈을 단단히 밀어 넣은 다음 딸깍 소리가 나면서 잠금 위치에 고정될 때까지 캠 핸들을 닫습니다.</block>
   <block id="7cf422baa157fc731656c552e7fa38db" category="summary">NIC 또는 스토리지 어댑터를 완전히 채워진 시스템의 새 NIC 또는 스토리지 어댑터로 교체하거나 시스템의 빈 섀시 슬롯에 새 NIC 또는 스토리지 어댑터를 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
-  <block id="4146b8eebedbaf7e4967f1b53039cd68" category="doc">X91148A 모듈 - AFF A9000을 추가합니다</block>
   <block id="81e3372a549fe5f8288392c2b55e8e4d" category="list-text">를 확인하십시오<block ref="bf137fbaca3418d969a7cbbc6acb278c" category="inline-link-rx"></block> 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.</block>
   <block id="3a0f07d1b89f0d857d68c3c47a03e14d" category="list-text">여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다<block ref="bf137fbaca3418d969a7cbbc6acb278c" category="inline-link-rx"></block> 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.</block>
   <block id="c0231814de48c33dacc879427cd2b0c4" category="list-text">입출력 모듈을 무중단으로 추가하려면 타겟 컨트롤러를 인수하고, 타겟 슬롯에서 슬롯 블랭킹 커버를 제거하거나, 기존 I/O 모듈을 제거하고, 새 입출력 모듈 또는 교체 입출력 모듈을 추가한 다음 타겟 컨트롤러를 반환해야 합니다.</block>
@@ -6080,16 +5988,12 @@
   <block id="04dfd32abff05e80971ee43ebd97b0fe" category="list-text">래칭 메커니즘의 상단에서 엄지 손가락을 떼고 래칭 메커니즘이 제자리에 고정될 때까지 계속 밉니다.</block>
   <block id="004ff61696f63d2eb687e57371ce86bd" category="paragraph">컨트롤러 모듈을 완전히 삽입하고 섀시의 모서리와 같은 높이가 되도록 해야 합니다.</block>
   <block id="09ceb3b4ff2ad3b2c821f40047aee6f1" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A250</block>
-  <block id="d001dcf30b221245e0e0f79ff262fcf3" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A250</block>
   <block id="a9e112cc517e6c981e497345e5bf1e91" category="doc">시스템 구성을 복원 및 확인합니다 - AFF A250</block>
   <block id="f89a194465ab69d8f04fa2a2a296620a" category="section-title">컨트롤러를 교체한 후 시스템 시간을 설정하고 확인합니다</block>
   <block id="d3eeeec6f476bc0f63dd5f832d748a74" category="section-title">2단계: 컨트롤러의 HA 상태를 확인하고 설정합니다</block>
   <block id="f7fb4156be1dd57a9d1579e38fa24445" category="list-text">표시된 메뉴에서 * Test System * 을 선택합니다.</block>
-  <block id="39a3b1f17e8cc33119262178b12813bf" category="doc">섀시 교체 - AFF A250</block>
   <block id="bc79dc3537b9e69ed2f995a703258726" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF A250</block>
-  <block id="5aa606601b2732e8fa8f0cd75ea38802" category="doc">컨트롤러 모듈 AFF A250을 교체합니다</block>
   <block id="2ac1e9cd887b50e321ead7a3e6beab55" category="summary">컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고 시스템을 유지보수 모드로 부팅해야 합니다.</block>
-  <block id="5c70a21a4bf917f555a7a40f163722da" category="doc">컨트롤러 모듈 교체 - AFF A250</block>
   <block id="8ebd201c2b1ccf04603b91e8657dad2b" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 컨트롤러 모듈을 교체합니다.</block>
   <block id="11f37f020e13ac0f53ae9aa8b03fa028" category="inline-link">컨트롤러 모듈 교체</block>
   <block id="9c4e18c684a6b54fb00bd7eef15cba95" category="paragraph"><block ref="9c4e18c684a6b54fb00bd7eef15cba95" category="inline-link-rx"></block></block>
@@ -6179,7 +6083,6 @@
   <block id="b6f7b04f44a105e63a953d8fbcf4fc54" category="list-text">일본어:<block ref="cf50f5c8ace58e0f860ef43dfc5fe5aa" category="inline-link-rx"></block></block>
   <block id="f7e356c673218d549865ad38a211dfb2" category="list-text">중국어:<block ref="380dfc11004fa7aa9af7b73b57d7721f" category="inline-link-rx"></block></block>
   <block id="c6cd6a89209cfc4abc3c0c7b7e5336e1" category="summary">부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 공기 덕트를 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다.</block>
-  <block id="2eec2141c87f639d605e548fbdd7eb22" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A250)로 전송합니다</block>
   <block id="3135971a1a6b077c3715b12bc5012909" category="section-title">1단계: 컨트롤러 모듈 AFF A250을 분리합니다</block>
   <block id="e768bbd7b60efb998832a5ed6ea67094" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.</block>
   <block id="309692e2e6422b29d61bf94a5fadf996" category="paragraph"><block ref="309692e2e6422b29d61bf94a5fadf996" category="inline-link-rx"></block></block>
@@ -6190,11 +6093,6 @@
   <block id="bb350a33e7d50a40c4fa37bfbe41f7f0" category="list-text">손상된 부트 미디어를 소켓에서 직접 조심스럽게 들어 올려 옆에 둡니다.</block>
   <block id="1f92c66f78b6103eb17febd6a0a5f8f3" category="list-text">정전기 방지 포장용 백에서 교체용 부팅 매체를 제거하고 컨트롤러 모듈에 정렬시킵니다.</block>
   <block id="7fc8b782e1690855d5576e363f8d7d1a" category="list-text">컨트롤러 모듈을 섀시에 완전히 밀어 넣습니다.</block>
-  <block id="4a9e7c116646fed3aae252c46054d592" category="list-text">bootarg.keymanager.support_value_</block>
-  <block id="3e2a1c152f63192f4ee784f0bd9584d3" category="list-text">' kmip.init.interface_value_'</block>
-  <block id="8a73425699b1065447389c9ba628abcc" category="list-text">' kmip.init.ipaddr_value_'</block>
-  <block id="2b14e1f52ea7c52112a19cb622020b6e" category="list-text">' kmip.init.netmask_value_'</block>
-  <block id="5445691c48ae2fda48cde03b8644faae" category="list-text">' kmip.init.gateway_value_'</block>
   <block id="db4547d0ddae50a76aa47cf54e9d15ae" category="doc">node-AFF A250을 종료합니다</block>
   <block id="f7b32babba20f290222a62a499496335" category="section-title">옵션 2: MetroCluster의 시스템</block>
   <block id="e2e8db7924e3d9318e09779273f259de" category="doc">팬 교체 - AFF A250</block>
@@ -6249,7 +6147,6 @@
   <block id="c80b115a559b6d9bf1acd577eef44159" category="image-alt">drw 콘솔 클라이언트 관리 서브넷 affa250</block>
   <block id="5e6435d148cbdc8c0269f95c1ec7b442" category="doc">복구 이미지 AFF A250을 부팅합니다</block>
   <block id="b0a5349e52bfc1b486c0f4bb7f8c6b18" category="doc">컨트롤러 종료 - AFF A250</block>
-  <block id="aaea30d2f885b6bb1adb375959c713d8" category="doc">하드웨어 이동 및 교체 - AFF A250</block>
   <block id="586424cb167133a0adfaf4650a20127e" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 섀시를 교체합니다. 이는 베젤을 분리하고 교체하는 것으로 가정합니다.</block>
   <block id="bd26a05d2028dc19ffc106d2f947977a" category="inline-link">섀시 장착</block>
   <block id="c4c9e5ee1315dc5c8ab3cfeef75a8d25" category="paragraph"><block ref="c4c9e5ee1315dc5c8ab3cfeef75a8d25" category="inline-link-rx"></block></block>
@@ -6285,7 +6182,6 @@
   <block id="a81df2e570dc98493762bda80de1eb57" category="paragraph">배터리를 들어올립니다.</block>
   <block id="e7e4ada0a9c5f002ced547a8ce4c2ff5" category="admonition">배터리의 극성을 기록합니다.</block>
   <block id="326f84612308aa43b411fe6225835ced" category="paragraph">배터리를 조심스럽게 제자리에 밀어 넣고 탭이 하우징에 고정되었는지 확인합니다.</block>
-  <block id="acc2bccea0dfeb04591667aa706aad91" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(FAS500f)로 전송합니다</block>
   <block id="67bbbac5bc6e3d667f32ac654b6a9d3a" category="paragraph">부트 미디어를 제자리에 고정하는 나사를 제거하려면 #1 자석 Phillips 헤드 드라이버가 필요합니다. 컨트롤러 모듈 내부의 공간 제약으로 인해 나사를 풀지 않도록 하기 위해 나사를 옮길 수 있는 자석이 있어야 합니다.</block>
   <block id="5bafa27d304da6702fac02a0b481992c" category="doc">장애가 발생한 부품을 NetApp-FAS500f로 반환합니다</block>
   <block id="a2eee56e65b85ca98cf164fa99598b1b" category="doc">복구 이미지 부팅 - FAS500f</block>
@@ -6309,7 +6205,6 @@
   <block id="3888a38ba771743aba436340db0ebf5c" category="list-text">애니메이션을 사용합니다 <block ref="81efed7d5e458f4dd1f779beb1039e7a" category="inline-link-rx"></block>) 또는 컨트롤러 모듈을 단일 쉘프에 연결하기 위한 단계별 지침.</block>
   <block id="592c78e6a752254c571ef3ec19ab4f02" category="list-text">애니메이션을 사용합니다 <block ref="d27a08094aa14ff3e85358b5dea53060" category="inline-link-rx"></block>)를 클릭하여 노트북을 관리 스위치에 연결합니다.</block>
   <block id="eccbdb663759dbfcdc939ff1dfb3e3e8" category="doc">FAS500f 시스템 설명서</block>
-  <block id="06d66c67969e8cc83aa7a9e6d2fc60ac" category="doc">컨트롤러 모듈 교체 - FAS500f</block>
   <block id="2685cb32d91e3c7296420631a7066229" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 컨트롤러 모듈을 교체할 수 있습니다.</block>
   <block id="a1d9910a32ae0cf0a663ca53df75fc48" category="paragraph">+중요: 장애가 있는 컨트롤러 모듈에서 점유한 동일한 슬롯에 각 DIMM을 설치합니다.</block>
   <block id="e65c4f5a39a793b014b217f53d825905" category="list-text">컨트롤러 모듈을 섀시에 삽입합니다.</block>
@@ -6326,12 +6221,8 @@
   <block id="7688f98e234548d9c9eb8a47a54131fc" category="paragraph"><block ref="7688f98e234548d9c9eb8a47a54131fc" category="inline-link-rx"></block></block>
   <block id="a7457ab9f25a3df58d992d0436ce1834" category="doc">DIMM-FAS500f를 교체합니다</block>
   <block id="d7e9bb71d12c55787c7f0839a67057f4" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 DIMM을 교체할 수 있습니다.</block>
-  <block id="b3e8eef19f55c74c863b75988d188522" category="doc">손상된 컨트롤러 모듈 종료 - FAS500f</block>
   <block id="6407763c1d2de6600133ab1f5d7bc94f" category="inline-link">ONTAP 9 NetApp 암호화 기능 콘텐츠</block>
   <block id="b70ce74f678772eec8ed950c996578d8" category="paragraph"><block ref="b70ce74f678772eec8ed950c996578d8" category="inline-link-rx"></block></block>
-  <block id="c92373da08fc89b1d6f8e717d290038d" category="doc">컨트롤러 모듈 교체 - FAS500f</block>
-  <block id="7d297a8476adbfe88efbefd74ac3307a" category="doc">필요에 따라 온보드 암호화 키 확인 - FAS500f</block>
-  <block id="6f379fd2db2934ddcd9565c6bf9195c8" category="doc">섀시 교체 - FAS500f</block>
   <block id="6730578f02ba32c4ccfb1acc3e8ab367" category="doc">복원 및 교체 프로세스 완료 - FAS500f</block>
   <block id="fdf5f4359ee176f1de2ac16926a8b1f1" category="doc">node-FAS500f를 종료합니다</block>
   <block id="616af20769d44e43520152460f655603" category="doc">하드웨어 이동 및 교체 - FAS500f</block>
@@ -6377,19 +6268,6 @@
   <block id="c8b713ea700fb2decc6696deb87e6679" category="inline-link">애니메이션 -- 부트 미디어를 교체합니다</block>
   <block id="76e0b6a67c1d0d3ae7fd16124243cd0e" category="paragraph"><block ref="76e0b6a67c1d0d3ae7fd16124243cd0e" category="inline-link-rx"></block></block>
   <block id="89c421ecee17b213d1a0c7b9a2dd8106" category="image-alt">drw a900 부트 DEV를 제거합니다</block>
-  <block id="defa99ee750d2ca6a8f52cf79e8eb713" category="list-text">bootarg.init.boot_clustered</block>
-  <block id="d18fd3db938a26ebbd3f74de41f0b73f" category="list-text">파트너 - sysid</block>
-  <block id="bac349cdf99ddd20206c9b20eb9e6d22" category="list-text">AFF의 경우 bootarg.init.flash_optimized</block>
-  <block id="f3b31cc7028e1885fb21b81b0fdbee37" category="list-text">AFF의 경우 bootarg.init.san_optimized</block>
-  <block id="cbcb656967b507992a4a640a604c47e0" category="list-text">bootarg.init.switchless_cluster.enable</block>
-  <block id="8e66622dd5a924bd59ee4f46318a13a9" category="list-text">bootarg.storageencryption.support&lt;value&gt;</block>
-  <block id="bdafe896118bc000c3a68090808112cd" category="list-text">bootarg.keymanager.support&lt;value&gt;</block>
-  <block id="8f4ea3656910a928382f8c75368c3c2a" category="list-text">kmip.init.interface &lt;값&gt;</block>
-  <block id="b2adbab4ce96430a3475db235c4be8c3" category="list-text">kmip.init.ipaddr &lt;값&gt;</block>
-  <block id="70e8273bd6b058c89bc23bad2de4c396" category="list-text">kmip.init.netmask &lt;값&gt;</block>
-  <block id="4d10af14d34e5e468c4aee19207329d3" category="list-text">kmip.init.gateway &lt;값&gt;</block>
-  <block id="a1781eecf18376feb2f740b6a3d7781d" category="list-text">bootarg.Onboard_keymanager &lt;값&gt;</block>
-  <block id="8ed13fe688162a9d4d89829700344e8f" category="list-text">'printenv variable-name' 명령을 사용하여 변경 사항을 확인합니다.</block>
   <block id="61fb64589c53cb1543b86398c0f9bf5f" category="admonition">인터페이스에 다른 매개 변수가 필요할 수 있습니다. 자세한 내용은 펌웨어 프롬프트에서 help ifconfig를 입력할 수 있습니다.</block>
   <block id="92119567969a6dfb8d14b4d139115118" category="list-text">MetroCluster 포트를 이니시에이터로 설정합니다: "ucadmin modify -m fc -t iniitator adapter_name"</block>
   <block id="13437270a7a5bb30024bcf51e56b9645" category="doc">장애가 발생한 부품을 NetApp-AFF A900으로 되돌립니다</block>
@@ -6661,7 +6539,6 @@
   <block id="127cae73d2b4d7758b4c0a0e3f49ba5f" category="section-title">ONTAP 9.6 이상</block>
   <block id="d994e1a1688cb6d7b8e264a209d763d6" category="doc">섀시를 교체합니다. - AFF A900</block>
   <block id="e10b0a89639d4224f22325c89418ef31" category="paragraph">섀시를 교체하려면 전원 공급 장치, 팬, 컨트롤러 모듈, I/O 모듈, DCPM 모듈을 분리해야 합니다. 손상된 섀시에서 USB LED 모듈을 꺼낸 후, 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 분리하고, 교체 섀시를 제자리에 설치한 다음 구성 요소를 교체 섀시에 설치합니다.</block>
-  <block id="6190b44ff7781327c201ca8dcd27535f" category="doc">구성 복원 및 확인 - AFF A900</block>
   <block id="3f5fa7ca9a9d6129ce081b64cc104ab6" category="paragraph">섀시 교체를 완료하려면 특정 작업을 완료해야 합니다.</block>
   <block id="37ccf93c64c439daba8a7a5a18adf305" category="section-title">1단계: 섀시의 HA 상태 확인 및 설정</block>
   <block id="32574a63619099277d431cfd465fea0b" category="list-text">섀시의 HA 상태를 "ha-config modify chassis_ha-state_"로 설정합니다</block>
@@ -6736,17 +6613,11 @@
   <block id="1aebafba3153f541511efccc3f81ec62" category="list-text">섀시에 있는 컨트롤러 모듈 수에 따라 전원 공급 장치를 끄거나 켜 둡니다. 다른 컨트롤러 모듈에 전원을 공급하려면 전원 공급 장치를 켜 둡니다.</block>
   <block id="f0c5bf1231304ef8daefc44f7c8c3c2c" category="list-text">서비스 중인 컨트롤러 모듈을 부팅하고 부팅 메뉴에 대한 메시지가 나타나면 Ctrl-C를 눌러 부팅을 중단하십시오. + 컨트롤러 모듈이 완전히 장착되면 부팅됩니다.</block>
   <block id="f53fd2bac78253daaa912be518fddcc2" category="doc">팬 모듈 핫 스왑 - FAS8300 및 FAS8700</block>
-  <block id="e0b7d90c90226a613c2854fa7517f6c4" category="doc">실시간 시계 배터리 교체 - FAS8300 및 FAS8700</block>
   <block id="a4a712ecb70395225e417c836e09e7b4" category="paragraph"><block ref="a4a712ecb70395225e417c836e09e7b4" category="inline-link-rx"></block></block>
   <block id="97a3946d5380c45539697b463767b69c" category="section-title">4단계: RTC 배터리 교체 후 컨트롤러 모듈을 다시 설치하고 시간/날짜를 설정합니다</block>
   <block id="513b4883451dec21bc772400c3a572d8" category="paragraph"><block ref="513b4883451dec21bc772400c3a572d8" category="inline-link-rx"></block></block>
-  <block id="b3f22c8071c2a0840252f4353acbc695" category="doc">컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(FAS8300 및 FAS8700)로 전송합니다</block>
   <block id="4a848babffe3702bffe9efa29dd12c61" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.</block>
-  <block id="888621943c5cf88a8fb2fb47ddc074c9" category="list-text">' kmip.init.interface_&lt;값&gt;_'</block>
-  <block id="b4b54309687e129a828944b91b5c5938" category="list-text">' bootarg.keymanager.support_&lt;value&gt;' _</block>
-  <block id="d792a0b774763ee2c2f1979f79da10f8" category="list-text">' bootarg.온보드_keymanager_&lt;값&gt;_'</block>
   <block id="14df5008a24cd65fbb232505d17779b3" category="doc">장애가 발생한 부품을 NetApp-AFF fas8300 및 FAS8700으로 반환합니다</block>
-  <block id="62391db846702af8767801f5dceef433" category="doc">NVDIMM 배터리 교체 - FAS8300 및 FAS8700</block>
   <block id="fb346fbc4b16fda2d4c28fb66e0a91d8" category="list-text">서비스되는 노드가 LOADER 프롬프트에서 있지 않으면 'system node halt-node_node_name_' 노드를 재부팅합니다</block>
   <block id="9af1a70147e4372628e3cff0c1a8a31c" category="list-text">검사에 오류가 없는 경우 메뉴에서 "재부팅"을 선택하여 시스템을 재부팅합니다.</block>
   <block id="c1541e02506543efaa1d18ae5a171fa3" category="doc">시스템 회수 및 디스크 재할당 - FAS8300 및 FAS8700</block>
@@ -6757,7 +6628,6 @@
   <block id="00d38cc5ddcdd3c544a92f2055d67afa" category="inline-link">FAS8300 및 FAS8700 설치 및 설정 지침</block>
   <block id="6b9626d551065d925210f9a771e3cd6b" category="paragraph"><block ref="6b9626d551065d925210f9a771e3cd6b" category="inline-link-rx"></block></block>
   <block id="9839b9efeb4f2cb59f36a02a747b73cb" category="doc">시스템 복원 완료 - FAS8300 및 FAS8700</block>
-  <block id="91d805e0cb2ee6f7ac1bb317143563e5" category="doc">NVDIMM-FAS8300 및 FAS8700 교체</block>
   <block id="1db543711acdae9341bb66467bfc08e7" category="list-text">테스트가 실패하지 않은 것으로 보고되면 메뉴에서 "재부팅"을 선택하여 시스템을 재부팅합니다.</block>
   <block id="bc6fa9fd41bd50f50a6f712cd33d5e4c" category="list-text">'storage failover 반환 - ofnode '_impaired_node_name_' 스토리지를 제공하여 노드를 정상 작동 상태로 되돌립니다</block>
   <block id="f406838ab1af1615895d90b4b0439c67" category="doc">상세 가이드 - FAS8300 및 FAS8700</block>
@@ -6766,10 +6636,8 @@
   <block id="598ec2ec2714b9a699a42898b690e48d" category="section-title">옵션 1: SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
   <block id="98343d7bde7d1e041215b59aebca7cb6" category="paragraph"><block ref="98343d7bde7d1e041215b59aebca7cb6" category="inline-link-rx"></block></block>
   <block id="ed8e6ac65f869dd5cec262d6da357514" category="doc">교체 프로세스 완료 - FAS8300 및 FAS8700</block>
-  <block id="e21aa8fb49f203859e11ff4eb68ca0f5" category="doc">복구 이미지 부팅 - AFF FAS8300 및 FAS8700</block>
   <block id="27dcde903ce9d2827a6882d72efe7cb4" category="doc">손상된 컨트롤러를 종료합니다. - AFF FAS8300 및 FAS8700</block>
   <block id="07198f13a474589e15ec90df05d856ff" category="doc">FAS8300 및 FAS8700 시스템 문서</block>
-  <block id="19a811a1c8fa92be18ccc21559ddf7aa" category="doc">컨트롤러 모듈 교체 - FAS8300 및 FAS8700</block>
   <block id="b8f99a879bdae690f650b2171355b5bb" category="image-alt">drw 8300 빈 라이저 분리</block>
   <block id="ae17f8ad6d4ad0752e9da66715863b23" category="paragraph">다음 애니메이션, 일러스트레이션을 사용할 수 있습니다. 또는 PCIe 라이저 및 메자닌 카드를 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동하는 단계를 작성합니다.</block>
   <block id="6976de191bb895bccff42aea7f5ef312" category="section-title">6단계: 캐싱 모듈 이동</block>
@@ -6787,7 +6655,6 @@
   <block id="d1903d398c4c8283b66cc2ee2599cef5" category="doc">빠른 가이드 - FAS8300 및 FAS8700</block>
   <block id="221315bbb17a9424f37793425986d6c2" category="inline-link">FAS8300 및 FAS8700 설치 및 설정 지침</block>
   <block id="0f6585f4d22c37462401058292d5968a" category="paragraph"><block ref="0f6585f4d22c37462401058292d5968a" category="inline-link-rx"></block></block>
-  <block id="106747009e3404b4a4d5b54c7986550f" category="doc">부팅 미디어를 교체합니다. - AFF FAS8300 및 FAS8700</block>
   <block id="0d6447bac57d1b04d83d308e8b723682" category="doc">DIMM-FAS8300 및 FAS8700을 교체합니다</block>
   <block id="48a1bad510a4b6f7d4c6adc4ace692d6" category="admonition">애니메이션과 그림은 DIMM이 없는 소켓용 빈 슬롯을 보여줍니다. 이 빈 소켓은 공백으로 채워집니다.</block>
   <block id="bf60b41d71bc04857d76c73eb0a0ab19" category="paragraph">시스템의 DIMM 수와 위치는 시스템 모델에 따라 다릅니다. 자세한 내용은 에어 덕트의 FRU 맵을 참조하십시오.</block>
@@ -6796,9 +6663,6 @@
   <block id="23322e561ac6bea2fdd969f81f065cb0" category="list-text">NVDIMM은 슬롯 11에 있습니다.</block>
   <block id="48d478390eb7cda13973a166fcbc6922" category="paragraph">다음 애니메이션, 그리기 또는 작성된 단계를 사용하여 섀시에 컨트롤러 모듈을 설치할 수 있습니다.</block>
   <block id="fe0879209afd1fc2f28d40077ccda980" category="doc">손상된 컨트롤러 - FAS8300 및 FAS8700을 종료합니다</block>
-  <block id="c923231fd8c67b0547a9abe7ecbc8a43" category="doc">컨트롤러 모듈 교체 - FAS8300 및 FAS8700</block>
-  <block id="adafb1fb613bd0a19edac581ad0e0c2e" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF fas8300 및 FAS8700</block>
-  <block id="04e15e9a02c818cf4604502b8aa82611" category="doc">섀시를 교체합니다. - FAS8300 및 FAS8700</block>
   <block id="05da715fdd840e7fc27dd764386018bc" category="doc">캐싱 모듈 교체 - FAS8300 및 FAS8700</block>
   <block id="d457ea14ed8ca14254ad1d75e29dce09" category="list-text">캐싱 모듈의 데이터를 지웁니다. 'system controller flash-cache secure-erase run-node_node_name_-device-id_device_id_'</block>
   <block id="b9106c27d735907c8812d337029e92be" category="list-text">캐시 모듈에서 'system controller flash-cache secure-erase show -node_node_name_' 데이터가 지워졌는지 확인합니다</block>
@@ -7386,21 +7250,17 @@
   <block id="e71d9194942bc8f3f3b6f73699b12b18" category="paragraph">다음 예에서는 스토리지 시스템 명령줄에서 environment help 명령을 입력한 결과를 보여 줍니다. 명령 출력에는 환경 명령에 대한 구문 도움말이 표시됩니다.</block>
   <block id="61ebd8fcdf103b9ce92a28b6cb2ee6bb" category="doc">실시간 시계 배터리 - AFF A200을 교체하십시오</block>
   <block id="adbdad02f5bfa87c9c2f8f336a215924" category="doc">필요에 따라 OKM, NSE 및 NVE를 복원 - AFF A200</block>
-  <block id="6b6e7724d86b6fc383fcbe2784414aa7" category="doc">필요에 따라 온보드 암호화 키 확인 - AFF A200</block>
   <block id="c63040480653df4c796c48ec77d545d6" category="section-title">옵션 1: ONTAP 9.5 이전 버전을 실행 중인 시스템에서 NVE 또는 NSE 확인</block>
   <block id="249776239ba561818dea48749c5be5e8" category="section-title">옵션 2: ONTAP 9.6 이상을 실행하는 시스템에서 NVE 또는 NSE 확인</block>
   <block id="953946f657bfabfff9e2ced20f22e7a6" category="doc">시스템 구성 복원 및 확인 - AFF A200</block>
-  <block id="49163ab30bf2924d9d1750693ba74eb6" category="doc">섀시 AFF A200을 교체합니다</block>
   <block id="5a87b33b6d65f98aa6d162e0e81a802e" category="paragraph">섀시를 교체하려면, 손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드라이브, 컨트롤러 모듈 또는 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체하십시오.</block>
   <block id="974e25d76804357a5ef200cb958fb945" category="doc">시스템을 재할당하고 디스크를 재할당할 수 있습니다. - AFF A200</block>
   <block id="3dad031ba5544f976b631ffad1564b7a" category="paragraph">스토리지를 다시 케이블로 연결하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.</block>
   <block id="536b0bd1a9c2b544d6cfae19d9289ea7" category="section-title">1단계: 시스템 케이블을 다시 연결합니다</block>
   <block id="b0da6837b9dc75b3c0fcca1c9c38d89b" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다. 구성에 맞는 절차를 사용해야 합니다.</block>
   <block id="c6fcf31298ea00741e2a62b768872ba4" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 정상 노드인 'storage failover modify -node_replacement -node -name_-onreboot true'에서 활성화하십시오</block>
-  <block id="4888d28522306f51de611503d5206c37" category="doc">컨트롤러 모듈 AFF A200을 교체하십시오</block>
   <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">무엇을 &amp;#8217;필요로 할거야</block>
   <block id="6151adb4be9acf8b78f2772f645f81b4" category="list-text">컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.</block>
-  <block id="68a0957bf09993ad8f778b0639748996" category="doc">컨트롤러 모듈 교체 - AFF A200</block>
   <block id="6da80f62ccea3836d409604feffadf8e" category="summary">AFF A200 시스템 설명서를 참조하여 시스템을 설치, 설정, 유지보수할 수 있습니다.</block>
   <block id="bac54df29ecae80690955818b301d1da" category="doc">AFF A200 시스템 설명서</block>
   <block id="34618f776812de6f5f59a70ca2c17728" category="doc">DIMM-AFF A200을 교체합니다</block>
@@ -7410,14 +7270,11 @@
   <block id="3507cf5c7dded65ffdd5ade0f2366605" category="list-text"><block ref="3507cf5c7dded65ffdd5ade0f2366605" category="inline-link-macro-rx"></block></block>
   <block id="677d8bcfde6bff1a436a7a5e69b4dd4b" category="doc">클러스터 구성 워크시트 - AFF A200</block>
   <block id="4ab41e9db35b429ef17dc75c3671d5a3" category="paragraph">를 사용할 수 있습니다 <block ref="29bd1f640adeeec5f2bc6e197d0840c4" category="inline-link-macro-rx"></block> ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록합니다.</block>
-  <block id="2b531a2fdf0f43f31cc3d22177ba051d" category="doc">컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(AFF A200)로 전송합니다</block>
-  <block id="8ef1dbd6e6fa116ecbce2e4b39adff7e" category="list-text">환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv_variable-name__value_' 명령을 사용하여 오류를 수정해야 합니다.</block>
   <block id="5cae28c48acee98f2baac425290bbe14" category="list-text">filer_addr은 스토리지 시스템의 IP 주소입니다.</block>
   <block id="881a30a5eb497e5f1a74adafa0d2fe0d" category="list-text">넷마스크는 HA 파트너에 연결된 관리 네트워크의 네트워크 마스크입니다.</block>
   <block id="f902be9386ed1a89086bfd6000dab684" category="list-text">게이트웨이(gateway)는 네트워크의 관문입니다.</block>
   <block id="e14b9c106486400a1e3f574403b479e2" category="list-text">dns_addr은 네트워크에 있는 이름 서버의 IP 주소입니다.</block>
   <block id="613c6e7675c3db21e22a441e02c44854" category="list-text">dns_domain은 DNS(Domain Name System) 도메인 이름입니다.</block>
-  <block id="b1d999dcbecd18db4341259232103b4e" category="doc">노드-AFF A200을 종료합니다</block>
   <block id="7b8b8b3b85e5ab523c311b66367ffc66" category="doc">설치 및 설정 PDF 포스터 - AFF A200</block>
   <block id="456b3ef9056943b6d990b202391c1677" category="inline-link-macro">AFF A200 설치 및 설정 지침</block>
   <block id="e4e83a2c82324a2a6d5448b03909ecfa" category="paragraph">를 사용할 수 있습니다 <block ref="b22470d24dd615c99a09a118a80f7353" category="inline-link-macro-rx"></block> 새 시스템을 설치하고 설정할 포스터. PDF 포스터는 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
@@ -7431,7 +7288,6 @@
   <block id="7406636825b302f07932b3580dc3aa5b" category="doc">컨트롤러-AFF A200을 종료합니다</block>
   <block id="88afeb50c76c0c11cfa02af19240816d" category="doc">하드웨어-AFF A200을 이동 및 교체하십시오</block>
   <block id="8ef8932f72109469af86d4e2c65c227c" category="paragraph">이전 섀시에서 교체 섀시로 전원 공급 장치를 이동합니다.</block>
-  <block id="d65f34688dd887c3f85d6fbd213000b1" category="doc">구성 복원 및 확인 - AFF A200</block>
   <block id="a5f480251d9a5927a8c47d76fc2930e3" category="doc">손상된 컨트롤러-AFF A200을 종료합니다</block>
   <block id="ddc3cfefb19fcaaa13d8979c5016a9e0" category="paragraph">'storage disk show -shelf_shelf_number_' 명령을 사용하여 드라이브의 상태를 확인할 수 있습니다. Container Type 컬럼의 출력은 실패한 드라이브인 경우 SPare 또는 Broken을 표시해야 합니다. 또 컨테이너 이름과 소유자 칼럼에는 대시가 있어야 합니다.</block>
   <block id="839439b189cfb3960dee96d5900594f7" category="list-text">한쪽 면을 곧게 편 종이 클립 또는 좁은 볼펜이 필요합니다.</block>
@@ -8267,7 +8123,6 @@
   <block id="20c81043ed040691be35a21ced8b214c" category="sidebar">하드웨어 설치 진단 유틸리티를 실행합니다</block>
   <block id="622847369a10871880b9d0b967b82ff7" category="sidebar">SuperRail 키트</block>
   <block id="e67646d15c2779b1db9f05f0dccc9ea9" category="sidebar">AFF A700/FAS9000 2포스트 레일 키트</block>
-  <block id="77b771a758ffa00670e5f30a70f7e1c0" category="sidebar">42U 1280 mm 시스템 캐비닛</block>
   <block id="35ae7ad44486ae692ccd485bff6a4ff3" category="sidebar">캐비닛 설치를 준비합니다</block>
   <block id="b8df5d2f5ce357450ed2e40491603318" category="sidebar">캐비닛 기능</block>
   <block id="231fd4a5acc92cc06adc1ccb58edb1b8" category="sidebar">필요한 공구/장비</block>
@@ -8467,4 +8322,115 @@
   <block id="262434bb76bf9aa49a3efe7de43d9a4e" category="sidebar">AFF 및 FAS 시스템 문서</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="60786ac16439455c42ee2fbe23a16c06" category="doc">컨트롤러 모듈 교체 개요 - AFF A300</block>
+  <block id="8f32b075b74f50db60cdc53341ea5195" category="doc">부팅 미디어 교체 개요 - AFF A300</block>
+  <block id="ac205ac062087cc3bddb7bbe8de9e36b" category="doc">섀시 교체 개요 - AFF A300</block>
+  <block id="23afe5a44fb7df71a9b5f333ac3d9ee5" category="doc">Hardware-AFF A300 교체</block>
+  <block id="57392ef77b666ec53aa7b24253ca15d7" category="doc">구성 복원 및 확인 - AFF A300</block>
+  <block id="01c4da54c2c1f7a4ffbf1fca4cc44870" category="doc">온보드 암호화 키 확인 - AFF A300</block>
+  <block id="655693b8856b3ddd0aca0944005d67f9" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF A320</block>
+  <block id="1654c00921a4540ccc78b0e715f2d722" category="doc">컨트롤러 모듈 교체 개요 - AFF A320</block>
+  <block id="5d670c53861caee9002db54ba657302f" category="doc">팬 교체 프로세스 완료 - AFF A320</block>
+  <block id="38336112552a047729e9db773480ddb1" category="doc">부팅 미디어 교체 개요 - AFF A320</block>
+  <block id="3704d1b563dc6b0a84e78627c5e9af06" category="doc">섀시 교체 개요 - AFF A320</block>
+  <block id="6a6726deff56a3d5459d4e11d247e22a" category="doc">하드웨어 교체 - AFF A320</block>
+  <block id="f6344d6f5f705ef72e5da86baf7ff342" category="doc">온보드 암호화 키 확인 - AFF A320</block>
+  <block id="1a44c6d683ab4458e8c10088dee0617d" category="doc">구성 - FAS8200을 복원 및 확인합니다</block>
+  <block id="dd5eaf7a75785b4f26d6e9793b46ea6c" category="doc">섀시 교체 개요 - FAS8200</block>
+  <block id="36db73d94b30571d5e78b69926c4ee10" category="doc">컨트롤러 모듈 교체 - FAS8200의 개요</block>
+  <block id="52a61ff1e81c104a11ce1a58a38dd667" category="doc">컨트롤러 - FAS8200을 종료합니다</block>
+  <block id="a42edb5535752c77f564dff66261535b" category="doc">컨트롤러 모듈 하드웨어 - FAS8200을 교체합니다</block>
+  <block id="82430a05d3820aeaeb756230e94ee643" category="doc">온보드 암호화 - FAS8200을 확인하십시오</block>
+  <block id="8351404e0633e21cf67cb22047391a59" category="doc">부트 미디어 교체 개요 - FAS8200</block>
+  <block id="f8a35054c2c3b7ffbacd941c8bc38831" category="doc">하드웨어 교체 - FAS8200</block>
+  <block id="9bd3c449bc91b7e2a90bbc21bfbd5dcb" category="doc">컨트롤러 모듈 하드웨어(AFF A250)를 교체합니다</block>
+  <block id="7f7c331124950f9557fc856947e5c42f" category="doc">컨트롤러 모듈 교체 개요 - AFF A250</block>
+  <block id="fa0985de926ce301def780548b1def1b" category="doc">부팅 미디어 교체 개요 - AFF A250</block>
+  <block id="894589cfca213bee046082fa6b4377ea" category="doc">섀시 교체 개요 - AFF A250</block>
+  <block id="a73367a24d737b005906f745ac5c73c2" category="doc">하드웨어 교체 - AFF A250</block>
+  <block id="fd08b3e072375692cc6d546ed49d7c24" category="summary">손상된 섀시에서 새 섀시로 전원 공급 장치, NVMe 드라이브, 컨트롤러 모듈 또는 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체해야 합니다.</block>
+  <block id="43eebcc68df0da086573863f894b0208" category="admonition">컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지 손가락을 안쪽의 손가락 구멍을 통과하도록 합니다(팔을 교차함).</block>
+  <block id="d4ec9448190c18c9b85b138eae5cfe04" category="doc">온보드 암호화 키 확인 - AFF A250</block>
+  <block id="c0925c06c8c424f377718df251d2ae9f" category="doc">실시간 클럭 배터리를 교체합니다. - FAS8300 및 FAS8700</block>
+  <block id="73e891cd10bc7a669d3df2629ca0ed7c" category="doc">NVDIMM-FAS8300 및 FAS8700을 교체합니다</block>
+  <block id="25a1b4c8ff5717b58eca78fec7573116" category="doc">섀시 교체 개요 - FAS8300 및 FAS8700</block>
+  <block id="b98cf2068f61b55f2a9881a2a679fcc3" category="doc">NVDIMM 배터리 교체 - FAS8300 및 FAS8700</block>
+  <block id="94aea6f09b1466d3642940029f1b693a" category="doc">컨트롤러 모듈 교체 개요 - FAS8300 및 FAS8700</block>
+  <block id="406be05f374ba93dabeb2514a008179a" category="doc">컨트롤러 모듈 하드웨어 교체 - FAS8300 및 FAS8700</block>
+  <block id="9860772233b4555001c5a388230758df" category="doc">복구 이미지를 부팅합니다. - AFF FAS8300 및 FAS8700</block>
+  <block id="b35abadbe34f4c4e5f4b2befaba8124d" category="doc">온보드 암호화 키 확인 - AFF fas8300 및 FAS8700</block>
+  <block id="fe0e817b3bc5b4c3f92a0bd2fc673648" category="doc">부팅 미디어 교체 개요 - AFF FAS8300 및 FAS8700</block>
+  <block id="ba4fadf78396a2db14bc9a4e0f707f9d" category="doc">부트 미디어를 교체합니다. - FAS8300 및 FAS8700</block>
+  <block id="4e4a2611625f6b2041743db1df7febd6" category="doc">섀시 교체 개요 - AFF A400</block>
+  <block id="61c752abcbb868d9432b6f4a5da1593b" category="doc">컨트롤러 모듈 교체 개요 - AFF A400</block>
+  <block id="20ea0eb9eebca0280abc5766496bdaed" category="doc">컨트롤러 모듈 하드웨어-AFF A400을 교체합니다</block>
+  <block id="d8be62011c1882fcf382ba1c61256314" category="doc">복구 이미지 부팅 - AFF A400</block>
+  <block id="4b9df7d99ab3f888b89a8bd4aaa10571" category="doc">온보드 암호화 - AFF A400을 확인하십시오</block>
+  <block id="81eedb27d867146f5a1ad2679adf0de0" category="doc">부팅 미디어 교체 개요 - AFF A400</block>
+  <block id="29b26f35ca717821e38847f4152f36bb" category="doc">하드웨어-AFF A400을 교체합니다</block>
+  <block id="82df4d187ca1c57ddc3d281ba59fc12f" category="doc">구성 복원 및 확인 - AFF C190</block>
+  <block id="42ab358b243344438e34cb8483bb2ca2" category="doc">시스템 구성 복원 및 확인 - AFF C190</block>
+  <block id="0f614c99bcb66f2ffd7b4fb27558ea2a" category="doc">섀시 교체 개요 - AFF C190</block>
+  <block id="54cd26f163d61b3be602eb785ab0a241" category="doc">컨트롤러 모듈 교체 개요 - AFF C190</block>
+  <block id="0d76ca0117187df0c8275a536ccc39ef" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF C190</block>
+  <block id="81b014b89575d4c2c10465dcae392a39" category="doc">온보드 암호화 키 확인 - AFF C190</block>
+  <block id="3ec236eb5b8f67430e02ace51c37b834" category="doc">부트 미디어 교체 개요 - AFF C190</block>
+  <block id="1ab6b8fc7d00d8cf418a98c2a06619a5" category="doc">구성 - FAS2600을 복원하고 확인합니다</block>
+  <block id="cdb877e559bf1542dd2ee0540807d4a8" category="doc">시스템 구성 - FAS2600을 복원 및 확인합니다</block>
+  <block id="fd21bfdd90e6f071c007ad1c32523fc2" category="doc">섀시 교체 개요 - FAS2600</block>
+  <block id="32ab532730861844c01e0b025a4708f5" category="doc">컨트롤러 모듈 교체 개요 - FAS2600</block>
+  <block id="017630cf9ee2c9c60d9112bb45f305ca" category="doc">컨트롤러 모듈 하드웨어-FAS2600을 교체하십시오</block>
+  <block id="120d4b04cada3ad4213234c2437fb645" category="doc">온보드 암호화 키 확인 - FAS2600</block>
+  <block id="c3a9fb901b6e82e19cf5d6be414a5461" category="doc">손상된 컨트롤러-FAS2600을 종료합니다</block>
+  <block id="048623d528706e72f17139851220f65a" category="doc">부팅 미디어 교체 개요 - FAS2600</block>
+  <block id="f702d1c29e7ad6256680f53ad8fa7195" category="doc">구성(AFF A220 및 FAS2700)을 복원 및 확인합니다</block>
+  <block id="49d177da03edc46e3dbb473a8199c5e8" category="doc">섀시 교체 개요 - AFF A220 및 FAS2700</block>
+  <block id="9b7b0d412ad06347c021ab14f2092513" category="doc">컨트롤러 모듈 교체 개요 - AFF A220 및 FAS2700</block>
+  <block id="fb52499eab0b4b1b7caf5081ae4bb295" category="doc">컨트롤러 모듈 하드웨어(AFF A220 및 FAS2700)를 교체합니다</block>
+  <block id="77c90a069b30ca068906f4bbc5d904e1" category="doc">온보드 암호화 키 확인 - AFF A220 및 FAS2700</block>
+  <block id="c6eb316cc94904301a8765db5aa1680f" category="doc">부팅 미디어 교체 개요 - AFF A220 및 FAS2700</block>
+  <block id="332ecfda75eef89a55acd64671013612" category="doc">NS224 쉘프를 핫 추가합니다</block>
+  <block id="2045f48765a1762a4ddf1bff71d898d9" category="doc">DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12 모듈로 교체합니다</block>
+  <block id="f3f4e90f1b3b6970f9ad6037d23137fc" category="section-title">케이블 체인을 탈거하십시오</block>
+  <block id="39f83f14ef074e7f47f1a89591dede20" category="section-title">드라이브 드로어를 분리합니다</block>
+  <block id="c1493a32213b959f5c9f8be86dfb9960" category="section-title">드라이브 드로어를 설치합니다</block>
+  <block id="02b9f44accc14d7238a1f0607ea50e30" category="section-title">케이블 체인을 연결합니다</block>
+  <block id="3fa677b8ecb97b0ae0d14f9ded5ed49a" category="doc">손상된 컨트롤러 종료 - FAS500f</block>
+  <block id="0d924155857f10f70fcab7b719b30403" category="summary">손상된 노드를 종료하기 전에 시스템에 NetApp Volume Encryption\(NVE\) 또는 NetApp Storage Encryption\(NSE\)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
+  <block id="a27042b0e01fb9b4136d2de6e8c1db73" category="doc">온보드 암호화 키 확인 - FAS500f</block>
+  <block id="da85ea64fba60265c821242ceefcb18c" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 컨트롤러를 계속 종료합니다. 손상된 노드를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
+  <block id="ee2afac6b0f5165d1fc3096864ac9a41" category="doc">섀시 교체 개요 - FAS500f</block>
+  <block id="2bf23db896fc6ece8a7fd4c8db50ab7d" category="doc">컨트롤러 모듈 교체 개요 - FAS500f</block>
+  <block id="609f905dd4d82082470b920d9a7de394" category="doc">컨트롤러 모듈 하드웨어 교체 - FAS500f</block>
+  <block id="00399cc3a07fad2f3aadfc84abd6ee65" category="doc">부팅 미디어 교체 개요 - FAS500f</block>
+  <block id="0dfb2568739ce156f475dfddb29e2387" category="doc">섀시 교체 개요 - AFF A700s</block>
+  <block id="09b725ec4b513cf16714e69e0bf388eb" category="doc">컨트롤러 모듈 교체 개요 - AFF A700s</block>
+  <block id="535d86d4b7bd76433b67b69b528e1319" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF A700s</block>
+  <block id="002bb0675c02757351d3b908720a16cf" category="doc">온보드 암호화 키 확인 - AFF A700s</block>
+  <block id="505ba7be41620674b2d6d7caf7f3453d" category="doc">부팅 미디어 교체 개요 - AFF A700s</block>
+  <block id="212a7c63df3073a24c5ba97aaad63e51" category="doc">하드웨어 교체 - AFF A700s</block>
+  <block id="24ce82ff8bc29243190bb0a11659117c" category="doc">NVRAM 모듈 및 NVRAM DIMM - AFF A700s를 교체합니다</block>
+  <block id="b5c7e371c94b117279a0ebbc15ea8bf3" category="doc">부팅 미디어 교체 - AFF A700s</block>
+  <block id="6f932d5d73e623ce4a8447916188b6ea" category="doc">컨트롤러 모듈 하드웨어-AFF A200을 교체합니다</block>
+  <block id="85b7f3e764e39327360545670dcedbf3" category="doc">컨트롤러 모듈 교체 개요 - AFF A200</block>
+  <block id="6652fbd1cfc662871893088153cbbc80" category="doc">손상된 노드-AFF A200을 종료합니다</block>
+  <block id="2472604fcc7ccf02f05c6c66afaacc6c" category="doc">부트 미디어 교체 개요 - AFF A200</block>
+  <block id="5dfe4c7eb319ce6f2ebfab2e157e0c1b" category="doc">섀시 교체 개요 - AFF A200</block>
+  <block id="5fbbe4b96a5266b936c056caa3466c60" category="doc">구성 - AFF A200을 복원 및 확인하십시오</block>
+  <block id="692f4928d5204c6348c9d46866e44703" category="doc">온보드 암호화 키 확인 - AFF A200</block>
+  <block id="7b101be99b535a778b40061a6bf3d60c" category="doc">디스테이징 컨트롤러 전원 모듈(DCPM) - AFF A700 및 FAS9000</block>
+  <block id="b2116dc83d888b093b69d3c96e593726" category="doc">섀시 교체 개요 - AFF A700 및 FAS9000</block>
+  <block id="df9e1409b1e6984ca93abf409e055edd" category="doc">NVRAM 모듈 또는 NVRAM DIMM - AFF A700 및 FAS9000을 교체합니다</block>
+  <block id="7d0da23af2427c2e925e6fa617e32b8f" category="doc">컨트롤러 모듈 교체 개요 - AFF A700 및 FAS9000</block>
+  <block id="68f1a7b941dc9e6a48709297bda51c0f" category="doc">X91148A 모듈 추가 개요 - AFF A9000</block>
+  <block id="165c715a7b9960848663b1b8fa3c5525" category="doc">부팅 미디어 교체 개요 - AFF A700 및 FAS9000</block>
+  <block id="e14c0bb928a12e5136acf5ae567d00cd" category="list-text"><block ref="e14c0bb928a12e5136acf5ae567d00cd" category="inline-link-macro-rx"></block></block>
+  <block id="78439461e49b3c8ceb36b482d2cf5f31" category="list-text"><block ref="78439461e49b3c8ceb36b482d2cf5f31" category="inline-link-macro-rx"></block></block>
+  <block id="c1570ad5a2eb746daec026c8b6cf5c0a" category="list-text"><block ref="c1570ad5a2eb746daec026c8b6cf5c0a" category="inline-link-macro-rx"></block></block>
+  <block id="865bb86499cf1ad3a70c7ff888673760" category="doc">손상된 컨트롤러 - AFF A800을 종료합니다</block>
+  <block id="868fb46f8db1c45bfa9a49dea454c35a" category="doc">컨트롤러 모듈 교체 개요 - AFF A800</block>
+  <block id="eaa58bc985f0e200420f274e19bb7272" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF A800</block>
+  <block id="7103ae2dc232b897a89408d0cd914f59" category="doc">온보드 암호화 키 확인 - AFF A800</block>
+  <block id="0e3989fd0fd811ede751f0ca9dbfbe88" category="doc">부팅 미디어 교체 개요 - AFF A800</block>
+  <block id="a9785aa14dfcf09366954fcb69625d05" category="sidebar">42U 1280 mm 시스템 캐비닛</block>
 </blocks>

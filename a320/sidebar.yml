@@ -57,11 +57,9 @@ entries:
     - title: 시스템 구성을 복원합니다
       url: "/a320/controller-replace-system-config-restore-and-verify.html"
     - title: 회수 가능 시스템
-      url: "/a320/controller-repalce-recable-reassign-disks.html"
+      url: "/a320/controller-replace-recable-reassign-disks.html"
     - title: 시스템 복원을 완료합니다
-      url: "/a320/controller-replace-complete-system-restoration.html"
-    - title: 전체 교체
-      url: "/a320/controller-replace-complete-rma.html"
+      url: "/a320/controller-replace-restore-system-rma.html"
   - title: DIMM
     pdf-filename: AFF A320 DIMM
     url: "/a320/dimm-replace.html"

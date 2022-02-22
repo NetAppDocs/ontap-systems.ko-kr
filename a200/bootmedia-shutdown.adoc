@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a200, shut down the node 
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 
 ---
-= 노드-AFF A200을 종료합니다
+= 손상된 노드-AFF A200을 종료합니다
 :icons: font
 :imagesdir: ../media/
 

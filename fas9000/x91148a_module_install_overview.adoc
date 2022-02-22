@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, add, x91148a, storage, module, NIC, no open, slots, open slots, system 
 summary: NIC 또는 스토리지 어댑터를 완전히 채워진 시스템의 새 NIC 또는 스토리지 어댑터로 교체하거나 시스템의 빈 섀시 슬롯에 새 NIC 또는 스토리지 어댑터를 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다. 
 ---
-= X91148A 모듈 - AFF A9000을 추가합니다
+= X91148A 모듈 추가 개요 - AFF A9000
 :icons: font
 :imagesdir: ../media/
 

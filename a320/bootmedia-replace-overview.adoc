@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a320, locate, boot, media, controller, module, direction, replace, replace the boot media 
 summary: 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다. 
 ---
-= 부팅 미디어 교체 - AFF A320
+= 부팅 미디어 교체 개요 - AFF A320
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, replace the boot media 
 summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 공기 덕트를 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다. 
 ---
-= 컨트롤러 모듈을 분리하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(FAS500f)로 전송합니다
+= 부팅 미디어 교체 - FAS500f
 :icons: font
 :imagesdir: ../media/
 
@@ -201,31 +201,4 @@ USB 콘솔 포트가 아니라 USB 장치용 슬롯에 USB 플래시 드라이�
 +
 컨트롤러 모듈을 완전히 삽입하고 섀시의 모서리와 같은 높이가 되도록 해야 합니다.
 
-. 환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv variable-name <value>' 명령을 사용하여 오류를 수정해야 합니다.
-. 부팅 환경 변수를 확인합니다.
-+
-** "bootarg.init.boot_clustered`
-** 파트너-시시드
-** "bootarg.init.switchless_cluster.enable`
-
-
-. External Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-** bootarg.storageencryption.support<value>
-** bootarg.keymanager.support<value>
-** ' kmip.init.interface <값>'
-** ' kmip.init.ipaddr <값>'
-** ' kmip.init.netmask <값>'
-** ' kmip.init.gateway <값>'
-
-
-. Onboard Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-** bootarg.storageencryption.support<value>
-** bootarg.keymanager.support<value>
-** ' bootarg.온보드_keymanager <값>'
-
-
-. 변경한 환경 변수를 ' * savenv * ' 명령으로 저장합니다
-. '* printenv_variable-name_*' 명령을 사용하여 변경 사항을 확인하십시오.
 

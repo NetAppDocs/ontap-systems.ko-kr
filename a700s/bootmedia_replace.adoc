@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700s, aff, a700s, locate, fail, boot, media, controller, module, pcie, led, replace, replace the boot media 
 summary: 컨트롤러 모듈에서 중간 PCIe 모듈을 분리하고, 부팅 미디어 근처의 LED로 결함이 있는 부팅 미디어를 찾은 다음 부팅 미디어를 교체해야 합니다. 
 ---
-= 컨트롤러 모듈을 분리하고 부팅 미디어(AFF A700s)를 교체합니다
+= 부팅 미디어 교체 - AFF A700s
 :icons: font
 :imagesdir: ../media/
 

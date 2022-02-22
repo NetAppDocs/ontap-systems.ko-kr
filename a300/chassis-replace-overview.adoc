@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a300, replace the chassis 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 섀시 교체 - AFF A300
+= 섀시 교체 개요 - AFF A300
 :icons: font
 :imagesdir: ../media/
 

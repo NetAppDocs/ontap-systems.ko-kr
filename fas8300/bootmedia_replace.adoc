@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8300, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
 summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.' 
 ---
-= 컨트롤러 모듈을 제거하고 부팅 미디어를 교체한 다음 부팅 이미지를 부팅 미디어(FAS8300 및 FAS8700)로 전송합니다
+= 부트 미디어를 교체합니다. - FAS8300 및 FAS8700
 :icons: font
 :imagesdir: ../media/
 
@@ -225,38 +225,6 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 .. 로더 프롬프트에서 중지하려면 Ctrl+C를 눌러 부팅 프로세스를 중단합니다.
 +
 이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음 로더로 부팅하려면 노드를 "중지"하십시오.
-
-.. 환경 변수와 boots는 그대로 유지되지만, 'printenv boottar name' 명령을 사용하여 시스템 유형 및 구성에 필요한 모든 부트 환경 변수와 boots가 올바르게 설정되어 있는지 확인하고 'etenv_variable-name_<value>' 명령을 사용하여 오류를 수정해야 합니다.
-+
-... 부팅 환경 변수를 확인합니다.
-+
-**** "bootarg.init.boot_clustered`
-**** 파트너-시시드
-**** 'AFF C190/AFF A220(All Flash FAS)용 bootarg.init.flash_optimized`
-**** AFF A220 및 모든 SAN 어레이에 대한 bootarg.init.san_optimized`
-**** "bootarg.init.switchless_cluster.enable`
-
-
-... External Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-**** bootarg.storageencryption.support_<value>_
-**** "bootarg.keymanager.support _<<value>>_'
-**** ' kmip.init.interface_<값>_'
-**** ' kmip.init.ipaddr_<값>_'
-**** ' kmip.init.netmask_<값>_'
-**** ' kmip.init.gateway_<값>_'
-
-
-... Onboard Key Manager가 활성화된 경우 "kenv" ASUP 출력에 나열된 bootarg 값을 확인합니다.
-+
-**** bootarg.storageencryption.support_<value>_
-**** ' bootarg.keymanager.support_<value>' _
-**** ' bootarg.온보드_keymanager_<값>_'
-
-
-... 'avenv' 명령으로 변경한 환경 변수를 저장합니다
-... 'printenv_variable-name_' 명령을 사용하여 변경 사항을 확인합니다.
-
 
 .. 컨트롤러가 확장 또는 패브릭 연결 MetroCluster에 있는 경우 FC 어댑터 구성을 복원해야 합니다.
 +

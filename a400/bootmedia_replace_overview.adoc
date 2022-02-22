@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a400, aff, a400, boot, media, store, primary, secondary, set, system, boot, image, file, replace, replace the boot media 
 summary: '부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다.' 
 ---
-= 부팅 미디어 교체 - AFF A400
+= 부팅 미디어 교체 개요 - AFF A400
 :icons: font
 :imagesdir: ../media/
 

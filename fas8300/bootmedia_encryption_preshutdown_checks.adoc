@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8300, shut, down, impair, node, check, status, onboard, encryption, keys, status, disable, automatic, giveback, version, ontap, system, run, pre-shutdown, check, pre-shutdown checks for onboard encryption keys 
 summary: 손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 노드의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
 ---
-= 필요에 따라 온보드 암호화 키 확인 - AFF fas8300 및 FAS8700
+= 온보드 암호화 키 확인 - AFF fas8300 및 FAS8700
 :icons: font
 :imagesdir: ../media/
 
