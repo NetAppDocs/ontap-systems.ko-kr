@@ -16,20 +16,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다.">
-  <meta name="keywords" content=" fas8300, fas8700, how to recable the system, how to reassign disks">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다.">
+  <meta name="keywords" content=" fas8300, fas8700, how to recable the system, how to reassign disks"><!-- Icons -->
   <link rel="icon" href="/ko-kr/ontap-systems/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/ko-kr/ontap-systems/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/ko-kr/ontap-systems/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/ko-kr/ontap-systems/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/ko-kr/ontap-systems/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/ko-kr/ontap-systems/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/ko-kr/ontap-systems/js/na-search.js'></script>
-  
 
-  
-  <script src='/ko-kr/ontap-systems/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/ko-kr/ontap-systems/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/ontap-systems/js/na-search.js'></script><script src='/ko-kr/ontap-systems/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/ontap-systems/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/ko-kr/ontap-systems/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/ko-kr/ontap-systems/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/ko-kr/ontap-systems/js/toc.js'></script>
-  <script src='/ko-kr/ontap-systems/js/customscripts.js'></script>
-
-  <script>
+  <script src='/ko-kr/ontap-systems/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -158,7 +131,6 @@
   }
   </script>
   <script src='/ko-kr/ontap-systems/js/version-dropdown.js'></script>
-  <script src='/ko-kr/ontap-systems/js/product-family.js'></script>
   <script src='/ko-kr/ontap-systems/js/FileSaver.min.js'></script>
   <script src='/ko-kr/ontap-systems/js/jszip-utils.min.js'></script>
   <script src='/ko-kr/ontap-systems/js/jszip.min.js'></script>
@@ -171,6 +143,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[시스템 회수 및 디스크 재할당 - FAS8300 및 FAS8700](https://docs.netapp.com/ko-kr/ontap-systems/fas8300/controller-replace-recable-reassign-disks.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/fas8300/controller_replace_recable_reassign_disks.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">이 페이지의 내용</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -5185,26 +5176,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">홈</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">설명서</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/ko-kr/ontap-systems/">ONTAP&nbsp;Systems</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          시스템 회수 및 디스크 재할당 - FAS8300 및 FAS8700
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -5233,7 +5220,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-02-23 15:31:20 +0000">02/23/2022</time>
+    <time datetime="2022-03-15 19:28:37 +0000">03/15/2022</time>
     
   
 
@@ -5266,7 +5253,6 @@
 
 
 </p>
-
 
 <div id="preamble">
 <div class="sectionbody">
@@ -5352,7 +5338,7 @@
 <div class="sect2">
 <h3 id="옵션-1-ha-시스템의-시스템-id-변경을-확인합니다">옵션 1: HA 시스템의 시스템 ID 변경을 확인합니다</h3>
 <div class="paragraph">
-<p>replacement_node를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</p>
+<p>_replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</p>
 </div>
 <div class="paragraph">
 <p>이 절차는 HA 쌍에서 ONTAP를 실행하는 시스템에만 적용됩니다.</p>
@@ -5360,15 +5346,15 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다</p>
+<p>replacement_controller가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</p>
 </li>
 <li>
-<p>LOADER 프롬프트에서 _replacement_node에서 노드를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 나타나면 "y"를 입력합니다.</p>
+<p>system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다.</p>
 </li>
 <li>
-<p>replacement_node 콘솔에 'waiting for 반환&#8230;&#8203;' 메시지가 표시될 때까지 기다린 후 정상적인 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. 'storage failover show</p>
+<p>replacement_controller 콘솔에 'Waiting for 반환&#8230;&#8203;' 메시지가 표시될 때까지 기다린 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 지정되었는지 확인합니다. 'storage failover show</p>
 <div class="paragraph">
-<p>명령 출력에는 손상된 노드에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.</p>
+<p>명령 출력에는 손상된 컨트롤러에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -5383,7 +5369,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 </li>
 <li>
-<p>정상 노드에서 코어 덤프가 저장되었는지 확인합니다.</p>
+<p>정상적인 컨트롤러에서 코어 덤프가 저장되었는지 확인합니다.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
@@ -5408,13 +5394,13 @@ node2             node1             -            Waiting for giveback (HA mailbo
 </div>
 </li>
 <li>
-<p>노드를 돌려줍니다.</p>
+<p>컨트롤러를 다시 제공합니다.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>정상 노드에서 교체된 노드의 스토리지, 즉 'storage failover 반환 - ofnode_replacement_node_name_'을 반환하십시오</p>
+<p>정상적인 컨트롤러에서 교체된 컨트롤러의 스토리지를 다시 제공합니다. 'storage failover 반환 - ofnode_replacement_node_name_'</p>
 <div class="paragraph">
-<p>replacement_node는 스토리지를 다시 가져와 부팅을 완료합니다.</p>
+<p>replacement_controller가 스토리지를 다시 가져와 부팅을 완료합니다.</p>
 </div>
 <div class="paragraph">
 <p>시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 y를 입력해야 합니다.</p>
@@ -5451,7 +5437,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 <li>
 <p>디스크가 제대로 할당되었는지 확인합니다. '스토리지 디스크 표시-소유권'</p>
 <div class="paragraph">
-<p>replacement_node에 속한 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</p>
+<p>_replacement_controller에 속하는 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -5662,27 +5648,7 @@ dr-group-id            cluster node           configuration-state
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[시스템 회수 및 디스크 재할당 - FAS8300 및 FAS8700](https://docs.netapp.com/ko-kr/ontap-systems/fas8300/controller-replace-recable-reassign-disks.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/fas8300/controller_replace_recable_reassign_disks.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">이 페이지의 내용</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -5784,9 +5750,7 @@ dr-group-id            cluster node           configuration-state
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/ko-kr/ontap-systems/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -5801,7 +5765,4 @@ dr-group-id            cluster node           configuration-state
     </script>
     <script src='/ko-kr/ontap-systems/js/www-ntap.js'></script>
     <script src='/ko-kr/ontap-systems/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>

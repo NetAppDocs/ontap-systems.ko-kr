@@ -16,20 +16,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다.">
-  <meta name="keywords" content=" replace, caching, module, aff a220, fas 2700, shut, down, impaired, controller, node, aggregates, metrocluster, configuration, replace, reinstall">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다.">
+  <meta name="keywords" content=" replace, caching, module, aff a220, fas 2700, shut, down, impaired, controller, controller, aggregates, metrocluster, configuration, replace, reinstall"><!-- Icons -->
   <link rel="icon" href="/ko-kr/ontap-systems/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/ko-kr/ontap-systems/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/ko-kr/ontap-systems/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/ko-kr/ontap-systems/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/ko-kr/ontap-systems/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/ko-kr/ontap-systems/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/ko-kr/ontap-systems/js/na-search.js'></script>
-  
 
-  
-  <script src='/ko-kr/ontap-systems/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/ko-kr/ontap-systems/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/ontap-systems/js/na-search.js'></script><script src='/ko-kr/ontap-systems/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/ontap-systems/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/ko-kr/ontap-systems/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/ko-kr/ontap-systems/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/ko-kr/ontap-systems/js/toc.js'></script>
-  <script src='/ko-kr/ontap-systems/js/customscripts.js'></script>
-
-  <script>
+  <script src='/ko-kr/ontap-systems/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -158,7 +131,6 @@
   }
   </script>
   <script src='/ko-kr/ontap-systems/js/version-dropdown.js'></script>
-  <script src='/ko-kr/ontap-systems/js/product-family.js'></script>
   <script src='/ko-kr/ontap-systems/js/FileSaver.min.js'></script>
   <script src='/ko-kr/ontap-systems/js/jszip-utils.min.js'></script>
   <script src='/ko-kr/ontap-systems/js/jszip.min.js'></script>
@@ -171,6 +143,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[캐싱 모듈(AFF A220 및 FAS2700)을 교체합니다](https://docs.netapp.com/ko-kr/ontap-systems/fas2700/caching-module-replace.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/fas2700/caching_module_replace.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">이 페이지의 내용</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -5185,26 +5176,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">홈</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">설명서</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/ko-kr/ontap-systems/">ONTAP&nbsp;Systems</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          캐싱 모듈(AFF A220 및 FAS2700)을 교체합니다
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -5233,7 +5220,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-02-23 15:31:20 +0000">02/23/2022</time>
+    <time datetime="2022-03-15 19:28:37 +0000">03/15/2022</time>
     
   
 
@@ -5267,7 +5254,6 @@
 
 </p>
 
-
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
@@ -5286,15 +5272,15 @@
 <h2 id="1단계-손상된-컨트롤러를-종료합니다">1단계: 손상된 컨트롤러를 종료합니다</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.</p>
+<p>구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</p>
 </div>
 <div class="sect2">
 <h3 id="옵션-1-대부분의-구성">옵션 1: 대부분의 구성</h3>
 <div class="paragraph lead">
-<p>손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.</p>
+<p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
 </div>
 <div class="paragraph">
-<p>노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다.</p>
+<p>노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우, 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다.</p>
 </div>
 <div class="paragraph">
 <p>를 누릅니다http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/home.html["ONTAP 9 시스템 관리 참조"]</p>
@@ -5322,10 +5308,10 @@
 </div>
 </li>
 <li>
-<p>손상된 노드가 HA 쌍의 일부인 경우 정상 노드의 콘솔에서 'Storage failover modify -node local -auto-반환 false&#8217;를 자동 반환하도록 해제합니다</p>
+<p>손상된 컨트롤러가 HA 쌍의 일부인 경우 정상 컨트롤러의 콘솔에서 '스토리지 페일오버 수정-노드 로컬-자동 반환 거짓&#8217;을 자동 반환하도록 해제합니다</p>
 </li>
 <li>
-<p>손상된 노드를 LOADER 프롬프트로 가져갑니다.</p>
+<p>손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</p>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -5333,7 +5319,7 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">손상된 노드가 표시되는 경우&#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">손상된 컨트롤러가 표시되는 경우&#8230;&#8203;</th>
 <th class="tableblock halign-left valign-top">그러면&#8230;&#8203;</th>
 </tr>
 </thead>
@@ -5359,14 +5345,14 @@
 <p>시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>손상된 노드를 인수하거나 중단합니다.</p>
+<p>손상된 컨트롤러를 인수하거나 중단합니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>HA 쌍의 경우 정상 노드에서 스토리지 페일오버 테이크오버인 ofnode_impaired_node_name _ 을(를) 인수합니다</p>
+<p>HA 쌍의 경우 정상적인 컨트롤러에서 손상된 컨트롤러를 넘겨받습니다. 'storage failover -ofnode_impaired_node_name_'</p>
 <div class="paragraph">
-<p>손상된 노드에 반환 대기 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 다음 "y"로 응답합니다.</p>
+<p>손상된 컨트롤러에 기브백을 기다리는 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.</p>
 </div>
 </li>
 <li>
@@ -5379,7 +5365,7 @@
 </table>
 </li>
 <li>
-<p>시스템에 섀시에 하나의 컨트롤러 모듈만 있는 경우 전원 공급 장치를 끈 다음 손상된 노드의 전원 코드를 전원에서 분리합니다.</p>
+<p>시스템에 섀시에 하나의 컨트롤러 모듈만 있는 경우 전원 공급 장치를 끈 다음 손상된 컨트롤러의 전원 코드를 전원에서 분리합니다.</p>
 </li>
 </ol>
 </div>
@@ -5399,12 +5385,12 @@
 </table>
 </div>
 <div class="paragraph">
-<p>손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.</p>
+<p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <a href="https://docs.netapp.com/us-en/ontap/system-admin/index.html" target="_blank" rel="noopener">"CLI를 사용한 관리 개요"</a>.</p>
+<p>노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <a href="https://docs.netapp.com/us-en/ontap/system-admin/index.html" target="_blank" rel="noopener">"CLI를 사용한 관리 개요"</a>.</p>
 </li>
 <li>
 <p>MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.</p>
@@ -5421,10 +5407,10 @@
 </div>
 </li>
 <li>
-<p>정상 노드의 콘솔에서 'storage failover modify – node local-auto-반환 false&#8217;의 자동 반환 기능을 해제합니다</p>
+<p>정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false&#8217;를 자동으로 반환합니다</p>
 </li>
 <li>
-<p>손상된 노드를 LOADER 프롬프트로 가져갑니다.</p>
+<p>손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</p>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -5432,7 +5418,7 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">손상된 노드가 표시되는 경우&#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">손상된 컨트롤러가 표시되는 경우&#8230;&#8203;</th>
 <th class="tableblock halign-left valign-top">그러면&#8230;&#8203;</th>
 </tr>
 </thead>
@@ -5458,13 +5444,10 @@
 <p>시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>정상 노드인 'storage failover takeover-ofnode_impaired_node_name_'에서 손상된 노드를 인계하거나 중단합니다</p>
+<p>정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다</p>
 </div>
 <div class="paragraph">
-<p>손상된 노드에 반환 대기 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 다음 "y"로 응답합니다.</p>
-</div>
-<div class="paragraph">
-<p>를 누릅니다</p>
+<p>손상된 컨트롤러에 기브백을 기다리는 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -5761,20 +5744,20 @@
 <p>시스템 레벨 진단을 시작하려면 시스템에 LOADER 메시지가 표시되어야 합니다.</p>
 </div>
 <div class="paragraph">
-<p>진단 절차의 모든 명령은 구성 요소를 교체하는 노드에서 실행됩니다.</p>
+<p>진단 절차의 모든 명령은 구성 요소를 교체하는 컨트롤러에서 실행됩니다.</p>
 </div>
 <div class="olist arabic">
 <div class="title">단계</div>
 <ol class="arabic">
 <li>
-<p>수리할 노드가 LOADER 프롬프트에 있지 않은 경우 다음 단계를 수행하십시오.</p>
+<p>수리할 컨트롤러가 로더 프롬프트에 있지 않은 경우 다음 단계를 수행하십시오.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
 <p>표시된 메뉴에서 유지보수 모드 옵션을 선택합니다.</p>
 </li>
 <li>
-<p>노드가 유지보수 모드로 부팅된 후 노드 'halt&#8217;를 중지합니다</p>
+<p>컨트롤러가 유지보수 모드로 부팅된 후 컨트롤러를 정지시킵니다</p>
 <div class="paragraph">
 <p>명령을 실행한 후 시스템이 로더 프롬프트에서 중지될 때까지 기다려야 합니다.</p>
 </div>
@@ -5847,24 +5830,24 @@
 <li>
 <p>유지보수 모드를 종료합니다</p>
 <div class="paragraph">
-<p>노드에 LOADER 프롬프트가 표시됩니다.</p>
+<p>컨트롤러에 LOADER 프롬프트가 표시됩니다.</p>
 </div>
 </li>
 <li>
-<p>LOADER 프롬프트에서 bye 노드를 부팅합니다</p>
+<p>LOADER 프롬프트에서 컨트롤러를 부팅합니다. bye</p>
 </li>
 <li>
-<p>노드를 정상 작동 상태로 되돌립니다.</p>
+<p>컨트롤러를 정상 작동 상태로 되돌립니다.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>노드가 HA 쌍 * 인 경우 'storage failover back - ofnode_replacement_node_name_'을 수행합니다</p>
+<p>컨트롤러가 HA 쌍 * 인 경우 'storage failover back - ofnode_replacement_node_name_'을 수행합니다</p>
 </li>
 <li>
 <p>참고: * 자동 반환이 비활성화된 경우 '스토리지 페일오버 수정' 명령을 사용하여 다시 활성화하십시오.</p>
 </li>
 <li>
-<p>노드가 독립 실행형 구성 * 에 있는 경우 다음 단계를 진행합니다. 별도의 조치가 필요하지 않습니다.</p>
+<p>컨트롤러가 독립 실행형 구성 * 인 경우 다음 단계를 진행합니다. 별도의 조치가 필요하지 않습니다.</p>
 </li>
 </ul>
 </div>
@@ -6029,27 +6012,7 @@ Remote: cluster_A configured      		normal</pre>
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[캐싱 모듈(AFF A220 및 FAS2700)을 교체합니다](https://docs.netapp.com/ko-kr/ontap-systems/fas2700/caching-module-replace.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/fas2700/caching_module_replace.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">이 페이지의 내용</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -6151,9 +6114,7 @@ Remote: cluster_A configured      		normal</pre>
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/ko-kr/ontap-systems/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -6168,7 +6129,4 @@ Remote: cluster_A configured      		normal</pre>
     </script>
     <script src='/ko-kr/ontap-systems/js/www-ntap.js'></script>
     <script src='/ko-kr/ontap-systems/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>
