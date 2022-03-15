@@ -6,13 +6,9 @@
   <block id="118a19c264126d2eb7de4542c32c102d" category="section-title">1단계: 손상된 컨트롤러를 종료합니다</block>
   <block id="16f911f59a050f663b12ff955a280de7" category="paragraph">손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.</block>
   <block id="a2960939186ae78b824d694e2cbba800" category="inline-link-macro">CLI를 사용한 관리 개요</block>
-  <block id="f3a683d1b48244546d607c15e8a715ab" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="1baf9f7ecc4554f61d6168e4897ea002" category="inline-link-macro-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="19285c8cf559d5176d09036ecccfca21" category="list-text">AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</block>
   <block id="f80af4e39d67de6feaae8747f603e24b" category="paragraph">다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * &gt; system node AutoSupport invoke - node * -type all-message MAINT=2h'</block>
-  <block id="cbd2cc7bf09016b948d6312eac7c93ff" category="list-text">정상 노드의 콘솔에서 'storage failover modify – node local-auto-반환 false'의 자동 반환 기능을 해제합니다</block>
-  <block id="78c8abed37749a0772d77fceb947f1ac" category="list-text">손상된 노드를 LOADER 프롬프트로 가져갑니다.</block>
-  <block id="390e488e4fa2a84c9493e1ae635bb564" category="cell">손상된 노드가 표시되는 경우...</block>
   <block id="c1325f6903ebb5ebb2bb519a73ddb1b0" category="cell">그러면...</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
   <block id="a2efb773cb3f251f8687b1e41309b525" category="paragraph">LOADER 메시지가 표시됩니다</block>
@@ -20,8 +16,6 @@
   <block id="fd66c964768074eb90f4f1426229bf3e" category="paragraph">반환 대기 중...</block>
   <block id="426ac41b4c68d57196f875fa046c7804" category="paragraph">Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.</block>
   <block id="7e14201f51e262f13f2c3c4eb7e4a175" category="paragraph">시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)</block>
-  <block id="09ba8705674baa2bb12600bee5888bda" category="paragraph">정상 노드인 'storage failover takeover-ofnode_impaired_node_name_'에서 손상된 노드를 인계하거나 중단합니다</block>
-  <block id="54d84b238a1f0e6e83e06b2788451c8f" category="paragraph">손상된 노드에 반환 대기 중... 이 표시되면 Ctrl-C를 누른 다음 "y"로 응답합니다.</block>
   <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">를 누릅니다</block>
   <block id="9437c57fcfd0761eae87af1101035857" category="section-title">2단계: 컨트롤러 모듈을 분리합니다</block>
   <block id="8beaeea3973b517e3c11448d6de4ac1d" category="paragraph">컨트롤러 모듈 내부의 구성 요소에 액세스하려면 먼저 시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈의 덮개를 분리해야 합니다.</block>
@@ -96,7 +90,6 @@
   <block id="30d8ab439e6b5776a81bc35dd0caaf81" category="paragraph">노드에 LOADER 프롬프트가 표시됩니다.</block>
   <block id="be418a014cc7dddea0e7a9c11e74684f" category="list-text">LOADER 프롬프트에서 bye 노드를 부팅합니다</block>
   <block id="5cb4dbca31ce772b17987c15a725b52e" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
-  <block id="99b2041dbc4d85328f37031f86e8632c" category="cell">노드가 다음 상태인 경우:</block>
   <block id="3cdd93e247df7344473ca0add028b55e" category="paragraph">HA 쌍</block>
   <block id="acb7bc189d4b0f21fe9d90e11ec17502" category="paragraph">'storage failover 반환 - ofnode_replacement_node_name_'을 제공합니다</block>
   <block id="b5be884251fa1837a5590734f7c5e1a3" category="admonition">자동 반환 기능을 해제한 경우 스토리지 페일오버 수정 명령으로 다시 사용하도록 설정하십시오.</block>
@@ -177,7 +170,6 @@
   <block id="a04946ec50f85966411de3ad0c5a857a" category="list-text">컨트롤러 모듈을 시스템에 끝까지 밀어 넣고 캠 핸들이 USB 플래시 드라이브에서 빠져나는지 확인한 다음 캠 핸들을 단단히 눌러 컨트롤러 모듈 장착을 완료하고 캠 핸들을 닫힌 위치로 민 다음 나비나사를 조입니다.</block>
   <block id="4f3e92738b97672e7c43585384d07fa0" category="paragraph">노드가 섀시에 완전히 설치되는 즉시 부팅되기 시작합니다.</block>
   <block id="3ad4ff48e03cad4f50c0e486f9347051" category="list-text">'자동 부팅 시작'이 표시되면 Ctrl-C를 눌러 로더 프롬프트에서 부팅 프로세스를 중단하고 Ctrl-C를 눌러 중단하십시오</block>
-  <block id="d6247cf97fface5e53fdbd950c4cd532" category="paragraph">이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음 로더로 부팅하려면 노드를 "중지"하십시오.</block>
   <block id="0032ff6878e0eb024d2d7d2145235782" category="list-text">부팅 환경 변수를 확인합니다.</block>
   <block id="67cee8596d9c8d2c1fc298a78f8c3906" category="list-text">"bootarg.init.boot_clustered`</block>
   <block id="a1969dbd1bcea583ab8a2d860a39b3af" category="list-text">파트너-시시드</block>
@@ -197,19 +189,15 @@
   <block id="79c0dc0c1d416cbf593b39a6001241d6" category="paragraph">시스템이 부팅 메뉴로 부팅되고 부팅 이미지 이름을 묻는 메시지가 표시됩니다.</block>
   <block id="a69b72837c8e8003d87a5507ce60fd57" category="list-text">USB 플래시 드라이브에 있는 부팅 이미지 이름을 입력합니다.</block>
   <block id="28cc6978ce4feeff76b4c396346e2134" category="paragraph">'*__image_name__.tgz *'</block>
-  <block id="d978c1210c17487e55dc119bb51ecafe" category="paragraph">image_name.tgz가 설치되면 시스템은 정상적인 노드에서 백업 구성('var' 파일 시스템)을 복원하라는 메시지를 표시합니다.</block>
   <block id="e1996e531725de7e3aaf2c39a0349747" category="list-text">'var' 파일 시스템을 복구합니다.</block>
   <block id="ff1587494e16c13a3563e383438d8060" category="cell">시스템에 다음 기능이 있는 경우:</block>
   <block id="6c6abc912071c3b8b4383430d9d3815c" category="paragraph">네트워크 연결</block>
   <block id="62769241856ee82359451259b52a5002" category="list-text">백업 구성을 복원하라는 메시지가 나타나면 ' * y * '를 누릅니다.</block>
-  <block id="a8c26f715f9f4a3ea9ec1f68d24c9c4a" category="list-text">정상 노드를 고급 권한 수준으로 설정합니다.</block>
   <block id="2fb10535c586c96b3774f785a3997a21" category="paragraph">' * set-Privilege advanced * '</block>
   <block id="c1177edd7108fa7d9910ed257f6649d2" category="list-text">restore backup 명령을 실행합니다.</block>
   <block id="0bf1d1b4f2e3e68fc29769ff74068bb0" category="paragraph">'* 시스템 노드 restore-backup-node local-target-address_impaired_node_ip_address_ *</block>
-  <block id="ac16d10b03b9eee302663c0ff964af6b" category="list-text">노드를 admin 수준으로 되돌립니다.</block>
   <block id="e16abfed5120765160124f48c832fec8" category="paragraph">' * set-privilege admin * '</block>
   <block id="3a4533e361276ae9b4739b9bfb026264" category="list-text">복원된 구성을 사용하라는 메시지가 나타나면 ' * y * '를 누릅니다.</block>
-  <block id="7b20fcd7cc0853f9d9747853a0fcdc60" category="list-text">노드를 재부팅하라는 메시지가 나타나면 ' * y * '를 누릅니다.</block>
   <block id="0790b39f37f7e8817ad39bf67172d647" category="paragraph">네트워크 연결이 없습니다</block>
   <block id="f13064e88c8a13f2443d04d2ee4b74bf" category="list-text">백업 구성을 복원하라는 메시지가 나타나면 ' * n * '을 누릅니다.</block>
   <block id="07b373d0198c26caebb3c6be642fbb91" category="list-text">시스템에서 메시지가 표시되면 시스템을 재부팅합니다.</block>
@@ -224,11 +212,7 @@
   <block id="d512ecec76aa43a3417c7b9f7ac216b3" category="list-text">노드를 재부팅합니다.</block>
   <block id="110cdf95c13597ed0aeb3ee971d7cec5" category="list-text">다음 단계는 시스템 구성에 따라 다릅니다.</block>
   <block id="9779333e2154119b2b5972805e7dda90" category="cell">시스템이 다음 상태인 경우:</block>
-  <block id="fec180986cf3ffaf8601b5de24881de4" category="paragraph">노드가 재부팅된 후 시스템 사용을 시작할 수 있습니다.</block>
-  <block id="76cf40fe172d1ea9ec57cdefa14c953a" category="paragraph">손상된 노드에 'Waiting for Giveback...' 메시지가 표시된 후 정상 노드에서 기브백을 수행합니다.</block>
-  <block id="9e48e69d61ca4ea4e8c1b6709a0ba816" category="list-text">정상 노드에서 반환 수행:</block>
   <block id="28489481ec7e834c6b195baa68dd19c1" category="paragraph">'* 스토리지 페일오버 반환 - ofnode_partner_node_name_ * '</block>
-  <block id="2b5b86c9ce2d39ee837c5fdad0fc27cc" category="paragraph">장애가 발생한 노드의 애그리게이트 및 볼륨의 소유권을 손상된 노드로 다시 반환하는 프로세스가 시작됩니다.</block>
   <block id="25df42cd5ae2e7223d293aeda0c623ed" category="paragraph">기브백이 거부되면 거부권을 재정의할 수 있습니다.</block>
   <block id="3804b132271e47a4db7521e977b43625" category="inline-link">ONTAP 9 고가용성 구성 가이드</block>
   <block id="08ca2eade8768d4ee7e1752168f719ac" category="paragraph"><block ref="08ca2eade8768d4ee7e1752168f719ac" category="inline-link-rx"></block></block>
@@ -275,10 +259,7 @@
   <block id="b279b6600d5af224d26ab7bab80082c7" category="section-title">2단계: HA 시스템에서 시스템 ID 변경 확인</block>
   <block id="117a00785fdf02074d05fddbc86f7975" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. replacement_node를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
   <block id="fa5ccc1fbe9017cdfc585a7ca2f2637a" category="paragraph">이 절차는 HA 쌍에서 ONTAP를 실행하는 시스템에만 적용됩니다.</block>
-  <block id="1a654e01c14bfd5cd4699372c3ef6bf9" category="list-text">replacement_node가 유지보수 모드(" *&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다.</block>
   <block id="f30bf82bc8eafa66c54fa40dcf42ea44" category="paragraph">' * halt * '</block>
-  <block id="6c0c224b8e9179a7c25ea93532145021" category="list-text">system ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 나타나면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 ' * y * '를 입력합니다.</block>
-  <block id="5df49253d4e35c978d098ad728de36b5" category="list-text">replacement_node 콘솔에 'waiting for 반환...' 메시지가 표시될 때까지 기다린 후 정상적인 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.</block>
   <block id="3e06d4583220bf6e3116f03fc794dab1" category="paragraph">명령 출력에는 손상된 노드에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.</block>
   <block id="23b40d7aca05dd545bc77221d79f3fbe" category="list-text">정상 노드에서 코어 덤프가 저장되었는지 확인합니다.</block>
   <block id="109773e48c8731216edae51d1686c8bc" category="list-text">고급 권한 레벨로 변경:</block>
@@ -290,7 +271,6 @@
   <block id="0a6496658205fc38ba1b1f3e184070ba" category="paragraph">'* 시스템 노드 run-node_local-node-name_partner savecore -s * '</block>
   <block id="00bfced11707df12b7beabc9cb1854c6" category="list-text">관리자 권한 레벨로 돌아갑니다.</block>
   <block id="dc480d49888be9665881255050d6e3fd" category="list-text">노드를 돌려줍니다.</block>
-  <block id="4b76b0b24680628173c043d577e24169" category="list-text">정상 노드에서 교체된 노드의 스토리지를 복구하십시오.</block>
   <block id="84a63e5c67c16845df7acbd3cae860da" category="paragraph">'* 스토리지 페일오버 반환 - ofnode_replacement_node_name_ *'</block>
   <block id="c45c9fc04ba9ebcfc2085fb4d27cb308" category="paragraph">replacement_node는 스토리지를 다시 가져와 부팅을 완료합니다.</block>
   <block id="393be3b3a8c5c898411ba572d160869b" category="paragraph">시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 '* y*'를 입력해야 합니다.</block>
@@ -298,9 +278,7 @@
   <block id="d238d807ebe1f1809c0c6a9e4cb8c1bf" category="paragraph"><block ref="d238d807ebe1f1809c0c6a9e4cb8c1bf" category="inline-link-rx"></block></block>
   <block id="60f38413fd4251f6c7f63adc0a48c195" category="list-text">디스크가 제대로 할당되었는지 확인합니다. '스토리지 디스크 표시-소유권'</block>
   <block id="4ba4f1aaf81ebb9600884198e939b4a2" category="paragraph">replacement_node에 속한 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
-  <block id="fdf71b0bf15eace3d1fb5c829e6fd6bd" category="list-text">각 노드에 대해 예상 볼륨이 있는지 확인합니다.</block>
   <block id="e3de43ab4017cb33908b0ff634023d7d" category="paragraph">' * vol show-node_node-name_ * '</block>
-  <block id="d549e9b55ccc784fa571f784621470ef" category="list-text">재부팅 시 자동 테이크오버 기능을 사용하지 않도록 설정한 경우 정상 노드에서 이를 사용하도록 설정하십시오.</block>
   <block id="73b172a422efac317883ee1a518015e1" category="paragraph">``스토리지 장애 조치 수정 -node_replacement-node-name_-onreboot true *’</block>
   <block id="5d1cfd3c9a95578cfe36dabeac6fec83" category="summary">전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.</block>
   <block id="b351b18aabb1167eb5b0851a7dfde759" category="doc">전원 공급 장치 교체 - AFF C190</block>
@@ -342,7 +320,6 @@
   <block id="0f9b7af429c6f61cb54f2dc7fb47b9a6" category="summary">시스템을 전체 운영으로 복구하려면 NetApp Storage Encryption 구성(필요한 경우)을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 후 키트와 함께 제공된 RMA 지침에 설명된 대로 실패한 부품을 NetApp으로 반환해야 합니다. 기술 지원 부서(에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.</block>
   <block id="13bebe2596a4000b53c1d171e85d4669" category="doc">전체 시스템 복원 - AFF C190</block>
   <block id="03a45c592eebddeaf80cccbc66213075" category="paragraph">시스템을 전체 운영으로 복구하려면 NetApp Storage Encryption 구성(필요한 경우)을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 후 키트와 함께 제공된 RMA 지침에 설명된 대로 실패한 부품을 NetApp으로 반환해야 합니다.</block>
-  <block id="a4e3016238e1fb829942cfb8f4f45e09" category="section-title">1단계: ONTAP에서 교체 노드에 대한 라이센스 설치</block>
   <block id="f29590bcbb1621777529a668ca509dc2" category="paragraph">장애가 발생한 노드가 표준(노드 잠김) 라이센스가 필요한 ONTAP 기능을 사용 중인 경우 _replacement_node에 대한 새 라이센스를 설치해야 합니다. 표준 라이센스가 있는 기능의 경우 클러스터의 각 노드에 기능에 대한 자체 키가 있어야 합니다.</block>
   <block id="bf94fb725ab7919566532f0c7669a3ad" category="paragraph">라이센스 키를 설치하기 전까지는 표준 라이센스가 필요한 기능을 _replacement_node에서 계속 사용할 수 있습니다. 그러나 손상된 노드가 클러스터의 유일한 노드인 경우 해당 기능에 대한 라이센스가 있으면 기능을 변경할 수 없습니다. 또한 노드에서 라이센스가 없는 기능을 사용하면 라이센스 계약을 준수하지 않을 수 있으므로 가능한 한 빨리 _replacement_node에 교체 라이센스 키 또는 키를 설치해야 합니다.</block>
   <block id="78c86c2b740081805f1ff45f9720ce43" category="paragraph">라이센스 키는 28자 형식이어야 합니다.</block>
@@ -549,7 +526,6 @@
   <block id="156eb6e82c7345080012a8f00d566c5e" category="paragraph">LOADER 프롬프트가 나타납니다.</block>
   <block id="65262cff88e8431ab037669426699324" category="section-title">2단계: 시스템 수준 진단 프로그램을 실행합니다</block>
   <block id="ce1f5653e10bc9b34ef489b3cf886866" category="paragraph">새 섀시를 설치한 후 상호 연결 진단을 실행해야 합니다.</block>
-  <block id="4f3bd230b388c6ddd486715d3b230134" category="list-text">노드가 유지보수 모드로 부팅된 후 노드를 중단합니다.</block>
   <block id="2121139248d7cf8569cf5c2b09c33ecd" category="list-text">HA 구성의 경우 두 번째 노드에서 이전 단계를 반복합니다.</block>
   <block id="3a1f693f79d6d6626376ed2712f3beb1" category="admonition">인터커넥트 테스트를 실행하려면 두 컨트롤러가 유지보수 모드여야 합니다.</block>
   <block id="a8eb93337a2a8db4dcaf67a28a1eba2d" category="list-text">LOADER 프롬프트에서 시스템 수준 진단이 제대로 작동하도록 특별히 설계된 특수 드라이버를 액세스합니다.</block>
@@ -590,7 +566,6 @@
   <block id="fefd734f0bdff8f12e4dd22d5240abe0" category="summary">AFF C190 시스템 설명서를 사용하여 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="69df5da6ba52630e5f329314c7e74f75" category="doc">AFF C190 시스템 설명서</block>
   <block id="b78bf62e6c1dd80b4eab87a4a3039f94" category="summary">컨트롤러 모듈 하드웨어를 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
-  <block id="ff9a2f89454589a74ceb25742ee79817" category="paragraph">컨트롤러 모듈을 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
   <block id="f65880020d1427cb243e627e392ce6ef" category="section-title">1단계: 컨트롤러 모듈을 분리합니다</block>
   <block id="f15dadbdff53b4a73700cd5ec217e288" category="paragraph">컨트롤러 모듈을 교체하려면 먼저 섀시에서 이전 컨트롤러 모듈을 분리해야 합니다.</block>
   <block id="3db53350c8daded7e4295f79671ca172" category="list-text">케이블을 분리한 후 SFP 모듈을 시스템에 남겨 둔 경우 새 컨트롤러 모듈로 이동합니다.</block>
@@ -635,7 +610,6 @@
   <block id="6187ebc055513873c66fbd0309299cbb" category="paragraph">메시지가 표시되지 않고 컨트롤러 모듈이 ONTAP로 부팅되면 'halt'를 입력한 다음 로더 프롬프트에서 boot_ontap를 입력하고 메시지가 표시되면 Ctrl-C를 누른 다음 유지보수 모드로 부팅합니다.</block>
   <block id="f94cb94350d4ec3469cbd6fbb2b8efb3" category="admonition">부팅 과정에서 다음과 같은 메시지가 표시될 수 있습니다.</block>
   <block id="24718eccce3cd133d143bec81426275c" category="list-text">시스템 ID 불일치 및 시스템 ID 재정의를 요청하는 프롬프트 경고.</block>
-  <block id="85b7eb3de3a7efc217fec5e4bc94878f" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상 상태인 노드가 계속 작동 중지되도록 해야 한다는 프롬프트 경고입니다. 이 메시지에 안전하게 'y'로 응답할 수 있습니다.</block>
   <block id="3125087114c2490b7c6800800a39a990" category="summary">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="8a20c268704bf24640a88346ca257e3e" category="doc">빠른 단계 - AFF C190</block>
   <block id="0e976cfcc1b2e9eac14c2a85a2af912b" category="inline-link-macro">AFF C190 시스템 설치 및 설정 지침</block>
@@ -678,11 +652,9 @@
   <block id="17268c6ef2838628d8d6888cfbe7b25b" category="paragraph">'storage failover back -ofnode_replacement_node_name_' * 참고: * 자동 반환을 해제한 경우 스토리지 페일오버 수정 명령을 사용하여 다시 설정하십시오.</block>
   <block id="1af1fe949907061171a34fcc37aae4b2" category="paragraph">다음 단계를 진행합니다. 별도의 조치가 필요하지 않습니다.</block>
   <block id="7ae49995844c9617612930d57089c2b1" category="paragraph">+시스템 수준 진단을 완료했습니다.</block>
-  <block id="d88c7eb1c7ef4b32e4cdba82c917bfae" category="doc">노드 종료 - AFF C190</block>
   <block id="6f00135662159734f14958c139370d97" category="summary">교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다.</block>
   <block id="271c5a034296b2fd598c729a341c9b8a" category="list-text">모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.</block>
   <block id="0012bcaadb56ca5543ace124a6a404f9" category="list-text">시스템이 HA 쌍인 경우 정상적인 노드가 교체되는 노드를 인수할 수 있어야 합니다("손상된 노드" 절차라고 함).</block>
-  <block id="90aef159b4ad02a5aa95f62d5be7d66d" category="list-text">이 절차에는 시스템 구성에 따라 드라이브를 _replacement_node에 자동으로 또는 수동으로 재할당하는 단계가 포함되어 있습니다.</block>
   <block id="eceeb845d6027471d1eafcff9c9e0e9e" category="list-text">절차의 지시에 따라 드라이브 재할당을 수행해야 합니다.</block>
   <block id="f8e9ecd9537af58f29ba82e30b17fd32" category="list-text">컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.</block>
   <block id="b16236ca9965083b3ceb3c6fc62ab058" category="list-text">이 절차의 일부로 드라이브 또는 드라이브 쉘프를 변경할 수 없습니다.</block>
@@ -694,24 +666,15 @@
   <block id="ef82d539dc8acbd089c50343493834e6" category="list-text">노드의 콘솔 출력을 항상 텍스트 파일로 캡처해야 합니다.</block>
   <block id="c05037a88de91ff2d60122b1ccf7291a" category="paragraph">교체 프로세스 중에 발생할 수 있는 문제를 해결할 수 있도록 절차에 대한 기록을 제공합니다.</block>
   <block id="b4c31341ab0f1e49529261f974be146d" category="summary">손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 노드의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
-  <block id="325cef81d6a2e0da8d766cd78aeedd6c" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="5f63b18eda466634ee235fd0cb5a9d6a" category="inline-link-macro-rx"></block>.</block>
-  <block id="b8ab0743311e15b4dca69b87da3c3e1a" category="list-text">장애가 발생한 노드의 상태를 점검한다.</block>
-  <block id="03582aa0f2a939731c07b9900422cd22" category="list-text">장애가 발생한 노드가 로그인 프롬프트에 있는 경우 admin으로 로그인합니다.</block>
-  <block id="e090553f6fd47e1f1ead7225617772ef" category="list-text">장애가 발생한 노드가 LOADER 프롬프트에서 HA 구성의 일부인 경우 정상 노드에 admin으로 로그인합니다.</block>
   <block id="0373910e51252c7b97dcbea9f4942604" category="inline-link-macro">mysupport.netapp.com</block>
-  <block id="0dd5d9e032b1801c3d71568253325ccb" category="list-text">장애가 발생한 노드가 독립 실행형 구성이고 LOADER 프롬프트에서 에 문의하십시오 <block ref="fbe7ba585c90dfc99f38e8779c97c5f3" category="inline-link-macro-rx"></block>.</block>
-  <block id="1192b5377c1ad9dfaf75cb33a7333843" category="list-text">손상된 노드가 있는 경우 손상된 노드에서 실행 중인 ONTAP 버전을 확인하거나, 손상된 노드가 다운된 경우 rsion -v 명령을 사용하여 파트너 노드에서 실행 중인 버전을 확인합니다.</block>
   <block id="ababafc28230637bc7ee0dc0762d3d7a" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 다음 섹션으로 이동하십시오.</block>
   <block id="e1cb9a7881589d8bbc03d3bc416f6eb6" category="list-text">장애가 있는 노드가 HA 구성의 일부인 경우 정상적인 노드인 '스토리지 페일오버 수정 - 노드 로컬 - 자동 반환 거짓' 또는 '스토리지 페일오버 수정 - 노드 로컬 - 자동 반환 - 패닉 후 거짓'에서 자동 반환을 비활성화하십시오</block>
   <block id="ddf5ebb5c1d9ad17f6222185e1822bf6" category="section-title">ONTAP 9.6 이상을 실행하는 시스템에서 NVE 또는 NSE를 확인하십시오</block>
-  <block id="bf3223ea252f144b1ff6ef82d50d0928" category="paragraph">손상된 노드를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
   <block id="757faef19dddc204a17e4b5890ef2088" category="paragraph">출력에 표시되는 볼륨이 하나라도 있으면 NVE가 구성되어 NVE 구성을 확인해야 합니다. 나열된 볼륨이 없으면 NSE가 구성되어 있는지 확인합니다.</block>
   <block id="f5275334d8eb3b5cf9ea9368de40cedc" category="list-text">명령 출력에 모드 및 키 ID 정보가 포함된 드라이브 세부 정보가 표시되는 경우 NSE가 구성되어 있으며 NSE 구성을 확인해야 합니다.</block>
   <block id="52f57fb3e4c5bd20a2a75ecc9242ad9a" category="list-text">디스크가 표시되지 않으면 NSE가 구성되지 않은 것입니다.</block>
-  <block id="3f6980a632f1549a6ce891a226389596" category="list-text">NVE와 NSE가 구성되지 않은 경우 손상된 노드를 종료하는 것이 안전합니다.</block>
   <block id="e11e37bddb45a2b092655cc718d388d5" category="section-title">NVE 구성을 검증합니다</block>
   <block id="a2a9cf44f7484401e6ca68da00a8fb6f" category="list-text">키 관리 서버에 저장된 인증 키의 키 ID를 '보안 키 관리자 쿼리'로 표시합니다</block>
-  <block id="ffd7e3da9902b5f2c0b821890444dac1" category="list-text">키 관리자 유형이 '외부'로 표시되고 '복원됨' 열에 '예'가 표시되면 손상된 노드를 종료하는 것이 안전합니다.</block>
   <block id="ea9a06f5fb2cd5470a0c0c25b039a03c" category="list-text">키 관리자 유형에 온보드(Onboard)이 표시되고 복원된(Restored) 열에 예(Yes)가 표시되면 몇 가지 추가 단계를 완료해야 합니다.</block>
   <block id="c6d9b949fc815c7d1290e5acb1f3ade9" category="list-text">키 관리자 유형에 '외부'가 표시되고 '복원됨' 열에 '예'가 아닌 다른 항목이 표시되면 몇 가지 추가 단계를 완료해야 합니다.</block>
   <block id="b43c8f6b2fe8e4b5d1d2f97c83c7c6ca" category="list-text">키 관리자 유형이 '내장'으로 표시되고 '복원됨' 열에 '예'가 아닌 다른 항목이 표시되면 추가 단계를 완료해야 합니다.</block>
@@ -720,7 +683,6 @@
   <block id="1b3e3ec3fd07bf53abc8401f17b2a7b5" category="list-text">키 관리 정보(보안 키 관리자 온보드 show-backup)를 표시하려면 명령을 입력합니다</block>
   <block id="78a22d38c1530a757fec402c5079de18" category="list-text">백업 정보의 내용을 별도의 파일이나 로그 파일에 복사합니다. OKM을 수동으로 복구해야 하는 재해 시나리오에서 이 구성 이 필요합니다.</block>
   <block id="19f83f3f355a8b287ae2aa40b5c8fc99" category="list-text">'Set-priv admin' 모드로 돌아갑니다</block>
-  <block id="5f6d1138869d4cbc60656a6367061ca8" category="list-text">손상된 노드를 종료합니다.</block>
   <block id="59d3229a75f9a710337879feec6b35c8" category="list-text">키 관리자 유형에 '외부'가 표시되고 '복원됨' 열에 '예'가 아닌 다른 항목이 표시되는 경우:</block>
   <block id="c664ce90df89e48082cd24116ca9c5cf" category="list-text">외부 키 관리 인증 키를 클러스터의 모든 노드에 복원: '보안 키 관리자 외부 복원</block>
   <block id="aa93e7bc262e7964a396fd16f3a41d6b" category="paragraph">명령이 실패하면 NetApp Support에 문의하십시오.</block>
@@ -730,7 +692,6 @@
   <block id="29494bbea0c4b9c81b504ce3c9f0c776" category="admonition">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.<block ref="7bc6752d2076d2c755eaebbdfeb91d23" category="inline-link-rx"></block></block>
   <block id="b1dfba2b33907e87a5254267b34a3e32" category="list-text">키 관리자 유형에 온보드(Onboard)이 표시되는지 확인한 다음 OKM 정보를 수동으로 백업합니다.</block>
   <block id="5420f491e628cc60c7e1ffcad20d35da" category="list-text">명령을 입력하여 키 관리 백업 정보 '보안 키 관리자 온보드 show-backup'을 표시합니다</block>
-  <block id="46c9d33b77f9064bc8fbe1743c6118eb" category="list-text">노드를 안전하게 종료할 수 있습니다.</block>
   <block id="8eb91adaedfd18d8e21833ed58db7673" category="section-title">NSE 구성을 확인합니다</block>
   <block id="a5e337a3469d0028e9b72fe170e6d372" category="list-text">Onboard security key-manager sync command:'security key-manager external sync'를 입력한다</block>
   <block id="f0bb66ccc33b2423473b4997076e2e15" category="paragraph">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.</block>
@@ -740,10 +701,6 @@
   <block id="1e67e0629d0e05c486b4b70e46c2e403" category="list-text">이 절차는 모든 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 구성됩니다.</block>
   <block id="0c58f83d7ef25b7c494eb992b66728c1" category="list-text">이 절차는 중단을 따릅니다. 2노드 클러스터의 경우, 다중 노드 클러스터의 서비스 중단이 완전히 완료되고 부분 중단이 발생할 것입니다.</block>
   <block id="cf55af4b4668a579d36bfd91785ecbec" category="summary">NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다.</block>
-  <block id="130b18edff1b7e2377d35d657b1f8a53" category="list-text">손상된 노드가 LOADER 프롬프트에 있지 않은 경우:</block>
-  <block id="0b56478c906127f53acd028bea14e248" category="cell">장애가 있는 노드에 다음 메시지가 표시되는 경우:</block>
-  <block id="2fbc9f3babe8926d05354b5d3a0f06d4" category="paragraph">'+반환 대기 중...+'</block>
-  <block id="73d21b6023874255fc8bc704f7454d7e" category="paragraph">정상적인 노드에서 손상된 노드 'storage failover -ofnode impaired_node_name'을 인수하거나 중지합니다</block>
   <block id="ff979fc0a0ab041b0436a8d7243aa05b" category="list-text">LOADER 프롬프트에서 'printenv'를 입력하여 모든 부트 환경 변수를 캡처합니다. 로그 파일에 출력을 저장합니다.</block>
   <block id="61e0109e9abc6d9e0e9d957157c4a657" category="admonition">이 명령은 부팅 장치가 손상되었거나 작동하지 않는 경우 작동하지 않을 수 있습니다.</block>
   <block id="e4deab2919ae4ce97668d5271fe4fc29" category="summary">손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오.</block>
@@ -790,19 +747,12 @@
   <block id="d16a6d885a49e24963af22e9c871828d" category="list-text">부팅 메뉴에서 유지 관리 모드 옵션을 선택합니다.</block>
   <block id="596bcca65aca56bacb3df39265f83dfb" category="summary">섀시를 교체하려면 컨트롤러를 종료해야 합니다.</block>
   <block id="fc3fc335fe3d498e24675e2eff27cd4f" category="doc">컨트롤러 종료 - AFF C190</block>
-  <block id="45bd0f10632b3d357d0e53299710ca0c" category="paragraph">새 섀시로 노드를 이동하기 전에 섀시의 노드 또는 노드를 종료해야 합니다.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
-  <block id="7c13f4f3a84cec8b802281259883339c" category="list-text">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대한 "거짓"이 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="1baf9f7ecc4554f61d6168e4897ea002" category="inline-link-macro-rx"></block>.</block>
   <block id="880c0610027a11af7086ae7e380e12e5" category="list-text">시스템에 2개의 컨트롤러 모듈이 있는 경우 HA 쌍을 비활성화합니다.</block>
   <block id="d426a3f5c9c0e3362f4ed536e7643c03" category="cell">시스템에서 clustered ONTAP을 실행하는 경우...</block>
-  <block id="a605680e828f9a13dc5c8773f7f16c59" category="paragraph">클러스터 내 2개 노드</block>
   <block id="8d6f30824233e0351fc71f18fbb5c436" category="paragraph">클러스터 ha 수정 설정 false 스토리지 장애 복구 수정 노드 Node0 설정 false</block>
-  <block id="4252cc22782c7895d045823c51f6d877" category="paragraph">클러스터에 2개 이상의 노드가 있습니다</block>
   <block id="b2aa61dcee4d7b77fcd001973469ddde" category="paragraph">'Storage failover modify -node Node0 -enabled false'</block>
-  <block id="8cb7716be47a4efa4afe82c12815cb79" category="list-text">노드를 정지시키고 'system node halt-node_node_name_'을(를) 확인하라는 메시지가 나타나면 'y'를 누릅니다</block>
   <block id="481250f3e8ec41b0e994305d8fc52b4a" category="paragraph">확인 메시지는 다음과 같습니다.</block>
-  <block id="152f3adf69bffe0bb0658bb05364f89b" category="admonition">비휘발성 메모리(NVMEM/NVRAM)에서 기록되지 않은 데이터가 손실되지 않도록 섀시를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. 시스템에 따라 NVMEM/NVRAM LED가 깜박이면 NVMEM/NVRAM에 디스크에 저장되지 않은 콘텐츠가 있습니다. 노드를 재부팅하고 이 절차의 처음부터 시작해야 합니다. 노드를 완전히 종료하려고 반복적으로 시도하는 경우, 디스크에 저장되지 않은 데이터가 손실될 수 있습니다.</block>
-  <block id="842cdd4dec84e54705b2d07255fbd559" category="list-text">해당되는 경우 HA 쌍 구성에서 쿼럼 오류 메시지가 발생하지 않도록 두 번째 노드를 중단합니다. 'system node halt-node_second_node_name_-ignore-quorum-warnings true-skip-lif-migration-before-shutdown true'</block>
   <block id="7da65b5a10b69b45b490009ac07696ff" category="paragraph">메시지가 나타나면 y를 선택합니다.</block>
   <block id="d5bfba1ac511ef4b8b0fcb489bdaf25b" category="summary">환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.</block>
   <block id="c8ba643914db1664b5eb486f2f97cf94" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C190</block>
@@ -811,12 +761,9 @@
   <block id="062e5198807f7350b9d909ed3712446f" category="list-text">NSE 또는 NVE가 활성화되고 온보드 키 관리자가 활성화된 경우 로 이동합니다 <block ref="33a171c6b2b99214dd0e88721c37d6a3" category="inline-xref-macro-rx"></block>.</block>
   <block id="ab86e173cd8c1637bf2f46855c4a5445" category="list-text">NSE 또는 NVE가 ONTAP 9.6에 대해 활성화된 경우 로 이동합니다 <block ref="562d430b0be788e16727b0e1ac85777d" category="inline-xref-macro-rx"></block>.</block>
   <block id="8ec39994b3f9e646dc5702b80aa074eb" category="section-title">Onboard Key Manager가 활성화된 경우 NVE 또는 NSE를 복원합니다</block>
-  <block id="cb8bd5f8b409f772feeb282be5c812fd" category="list-text">콘솔 케이블을 타겟 노드에 연결합니다.</block>
-  <block id="09c59b704f34eb3d4a2fd7d67e831c1b" category="list-text">LOADER 프롬프트에서 boot_ONTAP 명령을 사용하여 노드를 부팅합니다.</block>
   <block id="9031c37a40e72ae548a2065bf45f23a8" category="list-text">콘솔 출력을 확인합니다.</block>
   <block id="48bb654d023280bd32c893baf085bc9c" category="cell">* 콘솔이 표시되는 경우... *</block>
   <block id="5868efbae90f2f86a5ed062e24cabc9d" category="cell">그 다음에... *</block>
-  <block id="ee576c01fd9d6961677d0a6255745ad9" category="paragraph">노드를 부팅 메뉴(boot_ontap menu)로 부팅합니다</block>
   <block id="c6ad4048580181b0fbf4e191b6491baa" category="paragraph">반환 대기 중</block>
   <block id="c970b4d58ed065781ff23330890becaf" category="list-text">프롬프트에 Ctrl-C를 입력합니다</block>
   <block id="349f344b4475008476c2c7c47e12e197" category="list-text">메시지: Do you wish to halt this node than wait [y/n]? y를 입력합니다</block>
@@ -830,7 +777,6 @@
   <block id="f24608ce23f83ac6c7240ac03d83765f" category="paragraph">------------------------------------------------- 엔드 백업 ------------------------</block>
   <block id="4c01cfbecac579c81f79ea4297891a2e" category="list-text">부팅 메뉴에서 Normal Boot 옵션을 선택합니다.</block>
   <block id="18b0469d01c1aab8ffb650afc5ac6e1b" category="paragraph">시스템이 반환 대기 중... 프롬프트로 부팅됩니다.</block>
-  <block id="0cf794b2318cb3589aa41f583b7e7d8d" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 "admin"으로 로그인합니다.</block>
   <block id="aec87d8b58ad2257f437b0c97adc8c43" category="list-text">'Storage failover 반환 - fromnode local - only-CFO -aggregate true' 명령을 사용하여 CFO만 반환하십시오.</block>
   <block id="8179ceedf2aad3a2fafb48feb6a32bdb" category="list-text">디스크에 오류가 발생하여 명령이 실패하면 장애가 발생한 디스크를 물리적으로 분리하되, 교체 디스크를 받을 때까지 디스크를 슬롯에 그대로 둡니다.</block>
   <block id="f872779437b4e53b16edbb822fb3c0f4" category="list-text">CIFS 세션이 열려 있어 명령이 실패한 경우 고객에게 CIFS 세션을 닫는 방법을 확인하십시오.</block>
@@ -839,22 +785,16 @@
   <block id="4de9d59eeee5e688ec5317cbedf4cac0" category="list-text">NDMP, SnapMirror 또는 SnapVault 프로세스로 인해 명령이 실패하면 프로세스를 해제합니다. 자세한 내용은 해당 문서 센터를 참조하십시오.</block>
   <block id="eab386a3f0ee69cc95b939175ad1da27" category="list-text">반환이 완료되면 'storage failover show' 및 'storage failover show-반환' 명령을 사용하여 페일오버 및 반환 상태를 확인하십시오.</block>
   <block id="579b0712f3b828fdc4e9020e1b1bf320" category="paragraph">CFO 애그리게이트(루트 애그리게이트 및 CFO 스타일 데이터 애그리게이트)만 표시됩니다.</block>
-  <block id="03420b7b4e934ac951aeff951893fc22" category="list-text">콘솔 케이블을 타겟 노드로 이동합니다.</block>
   <block id="be2212e27f9b1a451164ead27dee26c8" category="list-text">ONTAP 9.6 이상을 실행 중인 경우 보안 키 관리자 온보드 동기화를 실행합니다.</block>
   <block id="94f8d95799ad1cb87cd8f02b76a24ddb" category="list-text">Security key-manager 온보드 sync 명령을 실행한 다음 메시지가 나타나면 암호를 입력합니다.</block>
   <block id="7efe0ba3bdb03965520de5d493cb1efa" category="list-text">'Security key-manager key query' 명령어를 입력하여 Onboard Key Manager에 저장된 모든 키의 상세 보기를 확인하고 모든 인증 키의 'restored' column = yes/true인지 확인한다.</block>
   <block id="36ec6aaaed7ffba8db1abf0b30f8ad7e" category="admonition">'restored(복원됨)' 열이 Yes/true(예/참) 이외의 경우 고객 지원 센터에 문의하십시오.</block>
   <block id="0b5a2bb237981cd334295abf32e335c5" category="list-text">키가 클러스터 전체에서 동기화될 때까지 10분 정도 기다립니다.</block>
-  <block id="da4a2b9c52e805a46a6951e79d1796d9" category="list-text">콘솔 케이블을 파트너 노드로 이동합니다.</block>
-  <block id="da4a3c359cf5d24082930f89cd19b3fc" category="list-text">'storage failover -fromnode local' 명령을 사용하여 타겟 노드를 다시 지정합니다.</block>
   <block id="f1f2858d6d4ebbd18bf81861cde4a024" category="list-text">'storage failover show' 명령을 사용하여 완료 후 3분 동안 반환 상태를 확인하십시오.</block>
   <block id="c7db1a1f0c259cdde0a5d94486a50eab" category="paragraph">20분 후 기브백이 완료되지 않으면 고객 지원 팀에 문의하십시오.</block>
-  <block id="a23d49d00b003ec7514a6fcf51f93bac" category="list-text">클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.</block>
   <block id="6b74e1ea2b206c2676c7c5e7a08d32f1" category="paragraph">만약 어떤 인터페이스가 false로 나열된다면, net int revert 명령을 사용하여 그 인터페이스를 홈 포트로 되돌리십시오.</block>
-  <block id="80d6c51420c97a5fd468a280127498fe" category="list-text">콘솔 케이블을 대상 노드로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인한다.</block>
   <block id="c21bd0aede10c854ba134924f61e7b69" category="section-title">ONTAP 9.6 이상을 실행하는 시스템에서 NSE/NVE를 복원합니다</block>
   <block id="9a937b3bb3ba6ff155022c69722c1b2d" category="paragraph">7단계로 이동합니다.</block>
-  <block id="809f0d7cd6f78909c00532d70262031d" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 노드 스토리지를 다시 제공합니다.</block>
   <block id="aa633ff512f47818b432e9d473f72e85" category="list-text">3분 정도 기다린 후 'storage failover show' 명령으로 페일오버 상태를 확인한다.</block>
   <block id="05b88caec4b40ec70bfc6914f6b9a2ac" category="list-text">클러스터 셸 프롬프트에서 '스토리지 암호화 디스크 표시'를 사용하여 출력을 검토합니다.</block>
   <block id="847e5cb0171189006a180b0bdc820c1d" category="list-text">보안 키-관리자 키 쿼리 명령을 사용하여 키 관리 서버에 저장된 인증 키의 키 ID를 표시합니다.</block>
@@ -901,7 +841,6 @@
   <block id="fae7015efc6e23d7bb922c3def6ec70a" category="list-text">설정이 변경되었는지 확인합니다. ha-config show</block>
   <block id="1849818d0241de213ff605d4ee0f2ee4" category="section-title">3단계: 시스템 수준 진단 프로그램을 실행합니다</block>
   <block id="818926e42f71dd8ff694f6de111b2eb4" category="paragraph">컨트롤러를 교체할 때마다 특정 구성 요소와 하위 시스템에 대해 종합적이거나 집중적인 진단 테스트를 실행해야 합니다.</block>
-  <block id="903ad4ced24fc25dd69a11e17dd6ac00" category="list-text">서비스될 노드가 LOADER 프롬프트에 있지 않은 경우 노드를 재부팅합니다.</block>
   <block id="81120d9f26288d75b43fa9389447301a" category="paragraph">부팅 프로세스 중에 유지보수 모드 프롬프트(*&gt;)가 나타날 때까지 프롬프트에 "* y*"를 안전하게 응답할 수 있습니다.</block>
   <block id="c9dc8029f1ea83b5f228f69e5cd6b390" category="list-text">컨트롤러 모듈에서 사용 가능한 장치를 표시하고 기록합니다.</block>
   <block id="f80a3cd3b85434b46084198ab45c8206" category="paragraph">'* sldiag device show-dev MB * '</block>
@@ -938,7 +877,6 @@
   <block id="7c3d4bf83f0ceda0dbed47b8b357a0d9" category="list-text">모든 장치에서 진단 유틸리티를 실행합니다.</block>
   <block id="c05451d6d9cf9f407c09f91a088ac7ca" category="paragraph">'* 슬diag 장치 실행'*</block>
   <block id="f701e26d56fb0ec3c0d9ba7763e2891c" category="admonition">진단 프로그램을 실행한 후에는 항목을 추가하거나 수정하지 마십시오.</block>
-  <block id="a96498340af01d003737eedaa3c5a2bf" category="list-text">노드에 하드웨어 문제가 없는지 확인합니다.</block>
   <block id="52cc19f0b40712640b9045caa499f77b" category="paragraph">'* sldiag 장치 상태 - long-state 실패 *</block>
   <block id="c96ba587407b7de20ae8f5750c50673c" category="summary">ONTAP가 아직 실행되지 않거나 시스템에 케이블로 연결되기 전에 쉘프를 핫 추가할 때 시스템의 쉘프 ID를 변경할 수 있습니다. ONTAP가 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음) 쉘프 ID를 변경할 수도 있고, 쉘프의 모든 드라이브가 소유되지 않은 상태, 스페어 또는 오프라인 애그리게이트의 일부일 때도 변경할 수 있습니다.</block>
   <block id="dad70355d3eedda1dd51d44624779698" category="doc">IOM12 모듈을 사용하여 쉘프 ID-쉘프 변경</block>
@@ -2238,7 +2176,6 @@
   <block id="a7e949b06c0a14c96761a482fe850048" category="paragraph">팬이 장착되고 작동 속도로 회전된 후에는 주의 LED가 켜지지 않아야 합니다.</block>
   <block id="a68640e1a8327483a05357786458150b" category="list-text">베젤을 볼 스터드에 맞춘 다음 베젤을 볼 스터드에 부드럽게 밀어 넣습니다.</block>
   <block id="bff69c64ca9124fefc1120a9526e1c86" category="doc">실시간 시계 배터리 교체 - AFF A320</block>
-  <block id="ce7f39a5b75c204d01ca7d8fab45334e" category="section-title">1단계: 노드를 종료합니다</block>
   <block id="c7e602fe7db61b23799d51454d70f0cd" category="section-title">옵션 1: 대부분의 구성</block>
   <block id="bd8eb6c12d8928906b264ff9daf7b9e7" category="section-title">옵션 2: 컨트롤러가 MetroCluster에 있습니다</block>
   <block id="b3ead59e066683fe0070a3107e660906" category="admonition">시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.</block>
@@ -2314,7 +2251,6 @@
   <block id="de13eae43e74bcedacee29c89051ee54" category="list-text">이 절차는 컨트롤러 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 구성됩니다.</block>
   <block id="3e39936f936e4834cc06a63b1868d4c5" category="summary">시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
   <block id="72e762fb9ea8e85f3b69ae72fd4dc171" category="doc">NVDIMM-AFF A320을 교체합니다</block>
-  <block id="565389f36084e305bd7e2e90f9c2a19d" category="section-title">옵션 1: 노드를 종료합니다</block>
   <block id="77fba3b2bed380ff997267e3badf202e" category="image-alt">A320 drw 케이블 관리 암</block>
   <block id="00a491f6ddc82f254e9e3fa6711c8a44" category="section-title">3단계: NVDIMM을 교체합니다</block>
   <block id="7ccf04d2fd9b25a78287b4db5e34e7d6" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 찾을 수도 있고 NVDIMM 옆의 LED를 사용하여 찾을 수도 있습니다. 그런 다음 특정 순서에 따라 교체해야 합니다.</block>
@@ -2443,7 +2379,6 @@
   <block id="1746bc42c6a0bcc08b35a19a88025470" category="inline-link">드라이브 쉘프 ID 설정</block>
   <block id="91b9dae90e904c2901e5a02752e081c0" category="paragraph"><block ref="91b9dae90e904c2901e5a02752e081c0" category="inline-link-rx"></block></block>
   <block id="58599a78c7345fe9e241e0a8a135d733" category="list-text">NetApp ONTAP 구성 가이드 _ 에서 수집한 데이터를 사용하여 시스템을 구성합니다.</block>
-  <block id="62bbf44c561b37677a0688281d60958e" category="list-text">정상 노드는 교체되는 노드를 인수할 수 있어야 합니다("손상된 노드"라고 함).</block>
   <block id="82bbfcee09add33fd33001d4761a8949" category="inline-link">올바른 복구 절차 선택</block>
   <block id="07915727e4f5cb3e1172a8852c17c2bb" category="list-text">시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다<block ref="dbcae02c495cc3db61b37ce85396171e" category="inline-link-rx"></block> 이 절차를 사용해야 하는지 여부를 확인합니다.</block>
   <block id="3a23955ad584199d013caf86411a3e19" category="paragraph">이 절차를 사용해야 하는 경우 4 또는 8노드 MetroCluster 구성의 노드에 대한 컨트롤러 교체 절차는 HA 쌍 구성과 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.</block>
@@ -2684,15 +2619,10 @@
   <block id="26d09b9ba8933f73cf8d88ec306034f4" category="list-text">캠 핸들을 돌려 전원 공급 장치와 수평이 되도록 합니다.</block>
   <block id="0a3c10475b565c5c41bceed53441082c" category="doc">NVMEM 배터리 - FAS8200을 교체합니다</block>
   <block id="686631a3f808d481cbff656f883e6657" category="section-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
-  <block id="4d279a0ab2cc0186322c5c93efdc2057" category="paragraph">손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드 간에 전환해야 합니다.</block>
   <block id="063a6c27f42a062a6ece0163f4444fc3" category="list-text">NetApp Storage Encryption을 사용하는 경우 의 "FIPS 드라이브 또는 SED를 보호되지 않는 모드로 되돌리기" 섹션의 지침에 따라 MSID를 재설정해야 합니다 <block ref="bb6c6af86c0c41920e9753bb15981800" category="inline-link-macro-rx"></block>.</block>
-  <block id="4b0734b8f2c30a70467894b0f3e7baf2" category="list-text">정상 노드에 전원을 공급하려면 이 절차의 마지막에 전원 공급 장치를 켜 두어야 합니다.</block>
-  <block id="a504e6d60b77acc66d4d4e9b46f8893a" category="list-text">장애가 발생한 노드가 정상 노드인 'MetroCluster show'로 자동 전환되었는지 확인하려면 MetroCluster 상태를 확인하십시오</block>
   <block id="a4d3e0e884bda08238ebcf294cd22173" category="list-text">자동 절체가 발생했는지 여부에 따라 다음 표에 따라 진행합니다.</block>
-  <block id="72a6b0593195cf1c4747031ea9a4b6ce" category="cell">장애가 있는 노드가...</block>
   <block id="3bb6bfde9e3647655849196d4817633d" category="paragraph">가 자동으로 전환되었습니다</block>
   <block id="223bed434b435ef97172b24efc947bc4" category="paragraph">가 자동으로 전환되지 않았습니다</block>
-  <block id="5d270126365d2a58fbcc7add688fa3a1" category="paragraph">정상 노드인 MetroCluster Switchover에서 계획된 절체 작업을 수행한다</block>
   <block id="284c5fffd88c543f295f7e4d82a51c93" category="paragraph">가 자동으로 전환되지 않고, 'MetroCluster switchover' 명령으로 전환을 시도했으며, 스위치오버가 거부되었습니다</block>
   <block id="da1a32de06ff316b64e2e238f6a533d7" category="paragraph">거부권 메시지를 검토하고 가능한 경우 문제를 해결한 후 다시 시도하십시오. 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십시오.</block>
   <block id="68e094bfa509e0c8a036a923f747b4cb" category="list-text">정상적인 클러스터에서 'MetroCluster 환원 단계 집계' 명령을 실행하여 데이터 애그리게이트를 재동기화합니다.</block>
@@ -2760,7 +2690,6 @@
   <block id="40445df40d6d89bcbb7a04cfa01ad049" category="paragraph">로더 프롬프트에서 시스템이 부팅되고 중지됩니다.</block>
   <block id="adc2b16ccdc84e4c86c816c36e52800a" category="list-text">LOADER 프롬프트에서 네트워크 연결 유형을 설정합니다.</block>
   <block id="c70c6056ae23579028362bde426e3877" category="list-text">DHCP:'ifconfig e0a-auto'를 구성하는 경우</block>
-  <block id="890a5db496d99a96f099de944c9791c0" category="admonition">구성하는 타겟 포트는 네트워크 연결을 통한 var 파일 시스템 복원 중에 정상 노드의 손상된 노드와 통신하는 데 사용하는 타겟 포트입니다. 이 명령에서 e0M 포트를 사용할 수도 있습니다.</block>
   <block id="c754db7b7be7a3848e6afdf6a1d4ef73" category="list-text">수동 연결을 구성하는 경우: 'ifconfig e0a-addr=filer_addr-mask=netmask-GW=gateway-dns=dns_addr-domain=dns_domain'</block>
   <block id="f3700920f467a00b8bc7a997e5ca02f8" category="list-text">filer_addr은 스토리지 시스템의 IP 주소입니다.</block>
   <block id="f5eaffd1f9397c8558b144847401dddd" category="list-text">넷마스크는 HA 파트너에 연결된 관리 네트워크의 네트워크 마스크입니다.</block>
@@ -2779,7 +2708,6 @@
   <block id="db4ac51eac732409ebf4cfe43b3fb873" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 구성에 맞는 절차를 사용해야 합니다.</block>
   <block id="f17087a04e743f4a2bf4548df3debabf" category="section-title">옵션 1: HA 시스템의 시스템 ID 변경을 확인합니다</block>
   <block id="333272d8be912f27b67264ccba42967d" category="paragraph">replacement_node를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
-  <block id="f14e5f22bf7ba96b4c82cde849259a00" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면, _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 "y"를 입력합니다. 부트 ONTAP</block>
   <block id="f3d373f54eb86985beb0d9cfa19a08a0" category="list-text">반환 명령을 실행하기 전에 'avecore' 명령이 완료될 때까지 기다리십시오.</block>
   <block id="01c7f5871dd965cb03f77372fa85988e" category="paragraph">다음 명령을 입력하여 'avecore' 명령의 진행 상태를 모니터링할 수 있습니다. 'system node run-node_local-node-name_partner savecore -s'</block>
   <block id="85bc9a2ff1d36a25fb41483aa2487fc2" category="section-title">옵션 2: 2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다</block>
@@ -2840,13 +2768,11 @@
   <block id="aa521da96dc945760af3b34e7fea2976" category="list-text">새로 설치한 소프트웨어를 사용하려면 재부팅하라는 메시지가 나타나면 'y'를 누릅니다.</block>
   <block id="efc7175af6300db117863f531478bcc3" category="paragraph">프롬프트가 표시되면 부팅 프로세스를 중단할 준비가 된 것입니다.</block>
   <block id="c595dd0ea33c39b338c0252c4c0b7806" category="list-text">시스템이 부팅될 때 Press Ctrl-C for Boot Menu 메시지가 나타나면 Ctrl-C를 누르고 Boot Menu가 표시되면 옵션 6을 선택합니다.</block>
-  <block id="51d6de730b00c1cd722a3e380f269e57" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다.</block>
   <block id="8fb7c0d18e37c8de5e116edeb31b30b1" category="section-title">옵션 2: 컨트롤러가 MetroCluster 구성에 있습니다</block>
   <block id="f6706fbf02796cde0f95e3aa80e2a592" category="section-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
   <block id="e1782167c4ccac91c29c561fbdf9bd10" category="summary">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. PDF 포스터는 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="0336dcab6aaf6e0e6b3e580f2e159ad5" category="doc">설치 및 설정 PDF 포스터 - FAS8200</block>
   <block id="345a2a62ce004a5b297819af054c9777" category="inline-link-macro">AFF FAS8200 설치 및 설정 지침</block>
-  <block id="e5a1c9478e22eed2b8ae96009afe24a1" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="72822038b68cdd9969cf7e86feb8bbff" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="34aec6eeba64b78b33ad52ec1e1cd899" category="summary">스토리지 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="9d1976464339a2dc5b681ea4cacc276d" category="doc">FAS8200 시스템 설명서</block>
   <block id="d555d8d5b180690f03f434585c90b8d9" category="section-title">1단계: 컨트롤러 모듈을 엽니다</block>
@@ -2888,7 +2814,6 @@
   <block id="f9ad44620c55ffa0395a914006e636cf" category="list-text">전원 공급 장치와 전원에 전원 케이블을 다시 연결하고 전원을 켜서 부팅 프로세스를 시작한 다음 Ctrl-C를 누릅니다. 부팅 메뉴에 Ctrl-C를 누릅니다. 메시지가 나타나면 Ctrl-C를 누릅니다.</block>
   <block id="ce412027e710a9d744a414178dca4fc9" category="paragraph">* 중요: * 부팅 프로세스 중에 다음과 같은 메시지가 표시될 수 있습니다.</block>
   <block id="e742eb9c2d018e1c3855d10b4906368d" category="doc">부팅 미디어 - FAS8200을 교체합니다</block>
-  <block id="20addf17550ae6e814bef2a079f3f96a" category="list-text"><block ref="20addf17550ae6e814bef2a079f3f96a" category="inline-link-macro-rx"></block></block>
   <block id="ddd1a9511bc4cec117e8b939fbe7f2cc" category="list-text"><block ref="ddd1a9511bc4cec117e8b939fbe7f2cc" category="inline-link-macro-rx"></block></block>
   <block id="cfe676549c53e52dc611f1610a8ef495" category="paragraph">MetroCluster 구성의 경우 다음 중 하나를 참조하십시오.</block>
   <block id="b232e9ef89b4f98b36e1c295adeb4a63" category="inline-link">MetroCluster IP 구성을 설치합니다</block>
@@ -2906,19 +2831,14 @@
   <block id="b8de97ae165328c5556a757624e37f03" category="section-title">6단계(2노드 MetroCluster만 해당): 애그리게이트로 전환</block>
   <block id="9f3fe6619f3cc21d2cc057e260c9a3ae" category="doc">손상된 컨트롤러 - FAS8200을 종료합니다</block>
   <block id="244b874016608f71c1442226368f5da8" category="list-text">AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=_number_of_hours_down_h' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</block>
-  <block id="2eea170e7de15002c353944160886c8d" category="list-text">손상된 노드가 HA 쌍의 일부인 경우 정상 노드의 콘솔에서 'Storage failover modify -node local -auto-반환 false'를 자동 반환하도록 해제합니다</block>
   <block id="2c605d107b8b0f8d344d6c863e4c47a9" category="paragraph">Ctrl+C를 누른 다음 y를 누릅니다.</block>
-  <block id="ba70fdaa734ba4fd788cb6febeb14209" category="paragraph">장애가 발생한 노드가 반환 대기 중인 것으로 나타나면 노드 장애 조치 takeover-ofnode_impaired_node_name_'을 인계하거나 중지하고 Ctrl+C를 누른 다음 "y"를 응답합니다.</block>
   <block id="2cbabd3028fd0cb6f4a57144ace2ee33" category="list-text">시스템이 FlexArray 시스템이거나 V_StorageAttach 라이센스가 있는 경우 이 절차를 수행하기 전에 필요한 추가 단계를 참조해야 합니다.</block>
   <block id="18286caf45baac43fedf94bfeaff35fa" category="list-text">기존 컨트롤러 모듈에서 새 컨트롤러 모듈로 또는 기존 고객 사이트 인벤토리에서 추가된 PCIe 카드는 교체 컨트롤러 모듈에서 지원해야 합니다.</block>
   <block id="ce895c4f6ee583d1352aa92ca42a2e7a" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="814a166e20bd32e0eb4f111e2d255525" category="inline-xref-macro-rx"></block>.</block>
   <block id="3bdbfc08b67b8b5c267819cc7ef67535" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="9431a288e6ce7a6d88bc6ae31dccd0f0" category="inline-xref-macro-rx"></block>.</block>
   <block id="598fddf79c16170c6db6427cdff14daa" category="section-title">옵션 1: ONTAP 9.5 이전 버전을 실행 중인 시스템에서 NVE 또는 NSE를 확인합니다</block>
-  <block id="ea9becc3cf634d16e6469abd6d240c49" category="paragraph">손상된 노드를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
-  <block id="624bedc07a82079383ebddb8e1d17e03" category="list-text">콘솔 케이블을 손상된 노드에 연결합니다.</block>
   <block id="b227d8958eb504b6da0a08172b4222db" category="list-text">클러스터의 모든 볼륨에 대해 NVE가 구성되어 있는지 'volume show-is-encrypted true'인지 확인합니다</block>
   <block id="68e27ac90c8755079206639397a6abfe" category="list-text">NSE 설정 여부:'Storage encryption disk show'</block>
-  <block id="2c3101fc6b218cfb1515e6df7981ff27" category="list-text">복원된 열에 예 가 표시되고 모든 키 관리자가 사용 가능 을 표시하면 손상된 노드를 안전하게 종료할 수 있습니다.</block>
   <block id="6c2aeadd2a92753dd1f137a6c7068dc8" category="list-text">'복원된' 열에 '예'가 아닌 다른 열이 표시되거나 키 관리자가 '사용할 수 없음'을 표시하면 몇 가지 추가 단계를 완료해야 합니다.</block>
   <block id="ff31b8e8c86ed558e88ec6430564b19a" category="list-text">온보드 키 관리가 활성화된 경우 이 명령은 지원되지 않습니다 라는 메시지가 표시되면 다른 몇 가지 추가 단계를 완료해야 합니다.</block>
   <block id="fdf5e8b8acf351dcc2fa5bbdd1ba8957" category="list-text">'restored' 칼럼이 'yes' 이외의 다른 것을 표시하거나 키 관리자가 'unavailable'을 표시한 경우:</block>
@@ -2931,7 +2851,6 @@
   <block id="24220f32b44e782b90a7317dc26ed7aa" category="list-text">키 관리자 설정 마법사 '보안 키 관리자 설정 노드 대상/손상된 노드 이름'을 실행합니다</block>
   <block id="eaa3e7284bb9122bca13b95d6cc59ef1" category="admonition">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 에 문의하십시오<block ref="7bc6752d2076d2c755eaebbdfeb91d23" category="inline-link-rx"></block></block>
   <block id="e09a2f79fa1a4d59c75a72c0eaf5b34c" category="list-text">모든 인증 키에 대해 복원됨 열에 예(yes)가 표시되는지 확인합니다. 보안 키 관리자 키 show-detail입니다</block>
-  <block id="d518426b6d79ce1aa6dcf60eb5c6300b" category="list-text">노드를 안전하게 종료할 수 있습니다.</block>
   <block id="1adea8aec2ec00910dfbe0bb9bffce8e" category="list-text">온보드 키 관리가 활성화된 경우 이 명령은 지원되지 않습니다 라는 메시지가 표시되면 다른 몇 가지 추가 단계를 완료해야 합니다</block>
   <block id="4111f4985df04f9002129e591bafb45f" category="list-text">복원된 열에 예 가 표시되면 온보드 키 관리 정보를 수동으로 백업합니다.</block>
   <block id="dd987c60871b23529ac187b4b51deed6" category="admonition">프롬프트에 고객의 OKM 암호를 입력합니다. 암호를 제공할 수 없는 경우 에 문의하십시오<block ref="7bc6752d2076d2c755eaebbdfeb91d23" category="inline-link-rx"></block></block>
@@ -3018,7 +2937,6 @@
   <block id="78f75f00d9872e8e3abcdad7ee860f3e" category="list-text">부팅 메뉴에서 숨겨진 명령 recover_onboard_keymanager를 입력하고 프롬프트에 y를 입력합니다.</block>
   <block id="d06f1c2732b47c32b1afcd433f48af20" category="list-text">백업 데이터를 입력하라는 메시지가 나타나면 이 절차의 시작 부분에서 캡처한 백업 데이터를 붙여 넣습니다. Security key-manager backup show 또는 security key-manager 온보드 show-backup 명령의 출력을 붙여 넣는다.</block>
   <block id="a7af9d05a3f737ccfcf08da76a941833" category="paragraph">시스템이 '기브백을 기다리는 중...' 프롬프트로 부팅됩니다.</block>
-  <block id="0e07e0b2fec57655fd382f0ae9e97ae0" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 admin으로 로그인합니다.</block>
   <block id="1f30f9701a096430ddea174eb406dce3" category="list-text">fromnode local-only-CFO-aggregate true" 명령을 사용하여 스토리지 페일오버 기브백을 가진 CFO 애그리게이트만 돌려주십시오.</block>
   <block id="cb941ddf6eb69b4ddc86e6b07a005e30" category="list-text">CIFS 세션이 열려 있어 명령이 실패한 경우 CIFS 세션을 닫는 방법에 대해 고객에게 확인하십시오.</block>
   <block id="b52ec9545c2eb85c1596e99bc30ce43d" category="list-text">파트너가 "준비되지 않음" 상태로 인해 명령이 실패하면, NVMEM이 동기화될 때까지 5분 동안 기다립니다.</block>
@@ -3028,7 +2946,6 @@
   <block id="cf63f70b7dc6ead2d083c12ded486fe3" category="admonition">'복원된' 열이 '예'가 아닌 경우 고객 지원 센터에 문의하십시오.</block>
   <block id="17b949ad3f0aee5e0f32cb49f51f6f3d" category="list-text">ONTAP 9.6 이상을 실행 중인 경우:</block>
   <block id="49c84012756b1d43065ffef96acd5bf9" category="section-title">옵션 2: ONTAP 9.5 이전 버전을 실행 중인 시스템에서 NSE/NVE를 복원합니다</block>
-  <block id="97f5759431a55ef08f0e866dace247f7" category="list-text">콘솔 케이블을 타겟 노드로 이동하고 버전 '-v 명령'을 실행하여 ONTAP 버전을 확인합니다.</block>
   <block id="334778235b226e6b9a2fa7bdae194a55" category="admonition">NVE(NetApp Volume Encryption)가 구성된 경우 이 명령이 작동하지 않습니다</block>
   <block id="86f0dc416f631fdf25bde8175a84c56b" category="list-text">보안 키 관리자 쿼리를 사용하여 키 관리 서버에 저장된 인증 키의 키 ID를 표시합니다.</block>
   <block id="45039b8f247c5c5af62e9b5aa63f488d" category="list-text">'restored' 열 = 'yes'이고 모든 주요 관리자가 사용 가능한 상태로 보고하는 경우, _ 로 이동하여 교체 프로세스를 완료합니다.</block>
@@ -3062,7 +2979,6 @@
   <block id="ec2f589bb209f983546d21f6ab53d160" category="doc">2노드 MetroCluster 구성 - FAS8200에서 애그리게이트를 다시 전환합니다</block>
   <block id="38681c139b912b74e9f2c478df5e20c0" category="summary">시스템에서 NVRAM 배터리를 교체하려면 컨트롤러 모듈을 시스템에서 분리하고 배터리를 분리한 다음 배터리를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다.</block>
   <block id="ddb14ada2ef97be8ad7f40139160426e" category="doc">NVRAM 배터리 교체 - AFF A700s</block>
-  <block id="0e271d5aca1b3353fc680f14e84bc418" category="section-title">손상된 노드를 종료합니다</block>
   <block id="26e38d31d368fa344a653ab87cee79bb" category="section-title">컨트롤러 모듈을 분리합니다</block>
   <block id="ea199306c38c35706c03077ded4d9d02" category="paragraph">컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.</block>
   <block id="22969388a58653a9ab4e9f8f503beb09" category="list-text">전원에서 컨트롤러 모듈 전원 공급 장치를 분리한 다음 전원 공급 장치에서 케이블을 뽑습니다.</block>
@@ -3161,7 +3077,6 @@
   <block id="e640ac5f7f5b30fe8c1918548c6df741" category="paragraph">이미지는 보조 부팅 미디어에서 다운로드됩니다.</block>
   <block id="1a688134d3c3170545e61ebc16a95fe8" category="list-text">백업 절차가 성공했는지 확인하는 메시지가 나타나면 'y'를 누릅니다.</block>
   <block id="bc8660c5f3569dff11062aab0e8487d1" category="list-text">구성 동기화가 오류 없이 완료된 후 백업 절차가 성공했는지 확인하는 메시지가 나타나면 y를 누릅니다.</block>
-  <block id="2f735eb9275a1a5467132ade67e42f08" category="list-text">복구된 복제본을 사용할지 묻는 메시지가 표시되면 y를 누른 다음 노드를 재부팅할지 묻는 메시지가 표시되면 y를 누릅니다.</block>
   <block id="77fa1d2fec9c705a79b5ec4300599706" category="section-title">옵션 2: USB 플래시 드라이브를 사용하여 부팅 이미지를 부팅 미디어로 전송합니다</block>
   <block id="c2a9feacea3374ba5c6052aaa36c24d5" category="list-text">'Storage failover modify' 명령을 사용하여 사용하지 않도록 설정한 경우 자동 반환 복구</block>
   <block id="71579293cd0dc4c10d7d09bfc05b43aa" category="doc">컨트롤러 모듈 AFF A700s를 다시 설치합니다</block>
@@ -3170,7 +3085,6 @@
   <block id="b4ddf9d759f084ba25e7c363dcfcd65e" category="paragraph"><block ref="b4ddf9d759f084ba25e7c363dcfcd65e" category="inline-link-macro-rx"></block></block>
   <block id="08b1c3ca7a11560dc5469640d0575de2" category="summary">AFF A700s 시스템 설명서를 사용하면 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="12fa8b293937af24714101545edb706a" category="doc">AFF A700s 시스템 설명서</block>
-  <block id="0b95a4177e24ad5d46eb1b71d70c2697" category="summary">컨트롤러 모듈을 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
   <block id="d9119345c9a007e36472326a6510319b" category="section-title">2단계: NVRAM 카드를 이동합니다</block>
   <block id="63f3a7c41a55885608d548f506cf6e84" category="paragraph">컨트롤러 교체 프로세스의 일부로 손상된 컨트롤러 모듈의 라이저 1에서 NVRAM 카드를 분리하고 교체 컨트롤러 모듈의 라이저 1에 카드를 설치해야 합니다. 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 DIMM을 이동한 후에만 라이저 1을 교체 컨트롤러 모듈에 다시 설치해야 합니다.</block>
   <block id="1ab810cfbdc8e768a7dd00d6ecd7d645" category="list-text">컨트롤러 모듈에서 NVRAM 라이저, 라이저 1을 분리합니다.</block>
@@ -3213,7 +3127,6 @@
   <block id="c9a7f7b22423148ff42d7fc7fedbb5b7" category="list-text">카드를 라이저의 카드 가이드와 라이저의 카드 소켓에 맞춘 다음 라이저의 소켓에 똑바로 밀어 넣습니다.</block>
   <block id="acc0d4e6b4c7b0f2e407c949b8dd6652" category="list-text">잠금 래치가 딸깍 소리를 내며 잠금 위치로 들어갈 때까지 돌려 고정합니다.</block>
   <block id="fa228664bf1ad02a11c9db65213d5433" category="list-text">손상된 컨트롤러 모듈의 슬롯 4 및 5에서 라이저 3 및 PCIe 카드에 대해 위의 단계를 반복합니다.</block>
-  <block id="a5fa3839b28f343622ed27f9477a42ac" category="paragraph">AFF A700s에는 1차 및 2차 또는 백업 부팅 미디어라는 2개의 부팅 미디어 장치가 있습니다. 장애가 발생한 노드에서 _replacement_node로 이동하고 _replacement_node의 해당 슬롯에 설치해야 합니다.</block>
   <block id="37574ed52700f32d94a2d5116467a266" category="paragraph">부팅 미디어는 라이저 2의 중간 PCIe 라이저 모듈에 있습니다. 부팅 미디어에 액세스하려면 이 PCIe 모듈을 제거해야 합니다.</block>
   <block id="73f96b8f9c23f8a33dd778e2999bf39e" category="list-text">부팅 미디어를 새 컨트롤러 모듈로 옮기고 설치합니다.</block>
   <block id="b7dbb1be616fad247b3d6aed3164e853" category="admonition">손상된 컨트롤러 모듈에 설치된 교체 컨트롤러 모듈의 동일한 소켓에 부팅 미디어를 설치하고, 기본 부팅 미디어 소켓(슬롯 1)과 보조 부팅 미디어 소켓(슬롯 2)을 보조 부팅 미디어 소켓에 설치합니다.</block>
@@ -3270,7 +3183,6 @@
   <block id="1e2a0fcc2986a119062540d6a8a9681f" category="inline-link">사용 중인 ONTAP 9 버전에 대한 고가용성 구성 가이드를 찾아보십시오</block>
   <block id="8761710e49b8b20d4b6cc2adb064a0b2" category="paragraph"><block ref="8761710e49b8b20d4b6cc2adb064a0b2" category="inline-link-rx"></block></block>
   <block id="c2deae7c367921c0b07893dc6e315415" category="section-title">스토리지 및 볼륨 암호화 기능을 복원합니다</block>
-  <block id="7b1c040ceba02d6d19a8157caebae0e2" category="doc">장애가 발생한 노드인 AFF A700s를 종료합니다</block>
   <block id="8a9d9ac73cd783fd8be1adef7a7b3710" category="summary">주 부팅 매체는 시스템이 부팅될 때 사용하는 ONTAP 부팅 이미지를 저장합니다. 보조 부팅 미디어의 ONTAP 이미지를 사용하거나 필요한 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어 이미지를 복원할 수 있습니다.</block>
   <block id="327cba4c3b39fe95536adbd9bda04a68" category="paragraph">보조 부팅 미디어에 오류가 있거나 image.tgz 파일이 없는 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어를 복원해야 합니다. 드라이브는 FAT32로 포맷해야 하며 image_xxx.tgz 파일을 저장할 적절한 저장 공간이 있어야 합니다.</block>
   <block id="c36778782b4ef6254390f7e747b95625" category="list-text">교체 프로세스는 보조 부팅 미디어 또는 USB 플래시 드라이브에서 기본 부팅 미디어로 var 파일 시스템을 복구합니다.</block>
@@ -3278,12 +3190,9 @@
   <block id="604b91e7007f6b52b608d188580ff582" category="list-text"><block ref="604b91e7007f6b52b608d188580ff582" category="inline-link-macro-rx"></block></block>
   <block id="2e7119d7d654a51006d39261079ed460" category="doc">컨트롤러 모듈 AFF A700s를 제거합니다</block>
   <block id="24907dee7e4205c74e589d14a85e4bbd" category="doc">DIMM-AFF A700s를 교체합니다</block>
-  <block id="073ebf16dce27d691bcca3d280b72f9b" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 노드에 자격 및 상태에 대해 false가 표시되는 경우 손상된 노드를 종료하기 전에 문제를 해결해야 합니다.</block>
   <block id="dec0306e681fc720cf31bc4851ebcee4" category="inline-link">ONTAP 9 시스템 관리 참조</block>
   <block id="38093d6513bb2e960eab247f00f04533" category="paragraph"><block ref="38093d6513bb2e960eab247f00f04533" category="inline-link-rx"></block></block>
   <block id="bf7918e10696cda0294441f81ad32ee4" category="paragraph">"기백을 기다리는 중...</block>
-  <block id="34d23e48cd83c2c2bc05008eee207c60" category="paragraph">장애가 발생한 노드 'storage failover -ofnode_impaired_node_name_'을 인계하거나 중지합니다</block>
-  <block id="403c040087c497f68c8f876e6ef4b765" category="paragraph">손상된 노드에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 누릅니다.</block>
   <block id="136dcb2edcd74121805a5141d72b31e0" category="section-title">DIMM을 교체합니다</block>
   <block id="8d73259baf4ddfb7a4ebcc9452d895e0" category="paragraph">DIMM을 교체하려면 컨트롤러 모듈 내부에 있는 DIMM 맵을 사용하거나 DIMM 옆의 LED를 사용하여 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
   <block id="9de291eec146aa309ed46727b945c6d4" category="list-text">해당 라이저를 분리합니다.</block>
@@ -3299,7 +3208,6 @@
   <block id="2b1646515c4dcacd96acd971239a6f14" category="paragraph">섀시를 교체하려면, 컨트롤러 모듈과 SSD 드라이브를 손상된 섀시에서 교체 섀시로 옮긴 다음 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 분리하고 교체 섀시를 제자리에 설치해야 합니다.</block>
   <block id="c465df44865c02db52bc6f37023b5b75" category="list-text">이 절차는 SSD 및 컨트롤러 모듈을 새 섀시로 이동하는 가정 하에 작성되었으며, 교체 섀시는 NetApp의 새로운 구성 요소가 됩니다.</block>
   <block id="d574c271d37aff5dfc97b6ecd338458f" category="doc">복원 및 교체 프로세스 - AFF A700s를 완료하십시오</block>
-  <block id="675f472ebd03f28204a76004420e0dc6" category="doc">node-AFF A700s를 종료합니다</block>
   <block id="94d1159091c1890578647fdf6494e0c8" category="list-text">컨트롤러 모듈을 안전한 곳에 두고 섀시의 다른 컨트롤러 모듈에 대해서도 이 단계를 반복합니다.</block>
   <block id="8bf527b8feaef96125c0221bc5542368" category="section-title">2단계: 드라이브를 새 섀시로 이동합니다</block>
   <block id="82d2f9dc416e137517b7e7fdd5976473" category="paragraph">캠 핸들이 드라이브 캐리어 전면과 올바르게 정렬되도록 캠 핸들을 천천히 닫아야 합니다. 보안 상태가 되면 클릭합니다.</block>
@@ -4214,9 +4122,7 @@
   <block id="f0de8680ab31eb7304741a5d6c335bce" category="list-text">[[man_lif_verify_3_step4]] 다음 작업 중 하나를 수행합니다.</block>
   <block id="a8737f289941aae34c7bdcaf30a6f49c" category="cell">완료 <block ref="5bf3f4cb83f848c38272cdda13b03424" category="inline-xref-macro-rx"></block> 및 <block ref="5afb3629d2897001a44bd62c86195932" category="inline-xref-macro-rx"></block>, 7단계를 건너뛰고 완료합니다 <block ref="6f2b0e2c7df1e7ce442716f4a9ac5045" category="inline-xref-macro-rx"></block> 부터 까지 <block ref="d664f7f06c19c1d6c4e1d7d9cba27620" category="inline-xref-macro-rx"></block>.</block>
   <block id="e7bc8e4a360dbc42e9759f708ed40f33" category="cell">업그레이드 시 노드의 모든 SAN LIF를 비활성화:'network interface modify -vserver &lt;vserver_name&gt; -lif &lt;LIF_name&gt; -home-node &lt;node_to_upgrade&gt; -home-port &lt;NetPort|ifgrp&gt; -status-admin down'</block>
-  <block id="ed9b788614568aa4c8be8b82b384cd8c" category="paragraph">* 노드가 HA 쌍 * 인 경우 'storage failover back - ofnode_replacement_node_name_'을 수행합니다</block>
   <block id="b27659a5892c965f391bf77476f97118" category="paragraph">* 참고: * 자동 반환이 비활성화된 경우 '스토리지 페일오버 수정' 명령을 사용하여 다시 활성화하십시오.</block>
-  <block id="f5833a336f25b45a7be45536998c8479" category="paragraph">* 노드가 독립 실행형 구성 * 에 있는 경우 다음 단계를 진행합니다. 별도의 조치가 필요하지 않습니다.</block>
   <block id="826be71263f21097957d09d3f8ed668e" category="paragraph">원래 노드를 교체하기 전에 해당 노드가 HA 쌍 안에 있는지, 누락된 디스크 또는 장애가 발생한 디스크가 없는지, 서로의 스토리지에 액세스할 수 있는지, 그리고 클러스터의 다른 노드에 할당된 데이터 LIF를 소유하지 않는지 확인해야 합니다. 또한 원래 노드에 대한 정보를 수집해야 하며, 클러스터가 SAN 환경에 있는 경우 클러스터의 모든 노드가 쿼럼에 있는지 확인해야 합니다.</block>
   <block id="e537424f11b8c436c4623dda13ea1af3" category="list-text">테이크오버 모드 중에 두 노드의 워크로드를 적절하게 지원하는 리소스가 각 원래 노드에 충분히 있는지 확인하십시오.</block>
   <block id="f3c19cb23097cbe0b0079c33c1dda6e2" category="paragraph">을 참조하십시오 <block ref="3352feee8874655040be7cccb077b0f9" category="inline-link-macro-rx"></block> ONTAP 9 고가용성 구성 가이드 _ 에 연결하고 HA 쌍 _ 에 대한 _ 모범 사례를 따릅니다. 원래 노드 중 어느 것도 50% 이상의 사용률로 실행되지 않아야 합니다. 50% 미만의 활용률로 실행 중인 노드는 컨트롤러 업그레이드 중에 두 노드의 부하를 처리할 수 있습니다.</block>
@@ -4990,7 +4896,6 @@
   <block id="282abcd1229d5f110894e126192603b3" category="inline-link">시스템 DIMM 교체</block>
   <block id="212baf733d07a5e386f7f5c6424c0168" category="paragraph"><block ref="212baf733d07a5e386f7f5c6424c0168" category="inline-link-rx"></block></block>
   <block id="ef3d6a7034bbb6a1a5a3adc4e54f05da" category="paragraph">DIMM은 소켓 2, 4, 13 및 15에 있습니다. NVDIMM은 슬롯 11에 있습니다.</block>
-  <block id="77e5d5e9e3fe25e357bcca8804d9d2dd" category="list-text">replacement node_는 손상된 노드를 교체하는 새 노드입니다.</block>
   <block id="8eea6ffadcece75bbf0826ed26885fb9" category="list-text">이 절차는 중단을 따릅니다. 2노드 클러스터의 경우 완벽한 서비스 중단을 경험하며 다중 노드 클러스터의 일부 중단이 발생할 수 있습니다.</block>
   <block id="9f10aac4e72d368f5602754ad5076de6" category="doc">복원 및 교체 프로세스 - AFF A400을 완료합니다</block>
   <block id="0ecf4967de705c4a27e4c0f0513becb3" category="paragraph">HA-STATE_의 값은 다음 중 하나일 수 있습니다.</block>
@@ -5044,7 +4949,6 @@
   <block id="478fc4fb96b68e7639f1b8b60636da7c" category="doc">NVMEM 배터리-FAS2600을 교체합니다</block>
   <block id="c8ce5afe6808111cafcf57c11a22b941" category="inline-link-macro">AFF FAS2600 NVMEM 배터리 교체 비디오</block>
   <block id="42eb4da4054bc83a79fd36f832504d55" category="paragraph"><block ref="42eb4da4054bc83a79fd36f832504d55" category="inline-link-macro-rx"></block></block>
-  <block id="2a6a2e33656853ca022195e9fa505ddd" category="list-text">시스템에 섀시에 하나의 컨트롤러 모듈만 있는 경우 전원 공급 장치를 끈 다음 손상된 노드의 전원 코드를 전원에서 분리합니다.</block>
   <block id="3970e41706ca509bbbe93d6bce9c9705" category="paragraph">컨트롤러 모듈의 구성 요소를 교체한 후 섀시에 다시 설치합니다.</block>
   <block id="b6f66be9dc65274f1a5ad75f80aae188" category="inline-link-macro">AFF FAS2600 RTC 배터리 교체 비디오</block>
   <block id="0c023decff1a18deafa6980867c1ca2b" category="paragraph"><block ref="0c023decff1a18deafa6980867c1ca2b" category="inline-link-macro-rx"></block></block>
@@ -5079,7 +4983,6 @@
   <block id="e3d9e54e0daad2e60e36e8b370fec883" category="paragraph"><block ref="e3d9e54e0daad2e60e36e8b370fec883" category="inline-link-macro-rx"></block></block>
   <block id="7a463f9e839bbbeef6456ebce3997799" category="paragraph">스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수하십시오.</block>
   <block id="cc0229491324372575d8e9833b910f02" category="list-text">NVMEM LED를 다시 확인하십시오.</block>
-  <block id="45bad0a220769ce3e5e852b8009c6c12" category="doc">노드-FAS2600을 종료합니다</block>
   <block id="e36ec33be061816b4fbfa1c3e8e42798" category="inline-link-macro">AFF FAS2600 섀시 교체 비디오</block>
   <block id="f126a748aa68879f9dcff06da9ee7d1e" category="paragraph"><block ref="f126a748aa68879f9dcff06da9ee7d1e" category="inline-link-macro-rx"></block></block>
   <block id="a618373732a54299b15020c4fdcc9ff7" category="doc">캐싱 모듈-FAS2600을 교체하십시오</block>
@@ -5091,9 +4994,6 @@
   <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 '시스템 컨트롤러 플래시 캐시 보안 삭제 실행' 데이터를 지웁니다</block>
   <block id="236dd84b9226dbf8dfd98a6c46b59972" category="list-text">캐시 모듈에서 'system controller flash-cache secure-erase show-node_name'이라는 데이터가 지워졌는지 확인합니다</block>
   <block id="af41b619bf9d50ddae2454efc001e4dd" category="paragraph">출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.</block>
-  <block id="bbef0c572fdbe204bb84f52d821e393b" category="paragraph">손상된 노드를 인수하거나 중단합니다.</block>
-  <block id="a45c4d08ccf72d071a90de42e42a49bb" category="list-text">HA 쌍의 경우 정상 노드에서 스토리지 페일오버 테이크오버인 ofnode_impaired_node_name _ 을(를) 인수합니다</block>
-  <block id="c661090006ca8f995a25dfb913aa9247" category="paragraph">손상된 노드에 반환 대기 중... 이 표시되면 Ctrl-C를 누른 다음 "y"로 응답합니다.</block>
   <block id="07b824a16e2eac6bafd600bdf983d340" category="list-text">독립 실행형 시스템의 경우 'system node halt_impaired_node_name_'</block>
   <block id="01ca059245897bf13f451aefdac2252d" category="section-title">3단계: 캐싱 모듈을 교체합니다</block>
   <block id="fcb47fab108a0238221cf0b2d24663f3" category="paragraph">컨트롤러의 레이블에 M.2 PCIe 카드라고 하는 캐싱 모듈을 교체하려면 컨트롤러 내부의 슬롯을 찾아 특정 단계를 따릅니다.</block>
@@ -5295,8 +5195,6 @@
   <block id="055ce7154e7ea0261c8667a0d628ee36" category="image-alt">drw A800 공기 덕트 닫기</block>
   <block id="fe789fced0492cc44e230547286ad2fd" category="list-text">필요에 따라 케이블 관리 장치를 다시 설치하고 시스템을 다시 장착합니다. + 재활성화 시 미디어 컨버터(SFP 또는 QSFP)가 제거된 경우 다시 설치해야 합니다.</block>
   <block id="98bdc3e90693534845f2b1eeaabe98be" category="list-text">USB 플래시 드라이브를 컨트롤러 모듈의 USB 슬롯에 삽입합니다. + USB 콘솔 포트가 아닌 USB 장치용 슬롯에 USB 플래시 드라이브를 설치해야 합니다.</block>
-  <block id="66e081aa9e9235fecee66d668b33a06c" category="list-text">컨트롤러 모듈 잠금 후크가 상승하기 시작할 때까지 컨트롤러 모듈을 천천히 시스템에 밀어 넣고 잠금 후크를 단단히 눌러 컨트롤러 모듈 장착을 완료한 다음 잠금 후크를 컨트롤러 모듈의 핀 위에 있는 잠금 위치로 돌립니다. + 노드가 섀시에 완전히 설치되는 즉시 부팅되기 시작합니다.</block>
-  <block id="ce526ec45d4379a40bad44d2a49da7f1" category="list-text">로더 프롬프트에서 중지하려면 Ctrl+C를 눌러 부팅 프로세스를 중단합니다. + 이 메시지가 표시되지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 로더 부팅 시 노드를 중단합니다.</block>
   <block id="228833e7e465458067df236eb339d948" category="doc">장애가 발생한 부품을 NetApp-AFF A800으로 반환</block>
   <block id="2ee0c03cb33be156e12b5b33dbf8e422" category="doc">NVDIMM 배터리 교체 - AFF A800</block>
   <block id="a2a7f6c4d01f5224a71aaaa23dd37c83" category="list-text">케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 시스템 케이블과 SFP 및 QSFP 모듈(필요한 경우)을 컨트롤러 모듈에서 분리하여 케이블이 연결된 위치를 추적합니다. 케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블을 분리합니다.</block>
@@ -5422,7 +5320,6 @@
   <block id="5521b41573623c3aa2d96f12239f0385" category="paragraph">NVDIMM</block>
   <block id="fb9c911f5fd782e8fd686ca595abbfed" category="list-text">이전 단계를 반복하여 다른 NVDIMM을 이동합니다.</block>
   <block id="80392a74120115863aba040983d75dcc" category="section-title">8단계: 부팅 미디어를 이동합니다</block>
-  <block id="2a3437dc0d5f56d89ec7665ada160404" category="paragraph">AFF A800에는 부팅 미디어 장치가 1개 있습니다. 장애가 발생한 노드에서 해당 노드를 이동하여 _replacement_node에 설치해야 합니다.</block>
   <block id="4ca80d99d67871d37c8da5807f9599aa" category="paragraph">부팅 미디어는 라이저 3 아래에 있습니다.</block>
   <block id="22593e2f0620849aa4f82e482025ae6d" category="image-alt">DRW A800 PCM은 부트 미디어만 교체합니다</block>
   <block id="c2ac0f879d7f2a549904c604053848ff" category="section-title">9단계: PCIe 라이저를 설치합니다</block>
@@ -5446,15 +5343,12 @@
   <block id="359472a70133529fc01e7b943ee51b2d" category="paragraph">라이저 2 및 DIMM 뱅크 7-10, 12-13 및 15-18</block>
   <block id="5c2989b756c1c0a4f26576c2a249cb73" category="paragraph">라이저 3 및 DIMM 19-22 및 24</block>
   <block id="deed19e25ff1800b42b409fbd813f32a" category="paragraph">* 참고: * 슬롯 2와 14는 비어 있습니다. 이 슬롯에 DIMM을 설치하지 마십시오.</block>
-  <block id="b43b6ffe97034eb968501fc99ef0a1c4" category="list-text">healy node_는 정상적인 노드입니다.</block>
-  <block id="0965105e8b2fca5f6bc22be96233c5e0" category="admonition">파트너 노드 또는 이전 컨트롤러 모듈과 일치하도록 _replacement_node의 BIOS 버전을 다운그레이드하지 마십시오.</block>
   <block id="5fb89931e5b269129a2ad5936878a851" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="b9f6f8746149f87def14842273c93bfe" category="inline-xref-macro-rx"></block>.</block>
   <block id="70c3e5c6b05722334dd3cfb521d9e159" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="e0569187fa90a6ae4bbbe053355b82c8" category="inline-xref-macro-rx"></block>.</block>
   <block id="b8984f02e6cfd8c017d9d0f4737d0ac7" category="doc">섀시 교체 - AFF A800</block>
   <block id="0056f1b7e6a1cbc5c692fe90eeba67d5" category="paragraph">섀시를 교체하려면, 손상된 섀시에서 교체 섀시로 베젤, 컨트롤러 모듈 및 NVMe 드라이브를 이동한 다음 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 제거하고 교체 섀시를 제자리에 설치해야 합니다.</block>
   <block id="1c44627eb33d55ec54d505046a55d435" category="list-text">이 절차는 베젤, NVMe 드라이브 및 컨트롤러 모듈을 새 섀시에 이동하고 교체 섀시가 NetApp의 새로운 구성 요소라는 전제 하에 작성되었습니다.</block>
   <block id="fd1cff0abcf1ef0e075b330e2ee360fe" category="doc">복원 및 교체 프로세스 완료 - AFF A800</block>
-  <block id="81e46cc93d394efa5f52a46a0927e127" category="doc">노드-AFF A800을 종료합니다</block>
   <block id="03b53347b73f88773815b1fcb2c4507b" category="doc">하드웨어 교체 - AFF A800</block>
   <block id="92cadc5fd1d76419c4c16ddc63416c45" category="list-text">케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블을 분리합니다.</block>
   <block id="b8238a1ffeb288edb4606d4cee1cdf5c" category="doc">컨트롤러 종료 - AFF A800</block>
@@ -5498,7 +5392,6 @@
   <block id="e3d77d25c42b5b22d3782666486eb37f" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A300</block>
   <block id="6a9185c32ed25a745ad5a6b2fb9c702e" category="doc">시스템 구성 복원 및 확인 - AFF A300</block>
   <block id="8a73953f68f7fdf48a4b4ff53aac3e33" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF A300</block>
-  <block id="e935849faf7cd25a183a726f34797bb7" category="doc">컨트롤러 모듈 교체 - AFF A300</block>
   <block id="3f7f4ac12f292fdfd3a03d2e6ca590ad" category="summary">AFF A300 시스템 문서에서는 시스템을 설치, 설정, 유지보수할 수 있습니다.</block>
   <block id="8c8521d7bd33c3aaeafeef557f4eadbb" category="doc">AFF A300 시스템 설명서</block>
   <block id="a23c69960d3b280b58087226f261d0e1" category="doc">복구 이미지 부팅 - AFF A300</block>
@@ -6092,7 +5985,6 @@
   <block id="bb350a33e7d50a40c4fa37bfbe41f7f0" category="list-text">손상된 부트 미디어를 소켓에서 직접 조심스럽게 들어 올려 옆에 둡니다.</block>
   <block id="1f92c66f78b6103eb17febd6a0a5f8f3" category="list-text">정전기 방지 포장용 백에서 교체용 부팅 매체를 제거하고 컨트롤러 모듈에 정렬시킵니다.</block>
   <block id="7fc8b782e1690855d5576e363f8d7d1a" category="list-text">컨트롤러 모듈을 섀시에 완전히 밀어 넣습니다.</block>
-  <block id="db4547d0ddae50a76aa47cf54e9d15ae" category="doc">node-AFF A250을 종료합니다</block>
   <block id="f7b32babba20f290222a62a499496335" category="section-title">옵션 2: MetroCluster의 시스템</block>
   <block id="e2e8db7924e3d9318e09779273f259de" category="doc">팬 교체 - AFF A250</block>
   <block id="263bd6e17bf6db34d525455907f3ed3e" category="paragraph">* 1 *</block>
@@ -6171,9 +6063,7 @@
   <block id="29bc0206e3def43146c2b0cef54fc220" category="list-text">정전기 방지 포장용 백에서 메자닌 카드를 분리하고 컨트롤러 모듈의 안쪽 면에 맞춥니다.</block>
   <block id="e93ef5bd6bf13f3e4a28ed9516ec26aa" category="list-text">메자닌 카드를 제자리에 조심스럽게 맞춥니다.</block>
   <block id="9abc3ad77a4002fd491b39b23515a992" category="doc">복원 및 교체 프로세스(AFF A250)를 완료합니다</block>
-  <block id="0e4ba9b88ff6d370d76b54b449cb6648" category="summary">손상된 컨트롤러 모듈을 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.</block>
   <block id="d79b377e4ffb63d9f7bc2cd5de1e04de" category="doc">손상된 컨트롤러 모듈 AFF A250을 종료합니다</block>
-  <block id="d159332fd3b62eb0d07a6b33b667c03b" category="list-text">SAN 시스템을 사용하는 경우 손상된 노드 SCSI 블레이드에 대한 이벤트 메시지(이벤트 로그 표시)를 확인해야 합니다.</block>
   <block id="d341e954ddede02e8d2c553ecfba224a" category="paragraph">각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.</block>
   <block id="971840ecd85a736d5b833bc352989a07" category="list-text">MetroCluster 구성이 있는 경우 MetroCluster 구성 상태가 구성되어 있고 노드가 설정 및 정상 상태(MetroCluster node show)인지 확인해야 합니다.</block>
   <block id="8ccd613e52111dc677242b19a2aa7a2e" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.</block>
@@ -6214,7 +6104,6 @@
   <block id="dae1434e283524bee3110823c8eb7212" category="inline-link">FAS500f 시스템 설치 및 설정 지침</block>
   <block id="c98535a3efcc3902c442def855aa8fcd" category="list-text">일본어:<block ref="74a4002c724f044d7e6834f3506cd16d" category="inline-link-rx"></block></block>
   <block id="c9d9e9c98bea821ee3130955cb98a54c" category="list-text">중국어:<block ref="d495a553b62dffb464c7810acf543358" category="inline-link-rx"></block></block>
-  <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
   <block id="806172d09ec083b134236f39467e6f44" category="doc">메자닌 카드(FAS500f)를 교체하거나 설치합니다</block>
   <block id="5a8806fc27bd2a34806ff3f345c3e780" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 메자닌 카드를 교체할 수 있습니다.</block>
   <block id="7688f98e234548d9c9eb8a47a54131fc" category="paragraph"><block ref="7688f98e234548d9c9eb8a47a54131fc" category="inline-link-rx"></block></block>
@@ -6223,7 +6112,6 @@
   <block id="6407763c1d2de6600133ab1f5d7bc94f" category="inline-link">ONTAP 9 NetApp 암호화 기능 콘텐츠</block>
   <block id="b70ce74f678772eec8ed950c996578d8" category="paragraph"><block ref="b70ce74f678772eec8ed950c996578d8" category="inline-link-rx"></block></block>
   <block id="6730578f02ba32c4ccfb1acc3e8ab367" category="doc">복원 및 교체 프로세스 완료 - FAS500f</block>
-  <block id="fdf5f4359ee176f1de2ac16926a8b1f1" category="doc">node-FAS500f를 종료합니다</block>
   <block id="616af20769d44e43520152460f655603" category="doc">하드웨어 이동 및 교체 - FAS500f</block>
   <block id="7c323e2eb49745018682c538529f7337" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 섀시를 교체할 수 있습니다. 여기서는 베젤을 분리하고 교체하는 것으로 가정합니다.</block>
   <block id="9fb8ac9db9ddb949f108f678e1fa4b9d" category="doc">컨트롤러 종료 - FAS500f</block>
@@ -6249,7 +6137,6 @@
   <block id="4693df7fc44203724111e55493c1f236" category="paragraph">테라 코타 해제 버튼</block>
   <block id="a6b7b1f6b451582b4f3e4ee818b0b022" category="paragraph">팬을 섀시 안쪽으로/밖으로 밉니다</block>
   <block id="b9f8bf80fa7fab32aca8c28430b0b999" category="doc">실시간 시계 배터리 교체 - AFF A900</block>
-  <block id="34de7ae9bee05647de754a7bdd5b00d5" category="section-title">2단계: 컨트롤러를 엽니다</block>
   <block id="4cc95bf9d5b32fe7d0352f48b0791827" category="list-text">캠 핸들의 테라코타 버튼이 잠금 해제될 때까지 아래로 밉니다.</block>
   <block id="157fddeae41486bcaef21356a0ec5bb1" category="inline-link">애니메이션 -- 컨트롤러를 제거합니다</block>
   <block id="1e6a22a0167a906d5d500778e514adce" category="paragraph"><block ref="1e6a22a0167a906d5d500778e514adce" category="inline-link-rx"></block></block>
@@ -6259,7 +6146,6 @@
   <block id="f58146f61f30db6d5df364a7751fc65a" category="paragraph"><block ref="f58146f61f30db6d5df364a7751fc65a" category="inline-link-rx"></block></block>
   <block id="70f590ae3de022f014ffe169e236da55" category="image-alt">drw a900 RTC 배터리를 제거합니다</block>
   <block id="7ac0a68ff3a0c6b3beb7f03b58c8496d" category="paragraph">RTC 배터리를 교체한 후 컨트롤러 모듈을 다시 설치해야 합니다. RTC 배터리를 10분 이상 컨트롤러 모듈에서 분리한 경우 시간과 날짜를 재설정해야 할 수 있습니다.</block>
-  <block id="4714e8423619d9cc43be300b5a406117" category="list-text">스토리지 'storage failover 반환 - ofnode impaired_node_name'을 제공하여 노드를 정상 작동 상태로 되돌립니다</block>
   <block id="f019032ca5e4ee1339ef0bcd485f9c8d" category="summary">컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미디어를 찾아 교체한 다음 교체 부팅 미디어로 이미지를 전송해야 합니다.</block>
   <block id="f42f050dc5269ad7b9f62abb5be6f335" category="doc">컨트롤러를 제거하고 부팅 미디어를 교체한 다음 부팅 이미지(AFF A900)를 전송합니다</block>
   <block id="2124dcd5f889b56f5d21d376ccfe034a" category="inline-link">애니메이션 -- 컨트롤러를 제거합니다</block>
@@ -6274,7 +6160,6 @@
   <block id="f57131a371345f28120c2c1540cdc3dd" category="paragraph">스토리지 및 네트워크 연결을 재사용하여 교체 절차를 계속합니다.</block>
   <block id="2f966eb8b55c870ae5de4a1ce0bc89cb" category="list-text">을 사용하여 케이블이 올바른지 확인합니다<block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block>.</block>
   <block id="0163a3b42f42d43e15610ad575decda8" category="admonition">시스템 ID 및 디스크 할당 정보는 컨트롤러 모듈과 분리되어 있고 컨트롤러 모듈 교체의 영향을 받지 않는 모듈에 있는 NVRAM 모듈에 상주합니다.</block>
-  <block id="580fe6e7e310b3db810754c7c7927744" category="list-text">replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
   <block id="1f8a127e3837fb66c1f3c8c02d8392cd" category="list-text">반환 명령을 실행하기 전에 savecore 명령이 완료될 때까지 기다립니다.</block>
   <block id="e52d65661673e0d8112057f135b30a91" category="inline-link">수동 반환 명령</block>
   <block id="85bdc20f7292dbafd4caa42c19f7b123" category="paragraph">자세한 내용은 를 참조하십시오<block ref="fea6157c393b81b627aed2aca6311576" category="inline-link-rx"></block> 거부권을 무효화하기 위한 주제.</block>
@@ -6424,10 +6309,8 @@
   <block id="eeacd9b31ab0c2f60f1d13e5632f7f13" category="list-text">saveenv 명령을 사용하여 변경 내용을 저장합니다.</block>
   <block id="29d4dec218aeaffabfed6dcc8fd1ad45" category="list-text">시스템에 온보드 키 관리자, NSE 또는 NVE가 구성된 경우 로 이동합니다 <block ref="39910b5f3ea1ee39d8059faae857cc98" category="inline-xref-macro-rx"></block></block>
   <block id="b52d8d1d987722da12d16df8a0a63541" category="list-text">LOADER 프롬프트에서 boot_ontap 명령을 입력합니다.</block>
-  <block id="6c6d5b112e5f57cd557a4ce3f7e29059" category="list-text">스토리지 페일오버 반환 -fromnode local 명령을 사용하여 노드를 다시 제공합니다.</block>
   <block id="13b6e1ea33838db60037aa0b1c5c884b" category="list-text">클러스터 프롬프트에서 net int -is -home false 명령을 사용하여 논리 인터페이스를 확인합니다.</block>
   <block id="5e5ce8025b11752aab339bd61df121bc" category="paragraph">인터페이스가 "false"로 나열되는 경우 net int revert 명령을 사용하여 해당 인터페이스를 홈 포트로 되돌립니다.</block>
-  <block id="fdfb5a2b2c62652b047bacddf92e9188" category="list-text">콘솔 케이블을 복구된 노드로 이동하고 version -v 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
   <block id="21771aeeca9194c9c6cc4646a2230c93" category="list-text">스토리지 페일오버 modify -node local -auto -반환 true 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 작업을 복구합니다.</block>
   <block id="eec41346a265cfb88abb54f51ec33fe7" category="summary">AFF A900 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="b35a00e75330322eefd710713ca83b02" category="doc">AFF A900 시스템</block>
@@ -6436,8 +6319,6 @@
   <block id="4d365227a3a5ccf9886fa9c35ba6a99d" category="paragraph">NVRAM 모듈은 NVRAM11 및 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 분리하고 DIMM을 교체 모듈로 옮긴 다음 교체용 NVRAM 모듈을 섀시에 설치해야 합니다.</block>
   <block id="50b70636b9b845e1cca7db72fbdeec68" category="paragraph">및 NVRAM DIMM을 교체하려면 NVRAMModule을 섀시에서 제거하고 모듈에 장애가 발생한 DIMM을 교체한 다음 NVRAM 모듈을 다시 설치해야 합니다.</block>
   <block id="356bb2eaf8fe1f9955f9f22e00ddcb54" category="paragraph">시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
-  <block id="566dc57c04b76274e7168e53e1eea041" category="list-text">손상된 노드는 유지보수를 수행 중인 노드입니다.</block>
-  <block id="350cecd9af7d98cbf31c22fbd46e60fe" category="list-text">정상 노드는 장애가 발생한 노드의 HA 파트너입니다.</block>
   <block id="e0ffee47cf76076ed4c6531bb6ebf63f" category="inline-link">애니메이션 -- NVRAM 모듈을 교체합니다</block>
   <block id="1877796130af55388822e2758225131e" category="paragraph"><block ref="1877796130af55388822e2758225131e" category="inline-link-rx"></block></block>
   <block id="dad23827b140b55a3121c86e5b861fad" category="image-alt">drw a900 이동 NVRAM 모듈을 제거합니다</block>
@@ -6453,14 +6334,8 @@
   <block id="8d8e1d2c17edc6fe8262408b12b73390" category="list-text">컨트롤러 모듈의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 컨트롤러 모듈의 HA 상태를 "ha-config modify controller_ha-state_"로 설정하십시오</block>
   <block id="c36d25abc9dfdbc31228c74f7e654d0c" category="list-text">섀시의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 섀시의 HA 상태를 "ha-config modify chassis_ha-state_"로 설정합니다</block>
   <block id="f95e8e8b229c3aee97b205509f91df66" category="section-title">6단계: 디스크 재할당</block>
-  <block id="0855873e0fa5bed2d0067d6acae6c0df" category="paragraph">교체 노드를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
-  <block id="1a97de4b7c87981ce7420f6c88c32df0" category="list-text">교체 노드 콘솔에 반환 대기 중... 메시지가 표시된 후 정상 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. '스토리지 페일오버 표시'</block>
   <block id="8672de10e3d8295abd1be60e2569c4c6" category="list-text">모든 코어 덤프는 'system node run-node local-node-name 파트너 savecore'입니다</block>
   <block id="544b7fcf1fe2aaedd577ba107a7f6a56" category="paragraph">다음 명령을 입력하여 savecore 명령의 진행 상태를 모니터링할 수 있습니다. 'system node run-node local-node-name 파트너 savecore -s'</block>
-  <block id="7a18402f95cb86527db24f56d6baec40" category="list-text">정상 노드에서 교체된 노드의 스토리지, 즉 'storage failover 반환 - ofnode replacement_node_name'을 반환하십시오</block>
-  <block id="3217c14b22c3695ed301b94539bd2dbb" category="paragraph">교체 노드가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
-  <block id="18963b05f9f3bc779f544c26aae06ab9" category="paragraph">교체 노드에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
-  <block id="cfe787a999b8c200091f805ad9426e24" category="list-text">교체 노드는 재해 사이트에 있는 디스크의 현재 소유자입니다.</block>
   <block id="7285c4012d903a86f08da4d4eb643a35" category="paragraph">을 참조하십시오<block ref="1c9dcde47ee822b3ac120aae2f296f05" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="2a1253e1eb3f5fea69107948ef4c203d" category="summary">이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="cb0bd9965128fe9d9c7dc5fe35ba00fa" category="doc">빠른 단계 - AFF A900</block>
@@ -6478,9 +6353,7 @@
   <block id="8b786c8ea77512c3dbdaa8bd1b973696" category="paragraph"><block ref="8b786c8ea77512c3dbdaa8bd1b973696" category="inline-link-rx"></block></block>
   <block id="ad4cfe6fc2b7cb05bf19c4a07bb3ec19" category="list-text">Press Ctrl-C for Boot Menu가 표시되면 Ctrl-C를 눌러 부팅 프로세스를 중단합니다.</block>
   <block id="c63722af0556df99585d9c4de88eb02d" category="admonition">부팅 과정 중에 메시지에 안전하게 'y'로 응답할 수 있습니다.</block>
-  <block id="86319021cdc9cc33274101862a78bb0d" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상 상태인 노드가 계속 중지되어 있는지 확인하는 경고 메시지가 표시되는 경우</block>
   <block id="beae2577508dff32956933c72e8af78a" category="paragraph">'storage failover 반환 - ofnode replacement_node_name' * 참고: * 자동 반환을 해제한 경우 스토리지 페일오버 수정 명령을 사용하여 다시 설정하십시오.</block>
-  <block id="ef27904ffe8486e4c45f99e2284dcde0" category="doc">손상된 노드 AFF A900을 종료합니다</block>
   <block id="4a11061a1e6cf88a01ac0a8a2d4682c6" category="doc">컨트롤러 모듈 하드웨어를 교체합니다. - AFF A900</block>
   <block id="a1828edb3cde53f0ba3419e2ebe71f61" category="paragraph">다음 애니메이션은 손상된 부품을 교체 컨트롤러로 이동하는 전체 과정을 보여줍니다.</block>
   <block id="9af409fe069f89e48cd941abd1907054" category="inline-link">애니메이션 -- 교체 컨트롤러로 부품을 이동합니다</block>
@@ -6492,24 +6365,17 @@
   <block id="800c8750475f7f7221a9b7946bec8d10" category="list-text">로더로 부팅하는 옵션을 선택합니다.</block>
   <block id="eee1a85c64e17c1ca9ed30c1f544d35d" category="doc">컨트롤러 모듈 AFF A900을 교체합니다</block>
   <block id="8b20a20371bd26b5083507f395cf24ab" category="paragraph">손상된 컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 종료하고 내부 구성 요소를 교체 컨트롤러 모듈로 옮긴 다음 교체 컨트롤러 모듈을 설치하고 교체 컨트롤러를 재부팅해야 합니다.</block>
-  <block id="c60c00789a015e4c8edc176d68ea53c2" category="list-text">이 절차에서는 교체 노드가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치가 손상된 노드에서 교체 노드로 이동됩니다.</block>
-  <block id="fd6012123eb1d03462c1cd48d50c92e6" category="list-text">손상된 노드는 교체되는 노드입니다.</block>
-  <block id="9e51ab12d26faade2a31d70da71c74f5" category="list-text">교체 노드는 장애가 발생한 노드를 교체하는 새 노드입니다.</block>
-  <block id="537af5095a4992ae7e9026bd3ff008a6" category="list-text">정상 노드는 정상 노드입니다.</block>
   <block id="4e4fca0318eac6dc1315f4bad56eb1c6" category="summary">완전히 채워진 시스템에서 기존 입출력 모듈을 새 입출력 모듈로 교체하거나 새 입출력 모듈을 섀시의 빈 슬롯에 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="a164244a6913c60772e9b9fbbbc17a4a" category="doc">입출력 모듈 추가 - AFF A900</block>
   <block id="e01b6c84aaebe2321eef7b7a933b171f" category="list-text">입출력 모듈을 무중단으로 추가하려면 타겟 컨트롤러를 인수하고, 타겟 슬롯에서 슬롯 블랭킹 커버를 제거하거나, 기존 입출력 모듈을 제거하고, 새 입출력 모듈 또는 교체 입출력 모듈을 추가한 다음 타겟 컨트롤러를 반환해야 합니다.</block>
   <block id="329fe7c89a525def535e03c6dbc6f98f" category="section-title">옵션 1: 슬롯이 열린 시스템에 입출력 모듈을 추가합니다</block>
   <block id="12f686a2d13fd4b93c3ef7fbc915cdcd" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 NIC 또는 NS224 스토리지 셸프용 스토리지 모듈로 추가할 수 있습니다.</block>
-  <block id="ff231ca484e594004f4ca93ecfa6683e" category="paragraph">콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.</block>
   <block id="c45c3f1f9d099575b7abd851e7ef8b33" category="list-text">캠 래치가 열림 위치가 될 때까지 아래로 돌립니다.</block>
   <block id="9a08e35bf8850515585d9bd11e96351b" category="list-text">입출력 모듈을 설치합니다.</block>
   <block id="66efd9c2b6ae55ef5c1ff3be01c1fe65" category="list-text">입출력 모듈을 슬롯의 가장자리에 맞춥니다.</block>
   <block id="35d6c9040844123446e81fce55da1548" category="list-text">문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 밀어 넣습니다.</block>
   <block id="7ca78c6d47f27487175e23a00c576196" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
   <block id="3267c15e351fe1dd15721e79b072fedc" category="admonition">사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.</block>
-  <block id="2a5cd1f850ee79601be57448f10d9595" category="list-text">LOADER 프롬프트에서 노드를 재부팅합니다. _bye_</block>
-  <block id="4d3b1425bbd62943a546a9f98dc3b7ef" category="list-text">파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다</block>
   <block id="05648a23fc430a3dcc4fb4c1fbb040cd" category="list-text">네트워킹에 슬롯 3 및/또는 7을 사용하는 경우, 네트워킹 사용을 위해 슬롯을 변환하려면 'storage port modify -node__&lt;node name&gt;___port__&lt;port name&gt;__-mode network' 명령어를 사용한다.</block>
   <block id="2d881a27ee894664c2e7cc8d1795b104" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="8b1d41e5fd14f554e8b3490e0dfd47ae" category="inline-link-rx"></block>.</block>
   <block id="3e0887648c519f4a3c16a1c61b2e8ec3" category="section-title">옵션 2: 슬롯이 없는 시스템에 입출력 모듈을 추가합니다</block>
@@ -6541,7 +6407,6 @@
   <block id="3f5fa7ca9a9d6129ce081b64cc104ab6" category="paragraph">섀시 교체를 완료하려면 특정 작업을 완료해야 합니다.</block>
   <block id="37ccf93c64c439daba8a7a5a18adf305" category="section-title">1단계: 섀시의 HA 상태 확인 및 설정</block>
   <block id="32574a63619099277d431cfd465fea0b" category="list-text">섀시의 HA 상태를 "ha-config modify chassis_ha-state_"로 설정합니다</block>
-  <block id="3f91c59c59a1243cb3f176daf3c9c054" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
   <block id="e81993a1d153ae6594cc7e0070093d6a" category="doc">하드웨어 이동 및 교체 - AFF A900</block>
   <block id="a30a15e944afabde046385685fec252c" category="paragraph">섀시를 교체하려면 이전 섀시에서 구성 요소를 분리하여 교체 섀시에 설치해야 합니다.</block>
   <block id="69c3b8cc95d3690f8df22cd6f70a3b78" category="inline-link">애니메이션 -- PSU 제거/설치</block>
@@ -6560,7 +6425,6 @@
   <block id="8da7df8c5a74dcac7b5b9a5067e72313" category="image-alt">drw a900 제거 LED 모드 교체</block>
   <block id="6b058f6aab05ab39cfb929fd3a13e5ad" category="paragraph">모듈을 꺼냅니다.</block>
   <block id="fdbcf566dc8794b2a2c635f286edfa2b" category="paragraph">섀시 밖으로 밀어냅니다.</block>
-  <block id="6e7d5178a758393b97e367ca3da27d68" category="list-text">각 노드에서 부팅이 시작되면 'Ctrl-C'를 눌러 부팅 메뉴에 Ctrl-C를 누릅니다.라는 메시지가 나타나면 부팅 프로세스를 중단합니다.</block>
   <block id="9cc3abf99d341ddf4468a9377444f16d" category="doc">손상된 컨트롤러를 종료합니다. - AFF A900</block>
   <block id="2aba05ee9a4093e5315b48903c27d988" category="doc">I/O 모듈 교체 - AFF A900</block>
   <block id="915d49d9990f69f4d3152ddfea76d324" category="inline-link">애니메이션 -- I/O 모듈 제거/설치</block>
@@ -6570,18 +6434,14 @@
   <block id="8c2fb795497456b969ba9307ef6f84c8" category="list-text">LOADER 프롬프트에서 node:_bye_를 재부팅합니다</block>
   <block id="b40d85db7a9de91cff53c5663c76daaf" category="list-text">노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode impaired_node_name'</block>
   <block id="65dc2e566ca79200d7c70bef0b947464" category="doc">OKM, NSE 및 NVE-AFF A900에 대한 부팅 후 미디어 교체 단계</block>
-  <block id="a18eb452b8ba972a5f3a705a455fac35" category="list-text">LOADER 프롬프트에서 boot_ONTAP 명령을 사용하여 노드를 부팅합니다.</block>
   <block id="9a35117ce5f367da3a3ca5116d861d73" category="list-text">부팅 메뉴에서 숨겨진 명령 recover_onboard_keymanager를 입력하고 프롬프트에 y를 입력합니다.</block>
   <block id="1491d378fbbc2d9a6048e5b9b67a396a" category="paragraph">백업 데이터 입력:</block>
-  <block id="da0c8baa25fcee791ffa412ec90044ca" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 admin으로 로그인합니다.</block>
   <block id="04767794ed138df3aa3f519e53e96bcc" category="list-text">'storage failover back-fromode local-only-CFO-aggregate true' 명령을 사용하여 CFO 애그리게이트만 반환하십시오.</block>
   <block id="56b9aa57eb07c87d93d8f36e42537891" category="list-text">CIFS 세션이 열려 있어 명령이 실패한 경우 고객에게 CIFS 세션을 닫는 방법을 확인하십시오.</block>
   <block id="99cf22e04f567c5375349f8aa14becd4" category="list-text">파트너가 "준비되지 않음" 상태이기 때문에 명령이 실패하면 NVRAM이 동기화될 때까지 5분 정도 기다립니다.</block>
   <block id="4d2b3834d59169dcbb17afc3c699e3ac" category="list-text">NDMP, SnapMirror 또는 SnapVault 프로세스로 인해 명령이 실패하면 프로세스를 해제합니다. 자세한 내용은 해당 콘텐츠를 참조하십시오.</block>
-  <block id="a69e3df3fc089f72b8d4244ee2e280dc" category="list-text">클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.</block>
   <block id="01644ff2aec9678b64ae01d076703f1a" category="paragraph">"false"로 표시된 인터페이스가 있으면 net int revert 명령을 사용하여 해당 인터페이스를 홈 포트로 되돌립니다.</block>
   <block id="681ec8b91432585ef548a814edeadbb6" category="paragraph">7단계로 이동합니다.</block>
-  <block id="894c5814238c15162364a7dd224a5a59" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 스토리지 페일오버 반환 -fromnode local -only-CFO-aggregate 실제 로컬 명령을 사용하여 타겟 노드 스토리지를 다시 제공합니다.</block>
   <block id="b17e311ccd8e21ff73506e54f24b6cfd" category="list-text">3분 동안 기다린 다음 storage failover show 명령을 사용하여 페일오버 상태를 확인합니다.</block>
   <block id="5af23d53e03e2919ad84a3f9112823ac" category="list-text">Key Manager type="external" 및 "restored" column = yes/true" 이외의 경우, security key-manager external restore 명령을 사용하여 인증 키의 키 ID를 복구한다.</block>
   <block id="3796dde1eb4771fdc94b7b6dd6b04cbf" category="list-text">Key Manager type="Onboard" 및 "restored" column = yes/true" 이외의 경우 보안 키 관리자 온보드 동기화 명령을 사용하여 Key Manager 유형을 다시 동기화하십시오.</block>
@@ -6617,7 +6477,6 @@
   <block id="513b4883451dec21bc772400c3a572d8" category="paragraph"><block ref="513b4883451dec21bc772400c3a572d8" category="inline-link-rx"></block></block>
   <block id="4a848babffe3702bffe9efa29dd12c61" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.</block>
   <block id="14df5008a24cd65fbb232505d17779b3" category="doc">장애가 발생한 부품을 NetApp-AFF fas8300 및 FAS8700으로 반환합니다</block>
-  <block id="fb346fbc4b16fda2d4c28fb66e0a91d8" category="list-text">서비스되는 노드가 LOADER 프롬프트에서 있지 않으면 'system node halt-node_node_name_' 노드를 재부팅합니다</block>
   <block id="9af1a70147e4372628e3cff0c1a8a31c" category="list-text">검사에 오류가 없는 경우 메뉴에서 "재부팅"을 선택하여 시스템을 재부팅합니다.</block>
   <block id="c1541e02506543efaa1d18ae5a171fa3" category="doc">시스템 회수 및 디스크 재할당 - FAS8300 및 FAS8700</block>
   <block id="7b69f40dd7d380028b22097976e23e5c" category="paragraph">시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.</block>
@@ -6628,7 +6487,6 @@
   <block id="6b9626d551065d925210f9a771e3cd6b" category="paragraph"><block ref="6b9626d551065d925210f9a771e3cd6b" category="inline-link-rx"></block></block>
   <block id="9839b9efeb4f2cb59f36a02a747b73cb" category="doc">시스템 복원 완료 - FAS8300 및 FAS8700</block>
   <block id="1db543711acdae9341bb66467bfc08e7" category="list-text">테스트가 실패하지 않은 것으로 보고되면 메뉴에서 "재부팅"을 선택하여 시스템을 재부팅합니다.</block>
-  <block id="bc6fa9fd41bd50f50a6f712cd33d5e4c" category="list-text">'storage failover 반환 - ofnode '_impaired_node_name_' 스토리지를 제공하여 노드를 정상 작동 상태로 되돌립니다</block>
   <block id="f406838ab1af1615895d90b4b0439c67" category="doc">상세 가이드 - FAS8300 및 FAS8700</block>
   <block id="b8147f57d8b446865b74bdfd192aaeff" category="paragraph"><block ref="b8147f57d8b446865b74bdfd192aaeff" category="inline-link-rx"></block></block>
   <block id="822120b36dbab2c3105a16492a2fc2fa" category="paragraph"><block ref="822120b36dbab2c3105a16492a2fc2fa" category="inline-link-rx"></block></block>
@@ -7257,7 +7115,6 @@
   <block id="3dad031ba5544f976b631ffad1564b7a" category="paragraph">스토리지를 다시 케이블로 연결하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.</block>
   <block id="536b0bd1a9c2b544d6cfae19d9289ea7" category="section-title">1단계: 시스템 케이블을 다시 연결합니다</block>
   <block id="b0da6837b9dc75b3c0fcca1c9c38d89b" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다. 구성에 맞는 절차를 사용해야 합니다.</block>
-  <block id="c6fcf31298ea00741e2a62b768872ba4" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 정상 노드인 'storage failover modify -node_replacement -node -name_-onreboot true'에서 활성화하십시오</block>
   <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">무엇을 &amp;#8217;필요로 할거야</block>
   <block id="6151adb4be9acf8b78f2772f645f81b4" category="list-text">컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.</block>
   <block id="6da80f62ccea3836d409604feffadf8e" category="summary">AFF A200 시스템 설명서를 참조하여 시스템을 설치, 설정, 유지보수할 수 있습니다.</block>
@@ -8164,13 +8021,11 @@
   <block id="bec1622a1f566276141766f76e4b1d70" category="list-text"><block ref="bec1622a1f566276141766f76e4b1d70" category="inline-link-rx"></block></block>
   <block id="1ee623098df2f7856a034824be882999" category="inline-link">외부 키 관리 암호화 키를 복원합니다</block>
   <block id="e10bd7c646b5f37d42df52bab6df6c64" category="list-text"><block ref="e10bd7c646b5f37d42df52bab6df6c64" category="inline-link-rx"></block></block>
-  <block id="9552018736df32cfcfe01f2b7f8925ce" category="paragraph">손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 노드의 상태를 확인하고, 자동 반환을 비활성화하고, 실행 중인 ONTAP 버전을 확인해야 합니다.</block>
   <block id="3c737345883504ebe7f0075c2e20f47e" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 컨트롤러를 계속 종료합니다.</block>
   <block id="9b744d081289382cce38c59e4b6d3f76" category="list-text">클러스터의 모든 볼륨에 NVE가 사용되고 있는지 확인합니다. 'volume show-is-encrypted true'</block>
   <block id="7ab4c93a1ecb36778005e21c2d800f15" category="paragraph">출력에 표시되는 볼륨이 하나라도 있으면 NVE가 구성되어 NVE 구성을 확인해야 합니다. 나열된 볼륨이 없으면 NSE가 구성되어 있고 사용 중인지 확인합니다.</block>
   <block id="9a8dafa2367c711dd5820d53a42508e9" category="list-text">NSE 설정 및 사용 여부 확인:'Storage encryption disk show</block>
   <block id="ad6e341d56390163e7fc8c5722a9e033" category="list-text">명령 출력에 모드 및 키 ID 정보가 포함된 드라이브 세부 정보가 표시되는 경우 NSE가 구성되어 있으며 NSE 구성을 확인하고 사용 중인 것입니다.</block>
-  <block id="7e5f25479cc97ea11694e5af634fc675" category="list-text">NVE와 NSE가 구성되지 않은 경우 NSE 키로 보호되는 드라이브가 없으므로 손상된 노드를 종료하는 것이 안전합니다.</block>
   <block id="c9c0cd0bbd81ff9ac4cc17d3dad4fb7c" category="list-text">키 관리 서버에 저장되어 있는 인증 키의 키 ID를 보안 키 관리자 키 쿼리 로 표시합니다</block>
   <block id="08c67f907b0f6c715c552d9ca4f21200" category="admonition">ONTAP 9.6 릴리스 후에는 추가 키 관리자 유형이 있을 수 있습니다. KMIP, AKV, GCP 등이 있다. 이러한 유형의 확인 과정은 외부 또는 온보드 키 관리자 유형을 확인하는 과정과 같습니다.</block>
   <block id="2647b6895add9d235f2ff89a28db2364" category="list-text">모든 인증 키에 대해 복원된 열이 예(보안 키 관리자 키 쿼리)와 같은지 확인합니다</block>
@@ -8181,11 +8036,9 @@
   <block id="7762733471d5b473835d903a5329768b" category="list-text">system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 y를 입력합니다</block>
   <block id="aae8c2f0334c863e9a3a9acb4beb0c27" category="list-text">정상 노드의 기존 시스템 ID를 보면 MetroCluster node show-fields node-systemid, dr-partner-systemid가 보입니다</block>
   <block id="64b5850437a6c5ede6e9cff83bdaf98e" category="list-text">명령을 입력하여 OKM 백업 정보 '보안 키 관리자 백업 표시'를 표시합니다</block>
-  <block id="f099c3d90bd5d885da1ab6eb776cdc1d" category="list-text">system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_node의 LOADER 프롬프트에서 노드를 부팅하고 "y"를 입력합니다</block>
   <block id="edfea1a2881be4e7bcc10dfa9c8b3fc6" category="admonition">컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지 손가락을 안쪽의 손가락 구멍을 통과하도록 합니다(팔을 교차함).</block>
   <block id="1262a5e3b93c18f0ba83db6f539c3e5b" category="paragraph">+ * 주의: *</block>
   <block id="96f3065963946bf7d4b37f70901cd2c8" category="paragraph">+를 적극적으로 누르면 배터리가 다시 배출될 수 있습니다.</block>
-  <block id="188f2d33c82265d54696d7fb9143f330" category="list-text">LOADER 프롬프트에서 _replacement_node에서 노드를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 나타나면 "y"를 입력합니다.</block>
   <block id="f05dc6ae866c89472a3f7a9b59aa3e6a" category="list-text">1 자기 드라이버를 사용하여 부트 미디어에 나사를 넣고 조이십시오.</block>
   <block id="aeafe9c2b3703d604c28ef5d13c03f76" category="list-text">1 자기 드라이버를 사용하여 교체용 컨트롤러 모듈 및 메자닌 카드의 전면에 있는 나사를 넣고 조입니다.</block>
   <block id="4a2546eb9c2e57bf15ddf11202689d7c" category="section-title">옵션 2: MetroCluster의 시스템</block>
@@ -8199,7 +8052,6 @@
   <block id="b301d69a6b0a95b2643c3f11f284ca2e" category="paragraph">시스템에 메자닌 카드가 없는 경우 새 메자닌 카드를 설치합니다. . 1 자기 드라이버를 사용하여 컨트롤러 모듈의 표면과 메자닌 카드 슬롯을 덮고 있는 면판에서 나사를 분리하여 자석에 안전하게 둡니다. . 정전기 방지 포장용 백에서 메자닌 카드를 분리하고 컨트롤러 모듈의 안쪽 면에 맞춥니다. . 메자닌 카드를 제자리에 조심스럽게 맞춥니다. . 1 자기 드라이버를 사용하여 컨트롤러 모듈 표면과 메자닌 카드에 있는 나사를 넣고 조입니다.</block>
   <block id="ffdeab5945e241ee6f7c030295c9824b" category="paragraph">+참고: 메자닌 카드의 나사를 조일 때 힘을 가하지 마십시오. 금이 갈 수 있습니다.</block>
   <block id="5d43aadf0265bbe861cd90a52514a118" category="list-text">컨트롤러 모듈을 섀시에 삽입합니다</block>
-  <block id="914e957c63d00c0138857ee04fb05826" category="paragraph">MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. ''MetroCluster node show-fields node-systemid'' 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</block>
   <block id="3520fe246261ba13b3370caf4fcfc36f" category="paragraph">환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)를 복원하는 특정 단계를 완료해야 합니다.</block>
   <block id="2a5c64cf16afc052ecc2fa22a6498fd8" category="list-text">백업 데이터를 입력하라는 메시지가 나타나면 이 섹션의 시작 부분에 캡처한 백업 데이터를 붙여 넣습니다. Security key-manager backup show 또는 security key-manager 온보드 show-backup 명령의 출력을 붙여 넣는다.</block>
   <block id="b1a9ca4c67f6b51a4dc8e3cdf1151948" category="admonition">이 데이터는 보안 키 관리자 백업 쇼 또는 보안 키 관리자 온보드 show-backup 명령을 통해 출력됩니다.</block>
@@ -8337,7 +8189,6 @@
   <block id="36db73d94b30571d5e78b69926c4ee10" category="doc">컨트롤러 모듈 교체 - FAS8200의 개요</block>
   <block id="52a61ff1e81c104a11ce1a58a38dd667" category="doc">컨트롤러 - FAS8200을 종료합니다</block>
   <block id="a42edb5535752c77f564dff66261535b" category="doc">컨트롤러 모듈 하드웨어 - FAS8200을 교체합니다</block>
-  <block id="82430a05d3820aeaeb756230e94ee643" category="doc">온보드 암호화 - FAS8200을 확인하십시오</block>
   <block id="8351404e0633e21cf67cb22047391a59" category="doc">부트 미디어 교체 개요 - FAS8200</block>
   <block id="f8a35054c2c3b7ffbacd941c8bc38831" category="doc">하드웨어 교체 - FAS8200</block>
   <block id="9bd3c449bc91b7e2a90bbc21bfbd5dcb" category="doc">컨트롤러 모듈 하드웨어(AFF A250)를 교체합니다</block>
@@ -8393,9 +8244,7 @@
   <block id="c1493a32213b959f5c9f8be86dfb9960" category="section-title">드라이브 드로어를 설치합니다</block>
   <block id="02b9f44accc14d7238a1f0607ea50e30" category="section-title">케이블 체인을 연결합니다</block>
   <block id="3fa677b8ecb97b0ae0d14f9ded5ed49a" category="doc">손상된 컨트롤러 종료 - FAS500f</block>
-  <block id="0d924155857f10f70fcab7b719b30403" category="summary">손상된 노드를 종료하기 전에 시스템에 NetApp Volume Encryption\(NVE\) 또는 NetApp Storage Encryption\(NSE\)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
   <block id="a27042b0e01fb9b4136d2de6e8c1db73" category="doc">온보드 암호화 키 확인 - FAS500f</block>
-  <block id="da85ea64fba60265c821242ceefcb18c" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 컨트롤러를 계속 종료합니다. 손상된 노드를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
   <block id="ee2afac6b0f5165d1fc3096864ac9a41" category="doc">섀시 교체 개요 - FAS500f</block>
   <block id="2bf23db896fc6ece8a7fd4c8db50ab7d" category="doc">컨트롤러 모듈 교체 개요 - FAS500f</block>
   <block id="609f905dd4d82082470b920d9a7de394" category="doc">컨트롤러 모듈 하드웨어 교체 - FAS500f</block>
@@ -8410,7 +8259,6 @@
   <block id="b5c7e371c94b117279a0ebbc15ea8bf3" category="doc">부팅 미디어 교체 - AFF A700s</block>
   <block id="6f932d5d73e623ce4a8447916188b6ea" category="doc">컨트롤러 모듈 하드웨어-AFF A200을 교체합니다</block>
   <block id="85b7f3e764e39327360545670dcedbf3" category="doc">컨트롤러 모듈 교체 개요 - AFF A200</block>
-  <block id="6652fbd1cfc662871893088153cbbc80" category="doc">손상된 노드-AFF A200을 종료합니다</block>
   <block id="2472604fcc7ccf02f05c6c66afaacc6c" category="doc">부트 미디어 교체 개요 - AFF A200</block>
   <block id="5dfe4c7eb319ce6f2ebfab2e157e0c1b" category="doc">섀시 교체 개요 - AFF A200</block>
   <block id="5fbbe4b96a5266b936c056caa3466c60" category="doc">구성 - AFF A200을 복원 및 확인하십시오</block>
@@ -8436,4 +8284,257 @@
   <block id="059d31543d448499bd1a9c454a8d1ebb" category="sidebar">Cisco 9336C-FX2</block>
   <block id="1c87a984d0a1c6881c9703209fd4341c" category="sidebar">공유 구성의 Cisco 9336-FX2</block>
   <block id="237aba816839b6ef546c40514ce24efe" category="sidebar">NetApp CN1610 스위치</block>
+  <block id="21a759f002cfc3385b168953dde9a34e" category="summary">복구 이미지에서 손상된 컨트롤러를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다.</block>
+  <block id="825f13ad9fc8dc2bdd837adbced6f40f" category="paragraph">복구 이미지에서 손상된 컨트롤러를 부팅하는 절차는 시스템이 2컨트롤러 MetroCluster 구성인지 여부에 따라 다릅니다.</block>
+  <block id="238e9bea2bdd4f731b75d630cdf207a3" category="list-text">정상 컨트롤러를 고급 권한 수준(Set-Privilege Advanced)으로 설정합니다</block>
+  <block id="9d237c44d908f71fb6254a95480574a2" category="list-text">제어기를 관리자 수준으로 되돌립니다: 'Set-Privilege admin'</block>
+  <block id="09224cb7028edd32132ee821e0073685" category="list-text">컨트롤러를 재부팅하라는 메시지가 나타나면 'y'를 누릅니다.</block>
+  <block id="324e677465a3eca81c578dca79975d76" category="list-text">컨트롤러를 LOADER 프롬프트로 가져가십시오.</block>
+  <block id="da3aca27b9eb9a6e192b169e434a93ae" category="list-text">파트너 컨트롤러에 로그인합니다.</block>
+  <block id="fd8f15b053a3b35d3aaa40b5f46c7fbc" category="list-text">'storage failover show' 명령을 사용하여 타겟 컨트롤러가 반환될 준비가 되었는지 확인합니다.</block>
+  <block id="5902a3ce474984c1a3dac5ba814ff133" category="list-text">콘솔 케이블을 파트너 컨트롤러에 연결합니다.</block>
+  <block id="432fbc80d952a560e7d764411dacca12" category="list-text">'storage failover -fromnode local' 명령을 사용하여 컨트롤러를 반환하십시오.</block>
+  <block id="8af929f5f2bb65d4fe36d9188a257bba" category="list-text">콘솔 케이블을 수리된 컨트롤러로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
+  <block id="3a11addb86720d7891a7b14fea7f4776" category="paragraph">손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</block>
+  <block id="22a3fad7c3cfdd379a652e4aa08aa70e" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="1baf9f7ecc4554f61d6168e4897ea002" category="inline-link-macro-rx"></block>.</block>
+  <block id="04b13459c31bdc128c187f2b882c3d74" category="list-text">정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다</block>
+  <block id="087b01deb1bef7c8b4ffe6fe81283666" category="list-text">손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</block>
+  <block id="ebc5673f419bc9da94f2c2f001aaf3ff" category="cell">손상된 컨트롤러가 표시되는 경우...</block>
+  <block id="966128cd96d65546b8f10085658600df" category="paragraph">정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다</block>
+  <block id="ecf5a2418096a3bd4f4e05f201a5c846" category="paragraph">손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.</block>
+  <block id="0c2cb7a10e04116783dbfedc59540a50" category="paragraph">손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.</block>
+  <block id="230cc8b63d72a2bf47b7c87ead7ab0b8" category="list-text">정상 컨트롤러에 전원을 공급하려면 이 절차의 마지막에 전원 공급 장치를 켜 두어야 합니다.</block>
+  <block id="eec0e5f9d553c7b70402acd4568f1ec7" category="list-text">MetroCluster 상태를 확인하여 장애가 있는 컨트롤러가 자동으로 정상 컨트롤러(MetroCluster show)로 전환되었는지 확인합니다</block>
+  <block id="4176d047c40d8635a978efe76111589d" category="cell">컨트롤러 손상 여부</block>
+  <block id="bc926a90924e14c99dbad976cbc306f6" category="paragraph">정상 컨트롤러 MetroCluster 절체 기능을 통해 계획된 절체 동작을 수행한다</block>
+  <block id="8377db96ff49e2b3bab4737836a8e0ce" category="paragraph">컨트롤러 -- permalink: a300/controller-replace-move-hardware.html sidebar: sidebar keywords: AFF a300, 컨트롤러 모듈 하드웨어 요약 이동: "컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고 FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음 섀시에 교체 컨트롤러 모듈을 설치하고 시스템을 유지보수 모드로 부팅해야 합니다." -- = 컨트롤러 모듈 교체 - AFF A300: 아이콘: font:imagesdir:../media/</block>
+  <block id="c4d9687f431492e0a90b422288606306" category="paragraph">컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
+  <block id="5882cd2f55c4bcf825c0675d56d4677a" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상적인 컨트롤러가 계속 작동 중지되는지 확인해야 한다는 프롬프트 경고 메시지가 표시됩니다. 이 메시지에 안전하게 'y'로 응답할 수 있습니다.</block>
+  <block id="6444f932b3d3398ef847475f65dde87a" category="paragraph">구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
+  <block id="399f225e1b570ae91edafe38ed1e3467" category="list-text">각 컨트롤러가 부팅을 시작할 때 'Press Ctrl-C for Boot Menu' 메시지가 나타나면 Ctrl-C를 눌러 부팅 프로세스를 중단합니다.</block>
+  <block id="1082bfd13ce3c25ccfc85ed699b54126" category="paragraph">진단 절차의 모든 명령은 구성 요소를 교체하는 컨트롤러에서 실행됩니다.</block>
+  <block id="a9aa9ee572e50473b1c62b2a894e2043" category="list-text">수리할 컨트롤러가 로더 프롬프트에 있지 않은 경우 다음 단계를 수행하십시오.</block>
+  <block id="2f550a4de949e9364b8ac6aefff7f6b7" category="list-text">컨트롤러가 유지보수 모드로 부팅된 후 컨트롤러를 정지시킵니다</block>
+  <block id="e467309a2d5b6f98a98b6db8bed54bfc" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상 상태의 컨트롤러가 계속 중지되었는지 확인해야 한다는 프롬프트 경고 메시지가 표시됩니다.</block>
+  <block id="9130288fde26913b149c87c0c3f09798" category="paragraph">컨트롤러에 LOADER 프롬프트가 표시됩니다.</block>
+  <block id="e98eb54c273dabf46f95d865ffe06863" category="list-text">LOADER 프롬프트에서 컨트롤러를 부팅합니다. bye</block>
+  <block id="ff8f74aeadb5ed14c3562a83de710ce2" category="list-text">컨트롤러를 정상 작동 상태로 되돌립니다.</block>
+  <block id="72b23f149d410394a99402b17b524532" category="cell">컨트롤러가 다음 상태인 경우:</block>
+  <block id="526e7908f5d2d796c1fb3cb3bcb64b9c" category="list-text">손상된 컨트롤러가 HA 쌍의 일부인 경우 정상 컨트롤러의 콘솔에서 '스토리지 페일오버 수정-노드 로컬-자동 반환 거짓'을 자동 반환하도록 해제합니다</block>
+  <block id="991329d4a586a51cc0b3ddeb5fcff6ed" category="paragraph">손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 후 y를 누릅니다.</block>
+  <block id="344b944036d11848a4eeafa033713d79" category="list-text">시스템이 HA 쌍인 경우 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러" 절차라고 함).</block>
+  <block id="e92b8f690c724e2a393908da2704794c" category="paragraph">이 절차를 사용해야 하는 경우 4 또는 8노드 MetroCluster 구성의 컨트롤러에 대한 컨트롤러 교체 절차는 HA 쌍의 컨트롤러 교체 절차와 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.</block>
+  <block id="915ea02a4ae87fc1e12a79bc77d53d29" category="list-text">이 절차에는 시스템 구성에 따라 드라이브를 _replacement_controller에 자동으로 또는 수동으로 재할당하는 단계가 포함되어 있습니다.</block>
+  <block id="c72dc8cc96be75f0f7be2979a08e7a3c" category="list-text">이 절차에서는 _ replacement_controller가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 _replacement_controller로 이동합니다.</block>
+  <block id="93693d8b94899fb843897083df3dfad1" category="list-text">impaired_controller는 교체되는 컨트롤러입니다.</block>
+  <block id="8fc18417b34debbf06d43a8004e7af83" category="list-text">replacement_controller는 손상된 컨트롤러를 교체하는 새로운 컨트롤러입니다.</block>
+  <block id="adb78e1174ae799e5d64ba90539a8d1a" category="list-text">healthy_controller는 정상적인 컨트롤러입니다.</block>
+  <block id="d1e26bcc4cbc247391931bd56755d0de" category="list-text">컨트롤러의 콘솔 출력을 항상 텍스트 파일로 캡처해야 합니다.</block>
+  <block id="8e7b0fd27b2fda4467ea9b412f6b1995" category="list-text">'show date' 명령으로 정상적인 컨트롤러의 날짜 및 시간을 확인한다.</block>
+  <block id="e09ab6999180d4e7f9a47f740144761f" category="list-text">대상 컨트롤러의 LOADER 프롬프트에서 시간 및 날짜를 확인합니다.</block>
+  <block id="988240067960851699de08084d42c5e5" category="list-text">대상 컨트롤러의 날짜 및 시간을 확인합니다.</block>
+  <block id="b35de7de64d5c3d839898e892a43a0c4" category="list-text">LOADER 프롬프트에서 BYE를 입력하여 PCIe 카드 및 기타 구성 요소를 재초기화하고 컨트롤러를 재부팅합니다.</block>
+  <block id="c06b17164dae22b3eba23ea33792b57c" category="list-text">스토리지 'storage failover back-ofnode_impaired_node_name_'을 제공하여 컨트롤러를 정상 작동 상태로 되돌립니다</block>
+  <block id="27be5ff3320dd506741c0dbef8e1a1d9" category="list-text">콘솔 케이블을 대상 컨트롤러에 연결합니다.</block>
+  <block id="58381527d135a27a6bde4b5bd05e7a8a" category="list-text">Loader 프롬프트에서 "boot_ontap" 명령을 사용하여 컨트롤러를 부팅합니다.</block>
+  <block id="be909ce65bf8d6df63809bd8c8368b35" category="paragraph">부팅 메뉴에서 boot_ontap menu로 컨트롤러를 부팅합니다</block>
+  <block id="bba0a4490b9b5d901440b4efe0a7eb1e" category="list-text">메시지: [y/n]을(를) 기다리지 않고 이 컨트롤러를 중지하시겠습니까? y를 입력합니다</block>
+  <block id="1510bdf514dfae1723f7a1f6b0ff03db" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 admin으로 로그인합니다.</block>
+  <block id="9b1d1f16f124136fae5f19f7571be4e8" category="list-text">콘솔 케이블을 대상 컨트롤러로 이동합니다.</block>
+  <block id="e5a640f18574a8775849c862d1047203" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동합니다.</block>
+  <block id="3626acf8f3fb043db8b4ec1fa9c88689" category="list-text">'storage failover -fromnode local' 명령을 사용하여 타겟 컨트롤러를 다시 제공합니다.</block>
+  <block id="fbca918423039255e9a6e82d918f66a5" category="list-text">클러스터 셸 프롬프트에서 "net int show -is -home false" 명령을 입력하여 홈 컨트롤러 및 포트에 없는 논리 인터페이스를 나열합니다.</block>
+  <block id="c1f75c987a465b1cc4e36d81f98dc0f6" category="list-text">콘솔 케이블을 대상 컨트롤러로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
+  <block id="22a48d4647a1c5395be2a1c92346ddfe" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하여 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 컨트롤러 스토리지를 반환하십시오.</block>
+  <block id="57280142f53f2468b01205668a497bd7" category="list-text">콘솔 케이블을 대상 컨트롤러로 이동하고 버전 '-v 명령'을 실행하여 ONTAP 버전을 확인합니다.</block>
+  <block id="4e413e090ef125caf56dbe5368109175" category="list-text">수리할 컨트롤러가 LOADER 프롬프트에서 없으면 컨트롤러를 "HALT"로 재부팅합니다</block>
+  <block id="a6662115bfcf9aca738911273292362c" category="list-text">컨트롤러에 하드웨어 문제가 없는지 확인합니다. 'ldiag 장치 상태 - long-state failed'</block>
+  <block id="eebf63bcf7fcba78ebd7e303619a4e75" category="list-text">각 컨트롤러를 유지보수 모드로 부팅합니다.</block>
+  <block id="0ac47fa5e6b32bbd32bc23dda31f6f48" category="paragraph">컨트롤러가 섀시에 완전히 설치되면 바로 부팅이 시작됩니다.</block>
+  <block id="742cf561af7f07544ddf9f3e66121452" category="paragraph">이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음 컨트롤러를 멈춰 로더로 부팅합니다.</block>
+  <block id="c8dc5733d35c41c184dc2e9c60fd8a12" category="admonition">구성하는 타겟 포트는 네트워크 연결을 통한 var 파일 시스템 복원 중에 정상적인 컨트롤러에서 손상된 컨트롤러와 통신하는 데 사용하는 타겟 포트입니다. 이 명령에서 e0M 포트를 사용할 수도 있습니다.</block>
+  <block id="8db7a5b6ece2af3b075639e41512d618" category="section-title">옵션 1: 컨트롤러를 종료합니다</block>
+  <block id="b5d03ef67a171c85bf4bd311e2fd75df" category="paragraph">새 섀시로 이동하기 전에 섀시의 컨트롤러 또는 컨트롤러를 종료해야 합니다.</block>
+  <block id="c53eb92ae6b734f0f5b5e257acb152cb" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상적인 컨트롤러에 자격 및 상태에 대해 "거짓"으로 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="1baf9f7ecc4554f61d6168e4897ea002" category="inline-link-macro-rx"></block>.</block>
+  <block id="93ff4b8a35c5f08ad3e97fdc9983948e" category="paragraph">클러스터에 2개의 컨트롤러</block>
+  <block id="a0540c64b7001eb9739a6eed390808ac" category="paragraph">2개 이상의 컨트롤러가 클러스터에 있습니다</block>
+  <block id="853a8c6f8383ee1dc5f3826af9ff6797" category="list-text">시스템 노드 halt-node_node_name_'을(를) 확인하는 메시지가 나타나면 컨트롤러를 중지하고 y를 누릅니다</block>
+  <block id="253a50052b60be1951a606aa7c311ba2" category="admonition">비휘발성 메모리(NVMEM/NVRAM)에서 기록되지 않은 데이터가 손실되지 않도록 섀시를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. 시스템에 따라 NVMEM/NVRAM LED가 깜박이면 NVMEM/NVRAM에 디스크에 저장되지 않은 콘텐츠가 있습니다. 컨트롤러를 재부팅하고 이 절차의 처음부터 시작해야 합니다. 컨트롤러를 완전히 종료하려고 반복적으로 시도하는 경우, 디스크에 저장되지 않은 데이터가 손실될 수 있습니다.</block>
+  <block id="8373aa3aac3c8f18564812bfcb55615a" category="list-text">해당되는 경우, HA 쌍 구성에서 쿼럼 오류 메시지가 발생하지 않도록 두 번째 컨트롤러를 중지합니다. '시스템 노드 halt-node_second_node_name_-ignore-quorum-warnings true-skip-lif-migration-before-shutdown true'</block>
+  <block id="4c10c8d9f18f0c8ba6fc3ea32f7beee4" category="list-text">HA 구성을 사용하는 경우 두 번째 컨트롤러에서 이전 단계를 반복합니다.</block>
+  <block id="6d21dbcd6d30fc2426dd0b077d719da5" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
+  <block id="d1614290531967ae3b3623d71b4ed961" category="paragraph">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 실행 중인 ONTAP 버전을 확인해야 합니다.</block>
+  <block id="dcaee2dcae546228e31a0898bd961734" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="5f63b18eda466634ee235fd0cb5a9d6a" category="inline-link-macro-rx"></block>.</block>
+  <block id="6d4079af860d745f44d13bfe9834115d" category="list-text">손상된 컨트롤러의 상태를 점검합니다.</block>
+  <block id="6f0786e478994e04512bb55e945ab79c" category="list-text">손상된 컨트롤러가 로그인 프롬프트에 있으면 admin으로 로그인합니다.</block>
+  <block id="1f543f99cb43496b3a35f9786089c979" category="list-text">손상된 컨트롤러가 로더 프롬프트에 있고 HA 구성의 일부인 경우 정상 컨트롤러에 admin으로 로그인합니다.</block>
+  <block id="52172eb9e905726c940b5894e2ccc281" category="list-text">장애가 있는 컨트롤러가 독립 실행형 구성이고 로더 프롬프트에서 에 문의하십시오 <block ref="fbe7ba585c90dfc99f38e8779c97c5f3" category="inline-link-macro-rx"></block>.</block>
+  <block id="efed560995ba912dfc2aa959620707ff" category="list-text">손상된 컨트롤러가 작동 중일 경우 손상된 컨트롤러에서 실행 중인 ONTAP 버전을 확인하거나, 손상된 컨트롤러가 다운된 경우 rsion -v 명령을 사용하여 파트너 컨트롤러에서 실행 중인 버전을 확인합니다.</block>
+  <block id="24b6214418480e5248eaed7a69ead79c" category="list-text">손상된 컨트롤러가 HA 구성의 일부인 경우 정상적인 컨트롤러에서 자동 반환 비활성화: '스토리지 페일오버 수정 - 노드 로컬 - 자동 반환 거짓' 또는 '스토리지 페일오버 수정 - 노드 로컬 - 자동 반환 - 패닉 후 거짓</block>
+  <block id="5a9f897d2d5283081378f66d6ed3cb7a" category="paragraph">손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
+  <block id="a66e142cebcfd6f8d676e487cf4cc04c" category="list-text">콘솔 케이블을 손상된 컨트롤러에 연결합니다.</block>
+  <block id="d13e2b9934c9ee03ca8acee53a7c7ab8" category="list-text">NVE와 NSE가 구성되지 않은 경우 손상된 컨트롤러를 종료하는 것이 안전합니다.</block>
+  <block id="a4dd34bde59d47a4d8ab4374389ea809" category="list-text">복원된 열에 예 가 표시되고 모든 키 관리자가 사용 가능 을 표시하면 손상된 컨트롤러를 종료할 수 있습니다.</block>
+  <block id="215eb27cc249e5b8e5b527e07342268c" category="list-text">손상된 컨트롤러를 종료합니다.</block>
+  <block id="b0ca95eab963c35c3d977c396c4acc7d" category="list-text">컨트롤러를 안전하게 종료할 수 있습니다.</block>
+  <block id="9e81e760541928935bc75be3ec2823a3" category="list-text">컨트롤러를 안전하게 종료할 수 있습니다.</block>
+  <block id="dbb06a74442cb70fc4d49f092b265be8" category="paragraph">손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
+  <block id="d592a26ccf1ea8ee5faa30f916fd2fb6" category="list-text">NVE와 NSE가 구성되지 않은 경우 NSE 키로 보호되는 드라이브가 없으므로 손상된 컨트롤러를 종료하는 것이 안전합니다.</block>
+  <block id="bc06dd585ab0c8107e022844d1397b0b" category="list-text">키 관리자 유형이 외형이고 복원된 칼럼에 예라고 표시되면 손상된 컨트롤러를 차단하는 것이 안전합니다.</block>
+  <block id="f5febbe164036410d93a5fc97b5bb033" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.</block>
+  <block id="099c2029bb447e3da034bae16f902b90" category="cell">손상된 컨트롤러가 표시되는 경우...</block>
+  <block id="ec47857c388eff31e9962f4f2e2ce2e5" category="paragraph">정상적인 컨트롤러인 'storage failover takeover -ofnode impaired_node_name'에서 손상된 컨트롤러를 인수하거나 중단합니다</block>
+  <block id="653275a6740924b891457d92a9cbc8ef" category="section-title">1단계: 컨트롤러를 종료합니다</block>
+  <block id="e7715fbdf353439bc04c101e641a6a00" category="list-text">서비스되는 컨트롤러가 LOADER 프롬프트에 있지 않으면 'system node halt-node node node_name' 컨트롤러를 재부팅합니다</block>
+  <block id="736818ee29ba3143ee0a9e06231deb0e" category="list-text">정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러"라고 함).</block>
+  <block id="dc034442a42b074e0609ba09ebc77d0e" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
+  <block id="af645d133cdcbcc30956c0bb802a4d34" category="list-text">화면에 표시되는 손상된 컨트롤러의 IP 주소를 기록합니다.</block>
+  <block id="c619d3b97fd49137c962a0b53f5ded67" category="list-text">고급 권한 레벨의 파트너 컨트롤러에서 이전 단계에서 기록한 'system node restore-backup-node local-target-address_impaired_node_ip_address_'를 사용하여 구성 동기화를 시작한다</block>
+  <block id="b070946475ca76a9891046ef46e3262c" category="list-text">복원이 성공하면 복원된 복사본을 사용하라는 메시지가 나타나면 손상된 컨트롤러에서 y를 누릅니다.</block>
+  <block id="0d1483a76a1f71437aa9197bfa562122" category="list-text">백업 절차가 성공했는지 확인한 후 컨트롤러를 재부팅하라는 메시지가 나타나면 y를 누릅니다.</block>
+  <block id="7f5d701a64318868c16d00d43b911d93" category="list-text">컨트롤러를 재부팅합니다.</block>
+  <block id="dc2fb67295c2f173a720e03d73f0e627" category="list-text">손상된 컨트롤러가 재부팅되고 "Waiting for 반환..." 메시지가 표시되면 정상 컨트롤러에서 반환을 수행하십시오.</block>
+  <block id="ff02ca9b372ecd5e7de683ed182d26e4" category="paragraph">손상된 컨트롤러에 'Waiting for 반환...' 메시지가 표시되면 정상 컨트롤러에서 반환을 수행하십시오.</block>
+  <block id="9bdcceabcaeaceb62327dbad774d83fd" category="list-text">정상적인 컨트롤러:'Storage failover 반환 - ofnode PARTNER_NODE_NAME'에서</block>
+  <block id="7ca421ecacbe47c97cfdc6f02bceeb1b" category="paragraph">손상된 컨트롤러는 스토리지를 다시 가져와 부팅을 완료한 다음 다시 부팅하여 정상적인 컨트롤러에 의해 다시 수행됩니다.</block>
+  <block id="3228093fe4dbdd24659a9a88f379aa09" category="list-text">정상 컨트롤러에서 고급 권한 수준을 종료합니다.</block>
+  <block id="6e831181b071042488de60792bba5661" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. _replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
+  <block id="16d0a8dc4c1c1d9b90797e5493036465" category="list-text">replacement_controller가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
+  <block id="38c6311b7d9271edd32d4452d105b150" category="list-text">system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 y를 입력합니다</block>
+  <block id="fd5e721decb7ad09b3247ff55a584c6a" category="list-text">replacement_controller 콘솔에 'Waiting for 반환...' 메시지가 표시될 때까지 기다린 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 지정되었는지 확인합니다. 'storage failover show</block>
+  <block id="f3c1f72d4855105033eafe078ecc921c" category="paragraph">명령 출력에는 손상된 컨트롤러에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.</block>
+  <block id="2b740998f7a4b1a34ad6d12ae61f81fd" category="list-text">정상적인 컨트롤러에서 코어 덤프가 저장되었는지 확인합니다.</block>
+  <block id="df0e46df74ce50bde919f4a670392378" category="list-text">컨트롤러를 다시 제공합니다.</block>
+  <block id="af998da379a6b1d6bab64a94ebad8ee0" category="list-text">정상적인 컨트롤러에서 교체된 컨트롤러의 스토리지를 다시 제공합니다. 'storage failover 반환 - ofnode_replacement_node_name_'</block>
+  <block id="e83f2f623a5ecd01a2bc3c69f3cce4cb" category="paragraph">replacement_controller가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
+  <block id="1cd605139bf377c8532c404fdbca04f0" category="paragraph">_replacement_controller에 속하는 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
+  <block id="10f72301134f1f2b78e11983dd3c4654" category="list-text">각 컨트롤러에 대해 예상되는 볼륨이 'vol show-node-name'인지 확인합니다</block>
+  <block id="e5fb91f466e4f9bded3cae7f56b2a15e" category="list-text">재부팅 시 자동 테이크오버 기능을 사용하지 않도록 설정한 경우 정상 컨트롤러에서 활성화하십시오. 'storage failover modify -node replacement -node -name -onreboot true'</block>
+  <block id="71f1fa980323b48bfcd7c23a6851e346" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 "admin"으로 로그인합니다.</block>
+  <block id="6fb459fd46b17c9a37607abf2db84056" category="section-title">1단계: ONTAP에서 교체 컨트롤러에 대한 라이센스를 설치합니다</block>
+  <block id="3b3499594ea137775f7c8cecc49f8655" category="paragraph">* 컨트롤러가 HA 쌍 * 인 경우 'storage failover back - ofnode_replacement_node_name_'을 수행합니다</block>
+  <block id="cb26d26c354a0f934343a4ed5435dc22" category="paragraph">* 컨트롤러가 독립 실행형 구성 * 인 경우 다음 단계를 진행합니다. 별도의 조치가 필요하지 않습니다.</block>
+  <block id="51e6a2fb5c6f27756e90e2666efd984d" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.</block>
+  <block id="d1342671e7a1aeffea6df3cd0214be86" category="list-text">이 절차는 중단을 따릅니다. 2-컨트롤러 클러스터의 경우, 다중 노드 클러스터의 서비스 운영이 중단되어 부분 중단이 발생할 수 있습니다.</block>
+  <block id="4fa4535552a76ba6abb695db42b48161" category="paragraph">이 절차를 사용해야 하는 경우 4 또는 8 컨트롤러 MetroCluster 구성의 컨트롤러에 대한 컨트롤러 교체 절차는 HA 쌍의 컨트롤러 교체 절차와 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.</block>
+  <block id="1c35b5fd0eb2c66f98019f6d2ea253e2" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="5ad5e3145183bec8ce765d99b2db775a" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
+  <block id="f360cbc0b1776cef715c46bbf963f211" category="paragraph">컨트롤러---permalink:fas8200/bootmedia-encryption-preshutdown-checks.html 사이드바: 사이드바 키워드: fas8200, 온보드 암호화 키에 대한 사전 종료 검사 요약: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. -- = 온보드 암호화 확인 - FAS8200: 아이콘: 글꼴: imagesdir:../media/</block>
+  <block id="c83b964c98e24aa342fa8069ffd85dd0" category="list-text"><block ref="c83b964c98e24aa342fa8069ffd85dd0" category="inline-link-macro-rx"></block></block>
+  <block id="f51c8858085d7dcfe4d79d9774f8270d" category="paragraph">_replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
+  <block id="58d1979204cdde4ca641ddc56ae5fe91" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다. 부트 ONTAP</block>
+  <block id="4d3408827df16f2063082b26e489e785" category="summary">손상된 컨트롤러 모듈을 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</block>
+  <block id="f3ccc6a1c062dbba61f459b0e8b57597" category="list-text">SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지(이벤트 로그 표시)를 확인해야 합니다.</block>
+  <block id="d9d59ddb1bc0ff1000e4664413e713fe" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다.</block>
+  <block id="6887fe4f6ef917daf3d3f454ae837e99" category="list-text">시스템이 MetroCluster 구성인 경우 컨트롤러 상태 'MetroCluster node show'를 모니터링한다</block>
+  <block id="e8d2a192788fc79eb80ab29e07304094" category="paragraph">MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이 경우 각 컨트롤러에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</block>
+  <block id="82f6c604031bc8c9d9a996a31fa2e842" category="list-text">컨트롤러가 MetroCluster 구성에 있는 경우 MetroCluster 상태에 따라 원래 소유자가 재해 사이트의 컨트롤러인 경우 DR 홈 ID 필드에 디스크의 원래 소유자가 표시되는지 확인합니다.</block>
+  <block id="83df237f35401e5686540721c993131c" category="list-text">replacement_controller는 재해 사이트에 있는 디스크의 현재 소유자입니다.</block>
+  <block id="ce6027c9ce6b680c0adbb4a4d26235ed" category="list-text">시스템이 MetroCluster 구성인 경우 각 컨트롤러가 'MetroCluster node show-fields configuration-state'로 구성되어 있는지 확인합니다</block>
+  <block id="a99f211848e0a3fa987df05f364dcc0b" category="doc">컨트롤러 AFF A250을 종료합니다</block>
+  <block id="3df4b609e8276258189914063ffb17c2" category="list-text">다음 단계의 명령을 올바른 컨트롤러에 적용하는 것이 중요합니다.</block>
+  <block id="6ecaf183574ece325cced3bb483dfdf9" category="list-text">impaired_node는 유지 관리를 수행하는 컨트롤러입니다.</block>
+  <block id="d5e5a42c3659480b5bd0d7fe962a3e0d" category="list-text">healy_node는 손상된 컨트롤러의 HA 파트너입니다.</block>
+  <block id="aae78f4a3d47a08dddca98a632d4a75f" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우, 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다.</block>
+  <block id="852ccbca31b38b90e5621b15b3d30e1b" category="paragraph">손상된 컨트롤러가 반환 대기 중인 것으로 나타나면 컨트롤러 장애 조치 takeover -ofnode_impaired_node_name _ 을(를) 인계하거나 중단합니다. 이때 손상된 컨트롤러가 반환 대기 중인 것으로 나타나면 Ctrl+C를 누른 후 y를 누릅니다.</block>
+  <block id="fdd4547d2c765390cc53d47d00b7ed31" category="list-text">서비스되는 컨트롤러가 LOADER 프롬프트에 있지 않으면 'system node halt-node_node_name_' 컨트롤러를 재부팅합니다</block>
+  <block id="bf333756fca94003818a0db8ced6f7d9" category="list-text">스토리지 페일오버 반환 -ofnode '_impaired_node_name_'의 스토리지 장애 복구를 통해 컨트롤러를 정상 작동 상태로 되돌립니다</block>
+  <block id="855366b23fbc8af0c5a01bb5529b380c" category="list-text">교체 노드 _ 는 장애가 있는 컨트롤러를 교체하는 새로운 컨트롤러입니다.</block>
+  <block id="ed5c161a1791c86ccb545adc60653369" category="paragraph">이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음 로더로 부팅하려면 컨트롤러를 "중지"하십시오.</block>
+  <block id="aeb37e440c5f2e1087a4396fdd1d260b" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
+  <block id="c41b3a61f99c2acfc4df4b56cbc1ea35" category="section-title">옵션 2: 2노드 MetroCluster 구성에서 컨트롤러를 종료합니다</block>
+  <block id="1608b002e3cca4d10cc4ab135e0d2578" category="list-text">컨트롤러가 유지보수 모드로 부팅된 후 컨트롤러를 중지합니다.</block>
+  <block id="1b5c5dedf8f50eb0bb4d148da7d3ebda" category="list-text">정상 상태의 컨트롤러를 고급 권한 수준으로 설정:</block>
+  <block id="3aa5ba6c23dcd3a8c88fb26dd933a5e4" category="list-text">컨트롤러를 admin 레벨로 되돌립니다.</block>
+  <block id="34787acdddb9fc6fe721e719a262d6aa" category="list-text">컨트롤러를 재부팅하라는 메시지가 나타나면 '* y*'를 누릅니다.</block>
+  <block id="ca305e69a315b30dad8d789c197489f9" category="doc">컨트롤러 종료 - AFF C190</block>
+  <block id="29a2d452ed2d564c438c1ea95d20a0a8" category="list-text">수리할 컨트롤러가 로더 프롬프트에 있지 않으면 컨트롤러를 재부팅합니다.</block>
+  <block id="4e8183e059c2de281c12f4e36b356634" category="list-text">컨트롤러에 하드웨어 문제가 없는지 확인합니다.</block>
+  <block id="ab16b7659f1f3d151837f3f6574edbce" category="paragraph">컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
+  <block id="f9d753fddfdd4cf75bdcf826d545a576" category="list-text">impaired_controller는 유지 관리를 수행하는 컨트롤러입니다.</block>
+  <block id="e4107ee9d71fad92265b6222f2822ad8" category="list-text">healy_controller는 손상된 컨트롤러의 HA 파트너입니다.</block>
+  <block id="ecc93de5d9e6d1de2c8f307f37c933d1" category="list-text">replacement_controller가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다.</block>
+  <block id="1ece66f8bf58294a3a5da700df5daffe" category="list-text">system ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 '* y*'를 입력합니다.</block>
+  <block id="ad40e97175b514d2c81a91067ad04ed7" category="list-text">replacement_controller 콘솔에 'Waiting for 반환...' 메시지가 표시될 때까지 기다린 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.</block>
+  <block id="65ae07541c754093eda9cd898cf890f7" category="list-text">정상적인 컨트롤러에서 교체한 컨트롤러의 스토리지를 다시 제공합니다.</block>
+  <block id="2e02c080662f8fd550785b87be3c1144" category="list-text">각 컨트롤러에 대해 예상 볼륨이 있는지 확인합니다.</block>
+  <block id="f7e34e40e37b03149dbadb73b8513476" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 정상 컨트롤러에서 이를 활성화합니다.</block>
+  <block id="86c3969f421b58d4b4b270ed1fb7b003" category="section-title">1단계: ONTAP에서 교체 컨트롤러에 대한 라이센스 설치</block>
+  <block id="2a0338d4b284b44bbd6e5b5a0e564e4f" category="paragraph">image_name.tgz가 설치되면 시스템은 정상적인 컨트롤러에서 백업 구성('var' 파일 시스템)을 복원하라는 메시지를 표시합니다.</block>
+  <block id="922768ec58831cabe5b129a1aa26dc78" category="paragraph">컨트롤러가 재부팅되면 시스템 사용을 시작할 수 있습니다.</block>
+  <block id="fec1ee82d47382a6acadcb4104dd3ce3" category="paragraph">손상된 컨트롤러에 'Waiting for Giveback...' 메시지가 표시되면 정상 컨트롤러에서 Giveback을 수행합니다.</block>
+  <block id="b93b2e31999c0ef2197b846adf6fd32d" category="list-text">정상 컨트롤러에서 반환 수행:</block>
+  <block id="85e5c14e4c98322df87028e0cafd79a7" category="paragraph">이렇게 하면 손상된 컨트롤러의 Aggregate 및 볼륨을 정상 컨트롤러에서 손상된 컨트롤러로 되돌리는 프로세스가 시작됩니다.</block>
+  <block id="31cf13c61d40269ec7d8237264ca25ba" category="open-title">대부분의 시스템</block>
+  <block id="5ab3b65334d9648ac44bf62025764ce2" category="section-title">2단계: 컨트롤러를 제거합니다</block>
+  <block id="f1eb9bf0f474a83bbe6d11b59f16da8c" category="list-text">스토리지 'storage failover 반환 - ofnode impaired_node_name'을 반환하여 컨트롤러를 정상 작동 상태로 되돌립니다</block>
+  <block id="bced3f55c14cfa1d16ca32cbbb0b1d97" category="list-text">손상된 컨트롤러를 고급 권한 수준(Set-Privilege Advanced)으로 설정합니다</block>
+  <block id="19e5239645b6945e8296ea6ae040ed4c" category="list-text">손상된 컨트롤러를 관리자 수준으로 되돌리려면: 'Set-Privilege admin'을 선택합니다</block>
+  <block id="fc86636cc733253cec13dbbddcd9f251" category="list-text">손상된 컨트롤러를 재부팅하라는 메시지가 나타나면 'y'를 누릅니다.</block>
+  <block id="35e25520eae4191769a5f17749607c22" category="list-text">손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</block>
+  <block id="5d5be5511db4bca75b01ab22c4adf4ce" category="list-text">'storage failover show' 명령을 사용하여 타겟이 반환 준비가 되었는지 확인합니다.</block>
+  <block id="6895f6bac75ce22d9b20367054acb577" category="list-text">스토리지 페일오버 반환 -fromnode local 명령을 사용하여 컨트롤러를 다시 제공합니다.</block>
+  <block id="05de3ff101e97b558e9ecd1a48f59f80" category="list-text">콘솔 케이블을 수리된 시스템 종료로 옮기거나 해당 구성에 적합한 절차에 따라 손상된 컨트롤러를 인수하십시오. version -v 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
+  <block id="c03d9a33e888c8ba0969d655b0bb1791" category="list-text">컨트롤러를 정상 작동 상태로 되돌립니다.</block>
+  <block id="0b0ce175074093bb880164e8608f30ab" category="list-text">Loader 프롬프트에서 boot_ONTAP 명령을 사용하여 컨트롤러를 부팅합니다.</block>
+  <block id="c44f1e5dca108a88d3a5c0122cfaad60" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 admin으로 로그인합니다.</block>
+  <block id="6c8465bcaf5ce5fddf9eade0934b0fcf" category="list-text">클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 컨트롤러 및 포트에 없는 논리 인터페이스를 나열합니다.</block>
+  <block id="3e18dc9be2b2d52bb3684dd323591a77" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하여 스토리지 페일오버 반환 -fromnode local -only-CFO -aggregate 실제 로컬 명령을 사용하여 타겟 컨트롤러 스토리지를 다시 제공합니다.</block>
+  <block id="68a1306a8c08262df17717b7309d7609" category="list-text">시스템이 HA 쌍인 경우 파트너 컨트롤러는 교체되는 NVRAM 모듈과 연결된 컨트롤러를 인수할 수 있어야 합니다.</block>
+  <block id="1e27080aaa4839341247d89fa27230f6" category="list-text">손상된 컨트롤러는 유지 관리를 수행하는 컨트롤러입니다.</block>
+  <block id="cb82be680779cb2f6fe87d5303395ca3" category="list-text">정상적인 컨트롤러는 손상된 컨트롤러의 HA 파트너입니다.</block>
+  <block id="75058bf61b1188ee8304798f89ca02bf" category="paragraph">교체 컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
+  <block id="fa0bfd482c7a3a6dfc65930e176b0502" category="list-text">교체 컨트롤러가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다</block>
+  <block id="ba6fae1de76d6230e1c74a17242ebf97" category="list-text">교체 컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력합니다.</block>
+  <block id="a0d04de6e8774043ed7dd31ce11a9577" category="list-text">교체 컨트롤러 콘솔에 반환 대기 중... 메시지가 표시된 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. '스토리지 페일오버 표시'</block>
+  <block id="590ef635c433371eead20b940bf6c429" category="list-text">정상적인 컨트롤러에서 교체된 컨트롤러의 스토리지를 다시 제공합니다. 'storage failover 반환 - ofnode replacement_node_name'</block>
+  <block id="4cd2ac4c22d2d6323c4f80d036ea5320" category="paragraph">교체 컨트롤러가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
+  <block id="5e0cea5d67aaa32c62721aadfacd5df4" category="paragraph">교체 컨트롤러에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
+  <block id="11cd58ab2810de65be01109093020b63" category="list-text">교체 컨트롤러는 재해 사이트에 있는 디스크의 현재 소유자입니다.</block>
+  <block id="3f0db9aa8dd4145d2c4b64ea3481303a" category="list-text">이 절차에서는 교체 컨트롤러가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 교체 컨트롤러로 이동합니다.</block>
+  <block id="c679e8417b3c86837c70fa5e162e77a6" category="list-text">손상된 컨트롤러는 교체되는 컨트롤러입니다.</block>
+  <block id="df958dff87a8c819a8e0b81a1b306ead" category="list-text">교체 컨트롤러는 손상된 컨트롤러를 교체하는 새로운 컨트롤러입니다.</block>
+  <block id="283fab4cea5d664827b937416e41a5e5" category="list-text">정상적인 컨트롤러는 작동하는 컨트롤러입니다.</block>
+  <block id="92a410b1608886e36ab28b2f459ca694" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상 상태의 컨트롤러가 계속 중지되는지 확인하는 경고 메시지가 표시되는 경우</block>
+  <block id="e7e0acd4a94a610862553a655c0372a3" category="list-text">대상 컨트롤러 'storage failover takeover-ofnode target_node_name'을 인수합니다</block>
+  <block id="0a7ae7a43062cf45861e620d40d10ab9" category="paragraph">콘솔 연결에서는 테이크오버가 완료되면 컨트롤러가 로더 프롬프트로 드롭됩니다.</block>
+  <block id="f741156cf7f3ded008481322de2de820" category="list-text">LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _bye_</block>
+  <block id="ff307501f6507919aa7c2196b367a42d" category="list-text">파트너 컨트롤러에서 컨트롤러를 다시 제공합니다. 'storage failover - ofnode target_node_name'을 선택합니다</block>
+  <block id="cf261a4e73438cb00bd1e7a2fef7257c" category="list-text">각 컨트롤러가 부팅을 시작할 때 Press Ctrl-C for Boot Menu 메시지가 표시되면 'Ctrl-C'를 눌러 부팅 프로세스를 중단합니다.</block>
+  <block id="e369528dc9f39a1a8434ddc29b3f9179" category="list-text">replacement_controller가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
+  <block id="9e5146e0b81862c730b75bdd6321c3d7" category="paragraph">MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이 경우 각 컨트롤러에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. ''MetroCluster node show-fields node-systemid'' 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</block>
+  <block id="0443683677e40fa41815d2d7edef042b" category="doc">컨트롤러-FAS2600을 종료합니다</block>
+  <block id="335674b10e9fdcf2eb342bef30970801" category="list-text">시스템에 섀시에 하나의 컨트롤러 모듈만 있는 경우 전원 공급 장치를 끈 다음 손상된 컨트롤러의 전원 코드를 전원에서 분리합니다.</block>
+  <block id="b6ea0c6054b7f5b7832dafbb8468dc0f" category="paragraph">손상된 컨트롤러를 인수하거나 중단합니다.</block>
+  <block id="4571f480b4cb6246b64d91e6cacdf34c" category="list-text">HA 쌍의 경우 정상적인 컨트롤러에서 손상된 컨트롤러를 넘겨받습니다. 'storage failover -ofnode_impaired_node_name_'</block>
+  <block id="0ebf647b3184259131a8c1ffcdea60dc" category="list-text">system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다</block>
+  <block id="e033b8601f70c600b73dc01580794ef1" category="summary">손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption\(NVE\) 또는 NetApp Storage Encryption\(NSE\)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
+  <block id="8b97c720bb08aa0118f13600478e225f" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 컨트롤러를 계속 종료합니다. 손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
+  <block id="4ca27b7e1f4aad146e9ddc45f9af0410" category="doc">컨트롤러 종료 - FAS500f</block>
+  <block id="2523dbc6a24be97a9e6522ed8cc0a2da" category="paragraph">permalink: fas500f/bootmedia-replace.html sidebar: sidebar keywords: fas500f, 부팅 미디어 요약: "부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 공기 덕트를 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다." 부팅 미디어 교체 - FAS500f: 아이콘: font:imagesdir:../media/</block>
+  <block id="2a468fdd2649c2bddd5f46d0d16b08af" category="doc">손상된 컨트롤러 - AFF A700s를 종료합니다</block>
+  <block id="abb3159815c7d305ec1a9697a5ec0fef" category="summary">컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
+  <block id="a3d92d77da598c2538c04939f7322e49" category="list-text">아직 접지되지 않은 경우, propertlcontrolleround를 사용합니다.</block>
+  <block id="a14d65aea00503e78c39b9273b38fa4e" category="paragraph">AFF A700s에는 1차 및 2차 또는 백업 부팅 미디어라는 2개의 부팅 미디어 장치가 있습니다. 손상된 컨트롤러에서 _replacement_controller로 이동한 다음 _replacement_controller의 해당 슬롯에 설치해야 합니다.</block>
+  <block id="d0a414fa814c592a9fcc74f3aaae710b" category="paragraph">장애가 있는 컨트롤러 'storage failover -ofnode_impaired_node_name_'을(를) 인수하거나 중단합니다</block>
+  <block id="e160675dcb2bc6ebdb28380884820e26" category="paragraph">손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 누릅니다.</block>
+  <block id="fc9b566637bbcf2a8a0459c61e065654" category="doc">controller-AFF A700s를 종료합니다</block>
+  <block id="499f2b4faaecf09ce2df725ed89b18e0" category="list-text">복원된 복사본의 사용 여부를 묻는 메시지가 표시되면 y를 누른 다음 컨트롤러를 재부팅하라는 메시지가 나타나면 y를 누릅니다.</block>
+  <block id="018ed71ecc770af5fd2b70a8cffb7032" category="paragraph">ONTAP 프롬프트에서 'system node halt-skip-lif-migration-before-shutdown true-ignore-quorum-warnings true-inhibit-takeover true' 명령을 실행할 수 있습니다.</block>
+  <block id="6be69aa70f07d7fff388bde809e5a5ae" category="list-text">시스템이 HA 쌍 내에 있는 경우, 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다(""손상된 노드" 절차라고 함).</block>
+  <block id="7343fb79026ff743ff1923cdd971a19f" category="list-text">이 절차에서는 _ replacement_node가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 _replacement_node로 이동합니다.</block>
+  <block id="a555f92ceccdc34af0d85dfd74c70d5b" category="list-text">impaired_node는 교체되는 컨트롤러입니다.</block>
+  <block id="5c3bec8c76d405798259f46c3a7883c5" category="list-text">replacement_node는 손상된 컨트롤러를 교체하는 새 컨트롤러입니다.</block>
+  <block id="7963bf953f9aa62d4e259bcb0523a139" category="list-text">healthy_node는 정상적인 컨트롤러입니다.</block>
+  <block id="4d81c64d68f7eeb09101e0c5153a1dfa" category="list-text">refacement_controller의 LOADER 프롬프트에서 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력하여 컨트롤러를 부팅합니다</block>
+  <block id="ea22b9523724a1472e9a6474903abd69" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 정상 컨트롤러 'storage failover modify -node_replacement -node -name_-onreboot true'에서 활성화하십시오</block>
+  <block id="82b742085f424ab9b6b3cdea2a76ee8d" category="paragraph">클러스터에서 컨트롤러 2개 사용</block>
+  <block id="f810400e8f6c8db0e850e30403d338b7" category="paragraph">2개 이상의 컨트롤러가 클러스터에 있습니다</block>
+  <block id="3b1cae4630f47c8bafa2138c896b9e8d" category="list-text">'storage failover -fromnode local' 명령을 사용하여 컨트롤러를 반환하십시오</block>
+  <block id="1bab600dfeb5dd52557d4dc719a4016b" category="admonition">파트너 컨트롤러 또는 이전 컨트롤러 모듈과 일치하도록 _replacement_controller의 BIOS 버전을 다운그레이드하지 마십시오.</block>
+  <block id="59127b0f44ecf00024ded8cfe59f8f12" category="paragraph">AFF A800에는 부팅 미디어 장치가 1개 있습니다. 손상된 컨트롤러에서 이동한 다음 _replacement_controller에 설치해야 합니다.</block>
+  <block id="842e14e3a23f8c1d39234a2a722507d3" category="list-text">자동 반환이 비활성화된 경우 'Storage failover modify -controller local -auto-반환 true'를 다시 설정합니다</block>
+  <block id="03163c4d180c5b6d6482efa550043cd8" category="doc">컨트롤러-AFF A800을 종료합니다</block>
+  <block id="f0623f3de563d7ac67a984a76c53803d" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
+  <block id="e0024964f985f74787a4ffc15850d67d" category="list-text">컨트롤러 모듈 잠금 후크가 상승하기 시작할 때까지 컨트롤러 모듈을 천천히 시스템에 밀어 넣고 잠금 후크를 단단히 눌러 컨트롤러 모듈 장착을 완료한 다음 잠금 후크를 컨트롤러 모듈의 핀 위에 있는 잠금 위치로 돌립니다. + 컨트롤러가 섀시에 완전히 설치되면 즉시 부팅이 시작됩니다.</block>
+  <block id="a924c157082c4974237a4bb347fd9228" category="list-text">로더 프롬프트에서 중지하려면 Ctrl+C를 눌러 부팅 프로세스를 중단합니다. + 이 메시지가 표시되지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 로더로 부팅하는 컨트롤러를 중지합니다.</block>
 </blocks>

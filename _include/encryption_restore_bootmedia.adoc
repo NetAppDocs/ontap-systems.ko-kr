@@ -17,8 +17,8 @@ NSE 또는 NVE를 온보드 키 관리자와 함께 사용할 경우 이 절차�
 == 옵션 1: Onboard Key Manager가 활성화된 경우 NVE 또는 NSE를 복원합니다
 
 .단계
-. 콘솔 케이블을 타겟 노드에 연결합니다.
-. LOADER 프롬프트에서 boot_ONTAP 명령을 사용하여 노드를 부팅합니다.
+. 콘솔 케이블을 대상 컨트롤러에 연결합니다.
+. Loader 프롬프트에서 "boot_ontap" 명령을 사용하여 컨트롤러를 부팅합니다.
 . 콘솔 출력을 확인합니다.
 +
 [cols="1,3"]
@@ -29,7 +29,7 @@ NSE 또는 NVE를 온보드 키 관리자와 함께 사용할 경우 이 절차�
  a| 
 LOADER 메시지가 표시됩니다
  a| 
-노드를 부팅 메뉴(boot_ontap menu)로 부팅합니다
+부팅 메뉴에서 boot_ontap menu로 컨트롤러를 부팅합니다
 
 
 
@@ -37,7 +37,7 @@ LOADER 메시지가 표시됩니다
 반환 대기 중...
  a| 
 .. 프롬프트에 Ctrl-C를 입력합니다
-.. 메시지: Do you wish to halt this node than wait [y/n]? y를 입력합니다
+.. 메시지: [y/n]을(를) 기다리지 않고 이 컨트롤러를 중지하시겠습니까? y를 입력합니다
 .. LOADER 프롬프트에서 'boot_ontap menu' 명령을 입력한다.
 
 
@@ -63,8 +63,8 @@ NOTE: 이 데이터는 보안 키 관리자 백업 쇼 또는 보안 키 관리�
 +
 시스템이 '기브백을 기다리는 중...' 프롬프트로 부팅됩니다.
 
-. 콘솔 케이블을 파트너 노드로 이동하고 admin으로 로그인합니다.
-. 'storage failover show' 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.
+. 콘솔 케이블을 파트너 컨트롤러로 이동하고 admin으로 로그인합니다.
+. 'storage failover show' 명령을 사용하여 타겟 컨트롤러가 반환될 준비가 되었는지 확인합니다.
 . fromnode local-only-CFO-aggregate true" 명령을 사용하여 스토리지 페일오버 기브백을 가진 CFO 애그리게이트만 돌려주십시오.
 +
 ** 디스크에 오류가 발생하여 명령이 실패하면 장애가 발생한 디스크를 물리적으로 분리하되, 교체 디스크를 받을 때까지 디스크를 슬롯에 그대로 둡니다.
@@ -81,7 +81,7 @@ NOTE: CIFS를 종료하면 데이터가 손실될 수 있습니다.
 +
 CFO 애그리게이트(루트 애그리게이트 및 CFO 스타일 데이터 애그리게이트)만 표시됩니다.
 
-. 콘솔 케이블을 타겟 노드로 이동합니다.
+. 콘솔 케이블을 대상 컨트롤러로 이동합니다.
 . ONTAP 9.5 이전 버전을 실행 중인 경우 키 관리자 설정 마법사를 실행합니다.
 +
 .. 'Security key-manager setup-notenodename' 명령을 사용하여 마법사를 시작한 다음 메시지가 나타나면 온보드 키 관리를 위한 암호를 입력합니다.
@@ -104,17 +104,17 @@ NOTE: 'restored(복원됨)' 열이 Yes/true(예/참) 이외의 경우 고객 지
 .. 키가 클러스터 전체에서 동기화될 때까지 10분 정도 기다립니다.
 
 
-. 콘솔 케이블을 파트너 노드로 이동합니다.
-. 'storage failover -fromnode local' 명령을 사용하여 타겟 노드를 다시 지정합니다.
+. 콘솔 케이블을 파트너 컨트롤러로 이동합니다.
+. 'storage failover -fromnode local' 명령을 사용하여 타겟 컨트롤러를 다시 제공합니다.
 . 'storage failover show' 명령을 사용하여 완료 후 3분 동안 반환 상태를 확인하십시오.
 +
 20분 후 기브백이 완료되지 않으면 고객 지원 팀에 문의하십시오.
 
-. 클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.
+. 클러스터 셸 프롬프트에서 "net int show -is -home false" 명령을 입력하여 홈 컨트롤러 및 포트에 없는 논리 인터페이스를 나열합니다.
 +
 만약 어떤 인터페이스가 false로 나열된다면, net int revert 명령을 사용하여 그 인터페이스를 홈 포트로 되돌리십시오.
 
-. 콘솔 케이블을 대상 노드로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인한다.
+. 콘솔 케이블을 대상 컨트롤러로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인합니다.
 . 'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.
 
 
@@ -123,8 +123,8 @@ NOTE: 'restored(복원됨)' 열이 Yes/true(예/참) 이외의 경우 고객 지
 == 옵션 2: ONTAP 9.5 이전 버전을 실행 중인 시스템에서 NSE/NVE를 복원합니다
 
 .단계
-. 콘솔 케이블을 타겟 노드에 연결합니다.
-. LOADER 프롬프트에서 boot_ONTAP 명령을 사용하여 노드를 부팅합니다.
+. 콘솔 케이블을 대상 컨트롤러에 연결합니다.
+. Loader 프롬프트에서 "boot_ontap" 명령을 사용하여 컨트롤러를 부팅합니다.
 . 콘솔 출력을 확인합니다.
 +
 [cols="1,3"]
@@ -142,12 +142,12 @@ NOTE: 'restored(복원됨)' 열이 Yes/true(예/참) 이외의 경우 고객 지
  a| 
 반환 대기 중...
  a| 
-.. 파트너 노드에 로그인합니다.
-.. 'storage failover show' 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.
+.. 파트너 컨트롤러에 로그인합니다.
+.. 'storage failover show' 명령을 사용하여 타겟 컨트롤러가 반환될 준비가 되었는지 확인합니다.
 
 
 |===
-. 콘솔 케이블을 파트너 노드로 이동하고 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 노드 스토리지를 다시 제공합니다.
+. 콘솔 케이블을 파트너 컨트롤러로 이동하여 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 컨트롤러 스토리지를 반환하십시오.
 +
 ** 디스크에 오류가 발생하여 명령이 실패하면 장애가 발생한 디스크를 물리적으로 분리하되, 교체 디스크를 받을 때까지 디스크를 슬롯에 그대로 둡니다.
 ** CIFS 세션이 열려 있어 명령이 실패한 경우 고객에게 CIFS 세션을 닫는 방법을 확인하십시오.
@@ -160,11 +160,11 @@ NOTE: CIFS를 종료하면 데이터가 손실될 수 있습니다.
 
 
 . 3분 정도 기다린 후 'storage failover show' 명령으로 페일오버 상태를 확인한다.
-. 클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.
+. 클러스터 셸 프롬프트에서 "net int show -is -home false" 명령을 입력하여 홈 컨트롤러 및 포트에 없는 논리 인터페이스를 나열합니다.
 +
 만약 어떤 인터페이스가 false로 나열된다면, net int revert 명령을 사용하여 그 인터페이스를 홈 포트로 되돌리십시오.
 
-. 콘솔 케이블을 타겟 노드로 이동하고 버전 '-v 명령'을 실행하여 ONTAP 버전을 확인합니다.
+. 콘솔 케이블을 대상 컨트롤러로 이동하고 버전 '-v 명령'을 실행하여 ONTAP 버전을 확인합니다.
 . 'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.
 . 클러스터 셸 프롬프트에서 '스토리지 암호화 디스크 표시'를 사용하여 출력을 검토합니다.
 +
@@ -189,8 +189,8 @@ NOTE: NVE(NetApp Volume Encryption)가 구성된 경우 이 명령이 작동하�
 
 
 
-. 콘솔 케이블을 파트너 노드에 연결합니다.
-. 'storage failover -fromnode local' 명령을 사용하여 노드를 다시 지정합니다.
+. 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
+. 'storage failover -fromnode local' 명령을 사용하여 컨트롤러를 반환하십시오.
 . 'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.
 
 
@@ -199,8 +199,8 @@ NOTE: NVE(NetApp Volume Encryption)가 구성된 경우 이 명령이 작동하�
 == 옵션 3: ONTAP 9.6 이상을 실행하는 시스템에서 NSE/NVE를 복원합니다
 
 .단계
-. 콘솔 케이블을 타겟 노드에 연결합니다.
-. LOADER 프롬프트에서 boot_ONTAP 명령을 사용하여 노드를 부팅합니다.
+. 콘솔 케이블을 대상 컨트롤러에 연결합니다.
+. Loader 프롬프트에서 "boot_ontap" 명령을 사용하여 컨트롤러를 부팅합니다.
 . 콘솔 출력을 확인합니다.
 +
 [cols="1,3"]
@@ -218,12 +218,12 @@ NOTE: NVE(NetApp Volume Encryption)가 구성된 경우 이 명령이 작동하�
  a| 
 반환 대기 중...
  a| 
-.. 파트너 노드에 로그인합니다.
-.. 'storage failover show' 명령을 사용하여 타겟 노드가 반환 준비가 되었는지 확인합니다.
+.. 파트너 컨트롤러에 로그인합니다.
+.. 'storage failover show' 명령을 사용하여 타겟 컨트롤러가 반환될 준비가 되었는지 확인합니다.
 
 
 |===
-. 콘솔 케이블을 파트너 노드로 이동하고 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 노드 스토리지를 다시 제공합니다.
+. 콘솔 케이블을 파트너 컨트롤러로 이동하여 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 컨트롤러 스토리지를 반환하십시오.
 +
 ** 디스크에 오류가 발생하여 명령이 실패하면 장애가 발생한 디스크를 물리적으로 분리하되, 교체 디스크를 받을 때까지 디스크를 슬롯에 그대로 둡니다.
 ** CIFS 세션이 열려 있어 명령이 실패한 경우 CIFS 세션을 닫는 방법에 대해 고객에게 확인하십시오.
@@ -236,11 +236,11 @@ NOTE: CIFS를 종료하면 데이터가 손실될 수 있습니다.
 
 
 . 3분 정도 기다린 후 'storage failover show' 명령으로 페일오버 상태를 확인한다.
-. 클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.
+. 클러스터 셸 프롬프트에서 "net int show -is -home false" 명령을 입력하여 홈 컨트롤러 및 포트에 없는 논리 인터페이스를 나열합니다.
 +
 만약 어떤 인터페이스가 false로 나열된다면, net int revert 명령을 사용하여 그 인터페이스를 홈 포트로 되돌리십시오.
 
-. 콘솔 케이블을 대상 노드로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인한다.
+. 콘솔 케이블을 대상 컨트롤러로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인합니다.
 . 'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.
 . 클러스터 셸 프롬프트에서 '스토리지 암호화 디스크 표시'를 사용하여 출력을 검토합니다.
 . 보안 키-관리자 키 쿼리 명령을 사용하여 키 관리 서버에 저장된 인증 키의 키 ID를 표시합니다.
@@ -257,7 +257,7 @@ NOTE: 명령이 실패하면 고객 지원 센터에 문의하십시오.
 
 
 
-. 콘솔 케이블을 파트너 노드에 연결합니다.
-. 'storage failover -fromnode local' 명령을 사용하여 노드를 다시 지정합니다.
+. 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
+. 'storage failover -fromnode local' 명령을 사용하여 컨트롤러를 반환하십시오.
 . 'storage failover modify -node local -auto-반환 true' 명령을 사용하여 자동 반환 기능을 해제한 경우 이 반환 기능을 복구합니다.
 

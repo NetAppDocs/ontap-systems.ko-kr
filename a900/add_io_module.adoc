@@ -26,9 +26,9 @@ NIC 또는 스토리지 어댑터를 완전히 채워진 시스템의 새 NIC �
 . 컨트롤러 A 종료:
 +
 .. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
-.. 'storage failover takeover -ofnode target_node_name' 타겟 노드를 인수합니다
+.. 대상 컨트롤러 'storage failover takeover-ofnode target_node_name'을 인수합니다
 +
-콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.
+콘솔 연결에서는 테이크오버가 완료되면 컨트롤러가 로더 프롬프트로 드롭됩니다.
 
 
 
@@ -52,8 +52,8 @@ NIC 또는 스토리지 어댑터를 완전히 채워진 시스템의 새 NIC �
 
 NOTE: 사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.
 
-. LOADER 프롬프트에서 노드를 재부팅합니다. _bye_
-. 파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다
+. LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _bye_
+. 파트너 컨트롤러에서 컨트롤러를 다시 제공합니다. 'storage failover - ofnode target_node_name'을 선택합니다
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 네트워킹에 슬롯 3 및/또는 7을 사용하는 경우, 네트워킹 사용을 위해 슬롯을 변환하려면 'storage port modify -node__<node name>___port__<port name>__-mode network' 명령어를 사용한다.
 . 컨트롤러 B에 대해 이 단계를 반복합니다
@@ -97,9 +97,9 @@ LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니
 . 컨트롤러 A 종료:
 +
 .. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
-.. 'storage failover takeover -ofnode target_node_name' 타겟 노드를 인수합니다
+.. 대상 컨트롤러 'storage failover takeover-ofnode target_node_name'을 인수합니다
 +
-콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.
+콘솔 연결에서는 테이크오버가 완료되면 컨트롤러가 로더 프롬프트로 드롭됩니다.
 
 
 
@@ -154,8 +154,8 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 . 분리 및 설치 단계를 반복하여 컨트롤러 A의 추가 모듈을 교체합니다
 . 교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.
-. LOADER 프롬프트에서 노드를 재부팅합니다. _bye_
-. 파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다
+. LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _bye_
+. 파트너 컨트롤러에서 컨트롤러를 다시 제공합니다. 'storage failover - ofnode target_node_name'을 선택합니다
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 추가한 경우:
 +
