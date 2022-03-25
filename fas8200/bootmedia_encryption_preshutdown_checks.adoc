@@ -1,7 +1,13 @@
-= 옵션 1: ONTAP 9.5 이전 버전을 실행 중인 시스템에서 NVE 또는 NSE를 확인합니다
+---
+permalink: fas8200/bootmedia-encryption-preshutdown-checks.html 
+sidebar: sidebar 
+keywords: fas8200, pre-shutdown checks for onboard encryption keys 
+summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
+---
+= 온보드 암호화 - FAS8200을 확인하십시오
+:icons: font
+:imagesdir: ../media/
 
-
-컨트롤러---permalink:fas8200/bootmedia-encryption-preshutdown-checks.html 사이드바: 사이드바 키워드: fas8200, 온보드 암호화 키에 대한 사전 종료 검사 요약: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. -- = 온보드 암호화 확인 - FAS8200: 아이콘: 글꼴: imagesdir:../media/
 
 [role="lead"]
 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.

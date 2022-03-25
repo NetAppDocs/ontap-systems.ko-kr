@@ -422,19 +422,16 @@ NOTE: 부팅 프로세스 중에 프롬프트에 "y"로 안전하게 응답할 �
 +
 다음과 같은 기본 응답이 표시됩니다.
 
-+
-[listing]
-----
-SLDIAG: No log messages are present.
------
 
- .. Exit Maintenance mode: `halt`
-+
-The node displays the LOADER prompt.
 
- .. Boot the node from the LOADER prompt: `bye`
- .. Return the node to normal operation.
-----
+_SLDIAG: 로그 메시지가 없습니다. _
+
+.. 유지보수 모드를 종료합니다
++
+노드에 LOADER 프롬프트가 표시됩니다.
+
+.. LOADER 프롬프트에서 bye 노드를 부팅합니다
+.. 노드를 정상 작동 상태로 되돌립니다.
 
 
 

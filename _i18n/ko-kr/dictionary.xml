@@ -2339,7 +2339,6 @@
   <block id="564becbb42cc33012e00424619583eca" category="list-text">스토리지 케이블 연결: <block ref="42bf816180738dc1660363ee044d9786" category="inline-link-macro-rx"></block></block>
   <block id="eb9634f2ea796139d7f0aeca3f6ce2d4" category="section-title">옵션 2: 스위치 클러스터 케이블링</block>
   <block id="5b2974409018c6d4642074b9be18209d" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트/HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.</block>
-  <block id="80b4875daa443a09798bdba01e316e78" category="image-alt">A320 drw 교환 네트워크 케이블 연결 합성 애니메이션 gif</block>
   <block id="f5412d7277a9aad4f1e320bf63f0582b" category="paragraph">클러스터/HA 포트를 100GbE(QSFP28) 케이블로 연결:</block>
   <block id="840e60c4749a688bca9fc657aaff1710" category="list-text">클러스터/HA 스위치에 있는 두 컨트롤러의 e0a</block>
   <block id="c59f62b950bdb48bdd4229f438a8c8a8" category="list-text">e0d - 양쪽 컨트롤러에서 클러스터/HA 스위치에 연결<block ref="15e7674fee3b32b30f565083329e5ce8" category="inline-image-macro-rx" type="image"></block></block>
@@ -8278,7 +8277,6 @@
   <block id="7103ae2dc232b897a89408d0cd914f59" category="doc">온보드 암호화 키 확인 - AFF A800</block>
   <block id="0e3989fd0fd811ede751f0ca9dbfbe88" category="doc">부팅 미디어 교체 개요 - AFF A800</block>
   <block id="a9785aa14dfcf09366954fcb69625d05" category="sidebar">42U 1280 mm 시스템 캐비닛</block>
-  <block id="3cafea7668c93f65d306d9021ff14f37" category="summary">이 링크를 다른 AFF 및 FAS 플랫폼에 사용할 수 있습니다.</block>
   <block id="f606ada25615407b042f8f189d1b9fab" category="sidebar">Cisco 3132Q-V</block>
   <block id="782536ad60a0c703fa10fb3d99248ea0" category="sidebar">Cisco 3232C 스위치</block>
   <block id="059d31543d448499bd1a9c454a8d1ebb" category="sidebar">Cisco 9336C-FX2</block>
@@ -8307,7 +8305,6 @@
   <block id="eec0e5f9d553c7b70402acd4568f1ec7" category="list-text">MetroCluster 상태를 확인하여 장애가 있는 컨트롤러가 자동으로 정상 컨트롤러(MetroCluster show)로 전환되었는지 확인합니다</block>
   <block id="4176d047c40d8635a978efe76111589d" category="cell">컨트롤러 손상 여부</block>
   <block id="bc926a90924e14c99dbad976cbc306f6" category="paragraph">정상 컨트롤러 MetroCluster 절체 기능을 통해 계획된 절체 동작을 수행한다</block>
-  <block id="8377db96ff49e2b3bab4737836a8e0ce" category="paragraph">컨트롤러 -- permalink: a300/controller-replace-move-hardware.html sidebar: sidebar keywords: AFF a300, 컨트롤러 모듈 하드웨어 요약 이동: "컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고 FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음 섀시에 교체 컨트롤러 모듈을 설치하고 시스템을 유지보수 모드로 부팅해야 합니다." -- = 컨트롤러 모듈 교체 - AFF A300: 아이콘: font:imagesdir:../media/</block>
   <block id="c4d9687f431492e0a90b422288606306" category="paragraph">컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
   <block id="5882cd2f55c4bcf825c0675d56d4677a" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상적인 컨트롤러가 계속 작동 중지되는지 확인해야 한다는 프롬프트 경고 메시지가 표시됩니다. 이 메시지에 안전하게 'y'로 응답할 수 있습니다.</block>
   <block id="6444f932b3d3398ef847475f65dde87a" category="paragraph">구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
@@ -8418,7 +8415,6 @@
   <block id="d1342671e7a1aeffea6df3cd0214be86" category="list-text">이 절차는 중단을 따릅니다. 2-컨트롤러 클러스터의 경우, 다중 노드 클러스터의 서비스 운영이 중단되어 부분 중단이 발생할 수 있습니다.</block>
   <block id="4fa4535552a76ba6abb695db42b48161" category="paragraph">이 절차를 사용해야 하는 경우 4 또는 8 컨트롤러 MetroCluster 구성의 컨트롤러에 대한 컨트롤러 교체 절차는 HA 쌍의 컨트롤러 교체 절차와 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.</block>
   <block id="1c35b5fd0eb2c66f98019f6d2ea253e2" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="5ad5e3145183bec8ce765d99b2db775a" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
-  <block id="f360cbc0b1776cef715c46bbf963f211" category="paragraph">컨트롤러---permalink:fas8200/bootmedia-encryption-preshutdown-checks.html 사이드바: 사이드바 키워드: fas8200, 온보드 암호화 키에 대한 사전 종료 검사 요약: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. -- = 온보드 암호화 확인 - FAS8200: 아이콘: 글꼴: imagesdir:../media/</block>
   <block id="c83b964c98e24aa342fa8069ffd85dd0" category="list-text"><block ref="c83b964c98e24aa342fa8069ffd85dd0" category="inline-link-macro-rx"></block></block>
   <block id="f51c8858085d7dcfe4d79d9774f8270d" category="paragraph">_replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
   <block id="58d1979204cdde4ca641ddc56ae5fe91" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다. 부트 ONTAP</block>
@@ -8464,7 +8460,6 @@
   <block id="fec1ee82d47382a6acadcb4104dd3ce3" category="paragraph">손상된 컨트롤러에 'Waiting for Giveback...' 메시지가 표시되면 정상 컨트롤러에서 Giveback을 수행합니다.</block>
   <block id="b93b2e31999c0ef2197b846adf6fd32d" category="list-text">정상 컨트롤러에서 반환 수행:</block>
   <block id="85e5c14e4c98322df87028e0cafd79a7" category="paragraph">이렇게 하면 손상된 컨트롤러의 Aggregate 및 볼륨을 정상 컨트롤러에서 손상된 컨트롤러로 되돌리는 프로세스가 시작됩니다.</block>
-  <block id="31cf13c61d40269ec7d8237264ca25ba" category="open-title">대부분의 시스템</block>
   <block id="5ab3b65334d9648ac44bf62025764ce2" category="section-title">2단계: 컨트롤러를 제거합니다</block>
   <block id="f1eb9bf0f474a83bbe6d11b59f16da8c" category="list-text">스토리지 'storage failover 반환 - ofnode impaired_node_name'을 반환하여 컨트롤러를 정상 작동 상태로 되돌립니다</block>
   <block id="bced3f55c14cfa1d16ca32cbbb0b1d97" category="list-text">손상된 컨트롤러를 고급 권한 수준(Set-Privilege Advanced)으로 설정합니다</block>
@@ -8510,7 +8505,6 @@
   <block id="e033b8601f70c600b73dc01580794ef1" category="summary">손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption\(NVE\) 또는 NetApp Storage Encryption\(NSE\)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
   <block id="8b97c720bb08aa0118f13600478e225f" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 컨트롤러를 계속 종료합니다. 손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
   <block id="4ca27b7e1f4aad146e9ddc45f9af0410" category="doc">컨트롤러 종료 - FAS500f</block>
-  <block id="2523dbc6a24be97a9e6522ed8cc0a2da" category="paragraph">permalink: fas500f/bootmedia-replace.html sidebar: sidebar keywords: fas500f, 부팅 미디어 요약: "부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 공기 덕트를 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다." 부팅 미디어 교체 - FAS500f: 아이콘: font:imagesdir:../media/</block>
   <block id="2a468fdd2649c2bddd5f46d0d16b08af" category="doc">손상된 컨트롤러 - AFF A700s를 종료합니다</block>
   <block id="abb3159815c7d305ec1a9697a5ec0fef" category="summary">컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
   <block id="a3d92d77da598c2538c04939f7322e49" category="list-text">아직 접지되지 않은 경우, propertlcontrolleround를 사용합니다.</block>
@@ -8537,4 +8531,17 @@
   <block id="f0623f3de563d7ac67a984a76c53803d" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
   <block id="e0024964f985f74787a4ffc15850d67d" category="list-text">컨트롤러 모듈 잠금 후크가 상승하기 시작할 때까지 컨트롤러 모듈을 천천히 시스템에 밀어 넣고 잠금 후크를 단단히 눌러 컨트롤러 모듈 장착을 완료한 다음 잠금 후크를 컨트롤러 모듈의 핀 위에 있는 잠금 위치로 돌립니다. + 컨트롤러가 섀시에 완전히 설치되면 즉시 부팅이 시작됩니다.</block>
   <block id="a924c157082c4974237a4bb347fd9228" category="list-text">로더 프롬프트에서 중지하려면 Ctrl+C를 눌러 부팅 프로세스를 중단합니다. + 이 메시지가 표시되지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음, 로더로 부팅하는 컨트롤러를 중지합니다.</block>
+  <block id="e935849faf7cd25a183a726f34797bb7" category="doc">컨트롤러 모듈 교체 - AFF A300</block>
+  <block id="75a0d3caeb66a7c3aca3b7bc0f0c5985" category="image-alt">A320 drw 스위치 방식 네트워크 케이블 컴포지트 애니메이션 GIF</block>
+  <block id="82430a05d3820aeaeb756230e94ee643" category="doc">온보드 암호화 - FAS8200을 확인하십시오</block>
+  <block id="0082203fcfff94aab099c16763176076" category="image-alt">drw fas8300 TNSC 네트워크 케이블 연결</block>
+  <block id="507f9f4c8680d2c9a9bcba815a7976e8" category="image-alt">drw fas8300 스위치 방식 네트워크 케이블 연결</block>
+  <block id="56cbc310abb53560871f37318fe0636d" category="image-alt">drw fas8300 ds224c 선반 3개</block>
+  <block id="a28455bf2eecf6cc499c335ee152cd75" category="paragraph">다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.</block>
+  <block id="5a503439969930e9e348f79d2b8004d7" category="section-title">7단계: 스토리지 및 볼륨 암호화 기능 복원</block>
+  <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
+  <block id="de2d1282e102972a6af003781e9a5c02" category="paragraph">_SLDIAG: 로그 메시지가 없습니다. _</block>
+  <block id="3f91c59c59a1243cb3f176daf3c9c054" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
+  <block id="eb90dbf89cffd9812a8720d277f30583" category="summary">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다.</block>
+  <block id="0f40216c1ad47c12e8ccc087d555570f" category="sidebar">ONTAP 릴리즈 노트</block>
 </blocks>

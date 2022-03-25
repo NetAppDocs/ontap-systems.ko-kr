@@ -219,7 +219,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=80c4701e-8e4a-408e-96e6-ab1b00666d3f["스위치가 없는 2노드 클러스터 케이블 연결"]
 
 +
-image::../media/drw_A400_TNSC-network-cabling.png[drw A400 TNSC 네트워크 케이블 연결]
+image::../media/drw_fas8300_TNSC_network_cabling.png[drw fas8300 TNSC 네트워크 케이블 연결]
 
 . 로 이동합니다 <<Step 4: Cable controllers to drive shelves>> 드라이브 쉘프 케이블링 지침:
 
@@ -248,7 +248,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=5893b7d4-6f67-4a64-ad89-ab1b006658d1["스위치 클러스터 케이블링"]
 
 +
-image::../media/drw_a400_switched_network_cabling.png[drw a400 스위치 방식 네트워크 케이블 연결]
+image::../media/drw_fas8300_switched_network_cabling.png[drw fas8300 스위치 방식 네트워크 케이블 연결]
 
 . 로 이동합니다 <<Step 4: Cable controllers to drive shelves>> 드라이브 쉘프 케이블링 지침:
 
@@ -277,7 +277,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=46c0da0b-6842-449f-b28c-ab1b0066584b["SAS 드라이브 쉘프에 컨트롤러 케이블 연결"]
 
 +
-image::../media/drw_a400_three_ds224c_shelves.png[drw a400 ds224c 쉘프 3개]
+image::../media/drw_fas8300_three-ds224c_shelves.png[drw fas8300 ds224c 선반 3개]
 
 . 로 이동합니다 <<Step 5: Complete system setup and configuration>> 시스템 설치 및 구성을 완료합니다.
 
