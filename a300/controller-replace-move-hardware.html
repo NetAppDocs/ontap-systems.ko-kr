@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>1단계: 컨트롤러 모듈을 엽니다</title>
+  <title>컨트롤러 모듈 교체 - AFF A300</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="1단계: 컨트롤러 모듈을 엽니다" />
+  <meta property="og:title" content="컨트롤러 모듈 교체 - AFF A300" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-systems/a300/controller-replace-move-hardware/" />
-	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-systems/a300/controller-replace-move-hardware.html" />
+	<meta property="og:description" content="컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다." />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/ontap-systems/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
-  <meta name="keywords" content=" "><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.">
+  <meta name="keywords" content=" aff a300, move the controller module hardware"><!-- Icons -->
   <link rel="icon" href="/ko-kr/ontap-systems/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -148,7 +148,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[1단계: 컨트롤러 모듈을 엽니다](https://docs.netapp.com/ko-kr/ontap-systems/a300/controller-replace-move-hardware/)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[컨트롤러 모듈 교체 - AFF A300](https://docs.netapp.com/ko-kr/ontap-systems/a300/controller-replace-move-hardware.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/a300/controller-replace-move-hardware.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
     </div>
@@ -272,13 +272,13 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-systems/" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                  <a href="https://docs.netapp.com/ko-kr/ontap-systems/a300/controller-replace-move-hardware.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-systems/" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                  <a href="https://docs.netapp.com/us-en/ontap-systems/a300/controller-replace-move-hardware.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-systems/" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                  <a href="https://docs.netapp.com/ja-jp/ontap-systems/a300/controller-replace-move-hardware.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-systems/" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                  <a href="https://docs.netapp.com/zh-cn/ontap-systems/a300/controller-replace-move-hardware.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -1056,6 +1056,15 @@
 
 
 
+    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
+  <a target="_blank" href="/ko-kr/ontap-systems/pdfs/pages/a300/controller-replace-move-hardware.pdf" >
+    <img src="/ko-kr/ontap-systems/images/pdf.png" width="16" height="16"/>
+    PDF of this page
+  </a>
+</li>
+
+</ul>
+  
 
 
 
@@ -4089,7 +4098,7 @@
         개요
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a300/controller-replace-shutdown.html">
         손상된 컨트롤러를 종료합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a300/controller-replace-move-hardware.html">
+      </a></li><li class="  active "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a300/controller-replace-move-hardware.html">
         컨트롤러 모듈을 교체합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a300/controller-replace-system-config-restore-and-verify.html">
         시스템 구성을 복원합니다
@@ -5204,60 +5213,22 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">1단계: 컨트롤러 모듈을 엽니다</h1>
+  <h1 class="n-doc__component-detail-heading">컨트롤러 모듈 교체 - AFF A300</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-03-15 19:28:37 +0000">03/15/2022</time>
+    <time datetime="2022-03-25 16:59:48 +0000">03/25/2022</time>
     
   
-
-<span>기여자
-  <a target="_blank" href="https://github.com/dougthomp">
-    <img  class="avatar avatar-small"
-          alt="dougthomp"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/76076341?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-  <a target="_blank" href="https://github.com/netapp-martyh">
-    <img  class="avatar avatar-small"
-          alt="netapp-martyh"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/66496079?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-  <a target="_blank" href="https://github.com/thrisun">
-    <img  class="avatar avatar-small"
-          alt="thrisun"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/30325635?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-  <a target="_blank" href="https://github.com/netapp-jsnyder">
-    <img  class="avatar avatar-small"
-          alt="netapp-jsnyder"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/69054128?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-</span>
 
 
 </p>
 
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph">
-<p>컨트롤러&#8201;&#8212;&#8201;permalink: a300/controller-replace-move-hardware.html sidebar: sidebar keywords: AFF a300, 컨트롤러 모듈 하드웨어 요약 이동: "컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고 FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음 섀시에 교체 컨트롤러 모듈을 설치하고 시스템을 유지보수 모드로 부팅해야 합니다."&#8201;&#8212;&#8201;= 컨트롤러 모듈 교체 - AFF A300: 아이콘: font:imagesdir:../media/</p>
-</div>
 <div class="paragraph lead">
 <p>컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</p>
 </div>
