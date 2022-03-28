@@ -5418,7 +5418,6 @@
   <block id="1189b15f1d0e31e54b7a7a00343985c9" category="paragraph"><block ref="1189b15f1d0e31e54b7a7a00343985c9" category="inline-link-macro-rx"></block></block>
   <block id="03d0d86c8a44fa1fcb7cccb7e807f2bd" category="doc">NVMEM 배터리 교체 - AFF A300</block>
   <block id="0abaa421c46070cd2ec45f7bc5586da5" category="paragraph">'storage failover 반환 - ofnode replacement_node_name'을 제공합니다</block>
-  <block id="add009983e63f2b0d108525989c12028" category="section-title">7단계(2노드 MetroCluster만 해당): 애그리게이트로 전환</block>
   <block id="11cedb2a3ea1c051845c4666a3942624" category="doc">컨트롤러 종료 -- AFF A300</block>
   <block id="4cbf72a112e69e9ca004dad9b0b05d49" category="section-title">옵션 2: 컨트롤러는 2노드 MetroCluster 구성에 있습니다</block>
   <block id="75e670af7a515907420be152e288dc75" category="doc">FAN-AFF A300을 스왑한다</block>
@@ -8544,4 +8543,5 @@
   <block id="3f91c59c59a1243cb3f176daf3c9c054" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
   <block id="eb90dbf89cffd9812a8720d277f30583" category="summary">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다.</block>
   <block id="0f40216c1ad47c12e8ccc087d555570f" category="sidebar">ONTAP 릴리즈 노트</block>
+  <block id="c0a1a3a5bc62ecf46953d4c7ebde86a7" category="section-title">6단계: (2노드 MetroCluster만 해당): 애그리게이트로 전환</block>
 </blocks>

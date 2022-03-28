@@ -1,5 +1,5 @@
 ---
-permalink: c190/chassis-replace-complete-system-restore-rma.html 
+permalink: c190/chassis-replace-complete-rma.html 
 sidebar: sidebar 
 keywords: aff c190, verify and set HA state, run diagnostics 
 summary: 섀시의 HA 상태를 확인하고 시스템 수준 진단을 실행해야 합니다. 

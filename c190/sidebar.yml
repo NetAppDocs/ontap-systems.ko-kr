@@ -43,8 +43,6 @@ entries:
       url: "/c190/chassis-replace-shutdown.html"
     - title: 하드웨어를 교체합니다
       url: "/c190/chassis-replace-move-hardware.html"
-    - title: 구성을 복원합니다
-      url: "/c190/chassis-replace-restore-and-verify.html"
     - title: 전체 교체
       url: "/c190/chassis-replace-complete-rma.html"
   - title: 컨트롤러
