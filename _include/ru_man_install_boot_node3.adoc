@@ -8,7 +8,7 @@
 그러나 노드 1에 설치된 ONTAP 9의 이후 버전이 같거나 동일한 경우에는 노드 3을 netboot 할 필요가 없습니다.
 
 
-NOTE: * 중요 *: 스토리지 어레이에 연결된 V-Series 시스템이나 스토리지 어레이에 연결된 FlexArray 가상화 소프트웨어를 사용하여 시스템을 업그레이드하는 경우 시스템을 완료해야 합니다 <<man_install3_step1,1단계>> 부터 까지 <<man_install3_step5,5단계>>에서 이 섹션을 그대로 둡니다 <<man_install3_step6,6단계>> 및 의 지침을 따릅니다 link:set_fc_uta_uta2_config_node3.html#configure-fc-ports-on-node3["노드 3에서 FC 포트를 구성합니다"] 및  필요에 따라 유지보수 모드에서 명령을 입력합니다. 그런 다음 이 섹션으로 돌아가서 을(를) 다시 시작해야 합니다 <<man_install3_step7,7단계>>. 그러나 스토리지 디스크가 있는 시스템을 업그레이드하는 경우 이 전체 섹션을 완료한 다음 로 이동하십시오 link:set_fc_uta_uta2_config_node3.html#configure-fc-ports-on-node3["노드 3에서 FC 포트를 구성합니다"] 및 , 클러스터 프롬프트에서 명령 입력
+NOTE: * 중요 *: 스토리지 어레이에 연결된 V-Series 시스템이나 스토리지 어레이에 연결된 FlexArray 가상화 소프트웨어를 사용하여 시스템을 업그레이드하는 경우 시스템을 완료해야 합니다 <<man_install3_step1,1단계>> 부터 까지 <<man_install3_step5,5단계>>에서 이 섹션을 그대로 둡니다 <<man_install3_step6,6단계>> 및 의 지침을 따릅니다 link:set_fc_uta_uta2_config_node3.html#configure-fc-ports-on-node3["노드 3에서 FC 포트를 구성합니다"] 및 link:set_fc_uta_uta2_config_node3.html#check-and-configure-UTAUTA2-ports-on-node3["노드 3의 UTA/UTA2 포트를 확인하고 구성합니다"] 필요에 따라 유지보수 모드에서 명령을 입력합니다. 그런 다음 이 섹션으로 돌아가서 을(를) 다시 시작해야 합니다 <<man_install3_step7,7단계>>. 그러나 스토리지 디스크가 있는 시스템을 업그레이드하는 경우 이 전체 섹션을 완료한 다음 로 이동하십시오 link:set_fc_uta_uta2_config_node3.html#configure-fc-ports-on-node3["노드 3에서 FC 포트를 구성합니다"] 및 link:set_fc_uta_uta2_config_node3.html#check-and-configure-UTAUTA2-ports-on-node3["노드 3의 UTA/UTA2 포트를 확인하고 구성합니다"], 클러스터 프롬프트에서 명령 입력
 
 .단계
 . [[man_install3_step1]] 노드 3의 랙 공간이 있는지 확인합니다.
@@ -82,7 +82,7 @@ NOTE: * 주의 *: 지연을 무시하지 마십시오. 배터리를 충전하지
 
 
 | 는 스토리지 어레이에 연결된 FlexArray 가상화 소프트웨어가 설치된 V-Series 시스템 또는 시스템입니다  a| 
-.. 로 이동합니다 link:set_fc_uta_uta2_config_node3.html["노드 3에 FC 또는 UTA/UTA2 구성을 설정합니다"] 하위 섹션을 완료합니다  및 시스템에 맞게.
+.. 로 이동합니다 link:set_fc_uta_uta2_config_node3.html["노드 3에 FC 또는 UTA/UTA2 구성을 설정합니다"] 하위 섹션을 완료합니다 link:set_fc_uta_uta2_config_node3.html#configure-fc-ports-on-node3["노드 3에서 FC 포트를 구성합니다"] 및 link:set_fc_uta_uta2_config_node3.html#check-and-configure-UTAUTA2-ports-on-node3["노드 3의 UTA/UTA2 포트를 확인하고 구성합니다"]시스템에 맞게.
 .. 이 섹션으로 돌아가 나머지 단계를 완료합니다 <<man_install3_step7,7단계>>.
 
 

@@ -3,7 +3,7 @@ settings:
   search: ontap-systems
   name: ONTAP Systems
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: true
     harmony_enabled: false
@@ -12,30 +12,444 @@ sidebar:
   entries:
   - title: AFF 및 FAS 시스템 문서
     url: "/index.html"
-  - title: 릴리즈 노트
+  - title: 시작하십시오
     entries:
     - title: 새로운 소식
       url: "/whats-new.html"
     - title: 릴리스 정보
       url: "/rel-notes.html"
-  - section: a200
-  - section: fas2700
-  - section: a250
-  - section: a300
-  - section: a320
-  - section: a400
-  - section: fas9000
-  - section: a700s
-  - section: a800
-  - section: a900
-  - section: c190
-  - section: fas2600
-  - section: fas500f
-  - section: fas8200
-  - section: fas8300
-  - section: platform-supplemental
-  - section: ns224
-  - section: sas3
-  - section: other
+  - title: AFF 시스템
+    entries:
+    - section: c190
+    - section: a200
+    - title: AFF A220 시스템
+      url: "/fas2700/index.html"
+      entries:
+      - title: 설치 및 설정
+        pdf-filename: AFF A220 설치 및 설정
+        entries:
+        - title: 설치 및 설정 환경을 선택합니다
+          url: "/fas2700/install-setup.html"
+        - title: 빠른 단계
+          url: "/fas2700/install-quick-guide.html"
+        - title: 비디오 단계
+          url: "/fas2700/install-videos.html"
+        - title: 세부 단계
+          url: "/fas2700/install-detailed-guide.html"
+      - title: 유지 관리
+        pdf-filename: AFF A220 유지 보수
+        entries:
+        - title: 미디어를 부팅합니다
+          pdf-filename: AFF A220 부팅 미디어
+          entries:
+          - title: 개요
+            url: "/fas2700/bootmedia-replace-overview.html"
+          - title: 온보드 암호화 키를 확인합니다
+            url: "/fas2700/bootmedia-encryption-preshutdown-checks.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas2700/bootmedia-impaired-controller-shutdown.html"
+          - title: 부팅 이미지를 교체합니다
+            url: "/fas2700/bootmedia-replace.html"
+          - title: 부팅 복구 이미지
+            url: "/fas2700/bootmedia-recovery-image-boot-non-2n-mcc.html"
+          - title: OKM, NSE 및 NVE를 복원합니다
+            url: "/fas2700/bootmedia-encryption-restore.html"
+          - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+            url: "/fas2700/bootmedia-complete-rma.html"
+        - title: 캐싱 모듈
+          pdf-filename: AFF A220 캐싱 모듈
+          url: "/fas2700/caching-module-replace.html"
+        - title: 섀시
+          pdf-filename: AFF A220 및 FAS2700 섀시
+          entries:
+          - title: 개요
+            url: "/fas2700/chassis-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas2700/chassis-replace-shutdown.html"
+          - title: 하드웨어를 교체합니다
+            url: "/fas2700/chassis-replace-move-hardware.html"
+          - title: 구성을 복원합니다
+            url: "/fas2700/chassis-replace-complete-system-restore-rma.html"
+        - title: 컨트롤러
+          pdf-filename: AFF A220 컨트롤러
+          entries:
+          - title: 개요
+            url: "/fas2700/controller-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas2700/controller-replace-shutdown.html"
+          - title: 컨트롤러 하드웨어를 교체합니다
+            url: "/fas2700/controller-replace-move-hardware.html"
+          - title: 시스템 구성을 복원합니다
+            url: "/fas2700/controller-replace-system-config-restore-and-verify.html"
+          - title: 회수 가능 시스템
+            url: "/fas2700/controller-replace-recable-reassign-disks.html"
+          - title: 시스템 복원을 완료합니다
+            url: "/fas2700/controller-replace-restore-system-rma.html"
+        - title: DIMM
+          pdf-filename: AFF A220 DIMM
+          url: "/fas2700/dimm-replace.html"
+        - title: 드라이브
+          pdf-filename: AFF A220 드라이브
+          url: "/fas2700/drive-replace.html"
+        - title: NVMEM 배터리
+          pdf-filename: AFF A220 및 FAS2700 NVMEM 배터리
+          url: "/fas2700/nvmem-nvram-battery-replace.html"
+        - title: 전원 공급 장치
+          pdf-filename: AFF A220 및 FAS2700 전원 공급 장치
+          url: "/fas2700/power-supply-swap-out.html"
+        - title: 실시간 시계 배터리
+          pdf-filename: AFF A220 실시간 시계 배터리
+          url: "/fas2700/rtc-battery-replace.html"
+    - section: a250
+    - section: a300
+    - section: a320
+    - section: a400
+    - title: AFF A700 시스템
+      url: "/fas9000/index.html"
+      entries:
+      - title: 설치 및 설정
+        pdf-filename: AFF A700 설치 및 설정
+        entries:
+        - title: 설치 및 설정 환경을 선택합니다
+          url: "/fas9000/install-setup.html"
+        - title: 빠른 단계
+          url: "/fas9000/install-quick-guide.html"
+        - title: 비디오 단계
+          url: "/fas9000/install-videos.html"
+        - title: 세부 단계
+          url: "/fas9000/install-detailed-guide.html"
+      - title: 유지 관리
+        pdf-filename: AFF A700이 유지됩니다
+        entries:
+        - title: 미디어를 부팅합니다
+          pdf-filename: AFF A700 부팅 미디어
+          entries:
+          - title: 개요
+            url: "/fas9000/bootmedia-replace-overview.html"
+          - title: 온보드 암호화 키를 확인합니다
+            url: "/fas9000/bootmedia-encryption-preshutdown-checks.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas9000/bootmedia-impaired-controller-shutdown.html"
+          - title: 부팅 이미지를 교체합니다
+            url: "/fas9000/bootmedia-replace.html"
+          - title: 부팅 복구 이미지
+            url: "/fas9000/bootmedia-recovery-image-boot-options.html"
+          - title: MetroCluster 구성을 다시 전환합니다
+            url: "/fas9000/bootmedia-2n-mcc-switchback.html"
+          - title: OKM, NSE 및 NVE를 복원합니다
+            url: "/fas9000/bootmedia-encryption-restore.html"
+          - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+            url: "/fas9000/bootmedia-complete-rma.html"
+        - title: 캐싱 모듈
+          url: "/fas9000/caching-module-and-core-dump-module-replace.html"
+        - title: 캐싱 모듈(핫 스왑)
+          url: "/fas9000/caching-module-hot-swap.html"
+        - title: 섀시
+          pdf-filename: AFF A700 섀시
+          entries:
+          - title: 개요
+            url: "/fas9000/chassis-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas9000/chassis-replace-shutdown.html"
+          - title: 하드웨어를 교체합니다
+            url: "/fas9000/chassis-replace-move-hardware.html"
+          - title: 전체 교체
+            url: "/fas9000/chassis-replace-complete-system-restore-rma.html"
+        - title: 컨트롤러 모듈
+          pdf-filename: AFF A700 컨트롤러
+          entries:
+          - title: 개요
+            url: "/fas9000/controller-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas9000/controller-replace-shutdown.html"
+          - title: 컨트롤러 모듈을 교체합니다
+            url: "/fas9000/controller-replace.html"
+          - title: 시스템 구성을 복원합니다
+            url: "/fas9000/controller-replace-system-config-restore-and-verify.html"
+          - title: 회수 가능 시스템
+            url: "/fas9000/controller-replace-recable-reassign-disks.html"
+          - title: 시스템 복원을 완료합니다
+            url: "/fas9000/controller-replace-complete-system-restoration.html"
+        - title: DCPM
+          url: "/fas9000/dcpm-nvram10-battery-replace.html"
+        - title: DIMM
+          url: "/fas9000/dimm-replace.html"
+        - title: 팬
+          url: "/fas9000/fan-swap-out.html"
+        - title: 입출력 모듈
+          url: "/fas9000/pci-cards-and-risers-replace.html"
+        - title: LED USB 모듈
+          url: "/fas9000/led-module-replace.html"
+        - title: NVRAM
+          url: "/fas9000/nvram-module-or-nvram-dimm-replacement.html"
+        - title: 전원 공급 장치
+          url: "/fas9000/power-supply-swap-out.html"
+        - title: RTC 배터리
+          url: "/fas9000/rtc-battery-replace.html"
+        - title: X91148A 모듈
+          pdf-filename: AFF A700 X91148A 모듈
+          entries:
+          - title: 개요
+            url: "/fas9000/x91148a-module-install-overview.html"
+          - title: 슬롯이 열린 AFF A700 시스템
+            url: "/fas9000/x91148a-modules-with-open-slots-add.html"
+          - title: AFF A700 시스템은 열려 있는 슬롯이 없습니다
+            url: "/fas9000/x91148a-modules-with-no-open-slots-add.html"
+    - section: a700s
+    - section: a800
+    - section: a900
+  - title: FAS 시스템
+    entries:
+    - section: fas500f
+    - section: fas2600
+    - title: FAS2700 시스템
+      url: "/fas2700/index.html"
+      entries:
+      - title: 설치 및 설정
+        pdf-filename: FAS2700 설치 및 설정
+        entries:
+        - title: 설치 및 설정 환경을 선택합니다
+          url: "/fas2700/install-setup.html"
+        - title: 빠른 단계
+          url: "/fas2700/install-quick-guide.html"
+        - title: 비디오 단계
+          url: "/fas2700/install-videos.html"
+        - title: 세부 단계
+          url: "/fas2700/install-detailed-guide.html"
+      - title: 유지 관리
+        pdf-filename: FAS2700 유지 관리
+        entries:
+        - title: 미디어를 부팅합니다
+          pdf-filename: FAS2700 부팅 미디어
+          entries:
+          - title: 개요
+            url: "/fas2700/bootmedia-replace-overview.html"
+          - title: 온보드 암호화 키를 확인합니다
+            url: "/fas2700/bootmedia-encryption-preshutdown-checks.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas2700/bootmedia-impaired-controller-shutdown.html"
+          - title: 부팅 이미지를 교체합니다
+            url: "/fas2700/bootmedia-replace.html"
+          - title: 부팅 복구 이미지
+            url: "/fas2700/bootmedia-recovery-image-boot-non-2n-mcc.html"
+          - title: OKM, NSE 및 NVE를 복원합니다
+            url: "/fas2700/bootmedia-encryption-restore.html"
+          - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+            url: "/fas2700/bootmedia-complete-rma.html"
+        - title: 캐싱 모듈
+          pdf-filename: FAS2700 캐시 모듈
+          url: "/fas2700/caching-module-replace.html"
+        - title: 섀시
+          pdf-filename: FAS2700 섀시
+          entries:
+          - title: 개요
+            url: "/fas2700/chassis-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas2700/chassis-replace-shutdown.html"
+          - title: 하드웨어를 교체합니다
+            url: "/fas2700/chassis-replace-move-hardware.html"
+          - title: 구성을 복원합니다
+            url: "/fas2700/chassis-replace-complete-system-restore-rma.html"
+        - title: 컨트롤러
+          pdf-filename: FAS2700 컨트롤러
+          entries:
+          - title: 개요
+            url: "/fas2700/controller-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas2700/controller-replace-shutdown.html"
+          - title: 컨트롤러 하드웨어를 교체합니다
+            url: "/fas2700/controller-replace-move-hardware.html"
+          - title: 시스템 구성을 복원합니다
+            url: "/fas2700/controller-replace-system-config-restore-and-verify.html"
+          - title: 회수 가능 시스템
+            url: "/fas2700/controller-replace-recable-reassign-disks.html"
+          - title: 시스템 복원을 완료합니다
+            url: "/fas2700/controller-replace-restore-system-rma.html"
+        - title: DIMM
+          pdf-filename: FAS2700 DIMM
+          url: "/fas2700/dimm-replace.html"
+        - title: 드라이브
+          pdf-filename: FAS2700 드라이브
+          url: "/fas2700/drive-replace.html"
+        - title: NVMEM 배터리
+          pdf-filename: AFF A220 및 FAS2700 NVMEM 배터리
+          url: "/fas2700/nvmem-nvram-battery-replace.html"
+        - title: 전원 공급 장치
+          pdf-filename: AFF A220 및 FAS2700 전원 공급 장치
+          url: "/fas2700/power-supply-swap-out.html"
+        - title: 실시간 시계 배터리
+          pdf-filename: FAS2700 실시간 시계 배터리
+          url: "/fas2700/rtc-battery-replace.html"
+    - section: fas8200
+    - section: fas8300
+    - title: FAS9000 시스템
+      url: "/fas9000/index.html"
+      entries:
+      - title: 설치 및 설정
+        pdf-filename: FAS9000 설치 및 설정
+        entries:
+        - title: 설치 및 설정 환경을 선택합니다
+          url: "/fas9000/install-setup.html"
+        - title: 빠른 단계
+          url: "/fas9000/install-quick-guide.html"
+        - title: 비디오 단계
+          url: "/fas9000/install-videos.html"
+        - title: 세부 단계
+          url: "/fas9000/install-detailed-guide.html"
+      - title: 유지 관리
+        pdf-filename: FAS9000 유지 관리
+        entries:
+        - title: 미디어를 부팅합니다
+          pdf-filename: FAS9000 부팅 미디어
+          entries:
+          - title: 개요
+            url: "/fas9000/bootmedia-replace-overview.html"
+          - title: 온보드 암호화 키를 확인합니다
+            url: "/fas9000/bootmedia-encryption-preshutdown-checks.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas9000/bootmedia-impaired-controller-shutdown.html"
+          - title: 부팅 이미지를 교체합니다
+            url: "/fas9000/bootmedia-replace.html"
+          - title: 부팅 복구 이미지
+            url: "/fas9000/bootmedia-recovery-image-boot-options.html"
+          - title: MetroCluster 구성을 다시 전환합니다
+            url: "/fas9000/bootmedia-2n-mcc-switchback.html"
+          - title: OKM, NSE 및 NVE를 복원합니다
+            url: "/fas9000/bootmedia-encryption-restore.html"
+          - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+            url: "/fas9000/bootmedia-complete-rma.html"
+        - title: 캐싱 모듈
+          url: "/fas9000/caching-module-and-core-dump-module-replace.html"
+        - title: 캐싱 모듈(핫 스왑)
+          url: "/fas9000/caching-module-hot-swap.html"
+        - title: 섀시
+          pdf-filename: FAS9000 섀시
+          entries:
+          - title: 개요
+            url: "/fas9000/chassis-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas9000/chassis-replace-shutdown.html"
+          - title: 하드웨어를 교체합니다
+            url: "/fas9000/chassis-replace-move-hardware.html"
+          - title: 전체 교체
+            url: "/fas9000/chassis-replace-complete-system-restore-rma.html"
+        - title: 컨트롤러 모듈
+          pdf-filename: FAS9000 컨트롤러
+          entries:
+          - title: 개요
+            url: "/fas9000/controller-replace-overview.html"
+          - title: 손상된 컨트롤러를 종료합니다
+            url: "/fas9000/controller-replace-shutdown.html"
+          - title: 컨트롤러 모듈을 교체합니다
+            url: "/fas9000/controller-replace.html"
+          - title: 시스템 구성을 복원합니다
+            url: "/fas9000/controller-replace-system-config-restore-and-verify.html"
+          - title: 회수 가능 시스템
+            url: "/fas9000/controller-replace-recable-reassign-disks.html"
+          - title: 시스템 복원을 완료합니다
+            url: "/fas9000/controller-replace-complete-system-restoration.html"
+        - title: DCPM
+          url: "/fas9000/dcpm-nvram10-battery-replace.html"
+        - title: DIMM
+          url: "/fas9000/dimm-replace.html"
+        - title: 팬
+          url: "/fas9000/fan-swap-out.html"
+        - title: 입출력 모듈
+          url: "/fas9000/pci-cards-and-risers-replace.html"
+        - title: LED USB 모듈
+          url: "/fas9000/led-module-replace.html"
+        - title: NVRAM
+          url: "/fas9000/nvram-module-or-nvram-dimm-replacement.html"
+        - title: 전원 공급 장치
+          url: "/fas9000/power-supply-swap-out.html"
+        - title: RTC 배터리
+          url: "/fas9000/rtc-battery-replace.html"
+        - title: X91148A 모듈
+          pdf-filename: FAS9000 X91148A 모듈
+          entries:
+          - title: 개요
+            url: "/fas9000/x91148a-module-install-overview.html"
+          - title: 슬롯이 열린 AFF A700 시스템
+            url: "/fas9000/x91148a-modules-with-open-slots-add.html"
+          - title: AFF A700 시스템은 열려 있는 슬롯이 없습니다
+            url: "/fas9000/x91148a-modules-with-no-open-slots-add.html"
+  - title: 모든 SAN 어레이 시스템
+    url: "/platform-supplemental/all-san-array.html"
+  - title: 시스템 레벨 진단
+    entries:
+    - title: 소개
+      url: "/platform-supplemental/sldiag-introduction.html"
+    - title: 요구 사항
+      url: "/platform-supplemental/sldiag-requirements.html"
+    - title: 명령줄 도움말을 사용하는 방법
+      url: "/platform-supplemental/sldiag-use-cli-help.html"
+    - title: 시스템 설치 진단 프로그램을 실행합니다
+      url: "/platform-supplemental/sldiag-system-installation-diagnostics.html"
+    - title: 시스템 패닉 진단을 실행합니다
+      url: "/platform-supplemental/sldiag-system-panic-diagnostics.html"
+    - title: 시스템 응답 속도 저하 진단 유틸리티를 실행합니다
+      url: "/platform-supplemental/sldiag-slow-system-diagnostics.html"
+    - title: 하드웨어 설치 진단 유틸리티를 실행합니다
+      url: "/platform-supplemental/sldiag-hardware-installation-diagnostics.html"
+    - title: 장치 오류 진단을 실행합니다
+      url: "/platform-supplemental/sldiag-device-failure-diagnostics.html"
+  - title: 드라이브 쉘프
+    entries:
+    - section: ns224
+    - section: sas3
+  - title: 스위치
+    url: "/other/switch-linkout.html"
+  - title: 캐비닛 및 레일 키트
+    entries:
+    - title: SuperRail 키트
+      url: "/platform-supplemental/superrail-install.html"
+    - title: AFF A700/FAS9000 2포스트 레일 키트
+      url: "/platform-supplemental/telco-installation-instructions.html"
+    - title: 42U 1280 mm 시스템 캐비닛
+      entries:
+      - title: 캐비닛 설치를 준비합니다
+        entries:
+        - title: 캐비닛 기능
+          url: "/platform-supplemental/42u-1280mm-features.html"
+        - title: 필요한 공구/장비
+          url: "/platform-supplemental/42u-1280mm-required-tools.html"
+        - title: 공간 요구 사항 및 캐비닛 치수
+          url: "/platform-supplemental/42u-1280mm-space-and-dimensions.html"
+        - title: 지원되는 PDU 유형 및 사양
+          url: "/platform-supplemental/42u-1280mm-supported-pdu-types-and-specifications.html"
+      - title: 시스템 캐비닛의 포장을 풉니다
+        url: "/platform-supplemental/42u-1280mm-unpack.html"
+      - title: 캐비닛을 설치합니다
+        entries:
+        - title: 개요
+          url: "/platform-supplemental/42u-1280mm-install.html"
+        - title: 캐비닛 상호 연결 키트를 설치합니다
+          url: "/platform-supplemental/42u-1280mm-install-cabinet-interconnect-kit.html"
+        - title: 볼트 다운 키트를 장착하십시오
+          url: "/platform-supplemental/42u-1280mm-install-bolt-down-kit.html"
+        - title: 지지 레일을 설치합니다
+          url: "/platform-supplemental/42u-1280mm-install-additional-rails.html"
+        - title: 장비를 설치합니다
+          url: "/platform-supplemental/42u-1280mm-install-equipment.html"
+        - title: 캐비닛 전원을 켭니다
+          url: "/platform-supplemental/42u-1280mm-power-on.html"
+      - title: PDU를 교체합니다
+        url: "/platform-supplemental/42u-1280mm-replace-pdus.html"
+      - title: 캐비닛 전면 덮개를 반대로 합니다
+        entries:
+        - title: 필요한 것
+          url: "/platform-supplemental/42u-1280mm-reverse-front-door.html"
+        - title: 조명이 들어오는 배지를 제거하십시오
+          url: "/platform-supplemental/42u-1280mm-remove-illuminated-badge.html"
+        - title: 캐비닛 도어를 제거합니다
+          url: "/platform-supplemental/42u-1280mm-remove-door.html"
+        - title: 배지 전원 공급 장치 및 케이블을 이동합니다
+          url: "/platform-supplemental/42u-1280mm-move-badge-ps-and-cabling.html"
+        - title: 도어 힌지 및 잠금 캐치를 반대로 합니다
+          url: "/platform-supplemental/42u-1280mm-reverse-hinge-and-lock.html"
+        - title: 도어 및 조명 배지를 다시 장착하십시오
+          url: "/platform-supplemental/42u-1280mm-reinstall-door-and-badge.html"
+  - title: 기타 모델
+    url: "/other/other-models.html"
   - title: 법적 고지
     url: "/legal-notices.html"

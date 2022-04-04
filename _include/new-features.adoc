@@ -84,7 +84,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"]
+https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"] https://hwu.netapp.com/Switch/Index["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
  a| 
 Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.
 

@@ -1,0 +1,39 @@
+---
+permalink: a200/replace_internal_drive.html 
+sidebar: sidebar 
+keywords: AFF A200 
+summary: 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다. 
+---
+= 장애가 발생한 드라이브 교체 - AFF A200
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 등록할 때 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.
+
+.시작하기 전에
+* 가장 좋은 방법은 드라이브를 핫 스왑하기 전에 DQP(Disk Qualification Package)의 현재 버전을 설치하는 것입니다.
+* 시스템 콘솔에서 'storage disk show-Broken' 명령을 실행하여 오류가 발생한 디스크 드라이브를 식별합니다. 오류가 발생한 드라이브가 실패한 드라이브 목록에 나타납니다. 그렇지 않으면 기다린 다음 명령을 다시 실행해야 합니다.
+* 디스크를 핫 스왑하는 방법은 디스크 드라이브의 사용 방식에 따라 다릅니다. SED 인증이 활성화된 경우 의 SED 교체 지침을 사용해야 합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/home.html["ONTAP 9 NetApp 암호화 기능 가이드"]. 이 지침에서는 SED를 교체하기 전과 후에 수행해야 하는 추가 단계에 대해 설명합니다.
+* 교체 드라이브는 플랫폼이 지원해야 합니다. 를 참조하십시오 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"].
+* 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+
+최신 버전이 아닌 새 드라이브에서 드라이브 펌웨어가 중단 없이 자동으로 업데이트됩니다.
+
+여러 개의 디스크 드라이브를 교체할 때 오류가 발생한 각 디스크 드라이브를 제거하고 교체 디스크 드라이브를 삽입하는 사이에 1분 정도 기다려야 스토리지 시스템이 각 새 디스크의 존재를 인식할 수 있습니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: SSD 교체
+--
+stdin>에서 해결되지 않은 지시문 - 포함::::./_include/drive_hotswap_sas.adoc [ ]
+
+--
+.옵션 2: HDD를 교체합니다
+--
+stdin>에서 해결되지 않은 지시문 - 포함:::./_include/drive_hotswap_sas.adoc.adoc []
+
+--
+====

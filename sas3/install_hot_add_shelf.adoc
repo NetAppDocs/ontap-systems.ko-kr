@@ -288,7 +288,7 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 
 .이 작업에 대해
 * 선반선반의 케이블 연결과 선반선반선반의 쌍폭 케이블 연결에 대한 설명과 예는 을 참조하십시오 link:install-cabling-rules.html#shelf-to-shelf-connection-rules["쉘프-쉘프 SAS 연결 규칙"].
-* 컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법에 대한 지침은 을(를) 참조하십시오 link:install-cabling-worksheets-how-to-read-multipath.html["다중 경로 연결을 위해 컨트롤러 대 스택 연결에 케이블을 연결하기 위해 워크시트를 읽는 방법"] 또는 .
+* 컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법에 대한 지침은 을(를) 참조하십시오 link:install-cabling-worksheets-how-to-read-multipath.html["다중 경로 연결을 위해 컨트롤러 대 스택 연결에 케이블을 연결하기 위해 워크시트를 읽는 방법"] 또는 link:install-cabling-worksheets-how-to-read-quadpath.html["4중 경로 연결을 위해 컨트롤러-스택 간 연결을 케이블로 연결하기 위해 워크시트를 읽는 방법"].
 * 핫 추가 디스크 쉘프의 케이블을 연결한 후 ONTAP에서 해당 쉘프 인식: 디스크 소유권 자동 할당이 설정된 경우 디스크 소유권이 할당되며 필요한 경우 디스크 쉘프(IOM) 펌웨어 및 디스크 드라이브 펌웨어가 자동으로 업데이트되어야 합니다. 또한 구성에서 대역 내 ACP가 활성화되어 있는 경우, 핫 추가된 디스크 쉘프에서 자동으로 활성화됩니다.
 +
 

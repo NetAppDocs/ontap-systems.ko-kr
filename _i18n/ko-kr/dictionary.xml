@@ -2519,7 +2519,6 @@
   <block id="1e98034375ef52d4a4529ac291edcded" category="list-text">확인 백업 절차가 성공했는지 확인한 후 노드를 재부팅할지 묻는 메시지가 표시되면 y를 누릅니다.</block>
   <block id="28267e3d063c489c0ed82d1f0863da80" category="paragraph">ONTAP 프롬프트에서 system node halt-skip-lif-migration-before-shutdown true-ignore-quorum-warnings true-inhibit-Takeover true 명령을 실행할 수 있습니다.</block>
   <block id="65abf086161519d5b7303801f17badfc" category="list-text">환경 변수가 예상대로 설정되어 있지 않으면 'etenv__environment-variable-name___changed-value_' 명령으로 변경하십시오.</block>
-  <block id="a9ff665cf855e59641b71498bd066dc2" category="list-text">'avenev' 명령을 사용하여 변경 내용을 저장합니다.</block>
   <block id="92ccf13258bf9f740502601a8edd96f2" category="list-text">손상된 노드 재부팅에서 'Waiting for 반환...' 메시지가 표시되면 정상 노드에서 기브백을 수행합니다.</block>
   <block id="e55f609f99ca89d1e0364e07cd66a1ac" category="paragraph">손상된 노드에 'Waiting for 반환...' 메시지가 표시된 후 정상 노드에서 반환 수행:</block>
   <block id="9829cc73f1aa57fe4c8f650070116d1b" category="list-text">정상 노드에서 'storage failover 반환 - ofnode PARTNER_NODE_NAME'</block>
@@ -5099,7 +5098,6 @@
   <block id="cbd6e530c253bd69eae2efffc8a1d409" category="list-text">다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다</block>
   <block id="2c51278d41ddd5b0a5e4e43d5d054024" category="admonition">주소의 형식은 입니다<block ref="e3a42c8b12a27a5e78828d7419e57eb0" category="inline-link-rx"></block>.</block>
   <block id="4a548135158bf0dbaee8622657e29f8a" category="doc">손상된 컨트롤러(AFF A220 및 FAS2700)를 종료합니다</block>
-  <block id="e899cd265eb0284d156930495e1a6147" category="doc">AFF A220 및 FAS2700 시스템 설명서</block>
   <block id="616fd6518ea3af054114db97fda5ce99" category="section-title">2단계: NVMEM 배터리를 이동합니다</block>
   <block id="b6790ed19ee7185948334edd9ddcca05" category="section-title">3단계: 부팅 미디어를 이동합니다</block>
   <block id="1952d412a2089ae2581c6a09ce1f7282" category="section-title">5단계: 캐시 모듈이 있는 경우 이동합니다</block>
@@ -5124,7 +5122,6 @@
   <block id="56c92e962f19f33c819fa704568c60fe" category="list-text"><block ref="56c92e962f19f33c819fa704568c60fe" category="inline-link-macro-rx"></block></block>
   <block id="7ece4dc1de81ff4f6a6d373a61c7fd86" category="doc">시스템 구성(AFF A220 및 FAS2700)을 복원 및 확인합니다</block>
   <block id="21ee2e5e51f0485744f531669814fed3" category="summary">이 링크를 다른 스위치 모델에 사용할 수 있습니다.</block>
-  <block id="77d9df2bb55558446417de1799833272" category="doc">Cisco 및 Broadcom - 지원되는 클러스터, 스토리지 및 관리 스위치</block>
   <block id="bd397018360b37f0581b599a75518e00" category="paragraph">이러한 링크를 사용하여 스위치 설명서를 찾을 수 있습니다.</block>
   <block id="87ac6ecba347afc9b3bfcf5a25512ddc" category="inline-link-macro">Broadcom 지원 BES-53248 스위치</block>
   <block id="fcad6ad7a3d292b04f7014170c512dec" category="list-text"><block ref="fcad6ad7a3d292b04f7014170c512dec" category="inline-link-macro-rx"></block></block>
@@ -8167,7 +8164,6 @@
   <block id="e43128f7c789cef4c5803c71a455e62b" category="inline-link">ONTAP 9 릴리즈 노트에 액세스합니다</block>
   <block id="aee57c40ad1b8fc3b33e5e954861e270" category="paragraph"><block ref="aee57c40ad1b8fc3b33e5e954861e270" category="inline-link-rx"></block></block>
   <block id="262434bb76bf9aa49a3efe7de43d9a4e" category="sidebar">AFF 및 FAS 시스템 문서</block>
-  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="60786ac16439455c42ee2fbe23a16c06" category="doc">컨트롤러 모듈 교체 개요 - AFF A300</block>
   <block id="8f32b075b74f50db60cdc53341ea5195" category="doc">부팅 미디어 교체 개요 - AFF A300</block>
@@ -8544,4 +8540,76 @@
   <block id="eb90dbf89cffd9812a8720d277f30583" category="summary">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다.</block>
   <block id="0f40216c1ad47c12e8ccc087d555570f" category="sidebar">ONTAP 릴리즈 노트</block>
   <block id="c0a1a3a5bc62ecf46953d4c7ebde86a7" category="section-title">6단계: (2노드 MetroCluster만 해당): 애그리게이트로 전환</block>
+  <block id="af844de12c61a1b2d86c05934c317256" category="summary">플랫폼에서 드라이브 실패를 나타내는 경고 메시지를 시스템 콘솔에 기록할 때 드라이브를 교체해야 합니다. 또한, 작동 디스플레이 패널의 오류 LED와 고장 드라이브의 오류 LED가 모두 켜집니다.</block>
+  <block id="92198152754d5741f3a481c1555464b4" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF C190</block>
+  <block id="5f807f08fe5525cbcd6708fd63eac203" category="paragraph">입출력이 진행되는 동안 장애가 발생한 드라이브를 중단 없이 교체할 수 있습니다. SSD 교체 절차는 비회전식 드라이브를 대상으로 하며 HDD 교체 절차는 회전식 드라이브를 위한 것입니다.</block>
+  <block id="0d05e02f604e76f41068ce0c51bc6d81" category="paragraph">드라이브에 오류가 발생하면 플랫폼은 시스템 콘솔에 어떤 드라이브가 고장났는지 나타내는 경고 메시지를 기록합니다. 또한, 작동 디스플레이 패널의 오류 LED와 고장 드라이브의 오류 LED가 모두 켜집니다.</block>
+  <block id="b89efb90c65765476218cc7e0cdb4195" category="list-text">드라이브를 교체하기 전에 모범 사례에 따라 DQP(Disk Qualification Package)의 현재 버전을 설치하십시오.</block>
+  <block id="9f2373b743cd63cae2165d916d44ed8f" category="list-text">시스템 콘솔에서 'storage disk show-Broken' 명령을 실행하여 오류가 발생한 디스크 드라이브를 식별합니다.</block>
+  <block id="583696e8273677d4dbae849781cbf55d" category="paragraph">오류가 발생한 드라이브가 실패한 드라이브 목록에 나타납니다. 그렇지 않으면 기다린 다음 명령을 다시 실행해야 합니다.</block>
+  <block id="1bb0fd4258be50b59e46882b35acc28e" category="list-text">SED 인증 활성화 여부를 확인합니다.</block>
+  <block id="5d5aa765d031a6aec40949b1fe489f43" category="paragraph">디스크 교체 방법은 디스크 드라이브의 사용 방식에 따라 다릅니다. SED 인증이 활성화된 경우 의 SED 교체 지침을 사용해야 합니다<block ref="fc87e4868a863f484cb32d2391c4aa0d" category="inline-link-rx"></block>. 이 지침에서는 SED를 교체하기 전과 후에 수행해야 하는 추가 단계에 대해 설명합니다.</block>
+  <block id="81e1b67b4176274b272b2432d79bb3a4" category="list-text">교체 드라이브가 플랫폼에서 지원되는지 확인하십시오. 를 참조하십시오<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block>.</block>
+  <block id="35947e84e557291e52a523d2f7eefc27" category="list-text">시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.</block>
+  <block id="dd48f304652176299be75f07f2b6523a" category="paragraph">플랫폼에서 지원하는 드라이브에 적합한 옵션을 선택하여 오류가 발생한 드라이브를 교체합니다.</block>
+  <block id="4a0f8aecbf870bfdf4815f2f2ceeb53f" category="inline-link">장애가 발생한 드라이브 비디오를 교체합니다</block>
+  <block id="d6e9040aecfa516e4a65b04b455f9f8f" category="paragraph">을(를) 볼 수도 있습니다<block ref="3e3795a2a8fcc1e5dcfff5dff428e5f2" category="inline-link-rx"></block> 내장형 드라이브 교체 절차를 간략하게 보여 줍니다.</block>
+  <block id="b2503ad254a75d9be517466a531e8187" category="open-title">옵션 1: SSD 교체</block>
+  <block id="3862a4353217fcdcd0118bfd4cc1c05a" category="open-title">옵션 2: HDD를 교체합니다</block>
+  <block id="3c533ebf2f9fc11504f4940fa25f3d60" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A200을 교체합니다</block>
+  <block id="8b4eefcd8e93a21d1bcd9ddea95d0b29" category="list-text">'avenv' 명령을 사용하여 변경 내용을 저장합니다.</block>
+  <block id="b7cfb975a50851418ad4bf0bcad4933f" category="section-title">새로운 하드웨어 업그레이드 개선 사항</block>
+  <block id="9f6a47c67bda21bca9bc7674dc5f2c67" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF A250</block>
+  <block id="586b0b2395e2a0e300f3fa9bf559633c" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - FAS2600</block>
+  <block id="b20f6d14e4d2aa074f783ed7ba24d15f" category="doc">장애가 발생한 드라이브 교체 - AFF A200</block>
+  <block id="f24bbd8bd23b87a9a7d8b466f2edd685" category="list-text">가장 좋은 방법은 드라이브를 핫 스왑하기 전에 DQP(Disk Qualification Package)의 현재 버전을 설치하는 것입니다.</block>
+  <block id="38b15850492133a635d50ad8448e62b9" category="list-text">디스크를 핫 스왑하는 방법은 디스크 드라이브의 사용 방식에 따라 다릅니다. SED 인증이 활성화된 경우 의 SED 교체 지침을 사용해야 합니다<block ref="fc87e4868a863f484cb32d2391c4aa0d" category="inline-link-rx"></block>. 이 지침에서는 SED를 교체하기 전과 후에 수행해야 하는 추가 단계에 대해 설명합니다.</block>
+  <block id="6e3d311e755c860fa8be4786c7ffe617" category="list-text">교체 드라이브는 플랫폼이 지원해야 합니다. 를 참조하십시오<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block>.</block>
+  <block id="455e7132916e2cfdc2ed81e21742458e" category="paragraph">stdin&gt;에서 해결되지 않은 지시문 - 포함::::./_include/drive_hotswap_sas.adoc [ ]</block>
+  <block id="ed6243b9da8cbb52d7ded5d7a78d3b37" category="paragraph">stdin&gt;에서 해결되지 않은 지시문 - 포함:::./_include/drive_hotswap_sas.adoc.adoc []</block>
+  <block id="2bed99b4660dcf909368c3a2ae62b513" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF A800</block>
+  <block id="ad451e1c6a6a584f53b88b5c73144db7" category="doc">기타 모델</block>
+  <block id="07fa61787cd64fafda80a8c62e643a38" category="section-title">플랫폼 모델</block>
+  <block id="7a31198e87ee2c9071d7bf63050a7088" category="section-title">쉘프 모델</block>
+  <block id="03be12a0476133b21cb6c1c927956d23" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A220 및 FAS2700을 교체합니다</block>
+  <block id="24b3b18d4ae3c460037fb58156d310c6" category="doc">FAS2700 시스템 설명서</block>
+  <block id="7b8d355a80903af67d6bd3bd4c49f973" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A700s를 교체합니다</block>
+  <block id="1bfc6b841bbb9beb5900ea65dba46d0d" category="sidebar">TR-4539 - VMware Horizon View를 위한 NetApp All Flash FAS 솔루션</block>
+  <block id="12c860323c3b7c3ce59343f747296367" category="sidebar">AFF A220 시스템</block>
+  <block id="9d01d7eb3a0827983de11cc9671e5029" category="sidebar">AFF A220 설치 및 설정</block>
+  <block id="01d7cd58de6e7861c757c7723be1642f" category="sidebar">AFF A220 유지 보수</block>
+  <block id="c39d4a3a07244494f50723bf4b6bee7c" category="sidebar">AFF A220 부팅 미디어</block>
+  <block id="595db83f42715fcd4f8806a8433e430a" category="sidebar">AFF A220 캐싱 모듈</block>
+  <block id="139224360f764f63e0f1a87f6575b350" category="sidebar">AFF A220 컨트롤러</block>
+  <block id="f6caefdbf5b7d345e721affd6b6d9bab" category="sidebar">AFF A220 DIMM</block>
+  <block id="9e493c35f280e1be11ab7f0f286f498b" category="sidebar">AFF A220 드라이브</block>
+  <block id="ca55628a813bde8148e26c974fb5bd2e" category="sidebar">AFF A220 실시간 시계 배터리</block>
+  <block id="abff35a157d2dacb23862f65107e6046" category="sidebar">AFF A700 시스템</block>
+  <block id="32f4ca4d86bfc7a1abf3647cecc1958a" category="sidebar">AFF A700 설치 및 설정</block>
+  <block id="b7d8ac4aa5747d1981de364593ecfafb" category="sidebar">AFF A700이 유지됩니다</block>
+  <block id="052421ddc6a5f7b7d6dadeea44c31393" category="sidebar">AFF A700 부팅 미디어</block>
+  <block id="3342b2d561671b3a6adba94af79af745" category="sidebar">AFF A700 섀시</block>
+  <block id="7bfe8ab3ea2ac4c472be39fc05f489b1" category="sidebar">AFF A700 컨트롤러</block>
+  <block id="d4f63ac2425db51a7af4d929775e79c5" category="sidebar">AFF A700 X91148A 모듈</block>
+  <block id="78d2c75e596fdde729e02a7f3810fe1f" category="sidebar">FAS2700 시스템</block>
+  <block id="7940df38b8691fb00f99eee3a415bac2" category="sidebar">FAS2700 설치 및 설정</block>
+  <block id="789f34e0a7a0ec20087af4c807df7ad5" category="sidebar">FAS2700 유지 관리</block>
+  <block id="76de51a63a301223ddb49113a7278a3e" category="sidebar">FAS2700 부팅 미디어</block>
+  <block id="a44baa6c5ec4e4f488c6169d4bc35047" category="sidebar">FAS2700 캐시 모듈</block>
+  <block id="48c473b9c5452c417d41b924d79d6c1c" category="sidebar">FAS2700 섀시</block>
+  <block id="a4cc7a945ef6ba93df52114c201edd01" category="sidebar">FAS2700 컨트롤러</block>
+  <block id="c5a520bea2989fd52c3041960b69fed4" category="sidebar">FAS2700 DIMM</block>
+  <block id="f69188f77ddf41c996359e3104869fb3" category="sidebar">FAS2700 드라이브</block>
+  <block id="abf01648d47e7b2a7ff0a2d4727b1bb3" category="sidebar">FAS2700 실시간 시계 배터리</block>
+  <block id="af3b1c3faa9bccc5b975d147d144033d" category="sidebar">FAS9000 시스템</block>
+  <block id="38a83ff8505f0e21e31eba00c5d34f74" category="sidebar">FAS9000 설치 및 설정</block>
+  <block id="5ddc6a27c53ac9702b0d756e229caf0a" category="sidebar">FAS9000 유지 관리</block>
+  <block id="5fb158056328f252c445a51f600be8cf" category="sidebar">FAS9000 부팅 미디어</block>
+  <block id="11a40190bb36e43cbe860e374d9ecde9" category="sidebar">FAS9000 섀시</block>
+  <block id="1999e7b9b8a359e0a34178719a904727" category="sidebar">FAS9000 컨트롤러</block>
+  <block id="e3c2d91c7cf7bef5a04aecd6ac9a7aa2" category="sidebar">FAS9000 X91148A 모듈</block>
+  <block id="3b4f8423fb92aace5b1c957248b6fd18" category="sidebar">캐비닛 및 레일 키트</block>
+  <block id="45f409f69b4619cb11a8c9066bd236ac" category="sidebar">AFF A200 드라이브</block>
+  <block id="bda8b2764dc533181c801be2c8b33b73" category="sidebar">AFF A220 및 FAS2700 드라이브</block>
+  <block id="7cc615fcffd37b0f004ba9169b5db521" category="sidebar">AFF A700s 드라이브</block>
 </blocks>

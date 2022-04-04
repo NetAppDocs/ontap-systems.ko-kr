@@ -105,7 +105,7 @@
 
 == 참조 사이트
 
-를 클릭합니다 link:https://mysupport.netapp.com["NetApp Support 사이트"^] 사이트에는 NIC(네트워크 인터페이스 카드) 및 시스템과 함께 사용할 수 있는 기타 하드웨어에 대한 설명서도 포함되어 있습니다. 또한 에는 도 포함되어 있습니다 , 새 시스템에서 지원하는 하드웨어에 대한 정보를 제공합니다.
+를 클릭합니다 link:https://mysupport.netapp.com["NetApp Support 사이트"^] 사이트에는 NIC(네트워크 인터페이스 카드) 및 시스템과 함께 사용할 수 있는 기타 하드웨어에 대한 설명서도 포함되어 있습니다. 또한 에는 도 포함되어 있습니다 link:https://hwu.netapp.com["Hardware Universe"^], 새 시스템에서 지원하는 하드웨어에 대한 정보를 제공합니다.
 
 를 참조하십시오 link:https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"^] ONTAP 9 제품 설명서를 참조하십시오.
 

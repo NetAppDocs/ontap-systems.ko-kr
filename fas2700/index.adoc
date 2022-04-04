@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: fas2700/index.html 
 summary: 스토리지 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다. 
 ---
-= AFF A220 및 FAS2700 시스템 설명서
+= FAS2700 시스템 설명서
 :hardbreaks:
 :linkattrs: 
 :imagesdir: ./media/

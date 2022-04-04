@@ -139,7 +139,7 @@ ONTAP 프롬프트에서 system node halt-skip-lif-migration-before-shutdown tru
 
 ... printenv 명령으로 환경 변수 설정을 확인한다.
 ... 환경 변수가 예상대로 설정되어 있지 않으면 'etenv__environment-variable-name___changed-value_' 명령으로 변경하십시오.
-... 'avenev' 명령을 사용하여 변경 내용을 저장합니다.
+... 'avenv' 명령을 사용하여 변경 내용을 저장합니다.
 ... 컨트롤러를 재부팅합니다.
 
 

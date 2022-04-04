@@ -65,6 +65,9 @@ entries:
   - title: DIMM
     pdf-filename: AFF A700s DIMM
     url: "/a700s/dimm-replace.html"
+  - title: 드라이브
+    pdf-filename: AFF A700s 드라이브
+    url: "/a700s/drive-replace.html"
   - title: 팬
     entries:
     - title: 손상된 노드를 종료합니다

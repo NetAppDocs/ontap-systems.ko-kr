@@ -95,7 +95,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"]
+https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"] https://hwu.netapp.com/Switch/Index["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
  a| 
 Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.
 
@@ -257,7 +257,7 @@ ONTAP 9.5P14
 |===
 
 
-== 새로운 하드웨어 향상
+== 새로운 하드웨어 업그레이드 개선 사항
 
 ONTAP 9.8에서는 자동 포트 배치 기능이 도입되어 하드웨어 업그레이드 절차가 단순화되었습니다. ONTAP 9.8을 실행하는 시스템을 업그레이드할 때는 올바른 절차를 사용하여 포트 배치 기능을 고려해야 합니다.
 

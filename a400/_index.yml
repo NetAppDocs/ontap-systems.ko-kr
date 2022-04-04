@@ -5,6 +5,10 @@ indexpage:
     links:
     - title: ONTAP 릴리즈 노트
       url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
+    - title: 새로운 소식
+      url: "../whats-new.html"
+    - title: TR-4539 - VMware Horizon View를 위한 NetApp All Flash FAS 솔루션
+      url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
   - title: 설치 및 설정
     links:
     - title: 대부분의 구성
@@ -35,12 +39,6 @@ indexpage:
       url: "/power-supply-swapout.html"
     - title: RTC 배터리
       url: "/rtc-battery-replace.html"
-  - title: 학습
-    links:
-    - title: 내장 디스크 드라이브 비디오 교체
-      url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
-    - title: VMware Horizon View를 지원하는 비영구적 데스크톱용 NetApp All-Flash FAS 솔루션 | TR-4539
-      url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
   - title: 쉘프를 추가하거나 제거합니다
     links:
     - title: IOM12가 포함된 SAS

@@ -64,6 +64,8 @@ entries:
       url: "/fas2600/controller-replace-restore-system-rma.html"
   - title: DIMM
     url: "/fas2600/dimm-replace.html"
+  - title: DIMM
+    url: "/fas2600/drive-replace.html"
   - title: NVMEM 배터리
     url: "/fas2600/nvmem-nvram-battery-replace.html"
   - title: 전원 공급 장치

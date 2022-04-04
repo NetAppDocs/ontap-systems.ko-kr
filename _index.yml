@@ -8,6 +8,8 @@ indexpage:
     links:
     - title: ONTAP 릴리즈 노트
       url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
+    - title: 새로운 소식
+      url: "/whats-new.html"
   - title: AFF 시스템
     links:
     - title: AFF C190

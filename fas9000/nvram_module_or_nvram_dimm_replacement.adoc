@@ -83,7 +83,6 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 --
 .옵션 2: MetroCluster 구성
 --
-.컨트롤러가 MetroCluster에 있습니다
 
 NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
 
