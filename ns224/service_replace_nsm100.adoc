@@ -5,6 +5,7 @@ keywords: ns224, shelves, shelf, ns224 shelves, replace, impair, nvme, module, n
 summary: 'NS224 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 손상된 NVMe 쉘프 모듈\(NSM\)을 중단 없이 교체할 수 있습니다.' 
 ---
 = NSM 모듈-NS224 쉘프를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

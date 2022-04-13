@@ -5,6 +5,7 @@ keywords: complete, completing, worksheet, template, controller, sas, port, pair
 summary: 워크시트 템플릿을 완료하면 컨트롤러를 IOM12 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다. 
 ---
 = IOM12 모듈을 사용하는 4중 경로 연결 쉘프용 컨트롤러-스택 케이블링 워크시트 템플릿
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

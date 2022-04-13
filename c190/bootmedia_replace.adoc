@@ -5,6 +5,7 @@ keywords: aff c190, locate, boot, media, controller, direction, replace
 summary: 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다. 
 ---
 = 부팅 미디어 교체 - AFF C190
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

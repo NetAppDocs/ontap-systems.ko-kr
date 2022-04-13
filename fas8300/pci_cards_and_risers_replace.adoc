@@ -5,6 +5,7 @@ keywords: fas8300, fas8700, replace, pcie, mezzanine, card, controller, metroclu
 summary: PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈을 카드에서 분리하고, 오류가 발생한 PCIe 또는 메자닌 카드를 교체한 다음 카드를 다시 배선해야 합니다. 
 ---
 = PCIe 또는 메자닌 카드 교체 - FAS8300 및 FAS8700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

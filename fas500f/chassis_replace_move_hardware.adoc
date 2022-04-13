@@ -5,6 +5,7 @@ keywords: fas500f, move hardware components, replace the chassis
 summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
 ---
 = 하드웨어 이동 및 교체 - FAS500f
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

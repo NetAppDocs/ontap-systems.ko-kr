@@ -5,6 +5,7 @@ keywords: AFF A900, replace, boot, media, controller, directions. replace boot m
 summary: 컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미디어를 찾아 교체한 다음 교체 부팅 미디어로 이미지를 전송해야 합니다. 
 ---
 = 컨트롤러를 제거하고 부팅 미디어를 교체한 다음 부팅 이미지(AFF A900)를 전송합니다
+:allow-uri-read: 
 
 
 [role="lead"]

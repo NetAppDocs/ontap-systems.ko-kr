@@ -5,6 +5,7 @@ keywords: aff a250, detailed installation
 summary: 이 섹션에서는 AFF A250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다. 
 ---
 = 상세 단계 - AFF A250
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

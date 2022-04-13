@@ -5,6 +5,7 @@ keywords: AFF A900
 summary: 시스템 랙에 설치하고 케이블을 연결하는 방법을 보여주는 비디오와 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 방법의 예를 보여 주는 비디오 두 개가 있습니다. 
 ---
 = 비디오 스텝 - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

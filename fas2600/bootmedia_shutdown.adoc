@@ -5,6 +5,7 @@ keywords: fas2600, shut down the controller
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
 = 손상된 컨트롤러-FAS2600을 종료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

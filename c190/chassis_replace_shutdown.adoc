@@ -5,6 +5,7 @@ keywords: aff c190, shutdown the controllers
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러 종료 - AFF C190
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

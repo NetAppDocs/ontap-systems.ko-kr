@@ -5,6 +5,7 @@ keywords:
 summary:  
 ---
 = 시스템 회수 - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

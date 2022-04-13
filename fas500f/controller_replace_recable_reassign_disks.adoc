@@ -5,6 +5,7 @@ keywords: fas500f, how to recable the system, how to reassign disks
 summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
 ---
 = 시스템 재할당 및 디스크 재할당 - FAS500f
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

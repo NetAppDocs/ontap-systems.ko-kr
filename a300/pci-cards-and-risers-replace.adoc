@@ -5,6 +5,7 @@ keywords: aff a300, replace a pcie card
 summary: PCIe 카드를 교체하려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = PCIe 카드 교체 - AFF A300
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

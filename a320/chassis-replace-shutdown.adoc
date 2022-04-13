@@ -5,6 +5,7 @@ keywords: aff, a320, aff a320, replace, chassis, fan, controller, module, impair
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러 종료 - AFF A320
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

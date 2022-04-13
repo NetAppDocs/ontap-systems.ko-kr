@@ -5,6 +5,7 @@ keywords: install, cabling, cable, disk, shelves, shelf, iom12, module, system, 
 summary: '새 시스템(HA 쌍 또는 단일 컨트롤러 구성)이 캐비닛에 설치되지 않은 경우 디스크 쉘프를 랙에 설치하고 케이블을 연결해야 합니다.' 
 ---
 = 새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12 모듈 장착 선반
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

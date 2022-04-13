@@ -5,6 +5,7 @@ keywords: hot-swap, fail, power, supply, ds460c, ds224c, ds212c, disk, shelf-non
 summary: DS460C, DS224C 또는 DS212C 디스크 쉘프에 있는 고장난 전원 공급 장치를 핫 스왑할 수 있습니다. 
 ---
 = 전원 공급 장치-선반을 IOM12 모듈로 핫 스왑
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

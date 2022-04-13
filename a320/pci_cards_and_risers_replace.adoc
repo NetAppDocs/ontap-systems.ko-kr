@@ -5,6 +5,7 @@ keywords: aff, a320, aff a320, replace, pcie, card, disconnect, cable, card, sfp
 summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 제거한 다음 라이저를 다시 설치하고 SFP 및 QSFP 모듈을 다시 설치해야 합니다. 
 ---
 = PCIe 카드 교체 - AFF A320
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

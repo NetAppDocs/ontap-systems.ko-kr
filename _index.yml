@@ -79,7 +79,7 @@ indexpage:
     - title: 대부분의 시스템에 대한 업그레이드
       url: https://docs.netapp.com/us-en/ontap-systems-upgrade/index.html
     - title: MetroCluster 구성의 시스템 업그레이드
-      url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/index.html
+      url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html
   - title: 더 많은 리소스
     links:
     - title: ONTAP 설명서

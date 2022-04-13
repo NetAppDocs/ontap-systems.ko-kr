@@ -5,6 +5,7 @@ keywords: aff a700, fas9000, move hardware
 summary: 손상된 섀시에서 팬, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
 ---
 = 하드웨어 AFF A700 및 FAS9000 이동 및 교체
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

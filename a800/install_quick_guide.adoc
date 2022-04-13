@@ -5,6 +5,7 @@ keywords: aff a800, quick steps
 summary: 이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오. 
 ---
 = 빠른 단계 - AFF A800
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

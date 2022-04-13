@@ -5,6 +5,7 @@ keywords: fas8300, fas8700, nvdimm, battery, remove, controller, module, control
 summary: NVDIMM 전지를 교체하려면 컨트롤러 모듈을 분리하고 전지를 분리한 다음 전지를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다. 
 ---
 = NVDIMM 배터리 교체 - FAS8300 및 FAS8700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

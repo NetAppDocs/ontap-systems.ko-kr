@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 노드 1을 노드 3으로 교체하려면 먼저 storage aggregate relocation 명령을 사용하여 비루트 애그리게이트를 노드 1에서 노드 2로 이동한 다음 재배치를 확인해야 합니다.

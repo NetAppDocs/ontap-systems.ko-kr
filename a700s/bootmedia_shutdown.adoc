@@ -5,6 +5,7 @@ keywords: aff a700s, aff, a700s, completing, complete, nve, nse, shutdown, impai
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
 = controller-AFF A700s를 종료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

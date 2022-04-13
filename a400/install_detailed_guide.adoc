@@ -5,6 +5,7 @@ keywords: aff a400, aff, a400, step-by-step, instruction, install, typical, neta
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오. 
 ---
 = 자세한 가이드 - AFF A400
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

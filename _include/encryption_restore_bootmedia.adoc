@@ -1,4 +1,5 @@
 = 옵션 1: Onboard Key Manager가 활성화된 경우 NVE 또는 NSE를 복원합니다
+:allow-uri-read: 
 
 
 환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)가 활성화된 시스템과 관련된 단계를 완료해야 합니다.

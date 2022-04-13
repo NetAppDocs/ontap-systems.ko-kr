@@ -5,6 +5,7 @@ keywords: fas2700, aff a220, prerequisite, replace the controller module
 summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
 ---
 = 컨트롤러 모듈 교체 개요 - AFF A220 및 FAS2700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

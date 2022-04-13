@@ -5,6 +5,7 @@ keywords: aff a400, aff, a400, swap, out, fan, module, interrupt, service, seque
 summary: 서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = 팬 모듈 핫스왑 - AFF A400
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

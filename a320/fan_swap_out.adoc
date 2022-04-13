@@ -5,6 +5,7 @@ keywords: aff, a320, aff a320, swap, fan, module, interrupt, service, perform, s
 summary: 서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = 팬 모듈 핫 스왑 - AFF A320
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

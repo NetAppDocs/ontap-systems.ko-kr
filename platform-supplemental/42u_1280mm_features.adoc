@@ -5,6 +5,7 @@ keywords: system, cabinet, side, panel, front, rear, door, bolt-down, kit, optio
 summary: '시스템 캐비닛은 측면 패널, 전면 및 후면 도어, 볼트 다운 키트(옵션), 인터커넥트 키트(옵션), 장비용 PDU 및 통합 케이블 관리 시스템으로 구성되어 있습니다.' 
 ---
 = 시스템 캐비닛 기능
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

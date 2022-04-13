@@ -5,6 +5,7 @@ keywords: hot-remove, disk, shelf, iom12, module, nondisruptive, module-nondisru
 summary: '디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 상태에서 데이터를 제공하는 시스템에서 디스크 쉘프를 중단 없이 제거, I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.' 
 ---
 = IOM12 모듈을 사용하여 쉘프-쉘프 핫 제거
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

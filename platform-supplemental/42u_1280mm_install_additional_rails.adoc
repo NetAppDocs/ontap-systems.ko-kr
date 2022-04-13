@@ -5,6 +5,7 @@ keywords: system cabinets, system, cabinet, support, rail, install, component, i
 summary: 시스템 캐비닛에는 일부 지지 레일이 이미 설치되어 있습니다. 시스템에 추가 지원 레일이 필요한 경우 시스템 구성 요소를 설치하기 전에 해당 레일을 설치해야 합니다. 
 ---
 = 추가 지지 레일을 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

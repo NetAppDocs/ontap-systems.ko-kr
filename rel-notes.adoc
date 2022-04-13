@@ -5,6 +5,7 @@ keywords: release, notes, ontap, AFF, FAS
 summary: ONTAP 릴리스 정보 
 ---
 = 릴리스 정보
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ keywords: fas8300, fas8300, locate, boot, media, controller, module, fre, map, d
 summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.' 
 ---
 = 부트 미디어를 교체합니다. - FAS8300 및 FAS8700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

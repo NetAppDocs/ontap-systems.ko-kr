@@ -5,6 +5,7 @@ keywords: aff a800, replace a power supply
 summary: 전원 공급 장치를 교체하려면 전원에서 대상 전원 공급 장치를 분리하고 전원 케이블을 분리한 다음 기존 PSU를 분리하고 교체용 PSU를 설치한 다음 다시 전원에 연결해야 합니다. 
 ---
 = 전원 공급 장치 교체 - AFF A800
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

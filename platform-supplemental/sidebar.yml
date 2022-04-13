@@ -68,23 +68,3 @@ entries:
       url: "/platform-supplemental/42u-1280mm-reverse-hinge-and-lock.html"
     - title: 도어 및 조명 배지를 다시 장착하십시오
       url: "/platform-supplemental/42u-1280mm-reinstall-door-and-badge.html"
-- title: 내부 디스크 드라이브를 스왑 아웃합니다
-  entries:
-  - title: 비디오 개요
-    url: "/platform-supplemental/drive-video.html"
-  - title: 핫 스왑 내장 드라이브
-    entries:
-    - title: 사용할 절차입니다
-      url: "/platform-supplemental/drive-hotswap.html"
-    - title: 핫 스왑 SSD
-      url: "/platform-supplemental/drive-hotswap-drive.html"
-    - title: 핫 스왑 HDD
-      url: "/platform-supplemental/drive-hotswap-sas.html"
-- title: 모든 SAN 어레이 시스템
-  entries:
-  - title: 설치 및 유지 관리
-    url: "/platform-supplemental/all-san-array.html"
-- title: 하드웨어 업그레이드
-  entries:
-  - title: 업그레이드 절차
-    url: "/platform-supplemental/upgrade-linkout.html"

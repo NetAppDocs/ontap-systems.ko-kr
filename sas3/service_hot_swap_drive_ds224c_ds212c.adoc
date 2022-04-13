@@ -5,6 +5,7 @@ keywords: hot-swap, fail, disk, drive, ds224c, ds212c, disk, shelf-nondisruptive
 summary: DS224C 또는 DS212C 디스크 쉘프에서 오류가 발생한 디스크 드라이브를 핫 스왑할 수 있습니다. 
 ---
 = DS224C 또는 DS212C 디스크 쉘프 쉘프의 디스크 드라이브를 IOM12 모듈과 핫 스왑합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

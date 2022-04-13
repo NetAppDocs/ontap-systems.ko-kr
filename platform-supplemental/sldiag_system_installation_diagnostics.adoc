@@ -5,6 +5,7 @@ keywords: run, diagnostic, initial, system, installation, identify, version, sys
 summary: 초기 시스템 설치 후 진단 프로그램을 실행하여 스토리지 시스템에서 시스템 수준 진단 프로그램의 버전과 지원되는 장치를 식별하고, 설치가 성공적이며 모든 하드웨어가 제대로 작동하는지 확인합니다. 
 ---
 = 시스템 설치 진단 프로그램을 실행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

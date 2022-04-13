@@ -1,4 +1,5 @@
 = 노드 4에서 FC 포트를 구성합니다
+:allow-uri-read: 
 
 
 

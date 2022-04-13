@@ -5,6 +5,7 @@ keywords: remove, system, cabinet, door, side, panel, illuminate, badge, compone
 summary: 시스템 캐비닛 도어 및 측면 패널을 제거하여 조명이 들어오는 배지와 구성 요소를 이동하고 도어를 후진해야 합니다. 
 ---
 = 시스템 캐비닛 도어를 분리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: fas2700, aff a220, replace, chassis, shut down, controller, metroclust
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
 = 섀시 교체 개요 - AFF A220 및 FAS2700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

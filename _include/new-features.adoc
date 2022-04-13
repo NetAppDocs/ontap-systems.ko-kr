@@ -1,4 +1,5 @@
 = 새로운 어댑터 지원
+:allow-uri-read: 
 
 
 

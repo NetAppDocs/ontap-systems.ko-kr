@@ -5,6 +5,7 @@ keywords: AFF A900
 summary: 'NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 실패한 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.' 
 ---
 = NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(AFF A900)을 교체하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

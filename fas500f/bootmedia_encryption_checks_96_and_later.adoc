@@ -5,6 +5,7 @@ keywords: fas500f, check, nve, nse, systems, ontap 9.6, netapp volume encryption
 summary: '손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption\(NVE\) 또는 NetApp Storage Encryption\(NSE\)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.' 
 ---
 = 온보드 암호화 키 확인 - FAS500f
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

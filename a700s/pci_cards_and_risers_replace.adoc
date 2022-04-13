@@ -5,6 +5,7 @@ keywords: aff a700s, aff, a700s, replace, pcie, card, disconnect, cable, riser, 
 summary: PCIe 카드를 교체하려면 라이저의 카드에서 케이블을 분리하고 라이저를 꺼낸 다음 해당 라이저에 있는 카드를 다시 장착해야 합니다. 
 ---
 = PCIe 카드 교체 - AFF A700s
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

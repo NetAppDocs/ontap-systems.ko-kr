@@ -6,6 +6,7 @@ summary: AFF A250 시스템 설명서를 사용하여 시스템을 설치, 설�
 ---
 = AFF A250 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

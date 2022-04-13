@@ -5,6 +5,7 @@ keywords: replace, fail, PDU, system, cabinet, replace, exist, replace pdu
 summary: 시스템 캐비닛에서 장애가 발생한 PDU를 교체하거나 기존 PDU를 다른 유형의 PDU로 교체할 수 있습니다. 
 ---
 = PDU를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

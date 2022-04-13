@@ -5,6 +5,7 @@ keywords: aff a300, swap out a fan
 summary: 서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = FAN-AFF A300을 스왑한다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

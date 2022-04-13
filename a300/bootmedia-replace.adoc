@@ -5,6 +5,7 @@ keywords: aff a300, replace the boot media
 summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다. 
 ---
 = 부팅 미디어 교체 - AFF A300
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

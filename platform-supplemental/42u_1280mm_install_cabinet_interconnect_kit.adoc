@@ -5,6 +5,7 @@ keywords: connect, system, cabinet, optional, interconnect, kit, install, preven
 summary: 옵션 캐비닛 상호 연결 키트를 사용하여 시스템 캐비닛을 함께 연결할 수 있습니다. 캐비닛이 분리되어 시스템 케이블이 손상되지 않도록 키트를 설치하는 것이 좋습니다. 
 ---
 = 캐비닛 상호 연결 키트를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

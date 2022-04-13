@@ -5,6 +5,7 @@ keywords: system-level, diagnostic, test, run, time, system, requirement, system
 summary: 실행 중인 시스템 수준 진단 테스트에 따라 시간 및 시스템 하드웨어 요구 사항을 알아야 합니다. 
 ---
 = 시스템 수준 진단 프로그램 실행을 위한 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

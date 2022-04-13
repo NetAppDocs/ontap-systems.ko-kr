@@ -6,6 +6,7 @@ summary: 스토리지 쉘프 문서를 통해 시스템을 설치, 설정 및 �
 ---
 = NS224 쉘프
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

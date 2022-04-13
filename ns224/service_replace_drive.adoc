@@ -5,6 +5,7 @@ keywords: ns224, shelves, shelf, ns224 shelves, fail, replace, drive, nondisrupt
 summary: 전원이 켜진 NS224 드라이브 쉘프 및 I/O가 진행 중인 동안 장애가 발생한 드라이브를 중단 없이 교체할 수 있습니다. 
 ---
 = 드라이브-NS224 쉘프 핫 스왑
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

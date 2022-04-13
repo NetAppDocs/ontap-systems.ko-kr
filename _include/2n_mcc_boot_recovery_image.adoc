@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 환경 변수를 확인해야 합니다.

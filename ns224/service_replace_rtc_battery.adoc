@@ -5,6 +5,7 @@ keywords: ns224, shelves, shelf, ns224 shelves, replace, fail, real-time, clock,
 summary: '전원이 켜진 NS224 드라이브 셸프에서 장애가 발생한 실시간 클럭\(RTC\) 배터리를 중단 없이, 입출력이 진행 중인 동안 교체할 수 있습니다.' 
 ---
 = 실시간 시계 배터리 - NS224 쉘프를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

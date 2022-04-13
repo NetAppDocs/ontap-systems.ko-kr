@@ -1,0 +1,93 @@
+---
+section: a700
+title: AFF A700 시스템
+url: "/a700/index.html"
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF A700 설치 및 설정
+  entries:
+  - title: 설치 및 설정 환경을 선택합니다
+    url: "/fas9000/install-setup.html"
+  - title: 빠른 단계
+    url: "/fas9000/install-quick-guide.html"
+  - title: 비디오 단계
+    url: "/fas9000/install-videos.html"
+  - title: 세부 단계
+    url: "/fas9000/install-detailed-guide.html"
+- title: 유지 관리
+  pdf-filename: AFF A700이 유지됩니다
+  entries:
+  - title: 미디어를 부팅합니다
+    pdf-filename: AFF A700 부팅 미디어
+    entries:
+    - title: 개요
+      url: "/fas9000/bootmedia-replace-overview.html"
+    - title: 온보드 암호화 키를 확인합니다
+      url: "/fas9000/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas9000/bootmedia-impaired-controller-shutdown.html"
+    - title: 부팅 이미지를 교체합니다
+      url: "/fas9000/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/fas9000/bootmedia-recovery-image-boot-options.html"
+    - title: MetroCluster 구성을 다시 전환합니다
+      url: "/fas9000/bootmedia-2n-mcc-switchback.html"
+    - title: OKM, NSE 및 NVE를 복원합니다
+      url: "/fas9000/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas9000/bootmedia-complete-rma.html"
+  - title: 캐싱 모듈
+    url: "/fas9000/caching-module-and-core-dump-module-replace.html"
+  - title: 캐싱 모듈(핫 스왑)
+    url: "/fas9000/caching-module-hot-swap.html"
+  - title: 섀시
+    pdf-filename: AFF A700 섀시
+    entries:
+    - title: 개요
+      url: "/fas9000/chassis-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas9000/chassis-replace-shutdown.html"
+    - title: 하드웨어를 교체합니다
+      url: "/fas9000/chassis-replace-move-hardware.html"
+    - title: 전체 교체
+      url: "/fas9000/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러 모듈
+    pdf-filename: AFF A700 컨트롤러
+    entries:
+    - title: 개요
+      url: "/fas9000/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas9000/controller-replace-shutdown.html"
+    - title: 컨트롤러 모듈을 교체합니다
+      url: "/fas9000/controller-replace.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/fas9000/controller-replace-system-config-restore-and-verify.html"
+    - title: 회수 가능 시스템
+      url: "/fas9000/controller-replace-recable-reassign-disks.html"
+    - title: 시스템 복원을 완료합니다
+      url: "/fas9000/controller-replace-complete-system-restoration.html"
+  - title: DCPM
+    url: "/fas9000/dcpm-nvram10-battery-replace.html"
+  - title: DIMM
+    url: "/fas9000/dimm-replace.html"
+  - title: 팬
+    url: "/fas9000/fan-swap-out.html"
+  - title: 입출력 모듈
+    url: "/fas9000/pci-cards-and-risers-replace.html"
+  - title: LED USB 모듈
+    url: "/fas9000/led-module-replace.html"
+  - title: NVRAM
+    url: "/fas9000/nvram-module-or-nvram-dimm-replacement.html"
+  - title: 전원 공급 장치
+    url: "/fas9000/power-supply-swap-out.html"
+  - title: RTC 배터리
+    url: "/fas9000/rtc-battery-replace.html"
+  - title: X91148A 모듈
+    pdf-filename: AFF A700 X91148A 모듈
+    entries:
+    - title: 개요
+      url: "/fas9000/x91148a-module-install-overview.html"
+    - title: 슬롯이 열린 AFF A700 시스템
+      url: "/fas9000/x91148a-modules-with-open-slots-add.html"
+    - title: AFF A700 시스템은 열려 있는 슬롯이 없습니다
+      url: "/fas9000/x91148a-modules-with-no-open-slots-add.html"

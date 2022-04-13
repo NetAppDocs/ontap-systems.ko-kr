@@ -5,6 +5,7 @@ keywords:
 summary: '교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다.' 
 ---
 = 전체 시스템 복원 - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

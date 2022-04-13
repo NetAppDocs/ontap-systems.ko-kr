@@ -5,6 +5,7 @@ keywords:
 summary: 하드웨어 교체를 완료하고 유지 관리 모드로 부팅한 후, 교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성한 다음 시스템 수준 진단을 실행합니다. 
 ---
 = 시스템 구성을 복원 및 확인합니다 - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

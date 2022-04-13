@@ -5,6 +5,7 @@ keywords: aff, a320, aff a320, replacement, boot, media, install, image, transfe
 summary: 설치한 교체 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다. 
 ---
 = USB 플래시 드라이브 - AFF A320 을 사용하여 부팅 이미지를 부팅 미디어로 전송합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

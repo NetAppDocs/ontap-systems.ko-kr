@@ -5,6 +5,7 @@ keywords: aff a700s, system-level diagnostics guide
 summary: AFF A700s에 대한 시스템 레벨 진단 가이드 링크 
 ---
 = AFF A700s에 대한 시스템 레벨 진단
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

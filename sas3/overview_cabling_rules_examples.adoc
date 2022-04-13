@@ -5,6 +5,7 @@ keywords: disk, shelves, shelf, iom12, module, single-controller, configuration,
 summary: IOM12 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되는 다음과 같은 SAS 케이블 연결 규칙, 예제 및 워크시트를 사용할 수 있습니다. 
 ---
 = SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

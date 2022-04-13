@@ -5,6 +5,7 @@ keywords: aff a900, shutdown the controllers
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 손상된 컨트롤러를 종료합니다. - AFF A900
+:allow-uri-read: 
 
 
 [role="lead"]

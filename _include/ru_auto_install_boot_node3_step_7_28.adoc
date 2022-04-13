@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 . [[step7]]노드 3에서 netboot 수행:

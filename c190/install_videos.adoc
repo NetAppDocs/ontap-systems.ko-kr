@@ -5,6 +5,7 @@ keywords: aff c190, hardware installation and cabling video, perform end-to-end 
 summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설치하고 케이블을 연결하는 방법을 보여 주는 것이고 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 것입니다. 
 ---
 = 비디오 - AFF C190
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

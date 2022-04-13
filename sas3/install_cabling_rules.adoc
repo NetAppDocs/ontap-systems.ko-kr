@@ -5,6 +5,7 @@ keywords: disk, shelves, shelf, iom12, module, single-controller, configuration,
 summary: 'IOM12 모듈이 포함된 디스크 쉘프는 HA Pair 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블을 연결할 수 있습니다.' 
 ---
 = SAS 케이블 연결 규칙 - IOM12 모듈 선반
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

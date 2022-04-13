@@ -5,6 +5,7 @@ keywords: AFF A900
 summary: 이 A 에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 자세히 설명합니다. 
 ---
 = 상세 단계 - AFF 900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -7,6 +7,7 @@ summary: NetApp의 AFF 및 FAS 스토리지 시스템은 업계 최고의 데이
 ---
 = AFF 및 FAS 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

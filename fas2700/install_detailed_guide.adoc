@@ -5,6 +5,7 @@ keywords: fas2700, aff a220, detailed, guide, prepare, install, hardware, cable,
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
 ---
 = 상세 가이드 - AFF A220 및 FAS2700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

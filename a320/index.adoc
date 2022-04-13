@@ -6,6 +6,7 @@ summary: AFF A320 시스템 설명서를 통해 시스템을 설치, 설정 및 
 ---
 = AFF A320 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

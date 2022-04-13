@@ -5,6 +5,7 @@ keywords: move, power, supply, illuminate, badge, cabling, cable, system, cabine
 summary: 도어를 닫고 조명이 들어오는 배지를 다시 설치하기 전에 전원 공급 장치 및 점등된 배지 케이블을 시스템 캐비닛 프레임의 반대쪽으로 이동해야 합니다. 
 ---
 = 배지 전원 공급 장치 및 케이블을 이동합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

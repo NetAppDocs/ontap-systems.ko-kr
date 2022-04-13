@@ -5,6 +5,7 @@ keywords: fas2600, replace dimm
 summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 등록할 때 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.' 
 ---
 = DIMM-FAS2600을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

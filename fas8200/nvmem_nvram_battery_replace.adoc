@@ -5,6 +5,7 @@ keywords: fas8200, replace the nvmem battery
 summary: 시스템에서 NVMEM 배터리를 교체하려면 컨트롤러 모듈을 시스템에서 분리하고, 배터리를 개봉하고, 배터리를 교체하고, 컨트롤러 모듈을 닫고 교체해야 합니다. 
 ---
 = NVMEM 배터리 - FAS8200을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

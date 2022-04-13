@@ -5,6 +5,7 @@ keywords: aff, a320, aff a320, complete, completing, nve, nse, task, shutdown, i
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 
 ---
 = node-AFF A320 종료
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

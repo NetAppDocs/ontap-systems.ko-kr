@@ -5,6 +5,7 @@ keywords: unpack, install, cabinet, necessary, tool, equipment, system, maintena
 summary: 시스템 캐비닛에 포장을 풀고 설치하기 전에 시스템 캐비닛을 제 위치로 이동하고 설치하거나 유지보수 작업을 수행하는 데 필요한 도구와 장비를 수집해야 합니다. 
 ---
 = 필요한 공구 및 장비
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

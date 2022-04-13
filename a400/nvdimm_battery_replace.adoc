@@ -5,6 +5,7 @@ keywords: aff a400, aff, a400, replace, nvdimm, battery, remove, controller, mod
 summary: NVDIMM 전지를 교체하려면 컨트롤러 모듈을 분리하고 전지를 분리한 다음 전지를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다. 
 ---
 = NVDIMM 배터리-AFF A400을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

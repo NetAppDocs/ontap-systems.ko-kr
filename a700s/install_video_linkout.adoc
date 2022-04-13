@@ -5,6 +5,7 @@ keywords: aff, a700s, aff a700s, install, video
 summary: 다음 비디오에서는 ONTAP 9.2를 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다. 
 ---
 = 설치 및 설정 비디오 - AFF A700s
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

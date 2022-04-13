@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 . 노드 4에서 netboot 수행:

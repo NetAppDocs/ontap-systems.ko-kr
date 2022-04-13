@@ -5,6 +5,7 @@ keywords: aff a700s, aff, a700s, procedure, secondary, boot, media, restore, fai
 summary: 이 절차는 2차 부팅 미디어 복원이 실패하거나 2차 부팅 미디어에서 image.tgz 파일을 찾을 수 없는 경우에만 사용해야 합니다. 
 ---
 = 부팅 이미지를 부팅 미디어인 AFF A700s로 전송합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ permalink: a900/index.html
 summary: AFF A900 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다. 
 ---
 = AFF A900 시스템
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

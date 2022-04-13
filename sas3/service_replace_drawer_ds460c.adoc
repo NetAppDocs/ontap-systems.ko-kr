@@ -5,6 +5,7 @@ keywords: stop, all, host, i/o activity, power, off, shelf, replacing, replace, 
 summary: 드라이브 드로어를 교체하기 전에 모든 호스트 I/O 활동을 중지하고 쉘프의 전원을 꺼야 합니다. 
 ---
 = DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12 모듈로 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

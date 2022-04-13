@@ -5,6 +5,7 @@ keywords: hot-swap, fail, disk, drive, ds460c, nondisruptive, replace, system, p
 summary: DS460C 디스크 쉘프에 있는 고장난 디스크 드라이브를 핫 스왑할 수 있습니다. 
 ---
 = DS460C 디스크 쉘프 쉘프의 디스크 드라이브를 IOM12 모듈과 핫 스왑합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -6,6 +6,7 @@ summary: AFF A300 시스템 문서에서는 시스템을 설치, 설정, 유지�
 ---
 = AFF A300 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

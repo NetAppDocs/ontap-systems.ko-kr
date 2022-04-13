@@ -5,6 +5,7 @@ keywords:
 summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
 ---
 = OKM, NSE 및 NVE-AFF A900에 대한 부팅 후 미디어 교체 단계
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

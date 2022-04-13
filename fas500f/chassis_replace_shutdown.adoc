@@ -5,6 +5,7 @@ keywords: fas500f, shutdown the controllers
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러 종료 - FAS500f
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

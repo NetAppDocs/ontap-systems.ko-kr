@@ -5,6 +5,7 @@ keywords: aff a250, replace a fan
 summary: 팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다. 
 ---
 = 팬 교체 - AFF A250
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

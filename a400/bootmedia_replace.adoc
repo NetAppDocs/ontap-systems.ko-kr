@@ -5,6 +5,7 @@ keywords: aff a400, aff, a400, locate, boot, media, controller, module, fre, map
 summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.' 
 ---
 = 부팅 미디어 교체 - AFF A400
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

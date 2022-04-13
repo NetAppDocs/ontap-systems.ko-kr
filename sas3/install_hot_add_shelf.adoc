@@ -5,6 +5,7 @@ keywords: hot-add, disk, shelves, shelf, iom12, exist, stack, module, sas, hba, 
 summary: IOM12 모듈을 사용하여 기존 디스크 쉘프 스택에 IOM12 모듈을 사용하여 디스크 쉘프를 하나 이상 핫 추가할 수 있습니다. 또는 IOM12 모듈을 포함한 하나 이상의 디스크 쉘프 스택을 컨트롤러의 SAS HBA 또는 온보드 SAS 포트에 직접 핫 추가할 수 있습니다. 
 ---
 = IOM12 모듈을 사용하여 쉘프-쉘프 핫 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

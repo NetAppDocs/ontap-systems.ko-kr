@@ -5,6 +5,7 @@ keywords: fas8300, fas8700, shut, chassis, controller, replace, remove, swap, ve
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
 = 섀시 교체 개요 - FAS8300 및 FAS8700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

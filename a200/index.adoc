@@ -6,6 +6,7 @@ summary: AFF A200 시스템 설명서를 참조하여 시스템을 설치, 설�
 ---
 = AFF A200 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

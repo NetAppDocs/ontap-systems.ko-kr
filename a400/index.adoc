@@ -6,6 +6,7 @@ summary: AFF A400 시스템 문서를 사용하여 시스템을 설치, 설정 �
 ---
 = AFF A400 시스템 문서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

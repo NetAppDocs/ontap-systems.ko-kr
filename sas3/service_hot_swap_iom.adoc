@@ -5,6 +5,7 @@ keywords: system, configuration, whether, perform, nondisruptive, iom12, module,
 summary: 시스템 구성에 따라 IOM12 모듈에 장애가 발생한 경우 무중단 IOM12 모듈 핫 스왑 또는 IOM12 모듈 교체 중 어느 것을 수행할 수 있는지 결정됩니다. 
 ---
 = IOM12 모듈-쉘프를 IOM12 모듈로 핫 스왑 또는 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

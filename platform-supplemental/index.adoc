@@ -5,6 +5,7 @@ keywords: supplemental information, supplemental, information
 summary: 보충 정보 
 ---
 = 보충 정보
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

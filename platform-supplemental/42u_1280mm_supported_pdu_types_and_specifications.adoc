@@ -5,6 +5,7 @@ keywords: system, cabinet, support, power, distribution, unit, pdu, type, compli
 summary: '시스템 캐비닛은 다양한 PDU(Power Distribution Unit) 유형을 지원합니다. PDU는 NEMA 또는 IEC와 호환됩니다.' 
 ---
 = 지원되는 PDU 유형 및 사양
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

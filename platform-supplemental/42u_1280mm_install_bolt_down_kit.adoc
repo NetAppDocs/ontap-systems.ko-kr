@@ -5,6 +5,7 @@ keywords: secure, system, cabinet, floor, install, optional, bolt-down, kit, pre
 summary: 옵션 볼트 다운 키트를 설치하여 시스템 캐비닛을 바닥에 고정할 수 있습니다. 키트를 설치하면 시스템 캐비닛이 제 위치에서 굴러가지 않습니다. 
 ---
 = 볼트 다운 키트를 장착하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

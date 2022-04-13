@@ -5,6 +5,7 @@ keywords: aff a250, verify and set HA state, run diagnostics, complete the repla
 summary: 키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고, 진단을 실행하고, 장애가 발생한 부품을 NetApp에 반환해야 합니다. 
 ---
 = 복원 및 교체 프로세스(AFF A250)를 완료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

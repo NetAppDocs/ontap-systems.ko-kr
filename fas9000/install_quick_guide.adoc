@@ -5,6 +5,7 @@ keywords: aff a700, fas9000, install, quick, guide, rack, cable, system, bring, 
 summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 
 ---
 = 빠른 단계 - AFF A700 및 FAS9000
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

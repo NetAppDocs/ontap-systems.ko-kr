@@ -5,6 +5,7 @@ keywords: aff a700s, aff, a700s, replace, fan, remove, fail, module, module, rep
 summary: 팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다. 
 ---
 = FAN-AFF A700s 교체
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

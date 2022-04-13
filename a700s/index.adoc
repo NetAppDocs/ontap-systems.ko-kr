@@ -6,6 +6,7 @@ summary: AFF A700s 시스템 설명서를 사용하면 시스템을 설치, 설�
 ---
 = AFF A700s 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

@@ -5,6 +5,7 @@ keywords: fas8300, fas8700, shut, chassis, controller, replace, remove, swap, ve
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러를 종료합니다 - FAS8300 및 FAS8700
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

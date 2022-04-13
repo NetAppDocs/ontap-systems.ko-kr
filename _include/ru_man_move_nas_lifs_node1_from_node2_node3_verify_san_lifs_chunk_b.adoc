@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 . [[man_lif_verify_3_step6]] 각 LIF에 대해 다음 명령을 한 번 입력하여 각 NAS 데이터 LIF를 노드 3으로 마이그레이션합니다.

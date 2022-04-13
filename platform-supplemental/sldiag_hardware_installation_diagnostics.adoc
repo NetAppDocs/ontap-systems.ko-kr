@@ -5,6 +5,7 @@ keywords: run, diagnostic, add, replacing, replace, hardware, component, storage
 summary: 스토리지 시스템에서 하드웨어 구성 요소를 추가하거나 교체한 후 진단 유틸리티를 실행하여 구성 요소에 문제가 없고 설치가 성공적인지 확인합니다. 
 ---
 = 하드웨어 설치 진단 프로그램을 실행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

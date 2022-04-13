@@ -5,6 +5,7 @@ keywords: aff a800, transfer the boot image to the boot media
 summary: 설치한 교체 부팅 매체는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다. 
 ---
 = 부팅 이미지를 부팅 미디어 - AFF A800으로 전송
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

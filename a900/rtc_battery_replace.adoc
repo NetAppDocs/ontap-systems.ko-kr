@@ -5,6 +5,7 @@ keywords:
 summary:  
 ---
 = 실시간 시계 배터리 교체 - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

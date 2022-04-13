@@ -5,6 +5,7 @@ keywords: aff c190, power supply replacement
 summary: 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
 ---
 = 전원 공급 장치 교체 - AFF C190
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -1,4 +1,5 @@
 = NVE 구성을 검증합니다
+:allow-uri-read: 
 
 
 손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.

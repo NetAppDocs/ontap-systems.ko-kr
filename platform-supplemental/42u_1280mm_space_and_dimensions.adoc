@@ -5,6 +5,7 @@ keywords: unpack, system, cabinet, room, remove, pack, material, intend, locatio
 summary: 시스템 캐비닛의 포장을 풀 때 시스템 캐비닛을 포장재에서 제거할 공간이 충분한지 확인해야 합니다. 또한 시스템 캐비닛의 의도된 위치가 캐비닛을 제 위치로 이동할 수 있을 만큼 충분히 큰지 확인하십시오. 
 ---
 = 공간 요구 사항 및 시스템 캐비닛 치수
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

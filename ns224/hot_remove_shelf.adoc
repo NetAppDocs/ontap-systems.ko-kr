@@ -5,6 +5,7 @@ keywords: ns224, shelves, shelf, ns224 shelves, drive, aggregate, ha, pair, serv
 summary: '드라이브에서 애그리게이트를 제거한 NS224 드라이브 쉘프를 HA 쌍에서 데이터를 처리하고 \(I/O가 진행 중\) 데이터를 핫 제거할 수 있습니다.' 
 ---
 = Shelf-NS224 쉘프 핫 제거
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

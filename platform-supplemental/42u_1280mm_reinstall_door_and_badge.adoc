@@ -5,6 +5,7 @@ keywords: move, power, supply, component, system, cabinet, hinge, lock, catch, r
 summary: 전원 공급 장치 및 구성 요소를 시스템 캐비닛의 다른 쪽으로 이동하고 힌지와 잠금 캐치를 이동한 후에는 시스템 캐비닛 도어와 조명된 배지를 다시 설치하고 배지를 전원에 다시 연결해야 합니다. 
 ---
 = 도어 및 조명 배지를 다시 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

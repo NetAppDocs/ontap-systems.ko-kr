@@ -1,10 +1,10 @@
 ---
 section: fas2700
-title: AFF A220 및 FAS2700 시스템
+title: FAS2700 시스템
 url: "/fas2700/index.html"
 entries:
 - title: 설치 및 설정
-  pdf-filename: AFF A220 및 FAS2700 설치 및 설정
+  pdf-filename: FAS2700 설치 및 설정
   entries:
   - title: 설치 및 설정 환경을 선택합니다
     url: "/fas2700/install-setup.html"
@@ -15,10 +15,10 @@ entries:
   - title: 세부 단계
     url: "/fas2700/install-detailed-guide.html"
 - title: 유지 관리
-  pdf-filename: AFF A220 및 FAS2700은 유지됩니다
+  pdf-filename: FAS2700 유지 관리
   entries:
   - title: 미디어를 부팅합니다
-    pdf-filename: AFF A220 및 FAS2700 부팅 미디어
+    pdf-filename: FAS2700 부팅 미디어
     entries:
     - title: 개요
       url: "/fas2700/bootmedia-replace-overview.html"
@@ -35,10 +35,10 @@ entries:
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/fas2700/bootmedia-complete-rma.html"
   - title: 캐싱 모듈
-    pdf-filename: AFF A220 및 FAS2700 캐싱 모듈
+    pdf-filename: FAS2700 캐시 모듈
     url: "/fas2700/caching-module-replace.html"
   - title: 섀시
-    pdf-filename: AFF A220 및 FAS2700 섀시
+    pdf-filename: FAS2700 섀시
     entries:
     - title: 개요
       url: "/fas2700/chassis-replace-overview.html"
@@ -49,7 +49,7 @@ entries:
     - title: 구성을 복원합니다
       url: "/fas2700/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
-    pdf-filename: AFF A220 및 FAS2700 컨트롤러
+    pdf-filename: FAS2700 컨트롤러
     entries:
     - title: 개요
       url: "/fas2700/controller-replace-overview.html"
@@ -64,10 +64,10 @@ entries:
     - title: 시스템 복원을 완료합니다
       url: "/fas2700/controller-replace-restore-system-rma.html"
   - title: DIMM
-    pdf-filename: AFF A220 및 FAS2700 DIMM
+    pdf-filename: FAS2700 DIMM
     url: "/fas2700/dimm-replace.html"
   - title: 드라이브
-    pdf-filename: AFF A220 및 FAS2700 드라이브
+    pdf-filename: FAS2700 드라이브
     url: "/fas2700/drive-replace.html"
   - title: NVMEM 배터리
     pdf-filename: AFF A220 및 FAS2700 NVMEM 배터리
@@ -76,5 +76,5 @@ entries:
     pdf-filename: AFF A220 및 FAS2700 전원 공급 장치
     url: "/fas2700/power-supply-swap-out.html"
   - title: 실시간 시계 배터리
-    pdf-filename: AFF A220 및 FAS2700 실시간 클럭 배터리
+    pdf-filename: FAS2700 실시간 시계 배터리
     url: "/fas2700/rtc-battery-replace.html"

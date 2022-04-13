@@ -5,6 +5,7 @@ keywords: reverse, reversing, system, cabinet, door, hinge, lock, catch, front-s
 summary: 시스템 캐비닛 도어를 후진할 때는 시스템 캐비닛 도어 힌지와 잠금 캐치를 반대 전면 시스템 캐비닛에 똑바로 세워 이동해야 합니다. 
 ---
 = 도어 힌지 및 잠금 캐치를 반대로 하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

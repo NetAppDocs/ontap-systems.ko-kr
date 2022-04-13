@@ -1,10 +1,10 @@
 ---
 section: fas9000
-title: AFF A700 및 FAS9000 시스템
+title: FAS9000 시스템
 url: "/fas9000/index.html"
 entries:
 - title: 설치 및 설정
-  pdf-filename: AFF A700 및 FAS9000 설치 및 설정
+  pdf-filename: FAS9000 설치 및 설정
   entries:
   - title: 설치 및 설정 환경을 선택합니다
     url: "/fas9000/install-setup.html"
@@ -15,10 +15,10 @@ entries:
   - title: 세부 단계
     url: "/fas9000/install-detailed-guide.html"
 - title: 유지 관리
-  pdf-filename: AFF A700 및 FAS9000이 유지됩니다
+  pdf-filename: FAS9000 유지 관리
   entries:
   - title: 미디어를 부팅합니다
-    pdf-filename: AFF A700 및 FAS9000 부팅 미디어
+    pdf-filename: FAS9000 부팅 미디어
     entries:
     - title: 개요
       url: "/fas9000/bootmedia-replace-overview.html"
@@ -41,7 +41,7 @@ entries:
   - title: 캐싱 모듈(핫 스왑)
     url: "/fas9000/caching-module-hot-swap.html"
   - title: 섀시
-    pdf-filename: AFF A700 및 FAS9000 섀시
+    pdf-filename: FAS9000 섀시
     entries:
     - title: 개요
       url: "/fas9000/chassis-replace-overview.html"
@@ -52,7 +52,7 @@ entries:
     - title: 전체 교체
       url: "/fas9000/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러 모듈
-    pdf-filename: AFF A700 및 FAS9000 컨트롤러
+    pdf-filename: FAS9000 컨트롤러
     entries:
     - title: 개요
       url: "/fas9000/controller-replace-overview.html"
@@ -83,7 +83,7 @@ entries:
   - title: RTC 배터리
     url: "/fas9000/rtc-battery-replace.html"
   - title: X91148A 모듈
-    pdf-filename: AFF A700 및 FAS9000 X91148A 모듈
+    pdf-filename: FAS9000 X91148A 모듈
     entries:
     - title: 개요
       url: "/fas9000/x91148a-module-install-overview.html"

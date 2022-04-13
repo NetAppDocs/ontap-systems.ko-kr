@@ -5,6 +5,7 @@ keywords: aff a400, aff, a400, replace, pcie, mezzanine, card, disconnect, cable
 summary: PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈을 카드에서 분리하고, 오류가 발생한 PCIe 또는 메자닌 카드를 교체한 다음 카드를 다시 배선해야 합니다. 
 ---
 = PCIe 또는 메자닌 카드 - AFF A400을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

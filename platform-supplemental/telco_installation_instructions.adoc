@@ -5,6 +5,7 @@ keywords: aff a700, fas9000, two, post, support, kit, installation, instructions
 summary: FAS9000 및 AFF A700 시스템에는 2개의 2포스트 지원 레일 키트가 사용할 수 있습니다. 하나의 키트로 시스템을 2-포스트 랙에 플러시 장착할 수 있고 다른 키트를 사용하여 시스템을 2-포스트 랙에 미드마운트할 수 있습니다. 
 ---
 = 2포스트 지원 레일 키트 설치 지침 - AFF A700 및 FAS9000
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

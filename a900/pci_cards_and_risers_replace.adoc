@@ -5,6 +5,7 @@ keywords:
 summary: 입출력 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = I/O 모듈 교체 - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

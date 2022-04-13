@@ -5,6 +5,7 @@ keywords: run, diagnostic, storage, system, suffer, panic, identify, cause, run 
 summary: 스토리지 시스템에서 시스템 패닉이 발생한 후 진단 유틸리티를 실행하면 패닉 상태를 파악하는 데 도움이 됩니다. 
 ---
 = 시스템 패닉 진단을 실행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

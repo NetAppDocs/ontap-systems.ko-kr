@@ -5,6 +5,7 @@ keywords: fas500f, detailed installation
 summary: 이 섹션에서는 FAS500f 시스템을 설치하는 방법에 대한 자세한 단계별 지침을 제공합니다. 
 ---
 = 세부 단계 - FAS500f
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: aff a700s, aff, a700s, swap, power, supply, disconnect, target, psu, s
 summary: 전원 공급 장치 교체 대상 전원 공급 장치 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등과 관련된 작업을 합니다. 
 ---
 = 전원 공급 장치 스왑 - AFF A700s
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

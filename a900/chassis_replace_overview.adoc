@@ -5,6 +5,7 @@ keywords:
 summary: 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다. 
 ---
 = 섀시를 교체합니다. - AFF A900
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

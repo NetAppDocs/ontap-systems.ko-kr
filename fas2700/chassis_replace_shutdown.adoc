@@ -5,6 +5,7 @@ keywords: fas2700, aff a220, replace, chassis, shut down, controller, metroclust
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러 - AFF A220 및 FAS2700을 종료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

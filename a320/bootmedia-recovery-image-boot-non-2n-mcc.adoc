@@ -5,6 +5,7 @@ keywords: aff a320, aff, a320, procedure, boot, impair, node, recovery, image, s
 summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
 ---
 = 복구 이미지 부팅 - AFF A320
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

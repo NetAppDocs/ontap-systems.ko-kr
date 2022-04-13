@@ -5,6 +5,7 @@ keywords: aff a400, aff, a400, component, system, function, properly, contact, t
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러 종료 - AFF A400
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

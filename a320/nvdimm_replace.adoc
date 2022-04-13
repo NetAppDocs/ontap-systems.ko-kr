@@ -5,6 +5,7 @@ keywords: aff, a320, aff a320, replace, nvdimm, controller, module, system, regi
 summary: 시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다. 
 ---
 = NVDIMM-AFF A320을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

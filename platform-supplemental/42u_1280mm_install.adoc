@@ -5,6 +5,7 @@ keywords: order, system, cabinet, netapp, storage, controller, disk, shelves, sh
 summary: NetApp 장비가 이미 있는 경우 NetApp 스토리지 컨트롤러 및 디스크 쉘프가 설치된 시스템 캐비닛 또는 빈 시스템 캐비닛으로 주문할 수 있습니다. 옵션 상호 연결 키트를 사용하여 여러 시스템 캐비닛을 함께 연결할 수 있으며, 옵션 볼트 다운 키트를 사용하여 데이터 센터 플로어에 연결할 수 있습니다. 
 ---
 = 시스템 캐비닛을 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

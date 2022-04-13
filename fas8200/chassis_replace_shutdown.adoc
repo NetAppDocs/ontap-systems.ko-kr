@@ -5,6 +5,7 @@ keywords: fas8200, shutdown the controllers
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
 = 컨트롤러 - FAS8200을 종료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: aff a700, fas9000, replace, nvram, module, dimm, manually, reassign, s
 summary: 'NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
 = NVRAM 모듈 또는 NVRAM DIMM - AFF A700 및 FAS9000을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

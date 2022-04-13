@@ -5,6 +5,7 @@ keywords: addional, storage, hot-add, iom12, shelves, shelf, sas, shelves, shelf
 summary: '추가 스토리지가 필요할 경우 IOM6 쉘프(IOM12 모듈을 포함한 SAS 쉘프) 스택에 IOM6 쉘프를 추가할 수 있습니다(IOM6 모듈을 포함한 SAS 쉘프). 다시 말해, 스택을 혼합할 수 있습니다.' 
 ---
 = IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

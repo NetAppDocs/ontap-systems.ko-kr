@@ -5,6 +5,7 @@ keywords: fas2700, aff, a220, replace the drives
 summary: 플랫폼에서 드라이브 실패를 나타내는 경고 메시지를 시스템 콘솔에 기록할 때 드라이브를 교체해야 합니다. 또한, 작동 디스플레이 패널의 오류 LED와 고장 드라이브의 오류 LED가 모두 켜집니다. 
 ---
 = SSD 드라이브 또는 HDD 드라이브 - AFF A220 및 FAS2700을 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -6,6 +6,7 @@ summary: 스토리지 시스템 설명서를 통해 시스템을 설치, 설정 
 ---
 = FAS2700 시스템 설명서
 :hardbreaks:
+:allow-uri-read: 
 :linkattrs: 
 :imagesdir: ./media/
 

@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 . [[auto_check3_step13]]유지보수 모드 종료:

@@ -5,6 +5,7 @@ keywords: aff a700, fas9000, boot, recovery, image, two, node, metrocluster, con
 summary: 복구 이미지에서 손상된 노드를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다. 
 ---
 = 복구 이미지 AFF A700 및 FAS9000을 부팅합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

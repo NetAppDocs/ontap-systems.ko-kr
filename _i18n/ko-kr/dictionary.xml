@@ -5138,7 +5138,6 @@
   <block id="3c45f2f6b490b6057b0b3cee9eab4438" category="inline-link-macro">CN1610</block>
   <block id="1829a6378e29fdb2a01976800d3ca60e" category="inline-link-macro">CN1601</block>
   <block id="3c6aef09c74bd93941262638ee643789" category="list-text"><block ref="3c6aef09c74bd93941262638ee643789" category="inline-link-macro-rx"></block></block>
-  <block id="7d6a5a71ff18c3c788750313d0a4e7e0" category="doc">기타 플랫폼 모델</block>
   <block id="f453086a36d64a5193cd4183c14bcd72" category="inline-link-macro">AFF 8000 시리즈 설명서</block>
   <block id="c651d2f010c85fa1c8605da5e127657e" category="paragraph"><block ref="c651d2f010c85fa1c8605da5e127657e" category="inline-link-macro-rx"></block></block>
   <block id="71bdc94f19d5947bd1cb6d437f119ba2" category="inline-link-macro">FAS8000 시리즈 문서</block>
@@ -5151,8 +5150,6 @@
   <block id="ebc5a75e4df8077b15f7cef6c123c7db" category="paragraph"><block ref="ebc5a75e4df8077b15f7cef6c123c7db" category="inline-link-macro-rx"></block></block>
   <block id="3c0f93dc3f40f9ea0aef607cee8d55b1" category="inline-link-macro">FAS2200 시리즈 문서</block>
   <block id="1da789723077cd18e287167bf56d9b2e" category="paragraph"><block ref="1da789723077cd18e287167bf56d9b2e" category="inline-link-macro-rx"></block></block>
-  <block id="c73f2abaa0fbe28e182e42a3ad4f3be4" category="summary">다른 스토리지 쉘프 모델에는 이러한 링크를 사용할 수 있습니다.</block>
-  <block id="d439636d290b3dcbcfba5b2ad50a8790" category="doc">그 밖의 스토리지 쉘프 모델</block>
   <block id="dc562a84ed096c677cedf44a7c5df0bf" category="inline-link-macro">DS2246 디스크 쉘프 문서</block>
   <block id="dd26152c70d312482c21516c3889b669" category="paragraph"><block ref="dd26152c70d312482c21516c3889b669" category="inline-link-macro-rx"></block></block>
   <block id="06df42750628898d4d9028ca8a299fb0" category="inline-link-macro">DS4486 디스크 쉘프 설명서</block>
@@ -5638,7 +5635,6 @@
   <block id="44cc7055d64e9241fd58fa9511a21357" category="section-title">옵션 2: 2노드 MetroCluster 구성으로 복구 이미지를 부팅합니다</block>
   <block id="d1cc8f2b719b85882d883ce7e0b34c6a" category="doc">손상된 컨트롤러 AFF A700 및 FAS9000을 종료합니다</block>
   <block id="37567fb6b8c5af5beeabf61a11cdb257" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 참고: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.</block>
-  <block id="7882fbe8d6edf8d5b486832cb819249c" category="doc">AFF A700 및 FAS9000 시스템 문서</block>
   <block id="50b1779c690b0fd94ee913e82cbb2328" category="doc">배터리 폐기 - AFF A700 및 FAS9000</block>
   <block id="6c5689e6cebd33e09bd3177ac7c907ca" category="summary">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.</block>
   <block id="4722e247b6f4c8b13c5d0223d4ef06c3" category="paragraph">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 제거하고, NVRAM 모듈에서 FlashCache 모듈을 제거하고, DIMM을 교체 모듈로 이동하고, FlashCache 모듈을 다시 설치하고, 교체 NVRAM 모듈을 섀시에 설치해야 합니다. 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
@@ -6549,14 +6545,9 @@
   <block id="bef53c14eb719bb1cd8539b91f7515d7" category="doc">2노드 MetroCluster 구성에서 AFF fas8300 및 FAS8700을 애그리게이트로 다시 전환합니다</block>
   <block id="3a08488c499949ce994ce7beebe666ee" category="doc">전원 공급 장치 교체 - FAS8300 및 FAS8700</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
-  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
-  <block id="6f2ac1cf1da8ec34232c651d4bba0149" category="paragraph"><block ref="6f2ac1cf1da8ec34232c651d4bba0149" category="inline-link-macro-rx"></block></block>
   <block id="27e4f654e31a54c18c3f94846eb8fcc2" category="inline-link">디스크 쉘프에 대한 고지 사항</block>
   <block id="0c8d7a4e0e5ab5d34b549a9af84add17" category="paragraph"><block ref="0c8d7a4e0e5ab5d34b549a9af84add17" category="inline-link-rx"></block></block>
-  <block id="7c390983595918ec6a1147e4bce70a5b" category="summary">AFF 및 FAS 컨트롤러 모듈 업그레이드는 AFF 및 FAS 업그레이드 문서 사이트에서 제공됩니다.</block>
   <block id="15ec95a1d0a631e3b92b0edbb8cc676a" category="doc">업그레이드 절차</block>
-  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">여기</block>
-  <block id="63f74eefa2d2424afffb0a795322616b" category="paragraph">AFF 또는 FAS 컨트롤러 모듈 업그레이드 절차가 이동되었습니다<block ref="9a6db30b9d9a5bf487ab06bfb17f0812" category="inline-link-rx"></block>.</block>
   <block id="176cf5dfe0545aace2d630a3f6ef2208" category="summary">시스템 캐비닛 도어 및 측면 패널을 제거하여 조명이 들어오는 배지와 구성 요소를 이동하고 도어를 후진해야 합니다.</block>
   <block id="0983ab86dcc412b07fb9139c43a350fb" category="doc">시스템 캐비닛 도어를 분리합니다</block>
   <block id="9ebafe9f71b91c97d7138894316e164d" category="list-text">시스템 캐비닛 도어가 열려 있지 않은 경우 엽니다.</block>
@@ -7893,21 +7884,11 @@
   <block id="73eaa7df3c93c0e3bb3f0940d01d129c" category="sidebar">FAS2600 부팅 미디어</block>
   <block id="ad9de388f41dbddb2716bd80eb671561" category="sidebar">FAS2600 섀시</block>
   <block id="f2ce7cccebe6e19fd464832f6290305a" category="sidebar">FAS2600 컨트롤러 모듈</block>
-  <block id="6102b478e873b43ce74ca91058eb6031" category="sidebar">AFF A220 및 FAS2700 시스템</block>
-  <block id="557a7df6cea323ab549ffac2c8ba5289" category="sidebar">AFF A220 및 FAS2700 설치 및 설정</block>
-  <block id="8e04ad92809371f4f3ce6a8a8a44af97" category="sidebar">AFF A220 및 FAS2700은 유지됩니다</block>
-  <block id="1a6bb88c09c1f0a9170cf85992d5ff5c" category="sidebar">AFF A220 및 FAS2700 부팅 미디어</block>
   <block id="50e67d9b10aa79baef3dc48d6b7a85e0" category="sidebar">부팅 이미지를 교체합니다</block>
-  <block id="7c21b84f99318ada3d85ed1c643646a7" category="sidebar">AFF A220 및 FAS2700 캐싱 모듈</block>
   <block id="061f630ee35953fe4f15356e785a0329" category="sidebar">AFF A220 및 FAS2700 섀시</block>
-  <block id="09e1f13980953a65c98e61d647b907cc" category="sidebar">AFF A220 및 FAS2700 컨트롤러</block>
   <block id="487a62b1e3f916df9ec01e4837ea1e73" category="sidebar">컨트롤러 하드웨어를 교체합니다</block>
-  <block id="b223c2e6f43ffb7c6dbaf448f16c14b9" category="sidebar">AFF A220 및 FAS2700 DIMM</block>
   <block id="d1d724370ac4931ceb4406d2e17a6217" category="sidebar">AFF A220 및 FAS2700 NVMEM 배터리</block>
   <block id="64567073c265f39653af49885ec68a63" category="sidebar">AFF A220 및 FAS2700 전원 공급 장치</block>
-  <block id="49c1127edd6fef54486e13809ed77065" category="sidebar">AFF A220 및 FAS2700 실시간 클럭 배터리</block>
-  <block id="4b6a99064889a9134bf384abc13918fa" category="sidebar">기타 플랫폼, 쉘프 및 스위치 모델</block>
-  <block id="54688f54e203f3e54d2c33c058d8b225" category="sidebar">기타 쉘프 모델</block>
   <block id="2b2815ca4a9fd5973ee66317adb580e4" category="sidebar">기타 스위치 모델</block>
   <block id="7990706983b7a68de799c5164d608a30" category="sidebar">AFF A800 시스템</block>
   <block id="f9bc6672d0c11aeaba7c639726c8452d" category="sidebar">AFF A800 설치 및 설정</block>
@@ -7922,14 +7903,7 @@
   <block id="84076119b86e5d8e667bab1fab788759" category="sidebar">MetroCluster 구성을 다시 전환합니다</block>
   <block id="3ce57900c3b1fca4ec9acdde53a7ce72" category="sidebar">AFF A300 섀시</block>
   <block id="c49dd0e106f4d1baf8b7e7083d5068b3" category="sidebar">AFF A300 컨트롤러 모듈</block>
-  <block id="a46f9cbce7974dbd9625eea55ba9f21f" category="sidebar">AFF A700 및 FAS9000 시스템</block>
-  <block id="729206c886384e54a12e1bed25bb564e" category="sidebar">AFF A700 및 FAS9000 설치 및 설정</block>
-  <block id="9c8c082bf74388db6fc5e2c657a77db8" category="sidebar">AFF A700 및 FAS9000이 유지됩니다</block>
-  <block id="b2ddab4cf65a5d4a0fc9a05403b842e7" category="sidebar">AFF A700 및 FAS9000 부팅 미디어</block>
-  <block id="eb6f0206ce9ad3c398f4b3b246b9bcaf" category="sidebar">AFF A700 및 FAS9000 섀시</block>
-  <block id="98bbbeecca3d23d4fea3df957211ce7a" category="sidebar">AFF A700 및 FAS9000 컨트롤러</block>
   <block id="0d186ff3455a6f8be78aeb1835dba7ae" category="sidebar">DCPM</block>
-  <block id="c5a74c97685a1c4caf02e63348828add" category="sidebar">AFF A700 및 FAS9000 X91148A 모듈</block>
   <block id="7547243d10899150b4ccf6b6d811d3fd" category="sidebar">슬롯이 열린 AFF A700 시스템</block>
   <block id="bf70815b663ebd2fdd48772e7c4ce17c" category="sidebar">AFF A700 시스템은 열려 있는 슬롯이 없습니다</block>
   <block id="e7fe78f29d2a12982128aa007f6851a6" category="sidebar">AFF A250 시스템</block>
@@ -7991,12 +7965,6 @@
   <block id="6cc45a7a318afd2ecfa9b7b05c51ce5c" category="sidebar">배지 전원 공급 장치 및 케이블을 이동합니다</block>
   <block id="6d5cfac2de29a5333b0a36fb584f5df6" category="sidebar">도어 힌지 및 잠금 캐치를 반대로 합니다</block>
   <block id="8c8eaddfb0bbf5e47c2729602126527a" category="sidebar">도어 및 조명 배지를 다시 장착하십시오</block>
-  <block id="ed9cbfc6fa855aae4199825d9fb15f87" category="sidebar">내부 디스크 드라이브를 스왑 아웃합니다</block>
-  <block id="ad03f558ca3a811e1a298a8c01be7f5c" category="sidebar">핫 스왑 내장 드라이브</block>
-  <block id="20365130f49998402a6d0df57c438804" category="sidebar">핫 스왑 SSD</block>
-  <block id="26454f8949fc38018eea02197b858b72" category="sidebar">핫 스왑 HDD</block>
-  <block id="5f94e9116b2948856fc6818a9e1bf29a" category="sidebar">설치 및 유지 관리</block>
-  <block id="1f97b6f1a3aa58348491cc584e07af1d" category="sidebar">하드웨어 업그레이드</block>
   <block id="c8773f5cba3b9e8aa265fa0dc1a2c09e" category="sidebar">AFF A200 시스템</block>
   <block id="9ea8548070881e82ab793011f6dd50c5" category="sidebar">AFF A200 설치 및 설정</block>
   <block id="d21266dfc7dc62ffd1536ac599bb377e" category="sidebar">AFF A200 유지보수</block>
@@ -8610,6 +8578,28 @@
   <block id="e3c2d91c7cf7bef5a04aecd6ac9a7aa2" category="sidebar">FAS9000 X91148A 모듈</block>
   <block id="3b4f8423fb92aace5b1c957248b6fd18" category="sidebar">캐비닛 및 레일 키트</block>
   <block id="45f409f69b4619cb11a8c9066bd236ac" category="sidebar">AFF A200 드라이브</block>
-  <block id="bda8b2764dc533181c801be2c8b33b73" category="sidebar">AFF A220 및 FAS2700 드라이브</block>
   <block id="7cc615fcffd37b0f004ba9169b5db521" category="sidebar">AFF A700s 드라이브</block>
+  <block id="fd6e0dc56bc08d5a210f50e7388d932f" category="doc">A220 시스템 설명서</block>
+  <block id="64ade082ee5f7cc92e1fcf2264b98814" category="summary">이 링크를 사용하여 다른 AFF 및 FAS 시스템에 대한 설명서를 찾을 수 있습니다.</block>
+  <block id="00a7f3c2d2e90362fce77e39121e81ff" category="summary">AFF 및 FAS 컨트롤러 모듈 업그레이드</block>
+  <block id="121b7f57f2237bf67b44a7e14ee89c24" category="inline-link">AFF 및 FAS 시스템 업그레이드 문서 사이트</block>
+  <block id="fb36c3b150bf1c660fa047f914671fe9" category="paragraph">대부분의 AFF 및 FAS 시스템의 경우 에 있는 업그레이드 절차를 따르십시오<block ref="f4a6e72cc4cd54e373f3669e0efc6928" category="inline-link-rx"></block>.</block>
+  <block id="8f656f617cb33dc389da6056b5ff435f" category="inline-link">ONTAP MetroCluster 문서 사이트</block>
+  <block id="98f66e52f80ef8be6e7eb5b32d8a3936" category="paragraph">MetroCluster 구성에 있는 시스템의 경우 에 있는 업그레이드 절차를 따르십시오<block ref="a7fb36e42455a1948dcb9199bcb45ad0" category="inline-link-rx"></block>.</block>
+  <block id="9858e62153c9fdbd94de20e9842ed9e8" category="doc">FAS9000 시스템 문서</block>
+  <block id="b0eb2000c28914914d753220d696b368" category="doc">AFF A700 시스템 설명서</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
+  <block id="e62f199edf5ce700e5ae74c377f48585" category="sidebar">모든 SAN 어레이 시스템</block>
 </blocks>
