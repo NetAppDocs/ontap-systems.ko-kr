@@ -5639,10 +5639,7 @@
   <block id="6c5689e6cebd33e09bd3177ac7c907ca" category="summary">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.</block>
   <block id="4722e247b6f4c8b13c5d0223d4ef06c3" category="paragraph">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 제거하고, NVRAM 모듈에서 FlashCache 모듈을 제거하고, DIMM을 교체 모듈로 이동하고, FlashCache 모듈을 다시 설치하고, 교체 NVRAM 모듈을 섀시에 설치해야 합니다. 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
   <block id="17e2d63e3b45ecbfe13bcc32fec929d0" category="paragraph">* 시작하기 전에 *</block>
-  <block id="71e38f927e8a1c6f9bc875e8ab8112eb" category="open-title">옵션 1: MOST 구성</block>
-  <block id="0b6c08751d3c9a2a0d92384f10b9d168" category="open-title">옵션 2: MetroCluster 구성</block>
   <block id="6a925f3765a4dc795f4b5a0732579780" category="admonition-title">컨트롤러가 MetroCluster에 있습니다</block>
-  <block id="56064382d522717971cdb206043bc575" category="open-title">옵션 3: 2노드 MetroCluster</block>
   <block id="ed8076069cbf889b55cfae7fbfe0fa77" category="section-title">2단계: NVRAM 모듈을 교체합니다</block>
   <block id="a50a60c5a4b173a391b664ba7a38c5de" category="paragraph">NVRAM 모듈을 장착하려면 섀시의 슬롯 6에서 모듈을 찾은 다음 특정 단계를 따릅니다.</block>
   <block id="5d0d368db133218e5906d443b61514c6" category="list-text">이전 NVRAM 모듈에서 새 NVRAM 모듈로 FlashCache 모듈을 이동합니다.</block>
@@ -8602,4 +8599,7 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="e62f199edf5ce700e5ae74c377f48585" category="sidebar">모든 SAN 어레이 시스템</block>
+  <block id="c4565f27e7eb1d0640e258fb796df9c4" category="list-text">시스템 케이블 및 트랜시버 모듈을 컨트롤러 모듈에 연결하고 케이블 관리 장치를 다시 설치합니다.</block>
+  <block id="6c35991313f21e9038f629e9e809488a" category="admonition">PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항상 Like를 사용합니다.</block>
+  <block id="0fbe0630286ce5debeb3d11174988b34" category="open-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
 </blocks>

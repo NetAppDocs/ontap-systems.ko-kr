@@ -24,7 +24,7 @@ indexpage:
     - title: 시스템 DIMM
       url: "/dimm-replace.html"
     - title: 전원 공급 장치
-      url: "/power-supply-swapout.html"
+      url: "/power-supply-swap-out.html"
     - title: RTC 배터리
       url: "/rtc-battery-replace.html"
   - title: 학습
