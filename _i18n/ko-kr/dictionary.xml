@@ -1587,14 +1587,10 @@
   <block id="959229536cc29f3d3dabc76fbb3f7e34" category="list-text">전원 재적용:</block>
   <block id="f3c63ac44190e806f7590f75016082ad" category="list-text">드라이브 쉘프의 두 전원 스위치를 켭니다.</block>
   <block id="39cc2d6f5935ef61ab1eac11e4ea2a0a" category="list-text">두 팬이 모두 켜지는지, 팬 뒷면의 주황색 LED가 꺼져 있는지 확인합니다.</block>
-  <block id="a1ed8439f9e8dd8abbf897208819784d" category="summary">작성된 컨트롤러-스택 케이블링 워크시트 및 케이블링 예를 사용하여 공통 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 케이블로 연결할 수 있습니다.</block>
-  <block id="1c2eda53a3c2390b00d66e75048ca95f" category="doc">컨트롤러-스택 케이블링 워크시트 및 일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성에 대한 케이블 연결 예 - IOM12 모듈이 포함된 쉘프</block>
-  <block id="560038a44309d6251e4f834ae3746531" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 포트 0b와 동일한 도메인 연결 포함)에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="ba38e437ae673ee3e3f19dd893a38b35" category="list-text">케이블 연결 예는 컨트롤러 0b 포트 연결과 컨트롤러 0a 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.</block>
   <block id="1b423539e905b630394da7971c47a88a" category="image-alt">drw fas2600 컨트롤러 - 스택 케이블 유형 키</block>
   <block id="ee547c1c638ccba345b1cbcb32709bcc" category="list-text">케이블 연결 예는 IOM A(도메인 A) 및 IOM B(도메인 B)를 통해 연결을 구별하기 위해 컨트롤러-스택 연결 및 쉘프-쉘프 연결을 두 가지 색상으로 보여 줍니다.</block>
   <block id="c81b301c5f51b115f5e18cb1507f7388" category="image-alt">drw fas2600 케이블 색상 키</block>
-  <block id="3073d82d9dcde527789013d14eff0590" category="section-title">AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 다중 경로 HA 구성, 하나의 다중 쉘프 스택</block>
   <block id="ff82ea2b354e0f934f26abf26044a994" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0b를 사용합니다.</block>
   <block id="722de0e0a7dcfb970621a772bae3850c" category="image-alt">drw fas2600 mpha 워크시트</block>
   <block id="5eb85c13122610ca0d3c8606ac0884a7" category="image-alt">drw fas2600 mpha</block>
@@ -1804,8 +1800,6 @@
   <block id="466938affa9a199b1c83c75ca5cb1a5b" category="paragraph">* 워크시트 및 예제 케이블 연결 *</block>
   <block id="9da6ad063de2521b4320f53e9eaef62c" category="inline-link-macro">공통 다중 경로 HA 구성</block>
   <block id="d9e855b435b4d134eea547e0fa310441" category="list-text"><block ref="d9e855b435b4d134eea547e0fa310441" category="inline-link-macro-rx"></block></block>
-  <block id="9bb0aaeecd6b8ef6459136fe58d3005b" category="inline-link-macro">공통 AFF A200, AFF A220, FAS2600 및 FAS2700 구성</block>
-  <block id="41af106a10d104f231ff7ec566b3a5bf" category="list-text"><block ref="41af106a10d104f231ff7ec566b3a5bf" category="inline-link-macro-rx"></block></block>
   <block id="d0b14672f568caba4ff0c9e7e94adbfd" category="inline-link-macro">4중 경로 HA 구성</block>
   <block id="c9652f347c61d0d2c370d1229afb9e37" category="list-text"><block ref="c9652f347c61d0d2c370d1229afb9e37" category="inline-link-macro-rx"></block></block>
   <block id="8ae471d6400ac43c05cee2f01574b10c" category="paragraph">* 케이블링 워크시트 템플릿 *</block>
@@ -1842,15 +1836,12 @@
   <block id="c190e47c300a3781bbf4edf442004427" category="list-text">전원 공급 장치에 전원 코드를 다시 연결하고 전원 코드 고정장치로 전원 코드를 고정합니다.</block>
   <block id="7942c8c0a2938d554ca414a57b6286aa" category="list-text">전원 스위치를 켭니다.</block>
   <block id="b30bd480240ea6cb86b54735c115a8db" category="paragraph">전원 공급 장치의 전원(녹색) LED 및 주의(황색) LED가 켜지고 40초 이내에 주의(황색) LED가 꺼집니다.</block>
-  <block id="77c1c66d8ce6aa90628f37515ac41ba2" category="summary">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 상태에서 데이터를 제공하는 시스템에서 디스크 쉘프를 중단 없이 제거, I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
   <block id="1b13b207ae1928cd420c7771c798eb3d" category="doc">IOM12 모듈을 사용하여 쉘프-쉘프 핫 제거</block>
-  <block id="27e201e3d04d5e9a38b24624577d3d3f" category="paragraph">IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다. 디스크 쉘프를 이동하거나 교체해야 하는 경우, 전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 데이터 처리(I/O 진행 중)할 수 있습니다. 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
   <block id="c5cabc5bd527563ec2a9e03c2ca16ab6" category="list-text">시스템은 다중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성이어야 합니다.</block>
   <block id="9c2a85bd806fec2b1e3452f15f799e68" category="paragraph">AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템의 경우 외부 스토리지를 다중 경로 HA 또는 다중 경로와 케이블로 연결해야 합니다.</block>
   <block id="079a7f8e81dcfa4ea9fb370c9901815f" category="admonition">다중 경로 연결을 통해 외부 스토리지를 케이블로 연결한 FAS2600 시리즈 단일 컨트롤러 시스템의 경우, 내부 스토리지에서 단일 경로 연결을 사용하므로 시스템이 혼합 경로 구성입니다.</block>
   <block id="7aef33153293755f25958302c5aed92b" category="paragraph">Active IQ Config Advisor를 다운로드하여 실행하면 SAS 케이블 연결 오류 메시지와 필요한 수정 조치를 확인할 수 있습니다.</block>
   <block id="a87e1a96f2d7d8d3f543485f49e17ff9" category="list-text">HA 쌍 구성은 테이크오버 상태가 될 수 없습니다.</block>
-  <block id="e31335395bd34b8764591a789418ea20" category="list-text">디스크 드라이브에서 모든 애그리게이트를 제거해야 합니다. 디스크 드라이브는 제거되는 디스크 쉘프에서 예비여야 합니다.</block>
   <block id="53c840808f25d00f1d58d54eb1d542a0" category="admonition">제거하는 디스크 쉘프의 Aggregate으로 이 절차를 수행하면 다중 디스크 패닉이 발생할 수 있습니다.</block>
   <block id="7215777b0a3f60f8e9939368138aa76c" category="paragraph">'storage aggregate offline-aggregate_aggregate_name_' 명령과 'storage aggregate delete-aggregate_aggregate_name_' 명령을 차례로 사용할 수 있습니다.</block>
   <block id="e43abe3ed88114c3c553dbf6413e6265" category="list-text">스택 내에서 하나 이상의 디스크 쉘프를 제거하려면 제거할 디스크 쉘프를 우회하는 데 필요한 거리를 고려해야 합니다. 따라서 현재 케이블이 충분히 길지 않으면 더 긴 케이블을 사용할 수 있어야 합니다.</block>
@@ -8602,4 +8593,19 @@
   <block id="c4565f27e7eb1d0640e258fb796df9c4" category="list-text">시스템 케이블 및 트랜시버 모듈을 컨트롤러 모듈에 연결하고 케이블 관리 장치를 다시 설치합니다.</block>
   <block id="6c35991313f21e9038f629e9e809488a" category="admonition">PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="0fbe0630286ce5debeb3d11174988b34" category="open-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
+  <block id="6bec966647e1b9c8a03ddd277c8fe864" category="inline-link">부품 반품 및 앰프, 교체</block>
+  <block id="822bec4a0db0c5fd17b5f05b4e1c0335" category="paragraph">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오<block ref="4fc2cab5a4eb2f6a408378b0d596ae42" category="inline-link-rx"></block> 페이지를 참조하십시오.</block>
+  <block id="e188406fb2d6108447e3bc6cb9155625" category="inline-link-macro">온보드 스토리지가 있는 AFF 및 FAS 플랫폼</block>
+  <block id="7a63e08a24ae8c9c1ab5dcddaf6f551f" category="list-text"><block ref="7a63e08a24ae8c9c1ab5dcddaf6f551f" category="inline-link-macro-rx"></block></block>
+  <block id="bd7b8cb1f03ceb90528c843b3cd8c0a4" category="summary">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
+  <block id="bf9eaa32fa671084f441eeba9c863ef6" category="paragraph">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
+  <block id="ba0a2d97499e2e560187690f4b54b10c" category="list-text">제거할 디스크 쉘프의 디스크 드라이브에서 모든 애그리게이트(디스크 드라이브는 스페어 드라이브)를 제거해야 합니다.</block>
+  <block id="eaca20aa2eab6f0d724e09d105bcde6d" category="list-text">* 가능한 쉘프 손상: * DS460C 쉘프를 제거한 후 데이터 센터의 다른 부분으로 이동하거나 다른 위치로 운반하는 경우, 드라이브 드로어 및 드라이브가 손상되지 않도록 드라이브를 제거하십시오.</block>
+  <block id="df890e7b6d800ea7f63516f78dc7b333" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예</block>
+  <block id="4831f887bab13b0957b607ad184c87f7" category="paragraph"><block ref="4831f887bab13b0957b607ad184c87f7" category="inline-link-macro-rx"></block></block>
+  <block id="fdd0f707bd71fcef53b653ae53e31f53" category="summary">작성된 컨트롤러-스택 케이블링 워크시트와 케이블링 예를 사용하여 AFF 및 FAS 플랫폼을 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 플랫폼과 같은 온보드 스토리지와 함께 연결할 수 있습니다. 이 정보는 FAS25XX 플랫폼에는 적용되지 않습니다.</block>
+  <block id="34a9eb16320fa575f00d96a29be9d645" category="doc">IOM12 모듈을 포함한 온보드 스토리지-선반이 있는 AFF 및 FAS 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예</block>
+  <block id="18e93c7175385ec259f95d9d453bdda1" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="67f2d45d4d0936132195fb6f111ce3e8" category="section-title">하나의 다중 쉘프 스택을 통해 다중 경로 HA 구성에서 온보드 스토리지를 제공하는 AFF 및 FAS 플랫폼</block>
+  <block id="83742af000bdb059461854fab1a8b606" category="list-text">전원 공급 장치를 다른 효율 등급과 혼합하지 마십시오. 항상 Like를 사용합니다.</block>
 </blocks>

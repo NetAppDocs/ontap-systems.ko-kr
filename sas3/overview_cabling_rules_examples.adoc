@@ -25,7 +25,7 @@ SAS 케이블 연결 규칙 *
 * 워크시트 및 예제 케이블 연결 *
 
 * link:install-cabling-worksheets-examples-multipath.html["공통 다중 경로 HA 구성"]
-* link:install-cabling-worksheets-examples-fas2600.html["공통 AFF A200, AFF A220, FAS2600 및 FAS2700 구성"]
+* link:install-cabling-worksheets-examples-fas2600.html["온보드 스토리지가 있는 AFF 및 FAS 플랫폼"]
 * link:install-worksheets-examples-quadpath.html["4중 경로 HA 구성"]
 
 

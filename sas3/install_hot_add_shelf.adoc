@@ -352,7 +352,7 @@ HA 쌍의 두 컨트롤러에서 디스크 소유권 자동 할당을 비활성�
 |===
 .. 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 확인하여 완성된 워크시트가 현재 구성에 있는지 확인하십시오.
 +
-link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 예"]
+link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예"]
 
 +
 link:install-cabling-worksheets-examples-multipath.html["일반적인 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예"]
