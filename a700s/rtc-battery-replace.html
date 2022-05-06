@@ -2267,39 +2267,6 @@
 
 
 
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/ko-kr/ontap-systems/pdfs/sidebar/팬.pdf" 
-            
-          >
-            <img src="/ko-kr/ontap-systems/images/pdf.png" width="16" height="16"/>
-            팬
-          </a>
-          
-
-
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
 
 
 
@@ -5265,20 +5232,9 @@
         DIMM
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/drive-replace.html">
         드라이브
-      </a></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> 팬</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-impaired-controller-shutdown.html">
-        손상된 노드를 종료합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-controller-remove.html">
-        컨트롤러 모듈을 분리합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-replace.html">
         팬
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-controller-reinstall-pcie-rtc.html">
-        컨트롤러 모듈을 다시 설치합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-complete-rma.html">
-        오류가 발생한 부품을 NetApp으로 반환합니다
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/nvmem-nvram-battery-replace.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/nvmem-nvram-battery-replace.html">
         NVRAM 배터리
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/nvram-or-nvram-dimm-replacement.html">
         NVRAM
@@ -5991,7 +5947,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-cabling-worksheets-examples-multipath.html">
         일반적인 다중 경로 HA 구성을 위한 케이블 연결 워크시트 및 예
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-cabling-worksheets-examples-fas2600.html">
-        일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 워크시트 및 예
+        온보드 스토리지를 사용한 AFF 및 FAS 플랫폼 케이블 연결 워크시트 및 예
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-worksheets-examples-quadpath.html">
         2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 케이블 연결 워크시트 및 예
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-cabling-worksheet-template-multipath.html">
@@ -6143,7 +6099,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-25 20:16:01 +0000">04/25/2022</time>
+    <time datetime="2022-05-06 14:27:07 +0000">05/06/2022</time>
     
   
 
@@ -6168,7 +6124,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="손상된-컨트롤러를-종료합니다">손상된 컨트롤러를 종료합니다</h2>
+<h2 id="1단계-손상된-컨트롤러를-종료합니다">1단계: 손상된 컨트롤러를 종료합니다</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
@@ -6180,13 +6136,13 @@
 <div class="title">단계</div>
 <ol class="arabic">
 <li>
-<p>AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</p>
+<p>AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=_number_of_hours_down_h' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</p>
 <div class="paragraph">
 <p>다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * &gt; system node AutoSupport invoke - node * -type all-message MAINT=2h'</p>
 </div>
 </li>
 <li>
-<p>정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false&#8217;를 자동으로 반환합니다</p>
+<p>손상된 컨트롤러가 HA 쌍의 일부인 경우 정상 컨트롤러의 콘솔에서 '스토리지 페일오버 수정-노드 로컬-자동 반환 거짓&#8217;을 자동 반환하도록 해제합니다</p>
 </li>
 <li>
 <p>손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</p>
@@ -6215,7 +6171,7 @@
 <p>반환 대기 중&#8230;&#8203;</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.</p>
+<p>Ctrl+C를 누른 다음 y를 누릅니다.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -6226,7 +6182,7 @@
 <p>정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다</p>
 </div>
 <div class="paragraph">
-<p>손상된 컨트롤러에 기브백을 기다리는 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.</p>
+<p>손상된 컨트롤러에 기브백을 기다리는 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 후 y를 누릅니다.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -6237,7 +6193,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="컨트롤러-모듈을-분리합니다">컨트롤러 모듈을 분리합니다</h2>
+<h2 id="2단계-컨트롤러-모듈을-분리합니다">2단계: 컨트롤러 모듈을 분리합니다</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.</p>
@@ -6358,7 +6314,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="rtc-배터리를-교체합니다">RTC 배터리를 교체합니다</h2>
+<h2 id="3단계-rtc-배터리를-교체합니다">3단계: RTC 배터리를 교체합니다</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>RTC 배터리를 교체하려면 컨트롤러 내부에 있는 배터리를 찾아 특정 단계를 따르십시오.</p>
@@ -6429,7 +6385,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="컨트롤러-모듈을-재설치하고-rtc-배터리-교체-후-시간날짜를-설정합니다">컨트롤러 모듈을 재설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</h2>
+<h2 id="4단계-컨트롤러-모듈을-다시-설치하고-rtc-배터리-교체-후-시간날짜를-설정합니다">4단계: 컨트롤러 모듈을 다시 설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>컨트롤러 모듈 내에서 구성 요소를 교체한 후에는 시스템 섀시에 컨트롤러 모듈을 재설치하고, 컨트롤러의 시간 및 날짜를 재설정한 다음 부팅해야 합니다.</p>
@@ -6531,7 +6487,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="장애가-발생한-부품을-netapp으로-반환합니다">장애가 발생한 부품을 NetApp으로 반환합니다</h2>
+<h2 id="5단계-장애가-발생한-부품을-netapp에-반환">5단계: 장애가 발생한 부품을 NetApp에 반환</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 <a href="https://mysupport.netapp.com/site/info/rma">"부품 반품 및 앰프, 교체"</a> 페이지를 참조하십시오.</p>

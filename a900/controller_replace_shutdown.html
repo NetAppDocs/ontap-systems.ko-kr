@@ -2267,39 +2267,6 @@
 
 
 
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/ko-kr/ontap-systems/pdfs/sidebar/팬.pdf" 
-            
-          >
-            <img src="/ko-kr/ontap-systems/images/pdf.png" width="16" height="16"/>
-            팬
-          </a>
-          
-
-
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
 
 
 
@@ -5265,20 +5232,9 @@
         DIMM
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/drive-replace.html">
         드라이브
-      </a></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> 팬</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-impaired-controller-shutdown.html">
-        손상된 노드를 종료합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-controller-remove.html">
-        컨트롤러 모듈을 분리합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-replace.html">
         팬
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-controller-reinstall-pcie-rtc.html">
-        컨트롤러 모듈을 다시 설치합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/fan-complete-rma.html">
-        오류가 발생한 부품을 NetApp으로 반환합니다
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/nvmem-nvram-battery-replace.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/nvmem-nvram-battery-replace.html">
         NVRAM 배터리
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/a700s/nvram-or-nvram-dimm-replacement.html">
         NVRAM
@@ -5991,7 +5947,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-cabling-worksheets-examples-multipath.html">
         일반적인 다중 경로 HA 구성을 위한 케이블 연결 워크시트 및 예
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-cabling-worksheets-examples-fas2600.html">
-        일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 워크시트 및 예
+        온보드 스토리지를 사용한 AFF 및 FAS 플랫폼 케이블 연결 워크시트 및 예
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-worksheets-examples-quadpath.html">
         2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 케이블 연결 워크시트 및 예
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-cabling-worksheet-template-multipath.html">
@@ -6143,7 +6099,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 13:18:53 +0000">04/13/2022</time>
+    <time datetime="2022-05-06 14:27:07 +0000">05/06/2022</time>
     
   
 
@@ -6161,8 +6117,28 @@
 <div class="paragraph">
 <p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
 </div>
+<div class="ulist">
+<div class="title">이 작업에 대해</div>
+<ul>
+<li>
+<p>NetApp 스토리지 암호화를 사용하는 경우_ONTAP 9 NetApp 암호화 전원 가이드 _ 의 "'SED를 보호되지 않는 모드로 복귀' 섹션에 나와 있는 지침에 따라 MSID를 재설정해야 합니다.</p>
 <div class="paragraph">
+<p><a href="https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/home.html">"ONTAP 9 NetApp 암호화 기능 가이드"</a></p>
+</div>
+</li>
+<li>
+<p>SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지(이벤트 로그 표시)를 확인해야 합니다.</p>
+<div class="paragraph">
+<p>각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.</p>
+</div>
+</li>
+<li>
 <p>노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <a href="https://docs.netapp.com/us-en/ontap/system-admin/index.html" target="_blank" rel="noopener">"CLI를 사용한 관리 개요"</a>.</p>
+</li>
+<li>
+<p>MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.</p>
+</li>
+</ul>
 </div>
 <div class="olist arabic">
 <div class="title">단계</div>
