@@ -22,7 +22,7 @@ entries:
       url: "/sas3/install-cabling-rules.html"
     - title: 일반적인 다중 경로 HA 구성을 위한 케이블 연결 워크시트 및 예
       url: "/sas3/install-cabling-worksheets-examples-multipath.html"
-    - title: 일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 워크시트 및 예
+    - title: 온보드 스토리지를 사용한 AFF 및 FAS 플랫폼 케이블 연결 워크시트 및 예
       url: "/sas3/install-cabling-worksheets-examples-fas2600.html"
     - title: 2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 케이블 연결 워크시트 및 예
       url: "/sas3/install-worksheets-examples-quadpath.html"

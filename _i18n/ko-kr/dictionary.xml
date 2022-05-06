@@ -1454,14 +1454,12 @@
   <block id="1d7bbe9c194670e89233cc6c1dc79534" category="paragraph">이러한 60-드라이브 쉘프에는 각각 5개의 드라이브 서랍이 있습니다.</block>
   <block id="efdce0991089cb793985d216e3fc1bbc" category="image-alt">28 DWG e2860 de460c 전면 설명선 없음</block>
   <block id="76ad7e322a2be745998c576cb12affcd" category="paragraph">5개의 서랍식 용지함에는 최대 12개의 드라이브를 장착할 수 있습니다.</block>
-  <block id="585248eeaa0c7aa335cb47a05c525433" category="image-alt">HDD가 있는 92 DWG de6600 서랍(속성 표시기 없음</block>
   <block id="a83cb446c51cb0bdbc4bec489e45b406" category="paragraph">이 절차를 수행하려면 다음 항목이 필요합니다.</block>
   <block id="4b4b58cabc76886a516816c3c1dca8a2" category="list-text">정전기 방지</block>
   <block id="a3dfcf9f8add4df0b4976c41ffa8abb2" category="admonition">* 가능한 하드웨어 손상: * 드라이브 선반의 정전기 방전 손상을 방지하려면 드라이브 쉘프 구성 요소를 취급할 때 적절한 정전기 방지 보호 장치를 사용하십시오.</block>
   <block id="bc374274f48b3aed06922e75376fd83c" category="list-text">교체용 드라이브 드로어</block>
   <block id="68103d0e27146f9689251724a7fbf29f" category="list-text">좌측 및 우측 케이블 체인 교체</block>
   <block id="75b0ae11d26c806413ef6e8aed1ece4f" category="list-text">플래시</block>
-  <block id="c8c22257eb9d1c1c2a60aad49bd446f7" category="list-text">영구 마커</block>
   <block id="12cd6af9147d69765327244240949e1f" category="paragraph">DS460C 드라이브 쉘프의 각 드라이브 서랍에 대한 왼쪽 및 오른쪽 케이블 체인을 사용하면 서랍을 밀어 넣을 수 있습니다. 드라이브 드로어를 제거하려면 먼저 두 케이블 체인을 모두 제거해야 합니다.</block>
   <block id="b4aaf296207d91e05752ac7857824f14" category="list-text">호스트 I/O 작업을 중지하고 쉘프 전원을 껐습니다.</block>
   <block id="295e1710be0bb53c45ab0ed9001e275c" category="list-text">다음 항목을 획득하였습니다.</block>
@@ -1503,15 +1501,11 @@
   <block id="b698e09fab0c0cb543414b7caec27e3c" category="list-text">주황색 링에 손가락을 넣습니다.</block>
   <block id="3ed1c59be0305378fd05c017ff86e232" category="list-text">케이블 체인을 분리하려면 손가락을 약 2.5cm(1인치) 정도 사용자 쪽으로 당기되, 케이블 체인 커넥터는 수직 브래킷 안에 둡니다.</block>
   <block id="461b154350e671de29d85bdc26c17b45" category="list-text">수평 브래킷에서 좌측 케이블 체인을 분리하고, 전체 케이블 체인을 드라이브 쉘프에서 빼내십시오.</block>
-  <block id="335dce1d41f6ceb784ef37e86cc55836" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고, 드라이브 위치를 기록하고, 드라이브를 제거하고, 드라이브 드로어를 제거해야 합니다.</block>
   <block id="08d7859a247f6ad39ca81761af784495" category="list-text">드라이브 드로어의 오른쪽 및 왼쪽 케이블 체인을 제거했습니다.</block>
   <block id="28d152fcbe5214a7616239c6b7d7dd6f" category="list-text">오른쪽 및 왼쪽 팬 모듈을 교체했습니다.</block>
-  <block id="8ef71e80ff9b1b842baf4030f316fb11" category="list-text">드로어에서 드라이브를 제거할 때 각 드라이브의 정확한 위치를 확인할 수 있는 영구 마커를 확보했습니다.</block>
   <block id="e68059b8f2d4e713684a4ebcf96dcaca" category="list-text">드라이브 쉘프 전면에서 베젤을 분리합니다.</block>
   <block id="d562b2bf78de10b1c081baaab5289cdf" category="list-text">양쪽 레버를 당겨 드라이브 드로어의 래치를 풉니다.</block>
   <block id="978b42922d8c3bc15e9a979ce2c8cf1a" category="list-text">확장 레버를 사용하여 드라이브 서랍이 멈출 때까지 조심스럽게 빼냅니다. 드라이브 쉘프에서 드라이브 드로어를 완전히 제거하지 마십시오.</block>
-  <block id="152621a29ef9446b42880cb317783a76" category="list-text">LUN(Logical Unit Number)이 이미 생성되어 할당된 경우 영구 마커를 사용하여 각 드라이브의 정확한 위치를 확인합니다. 예를 들어, 다음 도면을 참조로 사용하여 각 드라이브 상단에 적절한 슬롯 번호를 기록합니다.</block>
-  <block id="7d2466032b15e1b1adb1ac2c562eda3b" category="admonition">* 데이터 액세스 손실 가능성: * 각 드라이브를 제거하기 전에 정확한 위치를 기록해 두십시오.</block>
   <block id="66ba465a335a9fbce33b49f55f94397c" category="list-text">드라이브 드로어에서 드라이브를 분리합니다.</block>
   <block id="10d1dd29bccd11c53b8fe8d5262038e8" category="list-text">각 드라이브의 중앙 전면에 보이는 주황색 분리 래치를 부드럽게 뒤로 당깁니다. 다음 이미지는 각 드라이브의 주황색 분리 래치를 보여줍니다.</block>
   <block id="38e70df2ee8a82d813f8533469938b12" category="image-alt">28 DWG e2860 드라이브 래치 윗면도</block>
@@ -1528,7 +1522,6 @@
   <block id="ed3feb0427e42faaeb0702007b184c2f" category="list-text">두 분리 레버를 모두 잡은 상태에서 드라이브 드로어를 사용자 쪽으로 당깁니다.</block>
   <block id="f600133ba4287bc55c2092afd014a9a2" category="list-text">드라이브 쉘프에서 드라이브 드로어를 제거합니다.</block>
   <block id="aa88d15bb6aa9c2d7b1282acbe7f8338" category="paragraph">드라이브 서랍을 드라이브 쉘프에 설치하는 경우, 서랍을 빈 슬롯에 밀어 넣고 드라이브를 설치한 다음 전면 베젤을 다시 끼워야 합니다.</block>
-  <block id="00a6e09fe995a9431b12ec0b25d1e616" category="list-text">각 드라이브의 설치 위치를 알 수 있습니다.</block>
   <block id="1c0cc2116ea595f697955e9248420c5f" category="list-text">드라이브 선반의 전면에서 손전등을 빈 서랍 슬롯에 비추고 해당 슬롯의 잠금 해제 텀블러를 찾습니다.</block>
   <block id="c8e81f437d4ffbfea91534a5fc234aa3" category="paragraph">잠금 텀블러 어셈블리는 한 번에 두 개 이상의 드라이브 드로어를 열 수 없도록 하는 안전 기능입니다.</block>
   <block id="e35f213b1a3e33e3eeefc18fdd4b20bd" category="image-alt">92 PHT de6600 락아웃 텀블러 디테일</block>
@@ -1542,9 +1535,6 @@
   <block id="95ae28d5b7b1b338f5ddc97dba98c55b" category="admonition">* 장비 손상 위험: * 과도한 저항이나 바인딩이 느껴지면 드라이브 드로어 밀기 작업을 중단합니다. 드로어 전면의 분리 레버를 사용하여 드로어를 뒤로 밉니다. 그런 다음 서랍을 슬롯에 다시 넣고 서랍이 자유롭게 들어가는지 확인합니다.</block>
   <block id="60bd4a202f9baff0b80754d10e2e32a2" category="list-text">드라이브 드로어에 드라이브를 재설치하려면 다음 단계를 수행하십시오.</block>
   <block id="c4abdc9936683d02882a7283c019a16f" category="list-text">용지함 앞쪽에 있는 두 레버를 당겨 드라이브 드로어의 래치를 풉니다.</block>
-  <block id="844dfe4267fa67e9f6790c353bfd5146" category="list-text">드라이브를 제거할 때 작성한 노트를 사용하여 각 슬롯에 설치할 드라이브를 확인합니다.</block>
-  <block id="eaae88ce87aad975b7d2ee116355a25d" category="admonition">* 데이터 액세스 손실 가능성: * 각 드라이브를 드라이브 드로어의 원래 위치에 설치해야 합니다.</block>
-  <block id="bb9b26a61fb91f1d47a271d0ed32a967" category="list-text">드라이브의 핸들을 수직으로 올립니다.</block>
   <block id="a184d6eedc1fd5f3a32f366dc1b70527" category="list-text">드라이브 양쪽에 있는 두 개의 돌출된 단추를 드로어의 노치에 맞춥니다.</block>
   <block id="a1e9935bab922c38bfe212c6775c9455" category="paragraph">이 그림은 드라이브의 우측면도 및 올라간 버튼의 위치를 보여줍니다.</block>
   <block id="e70bd03011071eae774c88b44113e3d7" category="cell">드라이브 오른쪽에 있는 위로 단추</block>
@@ -1646,7 +1636,6 @@
   <block id="2b9663ad46a5f2dcd8c2fffdba003269" category="list-text">케이블 묶음 대신 벨크로 랩을 사용하여 시스템 케이블을 묶고 고정하면 케이블을 쉽게 조정할 수 있습니다.</block>
   <block id="06dfcb3b1a9c224a29ae8981c6882d18" category="section-title">핫 애드 위한 IOM12 모듈을 디스크 쉘프 설치</block>
   <block id="4e24ff050030d18996425f4adbef1c69" category="paragraph">핫 추가할 각 디스크 쉘프에 디스크 쉘프를 설치하고, 전원 코드를 연결하고, 디스크 쉘프의 전원을 켠 다음, SAS 연결을 케이블로 연결하기 전에 디스크 쉘프 ID를 설정해야 합니다.</block>
-  <block id="16f422f510f8de409c1e9545d1121593" category="list-text">드라이브 수가 30개인 쉘프의 경우 나머지 10개 드라이브는 각 드로어의 슬롯 1과 10에 균등하게 분산됩니다. 다음 그림에서는 쉘프 내의 각 드라이브 드로어에서 드라이브 번호가 0에서 11로 지정되는 방식을 보여 줍니다. 슬롯 0, 3, 6, 9 및 30개의 드라이브가 포함된 쉘프에 각 드로어의 슬롯 1 및 10에 드라이브가 포함되어야 합니다.</block>
   <block id="82fd485bd66b7a7cf95b41701aff95f4" category="list-text">HA 쌍 또는 단일 컨트롤러 구성 내에서 고유 ID로 핫 추가할 각 디스크 쉘프의 쉘프 ID를 설정합니다.</block>
   <block id="6f3cc8e26b4a1e5fe24b9cfea68de345" category="paragraph">내부 디스크 쉘프가 있는 시스템의 경우 쉘프 ID는 내부 디스크 쉘프 및 외부 연결 디스크 쉘프 전체에서 고유해야 합니다.</block>
   <block id="437cff47077287b8acaab6cf6eb3f66e" category="inline-link-macro">쉘프 ID를 변경합니다</block>
@@ -1697,7 +1686,6 @@
   <block id="e5db3fb8bc84ca3e26b513ea750c6127" category="list-text">컨트롤러에 연결된 스택 맨 끝에 있는 디스크 쉘프의 IOM A에서 케이블을 모두 분리합니다. 그렇지 않으면 하위 단계 e로 이동합니다</block>
   <block id="eded78be6c2ef5bdeed5cb2e044b45ea" category="paragraph">이러한 케이블의 다른 쪽 끝을 컨트롤러에 연결된 상태로 두거나 필요한 경우 케이블을 더 긴 케이블로 교체합니다.</block>
   <block id="30a13f506678dd37c6740d0a8210db83" category="list-text">핫 추가할 디스크 쉘프의 IOM A와 스택 끝 부분의 디스크 쉘프 IOM A 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
-  <block id="04e527203c5db793872f9a09c2541063" category="list-text">하위 단계 A에서 제거한 케이블을 핫 추가할 디스크 쉘프의 IOM A에 있는 동일한 포트에 다시 연결합니다. 그렇지 않으면 다음 하위 단계로 이동합니다.</block>
   <block id="f78a5c7555b6cd2b3fdedadb0027e0b3" category="list-text">IOM B에 대해 단계 A에서 단계 d를 반복하고, 그렇지 않으면 단계 4로 이동합니다.</block>
   <block id="1c641987c1af8344f2d212fa40fed903" category="paragraph">AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 해당하는 단일 경로 HA 또는 단일 경로 구성의 스택 끝에 디스크 쉘프를 핫 추가할 수 있습니다.</block>
   <block id="48e906ef4da7a3e48fedb259edff9f3c" category="paragraph">이러한 지침은 컨트롤러-스택 간 연결이 없는 스택의 끝에 핫 추가를 위한 것입니다.</block>
@@ -2055,7 +2043,6 @@
   <block id="1d4c0fb2a243494a984412dc5b5381a1" category="admonition">2개 이상의 스택이 있는 HA 쌍이 있는 경우, 두 번째 스택의 루트 애그리게이트를 포함하는 디스크 쉘프의 쉘프 ID는 10으로 사전 설정되어 있습니다.</block>
   <block id="f2717497b83e7964ce960a0ca5ac4860" category="paragraph">쉘프 ID는 HA 쌍 또는 단일 컨트롤러 구성에서 고유하도록 설정해야 합니다. 유지보수 모드에서 명령을 사용하여 HA 쌍 또는 단일 컨트롤러 구성의 모든 디스크 쉘프에 쉘프 ID를 수동으로 설정하거나 쉘프 ID를 자동으로 할당할 수 있습니다. 두 가지 방법에 대한 지침이 제공됩니다.</block>
   <block id="b1b6e8ddb338daabf15cdf510590fae4" category="list-text">루트 애그리게이트를 포함한 디스크 쉘프는 디스크 쉘프 박스 및 디스크 쉘프 섀시의 레이블로 식별할 수 있습니다.</block>
-  <block id="522a2f05fd82ab2503423b0634977776" category="paragraph">레이블에는 ""Loop or Stack#:1"" 및 ""Loop or Stack#:2"" 등의 스택 번호가 표시됩니다. 루트 애그리게이트가 포함되지 않은 디스크 쉘프는 레이블에 디스크 쉘프 일련 번호만 표시합니다.</block>
   <block id="ecf2c214f39b200ba60904cb20770b94" category="list-text">시스템 설치 및 구성 시 자동 디스크 소유권 할당을 사용하도록 시스템을 구성하지 않은 경우 디스크 소유권을 수동으로 할당해야 합니다.</block>
   <block id="3e4b78a10116c79b33b35d6940601a98" category="list-text">대역내 대체 제어 경로(ACP)가 자동으로 활성화됩니다.</block>
   <block id="a465c0fe78962946e881b32ab9ec2b88" category="paragraph">단일 경로 HA 또는 단일 경로 구성에서는 대역 내 ACP가 지원되지 않습니다.</block>
@@ -2968,7 +2955,6 @@
   <block id="ec2f589bb209f983546d21f6ab53d160" category="doc">2노드 MetroCluster 구성 - FAS8200에서 애그리게이트를 다시 전환합니다</block>
   <block id="38681c139b912b74e9f2c478df5e20c0" category="summary">시스템에서 NVRAM 배터리를 교체하려면 컨트롤러 모듈을 시스템에서 분리하고 배터리를 분리한 다음 배터리를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다.</block>
   <block id="ddb14ada2ef97be8ad7f40139160426e" category="doc">NVRAM 배터리 교체 - AFF A700s</block>
-  <block id="26e38d31d368fa344a653ab87cee79bb" category="section-title">컨트롤러 모듈을 분리합니다</block>
   <block id="ea199306c38c35706c03077ded4d9d02" category="paragraph">컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.</block>
   <block id="22969388a58653a9ab4e9f8f503beb09" category="list-text">전원에서 컨트롤러 모듈 전원 공급 장치를 분리한 다음 전원 공급 장치에서 케이블을 뽑습니다.</block>
   <block id="5501530668ccd4a98e422eaa9f70f55a" category="list-text">컨트롤러 모듈에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.</block>
@@ -2979,7 +2965,6 @@
   <block id="0f0a79780676cf6ae8f3282e89437c68" category="paragraph">잠금 핀</block>
   <block id="ac79e6e31df78a7f6d609aadb6ef37c1" category="list-text">컨트롤러 모듈을 섀시 밖으로 밀어냅니다.</block>
   <block id="b4528c91634508bf10f34e21233169c0" category="list-text">컨트롤러 모듈을 안전한 곳에 둡니다.</block>
-  <block id="732cb0105e10dcf3046c4f8dd9a5a991" category="section-title">NVRAM 배터리를 교체합니다</block>
   <block id="b6e4e85c37e79abd40b307ddc60db9d3" category="paragraph">NVRAM 배터리를 교체하려면 오류가 발생한 NVRAM 배터리를 컨트롤러 모듈에서 분리하고 교체용 NVRAM 배터리를 컨트롤러 모듈에 설치해야 합니다.</block>
   <block id="50596866677de4b15c95c4f2ac253894" category="list-text">라이저 모듈, 라이저 1의 왼쪽에서 NVRAM 배터리를 찾습니다.</block>
   <block id="cad0b5b8d9a3a648fed2d2cf9843ff68" category="image-alt">drw a700s NVMe 배터리 교체</block>
@@ -2989,7 +2974,6 @@
   <block id="35d5fed86af7da6a1d67e961dbf87ef5" category="list-text">라이저 브래킷 아래로 배터리를 밀어 들어 올려 컨트롤러에서 분리한 다음 옆에 둡니다.</block>
   <block id="9c17b03bf990ca5da9d620cde5370927" category="list-text">교체용 배터리 팩을 판금 측면 벽을 따라 아래로 밀어 측면 벽의 지지 탭이 배터리 팩의 슬롯에 걸리고 배터리 팩 래치가 맞물려 제자리에 잠길 때까지 넣습니다.</block>
   <block id="34c0acf834f045012427d27dbd853885" category="list-text">배터리 플러그를 라이저 소켓에 꽂고 플러그가 제자리에 고정되어 있는지 확인합니다.</block>
-  <block id="e08bd2526a396d2c969a102035c42fed" category="section-title">컨트롤러 모듈을 다시 설치합니다</block>
   <block id="9baf211c6ecdaf2caa4ae8ac90089172" category="list-text">아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.</block>
   <block id="af9622020670ce2b86cd2845b04b00f4" category="list-text">공기 덕트를 컨트롤러 모듈로 끝까지 돌립니다.</block>
   <block id="97be101d543785854ad18ca62a561d32" category="list-text">잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.</block>
@@ -3009,11 +2993,9 @@
   <block id="c825d3306198a3e63edc34a58e1f476c" category="image-alt">drw a700s 개방형 공기 덕트</block>
   <block id="bf1b040c014a82c7128928f952e50325" category="paragraph">에어 덕트 잠금 탭</block>
   <block id="72188531636fc5815089233196e1ec35" category="paragraph">라이저</block>
-  <block id="ba465a4963e9d81b0df00697f6765e53" category="section-title">RTC 배터리를 교체합니다</block>
   <block id="f663c131d87c9bf95d21d63d6579dfb8" category="paragraph">RTC 배터리를 교체하려면 컨트롤러 내부에 있는 배터리를 찾아 특정 단계를 따르십시오.</block>
   <block id="6199e9ac737bb64b5d2e7bfb2a3da5a0" category="image-alt">drw a700s RTC 배터리를 교체합니다</block>
   <block id="a7f375a810d73a673cfac8d89305ccac" category="paragraph">RTC 배터리 및 하우징</block>
-  <block id="5ac2ce23b602bd690adf87a4ddadc899" category="section-title">컨트롤러 모듈을 재설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</block>
   <block id="e5869c3e3552c60a1a151cf93d8bdbee" category="summary">컨트롤러 모듈에서 중간 PCIe 모듈을 분리하고, 부팅 미디어 근처의 LED로 결함이 있는 부팅 미디어를 찾은 다음 부팅 미디어를 교체해야 합니다.</block>
   <block id="e9e66c1bd59e20ff8acce6fb41f94461" category="paragraph">섀시에서 컨트롤러 모듈을 분리하고 연 다음, 결함이 있는 부팅 미디어를 교체해야 합니다.</block>
   <block id="e88eebc1797d32d10ed4abe331b3ecb6" category="section-title">2단계: 부팅 미디어 교체 - AFF A700s</block>
@@ -3068,7 +3050,6 @@
   <block id="bc8660c5f3569dff11062aab0e8487d1" category="list-text">구성 동기화가 오류 없이 완료된 후 백업 절차가 성공했는지 확인하는 메시지가 나타나면 y를 누릅니다.</block>
   <block id="77fa1d2fec9c705a79b5ec4300599706" category="section-title">옵션 2: USB 플래시 드라이브를 사용하여 부팅 이미지를 부팅 미디어로 전송합니다</block>
   <block id="c2a9feacea3374ba5c6052aaa36c24d5" category="list-text">'Storage failover modify' 명령을 사용하여 사용하지 않도록 설정한 경우 자동 반환 복구</block>
-  <block id="71579293cd0dc4c10d7d09bfc05b43aa" category="doc">컨트롤러 모듈 AFF A700s를 다시 설치합니다</block>
   <block id="a042d62f38b129b2b0a14f9ad8ef93fa" category="doc">설치 및 설정 PDF 포스터 - AFF A700s</block>
   <block id="a6f8184cf42c02441138be75b0c4c9da" category="inline-link-macro">AFF A700s 설치 및 설정 지침</block>
   <block id="b4ddf9d759f084ba25e7c363dcfcd65e" category="paragraph"><block ref="b4ddf9d759f084ba25e7c363dcfcd65e" category="inline-link-macro-rx"></block></block>
@@ -3164,14 +3145,10 @@
   <block id="04a1c92d61b3e562a673dea0adef0f20" category="list-text">NetApp 스토리지 암호화를 사용하는 경우_ONTAP 9 NetApp 암호화 전원 가이드 _ 의 "'SED를 보호되지 않는 모드로 복귀' 섹션에 나와 있는 지침에 따라 MSID를 재설정해야 합니다.</block>
   <block id="a2ae6c720a8a0fbf3918f44a33be6b30" category="inline-link">ONTAP 9 NetApp 암호화 기능 가이드</block>
   <block id="ba8122bba290a3351611db1b66c99386" category="paragraph"><block ref="ba8122bba290a3351611db1b66c99386" category="inline-link-rx"></block></block>
-  <block id="37e63a96eb8ab113e88a1d983dd9fcf5" category="section-title">NVRAM 카드를 분리합니다</block>
   <block id="645e0a3ffab83941f2797575b7ccbdd0" category="paragraph">NVRAM을 교체하려면 컨트롤러 모듈에서 NVRAM 라이저, 라이저 1, NVRAM 카드에서 NVRAM 배터리 분리, 실패한 NVRAM 카드 제거 및 교체 NVRAM 카드 설치, NVRAM 라이저를 컨트롤러 모듈에 다시 설치하는 것으로 구성됩니다.</block>
-  <block id="46dff51ede0ec9818d5f63c00dfa5746" category="section-title">컨트롤러 모듈을 다시 설치하고 시스템을 부팅합니다</block>
   <block id="751da2770ffa07ad30e1b98d596ba78c" category="paragraph">컨트롤러 모듈의 FRU를 교체한 후에는 컨트롤러 모듈을 다시 설치하고 재부팅해야 합니다.</block>
-  <block id="6bcc4bf7321499602cc726d01ccea765" category="section-title">HA 시스템의 시스템 ID 변경을 확인합니다</block>
   <block id="1e2a0fcc2986a119062540d6a8a9681f" category="inline-link">사용 중인 ONTAP 9 버전에 대한 고가용성 구성 가이드를 찾아보십시오</block>
   <block id="8761710e49b8b20d4b6cc2adb064a0b2" category="paragraph"><block ref="8761710e49b8b20d4b6cc2adb064a0b2" category="inline-link-rx"></block></block>
-  <block id="c2deae7c367921c0b07893dc6e315415" category="section-title">스토리지 및 볼륨 암호화 기능을 복원합니다</block>
   <block id="8a9d9ac73cd783fd8be1adef7a7b3710" category="summary">주 부팅 매체는 시스템이 부팅될 때 사용하는 ONTAP 부팅 이미지를 저장합니다. 보조 부팅 미디어의 ONTAP 이미지를 사용하거나 필요한 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어 이미지를 복원할 수 있습니다.</block>
   <block id="327cba4c3b39fe95536adbd9bda04a68" category="paragraph">보조 부팅 미디어에 오류가 있거나 image.tgz 파일이 없는 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어를 복원해야 합니다. 드라이브는 FAT32로 포맷해야 하며 image_xxx.tgz 파일을 저장할 적절한 저장 공간이 있어야 합니다.</block>
   <block id="c36778782b4ef6254390f7e747b95625" category="list-text">교체 프로세스는 보조 부팅 미디어 또는 USB 플래시 드라이브에서 기본 부팅 미디어로 var 파일 시스템을 복구합니다.</block>
@@ -3182,7 +3159,6 @@
   <block id="dec0306e681fc720cf31bc4851ebcee4" category="inline-link">ONTAP 9 시스템 관리 참조</block>
   <block id="38093d6513bb2e960eab247f00f04533" category="paragraph"><block ref="38093d6513bb2e960eab247f00f04533" category="inline-link-rx"></block></block>
   <block id="bf7918e10696cda0294441f81ad32ee4" category="paragraph">"기백을 기다리는 중...</block>
-  <block id="136dcb2edcd74121805a5141d72b31e0" category="section-title">DIMM을 교체합니다</block>
   <block id="8d73259baf4ddfb7a4ebcc9452d895e0" category="paragraph">DIMM을 교체하려면 컨트롤러 모듈 내부에 있는 DIMM 맵을 사용하거나 DIMM 옆의 LED를 사용하여 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
   <block id="9de291eec146aa309ed46727b945c6d4" category="list-text">해당 라이저를 분리합니다.</block>
   <block id="a4e4695daf3bcdb3f2c31bf35c0a5950" category="paragraph">에어 덕트 커버</block>
@@ -3193,7 +3169,6 @@
   <block id="16dd6ac83ccd26b24f34a1ac9ab38250" category="list-text">뱅크 13-16에서 DIMM을 분리하거나 이동하는 경우 라이저 3의 잠금 래치를 푼 다음 라이저를 분리합니다.</block>
   <block id="42276924a11ced220d6673bca09aab34" category="list-text">컨트롤러 모듈에서 분리한 라이저를 모두 재설치합니다.</block>
   <block id="f7d2e85282b0ca5073c032b071225e16" category="paragraph">NVRAM 라이저, 라이저 1을 분리한 경우 NVRAM 배터리를 컨트롤러 모듈에 꽂아야 합니다.</block>
-  <block id="5a9efed957a764efe5954f9cb1a6df54" category="section-title">진단 유틸리티를 실행합니다</block>
   <block id="2b1646515c4dcacd96acd971239a6f14" category="paragraph">섀시를 교체하려면, 컨트롤러 모듈과 SSD 드라이브를 손상된 섀시에서 교체 섀시로 옮긴 다음 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 분리하고 교체 섀시를 제자리에 설치해야 합니다.</block>
   <block id="c465df44865c02db52bc6f37023b5b75" category="list-text">이 절차는 SSD 및 컨트롤러 모듈을 새 섀시로 이동하는 가정 하에 작성되었으며, 교체 섀시는 NetApp의 새로운 구성 요소가 됩니다.</block>
   <block id="d574c271d37aff5dfc97b6ecd338458f" category="doc">복원 및 교체 프로세스 - AFF A700s를 완료하십시오</block>
@@ -3215,7 +3190,6 @@
   <block id="c58504da624719ce30aca73779ca7dbf" category="doc">시스템 구성 복원 및 검증 - AFF A700s</block>
   <block id="5c41efcd6cdac2bf93f02a8055089ed8" category="section-title">2단계: 섀시의 HA 상태를 확인하고 설정합니다</block>
   <block id="8ebc074b350a73fb776c940df7d61fd5" category="summary">팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다.</block>
-  <block id="1675c7f72f346b50740cbed80838eb37" category="doc">FAN-AFF A700s 교체</block>
   <block id="413ac2fd2fb4f86c9ec059076dc0b76b" category="list-text">콘솔 오류 메시지를 확인하거나 마더보드에서 팬 모듈에 대해 표시등이 켜진 LED를 찾아 교체해야 하는 팬 모듈을 식별합니다.</block>
   <block id="c6c330df068950fe73f003a3f85b3fa0" category="list-text">교체용 팬 모듈의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 잠금 래치가 제자리에 고정될 때까지 교체용 팬 모듈을 컨트롤러 모듈에 밀어 넣습니다.</block>
   <block id="f72304143acea17b5bb5c4f384fb8c44" category="paragraph">내부 디스크 드라이브로 컨트롤러를 업그레이드하는 경우, 여러 명령을 완료하고 해당 출력을 확인하여 내부 디스크 드라이브에 루트 애그리게이트 또는 데이터 애그리게이트가 없는지 확인해야 합니다.</block>
@@ -7796,7 +7770,6 @@
   <block id="4ccd403eb19c48e7ebdaaeb982ef2481" category="sidebar">쉘프를 핫 추가</block>
   <block id="cf999199f9d4c3e90d15399860476f13" category="sidebar">쉘프 ID를 변경합니다</block>
   <block id="b32341112e04cf53228eb2711e7faa5c" category="sidebar">일반적인 다중 경로 HA 구성을 위한 케이블 연결 워크시트 및 예</block>
-  <block id="7f0b45a163e9c09089bd1df8d3d9b9de" category="sidebar">일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 워크시트 및 예</block>
   <block id="99035f209c8d40299210fe873096f23b" category="sidebar">2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 케이블 연결 워크시트 및 예</block>
   <block id="f64eba4acc825268e4959bef4c193b11" category="sidebar">다중 경로 연결을 위한 케이블 연결 워크시트 서식 파일</block>
   <block id="ce6374cb8d43c65f66d31cf1a0ede69e" category="sidebar">4중 경로 연결을 위한 케이블링 워크시트 템플릿</block>
@@ -7841,10 +7814,7 @@
   <block id="8ce7b6e5aee8c1dcf7992d9de100b646" category="sidebar">AFF A700s 컨트롤러</block>
   <block id="427614df681039d0b63f4a5e73e2acf0" category="sidebar">교체 프로세스를 완료합니다</block>
   <block id="80ac780cac93a4f8c06402d665f9f0e9" category="sidebar">AFF A700s DIMM</block>
-  <block id="a181a78d69e123d03e181a2cb2fbb6fc" category="sidebar">손상된 노드를 종료합니다</block>
-  <block id="f58d98f433350ee3e614bfdfe3036a89" category="sidebar">컨트롤러 모듈을 분리합니다</block>
   <block id="ffaa5f174b403b28545d000ddde7500c" category="sidebar">AFF A700s 팬</block>
-  <block id="4edb2ba531a7a0a1dd60f4492d82e36f" category="sidebar">컨트롤러 모듈을 다시 설치합니다</block>
   <block id="3e74bf4522dcfc59214d7a174639087c" category="sidebar">AFF A700s NVRAM 배터리</block>
   <block id="e3f3f58b597fba6fefb596c5ce76d468" category="sidebar">NVRAM</block>
   <block id="70c32d2e5a7e814ac7a8b58e2cbc4d7f" category="sidebar">AFF A700s NVRAM</block>
@@ -8365,7 +8335,6 @@
   <block id="51e6a2fb5c6f27756e90e2666efd984d" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.</block>
   <block id="d1342671e7a1aeffea6df3cd0214be86" category="list-text">이 절차는 중단을 따릅니다. 2-컨트롤러 클러스터의 경우, 다중 노드 클러스터의 서비스 운영이 중단되어 부분 중단이 발생할 수 있습니다.</block>
   <block id="4fa4535552a76ba6abb695db42b48161" category="paragraph">이 절차를 사용해야 하는 경우 4 또는 8 컨트롤러 MetroCluster 구성의 컨트롤러에 대한 컨트롤러 교체 절차는 HA 쌍의 컨트롤러 교체 절차와 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.</block>
-  <block id="1c35b5fd0eb2c66f98019f6d2ea253e2" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="5ad5e3145183bec8ce765d99b2db775a" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="c83b964c98e24aa342fa8069ffd85dd0" category="list-text"><block ref="c83b964c98e24aa342fa8069ffd85dd0" category="inline-link-macro-rx"></block></block>
   <block id="f51c8858085d7dcfe4d79d9774f8270d" category="paragraph">_replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
   <block id="58d1979204cdde4ca641ddc56ae5fe91" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다. 부트 ONTAP</block>
@@ -8600,7 +8569,6 @@
   <block id="bd7b8cb1f03ceb90528c843b3cd8c0a4" category="summary">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
   <block id="bf9eaa32fa671084f441eeba9c863ef6" category="paragraph">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
   <block id="ba0a2d97499e2e560187690f4b54b10c" category="list-text">제거할 디스크 쉘프의 디스크 드라이브에서 모든 애그리게이트(디스크 드라이브는 스페어 드라이브)를 제거해야 합니다.</block>
-  <block id="eaca20aa2eab6f0d724e09d105bcde6d" category="list-text">* 가능한 쉘프 손상: * DS460C 쉘프를 제거한 후 데이터 센터의 다른 부분으로 이동하거나 다른 위치로 운반하는 경우, 드라이브 드로어 및 드라이브가 손상되지 않도록 드라이브를 제거하십시오.</block>
   <block id="df890e7b6d800ea7f63516f78dc7b333" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예</block>
   <block id="4831f887bab13b0957b607ad184c87f7" category="paragraph"><block ref="4831f887bab13b0957b607ad184c87f7" category="inline-link-macro-rx"></block></block>
   <block id="fdd0f707bd71fcef53b653ae53e31f53" category="summary">작성된 컨트롤러-스택 케이블링 워크시트와 케이블링 예를 사용하여 AFF 및 FAS 플랫폼을 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 플랫폼과 같은 온보드 스토리지와 함께 연결할 수 있습니다. 이 정보는 FAS25XX 플랫폼에는 적용되지 않습니다.</block>
@@ -8608,4 +8576,60 @@
   <block id="18e93c7175385ec259f95d9d453bdda1" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="67f2d45d4d0936132195fb6f111ce3e8" category="section-title">하나의 다중 쉘프 스택을 통해 다중 경로 HA 구성에서 온보드 스토리지를 제공하는 AFF 및 FAS 플랫폼</block>
   <block id="83742af000bdb059461854fab1a8b606" category="list-text">전원 공급 장치를 다른 효율 등급과 혼합하지 마십시오. 항상 Like를 사용합니다.</block>
+  <block id="94a2f43b7e5299d436a356db402524cc" category="section-title">3단계: NVRAM 배터리를 교체합니다</block>
+  <block id="5f5fd4de9ab7b399342d9b9e721bc6b6" category="section-title">3단계: NVRAM 카드를 분리합니다</block>
+  <block id="6378f7fb953fa140d999f1d68c5e6145" category="section-title">5단계: HA 시스템에서 시스템 ID 변경을 확인합니다</block>
+  <block id="07c4e79c1eed9787f0716b4d65f147b2" category="list-text">Ctrl+C를 눌러 부팅 프로세스를 중단합니다.</block>
+  <block id="37f3122e97201daeb17a029c6ba18afb" category="section-title">1단계: 장애가 있는 컨트롤러 종료 - AFF A700s</block>
+  <block id="72031a15fbaab6eb40b617b0663962bb" category="section-title">2단계: 컨트롤러 모듈 제거 - AFF A700s</block>
+  <block id="fedeae451b36efcc460d172d9fe45850" category="section-title">3단계: FAN-AFF A700s를 교체합니다</block>
+  <block id="e1d83f38808259079bf63398959b5064" category="section-title">4단계: 컨트롤러 모듈 재설치 - AFF A700s</block>
+  <block id="db1d1fc556b59fbc6af03005e8bfd733" category="section-title">4단계: 장애가 발생한 부품을 NetApp-AFF A700s로 반환합니다</block>
+  <block id="e5ddd774e93783b28f265ecb6d19adb2" category="section-title">6단계: 장애가 발생한 부품을 NetApp에 반환</block>
+  <block id="5c542a7e2ad58397aad1271e4d3a0117" category="paragraph">레이블은 스택 번호를 표시합니다(예: * Loop 또는 Stack#:1 * 및 * Loop 또는 Stack#:2 *). 루트 애그리게이트가 포함되지 않은 디스크 쉘프는 레이블에 디스크 쉘프 일련 번호만 표시합니다.</block>
+  <block id="6ac2291fe0e85584d8316cc0e6c7364f" category="section-title">DS460C 드라이브 취급 고려 사항</block>
+  <block id="b2171f8c50bfc77432114b327848466f" category="list-text">드라이브는 쉘프 섀시와 별도로 패키징됩니다.</block>
+  <block id="729ab22e4daec3dc8eb94284e2ff928a" category="paragraph">받은 나머지 시스템 장비와 함께 드라이브 인벤토리를 작성해야 합니다.</block>
+  <block id="8244db29bd8d18d221639bfa5a7af47a" category="list-text">드라이브의 포장을 푼 후에는 나중에 사용할 수 있도록 포장재를 저장해야 합니다.</block>
+  <block id="0c9768cef5797a31f719b148cb97c2b0" category="admonition">* 데이터 액세스 손실 가능성: * 나중에 쉘프를 데이터 센터의 다른 부분으로 이동하거나 쉘프를 다른 위치로 이동할 경우, 드라이브 드로어에서 드라이브를 제거하여 드라이브 드로어 및 드라이브가 손상되지 않도록 해야 합니다.</block>
+  <block id="790b3fbbc9d4408c83be569b33f62df4" category="admonition">디스크 드라이브를 설치할 준비가 될 때까지 ESD 가방에 보관합니다.</block>
+  <block id="f505a7983bc262c1785ce6adc5c9c152" category="list-text">드라이브를 취급할 때는 정전기 방전을 방지하기 위해 항상 보관 인클로저 섀시의 도색되지 않은 표면에 접지된 ESD 손목 접지대를 착용하십시오.</block>
+  <block id="035f36f8cb7a7149476fc3a606085ac7" category="paragraph">DS460C 디스크 쉘프의 경우, 드라이브는 별도로 패키징되어 쉘프를 가볍게 만들지만 빈 DS460C 쉘프의 무게는 약 60kg(132lb)이므로 쉘프를 이동할 때는 다음과 같이 주의해야 합니다.</block>
+  <block id="c04b249a92156b3830dd23c4f0227ad3" category="admonition">기계화된 리프트를 사용하거나 리프트 핸들을 사용하여 빈 DS460C 쉘프를 안전하게 이동하는 4명을 사용하는 것이 좋습니다.</block>
+  <block id="271ccf7899e5bebc4f9e5879e8b4e969" category="paragraph">DS460C 배송에는 4개의 착탈식 리프트 핸들(각 측면에 2개)이 포함되어 있습니다. 리프트 핸들을 사용하려면 손잡이 탭을 선반 측면에 있는 슬롯에 삽입하고 딸깍 소리가 날 때까지 위로 밀어 올려서 설치합니다. 그런 다음 디스크 쉘프를 레일 위로 밀어 넣을 때 엄지 래치를 사용하여 한 번에 하나의 핸들 세트를 분리합니다. 다음 그림에서는 리프트 핸들을 부착하는 방법을 보여 줍니다.</block>
+  <block id="3a7aa90b7e6e30d4cea14996d05d2cb4" category="list-text">DS460C 디스크 쉘프를 설치하는 경우 드라이브 드로어에 드라이브를 설치하고, 그렇지 않으면 다음 단계로 이동합니다.</block>
+  <block id="f0d969f7b7ef3f514e1ebe9dd5ba1adf" category="paragraph">정전기 방전을 방지하려면 항상 보관 인클로저 섀시의 도색되지 않은 표면에 접지된 ESD 손목 접지대를 착용하십시오.</block>
+  <block id="d73d42687e521e8e514e51136cf28dde" category="paragraph">부분적으로 채워진 쉘프를 구입한 경우, 즉 쉘프에 지원하는 드라이브 수가 60개 미만인 경우 각 드로어에 다음을 따라 드라이브를 설치합니다.</block>
+  <block id="91b773fbb1c2eaf562803abbe21daf35" category="list-text">처음 4개의 드라이브를 전면 슬롯(0, 3, 6, 9)에 설치합니다.</block>
+  <block id="2d46a0e0bfeb381cc0efc2e57a23d530" category="admonition">* 장비 오작동 위험: * 공기 흐름이 원활하도록 하고 과열을 방지하려면 항상 처음 4개의 드라이브를 전면 슬롯(0, 3, 6, 9)에 설치하십시오.</block>
+  <block id="0a420e5d9ce2ddffd04807c20c8775ca" category="list-text">나머지 드라이브의 경우 각 드로어에 균등하게 분배합니다.</block>
+  <block id="74e528b6d2588aa55dd04aa2665edc1e" category="list-text">ESD 가방에서 드라이브를 꺼냅니다.</block>
+  <block id="f0e4d108bd327aa0295d08fc98aaafd0" category="list-text">전면 베젤을 부착합니다.</block>
+  <block id="40eaf65b2964a77febbd5ac5e16bf92b" category="section-title">DS460C 쉘프를 이동하거나 이동합니다</block>
+  <block id="f1c58ede133573cb49918c3081333246" category="paragraph">나중에 DS460C 쉘프를 데이터 센터의 다른 부분으로 이동하거나 쉘프를 다른 위치로 전송할 경우, 드라이브 드로어에서 드라이브를 제거하여 드라이브 드로어 및 드라이브가 손상되지 않도록 해야 합니다.</block>
+  <block id="84a46b8403244afe9d960b3db710302e" category="list-text">DS460C 쉘프를 새 시스템 설치의 일부로 설치한 경우, 드라이브 포장 재료를 저장한 경우, 드라이브를 이동하기 전에 이를 사용하여 드라이브를 다시 패키지하십시오.</block>
+  <block id="0d7187478aa1ddf360c471b9442a100c" category="paragraph">포장 재료를 저장하지 않은 경우 완충된 표면에 드라이브를 놓거나 다른 완충식 포장재를 사용해야 합니다. 드라이브를 서로 겹쳐서 쌓지 마십시오.</block>
+  <block id="3fa80daa5430a17daaa8f9448fbea3de" category="list-text">드라이브를 취급하기 전에 보관 인클로저 섀시의 도색되지 않은 표면에 접지된 ESD 손목 스트랩을 착용하십시오.</block>
+  <block id="677a4b8e4c9931e56a425ccba1cabe24" category="paragraph">손목 스트랩을 사용할 수 없는 경우 드라이브를 다루기 전에 저장 장치 인클로저 섀시의 색칠되지 않은 표면을 만지십시오.</block>
+  <block id="ec115696caeda4f59b91bec667134e10" category="list-text">드라이브를 조심스럽게 다루려면 다음 단계를 수행해야 합니다.</block>
+  <block id="eec95928a8386ff4e74b660f06af6a2e" category="list-text">무게를 지탱하기 위해 드라이브를 분리, 설치 또는 운반할 때는 항상 두 손을 사용하십시오.</block>
+  <block id="484930724bd79c20081515728c70573d" category="admonition">드라이브 캐리어 아래쪽에 노출된 드라이브 보드에 손을 올려 놓지 마십시오.</block>
+  <block id="8c30657768334aaeee6af98af6fe488f" category="list-text">다른 표면에 드라이브를 부딪히지 않도록 주의하십시오.</block>
+  <block id="b2cba33b1b51dce41879eced349ff3ba" category="list-text">드라이브는 자기 장치에서 멀리 떨어져 있어야 합니다.</block>
+  <block id="222cfe0be0a1bf567b9a7f87fd33f031" category="admonition">자기장은 드라이브의 모든 데이터를 파괴하고 드라이브 회로에 돌이킬 수 없는 손상을 일으킬 수 있습니다.</block>
+  <block id="35edd171f5c445f9c2a843e056a3fdc2" category="paragraph">드라이브의 인벤토리를 작성해야 합니다.</block>
+  <block id="7069466d86118b29043e6ed214511c1c" category="list-text">하위 단계 A에서 제거한 케이블을 핫 추가할 디스크 쉘프의 IOM A에 있는 동일한 포트에 다시 연결합니다. 그렇지 않으면 다음 하위 단계로 이동합니다. + 케이블을 분리한 후 다시 연결하는 데 70초 이상 기다려야 합니다.</block>
+  <block id="20244777af6f97db49ab4dc75a00ca87" category="paragraph">케이블을 한 번에 하나씩 교체하고 케이블을 분리하고 새 케이블을 연결하는 사이에 70초 이상 기다려야 합니다.</block>
+  <block id="94ccebf898fb7d7300145c16c598544a" category="list-text">DS460C 쉘프를 쉘프 핫 애드인의 일부로 설치한 경우, 드라이브 패키징 자료를 저장한 경우, 드라이브를 이동하기 전에 이를 사용하여 드라이브를 다시 패키지하십시오.</block>
+  <block id="8456c08b8772c6458de93a0a78ff4f85" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고 드라이브를 제거한 다음 드라이브 드로어를 제거해야 합니다.</block>
+  <block id="40cfdd2fa544c18fef836a58df7bb2e9" category="list-text">설치할 드라이브에서 핸들을 수직으로 들어 올립니다.</block>
+  <block id="2560c526c9d334c39cab4311db7eff4d" category="paragraph">부분적으로 채워진 쉘프가 있는 경우, 다시 설치할 드라이브 서랍에 지원되는 12개 드라이브 미만의 드라이브가 있는 경우, 처음 4개 드라이브를 전면 슬롯(0, 3, 6 및 9)에 설치하십시오.</block>
+  <block id="0c19992873d54086f9866be6126e317c" category="list-text">* 가능한 선반 손상: * DS460C 쉘프를 제거한 후 데이터 센터의 다른 부분으로 이동하거나 다른 위치로 운반하는 경우, 섹션, <block ref="2dfa5cde780121ff739815d2402836cf" category="inline-xref-macro-rx"></block> 이 절차를 마칠 때.</block>
+  <block id="2832373659f325a28de2b5462611f72c" category="paragraph">DS460C 디스크 쉘프의 경우, 완전히 로드된 쉘프의 무게는 112kg(247lbs)이므로 랙 또는 캐비닛에서 쉘프를 제거할 때는 다음과 같은 주의를 기울여야 합니다.</block>
+  <block id="69803fc9f7acd429df0403558d86852a" category="admonition">기계화된 리프트를 사용하거나 리프트 핸들을 사용하여 DS460C 쉘프를 안전하게 이동하는 4명을 사용하는 것이 좋습니다.</block>
+  <block id="d2190ca0f2bf90686cb089f6fb2d5e2b" category="paragraph">DS460C 쉘프를 데이터 센터의 다른 부분으로 이동하거나 다른 위치로 전송하는 경우 다음 섹션을 참조하십시오. <block ref="2dfa5cde780121ff739815d2402836cf" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1d5287e79870e687badf4e2da0612ad0" category="paragraph">DS460C 쉘프를 데이터 센터의 다른 부분으로 이동하거나 쉘프를 다른 위치로 전송하는 경우, 드라이브 드로어에서 드라이브를 제거하여 드라이브 드로어 및 드라이브가 손상되지 않도록 해야 합니다.</block>
+  <block id="c3fdb0812209f286e664a4d0cd47c328" category="list-text">DS460C 쉘프를 새 시스템 설치 또는 쉘프 핫 애드인의 일부로 설치한 경우, 드라이브 패키징 자료를 저장한 경우, 드라이브를 이동하기 전에 이를 사용하여 드라이브를 다시 패키지하십시오.</block>
+  <block id="ba70aeebfd3549f6f01e998eb6dd6e28" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="a8e3f4b75381b375e7ce8abf385604f8" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
+  <block id="4919d15b1a0ddd0c55a729c741fd5005" category="sidebar">온보드 스토리지를 사용한 AFF 및 FAS 플랫폼 케이블 연결 워크시트 및 예</block>
 </blocks>

@@ -69,18 +69,8 @@ entries:
     pdf-filename: AFF A700s 드라이브
     url: "/a700s/drive-replace.html"
   - title: 팬
-    entries:
-    - title: 손상된 노드를 종료합니다
-      url: "/a700s/fan-impaired-controller-shutdown.html"
-    - title: 컨트롤러 모듈을 분리합니다
-      url: "/a700s/fan-controller-remove.html"
-    - title: 팬
-      pdf-filename: AFF A700s 팬
-      url: "/a700s/fan-replace.html"
-    - title: 컨트롤러 모듈을 다시 설치합니다
-      url: "/a700s/fan-controller-reinstall-pcie-rtc.html"
-    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
-      url: "/a700s/fan-complete-rma.html"
+    pdf-filename: AFF A700s 팬
+    url: "/a700s/fan-replace.html"
   - title: NVRAM 배터리
     pdf-filename: AFF A700s NVRAM 배터리
     url: "/a700s/nvmem-nvram-battery-replace.html"
