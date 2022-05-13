@@ -30,13 +30,13 @@ indexpage:
     - title: 컨트롤러 모듈
       url: "/controller-replace-overview.html"
     - title: 팬
-      url: "/fan-replace.html"
+      url: "/fan-swap-out.html"
     - title: NV 배터리
       url: "/nvmem-nvram-battery-replace.html"
     - title: PCIe 카드
       url: "/pci-cards-and-risers-replace.html"
     - title: 전원 공급 장치
-      url: "/power-supply-swapout.html"
+      url: "/power-supply-swap-out.html"
     - title: 시스템 DIMM
       url: "/dimm-replace.html"
     - title: RTC 배터리

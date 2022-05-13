@@ -8632,4 +8632,5 @@
   <block id="ba70aeebfd3549f6f01e998eb6dd6e28" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="a8e3f4b75381b375e7ce8abf385604f8" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="4919d15b1a0ddd0c55a729c741fd5005" category="sidebar">온보드 스토리지를 사용한 AFF 및 FAS 플랫폼 케이블 연결 워크시트 및 예</block>
   <block id="9285e5d96d62653cbfc04067e2de249c" category="list-text"><block ref="9285e5d96d62653cbfc04067e2de249c" category="inline-link-macro-rx"></block></block>
+  <block id="cff7366c4191a9dd1698e3fd38e5acaf" category="sidebar">NVRAM 모듈 또는 NVRAM DIMM</block>
 </blocks>

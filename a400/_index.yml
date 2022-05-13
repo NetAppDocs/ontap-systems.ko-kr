@@ -28,15 +28,15 @@ indexpage:
     - title: DIMM
       url: "/dimm-replace.html"
     - title: 팬
-      url: "/fan-replace.html"
+      url: "/fan-swap-out.html"
     - title: NVDIMM
       url: "/nvdimm-replace.html"
     - title: NVDIMM 배터리
-      url: "/nvmem-nvram-battery-replace.html"
+      url: "/nvdimm-battery-replace.html"
     - title: PCIe 또는 메자닌 카드
       url: "/pci-cards-and-risers-replace.html"
     - title: 전원 공급 장치
-      url: "/power-supply-swapout.html"
+      url: "/power-supply-replace.html"
     - title: RTC 배터리
       url: "/rtc-battery-replace.html"
   - title: 쉘프를 추가하거나 제거합니다

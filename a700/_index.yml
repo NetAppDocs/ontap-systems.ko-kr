@@ -24,33 +24,33 @@ indexpage:
   - title: 유지 관리
     links:
     - title: 미디어를 부팅합니다
-      url: "/bootmedia-replace-overview.html"
+      url: "../fas9000/bootmedia-replace-overview.html"
     - title: 캐싱 또는 코어 덤프 모듈
-      url: "/caching-module-and-core-dump-module-replace.html"
+      url: "../fas9000/caching-module-and-core-dump-module-replace.html"
     - title: 캐싱 모듈(핫 스왑)
-      url: "/caching-module-hot-swap.html"
+      url: "../fas9000/caching-module-hot-swap.html"
     - title: 섀시
-      url: "/chassis-replace-overview.html"
+      url: "../fas9000/chassis-replace-overview.html"
     - title: 컨트롤러 모듈
-      url: "/controller-replace-overview.html"
+      url: "../fas9000/controller-replace-overview.html"
     - title: DCPM(NVRAM10 배터리 포함)
-      url: "/dcpm-nvram10-battery-replace.html"
+      url: "../fas9000/dcpm-nvram10-battery-replace.html"
     - title: DIMM
-      url: "/dimm-replace.html"
+      url: "../fas9000/dimm-replace.html"
     - title: 팬
-      url: "/fan-replace.html"
+      url: "../fas9000/fan-swap-out.html"
     - title: 입출력 모듈
-      url: "/pci-cards-and-risers-replace.html"
+      url: "../fas9000/pci-cards-and-risers-replace.html"
     - title: LED USB 모듈
-      url: "/led-module-replace.html"
-    - title: NVRAM 모듈 및/또는 NVRAM DIMM
-      url: "/nvram-module-or-nvram-dimm-replacement.html"
+      url: "../fas9000/led-module-replace.html"
+    - title: NVRAM 모듈 또는 NVRAM DIMM
+      url: "../fas9000/nvram-module-or-nvram-dimm-replacement.html"
     - title: 전원 공급 장치
-      url: "/power-supply-swap-out.html"
+      url: "../fas9000/power-supply-swap-out.html"
     - title: RTC 배터리
-      url: "/rtc-battery-replace.html"
+      url: "../fas9000/rtc-battery-replace.html"
     - title: X91148A 모듈
-      url: "/x91148a-module-install-overview.html"
+      url: "../fas9000/x91148a-module-install-overview.html"
   - title: 쉘프를 추가하거나 제거합니다
     links:
     - title: NS224

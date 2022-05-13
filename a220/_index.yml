@@ -22,21 +22,21 @@ indexpage:
   - title: 유지 관리
     links:
     - title: 미디어를 부팅합니다
-      url: "/bootmedia-replace-overview.html"
+      url: "../fas2700/bootmedia-replace-overview.html"
     - title: 캐싱 모듈
-      url: "/caching-module-replace.html"
+      url: "../fas2700/caching-module-replace.html"
     - title: 섀시
-      url: "/chassis-replace-overview.html"
+      url: "../fas2700/chassis-replace-overview.html"
     - title: 컨트롤러 모듈
-      url: "/controller-replace-overview.html"
+      url: "../fas2700/controller-replace-overview.html"
     - title: DIMM
-      url: "/dimm-replace.html"
+      url: "../fas2700/dimm-replace.html"
     - title: NVMEM 배터리
-      url: "/nvmem-battery-replace.html"
+      url: "../fas2700/nvram-nvmem-battery-replace.html"
     - title: 전원 공급 장치
-      url: "/power-supply-swapout.html"
+      url: "../fas2700/power-supply-swap-out.html"
     - title: RTC 배터리
-      url: "/rtc-battery-replace.html"
+      url: "../fas2700/rtc-battery-replace.html"
   - title: 학습
     links:
     - title: 내장 디스크 드라이브 비디오 교체
