@@ -39,8 +39,6 @@ indexpage:
       url: "/service-hot-swap-power-supply.html"
     - title: 쉘프 LED 상태 조건
       url: "/service-monitor-leds.html"
-    - title: RTC 배터리
-      url: "/sas3/service-replace-rtc-battery.html"
   - title: 더 많은 리소스
     links:
     - title: ONTAP 설명서
