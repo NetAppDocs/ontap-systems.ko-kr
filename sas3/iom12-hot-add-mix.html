@@ -6099,7 +6099,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 13:18:53 +0000">04/13/2022</time>
+    <time datetime="2022-05-27 17:39:59 +0000">05/27/2022</time>
     
   
 
@@ -6533,22 +6533,22 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <p>디스크 쉘프를 쉽고 빠르게 조작하려면 전원 공급 장치 및 I/O 모듈(IOM)을 제거하십시오.</p>
 </div>
 <div class="paragraph">
-<p>DS460C 디스크 쉘프의 경우 디스크 쉘프와 함께 제공되는 4개의 착탈식 핸들을 사용할 수도 있습니다. 손잡이(섀시 양쪽에 2개씩)는 딸깍 소리가 날 때까지 밀어 넣어 설치합니다. 디스크 쉘프를 레일에 밀어 넣을 때 엄지 래치를 사용하여 손잡이를 분리합니다.</p>
+<p>DS460C 디스크 쉘프의 경우, 드라이브는 별도로 패키징되어 쉘프를 가볍게 만들지만 빈 DS460C 쉘프의 무게는 약 60kg(132lb)이므로 쉘프를 이동할 때는 다음과 같이 주의해야 합니다.</p>
 </div>
-<div class="paragraph">
-<p>완전히 로드된 DS460C 디스크 쉘프를 이동할 경우 기계식 호이스트 또는 리프트를 사용하는 것이 좋습니다.</p>
-</div>
-<div class="admonitionblock note">
+<div class="admonitionblock caution">
 <table>
 <tr>
 <td class="icon">
-<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
+<img src="/us-en/ontap-systems/images/caution.svg" alt="주의">
 </td>
 <td class="content">
-완전히 로드된 DS460C 디스크 선반의 무게는 112 kg(247 lbs)입니다.
+기계화된 리프트를 사용하거나 리프트 핸들을 사용하여 빈 DS460C 쉘프를 안전하게 이동하는 4명을 사용하는 것이 좋습니다.
 </td>
 </tr>
 </table>
+</div>
+<div class="paragraph">
+<p>DS460C 배송에는 4개의 착탈식 리프트 핸들(각 측면에 2개)이 포함되어 있습니다. 리프트 핸들을 사용하려면 손잡이 탭을 선반 측면에 있는 슬롯에 삽입하고 딸깍 소리가 날 때까지 위로 밀어 올려서 설치합니다. 그런 다음 디스크 쉘프를 레일 위로 밀어 넣을 때 엄지 래치를 사용하여 한 번에 하나의 핸들 세트를 분리합니다. 다음 그림에서는 리프트 핸들을 부착하는 방법을 보여 줍니다.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -6557,35 +6557,70 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 </div>
 </li>
 <li>
-<p>DS460C 디스크 쉘프를 설치하는 경우 랙 장착 디스크 쉘프에 구성 요소를 설치합니다. 그렇지 않으면 다음 단계로 이동합니다.</p>
+<p>디스크 쉘프를 랙에 설치하기 전에 분리한 전원 공급 장치 및 IOM을 모두 다시 설치합니다.</p>
+</li>
+<li>
+<p>DS460C 디스크 쉘프를 설치하는 경우 드라이브 드로어에 드라이브를 설치하고, 그렇지 않으면 다음 단계로 이동합니다.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
+</td>
+<td class="content">
 <div class="paragraph">
-<p>모든 드라이브 슬롯에 드라이브가 없는 부분적으로 채워진 디스크 쉘프를 구입한 경우, 다음을 확인해야 합니다.</p>
+<p>정전기 방전을 방지하려면 항상 보관 인클로저 섀시의 도색되지 않은 표면에 접지된 ESD 손목 접지대를 착용하십시오.</p>
+</div>
+<div class="paragraph">
+<p>손목 스트랩을 사용할 수 없는 경우 디스크 드라이브를 다루기 전에 스토리지 인클로저 섀시의 색칠되지 않은 표면을 만지십시오.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>부분적으로 채워진 쉘프를 구입한 경우, 즉 쉘프에 지원하는 드라이브 수가 60개 미만인 경우 각 드로어에 다음을 따라 드라이브를 설치합니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>처음 4개의 슬롯(0, 3, 6, 9)이 각 드로어에 사용되고 있습니다.</p>
-<div class="paragraph">
-<p>이렇게 하면 디스크 쉘프의 적절한 공기 흐름이 보장됩니다.</p>
+<p>처음 4개의 드라이브를 전면 슬롯(0, 3, 6, 9)에 설치합니다.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
+</td>
+<td class="content">
+* 장비 오작동 위험: * 공기 흐름이 원활하도록 하고 과열을 방지하려면 항상 처음 4개의 드라이브를 전면 슬롯(0, 3, 6, 9)에 설치하십시오.
+</td>
+</tr>
+</table>
 </div>
 </li>
 <li>
-<p>드라이브 수가 30개인 쉘프의 경우 나머지 10개 드라이브는 각 드로어의 슬롯 1과 10에 균등하게 분산됩니다.</p>
+<p>나머지 드라이브의 경우 각 드로어에 균등하게 분배합니다.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
 <div class="paragraph">
-<p>다음 그림에서는 쉘프 내의 각 드라이브 드로어에서 드라이브 번호가 0에서 11로 지정되는 방식을 보여 줍니다. 슬롯 0, 3, 6, 9 및 30개의 드라이브가 포함된 쉘프에 각 드로어의 슬롯 1 및 10에 드라이브가 포함되어야 합니다.</p>
+<p>다음 그림에서는 쉘프 내의 각 드라이브 드로어에서 드라이브 번호가 0에서 11로 지정되는 방식을 보여 줍니다.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="../media/dwg_trafford_drawer_with_hdds_callouts.gif" alt="HDD 속성 표시기가 있는 DWG Trafford 서랍">
 </div>
 </div>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>디스크 쉘프를 랙에 설치하기 전에 분리한 전원 공급 장치 및 IOM을 모두 다시 설치합니다.</p>
-</li>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>선반의 상단 서랍을 엽니다.</p>
+</li>
+<li>
+<p>ESD 가방에서 드라이브를 꺼냅니다.</p>
 </li>
 <li>
 <p>드라이브의 캠 핸들을 수직으로 올립니다.</p>
@@ -6597,29 +6632,19 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <img src="../media/28_dwg_e2860_de460c_drive_cru.gif" alt="28 DWG e2860 de460c 드라이브 CRU">
 </div>
 </div>
-</li>
-</ol>
-</div>
-</li>
-</ul>
-</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 100%;">
+<col style="width: 10%;">
+<col style="width: 90%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="image"><img src="../media/legend_icon_01.png" alt=""></span></p>
-</div></div></td>
-</tr>
-<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="../media/legend_icon_01.png" alt=""></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">드라이브 캐리어 오른쪽에 있는 위로 단추</p></td>
 </tr>
 </tbody>
 </table>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+</li>
 <li>
 <p>드라이브를 수직으로 내린 다음 드라이브가 주황색 분리 래치 아래에 고정될 때까지 캠 핸들을 아래로 돌립니다.</p>
 </li>
@@ -6663,49 +6688,45 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 </li>
 <li>
 <p>디스크 쉘프의 각 드로어에 대해 이 단계를 반복합니다.</p>
-</li>
-</ol>
-</div>
-</li>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
 <li>
 <p>디스크 쉘프를 여러 개 추가하는 경우, 설치하려는 각 디스크 쉘프에 대해 이전 단계를 반복합니다.</p>
 </li>
 <li>
 <p>각 디스크 쉘프의 전원 공급 장치를 연결합니다.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+</li>
+</ol>
+</div>
+</li>
 <li>
 <p>전원 코드를 먼저 디스크 선반에 연결한 다음 전원 코드 고정쇠로 전원 코드를 제자리에 고정하고 복원력을 위해 전원 코드를 다른 전원에 연결합니다.</p>
 </li>
 <li>
 <p>각 디스크 쉘프의 전원 공급 장치를 켜고 디스크 드라이브가 회전할 때까지 기다립니다.</p>
-</li>
-</ol>
-</div>
-</li>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
 <li>
 <p>HA 쌍 또는 단일 컨트롤러 구성 내에서 고유한 ID에 핫 추가할 각 쉘프의 쉘프 ID를 설정합니다.</p>
 <div class="paragraph">
 <p>유효한 쉘프 ID는 00부터 99까지입니다. IOM6 쉘프가 더 낮은 번호(1-9)를 사용하고 IOM12 쉘프가 더 높은 번호(10 이상)를 사용하도록 쉘프 ID를 설정하는 것이 좋습니다.</p>
 </div>
+</li>
+</ol>
+</div>
 <div class="paragraph">
 <p>온보드 스토리지가 있는 플랫폼 모델을 사용하는 경우 쉘프 ID는 내부 쉘프와 외부 연결 쉘프 전체에서 고유해야 합니다. 내부 쉘프를 0으로 설정하는 것이 좋습니다. MetroCluster IP 구성에서는 외부 쉘프 이름만 적용되므로 쉘프 이름은 고유하지 않아도 됩니다.</p>
 </div>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+</li>
 <li>
 <p>필요한 경우 Active IQ Config Advisor를 실행하여 이미 사용 중인 쉘프 ID를 확인하십시오.</p>
 <div class="paragraph">
 <p><a href="https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor">"NetApp 다운로드: Config Advisor"</a></p>
 </div>
-</li>
-</ol>
-</div>
 <div class="paragraph">
 <p>또한 'storage shelf show-fields shelf-id' 명령을 실행하여 시스템에 이미 사용 중인(있는 경우 중복) 쉘프 ID 목록을 볼 수 있습니다.</p>
 </div>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+</li>
 <li>
 <p>왼쪽 끝 캡 뒤의 쉘프 ID 버튼에 액세스합니다.</p>
 </li>
@@ -6729,9 +6750,6 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 </li>
 <li>
 <p>핫 추가할 각 쉘프에 대해 b-g 하위 단계를 반복합니다.</p>
-</li>
-</ol>
-</div>
 </li>
 </ol>
 </div>
@@ -6857,6 +6875,18 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </li>
 <li>
 <p>IOM12 쉘프가 핫추가 중인 경우, IOM6 스택에 추가되는 첫 번째 IOM12 셸프입니다. 즉, IOM6 쉘프 스택에는 다른 IOM12 쉘프가 없으므로 해당 하위 단계를 완료하십시오.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
+</td>
+<td class="content">
+케이블을 분리한 후 다시 연결하고 다른 케이블을 교체할 때는 70초 이상 기다려야 합니다.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>그렇지 않으면 3단계로 이동합니다.</p>
 </div>
@@ -6997,6 +7027,18 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </li>
 <li>
 <p>기존 혼합 스택에 IOM12 셸프가 추가된 경우(하나 이상의 IOM12 셸프가 스택에 이미 존재하는 경우) 해당 하위 단계를 완료합니다.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
+</td>
+<td class="content">
+케이블을 분리한 후 다시 연결하는 데 70초 이상 기다려야 하며, 케이블을 더 오래 교체할 경우
+</td>
+</tr>
+</table>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">

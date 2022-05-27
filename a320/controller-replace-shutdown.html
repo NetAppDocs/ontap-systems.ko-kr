@@ -6099,24 +6099,14 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-06 14:27:07 +0000">05/06/2022</time>
+    <time datetime="2022-05-27 17:39:59 +0000">05/27/2022</time>
     
   
 
 
 </p>
 
-<div id="preamble">
-<div class="sectionbody">
 <div class="paragraph lead">
-<p>구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="옵션-1-대부분의-구성">옵션 1: 대부분의 구성</h2>
-<div class="sectionbody">
-<div class="paragraph">
 <p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
 </div>
 <div class="ulist">
@@ -6199,96 +6189,6 @@
 </table>
 </li>
 </ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="옵션-2-컨트롤러가-metrocluster에-있습니다">옵션 2: 컨트롤러가 MetroCluster에 있습니다</h2>
-<div class="sectionbody">
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
-</td>
-<td class="content">
-시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <a href="https://docs.netapp.com/us-en/ontap/system-admin/index.html" target="_blank" rel="noopener">"CLI를 사용한 관리 개요"</a>.</p>
-</li>
-<li>
-<p>MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">단계</div>
-<ol class="arabic">
-<li>
-<p>AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</p>
-<div class="paragraph">
-<p>다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * &gt; system node AutoSupport invoke - node * -type all-message MAINT=2h'</p>
-</div>
-</li>
-<li>
-<p>정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false&#8217;를 자동으로 반환합니다</p>
-</li>
-<li>
-<p>손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</p>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 66.6667%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">손상된 컨트롤러가 표시되는 경우&#8230;&#8203;</th>
-<th class="tableblock halign-left valign-top">그러면&#8230;&#8203;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>LOADER 메시지가 표시됩니다</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>컨트롤러 모듈 제거 로 이동합니다.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>반환 대기 중&#8230;&#8203;</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다</p>
-</div>
-<div class="paragraph">
-<p>손상된 컨트롤러에 기브백을 기다리는 중&#8230;&#8203; 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-</div>
-</div>
 </div>
 
     </article>
