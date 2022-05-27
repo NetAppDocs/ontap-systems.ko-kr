@@ -1193,16 +1193,7 @@
   <block id="485915b2618f6e44eeb59fb1a237eb08" category="paragraph">디스크 쉘프를 Telco 유형 랙에 플랜지 설치하지 마십시오. 디스크 쉘프의 무게는 자체 중량 때문에 랙에서 붕괴될 수 있습니다.</block>
   <block id="f7ec6f03d48ba0d482840bec340da0cf" category="list-text">키트와 함께 제공된 설치 안내물을 사용하여 디스크 쉘프를 지원 브래킷 및 랙에 설치하고 고정합니다.</block>
   <block id="fa4c9ef92b72a4afda4eb5a196eecc3f" category="paragraph">디스크 쉘프를 쉽고 빠르게 조작하려면 전원 공급 장치 및 I/O 모듈(IOM)을 제거하십시오.</block>
-  <block id="6c3e7eebf0d82be7ff1f926b348de584" category="paragraph">DS460C 디스크 쉘프의 경우 디스크 쉘프와 함께 제공되는 4개의 착탈식 핸들을 사용할 수도 있습니다. 손잡이(섀시 양쪽에 2개씩)는 딸깍 소리가 날 때까지 밀어 넣어 설치합니다. 디스크 쉘프를 레일에 밀어 넣을 때 엄지 래치를 사용하여 손잡이를 분리합니다.</block>
-  <block id="3d4236fe344d3a92a8695db10ccb5072" category="paragraph">완전히 로드된 DS460C 디스크 쉘프를 이동할 경우 기계식 호이스트 또는 리프트를 사용하는 것이 좋습니다.</block>
-  <block id="a5e5379fb06ced70dc284e6acb2cdcee" category="admonition">완전히 로드된 DS460C 디스크 선반의 무게는 112 kg(247 lbs)입니다.</block>
   <block id="2794022ceac3fcd7a5363d665e5359a5" category="image-alt">drw ds460c 핸들</block>
-  <block id="6af8ffd92d343a1b0d2759bc6fc5ae7e" category="list-text">DS460C 디스크 쉘프를 설치하는 경우 랙 장착 디스크 쉘프에 구성 요소를 설치합니다. 그렇지 않으면 다음 단계로 이동합니다.</block>
-  <block id="3f5bbce38720364dafaa1c4e291566a6" category="paragraph">모든 드라이브 슬롯에 드라이브가 없는 부분적으로 채워진 디스크 쉘프를 구입한 경우, 다음을 확인해야 합니다.</block>
-  <block id="8c298229e7eae71bf34cd42839641cb1" category="list-text">처음 4개의 슬롯(0, 3, 6, 9)이 각 드로어에 사용되고 있습니다.</block>
-  <block id="cf6acee577d7cefcf79dd4e1b561dbe6" category="paragraph">이렇게 하면 디스크 쉘프의 적절한 공기 흐름이 보장됩니다.</block>
-  <block id="e685698b3cc7edc0edbcb6b4f0acca4b" category="list-text">드라이브 수가 30개인 쉘프의 경우 나머지 10개 드라이브는 각 드로어의 슬롯 1과 10에 균등하게 분산됩니다.</block>
-  <block id="7ecce0af07cdd6bc780ac358240cc0a4" category="paragraph">다음 그림에서는 쉘프 내의 각 드라이브 드로어에서 드라이브 번호가 0에서 11로 지정되는 방식을 보여 줍니다. 슬롯 0, 3, 6, 9 및 30개의 드라이브가 포함된 쉘프에 각 드로어의 슬롯 1 및 10에 드라이브가 포함되어야 합니다.</block>
   <block id="82edbae4acf5762cfee69aaa6facde11" category="image-alt">HDD 속성 표시기가 있는 DWG Trafford 서랍</block>
   <block id="451345ca48e949ee2fe424e0fc68ce3d" category="list-text">디스크 쉘프를 랙에 설치하기 전에 분리한 전원 공급 장치 및 IOM을 모두 다시 설치합니다.</block>
   <block id="07f7351fb2334783d3087885957e5f5e" category="list-text">선반의 상단 서랍을 엽니다.</block>
@@ -6018,7 +6009,6 @@
   <block id="9abc3ad77a4002fd491b39b23515a992" category="doc">복원 및 교체 프로세스(AFF A250)를 완료합니다</block>
   <block id="d79b377e4ffb63d9f7bc2cd5de1e04de" category="doc">손상된 컨트롤러 모듈 AFF A250을 종료합니다</block>
   <block id="d341e954ddede02e8d2c553ecfba224a" category="paragraph">각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.</block>
-  <block id="971840ecd85a736d5b833bc352989a07" category="list-text">MetroCluster 구성이 있는 경우 MetroCluster 구성 상태가 구성되어 있고 노드가 설정 및 정상 상태(MetroCluster node show)인지 확인해야 합니다.</block>
   <block id="8ccd613e52111dc677242b19a2aa7a2e" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.</block>
   <block id="ec7e85334c776a46034b2a858d884799" category="cell">배터리 하우징에서 탭을 천천히 당겨 빼냅니다. 참고: 이 탭을 적극적으로 당겨 빼내면 탭이 대체할 수 있습니다.</block>
   <block id="a81df2e570dc98493762bda80de1eb57" category="paragraph">배터리를 들어올립니다.</block>
@@ -6062,8 +6052,6 @@
   <block id="7688f98e234548d9c9eb8a47a54131fc" category="paragraph"><block ref="7688f98e234548d9c9eb8a47a54131fc" category="inline-link-rx"></block></block>
   <block id="a7457ab9f25a3df58d992d0436ce1834" category="doc">DIMM-FAS500f를 교체합니다</block>
   <block id="d7e9bb71d12c55787c7f0839a67057f4" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 DIMM을 교체할 수 있습니다.</block>
-  <block id="6407763c1d2de6600133ab1f5d7bc94f" category="inline-link">ONTAP 9 NetApp 암호화 기능 콘텐츠</block>
-  <block id="b70ce74f678772eec8ed950c996578d8" category="paragraph"><block ref="b70ce74f678772eec8ed950c996578d8" category="inline-link-rx"></block></block>
   <block id="6730578f02ba32c4ccfb1acc3e8ab367" category="doc">복원 및 교체 프로세스 완료 - FAS500f</block>
   <block id="616af20769d44e43520152460f655603" category="doc">하드웨어 이동 및 교체 - FAS500f</block>
   <block id="7c323e2eb49745018682c538529f7337" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 섀시를 교체할 수 있습니다. 여기서는 베젤을 분리하고 교체하는 것으로 가정합니다.</block>
@@ -7962,7 +7950,6 @@
   <block id="96f3065963946bf7d4b37f70901cd2c8" category="paragraph">+를 적극적으로 누르면 배터리가 다시 배출될 수 있습니다.</block>
   <block id="f05dc6ae866c89472a3f7a9b59aa3e6a" category="list-text">1 자기 드라이버를 사용하여 부트 미디어에 나사를 넣고 조이십시오.</block>
   <block id="aeafe9c2b3703d604c28ef5d13c03f76" category="list-text">1 자기 드라이버를 사용하여 교체용 컨트롤러 모듈 및 메자닌 카드의 전면에 있는 나사를 넣고 조입니다.</block>
-  <block id="4a2546eb9c2e57bf15ddf11202689d7c" category="section-title">옵션 2: MetroCluster의 시스템</block>
   <block id="860b30584f1b729efd2b58d01580a92c" category="paragraph">NVMEM 배터리를 교체하려면 컨트롤러 모듈에서 장애가 발생한 배터리를 제거하고 컨트롤러 모듈에 교체 배터리를 설치해야 합니다.</block>
   <block id="600a73fcb93eb875646134b90ac7d911" category="paragraph">메자닌 카드를 교체하려면 손상된 카드를 제거하고 교체 카드를 설치해야 합니다. 메자닌 카드를 설치하려면 면판을 분리하고 새 카드를 설치해야 합니다.</block>
   <block id="4177f2df9ae71084d9883a0423cc68d0" category="list-text">1 자기 드라이버를 사용하여 손상된 메자닌 카드의 나사를 풉니다.</block>
@@ -8553,7 +8540,6 @@
   <block id="e62f199edf5ce700e5ae74c377f48585" category="sidebar">모든 SAN 어레이 시스템</block>
   <block id="c4565f27e7eb1d0640e258fb796df9c4" category="list-text">시스템 케이블 및 트랜시버 모듈을 컨트롤러 모듈에 연결하고 케이블 관리 장치를 다시 설치합니다.</block>
   <block id="6c35991313f21e9038f629e9e809488a" category="admonition">PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항상 Like를 사용합니다.</block>
-  <block id="0fbe0630286ce5debeb3d11174988b34" category="open-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
   <block id="6bec966647e1b9c8a03ddd277c8fe864" category="inline-link">부품 반품 및 앰프, 교체</block>
   <block id="822bec4a0db0c5fd17b5f05b4e1c0335" category="paragraph">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오<block ref="4fc2cab5a4eb2f6a408378b0d596ae42" category="inline-link-rx"></block> 페이지를 참조하십시오.</block>
   <block id="e188406fb2d6108447e3bc6cb9155625" category="inline-link-macro">온보드 스토리지가 있는 AFF 및 FAS 플랫폼</block>
@@ -8626,17 +8612,14 @@
   <block id="04e527203c5db793872f9a09c2541063" category="list-text">하위 단계 A에서 제거한 케이블을 핫 추가할 디스크 쉘프의 IOM A에 있는 동일한 포트에 다시 연결합니다. 그렇지 않으면 다음 하위 단계로 이동합니다.</block>
   <block id="e62a559839495c7e61b9ce5a088b786c" category="doc">DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12 모듈로 교체합니다</block>
   <block id="585248eeaa0c7aa335cb47a05c525433" category="image-alt">HDD가 있는 92 DWG de6600 서랍(속성 표시기 없음</block>
-  <block id="c8c22257eb9d1c1c2a60aad49bd446f7" category="list-text">영구 마커</block>
   <block id="2e3d3f0aa5e64af89c170da27ccf0cb2" category="section-title">케이블 체인 제거</block>
   <block id="bbbd51c2b3c60d5e9becdcf09d29b105" category="section-title">드라이브 드로어 분리</block>
-  <block id="335dce1d41f6ceb784ef37e86cc55836" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고, 드라이브 위치를 기록하고, 드라이브를 제거하고, 드라이브 드로어를 제거해야 합니다.</block>
-  <block id="8ef71e80ff9b1b842baf4030f316fb11" category="list-text">드로어에서 드라이브를 제거할 때 각 드라이브의 정확한 위치를 확인할 수 있는 영구 마커를 확보했습니다.</block>
-  <block id="152621a29ef9446b42880cb317783a76" category="list-text">LUN(Logical Unit Number)이 이미 생성되어 할당된 경우 영구 마커를 사용하여 각 드라이브의 정확한 위치를 확인합니다. 예를 들어, 다음 도면을 참조로 사용하여 각 드라이브 상단에 적절한 슬롯 번호를 기록합니다.</block>
-  <block id="7d2466032b15e1b1adb1ac2c562eda3b" category="admonition">* 데이터 액세스 손실 가능성: * 각 드라이브를 제거하기 전에 정확한 위치를 기록해 두십시오.</block>
   <block id="fe8265ac3d0f9c648e57474b40e2e5d8" category="section-title">드라이브 드로어 설치</block>
-  <block id="00a6e09fe995a9431b12ec0b25d1e616" category="list-text">각 드라이브의 설치 위치를 알 수 있습니다.</block>
-  <block id="844dfe4267fa67e9f6790c353bfd5146" category="list-text">드라이브를 제거할 때 작성한 노트를 사용하여 각 슬롯에 설치할 드라이브를 확인합니다.</block>
-  <block id="eaae88ce87aad975b7d2ee116355a25d" category="admonition">* 데이터 액세스 손실 가능성: * 각 드라이브를 드라이브 드로어의 원래 위치에 설치해야 합니다.</block>
-  <block id="bb9b26a61fb91f1d47a271d0ed32a967" category="list-text">드라이브의 핸들을 수직으로 올립니다.</block>
   <block id="2731a32bd20082112cb21bea67097d21" category="section-title">케이블 체인 부착</block>
+  <block id="b3e40f87c203ef282d4d64a42d869542" category="open-title">옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
+  <block id="2cb6637a5fdf450f80c9f19b8c718a47" category="admonition">케이블을 분리한 후 다시 연결하고 다른 케이블을 교체할 때는 70초 이상 기다려야 합니다.</block>
+  <block id="17c343da5115d1e0b01e0d9fab1f9d4e" category="paragraph">+ 손목 스트랩을 사용할 수 없는 경우 디스크 드라이브를 다루기 전에 스토리지 인클로저 섀시의 색칠되지 않은 표면을 만지십시오.</block>
+  <block id="8456c08b8772c6458de93a0a78ff4f85" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고 드라이브를 제거한 다음 드라이브 드로어를 제거해야 합니다.</block>
+  <block id="40cfdd2fa544c18fef836a58df7bb2e9" category="list-text">설치할 드라이브에서 핸들을 수직으로 들어 올립니다.</block>
+  <block id="2560c526c9d334c39cab4311db7eff4d" category="paragraph">부분적으로 채워진 쉘프가 있는 경우, 다시 설치할 드라이브 서랍에 지원되는 12개 드라이브 미만의 드라이브가 있는 경우, 처음 4개 드라이브를 전면 슬롯(0, 3, 6 및 9)에 설치하십시오.</block>
 </blocks>
