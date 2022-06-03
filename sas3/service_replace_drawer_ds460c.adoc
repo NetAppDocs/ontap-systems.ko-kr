@@ -1,7 +1,7 @@
 ---
 permalink: sas3/service-replace-drawer-ds460c.html 
 sidebar: sidebar 
-keywords: stop, all, host, i/o activity, power, off, shelf, replacing, replace, drive, drawer, disk, replace a drive drawer in a ds460c disk shelf 
+keywords: i/o activity, power, off, shelf, replacing, replace, drive, drawer, disk, replace a drive drawer in a ds460c disk shelf 
 summary: 드라이브 드로어를 교체하기 전에 모든 호스트 I/O 활동을 중지하고 쉘프의 전원을 꺼야 합니다. 
 ---
 = DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12 모듈로 교체합니다
@@ -322,9 +322,9 @@ NOTE: * 장비 오작동 위험: * 공기 흐름이 원활하도록 하고 과�
 +
 image::../media/92_dwg_de6600_install_or_remove_drive.gif[92 DWG de6600 드라이브를 설치하거나 제거합니다]
 
+.. 이 하위 단계를 반복하여 모든 드라이브를 재설치합니다.
 
 
-. 이 하위 단계를 반복하여 모든 드라이브를 재설치합니다.
 . 드로어를 중앙에서 밀어 드라이브 쉘프로 다시 밀어 넣은 후 두 레버를 닫습니다.
 +
 
