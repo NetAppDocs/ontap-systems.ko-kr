@@ -54,11 +54,11 @@ NOTE: 필요한 새 라이센스 키는 자동으로 생성되어 파일의 이�
 이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.
 
 .단계
-. 에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"].
+. 에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"^].
 . 온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
 +
-** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html["온보드 키 관리 암호화 키를 복원합니다"]
-** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html["외부 키 관리 암호화 키를 복원합니다"]
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html["온보드 키 관리 암호화 키를 복원합니다"^]
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html["외부 키 관리 암호화 키를 복원합니다"^]
 
 
 

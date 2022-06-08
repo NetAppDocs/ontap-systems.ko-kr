@@ -1,0 +1,23 @@
+---
+permalink: fas9500/controller_replace.html 
+sidebar: sidebar 
+keywords: FAS9500, open controller, download service image to USB drive, transfer boot image, USB drive, service image 
+summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다. 
+---
+= 컨트롤러 모듈 하드웨어 FAS9500을 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러 모듈 하드웨어를 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.
+
+다음 애니메이션은 손상된 부품을 교체 컨트롤러로 이동하는 전체 과정을 보여줍니다.
+
+
+endif::[]
+
+endif::[]
+
+endif::[]

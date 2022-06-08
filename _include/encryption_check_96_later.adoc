@@ -48,7 +48,7 @@ NOTE: ONTAP 9.6 릴리스 후에는 추가 키 관리자 유형이 있을 수 �
 명령이 실패하면 NetApp Support에 문의하십시오.
 
 +
-http://mysupport.netapp.com/["mysupport.netapp.com"]
+http://mysupport.netapp.com/["mysupport.netapp.com"^]
 
 ... 모든 인증 키에 대해 복원된 열이 예(보안 키 관리자 키 쿼리)와 같은지 확인합니다
 ... 손상된 컨트롤러를 종료합니다.
@@ -59,7 +59,7 @@ http://mysupport.netapp.com/["mysupport.netapp.com"]
 ... Onboard security key-manager sync command:'security key-manager 온보딩 sync'를 입력한다
 +
 
-NOTE: 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오. http://mysupport.netapp.com/["mysupport.netapp.com"]
+NOTE: 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오. http://mysupport.netapp.com/["mysupport.netapp.com"^]
 
 ... 모든 인증 키에 대해 복원됨 열에 예(yes)가 표시되는지 확인합니다. 보안 키 관리자 키 쿼리(ecurity key-manager key-query)
 ... 키 관리자 유형에 온보드(Onboard)이 표시되는지 확인한 다음 OKM 정보를 수동으로 백업합니다.
@@ -105,7 +105,7 @@ NOTE: ONTAP 9.6 릴리스 후에는 추가 키 관리자 유형이 있을 수 �
 명령이 실패하면 NetApp Support에 문의하십시오.
 
 +
-http://mysupport.netapp.com/["mysupport.netapp.com"]
+http://mysupport.netapp.com/["mysupport.netapp.com"^]
 
 ... 모든 인증 키에 대해 복원된 열이 예(보안 키 관리자 키 쿼리)와 같은지 확인합니다
 ... 컨트롤러를 안전하게 종료할 수 있습니다.
@@ -118,7 +118,7 @@ http://mysupport.netapp.com/["mysupport.netapp.com"]
 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.
 
 +
-http://mysupport.netapp.com/["mysupport.netapp.com"]
+http://mysupport.netapp.com/["mysupport.netapp.com"^]
 
 ... 모든 인증 키에 대해 복원됨 열에 예(yes)가 표시되는지 확인합니다. 보안 키 관리자 키 쿼리(ecurity key-manager key-query)
 ... 키 관리자 유형에 온보드(Onboard)이 표시되는지 확인한 다음 OKM 정보를 수동으로 백업합니다.

@@ -1,0 +1,121 @@
+---
+permalink: fas9500/caching_module_hot_swap.html 
+sidebar: sidebar 
+keywords: aff a700, fas9000, hot swap, replace, FlashCache 
+summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS900 시스템의 슬롯 6에만 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
+---
+= 핫 스왑 A 캐싱 모듈 - FAS9500
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.
+
+
+NOTE: FlashCache 모듈을 콜드 스왑해야 하거나 콜드 스왑하려면 입출력 모듈을 교체하는 절차를 따르십시오.
+
+스토리지 시스템은 상황에 따라 특정 기준을 충족해야 합니다.
+
+* 설치하는 캐싱 모듈에 적합한 운영 체제가 있어야 합니다.
+* 캐시 모듈이 시스템에서 볼 수 있을 정도로 제대로 작동하고 있어야 합니다. 마지막 부팅 이후 캐시 모듈이 작동하지 않는 경우 이 절차를 사용할 수 없으며 콜드 스왑 절차를 사용해야 합니다.
+* 캐싱 용량을 지원해야 합니다.
+* 대체 캐싱 모듈의 용량은 실패한 캐싱 모듈과 동일해야 하지만 지원되는 다른 공급업체에서 제공하는 것이어야 합니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 슬롯 6에서 캐싱 모듈 전면에 있는 주황색 주의 LED를 통해 장애가 발생한 캐시 모듈을 찾습니다.
+. 다음과 같이 캐시 모듈 슬롯을 교체할 준비를 합니다.
++
+.. 타겟 노드에 캐싱 모듈 용량, 부품 번호 및 일련 번호를 기록합니다. 'system node run local sysconfig-AV 6'
+.. admin 권한 수준에서, target NVMe slot for removal, y를 준비하고, 계속할지 여부를 묻는 메시지가 표시되면 y를 응답한다. 'system controller slot module remove-node_name-slot slot_number' 다음 명령을 실행하면 node1의 슬롯 6-1이 제거되도록 준비되고 안전하게 제거할 수 있다는 메시지가 출력된다.
++
+[listing]
+----
+::> system controller slot module remove -node node1 -slot 6-1
+
+Warning: SSD module in slot 6-1 of the node node1 will be powered off for removal.
+Do you want to continue? (y|n): `y`
+
+The module has been successfully removed from service and powered off. It can now be safely removed.
+----
+.. 'system controller slot module show' 명령으로 slot 상태를 출력한다.
++
+NVMe slot status는 교체되어야 하는 caching module에 대한 화면 출력에 전원이 꺼진 상태로 표시됩니다.
+
+
+
++
+
+NOTE: 를 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.nav.cr/home.html["명령 man 페이지"^] 자세한 내용은 ONTAP 버전을 참조하십시오.
+
+. 캐싱 모듈을 제거합니다.
++
+image::../media/drw_9500_remove_flashcache.svg[drw 9500 FlashCache를 제거합니다]
+
++
+[cols="20%,80%"]
+|===
+
+
+ a| 
+image::../media/legend_icon_01.svg[범례 아이콘 01]
+ a| 
+테라 코타 해제 버튼.
+
+
+
+ a| 
+image::../media/legend_icon_02.svg[범례 아이콘 02]
+ a| 
+캐시 모듈 캠 핸들.
+
+|===
++
+.. 캐싱 모듈 앞면에 있는 테라코타 해제 단추를 누릅니다.
++
+
+NOTE: 번호가 매겨진 문자 I/O 캠 래치를 사용하여 캐싱 모듈을 꺼내지 마십시오. 번호가 매겨지고 문자 글자가 새겨진 I/O 캠 래치는 캐싱 모듈이 아닌 전체 NVRAM11 모듈을 배출합니다.
+
+.. 캐싱 모듈이 NVRAM11 모듈에서 빠져나올 때까지 캠 핸들을 돌립니다.
+.. 카메라 핸들을 사용자 쪽으로 똑바로 조심스럽게 당겨 NVRAM11 모듈에서 캐싱 모듈을 분리합니다.
++
+NVRAM11 모듈에서 캐싱 모듈을 제거하므로 반드시 지원해야 합니다.
+
+
+
+. 캐싱 모듈을 설치합니다.
++
+.. 캐싱 모듈의 가장자리를 NVRAM11 모듈의 입구에 맞춥니다.
+.. 캠 핸들이 맞물릴 때까지 캐싱 모듈을 베이에 부드럽게 밀어 넣습니다.
+.. 캠 핸들이 제자리에 고정될 때까지 돌립니다.
+
+
+. 다음과 같이 'system controller slot module insert' 명령어를 사용하여 교체 캐치모듈을 온라인으로 실행한다.
++
+다음 명령을 실행하면 노드 1의 슬롯 6-1에 전원이 켜질 준비가 되고 전원이 켜되었다는 메시지가 표시됩니다.
+
++
+[listing]
+----
+::> system controller slot module insert -node node1 -slot 6-1
+
+Warning: NVMe module in slot 6-1 of the node localhost will be powered on and initialized.
+Do you want to continue? (y|n): `y`
+
+The module has been successfully powered on, initialized and placed into service.
+----
+. 'system controller slot module show' 명령어를 사용하여 slot 상태를 확인한다.
++
+명령 출력에 에 대한 상태가 "전원 켜짐"으로 보고되고 작동 준비가 되었는지 확인합니다.
+
+. 교체 캐싱 모듈이 온라인 상태이고 인식되는지 확인한 다음 황색 주의 LED가 켜져 있지 않은지 확인하십시오. 'Sysconfig-AV slot_number
++
+
+NOTE: 캐싱 모듈을 다른 공급업체의 캐싱 모듈로 교체하는 경우 명령 출력에 새 공급업체 이름이 표시됩니다.
+
+. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"^] 페이지를 참조하십시오.
+

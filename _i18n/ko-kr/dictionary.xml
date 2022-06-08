@@ -334,7 +334,6 @@
   <block id="90e0a79f0dc5582ba3bb7a9b28936d5c" category="section-title">2단계: 저장소 및 볼륨 암호화 기능 복원</block>
   <block id="37b0fb827bbc179115abc1768c9c5f12" category="paragraph">이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.</block>
   <block id="518d2076bf387a28038f7558530bb987" category="inline-link">CLI를 통한 NetApp 암호화 개요</block>
-  <block id="a0ad8f5b8d13f1cd5ef039b68ed21700" category="paragraph">에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다<block ref="48a668c3219947c390bb7b4ff0fcb822" category="inline-link-rx"></block>.</block>
   <block id="e68c8836280fba147b04a2b14b196600" category="paragraph">온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.</block>
   <block id="0072b0fd9d430209e4485c4040bcaa19" category="section-title">3단계: LIF 확인 및 일련 번호 등록</block>
   <block id="556aba51608845a42e971c4c7b471837" category="paragraph">replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 설정된 경우 _replacement_node의 일련 번호를 등록하고, 자동 반환 기능을 재설정해야 합니다.</block>
@@ -689,7 +688,6 @@
   <block id="31509d9d2ecd7357c2d79b6100170edf" category="paragraph"><block ref="31509d9d2ecd7357c2d79b6100170edf" category="inline-link-rx"></block></block>
   <block id="09344dc6761d2a7f8e0074911899de26" category="list-text">키 관리자 유형에 '온보드'가 표시되고 '복원된' 열에 '예'가 아닌 다른 항목이 표시되는 경우:</block>
   <block id="f5321e091dead7c4ead8728aa3332803" category="list-text">Onboard security key-manager sync command:'security key-manager 온보딩 sync'를 입력한다</block>
-  <block id="29494bbea0c4b9c81b504ce3c9f0c776" category="admonition">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.<block ref="7bc6752d2076d2c755eaebbdfeb91d23" category="inline-link-rx"></block></block>
   <block id="b1dfba2b33907e87a5254267b34a3e32" category="list-text">키 관리자 유형에 온보드(Onboard)이 표시되는지 확인한 다음 OKM 정보를 수동으로 백업합니다.</block>
   <block id="5420f491e628cc60c7e1ffcad20d35da" category="list-text">명령을 입력하여 키 관리 백업 정보 '보안 키 관리자 온보드 show-backup'을 표시합니다</block>
   <block id="8eb91adaedfd18d8e21833ed58db7673" category="section-title">NSE 구성을 확인합니다</block>
@@ -7927,9 +7925,7 @@
   <block id="b36708a8226ddc48a16407516f32b6ae" category="paragraph">``스토리지 장애 조치 쇼’’</block>
   <block id="4cc5d765a3b2155ab803f6ce50c11747" category="paragraph">'storage failover show' 명령의 출력에는 'system ID changed on partner' 메시지가 포함되지 않아야 한다.</block>
   <block id="7b5b637cc082477a9dd4c129c225152e" category="inline-link">온보드 키 관리 암호화 키를 복원합니다</block>
-  <block id="bec1622a1f566276141766f76e4b1d70" category="list-text"><block ref="bec1622a1f566276141766f76e4b1d70" category="inline-link-rx"></block></block>
   <block id="1ee623098df2f7856a034824be882999" category="inline-link">외부 키 관리 암호화 키를 복원합니다</block>
-  <block id="e10bd7c646b5f37d42df52bab6df6c64" category="list-text"><block ref="e10bd7c646b5f37d42df52bab6df6c64" category="inline-link-rx"></block></block>
   <block id="3c737345883504ebe7f0075c2e20f47e" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 컨트롤러를 계속 종료합니다.</block>
   <block id="9b744d081289382cce38c59e4b6d3f76" category="list-text">클러스터의 모든 볼륨에 NVE가 사용되고 있는지 확인합니다. 'volume show-is-encrypted true'</block>
   <block id="7ab4c93a1ecb36778005e21c2d800f15" category="paragraph">출력에 표시되는 볼륨이 하나라도 있으면 NVE가 구성되어 NVE 구성을 확인해야 합니다. 나열된 볼륨이 없으면 NSE가 구성되어 있고 사용 중인지 확인합니다.</block>
@@ -8264,11 +8260,9 @@
   <block id="4c10c8d9f18f0c8ba6fc3ea32f7beee4" category="list-text">HA 구성을 사용하는 경우 두 번째 컨트롤러에서 이전 단계를 반복합니다.</block>
   <block id="6d21dbcd6d30fc2426dd0b077d719da5" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
   <block id="d1614290531967ae3b3623d71b4ed961" category="paragraph">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 실행 중인 ONTAP 버전을 확인해야 합니다.</block>
-  <block id="dcaee2dcae546228e31a0898bd961734" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="5f63b18eda466634ee235fd0cb5a9d6a" category="inline-link-macro-rx"></block>.</block>
   <block id="6d4079af860d745f44d13bfe9834115d" category="list-text">손상된 컨트롤러의 상태를 점검합니다.</block>
   <block id="6f0786e478994e04512bb55e945ab79c" category="list-text">손상된 컨트롤러가 로그인 프롬프트에 있으면 admin으로 로그인합니다.</block>
   <block id="1f543f99cb43496b3a35f9786089c979" category="list-text">손상된 컨트롤러가 로더 프롬프트에 있고 HA 구성의 일부인 경우 정상 컨트롤러에 admin으로 로그인합니다.</block>
-  <block id="52172eb9e905726c940b5894e2ccc281" category="list-text">장애가 있는 컨트롤러가 독립 실행형 구성이고 로더 프롬프트에서 에 문의하십시오 <block ref="fbe7ba585c90dfc99f38e8779c97c5f3" category="inline-link-macro-rx"></block>.</block>
   <block id="efed560995ba912dfc2aa959620707ff" category="list-text">손상된 컨트롤러가 작동 중일 경우 손상된 컨트롤러에서 실행 중인 ONTAP 버전을 확인하거나, 손상된 컨트롤러가 다운된 경우 rsion -v 명령을 사용하여 파트너 컨트롤러에서 실행 중인 버전을 확인합니다.</block>
   <block id="24b6214418480e5248eaed7a69ead79c" category="list-text">손상된 컨트롤러가 HA 구성의 일부인 경우 정상적인 컨트롤러에서 자동 반환 비활성화: '스토리지 페일오버 수정 - 노드 로컬 - 자동 반환 거짓' 또는 '스토리지 페일오버 수정 - 노드 로컬 - 자동 반환 - 패닉 후 거짓</block>
   <block id="5a9f897d2d5283081378f66d6ed3cb7a" category="paragraph">손상된 컨트롤러를 종료하기 전에 시스템에 NetApp Volume Encryption(NVE) 또는 NetApp Storage Encryption(NSE)이 활성화되어 있는지 확인해야 합니다. 그렇다면 구성을 확인해야 합니다.</block>
@@ -8320,7 +8314,6 @@
   <block id="f51c8858085d7dcfe4d79d9774f8270d" category="paragraph">_replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
   <block id="58d1979204cdde4ca641ddc56ae5fe91" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다. 부트 ONTAP</block>
   <block id="4d3408827df16f2063082b26e489e785" category="summary">손상된 컨트롤러 모듈을 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</block>
-  <block id="f3ccc6a1c062dbba61f459b0e8b57597" category="list-text">SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지(이벤트 로그 표시)를 확인해야 합니다.</block>
   <block id="d9d59ddb1bc0ff1000e4664413e713fe" category="list-text">system ID mismatch에 의한 시스템 ID 재정의를 묻는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다.</block>
   <block id="6887fe4f6ef917daf3d3f454ae837e99" category="list-text">시스템이 MetroCluster 구성인 경우 컨트롤러 상태 'MetroCluster node show'를 모니터링한다</block>
   <block id="e8d2a192788fc79eb80ab29e07304094" category="paragraph">MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이 경우 각 컨트롤러에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</block>
@@ -8618,8 +8611,116 @@
   <block id="2731a32bd20082112cb21bea67097d21" category="section-title">케이블 체인 부착</block>
   <block id="b3e40f87c203ef282d4d64a42d869542" category="open-title">옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
   <block id="2cb6637a5fdf450f80c9f19b8c718a47" category="admonition">케이블을 분리한 후 다시 연결하고 다른 케이블을 교체할 때는 70초 이상 기다려야 합니다.</block>
-  <block id="17c343da5115d1e0b01e0d9fab1f9d4e" category="paragraph">+ 손목 스트랩을 사용할 수 없는 경우 디스크 드라이브를 다루기 전에 스토리지 인클로저 섀시의 색칠되지 않은 표면을 만지십시오.</block>
   <block id="8456c08b8772c6458de93a0a78ff4f85" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고 드라이브를 제거한 다음 드라이브 드로어를 제거해야 합니다.</block>
   <block id="40cfdd2fa544c18fef836a58df7bb2e9" category="list-text">설치할 드라이브에서 핸들을 수직으로 들어 올립니다.</block>
   <block id="2560c526c9d334c39cab4311db7eff4d" category="paragraph">부분적으로 채워진 쉘프가 있는 경우, 다시 설치할 드라이브 서랍에 지원되는 12개 드라이브 미만의 드라이브가 있는 경우, 처음 4개 드라이브를 전면 슬롯(0, 3, 6 및 9)에 설치하십시오.</block>
+  <block id="dbe360eaa5ee89fd4f31c500db9f2fd7" category="paragraph"><block ref="dbe360eaa5ee89fd4f31c500db9f2fd7" category="inline-link-rx"></block></block>
+  <block id="44eacc26d730bc46ddc55858ccb8e7e3" category="list-text">SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드의 이벤트 메시지('이벤트 로그 표시')를 확인해야 합니다.</block>
+  <block id="503506ac51c03177e4e29bdd8f3f83e0" category="list-text">에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다<block ref="2ff5666698979ec87e001217f795c3dd" category="inline-link-rx"></block>.</block>
+  <block id="b18ad0a07953c39e92025f3df711d7e8" category="list-text"><block ref="b18ad0a07953c39e92025f3df711d7e8" category="inline-link-rx"></block></block>
+  <block id="137edbb782dbd05e84addda1ad111604" category="list-text"><block ref="137edbb782dbd05e84addda1ad111604" category="inline-link-rx"></block></block>
+  <block id="d331c2ddc96dbf38f25371617243bf17" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="1ab03132ea6210439f901707b3806211" category="inline-link-macro-rx"></block>.</block>
+  <block id="ec5866194941126dcbe55d496f612191" category="list-text">장애가 있는 컨트롤러가 독립 실행형 구성이고 로더 프롬프트에서 에 문의하십시오 <block ref="d4b5db761eff3af8abec9c2aa8b19609" category="inline-link-macro-rx"></block>.</block>
+  <block id="4729966d1b42f799e14eba4dd6dedbdb" category="paragraph"><block ref="4729966d1b42f799e14eba4dd6dedbdb" category="inline-link-rx"></block></block>
+  <block id="60db4a77031ab02d5c7d793d8ee8e564" category="admonition">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block></block>
+  <block id="0f4f43e093db80d862a516057fb4a1b2" category="list-text">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오<block ref="9d47acedf189f7880a7ff697cbca93c5" category="inline-link-rx"></block> 페이지를 참조하십시오.</block>
+  <block id="756d409209ace98589705774b5011aa0" category="inline-link">FAS9500</block>
+  <block id="777fd6d7388769d3f60adc007c4390a4" category="paragraph"><block ref="777fd6d7388769d3f60adc007c4390a4" category="inline-link-rx"></block></block>
+  <block id="801fb2644ef002c15826950c6197b174" category="paragraph">ONTAP 9.10.1P3 및 9.11.1</block>
+  <block id="a31ab93f41516026d249aceb633bccc3" category="doc">I/O 모듈 FAS9500을 추가합니다</block>
+  <block id="133808c24f6fb32a9a2a58ed28150498" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 NIC 또는 SAS 스토리지 셸프용 스토리지 모듈로 추가할 수 있습니다.</block>
+  <block id="ff231ca484e594004f4ca93ecfa6683e" category="paragraph">콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.</block>
+  <block id="2a5cd1f850ee79601be57448f10d9595" category="list-text">LOADER 프롬프트에서 노드를 재부팅합니다. _bye_</block>
+  <block id="4d3b1425bbd62943a546a9f98dc3b7ef" category="list-text">파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다</block>
+  <block id="6f8193ca6bfb281db32afbcc9e285f79" category="inline-link">SAS 쉘프 핫 추가</block>
+  <block id="9856beabcb389225df78cec96e74e365" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 SAS 쉘프를 설치하고 케이블을 연결합니다<block ref="322cc377ef41f5776a1c64690e12c49b" category="inline-link-rx"></block>.</block>
+  <block id="c964f542415e7614484e4edf970ab7a8" category="paragraph">영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="6d351dbc4a7187d4512a1c505c200687" category="paragraph">에 설명된 대로 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block>.</block>
+  <block id="f3ca7c7565b074fbf5e12ffb59930d2f" category="doc">오류가 발생한 부품을 NetApp-FAS9500으로 되돌립니다</block>
+  <block id="111654993a380e0c9bea6bf2840bed64" category="doc">온보드 암호화 키-FAS9500을 확인하기 위해 사전 종료 검사를 수행합니다</block>
+  <block id="4ea7136415cb99f780a4177ea7ada9f4" category="doc">시스템 구성 복원 및 확인 - FAS9500</block>
+  <block id="99b2041dbc4d85328f37031f86e8632c" category="cell">노드가 다음 상태인 경우:</block>
+  <block id="a7ed9ff4da75adb740c610eda185e598" category="doc">빠른 단계 - FAS9500</block>
+  <block id="6c77c0963cc43d89befd25aeab2f805c" category="inline-link-macro">FAS9500 설치 및 설정 지침</block>
+  <block id="c0151088b8d16a7df5f5ceccf770a44b" category="paragraph"><block ref="c0151088b8d16a7df5f5ceccf770a44b" category="inline-link-macro-rx"></block></block>
+  <block id="6b076d5e08feabcb936ff1fc2298c9cb" category="doc">섀시 교체 - FAS9500</block>
+  <block id="0829d23216964b4cc2a11bb04c4cf143" category="summary">NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS900 시스템의 슬롯 6에만 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.</block>
+  <block id="fb796745f1b93e7c27af0a928be9d5ae" category="doc">핫 스왑 A 캐싱 모듈 - FAS9500</block>
+  <block id="e5684d853146c37193094e90fea21bff" category="paragraph">NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.</block>
+  <block id="1360261f3d9e17642c609debfd62b1d6" category="admonition">FlashCache 모듈을 콜드 스왑해야 하거나 콜드 스왑하려면 입출력 모듈을 교체하는 절차를 따르십시오.</block>
+  <block id="fa807167a57a5e7782f90326093319e4" category="list-text">캐시 모듈이 시스템에서 볼 수 있을 정도로 제대로 작동하고 있어야 합니다. 마지막 부팅 이후 캐시 모듈이 작동하지 않는 경우 이 절차를 사용할 수 없으며 콜드 스왑 절차를 사용해야 합니다.</block>
+  <block id="bdd8c99ec41c2de3e99ba0a36e04bfbf" category="list-text">admin 권한 수준에서, target NVMe slot for removal, y를 준비하고, 계속할지 여부를 묻는 메시지가 표시되면 y를 응답한다. 'system controller slot module remove-node_name-slot slot_number' 다음 명령을 실행하면 node1의 슬롯 6-1이 제거되도록 준비되고 안전하게 제거할 수 있다는 메시지가 출력된다.</block>
+  <block id="e47fa3700d8c8b185b05f4e09285f497" category="admonition">를 참조하십시오<block ref="7dfdd4167a3eb44ee8af382f653a3ce0" category="inline-link-rx"></block> 자세한 내용은 ONTAP 버전을 참조하십시오.</block>
+  <block id="68607949342d7df39c7770d809d0a5f2" category="image-alt">drw 9500 FlashCache를 제거합니다</block>
+  <block id="5e8d2460689245ee00f6d51f5db543dc" category="paragraph">테라 코타 해제 버튼.</block>
+  <block id="948a2b625585740c830fda62dae13d97" category="list-text">캐싱 모듈 앞면에 있는 테라코타 해제 단추를 누릅니다.</block>
+  <block id="783e93aa36e1cf0b0fe9d46618c3f4da" category="admonition">번호가 매겨진 문자 I/O 캠 래치를 사용하여 캐싱 모듈을 꺼내지 마십시오. 번호가 매겨지고 문자 글자가 새겨진 I/O 캠 래치는 캐싱 모듈이 아닌 전체 NVRAM11 모듈을 배출합니다.</block>
+  <block id="4a73e216feb4277e4b9ed4b0d06e52b6" category="list-text">캐싱 모듈이 NVRAM11 모듈에서 빠져나올 때까지 캠 핸들을 돌립니다.</block>
+  <block id="889bf94232348261e70a1f1630722a8f" category="list-text">카메라 핸들을 사용자 쪽으로 똑바로 조심스럽게 당겨 NVRAM11 모듈에서 캐싱 모듈을 분리합니다.</block>
+  <block id="2449804e78fe2ca344268ced61ab3353" category="paragraph">NVRAM11 모듈에서 캐싱 모듈을 제거하므로 반드시 지원해야 합니다.</block>
+  <block id="5eafc6b946f42f85611a7020c8963ef8" category="list-text">캐싱 모듈의 가장자리를 NVRAM11 모듈의 입구에 맞춥니다.</block>
+  <block id="6f36adf35f17125c62c31d605c56f817" category="paragraph">다음 명령을 실행하면 노드 1의 슬롯 6-1에 전원이 켜질 준비가 되고 전원이 켜되었다는 메시지가 표시됩니다.</block>
+  <block id="496be6cf22594c66057746f4ed0e1e39" category="paragraph">명령 출력에 에 대한 상태가 "전원 켜짐"으로 보고되고 작동 준비가 되었는지 확인합니다.</block>
+  <block id="cdcb00922b21796793c48c3b35b6c0f4" category="doc">복구 이미지 부팅 - FAS9500</block>
+  <block id="46dd13a6814ed7f56a6b685a892da660" category="doc">실시간 시계 배터리(FAS9500)를 교체합니다</block>
+  <block id="542a28d27da2740fcbd2bfb50ba849cc" category="doc">손상된 노드-FAS9500을 종료합니다</block>
+  <block id="c864447c725c6855c6a867ef48db2ee6" category="doc">OKM, NSE 및 NVE-FAS9500의 부팅 후 미디어 교체 단계</block>
+  <block id="cb8bd5f8b409f772feeb282be5c812fd" category="list-text">콘솔 케이블을 타겟 노드에 연결합니다.</block>
+  <block id="09c59b704f34eb3d4a2fd7d67e831c1b" category="list-text">LOADER 프롬프트에서 boot_ONTAP 명령을 사용하여 노드를 부팅합니다.</block>
+  <block id="ee576c01fd9d6961677d0a6255745ad9" category="paragraph">노드를 부팅 메뉴(boot_ontap menu)로 부팅합니다</block>
+  <block id="da0c8baa25fcee791ffa412ec90044ca" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 admin으로 로그인합니다.</block>
+  <block id="2f6a11061d2c04a9d9730e06edaa97a6" category="list-text">반환이 완료되면 'storage failover show' 및 storage failover show-반환 명령을 사용하여 페일오버 및 반환 상태를 확인하십시오.</block>
+  <block id="da4a2b9c52e805a46a6951e79d1796d9" category="list-text">콘솔 케이블을 파트너 노드로 이동합니다.</block>
+  <block id="da4a3c359cf5d24082930f89cd19b3fc" category="list-text">'storage failover -fromnode local' 명령을 사용하여 타겟 노드를 다시 지정합니다.</block>
+  <block id="a23d49d00b003ec7514a6fcf51f93bac" category="list-text">클러스터 셸 프롬프트에서 net int show -is -home false 명령을 입력하여 홈 노드와 포트에 없는 논리 인터페이스를 나열합니다.</block>
+  <block id="80d6c51420c97a5fd468a280127498fe" category="list-text">콘솔 케이블을 대상 노드로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인한다.</block>
+  <block id="809f0d7cd6f78909c00532d70262031d" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 'storage failover back - fromnode local -only -CFO -aggregate true local' 명령을 사용하여 타겟 노드 스토리지를 다시 제공합니다.</block>
+  <block id="20d54df84f7e55d01eb019ccfe3eebef" category="summary">FAS9500 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
+  <block id="5852e0b4d479d20d783c528e9f8e41fa" category="doc">9500 시스템</block>
+  <block id="bc8cb8c20c19791f56e4ce60f7a2aad0" category="doc">컨트롤러를 제거하고 부팅 미디어를 교체한 다음 부팅 이미지(FAS9500)를 전송합니다</block>
+  <block id="eb0c0a024c4f0aa6cfdd5767de1f16f1" category="doc">I/O 모듈 교체 - FAS9500</block>
+  <block id="6e2a8281a18f34ebf7b28cf7584e58ea" category="doc">FAN-FAS9500으로 바꿉니다</block>
+  <block id="96454e2f4cce6f7ff26336656ad504c5" category="doc">손상된 컨트롤러 종료 - FAS9500</block>
+  <block id="2fcf4c33596849c180828b304c73609a" category="doc">LED USB 모듈 교체 - FAS9500</block>
+  <block id="737b04c7e695216162d794c71001099a" category="doc">컨트롤러 모듈 하드웨어 FAS9500을 교체합니다</block>
+  <block id="c3b3c57f039315476b0683acbee42a5a" category="doc">손상된 컨트롤러-FAS9500을 종료합니다</block>
+  <block id="3b56ab083e8d5c37dcc957efc509182f" category="doc">전체 시스템 복원 - FAS9500</block>
+  <block id="3f679ad9b20cbb8994ff36e9ce18d58f" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM-FAS9500을 교체합니다</block>
+  <block id="140a295824b1023b2fcf1ac1414fc56b" category="paragraph">및 NVRAM DIMM을 교체하려면 NVRAM 모듈을 섀시에서 분리하고 모듈에서 장애가 발생한 DIMM을 교체한 다음 NVRAM 모듈을 다시 설치해야 합니다.</block>
+  <block id="566dc57c04b76274e7168e53e1eea041" category="list-text">손상된 노드는 유지보수를 수행 중인 노드입니다.</block>
+  <block id="350cecd9af7d98cbf31c22fbd46e60fe" category="list-text">정상 노드는 장애가 발생한 노드의 HA 파트너입니다.</block>
+  <block id="821b1e6be57f410ab68ac2071fc04df4" category="doc">NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(FAS9500)을 교체하십시오</block>
+  <block id="1aa73ef56da88752323de5876f9b3750" category="doc">전원 공급 장치 교체 - FAS9500</block>
+  <block id="70ebba1c8f978f26a3ed9799176dd8a9" category="doc">컨트롤러 모듈 FAS9500을 교체합니다</block>
+  <block id="0b69ae5dbb558a62f47c8962baf19909" category="list-text">시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다<block ref="2a021072247e4cc2397c2bcdaab4e2b0" category="inline-link-rx"></block> 이 절차를 사용해야 하는지 여부를 확인합니다.</block>
+  <block id="c60c00789a015e4c8edc176d68ea53c2" category="list-text">이 절차에서는 교체 노드가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치가 손상된 노드에서 교체 노드로 이동됩니다.</block>
+  <block id="fd6012123eb1d03462c1cd48d50c92e6" category="list-text">손상된 노드는 교체되는 노드입니다.</block>
+  <block id="9e51ab12d26faade2a31d70da71c74f5" category="list-text">교체 노드는 장애가 발생한 노드를 교체하는 새 노드입니다.</block>
+  <block id="537af5095a4992ae7e9026bd3ff008a6" category="list-text">정상 노드는 정상 노드입니다.</block>
+  <block id="c704a060606b2944e3c331124aaaa743" category="doc">세부 단계 - FAS9500</block>
+  <block id="babff6765c503db416f9aad69aec82a2" category="inline-image-macro">너비 = 85px</block>
+  <block id="6cb216de48e8994ccb0a6c7cbc427e02" category="cell"><block ref="6cb216de48e8994ccb0a6c7cbc427e02" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="32a6e642c9cd7b5239fed7deb8d11082" category="image-alt">OIE cable100 GbE qsfp28</block>
+  <block id="9a7819d4ddc611b1438c0a7f4633f619" category="image-alt">OIE 케이블 미니 SAS HD - 미니 SAS HD</block>
+  <block id="47138f998237cc4fa9d1dde4218e6a79" category="image-alt">OIE 케이블 마이크로 USB</block>
+  <block id="c08fd160f4570df01d3a40efa2524ce7" category="image-alt">OIE 케이블 전원</block>
+  <block id="92688677e16c8790a606404e51b362d1" category="image-alt">drw 9500 인양 아이콘</block>
+  <block id="0604808a9f6264877dad5ce927edb94f" category="image-alt">drw 9500 케이블 관리 암</block>
+  <block id="fd2cb99acafb4f0144bfb5e0e4c31373" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.</block>
+  <block id="3bdc20d60c6095f8c752a75e72777feb" category="doc">시스템 회수 - FAS9500</block>
+  <block id="580fe6e7e310b3db810754c7c7927744" category="list-text">replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
+  <block id="fbe06d7223609c920831e2dffe0e0a96" category="list-text">replacement_node 콘솔에 'waiting for 반환...' 메시지가 표시될 때까지 기다린 다음, 정상 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. storage failover show</block>
+  <block id="a138242d674238dc6089a602c6c8909b" category="list-text">반환이 완료된 후 HA 쌍이 정상 상태이며 테이크오버 가능 여부를 확인합니다. 스토리지 페일오버가 표시됩니다</block>
+  <block id="f2c155633ff38e4e2d070e9d244a9074" category="doc">하드웨어-FAS9500을 이동하고 교체합니다</block>
+  <block id="68828ed4b0036df85ace8abb1ad7c137" category="doc">설정 복원 및 확인 - FAS9500</block>
+  <block id="de94b6a2b38d310a993cae18e6a797fe" category="paragraph">'node::::&gt; cluster ha modify -configured true" "node::::&gt; storage failover modify -node Node0 -enabled true"라는 명령을 실행합니다</block>
+  <block id="0efaf93a941de2d7943b578a71c531e5" category="paragraph">''node:::&gt; storage failover modify -node Node0 -enabled true' 명령을 실행합니다</block>
+  <block id="ca44994b81cf73317bcdf6088f5dae8f" category="list-text"><block ref="ca44994b81cf73317bcdf6088f5dae8f" category="inline-link-macro-rx"></block></block>
+  <block id="bfd64d4015631c5c2c0c4db3a0badb51" category="list-text"><block ref="bfd64d4015631c5c2c0c4db3a0badb51" category="inline-link-macro-rx"></block></block>
+  <block id="f15e9fe5ff90a0ec8840f664bb40c138" category="list-text"><block ref="f15e9fe5ff90a0ec8840f664bb40c138" category="inline-link-macro-rx"></block></block>
+  <block id="b139dc4b4943474860d7b90b369c2b27" category="doc">비디오 단계 - FAS9500</block>
+  <block id="3a1bdb9a053493a7e1c1e62e796f32e6" category="doc">부팅 미디어(FAS9500)를 교체합니다</block>
+  <block id="3e5fda4bdb63c28cc3aa53cadbde1129" category="doc">DIMM-FAS9500을 교체합니다</block>
+  <block id="6a58b2807f942e88a255882209bad046" category="sidebar">캐시 모듈 핫 스왑</block>
+  <block id="3867a4f17cad66bc9a480e8ad7b9ae3c" category="paragraph">endif::[]</block>
 </blocks>

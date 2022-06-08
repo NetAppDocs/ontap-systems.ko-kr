@@ -1,0 +1,249 @@
+---
+permalink: fas9500/install_detailed_guide.html 
+sidebar: sidebar 
+keywords: FAS9500 
+summary: 이 A 에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 자세히 설명합니다. 
+---
+= 세부 단계 - FAS9500
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 문서에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 문서를 사용하십시오.
+
+
+
+== 1단계: 설치 준비
+
+시스템을 설치하려면 NetApp Support 사이트에서 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
+
+에 대한 액세스 권한이 있어야 합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 사이트 요구 사항 및 구성된 시스템에 대한 추가 정보를 확인하십시오.
+
+에 대한 액세스 권한을 가질 수도 있습니다 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["ONTAP 9 릴리즈 노트"^] 해당 버전의 ONTAP에서 이 시스템에 대한 자세한 내용을 확인하십시오.
+
+사이트에서 다음을 제공해야 합니다.
+
+* 스토리지 시스템의 랙 공간입니다
+* Phillips #2 드라이버
+* 웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블
+
+
+.단계
+. 모든 상자의 내용물을 풉니다.
+. 컨트롤러에서 시스템 일련 번호를 기록합니다.
++
+image::../media/drw_ssn_label.svg[drw SSN 레이블]
+
+. 받은 케이블의 수와 유형을 확인하고 기록합니다.
++
+다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 Hardware Universe를 참조하여 케이블을 찾고 해당 케이블의 사용 여부를 확인하십시오.
+
++
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+
++
+[cols="1,2,1,2"]
+|===
+| 케이블 유형... | 부품 번호 및 길이 | 커넥터 유형 | 대상... 
+
+
+ a| 
+25GbE 데이터 케이블
+ a| 
+X66240A-05(112-00639), 0.5m
+
+X66240A-2(112-00598), 2m
+
+X66240A-5(112-00600), 5m
+| image:../media/oie_cable_sfp_gbe_copper.svg["너비 = 85px"]  a| 
+네트워크 케이블
+
+
+
+ a| 
+32 Gb FC(SFP+ Op)
+ a| 
+X66250-2(112-00342), 2m
+
+X66250-5(112-00344), 5m
+
+X66250-15(112-00346), 15m
+ a| 
+image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+ a| 
+FC 광 네트워크 케이블
+
+
+
+ a| 
+40GbE 네트워크 케이블
+ a| 
+X66100-1(112-00542), 1m
+
+X66100-3(112-00543), 3m
+
+X66100-5(112-00544), 5m
+ a| 
+image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+ a| 
+이더넷 데이터, 클러스터 네트워크
+
+
+
+ a| 
+100GbE 케이블
+ a| 
+X66211B-1(112-00573), 1m
+
+X66211B-2(112-00574), 2m
+
+X66211B-5(112-00576), 5m
+ a| 
+image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+ a| 
+네트워크,
+
+이더넷 데이터
+
+클러스터 네트워크
+
+
+
+ a| 
+광 케이블
+ a| 
+X66031A(112-00436), 1m
+
+X66032A(112-00437), 2m
+
+X66033A(112-00438), 3m
+ a| 
+image::../media/oie_cable_fiber_lc_connector.svg[OIE 케이블 파이버 LC 커넥터]
+ a| 
+FC 광 네트워크
+
+
+
+ a| 
+CAT 6, RJ-45(주문 종속)
+ a| 
+부품 번호 X6585-R6(112-00291), 3m
+
+X6562-R6(112-00196), 5m
+ a| 
+image::../media/oie_cable_rj45.svg[OIE 케이블 RJ45]
+ a| 
+관리 네트워크 및 이더넷 데이터
+
+
+
+ a| 
+스토리지
+ a| 
+X66031A(112-00436), 1m
+
+X66032A(112-00437), 2m
+
+X66033A(112-00438), 3m
+ a| 
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
+ a| 
+스토리지
+
+
+
+ a| 
+마이크로 USB 콘솔 케이블
+ a| 
+해당 없음
+ a| 
+image::../media/oie_cable_micro_usb.svg[OIE 케이블 마이크로 USB]
+ a| 
+Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
+
+
+
+ a| 
+전원 케이블
+ a| 
+해당 없음
+ a| 
+image::../media/oie_cable_power.svg[OIE 케이블 전원]
+ a| 
+시스템 전원을 켭니다
+
+|===
+. 를 검토합니다 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"^] 그런 다음 해당 가이드에 나열된 필수 정보를 수집합니다.
+
+
+
+
+== 2단계: 하드웨어 설치
+
+필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치해야 합니다.
+
+. 필요에 따라 레일 키트를 설치합니다.
+. 레일 키트에 포함된 지침에 따라 시스템을 설치하고 고정합니다.
++
+
+NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
+
++
+왼쪽에 있는 레이블은 빈 섀시를 나타내고, 오른쪽에 있는 레이블은 완전히 채워진 시스템을 나타냅니다.
+
++
+image::../media/drw_9500_lifting_icon.svg[drw 9500 인양 아이콘]
+
+. 케이블 관리 장치를 연결합니다(그림 참조).
++
+image::../media/drw_9500_cable_management_arms.svg[drw 9500 케이블 관리 암]
+
+. 시스템 전면에 베젤을 부착합니다.
+
+
+
+
+== 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
+
+스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: 스위치가 없는 2노드 클러스터
+--
+컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러에 케이블로 연결됩니다.
+
+시스템에 스위치를 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의해야 합니다.
+
+포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
+
+image::../media/oie_cable_pull_tab_up.svg[OIE 케이블 당김 탭 위로]
+
+
+NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.
+
+. 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
++
+
+
+
+endif::[]
+
+endif::[]
+
+endif::[]
+
+endif::[]
+
+endif::[]
+
+endif::[]
+
+endif::[]
+
+endif::[]
+
+--
+====

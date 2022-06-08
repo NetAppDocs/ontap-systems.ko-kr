@@ -1,0 +1,85 @@
+---
+indexpage:
+  tiles:
+  - title: 시작하십시오 
+    links:
+    - title: ONTAP 릴리즈 노트
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
+    - title: 시스템 데이터 시트
+      url: https://hwu.netapp.com/ProductSpecs/Index
+    - title: 스토리지 데이터 시트
+      url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
+  - title: 설치 및 설정
+    links:
+    - title: 대부분의 구성
+      url: "/install_setup.html"
+    - title: MetroCluster IP 구성
+      url: https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/concept_considerations_differences.html
+    - title: MetroCluster Fibre Channel 구성
+      url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/concept_considerations_differences.html
+  - title: 유지 관리
+    links:
+    - title: 입출력 모듈을 추가합니다
+      url: "/add_io_module.html"
+    - title: 미디어를 부팅합니다
+      url: "/bootmedia_replace_overview.html"
+    - title: 섀시
+      url: "/chassis_replace_overview.html"
+    - title: 캐시 모듈 핫 스왑
+      url: "/caching_module_hot_swap.html"
+    - title: 컨트롤러 모듈
+      url: "/controller_replace_overview.html"
+    - title: DIMM
+      url: "/dimm_replace.html"
+    - title: 전원 제어 모듈 디스테이징
+      url: "/dcpm_NVRAM11_battery_replace.html"
+    - title: 팬
+      url: "/fan_swap_out.html"
+    - title: 입출력 모듈
+      url: "/pci_cards_and_risers_replace.html"
+    - title: LED - USB 모듈
+      url: "/led_module_replace.html"
+    - title: NVRAM 모듈 및 NVRAM DIMM
+      url: "/nvram_module_or_nvram_dimm_replacement.html"
+    - title: 전원 공급 장치
+      url: "/power_supply_swap_out.html"
+    - title: RTC 배터리
+      url: "/rtc_battery_replace.html"
+  - title: 학습
+    links:
+    - title: 내장 디스크 드라이브 비디오 교체
+      url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
+    - title: VMware Horizon View를 지원하는 비영구적 데스크톱용 NetApp All-Flash FAS 솔루션 | TR-4539
+      url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
+  - title: 쉘프를 추가하거나 제거합니다
+    links:
+    - title: NS224
+      url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
+    - title: IOM12가 포함된 SAS
+      url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
+  - title: 스위치 설치 및 유지 관리
+    links:
+    - title: Broadcom 지원 스위치
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/
+    - title: Cisco 스위치
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/
+  - title: 업그레이드
+    links:
+    - title: 시스템 하드웨어 업그레이드
+      url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
+    - title: ONTAP 소프트웨어 업그레이드
+      url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
+  - title: 더 많은 리소스
+    links:
+    - title: ONTAP 설명서
+      url: https://docs.netapp.com/us-en/ontap/
+    - title: NetApp Hardware Universe를 참조하십시오
+      url: https://hwu.netapp.com/home/index
+    - title: NetApp Active IQ Config Advisor를 참조하십시오
+      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
+    - title: NetApp 상호 운용성 매트릭스 툴
+      url: https://mysupport.netapp.com/matrix/#welcome
+    - title: NetApp 지원 기술 자료
+      url: https://kb.netapp.com/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/
