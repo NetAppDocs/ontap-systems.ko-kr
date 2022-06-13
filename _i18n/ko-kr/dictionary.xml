@@ -1626,7 +1626,6 @@
   <block id="06dfcb3b1a9c224a29ae8981c6882d18" category="section-title">핫 애드 위한 IOM12 모듈을 디스크 쉘프 설치</block>
   <block id="4e24ff050030d18996425f4adbef1c69" category="paragraph">핫 추가할 각 디스크 쉘프에 디스크 쉘프를 설치하고, 전원 코드를 연결하고, 디스크 쉘프의 전원을 켠 다음, SAS 연결을 케이블로 연결하기 전에 디스크 쉘프 ID를 설정해야 합니다.</block>
   <block id="82fd485bd66b7a7cf95b41701aff95f4" category="list-text">HA 쌍 또는 단일 컨트롤러 구성 내에서 고유 ID로 핫 추가할 각 디스크 쉘프의 쉘프 ID를 설정합니다.</block>
-  <block id="6f3cc8e26b4a1e5fe24b9cfea68de345" category="paragraph">내부 디스크 쉘프가 있는 시스템의 경우 쉘프 ID는 내부 디스크 쉘프 및 외부 연결 디스크 쉘프 전체에서 고유해야 합니다.</block>
   <block id="437cff47077287b8acaab6cf6eb3f66e" category="inline-link-macro">쉘프 ID를 변경합니다</block>
   <block id="f44e011a4789f1353840c4446705dbef" category="paragraph">다음 하위 단계를 사용하여 쉘프 ID를 변경하거나 자세한 지침을 보려면 를 사용하십시오 <block ref="7a954fe7521681b1209c8a82ea854632" category="inline-link-macro-rx"></block>.</block>
   <block id="be888bc11355717d8c2ff0800204b0b3" category="list-text">필요한 경우 Config Advisor를 실행하여 이미 사용 중인 쉘프 ID를 확인하십시오.</block>
@@ -8723,4 +8722,5 @@
   <block id="3e5fda4bdb63c28cc3aa53cadbde1129" category="doc">DIMM-FAS9500을 교체합니다</block>
   <block id="6a58b2807f942e88a255882209bad046" category="sidebar">캐시 모듈 핫 스왑</block>
   <block id="3867a4f17cad66bc9a480e8ad7b9ae3c" category="paragraph">endif::[]</block>
+  <block id="50a5f31124b37f0e6f0175b4691d290a" category="paragraph">내부 디스크 쉘프가 있는 플랫폼 모델이 있는 경우 쉘프 ID는 내부 디스크 쉘프 및 외부 연결 디스크 쉘프 전체에서 고유해야 합니다.</block>
 </blocks>

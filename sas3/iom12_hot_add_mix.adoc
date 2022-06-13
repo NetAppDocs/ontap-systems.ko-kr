@@ -1,7 +1,7 @@
 ---
 permalink: sas3/iom12-hot-add-mix.html 
 sidebar: sidebar 
-keywords: addional, storage, hot-add, iom12, shelves, shelf, sas, shelves, shelf, module, iom6, mix, stack, hot-add iom12 sheles to a stack of iom6 shelves 
+keywords: additional, storage, hot-add, iom12, shelves, shelf, sas, shelves, shelf, module, iom6, mix, stack, hot-add iom12 shelves to a stack of iom6 shelves 
 summary: '추가 스토리지가 필요할 경우 IOM6 쉘프(IOM12 모듈을 포함한 SAS 쉘프) 스택에 IOM6 쉘프를 추가할 수 있습니다(IOM6 모듈을 포함한 SAS 쉘프). 다시 말해, 스택을 혼합할 수 있습니다.' 
 ---
 = IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다
@@ -345,6 +345,7 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 |===
 . 양쪽 레버를 중앙으로 밀어 드라이브 드로어를 닫습니다.
 . 디스크 쉘프의 각 드로어에 대해 이 단계를 반복합니다.
+. 전면 베젤을 부착합니다.
 +
 .. 디스크 쉘프를 여러 개 추가하는 경우, 설치하려는 각 디스크 쉘프에 대해 이전 단계를 반복합니다.
 .. 각 디스크 쉘프의 전원 공급 장치를 연결합니다.
