@@ -6392,7 +6392,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-06-08 13:57:43 +0000">06/08/2022</time>
+    <time datetime="2022-06-20 14:02:04 +0000">06/20/2022</time>
     
   
 
@@ -6401,7 +6401,7 @@
 
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>입출력 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다.</p>
 </div>
 <div class="ulist">
@@ -6419,7 +6419,7 @@
 <div class="sect1">
 <h2 id="1단계-손상된-컨트롤러를-종료합니다">1단계: 손상된 컨트롤러를 종료합니다</h2>
 <div class="sectionbody">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.</p>
 </div>
 <div class="exampleblock tabbed-block">
@@ -6427,7 +6427,7 @@
 <div class="openblock">
 <div class="title">옵션 1: 대부분의 구성</div>
 <div class="content">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</p>
 </div>
 <div class="ulist">
@@ -6516,7 +6516,7 @@
 <div class="openblock">
 <div class="title">옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다</div>
 <div class="content">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.</p>
 </div>
 <div class="ulist">
@@ -6653,7 +6653,7 @@ aggr_b2    227.1GB   227.1GB    0% online       0 mcc1-a2          raid_dp, mirr
 <div class="sect1">
 <h2 id="2단계-io-모듈을-교체합니다">2단계: I/O 모듈을 교체합니다</h2>
 <div class="sectionbody">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>I/O 모듈을 교체하려면 섀시 내에서 해당 모듈을 찾아 특정 단계를 따르십시오.</p>
 </div>
 <div class="olist arabic">
@@ -6738,14 +6738,14 @@ aggr_b2    227.1GB   227.1GB    0% online       0 mcc1-a2          raid_dp, mirr
 <div class="sect1">
 <h2 id="3단계-pcie-모듈을-교체한-후-컨트롤러를-재부팅합니다">3단계: PCIe 모듈을 교체한 후 컨트롤러를 재부팅합니다</h2>
 <div class="sectionbody">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>PCIe 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.</p>
 </div>
 <div class="olist arabic">
 <div class="title">단계</div>
 <ol class="arabic">
 <li>
-<p>LOADER 프롬프트에 노드가 있으면 시스템 ID 불일치에 대한 프롬프트 경고가 나타나고 시스템 ID를 무시하라는 메시지가 나타나면 y를 사용하여 노드를 부팅합니다</p>
+<p>LOADER 프롬프트에서 node:_bye_note를 재부팅합니다. 이렇게 하면 PCIe 카드와 다른 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</p>
 </li>
 <li>
 <p>시스템이 10GbE 클러스터 상호 연결과 40GbE NIC 또는 온보드 포트의 데이터 연결을 지원하도록 구성된 경우 유지보수 모드에서 'nicadmin convert' 명령을 사용하여 이러한 포트를 10GbE 연결로 변환합니다.</p>
@@ -6763,52 +6763,31 @@ aggr_b2    227.1GB   227.1GB    0% online       0 mcc1-a2          raid_dp, mirr
 </div>
 </li>
 <li>
-<p>노드를 정상 작동 상태로 되돌립니다.</p>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 75%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">시스템이 다음 상태인 경우:</th>
-<th class="tableblock halign-left valign-top">파트너의 콘솔에서 이 명령을 실행합니다&#8230;&#8203;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>HA 쌍</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>'Storage failover 반환 - ofnode_impaired_node_name_'</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>2노드 MetroCluster 구성</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>다음 단계를 진행합니다.</p>
-</div>
-<div class="paragraph">
-<p>MetroCluster 스위치백 절차는 교체 프로세스의 다음 작업에서 수행됩니다.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
+<p>노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode_impaired_node_name_'</p>
 </li>
 <li>
 <p>자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true&#8217;를 다시 설정합니다</p>
 </li>
 </ol>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-systems/images/note.svg" alt="참고">
+</td>
+<td class="content">
+시스템이 2노드 MetroCluster 구성인 경우, 다음 단계에 설명된 대로 애그리게이트를 다시 전환해야 합니다.
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="4단계-2노드-metrocluster-구성에서-애그리게이트를-다시-전환합니다">4단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다</h2>
 <div class="sectionbody">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 그러면 이전 사이트의 SVM(Sync-Source Storage Virtual Machine)이 활성 상태이고 로컬 디스크 풀에서 데이터를 제공하는 구성을 정상 운영 상태로 되돌릴 수 있습니다.</p>
 </div>
 <div class="paragraph">
@@ -6883,7 +6862,7 @@ Remote: cluster_A configured      		normal</pre>
 <div class="sect1">
 <h2 id="5단계-장애가-발생한-부품을-netapp에-반환">5단계: 장애가 발생한 부품을 NetApp에 반환</h2>
 <div class="sectionbody">
-<div class="paragraph lead">
+<div class="paragraph">
 <p>키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 <a href="https://mysupport.netapp.com/site/info/rma">"부품 반품 및 앰프, 교체"</a> 페이지를 참조하십시오.</p>
 </div>
 </div>

@@ -6383,7 +6383,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-06-08 13:57:43 +0000">06/08/2022</time>
+    <time datetime="2022-06-20 14:02:04 +0000">06/20/2022</time>
     
   
 
@@ -6392,7 +6392,7 @@
 
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph">
+<div class="paragraph lead">
 <p>NIC 또는 스토리지 어댑터를 완전히 채워진 시스템의 새 NIC 또는 스토리지 어댑터로 교체하거나 시스템의 빈 섀시 슬롯에 새 NIC 또는 스토리지 어댑터를 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다.</p>
 </div>
 <div class="ulist">
@@ -6602,9 +6602,115 @@
 <div class="paragraph">
 <p>입출력 모듈이 있던 슬롯을 추적해야 합니다.</p>
 </div>
+<div class="videoblock">
+<div class="title">애니메이션 - I/O 모듈 교체</div>
+<div class="content">
+<iframe frameborder="0"  src="https://netapp.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=0903b1f9-187b-4bb8-9548-ae9b0012bb21" allowfullscreen allow="autoplay"> </iframe>
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../media/drw_9500_remove_PCIe_module.svg" alt="drw 9500 PCIe 모듈을 제거합니다">
+</div>
+</div>
 </li>
 </ol>
 </div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="../media/legend_icon_01.svg" alt="범례 아이콘 01">
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>문자 및 숫자 I/O 캠 래치</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="../media/legend_icon_02.svg" alt="범례 아이콘 02">
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>I/O 캠 래치가 완전히 잠금 해제되었습니다</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>입출력 모듈을 타겟 슬롯에 설치합니다.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>입출력 모듈을 슬롯의 가장자리에 맞춥니다.</p>
+</li>
+<li>
+<p>문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 밀어 넣습니다.</p>
+</li>
+<li>
+<p>I/O 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>분리 및 설치 단계를 반복하여 컨트롤러 A의 추가 모듈을 교체합니다</p>
+</li>
+<li>
+<p>교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</p>
+</li>
+<li>
+<p>LOADER 프롬프트에서 노드를 재부팅합니다. <em>bye</em></p>
+</li>
+<li>
+<p>파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name&#8217;을 선택합니다</p>
+</li>
+<li>
+<p>'Storage failover modify -node local -auto-반환 true&#8217;가 비활성화되면 자동 반환이 활성화됩니다</p>
+</li>
+<li>
+<p>추가한 경우:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">I/O 모듈이&#8230;&#8203;인 경우</th>
+<th class="tableblock halign-left valign-top">그러면&#8230;&#8203;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>슬롯 3 또는 7의 NIC 모듈,</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>포트별 Storage port modify -node *<em>&lt;node name&gt;<em></em>-port * _&lt;port name&gt;</em>-mode network' 명령어를 사용한다.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>스토리지 모듈</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>에 설명된 대로 SAS 쉘프를 설치하고 케이블을 연결합니다https://docs.netapp.com/us-en/ontap-systems/sas3/install-hot-add-shelf.html["SAS 쉘프 핫 추가"^].</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>컨트롤러 B에 대해 이 단계를 반복합니다</p>
 </li>
 </ol>
 </div>
