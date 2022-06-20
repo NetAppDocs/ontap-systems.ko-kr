@@ -88,9 +88,55 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 입출력 모듈이 있던 슬롯을 추적해야 합니다.
 
 +
+.애니메이션 - I/O 모듈 제거/설치
+video::0903b1f9-187b-4bb8-9548-ae9b0012bb21[panopto]
++
+image::../media/drw_9500_remove_PCIe_module.svg[drw 9500 PCIe 모듈을 제거합니다]
+
++
+[cols="20%,80%"]
+|===
+
+
+ a| 
+image::../media/legend_icon_01.svg[범례 아이콘 01]
+ a| 
+문자 및 숫자 I/O 캠 래치
+
+
+
+ a| 
+image::../media/legend_icon_02.svg[범례 아이콘 02]
+ a| 
+I/O 캠 래치가 완전히 잠금 해제되었습니다
+
+|===
+
+
+. 입출력 모듈을 따로 보관해 둡니다.
+. I/O 모듈이 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 부드럽게 밀어 넣은 다음 I/O 캠 래치를 완전히 위로 밀어 모듈을 제자리에 고정합니다.
+. 필요에 따라 입출력 모듈을 다시 장착합니다.
 
 
 
 
+== 3단계: I/O 모듈 교체 후 컨트롤러를 재부팅합니다
 
-endif::[]
+I/O 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.
+
+.단계
+. LOADER 프롬프트에서 node:_bye_note를 재부팅합니다. 이렇게 하면 PCIe 카드와 다른 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+. 시스템이 10GbE 클러스터 상호 연결과 40GbE NIC 또는 온보드 포트의 데이터 연결을 지원하도록 구성된 경우 유지보수 모드에서 'nicadmin convert' 명령을 사용하여 이러한 포트를 10GbE 연결로 변환합니다.
++
+
+NOTE: 변환을 완료한 후 유지보수 모드를 종료해야 합니다.
+
+. 노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode impaired_node_name'
+. 자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true'를 다시 설정합니다
+
+
+
+
+== 4단계: 장애가 발생한 부품을 NetApp에 반환
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
