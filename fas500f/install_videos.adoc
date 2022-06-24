@@ -19,8 +19,8 @@ summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설
 
 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=1f975061-b285-411b-b2d7-ac680185a0d1["FAS500f의 설치 및 설정"^]
-
+.FAS500f의 설치 및 설정
+video::1f975061-b285-411b-b2d7-ac680185a0d1[panopto]
 
 
 == 비디오 2: 종단 간 소프트웨어 구성 수행

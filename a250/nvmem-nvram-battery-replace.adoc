@@ -136,8 +136,8 @@ NVMEM 배터리를 교체하려면 컨트롤러 모듈에서 장애가 발생한
 
 다음 비디오 또는 표 형식 단계를 사용하여 NVMEM 배터리를 교체합니다.
 
-link:https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=89f6d5c3-1a5b-4500-8ba8-ac5b01653050["NVMEM 배터리 교체"^]
-
+.NVMEM 배터리 교체
+video::89f6d5c3-1a5b-4500-8ba8-ac5b01653050[panopto]
 . 컨트롤러 모듈에서 손상된 NVMEM 배터리를 찾아 교체합니다.
 +
 

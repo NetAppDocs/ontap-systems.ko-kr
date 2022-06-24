@@ -137,8 +137,8 @@ image:../media/legend_icon_02.png[""]
 
 다음 비디오 또는 표 형식 단계를 사용하여 메자닌 카드를 교체할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d8e7d4d9-8d28-4be1-809b-ac5b01643676["메자닌 카드 교체"^]
-
+.메자닌 카드 교체
+video::d8e7d4d9-8d28-4be1-809b-ac5b01643676[panopto]
 
 
 === 옵션 1: 메자닌 카드 교체:

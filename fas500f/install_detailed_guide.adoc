@@ -184,9 +184,10 @@ image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래�
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-.단계
-. 애니메이션을 사용합니다 (https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=beec3966-0a01-473c-a5de-ac68017fbf29["스위치가 없는 2노드 클러스터를 케이블로 연결합니다"^]) 또는 컨트롤러와 스위치 간의 케이블 연결을 완료하기 위한 단계별 지침:
-+
+애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
+
+.스위치가 없는 2노드 클러스터를 케이블로 연결합니다
+video::beec3966-0a01-473c-a5de-ac68017fbf29[panopto]
 [cols="10,90"]
 |===
 | 단계 | 각 컨트롤러에서 수행합니다 
@@ -199,8 +200,8 @@ image:../media/oie_legend_icon_1_lg.png[""]
 
 image:../media/oie_cable_sfp_gbe_copper.png[""]:
 
-** e0c - e0c
-** e0d ~ e0dimage:../media/drw_affa250_tnsc_cabling.png[""]
+* e0c - e0c
+* e0d ~ e0dimage:../media/drw_affa250_tnsc_cabling.png[""]
 
 
 
@@ -220,8 +221,7 @@ image:../media/oie_legend_icon_attn_symbol.png[""]
 이때 전원 코드를 꽂지 마십시오.
 
 |===
-. 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
-
+시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
 
 
 
@@ -238,9 +238,8 @@ image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래�
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-.단계
-. 애니메이션을 사용합니다 (https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=bf6759dc-4cbf-488e-982e-ac68017fbef8["스위치 클러스터 케이블 연결"^]) 또는 컨트롤러와 스위치 간의 케이블 연결을 완료하기 위한 단계별 지침:
-+
+애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 비디오:: bf6759dc-4cbf-488e-982e-ac68017fbef8 [팬토프, 제목="스위치 클러스터 케이블 연결"]
+
 [cols="10,90"]
 |===
 | 단계 | 각 컨트롤러에서 수행합니다 
@@ -251,8 +250,8 @@ image:../media/oie_legend_icon_1_lg.png[""]
  a| 
 클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
 
-** e0c
-** e0dimage:../media/drw_affa250_switched_clust_cabling.png[""]
+* e0c
+* e0dimage:../media/drw_affa250_switched_clust_cabling.png[""]
 
 
 
@@ -272,8 +271,7 @@ image::../media/oie_legend_icon_attn_symbol.png[OIE 범례 아이콘 특성 기�
 이때 전원 코드를 꽂지 마십시오.
 
 |===
-. 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
-
+시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
 
 
 
@@ -388,9 +386,10 @@ image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-.단계
-. 애니메이션을 사용합니다 (https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=3f92e625-a19c-4d10-9028-ac68017fbf57["단일 NS224에 컨트롤러 케이블 연결"^]) 또는 컨트롤러 모듈을 단일 쉘프에 연결하기 위한 단계별 지침.
-+
+애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 단일 쉘프 간의 케이블 연결을 완료합니다.
+
+.단일 NS224에 컨트롤러 케이블 연결
+video::3f92e625-a19c-4d10-9028-ac68017fbf57[panopto]
 [cols="10,90"]
 |===
 | 단계 | 각 컨트롤러 모듈에서 수행합니다 
@@ -409,8 +408,7 @@ image:../media/oie_legend_icon_2_lo.png[""]
 컨트롤러 B를 쉘프에 연결: image:../media/drw_affa250_1shelf_cabling_b.png[""]
 
 |===
-. 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
-
+시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
 
 
 
@@ -430,7 +428,10 @@ image:../media/oie_legend_icon_2_lo.png[""]
 +
 자세한 내용은 노트북의 온라인 도움말을 참조하십시오.
 
-. 애니메이션을 사용합니다 (https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d61f983e-f911-4b76-8b3a-ab1b0066909b["관리 스위치에 랩톱 연결"^])를 클릭하여 노트북을 관리 스위치에 연결합니다.
+. 애니메이션을 사용하여 노트북을 관리 스위치에 연결합니다.
++
+.관리 스위치에 랩톱 연결
+video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]

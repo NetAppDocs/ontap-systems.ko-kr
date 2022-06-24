@@ -443,7 +443,10 @@ NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 +
 자세한 내용은 노트북의 온라인 도움말을 참조하십시오.
 
-. 애니메이션(link:https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d61f983e-f911-4b76-8b3a-ab1b0066909b["관리 스위치에 랩톱 연결"^])를 클릭하여 노트북을 관리 스위치에 연결합니다.
+. 애니메이션을 사용하여 노트북을 관리 스위치에 연결합니다.
++
+.관리 스위치에 랩톱 연결
+video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]

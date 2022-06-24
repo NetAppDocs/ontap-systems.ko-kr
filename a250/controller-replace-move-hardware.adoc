@@ -24,8 +24,8 @@ summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤
 
 다음 비디오 또는 표 형식 단계를 사용하여 컨트롤러 모듈을 교체합니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=ab0ebe6b-e891-489c-aab4-ac5b015c8f01["컨트롤러 모듈 교체"]
-
+.컨트롤러 모듈 교체
+video::ab0ebe6b-e891-489c-aab4-ac5b015c8f01[panopto]
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원에서 컨트롤러 모듈 전원 공급 장치를 분리합니다.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.

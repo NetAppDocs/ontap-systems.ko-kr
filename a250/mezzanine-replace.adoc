@@ -138,8 +138,8 @@ image:../media/legend_icon_02.png[""]
 
 다음 비디오 또는 표 형식 단계를 사용하여 메자닌 카드를 교체합니다.
 
-link:https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d8e7d4d9-8d28-4be1-809b-ac5b01643676["메자닌 카드 교체"^]
-
+.메자닌 카드 교체
+video::d8e7d4d9-8d28-4be1-809b-ac5b01643676[panopto]
 . 메자닌 카드를 교체하려면:
 . 컨트롤러 모듈에서 손상된 메자닌 카드를 찾아 교체합니다.
 +
