@@ -4706,8 +4706,6 @@
   <block id="0a5ead00345fce4227fecb1825aad142" category="paragraph"><block ref="0a5ead00345fce4227fecb1825aad142" category="inline-link-rx"></block></block>
   <block id="381526217dead66932ed7e3b4d0903a5" category="list-text">시스템이 MetroCluster 구성인 경우 각 노드가 'MetroCluster node show-fields configuration-state'로 구성되어 있는지 확인합니다</block>
   <block id="a45631fee94bb9189db5b0c74b176a42" category="doc">비디오 - AFF A400</block>
-  <block id="5949ca5a0712a87a23c812bd0bed6961" category="inline-link">AFF A400 설치 및 설정 지침</block>
-  <block id="d7e804433803616440fb890d20cd6c1f" category="paragraph"><block ref="eeb7cea97b365499514850665d379c9d" category="inline-link-rx"></block><block ref="cd0b1d103fc5f20acda93803684ae105" category="inline-link-rx"></block></block>
   <block id="d92d79541486453c440f5d479e7c2937" category="section-title">비디오 2: 종단 간 소프트웨어 구성을 수행합니다</block>
   <block id="2147ead816c0910c1fb713da5e278601" category="doc">전체 시스템 복원 - AFF A400</block>
   <block id="6873688fd24ce06352b0f67301567306" category="doc">NVDIMM-AFF A400을 교체합니다</block>
@@ -8803,4 +8801,6 @@
   <block id="90497e0cc94d62e215b4a4b6706d7cda" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.</block>
   <block id="b5b86ac4620d5f1cb0b675d761c6c548" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 비디오:: bf6759dc-4cbf-488e-982e-ac68017fbef8 [팬토프, 제목="스위치 클러스터 케이블 연결"]</block>
   <block id="030773f8722b074a51df84aa530f0c3d" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 단일 쉘프 간의 케이블 연결을 완료합니다.</block>
+  <block id="f56310c49687a40fd4b43bced4b3dcc8" category="video-title">애니메이션 - AFF A400 설치 및 설정 지침</block>
+  <block id="c511d3a873cdf45068fb4cd9897dd7d1" category="admonition">이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</block>
 </blocks>

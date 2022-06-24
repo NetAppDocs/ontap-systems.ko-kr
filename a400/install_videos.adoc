@@ -19,12 +19,12 @@ summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설
 
 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=6cbbcb96-fe92-4040-a004-ab2001624dd7["AFF A400 설치 및 설정 지침"] https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6cbbcb96-fe92-4040-a004-ab2001624dd7["AFF A400 설치 및 설정 지침"]
-
+.애니메이션 - AFF A400 설치 및 설정 지침
+video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto]
 
 
 == 비디오 2: 종단 간 소프트웨어 구성을 수행합니다
 
 다음 비디오에서는 ONTAP 9.2 이상을 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.
 
-https://www.youtube.com/embed/WAE0afWhj1c?rel=0["NetApp 비디오: ONTAP 9.2를 실행하는 FAS/AFF 시스템용 vSphere NAS 데이터 저장소의 소프트웨어 구성"]
+video::WAE0afWhj1c?rel=0[youtube]
