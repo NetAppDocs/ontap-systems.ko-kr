@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head class="at-element-marker">
-  <title>IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다</title>
+  <title>IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다" />
+  <meta property="og:title" content="IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/ontap-systems/sas3/iom12-hot-add-mix.html" />
-	<meta property="og:description" content="추가 스토리지가 필요할 경우 IOM6 쉘프(IOM12 모듈을 포함한 SAS 쉘프) 스택에 IOM6 쉘프를 추가할 수 있습니다(IOM6 모듈을 포함한 SAS 쉘프). 다시 말해, 스택을 혼합할 수 있습니다." />
+	<meta property="og:description" content="추가 스토리지가 필요할 경우 IOM12/IOM12B 쉘프(IOM12/IOM12B 모듈이 포함된 SAS 쉘프)를 IOM6 쉘프(IOM6 모듈이 포함된 SAS 쉘프) 스택에 추가하여 스택을 혼합할 수 있습니다." />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/ontap-systems/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="추가 스토리지가 필요할 경우 IOM6 쉘프(IOM12 모듈을 포함한 SAS 쉘프) 스택에 IOM6 쉘프를 추가할 수 있습니다(IOM6 모듈을 포함한 SAS 쉘프). 다시 말해, 스택을 혼합할 수 있습니다.">
-  <meta name="keywords" content=" additional, storage, hot-add, iom12, shelves, shelf, sas, shelves, shelf, module, iom6, mix, stack, hot-add iom12 shelves to a stack of iom6 shelves"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="추가 스토리지가 필요할 경우 IOM12/IOM12B 쉘프(IOM12/IOM12B 모듈이 포함된 SAS 쉘프)를 IOM6 쉘프(IOM6 모듈이 포함된 SAS 쉘프) 스택에 추가하여 스택을 혼합할 수 있습니다.">
+  <meta name="keywords" content=" additional, storage, hot-add, iom12, shelves, shelf, sas, shelves, shelf, module, iom6, mix, stack, hot-add iom12 shelves to a stack of iom6 shelves, iom12b"><!-- Icons -->
   <link rel="icon" href="/ko-kr/ontap-systems/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다](https://docs.netapp.com/ko-kr/ontap-systems/sas3/iom12-hot-add-mix.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/sas3/iom12_hot_add_mix.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/issues/new?body=Page%3A%20[IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다](https://docs.netapp.com/ko-kr/ontap-systems/sas3/iom12-hot-add-mix.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-systems/blob/main/sas3/iom12_hot_add_mix.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/ontap-systems/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/ontap-systems/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -4164,11 +4164,11 @@
           
           <a target="_blank" 
             
-              href="/ko-kr/ontap-systems/pdfs/sidebar/IOM12_모듈이_포함된_SAS_쉘프.pdf" 
+              href="/ko-kr/ontap-systems/pdfs/sidebar/IOM12_IOM12B_모듈이_포함된_SAS_쉘프.pdf" 
             
           >
             <img src="/ko-kr/ontap-systems/images/pdf.png" alt="" width="16" height="16"/>
-            IOM12 모듈이 포함된 SAS 쉘프
+            IOM12/IOM12B 모듈이 포함된 SAS 쉘프
           </a>
           
 
@@ -4180,7 +4180,7 @@
           
           <a target="_blank" 
             
-              href="/ko-kr/ontap-systems/pdfs/sidebar/IOM12_모듈_설치_및_케이블이_있는_선반.pdf" 
+              href="/ko-kr/ontap-systems/pdfs/sidebar/IOM12_IOM2B_모듈_설치_및_케이블이_있는_선반.pdf" 
             
           >
             <img src="/ko-kr/ontap-systems/images/pdf.png" alt="" width="16" height="16"/>
@@ -4254,7 +4254,7 @@
           
           <a target="_blank" 
             
-              href="/ko-kr/ontap-systems/pdfs/sidebar/IOM12_모듈이_장착된_셸프는_그대로_유지됩니다.pdf" 
+              href="/ko-kr/ontap-systems/pdfs/sidebar/IOM12_IOM12B_모듈이_장착된_셸프가_유지됩니다.pdf" 
             
           >
             <img src="/ko-kr/ontap-systems/images/pdf.png" alt="" width="16" height="16"/>
@@ -5946,7 +5946,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/ns224/service-replace-rtc-battery.html">
         실시간 시계 배터리
       </a></li></ul></li></ul></li><li class="subfolders "><a href="/ko-kr/ontap-systems/sas3/index.html">
-        <div class="na-navbar-padding"> IOM12 모듈이 포함된 SAS 쉘프</div>
+        <div class="na-navbar-padding"> IOM12/IOM12B 모듈이 포함된 SAS 쉘프</div>
       </a>
       <ul><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> 및 케이블을 설치합니다</div>
@@ -5956,7 +5956,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-hot-add-shelf.html">
         쉘프를 핫 추가
       </a></li><li class="  active "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/iom12-hot-add-mix.html">
-        IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다
+        IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/install-change-shelf-id.html">
         쉘프 ID를 변경합니다
       </a></li><li class="subfolders "><a href="#">
@@ -5994,7 +5994,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/hot-remove-shelf.html">
         쉘프 핫 제거
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/service-hot-swap-iom.html">
-        IOM12 모듈
+        IOM12/IOM12B 모듈
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/service-hot-swap-power-supply.html">
         전원 공급 장치
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/ontap-systems/sas3/service-monitor-leds.html">
@@ -6114,14 +6114,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다</h1>
+  <h1 class="n-doc__component-detail-heading">IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-06-13 16:34:35 +0000">06/13/2022</time>
+    <time datetime="2022-07-01 15:54:49 +0000">07/01/2022</time>
     
   
 
@@ -6131,7 +6131,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>추가 스토리지가 필요할 경우 IOM6 쉘프(IOM12 모듈을 포함한 SAS 쉘프) 스택에 IOM6 쉘프를 추가할 수 있습니다(IOM6 모듈을 포함한 SAS 쉘프). 다시 말해, 스택을 혼합할 수 있습니다.</p>
+<p>추가 스토리지가 필요할 경우 IOM12/IOM12B 쉘프(IOM12/IOM12B 모듈이 포함된 SAS 쉘프)를 IOM6 쉘프(IOM6 모듈이 포함된 SAS 쉘프) 스택에 추가하여 스택을 혼합할 수 있습니다.</p>
 </div>
 </div>
 </div>
@@ -6139,7 +6139,7 @@
 <h2 id="핫-애드-요구-사항">핫 애드 요구 사항</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>HA 쌍, 단일 컨트롤러 또는 확장 MetroCluster 구성(시스템)은 IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하기 전에 특정 요구사항을 충족해야 합니다.</p>
+<p>HA 쌍, 단일 컨트롤러 또는 확장 MetroCluster 구성(시스템)은 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하기 전에 특정 요구사항을 충족해야 합니다.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -6156,7 +6156,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>ONTAP 시스템 및 버전은 동일한 스택(혼합 스택)에서 IOM6 쉘프와 IOM12 쉘프를 함께 지원해야 합니다.</p>
+<p>ONTAP 시스템 및 버전은 동일한 스택(혼합 스택)에서 IOM6 쉘프와 IOM12/IOM12B 쉘프의 혼합 구성을 지원해야 합니다.</p>
 <div class="paragraph">
 <p>다음 방법 중 하나를 사용하여 지원을 확인할 수 있습니다.</p>
 </div>
@@ -6217,7 +6217,7 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <li>
 <p>핫 추가할 IOM12 쉘프에 설치할 수 있는 드라이브 수가 지원되는 최대 드라이브 수보다 작아야 합니다.</p>
 <div class="paragraph">
-<p>IOM12 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 드라이브 수를 초과할 수 없습니다.</p>
+<p>IOM12/IOM12B 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 드라이브 수를 초과할 수 없습니다.</p>
 </div>
 <div class="paragraph">
 <p><a href="https://hwu.netapp.com">"NetApp Hardware Universe를 참조하십시오"</a></p>
@@ -6233,7 +6233,7 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 </div>
 </li>
 <li>
-<p>IOM12 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.</p>
+<p>IOM12/IOM12B 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.</p>
 <div class="paragraph">
 <p>IOM12 쉘프는 미니 SAS HD 커넥터를 사용합니다. IOM6 쉘프는 QSFP 커넥터를 사용합니다.</p>
 </div>
@@ -6246,18 +6246,18 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <h2 id="브리지-연결-metrocluster-구성의-핫-애드-요구-사항">브리지 연결 MetroCluster 구성의 핫 애드 요구 사항</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>MetroCluster 구성에서 ATTO FiberBridge 쌍을 사용하여 연결된 IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하는 경우, 시스템은 특정 요구사항을 충족해야 합니다.</p>
+<p>MetroCluster 구성에서 ATTO FiberBridge 쌍 을 사용하여 연결된 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하는 경우, 시스템은 특정 요구사항을 충족해야 합니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>현재 구성에서 브리지 SAS 포트를 사용할 수 있는 경우 IOM12 쉘프를 별도의 스택으로 추가해야 합니다.</p>
 <div class="paragraph">
-<p>스택에 IOM12와 IOM6 모듈을 혼합하기 전에 모든 브리지 포트를 사용하십시오.</p>
+<p>스택에 IOM12/IOM12B 및 IOM6 모듈을 혼합하기 전에 모든 브리지 포트를 사용하십시오.</p>
 </div>
 </li>
 <li>
-<p>ONTAP 시스템 및 버전은 동일한 스택(혼합 스택)에서 IOM6 쉘프와 IOM12 쉘프를 함께 지원해야 합니다.</p>
+<p>ONTAP 시스템 및 버전은 동일한 스택(혼합 스택)에서 IOM6 쉘프와 IOM12/IOM12B 쉘프의 혼합 구성을 지원해야 합니다.</p>
 <div class="paragraph">
 <p>다음 방법 중 하나를 사용하여 지원을 확인할 수 있습니다.</p>
 </div>
@@ -6295,7 +6295,7 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 </div>
 </li>
 <li>
-<p>IOM6 쉘프 스택은 IOM12 쉘프를 핫 추가하고, SAS 구리 케이블(모든 쉘프-쉘프 및 컨트롤러-스택 연결)으로 케이블을 연결해야 합니다.</p>
+<p>IOM12/IOM12B 쉘프를 핫 추가하고 있는 IOM6 쉘프 스택은 SAS 구리 케이블(모든 쉘프-쉘프 및 컨트롤러-스택 연결)으로 케이블이 연결되어야 합니다.</p>
 <div class="paragraph">
 <p>SAS 광 케이블은 혼합 스택에서 지원되지 않습니다.</p>
 </div>
@@ -6306,7 +6306,7 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <img src="/us-en/ontap-systems/images/note.svg" alt="참고">
 </td>
 <td class="content">
-IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫 추가할 수 없습니다. NetApp 세일즈 담당자에게 문의하십시오.
+IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12/IOM12B 쉘프를 핫 추가할 수 없습니다. NetApp 세일즈 담당자에게 문의하십시오.
 </td>
 </tr>
 </table>
@@ -6316,9 +6316,9 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <p>구성에 브리지 포트에 대해 지원되는 최대 드라이브 수보다 작아야 합니다.</p>
 </li>
 <li>
-<p>IOM12 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.</p>
+<p>IOM12/IOM12B 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.</p>
 <div class="paragraph">
-<p>IOM12 쉘프는 미니 SAS HD 커넥터를 사용합니다. IOM6 쉘프는 QSFP 커넥터를 사용합니다.</p>
+<p>IOM12/IOM12B 쉘프는 미니 SAS HD 커넥터를 사용합니다. IOM6 쉘프는 QSFP 커넥터를 사용합니다.</p>
 </div>
 </li>
 <li>
@@ -6332,19 +6332,19 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <h2 id="핫-애드-고려-사항">핫 애드 고려 사항</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하기 전에 이 절차에 대한 측면과 모범 사례를 숙지해야 합니다.</p>
+<p>IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하기 전에 이 절차에 대한 측면과 모범 사례를 숙지해야 합니다.</p>
 </div>
 <div class="sect2">
 <h3 id="일반-고려-사항">일반 고려 사항</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>시스템에 케이블을 연결하기 전에 핫 추가할 IOM12 쉘프의 펌웨어 버전 0260 이상을 실행하는 것이 좋습니다.</p>
+<p>시스템에 케이블을 연결하기 전에 핫 추가할 IOM12/IOM12B 셸프에 펌웨어 버전 0260 이상을 실행하는 것이 좋습니다.</p>
 <div class="paragraph">
 <p>지원되는 버전의 쉘프 펌웨어를 사용하면 핫 추가된 쉘프를 스택에 잘못 연결한 경우 스토리지 스택 액세스 문제를 방지할 수 있습니다.</p>
 </div>
 <div class="paragraph">
-<p>IOM12 쉘프 펌웨어를 쉘프에 다운로드한 후, 두 컨트롤러 중 하나의 콘솔에 있는 'storage shelf show-module' 명령을 입력하여 펌웨어 버전이 0260 이상인지 확인합니다.</p>
+<p>IOM12/IOM12B 쉘프 펌웨어를 쉘프에 다운로드한 후, 두 컨트롤러 중 하나의 콘솔에 있는 'storage shelf show-module' 명령을 입력하여 펌웨어 버전이 0260 이상인지 확인합니다.</p>
 </div>
 </li>
 <li>
@@ -6784,7 +6784,7 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <h2 id="핫-애드-위한-케이블-선반">핫 애드 위한 케이블 선반</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>IOM12 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 IOM12 쉘프가 최초의 IOM12 쉘프인지, 즉 스택에 다른 IOM12 쉘프가 있는지 여부에 따라 다릅니다. 또는 기존 혼합 스택에 대한 IOM12 셸프인지 여부입니다. 즉, 스택에 이미 하나 이상의 IOM12 셸프가 존재함을 의미합니다. 또한 다중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 연결이 있는지 여부에 따라 달라집니다.</p>
+<p>IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 IOM12 쉘프가 첫 IOM12/IOM12B 쉘프인지, 즉 스택에 다른 IOM12 쉘프가 있는지 여부에 따라 다릅니다. 또는 기존 혼합 스택에 대한 추가 IOM12/IOM12B 셸프인지 여부입니다. 즉, 스택에 IOM12/IOM12B 쉘프가 이미 존재합니다. 또한 다중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 연결이 있는지 여부에 따라 달라집니다.</p>
 </div>
 <div class="ulist">
 <div class="title">시작하기 전에</div>
@@ -6813,9 +6813,9 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <div class="title">이 작업에 대해</div>
 <ul>
 <li>
-<p>스택 내에서 단일 속도 전환을 유지하기 위해 항상 스택의 논리적 마지막 쉘프에 IOM12 쉘프를 핫 추가합니다.</p>
+<p>스택 내에서 단일 속도 전환을 유지하기 위해 항상 스택의 마지막 논리적 쉘프에 IOM12/IOM12B 쉘프를 핫 추가합니다.</p>
 <div class="paragraph">
-<p>스택의 논리 마지막 쉘프에 IOM12 쉘프를 핫 추가해도 IOM6 쉘프는 함께 그룹화되어 있으며, IOM12 쉘프는 함께 그룹화되어 있어 두 쉘프 그룹 간에 단일 속도 변화가 가능합니다.</p>
+<p>스택의 마지막 논리적 쉘프에 IOM12/IOM12B 쉘프를 핫 추가하면 IOM6 쉘프가 그룹화되어 계속 표시되며, IOM12/IOM12B 쉘프는 함께 그룹화되어 두 쉘프 그룹 간에 단일 속도의 전환이 가능합니다.</p>
 </div>
 <div class="paragraph">
 <p>예를 들면 다음과 같습니다.</p>
@@ -6823,20 +6823,20 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <div class="ulist">
 <ul>
 <li>
-<p>HA 2노드의 경우 2개의 IOM6 쉘프와 2개의 IOM12 쉘프가 포함된 스택 내에서 단일 속도의 전환이 다음과 같이 표현됩니다.</p>
+<p>HA 2노드의 경우 2개의 IOM6 쉘프와 2개의 IOM12/IOM12B 쉘프가 포함된 스택 내에서 단일 속도의 전환이 다음과 같이 표현됩니다.</p>
 <div class="literalblock">
 <div class="content">
-<pre> Controller &lt;-&gt; IOM6 &lt;-&gt; IOM6 &lt;---&gt; IOM12 &lt;-&gt; IOM12 &lt;-&gt; Controller
+<pre> Controller &lt;-&gt; IOM6 &lt;-&gt; IOM6 &lt;---&gt; IOM12IOM12B &lt;-&gt; IOM12/IOM12B &lt;-&gt; Controller
 ** 온보드 IOM12E 스토리지가 있는 HA 쌍에서는 2개의 IOM12 쉘프와 2개의 IOM6 쉘프가 포함된 스택 내에서 단일 속도 전환이 다음과 같이 표현됩니다.</pre>
 </div>
 </div>
 <div class="literalblock">
 <div class="content">
-<pre>IOM12E 0b &lt;-&gt; IOM12 &lt;-&gt; IOM12 &lt;---&gt; IOM6 &lt;-&gt; IOM6 &lt;-&gt; IOM12E 0a</pre>
+<pre>IOM12E 0b &lt;-&gt; IOM12/IOM12B &lt;-&gt; IOM12/IOM12B &lt;---&gt; IOM6 &lt;-&gt; IOM6 &lt;-&gt; IOM12E 0a</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>온보드 스토리지 포트 0b는 내부 스토리지(확장기)의 포트이며 핫 추가 IOM12 쉘프(스택의 마지막 쉘프)에 연결하므로 IOM12 쉘프 그룹은 함께 유지되고 스택 및 온보드 IOM12E 스토리지를 통해 단일 전환이 유지됩니다.</p>
+<p>온보드 스토리지 포트 0b는 내부 스토리지(확장기)의 포트이며 핫Added IOM12/IOM12B 쉘프(스택의 마지막 쉘프)에 연결되므로 IOM12/IOM12B 쉘프 그룹은 함께 유지되고 단일 전환은 스택 및 온보드 IOM12E 스토리지를 통해 유지됩니다.</p>
 </div>
 </li>
 </ul>
@@ -6846,9 +6846,9 @@ IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫
 <p>혼합 스택에서는 단일 속도 전환만 지원됩니다. 추가 속도 전환은 사용할 수 없습니다. 예를 들어, 스택 내에 다음과 같이 두 가지 속도의 전환이 있을 수 없습니다.</p>
 <div class="literalblock">
 <div class="content">
-<pre> Controller &lt;-&gt; IOM6 &lt;-&gt; IOM6 &lt;---&gt; IOM12 &lt;-&gt; IOM12 &lt;---&gt; IOM6 &lt;-&gt; Controller
+<pre> Controller &lt;-&gt; IOM6 &lt;-&gt; IOM6 &lt;---&gt; IOM12/IOM12B &lt;-&gt; IOM12/IOM12B &lt;---&gt; IOM6 &lt;-&gt; Controller
 * 혼합 스택에 IOM6 쉘프를 핫 추가할 수 있습니다. 하지만 스택에서 단일 속도 전환을 유지하려면 IOM6 쉘프(기존 IOM6 쉘프 그룹)를 사용하여 스택의 측면에 핫 추가해야 합니다.
-* IOM A 경로의 SAS 포트를 먼저 연결하여 IOM12 쉘프를 연결한 다음, 스택 연결에 해당하는 IOM B 경로의 케이블 연결 단계를 반복합니다.</pre>
+* IOM A 경로의 SAS 포트를 먼저 연결하여 IOM12/IOM12B 쉘프에 케이블을 연결한 다음, 스택 연결에 해당하는 IOM B 경로에 대해 케이블 연결 단계를 반복합니다.</pre>
 </div>
 </div>
 <div class="admonitionblock note">
@@ -6865,7 +6865,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>초기 IOM12 쉘프(IOM12 쉘프, 논리적으로 마지막 IOM6 쉘프에 연결)는 항상 IOM6 쉘프 서클 포트(사각 포트가 아님)에 연결됩니다.</p>
+<p>초기 IOM12/IOM12B 쉘프(논리적 마지막 IOM6 쉘프에 연결하는 IOM12 쉘프)는 항상 IOM6 쉘프 원 포트(사각 포트가 아님)에 연결됩니다.</p>
 </li>
 <li>
 <p>SAS 케이블 커넥터는 SAS 포트에 올바르게 꽂으면 딸깍 소리가 나면서 제자리에 고정됩니다.</p>
@@ -6874,7 +6874,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>FC-to-SAS 브리지를 사용하지 않는 구성에서 IOM6 쉘프 스택에 IOM12 쉘프를 연결하는 방법은 다음 그림을 참조하십시오.</p>
+<p>FC-to-SAS 브리지를 사용하지 않는 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 다음 그림을 참조하십시오.</p>
 <div class="paragraph">
 <p>이 그림은 다중 경로 HA 연결을 지원하는 스택에만 해당되며, 다중 경로, 단일 경로 HA, 단일 경로 연결 및 확장 MetroCluster 구성을 지원하는 스택에 케이블 연결 개념을 적용할 수 있습니다.</p>
 </div>
@@ -6885,7 +6885,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>다음 그림은 브리지 연결 MetroCluster 구성에서 IOM6 쉘프 스택에 IOM12 쉘프를 연결하는 방법을 보여 줍니다. <span class="image"><img src="../media/hot_adding_iom12_shelves_to_iom6_stack_in_bridge_attached_config.png" alt=""></span></p>
+<p>다음 그림은 브리지 연결 MetroCluster 구성에서 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 연결하는 방법을 보여 줍니다. <span class="image"><img src="../media/hot_adding_iom12_shelves_to_iom6_stack_in_bridge_attached_config.png" alt=""></span></p>
 </li>
 </ul>
 </div>
@@ -6899,7 +6899,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>IOM12 쉘프가 핫추가 중인 경우, IOM6 스택에 추가되는 첫 번째 IOM12 셸프입니다. 즉, IOM6 쉘프 스택에는 다른 IOM12 쉘프가 없으므로 해당 하위 단계를 완료하십시오.</p>
+<p>IOM6 스택에 IOM12/IOM12B 쉘프가 추가되었습니다. 즉, IOM6 쉘프에 다른 IOM12/IOM12B 쉘프가 존재하지 않는 IOM12/IOM12B 쉘프를 추가하려면 해당 하위 단계를 완료하십시오.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -6946,13 +6946,13 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>마지막 IOM6 쉘프 IOM A의 쉘프 연결을 하위 단계 A에서 새로운 IOM12 쉘프 IOM A 포트 1로 케이블로 연결합니다.</p>
+<p>마지막 IOM6 쉘프 IOM A 원 포트(하위 단계 A에서 새 IOM12/IOM12B 쉘프 IOM A 포트 1)에 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 QSFP-미니-SAS HD 케이블을 사용합니다.</p>
 </div>
 </li>
 <li>
-<p>또 다른 IOM12 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12 쉘프 IOM A 포트 3, 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
+<p>다른 IOM12/IOM12B 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12/IOM12B 쉘프 IOM A 포트 3 및 다음 IOM12/IOM12B 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.</p>
 </div>
@@ -7000,7 +7000,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>또 다른 IOM12 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12 쉘프 IOM A 포트 3, 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
+<p>다른 IOM12/IOM12B 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12/IOM12B 쉘프 IOM A 포트 3 및 다음 IOM12/IOM12B 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.</p>
 </div>
@@ -7030,7 +7030,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>마지막 IOM6 쉘프 IOM A 원형 포트와 새로운 IOM12 쉘프 IOM A 포트 1 사이에 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
+<p>마지막 IOM6 쉘프 IOM A 원형 포트와 새로운 IOM12/IOM12B 쉘프 IOM A 포트 1 사이의 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 QSFP-미니-SAS HD 케이블을 사용합니다.</p>
 </div>
@@ -7039,7 +7039,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <p>IOM B에 대해 위의 하위 단계를 반복합니다</p>
 </li>
 <li>
-<p>다른 IOM12 쉘프를 핫 추가하는 경우 a 및 b 하위 단계를 반복합니다</p>
+<p>다른 IOM12/IOM12B 쉘프를 핫 추가하는 경우, a 및 b 하위 단계를 반복합니다</p>
 <div class="paragraph">
 <p>그렇지 않으면 4단계로 이동합니다.</p>
 </div>
@@ -7051,7 +7051,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </table>
 </li>
 <li>
-<p>기존 혼합 스택에 IOM12 셸프가 추가된 경우(하나 이상의 IOM12 셸프가 스택에 이미 존재하는 경우) 해당 하위 단계를 완료합니다.</p>
+<p>IOM12/IOM12B 셸프가 추가 IOM12/IOM12B 셸프로 기존 혼합 스택에 있는 경우(즉, 스택에 하나 이상의 IOM12/IOM12B 쉘프가 이미 존재하는 경우) 해당 하위 단계를 완료합니다.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -7083,10 +7083,10 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>컨트롤러-스택 케이블을 마지막 IOM12 쉘프 IOM A 포트 3에서 새로운 마지막 IOM12 쉘프의 동일한 포트로 이동합니다.</p>
+<p>컨트롤러-스택 케이블을 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3에서 마지막 새 IOM12/IOM12B 쉘프의 동일한 포트로 이동합니다.</p>
 </li>
 <li>
-<p>IOM12 쉘프 1개를 핫 추가하는 경우, 이전 IOM12 쉘프 IOM A 포트 3 간의 쉘프-쉘프 연결을 마지막 IOM12 쉘프 IOM A 포트 1에 케이블로 연결합니다.</p>
+<p>IOM12/IOM12B 쉘프 1개를 핫 추가하는 경우, 이전의 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3 간의 쉘프 연결을 마지막 새 IOM12/IOM12B 쉘프 IOM A 포트 1에 케이블로 연결합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.</p>
 </div>
@@ -7095,7 +7095,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 </div>
 </li>
 <li>
-<p>IOM12 쉘프를 2개 이상 핫 추가할 경우, 이전 IOM12 쉘프 IOM A 포트 3과 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12 쉘프에 대해 이 과정을 반복합니다.</p>
+<p>둘 이상의 IOM12/IOM12B 쉘프를 핫 추가하는 경우, 이전의 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3과 다음 IOM12B 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12/IOM12B 쉘프에 대해 이 과정을 반복합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 추가로 사용합니다.</p>
 </div>
@@ -7119,16 +7119,16 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>이전의 마지막 IOM12 쉘프의 하단 브리지-스택 케이블을 새로운 마지막 IOM12 쉘프의 동일한 포트로 이동합니다.</p>
+<p>이전의 마지막 IOM12/IOM12B 쉘프에서 하단 브리지-스택 케이블을 최신 IOM12/IOM12B 쉘프의 동일한 포트로 이동합니다.</p>
 </li>
 <li>
-<p>이전의 마지막 IOM12 쉘프 IOM A 포트 3과 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12 쉘프에 대해 이 연결을 반복합니다.</p>
+<p>이전의 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3과 다음 IOM12/IOM12B 쉘프 IOM A 포트 1 사이에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12/IOM12B 쉘프에 대해 이 과정을 반복합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.</p>
 </div>
 </li>
 <li>
-<p>이전의 마지막 IOM12 쉘프 IOM B 포트 3과 다음 IOM12 쉘프 IOM B 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12 쉘프에 대해 이 연결을 반복합니다.</p>
+<p>이전의 마지막 IOM12/IOM12B 쉘프 IOM B 포트 3과 다음 IOM12/IOM12B 쉘프 IOM B 포트 1 사이에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12/IOM12B 쉘프에 대해 이 과정을 반복합니다.</p>
 </li>
 <li>
 <p>4단계로 이동합니다.</p>
@@ -7143,7 +7143,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>마지막 IOM12 쉘프 IOM A 포트 3과 마지막 새 IOM12 쉘프 IOM A 포트 1 사이의 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
+<p>마지막 IOM12/IOM12B 쉘프 IOM A 포트 3과 마지막 새 IOM12/IOM12B 쉘프 IOM A 포트 1 사이의 쉘프-쉘프 연결을 케이블로 연결합니다.</p>
 <div class="paragraph">
 <p>SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.</p>
 </div>
@@ -7152,7 +7152,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <p>IOM B에 대해 위의 하위 단계를 반복합니다</p>
 </li>
 <li>
-<p>다른 IOM12 쉘프를 핫 추가하는 경우 a 및 b 하위 단계를 반복합니다</p>
+<p>다른 IOM12/IOM12B 쉘프를 핫 추가하는 경우, a 및 b 하위 단계를 반복합니다</p>
 <div class="paragraph">
 <p>그렇지 않으면 4단계로 이동합니다.</p>
 </div>
@@ -7201,7 +7201,7 @@ MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.
 <h2 id="핫-애드-완료">핫 애드 완료</h2>
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하기 위한 준비 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</p>
+<p>IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하기 위한 준비 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</p>
 </div>
 <div class="paragraph">
 <p>시스템에 대한 지침에 따라 이미 쉘프의 케이블을 연결해야 합니다.</p>
