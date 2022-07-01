@@ -1,10 +1,10 @@
 ---
 permalink: sas3/install-new-system.html 
 sidebar: sidebar 
-keywords: install, cabling, cable, disk, shelves, shelf, iom12, module, system, installation, system, ha, pair, single-controller, configuration, cabinet, rack, requirement, install and cable disk shelves with iom12 modules for a new system installation, requirements for installing and cabling disk shelves with iom12 modules for a new system installation, considerations for installing and cabling disk shelves with iom12 modules for a new system installation, install disk shelves with iom12 modules for a new system installation, cable disk shelves with iom12 modules for a new system installation, DS460C, transport DS460C, move DS460C, remove drives from DS460C, DS460C drive handling 
+keywords: install, cabling, cable, disk, shelves, shelf, iom12, module, system, installation, system, ha, pair, single-controller, configuration, cabinet, rack, requirement, install and cable disk shelves with iom12 modules for a new system installation, requirements for installing and cabling disk shelves with iom12 modules for a new system installation, considerations for installing and cabling disk shelves with iom12 modules for a new system installation, install disk shelves with iom12 modules for a new system installation, cable disk shelves with iom12 modules for a new system installation, DS460C, transport DS460C, move DS460C, remove drives from DS460C, DS460C drive handling, iom12b 
 summary: '새 시스템(HA 쌍 또는 단일 컨트롤러 구성)이 캐비닛에 설치되지 않은 경우 디스크 쉘프를 랙에 설치하고 케이블을 연결해야 합니다.' 
 ---
-= 새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12 모듈 장착 선반
+= 새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ summary: '새 시스템(HA 쌍 또는 단일 컨트롤러 구성)이 캐비닛�
 
 
 
-== 새로운 시스템 설치를 위해 IOM12 모듈을 이용한 디스크 쉘프 설치 및 케이블 연결 요구 사항
+== 새 시스템 설치를 위해 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치 및 케이블 연결 요구 사항
 
 [role="lead"]
 디스크 쉘프를 설치 및 케이블로 연결하기 전에 특정 요구사항을 충족해야 합니다.
@@ -36,7 +36,7 @@ link:../index.html["AFF 및 FAS 시스템 설명서"]
 
 
 
-== 새로운 시스템 설치를 위해 IOM12 모듈을 사용하여 디스크 쉘프를 설치 및 케이블로 연결할 때의 고려 사항
+== 새 시스템 설치를 위해 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치 및 케이블 연결 시 고려 사항
 
 [role="lead"]
 디스크 쉘프를 설치 및 케이블로 연결하기 전에 이 절차의 측면과 모범 사례를 숙지해야 합니다.
@@ -45,7 +45,7 @@ link:../index.html["AFF 및 FAS 시스템 설명서"]
 
 === 일반 고려 사항
 
-* IOM12 모듈이 포함된 디스크 쉘프는 쉘프 ID가 00으로 사전 설정된 상태로 제공됩니다.
+* IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 쉘프 ID가 00으로 사전 설정된 상태로 제공됩니다.
 +
 
 NOTE: 2개 이상의 스택이 있는 HA 쌍이 있는 경우, 두 번째 스택의 루트 애그리게이트를 포함하는 디스크 쉘프의 쉘프 ID는 10으로 사전 설정되어 있습니다.
@@ -133,7 +133,7 @@ NOTE: 디스크 드라이브를 설치할 준비가 될 때까지 ESD 가방에 
 
 
 
-== 새로운 시스템 설치를 위해 IOM12 모듈과 디스크 쉘프를 설치합니다
+== 새 시스템 설치를 위해 IOM12/IOM12B 모듈과 디스크 쉘프를 설치합니다
 
 [role="lead"]
 디스크 쉘프와 함께 제공된 랙 마운트 키트를 사용하여 디스크 쉘프를 랙에 설치합니다.
@@ -240,7 +240,7 @@ NOTE: 지금은 디스크 쉘프의 전원을 사용하지 마십시오.
 
 
 
-== 새로운 시스템 설치를 위해 IOM12 모듈과 디스크 쉘프 케이블 연결
+== 새 시스템 설치용 IOM12/IOM12B 모듈과 디스크 쉘프 케이블 연결
 
 [role="lead"]
 쉘프-쉘프(해당하는 경우) 및 컨트롤러-쉘프-케이블을 연결하여 시스템에 대한 스토리지 연결을 설정합니다.

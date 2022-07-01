@@ -875,7 +875,6 @@
   <block id="f701e26d56fb0ec3c0d9ba7763e2891c" category="admonition">진단 프로그램을 실행한 후에는 항목을 추가하거나 수정하지 마십시오.</block>
   <block id="52cc19f0b40712640b9045caa499f77b" category="paragraph">'* sldiag 장치 상태 - long-state 실패 *</block>
   <block id="c96ba587407b7de20ae8f5750c50673c" category="summary">ONTAP가 아직 실행되지 않거나 시스템에 케이블로 연결되기 전에 쉘프를 핫 추가할 때 시스템의 쉘프 ID를 변경할 수 있습니다. ONTAP가 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음) 쉘프 ID를 변경할 수도 있고, 쉘프의 모든 드라이브가 소유되지 않은 상태, 스페어 또는 오프라인 애그리게이트의 일부일 때도 변경할 수 있습니다.</block>
-  <block id="dad70355d3eedda1dd51d44624779698" category="doc">IOM12 모듈을 사용하여 쉘프 ID-쉘프 변경</block>
   <block id="7bb2de11f19c9aab4053bb448f6f6712" category="paragraph">ONTAP가 아직 실행되지 않거나 시스템에 케이블로 연결되기 전에 쉘프를 핫 추가할 때 시스템의 쉘프 ID를 변경할 수 있습니다. 또한 ONTAP가 가동 중이고 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음) 쉘프 ID를 변경할 수 있으며 쉘프의 모든 드라이브가 소유 안 됨, 스페어 또는 오프라인 애그리게이트의 일부임</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="d1433048cd9c5a1ba76a8df5300f9864" category="list-text">ONTAP가 실행 중인 경우(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음), 쉘프의 모든 드라이브가 소유되지 않은 애그리게이트, 스페어 또는 오프라인 애그리게이트의 일부인지 확인해야 합니다.</block>
@@ -912,12 +911,10 @@
   <block id="26a846deb04c0d63c063041ad0fa15ef" category="list-text">Active IQ Config Advisor를 실행하여 중복 쉘프 ID 알림을 확인하거나 'storage shelf show-fields shelf-id' 명령을 실행하여 중복 ID를 포함하여 이미 사용 중인 쉘프 ID 목록을 확인하십시오.</block>
   <block id="8599052dc8c8c0f79b1edc766e0bb77e" category="list-text">시스템에 중복 쉘프 ID가 있는 경우 이 절차를 반복하여 중복 쉘프 ID를 변경하십시오.</block>
   <block id="7a48725aae87c25c20800da734657f8d" category="summary">이 예는 완료된 워크시트를 읽고 케이블 컨트롤러-스택 간 연결에 IOM12 모듈을 사용하는 디스크 쉘프의 케이블 컨트롤러-스택 연결에 적용하는 방법을 안내합니다.</block>
-  <block id="3d08def89864cfe0e473db695c3b8b2c" category="doc">IOM12 모듈을 사용한 다중 경로 연결 셸프 연결을 위한 컨트롤러-스택 간 케이블 연결을 위한 워크시트를 읽는 방법</block>
   <block id="34a29535255d4c9658cf8667fb70f827" category="paragraph">HA 쌍 또는 단일 컨트롤러 구성은 AFF A200, AFF A220, FAS2600 시리즈 또는 FAS2700 시스템이 될 수 없습니다. 이러한 시스템에서는 고유한 워크시트를 사용합니다.</block>
   <block id="c938619c45a867da395e1f0213cdb4b0" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 예</block>
   <block id="8298bd1953102e090c7ee364e7677f25" category="paragraph"><block ref="8298bd1953102e090c7ee364e7677f25" category="inline-link-macro-rx"></block></block>
   <block id="d69f8bb928c8179d4a1d81a77b9f6a4c" category="list-text">이 절차에서는 컨트롤러-스택 간 케이블 연결에 대한 워크시트를 읽는 방법을 보여 주는 다음 워크시트 및 케이블 연결 예제를 참조합니다.</block>
-  <block id="59da566889699a19d7cab68c1fde27b4" category="paragraph">이 예제에서 사용된 구성은 2개의 4중 포트 SAS HBA(8개의 SAS 포트)가 각 컨트롤러에 있고 2개의 디스크 쉘프 스택과 IOM12 모듈을 포함하는 다중 경로 HA 구성입니다. 포트 쌍은 워크시트의 다른 모든 포트 쌍을 건너뛰어 케이블로 연결됩니다.</block>
   <block id="f590bcd598fe8232b2185b3611156cca" category="admonition">시스템의 스택에 케이블을 연결하는 것보다 많은 포트 쌍이 있는 경우, 시스템의 SAS 포트를 최적화하기 위해 포트 쌍을 건너뛰는 것이 가장 좋습니다. SAS 포트를 최적화하여 시스템 성능을 최적화합니다.</block>
   <block id="a513cfe8d83ba38ea85b01260a4ffb53" category="list-text">단일 컨트롤러 구성이 있는 경우 두 번째 컨트롤러에 케이블을 연결하기 위한 하위 단계 b 및 d를 건너뜁니다.</block>
   <block id="129ad208c03826aef81ff147b924ba05" category="inline-link-macro">SAS 케이블 연결 규칙</block>
@@ -936,7 +933,6 @@
   <block id="c846357c379e2344f2de5f5720e4401d" category="list-text">컨트롤러 1 포트 2D를 스택 2에 케이블로 연결하고, 마지막 쉘프 IOM B 포트 3을 실행합니다.</block>
   <block id="88e5588df4d246ce2bcf7dec06ebfc76" category="list-text">케이블 컨트롤러 2 포트 2D를 스택 2에, 마지막 쉘프 IOM A 포트 3에 연결합니다.</block>
   <block id="72da4c803cace81d299fce3a877d4cba" category="summary">각 DS460C 드라이브 쉘프는 2개의 팬 모듈을 포함합니다. 팬 모듈에 장애가 발생하면 가능한 한 빨리 교체하여 선반이 충분히 냉각되도록 해야 합니다. 장애가 발생한 팬 모듈을 분리할 경우 디스크 쉘프의 전원을 끌 필요가 없습니다.</block>
-  <block id="fa4d12b5f2455c5e2d1dd21058d233de" category="doc">DS460C 디스크 쉘프 쉘프의 팬 모듈을 IOM12 모듈로 교체합니다</block>
   <block id="1d39850c7c315ddebed0ccfb770321d4" category="paragraph">시스템이 과열되지 않도록 팬 모듈을 30분 이내에 분리하고 교체해야 합니다.</block>
   <block id="a300fbfd884ff458fb7de4f74e2cc07c" category="list-text">정전기 방지 보호 장치를 놓습니다.</block>
   <block id="03b9616c320fdafaa018b7edf82f0212" category="list-text">새 팬 모듈의 포장을 풀고 선반 근처의 평평한 표면에 놓습니다.</block>
@@ -963,11 +959,6 @@
   <block id="c50fdb32ee76a4d77a2a4b76520e5bed" category="admonition">팬 모듈을 교체한 후 펌웨어가 팬 모듈이 올바르게 설치되었는지 확인하는 동안 주의 LED가 계속 켜져 있습니다(주황색). 이 프로세스가 완료되면 LED가 꺼집니다.</block>
   <block id="a8280a793d4f574a1e8ec9fdeff29427" category="list-text">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="162c19cb0e58f8c6c83c319b91d9da12" category="paragraph">기술 지원 부서(에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 RMA 번호가 필요한 경우 +800-800-80-800 (아시아/태평양).</block>
-  <block id="18cff2776742187179445dc30242e8e9" category="summary">IOM12 모듈이 포함된 디스크 쉘프는 HA Pair 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블을 연결할 수 있습니다.</block>
-  <block id="97f136905a79484f9d05c2fde9c02854" category="doc">SAS 케이블 연결 규칙 - IOM12 모듈 선반</block>
-  <block id="c0e65a17a528ead03d44199c3ff6bb20" category="paragraph">SAS 케이블 연결 규칙, 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙, 컨트롤러-스택 연결 규칙, 해당하는 경우 미니 SAS HD SAS 광 케이블 규칙 등의 SAS 케이블 연결 규칙을 적용하여 IOM12 모듈을 포함하는 디스크 쉘프를 HA 쌍 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블로 연결할 수 있습니다.</block>
-  <block id="66b998f7d7fdfbd68d264a714d8ea3ac" category="admonition">이 가이드에 설명된 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙 및 컨트롤러-스택 연결 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12, IOM6, IOM3 모듈 등 모든 SAS 디스크 쉘프에 적용되는 동일한 규칙입니다. 그러나 이 가이드의 정보는 IOM12 모듈을 사용하는 디스크 쉘프의 고유한 특성 및 지원되는 구성에서 사용됩니다.</block>
-  <block id="d39cd902472dfe0f14223c46b811932b" category="paragraph">이 가이드에 설명된 구성 규칙 및 미니 SAS HD SAS 광 케이블 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12 모듈을 사용하는 디스크 쉘프에만 적용됩니다.</block>
   <block id="13a358753c734e014332022a647326d0" category="paragraph">이 가이드에 설명된 SAS 케이블 연결 규칙은 온보드 SAS 포트와 호스트 버스 어댑터 SAS 포트 간의 SAS 케이블 연결 균형을 조정하여 고가용성 스토리지 컨트롤러 구성을 제공하고 다음 목표를 충족합니다.</block>
   <block id="e650f09b3c5e7082570989f690e937f2" category="list-text">모든 SAS 제품 및 구성에 대해 쉽게 이해할 수 있는 단일 범용 알고리즘을 제공합니다</block>
   <block id="87d052f6b61021fdd81a25737c46faf1" category="list-text">BOM을 생성할 때 공장 및 현장에서 동일한 물리적 케이블을 생성합니다</block>
@@ -1098,12 +1089,9 @@
   <block id="89f40cf9c4aa9d777ca58d0c2a8b2c91" category="list-text">스택의 쉘프-쉘프 연결은 모든 SAS 구리 케이블 또는 모든 SAS 광 케이블이어야 합니다.</block>
   <block id="9d3db7bfcd4e676bd510caab64ec8d51" category="list-text">쉘프-쉘프 연결이 SAS 광 케이블인 경우, 해당 스택에 대한 컨트롤러-스택 연결도 SAS 광 케이블이어야 합니다.</block>
   <block id="02a51574500eff63a08bc1c345282e3c" category="list-text">쉘프-쉘프 연결이 SAS 구리 케이블인 경우, 해당 스택에 대한 컨트롤러-스택 연결에는 SAS 광 케이블 또는 SAS 구리 케이블이 포함될 수 있습니다.</block>
-  <block id="d3d138262ed0f55d19a69189f52f03ca" category="summary">추가 스토리지가 필요할 경우 IOM6 쉘프(IOM12 모듈을 포함한 SAS 쉘프) 스택에 IOM6 쉘프를 추가할 수 있습니다(IOM6 모듈을 포함한 SAS 쉘프). 다시 말해, 스택을 혼합할 수 있습니다.</block>
   <block id="fe096ebf4601616805c78a6dbc395407" category="doc">IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다</block>
   <block id="eca821c6b2673e81fce80d61c03099a4" category="section-title">핫 애드 요구 사항</block>
-  <block id="40b8c09abd3ab8cd2410441ab74e8f46" category="paragraph">HA 쌍, 단일 컨트롤러 또는 확장 MetroCluster 구성(시스템)은 IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하기 전에 특정 요구사항을 충족해야 합니다.</block>
   <block id="087dd70cd49bca7af2d666a6ce4a73e5" category="admonition">브리지 연결 MetroCluster 구성에 대해서는 를 참조하십시오 <block ref="a36de82ec030fb7c465d75421f1bf354" category="inline-xref-macro-rx"></block>.</block>
-  <block id="b73981b6e178e117df039b0b4c496268" category="list-text">ONTAP 시스템 및 버전은 동일한 스택(혼합 스택)에서 IOM6 쉘프와 IOM12 쉘프를 함께 지원해야 합니다.</block>
   <block id="e9b78b52c00f7174e47b3e3e00f34747" category="paragraph">다음 방법 중 하나를 사용하여 지원을 확인할 수 있습니다.</block>
   <block id="c87b70dfd933003335168887fda9b203" category="list-text">두 컨트롤러의 관리 프롬프트에 ''run local sysconfig'' 명령을 입력합니다.</block>
   <block id="a9e6da69afc7cf19277dce38f3af6658" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드가 출력에 나타나지 않거나 값이 없는 경우 시스템은 혼합 스택을 지원하지 않습니다.</block>
@@ -1120,15 +1108,11 @@
   <block id="c08b36d83324a217b367ef482dda6bff" category="paragraph">SAS 광 케이블은 혼합 스택에서 지원되지 않습니다.</block>
   <block id="79558b80e68c3388b4399b11c12347ac" category="admonition">IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프를 핫 추가할 수 없습니다. NetApp 세일즈 담당자에게 문의하십시오.</block>
   <block id="8ac997f121720a497b3cff0318f505b3" category="list-text">핫 추가할 IOM12 쉘프에 설치할 수 있는 드라이브 수가 지원되는 최대 드라이브 수보다 작아야 합니다.</block>
-  <block id="0e37753f9ec212b577d2cd0e1d9f327e" category="paragraph">IOM12 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 드라이브 수를 초과할 수 없습니다.</block>
   <block id="bbf5512c7d19cdd9d9a6fd9e97d3a51b" category="list-text">시스템에 SAS 케이블 연결 오류 메시지가 없습니다.</block>
   <block id="9fae2a51848c66867a04c7747f054fe4" category="paragraph">오류 메시지에서 제공하는 수정 조치를 사용하여 케이블 연결 오류를 수정해야 합니다.</block>
-  <block id="992139c1f07935c457369a8b228d040e" category="list-text">IOM12 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.</block>
   <block id="3969a8285624065a82b260666129a7d3" category="paragraph">IOM12 쉘프는 미니 SAS HD 커넥터를 사용합니다. IOM6 쉘프는 QSFP 커넥터를 사용합니다.</block>
   <block id="c7566a05bf32290cd12dd8d369e46bd4" category="section-title">브리지 연결 MetroCluster 구성의 핫 애드 요구 사항</block>
-  <block id="45850248856f0338879b9cb8b4984fee" category="paragraph">MetroCluster 구성에서 ATTO FiberBridge 쌍을 사용하여 연결된 IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하는 경우, 시스템은 특정 요구사항을 충족해야 합니다.</block>
   <block id="8c5677f5d5c9a3e27e7aa9a888386129" category="list-text">현재 구성에서 브리지 SAS 포트를 사용할 수 있는 경우 IOM12 쉘프를 별도의 스택으로 추가해야 합니다.</block>
-  <block id="15cf525c29e3077584066ec93be80b2b" category="paragraph">스택에 IOM12와 IOM6 모듈을 혼합하기 전에 모든 브리지 포트를 사용하십시오.</block>
   <block id="bd7825d41c8830b21a19c98ddcd9b85a" category="list-text">두 컨트롤러의 관리 프롬프트에 ''run local sysconfig'' 명령을 입력합니다.</block>
   <block id="9d5ea5ac8c96d6d172e1cc58ef233dd1" category="list-text">구성은 MetroCluster 설치 및 구성 가이드의 모든 요구 사항을 충족해야 합니다.</block>
   <block id="39d46c9b8c2da59196572bcb75b09f65" category="inline-link">확장 MetroCluster 구성 설치 및 구성</block>
@@ -1138,11 +1122,8 @@
   <block id="6e4c499bdd2966c2b90a216c4bda1fb3" category="list-text">구성에 브리지 포트에 대해 지원되는 최대 드라이브 수보다 작아야 합니다.</block>
   <block id="6da9e0f76a9feddbef77395623172c84" category="list-text">브리지는 펌웨어 버전 3.16/4.16 이상을 실행해야 합니다.</block>
   <block id="a88a83b0bfb523c178bf4c0cfdf68574" category="section-title">핫 애드 고려 사항</block>
-  <block id="8c432b127601831790bd7d695c0029d0" category="paragraph">IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하기 전에 이 절차에 대한 측면과 모범 사례를 숙지해야 합니다.</block>
   <block id="3516c8ba7b35045de92853ce609c11f7" category="section-title">일반 고려 사항</block>
-  <block id="6ba12b1b5e7e34fc318fb4e006d6eb53" category="list-text">시스템에 케이블을 연결하기 전에 핫 추가할 IOM12 쉘프의 펌웨어 버전 0260 이상을 실행하는 것이 좋습니다.</block>
   <block id="dd6fd6077c76a89a726fd6fd4df5ecd6" category="paragraph">지원되는 버전의 쉘프 펌웨어를 사용하면 핫 추가된 쉘프를 스택에 잘못 연결한 경우 스토리지 스택 액세스 문제를 방지할 수 있습니다.</block>
-  <block id="fff9549320af463836f0563314d1e238" category="paragraph">IOM12 쉘프 펌웨어를 쉘프에 다운로드한 후, 두 컨트롤러 중 하나의 콘솔에 있는 'storage shelf show-module' 명령을 입력하여 펌웨어 버전이 0260 이상인지 확인합니다.</block>
   <block id="df9362a84fd3cff7395403ecc0c32568" category="list-text">무중단 스택 통합은 지원되지 않습니다.</block>
   <block id="0f6e8d5b865b4c7c9708f487f977f5d6" category="paragraph">이 절차를 사용하여 시스템 전원을 켜고 데이터를 제공하는 동안(I/O가 진행 중) 동일한 시스템의 다른 스택에서 핫 제거된 디스크 쉘프를 핫 추가할 수는 없습니다.</block>
   <block id="cc2b41a35c221fb91dbefde3e869ed2d" category="list-text">이 절차를 사용하여 해당 쉘프에서 핫 제거한 디스크 쉘프를 동일한 MetroCluster 시스템 내에서 핫 추가할 수 있습니다.</block>
@@ -1222,31 +1203,21 @@
   <block id="74ee2dd8c1c457d065bbe6699d54d9d2" category="paragraph">두 전원 스위치를 모두 끄고 10초 정도 기다린 다음 전원을 다시 켜서 전원을 껐다 켜야 합니다.</block>
   <block id="1127d0feda6e469dce912ad847745999" category="list-text">핫 추가할 각 쉘프에 대해 b-g 하위 단계를 반복합니다.</block>
   <block id="ac6725fb813060a9b7afc55f795aae39" category="section-title">핫 애드 위한 케이블 선반</block>
-  <block id="195d94d351e70d915dbfa7ea732f64c4" category="paragraph">IOM12 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 IOM12 쉘프가 최초의 IOM12 쉘프인지, 즉 스택에 다른 IOM12 쉘프가 있는지 여부에 따라 다릅니다. 또는 기존 혼합 스택에 대한 IOM12 셸프인지 여부입니다. 즉, 스택에 이미 하나 이상의 IOM12 셸프가 존재함을 의미합니다. 또한 다중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 연결이 있는지 여부에 따라 달라집니다.</block>
   <block id="93484edf29512f42176285d1b3aaffee" category="list-text">필요한 경우 준비 절차를 완료해야 합니다.</block>
   <block id="7aa59d062d2da8d407e876bd47370fa0" category="paragraph"><block ref="1f1303724d0c3c3fd20087be0397e475" category="inline-xref-macro-rx"></block></block>
   <block id="6c4ae44d1114274bf4744f7a456ce07c" category="list-text">쉘프를 설치하고 전원을 켠 다음 쉘프 ID를 설정해야 합니다.</block>
   <block id="f687c0bac0c7622f56dbb2b4da300a72" category="paragraph"><block ref="395b2cdcd845cc34c1cb8c041e444e72" category="inline-xref-macro-rx"></block></block>
-  <block id="7df56e2d89cedcfb19c366a5f5ba1ba3" category="list-text">스택 내에서 단일 속도 전환을 유지하기 위해 항상 스택의 논리적 마지막 쉘프에 IOM12 쉘프를 핫 추가합니다.</block>
-  <block id="3ec286ca7aef209a82a25f8e44cfe008" category="paragraph">스택의 논리 마지막 쉘프에 IOM12 쉘프를 핫 추가해도 IOM6 쉘프는 함께 그룹화되어 있으며, IOM12 쉘프는 함께 그룹화되어 있어 두 쉘프 그룹 간에 단일 속도 변화가 가능합니다.</block>
   <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">예를 들면 다음과 같습니다.</block>
-  <block id="35ff2a2b75ed583f6d17f8fc93c2bded" category="list-text">HA 2노드의 경우 2개의 IOM6 쉘프와 2개의 IOM12 쉘프가 포함된 스택 내에서 단일 속도의 전환이 다음과 같이 표현됩니다.</block>
   <block id="cb9ba118de906a291cd694ac2df4fdae" category="list-text">온보드 IOM12E 스토리지가 있는 HA 쌍에서는 2개의 IOM12 쉘프와 2개의 IOM6 쉘프가 포함된 스택 내에서 단일 속도 전환이 다음과 같이 표현됩니다.</block>
-  <block id="39756e456d1fa63aae03504421b7e0d3" category="paragraph">온보드 스토리지 포트 0b는 내부 스토리지(확장기)의 포트이며 핫 추가 IOM12 쉘프(스택의 마지막 쉘프)에 연결하므로 IOM12 쉘프 그룹은 함께 유지되고 스택 및 온보드 IOM12E 스토리지를 통해 단일 전환이 유지됩니다.</block>
   <block id="eadd8b5aeac3b3cac91a5861456a7daf" category="list-text">혼합 스택에서는 단일 속도 전환만 지원됩니다. 추가 속도 전환은 사용할 수 없습니다. 예를 들어, 스택 내에 다음과 같이 두 가지 속도의 전환이 있을 수 없습니다.</block>
   <block id="785690423679fc729d3390cf87c73c79" category="list-text">혼합 스택에 IOM6 쉘프를 핫 추가할 수 있습니다. 하지만 스택에서 단일 속도 전환을 유지하려면 IOM6 쉘프(기존 IOM6 쉘프 그룹)를 사용하여 스택의 측면에 핫 추가해야 합니다.</block>
-  <block id="08da1810aa1c7164b3f9cb727aa45dee" category="list-text">IOM A 경로의 SAS 포트를 먼저 연결하여 IOM12 쉘프를 연결한 다음, 스택 연결에 해당하는 IOM B 경로의 케이블 연결 단계를 반복합니다.</block>
   <block id="954499b275aa6b0244088769d4cab500" category="admonition">MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.</block>
-  <block id="52c0221a4c6cfa666d5a9af47d2917f3" category="list-text">초기 IOM12 쉘프(IOM12 쉘프, 논리적으로 마지막 IOM6 쉘프에 연결)는 항상 IOM6 쉘프 서클 포트(사각 포트가 아님)에 연결됩니다.</block>
   <block id="f260b20153205d9038127e4a15618a0f" category="list-text">SAS 케이블 커넥터는 SAS 포트에 올바르게 꽂으면 딸깍 소리가 나면서 제자리에 고정됩니다.</block>
   <block id="10ae5a4ce8cb24c89ab7989958cb34b9" category="paragraph">쉘프의 경우 당김 탭을 아래로 향하게 하여(커넥터 아래쪽에 있음) SAS 케이블 커넥터를 삽입합니다. 컨트롤러의 경우 SAS 포트 방향은 플랫폼 모델에 따라 다를 수 있으므로 SAS 케이블 커넥터의 올바른 방향은 서로 다릅니다.</block>
-  <block id="a1acde8be5e3eb1d79a962a3ec3f99dc" category="list-text">FC-to-SAS 브리지를 사용하지 않는 구성에서 IOM6 쉘프 스택에 IOM12 쉘프를 연결하는 방법은 다음 그림을 참조하십시오.</block>
   <block id="80e0a56bad8ed4beffb511e7a7644751" category="paragraph">이 그림은 다중 경로 HA 연결을 지원하는 스택에만 해당되며, 다중 경로, 단일 경로 HA, 단일 경로 연결 및 확장 MetroCluster 구성을 지원하는 스택에 케이블 연결 개념을 적용할 수 있습니다.</block>
   <block id="9eae6e522d01233eda31813671040bc9" category="image-alt">drw SAS2 sas3 혼합 스택</block>
-  <block id="7634bb9cc34b77912adf964cf61c3014" category="list-text">다음 그림은 브리지 연결 MetroCluster 구성에서 IOM6 쉘프 스택에 IOM12 쉘프를 연결하는 방법을 보여 줍니다. <block ref="3bf7d126d94220be52cd0d278e98261d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4450110a0add0d3dc0ed544c4dc9587" category="list-text">스택에서 논리적 마지막 쉘프를 물리적으로 식별합니다.</block>
   <block id="dcb30e1abfaaa4b668dce7194e9a2977" category="paragraph">플랫폼 모델 및 스택 연결(다중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로)에 따라, 컨트롤러의 SAS 포트 B 및 D에서 컨트롤러-스택 연결 쉘프가 마지막 셸프로, 컨트롤러-스택 연결은 컨트롤러 SAS 포트 A 및 C를 통해 스택의 논리 상단과 연결되기 때문에 컨트롤러에 연결되지 않은 쉘프입니다.</block>
-  <block id="80eab1f919093463299353422047b939" category="list-text">IOM12 쉘프가 핫추가 중인 경우, IOM6 스택에 추가되는 첫 번째 IOM12 셸프입니다. 즉, IOM6 쉘프 스택에는 다른 IOM12 쉘프가 없으므로 해당 하위 단계를 완료하십시오.</block>
   <block id="3290caa995109a5019ab331bcbb4fd8c" category="paragraph">그렇지 않으면 3단계로 이동합니다.</block>
   <block id="49ae96093ef4318ebea3748695f1f2ec" category="cell">IOM6 스택 연결 기능이 다음과 같은 경우에 사용 가능합니다.</block>
   <block id="86ce44b3919ce611e611db5c55786de7" category="paragraph">다중 경로 HA 또는 다중 경로 또는 컨트롤러를 마지막 논리적 쉘프에 연결하는 단일 경로 HA(스트레치 MetroCluster 구성 포함)</block>
@@ -1256,7 +1227,6 @@
   <block id="e9ba2695cb468ef719b2b099a63ad4e0" category="paragraph">그렇지 않으면 하위 단계 e로 이동합니다</block>
   <block id="6abc41dcfb66265b141bc0c3d6bd404f" category="list-text">마지막 IOM6 쉘프 IOM A의 쉘프 연결을 하위 단계 A에서 새로운 IOM12 쉘프 IOM A 포트 1로 케이블로 연결합니다.</block>
   <block id="01eaaf7e875b3b2171b15d76169dd9e6" category="paragraph">SAS 구리 QSFP-미니-SAS HD 케이블을 사용합니다.</block>
-  <block id="2cc72f294985828ae8239194b9a476d6" category="list-text">또 다른 IOM12 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12 쉘프 IOM A 포트 3, 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
   <block id="8904fa6bfff4cd47f36ebe61b80ba07e" category="paragraph">SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.</block>
   <block id="e2e2c21437bf854e94458bf7484b889d" category="paragraph">그렇지 않으면 다음 하위 단계로 이동합니다.</block>
   <block id="926c9efdfde9f0aef47047a0e5f7949b" category="list-text">컨트롤러 또는 브리지(하위 단계 A)의 동일한 포트를 최신 IOM12 쉘프 IOM A 포트 3에 케이블로 다시 연결하여 컨트롤러-스택 연결을 설정합니다.</block>
@@ -1270,21 +1240,11 @@
   <block id="63fc6622bd95c4421099340dd35535b4" category="list-text">브리지의 동일한 포트(하위 단계 A)를 최신 IOM12 쉘프 IOM A 포트 3에 케이블로 연결하여 하단 스택과의 연결을 다시 설정합니다.</block>
   <block id="87787cb4b43228e79111842d0ca7ad92" category="list-text">4단계로 이동합니다.</block>
   <block id="53446fdb493b04597baa8f53eb3225a7" category="paragraph">컨트롤러가 마지막 논리적 쉘프에 연결되지 않은 단일 경로 HA 또는 단일 경로</block>
-  <block id="f4dacae69a131a08b3308f001c6e0873" category="list-text">마지막 IOM6 쉘프 IOM A 원형 포트와 새로운 IOM12 쉘프 IOM A 포트 1 사이에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
   <block id="cb388561ef96ce81298a5572abedfbe4" category="list-text">IOM B에 대해 위의 하위 단계를 반복합니다</block>
-  <block id="22a91773eeb57ff76cb3a5c7f71b152e" category="list-text">다른 IOM12 쉘프를 핫 추가하는 경우 a 및 b 하위 단계를 반복합니다</block>
-  <block id="f3c5d063820d8fab0d5b8261bf53b58e" category="list-text">기존 혼합 스택에 IOM12 셸프가 추가된 경우(하나 이상의 IOM12 셸프가 스택에 이미 존재하는 경우) 해당 하위 단계를 완료합니다.</block>
   <block id="fbeb13900997a66117589107666778fd" category="cell">혼합 스택 연결이 다음과 같은 경우</block>
   <block id="2959cd4f37c3034d02125ecfe63d8c4b" category="paragraph">다중 경로 HA 또는 다중 경로 또는 컨트롤러를 마지막으로 논리적 쉘프에 연결하거나 MetroCluster 구성에서 브리지 연결 연결을 지원하는 단일 경로 HA입니다</block>
-  <block id="66dcddb033d4bd30cb4de2fe9ee7faa0" category="list-text">컨트롤러-스택 케이블을 마지막 IOM12 쉘프 IOM A 포트 3에서 새로운 마지막 IOM12 쉘프의 동일한 포트로 이동합니다.</block>
-  <block id="11bc7941767ab282c9e15fd9a816de99" category="list-text">IOM12 쉘프 1개를 핫 추가하는 경우, 이전 IOM12 쉘프 IOM A 포트 3 간의 쉘프-쉘프 연결을 마지막 IOM12 쉘프 IOM A 포트 1에 케이블로 연결합니다.</block>
-  <block id="f844247cd0a7e802d6a89619df010773" category="list-text">IOM12 쉘프를 2개 이상 핫 추가할 경우, 이전 IOM12 쉘프 IOM A 포트 3과 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12 쉘프에 대해 이 과정을 반복합니다.</block>
   <block id="f0e978aba7deb5c2e1bfcdac0c49239a" category="paragraph">SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 추가로 사용합니다.</block>
   <block id="91398026a42b0ad3df38768d188da3be" category="list-text">IOM B에 대해 단계 A에서 c를 반복합니다</block>
-  <block id="877067242eddfcfbe089b6070a88be6e" category="list-text">이전의 마지막 IOM12 쉘프의 하단 브리지-스택 케이블을 새로운 마지막 IOM12 쉘프의 동일한 포트로 이동합니다.</block>
-  <block id="4bf53e71f3023c8f2e9c4997bc18ad4d" category="list-text">이전의 마지막 IOM12 쉘프 IOM A 포트 3과 다음 IOM12 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12 쉘프에 대해 이 연결을 반복합니다.</block>
-  <block id="048af402ff1884a71e180b390fb7dfec" category="list-text">이전의 마지막 IOM12 쉘프 IOM B 포트 3과 다음 IOM12 쉘프 IOM B 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12 쉘프에 대해 이 연결을 반복합니다.</block>
-  <block id="7bcbb6f67a6b65f322cf9a44412071da" category="list-text">마지막 IOM12 쉘프 IOM A 포트 3과 마지막 새 IOM12 쉘프 IOM A 포트 1 사이의 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
   <block id="ddca53bb59a951feb73df1cac7e8a2a6" category="list-text">SAS 연결이 올바르게 연결되었는지 확인합니다.</block>
   <block id="be18329abc2d39cf668517f7b74c32c6" category="paragraph">케이블 연결 오류가 발생하면 제공된 수정 조치를 따르십시오.</block>
   <block id="b820bba4fa275f727b4a3ae2b2c50735" category="list-text">이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
@@ -1292,7 +1252,6 @@
   <block id="e408fe4a40b4e2b5b430bb1a2e4b56a1" category="paragraph"><block ref="054067282f59c2ea6008fdf8f0b78dea" category="inline-xref-macro-rx"></block></block>
   <block id="065b4edc8d1cf335e89ee6f896eec285" category="admonition">모든 MetroCluster 구성에는 수동 드라이브 할당이 필요합니다.</block>
   <block id="63b43efd4d91098da87b471ae31f6a98" category="section-title">핫 애드 완료</block>
-  <block id="549f4ee0ddae14c2c93710dba70ad0eb" category="paragraph">IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가하기 위한 준비 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
   <block id="ed78f3d19d8a18848ca3f130fe50ea15" category="paragraph">시스템에 대한 지침에 따라 이미 쉘프의 케이블을 연결해야 합니다.</block>
   <block id="30c116b6226c332ac17e3d64d35b521e" category="paragraph"><block ref="0f7f1fe381af78fb10727d6c8cdc10ea" category="inline-xref-macro-rx"></block></block>
   <block id="fd5f28077fc18a4d39f9d405591062ff" category="list-text">소유되지 않은 모든 드라이브:'스토리지 디스크 표시 - 컨테이너 유형 지정안함'을 표시합니다</block>
@@ -1301,7 +1260,6 @@
   <block id="c614b3d5d45f850c2de661cead70f602" category="list-text">필요한 경우 자동 드라이브 할당을 다시 활성화합니다. 'storage disk option modify -node_node_name_-autostassign on'</block>
   <block id="f838a919336ed5d0c1d74549f6259a40" category="paragraph">HA 쌍이 있는 경우 두 컨트롤러 모듈 모두에서 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
   <block id="c8fe385a2d49c957811553fa2c507091" category="summary">완성된 컨트롤러-스택 케이블 연결 워크시트와 케이블 연결 예를 사용하여 2개의 4중 포트 SAS HBA가 있는 4중 경로 HA 구성을 케이블로 연결할 수 있습니다.</block>
-  <block id="94e995b1e4aa2076765c84814247b324" category="doc">2개의 4중 포트 SAS HBA가 장착된 4중 경로 HA 구성의 경우 IOM12 모듈을 사용하는 컨트롤러와 스택 간 케이블 연결 워크시트 및 케이블 연결 예</block>
   <block id="26ba4644ea5bc8f16212e97ddf32d634" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성에 대한 자세한 내용은 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(포트 쌍 사용 포함)을 참조하십시오.</block>
   <block id="f0cd87f18d90e4016279796c776837f8" category="inline-link-macro">4중 경로 연결을 위해 컨트롤러-스택 간 연결을 케이블로 연결하기 위해 워크시트를 읽는 방법</block>
   <block id="1cf61d431bf950cf1f2f9f2368e7f729" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="22de937f8b92c8373761b256e9819f4a" category="inline-link-macro-rx"></block>.</block>
@@ -1318,20 +1276,15 @@
   <block id="f76dc75f678aa69ffe38bc567a89bca0" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 스택 1의 포트 쌍 1a/2b(다중 경로) 및 2a/1d(4중 경로)와 stack2의 포트 쌍 1c/2D(다중 경로) 및 2c/1b(4중 경로)를 사용합니다.</block>
   <block id="1ba62ddf8cca99736a1b554044171b2e" category="image-alt">drw 워크시트 qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
   <block id="bfaf47370d0e0636d466e95dcd0ebeb2" category="image-alt">drw qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
-  <block id="d1479d59dda9c56be3c9adea79b989b3" category="summary">워크시트 템플릿을 완료하면 컨트롤러를 IOM12 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 다중 경로 방식으로 연결할 수 있습니다. 완성된 워크시트를 사용하여 구성에 대한 다중 경로 연결 케이블 연결을 단계별로 수행할 수도 있습니다.</block>
-  <block id="26425c0bd2eccee0c97ce278e5e6c90d" category="doc">IOM12 모듈을 사용한 다중 경로 연결 선반용 컨트롤러-스택 케이블링 워크시트 템플릿</block>
   <block id="cea3ccc996d16531a1bdc296b2d6851c" category="paragraph">HA 쌍 또는 단일 컨트롤러 구성은 AFF A200, AFF A220, FAS2600 시리즈 또는 FAS2700 시스템이 될 수 없습니다. 이러한 구성 중 하나가 있는 경우 다음을 사용합니다.</block>
   <block id="5976250f174c7aa7423cbb91c458e804" category="list-text">이 절차 및 워크시트 템플릿은 하나 이상의 스택을 사용한 다중 경로 HA 또는 다중 경로 구성을 위한 다중 경로 연결 케이블에 적용할 수 있습니다.</block>
   <block id="8c7e7585bf065649c4ca12e935833b4c" category="paragraph">완성된 워크시트는 다중 경로 HA 및 다중 경로 구성을 위해 제공됩니다.</block>
-  <block id="dc5d3bbb8f9856069694ac5baf23d955" category="paragraph">워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.</block>
   <block id="da38645c7fd59844e84034f3e0e006a1" category="list-text">워크시트 서식 파일을 사용하면 최대 6개의 스택을 사용할 수 있으므로 필요한 경우 열을 더 추가해야 합니다.</block>
   <block id="366650169d0230a4d4bd37f5a9f65737" category="list-text">필요한 경우 를 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성에 대한 자세한 내용은 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(포트 쌍 사용 포함)을 참조하십시오.</block>
   <block id="bf19714cdcd1dd190617db0b27cdf3cf" category="inline-link-macro">다중 경로 연결을 위해 컨트롤러 대 스택 연결에 케이블을 연결하기 위해 워크시트를 읽는 방법</block>
   <block id="2afb2ee03a930cb4967503a5dbf7a5b0" category="list-text">필요한 경우 워크시트를 작성한 후 을 참조할 수 있습니다 <block ref="32f1048d76ed4ef07349228b731694c0" category="inline-link-macro-rx"></block></block>
   <block id="b1d23e069f48305f66afd6c74e6f2742" category="image-alt">drw 워크시트 mpha 템플릿</block>
-  <block id="0636f6be315cedb9025a2140757ddbc1" category="list-text">회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯 순서(0,1, 2, 3 등)로 나열합니다.</block>
   <block id="9c43147d4d4c774a215292ec5b9439de" category="paragraph">예: 1a, 2a, 1c, 2c</block>
-  <block id="f9c6fd678079201df2e26d02d73a7912" category="list-text">회색 상자에 시스템의 모든 SAS B 포트 및 시스템의 모든 SAS D 포트를 슬롯(0,1, 2, 3 등) 순서로 나열합니다.</block>
   <block id="6184df819b9367f5c25fc56f0851d7b3" category="paragraph">예: 1b, 2b, 1d, 2D</block>
   <block id="2cfe5da4c8722b640a9dfc5b5ab60ebf" category="list-text">회색 상자 아래의 상자에서 목록의 첫 번째 포트가 목록의 끝으로 이동하도록 D 및 B 포트 목록을 다시 작성합니다.</block>
   <block id="f3bf9eec2c2f45fee4b6559b6347a72e" category="paragraph">예: 2b, 1d, 2D, 1b</block>
@@ -1345,7 +1298,6 @@
   <block id="e4a252d9b1af57bdcc80fe662dcbc613" category="list-text">단일 컨트롤러(다중 경로) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 표시합니다.</block>
   <block id="9a3590de6db32aab0916b85a06f72852" category="image-alt">drw 워크시트 MP 템플릿</block>
   <block id="0ed20e374c19ba1929de6bdbbdd59fb4" category="summary">디스크 쉘프 구성 요소의 상태 및 위치를 이해하면 디스크 쉘프의 상태를 모니터링할 수 있습니다.</block>
-  <block id="8c959dd2d40819c11d5abe3b406d68bf" category="doc">디스크 쉘프 LED 모니터링 - IOM12 모듈 쉘프</block>
   <block id="a93d9d3aea843199027168d521da5dea" category="section-title">오퍼레이터 디스플레이 패널 LED</block>
   <block id="3b4ebd8e7c477a0f7a960c9c6a4ce31f" category="paragraph">디스크 쉘프 전면 운영자 디스플레이 패널의 LED는 디스크 쉘프가 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
   <block id="13e60e94f01a2770d6906d572edb4e16" category="paragraph">다음 표에서는 DS460C, DS224C 및 DS212C 디스크 쉘프에 사용되는 작동 디스플레이 패널의 세 가지 LED에 대해 설명합니다.</block>
@@ -1436,11 +1388,7 @@
   <block id="9a0daa08283e3d5284734f7a4dd54c88" category="image-alt">드라이브의 2860 DWG 호박색입니다</block>
   <block id="6c6102fba9a6a67d68f726fd9a0aaa6a" category="cell">주의 LED가 켜집니다</block>
   <block id="5cc3ac161d068bd18a26a529762bedc8" category="summary">스토리지 쉘프 문서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
-  <block id="e528f2a51a17d9bc176b9c9c5872d278" category="doc">IOM12 모듈이 포함된 SAS 쉘프</block>
-  <block id="8a1a993c74cc431e2e022e6bd26ad915" category="summary">드라이브 드로어를 교체하기 전에 모든 호스트 I/O 활동을 중지하고 쉘프의 전원을 꺼야 합니다.</block>
-  <block id="1d7bbe9c194670e89233cc6c1dc79534" category="paragraph">이러한 60-드라이브 쉘프에는 각각 5개의 드라이브 서랍이 있습니다.</block>
   <block id="efdce0991089cb793985d216e3fc1bbc" category="image-alt">28 DWG e2860 de460c 전면 설명선 없음</block>
-  <block id="76ad7e322a2be745998c576cb12affcd" category="paragraph">5개의 서랍식 용지함에는 최대 12개의 드라이브를 장착할 수 있습니다.</block>
   <block id="a83cb446c51cb0bdbc4bec489e45b406" category="paragraph">이 절차를 수행하려면 다음 항목이 필요합니다.</block>
   <block id="4b4b58cabc76886a516816c3c1dca8a2" category="list-text">정전기 방지</block>
   <block id="a3dfcf9f8add4df0b4976c41ffa8abb2" category="admonition">* 가능한 하드웨어 손상: * 드라이브 선반의 정전기 방전 손상을 방지하려면 드라이브 쉘프 구성 요소를 취급할 때 적절한 정전기 방지 보호 장치를 사용하십시오.</block>
@@ -1448,7 +1396,6 @@
   <block id="68103d0e27146f9689251724a7fbf29f" category="list-text">좌측 및 우측 케이블 체인 교체</block>
   <block id="75b0ae11d26c806413ef6e8aed1ece4f" category="list-text">플래시</block>
   <block id="12cd6af9147d69765327244240949e1f" category="paragraph">DS460C 드라이브 쉘프의 각 드라이브 서랍에 대한 왼쪽 및 오른쪽 케이블 체인을 사용하면 서랍을 밀어 넣을 수 있습니다. 드라이브 드로어를 제거하려면 먼저 두 케이블 체인을 모두 제거해야 합니다.</block>
-  <block id="b4aaf296207d91e05752ac7857824f14" category="list-text">호스트 I/O 작업을 중지하고 쉘프 전원을 껐습니다.</block>
   <block id="295e1710be0bb53c45ab0ed9001e275c" category="list-text">다음 항목을 획득하였습니다.</block>
   <block id="b8e03a6c06c2200508949dce7bb9580b" category="admonition">* 가능한 하드웨어 손상: * 선반의 정전기 방전 손상을 방지하려면 선반 구성 요소를 취급할 때 적절한 정전기 방지 보호 장치를 사용하십시오.</block>
   <block id="5e3358e3eacc9b9fa8f984ee64d7ecea" category="paragraph">각 드라이브 서랍에는 왼쪽 및 오른쪽 케이블 체인이 있습니다. 케이블 체인의 금속 끝은 다음과 같이 엔클로저 내부의 해당 수직 및 수평 브래킷에 밀어 넣습니다.</block>
@@ -1530,7 +1477,6 @@
   <block id="d6ff75ca96a3f7b0da1db5214e2a5a07" category="list-text">드로어를 중앙에서 밀어 드라이브 쉘프로 다시 밀어 넣은 후 두 레버를 닫습니다.</block>
   <block id="88ca50989638a87f86de89481f4cf935" category="admonition">* 장비 오작동 위험: * 두 레버를 모두 눌러 드라이브 드로어를 완전히 닫아야 합니다. 적절한 공기 흐름을 허용하고 과열을 방지하려면 드라이브 드로어를 완전히 닫아야 합니다.</block>
   <block id="55451c7cebd8269f03ecac9742984329" category="list-text">드라이브 쉘프 전면에 베젤을 부착합니다.</block>
-  <block id="0170a7ad27d76cb01573cd1f22614cf7" category="paragraph">드라이브 드로어를 설치하는 마지막 단계는 드라이브 쉘프에 왼쪽 및 오른쪽 케이블 체인을 연결하는 것입니다. 케이블 체인을 연결할 때는 케이블 체인을 분리할 때 사용한 역순으로 케이블을 연결합니다. 체인의 수직 커넥터를 인클로저의 수직 브래킷에 삽입하기 전에 체인의 수평 커넥터를 인클로저의 수평 브래킷에 삽입해야 합니다.</block>
   <block id="4ab9a12c053dc60c1cfdd6c7dd07687e" category="list-text">드라이브 드로어 및 모든 드라이브를 교체했습니다.</block>
   <block id="72774896cf4456a17908ca4b102fbb02" category="list-text">왼쪽 및 오른쪽으로 표시된 교체용 케이블 체인 2개가 있습니다(드라이브 드로어 옆의 수평 커넥터에 있음).</block>
   <block id="b65bb2c36cf61ca817a09197efa2a05a" category="image-alt">28 DWG e2860 de460c 케이블 체인 왼쪽</block>
@@ -1579,11 +1525,6 @@
   <block id="f713f3d5118d64219e7f60c5bb8b1949" category="paragraph">이 예제에서 컨트롤러는 섀시의 슬롯 B에 설치됩니다. 컨트롤러가 섀시의 슬롯 B에 있는 경우 내부 스토리지 포트(0b)가 도메인 B(IOM B)에 있으므로 포트 0b는 스택의 도메인 B(IOM B)에 연결해야 합니다.</block>
   <block id="558b115477a065d99c298cb43b8dce82" category="image-alt">drw fas2600 MP 슬롯 b 워크시트</block>
   <block id="c5973d1d05064577208601411fd0be8d" category="image-alt">drw fas2600 MP 슬롯 b</block>
-  <block id="545b7f30ad2af93efecde12bf09f62e6" category="summary">IOM12 모듈을 사용하여 기존 디스크 쉘프 스택에 IOM12 모듈을 사용하여 디스크 쉘프를 하나 이상 핫 추가할 수 있습니다. 또는 IOM12 모듈을 포함한 하나 이상의 디스크 쉘프 스택을 컨트롤러의 SAS HBA 또는 온보드 SAS 포트에 직접 핫 추가할 수 있습니다.</block>
-  <block id="ad0264cd7ad787d24cf6bc55ad39025a" category="doc">IOM12 모듈을 사용하여 쉘프-쉘프 핫 추가</block>
-  <block id="ea8b0ca4b7e403da928bc7458ed61d7d" category="paragraph">다음 절차를 사용하여 스택을 혼합할 수 없습니다. IOM6 모듈이 있는 쉘프 스택에 IOM12 모듈을 추가한 쉘프입니다. 스택을 혼합해야 하는 경우 를 사용합니다 <block ref="262c980c58c743dada67cf3fc593aeaa" category="inline-link-macro-rx"></block>.</block>
-  <block id="c920d4841ecd46b57d9a50e7295a2153" category="section-title">IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항</block>
-  <block id="53b7e29a0202cff09b03c6aa753604ba" category="paragraph">IOM12 모듈을 사용하여 디스크 쉘프를 핫 추가하기 전에 시스템이 특정 요구사항을 충족해야 합니다.</block>
   <block id="de33df5f9c0e7cad9f4a80efe6b64037" category="section-title">시스템의 상태입니다</block>
   <block id="ca56cd02a36881bbfbd303ad25ed02ab" category="list-text">시스템과 버전의 ONTAP는 IOM, 디스크 드라이브 및 SAS 케이블을 포함하여 현재 추가하고 있는 디스크 쉘프를 지원해야 합니다.</block>
   <block id="87f977ab6d3b14c09f67014c03174f98" category="list-text">시스템에 핫 추가할 디스크 쉘프 수가 지원되는 최대 디스크 드라이브 수보다 작아야 합니다.</block>
@@ -1596,13 +1537,8 @@
   <block id="8a6093bb74b1d54ff4762774f2de06dc" category="list-text">디스크 쉘프 스택에서 미니 SAS HD SAS 광 케이블 또는 미니 SAS HD SAS 광 케이블과 SAS 구리 케이블을 함께 사용하는 경우, 의 규칙을 준수해야 합니다 <block ref="981073c6c3d6ceff62f8d350a20e9ca2" category="inline-link-macro-rx"></block>.</block>
   <block id="db4ec39badc4cbb7bab7bcf31386f4c9" category="list-text">SAS 구리 케이블로 연결된 디스크 쉘프 스택에 미니 SAS HD SAS 광 케이블이 포함된 디스크 쉘프를 핫 추가할 경우, 스택에 일시적으로 두 가지 케이블 유형을 사용할 수 있습니다.</block>
   <block id="bea8d9a74a333358da573c569f901a16" category="paragraph">디스크 쉘프를 핫 추가한 후에는 스택이 의 규칙을 충족할 수 있도록 스택의 나머지 쉘프-쉘프 연결과 컨트롤러-스택 연결의 경우 SAS 구리 케이블을 교체해야 합니다 <block ref="981073c6c3d6ceff62f8d350a20e9ca2" category="inline-link-macro-rx"></block>. 즉, 적절한 수의 미니 SAS HD SAS 광 케이블을 주문해야 합니다.</block>
-  <block id="fe2f7deb9ab9cd3d0af8a260fc8b5c59" category="section-title">IOM12 모듈을 사용하여 디스크 쉘프를 핫 추가할 때의 고려 사항</block>
   <block id="91d741bb049c9a466853b4ad38bb8ca8" category="paragraph">디스크 쉘프를 핫 추가하기 전에 이 절차에 대한 측면과 모범 사례를 숙지해야 합니다.</block>
-  <block id="c5e36545fdd9f98fe69543998623a3e2" category="list-text">IOM12 모듈을 포함하는 디스크 쉘프를 기존 스택(IOM12 모듈을 포함하는 디스크 쉘프)에 핫 추가할 경우, 스택의 마지막 스택(논리적 첫 번째 또는 마지막 디스크 쉘프)에 디스크 쉘프를 핫 추가할 수 있습니다.</block>
   <block id="f0e56e4ad757d6fad89dfcfe1aa12d88" category="paragraph">단일 경로 HA 및 단일 경로 구성의 경우, AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 적용할 수 있으므로 컨트롤러 연결이 없는 스택 맨 끝에 디스크 쉘프를 추가할 수 있습니다.</block>
-  <block id="04a87706f976ad08a4ef07399d6e9fac" category="list-text">IOM12 모듈이 포함된 디스크 쉘프는 자체 고유 스택에 있어야 하며, IOM6 모듈 또는 IOM3 모듈이 포함된 쉘프가 있는 스택에 추가할 수 없습니다.</block>
-  <block id="2265fccf5f84cc4b1d60215d82415c82" category="paragraph">이 절차에서는 IOM6 모듈을 사용하는 쉘프 스택에 IOM12 모듈을 포함하는 쉘프를 핫 추가, 스택 혼합에 대해 다루지 않습니다.</block>
-  <block id="225b02e59ad97380e70691c81e696827" category="list-text">IOM12 모듈을 사용하면 하나의 시스템에서 다중 경로 방식의 디스크 쉘프 스택과 4중 경로 방식의 디스크 쉘프를 구축할 수 있습니다.</block>
   <block id="1367c0042a0771df50820889203cf147" category="paragraph">HA 쌍이 있는 경우 ONTAP는 시스템 구성을 "멀티경로 HA"로 표시합니다. 단일 컨트롤러 구성의 경우 ONTAP는 시스템 구성을 "멀티경로"로 표시합니다.</block>
   <block id="23799cee6c2d33512d5d7c2c4dd066da" category="list-text">이 절차에서는 대역 내 ACP를 사용하는 구성을 가정합니다.</block>
   <block id="0a21ef57c079b8fb55adaac84e5c7dc9" category="paragraph">대역 내 ACP가 활성화된 구성의 경우, 핫 추가된 디스크 쉘프에서 대역 내 ACP가 자동으로 활성화됩니다. 대역 내 ACP가 사용되지 않는 구성의 경우, 핫 추가 디스크 쉘프는 ACP 기능 없이 작동합니다.</block>
@@ -1621,7 +1557,6 @@
   <block id="a8f84b584f326bb48cbda73cc904bb0e" category="list-text">성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼거나 밟지 마십시오.</block>
   <block id="36e5b31f4aed96fe11cffb4a6666f9f7" category="paragraph">케이블에는 최소 굽힘 반경이 있습니다. 케이블 제조업체 사양은 최소 굽힘 반경을 정의합니다. 그러나 최소 굽힘 반경의 일반 지침은 케이블 지름의 10배입니다.</block>
   <block id="2b9663ad46a5f2dcd8c2fffdba003269" category="list-text">케이블 묶음 대신 벨크로 랩을 사용하여 시스템 케이블을 묶고 고정하면 케이블을 쉽게 조정할 수 있습니다.</block>
-  <block id="06dfcb3b1a9c224a29ae8981c6882d18" category="section-title">핫 애드 위한 IOM12 모듈을 디스크 쉘프 설치</block>
   <block id="4e24ff050030d18996425f4adbef1c69" category="paragraph">핫 추가할 각 디스크 쉘프에 디스크 쉘프를 설치하고, 전원 코드를 연결하고, 디스크 쉘프의 전원을 켠 다음, SAS 연결을 케이블로 연결하기 전에 디스크 쉘프 ID를 설정해야 합니다.</block>
   <block id="82fd485bd66b7a7cf95b41701aff95f4" category="list-text">HA 쌍 또는 단일 컨트롤러 구성 내에서 고유 ID로 핫 추가할 각 디스크 쉘프의 쉘프 ID를 설정합니다.</block>
   <block id="437cff47077287b8acaab6cf6eb3f66e" category="inline-link-macro">쉘프 ID를 변경합니다</block>
@@ -1632,7 +1567,6 @@
   <block id="caf1406d08cb4aa05b7a22c96cfe7c00" category="paragraph">전원을 다시 켜기 전에 10초 이상 기다린 후 전원을 껐다가 다시 켭니다.</block>
   <block id="e721fed5752af28a811f95c9517647d5" category="paragraph">쉘프 ID가 깜박이고 디스크 쉘프 전원을 껐다가 다시 켤 때까지 운영자 디스플레이 패널 주황색 LED가 깜박입니다.</block>
   <block id="114b5f5f60d5305cae68f7358becbb08" category="list-text">핫 추가할 각 디스크 쉘프에 대해 단계 A~d를 반복합니다.</block>
-  <block id="7eb22faea0fdcb1766826a0a35cc21d9" category="section-title">핫 애드용 IOM12 모듈을 사용하여 디스크 쉘프 케이블링</block>
   <block id="7d1f085b961baef4ee505ff0b202f8af" category="paragraph">새로 추가된 디스크 쉘프에 해당하는 SAS 연결(쉘프-쉘프 및 컨트롤러-스택)에 케이블을 연결하여 시스템에 연결할 수 있습니다.</block>
   <block id="25144a0fdc573490379af60a79ce8953" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="b97fb0f13d8cc81479b53e89d9178105" category="inline-xref-macro-rx"></block> 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 <block ref="1559829c998f121990e6747d77c5c076" category="inline-xref-macro-rx"></block>.</block>
   <block id="634f97c34a23666fd57c06fc0817e89c" category="inline-link-macro">쉘프-쉘프 SAS 연결 규칙</block>
@@ -1693,7 +1627,6 @@
   <block id="6a220954edf12040894af14cc9669600" category="list-text">대역내 ACP를 실행 중인 구성에서는 핫 애드 디스크 쉘프인 'Storage shelf ACP show'에서 대역 내 ACP가 자동으로 활성화되었는지 확인합니다</block>
   <block id="cf4c2211d1e7e05578f4d644efc4b0f5" category="paragraph">출력물에서는 각 노드에 대해 대역내(in-band)가 활성(active)으로 표시됩니다.</block>
   <block id="44491eb0ab54400161157cb853b6a2bb" category="summary">DS224C 또는 DS212C 디스크 쉘프에서 오류가 발생한 디스크 드라이브를 핫 스왑할 수 있습니다.</block>
-  <block id="cc20500337dd3f196d85408377bada8a" category="doc">DS224C 또는 DS212C 디스크 쉘프 쉘프의 디스크 드라이브를 IOM12 모듈과 핫 스왑합니다</block>
   <block id="988e6420e48ac7b198915b1d8e0756b4" category="list-text">설치할 디스크 드라이브는 DS224C 또는 DS212C 디스크 쉘프에서 지원되어야 합니다.</block>
   <block id="9ac07d63d475887beba61894d204a017" category="list-text">시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오.</block>
   <block id="76020e99d95549721b5520de732b01f5" category="list-text">제거할 디스크 드라이브에 오류가 발생해야 합니다.</block>
@@ -1759,7 +1692,6 @@
   <block id="85ca43b1ad4c3e8bd2726e4c4b2a3e4d" category="paragraph">기술 지원 부서(에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.</block>
   <block id="22de385bc846aff8918c00418f396af3" category="summary">IOM12 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되는 다음과 같은 SAS 케이블 연결 규칙, 예제 및 워크시트를 사용할 수 있습니다.</block>
   <block id="d882321e2eb0b3930cc4d89826524491" category="doc">SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반</block>
-  <block id="104b388e64d99775bc4ff6b16daf9e27" category="paragraph">IOM12 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되도록 SAS 케이블 연결 규칙, 워크시트 및 예제 콘텐츠를 필요에 따라 사용할 수 있습니다.</block>
   <block id="dec8d0bac5e3e019cf604b191c0cd1fc" category="paragraph">SAS 케이블 연결 규칙 *</block>
   <block id="eb631b70ae7c721773f91b506c815082" category="inline-link-macro">설정</block>
   <block id="2c20867b019d706a391ac25e6929487d" category="list-text"><block ref="2c20867b019d706a391ac25e6929487d" category="inline-link-macro-rx"></block></block>
@@ -1786,7 +1718,6 @@
   <block id="2c7dca88481889b656f4d74763cd9a46" category="inline-link-macro">4중 경로 연결을 위해 워크시트를 읽는 방법</block>
   <block id="13c0d70fd4cb9852007aff38af1de02a" category="list-text"><block ref="13c0d70fd4cb9852007aff38af1de02a" category="inline-link-macro-rx"></block></block>
   <block id="0ea17a93d064afb53edf4305d17b5599" category="summary">DS460C, DS224C 또는 DS212C 디스크 쉘프에 있는 고장난 전원 공급 장치를 핫 스왑할 수 있습니다.</block>
-  <block id="e6cdd977391488a1a0918177811fc37e" category="doc">전원 공급 장치-선반을 IOM12 모듈로 핫 스왑</block>
   <block id="bf35e0ea77e327a31ac3baf63bb1253c" category="paragraph">다른 전원 공급 장치를 포함하여 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다.</block>
   <block id="6c02a1910626a867fbe4d789c7beb45a" category="list-text">둘 이상의 전원 공급 장치를 교체하는 경우 디스크 쉘프에 전원을 계속 공급하도록 한 번에 하나씩 교체해야 합니다.</block>
   <block id="62b854d2d227610915feea67e81979da" category="list-text">디스크 쉘프의 공기 흐름을 최소화하기 위해 분리 후 2분 이내에 전원 공급 장치를 교체해야 합니다.</block>
@@ -1810,9 +1741,7 @@
   <block id="c190e47c300a3781bbf4edf442004427" category="list-text">전원 공급 장치에 전원 코드를 다시 연결하고 전원 코드 고정장치로 전원 코드를 고정합니다.</block>
   <block id="7942c8c0a2938d554ca414a57b6286aa" category="list-text">전원 스위치를 켭니다.</block>
   <block id="b30bd480240ea6cb86b54735c115a8db" category="paragraph">전원 공급 장치의 전원(녹색) LED 및 주의(황색) LED가 켜지고 40초 이내에 주의(황색) LED가 꺼집니다.</block>
-  <block id="1b13b207ae1928cd420c7771c798eb3d" category="doc">IOM12 모듈을 사용하여 쉘프-쉘프 핫 제거</block>
   <block id="c5cabc5bd527563ec2a9e03c2ca16ab6" category="list-text">시스템은 다중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성이어야 합니다.</block>
-  <block id="9c2a85bd806fec2b1e3452f15f799e68" category="paragraph">AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템의 경우 외부 스토리지를 다중 경로 HA 또는 다중 경로와 케이블로 연결해야 합니다.</block>
   <block id="079a7f8e81dcfa4ea9fb370c9901815f" category="admonition">다중 경로 연결을 통해 외부 스토리지를 케이블로 연결한 FAS2600 시리즈 단일 컨트롤러 시스템의 경우, 내부 스토리지에서 단일 경로 연결을 사용하므로 시스템이 혼합 경로 구성입니다.</block>
   <block id="7aef33153293755f25958302c5aed92b" category="paragraph">Active IQ Config Advisor를 다운로드하여 실행하면 SAS 케이블 연결 오류 메시지와 필요한 수정 조치를 확인할 수 있습니다.</block>
   <block id="a87e1a96f2d7d8d3f543485f49e17ff9" category="list-text">HA 쌍 구성은 테이크오버 상태가 될 수 없습니다.</block>
@@ -1891,8 +1820,6 @@
   <block id="335b10c6fee711cea86391103d3f0ccb" category="paragraph">HA 쌍 구성에서는 두 컨트롤러의 클러스터 쉘에서 명령을 실행합니다.</block>
   <block id="3037b211ed81d339e89983a39433d5ed" category="list-text">분리한 디스크 쉘프의 전원을 끄고 디스크 쉘프의 전원 코드를 뽑습니다.</block>
   <block id="60f2a3cfd26e6f6c57aebe8c8e233493" category="list-text">랙 또는 캐비닛에서 디스크 쉘프를 제거합니다.</block>
-  <block id="7dbdcb32c9db2612bd031043224dae8f" category="summary">워크시트 템플릿을 완료하면 컨트롤러를 IOM12 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다.</block>
-  <block id="5cf2b662ddc9e386ea849d5a2d3ba76d" category="doc">IOM12 모듈을 사용하는 4중 경로 연결 쉘프용 컨트롤러-스택 케이블링 워크시트 템플릿</block>
   <block id="f8688b55e48596e9efbee0294dc9b0af" category="list-title">할 수 있습니다</block>
   <block id="0410b8cb4945f84623b17f2f6249cf4a" category="list-text">이 절차 및 워크시트 템플릿은 하나 이상의 스택으로 4중 경로 HA 또는 4중 경로 구성을 위한 4중 경로 연결 케이블에 연결할 수 있습니다.</block>
   <block id="70c45a3fea4e20bf8f37ec9e02cb575c" category="paragraph">4중 경로 HA 및 4중 경로 구성을 위해 작성된 워크시트의 예가 제공됩니다.</block>
@@ -1913,48 +1840,23 @@
   <block id="060cf3aeb3fb474b79039b8afb45b9cc" category="list-text">4중 경로(단일 컨트롤러) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 합니다. 컨트롤러 1 정보만 사용하여 컨트롤러-스택 연결을 케이블로 연결할 수 있습니다.</block>
   <block id="5a7e2a7578fd39d1750be23b4f5dd41d" category="paragraph">다음 예제는 컨트롤러 2에 대한 정보가 십자 표시되었음을 보여줍니다.</block>
   <block id="c7e0976f97baf05a4e20821f4c8fad4d" category="image-alt">drw 워크시트 Qp 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
-  <block id="f8c97b417197858bb1f9147d5bbd3cf0" category="summary">시스템 구성에 따라 IOM12 모듈에 장애가 발생한 경우 무중단 IOM12 모듈 핫 스왑 또는 IOM12 모듈 교체 중 어느 것을 수행할 수 있는지 결정됩니다.</block>
-  <block id="5e47682a1985f4894dfbfddf0ca6a7c0" category="doc">IOM12 모듈-쉘프를 IOM12 모듈로 핫 스왑 또는 교체합니다</block>
-  <block id="eaabc4ed2d3de90d6a5c09556c1edeb8" category="paragraph">다른 IOM12 모듈을 포함하여 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다.</block>
-  <block id="6cee96067a1efcb3a61f577e2a8f1184" category="list-text">다중 경로(다중 경로 HA 또는 다중 경로) 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우, IOM12 모듈을 핫 스왑할 수 있습니다(전원이 켜져 있고 데이터를 제공하는 시스템에서 IOM12 모듈을 중단 없이 대체 -- I/O가 진행 중).</block>
-  <block id="3aaa7a9c570e3b4cd2d8bdba063cdbaa" category="list-text">FAS2600 시리즈 및 FAS2700 단일 경로 HA 구성의 경우 전원을 켜고 데이터를 제공하는 시스템에서 IOM12 모듈을 대체할 테이크오버 및 반환 작업을 수행해야 합니다. -- I/O가 진행 중입니다.</block>
-  <block id="2dd34de95504caaf6b1dafbc6cb31441" category="list-text">FAS2600 시리즈 단일 경로 구성의 경우 IOM12 모듈을 교체하기 위해 시스템을 중지해야 합니다.</block>
-  <block id="0b2f1c77b2be0a8345d37e4ef2de10eb" category="admonition">디스크 쉘프에 있는 IOM12 모듈을 단일 경로 연결로 핫 스왑하려고 하면 디스크 쉘프의 디스크 드라이브 및 해당 디스크 쉘프에 대한 모든 액세스가 손실됩니다. 전체 시스템을 다운시킬 수도 있습니다.</block>
-  <block id="146d490dd0ddc3140a4ab9577c82037e" category="list-text">최신 버전이 아닌 펌웨어 버전의 새로운 IOM12 모듈에서 디스크 쉘프(IOM) 펌웨어가 중단 없이 자동으로 업데이트됩니다.</block>
-  <block id="840389739654a0cb6ff81790e58d65b4" category="paragraph">IOM 펌웨어 검사는 10분마다 수행됩니다. IOM 펌웨어 업데이트는 최대 30분이 걸릴 수 있습니다.</block>
-  <block id="488593fc66b12c24bc9d860a028e60be" category="list-text">새 IOM12 모듈의 포장을 풀고 디스크 쉘프 근처의 평평한 표면에 놓습니다.</block>
-  <block id="78134d8ce26abe81b7c2223710056ac1" category="paragraph">오류가 발생한 IOM12 모듈을 반품할 때 사용할 모든 포장재를 보관하십시오.</block>
-  <block id="b9a0ba621d77a5a69ac7a9387e2f73b6" category="list-text">시스템 콘솔 경고 메시지와 장애가 발생한 IOM12 모듈의 주의 LED(황색) 표시등을 통해 장애가 발생한 IOM12 모듈을 물리적으로 식별합니다.</block>
   <block id="44a79028b8e2f56c8d1164ae1aedc076" category="list-text">보유하고 있는 구성 유형에 따라 다음 작업 중 하나를 수행합니다.</block>
   <block id="e8599f3c8ef213317efbf60b0379685c" category="cell">있는 경우...</block>
   <block id="099e230bc4db13968f2d136f79693703" category="paragraph">다중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성</block>
-  <block id="e5f82022af06b90c12e35d576cc0c3d9" category="paragraph">FAS2600 시리즈 및 FAS2700 단일 경로 HA 구성</block>
-  <block id="f21eb9917cf294050cfae63d1ed7ed58" category="list-text">대상 노드를 확인합니다(장애가 발생한 IOM12 모듈이 속한 노드).</block>
   <block id="1e5e667063d28d41ec828c8438a56b89" category="paragraph">IOM A가 컨트롤러 1에 속합니다. IOM B가 컨트롤러 2에 속합니다.</block>
   <block id="8dc0ad92e4b342d1741894f5ae7ffbe9" category="list-text">'Storage failover takeover -bynode_partner HA node_'를 타겟 노드로 인계합니다</block>
   <block id="1e78ab40bbabb204b7d418ad7a32f801" category="paragraph">FAS2600 시리즈 단일 경로 구성</block>
   <block id="afd363af41e03520500b30751b522491" category="list-text">시스템 콘솔에서 '중지'를 눌러 시스템을 종료합니다</block>
   <block id="e8403bb6f96eb0e9dd855761d673bcfb" category="list-text">스토리지 시스템 콘솔을 확인하여 시스템이 중단되었는지 확인합니다.</block>
-  <block id="e86a0c790fd7c6f5dbf58f5c6870324b" category="list-text">제거할 IOM12 모듈에서 케이블을 분리합니다.</block>
-  <block id="8bf90c1a882bba7f49bed26875e94cee" category="paragraph">각 케이블이 연결된 IOM12 모듈 포트를 기록해 두십시오.</block>
-  <block id="9f78dab8d292677e01851e8a917b6f5f" category="list-text">IOM12 모듈 캠 핸들의 주황색 걸쇠를 끝까지 눌렀다가 캠 핸들을 완전히 열어 중간 평면에서 IOM12 모듈을 분리합니다.</block>
   <block id="cd5f38b38ffd79461cf543f7d3a14843" category="image-alt">drw IOM 래치</block>
   <block id="4c85cb5670afa3b61996e7baa0111129" category="image-alt">drw IOM이 열려 있습니다</block>
-  <block id="4c07ae1007b3a2029e7841aeea475071" category="list-text">캠 핸들을 사용하여 IOM12 모듈을 디스크 쉘프 밖으로 밀어냅니다.</block>
-  <block id="07b7a165a51ddb5cbf9c2a4c6cf94454" category="paragraph">IOM12 모듈을 취급할 때는 항상 두 손을 사용하여 무게를 지탱하십시오.</block>
-  <block id="de4ae2c6f1963896fbfea28e82d00c1a" category="list-text">새 IOM12 모듈을 설치하기 전에 IOM12 모듈을 제거한 후 70초 이상 기다리십시오.</block>
   <block id="ccadbe2edcc98f542a5f72090def31e3" category="paragraph">70초 이상 기다리면 운전자가 쉘프 ID를 올바르게 등록할 수 있습니다.</block>
-  <block id="aa3bb973e5a793f5e96c587b782042c8" category="list-text">새 IOM12 모듈의 캠 핸들을 열린 위치에 둔 상태에서 두 손을 사용하여 새 IOM12 모듈의 가장자리를 디스크 선반에 있는 입구로 지지하고 정렬한 다음 새 IOM12 모듈을 중간 평면에 닿을 때까지 단단히 누릅니다.</block>
-  <block id="f1b86d4dfdaf9595d77f0125018bb80f" category="admonition">IOM12 모듈을 디스크 선반에 밀어 넣을 때 과도한 힘을 가하지 마십시오. 커넥터가 손상될 수 있습니다.</block>
-  <block id="d2375a4ef8785f406de718d058e88a04" category="list-text">래치가 잠금 위치에 맞물렸는지 IOM12 모듈이 완전히 장착되도록 캠 핸들을 닫습니다.</block>
   <block id="9bf609fda741e4f05af53222039c4623" category="list-text">케이블을 다시 연결합니다.</block>
   <block id="240ac1f7b24df668dce754edbdea2f25" category="paragraph">SAS 케이블 커넥터는 IOM 포트에 올바르게 맞추면 딸깍 소리가 나면서 제자리에 고정되며 IOM 포트 LNK LED가 녹색으로 켜집니다. SAS 케이블 커넥터를 당김 탭이 아래로 향하게 하여(커넥터 아래쪽에 있음) IOM 포트에 삽입합니다.</block>
   <block id="d69bd90c00da9d5886f4b689f99f70d6" category="paragraph">타겟 노드 'storage failover back - fromnode PARTNER_HA_NODE'를 반환한다</block>
   <block id="8460de55fc39038d9b9df5787b6da108" category="paragraph">시스템을 재부팅합니다.</block>
-  <block id="69215aec902649f47b0b67453c2abf00" category="list-text">IOM12 모듈 포트 링크가 설정되었는지 확인합니다.</block>
   <block id="a4399fd36cbdc5057108842e4a4a42ff" category="paragraph">케이블로 연결한 각 모듈 포트에 대해 4개 이상의 SAS 레인 중 하나 이상이 링크를 설정한 경우(어댑터 또는 다른 디스크 쉘프 포함) LNK(녹색) LED가 켜집니다.</block>
   <block id="1a9e0b4a2336d16f8663305e4fc18c6f" category="summary">컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 사용하여 HA 쌍을 다중 경로 HA 구성으로 연결할 수 있습니다.</block>
-  <block id="1cd676616010f77b0108acce219a8b0c" category="doc">일반적인 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예 - IOM12 모듈을 포함한 쉘프</block>
   <block id="7ab9991308c3a3d15fb6ed5c7a347e31" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="32f1048d76ed4ef07349228b731694c0" category="inline-link-macro-rx"></block>.</block>
   <block id="f36fd727bb50e27882dbe086058bd373" category="list-text">케이블 연결 예는 컨트롤러 A 및 C 포트 연결과 컨트롤러 B 및 D 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.</block>
   <block id="0263bf92f1b077873ca5f3be62ee7999" category="image-alt">케이블 색상 키(26,4stackcolor가 아닌)를 스택하는 drw 컨트롤러</block>
@@ -1994,8 +1896,6 @@
   <block id="6c41b1568b5db604b91d32b896598e73" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 0a/1b 및 0c/1d의 목록에서 다른 모든 포트를 사용하도록 건너뛴 포트 쌍을 보여줍니다.</block>
   <block id="6ef763da442e6cc67ed639f83a4e7b31" category="image-alt">drw 워크시트 mpha 슬롯 0 및 1 8포트 2개의 스택을 건너뛰었습니다</block>
   <block id="cc1b17d485465e67146abdf8583e715e" category="image-alt">drw mpha 슬롯 0 및 1 8포트 2개의 스택을 건너뛰었습니다</block>
-  <block id="7c5a6fbb61762dbfee01097d30691b14" category="summary">이 예에서는 4중 경로 연결을 위해 IOM12 모듈을 사용하는 케이블 셸프 스택에 완성된 워크시트를 읽고 적용하는 방법을 안내합니다.</block>
-  <block id="cf8eb678d840b3c88f73b61d6e7679cd" category="doc">IOM12 모듈을 사용하여 4중 경로 연결 셸프의 컨트롤러 대 스택 연결 케이블을 연결하는 워크시트를 읽는 방법</block>
   <block id="2f40064540d7b13547e7d24b16fd49e7" category="paragraph">이 예제에서 사용된 구성은 4중 포트 SAS HBA 2개가 각 컨트롤러에 장착되어 있고 IOM12 모듈이 포함된 디스크 쉘프 2개를 포함하는 4중 경로 HA 구성입니다.</block>
   <block id="480e4f10ac2e8a84a7f6455bf724bff5" category="paragraph">이것은 스택 1의 다중 경로 케이블 연결입니다.</block>
   <block id="1fc785872b10266253c6fc954df23d48" category="list-text">스택 1에 대해 각 컨트롤러의 케이블 포트 쌍 2a/1d:</block>
@@ -2014,7 +1914,6 @@
   <block id="35f83b87028a9833d2f51254685e9660" category="summary">새 시스템(HA 쌍 또는 단일 컨트롤러 구성)이 캐비닛에 설치되지 않은 경우 디스크 쉘프를 랙에 설치하고 케이블을 연결해야 합니다.</block>
   <block id="dc1949c56b4feff1c4f2d03eb17ee3cb" category="doc">새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12 모듈 장착 선반</block>
   <block id="4664332b9563f72120f97fcec6827311" category="paragraph">새 시스템(HA 쌍 또는 단일 컨트롤러 구성)이 캐비닛에 설치되지 않은 경우 디스크 쉘프를 랙에 설치하고 케이블을 연결할 수 있습니다.</block>
-  <block id="6f43d4f1fc81b922a2a346854955d9aa" category="section-title">새로운 시스템 설치를 위해 IOM12 모듈을 이용한 디스크 쉘프 설치 및 케이블 연결 요구 사항</block>
   <block id="e5fbc77be9a74494e708f06f77d18de5" category="paragraph">디스크 쉘프를 설치 및 케이블로 연결하기 전에 특정 요구사항을 충족해야 합니다.</block>
   <block id="33e36140a42f4f8d22f9ac3bcaa59b55" category="list-text">사용 중인 플랫폼 모델에 대한 설치 및 설정 지침이 있어야 합니다.</block>
   <block id="db6140788218135102ddf3b3cc8fd707" category="paragraph">설치 및 설치 지침은 시스템 설치, 설정 및 구성에 대한 전체 절차를 다룹니다. 디스크 쉘프를 스토리지 시스템에 설치 또는 케이블로 연결하는 방법에 대한 자세한 정보가 필요한 경우, 이 절차(_새 시스템 설치를 위한 설치 및 케이블 셸프_)를 플랫폼 설치 및 설정 지침과 함께 사용해야 합니다.</block>
@@ -2023,9 +1922,7 @@
   <block id="6dbed82e3a248591092e6e4002b1e9aa" category="paragraph"><block ref="6dbed82e3a248591092e6e4002b1e9aa" category="inline-link-macro-rx"></block></block>
   <block id="e0b50a66e9b220342f7fbaa9834e4842" category="list-text">이때 디스크 쉘프 및 컨트롤러의 전원을 켜서는 안 됩니다.</block>
   <block id="96aa544f3a1fa5c4b5c2e9d7aeef2fe1" category="list-text">미니 SAS HD SAS 광 케이블을 사용하는 경우 의 규칙을 충족해야 합니다 <block ref="981073c6c3d6ceff62f8d350a20e9ca2" category="inline-link-macro-rx"></block>.</block>
-  <block id="b32e9d47676e82c87590b74632b61095" category="section-title">새로운 시스템 설치를 위해 IOM12 모듈을 사용하여 디스크 쉘프를 설치 및 케이블로 연결할 때의 고려 사항</block>
   <block id="b92a3c3c734a6c9e5d3ee17b42bdd333" category="paragraph">디스크 쉘프를 설치 및 케이블로 연결하기 전에 이 절차의 측면과 모범 사례를 숙지해야 합니다.</block>
-  <block id="5d23b547db799f96af3ae4e4a71f4ae9" category="list-text">IOM12 모듈이 포함된 디스크 쉘프는 쉘프 ID가 00으로 사전 설정된 상태로 제공됩니다.</block>
   <block id="1d4c0fb2a243494a984412dc5b5381a1" category="admonition">2개 이상의 스택이 있는 HA 쌍이 있는 경우, 두 번째 스택의 루트 애그리게이트를 포함하는 디스크 쉘프의 쉘프 ID는 10으로 사전 설정되어 있습니다.</block>
   <block id="f2717497b83e7964ce960a0ca5ac4860" category="paragraph">쉘프 ID는 HA 쌍 또는 단일 컨트롤러 구성에서 고유하도록 설정해야 합니다. 유지보수 모드에서 명령을 사용하여 HA 쌍 또는 단일 컨트롤러 구성의 모든 디스크 쉘프에 쉘프 ID를 수동으로 설정하거나 쉘프 ID를 자동으로 할당할 수 있습니다. 두 가지 방법에 대한 지침이 제공됩니다.</block>
   <block id="b1b6e8ddb338daabf15cdf510590fae4" category="list-text">루트 애그리게이트를 포함한 디스크 쉘프는 디스크 쉘프 박스 및 디스크 쉘프 섀시의 레이블로 식별할 수 있습니다.</block>
@@ -2035,11 +1932,9 @@
   <block id="d0239e887ec2c441679c67bab9e771e2" category="list-text">가장 좋은 방법은 최신 버전의 DQP(Disk Qualification Package)를 설치하는 것입니다.</block>
   <block id="83b7fe235f4d243b23ebf6cb04f9c234" category="list-text">모범 사례는 새 시스템을 설치한 후 Config Advisor를 다운로드하여 실행하는 것입니다.</block>
   <block id="f04a5c047df778cea3df6efa23d65eae" category="paragraph">새 시스템 설치 후 Config Advisor를 실행하면 SAS 연결이 올바로 연결되고 HA 쌍 또는 단일 컨트롤러 구성 내에서 쉘프 ID가 고유한지 확인할 수 있습니다.</block>
-  <block id="407a981a808fda2c0421e9e45684daf8" category="section-title">새로운 시스템 설치를 위해 IOM12 모듈과 디스크 쉘프를 설치합니다</block>
   <block id="4634c66603d33968007ce623c89d2060" category="paragraph">디스크 쉘프와 함께 제공된 랙 마운트 키트를 사용하여 디스크 쉘프를 랙에 설치합니다.</block>
   <block id="3cc6cb740df088ccfac252ec1fe8a2d0" category="list-text">디스크 쉘프를 여러 개 추가하는 경우 설치할 각 디스크 쉘프에 대해 이 절차를 반복합니다.</block>
   <block id="76a74383605253628e7771913e3eb749" category="admonition">지금은 디스크 쉘프의 전원을 사용하지 마십시오.</block>
-  <block id="e7afe933c2f80e3f8b351cacf0a98497" category="section-title">새로운 시스템 설치를 위해 IOM12 모듈과 디스크 쉘프 케이블 연결</block>
   <block id="b8fe06fa8cda2e641eeef95ff91ef16f" category="paragraph">쉘프-쉘프(해당하는 경우) 및 컨트롤러-쉘프-케이블을 연결하여 시스템에 대한 스토리지 연결을 설정합니다.</block>
   <block id="1143d5c25aa2f693537222d1f3260323" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="d785cc9ecd460c8d1bff7d4aeeca8c73" category="inline-xref-macro-rx"></block> 랙에 디스크 쉘프를 설치합니다.</block>
   <block id="eb0ef620e7c33a9d328a59925c63f641" category="paragraph">디스크 쉘프의 케이블을 연결한 후 전원을 켜고 쉘프 ID를 설정한 다음 시스템 설정 및 구성을 완료합니다.</block>
@@ -2087,7 +1982,6 @@
   <block id="76c660af8bc67292847bbc542c10fa67" category="list-text">플랫폼 모델의 설치 및 설정 지침에 따라 Config Advisor를 다운로드하여 실행하여 SAS 연결이 올바르게 연결되고 시스템 내에 중복 쉘프 ID가 없는지 확인하십시오.</block>
   <block id="dff1dc2f7a2fbdf73084eb54bb572edd" category="list-text">대역 내 ACP가 자동으로 설정되었는지 확인합니다. 'Storage shelf ACP show'</block>
   <block id="e1dd44433fde96fb10259b3ccdf4b8b6" category="summary">DS460C 디스크 쉘프에 있는 고장난 디스크 드라이브를 핫 스왑할 수 있습니다.</block>
-  <block id="43c3117e7c2816fe7d548359181f4463" category="doc">DS460C 디스크 쉘프 쉘프의 디스크 드라이브를 IOM12 모듈과 핫 스왑합니다</block>
   <block id="be233bc92e2ebd68f0afba0d549e1989" category="list-text">교체 디스크 드라이브는 DS460C 디스크 선반에서 지원해야 합니다.</block>
   <block id="d4639e1d22aa97da774c8bd77f8fb9a4" category="list-text">DS460C 드라이브 쉘프는 각각 12개의 드라이브 슬롯을 포함하는 5개의 드라이브 드로어(맨 위에 있는 드라이브 드로어 1 ~ 아래쪽에 있는 드라이브 드로어 5)로 구성되어 있습니다.</block>
   <block id="b04a9ecb43c98234e0c97b118b532535" category="list-text">다음 그림에서는 쉘프 내의 각 드라이브 드로어에서 드라이브 번호가 0에서 11로 지정되는 방식을 보여 줍니다.</block>
@@ -7583,7 +7477,6 @@
   <block id="3b59196e4aa295b1c38baacd453e22d4" category="sidebar">DS460C 쉘프의 드라이브 서랍</block>
   <block id="215cf653ea0cb475af5720eed33931da" category="sidebar">DS460C 쉘프에 팬을 탑재합니다</block>
   <block id="a53cc92d668601f5026d62e74ca44764" category="sidebar">쉘프를 핫 제거할 수 있습니다</block>
-  <block id="6d4ef13a216b4449d8385bdc797b5980" category="sidebar">IOM12 모듈</block>
   <block id="711fec659e5c52bba32ca7f6f3439502" category="sidebar">쉘프 LED 상태 조건</block>
   <block id="add0180387a0985c32471180b375b8d9" category="sidebar">팬</block>
   <block id="0848ea9d342306bbd71c36913e0508ea" category="sidebar">NVDIMM</block>
@@ -7716,7 +7609,6 @@
   <block id="58732bde98e6986887234578189b04e0" category="sidebar">시스템 복원을 완료합니다</block>
   <block id="5ea90ada1e63424248a2cf6cec4ef92b" category="sidebar">실시간 시계 배터리</block>
   <block id="bebaed72daeb7c87819cff269d45cdc7" category="sidebar">및 케이블을 설치합니다</block>
-  <block id="8bd58fce46ecf816e8b3a0b884ad4724" category="sidebar">IOM12 모듈 설치 및 케이블이 있는 선반</block>
   <block id="2392f11d96d6fc4362b42688f146c995" category="sidebar">새 시스템용 쉘프를 설치하고 케이블을 연결합니다</block>
   <block id="4ccd403eb19c48e7ebdaaeb982ef2481" category="sidebar">쉘프를 핫 추가</block>
   <block id="cf999199f9d4c3e90d15399860476f13" category="sidebar">쉘프 ID를 변경합니다</block>
@@ -7726,7 +7618,6 @@
   <block id="ce6374cb8d43c65f66d31cf1a0ede69e" category="sidebar">4중 경로 연결을 위한 케이블링 워크시트 템플릿</block>
   <block id="c9dbe70bac035df0f96f45c02dcf5bd9" category="sidebar">다중 경로 연결을 위해 워크시트와 케이블을 연결하는 방법</block>
   <block id="5ed51fc3ce581de756d5c3ed9d63dd68" category="sidebar">4중 경로 연결을 위해 워크시트를 읽고 케이블을 연결하는 방법</block>
-  <block id="36b90e2aa279bb518f4a354b026c3203" category="sidebar">IOM12 모듈이 장착된 셸프는 그대로 유지됩니다</block>
   <block id="7c162b58feb8186ad24c1219e33fdd5b" category="sidebar">DS224C 또는 DS212C 쉘프의 디스크 드라이브</block>
   <block id="d35e9de4dd221879d5824b232348dc91" category="sidebar">DS460C 쉘프의 디스크 드라이브</block>
   <block id="8dfce13bab3428db55090c483e5d838b" category="sidebar">DS460C 쉘프의 드라이브 서랍</block>
@@ -8501,12 +8392,10 @@
   <block id="e188406fb2d6108447e3bc6cb9155625" category="inline-link-macro">온보드 스토리지가 있는 AFF 및 FAS 플랫폼</block>
   <block id="7a63e08a24ae8c9c1ab5dcddaf6f551f" category="list-text"><block ref="7a63e08a24ae8c9c1ab5dcddaf6f551f" category="inline-link-macro-rx"></block></block>
   <block id="bd7b8cb1f03ceb90528c843b3cd8c0a4" category="summary">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
-  <block id="bf9eaa32fa671084f441eeba9c863ef6" category="paragraph">디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
   <block id="ba0a2d97499e2e560187690f4b54b10c" category="list-text">제거할 디스크 쉘프의 디스크 드라이브에서 모든 애그리게이트(디스크 드라이브는 스페어 드라이브)를 제거해야 합니다.</block>
   <block id="df890e7b6d800ea7f63516f78dc7b333" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예</block>
   <block id="4831f887bab13b0957b607ad184c87f7" category="paragraph"><block ref="4831f887bab13b0957b607ad184c87f7" category="inline-link-macro-rx"></block></block>
   <block id="fdd0f707bd71fcef53b653ae53e31f53" category="summary">작성된 컨트롤러-스택 케이블링 워크시트와 케이블링 예를 사용하여 AFF 및 FAS 플랫폼을 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 플랫폼과 같은 온보드 스토리지와 함께 연결할 수 있습니다. 이 정보는 FAS25XX 플랫폼에는 적용되지 않습니다.</block>
-  <block id="34a9eb16320fa575f00d96a29be9d645" category="doc">IOM12 모듈을 포함한 온보드 스토리지-선반이 있는 AFF 및 FAS 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예</block>
   <block id="18e93c7175385ec259f95d9d453bdda1" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="67f2d45d4d0936132195fb6f111ce3e8" category="section-title">하나의 다중 쉘프 스택을 통해 다중 경로 HA 구성에서 온보드 스토리지를 제공하는 AFF 및 FAS 플랫폼</block>
   <block id="83742af000bdb059461854fab1a8b606" category="list-text">전원 공급 장치를 다른 효율 등급과 혼합하지 마십시오. 항상 Like를 사용합니다.</block>
@@ -8566,12 +8455,6 @@
   <block id="cff7366c4191a9dd1698e3fd38e5acaf" category="sidebar">NVRAM 모듈 또는 NVRAM DIMM</block>
   <block id="dbe0afeaa91b9a08168e98b33a4c7de8" category="admonition">케이블을 분리한 후 다시 연결하는 데 70초 이상 기다려야 하며, 케이블을 더 오래 교체할 경우</block>
   <block id="04e527203c5db793872f9a09c2541063" category="list-text">하위 단계 A에서 제거한 케이블을 핫 추가할 디스크 쉘프의 IOM A에 있는 동일한 포트에 다시 연결합니다. 그렇지 않으면 다음 하위 단계로 이동합니다.</block>
-  <block id="e62a559839495c7e61b9ce5a088b786c" category="doc">DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12 모듈로 교체합니다</block>
-  <block id="585248eeaa0c7aa335cb47a05c525433" category="image-alt">HDD가 있는 92 DWG de6600 서랍(속성 표시기 없음</block>
-  <block id="2e3d3f0aa5e64af89c170da27ccf0cb2" category="section-title">케이블 체인 제거</block>
-  <block id="bbbd51c2b3c60d5e9becdcf09d29b105" category="section-title">드라이브 드로어 분리</block>
-  <block id="fe8265ac3d0f9c648e57474b40e2e5d8" category="section-title">드라이브 드로어 설치</block>
-  <block id="2731a32bd20082112cb21bea67097d21" category="section-title">케이블 체인 부착</block>
   <block id="b3e40f87c203ef282d4d64a42d869542" category="open-title">옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
   <block id="2cb6637a5fdf450f80c9f19b8c718a47" category="admonition">케이블을 분리한 후 다시 연결하고 다른 케이블을 교체할 때는 70초 이상 기다려야 합니다.</block>
   <block id="8456c08b8772c6458de93a0a78ff4f85" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고 드라이브를 제거한 다음 드라이브 드로어를 제거해야 합니다.</block>
@@ -8802,4 +8685,172 @@
   <block id="f56310c49687a40fd4b43bced4b3dcc8" category="video-title">애니메이션 - AFF A400 설치 및 설정 지침</block>
   <block id="c511d3a873cdf45068fb4cd9897dd7d1" category="admonition">이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</block>
   <block id="37aaa0d7d666e28c8819aac432ac13a0" category="video-title">스위치 클러스터 케이블 연결</block>
+  <block id="0de0a804806f46ef402b06f8cf86d3fd" category="doc">디스크 쉘프 LED 모니터링 - IOM12/IOM12B 모듈이 장착된 쉘프</block>
+  <block id="78a16aa9b69495c135b25bc218c90ea1" category="summary">추가 스토리지가 필요할 경우 IOM12/IOM12B 쉘프(IOM12/IOM12B 모듈이 포함된 SAS 쉘프)를 IOM6 쉘프(IOM6 모듈이 포함된 SAS 쉘프) 스택에 추가하여 스택을 혼합할 수 있습니다.</block>
+  <block id="f5359f540fed4be15500114188289896" category="doc">IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다</block>
+  <block id="f76b5dbe9d6914e6e6154c1a3f084d23" category="paragraph">HA 쌍, 단일 컨트롤러 또는 확장 MetroCluster 구성(시스템)은 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하기 전에 특정 요구사항을 충족해야 합니다.</block>
+  <block id="191707c2abaed14d4f84b334359f090f" category="list-text">ONTAP 시스템 및 버전은 동일한 스택(혼합 스택)에서 IOM6 쉘프와 IOM12/IOM12B 쉘프의 혼합 구성을 지원해야 합니다.</block>
+  <block id="00fff54c913160f5c3bf6b51833732a2" category="paragraph">IOM12/IOM12B 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 드라이브 수를 초과할 수 없습니다.</block>
+  <block id="930a04c4c89c9247f79288e2800c12ca" category="list-text">IOM12/IOM12B 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.</block>
+  <block id="1aefc40815c8a14c682b27d605e0c852" category="paragraph">MetroCluster 구성에서 ATTO FiberBridge 쌍 을 사용하여 연결된 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하는 경우, 시스템은 특정 요구사항을 충족해야 합니다.</block>
+  <block id="19ad2c0538cf2699805ae5b7a88dc72d" category="paragraph">스택에 IOM12/IOM12B 및 IOM6 모듈을 혼합하기 전에 모든 브리지 포트를 사용하십시오.</block>
+  <block id="f29790dcd5dad7176b065228da8e813b" category="list-text">IOM12/IOM12B 쉘프를 핫 추가하고 있는 IOM6 쉘프 스택은 SAS 구리 케이블(모든 쉘프-쉘프 및 컨트롤러-스택 연결)으로 케이블이 연결되어야 합니다.</block>
+  <block id="a303526442a9b488afde68409bafd573" category="admonition">IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12/IOM12B 쉘프를 핫 추가할 수 없습니다. NetApp 세일즈 담당자에게 문의하십시오.</block>
+  <block id="274358a46e82410d70348e1fd12ca278" category="paragraph">IOM12/IOM12B 쉘프는 미니 SAS HD 커넥터를 사용합니다. IOM6 쉘프는 QSFP 커넥터를 사용합니다.</block>
+  <block id="e827f0977c76611ee483794c8c0d589e" category="paragraph">IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하기 전에 이 절차에 대한 측면과 모범 사례를 숙지해야 합니다.</block>
+  <block id="32532820ab52039587ac6fc9539bfbe4" category="list-text">시스템에 케이블을 연결하기 전에 핫 추가할 IOM12/IOM12B 셸프에 펌웨어 버전 0260 이상을 실행하는 것이 좋습니다.</block>
+  <block id="4b0c6c7c1712b07c4f6eb456f77c250b" category="paragraph">IOM12/IOM12B 쉘프 펌웨어를 쉘프에 다운로드한 후, 두 컨트롤러 중 하나의 콘솔에 있는 'storage shelf show-module' 명령을 입력하여 펌웨어 버전이 0260 이상인지 확인합니다.</block>
+  <block id="3ed3a0caa77626b30983d683ee9db330" category="paragraph">IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 IOM12 쉘프가 첫 IOM12/IOM12B 쉘프인지, 즉 스택에 다른 IOM12 쉘프가 있는지 여부에 따라 다릅니다. 또는 기존 혼합 스택에 대한 추가 IOM12/IOM12B 셸프인지 여부입니다. 즉, 스택에 IOM12/IOM12B 쉘프가 이미 존재합니다. 또한 다중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 연결이 있는지 여부에 따라 달라집니다.</block>
+  <block id="04bb04135ba18792013909ca58e7a551" category="list-text">스택 내에서 단일 속도 전환을 유지하기 위해 항상 스택의 마지막 논리적 쉘프에 IOM12/IOM12B 쉘프를 핫 추가합니다.</block>
+  <block id="e0895cf80563e944b90f33500e3072ad" category="paragraph">스택의 마지막 논리적 쉘프에 IOM12/IOM12B 쉘프를 핫 추가하면 IOM6 쉘프가 그룹화되어 계속 표시되며, IOM12/IOM12B 쉘프는 함께 그룹화되어 두 쉘프 그룹 간에 단일 속도의 전환이 가능합니다.</block>
+  <block id="0455216bece3ce620e2fd5c84b24a523" category="list-text">HA 2노드의 경우 2개의 IOM6 쉘프와 2개의 IOM12/IOM12B 쉘프가 포함된 스택 내에서 단일 속도의 전환이 다음과 같이 표현됩니다.</block>
+  <block id="988fffa48b6a32203597193ccfb194d0" category="paragraph">온보드 스토리지 포트 0b는 내부 스토리지(확장기)의 포트이며 핫Added IOM12/IOM12B 쉘프(스택의 마지막 쉘프)에 연결되므로 IOM12/IOM12B 쉘프 그룹은 함께 유지되고 단일 전환은 스택 및 온보드 IOM12E 스토리지를 통해 유지됩니다.</block>
+  <block id="22c141c57159ea5a9cf5ecee1f8b4145" category="list-text">IOM A 경로의 SAS 포트를 먼저 연결하여 IOM12/IOM12B 쉘프에 케이블을 연결한 다음, 스택 연결에 해당하는 IOM B 경로에 대해 케이블 연결 단계를 반복합니다.</block>
+  <block id="74e72cd0b8695a83723abedf9f9e8d92" category="list-text">초기 IOM12/IOM12B 쉘프(논리적 마지막 IOM6 쉘프에 연결하는 IOM12 쉘프)는 항상 IOM6 쉘프 원 포트(사각 포트가 아님)에 연결됩니다.</block>
+  <block id="f40ad7d263effd48cd15f5ec54dc2775" category="list-text">FC-to-SAS 브리지를 사용하지 않는 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 다음 그림을 참조하십시오.</block>
+  <block id="5c5d06fa180884eea62ba831b980ed33" category="list-text">다음 그림은 브리지 연결 MetroCluster 구성에서 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 연결하는 방법을 보여 줍니다. <block ref="3bf7d126d94220be52cd0d278e98261d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d7f99cbbf1b9ba05ea3a6ec89eae8b6" category="list-text">IOM6 스택에 IOM12/IOM12B 쉘프가 추가되었습니다. 즉, IOM6 쉘프에 다른 IOM12/IOM12B 쉘프가 존재하지 않는 IOM12/IOM12B 쉘프를 추가하려면 해당 하위 단계를 완료하십시오.</block>
+  <block id="423d2f16d6d5594161f3868e4a50907a" category="list-text">마지막 IOM6 쉘프 IOM A 원 포트(하위 단계 A에서 새 IOM12/IOM12B 쉘프 IOM A 포트 1)에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
+  <block id="41cb447e88bb124a5db517ed30198998" category="list-text">다른 IOM12/IOM12B 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12/IOM12B 쉘프 IOM A 포트 3 및 다음 IOM12/IOM12B 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
+  <block id="c5053835d12fc440bf9519cf51926077" category="list-text">마지막 IOM6 쉘프 IOM A 원형 포트와 새로운 IOM12/IOM12B 쉘프 IOM A 포트 1 사이의 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
+  <block id="46a7d11c0de8261bfb74d9bce4920db4" category="list-text">다른 IOM12/IOM12B 쉘프를 핫 추가하는 경우, a 및 b 하위 단계를 반복합니다</block>
+  <block id="cc6b443dcaf375914e07667f9d494608" category="list-text">IOM12/IOM12B 셸프가 추가 IOM12/IOM12B 셸프로 기존 혼합 스택에 있는 경우(즉, 스택에 하나 이상의 IOM12/IOM12B 쉘프가 이미 존재하는 경우) 해당 하위 단계를 완료합니다.</block>
+  <block id="323be85d169cf65d9f2dff0b9daf0dd6" category="list-text">컨트롤러-스택 케이블을 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3에서 마지막 새 IOM12/IOM12B 쉘프의 동일한 포트로 이동합니다.</block>
+  <block id="4a234d60639e9340f8ce3de65d81db69" category="list-text">IOM12/IOM12B 쉘프 1개를 핫 추가하는 경우, 이전의 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3 간의 쉘프 연결을 마지막 새 IOM12/IOM12B 쉘프 IOM A 포트 1에 케이블로 연결합니다.</block>
+  <block id="633e2691f3d334f1861df8688fb8aff3" category="list-text">둘 이상의 IOM12/IOM12B 쉘프를 핫 추가하는 경우, 이전의 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3과 다음 IOM12B 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12/IOM12B 쉘프에 대해 이 과정을 반복합니다.</block>
+  <block id="b113f1515b045f95139c50b2780a1d36" category="list-text">이전의 마지막 IOM12/IOM12B 쉘프에서 하단 브리지-스택 케이블을 최신 IOM12/IOM12B 쉘프의 동일한 포트로 이동합니다.</block>
+  <block id="7db70baa0612f96923b03e33b9be4f34" category="list-text">이전의 마지막 IOM12/IOM12B 쉘프 IOM A 포트 3과 다음 IOM12/IOM12B 쉘프 IOM A 포트 1 사이에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12/IOM12B 쉘프에 대해 이 과정을 반복합니다.</block>
+  <block id="9547d5ec3cd6feb3f2b2910fd3c8382c" category="list-text">이전의 마지막 IOM12/IOM12B 쉘프 IOM B 포트 3과 다음 IOM12/IOM12B 쉘프 IOM B 포트 1 사이에 쉘프-쉘프 연결을 케이블로 연결한 다음, 추가 IOM12/IOM12B 쉘프에 대해 이 과정을 반복합니다.</block>
+  <block id="3e64a107cb4cb3d60d43a803688dd95d" category="list-text">마지막 IOM12/IOM12B 쉘프 IOM A 포트 3과 마지막 새 IOM12/IOM12B 쉘프 IOM A 포트 1 사이의 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
+  <block id="ec60586c7b5d5cc75eb55730acd9080c" category="paragraph">IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가하기 위한 준비 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
+  <block id="e0c4907423e9966f80fb30cb4ce6df57" category="doc">SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12/IOM12B 모듈이 포함된 선반</block>
+  <block id="87fe7ea614796dffe614513028372aa9" category="paragraph">IOM12/IOM12B 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되도록 필요에 따라 사용 가능한 SAS 케이블 연결 규칙, 워크시트 및 예제 콘텐츠를 사용할 수 있습니다.</block>
+  <block id="062023e4095a297f17b97a86d9b4d256" category="summary">IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 HA 쌍 및 단일 컨트롤러 구성으로 케이블 연결이 가능합니다(지원되는 플랫폼용).</block>
+  <block id="f5b9b5b9c8a3b908584581a89b8c2226" category="doc">SAS 케이블 연결 규칙 - IOM12/IOM12B 모듈이 포함된 선반</block>
+  <block id="19a5945f47c08602bccb2ce050ccb955" category="paragraph">IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 구성 규칙, 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙, 컨트롤러-스택 연결 규칙, 미니 SAS HD SAS 광 케이블 규칙 등 SAS 케이블 연결 규칙을 적용하여 HA 쌍 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블로 연결할 수 있습니다.</block>
+  <block id="238f6056b9fefe76918fd63804bbcbfa" category="admonition">이 가이드에 설명된 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙 및 컨트롤러-스택 연결 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12/IOM12B, IOM6 또는 IOM3 모듈 등 모든 SAS 디스크 쉘프에 적용되는 동일한 규칙입니다. 그러나 이 가이드의 정보는 IOM12 모듈을 사용하는 디스크 쉘프의 고유한 특성 및 지원되는 구성에서 사용됩니다.</block>
+  <block id="35f903a7001175494e6eb7088631a16e" category="paragraph">이 가이드에 설명된 구성 규칙 및 미니 SAS HD SAS 광 케이블 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12/IOM12B 모듈이 있는 디스크 쉘프에만 적용됩니다.</block>
+  <block id="db4182fc310c06c3ebfb7e9fb022e4b4" category="doc">IOM12/IOM12B 모듈을 사용하여 쉘프 ID-쉘프 변경</block>
+  <block id="30e90859076cc858a7c5ef12a99ba8ce" category="doc">IOM12/IOM12B 모듈이 포함된 SAS 쉘프</block>
+  <block id="314802b9b5ea5477ad3c17cc48db0ca8" category="doc">IOM12/IOM12B 모듈을 사용하여 쉘프-쉘프 핫 제거</block>
+  <block id="f6516aa66806c66f90b17f54c90fc724" category="paragraph">디스크 쉘프를 이동하거나 교체해야 할 때 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 상태에서 I/O가 진행 중인 시스템에서 디스크 쉘프를 중단 없이 제거). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.</block>
+  <block id="a545c2ce8d557ac97c60d7fea8129606" category="paragraph">AFF A200, AFF A220, FAS2600 시리즈, FAS2700 시스템과 같은 온보드 스토리지가 있는 플랫폼의 경우 외부 스토리지를 다중 경로 HA 또는 다중 경로와 케이블로 연결해야 합니다.</block>
+  <block id="5472ec6cdf96cae68f6aaf248821072c" category="summary">IOM12/IOM12B 모듈을 사용하여 기존 디스크 쉘프 스택에 IOM12/IOM12B 모듈을 사용하여 하나 이상의 디스크 쉘프를 핫 추가할 수 있습니다. 또는 IOM12/IOM12B 모듈을 사용하여 하나 이상의 디스크 쉘프 스택을 컨트롤러의 SAS HBA 또는 온보드 SAS 포트에 직접 추가할 수 있습니다.</block>
+  <block id="73f598cbb764bf6388343f00e9909f51" category="doc">IOM12/IOM12B 모듈이 포함된 쉘프-쉘프 핫 추가</block>
+  <block id="4581059a15bfa8d6048b69c91b29d1d6" category="paragraph">다음 절차를 사용하여 스택을 혼합할 수 없습니다. IOM12/IOM12B 모듈과 쉘프를 핫 추가, IOM6 모듈이 있는 쉘프 스택에 추가하십시오. 스택을 혼합해야 하는 경우 를 사용합니다 <block ref="262c980c58c743dada67cf3fc593aeaa" category="inline-link-macro-rx"></block>.</block>
+  <block id="92d59a751ebdb338fef3f1efcf1de229" category="section-title">IOM12/IOM12B 모듈이 포함된 핫 추가 디스크 쉘프 요구사항</block>
+  <block id="d672bc2589b757bc56d94ab87634e52d" category="paragraph">IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 핫 추가하기 전에 시스템이 특정 요구사항을 충족해야 합니다.</block>
+  <block id="b12f13e54028d8d03dc7ca379e406141" category="section-title">IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 핫 추가할 때의 고려 사항</block>
+  <block id="16e515f4f7ddf43ca6fc5f5321a960e5" category="list-text">IOM12/IOM12B 모듈이 포함된 디스크 쉘프를 기존 스택(IOM12/IOM12B 모듈이 있는 디스크 쉘프)에 핫 애드하는 경우, 스택의 논리 첫 번째 또는 마지막 디스크 쉘프에 디스크 쉘프를 추가할 수 있습니다.</block>
+  <block id="4a6c06310d2bcd1c9758407cb59a423d" category="list-text">IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 자체 고유 스택에 있어야 하며, IOM6 모듈 또는 IOM3 모듈이 포함된 쉘프가 있는 스택에 추가할 수 없습니다.</block>
+  <block id="1297a8f1ac3fcf90ab0c70ff5e47b71d" category="paragraph">이 절차에서는 IOM12/IOM12B 모듈이 포함된 쉘프 스택에 대한 IOM6 모듈의 핫 추가 등 스택 혼합에 대해 다루지 않습니다.</block>
+  <block id="0712df39e8d2ca11a74df9f3fe275482" category="list-text">IOM12/IOM12B 모듈을 사용하면 한 시스템에서 다중 경로 및 4중 경로 방식의 디스크 쉘프 스택을 수행할 수 있습니다.</block>
+  <block id="fb510c511f697ba0b554724f2d55ce12" category="section-title">핫 애드용 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치</block>
+  <block id="eef12ccd7f9c2345b5a3e069f9088bd0" category="section-title">핫 애드용 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 케이블링</block>
+  <block id="5b07090bafdc58182b6f01852ecbad05" category="summary">워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈이 포함된 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다.</block>
+  <block id="5d57c73dbe661f28ff4ab36825900d40" category="doc">IOM1/IOM12B2 모듈을 사용하는 4중 경로 연결 쉘프용 컨트롤러-스택 케이블링 워크시트 템플릿</block>
+  <block id="51432cf63c198a0a11bab993299ae7fd" category="paragraph">워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.</block>
+  <block id="b6e864fc7eab4fd6206badf96144db05" category="list-text">회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.</block>
+  <block id="e50ad77c16b4b45855a35ff91f7ad9a6" category="list-text">회색 상자에 시스템의 모든 SAS B 포트 및 시스템의 모든 SAS D 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.</block>
+  <block id="9f82eea0f440d221437653dd782356a4" category="summary">시스템 구성에 따라 IOM12/IOM12B 모듈 핫 스왑 또는 IOM12/IOM12B 모듈 장애 발생 시 IOM12/IOM12B 모듈 교체 중단 여부를 결정합니다.</block>
+  <block id="e94ea14f1834ad1513612bb606dc44a1" category="doc">IOM12/IOM12B 모듈 - 쉘프를 IOM12/IOM12B 모듈로 핫 스왑 또는 교체합니다</block>
+  <block id="d007c21d806a293463286bcdc9c26240" category="paragraph">시스템 구성에 따라 쉘프 IOM이 실패할 경우 무중단 쉘프 IOM 핫 스왑을 수행할 수 있는지 또는 중단 없는 쉘프 IOM 교체를 수행할 수 있는지 여부가 결정됩니다.</block>
+  <block id="030b841927b9d492809adeca76bc32be" category="paragraph">다른 IOM12/IOM12B 모듈을 포함한 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다.</block>
+  <block id="aef3b76fff3e5002c8e1c4072af34e33" category="list-text">이 절차는 IOM12 모듈이 있는 셸프 및 IOM12B 모듈이 있는 셸프에 적용됩니다.</block>
+  <block id="2af3ffb0914986412fbce97033362ada" category="admonition">이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적용됩니다. 즉, IOM12 모듈을 다른 IOM12 모듈로 교체하거나 IOM12B 모듈을 다른 IOM12B 모듈로 교체할 수 있습니다. (이 쉘프는 IOM12 모듈 2개를 포함할 수 있으며, 또는 IOM12B 모듈 2개를 포함할 수 있습니다.)</block>
+  <block id="ebe49a15e88084dd22a61a0c761257fe" category="list-text">IOM12 모듈 및 IOM12B 모듈은 다음과 같이 외관에 따라 구별할 수 있습니다.</block>
+  <block id="20b0dc7787284cb0afa2dbc5d95136a2" category="paragraph">IOM12 모듈은 "IOM12" 레이블로 구분됩니다.</block>
+  <block id="5416d570ace1334ffbc27d0d9486ebe5" category="paragraph">IOM12B 모듈은 파란색 스트라이프와 "IOM12B" 레이블로 구별됩니다.</block>
+  <block id="d2a8fdadc8d18dd445c56f47cea6197a" category="image-alt">iom12b</block>
+  <block id="f85a60cb0afe5b75f4c43ed293c8a779" category="list-text">다중 경로(다중 경로 HA 또는 다중 경로) 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우 쉘프 IOM을 핫 스왑할 수 있습니다. 즉, 전원이 켜져 있고 데이터를 제공하는 시스템의 쉘프 IOM을 중단 없이 교체할 수 있습니다. -- I/O가 진행 중입니다.</block>
+  <block id="9785f45e8f6989c9b8cb2419a2b695da" category="list-text">FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성의 경우 전원을 켜고 데이터를 제공하는 시스템의 쉘프 IOM을 대체하기 위해 테이크오버 및 반환 작업을 수행해야 합니다. -- I/O가 진행 중입니다.</block>
+  <block id="0894c7928fa1bee8fd4a0207429b7254" category="list-text">FAS2600 시리즈 단일 경로 구성의 경우 쉘프 IOM을 교체하기 위해 시스템을 중지해야 합니다.</block>
+  <block id="f00eb102fd21bbf5e0dd612fcc8a9fde" category="admonition">단일 경로 연결로 디스크 쉘프의 쉘프 IOM을 핫 스왑하려고 하면 디스크 쉘프의 디스크 드라이브 및 해당 디스크 쉘프의 디스크 드라이브에 모두 액세스할 수 없게 됩니다. 전체 시스템을 다운시킬 수도 있습니다.</block>
+  <block id="1ab8471fd1a18dea9022ef583cd03d25" category="list-text">IOM(디스크 쉘프) 펌웨어가 최신 버전이 아닌 새 쉘프 IOM에서 중단 없이 자동으로 업데이트됩니다.</block>
+  <block id="97b28cd2a227df77e22972ff1fcbf490" category="paragraph">쉘프 IOM 펌웨어 검사는 10분마다 수행됩니다. IOM 펌웨어 업데이트는 최대 30분이 걸릴 수 있습니다.</block>
+  <block id="0921b7cc724d7a4c794a884b40f14789" category="paragraph">디스크 쉘프에는 3개의 위치 LED(운영 디스플레이 패널에 1개, 쉘프 IOM)가 있습니다. 위치 LED가 30분 동안 켜져 있습니다. 같은 명령을 입력해도 끄기 옵션을 사용하여 해제할 수 있습니다.</block>
+  <block id="9704edc0c40aff2bc9c91d97d7bdd6c5" category="list-text">새 쉘프 IOM의 압축을 풀고 디스크 쉘프 근처의 평평한 표면에 설정합니다.</block>
+  <block id="82596309a8fa5f7ee94835a2785f0208" category="paragraph">오류가 발생한 쉘프 IOM을 반환할 때 사용할 수 있도록 모든 포장재를 보관합니다.</block>
+  <block id="27f828dc47aef9b25b9f0603b1307a44" category="list-text">시스템 콘솔 경고 메시지에서 실패한 쉘프 IOM을 물리적으로 식별하고 실패한 쉘프 IOM의 켜짐 주의(주황색) LED를 확인합니다.</block>
+  <block id="373a5d24b1aa2958990518bcd5ed56ab" category="paragraph">FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성</block>
+  <block id="5de1791487db34e32b1323bb994c054c" category="list-text">타겟 노드(장애가 발생한 쉘프 IOM이 속한 노드)를 확인합니다.</block>
+  <block id="3b8811460da03f6141f48283c90f0c81" category="list-text">제거하려는 쉘프 IOM에서 케이블을 분리합니다.</block>
+  <block id="07bf16e1ed0cfef58d7f5600babc67b0" category="paragraph">각 케이블이 연결된 쉘프 IOM 포트를 기록해 둡니다.</block>
+  <block id="2c90515780aa4ada9f036267519ca053" category="list-text">쉘프 IOM 캠 핸들에서 주황색 걸쇠가 분리될 때까지 누른 다음 캠 핸들을 완전히 열어 중간 평면에서 쉘프 IOM을 해제합니다.</block>
+  <block id="3cd34c3a3dcf24396b327cfffa0135af" category="list-text">캠 핸들을 사용하여 쉘프 IOM을 디스크 쉘프 밖으로 밀어냅니다.</block>
+  <block id="c53f74c15390f8807c5e8c0905bb0886" category="paragraph">쉘프 IOM을 취급할 때 항상 두 손을 사용하여 중량을 지지하십시오.</block>
+  <block id="745f4edf7ff287661f3eaeff8ee25ded" category="list-text">쉘프 IOM을 제거한 후 새 쉘프 IOM을 설치하기 전에 70초 이상 기다립니다.</block>
+  <block id="574efb7bdeea63f97753a05f3c6871f5" category="list-text">양손으로 새 쉘프 IOM의 캠 핸들을 열린 위치에 놓고 새 쉘프 IOM의 가장자리를 디스크 쉘프의 입구에 맞춘 다음 새 쉘프 IOM을 중간 평면에 맞을 때까지 단단히 누릅니다.</block>
+  <block id="222746507964b1ed3eaf55fde5e31c2b" category="admonition">쉘프 IOM을 디스크 쉘프에 밀어 넣을 때 과도한 힘을 가하지 마십시오. 커넥터가 손상될 수 있습니다.</block>
+  <block id="4ca96495e80202f00b900a4621ad919b" category="list-text">래치가 잠금 위치에 딸깍 소리를 내며 선반 IOM이 완전히 장착되도록 캠 핸들을 닫습니다.</block>
+  <block id="0da46cd6bdd0bb5727da715e0ba9290d" category="list-text">쉘프 IOM 포트 링크가 설정되었는지 확인합니다.</block>
+  <block id="e4d6a1639eb1018ebdf0ee077494d1a9" category="summary">이 예는 4중 경로 연결을 위해 IOM12/IOM12B 모듈을 사용하여 완료된 워크시트를 읽고 케이블 선반 스택에 적용하는 방법을 안내합니다.</block>
+  <block id="114f9b221f24441ab337c7de57a95c34" category="doc">IOM12/IOM12B 모듈을 사용하여 4중 경로 연결 셸프의 컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법</block>
+  <block id="35dc71ed57aee63da50f31e10929fcac" category="doc">핫 스왑 A 전원 공급 장치 - IOM12/IOM12B 모듈이 장착된 선반</block>
+  <block id="597768bf006f6e20b6db4d977f39566f" category="doc">일반적인 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블 연결 워크시트 및 케이블 연결 예 - IOM12/IOM12B 모듈이 장착된 쉘프</block>
+  <block id="daa5cf1e3bbccdadf18629f97e2ca42a" category="doc">IOM12/IOM12B 모듈을 사용하여 다중 경로 연결 쉘프를 위한 컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법</block>
+  <block id="eeea27d9ea27420adcc8ce9fd05614b8" category="paragraph">이 예는 다중 경로 연결을 위해 IOM12/IOM12B 모듈을 사용하는 디스크 쉘프의 컨트롤러-스택 간 케이블 연결을 읽고 적용하는 방법을 안내합니다.</block>
+  <block id="baeaa6c0f7d91e3737654018dbaf4dab" category="paragraph">이 예제에서 사용된 구성은 각 컨트롤러에 2개의 4중 포트 SAS HBA(8개의 SAS 포트)가 있는 다중 경로 HA 구성과 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택입니다. 포트 쌍은 워크시트의 다른 모든 포트 쌍을 건너뛰어 케이블로 연결됩니다.</block>
+  <block id="8c2ea3821fe3ebc950535413e621cebe" category="doc">DS460C 디스크 쉘프 쉘프의 팬 모듈을 IOM12/IOM12B 모듈로 교체합니다</block>
+  <block id="3b11171c02404a6a48fbb19b047eef0f" category="summary">워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 다중 경로 방식으로 연결할 수 있습니다. 완성된 워크시트를 사용하여 구성에 대한 다중 경로 연결 케이블 연결을 단계별로 수행할 수도 있습니다.</block>
+  <block id="12156870a61d18f81545fc90d3b6ffda" category="doc">다중 경로 연결을 위한 컨트롤러-스택 케이블링 워크시트 템플릿 - IOM12/IOM12B 모듈이 장착된 셸프</block>
+  <block id="43e54d26abacd9c39f7b1ca3e46f28bc" category="doc">새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프</block>
+  <block id="26d6adab5145dcaeef75e539d6505422" category="section-title">새 시스템 설치를 위해 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치 및 케이블 연결 요구 사항</block>
+  <block id="92981035bf465c86f5c925914f3103e0" category="section-title">새 시스템 설치를 위해 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치 및 케이블 연결 시 고려 사항</block>
+  <block id="6a133718408653e3259d13651c14c879" category="list-text">IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 쉘프 ID가 00으로 사전 설정된 상태로 제공됩니다.</block>
+  <block id="e37be681c028209021899aca48b5a94e" category="section-title">새 시스템 설치를 위해 IOM12/IOM12B 모듈과 디스크 쉘프를 설치합니다</block>
+  <block id="cff4c6a80d673a91abe24c8dff38731f" category="section-title">새 시스템 설치용 IOM12/IOM12B 모듈과 디스크 쉘프 케이블 연결</block>
+  <block id="17ddda76156258b572f9b144817d0684" category="doc">DS224C 또는 DS212C 디스크 쉘프의 디스크 드라이브를 IOM12/IOM12B 모듈과 핫 스왑합니다</block>
+  <block id="bae52e811e373496a8dd1a90bdcd997a" category="doc">2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 컨트롤러-스택 케이블 연결 워크시트 및 케이블 연결 예 - IOM12/IOM12B 모듈을 포함하는 쉘프</block>
+  <block id="ddc31af8042cf01054a35e84a194db81" category="summary">쉘프의 드라이브 서랍을 교체하려면 전체 스토리지 시스템(HA 쌍)을 중지해야 합니다. 따라서 쉘프에 데이터 애그리게이트를 계속 유지할 수 있으며, HA 쌍을 계속 유지하고 실행할 수도 있습니다. 이 경우 디스크 드라이브에 상주하는 데이터 애그리게이트에서 모든 데이터를 오프라인 상태로 이동하고 데이터 애그리게이트를 삭제해야 합니다. 하지만 쉘프에 루트 애그리게이트가 포함되어 있는 경우 HA 쌍을 중지해야 합니다.</block>
+  <block id="4d3eb6be0ac338cf16ceee7366b714e2" category="doc">DS460C 디스크 쉘프 쉘프의 드라이브 서랍을 IOM12/IOM12B 모듈로 교체합니다</block>
+  <block id="08112df5a5488f0c78a69cd8eb1823a1" category="list-text">이 절차는 DCM 드라이브 드로어 및/또는 DCM2 드라이브 드로어가 있는 셸프에 적용됩니다. (쉘프에는 IOM12 모듈 2개 또는 IOM12B 모듈 2개가 있습니다.)</block>
+  <block id="ff6ef70fd6ff188b3310deca2ed1341f" category="paragraph">DCM 또는 DCM2 드라이브 드로어에 장애가 발생하면 DCM 또는 DCM2 드라이브 드로어를 교체해도 됩니다.</block>
+  <block id="a1de29a246e1d955898722ea58ccaad9" category="paragraph">장애가 발생한 드라이브 드로어를 교체할 경우 쉘프에 IOM12 모듈과 DCM2 드라이브 드로어의 수가 조합되어 있게 됩니다. IOM12 모듈에는 DCM2 드라이브 드로어를 지원하는 FW 버전이 필요하므로 IOM12 FW를 0300 이상 버전으로 업그레이드해야 합니다.</block>
+  <block id="99a3be716b7d4f783a2df1a6711575bb" category="paragraph">드라이브 드로어를 교체하기 전이나 후에 IOM12 FW 업그레이드를 수행할 수 있습니다. 이 절차에서는 드로어 교체 절차를 준비하는 과정에서 FW를 업그레이드합니다.</block>
+  <block id="ee0c60e2d91c7aed52362f32053f76dc" category="list-text">DCM 드라이브 드로어 및 DCM2 드라이브 드로어는 외관에 따라 구분할 수 있습니다.</block>
+  <block id="032d64c3ac3941e331a360a54f0a04ef" category="paragraph">DCM 드라이브 드로어는 다음과 같습니다.</block>
+  <block id="319d072de0a7eb80654d8506bc74de47" category="paragraph">DCM2 드라이브 드로어는 파란색 스트라이프와 "DCM2" 레이블로 구분됩니다.</block>
+  <block id="8bf45bf113568322e421362c99ee6a1e" category="image-alt">dcm2</block>
+  <block id="d5240bafd6bf54bcb59e9a9f899b324e" category="section-title">드라이브 드로어를 교체할 준비를 합니다</block>
+  <block id="38cd7f0eca6a82b183b0f9dc3599583a" category="paragraph">드라이브 드로어를 교체하기 전에 필요한 경우 IOM12 FW를 업데이트하고, HA 쌍을 중지해야 하므로 쉘프에 데이터 애그리게이트를 유지할 수 있으며, HA 쌍을 계속 유지할 수 있는 옵션이 있습니다. 이 경우 디스크 드라이브에 상주하는 데이터 애그리게이트에서 모든 데이터를 오프라인 상태로 이동하고 데이터 애그리게이트를 삭제해야 합니다. 하지만 쉘프에 루트 애그리게이트가 포함되어 있는 경우 HA 쌍을 중지해야 합니다. 마지막으로, 쉘프의 전원을 꺼야 합니다.</block>
+  <block id="fca3ffea6534176432f58b5a22ed22e1" category="list-title">단계</block>
+  <block id="f1d6fcc8467c66247fc38fc5bb1e448c" category="list-text">장애가 발생한 드라이브 드로어를 교체할 때 쉘프에 IOM12 모듈과 여러 개의 DCM2 드라이브 드로어가 결합되어 있는지 확인합니다.</block>
+  <block id="bb92ef0e860f1f3c67a9c3a453b2781c" category="list-text">쉘프에 IOM12 모듈과 여러 개의 DCM2 드라이브 드로어가 조합되어 있는 경우 IOM12 FW를 버전 0300 이상으로 업그레이드해야 합니다. 그렇지 않으면 다음 단계로 이동하십시오.</block>
+  <block id="62f67af3803932031f11d177b5600361" category="list-text">쉘프에 HA 쌍 중 하나의 컨트롤러의 루트 애그리게이트가 포함되어 있거나 HA 쌍을 중단(HA Pair를 계속 실행 중인 상태로 유지)하도록 선택한 경우 다음 하위 단계를 완료하고, 그렇지 않은 경우 다음 단계로 이동합니다.</block>
+  <block id="b37509241639472ba31b52aa5d631103" category="admonition">HA 쌍을 중단하는 경우에도 데이터 애그리게이트는 쉘프에 계속 남아 있을 수 있습니다.</block>
+  <block id="4776c6cfddf3d461bf032149a752938e" category="list-text">HA Pair에서 두 컨트롤러를 모두 중지합니다.</block>
+  <block id="e2db2ba60f254ab9fa73e6d1f20e55c2" category="list-text">스토리지 시스템 콘솔을 확인하여 HA 쌍이 중지되었는지 확인합니다.</block>
+  <block id="44359972349c2c141847d44b8de3be34" category="list-text">쉘프 전원을 끕니다.</block>
+  <block id="4bd0b0c2b519de54df41bc77088d8182" category="list-text">섹션으로 이동합니다. <block ref="f9b764c55080d7cf77ed91e890c43565" category="inline-xref-macro-rx"></block>.</block>
+  <block id="eb1a8e53bca0fcb026633a23b562bfff" category="list-text">HA Pair를 계속 가동하도록 선택한 경우 다음 하위 단계를 완료하십시오.</block>
+  <block id="1aea84d8e76217145d77f4dd7efe6f8f" category="admonition">드로어를 디스크 쉘프의 애그리게이트로 교체하려고 하면 다중 디스크 패닉이 발생할 수 있습니다.</block>
+  <block id="ea0b163daac6d7d1dbcf0110733b7a5c" category="list-text">디스크 드라이브에 상주하는 데이터 애그리게이트에서 모든 데이터를 이동합니다.</block>
+  <block id="a3285b442e65f70add01ba5f44551d15" category="paragraph">데이터에는 볼륨 및 LUN이 포함되며 이에 제한되지 않습니다.</block>
+  <block id="cf798cab97b54ad5fe43c91a959754ca" category="list-text">디스크 드라이브를 스페어로 사용할 수 있도록 애그리게이트를 오프로드하고 삭제합니다.</block>
+  <block id="19613506a0ea4d74ae9e654ba0e170e6" category="paragraph">두 컨트롤러 중 하나의 클러스터 쉘에서 명령을 입력할 수 있습니다.</block>
+  <block id="29d153e4b431b938b7c5a1015eeb6911" category="paragraph">'Storage aggregate offline-aggregate_aggregate_name_'</block>
+  <block id="6111125e279add9b4874ec606bdf8f0e" category="paragraph">'Storage aggregate delete-aggregate_aggregate_name_'</block>
+  <block id="0c94b39e7db15daf22049ff530aa79c4" category="list-text">디스크 드라이브에 Aggregate가 없는지 확인합니다(스페어).</block>
+  <block id="c0ee87ce0ebd393c47203bb5fe61c6ff" category="list-text">출력을 확인하여 drisk 드라이브가 스페어인지 확인합니다.</block>
+  <block id="4b212a4f1b15a2634ac4585703871c77" category="paragraph">예비부품인 디스크 드라이브는 컨테이너 유형 열에 '사사사사자다'가 표시됩니다.</block>
+  <block id="91b2958bfbb554d300e8185ae9b27737" category="admonition">쉘프의 디스크 드라이브에 장애가 발생하면 '컨테이너 유형' 열에 '중단됨'이 표시됩니다.</block>
+  <block id="f3f4e90f1b3b6970f9ad6037d23137fc" category="section-title">케이블 체인을 탈거하십시오</block>
+  <block id="55f8cb8af8225d6be98f60253659b35d" category="list-text">을(를) 완료했습니다 <block ref="95aa2d1c854ce79c2690ee7f9045d8e3" category="inline-xref-macro-rx"></block> 단계를 수행하여 HA 쌍이 중단되거나 디스크 드라이브에 상주하는 데이터 애그리게이트에서 모든 데이터를 오프라인 상태로 이동하고 해당 데이터 애그리게이트를 오프라인 상태로 삭제하여 디스크 드라이브를 스페어로 설정할 수 있습니다.</block>
+  <block id="eb00582562ed05ba82111f55c5dd7ed9" category="list-text">선반의 전원을 껐습니다.</block>
+  <block id="39f83f14ef074e7f47f1a89591dede20" category="section-title">드라이브 드로어를 분리합니다</block>
+  <block id="c1493a32213b959f5c9f8be86dfb9960" category="section-title">드라이브 드로어를 설치합니다</block>
+  <block id="02b9f44accc14d7238a1f0607ea50e30" category="section-title">케이블 체인을 연결합니다</block>
+  <block id="f4435aa5af54d743ca17f6f55210a44e" category="paragraph">드라이브 드로어를 설치하는 마지막 단계는 교체용 좌측 및 우측 케이블 체인을 드라이브 쉘프에 연결하는 것입니다. 케이블 체인을 연결할 때는 케이블 체인을 분리할 때 사용한 역순으로 케이블을 연결합니다. 체인의 수직 커넥터를 인클로저의 수직 브래킷에 삽입하기 전에 체인의 수평 커넥터를 인클로저의 수평 브래킷에 삽입해야 합니다.</block>
+  <block id="4a88d75e49b05610191f242748bb61ec" category="list-text">HA 쌍을 중단했다면, 두 컨트롤러 모두에서 ONTAP를 부팅하십시오. 그렇지 않으면 다음 단계로 이동하십시오.</block>
+  <block id="4f793cbfd6b4c5b97cc3f88b97513f30" category="list-text">데이터를 쉘프에서 꺼낸 후 데이터 애그리게이트를 삭제한 경우, 쉘프의 스페어 디스크를 사용하여 애그리게이트를 만들거나 확장할 수 있습니다.</block>
+  <block id="c776cbda6aa3c18922e3f8d06f693123" category="inline-link">집계 생성 워크플로</block>
+  <block id="ada7b50b987afb01f91df0d931ebd26c" category="paragraph"><block ref="ada7b50b987afb01f91df0d931ebd26c" category="inline-link-rx"></block></block>
+  <block id="5d2249930d4d6f285a5ccc70c9734de6" category="inline-link">애그리게이트 확장 워크플로우</block>
+  <block id="fcdebdb1f4c79cc7a93d9f17744521c5" category="paragraph"><block ref="fcdebdb1f4c79cc7a93d9f17744521c5" category="inline-link-rx"></block></block>
+  <block id="87e222a1917be35f082aeb99501e10ca" category="doc">IOM12/IOM12B 모듈을 사용하여 DS460C 디스크 쉘프 쉘프의 디스크 드라이브를 핫 스왑합니다</block>
+  <block id="85085227e7191ff5201df5ab0dba828e" category="doc">IOM12/IOM12B 모듈이 포함된 온보드 스토리지-선반이 있는 AFF 및 FAS 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예</block>
+  <block id="3cf53d4c9bda935f2527cd9e3072ef82" category="sidebar">IOM12/IOM12B 모듈</block>
+  <block id="c495d94f32f50365b375a20870280fde" category="sidebar">IOM12/IOM2B 모듈 설치 및 케이블이 있는 선반</block>
+  <block id="932dcd191a61980121848404f3579ffb" category="sidebar">IOM12/IOM12B 모듈이 장착된 셸프가 유지됩니다</block>
 </blocks>

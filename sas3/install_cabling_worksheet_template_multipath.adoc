@@ -2,16 +2,16 @@
 permalink: sas3/install-cabling-worksheet-template-multipath.html 
 sidebar: sidebar 
 keywords: complete, completing, worksheet, template, controller, sas, port, pair, cable, controller, disk, shelves, iom12, module, achieve, multipathed, connectivity, ha, pair, single-controller, configuration, worksheet, connection, controller-to-stack cabling worksheet template for multipathed connectivity 
-summary: 워크시트 템플릿을 완료하면 컨트롤러를 IOM12 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 다중 경로 방식으로 연결할 수 있습니다. 완성된 워크시트를 사용하여 구성에 대한 다중 경로 연결 케이블 연결을 단계별로 수행할 수도 있습니다. 
+summary: 워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 다중 경로 방식으로 연결할 수 있습니다. 완성된 워크시트를 사용하여 구성에 대한 다중 경로 연결 케이블 연결을 단계별로 수행할 수도 있습니다. 
 ---
-= IOM12 모듈을 사용한 다중 경로 연결 선반용 컨트롤러-스택 케이블링 워크시트 템플릿
+= 다중 경로 연결을 위한 컨트롤러-스택 케이블링 워크시트 템플릿 - IOM12/IOM12B 모듈이 장착된 셸프
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-워크시트 템플릿을 완료하면 컨트롤러를 IOM12 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 다중 경로 방식으로 연결할 수 있습니다. 완성된 워크시트를 사용하여 구성에 대한 다중 경로 연결 케이블 연결을 단계별로 수행할 수도 있습니다.
+워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈로 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 다중 경로 방식으로 연결할 수 있습니다. 완성된 워크시트를 사용하여 구성에 대한 다중 경로 연결 케이블 연결을 단계별로 수행할 수도 있습니다.
 
 HA 쌍 또는 단일 컨트롤러 구성은 AFF A200, AFF A220, FAS2600 시리즈 또는 FAS2700 시스템이 될 수 없습니다. 이러한 구성 중 하나가 있는 경우 다음을 사용합니다.
 
@@ -23,7 +23,7 @@ link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케�
 완성된 워크시트는 다중 경로 HA 및 다중 경로 구성을 위해 제공됩니다.
 
 +
-워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.
+워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.
 
 * 워크시트 서식 파일을 사용하면 최대 6개의 스택을 사용할 수 있으므로 필요한 경우 열을 더 추가해야 합니다.
 * 필요한 경우 를 참조할 수 있습니다 link:install-cabling-rules.html["SAS 케이블 연결 규칙"] 지원되는 구성에 대한 자세한 내용은 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(포트 쌍 사용 포함)을 참조하십시오.
@@ -33,11 +33,11 @@ link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케�
 image::../media/drw_worksheet_mpha_template.gif[drw 워크시트 mpha 템플릿]
 
 .단계
-. 회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯 순서(0,1, 2, 3 등)로 나열합니다.
+. 회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.
 +
 예: 1a, 2a, 1c, 2c
 
-. 회색 상자에 시스템의 모든 SAS B 포트 및 시스템의 모든 SAS D 포트를 슬롯(0,1, 2, 3 등) 순서로 나열합니다.
+. 회색 상자에 시스템의 모든 SAS B 포트 및 시스템의 모든 SAS D 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.
 +
 예: 1b, 2b, 1d, 2D
 

@@ -1,22 +1,22 @@
 ---
 permalink: sas3/install-cabling-rules.html 
 sidebar: sidebar 
-keywords: disk, shelves, shelf, iom12, module, single-controller, configuration, support, platform, sas, cabling, cable, rule, controller, shelf-to-shelf, connection, rule, controller-to-stack, mini-sas, hd, optical, cable, rule, sas cabling rules 
-summary: 'IOM12 모듈이 포함된 디스크 쉘프는 HA Pair 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블을 연결할 수 있습니다.' 
+keywords: disk, shelves, shelf, iom12, module, single-controller, configuration, support, platform, sas, cabling, cable, rule, controller, shelf-to-shelf, connection, rule, controller-to-stack, mini-sas, hd, optical, cable, rule, sas cabling rules, iom12b 
+summary: 'IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 HA 쌍 및 단일 컨트롤러 구성으로 케이블 연결이 가능합니다(지원되는 플랫폼용).' 
 ---
-= SAS 케이블 연결 규칙 - IOM12 모듈 선반
+= SAS 케이블 연결 규칙 - IOM12/IOM12B 모듈이 포함된 선반
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-SAS 케이블 연결 규칙, 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙, 컨트롤러-스택 연결 규칙, 해당하는 경우 미니 SAS HD SAS 광 케이블 규칙 등의 SAS 케이블 연결 규칙을 적용하여 IOM12 모듈을 포함하는 디스크 쉘프를 HA 쌍 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블로 연결할 수 있습니다.
+IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 구성 규칙, 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙, 컨트롤러-스택 연결 규칙, 미니 SAS HD SAS 광 케이블 규칙 등 SAS 케이블 연결 규칙을 적용하여 HA 쌍 및 단일 컨트롤러 구성(지원되는 플랫폼용)으로 케이블로 연결할 수 있습니다.
 
 
-NOTE: 이 가이드에 설명된 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙 및 컨트롤러-스택 연결 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12, IOM6, IOM3 모듈 등 모든 SAS 디스크 쉘프에 적용되는 동일한 규칙입니다. 그러나 이 가이드의 정보는 IOM12 모듈을 사용하는 디스크 쉘프의 고유한 특성 및 지원되는 구성에서 사용됩니다.
+NOTE: 이 가이드에 설명된 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 규칙 및 컨트롤러-스택 연결 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12/IOM12B, IOM6 또는 IOM3 모듈 등 모든 SAS 디스크 쉘프에 적용되는 동일한 규칙입니다. 그러나 이 가이드의 정보는 IOM12 모듈을 사용하는 디스크 쉘프의 고유한 특성 및 지원되는 구성에서 사용됩니다.
 
-이 가이드에 설명된 구성 규칙 및 미니 SAS HD SAS 광 케이블 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12 모듈을 사용하는 디스크 쉘프에만 적용됩니다.
+이 가이드에 설명된 구성 규칙 및 미니 SAS HD SAS 광 케이블 규칙과 관련된 SAS 케이블 연결 규칙은 IOM12/IOM12B 모듈이 있는 디스크 쉘프에만 적용됩니다.
 
 이 가이드에 설명된 SAS 케이블 연결 규칙은 온보드 SAS 포트와 호스트 버스 어댑터 SAS 포트 간의 SAS 케이블 연결 균형을 조정하여 고가용성 스토리지 컨트롤러 구성을 제공하고 다음 목표를 충족합니다.
 

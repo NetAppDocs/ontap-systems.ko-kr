@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: example, guide, read, apply, complete, worksheet, cable, controller-to-stack, connection, disk, shelves, shelf, iom12, multipathed, connectivity, hot to read a worksheet to cable controller-to-stack connections for multipathed connectivity 
 summary: 이 예는 완료된 워크시트를 읽고 케이블 컨트롤러-스택 간 연결에 IOM12 모듈을 사용하는 디스크 쉘프의 케이블 컨트롤러-스택 연결에 적용하는 방법을 안내합니다. 
 ---
-= IOM12 모듈을 사용한 다중 경로 연결 셸프 연결을 위한 컨트롤러-스택 간 케이블 연결을 위한 워크시트를 읽는 방법
+= IOM12/IOM12B 모듈을 사용하여 다중 경로 연결 쉘프를 위한 컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 예는 완료된 워크시트를 읽고 케이블 컨트롤러-스택 간 연결에 IOM12 모듈을 사용하는 디스크 쉘프의 케이블 컨트롤러-스택 연결에 적용하는 방법을 안내합니다.
+이 예는 다중 경로 연결을 위해 IOM12/IOM12B 모듈을 사용하는 디스크 쉘프의 컨트롤러-스택 간 케이블 연결을 읽고 적용하는 방법을 안내합니다.
 
 HA 쌍 또는 단일 컨트롤러 구성은 AFF A200, AFF A220, FAS2600 시리즈 또는 FAS2700 시스템이 될 수 없습니다. 이러한 시스템에서는 고유한 워크시트를 사용합니다.
 
@@ -20,7 +20,7 @@ link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케�
 .이 작업에 대해
 * 이 절차에서는 컨트롤러-스택 간 케이블 연결에 대한 워크시트를 읽는 방법을 보여 주는 다음 워크시트 및 케이블 연결 예제를 참조합니다.
 +
-이 예제에서 사용된 구성은 2개의 4중 포트 SAS HBA(8개의 SAS 포트)가 각 컨트롤러에 있고 2개의 디스크 쉘프 스택과 IOM12 모듈을 포함하는 다중 경로 HA 구성입니다. 포트 쌍은 워크시트의 다른 모든 포트 쌍을 건너뛰어 케이블로 연결됩니다.
+이 예제에서 사용된 구성은 각 컨트롤러에 2개의 4중 포트 SAS HBA(8개의 SAS 포트)가 있는 다중 경로 HA 구성과 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택입니다. 포트 쌍은 워크시트의 다른 모든 포트 쌍을 건너뛰어 케이블로 연결됩니다.
 
 +
 

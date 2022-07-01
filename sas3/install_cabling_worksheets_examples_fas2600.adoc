@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: controller-to-stack, cabling, worksheet, aff, a200, a220, fas2600, fas2700, onboard storage 
 summary: 작성된 컨트롤러-스택 케이블링 워크시트와 케이블링 예를 사용하여 AFF 및 FAS 플랫폼을 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 플랫폼과 같은 온보드 스토리지와 함께 연결할 수 있습니다. 이 정보는 FAS25XX 플랫폼에는 적용되지 않습니다. 
 ---
-= IOM12 모듈을 포함한 온보드 스토리지-선반이 있는 AFF 및 FAS 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예
+= IOM12/IOM12B 모듈이 포함된 온보드 스토리지-선반이 있는 AFF 및 FAS 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

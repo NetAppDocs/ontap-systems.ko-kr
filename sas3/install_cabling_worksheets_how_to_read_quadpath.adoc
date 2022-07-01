@@ -2,16 +2,16 @@
 permalink: sas3/install-cabling-worksheets-how-to-read-quadpath.html 
 sidebar: sidebar 
 keywords: example, guide, read, apply, complete, worksheet, stack, disk, shelves, shelf, iom12, quad-pathed, connectivity, how to read a worksheet to cable controller-to-stack connections for quad-pathed connectivity 
-summary: 이 예에서는 4중 경로 연결을 위해 IOM12 모듈을 사용하는 케이블 셸프 스택에 완성된 워크시트를 읽고 적용하는 방법을 안내합니다. 
+summary: 이 예는 4중 경로 연결을 위해 IOM12/IOM12B 모듈을 사용하여 완료된 워크시트를 읽고 케이블 선반 스택에 적용하는 방법을 안내합니다. 
 ---
-= IOM12 모듈을 사용하여 4중 경로 연결 셸프의 컨트롤러 대 스택 연결 케이블을 연결하는 워크시트를 읽는 방법
+= IOM12/IOM12B 모듈을 사용하여 4중 경로 연결 셸프의 컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 예에서는 4중 경로 연결을 위해 IOM12 모듈을 사용하는 케이블 셸프 스택에 완성된 워크시트를 읽고 적용하는 방법을 안내합니다.
+이 예는 4중 경로 연결을 위해 IOM12/IOM12B 모듈을 사용하여 완료된 워크시트를 읽고 케이블 선반 스택에 적용하는 방법을 안내합니다.
 
 .이 작업에 대해
 * 이 절차에서는 컨트롤러-스택 간 케이블 연결에 대한 워크시트를 읽는 방법을 보여 주는 다음 워크시트 및 케이블 연결 예제를 참조합니다.

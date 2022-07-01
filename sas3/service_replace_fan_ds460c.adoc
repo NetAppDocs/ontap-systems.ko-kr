@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ds460c, drive, shelf, fan, module, cooling, disk, replace, replace a fan module in a ds460c disk shelf 
 summary: 각 DS460C 드라이브 쉘프는 2개의 팬 모듈을 포함합니다. 팬 모듈에 장애가 발생하면 가능한 한 빨리 교체하여 선반이 충분히 냉각되도록 해야 합니다. 장애가 발생한 팬 모듈을 분리할 경우 디스크 쉘프의 전원을 끌 필요가 없습니다. 
 ---
-= DS460C 디스크 쉘프 쉘프의 팬 모듈을 IOM12 모듈로 교체합니다
+= DS460C 디스크 쉘프 쉘프의 팬 모듈을 IOM12/IOM12B 모듈로 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

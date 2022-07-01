@@ -1,16 +1,16 @@
 ---
 section: sas3
-title: IOM12 모듈이 포함된 SAS 쉘프
+title: IOM12/IOM12B 모듈이 포함된 SAS 쉘프
 url: "/sas3/index.html"
 entries:
 - title: 및 케이블을 설치합니다
-  pdf-filename: IOM12 모듈 설치 및 케이블이 있는 선반
+  pdf-filename: IOM12/IOM2B 모듈 설치 및 케이블이 있는 선반
   entries:
   - title: 새 시스템용 쉘프를 설치하고 케이블을 연결합니다
     url: "/sas3/install-new-system.html"
   - title: 쉘프를 핫 추가
     url: "/sas3/install-hot-add-shelf.html"
-  - title: IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다
+  - title: IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 핫 추가합니다
     url: "/sas3/iom12-hot-add-mix.html"
   - title: 쉘프 ID를 변경합니다
     url: "/sas3/install-change-shelf-id.html"
@@ -35,7 +35,7 @@ entries:
     - title: 4중 경로 연결을 위해 워크시트를 읽고 케이블을 연결하는 방법
       url: "/sas3/install-cabling-worksheets-how-to-read-quadpath.html"
 - title: 유지 관리
-  pdf-filename: IOM12 모듈이 장착된 셸프는 그대로 유지됩니다
+  pdf-filename: IOM12/IOM12B 모듈이 장착된 셸프가 유지됩니다
   entries:
   - title: DS224C 또는 DS212C 쉘프의 디스크 드라이브
     url: "/sas3/service-hot-swap-drive-ds224c-ds212c.html"
@@ -47,7 +47,7 @@ entries:
     url: "/sas3/service-replace-fan-ds460c.html"
   - title: 쉘프 핫 제거
     url: "/sas3/hot-remove-shelf.html"
-  - title: IOM12 모듈
+  - title: IOM12/IOM12B 모듈
     url: "/sas3/service-hot-swap-iom.html"
   - title: 전원 공급 장치
     url: "/sas3/service-hot-swap-power-supply.html"
