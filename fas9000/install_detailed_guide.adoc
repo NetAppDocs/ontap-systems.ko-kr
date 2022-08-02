@@ -231,8 +231,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=7a55b98a-e8b8-41d5-821f-ac5b0032ead0["스위치가 없는 2노드 클러스터의 케이블 연결"]
-
+.애니메이션 - 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
+video::7a55b98a-e8b8-41d5-821f-ac5b0032ead0[panopto]
 
 
 image::../media/drw_9000_TNSC_composite_cabling.png[drw 9000 TNSC 복합 케이블 연결]
@@ -259,8 +259,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=6381b3f1-4ce5-4805-bd0a-ac5b0032f51d["스위치 클러스터 케이블링"]
-
+.애니메이션 - 스위치 방식 클러스터 케이블 연결
+video::6381b3f1-4ce5-4805-bd0a-ac5b0032f51d[panopto]
 
 
 image:../media/drw_9000_switched_cluster_cabling.png[""]
@@ -299,8 +299,8 @@ NOTE: 이 예에서는 DS224C 쉘프를 사용합니다. 케이블 연결은 지
 
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=a312e09e-df56-47b3-9b5e-ab2300477f67["SAS 스토리지 케이블 연결 - ONTAP 9.7 이하"]
-
+.애니메이션 - 케이블 SAS 스토리지 - ONTAP 9.7 이하
+video::a312e09e-df56-47b3-9b5e-ab2300477f67[panopto]
 +
 image:../media/SAS_storage_ONTAP_9.7_and_earlier.png[""]
 
@@ -309,8 +309,8 @@ image:../media/SAS_storage_ONTAP_9.7_and_earlier.png[""]
 
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=61d23302-9526-4a2b-9335-ac5b0032eafd["SAS 스토리지 케이블 연결 - ONTAP 9.8 이상"]
-
+.애니메이션 - 케이블 SAS 스토리지 - ONTAP 9.8 이상
+video::61d23302-9526-4a2b-9335-ac5b0032eafd[panopto]
 +
 image:../media/SAS_storage_ONTAP_9.8_and_later.png[""]
 
@@ -352,8 +352,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 애니메이션이나 그림을 사용하여 2개의 X91148A 스토리지 모듈이 있는 컨트롤러를 단일 NS224 드라이브 쉘프에 연결하거나 다이어그램을 사용하여 1개의 X91148A 스토리지 모듈이 있는 컨트롤러를 단일 NS224 드라이브 쉘프에 케이블로 연결하십시오.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=6520eb01-87b3-4520-9109-ac5b0032ea4e["단일 NS224 셸프 케이블 연결 - ONTAP 9.8 이상"]
-
+.애니메이션 - 단일 NS224 셸프 케이블 연결 - ONTAP 9.8 이상
+video::6520eb01-87b3-4520-9109-ac5b0032ea4e[panopto]
 +
 image::../media/drw_ns224_a700_1shelf.png[drw ns224 a700 1쉘프]
 
@@ -388,8 +388,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 애니메이션이나 그림을 사용하여 컨트롤러를 NS224 드라이브 쉘프 2개에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=34098e39-73ad-45de-9af7-ac5b0032ea9a["NS224 셸프 2개 케이블 연결 - ONTAP 9.8 이상"]
-
+.애니메이션 - 케이블 2개 NS224 선반 - ONTAP 9.8 이상
+video::34098e39-73ad-45de-9af7-ac5b0032ea9a[panopto]
 +
 image::../media/drw_ns224_a700_2shelves.png[drw ns224 a700 2쉘프]
 
@@ -419,13 +419,13 @@ image::../media/two_NS224_shelves.png[NS224 선반 2개]
 시스템에 NS224 드라이브 쉘프가 있는 경우, 쉘프는 쉘프 ID 00 및 01로 사전 설정됩니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=95a29da1-faa3-4ceb-8a0b-ac7600675aa6["SAS 또는 NVMe 드라이브 쉘프 ID 설정"]
-
+.애니메이션 - SAS 또는 NVMe 드라이브 쉘프 ID를 설정합니다
+video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 . 전원 스위치를 두 노드에 모두 켭니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=bb04eb23-aa0c-4821-a87d-ab2300477f8b["컨트롤러의 전원을 켭니다"]
-
+.애니메이션 - 컨트롤러의 전원을 켭니다
+video::bb04eb23-aa0c-4821-a87d-ab2300477f8b[panopto]
 +
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
@@ -436,8 +436,8 @@ NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 
 . 다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d61f983e-f911-4b76-8b3a-ab1b0066909b["관리 스위치에 랩톱 연결"]
-
+.애니메이션 - 노트북을 관리 스위치에 연결합니다
+video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]
@@ -507,13 +507,13 @@ image::../media/drw_9000_cable_console_switch_controller.png[drw 9000 케이블 
 시스템에 NS224 드라이브 쉘프가 있는 경우, 쉘프는 쉘프 ID 00 및 01로 사전 설정됩니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=95a29da1-faa3-4ceb-8a0b-ac7600675aa6["SAS 또는 NVMe 드라이브 쉘프 ID 설정"]
-
+.애니메이션 - SAS 또는 NVMe 드라이브 쉘프 ID를 설정합니다
+video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 . 전원 스위치를 두 노드에 모두 켭니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=bb04eb23-aa0c-4821-a87d-ab2300477f8b["컨트롤러의 전원을 켭니다"]
-
+.애니메이션 - 컨트롤러의 전원을 켭니다
+video::bb04eb23-aa0c-4821-a87d-ab2300477f8b[panopto]
 +
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.

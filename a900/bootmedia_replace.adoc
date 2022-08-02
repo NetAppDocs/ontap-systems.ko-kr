@@ -23,8 +23,8 @@ summary: 컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미�
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 테라코타 버튼이 잠금 해제될 때까지 아래로 밉니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=256721fd-4c2e-40b3-841a-adf2000df5fa["애니메이션 -- 컨트롤러를 제거합니다"^]
-
+.애니메이션 - 컨트롤러를 제거합니다
+video::256721fd-4c2e-40b3-841a-adf2000df5fa[panopto]
 +
 image::../media/drw_a900_remove_PCM.png[drw a900 PCM을 제거합니다]
 
@@ -77,8 +77,8 @@ image:../media/legend_icon_01.png[""]
 .단계
 . 컨트롤러 모듈 후면에서 검은색 공기 덕트를 들어 올린 후 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5080658-765e-4d29-8456-adf2000e1495["애니메이션 -- 부트 미디어를 교체합니다"^]
-
+.애니메이션 - 부팅 미디어를 교체합니다
+video::c5080658-765e-4d29-8456-adf2000e1495[panopto]
 +
 image::../media/drw_a900_remove_boot_dev.png[drw a900 부트 DEV를 제거합니다]
 

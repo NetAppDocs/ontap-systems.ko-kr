@@ -26,8 +26,8 @@ IMPORTANT: 팬 모듈을 섀시에서 분리한 후 2분 이내에 교체해야 
 IMPORTANT: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에서 떨어져 다치지 않도록 항상 다른 손으로 팬 모듈의 하단을 지지하십시오.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c3c8d93-b48e-4554-87c8-adf9016af819["애니메이션 -- 팬 제거/설치"^]
-
+.애니메이션 - 팬 제거/설치
+video::3c3c8d93-b48e-4554-87c8-adf9016af819[panopto]
 +
 image::../media/drw_a900_remove_install_fan.png[drw a900 설치 팬을 제거합니다]
 

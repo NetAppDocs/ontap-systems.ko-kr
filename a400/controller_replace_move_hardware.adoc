@@ -21,8 +21,8 @@ summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤
 
 다음 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=ca74d345-e213-4390-a599-aae10019ec82["컨트롤러 모듈 분리"]
-
+.애니메이션 - 컨트롤러 모듈을 분리합니다
+video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.
 . 케이블을 케이블 관리 장치에 연결하는 후크 및 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블과 SFP(필요한 경우)를 분리합니다.
@@ -44,8 +44,8 @@ image:../media/drw_A400_Remove_controller.png[""]
 . 컨트롤러 모듈을 안정적이고 평평한 표면에 놓습니다.
 . 교체 컨트롤러 모듈에서 에어 덕트를 열고 애니메이션, 그림 또는 작성된 단계를 사용하여 컨트롤러 모듈에서 빈 라이저를 분리합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=49053752-e813-4c15-a917-ab190147fa6e["교체용 컨트롤러 모듈에서 빈 라이저를 분리합니다"]
-
+.애니메이션 - 교체 컨트롤러 모듈에서 빈 라이저를 분리합니다
+video::49053752-e813-4c15-a917-ab190147fa6e[panopto]
 
 
 image::../media/drw_a400_empty_riser_remove.png[drw a400 빈 라이저 제거]
@@ -64,8 +64,8 @@ image::../media/drw_a400_empty_riser_remove.png[drw a400 빈 라이저 제거]
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 전원 공급 장치를 교체 컨트롤러 모듈로 이동할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=92060115-1967-475b-b517-aad9012f130c["전원 공급 장치 이동"]
-
+.애니메이션 - 전원 공급 장치를 이동합니다
+video::92060115-1967-475b-b517-aad9012f130c[panopto]
 . 전원 공급 장치를 분리합니다.
 +
 image::../media/drw_A400_psu.png[drw A400 PSU]
@@ -96,8 +96,8 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 NVDIMM 배터리를 이동할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=94d115b2-b02a-4234-805c-aad9012f204c["NVDIMM 배터리 이동"]
-
+.애니메이션 - NVDIMM 배터리를 이동합니다
+video::94d115b2-b02a-4234-805c-aad9012f204c[panopto]
 image::../media/drw_A400_nvdimm-batt.png[drw A400 NVDIMM 배터리]
 
 . 에어 덕트를 엽니다.
@@ -125,8 +125,8 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 부팅 미디어를 이동할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=2a14099c-85de-4a84-867c-aad9012efac8["부팅 미디어를 이동하는 중입니다"]
-
+.애니메이션 - 부팅 미디어를 이동합니다
+video::2a14099c-85de-4a84-867c-aad9012efac8[panopto]
 image::../media/drw_A400_Replace-boot_media.png[drw A400 부팅 미디어를 교체합니다]
 
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
@@ -159,12 +159,12 @@ image::../media/drw_A400_Replace-boot_media.png[drw A400 부팅 미디어를 교
 
 이동 PCIe 라이저 1 및 2(왼쪽 및 가운데 라이저):
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=f4ee1d4d-6029-4fe6-a063-aad9012f170b["이동 PCI 라이저 1 및 2"]
-
+.애니메이션 - PCI 라이저 1과 2를 이동합니다
+video::f4ee1d4d-6029-4fe6-a063-aad9012f170b[panopto]
 메자닌 카드 및 라이저 3(오른쪽 라이저) 이동:
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=b0c3b575-3434-4e00-a421-aad9012f2e9e["메자닌 카드 및 라이저 3 이동"]
-
+.애니메이션 - 메자닌 카드 및 라이저 3을 이동합니다
+video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto]
 image::../media/drw_A400_Replace-PCIe-cards.png[drw A400 PCIe 카드를 교체합니다]
 
 . PCIe 라이저 1과 2를 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동합니다.
@@ -204,8 +204,8 @@ DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트�
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 DIMM을 이동할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=717b52fa-f236-4f3d-b07d-aad9012f51a3["DIMM 이동"]
-
+.애니메이션 - DIMM을 이동합니다
+video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto]
 image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
 
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
@@ -245,8 +245,8 @@ DIMM은 소켓에 단단히 장착되지만 쉽게 장착할 수 있습니다. �
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 교체 컨트롤러 모듈을 섀시에 설치할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=0310fe80-b129-4685-8fef-ab19010e720a["컨트롤러 모듈 설치"]
-
+.애니메이션 - 컨트롤러 모듈을 설치합니다
+video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
 image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.

@@ -165,10 +165,12 @@ NVRAM 모듈은 섀시에서 분리되어 몇 인치 정도 밖으로 이동합�
 
 .. 모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 NVRAM 모듈을 분리합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6eb2d864-9d35-4a23-b6c2-adf9016b359f["애니메이션 -- NVRAM 모듈을 교체합니다"^]
-
+.애니메이션 - NVRAM 모듈을 교체합니다
+video::6eb2d864-9d35-4a23-b6c2-adf9016b359f[panopto]
 +
 image::../media/drw_a900_move-remove_NVRAM_module.png[drw a900 이동 NVRAM 모듈을 제거합니다]
+
+
 
 +
 [cols="10,90"]
@@ -188,8 +190,6 @@ image:../media/legend_icon_02.png[""]
 I/O 래치가 완전히 잠금 해제되었습니다
 
 |===
-
-
 . NVRAM 모듈을 안정적인 표면에 놓고 덮개의 파란색 잠금 버튼을 눌러 NVRAM 모듈에서 덮개를 분리한 다음 파란색 버튼을 누른 상태에서 NVRAM 모듈의 덮개를 밀어 분리합니다.
 +
 image::../media/drw_a900_remove_NVRAM_module_contents.png[drw a900 NVRAM 모듈 내용을 제거합니다]
@@ -242,10 +242,12 @@ NVRAM 모듈은 섀시에서 분리되어 몇 인치 정도 밖으로 이동합�
 
 .. 모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 NVRAM 모듈을 분리합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0ae4e603-c22b-4930-8070-adf2000e38b5["애니메이션 -- NVRAM DIMM을 교체합니다"^]
-
+.애니메이션 - NVRAM DIMM을 교체합니다
+video::0ae4e603-c22b-4930-8070-adf2000e38b5[panopto]
 +
 image::../media/drw_a900_move-remove_NVRAM_module.png[drw a900 이동 NVRAM 모듈을 제거합니다]
+
+
 
 +
 [cols="10,90"]
@@ -265,8 +267,6 @@ image:../media/legend_icon_02.png[""]
 I/O 래치가 완전히 잠금 해제되었습니다
 
 |===
-
-
 . NVRAM 모듈을 안정적인 표면에 놓고 덮개의 파란색 잠금 버튼을 눌러 NVRAM 모듈에서 덮개를 분리한 다음 파란색 버튼을 누른 상태에서 NVRAM 모듈의 덮개를 밀어 분리합니다.
 +
 image::../media/drw_a900_remove_NVRAM_module_contents.png[drw a900 NVRAM 모듈 내용을 제거합니다]

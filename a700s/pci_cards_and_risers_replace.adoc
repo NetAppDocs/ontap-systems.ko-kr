@@ -58,7 +58,7 @@ Ctrl+C를 누른 다음 y를 누릅니다.
  a| 
 정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
 
-손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 후 y를 누릅니다.
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
 
 |===
 
@@ -109,14 +109,12 @@ image:../media/legend_icon_02.png[""]
 +
 .. 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 .. 공기 덕트를 팬 모듈 쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
-
-
-
-
++
 image::../media/drw_a700s_open_air_duct.png[drw a700s 개방형 공기 덕트]
 
-를 누릅니다
 
+
++
 [cols="1,3"]
 |===
 
@@ -141,6 +139,8 @@ image:../media/legend_icon_03.png[""]
 에어 덕트
 
 |===
+
+
 
 
 == 3단계: PCIe 카드를 교체합니다

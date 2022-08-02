@@ -121,7 +121,7 @@ _dev_name_은 이전 단계에서 식별된 포트 및 장치 중 하나일 수 
 
 .. 출력을 검사하고 해당되는 경우 'sldiag device modify -dev_dev_name_-selection only'(실행할 테스트만 선택)를 선택합니다
 +
--selection은 장치에 대해 실행하지 않을 다른 모든 검사만 비활성화합니다.
+'-selection only'는 장치에 대해 실행하지 않으려는 다른 모든 검사를 비활성화합니다.
 
 .. 'sldiag device run-dev_dev_name_' 테스트를 실행합니다
 +

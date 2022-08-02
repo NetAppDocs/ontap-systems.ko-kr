@@ -214,8 +214,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=7a55b98a-e8b8-41d5-821f-ac5b0032ead0["애니메이션 -- 스위치가 없는 2노드 클러스터를 케이블로 연결하십시오"^]
-
+.애니메이션 - 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
+video::7a55b98a-e8b8-41d5-821f-ac5b0032ead0[panopto]
 +
 image::../media/drw_a900_tnsc_network_cabling.png[drw a900 tnsc 네트워크 케이블 연결]
 
@@ -294,8 +294,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=6381b3f1-4ce5-4805-bd0a-ac5b0032f51d["애니메이션 -- 스위치 클러스터 케이블 연결"^]
-
+.애니메이션 - 스위치 클러스터 케이블 연결
+video::6381b3f1-4ce5-4805-bd0a-ac5b0032f51d[panopto]
 +
 image::../media/drw_a900_switched_network_cabling.png[drw a900 스위치 방식 네트워크 케이블 연결]
 
@@ -382,10 +382,12 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 +
 .. 다음 애니메이션 또는 도면을 사용하여 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=6520eb01-87b3-4520-9109-ac5b0032ea4e["애니메이션 -- 단일 NS224 선반에 케이블 연결"^]
-
+.애니메이션 - 단일 NS224 선반을 케이블로 연결합니다
+video::6520eb01-87b3-4520-9109-ac5b0032ea4e[panopto]
 +
 image::../media/drw_a900_NS224_one shelf_cabling.png[drw a900 NS224 선반 케이블 1개]
+
+
 
 +
 |===
@@ -395,8 +397,8 @@ image::../media/drw_a900_NS224_one shelf_cabling.png[drw a900 NS224 선반 케�
  a| 
 image:../media/oie_legend_icon_1_mb.png[""]
  a| 
-*** 컨트롤러 A 포트 e2a를 쉘프의 NSM A의 포트 e0a에 연결합니다.
-*** 컨트롤러 A 포트 e10b를 쉘프의 NSM B의 포트 e0b에 연결합니다.
+** 컨트롤러 A 포트 e2a를 쉘프의 NSM A의 포트 e0a에 연결합니다.
+** 컨트롤러 A 포트 e10b를 쉘프의 NSM B의 포트 e0b에 연결합니다.
 
 
 image:../media/oie_cable100_gbe_qsfp28.png[""]
@@ -408,8 +410,8 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
  a| 
 image:../media/oie_legend_icon_2_lo.png[""]
  a| 
-*** 컨트롤러 B 포트 e2a를 쉘프의 NSM B에 있는 포트 e0a에 연결합니다.
-*** 컨트롤러 B 포트 e10b를 쉘프의 NSM A의 포트 e0b에 연결합니다.
+** 컨트롤러 B 포트 e2a를 쉘프의 NSM B에 있는 포트 e0a에 연결합니다.
+** 컨트롤러 B 포트 e10b를 쉘프의 NSM A의 포트 e0b에 연결합니다.
 
 
 image:../media/oie_cable100_gbe_qsfp28.png[""]
@@ -417,6 +419,7 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 100GbE 케이블
 
 |===
++
 .. 시스템 설정을 완료하려면 을 참조하십시오 <<Step 5: Complete system setup and configuration>>.
 
 
@@ -443,8 +446,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 다음 애니메이션 또는 다이어그램을 사용하여 컨트롤러를 NS224 드라이브 쉘프 2개에 연결하십시오.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=34098e39-73ad-45de-9af7-ac5b0032ea9a["애니메이션 -- 2개의 NS224 선반 케이블 연결"^]
-
+.애니메이션 - NS224 셸프 2개를 케이블로 연결합니다
+video::34098e39-73ad-45de-9af7-ac5b0032ea9a[panopto]
 +
 image:../media/drw_a900_NS224_line_art_two shelf_cabling.png[""]
 
@@ -508,8 +511,8 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=95a29da1-faa3-4ceb-8a0b-ac7600675aa6["애니메이션 -- SAS 또는 NVMe 드라이브 쉘프 ID 설정"^]
-
+.애니메이션 - SAS 또는 NVMe 드라이브 쉘프 ID를 설정합니다
+video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 +
 image::../media/drw_power-on_set_shelf_ID_set.png[설정된 셸프 ID 세트의 drw 전원을 켭니다]
 
@@ -557,8 +560,8 @@ image:../media/legend_icon_05.png[""]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 . 전원 스위치를 두 노드에 모두 켭니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a905e56e-c995-4704-9673-adfa0005a891["애니메이션 -- 컨트롤러의 전원을 켭니다"^]
-
+.애니메이션 - 컨트롤러의 전원을 켭니다
+video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
 image::../media/drw_a900_power-on.png[drw a900 전원이 켜져 있습니다]
 
@@ -572,8 +575,8 @@ NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 
 . 다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d61f983e-f911-4b76-8b3a-ab1b0066909b["애니메이션 -- 관리 스위치에 랩톱 연결"^]
-
+.애니메이션 - 노트북을 관리 스위치에 연결합니다
+video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 +
 image::../media/dwr_laptop_to_switch_only.png[DWR 노트북만 전환합니다]
 
@@ -642,8 +645,8 @@ image::../media/drw_9000_cable_console_switch_controller.png[drw 9000 케이블 
 NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=95a29da1-faa3-4ceb-8a0b-ac7600675aa6["애니메이션 -- SAS 또는 NVMe 드라이브 쉘프 ID 설정"^]
-
+.애니메이션 - SAS 또는 NVMe 드라이브 쉘프 ID를 설정합니다
+video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 +
 image::../media/drw_power-on_set_shelf_ID_set.png[설정된 셸프 ID 세트의 drw 전원을 켭니다]
 
@@ -691,8 +694,8 @@ image:../media/legend_icon_05.png[""]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 . 전원 스위치를 두 노드에 모두 켭니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=bb04eb23-aa0c-4821-a87d-ab2300477f8b["애니메이션 -- 컨트롤러의 전원을 켭니다"^]
-
+.애니메이션 - 컨트롤러의 전원을 켭니다
+video::bb04eb23-aa0c-4821-a87d-ab2300477f8b[panopto]
 
 
 image::../media/drw_a900_power-on.png[drw a900 전원이 켜져 있습니다]

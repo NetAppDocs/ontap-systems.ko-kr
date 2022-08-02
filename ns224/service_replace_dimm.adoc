@@ -50,8 +50,8 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp
 
 * 다음 비디오 또는 기록된 단계를 사용하여 DIMM을 교체할 수 있습니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=eef28b10-ed93-4aa7-bfce-aa86002f20a2["NS224 드라이브 쉘프의 DIMM 교체"^]
-
+.애니메이션 - NS224 드라이브 쉘프에 DIMM을 교체합니다
+video::eef28b10-ed93-4aa7-bfce-aa86002f20a2[panopto]
 
 
 .단계

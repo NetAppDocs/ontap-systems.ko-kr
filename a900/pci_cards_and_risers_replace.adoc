@@ -147,10 +147,12 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 입출력 모듈이 있던 슬롯을 추적해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6["애니메이션 -- I/O 모듈 제거/설치"^]
-
+.애니메이션 - I/O 모듈 제거/설치
+video::3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6[panopto]
 +
 image:../media/drw_a900_remove_PCIe_module.png[""]
+
+
 
 +
 [cols="10,90"]
@@ -170,8 +172,6 @@ image:../media/legend_icon_02.png[""]
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 |===
-
-
 . 입출력 모듈을 따로 보관해 둡니다.
 . I/O 모듈이 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 부드럽게 밀어 넣은 다음 I/O 캠 래치를 완전히 위로 밀어 모듈을 제자리에 고정합니다.
 . 필요에 따라 입출력 모듈을 다시 장착합니다.

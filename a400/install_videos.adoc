@@ -27,4 +27,4 @@ video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto]
 
 다음 비디오에서는 ONTAP 9.2 이상을 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.
 
-video::WAE0afWhj1c?rel=0[youtube]
+video::WAE0afWhj1c?[youtube]

@@ -34,8 +34,8 @@ summary: 시스템의 다른 모든 구성 요소가 올바르게 작동해야 �
 NOTE: 전원 공급 장치를 분리할 때는 항상 두 손을 사용하여 무게를 지탱하십시오.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d0eee92-72e2-4da4-a4fa-adf9016b57ff["애니메이션 -- PSU 제거/설치"^]
-
+.애니메이션 - PSU 제거/설치
+video::6d0eee92-72e2-4da4-a4fa-adf9016b57ff[panopto]
 +
 image::../media/drw_a900_remove_install_PSU_module.png[drw a900 설치 PSU 모듈을 제거합니다]
 
@@ -68,8 +68,8 @@ image:../media/legend_icon_01.png[""]
 NOTE: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에서 떨어져 다치지 않도록 항상 다른 손으로 팬 모듈의 하단을 지지하십시오.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c3c8d93-b48e-4554-87c8-adf9016af819["애니메이션 -- 팬 제거/설치"^]
-
+.애니메이션 - 팬 제거/설치
+video::3c3c8d93-b48e-4554-87c8-adf9016af819[panopto]
 +
 image::../media/drw_a900_remove_install_fan.png[drw a900 설치 팬을 제거합니다]
 
@@ -106,8 +106,8 @@ image:../media/legend_icon_02.png[""]
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 테라코타 버튼이 잠금 해제될 때까지 아래로 밉니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=256721fd-4c2e-40b3-841a-adf2000df5fa["애니메이션 -- 컨트롤러를 제거합니다"^]
-
+.애니메이션 - 컨트롤러를 제거합니다
+video::256721fd-4c2e-40b3-841a-adf2000df5fa[panopto]
 +
 image::../media/drw_a900_remove_PCM.png[drw a900 PCM을 제거합니다]
 
@@ -163,10 +163,12 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 입출력 모듈이 있던 슬롯을 추적해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6["애니메이션 -- I/O 모듈 제거/설치"^]
-
+.애니메이션 - I/O 모듈 제거/설치
+video::3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6[panopto]
 +
 image:../media/drw_a900_remove_PCIe_module.png[""]
+
+
 
 +
 [cols="10,90"]
@@ -186,8 +188,6 @@ image:../media/legend_icon_02.png[""]
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 |===
-
-
 . 입출력 모듈을 따로 보관해 둡니다.
 . 이전 섀시의 나머지 I/O 모듈에 대해 위의 단계를 반복합니다.
 
@@ -202,8 +202,8 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 모듈 손잡이의 테라 코타 잠금 버튼을 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ade18276-5dbc-4b91-9a0e-adf9016b4e55["애니메이션 - - DCPM 탈거/장착"^]
-
+.애니메이션 - DCPM 탈거/장착
+video::ade18276-5dbc-4b91-9a0e-adf9016b4e55[panopto]
 +
 image::../media/drw_a900_remove_NV_battery.png[drw a900 NV 배터리를 제거합니다]
 
@@ -250,8 +250,8 @@ NOTE: 시스템이 시스템 캐비닛에 있는 경우 리어 타이 다운 브
 [role="lead"]
 새 섀시가 랙 또는 캐비닛에 설치되면 USB LED 모듈을 이전 섀시에서 새 섀시로 옮겨야 합니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eb715462-cc20-454f-bcf9-adf9016af84e["애니메이션 -- USB를 제거/설치합니다"^]
-
+.애니메이션 - USB를 제거/설치합니다
+video::eb715462-cc20-454f-bcf9-adf9016af84e[panopto]
 image::../media/drw_a900_remove_replace_LED_mod.png[drw a900 제거 LED 모드 교체]
 
 [cols="10,90"]

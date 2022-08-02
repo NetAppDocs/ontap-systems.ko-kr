@@ -47,4 +47,10 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP12475945["디스크 쉘프에 대한 고지 사항"]
+https://library.netapp.com/ecm/ecm_download_file/ECMM1280364["디스크 쉘프에 대한 고지 사항"^]
+
+
+
+== 안전 정보 및 규정 고지
+
+https://library.netapp.com/ecm/ecm_download_file/ECMP12475945[]

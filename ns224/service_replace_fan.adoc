@@ -50,8 +50,8 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp
 
 * 다음 비디오나 기록된 단계를 사용하여 팬을 교체할 수 있습니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=29635ff8-ae86-4a48-ab2a-aa86002f3b66["NS224 드라이브 쉘프의 팬 교체"^]
-
+.애니메이션 - N224 드라이브 쉘프에 팬을 교체합니다
+video::29635ff8-ae86-4a48-ab2a-aa86002f3b66[panopto]
 
 
 .단계

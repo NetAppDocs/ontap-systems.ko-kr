@@ -121,8 +121,8 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 입출력 모듈이 있던 슬롯을 추적해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6["입출력 모듈 분리 또는 교체"^]
-
+.애니메이션 - I/O 모듈을 제거하거나 교체합니다
+video::3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6[panopto]
 +
 image:../media/drw_a900_remove_PCIe_module.png[""]
 

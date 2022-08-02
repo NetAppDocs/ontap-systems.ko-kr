@@ -21,8 +21,8 @@ summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=ca74d345-e213-4390-a599-aae10019ec82["컨트롤러 모듈 분리"]
-
+.애니메이션 - 컨트롤러 모듈을 분리합니다
+video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.
@@ -76,8 +76,8 @@ NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Sup
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=e0825a97-c57d-47d7-b87d-aad9012efa12["부팅 미디어를 교체합니다"]
-
+.애니메이션 - 부팅 미디어를 교체합니다
+video::e0825a97-c57d-47d7-b87d-aad9012efa12[panopto]
 .단계
 . 에어 덕트를 엽니다.
 +

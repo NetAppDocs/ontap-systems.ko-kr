@@ -216,8 +216,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=48552ddf-0925-4f88-8e93-ab1b00666489["스위치가 없는 2노드 클러스터 케이블 연결"]
-
+.애니메이션 - 스위치가 없는 2노드 클러스터 케이블링
+video::48552ddf-0925-4f88-8e93-ab1b00666489[panopto]
 +
 image::../media/drw_A400_TNSC-network-cabling.png[drw A400 TNSC 네트워크 케이블 연결]
 
@@ -245,8 +245,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=8fefba75-f395-4cf2-ba3c-ab1b00665870["스위치 클러스터 케이블링"]
-
+.애니메이션 - 스위치 방식 클러스터 케이블 연결
+video::8fefba75-f395-4cf2-ba3c-ab1b00665870[panopto]
 +
 image::../media/drw_a400_switched_network_cabling.png[drw a400 스위치 방식 네트워크 케이블 연결]
 
@@ -277,8 +277,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 애니메이션 또는 그림을 사용하여 컨트롤러를 단일 드라이브 쉘프에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=48d68897-c91d-47dc-b4b0-ab1b0066808a["하나의 NS224 드라이브 쉘프에 컨트롤러 케이블 연결"]
-
+.애니메이션 - 컨트롤러를 하나의 NS224 드라이브 쉘프에 연결합니다
+video::48d68897-c91d-47dc-b4b0-ab1b0066808a[panopto]
 +
 image::../media/drw_a400_one_ns224_shelves.png[drw a400 1개 ns224 셸프]
 
@@ -302,8 +302,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 애니메이션 또는 그림을 사용하여 컨트롤러를 2개 드라이브 쉘프에 케이블을 연결하십시오.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=5501c7bf-8b74-49e8-8067-ab1b00668804["2개의 NS224 드라이브 쉘프에 컨트롤러 케이블 연결"]
-
+.애니메이션 - 컨트롤러를 하나의 NS224 드라이브 쉘프에 연결합니다
+video::5501c7bf-8b74-49e8-8067-ab1b00668804[panopto]
 +
 image::../media/drw_a400_two_ns224_shelves.png[drw a400 2개의 ns224 셸프]
 
@@ -327,8 +327,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 그림을 참조하여 컨트롤러를 2개의 드라이브 쉘프에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=cbb0280e-708d-4365-92b6-ab1b006677ef["SAS 드라이브 쉘프에 컨트롤러 케이블 연결"]
-
+.애니메이션 - SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다
+video::cbb0280e-708d-4365-92b6-ab1b006677ef[panopto]
 +
 image::../media/drw_a400_three_ds224c_shelves.png[drw a400 ds224c 쉘프 3개]
 
@@ -354,8 +354,8 @@ image::../media/drw_a400_three_ds224c_shelves.png[drw a400 ds224c 쉘프 3개]
 시스템에 NS224 드라이브 쉘프가 있는 경우, 쉘프는 쉘프 ID 00 및 01로 사전 설정됩니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a-89d9-ab1b0066589b["드라이브 쉘프 ID 설정"]
-
+.애니메이션 - 드라이브 쉘프 ID를 설정합니다
+video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 . 랩톱에 네트워크 검색이 활성화되어 있는지 확인합니다.
 +
@@ -363,8 +363,8 @@ https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a
 
 . 다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d61f983e-f911-4b76-8b3a-ab1b0066909b["관리 스위치에 랩톱 연결"]
-
+.애니메이션 - 노트북을 관리 스위치에 연결합니다
+video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]
@@ -378,10 +378,10 @@ image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어�
 
 NOTE: xxxxx는 대상 노드의 시스템 일련 번호입니다.
 
+
+
 +
 System Manager가 열립니다.
-
-
 
 . System Manager의 안내에 따라 setup을 사용하여 _NetApp ONTAP 구성 가이드_에서 수집한 데이터를 사용하여 시스템을 구성하십시오.
 +
@@ -427,22 +427,22 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 . 다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a-89d9-ab1b0066589b["드라이브 쉘프 ID 설정"]
-
-
-
+.애니메이션 - 드라이브 쉘프 ID를 설정합니다
+video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
++
 시스템에 NS224 드라이브 쉘프가 있는 경우, 쉘프는 쉘프 ID 00 및 01로 사전 설정됩니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.
 
-를 누릅니다https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a-89d9-ab1b0066589b["드라이브 쉘프 ID 설정"]
-
++
+.애니메이션 - 드라이브 쉘프 ID를 설정합니다
+video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 +
 
 NOTE: FAS8300 및 FAS8700이 표시됩니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=50cdf200-ede1-45a9-b4b5-ab1b006698d7["컨트롤러의 전원을 켭니다"]
-
+.애니메이션 - 컨트롤러의 전원을 켭니다
+video::50cdf200-ede1-45a9-b4b5-ab1b006698d7[panopto]
 +
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.

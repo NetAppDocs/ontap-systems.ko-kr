@@ -13,13 +13,13 @@ summary: 이 링크를 다른 스위치 모델에 사용할 수 있습니다.
 [role="lead"]
 이러한 링크를 사용하여 스위치 설명서를 찾을 수 있습니다.
 
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["Broadcom 지원 BES-53248 스위치"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 9336C-FX2 클러스터 스위치"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["9336C-FX2 공유 스위치"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 92300YC 클러스터 스위치"]
-* link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["Nexus 5596"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 3232C"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 3132Q-V"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches["CN1610"]
-* link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["CN1601"]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["Broadcom 지원 BES-53248 스위치"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 9336C-FX2 클러스터 스위치"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["9336C-FX2 공유 스위치"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 92300YC 클러스터 스위치"^]
+* link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["Nexus 5596"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 3232C"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["Nexus 3132Q-V"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches["CN1610"^]
+* link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["CN1601"^]
 

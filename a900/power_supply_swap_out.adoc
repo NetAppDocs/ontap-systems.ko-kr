@@ -48,8 +48,8 @@ IMPORTANT: PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항�
 전원 공급 장치를 분리할 때는 항상 두 손을 사용하여 무게를 지탱하십시오.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d0eee92-72e2-4da4-a4fa-adf9016b57ff["애니메이션 -- PSU 제거/설치"^]
-
+.애니메이션 - PSU 제거/설치
+video::6d0eee92-72e2-4da4-a4fa-adf9016b57ff[panopto]
 +
 image::../media/drw_9000_remove_install_psu_module.svg[drw 9000 설치 제거 PSU 모듈]
 

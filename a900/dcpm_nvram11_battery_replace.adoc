@@ -33,8 +33,8 @@ IMPORTANT: 탈거 후 5분 이내에 섀시에서 DCPM 모듈을 교체해야 �
 
 . 모듈 손잡이의 테라 코타 잠금 버튼을 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ade18276-5dbc-4b91-9a0e-adf9016b4e55["애니메이션 - - DCPM 탈거/장착"^]
-
+.애니메이션 - DCPM 탈거/장착
+video::ade18276-5dbc-4b91-9a0e-adf9016b4e55[panopto]
 +
 image::../media/drw_9000_remove_nv_battery.svg[drw 9000은 NV 배터리를 제거합니다]
 

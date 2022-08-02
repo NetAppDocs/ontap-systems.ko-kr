@@ -8,7 +8,7 @@ indexpage:
     - title: 새로운 소식
       url: "../whats-new.html"
     - title: 시스템 데이터 시트
-      url: https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf
+      url: https://hwu.netapp.com/ProductSpecs/Index
     - title: 스토리지 데이터 시트
       url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
     - title: TR-4539 - VMware Horizon View를 위한 NetApp All Flash FAS 솔루션

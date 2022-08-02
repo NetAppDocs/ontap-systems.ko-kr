@@ -19,12 +19,12 @@ summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설
 
 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=b46575d4-0475-48bd-8772-ac5d012a4e06["AFF A700 또는 FAS9000의 설치 및 설정"]
-
+.애니메이션 - AFF A700 또는 FAS9000의 설치 및 설정
+video::b46575d4-0475-48bd-8772-ac5d012a4e06[panopto]
 
 
 == 비디오 2: 종단 간 소프트웨어 구성 수행
 
 다음 비디오에서는 ONTAP 9.2 이상을 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.
 
-https://www.youtube.com/embed/WAE0afWhj1c?rel=0["NetApp 비디오: ONTAP 9.2를 실행하는 FAS/AFF 시스템용 vSphere NAS 데이터 저장소의 소프트웨어 구성"]
+video::WAE0afWhj1c?[youtube]

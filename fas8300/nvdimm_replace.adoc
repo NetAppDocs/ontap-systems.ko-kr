@@ -188,8 +188,8 @@ mcc1A::> metrocluster operation show
 
 다음 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=75b6fa91-96b9-4323-b156-aae10007c9a5["컨트롤러 모듈 분리"]
-
+.애니메이션 - 컨트롤러 모듈을 분리합니다
+video::75b6fa91-96b9-4323-b156-aae10007c9a5[panopto]
 image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 .단계
@@ -231,8 +231,8 @@ NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Sup
 
 NOTE: 애니메이션과 그림은 DIMM이 없는 소켓용 빈 슬롯을 보여줍니다. 이 빈 소켓은 공백으로 채워집니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=e0afec49-0953-4dcc-b9d0-aadb01578e1b["NVDIMM 교체"]
-
+.애니메이션 - NVDIMM을 교체합니다
+video::e0afec49-0953-4dcc-b9d0-aadb01578e1b[panopto]
 image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
 
 .단계
@@ -272,8 +272,8 @@ NOTE: NVDIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에 컨트롤러 모듈을 설치할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=9249fdb8-1522-437d-9280-aae10007c97b["컨트롤러 모듈 설치"]
-
+.애니메이션 - 컨트롤러 모듈을 설치합니다
+video::9249fdb8-1522-437d-9280-aae10007c97b[panopto]
 image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
 .단계

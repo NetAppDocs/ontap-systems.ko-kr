@@ -187,8 +187,8 @@ mcc1A::> metrocluster operation show
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=75b6fa91-96b9-4323-b156-aae10007c9a5["컨트롤러 모듈 분리"]
-
+.애니메이션 - 컨트롤러 모듈을 분리합니다
+video::75b6fa91-96b9-4323-b156-aae10007c9a5[panopto]
 image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 .단계
@@ -219,8 +219,8 @@ image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거�
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=80fe7a9b-de6f-46e0-a18b-aadb0157263d["RTC 배터리를 교체합니다"]
-
+.애니메이션 - RTC 배터리를 교체합니다
+video::80fe7a9b-de6f-46e0-a18b-aadb0157263d[panopto]
 image::../media/drw_A400_rtc-batt.png[drw A400 RTC 배치]
 
 .단계
@@ -256,8 +256,8 @@ NOTE: 배터리함을 홀더에서 분리할 때 배터리의 극성에 유의�
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에 컨트롤러 모듈을 설치할 수 있습니다.
 
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=9249fdb8-1522-437d-9280-aae10007c97b["컨트롤러 모듈 설치"]
-
+.애니메이션 - 컨트롤러 모듈을 설치합니다
+video::9249fdb8-1522-437d-9280-aae10007c97b[panopto]
 image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
 .단계

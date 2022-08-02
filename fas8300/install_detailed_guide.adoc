@@ -217,8 +217,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=80c4701e-8e4a-408e-96e6-ab1b00666d3f["스위치가 없는 2노드 클러스터 케이블 연결"]
-
+.애니메이션 - 스위치가 없는 2노드 클러스터 케이블링
+video::80c4701e-8e4a-408e-96e6-ab1b00666d3f[panopto]
 +
 image::../media/drw_fas8300_TNSC_network_cabling.png[drw fas8300 TNSC 네트워크 케이블 연결]
 
@@ -246,8 +246,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=5893b7d4-6f67-4a64-ad89-ab1b006658d1["스위치 클러스터 케이블링"]
-
+.애니메이션 - 스위치 방식 클러스터 케이블 연결
+video::5893b7d4-6f67-4a64-ad89-ab1b006658d1[panopto]
 +
 image::../media/drw_fas8300_switched_network_cabling.png[drw fas8300 스위치 방식 네트워크 케이블 연결]
 
@@ -275,8 +275,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 애니메이션 또는 그림을 사용하여 컨트롤러를 2개 드라이브 쉘프에 케이블을 연결하십시오.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=46c0da0b-6842-449f-b28c-ab1b0066584b["SAS 드라이브 쉘프에 컨트롤러 케이블 연결"]
-
+.애니메이션 - SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다
+video::46c0da0b-6842-449f-b28c-ab1b0066584b[panopto]
 +
 image::../media/drw_fas8300_three-ds224c_shelves.png[drw fas8300 ds224c 선반 3개]
 
@@ -300,8 +300,8 @@ image::../media/drw_fas8300_three-ds224c_shelves.png[drw fas8300 ds224c 선반 3
 .단계
 . 다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a-89d9-ab1b0066589b["드라이브 쉘프 ID 설정"]
-
+.애니메이션 - 드라이브 쉘프 ID를 설정합니다
+video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 . 랩톱에 네트워크 검색이 활성화되어 있는지 확인합니다.
 +
@@ -309,8 +309,8 @@ https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a
 
 . 다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=d61f983e-f911-4b76-8b3a-ab1b0066909b["관리 스위치에 랩톱 연결"]
-
+.애니메이션 - 노트북을 관리 스위치에 연결합니다
+video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]
@@ -374,15 +374,15 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 . 다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=c600f366-4d30-481a-89d9-ab1b0066589b["드라이브 쉘프 ID 설정"]
-
+.애니메이션 - 드라이브 쉘프 ID를 설정합니다
+video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 +
 FAS8300 및 FAS8700이 표시됩니다.
 
 +
-https://netapp.hosted.panopto.com/Panopto/Pages/embed.aspx?id=50cdf200-ede1-45a9-b4b5-ab1b006698d7["컨트롤러의 전원을 켭니다"]
-
+.애니메이션 - 컨트롤러의 전원을 켭니다
+video::50cdf200-ede1-45a9-b4b5-ab1b006698d7[panopto]
 +
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
