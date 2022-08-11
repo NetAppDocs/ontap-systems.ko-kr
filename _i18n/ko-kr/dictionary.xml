@@ -6413,7 +6413,6 @@
   <block id="00399cc3a07fad2f3aadfc84abd6ee65" category="doc">부팅 미디어 교체 개요 - FAS500f</block>
   <block id="0dfb2568739ce156f475dfddb29e2387" category="doc">섀시 교체 개요 - AFF A700s</block>
   <block id="09b725ec4b513cf16714e69e0bf388eb" category="doc">컨트롤러 모듈 교체 개요 - AFF A700s</block>
-  <block id="535d86d4b7bd76433b67b69b528e1319" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF A700s</block>
   <block id="002bb0675c02757351d3b908720a16cf" category="doc">온보드 암호화 키 확인 - AFF A700s</block>
   <block id="505ba7be41620674b2d6d7caf7f3453d" category="doc">부팅 미디어 교체 개요 - AFF A700s</block>
   <block id="212a7c63df3073a24c5ba97aaad63e51" category="doc">하드웨어 교체 - AFF A700s</block>
@@ -6659,7 +6658,6 @@
   <block id="4ca27b7e1f4aad146e9ddc45f9af0410" category="doc">컨트롤러 종료 - FAS500f</block>
   <block id="2a468fdd2649c2bddd5f46d0d16b08af" category="doc">손상된 컨트롤러 - AFF A700s를 종료합니다</block>
   <block id="abb3159815c7d305ec1a9697a5ec0fef" category="summary">컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
-  <block id="a3d92d77da598c2538c04939f7322e49" category="list-text">아직 접지되지 않은 경우, propertlcontrolleround를 사용합니다.</block>
   <block id="a14d65aea00503e78c39b9273b38fa4e" category="paragraph">AFF A700s에는 1차 및 2차 또는 백업 부팅 미디어라는 2개의 부팅 미디어 장치가 있습니다. 손상된 컨트롤러에서 _replacement_controller로 이동한 다음 _replacement_controller의 해당 슬롯에 설치해야 합니다.</block>
   <block id="d0a414fa814c592a9fcc74f3aaae710b" category="paragraph">장애가 있는 컨트롤러 'storage failover -ofnode_impaired_node_name_'을(를) 인수하거나 중단합니다</block>
   <block id="e160675dcb2bc6ebdb28380884820e26" category="paragraph">손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 누릅니다.</block>
@@ -7338,4 +7336,5 @@
   <block id="e4fe2ba20af64acaf45fc4ff2fdf0009" category="video-title">애니메이션 - 단일 NS224 셸프 케이블 연결 - ONTAP 9.8 이상</block>
   <block id="438bbae9c36667383085b6ae9e94d71f" category="video-title">애니메이션 - 케이블 2개 NS224 선반 - ONTAP 9.8 이상</block>
   <block id="45fe4cb2226f52988b50d1f171612f5b" category="video-title">애니메이션 - AFF A700 또는 FAS9000의 설치 및 설정</block>
+  <block id="a6528a788f88cf757ff6bbfe3f5da074" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF A700s</block>
 </blocks>
