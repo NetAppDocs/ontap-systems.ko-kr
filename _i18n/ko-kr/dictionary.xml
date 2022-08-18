@@ -1562,7 +1562,6 @@
   <block id="e721fed5752af28a811f95c9517647d5" category="paragraph">쉘프 ID가 깜박이고 디스크 쉘프 전원을 껐다가 다시 켤 때까지 운영자 디스플레이 패널 주황색 LED가 깜박입니다.</block>
   <block id="114b5f5f60d5305cae68f7358becbb08" category="list-text">핫 추가할 각 디스크 쉘프에 대해 단계 A~d를 반복합니다.</block>
   <block id="7d1f085b961baef4ee505ff0b202f8af" category="paragraph">새로 추가된 디스크 쉘프에 해당하는 SAS 연결(쉘프-쉘프 및 컨트롤러-스택)에 케이블을 연결하여 시스템에 연결할 수 있습니다.</block>
-  <block id="25144a0fdc573490379af60a79ce8953" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="b97fb0f13d8cc81479b53e89d9178105" category="inline-xref-macro-rx"></block> 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 <block ref="1559829c998f121990e6747d77c5c076" category="inline-xref-macro-rx"></block>.</block>
   <block id="634f97c34a23666fd57c06fc0817e89c" category="inline-link-macro">쉘프-쉘프 SAS 연결 규칙</block>
   <block id="3580003f42a2219bf8368586293ce5d1" category="list-text">선반선반의 케이블 연결과 선반선반선반의 쌍폭 케이블 연결에 대한 설명과 예는 을 참조하십시오 <block ref="cc9fe1e757b2015fb556613621f1b2cf" category="inline-link-macro-rx"></block>.</block>
   <block id="94b940d24fc57c2a1a1a40bc68523940" category="list-text">컨트롤러-스택 연결 케이블을 연결하는 워크시트를 읽는 방법에 대한 지침은 을(를) 참조하십시오 <block ref="32f1048d76ed4ef07349228b731694c0" category="inline-link-macro-rx"></block> 또는 <block ref="22de937f8b92c8373761b256e9819f4a" category="inline-link-macro-rx"></block>.</block>
@@ -7135,8 +7134,6 @@
   <block id="4a6c06310d2bcd1c9758407cb59a423d" category="list-text">IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 자체 고유 스택에 있어야 하며, IOM6 모듈 또는 IOM3 모듈이 포함된 쉘프가 있는 스택에 추가할 수 없습니다.</block>
   <block id="1297a8f1ac3fcf90ab0c70ff5e47b71d" category="paragraph">이 절차에서는 IOM12/IOM12B 모듈이 포함된 쉘프 스택에 대한 IOM6 모듈의 핫 추가 등 스택 혼합에 대해 다루지 않습니다.</block>
   <block id="0712df39e8d2ca11a74df9f3fe275482" category="list-text">IOM12/IOM12B 모듈을 사용하면 한 시스템에서 다중 경로 및 4중 경로 방식의 디스크 쉘프 스택을 수행할 수 있습니다.</block>
-  <block id="fb510c511f697ba0b554724f2d55ce12" category="section-title">핫 애드용 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치</block>
-  <block id="eef12ccd7f9c2345b5a3e069f9088bd0" category="section-title">핫 애드용 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 케이블링</block>
   <block id="5b07090bafdc58182b6f01852ecbad05" category="summary">워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈이 포함된 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다.</block>
   <block id="5d57c73dbe661f28ff4ab36825900d40" category="doc">IOM1/IOM12B2 모듈을 사용하는 4중 경로 연결 쉘프용 컨트롤러-스택 케이블링 워크시트 템플릿</block>
   <block id="51432cf63c198a0a11bab993299ae7fd" category="paragraph">워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.</block>
@@ -7337,4 +7334,10 @@
   <block id="438bbae9c36667383085b6ae9e94d71f" category="video-title">애니메이션 - 케이블 2개 NS224 선반 - ONTAP 9.8 이상</block>
   <block id="45fe4cb2226f52988b50d1f171612f5b" category="video-title">애니메이션 - AFF A700 또는 FAS9000의 설치 및 설정</block>
   <block id="a6528a788f88cf757ff6bbfe3f5da074" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF A700s</block>
+  <block id="d39ffb80309f658b2cc5987e7d3fe12b" category="section-title">핫 애드용 IOM12/IOM12B 모듈이 포함된 디스크 쉘프를 설치합니다</block>
+  <block id="7c100d04606be0913d1347f47c7198ab" category="section-title">핫 애드용 IOM12/IOM12B 모듈과 디스크 쉘프 케이블 연결</block>
+  <block id="c920d4841ecd46b57d9a50e7295a2153" category="inline-link-macro">IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항</block>
+  <block id="36779ed778ea1fac61fae3be46917d43" category="inline-link-macro">핫 애드 기능을 위해 IOM12 모듈과 디스크 쉘프를 설치합니다</block>
+  <block id="56ccacf68c60aa589cdd947ffabc6a40" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="38d5024537883b0bd86511e0b5e50dba" category="inline-link-macro-rx"></block> 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 <block ref="2957551c96808bfde01acb853ddbc0af" category="inline-link-macro-rx"></block>.</block>
+  <block id="4ec6a95192d18718a540794417c8fa63" category="sidebar">NetApp Active IQ 디지털 자문업체</block>
 </blocks>

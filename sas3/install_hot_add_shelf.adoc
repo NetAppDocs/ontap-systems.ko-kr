@@ -181,7 +181,7 @@ NOTE: 디스크 드라이브를 설치할 준비가 될 때까지 ESD 가방에 
 
 
 
-== 핫 애드용 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치
+== 핫 애드용 IOM12/IOM12B 모듈이 포함된 디스크 쉘프를 설치합니다
 
 [role="lead"]
 핫 추가할 각 디스크 쉘프에 디스크 쉘프를 설치하고, 전원 코드를 연결하고, 디스크 쉘프의 전원을 켠 다음, SAS 연결을 케이블로 연결하기 전에 디스크 쉘프 ID를 설정해야 합니다.
@@ -316,12 +316,12 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 
 
 
-== 핫 애드용 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 케이블링
+== 핫 애드용 IOM12/IOM12B 모듈과 디스크 쉘프 케이블 연결
 
 [role="lead"]
 새로 추가된 디스크 쉘프에 해당하는 SAS 연결(쉘프-쉘프 및 컨트롤러-스택)에 케이블을 연결하여 시스템에 연결할 수 있습니다.
 
-의 요구사항을 충족해야 합니다 <<Requirements for hot-adding disk shelves with IOM12 modules>> 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 <<Installing disk shelves with IOM12 modules for a hot-add>>.
+의 요구사항을 충족해야 합니다 link:install-hot-add-shelf.html#requirements-for-hot-adding-disk-shelves-with-iom12iom12b-modules["IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항"] 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 link:install-hot-add-shelf.html#install-disk-shelves-with-iom12iom12b-modules-for-a-hot-add["핫 애드 기능을 위해 IOM12 모듈과 디스크 쉘프를 설치합니다"].
 
 .이 작업에 대해
 * 선반선반의 케이블 연결과 선반선반선반의 쌍폭 케이블 연결에 대한 설명과 예는 을 참조하십시오 link:install-cabling-rules.html#shelf-to-shelf-connection-rules["쉘프-쉘프 SAS 연결 규칙"].

@@ -62,6 +62,8 @@ indexpage:
       url: https://docs.netapp.com/us-en/ontap/
     - title: NetApp Hardware Universe를 참조하십시오
       url: https://hwu.netapp.com/home/index
+    - title: NetApp Active IQ 디지털 자문업체
+      url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: NetApp Active IQ Config Advisor를 참조하십시오
       url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
     - title: NetApp 상호 운용성 매트릭스 툴
