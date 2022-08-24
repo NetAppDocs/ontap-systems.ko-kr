@@ -7095,7 +7095,6 @@
   <block id="0455216bece3ce620e2fd5c84b24a523" category="list-text">HA 2노드의 경우 2개의 IOM6 쉘프와 2개의 IOM12/IOM12B 쉘프가 포함된 스택 내에서 단일 속도의 전환이 다음과 같이 표현됩니다.</block>
   <block id="988fffa48b6a32203597193ccfb194d0" category="paragraph">온보드 스토리지 포트 0b는 내부 스토리지(확장기)의 포트이며 핫Added IOM12/IOM12B 쉘프(스택의 마지막 쉘프)에 연결되므로 IOM12/IOM12B 쉘프 그룹은 함께 유지되고 단일 전환은 스택 및 온보드 IOM12E 스토리지를 통해 유지됩니다.</block>
   <block id="22c141c57159ea5a9cf5ecee1f8b4145" category="list-text">IOM A 경로의 SAS 포트를 먼저 연결하여 IOM12/IOM12B 쉘프에 케이블을 연결한 다음, 스택 연결에 해당하는 IOM B 경로에 대해 케이블 연결 단계를 반복합니다.</block>
-  <block id="74e72cd0b8695a83723abedf9f9e8d92" category="list-text">초기 IOM12/IOM12B 쉘프(논리적 마지막 IOM6 쉘프에 연결하는 IOM12 쉘프)는 항상 IOM6 쉘프 원 포트(사각 포트가 아님)에 연결됩니다.</block>
   <block id="f40ad7d263effd48cd15f5ec54dc2775" category="list-text">FC-to-SAS 브리지를 사용하지 않는 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 다음 그림을 참조하십시오.</block>
   <block id="5c5d06fa180884eea62ba831b980ed33" category="list-text">다음 그림은 브리지 연결 MetroCluster 구성에서 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 연결하는 방법을 보여 줍니다. <block ref="3bf7d126d94220be52cd0d278e98261d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d7f99cbbf1b9ba05ea3a6ec89eae8b6" category="list-text">IOM6 스택에 IOM12/IOM12B 쉘프가 추가되었습니다. 즉, IOM6 쉘프에 다른 IOM12/IOM12B 쉘프가 존재하지 않는 IOM12/IOM12B 쉘프를 추가하려면 해당 하위 단계를 완료하십시오.</block>
@@ -7340,4 +7339,7 @@
   <block id="36779ed778ea1fac61fae3be46917d43" category="inline-link-macro">핫 애드 기능을 위해 IOM12 모듈과 디스크 쉘프를 설치합니다</block>
   <block id="56ccacf68c60aa589cdd947ffabc6a40" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="38d5024537883b0bd86511e0b5e50dba" category="inline-link-macro-rx"></block> 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 <block ref="2957551c96808bfde01acb853ddbc0af" category="inline-link-macro-rx"></block>.</block>
   <block id="4ec6a95192d18718a540794417c8fa63" category="sidebar">NetApp Active IQ 디지털 자문업체</block>
+  <block id="398a3c8d2269f5f0bf21e8be014ed54c" category="list-text">IOM6 모듈이 포함된 쉘프 스택에 IOM12 모듈이 포함된 쉘프를 핫 애드할 경우, 전체 스택의 성능이 6Gbps에서 작동합니다(최저 공통 속도로 실행됨).</block>
+  <block id="75e1d900c724ecf27f282e3bba238d06" category="paragraph">핫 애드 쉘프가 IOM3 또는 IOM6 모듈에서 IOM12 모듈로 업그레이드된 쉘프인 경우, 스택은 12Gbps에서 작동합니다. 그러나 쉘프 후면판 및 디스크 기능은 디스크 성능을 3Gbps 또는 6Gbps로 제한할 수 있습니다.</block>
+  <block id="240920b675de649a14eaba01757477c0" category="list-text">초기 IOM12/IOM12B 쉘프(논리적 마지막 IOM6 쉘프에 연결하는 쉘프)는 항상 IOM6 쉘프 원 포트(사각 포트가 아님)에 연결됩니다.</block>
 </blocks>
