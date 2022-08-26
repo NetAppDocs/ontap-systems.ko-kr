@@ -4,6 +4,7 @@ title: AFF A900 시스템
 url: "/a900/index.html"
 entries:
 - title: 설치 및 설정
+  pdf-filename: AFF A900 설치 및 설정
   entries:
   - title: 설치 및 설정 환경을 선택합니다
     url: "/a900/install_setup.html"
@@ -14,10 +15,12 @@ entries:
   - title: 세부 단계
     url: "/a900/install_detailed_guide.html"
 - title: 유지 관리
+  pdf-filename: AFF A900 유지 보수
   entries:
   - title: 입출력 모듈을 추가합니다
     url: "/a900/add_io_module.html"
   - title: 미디어를 부팅합니다
+    pdf-filename: AFF A900 부트 미디어
     entries:
     - title: 개요
       url: "/a900/bootmedia_replace_overview.html"
@@ -34,6 +37,7 @@ entries:
     - title: 장애가 발생한 부품을 NetApp으로 반환합니다
       url: "/a900/bootmedia_complete_rma.html"
   - title: 섀시
+    pdf-filename: AFF A900 섀시
     entries:
     - title: 개요
       url: "/a900/chassis_replace_overview.html"
@@ -44,6 +48,7 @@ entries:
     - title: 구성 복원 및 확인
       url: "/a900/chassis_replace_complete_system_restore_rma.html"
   - title: 컨트롤러 모듈
+    pdf-filename: AFF A900 컨트롤러 모듈
     entries:
     - title: 개요
       url: "/a900/controller_replace_overview.html"

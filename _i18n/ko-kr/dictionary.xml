@@ -4112,8 +4112,6 @@
   <block id="e3ca62ecd59008690a4c01731db9497c" category="section-title">2단계: I/O 모듈을 교체합니다</block>
   <block id="6ba4f7d92194f0cbca5f6652f992bebf" category="paragraph">I/O 모듈을 교체하려면 섀시 내에서 해당 모듈을 찾아 특정 단계를 따르십시오.</block>
   <block id="45effe123bc9d7b38324ac0170a7d2ed" category="list-text">I/O 모듈이 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 부드럽게 밀어 넣은 다음 I/O 캠 래치를 완전히 위로 밀어 모듈을 제자리에 고정합니다.</block>
-  <block id="fe93c3e28753ccd59e8b3dc55497b074" category="section-title">3단계: PCIe 모듈을 교체한 후 컨트롤러를 재부팅합니다</block>
-  <block id="60f0e4a73edf1a4e40be1d8fff5656f6" category="paragraph">PCIe 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.</block>
   <block id="074956b98e6ab62b7ae2bf9b8699df64" category="list-text">시스템이 10GbE 클러스터 상호 연결과 40GbE NIC 또는 온보드 포트의 데이터 연결을 지원하도록 구성된 경우 유지보수 모드에서 'nicadmin convert' 명령을 사용하여 이러한 포트를 10GbE 연결로 변환합니다.</block>
   <block id="f6731fc619f8ba373101af81f8f57df0" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A700 및 FAS9000</block>
   <block id="546213aeb2cbd4cabb4e9e5099416edd" category="summary">서비스를 중단하지 않고 LED USB 모듈을 교체할 수 있습니다.</block>
@@ -4681,7 +4679,6 @@
   <block id="2aba05ee9a4093e5315b48903c27d988" category="doc">I/O 모듈 교체 - AFF A900</block>
   <block id="a8869e142255ff80f45be4817f469087" category="section-title">3단계: I/O 모듈 교체 후 컨트롤러를 재부팅합니다</block>
   <block id="bbee62c98bf71c87d77b3d48e5cacaff" category="paragraph">I/O 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.</block>
-  <block id="8c2fb795497456b969ba9307ef6f84c8" category="list-text">LOADER 프롬프트에서 node:_bye_를 재부팅합니다</block>
   <block id="b40d85db7a9de91cff53c5663c76daaf" category="list-text">노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode impaired_node_name'</block>
   <block id="65dc2e566ca79200d7c70bef0b947464" category="doc">OKM, NSE 및 NVE-AFF A900에 대한 부팅 후 미디어 교체 단계</block>
   <block id="9a35117ce5f367da3a3ca5116d861d73" category="list-text">부팅 메뉴에서 숨겨진 명령 recover_onboard_keymanager를 입력하고 프롬프트에 y를 입력합니다.</block>
@@ -6966,7 +6963,6 @@
   <block id="3e5fda4bdb63c28cc3aa53cadbde1129" category="doc">DIMM-FAS9500을 교체합니다</block>
   <block id="6a58b2807f942e88a255882209bad046" category="sidebar">캐시 모듈 핫 스왑</block>
   <block id="50a5f31124b37f0e6f0175b4691d290a" category="paragraph">내부 디스크 쉘프가 있는 플랫폼 모델이 있는 경우 쉘프 ID는 내부 디스크 쉘프 및 외부 연결 디스크 쉘프 전체에서 고유해야 합니다.</block>
-  <block id="5db74a009a275aefa3af112cb922e082" category="list-text">LOADER 프롬프트에서 node:_bye_note를 재부팅합니다. 이렇게 하면 PCIe 카드와 다른 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</block>
   <block id="208e6af1006f73ba3b37a7e05e3692cd" category="list-text">노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode_impaired_node_name_'</block>
   <block id="837fcf17f123dccb1301f252ade8a58e" category="admonition">시스템이 2노드 MetroCluster 구성인 경우, 다음 단계에 설명된 대로 애그리게이트를 다시 전환해야 합니다.</block>
   <block id="abc219c929a34cf7b62e36c2503b63ac" category="video-title">애니메이션 - 컨트롤러 모듈을 제거합니다</block>
@@ -7342,4 +7338,19 @@
   <block id="398a3c8d2269f5f0bf21e8be014ed54c" category="list-text">IOM6 모듈이 포함된 쉘프 스택에 IOM12 모듈이 포함된 쉘프를 핫 애드할 경우, 전체 스택의 성능이 6Gbps에서 작동합니다(최저 공통 속도로 실행됨).</block>
   <block id="75e1d900c724ecf27f282e3bba238d06" category="paragraph">핫 애드 쉘프가 IOM3 또는 IOM6 모듈에서 IOM12 모듈로 업그레이드된 쉘프인 경우, 스택은 12Gbps에서 작동합니다. 그러나 쉘프 후면판 및 디스크 기능은 디스크 성능을 3Gbps 또는 6Gbps로 제한할 수 있습니다.</block>
   <block id="240920b675de649a14eaba01757477c0" category="list-text">초기 IOM12/IOM12B 쉘프(논리적 마지막 IOM6 쉘프에 연결하는 쉘프)는 항상 IOM6 쉘프 원 포트(사각 포트가 아님)에 연결됩니다.</block>
+  <block id="966c8588db44d6fc5bd740f02c4aeb91" category="admonition">새 입출력 모듈이 장애가 발생한 모듈과 다른 모델인 경우 먼저 BMC를 재부팅해야 합니다.</block>
+  <block id="fac432b1efa495a7ca9205e962038529" category="list-text">교체 모듈이 이전 모듈과 다른 모델인 경우 BMC를 재부팅합니다.</block>
+  <block id="741ed5c64ad3d534bfa3f19ff5509d9b" category="list-text">LOADER 프롬프트에서 advanced privilege mode: priv set advanced로 변경합니다</block>
+  <block id="b40f61c6dd95c940867e3e5d99f099be" category="list-text">BMC:'s p reboot'를 재부팅합니다</block>
+  <block id="7ec1cacfbf4271c9864b8e40717b1f8f" category="list-text">LOADER 프롬프트에서 bye 노드를 재부팅합니다</block>
+  <block id="d73758375aa4c2c0d806b85cf93229be" category="sidebar">FAS9500 설치 및 설정</block>
+  <block id="fd44bc5547a31fa6a44a5dba383710f5" category="sidebar">9500의 유지보수</block>
+  <block id="ee6cf51d21f40cc78c0a70dbb1b8d104" category="sidebar">FAS9500 부팅 미디어</block>
+  <block id="33a725da473f57f9db39e8cb90fb8ec1" category="sidebar">FAS9500 섀시</block>
+  <block id="cea781d942e6e6feafc25284d025750b" category="sidebar">FAS9500 컨트롤러 모듈</block>
+  <block id="4ea03be5210b1deef6915fc966939eb4" category="sidebar">AFF A900 설치 및 설정</block>
+  <block id="9dac2c892993fb8afd0257c050073a7a" category="sidebar">AFF A900 유지 보수</block>
+  <block id="fe673aff2ce9eb5c6eaf841f4ec88b30" category="sidebar">AFF A900 부트 미디어</block>
+  <block id="6cff7e5493433d24015d6ef5a8566b38" category="sidebar">AFF A900 섀시</block>
+  <block id="7d1c80f318f9bf16deac2495abe88a7e" category="sidebar">AFF A900 컨트롤러 모듈</block>
 </blocks>

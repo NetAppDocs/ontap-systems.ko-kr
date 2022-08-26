@@ -231,12 +231,21 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 
 
-== 3단계: PCIe 모듈을 교체한 후 컨트롤러를 재부팅합니다
+== 3단계: I/O 모듈 교체 후 컨트롤러를 재부팅합니다
 
-PCIe 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.
+I/O 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.
+
+
+NOTE: 새 입출력 모듈이 장애가 발생한 모듈과 다른 모델인 경우 먼저 BMC를 재부팅해야 합니다.
 
 .단계
-. LOADER 프롬프트에서 node:_bye_를 재부팅합니다
+. 교체 모듈이 이전 모듈과 다른 모델인 경우 BMC를 재부팅합니다.
++
+.. LOADER 프롬프트에서 advanced privilege mode: priv set advanced로 변경합니다
+.. BMC:'s p reboot'를 재부팅합니다
+
+
+. LOADER 프롬프트에서 bye 노드를 재부팅합니다
 +
 
 NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
@@ -248,10 +257,11 @@ NOTE: 변환을 완료한 후 유지보수 모드를 종료해야 합니다.
 
 . 노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode_impaired_node_name_'
 . 자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true'를 다시 설정합니다
-
-
++
 
 NOTE: 시스템이 2노드 MetroCluster 구성인 경우, 다음 단계에 설명된 대로 애그리게이트를 다시 전환해야 합니다.
+
+
 
 
 
