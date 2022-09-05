@@ -905,9 +905,6 @@
   <block id="26a846deb04c0d63c063041ad0fa15ef" category="list-text">Active IQ Config Advisor를 실행하여 중복 쉘프 ID 알림을 확인하거나 'storage shelf show-fields shelf-id' 명령을 실행하여 중복 ID를 포함하여 이미 사용 중인 쉘프 ID 목록을 확인하십시오.</block>
   <block id="8599052dc8c8c0f79b1edc766e0bb77e" category="list-text">시스템에 중복 쉘프 ID가 있는 경우 이 절차를 반복하여 중복 쉘프 ID를 변경하십시오.</block>
   <block id="7a48725aae87c25c20800da734657f8d" category="summary">이 예는 완료된 워크시트를 읽고 케이블 컨트롤러-스택 간 연결에 IOM12 모듈을 사용하는 디스크 쉘프의 케이블 컨트롤러-스택 연결에 적용하는 방법을 안내합니다.</block>
-  <block id="34a29535255d4c9658cf8667fb70f827" category="paragraph">HA 쌍 또는 단일 컨트롤러 구성은 AFF A200, AFF A220, FAS2600 시리즈 또는 FAS2700 시스템이 될 수 없습니다. 이러한 시스템에서는 고유한 워크시트를 사용합니다.</block>
-  <block id="c938619c45a867da395e1f0213cdb4b0" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 일반적인 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성을 위한 케이블 연결 예</block>
-  <block id="8298bd1953102e090c7ee364e7677f25" category="paragraph"><block ref="8298bd1953102e090c7ee364e7677f25" category="inline-link-macro-rx"></block></block>
   <block id="d69f8bb928c8179d4a1d81a77b9f6a4c" category="list-text">이 절차에서는 컨트롤러-스택 간 케이블 연결에 대한 워크시트를 읽는 방법을 보여 주는 다음 워크시트 및 케이블 연결 예제를 참조합니다.</block>
   <block id="f590bcd598fe8232b2185b3611156cca" category="admonition">시스템의 스택에 케이블을 연결하는 것보다 많은 포트 쌍이 있는 경우, 시스템의 SAS 포트를 최적화하기 위해 포트 쌍을 건너뛰는 것이 가장 좋습니다. SAS 포트를 최적화하여 시스템 성능을 최적화합니다.</block>
   <block id="a513cfe8d83ba38ea85b01260a4ffb53" category="list-text">단일 컨트롤러 구성이 있는 경우 두 번째 컨트롤러에 케이블을 연결하기 위한 하위 단계 b 및 d를 건너뜁니다.</block>
@@ -960,10 +957,7 @@
   <block id="540d6dd9e8a601304f58e8b1692a0cbc" category="list-text">복원력을 극대화함으로써 가용성을 유지하고 컨트롤러 테이크오버 의존도를 최소화합니다</block>
   <block id="ac9d521507af48d2a069896628ddcbe1" category="paragraph">당신은 규칙에서 벗어나는 것을 피해야 합니다. 편차는 신뢰성, 보편성 및 공통성을 감소시킬 수 있습니다.</block>
   <block id="1411fab742ef51836dbcd20dc81b333a" category="section-title">구성 규칙</block>
-  <block id="1ef4b114887ad97836aad1df50936d3b" category="paragraph">IOM12 모듈이 포함된 디스크 쉘프는 특정 유형의 HA Pair 및 단일 컨트롤러 구성에서 지원됩니다.</block>
   <block id="e813922cd0bf97e10c1d75af7555f41d" category="list-text">HA Pair 구성은 다중 경로 HA 또는 4중 경로 HA 구성으로 케이블로 연결되어야 하며, 단, 다음과 같은 예외가 있습니다.</block>
-  <block id="bc5739bb9ad5df08aab832948b129daf" category="list-text">AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700HA 쌍 구성(외부 디스크 쉘프 포함)을 단일 경로 HA 구성으로 연결하여 외부 SAS 테이프 백업 장치에 대한 연결을 지원할 수 있습니다.</block>
-  <block id="c30e5ab802ae6eda8b94fc166555d469" category="list-text">AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700HA 쌍 구성은 4중 경로 HA 연결을 지원하지 않습니다.</block>
   <block id="905e44a8d6df3feceb87ebb53cfc800e" category="list-text">단일 컨트롤러 구성은 다중 경로 또는 4중 경로 구성으로 케이블로 연결되어야 하며, 단, 다음과 같은 예외가 있습니다.</block>
   <block id="4f84345fdfdaaef18218a7ade58e0626" category="list-text">FAS2600 시리즈 단일 컨트롤러 구성(외부 디스크 쉘프 포함)을 단일 경로 구성으로 케이블로 연결할 수 있습니다.</block>
   <block id="ab36d824336ef6ebffc6dcb6e6c8f5c7" category="paragraph">내부 스토리지가 단일 경로 연결을 사용하므로 ONTAP에서는 혼합 경로가 감지된다는 경고가 가끔 발생합니다. 이러한 경고를 방지하려면 외부 디스크 쉘프에 대한 단일 경로 연결을 사용할 수 있습니다. 또한 외부 SAS 테이프 백업 장치를 사용할 때 단일 경로 연결을 사용할 수 있습니다.</block>
@@ -992,11 +986,9 @@
   <block id="7830411c7d1c383be96811621cfdb2e5" category="paragraph">논리적 첫 번째 쉘프에서 스택의 마지막 논리 쉘프에 이르기까지 IOM 포트 3을 도메인 A와 도메인 B의 다음 쉘프 IOM 포트 1에 연결합니다 논리적 첫 번째 쉘프에서 스택의 마지막 논리 쉘프에 이르기까지 IOM 포트 4를 도메인 A의 다음 쉘프 IOM 포트 2에 연결한 다음 도메인 B에 연결합니다 (이중 와이드 연결로 케이블이 연결된 IOM 포트는 파란색으로 표시됩니다.)</block>
   <block id="cea4f34bbde19b19ec8b528484463d97" category="image-alt">두 배 너비 선반으로 줄 수 있는 drw 선반</block>
   <block id="76ac5618163f7cfdc83af1a982460b25" category="section-title">컨트롤러-스택 연결 규칙</block>
-  <block id="e7e704fe1a564b4bba84a4b89d7ab9b8" category="paragraph">SAS 디스크 쉘프가 소프트웨어 기반 디스크 소유권을 사용하고 컨트롤러 포트 A/C 및 B/D를 스택에 연결하는 방법, 컨트롤러 포트 A/C 및 B/D를 사용하는 것을 이해함으로써 각 컨트롤러에서 HA 쌍 또는 단일 컨트롤러 구성으로 각 스택에 대한 SAS 연결을 올바르게 연결할 수 있습니다. 컨트롤러 포트 A/C 및 B/D를 포트 쌍으로 구성하는 방법 및 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템 포트 0b 및 0a를 스택에 연결하는 방법</block>
   <block id="815ae1da852a7e116dabaa4790481ca1" category="section-title">SAS 디스크 쉘프 소프트웨어 기반 디스크 소유 규칙</block>
   <block id="b090fb384d88ba417ddba5bc09e12033" category="paragraph">SAS 디스크 쉘프는 하드웨어 기반 디스크 소유권이 아니라 소프트웨어 기반 디스크 소유권을 사용합니다. 즉, 디스크 드라이브 소유권은 스토리지 시스템의 물리적 접속의 토폴로지에 의해 결정되지 않고 디스크 드라이브에 저장됩니다(하드웨어 기반 디스크 소유인 경우). 특히, 디스크 드라이브 소유권은 컨트롤러-스택 간 연결에 케이블을 연결하는 방법이 아닌 ONTAP(자동 또는 CLI 명령)에 의해 할당됩니다.</block>
   <block id="561976391c859af5f378c2249b3ab7cc" category="paragraph">SAS 디스크 쉘프는 하드웨어 기반 디스크 소유권 스키마를 사용하여 케이블로 연결해서는 안 됩니다.</block>
-  <block id="7b1a771699d48eb5b0ebb788ec8a2494" category="section-title">컨트롤러 A 및 C 포트 연결 규칙(비 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성에 해당)</block>
   <block id="543f14beeef4a9be4cc43463e7a5882c" category="list-text">A 및 C 포트는 항상 스택의 기본 경로입니다.</block>
   <block id="28f5d46a191ea26e7d3d6a7b8f95cb0b" category="list-text">A와 C 포트는 항상 스택의 논리적 첫 번째 디스크 쉘프에 연결합니다.</block>
   <block id="323025b84432843afbacb8850eab48b1" category="list-text">A 및 C 포트는 항상 디스크 쉘프 IOM 포트 1 및 2에 연결합니다.</block>
@@ -1005,7 +997,6 @@
   <block id="845648a6d13ed37c7454c6be1991a364" category="list-text">컨트롤러 2 A 및 C 포트는 항상 IOM B(도메인 B)에 연결합니다.</block>
   <block id="1f393663a63759c6a1dd2986c13770e5" category="paragraph">다음 그림에서는 1개의 4중 포트 HBA와 2개의 디스크 쉘프 스택을 사용하여 다중 경로 HA 구성에서 컨트롤러 포트 A와 C를 연결하는 방법을 보여 줍니다. 스택 1에 대한 연결은 파란색으로 표시됩니다. 스택 2에 대한 연결은 주황색으로 표시됩니다.</block>
   <block id="52b9f36f0a0ece73e588e8d49a1d2e38" category="image-alt">규칙 포트 A 및 c를 스택하는 drw 컨트롤러 예</block>
-  <block id="ef0714114d85b9f9cefcc62cc0b65e22" category="section-title">컨트롤러 B 및 D 포트 연결 규칙(비 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성에 해당)</block>
   <block id="28b0df79d69d4b7bf21f0271c55d4f4e" category="list-text">B 및 D 포트는 항상 스택에 대한 보조 경로입니다.</block>
   <block id="9280f37bc620ca5d0b26ec8580f87f58" category="list-text">B 및 D 포트는 항상 스택의 마지막 논리 디스크 쉘프에 연결합니다.</block>
   <block id="5961adddd5595d6aa7de1c01c6f229b8" category="list-text">B 및 D 포트는 항상 디스크 쉘프 IOM 포트 3 및 4에 연결합니다.</block>
@@ -1015,7 +1006,6 @@
   <block id="6265370a0863851abf028ccb76cce9bb" category="list-text">B 및 D 포트는 PCI 슬롯의 순서를 하나씩 오프셋하여 스택에 연결되어 첫 번째 슬롯의 첫 번째 포트가 마지막으로 케이블로 연결됩니다.</block>
   <block id="1180b7b391f14633455e18d7e8a70316" category="paragraph">다음 그림에서는 1개의 4중 포트 HBA와 2개의 디스크 쉘프 스택을 사용하여 다중 경로 HA 구성에서 컨트롤러 포트 B와 D를 연결하는 방법을 보여 줍니다. 스택 1에 대한 연결은 파란색으로 표시됩니다. 스택 2에 대한 연결은 주황색으로 표시됩니다.</block>
   <block id="937c34f84d0b7a30ac6064abdb97a6f0" category="image-alt">규칙 포트 b 및 d를 스택하는 drw 컨트롤러 예</block>
-  <block id="0805da24af8e9775551e97055c6d00d2" category="section-title">포트 쌍 연결 규칙(비 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 구성에 해당)</block>
   <block id="adc0f860870e3220b08daf202d1dbe12" category="paragraph">컨트롤러 SAS 포트 A, B, C 및 D는 모든 SAS 포트를 활용하는 방법을 통해 포트 쌍으로 구성되며, HA Pair 및 단일 컨트롤러 구성의 컨트롤러-스택 연결을 케이블로 연결할 때 시스템 복원력과 일관성을 제공합니다.</block>
   <block id="b74977118ce8bd6994f851515d0aff70" category="list-text">포트 쌍은 컨트롤러 A 또는 C SAS 포트와 컨트롤러 B 또는 D SAS 포트로 구성됩니다.</block>
   <block id="4b317a36993fd6d376aba7d0d82eef4b" category="paragraph">A 및 C SAS 포트는 스택의 논리적 첫 번째 쉘프에 연결됩니다. B 및 D SAS 포트는 스택의 마지막 논리 쉘프에 연결됩니다.</block>
@@ -1044,8 +1034,6 @@
   <block id="7c1436929540272177fd4adb6152e9ba" category="paragraph"><block ref="7c1436929540272177fd4adb6152e9ba" category="inline-link-macro-rx"></block></block>
   <block id="b9e772dcfe474ff5403c912944516e36" category="inline-link-macro">4중 경로 연결을 위한 컨트롤러-스택 케이블링 워크시트 템플릿</block>
   <block id="612ddf012153a583a53a09e3d7b592ea" category="paragraph"><block ref="612ddf012153a583a53a09e3d7b592ea" category="inline-link-macro-rx"></block></block>
-  <block id="03668c626125d88dfbaebd0ec0c3051b" category="section-title">외부 디스크 쉘프에 대한 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 컨트롤러 0b 및 0a 포트 연결 규칙</block>
-  <block id="2e70696cbfe7e045226c133146c10a21" category="paragraph">각 컨트롤러는 내부 스토리지(포트 0b)와 스택 간에 동일한 도메인 연결을 유지해야 하므로 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에는 고유한 연결 규칙 세트가 있습니다. 즉, 컨트롤러가 섀시(컨트롤러 1)의 슬롯 A에 있으면 도메인 A(IOM A)에 있으므로 포트 0b는 스택의 IOM A에 연결해야 합니다. 컨트롤러가 섀시(컨트롤러 2)의 슬롯 B에 있는 경우 컨트롤러는 도메인 B(IOM B)에 있으므로 포트 0b는 스택의 IOM B에 연결해야 합니다.</block>
   <block id="f49f9d1b35c60dce77fd03008b90cb34" category="admonition">0b 포트를 올바른 도메인(교차 연결 도메인)에 연결하지 않으면 시스템을 복원 문제에 노출시켜 무중단 절차를 안전하게 수행하지 못하게 합니다.</block>
   <block id="5118c6333d912e1b490b20c974a571ef" category="list-text">컨트롤러 0b 포트(내부 스토리지 포트):</block>
   <block id="53b81829b8b397189aaa4f3eb1ae76a7" category="list-text">컨트롤러 1 0b 포트는 항상 IOM A(도메인 A)에 연결합니다.</block>
@@ -1059,7 +1047,6 @@
   <block id="0757935fc13bec433eaf412d005fb61b" category="list-text">포트 0a는 항상 보조 경로입니다.</block>
   <block id="5821e49b61c774c699a1d7c8f58887e5" category="list-text">포트 0a는 항상 스택의 논리적 첫 번째 디스크 쉘프에 연결합니다.</block>
   <block id="47f1d04db41788a76ce8ec9e42c7defd" category="list-text">포트 0a는 항상 디스크 쉘프 IOM 포트 1에 연결합니다.</block>
-  <block id="2b903583c4ae425459eed4f57caaa35d" category="paragraph">다음 그림에서는 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 다중 경로 HA 구성을 위한 내부 스토리지 포트(0b) 도메인 연결을 보여 줍니다.</block>
   <block id="d6be80f16b2e703ff33257470dacbcf3" category="image-alt">drw fas2600 mpha 도메인의 예</block>
   <block id="5b19d4f8bb5c1509ddbcb3050340348d" category="section-title">미니 SAS HD SAS 광 케이블 규칙</block>
   <block id="cfabee74f7cf81c29938b44cfcd37eae" category="paragraph">미니 SAS HD-LC HD-LC 커넥터가 있는 미니 SAS HD-to-mini-SAS HD 커넥터와 다중 모드(OM4) 브레이크아웃 케이블이 있는 멀티모드 액티브 광 케이블(AOC) 케이블)을 사용하여 IOM12 모듈이 있는 디스크 선반이 있는 특정 구성에서 장거리 SAS 연결을 달성할 수 있습니다.</block>
@@ -1135,7 +1122,6 @@
   <block id="544c0e56afe20cab7c081a167f90b40d" category="list-text">* 모범 사례:* 가장 좋은 방법은 쉘프를 핫 추가하기 전에 최신 버전의 디스크 검증 패키지(DQP)를 설치하는 것입니다.</block>
   <block id="49499bb4b11cb28cd05725cd5cafadd0" category="paragraph">현재 버전의 DQP를 설치하면 시스템이 새로 인증된 드라이브를 인식하고 사용할 수 있습니다. 이렇게 하면 드라이브가 인식되지 않으므로 최신 드라이브 정보가 없는 경우 및 드라이브 파티셔닝 예방에 대한 시스템 이벤트 메시지가 표시되지 않습니다. 또한 DQP는 최신 버전이 아닌 드라이브 펌웨어에 대해서도 알려줍니다.</block>
   <block id="27ad121f85fccbb2fbae4c00d3c38810" category="inline-link">NetApp 다운로드: 디스크 검증 패키지</block>
-  <block id="1b6d02ae9b640ed72271cd7270a2f643" category="paragraph"><block ref="1b6d02ae9b640ed72271cd7270a2f643" category="inline-link-rx"></block></block>
   <block id="e47dc1184d0b4a889dc672df315a5a19" category="list-text">* 모범 사례: * 가장 좋은 방법은 쉘프를 핫 추가하기 전과 후에 Active IQ Config Advisor를 실행하는 것입니다.</block>
   <block id="160fd79816dd71c8a799efb47ac36361" category="paragraph">쉘프를 핫 추가하기 전에 Active IQ Config Advisor을 실행하면 기존 SAS 연결의 스냅샷을 제공하고, 쉘프(IOM) 펌웨어 버전을 확인하고, 시스템에서 이미 사용 중인 쉘프 ID를 확인할 수 있습니다. 쉘프를 핫 추가한 후 Active IQ Config Advisor를 실행하면 쉘프가 올바로 연결되었는지, 쉘프 ID가 시스템 내에서 고유한지 확인할 수 있습니다.</block>
   <block id="146d395e439d39abc69ffa4b33c098e7" category="list-text">* 모범 사례: * 가장 좋은 방법은 시스템에서 대역 내 ACP(IBACP)를 실행하는 것입니다.</block>
@@ -1270,7 +1256,6 @@
   <block id="f76dc75f678aa69ffe38bc567a89bca0" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 스택 1의 포트 쌍 1a/2b(다중 경로) 및 2a/1d(4중 경로)와 stack2의 포트 쌍 1c/2D(다중 경로) 및 2c/1b(4중 경로)를 사용합니다.</block>
   <block id="1ba62ddf8cca99736a1b554044171b2e" category="image-alt">drw 워크시트 qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
   <block id="bfaf47370d0e0636d466e95dcd0ebeb2" category="image-alt">drw qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
-  <block id="cea3ccc996d16531a1bdc296b2d6851c" category="paragraph">HA 쌍 또는 단일 컨트롤러 구성은 AFF A200, AFF A220, FAS2600 시리즈 또는 FAS2700 시스템이 될 수 없습니다. 이러한 구성 중 하나가 있는 경우 다음을 사용합니다.</block>
   <block id="5976250f174c7aa7423cbb91c458e804" category="list-text">이 절차 및 워크시트 템플릿은 하나 이상의 스택을 사용한 다중 경로 HA 또는 다중 경로 구성을 위한 다중 경로 연결 케이블에 적용할 수 있습니다.</block>
   <block id="8c7e7585bf065649c4ca12e935833b4c" category="paragraph">완성된 워크시트는 다중 경로 HA 및 다중 경로 구성을 위해 제공됩니다.</block>
   <block id="da38645c7fd59844e84034f3e0e006a1" category="list-text">워크시트 서식 파일을 사용하면 최대 6개의 스택을 사용할 수 있으므로 필요한 경우 열을 더 추가해야 합니다.</block>
@@ -1533,7 +1518,6 @@
   <block id="bea8d9a74a333358da573c569f901a16" category="paragraph">디스크 쉘프를 핫 추가한 후에는 스택이 의 규칙을 충족할 수 있도록 스택의 나머지 쉘프-쉘프 연결과 컨트롤러-스택 연결의 경우 SAS 구리 케이블을 교체해야 합니다 <block ref="981073c6c3d6ceff62f8d350a20e9ca2" category="inline-link-macro-rx"></block>. 즉, 적절한 수의 미니 SAS HD SAS 광 케이블을 주문해야 합니다.</block>
   <block id="91d741bb049c9a466853b4ad38bb8ca8" category="paragraph">디스크 쉘프를 핫 추가하기 전에 이 절차에 대한 측면과 모범 사례를 숙지해야 합니다.</block>
   <block id="f0e56e4ad757d6fad89dfcfe1aa12d88" category="paragraph">단일 경로 HA 및 단일 경로 구성의 경우, AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 적용할 수 있으므로 컨트롤러 연결이 없는 스택 맨 끝에 디스크 쉘프를 추가할 수 있습니다.</block>
-  <block id="1367c0042a0771df50820889203cf147" category="paragraph">HA 쌍이 있는 경우 ONTAP는 시스템 구성을 "멀티경로 HA"로 표시합니다. 단일 컨트롤러 구성의 경우 ONTAP는 시스템 구성을 "멀티경로"로 표시합니다.</block>
   <block id="23799cee6c2d33512d5d7c2c4dd066da" category="list-text">이 절차에서는 대역 내 ACP를 사용하는 구성을 가정합니다.</block>
   <block id="0a21ef57c079b8fb55adaac84e5c7dc9" category="paragraph">대역 내 ACP가 활성화된 구성의 경우, 핫 추가된 디스크 쉘프에서 대역 내 ACP가 자동으로 활성화됩니다. 대역 내 ACP가 사용되지 않는 구성의 경우, 핫 추가 디스크 쉘프는 ACP 기능 없이 작동합니다.</block>
   <block id="512350f125bb7245b3fb215fde5ff006" category="list-text">모범 사례는 디스크 쉘프를 핫 추가하기 전에 최신 버전의 DQP(Disk Qualification Package)를 설치하는 것입니다.</block>
@@ -2615,7 +2599,6 @@
   <block id="f6706fbf02796cde0f95e3aa80e2a592" category="section-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
   <block id="e1782167c4ccac91c29c561fbdf9bd10" category="summary">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. PDF 포스터는 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="0336dcab6aaf6e0e6b3e580f2e159ad5" category="doc">설치 및 설정 PDF 포스터 - FAS8200</block>
-  <block id="345a2a62ce004a5b297819af054c9777" category="inline-link-macro">AFF FAS8200 설치 및 설정 지침</block>
   <block id="34aec6eeba64b78b33ad52ec1e1cd899" category="summary">스토리지 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="9d1976464339a2dc5b681ea4cacc276d" category="doc">FAS8200 시스템 설명서</block>
   <block id="d555d8d5b180690f03f434585c90b8d9" category="section-title">1단계: 컨트롤러 모듈을 엽니다</block>
@@ -5397,7 +5380,6 @@
   <block id="63950e6254e665584c6e0a02f9b4388b" category="paragraph"><block ref="63950e6254e665584c6e0a02f9b4388b" category="inline-link-rx"></block></block>
   <block id="d984cda888fb7cc147f7992831f859b5" category="list-text">분리하려는 드라이브가 실패했는지 확인합니다.</block>
   <block id="4b0f11237c7fb298046b87e4e5edf9a0" category="paragraph">'storage disk show-Broken' 명령을 실행하여 드라이브 실패를 확인할 수 있습니다. 오류가 발생한 드라이브가 실패한 드라이브 목록에 나타납니다. 그렇지 않으면 기다린 다음 명령을 다시 실행해야 합니다.</block>
-  <block id="14baf7cbaa5e214a8313f9ae6e6b8214" category="paragraph"><block ref="14baf7cbaa5e214a8313f9ae6e6b8214" category="inline-link-rx"></block></block>
   <block id="487dc73655e4dd592558124d6eac1709" category="list-text">* 모범 사례: * FRU 구성 요소를 교체하기 전에 시스템에 최신 버전의 NVMe 쉘프 모듈(NSM) 펌웨어 및 드라이브 펌웨어를 사용하는 것이 가장 좋습니다.</block>
   <block id="585e085c167dffb4091a9c937b46294a" category="paragraph"><block ref="585e085c167dffb4091a9c937b46294a" category="inline-link-rx"></block></block>
   <block id="10df5509416416659fe58fd40c64d2ec" category="paragraph"><block ref="10df5509416416659fe58fd40c64d2ec" category="inline-link-rx"></block></block>
@@ -6789,9 +6771,7 @@
   <block id="ba0a2d97499e2e560187690f4b54b10c" category="list-text">제거할 디스크 쉘프의 디스크 드라이브에서 모든 애그리게이트(디스크 드라이브는 스페어 드라이브)를 제거해야 합니다.</block>
   <block id="df890e7b6d800ea7f63516f78dc7b333" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예</block>
   <block id="4831f887bab13b0957b607ad184c87f7" category="paragraph"><block ref="4831f887bab13b0957b607ad184c87f7" category="inline-link-macro-rx"></block></block>
-  <block id="fdd0f707bd71fcef53b653ae53e31f53" category="summary">작성된 컨트롤러-스택 케이블링 워크시트와 케이블링 예를 사용하여 AFF 및 FAS 플랫폼을 AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 플랫폼과 같은 온보드 스토리지와 함께 연결할 수 있습니다. 이 정보는 FAS25XX 플랫폼에는 적용되지 않습니다.</block>
   <block id="18e93c7175385ec259f95d9d453bdda1" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결에 대한 자세한 내용은 를 참조하십시오.</block>
-  <block id="67f2d45d4d0936132195fb6f111ce3e8" category="section-title">하나의 다중 쉘프 스택을 통해 다중 경로 HA 구성에서 온보드 스토리지를 제공하는 AFF 및 FAS 플랫폼</block>
   <block id="83742af000bdb059461854fab1a8b606" category="list-text">전원 공급 장치를 다른 효율 등급과 혼합하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="94a2f43b7e5299d436a356db402524cc" category="section-title">3단계: NVRAM 배터리를 교체합니다</block>
   <block id="5f5fd4de9ab7b399342d9b9e721bc6b6" category="section-title">3단계: NVRAM 카드를 분리합니다</block>
@@ -6843,8 +6823,6 @@
   <block id="d2190ca0f2bf90686cb089f6fb2d5e2b" category="paragraph">DS460C 쉘프를 데이터 센터의 다른 부분으로 이동하거나 다른 위치로 전송하는 경우 다음 섹션을 참조하십시오. <block ref="2dfa5cde780121ff739815d2402836cf" category="inline-xref-macro-rx"></block>.</block>
   <block id="1d5287e79870e687badf4e2da0612ad0" category="paragraph">DS460C 쉘프를 데이터 센터의 다른 부분으로 이동하거나 쉘프를 다른 위치로 전송하는 경우, 드라이브 드로어에서 드라이브를 제거하여 드라이브 드로어 및 드라이브가 손상되지 않도록 해야 합니다.</block>
   <block id="c3fdb0812209f286e664a4d0cd47c328" category="list-text">DS460C 쉘프를 새 시스템 설치 또는 쉘프 핫 애드인의 일부로 설치한 경우, 드라이브 패키징 자료를 저장한 경우, 드라이브를 이동하기 전에 이를 사용하여 드라이브를 다시 패키지하십시오.</block>
-  <block id="ba70aeebfd3549f6f01e998eb6dd6e28" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="a8e3f4b75381b375e7ce8abf385604f8" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
-  <block id="4919d15b1a0ddd0c55a729c741fd5005" category="sidebar">온보드 스토리지를 사용한 AFF 및 FAS 플랫폼 케이블 연결 워크시트 및 예</block>
   <block id="9285e5d96d62653cbfc04067e2de249c" category="list-text"><block ref="9285e5d96d62653cbfc04067e2de249c" category="inline-link-macro-rx"></block></block>
   <block id="cff7366c4191a9dd1698e3fd38e5acaf" category="sidebar">NVRAM 모듈 또는 NVRAM DIMM</block>
   <block id="dbe0afeaa91b9a08168e98b33a4c7de8" category="admonition">케이블을 분리한 후 다시 연결하는 데 70초 이상 기다려야 하며, 케이블을 더 오래 교체할 경우</block>
@@ -7231,7 +7209,6 @@
   <block id="5d2249930d4d6f285a5ccc70c9734de6" category="inline-link">애그리게이트 확장 워크플로우</block>
   <block id="fcdebdb1f4c79cc7a93d9f17744521c5" category="paragraph"><block ref="fcdebdb1f4c79cc7a93d9f17744521c5" category="inline-link-rx"></block></block>
   <block id="87e222a1917be35f082aeb99501e10ca" category="doc">IOM12/IOM12B 모듈을 사용하여 DS460C 디스크 쉘프 쉘프의 디스크 드라이브를 핫 스왑합니다</block>
-  <block id="85085227e7191ff5201df5ab0dba828e" category="doc">IOM12/IOM12B 모듈이 포함된 온보드 스토리지-선반이 있는 AFF 및 FAS 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예</block>
   <block id="3cf53d4c9bda935f2527cd9e3072ef82" category="sidebar">IOM12/IOM12B 모듈</block>
   <block id="c495d94f32f50365b375a20870280fde" category="sidebar">IOM12/IOM2B 모듈 설치 및 케이블이 있는 선반</block>
   <block id="932dcd191a61980121848404f3579ffb" category="sidebar">IOM12/IOM12B 모듈이 장착된 셸프가 유지됩니다</block>
@@ -7353,4 +7330,30 @@
   <block id="fe673aff2ce9eb5c6eaf841f4ec88b30" category="sidebar">AFF A900 부트 미디어</block>
   <block id="6cff7e5493433d24015d6ef5a8566b38" category="sidebar">AFF A900 섀시</block>
   <block id="7d1c80f318f9bf16deac2495abe88a7e" category="sidebar">AFF A900 컨트롤러 모듈</block>
+  <block id="2014d8b66b0e05fba286f79c1c8aac17" category="admonition">자동 반환을 비활성화하시겠습니까?_가 표시되면 'y'를 입력합니다.</block>
+  <block id="f80b45f73e8b653fc036922e438eff9e" category="inline-link-macro">FAS8200 설치 및 설정 지침</block>
+  <block id="ca2e2999fd16933cd908b9c9e44161d0" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="666c6c27ec3878a6b3f3c3cb24d10587" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
+  <block id="0e1569786cd5c99315511da0d9e3f2aa" category="admonition">시스템이 부팅 메뉴에서 중지되면 "노드 재부팅" 옵션을 선택하고 메시지가 표시되면 y를 선택한 다음 "Ctrl-C"를 눌러 로더로 부팅합니다.</block>
+  <block id="6f0e65a313ceda26ae3094641da52d2e" category="paragraph"><block ref="6f0e65a313ceda26ae3094641da52d2e" category="inline-link-rx"></block></block>
+  <block id="e789db57588c567cf162bf2f8ec8b65e" category="paragraph">FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220을 포함한 내부 스토리지가 있는 플랫폼이 있는 경우 이후 버전에서는 다음과 같이 하십시오(이러한 플랫폼은 고유한 워크시트를 사용합니다).</block>
+  <block id="f5d03e0aa6d32340b1284f6bb82c8ee3" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 내부 스토리지가 있는 플랫폼의 케이블 연결 예</block>
+  <block id="c19123e6031c139d66f534ae4311d605" category="paragraph"><block ref="c19123e6031c139d66f534ae4311d605" category="inline-link-macro-rx"></block></block>
+  <block id="9f5ac9f9e33d14b5edcf142aa6534de3" category="paragraph">IOM12 모듈이 포함된 디스크 쉘프는 특정 유형의 HA Pair 및 단일 컨트롤러 구성에서 지원됩니다.</block>
+  <block id="a02316bb16a44dfeab4bba0330def5a9" category="admonition">FAS25XX 플랫폼은 이 콘텐츠에 포함되지 않습니다.</block>
+  <block id="f18e20acd27581fe2f1075089d65a455" category="list-text">FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220을 포함한 내부 스토리지가 있는 플랫폼 이후 케이블을 단일 경로 HA 구성으로 연결하여 외부 SAS 테이프 백업 장치에 연결할 수 있습니다.</block>
+  <block id="c47a6f7fbf347f2ab09e05ad80c1fc30" category="list-text">FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220을 포함한 내부 스토리지가 있는 플랫폼 이후 버전에서는 4중 경로 HA 연결을 지원하지 않습니다.</block>
+  <block id="dee118410b7e171b0f510cb87be443b7" category="paragraph">SAS 디스크 쉘프가 소프트웨어 기반 디스크 소유권을 사용하고 컨트롤러 포트 A/C 및 B/D를 스택에 연결하는 방법, 컨트롤러 포트 A/C 및 B/D를 사용하는 것을 이해함으로써 각 컨트롤러에서 HA 쌍 또는 단일 컨트롤러 구성으로 각 스택에 대한 SAS 연결을 올바르게 연결할 수 있습니다. 컨트롤러 포트 A/C 및 B/D가 포트 쌍으로 구성되는 방식 및 내부 스토리지가 있는 플랫폼에서 컨트롤러 포트가 스택에 연결되는 방식</block>
+  <block id="8018a1e3a70e95fa6594f859c3232987" category="section-title">컨트롤러 A 및 C 포트 연결 규칙(내부 스토리지가 없는 플랫폼용)</block>
+  <block id="91be64cf601d5c3cea92700e0feb259b" category="section-title">컨트롤러 B 및 D 포트 연결 규칙(내부 스토리지가 없는 플랫폼의 경우)</block>
+  <block id="53de5403d00811e5f44fb1b9f62019a4" category="section-title">포트 쌍 연결 규칙(내부 스토리지가 없는 플랫폼용)</block>
+  <block id="0ce2d44d1215d0431e0b46ed686dd560" category="section-title">내부 스토리지가 있는 플랫폼에 대한 컨트롤러 0b 및 0a 포트 연결 규칙</block>
+  <block id="0c574ecb6a58bb92327391af7cfd84d2" category="paragraph">FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220을 포함한 내부 스토리지가 있는 플랫폼 이후 버전에서는 각 컨트롤러가 내부 스토리지(포트 0b)와 스택 간에 동일한 도메인 연결을 유지해야 하므로 고유한 연결 규칙 세트가 있습니다. 즉, 컨트롤러가 섀시(컨트롤러 1)의 슬롯 A에 있으면 도메인 A(IOM A)에 있으므로 포트 0b는 스택의 IOM A에 연결해야 합니다. 컨트롤러가 섀시(컨트롤러 2)의 슬롯 B에 있는 경우 컨트롤러는 도메인 B(IOM B)에 있으므로 포트 0b는 스택의 IOM B에 연결해야 합니다.</block>
+  <block id="27858a1c4654311bc60fbcd9494b2c3e" category="admonition">FAS25XX 플랫폼은 이 콘텐츠에 포함되지 않습니다.</block>
+  <block id="06da34e55ca27b5fa072a7b523991230" category="paragraph">다음 그림에서는 FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220 및 이후 다중 경로 HA 구성을 위한 내부 스토리지 포트(0b) 도메인 연결을 보여 줍니다.</block>
+  <block id="0fdd3a9de120fbacd6c04d73ee6832df" category="summary">완성된 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예를 사용하여 FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220 등의 내부 스토리지를 포함한 케이블 플랫폼을 연결할 수 있습니다. 있습니다.</block>
+  <block id="bb42dbb13759e9df73ffa74412e3548a" category="doc">IOM12/IOM12B 모듈이 포함된 내부 저장 선반 플랫폼의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예</block>
+  <block id="424f2fdac9e61f7b7785b602da677d00" category="admonition">이 정보는 FAS25XX 플랫폼에는 적용되지 않습니다.</block>
+  <block id="4efb7705f98005596f065e30ddf32363" category="section-title">다중 경로 HA 구성에서 내부 스토리지를 갖춘 플랫폼 및 다중 쉘프 스택 1개</block>
+  <block id="835ecba5eb095440eda54c2f50f1ef89" category="paragraph">HA 쌍이 있는 경우 ONTAP는 시스템 구성을 '멀티경로 HA'로 표시합니다. 단일 컨트롤러 구성의 경우 ONTAP는 시스템 구성을 '멀티경로'로 표시합니다.</block>
+  <block id="3f9904dabd6885ddf815902aade7d320" category="sidebar">내부 스토리지가 있는 플랫폼의 케이블 연결 워크시트 및 예</block>
 </blocks>

@@ -72,7 +72,7 @@ NOTE: 자기장은 디스크 드라이브의 모든 데이터를 파괴하고 �
 현재 버전의 DQP를 설치하면 시스템이 새로 검증된 디스크 드라이브를 인식하고 활용할 수 있으므로, 최신 디스크 드라이브 정보가 없는 시스템 이벤트 메시지를 방지할 수 있습니다. 또한 디스크 드라이브를 인식할 수 없으므로 디스크 파티셔닝의 가능성을 방지할 수 있습니다. 또한 DQP는 현재 디스크 드라이브 펌웨어가 아닌 경우 이를 알려줍니다.
 
 +
-https://mysupport.netapp.com/NOW/download/tools/diskqual/["NetApp 다운로드: 디스크 검증 패키지"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["NetApp 다운로드: 디스크 검증 패키지"^]
 
 * 모범 사례는 새 디스크 쉘프, 쉘프 FRU 구성요소 또는 SAS 케이블을 추가하기 전에 현재 버전의 디스크 쉘프(IOM) 펌웨어 및 디스크 드라이브 펌웨어를 시스템에 추가하는 것입니다.
 +

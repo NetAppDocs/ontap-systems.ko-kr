@@ -42,7 +42,7 @@ NOTE: 드라이브 유형 및 용량에 따라 장애가 발생한 드라이브 
 현재 버전의 DQP를 설치하면 시스템이 새로 인증된 드라이브를 인식하고 사용할 수 있습니다. 이렇게 하면 드라이브가 인식되지 않으므로 최신 드라이브 정보가 없는 경우 및 드라이브 파티셔닝 예방에 대한 시스템 이벤트 메시지가 표시되지 않습니다. 또한 DQP는 최신 버전이 아닌 드라이브 펌웨어에 대해서도 알려줍니다.
 
 +
-https://mysupport.netapp.com/NOW/download/tools/diskqual/["NetApp 다운로드: 디스크 검증 패키지"^]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["NetApp 다운로드: 디스크 검증 패키지"^]
 
 * * 모범 사례: * FRU 구성 요소를 교체하기 전에 시스템에 최신 버전의 NVMe 쉘프 모듈(NSM) 펌웨어 및 드라이브 펌웨어를 사용하는 것이 가장 좋습니다.
 +

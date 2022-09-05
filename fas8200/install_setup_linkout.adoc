@@ -10,4 +10,4 @@ summary: PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 �
 :imagesdir: ../media/
 
 
-PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2316769["AFF FAS8200 설치 및 설정 지침"] 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.
+PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2316769["FAS8200 설치 및 설정 지침"] 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.
