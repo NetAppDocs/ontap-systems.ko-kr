@@ -315,8 +315,8 @@ image::../media/drw_affa250_fc_host_cabling.png[drw affa250 fc 호스트 케이�
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-* <<Option 2: Cable to a 25GbE data or host network>>
-* <<Option 3: Cable the controllers to a single drive shelf>>
+*  2: Cable to a 25GbE data or host network
+*  3: Cable the controllers to a single drive shelf
 
 
 
@@ -361,8 +361,8 @@ image::../media/drw_affa250_25gbe_host_cabling.png[drw affa250 25GbE 호스트 �
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-* <<Option 1: Cable to a Fibre Channel host network>>
-* <<Option 3: Cable the controllers to a single drive shelf>>
+*  1: Cable to a Fibre Channel host network
+*  3: Cable the controllers to a single drive shelf
 
 
 

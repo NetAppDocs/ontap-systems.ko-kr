@@ -312,8 +312,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-* <<Option 2: Cable to a 25GbE data or host network>>
-* <<Option 3: Cable the controllers to a single drive shelf>>
+*  2: Cable to a 25GbE data or host network
+*  3: Cable the controllers to a single drive shelf
 
 
 
@@ -356,8 +356,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-* <<Option 1: Cable to a Fibre Channel host network>>
-* <<Option 3: Cable the controllers to a single drive shelf>>
+*  1: Cable to a Fibre Channel host network
+*  3: Cable the controllers to a single drive shelf
 
 
 

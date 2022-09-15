@@ -16,9 +16,9 @@ OKM, NSE 또는 NVE 구성을 복원하는 데 사용할 섹션을 결정합니�
 
 NSE 또는 NVE를 온보드 키 관리자와 함께 사용할 경우 이 절차를 시작할 때 캡처한 설정을 복원해야 합니다.
 
-* NSE 또는 NVE가 활성화되고 온보드 키 관리자가 활성화된 경우 로 이동합니다 <<Option 1: Restore NVE or NSE when Onboard Key Manager is enabled>>.
-* NSE 또는 NVE가 ONATP 9.5에 대해 활성화된 경우 로 이동합니다 <<Option 2: Restore NSE/NVE on systems running ONTAP 9.5 and earlier>>.
-* NSE 또는 NVE가 ONTAP 9.6에 대해 활성화된 경우 로 이동합니다 <<Option 3: Restore NSE/NVE on systems running ONTAP 9.6 and later>>.
+* NSE 또는 NVE가 활성화되고 온보드 키 관리자가 활성화된 경우 로 이동합니다  1: Restore NVE or NSE when Onboard Key Manager is enabled.
+* NSE 또는 NVE가 ONATP 9.5에 대해 활성화된 경우 로 이동합니다  2: Restore NSE/NVE on systems running ONTAP 9.5 and earlier.
+* NSE 또는 NVE가 ONTAP 9.6에 대해 활성화된 경우 로 이동합니다  3: Restore NSE/NVE on systems running ONTAP 9.6 and later.
 
 
 

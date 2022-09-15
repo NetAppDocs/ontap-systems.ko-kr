@@ -273,7 +273,7 @@ image::../media/oie_legend_icon_4_dr.png[OIE 범례 아이콘 4 DR]
 image:../media/oie_cable_sfp_gbe_copper.png[""]
 
 |===
-. 저장 장치에 케이블을 연결하려면 를 참조하십시오 <<Step 4: Cable controllers to drive shelves>>.
+. 저장 장치에 케이블을 연결하려면 를 참조하십시오  4: Cable controllers to drive shelves.
 
 
 
@@ -353,7 +353,7 @@ image::../media/oie_legend_icon_4_dr.png[OIE 범례 아이콘 4 DR]
 image:../media/oie_cable_sfp_gbe_copper.png[""]
 
 |===
-. 저장 장치에 케이블을 연결하려면 를 참조하십시오 <<Step 4: Cable controllers to drive shelves>>.
+. 저장 장치에 케이블을 연결하려면 를 참조하십시오  4: Cable controllers to drive shelves.
 
 
 
@@ -420,7 +420,7 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 
 |===
 +
-.. 시스템 설정을 완료하려면 을 참조하십시오 <<Step 5: Complete system setup and configuration>>.
+.. 시스템 설정을 완료하려면 을 참조하십시오  5: Complete system setup and configuration.
 
 
 
@@ -489,7 +489,7 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 100GbE 케이블
 
 |===
-. 시스템 설정을 완료하려면 을 참조하십시오 <<Step 5: Complete system setup and configuration>>.
+. 시스템 설정을 완료하려면 을 참조하십시오  5: Complete system setup and configuration.
 
 
 

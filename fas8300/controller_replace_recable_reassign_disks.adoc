@@ -47,14 +47,14 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
  a| 
 HA 쌍
  a| 
-<<Option 1: Verify the system ID change on an HA system>>]
+ 1: Verify the system ID change on an HA system]
 
 
 
  a| 
 2노드 MetroCluster 구성
  a| 
-<<Option 2: Manually reassign the system ID on systems in a two-node MetroCluster configuration>>
+ 2: Manually reassign the system ID on systems in a two-node MetroCluster configuration
 
 |===
 

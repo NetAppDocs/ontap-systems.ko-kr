@@ -237,7 +237,7 @@ video::7a55b98a-e8b8-41d5-821f-ac5b0032ead0[panopto]
 
 image::../media/drw_9000_TNSC_composite_cabling.png[drw 9000 TNSC 복합 케이블 연결]
 
-. 로 이동합니다 <<Step 4: Cable controllers to drive shelves>> 드라이브 쉘프 케이블링 지침:
+. 로 이동합니다  4: Cable controllers to drive shelves 드라이브 쉘프 케이블링 지침:
 
 
 
@@ -265,7 +265,7 @@ video::6381b3f1-4ce5-4805-bd0a-ac5b0032f51d[panopto]
 
 image:../media/drw_9000_switched_cluster_cabling.png[""]
 
-. 로 이동합니다 <<Step 4: Cable controllers to drive shelves>> 드라이브 쉘프 케이블링 지침:
+. 로 이동합니다  4: Cable controllers to drive shelves 드라이브 쉘프 케이블링 지침:
 
 
 
@@ -324,7 +324,7 @@ link:..https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html[
 +
 image:../media/Cable_shelves_new_system_IOM12_shelves.png[""]
 
-. 로 이동합니다 <<Step 5: Complete system setup and configuration>> 시스템 설치 및 구성을 완료합니다.
+. 로 이동합니다  5: Complete system setup and configuration 시스템 설치 및 구성을 완료합니다.
 
 
 
@@ -360,7 +360,7 @@ image::../media/drw_ns224_a700_1shelf.png[drw ns224 a700 1쉘프]
 +
 image::../media/single_NS224_shelf.png[단일 NS224 쉘프]
 
-. 로 이동합니다 <<Step 5: Complete system setup and configuration>> 시스템 설치 및 구성을 완료합니다.
+. 로 이동합니다  5: Complete system setup and configuration 시스템 설치 및 구성을 완료합니다.
 
 
 
@@ -396,7 +396,7 @@ image::../media/drw_ns224_a700_2shelves.png[drw ns224 a700 2쉘프]
 +
 image::../media/two_NS224_shelves.png[NS224 선반 2개]
 
-. 로 이동합니다 <<Step 5: Complete system setup and configuration>> 시스템 설치 및 구성을 완료합니다.
+. 로 이동합니다  5: Complete system setup and configuration 시스템 설치 및 구성을 완료합니다.
 
 
 

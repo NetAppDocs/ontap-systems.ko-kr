@@ -3514,14 +3514,8 @@
   <block id="c651d2f010c85fa1c8605da5e127657e" category="paragraph"><block ref="c651d2f010c85fa1c8605da5e127657e" category="inline-link-macro-rx"></block></block>
   <block id="71bdc94f19d5947bd1cb6d437f119ba2" category="inline-link-macro">FAS8000 시리즈 문서</block>
   <block id="2b3a51bca746a221bf4a0af6d3098ccf" category="paragraph"><block ref="2b3a51bca746a221bf4a0af6d3098ccf" category="inline-link-macro-rx"></block></block>
-  <block id="f739ddc76de0a287d2c0b563d814e953" category="inline-link-macro">FAS6200 시리즈 문서</block>
-  <block id="e9631782eda247a09ad2e090180b8c23" category="paragraph"><block ref="e9631782eda247a09ad2e090180b8c23" category="inline-link-macro-rx"></block></block>
-  <block id="f7c466bdf55160e7ccabf40d2020dad0" category="inline-link-macro">FAS3200 시리즈 설명서</block>
-  <block id="d710040b8ac876a0da7dc8e847bb40ee" category="paragraph"><block ref="d710040b8ac876a0da7dc8e847bb40ee" category="inline-link-macro-rx"></block></block>
   <block id="c7e39e875a3a875d9445eace0794b0f5" category="inline-link-macro">FAS2500 시리즈 문서</block>
   <block id="ebc5a75e4df8077b15f7cef6c123c7db" category="paragraph"><block ref="ebc5a75e4df8077b15f7cef6c123c7db" category="inline-link-macro-rx"></block></block>
-  <block id="3c0f93dc3f40f9ea0aef607cee8d55b1" category="inline-link-macro">FAS2200 시리즈 문서</block>
-  <block id="1da789723077cd18e287167bf56d9b2e" category="paragraph"><block ref="1da789723077cd18e287167bf56d9b2e" category="inline-link-macro-rx"></block></block>
   <block id="dc562a84ed096c677cedf44a7c5df0bf" category="inline-link-macro">DS2246 디스크 쉘프 문서</block>
   <block id="dd26152c70d312482c21516c3889b669" category="paragraph"><block ref="dd26152c70d312482c21516c3889b669" category="inline-link-macro-rx"></block></block>
   <block id="06df42750628898d4d9028ca8a299fb0" category="inline-link-macro">DS4486 디스크 쉘프 설명서</block>
@@ -6668,7 +6662,6 @@
   <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
   <block id="de2d1282e102972a6af003781e9a5c02" category="paragraph">_SLDIAG: 로그 메시지가 없습니다. _</block>
   <block id="3f91c59c59a1243cb3f176daf3c9c054" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
-  <block id="eb90dbf89cffd9812a8720d277f30583" category="summary">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다.</block>
   <block id="0f40216c1ad47c12e8ccc087d555570f" category="sidebar">ONTAP 릴리즈 노트</block>
   <block id="c0a1a3a5bc62ecf46953d4c7ebde86a7" category="section-title">6단계: (2노드 MetroCluster만 해당): 애그리게이트로 전환</block>
   <block id="af844de12c61a1b2d86c05934c317256" category="summary">플랫폼에서 드라이브 실패를 나타내는 경고 메시지를 시스템 콘솔에 기록할 때 드라이브를 교체해야 합니다. 또한, 작동 디스플레이 패널의 오류 LED와 고장 드라이브의 오류 LED가 모두 켜집니다.</block>
@@ -6848,7 +6841,6 @@
   <block id="a31ab93f41516026d249aceb633bccc3" category="doc">I/O 모듈 FAS9500을 추가합니다</block>
   <block id="133808c24f6fb32a9a2a58ed28150498" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 NIC 또는 SAS 스토리지 셸프용 스토리지 모듈로 추가할 수 있습니다.</block>
   <block id="ff231ca484e594004f4ca93ecfa6683e" category="paragraph">콘솔 연결에서는 테이크오버가 완료되면 노드가 로더 프롬프트로 드롭됩니다.</block>
-  <block id="2a5cd1f850ee79601be57448f10d9595" category="list-text">LOADER 프롬프트에서 노드를 재부팅합니다. _bye_</block>
   <block id="4d3b1425bbd62943a546a9f98dc3b7ef" category="list-text">파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다</block>
   <block id="6f8193ca6bfb281db32afbcc9e285f79" category="inline-link">SAS 쉘프 핫 추가</block>
   <block id="9856beabcb389225df78cec96e74e365" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 SAS 쉘프를 설치하고 케이블을 연결합니다<block ref="322cc377ef41f5776a1c64690e12c49b" category="inline-link-rx"></block>.</block>
@@ -7356,4 +7348,8 @@
   <block id="4efb7705f98005596f065e30ddf32363" category="section-title">다중 경로 HA 구성에서 내부 스토리지를 갖춘 플랫폼 및 다중 쉘프 스택 1개</block>
   <block id="835ecba5eb095440eda54c2f50f1ef89" category="paragraph">HA 쌍이 있는 경우 ONTAP는 시스템 구성을 '멀티경로 HA'로 표시합니다. 단일 컨트롤러 구성의 경우 ONTAP는 시스템 구성을 '멀티경로'로 표시합니다.</block>
   <block id="3f9904dabd6885ddf815902aade7d320" category="sidebar">내부 스토리지가 있는 플랫폼의 케이블 연결 워크시트 및 예</block>
+  <block id="e3fd55f400cc227fbbc7c777c0679db1" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
+  <block id="c51e6cbbe594b20461edba0d83817fce" category="list-text">BMC를 재부팅한 다음 노드를 재부팅합니다.</block>
+  <block id="e727b00944f81e1d0a95c12886ac4641" category="inline-link-macro">아카이브</block>
+  <block id="97a6415da8202d0321d49b92f019e7b1" category="paragraph">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다. 하드웨어 지원 끝에 도달한 AFF 및 FAS 시스템에 대한 문서는 에서 고객이 사용할 수 있습니다 <block ref="5e4606a12c7b193a6ccb23ff349575d7" category="inline-link-macro-rx"></block>.</block>
 </blocks>
