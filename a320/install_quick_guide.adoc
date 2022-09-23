@@ -15,4 +15,4 @@ summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2853946["AFF A320 시스템 설치 및 설정 지침"]
+link:../media/PDF/215-14058_A0_A320_ISI.pdf["AFF A320 설치 및 설정 지침"^]

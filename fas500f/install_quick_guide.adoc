@@ -15,7 +15,7 @@ summary: 이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-* 영어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2872833["FAS500f 설치 및 설정 지침"^]
+* 영어: link:../media/PDF/215-15055_2020_11_en-us_FAS500f_ISI.pdf["FAS500f 설치 및 설정 지침"^]
 * 일본어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2874807["FAS500f 시스템 설치 및 설정 지침"^]
 * 중국어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2874808["FAS500f 시스템 설치 및 설정 지침"^]
 

@@ -15,6 +15,6 @@ summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2873445["AFF A700 설치 및 설정 지침"]
+link:../media/PDF/215-15082_2020-11_en-us_AFFA700_FAS9000_LAT_ISI.pdf["AFF A700 설치 및 설정 지침"^]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2874463["FAS9000 설치 및 설정 지침"]
+link:../media/PDF/215-15154_2020-12_en-us_FAS9000_ISI.pdf["FAS9000 설치 및 설정 지침"^]

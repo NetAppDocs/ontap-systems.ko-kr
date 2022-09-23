@@ -604,8 +604,6 @@
   <block id="24718eccce3cd133d143bec81426275c" category="list-text">시스템 ID 불일치 및 시스템 ID 재정의를 요청하는 프롬프트 경고.</block>
   <block id="3125087114c2490b7c6800800a39a990" category="summary">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="8a20c268704bf24640a88346ca257e3e" category="doc">빠른 단계 - AFF C190</block>
-  <block id="0e976cfcc1b2e9eac14c2a85a2af912b" category="inline-link-macro">AFF C190 시스템 설치 및 설정 지침</block>
-  <block id="bee540306d8719a7dd6a93184e6e4d86" category="paragraph">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="bae4385e599409430f11ef78df732c82" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="11ecaa8360379504a6aba6752c5f87ed" category="summary">부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.</block>
   <block id="cc36390de0e6f5128a70841fe11c7e73" category="doc">부팅 미디어 교체 - AFF C190</block>
   <block id="2539aecd37c66635374c3189de97ba14" category="paragraph">부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.</block>
@@ -2301,8 +2299,6 @@
   <block id="a5f08fde11dbf730684ed691fc182e15" category="summary">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.</block>
   <block id="3e3ba2d775216becefab028bffec753a" category="doc">빠른 가이드 - AFF A320</block>
   <block id="350cd17d7031de85301f98a531f45f4c" category="paragraph">설치 및 설정 지침_PDF 포스터에 액세스합니다.</block>
-  <block id="dec6a1059fef7846f11606837d66ab54" category="inline-link">AFF A320 시스템 설치 및 설정 지침</block>
-  <block id="6b59b1ed1da90d67a9669493c83f5dbe" category="paragraph"><block ref="6b59b1ed1da90d67a9669493c83f5dbe" category="inline-link-rx"></block></block>
   <block id="611cf47f3569074932e1d1554c9dcfdd" category="doc">장애가 발생한 부품을 NetApp-AFF A320으로 되돌립니다</block>
   <block id="f18d3ce1458eacbbf20206e503ce6dcf" category="doc">DIMM-AFF A320을 교체합니다</block>
   <block id="5beb49709902306e7264c7704117a827" category="section-title">3단계: 시스템 DIMM을 교체합니다</block>
@@ -2900,7 +2896,6 @@
   <block id="c2a9feacea3374ba5c6052aaa36c24d5" category="list-text">'Storage failover modify' 명령을 사용하여 사용하지 않도록 설정한 경우 자동 반환 복구</block>
   <block id="a042d62f38b129b2b0a14f9ad8ef93fa" category="doc">설치 및 설정 PDF 포스터 - AFF A700s</block>
   <block id="a6f8184cf42c02441138be75b0c4c9da" category="inline-link-macro">AFF A700s 설치 및 설정 지침</block>
-  <block id="b4ddf9d759f084ba25e7c363dcfcd65e" category="paragraph"><block ref="b4ddf9d759f084ba25e7c363dcfcd65e" category="inline-link-macro-rx"></block></block>
   <block id="08b1c3ca7a11560dc5469640d0575de2" category="summary">AFF A700s 시스템 설명서를 사용하면 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="12fa8b293937af24714101545edb706a" category="doc">AFF A700s 시스템 설명서</block>
   <block id="d9119345c9a007e36472326a6510319b" category="section-title">2단계: NVRAM 카드를 이동합니다</block>
@@ -3279,7 +3274,6 @@
   <block id="ef4c4a16058180d2b1384df9210877f6" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 교체 컨트롤러 모듈을 섀시에 설치할 수 있습니다.</block>
   <block id="e3a2cdbe22ad29e03fbebb6c1261ed15" category="doc">빠른 가이드 - AFF A400</block>
   <block id="34a75c3c3d31678dc9bc82fd2d547569" category="inline-link">AFF A400 설치 및 설정 지침</block>
-  <block id="6a31f53ac6bcbf967fd4f6d12d604380" category="paragraph"><block ref="6a31f53ac6bcbf967fd4f6d12d604380" category="inline-link-rx"></block></block>
   <block id="170df6d027f1af0af09f17faa2ab6d64" category="doc">부팅 미디어 교체 - AFF A400</block>
   <block id="c98df33d69df5ef2c70238c6ec12241c" category="doc">DIMM-AFF A400을 교체합니다</block>
   <block id="7fafe988a2b8e22f676e4c8546dc2c17" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 시스템 DIMM을 교체할 수 있습니다.</block>
@@ -3345,8 +3339,6 @@
   <block id="e85e66f99bf70a0cd52615d346aa4f9f" category="paragraph"><block ref="e85e66f99bf70a0cd52615d346aa4f9f" category="inline-link-macro-rx"></block></block>
   <block id="6abcd38b98db86440d4e33f853945773" category="doc">전체 시스템 복원 - FAS2600</block>
   <block id="f8775be935fb9d9effeb8c290b2531ef" category="doc">설치 및 설정 PDF 포스터 - FAS2600</block>
-  <block id="cdc94270d32a037fc80536b1ce6a1948" category="inline-link-macro">AFF FAS2600 설치 및 설정 지침</block>
-  <block id="352c7fcaa0834bc994a6cf4d8953c111" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="5dc38b4c94702b8e594dd848db91e158" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="1f747d7a59e4bce713446ceffc970c2d" category="doc">FAS2600 시스템 설명서</block>
   <block id="5b9bf9643d348558871bac7550eb6bf2" category="inline-link-macro">AFF FAS2600 컨트롤러 교체 비디오</block>
   <block id="bfc5f4fff0a27940b1f4676800d974c4" category="paragraph"><block ref="bfc5f4fff0a27940b1f4676800d974c4" category="inline-link-macro-rx"></block></block>
@@ -3486,7 +3478,6 @@
   <block id="3b0a912063aa2a9d7f280a370d140403" category="summary">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="8e4df4f91c6c51fc9f3abb5c8031333c" category="doc">빠른 가이드 - AFF A220 및 FAS2700</block>
   <block id="9b84aee1c6149b8506044c563e4a3178" category="inline-link">AFF A220/FAS2700 시스템 설치 및 설정 지침</block>
-  <block id="81de09167d66dad47ae2c7fcbd20a82e" category="paragraph"><block ref="81de09167d66dad47ae2c7fcbd20a82e" category="inline-link-rx"></block></block>
   <block id="066c0a2f133fb39e8887805ab2dd11a0" category="doc">부팅 미디어(AFF A220 및 FAS2700)를 교체합니다</block>
   <block id="c4de84ea78d221e98599baf30d3e65d1" category="doc">DIMM-AFF A220 및 FAS2700을 교체합니다</block>
   <block id="376b1cae869bbe8ab1cce68fdb30b696" category="inline-link-macro">DIMM을 교체합니다</block>
@@ -3676,12 +3667,9 @@
   <block id="99c63b9bf884dd51a946aceee88a56e0" category="paragraph">장애가 발생한 컨트롤러 모듈에서 교체 컨트롤러 모듈로 모든 구성 요소를 이동한 후에는 교체 컨트롤러 모듈을 섀시에 설치하고 유지보수 모드로 부팅해야 합니다.</block>
   <block id="7d9036d60bbca8f733402060d735f7ba" category="summary">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.</block>
   <block id="b0e69a1b113b20966641e48d3d36e788" category="doc">빠른 단계 - AFF A800</block>
-  <block id="85d1ffd9f4e349440b69cef9b8b49607" category="inline-link-macro">AFF A800 시스템 설치 및 설정 지침</block>
-  <block id="6c128b420b40978f9694a86a2a019225" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="544c1dcefcbf1c60081e6f3087a7138d" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="34cf3a43d39d8b0acc65bd578d7188da" category="doc">부팅 미디어 교체 - AFF A800</block>
   <block id="9194957b9ba15b1fae65a0f5a08ad128" category="doc">DIMM-AFF A800을 교체합니다</block>
   <block id="ef9f4e0c500a9033e3ecc6ac2bea9386" category="section-title">3단계: DIMM을 교체합니다</block>
-  <block id="ff2cabdfad197ecc54cac7ac5edf88bc" category="paragraph">DIMM을 교체하려면 공기 덕트 상단의 DIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 DIMM을 찾거나 DIMM 옆의 LED를 사용하여 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
   <block id="0bbcf96a7a6e1bb2c80b14750507eac7" category="list-text">DIMM을 분리할 때 해당 라이저에서 잠금 래치를 푼 다음 라이저를 분리합니다.</block>
   <block id="fa798a18ec151c4f13a254075e708834" category="image-alt">drw A800 DIMM 교체</block>
   <block id="c21d766079506ca0395f0d5206836fde" category="paragraph">라이저 1 및 DIMM 뱅크 1 및 3-6</block>
@@ -3752,7 +3740,6 @@
   <block id="31681f3abbed1ceeaf397023a488e2e2" category="section-title">2단계: 부팅 미디어 교체 - AFF A300</block>
   <block id="e63d72ed0cd02fd6dc373efe52370adf" category="doc">설치 및 설정 PDF 포스터 - AFF A300</block>
   <block id="26fa42b1e179247a86e500fd0bdc576c" category="inline-link-macro">AFF A300 설치 및 설정 지침</block>
-  <block id="de38759ef2dc6f4060b3cdf31f980e53" category="paragraph"><block ref="de38759ef2dc6f4060b3cdf31f980e53" category="inline-link-macro-rx"></block></block>
   <block id="8394191e21f04380d08fe40ae8199691" category="summary">섀시를 교체하려면 컨트롤러를 종료해야 합니다. 이 절차는 중단을 따릅니다. 2노드 클러스터의 경우, 다중 노드 클러스터의 서비스 중단이 완전히 완료되고 부분 중단이 발생할 것입니다.</block>
   <block id="a5c7a7f72206c6b63d2ec6de862b1cfd" category="doc">컨트롤러 종료 - AFF A300</block>
   <block id="c1835b78219bf98dc8901ba1eb56866b" category="paragraph">섀시를 교체하기 전에 컨트롤러를 종료해야 합니다.</block>
@@ -4020,9 +4007,7 @@
   <block id="3bf4c288b20a882f54f61cd8cb0618a7" category="section-title">6단계: 스토리지 및 볼륨 암호화 기능 복원</block>
   <block id="272ee5e46e5ef6e3dc91121b76104026" category="doc">빠른 단계 - AFF A700 및 FAS9000</block>
   <block id="e03aee19ca3d6bfae73287d53384458b" category="inline-link">AFF A700 설치 및 설정 지침</block>
-  <block id="2a451873dac0e974133609a3ebd4bfa2" category="paragraph"><block ref="2a451873dac0e974133609a3ebd4bfa2" category="inline-link-rx"></block></block>
   <block id="123ef787b4689ac71f6faa1ecdb5c6c4" category="inline-link">FAS9000 설치 및 설정 지침</block>
-  <block id="c764ea98e97a23ddf4166615b9e79a95" category="paragraph"><block ref="c764ea98e97a23ddf4166615b9e79a95" category="inline-link-rx"></block></block>
   <block id="31c229194fbba5100585e996a59e1ef4" category="doc">부팅 미디어 AFF A700 및 FAS9000을 교체합니다</block>
   <block id="52ca5a52198c80398dfe6a706737b20e" category="paragraph">"image_xxx.tgz"를 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.</block>
   <block id="f7738a24d9355b95820a5116baee7814" category="list-text">무중단 교체를 위해 HA 쌍에서는 'var' 파일 시스템을 복구하기 위해 네트워크에 연결할 필요가 없습니다. 단일 섀시의 HA 쌍에는 내부 e0S 연결이 있는데, 이 연결을 사용하여 서로 'var' 구성을 전송할 수 있습니다.</block>
@@ -4260,7 +4245,6 @@
   <block id="52a264f83e80026af9b21b4d57f0db5a" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 DIMM을 교체합니다.</block>
   <block id="4dc151f1789db92d7721706161168644" category="list-text">컨트롤러 모듈의 손상된 DIMM을 교체합니다.</block>
   <block id="efd84250e54da20a3b20aedbf193e8d1" category="paragraph">DIMM은 마더보드의 슬롯 3 또는 1에 있습니다. 슬롯 2와 4는 비어 있습니다. 이 슬롯에 DIMM을 설치하지 마십시오.</block>
-  <block id="01b87f8f81299496a9cc1c1d0fcbb0df" category="admonition">각 DIMM 옆에 있는 보드에 있는 오류 LED가 2초 간격으로 깜박입니다.</block>
   <block id="3c2f4d45d9bb9dd0708e7cb1b34f4890" category="image-alt">drw A250 DIMM 교체</block>
   <block id="48e86fa37ff9042482bfe36770e4d6e2" category="list-text">커넥터의 DIMM 이젝터 탭을 열린 위치로 둡니다.</block>
   <block id="43ed6adb7e19c956b260008f811b5750" category="list-text">교체용 DIMM을 슬롯에 똑바로 삽입합니다.</block>
@@ -4277,7 +4261,6 @@
   <block id="b08dcca279bedeebb1e6f621d1a5afa2" category="list-text"><block ref="b08dcca279bedeebb1e6f621d1a5afa2" category="inline-link-macro-rx"></block></block>
   <block id="86f44362d6c66d2da3785180e12a0bd3" category="doc">빠른 단계 - AFF A250</block>
   <block id="687423a0d05ad428110ae922c0e5d086" category="inline-link">AFF A250 설치 및 설정 지침</block>
-  <block id="812ead2c74df2f4cc3f4360dde12caf0" category="list-text">영어:<block ref="26c0c434f792bc3a07fd368408578c89" category="inline-link-rx"></block></block>
   <block id="50071fa4dffba54414cb029edf92fda7" category="inline-link">AFF A250 시스템 설치 및 설정 지침</block>
   <block id="b6f7b04f44a105e63a953d8fbcf4fc54" category="list-text">일본어:<block ref="cf50f5c8ace58e0f860ef43dfc5fe5aa" category="inline-link-rx"></block></block>
   <block id="f7e356c673218d549865ad38a211dfb2" category="list-text">중국어:<block ref="380dfc11004fa7aa9af7b73b57d7721f" category="inline-link-rx"></block></block>
@@ -4387,7 +4370,6 @@
   <block id="bee4c56b42643842f4964906e7825545" category="summary">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="a376b44668bb35ec353a3b762ae375c6" category="doc">빠른 단계 - FAS500f</block>
   <block id="139b85a2da5c2f7968fae24f14c3ed09" category="inline-link">FAS500f 설치 및 설정 지침</block>
-  <block id="401703f1a6e6c4174ecfa75cf476aeec" category="list-text">영어:<block ref="3b271abd5f4b9b54a3379e0450431921" category="inline-link-rx"></block></block>
   <block id="dae1434e283524bee3110823c8eb7212" category="inline-link">FAS500f 시스템 설치 및 설정 지침</block>
   <block id="c98535a3efcc3902c442def855aa8fcd" category="list-text">일본어:<block ref="74a4002c724f044d7e6834f3506cd16d" category="inline-link-rx"></block></block>
   <block id="c9d9e9c98bea821ee3130955cb98a54c" category="list-text">중국어:<block ref="d495a553b62dffb464c7810acf543358" category="inline-link-rx"></block></block>
@@ -4724,7 +4706,6 @@
   <block id="838316a92edbe8e931b912c827cad7b7" category="section-title">7단계: DIMM을 이동합니다</block>
   <block id="d1903d398c4c8283b66cc2ee2599cef5" category="doc">빠른 가이드 - FAS8300 및 FAS8700</block>
   <block id="221315bbb17a9424f37793425986d6c2" category="inline-link">FAS8300 및 FAS8700 설치 및 설정 지침</block>
-  <block id="0f6585f4d22c37462401058292d5968a" category="paragraph"><block ref="0f6585f4d22c37462401058292d5968a" category="inline-link-rx"></block></block>
   <block id="0d6447bac57d1b04d83d308e8b723682" category="doc">DIMM-FAS8300 및 FAS8700을 교체합니다</block>
   <block id="48a1bad510a4b6f7d4c6adc4ace692d6" category="admonition">애니메이션과 그림은 DIMM이 없는 소켓용 빈 슬롯을 보여줍니다. 이 빈 소켓은 공백으로 채워집니다.</block>
   <block id="bf60b41d71bc04857d76c73eb0a0ab19" category="paragraph">시스템의 DIMM 수와 위치는 시스템 모델에 따라 다릅니다. 자세한 내용은 에어 덕트의 FRU 맵을 참조하십시오.</block>
@@ -5320,7 +5301,6 @@
   <block id="e7cc374705291915b44392edac6d4956" category="doc">시스템 복원 완료 - AFF A200</block>
   <block id="ebc7476a478f335dcc4ca03640d92275" category="doc">부트 미디어 - AFF A200을 교체합니다</block>
   <block id="ec98690855a2ac4306447ccfbffa94ef" category="doc">장애가 발생한 부품을 NetApp-AFF A200으로 반환합니다</block>
-  <block id="3507cf5c7dded65ffdd5ade0f2366605" category="list-text"><block ref="3507cf5c7dded65ffdd5ade0f2366605" category="inline-link-macro-rx"></block></block>
   <block id="677d8bcfde6bff1a436a7a5e69b4dd4b" category="doc">클러스터 구성 워크시트 - AFF A200</block>
   <block id="4ab41e9db35b429ef17dc75c3671d5a3" category="paragraph">를 사용할 수 있습니다 <block ref="29bd1f640adeeec5f2bc6e197d0840c4" category="inline-link-macro-rx"></block> ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록합니다.</block>
   <block id="5cae28c48acee98f2baac425290bbe14" category="list-text">filer_addr은 스토리지 시스템의 IP 주소입니다.</block>
@@ -7323,8 +7303,6 @@
   <block id="6cff7e5493433d24015d6ef5a8566b38" category="sidebar">AFF A900 섀시</block>
   <block id="7d1c80f318f9bf16deac2495abe88a7e" category="sidebar">AFF A900 컨트롤러 모듈</block>
   <block id="2014d8b66b0e05fba286f79c1c8aac17" category="admonition">자동 반환을 비활성화하시겠습니까?_가 표시되면 'y'를 입력합니다.</block>
-  <block id="f80b45f73e8b653fc036922e438eff9e" category="inline-link-macro">FAS8200 설치 및 설정 지침</block>
-  <block id="ca2e2999fd16933cd908b9c9e44161d0" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="666c6c27ec3878a6b3f3c3cb24d10587" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="0e1569786cd5c99315511da0d9e3f2aa" category="admonition">시스템이 부팅 메뉴에서 중지되면 "노드 재부팅" 옵션을 선택하고 메시지가 표시되면 y를 선택한 다음 "Ctrl-C"를 눌러 로더로 부팅합니다.</block>
   <block id="6f0e65a313ceda26ae3094641da52d2e" category="paragraph"><block ref="6f0e65a313ceda26ae3094641da52d2e" category="inline-link-rx"></block></block>
   <block id="e789db57588c567cf162bf2f8ec8b65e" category="paragraph">FAS2600 시리즈, AFF A200, FAS2700 시리즈, AFF A220을 포함한 내부 스토리지가 있는 플랫폼이 있는 경우 이후 버전에서는 다음과 같이 하십시오(이러한 플랫폼은 고유한 워크시트를 사용합니다).</block>
@@ -7352,4 +7330,25 @@
   <block id="c51e6cbbe594b20461edba0d83817fce" category="list-text">BMC를 재부팅한 다음 노드를 재부팅합니다.</block>
   <block id="e727b00944f81e1d0a95c12886ac4641" category="inline-link-macro">아카이브</block>
   <block id="97a6415da8202d0321d49b92f019e7b1" category="paragraph">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다. 하드웨어 지원 끝에 도달한 AFF 및 FAS 시스템에 대한 문서는 에서 고객이 사용할 수 있습니다 <block ref="5e4606a12c7b193a6ccb23ff349575d7" category="inline-link-macro-rx"></block>.</block>
+  <block id="1c91d351b95f21de02a1d9bc700d73d0" category="list-text"><block ref="1c91d351b95f21de02a1d9bc700d73d0" category="inline-link-macro-rx"></block></block>
+  <block id="f6bbb48a9b41928e229484fe63e71f8c" category="list-text">영어: <block ref="3584c2c323ff7942e23aca437704f9d5" category="inline-link-macro-rx"></block></block>
+  <block id="96f14ebe376369fa093d83ad924d667a" category="paragraph">DIMM을 교체하려면 공기 덕트 상단의 DIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
+  <block id="617bafb92e72c64d9d65b60de9aea456" category="paragraph"><block ref="617bafb92e72c64d9d65b60de9aea456" category="inline-link-macro-rx"></block></block>
+  <block id="345a2a62ce004a5b297819af054c9777" category="inline-link-macro">AFF FAS8200 설치 및 설정 지침</block>
+  <block id="981a3078ce60e42311749c48845ae935" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="2b72a1d770496dfb89a7b96d77b8dcc0" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
+  <block id="66baa375eeb4eeafaa0788f1450b293e" category="paragraph"><block ref="66baa375eeb4eeafaa0788f1450b293e" category="inline-link-macro-rx"></block></block>
+  <block id="cae56c0e35640281e9970acbddf74c50" category="paragraph"><block ref="cae56c0e35640281e9970acbddf74c50" category="inline-link-macro-rx"></block></block>
+  <block id="ed65510b4998b0c361d8eb350c655bf1" category="paragraph"><block ref="ed65510b4998b0c361d8eb350c655bf1" category="inline-link-macro-rx"></block></block>
+  <block id="4707af501257324eebcc0182dcfed521" category="inline-link-macro">FAS2600 설치 및 설정 지침</block>
+  <block id="e968d995195c5befd8e63072a29d7a87" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="7bcaada228bfef0bb9707c307be17530" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
+  <block id="b32a57c06a6b6572f324185a0b81d90c" category="paragraph"><block ref="b32a57c06a6b6572f324185a0b81d90c" category="inline-link-macro-rx"></block></block>
+  <block id="0acd1668055811ba455a173f5b2007e1" category="inline-link-macro">AFF C190 설치 및 설정 지침</block>
+  <block id="78986e3198e620c9a4397bd93b083e68" category="paragraph">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="3eed3afb9edbfbab44cea22e18033b51" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="0112dd8e71f10fe869246a29836663d8" category="inline-link-macro">AFF A320 설치 및 설정 지침</block>
+  <block id="70a2087c6fb473305a0e232844fd565f" category="paragraph"><block ref="70a2087c6fb473305a0e232844fd565f" category="inline-link-macro-rx"></block></block>
+  <block id="8db94eb390aaecb9128a260b00e455e8" category="paragraph"><block ref="8db94eb390aaecb9128a260b00e455e8" category="inline-link-macro-rx"></block></block>
+  <block id="474b4646ba15883494cbfd9239d508ad" category="list-text">영어: <block ref="053faba884b41a351b336aa44c8075ff" category="inline-link-macro-rx"></block></block>
+  <block id="42e8099baf01da8bcc3b8362f29f317c" category="inline-link-macro">AFF A800 설치 및 설정 지침</block>
+  <block id="08b9fb46f5aced4cd732b3ae62e9764f" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="0cdb4981396afec17d02c8ce5d1b8e06" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="3968cc9d2fa7f59d81661adbaf12cfac" category="paragraph"><block ref="3968cc9d2fa7f59d81661adbaf12cfac" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -15,4 +15,4 @@ summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2842666["AFF A220/FAS2700 시스템 설치 및 설정 지침"]
+link:../media/PDF/215-13080_E0_AFFA220_FAS2700_ISI.pdf["AFF A220/FAS2700 시스템 설치 및 설정 지침"^]

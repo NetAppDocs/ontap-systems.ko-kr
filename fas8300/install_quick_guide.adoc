@@ -15,4 +15,4 @@ summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2858856["FAS8300 및 FAS8700 설치 및 설정 지침"]
+link:../media/PDF/215-14512_2021-02_en-us_FAS8300orFAS8700_ISI.pdf["FAS8300 및 FAS8700 설치 및 설정 지침"^]
