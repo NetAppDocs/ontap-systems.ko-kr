@@ -3175,7 +3175,6 @@
   <block id="d92d79541486453c440f5d479e7c2937" category="section-title">비디오 2: 종단 간 소프트웨어 구성을 수행합니다</block>
   <block id="2147ead816c0910c1fb713da5e278601" category="doc">전체 시스템 복원 - AFF A400</block>
   <block id="6873688fd24ce06352b0f67301567306" category="doc">NVDIMM-AFF A400을 교체합니다</block>
-  <block id="de9c147054e3fb33c301b1846d2c2c80" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 찾을 수도 있고 슬롯 1 라이저 상단에 있는 FRU 맵을 사용하여 주의 LED를 찾아야 합니다.</block>
   <block id="702c236818660597292fd2708b25d1d7" category="list-text">NVDIMM의 콘텐츠는 암호화되지만 NVDIMM을 교체하기 전에 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오<block ref="89de74d6a86df9137b0ef3fb03a43036" category="inline-link-rx"></block> 를 방문하십시오.</block>
   <block id="fd62f71706b219af05866bd0a2936d3c" category="paragraph">다음 애니메이션, 그림 또는 작성된 단계를 사용하여 NVDIMM을 교체할 수 있습니다.</block>
   <block id="4cdb88b773dbbe796646d321ccc17d79" category="admonition">이 애니메이션은 DIMM이 없는 소켓용 빈 슬롯을 보여줍니다. 이 빈 소켓은 공백으로 채워집니다.</block>
@@ -3562,7 +3561,6 @@
   <block id="f3a01cef2d9918b3669edb9ee2a1c2b8" category="doc">비디오 - AFF A800</block>
   <block id="f474da68fe49004e7ef71b0e2e717c06" category="doc">전체 시스템 복원 - AFF A800</block>
   <block id="161d11f75b68457ea33ac52c79b01c05" category="doc">NVDIMM-AFF A800을 교체합니다</block>
-  <block id="bca504eb60c2c7a5f3511f22eeb34338" category="admonition">NVDIMM LED는 시스템을 중단할 때 내용을 디스테이징하는 동안 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.</block>
   <block id="2c0856fef0927def0bd154513fb326fb" category="list-text">NVDIMM을 분리하거나 이동하는 경우 라이저의 잠금 래치를 잠금 해제한 다음 해당 라이저를 분리합니다.</block>
   <block id="e9d13b816c74953ab05ce3d6d2486166" category="image-alt">drw A800 NVDIMM 교체</block>
   <block id="f8cdcc9997405437e79f5d57e18498f5" category="paragraph">라이저 2 및 NVDIMM 11</block>
@@ -3989,7 +3987,6 @@
   <block id="4336c94d0986062a5e7d1d117b05fa50" category="section-title">3단계: NVRAM DIMM을 교체합니다</block>
   <block id="5aa839d702c6b821077d7a98ae849b99" category="paragraph">NVRAM 모듈에서 NVRAM DIMM을 교체하려면 NVRAM 모듈을 분리하고 모듈을 연 다음 대상 DIMM을 교체해야 합니다.</block>
   <block id="2f38ba189ae414ae66180b4a58eb6b22" category="list-text">NVRAM 모듈 내부에서 교체할 DIMM을 찾은 다음 DIMM 잠금 탭을 누르고 소켓에서 DIMM을 들어올려 분리합니다.</block>
-  <block id="f08fa3f1d8bff6dfbc18be0fdca6444e" category="paragraph">각 DIMM의 옆에 있는 LED는 DIMM에 오류가 발생할 때 깜박입니다.</block>
   <block id="418a022f56c1e24ab49e10afac569c94" category="list-text">DIMM을 소켓에 맞추고 잠금 탭이 제자리에 잠길 때까지 DIMM을 소켓에 부드럽게 밀어 넣어 교체 DIMM을 설치합니다.</block>
   <block id="1c0152b1bce888fe537c442be9dccb80" category="section-title">4단계: FRU 교체 후 컨트롤러를 재부팅합니다</block>
   <block id="ba7c6b30d321c807ee6ec4c52d399609" category="paragraph">FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.</block>
@@ -4722,7 +4719,6 @@
   <block id="bb90eba065615f7ac639d1758ba84812" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 캐싱 모듈을 교체할 수 있습니다.</block>
   <block id="540a3a140ba4c7da7729d8bbfbe06861" category="image-alt">drw 8300 FlashCache를 교체합니다</block>
   <block id="b08a9c5bee019bb00ec5f4f00b59819e" category="list-text">컨트롤러 모듈의 FRU 맵을 사용하여 오류가 발생한 캐싱 모듈을 찾아서 제거합니다.</block>
-  <block id="ea38ef5f5282f326e6e880ef9f6db82b" category="paragraph">구성에 따라 컨트롤러 모듈에 0, 1 또는 2개의 캐싱 모듈이 있을 수 있습니다. 실패한 캐시 모듈의 LED가 켜져 있습니다.</block>
   <block id="58a5256eec02e1fef80c02b3deffc3f5" category="list-text">파란색 분리 탭을 누릅니다.</block>
   <block id="3b9dfc19fe13a88ce4bf85240df578ae" category="paragraph">캐싱 모듈 끝이 릴리스 탭에서 위로 올라갑니다.</block>
   <block id="03ca5be2075218c7bb1546c7700fbc6a" category="list-text">캐시 모듈을 위로 돌려 소켓에서 뺍니다.</block>
@@ -7351,4 +7347,9 @@
   <block id="42e8099baf01da8bcc3b8362f29f317c" category="inline-link-macro">AFF A800 설치 및 설정 지침</block>
   <block id="08b9fb46f5aced4cd732b3ae62e9764f" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="0cdb4981396afec17d02c8ce5d1b8e06" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="3968cc9d2fa7f59d81661adbaf12cfac" category="paragraph"><block ref="3968cc9d2fa7f59d81661adbaf12cfac" category="inline-link-macro-rx"></block></block>
+  <block id="b72bee50d170af9037bebf46f5eb89d7" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 FRU 맵 또는 슬롯 1 라이저 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 NVDIMM을 찾아야 합니다.</block>
+  <block id="ad7f5333de2f76cfccc7ea7fa134c8a7" category="paragraph">시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵을 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.</block>
+  <block id="2ceb6141859316070c657f406135cd1c" category="paragraph">구성에 따라 컨트롤러 모듈에 0, 1 또는 2개의 캐싱 모듈이 있을 수 있습니다. 컨트롤러 모듈 내부의 FRU 맵을 사용하여 캐싱 모듈을 찾을 수 있습니다.</block>
+  <block id="edae17e7394c8face12fc5d74d33aa9b" category="paragraph">NVDIMM을 교체하려면 슬롯 1 라이저 상단에 있는 FRU 맵 공기 덕트 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 모듈을 찾아야 합니다.</block>
+  <block id="ca7c99126c90b6d4e929e35a12f23c35" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 찾을 수 있으며 특정 순서에 따라 교체해야 합니다.</block>
 </blocks>
