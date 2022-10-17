@@ -3491,15 +3491,11 @@
   <block id="7ece4dc1de81ff4f6a6d373a61c7fd86" category="doc">시스템 구성(AFF A220 및 FAS2700)을 복원 및 확인합니다</block>
   <block id="21ee2e5e51f0485744f531669814fed3" category="summary">이 링크를 다른 스위치 모델에 사용할 수 있습니다.</block>
   <block id="bd397018360b37f0581b599a75518e00" category="paragraph">이러한 링크를 사용하여 스위치 설명서를 찾을 수 있습니다.</block>
-  <block id="87ac6ecba347afc9b3bfcf5a25512ddc" category="inline-link-macro">Broadcom 지원 BES-53248 스위치</block>
   <block id="077d93425bc0aa7f9c6512d9b58b5d96" category="inline-link-macro">Nexus 9336C-FX2 클러스터 스위치</block>
-  <block id="d5191e1d1daef1fe46971f1f30582439" category="inline-link-macro">9336C-FX2 공유 스위치</block>
   <block id="1087bd6a45d263f28a4b0b93895e1941" category="inline-link-macro">Nexus 92300YC 클러스터 스위치</block>
   <block id="c65be06145c6932d272087d8bd0dc751" category="inline-link-macro">Nexus 5596</block>
   <block id="ee9afd7df5d1f09abe628235a0bbd29c" category="inline-link-macro">Nexus 3232C</block>
   <block id="43f44eb6eab88bd3dd44d614bab79684" category="inline-link-macro">Nexus 3132Q-V</block>
-  <block id="3c45f2f6b490b6057b0b3cee9eab4438" category="inline-link-macro">CN1610</block>
-  <block id="1829a6378e29fdb2a01976800d3ca60e" category="inline-link-macro">CN1601</block>
   <block id="f453086a36d64a5193cd4183c14bcd72" category="inline-link-macro">AFF 8000 시리즈 설명서</block>
   <block id="c651d2f010c85fa1c8605da5e127657e" category="paragraph"><block ref="c651d2f010c85fa1c8605da5e127657e" category="inline-link-macro-rx"></block></block>
   <block id="71bdc94f19d5947bd1cb6d437f119ba2" category="inline-link-macro">FAS8000 시리즈 문서</block>
@@ -6385,10 +6381,8 @@
   <block id="0e3989fd0fd811ede751f0ca9dbfbe88" category="doc">부팅 미디어 교체 개요 - AFF A800</block>
   <block id="a9785aa14dfcf09366954fcb69625d05" category="sidebar">42U 1280 mm 시스템 캐비닛</block>
   <block id="f606ada25615407b042f8f189d1b9fab" category="sidebar">Cisco 3132Q-V</block>
-  <block id="782536ad60a0c703fa10fb3d99248ea0" category="sidebar">Cisco 3232C 스위치</block>
   <block id="059d31543d448499bd1a9c454a8d1ebb" category="sidebar">Cisco 9336C-FX2</block>
   <block id="1c87a984d0a1c6881c9703209fd4341c" category="sidebar">공유 구성의 Cisco 9336-FX2</block>
-  <block id="237aba816839b6ef546c40514ce24efe" category="sidebar">NetApp CN1610 스위치</block>
   <block id="21a759f002cfc3385b168953dde9a34e" category="summary">복구 이미지에서 손상된 컨트롤러를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다.</block>
   <block id="825f13ad9fc8dc2bdd837adbced6f40f" category="paragraph">복구 이미지에서 손상된 컨트롤러를 부팅하는 절차는 시스템이 2컨트롤러 MetroCluster 구성인지 여부에 따라 다릅니다.</block>
   <block id="238e9bea2bdd4f731b75d630cdf207a3" category="list-text">정상 컨트롤러를 고급 권한 수준(Set-Privilege Advanced)으로 설정합니다</block>
@@ -7254,15 +7248,11 @@
   <block id="aea2017eeef1ac0b5bedf736bb4cc56c" category="paragraph">대부분의 AFF 및 FAS 시스템의 경우 에 있는 업그레이드 절차를 따르십시오<block ref="45cab07a2e6950f494ed7c0063e4eca0" category="inline-link-rx"></block>.</block>
   <block id="a6401ef397991d88e225879ba9ed75c9" category="paragraph">MetroCluster 구성에 있는 시스템의 경우 에 있는 업그레이드 절차를 따르십시오<block ref="691c45d5fd38b720542002162cc3ef59" category="inline-link-rx"></block>.</block>
   <block id="1294bc9e9e9ff5fc5c905d2eebfcfa3a" category="paragraph">'-selection'은 장치에 대해 실행하지 않으려는 다른 모든 검사만 비활성화합니다.</block>
-  <block id="47f502c37e61d38f2448a50d5186d8a7" category="list-text"><block ref="47f502c37e61d38f2448a50d5186d8a7" category="inline-link-macro-rx"></block></block>
   <block id="86ca80c530df92e51a5342bb132791d4" category="list-text"><block ref="86ca80c530df92e51a5342bb132791d4" category="inline-link-macro-rx"></block></block>
-  <block id="4a6d5f07662cf94441da511506452405" category="list-text"><block ref="4a6d5f07662cf94441da511506452405" category="inline-link-macro-rx"></block></block>
   <block id="c1382a426f7a22fb86c0c3bc5c872813" category="list-text"><block ref="c1382a426f7a22fb86c0c3bc5c872813" category="inline-link-macro-rx"></block></block>
   <block id="1b4fef00bfd6ba6d87574d44349b96c6" category="list-text"><block ref="1b4fef00bfd6ba6d87574d44349b96c6" category="inline-link-macro-rx"></block></block>
   <block id="069558aa8531de93c732e3ad85152f0b" category="list-text"><block ref="069558aa8531de93c732e3ad85152f0b" category="inline-link-macro-rx"></block></block>
   <block id="373042f8867690f31666fb2c254472b2" category="list-text"><block ref="373042f8867690f31666fb2c254472b2" category="inline-link-macro-rx"></block></block>
-  <block id="85abaed800bbf5a084896dbc7903c481" category="list-text"><block ref="85abaed800bbf5a084896dbc7903c481" category="inline-link-macro-rx"></block></block>
-  <block id="274b7336430e13113399b94673813e7c" category="list-text"><block ref="274b7336430e13113399b94673813e7c" category="inline-link-macro-rx"></block></block>
   <block id="dbfcf28fbace45ccb8bc86694314e16b" category="paragraph"><block ref="dbfcf28fbace45ccb8bc86694314e16b" category="inline-link-rx"></block></block>
   <block id="35c124f455f44a154eb3b514029ee58a" category="section-title">안전 정보 및 규정 고지</block>
   <block id="a6518839a3ee2f900f136494094df3cf" category="paragraph"><block ref="a6518839a3ee2f900f136494094df3cf" category="inline-link-rx"></block></block>
@@ -7352,4 +7342,14 @@
   <block id="2ceb6141859316070c657f406135cd1c" category="paragraph">구성에 따라 컨트롤러 모듈에 0, 1 또는 2개의 캐싱 모듈이 있을 수 있습니다. 컨트롤러 모듈 내부의 FRU 맵을 사용하여 캐싱 모듈을 찾을 수 있습니다.</block>
   <block id="edae17e7394c8face12fc5d74d33aa9b" category="paragraph">NVDIMM을 교체하려면 슬롯 1 라이저 상단에 있는 FRU 맵 공기 덕트 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 모듈을 찾아야 합니다.</block>
   <block id="ca7c99126c90b6d4e929e35a12f23c35" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 찾을 수 있으며 특정 순서에 따라 교체해야 합니다.</block>
+  <block id="d7e26346af961fd458b06e903fa1c22f" category="list-text"><block ref="d7e26346af961fd458b06e903fa1c22f" category="inline-link-macro-rx"></block></block>
+  <block id="52dc0fa7aa63a597a3aa6891a2cdd53d" category="inline-link-macro">Nexus 9336C-FX2 공유 스위치</block>
+  <block id="d67dacff598cf99bd3107746a21662be" category="list-text"><block ref="d67dacff598cf99bd3107746a21662be" category="inline-link-macro-rx"></block></block>
+  <block id="94f92369bb57ec3cd50af356ac87615d" category="inline-link-macro">nVidia SN2100</block>
+  <block id="f8cd80fb62bb327e6f2e300d81ac3a27" category="list-text"><block ref="f8cd80fb62bb327e6f2e300d81ac3a27" category="inline-link-macro-rx"></block></block>
+  <block id="280107a5f53cc09efecfd6d30a3b7ebc" category="inline-link-macro">NetApp CN1610</block>
+  <block id="c7b110777e110ebf201cadf84803bdb5" category="list-text"><block ref="c7b110777e110ebf201cadf84803bdb5" category="inline-link-macro-rx"></block></block>
+  <block id="58be97337d3377c59cd19ffb71fbc7fb" category="inline-link-macro">NetApp CN1601</block>
+  <block id="36c686b6a1d561ca87a79e4ac0028295" category="list-text"><block ref="36c686b6a1d561ca87a79e4ac0028295" category="inline-link-macro-rx"></block></block>
+  <block id="c83195c9d5e5dd5960c0976c81d14ea5" category="sidebar">Cisco 3232C</block>
 </blocks>
