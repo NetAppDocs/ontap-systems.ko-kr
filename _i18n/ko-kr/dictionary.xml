@@ -629,7 +629,6 @@
   <block id="9d80f287709beea4f34371644025d541" category="list-text">NVMEM LED가 더 이상 켜져 있지 않은지 확인합니다.</block>
   <block id="2df619b7d1a08e00bedcc91e7f49e549" category="list-text">배터리 커넥터를 다시 연결합니다.</block>
   <block id="0a980a0f7131164348aa395168430c19" category="list-text">로 돌아갑니다 <block ref="8d9485b043d2d189d21e80102089dac7" category="inline-link-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
-  <block id="b2bd14184e9f3b25f1856f38f5e4292a" category="admonition">각 시스템 메모리 DIMM에는 각 DIMM 슬롯 옆의 보드에 있는 LED가 있습니다. 결함이 있는 LED가 2초마다 깜박입니다.</block>
   <block id="169525b3af51c8a1a1183325e19e3768" category="list-text">교체 DIMM을 올바른 방향으로 삽입할 수 있도록 소켓에서 DIMM의 방향을 기록해 두십시오.</block>
   <block id="1037b1c609239a848832f786d5ffba1b" category="image-alt">drw 2600 DIMM repl 애니메이션 gif</block>
   <block id="780061b11a4f33cc8eecc0c1fd85c471" category="list-text">정전기 방지 포장용 백에서 교체용 DIMM을 제거하고 DIMM을 모서리에 맞춰 슬롯에 맞춥니다.</block>
@@ -2851,7 +2850,6 @@
   <block id="3e4e796f89697f9552e6f9741f53026c" category="paragraph">라이저 2(중간 PCIe 모듈)</block>
   <block id="10cacafa178fdb6b46f50bea9be0d8cf" category="paragraph">부트 미디어 나사</block>
   <block id="c6a69d731488373ecdb2d591b1a85654" category="paragraph">미디어를 부팅합니다</block>
-  <block id="bf74c7ac7f9e7efeee2d230b44098194" category="list-text">컨트롤러 모듈 마더보드에서 불이 켜진 LED를 통해 결함이 있는 부팅 미디어를 찾습니다.</block>
   <block id="a3d6314a25280e2e38308f58486d3929" category="list-text">컨트롤러 모듈에서 부팅 미디어를 제거합니다.</block>
   <block id="6ff72dc7d55fbd7ee2ad6dd88053463e" category="list-text">1 십자 드라이버를 사용하여 부트 매체를 잡고 있는 나사를 제거하고 나사를 안전한 곳에 둡니다.</block>
   <block id="244f0d518122ade08cc762c1395d4c5e" category="list-text">부팅 미디어의 측면을 잡고 부팅 미디어를 천천히 위로 돌린 다음 부팅 미디어를 소켓에서 똑바로 잡아당겨 분리합니다.</block>
@@ -3002,7 +3000,6 @@
   <block id="dec0306e681fc720cf31bc4851ebcee4" category="inline-link">ONTAP 9 시스템 관리 참조</block>
   <block id="38093d6513bb2e960eab247f00f04533" category="paragraph"><block ref="38093d6513bb2e960eab247f00f04533" category="inline-link-rx"></block></block>
   <block id="bf7918e10696cda0294441f81ad32ee4" category="paragraph">"기백을 기다리는 중...</block>
-  <block id="8d73259baf4ddfb7a4ebcc9452d895e0" category="paragraph">DIMM을 교체하려면 컨트롤러 모듈 내부에 있는 DIMM 맵을 사용하거나 DIMM 옆의 LED를 사용하여 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
   <block id="9de291eec146aa309ed46727b945c6d4" category="list-text">해당 라이저를 분리합니다.</block>
   <block id="a4e4695daf3bcdb3f2c31bf35c0a5950" category="paragraph">에어 덕트 커버</block>
   <block id="526b2479f6412e63d5f244b19de1b2d9" category="paragraph">라이저 2 및 DIMM 뱅크 5-8 및 9-12</block>
@@ -7352,4 +7349,9 @@
   <block id="58be97337d3377c59cd19ffb71fbc7fb" category="inline-link-macro">NetApp CN1601</block>
   <block id="36c686b6a1d561ca87a79e4ac0028295" category="list-text"><block ref="36c686b6a1d561ca87a79e4ac0028295" category="inline-link-macro-rx"></block></block>
   <block id="c83195c9d5e5dd5960c0976c81d14ea5" category="sidebar">Cisco 3232C</block>
+  <block id="b609dd6c87556493ce1f11c7ab61cbdb" category="list-text">컨트롤러 모듈 뒤쪽의 NVMEM LED를 확인하십시오.</block>
+  <block id="62052f557603d07beccb5c5c5b7c8d48" category="list-text">콘솔 오류 메시지를 확인하여 교체해야 하는 팬 모듈을 식별합니다.</block>
+  <block id="6c0f8c80eb90bb62692eec695b2b97a4" category="paragraph">컨트롤러 모듈에서 중간 PCIe 모듈을 제거하고, 결함이 있는 부팅 미디어를 찾은 다음, 부팅 미디어를 교체하여 컨트롤러 모듈에서 부팅 미디어를 찾아야 합니다.</block>
+  <block id="75482a309ad2153a216d2cc1f37de42a" category="list-text">결함이 있는 부팅 미디어를 찾습니다.</block>
+  <block id="3f09782d88b17a1d4d58adb09f8cd8ee" category="paragraph">DIMM을 교체하려면 컨트롤러 모듈 내부에 있는 DIMM 맵을 사용하여 컨트롤러 모듈에서 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
 </blocks>
