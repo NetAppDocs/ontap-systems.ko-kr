@@ -114,7 +114,7 @@ image::../media/drw_a320_controller_remove_animated_gif.png[A320 drw 컨트롤�
 == 3단계: 시스템 DIMM을 교체합니다
 
 [role="lead"]
-시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵 또는 마더보드의 LED를 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.
+시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵을 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.
 
 . 에어 덕트를 열림 위치로 돌리십시오.
 . 컨트롤러 모듈에서 DIMM을 찾습니다.

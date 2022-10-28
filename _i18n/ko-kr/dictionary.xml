@@ -261,24 +261,15 @@
   <block id="f30bf82bc8eafa66c54fa40dcf42ea44" category="paragraph">' * halt * '</block>
   <block id="3e06d4583220bf6e3116f03fc794dab1" category="paragraph">명령 출력에는 손상된 노드에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.</block>
   <block id="23b40d7aca05dd545bc77221d79f3fbe" category="list-text">정상 노드에서 코어 덤프가 저장되었는지 확인합니다.</block>
-  <block id="109773e48c8731216edae51d1686c8bc" category="list-text">고급 권한 레벨로 변경:</block>
   <block id="e510b81f84ff95d9355a3f8777aac54e" category="paragraph">고급 모드로 계속 전환하라는 메시지가 표시되면 ' * Y * '로 응답할 수 있습니다. 고급 모드 프롬프트가 나타납니다(*&gt;).</block>
-  <block id="cd398a68db8f00186aae955968cc06d7" category="list-text">코어 덤프 저장:</block>
-  <block id="5bedc6fbcb54f704df8ebd472d318d98" category="paragraph">'* 시스템 노드 run-node_local-node-name_partner savecore * '</block>
   <block id="d7330da3fefbffbe126bbfae916b2005" category="list-text">반환 명령을 실행하기 전에 'avecore' 명령이 완료될 때까지 기다리십시오.</block>
-  <block id="5ba88971aec930df5e482b401ee5bda7" category="paragraph">다음 명령을 입력하여 savecore 명령의 진행률을 모니터링할 수 있습니다.</block>
-  <block id="0a6496658205fc38ba1b1f3e184070ba" category="paragraph">'* 시스템 노드 run-node_local-node-name_partner savecore -s * '</block>
-  <block id="00bfced11707df12b7beabc9cb1854c6" category="list-text">관리자 권한 레벨로 돌아갑니다.</block>
   <block id="dc480d49888be9665881255050d6e3fd" category="list-text">노드를 돌려줍니다.</block>
-  <block id="84a63e5c67c16845df7acbd3cae860da" category="paragraph">'* 스토리지 페일오버 반환 - ofnode_replacement_node_name_ *'</block>
   <block id="c45c9fc04ba9ebcfc2085fb4d27cb308" category="paragraph">replacement_node는 스토리지를 다시 가져와 부팅을 완료합니다.</block>
   <block id="393be3b3a8c5c898411ba572d160869b" category="paragraph">시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 '* y*'를 입력해야 합니다.</block>
   <block id="676ef1e0e4de2a0b0b6677b7a365b976" category="inline-link">사용 중인 ONTAP 9 버전에 맞는 고가용성 구성 콘텐츠를 찾아보십시오</block>
   <block id="d238d807ebe1f1809c0c6a9e4cb8c1bf" category="paragraph"><block ref="d238d807ebe1f1809c0c6a9e4cb8c1bf" category="inline-link-rx"></block></block>
   <block id="60f38413fd4251f6c7f63adc0a48c195" category="list-text">디스크가 제대로 할당되었는지 확인합니다. '스토리지 디스크 표시-소유권'</block>
   <block id="4ba4f1aaf81ebb9600884198e939b4a2" category="paragraph">replacement_node에 속한 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
-  <block id="e3de43ab4017cb33908b0ff634023d7d" category="paragraph">' * vol show-node_node-name_ * '</block>
-  <block id="73b172a422efac317883ee1a518015e1" category="paragraph">``스토리지 장애 조치 수정 -node_replacement-node-name_-onreboot true *’</block>
   <block id="5d1cfd3c9a95578cfe36dabeac6fec83" category="summary">전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.</block>
   <block id="b351b18aabb1167eb5b0851a7dfde759" category="doc">전원 공급 장치 교체 - AFF C190</block>
   <block id="f05077bd3702b5bc7fac3f4dc56f3bc5" category="list-text">전원 공급 장치는 이중화되고 핫 스왑이 가능합니다.</block>
@@ -326,11 +317,9 @@
   <block id="11d90ad9838fdc1545ee368cd8943df9" category="list-text">필요한 경우 이전 라이센스를 제거합니다.</block>
   <block id="eb9892aa7a6ee6cfe6b30dad735d6d7a" category="list-text">미사용 라이선스 확인:'라이선스 정리 - 미사용 - 시뮬레이션</block>
   <block id="f77eef718a5ddb0006a44a75016370bf" category="list-text">목록이 올바르면 사용하지 않는 사용권의 'license clean-up-unused'를 삭제합니다</block>
-  <block id="90e0a79f0dc5582ba3bb7a9b28936d5c" category="section-title">2단계: 저장소 및 볼륨 암호화 기능 복원</block>
   <block id="37b0fb827bbc179115abc1768c9c5f12" category="paragraph">이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.</block>
   <block id="518d2076bf387a28038f7558530bb987" category="inline-link">CLI를 통한 NetApp 암호화 개요</block>
   <block id="e68c8836280fba147b04a2b14b196600" category="paragraph">온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.</block>
-  <block id="0072b0fd9d430209e4485c4040bcaa19" category="section-title">3단계: LIF 확인 및 일련 번호 등록</block>
   <block id="556aba51608845a42e971c4c7b471837" category="paragraph">replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 설정된 경우 _replacement_node의 일련 번호를 등록하고, 자동 반환 기능을 재설정해야 합니다.</block>
   <block id="462ec873925d8409f9ead354ff424e1b" category="list-text">논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다</block>
   <block id="8ea6b3a9b2a4529608397a2c8232b2e9" category="paragraph">LIF가 FALSE로 나열되면 홈 포트인 '네트워크 인터페이스 되돌리기'로 되돌립니다</block>
@@ -2074,15 +2063,12 @@
   <block id="c694147ee40e260d30d4121d2213ee14" category="doc">비디오 - AFF A320</block>
   <block id="2ca9575466d40889a9a6e4de0788d9d5" category="doc">전체 시스템 복원 - AFF A320</block>
   <block id="2d8b1cc5d54ecd8a729105fdf07054a0" category="section-title">1단계: ONTAP에서 교체 노드에 대한 라이센스를 설치합니다</block>
-  <block id="ff3a1a304de699b15bd2a5a39798c5a8" category="section-title">2단계: 스토리지 및 볼륨 암호화 기능 복원</block>
-  <block id="92f82264c734da3126796f6bfa718d0f" category="section-title">3단계: LIF 확인 및 일련 번호 등록</block>
   <block id="5ab7856b7ebec8f0df312e997fb8acf9" category="paragraph">섀시를 교체하려면 팬과 컨트롤러 모듈을 손상된 섀시에서 손상된 섀시와 동일한 모델의 새 섀시로 옮겨야 합니다.</block>
   <block id="de13eae43e74bcedacee29c89051ee54" category="list-text">이 절차는 컨트롤러 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 구성됩니다.</block>
   <block id="3e39936f936e4834cc06a63b1868d4c5" category="summary">시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
   <block id="72e762fb9ea8e85f3b69ae72fd4dc171" category="doc">NVDIMM-AFF A320을 교체합니다</block>
   <block id="77fba3b2bed380ff997267e3badf202e" category="image-alt">A320 drw 케이블 관리 암</block>
   <block id="00a491f6ddc82f254e9e3fa6711c8a44" category="section-title">3단계: NVDIMM을 교체합니다</block>
-  <block id="7ccf04d2fd9b25a78287b4db5e34e7d6" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 찾을 수도 있고 NVDIMM 옆의 LED를 사용하여 찾을 수도 있습니다. 그런 다음 특정 순서에 따라 교체해야 합니다.</block>
   <block id="d07d22679fd595588166f72cbc3fcec6" category="admonition">NVDIMM LED는 시스템을 중단할 때 내용을 디스테이징하는 동안 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.</block>
   <block id="a28d1d59ce7973c59f7c8fb5eb3f42b3" category="image-alt">A320 drw NVDIMM 교체 애니메이션 gif</block>
   <block id="47cd398c5a2374103dbd8377631bc325" category="list-text">공기 덕트를 열고 컨트롤러 모듈의 슬롯 11에서 NVDIMM을 찾습니다.</block>
@@ -2301,7 +2287,6 @@
   <block id="611cf47f3569074932e1d1554c9dcfdd" category="doc">장애가 발생한 부품을 NetApp-AFF A320으로 되돌립니다</block>
   <block id="f18d3ce1458eacbbf20206e503ce6dcf" category="doc">DIMM-AFF A320을 교체합니다</block>
   <block id="5beb49709902306e7264c7704117a827" category="section-title">3단계: 시스템 DIMM을 교체합니다</block>
-  <block id="3848c7730c285ede150ddd598894cf0b" category="paragraph">시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵 또는 마더보드의 LED를 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.</block>
   <block id="314e31cf4cbebcf3a827e9ba64a1e005" category="list-text">에어 덕트를 열림 위치로 돌리십시오.</block>
   <block id="3c96abc43edac8ae6d9684f7b2c979fa" category="list-text">DIMM 양쪽에 있는 두 개의 DIMM 이젝터 탭을 천천히 밀어 소켓에서 DIMM을 꺼낸 다음 소켓에서 DIMM을 꺼냅니다.</block>
   <block id="6867fc910d131de047b47f8e69a79887" category="paragraph">시스템에서 시스템 DIMM을 교체한 후 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.</block>
@@ -2575,7 +2560,6 @@
   <block id="b82df982fd2500b5301a3127ef1f47c2" category="paragraph">전원 케이블 잠금 메커니즘</block>
   <block id="8ba8e854127bccb82d1934c0df2d4a25" category="list-text">전원 공급 장치 캠 핸들을 단단히 눌러 섀시에 완전히 고정한 다음 캠 핸들을 닫힘 위치로 밀어 캠 핸들 해제 래치가 잠금 위치에 딸깍 소리를 내면서 고정되도록 합니다.</block>
   <block id="b9068760536b874bf77dc015fb91c3ae" category="doc">시스템 복원 완료 - FAS8200</block>
-  <block id="332c846459ecae57b885b30c41482384" category="section-title">3단계: LIF를 확인하고 일련 번호를 등록합니다</block>
   <block id="14e1966b2539241942d6151ccb0e2a0e" category="section-title">4단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다</block>
   <block id="13ac161acaf204d5f7902a679f74f59d" category="section-title">5단계: 장애가 발생한 부품을 NetApp에 반환</block>
   <block id="dc8763d13c28622d2ba4adace1e2fee7" category="summary">복구 이미지에서 손상된 노드를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다.</block>
@@ -4006,7 +3990,6 @@
   <block id="20ea32c4685480f3b2ec6bf4a7c6ce0b" category="doc">DCPM 모듈 - AFF A700 및 FAS9000을 교체합니다</block>
   <block id="727b43bb986548fddfd9fbbfd6c3c609" category="summary">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다.</block>
   <block id="647f24f2eb58a916547a537a4937864d" category="doc">전체 시스템 복원 - AFF A700 및 FAS9000</block>
-  <block id="bbc9c42b99312692d6c920df2a10da53" category="section-title">4단계(MetroCluster만 해당): 2노드 MetroCluster 구성에서 애그리게이트 되돌리기</block>
   <block id="9c675ab95a17d7706cc75c5ef43cd314" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="bb573a9efe1b6bf0e0892d0c586f8500" category="inline-xref-macro-rx"></block>.</block>
   <block id="08b4a74e7beb4fdd66d8c35f48e446dd" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="51b5502ad45a0354bf57a42b448e6184" category="inline-xref-macro-rx"></block>.</block>
   <block id="db1a20a219feecb8c4e586f86bdc60b7" category="doc">복구 및 교체 프로세스 - AFF A700 및 FAS9000을 완료합니다</block>
@@ -6134,7 +6117,6 @@
   <block id="ee8a8644ffd12b189575bcf38607f745" category="sidebar">NS224 선반 설치 및 케이블</block>
   <block id="cb74611b1d6389cb0fc09a68cc007132" category="sidebar">NS224 선반 유지 관리</block>
   <block id="3cb52a5c3c25dcd729403c0c723500bc" category="list-text">'storage failover show'-반환' 명령을 사용하여 반환 작업의 진행률을 모니터링합니다.</block>
-  <block id="b36708a8226ddc48a16407516f32b6ae" category="paragraph">``스토리지 장애 조치 쇼’’</block>
   <block id="4cc5d765a3b2155ab803f6ce50c11747" category="paragraph">'storage failover show' 명령의 출력에는 'system ID changed on partner' 메시지가 포함되지 않아야 한다.</block>
   <block id="7b5b637cc082477a9dd4c129c225152e" category="inline-link">온보드 키 관리 암호화 키를 복원합니다</block>
   <block id="1ee623098df2f7856a034824be882999" category="inline-link">외부 키 관리 암호화 키를 복원합니다</block>
@@ -6540,12 +6522,7 @@
   <block id="ab16b7659f1f3d151837f3f6574edbce" category="paragraph">컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다.</block>
   <block id="f9d753fddfdd4cf75bdcf826d545a576" category="list-text">impaired_controller는 유지 관리를 수행하는 컨트롤러입니다.</block>
   <block id="e4107ee9d71fad92265b6222f2822ad8" category="list-text">healy_controller는 손상된 컨트롤러의 HA 파트너입니다.</block>
-  <block id="ecc93de5d9e6d1de2c8f307f37c933d1" category="list-text">replacement_controller가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다.</block>
   <block id="1ece66f8bf58294a3a5da700df5daffe" category="list-text">system ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 '* y*'를 입력합니다.</block>
-  <block id="ad40e97175b514d2c81a91067ad04ed7" category="list-text">replacement_controller 콘솔에 'Waiting for 반환...' 메시지가 표시될 때까지 기다린 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.</block>
-  <block id="65ae07541c754093eda9cd898cf890f7" category="list-text">정상적인 컨트롤러에서 교체한 컨트롤러의 스토리지를 다시 제공합니다.</block>
-  <block id="2e02c080662f8fd550785b87be3c1144" category="list-text">각 컨트롤러에 대해 예상 볼륨이 있는지 확인합니다.</block>
-  <block id="f7e34e40e37b03149dbadb73b8513476" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 정상 컨트롤러에서 이를 활성화합니다.</block>
   <block id="86c3969f421b58d4b4b270ed1fb7b003" category="section-title">1단계: ONTAP에서 교체 컨트롤러에 대한 라이센스 설치</block>
   <block id="2a0338d4b284b44bbd6e5b5a0e564e4f" category="paragraph">image_name.tgz가 설치되면 시스템은 정상적인 컨트롤러에서 백업 구성('var' 파일 시스템)을 복원하라는 메시지를 표시합니다.</block>
   <block id="922768ec58831cabe5b129a1aa26dc78" category="paragraph">컨트롤러가 재부팅되면 시스템 사용을 시작할 수 있습니다.</block>
@@ -7354,4 +7331,10 @@
   <block id="6c0f8c80eb90bb62692eec695b2b97a4" category="paragraph">컨트롤러 모듈에서 중간 PCIe 모듈을 제거하고, 결함이 있는 부팅 미디어를 찾은 다음, 부팅 미디어를 교체하여 컨트롤러 모듈에서 부팅 미디어를 찾아야 합니다.</block>
   <block id="75482a309ad2153a216d2cc1f37de42a" category="list-text">결함이 있는 부팅 미디어를 찾습니다.</block>
   <block id="3f09782d88b17a1d4d58adb09f8cd8ee" category="paragraph">DIMM을 교체하려면 컨트롤러 모듈 내부에 있는 DIMM 맵을 사용하여 컨트롤러 모듈에서 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
+  <block id="161316904c049c8661c4860ac103d326" category="list-text">스토리지 시스템에 스토리지 또는 볼륨 암호화가 구성된 경우 온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원해야 합니다.</block>
+  <block id="cd52056b12799b75e95ce3715dbd95d0" category="section-title">2단계: LIF를 확인하고 일련 번호를 등록합니다</block>
+  <block id="e5d342b84a7b4a1d294e75d2ff62d759" category="section-title">2단계: LIF 확인 및 일련 번호 등록</block>
+  <block id="483a752599520b0534872ca3822c9083" category="list-text">각 컨트롤러에 대해 예상 볼륨이 있는지 확인합니다.<block ref="6931ff74d75f98d072d2434c71cfc1e4" prefix=" " category="inline-code"></block></block>
+  <block id="8ba332a9944c2e6a66e36aee66689593" category="section-title">2단계: LIF 확인 및 일련 번호 등록</block>
+  <block id="6de93a3d40cba5a9f17ae225a0a97f4e" category="section-title">3단계: (MetroCluster만 해당): 2노드 MetroCluster 구성에서 애그리게이트 되돌리기</block>
 </blocks>
