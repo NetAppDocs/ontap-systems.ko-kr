@@ -47,14 +47,14 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
  a| 
 HA 쌍
  a| 
- 1: Verify the system ID change on an HA system]
+<<옵션 1: HA 시스템의 시스템 ID 변경을 확인합니다>>]
 
 
 
  a| 
 2노드 MetroCluster 구성
  a| 
- 2: Manually reassign the system ID on systems in a two-node MetroCluster configuration
+<<옵션 2: 2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다>>
 
 |===
 
@@ -149,6 +149,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 
 ONTAP를 실행하는 2노드 MetroCluster 구성에서는 시스템을 정상 운영 상태로 되돌리기 전에 디스크를 새 컨트롤러의 시스템 ID로 수동으로 재할당해야 합니다.
 
+.이 작업에 대해
 이 절차는 ONTAP를 실행하는 2노드 MetroCluster 구성의 시스템에만 적용됩니다.
 
 이 절차에서 올바른 노드에 대한 명령을 실행해야 합니다.

@@ -21,6 +21,7 @@ FAS500f 시스템을 설치하려면 계정을 만들고 시스템을 등록해�
 
 에 대한 액세스 권한이 있어야 합니다 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] (HWU) - 사이트 요구사항에 대한 정보 및 구성된 시스템에 대한 추가 정보 에 대한 액세스 권한을 가질 수도 있습니다 link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 버전에 대한 릴리즈 노트"^] 이 시스템에 대한 자세한 내용은 를 참조하십시오.
 
+.필요한 것
 사이트에서 다음을 제공해야 합니다.
 
 * 스토리지 시스템의 랙 공간입니다
@@ -175,6 +176,7 @@ image::../media/drw_affa250_weight_caution.png[drw affa250 중량 주의]
 
 컨트롤러 모듈의 관리, 파이버 채널 및 데이터 또는 호스트 네트워크 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.
 
+.시작하기 전에
 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
@@ -229,6 +231,7 @@ image:../media/oie_legend_icon_attn_symbol.png[""]
 
 컨트롤러의 모든 포트는 스위치, 클러스터 인터커넥트, 관리, 파이버 채널, 데이터 또는 호스트 네트워크 스위치에 연결됩니다.
 
+.시작하기 전에
 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
@@ -287,6 +290,7 @@ Fibre Channel 또는 iSCSI 호스트 네트워크 또는 직접 연결 스토리
 
 컨트롤러의 파이버 채널 포트는 파이버 채널 호스트 네트워크 스위치에 연결됩니다.
 
+.시작하기 전에
 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
@@ -315,8 +319,8 @@ image::../media/drw_affa250_fc_host_cabling.png[drw affa250 fc 호스트 케이�
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-*  2: Cable to a 25GbE data or host network
-*  3: Cable the controllers to a single drive shelf
+* <<옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다>>
+* <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
 
 
 
@@ -333,6 +337,7 @@ image::../media/drw_affa250_fc_host_cabling.png[drw affa250 fc 호스트 케이�
 
 컨트롤러의 25GbE 포트는 25GbE 데이터 또는 호스트 네트워크 스위치에 연결됩니다.
 
+.시작하기 전에
 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
@@ -361,8 +366,8 @@ image::../media/drw_affa250_25gbe_host_cabling.png[drw affa250 25GbE 호스트 �
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-*  1: Cable to a Fibre Channel host network
-*  3: Cable the controllers to a single drive shelf
+* <<옵션 1: Fibre Channel 호스트 네트워크에 케이블을 연결합니다>>
+* <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
 
 
 

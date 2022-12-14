@@ -132,6 +132,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 
 ONTAP를 실행하는 2노드 MetroCluster 구성에서는 시스템을 정상 운영 상태로 되돌리기 전에 디스크를 새 컨트롤러의 시스템 ID로 수동으로 재할당해야 합니다.
 
+.이 작업에 대해
 이 절차는 ONTAP를 실행하는 2노드 MetroCluster 구성의 시스템에만 적용됩니다.
 
 이 절차에서 올바른 노드에 대한 명령을 실행해야 합니다.

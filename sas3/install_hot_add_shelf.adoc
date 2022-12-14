@@ -13,6 +13,7 @@ summary: IOM12/IOM12B 모듈을 사용하여 기존 디스크 쉘프 스택에 I
 [role="lead"]
 IOM12/IOM12B 모듈을 사용하여 기존 디스크 쉘프 스택에 IOM12/IOM12B 모듈을 사용하여 하나 이상의 디스크 쉘프를 핫 추가할 수 있습니다. 또는 IOM12/IOM12B 모듈을 사용하여 하나 이상의 디스크 쉘프 스택을 컨트롤러의 SAS HBA 또는 온보드 SAS 포트에 직접 추가할 수 있습니다.
 
+.이 작업에 대해
 다음 절차를 사용하여 스택을 혼합할 수 없습니다. IOM12/IOM12B 모듈과 쉘프를 핫 추가, IOM6 모듈이 있는 쉘프 스택에 추가하십시오. 스택을 혼합해야 하는 경우 를 사용합니다 link:iom12-hot-add-mix.html["IOM6 쉘프 스택에 IOM12 쉘프를 핫 추가합니다"].
 
 
@@ -321,6 +322,7 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 [role="lead"]
 새로 추가된 디스크 쉘프에 해당하는 SAS 연결(쉘프-쉘프 및 컨트롤러-스택)에 케이블을 연결하여 시스템에 연결할 수 있습니다.
 
+.시작하기 전에
 의 요구사항을 충족해야 합니다 link:install-hot-add-shelf.html#requirements-for-hot-adding-disk-shelves-with-iom12iom12b-modules["IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항"] 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 link:install-hot-add-shelf.html#install-disk-shelves-with-iom12iom12b-modules-for-a-hot-add["핫 애드 기능을 위해 IOM12 모듈과 디스크 쉘프를 설치합니다"].
 
 .이 작업에 대해
@@ -446,7 +448,7 @@ AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 해당하는 단�
 |===
 . SAS 구리 케이블로 연결된 디스크 쉘프 스택에 미니 SAS HD SAS 광 케이블이 포함된 디스크 쉘프를 핫 추가한 경우, SAS 구리 케이블을 교체합니다. 그렇지 않은 경우 다음 단계로 이동합니다.
 +
-스택은 에 명시된 요구 사항을 충족해야 합니다  for hot-adding disk shelves with IOM12 modules 섹션을 참조하십시오.
+스택은 에 명시된 요구 사항을 충족해야 합니다 <<IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항>> 섹션을 참조하십시오.
 
 +
 케이블을 한 번에 하나씩 교체하고 케이블을 분리하고 새 케이블을 연결하는 사이에 70초 이상 기다려야 합니다.

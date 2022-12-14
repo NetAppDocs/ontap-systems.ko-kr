@@ -20,6 +20,7 @@ summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 �
 [role="lead"]
 시스템을 설치하려면 계정을 만들고 시스템을 등록하고 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
 
+.시작하기 전에
 사이트 요구 사항에 대한 정보와 구성된 시스템에 대한 추가 정보를 보려면 Hardware Universe에 액세스할 수 있어야 합니다. 이 시스템에 대한 자세한 내용은 사용 중인 ONTAP 버전의 릴리즈 노트에 액세스할 수도 있습니다.
 
 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
@@ -221,7 +222,7 @@ video::48552ddf-0925-4f88-8e93-ab1b00666489[panopto]
 +
 image::../media/drw_A400_TNSC-network-cabling.png[drw A400 TNSC 네트워크 케이블 연결]
 
-. 로 이동합니다  4: Cable controllers to drive shelves 드라이브 쉘프 케이블링 지침:
+. 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
 
 
@@ -250,7 +251,7 @@ video::8fefba75-f395-4cf2-ba3c-ab1b00665870[panopto]
 +
 image::../media/drw_a400_switched_network_cabling.png[drw a400 스위치 방식 네트워크 케이블 연결]
 
-. 로 이동합니다  4: Cable controllers to drive shelves 드라이브 쉘프 케이블링 지침:
+. 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
 
 
@@ -282,7 +283,7 @@ video::48d68897-c91d-47dc-b4b0-ab1b0066808a[panopto]
 +
 image::../media/drw_a400_one_ns224_shelves.png[drw a400 1개 ns224 셸프]
 
-. 로 이동합니다  5: Complete system setup and configuration 시스템 설치 및 구성을 완료합니다.
+. 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 
 
 
@@ -307,7 +308,7 @@ video::5501c7bf-8b74-49e8-8067-ab1b00668804[panopto]
 +
 image::../media/drw_a400_two_ns224_shelves.png[drw a400 2개의 ns224 셸프]
 
-. 로 이동합니다  5: Complete system setup and configuration 시스템 설치 및 구성을 완료합니다.
+. 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 
 
 
@@ -332,7 +333,7 @@ video::cbb0280e-708d-4365-92b6-ab1b006677ef[panopto]
 +
 image::../media/drw_a400_three_ds224c_shelves.png[drw a400 ds224c 쉘프 3개]
 
-. 로 이동합니다  5: Complete system setup and configuration 시스템 설치 및 구성을 완료합니다.
+. 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 
 
 

@@ -5265,7 +5265,6 @@
   <block id="3dad031ba5544f976b631ffad1564b7a" category="paragraph">스토리지를 다시 케이블로 연결하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.</block>
   <block id="536b0bd1a9c2b544d6cfae19d9289ea7" category="section-title">1단계: 시스템 케이블을 다시 연결합니다</block>
   <block id="b0da6837b9dc75b3c0fcca1c9c38d89b" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다. 구성에 맞는 절차를 사용해야 합니다.</block>
-  <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">무엇을 &amp;#8217;필요로 할거야</block>
   <block id="6151adb4be9acf8b78f2772f645f81b4" category="list-text">컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.</block>
   <block id="6da80f62ccea3836d409604feffadf8e" category="summary">AFF A200 시스템 설명서를 참조하여 시스템을 설치, 설정, 유지보수할 수 있습니다.</block>
   <block id="bac54df29ecae80690955818b301d1da" category="doc">AFF A200 시스템 설명서</block>
@@ -6523,7 +6522,6 @@
   <block id="f9d753fddfdd4cf75bdcf826d545a576" category="list-text">impaired_controller는 유지 관리를 수행하는 컨트롤러입니다.</block>
   <block id="e4107ee9d71fad92265b6222f2822ad8" category="list-text">healy_controller는 손상된 컨트롤러의 HA 파트너입니다.</block>
   <block id="1ece66f8bf58294a3a5da700df5daffe" category="list-text">system ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 나타나면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 '* y*'를 입력합니다.</block>
-  <block id="86c3969f421b58d4b4b270ed1fb7b003" category="section-title">1단계: ONTAP에서 교체 컨트롤러에 대한 라이센스 설치</block>
   <block id="2a0338d4b284b44bbd6e5b5a0e564e4f" category="paragraph">image_name.tgz가 설치되면 시스템은 정상적인 컨트롤러에서 백업 구성('var' 파일 시스템)을 복원하라는 메시지를 표시합니다.</block>
   <block id="922768ec58831cabe5b129a1aa26dc78" category="paragraph">컨트롤러가 재부팅되면 시스템 사용을 시작할 수 있습니다.</block>
   <block id="fec1ee82d47382a6acadcb4104dd3ce3" category="paragraph">손상된 컨트롤러에 'Waiting for Giveback...' 메시지가 표시되면 정상 컨트롤러에서 Giveback을 수행합니다.</block>
@@ -7337,4 +7335,12 @@
   <block id="483a752599520b0534872ca3822c9083" category="list-text">각 컨트롤러에 대해 예상 볼륨이 있는지 확인합니다.<block ref="6931ff74d75f98d072d2434c71cfc1e4" prefix=" " category="inline-code"></block></block>
   <block id="8ba332a9944c2e6a66e36aee66689593" category="section-title">2단계: LIF 확인 및 일련 번호 등록</block>
   <block id="6de93a3d40cba5a9f17ae225a0a97f4e" category="section-title">3단계: (MetroCluster만 해당): 2노드 MetroCluster 구성에서 애그리게이트 되돌리기</block>
+  <block id="8c4271e6faf2cea4cfc8e5b7108d8ee9" category="paragraph-title">절차를 참조하십시오</block>
+  <block id="6bcc4bf7321499602cc726d01ccea765" category="paragraph-title">HA 시스템의 시스템 ID 변경을 확인합니다</block>
+  <block id="354b2998d28fedeb0bad97fc9be9b342" category="paragraph-title">2노드 MetroCluster 구성에서 시스템 ID를 재할당합니다</block>
+  <block id="9826dc7dca2ce77788236ffc0e442de8" category="section-title">2단계: 컨트롤러 모듈의 HA 상태를 확인하고 설정합니다</block>
+  <block id="48023daa3129599e2b4aa0dbaefd201f" category="paragraph-title">이 작업에 대해</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">필요한 것</block>
+  <block id="7d60346fb854755b0fc4b8486f2e5769" category="section-title">1단계: ONTAP에서 _replacement_controller에 대한 라이센스 설치</block>
+  <block id="541648f14089765ba6e8c3198be32507" category="section-title">2단계: 부팅 매체를 교체합니다</block>
 </blocks>

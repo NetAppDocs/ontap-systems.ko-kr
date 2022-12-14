@@ -19,6 +19,7 @@ summary: 이 A 에서는 일반적인 NetApp 시스템 설치를 위한 단계�
 
 시스템을 설치하려면 NetApp Support 사이트에서 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
 
+.시작하기 전에
 [role="lead"]
 에 대한 액세스 권한이 있어야 합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 사이트 요구 사항 및 구성된 시스템에 대한 추가 정보를 확인하십시오.
 
@@ -203,6 +204,7 @@ image::../media/drw_9000_cable_management_arms.png[drw 9000 케이블 관리 암
 [role="lead"]
 컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러에 케이블로 연결됩니다.
 
+.시작하기 전에
 시스템에 스위치를 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의해야 합니다.
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
@@ -273,7 +275,7 @@ image::../media/oie_legend_icon_4_dr.png[OIE 범례 아이콘 4 DR]
 image:../media/oie_cable_sfp_gbe_copper.png[""]
 
 |===
-. 저장 장치에 케이블을 연결하려면 를 참조하십시오  4: Cable controllers to drive shelves.
+. 저장 장치에 케이블을 연결하려면 를 참조하십시오 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>>.
 
 
 
@@ -283,6 +285,7 @@ image:../media/oie_cable_sfp_gbe_copper.png[""]
 [role="lead"]
 컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.
 
+.시작하기 전에
 시스템에 스위치를 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의해야 합니다.
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
@@ -353,7 +356,7 @@ image::../media/oie_legend_icon_4_dr.png[OIE 범례 아이콘 4 DR]
 image:../media/oie_cable_sfp_gbe_copper.png[""]
 
 |===
-. 저장 장치에 케이블을 연결하려면 를 참조하십시오  4: Cable controllers to drive shelves.
+. 저장 장치에 케이블을 연결하려면 를 참조하십시오 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>>.
 
 
 
@@ -420,7 +423,7 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 
 |===
 +
-.. 시스템 설정을 완료하려면 을 참조하십시오  5: Complete system setup and configuration.
+.. 시스템 설정을 완료하려면 을 참조하십시오 <<5단계: 시스템 설치 및 구성을 완료합니다>>.
 
 
 
@@ -489,7 +492,7 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 100GbE 케이블
 
 |===
-. 시스템 설정을 완료하려면 을 참조하십시오  5: Complete system setup and configuration.
+. 시스템 설정을 완료하려면 을 참조하십시오 <<5단계: 시스템 설치 및 구성을 완료합니다>>.
 
 
 
