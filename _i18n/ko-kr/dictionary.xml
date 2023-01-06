@@ -5,7 +5,6 @@
   <block id="49d981e4792b1b6bfc193d341fe3b1d4" category="paragraph">시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.</block>
   <block id="118a19c264126d2eb7de4542c32c102d" category="section-title">1단계: 손상된 컨트롤러를 종료합니다</block>
   <block id="16f911f59a050f663b12ff955a280de7" category="paragraph">손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다.</block>
-  <block id="a2960939186ae78b824d694e2cbba800" category="inline-link-macro">CLI를 사용한 관리 개요</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="19285c8cf559d5176d09036ecccfca21" category="list-text">AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</block>
   <block id="f80af4e39d67de6feaae8747f603e24b" category="paragraph">다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * &gt; system node AutoSupport invoke - node * -type all-message MAINT=2h'</block>
@@ -317,7 +316,6 @@
   <block id="11d90ad9838fdc1545ee368cd8943df9" category="list-text">필요한 경우 이전 라이센스를 제거합니다.</block>
   <block id="eb9892aa7a6ee6cfe6b30dad735d6d7a" category="list-text">미사용 라이선스 확인:'라이선스 정리 - 미사용 - 시뮬레이션</block>
   <block id="f77eef718a5ddb0006a44a75016370bf" category="list-text">목록이 올바르면 사용하지 않는 사용권의 'license clean-up-unused'를 삭제합니다</block>
-  <block id="37b0fb827bbc179115abc1768c9c5f12" category="paragraph">이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 컨트롤러 모듈 또는 NVRAM 모듈을 교체한 후 무중단 암호화 기능을 제공하려면 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.</block>
   <block id="518d2076bf387a28038f7558530bb987" category="inline-link">CLI를 통한 NetApp 암호화 개요</block>
   <block id="e68c8836280fba147b04a2b14b196600" category="paragraph">온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.</block>
   <block id="556aba51608845a42e971c4c7b471837" category="paragraph">replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 설정된 경우 _replacement_node의 일련 번호를 등록하고, 자동 반환 기능을 재설정해야 합니다.</block>
@@ -4470,12 +4468,9 @@
   <block id="1d069ff54ee29cbfaafd7650132e6cd5" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block>.</block>
   <block id="1a012ae90c41b7530ce0df40b8053d54" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우</block>
   <block id="5eadc00e7d9146c2fd474e7d8d5f5137" category="list-text">다음 애니메이션 또는 그리기를 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.</block>
-  <block id="f551b341dd5555b5471ea63f7fad8db8" category="paragraph">NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.</block>
   <block id="6b39390f8836ac9ddcaf033f6ec9d535" category="image-alt">설정된 셸프 ID 세트의 drw 전원을 켭니다</block>
   <block id="543ab7831f0589c951278e6073647eb0" category="paragraph">엔드 캡을 탈거하십시오.</block>
   <block id="77b9275f6fd711644f4214aa9c1fd216" category="paragraph">첫 번째 숫자가 깜박일 때까지 쉘프 ID 버튼을 누른 후 을 눌러 0-9로 이동합니다.</block>
-  <block id="5463cd717cd1248bc167a0577c0d17a5" category="paragraph">참고: 첫 번째 숫자가 계속 깜박입니다</block>
-  <block id="f5e9a997371da544ff3b8bba352ef6e5" category="paragraph">쉘프 ID 버튼을 두 번째 숫자가 깜박일 때까지 길게 누른 다음 을 눌러 0-9로 이동합니다. 참고: 첫 번째 자리의 깜박임이 멈추고 두 번째 숫자는 계속 깜박입니다.</block>
   <block id="72e911c52ba51e970a39b1b30b1c8424" category="paragraph">엔드 캡을 교체합니다.</block>
   <block id="241b3d2acad120dfd8decf92e173cd23" category="paragraph">황색 LED(!)가 나타날 때까지 10초 동안 기다립니다. 쉘프 ID를 설정한 후 드라이브 쉘프의 전원을 껐다가 다시 켭니다.</block>
   <block id="b12c60055be138bf7526b1769365b47e" category="image-alt">drw a900 전원이 켜져 있습니다</block>
@@ -4523,7 +4518,6 @@
   <block id="23b82013e68c4445eaa3ec355ca09fb4" category="summary">NVRAM 모듈은 NVRAM11 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.</block>
   <block id="b422a6f4d3945c00efbef5a1554df972" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM을 교체합니다. - AFF A900</block>
   <block id="4d365227a3a5ccf9886fa9c35ba6a99d" category="paragraph">NVRAM 모듈은 NVRAM11 및 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 분리하고 DIMM을 교체 모듈로 옮긴 다음 교체용 NVRAM 모듈을 섀시에 설치해야 합니다.</block>
-  <block id="50b70636b9b845e1cca7db72fbdeec68" category="paragraph">및 NVRAM DIMM을 교체하려면 NVRAMModule을 섀시에서 제거하고 모듈에 장애가 발생한 DIMM을 교체한 다음 NVRAM 모듈을 다시 설치해야 합니다.</block>
   <block id="356bb2eaf8fe1f9955f9f22e00ddcb54" category="paragraph">시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
   <block id="dad23827b140b55a3121c86e5b861fad" category="image-alt">drw a900 이동 NVRAM 모듈을 제거합니다</block>
   <block id="df3566616f23116dab812ba8e95510cb" category="image-alt">drw a900 NVRAM 모듈 내용을 제거합니다</block>
@@ -4537,13 +4531,11 @@
   <block id="c36d25abc9dfdbc31228c74f7e654d0c" category="list-text">섀시의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 섀시의 HA 상태를 "ha-config modify chassis_ha-state_"로 설정합니다</block>
   <block id="f95e8e8b229c3aee97b205509f91df66" category="section-title">6단계: 디스크 재할당</block>
   <block id="8672de10e3d8295abd1be60e2569c4c6" category="list-text">모든 코어 덤프는 'system node run-node local-node-name 파트너 savecore'입니다</block>
-  <block id="544b7fcf1fe2aaedd577ba107a7f6a56" category="paragraph">다음 명령을 입력하여 savecore 명령의 진행 상태를 모니터링할 수 있습니다. 'system node run-node local-node-name 파트너 savecore -s'</block>
   <block id="7285c4012d903a86f08da4d4eb643a35" category="paragraph">을 참조하십시오<block ref="1c9dcde47ee822b3ac120aae2f296f05" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="2a1253e1eb3f5fea69107948ef4c203d" category="summary">이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="cb0bd9965128fe9d9c7dc5fe35ba00fa" category="doc">빠른 단계 - AFF A900</block>
   <block id="86b058636c934f73a262e3a5469f088e" category="paragraph">이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 콘텐츠를 사용합니다.</block>
   <block id="cd9130a2736bae3213b0c2da4de3435e" category="inline-link-macro">AFF A900 설치 및 설정 지침</block>
-  <block id="4409045029375618296b6ed24e35aec6" category="paragraph"><block ref="4409045029375618296b6ed24e35aec6" category="inline-link-macro-rx"></block></block>
   <block id="6551c0f6e6caf0566c6eae152ecd7b38" category="doc">부팅 매체(AFF A900)를 교체합니다</block>
   <block id="10446d8e0f9e8e6b297995ce7dafe03c" category="doc">교체 프로세스 - AFF A900 을 완료합니다</block>
   <block id="fcc9aa8940599a2c3be38723a65e9e21" category="doc">DIMM-AFF A900을 교체합니다</block>
@@ -6373,7 +6365,6 @@
   <block id="432fbc80d952a560e7d764411dacca12" category="list-text">'storage failover -fromnode local' 명령을 사용하여 컨트롤러를 반환하십시오.</block>
   <block id="8af929f5f2bb65d4fe36d9188a257bba" category="list-text">콘솔 케이블을 수리된 컨트롤러로 옮기고 rsion -v 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
   <block id="3a11addb86720d7891a7b14fea7f4776" category="paragraph">손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.</block>
-  <block id="22a3fad7c3cfdd379a652e4aa08aa70e" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="1baf9f7ecc4554f61d6168e4897ea002" category="inline-link-macro-rx"></block>.</block>
   <block id="04b13459c31bdc128c187f2b882c3d74" category="list-text">정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다</block>
   <block id="087b01deb1bef7c8b4ffe6fe81283666" category="list-text">손상된 컨트롤러를 로더 프롬프트로 가져가십시오.</block>
   <block id="ebc5673f419bc9da94f2c2f001aaf3ff" category="cell">손상된 컨트롤러가 표시되는 경우...</block>
@@ -6430,7 +6421,6 @@
   <block id="c8dc5733d35c41c184dc2e9c60fd8a12" category="admonition">구성하는 타겟 포트는 네트워크 연결을 통한 var 파일 시스템 복원 중에 정상적인 컨트롤러에서 손상된 컨트롤러와 통신하는 데 사용하는 타겟 포트입니다. 이 명령에서 e0M 포트를 사용할 수도 있습니다.</block>
   <block id="8db7a5b6ece2af3b075639e41512d618" category="section-title">옵션 1: 컨트롤러를 종료합니다</block>
   <block id="b5d03ef67a171c85bf4bd311e2fd75df" category="paragraph">새 섀시로 이동하기 전에 섀시의 컨트롤러 또는 컨트롤러를 종료해야 합니다.</block>
-  <block id="c53eb92ae6b734f0f5b5e257acb152cb" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상적인 컨트롤러에 자격 및 상태에 대해 "거짓"으로 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="1baf9f7ecc4554f61d6168e4897ea002" category="inline-link-macro-rx"></block>.</block>
   <block id="93ff4b8a35c5f08ad3e97fdc9983948e" category="paragraph">클러스터에 2개의 컨트롤러</block>
   <block id="a0540c64b7001eb9739a6eed390808ac" category="paragraph">2개 이상의 컨트롤러가 클러스터에 있습니다</block>
   <block id="853a8c6f8383ee1dc5f3826af9ff6797" category="list-text">시스템 노드 halt-node_node_name_'을(를) 확인하는 메시지가 나타나면 컨트롤러를 중지하고 y를 누릅니다</block>
@@ -6545,12 +6535,8 @@
   <block id="1e27080aaa4839341247d89fa27230f6" category="list-text">손상된 컨트롤러는 유지 관리를 수행하는 컨트롤러입니다.</block>
   <block id="cb82be680779cb2f6fe87d5303395ca3" category="list-text">정상적인 컨트롤러는 손상된 컨트롤러의 HA 파트너입니다.</block>
   <block id="75058bf61b1188ee8304798f89ca02bf" category="paragraph">교체 컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
-  <block id="fa0bfd482c7a3a6dfc65930e176b0502" category="list-text">교체 컨트롤러가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다</block>
-  <block id="ba6fae1de76d6230e1c74a17242ebf97" category="list-text">교체 컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력합니다.</block>
-  <block id="a0d04de6e8774043ed7dd31ce11a9577" category="list-text">교체 컨트롤러 콘솔에 반환 대기 중... 메시지가 표시된 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. '스토리지 페일오버 표시'</block>
   <block id="590ef635c433371eead20b940bf6c429" category="list-text">정상적인 컨트롤러에서 교체된 컨트롤러의 스토리지를 다시 제공합니다. 'storage failover 반환 - ofnode replacement_node_name'</block>
   <block id="4cd2ac4c22d2d6323c4f80d036ea5320" category="paragraph">교체 컨트롤러가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
-  <block id="5e0cea5d67aaa32c62721aadfacd5df4" category="paragraph">교체 컨트롤러에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
   <block id="11cd58ab2810de65be01109093020b63" category="list-text">교체 컨트롤러는 재해 사이트에 있는 디스크의 현재 소유자입니다.</block>
   <block id="3f0db9aa8dd4145d2c4b64ea3481303a" category="list-text">이 절차에서는 교체 컨트롤러가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 교체 컨트롤러로 이동합니다.</block>
   <block id="c679e8417b3c86837c70fa5e162e77a6" category="list-text">손상된 컨트롤러는 교체되는 컨트롤러입니다.</block>
@@ -6767,9 +6753,6 @@
   <block id="8456c08b8772c6458de93a0a78ff4f85" category="paragraph">오른쪽 및 왼쪽 케이블 체인을 분리한 후 드라이브 쉘프에서 드라이브 드로어를 제거할 수 있습니다. 드라이브 드로어를 제거하려면 드로어 부분을 밖으로 밀어 빼내고 드라이브를 제거한 다음 드라이브 드로어를 제거해야 합니다.</block>
   <block id="40cfdd2fa544c18fef836a58df7bb2e9" category="list-text">설치할 드라이브에서 핸들을 수직으로 들어 올립니다.</block>
   <block id="2560c526c9d334c39cab4311db7eff4d" category="paragraph">부분적으로 채워진 쉘프가 있는 경우, 다시 설치할 드라이브 서랍에 지원되는 12개 드라이브 미만의 드라이브가 있는 경우, 처음 4개 드라이브를 전면 슬롯(0, 3, 6 및 9)에 설치하십시오.</block>
-  <block id="dbe360eaa5ee89fd4f31c500db9f2fd7" category="paragraph"><block ref="dbe360eaa5ee89fd4f31c500db9f2fd7" category="inline-link-rx"></block></block>
-  <block id="44eacc26d730bc46ddc55858ccb8e7e3" category="list-text">SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드의 이벤트 메시지('이벤트 로그 표시')를 확인해야 합니다.</block>
-  <block id="503506ac51c03177e4e29bdd8f3f83e0" category="list-text">에서 적절한 절차를 사용하여 스토리지 또는 볼륨 암호화 기능을 복원합니다<block ref="2ff5666698979ec87e001217f795c3dd" category="inline-link-rx"></block>.</block>
   <block id="b18ad0a07953c39e92025f3df711d7e8" category="list-text"><block ref="b18ad0a07953c39e92025f3df711d7e8" category="inline-link-rx"></block></block>
   <block id="137edbb782dbd05e84addda1ad111604" category="list-text"><block ref="137edbb782dbd05e84addda1ad111604" category="inline-link-rx"></block></block>
   <block id="d331c2ddc96dbf38f25371617243bf17" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="1ab03132ea6210439f901707b3806211" category="inline-link-macro-rx"></block>.</block>
@@ -7343,4 +7326,38 @@
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">필요한 것</block>
   <block id="7d60346fb854755b0fc4b8486f2e5769" category="section-title">1단계: ONTAP에서 _replacement_controller에 대한 라이센스 설치</block>
   <block id="541648f14089765ba6e8c3198be32507" category="section-title">2단계: 부팅 매체를 교체합니다</block>
+  <block id="6fdf23777adc5b39f52f2829b69833e5" category="inline-link-macro">노드를 클러스터와 동기화합니다</block>
+  <block id="1bb835185391c9f6463cb5dc111090d1" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
+  <block id="7260398ee351f45c2b93073dcc9f358d" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block> 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
+  <block id="692418fcc9983296fd6b89b4072b99d2" category="inline-link-macro">SED를 보호되지 않는 모드로 되돌리는 중입니다</block>
+  <block id="aa641c641cc4509747c629778ceba1e6" category="list-text">NetApp Storage Encryption을 사용하는 경우 의 지침에 따라 MSID를 재설정해야 합니다 <block ref="deeaf76d485e47e462d03c774bc2ca5e" category="inline-link-macro-rx"></block>.</block>
+  <block id="dca9d9d34ff973dbf261373e223aa9e4" category="list-text">SAN 시스템을 사용하는 경우 이벤트 메시지를 확인해야 합니다 <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix="(" category="inline-code"></block>) 손상된 컨트롤러 SCSI 블레이드의 경우. 를 클릭합니다<block ref="090678c8ba0a25df800d3d4eeaf19522" prefix=" " category="inline-code"></block> 명령은 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태를 표시합니다.</block>
+  <block id="03733c422db2a03d86659ae5a1e923dc" category="paragraph">다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.<block ref="387708b955ccf034fcf9197ad51ba879" prefix=" " category="inline-code"></block></block>
+  <block id="f1f0ba04096d04407de2d15a11510ac1" category="paragraph">시스템 프롬프트 또는 암호 프롬프트</block>
+  <block id="639008d04bbddd83a85cafeeb0a39a18" category="paragraph">이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 경우 무중단 암호화 기능을 제공하기 위해 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.</block>
+  <block id="96e55b268667b462cab9bd34069f1863" category="admonition">DIMM을 교체할 때는 이 단계가 필요하지 않습니다.</block>
+  <block id="ff0dc22dde7f31608d4b3c140aa680a6" category="list-text">SED MSID를 재설정합니다</block>
+  <block id="fc3118913338c7fb342195db815855cb" category="admonition">MetroCluster IP 구성을 케이블로 연결할 경우, 데이터 LIF 호스팅을 위해 포트 e0a/e0b를 사용할 수 있습니다(일반적으로 기본 IPSpace에 있음).</block>
+  <block id="450bb6c29a5f5af0fe4d1f8fcfcb4777" category="paragraph">전원 공급 장치 교체에는 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.</block>
+  <block id="3e476a4d56adc74857e9c49cf82980f1" category="list-text">시스템에는 4개의 전원 공급 장치가 있습니다.</block>
+  <block id="d35281b877a38ecad54d9ac919c0ff9a" category="list-text">전원 케이블을 전원 공급 장치에 다시 연결합니다.</block>
+  <block id="5803fc3bcce0b024b213bb355de85f8f" category="paragraph">NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다. 을 참조하십시오<block ref="86c3962fabec597b00cc6faeabccf883" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="312be20d26d0db2b40b706dc2f350028" category="image-alt">drw a900 OIE 변경 ns224 쉘프 ID IEOPS 836</block>
+  <block id="48fb10beb7e1cd15b9bdbab40aac9532" category="paragraph">선반 엔드 캡</block>
+  <block id="22f4a2aa68e94fdf29e1fc7d0f30d571" category="paragraph">선반 면판</block>
+  <block id="fd4a04a1b7abc5cadef1bf584e6e5547" category="paragraph">쉘프 ID LED</block>
+  <block id="700f4fc6f1e4c3e585e23be6378affa0" category="paragraph">쉘프 ID 설정 버튼</block>
+  <block id="1f35a49e1a9f3ad335b1add2e4080478" category="paragraph"><block ref="1f35a49e1a9f3ad335b1add2e4080478" category="inline-link-macro-rx"></block></block>
+  <block id="f37dfb2a27ff4e023e475b54c0ad055e" category="list-text">이 절차에는 새 NVRAM 모듈과 연결된 컨트롤러 모듈에 디스크를 자동으로 재할당하는 단계가 포함되어 있습니다. 이 절차에서 로 지정된 경우 디스크를 재할당해야 합니다. 반환 전에 디스크 재할당을 완료하면 문제가 발생할 수 있습니다.</block>
+  <block id="d73a26bc3e3d4896bae825c2a70691a4" category="paragraph">문자 및 번호가 매겨진 캠 래치</block>
+  <block id="3c327a3216d201c494ac60534e1a2117" category="paragraph">캠 래치가 완전히 잠금 해제되었습니다</block>
+  <block id="e1d6265d5c32eb8c4e989291b8d72d20" category="list-text">문자 및 번호가 매겨진 캠 래치가 I/O 캠 핀과 맞물릴 때까지 모듈을 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.</block>
+  <block id="bc62fa4bef9a4cd2a983ca01d5a5b1b3" category="paragraph">캠 래치가 완전히 잠금 해제되었습니다</block>
+  <block id="58e30dc94cdf372b64dac305fbb57bc0" category="section-title">5단계: 디스크 재할당</block>
+  <block id="7b0ac7dba1c185e5ac66482ca29488da" category="admonition">디스크 재할당은 NVRAM 모듈을 교체할 때만 필요합니다.</block>
+  <block id="84bda9f97f27f63cc6fa0c4cac3ddcb4" category="list-text">교체 컨트롤러가 유지보수 모드에 있는 경우( 을 표시합니다<block ref="2cf8a3bab83c4d2618c18eeeca9ebc98" prefix=" " category="inline-code"></block> 프롬프트), 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다.<block ref="4a1bde0ea8bcda2a591f42646813c477" prefix=" " category="inline-code"></block></block>
+  <block id="3cea6cd019ee970febca58bfe050e1cb" category="list-text">교체 컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력합니다.</block>
+  <block id="40ef2970d7d205d6f0ba4ecddaec7b51" category="list-text">반환 대기 중... 메시지가 컨트롤러 콘솔에 교체 모듈과 함께 표시된 후, 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block></block>
+  <block id="e8060bae9316148ae38460dbb2356f26" category="paragraph">교체 컨트롤러에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 node1이 소유한 디스크에 새 시스템 ID 151759706이 표시됩니다.</block>
+  <block id="209f885dfe9e7d41b82f04b945d68576" category="list-text">저장소 암호화가 활성화된 경우 **********</block>
 </blocks>

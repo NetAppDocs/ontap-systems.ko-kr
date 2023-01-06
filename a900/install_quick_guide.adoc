@@ -15,4 +15,4 @@ summary: 이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-link:../media/PDF/December_2021_Rev-1_AFFA900_ISI.pdf["AFF A900 설치 및 설정 지침"^]
+link:../media/PDF/December_2022_Rev-2_AFFA900_ISI.pdf["AFF A900 설치 및 설정 지침"^]

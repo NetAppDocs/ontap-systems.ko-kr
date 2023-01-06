@@ -12,7 +12,7 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 새 섀시로 이동하기 전에 섀시의 컨트롤러 또는 컨트롤러를 종료해야 합니다.
 
 .이 작업에 대해
-* 2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상적인 컨트롤러에 자격 및 상태에 대해 "거짓"으로 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/index.html["CLI를 사용한 관리 개요"^].
+* 2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우 `false` 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
 * AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
 +
 다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
