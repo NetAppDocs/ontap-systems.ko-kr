@@ -26,6 +26,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 +
 그러면 ONTAP에서 NSM 제거 이벤트를 처리할 수 있는 충분한 시간이 허용됩니다.
 
+* RTC 배터리를 교체하고 NSM 모듈을 다시 설치한 후 모듈이 부팅되면 ONTAP에서 실시간 클럭 시간이 업데이트됩니다.
 * * 모범 사례: * FRU 구성 요소를 교체하기 전에 시스템에 최신 버전의 NVMe 쉘프 모듈(NSM) 펌웨어 및 드라이브 펌웨어를 사용하는 것이 가장 좋습니다.
 +
 https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"^]
@@ -92,13 +93,6 @@ NOTE: 하단 NSM 모듈을 분리하는 경우 하단 레일이 래치 메커니
 NSM 모듈 덮개의 FRU 레이블은 NSM 모듈의 전면 및 전원 공급 장치의 오른쪽에 있는 RTC 배터리의 위치를 표시합니다.
 
 . 장애가 발생한 RTC 배터리를 물리적으로 식별합니다.
-+
-배터리 슬롯 옆의 보드에 있는 RTC 배터리 주의(황색) LED가 켜집니다.
-
-+
-
-NOTE: 쉘프에서 NSM 모듈을 제거한 후 장애가 발생한 RTC 배터리의 LED가 10분 동안 계속 켜져 있습니다.
-
 . RTC 배터리를 교체합니다.
 +
 .. 배터리함이 기울어진 각도(홀더에서 기울어진 상태)가 될 때까지 홀더에서 배터리를 부드럽게 밀어 꺼낸 후 홀더에서 들어 꺼냅니다.

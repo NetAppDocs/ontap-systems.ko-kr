@@ -196,4 +196,5 @@ NSM 모듈이 재부팅되면 운영자 디스플레이 패널 주의 LED가 꺼
 +
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"^]
 
+. 셸프의 두 NSM 모듈이 버전 0200 이상의 동일한 펌웨어 버전을 실행하고 있는지 확인합니다.
 

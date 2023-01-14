@@ -5354,8 +5354,6 @@
   <block id="27e678adf7638dee0685d336eee4d327" category="list-text">NSM 모듈 덮개 나비 나사를 풀고 덮개를 엽니다.</block>
   <block id="7109d4dc916d45e9366b7c657316ac40" category="paragraph">NSM 모듈 덮개의 FRU 레이블은 NSM 모듈 중앙의 방열판 양쪽에 2개씩 4개의 DIMM의 위치를 보여 줍니다.</block>
   <block id="8784146272dd716aac8c73ca366c7cc8" category="list-text">결함이 있는 DIMM을 물리적으로 식별합니다.</block>
-  <block id="dadd78fdb3c6e2ea2ea7ab4bbb929618" category="paragraph">DIMM에 결함이 있으면 시스템 콘솔에 어떤 DIMM에 결함이 있는지 나타내는 경고 메시지가 기록됩니다. 또한 DIMM 슬롯 옆의 보드에 있는 DIMM 주의(황색) LED가 켜집니다.</block>
-  <block id="813bee9559bf78c09aa8885a12d5320c" category="admonition">쉘프에서 NSM 모듈을 제거한 후 결함이 있는 DIMM의 LED가 10분 동안 계속 켜져 있습니다.</block>
   <block id="7a53774970ebbc388ee000791ae12db3" category="list-text">결함이 있는 DIMM을 교체합니다.</block>
   <block id="6b8676d0e83295cf2e06f62b67dc335e" category="list-text">동일한 방향으로 교체 DIMM을 삽입할 수 있도록 슬롯에 있는 DIMM의 방향을 기록해 둡니다.</block>
   <block id="40d7c94992ee1c119b1654a536669fe9" category="list-text">DIMM 슬롯의 양 끝에 있는 이젝터 탭을 천천히 밀어낸 다음 슬롯에서 DIMM을 들어 올려 슬롯에서 DIMM을 꺼냅니다.</block>
@@ -5675,8 +5673,6 @@
   <block id="f35ad689c95d772c71204022636dabe5" category="list-text">다음 비디오나 기록된 단계를 사용하여 팬을 교체할 수 있습니다.</block>
   <block id="4fe5c70371cacd7543cf54df75bedd0a" category="admonition">NSM 모듈 덮개의 FRU 레이블은 NSM 모듈의 후면 벽을 따라 5개의 팬의 위치를 표시합니다.</block>
   <block id="5605f4aa461ce479ba2b6762822acf2b" category="list-text">장애가 발생한 팬을 물리적으로 식별합니다.</block>
-  <block id="574b0c09ebc1f816ee7722cc2b16597c" category="paragraph">팬에 장애가 발생하면 시스템 콘솔에 어떤 팬이 고장났는지 나타내는 경고 메시지가 기록됩니다. 또한 팬 슬롯 근처의 보드에 있는 팬 주의(황색) LED가 켜집니다.</block>
-  <block id="1ab4aa2ef8e978637a25c0cebd43704b" category="admonition">쉘프에서 NSM 모듈을 제거한 후 장애가 발생한 팬의 LED가 10분 동안 계속 켜져 있습니다.</block>
   <block id="9d1ae14f2ff79acfc8e3625d7e49361b" category="list-text">장애가 발생한 팬을 교체합니다.</block>
   <block id="139ce540361536d483467917385aa5b2" category="list-text">파란색 터치 포인트가 있는 측면을 단단히 잡고 수직으로 들어올려 소켓에서 분리한 후 결함이 있는 팬을 분리합니다.</block>
   <block id="f722151f886b6d867be170b0ee89e837" category="list-text">교체용 팬을 가이드 안에 맞춘 다음 팬 모듈 커넥터가 소켓에 완전히 장착될 때까지 아래로 누릅니다.</block>
@@ -5737,8 +5733,6 @@
   <block id="69346a8711cdec1c863cab85cc16d548" category="list-text">다음 비디오 또는 기록된 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.</block>
   <block id="4666aab744a5064fa4082c8fac681c8b" category="paragraph">NSM 모듈 덮개의 FRU 레이블은 NSM 모듈의 전면 및 전원 공급 장치의 오른쪽에 있는 RTC 배터리의 위치를 표시합니다.</block>
   <block id="8e3521698724daea37d72f82d00b93c9" category="list-text">장애가 발생한 RTC 배터리를 물리적으로 식별합니다.</block>
-  <block id="803b47b0e40e190124f45c4a9e49deaf" category="paragraph">배터리 슬롯 옆의 보드에 있는 RTC 배터리 주의(황색) LED가 켜집니다.</block>
-  <block id="4ed28e0141128c6835c2a5c39d8fbd44" category="admonition">쉘프에서 NSM 모듈을 제거한 후 장애가 발생한 RTC 배터리의 LED가 10분 동안 계속 켜져 있습니다.</block>
   <block id="4230cd66e4b97c5c537e2fc66b106a54" category="list-text">RTC 배터리를 교체합니다.</block>
   <block id="bf6676c1b4e1cac9f1e6593249e2ba7d" category="list-text">배터리함이 기울어진 각도(홀더에서 기울어진 상태)가 될 때까지 홀더에서 배터리를 부드럽게 밀어 꺼낸 후 홀더에서 들어 꺼냅니다.</block>
   <block id="3b3396eaf97f4b90a50effb7d2321635" category="list-text">교체용 배터리를 기울어진 각도(홀더에서 기울어진 각도)로 홀더에 삽입하고 똑바로 세운 위치로 밀어 넣은 다음 완전히 장착될 때까지 커넥터에 단단히 누릅니다.</block>
@@ -5746,10 +5740,7 @@
   <block id="3450940c8a9ecd0f2f1b5db42f60269f" category="list-text">실패한 RTC 배터리를 포함하는 NSM 모듈의 주의(황색) LED와 쉘프 운영자 디스플레이 패널에 더 이상 불이 들어오지 않는지 확인합니다</block>
   <block id="fb2c468087eba8cb00705f3f757193dd" category="paragraph">NSM 모듈이 재부팅되고 더 이상 RTC 배터리 문제를 감지하지 않으면 NSM 모듈 주의 LED가 꺼집니다. 이 작업은 3~5분 정도 걸릴 수 있습니다.</block>
   <block id="ee902d4594abf28b5457ac82defd33ec" category="summary">ONTAP 9.7 이상을 실행 중인 HA 쌍의 NS224 드라이브 쉘프에서 부팅 미디어가 실패하거나, 쉘프가 NVMe 쉘프 모듈\(NSM\) 펌웨어 버전 1.1x 이상을 실행 중인 경우 부팅 미디어를 교체할 수 있습니다. 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 부팅 미디어를 중단 없이 교체할 수 있습니다.</block>
-  <block id="fe4889c3c14829f659038af092c58c0f" category="paragraph">ONTAP 9.7 이상을 실행 중인 HA 쌍의 NS224 드라이브 쉘프에서 부팅 미디어가 실패하거나, 쉘프가 NVMe 쉘프 모듈(NSM) 펌웨어 버전 1.1x 이상을 실행 중인 경우 부팅 미디어를 교체할 수 있습니다. 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 부팅 미디어를 중단 없이 교체할 수 있습니다.</block>
-  <block id="24ce88dcb36e4e61a4334746ee0dc49a" category="list-text">HA 쌍이 NSM 펌웨어의 최소 지원 버전을 포함하는 ONTAP 9.7 이상을 이미 실행하고 있거나, HA 쌍이 NSM 펌웨어 버전 1.1x 이상을 포함하는 ONTAP 9.6 버전을 이미 실행하고 있어야 합니다.</block>
   <block id="74f49f6f28d9fd5e7df6f1800c601a73" category="paragraph">컨트롤러의 콘솔에서 'storage shelf show-module' 명령을 입력하여 쉘프에 있는 NSM 펌웨어의 버전을 확인할 수 있습니다.</block>
-  <block id="553dc0c59541aeaac9552fd0e9932c27" category="paragraph">셸프에서 NSM 펌웨어 버전 1.1x 이상이 실행되고 있지 않으면 부팅 미디어를 교체할 수 없으며 NSM 모듈을 교체해야 합니다.</block>
   <block id="ab72df24859b52c3af8d40d64d3c4050" category="inline-link-macro">NSM 모듈-NS224 쉘프를 교체합니다</block>
   <block id="d444e316e4fbe4a790c7592f4ea0e4d7" category="paragraph"><block ref="d444e316e4fbe4a790c7592f4ea0e4d7" category="inline-link-macro-rx"></block></block>
   <block id="daeece39bd904e83241a90c8b8570c0a" category="list-text">Phillips #1 드라이버가 필요합니다.</block>
@@ -5759,8 +5750,6 @@
   <block id="9d0a00a5aff4ec18c5c781787962378b" category="list-text">부팅 미디어를 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp으로 반환할 수 있습니다.</block>
   <block id="d7fc7b8a28737104902684f03a8279e6" category="list-text">다음 비디오 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.</block>
   <block id="41d0446a43bf0ca4e32d8aa74acfb9dc" category="list-text">장애가 발생한 부팅 미디어를 물리적으로 찾습니다.</block>
-  <block id="2ac77c1f53d2acaf74354a442d9484d9" category="paragraph">부팅 미디어는 전원 공급 장치와 반대되는 선반 섀시 벽을 따라 있습니다. 부팅 미디어 슬롯 옆의 보드에 있는 부팅 미디어 주의(황색) LED가 켜집니다.</block>
-  <block id="926c6df0fdfeee94a62afab70e1f9cb3" category="admonition">NSM 모듈을 쉘프에서 제거한 후 10분 동안 LED가 계속 켜져 있습니다.</block>
   <block id="f100a7d7d4d0125055a6d5f3a0bea50d" category="list-text">부팅 미디어를 교체합니다.</block>
   <block id="0c6687325a026afea7971f92ec185cbb" category="list-text">1 십자 드라이버를 사용하여 부트 미디어의 하단(홈이 파인) 끝을 보드에 고정하는 나사를 조심스럽게 분리합니다.</block>
   <block id="76099b6de6a0677a0267f7925ff91f68" category="list-text">홈이 파인 부분을 약간 위로 돌려 부트 미디어를 분리한 다음 소켓에서 분리될 때까지 앞쪽으로 부드럽게 당겨 분리합니다.</block>
@@ -7360,4 +7349,12 @@
   <block id="40ef2970d7d205d6f0ba4ecddaec7b51" category="list-text">반환 대기 중... 메시지가 컨트롤러 콘솔에 교체 모듈과 함께 표시된 후, 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block></block>
   <block id="e8060bae9316148ae38460dbb2356f26" category="paragraph">교체 컨트롤러에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 node1이 소유한 디스크에 새 시스템 ID 151759706이 표시됩니다.</block>
   <block id="209f885dfe9e7d41b82f04b945d68576" category="list-text">저장소 암호화가 활성화된 경우 **********</block>
+  <block id="929bfee1ef6e5f44f83a22a0ee585e88" category="paragraph">팬에 장애가 발생하면 시스템 콘솔에 어떤 팬이 고장났는지 나타내는 경고 메시지가 기록됩니다.</block>
+  <block id="3f39e3eb27d53c3293d829964b0aec99" category="list-text">셸프의 두 NSM 모듈이 버전 0200 이상의 동일한 펌웨어 버전을 실행하고 있는지 확인합니다.</block>
+  <block id="c4a176fcfed8ad262bd0a9b82f87a961" category="paragraph">DIMM에 결함이 있으면 시스템 콘솔에 어떤 DIMM에 결함이 있는지 나타내는 경고 메시지가 기록됩니다.</block>
+  <block id="85cd9535810e294c0523d2b75788a394" category="paragraph">ONTAP 9.7 이상을 실행 중인 HA 쌍의 NS224 드라이브 쉘프에서 부팅 미디어가 실패하거나, 쉘프가 NVMe 쉘프 모듈(NSM) 펌웨어 버전 0111 이상을 실행 중인 경우 부팅 미디어를 교체할 수 있습니다. 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 부팅 미디어를 중단 없이 교체할 수 있습니다.</block>
+  <block id="8813a3bc6746d75d51a9aca6d90b54cb" category="list-text">HA 쌍이 NSM 펌웨어의 최소 지원 버전을 포함하는 ONTAP 9.7 이상을 이미 실행 중이거나, HA 쌍이 NSM 펌웨어 버전 0111 이상을 포함하는 ONTAP 9.6 버전을 이미 실행하고 있어야 합니다.</block>
+  <block id="480be366fc83dd9fbbf8246b5e2f9f40" category="paragraph">셸프에서 NSM 펌웨어 버전 0111 이상을 실행하고 있지 않으면 부팅 미디어를 교체할 수 없으므로 NSM 모듈을 교체해야 합니다.</block>
+  <block id="0c2b7daebf1a1e94a676675bf614fba6" category="paragraph">부팅 미디어는 전원 공급 장치와 반대되는 선반 섀시 벽을 따라 있습니다.</block>
+  <block id="178d438c63a174b511750f68655d814d" category="list-text">RTC 배터리를 교체하고 NSM 모듈을 다시 설치한 후 모듈이 부팅되면 ONTAP에서 실시간 클럭 시간이 업데이트됩니다.</block>
 </blocks>
