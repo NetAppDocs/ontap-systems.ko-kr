@@ -2979,8 +2979,6 @@
   <block id="604b91e7007f6b52b608d188580ff582" category="list-text"><block ref="604b91e7007f6b52b608d188580ff582" category="inline-link-macro-rx"></block></block>
   <block id="2e7119d7d654a51006d39261079ed460" category="doc">컨트롤러 모듈 AFF A700s를 제거합니다</block>
   <block id="24907dee7e4205c74e589d14a85e4bbd" category="doc">DIMM-AFF A700s를 교체합니다</block>
-  <block id="dec0306e681fc720cf31bc4851ebcee4" category="inline-link">ONTAP 9 시스템 관리 참조</block>
-  <block id="38093d6513bb2e960eab247f00f04533" category="paragraph"><block ref="38093d6513bb2e960eab247f00f04533" category="inline-link-rx"></block></block>
   <block id="bf7918e10696cda0294441f81ad32ee4" category="paragraph">"기백을 기다리는 중...</block>
   <block id="9de291eec146aa309ed46727b945c6d4" category="list-text">해당 라이저를 분리합니다.</block>
   <block id="a4e4695daf3bcdb3f2c31bf35c0a5950" category="paragraph">에어 덕트 커버</block>
@@ -3337,7 +3335,6 @@
   <block id="a618373732a54299b15020c4fdcc9ff7" category="doc">캐싱 모듈-FAS2600을 교체하십시오</block>
   <block id="f6f6b5bb4c3c117ebfdad565e3beb0c3" category="inline-link-macro">AFF FAS2600 캐싱 모듈 교체 비디오</block>
   <block id="083781fc87756a032121b806b4d18a92" category="paragraph"><block ref="083781fc87756a032121b806b4d18a92" category="inline-link-macro-rx"></block></block>
-  <block id="b95a2b769ddc69403557ab79e1942007" category="paragraph"><block ref="b95a2b769ddc69403557ab79e1942007" category="inline-link-rx"></block></block>
   <block id="308216007c5ec00e109a42c5068cc3de" category="paragraph">캐시 모듈을 교체하기 전에 캐시 모듈의 내용을 지울 수 있습니다.</block>
   <block id="6ec04a396d43adc0bf840cc9e4cce4b3" category="list-text">캐싱 모듈의 데이터가 암호화되지만 손상된 캐싱 모듈에서 데이터를 모두 지우고 캐싱 모듈에 데이터가 없는지 확인해야 할 수 있습니다.</block>
   <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 '시스템 컨트롤러 플래시 캐시 보안 삭제 실행' 데이터를 지웁니다</block>
@@ -6482,7 +6479,6 @@
   <block id="3df4b609e8276258189914063ffb17c2" category="list-text">다음 단계의 명령을 올바른 컨트롤러에 적용하는 것이 중요합니다.</block>
   <block id="6ecaf183574ece325cced3bb483dfdf9" category="list-text">impaired_node는 유지 관리를 수행하는 컨트롤러입니다.</block>
   <block id="d5e5a42c3659480b5bd0d7fe962a3e0d" category="list-text">healy_node는 손상된 컨트롤러의 HA 파트너입니다.</block>
-  <block id="aae78f4a3d47a08dddca98a632d4a75f" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우, 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다.</block>
   <block id="852ccbca31b38b90e5621b15b3d30e1b" category="paragraph">손상된 컨트롤러가 반환 대기 중인 것으로 나타나면 컨트롤러 장애 조치 takeover -ofnode_impaired_node_name _ 을(를) 인계하거나 중단합니다. 이때 손상된 컨트롤러가 반환 대기 중인 것으로 나타나면 Ctrl+C를 누른 후 y를 누릅니다.</block>
   <block id="fdd4547d2c765390cc53d47d00b7ed31" category="list-text">서비스되는 컨트롤러가 LOADER 프롬프트에 있지 않으면 'system node halt-node_node_name_' 컨트롤러를 재부팅합니다</block>
   <block id="bf333756fca94003818a0db8ced6f7d9" category="list-text">스토리지 페일오버 반환 -ofnode '_impaired_node_name_'의 스토리지 장애 복구를 통해 컨트롤러를 정상 작동 상태로 되돌립니다</block>
@@ -6744,7 +6740,6 @@
   <block id="2560c526c9d334c39cab4311db7eff4d" category="paragraph">부분적으로 채워진 쉘프가 있는 경우, 다시 설치할 드라이브 서랍에 지원되는 12개 드라이브 미만의 드라이브가 있는 경우, 처음 4개 드라이브를 전면 슬롯(0, 3, 6 및 9)에 설치하십시오.</block>
   <block id="b18ad0a07953c39e92025f3df711d7e8" category="list-text"><block ref="b18ad0a07953c39e92025f3df711d7e8" category="inline-link-rx"></block></block>
   <block id="137edbb782dbd05e84addda1ad111604" category="list-text"><block ref="137edbb782dbd05e84addda1ad111604" category="inline-link-rx"></block></block>
-  <block id="d331c2ddc96dbf38f25371617243bf17" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="1ab03132ea6210439f901707b3806211" category="inline-link-macro-rx"></block>.</block>
   <block id="ec5866194941126dcbe55d496f612191" category="list-text">장애가 있는 컨트롤러가 독립 실행형 구성이고 로더 프롬프트에서 에 문의하십시오 <block ref="d4b5db761eff3af8abec9c2aa8b19609" category="inline-link-macro-rx"></block>.</block>
   <block id="4729966d1b42f799e14eba4dd6dedbdb" category="paragraph"><block ref="4729966d1b42f799e14eba4dd6dedbdb" category="inline-link-rx"></block></block>
   <block id="60db4a77031ab02d5c7d793d8ee8e564" category="admonition">프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block></block>
@@ -7316,8 +7311,6 @@
   <block id="7d60346fb854755b0fc4b8486f2e5769" category="section-title">1단계: ONTAP에서 _replacement_controller에 대한 라이센스 설치</block>
   <block id="541648f14089765ba6e8c3198be32507" category="section-title">2단계: 부팅 매체를 교체합니다</block>
   <block id="6fdf23777adc5b39f52f2829b69833e5" category="inline-link-macro">노드를 클러스터와 동기화합니다</block>
-  <block id="1bb835185391c9f6463cb5dc111090d1" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
-  <block id="7260398ee351f45c2b93073dcc9f358d" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block> 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
   <block id="692418fcc9983296fd6b89b4072b99d2" category="inline-link-macro">SED를 보호되지 않는 모드로 되돌리는 중입니다</block>
   <block id="aa641c641cc4509747c629778ceba1e6" category="list-text">NetApp Storage Encryption을 사용하는 경우 의 지침에 따라 MSID를 재설정해야 합니다 <block ref="deeaf76d485e47e462d03c774bc2ca5e" category="inline-link-macro-rx"></block>.</block>
   <block id="dca9d9d34ff973dbf261373e223aa9e4" category="list-text">SAN 시스템을 사용하는 경우 이벤트 메시지를 확인해야 합니다 <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix="(" category="inline-code"></block>) 손상된 컨트롤러 SCSI 블레이드의 경우. 를 클릭합니다<block ref="090678c8ba0a25df800d3d4eeaf19522" prefix=" " category="inline-code"></block> 명령은 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태를 표시합니다.</block>
@@ -7357,4 +7350,6 @@
   <block id="480be366fc83dd9fbbf8246b5e2f9f40" category="paragraph">셸프에서 NSM 펌웨어 버전 0111 이상을 실행하고 있지 않으면 부팅 미디어를 교체할 수 없으므로 NSM 모듈을 교체해야 합니다.</block>
   <block id="0c2b7daebf1a1e94a676675bf614fba6" category="paragraph">부팅 미디어는 전원 공급 장치와 반대되는 선반 섀시 벽을 따라 있습니다.</block>
   <block id="178d438c63a174b511750f68655d814d" category="list-text">RTC 배터리를 교체하고 NSM 모듈을 다시 설치한 후 모듈이 부팅되면 ONTAP에서 실시간 클럭 시간이 업데이트됩니다.</block>
+  <block id="d067784c8bad4d41a4f87accd50abbc1" category="list-text">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
+  <block id="1c0138111ac00fdce24dc38ffd9859d5" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block> 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
 </blocks>
