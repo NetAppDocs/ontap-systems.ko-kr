@@ -6304,7 +6304,6 @@
   <block id="fb52499eab0b4b1b7caf5081ae4bb295" category="doc">컨트롤러 모듈 하드웨어(AFF A220 및 FAS2700)를 교체합니다</block>
   <block id="77c90a069b30ca068906f4bbc5d904e1" category="doc">온보드 암호화 키 확인 - AFF A220 및 FAS2700</block>
   <block id="c6eb316cc94904301a8765db5aa1680f" category="doc">부팅 미디어 교체 개요 - AFF A220 및 FAS2700</block>
-  <block id="332ecfda75eef89a55acd64671013612" category="doc">NS224 쉘프를 핫 추가합니다</block>
   <block id="3fa677b8ecb97b0ae0d14f9ded5ed49a" category="doc">손상된 컨트롤러 종료 - FAS500f</block>
   <block id="a27042b0e01fb9b4136d2de6e8c1db73" category="doc">온보드 암호화 키 확인 - FAS500f</block>
   <block id="ee2afac6b0f5165d1fc3096864ac9a41" category="doc">섀시 교체 개요 - FAS500f</block>
@@ -7352,4 +7351,5 @@
   <block id="178d438c63a174b511750f68655d814d" category="list-text">RTC 배터리를 교체하고 NSM 모듈을 다시 설치한 후 모듈이 부팅되면 ONTAP에서 실시간 클럭 시간이 업데이트됩니다.</block>
   <block id="d067784c8bad4d41a4f87accd50abbc1" category="list-text">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
   <block id="1c0138111ac00fdce24dc38ffd9859d5" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block> 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
+  <block id="305fade7b83ae4e7549b33a3ae1b1fd0" category="doc">쉘프-NS224 쉘프 핫 추가</block>
 </blocks>
