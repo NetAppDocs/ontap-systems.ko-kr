@@ -23,7 +23,9 @@
  a| 
 클러스터에 2개의 컨트롤러
  a| 
-클러스터 ha 수정 설정 false 스토리지 장애 복구 수정 노드 Node0 설정 false
+`cluster ha modify -configured false`
+
+'Storage failover modify -node Node0 -enabled false'
 
 
 

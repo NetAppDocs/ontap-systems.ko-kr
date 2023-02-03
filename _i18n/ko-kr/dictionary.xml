@@ -724,7 +724,6 @@
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
   <block id="880c0610027a11af7086ae7e380e12e5" category="list-text">시스템에 2개의 컨트롤러 모듈이 있는 경우 HA 쌍을 비활성화합니다.</block>
   <block id="d426a3f5c9c0e3362f4ed536e7643c03" category="cell">시스템에서 clustered ONTAP을 실행하는 경우...</block>
-  <block id="8d6f30824233e0351fc71f18fbb5c436" category="paragraph">클러스터 ha 수정 설정 false 스토리지 장애 복구 수정 노드 Node0 설정 false</block>
   <block id="b2aa61dcee4d7b77fcd001973469ddde" category="paragraph">'Storage failover modify -node Node0 -enabled false'</block>
   <block id="481250f3e8ec41b0e994305d8fc52b4a" category="paragraph">확인 메시지는 다음과 같습니다.</block>
   <block id="7da65b5a10b69b45b490009ac07696ff" category="paragraph">메시지가 나타나면 y를 선택합니다.</block>
@@ -3472,12 +3471,6 @@
   <block id="c65be06145c6932d272087d8bd0dc751" category="inline-link-macro">Nexus 5596</block>
   <block id="ee9afd7df5d1f09abe628235a0bbd29c" category="inline-link-macro">Nexus 3232C</block>
   <block id="43f44eb6eab88bd3dd44d614bab79684" category="inline-link-macro">Nexus 3132Q-V</block>
-  <block id="f453086a36d64a5193cd4183c14bcd72" category="inline-link-macro">AFF 8000 시리즈 설명서</block>
-  <block id="c651d2f010c85fa1c8605da5e127657e" category="paragraph"><block ref="c651d2f010c85fa1c8605da5e127657e" category="inline-link-macro-rx"></block></block>
-  <block id="71bdc94f19d5947bd1cb6d437f119ba2" category="inline-link-macro">FAS8000 시리즈 문서</block>
-  <block id="2b3a51bca746a221bf4a0af6d3098ccf" category="paragraph"><block ref="2b3a51bca746a221bf4a0af6d3098ccf" category="inline-link-macro-rx"></block></block>
-  <block id="c7e39e875a3a875d9445eace0794b0f5" category="inline-link-macro">FAS2500 시리즈 문서</block>
-  <block id="ebc5a75e4df8077b15f7cef6c123c7db" category="paragraph"><block ref="ebc5a75e4df8077b15f7cef6c123c7db" category="inline-link-macro-rx"></block></block>
   <block id="dc562a84ed096c677cedf44a7c5df0bf" category="inline-link-macro">DS2246 디스크 쉘프 문서</block>
   <block id="dd26152c70d312482c21516c3889b669" category="paragraph"><block ref="dd26152c70d312482c21516c3889b669" category="inline-link-macro-rx"></block></block>
   <block id="06df42750628898d4d9028ca8a299fb0" category="inline-link-macro">DS4486 디스크 쉘프 설명서</block>
@@ -4490,7 +4483,6 @@
   <block id="3c941071b26a1822e1cb4494c2fd71da" category="doc">손상된 컨트롤러 AFF A900을 종료합니다</block>
   <block id="68908cbb53a7b71659933af600697a19" category="summary">NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 실패한 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="d04f6248062fc9d16de8588d61c28d1e" category="doc">NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(AFF A900)을 교체하십시오</block>
-  <block id="b36f3c4187cae8553973b284879e1c97" category="paragraph">NVRAM11 배터리가 포함된 디스테이지 컨트롤러 전원 모듈(DCPM)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="90eb2af5a768fd638c695d0394817a0e" category="section-title">1단계: DCPM 모듈을 교체하십시오</block>
   <block id="6acd2520bad86e2719b0a66d04f59f28" category="list-text">모듈 손잡이의 테라 코타 잠금 버튼을 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.</block>
   <block id="dd70305ea5f8fef426dbcb35b56b5a51" category="paragraph">DCPM 모듈 테라코타 잠금 버튼</block>
@@ -6603,7 +6595,6 @@
   <block id="ed6243b9da8cbb52d7ded5d7a78d3b37" category="paragraph">stdin&gt;에서 해결되지 않은 지시문 - 포함:::./_include/drive_hotswap_sas.adoc.adoc []</block>
   <block id="2bed99b4660dcf909368c3a2ae62b513" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF A800</block>
   <block id="ad451e1c6a6a584f53b88b5c73144db7" category="doc">기타 모델</block>
-  <block id="07fa61787cd64fafda80a8c62e643a38" category="section-title">플랫폼 모델</block>
   <block id="7a31198e87ee2c9071d7bf63050a7088" category="section-title">쉘프 모델</block>
   <block id="03be12a0476133b21cb6c1c927956d23" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A220 및 FAS2700을 교체합니다</block>
   <block id="24b3b18d4ae3c460037fb58156d310c6" category="doc">FAS2700 시스템 설명서</block>
@@ -7352,4 +7343,44 @@
   <block id="d067784c8bad4d41a4f87accd50abbc1" category="list-text">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
   <block id="1c0138111ac00fdce24dc38ffd9859d5" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block> 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
   <block id="305fade7b83ae4e7549b33a3ae1b1fd0" category="doc">쉘프-NS224 쉘프 핫 추가</block>
+  <block id="859c951ebab21901f2fd6183c53339d5" category="summary">NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
+  <block id="8ea19d634d233a26f4f650bd2e2b467c" category="paragraph">NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
+  <block id="58fb0a507d97ff336e5db5d69ba846e9" category="inline-link">10GbE 연결을 위해 40GbE NIC 포트를 여러 10GbE 포트로 변환합니다</block>
+  <block id="8ae73aa056882e7b560f3b52b5764957" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 를 사용하여 이러한 포트를 10GbE 연결로 변환합니다<block ref="5ec041cdb2bbdf01cd4ea2c400b17495" prefix=" " category="inline-code"></block> 유지보수 모드의 명령입니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="d875f9fec183da794cd6d6245ef00d1d" category="paragraph"><block ref="272f3c49a4ec1753c70013d06165277b" prefix="" category="inline-code"></block></block>
+  <block id="1bb835185391c9f6463cb5dc111090d1" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
+  <block id="aae78f4a3d47a08dddca98a632d4a75f" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우, 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다.</block>
+  <block id="68d9e980b8b4998ef88139d7b7ab8ff6" category="paragraph"><block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block></block>
+  <block id="3cf0b39ddc0b0c6fbe705a62aacc7d3c" category="list-text">섀시 앞면에서 엄지 손가락으로 각 드라이브를 단단히 눌러 정지가 느껴질 때까지 밀어넣습니다. 이렇게 하면 드라이브가 섀시 중앙판에 단단히 고정됩니다.</block>
+  <block id="7acc547c8acfbe4a745ca72a3e0e83e4" category="image-alt">DRW A800 드라이브 장착형 IEOPS 960</block>
+  <block id="9fec9d1f051b750c4b137dc68aaa9695" category="list-text">섀시 후면으로 이동합니다. 아직 접지되지 않은 경우 올바르게 접지하십시오.</block>
+  <block id="3caccb46026f8affc6c95f65aa0c8af1" category="list-text">컨트롤러 모듈을 섀시 밖으로 밀어내고 안정적이고 평평한 표면에 놓습니다.</block>
+  <block id="9bc9bee1c7c86ea6e815437b4f02ff6c" category="paragraph">컨트롤러 모듈 하단을 섀시 밖으로 밀어낼 때 지지하는지 확인합니다. .</block>
+  <block id="1422875ceb77c2edc7c07474b11b3c6f" category="list-text">컨트롤러 모듈 에어 덕트를 엽니다.</block>
+  <block id="43ae4ee714a69574b12c2b05c54410b5" category="list-text">모듈 손잡이의 테라 코타 분리 단추를 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.</block>
+  <block id="0721343ac8e5e32a5122775fda62e4d0" category="doc">구성을 복원 및 확인합니다 - AFF A900</block>
+  <block id="4db8dbc03fb77b9d2fa1dabdeec7a07a" category="list-text">시스템 수준 진단 테스트를 다시 실행하십시오. + 시스템 수준 진단 프로그램 테스트에 다시 실패하면 에 문의하십시오 <block ref="d4b5db761eff3af8abec9c2aa8b19609" category="inline-link-macro-rx"></block>.</block>
+  <block id="22afc2cb7855948b6347ad0d5b8816a7" category="paragraph">스토리지 암호화가 활성화된 경우 적절한 절차를 따르십시오.</block>
+  <block id="2c35abfceaabbce6e9a2f24491d249c0" category="open-title">옵션 1: Onboard Key Manager 사용</block>
+  <block id="86b112e5aa1ced4fbffb09dded147e9f" category="list-text">노드를 부팅 메뉴로 부팅합니다.</block>
+  <block id="e07ae2ef2fbd56f8a3ced5a2ab602ded" category="list-text">옵션 10을 선택합니다.<block ref="cdca34dc3d7defb03d741a65d78de01c" prefix=" " category="inline-code"></block>.</block>
+  <block id="5affab7614cb0938ec2fe16dbf6094bd" category="list-text">프롬프트에 클러스터의 온보드 키 관리자 암호를 입력합니다. 예를 보려면 여기 를 참조하십시오. ******</block>
+  <block id="e1abc7408800fce9a7b34d2d5dca8aee" category="list-text">백업 키 데이터를 입력합니다</block>
+  <block id="99f5c4eee12090497e3ca28e84e49cab" category="admonition">암호 정보가 완료되면 노드가 부팅 메뉴로 돌아갑니다.</block>
+  <block id="0a2404583aab34668c1c8004bddabbaa" category="list-text">옵션 1을 선택합니다.<block ref="e6922a1788401c5ef431db829a2c387b" prefix=" " category="inline-code"></block></block>
+  <block id="c566d4828cd295258aa8097a90880602" category="open-title">옵션 2: 외부 관리자 사용</block>
+  <block id="0a05a9975c9259ea331a85366e41d3ce" category="list-text">옵션 11을 선택합니다.<block ref="0dd518498ab98fe1fd543910856e6153" prefix=" " category="inline-code"></block>.</block>
+  <block id="b0bab47307c92499e81bac9b25dc3e52" category="list-text">프롬프트에 관리 인증서 정보를 입력합니다. need example here *******</block>
+  <block id="453b94e2cc94c331c590159bf6b2d21e" category="admonition">관리 인증서 정보가 완료되면 노드가 부팅 메뉴로 돌아갑니다.</block>
+  <block id="6f7b977f442186b3a2cff79208772851" category="list-text">디스크의 MSID를 재설정합니다.</block>
+  <block id="55bbcb479d2d67bc8ad4b8a2598ddd48" category="inline-link">FIPS 드라이브 또는 SED(온보드 키 관리)에 데이터 인증 키 할당</block>
+  <block id="be8dfb1b8df54a914e06c0a343100004" category="list-text">온보드 저장소 암호화를 사용하는 경우 의 절차를 따릅니다<block ref="503b29df34267dc3c3e3b8927894b0ee" category="inline-link-rx"></block></block>
+  <block id="32c3cf2b38ceb59d729e7de2ff67fefc" category="inline-link">데이터 인증 키를 FIPS 드라이브 또는 SED(외부 키 관리)에 할당</block>
+  <block id="a785aecc0aa86cd8bf8795e1bc4c3e60" category="list-text">외부 키 관리자를 사용하고 있습니다. 의 절차를 따르십시오<block ref="c5282a2eb5b1733e45b98afbe5b54d05" category="inline-link-rx"></block></block>
+  <block id="a5462faa34b6cf806cb49f24d84b02a7" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="55c99fae85fce446adbb5ceb895cf55e" category="paragraph">섀시를 교체할 때 전원 공급 장치를 분리하려면 이전 섀시 뒷면에서 전원 공급 장치 4개를 껐다가 다시 분리해야 합니다.</block>
+  <block id="c56809d9cff2ea190c6fb9d67e804b42" category="paragraph">섀시를 교체할 때 섀시 전면에 있는 6개의 팬 모듈을 분리해야 합니다.</block>
+  <block id="63ee7e61fbd30f44f9b9df101a63a845" category="paragraph">이전 섀시 전면에서 2개의 디스테이징 컨트롤러 전원 모듈을 분리합니다.</block>
+  <block id="1d8e1f6692aa85c8d94c39dda8015fdb" category="paragraph">새 섀시가 랙 또는 캐비닛에 설치되면 USB LED 모듈을 이전 섀시 전면에서 새 섀시로 이동합니다.</block>
+  <block id="02c98171b36d44757b42c6b5c5d2acb9" category="paragraph">답변<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 유지보수 모드로 부팅하라는 메시지가 표시되면</block>
 </blocks>

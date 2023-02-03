@@ -15,16 +15,6 @@ summary: 이 링크를 사용하여 다른 AFF 및 FAS 시스템에 대한 설�
 
 
 
-== 플랫폼 모델
-
-link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62082["AFF 8000 시리즈 설명서"]
-
-link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61630["FAS8000 시리즈 문서"]
-
-link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61617["FAS2500 시리즈 문서"]
-
-
-
 == 쉘프 모델
 
 link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30410["DS2246 디스크 쉘프 문서"]
