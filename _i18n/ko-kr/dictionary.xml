@@ -4409,7 +4409,6 @@
   <block id="09fd8552ab48c65ddc70dbeb1978b198" category="paragraph">클러스터 네트워크</block>
   <block id="9e970bc474972d15dfb05462a6fa4595" category="paragraph">FC 광 네트워크</block>
   <block id="28746f946d763ce537494ffe0d6c6727" category="list-text">를 검토합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block> 그런 다음 해당 가이드에 나열된 필수 정보를 수집합니다.</block>
-  <block id="1fb0ebfbc5b5595571d6d5f9b6042526" category="image-alt">drw a900 tnsc 네트워크 케이블 연결</block>
   <block id="d718ffb6aaa936306ccf33aefa9f9462" category="paragraph">케이블 클러스터 인터커넥트 포트:</block>
   <block id="832e6447f3f0b4b7127bf98e691dabe2" category="list-text">슬롯 A4 및 B4(e4a)</block>
   <block id="afb27063fb1efe124e2c7a172cae259c" category="list-text">슬롯 A8 및 B8(e8a)</block>
@@ -4426,7 +4425,6 @@
   <block id="8b891f41fe066d01d04ca12a9bd0033f" category="paragraph">케이블 32 Gb FC 연결:</block>
   <block id="c368da6f34e41cf660fe742d1776c0c1" category="paragraph">슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 32Gb FC 네트워크 스위치에 연결합니다.</block>
   <block id="dea6830a53392dc3b1f30fb0a37fb5e4" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block>.</block>
-  <block id="4ee80bb938c529fd8e585ff1663b9324" category="image-alt">drw a900 스위치 방식 네트워크 케이블 연결</block>
   <block id="5f4965084173e3c414637c35200b73a8" category="paragraph">케이블 클러스터 인터커넥트 A 포트:</block>
   <block id="765c3c3f314b105120b116fa72fa83ec" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A4 및 B4(e4a).</block>
   <block id="370ef18034bcd8124be9ef4b4b76a551" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)</block>
@@ -4436,7 +4434,6 @@
   <block id="7a98f654f31b3263341788faed4ecbdd" category="section-title">옵션 1: AFF A900의 단일 NS224 드라이브 쉘프에 컨트롤러를 연결합니다</block>
   <block id="c60dbcf19edff60839d3c0fbf6f60f2a" category="paragraph">각 컨트롤러를 AFF A900 시스템의 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="5ec6942c74c6a8edac1d2288d383731d" category="list-text">다음 애니메이션 또는 도면을 사용하여 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다.</block>
-  <block id="3edbc67f0fd2ebb274aeb6ee9dd581fe" category="image-alt">drw a900 NS224 선반 케이블 1개</block>
   <block id="3a58f6912b98caf7435fd9f6896ba4c6" category="list-text">컨트롤러 A 포트 e2a를 쉘프의 NSM A의 포트 e0a에 연결합니다.</block>
   <block id="e4e47b4780428e178a9b09390f2362b3" category="list-text">컨트롤러 A 포트 e10b를 쉘프의 NSM B의 포트 e0b에 연결합니다.</block>
   <block id="393f89fb63e48229ad961dd1e405b53e" category="list-text">컨트롤러 B 포트 e2a를 쉘프의 NSM B에 있는 포트 e0a에 연결합니다.</block>
@@ -4446,7 +4443,6 @@
   <block id="46c91124d100547c9507fea50ae0639b" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="26fe6dbccc48fc5e3f27bb01af6740e6" category="list-text">다음 애니메이션 또는 다이어그램을 사용하여 컨트롤러를 NS224 드라이브 쉘프 2개에 연결하십시오.</block>
   <block id="2b31343b857fe67d64a1a976e200e971" category="paragraph"><block ref="2b31343b857fe67d64a1a976e200e971" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3cf9ca19fe84380073a6046bd956f972" category="image-alt">drw a900 NS224 선반 케이블 2개</block>
   <block id="1d4442969281e166b667219af7e7fe7b" category="list-text">쉘프 1의 NSM A e0a에 컨트롤러 A 포트 e2a를 연결합니다.</block>
   <block id="952e197be70605a4933f1fa544e89cf3" category="list-text">컨트롤러 A 포트 e10b를 쉘프 1의 NSM B e0b에 연결합니다.</block>
   <block id="92d9c39d99b3b14f8b5b4b785e697404" category="list-text">컨트롤러 A 포트 e2b를 쉘프 2의 NSM B e0b에 연결합니다.</block>
@@ -7383,4 +7379,17 @@
   <block id="63ee7e61fbd30f44f9b9df101a63a845" category="paragraph">이전 섀시 전면에서 2개의 디스테이징 컨트롤러 전원 모듈을 분리합니다.</block>
   <block id="1d8e1f6692aa85c8d94c39dda8015fdb" category="paragraph">새 섀시가 랙 또는 캐비닛에 설치되면 USB LED 모듈을 이전 섀시 전면에서 새 섀시로 이동합니다.</block>
   <block id="02c98171b36d44757b42c6b5c5d2acb9" category="paragraph">답변<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 유지보수 모드로 부팅하라는 메시지가 표시되면</block>
+  <block id="2adab982ea2c53caec320e625667e439" category="list-text">DCPM 모듈 바로 아래의 이전 섀시 전면에서 USB LED 모듈을 찾습니다.</block>
+  <block id="e9e9a6de5e421dfe8a5ccc0b156ecc94" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다<block ref="432345ed72f5509f18312f01d4f08dff" prefix=" " category="inline-code"></block> 명령 또는 시스템 포장 목록에서 선택합니다.</block>
+  <block id="bea43746a1060b2b6af67fba31ca2890" category="paragraph">다음 다이어그램에서는 일반적인 시스템의 모양과 주요 구성 요소가 시스템의 판독에 있는 위치를 보여 줍니다.</block>
+  <block id="2f50f96b8a95f8c73f9257ccd13d3c46" category="image-alt">섀시 ID IEOPS 856의 drw a900 컨트롤러</block>
+  <block id="ea69d5fd5f06add244968ab4b689c261" category="image-alt">drw a900 tnsc 네트워크 케이블 연결 IEOPS 933</block>
+  <block id="e1ed9dc03578bbf7dfdc44cf31220a86" category="image-alt">drw a900 스위치 네트워크 케이블 IEOPS 934</block>
+  <block id="f31eedcaeccdc6e2f0110a8d59512b5b" category="image-alt">drw a900 NS224 선반 케이블 1개 IEOPS 937</block>
+  <block id="de9724762d060c871892fe8183e35056" category="image-alt">drw a900 NS224 2개의 선반 케이블 IEOPS 938</block>
+  <block id="6f189db9f1b1dfc1be838de48c805168" category="video-title">애니메이션 - NVMe 드라이브 쉘프 ID를 설정합니다</block>
+  <block id="c81415a6ed927280dac360edb5000bc6" category="image-alt">IEOPS 941에서 drw a900 전원을 켭니다</block>
+  <block id="7a0118bb1b2d6a800462ca70c23a1876" category="image-alt">drw 9000 케이블 콘솔 스위치 컨트롤러 IEOPS 953</block>
+  <block id="1f583998630e94806bf5b9e059227dd4" category="paragraph"><block ref="1f583998630e94806bf5b9e059227dd4" category="inline-link-rx"></block></block>
+  <block id="9b0500b65158795cfc5abb2becae4e80" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
 </blocks>

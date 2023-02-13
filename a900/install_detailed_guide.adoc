@@ -190,6 +190,10 @@ image::../media/drw_9000_cable_management_arms.png[drw 9000 케이블 관리 암
 . 시스템 전면에 베젤을 부착합니다.
 
 
+다음 다이어그램에서는 일반적인 시스템의 모양과 주요 구성 요소가 시스템의 판독에 있는 위치를 보여 줍니다.
+
+image::../media/drw_a900_controller_in _chassis_ID_IEOPS-856.svg[섀시 ID IEOPS 856의 drw a900 컨트롤러]
+
 
 
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
@@ -217,9 +221,9 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
 .애니메이션 - 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
-video::7a55b98a-e8b8-41d5-821f-ac5b0032ead0[panopto]
+video::37419c37-f56f-48e5-8e6c-afa600095444[panopto]
 +
-image::../media/drw_a900_tnsc_network_cabling.png[drw a900 tnsc 네트워크 케이블 연결]
+image::../media/drw_a900_tnsc_network_cabling_IEOPS-933.svg[drw a900 tnsc 네트워크 케이블 연결 IEOPS 933]
 
 +
 |===
@@ -298,9 +302,9 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
 .애니메이션 - 스위치 클러스터 케이블 연결
-video::6381b3f1-4ce5-4805-bd0a-ac5b0032f51d[panopto]
+video::61ec11ec-aa30-474a-87a5-afa60008b52b[panopto]
 +
-image::../media/drw_a900_switched_network_cabling.png[drw a900 스위치 방식 네트워크 케이블 연결]
+image::../media/drw_a900_switched_network_cabling_IEOPS-934.svg[drw a900 스위치 네트워크 케이블 IEOPS 934]
 
 +
 |===
@@ -386,9 +390,9 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .. 다음 애니메이션 또는 도면을 사용하여 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다.
 +
 .애니메이션 - 단일 NS224 선반을 케이블로 연결합니다
-video::6520eb01-87b3-4520-9109-ac5b0032ea4e[panopto]
+video::8d8b45cd-bd8f-4fab-a4fa-afa5017e7b72[panopto]
 +
-image::../media/drw_a900_NS224_one shelf_cabling.png[drw a900 NS224 선반 케이블 1개]
+image::../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[drw a900 NS224 선반 케이블 1개 IEOPS 937]
 
 
 
@@ -450,12 +454,12 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 . 다음 애니메이션 또는 다이어그램을 사용하여 컨트롤러를 NS224 드라이브 쉘프 2개에 연결하십시오.
 +
 .애니메이션 - NS224 셸프 2개를 케이블로 연결합니다
-video::34098e39-73ad-45de-9af7-ac5b0032ea9a[panopto]
+video::ec143c32-9e4b-47e5-893e-afa5017da6b4[panopto]
 +
 image:../media/drw_a900_NS224_line_art_two shelf_cabling.png[""]
 
 +
-image::../media/drw_a900_NS224_two shelf_cabling.png[drw a900 NS224 선반 케이블 2개]
+image::../media/drw_a900_NS224_two_shelf_cabling_IEOPS-938.svg[drw a900 NS224 2개의 선반 케이블 IEOPS 938]
 
 +
 |===
@@ -514,7 +518,7 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/ns224/change-shelf-id.html["쉘프 ID-NS224 쉘프를 변경합니다"] 를 참조하십시오.
 
 +
-.애니메이션 - SAS 또는 NVMe 드라이브 쉘프 ID를 설정합니다
+.애니메이션 - NVMe 드라이브 쉘프 ID를 설정합니다
 video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 +
 image::../media/drw_a900_oie_change_ns224_shelf ID_IEOPS-836.svg[drw a900 OIE 변경 ns224 쉘프 ID IEOPS 836]
@@ -557,7 +561,7 @@ image:../media/legend_icon_04.png[""]
 .애니메이션 - 컨트롤러의 전원을 켭니다
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
-image::../media/drw_a900_power-on.png[drw a900 전원이 켜져 있습니다]
+image::../media/drw_a900_power-on_IEOPS-941.svg[IEOPS 941에서 drw a900 전원을 켭니다]
 
 +
 
@@ -629,7 +633,7 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 .. 시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 관리 스위치에 연결합니다.
 +
-image::../media/drw_9000_cable_console_switch_controller.png[drw 9000 케이블 콘솔 스위치 컨트롤러]
+image::../media/drw_9000_cable_console_switch_controller_IEOPS-953.svg[drw 9000 케이블 콘솔 스위치 컨트롤러 IEOPS 953]
 
 .. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
 
@@ -639,7 +643,7 @@ image::../media/drw_9000_cable_console_switch_controller.png[drw 9000 케이블 
 NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/ns224/change-shelf-id.html["쉘프 ID-NS224 쉘프를 변경합니다"] 를 참조하십시오.
 
 +
-.애니메이션 - SAS 또는 NVMe 드라이브 쉘프 ID를 설정합니다
+.애니메이션 - NVMe 드라이브 쉘프 ID를 설정합니다
 video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 +
 image::../media/drw_a900_oie_change_ns224_shelf ID_IEOPS-836.svg[drw a900 OIE 변경 ns224 쉘프 ID IEOPS 836]
