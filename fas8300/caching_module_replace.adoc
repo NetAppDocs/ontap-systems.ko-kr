@@ -40,11 +40,12 @@ link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-t
 .단계
 . 캐싱 모듈의 데이터가 암호화되지만 손상된 캐싱 모듈에서 데이터를 모두 지우고 캐싱 모듈에 데이터가 없는지 확인해야 할 수 있습니다.
 +
-.. 캐싱 모듈의 데이터를 지웁니다. 'system controller flash-cache secure-erase run-node_node_name_-device-id_device_id_'
-.. 캐시 모듈에서 'system controller flash-cache secure-erase show -node_node_name_' 데이터가 지워졌는지 확인합니다
+.. 캐싱 모듈의 데이터를 지웁니다. `system controller flash-cache secure-erase run -node _node name_ localhost -device-id _device_number_`
 +
-출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.
 
+NOTE: 를 실행합니다 `system controller flash-cache show` FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.
+
+.. 캐싱 모듈에서 데이터가 삭제되었는지 확인합니다. `system controller flash-cache secure-erase show`
 
 
 . AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=_number_of_hours_down_h' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다

@@ -3336,9 +3336,6 @@
   <block id="083781fc87756a032121b806b4d18a92" category="paragraph"><block ref="083781fc87756a032121b806b4d18a92" category="inline-link-macro-rx"></block></block>
   <block id="308216007c5ec00e109a42c5068cc3de" category="paragraph">캐시 모듈을 교체하기 전에 캐시 모듈의 내용을 지울 수 있습니다.</block>
   <block id="6ec04a396d43adc0bf840cc9e4cce4b3" category="list-text">캐싱 모듈의 데이터가 암호화되지만 손상된 캐싱 모듈에서 데이터를 모두 지우고 캐싱 모듈에 데이터가 없는지 확인해야 할 수 있습니다.</block>
-  <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 '시스템 컨트롤러 플래시 캐시 보안 삭제 실행' 데이터를 지웁니다</block>
-  <block id="236dd84b9226dbf8dfd98a6c46b59972" category="list-text">캐시 모듈에서 'system controller flash-cache secure-erase show-node_name'이라는 데이터가 지워졌는지 확인합니다</block>
-  <block id="af41b619bf9d50ddae2454efc001e4dd" category="paragraph">출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.</block>
   <block id="07b824a16e2eac6bafd600bdf983d340" category="list-text">독립 실행형 시스템의 경우 'system node halt_impaired_node_name_'</block>
   <block id="01ca059245897bf13f451aefdac2252d" category="section-title">3단계: 캐싱 모듈을 교체합니다</block>
   <block id="fcb47fab108a0238221cf0b2d24663f3" category="paragraph">컨트롤러의 레이블에 M.2 PCIe 카드라고 하는 캐싱 모듈을 교체하려면 컨트롤러 내부의 슬롯을 찾아 특정 단계를 따릅니다.</block>
@@ -4659,8 +4656,6 @@
   <block id="48d478390eb7cda13973a166fcbc6922" category="paragraph">다음 애니메이션, 그리기 또는 작성된 단계를 사용하여 섀시에 컨트롤러 모듈을 설치할 수 있습니다.</block>
   <block id="fe0879209afd1fc2f28d40077ccda980" category="doc">손상된 컨트롤러 - FAS8300 및 FAS8700을 종료합니다</block>
   <block id="05da715fdd840e7fc27dd764386018bc" category="doc">캐싱 모듈 교체 - FAS8300 및 FAS8700</block>
-  <block id="d457ea14ed8ca14254ad1d75e29dce09" category="list-text">캐싱 모듈의 데이터를 지웁니다. 'system controller flash-cache secure-erase run-node_node_name_-device-id_device_id_'</block>
-  <block id="b9106c27d735907c8812d337029e92be" category="list-text">캐시 모듈에서 'system controller flash-cache secure-erase show -node_node_name_' 데이터가 지워졌는지 확인합니다</block>
   <block id="8a653be38ee9a052d5a08a28a70c1d9e" category="paragraph">컨트롤러의 레이블에 Flash Cache라고도 하는 캐싱 모듈을 교체하려면 컨트롤러 내부에 있는 슬롯을 찾은 다음 특정 단계를 따르십시오. Flash Cache의 위치는 컨트롤러 모듈의 FRU 맵을 참조하십시오.</block>
   <block id="70edce28424200208b28981e9b221707" category="list-text">캐싱 모듈의 내용은 암호화되지만 모듈을 교체하기 전에 모듈 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오<block ref="89de74d6a86df9137b0ef3fb03a43036" category="inline-link-rx"></block> 을 방문하십시오.</block>
   <block id="bb90eba065615f7ac639d1758ba84812" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 캐싱 모듈을 교체할 수 있습니다.</block>
@@ -7375,9 +7370,6 @@
   <block id="192e7ded6d54e3ac04596dc33b9c67cf" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="741ade379895992f2a574e8e60de1571" category="section-title">2단계: 입출력 모듈 추가</block>
   <block id="31ac56c0f673cbef254563f6a8a32626" category="paragraph">시스템이 완전히 채워진 경우 기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 입출력 슬롯의 입출력 모듈을 변경할 수 있습니다.</block>
-  <block id="ed4dc030dff8dfc29b5cd17aafe4c26e" category="paragraph">== 2단계: 입출력 모듈 교체</block>
-  <block id="abd172307b56cb5c0bccb5323a67b886" category="paragraph">= 3단계: I/O 모듈 교체 후 컨트롤러를 재부팅합니다</block>
-  <block id="fd25e96fa9d35ae62fb86caa243d8698" category="paragraph">== 4단계: 오류가 발생한 부품을 NetApp에 반환합니다</block>
   <block id="74458273e576f4b2da617a6e0e209a5f" category="paragraph">저장소 암호화가 활성화된 경우 적절한 절차를 사용합니다.</block>
   <block id="23620cc2fa7491aefb480afbef75dac2" category="list-text">고객으로부터 받은 온보드 키 관리자의 암호를 입력합니다.</block>
   <block id="15247f97704eb964c60d179c321c1370" category="list-text">프롬프트에서 의 출력에서 백업 키 데이터를 붙여 넣습니다<block ref="6b6f6c1a8bc1fede794cda92ed140953" prefix=" " category="inline-code"></block> 또는<block ref="32ba7af89b7557f6e3e6d80a922080ce" prefix=" " category="inline-code"></block> 명령.</block>
@@ -7397,4 +7389,9 @@
   <block id="3aa5c10c865ad075f0b3003697aa0a31" category="inline-image-macro">너비 = 20px</block>
   <block id="5574e785cb3feaf25b9cde927c042bd5" category="paragraph"><block ref="5574e785cb3feaf25b9cde927c042bd5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="314032c5f76e6fcf7f32085e64ca9fd1" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="120b604fa0c5a5c9d522c8314c790770" category="inline-link-rx"></block>.</block>
+  <block id="757216293ea1da04339a2c9b8eaa2641" category="admonition">tar.gz 파일은 최소 4GB인 FAT32 형식의 파티션에 배치해야 합니다. FAT32 파티션은 최대 2TB일 수 있지만 Windows 내장 도구(예: diskpart)는 FAT32 파티션을 32GB보다 크게 포맷할 수 없습니다.</block>
+  <block id="e9d3276fadd16a57346b54cecf613793" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="5ffb603e9f437c31dabf66aeb6dc9941" prefix=" " category="inline-code"></block></block>
+  <block id="06dd51a0351c6bc1041f60a7a78358f1" category="admonition">를 실행합니다<block ref="77da07d2ad54f11335f6a0e867b30843" prefix=" " category="inline-code"></block> FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.</block>
+  <block id="955a29c530e47b3a4d397e3e2ff7a94a" category="list-text">캐싱 모듈에서 데이터가 삭제되었는지 확인합니다.<block ref="5a00050b2fc68dfbfe21cffc587aa407" prefix=" " category="inline-code"></block></block>
+  <block id="04f13a81f468108c54934d79ebdf3ceb" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓은 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 부품 번호로 카드를 찾습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다<block ref="432345ed72f5509f18312f01d4f08dff" prefix=" " category="inline-code"></block> 명령 또는 시스템 포장 목록에서 선택합니다.</block>
 </blocks>

@@ -16,11 +16,14 @@ summary: '시스템에서 모듈이 오프라인으로 전환되었다는 단일
 캐시 모듈을 교체하기 전에 캐시 모듈의 내용을 지울 수 있습니다.
 
 * 캐싱 모듈의 데이터가 암호화되지만 손상된 캐싱 모듈에서 데이터를 모두 지우고 캐싱 모듈에 데이터가 없는지 확인해야 할 수 있습니다.
-* 캐싱 모듈의 '시스템 컨트롤러 플래시 캐시 보안 삭제 실행' 데이터를 지웁니다
-* 캐시 모듈에서 'system controller flash-cache secure-erase show-node_name'이라는 데이터가 지워졌는지 확인합니다
++
+** 캐싱 모듈의 데이터를 지웁니다. `system controller flash-cache secure-erase run -node _node name_ localhost -device-id _device_number_`
++
 
+NOTE: 를 실행합니다 `system controller flash-cache show` FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.
 
-출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.
+** 캐싱 모듈에서 데이터가 삭제되었는지 확인합니다. `system controller flash-cache secure-erase show`
+
 
 * 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
 
