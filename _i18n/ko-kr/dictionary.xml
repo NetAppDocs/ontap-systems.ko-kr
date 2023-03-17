@@ -7394,4 +7394,7 @@
   <block id="06dd51a0351c6bc1041f60a7a78358f1" category="admonition">를 실행합니다<block ref="77da07d2ad54f11335f6a0e867b30843" prefix=" " category="inline-code"></block> FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.</block>
   <block id="955a29c530e47b3a4d397e3e2ff7a94a" category="list-text">캐싱 모듈에서 데이터가 삭제되었는지 확인합니다.<block ref="5a00050b2fc68dfbfe21cffc587aa407" prefix=" " category="inline-code"></block></block>
   <block id="04f13a81f468108c54934d79ebdf3ceb" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓은 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 부품 번호로 카드를 찾습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다<block ref="432345ed72f5509f18312f01d4f08dff" prefix=" " category="inline-code"></block> 명령 또는 시스템 포장 목록에서 선택합니다.</block>
+  <block id="3a5f51ab8f29522107285c1bd243bf95" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드가 출력에 나타나지 않거나 값이 "없음"인 경우 시스템은 혼합 스택을 지원하지 않습니다.</block>
+  <block id="b57b9debcc2348af5e609f2c38ecae74" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드에 "모두"가 표시되면 시스템은 혼합 스택을 지원합니다.</block>
+  <block id="7a2d660ca9e94c940789a57658eb9268" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드에 "Bridge-Attached(브리지 연결)"가 표시되면 스토리지 쉘프가 ATTO FiberBridge를 통해 연결된 경우에만 시스템이 혼합 스택을 지원합니다.</block>
 </blocks>
