@@ -48,7 +48,7 @@ image:../media/drw_A400_Remove_controller.png[""]
 video::49053752-e813-4c15-a917-ab190147fa6e[panopto]
 
 
-image::../media/drw_a400_empty_riser_remove.png[drw a400 빈 라이저 제거]
+image::../media/drw_a400_empty_riser_remove_IEOPS-1002.svg[drw a400 빈 라이저 IEOPS 1002 제거]
 
 . 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 . 공기 덕트를 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
@@ -98,7 +98,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 .애니메이션 - NVDIMM 배터리를 이동합니다
 video::94d115b2-b02a-4234-805c-aad9012f204c[panopto]
-image::../media/drw_A400_nvdimm-batt.png[drw A400 NVDIMM 배터리]
+image::../media/drw_A400_nvdimm-batt_IEOPS-1004.svg[drw A400 NVDIMM batt IEOPS 1004]
 
 . 에어 덕트를 엽니다.
 +
@@ -127,7 +127,7 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 .애니메이션 - 부팅 미디어를 이동합니다
 video::2a14099c-85de-4a84-867c-aad9012efac8[panopto]
-image::../media/drw_A400_Replace-boot_media.png[drw A400 부팅 미디어를 교체합니다]
+image::../media/drw_A400_Replace-boot_media_IEOPS-1007.svg[drw A400 부팅 미디어 IEOPS 1007 교체]
 
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
 +
@@ -165,7 +165,7 @@ video::f4ee1d4d-6029-4fe6-a063-aad9012f170b[panopto]
 
 .애니메이션 - 메자닌 카드 및 라이저 3을 이동합니다
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto]
-image::../media/drw_A400_Replace-PCIe-cards.png[drw A400 PCIe 카드를 교체합니다]
+image::../media/drw_A400_Replace-PCIe-cards_IEOPS-1008.svg[drw A400 PCIe 카드 IEOPS 1008 교체]
 
 . PCIe 라이저 1과 2를 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동합니다.
 +
@@ -206,7 +206,7 @@ DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트�
 
 .애니메이션 - DIMM을 이동합니다
 video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
+image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[drw A400 NVDIMM IEOPS 1009 교체]
 
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
 . DIMM을 올바른 방향으로 교체 컨트롤러 모듈에 삽입할 수 있도록 소켓에 있는 DIMM의 방향을 기록해 두십시오.

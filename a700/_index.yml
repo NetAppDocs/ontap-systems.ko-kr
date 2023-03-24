@@ -16,7 +16,7 @@ indexpage:
   - title: 설치 및 설정
     links:
     - title: 대부분의 구성
-      url: "/install-setup.html"
+      url: https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html
     - title: 패브릭 연결 MetroCluster 구성
       url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
     - title: MetroCluster 구성 확장

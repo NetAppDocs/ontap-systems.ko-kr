@@ -20,7 +20,6 @@ summary: 이 A 에서는 일반적인 NetApp 시스템 설치를 위한 단계�
 시스템을 설치하려면 NetApp Support 사이트에서 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
 
 .시작하기 전에
-[role="lead"]
 에 대한 액세스 권한이 있어야 합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 사이트 요구 사항 및 구성된 시스템에 대한 추가 정보를 확인하십시오.
 
 에 대한 액세스 권한을 가질 수도 있습니다 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["ONTAP 9 릴리즈 노트"^] 해당 버전의 ONTAP에서 이 시스템에 대한 자세한 내용을 확인하십시오.
@@ -171,7 +170,6 @@ image:../media/oie_cable_power.png[""]
 
 == 2단계: 하드웨어 설치
 
-[role="lead"]
 필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치해야 합니다.
 
 . 필요에 따라 레일 키트를 설치합니다.
@@ -198,14 +196,12 @@ image::../media/drw_a900_controller_in _chassis_ID_IEOPS-856.svg[섀시 ID IEOPS
 
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
-[role="lead"]
 스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.
 
 
 
 === 옵션 1: 스위치가 없는 2노드 클러스터
 
-[role="lead"]
 컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러에 케이블로 연결됩니다.
 
 .시작하기 전에
@@ -286,7 +282,6 @@ image:../media/oie_cable_sfp_gbe_copper.png[""]
 
 === 옵션 2: 스위치 클러스터
 
-[role="lead"]
 컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.
 
 .시작하기 전에
@@ -371,7 +366,6 @@ image:../media/oie_cable_sfp_gbe_copper.png[""]
 
 === 옵션 1: AFF A900의 단일 NS224 드라이브 쉘프에 컨트롤러를 연결합니다
 
-[role="lead"]
 각 컨트롤러를 AFF A900 시스템의 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.
 
 .시작하기 전에
@@ -436,7 +430,6 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 
 === 옵션 2: AFF A900의 2개의 NS224 드라이브 쉘프에 컨트롤러를 연결합니다
 
-[role="lead"]
 각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.
 
 .시작하기 전에
@@ -503,14 +496,12 @@ image:../media/oie_cable100_gbe_qsfp28.png[""]
 
 == 5단계: 시스템 설치 및 구성을 완료합니다
 
-[role="lead"]
 스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료할 수 있습니다.
 
 
 
 === 옵션 1: 네트워크 검색이 활성화된 경우
 
-[role="lead"]
 랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료할 수 있습니다.
 
 . 다음 애니메이션 또는 그리기를 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.
@@ -621,7 +612,6 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 
 === 옵션 2: 네트워크 검색이 활성화되지 않은 경우
 
-[role="lead"]
 Windows 또는 Mac 기반 랩톱 또는 콘솔을 사용하고 있지 않거나 자동 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.
 
 . 랩톱 또는 콘솔 케이블 연결 및 구성:
@@ -633,7 +623,7 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 .. 시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 관리 스위치에 연결합니다.
 +
-image::../media/drw_9000_cable_console_switch_controller_IEOPS-953.svg[drw 9000 케이블 콘솔 스위치 컨트롤러 IEOPS 953]
+image::../media/drw_A900_cable_console_switch_controller_IEOPS-953.svg[drw A900 케이블 콘솔 스위치 컨트롤러 IEOPS 953]
 
 .. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
 

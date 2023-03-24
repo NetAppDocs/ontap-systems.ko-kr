@@ -10,6 +10,7 @@ summary: 다음 비디오에서는 ONTAP 9.2를 실행하는 시스템의 엔드
 :imagesdir: ../media/
 
 
+[role="lead"]
 다음 비디오에서는 ONTAP 9.2를 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.
 
 link:https://youtu.be/WAE0afWhj1c["AFF FAS2600 설정 비디오"^]

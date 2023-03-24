@@ -49,7 +49,7 @@ HA 상태의 값은 다음 중 하나일 수 있습니다.
 독립형 구성
  a| 
 .. 유지보수 모드를 종료합니다
-.. 로 이동합니다 link:chassis_replace.html[""교체 프로세스를 완료합니다"].
+.. 로 이동합니다 link:chassis-replace-move-hardware.html["교체 프로세스를 완료합니다"].
 
 
 

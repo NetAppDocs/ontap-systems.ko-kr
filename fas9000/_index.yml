@@ -38,7 +38,7 @@ indexpage:
     - title: DIMM
       url: "/dimm-replace.html"
     - title: 팬
-      url: "/fan-replace.html"
+      url: "/fan-swap-out.html"
     - title: 입출력 모듈
       url: "/pci-cards-and-risers-replace.html"
     - title: LED USB 모듈

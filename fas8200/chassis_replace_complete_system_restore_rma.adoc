@@ -44,7 +44,7 @@ HA 상태는 모든 구성 요소에 대해 동일해야 합니다.
 독립형 구성
  a| 
 .. 유지보수 모드를 종료합니다
-.. 로 이동합니다 link:chassis_replace.html[""교체 프로세스를 완료합니다"].
+.. 로 이동합니다 link:chassis-replace-move-hardware.html["교체 프로세스를 완료합니다"].
 
 
 

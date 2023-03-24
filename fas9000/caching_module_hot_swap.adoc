@@ -72,7 +72,7 @@ NVMe slot status는 교체되어야 하는 caching module에 대한 화면 출�
 
 +
 
-NOTE: 를 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.nav.cr/home.html["명령 man 페이지"] 자세한 내용은 ONTAP 버전을 참조하십시오.
+NOTE: 를 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9121/["명령 man 페이지"^] 자세한 내용은 ONTAP 버전을 참조하십시오.
 
 . 캐싱 모듈을 제거합니다.
 +

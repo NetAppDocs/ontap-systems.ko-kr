@@ -498,8 +498,6 @@
   <block id="6c97fa57e091b1cbdae941c425706f24" category="list-text">아직 다시 하지 않았다면 나머지 시스템을 다시 정하십시오.</block>
   <block id="e868d163eb8c93826e8f9ef7d7b0613e" category="list-text">다음 단계는 시스템 구성에 따라 다릅니다.</block>
   <block id="97c16f2bd68041ac79ef06049407d0c7" category="list-text">유지 관리 모드 종료:</block>
-  <block id="6561961e36dc0d672367014bb35814b0" category="inline-link-macro">"교체 프로세스를 완료합니다</block>
-  <block id="65f64a7bdb4d22c25178d4fda4e009b6" category="list-text">로 이동합니다 <block ref="c0ff5fd751abc2ff7939ebc71dae2951" category="inline-link-macro-rx"></block>.</block>
   <block id="17c7d5cfc1341d03fca63b7c848b5ad1" category="paragraph">두 번째 컨트롤러 모듈과 HA 쌍</block>
   <block id="31f3689ce01f90a247c3f17346eb5f05" category="paragraph">유지보수 모드 종료: ' * halt * '</block>
   <block id="156eb6e82c7345080012a8f00d566c5e" category="paragraph">LOADER 프롬프트가 나타납니다.</block>
@@ -615,7 +613,6 @@
   <block id="159b1c0ea96f8dc44e01227e342600c4" category="image-alt">drw 2600 nvmem 배터리 분리</block>
   <block id="9d80f287709beea4f34371644025d541" category="list-text">NVMEM LED가 더 이상 켜져 있지 않은지 확인합니다.</block>
   <block id="2df619b7d1a08e00bedcc91e7f49e549" category="list-text">배터리 커넥터를 다시 연결합니다.</block>
-  <block id="0a980a0f7131164348aa395168430c19" category="list-text">로 돌아갑니다 <block ref="8d9485b043d2d189d21e80102089dac7" category="inline-link-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
   <block id="169525b3af51c8a1a1183325e19e3768" category="list-text">교체 DIMM을 올바른 방향으로 삽입할 수 있도록 소켓에서 DIMM의 방향을 기록해 두십시오.</block>
   <block id="1037b1c609239a848832f786d5ffba1b" category="image-alt">drw 2600 DIMM repl 애니메이션 gif</block>
   <block id="780061b11a4f33cc8eecc0c1fd85c471" category="list-text">정전기 방지 포장용 백에서 교체용 DIMM을 제거하고 DIMM을 모서리에 맞춰 슬롯에 맞춥니다.</block>
@@ -2147,8 +2144,6 @@
   <block id="d1ac48d4410d6102fa54b8b3405a83e5" category="paragraph"><block ref="d1ac48d4410d6102fa54b8b3405a83e5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9dfe7ca4d480fd4e10a0954286489a0f" category="paragraph">RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.</block>
   <block id="5d86a652667b386e0b98042631990c02" category="paragraph"><block ref="5d86a652667b386e0b98042631990c02" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dd1dcd1cd7a28bbfc3b5a581b055bce3" category="inline-link-macro">드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
-  <block id="564becbb42cc33012e00424619583eca" category="list-text">스토리지 케이블 연결: <block ref="42bf816180738dc1660363ee044d9786" category="inline-link-macro-rx"></block></block>
   <block id="eb9634f2ea796139d7f0aeca3f6ce2d4" category="section-title">옵션 2: 스위치 클러스터 케이블링</block>
   <block id="5b2974409018c6d4642074b9be18209d" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트/HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.</block>
   <block id="f5412d7277a9aad4f1e320bf63f0582b" category="paragraph">클러스터/HA 포트를 100GbE(QSFP28) 케이블로 연결:</block>
@@ -2164,8 +2159,6 @@
   <block id="fcc21d6aa5ce2f3d80b7b15b3efd7622" category="paragraph">컨트롤러 A를 쉘프에 연결합니다 <block ref="97ef6a28616ee1b44c8e319d2e09ad63" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5089e1d089fd198b7fe04eae5c1ed6b8" category="paragraph"><block ref="5089e1d089fd198b7fe04eae5c1ed6b8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf09fa2cd4cedb36165538f6f6133b7f" category="paragraph">컨트롤러 B를 쉘프에 연결: <block ref="adad54de70c837652052dc8fbe20179a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4402c8b8d6c489ed5617a151ffa90726" category="inline-link-macro">시스템 설치 및 구성을 완료합니다</block>
-  <block id="d183e64634b3038a2447a8af4bc6f415" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="cf51f79f23f70e62c97013df347c6a0f" category="inline-link-macro-rx"></block>.</block>
   <block id="e47141e6c8fccf9bfe115e4e18090b8e" category="section-title">옵션 2: 컨트롤러를 두 드라이브 쉘프에 연결합니다</block>
   <block id="a496c0eee37cdb410fb5999f04b37d60" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="6bd176ab7852b1804bc6113808615ff6" category="list-text">다음 그림 또는 작성된 단계를 사용하여 컨트롤러를 2개의 드라이브 쉘프에 연결할 수 있습니다.</block>
@@ -3218,7 +3211,6 @@
   <block id="f4c10aef61f6ce27a93c5212bf85139d" category="list-text">교체 컨트롤러 모듈에서 에어 덕트를 열고 애니메이션, 그림 또는 작성된 단계를 사용하여 컨트롤러 모듈에서 빈 라이저를 분리합니다.</block>
   <block id="8555f8973ccc4539a56ac495380c89d5" category="inline-link">교체용 컨트롤러 모듈에서 빈 라이저를 분리합니다</block>
   <block id="d5e62cab20ddc280f38e9a81562855fc" category="paragraph"><block ref="d5e62cab20ddc280f38e9a81562855fc" category="inline-link-rx"></block></block>
-  <block id="1f25549d09d9fee6b326b3ae80c2ed1b" category="image-alt">drw a400 빈 라이저 제거</block>
   <block id="d7b31bd33c49d2208df6af8e69383eb1" category="list-text">라이저 1 의 왼쪽에 있는 라이저 잠금 래치를 위로 돌려 공기 덕트 쪽으로 향하게 한 다음 라이저를 위로 들어 올려 옆에 둡니다.</block>
   <block id="94361a9fb6b7806dba08565d2eb8e812" category="list-text">나머지 라이저에 대해 이전 단계를 반복합니다.</block>
   <block id="467b2bc695ac2ddfea8c36e9a7b57ac2" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 전원 공급 장치를 교체 컨트롤러 모듈로 이동할 수 있습니다.</block>
@@ -3365,14 +3357,8 @@
   <block id="6050f7a94074865f0c7eb8f65b5c5a8f" category="cell">컨트롤러 이중화</block>
   <block id="21f105a570b6840e0f78f7fef2476046" category="cell">다음 절차를 따르십시오.</block>
   <block id="556696d309aaf81ce29c6a76f8f8a503" category="paragraph">HA 쌍</block>
-  <block id="91b91feeb88498e7be1c10bbbb6db4c2" category="inline-link-macro">HA 시스템에서 시스템 ID 변경 확인</block>
-  <block id="4e87b3c0f415f46d36e8fa6bd32a6ff7" category="paragraph"><block ref="4e87b3c0f415f46d36e8fa6bd32a6ff7" category="inline-link-macro-rx"></block></block>
   <block id="d7fb1a4bddb3db62efbcefc0f8162f42" category="paragraph">독립형</block>
-  <block id="465740a443e85d455a90494615d629b9" category="inline-link-macro">ONTAP에서 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다</block>
-  <block id="7070195bf98baff2e0462461db9cb074" category="paragraph"><block ref="7070195bf98baff2e0462461db9cb074" category="inline-link-macro-rx"></block></block>
   <block id="c35620e4053e83506175fd11f77f79d1" category="paragraph">2노드 MetroCluster 구성</block>
-  <block id="734e28e3c6b715a48c7043347210471e" category="inline-link-macro">2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다</block>
-  <block id="ca5a5e07d656cff35da2184538cfc5fb" category="paragraph"><block ref="ca5a5e07d656cff35da2184538cfc5fb" category="inline-link-macro-rx"></block></block>
   <block id="d7f3697202a93edfa9694f456f135d47" category="section-title">옵션 3: 2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다</block>
   <block id="50c99b8a77b810f6cd5e8517f4310c31" category="doc">전원 공급 장치 교체 - AFF A220 및 FAS2700</block>
   <block id="0bd0f5590e04be2da2285c986a099357" category="doc">비디오 - AFF A220 및 FAS2700</block>
@@ -3399,7 +3385,6 @@
   <block id="e38904d799c9886a80f28f3058df0f26" category="list-text">e0c 및 e0d</block>
   <block id="f8b677145fadd0e7b54924a472cde8af" category="list-text">* 또는 * e0e 및 e0f</block>
   <block id="dd31aac3fb199e23ada1b2d6967181ec" category="admonition">하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.</block>
-  <block id="6c9cda13d9d7d9f8f82d912175e78d9b" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="42bf816180738dc1660363ee044d9786" category="inline-link-macro-rx"></block></block>
   <block id="6d4bc3cf86318438b709fd5087158d59" category="section-title">옵션 2: 스위치 클러스터 케이블 연결, 통합 네트워크 구성</block>
   <block id="afcfe9ab06da740b8b6db896f79a9ba9" category="paragraph">컨트롤러의 관리 네트워크, UTA2 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 클러스터 인터커넥트 스위치에 케이블로 연결됩니다.</block>
   <block id="65dc5db3d1655dcd2f6bb2520a3cbef6" category="list-text">그래픽 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.</block>
@@ -3434,8 +3419,6 @@
   <block id="25e9c854cd268404ba760167e55a47b9" category="list-text">스택의 마지막 드라이브 쉘프에 있는 컨트롤러 2 포트 0b에서 IOM B 포트 3으로<block ref="1869c18bf4845d129ab70a2555c3fa58" category="inline-image-macro-rx" type="image"></block> 미니 SAS HD - 미니 SAS HD 케이블</block>
   <block id="8c2c57baca5559cc6deaa2d149cbcc7e" category="paragraph">드라이브 쉘프 스택이 둘 이상인 경우, 드라이브 쉘프 유형에 대한 _설치 및 케이블 연결 가이드_를 참조하십시오.</block>
   <block id="ba9a3cf272ff19e49b8066ab84a2b3dc" category="inline-link-macro">설치 및 케이블 연결</block>
-  <block id="a1770e5cf644990212f313f91eccb2d8" category="paragraph"><block ref="a1770e5cf644990212f313f91eccb2d8" category="inline-link-macro-rx"></block></block>
-  <block id="41e876cad607f9363190645026f4f818" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="cf51f79f23f70e62c97013df347c6a0f" category="inline-link-macro-rx"></block></block>
   <block id="a83c5e67d745b0c85b815af3214463cd" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우 시스템 설정을 완료합니다</block>
   <block id="cbd6e530c253bd69eae2efffc8a1d409" category="list-text">다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다</block>
   <block id="2c51278d41ddd5b0a5e4e43d5d054024" category="admonition">주소의 형식은 입니다<block ref="e3a42c8b12a27a5e78828d7419e57eb0" category="inline-link-rx"></block>.</block>
@@ -3451,8 +3434,6 @@
   <block id="9b84aee1c6149b8506044c563e4a3178" category="inline-link">AFF A220/FAS2700 시스템 설치 및 설정 지침</block>
   <block id="066c0a2f133fb39e8887805ab2dd11a0" category="doc">부팅 미디어(AFF A220 및 FAS2700)를 교체합니다</block>
   <block id="c4de84ea78d221e98599baf30d3e65d1" category="doc">DIMM-AFF A220 및 FAS2700을 교체합니다</block>
-  <block id="376b1cae869bbe8ab1cce68fdb30b696" category="inline-link-macro">DIMM을 교체합니다</block>
-  <block id="91e13f2779cb51174165fa30eaba7e5b" category="list-text">로 돌아갑니다 <block ref="cf268cc4bc5a73daf7348170b397c07d" category="inline-link-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
   <block id="322391dba2ed1aad7de572d3e59d7971" category="doc">캐싱 모듈(AFF A220 및 FAS2700)을 교체합니다</block>
   <block id="036daea01da005d10d91194975a425c2" category="doc">하드웨어 교체 - AFF A220 및 FAS2700</block>
   <block id="7b8a615da4ff1a4b66afd353c0a6117c" category="doc">컨트롤러 - AFF A220 및 FAS2700을 종료합니다</block>
@@ -3552,7 +3533,6 @@
   <block id="aa1a174912bdf6af0df4cc4027cdd0f4" category="paragraph"><block ref="aa1a174912bdf6af0df4cc4027cdd0f4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ef46fcdc16d2411ced3c889283ec70f6" category="paragraph">소프트웨어 설정 중 콘솔 연결</block>
   <block id="1a24d62ae37ede800baaffb6a6a891c2" category="inline-link-macro">4-포스트 랙에 SuperRail 설치</block>
-  <block id="09e80812def315f5cdd1c01dcdfeecd6" category="paragraph"><block ref="09e80812def315f5cdd1c01dcdfeecd6" category="inline-link-macro-rx"></block></block>
   <block id="a0c86487fec36ce37cba5bd44aad6322" category="image-alt">drw affa800 무게 주의</block>
   <block id="820d203fae081b8e985e10f5ba7a6241" category="image-alt">drw affa800 설치 케이블 관리</block>
   <block id="9e14ed70bdc7e6d3e7af539c06d65972" category="section-title">3단계: 컨트롤러 케이블을 연결합니다</block>
@@ -3760,7 +3740,6 @@
   <block id="bee1f07b307186667ad005db1d21960d" category="list-text">스토리지용 두 번째 X91148A 모듈을 설치하는 경우 슬롯 7의 모듈에 대한 분리 및 설치 단계를 반복합니다.</block>
   <block id="b8e74ae60e8625fb6ed112fc8da2a6b9" category="list-text">파트너 노드의 반환: 'storage failover 반환 - ofnode_target_node_name_'</block>
   <block id="9744ad3e63fafdf6d52c1d0eeed92d7d" category="inline-link">NS224 드라이브 쉘프 핫 추가</block>
-  <block id="da6e337f5926cf03f06bcd1c9fb63113" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="a5aecdce285751c9f856700f4feb4311" category="inline-link-rx"></block>.</block>
   <block id="cdfd03154a501c1cec5d7efd2122cb5e" category="doc">FAN-AFF A700 및 FAS9000을 바꿉니다</block>
   <block id="64f6b820ab2dfc538680f52ee5405553" category="list-text">팬 모듈의 주황색 버튼을 누르고 팬 모듈을 섀시에서 직선 방향으로 당겨 자유손으로 받칩니다.</block>
   <block id="88078bd3899896adbf5f6ff558fd57fe" category="image-alt">drw 9000 설치 팬을 제거합니다</block>
@@ -3813,7 +3792,6 @@
   <block id="ebc2b7657690ae02a25495dd970c279d" category="list-text">'system controller slot module show' 명령으로 slot 상태를 출력한다.</block>
   <block id="dac273d93724b47a21b755da953f81be" category="paragraph">NVMe slot status는 교체되어야 하는 caching module에 대한 화면 출력에 전원이 꺼진 상태로 표시됩니다.</block>
   <block id="9cdb076245d84700443d3aee5a21f0ff" category="inline-link">명령 man 페이지</block>
-  <block id="70241a33e23df22a0f8f997b18ff24a7" category="admonition">를 참조하십시오<block ref="853257fe46b33572328cc9f35a075f2a" category="inline-link-rx"></block> 자세한 내용은 ONTAP 버전을 참조하십시오.</block>
   <block id="d614131c818f5cecd09732e6431d6f96" category="list-text">캐싱 모듈을 제거합니다.</block>
   <block id="e1e044e9b2596ea55ccf2665031de0fc" category="image-alt">drw 9000이 FlashCache를 제거합니다</block>
   <block id="846c76a20561f327d04b080605ad1886" category="paragraph">주황색 해제 버튼</block>
@@ -3895,7 +3873,6 @@
   <block id="901fd883a5a0140d652136ffc6042723" category="paragraph"><block ref="901fd883a5a0140d652136ffc6042723" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1843827ef03aba05b85ff9846acb4a4f" category="list-text">FAS9000, AFF A700 및 ASA AFF A700, ONTAP 9.8 이상의 SAS 쉘프 케이블링:</block>
   <block id="e2da081ec1f9e5df221849d0bca3449a" category="paragraph"><block ref="e2da081ec1f9e5df221849d0bca3449a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2b5a9c03e0a3ef447899ed93ac4917cb" category="paragraph"><block ref="2b5a9c03e0a3ef447899ed93ac4917cb" category="inline-link-macro-rx"></block></block>
   <block id="90a326588028ddcde615038a3974e162" category="paragraph"><block ref="90a326588028ddcde615038a3974e162" category="inline-image-macro-rx" type="image"></block></block>
   <block id="51b3003c067a0d5dfcbcfbc5aab0240d" category="section-title">옵션 2: ONTAP 9.8 이상을 실행하는 AFF A700 및 ASA AFF A700 시스템의 단일 NS224 드라이브 쉘프에 컨트롤러 케이블 연결</block>
   <block id="2335e41d88b4562f66436306d6ba0268" category="paragraph">시스템 ONTAP 9.8 이상을 실행하는 AFF A700 또는 ASA AFF A700의 NS224 드라이브 쉘프에 있는 NSM 모듈에 각 컨트롤러를 연결해야 합니다.</block>
@@ -4504,15 +4481,12 @@
   <block id="dad23827b140b55a3121c86e5b861fad" category="image-alt">drw a900 이동 NVRAM 모듈을 제거합니다</block>
   <block id="df3566616f23116dab812ba8e95510cb" category="image-alt">drw a900 NVRAM 모듈 내용을 제거합니다</block>
   <block id="0133a8841f8d283d3a060042f4904613" category="list-text">NVRAM 모듈을 섀시에 설치합니다.</block>
-  <block id="d2afd23f9efb1f5de6cadd26fcce1cf5" category="section-title">5단계: 컨트롤러 모듈의 HA 상태를 확인하고 설정합니다</block>
   <block id="2afb3c10441f511142ed51efdd86c073" category="list-text">교체 컨트롤러 모듈의 유지보수 모드에서 모든 구성 요소가 동일한 'HA' 상태 즉, ha-config show를 표시하는지 확인합니다</block>
   <block id="e4d75425009bc77525096ccae70bd9ac" category="cell">모든 구성요소의 HA 상태는...</block>
   <block id="14d3c29aecf5054de86c0d913b978541" category="paragraph">4개 이상의 노드로 구성된 MetroCluster FC 구성</block>
   <block id="a81b41b0ce60920d308c876b3e9b38f1" category="paragraph">MetroCluster IP 구성</block>
   <block id="8d8e1d2c17edc6fe8262408b12b73390" category="list-text">컨트롤러 모듈의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 컨트롤러 모듈의 HA 상태를 "ha-config modify controller_ha-state_"로 설정하십시오</block>
   <block id="c36d25abc9dfdbc31228c74f7e654d0c" category="list-text">섀시의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 섀시의 HA 상태를 "ha-config modify chassis_ha-state_"로 설정합니다</block>
-  <block id="f95e8e8b229c3aee97b205509f91df66" category="section-title">6단계: 디스크 재할당</block>
-  <block id="8672de10e3d8295abd1be60e2569c4c6" category="list-text">모든 코어 덤프는 'system node run-node local-node-name 파트너 savecore'입니다</block>
   <block id="7285c4012d903a86f08da4d4eb643a35" category="paragraph">을 참조하십시오<block ref="1c9dcde47ee822b3ac120aae2f296f05" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="2a1253e1eb3f5fea69107948ef4c203d" category="summary">이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="cb0bd9965128fe9d9c7dc5fe35ba00fa" category="doc">빠른 단계 - AFF A900</block>
@@ -6545,7 +6519,6 @@
   <block id="507f9f4c8680d2c9a9bcba815a7976e8" category="image-alt">drw fas8300 스위치 방식 네트워크 케이블 연결</block>
   <block id="56cbc310abb53560871f37318fe0636d" category="image-alt">drw fas8300 ds224c 선반 3개</block>
   <block id="a28455bf2eecf6cc499c335ee152cd75" category="paragraph">다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.</block>
-  <block id="5a503439969930e9e348f79d2b8004d7" category="section-title">7단계: 스토리지 및 볼륨 암호화 기능 복원</block>
   <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
   <block id="de2d1282e102972a6af003781e9a5c02" category="paragraph">_SLDIAG: 로그 메시지가 없습니다. _</block>
   <block id="3f91c59c59a1243cb3f176daf3c9c054" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
@@ -6740,7 +6713,6 @@
   <block id="1360261f3d9e17642c609debfd62b1d6" category="admonition">FlashCache 모듈을 콜드 스왑해야 하거나 콜드 스왑하려면 입출력 모듈을 교체하는 절차를 따르십시오.</block>
   <block id="fa807167a57a5e7782f90326093319e4" category="list-text">캐시 모듈이 시스템에서 볼 수 있을 정도로 제대로 작동하고 있어야 합니다. 마지막 부팅 이후 캐시 모듈이 작동하지 않는 경우 이 절차를 사용할 수 없으며 콜드 스왑 절차를 사용해야 합니다.</block>
   <block id="bdd8c99ec41c2de3e99ba0a36e04bfbf" category="list-text">admin 권한 수준에서, target NVMe slot for removal, y를 준비하고, 계속할지 여부를 묻는 메시지가 표시되면 y를 응답한다. 'system controller slot module remove-node_name-slot slot_number' 다음 명령을 실행하면 node1의 슬롯 6-1이 제거되도록 준비되고 안전하게 제거할 수 있다는 메시지가 출력된다.</block>
-  <block id="e47fa3700d8c8b185b05f4e09285f497" category="admonition">를 참조하십시오<block ref="7dfdd4167a3eb44ee8af382f653a3ce0" category="inline-link-rx"></block> 자세한 내용은 ONTAP 버전을 참조하십시오.</block>
   <block id="68607949342d7df39c7770d809d0a5f2" category="image-alt">drw 9500 FlashCache를 제거합니다</block>
   <block id="5e8d2460689245ee00f6d51f5db543dc" category="paragraph">테라 코타 해제 버튼.</block>
   <block id="948a2b625585740c830fda62dae13d97" category="list-text">캐싱 모듈 앞면에 있는 테라코타 해제 단추를 누릅니다.</block>
@@ -6777,8 +6749,6 @@
   <block id="3b56ab083e8d5c37dcc957efc509182f" category="doc">전체 시스템 복원 - FAS9500</block>
   <block id="3f679ad9b20cbb8994ff36e9ce18d58f" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM-FAS9500을 교체합니다</block>
   <block id="140a295824b1023b2fcf1ac1414fc56b" category="paragraph">및 NVRAM DIMM을 교체하려면 NVRAM 모듈을 섀시에서 분리하고 모듈에서 장애가 발생한 DIMM을 교체한 다음 NVRAM 모듈을 다시 설치해야 합니다.</block>
-  <block id="566dc57c04b76274e7168e53e1eea041" category="list-text">손상된 노드는 유지보수를 수행 중인 노드입니다.</block>
-  <block id="350cecd9af7d98cbf31c22fbd46e60fe" category="list-text">정상 노드는 장애가 발생한 노드의 HA 파트너입니다.</block>
   <block id="821b1e6be57f410ab68ac2071fc04df4" category="doc">NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(FAS9500)을 교체하십시오</block>
   <block id="1aa73ef56da88752323de5876f9b3750" category="doc">전원 공급 장치 교체 - FAS9500</block>
   <block id="70ebba1c8f978f26a3ed9799176dd8a9" category="doc">컨트롤러 모듈 FAS9500을 교체합니다</block>
@@ -6840,17 +6810,6 @@
   <block id="f8cc7bd538c729e18dab57ecfd18b69e" category="video-title">애니메이션 - NVRAM 모듈을 교체합니다</block>
   <block id="9b191eaf82da57faf3acb37f96f84ca6" category="image-alt">drw 9500 이동 NVRAM 모듈을 제거합니다</block>
   <block id="1b75d6028af1363f62eb9a45010f31c4" category="image-alt">drw 9500NVRAM 모듈 내용을 제거합니다</block>
-  <block id="0855873e0fa5bed2d0067d6acae6c0df" category="paragraph">교체 노드를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.</block>
-  <block id="93a4033a981ca86f17e1c02656473521" category="list-text">교체 노드가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트("중지")로 이동합니다</block>
-  <block id="fbb9a853512346feaa4279f18e3efe8c" category="list-text">교체 노드 콘솔에 '반환 대기 중...' 메시지가 표시될 때까지 기다린 다음, 정상 노드에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. '스토리지 페일오버 표시</block>
-  <block id="2675f497966bc5cad0cdd88dbe6eab31" category="list-text">반환 명령을 실행하기 전에 'avecore' 명령이 완료될 때까지 기다리십시오.</block>
-  <block id="80de24e4482214278771d2b0f3142427" category="paragraph">다음 명령을 입력하여 'avecore' 명령의 진행 상태를 모니터링할 수 있습니다. 'system node run-node local-node-name PARTNER savecore -s'</block>
-  <block id="7a18402f95cb86527db24f56d6baec40" category="list-text">정상 노드에서 교체된 노드의 스토리지, 즉 'storage failover 반환 - ofnode replacement_node_name'을 반환하십시오</block>
-  <block id="3217c14b22c3695ed301b94539bd2dbb" category="paragraph">교체 노드가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
-  <block id="8a6fbf23d593cc1be4de4068cb3eeee1" category="paragraph">스토리지 failover show 명령의 출력에는 파트너 메시지에서 변경된 시스템 ID가 포함되어서는 안 됩니다.</block>
-  <block id="18963b05f9f3bc779f544c26aae06ab9" category="paragraph">교체 노드에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
-  <block id="cfe787a999b8c200091f805ad9426e24" category="list-text">교체 노드는 재해 사이트에 있는 디스크의 현재 소유자입니다.</block>
-  <block id="7c5a57d1d4b3b589da7f755562ad50f8" category="paragraph">을 참조하십시오<block ref="4b1c17d30e94cc8d68adcd4265a76547" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="2c2b9a83665e5336275a4320efcb9a16" category="image-alt">drw 9500 PCM을 탈거하십시오</block>
   <block id="31006bbd619d2a77e6fe8ac85bee0cc0" category="image-alt">drw 9500 PCM이 열려 있습니다</block>
   <block id="65b7d00d22ce12162c084039ae28de63" category="video-title">애니메이션 - RTC 배터리를 교체합니다</block>
@@ -7222,8 +7181,6 @@
   <block id="4efb7705f98005596f065e30ddf32363" category="section-title">다중 경로 HA 구성에서 내부 스토리지를 갖춘 플랫폼 및 다중 쉘프 스택 1개</block>
   <block id="835ecba5eb095440eda54c2f50f1ef89" category="paragraph">HA 쌍이 있는 경우 ONTAP는 시스템 구성을 '멀티경로 HA'로 표시합니다. 단일 컨트롤러 구성의 경우 ONTAP는 시스템 구성을 '멀티경로'로 표시합니다.</block>
   <block id="3f9904dabd6885ddf815902aade7d320" category="sidebar">내부 스토리지가 있는 플랫폼의 케이블 연결 워크시트 및 예</block>
-  <block id="e3fd55f400cc227fbbc7c777c0679db1" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
-  <block id="c51e6cbbe594b20461edba0d83817fce" category="list-text">BMC를 재부팅한 다음 노드를 재부팅합니다.</block>
   <block id="e727b00944f81e1d0a95c12886ac4641" category="inline-link-macro">아카이브</block>
   <block id="97a6415da8202d0321d49b92f019e7b1" category="paragraph">이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다. 하드웨어 지원 끝에 도달한 AFF 및 FAS 시스템에 대한 문서는 에서 고객이 사용할 수 있습니다 <block ref="5e4606a12c7b193a6ccb23ff349575d7" category="inline-link-macro-rx"></block>.</block>
   <block id="1c91d351b95f21de02a1d9bc700d73d0" category="list-text"><block ref="1c91d351b95f21de02a1d9bc700d73d0" category="inline-link-macro-rx"></block></block>
@@ -7312,7 +7269,6 @@
   <block id="3cea6cd019ee970febca58bfe050e1cb" category="list-text">교체 컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력합니다.</block>
   <block id="40ef2970d7d205d6f0ba4ecddaec7b51" category="list-text">반환 대기 중... 메시지가 컨트롤러 콘솔에 교체 모듈과 함께 표시된 후, 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block></block>
   <block id="e8060bae9316148ae38460dbb2356f26" category="paragraph">교체 컨트롤러에 속한 디스크에 새 시스템 ID가 표시되어야 합니다. 다음 예에서는 node1이 소유한 디스크에 새 시스템 ID 151759706이 표시됩니다.</block>
-  <block id="209f885dfe9e7d41b82f04b945d68576" category="list-text">저장소 암호화가 활성화된 경우 **********</block>
   <block id="929bfee1ef6e5f44f83a22a0ee585e88" category="paragraph">팬에 장애가 발생하면 시스템 콘솔에 어떤 팬이 고장났는지 나타내는 경고 메시지가 기록됩니다.</block>
   <block id="3f39e3eb27d53c3293d829964b0aec99" category="list-text">셸프의 두 NSM 모듈이 버전 0200 이상의 동일한 펌웨어 버전을 실행하고 있는지 확인합니다.</block>
   <block id="c4a176fcfed8ad262bd0a9b82f87a961" category="paragraph">DIMM에 결함이 있으면 시스템 콘솔에 어떤 DIMM에 결함이 있는지 나타내는 경고 메시지가 기록됩니다.</block>
@@ -7347,7 +7303,6 @@
   <block id="0a2404583aab34668c1c8004bddabbaa" category="list-text">옵션 1을 선택합니다.<block ref="e6922a1788401c5ef431db829a2c387b" prefix=" " category="inline-code"></block></block>
   <block id="c566d4828cd295258aa8097a90880602" category="open-title">옵션 2: 외부 관리자 사용</block>
   <block id="0a05a9975c9259ea331a85366e41d3ce" category="list-text">옵션 11을 선택합니다.<block ref="0dd518498ab98fe1fd543910856e6153" prefix=" " category="inline-code"></block>.</block>
-  <block id="453b94e2cc94c331c590159bf6b2d21e" category="admonition">관리 인증서 정보가 완료되면 노드가 부팅 메뉴로 돌아갑니다.</block>
   <block id="a5462faa34b6cf806cb49f24d84b02a7" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="55c99fae85fce446adbb5ceb895cf55e" category="paragraph">섀시를 교체할 때 전원 공급 장치를 분리하려면 이전 섀시 뒷면에서 전원 공급 장치 4개를 껐다가 다시 분리해야 합니다.</block>
   <block id="c56809d9cff2ea190c6fb9d67e804b42" category="paragraph">섀시를 교체할 때 섀시 전면에 있는 6개의 팬 모듈을 분리해야 합니다.</block>
@@ -7364,7 +7319,6 @@
   <block id="de9724762d060c871892fe8183e35056" category="image-alt">drw a900 NS224 2개의 선반 케이블 IEOPS 938</block>
   <block id="6f189db9f1b1dfc1be838de48c805168" category="video-title">애니메이션 - NVMe 드라이브 쉘프 ID를 설정합니다</block>
   <block id="c81415a6ed927280dac360edb5000bc6" category="image-alt">IEOPS 941에서 drw a900 전원을 켭니다</block>
-  <block id="7a0118bb1b2d6a800462ca70c23a1876" category="image-alt">drw 9000 케이블 콘솔 스위치 컨트롤러 IEOPS 953</block>
   <block id="1f583998630e94806bf5b9e059227dd4" category="paragraph"><block ref="1f583998630e94806bf5b9e059227dd4" category="inline-link-rx"></block></block>
   <block id="9b0500b65158795cfc5abb2becae4e80" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
   <block id="192e7ded6d54e3ac04596dc33b9c67cf" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.</block>
@@ -7375,7 +7329,6 @@
   <block id="15247f97704eb964c60d179c321c1370" category="list-text">프롬프트에서 의 출력에서 백업 키 데이터를 붙여 넣습니다<block ref="6b6f6c1a8bc1fede794cda92ed140953" prefix=" " category="inline-code"></block> 또는<block ref="32ba7af89b7557f6e3e6d80a922080ce" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="8726b2ef66dc0e734b269a3191597e11" category="paragraph">------------------------------ 백업 시작 -------------------------------------------------------</block>
   <block id="328f6eaec3741c1d0f9558d6c40c1da4" category="paragraph">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVHAVHAVHAVHAVHABOHAAAVHAAVHAAVH0AABAABAAH0AAHAAAHAAAHAAAH0AAHAAAHAAAH0AAHAAAHAAAHAAAHAAAHAAAHAAAH0AAAAAAHAAAHAAAH0AAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA . . . H4nPQM0nrDRYRA9SCv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</block>
-  <block id="26eef74dee0269079c9b6b002eeddb34" category="admonition">노드가 부팅 메뉴로 돌아갑니다.</block>
   <block id="1e4d7cab6ce42bcab6973efa42fc0b2c" category="list-text">보안 키 관리자 온보드 동기화 실행:</block>
   <block id="377fca3965b001b9bcc8843e1b287fe7" category="list-text">이전에 MSID가 설정되어 이 절차의 시작 부분에서 캡처된 경우 MSID를 재설정합니다.</block>
   <block id="a967d40ef247a202e5f1ce7a9626a0ca" category="list-text">를 사용하여 FIPS 드라이브 또는 SED에 데이터 인증 키를 할당합니다<block ref="8fc59e93e98503b6d1b1230269b06192" prefix=" " category="inline-code"></block> 명령.</block>
@@ -7397,4 +7350,37 @@
   <block id="3a5f51ab8f29522107285c1bd243bf95" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드가 출력에 나타나지 않거나 값이 "없음"인 경우 시스템은 혼합 스택을 지원하지 않습니다.</block>
   <block id="b57b9debcc2348af5e609f2c38ecae74" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드에 "모두"가 표시되면 시스템은 혼합 스택을 지원합니다.</block>
   <block id="7a2d660ca9e94c940789a57658eb9268" category="paragraph">SAS2/SAS3 혼합 스택 지원 필드에 "Bridge-Attached(브리지 연결)"가 표시되면 스토리지 쉘프가 ATTO FiberBridge를 통해 연결된 경우에만 시스템이 혼합 스택을 지원합니다.</block>
+  <block id="4a9a79dbcdff2c804e887801277bb57c" category="list-text">스토리지 케이블 연결: <block ref="64b4bebcc285271f3157ecc735b0c062" category="inline-xref-macro-rx"></block></block>
+  <block id="e90d1c109a9cd8d68a357882d5cf925c" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="84c1e7f35fa076545c5f4c4417de33e1" category="inline-xref-macro-rx"></block></block>
+  <block id="d12db64c0cb5cb862afbde49d98d6f25" category="inline-link-macro">교체 프로세스를 완료합니다</block>
+  <block id="e739fb18db4795dd1e2cea8f3c5244c3" category="list-text">로 이동합니다 <block ref="56c57196a2457d200e49164377b65ba5" category="inline-link-macro-rx"></block>.</block>
+  <block id="ba9fde9925258d03950e9c2d180f665c" category="image-alt">drw A400 부팅 미디어 IEOPS 1007 교체</block>
+  <block id="e7f3c0051e6bc5cbd205f59b35151985" category="inline-image-macro">너비 = 500px</block>
+  <block id="6a226d8716b094e1702259265b496684" category="paragraph"><block ref="6a226d8716b094e1702259265b496684" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afe794b290a5da51dd8b580fadd2b035" category="image-alt">drw A400 메자닌 카드 IEOPS 1006 교체</block>
+  <block id="a7f924c2147b80d349701c702d7f091f" category="image-alt">drw a400 빈 라이저 IEOPS 1002 제거</block>
+  <block id="54c5909d12d5c473924ce9b2c856a68d" category="image-alt">drw A400 NVDIMM batt IEOPS 1004</block>
+  <block id="947bc8320a7df1722adcc49a6bdc81ba" category="image-alt">drw A400 PCIe 카드 IEOPS 1008 교체</block>
+  <block id="85445cdcf89edd32e9cf4cb8554898a3" category="image-alt">drw A400 NVDIMM IEOPS 1009 교체</block>
+  <block id="f7e6cca62df33f4887013e8daaa9e77d" category="image-alt">drw A400 RTC 배치 IEOPS 1003</block>
+  <block id="f5a5a95a5282486c3989ed932401b693" category="image-alt">drw A900 케이블 콘솔 스위치 컨트롤러 IEOPS 953</block>
+  <block id="0ea0d47e034118a7f063c35eaf67ebd2" category="list-text">스토리지 암호화가 활성화된 경우 기능을 복원해야 합니다.</block>
+  <block id="718ea359d9cc2d2bff619909d16ec537" category="admonition">컨트롤러가 부팅 메뉴로 돌아갑니다.</block>
+  <block id="a9cbabd3f42c5ad7f4796dbf5e384b08" category="list-text">부팅 메뉴로 컨트롤러를 부팅합니다.</block>
+  <block id="1e37c9a4ea44b0a302091f02c74564c1" category="admonition">관리 인증서 정보가 완료되면 컨트롤러가 부팅 메뉴로 돌아갑니다.</block>
+  <block id="34dbbed571bcfe30f4b9897172116b74" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block></block>
+  <block id="24ed59b86428c96c86204227163206c0" category="paragraph"><block ref="24ed59b86428c96c86204227163206c0" category="inline-link-rx"></block></block>
+  <block id="90d49fcc83418b049803a1b2081f3c6b" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block></block>
+  <block id="14fa1a86493af188cbb574d402b31f1b" category="list-text">로 돌아갑니다 <block ref="c67cdb63ab5b46180d9910dcb0f03689" category="inline-xref-macro-rx"></block> NVMEM LED를 다시 확인하려면 이 절차를 수행하십시오.</block>
+  <block id="ba17e519b189ae10cd004d12dcc5e44d" category="paragraph"><block ref="751c01f8467f96987ff97e3a647e9973" category="inline-xref-macro-rx"></block></block>
+  <block id="c1918f58421ab69768df267ff2412c99" category="paragraph"><block ref="0b030be2689b90a40f49c456c91f18ec" category="inline-xref-macro-rx"></block></block>
+  <block id="b102c1828cf53d9df33f622c2208da4c" category="paragraph"><block ref="6ac3340c69a46ee235155eba76c461d6" category="inline-xref-macro-rx"></block></block>
+  <block id="68495e0db11cd8c3fcd536c93ecb150b" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="8b1d41e5fd14f554e8b3490e0dfd47ae" category="inline-link-rx"></block>.</block>
+  <block id="d034ad76bb5b20c4f0a1790c3665c3b2" category="paragraph"><block ref="d034ad76bb5b20c4f0a1790c3665c3b2" category="inline-link-rx"></block></block>
+  <block id="7be2f40216e9676314a384c650694fed" category="admonition">를 참조하십시오<block ref="17d46f7a995ead494ec7b2eb9caffda8" category="inline-link-rx"></block> 자세한 내용은 ONTAP 버전을 참조하십시오.</block>
+  <block id="1fad4d8ec174b60255a8febb2707e048" category="paragraph"><block ref="1fad4d8ec174b60255a8febb2707e048" category="inline-link-rx"></block></block>
+  <block id="8427b7c5bd63cec67b7bb2edba538972" category="list-text">노드를 재부팅합니다.</block>
+  <block id="8c2c8bc4e47d0ed180d7a321a6f45a30" category="paragraph">NVRAM 모듈을 교체하려면 섀시의 슬롯 6에 있는 모듈을 찾은 다음 특정 단계를 따르십시오.</block>
+  <block id="44e91a10c5fb9bc923eb6ca613b41106" category="list-text">문자 및 번호가 매겨진 캠 래치를 누릅니다.</block>
+  <block id="35ed901089030d76b9de29f7bb8d54ce" category="paragraph">캠 래치가 섀시에서 멀어 집니다.</block>
 </blocks>

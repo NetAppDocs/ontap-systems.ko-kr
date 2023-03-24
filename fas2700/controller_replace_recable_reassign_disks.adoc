@@ -47,21 +47,21 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
  a| 
 HA 쌍
  a| 
-link:controller_replace_complete_system_restoration.md#["HA 시스템에서 시스템 ID 변경 확인"]
+<<옵션 1: HA 시스템의 시스템 ID 변경을 확인합니다>>
 
 
 
  a| 
 독립형
  a| 
-link:controller_replace_complete_system_restoration.md#["ONTAP에서 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다"]
+<<옵션 2: ONTAP의 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다>>
 
 
 
  a| 
 2노드 MetroCluster 구성
  a| 
-link:controller_replace_complete_system_restoration.md#["2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다"]
+<<옵션 3: 2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다>>
 
 |===
 

@@ -10,6 +10,7 @@ summary: '환경 변수를 선택한 후에는 온보드 키 관리자(OKM), Net
 :imagesdir: ../media/
 
 
+[role="lead"]
 환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)가 활성화된 시스템과 관련된 단계를 완료해야 합니다.
 
 OKM, NSE 또는 NVE 구성을 복원하는 데 사용할 섹션을 결정합니다.
