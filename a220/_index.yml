@@ -1,20 +1,14 @@
 ---
 indexpage:
   tiles:
-  - title: 시작하십시오 
-    links:
-    - title: ONTAP 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-    - title: 새로운 소식
-      url: "../whats-new.html"
-    - title: 시스템 데이터 시트
-      url: https://www.netapp.com/media/8937-ds-3929.pdf
-    - title: 스토리지 데이터 시트
-      url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
   - title: 설치 및 설정
     links:
-    - title: 대부분의 구성
-      url: "../fas2700/install-setup.html"
+    - title: 빠른 단계
+      url: "../fas2700/install-quick-guide.html"
+    - title: 비디오 단계
+      url: "../fas2700/install-videos.html"
+    - title: 세부 단계
+      url: "../fas2700/install-detailed-guide.html"
     - title: 패브릭 연결 MetroCluster 구성
       url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
     - title: MetroCluster 구성 확장
@@ -37,41 +31,21 @@ indexpage:
       url: "../fas2700/power-supply-swap-out.html"
     - title: RTC 배터리
       url: "../fas2700/rtc-battery-replace.html"
-  - title: 학습
+    - title: SAS 쉘프
+      url: "../sas3/index.html"
+  - title: 지원되는 스위치
     links:
-    - title: 내장 디스크 드라이브 비디오 교체
-      url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
-    - title: VMware Horizon View를 지원하는 비영구적 데스크톱용 NetApp All-Flash FAS 솔루션 | TR-4539
-      url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
-  - title: 쉘프를 추가하거나 제거합니다
-    links:
-    - title: IOM12가 포함된 SAS
-      url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
-  - title: 스위치 설치 및 유지 관리
-    links:
-    - title: Broadcom 지원 스위치
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/
-    - title: Cisco 스위치
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/
-  - title: 업그레이드
+    - title: BES-53248
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
+    - title: Cisco Nexus 9336C-FX2
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
+    - title: 공유 구성의 Cisco Nexus 9336C-FX2
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
+  - title: 추가 문서 리소스
     links:
     - title: 시스템 하드웨어 업그레이드
       url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
     - title: ONTAP 소프트웨어 업그레이드
       url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
-  - title: 더 많은 리소스
-    links:
-    - title: ONTAP 설명서
-      url: https://docs.netapp.com/us-en/ontap/
-    - title: NetApp Hardware Universe를 참조하십시오
-      url: https://hwu.netapp.com/home/index
-    - title: NetApp Active IQ 디지털 자문업체
-      url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: NetApp Active IQ Config Advisor를 참조하십시오
-      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
-    - title: NetApp 상호 운용성 매트릭스 툴
-      url: https://mysupport.netapp.com/matrix/#welcome
-    - title: NetApp 지원 기술 자료
-      url: https://kb.netapp.com/
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/
+    - title: 내부 디스크 드라이브 교체(비디오)
+      url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ

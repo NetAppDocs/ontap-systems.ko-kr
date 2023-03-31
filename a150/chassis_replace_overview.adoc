@@ -1,0 +1,21 @@
+---
+permalink: a150/chassis-replace-overview.html 
+sidebar: sidebar 
+keywords: aff a150, a150, aff, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
+summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
+---
+= 섀시 교체 개요 - AFF A150
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+섀시를 교체하려면 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꿔야 합니다.
+
+시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+* 이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다.
+* 이 절차는 모든 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 구성됩니다.
+* 이 절차는 중단을 따릅니다. 2-컨트롤러 클러스터의 경우, 다중 노드 클러스터의 서비스 운영이 중단되어 부분 중단이 발생할 수 있습니다.
+

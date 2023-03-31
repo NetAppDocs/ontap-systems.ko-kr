@@ -1,14 +1,6 @@
 ---
 indexpage:
   tiles:
-  - title: 시작하십시오 
-    links:
-    - title: ONTAP 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-    - title: 새로운 소식
-      url: "../whats-new.html"
-    - title: 스토리지 데이터 시트
-      url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
   - title: 설치 및 설정
     links:
     - title: 쉘프를 핫 추가합니다
@@ -35,19 +27,3 @@ indexpage:
       url: "/service-replace-power-supply.html"
     - title: RTC 배터리
       url: "/service-replace-rtc-battery.html"
-  - title: 더 많은 리소스
-    links:
-    - title: ONTAP 설명서
-      url: https://docs.netapp.com/us-en/ontap/
-    - title: NetApp Hardware Universe를 참조하십시오
-      url: https://hwu.netapp.com/home/index
-    - title: NetApp Active IQ 디지털 자문업체
-      url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: NetApp Active IQ Config Advisor를 참조하십시오
-      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
-    - title: NetApp 상호 운용성 매트릭스 툴
-      url: https://mysupport.netapp.com/matrix/#welcome
-    - title: NetApp 지원 기술 자료
-      url: https://kb.netapp.com/
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/

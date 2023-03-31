@@ -6,30 +6,34 @@ indexpage:
   tiles:
   - title: 시작하십시오
     links:
-    - title: ONTAP 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
     - title: 새로운 소식
       url: "/whats-new.html"
+    - title: 빠른 시작
+      url: "/get-up-and-run.html"
+    - title: AFF and FAS storage 데이터 시트
+      url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
+    - title: ONTAP 릴리즈 노트
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
   - title: AFF 시스템
     links:
     - title: AFF C190
       url: "/c190/index.html"
-    - title: AFF A200
-      url: "/a200/index.html"
+    - title: AFF C250
+      url: "/c250/index.html"
+    - title: AFF C400
+      url: "/c400/index.html"
+    - title: AFF C800
+      url: "/c800/index.html"
+    - title: AFF A150
+      url: "/a150/index.html"
     - title: AFF A220
-      url: "/fas2700/index.html"
+      url: "/a220/index.html"
     - title: AFF A250
       url: "/a250/index.html"
-    - title: AFF A300
-      url: "/a300/index.html"
-    - title: AFF A320
-      url: "/a320/index.html"
     - title: AFF A400
       url: "/a400/index.html"
     - title: AFF A700
-      url: "/fas9000/index.html"
-    - title: AFF A700s를 참조하십시오
-      url: "/a700s/index.html"
+      url: "/a700/index.html"
     - title: AFF A800
       url: "/a800/index.html"
     - title: AFF A900
@@ -38,12 +42,6 @@ indexpage:
     links:
     - title: 500f로 설정합니다
       url: "/fas500f/index.html"
-    - title: FAS2600
-      url: "/fas2600/index.html"
-    - title: FAS2700
-      url: "/fas2700/index.html"
-    - title: FAS8200
-      url: "/fas8200/index.html"
     - title: FAS8300
       url: "/fas8300/index.html"
     - title: FAS8700
@@ -52,49 +50,51 @@ indexpage:
       url: "/fas9000/index.html"
     - title: FAS9500
       url: "/fas9500/index.html"
-  - title: 드라이브 쉘프
+  - title: 이용 종료 시스템
     links:
-    - title: NS224
-      url: "/ns224/index.html"
-    - title: IOM12가 포함된 SAS
-      url: "/sas3/index.html"
-  - title: 클러스터 및 스토리지 스위치
+    - title: AFF A200
+      url: "/a200/index.html"
+    - title: AFF A300
+      url: "/a300/index.html"
+    - title: AFF A320
+      url: "/a320/index.html"
+    - title: AFF A700s를 참조하십시오
+      url: "/a700s/index.html"
+    - title: FAS2600
+      url: "/fas2600/index.html"
+    - title: FAS2700
+      url: "/fas2700/index.html"
+    - title: FAS8200
+      url: "/fas8200/index.html"
+  - title: 지원되는 스위치
     links:
     - title: Broadcom 지원 BES-53248
       url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
-    - title: Cisco 3132Q-V
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-3132q-v/install-overview-cisco-3132qv.html
-    - title: Cisco 3232C
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-3232c/install-overview-cisco-3232c.html
     - title: Cisco 9336C-FX2
       url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
     - title: 공유 구성의 Cisco 9336-FX2
       url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
-    - title: Cisco 92300YC
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-92300/92300-overview.html
-    - title: NetApp CN1610
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-netapp-cn1610/install-overview-cn1610.html
     - title: nVidia SN2100
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/sn2100-overview.html
-    - title: 기타 스위치 모델
-      url: https://docs.netapp.com/us-en/ontap-systems-switches/other/switch-linkout.html
-  - title: 플랫폼 업그레이드
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-overview-sn2100-storage.html
+    - title: 사용 종료 스위치
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/overview-eod.html
+  - title: 관련 ONTAP 문서
     links:
-    - title: 대부분의 시스템에 대한 업그레이드
+    - title: 플랫폼 업그레이드(대부분의 시스템)
       url: https://docs.netapp.com/us-en/ontap-systems-upgrade/index.html
-    - title: MetroCluster 구성의 시스템 업그레이드
+    - title: 플랫폼 업그레이드(MetroCluster 구성)
       url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html
-  - title: 더 많은 리소스
-    links:
-    - title: ONTAP 설명서
+    - title: ONTAP 소프트웨어 문서
       url: https://docs.netapp.com/us-en/ontap/index.html
-    - title: NetApp Hardware Universe를 참조하십시오
-      url: https://hwu.netapp.com/
-    - title: NetApp Active IQ 디지털 자문업체
+    - title: Digital Advisor 문서
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: NetApp Active IQ Config Advisor를 참조하십시오
-      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
+  - title: 도구 및 지원
+    links:
     - title: NetApp 상호 운용성 매트릭스
       url: https://mysupport.netapp.com/matrix/#welcome
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/ONTAP-and-FAS/ct-p/fas-ontap-oncommand-and-related-plug-ins
+    - title: NetApp Hardware Universe를 참조하십시오
+      url: https://hwu.netapp.com/
+    - title: NetApp 기술 자료
+      url: https://kb.netapp.com/
+    - title: Active IQ(로그인 필요)
+      url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor

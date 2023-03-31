@@ -5,7 +5,7 @@ settings:
   internal:
     pdf_enabled: false
   prod:
-    pdf_enabled: true
+    pdf_enabled: false
     harmony_enabled: false
   rss_page: whats-new.html
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
@@ -13,34 +13,42 @@ sidebar:
   entries:
   - title: AFF 및 FAS 시스템 문서
     url: "/index.html"
+  - title: 릴리스 정보
+    url: "/rel-notes.html"
   - title: 시작하십시오
     entries:
     - title: 새로운 소식
       url: "/whats-new.html"
-    - title: 릴리스 정보
-      url: "/rel-notes.html"
+    - title: 준비 및 실행
+      url: "/get-up-and-run.html"
   - title: AFF 시스템
     entries:
     - section: c190
-    - section: a200
+    - section: c250
+    - section: c400
+    - section: c800
+    - section: a150
     - section: a220
     - section: a250
-    - section: a300
-    - section: a320
     - section: a400
     - section: a700
-    - section: a700s
     - section: a800
     - section: a900
   - title: FAS 시스템
     entries:
     - section: fas500f
-    - section: fas2600
-    - section: fas2700
-    - section: fas8200
     - section: fas8300
     - section: fas9000
     - section: fas9500
+  - title: 이용 종료 시스템
+    entries:
+    - section: a200
+    - section: a300
+    - section: a320
+    - section: a700s
+    - section: fas2600
+    - section: fas2700
+    - section: fas8200
   - section: allsan
   - section: upgrade
   - title: 시스템 레벨 진단

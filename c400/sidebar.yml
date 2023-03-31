@@ -1,0 +1,79 @@
+---
+section: c400
+title: AFF C400 시스템
+url: "/c400/index.html"
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF C400 설치 및 설정
+  entries:
+  - title: 빠른 단계
+    url: "/c400/install-quick-guide.html"
+- title: 유지 관리
+  pdf-filename: AFF C400 유지 관리
+  entries:
+  - title: 미디어를 부팅합니다
+    pdf-filename: AFF C400 부팅 미디어
+    entries:
+    - title: 개요
+      url: "/c400/bootmedia-replace-overview.html"
+    - title: 온보드 암호화 키를 확인합니다
+      url: "/c400/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/c400/bootmedia-impaired-controller-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/c400/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/c400/bootmedia-recovery-image-boot-options.html"
+    - title: MetroCluster 구성을 다시 전환합니다
+      url: "/c400/bootmedia-2n-mcc-switchback.html"
+    - title: OKM, NSE 및 NVE를 복원합니다
+      url: "/c400/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/c400/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: AFF C400 섀시
+    entries:
+    - title: 개요
+      url: "/c400/chassis-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/c400/chassis-replace-shutdown.html"
+    - title: 하드웨어를 교체합니다
+      url: "/c400/chassis-replace-move-hardware.html"
+    - title: 전체 교체
+      url: "/c400/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러 모듈
+    pdf-filename: AFF C400 컨트롤러 모듈
+    entries:
+    - title: 개요
+      url: "/c400/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/c400/controller-replace-shutdown.html"
+    - title: 컨트롤러 모듈을 교체합니다
+      url: "/c400/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/c400/controller-replace-system-config-restore-and-verify.html"
+    - title: 시스템을 다시 연결합니다
+      url: "/c400/controller-replace-recable-reassign-disks.html"
+    - title: 시스템 복원을 완료합니다
+      url: "/c400/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    pdf-filename: AFF C400 DIMM
+    url: "/c400/dimm-replace.html"
+  - title: 팬
+    pdf-filename: AFF C400 팬 모듈
+    url: "/c400/fan-swap-out.html"
+  - title: NVDIMM 배터리
+    pdf-filename: AFF C400 NVDIMM 배터리
+    url: "/c400/nvdimm-battery-replace.html"
+  - title: NVDIMM
+    pdf-filename: AFF A320 NVDIMM
+    url: "/c400/nvdimm-replace.html"
+  - title: PCIe 또는 메자닌 카드
+    pdf-filename: AFF C400 PCIe 또는 메자닌 카드
+    url: "/c400/pci-cards-and-risers-replace.html"
+  - title: 전원 공급 장치
+    pdf-filename: AFF C400 전원 공급 장치
+    url: "/c400/power-supply-replace.html"
+  - title: 실시간 시계 배터리
+    pdf-filename: AFF C400 실시간 클럭 배터리
+    url: "/c400/rtc-battery-replace.html"

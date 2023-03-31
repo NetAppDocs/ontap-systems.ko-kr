@@ -5274,7 +5274,6 @@
   <block id="e9caf8970c9cbd8e7d1c5427d3a20cf1" category="paragraph">해당 셸프의 '_shelf_name_'을 모르는 경우 'storage shelf show' 명령어를 실행한다.</block>
   <block id="3afc4b70c9c05bf5b1aceb2da0636da1" category="paragraph">선반에는 3개의 위치 LED가 있습니다. 하나는 운영자 디스플레이 패널에, 다른 하나는 각 NSM 모듈에 있습니다. 위치 LED가 30분 동안 켜져 있습니다. 같은 명령을 입력해도 끄기는 되지만 '해제' 옵션을 사용하면 끌 수 있습니다.</block>
   <block id="4ccbda321ca169104f4e4cac42fd679f" category="paragraph">교체 절차에 대한 RMA 번호 또는 추가 도움이 필요한 경우, 에서 기술 지원 팀에 문의하십시오<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양).</block>
-  <block id="2d45373c9232e88942b868669cd8511a" category="list-text">다음 비디오는 드라이브 핫 스왑 절차의 물리적 분리 및 삽입 부분에 대한 개요를 제공합니다.</block>
   <block id="01d36c3de356a203f6380095e17d5483" category="list-text">교체 드라이브에 대해 드라이브 소유권을 수동으로 할당하려면 자동 드라이브 할당을 비활성화해야 합니다.</block>
   <block id="427dffc49ca6a83001ca0caadf14d0ed" category="admonition">쉘프의 드라이브가 HA 쌍의 두 컨트롤러 모듈에서 소유하는 경우 드라이브 소유권을 수동으로 할당해야 합니다.</block>
   <block id="ba85497a31a9938c9ee8b64479f5eb73" category="paragraph">자동 드라이브 할당이 활성화된 경우 각 컨트롤러 모듈에 대해 Auto Assign(자동 할당) 열에 출력이 On(켜짐)으로 표시됩니다.</block>
@@ -5286,7 +5285,6 @@
   <block id="c35835b502576486e1080d2641bad00f" category="list-text">NSM(NVMe 쉘프 모듈)을 제거하고 설치하는 데 최소 70초가 소요됩니다.</block>
   <block id="2043cbe91abb2421fc1e689a9588ee34" category="paragraph">그러면 ONTAP에서 NSM 제거 이벤트를 처리할 수 있는 충분한 시간이 허용됩니다.</block>
   <block id="ee5bf2cd4b43105d31343a884728a3d4" category="list-text">교체 DIMM의 포장을 풀 때 결함이 있는 DIMM을 반환할 때 사용할 수 있도록 포장재를 모두 보관하십시오.</block>
-  <block id="36d40c496b02dc7324aae319cf2fac47" category="list-text">다음 비디오 또는 기록된 단계를 사용하여 DIMM을 교체할 수 있습니다.</block>
   <block id="f7f603a242c5acee1fd68cd2a7202563" category="list-text">교체할 FRU가 포함된 NSM 모듈에서 케이블 연결을 분리합니다.</block>
   <block id="68b63efc11b1cc1408b8f55095718557" category="list-text">전원 코드 고정대를 열어 전원 공급 장치에서 전원 코드를 분리한 다음, 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
   <block id="e0a29acbd9bdcb48c7307027b6c4dd53" category="paragraph">전원 공급 장치에는 전원 스위치가 없습니다.</block>
@@ -5325,7 +5323,6 @@
   <block id="e8fef282da4b27077fa05f5a91f0c50a" category="list-text">NSM 모듈에 케이블을 다시 연결합니다.</block>
   <block id="60983401410be453968fe876ae1895bc" category="list-text">동일한 NSM 모듈 포트 2개에 스토리지 케이블을 다시 연결합니다.</block>
   <block id="b0b368796d73b8aa5677358196d63594" category="paragraph">케이블은 커넥터 당김 탭이 위를 향하도록 삽입됩니다. 케이블이 올바르게 삽입되면 딸깍 소리가 나면서 제자리에 고정됩니다.</block>
-  <block id="68ea53fe54056e3cd966fd8634770fa8" category="list-text">전원 코드를 전원 공급 장치에 다시 연결한 다음 전원 코드 고정 장치로 전원 코드를 고정합니다.</block>
   <block id="5260d6b60af6cb8ae138542a4545f3c8" category="paragraph">올바르게 작동하면 전원 공급 장치의 이중 LED가 녹색으로 켜집니다.</block>
   <block id="0a6c03fcdf805ed4138340f040b2b7f8" category="paragraph">또한 두 NSM 모듈 포트 LNK(녹색) LED가 모두 켜집니다. LNK LED가 켜지지 않으면 케이블을 다시 연결합니다.</block>
   <block id="25ac0bbb241da35798ba38b376ac474d" category="list-text">장애가 발생한 DIMM이 포함된 NSM 모듈의 주의(황색) LED와 쉘프 운영자 디스플레이 패널에 더 이상 불이 들어오지 않는지 확인합니다.</block>
@@ -5387,8 +5384,6 @@
   <block id="b5b0f2dff5bdcc9e85cf639a6245b998" category="list-text">3단계와 4단계를 반복합니다.</block>
   <block id="97e5b69d6a085b09c71789a6b191bdbd" category="admonition">첫 번째 컨트롤러의 재부팅이 이미 완료되어 있어야 합니다.</block>
   <block id="b4c2dd2542e47ff1364abd95f6610ff8" category="list-text">두 컨트롤러 모듈에 있는 비전용 포트가 스토리지를 사용하도록 구성되었는지 확인합니다. 'Storage port show</block>
-  <block id="dade207912e2765bacca35b7125bdffa" category="section-title">AFF A700, AFF A800 또는 AFF A400 HA 쌍을 보조 쉘프에 핫 추가할 수 있도록 준비합니다</block>
-  <block id="cca15cb895a64dd0f4b45e86009749fb" category="paragraph">각 컨트롤러의 RoCE 가능 포트 세트 하나에 케이블로 연결된 AFF A700, AFF A800 또는 AFF A400 HA 쌍을 보유한 경우, 쉘프를 재구성해야 합니다(추가 RoCE 가능 PCIe 카드 또는 I/O 모듈을 설치한 후). 각 컨트롤러의 포트 두 세트 간에, 두 번째 쉘프를 핫 추가하기 전에 먼저 서로 간에 이동합니다.</block>
   <block id="9dd4670d3c797341bf0b1649ee18743f" category="list-text">설치한 RoCE 가능 PCIe 카드 또는 I/O 모듈의 포트를 활성화해야 합니다.</block>
   <block id="5f73e21cfc57f9099894052fde4bfc56" category="list-text">재연결은 쉘프에 다중 경로-HA 연결이 있는 경우 중단 없는 절차입니다.</block>
   <block id="00fb5d894e369d181617f17a9dec8a1b" category="paragraph">각 컨트롤러에서 두 포트 세트 간에 첫 번째 쉘프를 재설정하면 두 번째 쉘프를 핫 추가할 때 두 쉘프 모두에서 복원력이 뛰어난 연결을 유지할 수 있습니다.</block>
@@ -5402,9 +5397,7 @@
   <block id="863ee9a0c8ca40928975158c8441cb3e" category="paragraph"><block ref="8b0dd5f6450b331119d433eade9d39d0" category="inline-xref-macro-rx"></block></block>
   <block id="336f4ce595af8dfded4dff3e6c2d2dbe" category="list-text">컨트롤러 A에서 슬롯 3 포트 b(e3b)에서 슬롯 7 포트 b(e7b)로 케이블을 이동합니다.</block>
   <block id="7fade3ed4792ef4e89e2ae6000199479" category="list-text">컨트롤러 B에서 동일한 케이블 이동을 반복합니다</block>
-  <block id="d191ea6e7cb4a619eb566229aa99b285" category="paragraph">AFF A800 HA 2노드</block>
   <block id="97db9d4f6a8cf0456ad92952a384cb79" category="admonition">하위 단계에서는 기존 쉘프가 각 컨트롤러의 슬롯 5에 있는 RoCE 가능 PCIe 카드에 연결되어 있다고 가정합니다.</block>
-  <block id="faca4b5bb9a5da5b47d1425ef2489bdf" category="paragraph"><block ref="8417f927f631db9ff6dcfc207992ae5a" category="inline-xref-macro-rx"></block></block>
   <block id="f6eccf676a12f3899de1b6cd792b9d6f" category="list-text">컨트롤러 A에서 슬롯 5 포트 b(e5b)에서 슬롯 3 포트 b(e3b)로 케이블을 이동합니다.</block>
   <block id="299be2017fe243bf0cb27752cb61cba4" category="paragraph">AFF A400 HA 쌍</block>
   <block id="35abee2b20175ae748c82f6ba4453ac1" category="paragraph"><block ref="2d20d554d868477c9c895109bac068ae" category="inline-xref-macro-rx"></block></block>
@@ -5420,7 +5413,6 @@
   <block id="738a7d32562c5557c170a7a1bacec3f1" category="admonition">쉘프를 플랜지 장착 하지 마십시오.</block>
   <block id="70dc4293ceb1c0525c9a51737c5667b8" category="list-text">설치 안내물을 사용하여 지지 브래킷과 랙 또는 캐비닛에 쉘프를 설치하고 고정합니다.</block>
   <block id="beead0200cd2405b1a53f79077e22944" category="admonition">완전히 장착된 NS224 선반은 최대 30.29kg(66.78lbs)의 중량을 지탱할 수 있으며, 유압 리프트를 들거나 사용하려면 2명이 필요합니다. 선반 무게가 불균형하게 되므로 선반 무게를 줄이기 위해 선반 구성 요소(선반 전면 또는 후면의)를 제거하지 마십시오.</block>
-  <block id="032241d3ad139656f292a55835e7d7b8" category="list-text">전원 코드를 선반에 연결한 다음 전원 코드 고정쇠로 고정한 다음 전원 코드를 다른 전원에 연결하여 안정성을 확보합니다.</block>
   <block id="378b62d2964ec0a6c4ac6ec95662dee4" category="paragraph">선반이 전원에 연결되면 전원이 켜지고 전원 스위치가 없습니다. 올바르게 작동하면 전원 공급 장치의 이중 LED가 녹색으로 켜집니다.</block>
   <block id="7468ac9b50ce2792c160ba5ee26808fe" category="list-text">쉘프 ID를 HA 쌍 내의 고유 번호로 설정합니다.</block>
   <block id="34ed719c558f180e6a8425d176730344" category="paragraph">자세한 지침은 다음과 같습니다.</block>
@@ -5475,9 +5467,7 @@
   <block id="fa9763a154ca61da241ba542f9d894f7" category="paragraph">플랫폼 섀시 뒷면에서 확인할 수 있는 RoCE 지원 카드 포트는 왼쪽 포트 "A"(E1A)이며 오른쪽 포트는 포트 "b"(e1b)입니다.</block>
   <block id="6636323e0aff4f454f3b81527e703c2b" category="list-text">쉘프 연결 케이블 연결:</block>
   <block id="838163abcc84ed9f0cfee1181f77a021" category="list-text">컨트롤러 A 슬롯 1 포트 b(e1b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다. + 다음 그림에서는 완료 시 쉘프 케이블 연결을 보여 줍니다.</block>
-  <block id="95140daddef8f8ffd29f41f52ba63e7e" category="image-alt">drw ns224 ff250 fas500f 1쉘프</block>
   <block id="075ac783ee242c66ec7ef26475fd212b" category="section-title">AFF A700 HA 쌍의 핫 추가 쉘프에 케이블을 연결합니다</block>
-  <block id="f921a19c559c3b6b0be95e07c25e9232" category="paragraph">AFF A700 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용하고 있는 RoCE 가능 포트 세트(하나 또는 두 개)의 수에 따라 달라집니다.</block>
   <block id="544773fca9e8ae07d62dcf4db5a7cb78" category="list-text">각 컨트롤러 모듈에서 하나의 RoCE 가능 포트 세트(하나의 RoCE 가능 I/O 모듈)를 사용하여 하나의 쉘프를 핫 추가할 경우, HA 쌍에서 유일한 NS224 쉘프인 경우 다음 하위 단계를 완료하십시오.</block>
   <block id="fec7dbe822daa329031be7af970538e7" category="admonition">이 단계에서는 각 컨트롤러 모듈에 슬롯 7이 아닌 슬롯 3에 RoCE 가능 I/O 모듈을 설치했다고 가정합니다.</block>
   <block id="63efd7f12bfa615588bf813fbcf494a5" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 3 포트 a에 케이블로 연결합니다</block>
@@ -5503,28 +5493,15 @@
   <block id="fc10913effb15f2e7e45af08900dd916" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 3 포트 b에 연결합니다</block>
   <block id="0dcadfb972a7b539c769d330f7ccc286" category="list-text">3단계로 이동합니다.</block>
   <block id="44602264e094d019e88a336cd27d0156" category="paragraph">다음 그림에서는 첫 번째 및 두 번째 핫 애드 쉘프의 케이블 연결을 보여줍니다.</block>
-  <block id="5c817f2686998b5a889ca66df6194716" category="section-title">AFF A800 HA 2노드에 대해 핫 추가 셸프를 케이블로 연결합니다</block>
-  <block id="88bb98efede2cd38aaaa041e45a5a456" category="paragraph">AFF A800 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용하고 있는 RoCE 가능 포트 세트(하나 또는 두 개)의 수에 따라 다릅니다.</block>
   <block id="100c5224303bd4ddbc570f323ec3b601" category="list-text">각 컨트롤러 모듈에서 하나의 RoCE 가능 포트 세트(RoCE 가능 PCIe 카드 1개)를 사용하여 하나의 쉘프를 핫 추가할 경우, HA 쌍에서 유일한 NS224 쉘프인 경우 다음 하위 단계를 완료하십시오.</block>
   <block id="7f52c439783621a5d09c0e1eb50d4319" category="admonition">이 단계에서는 슬롯 5에 RoCE 가능 PCIe 카드를 설치했다고 가정합니다.</block>
-  <block id="7c45e35cf1f1269da7f239bbce34287a" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 5 포트 a에 케이블로 연결합니다</block>
-  <block id="a59162c8f8af57e9933c57cbc8fc2e2e" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 5 포트 b에 연결합니다</block>
-  <block id="a668cb1c0a82083d498d62fdcc9b88db" category="list-text">컨트롤러 B 슬롯 5 포트 A에 쉘프 NSM B 포트 e0a를 케이블로 연결합니다</block>
-  <block id="4ceaacb52a9b0ba21b42397d82e9c9b8" category="list-text">컨트롤러 A 슬롯 5 포트 b에 케이블 쉘프 NSM B 포트 e0b</block>
   <block id="6f1539c78a094ce3c97746e4f05a0642" category="paragraph">다음 그림에서는 각 컨트롤러 모듈에 1개의 RoCE 가능 PCIe 카드를 사용한 1개의 핫 추가 쉘프에 대한 케이블 연결을 보여 줍니다.</block>
-  <block id="373e018c4ca509f2172931f931def7e2" category="image-alt">drw ns224 A800 1쉘프</block>
   <block id="e9aab26305dbeeca307e3f574bc6f620" category="list-text">각 컨트롤러 모듈에서 2개의 RoCE 가능 포트 세트(RoCE 가능 PCIe 카드 2개)를 사용하여 하나 또는 2개의 쉘프를 핫 추가하려면 해당 하위 단계를 완료하십시오.</block>
   <block id="47f5ff4e183a793933d1f47d1d5d5b04" category="admonition">이 단계에서는 슬롯 5 및 슬롯 3에 RoCE 가능 PCIe 카드를 설치했다고 가정합니다.</block>
   <block id="928e9f3198873a99cc05c02ab5403b7b" category="admonition">다음 하위 단계에서는 슬롯 3 대신 슬롯 5의 RoCE 가능 PCIe 카드에 쉘프 포트 e0a를 케이블로 연결하여 케이블 연결을 시작한다고 가정합니다.</block>
-  <block id="18a1ee71f8dba0400c7d631c554f89bb" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 5 포트 a에 케이블로 연결합니다</block>
-  <block id="70e6d1487e4df35e27ad77b5a5dc8bb2" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 5 포트 a에 케이블로 연결합니다</block>
   <block id="6ced4955dcb25812c5e43101235629b9" category="admonition">다음 하위 단계에서는 슬롯 5(쉘프 1의 케이블링 하위 단계와 상관됨) 대신 쉘프 포트 e0a를 슬롯 3의 RoCE 가능 PCIe 카드에 케이블로 연결한 것으로 가정합니다.</block>
-  <block id="905417014d69df94145e05d6c152deec" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 5 포트 b에 연결합니다</block>
-  <block id="a8d608f77f3fbb4c1156978cc97e2ec4" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 5 포트 b에 연결합니다</block>
   <block id="75a57e4a236226bc25c09e120aeab4c5" category="paragraph">다음 그림에서는 두 개의 핫 애드 쉘프를 위한 케이블 연결을 보여 줍니다.</block>
-  <block id="9613ef0ded970898834cffbf203f3c72" category="image-alt">drw ns224 A800 2쉘프</block>
   <block id="873efd8427437501798d979ea439809c" category="section-title">AFF A400 HA 쌍을 위한 핫 추가 쉘프에 케이블을 연결합니다</block>
-  <block id="14daff6613d1ba920cb759163ce8e7da" category="paragraph">AFF A400 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용하고 있는 RoCE 가능 포트 세트(하나 또는 두 개)의 수에 따라 다릅니다.</block>
   <block id="853f2f58eaae6f81846d73d68ec58fc7" category="list-text">각 컨트롤러 모듈에서 하나의 RoCE 가능 포트 세트(온보드 RoCE 가능 포트)를 사용하여 하나의 쉘프를 핫 추가할 경우, HA 쌍에서 유일한 NS224 쉘프인 경우 다음 하위 단계를 완료하십시오.</block>
   <block id="22f0e629287a1d1f90741ddf77caa944" category="list-text">케이블 쉘프 NSM A 포트 e0a를 컨트롤러 A 포트 e0c에 연결합니다.</block>
   <block id="8c937d6d94aae90362b1dc41da2b9988" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 포트 e0d에 연결합니다.</block>
@@ -5537,7 +5514,6 @@
   <block id="dfaa68fc610c2b43abf32ee0c2eff4d7" category="list-text">NSM B 포트 e0a를 컨트롤러 B 포트 e0c에 케이블로 연결합니다.</block>
   <block id="9d77f869ed166aeb4c27e1b6054d86bb" category="list-text">NSM A 포트 e0b를 컨트롤러 B 포트 e0d에 연결합니다.</block>
   <block id="f192386ba82b03da6277a09d4a2c63ac" category="list-text">NSM B 포트 e0b를 컨트롤러 A 포트 e0d에 연결합니다.</block>
-  <block id="aa976c2217ca2de5e9d1001418c7b09a" category="image-alt">drw ns224 a400 2개 쉘프</block>
   <block id="f38b00317e342e10d9cf44073d00e94e" category="list-text">이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
   <block id="b994ebf3b12ef21aee27b63036342d83" category="section-title">AFF A320 HA 쌍의 핫 추가 쉘프에 케이블을 연결합니다</block>
   <block id="e708da297b918a1363bc58facb9105b4" category="paragraph">추가 스토리지가 필요할 경우 두 번째 NS224 드라이브 쉘프를 기존 HA 쌍에 연결할 수 있습니다.</block>
@@ -5571,7 +5547,6 @@
   <block id="65b16d583a1cd635d9c4a4d6d0e33451" category="paragraph">NSM 모듈 펌웨어 검사는 10분마다 수행됩니다. NSM 모듈 펌웨어 업데이트는 최대 30분 정도 걸릴 수 있습니다.</block>
   <block id="b2f313ee86144ada0c48562afb2d40cc" category="paragraph">해당 셸프의 'helf_name'을 모르는 경우 'storage shelf show' 명령어를 실행한다.</block>
   <block id="278aef8b4e228833692f9747f4ae7475" category="list-text">교체 NSM 모듈의 포장을 풀 때 실패한 NSM 모듈을 반환할 때 사용할 모든 포장재를 보관하십시오.</block>
-  <block id="46e09979a3172c8b9285556fdf5ec2d2" category="list-text">다음 비디오나 작성된 단계를 사용하여 NSM 모듈을 교체할 수 있습니다.</block>
   <block id="6b7a231127b7a2acbb4edd9d89b96b8c" category="list-text">손상된 NSM 모듈을 물리적으로 식별합니다.</block>
   <block id="9b731dce42bd65dfa675cd0e5bd470a1" category="paragraph">시스템이 시스템 콘솔에 어떤 모듈이 손상되었는지 나타내는 경고 메시지를 기록합니다. 또한 드라이브 쉘프 오퍼레이터 디스플레이 패널과 손상된 모듈의 주의(황색) LED가 켜집니다.</block>
   <block id="45d29d834250186d99645df43e4c6ae8" category="list-text">손상된 NSM 모듈에서 케이블을 분리합니다.</block>
@@ -5579,26 +5554,21 @@
   <block id="3af45a161b6e2649f84dc24a3b75a33b" category="list-text">교체용 NSM 모듈의 포장을 풀고 손상된 NSM 모듈 근처의 평평한 표면에 설치합니다.</block>
   <block id="b03b11bd46dba9b4f3d0c676ab67a458" category="list-text">손상된 NSM 모듈의 커버와 교체용 NSM 모듈을 각 덮개의 나비나사를 풀어 엽니다.</block>
   <block id="4081761118c0f10a28e46f61305f0e65" category="admonition">NSM 모듈 덮개의 FRU 레이블은 DIMM 및 팬의 위치를 표시합니다.</block>
-  <block id="61110a6dacfcea9391ed100a1e557d39" category="list-text">손상된 NSM 모듈에서 교체 NSM 모듈로 DIMM을 이동합니다.</block>
   <block id="2ad1f71e58a464b56a62dd00529e8870" category="list-text">DIMM을 교체 NSM 모듈에 같은 방향으로 삽입할 수 있도록 슬롯에 있는 DIMM의 방향을 확인합니다.</block>
   <block id="b4f66f1a433a916fcb4c24db72bfd342" category="list-text">DIMM 슬롯의 양 끝에 있는 이젝터 탭을 천천히 밀어 슬롯에서 DIMM을 꺼낸 다음 슬롯에서 DIMM을 들어 꺼냅니다.</block>
   <block id="458eddb761760eab26467d6f530e8bbd" category="admonition">DIMM 회로 보드 구성 요소에 압력이 가해질 수 있으므로 모서리 또는 가장자리로 DIMM을 조심스럽게 잡습니다. 이젝터 탭이 열린 위치에 있습니다.</block>
   <block id="3280053d76d9caa701e3504fb0607953" category="list-text">DIMM의 모서리를 잡고 교체용 NSM 모듈의 슬롯에 DIMM을 똑바로 삽입합니다.</block>
   <block id="6e29dcbc9bd913dc051f1423378cc587" category="list-text">나머지 DIMM에 대해 단계 7a - 7d를 반복합니다.</block>
-  <block id="1414184aaa319aad7970f88f85fae9ad" category="list-text">장애가 발생한 NSM 모듈에서 교체 NSM 모듈로 팬을 이동합니다.</block>
   <block id="12971ba49546d866b91851e9b1b6ad92" category="list-text">파란색 터치 포인트가 있는 측면에서 팬을 단단히 잡고 수직으로 들어올려 소켓에서 분리합니다.</block>
   <block id="dac2c94347c73e11ea196f5baa2e7dec" category="paragraph">팬을 들어올리기 전에 팬을 앞뒤로 부드럽게 흔들어서 분리해야 할 수 있습니다.</block>
   <block id="b237e01cc69f430feb2460bcd838575b" category="list-text">팬을 교체용 NSM 모듈의 가이드에 맞춘 다음 팬 모듈 커넥터가 소켓에 완전히 장착될 때까지 아래로 누릅니다.</block>
   <block id="203b00bd25f98cb7aa81871e2c9b00d2" category="list-text">나머지 팬에 대해 하위 단계 8a 및 8b를 반복합니다.</block>
   <block id="d96e5c7e64c8d0db723ea42b820c7604" category="list-text">각 NSM 모듈의 덮개를 닫고 각 나비나사를 조입니다.</block>
-  <block id="6c5f489f30752895bb29a28748b9b12c" category="list-text">손상된 NSM 모듈에서 교체 NSM 모듈로 전원 공급 장치를 이동합니다.</block>
-  <block id="b9b93ba38cd49330be16261592a676f4" category="list-text">캠 핸들을 열림(수평) 위치로 돌린 다음 잡습니다.</block>
   <block id="c86f9586ccfa1546382bb00c762288d5" category="list-text">엄지 손가락으로 파란색 탭을 눌러 잠금 장치를 해제합니다.</block>
   <block id="12de78077c3b65069784e96679059a9c" category="list-text">다른 손으로 무게를 지탱하면서 NSM 모듈에서 전원 공급 장치를 꺼냅니다.</block>
   <block id="0fe92b0f3770a025126b5601d534eabc" category="list-text">양손으로 전원 공급 장치의 가장자리를 교체용 NSM 모듈의 입구에 맞춘 후 지지하십시오.</block>
   <block id="8d9538413b9a60d6cde813201656e466" category="list-text">잠금 장치가 딸깍 소리를 내며 제자리에 고정될 때까지 전원 공급 장치를 NSM 모듈에 부드럽게 밀어 넣습니다.</block>
   <block id="6f62b455052540a6f03d9666561be1c2" category="admonition">과도한 힘을 가하지 마십시오. 또는 내부 커넥터가 손상될 수 있습니다.</block>
-  <block id="0c0cdf1552f56e75817d943e76e26563" category="list-text">캠 핸들을 닫힘 위치로 돌립니다.</block>
   <block id="ccd1df1e64400c930fd567fe947c2bca" category="list-text">교체 NSM 모듈을 쉘프에 삽입합니다.</block>
   <block id="231d3f36498918bf3f8978127e4be044" category="list-text">선반 작동 디스플레이 패널의 주의(황색) LED가 더 이상 켜지지 않는지 확인합니다.</block>
   <block id="c5557339087176167e89aba7a1af2eff" category="paragraph">NSM 모듈이 재부팅되면 운영자 디스플레이 패널 주의 LED가 꺼집니다. 이 작업은 3~5분 정도 걸릴 수 있습니다.</block>
@@ -5608,17 +5578,14 @@
   <block id="9933eb186a5ed678263e25a456659d04" category="paragraph">2분을 초과하면 쉘프가 계속 작동하지만 ONTAP은 전원 공급 장치를 교체할 때까지 저하된 전원 공급 장치에 대한 메시지를 콘솔에 보냅니다.</block>
   <block id="7b9174f4f1064a80bf560b83cf899bd9" category="paragraph">선반에는 3개의 위치 LED가 있습니다. 하나는 운영자 디스플레이 패널에, 다른 하나는 각 NSM 모듈에 있습니다. 위치 LED가 30분 동안 켜져 있습니다. 같은 명령을 입력해도 끄기 옵션을 사용하여 해제할 수 있습니다.</block>
   <block id="48d0ab80f7b5ca9cf8dc1ac2c8c7123a" category="list-text">교체 전원 공급 장치의 포장을 풀 때 고장난 전원 공급 장치를 반환할 때 사용할 수 있도록 포장재를 모두 보관하십시오.</block>
-  <block id="34e3a163643415343661f5f7f2392785" category="list-text">다음 비디오 또는 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
   <block id="a919f0ee05d363883138207b3294f80c" category="list-text">장애가 발생한 전원 공급 장치를 물리적으로 식별합니다.</block>
   <block id="11c70933cb832a926e6ebf2229ee8058" category="paragraph">시스템에서 시스템 콘솔에 어떤 전원 공급 장치가 고장났는지 나타내는 경고 메시지를 기록합니다. 또한 쉘프 오퍼레이터 디스플레이 패널의 주의(황색) LED가 켜지고 오류가 발생한 전원 공급 장치의 이색 LED가 빨간색으로 켜집니다.</block>
-  <block id="992b40e8cd1ce5e2e70ad710bea6f3c5" category="list-text">장애가 발생한 전원 공급 장치를 분리합니다.</block>
   <block id="a21aebd6c961b6fea31ffa6bf85151e5" category="list-text">교체용 전원 공급 장치를 삽입합니다.</block>
   <block id="4db9a696c509e28c74bddbffbc5d8cd3" category="list-text">양손으로 전원 공급 장치의 가장자리를 지지하고 NSM 모듈의 입구에 맞춥니다.</block>
   <block id="12cdfd44047ba85a8d6c05ef152143d9" category="list-text">전원 코드를 전원 공급 장치에 연결하고 전원 코드 리테이너로 전원 코드를 고정합니다.</block>
   <block id="acdfef9c5579ff3ba02ba954b42b0b9d" category="summary">전원이 켜진 NS224 드라이브 쉘프 및 I/O가 진행 중인 동안 장애가 발생한 팬을 중단 없이 교체할 수 있습니다.</block>
   <block id="ad469db4a94f773cb57ea851a2258c7d" category="list-text">다른 4개의 팬을 포함하여 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다.</block>
   <block id="19ca7e08bce4c0e124faa15fe7b1d419" category="list-text">교체용 팬의 포장을 풀 때 고장난 팬을 반환할 때 사용할 수 있도록 포장재를 모두 보관하십시오.</block>
-  <block id="f35ad689c95d772c71204022636dabe5" category="list-text">다음 비디오나 기록된 단계를 사용하여 팬을 교체할 수 있습니다.</block>
   <block id="4fe5c70371cacd7543cf54df75bedd0a" category="admonition">NSM 모듈 덮개의 FRU 레이블은 NSM 모듈의 후면 벽을 따라 5개의 팬의 위치를 표시합니다.</block>
   <block id="5605f4aa461ce479ba2b6762822acf2b" category="list-text">장애가 발생한 팬을 물리적으로 식별합니다.</block>
   <block id="9d1ae14f2ff79acfc8e3625d7e49361b" category="list-text">장애가 발생한 팬을 교체합니다.</block>
@@ -5678,7 +5645,6 @@
   <block id="eca4ecc78ec43fe459fcc0715dc2d5db" category="summary">전원이 켜진 NS224 드라이브 셸프에서 장애가 발생한 실시간 클럭\(RTC\) 배터리를 중단 없이, 입출력이 진행 중인 동안 교체할 수 있습니다.</block>
   <block id="e4882b21497de6fedaf4c9c3b8016faa" category="paragraph">전원이 켜진 NS224 드라이브 셸프에서 장애가 발생한 실시간 클럭(RTC) 배터리를 중단 없이 교체할 수 있으며 I/O가 진행 중인 동안에도 교체할 수 있습니다.</block>
   <block id="d8a4ade402c2a58964f76f76d5e40639" category="list-text">교체용 RTC 배터리의 포장을 푸는 경우, 결함이 있는 RTC 배터리를 반품할 때 사용할 포장재를 모두 보관하십시오.</block>
-  <block id="69346a8711cdec1c863cab85cc16d548" category="list-text">다음 비디오 또는 기록된 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.</block>
   <block id="4666aab744a5064fa4082c8fac681c8b" category="paragraph">NSM 모듈 덮개의 FRU 레이블은 NSM 모듈의 전면 및 전원 공급 장치의 오른쪽에 있는 RTC 배터리의 위치를 표시합니다.</block>
   <block id="8e3521698724daea37d72f82d00b93c9" category="list-text">장애가 발생한 RTC 배터리를 물리적으로 식별합니다.</block>
   <block id="4230cd66e4b97c5c537e2fc66b106a54" category="list-text">RTC 배터리를 교체합니다.</block>
@@ -5696,7 +5662,6 @@
   <block id="5d5593d62eb78fe1958ab4c502873ec3" category="list-text">부팅 미디어를 교체한 후 셸프의 파트너 NSM 모듈의 부팅 이미지가 교체 부팅 미디어에 자동으로 복사됩니다.</block>
   <block id="00aa3f1a6a7c08b0657c7993e5c8b5c3" category="paragraph">이 작업은 최대 5분 정도 걸릴 수 있습니다.</block>
   <block id="9d0a00a5aff4ec18c5c781787962378b" category="list-text">부팅 미디어를 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp으로 반환할 수 있습니다.</block>
-  <block id="d7fc7b8a28737104902684f03a8279e6" category="list-text">다음 비디오 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.</block>
   <block id="41d0446a43bf0ca4e32d8aa74acfb9dc" category="list-text">장애가 발생한 부팅 미디어를 물리적으로 찾습니다.</block>
   <block id="f100a7d7d4d0125055a6d5f3a0bea50d" category="list-text">부팅 미디어를 교체합니다.</block>
   <block id="0c6687325a026afea7971f92ec185cbb" category="list-text">1 십자 드라이버를 사용하여 부트 미디어의 하단(홈이 파인) 끝을 보드에 고정하는 나사를 조심스럽게 분리합니다.</block>
@@ -5720,7 +5685,6 @@
   <block id="51bdc8bf999c93768e182fae54e64934" category="sidebar">섀시</block>
   <block id="a2e494f9e893e2ce2495f61aebe60a0a" category="sidebar">컨트롤러 모듈</block>
   <block id="2f1a3e62508d88ddc31f1aa72a8334d4" category="sidebar">학습</block>
-  <block id="a989a22057bbc8e33d7370e8e5bf91c2" category="sidebar">AFF C190 비디오에 용량 추가</block>
   <block id="950ddde1b95bd175de9e64710ca7628d" category="sidebar">내장 디스크 드라이브 비디오 교체</block>
   <block id="a4e1bbb083c33fd7dbc252f015b0b111" category="sidebar">VMware Horizon View를 지원하는 비영구적 데스크톱용 NetApp All-Flash FAS 솔루션 | TR-4539</block>
   <block id="99a7b0ee54277073c008109914f38e8b" category="sidebar">스위치 설치 및 유지 관리</block>
@@ -5783,12 +5747,8 @@
   <block id="ec5c696a4bc57321a5a79c91b886d5ff" category="sidebar">FAS9000</block>
   <block id="c89a58741e7240ddf3c43ec7dbb21cd7" category="sidebar">드라이브 쉘프</block>
   <block id="0a10ffb3d8f2b29b2aed44120c4b52ee" category="sidebar">NS224</block>
-  <block id="cce8f24137d8ba188a996f1ac50fd1c9" category="sidebar">클러스터 및 스토리지 스위치</block>
   <block id="a393cd4f170aafc6db54b17ca62ffb74" category="sidebar">Broadcom 지원 BES-53248</block>
-  <block id="1bc92df4184e6d4338aed95b6891adc1" category="sidebar">Cisco 92300YC</block>
   <block id="408e6b1f14e3275adbc6a975f5910340" category="sidebar">플랫폼 업그레이드</block>
-  <block id="840e0e2bbbf69bf03b84d0acdeb4580f" category="sidebar">대부분의 시스템에 대한 업그레이드</block>
-  <block id="5ed8ff4eb5f3fd686a59745f6c5c78b5" category="sidebar">MetroCluster 구성의 시스템 업그레이드</block>
   <block id="bc8be72fdc9d6054f356bb2b7f80fd12" category="sidebar">NetApp 상호 운용성 매트릭스</block>
   <block id="d138e90428f37a60387c8577b6e009b8" category="sidebar">NV 배터리</block>
   <block id="a9638d4d52688cbe2f6d101cb55be3b8" category="sidebar">시스템 DIMM</block>
@@ -5805,7 +5765,6 @@
   <block id="e908ea7f834bb4a51a3435068459558e" category="sidebar">전원 제어 모듈 디스테이징</block>
   <block id="836b0691797fbb6c52f16e5f3f673be6" category="sidebar">LED - USB 모듈</block>
   <block id="005350cc942b102938a15599d0a214e5" category="sidebar">NVRAM 모듈 및 NVRAM DIMM</block>
-  <block id="18b2a2b97187adb055ca14d651381474" category="sidebar">모든 설정</block>
   <block id="098be92f0aeba04b5ea336aeb0e987a0" category="sidebar">스위치 연결 스토리지로 쉘프를 연결합니다</block>
   <block id="f2c6151d6c0d99f3666129b97e2100f5" category="sidebar">드라이브</block>
   <block id="87ad0a7d7737882bd3a94656d7433131" category="sidebar">NSM 모듈</block>
@@ -5956,7 +5915,6 @@
   <block id="487a62b1e3f916df9ec01e4837ea1e73" category="sidebar">컨트롤러 하드웨어를 교체합니다</block>
   <block id="d1d724370ac4931ceb4406d2e17a6217" category="sidebar">AFF A220 및 FAS2700 NVMEM 배터리</block>
   <block id="64567073c265f39653af49885ec68a63" category="sidebar">AFF A220 및 FAS2700 전원 공급 장치</block>
-  <block id="2b2815ca4a9fd5973ee66317adb580e4" category="sidebar">기타 스위치 모델</block>
   <block id="7990706983b7a68de799c5164d608a30" category="sidebar">AFF A800 시스템</block>
   <block id="f9bc6672d0c11aeaba7c639726c8452d" category="sidebar">AFF A800 설치 및 설정</block>
   <block id="cfa03b31ffbc6dcdead22aa89e56143c" category="sidebar">AFF A800은 계속 유지됩니다</block>
@@ -6286,7 +6244,6 @@
   <block id="7103ae2dc232b897a89408d0cd914f59" category="doc">온보드 암호화 키 확인 - AFF A800</block>
   <block id="0e3989fd0fd811ede751f0ca9dbfbe88" category="doc">부팅 미디어 교체 개요 - AFF A800</block>
   <block id="a9785aa14dfcf09366954fcb69625d05" category="sidebar">42U 1280 mm 시스템 캐비닛</block>
-  <block id="f606ada25615407b042f8f189d1b9fab" category="sidebar">Cisco 3132Q-V</block>
   <block id="059d31543d448499bd1a9c454a8d1ebb" category="sidebar">Cisco 9336C-FX2</block>
   <block id="1c87a984d0a1c6881c9703209fd4341c" category="sidebar">공유 구성의 Cisco 9336-FX2</block>
   <block id="21a759f002cfc3385b168953dde9a34e" category="summary">복구 이미지에서 손상된 컨트롤러를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다.</block>
@@ -6522,7 +6479,6 @@
   <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
   <block id="de2d1282e102972a6af003781e9a5c02" category="paragraph">_SLDIAG: 로그 메시지가 없습니다. _</block>
   <block id="3f91c59c59a1243cb3f176daf3c9c054" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
-  <block id="0f40216c1ad47c12e8ccc087d555570f" category="sidebar">ONTAP 릴리즈 노트</block>
   <block id="c0a1a3a5bc62ecf46953d4c7ebde86a7" category="section-title">6단계: (2노드 MetroCluster만 해당): 애그리게이트로 전환</block>
   <block id="af844de12c61a1b2d86c05934c317256" category="summary">플랫폼에서 드라이브 실패를 나타내는 경고 메시지를 시스템 콘솔에 기록할 때 드라이브를 교체해야 합니다. 또한, 작동 디스플레이 패널의 오류 LED와 고장 드라이브의 오류 LED가 모두 켜집니다.</block>
   <block id="92198152754d5741f3a481c1555464b4" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF C190</block>
@@ -6555,7 +6511,6 @@
   <block id="03be12a0476133b21cb6c1c927956d23" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A220 및 FAS2700을 교체합니다</block>
   <block id="24b3b18d4ae3c460037fb58156d310c6" category="doc">FAS2700 시스템 설명서</block>
   <block id="7b8d355a80903af67d6bd3bd4c49f973" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A700s를 교체합니다</block>
-  <block id="1bfc6b841bbb9beb5900ea65dba46d0d" category="sidebar">TR-4539 - VMware Horizon View를 위한 NetApp All Flash FAS 솔루션</block>
   <block id="12c860323c3b7c3ce59343f747296367" category="sidebar">AFF A220 시스템</block>
   <block id="9d01d7eb3a0827983de11cc9671e5029" category="sidebar">AFF A220 설치 및 설정</block>
   <block id="01d7cd58de6e7861c757c7723be1642f" category="sidebar">AFF A220 유지 보수</block>
@@ -6624,7 +6579,6 @@
   <block id="df890e7b6d800ea7f63516f78dc7b333" category="inline-link-macro">컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예</block>
   <block id="4831f887bab13b0957b607ad184c87f7" category="paragraph"><block ref="4831f887bab13b0957b607ad184c87f7" category="inline-link-macro-rx"></block></block>
   <block id="18e93c7175385ec259f95d9d453bdda1" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="db31d33614fd87795381d5ac14be04aa" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결에 대한 자세한 내용은 를 참조하십시오.</block>
-  <block id="83742af000bdb059461854fab1a8b606" category="list-text">전원 공급 장치를 다른 효율 등급과 혼합하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="94a2f43b7e5299d436a356db402524cc" category="section-title">3단계: NVRAM 배터리를 교체합니다</block>
   <block id="5f5fd4de9ab7b399342d9b9e721bc6b6" category="section-title">3단계: NVRAM 카드를 분리합니다</block>
   <block id="6378f7fb953fa140d999f1d68c5e6145" category="section-title">5단계: HA 시스템에서 시스템 ID 변경을 확인합니다</block>
@@ -7104,7 +7058,6 @@
   <block id="d94c06e259f5d258e151a2fafa975b4a" category="list-text">'sldiag device status[-dev_devtype_|MB|slotslotnum]' 명령을 입력하여 로그가 지워졌는지 확인합니다</block>
   <block id="d272d6404ac091b7fda10049815d3c66" category="video-title">애니메이션 - NS224 드라이브 쉘프에 있는 NSM 모듈을 교체합니다</block>
   <block id="c1e842505e6c0c129cf294ca23947b12" category="video-title">애니메이션 - N224 드라이브 쉘프에 팬을 교체합니다</block>
-  <block id="f1f8b8def80b9337373513998dd13c3e" category="section-title">FAS500f 또는 AFF A250 HA 쌍의 핫 추가 쉘프에 케이블을 연결합니다</block>
   <block id="f0fad2647eb722df1f95d7cea636dfac" category="paragraph">추가 스토리지가 필요할 경우 NS224 드라이브 쉘프를 FAS500f 또는 AFF A250 HA 쌍에 핫 추가할 수 있습니다.</block>
   <block id="851089e257660775de9f14fc67ced6b3" category="video-title">애니메이션 - NS224 드라이브 쉘프에서 RTC 배터리를 교체합니다</block>
   <block id="d4b0cbc1b32ce59a45784581449d8ba9" category="video-title">애니메이션 - NS224 드라이브 쉘프에 부팅 미디어를 교체합니다</block>
@@ -7218,7 +7171,6 @@
   <block id="c7b110777e110ebf201cadf84803bdb5" category="list-text"><block ref="c7b110777e110ebf201cadf84803bdb5" category="inline-link-macro-rx"></block></block>
   <block id="58be97337d3377c59cd19ffb71fbc7fb" category="inline-link-macro">NetApp CN1601</block>
   <block id="36c686b6a1d561ca87a79e4ac0028295" category="list-text"><block ref="36c686b6a1d561ca87a79e4ac0028295" category="inline-link-macro-rx"></block></block>
-  <block id="c83195c9d5e5dd5960c0976c81d14ea5" category="sidebar">Cisco 3232C</block>
   <block id="b609dd6c87556493ce1f11c7ab61cbdb" category="list-text">컨트롤러 모듈 뒤쪽의 NVMEM LED를 확인하십시오.</block>
   <block id="62052f557603d07beccb5c5c5b7c8d48" category="list-text">콘솔 오류 메시지를 확인하여 교체해야 하는 팬 모듈을 식별합니다.</block>
   <block id="6c0f8c80eb90bb62692eec695b2b97a4" category="paragraph">컨트롤러 모듈에서 중간 PCIe 모듈을 제거하고, 결함이 있는 부팅 미디어를 찾은 다음, 부팅 미디어를 교체하여 컨트롤러 모듈에서 부팅 미디어를 찾아야 합니다.</block>
@@ -7369,7 +7321,6 @@
   <block id="a9cbabd3f42c5ad7f4796dbf5e384b08" category="list-text">부팅 메뉴로 컨트롤러를 부팅합니다.</block>
   <block id="1e37c9a4ea44b0a302091f02c74564c1" category="admonition">관리 인증서 정보가 완료되면 컨트롤러가 부팅 메뉴로 돌아갑니다.</block>
   <block id="34dbbed571bcfe30f4b9897172116b74" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block></block>
-  <block id="24ed59b86428c96c86204227163206c0" category="paragraph"><block ref="24ed59b86428c96c86204227163206c0" category="inline-link-rx"></block></block>
   <block id="90d49fcc83418b049803a1b2081f3c6b" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block></block>
   <block id="14fa1a86493af188cbb574d402b31f1b" category="list-text">로 돌아갑니다 <block ref="c67cdb63ab5b46180d9910dcb0f03689" category="inline-xref-macro-rx"></block> NVMEM LED를 다시 확인하려면 이 절차를 수행하십시오.</block>
   <block id="ba17e519b189ae10cd004d12dcc5e44d" category="paragraph"><block ref="751c01f8467f96987ff97e3a647e9973" category="inline-xref-macro-rx"></block></block>
@@ -7383,4 +7334,456 @@
   <block id="8c2c8bc4e47d0ed180d7a321a6f45a30" category="paragraph">NVRAM 모듈을 교체하려면 섀시의 슬롯 6에 있는 모듈을 찾은 다음 특정 단계를 따르십시오.</block>
   <block id="44e91a10c5fb9bc923eb6ca613b41106" category="list-text">문자 및 번호가 매겨진 캠 래치를 누릅니다.</block>
   <block id="35ed901089030d76b9de29f7bb8d54ce" category="paragraph">캠 래치가 섀시에서 멀어 집니다.</block>
+  <block id="4cc790f78d8c248b4709cb24358daa53" category="doc">섀시 교체 개요 - AFF A150</block>
+  <block id="bd7c3c276d72352464260b4544a830d8" category="doc">구성을 복원 및 확인합니다 - AFF A150</block>
+  <block id="6561961e36dc0d672367014bb35814b0" category="inline-link-macro">"교체 프로세스를 완료합니다</block>
+  <block id="65f64a7bdb4d22c25178d4fda4e009b6" category="list-text">로 이동합니다 <block ref="c0ff5fd751abc2ff7939ebc71dae2951" category="inline-link-macro-rx"></block>.</block>
+  <block id="49c230c702ed6b30a6efde8eba87e563" category="doc">장애가 발생한 부품을 NetApp-AFF A150으로 되돌립니다</block>
+  <block id="3dfa4c8dc7083d8d9bf2fb1fc402660a" category="doc">요약 설명서 - AFF A150</block>
+  <block id="6e0311a42e114c05c9779f6c830f1d97" category="inline-link-macro">AFF A150 시스템 설치 및 설정 지침</block>
+  <block id="2e869cac122e3063f7b418f03cb3fa26" category="paragraph"><block ref="2e869cac122e3063f7b418f03cb3fa26" category="inline-link-macro-rx"></block></block>
+  <block id="b80ee1e7ed290f304dbaae444297a4fa" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A150</block>
+  <block id="e822ef8c7b4b17d3230b125760d56e76" category="doc">시스템 구성을 복원 및 확인합니다 - AFF A150</block>
+  <block id="178a6a7a54abe615089fef92a8499c05" category="doc">복구 이미지 AFF A150을 부팅합니다</block>
+  <block id="1639fff89eb56a9268790c9fe41436ab" category="doc">컨트롤러 모듈 교체 개요 - AFF A150</block>
+  <block id="beacfeb2bd1b2368710a9c5b41320482" category="list-text"><block ref="beacfeb2bd1b2368710a9c5b41320482" category="inline-link-macro-rx"></block></block>
+  <block id="71454761ab34aa791ad6a36c8a8778cb" category="list-text"><block ref="71454761ab34aa791ad6a36c8a8778cb" category="inline-link-macro-rx"></block></block>
+  <block id="e0d8bfe3e100500569288dd90bb120d4" category="list-text"><block ref="e0d8bfe3e100500569288dd90bb120d4" category="inline-link-macro-rx"></block></block>
+  <block id="31f2d2d52e4c5c09696388fc953ce437" category="doc">부팅 매체(AFF A150)를 교체합니다</block>
+  <block id="7efaed64dfb4761648f604a34ee8b1b1" category="doc">손상된 컨트롤러 AFF A150을 종료합니다</block>
+  <block id="738267be961299815138cc385f9de070" category="doc">상세 가이드 - AFF A150</block>
+  <block id="9b6f6ecb6633d22a67cc6a982fc55841" category="paragraph">MetroCluster 구성이 있는 경우 MetroCluster 설치 콘텐츠를 사용합니다.</block>
+  <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link">MetroCluster 문서</block>
+  <block id="c56326d51fd75802f2144766bd1e36d3" category="paragraph"><block ref="c56326d51fd75802f2144766bd1e36d3" category="inline-link-rx"></block></block>
+  <block id="11f6227d0571f4bf3fac6b6d821a60d1" category="paragraph">AFF A150 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="dd1dcd1cd7a28bbfc3b5a581b055bce3" category="inline-link-macro">드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
+  <block id="6c9cda13d9d7d9f8f82d912175e78d9b" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="42bf816180738dc1660363ee044d9786" category="inline-link-macro-rx"></block></block>
+  <block id="ee44682d06dd8612d09f370d6f80069a" category="image-alt">drw a150 ha 저장 케이블 IEOPS 1032</block>
+  <block id="a1770e5cf644990212f313f91eccb2d8" category="paragraph"><block ref="a1770e5cf644990212f313f91eccb2d8" category="inline-link-macro-rx"></block></block>
+  <block id="4402c8b8d6c489ed5617a151ffa90726" category="inline-link-macro">시스템 설치 및 구성을 완료합니다</block>
+  <block id="41e876cad607f9363190645026f4f818" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="cf51f79f23f70e62c97013df347c6a0f" category="inline-link-macro-rx"></block></block>
+  <block id="ab65dd4e976f1787737fc87ae65b8a6d" category="paragraph"><block ref="ab65dd4e976f1787737fc87ae65b8a6d" category="inline-link-rx"></block></block>
+  <block id="c2df61cd54941946b9e1d41669228517" category="paragraph"><block ref="c2df61cd54941946b9e1d41669228517" category="inline-link-rx"></block></block>
+  <block id="a7d0c7f24713f4f2e4432bb2b91f97d0" category="paragraph"><block ref="a7d0c7f24713f4f2e4432bb2b91f97d0" category="inline-link-rx"></block></block>
+  <block id="477b007cc84cc2f34c8bc4e37baeafa7" category="doc">비디오 - AFF A150</block>
+  <block id="c4c07270ebbe6cd1bc5aa6f45be76f02" category="video-title">애니메이션 - AFF A150을 설치하고 설정합니다</block>
+  <block id="15bdfa06733933ff3285c6dd92cad9c7" category="doc">전원 공급 장치를 교체합니다. - AFF A150</block>
+  <block id="f9195e4f2cbce0b6d30752619eae4687" category="doc">컨트롤러 모듈 하드웨어 AFF A150을 교체합니다</block>
+  <block id="890166d65f80913ec2882e814dc85cff" category="doc">컨트롤러 종료 - AFF A150</block>
+  <block id="882c273cdfcc452f3288c0e3d97ccb3a" category="doc">캐싱 모듈 AFF A150을 교체합니다</block>
+  <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="6daf7f4112fcf7c7be366c44ff70faf2" prefix=" " category="inline-code"></block></block>
+  <block id="236dd84b9226dbf8dfd98a6c46b59972" category="list-text">캐싱 모듈에서 데이터가 삭제되었는지 확인합니다.<block ref="55030d884a341e8f95d06478b61fbec9" prefix=" " category="inline-code"></block></block>
+  <block id="af41b619bf9d50ddae2454efc001e4dd" category="paragraph">출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.</block>
+  <block id="376b1cae869bbe8ab1cce68fdb30b696" category="inline-link-macro">DIMM을 교체합니다</block>
+  <block id="91e13f2779cb51174165fa30eaba7e5b" category="list-text">로 돌아갑니다 <block ref="cf268cc4bc5a73daf7348170b397c07d" category="inline-link-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
+  <block id="e23872c7fd1b170c488a2c5244bc263e" category="doc">A150 시스템 설명서</block>
+  <block id="1a9ae2b5eb296d614bebfdc33f389268" category="doc">온보드 암호화 키 확인 - AFF A150</block>
+  <block id="3bf6a2921f0e655ea4d2b6b2851e02df" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF A150</block>
+  <block id="91b91feeb88498e7be1c10bbbb6db4c2" category="inline-link-macro">HA 시스템에서 시스템 ID 변경 확인</block>
+  <block id="4e87b3c0f415f46d36e8fa6bd32a6ff7" category="paragraph"><block ref="4e87b3c0f415f46d36e8fa6bd32a6ff7" category="inline-link-macro-rx"></block></block>
+  <block id="465740a443e85d455a90494615d629b9" category="inline-link-macro">ONTAP에서 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다</block>
+  <block id="7070195bf98baff2e0462461db9cb074" category="paragraph"><block ref="7070195bf98baff2e0462461db9cb074" category="inline-link-macro-rx"></block></block>
+  <block id="734e28e3c6b715a48c7043347210471e" category="inline-link-macro">2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다</block>
+  <block id="ca5a5e07d656cff35da2184538cfc5fb" category="paragraph"><block ref="ca5a5e07d656cff35da2184538cfc5fb" category="inline-link-macro-rx"></block></block>
+  <block id="1cd8a39839471e937855a3c54b6b84d9" category="doc">부팅 미디어 교체 개요 - AFF A150</block>
+  <block id="35db388e4e99e4a7488ab682126d7fa6" category="doc">NVMEM 배터리 교체 - AFF A150</block>
+  <block id="2867a72512f6330f74fb93ac9f93f07d" category="doc">하드웨어 이동 및 교체 - AFF A150</block>
+  <block id="480828de65d5061e901ac63046040770" category="doc">전체 시스템 복원 - AFF A150</block>
+  <block id="930fad66fb3a257a1d24f20ac59c003f" category="doc">컨트롤러 모듈 교체 개요 - AFF C250</block>
+  <block id="7e48994ab2d6db5f4a1f1971bdb7686f" category="doc">컨트롤러 종료 - AFF C250</block>
+  <block id="094570163b0febbd13eb031d12659f04" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF C250</block>
+  <block id="f84d1999c8440d424fb52cc419a6a097" category="paragraph">AFF C250에는 컨트롤러 모듈의 에어 덕트 아래에 하나의 부트 미디어 장치가 있습니다. 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 옮겨야 합니다.</block>
+  <block id="bc845a0c4e457ee657740a9be626eafa" category="doc">전체 시스템 복원 - AFF C250</block>
+  <block id="094124db560bb515e3d41248ca00f18a" category="doc">하드웨어 교체 - AFF C250</block>
+  <block id="e2f649ac2d970925993f9e5fb7967c22" category="doc">메자닌 카드(AFF C250)를 교체하거나 설치합니다</block>
+  <block id="cd2699a4d57f54778810b017b2525727" category="doc">FAN-AFF C250 교체</block>
+  <block id="3e56ae245ac8653052ca2cbe9766da4b" category="doc">복원 및 교체 프로세스(AFF C250)를 완료합니다</block>
+  <block id="bf6b6560f6b1f050d2a1808c4b6336aa" category="doc">비디오 - AFF C250</block>
+  <block id="ff0126462ebf63e99c0e579efb8f1760" category="video-title">애니메이션 - AFF C250의 설치 및 설정</block>
+  <block id="bb948df5a06fd8fb2e2b9e9f99cc69d4" category="doc">복구 이미지 AFF C250을 부팅합니다</block>
+  <block id="ab8a572131275958428f9007945f684f" category="doc">섀시 교체 개요 - AFF C250</block>
+  <block id="7efc07dce9135b59eda99eab451a8d33" category="doc">장애가 발생한 부품을 NetApp-AFF C250으로 되돌립니다</block>
+  <block id="4b244bbe02217e1cc95dfefa194113e0" category="doc">NVMEM 배터리를 교체합니다. - AFF C250</block>
+  <block id="9787dc0906e96e78e67df0b3f9dad9a0" category="doc">실시간 시계 배터리 AFF C250을 교체합니다</block>
+  <block id="5e7787ae07713719c2880dedfbaa61f7" category="doc">시스템 구성 복원 및 확인 - AFF C250</block>
+  <block id="2fe38375bb3f7a0d45a583d876016df5" category="doc">DIMM-AFF C250을 교체합니다</block>
+  <block id="157f430cb5493d5d45b9bcab28a74c47" category="doc">부팅 미디어(AFF C250)를 교체합니다</block>
+  <block id="d4f7e708fe70911948b2ee39a366f69a" category="section-title">1단계: 컨트롤러 모듈 AFF C250을 분리합니다</block>
+  <block id="9c0f44d79b852189eca9e0c3c970c0ff" category="doc">전원 공급 장치 교체 - AFF C250</block>
+  <block id="3801b936526098c0a13cec6739840593" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF C250</block>
+  <block id="9173003f27a48b6c3802570ab91f9690" category="summary">이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="650ebf976037bb8321f0f947063e1da1" category="doc">자세한 단계 - AFF C250</block>
+  <block id="b9130a693f6e37444632fe71a4b60f7b" category="paragraph">AFF C250 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="3a4e965359d6ad3b670569d4d81a4897" category="list-text">다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프에 대한 쉘프 ID를 설정하고 전원을 켭니다.</block>
+  <block id="5ba23cc00c6685a0d9b231590e5ee1c0" category="paragraph">NS224 드라이브 쉘프의 경우 쉘프 ID는 00과 01로 사전 설정됩니다. 쉘프 ID를 변경하려면 페이퍼 클립의 곧게 편 끝 또는 좁은 팁 볼 포인트 펜을 사용하여 페이스플레이트 뒤에 있는 쉘프 ID 버튼에 액세스합니다.</block>
+  <block id="688ed49ee5cf1b7f7ef70935870d42d8" category="summary">AFF C250 시스템 설명서를 참조하여 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
+  <block id="c2deffcaea49ccd174c7da17d80e1edf" category="doc">AFF C250 시스템 설명서</block>
+  <block id="68234c72c82d88dc22b60a4f8925c19a" category="doc">SSD 드라이브 교체 - AFF C250</block>
+  <block id="a4829fef0cfb953ea3181e31db648a62" category="paragraph">I/O가 진행 중인 동안 장애가 발생한 SSD 드라이브를 중단 없이 교체할 수 있습니다.</block>
+  <block id="d7b7b72f7a0bd85854375ed25ad54137" category="admonition">장애가 발생한 드라이브 목록에 드라이브가 표시되려면 최대 몇 시간이 걸릴 수 있습니다.</block>
+  <block id="f6551f88d88dddb684035802224a0336" category="doc">컨트롤러-AFF C250을 종료합니다</block>
+  <block id="1338d35acdb3c964dd3a62d00b16a635" category="doc">온보드 암호화 키 확인 - AFF C250</block>
+  <block id="d667058635875eca097800e4379f58cd" category="doc">빠른 단계 - AFF C250</block>
+  <block id="84918b89947f6a68e4b25fe4753c02bc" category="inline-link-macro">AFF C250 설치 및 설정 지침</block>
+  <block id="66e0597e25a38bc180d5270f4021127a" category="paragraph"><block ref="66e0597e25a38bc180d5270f4021127a" category="inline-link-macro-rx"></block></block>
+  <block id="d3d5358ee829ec20cfebc87c86eed844" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C250</block>
+  <block id="64e5c97f01cbac1639343e8b0f670c20" category="list-text"><block ref="64e5c97f01cbac1639343e8b0f670c20" category="inline-link-macro-rx"></block></block>
+  <block id="38471c9931ce26e5aeb8c80bf6483a48" category="list-text"><block ref="38471c9931ce26e5aeb8c80bf6483a48" category="inline-link-macro-rx"></block></block>
+  <block id="82e9cd9a6fede8cb6fa3e276cac9a710" category="list-text"><block ref="82e9cd9a6fede8cb6fa3e276cac9a710" category="inline-link-macro-rx"></block></block>
+  <block id="3232f137ca5f81b881073e30f07d4927" category="doc">손상된 컨트롤러 모듈 AFF C250을 종료합니다</block>
+  <block id="528ac168c6accb2201fcbf9a5baff8a0" category="doc">부팅 미디어 교체 개요 - AFF C250</block>
+  <block id="d01bad26d559eb16c91d450cefe02539" category="doc">실시간 시계 배터리 AFF C400을 교체합니다</block>
+  <block id="771f4aeef9d68203f402ef43f2428c23" category="paragraph">컨트롤러가 섀시 밖으로 약간 이동합니다</block>
+  <block id="404943d0b155396f410fdc44b57014a3" category="doc">섀시 교체 개요 - AFF C400</block>
+  <block id="8403c2aeb3b774ba2a4c036b814a8776" category="doc">복원 및 교체 프로세스(AFF C400)를 완료합니다</block>
+  <block id="2f23284eb79c6d8562a57ec511c4045a" category="doc">팬 모듈 핫스왑 - AFF C400</block>
+  <block id="4d8adba62be8512e84ae7825848692e9" category="doc">장애가 발생한 부품을 NetApp-AFF C400으로 되돌립니다</block>
+  <block id="28dd2419d5232cd5e390f590d7d76b55" category="doc">요약 설명서 - AFF C400</block>
+  <block id="bef061f2ba2a880a4d71960c6fb14a8f" category="inline-link-macro">AFF C400 설치 및 설정 지침</block>
+  <block id="1fb877c7c5a192a0f8712065429afd55" category="paragraph"><block ref="1fb877c7c5a192a0f8712065429afd55" category="inline-link-macro-rx"></block></block>
+  <block id="dde11f85a430c37e085e56c530fa6482" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C400</block>
+  <block id="a637f1b4c2a1d9b5cb9f0347c7e77539" category="doc">시스템 구성을 복원 및 확인합니다 - AFF C400</block>
+  <block id="b1c4aeeae550bfbe7c6574898398d781" category="doc">NVDIMM 배터리를 교체합니다. - AFF C400</block>
+  <block id="76f50c3f31d2ab405df556357b00ae41" category="doc">컨트롤러 모듈 교체 개요 - AFF C400</block>
+  <block id="327f4c7d5141a205c506afea880dfdef" category="doc">전원 공급 장치 교체 - AFF C400</block>
+  <block id="bd47a35792b075014fd52e08e307f334" category="paragraph">다음 그림과 함께 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
+  <block id="59278043c69406fc3ad5a92b1268c7a1" category="list-text"><block ref="59278043c69406fc3ad5a92b1268c7a1" category="inline-link-macro-rx"></block></block>
+  <block id="207fa20809605ec76418419987911de1" category="list-text"><block ref="207fa20809605ec76418419987911de1" category="inline-link-macro-rx"></block></block>
+  <block id="8ec5a018cdb8c2ff183e79e6526679cf" category="list-text"><block ref="8ec5a018cdb8c2ff183e79e6526679cf" category="inline-link-macro-rx"></block></block>
+  <block id="a8284f2b3b25b926b6a065b08aa67e1a" category="doc">부팅 미디어(AFF C400)를 교체합니다</block>
+  <block id="aeb801131e9e445741a961cfb931c2db" category="doc">손상된 컨트롤러 AFF C400을 종료합니다</block>
+  <block id="5ab526c2d8a23c39c3d68b1080ca3e89" category="doc">상세 가이드 - AFF C400</block>
+  <block id="ed1fe7521861c492832064f3b6daca68" category="paragraph">100 GbE 케이블(QSFP28)</block>
+  <block id="e0cc8c545401fc3b34281140c54756c7" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(C400의 경우 PCIe 커넥터 소켓이 카드 슬롯의 왼쪽에 있음)을 확인하여 포트를 식별한 다음 NetApp Hardware Universe의 부품 번호로 카드를 찾습니다. 에서는 포트 레이블이 있는 베젤의 그림을 보여 줍니다. sysconfig -a 명령 또는 시스템 패킹 목록을 사용하여 카드 부품 번호를 찾을 수 있습니다.</block>
+  <block id="80a7f396e1bc3ed796a9313a0aa75443" category="image-alt">drw C400 TNSC 네트워크 케이블 연결</block>
+  <block id="a905d4a42dacfc07296e02d609b47cb0" category="image-alt">drw C400 스위치 방식 네트워크 케이블 연결</block>
+  <block id="670ce436320fc9008e2880db983e27d2" category="paragraph">다음 옵션은 하나 또는 두 개의 NS224 드라이브 쉘프를 시스템에 케이블로 연결하는 방법을 보여줍니다.</block>
+  <block id="66587f1aa86b9e296b1d1dd43ca73e3e" category="image-alt">drw C400 1개 ns224 셸프</block>
+  <block id="0b9e9bf3097ae366abf0d35474fb4b1f" category="image-alt">drw C400 2개의 ns224 셸프</block>
+  <block id="eca713323e6fa9782ebae60357fc0453" category="doc">NVDIMM-AFF C400을 교체합니다</block>
+  <block id="719e61ffcf0d96924351db01f7e50603" category="doc">비디오 - AFF C400</block>
+  <block id="51e4f59a1aaa143b8d5c910f0a77328e" category="video-title">애니메이션 - AFF C400 설치 및 설정 지침</block>
+  <block id="e6423ca3487b9b75d5af512862698175" category="doc">컨트롤러 모듈 하드웨어를 교체합니다. - AFF C400</block>
+  <block id="e46b8c6d3d358d972a1fe516250dcf5d" category="paragraph">컨트롤러를 섀시에 밀어 넣습니다</block>
+  <block id="5edd30c4cef8fac3bd29e60266f4cb36" category="doc">컨트롤러를 종료합니다. - AFF C400</block>
+  <block id="5254fce53c38649f011fdb307e35d4b3" category="doc">DIMM-AFF C400을 교체합니다</block>
+  <block id="d026008f7eb80e36926da619f0e8aa79" category="summary">AFF C400 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
+  <block id="e8e2cfacbe6cfb70649bd4e2bb33598e" category="doc">AFF C400 시스템 설명서</block>
+  <block id="8db6fdf9679dcdf01a0f39d01d482c0c" category="doc">온보드 암호화 - AFF C400을 확인합니다</block>
+  <block id="454f2d4445f738afc6491f938272785d" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF C400</block>
+  <block id="7fc305adae8e903c0dc8bff5a49862c9" category="doc">PCIe 또는 메자닌 카드(AFF C400)를 교체합니다</block>
+  <block id="042e6e8da8b6da480bf85ff04e4d7922" category="doc">부팅 미디어 교체 개요 - AFF C400</block>
+  <block id="bb2c0218cb7e6195837599cbb3d03ac1" category="doc">2노드 MetroCluster 구성인 AFF C400에서 애그리게이트를 다시 전환합니다</block>
+  <block id="1d3d538ec62d31076cad785952dec0e5" category="doc">하드웨어 교체 - AFF C400</block>
+  <block id="f961e8ce56452340996ff8bab8e0d037" category="doc">복구 이미지 AFF C400을 부팅합니다</block>
+  <block id="2642a6c4a1666402654202d970bc20a6" category="doc">전체 시스템 복원 - AFF C400</block>
+  <block id="3e442d8f2f13e8331a31e7c1c2737e59" category="paragraph">전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 다시 전원에 연결하는 작업이 포함됩니다.</block>
+  <block id="311f323a046afbcf6ce4b152ad2dee93" category="list-text">이 절차는 한 번에 하나의 PSU를 교체하는 데 사용됩니다.</block>
+  <block id="be0020622e775d64818f3acc7c2d856d" category="admonition">PSU를 섀시에서 분리한 후 2분 이내에 교체하는 것이 좋습니다. 시스템이 계속 작동하지만 ONTAP는 PSU를 교체할 때까지 성능이 저하된 PSU에 대한 메시지를 콘솔에 보냅니다.</block>
+  <block id="e5b2987f321084b00bed28fd97c58226" category="paragraph">사용 중인 PSU 유형(AC 또는 DC)에 맞는 절차를 사용하십시오.</block>
+  <block id="f93bc8f892972bb47d2b0ca4cd480fad" category="open-title">옵션 1: AC PSU 교체</block>
+  <block id="19a7bfc2c20931ac9f3593ce3f8c7632" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 PSU를 교체합니다.</block>
+  <block id="a2528ca750816c5cbcc2ab1df78a8eb6" category="video-title">애니메이션 - AC PSU를 교체합니다</block>
+  <block id="ba076df359148e35b1b589b37e5d2faa" category="list-text">콘솔 오류 메시지 또는 PSU의 빨간색 오류 LED를 통해 교체할 PSU를 식별합니다.</block>
+  <block id="87bf19b9bb87e3527a13e2beb951da0a" category="list-text">PSU를 분리합니다.</block>
+  <block id="d8b3adb935955fae05f64c8de837e522" category="list-text">전원 케이블 고정 장치를 연 다음 PSU에서 전원 케이블을 뽑습니다.</block>
+  <block id="be704b19b534f427c13213bebc1bc44d" category="list-text">손잡이를 위로 돌리고 잠금 탭을 누른 다음 PSU를 컨트롤러 모듈에서 당겨 꺼냅니다.</block>
+  <block id="04c1aefc3b70eb0cf5a5362fbc5efc89" category="admonition">PSU가 짧습니다. 컨트롤러 모듈에서 분리할 때 컨트롤 모듈이 갑자기 흔들리지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.</block>
+  <block id="4fbdadb4fe2de0a22b6a6e7f9303997c" category="cell">파란색 PSU 잠금 탭</block>
+  <block id="0fba729f16fcfcc49a0af849cbbf49e3" category="list-text">컨트롤러 모듈에 교체용 PSU를 설치합니다.</block>
+  <block id="6b689019fdf63b33788e8122cee5d807" category="list-text">양손을 사용하여 PSU의 가장자리를 컨트롤러 모듈의 입구에 맞춘 후 지지하십시오.</block>
+  <block id="158827adeb2e51a7a4411ccf31abc518" category="list-text">잠금 탭이 딸깍 소리를 내며 제자리에 고정될 때까지 PSU를 컨트롤러 모듈에 조심스럽게 밀어 넣습니다.</block>
+  <block id="87a96ba236fa6528e20ebe340d990e6e" category="admonition">내부 커넥터의 손상을 방지하려면 PSU를 시스템에 밀어 넣을 때 과도한 힘을 가하지 마십시오.</block>
+  <block id="62656dd1e6a6787bd054fb659bb474d4" category="list-text">PSU 케이블을 다시 연결합니다.</block>
+  <block id="965cc3fcca40fe72903f2bf567787bd9" category="list-text">전원 케이블을 PSU에 다시 연결합니다.</block>
+  <block id="774e50999ed71aed779cdb839371a69d" category="list-text">전원 케이블 고정 장치를 사용하여 전원 케이블을 PSU에 고정합니다.</block>
+  <block id="eb3ac9b9efdc3a8db20ea72534f74755" category="paragraph">PSU에 전원이 다시 공급되면 상태 LED가 녹색이어야 합니다.</block>
+  <block id="88ff7f55200d397b9c241c6c03ccd6ab" category="open-title">옵션 2: DC PSU 교체</block>
+  <block id="6a5cc777b5cea5516ed3c04946243c15" category="paragraph">DC PSU를 교체하려면 다음 단계를 수행하십시오.</block>
+  <block id="81118bbf4dc8e737a15cb33e309d5928" category="list-text">플러그의 나비 나사를 사용하여 D-sub DC 전원 케이블 커넥터를 풉니다.</block>
+  <block id="a11fffebed2ec4e6399a05866d830825" category="list-text">PSU에서 전원 케이블을 분리하여 따로 보관합니다.</block>
+  <block id="50e55f801844aaccd3dd2512f4973284" category="image-alt">drw dcpsu remove generic IEOPS 788을 대체합니다</block>
+  <block id="7e9c947073c870125f5537753ceb963c" category="inline-image-macro">너비 = 10px</block>
+  <block id="3c41e1437657ea44ea906d59991155fe" category="paragraph"><block ref="3c41e1437657ea44ea906d59991155fe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a2188e25bb7db28c0b09dd772382a5c" category="paragraph">나비 나사</block>
+  <block id="6b1819a9a296dc2a07dbd901dfb22247" category="paragraph"><block ref="6b1819a9a296dc2a07dbd901dfb22247" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c589f0723743108df8fff79412bb01b9" category="paragraph">D-sub DC 전원 케이블 커넥터</block>
+  <block id="b5a3b4332b7e14b61ef4982cbd323974" category="paragraph"><block ref="b5a3b4332b7e14b61ef4982cbd323974" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="feafb86ee931bf1f66f76fbde04555e9" category="paragraph">전원 공급 장치 핸들</block>
+  <block id="f9d5c310b5608c831c5d0dd6865c6294" category="paragraph"><block ref="f9d5c310b5608c831c5d0dd6865c6294" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="173dbae753c5a17af5a0f12d0fd36a1d" category="list-text">D-sub DC 전원 케이블을 다시 연결합니다.</block>
+  <block id="5189bdda5c50ec48e9cb3132d0fa8678" category="list-text">전원 케이블 커넥터를 PSU에 꽂습니다.</block>
+  <block id="996349ffc749676ad9ad3291406b24cf" category="list-text">손잡이 나사를 사용하여 전원 케이블을 PSU에 고정합니다.</block>
+  <block id="baf107967ece7d67d1783f4502771ad4" category="admonition">다른 효율 등급 또는 다른 입력 유형의 PSU를 혼용하지 마십시오. 항상 Like를 사용합니다.</block>
+  <block id="d63b332a7d7806b789880c5d6f160228" category="paragraph">AC PSU를 교체하려면 다음 단계를 수행하십시오.</block>
+  <block id="9955c2b1562468fb4711a85f3ef88fde" category="list-text">양손을 사용하여 교체용 PSU의 가장자리를 컨트롤러 모듈의 입구에 맞춘 후 지지하십시오.</block>
+  <block id="9f0aed9654d394747b630a47a617d5b8" category="list-text">전원 케이블을 PSU 및 전원에 다시 연결합니다.</block>
+  <block id="ee9a667be020c33cc2b2d4ede76c2f4f" category="list-text">플러그에 있는 나비 나사를 사용하여 D-sub DC 케이블 커넥터를 풉니다.</block>
+  <block id="45b4088dd83a4a7b2bba149e4e3d9b79" category="list-text">PSU에서 케이블을 분리하여 따로 보관합니다.</block>
+  <block id="7086b5b8246e319a69ceaa9c8bea88f2" category="list-text">손잡이를 위로 돌리고 잠금 탭을 누른 다음 PSU를 컨트롤러 모듈에서 당겨 꺼냅니다.</block>
+  <block id="3c7945776be28bf262f95808630c98bc" category="paragraph">D-sub DC 전원 PSU 케이블 커넥터</block>
+  <block id="f8fec4f228a85c4176dc455080b37d93" category="inline-image-macro">폭 = 10x</block>
+  <block id="3d1a418b11058f0297d85300215afbc1" category="paragraph"><block ref="3d1a418b11058f0297d85300215afbc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14a4774e9c6245d6341272988d1f5fbe" category="admonition">시스템에 DC 전원 공급 장치가 있는 경우 전원 공급 장치 케이블의 손잡이 나사가 단단히 조여져 있는지 확인합니다.</block>
+  <block id="46f00909dad629ef305730aebec6b362" category="list-text">다음 애니메이션 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.</block>
+  <block id="d277c9568778ee459f0e04f57bb73a7b" category="list-text">AC 전원 공급 장치인 경우 전원 코드 고정 장치를 열어 전원 공급 장치에서 전원 코드를 분리하거나, DC 전원 공급 장치인 경우 두 개의 나비 나사를 푼 다음 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
+  <block id="8ba0a60c4c9ef98086ff14a53b417216" category="list-text">전원 코드를 전원 공급 장치에 다시 연결한 다음, AC 전원 공급 장치인 경우 전원 코드 고정 장치로 전원 코드를 고정하거나 DC 전원 공급 장치인 경우 두 개의 나비 나사를 조입니다.</block>
+  <block id="d392479770485002d002d4ef0aaf3fb7" category="list-text">다음 애니메이션 또는 기록된 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.</block>
+  <block id="413763831143110464ea32cf926646ff" category="list-text">전원 코드를 전원 공급 장치에 다시 연결한 다음, AC 전원 공급 장치인 경우 전원 코드 고정 장치로 전원 코드를 고정하거나 DC 전원 공급 장치인 경우 두 개의 나비 나사를 조인 다음 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
+  <block id="fc2b3ed430cb8c91e352b492f909df0e" category="list-text">다음 애니메이션은 드라이브 핫 스왑 절차의 물리적 분리 및 삽입 부분을 간략하게 보여 줍니다.</block>
+  <block id="a5296c0167e1a9e0e79d0ac90763897a" category="list-text">다음 애니메이션 또는 작성된 단계를 사용하여 DIMM을 교체할 수 있습니다.</block>
+  <block id="4be5ffb0248a7f7fbd958f1cda061f7a" category="section-title">AFF A700, AFF A800, AFF C800, AFF A400, AFF C400 HA 쌍을 준비하여 두 번째 쉘프를 핫 추가합니다</block>
+  <block id="c574e5a033e5460323e267b83b04dfe1" category="paragraph">AFF A700, AFF A800, AFF C800, AFF A400, AFF C400 HA 2노드 및 각 컨트롤러의 RoCE 가능 포트 세트 하나에 케이블로 연결된 NS224 드라이브 쉘프 하나를 보유한 경우, 쉘프를 다시 정리해야 합니다 (추가 RoCE 가능 PCIe 카드 또는 I/O 모듈을 설치한 후) 각 컨트롤러의 두 포트 세트 간에 작업을 수행한 다음, 두 번째 쉘프를 핫 추가합니다.</block>
+  <block id="20b6f43af9fa83cc4fb91fe544ed870c" category="paragraph">AFF A800 또는 AFF C800 HA 쌍</block>
+  <block id="39d970461581cdbd7cd52a0c942e09cc" category="paragraph"><block ref="4c1ac301fada9548f6ad2acaf0e467d2" category="inline-xref-macro-rx"></block></block>
+  <block id="f3d5d75e576e887e5cc38744e9413dea" category="paragraph">AFF C400 HA 쌍</block>
+  <block id="d83f6d97e759c5156f389e1bbaca2e46" category="paragraph"><block ref="b415fb6b993cf20b1b9d3f6c50f3ab17" category="inline-xref-macro-rx"></block></block>
+  <block id="08755d45823cf538e7c3e95cdbf3232d" category="list-text">컨트롤러 A에서 슬롯 4 포트 A(e4a)에서 슬롯 5 포트 b(e5b)로 케이블을 이동합니다.</block>
+  <block id="2714efafc88a564eeaaee969d028a550" category="list-text">전원 코드를 선반에 연결한 다음 AC 전원 공급 장치인 경우 전원 코드 고정쇠로 고정하거나 DC 전원 공급 장치인 경우 두 개의 나비 나사로 고정한 다음 전원 코드를 다른 전원에 연결하여 복원성을 확인합니다.</block>
+  <block id="ac729677e330b2bd79ba466237427cd0" category="section-title">AFF A250, AFF C250 또는 FAS500f HA 쌍에 대한 핫 애드 쉘프를 연결합니다</block>
+  <block id="f785dc6fbda4bf5cffbc5642d9f63fcc" category="image-alt">drw ns224 A250 c250 f500f 1쉘프 IEOPS 963</block>
+  <block id="1f16f18b5edbb033abeecd941eede311" category="paragraph">AFF A700 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용하고 있는 RoCE 가능 포트 세트(하나 또는 두 개)의 수에 따라 달라집니다.</block>
+  <block id="06d25e1ce74f6aaec655716b2dff74fa" category="section-title">AFF A800 또는 AFF C800 HA 2노드에 대해 핫 추가 쉘프를 케이블 연결</block>
+  <block id="e71af3f859a96a4597c3ee57f2465148" category="paragraph">AFF A800 또는 AFF C800 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용 중인 RoCE 가능 포트 세트(1~2개)의 수에 따라 달라집니다.</block>
+  <block id="4a64724d8e98b13ea57df6fa3ef82797" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 5 포트 A(e5a)에 케이블로 연결합니다.</block>
+  <block id="645f1ad1e72000ad9dc8c3735828b28a" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 5 포트 b(e5b)에 연결합니다.</block>
+  <block id="0b2da11bd8c712291a7f895f49e9e5e9" category="list-text">케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 5 포트 A(e5A)에 연결합니다.</block>
+  <block id="7d87c1e0b37af31cc86321a5d5f8fad9" category="list-text">컨트롤러 A 슬롯 5 포트 b(e5b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다.</block>
+  <block id="77216f6b109bab92f8497e814fbcd4a5" category="image-alt">drw ns224 A800 C800 1쉘프 IEOPS 964</block>
+  <block id="67a1e7b2fb2710119ca2c369df46d177" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 5 포트 A(e5a)에 케이블로 연결합니다.</block>
+  <block id="b2d8ae37f68adbef520c33f95bc7740d" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 3 포트 b(e3b)에 연결합니다.</block>
+  <block id="109d29131c6d5647c766eefb23aec61b" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 5 포트 A(e5a)에 케이블로 연결합니다.</block>
+  <block id="27310283a3908ee815e83bb06328e1d3" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 3 포트 b(e3b)에 연결합니다.</block>
+  <block id="59c7f6788f7ef12a4b2524328b13a7fb" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 3 포트 A(e3a)에 케이블로 연결합니다.</block>
+  <block id="a73dfc2db8f70243575712b9db968b1b" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 5 포트 b(e5b)에 연결합니다.</block>
+  <block id="cb68744bc941069df627bd20238f7997" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 3 포트 A(e3a)에 케이블로 연결합니다.</block>
+  <block id="62e633c0432fba605a22e8a2ab4b4bbe" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 5 포트 b(e5b)에 연결합니다.</block>
+  <block id="e353caf6698cfea61d3a9c18256a7e59" category="image-alt">drw ns224 A800 C800 2쉘프 IEOPS 966</block>
+  <block id="bf357d9e6b8fc772b2e450e7c12e862a" category="paragraph">AFF A400 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용하고 있는 RoCE 가능 포트 세트(하나 또는 두 개)의 수에 따라 다릅니다.</block>
+  <block id="c8714c0d9fd482c82a6eb9a1f88a6c6a" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 5 포트 2(e5b)에 연결합니다.</block>
+  <block id="ce53afcddddc3b3dd304dc0ca5abed65" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 5 포트 2(e5b)에 연결합니다.</block>
+  <block id="6239efbf6396bdace9a9955581f4409b" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 5 포트 1(e5a)에 케이블로 연결합니다.</block>
+  <block id="2fe8fb2268f4a14629b04075d5feb39b" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 5 포트 1(e5a)에 케이블로 연결합니다.</block>
+  <block id="f083687f229e9087607fc97422e119c0" category="image-alt">drw ns224 a400 2쉘프 IEOPS 983</block>
+  <block id="3a6fe973f6f6e375a30d50e1b00bea51" category="section-title">AFF C400 HA 쌍을 위한 핫 추가 쉘프에 케이블을 연결합니다</block>
+  <block id="0b6cfa43bebeb67d84b94f8437703149" category="paragraph">AFF C400 HA 쌍에서 NS224 드라이브 쉘프의 케이블을 연결하는 방법은 핫 추가할 쉘프 수와 컨트롤러 모듈에서 사용하고 있는 RoCE 가능 포트 세트(하나 또는 두 개)의 수에 따라 달라집니다.</block>
+  <block id="7bbb938b0cef224ffa8f6826122559e4" category="list-text">각 컨트롤러 모듈에서 하나의 RoCE 가능 포트 세트를 사용하여 하나의 쉘프를 핫 추가할 경우, HA 쌍에서 유일한 NS224 쉘프인 경우 다음 하위 단계를 완료하십시오.</block>
+  <block id="d5453cac8ec10c5502b08b0ac5208b06" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 4 포트 1(e4a)에 케이블로 연결합니다.</block>
+  <block id="f74b21e9e00a4f232af4a83d6e91ea56" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 4 포트 2(e4b)에 연결합니다.</block>
+  <block id="dea9986ba87dcbe7e1e56edd0971ea75" category="list-text">케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 4 포트 1(e4a)에 연결합니다.</block>
+  <block id="f0f25c87c1779ef06057bd2f760dd44a" category="list-text">컨트롤러 A 슬롯 4 포트 2(e4b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다.</block>
+  <block id="3c77f8a010dc228fdfa09613c4594a7f" category="image-alt">drw ns224 C400 1쉘프 IEOPS 985</block>
+  <block id="b53dcc9edd6c4009c02a65c16082912f" category="list-text">각 컨트롤러 모듈에서 2개의 RoCE 가능 포트 세트를 사용하여 하나 또는 2개의 쉘프를 핫 추가하려면 다음 하위 단계를 완료하십시오.</block>
+  <block id="a3a2d87cd45ac90b1a64a157d596387a" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 4 포트 1(e4a)에 케이블로 연결합니다.</block>
+  <block id="ec21ec9fcd2f64561315df3e90210f4e" category="list-text">NSM B 포트 e0a를 컨트롤러 B 포트 슬롯 4 포트 1(e4a)에 연결합니다.</block>
+  <block id="271862bfe83769232e835a8b7bc18b91" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 4 포트 2(e4b)에 연결합니다.</block>
+  <block id="15c080954c797a5f48e731fe0b0c039f" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 4 포트 2(e4b)에 연결합니다.</block>
+  <block id="e33765db8a9f63ae6e0b091a821ba6e2" category="image-alt">drw ns224 C400 2쉘프 IEOPS 984</block>
+  <block id="367a5e8a40acf4970fc5bd256036dad0" category="list-text">전원 공급 장치를 다른 효율 등급 또는 다른 입력 유형과 함께 사용하지 마십시오.</block>
+  <block id="ca2b5a039c8e27702d6e3bceb10da121" category="paragraph">항상 Like를 사용합니다.</block>
+  <block id="90b475888361b2f83d88d4a8d50e38ae" category="paragraph">사용 중인 PSU 유형(AC 또는 DC)에 맞는 절차를 사용하십시오.</block>
+  <block id="dbe274976a0675ada94a7cd154b41770" category="open-title">옵션 1: AC 전원 공급 장치를 교체합니다</block>
+  <block id="766cd1f86b59b34959a00e935d7879f0" category="paragraph">AC 전원 공급 장치를 교체하려면 애니메이션을 보거나 다음 단계를 완료할 수 있습니다.</block>
+  <block id="237b374556444adacad703246e5d9ef0" category="list-text">핸들을 위로 돌려 수평 위치로 이동한 다음 잡습니다.</block>
+  <block id="f0167637a350c4dd2e81ce6e691cd9db" category="list-text">핸들을 아래로 돌려 정상적인 작동 방식이 되지 않도록 합니다.</block>
+  <block id="f66f18cf0f377b83882ade5b0618dbe0" category="open-title">옵션 2: DC 전원 공급 장치를 교체합니다</block>
+  <block id="75a2f242d94a472d387a461ee767e00c" category="paragraph">DC 전원 공급 장치를 교체하려면 다음 단계를 수행하십시오.</block>
+  <block id="de5c94ee80b23390308831ba0a74d44b" category="paragraph">다음 단계의 그림과 표는 두 개의 나비 나사(항목 #1)와 D-SUB DC 전원 케이블 커넥터(항목 #2)를 보여줍니다.</block>
+  <block id="75b8b67557750f13b0b08808f90f76e3" category="list-text">전원 케이블 커넥터에 있는 두 개의 나비 나사를 풉니다.</block>
+  <block id="37a0782c59ce799b3f0ac9f1fd300d95" category="list-text">전원 공급 장치에서 전원 케이블 커넥터를 분리하여 따로 보관해 둡니다.</block>
+  <block id="dd59df5055ae64422d06dada9ff46511" category="admonition">전원 공급 장치가 단락되었습니다. NSM 모듈에서 제거할 때는 NSM 모듈에서 스윙이 되지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.</block>
+  <block id="6e496e45275d9692038e8f0693a1ec58" category="paragraph">전원 공급 장치는 내부 커넥터 및 잠금 장치와 제대로 맞물립니다. 전원 공급 장치가 제대로 장착되지 않은 경우 이 단계를 반복합니다.</block>
+  <block id="de1e769c433d3a929aaa6f6ee4b43fe2" category="list-text">전원 케이블 커넥터를 전원 공급 장치에 연결합니다.</block>
+  <block id="a637e5d063c7b8dd7bfddc7608e9573e" category="list-text">2개의 나비 나사를 조여 전원 케이블 커넥터를 전원 공급 장치에 고정합니다.</block>
+  <block id="89f1a7f8afce2b821a07ad90fa45719c" category="list-text">다음 애니메이션 또는 기록된 단계를 사용하여 팬을 교체할 수 있습니다.</block>
+  <block id="3b3c879ba506df7489cfabd2dcff0ce2" category="list-text">전원 코드가 AC 전원 공급 장치인 경우 전원 코드 고정 장치를 열거나 DC 전원 공급 장치인 경우 두 개의 나비 나사를 푼 다음 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
+  <block id="2618c98d909106f2012ce83478a61e98" category="list-text">다음 애니메이션 또는 작성된 단계를 사용하여 NSM 모듈을 교체할 수 있습니다.</block>
+  <block id="0bf5ff9e72c934359f371e6cfcac4e7a" category="list-text">AC 전원 공급 장치인 경우 전원 코드 고정 장치를 열어 전원 공급 장치에서 전원 코드를 분리하거나, DC 전원 공급 장치인 경우 두 엄지 나사를 푼 다음 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
+  <block id="a5eed34e2848e5d8b4a2e7db6420eb0b" category="list-text">손상된 NSM 모듈에서 교체 NSM 모듈로 DIMM을 이동합니다.</block>
+  <block id="c09133f07e81aff9529fa7603192c4e6" category="list-text">장애가 발생한 NSM 모듈에서 교체 NSM 모듈로 팬을 이동합니다.</block>
+  <block id="f5c149574e080653110f6de1e58f8a94" category="list-text">손상된 NSM 모듈에서 교체 NSM 모듈로 전원 공급 장치를 이동합니다.</block>
+  <block id="c2e2567b93e54427d80c6e00b15817db" category="summary">AFF 및 FAS 시스템을 설치하여 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성한 다음 스토리지를 구성해야 합니다.</block>
+  <block id="5ffdf920c790023dff209052146f3717" category="doc">AFF 및 FAS 스토리지 시스템을 가동 및 운영합니다</block>
+  <block id="5580e672f0ec2eb7f97978674ab11acb" category="inline-link">MetroCluster 문서 사이트</block>
+  <block id="1a4af28a3bbd2601782d5a7f4300eace" category="paragraph">시스템이 MetroCluster 구성인 경우 로 이동합니다<block ref="7a41c0ceac7b7f46cc98ba334d076153" category="inline-link-rx"></block> MetroCluster 구성 유형에 해당하는 설치 지침을 따르십시오.</block>
+  <block id="71e3f3adc231b164f4f0837d133f2bc6" category="paragraph">MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 다음 워크플로우를 사용하여 스토리지 시스템을 구축합니다.</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
+  <block id="1488c7c37653a45223ebecdfabcefa04" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> AFF/FAS 컨트롤러 설치</block>
+  <block id="edc4a76e22711e26f2e103a32108feb0" category="paragraph">랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.</block>
+  <block id="8e4eec704f9a8706e1a3cf96accb2c17" category="list-text"><block ref="8e4eec704f9a8706e1a3cf96accb2c17" category="inline-link-rx"></block></block>
+  <block id="564ec135f22614fd51e7ace4addc3c82" category="list-text"><block ref="564ec135f22614fd51e7ace4addc3c82" category="inline-link-rx"></block></block>
+  <block id="5173935e91aef44c51b8afd57f32f13f" category="list-text"><block ref="5173935e91aef44c51b8afd57f32f13f" category="inline-link-rx"></block></block>
+  <block id="e06ad9290eff5c16396920aafb75091e" category="list-text"><block ref="e06ad9290eff5c16396920aafb75091e" category="inline-link-rx"></block></block>
+  <block id="5cebcc95a2116e4839d188e34a24089c" category="list-text"><block ref="5cebcc95a2116e4839d188e34a24089c" category="inline-link-rx"></block></block>
+  <block id="2f143cdae4fee80d6697460e215b8a02" category="list-text"><block ref="2f143cdae4fee80d6697460e215b8a02" category="inline-link-rx"></block></block>
+  <block id="5ac126eccd9cedace8ba8c1ea4723760" category="list-text"><block ref="5ac126eccd9cedace8ba8c1ea4723760" category="inline-link-rx"></block></block>
+  <block id="266197ce8fb9d3417e159a8b375e04ef" category="list-text"><block ref="266197ce8fb9d3417e159a8b375e04ef" category="inline-link-rx"></block></block>
+  <block id="9832cac218f9fee6c6d44a9f9b5e7d76" category="list-text"><block ref="9832cac218f9fee6c6d44a9f9b5e7d76" category="inline-link-rx"></block></block>
+  <block id="4cd32923632a1028f1e64fee85335b39" category="list-text"><block ref="4cd32923632a1028f1e64fee85335b39" category="inline-link-rx"></block></block>
+  <block id="6cfed826aaeccc59ecbf1bef0c41c6b6" category="list-text"><block ref="6cfed826aaeccc59ecbf1bef0c41c6b6" category="inline-link-rx"></block></block>
+  <block id="2bf999bae7084da5db26c6b483ac44f0" category="list-text"><block ref="2bf999bae7084da5db26c6b483ac44f0" category="inline-link-rx"></block></block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
+  <block id="d130f1dd19e93aaf9701cc968056061f" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 스위치 하드웨어를 설치합니다</block>
+  <block id="26d2e0bd267361cc8916e7e16faebcbb" category="paragraph">랙 또는 캐비닛에 스위치를 설치합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
+  <block id="f267a68fd1c8bddcc992701898021398" category="list-title">클러스터 스위치</block>
+  <block id="8821c03ea98d1edaf4b4b82c0aaf59dc" category="inline-link-macro">BES-53248 스위치를 설치합니다</block>
+  <block id="9000e67500cb5e61bcd3ec702237913b" category="list-text"><block ref="9000e67500cb5e61bcd3ec702237913b" category="inline-link-macro-rx"></block></block>
+  <block id="f4f4adc3268a66380dfdff9b1a20bc7b" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치를 설치합니다</block>
+  <block id="ecdf11290d1440e9c1a6d4b9666ad878" category="list-text"><block ref="ecdf11290d1440e9c1a6d4b9666ad878" category="inline-link-macro-rx"></block></block>
+  <block id="66e51b9ff1adb3e615b49ae8223869a4" category="inline-link-macro">NVIDIA SN2100 스위치를 설치합니다</block>
+  <block id="459378c7b38e766a9c40673dc6b7d6b6" category="list-text"><block ref="459378c7b38e766a9c40673dc6b7d6b6" category="inline-link-macro-rx"></block></block>
+  <block id="403284bd44beda112195a484c8a76421" category="list-title">스토리지 스위치</block>
+  <block id="75ddd4263ff912af7be6b34b846062ec" category="list-text"><block ref="75ddd4263ff912af7be6b34b846062ec" category="inline-link-macro-rx"></block></block>
+  <block id="617820a8b836e10d6f5146fc0f043112" category="list-text"><block ref="617820a8b836e10d6f5146fc0f043112" category="inline-link-macro-rx"></block></block>
+  <block id="bc8a2cd252a5beb1dbf4f209baea67eb" category="list-title">공유 스위치</block>
+  <block id="5e56acfb152f096818349fa67202b6f7" category="list-text"><block ref="5e56acfb152f096818349fa67202b6f7" category="inline-link-macro-rx"></block></block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
+  <block id="a4ae5d0bd4e47ba267a8df1ceee51985" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>스위치를 컨트롤러에 케이블로 연결합니다</block>
+  <block id="427748ed6a44d0d6126050507a461881" category="paragraph">AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케이블로 연결하는 지침이 포함되어 있습니다. 그러나 지원되는 케이블 및 트랜시버 목록과 스위치의 호스트 포트에 대한 자세한 정보가 필요한 경우 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
+  <block id="497781401f115451ecac27f7f2933cb3" category="inline-link-macro">케이블 BES-53248 스위치</block>
+  <block id="4762b908167d7cdf9e4a1c2789f3dc25" category="list-text"><block ref="4762b908167d7cdf9e4a1c2789f3dc25" category="inline-link-macro-rx"></block></block>
+  <block id="2586f55a2b9174f4cb4f6ba1d3074ad1" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치 케이블 연결</block>
+  <block id="93bab82665555723d09cf89ede810907" category="list-text"><block ref="93bab82665555723d09cf89ede810907" category="inline-link-macro-rx"></block></block>
+  <block id="52f7a5e6d4c023e5fef53f473f22b20a" category="inline-link-macro">NVIDIA SN2100 스위치에 케이블을 연결합니다</block>
+  <block id="0ee060af4c87c4fbc6cbd8f24ffeda59" category="list-text"><block ref="0ee060af4c87c4fbc6cbd8f24ffeda59" category="inline-link-macro-rx"></block></block>
+  <block id="3f53fd4b09af6c568ea0f9f54f9f2d23" category="list-text"><block ref="3f53fd4b09af6c568ea0f9f54f9f2d23" category="inline-link-macro-rx"></block></block>
+  <block id="705795ef685b9269be58747bb63f1206" category="list-text"><block ref="705795ef685b9269be58747bb63f1206" category="inline-link-macro-rx"></block></block>
+  <block id="8ed9021db09e01ee30c3f88e6bb6c84a" category="list-text"><block ref="8ed9021db09e01ee30c3f88e6bb6c84a" category="inline-link-macro-rx"></block></block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="2d51a4c0647f6c33eb1618ae2b75bbbf" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block>스위치를 구성합니다</block>
+  <block id="ec105a48fce29c3cef5a1857c97bf49f" category="paragraph">스위치의 초기 설정을 수행합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
+  <block id="f5dcfee71330ba72d10a9ef205dd69e5" category="inline-link-macro">BES-53248 스위치를 구성합니다</block>
+  <block id="fa53fe969df039b61c8e18516b5dc73c" category="list-text"><block ref="fa53fe969df039b61c8e18516b5dc73c" category="inline-link-macro-rx"></block></block>
+  <block id="b26d2c239cf0d70021ec2d611dd2cefd" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치를 구성합니다</block>
+  <block id="0a2dce0d006281c864fd0f86f4ea8582" category="list-text"><block ref="0a2dce0d006281c864fd0f86f4ea8582" category="inline-link-macro-rx"></block></block>
+  <block id="7bfd713e089f5e59b6c1826b2af39c2a" category="inline-link-macro">NVIDIA SN2100 스위치를 구성합니다</block>
+  <block id="2519e7f54407f60dc79e9259ef7945d2" category="list-text"><block ref="2519e7f54407f60dc79e9259ef7945d2" category="inline-link-macro-rx"></block></block>
+  <block id="06a65f0a1639e3cb60d130682802f0f4" category="list-text"><block ref="06a65f0a1639e3cb60d130682802f0f4" category="inline-link-macro-rx"></block></block>
+  <block id="3a8a1008ac39062434132158737ee20f" category="list-text"><block ref="3a8a1008ac39062434132158737ee20f" category="inline-link-macro-rx"></block></block>
+  <block id="19f48057a2a8e92f21d37a0c84da71ca" category="list-text"><block ref="19f48057a2a8e92f21d37a0c84da71ca" category="inline-link-macro-rx"></block></block>
+  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
+  <block id="64637562d7e27f62620328710451f9ca" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 스위치 소프트웨어를 설치합니다</block>
+  <block id="8c5afc8d3c5a4855ac8b127c598aaf6c" category="paragraph">스위치에 소프트웨어를 설치하고 구성하려면 스위치 모델에 대한 소프트웨어 설치 워크플로우를 따르십시오.</block>
+  <block id="be6af2b7851b2766e149e88f47cd231e" category="inline-link-macro">BES-53248 스위치용 소프트웨어를 설치합니다</block>
+  <block id="283819fa3187f4cab4901fd782a00562" category="list-text"><block ref="283819fa3187f4cab4901fd782a00562" category="inline-link-macro-rx"></block></block>
+  <block id="60772399a01d09f82f607f7cc816aef1" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치용 소프트웨어를 설치합니다</block>
+  <block id="17cd31cbaa939cc9be9b435aa9bc29b3" category="list-text"><block ref="17cd31cbaa939cc9be9b435aa9bc29b3" category="inline-link-macro-rx"></block></block>
+  <block id="3437ca96f916be870bf8b2b922d6299d" category="inline-link-macro">NVIDIA SN2100 스위치용 소프트웨어를 설치합니다</block>
+  <block id="56e2901763e1f0f4a779d43168cd0e17" category="list-text"><block ref="56e2901763e1f0f4a779d43168cd0e17" category="inline-link-macro-rx"></block></block>
+  <block id="71e74baaa680eaec49a78bcc05bd4cae" category="list-text"><block ref="71e74baaa680eaec49a78bcc05bd4cae" category="inline-link-macro-rx"></block></block>
+  <block id="79b5bea37a0a17cdb8b4e1b94ffc5c28" category="list-text"><block ref="79b5bea37a0a17cdb8b4e1b94ffc5c28" category="inline-link-macro-rx"></block></block>
+  <block id="09ebf9105e3a0e85568481422cb709d1" category="list-text"><block ref="09ebf9105e3a0e85568481422cb709d1" category="inline-link-macro-rx"></block></block>
+  <block id="e6fbc0b9673f8c86726688d7607fc8f5" category="inline-image-macro">6개</block>
+  <block id="aea7345148c1589735242fc13ad81924" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block> 시스템 설치를 완료합니다</block>
+  <block id="8a19d1619bb8803d8a6b5d21556d87ad" category="paragraph">스위치를 구성하고 필요한 소프트웨어를 설치한 후에는 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 따라 시스템 설정을 완료하십시오.</block>
+  <block id="12e67aac3e7f9227cc35f8f047d7dc74" category="inline-image-macro">7번</block>
+  <block id="8f5988d6d5abedb5da92f0fcbc79872d" category="paragraph-title"><block ref="36915574c413876eaa75cbd48f69fd00" category="inline-image-macro-rx" type="image"></block> ONTAP 구성을 완료합니다</block>
+  <block id="f0a39bebe9f0d59f6fc97c14de8b2a1a" category="paragraph">AFF/FAS 컨트롤러 및 스위치를 설치 및 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.</block>
+  <block id="549f827e07761bafef053e8ca7564a39" category="inline-link">ONTAP를 구성합니다</block>
+  <block id="8849c41092b79554e9b7f3a213d25622" category="list-text">ONTAP 배포의 경우 를 참조하십시오<block ref="a9c0083f0559526553eb5b29452926d5" category="inline-link-rx"></block>.</block>
+  <block id="10775dd39d5bac0a859a7c2aa804576e" category="inline-link">ONTAP를 사용하여 MetroCluster를 구성합니다</block>
+  <block id="cd0ac8ac6ae100c0f56d712237ad4aea" category="list-text">MetroCluster 배포를 지원하는 ONTAP의 경우 를 참조하십시오<block ref="725c74f5b5396d66bd86e73daf02329b" category="inline-link-rx"></block>.</block>
+  <block id="c5a63894b2cca959254f190c438b2862" category="doc">실시간 시계 배터리 AFF C800을 교체합니다</block>
+  <block id="4e98f7d06c194d745ab8b22805c9cf46" category="doc">섀시 교체 - AFF C800</block>
+  <block id="7084b904bc2fba91a6a3acb82001365c" category="doc">복원 및 교체 프로세스(AFF C800)를 완료합니다</block>
+  <block id="a7d1c95d57e2d4d91562898a605711c2" category="doc">장애가 발생한 부품을 NetApp-AFF C800으로 되돌립니다</block>
+  <block id="c7567cf7dbf1c0e5da4f2ff1ced923ef" category="doc">빠른 단계 - AFF C800</block>
+  <block id="f8eb42a3c2c9e8d82c874d7ccd6ef2a9" category="inline-link-macro">AFF C800 설치 및 설정 지침</block>
+  <block id="1b687c0cb9f5dcfa6fe0020541ed6d97" category="paragraph"><block ref="1b687c0cb9f5dcfa6fe0020541ed6d97" category="inline-link-macro-rx"></block></block>
+  <block id="51e6f316a2e32ea2e86cbacf242892f6" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C800</block>
+  <block id="6d940c412bcfcdb76ebf095399d157ea" category="doc">시스템 구성을 복원 및 확인합니다 - AFF C800</block>
+  <block id="83087c77244cbf7473481303d60706cd" category="doc">복구 이미지 AFF C800을 부팅합니다</block>
+  <block id="e00efce1b44b4a70e33640aa4e4da7ab" category="doc">팬을 교체합니다. - AFF C800</block>
+  <block id="7bb5b3f1026a3e755afd3077cd503481" category="doc">NVDIMM 배터리를 교체합니다. - AFF C800</block>
+  <block id="47b1e09c5a04b6651d4bc03190565935" category="doc">컨트롤러 모듈 교체 개요 - AFF C800</block>
+  <block id="f3812c1bc21f4b91457674bcb79e0abd" category="doc">컨트롤러를 끕니다 - AFF C800</block>
+  <block id="555193cbb314d41872f483748d489825" category="doc">전원 공급 장치 교체 - AFF C800</block>
+  <block id="3898efc1e45ee027e1343af6cd87375e" category="list-text"><block ref="3898efc1e45ee027e1343af6cd87375e" category="inline-link-macro-rx"></block></block>
+  <block id="76908712922b1fbfdbdf730f794b109c" category="list-text"><block ref="76908712922b1fbfdbdf730f794b109c" category="inline-link-macro-rx"></block></block>
+  <block id="96ec8a0dff9ea2637e9a0469cd7bf45e" category="list-text"><block ref="96ec8a0dff9ea2637e9a0469cd7bf45e" category="inline-link-macro-rx"></block></block>
+  <block id="b841c581d0bd2543077c9323cde216c2" category="doc">부팅 미디어(AFF C800)를 교체합니다</block>
+  <block id="820a6cf0e2bcf8d6df3250e33f97c935" category="doc">손상된 컨트롤러 AFF C800을 종료합니다</block>
+  <block id="f9df48646e98bcca0ef69fd1b5827115" category="summary">이 섹션에서는 AFF C800 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="c090b19d359523d8768d0e3b3aecfeac" category="doc">자세한 단계 - AFF C800</block>
+  <block id="b2ff23ff7a4337d3bf36446e97f1f1f4" category="paragraph">AFF C800 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="09e80812def315f5cdd1c01dcdfeecd6" category="paragraph"><block ref="09e80812def315f5cdd1c01dcdfeecd6" category="inline-link-macro-rx"></block></block>
+  <block id="7040351b0fc4c5a538e3b99ec1ec804a" category="doc">NVDIMM-AFF C800을 교체합니다</block>
+  <block id="7879dde42cda05c8d4a155645c4a2b6d" category="doc">비디오 - AFF C800</block>
+  <block id="6b60c2f33c9927e16d390be43c988aa0" category="video-title">애니메이션 - AFF C800의 설치 및 설정</block>
+  <block id="2a6e70f5ba0bf4b1e8256c095ec0cd1c" category="doc">컨트롤러 모듈 하드웨어 교체 - AFF C800</block>
+  <block id="4d1f4d1959439db01cd08ead7adf26ca" category="paragraph">AFF C800에는 부팅 미디어 장치가 하나 있습니다. 손상된 컨트롤러에서 이동한 다음 _replacement_controller에 설치해야 합니다.</block>
+  <block id="90571542a9bc3f19e7a4f29fa9556cff" category="doc">컨트롤러 종료 - AFF C800</block>
+  <block id="96575ba10e2fbb7c8295e344411ca2d1" category="doc">DIMM-AFF C800을 교체합니다</block>
+  <block id="0251caa15dc8d2cbd1cfcc6d72965b59" category="summary">AFF C800 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
+  <block id="9683970b55904c77ccb71ba2bd90666f" category="doc">AFF C800 시스템 설명서</block>
+  <block id="b048da3eaccc3591e9c1d6b08af1a750" category="doc">SSD 드라이브 교체 - AFF C800</block>
+  <block id="592fdd085a6d32be5ca82d8cf41fd57d" category="doc">온보드 암호화 키 확인 - AFF C800</block>
+  <block id="053f6b40fe6bb9b0a6dde49c0f76dc01" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF C800</block>
+  <block id="1085be18597d7d6c96ecba68a211bd73" category="doc">PCIe 카드를 교체합니다. - AFF C800</block>
+  <block id="a3ab531d62779409698b7c4da393c7e6" category="doc">부팅 이미지를 부팅 미디어(AFF C800)로 전송합니다</block>
+  <block id="c73861201327e5c06b062143f039e8bc" category="doc">부팅 미디어 교체 개요 - AFF C800</block>
+  <block id="07aadbac64794a2290e43416f4863695" category="doc">하드웨어 이동 및 교체 - AFF C800</block>
+  <block id="253caa9c2eebe3748f90a07e4d0d1158" category="doc">전체 시스템 복원 - AFF C800</block>
+  <block id="de76cd60441abcdc9d5a84858b3a0fad" category="sidebar">SAS 쉘프</block>
+  <block id="ccd67995cab28bf139c1e242119020df" category="sidebar">지원되는 스위치</block>
+  <block id="6db27f68adde7b6578b513891108402f" category="sidebar">BES-53248</block>
+  <block id="5aec304982416461faa5bf9b3a0b2cf3" category="sidebar">Cisco Nexus 9336C-FX2</block>
+  <block id="47b6f3be1213edd22611d686b390abda" category="sidebar">공유 구성의 Cisco Nexus 9336C-FX2</block>
+  <block id="a7d3b6d16f07555f1105a7d1e5d0821b" category="sidebar">추가 문서 리소스</block>
+  <block id="cede59a3d2d42bc422e2a59b7efe9552" category="sidebar">내부 디스크 드라이브 교체(비디오)</block>
+  <block id="6505495ba9a5199a2f01768528d92397" category="sidebar">AFF C190에 용량 추가(비디오)</block>
+  <block id="349838fb1d851d3e2014b9fe39203275" category="sidebar">설치합니다</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">빠른 시작</block>
+  <block id="f729a9ea4752a1ac8e959061af3b0612" category="sidebar">AFF and FAS storage 데이터 시트</block>
+  <block id="5c4d47ba596f06f53b9aa793345127dd" category="sidebar">AFF C250</block>
+  <block id="c9996a1b1fe92047dfbcfbef9989c233" category="sidebar">AFF C400</block>
+  <block id="e0d8a184e851ebead0da8ef2d160d077" category="sidebar">AFF C800</block>
+  <block id="8a1d06fd27bf0bfc6535b6a49185e591" category="sidebar">AFF A150</block>
+  <block id="9f4416e119f06c0f37d722efa8fabfe9" category="sidebar">이용 종료 시스템</block>
+  <block id="6e637bf90c8e52e1b5b8fa7b076594de" category="sidebar">사용 종료 스위치</block>
+  <block id="732eab758bc032e5cc4992b97650c69b" category="sidebar">관련 ONTAP 문서</block>
+  <block id="fcaf8c1ce832814314e7cdc51233676b" category="sidebar">플랫폼 업그레이드(대부분의 시스템)</block>
+  <block id="7c4365c5c3b36c349d31ac07e90053ce" category="sidebar">플랫폼 업그레이드(MetroCluster 구성)</block>
+  <block id="46edf46f46a5fc2267bcf312e1955d28" category="sidebar">ONTAP 소프트웨어 문서</block>
+  <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisor 문서</block>
+  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">도구 및 지원</block>
+  <block id="668e2078ef1b1722c77cdb5c523a4463" category="sidebar">NetApp 기술 자료</block>
+  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ(로그인 필요)</block>
+  <block id="b5bfe3d61bf9be292418cb9d21eec19c" category="sidebar">준비 및 실행</block>
+  <block id="8f7cc2c7f8ea66405c4805e7ebc09f8f" category="sidebar">AFF A150 시스템</block>
+  <block id="cafd0584cfa2700cbb38234c6c87ff44" category="sidebar">AFF A150 설치 및 설정</block>
+  <block id="19aa00b7e147cb8650f3b77592febb48" category="sidebar">AFF A150 유지 보수</block>
+  <block id="6dbe7abf62684ff33daa35e4cfe2dad6" category="sidebar">AFF A150 부팅 미디어</block>
+  <block id="1d3fd2e7fce9bd10949365404c11c97c" category="sidebar">AFF A150 캐싱 모듈</block>
+  <block id="c3257e2a1d015102202312f79a478c54" category="sidebar">AFF A150 섀시</block>
+  <block id="458bbaee6ced13db5a8e0de32d6df8a8" category="sidebar">AFF A150 컨트롤러</block>
+  <block id="6fce75a073a0f8f56117212fb7d30171" category="sidebar">AFF A150 DIMM</block>
+  <block id="ca9a4b969c17171e3c54d4927ca92794" category="sidebar">AFF A150 드라이브</block>
+  <block id="4bf5a1cfe5331b0b2d25ecb372774f4e" category="sidebar">AFF A150 NVMEM 배터리</block>
+  <block id="efd13c664557927ef55aa1db345b7134" category="sidebar">AFF A150 전원 공급 장치</block>
+  <block id="4ee45fd3000c3d26ca4a96d5e0a1f8ae" category="sidebar">AFF A150 실시간 시계 배터리</block>
+  <block id="368d641430dae2b0a8c7c2bf6311587d" category="sidebar">AFF C250 시스템</block>
+  <block id="5f4343bc91f5884e913fac7fc5ef6879" category="sidebar">AFF C250 설치 및 설정</block>
+  <block id="6ab6fba62ccec79ff36ba3c0657af4ae" category="sidebar">AFF C250 유지 관리</block>
+  <block id="6d7295bb011b88dfff81fa24b83caee3" category="sidebar">AFF C250 부팅 미디어</block>
+  <block id="c200941f98f365b1ea223e9b5017435c" category="sidebar">AFF C250 섀시</block>
+  <block id="c9ce06c68e758edf256ecf0855912d40" category="sidebar">AFF C250 컨트롤러 모듈</block>
+  <block id="6329b1134cd585a80e1c1289687135be" category="sidebar">AFF C400 시스템</block>
+  <block id="fef6e20056a9a97444ad5d035918d0f2" category="sidebar">AFF C400 설치 및 설정</block>
+  <block id="abdc9f1c1f1fa93deddb3513a455ff74" category="sidebar">AFF C400 유지 관리</block>
+  <block id="69077bf839678df07e0a3ee2c5ce0c19" category="sidebar">AFF C400 부팅 미디어</block>
+  <block id="4e7c968326614b0c8bb6e7220446c15e" category="sidebar">AFF C400 섀시</block>
+  <block id="275e786433a7b9ba3c47efacaf9e9d56" category="sidebar">AFF C400 컨트롤러 모듈</block>
+  <block id="a49ab8f17cda96f1a42a275df274b272" category="sidebar">AFF C400 DIMM</block>
+  <block id="3e934ddf41ea8861eac71a830daf0169" category="sidebar">AFF C400 팬 모듈</block>
+  <block id="ccb0bb24e3698848c3106d9fadfd6e0f" category="sidebar">AFF C400 NVDIMM 배터리</block>
+  <block id="0b4c3d287afdcc3e7c8b64810e8287cc" category="sidebar">AFF C400 PCIe 또는 메자닌 카드</block>
+  <block id="fa139a62f55ea11ea4db982fd219daad" category="sidebar">AFF C400 전원 공급 장치</block>
+  <block id="0f4a0190a5a77923ee7af25171aa9b9f" category="sidebar">AFF C400 실시간 클럭 배터리</block>
+  <block id="abab29a6fb252536c5c31f6382d49164" category="sidebar">AFF C800 시스템</block>
+  <block id="7db3bd8a3e788453e923804704eb87b7" category="sidebar">AFF C800 설치 및 설정</block>
+  <block id="27d884866d0c53b71a3641e639ac19f3" category="sidebar">AFF C800 유지 관리</block>
+  <block id="36c69c49c18ae2fa7dce0347a69f0065" category="sidebar">AFF C800 부팅 미디어</block>
+  <block id="81e825abffe43a736d6c9dc55fd84da2" category="sidebar">AFF C800 섀시</block>
+  <block id="c164f067875d1a9aa792717f22c79b98" category="sidebar">AFF C800 컨트롤러 모듈</block>
 </blocks>

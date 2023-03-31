@@ -46,19 +46,6 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 +
 그러면 ONTAP에서 NSM 제거 이벤트를 처리할 수 있는 충분한 시간이 허용됩니다.
 
-* * 모범 사례: * FRU 구성 요소를 교체하기 전에 시스템에 최신 버전의 NVMe 쉘프 모듈(NSM) 펌웨어 및 드라이브 펌웨어를 사용하는 것이 가장 좋습니다.
-+
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"^]
-
-+
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"^]
-
-+
-[NOTE]
-====
-펌웨어를 쉘프와 해당 구성요소를 지원하지 않는 버전으로 되돌리지 마십시오.
-
-====
 * 필요한 경우 셸프의 위치(파란색) LED를 켜서 해당 셸프를 물리적으로 찾을 수 있습니다. 'Storage shelf location-led modify-shelf-name_shelf_name_-led-status on'
 +
 해당 셸프의 '_shelf_name_'을 모르는 경우 'storage shelf show' 명령어를 실행한다.
@@ -70,7 +57,7 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp
 +
 교체 절차에 대한 RMA 번호 또는 추가 도움이 필요한 경우, 에서 기술 지원 팀에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양).
 
-* 다음 비디오 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.
+* 다음 애니메이션 또는 기록된 단계를 사용하여 부팅 미디어를 교체할 수 있습니다.
 +
 .애니메이션 - NS224 드라이브 쉘프에 부팅 미디어를 교체합니다
 video::20ed85f9-1f80-4e0e-9219-ab4600070d8a[panopto]
@@ -81,7 +68,7 @@ video::20ed85f9-1f80-4e0e-9219-ab4600070d8a[panopto]
 . 적절하게 접지합니다.
 . 교체할 FRU가 포함된 NSM 모듈에서 케이블 연결을 분리합니다.
 +
-.. 전원 코드 고정대를 열어 전원 공급 장치에서 전원 코드를 분리한 다음, 전원 공급 장치에서 전원 코드를 뽑습니다.
+.. AC 전원 공급 장치인 경우 전원 코드 고정 장치를 열어 전원 공급 장치에서 전원 코드를 분리하거나, DC 전원 공급 장치인 경우 두 개의 나비 나사를 푼 다음 전원 공급 장치에서 전원 코드를 뽑습니다.
 +
 전원 공급 장치에는 전원 스위치가 없습니다.
 
@@ -163,7 +150,7 @@ NSM 모듈은 셸프에 완전히 삽입되어 셸프의 모서리와 같은 높
 +
 케이블은 커넥터 당김 탭이 위를 향하도록 삽입됩니다. 케이블이 올바르게 삽입되면 딸깍 소리가 나면서 제자리에 고정됩니다.
 
-.. 전원 코드를 전원 공급 장치에 다시 연결한 다음 전원 코드 고정 장치로 전원 코드를 고정합니다.
+.. 전원 코드를 전원 공급 장치에 다시 연결한 다음, AC 전원 공급 장치인 경우 전원 코드 고정 장치로 전원 코드를 고정하거나 DC 전원 공급 장치인 경우 두 개의 나비 나사를 조입니다.
 +
 올바르게 작동하면 전원 공급 장치의 이중 LED가 녹색으로 켜집니다.
 

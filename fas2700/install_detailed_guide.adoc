@@ -544,9 +544,6 @@ image:../media/oie_legend_icon_3_t.png[""]
 +
 드라이브 쉘프 스택이 둘 이상인 경우, 드라이브 쉘프 유형에 대한 _설치 및 케이블 연결 가이드_를 참조하십시오.
 
-+
-https://docs.netapp.com/us-en/ontap-systems/sas3/index.html["설치 및 케이블 연결"]
-
 . 시스템 설정을 완료하려면 을 참조하십시오 <<5단계: 시스템 설치 및 구성을 완료합니다>>
 
 

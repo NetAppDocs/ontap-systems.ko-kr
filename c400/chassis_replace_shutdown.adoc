@@ -1,0 +1,170 @@
+---
+permalink: c400/chassis-replace-shutdown.html 
+sidebar: sidebar 
+keywords: aff c400, aff, c400, component, system, function, properly, contact, technical, support, replace, chassis, shut, down, controller, replacing, remove, module, fan, equipment, rack, cabinet, ha, state, diagnostic, switch, back, aggregate, two-node, metrocluster, configuration, complete, replacement, process, replace the chassis, shut down the controllers when replacing a chassis, remove the controller modules, move the fans, replace a chassis from within the equipment rack or system cabinet, install the controller modules, verify and set the ha state of the chassis, run diagnostics, switch back aggregates in a two-node metrocluster configuration, complete the replacement process 
+summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
+---
+= 컨트롤러를 종료합니다. - AFF C400
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+
+
+
+== 옵션 1: 섀시를 교체할 때 컨트롤러를 종료합니다
+
+[role="lead"]
+새 섀시로 이동하기 전에 섀시의 컨트롤러 또는 컨트롤러를 종료해야 합니다.
+
+.이 작업에 대해
+* 2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우 `false` 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+* AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+
+
+.단계
+. 시스템에 2개의 컨트롤러 모듈이 있는 경우 HA 쌍을 비활성화합니다.
++
+[cols="1,2"]
+|===
+| 시스템에서 clustered ONTAP을 실행하는 경우... | 그러면... 
+
+
+ a| 
+클러스터에 2개의 컨트롤러
+ a| 
+`cluster ha modify -configured false`
+
+'Storage failover modify -node Node0 -enabled false'
+
+
+
+ a| 
+2개 이상의 컨트롤러가 클러스터에 있습니다
+ a| 
+'Storage failover modify -node Node0 -enabled false'
+
+|===
+. 시스템 노드 halt-node_node_name_'을(를) 확인하는 메시지가 나타나면 컨트롤러를 중지하고 y를 누릅니다
++
+확인 메시지는 다음과 같습니다.
+
++
+[listing]
+----
+Warning: This operation will cause controller "node-name" to be marked as unhealthy. Unhealthy nodes do not participate in quorum voting. If the controller goes out of service and one more controller goes out of service there will be a data serving failure for the entire cluster. This will cause a client disruption. Use "cluster show" to verify cluster state. If possible bring other nodes online to improve the resiliency of this cluster.
+
+Do you want to continue? {y|n}:
+----
++
+
+NOTE: 비휘발성 메모리(NVMEM/NVRAM)에서 기록되지 않은 데이터가 손실되지 않도록 섀시를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. 시스템에 따라 NVMEM/NVRAM LED가 깜박이면 NVMEM/NVRAM에 디스크에 저장되지 않은 콘텐츠가 있습니다. 컨트롤러를 재부팅하고 이 절차의 처음부터 시작해야 합니다. 컨트롤러를 완전히 종료하려고 반복적으로 시도하는 경우, 디스크에 저장되지 않은 데이터가 손실될 수 있습니다.
+
+. 해당되는 경우, HA 쌍 구성에서 쿼럼 오류 메시지가 발생하지 않도록 두 번째 컨트롤러를 중지합니다. '시스템 노드 halt-node_second_node_name_-ignore-quorum-warnings true-skip-lif-migration-before-shutdown true'
++
+메시지가 나타나면 y를 선택합니다.
+
+
+
+
+
+== 옵션 2: 2노드 MetroCluster 구성에서 컨트롤러를 종료합니다
+
+[role="lead"]
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.
+
+.이 작업에 대해
+* NetApp Storage Encryption을 사용하는 경우 의 "FIPS 드라이브 또는 SED를 보호되지 않는 모드로 되돌리기" 섹션의 지침에 따라 MSID를 재설정해야 합니다 link:https://docs.netapp.com/us-en/ontap/encryption-at-rest/return-seds-unprotected-mode-task.html["CLI를 통한 NetApp 암호화 개요"^].
+* 정상 컨트롤러에 전원을 공급하려면 이 절차의 마지막에 전원 공급 장치를 켜 두어야 합니다.
+
+
+.단계
+. MetroCluster 상태를 확인하여 장애가 있는 컨트롤러가 자동으로 정상 컨트롤러(MetroCluster show)로 전환되었는지 확인합니다
+. 자동 절체가 발생했는지 여부에 따라 다음 표에 따라 진행합니다.
++
+[cols="1,2"]
+|===
+| 컨트롤러 손상 여부 | 그러면... 
+
+
+ a| 
+가 자동으로 전환되었습니다
+ a| 
+다음 단계를 진행합니다.
+
+
+
+ a| 
+가 자동으로 전환되지 않았습니다
+ a| 
+정상 컨트롤러 MetroCluster 절체 기능을 통해 계획된 절체 동작을 수행한다
+
+
+
+ a| 
+가 자동으로 전환되지 않고, 'MetroCluster switchover' 명령으로 전환을 시도했으며, 스위치오버가 거부되었습니다
+ a| 
+거부권 메시지를 검토하고 가능한 경우 문제를 해결한 후 다시 시도하십시오. 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십시오.
+
+|===
+. 정상적인 클러스터에서 'MetroCluster 환원 단계 집계' 명령을 실행하여 데이터 애그리게이트를 재동기화합니다.
++
+[listing]
+----
+controller_A_1::> metrocluster heal -phase aggregates
+[Job 130] Job succeeded: Heal Aggregates is successful.
+----
++
+치유가 거부되면 '-override-vetoes' 매개 변수를 사용하여 'MetroCluster 환원' 명령을 재실행할 수 있습니다. 이 선택적 매개 변수를 사용하는 경우 시스템은 복구 작업을 방지하는 모든 소프트 베인을 재정의합니다.
+
+. MetroCluster operation show 명령을 사용하여 작업이 완료되었는지 확인합니다.
++
+[listing]
+----
+controller_A_1::> metrocluster operation show
+    Operation: heal-aggregates
+      State: successful
+Start Time: 7/25/2016 18:45:55
+   End Time: 7/25/2016 18:45:56
+     Errors: -
+----
+. 'storage aggregate show' 명령을 사용하여 애그리게이트의 상태를 확인하십시오.
++
+[listing]
+----
+controller_A_1::> storage aggregate show
+Aggregate     Size Available Used% State   #Vols  Nodes            RAID Status
+--------- -------- --------- ----- ------- ------ ---------------- ------------
+...
+aggr_b2    227.1GB   227.1GB    0% online       0 mcc1-a2          raid_dp, mirrored, normal...
+----
+. MetroCluster 환원 단계 루트 애그리게이트( heal-phase root-aggregate) 명령을 사용하여 루트 애그리게이트를 수정합니다.
++
+[listing]
+----
+mcc1A::> metrocluster heal -phase root-aggregates
+[Job 137] Job succeeded: Heal Root Aggregates is successful
+----
++
+치유가 거부되면 -override-vetoes 매개변수를 사용하여 'MetroCluster 환원' 명령을 재실행할 수 있습니다. 이 선택적 매개 변수를 사용하는 경우 시스템은 복구 작업을 방지하는 모든 소프트 베인을 재정의합니다.
+
+. 대상 클러스터에서 'MetroCluster operation show' 명령을 사용하여 환원 작업이 완료되었는지 확인합니다.
++
+[listing]
+----
+
+mcc1A::> metrocluster operation show
+  Operation: heal-root-aggregates
+      State: successful
+ Start Time: 7/29/2016 20:54:41
+   End Time: 7/29/2016 20:54:42
+     Errors: -
+----
+. 손상된 컨트롤러 모듈에서 전원 공급 장치를 분리합니다.
+
