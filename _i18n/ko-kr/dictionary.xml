@@ -5674,29 +5674,12 @@
   <block id="ad9bad8d4cb1562077f92f2c27f7a49b" category="list-text">실패한 부팅 미디어가 포함된 NSM 모듈의 주의(황색) LED와 쉘프 운영자 디스플레이 패널에 더 이상 불이 들어오지 않는지 확인합니다.</block>
   <block id="81e50539ea0cf8844a2564ffd5e33a88" category="paragraph">주의 LED가 꺼지려면 5-10분 정도 걸릴 수 있습니다. NSM 모듈이 재부팅되고 부팅 미디어 이미지 복제가 완료되는 데 걸리는 시간입니다.</block>
   <block id="835cfd1e016affa8238f623e594f1624" category="paragraph">오류 LED가 계속 켜져 있으면 부팅 미디어가 제대로 장착되지 않았거나 다른 문제가 있을 수 있으므로 기술 지원 부서에 지원을 요청해야 합니다.</block>
-  <block id="9d36987153aaf6bfaf4018df16b0dc21" category="sidebar">시작하십시오 </block>
-  <block id="ec01d482cf394f212f073921cfd9d5bd" category="sidebar">ONTAP 릴리즈 노트</block>
-  <block id="5b46f1e25b24701e3e37b48389c68f1f" category="sidebar">시스템 데이터 시트</block>
   <block id="7ff4995c299eff1168d2cf4a88aff450" category="sidebar">설치 및 설정</block>
   <block id="e5fcd011be287f0b85815a5d0c8165aa" category="sidebar">대부분의 구성</block>
   <block id="ade01a5a398372194a42c36e9f5279ac" category="sidebar">유지 관리</block>
   <block id="51bdc8bf999c93768e182fae54e64934" category="sidebar">섀시</block>
   <block id="a2e494f9e893e2ce2495f61aebe60a0a" category="sidebar">컨트롤러 모듈</block>
-  <block id="2f1a3e62508d88ddc31f1aa72a8334d4" category="sidebar">학습</block>
-  <block id="950ddde1b95bd175de9e64710ca7628d" category="sidebar">내장 디스크 드라이브 비디오 교체</block>
-  <block id="a4e1bbb083c33fd7dbc252f015b0b111" category="sidebar">VMware Horizon View를 지원하는 비영구적 데스크톱용 NetApp All-Flash FAS 솔루션 | TR-4539</block>
-  <block id="99a7b0ee54277073c008109914f38e8b" category="sidebar">스위치 설치 및 유지 관리</block>
-  <block id="7972b80956858e3ab7ff0a50aa404e7b" category="sidebar">Broadcom 지원 스위치</block>
-  <block id="250f3098aa37d3a08b48b8157db8a62e" category="sidebar">Cisco 스위치</block>
-  <block id="f683581d3e75f05f9d9215f9b4696cef" category="sidebar">업그레이드</block>
   <block id="f7e891dd188ea1d7b94852cb50ec354e" category="sidebar">ONTAP 소프트웨어 업그레이드</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">더 많은 리소스</block>
-  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="sidebar">ONTAP 설명서</block>
-  <block id="519131237f79eadb2dc6a1e003a087bc" category="sidebar">NetApp Active IQ Config Advisor를 참조하십시오</block>
-  <block id="cd7241567b7d41282d7d42bd0fd8924e" category="sidebar">NetApp 상호 운용성 매트릭스 툴</block>
-  <block id="3f2b90ec5a9b43745b9c8c9fedf48d8d" category="sidebar">NetApp 지원 기술 자료</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
-  <block id="9309884a373bc815760f4be6706be913" category="sidebar">스토리지 데이터 시트</block>
   <block id="3b94033c8a5b93831bf0d7c1fa418f82" category="sidebar">새 스토리지 시스템에 쉘프를 설치합니다</block>
   <block id="b5428794115862895177c132452bd21f" category="sidebar">쉘프를 핫 추가합니다</block>
   <block id="fa9056ba236feb9b00734ebb2725d6ce" category="sidebar">IOM6 쉘프 스택에 쉘프 핫 추가(혼합 스택)</block>
@@ -5710,7 +5693,6 @@
   <block id="add0180387a0985c32471180b375b8d9" category="sidebar">팬</block>
   <block id="0848ea9d342306bbd71c36913e0508ea" category="sidebar">NVDIMM</block>
   <block id="bbdde7c95b92cf74b7a00751ed051c22" category="sidebar">NVDIMM 배터리</block>
-  <block id="6c991e0eca69d42bf35e7ea499a3ea0c" category="sidebar">쉘프를 추가하거나 제거합니다</block>
   <block id="207e21ff57c713dc789acfa5e99040ae" category="sidebar">IOM12가 포함된 SAS</block>
   <block id="d44f3a6dbf7d14380c862fdbf2b79c35" category="sidebar">시스템 하드웨어 업그레이드</block>
   <block id="afef6b7a17d55fd0b4ca89fefb09e6ed" category="sidebar">패브릭 연결 MetroCluster 구성</block>
@@ -7084,7 +7066,6 @@
   <block id="c920d4841ecd46b57d9a50e7295a2153" category="inline-link-macro">IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항</block>
   <block id="36779ed778ea1fac61fae3be46917d43" category="inline-link-macro">핫 애드 기능을 위해 IOM12 모듈과 디스크 쉘프를 설치합니다</block>
   <block id="56ccacf68c60aa589cdd947ffabc6a40" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="38d5024537883b0bd86511e0b5e50dba" category="inline-link-macro-rx"></block> 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 <block ref="2957551c96808bfde01acb853ddbc0af" category="inline-link-macro-rx"></block>.</block>
-  <block id="4ec6a95192d18718a540794417c8fa63" category="sidebar">NetApp Active IQ 디지털 자문업체</block>
   <block id="398a3c8d2269f5f0bf21e8be014ed54c" category="list-text">IOM6 모듈이 포함된 쉘프 스택에 IOM12 모듈이 포함된 쉘프를 핫 애드할 경우, 전체 스택의 성능이 6Gbps에서 작동합니다(최저 공통 속도로 실행됨).</block>
   <block id="75e1d900c724ecf27f282e3bba238d06" category="paragraph">핫 애드 쉘프가 IOM3 또는 IOM6 모듈에서 IOM12 모듈로 업그레이드된 쉘프인 경우, 스택은 12Gbps에서 작동합니다. 그러나 쉘프 후면판 및 디스크 기능은 디스크 성능을 3Gbps 또는 6Gbps로 제한할 수 있습니다.</block>
   <block id="240920b675de649a14eaba01757477c0" category="list-text">초기 IOM12/IOM12B 쉘프(논리적 마지막 IOM6 쉘프에 연결하는 쉘프)는 항상 IOM6 쉘프 원 포트(사각 포트가 아님)에 연결됩니다.</block>
@@ -7804,4 +7785,8 @@
   <block id="bcf7de048a0b400d784ce2434b8beffe" category="doc">SSD 드라이브 교체 - AFF C250</block>
   <block id="9c7a64854bf794e3fdb5cf355e7f1647" category="doc">AFF A150 시스템 설명서</block>
   <block id="31d91f8342285d4227c3ee9c296c770a" category="doc">AFF A220 시스템 설명서</block>
+  <block id="7ea1e7a8d88645f3d34ddf28afd75c22" category="sidebar">AFF A 시리즈 시스템 데이터 시트</block>
+  <block id="9a7f5dd837959f1361128bbf46fc6c5b" category="sidebar">AFF C 시리즈 시스템 데이터 시트</block>
+  <block id="242c23abc6f706eeabc035c9160b09f4" category="sidebar">AFF A 시리즈 시스템</block>
+  <block id="ac6e4f5110aa7db5e1253a60d8d4f5a1" category="sidebar">AFF C 시리즈 시스템</block>
 </blocks>

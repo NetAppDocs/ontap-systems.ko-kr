@@ -12,18 +12,14 @@ indexpage:
       url: "/get-up-and-run.html"
     - title: AFF and FAS storage 데이터 시트
       url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
+    - title: AFF A 시리즈 시스템 데이터 시트
+      url: https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf
+    - title: AFF C 시리즈 시스템 데이터 시트
+      url: https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf
     - title: ONTAP 릴리즈 노트
       url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-  - title: AFF 시스템
+  - title: AFF A 시리즈 시스템
     links:
-    - title: AFF C190
-      url: "/c190/index.html"
-    - title: AFF C250
-      url: "/c250/index.html"
-    - title: AFF C400
-      url: "/c400/index.html"
-    - title: AFF C800
-      url: "/c800/index.html"
     - title: AFF A150
       url: "/a150/index.html"
     - title: AFF A220
@@ -38,6 +34,16 @@ indexpage:
       url: "/a800/index.html"
     - title: AFF A900
       url: "/a900/index.html"
+  - title: AFF C 시리즈 시스템
+    links:
+    - title: AFF C190
+      url: "/c190/index.html"
+    - title: AFF C250
+      url: "/c250/index.html"
+    - title: AFF C400
+      url: "/c400/index.html"
+    - title: AFF C800
+      url: "/c800/index.html"
   - title: FAS 시스템
     links:
     - title: 500f로 설정합니다
