@@ -13,10 +13,8 @@ indexpage:
     links:
     - title: 대부분의 구성
       url: "/install-setup.html"
-    - title: 패브릭 연결 MetroCluster 구성
-      url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
-    - title: MetroCluster 구성 확장
-      url: https://docs.netapp.com/us-en/ontap-metrocluster/install-stretch/index.html
+    - title: MetroCluster IP 구성
+      url: https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html
   - title: 유지 관리
     links:
     - title: 미디어를 부팅합니다
@@ -41,8 +39,8 @@ indexpage:
       url: "/rtc-battery-replace.html"
   - title: 쉘프를 추가하거나 제거합니다
     links:
-    - title: IOM12가 포함된 SAS
-      url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
+    - title: NS224
+      url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
   - title: 스위치 설치 및 유지 관리
     links:
     - title: Broadcom 지원 스위치

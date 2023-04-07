@@ -37,16 +37,12 @@ indexpage:
       url: "/rtc-battery-replace.html"
   - title: 학습
     links:
-    - title: 내장 디스크 드라이브 비디오 교체
-      url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
     - title: VMware Horizon View를 지원하는 비영구적 데스크톱용 NetApp All-Flash FAS 솔루션 | TR-4539
       url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
   - title: 쉘프를 추가하거나 제거합니다
     links:
     - title: NS224
       url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
-    - title: IOM12가 포함된 SAS
-      url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
   - title: 스위치 설치 및 유지 관리
     links:
     - title: Broadcom 지원 스위치
