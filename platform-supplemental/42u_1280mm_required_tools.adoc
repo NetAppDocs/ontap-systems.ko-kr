@@ -22,6 +22,6 @@ https://www.netapp.com/data-storage/all-flash-documentation/["All Flash FAS 문�
 https://www.netapp.com/data-storage/fas/documentation/["FAS 스토리지 시스템 설명서 리소스"]
 
 * #1 및 #2 십자 드라이버
-* 시스템 캐비닛 나사용 Torx 드라이버
+* 시스템 캐비닛 나사용 torq 드라이버
 * 시스템 캐비닛 수평 조정을 위한 레벨링 도구
 
