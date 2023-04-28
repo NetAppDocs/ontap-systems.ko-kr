@@ -5,6 +5,10 @@ indexpage:
     links:
     - title: 빠른 단계
       url: "/install-quick-guide.html"
+    - title: 비디오 단계
+      url: "/install-videos.html"
+    - title: 세부 단계
+      url: "/install-detailed-guide.html"
     - title: MetroCluster IP 구성
       url: https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html
   - title: 유지 관리

@@ -6,8 +6,14 @@ entries:
 - title: 설치 및 설정
   pdf-filename: AFF C400 설치 및 설정
   entries:
+  - title: 설치 및 설정 환경을 선택합니다
+    url: "/c400/install-setup.html"
   - title: 빠른 단계
     url: "/c400/install-quick-guide.html"
+  - title: 비디오 단계
+    url: "/c400/install-videos.html"
+  - title: 세부 단계
+    url: "/c400/install-detailed-guide.html"
 - title: 유지 관리
   pdf-filename: AFF C400 유지 관리
   entries:

@@ -17,58 +17,68 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 
 == 옵션 1: 컨트롤러를 종료합니다
 
-새 섀시로 이동하기 전에 섀시의 컨트롤러 또는 컨트롤러를 종료해야 합니다.
+이 절차는 2-노드, 비-MetroCluster 구성에 한해서만 적용됩니다. 두 개 이상의 노드가 있는 시스템의 경우 를 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_perform_a_graceful_shutdown_and_power_up_of_one_HA_pair_in_a_4__node_cluster["4노드 클러스터에서 1개의 HA 쌍을 정상 종료하여 전원을 켜는 방법"^].
 
-.이 작업에 대해
-* 2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우 `false` 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
-* AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
-+
-다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+.시작하기 전에
+필요한 사항:
 
+* ONTAP에 대한 로컬 관리자 자격 증명입니다.
+* 스토리지 암호화를 사용하는 경우 NetApp 온보드 키 관리(OKM) 클러스터 전체 암호 구문
+* 각 컨트롤러에 대한 SP/BMC 액세스 가능성
+* 모든 클라이언트/호스트에서 NetApp 시스템의 데이터에 액세스하지 못하도록 합니다.
+* 외부 백업 작업을 일시 중지합니다.
+* 교체에 필요한 공구 및 장비
+
+
+
+NOTE: 시스템이 FabricPool 클라우드 계층으로 사용되는 NetApp StorageGRID 또는 ONTAP S3인 경우 를 참조하십시오 https://kb.netapp.com/onprem/ontap/hardware/What_is_the_procedure_for_graceful_shutdown_and_power_up_of_a_storage_system_during_scheduled_power_outage#["스토리지 시스템을 정상적으로 종료하고 전원을 켭니다 해결 설명서"] 이 절차를 수행한 후
+
+
+NOTE: FlexArray 스토리지 LUN을 사용하는 경우 이 절차를 수행한 후 해당 시스템에 대해 수행할 종료 절차는 해당 공급업체의 스토리지 시스템 설명서를 참조하십시오.
+
+
+NOTE: SSD를 사용하는 경우 을 참조하십시오 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU490["SU490: (영향: 위험) SSD 모범 사례: 2개월 이상 전원을 끈 경우 드라이브 고장 및 데이터 손실 위험을 피하십시오"]
+
+시스템을 종료하기 전에 다음을 수행해야 합니다.
+
+* 추가 를 수행합니다 https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["시스템 상태 점검"].
+* ONTAP를 시스템의 권장 릴리스로 업그레이드합니다.
+* 모두 해결 https://activeiq.netapp.com/["Active IQ Wellness 알림 및 위험"]. 시스템 구성 요소의 LED와 같은 현재 시스템에 있는 모든 결함을 기록해 둡니다.
 
 
 .단계
-. 시스템에 2개의 컨트롤러 모듈이 있는 경우 HA 쌍을 비활성화합니다.
+. SSH를 통해 클러스터에 로그인하거나 로컬 콘솔 케이블과 랩톱/콘솔을 사용하여 클러스터의 노드에서 로그인합니다.
+. AutoSupport를 끄고 시스템이 오프라인 상태로 될 것으로 예상되는 시간을 표시합니다.
 +
-[cols="1,2"]
-|===
-| 시스템에서 clustered ONTAP을 실행하는 경우... | 그러면... 
+`system node autosupport invoke -node * -type all -messages "MAINT=8h Power Maintenance"`
 
-
- a| 
-클러스터에 2개의 컨트롤러
- a| 
-`cluster ha modify -configured false`
-
-'Storage failover modify -node Node0 -enabled false'
-
-
-
- a| 
-2개 이상의 컨트롤러가 클러스터에 있습니다
- a| 
-'Storage failover modify -node Node0 -enabled false'
-
-|===
-. 시스템 노드 halt-node_node_name_'을(를) 확인하는 메시지가 나타나면 컨트롤러를 중지하고 y를 누릅니다
+. 모든 노드의 SP/BMC 주소 확인:
 +
-확인 메시지는 다음과 같습니다.
+`system service-processor show -node * -fields address`
+
+. 클러스터 쉘을 종료합니다. `exit`
+. 이전 단계의 출력에 나열된 노드의 IP 주소를 사용하여 SSH를 통해 SP/BMC에 로그인합니다.
++
+콘솔/노트북을 사용하는 경우 동일한 클러스터 관리자 자격 증명을 사용하여 컨트롤러에 로그인합니다.
 
 +
-[listing]
-----
-Warning: This operation will cause controller "node-name" to be marked as unhealthy. Unhealthy nodes do not participate in quorum voting. If the controller goes out of service and one more controller goes out of service there will be a data serving failure for the entire cluster. This will cause a client disruption. Use "cluster show" to verify cluster state. If possible bring other nodes online to improve the resiliency of this cluster.
 
-Do you want to continue? {y|n}:
-----
+NOTE: 진행 상황을 모니터링할 수 있도록 모든 SP/BMC 연결에 대한 SSH 세션을 엽니다.
+
+. 클러스터의 모든 노드 중지:
++
+`system node halt -node * -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true`.
+
 +
 
-NOTE: 비휘발성 메모리(NVMEM/NVRAM)에서 기록되지 않은 데이터가 손실되지 않도록 섀시를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. 시스템에 따라 NVMEM/NVRAM LED가 깜박이면 NVMEM/NVRAM에 디스크에 저장되지 않은 콘텐츠가 있습니다. 컨트롤러를 재부팅하고 이 절차의 처음부터 시작해야 합니다. 컨트롤러를 완전히 종료하려고 반복적으로 시도하는 경우, 디스크에 저장되지 않은 데이터가 손실될 수 있습니다.
+NOTE: StrictSync 모드에서 작동하는 SnapMirror Synchronous를 사용하는 클러스터의 경우: `system node halt -node * -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true -ignore-strict-sync-warnings true`
 
-. 해당되는 경우, HA 쌍 구성에서 쿼럼 오류 메시지가 발생하지 않도록 두 번째 컨트롤러를 중지합니다. '시스템 노드 halt-node_second_node_name_-ignore-quorum-warnings true-skip-lif-migration-before-shutdown true'
-+
-메시지가 나타나면 y를 선택합니다.
-
+. 클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다 `_Warning: Are you sure you want to halt node "cluster name-controller number"?
+{y|n}:_`
+. 각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.
+. PSU 켜기/끄기 스위치가 없는 경우 각 PSU를 끄거나 전원 코드를 뽑습니다.
+. 각 PSU에서 전원 코드를 뽑습니다.
+. 클러스터와 관련된 모든 컨트롤러, 드라이브 쉘프 및 스위치의 전원이 꺼져 있는지 확인합니다.
 
 
 

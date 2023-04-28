@@ -1,0 +1,61 @@
+= 
+:allow-uri-read: 
+
+
+섀시를 교체한 후 클러스터 구성 요소의 전원을 다음 순서대로 켭니다.
+
+* 스위치 전원을 켭니다
+* 드라이브 쉘프의 전원을 켭니다
+* 컨트롤러의 전원을 켭니다
+
+
+.단계
+. 스위치의 전원을 켭니다.
++
+.. PDU에서 PSU로 각 전원 케이블을 다시 연결합니다.
+.. 각 PSU 로커 스위치를 ON 위치로 뒤집습니다(해당하는 경우).
+.. 스위치의 전원이 켜질 때까지 기다립니다.
+.. 스위치의 고장 표시등을 확인합니다(전면 및 후면 모두).
+.. 관리 IP 주소를 통해 스위치에 연결합니다.
+.. 스위치 상태를 확인합니다(자세한 내용은 스위치 공급업체 설명서 참조).
+.. 모든 스위치의 전원이 켜지고 정상 상태가 될 때까지 각 스위치에 대해 반복합니다.
+
+
+. 드라이브 쉘프 켜기:
++
+.. PDU에서 PSU로 각 전원 케이블을 다시 연결합니다.
+.. 각 PSU 로커 스위치를 ON 위치로 뒤집습니다(해당하는 경우).
+.. 모든 디스크 쉘프의 전원이 켜질 때까지 및 드라이브가 스핀업할 때까지 기다립니다.
+.. 모든 쉘프 ID가 예상 값인지 확인합니다.
+.. 시스템 종료 전에 디스크 쉘프(전면 및 후면)에 없는 오류가 있는지 확인합니다.
+
+
+. 컨트롤러 전원을 켭니다.
++
+.. PDU에서 PSU로 각 전원 케이블을 다시 연결합니다.
+.. 각 PSU 로커 스위치를 ON 위치로 뒤집습니다(해당하는 경우). 동일한 섀시에 없는 HA 쌍의 전원을 동시에 켜야 합니다.
+.. 섀시 내 컨트롤러의 전원이 켜질 때까지 기다립니다.
+.. 섀시 및 컨트롤러(전면 및 후면)에 장애 표시등이 있는지 확인합니다.
+.. 모든 전원이 켜질 때까지 각 컨트롤러/섀시에 대해 이 과정을 반복합니다.
+.. SSH를 통해 노드의 SP 또는 BMC IP 주소에 연결합니다. 전원을 끄기 전에 다음 명령을 사용하여 IP 주소를 확인하십시오.
++
+`system service-processor show -node * -fields address`
+
+.. 추가 시스템 상태 점검 수행:
++
+... 모두 해결 https://activeiq.netapp.com/["Active IQ Wellness 알림 및 위험"]
+... 실행 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"]
+... 에 설명된 대로 시스템 상태를 확인합니다 https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법"]
+
+
+.. 유지보수 작업 생성 AutoSupport 완료 메시지:
++
+`system node autosupport invoke -node * -type all -message MAINT=end`
+
+.. 자동 반환이 활성화되어 있는지 확인:
++
+`storage failover modify -node local -auto-giveback true`
+
+
+
+

@@ -718,11 +718,6 @@
   <block id="596bcca65aca56bacb3df39265f83dfb" category="summary">섀시를 교체하려면 컨트롤러를 종료해야 합니다.</block>
   <block id="fc3fc335fe3d498e24675e2eff27cd4f" category="doc">컨트롤러 종료 - AFF C190</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
-  <block id="880c0610027a11af7086ae7e380e12e5" category="list-text">시스템에 2개의 컨트롤러 모듈이 있는 경우 HA 쌍을 비활성화합니다.</block>
-  <block id="d426a3f5c9c0e3362f4ed536e7643c03" category="cell">시스템에서 clustered ONTAP을 실행하는 경우...</block>
-  <block id="b2aa61dcee4d7b77fcd001973469ddde" category="paragraph">'Storage failover modify -node Node0 -enabled false'</block>
-  <block id="481250f3e8ec41b0e994305d8fc52b4a" category="paragraph">확인 메시지는 다음과 같습니다.</block>
-  <block id="7da65b5a10b69b45b490009ac07696ff" category="paragraph">메시지가 나타나면 y를 선택합니다.</block>
   <block id="d5bfba1ac511ef4b8b0fcb489bdaf25b" category="summary">환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.</block>
   <block id="c8ba643914db1664b5eb486f2f97cf94" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C190</block>
   <block id="080362a2b4cc1ec10758d0142bde822c" category="paragraph">환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)가 활성화된 시스템과 관련된 단계를 완료해야 합니다.</block>
@@ -4546,7 +4541,6 @@
   <block id="8da7df8c5a74dcac7b5b9a5067e72313" category="image-alt">drw a900 제거 LED 모드 교체</block>
   <block id="6b058f6aab05ab39cfb929fd3a13e5ad" category="paragraph">모듈을 꺼냅니다.</block>
   <block id="fdbcf566dc8794b2a2c635f286edfa2b" category="paragraph">섀시 밖으로 밀어냅니다.</block>
-  <block id="9cc3abf99d341ddf4468a9377444f16d" category="doc">손상된 컨트롤러를 종료합니다. - AFF A900</block>
   <block id="2aba05ee9a4093e5315b48903c27d988" category="doc">I/O 모듈 교체 - AFF A900</block>
   <block id="a8869e142255ff80f45be4817f469087" category="section-title">3단계: I/O 모듈 교체 후 컨트롤러를 재부팅합니다</block>
   <block id="bbee62c98bf71c87d77b3d48e5cacaff" category="paragraph">I/O 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.</block>
@@ -6287,12 +6281,6 @@
   <block id="742cf561af7f07544ddf9f3e66121452" category="paragraph">이 메시지가 나타나지 않으면 Ctrl-C를 누르고 유지보수 모드로 부팅하는 옵션을 선택한 다음 컨트롤러를 멈춰 로더로 부팅합니다.</block>
   <block id="c8dc5733d35c41c184dc2e9c60fd8a12" category="admonition">구성하는 타겟 포트는 네트워크 연결을 통한 var 파일 시스템 복원 중에 정상적인 컨트롤러에서 손상된 컨트롤러와 통신하는 데 사용하는 타겟 포트입니다. 이 명령에서 e0M 포트를 사용할 수도 있습니다.</block>
   <block id="8db7a5b6ece2af3b075639e41512d618" category="section-title">옵션 1: 컨트롤러를 종료합니다</block>
-  <block id="b5d03ef67a171c85bf4bd311e2fd75df" category="paragraph">새 섀시로 이동하기 전에 섀시의 컨트롤러 또는 컨트롤러를 종료해야 합니다.</block>
-  <block id="93ff4b8a35c5f08ad3e97fdc9983948e" category="paragraph">클러스터에 2개의 컨트롤러</block>
-  <block id="a0540c64b7001eb9739a6eed390808ac" category="paragraph">2개 이상의 컨트롤러가 클러스터에 있습니다</block>
-  <block id="853a8c6f8383ee1dc5f3826af9ff6797" category="list-text">시스템 노드 halt-node_node_name_'을(를) 확인하는 메시지가 나타나면 컨트롤러를 중지하고 y를 누릅니다</block>
-  <block id="253a50052b60be1951a606aa7c311ba2" category="admonition">비휘발성 메모리(NVMEM/NVRAM)에서 기록되지 않은 데이터가 손실되지 않도록 섀시를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. 시스템에 따라 NVMEM/NVRAM LED가 깜박이면 NVMEM/NVRAM에 디스크에 저장되지 않은 콘텐츠가 있습니다. 컨트롤러를 재부팅하고 이 절차의 처음부터 시작해야 합니다. 컨트롤러를 완전히 종료하려고 반복적으로 시도하는 경우, 디스크에 저장되지 않은 데이터가 손실될 수 있습니다.</block>
-  <block id="8373aa3aac3c8f18564812bfcb55615a" category="list-text">해당되는 경우, HA 쌍 구성에서 쿼럼 오류 메시지가 발생하지 않도록 두 번째 컨트롤러를 중지합니다. '시스템 노드 halt-node_second_node_name_-ignore-quorum-warnings true-skip-lif-migration-before-shutdown true'</block>
   <block id="4c10c8d9f18f0c8ba6fc3ea32f7beee4" category="list-text">HA 구성을 사용하는 경우 두 번째 컨트롤러에서 이전 단계를 반복합니다.</block>
   <block id="6d21dbcd6d30fc2426dd0b077d719da5" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
   <block id="d1614290531967ae3b3623d71b4ed961" category="paragraph">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 실행 중인 ONTAP 버전을 확인해야 합니다.</block>
@@ -7198,13 +7186,11 @@
   <block id="0c2b7daebf1a1e94a676675bf614fba6" category="paragraph">부팅 미디어는 전원 공급 장치와 반대되는 선반 섀시 벽을 따라 있습니다.</block>
   <block id="178d438c63a174b511750f68655d814d" category="list-text">RTC 배터리를 교체하고 NSM 모듈을 다시 설치한 후 모듈이 부팅되면 ONTAP에서 실시간 클럭 시간이 업데이트됩니다.</block>
   <block id="d067784c8bad4d41a4f87accd50abbc1" category="list-text">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
-  <block id="1c0138111ac00fdce24dc38ffd9859d5" category="list-text">2개 이상의 컨트롤러가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 있지 않거나 정상 상태인 컨트롤러가 표시되는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block> 자격 및 상태에 대한 자세한 내용은 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
   <block id="305fade7b83ae4e7549b33a3ae1b1fd0" category="doc">쉘프-NS224 쉘프 핫 추가</block>
   <block id="859c951ebab21901f2fd6183c53339d5" category="summary">NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="8ea19d634d233a26f4f650bd2e2b467c" category="paragraph">NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="58fb0a507d97ff336e5db5d69ba846e9" category="inline-link">10GbE 연결을 위해 40GbE NIC 포트를 여러 10GbE 포트로 변환합니다</block>
   <block id="8ae73aa056882e7b560f3b52b5764957" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 를 사용하여 이러한 포트를 10GbE 연결로 변환합니다<block ref="5ec041cdb2bbdf01cd4ea2c400b17495" prefix=" " category="inline-code"></block> 유지보수 모드의 명령입니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="d875f9fec183da794cd6d6245ef00d1d" category="paragraph"><block ref="272f3c49a4ec1753c70013d06165277b" prefix="" category="inline-code"></block></block>
   <block id="1bb835185391c9f6463cb5dc111090d1" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 을 참조하십시오 <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
   <block id="aae78f4a3d47a08dddca98a632d4a75f" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우, 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다.</block>
   <block id="68d9e980b8b4998ef88139d7b7ab8ff6" category="paragraph"><block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block></block>
@@ -7416,11 +7402,7 @@
   <block id="5ab526c2d8a23c39c3d68b1080ca3e89" category="doc">상세 가이드 - AFF C400</block>
   <block id="ed1fe7521861c492832064f3b6daca68" category="paragraph">100 GbE 케이블(QSFP28)</block>
   <block id="e0cc8c545401fc3b34281140c54756c7" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(C400의 경우 PCIe 커넥터 소켓이 카드 슬롯의 왼쪽에 있음)을 확인하여 포트를 식별한 다음 NetApp Hardware Universe의 부품 번호로 카드를 찾습니다. 에서는 포트 레이블이 있는 베젤의 그림을 보여 줍니다. sysconfig -a 명령 또는 시스템 패킹 목록을 사용하여 카드 부품 번호를 찾을 수 있습니다.</block>
-  <block id="80a7f396e1bc3ed796a9313a0aa75443" category="image-alt">drw C400 TNSC 네트워크 케이블 연결</block>
-  <block id="a905d4a42dacfc07296e02d609b47cb0" category="image-alt">drw C400 스위치 방식 네트워크 케이블 연결</block>
   <block id="670ce436320fc9008e2880db983e27d2" category="paragraph">다음 옵션은 하나 또는 두 개의 NS224 드라이브 쉘프를 시스템에 케이블로 연결하는 방법을 보여줍니다.</block>
-  <block id="66587f1aa86b9e296b1d1dd43ca73e3e" category="image-alt">drw C400 1개 ns224 셸프</block>
-  <block id="0b9e9bf3097ae366abf0d35474fb4b1f" category="image-alt">drw C400 2개의 ns224 셸프</block>
   <block id="eca713323e6fa9782ebae60357fc0453" category="doc">NVDIMM-AFF C400을 교체합니다</block>
   <block id="719e61ffcf0d96924351db01f7e50603" category="doc">비디오 - AFF C400</block>
   <block id="51e4f59a1aaa143b8d5c910f0a77328e" category="video-title">애니메이션 - AFF C400 설치 및 설정 지침</block>
@@ -7804,4 +7786,80 @@
   <block id="66ba60034a525a69b1b5cf4344529c25" category="paragraph">NVRAM 모듈을 포함하여 손상된 섀시에서 I/O 모듈을 분리하려면 특정 단계를 수행하십시오.</block>
   <block id="76558becedd79e95bf3921d5f08baeb6" category="list-text">손상된 섀시의 전면에서 DCPM 베이 바로 아래에 있는 USB LED 모듈을 찾습니다.</block>
   <block id="ac6201b7b810f81cfaef54d4d8fe63d5" category="list-text">시스템 캐비닛 나사용 torq 드라이버</block>
+  <block id="d581cc3762a48b4da22069bdeae81b8f" category="inline-link">4노드 클러스터에서 1개의 HA 쌍을 정상 종료하여 전원을 켜는 방법</block>
+  <block id="3f7ee1fb6cfdfd18c49f8e060fa8f9c9" category="paragraph">이 절차는 2-노드, 비-MetroCluster 구성에 한해서만 적용됩니다. 두 개 이상의 노드가 있는 시스템의 경우 를 참조하십시오<block ref="681b47fbe1cebc545a75e77efd420ec0" category="inline-link-rx"></block>.</block>
+  <block id="36ee27bc3fc7c617977b35534609c979" category="paragraph">필요한 사항:</block>
+  <block id="68d685ddbaa25f1a411d5e93d6f91913" category="list-text">ONTAP에 대한 로컬 관리자 자격 증명입니다.</block>
+  <block id="ac1036c822296c33d140ef7ba7cd246d" category="list-text">스토리지 암호화를 사용하는 경우 NetApp 온보드 키 관리(OKM) 클러스터 전체 암호 구문</block>
+  <block id="93e6bf3fa29a7ebd2a4bb235a54deb94" category="list-text">각 컨트롤러에 대한 SP/BMC 액세스 가능성</block>
+  <block id="d6562c849f41b9038124f0c304aed030" category="list-text">모든 클라이언트/호스트에서 NetApp 시스템의 데이터에 액세스하지 못하도록 합니다.</block>
+  <block id="d61b46d9cd719b77efb76269147aa377" category="list-text">외부 백업 작업을 일시 중지합니다.</block>
+  <block id="527f18fb3f8ac4bca4ae01901a2c9317" category="list-text">교체에 필요한 공구 및 장비</block>
+  <block id="3b6fc5695f8237510131da824ce788d0" category="inline-link">스토리지 시스템을 정상적으로 종료하고 전원을 켭니다 해결 설명서</block>
+  <block id="03f7958d5b1fc7636429e97368e2f97f" category="admonition">시스템이 FabricPool 클라우드 계층으로 사용되는 NetApp StorageGRID 또는 ONTAP S3인 경우 를 참조하십시오<block ref="6db187057e0b0e01589d1a1a7f510469" category="inline-link-rx"></block> 이 절차를 수행한 후</block>
+  <block id="ec965df16952820cbea39156c0dfe2f0" category="admonition">FlexArray 스토리지 LUN을 사용하는 경우 이 절차를 수행한 후 해당 시스템에 대해 수행할 종료 절차는 해당 공급업체의 스토리지 시스템 설명서를 참조하십시오.</block>
+  <block id="ad8a5006901db5ea8481166a34f27929" category="inline-link">SU490: (영향: 위험) SSD 모범 사례: 2개월 이상 전원을 끈 경우 드라이브 고장 및 데이터 손실 위험을 피하십시오</block>
+  <block id="7d140f8b4464f9a8684a7943df8e74d9" category="admonition">SSD를 사용하는 경우 을 참조하십시오<block ref="13eec713a6c81535d5709aa561195b7a" category="inline-link-rx"></block></block>
+  <block id="356bf392971487f892daba5338258571" category="paragraph">시스템을 종료하기 전에 다음을 수행해야 합니다.</block>
+  <block id="2ee5edc561a6167cf2d57a64ee655bef" category="inline-link">시스템 상태 점검</block>
+  <block id="7023017d0098f741d6569842ee62b922" category="list-text">추가 를 수행합니다<block ref="9ace058273de133e6accbea83a7d278a" category="inline-link-rx"></block>.</block>
+  <block id="f40b8507b340a958be200bec6d3758a0" category="list-text">ONTAP를 시스템의 권장 릴리스로 업그레이드합니다.</block>
+  <block id="9f4d2068e7b3d206efc0252b3da597a5" category="inline-link">Active IQ Wellness 알림 및 위험</block>
+  <block id="c5df4dcae9a001142a36959487445ff6" category="list-text">모두 해결<block ref="31b25beca26cb366eeb0665e3c0d7cbf" category="inline-link-rx"></block>. 시스템 구성 요소의 LED와 같은 현재 시스템에 있는 모든 결함을 기록해 둡니다.</block>
+  <block id="3923b7d5100131c85be2160c8b680704" category="list-text">SSH를 통해 클러스터에 로그인하거나 로컬 콘솔 케이블과 랩톱/콘솔을 사용하여 클러스터의 노드에서 로그인합니다.</block>
+  <block id="d9e8189e14354652821e1f0f10f12dfe" category="list-text">AutoSupport를 끄고 시스템이 오프라인 상태로 될 것으로 예상되는 시간을 표시합니다.</block>
+  <block id="ff3faabe8aca2ae4a92cf7dec5b62b8f" category="paragraph"><block ref="14fb036c43dbcde966a639d33554da5c" prefix="" category="inline-code"></block></block>
+  <block id="ac2a6618449930e8abeb32fd078d7716" category="list-text">모든 노드의 SP/BMC 주소 확인:</block>
+  <block id="0d16db60da2c01b63ef84ee8d616c2fb" category="paragraph"><block ref="b206d268f79aeaa7c4f1e44684d2f080" prefix="" category="inline-code"></block></block>
+  <block id="a0fd5b31be719aeb26e2fc9c6991da9f" category="list-text">클러스터 쉘을 종료합니다.<block ref="f24f62eeb789199b9b2e467df3b1876b" prefix=" " category="inline-code"></block></block>
+  <block id="cf814f480a03329076e1d0cf2f71d7e3" category="list-text">이전 단계의 출력에 나열된 노드의 IP 주소를 사용하여 SSH를 통해 SP/BMC에 로그인합니다.</block>
+  <block id="aed4c23042b5f25dad252449f4ddcc59" category="paragraph">콘솔/노트북을 사용하는 경우 동일한 클러스터 관리자 자격 증명을 사용하여 컨트롤러에 로그인합니다.</block>
+  <block id="a3dcd96fdc725fa51c4161c8a03146ab" category="admonition">진행 상황을 모니터링할 수 있도록 모든 SP/BMC 연결에 대한 SSH 세션을 엽니다.</block>
+  <block id="e2cba6e644aeaf95f80f688b880746da" category="list-text">클러스터의 모든 노드 중지:</block>
+  <block id="02e0d9b5c39d838c007bfad7b6e34196" category="paragraph"><block ref="b89a38fd8ae1ad809e5b3560be211bfa" prefix="" category="inline-code"></block>.</block>
+  <block id="aba2c36fe67a0528d4417c7e5c4da8a1" category="admonition">StrictSync 모드에서 작동하는 SnapMirror Synchronous를 사용하는 클러스터의 경우:<block ref="03e2e719454253f2db864fa560da7899" prefix=" " category="inline-code"></block></block>
+  <block id="3171aeb3fa199cec60349b4529cc0178" category="list-text">클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다<block ref="25cae4cb08eccf660db87cfb99a959d7" prefix=" " category="inline-code"></block></block>
+  <block id="a39c8c38e51a42fcfaac22367dd19064" category="list-text">각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.</block>
+  <block id="461bb1724a0adc2c975edfdd4b4923a1" category="list-text">PSU 켜기/끄기 스위치가 없는 경우 각 PSU를 끄거나 전원 코드를 뽑습니다.</block>
+  <block id="e3dc6cc26ed03ba51ee4327edde1e1fc" category="list-text">각 PSU에서 전원 코드를 뽑습니다.</block>
+  <block id="0042f27885e192c9ea879dde4ac34445" category="list-text">클러스터와 관련된 모든 컨트롤러, 드라이브 쉘프 및 스위치의 전원이 꺼져 있는지 확인합니다.</block>
+  <block id="3f80193798fcbb08cbe99cbe0a3aff95" category="paragraph">섀시를 교체한 후 클러스터 구성 요소의 전원을 다음 순서대로 켭니다.</block>
+  <block id="f9604921fe40d48421b9ae74e9a50059" category="list-text">스위치 전원을 켭니다</block>
+  <block id="85ee83d55e3fb9b20f9f17b7fb773ca0" category="list-text">드라이브 쉘프의 전원을 켭니다</block>
+  <block id="d692ae791953fc513c9f3fd94d866964" category="list-text">컨트롤러의 전원을 켭니다</block>
+  <block id="6d0114cd2de3e017d8d76d6b9f2191fc" category="list-text">스위치의 전원을 켭니다.</block>
+  <block id="fe12fd40092a74cc86c0db3006d72880" category="list-text">PDU에서 PSU로 각 전원 케이블을 다시 연결합니다.</block>
+  <block id="d79f0458e922251555ddc7baa3538dbc" category="list-text">각 PSU 로커 스위치를 ON 위치로 뒤집습니다(해당하는 경우).</block>
+  <block id="420a1ffc592934afa358803642255547" category="list-text">스위치의 전원이 켜질 때까지 기다립니다.</block>
+  <block id="67935e6f17c778c98c8e80fce8e29a9f" category="list-text">스위치의 고장 표시등을 확인합니다(전면 및 후면 모두).</block>
+  <block id="978a8732c5cda53a8b4a3de35d2184fd" category="list-text">관리 IP 주소를 통해 스위치에 연결합니다.</block>
+  <block id="c72d57bd067b2b477426ef13c9c81629" category="list-text">스위치 상태를 확인합니다(자세한 내용은 스위치 공급업체 설명서 참조).</block>
+  <block id="fc5b4d6235b015336cafcedc54683d5d" category="list-text">모든 스위치의 전원이 켜지고 정상 상태가 될 때까지 각 스위치에 대해 반복합니다.</block>
+  <block id="874c11301500ddf99db8a26ccc161200" category="list-text">드라이브 쉘프 켜기:</block>
+  <block id="6309302d98e4a634b65821ffb59dcafc" category="list-text">모든 디스크 쉘프의 전원이 켜질 때까지 및 드라이브가 스핀업할 때까지 기다립니다.</block>
+  <block id="453fd8a2e005a3688cb57a1715403eb8" category="list-text">모든 쉘프 ID가 예상 값인지 확인합니다.</block>
+  <block id="43efaf94ccfd1b8ff73ede9310aa0726" category="list-text">시스템 종료 전에 디스크 쉘프(전면 및 후면)에 없는 오류가 있는지 확인합니다.</block>
+  <block id="9a14737750e117b254a09e3e342bf4d4" category="list-text">컨트롤러 전원을 켭니다.</block>
+  <block id="1526ecbd5f3186fd0391bcab851746a6" category="list-text">각 PSU 로커 스위치를 ON 위치로 뒤집습니다(해당하는 경우). 동일한 섀시에 없는 HA 쌍의 전원을 동시에 켜야 합니다.</block>
+  <block id="4ac3730c7728ff9f397c9c9c30e61398" category="list-text">섀시 내 컨트롤러의 전원이 켜질 때까지 기다립니다.</block>
+  <block id="2a966b5531ce1a15adff1f9be922268a" category="list-text">섀시 및 컨트롤러(전면 및 후면)에 장애 표시등이 있는지 확인합니다.</block>
+  <block id="c908a555fb9bda03518faf090d62b55f" category="list-text">모든 전원이 켜질 때까지 각 컨트롤러/섀시에 대해 이 과정을 반복합니다.</block>
+  <block id="1ace3ad5235525fbfcabf5c9ed71d2c2" category="list-text">SSH를 통해 노드의 SP 또는 BMC IP 주소에 연결합니다. 전원을 끄기 전에 다음 명령을 사용하여 IP 주소를 확인하십시오.</block>
+  <block id="42bd22c6658be2e7f86763221caaff8d" category="list-text">추가 시스템 상태 점검 수행:</block>
+  <block id="6cae41ec99a87022e2ff84639c1c9bc1" category="list-text">모두 해결<block ref="31b25beca26cb366eeb0665e3c0d7cbf" category="inline-link-rx"></block></block>
+  <block id="a4e515a78d7900d16a4af3f913b033f7" category="list-text">실행<block ref="48865c7c1d8013246e4e5f705a9105de" category="inline-link-rx"></block></block>
+  <block id="2d7735678080387bf2714cda931af8cf" category="inline-link">ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법</block>
+  <block id="b13401e632345d1a1c36a42722a9cdd7" category="list-text">에 설명된 대로 시스템 상태를 확인합니다<block ref="8441a6aeb4c8951afc9d3ef26143aa41" category="inline-link-rx"></block></block>
+  <block id="36bc7c68ef7de2e917f4a186a4edaa58" category="list-text">유지보수 작업 생성 AutoSupport 완료 메시지:</block>
+  <block id="538f577c4284d097aef57681a2acf728" category="paragraph"><block ref="a0502e9e767995ecf84f499d84740634" prefix="" category="inline-code"></block></block>
+  <block id="c779830d2c1a694320dcf49ae503c75a" category="list-text">자동 반환이 활성화되어 있는지 확인:</block>
+  <block id="3d2d5e9a2a8cef4225a4bd073c2aeefb" category="paragraph"><block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix="" category="inline-code"></block></block>
+  <block id="a095b22aaa929c82c4414b8a51e710af" category="doc">컨트롤러 종료 - AFF A900</block>
+  <block id="736a1f9cdd2dabb4a30feb86e55777ad" category="paragraph">25 GbE 케이블(SFP28)</block>
+  <block id="bbeb14c0a41e32ab9190d6fef7d7d2de" category="list-text">그림을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료합니다.</block>
+  <block id="3f90eae06a0fd4fa951102461bc035a2" category="image-alt">drw C400 TNSC 네트워킹 케이블 연결 IEOPS 1095</block>
+  <block id="dc70a7fbe1f21380db9b236898b87503" category="image-alt">drw C400 스위치 네트워크 케이블 연결 IEOPS 1096</block>
+  <block id="2a29b6abc01fa919029a6defab91ed09" category="list-text">다음 그림을 참조하여 컨트롤러를 단일 드라이브 쉘프에 연결합니다.</block>
+  <block id="cf05a1b835cc522d6ff312818c4655b5" category="image-alt">drw C400 1개 ns224 쉘프 IEOPS 1097</block>
+  <block id="c8bb212781cb1ea1ac1f2bb19672260b" category="image-alt">drw C400 2개 ns224 쉘프 IEOPS 1098</block>
 </blocks>
