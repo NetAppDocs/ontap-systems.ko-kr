@@ -58,7 +58,9 @@ X66240A-05(112-00639), 0.5m
 X66240A-2(112-00598), 2m
 
 X66240A-5(112-00600), 5m
-| image:../media/oie_cable_sfp_gbe_copper.svg["너비 = 85px"]  a| 
+ a| 
+image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+ a| 
 네트워크 케이블
 
 
@@ -234,7 +236,6 @@ video::da08295f-ba8c-4de7-88c3-ae7c0170408d[panopto]
 image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케이블 연결]
 
 +
-[cols="20%,80%"]
 |===
 | 단계 | 각 컨트롤러에서 수행합니다 
 
@@ -287,10 +288,18 @@ image::../media/oie_legend_icon_4_dr.svg[OIE 범례 아이콘 4 DR]
 
 image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
 
+
+
+ a| 
+** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
+** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
+
+ a| 
+image::../media/oie_cable_power.svg[OIE 케이블 전원]
+
+image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[drw a900fas9500 전원 아이콘 IEOPS 1142]
+
 |===
-. 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음).
-. 케이블을 케이블 관리 암에 연결합니다(그림 없음).
-. 저장 장치에 케이블을 연결하려면 를 참조하십시오 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>>.
 
 
 --
@@ -316,7 +325,6 @@ video::3ad3f118-8339-4683-865f-ae7c0170400c[panopto]
 image::../media/drw_9500_switched_network_cabling.svg[drw 9500 스위치 방식 네트워크 케이블 연결]
 
 +
-[cols="20%,80%"]
 |===
 | 단계 | 각 컨트롤러에서 수행합니다 
 
@@ -363,16 +371,24 @@ image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
  a| 
 image::../media/oie_legend_icon_4_dr.svg[OIE 범례 아이콘 4 DR]
  a| 
-케이블 25 GbE 커넥터:
+케이블 25GbE 연결:
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.
 
 image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
 
+
+
+ a| 
+** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
+** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
+
+ a| 
+image::../media/oie_cable_power.svg[OIE 케이블 전원]
+
+image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[drw a900fas9500 전원 아이콘 IEOPS 1142]
+
 |===
-. 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음).
-. 케이블을 케이블 관리 암에 연결합니다(그림 없음).
-. 저장 장치에 케이블을 연결하려면 를 참조하십시오 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>>.
 
 
 --
@@ -381,7 +397,7 @@ image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
 
 == 4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다
 
-선반부터 선반까지 케이블을 연결한 다음 두 컨트롤러를 DS212C 또는 DS224C 드라이브 쉘프에 케이블로 연결해야 합니다.
+DS212C 또는 DS224C 드라이브 쉘프를 컨트롤러에 연결합니다.
 
 
 NOTE: SAS 케이블 연결 정보 및 워크시트에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/overview-cabling-rules-examples.html["SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반"^]
@@ -432,7 +448,6 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SA
 미니 SAS 케이블
 
 |===
-. 시스템 설정을 완료하려면 을 참조하십시오 <<5단계: 시스템 설치 및 구성을 완료합니다>>.
 
 
 
@@ -499,8 +514,7 @@ image::../media/legend_icon_05.svg[범례 아이콘 05]
 황색 LED(!)가 나타날 때까지 10초 동안 기다립니다. 쉘프 ID를 설정한 후 드라이브 쉘프의 전원을 껐다가 다시 켭니다.
 
 |===
-. 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
-. 전원 스위치를 두 노드에 모두 켭니다.
+. 두 노드에 대한 전원 공급 장치의 전원 스위치를 켭니다.
 +
 .애니메이션 - 컨트롤러의 전원을 켭니다
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
@@ -632,15 +646,15 @@ image::../media/legend_icon_05.svg[범례 아이콘 05]
 황색 LED(!)가 나타날 때까지 10초 동안 기다립니다. 쉘프 ID를 설정한 후 드라이브 쉘프의 전원을 껐다가 다시 켭니다.
 
 |===
-. 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
-. 전원 스위치를 두 노드에 모두 켭니다.
+. 두 노드에 대한 전원 공급 장치의 전원 스위치를 켭니다.
 +
 .애니메이션 - 컨트롤러의 전원을 켭니다
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
 image::../media/drw_9500_power-on.svg[drw 9500 전원을 켭니다]
 
-+
+
+
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 

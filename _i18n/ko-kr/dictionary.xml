@@ -4380,7 +4380,6 @@
   <block id="d718ffb6aaa936306ccf33aefa9f9462" category="paragraph">케이블 클러스터 인터커넥트 포트:</block>
   <block id="832e6447f3f0b4b7127bf98e691dabe2" category="list-text">슬롯 A4 및 B4(e4a)</block>
   <block id="afb27063fb1efe124e2c7a172cae259c" category="list-text">슬롯 A8 및 B8(e8a)</block>
-  <block id="e5d93b7dd741454087516c062b2039a9" category="paragraph"><block ref="e5d93b7dd741454087516c062b2039a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4d929445fb22edc648f8a3c2ad66dbbc" category="paragraph">케이블 컨트롤러 관리(렌치) 포트</block>
   <block id="e77136c5bb4120b57e8fb14ff5bfc9e5" category="image-alt">OIE 케이블 RJ45</block>
   <block id="5d86adeae4cafa6e9bc7b67a443ec6e0" category="image-alt">OIE 범례 아이콘 3 o</block>
@@ -4392,25 +4391,19 @@
   <block id="018580c2da3ddca7f76b71c3c8e16b9e" category="image-alt">OIE 범례 아이콘 4 DR</block>
   <block id="8b891f41fe066d01d04ca12a9bd0033f" category="paragraph">케이블 32 Gb FC 연결:</block>
   <block id="c368da6f34e41cf660fe742d1776c0c1" category="paragraph">슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 32Gb FC 네트워크 스위치에 연결합니다.</block>
-  <block id="dea6830a53392dc3b1f30fb0a37fb5e4" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block>.</block>
   <block id="5f4965084173e3c414637c35200b73a8" category="paragraph">케이블 클러스터 인터커넥트 A 포트:</block>
   <block id="765c3c3f314b105120b116fa72fa83ec" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A4 및 B4(e4a).</block>
   <block id="370ef18034bcd8124be9ef4b4b76a551" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)</block>
   <block id="57f2f6ee86a9d40ab8a7837d0d864830" category="image-alt">OIE 범례 아이콘 2 lp</block>
   <block id="3b632bef76bf01e7a7e2e0c7d8200b68" category="paragraph">25GbE 네트워크 스위치 케이블 연결:</block>
-  <block id="e61525b2473886e554ed01ddeed52e1d" category="paragraph">케이블 32 Gb FC 연결:</block>
-  <block id="7a98f654f31b3263341788faed4ecbdd" category="section-title">옵션 1: AFF A900의 단일 NS224 드라이브 쉘프에 컨트롤러를 연결합니다</block>
   <block id="c60dbcf19edff60839d3c0fbf6f60f2a" category="paragraph">각 컨트롤러를 AFF A900 시스템의 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="5ec6942c74c6a8edac1d2288d383731d" category="list-text">다음 애니메이션 또는 도면을 사용하여 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다.</block>
   <block id="3a58f6912b98caf7435fd9f6896ba4c6" category="list-text">컨트롤러 A 포트 e2a를 쉘프의 NSM A의 포트 e0a에 연결합니다.</block>
   <block id="e4e47b4780428e178a9b09390f2362b3" category="list-text">컨트롤러 A 포트 e10b를 쉘프의 NSM B의 포트 e0b에 연결합니다.</block>
   <block id="393f89fb63e48229ad961dd1e405b53e" category="list-text">컨트롤러 B 포트 e2a를 쉘프의 NSM B에 있는 포트 e0a에 연결합니다.</block>
   <block id="db6b75fb665e0f2ab8be21099367b97a" category="list-text">컨트롤러 B 포트 e10b를 쉘프의 NSM A의 포트 e0b에 연결합니다.</block>
-  <block id="938cc7aca11f8ea0a909bcfbd5b224bc" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block>.</block>
-  <block id="5cc4f695591ccf54e2c20c08c7e44281" category="section-title">옵션 2: AFF A900의 2개의 NS224 드라이브 쉘프에 컨트롤러를 연결합니다</block>
   <block id="46c91124d100547c9507fea50ae0639b" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="26fe6dbccc48fc5e3f27bb01af6740e6" category="list-text">다음 애니메이션 또는 다이어그램을 사용하여 컨트롤러를 NS224 드라이브 쉘프 2개에 연결하십시오.</block>
-  <block id="2b31343b857fe67d64a1a976e200e971" category="paragraph"><block ref="2b31343b857fe67d64a1a976e200e971" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d4442969281e166b667219af7e7fe7b" category="list-text">쉘프 1의 NSM A e0a에 컨트롤러 A 포트 e2a를 연결합니다.</block>
   <block id="952e197be70605a4933f1fa544e89cf3" category="list-text">컨트롤러 A 포트 e10b를 쉘프 1의 NSM B e0b에 연결합니다.</block>
   <block id="92d9c39d99b3b14f8b5b4b785e697404" category="list-text">컨트롤러 A 포트 e2b를 쉘프 2의 NSM B e0b에 연결합니다.</block>
@@ -4419,7 +4412,6 @@
   <block id="b96eaffe433fe3b487cd82b4f61be219" category="list-text">컨트롤러 B 포트 e10b를 쉘프 1의 NSM A e0b에 연결합니다.</block>
   <block id="8c6d7187872b78ef08222578448b1731" category="list-text">컨트롤러 B 포트 e2b를 쉘프 2의 NSM A e0b에 연결합니다.</block>
   <block id="c3ecc9b1be38b712a8f61f8b27c41352" category="list-text">컨트롤러 B 포트 e10a를 쉘프 2의 NSM B e0a에 연결합니다.</block>
-  <block id="1d069ff54ee29cbfaafd7650132e6cd5" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block>.</block>
   <block id="1a012ae90c41b7530ce0df40b8053d54" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우</block>
   <block id="5eadc00e7d9146c2fd474e7d8d5f5137" category="list-text">다음 애니메이션 또는 그리기를 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.</block>
   <block id="6b39390f8836ac9ddcaf033f6ec9d535" category="image-alt">설정된 셸프 ID 세트의 drw 전원을 켭니다</block>
@@ -4427,7 +4419,6 @@
   <block id="77b9275f6fd711644f4214aa9c1fd216" category="paragraph">첫 번째 숫자가 깜박일 때까지 쉘프 ID 버튼을 누른 후 을 눌러 0-9로 이동합니다.</block>
   <block id="72e911c52ba51e970a39b1b30b1c8424" category="paragraph">엔드 캡을 교체합니다.</block>
   <block id="241b3d2acad120dfd8decf92e173cd23" category="paragraph">황색 LED(!)가 나타날 때까지 10초 동안 기다립니다. 쉘프 ID를 설정한 후 드라이브 쉘프의 전원을 껐다가 다시 켭니다.</block>
-  <block id="b12c60055be138bf7526b1769365b47e" category="image-alt">drw a900 전원이 켜져 있습니다</block>
   <block id="bd21e6ec29256eee4c7a9b34dd71c9ba" category="image-alt">DWR 노트북만 전환합니다</block>
   <block id="382f497663af8b0b026d3c66f6a2bfce" category="list-text">System Manager의 안내에 따라 설정을 사용하여 에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block>.</block>
   <block id="c866cf78ea22fe8b8a7122b28202ae22" category="paragraph"><block ref="c866cf78ea22fe8b8a7122b28202ae22" category="inline-link-rx"></block></block>
@@ -4437,7 +4428,6 @@
   <block id="208ee0864fe983f53622b3619eef5932" category="section-title">옵션 2: 네트워크 검색이 활성화되지 않은 경우</block>
   <block id="b3364f412d1466e4f6e340836fff9abb" category="paragraph">Windows 또는 Mac 기반 랩톱 또는 콘솔을 사용하고 있지 않거나 자동 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.</block>
   <block id="11991b3479fcd322fec352f130b7b364" category="admonition">주소의 형식은 +https://x.x.x.x+ 입니다.</block>
-  <block id="bb0210ac9561e033fc7d726a6ac134e8" category="paragraph"><block ref="bb0210ac9561e033fc7d726a6ac134e8" category="inline-link-rx"></block></block>
   <block id="ac153f0a41690d0111bba47080ad4deb" category="summary">FAS9000 및 AFF A700 시스템에는 2개의 2포스트 지원 레일 키트가 사용할 수 있습니다. 하나의 키트로 시스템을 2-포스트 랙에 플러시 장착할 수 있고 다른 키트를 사용하여 시스템을 2-포스트 랙에 미드마운트할 수 있습니다.</block>
   <block id="3d621fa2786c28a29e81425001413c0e" category="doc">2포스트 지원 레일 키트 설치 지침 - AFF A700 및 FAS9000</block>
   <block id="9de356bba732ea3279684bd5fa1e5f9f" category="section-title">2-포스트 미드마운트 레일 키트를 장착하십시오</block>
@@ -6672,8 +6662,6 @@
   <block id="9e51ab12d26faade2a31d70da71c74f5" category="list-text">교체 노드는 장애가 발생한 노드를 교체하는 새 노드입니다.</block>
   <block id="537af5095a4992ae7e9026bd3ff008a6" category="list-text">정상 노드는 정상 노드입니다.</block>
   <block id="c704a060606b2944e3c331124aaaa743" category="doc">세부 단계 - FAS9500</block>
-  <block id="babff6765c503db416f9aad69aec82a2" category="inline-image-macro">너비 = 85px</block>
-  <block id="6cb216de48e8994ccb0a6c7cbc427e02" category="cell"><block ref="6cb216de48e8994ccb0a6c7cbc427e02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="32a6e642c9cd7b5239fed7deb8d11082" category="image-alt">OIE cable100 GbE qsfp28</block>
   <block id="9a7819d4ddc611b1438c0a7f4633f619" category="image-alt">OIE 케이블 미니 SAS HD - 미니 SAS HD</block>
   <block id="47138f998237cc4fa9d1dde4218e6a79" category="image-alt">OIE 케이블 마이크로 USB</block>
@@ -6758,12 +6746,9 @@
   <block id="393993c9f7562f1a53d4d13744facd0e" category="paragraph">슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 32Gb FC 네트워크 스위치에 연결합니다.</block>
   <block id="7b49110d5bcbc4998964949bf1d4d386" category="paragraph">케이블 25GbE 연결:</block>
   <block id="823c1d0595274590edabd782a377efc4" category="paragraph">슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.</block>
-  <block id="69b080eb9ee2f49ccb265903c6a2e0a9" category="list-text">전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음).</block>
   <block id="67e68c155f62af046486d4818ab551b1" category="list-text">케이블을 케이블 관리 암에 연결합니다(그림 없음).</block>
   <block id="0815daeb3f5819b5b26f2d852a3480ed" category="video-title">애니메이션 - 스위치 방식 클러스터 케이블 연결</block>
   <block id="ab4ba237fa2abf24783610d2c0f56a3a" category="image-alt">drw 9500 스위치 방식 네트워크 케이블 연결</block>
-  <block id="cc0952f55da6292c79f2dc5ff372d9af" category="paragraph">케이블 25 GbE 커넥터:</block>
-  <block id="0761555d16ac8203353f5bd7e80d3769" category="list-text">전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음).</block>
   <block id="c88355c0ee4fee45dfc3a83996fea5ca" category="admonition">SAS 케이블 연결 정보 및 워크시트에 대한 자세한 내용은 을 참조하십시오<block ref="a92f79530cc2a1794f52d1c1214e4c1c" category="inline-link-rx"></block></block>
   <block id="9d00a2e517a4069bd82955f8b1b02a18" category="list-text">시스템에 대한 SAS 케이블 연결 워크시트를 작성합니다. 을 참조하십시오<block ref="a92f79530cc2a1794f52d1c1214e4c1c" category="inline-link-rx"></block>.</block>
   <block id="3e86e158b18295e17a62b9c2ae164933" category="list-text">다음 애니메이션 또는 그림을 사용하여 컨트롤러를 3개(드라이브 쉘프 1개 스택 및 드라이브 쉘프 2개 스택) DS224C 드라이브 쉘프 에 연결합니다.</block>
@@ -7212,7 +7197,6 @@
   <block id="a5462faa34b6cf806cb49f24d84b02a7" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="c56809d9cff2ea190c6fb9d67e804b42" category="paragraph">섀시를 교체할 때 섀시 전면에 있는 6개의 팬 모듈을 분리해야 합니다.</block>
   <block id="e9e9a6de5e421dfe8a5ccc0b156ecc94" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다<block ref="432345ed72f5509f18312f01d4f08dff" prefix=" " category="inline-code"></block> 명령 또는 시스템 포장 목록에서 선택합니다.</block>
-  <block id="bea43746a1060b2b6af67fba31ca2890" category="paragraph">다음 다이어그램에서는 일반적인 시스템의 모양과 주요 구성 요소가 시스템의 판독에 있는 위치를 보여 줍니다.</block>
   <block id="2f50f96b8a95f8c73f9257ccd13d3c46" category="image-alt">섀시 ID IEOPS 856의 drw a900 컨트롤러</block>
   <block id="ea69d5fd5f06add244968ab4b689c261" category="image-alt">drw a900 tnsc 네트워크 케이블 연결 IEOPS 933</block>
   <block id="e1ed9dc03578bbf7dfdc44cf31220a86" category="image-alt">drw a900 스위치 네트워크 케이블 IEOPS 934</block>
@@ -7279,7 +7263,6 @@
   <block id="d034ad76bb5b20c4f0a1790c3665c3b2" category="paragraph"><block ref="d034ad76bb5b20c4f0a1790c3665c3b2" category="inline-link-rx"></block></block>
   <block id="7be2f40216e9676314a384c650694fed" category="admonition">를 참조하십시오<block ref="17d46f7a995ead494ec7b2eb9caffda8" category="inline-link-rx"></block> 자세한 내용은 ONTAP 버전을 참조하십시오.</block>
   <block id="1fad4d8ec174b60255a8febb2707e048" category="paragraph"><block ref="1fad4d8ec174b60255a8febb2707e048" category="inline-link-rx"></block></block>
-  <block id="8427b7c5bd63cec67b7bb2edba538972" category="list-text">노드를 재부팅합니다.</block>
   <block id="8c2c8bc4e47d0ed180d7a321a6f45a30" category="paragraph">NVRAM 모듈을 교체하려면 섀시의 슬롯 6에 있는 모듈을 찾은 다음 특정 단계를 따르십시오.</block>
   <block id="44e91a10c5fb9bc923eb6ca613b41106" category="list-text">문자 및 번호가 매겨진 캠 래치를 누릅니다.</block>
   <block id="35ed901089030d76b9de29f7bb8d54ce" category="paragraph">캠 래치가 섀시에서 멀어 집니다.</block>
@@ -7822,7 +7805,6 @@
   <block id="a39c8c38e51a42fcfaac22367dd19064" category="list-text">각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.</block>
   <block id="461bb1724a0adc2c975edfdd4b4923a1" category="list-text">PSU 켜기/끄기 스위치가 없는 경우 각 PSU를 끄거나 전원 코드를 뽑습니다.</block>
   <block id="e3dc6cc26ed03ba51ee4327edde1e1fc" category="list-text">각 PSU에서 전원 코드를 뽑습니다.</block>
-  <block id="0042f27885e192c9ea879dde4ac34445" category="list-text">클러스터와 관련된 모든 컨트롤러, 드라이브 쉘프 및 스위치의 전원이 꺼져 있는지 확인합니다.</block>
   <block id="3f80193798fcbb08cbe99cbe0a3aff95" category="paragraph">섀시를 교체한 후 클러스터 구성 요소의 전원을 다음 순서대로 켭니다.</block>
   <block id="f9604921fe40d48421b9ae74e9a50059" category="list-text">스위치 전원을 켭니다</block>
   <block id="85ee83d55e3fb9b20f9f17b7fb773ca0" category="list-text">드라이브 쉘프의 전원을 켭니다</block>
@@ -7862,4 +7844,34 @@
   <block id="2a29b6abc01fa919029a6defab91ed09" category="list-text">다음 그림을 참조하여 컨트롤러를 단일 드라이브 쉘프에 연결합니다.</block>
   <block id="cf05a1b835cc522d6ff312818c4655b5" category="image-alt">drw C400 1개 ns224 쉘프 IEOPS 1097</block>
   <block id="c8bb212781cb1ea1ac1f2bb19672260b" category="image-alt">drw C400 2개 ns224 쉘프 IEOPS 1098</block>
+  <block id="268f653b0107cd8d721a5e6a0707445b" category="list-text">손상된 섀시의 모든 컨트롤러의 전원이 꺼져 있는지 확인합니다.</block>
+  <block id="34f608e31ee5d84e943cbacee3cc0d82" category="section-title">2단계: 시스템을 불러옵니다</block>
+  <block id="9169713781138720e26fc387a18b87c3" category="list-text">전원 케이블을 다시 PSU에 꽂습니다.</block>
+  <block id="3b6f7041bdbf002d5fb8118b3b66bbaf" category="list-text">로커를 * 켜짐 * 으로 전환하여 PSU를 켜고 컨트롤러가 완전히 켜질 때까지 기다립니다.</block>
+  <block id="535e6a17cac4b6fcea21c21d76a16011" category="list-text">전원을 켠 후 섀시 및 컨트롤러의 앞면과 뒷면에 장애 표시등이 있는지 확인합니다.</block>
+  <block id="0afb38135567f8e32b676b95fc3668b4" category="list-text">SSH를 통해 노드의 SP 또는 BMC IP 주소에 연결합니다. 이 주소는 노드를 종료하는 데 사용되는 주소와 동일합니다.</block>
+  <block id="0591f6978e976aba7a11f848714b901b" category="inline-link">How_to_Perform_a_cluster_health_check_with_a_script_in_ONTAP 을 참조하십시오</block>
+  <block id="8e9b999676299f8703c9070d3c2985ba" category="list-text">에 설명된 대로 추가 상태 점검을 수행합니다<block ref="a8cfb0bb1834e8ab349682b5fe5ed3dc" category="inline-link-rx"></block></block>
+  <block id="b2c28cfb1063bebf48b81ba9fd3469a6" category="list-text">AutoSupport를 다시 켭니다(유지 관리 창 종료 메시지).<block ref="a0502e9e767995ecf84f499d84740634" prefix=" " category="inline-code"></block></block>
+  <block id="f971b80d6ee6fbc7ba9985b558e018b9" category="admonition">모범 사례는 다음과 같습니다.</block>
+  <block id="8a06a71dc0414678e02aa06d157b18d2" category="list-text">모두 해결<block ref="cacc50c31137316e6bcfe8c0ac368fe4" category="inline-link-rx"></block> (Active IQ는 전원을 켠 후 자동 지원을 처리하는 데 시간이 걸립니다. 결과가 지연될 수 있습니다.)</block>
+  <block id="0e0efc2721880275084eac2647e0e4b1" category="list-text">실행<block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block></block>
+  <block id="8fa4ccfd1b4358e15e3bd7bf6f0b4aba" category="list-text">를 사용하여 시스템 상태를 확인합니다<block ref="a8cfb0bb1834e8ab349682b5fe5ed3dc" category="inline-link-rx"></block></block>
+  <block id="91c7c4ae839664f690723e2789ab84a4" category="list-text">LOADER 프롬프트에서 컨트롤러를 재부팅합니다.</block>
+  <block id="081944818ac324f5acfc520d79b9a4c8" category="list-text">컨트롤러에서 BMC 버전을 확인합니다.<block ref="1daf8ec1db284687c337b8dbbb963180" prefix=" " category="inline-code"></block></block>
+  <block id="e79808e4dee171c444f6adfbe515b914" category="list-text">필요한 경우 BMC 펌웨어를 업데이트합니다.<block ref="99e170b2382cf41dbeebf0111123db87" prefix=" " category="inline-code"></block></block>
+  <block id="8f6aa74b4b7066030daae45957f11b0b" category="list-text">노드를 재부팅합니다.<block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix=" " category="inline-code"></block></block>
+  <block id="23fc5004785b6c15e6a491f2e60db752" category="inline-link">Burt 1494308 - I/O 모듈 교체 중에 환경 종료가 트리거될 수 있습니다</block>
+  <block id="9da423ef0a315a657b7e20eabc035835" category="admonition">재부팅 중 문제가 발생하는 경우 를 참조하십시오<block ref="260338bdea3a501a12c9c069b20553d1" category="inline-link-rx"></block></block>
+  <block id="58d38e899a80743b66bf79e2320b2606" category="list-text">전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.</block>
+  <block id="495cdce574c4e4b9dd48817e71a39cd2" category="image-alt">drw a900fas9500 전원 아이콘 IEOPS 1142</block>
+  <block id="1c34ed72998ddf83d183b82b4a5a4938" category="paragraph">DS212C 또는 DS224C 드라이브 쉘프를 컨트롤러에 연결합니다.</block>
+  <block id="e5996620d0917580a63333b20b9454ef" category="list-text">두 노드에 대한 전원 공급 장치의 전원 스위치를 켭니다.</block>
+  <block id="94f6805f56a12322f9f69e911a22d9b8" category="paragraph">다음 다이어그램은 일반적인 시스템의 모양과 시스템 후면의 주요 구성 요소의 위치를 나타냅니다.</block>
+  <block id="fd39828687c1d928d80860408fbad6fe" category="paragraph">단일 NS224 드라이브 쉘프 또는 2개의 NS224 드라이브 쉘프를 컨트롤러에 연결합니다.</block>
+  <block id="b10d0d290118effc922ad6f19fc77818" category="open-title">옵션 1: 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다</block>
+  <block id="197dee836fa91f0bc10674f0b47382e3" category="image-alt">OIE 범례 아이콘 2 lo</block>
+  <block id="ac4fc8e93ed87aaf0d607c7594b760df" category="open-title">옵션 2: 두 개의 NS224 드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
+  <block id="eab02c161618f87134d04b274c9ed0a9" category="image-alt">drw a900 NS224 라인 아트 2개의 선반 케이블 IEOPS 1147</block>
+  <block id="93d4151426ee3e46d52580ae98128972" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block></block>
 </blocks>
