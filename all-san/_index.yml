@@ -1,0 +1,32 @@
+---
+indexpage:
+  lead: NetApp의 ASA(All SAN Array)는 조직의 미션 크리티컬 데이터베이스 및 기타 SAN 워크로드에 지속적인 데이터 가용성을
+    제공하는 단순화된 전용 SAN 환경을 제공합니다. 모든 SAN 어레이 시스템은 AFF 시스템과 동일한 설명서를 사용합니다. ASA 시스템을
+    설치하고 유지하려면 해당 AFF 모델의 지침을 따르십시오.
+  tiles:
+  - title: ASA AFF 시스템
+    links:
+    - title: ASA AFF A250
+      url: "../a250/index.html"
+    - title: ASA AFF A400
+      url: "../a400/index.html"
+    - title: ASA AFF A700
+      url: "../a700/index.html"
+    - title: ASA AFF A800
+      url: "../a800/index.html"
+  - title: 이용 종료 시스템
+    links:
+    - title: AFF A220
+      url: "../a220/index.html"
+  - title: 추가 문서 리소스
+    links:
+    - title: 시스템 하드웨어 업그레이드
+      url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
+    - title: ASA 소프트웨어 구성
+      url: https://docs.netapp.com/us-en/ontap/task_asa_software_configuration.html
+    - title: ASA 데이터시트 를 참조하십시오
+      url: https://www.netapp.com/data-storage/san-storage-area-network/
+    - title: ASA 솔루션 개요
+      url: https://www.netapp.com/pdf.html?item=/media/19466-SB-4081.pdf
+    - title: ASA 기술 보고서
+      url: https://www.netapp.com/pdf.html?item=/media/10379-tr4515.pdf

@@ -12,15 +12,3 @@ summary: 이 링크를 사용하여 다른 AFF 및 FAS 시스템에 대한 설�
 
 [role="lead"]
 이 링크를 사용하여 다른 AFF 및 FAS 플랫폼에 대한 설명서를 찾을 수 있습니다. 하드웨어 지원 끝에 도달한 AFF 및 FAS 시스템에 대한 문서는 에서 고객이 사용할 수 있습니다 link:https://mysupport.netapp.com/documentation/productsatoz/index.html?archive=true["아카이브"].
-
-
-
-== 쉘프 모델
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30410["DS2246 디스크 쉘프 문서"]
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=61387["DS4486 디스크 쉘프 설명서"]
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=61469["DS4246 디스크 쉘프 문서"]
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30411&language=en-US&archive=true["DS4243 디스크 쉘프 문서"]

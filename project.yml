@@ -36,6 +36,7 @@ sidebar:
     - section: c250
     - section: c400
     - section: c800
+  - section: allsan
   - title: FAS 시스템
     entries:
     - section: fas500f
@@ -51,8 +52,6 @@ sidebar:
     - section: fas2600
     - section: fas2700
     - section: fas8200
-  - section: allsan
-  - section: upgrade
   - title: 시스템 레벨 진단
     entries:
     - title: 소개
@@ -75,7 +74,6 @@ sidebar:
     entries:
     - section: ns224
     - section: sas3
-  - section: switch
   - title: 캐비닛 및 레일 키트
     entries:
     - title: SuperRail 키트
