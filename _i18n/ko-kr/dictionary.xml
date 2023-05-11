@@ -7870,14 +7870,5 @@
   <block id="ff529c4d04327f7d20ae4d7b457bcd18" category="sidebar">ASA 데이터시트 를 참조하십시오</block>
   <block id="30975d9ae55d85636f78d9b3e459df73" category="sidebar">ASA 솔루션 개요</block>
   <block id="6c713e33f81bfdf294d75a585966fd05" category="sidebar">ASA 기술 보고서</block>
-  <block id="05a183c8bc1fc9522f554a0dcc45645f" category="paragraph">랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.</block>
-  <block id="7877fbd25ecba999ab0a739fe29df547" category="paragraph">** AFF A 시리즈 시스템**</block>
-  <block id="999865050c05a9851fa1100ea708f735" category="paragraph">** AFF C 시리즈 시스템**</block>
-  <block id="fb4b827f429720ceefe590267f9978cf" category="paragraph">** FAS 시스템**</block>
-  <block id="6eeacbfb54f0dd2b69ca25ccf7e621e3" category="paragraph">** 클러스터 스위치**</block>
-  <block id="05d287d05ed5025354b8f6c796c87491" category="paragraph">** 스토리지 스위치**</block>
-  <block id="aca0ddc3769e84e478caff604ad14594" category="paragraph">** 공유 스위치**</block>
-  <block id="4f4f401ca3cb71c1eacaf052eac321fb" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 스위치를 컨트롤러에 케이블로 연결합니다</block>
-  <block id="93a86d433d6f98e9a80d74b972237ee6" category="paragraph">** AFF 시스템**</block>
   <block id="b47e2ddbcc7bf8a413f11a740b83ad50" category="sidebar">FAS 시스템 데이터 시트</block>
 </blocks>
