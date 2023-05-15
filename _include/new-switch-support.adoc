@@ -8,7 +8,7 @@
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"]
+https://["36포트 100GbE Cisco 스위치(X190200)"]
  a| 
 MetroCluster IP 구성을 포함하여 동일한 Cisco Nexus 9336C-FX2 스위치 쌍에서 공유 인프라(클러스터, HA 및 스위치 연결 스토리지)를 지원합니다.
  a| 
@@ -17,7 +17,7 @@ ONTAP 9.9.1
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200 및 X190210)"]
+https://["36포트 100GbE Cisco 스위치(X190200 및 X190210)"]
  a| 
 Cisco Nexus 9336C-FX2 클러스터 인터커넥트 스위치 및 스토리지 스위치 지원으로 AFF/FAS 컨트롤러 및 프런트 엔드 데이터 연결 지원
  a| 
@@ -26,7 +26,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
+https://["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
  a| 
 40/100GbE 포트가 있는 AFF/FAS 컨트롤러에 대한 Broadcom BES-53248 클러스터 인터커넥트 스위치 지원
  a| 
@@ -35,7 +35,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"] https://hwu.netapp.com/Switch/Index["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
+https://["36포트 100GbE Cisco 스위치(X190200)"] https://["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
  a| 
 Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.
 
@@ -50,7 +50,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
+https://["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
  a| 
 Broadcom BES-53248 클러스터 인터커넥트 스위치는 10/25GbE 포트가 있는 AFF/FAS 컨트롤러를 지원합니다.
  a| 

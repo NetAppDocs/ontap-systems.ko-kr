@@ -15,14 +15,14 @@ NS224 드라이브 쉘프를 직접 연결 스토리지가 아닌 스위치 연�
 
 * 스토리지 스위치를 통해 NS224 드라이브 쉘프 케이블 연결:
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2876580["스위치 연결 NS224 드라이브 쉘프 케이블 연결 정보"^]
+https://["스위치 연결 NS224 드라이브 쉘프 케이블 연결 정보"^]
 
 * 스토리지 스위치 설치:
 +
-https://docs.netapp.com/us-en/ontap-systems-switches/index.html["AFF 및 FAS 스위치 문서"^]
+https://["AFF 및 FAS 스위치 문서"^]
 
 * 플랫폼 모델에 대해 스토리지 스위치 및 케이블과 같은 지원되는 하드웨어를 확인합니다.
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+https://["NetApp Hardware Universe를 참조하십시오"^]
 
 

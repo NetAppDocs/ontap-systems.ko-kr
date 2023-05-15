@@ -15,7 +15,7 @@ summary: 시스템 캐비닛에서 장애가 발생한 PDU를 교체하거나 �
 
 교체 PDU는 시스템 캐비닛에서 지원해야 하며 설치된 장비에 충분한 전원을 공급해야 합니다.
 
-https://hwu.netapp.com/["hwu.netapp.com"]
+https://["hwu.netapp.com"]
 
 . 대상 PDU의 회로 차단기를 끄고 AC 전원에서 기존 PDU를 분리합니다.
 . 시스템 캐비닛에 접지한 다음 각 시스템 구성 요소 및 PDU에서 전원 코드를 뽑습니다.

@@ -18,7 +18,7 @@ summary: 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 
 * X91148A 모듈을 스토리지 어댑터로 추가하려면 슬롯 3 및/또는 7에 모듈을 설치해야 합니다.
 * X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 이러한 슬롯을 네트워크 슬롯으로 사용하고 NS224 셸프를 추가하지 않으려면 각 포트에 대한 'STORAGE PORT MODIFY-NODE_NODE NAME_-PORT_PORT NAME_-MODE NETWORK' 명령과 함께 네트워킹용 슬롯을 수정해야 합니다. X91148A 모듈에서 네트워킹용으로 사용할 수 있는 다른 슬롯은 Hardware Universe를 참조하십시오.
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
+https://["NetApp Hardware Universe를 참조하십시오"]
 
 * 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
 
@@ -30,7 +30,7 @@ https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 완전히 채워진 시스템에 하나 이상의 X91148A NIC 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.
 
 .단계
-. X91148A 모듈을 X91148A 모듈과 포트 수가 동일한 NIC 모듈이 포함된 슬롯에 추가하는 경우, LIF는 컨트롤러 모듈이 종료될 때 자동으로 마이그레이션됩니다. 교체할 NIC 모듈에 X91148A 모듈보다 많은 포트가 있는 경우 영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당해야 합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오
+. X91148A 모듈을 X91148A 모듈과 포트 수가 동일한 NIC 모듈이 포함된 슬롯에 추가하는 경우, LIF는 컨트롤러 모듈이 종료될 때 자동으로 마이그레이션됩니다. 교체할 NIC 모듈에 X91148A 모듈보다 많은 포트가 있는 경우 영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당해야 합니다. 을 참조하십시오 https://["LIF 마이그레이션"] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오
 . 컨트롤러 A 종료:
 +
 .. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
@@ -104,7 +104,7 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 
 .단계
-. X91148A 모듈을 슬롯 3 및/또는 7의 스토리지 모듈로 추가하는 경우 에 설명된 대로 기존 NIC 모듈이 있는 슬롯에 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"].
+. X91148A 모듈을 슬롯 3 및/또는 7의 스토리지 모듈로 추가하는 경우 에 설명된 대로 기존 NIC 모듈이 있는 슬롯에 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://["LIF 마이그레이션"].
 . 컨트롤러 A 종료:
 +
 .. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
@@ -164,5 +164,5 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 . 파트너 노드의 반환: 'storage failover 반환 - ofnode_target_node_name_'
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 컨트롤러 B에 대해 이 단계를 반복합니다
-. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"].
+. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://["NS224 드라이브 쉘프 핫 추가"].
 

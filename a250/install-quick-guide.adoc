@@ -16,6 +16,6 @@ summary: 이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
 * 영어: link:../media/PDF/215-14949_2020_11_en-us_AFFA250_ISI.pdf["AFF A250 설치 및 설정 지침"^]
-* 일본어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2874690["AFF A250 시스템 설치 및 설정 지침"^]
-* 중국어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2874693["AFF A250 시스템 설치 및 설정 지침"^]
+* 일본어: https://["AFF A250 시스템 설치 및 설정 지침"^]
+* 중국어: https://["AFF A250 시스템 설치 및 설정 지침"^]
 

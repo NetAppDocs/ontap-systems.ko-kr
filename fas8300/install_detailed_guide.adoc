@@ -21,9 +21,9 @@ summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 �
 
 사이트 요구 사항에 대한 정보와 구성된 시스템에 대한 추가 정보를 보려면 Hardware Universe에 액세스할 수 있어야 합니다. 이 시스템에 대한 자세한 내용은 사용 중인 ONTAP 버전의 릴리즈 노트에 액세스할 수도 있습니다.
 
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+https://["NetApp Hardware Universe를 참조하십시오"^]
 
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 9 버전에 대한 릴리즈 노트를 참조하십시오"^]
+http://["사용 중인 ONTAP 9 버전에 대한 릴리즈 노트를 참조하십시오"^]
 
 사이트에서 다음을 제공해야 합니다.
 
@@ -40,7 +40,7 @@ image::../media/drw_ssn_label.png[drw SSN 레이블]
 
 . 받은 케이블의 수와 유형을 확인하고 기록합니다.
 +
-다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 케이블을 찾아 사용 여부를 확인합니다.
+다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://["NetApp Hardware Universe를 참조하십시오"^] 케이블을 찾아 사용 여부를 확인합니다.
 
 +
 [cols="1,2,1,2"]
@@ -157,7 +157,7 @@ image:../media/oie_cable_power.png[""]
 |===
 . NetApp ONTAP 구성 가이드_를 검토하고 해당 가이드에 나열된 필수 정보를 수집합니다.
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"]
+https://["ONTAP 구성 가이드 를 참조하십시오"]
 
 
 
@@ -191,7 +191,7 @@ image::../media/drw_a320_cable_management_arms.png[A320 drw 케이블 관리 암
 스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.
 
 
-NOTE: 카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다 `sysconfig -a` 명령 또는 시스템 포장 목록에서 선택합니다.
+NOTE: 카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다 https://["NetApp Hardware Universe를 참조하십시오"^] 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다 `sysconfig -a` 명령 또는 시스템 포장 목록에서 선택합니다.
 
 
 
@@ -323,26 +323,26 @@ System Manager가 열립니다.
 
 . System Manager의 안내에 따라 setup을 사용하여 _NetApp ONTAP 구성 가이드_에서 수집한 데이터를 사용하여 시스템을 구성하십시오.
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"]
+https://["ONTAP 구성 가이드 를 참조하십시오"]
 
 . 계정 설정 및 Active IQ Config Advisor 다운로드:
 +
 .. 기존 계정에 로그인하거나 계정을 만듭니다.
 +
-https://mysupport.netapp.com/eservice/public/now.do["NetApp 지원 등록"]
+https://["NetApp 지원 등록"]
 
 .. 시스템을 등록합니다.
 +
-https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct["NetApp 제품 등록"]
+https://["NetApp 제품 등록"]
 
 .. Active IQ Config Advisor를 다운로드합니다.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 로 이동합니다 https://["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 
 
 
@@ -413,7 +413,7 @@ NOTE: 주소의 형식은 +https://x.x.x.x.+ 입니다
 
 .. NetApp ONTAP 구성 가이드 _ 에서 수집한 데이터를 사용하여 시스템을 구성합니다.
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"]
+https://["ONTAP 구성 가이드 를 참조하십시오"]
 
 
 
@@ -421,18 +421,18 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가�
 +
 .. 기존 계정에 로그인하거나 계정을 만듭니다.
 +
-https://mysupport.netapp.com/eservice/public/now.do["NetApp 지원 등록"]
+https://["NetApp 지원 등록"]
 
 .. 시스템을 등록합니다.
 +
-https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct["NetApp 제품 등록"]
+https://["NetApp 제품 등록"]
 
 .. Active IQ Config Advisor를 다운로드합니다.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 로 이동합니다 https://["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 

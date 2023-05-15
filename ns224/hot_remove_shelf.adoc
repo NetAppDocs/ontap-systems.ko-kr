@@ -36,7 +36,7 @@ NOTE: 제거하는 쉘프에서 이 절차를 수행하면 시스템에서 다�
 드라이브에서 소유권을 제거하는 절차는 디스크에서 확인하실 수 있으며 콘텐츠를 집계합니다.
 
 +
-https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["디스크 및 애그리게이트 개요"^]
+https://["디스크 및 애그리게이트 개요"^]
 
 
 

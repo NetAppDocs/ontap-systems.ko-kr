@@ -12,7 +12,7 @@
 
 
  a| 
-https://hwu.netapp.com/adapter/index["X91148A"]
+https://["X91148A"]
  a| 
 2포트 100GbE RoCE QSFP28
  a| 
@@ -26,7 +26,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/adapter/index["X91122A"]
+https://["X91122A"]
  a| 
 2-포트 25GbE RoCE QSFP28
  a| 
@@ -39,7 +39,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/adapter/index["X9170A"]
+https://["X9170A"]
  a| 
 NVMe SSD 모듈(1TB)
  a| 
@@ -58,7 +58,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"]
+https://["36포트 100GbE Cisco 스위치(X190200)"]
  a| 
 MetroCluster IP 구성을 포함하여 동일한 Cisco Nexus 9336C-FX2 스위치 쌍에서 공유 인프라(클러스터, HA 및 스위치 연결 스토리지)를 지원합니다.
  a| 
@@ -67,7 +67,7 @@ ONTAP 9.9.1
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200 및 X190210)"]
+https://["36포트 100GbE Cisco 스위치(X190200 및 X190210)"]
  a| 
 Cisco Nexus 9336C-FX2 클러스터 인터커넥트 스위치 및 스토리지 스위치 지원으로 AFF/FAS 컨트롤러 및 프런트 엔드 데이터 연결 지원
  a| 
@@ -76,7 +76,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
+https://["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
  a| 
 40/100GbE 포트가 있는 AFF/FAS 컨트롤러에 대한 Broadcom BES-53248 클러스터 인터커넥트 스위치 지원
  a| 
@@ -85,7 +85,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"] https://hwu.netapp.com/Switch/Index["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
+https://["36포트 100GbE Cisco 스위치(X190200)"] https://["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
  a| 
 Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.
 
@@ -100,7 +100,7 @@ ONTAP 9.8
 
 
  a| 
-https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
+https://["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
  a| 
 Broadcom BES-53248 클러스터 인터커넥트 스위치는 10/25GbE 포트가 있는 AFF/FAS 컨트롤러를 지원합니다.
  a| 
@@ -117,84 +117,84 @@ ONTAP 9.5P8
 
 
  a| 
-https://hwu.netapp.com/ProductSpecs/Index["FAS9500"]
+https://["FAS9500"]
  a| 
 ONTAP 9.10.1P3 및 9.11.1
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf["AFF A900"]
+https://["AFF A900"]
  a| 
 ONTAP 9.10.1
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf["AFF A250/AFF ASA A250"]
+https://["AFF A250/AFF ASA A250"]
  a| 
 ONTAP 9.8
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf["500f로 설정합니다"]
+https://["500f로 설정합니다"]
  a| 
 ONTAP 9.8
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf["AFF ASA A800"]
+https://["AFF ASA A800"]
  a| 
 ONTAP 9.8
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf["FAS8300"]
+https://["FAS8300"]
  a| 
 ONTAP 9.7
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf["FAS8700"]
+https://["FAS8700"]
  a| 
 ONTAP 9.7
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf["AFF A400"]
+https://["AFF A400"]
  a| 
 ONTAP 9.7
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/17190-na-382.pdf["AFF ASA A220"]
+https://["AFF ASA A220"]
  a| 
 ONTAP 9.7
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf["AFF ASA A700"]
+https://["AFF ASA A700"]
  a| 
 ONTAP 9.7
 
 
 
  a| 
-https://www.netapp.com/us/media/ds-3989.pdf["AFF C190"]
+https://["AFF C190"]
  a| 
 ONTAP 9.6
 
 
 
  a| 
-https://www.netapp.com/pdf.html?item=/media/17190-na-382.pdf["AFF A320"]
+https://["AFF A320"]
  a| 
 ONTAP 9.6
 
@@ -243,7 +243,7 @@ ONTAP 9.8
  a| 
 이제 SAS 스토리지 스택에서 6Gb에서 12Gb로 단일 속도 전환이 지원됩니다. 따라서 12Gb 쉘프를 사용하여 기존 6Gb 스택의 스토리지를 확장할 수 있습니다.
 
-https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-ds-mix-hotadd/home.html["IOM6 모듈을 사용해 쉘프 스택에 IOM12 모듈을 장착한 상태로 쉘프 추가"]
+https://["IOM6 모듈을 사용해 쉘프 스택에 IOM12 모듈을 장착한 상태로 쉘프 추가"]
  a| 
 ONTAP 9.7P4
 
@@ -260,7 +260,7 @@ ONTAP 9.8에서는 자동 포트 배치 기능이 도입되어 하드웨어 업�
 
 사용 가능한 업그레이드 절차를 보려면 다음 표를 검토하십시오. 절차가 적절한지 판단하기 위한 자세한 내용은 각 가이드를 참조하십시오.
 
-MetroCluster 관련 추가 절차는 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html["업그레이드 또는 새로 고침 방법 선택"].
+MetroCluster 관련 추가 절차는 를 참조하십시오 https://["업그레이드 또는 새로 고침 방법 선택"].
 
 [cols="4*"]
 |===
@@ -270,7 +270,7 @@ MetroCluster 관련 추가 절차는 를 참조하십시오 https://docs.netapp.
  a| 
 9.8 ~ 9.0.x
  a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (기존 물리적 스토리지 이동)
+https://["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (기존 물리적 스토리지 이동)
  a| 
 아니요
  a| 
@@ -279,7 +279,7 @@ https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-us
 
 
  a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (새 스토리지로 볼륨 이동)
+https://["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (새 스토리지로 볼륨 이동)
  a| 
 예
  a| 
@@ -290,7 +290,7 @@ https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-us
  a| 
 9.8
  a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 실행하는 컨트롤러 하드웨어를 업그레이드합니다"]
+https://[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 실행하는 컨트롤러 하드웨어를 업그레이드합니다"]
  a| 
 예
  a| 
@@ -301,7 +301,7 @@ https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-us
  a| 
 9.8
  a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual-app/index.html["Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드할 수 있습니다"]
+https://["Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드할 수 있습니다"]
  a| 
 예
  a| 
@@ -312,7 +312,7 @@ https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual-app/index
  a| 
 9.7 ~ 9.5
  a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-auto/index.html[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 실행하는 컨트롤러 하드웨어를 ONTAP 9.7로 업그레이드합니다"]
+https://[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 실행하는 컨트롤러 하드웨어를 ONTAP 9.7로 업그레이드합니다"]
  a| 
 예
  a| 
@@ -323,7 +323,7 @@ https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-auto/index.html[
  a| 
 9.7 이하
  a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual/index.html["Aggregate Relocation을 사용하여 컨트롤러 업그레이드 ONTAP 9.7 이하를 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드합니다"]
+https://["Aggregate Relocation을 사용하여 컨트롤러 업그레이드 ONTAP 9.7 이하를 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드합니다"]
  a| 
 예
  a| 

@@ -25,7 +25,7 @@ summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 �
 
 .단계
 . 시스템을 다시 연결합니다.
-. 을 사용하여 케이블이 올바른지 확인합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"].
+. 을 사용하여 케이블이 올바른지 확인합니다 https://["Active IQ Config Advisor"].
 +
 .. Config Advisor를 다운로드하고 설치합니다.
 .. 대상 시스템에 대한 정보를 입력한 다음 데이터 수집 을 클릭합니다.
@@ -260,4 +260,4 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

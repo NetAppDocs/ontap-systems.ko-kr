@@ -5676,7 +5676,6 @@
   <block id="a301eceb20e1d3480375d34e6dfa1274" category="sidebar">NetApp의 AFF 및 FAS 스토리지 시스템은 업계 최고의 데이터 관리 기능을 갖춘 첨단 엔터프라이즈급 스케일아웃 All-Flash 또는 하이브리드 스토리지를 제공합니다. 이 사이트의 문서를 사용하여 AFF, FAS 또는 모든 SAN 어레이 시스템을 설치, 확장, 업그레이드 및 유지 관리할 수 있습니다.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="626a7cbe056796bcb1c158b143866230" category="sidebar">ONTAP 릴리즈 노트</block>
-  <block id="f3585daa539c5917b4fedd0eb7efb3f2" category="sidebar">AFF 시스템</block>
   <block id="b6000f9eed7f8ea9ee4632bd2f77961a" category="sidebar">AFF C190</block>
   <block id="4fbc8445e0d6cdbbc8011982cd328f69" category="sidebar">AFF A200</block>
   <block id="8fd3ca5f66dff5be16e79560dd28171e" category="sidebar">AFF A220</block>
@@ -7536,20 +7535,16 @@
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
   <block id="d130f1dd19e93aaf9701cc968056061f" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 스위치 하드웨어를 설치합니다</block>
   <block id="26d2e0bd267361cc8916e7e16faebcbb" category="paragraph">랙 또는 캐비닛에 스위치를 설치합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
-  <block id="f267a68fd1c8bddcc992701898021398" category="list-title">클러스터 스위치</block>
   <block id="8821c03ea98d1edaf4b4b82c0aaf59dc" category="inline-link-macro">BES-53248 스위치를 설치합니다</block>
   <block id="9000e67500cb5e61bcd3ec702237913b" category="list-text"><block ref="9000e67500cb5e61bcd3ec702237913b" category="inline-link-macro-rx"></block></block>
   <block id="f4f4adc3268a66380dfdff9b1a20bc7b" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치를 설치합니다</block>
   <block id="ecdf11290d1440e9c1a6d4b9666ad878" category="list-text"><block ref="ecdf11290d1440e9c1a6d4b9666ad878" category="inline-link-macro-rx"></block></block>
   <block id="66e51b9ff1adb3e615b49ae8223869a4" category="inline-link-macro">NVIDIA SN2100 스위치를 설치합니다</block>
   <block id="459378c7b38e766a9c40673dc6b7d6b6" category="list-text"><block ref="459378c7b38e766a9c40673dc6b7d6b6" category="inline-link-macro-rx"></block></block>
-  <block id="403284bd44beda112195a484c8a76421" category="list-title">스토리지 스위치</block>
   <block id="75ddd4263ff912af7be6b34b846062ec" category="list-text"><block ref="75ddd4263ff912af7be6b34b846062ec" category="inline-link-macro-rx"></block></block>
   <block id="617820a8b836e10d6f5146fc0f043112" category="list-text"><block ref="617820a8b836e10d6f5146fc0f043112" category="inline-link-macro-rx"></block></block>
-  <block id="bc8a2cd252a5beb1dbf4f209baea67eb" category="list-title">공유 스위치</block>
   <block id="5e56acfb152f096818349fa67202b6f7" category="list-text"><block ref="5e56acfb152f096818349fa67202b6f7" category="inline-link-macro-rx"></block></block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
-  <block id="a4ae5d0bd4e47ba267a8df1ceee51985" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>스위치를 컨트롤러에 케이블로 연결합니다</block>
   <block id="427748ed6a44d0d6126050507a461881" category="paragraph">AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케이블로 연결하는 지침이 포함되어 있습니다. 그러나 지원되는 케이블 및 트랜시버 목록과 스위치의 호스트 포트에 대한 자세한 정보가 필요한 경우 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
   <block id="497781401f115451ecac27f7f2933cb3" category="inline-link-macro">케이블 BES-53248 스위치</block>
   <block id="4762b908167d7cdf9e4a1c2789f3dc25" category="list-text"><block ref="4762b908167d7cdf9e4a1c2789f3dc25" category="inline-link-macro-rx"></block></block>
@@ -7859,7 +7854,6 @@
   <block id="eab02c161618f87134d04b274c9ed0a9" category="image-alt">drw a900 NS224 라인 아트 2개의 선반 케이블 IEOPS 1147</block>
   <block id="93d4151426ee3e46d52580ae98128972" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block></block>
   <block id="6129b7ac1ccc31146cb5299a148a51de" category="summary">AFF, FAS 및 ASA 시스템을 설치하여 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성한 다음 스토리지를 구성해야 합니다.</block>
-  <block id="6d311090c29c1da16c7810703948cbe1" category="paragraph">랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A-Series 모델의 설치 지침을 따르십시오.</block>
   <block id="a6857db3b19fb4b9bb2a3b1cad9a31f1" category="list-text"><block ref="a6857db3b19fb4b9bb2a3b1cad9a31f1" category="inline-link-rx"></block></block>
   <block id="90a9e7415b88be6a0d94cebc7d4a7a57" category="list-text"><block ref="90a9e7415b88be6a0d94cebc7d4a7a57" category="inline-link-rx"></block></block>
   <block id="7f5c0eb40943093a2da99c8caf6992b7" category="list-text"><block ref="7f5c0eb40943093a2da99c8caf6992b7" category="inline-link-rx"></block></block>
@@ -7876,4 +7870,14 @@
   <block id="ff529c4d04327f7d20ae4d7b457bcd18" category="sidebar">ASA 데이터시트 를 참조하십시오</block>
   <block id="30975d9ae55d85636f78d9b3e459df73" category="sidebar">ASA 솔루션 개요</block>
   <block id="6c713e33f81bfdf294d75a585966fd05" category="sidebar">ASA 기술 보고서</block>
+  <block id="05a183c8bc1fc9522f554a0dcc45645f" category="paragraph">랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.</block>
+  <block id="7877fbd25ecba999ab0a739fe29df547" category="paragraph">** AFF A 시리즈 시스템**</block>
+  <block id="999865050c05a9851fa1100ea708f735" category="paragraph">** AFF C 시리즈 시스템**</block>
+  <block id="fb4b827f429720ceefe590267f9978cf" category="paragraph">** FAS 시스템**</block>
+  <block id="6eeacbfb54f0dd2b69ca25ccf7e621e3" category="paragraph">** 클러스터 스위치**</block>
+  <block id="05d287d05ed5025354b8f6c796c87491" category="paragraph">** 스토리지 스위치**</block>
+  <block id="aca0ddc3769e84e478caff604ad14594" category="paragraph">** 공유 스위치**</block>
+  <block id="4f4f401ca3cb71c1eacaf052eac321fb" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 스위치를 컨트롤러에 케이블로 연결합니다</block>
+  <block id="93a86d433d6f98e9a80d74b972237ee6" category="paragraph">** AFF 시스템**</block>
+  <block id="b47e2ddbcc7bf8a413f11a740b83ad50" category="sidebar">FAS 시스템 데이터 시트</block>
 </blocks>

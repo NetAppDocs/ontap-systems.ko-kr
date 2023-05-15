@@ -39,19 +39,19 @@ SAS2/SAS3 혼합 스택 지원 필드에 "Bridge-Attached(브리지 연결)"가 
 
 ** Hardware Universe로 이동하여 플랫폼 정보로 이동합니다.
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
+https://["NetApp Hardware Universe를 참조하십시오"]
 
 
 
 * MetroCluster 구성에 쉘프를 추가하는 경우, 구성이 MetroCluster 설치 및 구성 가이드의 모든 요구사항을 충족해야 합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-mcc-inst-cnfg-ip/home.html["MetroCluster IP 설치 및 구성 가이드"]
+http://["MetroCluster IP 설치 및 구성 가이드"]
 
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-mcc-inst-cnfg-stretch/home.html["ONTAP 9 스트레치 MetroCluster 설치 및 구성 가이드"]
+http://["ONTAP 9 스트레치 MetroCluster 설치 및 구성 가이드"]
 
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-mcc-inst-cnfg-fabric/home.html["ONTAP 9 패브릭 연결 MetroCluster 설치 및 구성 가이드"]
+http://["ONTAP 9 패브릭 연결 MetroCluster 설치 및 구성 가이드"]
 
 * IOM6 쉘프 스택은 IOM12 쉘프를 핫 추가하고, SAS 구리 케이블(모든 쉘프-쉘프 및 컨트롤러-스택 연결)으로 케이블을 연결해야 합니다.
 +
@@ -66,14 +66,14 @@ NOTE: IOM6 쉘프 스택을 SAS 광 케이블로 연결한 경우, IOM12 쉘프�
 IOM12/IOM12B 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 드라이브 수를 초과할 수 없습니다.
 
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
+https://["NetApp Hardware Universe를 참조하십시오"]
 
 * 시스템에 SAS 케이블 연결 오류 메시지가 없습니다.
 +
 오류 메시지에서 제공하는 수정 조치를 사용하여 케이블 연결 오류를 수정해야 합니다.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 * IOM12/IOM12B 셸프와 적절한 수의 SAS 구리 케이블 유형을 주문하고 받아야 합니다.
 +
@@ -105,16 +105,16 @@ SAS2/SAS3 혼합 스택 지원 필드(예: 모두 또는 브리지 연결)에 �
 
 ** Hardware Universe로 이동하여 플랫폼 정보로 이동합니다.
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
+https://["NetApp Hardware Universe를 참조하십시오"]
 
 
 
 * 구성은 MetroCluster 설치 및 구성 가이드의 모든 요구 사항을 충족해야 합니다.
 +
-https://docs.netapp.com/us-en/ontap-metrocluster/install-stretch/index.html["확장 MetroCluster 구성 설치 및 구성"]
+https://["확장 MetroCluster 구성 설치 및 구성"]
 
 +
-https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html["패브릭 연결 MetroCluster 구성 설치 및 구성"]
+https://["패브릭 연결 MetroCluster 구성 설치 및 구성"]
 
 * IOM12/IOM12B 쉘프를 핫 추가하고 있는 IOM6 쉘프 스택은 SAS 구리 케이블(모든 쉘프-쉘프 및 컨트롤러-스택 연결)으로 케이블이 연결되어야 합니다.
 +
@@ -176,10 +176,10 @@ NOTE: 펌웨어 업데이트는 최대 30분 정도 걸릴 수 있습니다.
 
 * * 모범 사례: * 모범 사례는 쉘프를 핫 추가하기 전에 현재 버전의 쉘프(IOM) 펌웨어 및 드라이브 펌웨어를 시스템에 추가하는 것입니다.
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"]
+https://["NetApp 다운로드: 디스크 쉘프 펌웨어"]
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"]
+https://["NetApp 다운로드: 디스크 드라이브 펌웨어"]
 
 
 
@@ -191,14 +191,14 @@ NOTE: 펌웨어를 쉘프와 해당 구성요소를 지원하지 않는 버전�
 현재 버전의 DQP를 설치하면 시스템이 새로 인증된 드라이브를 인식하고 사용할 수 있습니다. 이렇게 하면 드라이브가 인식되지 않으므로 최신 드라이브 정보가 없는 경우 및 드라이브 파티셔닝 예방에 대한 시스템 이벤트 메시지가 표시되지 않습니다. 또한 DQP는 최신 버전이 아닌 드라이브 펌웨어에 대해서도 알려줍니다.
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["NetApp 다운로드: 디스크 검증 패키지"^]
+https://["NetApp 다운로드: 디스크 검증 패키지"^]
 
 * * 모범 사례: * 가장 좋은 방법은 쉘프를 핫 추가하기 전과 후에 Active IQ Config Advisor를 실행하는 것입니다.
 +
 쉘프를 핫 추가하기 전에 Active IQ Config Advisor을 실행하면 기존 SAS 연결의 스냅샷을 제공하고, 쉘프(IOM) 펌웨어 버전을 확인하고, 시스템에서 이미 사용 중인 쉘프 ID를 확인할 수 있습니다. 쉘프를 핫 추가한 후 Active IQ Config Advisor를 실행하면 쉘프가 올바로 연결되었는지, 쉘프 ID가 시스템 내에서 고유한지 확인할 수 있습니다.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 * * 모범 사례: * 가장 좋은 방법은 시스템에서 대역 내 ACP(IBACP)를 실행하는 것입니다.
 +
@@ -209,7 +209,7 @@ IBACP로 마이그레이션하고 대역외 ACP 케이블 연결을 제거해야
 
 ** 시스템에서 IBACP를 실행하지 않고 시스템이 IBACP의 요구 사항을 충족하는 경우, IOM12 쉘프를 핫 추가하기 전에 시스템을 IBACP로 마이그레이션할 수 있습니다.
 +
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/In-Band_ACP_Setup_and_Support["IBACP로 마이그레이션하기 위한 지침"]
+https://["IBACP로 마이그레이션하기 위한 지침"]
 
 +
 
@@ -369,7 +369,7 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 
 . 필요한 경우 Active IQ Config Advisor를 실행하여 이미 사용 중인 쉘프 ID를 확인하십시오.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 +
 또한 'storage shelf show-fields shelf-id' 명령을 실행하여 시스템에 이미 사용 중인(있는 경우 중복) 쉘프 ID 목록을 볼 수 있습니다.
@@ -626,7 +626,7 @@ SAS 구리 미니 SAS HD-미니 SAS HD 케이블을 사용합니다.
 케이블 연결 오류가 발생하면 제공된 수정 조치를 따르십시오.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 . 이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.
 +

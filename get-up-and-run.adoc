@@ -13,189 +13,201 @@ summary: AFF, FAS 및 ASA 시스템을 설치하여 실행하려면 ONTAP에서 
 [role="lead"]
 AFF 및 FAS 시스템을 설치하여 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성한 다음 스토리지를 구성해야 합니다.
 
-시스템이 MetroCluster 구성인 경우 로 이동합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서 사이트"] MetroCluster 구성 유형에 해당하는 설치 지침을 따르십시오.
+시스템이 MetroCluster 구성인 경우 로 이동합니다 https://["MetroCluster 문서 사이트"] MetroCluster 구성 유형에 해당하는 설치 지침을 따르십시오.
 
 MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 다음 워크플로우를 사용하여 스토리지 시스템을 구축합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] AFF/FAS 컨트롤러 설치
 [role="quick-margin-para"]
-랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A-Series 모델의 설치 지침을 따르십시오.
+랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.
 
-[cols="4,9,9,9"]
-|===
+[role="quick-margin-para"]
+** AFF A 시리즈 시스템**
 
-
- a| 
- a| 
-.AFF A 시리즈 시스템
-* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["AFF A220"]
-* https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html["AFF A250"]
-* https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html["AFF A400"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["AFF A700"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF A800"]
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html["AFF A900"]
-
- a| 
-.AFF C 시리즈 시스템
-* https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html["AFF C190"]
-* https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html["AFF C250"]
-* https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html["AFF C400"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF C800"]
-
- a| 
-.FAS 시스템
-* https://docs.netapp.com/us-en/ontap-systems/fas500f/install-setup.html["500f로 설정합니다"]
-* https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8300"]
-* https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8700"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["FAS9000"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9500/install_setup.html["FAS9500"]
+[role="quick-margin-list"]
+* https://["AFF A220"]
+* https://["AFF A250"]
+* https://["AFF A400"]
+* https://["AFF A700"]
+* https://["AFF A800"]
+* https://["AFF A900"]
 
 
-|===
+[role="quick-margin-para"]
+** AFF C 시리즈 시스템**
+
+[role="quick-margin-list"]
+* https://["AFF C190"]
+* https://["AFF C250"]
+* https://["AFF C400"]
+* https://["AFF C800"]
+
+
+[role="quick-margin-para"]
+** FAS 시스템**
+
+[role="quick-margin-list"]
+* https://["500f로 설정합니다"]
+* https://["FAS8300"]
+* https://["FAS8700"]
+* https://["FAS9000"]
+* https://["FAS9500"]
+
+
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 스위치 하드웨어를 설치합니다
 [role="quick-margin-para"]
 랙 또는 캐비닛에 스위치를 설치합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.
 
-[cols="2,9,9,9"]
-|===
+[role="quick-margin-para"]
+** 클러스터 스위치**
 
-
- a| 
- a| 
-.클러스터 스위치
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/install-hardware-bes53248.html["BES-53248 스위치를 설치합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/install-switch-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-cluster.html["NVIDIA SN2100 스위치를 설치합니다"]
 
- a| 
-.스토리지 스위치
+
+[role="quick-margin-para"]
+** 스토리지 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/install-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-storage.html["NVIDIA SN2100 스위치를 설치합니다"]
 
- a| 
-.공유 스위치
+
+[role="quick-margin-para"]
+** 공유 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/install-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"]
 
 
-|===
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]스위치를 컨트롤러에 케이블로 연결합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 스위치를 컨트롤러에 케이블로 연결합니다
 [role="quick-margin-para"]
 AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케이블로 연결하는 지침이 포함되어 있습니다. 그러나 지원되는 케이블 및 트랜시버 목록과 스위치의 호스트 포트에 대한 자세한 정보가 필요한 경우 스위치 모델에 대한 다음 지침을 참조하십시오.
 
-[cols="2,9,9,9"]
-|===
+[role="quick-margin-para"]
+** 클러스터 스위치**
 
-
- a| 
- a| 
-.클러스터 스위치
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-reqs-bes53248.html#configuration-requirements["케이블 BES-53248 스위치"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/setup-worksheet-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치 케이블 연결"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/cabling-considerations-sn2100-cluster.html["NVIDIA SN2100 스위치에 케이블을 연결합니다"]
 
- a| 
-.스토리지 스위치
+
+[role="quick-margin-para"]
+** 스토리지 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/setup-worksheet-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치 케이블 연결"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/cabling-considerations-sn2100-storage.html["NVIDIA SN2100 스위치에 케이블을 연결합니다"]
 
- a| 
-.공유 스위치
+
+[role="quick-margin-para"]
+** 공유 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/cable-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치 케이블 연결"]
 
 
-|===
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]스위치를 구성합니다
 [role="quick-margin-para"]
 스위치의 초기 설정을 수행합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.
 
-[cols="2,9,9,9"]
-|===
+[role="quick-margin-para"]
+** 클러스터 스위치**
 
-
- a| 
- a| 
-.클러스터 스위치
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-install-initial.html["BES-53248 스위치를 구성합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/setup-switch-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치를 구성합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-sn2100-cluster.html["NVIDIA SN2100 스위치를 구성합니다"]
 
- a| 
-.스토리지 스위치
+
+[role="quick-margin-para"]
+** 스토리지 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/setup-switch-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치를 구성합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-sn2100-storage.html["NVIDIA SN2100 스위치를 구성합니다"]
 
- a| 
-.공유 스위치
+
+[role="quick-margin-para"]
+** 공유 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/setup-and-configure-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치를 구성합니다"]
 
 
-|===
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"] 스위치 소프트웨어를 설치합니다
 [role="quick-margin-para"]
 스위치에 소프트웨어를 설치하고 구성하려면 스위치 모델에 대한 소프트웨어 설치 워크플로우를 따르십시오.
 
-[cols="2,9,9,9"]
-|===
+[role="quick-margin-para"]
+** 클러스터 스위치**
 
-
- a| 
- a| 
-.클러스터 스위치
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-software-overview-bes53248.html["BES-53248 스위치용 소프트웨어를 설치합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-software-overview-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치용 소프트웨어를 설치합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-software-overview-sn2100-cluster.html["NVIDIA SN2100 스위치용 소프트웨어를 설치합니다"]
 
- a| 
-.스토리지 스위치
+
+[role="quick-margin-para"]
+** 스토리지 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/configure-software-overview-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치용 소프트웨어를 설치합니다"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-software-sn2100-storage.html["NVIDIA SN2100 스위치용 소프트웨어를 설치합니다"]
 
- a| 
-.공유 스위치
+
+[role="quick-margin-para"]
+** 공유 스위치**
+
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-software-overview-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치용 소프트웨어를 설치합니다"]
 
 
-|===
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 시스템 설치를 완료합니다
 [role="quick-margin-para"]
 스위치를 구성하고 필요한 소프트웨어를 설치한 후에는 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 따라 시스템 설정을 완료하십시오. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.
 
-[cols="4,9,9,9"]
-|===
+[role="quick-margin-para"]
+** AFF 시스템**
+
+[role="quick-margin-list"]
+* https://["AFF A220"]
+* https://["AFF A250"]
+* https://["AFF A400"]
+* https://["AFF A700"]
+* https://["AFF A800"]
+* https://["AFF A900"]
 
 
- a| 
- a| 
-.AFF 시스템
-* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["AFF A220"]
-* https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html["AFF A250"]
-* https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html["AFF A400"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["AFF A700"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF A800"]
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html["AFF A900"]
+[role="quick-margin-para"]
+** AFF C 시리즈 시스템**
 
- a| 
-.AFF C 시리즈 시스템
-* https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html["AFF C190"]
-* https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html["AFF C250"]
-* https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html["AFF C400"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF C800"]
-
- a| 
-.FAS 시스템
-* https://docs.netapp.com/us-en/ontap-systems/fas500f/install-setup.html["500f로 설정합니다"]
-* https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8300"]
-* https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8700"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["FAS9000"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9500/install_setup.html["FAS9500"]
+[role="quick-margin-list"]
+* https://["AFF C190"]
+* https://["AFF C250"]
+* https://["AFF C400"]
+* https://["AFF C800"]
 
 
-|===
+[role="quick-margin-para"]
+** FAS 시스템**
+
+[role="quick-margin-list"]
+* https://["500f로 설정합니다"]
+* https://["FAS8300"]
+* https://["FAS8700"]
+* https://["FAS9000"]
+* https://["FAS9500"]
+
+
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png["7번"] ONTAP 구성을 완료합니다
 [role="quick-margin-para"]
 AFF/FAS 컨트롤러 및 스위치를 설치 및 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.
 
 [role="quick-margin-list"]
-* ONTAP 배포의 경우 를 참조하십시오 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["ONTAP를 구성합니다"].
-* MetroCluster 배포를 지원하는 ONTAP의 경우 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/["ONTAP를 사용하여 MetroCluster를 구성합니다"].
+* ONTAP 배포의 경우 를 참조하십시오 https://["ONTAP를 구성합니다"].
+* MetroCluster 배포를 지원하는 ONTAP의 경우 를 참조하십시오 https://["ONTAP를 사용하여 MetroCluster를 구성합니다"].
 

@@ -15,7 +15,7 @@ summary: 이 섹션에서는 AFF C800 시스템 설치에 대한 자세한 단�
 
 MetroCluster 구성이 있는 경우 MetroCluster 설치 콘텐츠를 사용합니다.
 
-https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"^]
+https://["MetroCluster 문서"^]
 
 
 
@@ -568,15 +568,15 @@ System Manager가 열립니다.
 +
 .. 기존 계정에 로그인하거나 계정을 만듭니다.
 +
-https://mysupport.netapp.com/site/user/registration["NetApp 지원 등록"]
+https://["NetApp 지원 등록"]
 
 .. 시스템을 등록합니다.
 +
-https://mysupport.netapp.com/site/systems/register["NetApp 제품 등록"]
+https://["NetApp 제품 등록"]
 
 .. Active IQ Config Advisor를 다운로드합니다.
 +
-https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 
 
@@ -660,15 +660,15 @@ NOTE: 주소의 형식은 +https://x.x.x.x+ 입니다.
 +
 .. 기존 계정에 로그인하거나 계정을 만듭니다.
 +
-https://mysupport.netapp.com/site/user/registration["NetApp 지원 등록"]
+https://["NetApp 지원 등록"]
 
 .. 시스템을 등록합니다.
 +
-https://mysupport.netapp.com/site/systems/register["NetApp 제품 등록"]
+https://["NetApp 제품 등록"]
 
 .. Active IQ Config Advisor를 다운로드합니다.
 +
-https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 
 

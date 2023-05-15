@@ -43,9 +43,9 @@
 
 .. 추가 시스템 상태 점검 수행:
 +
-... 모두 해결 https://activeiq.netapp.com/["Active IQ Wellness 알림 및 위험"]
-... 실행 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"]
-... 에 설명된 대로 시스템 상태를 확인합니다 https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법"]
+... 모두 해결 https://["Active IQ Wellness 알림 및 위험"]
+... 실행 https://["Active IQ Config Advisor"]
+... 에 설명된 대로 시스템 상태를 확인합니다 https://["ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법"]
 
 
 .. 유지보수 작업 생성 AutoSupport 완료 메시지:

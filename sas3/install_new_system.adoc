@@ -71,7 +71,7 @@ NOTE: 2개 이상의 스택이 있는 HA 쌍이 있는 경우, 두 번째 스택
 현재 버전의 DQP를 설치하면 시스템이 새로 검증된 디스크 드라이브를 인식하고 활용할 수 있으므로, 최신 디스크 드라이브 정보가 없는 시스템 이벤트 메시지를 방지할 수 있습니다. 또한 디스크 드라이브를 인식할 수 없으므로 디스크 파티셔닝의 가능성을 방지할 수 있습니다. 또한 DQP는 현재 디스크 드라이브 펌웨어가 아닌 경우 이를 알려줍니다.
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["NetApp 다운로드: 디스크 검증 패키지"^]
+https://["NetApp 다운로드: 디스크 검증 패키지"^]
 
 * 모범 사례는 새 시스템을 설치한 후 Config Advisor를 다운로드하여 실행하는 것입니다.
 +
@@ -84,7 +84,7 @@ SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제�
 Config Advisor를 다운로드하려면 네트워크 액세스가 필요합니다.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 
 
@@ -409,7 +409,7 @@ NOTE: 시스템을 부팅하기 전에 이 기회를 활용하여 케이블이 �
 SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제공된 수정 조치를 따르십시오.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://["NetApp 다운로드: Config Advisor"]
 
 +
 또한 'storage shelf show-fields shelf-id' 명령을 실행하여 시스템에 이미 사용 중인(있는 경우 중복) 쉘프 ID 목록을 볼 수 있습니다.

@@ -16,14 +16,14 @@ summary: 전원이 켜진 NS224 드라이브 쉘프 및 I/O가 진행 중인 동
 .시작하기 전에
 * 설치할 드라이브는 NS224 쉘프에서 지원되어야 합니다.
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+https://["NetApp Hardware Universe를 참조하십시오"^]
 
 * SED 인증이 활성화된 경우 ONTAP 설명서의 SED 교체 지침을 사용해야 합니다.
 +
 ONTAP 설명서의 지침은 SED를 교체하기 전과 후에 수행해야 하는 추가 단계를 설명합니다.
 
 +
-https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"^]
+https://["CLI를 통한 NetApp 암호화 개요"^]
 
 * 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오.
 * 분리하려는 드라이브가 실패했는지 확인합니다.
@@ -42,14 +42,14 @@ NOTE: 드라이브 유형 및 용량에 따라 장애가 발생한 드라이브 
 현재 버전의 DQP를 설치하면 시스템이 새로 인증된 드라이브를 인식하고 사용할 수 있습니다. 이렇게 하면 드라이브가 인식되지 않으므로 최신 드라이브 정보가 없는 경우 및 드라이브 파티셔닝 예방에 대한 시스템 이벤트 메시지가 표시되지 않습니다. 또한 DQP는 최신 버전이 아닌 드라이브 펌웨어에 대해서도 알려줍니다.
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["NetApp 다운로드: 디스크 검증 패키지"^]
+https://["NetApp 다운로드: 디스크 검증 패키지"^]
 
 * * 모범 사례: * FRU 구성 요소를 교체하기 전에 시스템에 최신 버전의 NVMe 쉘프 모듈(NSM) 펌웨어 및 드라이브 펌웨어를 사용하는 것이 가장 좋습니다.
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"^]
+https://["NetApp 다운로드: 디스크 쉘프 펌웨어"^]
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"^]
+https://["NetApp 다운로드: 디스크 드라이브 펌웨어"^]
 
 +
 [NOTE]
@@ -71,7 +71,7 @@ NOTE: 드라이브 펌웨어 검사는 2분마다 수행됩니다.
 
 * 교체 드라이브의 포장을 풀 때 오류가 발생한 드라이브를 반품할 때 사용할 포장재를 모두 보관하십시오.
 +
-교체 절차에 대한 RMA 번호 또는 추가 도움이 필요한 경우, 에서 기술 지원 팀에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양).
+교체 절차에 대한 RMA 번호 또는 추가 도움이 필요한 경우, 에서 기술 지원 팀에 문의하십시오 https://["NetApp 지원"^], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양).
 
 * 다음 애니메이션은 드라이브 핫 스왑 절차의 물리적 분리 및 삽입 부분을 간략하게 보여 줍니다.
 +
