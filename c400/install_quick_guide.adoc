@@ -15,4 +15,4 @@ summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-link:../media/PDF/March_2023_Rev1_AFFC400_ISI.pdf["AFF C400 설치 및 설정 지침"^]
+link:../media/PDF/March_2023_Rev1_AFFC400_ISI_IEOPS-1015.pdf["AFF C400 설치 및 설정 지침"^]

@@ -328,7 +328,6 @@
   <block id="4ee2fc05d2faa1f333113817a90809f4" category="summary">이 섹션에서는 AFF C190 시스템을 설치하는 방법에 대한 자세한 단계별 지침을 제공합니다.</block>
   <block id="25cf65ddd80144b70d3dac5fc3efd292" category="doc">자세한 단계 - AFF C190</block>
   <block id="a244d5252d50aa9b9cb10de76b91dcf2" category="section-title">1단계: 설치 준비</block>
-  <block id="537180ccf440446ad8816ed356c6cee9" category="paragraph">AFF C190 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="e5e09031843479ef9ef8cbbd4c2f404c" category="inline-link-macro">NetApp Hardware Universe를 참조하십시오</block>
   <block id="94c14a3a3429ee874d19f598eabeb841" category="inline-link-macro">사용 중인 ONTAP 버전에 대한 릴리즈 노트</block>
   <block id="3ad26beab00b6ba09b9cf5af096d7c99" category="paragraph">에 대한 액세스 권한이 있어야 합니다 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> (HWU) - 사이트 요구사항에 대한 정보 및 구성된 시스템에 대한 추가 정보 에 대한 액세스 권한을 가질 수도 있습니다 <block ref="515d1814cb0f36c56a64a6574d93c9df" category="inline-link-macro-rx"></block> 이 시스템에 대한 자세한 내용은 를 참조하십시오.</block>
@@ -392,14 +391,11 @@
   <block id="d8f1926eaea2f861c4642d7c0de8a8ca" category="list-text">시스템 전면에 베젤을 부착합니다.</block>
   <block id="76f8ab3a142a0ed066c38221ca4e605f" category="section-title">3단계: 컨트롤러를 네트워크에 케이블로 연결합니다</block>
   <block id="c08fb1bb0bc06fd60fcf8dd51de5f2ee" category="paragraph">스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.</block>
-  <block id="bb4dc882830ed15ff271077443be872e" category="section-title">옵션 1: 스위치가 없는 2노드 클러스터 및 유니파이드 구성을 연결합니다</block>
-  <block id="b2566b1f021e42ed3c97e4c8d5548f0d" category="paragraph">컨트롤러 모듈의 UTA2 포트 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.</block>
   <block id="9c5bcb67e10ffb465deabdb27ded4b10" category="paragraph">시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.</block>
   <block id="f27acca0ae6d65e7323b16e8fd4c8c55" category="paragraph">그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.</block>
   <block id="7540cda30776c310e4b86b624032cea1" category="image-alt">OIE 케이블 당김 탭을 아래로 내립니다</block>
   <block id="1ec9fa42251d8d9889cd15b2ab11e819" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.</block>
   <block id="fcca883f68c4e92b98d0f294614cda60" category="admonition">광 스위치에 연결하는 경우 포트에 케이블을 연결하기 전에 컨트롤러 포트에 SFP를 삽입합니다.</block>
-  <block id="099a72df2bea2f81469ee9e97fc608df" category="list-text">그림 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간 케이블 연결을 완료합니다.</block>
   <block id="73da34bccb5db786798534ea5b6eb1d6" category="image-alt">drw C190 tnsc 통합 네트워크 케이블 애니메이션 gif</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="cell">단계</block>
   <block id="3f4a7771ab61ac16b156190d458da251" category="cell">각 컨트롤러에서 수행합니다</block>
@@ -408,7 +404,6 @@
   <block id="4f6495d505dded911984524478da41af" category="list-text">e0a ~ e0a</block>
   <block id="e264767a0a11b7a11be0a5345921827e" category="list-text">e0b ~ e0b<block ref="9a0e89c71564aa69ffecf67eb610bc96" category="inline-image-macro-rx" type="image"></block></block>
   <block id="381afd3fb13a052283be8343171ab050" category="paragraph"><block ref="381afd3fb13a052283be8343171ab050" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ed1027d1da4974a15118c7e8afd7bd8" category="paragraph">다음 케이블 유형 중 하나를 사용하여 e0c/0c 및 e0d/0d * 또는 * e0e/0e 및 e0f/0f 데이터 포트를 호스트 네트워크에 연결합니다.</block>
   <block id="519c55b1abbe70db981fa64fb386a258" category="paragraph"><block ref="519c55b1abbe70db981fa64fb386a258" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5defeb12e66d13c969cbb3bb31457701" category="paragraph"><block ref="5defeb12e66d13c969cbb3bb31457701" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0a9eb11c9962c2eb967f53a4845bf1a" category="paragraph">RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.</block>
@@ -417,24 +412,15 @@
   <block id="2cd55300ec4cb3223c5bc06b35b221bc" category="paragraph">이때 전원 코드를 꽂지 마십시오.</block>
   <block id="f2371181894421446afe16fe1e5da25b" category="inline-link-macro">4단계: 시스템 설치 및 구성을 완료합니다</block>
   <block id="9bb6dc35b9c3cfb584e92ef6bf229185" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="b9ddf35bfac2437b7499c5c6e18fd46e" category="inline-link-macro-rx"></block>.</block>
-  <block id="c173bd77464f3b04c0d7c6e0a540f514" category="section-title">옵션 2: 케이블 스위치 클러스터, 유니파이드 구성</block>
-  <block id="0e8ca1ea3d276eefedced94f4d995872" category="paragraph">컨트롤러 모듈의 UTA2 포트 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 클러스터 인터커넥트 스위치에 케이블로 연결됩니다.</block>
-  <block id="5142e76828492b8472d310125f7bdc52" category="list-text">그림 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료합니다.</block>
   <block id="d7d7ce9a70c375da7dd9edb7b21a9134" category="image-alt">drw C190 스위치 통합 네트워크 케이블 애니메이션 gif</block>
   <block id="e19d235ecefc26b5aac95b096a664ec6" category="cell">각 컨트롤러 모듈에서 수행합니다</block>
   <block id="81b22135a51aae23b34a49fb4dc95ad2" category="paragraph">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 스위치에 e0a 및 e0b 케이블 연결:</block>
   <block id="cdb6f4b16ce28508dd90ea2ebac10c11" category="paragraph"><block ref="cdb6f4b16ce28508dd90ea2ebac10c11" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="61f1c61b5feaeb89fc7d9cba126122c7" category="section-title">옵션 3: 스위치가 없는 2노드 클러스터, 이더넷 구성을 케이블로 연결합니다</block>
-  <block id="7964bdbe798b1e42df1039eee0ed4b7f" category="paragraph">컨트롤러 모듈의 RJ45 포트 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.</block>
   <block id="0df32eef6f99f6d05877f5da86a45063" category="image-alt">drw C190 tnsc 이더넷 네트워크 케이블 애니메이션 gif</block>
-  <block id="b96881a043916feb6b04e9d9d0e20a7f" category="paragraph">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트를 서로 케이블로 연결합니다 <block ref="6b6a40b68f5814cad1750bfff7e3b927" category="inline-image-macro-rx" type="image"></block>:</block>
   <block id="fb201d3291ef220a70a2ca2508729abe" category="list-text">e0b ~ e0b<block ref="89b350cdba7fe4fe6fc5044b1844ae20" category="inline-image-macro-rx" type="image"></block></block>
   <block id="836e597d16643401627d14a351ba6a9c" category="paragraph">Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.</block>
   <block id="97fa7018860cc17c4006609d9662603b" category="paragraph"><block ref="97fa7018860cc17c4006609d9662603b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f4d46ae73f467f92c060779d91e706f5" category="paragraph">RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다 <block ref="af9561bb1d24f4c26f5879aaf09a1c65" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="98fba69d64d87a6163f05e51141bb98d" category="paragraph"><block ref="98fba69d64d87a6163f05e51141bb98d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0a9b2befdc7da9bfc8df73a2b240fae8" category="section-title">옵션 4: 스위치 클러스터 케이블 연결, 이더넷 구성</block>
-  <block id="165f152c925d401aec3bdff9aed4cf96" category="paragraph">컨트롤러 모듈의 RJ45 포트 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 클러스터 인터커넥트 스위치에 케이블로 연결됩니다.</block>
   <block id="ac3d560a40b4d6d28fac097677ecaa8d" category="image-alt">drw C190 스위치 이더넷 네트워크 케이블 애니메이션</block>
   <block id="3c6b5500a384efa581b62d9c5f18e0b2" category="paragraph"><block ref="3c6b5500a384efa581b62d9c5f18e0b2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ca6a767f42962c9e0a0d4a74740024b9" category="paragraph">스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료합니다.</block>
@@ -4171,7 +4157,6 @@
   <block id="43ed6adb7e19c956b260008f811b5750" category="list-text">교체용 DIMM을 슬롯에 똑바로 삽입합니다.</block>
   <block id="dd33af940cfd986282d97dc9269783a9" category="summary">전원 공급 장치를 교체하려면 전원에서 대상 전원 공급 장치 \(PSU\)를 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 다시 전원에 연결해야 합니다.</block>
   <block id="b122a7303b98280f8acc1bef20b1890d" category="doc">전원 공급 장치 교체 - AFF A250</block>
-  <block id="7f078b87c94f86a68825895095430993" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 전원 공급 장치를 교체합니다.</block>
   <block id="1f684a558f672dca1e5cd104fa082470" category="doc">전체 시스템 복원 - AFF A250</block>
   <block id="d23cbe6becf6b71df8e4c820a09aed00" category="doc">부팅 미디어(AFF A250)를 교체합니다</block>
   <block id="d3756853c8e6da5920108eeb1441fe5d" category="paragraph">부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다.</block>
@@ -7075,7 +7060,6 @@
   <block id="e968d995195c5befd8e63072a29d7a87" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="7bcaada228bfef0bb9707c307be17530" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="b32a57c06a6b6572f324185a0b81d90c" category="paragraph"><block ref="b32a57c06a6b6572f324185a0b81d90c" category="inline-link-macro-rx"></block></block>
   <block id="0acd1668055811ba455a173f5b2007e1" category="inline-link-macro">AFF C190 설치 및 설정 지침</block>
-  <block id="78986e3198e620c9a4397bd93b083e68" category="paragraph">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="3eed3afb9edbfbab44cea22e18033b51" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="0112dd8e71f10fe869246a29836663d8" category="inline-link-macro">AFF A320 설치 및 설정 지침</block>
   <block id="70a2087c6fb473305a0e232844fd565f" category="paragraph"><block ref="70a2087c6fb473305a0e232844fd565f" category="inline-link-macro-rx"></block></block>
   <block id="8db94eb390aaecb9128a260b00e455e8" category="paragraph"><block ref="8db94eb390aaecb9128a260b00e455e8" category="inline-link-macro-rx"></block></block>
@@ -7258,7 +7242,6 @@
   <block id="49c230c702ed6b30a6efde8eba87e563" category="doc">장애가 발생한 부품을 NetApp-AFF A150으로 되돌립니다</block>
   <block id="3dfa4c8dc7083d8d9bf2fb1fc402660a" category="doc">요약 설명서 - AFF A150</block>
   <block id="6e0311a42e114c05c9779f6c830f1d97" category="inline-link-macro">AFF A150 시스템 설치 및 설정 지침</block>
-  <block id="2e869cac122e3063f7b418f03cb3fa26" category="paragraph"><block ref="2e869cac122e3063f7b418f03cb3fa26" category="inline-link-macro-rx"></block></block>
   <block id="b80ee1e7ed290f304dbaae444297a4fa" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF A150</block>
   <block id="e822ef8c7b4b17d3230b125760d56e76" category="doc">시스템 구성을 복원 및 확인합니다 - AFF A150</block>
   <block id="178a6a7a54abe615089fef92a8499c05" category="doc">복구 이미지 AFF A150을 부팅합니다</block>
@@ -7272,13 +7255,7 @@
   <block id="9b6f6ecb6633d22a67cc6a982fc55841" category="paragraph">MetroCluster 구성이 있는 경우 MetroCluster 설치 콘텐츠를 사용합니다.</block>
   <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link">MetroCluster 문서</block>
   <block id="c56326d51fd75802f2144766bd1e36d3" category="paragraph"><block ref="c56326d51fd75802f2144766bd1e36d3" category="inline-link-rx"></block></block>
-  <block id="11f6227d0571f4bf3fac6b6d821a60d1" category="paragraph">AFF A150 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
-  <block id="dd1dcd1cd7a28bbfc3b5a581b055bce3" category="inline-link-macro">드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
-  <block id="6c9cda13d9d7d9f8f82d912175e78d9b" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="42bf816180738dc1660363ee044d9786" category="inline-link-macro-rx"></block></block>
   <block id="ee44682d06dd8612d09f370d6f80069a" category="image-alt">drw a150 ha 저장 케이블 IEOPS 1032</block>
-  <block id="a1770e5cf644990212f313f91eccb2d8" category="paragraph"><block ref="a1770e5cf644990212f313f91eccb2d8" category="inline-link-macro-rx"></block></block>
-  <block id="4402c8b8d6c489ed5617a151ffa90726" category="inline-link-macro">시스템 설치 및 구성을 완료합니다</block>
-  <block id="41e876cad607f9363190645026f4f818" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="cf51f79f23f70e62c97013df347c6a0f" category="inline-link-macro-rx"></block></block>
   <block id="ab65dd4e976f1787737fc87ae65b8a6d" category="paragraph"><block ref="ab65dd4e976f1787737fc87ae65b8a6d" category="inline-link-rx"></block></block>
   <block id="c2df61cd54941946b9e1d41669228517" category="paragraph"><block ref="c2df61cd54941946b9e1d41669228517" category="inline-link-rx"></block></block>
   <block id="a7d0c7f24713f4f2e4432bb2b91f97d0" category="paragraph"><block ref="a7d0c7f24713f4f2e4432bb2b91f97d0" category="inline-link-rx"></block></block>
@@ -7355,7 +7332,6 @@
   <block id="4d8adba62be8512e84ae7825848692e9" category="doc">장애가 발생한 부품을 NetApp-AFF C400으로 되돌립니다</block>
   <block id="28dd2419d5232cd5e390f590d7d76b55" category="doc">요약 설명서 - AFF C400</block>
   <block id="bef061f2ba2a880a4d71960c6fb14a8f" category="inline-link-macro">AFF C400 설치 및 설정 지침</block>
-  <block id="1fb877c7c5a192a0f8712065429afd55" category="paragraph"><block ref="1fb877c7c5a192a0f8712065429afd55" category="inline-link-macro-rx"></block></block>
   <block id="dde11f85a430c37e085e56c530fa6482" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C400</block>
   <block id="a637f1b4c2a1d9b5cb9f0347c7e77539" category="doc">시스템 구성을 복원 및 확인합니다 - AFF C400</block>
   <block id="b1c4aeeae550bfbe7c6574898398d781" category="doc">NVDIMM 배터리를 교체합니다. - AFF C400</block>
@@ -7499,13 +7475,8 @@
   <block id="f0167637a350c4dd2e81ce6e691cd9db" category="list-text">핸들을 아래로 돌려 정상적인 작동 방식이 되지 않도록 합니다.</block>
   <block id="f66f18cf0f377b83882ade5b0618dbe0" category="open-title">옵션 2: DC 전원 공급 장치를 교체합니다</block>
   <block id="75a2f242d94a472d387a461ee767e00c" category="paragraph">DC 전원 공급 장치를 교체하려면 다음 단계를 수행하십시오.</block>
-  <block id="de5c94ee80b23390308831ba0a74d44b" category="paragraph">다음 단계의 그림과 표는 두 개의 나비 나사(항목 #1)와 D-SUB DC 전원 케이블 커넥터(항목 #2)를 보여줍니다.</block>
-  <block id="75b8b67557750f13b0b08808f90f76e3" category="list-text">전원 케이블 커넥터에 있는 두 개의 나비 나사를 풉니다.</block>
-  <block id="37a0782c59ce799b3f0ac9f1fd300d95" category="list-text">전원 공급 장치에서 전원 케이블 커넥터를 분리하여 따로 보관해 둡니다.</block>
   <block id="dd59df5055ae64422d06dada9ff46511" category="admonition">전원 공급 장치가 단락되었습니다. NSM 모듈에서 제거할 때는 NSM 모듈에서 스윙이 되지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.</block>
   <block id="6e496e45275d9692038e8f0693a1ec58" category="paragraph">전원 공급 장치는 내부 커넥터 및 잠금 장치와 제대로 맞물립니다. 전원 공급 장치가 제대로 장착되지 않은 경우 이 단계를 반복합니다.</block>
-  <block id="de1e769c433d3a929aaa6f6ee4b43fe2" category="list-text">전원 케이블 커넥터를 전원 공급 장치에 연결합니다.</block>
-  <block id="a637e5d063c7b8dd7bfddc7608e9573e" category="list-text">2개의 나비 나사를 조여 전원 케이블 커넥터를 전원 공급 장치에 고정합니다.</block>
   <block id="89f1a7f8afce2b821a07ad90fa45719c" category="list-text">다음 애니메이션 또는 기록된 단계를 사용하여 팬을 교체할 수 있습니다.</block>
   <block id="3b3c879ba506df7489cfabd2dcff0ce2" category="list-text">전원 코드가 AC 전원 공급 장치인 경우 전원 코드 고정 장치를 열거나 DC 전원 공급 장치인 경우 두 개의 나비 나사를 푼 다음 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
   <block id="2618c98d909106f2012ce83478a61e98" category="list-text">다음 애니메이션 또는 작성된 단계를 사용하여 NSM 모듈을 교체할 수 있습니다.</block>
@@ -7871,4 +7842,108 @@
   <block id="30975d9ae55d85636f78d9b3e459df73" category="sidebar">ASA 솔루션 개요</block>
   <block id="6c713e33f81bfdf294d75a585966fd05" category="sidebar">ASA 기술 보고서</block>
   <block id="b47e2ddbcc7bf8a413f11a740b83ad50" category="sidebar">FAS 시스템 데이터 시트</block>
+  <block id="163a2ccd4200819af22c143525c2903e" category="list-text">D-sub DC 전원 케이블 커넥터에 있는 두 개의 나비 나사를 풉니다.</block>
+  <block id="d88c630155642b1c688f5784be9a1acf" category="paragraph">4단계의 그림과 표는 두 개의 나비 나사(항목 #1)와 D-SUB DC 전원 케이블 커넥터(항목 #2)를 보여줍니다.</block>
+  <block id="3d95f3470ed102d015e07a1fbb7f7608" category="list-text">전원 공급 장치에서 D-sub DC 전원 케이블 커넥터를 분리하여 따로 보관해 둡니다.</block>
+  <block id="d28bc8f0e10f780bf01d0983424f02e4" category="list-text">D-SUB DC 전원 케이블 커넥터를 전원 공급 장치에 연결합니다.</block>
+  <block id="538209f1ec1db21a865711f12301a29e" category="list-text">2개의 나비 나사를 조여 D-sub DC 전원 케이블 커넥터를 전원 공급 장치에 고정합니다.</block>
+  <block id="29e74344b0f8f3bb2a741f7b4a504193" category="list-text">PSU는 중복되고 핫 스왑이 가능합니다.</block>
+  <block id="1510e50dd45e2c76b8244bd6a5fc56ab" category="list-text">PSU는 자동으로 범위가 조정됩니다.</block>
+  <block id="408c129c35367a646082d00e22485944" category="paragraph">다음 비디오 또는 단계를 사용하여 PSU를 교체합니다.</block>
+  <block id="96ebd81c649ce61228798b69731b39cc" category="list-text">잠금 탭을 누른 상태에서 PSU를 컨트롤러 모듈에서 잡아당길 때 사용할 수 있도록 캠 핸들을 돌립니다.</block>
+  <block id="041817816aadc0ac389510f06856eb73" category="list-text">양손으로 PSU의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 잠금 탭이 제자리에 고정될 때까지 PSU를 컨트롤러 모듈에 부드럽게 밀어 넣습니다.</block>
+  <block id="ecc8536d184ca3a7e451181d0f568d41" category="paragraph">PSU는 내부 커넥터에만 제대로 연결되어 한 방향으로만 제자리에 고정됩니다.</block>
+  <block id="7d710ae6fae5f82131f5e646788f27a1" category="list-text">PSU에서 D-SUB DC 전원 케이블 커넥터를 분리하여 따로 보관해 둡니다.</block>
+  <block id="26cc3f70141c5f4b4f5a7a7c52321240" category="list-text">PSU를 분리합니다.</block>
+  <block id="25b0a4705669fa58bd671a04b5e34a7f" category="list-text">다른 손으로 무게를 지탱하면서 컨트롤러 모듈에서 PSU를 꺼냅니다.</block>
+  <block id="0d8f690f8863cf6dd078f46fd151cce4" category="admonition">PSU가 짧습니다. 컨트롤러 모듈에서 분리할 때 컨트롤러 모듈에서 스윙되지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.</block>
+  <block id="8e7311e4f3b2e71464aaa1fa66388a4b" category="paragraph">PSU 손잡이</block>
+  <block id="6aaf2adda7ea3fae24f9570eb951048f" category="list-text">교체용 PSU를 설치합니다.</block>
+  <block id="b323fb6f842e16e2eb1c10951fffbf3e" category="list-text">잠금 장치가 딸깍 소리를 내며 제자리에 고정될 때까지 PSU를 컨트롤러 모듈에 조심스럽게 밀어 넣습니다.</block>
+  <block id="b5ecda37046d685b93693e01ecb6e6fe" category="paragraph">PSU는 내부 커넥터 및 잠금 메커니즘과 제대로 체결되어야 합니다. PSU가 제대로 장착되지 않은 경우 이 단계를 반복합니다.</block>
+  <block id="049ea4245daefe1c9ce73d6a75dfbab1" category="list-text">D-sub DC 전원 케이블 커넥터를 PSU에 꽂습니다.</block>
+  <block id="71c2f9602a7f71f9eab2a859d2e0f4ae" category="list-text">2개의 나비 나사를 조여 D-sub DC 전원 케이블 커넥터를 PSU에 고정합니다.</block>
+  <block id="05a183c8bc1fc9522f554a0dcc45645f" category="paragraph">랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.</block>
+  <block id="7877fbd25ecba999ab0a739fe29df547" category="paragraph">** AFF A 시리즈 시스템**</block>
+  <block id="999865050c05a9851fa1100ea708f735" category="paragraph">** AFF C 시리즈 시스템**</block>
+  <block id="fb4b827f429720ceefe590267f9978cf" category="paragraph">** FAS 시스템**</block>
+  <block id="6eeacbfb54f0dd2b69ca25ccf7e621e3" category="paragraph">** 클러스터 스위치**</block>
+  <block id="05d287d05ed5025354b8f6c796c87491" category="paragraph">** 스토리지 스위치**</block>
+  <block id="aca0ddc3769e84e478caff604ad14594" category="paragraph">** 공유 스위치**</block>
+  <block id="4f4f401ca3cb71c1eacaf052eac321fb" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 스위치를 컨트롤러에 케이블로 연결합니다</block>
+  <block id="93a86d433d6f98e9a80d74b972237ee6" category="paragraph">** AFF 시스템**</block>
+  <block id="1688757a0e4a29ec41d21e63fcc98a90" category="paragraph">AFF C190 시스템을 설치하려면 계정을 만들고 시스템을 등록하십시오. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="39bbc5176cba797f24070d78f90d0d5a" category="list-text">에 액세스할 수 있는지 확인하십시오 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> (HWU) - 사이트 요구사항에 대한 정보 및 구성된 시스템에 대한 추가 정보</block>
+  <block id="5dd03e8d039863e563e049be198c3fd3" category="inline-link-macro">릴리즈 노트</block>
+  <block id="09e00942626b9d2b5187768ea624369a" category="list-text">에 대한 액세스 권한이 있는지 확인합니다 <block ref="9d7659179eb5b5c244263cabf30336a7" category="inline-link-macro-rx"></block> 해당 버전의 ONTAP에서 이 시스템에 대한 자세한 내용을 확인하십시오.</block>
+  <block id="841cf46b69a4b2c782c980b795074554" category="list-text">사이트에 다음 항목이 있는지 확인합니다.</block>
+  <block id="85220111cf8764a6d5eefe427de4fbde" category="paragraph">필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치합니다.</block>
+  <block id="1ccb5aa93b58b2e0cbfd6015e33c6a90" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
+  <block id="22cf31ea4e88d1269c525c08a9c8fdff" category="paragraph">UTA2 포트, 이더넷 데이터 네트워크 및 컨트롤러 모듈의 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.</block>
+  <block id="434c44657e12928e06a65124dfb073b0" category="paragraph">스위치가 없는 2노드 클러스터를 케이블로 연결하는 방법에 대해 알아보십시오.</block>
+  <block id="f7284f28e338cb3e10e42e8214151229" category="paragraph">UTA2 데이터 네트워크 포트 또는 이더넷 데이터 네트워크 포트를 사용하여 컨트롤러를 호스트 네트워크에 연결할 수 있습니다. 컨트롤러와 스위치 간에 케이블을 연결할 때는 다음 케이블 연결 그림을 참조하십시오.</block>
+  <block id="48114454330840b73674b4d456819a4e" category="list-text">UTA2 데이터 네트워크 구성</block>
+  <block id="e6746873d55c9a028bc3eae1ed6cd0db" category="list-text">이더넷 네트워크 구성</block>
+  <block id="f9655777cbdbded95ebaf4fdc1ed1c83" category="paragraph">각 컨트롤러 모듈에 대해 다음 단계를 수행하십시오.</block>
+  <block id="4b7d254b4cff665eba8f89aeb96e16cb" category="list-text">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0a~e0a 및 e0b~e0b에 케이블을 연결합니다. 를 누릅니다<block ref="9a0e89c71564aa69ffecf67eb610bc96" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
+  <block id="54254076225178d5782bc5158de2ffd3" category="list-text">다음 케이블 유형 중 하나를 사용하여 e0c/0c 및 e0d/0d 또는 e0e/0e 및 e0f/0f 데이터 포트를 호스트 네트워크에 연결합니다.</block>
+  <block id="43083753a8bd4d126f4e9d226b24d42f" category="list-text">Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다. 다음 그림을 참조하십시오.</block>
+  <block id="5cb31a934f99a854350d21ffae22067d" category="paragraph">스위치 클러스터 케이블 연결 방법에 대해 알아보십시오.</block>
+  <block id="3c82d1b8b75fddcd5945e9505cb93e2a" category="list-text">통합 네트워크 구성</block>
+  <block id="98632dc1c45ca0b18d4707328081c4e1" category="list-text">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 스위치에 e0a 및 e0b 케이블 연결</block>
+  <block id="119bf83fa4465fb53f4c1cb409fbd677" category="list-text">Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.</block>
+  <block id="94ba17d1769cd415862a18057c1938b2" category="section-title">4단계: 시스템 설치를 완료합니다</block>
+  <block id="0b6ed16c1f9d9e2458c0f6738eb93288" category="paragraph">랩톱에서 네트워크 검색을 활성화한 경우 시스템 설치 프로그램을 완료하는 방법에 대해 알아봅니다.</block>
+  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link-macro">ONTAP 설명서</block>
+  <block id="fd69b335d8c511a8e881204822f8b6ef" category="list-text">초기 구성을 완료한 후 로 이동합니다 <block ref="a3e81585099d58285005c3431d208fd9" category="inline-link-macro-rx"></block> ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.</block>
+  <block id="b06876b5a3b23ef5cff05f5d0950ec0d" category="paragraph">랩톱에서 네트워크 검색이 활성화되지 않은 경우 시스템 설정을 완료하는 방법에 대해 알아봅니다.</block>
+  <block id="a76d705a87cd7b7a1bea352a13c6cd65" category="inline-link-macro">ONTAP 및 amp; 문서</block>
+  <block id="0c629d7be969a0c3ffa913473ff37b4b" category="list-text">초기 구성을 완료한 후 로 이동합니다 <block ref="be5377ebec3eac0b9e77b9246477ddd0" category="inline-link-macro-rx"></block> ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.</block>
+  <block id="02b3fd979029ff021f281b78fa7ccd20" category="paragraph">랙 설치 및 케이블 연결부터 초기 시스템 시작까지 C190 시스템을 설치하는 방법에 대해 알아보십시오. 를 사용합니다 <block ref="3eed3afb9edbfbab44cea22e18033b51" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="1d4ac53db25f608efca8dafa3f3d6b43" category="paragraph">다음 비디오를 사용하여 시스템을 랙에 설치하고 케이블을 연결하고 초기 시스템 구성을 수행하는 방법을 알아보십시오.</block>
+  <block id="95a15694e7d6d23376f741970900ef8e" category="list-text">하드웨어 설치 및 케이블 연결</block>
+  <block id="4657c74c0fa17e5f15e4a506f177b913" category="paragraph">다음 비디오는 시스템 설치 및 케이블 연결 방법을 보여줍니다.</block>
+  <block id="d4b6f94dadb3f20b9bf031b9b9983ce3" category="list-text">엔드 투 엔드 소프트웨어 구성</block>
+  <block id="314f8c912a6741218e22dc8ca5f7ee41" category="paragraph">AFF A150 시스템 설치 방법을 알아보십시오.</block>
+  <block id="119be031ef4485d20c7683d291d0e9f6" category="inline-link">MetroCluster 설명서</block>
+  <block id="bfd53ea423739db497251aa14d8747cd" category="paragraph">MetroCluster 구성이 있는 경우 를 사용합니다<block ref="9b888d0bb3e87322cc68a0bb4a7ae515" category="inline-link-rx"></block>.</block>
+  <block id="f6387b34fb856500ccda4acb52336ff7" category="paragraph">AFF A150 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 받으십시오. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="5d0ff6a06bf967bf825de2c2a610cc33" category="list-text">시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.</block>
+  <block id="bcce32e97ae0002c4edc1cc8b9245285" category="inline-link">시스템을 등록합니다</block>
+  <block id="1e074148aea327f834455c1f6ae99894" category="list-text"><block ref="2539e9179736696f68f1ba88f3812383" category="inline-link-rx"></block>.</block>
+  <block id="f9be17421d77a57baae245776004d9fc" category="inline-link">Config Advisor</block>
+  <block id="2e1859a63c8f237167580360c7882aca" category="list-text">다운로드 및 설치<block ref="56697f7f340a212f549439c89b0cabd2" category="inline-link-rx"></block> 노트북으로.</block>
+  <block id="a025f9bb5b185f275f929e4e427c7a26" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
+  <block id="e881b3bd9e158bdbe75952ecb742a95f" category="inline-link">클러스터 구성 워크시트를 다운로드하고 작성합니다</block>
+  <block id="738f95af1a0163cf0e1c5931095ae65f" category="list-text"><block ref="d3aebb99b149a14152b68ab3bc13a233" category="inline-link-rx"></block>.</block>
+  <block id="767d56519e2665f49f35713c1a1be451" category="section-title">3단계: 컨트롤러를 네트워크에 케이블로 연결합니다</block>
+  <block id="32eaf8761a3db861b1156e2738e758c1" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
+  <block id="3760d11ceaf4a0fe32d1665068e04673" category="paragraph">컨트롤러의 관리 네트워크, UTA2 데이터 네트워크, 이더넷 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러에 케이블로 연결됩니다.</block>
+  <block id="6daf690bb435e2ddca90bbd25f4d0d4c" category="list-text">UTA2 데이터 포트를 호스트 네트워크에 케이블로 연결하려면 다음 케이블 유형 중 하나를 사용하십시오.</block>
+  <block id="afb6c834a58331c6ea63436bbf5864c3" category="list-text">FC 호스트의 경우 0c 및 0d * 또는 * 0e 및 0f를 사용하십시오.</block>
+  <block id="0bd1e8e50111e01ba1604ade94902cca" category="list-text">10GbE 시스템의 경우 e0c 및 e0d * 또는 * e0e 및 e0f 를 사용합니다.</block>
+  <block id="1fc58e4765d0d92d238af8bdfc3ab370" category="list-text">통합 네트워크 케이블 연결</block>
+  <block id="b7f69837ac40254faa2741b926641a85" category="list-text">이더넷 네트워크 케이블 연결</block>
+  <block id="d121c2dd9af112004d29375d7d7385ba" category="list-text">각 컨트롤러 모듈에 대해 클러스터 인터커넥트 케이블을 사용하여 e0a 및 e0b 케이블 연결 스위치에 대해 e0a 및 e0b 케이블을 연결합니다.</block>
+  <block id="32f4bb165c35f300da46d2891dcd4591" category="list-text">FC 호스트의 경우 0c 및 0d** 또는** 0e 및 0f를 사용합니다.</block>
+  <block id="94a602afccb4ec515036eba24fdfed92" category="list-text">10GbE 시스템의 경우 e0c 및 e0d ** 또는 ** e0e 및 e0f 를 사용합니다.</block>
+  <block id="711382b326731ba29a44a7ecd4dacb3e" category="paragraph">온보드 스토리지 포트를 사용하여 컨트롤러를 쉘프에 연결합니다. 외부 스토리지가 있는 시스템의 경우 MP-HA 케이블 연결을 사용하는 것이 좋습니다.</block>
+  <block id="0c8480de057f1244b5ab346faf4daf5d" category="paragraph">SAS 테이프 드라이브가 있는 경우 단일 경로 케이블을 사용할 수 있습니다. 외부 쉘프가 없는 경우, SAS 케이블을 시스템과 함께 주문한 경우 내부 드라이브에 대한 MP-HA 케이블 연결은 선택 사항(표시되지 않음)입니다.</block>
+  <block id="3d8bab9b47da70efbcdca04a75fddf8e" category="list-text">HA Pair를 외부 드라이브 쉘프에 연결합니다.</block>
+  <block id="f2f386197bbf8899460af5987fca456d" category="paragraph">다음 예제는 DS224C 드라이브 쉘프의 케이블 연결을 보여줍니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다.</block>
+  <block id="1d775c632fba61d3af79e48b275d4b7e" category="paragraph">드라이브 쉘프 스택이 두 개 이상인 경우, 를 참조하십시오 <block ref="a1770e5cf644990212f313f91eccb2d8" category="inline-link-macro-rx"></block> 드라이브 쉘프 유형</block>
+  <block id="624bc3e7c8eadd32ac4d94ff03171ec7" category="section-title">5단계: 시스템 설치를 완료합니다</block>
+  <block id="60567d4e2a479c00e2c6513bd91d9cd1" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="492b1b89e16fbed782c0f28e34fb9371" category="inline-link-rx"></block>.</block>
+  <block id="23dc4039b6ba90f63944cca90e993ec5" category="inline-link">기존 계정 또는 생성 및 계정</block>
+  <block id="21371189181c93bc505633f5bb1729ea" category="list-text">에 로그인합니다<block ref="87e6dd8e4f31a1e4060528f9a17ea003" category="inline-link-rx"></block>.</block>
+  <block id="0ba7583639a274c434bbe6ef797115a4" category="inline-link">등록</block>
+  <block id="d8f675889dd7611add24a5c35dbe0287" category="list-text"><block ref="dd5351a0b089c34796a2c16f455a15ef" category="inline-link-rx"></block> 시스템.</block>
+  <block id="a70e700572fd5f3ed169ddc6b2f5473e" category="list-text">다운로드<block ref="4dfdca8e27abd55d1321fd9c213c69c3" category="inline-link-rx"></block>.</block>
+  <block id="b0ebe1326fcf7880c70950de144bb8b2" category="list-text">초기 구성을 완료한 후 로 이동합니다<block ref="85236f9c87441cb975667a870e3c5acc" category="inline-link-rx"></block> ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.</block>
+  <block id="cdc4a8392b31dfb0d6f525f8b4bfb521" category="list-text">노트북 또는 콘솔에 케이블을 연결하고 구성합니다.</block>
+  <block id="f0e48b1c6152b408e3a17383284dfa34" category="paragraph">콘솔 포트를 구성하는 방법에 대한 지침은 랩톱 또는 콘솔의 온라인 도움말을 참조하십시오.</block>
+  <block id="6266bb335022aad7813f5a92f40c41bb" category="list-text">랩톱 또는 콘솔에서 System Manager를 사용하여 클러스터를 구성합니다.</block>
+  <block id="b1e0a8fb86dde21901d58064a47983ae" category="paragraph">초기 시스템 설치 과정을 통해 랙 설치 및 케이블 연결에서부터 시스템을 설치하는 방법에 대해 알아보십시오. 사용 <block ref="2e869cac122e3063f7b418f03cb3fa26" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="78504a496ba3e0d8a682fe929b4d61d9" category="paragraph"><block ref="78504a496ba3e0d8a682fe929b4d61d9" category="inline-link-macro-rx"></block></block>
 </blocks>
