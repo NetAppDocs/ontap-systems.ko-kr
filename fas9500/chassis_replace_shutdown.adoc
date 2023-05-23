@@ -13,7 +13,7 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 == 손상된 컨트롤러 종료 - FAS9500
 
 [role="lead"]
-이 절차는 2-노드, 비-MetroCluster 구성에 한해서만 적용됩니다. 두 개 이상의 노드가 있는 시스템의 경우 를 참조하십시오 https://["4노드 클러스터에서 1개의 HA 쌍을 정상 종료하여 전원을 켜는 방법"^].
+이 절차는 2-노드, 비-MetroCluster 구성에 한해서만 적용됩니다. 두 개 이상의 노드가 있는 시스템의 경우 를 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_perform_a_graceful_shutdown_and_power_up_of_one_HA_pair_in_a_4__node_cluster["4노드 클러스터에서 1개의 HA 쌍을 정상 종료하여 전원을 켜는 방법"^].
 
 .시작하기 전에
 필요한 사항:
@@ -27,19 +27,19 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 
 
 
-NOTE: 시스템이 FabricPool 클라우드 계층으로 사용되는 NetApp StorageGRID 또는 ONTAP S3인 경우 를 참조하십시오 https://["스토리지 시스템을 정상적으로 종료하고 전원을 켭니다 해결 설명서"] 이 절차를 수행한 후
+NOTE: 시스템이 FabricPool 클라우드 계층으로 사용되는 NetApp StorageGRID 또는 ONTAP S3인 경우 를 참조하십시오 https://kb.netapp.com/onprem/ontap/hardware/What_is_the_procedure_for_graceful_shutdown_and_power_up_of_a_storage_system_during_scheduled_power_outage#["스토리지 시스템을 정상적으로 종료하고 전원을 켭니다 해결 설명서"] 이 절차를 수행한 후
 
 
 NOTE: FlexArray 스토리지 LUN을 사용하는 경우 이 절차를 수행한 후 해당 시스템에 대해 수행할 종료 절차는 해당 공급업체의 스토리지 시스템 설명서를 참조하십시오.
 
 
-NOTE: SSD를 사용하는 경우 을 참조하십시오 https://["SU490: (영향: 위험) SSD 모범 사례: 2개월 이상 전원을 끈 경우 드라이브 고장 및 데이터 손실 위험을 피하십시오"]
+NOTE: SSD를 사용하는 경우 을 참조하십시오 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU490["SU490: (영향: 위험) SSD 모범 사례: 2개월 이상 전원을 끈 경우 드라이브 고장 및 데이터 손실 위험을 피하십시오"]
 
 시스템을 종료하기 전에 다음을 수행해야 합니다.
 
-* 추가 를 수행합니다 https://["시스템 상태 점검"].
+* 추가 를 수행합니다 https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["시스템 상태 점검"].
 * ONTAP를 시스템의 권장 릴리스로 업그레이드합니다.
-* 모두 해결 https://["Active IQ Wellness 알림 및 위험"]. 시스템 구성 요소의 LED와 같은 현재 시스템에 있는 모든 결함을 기록해 둡니다.
+* 모두 해결 https://activeiq.netapp.com/["Active IQ Wellness 알림 및 위험"]. 시스템 구성 요소의 LED와 같은 현재 시스템에 있는 모든 결함을 기록해 둡니다.
 
 
 .단계

@@ -232,7 +232,7 @@ image:../media/legend_icon_02.png[""]
 NVDIMM을 교체하려면 공기 덕트 상단의 FRU 맵 또는 슬롯 1 라이저 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 NVDIMM을 찾아야 합니다.
 
 * NVDIMM LED는 시스템을 중단할 때 내용을 디스테이징하는 동안 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.
-* NVDIMM의 콘텐츠는 암호화되지만 NVDIMM을 교체하기 전에 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오 https://["휘발성에 대한 설명"] 를 방문하십시오.
+* NVDIMM의 콘텐츠는 암호화되지만 NVDIMM을 교체하기 전에 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"] 를 방문하십시오.
 +
 
 NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Support 사이트에 로그인해야 합니다.
@@ -426,4 +426,4 @@ Remote: cluster_A configured      		normal
 == 8단계: 장애가 발생한 부품을 NetApp에 반환
 
 [role="lead"]
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

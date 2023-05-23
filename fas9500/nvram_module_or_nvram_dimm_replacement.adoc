@@ -285,7 +285,7 @@ node2             node1             -            Waiting for giveback (HA mailbo
 NOTE: 기브백이 거부되면 거부권을 재정의할 수 있습니다.
 
 +
-자세한 내용은 를 참조하십시오 https://["수동 반환 명령"^] 거부권을 무효화하기 위한 주제.
+자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/high-availability/ha_manual_giveback.html#if-giveback-is-interrupted["수동 반환 명령"^] 거부권을 무효화하기 위한 주제.
 
 .. 기브백이 완료된 후 HA 쌍이 정상 작동 중인지, 그리고 테이크오버가 가능한지, 즉 '스토리지 페일오버 표시'인지 확인합니다
 +
@@ -322,7 +322,7 @@ MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정�
 ** MetroCluster 구성이 전환 상태입니다.
 ** 교체 컨트롤러는 재해 사이트에 있는 디스크의 현재 소유자입니다.
 +
-을 참조하십시오 https://["4노드 MetroCluster 구성에서 HA 테이크오버 및 MetroCluster 스위치오버 중에 디스크 소유권이 변경됩니다"] 를 참조하십시오.
+을 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html#disk-ownership-changes-during-ha-takeover-and-metrocluster-switchover-in-a-four-node-metrocluster-configuration["4노드 MetroCluster 구성에서 HA 테이크오버 및 MetroCluster 스위치오버 중에 디스크 소유권이 변경됩니다"] 를 참조하십시오.
 
 
 
@@ -497,4 +497,4 @@ NOTE: 를 사용할 수 있습니다 `security key-manager key query -key-type N
 == 7단계: 장애가 발생한 부품을 NetApp에 반환
 
 [role="lead"]
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

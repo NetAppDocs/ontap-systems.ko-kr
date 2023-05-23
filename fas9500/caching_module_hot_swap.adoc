@@ -51,7 +51,7 @@ NVMe slot status는 교체되어야 하는 caching module에 대한 화면 출�
 
 +
 
-NOTE: 를 참조하십시오 https://["명령 man 페이지"^] 자세한 내용은 ONTAP 버전을 참조하십시오.
+NOTE: 를 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9121/["명령 man 페이지"^] 자세한 내용은 ONTAP 버전을 참조하십시오.
 
 . 캐싱 모듈을 제거합니다.
 +
@@ -118,5 +118,5 @@ The module has been successfully powered on, initialized and placed into service
 
 NOTE: 캐싱 모듈을 다른 공급업체의 캐싱 모듈로 교체하는 경우 명령 출력에 새 공급업체 이름이 표시됩니다.
 
-. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://["부품 반품 및 앰프, 교체"^] 페이지를 참조하십시오.
+. 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"^] 페이지를 참조하십시오.
 

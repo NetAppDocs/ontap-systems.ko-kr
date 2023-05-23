@@ -13,7 +13,7 @@ summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 �
 [role="lead"]
 AFF A150 시스템 설치 방법을 알아보십시오.
 
-MetroCluster 구성이 있는 경우 를 사용합니다 https://["MetroCluster 설명서"^].
+MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 설명서"^].
 
 
 
@@ -45,13 +45,13 @@ image::../media/drw_ssn_label.png[drw SSN 레이블]
 . 계정 설정:
 +
 .. 기존 계정에 로그인하거나 계정을 만듭니다.
-.. https://["시스템을 등록합니다"].
+.. https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct["시스템을 등록합니다"].
 
 
-. 다운로드 및 설치 https://["Config Advisor"] 노트북으로.
+. 다운로드 및 설치 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Config Advisor"] 노트북으로.
 . 받은 케이블의 수와 유형을 확인하고 기록합니다.
 +
-다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://["NetApp Hardware Universe를 참조하십시오"] 케이블을 찾아 사용 여부를 확인합니다.
+다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"] 케이블을 찾아 사용 여부를 확인합니다.
 
 +
 [cols="1,2,1,2"]
@@ -153,7 +153,7 @@ image:../media/oie_cable_power.png[""]
 시스템 전원을 켭니다
 
 |===
-. https://["클러스터 구성 워크시트를 다운로드하고 작성합니다"].
+. https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002["클러스터 구성 워크시트를 다운로드하고 작성합니다"].
 
 
 
@@ -433,16 +433,16 @@ System Manager가 열립니다.
 
 
 
-. 에서 수집한 데이터를 사용하여 시스템을 구성합니다 https://["ONTAP 구성 가이드 를 참조하십시오"].
+. 에서 수집한 데이터를 사용하여 시스템을 구성합니다 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"].
 . 계정 설정 및 Active IQ Config Advisor 다운로드:
 +
-.. 에 로그인합니다 https://["기존 계정 또는 생성 및 계정"].
-.. https://["등록"] 시스템.
-.. 다운로드 https://["Active IQ Config Advisor"].
+.. 에 로그인합니다 https://mysupport.netapp.com/site/user/registration["기존 계정 또는 생성 및 계정"].
+.. https://mysupport.netapp.com/site/systems/register["등록"] 시스템.
+.. 다운로드 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"].
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://["ONTAP 설명서"] ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.
+. 초기 구성을 완료한 후 로 이동합니다 https://docs.netapp.com/us-en/ontap-family/["ONTAP 설명서"] ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.
 
 
 --
@@ -512,20 +512,20 @@ NOTE: PuTTY 구성 방법을 모르는 경우 노트북 또는 콘솔의 온라�
 .. 브라우저에서 노드 관리 IP 주소를 가리킵니다.
 +
 
-NOTE: 주소의 형식은 입니다 https://[].
+NOTE: 주소의 형식은 입니다 https://x.x.x.x[].
 
-.. 에서 수집한 데이터를 사용하여 시스템을 구성합니다 https://["ONTAP 구성 가이드 를 참조하십시오"].
+.. 에서 수집한 데이터를 사용하여 시스템을 구성합니다 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"].
 
 
 . 계정 설정 및 Active IQ Config Advisor 다운로드:
 +
-.. 에 로그인합니다 https://["기존 계정 또는 생성 및 계정"].
-.. https://["등록"] 시스템.
-.. 다운로드 https://["Active IQ Config Advisor"].
+.. 에 로그인합니다 https://mysupport.netapp.com/site/user/registration["기존 계정 또는 생성 및 계정"].
+.. https://mysupport.netapp.com/site/systems/register["등록"] 시스템.
+.. 다운로드 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"].
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://["ONTAP 설명서"] ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.
+. 초기 구성을 완료한 후 로 이동합니다 https://docs.netapp.com/us-en/ontap-family/["ONTAP 설명서"] ONTAP의 추가 기능 구성에 대한 자세한 내용은 사이트를 참조하십시오.
 
 
 --

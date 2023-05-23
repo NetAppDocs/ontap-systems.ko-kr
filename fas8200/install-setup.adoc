@@ -25,6 +25,6 @@ summary: 시스템을 설치하고 설정합니다.
 
 MetroCluster 구성의 경우 다음 중 하나를 참조하십시오.
 
-* https://["MetroCluster IP 구성을 설치합니다"^]
-* https://["MetroCluster 패브릭 연결 구성을 설치합니다"^]
+* https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["MetroCluster IP 구성을 설치합니다"^]
+* https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html["MetroCluster 패브릭 연결 구성을 설치합니다"^]
 

@@ -37,7 +37,7 @@
 명령이 실패하면 NetApp Support에 문의하십시오.
 
 +
-http://["mysupport.netapp.com"]
+http://mysupport.netapp.com/["mysupport.netapp.com"]
 
 .. 모든 인증 키에 대해 'restored(복원됨)' 열에 yes(예) 가 표시되고 모든 키 관리자가 Available(사용 가능): 'Security key-manager query(보안 키 관리자 쿼리)'를 표시하는지 확인합니다
 .. 손상된 컨트롤러를 종료합니다.
@@ -59,7 +59,7 @@ http://["mysupport.netapp.com"]
 *** 키 관리자 설정 마법사 '보안 키 관리자 설정 노드 대상/손상된 노드 이름'을 실행합니다
 +
 
-NOTE: 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 에 문의하십시오 http://["mysupport.netapp.com"]
+NOTE: 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 에 문의하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"]
 
 *** 모든 인증 키에 대해 복원됨 열에 예(yes)가 표시되는지 확인합니다. 보안 키 관리자 키 show-detail입니다
 *** Advanced Privilege Mode로 이동하여 'et-priv advanced'라는 메시지가 표시되면 y를 입력합니다
@@ -92,7 +92,7 @@ NOTE: 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 
 명령이 실패하면 NetApp Support에 문의하십시오.
 
 +
-http://["mysupport.netapp.com"]
+http://mysupport.netapp.com/["mysupport.netapp.com"]
 
 .. 모든 인증 키에 대해 'restored(복원됨)' 열에 yes(예) 가 표시되고 모든 키 관리자가 Available(사용 가능): 'Security key-manager query(보안 키 관리자 쿼리)'를 표시하는지 확인합니다
 .. 손상된 컨트롤러를 종료합니다.
@@ -114,7 +114,7 @@ http://["mysupport.netapp.com"]
 *** 키 관리자 설정 마법사 '보안 키 관리자 설정 노드 대상/손상된 노드 이름'을 실행합니다
 +
 
-NOTE: 프롬프트에 고객의 OKM 암호를 입력합니다. 암호를 제공할 수 없는 경우 에 문의하십시오 http://["mysupport.netapp.com"]
+NOTE: 프롬프트에 고객의 OKM 암호를 입력합니다. 암호를 제공할 수 없는 경우 에 문의하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"]
 
 *** 모든 인증 키에 대해 복원됨 열에 예(yes)가 표시되는지 확인합니다. 보안 키 관리자 키 show-detail입니다
 *** Advanced Privilege Mode로 이동하여 'et-priv advanced'라는 메시지가 표시되면 y를 입력합니다

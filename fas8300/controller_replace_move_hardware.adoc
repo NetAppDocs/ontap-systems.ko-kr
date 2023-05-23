@@ -44,7 +44,7 @@ image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거�
 . 컨트롤러 모듈을 안정적이고 평평한 표면에 놓습니다.
 . 교체 컨트롤러 모듈에서 에어 덕트를 열고 애니메이션, 그림 또는 작성된 단계를 사용하여 컨트롤러 모듈에서 빈 라이저를 분리합니다.
 +
-https://["교체용 컨트롤러 모듈에서 빈 라이저를 분리합니다"]
+https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=49053752-e813-4c15-a917-ab190147fa6e["교체용 컨트롤러 모듈에서 빈 라이저를 분리합니다"]
 
 
 

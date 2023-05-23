@@ -21,9 +21,9 @@ FAS2700 또는 AFF A220 시스템을 설치하려면 NetApp Support 사이트에
 
 사이트 요구 사항에 대한 정보와 구성된 시스템에 대한 추가 정보를 보려면 Hardware Universe에 액세스할 수 있어야 합니다. 이 시스템에 대한 자세한 내용은 사용 중인 ONTAP 버전의 릴리즈 노트에 액세스할 수도 있습니다.
 
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
-http://["사용 중인 ONTAP 9 버전에 대한 릴리즈 노트를 참조하십시오"]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 9 버전에 대한 릴리즈 노트를 참조하십시오"]
 
 사이트에서 다음을 제공해야 합니다.
 
@@ -44,20 +44,20 @@ image::../media/drw_ssn_label.png[drw SSN 레이블]
 .. 기존 계정에 로그인하거나 계정을 만듭니다.
 .. 시스템을 등록합니다.
 +
-https://["NetApp 제품 등록"]
+https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct["NetApp 제품 등록"]
 
 
 
 . 랩톱에 Config Advisor를 다운로드하고 설치합니다.
 +
-https://["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
 
 . 받은 케이블의 수와 유형을 확인하고 기록합니다.
 +
 다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 Hardware Universe를 참조하여 케이블을 찾고 해당 케이블의 사용 여부를 확인하십시오.
 
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 +
 [cols="1,2,1,2"]
@@ -161,7 +161,7 @@ image:../media/oie_cable_power.png[""]
 |===
 . 클러스터 구성 워크시트 _ 을(를) 다운로드하고 완료합니다.
 +
-https://["클러스터 구성 워크시트"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002["클러스터 구성 워크시트"]
 
 
 
@@ -601,10 +601,10 @@ System Manager가 열립니다.
 
 . System Manager의 안내에 따라 setup을 사용하여 _NetApp ONTAP 구성 가이드_에서 수집한 데이터를 사용하여 시스템을 구성하십시오.
 +
-https://["ONTAP 구성 가이드 를 참조하십시오"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"]
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 
 
 
@@ -676,14 +676,14 @@ NOTE: PuTTY 구성 방법을 모르는 경우 노트북 또는 콘솔의 온라�
 .. 브라우저에서 노드 관리 IP 주소를 가리킵니다.
 +
 
-NOTE: 주소의 형식은 입니다 https://[].
+NOTE: 주소의 형식은 입니다 https://x.x.x.x[].
 
 .. NetApp ONTAP 구성 가이드 _ 에서 수집한 데이터를 사용하여 시스템을 구성합니다.
 +
-https://["ONTAP 구성 가이드 를 참조하십시오"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"]
 
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 

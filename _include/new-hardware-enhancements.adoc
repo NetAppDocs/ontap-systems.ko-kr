@@ -6,7 +6,7 @@ ONTAP 9.8에서는 자동 포트 배치 기능이 도입되어 하드웨어 업�
 
 사용 가능한 업그레이드 절차를 보려면 다음 표를 검토하십시오. 절차가 적절한지 판단하기 위한 자세한 내용은 각 가이드를 참조하십시오.
 
-MetroCluster 관련 추가 절차는 를 참조하십시오 https://["업그레이드 또는 새로 고침 방법 선택"].
+MetroCluster 관련 추가 절차는 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html["업그레이드 또는 새로 고침 방법 선택"].
 
 [cols="4*"]
 |===
@@ -16,7 +16,7 @@ MetroCluster 관련 추가 절차는 를 참조하십시오 https://["업그레�
  a| 
 9.8 ~ 9.0.x
  a| 
-https://["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (기존 물리적 스토리지 이동)
+https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (기존 물리적 스토리지 이동)
  a| 
 아니요
  a| 
@@ -25,7 +25,7 @@ https://["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] 
 
 
  a| 
-https://["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (새 스토리지로 볼륨 이동)
+https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (새 스토리지로 볼륨 이동)
  a| 
 예
  a| 
@@ -36,7 +36,7 @@ https://["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] 
  a| 
 9.8
  a| 
-https://[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 실행하는 컨트롤러 하드웨어를 업그레이드합니다"]
+https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 실행하는 컨트롤러 하드웨어를 업그레이드합니다"]
  a| 
 예
  a| 
@@ -47,7 +47,7 @@ https://[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 �
  a| 
 9.8
  a| 
-https://["Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드할 수 있습니다"]
+https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual-app/index.html["Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드할 수 있습니다"]
  a| 
 예
  a| 
@@ -58,7 +58,7 @@ https://["Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는
  a| 
 9.7 ~ 9.5
  a| 
-https://[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 실행하는 컨트롤러 하드웨어를 ONTAP 9.7로 업그레이드합니다"]
+https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-auto/index.html[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 실행하는 컨트롤러 하드웨어를 ONTAP 9.7로 업그레이드합니다"]
  a| 
 예
  a| 
@@ -69,7 +69,7 @@ https://[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 �
  a| 
 9.7 이하
  a| 
-https://["Aggregate Relocation을 사용하여 컨트롤러 업그레이드 ONTAP 9.7 이하를 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드합니다"]
+https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual/index.html["Aggregate Relocation을 사용하여 컨트롤러 업그레이드 ONTAP 9.7 이하를 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드합니다"]
  a| 
 예
  a| 

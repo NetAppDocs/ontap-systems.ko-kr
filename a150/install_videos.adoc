@@ -12,7 +12,7 @@ summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설
 
 다음 비디오를 사용하여 시스템을 랙에 설치하고 케이블을 연결하고 초기 시스템 구성을 수행하는 방법을 알아보십시오.
 
-MetroCluster 구성이 있는 경우 를 사용합니다 https://["MetroCluster 설명서"^].
+MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 설명서"^].
 
 하드웨어 설치 및 케이블 연결::
 +

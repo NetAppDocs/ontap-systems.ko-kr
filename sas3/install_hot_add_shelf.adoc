@@ -28,14 +28,14 @@ IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 핫 추가하기 전에 
 
 * 시스템과 버전의 ONTAP는 IOM, 디스크 드라이브 및 SAS 케이블을 포함하여 현재 추가하고 있는 디스크 쉘프를 지원해야 합니다.
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 * 시스템에 핫 추가할 디스크 쉘프 수가 지원되는 최대 디스크 드라이브 수보다 작아야 합니다.
 +
 디스크 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 디스크 드라이브 수를 초과할 수 없습니다.
 
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 * 하나 이상의 디스크 쉘프 스택을 플랫폼 컨트롤러에 직접 추가하는 경우, 시스템에 사용 가능한 PCI SAS HBA 또는 온보드 SAS 포트가 충분히 있거나 둘 다 조합하여 사용해야 합니다.
 +
@@ -54,7 +54,7 @@ Config Advisor를 다운로드하여 SAS 연결이 올바르게 연결되었는�
 오류 메시지에서 제공하는 수정 조치를 사용하여 케이블 연결 오류를 수정해야 합니다.
 
 +
-https://["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
 
 
 
@@ -110,7 +110,7 @@ HA 쌍이 있는 경우 ONTAP는 시스템 구성을 '멀티경로 HA'로 표시
 현재 버전의 DQP를 설치하면 시스템이 새로 검증된 디스크 드라이브를 인식하고 활용할 수 있으므로, 최신 디스크 드라이브 정보가 없는 시스템 이벤트 메시지를 방지할 수 있습니다. 또한 디스크 드라이브를 인식할 수 없으므로 디스크 파티셔닝의 가능성을 방지할 수 있습니다. 또한 DQP는 현재 디스크 드라이브 펌웨어가 아닌 경우 이를 알려줍니다.
 
 +
-https://["NetApp 다운로드: 디스크 검증 패키지"^]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["NetApp 다운로드: 디스크 검증 패키지"^]
 
 * 모범 사례는 디스크 쉘프를 핫 추가하기 전후에 Config Advisor를 실행하는 것입니다.
 +
@@ -123,17 +123,17 @@ SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제�
 Config Advisor를 다운로드하려면 네트워크 액세스가 필요합니다.
 
 +
-https://["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
 
 * 모범 사례는 새 디스크 쉘프, 쉘프 FRU 구성요소 또는 SAS 케이블을 추가하기 전에 현재 버전의 디스크 쉘프(IOM) 펌웨어 및 디스크 드라이브 펌웨어를 시스템에 추가하는 것입니다.
 +
 펌웨어의 현재 버전은 NetApp Support 사이트에서 확인할 수 있습니다.
 
 +
-https://["NetApp 다운로드: 디스크 쉘프 펌웨어"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"]
 
 +
-https://["NetApp 다운로드: 디스크 드라이브 펌웨어"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"]
 
 
 
@@ -451,7 +451,7 @@ AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 해당하는 단�
 
 . Config Advisor를 다운로드하여 SAS 연결이 올바르게 연결되었는지 확인합니다.
 +
-https://["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
 
 +
 SAS 케이블 연결 오류가 발생하면 제공된 수정 조치를 따르십시오.

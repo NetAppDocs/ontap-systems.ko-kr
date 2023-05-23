@@ -27,7 +27,7 @@ ONTAP 9.8
  a| 
 이제 SAS 스토리지 스택에서 6Gb에서 12Gb로 단일 속도 전환이 지원됩니다. 따라서 12Gb 쉘프를 사용하여 기존 6Gb 스택의 스토리지를 확장할 수 있습니다.
 
-https://["IOM6 모듈을 사용해 쉘프 스택에 IOM12 모듈을 장착한 상태로 쉘프 추가"]
+https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-ds-mix-hotadd/home.html["IOM6 모듈을 사용해 쉘프 스택에 IOM12 모듈을 장착한 상태로 쉘프 추가"]
  a| 
 ONTAP 9.7P4
 

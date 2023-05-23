@@ -197,7 +197,7 @@ NOTE: 새 입출력 모듈이 장애가 발생한 모듈과 다른 모델인 경
 
 NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
 
-. 시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오 https://["10GbE 연결을 위해 40GbE NIC 포트를 여러 10GbE 포트로 변환합니다"^] 를 참조하십시오.
+. 시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap/networking/convert_40gbe_nic_ports_into_multiple_10gbe_ports_for_10gbe_connectivity.html["10GbE 연결을 위해 40GbE NIC 포트를 여러 10GbE 포트로 변환합니다"^] 를 참조하십시오.
 +
 
 NOTE: 변환을 완료한 후 유지보수 모드를 종료해야 합니다.
@@ -210,4 +210,4 @@ NOTE: 변환을 완료한 후 유지보수 모드를 종료해야 합니다.
 
 == 4단계: 장애가 발생한 부품을 NetApp에 반환
 
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

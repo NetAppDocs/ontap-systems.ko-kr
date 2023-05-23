@@ -20,7 +20,7 @@ ONTAP가 아직 실행되지 않거나 시스템에 케이블로 연결되기 �
 
 * Active IQ Config Advisor를 실행하거나 'storage shelf show-fields shelf-id' 명령을 사용하여 시스템에서 이미 사용 중인 쉘프 ID를 확인할 수 있습니다.
 +
-https://["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
 
 
 

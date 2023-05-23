@@ -16,7 +16,7 @@ summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중
 * 모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.
 * 시스템이 FlexArray 시스템이거나 V_StorageAttach 라이센스가 있는 경우 이 절차를 수행하기 전에 필요한 추가 단계를 참조해야 합니다.
 * 시스템이 HA 쌍인 경우 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러" 절차라고 함).
-* 시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다 https://["올바른 복구 절차 선택"] 이 절차를 사용해야 하는지 여부를 확인합니다.
+* 시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다 https://docs.netapp.com/us-en/ontap-metrocluster/disaster-recovery/concept_choosing_the_correct_recovery_procedure_parent_concept.html["올바른 복구 절차 선택"] 이 절차를 사용해야 하는지 여부를 확인합니다.
 +
 이 절차를 사용해야 하는 경우 4 또는 8 컨트롤러 MetroCluster 구성의 컨트롤러에 대한 컨트롤러 교체 절차는 HA 쌍의 컨트롤러 교체 절차와 동일합니다. HA Pair로 제한된 장애 및 스토리지 페일오버 명령을 사용하여 교체 시 무중단 운영을 제공할 수 있으므로 MetroCluster 관련 단계가 필요하지 않습니다.
 
@@ -30,7 +30,7 @@ summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중
 * 이 절차에서는 _ replacement_controller가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 _replacement_controller로 이동합니다.
 * 기존 컨트롤러 모듈에서 새 컨트롤러 모듈로 또는 기존 고객 사이트 인벤토리에서 추가된 PCIe 카드는 교체 컨트롤러 모듈에서 지원해야 합니다.
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 * 올바른 시스템에 다음 단계에 있는 명령을 적용하는 것이 중요합니다.
 +

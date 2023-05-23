@@ -56,14 +56,14 @@ ifconfig e0M-addr=ip_addr-mask=netmask"-GW=gateway입니다
  a| 
 * FAS2200, FAS2500, FAS3200, FAS6200, FAS/AFF8000 시리즈 시스템 *
  a| 
-'+netboot http://[]
+'+netboot http://web_server_ip/path_to_web-accessible_directory/netboot/kernel+`[]
 
 
 
  a| 
 * 다른 모든 시스템 *
  a| 
-'+netboot http://[]
+'+netboot http://web_server_ip/path_to_web-accessible_directory/<ontap_version>_image.tgz+`[]
 
 |===
 +
@@ -97,10 +97,10 @@ The node must be rebooted to start using the newly installed software. Do you wa
 . 부팅 메뉴에서 * (5) Maintenance mode boot * 를 선택하여 Maintenance 모드에 액세스합니다.
 . 필요한 경우 노드의 FC 또는 CNA 포트를 변경한 다음 노드를 유지보수 모드로 재부팅합니다.
 +
-http://["ONTAP 9 SAN 관리 가이드 를 참조하십시오"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html["ONTAP 9 SAN 관리 가이드 를 참조하십시오"]
 
 +
-http://["사용 중인 Data ONTAP 8 버전에 대한 SAN 관리 가이드를 찾으십시오"]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30092["사용 중인 Data ONTAP 8 버전에 대한 SAN 관리 가이드를 찾으십시오"]
 
 . 명령 출력에 ha가 표시되는지 확인해야 합니다.
 +
@@ -117,10 +117,10 @@ http://["사용 중인 Data ONTAP 8 버전에 대한 SAN 관리 가이드를 찾
 ha-config modify controller ha 명령은 컨트롤러 설정에 대해 ha를 구성합니다. ha-config modify chassis ha 명령은 섀시 설정에 대해 ha를 구성합니다.
 
 +
-http://["ONTAP 9 고가용성 구성 가이드"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-hacg/home.html["ONTAP 9 고가용성 구성 가이드"]
 
 +
-http://["사용 중인 Data ONTAP 8 버전에 대한 고가용성 구성 가이드를 찾아보십시오"]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30092["사용 중인 Data ONTAP 8 버전에 대한 고가용성 구성 가이드를 찾아보십시오"]
 
 . 유지보수 모드를 종료합니다
 +

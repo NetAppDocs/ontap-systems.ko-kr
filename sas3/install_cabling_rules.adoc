@@ -280,7 +280,7 @@ image::../media/drw_fas2600_mpha_domain_example.png[drw fas2600 mpha 도메인�
 
 * 사용 중인 플랫폼 및 버전의 ONTAP는 미니 SAS HD-LC 커넥터가 있는 멀티모드 액티브 광 케이블(AOC) 케이블 및 미니 SAS HD-미니 SAS HD 커넥터 및 멀티모드(OM4) 브레이크아웃 케이블(미니 SAS HD-LC 커넥터 포함)의 미니 SAS HD SAS 광 케이블 사용을 지원해야 합니다.
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 * SAS 광 멀티모드 AOC 케이블(미니 SAS HD-미니 SAS HD 커넥터 포함)은 컨트롤러-스택 및 쉘프-쉘프 연결에 사용할 수 있으며 최대 50m 길이로 사용할 수 있습니다.
 * SAS 광 멀티모드(OM4) 브레이크아웃 케이블과 미니 SAS HD-LC 커넥터(패치 패널용)를 함께 사용하는 경우 다음 규칙이 적용됩니다.

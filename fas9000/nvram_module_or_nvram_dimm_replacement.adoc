@@ -443,7 +443,7 @@ replacement_node는 스토리지를 다시 가져와 부팅을 완료합니다.
 NOTE: 기브백이 거부되면 거부권을 재정의할 수 있습니다.
 
 +
-http://["사용 중인 ONTAP 9 버전에 대한 고가용성 구성 가이드를 찾아보십시오"]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 9 버전에 대한 고가용성 구성 가이드를 찾아보십시오"]
 
 .. 기브백이 완료된 후 HA 쌍이 정상 작동 중인지, 그리고 테이크오버가 가능한지, 즉 '스토리지 페일오버 표시'인지 확인합니다
 +
@@ -480,7 +480,7 @@ MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정�
 ** MetroCluster 구성이 전환 상태입니다.
 ** replacement_node는 재해 사이트에 있는 디스크의 현재 소유자입니다.
 +
-https://["4노드 MetroCluster 구성에서 HA 테이크오버 및 MetroCluster 스위치오버 중에 디스크 소유권이 변경됩니다"]
+https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html#disk-ownership-changes-during-ha-takeover-and-metrocluster-switchover-in-a-four-node-metrocluster-configuration["4노드 MetroCluster 구성에서 HA 테이크오버 및 MetroCluster 스위치오버 중에 디스크 소유권이 변경됩니다"]
 
 
 
@@ -610,7 +610,7 @@ dr-group-id            cluster node           configuration-state
 .. MetroCluster가 구성되어 있고 'MetroCluster show'(정상 모드)로 설정되어 있는지 확인합니다
 .. 'MetroCluster check run'이라는 MetroCluster check을 수행한다
 .. MetroCluster 체크 표시 결과를 MetroCluster check show로 출력한다
-.. Config Advisor를 실행합니다. NetApp Support 사이트 의 Config Advisor 페이지로 이동합니다 http://["support.netapp.com/NOW/download/tools/config_advisor/"].
+.. Config Advisor를 실행합니다. NetApp Support 사이트 의 Config Advisor 페이지로 이동합니다 http://support.netapp.com/NOW/download/tools/config_advisor/["support.netapp.com/NOW/download/tools/config_advisor/"].
 +
 Config Advisor를 실행한 후 도구의 출력을 검토하고 출력에서 권장 사항을 따라 발견된 문제를 해결하십시오.
 
@@ -642,8 +642,8 @@ NOTE: DIMM을 교체할 때는 이 단계가 필요하지 않습니다.
 .단계
 . 온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
 +
-** https://["온보드 키 관리 암호화 키를 복원합니다"^]
-** https://["외부 키 관리 암호화 키를 복원합니다"^]
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html["온보드 키 관리 암호화 키를 복원합니다"^]
+** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html["외부 키 관리 암호화 키를 복원합니다"^]
 
 
 . SED MSID를 재설정합니다
@@ -653,4 +653,4 @@ NOTE: DIMM을 교체할 때는 이 단계가 필요하지 않습니다.
 
 == 7단계: 장애가 발생한 부품을 NetApp에 반환
 
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

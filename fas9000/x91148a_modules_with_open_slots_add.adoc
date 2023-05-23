@@ -18,12 +18,12 @@ X91148A 모듈을 시스템의 빈 모듈 슬롯에 100GbE NIC 또는 NS224 스�
 * 시스템에 사용 가능한 슬롯이 하나 이상 있어야 합니다.
 * 여러 개의 슬롯을 사용할 수 있는 경우 Hardware Universe의 X91148A 모듈에 대한 슬롯 우선 순위 매트릭스에 따라 모듈을 설치합니다.
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 * X91148A 모듈을 스토리지 모듈로 추가하려면 모듈 슬롯 3 및/또는 7을 설치해야 합니다.
 * X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 해당 슬롯을 네트워크 슬롯으로 사용하고 NS224 셸프를 추가하지 않으려면 'STORAGE PORT MODIFY-NODE_NODE NAME_-PORT_PORT NAME_-MODE NETWORK' 명령과 함께 네트워킹용 슬롯을 수정해야 합니다. X91148A 모듈에서 네트워킹용으로 사용할 수 있는 다른 슬롯은 Hardware Universe를 참조하십시오.
 +
-https://["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 * 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
 
@@ -105,5 +105,5 @@ https://["NetApp Hardware Universe를 참조하십시오"]
 . 파트너 노드의 반환: 'storage failover 반환 - ofnode target_node_name'
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 컨트롤러 B에 대해 이 단계를 반복합니다
-. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://["핫 추가-NS224 쉘프"].
+. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["핫 추가-NS224 쉘프"].
 
