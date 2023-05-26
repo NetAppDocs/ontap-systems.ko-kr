@@ -1246,7 +1246,6 @@
   <block id="31cb02e89902f67343e47bc70e628c6d" category="paragraph">녹색으로 켜져 있습니다</block>
   <block id="ceee41d559bf6e4c8eec9d1995cd0b4c" category="paragraph">하나 이상의 전원 공급 장치가 디스크 쉘프에 전원을 공급하고 있습니다.</block>
   <block id="c61664b995859451c9b18dba9398d36e" category="cell"><block ref="c61664b995859451c9b18dba9398d36e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a91f4dbac042acc9674c8f30f0009e10" category="paragraph">디스크 쉘프, 디스크 드라이브, IOM12 모듈 또는 전원 공급 장치 중 하나의 FRU 기능에 오류가 발생했습니다.</block>
   <block id="42532600d34fb5884550b5ba06c71866" category="paragraph">이벤트 메시지를 확인하여 필요한 수정 조치를 결정합니다.</block>
   <block id="5bb2376fdbdd8b69f07ffed693784a70" category="paragraph">주황색으로 깜박입니다</block>
   <block id="59ee562359b2b7e862570a57471bda07" category="paragraph">쉘프 ID가 보류 중입니다.</block>
@@ -1255,21 +1254,13 @@
   <block id="ce5bf551379459c1c61d2a204061c455" category="paragraph">위치</block>
   <block id="d4300cfa84e2e26784840198a0cbd030" category="paragraph">파란색으로 고정되어 있습니다</block>
   <block id="dcef7e6e25f4d0285a65c6e2456b274e" category="paragraph">시스템 관리자는 서비스가 필요한 디스크 쉘프를 물리적으로 찾을 수 있도록 이 LED 기능을 활성화했습니다.</block>
-  <block id="2c64d9557c9a2aa50849a46c94063cbf" category="paragraph">이 LED 기능이 활성화되면 운전자 디스플레이 패널의 위치 LED와 두 IOM12 모듈이 모두 켜집니다. 위치 LED는 30분 후에 자동으로 꺼집니다.</block>
   <block id="735b119b02d7cf2ed75726f0f7dd0561" category="paragraph">디스크 쉘프 모델에 따라 작동 디스플레이 패널은 다르게 보이지만 세 개의 LED는 같은 방식으로 배열됩니다.</block>
   <block id="5d405fcbf9fe0221fc5a388844b43691" category="paragraph">다음 그림은 엔드 캡이 있는 DS224C 디스크 쉘프 운영자 디스플레이 패널을 보여줍니다.</block>
   <block id="619a6c64b692f7c7d530acc10ff465bd" category="image-alt">drw OPD</block>
-  <block id="578194735681dfccf0ab5a7f231ad3eb" category="section-title">IOM12 모듈 LED</block>
-  <block id="4bd9e80f0885938495ab10fad1f15091" category="paragraph">IOM12 모듈의 LED는 모듈이 정상적으로 작동하는지 여부, 입출력 트래픽에 사용할 준비가 되었는지 여부, 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
-  <block id="43887fc5a62c282f3e5be085309f0a65" category="paragraph">다음 표에서는 모듈의 기능과 관련된 IOM12 모듈 LED와 모듈의 각 SAS 포트의 기능에 대해 설명합니다.</block>
-  <block id="1a2971baecb92cc9a6f46a52fdbc4383" category="paragraph">IOM12 모듈은 DS460C, DS224C 및 DS212C 디스크 선반에 사용됩니다.</block>
-  <block id="16dd5aba0d994e6b3b2ad2851ff70375" category="paragraph">IOM12 모듈 기능: IOM12 모듈의 기능에 오류가 발생했습니다.</block>
   <block id="06193ae5b75dce356ceef150051cbba7" category="paragraph">SAS 포트 기능: 4개의 SAS 레인 모두에서 링크를 설정했습니다(어댑터 또는 다른 디스크 쉘프 사용).</block>
   <block id="96c5571f7b6648b76366cba9755c4f43" category="paragraph">LNK</block>
   <block id="19e79e9ef0fa80f9b6aa5a3f8e5bb42c" category="paragraph">포트 링크</block>
   <block id="e35abb0fc157a472260600f52f6994cc" category="paragraph">4개의 SAS 레인 중 하나 이상이 링크를 설정했습니다(어댑터 또는 다른 디스크 쉘프 사용).</block>
-  <block id="85eed6af8a7071f352ad78220d797f3b" category="paragraph">시스템 관리자는 장애가 발생한 IOM12 모듈을 통해 디스크 쉘프를 물리적으로 찾을 수 있도록 이 LED 기능을 활성화했습니다.</block>
-  <block id="11e1a575acb39145b730906b42d580a1" category="paragraph">다음 그림은 IOM12 모듈에 대한 것입니다.</block>
   <block id="f2105620d136a321a397d0310e98f133" category="image-alt">drw iom12</block>
   <block id="2aa3adf1c0ff2c8444260a0e888c02bc" category="section-title">전원 공급 장치 LED</block>
   <block id="09cdf702b67ff26e9a51e5bd564332db" category="paragraph">전원 공급 장치의 LED는 전원 공급 장치가 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.</block>
@@ -4203,7 +4194,6 @@
   <block id="5ea097b6ef5e3828cb8cb8eed645e134" category="image-alt">drw affa250 중량 주의</block>
   <block id="9bd8aa5689228cb2b0d7fa13ff310ec9" category="list-text">이 시스템에는 케이블 관리 장치가 없으므로 케이블을 식별하고 관리합니다.</block>
   <block id="b97bdff613a0ca54c0d7c15ca245a1f5" category="paragraph">컨트롤러 모듈의 관리, 파이버 채널 및 데이터 또는 호스트 네트워크 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.</block>
-  <block id="f2633075828362900ca73919da819a29" category="paragraph">클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 케이블로 서로 연결합니다<block ref="6b6a40b68f5814cad1750bfff7e3b927" category="inline-image-macro-rx" type="image"></block>:</block>
   <block id="59fffbd09d1c7158959327a869b9292f" category="list-text">e0c - e0c</block>
   <block id="de629fe3167cc52423821046b02074e3" category="list-text">e0d ~ e0d<block ref="5d8d8fe980b572286e75db6ff18d3cbc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fe24c609326a57c3fef0ffe189c165b" category="paragraph"><block ref="9fe24c609326a57c3fef0ffe189c165b" category="inline-image-macro-rx" type="image"></block></block>
@@ -4213,12 +4203,10 @@
   <block id="09401fd662d47d1159b97106f3c2c4b4" category="paragraph">클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.</block>
   <block id="96640993dd2592a16c29226daf83b860" category="list-text">e0c</block>
   <block id="076b1ed5eae37af50f50d5b0e6d87908" category="list-text">e0d<block ref="ee3f9d0ec20204c7d48b52d859e31c4d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="58c441d64314c2082defd9f79f4f5d89" category="paragraph">포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.<block ref="8c69ea1e01dd0a307f5cc8e68a746e18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56207a9d07b6607ddcfada226919fb00" category="list-text"><block ref="9f2a6ae0f8e4e0c002cabfcf0d3b8027" category="inline-xref-macro-rx"></block></block>
   <block id="9ec8ef762c375cb5ef67631e96a76733" category="list-text"><block ref="1476a857b220f13e41f9015c8596b1d0" category="inline-xref-macro-rx"></block></block>
   <block id="46bef70db2abdd00f0d4fccb83fbd3db" category="section-title">옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다</block>
   <block id="2283d2460c1fb366154589c8106aeabb" category="paragraph">컨트롤러의 25GbE 포트는 25GbE 데이터 또는 호스트 네트워크 스위치에 연결됩니다.</block>
-  <block id="291805e5f6e41a41cff79176c18b9bbc" category="paragraph">케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.<block ref="4d47a33513883c069cdd23a129a70f98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ee99f95dccd989449c31c5582a02a92" category="list-text"><block ref="9d121b80040875d39da3830ae414ba9b" category="inline-xref-macro-rx"></block></block>
   <block id="0e103ad5ee434b2faca19141061cbe51" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결합니다.</block>
   <block id="941322167ca76688c15d3a6fb3aa998c" category="paragraph">컨트롤러 A를 쉘프에 연결: <block ref="18f599f35e14d88c5e3fb9f75197e3c8" category="inline-image-macro-rx" type="image"></block></block>
@@ -7946,4 +7934,48 @@
   <block id="6266bb335022aad7813f5a92f40c41bb" category="list-text">랩톱 또는 콘솔에서 System Manager를 사용하여 클러스터를 구성합니다.</block>
   <block id="b1e0a8fb86dde21901d58064a47983ae" category="paragraph">초기 시스템 설치 과정을 통해 랙 설치 및 케이블 연결에서부터 시스템을 설치하는 방법에 대해 알아보십시오. 사용 <block ref="2e869cac122e3063f7b418f03cb3fa26" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="78504a496ba3e0d8a682fe929b4d61d9" category="paragraph"><block ref="78504a496ba3e0d8a682fe929b4d61d9" category="inline-link-macro-rx"></block></block>
+  <block id="79386daaa48888ed81c00ef493d329e9" category="paragraph">MetroCluster 구성이 있는 경우 를 사용합니다<block ref="d4b6e949edad9293b177bc65e2892165" category="inline-link-rx"></block>.</block>
+  <block id="9b9935ad5969c28de13381a2e512b47c" category="paragraph">참고:</block>
+  <block id="25ca1a1b0a04d8f5341dca5c9e9eed8a" category="list-text">에 대한 액세스 권한이 있는지 확인합니다 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> HWU)를 참조하십시오.</block>
+  <block id="b00f162fad84edda46484fcada242a8c" category="inline-link">HWU</block>
+  <block id="0b596d3b9a72deeb4bca2c3f00662c30" category="list-text">특정 전원 요구 사항이 있는 고객은 반드시 확인해야 합니다<block ref="911e5b8f28f318acfdc1d057cd36b40e" category="inline-link-rx"></block> 를 클릭합니다.</block>
+  <block id="50bb0852475aeb4d407a01f8d637ccae" category="list-text">에 대한 액세스 권한이 있는지 확인합니다 <block ref="515d1814cb0f36c56a64a6574d93c9df" category="inline-link-macro-rx"></block> 이 시스템에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="eba4465f65ac7360936f8f238b09999c" category="list-text">웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블.</block>
+  <block id="c7e4a9edbb9ec3bb0052efd3332763a3" category="section-title">3단계: 컨트롤러를 클러스터에 케이블로 연결합니다</block>
+  <block id="089103029c56ad66034dfe6bd70cfdcb" category="paragraph">애니메이션이나 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 각 컨트롤러에서 단계를 수행합니다.</block>
+  <block id="38e134ad6d648c53626268f8b6a82510" category="list-text">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c~e0c 및 e0d를 e0에 케이블로 연결합니다<block ref="6b6a40b68f5814cad1750bfff7e3b927" category="inline-image-macro-rx" type="image"></block>:</block>
+  <block id="5d8d8fe980b572286e75db6ff18d3cbc" category="paragraph"><block ref="5d8d8fe980b572286e75db6ff18d3cbc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="84e68180cd83b83ca12149fed857f1ac" category="list-text">클러스터 인터커넥트 포트 e0c 및 e0d를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.</block>
+  <block id="ee3f9d0ec20204c7d48b52d859e31c4d" category="paragraph"><block ref="ee3f9d0ec20204c7d48b52d859e31c4d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="40a8f8b2f4ff5acd74232849a99a8a04" category="section-title">4단계: 호스트 네트워크 또는 스토리지에 케이블 연결(옵션)</block>
+  <block id="03c1ffcb3fc95b8bfccde9eae4c521cb" category="open-title">옵션 1: Fibre Channel 호스트 네트워크에 케이블 연결</block>
+  <block id="57f232cf1846457526a67fb857654097" category="paragraph">각 컨트롤러 모듈에서 단계를 수행합니다.</block>
+  <block id="8c69ea1e01dd0a307f5cc8e68a746e18" category="paragraph"><block ref="8c69ea1e01dd0a307f5cc8e68a746e18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d47a33513883c069cdd23a129a70f98" category="paragraph"><block ref="4d47a33513883c069cdd23a129a70f98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="db24b10d7ccee1e6c17be0c81439dce8" category="open-title">옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다</block>
+  <block id="8fb418cbd362c972abff9e15e5bbef81" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 단일 쉘프 간의 케이블 연결을 완료합니다. 각 컨트롤러 모듈에 대해 단계를 수행합니다.</block>
+  <block id="26f36b74d2b5930cb4c8a791d8825169" category="list-text">컨트롤러 A를 쉘프에 연결합니다.</block>
+  <block id="18f599f35e14d88c5e3fb9f75197e3c8" category="paragraph"><block ref="18f599f35e14d88c5e3fb9f75197e3c8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e9ad1feb0945eeeb8a1d11bf9bf539e" category="list-text">컨트롤러 B를 쉘프에 연결합니다.</block>
+  <block id="f822d74484a7588f78ead07185e89b82" category="paragraph"><block ref="f822d74484a7588f78ead07185e89b82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a363ebbaf5776be0c980b7b95cd927d3" category="inline-link">기존 계정을 만들거나 계정을 만듭니다</block>
+  <block id="50350463d29f0dd6d00e1fbb6e5ee301" category="list-text">에 로그인합니다<block ref="7d7bd8ac0b1a83207c698de0ebfd0970" category="inline-link-rx"></block>.</block>
+  <block id="d8c9578f313af4d30124d95a9a82f55a" category="list-text"><block ref="45857239f243800c6028823fe1bb7167" category="inline-link-macro-rx"></block> 시스템.</block>
+  <block id="42608111c1df97efb2c5e1785a0c9236" category="paragraph">스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러에 케이블을 연결합니다.</block>
+  <block id="940761e28da4b693854d6f9dd90cf253" category="video-title">애니메이션 - 케이블 2노드 스위치가 없는 클러스터</block>
+  <block id="e8da070fbb7ed9f4e58234be76f00e95" category="list-text">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c~e0c 및 e0d를 e0d에 연결합니다.</block>
+  <block id="c26780590002425e46bd9c5734245466" category="paragraph">애니메이션이나 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 각 컨트롤러에서 단계를 수행합니다.</block>
+  <block id="76cc458c90f11508f1ec83bed8953ef1" category="video-title">애니메이션 - 케이블 스위치 클러스터</block>
+  <block id="f7d77014760bf79c9b9469d98b1e031b" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.</block>
+  <block id="ed7a3f593115fbd1332dbd3743a9967c" category="paragraph">각 컨트롤러 모듈에서 다음 단계를 수행하십시오.</block>
+  <block id="63acd4af39a4e0dda6fe6c3d381743a7" category="open-title">옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다</block>
+  <block id="2b5c65d5b0abc122c914eec510d083ae" category="paragraph">디스크 쉘프, 디스크 드라이브, IOM12/IOM12B 모듈 또는 전원 공급 장치 중 하나의 FRU 기능에 오류가 발생했습니다.</block>
+  <block id="179393dc95adf2d21fee0c7a4ac43a35" category="paragraph">이 LED 기능이 활성화되면 작동 디스플레이 패널과 IOM12/IOM12B 모듈의 위치 LED가 켜집니다. 위치 LED는 30분 후에 자동으로 꺼집니다.</block>
+  <block id="a0e54d8ccf5f2c0e80dde9c632b59a06" category="section-title">IOM12/IOM12B 모듈 LED</block>
+  <block id="d513e2f89875e1250513a03a56fb4689" category="paragraph">IOM12/IOM12B 모듈의 LED는 모듈이 정상적으로 작동하는지 여부, I/O 트래픽을 처리할 준비가 되었는지 여부 및 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
+  <block id="94d8e14101b7f4ab9a744f00e8e2fe29" category="paragraph">다음 표에서는 모듈의 기능과 모듈의 각 SAS 포트의 기능에 연결된 IOM12/IOM12B 모듈 LED에 대해 설명합니다.</block>
+  <block id="90f41460d3ad083904e7b340e4b39ece" category="paragraph">IOM12/IOM12B 모듈은 DS460C, DS224C 및 DS212C 디스크 선반에 사용됩니다.</block>
+  <block id="1ed7e5bc49edc6dcd82d94adaa712607" category="paragraph">IOM12/IOM12B 모듈 기능: IOM12/IOM12B 모듈의 기능에 오류가 발생했습니다.</block>
+  <block id="661a269cef9bb91a2f8b4d733118a2eb" category="paragraph">시스템 관리자는 오류가 발생한 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 물리적으로 찾을 수 있도록 이 LED 기능을 활성화했습니다.</block>
+  <block id="a78123fcf223e9fb14720d2a07e2ef85" category="paragraph">다음 그림은 IOM12 모듈에 대한 것입니다.</block>
 </blocks>

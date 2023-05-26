@@ -13,9 +13,7 @@ summary: 이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단�
 [role="lead"]
 이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.
 
-MetroCluster 구성이 있는 경우 MetroCluster 설치 콘텐츠를 사용합니다.
-
-https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"^]
+MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"^].
 
 
 
@@ -23,17 +21,19 @@ https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서
 
 AFF C250 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
 
-에 대한 액세스 권한이 있어야 합니다 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] (HWU) - 사이트 요구사항에 대한 정보 및 구성된 시스템에 대한 추가 정보 에 대한 액세스 권한을 가질 수도 있습니다 link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 버전에 대한 릴리즈 노트"^] 이 시스템에 대한 자세한 내용은 를 참조하십시오.
+참고:
+
+.시작하기 전에
+* 에 대한 액세스 권한이 있는지 확인합니다 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] HWU)를 참조하십시오.
+* 특정 전원 요구 사항이 있는 고객은 반드시 확인해야 합니다 https://hwu.netapp.com["HWU"] 를 클릭합니다.
+* 에 대한 액세스 권한이 있는지 확인합니다 link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 버전에 대한 릴리즈 노트"^] 이 시스템에 대한 자세한 내용은 를 참조하십시오.
+* 사이트에서 다음을 제공해야 합니다.
++
+** 스토리지 시스템의 랙 공간입니다
+** Phillips #2 드라이버
+** 웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블.
 
 
-NOTE: 특정 전력 요구사항이 있는 고객은 HWU에서 구성 옵션을 확인해야 합니다.
-
-.필요한 것
-사이트에서 다음을 제공해야 합니다.
-
-* 스토리지 시스템의 랙 공간입니다
-* Phillips #2 드라이버
-* 웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블
 
 
 .단계
@@ -165,222 +165,149 @@ image::../media/drw_affa250_weight_caution.png[drw affa250 중량 주의]
 
 
 
-== 3단계: 컨트롤러 케이블을 연결합니다
-
-스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 플랫폼 클러스터에 대한 케이블 연결이 필요합니다. Fibre Channel 또는 iSCSI 호스트 네트워크 또는 직접 연결 스토리지에 대한 케이블 연결은 선택 사항입니다. 이 케이블 연결은 배타적이지 않으므로 호스트 네트워크 및 스토리지에 케이블을 연결할 수 있습니다.
-
-
-
-=== 필요한 케이블 연결: 컨트롤러를 클러스터에 케이블로 연결합니다
+== 3단계: 컨트롤러를 클러스터에 케이블로 연결합니다
 
 스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러에 케이블을 연결합니다.
 
-
-
-==== 옵션 1: 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
-
+[role="tabbed-block"]
+====
+.옵션 1: 스위치가 없는 2노드 클러스터
+--
 컨트롤러 모듈의 관리, 파이버 채널 및 데이터 또는 호스트 네트워크 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.
 
 .시작하기 전에
-시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
-
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
+* 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
+* 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
++
 image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래로 내립니다]
 
++
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
+
+
+.이 작업에 대해
+애니메이션이나 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 각 컨트롤러에서 단계를 수행합니다.
 
 .애니메이션 - 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
 video::beec3966-0a01-473c-a5de-ac68017fbf29[panopto]
-[cols="10,90"]
-|===
-| 단계 | 각 컨트롤러에서 수행합니다 
+.단계
+. 25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c~e0c 및 e0d를 e0에 케이블로 연결합니다image:../media/oie_cable_sfp_gbe_copper.png[""]:
++
+image:../media/drw_affa250_tnsc_cabling.png[""]
 
-
- a| 
-image:../media/oie_legend_icon_1_lg.png[""]
- a| 
-클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 케이블로 서로 연결합니다image:../media/oie_cable_sfp_gbe_copper.png[""]:
-
-* e0c - e0c
-* e0d ~ e0dimage:../media/drw_affa250_tnsc_cabling.png[""]
-
-
-
-
- a| 
-image:../media/oie_legend_icon_2_dr.png[""]
- a| 
-RJ45 케이블을 사용하여 관리 네트워크 스위치에 렌치 포트를 연결합니다.
-
+. RJ45 케이블을 사용하여 관리 네트워크 스위치에 렌치 포트를 연결합니다.
++
 image::../media/drw_affa250_mgmt_cabling.png[drw affa250 관리 케이블링]
 
 
 
- a| 
-image:../media/oie_legend_icon_attn_symbol.png[""]
- a| 
-이때 전원 코드를 꽂지 마십시오.
 
-|===
-시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
+IMPORTANT: 이때 전원 코드를 꽂지 마십시오.
 
-
-
-==== 옵션 2: 스위치 클러스터 케이블 연결
-
+--
+.옵션 2: 스위치 클러스터
+--
 컨트롤러의 모든 포트는 스위치, 클러스터 인터커넥트, 관리, 파이버 채널, 데이터 또는 호스트 네트워크 스위치에 연결됩니다.
 
 .시작하기 전에
-시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
-
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
+* 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
+* 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
++
 image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래로 내립니다]
 
++
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
+
+
+.이 작업에 대해
+애니메이션이나 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 각 컨트롤러에서 단계를 수행합니다.
 
 .애니메이션 - 스위치 클러스터 케이블 연결
 video::bf6759dc-4cbf-488e-982e-ac68017fbef8[panopto]
-[cols="10,90"]
-|===
-| 단계 | 각 컨트롤러에서 수행합니다 
+.단계
+. 클러스터 인터커넥트 포트 e0c 및 e0d를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
++
+image:../media/drw_affa250_switched_clust_cabling.png[""]
 
-
- a| 
-image:../media/oie_legend_icon_1_lg.png[""]
- a| 
-클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
-
-* e0c
-* e0dimage:../media/drw_affa250_switched_clust_cabling.png[""]
-
-
-
-
- a| 
-image:../media/oie_legend_icon_2_dr.png[""]
- a| 
-RJ45 케이블을 사용하여 관리 네트워크 스위치에 렌치 포트를 연결합니다.
-
+. RJ45 케이블을 사용하여 관리 네트워크 스위치에 렌치 포트를 연결합니다.
++
 image::../media/drw_affa250_mgmt_cabling.png[drw affa250 관리 케이블링]
 
 
 
- a| 
-image:../media/oie_legend_icon_attn_symbol.png[""]
- a| 
-이때 전원 코드를 꽂지 마십시오.
 
-|===
-시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
+IMPORTANT: 이때 전원 코드를 꽂지 마십시오.
+
+--
+====
 
 
-
-=== 케이블 연결 옵션: 케이블 구성에 따라 달라지는 옵션
+== 4단계: 호스트 네트워크 또는 스토리지에 케이블 연결(옵션)
 
 Fibre Channel 또는 iSCSI 호스트 네트워크 또는 직접 연결 스토리지에 대한 구성 종속 케이블 연결 옵션이 있습니다. 이 케이블 연결은 배타적이지 않으므로 호스트 네트워크 및 스토리지에 케이블로 연결할 수 있습니다.
 
-
-
-==== 옵션 1: Fibre Channel 호스트 네트워크에 케이블을 연결합니다
-
+[role="tabbed-block"]
+====
+.옵션 1: Fibre Channel 호스트 네트워크에 케이블 연결
+--
 컨트롤러의 파이버 채널 포트는 파이버 채널 호스트 네트워크 스위치에 연결됩니다.
 
 .시작하기 전에
-시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
-
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
+* 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
+* 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
++
 image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
 
++
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-[cols="10,90"]
-|===
-| 단계 | 각 컨트롤러 모듈에서 수행합니다 
 
 
- a| 
-1
- a| 
-포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.image:../media/drw_affa250_fc_host_cabling.png[""]
+.이 작업에 대해
+각 컨트롤러 모듈에서 단계를 수행합니다.
 
-
-
- a| 
-2
- a| 
-다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
-
-* <<옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다>>
-* <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
+.단계
+. 포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.
++
+image:../media/drw_affa250_fc_host_cabling.png[""]
 
 
 
-
- a| 
-3
- a| 
-시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
-
-|===
-
-
-==== 옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다
-
+--
+.옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다
+--
 컨트롤러의 25GbE 포트는 25GbE 데이터 또는 호스트 네트워크 스위치에 연결됩니다.
 
 .시작하기 전에
-시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
-
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
+* 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
+* 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
++
 image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
 
++
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-[cols="10,90"]
-|===
-| 단계 | 각 컨트롤러 모듈에서 수행합니다 
 
 
- a| 
-1
- a| 
-케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.image:../media/drw_affa250_25gbe_host_cabling.png[""]
+.이 작업에 대해
+각 컨트롤러 모듈에서 단계를 수행합니다.
 
-
-
- a| 
-2
- a| 
-다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
-
-* <<옵션 1: Fibre Channel 호스트 네트워크에 케이블을 연결합니다>>
-* <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
+.단계
+. 케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.
++
+image:../media/drw_affa250_25gbe_host_cabling.png[""]
 
 
 
-
- a| 
-3
- a| 
-시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
-
-|===
-
-
-==== 옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다
-
+--
+.옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다
+--
 각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결합니다.
 
 .시작하기 전에
@@ -391,40 +318,34 @@ image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
 
-애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 단일 쉘프 간의 케이블 연결을 완료합니다.
+.이 작업에 대해
+애니메이션 또는 표 형식 단계를 사용하여 컨트롤러와 단일 쉘프 간의 케이블 연결을 완료합니다. 각 컨트롤러 모듈에 대해 단계를 수행합니다.
 
 .애니메이션 - 컨트롤러를 단일 NS224에 케이블로 연결합니다
 video::3f92e625-a19c-4d10-9028-ac68017fbf57[panopto]
-[cols="10,90"]
-|===
-| 단계 | 각 컨트롤러 모듈에서 수행합니다 
+.단계
+. 컨트롤러 A를 쉘프에 연결합니다.
++
+image:../media/drw_affa250_1shelf_cabling_a.png[""]
 
-
- a| 
-image:../media/oie_legend_icon_1_mb.png[""]
- a| 
-컨트롤러 A를 쉘프에 연결: image:../media/drw_affa250_1shelf_cabling_a.png[""]
-
-
-
- a| 
-image:../media/oie_legend_icon_2_lo.png[""]
- a| 
-컨트롤러 B를 쉘프에 연결: image:../media/drw_affa250_1shelf_cabling_b.png[""]
-
-|===
-시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
+. 컨트롤러 B를 쉘프에 연결합니다.
++
+image:../media/drw_affa250_1shelf_cabling_b.png[""]
 
 
 
-== 4단계: 시스템 설치 및 구성을 완료합니다
+--
+====
+
+
+== 5단계: 시스템 설치를 완료합니다
 
 스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료합니다.
 
-
-
-=== 옵션 1: 네트워크 검색이 활성화된 경우 시스템 설치 및 구성을 완료합니다
-
+[role="tabbed-block"]
+====
+.옵션 1: 네트워크 검색이 활성화된 경우
+--
 랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료할 수 있습니다.
 
 .단계
@@ -486,10 +407,9 @@ https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"]
 . 초기 구성을 완료한 후 로 이동합니다 link:https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"^] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 
 
-
-
-=== 옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성을 완료합니다
-
+--
+.옵션 2: 네트워크 검색이 활성화되지 않은 경우
+--
 랩톱에서 네트워크 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.
 
 .단계
@@ -556,20 +476,14 @@ NOTE: 주소의 형식은 +https://x.x.x.x+ 입니다.
 
 . 계정 설정 및 Active IQ Config Advisor 다운로드:
 +
-.. 기존 계정에 로그인하거나 계정을 만듭니다.
-+
-https://mysupport.netapp.com/site/user/registration["NetApp 지원 등록"]
-
-.. 시스템을 등록합니다.
-+
-https://mysupport.netapp.com/site/systems/register["NetApp 제품 등록"]
-
-.. Active IQ Config Advisor를 다운로드합니다.
-+
-https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"]
-
+.. 에 로그인합니다 https://mysupport.netapp.com/site/user/registration["기존 계정을 만들거나 계정을 만듭니다"].
+.. https://mysupport.netapp.com/site/systems/register["등록"] 시스템.
+.. 다운로드 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"].
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
 . 초기 구성을 완료한 후 로 이동합니다 link:https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"^] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 
+
+--
+====
