@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, replace, dimm, shut, down, impaired, controller, controller, metrocluster, replace, system, reinstall, diagnostics, module, filed, part, aggregates, 
 summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 등록할 때 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.' 
 ---
-= DIMM-AFF A220 및 FAS2700을 교체합니다
+= DIMM-AFF A150을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

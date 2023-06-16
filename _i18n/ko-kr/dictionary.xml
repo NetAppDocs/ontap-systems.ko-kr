@@ -6082,7 +6082,6 @@
   <block id="f6344d6f5f705ef72e5da86baf7ff342" category="doc">온보드 암호화 키 확인 - AFF A320</block>
   <block id="1a44c6d683ab4458e8c10088dee0617d" category="doc">구성 - FAS8200을 복원 및 확인합니다</block>
   <block id="dd5eaf7a75785b4f26d6e9793b46ea6c" category="doc">섀시 교체 개요 - FAS8200</block>
-  <block id="36db73d94b30571d5e78b69926c4ee10" category="doc">컨트롤러 모듈 교체 - FAS8200의 개요</block>
   <block id="52a61ff1e81c104a11ce1a58a38dd667" category="doc">컨트롤러 - FAS8200을 종료합니다</block>
   <block id="a42edb5535752c77f564dff66261535b" category="doc">컨트롤러 모듈 하드웨어 - FAS8200을 교체합니다</block>
   <block id="8351404e0633e21cf67cb22047391a59" category="doc">부트 미디어 교체 개요 - FAS8200</block>
@@ -7867,7 +7866,6 @@
   <block id="841cf46b69a4b2c782c980b795074554" category="list-text">사이트에 다음 항목이 있는지 확인합니다.</block>
   <block id="85220111cf8764a6d5eefe427de4fbde" category="paragraph">필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치합니다.</block>
   <block id="1ccb5aa93b58b2e0cbfd6015e33c6a90" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
-  <block id="22cf31ea4e88d1269c525c08a9c8fdff" category="paragraph">UTA2 포트, 이더넷 데이터 네트워크 및 컨트롤러 모듈의 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러 모듈에 케이블로 연결됩니다.</block>
   <block id="434c44657e12928e06a65124dfb073b0" category="paragraph">스위치가 없는 2노드 클러스터를 케이블로 연결하는 방법에 대해 알아보십시오.</block>
   <block id="f7284f28e338cb3e10e42e8214151229" category="paragraph">UTA2 데이터 네트워크 포트 또는 이더넷 데이터 네트워크 포트를 사용하여 컨트롤러를 호스트 네트워크에 연결할 수 있습니다. 컨트롤러와 스위치 간에 케이블을 연결할 때는 다음 케이블 연결 그림을 참조하십시오.</block>
   <block id="48114454330840b73674b4d456819a4e" category="list-text">UTA2 데이터 네트워크 구성</block>
@@ -7978,4 +7976,17 @@
   <block id="1ed7e5bc49edc6dcd82d94adaa712607" category="paragraph">IOM12/IOM12B 모듈 기능: IOM12/IOM12B 모듈의 기능에 오류가 발생했습니다.</block>
   <block id="661a269cef9bb91a2f8b4d733118a2eb" category="paragraph">시스템 관리자는 오류가 발생한 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 물리적으로 찾을 수 있도록 이 LED 기능을 활성화했습니다.</block>
   <block id="a78123fcf223e9fb14720d2a07e2ef85" category="paragraph">다음 그림은 IOM12 모듈에 대한 것입니다.</block>
+  <block id="ab821717031a58a1a9d01409f017bf49" category="doc">컨트롤러 모듈 교체 개요 - FAS8200</block>
+  <block id="925bdd1d7aad5ef53490c52842590538" category="paragraph">다음 표에서는 스위치가 없는 2노드 클러스터 네트워크 케이블 연결과 스위치 클러스터 네트워크 케이블 연결의 그림에서 콜아웃 번호와 케이블 색을 사용한 케이블 유형을 식별합니다.</block>
+  <block id="d0afed67605524c7117536fe92ce3da8" category="cell">연결 유형</block>
+  <block id="985b78c75a9bb79d8cb44d78a86e22a9" category="image-alt">OIE 범례 아이콘 2 o</block>
+  <block id="73bfdf61f88c1cff337d81f80cb733d7" category="paragraph">데이터 네트워크 스위치를 호스팅할 컨트롤러</block>
+  <block id="2ef47c54a75d2ffe153e57585c5ef8eb" category="image-alt">OIE 범례 아이콘 3 lp</block>
+  <block id="3be4d8a4a3ae9d68dd7ac9118685e99e" category="paragraph">컨트롤러 - 관리 네트워크 스위치</block>
+  <block id="c00351b5bbad5f2b55b1e523113b08ab" category="paragraph">컨트롤러와 스위치 간에 케이블을 연결할 때는 다음 케이블 연결 그림을 참조하십시오.</block>
+  <block id="70c67999b75c623ee9876e398ee7ebb9" category="list-text">UTA2 데이터 네트워크 또는 이더넷 네트워크에 컨트롤러를 연결합니다.</block>
+  <block id="4eb04196699d24394da6f4bdb0a6cd76" category="doc">실시간 시계 배터리(AFF A220 및 FAS2700)를 교체합니다</block>
+  <block id="3529feb1f15a906788e97c962f5f18b5" category="doc">실시간 시계 배터리 AFF A150을 교체합니다</block>
+  <block id="74fef60bd66705310b79dcd3e46f4894" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF A150</block>
+  <block id="d646909dddf2c419f953113a67e04618" category="doc">DIMM-AFF A150을 교체합니다</block>
 </blocks>
