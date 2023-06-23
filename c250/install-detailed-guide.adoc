@@ -364,10 +364,11 @@ video::c500e747-30f8-4763-9065-afbf00008e7f[panopto]
 +
 자세한 내용은 노트북의 온라인 도움말을 참조하십시오.
 
-. 애니메이션을 사용하여 노트북을 관리 스위치에 연결합니다.
-+
-.애니메이션 - 노트북을 관리 스위치에 연결합니다
-video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
+. 노트북을 관리 스위치에 연결합니다.
+
+
+image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
+
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]
@@ -420,11 +421,11 @@ https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"]
 
 NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 도움말을 참조하십시오.
 
-.. 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.
+.. 랩톱 또는 콘솔을 관리 스위치에 연결합니다.
 +
-image::../media/drw_console_client_mgmt_subnet_affa250.png[drw 콘솔 클라이언트 관리 서브넷 affa250]
+image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
 
-.. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
+.. 관리 스위치에 있는 주소를 사용하여 랩톱 또는 콘솔에 TCP/IP 주소를 할당합니다.
 
 
 . 다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프에 대한 쉘프 ID를 설정하고 전원을 켭니다.

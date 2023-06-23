@@ -7867,12 +7867,10 @@
   <block id="85220111cf8764a6d5eefe427de4fbde" category="paragraph">필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치합니다.</block>
   <block id="1ccb5aa93b58b2e0cbfd6015e33c6a90" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
   <block id="434c44657e12928e06a65124dfb073b0" category="paragraph">스위치가 없는 2노드 클러스터를 케이블로 연결하는 방법에 대해 알아보십시오.</block>
-  <block id="f7284f28e338cb3e10e42e8214151229" category="paragraph">UTA2 데이터 네트워크 포트 또는 이더넷 데이터 네트워크 포트를 사용하여 컨트롤러를 호스트 네트워크에 연결할 수 있습니다. 컨트롤러와 스위치 간에 케이블을 연결할 때는 다음 케이블 연결 그림을 참조하십시오.</block>
   <block id="48114454330840b73674b4d456819a4e" category="list-text">UTA2 데이터 네트워크 구성</block>
   <block id="e6746873d55c9a028bc3eae1ed6cd0db" category="list-text">이더넷 네트워크 구성</block>
   <block id="f9655777cbdbded95ebaf4fdc1ed1c83" category="paragraph">각 컨트롤러 모듈에 대해 다음 단계를 수행하십시오.</block>
   <block id="4b7d254b4cff665eba8f89aeb96e16cb" category="list-text">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0a~e0a 및 e0b~e0b에 케이블을 연결합니다. 를 누릅니다<block ref="9a0e89c71564aa69ffecf67eb610bc96" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
   <block id="54254076225178d5782bc5158de2ffd3" category="list-text">다음 케이블 유형 중 하나를 사용하여 e0c/0c 및 e0d/0d 또는 e0e/0e 및 e0f/0f 데이터 포트를 호스트 네트워크에 연결합니다.</block>
   <block id="43083753a8bd4d126f4e9d226b24d42f" category="list-text">Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다. 다음 그림을 참조하십시오.</block>
   <block id="5cb31a934f99a854350d21ffae22067d" category="paragraph">스위치 클러스터 케이블 연결 방법에 대해 알아보십시오.</block>
@@ -7891,10 +7889,8 @@
   <block id="95a15694e7d6d23376f741970900ef8e" category="list-text">하드웨어 설치 및 케이블 연결</block>
   <block id="4657c74c0fa17e5f15e4a506f177b913" category="paragraph">다음 비디오는 시스템 설치 및 케이블 연결 방법을 보여줍니다.</block>
   <block id="d4b6f94dadb3f20b9bf031b9b9983ce3" category="list-text">엔드 투 엔드 소프트웨어 구성</block>
-  <block id="314f8c912a6741218e22dc8ca5f7ee41" category="paragraph">AFF A150 시스템 설치 방법을 알아보십시오.</block>
   <block id="119be031ef4485d20c7683d291d0e9f6" category="inline-link">MetroCluster 설명서</block>
   <block id="bfd53ea423739db497251aa14d8747cd" category="paragraph">MetroCluster 구성이 있는 경우 를 사용합니다<block ref="9b888d0bb3e87322cc68a0bb4a7ae515" category="inline-link-rx"></block>.</block>
-  <block id="f6387b34fb856500ccda4acb52336ff7" category="paragraph">AFF A150 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 받으십시오. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="5d0ff6a06bf967bf825de2c2a610cc33" category="list-text">시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.</block>
   <block id="bcce32e97ae0002c4edc1cc8b9245285" category="inline-link">시스템을 등록합니다</block>
   <block id="1e074148aea327f834455c1f6ae99894" category="list-text"><block ref="2539e9179736696f68f1ba88f3812383" category="inline-link-rx"></block>.</block>
@@ -7904,13 +7900,9 @@
   <block id="e881b3bd9e158bdbe75952ecb742a95f" category="inline-link">클러스터 구성 워크시트를 다운로드하고 작성합니다</block>
   <block id="738f95af1a0163cf0e1c5931095ae65f" category="list-text"><block ref="d3aebb99b149a14152b68ab3bc13a233" category="inline-link-rx"></block>.</block>
   <block id="767d56519e2665f49f35713c1a1be451" category="section-title">3단계: 컨트롤러를 네트워크에 케이블로 연결합니다</block>
-  <block id="32eaf8761a3db861b1156e2738e758c1" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
-  <block id="3760d11ceaf4a0fe32d1665068e04673" category="paragraph">컨트롤러의 관리 네트워크, UTA2 데이터 네트워크, 이더넷 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러에 케이블로 연결됩니다.</block>
   <block id="6daf690bb435e2ddca90bbd25f4d0d4c" category="list-text">UTA2 데이터 포트를 호스트 네트워크에 케이블로 연결하려면 다음 케이블 유형 중 하나를 사용하십시오.</block>
   <block id="afb6c834a58331c6ea63436bbf5864c3" category="list-text">FC 호스트의 경우 0c 및 0d * 또는 * 0e 및 0f를 사용하십시오.</block>
   <block id="0bd1e8e50111e01ba1604ade94902cca" category="list-text">10GbE 시스템의 경우 e0c 및 e0d * 또는 * e0e 및 e0f 를 사용합니다.</block>
-  <block id="1fc58e4765d0d92d238af8bdfc3ab370" category="list-text">통합 네트워크 케이블 연결</block>
-  <block id="b7f69837ac40254faa2741b926641a85" category="list-text">이더넷 네트워크 케이블 연결</block>
   <block id="d121c2dd9af112004d29375d7d7385ba" category="list-text">각 컨트롤러 모듈에 대해 클러스터 인터커넥트 케이블을 사용하여 e0a 및 e0b 케이블 연결 스위치에 대해 e0a 및 e0b 케이블을 연결합니다.</block>
   <block id="32f4bb165c35f300da46d2891dcd4591" category="list-text">FC 호스트의 경우 0c 및 0d** 또는** 0e 및 0f를 사용합니다.</block>
   <block id="94a602afccb4ec515036eba24fdfed92" category="list-text">10GbE 시스템의 경우 e0c 및 e0d ** 또는 ** e0e 및 e0f 를 사용합니다.</block>
@@ -7989,4 +7981,19 @@
   <block id="3529feb1f15a906788e97c962f5f18b5" category="doc">실시간 시계 배터리 AFF A150을 교체합니다</block>
   <block id="74fef60bd66705310b79dcd3e46f4894" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF A150</block>
   <block id="d646909dddf2c419f953113a67e04618" category="doc">DIMM-AFF A150을 교체합니다</block>
+  <block id="833748c904af71a7ab422a33ad70be86" category="list-text">노트북을 관리 스위치에 연결합니다.</block>
+  <block id="482df54948cb0af45b9238ba8f7416dd" category="paragraph">스위치가 없는 2노드 클러스터 방법을 사용하거나 전환된 클러스터 방법을 사용하여 컨트롤러를 네트워크에 연결할 수 있습니다.</block>
+  <block id="ff83054154392545e173589dbc5f0d6e" category="paragraph">컨트롤러 모듈의 클러스터 인터커넥트 및 HA 포트는 파트너 컨트롤러 모듈에 케이블로 연결됩니다. 컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다.</block>
+  <block id="d9a4d96ebe77470ef37b10a2002ee889" category="paragraph">컨트롤러 모듈 클러스터 인터커넥트 및 HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다. 데이터 포트(옵션), NIC 카드(옵션), 메자닌 카드 및 관리 포트는 스위치에 연결됩니다.</block>
+  <block id="3794995e59166b895cc502ce8c1ba88e" category="list-text">관리 스위치에 랩톱을 연결합니다.</block>
+  <block id="55d181b0e985bd01c76c600ee8e5436b" category="paragraph">이 섹션에서는 AFF A150 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="07b84ded01d94786eac9600aeee34234" category="paragraph">AFF A150 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 얻어야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="c82dff6dbb251f02ea9b21c5377c84b7" category="paragraph">필요에 따라 시스템을 4-포스트 랙 또는 NetApp 시스템 캐비닛에 설치합니다.</block>
+  <block id="c0f68275dba754d24cf8cd39cc11b441" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 스위치 클러스터 방법을 사용하여 컨트롤러를 네트워크에 케이블로 연결합니다.</block>
+  <block id="5a579b0b54ae5d57e0aca1dfcffc421b" category="paragraph">스위치가 없는 2노드 클러스터를 케이블로 연결합니다.</block>
+  <block id="69516d110b779c64dceeed289ceff830" category="list-text">UTA2 데이터 네트워크 또는 이더넷 네트워크에 컨트롤러 케이블 연결:</block>
+  <block id="9216554f447e636359d50545d5efdd16" category="paragraph">스위치 클러스터를 케이블로 연결합니다.</block>
+  <block id="04924b20a91a5f5b238ee6721421d3cb" category="list-text">UTA2 데이터 네트워크 포트 또는 이더넷 데이터 네트워크 포트를 사용하여 컨트롤러를 호스트 네트워크에 연결할 수 있습니다.</block>
+  <block id="be838816a39a48461edd5a1e87b6d8e5" category="list-text">랩톱 또는 콘솔을 관리 스위치에 연결합니다.</block>
+  <block id="fea0a68e925a0ae2df0aa5bbdbe7c891" category="list-text">관리 스위치에 있는 주소를 사용하여 랩톱 또는 콘솔에 TCP/IP 주소를 할당합니다.</block>
 </blocks>
