@@ -56,9 +56,9 @@ NOTE: 2개 이상의 스택이 있는 HA 쌍이 있는 경우, 두 번째 스택
 레이블은 스택 번호를 표시합니다(예: * Loop 또는 Stack#:1 * 및 * Loop 또는 Stack#:2 *). 루트 애그리게이트가 포함되지 않은 디스크 쉘프는 레이블에 디스크 쉘프 일련 번호만 표시합니다.
 
 * 시스템 설치 및 구성 시 자동 디스크 소유권 할당을 사용하도록 시스템을 구성하지 않은 경우 디스크 소유권을 수동으로 할당해야 합니다.
-* 대역내 대체 제어 경로(ACP)가 자동으로 활성화됩니다.
+* 대역 내 대체 제어 경로(IBACP)가 자동으로 활성화됩니다.
 +
-단일 경로 HA 또는 단일 경로 구성에서는 대역 내 ACP가 지원되지 않습니다.
+IBACP는 단일 경로 HA 또는 단일 경로 구성에서 지원되지 않습니다.
 
 
 
@@ -84,7 +84,7 @@ SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제�
 Config Advisor를 다운로드하려면 네트워크 액세스가 필요합니다.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 
 
@@ -242,7 +242,7 @@ NOTE: 지금은 디스크 쉘프의 전원을 사용하지 마십시오.
 쉘프-쉘프(해당하는 경우) 및 컨트롤러-쉘프-케이블을 연결하여 시스템에 대한 스토리지 연결을 설정합니다.
 
 .시작하기 전에
-의 요구사항을 충족해야 합니다 <<Requirements for installing and cabling disk shelves with IOM12 modules for a new system installation>> 랙에 디스크 쉘프를 설치합니다.
+의 요구사항을 충족해야 합니다 <<새 시스템 설치를 위해 IOM12/IOM12B 모듈을 사용하여 디스크 쉘프 설치 및 케이블 연결 요구 사항>> 랙에 디스크 쉘프를 설치합니다.
 
 .이 작업에 대해
 디스크 쉘프의 케이블을 연결한 후 전원을 켜고 쉘프 ID를 설정한 다음 시스템 설정 및 구성을 완료합니다.
@@ -259,7 +259,7 @@ NOTE: 지금은 디스크 쉘프의 전원을 사용하지 마십시오.
 
 
  a| 
-다중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 구성을 케이블로 연결할 수 있습니다
+다중 경로 HA, 3중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 구성을 케이블로 연결할 수 있습니다
  a| 
 "표준" 연결(IOM 포트 3 및 1 사용)으로 셸프 간 연결을 "표준" 연결 케이블로 연결합니다.
 
@@ -286,10 +286,10 @@ NOTE: 지금은 디스크 쉘프의 전원을 사용하지 마십시오.
 +
 .. 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 확인하여 완성된 워크시트가 현재 구성에 있는지 확인하십시오.
 +
-link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예"]
+link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 내부 스토리지가 있는 플랫폼의 케이블 연결 예"]
 
 +
-link:install-cabling-worksheets-examples-multipath.html["일반적인 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예"]
+link:install-cabling-worksheets-examples-multipath.html["다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예"]
 
 +
 link:install-worksheets-examples-quadpath.html["2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예"]
@@ -409,7 +409,7 @@ NOTE: 시스템을 부팅하기 전에 이 기회를 활용하여 케이블이 �
 SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제공된 수정 조치를 따르십시오.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 +
 또한 'storage shelf show-fields shelf-id' 명령을 실행하여 시스템에 이미 사용 중인(있는 경우 중복) 쉘프 ID 목록을 볼 수 있습니다.

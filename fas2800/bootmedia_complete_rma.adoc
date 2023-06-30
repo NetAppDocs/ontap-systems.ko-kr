@@ -1,0 +1,14 @@
+---
+permalink: fas2800/bootmedia-complete-rma.html 
+sidebar: sidebar 
+keywords: fas2800, complete, replacement, process, replace, return, failed, rma, instructions 
+summary: 부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 
+---
+= 장애가 발생한 부품을 NetApp-FAS2800으로 반환합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

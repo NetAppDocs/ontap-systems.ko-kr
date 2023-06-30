@@ -35,7 +35,7 @@ IOM12B 모듈은 파란색 스트라이프와 "IOM12B" 레이블로 구별됩니
 +
 image::../media/iom12b.png[iom12b]
 
-* 다중 경로(다중 경로 HA 또는 다중 경로) 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우 쉘프 IOM을 핫 스왑할 수 있습니다. 즉, 전원이 켜져 있고 데이터를 제공하는 시스템의 쉘프 IOM을 중단 없이 교체할 수 있습니다. -- I/O가 진행 중입니다.
+* 다중 경로(다중 경로 HA 또는 다중 경로), 3중 경로 HA 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우 쉘프 IOM을 핫 스왑할 수 있습니다. 즉, 전원이 켜져 있고 데이터 I/O를 제공하는 시스템의 쉘프 IOM을 중단 없이 교체할 수 있습니다.
 * FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성의 경우 전원을 켜고 데이터를 제공하는 시스템의 쉘프 IOM을 대체하기 위해 테이크오버 및 반환 작업을 수행해야 합니다. -- I/O가 진행 중입니다.
 * FAS2600 시리즈 단일 경로 구성의 경우 쉘프 IOM을 교체하기 위해 시스템을 중지해야 합니다.
 +
@@ -47,10 +47,10 @@ NOTE: 단일 경로 연결로 디스크 쉘프의 쉘프 IOM을 핫 스왑하려
 펌웨어의 현재 버전은 NetApp Support 사이트에서 확인할 수 있습니다.
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"^]
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"^]
 
 * IOM(디스크 쉘프) 펌웨어가 최신 버전이 아닌 새 쉘프 IOM에서 중단 없이 자동으로 업데이트됩니다.
 +
@@ -78,7 +78,7 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp
 
 
  a| 
-다중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성
+다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성
  a| 
 다음 단계로 이동합니다.
 
@@ -141,7 +141,7 @@ SAS 케이블 커넥터는 IOM 포트에 올바르게 맞추면 딸깍 소리가
 
 
  a| 
-다중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성
+다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성
  a| 
 다음 단계로 이동합니다.
 

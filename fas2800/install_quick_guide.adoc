@@ -1,0 +1,18 @@
+---
+permalink: fas2800/install-quick-guide.html 
+sidebar: sidebar 
+keywords: fas2800, quick, guide, graphic, instructions, install, rack, cable 
+summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 
+---
+= 빠른 설명서 - FAS2800
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.
+
+설치 및 설정 지침_PDF 포스터에 액세스합니다.
+
+link:../media/PDF/June_2023_Rev-1_FAS2800_ISI.pdf["FAS2800 시스템 설치 및 설정 지침"]

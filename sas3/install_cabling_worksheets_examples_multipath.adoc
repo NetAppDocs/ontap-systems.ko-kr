@@ -1,10 +1,10 @@
 ---
 permalink: sas3/install-cabling-worksheets-examples-multipath.html 
 sidebar: sidebar 
-keywords: controller-to-stack, cabling, worksheet, cable, ha, pair, multipath, ha, configuration, controller-to-stack, cabling, controller-to-stack cabling worksheets and cabling examples for common multipath ha configuration 
+keywords: controller-to-stack, cabling, worksheet, cable, ha, pair, multipath, ha, configuration, controller-to-stack, cabling, controller-to-stack cabling worksheets and cabling examples for multipath ha configuration 
 summary: 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 사용하여 HA 쌍을 다중 경로 HA 구성으로 연결할 수 있습니다. 
 ---
-= 일반적인 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블 연결 워크시트 및 케이블 연결 예 - IOM12/IOM12B 모듈이 장착된 쉘프
+= 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블 연결 워크시트 및 케이블 연결 예 - IOM12/IOM12B 모듈이 장착된 쉘프
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,7 +13,10 @@ summary: 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예�
 [role="lead"]
 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 사용하여 HA 쌍을 다중 경로 HA 구성으로 연결할 수 있습니다.
 
-* 필요한 경우 을 참조할 수 있습니다 link:install-cabling-rules.html["SAS 케이블 연결 규칙"] 지원되는 구성에 대한 자세한 내용은 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(포트 쌍 사용 포함)을 참조하십시오.
+
+NOTE: 이 정보는 내부 스토리지가 없는 플랫폼에 적용됩니다.
+
+* 필요한 경우 을 참조할 수 있습니다 link:install-cabling-rules.html["SAS 케이블 연결 규칙 및 개념"] 지원되는 구성에 대한 자세한 내용은 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(포트 쌍 사용 포함)을 참조하십시오.
 * 필요한 경우 을 참조할 수 있습니다 link:install-cabling-worksheets-how-to-read-multipath.html["다중 경로 연결을 위해 컨트롤러 대 스택 연결에 케이블을 연결하기 위해 워크시트를 읽는 방법"].
 * 케이블 연결 예는 컨트롤러 A 및 C 포트 연결과 컨트롤러 B 및 D 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.
 +

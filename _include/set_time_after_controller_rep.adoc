@@ -13,9 +13,9 @@
 
 .단계
 . refacement_node가 LOADER 프롬프트에 있지 않으면 시스템을 LOADER 프롬프트로 중단합니다.
-. healthy_node에서 시스템 시간, 즉 '날짜 표시'를 확인한다
+. Healthy_node에서 시스템 시간을 확인합니다. `cluster date show`
 +
-날짜 및 시간은 GMT로 제공됩니다.
+날짜와 시간은 구성된 시간대를 기준으로 합니다.
 
 . LOADER 프롬프트에서, _replacement_node:sHow date의 날짜와 시간을 확인하십시오
 +
@@ -23,7 +23,7 @@
 
 . 필요한 경우 교체 노드의 날짜(GMT)를 'SET DATE_MM/dd/yyyy_'로 설정합니다
 . 필요한 경우 교체 노드의 시간을 GMT 단위로 'SET TIME_hh:mm:ss_'로 설정합니다
-. LOADER 프롬프트에서 _replacement_node:sHow date의 날짜와 시간을 확인합니다
+. LOADER 프롬프트에서 _replacement_node의 날짜 및 시간을 확인합니다. `date`
 +
 날짜 및 시간은 GMT로 제공됩니다.
 

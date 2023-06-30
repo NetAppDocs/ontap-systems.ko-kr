@@ -28,14 +28,14 @@ IOM12/IOM12B 모듈을 사용하여 디스크 쉘프를 핫 추가하기 전에 
 
 * 시스템과 버전의 ONTAP는 IOM, 디스크 드라이브 및 SAS 케이블을 포함하여 현재 추가하고 있는 디스크 쉘프를 지원해야 합니다.
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 
 * 시스템에 핫 추가할 디스크 쉘프 수가 지원되는 최대 디스크 드라이브 수보다 작아야 합니다.
 +
 디스크 쉘프를 핫 추가한 후에는 시스템에서 지원되는 최대 디스크 드라이브 수를 초과할 수 없습니다.
 
 +
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 
 * 하나 이상의 디스크 쉘프 스택을 플랫폼 컨트롤러에 직접 추가하는 경우, 시스템에 사용 가능한 PCI SAS HBA 또는 온보드 SAS 포트가 충분히 있거나 둘 다 조합하여 사용해야 합니다.
 +
@@ -54,7 +54,7 @@ Config Advisor를 다운로드하여 SAS 연결이 올바르게 연결되었는�
 오류 메시지에서 제공하는 수정 조치를 사용하여 케이블 연결 오류를 수정해야 합니다.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 
 
@@ -84,13 +84,6 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 단일 경로 HA 및 단일 경로 구성의 경우, AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 적용할 수 있으므로 컨트롤러 연결이 없는 스택 맨 끝에 디스크 쉘프를 추가할 수 있습니다.
 
 * IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 자체 고유 스택에 있어야 하며, IOM6 모듈 또는 IOM3 모듈이 포함된 쉘프가 있는 스택에 추가할 수 없습니다.
-+
-이 절차에서는 IOM12/IOM12B 모듈이 포함된 쉘프 스택에 대한 IOM6 모듈의 핫 추가 등 스택 혼합에 대해 다루지 않습니다.
-
-* IOM12/IOM12B 모듈을 사용하면 한 시스템에서 다중 경로 및 4중 경로 방식의 디스크 쉘프 스택을 수행할 수 있습니다.
-+
-HA 쌍이 있는 경우 ONTAP는 시스템 구성을 '멀티경로 HA'로 표시합니다. 단일 컨트롤러 구성의 경우 ONTAP는 시스템 구성을 '멀티경로'로 표시합니다.
-
 * 이 절차에서는 대역 내 ACP를 사용하는 구성을 가정합니다.
 +
 대역 내 ACP가 활성화된 구성의 경우, 핫 추가된 디스크 쉘프에서 대역 내 ACP가 자동으로 활성화됩니다. 대역 내 ACP가 사용되지 않는 구성의 경우, 핫 추가 디스크 쉘프는 ACP 기능 없이 작동합니다.
@@ -123,17 +116,17 @@ SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제�
 Config Advisor를 다운로드하려면 네트워크 액세스가 필요합니다.
 
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 * 모범 사례는 새 디스크 쉘프, 쉘프 FRU 구성요소 또는 SAS 케이블을 추가하기 전에 현재 버전의 디스크 쉘프(IOM) 펌웨어 및 디스크 드라이브 펌웨어를 시스템에 추가하는 것입니다.
 +
 펌웨어의 현재 버전은 NetApp Support 사이트에서 확인할 수 있습니다.
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NetApp 다운로드: 디스크 쉘프 펌웨어"^]
 
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp 다운로드: 디스크 드라이브 펌웨어"^]
 
 
 
@@ -291,7 +284,7 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 내부 디스크 쉘프가 있는 플랫폼 모델이 있는 경우 쉘프 ID는 내부 디스크 쉘프 및 외부 연결 디스크 쉘프 전체에서 고유해야 합니다.
 
 +
-다음 하위 단계를 사용하여 쉘프 ID를 변경하거나 자세한 지침을 보려면 를 사용하십시오 link:install-change-shelf-id.html["쉘프 ID를 변경합니다"].
+다음 하위 단계를 사용하여 쉘프 ID를 변경하거나 자세한 지침을 보려면 를 사용하십시오 link:install-change-shelf-id.html["쉘프 ID를 변경합니다"^].
 
 +
 .. 필요한 경우 Config Advisor를 실행하여 이미 사용 중인 쉘프 ID를 확인하십시오.
@@ -316,7 +309,7 @@ CAUTION: * 데이터 액세스 손실 가능성: * 서랍을 닫지 마십시오
 
 == 핫 애드용 IOM12/IOM12B 모듈과 디스크 쉘프 케이블 연결
 
-새로 추가된 디스크 쉘프에 해당하는 SAS 연결(쉘프-쉘프 및 컨트롤러-스택)에 케이블을 연결하여 시스템에 연결할 수 있습니다.
+시스템에 연결할 수 있도록 핫 추가 디스크 쉘프에 해당하는 SAS 연결(쉘프-쉘프 및 컨트롤러-스택)에 케이블을 연결합니다.
 
 .시작하기 전에
 의 요구사항을 충족해야 합니다 link:install-hot-add-shelf.html#requirements-for-hot-adding-disk-shelves-with-iom12iom12b-modules["IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항"] 및 의 지침에 따라 각 디스크 쉘프에 대한 쉘프 ID를 설치, 전원 공급 및 설정합니다 link:install-hot-add-shelf.html#install-disk-shelves-with-iom12iom12b-modules-for-a-hot-add["핫 애드 기능을 위해 IOM12 모듈과 디스크 쉘프를 설치합니다"].
@@ -363,7 +356,7 @@ HA 쌍의 두 컨트롤러에서 디스크 소유권 자동 할당을 비활성�
 
 
  a| 
-다중 경로 HA, 다중 경로, 단일 경로 HA 또는 컨트롤러에 대한 단일 경로 연결을 사용하여 스택을 케이블로 연결합니다
+다중 경로 HA, 삼중 경로 HA, 다중 경로, 단일 경로 HA 또는 컨트롤러에 대한 단일 경로 연결을 사용하여 스택을 케이블로 연결합니다
  a| 
 "표준" 연결(IOM 포트 3 및 1 사용)으로 셸프 간 연결을 "표준" 연결 케이블로 연결합니다.
 
@@ -386,10 +379,10 @@ HA 쌍의 두 컨트롤러에서 디스크 소유권 자동 할당을 비활성�
 |===
 .. 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 확인하여 완성된 워크시트가 현재 구성에 있는지 확인하십시오.
 +
-link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 온보드 스토리지가 있는 AFF 및 FAS 플랫폼의 케이블 연결 예"]
+link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 내부 스토리지가 있는 플랫폼의 케이블 연결 예"]
 
 +
-link:install-cabling-worksheets-examples-multipath.html["일반적인 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예"]
+link:install-cabling-worksheets-examples-multipath.html["다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예"]
 
 +
 link:install-worksheets-examples-quadpath.html["2개의 4중 포트 SAS HBA를 사용하는 4중 경로 HA 구성의 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예"]
@@ -405,7 +398,7 @@ link:install-cabling-worksheet-template-quadpath.html["4중 경로 연결을 위
 .. 모든 케이블이 단단히 고정되어 있는지 확인합니다.
 
 
-. 기존 스택의 논리적 첫 번째 또는 마지막 디스크 쉘프에 하나 이상의 디스크 쉘프를 핫 추가하는 경우 해당 구성에 대한 하위 단계를 완료하고, 그렇지 않으면 다음 단계로 이동합니다.
+. 기존 스택의 끝(논리적 첫 번째 또는 마지막 디스크 쉘프)에 디스크 쉘프를 핫 추가하는 경우 구성에 해당하는 하위 단계를 완료하고, 그렇지 않으면 다음 단계로 이동합니다.
 +
 
 NOTE: 케이블을 분리한 후 다시 연결하는 데 70초 이상 기다려야 하며, 케이블을 더 오래 교체할 경우
@@ -417,7 +410,7 @@ NOTE: 케이블을 분리한 후 다시 연결하는 데 70초 이상 기다려�
 
 
  a| 
-다중 경로 HA, 다중 경로, 4중 경로 HA 또는 컨트롤러에 대한 4중 경로 연결을 갖춘 스택의 맨 끝에 디스크 쉘프를 추가합니다
+다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 컨트롤러에 대한 4중 경로 연결이 있는 스택의 맨 끝에 디스크 쉘프를 추가합니다
  a| 
 .. 컨트롤러에 연결된 스택 맨 끝에 있는 디스크 쉘프의 IOM A에서 케이블을 모두 분리합니다. 그렇지 않으면 하위 단계 e로 이동합니다
 +
@@ -444,14 +437,14 @@ AFF A200, AFF A220, FAS2600 시리즈 및 FAS2700 시스템에 해당하는 단�
 |===
 . SAS 구리 케이블로 연결된 디스크 쉘프 스택에 미니 SAS HD SAS 광 케이블이 포함된 디스크 쉘프를 핫 추가한 경우, SAS 구리 케이블을 교체합니다. 그렇지 않은 경우 다음 단계로 이동합니다.
 +
-스택은 에 명시된 요구 사항을 충족해야 합니다 <<IOM12 모듈을 이용한 핫 추가 디스크 쉘프 요구사항>> 섹션을 참조하십시오.
+스택은 에 명시된 요구 사항을 충족해야 합니다 <<IOM12/IOM12B 모듈이 포함된 핫 추가 디스크 쉘프 요구사항>> 섹션을 참조하십시오.
 
 +
 케이블을 한 번에 하나씩 교체하고 케이블을 분리하고 새 케이블을 연결하는 사이에 70초 이상 기다려야 합니다.
 
 . Config Advisor를 다운로드하여 SAS 연결이 올바르게 연결되었는지 확인합니다.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 다운로드: Config Advisor"]
+https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 +
 SAS 케이블 연결 오류가 발생하면 제공된 수정 조치를 따르십시오.

@@ -13,19 +13,20 @@ summary: IOM12 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 �
 [role="lead"]
 IOM12/IOM12B 모듈을 사용하여 SAS 드라이브 쉘프를 스토리지 시스템에 케이블로 연결하는 데 도움이 되도록 필요에 따라 사용 가능한 SAS 케이블 연결 규칙, 워크시트 및 예제 콘텐츠를 사용할 수 있습니다.
 
-SAS 케이블 연결 규칙 *
+* SAS 케이블 연결 규칙 및 개념 *
 
 * link:install-cabling-rules.html#configuration-rules["설정"]
 * link:install-cabling-rules.html#controller-slot-numbering-rules["컨트롤러 슬롯 번호 지정"]
 * link:install-cabling-rules.html#shelf-to-shelf-connection-rules["쉘프-쉘프 연결"]
 * link:install-cabling-rules.html#controller-to-stack-connection-rules["컨트롤러-스택 연결"]
 * link:install-cabling-rules.html#mini-sas-hd-sas-optical-cable-rules["미니 SAS HD SAS 광 케이블"]
+* link:install-cabling-rules.html#tri-path-ha-connectivity["3중 경로 HA 연결"]
 
 
 * 워크시트 및 예제 케이블 연결 *
 
-* link:install-cabling-worksheets-examples-multipath.html["공통 다중 경로 HA 구성"]
-* link:install-cabling-worksheets-examples-fas2600.html["온보드 스토리지가 있는 AFF 및 FAS 플랫폼"]
+* link:install-cabling-worksheets-examples-multipath.html["다중 경로 HA 구성"]
+* link:install-cabling-worksheets-examples-fas2600.html["플랫폼이 내장되어 있습니다"]
 * link:install-worksheets-examples-quadpath.html["4중 경로 HA 구성"]
 
 

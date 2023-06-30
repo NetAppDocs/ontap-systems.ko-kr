@@ -57,7 +57,7 @@ replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는
 .단계
 . 논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다
 +
-LIF가 FALSE로 나열되면 홈 포트인 '네트워크 인터페이스 되돌리기'로 되돌립니다
+LIF가 FALSE로 표시되면 해당 LIF를 홈 포트로 되돌립니다. `network interface revert -vserver * -lif *`
 
 . NetApp Support에 시스템 일련 번호를 등록합니다.
 +
@@ -65,6 +65,7 @@ LIF가 FALSE로 나열되면 홈 포트인 '네트워크 인터페이스 되돌�
 ** AutoSupport가 활성화되어 있지 않으면 를 호출합니다 https://mysupport.netapp.com["NetApp 지원"] 일련 번호를 등록합니다.
 
 
+. AutoSupport 유지보수 윈도우가 트리거된 경우 를 사용하여 윈도우를 종료합니다 `system node autosupport invoke -node * -type all -message MAINT=END` 명령.
 . 자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true'를 다시 설정합니다
 
 
