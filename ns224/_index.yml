@@ -27,3 +27,5 @@ indexpage:
       url: "/service-replace-power-supply.html"
     - title: RTC 배터리
       url: "/service-replace-rtc-battery.html"
+    - title: 쉘프 LED 상태 조건
+      url: "/service-monitor-leds.html"
