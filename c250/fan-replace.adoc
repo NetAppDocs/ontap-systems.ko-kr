@@ -94,10 +94,8 @@ image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
- a| 
-레버
-
+* 1 *
+| 레버 
 
 
  a| 
@@ -133,7 +131,6 @@ image:../media/legend_icon_02.png[""]
 
 == 3단계: 팬을 교체합니다
 
-[role="lead"]
 팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다.
 
 다음 비디오 또는 표 형식 단계를 사용하여 팬을 교체합니다.

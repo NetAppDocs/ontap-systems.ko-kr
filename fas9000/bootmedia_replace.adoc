@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, open, controller, module, system, access, component 
 summary: 컨트롤러 내의 구성 요소에 액세스하려면 먼저 시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈의 덮개를 분리해야 합니다. 
 ---
-= 부팅 미디어 AFF A700 및 FAS9000을 교체합니다
+= 부팅 미디어 - FAS9000을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

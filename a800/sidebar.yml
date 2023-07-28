@@ -1,7 +1,6 @@
 ---
 section: a800
 title: AFF A800 시스템
-url: "/a800/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: AFF A800 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A800은 계속 유지됩니다
   entries:
+  - title: 개요
+    url: "/a800/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A800 부트 미디어
     entries:
@@ -41,9 +42,9 @@ entries:
       url: "/a800/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a800/chassis-replace-shutdown.html"
-    - title: 하드웨어를 교체합니다
+    - title: 섀시를 교체합니다
       url: "/a800/chassis-replace-move-hardware.html"
-    - title: 전체 교체
+    - title: 섀시 교체를 완료합니다
       url: "/a800/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
     pdf-filename: AFF A800 컨트롤러 모듈
@@ -52,13 +53,13 @@ entries:
       url: "/a800/controller-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a800/controller-replace-shutdown.html"
-    - title: 컨트롤러 모듈을 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/a800/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/a800/controller-replace-system-config-restore-and-verify.html"
     - title: 회수 가능 시스템
       url: "/a800/controller-replace-recable-reassign-disks.html"
-    - title: 전체 교체
+    - title: 전체 컨트롤러 교체
       url: "/a800/controller-replace-restore-system-rma.html"
   - title: DIMM
     url: "/a800/dimm-replace.html"

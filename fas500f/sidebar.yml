@@ -1,7 +1,6 @@
 ---
 section: fas500f
 title: 500f 시스템 FAS500f
-url: "/fas500f/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: FAS500f 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: 500f의 유지 관리
   entries:
+  - title: 개요
+    url: "/fas500f/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: FAS500f 부팅 미디어
     entries:

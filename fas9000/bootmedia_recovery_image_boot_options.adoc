@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, boot, recovery, image, two, node, metrocluster, configuration 
 summary: 복구 이미지에서 손상된 노드를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다. 
 ---
-= 복구 이미지 AFF A700 및 FAS9000을 부팅합니다
+= 복구 이미지 - FAS9000을 부팅합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ summary: 복구 이미지에서 손상된 노드를 부팅하는 절차는 시�
 
 
 
-== 옵션 1 대부분의 시스템에서 복구 이미지를 부팅합니다
+== 옵션 1: 대부분의 시스템에서 복구 이미지를 부팅합니다
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
 

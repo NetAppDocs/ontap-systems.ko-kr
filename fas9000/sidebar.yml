@@ -1,7 +1,6 @@
 ---
 section: fas9000
 title: FAS9000 시스템
-url: "/fas9000/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: FAS9000 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: FAS9000 유지 관리
   entries:
+  - title: 개요
+    url: "/fas9000/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: FAS9000 부팅 미디어
     entries:
@@ -51,7 +52,7 @@ entries:
       url: "/fas9000/chassis-replace-move-hardware.html"
     - title: 전체 교체
       url: "/fas9000/chassis-replace-complete-system-restore-rma.html"
-  - title: 컨트롤러 모듈
+  - title: 컨트롤러
     pdf-filename: FAS9000 컨트롤러
     entries:
     - title: 개요
@@ -74,20 +75,20 @@ entries:
     url: "/fas9000/fan-swap-out.html"
   - title: 입출력 모듈
     url: "/fas9000/pci-cards-and-risers-replace.html"
-  - title: LED USB 모듈
+  - title: LED USB
     url: "/fas9000/led-module-replace.html"
   - title: NVRAM
     url: "/fas9000/nvram-module-or-nvram-dimm-replacement.html"
   - title: 전원 공급 장치
     url: "/fas9000/power-supply-swap-out.html"
-  - title: RTC 배터리
+  - title: 실시간 시계 배터리
     url: "/fas9000/rtc-battery-replace.html"
   - title: X91148A 모듈
     pdf-filename: FAS9000 X91148A 모듈
     entries:
     - title: 개요
       url: "/fas9000/x91148a-module-install-overview.html"
-    - title: 슬롯이 열린 AFF A700 시스템
+    - title: 열린 슬롯이 있는 시스템에 X91148A 모듈을 추가합니다
       url: "/fas9000/x91148a-modules-with-open-slots-add.html"
-    - title: AFF A700 시스템은 열려 있는 슬롯이 없습니다
+    - title: 시스템에 열려 있는 슬롯이 없는 X91148A를 추가합니다
       url: "/fas9000/x91148a-modules-with-no-open-slots-add.html"

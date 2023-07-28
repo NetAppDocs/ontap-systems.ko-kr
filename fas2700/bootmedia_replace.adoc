@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, aff a220, replace, boot, media, controller, module, fru map 
 summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다. 
 ---
-= 부팅 미디어(AFF A220 및 FAS2700)를 교체합니다
+= 부팅 미디어 교체 - FAS2700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

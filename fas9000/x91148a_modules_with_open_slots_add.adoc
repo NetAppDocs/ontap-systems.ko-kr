@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, ass, x91148a, module, open, slots, nic, storage 
 summary: X91148A 모듈을 시스템의 빈 모듈 슬롯에 100GbE NIC 또는 NS224 스토리지 셸프용 스토리지 모듈로 추가할 수 있습니다. 
 ---
-= AFF A700에 열린 슬롯이 있는 AFF A700 및 FAS9000의 X91148A 모듈을 추가합니다
+= 열린 슬롯-FAS9000이 있는 시스템에 X91148A 모듈을 추가합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

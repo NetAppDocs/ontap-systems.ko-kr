@@ -1,7 +1,6 @@
 ---
 section: a150
 title: AFF A150 시스템
-url: "/a150/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: AFF A150 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A150 유지 보수
   entries:
+  - title: 개요
+    url: "/a150/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A150 부팅 미디어
     entries:
@@ -44,7 +45,7 @@ entries:
       url: "/a150/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a150/chassis-replace-shutdown.html"
-    - title: 하드웨어를 교체합니다
+    - title: 섀시를 교체합니다
       url: "/a150/chassis-replace-move-hardware.html"
     - title: 구성을 복원합니다
       url: "/a150/chassis-replace-complete-system-restore-rma.html"
@@ -55,7 +56,7 @@ entries:
       url: "/a150/controller-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a150/controller-replace-shutdown.html"
-    - title: 컨트롤러 하드웨어를 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/a150/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/a150/controller-replace-system-config-restore-and-verify.html"

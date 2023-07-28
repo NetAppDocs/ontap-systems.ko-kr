@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, post, boot, media, replacement, steps, okm, nse, nve 
 summary: '환경 변수를 선택한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE), NetApp 볼륨 암호화(NVE)가 활성화된 시스템과 관련된 단계를 완료해야 합니다.' 
 ---
-= 필요에 따라 OKM, NSE 및 NVE 복원 - AFF A700 및 FAS9000
+= 필요에 따라 OKM, NSE 및 NVE를 복원합니다. - FAS9000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

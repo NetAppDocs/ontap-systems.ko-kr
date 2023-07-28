@@ -188,7 +188,7 @@ LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니
  a| 
 포트 수가 적은 NIC 입출력 모듈
  a| 
-영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
+Assetected LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
 
 

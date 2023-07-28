@@ -1,7 +1,6 @@
 ---
 section: a700s
 title: AFF A700s 시스템
-url: "/a700s/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: AFF A700s 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A700s는 유지됩니다
   entries:
+  - title: 개요
+    url: "/a700s/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A700s는 미디어를 부팅합니다
     entries:
@@ -86,5 +87,3 @@ entries:
   - title: 실시간 시계 배터리
     pdf-filename: AFF A700s 실시간 시계 배터리
     url: "/a700s/rtc-battery-replace.html"
-  - title: 시스템 레벨 진단
-    url: "/a700s/system-level-diags-linkout.html"

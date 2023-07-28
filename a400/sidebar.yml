@@ -1,7 +1,6 @@
 ---
 section: a400
 title: AFF A400 시스템
-url: "/a400/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: AFF A400 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A400의 유지 관리
   entries:
+  - title: 개요
+    url: "/a400/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A400 부팅 미디어
     entries:
@@ -43,22 +44,22 @@ entries:
       url: "/a400/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a400/chassis-replace-shutdown.html"
-    - title: 하드웨어를 교체합니다
+    - title: 섀시를 교체합니다
       url: "/a400/chassis-replace-move-hardware.html"
-    - title: 전체 교체
+    - title: 섀시 교체를 완료합니다
       url: "/a400/chassis-replace-complete-system-restore-rma.html"
-  - title: 컨트롤러 모듈
+  - title: 컨트롤러
     pdf-filename: AFF A400 컨트롤러 모듈
     entries:
     - title: 개요
       url: "/a400/controller-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a400/controller-replace-shutdown.html"
-    - title: 컨트롤러 모듈을 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/a400/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/a400/controller-replace-system-config-restore-and-verify.html"
-    - title: 시스템을 다시 연결합니다
+    - title: 회수 가능 시스템
       url: "/a400/controller-replace-recable-reassign-disks.html"
     - title: 시스템 복원을 완료합니다
       url: "/a400/controller-replace-restore-system-rma.html"

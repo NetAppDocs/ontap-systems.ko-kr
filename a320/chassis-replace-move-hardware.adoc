@@ -1,7 +1,7 @@
 ---
 permalink: a320/chassis-replace-move-hardware.html 
 sidebar: sidebar 
-keywords: aff, a320, aff a320, replace, chassis, fan, controller, module, impair, model, shut, down, replacing, remove, move, equipment, rack, diagnostic, complete, replacement, process, replace the chassis, shut down the controllers when replacing a chassis, remove the controller modules, move the fans, replace a chassis from within the equipment rack or system cabinet, install the controller modules, run diagnostics, complete the replacement process 
+keywords: aff, a320, aff a320, replace, chassis, fan, controller, module, impair, model, shut, down, replacing, remove, move, equipment, rack, complete, replacement, process, replace the chassis, shut down the controllers when replacing a chassis, remove the controller modules, move the fans, replace a chassis from within the equipment rack or system cabinet, install the controller modules, complete the replacement process 
 summary: 손상된 섀시에서 팬, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
 ---
 = 하드웨어 교체 - AFF A320
@@ -90,7 +90,7 @@ CAUTION: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에�
 
 == 4단계: 컨트롤러 모듈을 설치합니다
 
-새 섀시에 컨트롤러 모듈을 설치한 후 진단 테스트를 실행할 수 있는 상태로 부팅해야 합니다.
+새 섀시에 컨트롤러 모듈을 설치한 후 시스템을 부팅해야 합니다.
 
 동일한 섀시에 2개의 컨트롤러 모듈이 있는 HA 쌍의 경우, 컨트롤러 모듈을 설치하는 순서는 섀시에 완전히 장착되자마자 재부팅을 시도하기 때문에 특히 중요합니다.
 

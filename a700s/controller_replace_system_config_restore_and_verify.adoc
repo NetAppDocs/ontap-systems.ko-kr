@@ -1,7 +1,7 @@
 ---
 permalink: a700s/controller-replace-system-config-restore-and-verify.html 
 sidebar: sidebar 
-keywords: aff a700s, restore and verify the system configuration, verify and set the ha state of the controller module, run system-level diagnostics 
+keywords: aff a700s, restore and verify the system configuration, verify and set the ha state of the controller module 
 summary: 하드웨어 교체를 완료하고 유지 관리 모드로 부팅한 후에는 교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다. 
 ---
 = 시스템 구성 복원 및 검증 - AFF A700s
@@ -65,38 +65,4 @@ HA 상태의 값은 다음 중 하나일 수 있습니다.
 
 . 컨트롤러 모듈의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 컨트롤러 모듈의 HA 상태를 "ha-config modify controller ha-state"로 설정합니다
 . 설정이 변경되었는지 확인합니다. ha-config show
-
-
-
-
-== 3단계: 진단 유틸리티를 실행합니다
-
-시스템의 구성 요소를 교체한 후에는 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.
-
-진단 프로그램을 시작하려면 시스템에 LOADER 메시지가 표시되어야 합니다.
-
-진단 절차의 모든 명령은 구성 요소를 교체하는 컨트롤러에서 실행됩니다.
-
-. 서비스되는 컨트롤러가 LOADER 프롬프트에 있지 않으면 'system node halt-node node node_name' 컨트롤러를 재부팅합니다
-+
-명령을 실행한 후 시스템이 로더 프롬프트에서 중지될 때까지 기다려야 합니다.
-
-. LOADER 프롬프트에서 시스템 수준 진단이 제대로 작동하도록 특별히 설계된 특수 드라이버('BOOT_DIAGS')에 액세스합니다
-. 표시된 메뉴에서 * Scan System * 을 선택하여 진단 테스트 실행을 활성화합니다.
-. 표시된 메뉴에서 * Test Memory * 를 선택합니다.
-. 이전 단계의 결과에 따라 계속 진행합니다.
-+
-** 테스트에 실패한 경우 오류를 수정한 다음 테스트를 다시 실행하십시오.
-** 테스트에서 오류가 없다고 보고된 경우 메뉴에서 재부팅을 선택하여 시스템을 재부팅합니다.
-+
-
-NOTE: 부팅 과정에서 다음과 같은 메시지가 표시될 수 있습니다.
-
-+
-*** 시스템 ID 불일치 및 시스템 ID 재정의를 요청하는 프롬프트 경고.
-*** HA 구성에서 유지보수 모드로 전환할 때 정상적인 컨트롤러가 계속 작동 중지되는지 확인해야 한다는 프롬프트 경고 메시지가 표시됩니다. 이 메시지에 안전하게 'y'로 응답할 수 있습니다.
-
-
-
-
 

@@ -1,7 +1,6 @@
 ---
 section: fas9500
 title: 9500 시스템
-url: "/fas9500/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: FAS9500 설치 및 설정
@@ -17,8 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: 9500의 유지보수
   entries:
-  - title: 입출력 모듈을 추가합니다
-    url: "/fas9500/add_io_module.html"
+  - title: 개요
+    url: "/fas9500/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: FAS9500 부팅 미디어
     entries:
@@ -66,17 +65,21 @@ entries:
       url: "/fas9500/controller_replace_complete_system_restoration_rma.html"
   - title: DIMM
     url: "/fas9500/dimm_replace.html"
-  - title: 디스테이징 컨트롤 전원 모듈
+  - title: DCPM
     url: "/fas9500/dcpm_NVRAM11_battery_replace.html"
   - title: 팬
     url: "/fas9500/fan_swap_out.html"
   - title: 입출력 모듈
-    url: "/fas9500/pci_cards_and_risers_replace.html"
-  - title: LED USB 모듈
+    entries:
+    - title: 대치
+      url: "/fas9500/pci_cards_and_risers_replace.html"
+    - title: 추가
+      url: "/fas9500/add_io_module.html"
+  - title: LED USB
     url: "/fas9500/led_module_replace.html"
-  - title: NVRAM 모듈 및/또는 NVRAM DIMM
+  - title: NVRAM
     url: "/fas9500/nvram_module_or_nvram_dimm_replacement.html"
   - title: 전원 공급 장치
     url: "/fas9500/power_supply_swap_out.html"
-  - title: RTC 배터리
+  - title: 실시간 시계 배터리
     url: "/fas9500/rtc_battery_replace.html"

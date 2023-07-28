@@ -1,10 +1,10 @@
 ---
 permalink: fas9000/power-supply-swap-out.html 
 sidebar: sidebar 
-keywords: aff a700, fas9000, swap, power, supply, turn, off, disconnect, remove, install, connect, turn, on, return, failed, part 
+keywords: fas9000, swap, power, supply, turn, off, disconnect, remove, install, connect, turn, on, return, failed, part 
 summary: 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
 ---
-= 전원 공급 장치 AFF A700 및 FAS9000을 바꿉니다
+= 전원 공급 장치-FAS9000을 바꿉니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

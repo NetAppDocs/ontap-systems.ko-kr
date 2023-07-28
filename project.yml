@@ -22,56 +22,49 @@ sidebar:
     - title: 준비 및 실행
       url: "/get-up-and-run.html"
   - title: AFF A 시리즈 시스템
+    url: "/aff-aseries/index.html"
     entries:
     - section: a150
-    - section: a220
+    - section: a200
     - section: a250
     - section: a400
     - section: a700
     - section: a800
     - section: a900
   - title: AFF C 시리즈 시스템
+    url: "/aff-cseries/index.html"
     entries:
     - section: c190
     - section: c250
     - section: c400
     - section: c800
-  - section: allsan
+  - title: ASA A 시리즈 시스템
+    url: "/allsan-a-series/index.html"
+    entries:
+    - section: asa150
+    - section: asa250
+    - section: asa400
+    - section: asa800
+    - section: asa900
   - title: FAS 시스템
+    url: "/fas/index.html"
     entries:
     - section: fas500f
     - section: fas2700
-    - section: fas2800
     - section: fas8300
     - section: fas9000
     - section: fas9500
   - title: 이용 종료 시스템
+    url: "/endofavail/index.html"
     entries:
-    - section: a200
+    - section: a220
     - section: a300
     - section: a320
     - section: a700s
     - section: fas2600
     - section: fas8200
-  - title: 시스템 레벨 진단
-    entries:
-    - title: 소개
-      url: "/platform-supplemental/sldiag-introduction.html"
-    - title: 요구 사항
-      url: "/platform-supplemental/sldiag-requirements.html"
-    - title: 명령줄 도움말을 사용하는 방법
-      url: "/platform-supplemental/sldiag-use-cli-help.html"
-    - title: 시스템 설치 진단 프로그램을 실행합니다
-      url: "/platform-supplemental/sldiag-system-installation-diagnostics.html"
-    - title: 시스템 패닉 진단을 실행합니다
-      url: "/platform-supplemental/sldiag-system-panic-diagnostics.html"
-    - title: 시스템 응답 속도 저하 진단 유틸리티를 실행합니다
-      url: "/platform-supplemental/sldiag-slow-system-diagnostics.html"
-    - title: 하드웨어 설치 진단 유틸리티를 실행합니다
-      url: "/platform-supplemental/sldiag-hardware-installation-diagnostics.html"
-    - title: 장치 오류 진단을 실행합니다
-      url: "/platform-supplemental/sldiag-device-failure-diagnostics.html"
   - title: 드라이브 쉘프
+    url: "/drive-shelves/index.html"
     entries:
     - section: ns224
     - section: sas3

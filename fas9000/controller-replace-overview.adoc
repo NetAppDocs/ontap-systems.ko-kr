@@ -1,10 +1,10 @@
 ---
 permalink: fas9000/controller-replace-overview.html 
 sidebar: sidebar 
-keywords: aff a700, fas9000, replace, controller, module, prerequisites, procedure 
+keywords: fas9000, replace, controller, module, prerequisites, procedure 
 summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
 ---
-= 컨트롤러 모듈 교체 개요 - AFF A700 및 FAS9000
+= 컨트롤러 모듈 교체 개요 - FAS9000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

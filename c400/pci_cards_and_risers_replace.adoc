@@ -1,7 +1,7 @@
 ---
 permalink: c400/pci-cards-and-risers-replace.html 
 sidebar: sidebar 
-keywords: aff c400, aff, c400, replace, pcie, mezzanine, card, disconnect, cable, sfp, qsfp, module, fail, mezzanine, shut, down, impair, controller, pcie, switch, aggregate, two-node, metrocluster, complete, replacement, process, replace a pcie or mezzanine card, shut down the impaired controller, remove the controller module, replace a pcie card, replace the mezzanine card, install the controller module, switch back aggregates in a two-node metrocluster configuration, restore the controller module to operation after running diagnostics, complete the replacement process 
+keywords: aff c400, aff, c400, replace, pcie, mezzanine, card, disconnect, cable, sfp, qsfp, module, fail, mezzanine, shut, down, impair, controller, pcie, switch, aggregate, two-node, metrocluster, complete, replacement, process, replace a pcie or mezzanine card, shut down the impaired controller, remove the controller module, replace a pcie card, replace the mezzanine card, install the controller module, switch back aggregates in a two-node metrocluster configuration, restore the controller module to operation, complete the replacement process 
 summary: PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈을 카드에서 분리하고, 오류가 발생한 PCIe 또는 메자닌 카드를 교체한 다음 카드를 다시 배선해야 합니다. 
 ---
 = PCIe 또는 메자닌 카드(AFF C400)를 교체합니다
@@ -21,14 +21,12 @@ PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈
 
 == 1단계: 손상된 컨트롤러를 종료합니다
 
-[role="lead"]
 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.
 
 [role="tabbed-block"]
 ====
 .옵션 1: 대부분의 구성
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
 
 .이 작업에 대해
@@ -84,7 +82,6 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 --
 .옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.
 
 .이 작업에 대해
@@ -183,8 +180,13 @@ mcc1A::> metrocluster operation show
 
 == 2단계: 컨트롤러 모듈을 분리합니다
 
-[role="lead"]
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
+
+다음 애니메이션, 그림 또는 작성된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
+
+.애니메이션 - 컨트롤러 모듈을 분리합니다
+video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
+image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.
@@ -197,26 +199,6 @@ mcc1A::> metrocluster operation show
 +
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
-+
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
-
-+
-|===
-
-
- a| 
-image:../media/legend_icon_01.png[""]
- a| 
-잠금 래치
-
-
-
- a| 
-image:../media/legend_icon_02.png[""]
- a| 
-컨트롤러가 섀시 밖으로 약간 이동합니다
-
-|===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +
 컨트롤러 모듈 하단을 섀시 밖으로 밀어낼 때 지지하는지 확인합니다.
@@ -228,7 +210,6 @@ image:../media/legend_icon_02.png[""]
 
 == 3단계: PCIe 카드를 교체합니다
 
-[role="lead"]
 PCIe 카드를 교체하려면 오류가 발생한 PCIe 카드를 찾아 컨트롤러 모듈에서 카드가 들어 있는 라이저를 꺼낸 다음 컨트롤러 모듈에 PCIe 라이저를 다시 설치해야 합니다.
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 PCIe 카드를 교체할 수 있습니다.
@@ -277,7 +258,6 @@ NOTE: 하단 슬롯에 카드를 설치할 때 카드 소켓이 제대로 보이
 
 == 4단계: 메자닌 카드를 교체합니다
 
-[role="lead"]
 메자닌 카드는 라이저 번호 3(슬롯 4 및 5) 아래에 있습니다. 메자닌 카드에 액세스하려면 라이저를 분리하고 메자닌 카드를 교체한 다음 라이저 번호 3을 다시 설치해야 합니다. 자세한 내용은 컨트롤러 모듈의 FRU 맵을 참조하십시오.
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 메자닌 카드를 교체할 수 있습니다.
@@ -318,8 +298,13 @@ image::../media/drw_A400_Replace-mezz-card_IEOPS-1006.svg[drw A400 메자닌 카
 
 == 5단계: 컨트롤러 모듈을 설치합니다
 
-[role="lead"]
 컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 유지보수 모드로 부팅해야 합니다.
+
+다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에 컨트롤러 모듈을 설치할 수 있습니다.
+
+.애니메이션 - 컨트롤러 모듈을 설치합니다
+video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
+image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
@@ -363,7 +348,6 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 == 6단계: 컨트롤러 모듈을 작동 상태로 복원합니다
 
-[role="lead"]
 컨트롤러를 복원하려면 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.
 
 . 필요에 따라 시스템을 다시 연결합니다.
@@ -378,7 +362,6 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 == 7단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 
-[role="lead"]
 2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 그러면 이전 사이트의 SVM(Sync-Source Storage Virtual Machine)이 활성 상태이고 로컬 디스크 풀에서 데이터를 제공하는 구성을 정상 운영 상태로 되돌릴 수 있습니다.
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
@@ -437,5 +420,4 @@ Remote: cluster_A configured      		normal
 
 == 8단계: 장애가 발생한 부품을 NetApp에 반환
 
-[role="lead"]
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

@@ -11,6 +11,7 @@ summary: 이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단�
 
 
 [role="lead"]
+<stdin>에서 해결되지 않은 지시문 - 포함::../_include/250_install-detailed-guide.adoc [ ]
 이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.
 
 MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"^].

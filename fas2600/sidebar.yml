@@ -1,7 +1,6 @@
 ---
 section: fas2600
 title: FAS2600 시스템
-url: "/fas2600/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: FAS2600 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: FAS2600은 이 상태를 유지합니다
   entries:
+  - title: 개요
+    url: "/fas2600/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: FAS2600 부팅 미디어
     entries:

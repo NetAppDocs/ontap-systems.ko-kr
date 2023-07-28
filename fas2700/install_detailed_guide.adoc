@@ -2,22 +2,22 @@
 permalink: fas2700/install-detailed-guide.html 
 sidebar: sidebar 
 keywords: fas2700, aff a220, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery 
-summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
+summary: 이 페이지에서는 일반적인 NetApp 시스템 설치를 위한 자세한 단계별 지침을 제공합니다. 
 ---
-= 상세 가이드 - AFF A220 및 FAS2700
+= 상세 가이드 - FAS2700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오.
+이 페이지에서는 일반적인 NetApp 시스템 설치를 위한 자세한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오.
 
 
 
 == 1단계: 설치 준비
 
-FAS2700 또는 AFF A220 시스템을 설치하려면 NetApp Support 사이트에서 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
+FAS2700 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
 
 사이트 요구 사항에 대한 정보와 구성된 시스템에 대한 추가 정보를 보려면 Hardware Universe에 액세스할 수 있어야 합니다. 이 시스템에 대한 자세한 내용은 사용 중인 ONTAP 버전의 릴리즈 노트에 액세스할 수도 있습니다.
 

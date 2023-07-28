@@ -1,7 +1,7 @@
 ---
 permalink: a320/nvdimm-replace.html 
 sidebar: sidebar 
-keywords: aff, a320, aff a320, replace, nvdimm, controller, module, system, register, flash, lifetime, identified, idenify, nvdimm, healthy, general, failure, system, panic, replace an nvdimm, shut down the impaired controller, remove the controller module, replace the nvdimm, install the controller module, run diagnostics, restore the controller module to operation after running diagnostics, complete the replacement process 
+keywords: aff, a320, aff a320, replace, nvdimm, controller, module, system, register, flash, lifetime, identified, idenify, nvdimm, healthy, general, failure, system, panic, replace an nvdimm, shut down the impaired controller, remove the controller module, replace the nvdimm, install the controller module, restore the controller module to operation,complete the replacement process 
 summary: 시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다. 
 ---
 = NVDIMM-AFF A320을 교체합니다
@@ -148,7 +148,7 @@ NOTE: NVDIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지
 
 == 4단계: 컨트롤러 모듈을 설치합니다
 
-컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 유지보수 모드로 부팅해야 합니다.
+컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치해야 합니다.
 
 . 아직 설치하지 않은 경우 컨트롤러 모듈 후면의 공기 덕트를 닫고 PCIe 카드 위에 덮개를 다시 설치합니다.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
@@ -177,42 +177,15 @@ NOTE: 래칭 메커니즘 암이 섀시에 밀어 넣습니다.
 .. 래치를 해제하여 컨트롤러 모듈을 제자리에 고정합니다.
 .. 전원 공급 장치를 다시 연결합니다.
 .. 아직 설치하지 않은 경우 케이블 관리 장치를 다시 설치하십시오.
-.. Ctrl-C를 눌러 정상적인 부팅 프로세스를 중단합니다.
 
 
 
 
 
 
-== 5단계: 진단 유틸리티를 실행합니다
+== 5단계: 컨트롤러 모듈을 작동 상태로 복원합니다
 
-시스템에서 NVDIMM을 교체한 후에는 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.
-
-진단 프로그램을 시작하려면 시스템에 LOADER 메시지가 표시되어야 합니다.
-
-진단 절차의 모든 명령은 구성 요소를 교체하는 컨트롤러에서 실행됩니다.
-
-. 서비스되는 컨트롤러가 LOADER 프롬프트에 있지 않으면 'system node halt-node node node_name' 컨트롤러를 재부팅합니다
-+
-명령을 실행한 후 시스템이 로더 프롬프트에서 중지될 때까지 기다려야 합니다.
-
-. LOADER 프롬프트에서 시스템 수준 진단이 제대로 작동하도록 특별히 설계된 특수 드라이버('BOOT_DIAGS')에 액세스합니다
-. 표시된 메뉴에서 * Scan System * 을 선택하여 진단 테스트 실행을 활성화합니다.
-. 표시된 메뉴에서 * Test Memory * 를 선택합니다.
-. 표시된 메뉴에서 * NVDIMM Test * 를 선택합니다.
-. 이전 단계의 결과에 따라 계속 진행합니다.
-+
-** 테스트에 실패한 경우 오류를 수정한 다음 테스트를 다시 실행하십시오.
-** 테스트에서 오류가 없다고 보고된 경우 메뉴에서 재부팅을 선택하여 시스템을 재부팅합니다.
-
-
-
-
-
-
-== 6단계: 진단 프로그램을 실행한 후 컨트롤러 모듈을 작동 상태로 복원합니다
-
-진단 유틸리티를 완료한 후에는 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.
+시스템을 회수하고, 컨트롤러 모듈을 반환한 다음, 자동 반환이 다시 사용되도록 설정해야 합니다.
 
 . 필요에 따라 시스템을 다시 연결합니다.
 +
@@ -224,6 +197,6 @@ NOTE: 래칭 메커니즘 암이 섀시에 밀어 넣습니다.
 
 
 
-== 7단계: 장애가 발생한 부품을 NetApp에 반환
+== 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

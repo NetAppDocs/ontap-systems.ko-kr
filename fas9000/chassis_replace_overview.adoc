@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, chassis replacement 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 섀시 교체 개요 - AFF A700 및 FAS9000
+= 섀시 교체 개요 - FAS9000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

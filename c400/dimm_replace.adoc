@@ -1,7 +1,7 @@
 ---
 permalink: c400/dimm-replace.html 
 sidebar: sidebar 
-keywords: aff c400, aff, c400, replace, dimm, controller, module, system, register, correctable, error, correction, code, ecc, system, panic, shut, down, impair, remove, controller, module, system, diagnostic, module, aggregate, two-node, metrocluster, configuration, replace a dimm, shut down the impaired controller, remove the controller module, replace system dimms, install the controller module, run diagnostics, restore the controller module to operation after running diagnostics, switch back aggregates in a two-node metrocluster configuration 
+keywords: aff c400, aff, c400, replace, dimm, controller, module, system, register, correctable, error, correction, code, ecc, system, panic, shut, down, impair, remove, controller, module, system, module, aggregate, two-node, metrocluster, configuration, replace a dimm, shut down the impaired controller, remove the controller module, replace system dimms, install the controller module, restore the controller module to operation, switch back aggregates in a two-node metrocluster configuration 
 summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 등록할 때 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.' 
 ---
 = DIMM-AFF C400을 교체합니다
@@ -21,14 +21,12 @@ summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 �
 
 == 1단계: 손상된 컨트롤러를 종료합니다
 
-[role="lead"]
 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
 
 [role="tabbed-block"]
 ====
 .옵션 1: 대부분의 구성
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
 
 .이 작업에 대해
@@ -84,7 +82,6 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 --
 .옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.
 
 .이 작업에 대해
@@ -183,8 +180,13 @@ mcc1A::> metrocluster operation show
 
 == 2단계: 컨트롤러 모듈을 분리합니다
 
-[role="lead"]
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
+
+다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
+
+.애니메이션 - 컨트롤러 모듈을 분리합니다
+video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
+image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.
@@ -197,26 +199,6 @@ mcc1A::> metrocluster operation show
 +
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
-+
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
-
-+
-|===
-
-
- a| 
-image:../media/legend_icon_01.png[""]
- a| 
-잠금 래치
-
-
-
- a| 
-image:../media/legend_icon_02.png[""]
- a| 
-컨트롤러가 섀시 밖으로 약간 이동합니다
-
-|===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +
 컨트롤러 모듈 하단을 섀시 밖으로 밀어낼 때 지지하는지 확인합니다.
@@ -228,7 +210,6 @@ image:../media/legend_icon_02.png[""]
 
 == 3단계: 시스템 DIMM을 교체합니다
 
-[role="lead"]
 시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵을 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 시스템 DIMM을 교체할 수 있습니다.
@@ -275,8 +256,13 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 == 4단계: 컨트롤러 모듈을 설치합니다
 
-[role="lead"]
-컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 유지보수 모드로 부팅해야 합니다.
+컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 부팅해야 합니다.
+
+다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에 컨트롤러 모듈을 설치할 수 있습니다.
+
+.애니메이션 - 컨트롤러 모듈을 설치합니다
+video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
+image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
@@ -308,47 +294,15 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 옵션을 선택합니다.
 
 .. LOADER 프롬프트에서 BYE를 입력하여 PCIe 카드 및 기타 구성 요소를 다시 초기화합니다.
-.. 부트 프로세스를 중단하고 'Ctrl-C'를 눌러 로더 프롬프트로 부팅합니다.
-+
-시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 옵션을 선택합니다.
 
 
 
 
 
 
+== 5단계: 컨트롤러 모듈을 작동 상태로 복원합니다
 
-== 5단계: 진단 유틸리티를 실행합니다
-
-[role="lead"]
-시스템에서 시스템 DIMM을 교체한 후 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.
-
-진단 프로그램을 시작하려면 시스템에 LOADER 메시지가 표시되어야 합니다.
-
-진단 절차의 모든 명령은 구성 요소를 교체하는 컨트롤러에서 실행됩니다.
-
-. 서비스되는 컨트롤러가 LOADER 프롬프트에 있지 않으면 'system node halt-node node node_name' 컨트롤러를 재부팅합니다
-+
-명령을 실행한 후 시스템이 로더 프롬프트에서 중지될 때까지 기다려야 합니다.
-
-. LOADER 프롬프트에서 시스템 수준 진단이 제대로 작동하도록 특별히 설계된 특수 드라이버('BOOT_DIAGS')에 액세스합니다
-. 표시된 메뉴에서 * Scan System * 을 선택하여 진단 테스트 실행을 활성화합니다.
-. 표시된 메뉴에서 * Test Memory * 를 선택합니다.
-. 표시된 하위 메뉴에서 옵션을 선택하고 검사를 실행합니다.
-. 이전 단계의 결과에 따라 계속 진행합니다.
-+
-** 테스트에 실패한 경우 오류를 수정한 다음 테스트를 다시 실행하십시오.
-** 테스트에서 오류가 없다고 보고된 경우 메뉴에서 재부팅을 선택하여 시스템을 재부팅합니다.
-
-
-
-
-
-
-== 6단계: 진단 프로그램을 실행한 후 컨트롤러 모듈을 작동 상태로 복원합니다
-
-[role="lead"]
-진단 유틸리티를 완료한 후에는 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.
+시스템을 회수하고, 컨트롤러 모듈을 반환한 다음, 자동 반환이 다시 사용되도록 설정해야 합니다.
 
 . 필요에 따라 시스템을 다시 연결합니다.
 +
@@ -360,9 +314,8 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 
 
-== 7단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
+== 6단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 
-[role="lead"]
 2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 그러면 이전 사이트의 SVM(Sync-Source Storage Virtual Machine)이 활성 상태이고 로컬 디스크 풀에서 데이터를 제공하는 구성을 정상 운영 상태로 되돌릴 수 있습니다.
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
@@ -419,7 +372,6 @@ Remote: cluster_A configured      		normal
 
 
 
-== 8단계: 장애가 발생한 부품을 NetApp에 반환
+== 7단계: 장애가 발생한 부품을 NetApp에 반환
 
-[role="lead"]
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

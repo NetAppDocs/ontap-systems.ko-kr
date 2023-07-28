@@ -1,0 +1,44 @@
+---
+indexpage:
+  lead: 이용 종료 시스템은 더 이상 구매할 수 없지만 여전히 지원됩니다.
+  tiles:
+  - title: 설치 및 설정
+    links:
+    - title: AFF A220
+      url: "../a220/install-setup.html"
+    - title: AFF A300
+      url: "../a300/install-setup.html"
+    - title: AFF A320
+      url: "../a320/install-setup.html"
+    - title: AFF A700s를 참조하십시오
+      url: "../a700s/install-setup.html"
+    - title: FAS8200
+      url: "../fas8200/install-setup.html"
+  - title: 시스템을 유지보수하십시오
+    links:
+    - title: AFF A220
+      url: "../a220/maintain-overview.html"
+    - title: AFF A300
+      url: "../a300/maintain-overview.html"
+    - title: AFF A320
+      url: "../a320/maintain-overview.html"
+    - title: AFF A700s를 참조하십시오
+      url: "../a700s/maintain-overview.html"
+    - title: FAS2600
+      url: "../fas2600/maintain-overview.html"
+    - title: FAS8200
+      url: "../fas8200/maintain-overview.html"
+  - title: 지원되는 스위치
+    links:
+    - title: Broadcom 지원 BES-53248
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
+    - title: Cisco 9336C-FX2
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
+    - title: 공유 구성의 Cisco 9336-FX2
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
+  - title: 추가 문서 리소스
+    links:
+    - title: 시스템 하드웨어 업그레이드
+      url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
+    - title: ONTAP 소프트웨어 업그레이드
+      url: https://docs.netapp.com/us-en/ontap/upgrade/index.html

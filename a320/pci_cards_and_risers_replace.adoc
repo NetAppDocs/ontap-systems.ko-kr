@@ -1,7 +1,7 @@
 ---
 permalink: a320/pci-cards-and-risers-replace.html 
 sidebar: sidebar 
-keywords: aff, a320, aff a320, replace, pcie, card, disconnect, cable, card, sfp, qsfp, module, riser, reinstall, shut, down, controller, operation, diagnostic, complete, process, replace a pcie card, shut down the impaired controller, remove the controller module, replace a pcie card, install the controller module, restore the controller module to operation after running diagnostics, complete the replacement process 
+keywords: aff, a320, aff a320, replace, pcie, card, disconnect, cable, card, sfp, qsfp, module, riser, reinstall, shut, down, controller, operation, complete, process, replace a pcie card, shut down the impaired controller, remove the controller module, replace a pcie card, install the controller module, restore the controller module to operation, complete the replacement process 
 summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 제거한 다음 라이저를 다시 설치하고 SFP 및 QSFP 모듈을 다시 설치해야 합니다. 
 ---
 = PCIe 카드 교체 - AFF A320
@@ -147,7 +147,7 @@ image::../media/drw_a320_pci_card_replace_animated_gif.png[A320 drw PCI 카드 �
 
 == 9월 4일: 컨트롤러 모듈을 설치합니다
 
-컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 유지보수 모드로 부팅해야 합니다.
+컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 부팅해야 합니다.
 
 . 아직 설치하지 않은 경우 컨트롤러 모듈 후면의 공기 덕트를 닫고 PCIe 카드 위에 덮개를 다시 설치합니다.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
@@ -179,7 +179,6 @@ NOTE: 래칭 메커니즘 암이 섀시에 밀어 넣습니다.
 .. 래치를 해제하여 컨트롤러 모듈을 제자리에 고정합니다.
 .. 전원 공급 장치를 다시 연결합니다.
 .. 아직 설치하지 않은 경우 케이블 관리 장치를 다시 설치하십시오.
-.. Ctrl-C를 눌러 정상적인 부팅 프로세스를 중단합니다.
 
 
 
@@ -188,7 +187,7 @@ NOTE: 래칭 메커니즘 암이 섀시에 밀어 넣습니다.
 
 == 5단계: 컨트롤러 모듈을 작동 상태로 복원합니다
 
-진단 유틸리티를 완료한 후에는 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.
+시스템을 회수하고, 컨트롤러 모듈을 반환한 다음, 자동 반환이 다시 사용되도록 설정해야 합니다.
 
 . 필요에 따라 시스템을 다시 연결합니다.
 +

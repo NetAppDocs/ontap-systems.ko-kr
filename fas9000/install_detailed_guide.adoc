@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, detailed, guide, prepare, install, hardware, two, node, switchless, cluster, cable, controller, ds212c, ds224c, ns224, drive, shelf, complete, system, setup, configuration, network, discovery 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
 ---
-= 자세한 가이드 - AFF A700 및 FAS9000
+= 상세 가이드 - FAS9000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -323,11 +323,11 @@ image:../media/Cable_shelves_new_system_IOM12_shelves.png[""]
 
 
 
-=== 옵션 2: ONTAP 9.8 이상을 실행하는 AFF A700 및 ASA AFF A700 시스템의 단일 NS224 드라이브 쉘프에 컨트롤러 케이블 연결
+=== 옵션 2: ONTAP 9.8 이상을 실행하는 ASA AFF A700 시스템의 단일 NS224 드라이브 쉘프에 컨트롤러 케이블을 연결합니다
 
 시스템 ONTAP 9.8 이상을 실행하는 AFF A700 또는 ASA AFF A700의 NS224 드라이브 쉘프에 있는 NSM 모듈에 각 컨트롤러를 연결해야 합니다.
 
-* 이 작업은 ONTAP 9.8 이상을 실행하는 AFF A700 및 ASA AFF A700에만 적용됩니다.
+* 이 작업은 ONTAP 9.8 이상을 실행하는 ASA AFF A700에만 적용됩니다.
 * 시스템에는 각 컨트롤러에 대해 슬롯 3 및/또는 7에 하나 이상의 X91148A 모듈이 설치되어 있어야 합니다. 애니메이션이나 그림은 슬롯 3과 7에 설치된 이 모듈을 보여줍니다.
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 +
@@ -358,11 +358,11 @@ image::../media/single_NS224_shelf.png[단일 NS224 쉘프]
 
 
 
-=== 옵션 3: ONTAP 9.8 이상을 실행하는 AFF A700 및 ASA AFF A700 시스템의 NS224 드라이브 쉘프 2개에 컨트롤러를 연결합니다
+=== 옵션 3: ONTAP 9.8 이상을 실행하는 ASA AFF A700 시스템의 NS224 드라이브 쉘프 2개에 컨트롤러를 연결합니다
 
 시스템 ONTAP 9.8 이상을 실행하는 AFF A700 또는 ASA AFF A700의 NS224 드라이브 쉘프의 NSM 모듈에 각 컨트롤러를 연결해야 합니다.
 
-* 이 작업은 ONTAP 9.8 이상을 실행하는 AFF A700 및 ASA AFF A700에만 적용됩니다.
+* 이 작업은 ONTAP 9.8 이상을 실행하는 ASA AFF A700에만 적용됩니다.
 * 시스템에는 슬롯 3과 7에 설치된 컨트롤러당 2개의 X91148A 모듈이 있어야 합니다.
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 +

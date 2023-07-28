@@ -1,7 +1,6 @@
 ---
 section: a200
 title: AFF A200 시스템
-url: "/a200/index.html"
 entries:
 - title: 설치 및 설정
   pdf-filename: AFF A200 설치 및 설정
@@ -17,6 +16,8 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A200 유지보수
   entries:
+  - title: ''
+    url: "/a200/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A200 부팅 미디어
     entries:

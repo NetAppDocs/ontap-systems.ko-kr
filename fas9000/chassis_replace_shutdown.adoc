@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, chassis replacement, shutdown 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= AFF A700 및 FAS9000의 컨트롤러를 종료합니다
+= FAS9000을 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

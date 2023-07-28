@@ -1,0 +1,399 @@
+---
+permalink: asa900/add_io_module.html 
+sidebar:  
+keywords:  
+summary: 완전히 채워진 시스템에서 기존 입출력 모듈을 새 입출력 모듈로 교체하거나 새 입출력 모듈을 섀시의 빈 슬롯에 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다. 
+---
+= 입출력 모듈 추가 - ASA A900
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+빈 슬롯이 있는 시스템에 새 I/O 결절을 추가하거나 완전히 채워진 시스템에서 I/O 모듈을 새 결절로 교체하여 시스템에 I/O 모듈을 추가할 수 있습니다.
+
+.시작하기 전에
+* 를 확인하십시오 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^] 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.
+* 여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^] 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.
+* 입출력 모듈을 무중단으로 추가하려면 타겟 컨트롤러를 인수하고, 타겟 슬롯에서 슬롯 블랭킹 커버를 제거하거나, 기존 입출력 모듈을 제거하고, 새 입출력 모듈 또는 교체 입출력 모듈을 추가한 다음 타겟 컨트롤러를 반환해야 합니다.
+* 다른 모든 구성 요소가 제대로 작동하는지 확인합니다.
+
+
+
+
+== 옵션 1: 슬롯이 열린 시스템에 입출력 모듈을 추가합니다
+
+시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.
+
+
+
+== 1단계: 장애가 있는 노드를 종료합니다
+
+다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: 대부분의 시스템
+--
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+.이 작업에 대해
+노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+"기백을 기다리는 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+.옵션 2: 컨트롤러가 MetroCluster에 있습니다
+--
+
+NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
+
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+* MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.
+
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+====
+
+
+== 2단계: 입출력 모듈 추가
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 타겟 슬롯 블랭킹 커버를 탈거하십시오.
++
+.. 문자 및 번호가 매겨진 캠 래치를 누릅니다.
+.. 캠 래치가 열림 위치가 될 때까지 아래로 돌립니다.
+.. 블랭킹 커버를 탈거하십시오.
+
+
+. 입출력 모듈을 설치합니다.
++
+.. 입출력 모듈을 슬롯의 가장자리에 맞춥니다.
+.. 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 밀어 넣습니다.
+.. I/O 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.
+
+
+. 교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.
++
+
+NOTE: 사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.
+
+. LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _bye_
++
+
+NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
+. 파트너 컨트롤러에서 컨트롤러를 다시 제공합니다. 'storage failover - ofnode target_node_name'을 선택합니다
+. 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
+. 네트워킹에 슬롯 3 및/또는 7을 사용하는 경우, 네트워킹 사용을 위해 슬롯을 변환하려면 'storage port modify -node__<node name>___port__<port name>__-mode network' 명령어를 사용한다.
+. 컨트롤러 B에 대해 이 단계를 반복합니다
+. 스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"^].
+
+
+
+
+== 옵션 2: 슬롯이 없는 시스템에 입출력 모듈을 추가합니다
+
+시스템이 완전히 채워진 경우 기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 입출력 슬롯의 입출력 모듈을 변경할 수 있습니다.
+
+. 다음과 같은 경우:
++
+[cols="1,2"]
+|===
+| 교체 중... | 그러면... 
+
+
+ a| 
+같은 수의 포트가 있는 NIC 입출력 모듈
+ a| 
+LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니다.
+
+
+
+ a| 
+포트 수가 적은 NIC 입출력 모듈
+ a| 
+Assetected LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
+
+
+
+ a| 
+스토리지 입출력 모듈이 있는 NIC 입출력 모듈
+ a| 
+에 설명된 대로 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^].
+
+|===
+
+
+
+
+== 1단계: 장애가 있는 노드를 종료합니다
+
+다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: 대부분의 시스템
+--
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+.이 작업에 대해
+노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+"기백을 기다리는 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+.옵션 2: 컨트롤러가 MetroCluster에 있습니다
+--
+
+NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
+
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+* MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.
+
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+====
+
+
+== 2단계: I/O 모듈을 교체합니다
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 대상 I/O 모듈의 케이블을 뽑습니다.
+. 섀시에서 대상 I/O 모듈을 분리합니다.
++
+.. 문자 및 번호가 매겨진 캠 래치를 누릅니다.
++
+캠 래치가 섀시에서 멀어 집니다.
+
+.. 캠 래치가 수평 위치에 올 때까지 아래로 돌립니다.
++
+I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동합니다.
+
+.. 모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 I/O 모듈을 분리합니다.
++
+입출력 모듈이 있던 슬롯을 추적해야 합니다.
+
++
+.애니메이션 - I/O 모듈을 제거하거나 교체합니다
+video::3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6[panopto]
++
+image:../media/drw_a900_remove_PCIe_module.png[""]
+
++
+[cols="10,90"]
+|===
+
+
+ a| 
+image::../media/legend_icon_01.svg[범례 아이콘 01]
+ a| 
+문자 및 숫자 I/O 캠 래치
+
+
+
+ a| 
+image:../media/legend_icon_02.svg["너비 = 20px"]
+ a| 
+I/O 캠 래치가 완전히 잠금 해제되었습니다
+
+|===
+
+
+. 입출력 모듈을 타겟 슬롯에 설치합니다.
++
+.. 입출력 모듈을 슬롯의 가장자리에 맞춥니다.
+.. 문자 및 번호가 매겨진 I/O 캠 래치가 I/O 캠 핀과 맞물릴 때까지 I/O 모듈을 슬롯에 밀어 넣습니다.
+.. I/O 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.
+
+
+. 분리 및 설치 단계를 반복하여 컨트롤러 A의 추가 모듈을 교체합니다
+. 교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.
+. LOADER 프롬프트에서 컨트롤러를 재부팅합니다.
++
+.. 컨트롤러에서 BMC 버전을 확인합니다. `system service-processor show`
+.. 필요한 경우 BMC 펌웨어를 업데이트합니다. `system service-processor image update`
+.. 노드를 재부팅합니다. `bye`
++
+
+NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
++
+
+NOTE: 재부팅 중 문제가 발생하는 경우 를 참조하십시오 https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1494308["Burt 1494308 - I/O 모듈 교체 중에 환경 종료가 트리거될 수 있습니다"]
+
+
+
+. 파트너 컨트롤러에서 컨트롤러를 다시 제공합니다. 'storage failover - ofnode target_node_name'을 선택합니다
+. 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
+. 추가한 경우:
++
+[cols="1,2"]
+|===
+| I/O 모듈이...인 경우 | 그러면... 
+
+
+ a| 
+슬롯 3 또는 7의 NIC 모듈,
+ a| 
+포트별 Storage port modify -node *_<node name>___-port * _<port name>__-mode network' 명령어를 사용한다.
+
+
+
+ a| 
+스토리지 모듈
+ a| 
+에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"^].
+
+|===
+. 컨트롤러 B에 대해 이 단계를 반복합니다
+

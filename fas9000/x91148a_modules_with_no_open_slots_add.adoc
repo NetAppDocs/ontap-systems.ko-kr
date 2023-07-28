@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, add, x91148a, storage, module, no, open, slots, system, nic 
 summary: 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다. 
 ---
-= 빈 슬롯이 없는 시스템에 AFF A700 및 FAS9000의 X91148A 스토리지 모듈을 추가합니다
+= 빈 슬롯이 없는 시스템에 X91148A 스토리지 모듈을 추가합니다. - FAS9000
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

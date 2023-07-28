@@ -1,0 +1,62 @@
+---
+indexpage:
+  lead: ''
+  tiles:
+  - title: NS224 쉘프를 설치합니다
+    links:
+    - title: 쉘프를 핫 추가
+      url: "../ns224/hot-add-shelf.html"
+    - title: 쉘프 ID를 변경합니다
+      url: "../ns224/change-shelf-id.html"
+    - title: 스위치 연결 스토리지로 쉘프를 연결합니다
+      url: "../ns224/cable-as-switch-attached.html"
+  - title: SAS 쉘프를 설치합니다
+    links:
+    - title: 새 스토리지 시스템에 쉘프를 설치합니다
+      url: "../sas3/install-new-system.html"
+    - title: 쉘프를 핫 추가
+      url: "../sas3/install-hot-add-shelf.html"
+    - title: 쉘프 ID를 변경합니다
+      url: "../sas3/install-change-shelf-id.html"
+    - title: IOM6 쉘프 스택에 핫 추가 쉘프(혼합 스택)
+      url: "../sas3/iom12-hot-add-mix.html"
+    - title: SAS 케이블 연결 규칙, 워크시트 및 예
+      url: "../sas3/overview-cabling-rules-examples.html"
+  - title: NS224 쉘프를 유지합니다
+    links:
+    - title: 미디어를 부팅합니다
+      url: "../ns224/service-replace-boot-media.html"
+    - title: DIMM
+      url: "../ns224/service-replace-dimm.html"
+    - title: 드라이브
+      url: "../ns224/service-replace-drive.html"
+    - title: 드라이브 쉘프 LED
+      url: "../ns224/service-monitor-leds.html"
+    - title: 팬
+      url: "../ns224/service-replace-fan.html"
+    - title: 쉘프 핫 제거
+      url: "../ns224/hot-remove-shelf.html"
+    - title: NSM 모듈
+      url: "../ns224/service-replace-nsm100.html"
+    - title: 전원 공급 장치
+      url: "../ns224/service-replace-power-supply.html"
+    - title: RTC 배터리
+      url: "../ns224/service-replace-rtc-battery.html"
+  - title: SAS 쉘프 유지보수
+    links:
+    - title: DS224C 또는 DS212C 쉘프의 디스크 드라이브
+      url: "../sas3/service-hot-swap-drive-ds224c-ds212c.html"
+    - title: DS460C 쉘프의 디스크 드라이브
+      url: "../sas3/service-hot-swap-drive-ds460c.html"
+    - title: DS460C 쉘프의 드라이브 서랍
+      url: "../sas3/service-replace-drawer-ds460c.html"
+    - title: DS460C 쉘프의 팬
+      url: "../sas3/service-replace-fan-ds460c.html"
+    - title: 쉘프를 핫 제거할 수 있습니다
+      url: "../sas3/hot-remove-shelf.html"
+    - title: IOM12/IOM12B 모듈
+      url: "../sas3/service-hot-swap-iom.html"
+    - title: 전원 공급 장치
+      url: "../sas3/service-hot-swap-power-supply.html"
+    - title: 쉘프 LED 상태 조건
+      url: "../sas3/service-monitor-leds.html"

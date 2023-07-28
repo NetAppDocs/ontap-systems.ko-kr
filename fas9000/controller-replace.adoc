@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, replace, controller, module, hardware, install, controller, system, dimms, move, boot, media 
 summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 노드를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다. 
 ---
-= 컨트롤러 모듈 하드웨어 AFF A700 및 FAS9000을 교체합니다
+= 컨트롤러 모듈 하드웨어-FAS9000을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

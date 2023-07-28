@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, move the controller module hardware 
 summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음, 교체 컨트롤러 모듈을 섀시에 설치하고, 시스템을 유지보수 모드로 부팅해야 합니다. 
 ---
-= 컨트롤러 모듈 하드웨어(AFF A220 및 FAS2700)를 교체합니다
+= 컨트롤러 모듈 하드웨어 교체 - FAS2700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
