@@ -17,6 +17,8 @@ entries:
 - title: 유지 관리
   pdf-filename: FAS800 유지관리
   entries:
+  - title: 개요
+    url: "/fas2800/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: FAS2800 부팅 미디어
     entries:

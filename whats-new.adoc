@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: new, features, fas, aff systems 
-summary: FAS 및 AFF 시스템의 새로운 기능에 대해 알아보십시오. 
+summary: AFF, ASA 및 FAS 시스템의 새로운 기능에 대해 알아보십시오. 
 ---
-= FAS 및 AFF 시스템의 새로운 기능
+= AFF, ASA 및 FAS 시스템의 새로운 기능
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FAS 및 AFF 시스템의 새로운 기능에 대해 알아보십시오.
+AFF, ASA 및 FAS 시스템의 새로운 기능에 대해 알아보십시오.
 
 
 

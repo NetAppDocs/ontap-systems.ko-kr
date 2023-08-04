@@ -2,16 +2,16 @@
 permalink: get-up-and-run.html 
 sidebar: sidebar 
 keywords:  
-summary: AFF, FAS 및 ASA 시스템을 설치하여 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성한 다음 스토리지를 구성해야 합니다. 
+summary: AFF, ASA 및 FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성하며 스토리지를 구성해야 합니다. 
 ---
-= AFF 및 FAS 스토리지 시스템을 가동 및 운영합니다
+= AFF, ASA 및 FAS 스토리지 시스템을 가동 및 운영합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF 및 FAS 시스템을 설치하여 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성한 다음 스토리지를 구성해야 합니다.
+AFF, ASA 및 FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성하며 스토리지를 구성해야 합니다.
 
 시스템이 MetroCluster 구성인 경우 로 이동합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서 사이트"] MetroCluster 구성 유형에 해당하는 설치 지침을 따르십시오.
 
@@ -19,18 +19,19 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] AFF/FAS 컨트롤러 설치
 [role="quick-margin-para"]
-랙 또는 캐비닛에 AFF/FAS 컨트롤러 설치 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 액세스합니다. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.
+랙 또는 캐비닛에 AFF, ASA 및 FAS 컨트롤러를 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.
 
 [role="quick-margin-para"]
 ** AFF A 시리즈 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["AFF A220"]
+* https://docs.netapp.com/us-en/ontap-systems/a150/install-setup.html["AFF A150"]
+* https://docs.netapp.com/us-en/ontap-systems/a200/install-setup.html["AFF A200"]
 * https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html["AFF A250"]
 * https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html["AFF A400"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["AFF A700"]
+* https://docs.netapp.com/us-en/ontap-systems/a700/install-setup.html["AFF A700"]
 * https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF A800"]
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html["AFF A900"]
+* https://docs.netapp.com/us-en/ontap-systems/a900/install_setup.html["AFF A900"]
 
 
 [role="quick-margin-para"]
@@ -40,7 +41,7 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 * https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html["AFF C190"]
 * https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html["AFF C250"]
 * https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html["AFF C400"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF C800"]
+* https://docs.netapp.com/us-en/ontap-systems/c800/install-setup.html["AFF C800"]
 
 
 [role="quick-margin-para"]
@@ -48,6 +49,8 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 
 [role="quick-margin-list"]
 * https://docs.netapp.com/us-en/ontap-systems/fas500f/install-setup.html["500f로 설정합니다"]
+* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["FAS2700"]
+* https://docs.netapp.com/us-en/ontap-systems/fas2800/install-setup.html["FAS2800"]
 * https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8300"]
 * https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8700"]
 * https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["FAS9000"]
@@ -168,18 +171,19 @@ AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 시스템 설치를 완료합니다
 [role="quick-margin-para"]
-스위치를 구성하고 필요한 소프트웨어를 설치한 후에는 AFF/FAS 플랫폼 모델의 설치 및 설정 지침에 따라 시스템 설정을 완료하십시오. 모든 SAN 어레이(ASA) 시스템의 경우 해당 AFF A 시리즈 모델의 설치 지침을 따르십시오.
+스위치를 구성하고 필요한 소프트웨어를 설치한 후 플랫폼 모델의 설치 및 설정 지침에 액세스하여 시스템 설치를 완료합니다.
 
 [role="quick-margin-para"]
 ** AFF 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["AFF A220"]
+* https://docs.netapp.com/us-en/ontap-systems/a150/install-setup.html["AFF A150"]
+* https://docs.netapp.com/us-en/ontap-systems/a200/install-setup.html["AFF A200"]
 * https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html["AFF A250"]
 * https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html["AFF A400"]
 * https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["AFF A700"]
 * https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF A800"]
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html["AFF A900"]
+* https://docs.netapp.com/us-en/ontap-systems/a900/install_setup.html["AFF A900"]
 
 
 [role="quick-margin-para"]
@@ -189,7 +193,7 @@ AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케�
 * https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html["AFF C190"]
 * https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html["AFF C250"]
 * https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html["AFF C400"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF C800"]
+* https://docs.netapp.com/us-en/ontap-systems/c800/install-setup.html["AFF C800"]
 
 
 [role="quick-margin-para"]
@@ -197,6 +201,8 @@ AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케�
 
 [role="quick-margin-list"]
 * https://docs.netapp.com/us-en/ontap-systems/fas500f/install-setup.html["500f로 설정합니다"]
+* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["FAS2700"]
+* https://docs.netapp.com/us-en/ontap-systems/fas2800/install-setup.html["FAS2800"]
 * https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8300"]
 * https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8700"]
 * https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html["FAS9000"]
