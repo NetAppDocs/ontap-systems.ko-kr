@@ -42,6 +42,8 @@ entries:
     url: "/sas3/service-hot-swap-drive-ds460c.html"
   - title: DS460C 쉘프의 드라이브 서랍
     url: "/sas3/service-replace-drawer-ds460c.html"
+  - title: 드라이브 쉘프 LED
+    url: "/sas3/service-monitor-leds.html"
   - title: DS460C 쉘프의 팬 모듈
     url: "/sas3/service-replace-fan-ds460c.html"
   - title: 쉘프 핫 제거
@@ -50,5 +52,3 @@ entries:
     url: "/sas3/service-hot-swap-iom.html"
   - title: 전원 공급 장치
     url: "/sas3/service-hot-swap-power-supply.html"
-  - title: 쉘프 LED 상태 조건
-    url: "/sas3/service-monitor-leds.html"

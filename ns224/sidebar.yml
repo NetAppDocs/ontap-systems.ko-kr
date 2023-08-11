@@ -32,5 +32,3 @@ entries:
     url: "/ns224/service-replace-power-supply.html"
   - title: 실시간 시계 배터리
     url: "/ns224/service-replace-rtc-battery.html"
-  - title: 쉘프 LED 상태 조건
-    url: "/ns224/service-monitor-leds.html"

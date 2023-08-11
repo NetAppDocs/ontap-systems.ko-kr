@@ -4428,9 +4428,6 @@
   <block id="9682abea21a8105e25e53a664815f083" category="summary">PDU에 시스템 구성 요소를 연결하고 PDU 케이블을 AC 전원에 연결한 다음 전원을 켭니다.</block>
   <block id="de377ff4f06113db5f03b6d5d7501baa" category="doc">시스템 캐비닛의 전원을 켭니다</block>
   <block id="44626aa3377a470ee951473cc16b9064" category="paragraph">시스템 캐비닛의 각 PDU에 대해 사용할 수 있는 별도의 전원 회로가 있어야 합니다.</block>
-  <block id="446a4e63e0c973838e08a5473045915d" category="list-text">PDU에 장비를 연결하고 각 구성 요소의 전원 공급 장치를 시스템 캐비닛의 반대쪽에 있는 PDU에 연결합니다.</block>
-  <block id="8c74169b1ab62a22c3b2a90a3051cfd3" category="list-text">시스템 캐비닛의 구멍을 통해 PDU 전원 케이블을 연결합니다.</block>
-  <block id="2965b9f0cdabb572eee3c29e940336c6" category="paragraph">다음 개구부 중 하나를 사용하십시오.</block>
   <block id="43fd8e637b5fa8a0480393ffec052db1" category="list-text">시스템 캐비닛 상단</block>
   <block id="845cc1d7e0e6e805d0656362d228ee19" category="list-text">시스템 캐비닛의 후면 도어 하단과 프레임 사이</block>
   <block id="5c04468bd8d9f11247b1e74c799efff1" category="list-text">시스템 캐비닛 아래와 바닥 구멍을 통해</block>
@@ -4529,18 +4526,12 @@
   <block id="496b4a3650aab467cf608b170b892ff0" category="summary">시스템 캐비닛에서 장애가 발생한 PDU를 교체하거나 기존 PDU를 다른 유형의 PDU로 교체할 수 있습니다.</block>
   <block id="ef229ddf3c0a14a70216a92856d40161" category="doc">PDU를 교체합니다</block>
   <block id="88cf45a15ad0d90bd6e19a24f810822a" category="paragraph">교체 PDU는 시스템 캐비닛에서 지원해야 하며 설치된 장비에 충분한 전원을 공급해야 합니다.</block>
-  <block id="4fbff5b4dee9636bd56900af51fdd7a8" category="list-text">대상 PDU의 회로 차단기를 끄고 AC 전원에서 기존 PDU를 분리합니다.</block>
-  <block id="1989ca3bd819f1099182bcf6351ed5b4" category="list-text">시스템 캐비닛에 접지한 다음 각 시스템 구성 요소 및 PDU에서 전원 코드를 뽑습니다.</block>
   <block id="9ad9ea8490a641161f4adb6e3f2bc0ef" category="list-text">먼저 PDU 프레임에서 아래쪽 나사를 제거합니다.</block>
   <block id="17de7c609b4fa11bfbd42b27506a7686" category="admonition">PDU 상단에서 마지막 나사를 분리하는 동안 한 손으로 PDU를 지지해야 합니다. 이렇게 하면 나사를 제거한 후 PDU가 사용자 쪽으로 떨어지거나 떨어지지 않습니다.</block>
-  <block id="3ac6263fbfd63ebfc4e426b2da956c22" category="list-text">시스템 캐비닛에서 기존 PDU를 분리합니다.</block>
   <block id="4dda4611a9de699220bc9f60e9d529c5" category="paragraph">교체용 PDU를 설치할 때 다시 사용할 수 있도록 장착 나사를 추적해야 합니다.</block>
-  <block id="420bae0ac211e6a209a8ca28f7ce8fed" category="list-text">기존 PDU에서 브래킷을 제거한 다음 교체 PDU 뒷면에 설치합니다.</block>
-  <block id="199516540a6f5c3cc527e2233f00e852" category="list-text">교체용 PDU를 지원하는 동안 PDU의 장착 브래킷의 슬롯을 시스템 캐비닛 내부의 프레임 상단 구멍에 맞춘 다음 이전 PDU의 장착 나사를 사용하여 PDU를 시스템 캐비닛 프레임에 고정합니다.</block>
   <block id="1663c81c2800071abb2416ac1f02af7b" category="list-text">PDU 하단을 시스템 캐비닛 프레임에 고정한 다음 모든 장착 나사를 조입니다.</block>
   <block id="50557c0f929805d051808d32d02f4238" category="list-text">모든 전원 스위치 또는 회로 차단기가 꺼짐 위치에 있는지 확인합니다.</block>
   <block id="2198cda48b40760064274c533a0bb100" category="paragraph">회로 차단기가 Off(꺼짐) 위치에 있지 않으면 소형 스크루드라이버 또는 곧게 편 종이 클립을 Off(꺼짐) 라벨 오른쪽의 슬롯에 밀어 넣어 회로 차단기를 정지시키고 회로를 끕니다.</block>
-  <block id="3f1c6da286f9a0a50c82f505309eac01" category="list-text">각 구성 요소를 PDU 콘센트에 직접 연결하여 시스템 전원 코드를 PDU에 연결합니다.</block>
   <block id="c6a29e7ba231ff756ea033da9fcf39b0" category="admonition">가장 좋은 방법은 PDU 분기 전체에 총 부하를 분산하여 각 분기 부하를 가능한 한 동일하게 만드는 것입니다.</block>
   <block id="baaa322344b84f330d59cb629097f0f7" category="list-text">케이블 리테이너 클립의 굽은 가장자리를 플러그 숄더 위로 밀어 각 구성요소 전원 케이블 플러그를 케이블 리테이너 클립 위에 고정합니다.</block>
   <block id="2f4e88c25cdf52e68455a1402fb5bf5b" category="list-text">PDU 전원 코드를 AC 전원에 연결합니다.</block>
@@ -5132,7 +5123,6 @@
   <block id="3b94033c8a5b93831bf0d7c1fa418f82" category="sidebar">새 스토리지 시스템에 쉘프를 설치합니다</block>
   <block id="bb1befc9e7977eedfa3877ae4c91a4ac" category="sidebar">SAS 케이블 연결 규칙, 워크시트 및 예</block>
   <block id="a53cc92d668601f5026d62e74ca44764" category="sidebar">쉘프를 핫 제거할 수 있습니다</block>
-  <block id="711fec659e5c52bba32ca7f6f3439502" category="sidebar">쉘프 LED 상태 조건</block>
   <block id="add0180387a0985c32471180b375b8d9" category="sidebar">팬</block>
   <block id="0848ea9d342306bbd71c36913e0508ea" category="sidebar">NVDIMM</block>
   <block id="bbdde7c95b92cf74b7a00751ed051c22" category="sidebar">NVDIMM 배터리</block>
@@ -7743,7 +7733,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="40ab4deb5c724a3e2d6c8f6d96a94554" category="doc">컨트롤러 종료 - FAS2800</block>
   <block id="5f81816799fe408c4f5d0d2b06be7dd0" category="doc">빠른 설명서 - FAS2800</block>
   <block id="b0f0e558d3522c3be05dd8c2dd0af1cc" category="inline-link-macro">FAS2800 시스템 설치 및 설정 지침</block>
-  <block id="dcd1fb87d1725e210ef205f9a1c5e788" category="paragraph"><block ref="dcd1fb87d1725e210ef205f9a1c5e788" category="inline-link-macro-rx"></block></block>
   <block id="30d72b7769d2368f3a2f7fcacca60c27" category="doc">DIMM-FAS2800을 교체합니다</block>
   <block id="041e48089a1444bcdc82526d41790e40" category="paragraph">시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈 덮개를 분리합니다.</block>
   <block id="8caaa86fafbf22c9627e97fb31c1eea5" category="paragraph">컨트롤러 내에서 DIMM을 찾아 분리한 다음 다시 장착합니다.</block>
@@ -7873,12 +7862,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0ab7f92a68b16764d7667e3b826e3433" category="paragraph">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템에서 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
   <block id="28a80c9e2cd7e688ac36b9d1d600c170" category="summary">키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고, 애그리게이트를 다시 전환한 다음, 장애가 발생한 부품을 NetApp로 반환해야 합니다.</block>
   <block id="69f3a5a3fa19fee640389983d958d940" category="section-title">2단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다</block>
-  <block id="cd48288105e3b8975765f5dfc4eb68c6" category="paragraph">400_FAN_SWAP_OUT.adoc
-서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다.</block>
   <block id="341b682adfeb628f1bd1c2eb360fa9a4" category="paragraph">손상된 섀시에서 새 섀시로 팬, 하드 드라이브 및 컨트롤러 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꿉니다.</block>
   <block id="6b78a305de67da849895158b569b9d11" category="paragraph">새 섀시에 컨트롤러 모듈을 설치한 후 부팅해야 합니다.</block>
-  <block id="4971d1d0e646704442f36457f270bd80" category="paragraph">400_NVDIMM_REPLACE.adoc
-시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
   <block id="bfce71371c42897290715d3a240df4ba" category="paragraph">컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 부팅해야 합니다.</block>
   <block id="f57ac97281a56eb21b6c67d6f8d23883" category="paragraph">시스템을 회수하고, 컨트롤러 모듈을 반환한 다음, 자동 반환이 다시 사용되도록 설정해야 합니다.</block>
   <block id="0e7d06b3f50f9081b15d133e07f647b6" category="summary">ASA A400 하드웨어 유지 관리</block>
@@ -8438,19 +8423,14 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a876a1a0c70aad6f175618bf59efec73" category="sidebar">ASA A400 실시간 클럭 배터리</block>
   <block id="5590b96dc59eb91eb51b7b3ea51d3fd8" category="image-alt">DRW C400은 컨트롤러 IEOPS 1216을 탈착합니다</block>
   <block id="771f4aeef9d68203f402ef43f2428c23" category="paragraph">컨트롤러가 섀시 밖으로 약간 이동합니다</block>
-  <block id="8fd39c2eb9c2c19fb66fabb13ca5407d" category="image-alt">DRW C400 NVDIMM 배터리 IEOPS 1227</block>
   <block id="6eabe3dfd3272d314cbb0448ef86a7ca" category="section-title">5단계: 진단 유틸리티를 실행합니다</block>
-  <block id="794b73a50d9f5595ccb242091ccf6e88" category="paragraph">시스템의 구성 요소를 교체한 후에는 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.</block>
   <block id="1292b9de6b55a89a9f27c917af53c51e" category="paragraph">진단 프로그램을 시작하려면 시스템에 LOADER 메시지가 표시되어야 합니다.</block>
   <block id="1082bfd13ce3c25ccfc85ed699b54126" category="paragraph">진단 절차의 모든 명령은 구성 요소를 교체하는 컨트롤러에서 실행됩니다.</block>
   <block id="e7715fbdf353439bc04c101e641a6a00" category="list-text">수리할 컨트롤러가 로더 프롬프트에 있지 않으면 컨트롤러를 재부팅합니다.<block ref="d9a3ee635a736b8059849c211af96e57" prefix=" " category="inline-code"></block></block>
   <block id="cafeac4841bc727e191d8e441daae473" category="paragraph">명령을 실행한 후 시스템이 로더 프롬프트에서 중지될 때까지 기다려야 합니다.</block>
   <block id="14a78bce1fad359d61fd0d2e4a24c3f0" category="list-text">LOADER 프롬프트에서 시스템 수준 진단이 제대로 작동하도록 특별히 설계된 특수 드라이버를 액세스합니다.<block ref="87ee09e2a5f76fd0b04e7f6e02d1e3ef" prefix=" " category="inline-code"></block></block>
   <block id="4d0d7afa62744b6e8fc6dc6801b2da31" category="list-text">표시된 메뉴에서 * Scan System * 을 선택하여 진단 테스트 실행을 활성화합니다.</block>
-  <block id="4c82586ad94f678fd41f1bb0af345849" category="list-text">표시된 메뉴에서 * Test Memory * 를 선택하여 진단 테스트를 실행합니다.</block>
   <block id="62b108a49afeed7e7e1892a4157f8715" category="list-text">이전 단계의 결과에 따라 계속 진행합니다.</block>
-  <block id="9e1e2230ae8a4b73d9a6a3b77c93c501" category="list-text">스캔에 문제가 표시되면 문제를 해결한 다음 스캔을 다시 실행하십시오.</block>
-  <block id="c46c5861f25b8f00cf91204cfc2402e9" category="list-text">검사에 오류가 없는 것으로 보고되면 메뉴에서 재부팅을 선택하여 시스템을 재부팅합니다.</block>
   <block id="88f619f79a466f76f35e017863a94304" category="section-title">6단계: 진단 프로그램을 실행한 후 컨트롤러 모듈을 작동 상태로 복원합니다</block>
   <block id="9e70237e8106527e732b0c345e0d528e" category="paragraph">진단 유틸리티를 완료한 후에는 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.</block>
   <block id="6d9502ea6880092a4496782c893e3da2" category="image-alt">DRW C400 PSU IEOPS 1237</block>
@@ -8461,9 +8441,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="80c14517a78070e49e0abac5d7f9ddbf" category="image-alt">DRW C400은 메자닌 카드 IEOPS 1236을 교체합니다</block>
   <block id="ff0420a1b97d66a283e50773fa71f7ab" category="image-alt">DRW C400 RTC 배터리 IEOPS 1239</block>
   <block id="bd47a35792b075014fd52e08e307f334" category="paragraph">다음 그림과 함께 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
-  <block id="6867fc910d131de047b47f8e69a79887" category="paragraph">시스템에서 시스템 DIMM을 교체한 후 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.</block>
   <block id="627dae9b7fdce24278b6e4ff295eb7be" category="list-text">표시된 메뉴에서 * Test Memory * 를 선택합니다.</block>
-  <block id="ec0d0904d577b30f49df1757109008c2" category="list-text">표시된 하위 메뉴에서 옵션을 선택하고 검사를 실행합니다.</block>
   <block id="79934a1e2f37ff48405809bfef33e025" category="list-text">테스트에 실패한 경우 오류를 수정한 다음 테스트를 다시 실행하십시오.</block>
   <block id="7795a0b926d5a3e9bb0b6489d5f08336" category="list-text">테스트에서 오류가 없다고 보고된 경우 메뉴에서 재부팅을 선택하여 시스템을 재부팅합니다.</block>
   <block id="319906493abbf4e43070e2a96baf7c1a" category="paragraph">시스템에서 NVDIMM을 교체한 후에는 해당 구성 요소에 대한 진단 테스트를 실행해야 합니다.</block>
@@ -8498,4 +8476,55 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3e2d1e468d09ac8c0d6588070ba9373f" category="doc">AFF, ASA 및 FAS 시스템의 새로운 기능</block>
   <block id="e0bcfdcb3cdb0fb1cf75064d4e0a8516" category="sidebar">NetApp의 AFF, ASA 및 FAS 스토리지 시스템은 업계 최고의 데이터 관리 기능을 갖춘 첨단 엔터프라이즈급 스케일아웃 All-Flash 또는 하이브리드 스토리지를 제공합니다. 이 사이트의 문서를 사용하여 시스템을 설치, 확장, 업그레이드 및 유지 관리합니다.</block>
   <block id="834c650e32073b55fedca10accbda908" category="sidebar">AFF, ASA 및 FAS 시스템 문서</block>
+  <block id="ca31c0aa49625e7cda9cae921b597ddc" category="admonition">VER2 컨트롤러에는 DIMM 소켓이 적습니다. 지원되는 DIMM의 수를 줄이거나 DIMM 소켓 번호 지정에 변화가 없습니다. DIMM을 새 컨트롤러 모듈로 이동할 때 손상된 컨트롤러 모듈과 동일한 소켓 번호/위치에 DIMM을 설치합니다.  DIMM 소켓 위치는 VER2 컨트롤러 모듈의 FRU 맵 다이어그램을 참조하십시오.</block>
+  <block id="41f70b901e92516347e56b1eee6fe77b" category="section-title">5단계: 시스템 수준 진단 프로그램을 실행합니다</block>
+  <block id="2a075cce7e33313e84aaa96ceb86a4c8" category="paragraph">새 DIMM을 설치한 후 진단 유틸리티를 실행해야 합니다.</block>
+  <block id="df1e43716c35bc8d4504c85a27a53747" category="paragraph">시스템 레벨 진단을 시작하려면 시스템에 LOADER 메시지가 표시되어야 합니다.</block>
+  <block id="a9aa9ee572e50473b1c62b2a894e2043" category="list-text">수리할 컨트롤러가 로더 프롬프트에 있지 않은 경우 다음 단계를 수행하십시오.</block>
+  <block id="a62ebd9a348c36c016869d6133f9d6a7" category="list-text">표시된 메뉴에서 유지보수 모드 옵션을 선택합니다.</block>
+  <block id="2f550a4de949e9364b8ac6aefff7f6b7" category="list-text">컨트롤러가 유지보수 모드로 부팅된 후 컨트롤러를 중지합니다.<block ref="4a1bde0ea8bcda2a591f42646813c477" prefix=" " category="inline-code"></block></block>
+  <block id="c63722af0556df99585d9c4de88eb02d" category="admonition">부팅 프로세스 중에 안전하게 응답할 수 있습니다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 를 눌러 메시지를 표시합니다.</block>
+  <block id="92a410b1608886e36ab28b2f459ca694" category="list-text">HA 구성에서 유지보수 모드로 전환할 때 정상 상태의 컨트롤러가 계속 중지되는지 확인하는 경고 메시지가 표시되는 경우</block>
+  <block id="7e3c65608f93c3fbf4ce1a591a4d2340" category="paragraph">부팅 프로세스 중에 안전하게 응답할 수 있습니다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 유지보수 모드 프롬프트(*&gt;)가 나타날 때까지 프롬프트에 응답합니다.</block>
+  <block id="e580ca306f46568a79f3f99e6ff00dd4" category="list-text">시스템 메모리에 대한 진단 유틸리티를 실행합니다.<block ref="9cc327d245a3e2bf3cf969c94332f389" prefix=" " category="inline-code"></block></block>
+  <block id="0779a45c530b8731effd7061f49b82c5" category="list-text">DIMM 교체로 인한 하드웨어 문제가 없는지 확인합니다.<block ref="0d54fb4fe6de512f295c58294a4c56a7" prefix=" " category="inline-code"></block></block>
+  <block id="5da59e51284514317dd89943fd6da2c6" category="paragraph">시스템 수준 진단은 테스트 실패가 없을 경우 프롬프트로 돌아가거나 구성 요소 테스트로 인한 전체 실패 상태를 표시합니다.</block>
+  <block id="c444e1d5af673cd5dfdeb1085082e165" category="cell">시스템 수준 진단이 테스트되는 경우...</block>
+  <block id="e51b992cacbc73ddca29fb6c03d6002d" category="paragraph">실패없이 완료되었습니다</block>
+  <block id="629e9741b680c5d2f9b826ad2827a093" category="list-text">상태 로그 지우기:<block ref="5337cb249c294f16f70e226d13832fe2" prefix=" " category="inline-code"></block></block>
+  <block id="b136ba63933bc4583a57c094dbaf6a54" category="list-text">로그가 지워졌는지 확인합니다.<block ref="ffcce1e10203a888408d6b38d996935b" prefix=" " category="inline-code"></block></block>
+  <block id="d83539fafeb4a565a2af47953e3b18ff" category="paragraph">다음과 같은 기본 응답이 표시됩니다.</block>
+  <block id="4b8070f17628f093b654845050b5340a" category="paragraph">SLDIAG: 로그 메시지가 없습니다.</block>
+  <block id="9130288fde26913b149c87c0c3f09798" category="paragraph">컨트롤러에 LOADER 프롬프트가 표시됩니다.</block>
+  <block id="e98eb54c273dabf46f95d865ffe06863" category="list-text">LOADER 프롬프트에서 컨트롤러를 부팅합니다.<block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix=" " category="inline-code"></block></block>
+  <block id="72b23f149d410394a99402b17b524532" category="cell">컨트롤러가 다음 상태인 경우:</block>
+  <block id="beae2577508dff32956933c72e8af78a" category="paragraph">Giveback을 수행합니다.<block ref="06b377d178eed8a76119920cc708363f" prefix=" " category="inline-code"></block>        * 참고: * 자동 반환을 비활성화한 경우 storage failover modify 명령으로 다시 활성화하십시오.</block>
+  <block id="834caefd76621a278dc8eb267498ba4b" category="paragraph">테스트 실패가 발생했습니다</block>
+  <block id="36b7b39e8866d307e74c69b213e9f048" category="paragraph">문제의 원인을 확인합니다.</block>
+  <block id="723c3f20f55eb14062651aca6c8a7346" category="paragraph">명령을 실행한 후 LOADER 프롬프트에서 시스템이 중지될 때까지 기다립니다.</block>
+  <block id="cfc0c5504a92f839aa78f19ba2247644" category="list-text">시스템 수준 진단 프로그램 실행 시 확인된 모든 고려 사항, 케이블이 안전하게 연결되어 있는지, 하드웨어 구성 요소가 스토리지 시스템에 올바르게 설치되어 있는지 확인합니다.</block>
+  <block id="8764a3167d4b2a62ad3ab1024610e8a0" category="list-text">서비스 중인 컨트롤러 모듈을 부팅하고 키를 눌러 부팅을 중단합니다<block ref="76be6883bcf9e8a6aed3a347ac20e41f" prefix=" " category="inline-code"></block> Boot 메뉴로 이동하라는 메시지가 표시되면</block>
+  <block id="c644e1bd6ef1c961f0ee51f0001a2a80" category="list-text">섀시에 2개의 컨트롤러 모듈이 있는 경우, 서비스 중인 컨트롤러 모듈을 섀시에 완전히 장착합니다.</block>
+  <block id="c73474569fe6618d9069e1f3b42bbb62" category="paragraph">컨트롤러 모듈이 완전히 장착되면 부팅됩니다.</block>
+  <block id="cd344280bdd1b4c0a3bfe1c043079039" category="list-text">섀시에 하나의 컨트롤러 모듈이 있는 경우 전원 공급 장치를 연결한 다음 전원을 켭니다.</block>
+  <block id="0a04c386b1c4aba682caa8fbe7cfe6a5" category="list-text">메뉴에서 Boot to maintenance mode(유지 관리 모드로 부팅) 를 선택합니다.</block>
+  <block id="b68d60431d57a95615f83d1a1fa1b999" category="list-text">다음 명령을 입력하여 유지 관리 모드를 종료합니다.<block ref="4a1bde0ea8bcda2a591f42646813c477" prefix=" " category="inline-code"></block></block>
+  <block id="7de4082b4319513bf089f060127a9d55" category="list-text">시스템 레벨 진단 테스트를 다시 실행하십시오.</block>
+  <block id="f7ed34876dbd3974ede0b50d2019fcc5" category="paragraph"><block ref="f7ed34876dbd3974ede0b50d2019fcc5" category="inline-link-macro-rx"></block></block>
+  <block id="cac76ada4fbfca68ed190eb21810e1af" category="inline-link">FAS2820</block>
+  <block id="d269857d9f0df177f932595366b187b5" category="paragraph"><block ref="d269857d9f0df177f932595366b187b5" category="inline-link-rx"></block></block>
+  <block id="b6e60011eab2ca1cf5d6c756a1bbfc5e" category="paragraph">ONTAP 9.13.1 을 참조하십시오</block>
+  <block id="93f637af8ac5da333e550231ad3ba0fa" category="admonition">PDU에 장애가 발생할 경우 시스템 중단을 방지하려면 구성 요소의 전원 케이블을 하나의 PDU에 연결하지 마십시오. 그림에 표시된 대로 다른 회로에 연결된 PDS에 부하를 분산합니다.</block>
+  <block id="c8d15ffad402fb5c47edd1a01fc0bddc" category="list-text">장비를 PDU에 연결합니다.</block>
+  <block id="3ded18266b7e48e45601da3a7e439064" category="list-text">컨트롤러 전원 공급 장치를 서로 다른 전원에 연결된 서로 다른 PDU에 연결합니다.</block>
+  <block id="0c634889e74dcc29e25f327dc059325d" category="list-text">드라이브 쉘프 전원 공급 장치를 서로 다른 전원에 연결된 서로 다른 PDU에 연결합니다.</block>
+  <block id="d62665e6ca42d66f7798a47b3de173c1" category="list-text">모든 스위치 전원 공급 장치를 다른 전원에 연결된 다른 PDU에 연결합니다.</block>
+  <block id="491e0bd8633c24f663133d28bbca00b6" category="image-alt">캐비닛 전원 케이블 IEOPS 1320</block>
+  <block id="a8160b1047e34e32f29ffcef388142ae" category="paragraph">시스템 캐비닛의 다음 입구 중 하나를 통해 PDU 전원 케이블을 연결합니다.</block>
+  <block id="9f708794421d9c2f9fa55bb42915f824" category="list-text">손상된 PDU의 회로 차단기를 끄고 AC 전원에서 손상된 PDU를 분리합니다.</block>
+  <block id="16eadd18e8cd7dafc21fca24e9d774c0" category="list-text">시스템 캐비닛에 접지한 다음 각 시스템 구성 요소와 손상된 PDU에서 전원 코드를 뽑습니다.</block>
+  <block id="c9144dd81d5fb57474d7493f00d69ad5" category="list-text">시스템 캐비닛에서 손상된 PDU를 분리합니다.</block>
+  <block id="6693af315bf1c245b8a89cbbb645b36c" category="list-text">손상된 PDU에서 브래킷을 제거한 다음 교체용 PDU 뒷면에 설치합니다.</block>
+  <block id="0fa3e40fa136f7cfe1746d5ce1d7e9ee" category="list-text">교체 PDU를 지지하면서 PDU 장착 브래킷의 슬롯을 시스템 캐비닛 내부의 프레임 상단 구멍에 맞춘 다음 손상된 PDU의 장착 나사를 사용하여 PDU를 시스템 캐비닛 프레임에 고정합니다.</block>
+  <block id="143d47d33d1ad99e226055b46abe364d" category="list-text">스토리지 시스템, 스위치 및 드라이브 쉘프에서 분리한 전원 코드를 교체용 PDU에 꽂고 각 구성 요소를 구성 요소의 PDU 콘센트에 직접 꽂습니다.</block>
 </blocks>

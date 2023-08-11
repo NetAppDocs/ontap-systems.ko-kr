@@ -29,6 +29,13 @@ ONTAP 9.8
 
 
  a| 
+https://hwu.netapp.com/ProductSpecs/Index["FAS2820"]
+ a| 
+ONTAP 9.13.1 을 참조하십시오
+
+
+
+ a| 
 https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf["500f로 설정합니다"]
  a| 
 ONTAP 9.8
