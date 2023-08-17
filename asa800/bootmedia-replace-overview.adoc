@@ -1,5 +1,5 @@
 ---
-permalink: a800/bootmedia-replace-overview.html 
+permalink: asa800/bootmedia-replace-overview.html 
 sidebar: sidebar 
 keywords: asa a800, replace the boot media 
 summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 

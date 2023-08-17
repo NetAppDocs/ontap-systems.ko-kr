@@ -1,10 +1,10 @@
 ---
-permalink: fas9500/dcpm_NVRAM11_battery_replace.html 
+permalink: asa900/dcpm-nvram11-battery-replace.html 
 sidebar: sidebar 
-keywords: FAS9500 
-summary: 'NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.' 
+keywords: ASA A900 
+summary: 'NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 실패한 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.' 
 ---
-= NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(FAS9500)을 교체하십시오
+= NVRAM11 배터리가 포함된 DCPM을 교체합니다. - ASA A900
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -31,20 +31,20 @@ NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스�
 
 IMPORTANT: 탈거 후 5분 이내에 섀시에서 DCPM 모듈을 교체해야 합니다. 그렇지 않으면 관련 컨트롤러가 종료됩니다.
 
-. 모듈 손잡이의 테라 코타 잠금 버튼을 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.
+. 모듈 손잡이의 테라 코타 분리 단추를 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.
 +
 .애니메이션 - DCPM 탈거/장착
-video::c067cf9d-35b8-4fbe-9573-ae78004c2328[panopto]
+video::ade18276-5dbc-4b91-9a0e-adf9016b4e55[panopto]
 +
-image::../media/drw_9500_remove_NV_battery.svg[drw 9500 NV 배터리를 제거합니다]
+image::../media/drw_9000_remove_nv_battery.svg[drw 9000은 NV 배터리를 제거합니다]
 
 +
-[cols="20%,80%"]
+[cols="10,90"]
 |===
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image:../media/legend_icon_01.png[""]
  a| 
 DCPM 모듈 테라코타 잠금 버튼
 
