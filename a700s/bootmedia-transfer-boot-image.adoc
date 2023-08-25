@@ -36,14 +36,14 @@ image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저
 
@@ -117,14 +117,14 @@ image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저
 

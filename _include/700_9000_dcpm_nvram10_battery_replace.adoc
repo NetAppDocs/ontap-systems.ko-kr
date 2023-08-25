@@ -32,7 +32,7 @@ image::../media/drw_9000_remove_nv_battery.png[drw 9000은 NV 배터리를 제�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 DCPM 모듈 주황색 잠금 버튼
 

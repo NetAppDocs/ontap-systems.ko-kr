@@ -33,7 +33,7 @@ image::../media/drw_9000_remove_install_psu_module.gif[drw 9000 설치 제거 PS
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 잠금 버튼 
 |===
 . 나머지 전원 공급 장치에 대해 위의 단계를 반복합니다.
@@ -61,7 +61,7 @@ image::../media/drw_9000_remove_install_fan.png[drw 9000 설치 팬을 제거합
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 주황색 해제 버튼 
 |===
 . 팬 모듈을 따로 보관해 둡니다.
@@ -86,12 +86,12 @@ image::../media/drw_9000_remove_pcm.png[drw 9000을 사용하여 PCM을 제거�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 캠 핸들 해제 버튼 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -137,12 +137,12 @@ image::../media/drw_9000_remove_pcie_module.png[drw 9000 PCIe 모듈을 제거�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 문자 및 숫자 I/O 캠 래치 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 
@@ -170,7 +170,7 @@ image::../media/drw_9000_remove_nv_battery.png[drw 9000은 NV 배터리를 제�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | DCPM 모듈 주황색 잠금 버튼 
 |===
 . DCPM 모듈을 안전한 곳에 두고 나머지 DCPM 모듈에 대해 이 단계를 반복합니다.

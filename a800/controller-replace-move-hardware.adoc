@@ -44,12 +44,12 @@ image::../media/drw_a800_pcm_remove.png[drw A800 PCM 제거]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 잠금 래치 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -72,21 +72,21 @@ image::../media/drw_a800_open_air_duct.png[drw A800 개방형 공기 덕트]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 공기 덕트를 팬 모듈 쪽으로 밉니다
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 공기 덕트를 팬 모듈 쪽으로 돌립니다
 
@@ -115,12 +115,12 @@ image::../media/drw_a800_replace_psu.png[drw A800은 PSU를 대체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 파란색 전원 공급 장치 잠금 탭 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 전원 공급 장치
 
@@ -151,12 +151,12 @@ image::../media/drw_a800_replace_fan.png[drw A800은 팬을 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 팬 잠금 탭 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 팬 모듈
 
@@ -181,19 +181,19 @@ image::../media/drw_a800_nvdimm_battery_replace.png[drw A800 NVDIMM 배터리 �
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 공기 덕트 라이저 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 NVDIMM 배터리 플러그
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 NVDIMM 배터리 팩
 
@@ -234,12 +234,12 @@ image::../media/drw_a800_riser_2_3_remove.png[drw A800 라이저 2 3 제거]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 에어 덕트 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저 1(왼쪽 라이저), 라이저 2(중앙 라이저) 및 3(오른쪽 라이저) 잠금 래치
 
@@ -291,12 +291,12 @@ image::../media/drw_a800_no_risers_nvdimm_move.png[drw A800 라이저 없음 NVD
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 에어 덕트 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 NVDIMM
 
@@ -338,33 +338,33 @@ image::../media/drw_a800_pcm_replace_only_boot_media.png[DRW A800 PCM은 부트 
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 에어 덕트 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저 3
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 Phillips #1 드라이버
 
 
 
  a| 
-image:../media/legend_icon_04.png[""]
+image:../media/legend_icon_04.png["설명선 번호 4"]
  a| 
 부트 미디어 나사
 
 
 
  a| 
-image:../media/legend_icon_05.png[""]
+image:../media/legend_icon_05.png["설명선 번호 5"]
  a| 
 미디어를 부팅합니다
 
@@ -427,12 +427,12 @@ image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 잠금 탭 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 슬라이드 플런저
 

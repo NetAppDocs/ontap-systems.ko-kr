@@ -27,14 +27,14 @@ image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 레버
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 
@@ -49,14 +49,14 @@ image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 나비 나사
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈 덮개
 
@@ -89,14 +89,14 @@ image::../media/drw_a250_replace_boot_media.png[drw A250 부팅 매체를 교체
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈의 마더보드에 부트 미디어를 고정하는 나사를 분리합니다.
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈에서 부팅 미디어를 들어올립니다.
 
@@ -161,14 +161,14 @@ image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈 덮개
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 나비 나사
 

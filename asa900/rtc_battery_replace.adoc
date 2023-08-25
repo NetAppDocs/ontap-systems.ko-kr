@@ -151,14 +151,14 @@ image::../media/drw_a900_remove_PCM.png[drw a900 PCM을 제거합니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -177,7 +177,7 @@ image::../media/drw_a900_PCM_open.png[drw a900 PCM이 열려 있습니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -202,14 +202,14 @@ image::../media/drw_a900_remove_RTC_battery.png[drw a900 RTC 배터리를 제거
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 RTC 배터리
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 RTC 배터리 하우징
 

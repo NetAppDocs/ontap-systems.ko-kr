@@ -35,7 +35,7 @@ AFF C800 시스템을 설치하려면 계정을 만들고 시스템을 등록해
 .. 모든 상자의 내용물을 풉니다.
 .. 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.png[drw SSN 레이블]
+image::../media/drw_ssn_label.png[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
 
 
 
@@ -142,7 +142,7 @@ image:../media/oie_cable_fc_optical.png[""]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png[""]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
  a| 
 소프트웨어 설정 중 콘솔 연결
 
@@ -251,7 +251,7 @@ image:../media/oie_legend_icon_2_lg.png[""]
  a| 
 image:../media/oie_legend_icon_3_lp.png[""]
  a| 
-관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다 image:../media/drw_affa800_mgmt_cabling.png[""]
+관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_affa800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
 
 
 
@@ -320,7 +320,7 @@ image:../media/oie_legend_icon_2_lg.png[""]
  a| 
 image:../media/oie_legend_icon_3_lp.png[""]
  a| 
-관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다 image:../media/drw_affa800_mgmt_cabling.png[""]
+관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_affa800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
 
 
 

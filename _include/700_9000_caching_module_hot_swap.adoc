@@ -74,14 +74,14 @@ image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 주황색 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캐시 모듈 캠 핸들.
 

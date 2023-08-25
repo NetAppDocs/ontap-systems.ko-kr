@@ -86,12 +86,12 @@ image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 레버 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 
@@ -106,12 +106,12 @@ image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈 덮개
 
@@ -141,26 +141,26 @@ image::../media/drw_a250_replace_nvmem_batt.png[drw A250은 nvmem batt를 대체
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 배터리 플러그 표면에 있는 클립을 누릅니다. 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 소켓에서 배터리 케이블을 분리합니다.
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 배터리를 잡고 푸시가 표시된 파란색 잠금 탭을 누르십시오.
 
 
 
  a| 
-image:../media/legend_icon_04.png[""]
+image:../media/legend_icon_04.png["설명선 번호 4"]
  a| 
 홀더 및 컨트롤러 모듈에서 배터리를 들어올립니다.
 
@@ -190,12 +190,12 @@ image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 컨트롤러 모듈 덮개 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 나비 나사
 

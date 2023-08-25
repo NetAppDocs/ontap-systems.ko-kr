@@ -85,14 +85,14 @@ image::../media/drw_a700s_pcm_remove.png[drw a700s PCM 제거]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -120,14 +120,14 @@ image::../media/drw_a700s_nvme_battery_replace.png[drw a700s NVMe 배터리 교�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 NVRAM 배터리 플러그
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 파란색 NVRAM 배터리 잠금 탭
 
@@ -159,14 +159,14 @@ image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 슬라이드 플런저
 

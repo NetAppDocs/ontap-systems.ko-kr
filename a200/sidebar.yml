@@ -16,7 +16,7 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A200 유지보수
   entries:
-  - title: ''
+  - title: 개요
     url: "/a200/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A200 부팅 미디어

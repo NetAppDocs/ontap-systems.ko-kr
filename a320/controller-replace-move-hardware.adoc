@@ -144,12 +144,12 @@ image::../media/drw_a320_dimm_map.png[A320 drw DIMM 맵]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 에어 덕트 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 ** 시스템 DIMM 슬롯: 2,4, 7, 9, 13, 15, 18, 20세
 ** NVDIMM 슬롯: 11

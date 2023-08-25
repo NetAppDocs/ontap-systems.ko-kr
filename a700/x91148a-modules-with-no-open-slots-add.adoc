@@ -64,14 +64,14 @@ image::../media/drw_9000_remove_pcie_module.png[drw 9000 PCIe 모듈을 제거�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 문자 및 숫자 I/O 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 
@@ -138,14 +138,14 @@ image::../media/drw_9000_remove_pcie_module.png[drw 9000 PCIe 모듈을 제거�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 문자 및 숫자 I/O 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 

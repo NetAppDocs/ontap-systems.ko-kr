@@ -29,14 +29,14 @@ image::../media/drw_a900_remove_PCM.png[drw a900 PCM을 제거합니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -56,7 +56,7 @@ image::../media/drw_a900_PCM_open.png[drw a900 PCM이 열려 있습니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -77,14 +77,14 @@ image::../media/drw_a900_remove_boot_dev.png[drw a900 부트 DEV를 제거합니
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 분리 탭을 누릅니다
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 미디어를 부팅합니다
 
@@ -128,14 +128,14 @@ image::../media/drw_a900_replace_PCM_dimms.png[drw a900 PCM DIMM을 교체합니
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 DIMM 이젝터 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 DIMM
 
@@ -187,14 +187,14 @@ image::../media/drw_a900_remove_PCM.png[drw a900 PCM을 제거합니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 

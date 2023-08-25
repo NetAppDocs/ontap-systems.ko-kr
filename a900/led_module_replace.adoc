@@ -31,14 +31,14 @@ image::../media/drw_a900_remove_replace_LED_mod.png[drw a900 제거 LED 모드 �
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 USB LED 모듈
 

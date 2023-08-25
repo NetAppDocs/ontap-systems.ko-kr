@@ -88,12 +88,12 @@ image::../media/drw_a800_pcm_remove.png[drw A800 PCM 제거]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 잠금 래치 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -120,19 +120,19 @@ image::../media/drw_a800_nvdimm_battery_replace.png[drw A800 NVDIMM 배터리 �
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 공기 덕트 라이저 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 NVDIMM 배터리 플러그
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 NVDIMM 배터리 팩
 

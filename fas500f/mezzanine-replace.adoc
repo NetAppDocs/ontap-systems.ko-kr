@@ -97,12 +97,12 @@ image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 레버 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 
@@ -117,12 +117,12 @@ image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈 덮개
 
@@ -152,19 +152,19 @@ image::../media/drw_a250_replace_mezz_card.png[drw A250 메자닌 카드를 교�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 컨트롤러 모듈 표면에 있는 나사를 제거합니다. 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈의 나사를 풉니다.
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 메자닌 카드를 분리합니다.
 
@@ -218,12 +218,12 @@ image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 컨트롤러 모듈 덮개 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 나비 나사
 

@@ -38,7 +38,7 @@ NOTE: 특정 전력 요구사항이 있는 고객은 HWU에서 구성 옵션을 
 . 모든 상자의 내용물을 풉니다.
 . 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.png[drw SSN 레이블]
+image::../media/drw_ssn_label.png[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
 
 . 계정 설정:
 +
@@ -122,7 +122,7 @@ image:../media/oie_cable_fc_optical.png[""]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png[""]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
  a| 
 소프트웨어 설정 중 콘솔 연결
 

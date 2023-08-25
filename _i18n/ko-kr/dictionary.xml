@@ -325,7 +325,6 @@
   <block id="490cb76fd3c75ff8166e251d789f799e" category="paragraph">이더넷 호스트 및 관리 네트워크</block>
   <block id="2daea530a029187535b9b6d53d920b9d" category="paragraph">마이크로 USB 콘솔 케이블</block>
   <block id="e681a3b45989b468533c4b90ee960bf9" category="paragraph">해당 없음</block>
-  <block id="3e355903f0d5a03e5fca13e0c7843fa2" category="paragraph"><block ref="3e355903f0d5a03e5fca13e0c7843fa2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6dcfa32e861b657cd137a281916a5188" category="paragraph">Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결</block>
   <block id="0d39f1b0a5cbdec5ccf74bfa4519fe8c" category="paragraph">전원 케이블</block>
   <block id="ec58e6df26c7cd49356dbb0f54140310" category="paragraph"><block ref="ec58e6df26c7cd49356dbb0f54140310" category="inline-image-macro-rx" type="image"></block></block>
@@ -356,7 +355,6 @@
   <block id="4f6495d505dded911984524478da41af" category="list-text">e0a ~ e0a</block>
   <block id="e264767a0a11b7a11be0a5345921827e" category="list-text">e0b ~ e0b<block ref="9a0e89c71564aa69ffecf67eb610bc96" category="inline-image-macro-rx" type="image"></block></block>
   <block id="381afd3fb13a052283be8343171ab050" category="paragraph"><block ref="381afd3fb13a052283be8343171ab050" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="519c55b1abbe70db981fa64fb386a258" category="paragraph"><block ref="519c55b1abbe70db981fa64fb386a258" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5defeb12e66d13c969cbb3bb31457701" category="paragraph"><block ref="5defeb12e66d13c969cbb3bb31457701" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0a9eb11c9962c2eb967f53a4845bf1a" category="paragraph">RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.</block>
   <block id="f2333c38a5002ab3a3ce6f24b2d22d95" category="paragraph"><block ref="f2333c38a5002ab3a3ce6f24b2d22d95" category="inline-image-macro-rx" type="image"></block></block>
@@ -369,7 +367,6 @@
   <block id="81b22135a51aae23b34a49fb4dc95ad2" category="paragraph">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 스위치에 e0a 및 e0b 케이블 연결:</block>
   <block id="cdb6f4b16ce28508dd90ea2ebac10c11" category="paragraph"><block ref="cdb6f4b16ce28508dd90ea2ebac10c11" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0df32eef6f99f6d05877f5da86a45063" category="image-alt">drw C190 tnsc 이더넷 네트워크 케이블 애니메이션 gif</block>
-  <block id="fb201d3291ef220a70a2ca2508729abe" category="list-text">e0b ~ e0b<block ref="89b350cdba7fe4fe6fc5044b1844ae20" category="inline-image-macro-rx" type="image"></block></block>
   <block id="836e597d16643401627d14a351ba6a9c" category="paragraph">Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.</block>
   <block id="97fa7018860cc17c4006609d9662603b" category="paragraph"><block ref="97fa7018860cc17c4006609d9662603b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="98fba69d64d87a6163f05e51141bb98d" category="paragraph"><block ref="98fba69d64d87a6163f05e51141bb98d" category="inline-image-macro-rx" type="image"></block></block>
@@ -758,7 +755,6 @@
   <block id="3999567db5b4a29bd6505aaadb3f807e" category="cell">LED 이름입니다</block>
   <block id="46a2a41cc6e552044816a2d04634545d" category="cell">상태</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">설명</block>
-  <block id="bd017b464f7ccc6f05ea50c47d504548" category="paragraph"><block ref="bd017b464f7ccc6f05ea50c47d504548" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2aa97e44cace7cb882c9dcba32940f8f" category="cell">주의</block>
   <block id="75e6252bb5a504fc80a435f3c6fc7c82" category="paragraph">주황색으로 고정되어 있습니다</block>
   <block id="b1c23a7b6408627bd440346dc97e6430" category="paragraph">팬에 결함이 있습니다</block>
@@ -1117,7 +1113,6 @@
   <block id="5166acfdc2ff0f8c73c70c461a3e1d4c" category="paragraph">디스크 드라이브에 전원이 공급되고 있습니다.</block>
   <block id="67f05c3a765ab208f35ceb51a89a9412" category="paragraph">녹색으로 깜박임</block>
   <block id="29c889fe05cf4e4a76847d3402d6d74e" category="paragraph">디스크 드라이브에 전원이 공급되고 I/O 작업이 진행 중입니다.</block>
-  <block id="3964bc8d7e8eb5f4ac34dcc2de182743" category="paragraph"><block ref="3964bc8d7e8eb5f4ac34dcc2de182743" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2c8f8acbfee3bb2f770ca0d6264ddd16" category="paragraph">디스크 드라이브의 기능에 오류가 발생했습니다.</block>
   <block id="a9b892ba337a8e7b9f2875122e19906e" category="paragraph">디스크 쉘프 모델에 따라 디스크 드라이브는 디스크 쉘프에서 수직 또는 수평으로 배열되어 두 LED의 위치를 지정합니다.</block>
   <block id="6fcb2aeff28bfdde99d5d5e7628dffe3" category="paragraph">다음 그림은 DS224C 디스크 쉘프에 사용되는 디스크 드라이브에 대한 것입니다.</block>
@@ -1167,7 +1162,6 @@
   <block id="41f00bd0bd50ec63b4c6eb083fc571c2" category="image-alt">2860 DWG 풀 백 뷰 체인 커넥터</block>
   <block id="fc29580e25d6ddbfcca9007302b4394c" category="cell">케이블 체인</block>
   <block id="4ca8a3b9b08673eaae9294722c5c27a1" category="paragraph">수직 커넥터(미드플레인에 연결됨)</block>
-  <block id="2a1d9e1c8fbe9821af4d757b86d8e1cd" category="paragraph"><block ref="2a1d9e1c8fbe9821af4d757b86d8e1cd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="22cf3fd1aa7a7963237df6cf98dc1b2b" category="paragraph">수평 커넥터(드라이브 드로어에 연결됨)</block>
   <block id="50edadd8e1ae3ee59888dab2692cf33d" category="paragraph">상단 케이블 체인은 드라이브 서랍 1에 부착되어 있습니다. 하단 케이블 체인은 드라이브 서랍 5에 부착되어 있습니다.</block>
   <block id="c8fbd1fadd109381076b56c0dc1f40a7" category="list-text">손가락을 사용하여 오른쪽의 케이블 체인을 왼쪽으로 이동합니다.</block>
@@ -1872,7 +1866,6 @@
   <block id="70e6b47c36dec2febd8fa185ee052764" category="paragraph">X66250-3(112-00342), 2m</block>
   <block id="b72ae2740e5d2d5deeb295502ce46618" category="paragraph">X66260-5(112-00344), 5m</block>
   <block id="3716ec01119458ed21a566c68a371d3e" category="paragraph">X66260-30(112-00354), 30m</block>
-  <block id="19f7a73218283f2f9c4f859568ba709b" category="paragraph"><block ref="19f7a73218283f2f9c4f859568ba709b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c90da43ea678ffdb52edc15af33e2c8e" category="paragraph">FC 구성(주문 종속)</block>
   <block id="bcaa51b0b0d951db8b6df73cb52ce54d" category="paragraph">RJ-45(주문에 따라 다름)</block>
   <block id="494eeb741723e2c166dc5864c7da1e64" category="paragraph">관리 네트워크</block>
@@ -2213,7 +2206,6 @@
   <block id="873ff90864f62182ca0ed7a91a266e52" category="image-alt">drw fas32xx 팬</block>
   <block id="a93e082238b757e44010c2ad81d1aba6" category="paragraph">팬 모듈</block>
   <block id="ef8efdc5b2bd1a532f14079abd36e082" category="paragraph">캠 핸들 해제 래치</block>
-  <block id="18d25796ccd152a3eb52ffda0bdd5349" category="paragraph"><block ref="18d25796ccd152a3eb52ffda0bdd5349" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8c8c98956870ffea5e2297a73a1972a1" category="paragraph">팬 모듈 주의 LED</block>
   <block id="13fa4776dd3902d644b4c8c6e4086d8d" category="doc">실시간 시계 배터리 - FAS8200을 교체하십시오</block>
   <block id="6ffcd61574f4970c28c0b71a5611ad7c" category="section-title">3단계: RTC 배터리를 교체합니다</block>
@@ -2289,7 +2281,6 @@
   <block id="54c1f466dcb42475b75e8f202e013885" category="image-alt">drw rxl PSU</block>
   <block id="7bdc6bfc27ce2c490464721b4f39c739" category="cell">전원 공급 장치</block>
   <block id="fc55b45cca3fa6be680def2c9c4b821e" category="paragraph">전원 및 장애 표시등</block>
-  <block id="a62a9f240c2e969ad7bd26106db32a71" category="paragraph"><block ref="a62a9f240c2e969ad7bd26106db32a71" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b82df982fd2500b5301a3127ef1f47c2" category="paragraph">전원 케이블 잠금 메커니즘</block>
   <block id="8ba8e854127bccb82d1934c0df2d4a25" category="list-text">전원 공급 장치 캠 핸들을 단단히 눌러 섀시에 완전히 고정한 다음 캠 핸들을 닫힘 위치로 밀어 캠 핸들 해제 래치가 잠금 위치에 딸깍 소리를 내면서 고정되도록 합니다.</block>
   <block id="b9068760536b874bf77dc015fb91c3ae" category="doc">시스템 복원 완료 - FAS8200</block>
@@ -3216,7 +3207,6 @@
   <block id="1f8423b3a1c8ebe55e8111993cede2a3" category="paragraph"><block ref="1f8423b3a1c8ebe55e8111993cede2a3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6baba1e3fa15a886983640e637a762e9" category="paragraph">클러스터 인터커넥트 포트에 케이블 연결:</block>
   <block id="9fb25d51d61d61c71697db66aff5e4f9" category="list-text">E1A ~ E1A<block ref="83b8377d063700297200cb5f90f60dd7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c58e9341c544dead8a0da7f9212aceb2" category="paragraph">관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다 <block ref="5de506e6c2f74b959dcd2dc28930a80c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8318f7a477919801182a78d50d64dd67" category="list-text">케이블 연결 옵션을 수행하려면 다음을 참조하십시오.</block>
   <block id="1cf474ea9658d4a6b7324feffa3967fd" category="list-text"><block ref="c9f609c3e828427f5688ee58753894e5" category="inline-xref-macro-rx"></block></block>
   <block id="0bb220d44bed0335a5dab4f4a0ed36a4" category="list-text"><block ref="8aad4abef45a2309ab3038b2b3e9ed79" category="inline-xref-macro-rx"></block></block>
@@ -8527,4 +8517,26 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6693af315bf1c245b8a89cbbb645b36c" category="list-text">손상된 PDU에서 브래킷을 제거한 다음 교체용 PDU 뒷면에 설치합니다.</block>
   <block id="0fa3e40fa136f7cfe1746d5ce1d7e9ee" category="list-text">교체 PDU를 지지하면서 PDU 장착 브래킷의 슬롯을 시스템 캐비닛 내부의 프레임 상단 구멍에 맞춘 다음 손상된 PDU의 장착 나사를 사용하여 PDU를 시스템 캐비닛 프레임에 고정합니다.</block>
   <block id="143d47d33d1ad99e226055b46abe364d" category="list-text">스토리지 시스템, 스위치 및 드라이브 쉘프에서 분리한 전원 코드를 교체용 PDU에 꽂고 각 구성 요소를 구성 요소의 PDU 콘센트에 직접 꽂습니다.</block>
+  <block id="9a3ab30d090ff0aedb700d0ce5d6d031" category="image-alt">번호 위치를 보여 주는 시스템 일련 번호의 예입니다</block>
+  <block id="3b225b9970f24711538cbdc2858aa8f3" category="inline-image-macro">마이크로 USB 커넥터를 보여 주는 그림</block>
+  <block id="e546054fa329764f66a36f52b11ff037" category="paragraph"><block ref="e546054fa329764f66a36f52b11ff037" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed1d9c9a369cfdb87320f3c154526fd6" category="inline-image-macro">주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다</block>
+  <block id="499d9f30e515ad0fb1788e55c96baaf5" category="paragraph"><block ref="499d9f30e515ad0fb1788e55c96baaf5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eff9a2b0e485ca3fb80f96fc9995fb62" category="inline-image-macro">설명선 번호 1</block>
+  <block id="37d1043ad7edc4ca679595837349fe13" category="paragraph"><block ref="37d1043ad7edc4ca679595837349fe13" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="746fda156f20e053f2c0e3b0e0ecab0e" category="inline-image-macro">설명선 번호 2</block>
+  <block id="a570d61c2d80a17f29947ad16f824e87" category="paragraph"><block ref="a570d61c2d80a17f29947ad16f824e87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f695e51ae076dac62d244a3e86a2eae" category="inline-image-macro">설명선 번호 3</block>
+  <block id="a058f3408f1f7a056c17e0ed8566b0a2" category="paragraph"><block ref="a058f3408f1f7a056c17e0ed8566b0a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f92f448740bddae7b25ed117dcbd39ec" category="inline-image-macro">설명선 번호 4</block>
+  <block id="d0950fde2571b3d284d4ea19bf58bb84" category="paragraph"><block ref="d0950fde2571b3d284d4ea19bf58bb84" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="140e6f3619a868d803ee4deb2e00c8d2" category="inline-image-macro">설명선 번호 5</block>
+  <block id="5bd10f62d93ddba8f0c6422d119d22d6" category="paragraph"><block ref="5bd10f62d93ddba8f0c6422d119d22d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="867e128c8464065dd00e34a790ece4bd" category="inline-image-macro">광섬유 LC 커넥터를 보여 주는 그림</block>
+  <block id="dc8b7d90396767816d834ce67412e9d0" category="paragraph"><block ref="dc8b7d90396767816d834ce67412e9d0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6e511e082f09f049a4c7c1e36e35c9c3" category="inline-image-macro">시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다</block>
+  <block id="d439da4c3831de2165d4e3edbb6ad2de" category="paragraph">관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    <block ref="5f7dc0c41e4463eda3eca8496148edc4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e598646ba49e0f0b7db709308a38bd0c" category="inline-image-macro">컨트롤러 후면의 포트 간 클러스터 인터커넥트를 보여주는 그림입니다</block>
+  <block id="d5fe92183ddfd6502c92a350a2928047" category="list-text">e0b ~ e0b
+<block ref="23c439b7ef31021d610e4d3b988f3cd1" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

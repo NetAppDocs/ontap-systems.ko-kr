@@ -165,7 +165,7 @@ image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[28 DWG 
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 팬 모듈 핸들 
 |===
 .. 손잡이를 사용하여 팬 모듈을 드라이브 쉘프에서 꺼내고 한쪽에 둡니다.
@@ -184,19 +184,19 @@ image::../media/2860_dwg_full_back_view_chain_connectors.gif[2860 DWG 풀 백 �
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 케이블 체인 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 수직 커넥터(미드플레인에 연결됨)
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 수평 커넥터(드라이브 드로어에 연결됨)
 
@@ -217,7 +217,7 @@ image::../media/2860_dwg_vertical_ring_for_chain.gif[체인용 2860 DWG 수직 �
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 세로 브래킷의 주황색 링 
 |===
 .. 주황색 링의 중앙을 살짝 누르고 케이블 왼쪽을 인클로저 밖으로 당겨 수직 커넥터(중앙판에 연결됨)를 분리합니다.
@@ -239,12 +239,12 @@ image::../media/2860_dwg_horiz_ring_for_chain.gif[2860 DWG 수평 링이 체인�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 가로 브래킷의 주황색 링 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 케이블 체인
 
@@ -313,7 +313,7 @@ image::../media/92_pht_de6600_drive_drawer_release_lever.gif[92 PHT de6600 드�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 드라이브 드로어 분리 레버 
 |===
 .. 래치를 사용자 쪽으로 당겨 두 분리 레버를 모두 엽니다.
@@ -352,12 +352,12 @@ image::../media/92_pht_de6600_lock_out_tumbler_detail.gif[92 PHT de6600 락아�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 락아웃 텀블러 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 서랍 가이드
 
@@ -394,7 +394,7 @@ image::../media/28_dwg_e2860_de460c_drive_cru.gif[28 DWG e2860 de460c 드라이�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 드라이브 오른쪽에 있는 위로 단추 
 |===
 .. 드라이브를 수직으로 내린 다음 드라이브가 제자리에 끼워질 때까지 드라이브 핸들을 아래로 돌립니다.
@@ -438,7 +438,7 @@ image::../media/28_dwg_e2860_de460c_cable_chain_left.gif[28 DWG e2860 de460c 케
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 왼쪽  a| 
 수직
  a| 
@@ -447,7 +447,7 @@ image:../media/legend_icon_01.png[""]
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 왼쪽
  a| 
@@ -464,7 +464,7 @@ image:../media/28_dwg_e2860_de460c_cable_chain_right.gif[""]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 맞습니다  a| 
 수평
  a| 
@@ -473,7 +473,7 @@ image:../media/legend_icon_01.png[""]
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 맞습니다
  a| 
@@ -500,7 +500,7 @@ image::../media/2860_dwg_guide_rail.gif[2860 DWG 가이드 레일]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 가이드 레일 
 |===
 +

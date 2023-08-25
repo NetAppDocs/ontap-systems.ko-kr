@@ -37,7 +37,7 @@ http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62
 . 모든 상자의 내용물을 풉니다.
 . 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.png[drw SSN 레이블]
+image::../media/drw_ssn_label.png[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
 
 . 계정 설정:
 +
@@ -102,7 +102,7 @@ X6536-R6(112-00090), 5m
 
 X6554-R6(112-00189), 15m
  a| 
-image:../media/oie_cable_fiber_lc_connector.png[""]
+image:../media/oie_cable_fiber_lc_connector.png["광섬유 LC 커넥터를 보여 주는 그림"]
  a| 
 FC 호스트 네트워크
 
@@ -143,7 +143,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[""]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png[""]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -247,7 +247,7 @@ FC 호스트
 
 NOTE: 하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.
 
-image:../media/drw_c190_u_fc_10gbe_cbling.png[""]
+image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
 
 
 
@@ -324,7 +324,7 @@ FC 호스트
 
 NOTE: 하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.
 
-image:../media/drw_c190_u_fc_10gbe_cbling.png[""]
+image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
 
 
 
@@ -378,7 +378,8 @@ image:../media/oie_legend_icon_1_lg.png[""]
 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트를 서로 케이블로 연결합니다.
 
 ** e0a ~ e0a
-** e0b ~ e0bimage:../media/drw_c190_e_tnsc_clust_cbling.png[""]
+** e0b ~ e0b
+image:../media/drw_c190_e_tnsc_clust_cbling.png["컨트롤러 후면의 포트 간 클러스터 인터커넥트를 보여주는 그림입니다"]
 
 
 

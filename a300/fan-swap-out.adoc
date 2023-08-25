@@ -32,26 +32,26 @@ image::../media/drw_fas32xx_fan.png[drw fas32xx 팬]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 캠 핸들 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 팬 모듈
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들 해제 래치
 
 
 
  a| 
-image:../media/legend_icon_04.png[""]
+image:../media/legend_icon_04.png["설명선 번호 4"]
  a| 
 팬 모듈 주의 LED
 

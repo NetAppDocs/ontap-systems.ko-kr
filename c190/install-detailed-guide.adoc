@@ -36,7 +36,7 @@ AFF C190 시스템을 설치하려면 계정을 만들고 시스템을 등록하
 . 모든 상자의 내용물을 풉니다.
 . 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.png[drw SSN 레이블]
+image::../media/drw_ssn_label.png[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
 
 . 계정 설정:
 +
@@ -114,7 +114,7 @@ image:../media/oie_cable_rj45.png[""]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png[""]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -234,7 +234,7 @@ image::../media/drw_c190_tnsc_ethernet_network_cabling_animated_gif.png[drw C190
 UTA2 데이터 네트워크 구성:: 다음 케이블 유형 중 하나를 사용하여 e0c/0c 및 e0d/0d 또는 e0e/0e 및 e0f/0f 데이터 포트를 호스트 네트워크에 연결합니다.
 +
 --
-image:../media/drw_c190_u_fc_10gbe_cbling.png[""]
+image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
 
 --
 이더넷 네트워크 구성:: Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다. 다음 그림을 참조하십시오.
@@ -301,7 +301,7 @@ image:../media/drw_c190_u_switched_clust_cbling.png[""]
 UTA2 데이터 네트워크 구성:: 다음 케이블 유형 중 하나를 사용하여 e0c/0c 및 e0d/0d 또는 e0e/0e 및 e0f/0f 데이터 포트를 호스트 네트워크에 연결합니다.
 +
 --
-image:../media/drw_c190_u_fc_10gbe_cbling.png[""]
+image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
 
 --
 이더넷 네트워크 구성:: Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.

@@ -39,12 +39,12 @@ image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 레버 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 

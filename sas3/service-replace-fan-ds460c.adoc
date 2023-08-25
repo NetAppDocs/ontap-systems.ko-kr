@@ -37,7 +37,7 @@ image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[28 
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 주의  a| 
 주황색으로 고정되어 있습니다
  a| 
@@ -53,7 +53,7 @@ image::../media/28_dwg_e2860_de460c_single_fan_canister_with_orange_tab_callout.
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 누르면 팬 모듈 핸들이 해제됩니다 
 |===
 . 팬 모듈 손잡이를 사용하여 선반에서 팬 모듈을 꺼냅니다.
@@ -65,7 +65,7 @@ image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[28 DWG 
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 팬 모듈을 당겨 빼냅니다 
 |===
 . 교체용 팬 모듈을 선반으로 밀어 넣고 팬 모듈 손잡이를 주황색 탭으로 걸릴 때까지 옆으로 이동합니다.

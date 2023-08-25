@@ -85,14 +85,14 @@ image::../media/drw_a700s_pcm_remove.png[drw a700s PCM 제거]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -114,21 +114,21 @@ image::../media/drw_a700s_open_air_duct.png[drw a700s 개방형 공기 덕트]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 에어 덕트
 
@@ -154,28 +154,28 @@ image::../media/drw_a700s_dimm_replace.png[drw a700s DIMM 교체]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트 커버
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저 1 및 DIMM 뱅크 1-4
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 라이저 2 및 DIMM 뱅크 5-8 및 9-12
 
 
 
  a| 
-image:../media/legend_icon_04.png[""]
+image:../media/legend_icon_04.png["설명선 번호 4"]
  a| 
 라이저 3 및 DIMM 13-16
 

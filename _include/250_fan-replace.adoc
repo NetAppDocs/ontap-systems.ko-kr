@@ -90,7 +90,7 @@ image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 
@@ -106,12 +106,12 @@ image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈 덮개
 
@@ -139,7 +139,7 @@ image::../media/drw_a250_replace_fan.png[drw A250 팬을 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 팬 모듈 
 |===
 . 교체용 팬 모듈의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 교체용 팬 모듈을 컨트롤러 모듈에 밀어 넣습니다.
@@ -161,12 +161,12 @@ image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 컨트롤러 모듈 덮개 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 나비 나사
 

@@ -17,7 +17,6 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 
 == 옵션 1: 대부분의 구성
 
-[role="lead"]
 이 절차는 2-노드, 비-MetroCluster 구성에 한해서만 적용됩니다. 두 개 이상의 노드가 있는 시스템의 경우 를 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_perform_a_graceful_shutdown_and_power_up_of_one_HA_pair_in_a_4__node_cluster["4노드 클러스터에서 1개의 HA 쌍을 정상 종료하여 전원을 켜는 방법"^].
 
 .시작하기 전에

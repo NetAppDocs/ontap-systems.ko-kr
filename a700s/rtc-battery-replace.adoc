@@ -87,14 +87,14 @@ image::../media/drw_a700s_pcm_remove.png[drw a700s PCM 제거]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -116,21 +116,21 @@ image::../media/drw_a700s_open_air_duct.png[drw a700s 개방형 공기 덕트]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 라이저
 
 
 
  a| 
-image:../media/legend_icon_03.png[""]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 에어 덕트
 
@@ -156,14 +156,14 @@ image::../media/drw_a700s_rtc_battery_replace.png[drw a700s RTC 배터리를 교
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 RTC 배터리 및 하우징
 

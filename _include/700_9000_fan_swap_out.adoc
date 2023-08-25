@@ -24,7 +24,7 @@ image::../media/drw_9000_remove_install_fan.png[drw 9000 설치 팬을 제거합
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 주황색 해제 버튼
 

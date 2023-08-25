@@ -37,14 +37,14 @@ image::../media/drw_8020_cam_handle_thumbscrew.png[drw 8020 캠 핸들 손잡이
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 나비 나사
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 

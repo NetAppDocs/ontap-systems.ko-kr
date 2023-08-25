@@ -185,14 +185,14 @@ image::../media/drw_9000_remove_pcm.png[drw 9000을 사용하여 PCM을 제거�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -210,7 +210,7 @@ image::../media/drw_9000_pcm_open.png[drw 9000 PCM이 열려 있습니다]
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -244,14 +244,14 @@ image::../media/drw_9000_replace_pcm_dimms.png[DRW 9000이 PCM DIMM을 교체합
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 DIMM 이젝터 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 DIMM
 

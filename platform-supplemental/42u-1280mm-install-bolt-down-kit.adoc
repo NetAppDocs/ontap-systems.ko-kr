@@ -24,7 +24,7 @@ image::../media/drw_sys_cab_universal_boltdown_kit_ozeki.gif[drw sys 캡 범용 
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
 
@@ -34,7 +34,7 @@ image:../media/legend_icon_01.png[""]
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
 
 
 
