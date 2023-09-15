@@ -6479,7 +6479,6 @@
   <block id="e1d6265d5c32eb8c4e989291b8d72d20" category="list-text">문자 및 번호가 매겨진 캠 래치가 I/O 캠 핀과 맞물릴 때까지 모듈을 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 끝까지 밀어 모듈을 제자리에 고정합니다.</block>
   <block id="bc62fa4bef9a4cd2a983ca01d5a5b1b3" category="paragraph">캠 래치가 완전히 잠금 해제되었습니다</block>
   <block id="58e30dc94cdf372b64dac305fbb57bc0" category="section-title">5단계: 디스크 재할당</block>
-  <block id="7b0ac7dba1c185e5ac66482ca29488da" category="admonition">디스크 재할당은 NVRAM 모듈을 교체할 때만 필요합니다.</block>
   <block id="84bda9f97f27f63cc6fa0c4cac3ddcb4" category="list-text">교체 컨트롤러가 유지보수 모드에 있는 경우( 을 표시합니다<block ref="2cf8a3bab83c4d2618c18eeeca9ebc98" prefix=" " category="inline-code"></block> 프롬프트), 유지보수 모드를 종료하고 로더 프롬프트로 이동합니다.<block ref="4a1bde0ea8bcda2a591f42646813c477" prefix=" " category="inline-code"></block></block>
   <block id="3cea6cd019ee970febca58bfe050e1cb" category="list-text">교체 컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력합니다.</block>
   <block id="40ef2970d7d205d6f0ba4ecddaec7b51" category="list-text">반환 대기 중... 메시지가 컨트롤러 콘솔에 교체 모듈과 함께 표시된 후, 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다.<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block></block>
@@ -8539,4 +8538,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e598646ba49e0f0b7db709308a38bd0c" category="inline-image-macro">컨트롤러 후면의 포트 간 클러스터 인터커넥트를 보여주는 그림입니다</block>
   <block id="d5fe92183ddfd6502c92a350a2928047" category="list-text">e0b ~ e0b
 <block ref="23c439b7ef31021d610e4d3b988f3cd1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10fbfa6320d8e7c72e731fbd9a6e6c69" category="admonition">디스크 재할당은 NVRAM 모듈을 교체할 때만 필요하며 NVRAM DIMM 교체에는 적용되지 않습니다.</block>
+  <block id="099f7b942e4e89631784891716949599" category="admonition">이 단계는 NVRAM DIMM 교체에 적용되지 않습니다.</block>
 </blocks>
