@@ -1,33 +1,19 @@
 ---
 permalink: asa250/install-videos.html 
 sidebar: sidebar 
-keywords: asa a250, hardware installation and cabling video, performing end-to-end software configuration video 
-summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설치하고 케이블을 연결하는 방법을 보여 주는 것이고 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 것입니다. 
+keywords: asa a250, hardware installation and cabling video video 
+summary: 설치 및 설정 동영상은 새 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= 비디오 - ASA A250
+= 비디오 단계 - ASA A250
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-시스템 랙에 설치하고 케이블을 연결하는 방법을 보여주는 비디오 1개와 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 비디오 1개가 있습니다.
-
-
-
-== 비디오 2: 하드웨어 설치 및 케이블 연결
-
 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
 
 .애니메이션 - AFF A250의 설치 및 설정
 video::fe6876d5-9332-4b2e-89be-ac6900027ba5[panopto]
 
 NOTE: ASA A250은 AFF A250 시스템과 동일한 설치 절차를 사용합니다.
-
-
-
-== 비디오 2: 종단 간 소프트웨어 구성 수행
-
-다음 비디오에서는 ONTAP 9.2 이상을 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.
-
-video::WAE0afWhj1c?[youtube]

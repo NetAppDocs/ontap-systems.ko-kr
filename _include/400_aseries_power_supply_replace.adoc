@@ -18,8 +18,25 @@ IMPORTANT: PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항�
 
 다음 그림과 함께 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.
 
-image::../media/drw_c400_psu_IEOPS-1237.svg[DRW C400 PSU IEOPS 1237]
+image::../media/drw_A400_psu.png[drw A400 PSU]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+PSU 잠금 탭
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+전원 케이블 고정대
+
+|===
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 콘솔 오류 메시지 또는 전원 공급 장치의 LED를 통해 교체할 전원 공급 장치를 식별합니다.
 . 전원 공급 장치를 분리합니다.

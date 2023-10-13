@@ -11,8 +11,6 @@ entries:
     url: "/a300/install-setup.html"
   - title: 빠른 단계
     url: "/a300/install-setup-linkout.html"
-  - title: 비디오 단계
-    url: "/a300/install-video-linkout.html"
 - title: 유지 관리
   pdf-filename: AFF A300 유지
   entries:

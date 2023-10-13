@@ -173,12 +173,6 @@ mcc1A::> metrocluster operation show
 
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
 
-다음 애니메이션, 그림 또는 작성된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
-
-.애니메이션 - 컨트롤러 모듈을 분리합니다
-video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
-
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.
 . 케이블을 케이블 관리 장치에 연결하는 후크 및 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블과 SFP(필요한 경우)를 분리합니다.
@@ -190,6 +184,27 @@ image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거�
 +
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
++
+image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
+
++
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+잠금 래치
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+컨트롤러가 섀시 밖으로 약간 이동합니다
+
+|===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +
 컨트롤러 모듈 하단을 섀시 밖으로 밀어낼 때 지지하는지 확인합니다.
@@ -207,8 +222,32 @@ image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거�
 
 .애니메이션 - RTC 배터리를 교체합니다
 video::80fe7a9b-de6f-46e0-a18b-aadb0157263d[panopto]
-image::../media/drw_A400_rtc-batt_IEOPS-1003.svg[drw A400 RTC 배치 IEOPS 1003]
+image::../media/drw_A400_rtc-batt.png[drw A400 RTC 배치]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+중앙 라이저
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+RTC 배터리를 제거합니다
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+ a| 
+시트 RTC 배터리
+
+|===
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 에어 덕트를 엽니다.
 +
@@ -244,6 +283,23 @@ NOTE: 배터리함을 홀더에서 분리할 때 배터리의 극성에 유의�
 video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
 image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+컨트롤러 모듈
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+컨트롤러 잠금 래치
+
+|===
 . 에어 덕트 또는 컨트롤러 모듈 커버를 아직 닫지 않은 경우 닫으십시오.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
 +

@@ -21,14 +21,12 @@ PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈
 
 == 1단계: 손상된 컨트롤러를 종료합니다
 
-[role="lead"]
 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.
 
 [role="tabbed-block"]
 ====
 .옵션 1: 대부분의 구성
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
 
 .이 작업에 대해
@@ -84,7 +82,6 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 --
 .옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.
 
 .이 작업에 대해
@@ -183,7 +180,6 @@ mcc1A::> metrocluster operation show
 
 == 2단계: 컨트롤러 모듈을 분리합니다
 
-[role="lead"]
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
@@ -198,9 +194,10 @@ mcc1A::> metrocluster operation show
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_c400_remove_controller_IEOPS-1216.svg[DRW C400은 컨트롤러 IEOPS 1216을 탈착합니다]
+image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -213,9 +210,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
- a| 
-컨트롤러가 섀시 밖으로 약간 이동합니다
-
+| 컨트롤러가 섀시 밖으로 약간 이동합니다 
 |===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +
@@ -228,15 +223,41 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 == 3단계: PCIe 카드를 교체합니다
 
-[role="lead"]
 PCIe 카드를 교체하려면 오류가 발생한 PCIe 카드를 찾아 컨트롤러 모듈에서 카드가 들어 있는 라이저를 꺼낸 다음 컨트롤러 모듈에 PCIe 라이저를 다시 설치해야 합니다.
 
-다음 애니메이션, 그림 또는 기록된 단계를 사용하여 PCIe 카드를 교체할 수 있습니다.
+image:../media/drw_A400_Replace-PCIe-cards.png[""]
 
-.애니메이션 - PCIe 카드를 교체합니다
-video::ed42334e-8eb2-48dd-b447-b0300189230f[panopto]
-image:../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg["너비 = 500px"]
+[cols="10,90"]
+|===
 
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+라이저 잠금 래치
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+PCI 카드 잠금 래치
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+ a| 
+PCI 잠금 플레이트
+
+
+
+ a| 
+image:../media/legend_icon_04.png["설명선 번호 4"]
+ a| 
+PCI 카드
+
+|===
 . 교체할 카드가 들어 있는 라이저를 분리합니다.
 +
 .. 공기 덕트 측면의 잠금 탭을 눌러 공기 덕트를 열고 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치로 돌립니다.
@@ -277,15 +298,36 @@ NOTE: 하단 슬롯에 카드를 설치할 때 카드 소켓이 제대로 보이
 
 == 4단계: 메자닌 카드를 교체합니다
 
-[role="lead"]
 메자닌 카드는 라이저 번호 3(슬롯 4 및 5) 아래에 있습니다. 메자닌 카드에 액세스하려면 라이저를 분리하고 메자닌 카드를 교체한 다음 라이저 번호 3을 다시 설치해야 합니다. 자세한 내용은 컨트롤러 모듈의 FRU 맵을 참조하십시오.
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 메자닌 카드를 교체할 수 있습니다.
 
 .애니메이션 - 메자닌 카드를 교체합니다
 video::e3fd32b6-bdbb-4c53-b666-b030018a5744[panopto]
-image::../media/drw_c400_replace-mezz-card_IEOPS-1236.svg[DRW C400은 메자닌 카드 IEOPS 1236을 교체합니다]
+image::../media/drw_A400_Replace-mezz-card.png[drw A400 메자닌 카드를 교체합니다]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+PCI 라이저
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+라이저 손잡이 나사
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+| 라이저 카드 
+|===
 . 라이저 번호 3(슬롯 4 및 5)을 분리합니다.
 +
 .. 공기 덕트 측면의 잠금 탭을 눌러 공기 덕트를 열고 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치로 돌립니다.

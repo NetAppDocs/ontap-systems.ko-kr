@@ -11,8 +11,6 @@ entries:
     url: "/a200/install-setup.html"
   - title: 빠른 단계
     url: "/a200/install-setup-linkout.html"
-  - title: 비디오 단계
-    url: "/a200/install-video-linkout.html"
 - title: 유지 관리
   pdf-filename: AFF A200 유지보수
   entries:

@@ -251,6 +251,9 @@ IMPORTANT: 이때 전원 코드를 꽂지 마십시오.
 
 Fibre Channel 또는 iSCSI 호스트 네트워크 또는 직접 연결 스토리지에 대한 구성 종속 케이블 연결 옵션이 있습니다. 이 케이블 연결은 배타적이지 않으므로 호스트 네트워크 및 스토리지에 케이블로 연결할 수 있습니다.
 
+
+NOTE: link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 호스트 네트워크 카드(Fibre Channel 또는 25GbE)의 슬롯 우선 순위는 슬롯 2입니다. 그러나 두 카드가 모두 있는 경우 Fibre Channel 카드가 슬롯 2에 들어가고 25GbE 카드가 슬롯 1에 들어갑니다(아래 옵션 참조). 외부 셸프가 있는 경우 스토리지 카드는 셸프용으로 지원되는 유일한 슬롯인 슬롯 1에 들어갑니다.
+
 [role="tabbed-block"]
 ====
 .옵션 1: Fibre Channel 호스트 네트워크에 케이블 연결

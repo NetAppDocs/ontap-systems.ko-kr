@@ -28,6 +28,22 @@ video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 +
 image:../media/drw_A400_Remove_controller.png[""]
 
++
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+잠금 래치
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+| 컨트롤러가 섀시 밖으로 약간 이동합니다 
+|===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +
 컨트롤러 모듈 하단을 섀시 밖으로 밀어낼 때 지지하는지 확인합니다.
@@ -39,8 +55,18 @@ image:../media/drw_A400_Remove_controller.png[""]
 video::49053752-e813-4c15-a917-ab190147fa6e[panopto]
 
 
-image::../media/drw_a400_empty_riser_remove_IEOPS-1002.svg[drw a400 빈 라이저 IEOPS 1002 제거]
+image::../media/drw_a400_empty_riser_remove.png[drw a400 빈 라이저 제거]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+라이저 분리 래치
+
+|===
 . 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 . 공기 덕트를 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
 . 라이저 1 의 왼쪽에 있는 라이저 잠금 래치를 위로 돌려 공기 덕트 쪽으로 향하게 한 다음 라이저를 위로 들어 올려 옆에 둡니다.
@@ -59,8 +85,26 @@ image::../media/drw_a400_empty_riser_remove_IEOPS-1002.svg[drw a400 빈 라이�
 video::92060115-1967-475b-b517-aad9012f130c[panopto]
 . 전원 공급 장치를 분리합니다.
 +
-image::../media/drw_c400_psu_IEOPS-1237.svg[DRW C400 PSU IEOPS 1237]
+image::../media/drw_A400_psu.png[drw A400 PSU]
 
++
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+PSU 잠금 탭
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+전원 케이블 고정대
+
+|===
 +
 .. 캠 핸들을 돌려 섀시에서 전원 공급 장치를 당겨 빼냅니다.
 .. 파란색 잠금 탭을 눌러 섀시에서 전원 공급 장치를 분리합니다.
@@ -89,8 +133,32 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 .애니메이션 - NVDIMM 배터리를 이동합니다
 video::94d115b2-b02a-4234-805c-aad9012f204c[panopto]
-image::../media/drw_A400_nvdimm-batt_IEOPS-1004.svg[drw A400 NVDIMM batt IEOPS 1004]
+image::../media/drw_A400_nvdimm-batt.png[drw A400 NVDIMM 배터리]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+NVDIMM 배터리 플러그
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+NVDIMM 배터리 잠금 탭
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+ a| 
+NVDIMM 배터리
+
+|===
 . 에어 덕트를 엽니다.
 +
 .. 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
@@ -118,8 +186,25 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 .애니메이션 - 부팅 미디어를 이동합니다
 video::2a14099c-85de-4a84-867c-aad9012efac8[panopto]
-image::../media/drw_A400_Replace-boot_media_IEOPS-1007.svg[drw A400 부팅 미디어 IEOPS 1007 교체]
+image::../media/drw_A400_Replace-boot_media.png[drw A400 부팅 미디어를 교체합니다]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+부트 미디어 잠금 탭
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+미디어를 부팅합니다
+
+|===
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
 +
 .. 부팅 미디어의 립이 파란색 버튼을 지울 때까지 부팅 미디어 끝에 있는 파란색 버튼을 누릅니다.
@@ -156,8 +241,39 @@ video::f4ee1d4d-6029-4fe6-a063-aad9012f170b[panopto]
 
 .애니메이션 - 메자닌 카드 및 라이저 3을 이동합니다
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto]
-image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235 (1).svg[DRW C400은 PCIe 카드를 대체합니다 IEOPS 1235(1).]
+image::../media/drw_A400_Replace-PCIe-cards.png[drw A400 PCIe 카드를 교체합니다]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+라이저 잠금 래치
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+PCI 카드 잠금 래치
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+ a| 
+PCI 잠금 플레이트
+
+
+
+ a| 
+image:../media/legend_icon_04.png["설명선 번호 4"]
+ a| 
+PCI 카드
+
+|===
 . PCIe 라이저 1과 2를 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동합니다.
 +
 .. PCIe 카드에 있을 수 있는 SFP 또는 QSFP 모듈을 모두 분리합니다.
@@ -197,8 +313,32 @@ DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트�
 
 .애니메이션 - DIMM을 이동합니다
 video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[drw A400 NVDIMM IEOPS 1009 교체]
+image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+DIMM 잠금 탭
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+DIMM
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+ a| 
+DIMM 소켓
+
+|===
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
 . DIMM을 올바른 방향으로 교체 컨트롤러 모듈에 삽입할 수 있도록 소켓에 있는 DIMM의 방향을 기록해 두십시오.
 . NVDIMM 배터리가 새 컨트롤러 모듈에 꽂혀 있지 않은지 확인합니다.
@@ -240,6 +380,23 @@ DIMM은 소켓에 단단히 장착되지만 쉽게 장착할 수 있습니다. �
 video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
 image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
 
+[cols="10,90"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.png["설명선 번호 1"]
+ a| 
+컨트롤러 모듈
+
+
+
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+ a| 
+컨트롤러 잠금 래치
+
+|===
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
 +

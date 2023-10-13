@@ -96,7 +96,7 @@ http://mysupport.netapp.com/["mysupport.netapp.com"^]
 .. Onboard security key-manager sync command:'security key-manager 온보딩 sync'를 입력한다
 +
 
-NOTE: 프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오. http://mysupport.netapp.com/["mysupport.netapp.com"^]
+NOTE: 프롬프트에서 고객의 32자 영숫자 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오. http://mysupport.netapp.com/["mysupport.netapp.com"^]
 
 .. 를 확인합니다 `Restored` 열이 표시됩니다 `yes` 모든 인증 키의 경우: `security key-manager key query`
 .. 키 관리자 유형에 온보드(Onboard)이 표시되는지 확인한 다음 OKM 정보를 수동으로 백업합니다.
@@ -151,7 +151,7 @@ http://mysupport.netapp.com/["mysupport.netapp.com"^]
 +
 .. Onboard security key-manager sync command:'security key-manager 온보딩 sync'를 입력한다
 +
-프롬프트에 고객의 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.
+프롬프트에서 고객의 32자 영숫자 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.
 
 +
 http://mysupport.netapp.com/["mysupport.netapp.com"^]
