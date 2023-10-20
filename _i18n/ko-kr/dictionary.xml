@@ -6377,7 +6377,6 @@
   <block id="1c91d351b95f21de02a1d9bc700d73d0" category="list-text"><block ref="1c91d351b95f21de02a1d9bc700d73d0" category="inline-link-macro-rx"></block></block>
   <block id="f6bbb48a9b41928e229484fe63e71f8c" category="list-text">영어: <block ref="3584c2c323ff7942e23aca437704f9d5" category="inline-link-macro-rx"></block></block>
   <block id="96f14ebe376369fa093d83ad924d667a" category="paragraph">DIMM을 교체하려면 공기 덕트 상단의 DIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
-  <block id="617bafb92e72c64d9d65b60de9aea456" category="paragraph"><block ref="617bafb92e72c64d9d65b60de9aea456" category="inline-link-macro-rx"></block></block>
   <block id="345a2a62ce004a5b297819af054c9777" category="inline-link-macro">AFF FAS8200 설치 및 설정 지침</block>
   <block id="981a3078ce60e42311749c48845ae935" category="paragraph">PDF 포스터를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 를 클릭합니다 <block ref="2b72a1d770496dfb89a7b96d77b8dcc0" category="inline-link-macro-rx"></block> 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침을 제공합니다.</block>
   <block id="66baa375eeb4eeafaa0788f1450b293e" category="paragraph"><block ref="66baa375eeb4eeafaa0788f1450b293e" category="inline-link-macro-rx"></block></block>
@@ -7189,7 +7188,6 @@
   <block id="f0e48b1c6152b408e3a17383284dfa34" category="paragraph">콘솔 포트를 구성하는 방법에 대한 지침은 랩톱 또는 콘솔의 온라인 도움말을 참조하십시오.</block>
   <block id="6266bb335022aad7813f5a92f40c41bb" category="list-text">랩톱 또는 콘솔에서 System Manager를 사용하여 클러스터를 구성합니다.</block>
   <block id="b1e0a8fb86dde21901d58064a47983ae" category="paragraph">초기 시스템 설치 과정을 통해 랙 설치 및 케이블 연결에서부터 시스템을 설치하는 방법에 대해 알아보십시오. 사용 <block ref="2e869cac122e3063f7b418f03cb3fa26" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
-  <block id="78504a496ba3e0d8a682fe929b4d61d9" category="paragraph"><block ref="78504a496ba3e0d8a682fe929b4d61d9" category="inline-link-macro-rx"></block></block>
   <block id="79386daaa48888ed81c00ef493d329e9" category="paragraph">MetroCluster 구성이 있는 경우 를 사용합니다<block ref="d4b6e949edad9293b177bc65e2892165" category="inline-link-rx"></block>.</block>
   <block id="9b9935ad5969c28de13381a2e512b47c" category="paragraph">참고:</block>
   <block id="25ca1a1b0a04d8f5341dca5c9e9eed8a" category="list-text">에 대한 액세스 권한이 있는지 확인합니다 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> HWU)를 참조하십시오.</block>
@@ -7955,7 +7953,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="88145bf2af138ed528349e08d441968a" category="paragraph">AFF A320 스토리지 시스템의 경우, 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="8486b7c66d6ece05f01d5c8074d027a1" category="paragraph">새 섀시에 컨트롤러 모듈을 설치한 후 시스템을 부팅해야 합니다.</block>
   <block id="416d28e93ee53a5fe99f4863443c9bf3" category="summary">NetApp의 AFF, ASA 및 FAS 스토리지 시스템은 업계 최고의 데이터 관리 기능을 갖춘 첨단 엔터프라이즈급 스케일아웃 All-Flash 또는 하이브리드 스토리지를 제공합니다. 이 사이트의 문서를 사용하여 AFF, ASA 및 FAS 시스템을 스토리지 쉘프 및 클러스터 스위치와 함께 설치, 확장, 업그레이드 및 유지 관리할 수 있습니다.</block>
-  <block id="260cb1f5fe1c4de4b0952530884debda" category="doc">AFF, ASA 및 FAS 시스템 설명서</block>
   <block id="9dbc6de9e979960d269ff45dfa541d76" category="doc">시스템을 재할당하고 디스크 재할당 - ASA A800</block>
   <block id="0b61404420e238ba6738c723b617ba4f" category="doc">부팅 미디어 교체 개요 - ASA A800</block>
   <block id="308e5629f56cd85980c01c5a7d6b4a5e" category="doc">FAN-ASA A800을 교체합니다</block>
@@ -8401,8 +8398,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="7654764586a53c997b8c1df9098532f4" category="summary">AFF, ASA 및 FAS 시스템의 새로운 기능에 대해 알아보십시오.</block>
   <block id="3e2d1e468d09ac8c0d6588070ba9373f" category="doc">AFF, ASA 및 FAS 시스템의 새로운 기능</block>
-  <block id="e0bcfdcb3cdb0fb1cf75064d4e0a8516" category="sidebar">NetApp의 AFF, ASA 및 FAS 스토리지 시스템은 업계 최고의 데이터 관리 기능을 갖춘 첨단 엔터프라이즈급 스케일아웃 All-Flash 또는 하이브리드 스토리지를 제공합니다. 이 사이트의 문서를 사용하여 시스템을 설치, 확장, 업그레이드 및 유지 관리합니다.</block>
-  <block id="834c650e32073b55fedca10accbda908" category="sidebar">AFF, ASA 및 FAS 시스템 문서</block>
   <block id="ca31c0aa49625e7cda9cae921b597ddc" category="admonition">VER2 컨트롤러에는 DIMM 소켓이 적습니다. 지원되는 DIMM의 수를 줄이거나 DIMM 소켓 번호 지정에 변화가 없습니다. DIMM을 새 컨트롤러 모듈로 이동할 때 손상된 컨트롤러 모듈과 동일한 소켓 번호/위치에 DIMM을 설치합니다.  DIMM 소켓 위치는 VER2 컨트롤러 모듈의 FRU 맵 다이어그램을 참조하십시오.</block>
   <block id="41f70b901e92516347e56b1eee6fe77b" category="section-title">5단계: 시스템 수준 진단 프로그램을 실행합니다</block>
   <block id="2a075cce7e33313e84aaa96ceb86a4c8" category="paragraph">새 DIMM을 설치한 후 진단 유틸리티를 실행해야 합니다.</block>
@@ -8523,4 +8518,180 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c4d97f649f8fd0bc0d2842c98374b325" category="summary">설치 및 설정 동영상은 새 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다.</block>
   <block id="728c8b35a059c5debd8717ebc5eef9cc" category="doc">비디오 단계 - ASA A250</block>
   <block id="da8c100a35e67a4a9a03589f6afa9ddc" category="doc">비디오 단계 - FAS500f</block>
+  <block id="0fc2bce08e8e93df5954329e4439b224" category="paragraph">설치 절차는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 절차를 사용하십시오.</block>
+  <block id="658749712c1f894d4be0afd96a2e5f1d" category="paragraph">에 액세스합니다 <block ref="617bafb92e72c64d9d65b60de9aea456" category="inline-link-macro-rx"></block>.</block>
+  <block id="0a5ad698c7446792fa1695e8ef9001ee" category="image-alt">DRW 2800 스위치 클러스터 케이블 연결 IEOPS 893</block>
+  <block id="9bf3d28b6f86b0747100312dce20ff66" category="paragraph">ASA A400 설치 절차는 랙 설치 및 케이블 연결에서 초기 시스템 가져오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 다음 지침을 따르십시오.</block>
+  <block id="0117839c8787354fc8b23cefed0984e8" category="inline-link-macro">ASA A400 설치 및 설정 지침</block>
+  <block id="dc752cf6900478701aac225362320867" category="paragraph">에 액세스합니다 <block ref="d646334093abec0f8f7152331712c776" category="inline-link-macro-rx"></block>.</block>
+  <block id="646d7d5f93b4a6d7bbbc65acf5ac1077" category="doc">ONTAP 하드웨어 시스템 설명서</block>
+  <block id="0f99f9a5d3161caa81a9cf870bfb3c1a" category="summary">스토리지 시스템 설명서를 통해 ASA C-시리즈 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
+  <block id="8d44a819ce1a0d042dc4afd48b415863" category="doc">ASA(All SAN 어레이) C-Series 시스템</block>
+  <block id="92217d103cec461ace2aded92b4f42ab" category="doc">결함이 있는 부품을 NetApp-ASA C400으로 반환합니다</block>
+  <block id="f4b7b756855e1111bd19648537226e16" category="doc">ASA C400 하드웨어를 유지 관리합니다</block>
+  <block id="f85c225eac9932f77dacb6e6236f7ce2" category="paragraph">ASA C400 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="2097e20950ae1f46d998ba486146b369" category="doc">NVDIMM-ASA C400을 교체합니다</block>
+  <block id="76707ae3bb72f26856ca1367c5a4ac26" category="doc">섀시 교체 개요 - ASA C400</block>
+  <block id="c2e0801f4fc7b1cf02d78195b3131f54" category="doc">필요에 따라 OKM, NSE, NVE를 복원합니다. ASA C400</block>
+  <block id="ec587342818437cd0c6a0daf4be599a1" category="doc">2노드 MetroCluster 구성인 ASA C400에서 애그리게이트를 다시 전환합니다</block>
+  <block id="d01d4189a4ad8b718886cbc79fe007a5" category="doc">온보드 암호화 확인 - ASA C400</block>
+  <block id="f7f6cafa82cca0d649fec769636a374b" category="doc">손상된 컨트롤러 ASA C400을 종료합니다</block>
+  <block id="124e5d993905ca8fc1e3ed8fa62e76ad" category="doc">DIMM-ASA C400을 교체합니다</block>
+  <block id="987d3338a5584fedd4b7efd844691246" category="doc">부팅 미디어를 교체합니다. - ASA C400</block>
+  <block id="9187e0a8947f2ca2039bb2793202300f" category="doc">NVDIMM 배터리를 교체합니다. - ASA C400</block>
+  <block id="d8f9a29ce7164ac54d9904be12998cb5" category="doc">컨트롤러 모듈 교체 개요 - ASA C400</block>
+  <block id="d593ab590ed489d6717b0d0fbc84376f" category="doc">컨트롤러 모듈 하드웨어(ASA C400)를 교체합니다</block>
+  <block id="00e85c9b81ade8fe5e2f38c4a31d4388" category="doc">팬 모듈 핫 스왑 - ASA C400</block>
+  <block id="c1f915ba5e3e17f84a3238a75c84e2c9" category="doc">복구 이미지를 부팅합니다 - ASA C400</block>
+  <block id="b31b0c352e7abb4634524d9d53f5fcce" category="doc">PCIe 또는 메자닌 카드를 교체합니다. - ASA C400</block>
+  <block id="b4247ab28006e796109bb9e6443b612f" category="doc">부팅 미디어 교체 개요 - ASA C400</block>
+  <block id="967b266f7bf42739746ff8ee10704ec8" category="doc">전체 시스템 복원 - ASA C400</block>
+  <block id="a2e400b53e6df30e6ea808a7a8d9cf03" category="doc">시스템을 재장착하고 디스크를 재할당합니다 - ASA C400</block>
+  <block id="d87d17cd765dde0b8f553a33b6d61945" category="doc">하드웨어 교체 - ASA C400</block>
+  <block id="6b6916e7dab19d8ffcd0bc0fa006d0c2" category="doc">전원 공급 장치 장착 - ASA C400</block>
+  <block id="d8548c2140dedaa5fc883590a1f7009a" category="doc">실시간 클럭 배터리(ASA C400)를 교체합니다</block>
+  <block id="90276cd1568977c0a841334b01c793ee" category="doc">시스템 구성 - ASA C400을 복원하고 확인합니다</block>
+  <block id="9f50c74c54d6b3ee3b7485498ed65016" category="doc">복원 및 교체 프로세스 - ASA C400 을 완료합니다</block>
+  <block id="5a972d773b9decff387b74f08a2d2667" category="doc">자세한 가이드 - ASA C400</block>
+  <block id="32ac5939b95c8c78023dc781483445ea" category="doc">비디오 - ASA C400</block>
+  <block id="821658381dd4d43cfc5669ce2ad16856" category="admonition">ASA C400은 AFF C400 시스템과 동일한 설치 절차를 사용합니다.</block>
+  <block id="f1084d8cd382249e44f01c6daef01a18" category="list-text"><block ref="f1084d8cd382249e44f01c6daef01a18" category="inline-link-macro-rx"></block></block>
+  <block id="3341fbafbe354cc961331b2c72c37cc8" category="list-text"><block ref="3341fbafbe354cc961331b2c72c37cc8" category="inline-link-macro-rx"></block></block>
+  <block id="f7655848002e8aaa751343ece73cc869" category="list-text"><block ref="f7655848002e8aaa751343ece73cc869" category="inline-link-macro-rx"></block></block>
+  <block id="7bc99d09a7bcacf207b0881cb2ae0094" category="doc">컨트롤러 종료 - ASA C400</block>
+  <block id="8c5f08066225243efefc6d89726bbae1" category="doc">요약 설명서 - ASA C400</block>
+  <block id="d7bb31e777ffd65def4f500154e3d8f6" category="paragraph">설치 및 설정 절차는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.</block>
+  <block id="c87f658e413784f6727d69e5f3a504e9" category="paragraph">에 액세스합니다 <block ref="78504a496ba3e0d8a682fe929b4d61d9" category="inline-link-macro-rx"></block>.</block>
+  <block id="d86ad8650b661d28cc2d4ab2c5649c4a" category="doc">결함이 있는 부품을 NetApp-ASA C250으로 반환합니다</block>
+  <block id="bcf1e5f5ec2f5fa0fb4df4081483cf5a" category="doc">ASA C250 하드웨어를 유지 관리합니다</block>
+  <block id="d856c63691d6118cb3531626f4c662b5" category="paragraph">ASA C250 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="778936817303ec79ea5a4c275ed17135" category="doc">섀시 교체 개요 - ASA C250</block>
+  <block id="b01e565a4186b159f90650ce3ca4196a" category="doc">필요에 따라 OKM, NSE, NVE를 복원합니다. ASA C250</block>
+  <block id="0c80834eb80ee789c355be4e4a0edad5" category="doc">온보드 암호화 키 확인 - ASA C250</block>
+  <block id="706f40f792c3dab367a62e0d94e461ee" category="doc">메자닌 카드 교체 또는 설치 - ASA C250</block>
+  <block id="8336f1f72044234f7e63ccadc716be3d" category="doc">DIMM-ASA C250을 교체합니다</block>
+  <block id="bc2311b6a715da1a660ee0a9afd2016e" category="doc">부팅 미디어를 교체합니다. - ASA C250</block>
+  <block id="7171d5f82a6b13d62d4f7f70326df021" category="doc">손상된 컨트롤러 모듈(ASA C250)을 종료합니다</block>
+  <block id="b4609e09d3094c196af6ccbdb8c9afbf" category="doc">컨트롤러 모듈 교체 개요 - ASA C250</block>
+  <block id="42e2b7c9fbe6b6256660bb0bbb7a0962" category="doc">팬 교체 - ASA c250</block>
+  <block id="13a410359da23b13900f5c285e105e81" category="doc">컨트롤러 모듈 하드웨어 - ASA C250을 교체합니다</block>
+  <block id="0c85f60a3a546be806bd89d1770b2cdb" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - ASA C250</block>
+  <block id="363dbb7bd38c3746663861884552a6ca" category="doc">부팅 미디어 교체 개요 - ASA C250</block>
+  <block id="43e2c8d81f6919e7565affdd6dcb959f" category="doc">전체 시스템 복원 - ASA C250</block>
+  <block id="d4990258d82ec1b42d1a3f07bbdd9d8c" category="doc">컨트롤러 종료 - ASA C250</block>
+  <block id="e6b4abf5b92977063300e1d579857b79" category="doc">시스템을 재장착하고 디스크를 재할당합니다 - ASA C250</block>
+  <block id="12e315d8c52faa94677b1901adfb8eb4" category="doc">하드웨어 교체 - ASA C250</block>
+  <block id="e6d96f81a26c1a2a35065ae9c3793837" category="doc">NVMEM 배터리 교체 - ASA C250</block>
+  <block id="5a3293bed167a0eb16f492a5ce0b1ed5" category="doc">전원 공급 장치 교체 - ASA C250</block>
+  <block id="7382bde7f210f74c2e89d6849d2c853c" category="doc">실시간 클럭 배터리(ASA C250)를 교체합니다</block>
+  <block id="d39ab7984d0a9959c51323b1566d39fd" category="doc">시스템 구성 - ASA C250을 복원하고 확인합니다</block>
+  <block id="4011a7882485055cdc06ec93e7092124" category="doc">복원 및 교체 프로세스 - ASA C250을 완료합니다</block>
+  <block id="65cdd5bec4dba0253649d58817a20251" category="summary">이 섹션에서는 ASA C250 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="96aa7639aa86f7fa2dc06bc23ab17535" category="doc">자세한 단계 - ASA C250</block>
+  <block id="6f986992e70a8e97c82b44d5221b88bd" category="doc">복구 이미지를 부팅합니다 - ASA C250</block>
+  <block id="f1c66226b2b6383309a98f2006bd38a4" category="doc">비디오 - ASA C250</block>
+  <block id="cfa5d83bbf18bd39f133033e09af4872" category="admonition">ASA C250은 AFF A250 시스템과 동일한 설치 절차를 사용합니다.</block>
+  <block id="6e3c2edda84ea010e7f61a1a8d889444" category="list-text"><block ref="6e3c2edda84ea010e7f61a1a8d889444" category="inline-link-macro-rx"></block></block>
+  <block id="968f3a8f6f2d17318565778ed89fe60e" category="list-text"><block ref="968f3a8f6f2d17318565778ed89fe60e" category="inline-link-macro-rx"></block></block>
+  <block id="8cbcc8d109afe5c1880ad74857d5f039" category="list-text"><block ref="8cbcc8d109afe5c1880ad74857d5f039" category="inline-link-macro-rx"></block></block>
+  <block id="117802f52fb0f0fc020147893a4130c5" category="doc">컨트롤러 종료 - ASA C250</block>
+  <block id="0bec81f6d2e70dbe308b882253ae1ad4" category="doc">빠른 단계 - ASA C250</block>
+  <block id="3bb369b5461fced54dd1e1e11d3295e9" category="inline-link-macro">ASA A250 설치 및 설정 지침</block>
+  <block id="f445f8f3baee3e9d681e87f062865a42" category="list-text">영어: <block ref="94f0ecafae085a43bf1e5c5f7e70443c" category="inline-link-macro-rx"></block></block>
+  <block id="1c60d609b30b7ea4b8a9fe84f62f1d6b" category="inline-link">ASA A250 시스템 설치 및 설정 지침</block>
+  <block id="561edde01bf058a77040944512b4abc3" category="list-text">일본어:<block ref="c8810e622f8e460212fed12e7e215db6" category="inline-link-rx"></block></block>
+  <block id="923cb9da2234b70162cf030969c9c64d" category="list-text">중국어:<block ref="8e65669da6e18daec356d618e3ea94ac" category="inline-link-rx"></block></block>
+  <block id="56e4846e0597740899e073a1ec45d163" category="doc">결함이 있는 부품을 NetApp-ASA C800으로 반납합니다</block>
+  <block id="1074d363c9086b22a355d4527d32b28c" category="doc">ASA C800 하드웨어를 유지 관리합니다</block>
+  <block id="f9ea5dff2f002c5b2f6eeeb84451e9f5" category="paragraph">ASA C800 저장 장치 시스템의 경우 다음 구성 요소에 대한 유지 보수 절차를 수행할 수 있습니다.</block>
+  <block id="3f9ba83126a2d0a1b4562908efe4870c" category="doc">NVDIMM-ASA C800을 교체합니다</block>
+  <block id="50097ad5c1b5e616bbe0f94d6918f272" category="doc">섀시를 교체합니다. - ASA C800</block>
+  <block id="8e0d3110e2fb313b0ac5d7178af78d83" category="doc">필요에 따라 OKM, NSE, NVE를 복원합니다. ASA C800</block>
+  <block id="2927ec98383ea38a218c0b37add3584b" category="doc">온보드 암호화 키 확인 - ASA C800</block>
+  <block id="f672d90fc8d0ab339549e32ae4a18c26" category="doc">DIMM-ASA C800을 교체합니다</block>
+  <block id="dccd487628e9e3fb202bf1d54f224f85" category="doc">부팅 미디어를 교체합니다. - ASA C800</block>
+  <block id="16c54e4c9f50a83bb13eddc18729c9e7" category="doc">NVDIMM 배터리를 교체합니다. - ASA C800</block>
+  <block id="6a9d061449e03d1a36e0711f39abff8f" category="doc">손상된 컨트롤러를 종료합니다. - ASA C800을 종료합니다</block>
+  <block id="f5811521c6ed1fabe9020730715bf6ec" category="doc">컨트롤러 모듈 교체 개요 - ASA C800</block>
+  <block id="a77bfb07153ea54985cd6d32b137a0c8" category="doc">팬을 교체합니다. - ASA C800</block>
+  <block id="0033b3cf7bd066a6dcb42aab6d55a7f7" category="doc">컨트롤러 모듈 하드웨어 - ASA C800을 교체합니다</block>
+  <block id="bc6187f0b8778014377ccebd8b17d2ed" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - ASA C800</block>
+  <block id="d9fe8c436c5cbc472b9ebf52adbbc858" category="doc">부팅 이미지를 부팅 미디어(ASA C800)로 전송합니다</block>
+  <block id="2f7ac9575acad766cc32c4e3e9719d24" category="doc">PCIe 카드 교체 - ASA C800</block>
+  <block id="dee67159310079d1b0fb667da81d6e9e" category="doc">부팅 미디어 교체 개요 - ASA C800</block>
+  <block id="7aceb406cd07b754209377738399299c" category="doc">전체 시스템 복원 - ASA C800</block>
+  <block id="6099221a831c734ee14418269bc9c024" category="doc">컨트롤러를 종료합니다. - ASA C800입니다</block>
+  <block id="7eb1428cde412a152576637c584b14c0" category="doc">시스템을 재장착하고 디스크를 재할당합니다 - ASA C800</block>
+  <block id="ea1dc19906ddc0d31254dd6f8ec34328" category="doc">하드웨어 이동 및 교체 - ASA C800</block>
+  <block id="5bb05bb37b0f50f78a66bcb870b4f799" category="doc">전원 공급 장치 교체 - ASA C800</block>
+  <block id="bf0c9d599368cd33e5930b660050f4e0" category="doc">실시간 클럭 배터리(ASA C800)를 교체합니다</block>
+  <block id="d7839b53c88c4bbaff7e95ac9d3c76fc" category="doc">시스템 구성 - ASA C800을 복원하고 확인합니다</block>
+  <block id="cbc21197c1871348bbf882e4a113a8cf" category="doc">복원 및 교체 프로세스 - ASA C800을 완료합니다</block>
+  <block id="4a9663f34d974f62e97bc12e3339b829" category="summary">이 섹션에서는 ASA C800 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="785cd996138f338b507afb4b1a247f7a" category="doc">자세한 단계 - ASA C800</block>
+  <block id="0638f850898c092d5e1fe72b87242595" category="paragraph">ASA C800 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
+  <block id="9c62e171f059c8600997ae4e0f96ab7d" category="image-alt">drw asac800 무게 주의</block>
+  <block id="d2946c650fd878fb1382f852e7ae21f2" category="image-alt">drw asac800 설치 케이블 관리</block>
+  <block id="8f9611c57f280dcf3707a77790073f5e" category="list-text">e1b에서 e1b까지
+<block ref="15891b31f94aa5c1d8d701dc45f31a49" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e2ffd86efabaa66f6caa4720f826af5e" category="list-text">E1A ~ E1A
+<block ref="a384f044b9ce696d7af96248c96af5c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ddae32aa15704bfdbaa2aab1a7d6dfe" category="paragraph">관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    <block ref="006022f2d0575aac941d853d15f04b9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6f4ba76330aa95c5eaaaf0d9035fea2" category="paragraph">클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
+** e0a
+** E1A
+<block ref="f2a41a3e16faf723b039ff4278135de5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8546314cef10b9e9e364344875d77237" category="paragraph">포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.<block ref="4f1b9e5dfcbddf179a4286f1703ef51b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="607da72d58aff35499a7aec17d5e19bb" category="paragraph">케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.<block ref="90048d1fb5dca95cfe62abfa6b205214" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="25f831637542d41012246381c8ca1ec9" category="paragraph">컨트롤러 A를 쉘프에 연결:    <block ref="f81613a889a36c93366a9575275b2581" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="335c41450f222d4ab520fa32b2542214" category="paragraph">컨트롤러 B를 쉘프에 연결:    <block ref="678df8700f02a110e9ca97a297deb31d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="157dc2a3553e3f5202fbc40d49878754" category="paragraph">컨트롤러 A를 쉘프에 연결:    <block ref="118747470262b69831582f8c5b0f6061" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="48d33cbc5ff82c101c057c7286bba92e" category="paragraph">컨트롤러 B를 쉘프에 연결:    <block ref="f09535d2d5af9c437ea1775f9a22dea3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f9162027a6469a02a5740c7a72369e3" category="image-alt">DRW 콘솔이 asac800을 연결합니다</block>
+  <block id="6fe0915ad0c3735187132d7dfe2356b4" category="image-alt">drw 클라이언트 관리 서브넷 asac800</block>
+  <block id="3682f89576a4cb3869bd075b26450b14" category="doc">복구 이미지를 부팅합니다 - ASA C800</block>
+  <block id="1a127c6545345af120647a9618b2e726" category="doc">비디오 - ASA C800</block>
+  <block id="71eb59c59a42227ae8b45d0cfaf6f52f" category="paragraph">시스템 랙에 설치하고 케이블을 연결하는 방법을 보여주는 비디오 1개와 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 비디오 1개가 있습니다.</block>
+  <block id="2ff6b785c9bbb9bd149f3c338b823e06" category="section-title">비디오 2: 하드웨어 설치 및 케이블 연결</block>
+  <block id="d3197b7ca449b7c51aff0fa9f3ba9085" category="video-title">"애니메이션 - ASA C800의 설치 및 설정</block>
+  <block id="d92d79541486453c440f5d479e7c2937" category="section-title">비디오 2: 종단 간 소프트웨어 구성을 수행합니다</block>
+  <block id="6fcf86e967a5b349290bdafc15f7033f" category="paragraph">다음 비디오에서는 ONTAP 9.2 이상을 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.</block>
+  <block id="8e91b5d8fea45643b42fc43b5dd641c2" category="list-text"><block ref="8e91b5d8fea45643b42fc43b5dd641c2" category="inline-link-macro-rx"></block></block>
+  <block id="5aed20998b90c6c33b24d8487f2e41d8" category="list-text"><block ref="5aed20998b90c6c33b24d8487f2e41d8" category="inline-link-macro-rx"></block></block>
+  <block id="4b48480a8d391a98b9979af312308b7c" category="list-text"><block ref="4b48480a8d391a98b9979af312308b7c" category="inline-link-macro-rx"></block></block>
+  <block id="5d9efacb191134a47eddaca6b86550ef" category="doc">컨트롤러 종료 - ASA C800</block>
+  <block id="2fb9d81c2751b72c6f0f19e7ab0e2e6b" category="doc">빠른 단계 - ASA C800</block>
+  <block id="0a1b788d1099f65afcbd5d2617f3ed92" category="inline-link-macro">ASA C800 설치 및 설정 지침 을 참조하십시오</block>
+  <block id="27e19165ae3633b64ea0d1e5828b6473" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="8e51076e81612ebc2edf3ef44ea3a905" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="2b9953635f286a5f88d8f368e0aa5465" category="sidebar">NetApp의 ONTAP 하드웨어 스토리지 시스템은 업계 최고의 데이터 관리 기능과 함께 첨단 엔터프라이즈급 스케일아웃 All-Flash 또는 하이브리드 스토리지를 제공합니다. 이 사이트의 문서를 사용하여 시스템을 설치, 확장, 업그레이드 및 유지 관리합니다.</block>
+  <block id="c3e7f9784130f33ec58f778a7d364a56" category="sidebar">ASA C-Series 시스템</block>
+  <block id="ce75e61b074bab0c8e79b911972ddbf1" category="sidebar">선반 및 스위치</block>
+  <block id="efb7d807a9229170619783564ab9a186" category="sidebar">ASA C250 을 참조하십시오</block>
+  <block id="8be061f2ffd8e5438d395c1e9844b4ff" category="sidebar">ASA C400 을 참조하십시오</block>
+  <block id="fd395a2e4925de0736e72f97908d353b" category="sidebar">ASA C800을 참조하십시오</block>
+  <block id="b00c4b4112816929de0eb8a79af19e7f" category="sidebar">ONTAP 하드웨어 시스템 설명서</block>
+  <block id="c1370c033cc8d9c44f943c71c77e2612" category="sidebar">ASA C400 시스템</block>
+  <block id="84f8b16af6e61b50a60f6963a3714dce" category="sidebar">ASA C400 설치 및 설정</block>
+  <block id="6e6b83322f27e0a481920c1942ca4d06" category="sidebar">ASA C400이 유지됩니다</block>
+  <block id="42dcbb2a8a1d5c203703489b6bfd2d41" category="sidebar">ASA C400 부팅 미디어</block>
+  <block id="ccf8018b3d654d823bd222ff5852d94c" category="sidebar">ASA C400 섀시</block>
+  <block id="f1ce6ee6a9b6701ded3e7305d1a47f8b" category="sidebar">ASA C400 컨트롤러 모듈</block>
+  <block id="037942e17a72efbec3fbd02f17ae222e" category="sidebar">ASA C400 DIMM을 참조하십시오</block>
+  <block id="a476b30aedf19d74cc76a81c627ef010" category="sidebar">ASA C400 팬 모듈</block>
+  <block id="5ac4d65b443121440994b5efbc6fe2db" category="sidebar">ASA C400 NVDIMM 배터리</block>
+  <block id="7da162a63ee18d83599a6f39dfad99f3" category="sidebar">ASA C400 PCIe 또는 메자닌 카드</block>
+  <block id="e7d6c70be60310d753bb04f93958a99e" category="sidebar">ASA C400 전원 공급 장치</block>
+  <block id="6e1f6b52dcbf426bd04e045b833f7989" category="sidebar">ASA C400 실시간 클럭 배터리</block>
+  <block id="47bbce6e33bd7d62fd92094dd6a0818b" category="sidebar">ASA C250 시스템</block>
+  <block id="07b2916c602e93a800620d6a7f3da559" category="sidebar">ASA C250 설치 및 설정</block>
+  <block id="1dd94b2bf84735727f2fca5364f3b083" category="sidebar">ASA C250 유지 보수</block>
+  <block id="2353e9e67ec4eecfe39f1b7cc0ebfc1d" category="sidebar">ASA C250 부팅 미디어</block>
+  <block id="194ead111a8c6fa1777a5e82a7f91b2f" category="sidebar">ASA C250 섀시</block>
+  <block id="f625798c697d484421b27bd2637a4a66" category="sidebar">ASA C250 컨트롤러 모듈</block>
+  <block id="f52cc0c002eb630b3aee28324fd8a0a0" category="sidebar">ASA C800 시스템</block>
+  <block id="5185f6f6f1211a7e3fff65634642f7bf" category="sidebar">ASA C800 설치 및 설정</block>
+  <block id="6254a52fafb7f7564e91436cf4b47113" category="sidebar">ASA C800 유지 보수</block>
+  <block id="052bc2e859c31b84b04f42db7b60abff" category="sidebar">ASA C800 부팅 미디어</block>
+  <block id="801fdf5b112137a107d3f17390e4042d" category="sidebar">ASA C800 섀시</block>
+  <block id="ca7dce9cd06f0f2ef6e548c8c26d54d9" category="sidebar">ASA C800 컨트롤러 모듈</block>
 </blocks>

@@ -39,6 +39,7 @@ video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -84,6 +85,7 @@ video::e0825a97-c57d-47d7-b87d-aad9012efa12[panopto]
 image::../media/drw_A400_open-air-duct.png[drw A400 개방형 공기 덕트]
 
 +
+[cols="10,90"]
 |===
 
 
@@ -117,6 +119,7 @@ image::../media/legend_icon_03.png[범례 아이콘 03]
 image::../media/drw_A400_Replace-boot_media_IEOPS-1007.svg[drw A400 부팅 미디어 IEOPS 1007 교체]
 
 +
+[cols="10,90"]
 |===
 
 
