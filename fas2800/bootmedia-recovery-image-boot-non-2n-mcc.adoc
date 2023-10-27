@@ -62,7 +62,7 @@ USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복�
 
 . 다음 항목은 시스템 구성에 따라 다릅니다.
 +
-** 시스템에 온보드 키 관리자, NSE 또는 NVE가 구성된 경우 로 이동합니다 xref:bootmedia_encryption_restore.adoc[필요에 따라 OKM, NSE 및 NVE를 복원합니다]
+** 시스템에 온보드 키 관리자, NSE 또는 NVE가 구성된 경우 로 이동합니다 xref:bootmedia-encryption-restore.adoc[필요에 따라 OKM, NSE 및 NVE를 복원합니다]
 ** 시스템에 온보드 키 관리자, NSE 또는 NVE가 구성되어 있지 않은 경우 이 섹션의 단계를 완료하십시오.
 
 

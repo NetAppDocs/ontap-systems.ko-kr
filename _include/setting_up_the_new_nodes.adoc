@@ -117,7 +117,7 @@ http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30
 ha-config modify controller ha 명령은 컨트롤러 설정에 대해 ha를 구성합니다. ha-config modify chassis ha 명령은 섀시 설정에 대해 ha를 구성합니다.
 
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-hacg/home.html["ONTAP 9 고가용성 구성 가이드"]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html["HA 쌍 관리"^]
 
 +
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30092["사용 중인 Data ONTAP 8 버전에 대한 고가용성 구성 가이드를 찾아보십시오"]

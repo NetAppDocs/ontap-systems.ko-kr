@@ -84,7 +84,7 @@ SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제�
 Config Advisor를 다운로드하려면 네트워크 액세스가 필요합니다.
 
 +
-https://https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
+https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 
 
@@ -409,7 +409,7 @@ NOTE: 시스템을 부팅하기 전에 이 기회를 이용하여 케이블이 �
 SAS 케이블 연결 또는 중복 쉘프 ID 오류가 발생하는 경우 제공된 수정 조치를 따르십시오.
 
 +
-https://https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
+https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"^]
 
 +
 또한 'storage shelf show-fields shelf-id' 명령을 실행하여 시스템에 이미 사용 중인(있는 경우 중복) 쉘프 ID 목록을 볼 수 있습니다.

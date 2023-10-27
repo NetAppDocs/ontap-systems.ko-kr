@@ -263,10 +263,10 @@ image:../media/oie_legend_icon_attn_symbol.png[""]
 |===
 . 케이블 연결 옵션을 수행하려면 다음을 참조하십시오.
 +
-** <<Option 1: Connect to a Fibre Channel host>>
-** <<Option 2: Connect to a 10GbE host>>
-** <<Option 3: Connect to a single direct-attached NS224 drive shelf>>
-** <<Option 4: Connect to two direct-attached NS224 drive shelves>>
+** <<옵션 1: Fibre Channel 호스트 네트워크에 케이블을 연결합니다>>
+** <<옵션 2: 10GbE 호스트 네트워크에 케이블 연결>>
+** <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
+** <<옵션 4: 컨트롤러를 두 드라이브 쉘프에 연결합니다>>
 
 
 . 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
@@ -332,10 +332,10 @@ image:../media/oie_legend_icon_attn_symbol.png[""]
 |===
 . 케이블 연결 옵션을 수행하려면 다음을 참조하십시오.
 +
-** <<Option 1: Connect to a Fibre Channel host>>
-** <<Option 2: Connect to a 10GbE host>>
-** <<Option 3: Connect to a single direct-attached NS224 drive shelf>>
-** <<Option 4: Connect to two direct-attached NS224 drive shelves>>
+** <<옵션 1: Fibre Channel 호스트 네트워크에 케이블을 연결합니다>>
+** <<옵션 2: 10GbE 호스트 네트워크에 케이블 연결>>
+** <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
+** <<옵션 4: 컨트롤러를 두 드라이브 쉘프에 연결합니다>>
 
 
 . 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
@@ -380,8 +380,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-* <<Option 3: Connect to a single direct-attached NS224 drive shelf>>
-* <<Option 4: Connect to two direct-attached NS224 drive shelves>>
+* <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
+* <<옵션 4: 컨트롤러를 두 드라이브 쉘프에 연결합니다>>
 
 
 
@@ -425,8 +425,8 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 다른 옵션 케이블 연결을 수행하려면 다음 중에서 선택합니다.
 
-* <<Option 3: Connect to a single direct-attached NS224 drive shelf>>
-* <<Option 4: Connect to two direct-attached NS224 drive shelves>>
+* <<옵션 3: 컨트롤러를 단일 드라이브 쉘프에 연결합니다>>
+* <<옵션 4: 컨트롤러를 두 드라이브 쉘프에 연결합니다>>
 
 
 

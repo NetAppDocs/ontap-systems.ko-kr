@@ -19,7 +19,7 @@
 
 . 손상된 컨트롤러가 작동 중일 경우 손상된 컨트롤러에서 실행 중인 ONTAP 버전을 확인하거나, 손상된 컨트롤러가 다운된 경우 rsion -v 명령을 사용하여 파트너 컨트롤러에서 실행 중인 버전을 확인합니다.
 +
-** 명령 출력에 <lno-DARE> 또는 <1Ono-dARE>가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 로 진행합니다 <<손상된 컨트롤러를 종료합니다>>.
+** 명령 출력에 <lno-DARE> 또는 <1Ono-dARE>가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 로 진행합니다 https://docs.netapp.com/us-en/ontap-systems/fas2800/bootmedia-impaired-controller-shutdown.html["손상된 컨트롤러를 종료합니다"].
 ** <lno-DARE>가 명령 출력에 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 다음 섹션으로 이동하십시오. <<ONTAP 9.6 이상을 실행하는 시스템에서 NVE 또는 NSE를 확인하십시오>>.
 
 

@@ -167,8 +167,6 @@
   <block id="9779333e2154119b2b5972805e7dda90" category="cell">시스템이 다음 상태인 경우:</block>
   <block id="28489481ec7e834c6b195baa68dd19c1" category="paragraph">'* 스토리지 페일오버 반환 - ofnode_partner_node_name_ * '</block>
   <block id="25df42cd5ae2e7223d293aeda0c623ed" category="paragraph">기브백이 거부되면 거부권을 재정의할 수 있습니다.</block>
-  <block id="3804b132271e47a4db7521e977b43625" category="inline-link">ONTAP 9 고가용성 구성 가이드</block>
-  <block id="08ca2eade8768d4ee7e1752168f719ac" category="paragraph"><block ref="08ca2eade8768d4ee7e1752168f719ac" category="inline-link-rx"></block></block>
   <block id="889c078e9cfb9c17ddcfadb4d5c9759c" category="list-text">'storage failover show -반환' 명령을 사용하여 반환 작업의 진행률을 모니터링합니다.</block>
   <block id="2e2dd412417cfab75b0340fc82c0c08b" category="list-text">반환 작업이 완료된 후 'storage failover show' 명령을 사용하여 HA 쌍이 정상 상태인지, 테이크오버가 가능한지 확인합니다.</block>
   <block id="55264e5caf29a4014bb82535b8f9ddba" category="list-text">'Storage failover modify' 명령을 사용하여 사용하지 않도록 설정한 경우 자동 반환 복구</block>
@@ -3261,8 +3259,6 @@
   <block id="359472a70133529fc01e7b943ee51b2d" category="paragraph">라이저 2 및 DIMM 뱅크 7-10, 12-13 및 15-18</block>
   <block id="5c2989b756c1c0a4f26576c2a249cb73" category="paragraph">라이저 3 및 DIMM 19-22 및 24</block>
   <block id="deed19e25ff1800b42b409fbd813f32a" category="paragraph">* 참고: * 슬롯 2와 14는 비어 있습니다. 이 슬롯에 DIMM을 설치하지 마십시오.</block>
-  <block id="5fb89931e5b269129a2ad5936878a851" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="b9f6f8746149f87def14842273c93bfe" category="inline-xref-macro-rx"></block>.</block>
-  <block id="70c3e5c6b05722334dd3cfb521d9e159" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="e0569187fa90a6ae4bbbe053355b82c8" category="inline-xref-macro-rx"></block>.</block>
   <block id="b8984f02e6cfd8c017d9d0f4737d0ac7" category="doc">섀시 교체 - AFF A800</block>
   <block id="0056f1b7e6a1cbc5c692fe90eeba67d5" category="paragraph">섀시를 교체하려면, 손상된 섀시에서 교체 섀시로 베젤, 컨트롤러 모듈 및 NVMe 드라이브를 이동한 다음 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 제거하고 교체 섀시를 제자리에 설치해야 합니다.</block>
   <block id="1c44627eb33d55ec54d505046a55d435" category="list-text">이 절차는 베젤, NVMe 드라이브 및 컨트롤러 모듈을 새 섀시에 이동하고 교체 섀시가 NetApp의 새로운 구성 요소라는 전제 하에 작성되었습니다.</block>
@@ -3331,7 +3327,6 @@
   <block id="11cedb2a3ea1c051845c4666a3942624" category="doc">컨트롤러 종료 -- AFF A300</block>
   <block id="4cbf72a112e69e9ca004dad9b0b05d49" category="section-title">옵션 2: 컨트롤러는 2노드 MetroCluster 구성에 있습니다</block>
   <block id="75e670af7a515907420be152e288dc75" category="doc">FAN-AFF A300을 스왑한다</block>
-  <block id="3746182c68f1f041a5f57979560a0566" category="list-text">로 이동합니다 <block ref="1665eb69960f5979fe40ff23600bffd1" category="inline-xref-macro-rx"></block>.</block>
   <block id="6929ed15e0e67e0b58c79d2b8b2dcb7b" category="summary">완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.</block>
   <block id="0be5556a6966ecc67209514eafe7b6da" category="list-text">시스템에서 ONTAP 9.8 이상을 실행해야 합니다.</block>
   <block id="70a9962b20f4b24e0fab99c887254705" category="list-text">X91148A 모듈을 중단 없이 추가하려면 대상 컨트롤러를 인수하고 모듈을 추가한 다음 대상 컨트롤러를 반환해야 합니다.</block>
@@ -6585,16 +6580,8 @@
   <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="6daf7f4112fcf7c7be366c44ff70faf2" prefix=" " category="inline-code"></block></block>
   <block id="236dd84b9226dbf8dfd98a6c46b59972" category="list-text">캐싱 모듈에서 데이터가 삭제되었는지 확인합니다.<block ref="55030d884a341e8f95d06478b61fbec9" prefix=" " category="inline-code"></block></block>
   <block id="af41b619bf9d50ddae2454efc001e4dd" category="paragraph">출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.</block>
-  <block id="376b1cae869bbe8ab1cce68fdb30b696" category="inline-link-macro">DIMM을 교체합니다</block>
-  <block id="91e13f2779cb51174165fa30eaba7e5b" category="list-text">로 돌아갑니다 <block ref="cf268cc4bc5a73daf7348170b397c07d" category="inline-link-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
   <block id="1a9ae2b5eb296d614bebfdc33f389268" category="doc">온보드 암호화 키 확인 - AFF A150</block>
   <block id="3bf6a2921f0e655ea4d2b6b2851e02df" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF A150</block>
-  <block id="91b91feeb88498e7be1c10bbbb6db4c2" category="inline-link-macro">HA 시스템에서 시스템 ID 변경 확인</block>
-  <block id="4e87b3c0f415f46d36e8fa6bd32a6ff7" category="paragraph"><block ref="4e87b3c0f415f46d36e8fa6bd32a6ff7" category="inline-link-macro-rx"></block></block>
-  <block id="465740a443e85d455a90494615d629b9" category="inline-link-macro">ONTAP에서 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다</block>
-  <block id="7070195bf98baff2e0462461db9cb074" category="paragraph"><block ref="7070195bf98baff2e0462461db9cb074" category="inline-link-macro-rx"></block></block>
-  <block id="734e28e3c6b715a48c7043347210471e" category="inline-link-macro">2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다</block>
-  <block id="ca5a5e07d656cff35da2184538cfc5fb" category="paragraph"><block ref="ca5a5e07d656cff35da2184538cfc5fb" category="inline-link-macro-rx"></block></block>
   <block id="1cd8a39839471e937855a3c54b6b84d9" category="doc">부팅 미디어 교체 개요 - AFF A150</block>
   <block id="35db388e4e99e4a7488ab682126d7fa6" category="doc">NVMEM 배터리 교체 - AFF A150</block>
   <block id="2867a72512f6330f74fb93ac9f93f07d" category="doc">하드웨어 이동 및 교체 - AFF A150</block>
@@ -7372,7 +7359,6 @@
   <block id="60564c6a5dbb582ea0f8b967540d266c" category="paragraph">레이블은 스택 번호를 표시합니다(예: * Loop 또는 Stack#:1 * 및 * Loop 또는 Stack#:2 *). 루트 애그리게이트가 포함되지 않은 디스크 쉘프는 레이블에 디스크 쉘프 일련 번호만 표시합니다.</block>
   <block id="e50b176d298cced2ec9cfd5bbe516332" category="list-text">대역 내 대체 제어 경로(IBACP)가 자동으로 활성화됩니다.</block>
   <block id="e5db155980df3ce33a16c9ed4af83e4e" category="paragraph">IBACP는 단일 경로 HA 또는 단일 경로 구성에서 지원되지 않습니다.</block>
-  <block id="ba809f57bc3e36546d8a47b82a5d995c" category="paragraph"><block ref="ba809f57bc3e36546d8a47b82a5d995c" category="inline-link-rx"></block></block>
   <block id="d37bef5353b917df46bc5ea30882b3a9" category="paragraph">의 요구사항을 충족해야 합니다 <block ref="45a94b67f53095b9a49e00311fb0216a" category="inline-xref-macro-rx"></block> 랙에 디스크 쉘프를 설치합니다.</block>
   <block id="59e65b256ff4505ae2cefd9f9a823d8b" category="paragraph">다중 경로 HA, 3중 경로 HA, 다중 경로, 단일 경로 HA 또는 단일 경로 구성을 케이블로 연결할 수 있습니다</block>
   <block id="7e8bbc30dce4dc23bd053149c93370be" category="inline-link-macro">다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예</block>
@@ -7383,7 +7369,6 @@
   <block id="a9965269fc2882517b2f7404230818ad" category="list-text">기존 스택의 끝(논리적 첫 번째 또는 마지막 디스크 쉘프)에 디스크 쉘프를 핫 추가하는 경우 구성에 해당하는 하위 단계를 완료하고, 그렇지 않으면 다음 단계로 이동합니다.</block>
   <block id="ca067501330c228a786fd00d17229575" category="paragraph">다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 컨트롤러에 대한 4중 경로 연결이 있는 스택의 맨 끝에 디스크 쉘프를 추가합니다</block>
   <block id="fa3d4e5360018aa45e5104272d43148c" category="paragraph">스택은 에 명시된 요구 사항을 충족해야 합니다 <block ref="d7ead9d51e0253f97f9c0ae83a2ee9eb" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
-  <block id="2aaf80f49dd70b27832d7aa8d96090d0" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-dARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 로 진행합니다 <block ref="89ef15e2cd441b6b5852f79de56e5549" category="inline-xref-macro-rx"></block>.</block>
   <block id="78fe270cb69c9ecda90d7e049a571c28" category="list-text">&lt;lno-DARE&gt;가 명령 출력에 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 다음 섹션으로 이동하십시오. <block ref="a913f4e8384864716d5146884ff27f0e" category="inline-xref-macro-rx"></block>.</block>
   <block id="d9b691280dde7c1805e39052719c9c29" category="list-text">정상 컨트롤러에서 자동 반환 비활성화:
 storage failover modify -node local -auto-반환 false'입니다
@@ -7592,7 +7577,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="0da3888f81e8e56d2de2a92a42b512a3" category="doc">복구 이미지를 부팅합니다. - FAS2800</block>
   <block id="c5ad83e174ba7727e76fc50c8366e589" category="list-text">var 파일 시스템을 복구합니다.</block>
   <block id="e51ecd8f185715278ef737fd290e62f5" category="list-text">를 누릅니다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 구성 복사본을 복원하라는 메시지가 표시되면</block>
-  <block id="17fb1354460acbac7ab4abe6c27a24a2" category="list-text">시스템에 온보드 키 관리자, NSE 또는 NVE가 구성된 경우 로 이동합니다 <block ref="4b98be10d46a75a522880bc01a177aa5" category="inline-xref-macro-rx"></block></block>
   <block id="1a037944aedbce3040a5314200246858" category="list-text">클러스터 프롬프트에서 와(과) 논리 인터페이스를 확인합니다<block ref="55cf88a325a6e0574aef732566cc984c" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="8c4cb494b75288cf3ce1e7ce1dee3c9d" category="paragraph">"false"로 나열된 인터페이스가 있는 경우 를 사용하여 해당 인터페이스를 홈 포트로 되돌립니다<block ref="ffbe7d182280173cba10c83ec9992974" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="fcb4d3b1f229bc036dc2280a7c1d29c4" category="list-text">스토리지 암호화를 사용하지 않는 경우 자동 반환 및 AutoSupport를 복원합니다.</block>
@@ -8694,4 +8678,19 @@ SFP+(타겟/이니시에이터)</block>
   <block id="052bc2e859c31b84b04f42db7b60abff" category="sidebar">ASA C800 부팅 미디어</block>
   <block id="801fdf5b112137a107d3f17390e4042d" category="sidebar">ASA C800 섀시</block>
   <block id="ca7dce9cd06f0f2ef6e548c8c26d54d9" category="sidebar">ASA C800 컨트롤러 모듈</block>
+  <block id="664f9c52f93e2fbf6e801148b0f573ad" category="inline-link">HA 쌍 관리</block>
+  <block id="665a2533bb5f8d55add7fd24df29e614" category="paragraph"><block ref="665a2533bb5f8d55add7fd24df29e614" category="inline-link-rx"></block></block>
+  <block id="8fa572d5dfdbff8c60e791d349eca279" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-dARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 로 진행합니다<block ref="c2302bfb39f1e6b6fccfd9207e94da44" category="inline-link-rx"></block>.</block>
+  <block id="7d52b24114e5d676f50874574fb29878" category="paragraph">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
+  <block id="6cca151867efbcb742b6e15efec51760" category="list-text">캠 핸들의 래치를 눌러 분리될 때까지 캠 핸들을 완전히 열어 컨트롤러 모듈을 중앙판에서 분리한 다음, 양손으로 컨트롤러 모듈을 섀시 밖으로 반쯤 당깁니다.</block>
+  <block id="92edeac7b5b629f5e93e2de4ba2adf43" category="list-text">컨트롤러 모듈 후면에 있는 NVMEM LED를 확인하십시오.  NV 아이콘을 찾습니다.</block>
+  <block id="bb49ab711ab9d79c58c90ff674747f54" category="admonition">시스템이 "반환 대기 중" 상태이거나 시스템이 제대로 인수되거나 중지되지 않은 경우(커밋되지 않은 데이터) 컨트롤러에서 전원이 꺼지면 면판의 녹색 NV LED가 깜박이기 시작합니다.  손상된 컨트롤러 모듈이 파트너 컨트롤러 모듈에 의해 성공적으로 인계되지 않은 경우 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block></block>
+  <block id="fab80bc3fcd8eac48cd9c319017190f7" category="list-text">컨트롤러 모듈을 섀시에서 분리할 때 녹색 NV 상태 LED가 깜박이기 시작하는 경우:</block>
+  <block id="db20b5f8713e5397c5c04ce0ebd834fd" category="list-text">컨트롤러가 파트너 컨트롤러 모듈 또는 손상된 컨트롤러가 share_waiting for Giveback_에 의해 완전히 테이크오버되었는지 확인합니다. 깜박이는 LED를 무시하면 되며 손상된 컨트롤러를 섀시에서 제거할 수 있습니다.</block>
+  <block id="b3fb52770d8a327ed5d79c25e8d2d8fe" category="list-text">녹색 NV LED가 꺼져 있는 경우 손상된 컨트롤러를 섀시에서 분리할 수 있습니다.</block>
+  <block id="30f4d9cc74028fcb25b044f8d09f0cdd" category="list-text">섀시에서 제어 모듈을 분리합니다.</block>
+  <block id="6476f2f5425248b422cb30658323cbae" category="list-text">로 돌아갑니다 <block ref="c67cdb63ab5b46180d9910dcb0f03689" category="inline-xref-macro-rx"></block> NVMEM LED를 다시 확인하는 절차입니다.</block>
+  <block id="699b31ad01a325baded3de0b74220957" category="list-text"><block ref="56abd8a9e334744fb66750bee3a52178" category="inline-xref-macro-rx"></block></block>
+  <block id="74e404c1f33731e0a999a4fc54ab33df" category="list-text"><block ref="893f29ac32188f4c8d29836a3587e127" category="inline-xref-macro-rx"></block></block>
+  <block id="a192a372cc891c7f0839a86b1b42a3e2" category="list-text">로 이동합니다 <block ref="39ef488856eb21b3aaabcded4bff7c5d" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
