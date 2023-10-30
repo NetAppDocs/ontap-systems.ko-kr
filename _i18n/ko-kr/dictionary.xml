@@ -1057,16 +1057,13 @@
   <block id="3b4ebd8e7c477a0f7a960c9c6a4ce31f" category="paragraph">디스크 쉘프 전면 운영자 디스플레이 패널의 LED는 디스크 쉘프가 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
   <block id="13e60e94f01a2770d6906d572edb4e16" category="paragraph">다음 표에서는 DS460C, DS224C 및 DS212C 디스크 쉘프에 사용되는 작동 디스플레이 패널의 세 가지 LED에 대해 설명합니다.</block>
   <block id="4c82db0a209f87ecd6fed6664e1ef758" category="cell">LED 아이콘</block>
-  <block id="f14917f9ec9b86a2d84112bf8ff01347" category="paragraph"><block ref="f14917f9ec9b86a2d84112bf8ff01347" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd4fe0cc913f704600b97d1f5dd285de" category="paragraph">전원</block>
   <block id="31cb02e89902f67343e47bc70e628c6d" category="paragraph">녹색으로 켜져 있습니다</block>
   <block id="ceee41d559bf6e4c8eec9d1995cd0b4c" category="paragraph">하나 이상의 전원 공급 장치가 디스크 쉘프에 전원을 공급하고 있습니다.</block>
-  <block id="c61664b995859451c9b18dba9398d36e" category="cell"><block ref="c61664b995859451c9b18dba9398d36e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="42532600d34fb5884550b5ba06c71866" category="paragraph">이벤트 메시지를 확인하여 필요한 수정 조치를 결정합니다.</block>
   <block id="5bb2376fdbdd8b69f07ffed693784a70" category="paragraph">주황색으로 깜박입니다</block>
   <block id="59ee562359b2b7e862570a57471bda07" category="paragraph">쉘프 ID가 보류 중입니다.</block>
   <block id="8fcbf556597a139b46e7a7b6c6878f08" category="paragraph">쉘프 ID가 적용되는 디스크 쉘프의 전원을 껐다가 켭니다.</block>
-  <block id="965881f89ebf03830d8c6f3d7b4af499" category="paragraph"><block ref="965881f89ebf03830d8c6f3d7b4af499" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ce5bf551379459c1c61d2a204061c455" category="paragraph">위치</block>
   <block id="d4300cfa84e2e26784840198a0cbd030" category="paragraph">파란색으로 고정되어 있습니다</block>
   <block id="dcef7e6e25f4d0285a65c6e2456b274e" category="paragraph">시스템 관리자는 서비스가 필요한 디스크 쉘프를 물리적으로 찾을 수 있도록 이 LED 기능을 활성화했습니다.</block>
@@ -1095,7 +1092,6 @@
   <block id="f0a6a09f1e4521d0cf1bb52fa09f86a7" category="paragraph">DS460C 팬의 LED는 팬이 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.</block>
   <block id="a7d0fabb0e19581fdc7108acf3ea86ca" category="paragraph">다음 표에서는 DS460C 디스크 쉘프에서 사용되는 팬의 LED에 대해 설명합니다.</block>
   <block id="c850737320566d21e1b271caa9a83a80" category="paragraph">팬 기능에 오류가 발생했습니다.</block>
-  <block id="97fcf3382eccbc982589a926d4ab13ed" category="paragraph"><block ref="97fcf3382eccbc982589a926d4ab13ed" category="inline-image-macro-rx" type="image"></block></block>
   <block id="73ed5be94772342ead2304a505ea672f" category="section-title">디스크 드라이브 LED</block>
   <block id="556d06da2336f75dff1cbca3a26c81fa" category="paragraph">디스크 드라이브의 LED는 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
   <block id="92baf731ccf3fd5eea26e98890d366d6" category="section-title">DS224C 및 DS212C 디스크 쉘프용 디스크 드라이브 LED</block>
@@ -6386,7 +6382,6 @@
   <block id="8db94eb390aaecb9128a260b00e455e8" category="paragraph"><block ref="8db94eb390aaecb9128a260b00e455e8" category="inline-link-macro-rx"></block></block>
   <block id="474b4646ba15883494cbfd9239d508ad" category="list-text">영어: <block ref="053faba884b41a351b336aa44c8075ff" category="inline-link-macro-rx"></block></block>
   <block id="42e8099baf01da8bcc3b8362f29f317c" category="inline-link-macro">AFF A800 설치 및 설정 지침</block>
-  <block id="08b9fb46f5aced4cd732b3ae62e9764f" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="0cdb4981396afec17d02c8ce5d1b8e06" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="3968cc9d2fa7f59d81661adbaf12cfac" category="paragraph"><block ref="3968cc9d2fa7f59d81661adbaf12cfac" category="inline-link-macro-rx"></block></block>
   <block id="b72bee50d170af9037bebf46f5eb89d7" category="paragraph">NVDIMM을 교체하려면 공기 덕트 상단의 FRU 맵 또는 슬롯 1 라이저 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 NVDIMM을 찾아야 합니다.</block>
   <block id="ad7f5333de2f76cfccc7ea7fa134c8a7" category="paragraph">시스템 DIMM을 교체하려면 관련 오류 메시지를 통해 대상 DIMM을 식별하고, 공기 덕트의 FRU 맵을 사용하여 대상 DIMM을 찾은 다음 DIMM을 교체해야 합니다.</block>
@@ -6618,7 +6613,6 @@
   <block id="1338d35acdb3c964dd3a62d00b16a635" category="doc">온보드 암호화 키 확인 - AFF C250</block>
   <block id="d667058635875eca097800e4379f58cd" category="doc">빠른 단계 - AFF C250</block>
   <block id="84918b89947f6a68e4b25fe4753c02bc" category="inline-link-macro">AFF C250 설치 및 설정 지침</block>
-  <block id="66e0597e25a38bc180d5270f4021127a" category="paragraph"><block ref="66e0597e25a38bc180d5270f4021127a" category="inline-link-macro-rx"></block></block>
   <block id="d3d5358ee829ec20cfebc87c86eed844" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C250</block>
   <block id="64e5c97f01cbac1639343e8b0f670c20" category="list-text"><block ref="64e5c97f01cbac1639343e8b0f670c20" category="inline-link-macro-rx"></block></block>
   <block id="38471c9931ce26e5aeb8c80bf6483a48" category="list-text"><block ref="38471c9931ce26e5aeb8c80bf6483a48" category="inline-link-macro-rx"></block></block>
@@ -6858,7 +6852,6 @@
   <block id="a7d1c95d57e2d4d91562898a605711c2" category="doc">장애가 발생한 부품을 NetApp-AFF C800으로 되돌립니다</block>
   <block id="c7567cf7dbf1c0e5da4f2ff1ced923ef" category="doc">빠른 단계 - AFF C800</block>
   <block id="f8eb42a3c2c9e8d82c874d7ccd6ef2a9" category="inline-link-macro">AFF C800 설치 및 설정 지침</block>
-  <block id="1b687c0cb9f5dcfa6fe0020541ed6d97" category="paragraph"><block ref="1b687c0cb9f5dcfa6fe0020541ed6d97" category="inline-link-macro-rx"></block></block>
   <block id="51e6f316a2e32ea2e86cbacf242892f6" category="doc">필요에 따라 OKM, NSE 및 NVE 복원 - AFF C800</block>
   <block id="6d940c412bcfcdb76ebf095399d157ea" category="doc">시스템 구성을 복원 및 확인합니다 - AFF C800</block>
   <block id="83087c77244cbf7473481303d60706cd" category="doc">복구 이미지 AFF C800을 부팅합니다</block>
@@ -7176,7 +7169,6 @@
   <block id="6266bb335022aad7813f5a92f40c41bb" category="list-text">랩톱 또는 콘솔에서 System Manager를 사용하여 클러스터를 구성합니다.</block>
   <block id="b1e0a8fb86dde21901d58064a47983ae" category="paragraph">초기 시스템 설치 과정을 통해 랙 설치 및 케이블 연결에서부터 시스템을 설치하는 방법에 대해 알아보십시오. 사용 <block ref="2e869cac122e3063f7b418f03cb3fa26" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="79386daaa48888ed81c00ef493d329e9" category="paragraph">MetroCluster 구성이 있는 경우 를 사용합니다<block ref="d4b6e949edad9293b177bc65e2892165" category="inline-link-rx"></block>.</block>
-  <block id="9b9935ad5969c28de13381a2e512b47c" category="paragraph">참고:</block>
   <block id="25ca1a1b0a04d8f5341dca5c9e9eed8a" category="list-text">에 대한 액세스 권한이 있는지 확인합니다 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> HWU)를 참조하십시오.</block>
   <block id="b00f162fad84edda46484fcada242a8c" category="inline-link">HWU</block>
   <block id="0b596d3b9a72deeb4bca2c3f00662c30" category="list-text">특정 전원 요구 사항이 있는 고객은 반드시 확인해야 합니다<block ref="911e5b8f28f318acfdc1d057cd36b40e" category="inline-link-rx"></block> 를 클릭합니다.</block>
@@ -7581,11 +7573,7 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="8c4cb494b75288cf3ce1e7ce1dee3c9d" category="paragraph">"false"로 나열된 인터페이스가 있는 경우 를 사용하여 해당 인터페이스를 홈 포트로 되돌립니다<block ref="ffbe7d182280173cba10c83ec9992974" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="fcb4d3b1f229bc036dc2280a7c1d29c4" category="list-text">스토리지 암호화를 사용하지 않는 경우 자동 반환 및 AutoSupport를 복원합니다.</block>
   <block id="fde9b148f6eb9655d65658597326b4ee" category="doc">세부 단계 - FAS2800</block>
-  <block id="c507fc907e52c0d3d2a5b32d101a1559" category="paragraph">FAS2800 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="82374f90663d7205d26c38028c93cb8d" category="inline-link">사용 중인 ONTAP 9 버전에 대한 릴리즈 노트</block>
-  <block id="4afcf4b1bce6c3df1cc1e778d2d69e65" category="paragraph">에 대한 액세스 권한이 있어야 합니다<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block> 사이트 요구 사항 및 구성된 시스템에 대한 추가 정보를 확인하십시오. 에 대한 액세스 권한을 가질 수도 있습니다<block ref="eaa168831c6fecf820d5605f3f5de542" category="inline-link-rx"></block> 해당 버전의 ONTAP에서 이 시스템에 대한 자세한 내용을 확인하십시오.</block>
-  <block id="94f11775f11fcb36a20933d06500449a" category="list-text">를 통해 시스템을 등록합니다 <block ref="1cbd3811871137aa1e003e1ccae3894e" category="inline-link-rx"></block></block>
-  <block id="4aed417c4620186c402fe3b82713076b" category="list-text">다운로드 및 설치<block ref="56697f7f340a212f549439c89b0cabd2" category="inline-link-rx"></block> 노트북으로.</block>
   <block id="202c6b9676e6e0879f99a323aacdd76b" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
   <block id="21d9a13ac1bf780b5a88db05a215c05d" category="paragraph">10GbE, SFP28 케이블(주문 종속)</block>
   <block id="68ddfa29cb0d12a802225c5426557710" category="paragraph">X6566B-05-R6,.5,</block>
@@ -7609,15 +7597,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7176bca53e61f926de4367eb107ce7c8" category="paragraph">USB-C 콘솔 케이블</block>
   <block id="34dc50315428bf6e6940b722c6a21ee9" category="paragraph">옵션 FC 케이블</block>
   <block id="01b24af9f8a6b3efddd64ee9ab57a42e" category="paragraph">추가 FC 네트워크 케이블</block>
-  <block id="3f23ceafafc807d2b7578916c6816fcb" category="inline-link">ONTAP CLI를 사용하여 클러스터를 설정합니다</block>
-  <block id="a41ad0c41b61aa6e16a86ba5e2432d9f" category="list-text">에 있는 워크시트를 다운로드하고 작성합니다 <block ref="a7d19322be231451e03428c8b87e512f" category="inline-link-rx"></block>.</block>
   <block id="3157ab12e29c7ae731c3bbc36443b23f" category="image-alt">OIE fas2800 무게 주의 IEOPS 1070</block>
-  <block id="bb4787913f600ff690f937a7622bfef5" category="paragraph">스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
   <block id="9646d1820777de5269873d2317186ecb" category="paragraph">관리 네트워크 스위치</block>
   <block id="e80abcbf02cd3bed5561a16253c1dea0" category="paragraph">호스트 네트워크 스위치</block>
   <block id="3b9d43c8f889d04a7e7e50ecc887f626" category="paragraph">스위치가 없는 2노드 클러스터용 네트워크 연결과 클러스터 인터커넥트 포트에 케이블을 연결합니다.</block>
   <block id="724b63ff77d309630df65f6af09956a2" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 느껴지지 않으면 커넥터를 분리하고 케이블 헤드를 뒤집은 다음 다시 시도하십시오.</block>
-  <block id="b81e7d6a7be0cc8238b538c4b907282a" category="paragraph">그래픽 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.</block>
   <block id="43f3f164715da7f3368f26b28f4ef36f" category="video-title">애니메이션 - 스위치가 없는 2노드 클러스터 케이블 연결</block>
   <block id="00cdc1c050c54120647c95f8ac43e946" category="list-text">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0a~e0a 및 e0b~e0b에 케이블 연결:</block>
   <block id="64d64c32d62f821e30eb2ef5d4583099" category="paragraph">* 클러스터 인터커넥트 케이블 *</block>
@@ -7636,9 +7620,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e664a3bf047f98da138d06dd6bbecf60" category="list-text">2포트, 10/25Gb 이더넷(SFP28) + 2포트 32Gb FC(SFP+)</block>
   <block id="c76e1890be7e78a7e7f8b44303d6f072" category="admonition">전원 코드를 꽂지 마십시오.</block>
   <block id="945919717a9a1b9de8896baef8c155a5" category="paragraph">스위치 클러스터의 네트워크 연결 및 클러스터 인터커넥트 포트에 케이블을 연결합니다.</block>
-  <block id="4b3a23428d43b0cc1ea88affb10b1421" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 느껴지지 않으면 커넥터를 분리하고 케이블 헤드를 뒤집은 다음 다시 시도하십시오.</block>
   <block id="b6713b6dcccfb0ea851ac5892871d1ce" category="paragraph">컨트롤러를 외부 스토리지에 연결합니다.</block>
-  <block id="80ae6b7de29ff0be35e926815150d39e" category="paragraph">그래픽 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 간의 케이블 연결을 완료할 수 있습니다.</block>
   <block id="3fc162aa6870cf22cf3e0a947b89615a" category="video-title">애니메이션 - 드라이브 쉘프 케이블링</block>
   <block id="2728bec52c30a9bf554b834ce8cfd335" category="admonition">FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 을 참조하십시오<block ref="6f4656a8b776447b5b4debad13e7a22e" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="936f11624ce65028d5f2861c02e343af" category="image-alt">OIE 범례 아이콘 1 lo</block>
@@ -7656,13 +7638,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="49fefb8508936cb5a0f672b0146c0013" category="list-text">컨트롤러 B 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM A 포트 1로 연결합니다.</block>
   <block id="0cbd55a3e4a33973ae5e025f7565fe75" category="list-text">컨트롤러 B 포트 0b1을 스택의 마지막 드라이브 쉘프에 있는 IOM B 포트 3으로 연결합니다.</block>
   <block id="8f61138caddaadc30f99b723e123cf22" category="image-alt">DWR 2800 컨트롤러 2 - 쉘프 IEOPS 897</block>
-  <block id="a63d383da174eddb392adcd87d936c44" category="paragraph">랩톱에서 네트워크 검색이 설정된 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료합니다.</block>
   <block id="17eddeb5ca42d640ce98ba7b90523804" category="image-alt">DWR 2800은 IEOPS 898의 전원을 켭니다</block>
-  <block id="9e4e9e3678bbed5f0d0698cff8427b61" category="list-text">System Manager의 안내에 따라 설정을 사용하여 에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="492b1b89e16fbed782c0f28e34fb9371" category="inline-link-rx"></block></block>
   <block id="5725fc4af65adef1b57d4b7c9a365287" category="paragraph">랩톱에서 네트워크 검색이 활성화되지 않은 경우 수동으로 구성 및 설정을 완료합니다.</block>
-  <block id="3b1f7398f44c65a5f8ab979cc8757340" category="list-text">콘솔 케이블을 랩톱 또는 콘솔에 연결하고 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음, 노트북 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
   <block id="6f196fc99c938b047a2dbbae60694da9" category="image-alt">컨트롤러 IEOPS 1084로 전환하기 위한 drw 2800 노트북</block>
-  <block id="1f61f05d390e702160f04da6c21786d5" category="list-text">초기 구성을 완료한 후 로 이동합니다 <block ref="8203f64117389bb7bbdf8d4d70d36e4d" category="inline-link-rx"></block> ONTAP에서 추가 기능을 구성하는 방법에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="1063e487d045f7cd17b5712ab35a43b6" category="doc">FAS2800 시스템 설명서</block>
   <block id="40ab4deb5c724a3e2d6c8f6d96a94554" category="doc">컨트롤러 종료 - FAS2800</block>
   <block id="5f81816799fe408c4f5d0d2b06be7dd0" category="doc">빠른 설명서 - FAS2800</block>
@@ -7812,8 +7790,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8d468b5fdd20b5347cabd9609c9b129c" category="doc">ASA(All SAN 어레이) A-Series 시스템</block>
   <block id="9260991b91fdf449af1f97b5d09a9db6" category="summary">NS224 및 SAS 쉘프는 다양한 비즈니스 및 애플리케이션 요구를 지원하기 위해 NetApp AFF 및 FAS 시스템용으로 특별히 설계되었습니다.</block>
   <block id="0add3a06a3c8079fac5caa294ad21965" category="doc">AFF 및 FAS 시스템의 드라이브 쉘프</block>
-  <block id="681b1f89b87b1eb21b78d5ec326b22f7" category="paragraph">&lt;stdin&gt;에서 해결되지 않은 지시문 - 포함::../_include/250_install-detailed-guide.adoc [ ]
-이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.</block>
   <block id="4de4b37af472f8b6bb5aa5b5732538f0" category="summary">ASA C250 하드웨어 유지보수</block>
   <block id="80b77aae28ed3360a8b704371f5188e1" category="doc">AFF C250 하드웨어 유지보수</block>
   <block id="ab253cf54adf6fdbb65cbb0ed70cb2cf" category="paragraph">AFF C250 스토리지 시스템의 경우, 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
@@ -8503,7 +8479,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="728c8b35a059c5debd8717ebc5eef9cc" category="doc">비디오 단계 - ASA A250</block>
   <block id="da8c100a35e67a4a9a03589f6afa9ddc" category="doc">비디오 단계 - FAS500f</block>
   <block id="0fc2bce08e8e93df5954329e4439b224" category="paragraph">설치 절차는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 절차를 사용하십시오.</block>
-  <block id="658749712c1f894d4be0afd96a2e5f1d" category="paragraph">에 액세스합니다 <block ref="617bafb92e72c64d9d65b60de9aea456" category="inline-link-macro-rx"></block>.</block>
   <block id="0a5ad698c7446792fa1695e8ef9001ee" category="image-alt">DRW 2800 스위치 클러스터 케이블 연결 IEOPS 893</block>
   <block id="9bf3d28b6f86b0747100312dce20ff66" category="paragraph">ASA A400 설치 절차는 랙 설치 및 케이블 연결에서 초기 시스템 가져오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 다음 지침을 따르십시오.</block>
   <block id="0117839c8787354fc8b23cefed0984e8" category="inline-link-macro">ASA A400 설치 및 설정 지침</block>
@@ -8693,4 +8668,69 @@ SFP+(타겟/이니시에이터)</block>
   <block id="699b31ad01a325baded3de0b74220957" category="list-text"><block ref="56abd8a9e334744fb66750bee3a52178" category="inline-xref-macro-rx"></block></block>
   <block id="74e404c1f33731e0a999a4fc54ab33df" category="list-text"><block ref="893f29ac32188f4c8d29836a3587e127" category="inline-xref-macro-rx"></block></block>
   <block id="a192a372cc891c7f0839a86b1b42a3e2" category="list-text">로 이동합니다 <block ref="39ef488856eb21b3aaabcded4bff7c5d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="2866d26481b1c521c672b3cb60930e47" category="paragraph">에 액세스합니다 <block ref="130b74705762cd99c7dfbbbc83d14934" category="inline-link-macro-rx"></block>.</block>
+  <block id="7484b7e82acc4757b26226229997810e" category="summary">이 절차는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="d9652a5ef2ee620cb0b558db1a0b0abd" category="paragraph">이 절차에서는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 보다 자세한 설치 지침을 원할 경우 이 절차를 사용하십시오.</block>
+  <block id="f4c3757c8a20a3155f18506671b4a147" category="list-text">텔코 랙 또는 시스템 캐비닛에 있는 스토리지 시스템의 랙 공간입니다.</block>
+  <block id="a7fe55285588ce3bc863c28bb05d4186" category="list-text">스토리지 시스템의 경우 2U입니다</block>
+  <block id="4051d118060db51dd307c06bb01d5c8a" category="list-text">시스템의 각 드라이브 쉘프당 2U 또는 4U를 지원합니다</block>
+  <block id="f4c8d594d87ccd7fe60c3c68ef97a3da" category="list-text">추가 네트워킹 케이블을 사용하여 스토리지 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결합니다</block>
+  <block id="79c640bc8c4f86920cd6b693e9a21456" category="list-text">에 액세스합니다<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block> 사이트 요구 사항 및 구성된 스토리지 시스템에 대한 추가 정보</block>
+  <block id="345d4ee16e4fd18df3bf44484bbebc45" category="list-text">에 대한 액세스 권한을 가질 수도 있습니다<block ref="eaa168831c6fecf820d5605f3f5de542" category="inline-link-rx"></block> 이 스토리지 시스템에 대한 자세한 내용은 사용 중인 ONTAP 버전의 를 참조하십시오.</block>
+  <block id="902a58c29fa1a98185c0f23af51caade" category="list-text">모든 상자의 포장을 풀고 내용물의 인벤토리를 작성합니다.</block>
+  <block id="f77f28a461c720358d6020b852d2d688" category="admonition">특정 전원 요구 사항이 있는 고객은 반드시 확인해야 합니다<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block> 을 참조하십시오.</block>
+  <block id="16b35791c547ec7b12d2d1bc88d72f59" category="inline-link">System Manager를 사용하여 새 클러스터에서 ONTAP를 구성합니다</block>
+  <block id="aae9567818a18efd162e71b32afe8898" category="list-text">에 액세스합니다<block ref="d606117105bd83c1b32ab081f09267a6" category="inline-link-rx"></block></block>
+  <block id="45c050678e91022d79d101d15217e470" category="list-text">요구사항 AMD 절차 단계를 검토합니다.</block>
+  <block id="13013f81efc98ccada60da62130b9fda" category="inline-link">설치 워크시트(워크시트에 대한 URL 필요)</block>
+  <block id="941956b63246ffa79f1347062e5d39b0" category="list-text">을 완료하여 스토리지 시스템에 대한 정보를 수집합니다<block ref="346507d5ee7f653b48b0f3d6fc2965af" category="inline-link-rx"></block>.</block>
+  <block id="949db25fbbc3fc1f22a242c3944885b4" category="list-text">컨트롤러의 스토리지 시스템 일련 번호를 기록합니다.</block>
+  <block id="0d6cee59f00c392fcb698e283937aa19" category="paragraph">부품 번호 레이블 없음</block>
+  <block id="521655e96e994a693d54321af1548de6" category="paragraph">스토리지 시스템의 전원을 켭니다</block>
+  <block id="3ec9117c12f43a6786d62d4287191808" category="paragraph">필요에 따라 통신 랙 또는 NetApp 스토리지 시스템 캐비닛에 스토리지 시스템을 설치합니다.</block>
+  <block id="a13315633e3bd5a1b8934263ef3de247" category="list-text">레일 키트와 함께 제공된 지침에 따라 기억 장치 시스템을 설치하고 고정하십시오.</block>
+  <block id="6c686ee1cca98c427670aae5dfe576bf" category="admonition">기억 장치 시스템의 무게와 관련된 안전 문제를 숙지해야 합니다.</block>
+  <block id="084f071d7110f0c4d1fb187b85854586" category="list-text">베젤을 기억 장치 시스템 전면에 놓습니다.</block>
+  <block id="3d8c8d712263193f63b8949c3ee9c62c" category="paragraph">컨트롤러를 스위치가 없는 2노드 클러스터 또는 스위치 있는 클러스터로 네트워크에 케이블로 연결합니다.</block>
+  <block id="1c893d208d4a91c970226886751e800d" category="paragraph">다음 표에서는 스위치가 없는 2노드 클러스터와 스위치 없는 클러스터 모두에 대한 그림에서 호출 번호 및 케이블 색상이 있는 케이블 유형을 보여 줍니다.</block>
+  <block id="1ab7eafd757e6d1eae57d16228e5edc3" category="list-text">스토리지 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.</block>
+  <block id="089568b0e72f52eda465bac3d797022f" category="list-text">케이블 커넥터 당김 탭 방향이 올바른지 그림 화살표를 확인합니다.</block>
+  <block id="cef25943b26eeebcaa1241ede0442fb2" category="paragraph">이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.</block>
+  <block id="86ef3e62afc46d4fbce176cfff238447" category="paragraph">다음 표에는 드라이브 셸프를 스토리지 시스템에 연결하는 그림 설명에서 출력 번호 및 케이블 색상이 있는 케이블 유형이 나와 있습니다.</block>
+  <block id="225172475d1dd48d2f55426f1792f1b5" category="admonition">이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다. 을 참조하십시오<block ref="defd6f8cbcbf4438c52ada1e92d7a17f" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="8a811c8bdca2987d299cfb24cf85ad86" category="paragraph">쉘프-쉘프 케이블링</block>
+  <block id="3fa1bc4f962d0649f457ff7e994b46d8" category="paragraph">컨트롤러 A를 드라이브 쉘프에 연결합니다</block>
+  <block id="353960fbbf75aa5a4dd1042a20bf18dc" category="paragraph">컨트롤러 B를 드라이브 쉘프에 연결합니다</block>
+  <block id="a01af11c268599bde566d99055019251" category="paragraph">이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 사이의 케이블 연결을 완료합니다.</block>
+  <block id="9aca62ddbd88e63be7ec9f9c2469acab" category="section-title">5단계: 스토리지 시스템 설치 및 구성을 완료합니다</block>
+  <block id="b3308aded4f838607d118fa8281f0f4e" category="paragraph">옵션 1: 네트워크 검색이 활성화된 경우 또는 옵션 2: 네트워크 검색이 활성화되지 않은 경우 중 하나를 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.</block>
+  <block id="cc76013bd2ca10d4b55bab3a0f8d5331" category="paragraph">랩톱에서 네트워크 검색이 활성화된 경우 자동 클러스터 검색을 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.</block>
+  <block id="89fb7289455abb973e1e1d1887a8172d" category="list-text">다음 애니메이션을 사용하여 셸프 전원을 켜고 셸프 ID를 설정합니다.</block>
+  <block id="9be08f77b7ab4837ae1dadad63405dc2" category="list-text">컨트롤러의 전원을 켭니다</block>
+  <block id="4a8d781d6ae79557515be034fcf4bd6e" category="list-text">다음 그림이나 단계를 사용하여 구성할 스토리지 시스템 노드를 검색합니다.</block>
+  <block id="38c0c9e875391d2dc0f78f243ecc4f59" category="admonition">xxxxx는 타겟 노드의 스토리지 시스템 일련 번호입니다.</block>
+  <block id="9d2c2c7e4ecf1a64105e37b923e42295" category="list-text">System Manager 안내식 설정을 사용하여 에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <block ref="d0fb50e606c7cb2fa74e99fa5a3520a8" category="inline-xref-macro-rx"></block>.</block>
+  <block id="b9d390deee7ae9c55c02ce9081338f2c" category="list-text">계정을 만들거나 계정에 로그인합니다.</block>
+  <block id="e53df79e8b12228ebe8ba9013009c4b6" category="list-text">을 클릭합니다<block ref="47d83efabc4122be28a80bdea228d0a5" category="inline-link-rx"></block></block>
+  <block id="d163335d3a2ab0b3365c69b66c8b8218" category="list-text">계정을 만들거나 계정에 로그인해야 하는 경우 _계정 생성_을 클릭합니다.</block>
+  <block id="d636be81d2c6c9af66f5d43b321f4b3c" category="inline-link">Active IQ Config Advisor</block>
+  <block id="ded166a9ef25ba71c1c5b2cca6dfb3ac" category="list-text">다운로드 및 설치<block ref="67f241779d92e72fc906fdc854002c63" category="inline-link-rx"></block></block>
+  <block id="91c22f99c650eff9cfd4e3a5797f1276" category="list-text">Active IQ Config Advisor를 실행하여 스토리지 시스템의 상태를 확인합니다.</block>
+  <block id="70cdb4752e56964c8e382c73c4dad5a3" category="list-text">에서 시스템을 등록합니다<block ref="609ce97692648785b01245072a80d78d" category="inline-link-rx"></block>.</block>
+  <block id="6ef8afe0d08cfff8d7c63feeb46c3bbe" category="inline-link">NetApp ONTAP 리소스</block>
+  <block id="1e030dc8ef51cc0c3b7cfdf5b1fb31ef" category="list-text">초기 구성을 완료한 후 로 이동합니다<block ref="0d9c07b12aa4e6262cc31099f94c22ac" category="inline-link-rx"></block> 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.</block>
+  <block id="c1abdda48959ad5305acdea9199b4083" category="list-text">콘솔 케이블을 랩톱이나 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음 c 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
+  <block id="ea6092d42464dfafd164efeca17f02cc" category="list-text">에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <block ref="d0fb50e606c7cb2fa74e99fa5a3520a8" category="inline-xref-macro-rx"></block>...</block>
+  <block id="6a1952da65ff3ad3728cd89ec078bfa2" category="paragraph">이 절차에서는 AFF C250 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
+  <block id="476542f0e09454bd6ccd672453fee1fd" category="paragraph"><block ref="476542f0e09454bd6ccd672453fee1fd" category="inline-link-macro-rx"></block></block>
+  <block id="79917755b07c1e2ce974040457996cd1" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="ce9d9eed382ae5ac1650ec89550136ac" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="bcf0b3352838b481d0374edbdb31f0a0" category="image-alt">drw SAS 전원 아이콘</block>
+  <block id="f598000290b443eb531fea17b731ed46" category="image-alt">DRW SAS 오류 아이콘</block>
+  <block id="7b1f02d808dfc03ff26bec5de1c435de" category="image-alt">drw sas3 위치 아이콘</block>
+  <block id="5b090b2a445dc9d064841a86f8433483" category="paragraph"><block ref="5b090b2a445dc9d064841a86f8433483" category="inline-link-macro-rx"></block></block>
+  <block id="a2cb8617cb158198389b743ac2b50756" category="inline-image-macro">너비 = 5px</block>
+  <block id="a28edc89fe8bb6fcbeda4a8c5427d04f" category="cell"><block ref="a28edc89fe8bb6fcbeda4a8c5427d04f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="df6fc52eeceab2497b885a798c538a6f" category="cell"><block ref="df6fc52eeceab2497b885a798c538a6f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3b6daa4c4df8e50b04c2ed3f923979e3" category="paragraph">에 액세스합니다 <block ref="1ede88745168187a218abc6fed7fade9" category="inline-link-macro-rx"></block>.</block>
+  <block id="69389a2dcdac250c7be80b621e53e8b6" category="list-text">영어: <block ref="69854c1d21b3991324c802c8a6aabc4a" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -27,7 +27,7 @@ summary: 디스크 쉘프 구성 요소의 상태 및 위치를 이해하면 디
 
 
  a| 
-image:../media/drw_sas_power_icon.png[""]
+image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
  a| 
 전원
  a| 
@@ -37,7 +37,7 @@ image:../media/drw_sas_power_icon.png[""]
 
 
 
-.2+| image:../media/drw_sas_fault_icon.png[""] .2+| 주의  a| 
+.2+| image:../media/drw_sas_fault_icon.svg["너비 = 5px"] .2+| 주의  a| 
 주황색으로 고정되어 있습니다
  a| 
 디스크 쉘프, 디스크 드라이브, IOM12/IOM12B 모듈 또는 전원 공급 장치 중 하나의 FRU 기능에 오류가 발생했습니다.
@@ -56,7 +56,7 @@ image:../media/drw_sas_power_icon.png[""]
 
 
  a| 
-image:../media/drw_sas3_location_icon.gif[""]
+image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
  a| 
 위치
  a| 
@@ -89,7 +89,7 @@ IOM12/IOM12B 모듈은 DS460C, DS224C 및 DS212C 디스크 선반에 사용됩�
 
 
  a| 
-image:../media/drw_sas_fault_icon.png[""]
+image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
  a| 
 주의
  a| 
@@ -115,7 +115,7 @@ LNK
 
 
  a| 
-image:../media/drw_sas3_location_icon.gif[""]
+image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
  a| 
 위치
  a| 
@@ -147,7 +147,7 @@ image::../media/iom12b.png[iom12b]
 | LED 아이콘 | LED 이름입니다 | 상태 | 설명 
 
 
-.2+| image:../media/drw_sas_power_icon.png[""] .2+| 전원  a| 
+.2+| image:../media/drw_sas_power_icon.svg["너비 = 20px"] .2+| 전원  a| 
 녹색으로 켜져 있습니다
  a| 
 전원 공급 장치가 올바르게 작동하고 있습니다.
@@ -164,7 +164,7 @@ image::../media/iom12b.png[iom12b]
 
 
  a| 
-image:../media/drw_sas_fault_icon.png[""]
+image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
  a| 
 주의
  a| 
@@ -212,7 +212,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 이벤트 메시지를 확인하여 필요한 수정 조치를 결정합니다.
 
 |===
-image:../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[""]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[28 DWG e2860 de460c LED 설명선이 있는 단일 팬 캐니스터]
 
 
 

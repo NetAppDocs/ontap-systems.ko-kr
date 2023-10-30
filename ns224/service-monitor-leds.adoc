@@ -49,7 +49,7 @@ image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[drw ns224 odp LED IEOPS 1262]
 
 
  a| 
-image:../media/drw_sas_power_icon.png[""]
+image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
  a| 
 전원(녹색)
  a| 
@@ -60,7 +60,7 @@ image:../media/drw_sas_power_icon.png[""]
 
 
  a| 
-image:../media/drw_sas_fault_icon.png[""]
+image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
  a| 
 주의(황색)
  a| 
@@ -79,7 +79,7 @@ image:../media/drw_sas_fault_icon.png[""]
 
 
  a| 
-image:../media/drw_sas3_location_icon.gif[""]
+image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
  a| 
 위치(파란색)
  a| 
@@ -106,7 +106,7 @@ image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[drw ns224 NSM LED IEOPS 1270]
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
-image:../media/drw_sas3_location_icon.gif[""]
+image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
  a| 
 파란색
  a| 
@@ -117,7 +117,7 @@ NSM 모듈:위치
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
-image:../media/drw_sas_fault_icon.png[""]
+image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
  a| 
 주황색
  a| 
@@ -139,7 +139,7 @@ NVMe 포트/링크: 상태
  a| 
 image:../media/legend_icon_04.png["설명선 번호 4"]
  a| 
-image:../media/drw_sas_fault_icon.png[""]
+image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
  a| 
 주황색
  a| 

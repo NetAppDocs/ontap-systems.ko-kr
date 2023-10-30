@@ -1,8 +1,8 @@
 ---
 permalink: fas2800/install-detailed-guide.html 
 sidebar: sidebar 
-keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery 
-summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
+keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, storage system, setup, discovery 
+summary: 이 절차는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
 ---
 = 세부 단계 - FAS2800
 :allow-uri-read: 
@@ -11,42 +11,51 @@ summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 �
 
 
 [role="lead"]
-이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오.
+이 절차에서는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 보다 자세한 설치 지침을 원할 경우 이 절차를 사용하십시오.
 
 
 
 == 1단계: 설치 준비
 
-FAS2800 시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
-
-에 대한 액세스 권한이 있어야 합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"] 사이트 요구 사항 및 구성된 시스템에 대한 추가 정보를 확인하십시오. 에 대한 액세스 권한을 가질 수도 있습니다 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 9 버전에 대한 릴리즈 노트"] 해당 버전의 ONTAP에서 이 시스템에 대한 자세한 내용을 확인하십시오.
-
+.시작하기 전에
 사이트에서 다음을 제공해야 합니다.
 
-* 스토리지 시스템의 랙 공간입니다
+* 텔코 랙 또는 시스템 캐비닛에 있는 스토리지 시스템의 랙 공간입니다.
++
+** 스토리지 시스템의 경우 2U입니다
+** 시스템의 각 드라이브 쉘프당 2U 또는 4U를 지원합니다
+
+
 * Phillips #2 드라이버
-* 웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블
+* 추가 네트워킹 케이블을 사용하여 스토리지 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결합니다
 * RJ-45 연결 및 웹 브라우저에 대한 액세스 권한이 있는 랩톱 또는 콘솔
++
+** 에 액세스합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"] 사이트 요구 사항 및 구성된 스토리지 시스템에 대한 추가 정보
+** 에 대한 액세스 권한을 가질 수도 있습니다 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["사용 중인 ONTAP 9 버전에 대한 릴리즈 노트"] 이 스토리지 시스템에 대한 자세한 내용은 사용 중인 ONTAP 버전의 를 참조하십시오.
+
+
 
 
 .단계
-. 모든 상자의 내용물을 풉니다.
-. 컨트롤러에서 시스템 일련 번호를 기록합니다.
+. 모든 상자의 포장을 풀고 내용물의 인벤토리를 작성합니다.
++
+
+IMPORTANT: 특정 전원 요구 사항이 있는 고객은 반드시 확인해야 합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"] 을 참조하십시오.
+
+. 에 액세스합니다 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html#assign-a-node-management-ip-address["System Manager를 사용하여 새 클러스터에서 ONTAP를 구성합니다"^]
++
+.. 요구사항 AMD 절차 단계를 검토합니다.
+.. 을 완료하여 스토리지 시스템에 대한 정보를 수집합니다 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["설치 워크시트(워크시트에 대한 URL 필요)"].
+.. 컨트롤러의 스토리지 시스템 일련 번호를 기록합니다.
 +
 image::../media/drw_ssn_label.svg[drw SSN 레이블]
 
-. 계정 설정:
-+
-.. 기존 계정에 로그인하거나 계정을 만듭니다.
-.. 를 통해 시스템을 등록합니다  https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct["NetApp 제품 등록"]
 
 
-. 다운로드 및 설치 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Config Advisor"] 노트북으로.
-. 받은 케이블의 수와 유형을 확인하고 기록합니다.
-+
+
+
 다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"] 케이블을 찾아 사용 여부를 확인합니다.
 
-+
 [cols="1,2,1,2"]
 |===
 | 케이블 유형... | 부품 번호 및 길이 | 커넥터 유형 | 대상... 
@@ -127,7 +136,7 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SA
  a| 
 USB-C 콘솔 케이블
  a| 
-해당 없음
+부품 번호 레이블 없음
  a| 
 image::../media/oie_cable_micro_usb.svg[OIE 케이블 마이크로 USB]
  a| 
@@ -138,11 +147,11 @@ Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 �
  a| 
 전원 케이블
  a| 
-해당 없음
+부품 번호 레이블 없음
  a| 
 image::../media/oie_cable_power.svg[OIE 케이블 전원]
  a| 
-시스템 전원을 켭니다
+스토리지 시스템의 전원을 켭니다
 
 
 
@@ -156,21 +165,18 @@ image::../media/oie_cable_fiber_lc_connector.svg[OIE 케이블 파이버 LC 커�
 추가 FC 네트워크 케이블
 
 |===
-. 에 있는 워크시트를 다운로드하고 작성합니다  https://docs.netapp.com/us-en/ontap/software_setup/concept_set_up_the_cluster.html#cluster-setup-worksheets["ONTAP CLI를 사용하여 클러스터를 설정합니다"^].
-
-
 
 
 == 2단계: 하드웨어 설치
 
-필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치해야 합니다.
+필요에 따라 통신 랙 또는 NetApp 스토리지 시스템 캐비닛에 스토리지 시스템을 설치합니다.
 
 .단계
 . 필요에 따라 레일 키트를 설치합니다.
-. 레일 키트에 포함된 지침에 따라 시스템을 설치하고 고정합니다.
+. 레일 키트와 함께 제공된 지침에 따라 기억 장치 시스템을 설치하고 고정하십시오.
 +
 
-NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
+NOTE: 기억 장치 시스템의 무게와 관련된 안전 문제를 숙지해야 합니다.
 
 +
 image::../media/oie_fas2800_weight_caution_IEOPS-1070.svg[OIE fas2800 무게 주의 IEOPS 1070]
@@ -179,16 +185,16 @@ image::../media/oie_fas2800_weight_caution_IEOPS-1070.svg[OIE fas2800 무게 주
 +
 image::../media/drw_cable_management_arm_install.svg[drw 케이블 관리 암 설치]
 
-. 시스템 전면에 베젤을 부착합니다.
+. 베젤을 기억 장치 시스템 전면에 놓습니다.
 
 
 
 
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
-스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.
+컨트롤러를 스위치가 없는 2노드 클러스터 또는 스위치 있는 클러스터로 네트워크에 케이블로 연결합니다.
 
-다음 표에서는 스위치가 없는 2노드 클러스터 네트워크 케이블 연결과 스위치 클러스터 네트워크 케이블 연결의 그림에서 콜아웃 번호와 케이블 색을 사용한 케이블 유형을 식별합니다.
+다음 표에서는 스위치가 없는 2노드 클러스터와 스위치 없는 클러스터 모두에 대한 그림에서 호출 번호 및 케이블 색상이 있는 케이블 유형을 보여 줍니다.
 
 [cols="20%,80%"]
 |===
@@ -215,27 +221,26 @@ image::../media/oie_legend_icon_3_o.svg[OIE 범례 아이콘 3 o]
 호스트 네트워크 스위치
 
 |===
+.시작하기 전에
+* 스토리지 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
+* 케이블 커넥터 당김 탭 방향이 올바른지 그림 화살표를 확인합니다.
++
+** 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 느껴지지 않으면 커넥터를 분리하고 케이블 헤드를 뒤집은 다음 다시 시도하십시오.
+** 광 스위치에 연결하는 경우 포트에 케이블을 연결하기 전에 컨트롤러 포트에 SFP를 삽입합니다.
+
+
+
+
+image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
+
 [role="tabbed-block"]
 ====
 .옵션 1: 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
 --
 스위치가 없는 2노드 클러스터용 네트워크 연결과 클러스터 인터커넥트 포트에 케이블을 연결합니다.
 
-.시작하기 전에
-시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.
-
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
-image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
-
-
-NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 느껴지지 않으면 커넥터를 분리하고 케이블 헤드를 뒤집은 다음 다시 시도하십시오.
-
-
-NOTE: 광 스위치에 연결하는 경우 포트에 케이블을 연결하기 전에 컨트롤러 포트에 SFP를 삽입합니다.
-
 .이 작업에 대해
-그래픽 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.
+이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 
 .애니메이션 - 스위치가 없는 2노드 클러스터 케이블 연결
 video::90577508-fa79-46cf-b18a-afe8016325af[panopto]
@@ -315,18 +320,8 @@ IMPORTANT: 전원 코드를 꽂지 마십시오.
 --
 스위치 클러스터의 네트워크 연결 및 클러스터 인터커넥트 포트에 케이블을 연결합니다.
 
-
-NOTE: 시스템에 스위치를 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의해야 합니다.
-
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
-image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
-
-
-NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 느껴지지 않으면 커넥터를 분리하고 케이블 헤드를 뒤집은 다음 다시 시도하십시오.
-
 .이 작업에 대해
-그래픽 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.
+이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 
 .애니메이션 - 스위치 방식 클러스터 케이블 연결
 video::6553a3db-57dd-4247-b34a-afe8016315d4[panopto]
@@ -403,22 +398,10 @@ IMPORTANT: 전원 코드를 꽂지 마십시오.
 
 컨트롤러를 외부 스토리지에 연결합니다.
 
+다음 표에는 드라이브 셸프를 스토리지 시스템에 연결하는 그림 설명에서 출력 번호 및 케이블 색상이 있는 케이블 유형이 나와 있습니다.
 
-NOTE: 이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다.
 
-그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
-
-image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
-
-.이 작업에 대해
-그래픽 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 간의 케이블 연결을 완료할 수 있습니다.
-
-.애니메이션 - 드라이브 쉘프 케이블링
-video::b2a7549d-8141-47dc-9e20-afe8016f4386[panopto]
-
-NOTE: FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 스토리지 시스템에 쉘프를 설치합니다"^] 를 참조하십시오.
-
-다음 표에서는 스위치가 없는 2노드 클러스터 네트워크 케이블 연결과 스위치 클러스터 네트워크 케이블 연결의 그림에서 콜아웃 번호와 케이블 색을 사용한 케이블 유형을 식별합니다.
+NOTE: 이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프"^] 를 참조하십시오.
 
 [cols="20%,80%"]
 |===
@@ -428,23 +411,35 @@ NOTE: FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 O
  a| 
 image::../media/oie_legend_icon_1_lo.svg[OIE 범례 아이콘 1 lo]
  a| 
-클러스터 인터커넥트
+쉘프-쉘프 케이블링
 
 
 
  a| 
 image::../media/oie_legend_icon_2_mb.svg[OIE 범례 아이콘 2MB]
  a| 
-관리 네트워크 스위치
+컨트롤러 A를 드라이브 쉘프에 연결합니다
 
 
 
  a| 
 image::../media/oie_legend_icon_3_t.svg[OIE 범례 아이콘 3 t]
  a| 
-호스트 네트워크 스위치
+컨트롤러 B를 드라이브 쉘프에 연결합니다
 
 |===
+그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
+
+image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
+
+.이 작업에 대해
+이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 사이의 케이블 연결을 완료합니다.
+
+
+IMPORTANT: FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 스토리지 시스템에 쉘프를 설치합니다"^] 를 참조하십시오.
+
+.애니메이션 - 드라이브 쉘프 케이블링
+video::b2a7549d-8141-47dc-9e20-afe8016f4386[panopto]
 .단계
 . 쉘프-쉘프 포트에 케이블을 연결합니다.
 +
@@ -495,39 +490,40 @@ image::../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[DWR 2800 컨트롤
 
 
 
-== 5단계: 시스템 설치 및 구성을 완료합니다
+== 5단계: 스토리지 시스템 설치 및 구성을 완료합니다
 
-스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료할 수 있습니다.
+옵션 1: 네트워크 검색이 활성화된 경우 또는 옵션 2: 네트워크 검색이 활성화되지 않은 경우 중 하나를 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.
 
 [role="tabbed-block"]
 ====
 .옵션 1: 네트워크 검색이 활성화된 경우
 --
-랩톱에서 네트워크 검색이 설정된 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료합니다.
+랩톱에서 네트워크 검색이 활성화된 경우 자동 클러스터 검색을 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.
 
 .단계
-. 다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다
+. 다음 애니메이션을 사용하여 셸프 전원을 켜고 셸프 ID를 설정합니다.
 +
 .애니메이션 - 드라이브 쉘프 ID를 설정합니다
 video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
-. 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
-. 전원 스위치를 두 노드에 모두 켭니다.
+. 컨트롤러의 전원을 켭니다
 +
-image::../media/dwr_2800_turn_on_power_IEOPS-898.svg[DWR 2800은 IEOPS 898의 전원을 켭니다]
-
+.. 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
+.. 전원 스위치를 두 노드에 모두 켭니다.
 +
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
+
++
+image::../media/dwr_2800_turn_on_power_IEOPS-898.svg[DWR 2800은 IEOPS 898의 전원을 켭니다]
+
+
 
 . 랩톱에 네트워크 검색이 활성화되어 있는지 확인합니다.
 +
 자세한 내용은 노트북의 온라인 도움말을 참조하십시오.
 
-. 다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.
-+
-.애니메이션 - 노트북을 관리 스위치에 연결합니다
-video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
-. 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
+. 관리 스위치에 랩톱을 연결합니다.
+. 다음 그림이나 단계를 사용하여 구성할 스토리지 시스템 노드를 검색합니다.
 +
 image::../media/drw_autodiscovery_controler_select.svg[drw 자동 검색 제어자 선택]
 
@@ -538,16 +534,27 @@ image::../media/drw_autodiscovery_controler_select.svg[drw 자동 검색 제어�
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 
-NOTE: xxxxx는 대상 노드의 시스템 일련 번호입니다.
+NOTE: xxxxx는 타겟 노드의 스토리지 시스템 일련 번호입니다.
 
 +
 System Manager가 열립니다.
 
 
 
-. System Manager의 안내에 따라 설정을 사용하여 에서 수집한 데이터를 사용하여 시스템을 구성합니다 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"]
-. Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. System Manager 안내식 설정을 사용하여 에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <<1단계: 설치 준비>>.
+. 계정을 만들거나 계정에 로그인합니다.
++
+.. 을 클릭합니다 https://mysupport.netapp.com["mysupport.netapp.com"]
+.. 계정을 만들거나 계정에 로그인해야 하는 경우 _계정 생성_을 클릭합니다.
+
+
+. 다운로드 및 설치 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"]
++
+.. Active IQ Config Advisor를 실행하여 스토리지 시스템의 상태를 확인합니다.
+
+
+. 에서 시스템을 등록합니다 https://mysupport.netapp.com/site/systems/register[].
+. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/support-and-training/documentation/["NetApp ONTAP 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 
 
 --
@@ -563,7 +570,7 @@ System Manager가 열립니다.
 
 NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 도움말을 참조하십시오.
 
-.. 콘솔 케이블을 랩톱 또는 콘솔에 연결하고 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음, 노트북 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.
+.. 콘솔 케이블을 랩톱이나 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음 c 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.
 +
 image::../media/drw_2800_laptop_to_switch_to_controller_IEOPS-1084.svg[컨트롤러 IEOPS 1084로 전환하기 위한 drw 2800 노트북]
 
@@ -616,11 +623,22 @@ NOTE: PuTTY 구성 방법을 모르는 경우 노트북 또는 콘솔의 온라�
 
 NOTE: 주소의 형식은 입니다 https://x.x.x.x[].
 
-.. 에서 수집한 데이터를 사용하여 시스템을 구성합니다 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"].
+.. 에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <<1단계: 설치 준비>>...
 
 
-. Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다  https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] ONTAP에서 추가 기능을 구성하는 방법에 대한 자세한 내용은 를 참조하십시오.
+. 계정을 만들거나 계정에 로그인합니다.
++
+.. 을 클릭합니다 https://mysupport.netapp.com["mysupport.netapp.com"]
+.. 계정을 만들거나 계정에 로그인해야 하는 경우 _계정 생성_을 클릭합니다.
+
+
+. 다운로드 및 설치 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"]
++
+.. Active IQ Config Advisor를 실행하여 스토리지 시스템의 상태를 확인합니다.
+
+
+. 에서 시스템을 등록합니다 https://mysupport.netapp.com/site/systems/register[].
+. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/support-and-training/documentation/["NetApp ONTAP 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
 
 
 --
