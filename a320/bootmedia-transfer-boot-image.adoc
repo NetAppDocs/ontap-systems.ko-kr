@@ -92,7 +92,7 @@ NOTE: 래칭 메커니즘 암이 섀시에 밀어 넣습니다.
 **** "bootarg.init.boot_clustered`
 **** 파트너-시시드
 **** 'AFF C190/AFF A220(All Flash FAS)용 bootarg.init.flash_optimized`
-**** AFF A220 및 모든 SAN 어레이에 대한 bootarg.init.san_optimized`
+**** `bootarg.init.san_optimized` AFF A220 및 All-Flash SAN 어레이용
 **** "bootarg.init.switchless_cluster.enable`
 
 

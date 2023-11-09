@@ -2,9 +2,34 @@
 :allow-uri-read: 
 
 
-[cols="25h,~,~"]
+[cols="20,65,15"]
 |===
 | 스위치 | 설명 | 처음부터 사용할 수 있습니다 
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["NVIDIA IP SN2100 스위치"]
+ a| 
+NVIDIA IP SN2100 스토리지 스위치는 A900/FAS9500 플랫폼을 사용하는 MetroCluster IP 구성에서 지원됩니다.
+ a| 
+ONTAP 9.12.1
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["NVIDIA IP SN2100 스위치(X190006)"]
+ a| 
+NVIDIA IP SN2100 스토리지 스위치는 다음 플랫폼을 사용하는 MetroCluster IP 구성에서 지원됩니다.
+
+* FAS500f/AFF A250
+* FAS8300/AFF A400
+* FAS8700
+* FAS9000/AFF A700
+* AFF A800
+
+ a| 
+ONTAP 9.10.1P3입니다
+
 
 
  a| 

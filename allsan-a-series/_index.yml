@@ -1,7 +1,7 @@
 ---
 indexpage:
-  lead: NetApp의 ASA(All SAN Array)는 조직의 미션 크리티컬 데이터베이스 및 기타 SAN 워크로드에 지속적인 데이터 가용성을
-    제공하는 단순화된 전용 SAN 환경을 제공합니다.
+  lead: NetApp의 All Flash SAN 어레이(ASA)는 조직의 미션 크리티컬 데이터베이스와 기타 SAN 워크로드에 지속적인 데이터
+    가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다.
   tiles:
   - title: 시작하십시오
     links:

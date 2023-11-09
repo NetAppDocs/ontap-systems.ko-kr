@@ -1,5 +1,5 @@
 ---
-permalink: asa-c400/bootmedia-recovery-image-boot-options.html 
+permalink: asa-c-400/bootmedia-recovery-image-boot-options.html 
 sidebar: sidebar 
 keywords: asa c400, asa, c400, procedure, boot, impair, controller, recovery, image, system, two-node, metrocluster, configuration, boot the recovery image 
 summary: 복구 이미지에서 손상된 컨트롤러를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다. 

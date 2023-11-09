@@ -17,7 +17,7 @@ AFF, ASA 및 FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨
 
 MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 다음 워크플로우를 사용하여 스토리지 시스템을 구축합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] AFF/FAS 컨트롤러 설치
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 컨트롤러를 설치합니다
 [role="quick-margin-para"]
 랙 또는 캐비닛에 AFF, ASA 및 FAS 컨트롤러를 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.
 
@@ -42,6 +42,26 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 * https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html["AFF C250"]
 * https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html["AFF C400"]
 * https://docs.netapp.com/us-en/ontap-systems/c800/install-setup.html["AFF C800"]
+
+
+[role="quick-margin-para"]
+** ASA A-시리즈 시스템**
+
+[role="quick-margin-list"]
+* https://docs.netapp.com/us-en/ontap-systems/asa150/install-setup.html["ASA A150"]
+* https://docs.netapp.com/us-en/ontap-systems/asa250/install-setup.html["ASA A250"]
+* https://docs.netapp.com/us-en/ontap-systems/asa400/install-setup.html["ASA A400"]
+* https://docs.netapp.com/us-en/ontap-systems/asa800/install-setup.html["ASA A800"]
+* https://docs.netapp.com/us-en/ontap-systems/asa900/install-setup.html["ASA A900"]
+
+
+[role="quick-margin-para"]
+** ASA C-시리즈 시스템**
+
+[role="quick-margin-list"]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c250/install-setup.html["ASA C250 을 참조하십시오"]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c400/install-setup.html["ASA C400 을 참조하십시오"]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-setup.html["ASA C800을 참조하십시오"]
 
 
 [role="quick-margin-para"]

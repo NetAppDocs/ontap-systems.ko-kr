@@ -170,9 +170,9 @@ NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 +
 image::../media/drw_katana_lifting_restriction_icon.png[drw 카타나 인양 제한 아이콘]
 
-. 케이블 관리 장치를 연결합니다(그림 참조).
+. 케이블 관리 장치를 컨트롤러 후면에 연결합니다(그림 참조).
 +
-image::../media/drw_a320_cable_management_arms.png[A320 drw 케이블 관리 암]
+image::../media/drw_c400_cable_tray_IEOPS-1208.svg[DRW C400 케이블 트레이 IEOPS 1208]
 
 . 시스템 전면에 베젤을 부착합니다.
 
@@ -210,7 +210,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 그림을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료합니다.
 +
-image::../media/drw_c400_TNSC-networking-cabling_IEOPS-1095.svg[drw C400 TNSC 네트워킹 케이블 연결 IEOPS 1095]
+image::../media/drw_c400_TNSC-networking-cabling_IEOPS-1189.svg[DRW C400 TNSC 네트워킹 케이블 IEOPS 1189]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -236,7 +236,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 그림을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료합니다.
 +
-image::../media/drw_c400_switched_network_cabling_IEOPS-1096.svg[drw C400 스위치 네트워크 케이블 연결 IEOPS 1096]
+image::../media/drw_c400_switched_network_cabling_IEOPS-1190.svg[DRW C400 스위치 네트워크 케이블 IEOPS 1190]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -266,7 +266,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 그림을 참조하여 컨트롤러를 단일 드라이브 쉘프에 연결합니다.
 +
-image::../media/drw_c400_one_ns224_shelf_IEOPS-1097.svg[drw C400 1개 ns224 쉘프 IEOPS 1097]
+image::../media/drw_c400_one_ns224_shelf_IEOPS-1191.svg[drw C400 하나의 ns224 셸프 IEOPS 1191]
 
 . 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 
@@ -288,7 +288,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .단계
 . 다음 그림을 참조하여 컨트롤러를 2개의 드라이브 쉘프에 연결합니다.
 +
-image::../media/drw_c400_two_ns224_shelves_IEOPS-1098.svg[drw C400 2개 ns224 쉘프 IEOPS 1098]
+image::../media/drw_c400_two_ns224_shelves_IEOPS-1192.svg[DRW C400 2개의 ns224 셸프 IEOPS 1192]
 
 . 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 

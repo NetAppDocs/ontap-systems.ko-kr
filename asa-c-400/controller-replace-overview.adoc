@@ -1,5 +1,5 @@
 ---
-permalink: asa-c400/controller-replace-overview.html 
+permalink: asa-c-400/controller-replace-overview.html 
 sidebar: sidebar 
 keywords: asa c400, prerequisite, replace the controller module 
 summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 

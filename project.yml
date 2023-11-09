@@ -38,7 +38,7 @@ sidebar:
     - section: c250
     - section: c400
     - section: c800
-  - title: ASA A 시리즈 시스템
+  - title: ASA A-Series 시스템
     url: "/allsan-a-series/index.html"
     entries:
     - section: asa150

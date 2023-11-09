@@ -1,5 +1,5 @@
 ---
-permalink: asa-c400/install-detailed-guide.html 
+permalink: asa-c-400/install-detailed-guide.html 
 sidebar: sidebar 
 keywords: asa c400, asa, c400, step-by-step, instruction, install, typical, netapp, system, instruction, detail, guide, prepare, installation, hardware, cable, controller, network, drive, shelves, shelf, complete, setup, configuration, detailed guide, prepare for installation, install the hardware, cable controllers to your network, cable controllers to drive shelves, complete system setup and configuration 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오. 

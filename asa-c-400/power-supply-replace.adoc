@@ -1,5 +1,5 @@
 ---
-permalink: asa-c400/power-supply-replace.html 
+permalink: asa-c-400/power-supply-replace.html 
 sidebar: sidebar 
 keywords: asa c400, asa, c400, replace, replacing, power, supply, psu, disconnect, target, psu, unplug, power, cable, removing, remove, replacement, source, replace a power supply 
 summary: '전원 공급 장치 \(PSU\)를 교체하려면 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결해야 합니다.' 
@@ -27,7 +27,7 @@ IMPORTANT: PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항�
 
 다음 그림과 함께 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.
 
-image::../media/drw_A400_psu.png[drw A400 PSU]
+image::../media/drw_c400_psu_IEOPS-1237.svg[DRW C400 PSU IEOPS 1237]
 
 [cols="10,90"]
 |===

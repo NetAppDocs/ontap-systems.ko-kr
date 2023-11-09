@@ -15,111 +15,6 @@ AFF, ASA 및 FAS 시스템의 새로운 기능에 대해 알아보십시오.
 
 
 
-== 새로운 어댑터 지원
-
-[cols="4*"]
-|===
-| 어댑터 부품 번호 | 설명 | 범주 | 처음부터 사용할 수 있습니다 
-
-
- a| 
-https://hwu.netapp.com/adapter/index["X91148A"]
- a| 
-2포트 100GbE RoCE QSFP28
- a| 
-* 스토리지
-* 네트워킹
-* HA/MetroCluster
-
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/adapter/index["X91122A"]
- a| 
-2-포트 25GbE RoCE QSFP28
- a| 
-* 네트워킹
-* HA/MetroCluster
-
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/adapter/index["X9170A"]
- a| 
-NVMe SSD 모듈(1TB)
- a| 
-코어 덤프 장치
- a| 
-ONTAP 9.8
-
-|===
-
-
-== 새로운 스위치 지원
-
-[cols="25h,~,~"]
-|===
-| 스위치 | 설명 | 처음부터 사용할 수 있습니다 
-
-
- a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"]
- a| 
-MetroCluster IP 구성을 포함하여 동일한 Cisco Nexus 9336C-FX2 스위치 쌍에서 공유 인프라(클러스터, HA 및 스위치 연결 스토리지)를 지원합니다.
- a| 
-ONTAP 9.9.1
-
-
-
- a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200 및 X190210)"]
- a| 
-Cisco Nexus 9336C-FX2 클러스터 인터커넥트 스위치 및 스토리지 스위치 지원으로 AFF/FAS 컨트롤러 및 프런트 엔드 데이터 연결 지원
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
- a| 
-40/100GbE 포트가 있는 AFF/FAS 컨트롤러에 대한 Broadcom BES-53248 클러스터 인터커넥트 스위치 지원
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"] https://hwu.netapp.com/Switch/Index["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
- a| 
-Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.
-
-* AFF A800/AFF ASA A800
-* AFF A700/AFF ASA A700
-* AFF A400/AFF ASA A400
-* AFF A320
-
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
- a| 
-Broadcom BES-53248 클러스터 인터커넥트 스위치는 10/25GbE 포트가 있는 AFF/FAS 컨트롤러를 지원합니다.
- a| 
-ONTAP 9.5P8
-
-|===
-
-
 == 새로운 플랫폼 지원
 
 [cols="2*"]
@@ -128,9 +23,102 @@ ONTAP 9.5P8
 
 
  a| 
-https://hwu.netapp.com/ProductSpecs/Index["FAS9500"]
+https://www.netapp.com/data-storage/all-flash-san-storage-array/["ASA C250 을 참조하십시오"]
  a| 
-ONTAP 9.10.1P3 및 9.11.1
+ONTAP 9.13.1P1
+
+
+
+ a| 
+https://www.netapp.com/data-storage/all-flash-san-storage-array/["ASA C400 을 참조하십시오"]
+ a| 
+ONTAP 9.13.1P1
+
+
+
+ a| 
+https://www.netapp.com/data-storage/all-flash-san-storage-array/["ASA C800을 참조하십시오"]
+ a| 
+ONTAP 9.13.P11
+
+
+
+ a| 
+https://hwu.netapp.com/ProductSpecs/Index["FAS2820"]
+ a| 
+ONTAP 9.13.1 을 참조하십시오
+
+
+
+ a| 
+https://www.netapp.com/pdf.html?item=/media/85736-DS-4254-NetApp-ASA.pdf["ASA A150"]
+ a| 
+ONTAP 9.13.1 을 참조하십시오
+
+
+
+ a| 
+https://www.netapp.com/pdf.html?item=/media/85736-DS-4254-NetApp-ASA.pdf["ASA A250"]
+ a| 
+ONTAP 9.13.1 을 참조하십시오
+
+
+
+ a| 
+https://www.netapp.com/pdf.html?item=/media/85736-DS-4254-NetApp-ASA.pdf["ASA A400"]
+ a| 
+ONTAP 9.13.1 을 참조하십시오
+
+
+
+ a| 
+https://www.netapp.com/pdf.html?item=/media/85736-DS-4254-NetApp-ASA.pdf["ASA A900"]
+ a| 
+ONTAP 9.13.1 을 참조하십시오
+
+
+
+ a| 
+* https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf["AFF C250"]
+* https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf["AFF C400"]
+* https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf["AFF C800"]
+
+ a| 
+ONTAP 9.12.1P1
+
+ONTAP 9.13.1 GA 이상 ONTAP 릴리즈
+
+[NOTE]
+====
+이러한 플랫폼은 ONTAP 9.13.1 RC1에서는 지원되지 않습니다.
+
+====
+
+
+ a| 
+https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf["AFF A150"]
+
+[NOTE]
+====
+지원되지 않는 버전의 ONTAP로 AFF A150 스토리지 시스템을 설치하거나 부팅하지 마십시오. 지원되지 않는 버전의 ONTAP를 사용하여 시스템을 설치하거나 부팅하려고 하면 ONTAP에서 이를 허용합니다(ONTAP는 시도를 차단하지 않습니다). 결과적으로 AFF A150 스토리지 시스템이 FAS2750 스토리지 시스템으로 등장할 것입니다.
+
+==== a| 
+ONTAP 9.13.1 이상 ONTAP 릴리스
+
+ONTAP 9.12.1P1
+
+ONTAP 9.11.1P8
+
+ONTAP 9.10.1P12
+
+
+
+ a| 
+https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf["FAS9500"]
+ a| 
+ONTAP 9.11.1
+
+ONTAP 9.10.1P3입니다
 
 
 
@@ -145,13 +133,6 @@ ONTAP 9.10.1
 https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf["AFF A250/AFF ASA A250"]
  a| 
 ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/ProductSpecs/Index["FAS2820"]
- a| 
-ONTAP 9.13.1 을 참조하십시오
 
 
 
@@ -219,6 +200,136 @@ ONTAP 9.6
 |===
 
 
+== 새로운 스위치 지원
+
+[cols="20,65,15"]
+|===
+| 스위치 | 설명 | 처음부터 사용할 수 있습니다 
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["NVIDIA IP SN2100 스위치"]
+ a| 
+NVIDIA IP SN2100 스토리지 스위치는 A900/FAS9500 플랫폼을 사용하는 MetroCluster IP 구성에서 지원됩니다.
+ a| 
+ONTAP 9.12.1
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["NVIDIA IP SN2100 스위치(X190006)"]
+ a| 
+NVIDIA IP SN2100 스토리지 스위치는 다음 플랫폼을 사용하는 MetroCluster IP 구성에서 지원됩니다.
+
+* FAS500f/AFF A250
+* FAS8300/AFF A400
+* FAS8700
+* FAS9000/AFF A700
+* AFF A800
+
+ a| 
+ONTAP 9.10.1P3입니다
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"]
+ a| 
+MetroCluster IP 구성을 포함하여 동일한 Cisco Nexus 9336C-FX2 스위치 쌍에서 공유 인프라(클러스터, HA 및 스위치 연결 스토리지)를 지원합니다.
+ a| 
+ONTAP 9.9.1
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200 및 X190210)"]
+ a| 
+Cisco Nexus 9336C-FX2 클러스터 인터커넥트 스위치 및 스토리지 스위치 지원으로 AFF/FAS 컨트롤러 및 프런트 엔드 데이터 연결 지원
+ a| 
+ONTAP 9.8
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
+ a| 
+40/100GbE 포트가 있는 AFF/FAS 컨트롤러에 대한 Broadcom BES-53248 클러스터 인터커넥트 스위치 지원
+ a| 
+ONTAP 9.8
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["36포트 100GbE Cisco 스위치(X190200)"] https://hwu.netapp.com/Switch/Index["32포트 100GbE Cisco 스위치(X190100 및 X190100R)"]
+ a| 
+Cisco Nexus 100 GbE 스위치는 NS224 NVMe 드라이브 쉘프를 다음 플랫폼에 연결하는 전용 스토리지 스위치로 사용할 수 있습니다.
+
+* AFF A800/AFF ASA A800
+* AFF A700/AFF ASA A700
+* AFF A400/AFF ASA A400
+* AFF A320
+
+ a| 
+ONTAP 9.8
+
+
+
+ a| 
+https://hwu.netapp.com/Switch/Index["Broadcom BES-53248 스위치(X190005 및 X190005R)"]
+ a| 
+Broadcom BES-53248 클러스터 인터커넥트 스위치는 10/25GbE 포트가 있는 AFF/FAS 컨트롤러를 지원합니다.
+ a| 
+ONTAP 9.5P8
+
+|===
+
+
+== 새로운 어댑터 지원
+
+[cols="4*"]
+|===
+| 어댑터 부품 번호 | 설명 | 범주 | 처음부터 사용할 수 있습니다 
+
+
+ a| 
+https://hwu.netapp.com/adapter/index["X91148A"]
+ a| 
+2포트 100GbE RoCE QSFP28
+ a| 
+* 스토리지
+* 네트워킹
+* HA/MetroCluster
+
+ a| 
+ONTAP 9.8
+
+
+
+ a| 
+https://hwu.netapp.com/adapter/index["X91122A"]
+ a| 
+2-포트 25GbE RoCE QSFP28
+ a| 
+* 네트워킹
+* HA/MetroCluster
+
+ a| 
+ONTAP 9.8
+
+
+
+ a| 
+https://hwu.netapp.com/adapter/index["X9170A"]
+ a| 
+NVMe SSD 모듈(1TB)
+ a| 
+코어 덤프 장치
+ a| 
+ONTAP 9.8
+
+|===
+
+
 == 새로운 쉘프 지원
 
 [cols="2*"]
@@ -268,83 +379,5 @@ ONTAP 9.7P4
 ONTAP 9.6P9
 
 ONTAP 9.5P14
-
-|===
-
-
-== 새로운 하드웨어 업그레이드 개선 사항
-
-ONTAP 9.8에서는 자동 포트 배치 기능이 도입되어 하드웨어 업그레이드 절차가 단순화되었습니다. ONTAP 9.8을 실행하는 시스템을 업그레이드할 때는 올바른 절차를 사용하여 포트 배치 기능을 고려해야 합니다.
-
-사용 가능한 업그레이드 절차를 보려면 다음 표를 검토하십시오. 절차가 적절한지 판단하기 위한 자세한 내용은 각 가이드를 참조하십시오.
-
-MetroCluster 관련 추가 절차는 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html["업그레이드 또는 새로 고침 방법 선택"].
-
-[cols="4*"]
-|===
-| ONTAP 버전입니다 | 위치 | 무중단 | MetroCluster를 지원합니다 
-
-
- a| 
-9.8 ~ 9.0.x
- a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (기존 물리적 스토리지 이동)
- a| 
-아니요
- a| 
-아니요
-
-
-
- a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html["컨트롤러 하드웨어 업그레이드 익스프레스 가이드"] (새 스토리지로 볼륨 이동)
- a| 
-예
- a| 
-아니요
-
-
-
- a| 
-9.8
- a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade/upgrade-decide-to-use-this-guide.html[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.8을 실행하는 컨트롤러 하드웨어를 업그레이드합니다"]
- a| 
-예
- a| 
-예(FC)
-
-
-
- a| 
-9.8
- a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual-app/index.html["Aggregate Relocation 을 사용하여 ONTAP 9.8 이상을 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드할 수 있습니다"]
- a| 
-예
- a| 
-예(FC)
-
-
-
- a| 
-9.7 ~ 9.5
- a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-auto/index.html[""시스템 컨트롤러 교체" 명령을 사용하여 ONTAP 9.5를 실행하는 컨트롤러 하드웨어를 ONTAP 9.7로 업그레이드합니다"]
- a| 
-예
- a| 
-예(FC)
-
-
-
- a| 
-9.7 이하
- a| 
-https://docs.netapp.com/us-en/ontap-systems-upgrade/upgrade-arl-manual/index.html["Aggregate Relocation을 사용하여 컨트롤러 업그레이드 ONTAP 9.7 이하를 실행하는 컨트롤러 하드웨어를 수동으로 업그레이드합니다"]
- a| 
-예
- a| 
-예(FC)
 
 |===

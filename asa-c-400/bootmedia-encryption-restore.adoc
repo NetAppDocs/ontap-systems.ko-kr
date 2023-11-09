@@ -1,5 +1,5 @@
 ---
-permalink: asa-c400/bootmedia-encryption-restore.html 
+permalink: asa-c-400/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: asa c400, asa, c400, environment, variable, complete, system, onboard, key, manager, okm, storage, volume, netapp, encryption, post, boot, media, replacement, post boot media replacement stpes for okm nse and nve 
 summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
