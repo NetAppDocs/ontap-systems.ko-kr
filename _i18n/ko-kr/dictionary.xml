@@ -8558,25 +8558,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4a9663f34d974f62e97bc12e3339b829" category="summary">이 섹션에서는 ASA C800 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
   <block id="785cd996138f338b507afb4b1a247f7a" category="doc">자세한 단계 - ASA C800</block>
   <block id="0638f850898c092d5e1fe72b87242595" category="paragraph">ASA C800 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
-  <block id="9c62e171f059c8600997ae4e0f96ab7d" category="image-alt">drw asac800 무게 주의</block>
-  <block id="d2946c650fd878fb1382f852e7ae21f2" category="image-alt">drw asac800 설치 케이블 관리</block>
-  <block id="8f9611c57f280dcf3707a77790073f5e" category="list-text">e1b에서 e1b까지
-<block ref="15891b31f94aa5c1d8d701dc45f31a49" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e2ffd86efabaa66f6caa4720f826af5e" category="list-text">E1A ~ E1A
-<block ref="a384f044b9ce696d7af96248c96af5c1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1ddae32aa15704bfdbaa2aab1a7d6dfe" category="paragraph">관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    <block ref="006022f2d0575aac941d853d15f04b9e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d6f4ba76330aa95c5eaaaf0d9035fea2" category="paragraph">클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
-** e0a
-** E1A
-<block ref="f2a41a3e16faf723b039ff4278135de5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8546314cef10b9e9e364344875d77237" category="paragraph">포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.<block ref="4f1b9e5dfcbddf179a4286f1703ef51b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="607da72d58aff35499a7aec17d5e19bb" category="paragraph">케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.<block ref="90048d1fb5dca95cfe62abfa6b205214" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="25f831637542d41012246381c8ca1ec9" category="paragraph">컨트롤러 A를 쉘프에 연결:    <block ref="f81613a889a36c93366a9575275b2581" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="335c41450f222d4ab520fa32b2542214" category="paragraph">컨트롤러 B를 쉘프에 연결:    <block ref="678df8700f02a110e9ca97a297deb31d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="157dc2a3553e3f5202fbc40d49878754" category="paragraph">컨트롤러 A를 쉘프에 연결:    <block ref="118747470262b69831582f8c5b0f6061" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="48d33cbc5ff82c101c057c7286bba92e" category="paragraph">컨트롤러 B를 쉘프에 연결:    <block ref="f09535d2d5af9c437ea1775f9a22dea3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9f9162027a6469a02a5740c7a72369e3" category="image-alt">DRW 콘솔이 asac800을 연결합니다</block>
-  <block id="6fe0915ad0c3735187132d7dfe2356b4" category="image-alt">drw 클라이언트 관리 서브넷 asac800</block>
   <block id="3682f89576a4cb3869bd075b26450b14" category="doc">복구 이미지를 부팅합니다 - ASA C800</block>
   <block id="1a127c6545345af120647a9618b2e726" category="doc">비디오 - ASA C800</block>
   <block id="71eb59c59a42227ae8b45d0cfaf6f52f" category="paragraph">시스템 랙에 설치하고 케이블을 연결하는 방법을 보여주는 비디오 1개와 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 비디오 1개가 있습니다.</block>
@@ -8717,7 +8698,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e46b8c6d3d358d972a1fe516250dcf5d" category="paragraph">컨트롤러를 섀시에 밀어 넣습니다</block>
   <block id="ff0420a1b97d66a283e50773fa71f7ab" category="image-alt">DRW C400 RTC 배터리 IEOPS 1239</block>
   <block id="d1ad021bd9b79ffa9323df56f68e4b22" category="paragraph">빠른 설명서는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르기까지 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 절차를 사용하십시오.</block>
-  <block id="e39f500ad07a270219bd21d82b87b157" category="paragraph">를 사용합니다 <block ref="1ede88745168187a218abc6fed7fade9" category="inline-link-macro-rx"></block>.</block>
   <block id="e7f3c0051e6bc5cbd205f59b35151985" category="inline-image-macro">폭 = 500px</block>
   <block id="8f9d84ce0761e9cbbd0e69dc419011a6" category="paragraph"><block ref="8f9d84ce0761e9cbbd0e69dc419011a6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80c14517a78070e49e0abac5d7f9ddbf" category="image-alt">DRW C400은 메자닌 카드 IEOPS 1236을 교체합니다</block>
@@ -8785,4 +8765,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6d6d899023064067891b54808437adaa" category="sidebar">ASA A-Series 시스템</block>
   <block id="be83f0f3d9e7cc4af05991e4976d2134" category="sidebar">ASA C-Series 시스템</block>
   <block id="a46d5e85a24eb7f41987dc2fc02df2c1" category="sidebar">NetApp의 All Flash SAN 어레이(ASA)는 조직의 미션 크리티컬 데이터베이스와 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다.</block>
+  <block id="2b624e2e0f95b539d134f321667149d4" category="paragraph">를 사용합니다 <block ref="327880446cd4829fe913aafea7a76fa5" category="inline-link-macro-rx"></block>.</block>
+  <block id="47fb299294c4db99aead2c933a5d0e45" category="image-alt">Drw affc800 설치 케이블 관리</block>
 </blocks>

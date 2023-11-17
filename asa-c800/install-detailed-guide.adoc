@@ -174,11 +174,11 @@ https://docs.netapp.com/us-en/ontap-systems/platform-supplemental/superrail-inst
 NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 
 +
-image::../media/drw_asac800_weight_caution.png[drw asac800 무게 주의]
+image::../media/drw_affa800_weight_caution.png[drw affa800 무게 주의]
 
 . 케이블 관리 장치를 연결합니다(그림 참조).
 +
-image::../media/drw_asac800_install_cable_mgmt.png[drw asac800 설치 케이블 관리]
+image::../media/drw_affc800_install_cable_mgmt.png[Drw affc800 설치 케이블 관리]
 
 . 시스템 전면에 베젤을 부착합니다.
 
@@ -228,8 +228,7 @@ image:../media/oie_legend_icon_1_dp.png[""]
 HA 인터커넥트 포트에 케이블 연결:
 
 ** e0b ~ e0b
-** e1b에서 e1b까지
-image:../media/drw_asac800_ha_pair_cabling.png[""]
+** e1b에서 e1b까지image:../media/drw_affa800_ha_pair_cabling.png[""]
 
 
 
@@ -240,8 +239,7 @@ image:../media/oie_legend_icon_2_lg.png[""]
 클러스터 인터커넥트 포트에 케이블 연결:
 
 ** e0a ~ e0a
-** E1A ~ E1A
-image:../media/drw_asac800_tnsc_clust_cabling.png[""]
+** E1A ~ E1Aimage:../media/drw_affa800_tnsc_clust_cabling.png[""]
 
 
 
@@ -249,7 +247,7 @@ image:../media/drw_asac800_tnsc_clust_cabling.png[""]
  a| 
 image:../media/oie_legend_icon_3_lp.png[""]
  a| 
-관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_asac800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
+관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_affa800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
 
 
 
@@ -303,8 +301,7 @@ image:../media/oie_legend_icon_1_dp.png[""]
 HA 인터커넥트 포트에 케이블 연결:
 
 ** e0b ~ e0b
-** e1b에서 e1b까지
-image:../media/drw_asac800_ha_pair_cabling.png[""]
+** e1b에서 e1b까지image:../media/drw_affa800_ha_pair_cabling.png[""]
 
 
 
@@ -312,17 +309,14 @@ image:../media/drw_asac800_ha_pair_cabling.png[""]
  a| 
 image:../media/oie_legend_icon_2_lg.png[""]
  a| 
-클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
-** e0a
-** E1A
-image:../media/drw_asac800_switched_clust_cabling.png[""]
+클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다. ** e0a ** E1Aimage:../media/drw_affa800_switched_clust_cabling.png[""]
 
 
 
  a| 
 image:../media/oie_legend_icon_3_lp.png[""]
  a| 
-관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_asac800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
+관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_affa800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
 
 
 
@@ -373,7 +367,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 1
  a| 
-포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.image:../media/drw_asac800_fc_host_cabling.png[""]
+포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.image:../media/drw_affa800_fc_host_cabling.png[""]
 
 
 
@@ -418,7 +412,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 1
  a| 
-케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.image:../media/drw_asac800_10gbe_host_cabling.png[""]
+케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.image:../media/drw_affa800_10gbe_host_cabling.png[""]
 
 
 
@@ -465,14 +459,14 @@ video::09dade4f-00bd-4d41-97d7-ab0c0123a0b4[panopto]
  a| 
 image:../media/oie_legend_icon_1_mb.png[""]
  a| 
-컨트롤러 A를 쉘프에 연결:    image:../media/drw_asac800_1shelf_cabling_a.png[""]
+컨트롤러 A를 쉘프에 연결: image:../media/drw_affa800_1shelf_cabling_a.png[""]
 
 
 
  a| 
 image:../media/oie_legend_icon_2_lo.png[""]
  a| 
-컨트롤러 B를 쉘프에 연결:    image:../media/drw_asac800_1shelf_cabling_b.png[""]
+컨트롤러 B를 쉘프에 연결: image:../media/drw_affa800_1shelf_cabling_b.png[""]
 
 |===
 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
@@ -503,14 +497,14 @@ video::fe50ac38-9375-4e6b-85af-ab0c0123a0e0[panopto]
  a| 
 image:../media/oie_legend_icon_1_mb.png[""]
  a| 
-컨트롤러 A를 쉘프에 연결:    image:../media/drw_asac800_2shelf_cabling_a.png[""]
+컨트롤러 A를 쉘프에 연결: image:../media/drw_affa800_2shelf_cabling_a.png[""]
 
 
 
  a| 
 image:../media/oie_legend_icon_2_lo.png[""]
  a| 
-컨트롤러 B를 쉘프에 연결:    image:../media/drw_asac800_2shelf_cabling_b.png[""]
+컨트롤러 B를 쉘프에 연결: image:../media/drw_affa800_2shelf_cabling_b.png[""]
 
 |===
 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
@@ -579,11 +573,11 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 .. 콘솔 케이블을 랩톱 또는 콘솔에 연결하고 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결합니다.
 +
-image::../media/drw_console_connect_asac800.png[DRW 콘솔이 asac800을 연결합니다]
+image::../media/drw_console_connect_affa800.png[drw 콘솔 연결 affa800]
 
 .. 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.
 +
-image::../media/drw_client_mgmt_subnet_asac800.png[drw 클라이언트 관리 서브넷 asac800]
+image::../media/drw_client_mgmt_subnet_affa800.png[drw 클라이언트 관리 서브넷 affa800]
 
 .. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
 
