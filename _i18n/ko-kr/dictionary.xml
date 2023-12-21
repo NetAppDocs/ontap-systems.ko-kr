@@ -3795,7 +3795,6 @@
   <block id="1f92c66f78b6103eb17febd6a0a5f8f3" category="list-text">정전기 방지 포장용 백에서 교체용 부팅 매체를 제거하고 컨트롤러 모듈에 정렬시킵니다.</block>
   <block id="7fc8b782e1690855d5576e363f8d7d1a" category="list-text">컨트롤러 모듈을 섀시에 완전히 밀어 넣습니다.</block>
   <block id="f7b32babba20f290222a62a499496335" category="section-title">옵션 2: MetroCluster의 시스템</block>
-  <block id="e2e8db7924e3d9318e09779273f259de" category="doc">팬 교체 - AFF A250</block>
   <block id="42fdad873ef48294568bf60cb6c3f2a3" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 팬을 교체합니다.</block>
   <block id="fdef2d1361e0c12e51c8a0eb2279a3f0" category="list-text">교체용 팬 모듈의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 교체용 팬 모듈을 컨트롤러 모듈에 밀어 넣습니다.</block>
   <block id="6b2635d59c8fd6836326288e507b4512" category="doc">NVMEM 배터리 교체 - AFF A250</block>
@@ -7986,7 +7985,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="81af5da89fff345601f8e93f71e0ad35" category="doc">부팅 매체(ASA A900)를 교체합니다</block>
   <block id="0c37dcb25b5173e62412edae7cd5b2e5" category="doc">FAN-ASA A900을 맞교환한다</block>
   <block id="61cb2661b290495563ba9c588ff896ca" category="doc">입출력 모듈 추가 - ASA A900</block>
-  <block id="2f3095e4c2c969f1f9dca69963ff66c1" category="paragraph">Assetected LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="0793e1a216dd4c3846c49cbc01994776" category="doc">NVRAM 모듈 및 NVRAM DIMM-ASA A900을 교체합니다</block>
   <block id="c79b3bc974e85cc0c7daa3f518014cad" category="section-title">4단계: 컨트롤러를 재부팅합니다</block>
   <block id="c69354394baa0a237e9976cdbc6f9861" category="doc">하드웨어 이동 및 교체 - ASA A900</block>
@@ -8506,7 +8504,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="bc2311b6a715da1a660ee0a9afd2016e" category="doc">부팅 미디어를 교체합니다. - ASA C250</block>
   <block id="7171d5f82a6b13d62d4f7f70326df021" category="doc">손상된 컨트롤러 모듈(ASA C250)을 종료합니다</block>
   <block id="b4609e09d3094c196af6ccbdb8c9afbf" category="doc">컨트롤러 모듈 교체 개요 - ASA C250</block>
-  <block id="42e2b7c9fbe6b6256660bb0bbb7a0962" category="doc">팬 교체 - ASA c250</block>
   <block id="13a410359da23b13900f5c285e105e81" category="doc">컨트롤러 모듈 하드웨어 - ASA C250을 교체합니다</block>
   <block id="0c85f60a3a546be806bd89d1770b2cdb" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - ASA C250</block>
   <block id="363dbb7bd38c3746663861884552a6ca" category="doc">부팅 미디어 교체 개요 - ASA C250</block>
@@ -8767,4 +8764,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a46d5e85a24eb7f41987dc2fc02df2c1" category="sidebar">NetApp의 All Flash SAN 어레이(ASA)는 조직의 미션 크리티컬 데이터베이스와 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다.</block>
   <block id="2b624e2e0f95b539d134f321667149d4" category="paragraph">를 사용합니다 <block ref="327880446cd4829fe913aafea7a76fa5" category="inline-link-macro-rx"></block>.</block>
   <block id="47fb299294c4db99aead2c933a5d0e45" category="image-alt">Drw affc800 설치 케이블 관리</block>
+  <block id="71b9da16d2c97302e30020688facb467" category="doc">팬 교체 - AFF A250</block>
+  <block id="4419435d737554741ab61c9d91e5c332" category="doc">팬을 교체합니다. - ASA C250</block>
 </blocks>
