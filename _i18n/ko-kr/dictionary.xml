@@ -4923,8 +4923,6 @@
   <block id="883c91c37ee151a81d34d6105afae5ea" category="summary">NS224 드라이브 쉘프를 스위치 연결 스토리지\(직접 연결 스토리지\ 아님)로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용하십시오.</block>
   <block id="a94de468f363b57c8cc1ea1b7a532a9e" category="paragraph">NS224 드라이브 쉘프를 직접 연결 스토리지가 아닌 스위치 연결 스토리지로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용합니다.</block>
   <block id="0ab54354ff641ba8f3492f71c03aa435" category="list-text">스토리지 스위치를 통해 NS224 드라이브 쉘프 케이블 연결:</block>
-  <block id="afb935b1a48a04ad288c97c7899d840d" category="inline-link">스위치 연결 NS224 드라이브 쉘프 케이블 연결 정보</block>
-  <block id="9824994e3f8651cf2b6d695555bdc011" category="paragraph"><block ref="9824994e3f8651cf2b6d695555bdc011" category="inline-link-rx"></block></block>
   <block id="d1f671afbf5d4ca47b95e86f70c6bcc1" category="list-text">스토리지 스위치 설치:</block>
   <block id="97a30f090fd38397124788f1f0376eda" category="inline-link">AFF 및 FAS 스위치 문서</block>
   <block id="008b8867712161228bd794977fcd0d4b" category="paragraph"><block ref="008b8867712161228bd794977fcd0d4b" category="inline-link-rx"></block></block>
@@ -8766,4 +8764,16 @@ SFP+(타겟/이니시에이터)</block>
   <block id="47fb299294c4db99aead2c933a5d0e45" category="image-alt">Drw affc800 설치 케이블 관리</block>
   <block id="71b9da16d2c97302e30020688facb467" category="doc">팬 교체 - AFF A250</block>
   <block id="4419435d737554741ab61c9d91e5c332" category="doc">팬을 교체합니다. - ASA C250</block>
+  <block id="ebd0dccffb1781aa1b03445f61d87344" category="summary">디스크 쉘프를 IOM12 모듈로 콜드 교체할 수 있습니다.</block>
+  <block id="407685da96fd9ced3310d7d46ae6df51" category="doc">쉘프-쉘프를 IOM12/IOM12B 모듈로 콜드 교체합니다</block>
+  <block id="ec2ab707a85ae3f8634491d0876e34c6" category="paragraph">디스크가 사용 중인 운영 시스템에서 드라이브 쉘프를 교체할 경우 콜드 쉘프를 교체해야 합니다. 이는 중단 절차입니다. 즉, HA 쌍의 컨트롤러를 중지해야 합니다.</block>
+  <block id="b70986af2d94261df69e2141b1a928cf" category="inline-link">콜드 쉘프 제거 절차를 사용하여 쉘프 섀시를 교체하는 방법</block>
+  <block id="9bfe0b1ca930a33b763298ba44f6db91" category="paragraph">KB 문서를 사용합니다<block ref="0ce7a268461a7f9e86d34962088e7dcd" category="inline-link-rx"></block>.</block>
+  <block id="3946a95173cf2872b6b6e8309352d61b" category="inline-link">NS224 NVMe 드라이브 쉘프 케이블링 가이드</block>
+  <block id="29c2f32397b266395d18c9814ee2c641" category="paragraph"><block ref="29c2f32397b266395d18c9814ee2c641" category="inline-link-rx"></block></block>
+  <block id="5932d352036c33399a3ddcba5a995002" category="summary">NS224 드라이브 쉘프를 콜드 교체할 수 있습니다.</block>
+  <block id="1aba95483fe95743e6b48b8708c5c514" category="doc">쉘프를 콜드 교체 - NS224 쉘프</block>
+  <block id="efc8f4d1076344beccb8353312cb002a" category="sidebar">드라이브 쉘프</block>
+  <block id="da98db34d10199077b14ab14b7e32c9f" category="sidebar">냉장 교체 선반</block>
+  <block id="674478ae995b81c552fa78ca38a62f55" category="sidebar">쉘프 LED를 모니터링합니다</block>
 </blocks>

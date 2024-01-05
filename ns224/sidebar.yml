@@ -20,12 +20,16 @@ entries:
     url: "/ns224/service-replace-dimm.html"
   - title: 드라이브
     url: "/ns224/service-replace-drive.html"
-  - title: 드라이브 쉘프 LED
-    url: "/ns224/service-monitor-leds.html"
+  - title: 드라이브 쉘프
+    entries:
+    - title: 냉장 교체 선반
+      url: "/ns224/cold-replace-shelf.html"
+    - title: 쉘프 핫 제거
+      url: "/ns224/hot-remove-shelf.html"
+    - title: 쉘프 LED를 모니터링합니다
+      url: "/ns224/service-monitor-leds.html"
   - title: 팬
     url: "/ns224/service-replace-fan.html"
-  - title: 쉘프 핫 제거
-    url: "/ns224/hot-remove-shelf.html"
   - title: NSM 모듈
     url: "/ns224/service-replace-nsm100.html"
   - title: 전원 공급 장치
