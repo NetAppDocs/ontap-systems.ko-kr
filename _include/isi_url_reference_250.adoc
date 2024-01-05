@@ -9,7 +9,7 @@ NOTE: ASA A250 및 ASA C250은 AFF A250 시스템과 동일한 설치 절차를 
 
 다음 링크를 사용하십시오.
 
-* 영어: link:../media/PDF/215-14949_2023_09_en-us_AFFA250_ISI.pdf["AFF A250 설치 및 설정 지침"^]
+* 영어: link:../media/PDF/Jan_2024_Rev3_AFFA250_ISI_IEOPS-1497.pdf["AFF A250 설치 및 설정 지침"^]
 * 일본어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2874690["AFF A250 시스템 설치 및 설정 지침"^]
 * 중국어: https://library.netapp.com/ecm/ecm_download_file/ECMLP2874693["AFF A250 시스템 설치 및 설정 지침"^]
 

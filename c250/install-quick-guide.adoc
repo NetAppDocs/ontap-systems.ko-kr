@@ -15,4 +15,4 @@ summary: 이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-link:../media/PDF/Sept_2023_Rev1_AFFC250_ISI.pdf["AFF C250 설치 및 설정 지침"^]
+link:../media/PDF/Jan_2024_Rev3_AFFC250_ISI_IEOPS-1497.pdf["AFF C250 설치 및 설정 지침"^]
