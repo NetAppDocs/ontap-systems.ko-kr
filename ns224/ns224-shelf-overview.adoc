@@ -1,0 +1,21 @@
+---
+permalink: ns224/ns224-shelf-overview.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, drive, aggregate, ha, pair, serving, data 
+summary: NS224 쉘프 개요 
+---
+= 개요 - NS224 쉘프
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp NS224 드라이브 쉘프는 최대 24개의 드라이브를 장착할 수 있는 2U 랙 유닛입니다. NS224 드라이브 쉘프는 2.5" 소형 폼 팩터 드라이브와 호환되며 SAS 및 SATA 인터페이스를 모두 지원합니다.
+
+다음 작업을 수행하여 NS224 드라이브 쉘프를 유지 관리하십시오.
+
+* link:cold-replace-shelf.html["콜드-쉘프 교체"]
+* link:hot-remove-shelf.html["쉘프를 핫 제거할 수 있습니다"]
+* link:service-monitor-leds.html["쉘프 LED를 모니터링합니다"]
+

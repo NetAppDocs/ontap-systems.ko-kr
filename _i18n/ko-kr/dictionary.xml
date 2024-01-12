@@ -8214,7 +8214,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c1ec87c0338d54385353bd07e5fbaa42" category="sidebar">새 스토리지 시스템에 쉘프를 설치합니다</block>
   <block id="243153f529b4cc387b9f4736a3e4dec8" category="sidebar">IOM6 쉘프 스택에 핫 추가 쉘프(혼합 스택)</block>
   <block id="53857de2b77528f90464ed053079a6c7" category="sidebar">NS224 쉘프를 유지합니다</block>
-  <block id="de2a052df96d5bbf4f374541c1ebf0e8" category="sidebar">드라이브 쉘프 LED</block>
   <block id="ac8239cbe6a7d46c72f3e9111b7a640e" category="sidebar">SAS 쉘프 유지보수</block>
   <block id="0d15b077865ff751c51f5dab813a9ea6" category="sidebar">DS460C 쉘프의 팬</block>
   <block id="eaede3cca67a867c9e94c14b2f787088" category="sidebar">이용 종료 시스템은 더 이상 구매할 수 없지만 여전히 지원됩니다.</block>
@@ -8776,4 +8775,18 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6febf85749247f2f22048a485869645e" category="paragraph">이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="85d66ca1788630be12ac9fc5ee2595a5" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="add36804e7e09c91c721643d36c96ccb" category="paragraph"><block ref="add36804e7e09c91c721643d36c96ccb" category="inline-link-macro-rx"></block></block>
   <block id="5ca723b9f3a38d51c5d8040a15ca7a8d" category="paragraph"><block ref="5ca723b9f3a38d51c5d8040a15ca7a8d" category="inline-link-macro-rx"></block></block>
+  <block id="6053aed1bfbcc070d47989735b666d06" category="summary">sas3 선반 개요.</block>
+  <block id="5b0bc6fa97d8d2e2dc4b4b0be078e8e2" category="doc">개요 - SAS3 셸프</block>
+  <block id="2a257bfa513884220e7be0e9ac5852a5" category="paragraph">NetApp SAS3 드라이브 쉘프는 SAS 커넥터를 사용하여 스토리지 시스템에 연결합니다.</block>
+  <block id="e61b9553a933ab9c90dc9abe1d1d621e" category="paragraph">다음 작업을 수행하여 SAS3 드라이브 쉘프를 유지합니다.</block>
+  <block id="5398e5f0481212fec157da30d21384f0" category="inline-link-macro">콜드-쉘프 교체</block>
+  <block id="13ce8c4588978587ac346becc2c018b0" category="list-text"><block ref="13ce8c4588978587ac346becc2c018b0" category="inline-link-macro-rx"></block></block>
+  <block id="449501ad9a8703c6804a67bdd19a3de0" category="list-text"><block ref="449501ad9a8703c6804a67bdd19a3de0" category="inline-link-macro-rx"></block></block>
+  <block id="dcfc26efc2fb6ed4ced91a73b846f916" category="list-text"><block ref="dcfc26efc2fb6ed4ced91a73b846f916" category="inline-link-macro-rx"></block></block>
+  <block id="ffb86a04e7c0d1005b2366aac081dadb" category="summary">NS224 쉘프 개요</block>
+  <block id="6b8f3f11041c0d6fd51b6747de31f198" category="doc">개요 - NS224 쉘프</block>
+  <block id="8755317874c3d4628a24b76f9a705216" category="paragraph">NetApp NS224 드라이브 쉘프는 최대 24개의 드라이브를 장착할 수 있는 2U 랙 유닛입니다. NS224 드라이브 쉘프는 2.5" 소형 폼 팩터 드라이브와 호환되며 SAS 및 SATA 인터페이스를 모두 지원합니다.</block>
+  <block id="d1d52714be599a75c470c1f0da3b1429" category="paragraph">다음 작업을 수행하여 NS224 드라이브 쉘프를 유지 관리하십시오.</block>
+  <block id="30d9c3c67c8634f0507aed48fc4a0fc8" category="sidebar">SAS3 셸프 개요</block>
+  <block id="e945a21b304f12950d5e1290c9cf7ddd" category="sidebar">NS224 쉘프 개요</block>
 </blocks>

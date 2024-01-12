@@ -30,12 +30,10 @@ indexpage:
       url: "../ns224/service-replace-dimm.html"
     - title: 드라이브
       url: "../ns224/service-replace-drive.html"
-    - title: 드라이브 쉘프 LED
-      url: "../ns224/service-monitor-leds.html"
+    - title: 드라이브 쉘프
+      url: "../ns224/ns224-shelf-overview.html"
     - title: 팬
       url: "../ns224/service-replace-fan.html"
-    - title: 쉘프 핫 제거
-      url: "../ns224/hot-remove-shelf.html"
     - title: NSM 모듈
       url: "../ns224/service-replace-nsm100.html"
     - title: 전원 공급 장치
@@ -50,12 +48,10 @@ indexpage:
       url: "../sas3/service-hot-swap-drive-ds460c.html"
     - title: DS460C 쉘프의 드라이브 서랍
       url: "../sas3/service-replace-drawer-ds460c.html"
-    - title: 드라이브 쉘프 LED
-      url: "../sas3/service-monitor-leds.html"
+    - title: 드라이브 쉘프
+      url: "../sas3/sas3-shelf-overview.html"
     - title: DS460C 쉘프의 팬
       url: "../sas3/service-replace-fan-ds460c.html"
-    - title: 쉘프를 핫 제거할 수 있습니다
-      url: "../sas3/hot-remove-shelf.html"
     - title: IOM12/IOM12B 모듈
       url: "../sas3/service-hot-swap-iom.html"
     - title: 전원 공급 장치

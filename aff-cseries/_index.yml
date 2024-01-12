@@ -10,8 +10,6 @@ indexpage:
       url: https://www.netapp.com/data-storage/aff-c-series/
   - title: 설치 및 설정
     links:
-    - title: AFF C190
-      url: "../c190/install-setup.html"
     - title: AFF C250
       url: "../c250/install-setup.html"
     - title: AFF C400
@@ -20,8 +18,6 @@ indexpage:
       url: "../c800/install-setup.html"
   - title: 시스템을 유지보수하십시오
     links:
-    - title: AFF C190
-      url: "../c190/maintain-overview.html"
     - title: AFF C250
       url: "../c250/maintain-overview.html"
     - title: AFF C400

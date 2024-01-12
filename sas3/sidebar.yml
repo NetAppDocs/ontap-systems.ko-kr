@@ -44,6 +44,8 @@ entries:
     url: "/sas3/service-replace-drawer-ds460c.html"
   - title: 드라이브 쉘프
     entries:
+    - title: SAS3 셸프 개요
+      url: "/sas3/sas3-shelf-overview.html"
     - title: 냉장 교체 선반
       url: "/sas3/cold-replace-shelf.html"
     - title: 쉘프 핫 제거
