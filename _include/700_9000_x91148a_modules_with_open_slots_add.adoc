@@ -1,4 +1,4 @@
-= 옵션 1: 열려 있는 슬롯이 있는 시스템에 X91148A 모듈을 NIC 모듈로 추가합니다
+= 
 :allow-uri-read: 
 
 
@@ -7,22 +7,16 @@ X91148A 모듈을 시스템의 빈 모듈 슬롯에 100GbE NIC 또는 NS224 스�
 * 시스템에서 ONTAP 9.8 이상을 실행해야 합니다.
 * X91148A 모듈을 중단 없이 추가하려면 대상 컨트롤러를 인수하고, 대상 슬롯에서 슬롯 블랭킹 커버를 제거하고, 모듈을 추가한 다음 타겟 컨트롤러를 반환해야 합니다.
 * 시스템에 사용 가능한 슬롯이 하나 이상 있어야 합니다.
-* 여러 개의 슬롯을 사용할 수 있는 경우 Hardware Universe의 X91148A 모듈에 대한 슬롯 우선 순위 매트릭스에 따라 모듈을 설치합니다.
-+
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
-
+* 여러 슬롯을 사용할 수 있는 경우 의 X91148A 모듈에 대한 슬롯 우선순위 매트릭스에 따라 모듈을 설치합니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^].
 * X91148A 모듈을 스토리지 모듈로 추가하려면 모듈 슬롯 3 및/또는 7을 설치해야 합니다.
-* X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 해당 슬롯을 네트워크 슬롯으로 사용하고 NS224 셸프를 추가하지 않으려면 'STORAGE PORT MODIFY-NODE_NODE NAME_-PORT_PORT NAME_-MODE NETWORK' 명령과 함께 네트워킹용 슬롯을 수정해야 합니다. X91148A 모듈에서 네트워킹용으로 사용할 수 있는 다른 슬롯은 Hardware Universe를 참조하십시오.
-+
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
-
+* X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 이러한 슬롯을 네트워크 슬롯으로 사용하고 NS224 쉘프를 추가하지 않으려면 에서 네트워킹 사용을 위해 슬롯을 수정해야 합니다 `storage port modify -node _node name_ -port _port name_ -mode network` 명령. 를 참조하십시오 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] X91148A 모듈에서 네트워킹을 위해 사용할 수 있는 다른 슬롯의 경우
 * 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
 
 
-
-
-== 옵션 1: 열려 있는 슬롯이 있는 시스템에 X91148A 모듈을 NIC 모듈로 추가합니다
-
+[role="tabbed-block"]
+====
+--
+.옵션 1: X91148A 모듈을 NIC 모듈로 추가합니다
 열려 있는 슬롯이 있는 시스템에서 X91148A 모듈을 NIC 모듈로 추가하려면 특정 단계의 순서를 따라야 합니다.
 
 .단계
@@ -51,16 +45,19 @@ https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 
 
 . 데이터 스위치에 모듈을 케이블로 연결합니다.
-. 컨트롤러 A:'boot_ONTAP'을 재부팅합니다
+. LOADER 프롬프트에서 컨트롤러 A를 재부팅합니다. `bye`
++
+
+NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
 . 파트너 노드의 반환: 'storage failover 반환 - ofnode_target_node_name_'
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 컨트롤러 B에 대해 이 단계를 반복합니다
 
 
-
-
-== 옵션 2: 열려 있는 슬롯이 있는 시스템에 X91148A 모듈을 스토리지 모듈로 추가합니다
-
+--
+.옵션 2: X91148A 모듈을 스토리지 모듈로 추가합니다
+--
 열려 있는 슬롯이 있는 시스템에서 X91148A 모듈을 스토리지 모듈로 추가하려면 특정 단계의 순서를 따라야 합니다.
 
 * 이 절차에서는 슬롯 3 및/또는 7이 열려 있는 것으로 가정합니다.
@@ -92,9 +89,26 @@ https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 .. 스토리지용 두 번째 X91148A 모듈을 설치하는 경우 슬롯 7의 모듈에 대해 이 단계를 반복합니다.
 
 
-. 컨트롤러 A:'boot_ONTAP'을 재부팅합니다
+. 컨트롤러 A를 재부팅합니다.
++
+** 교체 모듈이 이전 모듈과 다른 모델인 경우 BMC를 재부팅합니다.
++
+... LOADER 프롬프트에서 고급 권한 모드로 변경합니다. `set -privilege advanced`
+... BMC:'s p reboot'를 재부팅합니다
+
+
+** 교체 모듈이 이전 모듈과 같은 경우 LOADER 프롬프트에서 부팅합니다. `bye`
++
+
+NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
+
+
 . 파트너 노드의 반환: 'storage failover 반환 - ofnode target_node_name'
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 컨트롤러 B에 대해 이 단계를 반복합니다
-. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["핫 추가-NS224 쉘프"].
+. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["핫 추가-NS224 쉘프"^].
 
+
+--
+====

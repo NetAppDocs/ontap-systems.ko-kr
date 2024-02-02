@@ -16,21 +16,18 @@ summary: 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 
 * 시스템에서 ONTAP 9.8 이상을 실행해야 합니다.
 * X91148A 모듈을 중단 없이 추가하려면 대상 컨트롤러를 인수하고 모듈을 추가한 다음 대상 컨트롤러를 반환해야 합니다.
 * X91148A 모듈을 스토리지 어댑터로 추가하려면 슬롯 3 및/또는 7에 모듈을 설치해야 합니다.
-* X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 이러한 슬롯을 네트워크 슬롯으로 사용하고 NS224 셸프를 추가하지 않으려면 각 포트에 대한 'STORAGE PORT MODIFY-NODE_NODE NAME_-PORT_PORT NAME_-MODE NETWORK' 명령과 함께 네트워킹용 슬롯을 수정해야 합니다. X91148A 모듈에서 네트워킹용으로 사용할 수 있는 다른 슬롯은 Hardware Universe를 참조하십시오.
-+
-https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
-
+* X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 이러한 슬롯을 네트워크 슬롯으로 사용하고 NS224 쉘프를 추가하지 않으려면 에서 네트워킹 사용을 위해 슬롯을 수정해야 합니다 `storage port modify -node _node name_ -port _port name_ -mode network` 각 포트에 대한 명령입니다. 를 참조하십시오 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] X91148A 모듈에서 네트워킹을 위해 사용할 수 있는 다른 슬롯의 경우
 * 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
 
 
-
-
-== 옵션 1: 열려 있는 슬롯이 없는 시스템에 X91148A 모듈을 NIC 모듈로 추가합니다
-
+[role="tabbed-block"]
+====
+--
+.옵션 1: X91148A 모듈을 NIC 모듈로 추가합니다
 완전히 채워진 시스템에 하나 이상의 X91148A NIC 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.
 
 .단계
-. X91148A 모듈을 X91148A 모듈과 포트 수가 동일한 NIC 모듈이 포함된 슬롯에 추가하는 경우, LIF는 컨트롤러 모듈이 종료될 때 자동으로 마이그레이션됩니다. 교체할 NIC 모듈에 X91148A 모듈보다 많은 포트가 있는 경우 영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당해야 합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오
+. X91148A 모듈을 X91148A 모듈과 포트 수가 동일한 NIC 모듈이 포함된 슬롯에 추가하는 경우, LIF는 컨트롤러 모듈이 종료될 때 자동으로 마이그레이션됩니다. 교체할 NIC 모듈에 X91148A 모듈보다 많은 포트가 있는 경우 영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당해야 합니다. 을 참조하십시오 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^] System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오
 . 컨트롤러 A 종료:
 +
 .. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
@@ -60,6 +57,7 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 image::../media/drw_9000_remove_pcie_module.png[drw 9000 PCIe 모듈을 제거합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -87,24 +85,27 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 . 분리 및 설치 단계를 반복하여 컨트롤러 A의 추가 모듈을 교체합니다
 . 데이터 스위치에 모듈 또는 모듈을 케이블로 연결합니다.
-. 컨트롤러 A:'boot_ONTAP'을 재부팅합니다
+. LOADER 프롬프트에서 컨트롤러 A를 재부팅합니다. `bye`
++
+
+NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
 . 파트너 노드의 반환: 'storage failover 반환 - ofnode target_node_name'
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . X91148A 모듈을 슬롯 3 또는 7에 NIC 모듈로 추가한 경우, 네트워킹의 경우 포트마다 'STORAGE PORT MODIFY-NODE_NODE NAME_-PORT_PORT NAME_-MODE NETWORK' 명령어를 사용한다.
 . 컨트롤러 B에 대해 이 단계를 반복합니다
 
 
-
-
-== 옵션 2: 열려 있는 슬롯이 없는 시스템에 X91148A 모듈을 스토리지 모듈로 추가
-
+--
+.옵션 2: X91148A 모듈을 스토리지 모듈로 추가
+--
 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.
 
 * 이 절차에서는 슬롯 3 및/또는 7에 X91148A 모듈을 설치하는 것으로 가정합니다.
 
 
 .단계
-. X91148A 모듈을 슬롯 3 및/또는 7의 스토리지 모듈로 추가하는 경우 에 설명된 대로 기존 NIC 모듈이 있는 슬롯에 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"].
+. X91148A 모듈을 슬롯 3 및/또는 7의 스토리지 모듈로 추가하는 경우 에 설명된 대로 기존 NIC 모듈이 있는 슬롯에 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^].
 . 컨트롤러 A 종료:
 +
 .. 자동 반환 비활성화:'storage failover modify -node local -auto-반환 false'
@@ -134,6 +135,7 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 image::../media/drw_9000_remove_pcie_module.png[drw 9000 PCIe 모듈을 제거합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -160,9 +162,16 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 .. 스토리지용 두 번째 X91148A 모듈을 설치하는 경우 슬롯 7의 모듈에 대한 분리 및 설치 단계를 반복합니다.
 
 
-. 컨트롤러 A:'boot_ONTAP'을 재부팅합니다
+. LOADER 프롬프트에서 컨트롤러 A를 재부팅합니다. `bye`
++
+
+NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
 . 파트너 노드의 반환: 'storage failover 반환 - ofnode_target_node_name_'
 . 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 컨트롤러 B에 대해 이 단계를 반복합니다
-. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"].
+. 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다 https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html["NS224 드라이브 쉘프 핫 추가"^].
 
+
+--
+====
