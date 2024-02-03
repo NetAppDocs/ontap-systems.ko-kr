@@ -4140,7 +4140,6 @@
   <block id="27dcde903ce9d2827a6882d72efe7cb4" category="doc">손상된 컨트롤러를 종료합니다. - AFF FAS8300 및 FAS8700</block>
   <block id="07198f13a474589e15ec90df05d856ff" category="doc">FAS8300 및 FAS8700 시스템 문서</block>
   <block id="b8f99a879bdae690f650b2171355b5bb" category="image-alt">drw 8300 빈 라이저 분리</block>
-  <block id="ae17f8ad6d4ad0752e9da66715863b23" category="paragraph">다음 애니메이션, 일러스트레이션을 사용할 수 있습니다. 또는 PCIe 라이저 및 메자닌 카드를 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동하는 단계를 작성합니다.</block>
   <block id="6976de191bb895bccff42aea7f5ef312" category="section-title">6단계: 캐싱 모듈 이동</block>
   <block id="1e6c27613480cee2fca639b93121fd62" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 캐싱 모듈을 새 컨트롤러 모듈로 이동할 수 있습니다.</block>
   <block id="98e31120864bf3bc3ac05e5585fc2718" category="image-alt">drw A400 FlashCache 교체</block>
@@ -8792,4 +8791,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f0770a756304b05e8fc4f321e0babe43" category="open-title">옵션 2: X91148A 모듈을 스토리지 모듈로 추가</block>
   <block id="9e41ec46d0af5ba1b01d8b3bde9b4f52" category="list-text">X91148A 모듈을 슬롯 3 및/또는 7의 스토리지 모듈로 추가하는 경우 에 설명된 대로 기존 NIC 모듈이 있는 슬롯에 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block>.</block>
   <block id="c81f78014b983d44adbb454f838c2ae9" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="a84558faf7b836b9db418a291f2462b5" category="inline-link-rx"></block>.</block>
+  <block id="68439e6a6b3d21f29b1f4c3391b0fc9d" category="admonition">Ver2 컨트롤러 모듈의 FAS8300에는 캐싱 모듈 소켓(슬롯 6)이 하나만 있습니다. FAS8700에는 VER2 컨트롤러 모듈이 없습니다. 캐싱 모듈 기능은 소켓 제거의 영향을 받지 않습니다.</block>
+  <block id="c70a0b227334f67f05309732ae67641e" category="paragraph">다음 애니메이션, 그림, 시스템의 모피 맵 또는 기록된 단계를 사용하여 손상된 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 PCIe 라이저 및 메자닌 카드를 이동할 수 있습니다.</block>
+  <block id="e0b36bb653f20c62f1b87229ea86e61e" category="admonition">라이저에서 PCIe 카드를 분리하지 않아도 됩니다. PCIe 카드가 설치된 상태에서 라이저를 교체용 컨트롤러 모듈로 옮깁니다.</block>
+  <block id="569455efa28fef99f37a55bfd832334e" category="admonition">Ver2 컨트롤러 모듈에는 FAS8300에는 캐싱 모듈 소켓이 하나만 있습니다. FAS8700에는 VER2 컨트롤러 모듈이 없습니다. 캐싱 모듈 기능은 소켓 제거의 영향을 받지 않습니다.</block>
+  <block id="f30c92bb3a7434fbf14bd27327ab95f7" category="admonition">슬롯 6은 FAS8300 VER2 컨트롤러에서만 사용할 수 있습니다.</block>
 </blocks>
