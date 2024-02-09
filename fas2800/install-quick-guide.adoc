@@ -15,4 +15,4 @@ summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-link:../media/PDF/September_2023_Rev-3_FAS2800_ISI.pdf["FAS2800 시스템 설치 및 설정 지침"]
+link:../media/PDF/Jan_2024_Rev4_FAS2800_ISI_IEOPS-1479.pdf["FAS2800 시스템 설치 및 설정 지침"]

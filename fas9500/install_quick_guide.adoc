@@ -15,4 +15,4 @@ summary: 이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 
-link:../media/PDF/June_2022_Rev-1_FAS9500_ISI.pdf["FAS9500 설치 및 설정 지침"^]
+link:../media/PDF/Jan_2024_Rev3_FAS9500_ISI_IEOPS-1482.pdf["FAS9500 설치 및 설정 지침"^]
