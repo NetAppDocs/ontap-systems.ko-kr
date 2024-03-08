@@ -3106,8 +3106,6 @@
   <block id="f05cf61d6462bc25cbab09c89f88ff25" category="image-alt">drw A800 개방형 공기 덕트</block>
   <block id="cdaaae7c9540237628621c761db1e26f" category="paragraph">공기 덕트를 팬 모듈 쪽으로 밉니다</block>
   <block id="2ebdec22d5a391965cdb58290055d04c" category="paragraph">공기 덕트를 팬 모듈 쪽으로 돌립니다</block>
-  <block id="63b8891414a2163d2135a858ac9d8576" category="section-title">3단계: PCIe 라이저를 분리합니다</block>
-  <block id="0e402ea83f9434d19cbb58c56a2db717" category="paragraph">컨트롤러 모듈에서 특정 하드웨어 구성 요소를 교체할 때 하나 이상의 PCIe 라이저를 분리해야 합니다.</block>
   <block id="0d7e9cfc68207216c33db900c7febcd1" category="list-text">라이저 왼쪽의 라이저 잠금 래치를 팬 모듈 쪽으로 돌립니다.</block>
   <block id="fa323fe0e7eb4e73cb83bdb12663ab9d" category="list-text">라이저를 위로 들어 올리고 팬을 향해 이동시키고 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 들어 올린 다음 안정적이고 평평한 표면에 놓습니다.</block>
   <block id="88392f9a99f1005f66ebe3b02bcb2fc4" category="image-alt">drw A800 라이저 2 3 제거</block>
@@ -3115,9 +3113,6 @@
   <block id="f8875cd0262026ed3fb8588a40cc1ddf" category="list-text">라이저 2에서 RTC 배터리를 찾습니다.</block>
   <block id="f384f058a9e18cd94b2018353655dfd8" category="image-alt">DRW A800 RTC 배터리 교체</block>
   <block id="5970ecf5a77095b830e5e2d378b5f67c" category="paragraph">라이저 2</block>
-  <block id="2ac4ac5667e74f34105113704c416ab4" category="section-title">5단계: PCIe 라이저를 설치합니다</block>
-  <block id="b7d2c15ba4d23a3704c6e0fa1cd09303" category="paragraph">손상된 컨트롤러의 하드웨어 구성 요소를 교체한 후 PCIe 라이저를 다시 설치합니다.</block>
-  <block id="5b6534f621851e68cd3102bd5d746226" category="section-title">6단계: 컨트롤러 모듈을 다시 설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</block>
   <block id="759e216c6a22313a95c34c198ce8cb0b" category="summary">부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라이저 3을 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다.</block>
   <block id="c77a1ae1297b5c5dbfc50dce06f417ff" category="image-alt">drw A800 부트 미디어 교체</block>
   <block id="413c7cb867bfe063a5a3a480228674da" category="paragraph">라이저 3</block>
@@ -8796,4 +8791,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="738ad40a42e139ed29cebf62dfc05a11" category="paragraph"><block ref="738ad40a42e139ed29cebf62dfc05a11" category="inline-link-macro-rx"></block></block>
   <block id="99ddf4d694dac695dfe3508f22a2764a" category="paragraph"><block ref="99ddf4d694dac695dfe3508f22a2764a" category="inline-link-macro-rx"></block></block>
   <block id="2cff6532f0a35fcdab297942157a970e" category="paragraph">랙 설치 및 케이블 연결부터 초기 시스템 시작까지 C190 시스템을 설치하는 방법에 대해 알아보십시오. 를 사용합니다 <block ref="861cf0a8c95d8b17a03c43773caa91e4" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
+  <block id="6b94783b3a4b318de01cab9d3ec81247" category="open-title">원래 컨트롤러</block>
+  <block id="2790027947ff94fbf03f63a1df957821" category="list-text">컨트롤러 모듈에서 PCIe 라이저 2(중간 라이저)를 분리합니다.</block>
+  <block id="f24c160de87a570618194aa5d8b9c9de" category="open-title">VER2 컨트롤러</block>
+  <block id="204438254dc5e5c9fbc69d974b0ec2ad" category="list-text">DIMM 근처에서 RTC 배터리를 찾습니다.</block>
+  <block id="71adfc8a5d09d16090dd4dd7ff8256f4" category="image-alt">DRW A800 RTC 배터리 v2 교체</block>
 </blocks>
