@@ -178,7 +178,7 @@ image::../media/drw_affa800_weight_caution.png[drw affa800 무게 주의]
 
 . 케이블 관리 장치를 연결합니다(그림 참조).
 +
-image::../media/drw_affc800_install_cable_mgmt.png[Drw affc800 설치 케이블 관리]
+image::../media/drw_affa800_install_cable_mgmt.png[drw affa800 설치 케이블 관리]
 
 . 시스템 전면에 베젤을 부착합니다.
 

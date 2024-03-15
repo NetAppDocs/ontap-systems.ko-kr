@@ -23,7 +23,7 @@
 
 . 필요한 경우 교체 노드의 날짜(GMT)를 'SET DATE_MM/dd/yyyy_'로 설정합니다
 . 필요한 경우 교체 노드의 시간을 GMT 단위로 'SET TIME_hh:mm:ss_'로 설정합니다
-. LOADER 프롬프트에서 _replacement_node의 날짜 및 시간을 확인합니다. `date`
+. LOADER 프롬프트에서 _replacement_node의 날짜 및 시간을 확인합니다. `show date`
 +
 날짜 및 시간은 GMT로 제공됩니다.
 
