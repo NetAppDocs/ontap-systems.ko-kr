@@ -1,5 +1,8 @@
 ---
 indexpage:
+  title: ASA(All-Flash SAN 어레이) A-Series 시스템
+  summary: 스토리지 시스템 설명서를 통해 ASA A-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
+  keywords: asa, a-series, asa a150, asa a250, asa a400, asa a800, asa a900, datasheet
   lead: NetApp의 All Flash SAN 어레이(ASA)는 조직의 미션 크리티컬 데이터베이스와 기타 SAN 워크로드에 지속적인 데이터
     가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다.
   tiles:

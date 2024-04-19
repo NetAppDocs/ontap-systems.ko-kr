@@ -1,5 +1,8 @@
 ---
 indexpage:
+  title: AFF C-Series 시스템
+  summary: 스토리지 시스템 설명서를 통해 ASA 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
+  keywords: aff c-series, datasheet, C250, C400, C800
   lead: AFF C-Series 시스템은 고밀도 NVMe 용량 플래시 기술을 기반으로 구축되었습니다.
   tiles:
   - title: 시작하십시오

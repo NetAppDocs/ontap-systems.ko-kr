@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: 이용 종료 시스템
+  summary: 스토리지 시스템 설명서를 통해 ASA 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
+  keywords: storage, system, end of availability, supported switches, maintain, a200,
+    a220, a300, a320, a700, a700s, c190
   lead: 이용 종료 시스템은 더 이상 구매할 수 없지만 여전히 지원됩니다.
   tiles:
   - title: 설치 및 설정

@@ -35,7 +35,6 @@ summary: '시스템에서 모듈이 오프라인으로 전환되었다는 단일
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
 
 .이 작업에 대해
-* NetApp Storage Encryption을 사용하는 경우 의 지침에 따라 MSID를 재설정해야 합니다 link:https://docs.netapp.com/us-en/ontap/encryption-at-rest/return-seds-unprotected-mode-task.html["SED를 보호되지 않는 모드로 되돌리는 중입니다"].
 * SAN 시스템을 사용하는 경우 이벤트 메시지를 확인해야 합니다  `cluster kernel-service show`) 손상된 컨트롤러 SCSI 블레이드의 경우. 를 클릭합니다 `cluster kernel-service show` 명령은 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태를 표시합니다.
 +
 각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.

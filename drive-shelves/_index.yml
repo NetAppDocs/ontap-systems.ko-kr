@@ -1,5 +1,10 @@
 ---
 indexpage:
+  title: ONTAP 하드웨어 시스템용 드라이브 쉘프
+  summary: NS224 및 SAS 쉘프는 다양한 비즈니스 및 애플리케이션 요구를 지원하기 위해 NetApp AFF 및 FAS 시스템용으로 특별히
+    설계되었습니다.
+  keywords: install ns224, hot-add, shelves, cable, drive-shelves
+  lead: NetApp의 NS224 쉘프 및 SAS 쉘프는 디지털 혁신에 필요한 성능, 복원력, 유연성을 제공합니다.
   tiles:
   - title: NS224 쉘프를 설치합니다
     links:

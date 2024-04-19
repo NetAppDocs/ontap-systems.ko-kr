@@ -1,5 +1,8 @@
 ---
 indexpage:
+  title: FAS 시스템
+  summary: 스토리지 시스템 설명서를 통해 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
+  keywords: fas2700, fas9500, fas2800, fas8300, fas8700, storage, systems, datasheet
   lead: FAS 스토리지 시스템을 사용하면 단순하고 스마트하며 신뢰할 수 있는 스토리지 인프라를 구축할 수 있습니다.
   tiles:
   - title: 시작하십시오

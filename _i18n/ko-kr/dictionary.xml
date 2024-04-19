@@ -6390,8 +6390,6 @@
   <block id="7d60346fb854755b0fc4b8486f2e5769" category="section-title">1단계: ONTAP에서 _replacement_controller에 대한 라이센스 설치</block>
   <block id="541648f14089765ba6e8c3198be32507" category="section-title">2단계: 부팅 매체를 교체합니다</block>
   <block id="6fdf23777adc5b39f52f2829b69833e5" category="inline-link-macro">노드를 클러스터와 동기화합니다</block>
-  <block id="692418fcc9983296fd6b89b4072b99d2" category="inline-link-macro">SED를 보호되지 않는 모드로 되돌리는 중입니다</block>
-  <block id="aa641c641cc4509747c629778ceba1e6" category="list-text">NetApp Storage Encryption을 사용하는 경우 의 지침에 따라 MSID를 재설정해야 합니다 <block ref="deeaf76d485e47e462d03c774bc2ca5e" category="inline-link-macro-rx"></block>.</block>
   <block id="dca9d9d34ff973dbf261373e223aa9e4" category="list-text">SAN 시스템을 사용하는 경우 이벤트 메시지를 확인해야 합니다 <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix="(" category="inline-code"></block>) 손상된 컨트롤러 SCSI 블레이드의 경우. 를 클릭합니다<block ref="090678c8ba0a25df800d3d4eeaf19522" prefix=" " category="inline-code"></block> 명령은 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태를 표시합니다.</block>
   <block id="03733c422db2a03d86659ae5a1e923dc" category="paragraph">다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.<block ref="387708b955ccf034fcf9197ad51ba879" prefix=" " category="inline-code"></block></block>
   <block id="f1f0ba04096d04407de2d15a11510ac1" category="paragraph">시스템 프롬프트 또는 암호 프롬프트</block>
@@ -7141,7 +7139,6 @@
   <block id="eba4465f65ac7360936f8f238b09999c" category="list-text">웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블.</block>
   <block id="c7e4a9edbb9ec3bb0052efd3332763a3" category="section-title">3단계: 컨트롤러를 클러스터에 케이블로 연결합니다</block>
   <block id="089103029c56ad66034dfe6bd70cfdcb" category="paragraph">애니메이션이나 표 형식 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 각 컨트롤러에서 단계를 수행합니다.</block>
-  <block id="38e134ad6d648c53626268f8b6a82510" category="list-text">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c~e0c 및 e0d를 e0에 케이블로 연결합니다<block ref="6b6a40b68f5814cad1750bfff7e3b927" category="inline-image-macro-rx" type="image"></block>:</block>
   <block id="5d8d8fe980b572286e75db6ff18d3cbc" category="paragraph"><block ref="5d8d8fe980b572286e75db6ff18d3cbc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="84e68180cd83b83ca12149fed857f1ac" category="list-text">클러스터 인터커넥트 포트 e0c 및 e0d를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.</block>
   <block id="ee3f9d0ec20204c7d48b52d859e31c4d" category="paragraph"><block ref="ee3f9d0ec20204c7d48b52d859e31c4d" category="inline-image-macro-rx" type="image"></block></block>
@@ -7751,7 +7748,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fbc33e94068f7206fe1f29c2cdd767fe" category="paragraph">메자닌 카드는 마더보드의 특수 슬롯에 삽입되도록 설계된 확장 카드입니다.</block>
   <block id="e8bc49790ccdd5f485eb537cc7b3081d" category="summary">키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환해야 합니다.</block>
   <block id="9260991b91fdf449af1f97b5d09a9db6" category="summary">NS224 및 SAS 쉘프는 다양한 비즈니스 및 애플리케이션 요구를 지원하기 위해 NetApp AFF 및 FAS 시스템용으로 특별히 설계되었습니다.</block>
-  <block id="0add3a06a3c8079fac5caa294ad21965" category="doc">AFF 및 FAS 시스템의 드라이브 쉘프</block>
   <block id="4de4b37af472f8b6bb5aa5b5732538f0" category="summary">ASA C250 하드웨어 유지보수</block>
   <block id="80b77aae28ed3360a8b704371f5188e1" category="doc">AFF C250 하드웨어 유지보수</block>
   <block id="ab253cf54adf6fdbb65cbb0ed70cb2cf" category="paragraph">AFF C250 스토리지 시스템의 경우, 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
@@ -8792,4 +8788,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4169d3d04b863ba6044225d783c8511c" category="paragraph">를 사용합니다 <block ref="760faf2edba83a3b2dfe198c423cd5ec" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="230fb764922530d0d527b96fb40d15f8" category="paragraph"><block ref="230fb764922530d0d527b96fb40d15f8" category="inline-link-macro-rx"></block></block>
   <block id="9e4682a37df843156979b712e93e942d" category="paragraph"><block ref="9e4682a37df843156979b712e93e942d" category="inline-link-macro-rx"></block></block>
+  <block id="370d65afeef540ea21d331a7da8675ec" category="list-text">25GbE 클러스터 인터커넥트 케이블로 클러스터 인터커넥트 포트 e0c에서 e0c 및 e0d~e0d를 연결합니다.</block>
+  <block id="45c0f160ca0efa09fc0b198986db5e31" category="image-alt">drw affa250 스위치 클라이언트 케이블</block>
+  <block id="5407ed45e4a9085a4f72a4611d202d7c" category="sidebar">NetApp의 NS224 쉘프 및 SAS 쉘프는 디지털 혁신에 필요한 성능, 복원력, 유연성을 제공합니다.</block>
+  <block id="432ba2d883505b11fa27f305c25abca9" category="sidebar">ONTAP 하드웨어 시스템용 드라이브 쉘프</block>
 </blocks>
