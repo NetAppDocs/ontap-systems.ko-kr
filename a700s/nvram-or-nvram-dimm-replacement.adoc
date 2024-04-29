@@ -373,25 +373,6 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 
 
 
-== 6단계: 스토리지 및 볼륨 암호화 기능 복원
-
-이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 경우 무중단 암호화 기능을 제공하기 위해 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.
-
-
-NOTE: DIMM을 교체할 때는 이 단계가 필요하지 않습니다.
-
-.단계
-. 온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.
-+
-** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-onboard-key-management-encryption-keys-task.html["온보드 키 관리 암호화 키를 복원합니다"^]
-** https://docs.netapp.com/us-en/ontap/encryption-at-rest/restore-external-encryption-keys-93-later-task.html["외부 키 관리 암호화 키를 복원합니다"^]
-
-
-. SED MSID를 재설정합니다
-
-
-
-
-== 7단계: 장애가 발생한 부품을 NetApp에 반환
+== 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

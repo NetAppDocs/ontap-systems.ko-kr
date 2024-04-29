@@ -262,7 +262,6 @@
   <block id="11d90ad9838fdc1545ee368cd8943df9" category="list-text">필요한 경우 이전 라이센스를 제거합니다.</block>
   <block id="eb9892aa7a6ee6cfe6b30dad735d6d7a" category="list-text">미사용 라이선스 확인:'라이선스 정리 - 미사용 - 시뮬레이션</block>
   <block id="f77eef718a5ddb0006a44a75016370bf" category="list-text">목록이 올바르면 사용하지 않는 사용권의 'license clean-up-unused'를 삭제합니다</block>
-  <block id="518d2076bf387a28038f7558530bb987" category="inline-link">CLI를 통한 NetApp 암호화 개요</block>
   <block id="e68c8836280fba147b04a2b14b196600" category="paragraph">온보드 키 관리를 사용하는지 또는 외부 키 관리를 사용하는지 여부에 따라 다음 절차 중 하나를 사용하십시오.</block>
   <block id="556aba51608845a42e971c4c7b471837" category="paragraph">replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 설정된 경우 _replacement_node의 일련 번호를 등록하고, 자동 반환 기능을 재설정해야 합니다.</block>
   <block id="462ec873925d8409f9ead354ff424e1b" category="list-text">논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다</block>
@@ -2141,7 +2140,6 @@
   <block id="26d09b9ba8933f73cf8d88ec306034f4" category="list-text">캠 핸들을 돌려 전원 공급 장치와 수평이 되도록 합니다.</block>
   <block id="0a3c10475b565c5c41bceed53441082c" category="doc">NVMEM 배터리 - FAS8200을 교체합니다</block>
   <block id="686631a3f808d481cbff656f883e6657" category="section-title">옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다</block>
-  <block id="063a6c27f42a062a6ece0163f4444fc3" category="list-text">NetApp Storage Encryption을 사용하는 경우 의 "FIPS 드라이브 또는 SED를 보호되지 않는 모드로 되돌리기" 섹션의 지침에 따라 MSID를 재설정해야 합니다 <block ref="bb6c6af86c0c41920e9753bb15981800" category="inline-link-macro-rx"></block>.</block>
   <block id="a4d3e0e884bda08238ebcf294cd22173" category="list-text">자동 절체가 발생했는지 여부에 따라 다음 표에 따라 진행합니다.</block>
   <block id="3bb6bfde9e3647655849196d4817633d" category="paragraph">가 자동으로 전환되었습니다</block>
   <block id="223bed434b435ef97172b24efc947bc4" category="paragraph">가 자동으로 전환되지 않았습니다</block>
@@ -2965,7 +2963,6 @@
   <block id="88de6a437c20bc32d754f16685e940b8" category="image-alt">drw 2600 부트 미디어 move aminated gif</block>
   <block id="a47803b6b6d01b67efcc88a157378c39" category="doc">장애가 발생한 부품을 NetApp-FAS2600으로 반환합니다</block>
   <block id="d2efa0c31f219abbc043377bfd4ffa3b" category="doc">복구 이미지 - FAS2600을 부팅합니다</block>
-  <block id="30748b1b116d9335e2b8cdb6ec3038d0" category="list-text">환경 변수가 예상대로 설정되어 있지 않으면 'etenvenvenvenEnvironment_variable_name changed_value' 명령으로 변경하십시오.</block>
   <block id="36ca3aba3a7a15053f83817ea55948cc" category="doc">시스템을 재할당하고 디스크를 재할당할 수 있습니다. - FAS2600</block>
   <block id="54460a9998b0b0517a52cc21d98c7497" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다. 구성에 맞는 절차를 사용해야 합니다.</block>
   <block id="6b0ffb907f1863f46339c1cee8853799" category="section-title">옵션 2: ONTAP의 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다</block>
@@ -3541,7 +3538,6 @@
   <block id="0a777e4b645d66ac575356b85c16ed55" category="paragraph">자동 부팅이 설정된 경우 노드가 재부팅됩니다.</block>
   <block id="554a23fbeb893ba3c6cb31c09b0d481f" category="paragraph">MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이때 각 노드에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.</block>
   <block id="a5d68caf62cce2afa4e8ca12ce07943a" category="open-title">옵션 2: ID 재할당(MetroCluster 구성)</block>
-  <block id="3bf4c288b20a882f54f61cd8cb0618a7" category="section-title">6단계: 스토리지 및 볼륨 암호화 기능 복원</block>
   <block id="e03aee19ca3d6bfae73287d53384458b" category="inline-link">AFF A700 설치 및 설정 지침</block>
   <block id="123ef787b4689ac71f6faa1ecdb5c6c4" category="inline-link">FAS9000 설치 및 설정 지침</block>
   <block id="52ca5a52198c80398dfe6a706737b20e" category="paragraph">"image_xxx.tgz"를 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.</block>
@@ -4014,7 +4010,6 @@
   <block id="1396dacdf561903f32c605f06d2cf5d8" category="list-text">복원 백업이 성공했는지 확인하는 메시지가 나타나면 'y'를 누릅니다.</block>
   <block id="c9ed271ea801891a1b5c1e6e048813b6" category="list-text">복원된 구성 복사를 묻는 메시지가 나타나면 'Y'를 누릅니다.</block>
   <block id="2ddd54a208744ec5e2ccb1b7ac83aa05" category="list-text">printenv 명령을 사용하여 환경 변수 설정을 확인합니다.</block>
-  <block id="edb5a1f64879356169f323de78b718be" category="list-text">환경 변수가 예상대로 설정되어 있지 않으면 setenvenvenEnvironment_variable_name changed_value 명령을 사용하여 환경 변수를 수정합니다.</block>
   <block id="eeacd9b31ab0c2f60f1d13e5632f7f13" category="list-text">saveenv 명령을 사용하여 변경 내용을 저장합니다.</block>
   <block id="29d4dec218aeaffabfed6dcc8fd1ad45" category="list-text">시스템에 온보드 키 관리자, NSE 또는 NVE가 구성된 경우 로 이동합니다 <block ref="39910b5f3ea1ee39d8059faae857cc98" category="inline-xref-macro-rx"></block></block>
   <block id="b52d8d1d987722da12d16df8a0a63541" category="list-text">LOADER 프롬프트에서 boot_ontap 명령을 입력합니다.</block>
@@ -6441,12 +6436,6 @@
   <block id="1422875ceb77c2edc7c07474b11b3c6f" category="list-text">컨트롤러 모듈 에어 덕트를 엽니다.</block>
   <block id="43ae4ee714a69574b12c2b05c54410b5" category="list-text">모듈 손잡이의 테라 코타 분리 단추를 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.</block>
   <block id="0721343ac8e5e32a5122775fda62e4d0" category="doc">구성을 복원 및 확인합니다 - AFF A900</block>
-  <block id="2c35abfceaabbce6e9a2f24491d249c0" category="open-title">옵션 1: Onboard Key Manager 사용</block>
-  <block id="86b112e5aa1ced4fbffb09dded147e9f" category="list-text">노드를 부팅 메뉴로 부팅합니다.</block>
-  <block id="e07ae2ef2fbd56f8a3ced5a2ab602ded" category="list-text">옵션 10을 선택합니다.<block ref="cdca34dc3d7defb03d741a65d78de01c" prefix=" " category="inline-code"></block>.</block>
-  <block id="0a2404583aab34668c1c8004bddabbaa" category="list-text">옵션 1을 선택합니다.<block ref="e6922a1788401c5ef431db829a2c387b" prefix=" " category="inline-code"></block></block>
-  <block id="c566d4828cd295258aa8097a90880602" category="open-title">옵션 2: 외부 관리자 사용</block>
-  <block id="0a05a9975c9259ea331a85366e41d3ce" category="list-text">옵션 11을 선택합니다.<block ref="0dd518498ab98fe1fd543910856e6153" prefix=" " category="inline-code"></block>.</block>
   <block id="a5462faa34b6cf806cb49f24d84b02a7" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="c56809d9cff2ea190c6fb9d67e804b42" category="paragraph">섀시를 교체할 때 섀시 전면에 있는 6개의 팬 모듈을 분리해야 합니다.</block>
   <block id="e9e9a6de5e421dfe8a5ccc0b156ecc94" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다<block ref="432345ed72f5509f18312f01d4f08dff" prefix=" " category="inline-code"></block> 명령 또는 시스템 포장 목록에서 선택합니다.</block>
@@ -6462,17 +6451,6 @@
   <block id="192e7ded6d54e3ac04596dc33b9c67cf" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="741ade379895992f2a574e8e60de1571" category="section-title">2단계: 입출력 모듈 추가</block>
   <block id="31ac56c0f673cbef254563f6a8a32626" category="paragraph">시스템이 완전히 채워진 경우 기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 입출력 슬롯의 입출력 모듈을 변경할 수 있습니다.</block>
-  <block id="74458273e576f4b2da617a6e0e209a5f" category="paragraph">저장소 암호화가 활성화된 경우 적절한 절차를 사용합니다.</block>
-  <block id="23620cc2fa7491aefb480afbef75dac2" category="list-text">고객으로부터 받은 온보드 키 관리자의 암호를 입력합니다.</block>
-  <block id="15247f97704eb964c60d179c321c1370" category="list-text">프롬프트에서 의 출력에서 백업 키 데이터를 붙여 넣습니다<block ref="6b6f6c1a8bc1fede794cda92ed140953" prefix=" " category="inline-code"></block> 또는<block ref="32ba7af89b7557f6e3e6d80a922080ce" prefix=" " category="inline-code"></block> 명령.</block>
-  <block id="8726b2ef66dc0e734b269a3191597e11" category="paragraph">------------------------------ 백업 시작 -------------------------------------------------------</block>
-  <block id="328f6eaec3741c1d0f9558d6c40c1da4" category="paragraph">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVAAVHAVHAVHAVHAVHABOHAAAVHAAVHAAVH0AABAABAAH0AAHAAAHAAAHAAAH0AAHAAAHAAAH0AAHAAAHAAAHAAAHAAAHAAAHAAAH0AAAAAAHAAAHAAAH0AAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA . . . H4nPQM0nrDRYRA9SCv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</block>
-  <block id="1e4d7cab6ce42bcab6973efa42fc0b2c" category="list-text">보안 키 관리자 온보드 동기화 실행:</block>
-  <block id="377fca3965b001b9bcc8843e1b287fe7" category="list-text">이전에 MSID가 설정되어 이 절차의 시작 부분에서 캡처된 경우 MSID를 재설정합니다.</block>
-  <block id="a967d40ef247a202e5f1ce7a9626a0ca" category="list-text">를 사용하여 FIPS 드라이브 또는 SED에 데이터 인증 키를 할당합니다<block ref="8fc59e93e98503b6d1b1230269b06192" prefix=" " category="inline-code"></block> 명령.</block>
-  <block id="551eb7af7cdc6ae3394d506bd47a783d" category="admonition">를 사용할 수 있습니다<block ref="eb3cf23f0c9c60ca759ddca34bbfbf56" prefix=" " category="inline-code"></block> 키 ID를 확인하는 명령입니다.</block>
-  <block id="6f44d6d36af2c0294f4e53a2e6947b94" category="list-text">를 사용하여 인증 키가 할당되었는지 확인합니다<block ref="46353f4e0bb2c136591c37c9eeedcf40" prefix=" " category="inline-code"></block> 명령.</block>
-  <block id="960bc5d7d199e0e148cd3dd0e517250d" category="list-text">프롬프트에 관리 인증서 정보를 입력합니다.</block>
   <block id="037baf09c7ddcc7c38f81e7dbe35fa87" category="paragraph">빈 슬롯이 있는 시스템에 새 I/O 결절을 추가하거나 완전히 채워진 시스템에서 I/O 모듈을 새 결절로 교체하여 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="55f1569cdcfb82612fcf293f23db4f6f" category="list-text">를 확인하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.</block>
   <block id="6e4968851f4373ab9764e16cffb39389" category="list-text">여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.</block>
@@ -6496,9 +6474,6 @@
   <block id="85445cdcf89edd32e9cf4cb8554898a3" category="image-alt">drw A400 NVDIMM IEOPS 1009 교체</block>
   <block id="f5a5a95a5282486c3989ed932401b693" category="image-alt">drw A900 케이블 콘솔 스위치 컨트롤러 IEOPS 953</block>
   <block id="0ea0d47e034118a7f063c35eaf67ebd2" category="list-text">스토리지 암호화가 활성화된 경우 기능을 복원해야 합니다.</block>
-  <block id="718ea359d9cc2d2bff619909d16ec537" category="admonition">컨트롤러가 부팅 메뉴로 돌아갑니다.</block>
-  <block id="a9cbabd3f42c5ad7f4796dbf5e384b08" category="list-text">부팅 메뉴로 컨트롤러를 부팅합니다.</block>
-  <block id="1e37c9a4ea44b0a302091f02c74564c1" category="admonition">관리 인증서 정보가 완료되면 컨트롤러가 부팅 메뉴로 돌아갑니다.</block>
   <block id="34dbbed571bcfe30f4b9897172116b74" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block></block>
   <block id="90d49fcc83418b049803a1b2081f3c6b" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block></block>
   <block id="14fa1a86493af188cbb574d402b31f1b" category="list-text">로 돌아갑니다 <block ref="c67cdb63ab5b46180d9910dcb0f03689" category="inline-xref-macro-rx"></block> NVMEM LED를 다시 확인하려면 이 절차를 수행하십시오.</block>
@@ -7339,7 +7314,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="ab18556462377223339c421c568ab231" category="paragraph"><block ref="ab18556462377223339c421c568ab231" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6b6e58fb741960f0300c7783438276a5" category="paragraph">부트 미디어 잠금 탭</block>
   <block id="fa8b2d8b91c1c89065d3652288dbddc1" category="list-text">다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 메자닌 카드를 분리합니다.</block>
-  <block id="c684d6ba7251084d87edf6423b1ebd24" category="list-text">메자닌 카드 베젤을 컨트롤러 모듈에서 똑바로 밀어 분리합니다.</block>
   <block id="d62aede9e33b9cbeca49d6fcc6de78c2" category="list-text">메자닌 카드의 손잡이 나사를 풉니다.</block>
   <block id="db1a320c26dfcefe739a659ae4724890" category="admonition">손가락이나 드라이버로 나비나사를 풀 수 있습니다. 손가락을 사용하는 경우, NV 배터리를 위로 돌려 옆에 있는 손나사를 보다 잘 구입할 수 있습니다.</block>
   <block id="1a64138e0b66965c80b909462ba9543f" category="list-text">메자닌 카드를 위로 들어올립니다.</block>
@@ -7350,7 +7324,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="d29b17eb668c51029bfa0626ffe7500f" category="list-text">메자닌 카드를 재설치합니다.</block>
   <block id="834f618686de8125c24ea965ba281757" category="list-text">마더보드의 소켓을 메자닌 카드의 소켓에 맞춘 다음 소켓에 카드를 조심스럽게 장착합니다.</block>
   <block id="361016e8b59dfa6e2e2f28d3e38835e1" category="list-text">메자닌 카드에 있는 3개의 손잡이 나사를 조입니다.</block>
-  <block id="31276a19caaffd6d8a485978edefcae8" category="list-text">메자닌 베젤을 재설치합니다.</block>
   <block id="eef513f5198b93971d313eb80e4da6fb" category="list-text">컨트롤러 모듈 덮개를 다시 설치하고 제자리에 고정합니다.</block>
   <block id="1aecc8a01c9fc90b26bed0f39865bc18" category="paragraph">이미지가 설치된 USB 플래시 드라이브를 사용하여 교체 부팅 미디어에 시스템 이미지를 설치합니다. 이 절차 중에 var 파일 시스템을 복구해야 합니다.</block>
   <block id="4c10168d5e2592171ac54097149079b0" category="list-text">최소 4GB 용량의 MBR/FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.</block>
@@ -7373,7 +7346,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="cf6800eb49ae54456676c105c115a1fa" category="section-title">3단계: 메자닌 카드를 교체합니다</block>
   <block id="6918dd1d1ecfa7a18a047a925c4f30ee" category="paragraph">메자닌 카드를 교체합니다.</block>
   <block id="808ce573561d6717a3c0cc395df3a504" category="image-alt">2850 drw 는 HIC IEOPS 700을 대체합니다</block>
-  <block id="b98f82c68dbd20395815986320582ec2" category="paragraph">라이저 베젤</block>
   <block id="83b54898f0ac014b1e217ee413643205" category="paragraph">PCIe 메자닌 카드</block>
   <block id="64016c063cf6b470fdcccc5a97f852b1" category="list-text">메자닌 카드의 손잡이 나사를 풀고 메자닌 카드를 위로 들어올립니다.</block>
   <block id="4bca5310f65e82fe5c4eec2c7a1c6c17" category="list-text">교체용 메자닌 카드 플러그의 소켓을 마더보드의 소켓에 맞춘 다음 카드를 소켓에 똑바로 맞춥니다.</block>
@@ -7383,8 +7355,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="d32890221c5529cefc96a956073d9844" category="list-text">를 사용하여 자동 반환 복원<block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="e2306cfc3634594ca9e5483d541a9eb2" category="doc">전체 시스템 복원 - FAS2800</block>
   <block id="954e375575b9fbd9370aa08dd503d453" category="paragraph">NetApp 스토리지 암호화 또는 볼륨 암호화 구성(필요한 경우)을 복원하고 교체 컨트롤러에 대한 라이센스를 설치한 다음 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp로 반환하여 시스템을 전체 운영으로 복원합니다.</block>
-  <block id="ff3a1a304de699b15bd2a5a39798c5a8" category="section-title">2단계: 스토리지 및 볼륨 암호화 기능 복원</block>
-  <block id="332c846459ecae57b885b30c41482384" category="section-title">3단계: LIF를 확인하고 일련 번호를 등록합니다</block>
   <block id="458c640b6a96cac4ef20be523ebb7f89" category="doc">NVMEM 배터리를 교체합니다. - FAS2800</block>
   <block id="26e700524d9a1c0b6c28c8ad2d207679" category="section-title">2단계: 컨트롤러 모듈을 분리하고 엽니다</block>
   <block id="2a0805526339647b20ef0fc7df37dd6f" category="paragraph">컨트롤러 모듈을 분리하고 엽니다.</block>
@@ -7420,8 +7390,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="2549b95d18de43d1c8602f07ed634585" category="list-text">배터리를 교체 컨트롤러 모듈로 옮기고 설치합니다.</block>
   <block id="350a3cd01c92197375fa1dd80773199d" category="admonition">배터리를 아직 연결하지 마십시오.  나머지 구성 요소를 교체 컨트롤러 모듈로 이동하면 플러그를 꽂을 수 있습니다.</block>
   <block id="ba9da6f2122b24c495dd034a4a5ec818" category="section-title">3단계: 메자닌 카드를 분리합니다</block>
-  <block id="853a9f16e976ca6346fa38e81f8476a8" category="paragraph">손상된 컨트롤러 모듈에서 메자닌 베젤과 PCIe 메자닌 카드를 분리합니다.</block>
-  <block id="539df95ed4f8e5993f75e19be1a36f64" category="list-text">메자닌 카드 베젤을 컨트롤러 모듈에서 똑바로 밀어 분리합니다.</block>
   <block id="7bb524aff91b85838c807523fc1e4828" category="admonition">손가락이나 드라이버로 나비나사를 풀 수 있습니다.</block>
   <block id="099cf7f6040f65b3c9d7fb3f7393d4c3" category="list-text">메자닌 카드를 똑바로 들어 올려 정전기 방지 표면에 놓습니다.</block>
   <block id="3356d87e196ed94acd2635f8d405e53f" category="paragraph">손상된 컨트롤러 모듈에서 부팅 미디어를 분리하여 교체 컨트롤러 모듈에 설치합니다.</block>
@@ -7437,7 +7405,6 @@ storage failover modify -node local -auto-반환 false'입니다
   <block id="a00bf690f9db0be90ea5ab9cde9db677" category="paragraph">교체용 컨트롤러 모듈에 메자닌 카드를 설치합니다.</block>
   <block id="507e7243ab4a1d0bdbfa4edd5c9733d3" category="list-text">메자닌 카드를 마더보드의 소켓에 맞춥니다.</block>
   <block id="fc7fc35188ad3f7c32f3328839f4dff2" category="list-text">카드를 조심스럽게 눌러 소켓에 장착합니다.</block>
-  <block id="803bc905348545eacfc8739f67ee6fc2" category="list-text">메자닌 카드 베젤을 재설치합니다.</block>
   <block id="ec782fd2b49f0e4d6edd263c0d30d7f7" category="paragraph">손상된 컨트롤러 모듈에서 DIMM을 분리하여 교체 컨트롤러 모듈에 설치합니다.</block>
   <block id="64b66263e264f63be40a6135bb7e5f04" category="image-alt">2850 drw DIMMs IEOPS 699 교체</block>
   <block id="2a7c25f4f62d559672aaa2da18086b65" category="paragraph">DIMM 잠금 래치</block>
@@ -8380,7 +8347,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d5fe92183ddfd6502c92a350a2928047" category="list-text">e0b ~ e0b
 <block ref="23c439b7ef31021d610e4d3b988f3cd1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10fbfa6320d8e7c72e731fbd9a6e6c69" category="admonition">디스크 재할당은 NVRAM 모듈을 교체할 때만 필요하며 NVRAM DIMM 교체에는 적용되지 않습니다.</block>
-  <block id="099f7b942e4e89631784891716949599" category="admonition">이 단계는 NVRAM DIMM 교체에 적용되지 않습니다.</block>
   <block id="ce75c7b2bf3b15b7659cc85a9c36c6f8" category="admonition">프롬프트에서 고객의 32자 영숫자 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block></block>
   <block id="2f061f16ff1dc3668b0b979718bcf140" category="paragraph">프롬프트에서 고객의 32자 영숫자 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp Support에 문의하십시오.</block>
   <block id="f44ae95a820a7e92672103acdefa1387" category="paragraph"><block ref="5e48dfc079c01fd7f817337abb01a320" prefix="" category="inline-code"></block></block>
@@ -8792,4 +8758,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="45c0f160ca0efa09fc0b198986db5e31" category="image-alt">drw affa250 스위치 클라이언트 케이블</block>
   <block id="5407ed45e4a9085a4f72a4611d202d7c" category="sidebar">NetApp의 NS224 쉘프 및 SAS 쉘프는 디지털 혁신에 필요한 성능, 복원력, 유연성을 제공합니다.</block>
   <block id="432ba2d883505b11fa27f305c25abca9" category="sidebar">ONTAP 하드웨어 시스템용 드라이브 쉘프</block>
+  <block id="4ab265d37ededf839a389d0b0bedcb7f" category="paragraph">30cm</block>
+  <block id="70f83c59fcbb747c1a869b38caf783e3" category="list-text">환경 변수가 예상대로 설정되지 않은 경우 로 수정합니다<block ref="ac4028a4cb48838c0a22ab27fa6e6920" prefix=" " category="inline-code"></block> 명령.</block>
+  <block id="f0c3921d8aabdebf1548d35d830083d9" category="list-text">컨트롤러 모듈에서 IO Plate를 똑바로 밀어 꺼냅니다.</block>
+  <block id="4dfabb2b4515ceefb323f4a3eb8d4a32" category="list-text">IO Plate를 다시 설치합니다.</block>
+  <block id="ed991b7c3c7e4af5c89a603772f54dd1" category="paragraph">손상된 컨트롤러 모듈에서 IO Plate 및 PCIe 메자닌 카드를 분리합니다.</block>
+  <block id="eeb8f13cb25825752e216fedcd65a6b1" category="paragraph">IO 플레이트</block>
+  <block id="c746ae924024283281476c33315a4598" category="list-text">컨트롤러 모듈에서 IO Plate를 똑바로 밀어 꺼냅니다.</block>
 </blocks>
