@@ -22,7 +22,7 @@ entries:
     url: "/ns224/service-replace-drive.html"
   - title: 드라이브 쉘프
     entries:
-    - title: NS224 쉘프 개요
+    - title: 셸프 유지 관리 개요
       url: "/ns224/ns224-shelf-overview.html"
     - title: 냉장 교체 선반
       url: "/ns224/cold-replace-shelf.html"
