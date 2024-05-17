@@ -779,19 +779,16 @@
   <block id="cb7c2f210d0b823f99f441d18f868850" category="list-text">온보드 SAS HBA는 컨트롤러에 레이블이 지정된 것과 마찬가지로 PCI 슬롯 0을 점유하는 것으로 정의됩니다.</block>
   <block id="ff654fb1af810770d4355a5c3a88d631" category="list-text">각 슬롯의 각 포트는 컨트롤러에 표시되어 있는 것처럼 정의됩니다. 예를 들어 포트 2개가 있는 슬롯 0을 0a 및 0b라고 합니다. 포트가 4개인 슬롯 1을 1a, 1b, 1c 및 1d라고 합니다.</block>
   <block id="bc776c180ed4018f4cb6f873e2f3c87d" category="paragraph">이 문서에서는 슬롯 및 슬롯 포트를 다음과 같이 설명합니다.</block>
-  <block id="b95eb6743cbe688091bd2cfb7e2183e7" category="image-alt">슬로싱 규칙</block>
   <block id="32455c6254e3a15b603b17e884e4a3f5" category="section-title">Shelf-Shelf 연결 규칙</block>
   <block id="9e6bd75d2dbbefca4d7d3cc44a0101c2" category="paragraph">디스크 쉘프 스택에 디스크 쉘프가 3개 이상 있는 경우, 해당 ''Standard' 또는 ''double-wide'' 쉘프 케이블을 사용하여 각 SAS 도메인(IOM A 및 IOM B)을 통해 상호 연결됩니다. "표준" 또는 "이중 폭" 선반선반케이블을 사용하는 것은 사용하는 구성에 따라 다릅니다.</block>
   <block id="dde4848c792228faaab1af9f19fc0907" category="section-title">표준 쉘프-쉘프 연결</block>
   <block id="5a53cde4cf5c91e0b09b08e60c754e51" category="list-text">모범 사례는 IOM 포트 3 및 1을 표준 쉘프-쉘프 연결에 사용하는 것입니다.</block>
   <block id="925ce4810c954644e740106ff49fc2b7" category="paragraph">논리적 첫 번째 쉘프에서 스택의 마지막 논리 쉘프에 이르기까지 IOM 포트 3을 도메인 A와 도메인 B의 다음 쉘프 IOM 포트 1에 연결합니다</block>
-  <block id="dcbdcc316aee385c3ebdf72977af7d44" category="image-alt">선반-선반 규격</block>
   <block id="e8645390fd232e242ab81f5d4dd7d38d" category="section-title">2배 폭 쉘프-쉘프 연결</block>
   <block id="6d1f03112a2c8c20e21a127a33d198d7" category="list-text">2중 경로(4중 경로 HA 및 4중 경로) 구성에서는 쉘프-쉘프 연결을 사용합니다.</block>
   <block id="9d045c0226ba49d4eab1578ba5585209" category="list-text">이중 쉘프-쉘프 연결을 위해서는 각 도메인의 디스크 쉘프-IOM A(도메인 A)와 IOM B(도메인 B) 간에 2개의 케이블 연결이 필요합니다.</block>
   <block id="ae15f7fe8c2deae6cbe1b6e0a2948e1e" category="paragraph">첫 번째 케이블 연결은 IOM 포트 3 및 1을 사용하여 표준 쉘프-쉘프 연결로 케이블이 연결되고, 두 번째 케이블 연결은 IOM 포트 4 및 2를 사용하여 이중 쉘프-쉘프 연결로 케이블이 연결됩니다.</block>
   <block id="7830411c7d1c383be96811621cfdb2e5" category="paragraph">논리적 첫 번째 쉘프에서 스택의 마지막 논리 쉘프에 이르기까지 IOM 포트 3을 도메인 A와 도메인 B의 다음 쉘프 IOM 포트 1에 연결합니다 논리적 첫 번째 쉘프에서 스택의 마지막 논리 쉘프에 이르기까지 IOM 포트 4를 도메인 A의 다음 쉘프 IOM 포트 2에 연결한 다음 도메인 B에 연결합니다 (이중 와이드 연결로 케이블이 연결된 IOM 포트는 파란색으로 표시됩니다.)</block>
-  <block id="cea4f34bbde19b19ec8b528484463d97" category="image-alt">두 배 너비 선반으로 줄 수 있는 drw 선반</block>
   <block id="76ac5618163f7cfdc83af1a982460b25" category="section-title">컨트롤러-스택 연결 규칙</block>
   <block id="815ae1da852a7e116dabaa4790481ca1" category="section-title">SAS 디스크 쉘프 소프트웨어 기반 디스크 소유 규칙</block>
   <block id="b090fb384d88ba417ddba5bc09e12033" category="paragraph">SAS 디스크 쉘프는 하드웨어 기반 디스크 소유권이 아니라 소프트웨어 기반 디스크 소유권을 사용합니다. 즉, 디스크 드라이브 소유권은 스토리지 시스템의 물리적 접속의 토폴로지에 의해 결정되지 않고 디스크 드라이브에 저장됩니다(하드웨어 기반 디스크 소유인 경우). 특히, 디스크 드라이브 소유권은 컨트롤러-스택 간 연결에 케이블을 연결하는 방법이 아닌 ONTAP(자동 또는 CLI 명령)에 의해 할당됩니다.</block>
@@ -803,7 +800,6 @@
   <block id="19ae97dcc1173168146e3a4b052d5b8c" category="list-text">컨트롤러 1 A 및 C 포트는 항상 IOM A(도메인 A)에 연결합니다.</block>
   <block id="845648a6d13ed37c7454c6be1991a364" category="list-text">컨트롤러 2 A 및 C 포트는 항상 IOM B(도메인 B)에 연결합니다.</block>
   <block id="1f393663a63759c6a1dd2986c13770e5" category="paragraph">다음 그림에서는 1개의 4중 포트 HBA와 2개의 디스크 쉘프 스택을 사용하여 다중 경로 HA 구성에서 컨트롤러 포트 A와 C를 연결하는 방법을 보여 줍니다. 스택 1에 대한 연결은 파란색으로 표시됩니다. 스택 2에 대한 연결은 주황색으로 표시됩니다.</block>
-  <block id="52b9f36f0a0ece73e588e8d49a1d2e38" category="image-alt">규칙 포트 A 및 c를 스택하는 drw 컨트롤러 예</block>
   <block id="28b0df79d69d4b7bf21f0271c55d4f4e" category="list-text">B 및 D 포트는 항상 스택에 대한 보조 경로입니다.</block>
   <block id="9280f37bc620ca5d0b26ec8580f87f58" category="list-text">B 및 D 포트는 항상 스택의 마지막 논리 디스크 쉘프에 연결합니다.</block>
   <block id="5961adddd5595d6aa7de1c01c6f229b8" category="list-text">B 및 D 포트는 항상 디스크 쉘프 IOM 포트 3 및 4에 연결합니다.</block>
@@ -812,7 +808,6 @@
   <block id="4d43e729c7ad0f8ebbee1e2c62e559fa" category="list-text">컨트롤러 2 B 및 D 포트는 항상 IOM A(도메인 A)에 연결합니다.</block>
   <block id="6265370a0863851abf028ccb76cce9bb" category="list-text">B 및 D 포트는 PCI 슬롯의 순서를 하나씩 오프셋하여 스택에 연결되어 첫 번째 슬롯의 첫 번째 포트가 마지막으로 케이블로 연결됩니다.</block>
   <block id="1180b7b391f14633455e18d7e8a70316" category="paragraph">다음 그림에서는 1개의 4중 포트 HBA와 2개의 디스크 쉘프 스택을 사용하여 다중 경로 HA 구성에서 컨트롤러 포트 B와 D를 연결하는 방법을 보여 줍니다. 스택 1에 대한 연결은 파란색으로 표시됩니다. 스택 2에 대한 연결은 주황색으로 표시됩니다.</block>
-  <block id="937c34f84d0b7a30ac6064abdb97a6f0" category="image-alt">규칙 포트 b 및 d를 스택하는 drw 컨트롤러 예</block>
   <block id="adc0f860870e3220b08daf202d1dbe12" category="paragraph">컨트롤러 SAS 포트 A, B, C 및 D는 모든 SAS 포트를 활용하는 방법을 통해 포트 쌍으로 구성되며, HA Pair 및 단일 컨트롤러 구성의 컨트롤러-스택 연결을 케이블로 연결할 때 시스템 복원력과 일관성을 제공합니다.</block>
   <block id="b74977118ce8bd6994f851515d0aff70" category="list-text">포트 쌍은 컨트롤러 A 또는 C SAS 포트와 컨트롤러 B 또는 D SAS 포트로 구성됩니다.</block>
   <block id="4b317a36993fd6d376aba7d0d82eef4b" category="paragraph">A 및 C SAS 포트는 스택의 논리적 첫 번째 쉘프에 연결됩니다. B 및 D SAS 포트는 스택의 마지막 논리 쉘프에 연결됩니다.</block>
@@ -824,7 +819,6 @@
   <block id="19f944ed800a622fdb5777c2c60a1276" category="list-text">B 포트와 D 포트를 차례로 슬롯(0,1, 2, 3 등)에 나열합니다.</block>
   <block id="a904ef618fabf031a7e546305e0edb28" category="paragraph">예: 1b, 2b, 3b, 1d, 2d, 3D</block>
   <block id="99175bfb18611b333b890408aa408b4a" category="list-text">목록의 첫 번째 포트가 목록의 끝으로 이동하도록 D 및 B 포트 목록을 다시 작성합니다.</block>
-  <block id="39d6691caec8f01536162f2cf4091139" category="paragraph">예를 들면 다음과 같습니다. <block ref="ea15a8afc83d3c56031ae98f8c2bb8ae" category="inline-image-macro-rx" type="image"></block></block>
   <block id="219b31f671caa1d4f189fc7bdc6a4a7c" category="paragraph">둘 이상의 SAS 포트 슬롯을 사용할 수 있을 때 여러 슬롯(물리적 PCI 슬롯 및 온보드 슬롯)에서 하나의 포트 쌍을 기준으로 슬롯의 순서를 오프셋하여 하나의 SAS HBA에 스택이 케이블로 연결되지 않도록 합니다.</block>
   <block id="ff70e36406026fb02094c6d3fafad1ff" category="list-text">A 및 C 포트(1단계에서 나열)를 D 및 B 포트(2단계에서 나열)에 나열된 순서대로 페어링합니다.</block>
   <block id="3ab37ab8507783959895914eb515656c" category="paragraph">예: 1a/2b, 2a/3b, 3a/1d, 1c/2D, 2c/3D, 3c/1b.</block>
@@ -835,7 +829,6 @@
   <block id="aec70d41229d5cb6a92c2e9340bcaa4f" category="paragraph">1a/2b, 2a/3b, 3a/1d, 1c/2D, 2c/3D, 3c/1b</block>
   <block id="12242ce563bf31134199a6fd5a6bfecf" category="list-text">시스템의 스택에 케이블을 연결하는 데 모든 포트 쌍이 필요하지 않은 경우 포트 쌍을 건너뜁니다(다른 모든 포트 쌍 사용).</block>
   <block id="2baadcb56e7720f5676b919d51a92530" category="paragraph">예를 들어, 시스템에 대해 6개의 포트 쌍을 식별했고 다중 경로를 케이블로 연결할 3개의 스택이 있는 경우, 목록에서 다른 모든 포트 쌍을 케이블로 연결합니다.</block>
-  <block id="e2379f90f7d935a1dcd0af01adbdf46e" category="image-alt">drw 포트 쌍 연결 규칙 목록이 건너뜁니다</block>
   <block id="5e94596a2debe5f10b4bfe8ed1dfb583" category="paragraph">컨트롤러-스택 케이블링 워크시트는 HA 쌍 또는 단일 컨트롤러 구성에 대한 컨트롤러-스택 연결을 케이블로 연결할 수 있도록 포트 쌍을 확인하고 구성하는 데 사용되는 편리한 도구입니다.</block>
   <block id="e1b917b8c7b8d55a7152a23d5763b5c4" category="inline-link-macro">다중 경로 연결을 위한 컨트롤러-스택 케이블링 워크시트 템플릿</block>
   <block id="7c1436929540272177fd4adb6152e9ba" category="paragraph"><block ref="7c1436929540272177fd4adb6152e9ba" category="inline-link-macro-rx"></block></block>
@@ -6723,15 +6716,11 @@
   <block id="8e4eec704f9a8706e1a3cf96accb2c17" category="list-text"><block ref="8e4eec704f9a8706e1a3cf96accb2c17" category="inline-link-rx"></block></block>
   <block id="5173935e91aef44c51b8afd57f32f13f" category="list-text"><block ref="5173935e91aef44c51b8afd57f32f13f" category="inline-link-rx"></block></block>
   <block id="e06ad9290eff5c16396920aafb75091e" category="list-text"><block ref="e06ad9290eff5c16396920aafb75091e" category="inline-link-rx"></block></block>
-  <block id="5cebcc95a2116e4839d188e34a24089c" category="list-text"><block ref="5cebcc95a2116e4839d188e34a24089c" category="inline-link-rx"></block></block>
   <block id="2f143cdae4fee80d6697460e215b8a02" category="list-text"><block ref="2f143cdae4fee80d6697460e215b8a02" category="inline-link-rx"></block></block>
-  <block id="266197ce8fb9d3417e159a8b375e04ef" category="list-text"><block ref="266197ce8fb9d3417e159a8b375e04ef" category="inline-link-rx"></block></block>
   <block id="9832cac218f9fee6c6d44a9f9b5e7d76" category="list-text"><block ref="9832cac218f9fee6c6d44a9f9b5e7d76" category="inline-link-rx"></block></block>
   <block id="4cd32923632a1028f1e64fee85335b39" category="list-text"><block ref="4cd32923632a1028f1e64fee85335b39" category="inline-link-rx"></block></block>
-  <block id="6cfed826aaeccc59ecbf1bef0c41c6b6" category="list-text"><block ref="6cfed826aaeccc59ecbf1bef0c41c6b6" category="inline-link-rx"></block></block>
   <block id="2bf999bae7084da5db26c6b483ac44f0" category="list-text"><block ref="2bf999bae7084da5db26c6b483ac44f0" category="inline-link-rx"></block></block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
-  <block id="d130f1dd19e93aaf9701cc968056061f" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 스위치 하드웨어를 설치합니다</block>
   <block id="26d2e0bd267361cc8916e7e16faebcbb" category="paragraph">랙 또는 캐비닛에 스위치를 설치합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
   <block id="8821c03ea98d1edaf4b4b82c0aaf59dc" category="inline-link-macro">BES-53248 스위치를 설치합니다</block>
   <block id="9000e67500cb5e61bcd3ec702237913b" category="list-text"><block ref="9000e67500cb5e61bcd3ec702237913b" category="inline-link-macro-rx"></block></block>
@@ -6743,45 +6732,7 @@
   <block id="617820a8b836e10d6f5146fc0f043112" category="list-text"><block ref="617820a8b836e10d6f5146fc0f043112" category="inline-link-macro-rx"></block></block>
   <block id="5e56acfb152f096818349fa67202b6f7" category="list-text"><block ref="5e56acfb152f096818349fa67202b6f7" category="inline-link-macro-rx"></block></block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
-  <block id="427748ed6a44d0d6126050507a461881" category="paragraph">AFF/FAS 설치 및 설정 지침에는 컨트롤러 포트를 스위치에 케이블로 연결하는 지침이 포함되어 있습니다. 그러나 지원되는 케이블 및 트랜시버 목록과 스위치의 호스트 포트에 대한 자세한 정보가 필요한 경우 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
-  <block id="497781401f115451ecac27f7f2933cb3" category="inline-link-macro">케이블 BES-53248 스위치</block>
-  <block id="4762b908167d7cdf9e4a1c2789f3dc25" category="list-text"><block ref="4762b908167d7cdf9e4a1c2789f3dc25" category="inline-link-macro-rx"></block></block>
-  <block id="2586f55a2b9174f4cb4f6ba1d3074ad1" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치 케이블 연결</block>
-  <block id="93bab82665555723d09cf89ede810907" category="list-text"><block ref="93bab82665555723d09cf89ede810907" category="inline-link-macro-rx"></block></block>
-  <block id="52f7a5e6d4c023e5fef53f473f22b20a" category="inline-link-macro">NVIDIA SN2100 스위치에 케이블을 연결합니다</block>
-  <block id="0ee060af4c87c4fbc6cbd8f24ffeda59" category="list-text"><block ref="0ee060af4c87c4fbc6cbd8f24ffeda59" category="inline-link-macro-rx"></block></block>
-  <block id="3f53fd4b09af6c568ea0f9f54f9f2d23" category="list-text"><block ref="3f53fd4b09af6c568ea0f9f54f9f2d23" category="inline-link-macro-rx"></block></block>
-  <block id="705795ef685b9269be58747bb63f1206" category="list-text"><block ref="705795ef685b9269be58747bb63f1206" category="inline-link-macro-rx"></block></block>
-  <block id="8ed9021db09e01ee30c3f88e6bb6c84a" category="list-text"><block ref="8ed9021db09e01ee30c3f88e6bb6c84a" category="inline-link-macro-rx"></block></block>
-  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
-  <block id="2d51a4c0647f6c33eb1618ae2b75bbbf" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block>스위치를 구성합니다</block>
-  <block id="ec105a48fce29c3cef5a1857c97bf49f" category="paragraph">스위치의 초기 설정을 수행합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
-  <block id="f5dcfee71330ba72d10a9ef205dd69e5" category="inline-link-macro">BES-53248 스위치를 구성합니다</block>
-  <block id="fa53fe969df039b61c8e18516b5dc73c" category="list-text"><block ref="fa53fe969df039b61c8e18516b5dc73c" category="inline-link-macro-rx"></block></block>
-  <block id="b26d2c239cf0d70021ec2d611dd2cefd" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치를 구성합니다</block>
-  <block id="0a2dce0d006281c864fd0f86f4ea8582" category="list-text"><block ref="0a2dce0d006281c864fd0f86f4ea8582" category="inline-link-macro-rx"></block></block>
-  <block id="7bfd713e089f5e59b6c1826b2af39c2a" category="inline-link-macro">NVIDIA SN2100 스위치를 구성합니다</block>
-  <block id="2519e7f54407f60dc79e9259ef7945d2" category="list-text"><block ref="2519e7f54407f60dc79e9259ef7945d2" category="inline-link-macro-rx"></block></block>
-  <block id="06a65f0a1639e3cb60d130682802f0f4" category="list-text"><block ref="06a65f0a1639e3cb60d130682802f0f4" category="inline-link-macro-rx"></block></block>
-  <block id="3a8a1008ac39062434132158737ee20f" category="list-text"><block ref="3a8a1008ac39062434132158737ee20f" category="inline-link-macro-rx"></block></block>
-  <block id="19f48057a2a8e92f21d37a0c84da71ca" category="list-text"><block ref="19f48057a2a8e92f21d37a0c84da71ca" category="inline-link-macro-rx"></block></block>
-  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
-  <block id="64637562d7e27f62620328710451f9ca" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 스위치 소프트웨어를 설치합니다</block>
-  <block id="8c5afc8d3c5a4855ac8b127c598aaf6c" category="paragraph">스위치에 소프트웨어를 설치하고 구성하려면 스위치 모델에 대한 소프트웨어 설치 워크플로우를 따르십시오.</block>
-  <block id="be6af2b7851b2766e149e88f47cd231e" category="inline-link-macro">BES-53248 스위치용 소프트웨어를 설치합니다</block>
-  <block id="283819fa3187f4cab4901fd782a00562" category="list-text"><block ref="283819fa3187f4cab4901fd782a00562" category="inline-link-macro-rx"></block></block>
-  <block id="60772399a01d09f82f607f7cc816aef1" category="inline-link-macro">Cisco Nexus 9336C-FX2 스위치용 소프트웨어를 설치합니다</block>
-  <block id="17cd31cbaa939cc9be9b435aa9bc29b3" category="list-text"><block ref="17cd31cbaa939cc9be9b435aa9bc29b3" category="inline-link-macro-rx"></block></block>
-  <block id="3437ca96f916be870bf8b2b922d6299d" category="inline-link-macro">NVIDIA SN2100 스위치용 소프트웨어를 설치합니다</block>
-  <block id="56e2901763e1f0f4a779d43168cd0e17" category="list-text"><block ref="56e2901763e1f0f4a779d43168cd0e17" category="inline-link-macro-rx"></block></block>
-  <block id="71e74baaa680eaec49a78bcc05bd4cae" category="list-text"><block ref="71e74baaa680eaec49a78bcc05bd4cae" category="inline-link-macro-rx"></block></block>
-  <block id="79b5bea37a0a17cdb8b4e1b94ffc5c28" category="list-text"><block ref="79b5bea37a0a17cdb8b4e1b94ffc5c28" category="inline-link-macro-rx"></block></block>
-  <block id="09ebf9105e3a0e85568481422cb709d1" category="list-text"><block ref="09ebf9105e3a0e85568481422cb709d1" category="inline-link-macro-rx"></block></block>
   <block id="e6fbc0b9673f8c86726688d7607fc8f5" category="inline-image-macro">6개</block>
-  <block id="aea7345148c1589735242fc13ad81924" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block> 시스템 설치를 완료합니다</block>
-  <block id="12e67aac3e7f9227cc35f8f047d7dc74" category="inline-image-macro">7번</block>
-  <block id="8f5988d6d5abedb5da92f0fcbc79872d" category="paragraph-title"><block ref="36915574c413876eaa75cbd48f69fd00" category="inline-image-macro-rx" type="image"></block> ONTAP 구성을 완료합니다</block>
-  <block id="f0a39bebe9f0d59f6fc97c14de8b2a1a" category="paragraph">AFF/FAS 컨트롤러 및 스위치를 설치 및 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.</block>
   <block id="549f827e07761bafef053e8ca7564a39" category="inline-link">ONTAP를 구성합니다</block>
   <block id="8849c41092b79554e9b7f3a213d25622" category="list-text">ONTAP 배포의 경우 를 참조하십시오<block ref="a9c0083f0559526553eb5b29452926d5" category="inline-link-rx"></block>.</block>
   <block id="10775dd39d5bac0a859a7c2aa804576e" category="inline-link">ONTAP를 사용하여 MetroCluster를 구성합니다</block>
@@ -6835,7 +6786,6 @@
   <block id="9f4416e119f06c0f37d722efa8fabfe9" category="sidebar">이용 종료 시스템</block>
   <block id="7c4365c5c3b36c349d31ac07e90053ce" category="sidebar">플랫폼 업그레이드(MetroCluster 구성)</block>
   <block id="668e2078ef1b1722c77cdb5c523a4463" category="sidebar">NetApp 기술 자료</block>
-  <block id="b5bfe3d61bf9be292418cb9d21eec19c" category="sidebar">준비 및 실행</block>
   <block id="8f7cc2c7f8ea66405c4805e7ebc09f8f" category="sidebar">AFF A150 시스템</block>
   <block id="cafd0584cfa2700cbb38234c6c87ff44" category="sidebar">AFF A150 설치 및 설정</block>
   <block id="19aa00b7e147cb8650f3b77592febb48" category="sidebar">AFF A150 유지 보수</block>
@@ -7043,8 +6993,6 @@
   <block id="6eeacbfb54f0dd2b69ca25ccf7e621e3" category="paragraph">** 클러스터 스위치**</block>
   <block id="05d287d05ed5025354b8f6c796c87491" category="paragraph">** 스토리지 스위치**</block>
   <block id="aca0ddc3769e84e478caff604ad14594" category="paragraph">** 공유 스위치**</block>
-  <block id="4f4f401ca3cb71c1eacaf052eac321fb" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 스위치를 컨트롤러에 케이블로 연결합니다</block>
-  <block id="93a86d433d6f98e9a80d74b972237ee6" category="paragraph">** AFF 시스템**</block>
   <block id="1688757a0e4a29ec41d21e63fcc98a90" category="paragraph">AFF C190 시스템을 설치하려면 계정을 만들고 시스템을 등록하십시오. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="39bbc5176cba797f24070d78f90d0d5a" category="list-text">에 액세스할 수 있는지 확인하십시오 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> (HWU) - 사이트 요구사항에 대한 정보 및 구성된 시스템에 대한 추가 정보</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="inline-link-macro">릴리즈 노트</block>
@@ -7251,19 +7199,16 @@
   <block id="f37147b373a7dab930e9ad58967b110f" category="list-text">포트 0b/0b1은 항상 스택의 마지막 논리 디스크 쉘프에 연결합니다.</block>
   <block id="ec50871e5c9ed1add9f37e13b5f6dcc5" category="list-text">포트 0b/0b1은 항상 디스크 쉘프 IOM 포트 3에 연결합니다.</block>
   <block id="5cc45636165f15166974ddab3dfb0fd7" category="paragraph">다음 그림에서는 외부 쉘프 스택에 대한 내부 스토리지 포트(0b/0b1) 도메인 연결을 보여 줍니다.</block>
-  <block id="cb9e9a1b808c7a4e6312fd5827f6c84e" category="image-alt">drw fas2600 mpha 도메인 예 IEOPS 1172</block>
   <block id="45219ca27a4ad91c17dcca93a96dd284" category="section-title">3중 경로 HA 연결</block>
   <block id="7125880b6305be48cdd0760966c349f2" category="paragraph">FAS2800 HA 쌍에서 3중 경로 HA 연결을 사용할 수 있습니다. 3중 경로 HA 연결에는 각 컨트롤러에서 내부(IOM12G) 및 외부 쉘프까지 3개의 경로가 있습니다.</block>
   <block id="c8c29757ef852a483118b80a57d4b5ac" category="list-text">포트 0b를 로컬 IOM12G 및 포트 0c와 파트너의 IOM12G로 내부 연결함으로써 HA 쌍 다중 경로 HA 연결을 제공합니다.</block>
   <block id="494edf65cd0a33575dc779a9df2979d6" category="list-text">각 컨트롤러의 외부 스토리지 포트 0a 및 0b1의 케이블로 HA 쌍 3개 경로 HA 연결을 제공합니다.</block>
   <block id="a35c30ba1541ae1d8a44ed5229f19650" category="paragraph">포트 0a와 0b1은 외부 쉘프가 없는 경우 2개의 컨트롤러에 케이블로 연결되거나, 3중 경로 HA 연결을 위해 외부 쉘프에 케이블로 연결됩니다.</block>
   <block id="77f105a56bd1c2ae99c93daa98950ddb" category="paragraph">다음은 3중 경로 HA 연결을 지원하는 컨트롤러의 내부 연결 및 외부 케이블입니다.</block>
-  <block id="d16f504f7bfcd6bdd9341d281e367431" category="image-alt">drw fas2800 개념 tpha IEOPS 950</block>
   <block id="56aa5946d918a9c287c3413f16a7f6a8" category="paragraph">FAS2800 외부 SAS 포트:</block>
   <block id="49c992eee9e3421ed1fbdca1cea6cc70" category="list-text">0a 포트는 내부 HBA(내부 쉘프가 있는 다른 플랫폼과 동일)의 포트입니다.</block>
   <block id="21f39b91f6bc9739ca0f20af09effa4e" category="list-text">0b1 포트는 내부 쉘프(내부 쉘프가 있는 다른 플랫폼의 0b 포트와 유사)에 있습니다.</block>
   <block id="cd00b581ae35cc28e22b76f1f56e73a3" category="list-text">0b2 포트는 사용되지 않습니다. 비활성화됩니다. 케이블이 연결되어 있으면 오류 메시지가 나타납니다.</block>
-  <block id="89c7c407656d81769624b64d696a7e5e" category="image-alt">fas2800 IEOPS 946의 drw sas3 포트(1)</block>
   <block id="4d29df0cb21d81560d8799a21074035f" category="paragraph">FAS2800 HA 쌍 케이블 연결의 예는 에서 확인할 수 있습니다 <block ref="c19123e6031c139d66f534ae4311d605" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="d781db166642a4d3afbe74add6458ec0" category="paragraph">* SAS 케이블 연결 규칙 및 개념 *</block>
   <block id="8f8530d523c868e5ee729783d7b0a04a" category="list-text"><block ref="8f8530d523c868e5ee729783d7b0a04a" category="inline-link-macro-rx"></block></block>
@@ -8252,18 +8197,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="52af7d4516c9a231debbc59d16540841" category="summary">FAS2800 하드웨어 유지 관리</block>
   <block id="a15b9605ee28854b0a879286a11a485d" category="doc">FAS2800 하드웨어 유지 관리</block>
   <block id="3bf4e15c5081d9414a6cd3448aae890e" category="paragraph">FAS2800 스토리지 시스템의 경우 다음 구성 요소에서 유지보수 절차를 수행할 수 있습니다.</block>
-  <block id="1ddc1fb5b0cd55faae476600a06e1a0b" category="summary">AFF, ASA 및 FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성 요소를 설치하고 스위치를 구성하며 스토리지를 구성해야 합니다.</block>
   <block id="d90835a42340aac8a036ef710a1aa68a" category="doc">AFF, ASA 및 FAS 스토리지 시스템을 가동 및 운영합니다</block>
-  <block id="ced81397dd782da72bb7c38992c64be4" category="paragraph">랙 또는 캐비닛에 AFF, ASA 및 FAS 컨트롤러를 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.</block>
   <block id="fe16224741a81fa9747d82d6dc05182c" category="list-text"><block ref="fe16224741a81fa9747d82d6dc05182c" category="inline-link-rx"></block></block>
-  <block id="ecd8dd92a7f4e8e4e42627b4e7b33118" category="list-text"><block ref="ecd8dd92a7f4e8e4e42627b4e7b33118" category="inline-link-rx"></block></block>
-  <block id="550e0f3f38fa7f062f0cd580e8ec9904" category="list-text"><block ref="550e0f3f38fa7f062f0cd580e8ec9904" category="inline-link-rx"></block></block>
   <block id="52142476f2ac75ac73f5e40f09d0e6d4" category="list-text"><block ref="52142476f2ac75ac73f5e40f09d0e6d4" category="inline-link-rx"></block></block>
   <block id="b9cc4cc5d585d56b19a0b0bf8c7ff71f" category="list-text"><block ref="b9cc4cc5d585d56b19a0b0bf8c7ff71f" category="inline-link-rx"></block></block>
   <block id="0ac6aa3296c0437f3274277862d88d2b" category="list-text"><block ref="0ac6aa3296c0437f3274277862d88d2b" category="inline-link-rx"></block></block>
   <block id="a334af0b164fc0db79711e89abe4cb0d" category="inline-link">FAS2800</block>
   <block id="53e69397147d83b3fa253cab22a92a98" category="list-text"><block ref="53e69397147d83b3fa253cab22a92a98" category="inline-link-rx"></block></block>
-  <block id="842e9311855e597be1c8f81082e70046" category="paragraph">스위치를 구성하고 필요한 소프트웨어를 설치한 후 플랫폼 모델의 설치 및 설정 지침에 액세스하여 시스템 설치를 완료합니다.</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -8664,7 +8604,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b93d997895dde5ccf0b4ce2c7ea76b38" category="doc">ASA(All-Flash SAN 어레이) A-Series 시스템</block>
   <block id="ca42e40f781122cb5a2d8f08cb50d450" category="summary">스토리지 시스템 설명서를 통해 ASA C-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="d6db6f02fef14cb7ca1df4e0aecf3992" category="doc">ASA(All Flash SAN 어레이) C-Series 시스템</block>
-  <block id="d2f3f8ad2ee3b259dc7e838d35c21ece" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 컨트롤러를 설치합니다</block>
   <block id="1e328579e066bd52d81db5813109e763" category="paragraph">** ASA A-시리즈 시스템**</block>
   <block id="1ab5446725f4ee75e53cfa05dcd66d51" category="list-text"><block ref="1ab5446725f4ee75e53cfa05dcd66d51" category="inline-link-rx"></block></block>
   <block id="5bdb8055b260f02eec19d823c3311a42" category="list-text"><block ref="5bdb8055b260f02eec19d823c3311a42" category="inline-link-rx"></block></block>
@@ -8762,4 +8701,49 @@ SFP+(타겟/이니시에이터)</block>
   <block id="87504c530521bba0db07c8180af8e3cb" category="doc">쉘프 유지 보수 개요 - SAS3 쉘프</block>
   <block id="c74c43788d9279fa623b9982f6dc6df0" category="paragraph">SAS3 셸프를 유지 관리하려면 다음 작업을 수행할 수 있습니다.</block>
   <block id="9db4c90afc251da112cecabb2b945f1a" category="sidebar">셸프 유지 관리 개요</block>
+  <block id="8eb5d7e14f078213436247ba24450689" category="summary">AFF, ASA, FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고 하드웨어를 케이블로 연결하고 스토리지를 구성합니다.</block>
+  <block id="96a3941fc07feefba651e74e742d6638" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 스위치를 설치합니다</block>
+  <block id="0ed1fd19207f3710615fa098f320a29c" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 플랫폼 및 셸프를 설치합니다</block>
+  <block id="10acd5d369d377f995d334cedec57254" category="paragraph">플랫폼 및 선반을 캐비닛 또는 랙에 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.</block>
+  <block id="16271069a214a6b555402afb04d69089" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 케이블을 연결합니다</block>
+  <block id="c6b53c8091f0d8860c298f31862ebf8f" category="paragraph">컨트롤러를 네트워크에 케이블로 연결한 다음 컨트롤러를 쉘프에 케이블을 연결합니다.  플랫폼 모델의 설치 및 설정 지침에는 컨트롤러 포트를 네트워크와 스위치에 케이블로 연결하는 지침이 포함되어 있습니다.</block>
+  <block id="f6da489aeeacf32739293cc7e93355f6" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block>  ONTAP 구성을 완료합니다</block>
+  <block id="690804f2b4dc1d3ad6cc6e584fbc071b" category="paragraph">컨트롤러와 스위치를 설치하고 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.</block>
+  <block id="2d5a4622cf1f60fa2062a6410204c938" category="summary">더 이상 지원되지 않는 기존 하드웨어에 대해 알아보십시오.</block>
+  <block id="b55c2253dc1b30a508b603e707fc1e15" category="doc">기존 하드웨어는 더 이상 지원되지 않습니다</block>
+  <block id="71beaaf93c4fa164e290b4988b8f6656" category="paragraph">다음 시스템 및 스위치는 지정된 버전의 ONTAP에서 더 이상 지원되지 않습니다.</block>
+  <block id="314f9efc50d5c33d8b64718f7b4f13bb" category="section-title">AFF 및 FAS 시스템</block>
+  <block id="a45da96d0bf6575970f2d27af22be28a" category="cell">시스템</block>
+  <block id="6cb7a213dd3d9c9b67da8b1aabb3928f" category="cell">지원이 중단되었습니다.</block>
+  <block id="8541975335a64aeefea980107946fbbf" category="list-text">FAS2650</block>
+  <block id="489c8707e7f92883a9ec4c6edf2f6a9a" category="list-text">FAS2620</block>
+  <block id="a705ce04641549f4b945855fcf455aef" category="list-text">AFF AFF8020, AFF8040, AFF8060, AFF8080</block>
+  <block id="8c06a9afcd20cc8675f878a8e07e16ab" category="list-text">FAS8020, FAS8040, FAS8060, FAS8080</block>
+  <block id="335755c0e7b53572be7e9a663d297e47" category="list-text">FAS2520, FAS2552, FAS2554</block>
+  <block id="bbc155fb2b111bf61c4f5ff892915e6b" category="cell">스위치</block>
+  <block id="e29dd9091577ef2b7d9c9828cd5407af" category="paragraph">NetApp CN1610 스위치</block>
+  <block id="f267a68fd1c8bddcc992701898021398" category="paragraph">클러스터 스위치</block>
+  <block id="a8495ee8f8ba70ddce083c14b317a765" category="list-text">Cisco 5596UP</block>
+  <block id="4249daf52cc9869f5f0eb05a465153b6" category="list-text">Cisco 5596T</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">관련 정보</block>
+  <block id="23c35b2f23dd1a2d9d32a286f986b138" category="inline-link">지원되는 Cisco 이더넷 스위치</block>
+  <block id="01be3333cdb9fcee786cd82fd72188b1" category="list-text"><block ref="01be3333cdb9fcee786cd82fd72188b1" category="inline-link-rx"></block></block>
+  <block id="079cac943a6f06ba1a13244088f0d10b" category="inline-link">지원되는 NetApp 이더넷 스위치</block>
+  <block id="1f842f6537ceea5c5c63d4a77061098a" category="list-text"><block ref="1f842f6537ceea5c5c63d4a77061098a" category="inline-link-rx"></block></block>
+  <block id="9e956a69209fd02cc7fc71bcd825b619" category="inline-link">공급 중지 플랫폼</block>
+  <block id="25ac67e138b8fda2539443953ff699a2" category="list-text"><block ref="25ac67e138b8fda2539443953ff699a2" category="inline-link-rx"></block></block>
+  <block id="70c1ec940020a23d470c43a425a19dbd" category="image-alt">슬롯 및 슬롯[포트 결합</block>
+  <block id="39512bdbabbfe6463989630fdaea738d" category="image-alt">표준 쉘프-쉘프 연결</block>
+  <block id="c690abed43ee84b2aa4c067ae75274a5" category="image-alt">이중 와이드 쉘프-쉘프 연결</block>
+  <block id="b912ea83cac657f0577115ac95728ead" category="image-alt">내부 스토리지가 없는 플랫폼을 위한 컨트롤러 A 및 C 포트 연결 규칙</block>
+  <block id="d759728a4cd391f6debf60656cfa418b" category="image-alt">내부 스토리지가 없는 플랫폼을 위한 컨트롤러 B 및 D 포트 연결 규칙</block>
+  <block id="59009e88d7a055107f6ba1d9f17ae2e7" category="inline-image-macro">D 및 B 포트 목록을 다시 작성합니다</block>
+  <block id="c64ccaa723127cd5c1f19cd2d8a9937f" category="paragraph">예를 들면 다음과 같습니다. <block ref="f5b253e3b09b12b383be6c4485664df6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf7080fa51742670c142cfdf8d73846d" category="image-alt">포트 쌍을 건너뛰는 옵션입니다</block>
+  <block id="c89ad601d530f2912af428762ab2c116" category="image-alt">내부 스토리지 포트 0b/0b1 도메인 연결</block>
+  <block id="d92309c4fbff10ebdb4237d6a87fe7b6" category="image-alt">3경로 HA 연결</block>
+  <block id="468bc64c7e6d21f618a8c0a4186b734c" category="image-alt">fas2800의 drw sas3 포트</block>
+  <block id="a0bdeb39cc6a9364f3559ad9a77e2a71" category="summary">AFF, ASA 및 FAS 시스템의 새로운 기능과 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보십시오.</block>
+  <block id="5aa9a0e12c17de73e420b615315f7453" category="paragraph">ONTAP 9 릴리스의 알려진 문제, 제한 사항 및 업그레이드 주의 사항에 대한 자세한 내용은 를 참조하십시오<block ref="84fe5db170ffeba3db16dd5c6d7a58db" category="inline-link-rx"></block>. 릴리스 정보에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.</block>
+  <block id="d1f3a81423106ee57c19f4fc60f797ca" category="sidebar">지원 종료</block>
 </blocks>

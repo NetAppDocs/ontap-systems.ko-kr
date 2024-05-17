@@ -13,13 +13,13 @@ sidebar:
   - title: ONTAP 하드웨어 시스템 설명서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/rel-notes.html"
-  - title: 시작하십시오
     entries:
     - title: 새로운 소식
       url: "/whats-new.html"
-    - title: 준비 및 실행
-      url: "/get-up-and-run.html"
+    - title: 지원 종료
+      url: "/eoa-hardware.html"
+  - title: 시작하십시오
+    url: "/get-up-and-run.html"
   - title: AFF A 시리즈 시스템
     url: "/aff-aseries/index.html"
     entries:

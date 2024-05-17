@@ -90,7 +90,7 @@ FAS2800 HA 쌍의 경우, 외부 쉘프에 대한 케이블 연결은 단일 경
 이 문서에서는 슬롯 및 슬롯 포트를 다음과 같이 설명합니다.
 
 +
-image::../media/slot0_rules.png[슬로싱 규칙]
+image::../media/slot0_rules.png[슬롯 및 슬롯[포트 결합]
 
 
 
@@ -116,7 +116,7 @@ image::../media/slot0_rules.png[슬로싱 규칙]
 
 
 
-image::../media/drw_shelf_to_shelf_standard.gif[선반-선반 규격]
+image::../media/drw_shelf_to_shelf_standard.gif[표준 쉘프-쉘프 연결]
 
 
 
@@ -132,7 +132,7 @@ image::../media/drw_shelf_to_shelf_standard.gif[선반-선반 규격]
 
 
 
-image::../media/drw_shelf_to_shelf_double_wide.gif[두 배 너비 선반으로 줄 수 있는 drw 선반]
+image::../media/drw_shelf_to_shelf_double_wide.gif[이중 와이드 쉘프-쉘프 연결]
 
 
 
@@ -164,7 +164,7 @@ IOM 포트 2는 4중 경로 HA 및 4중 경로 구성에만 사용됩니다.
 
 다음 그림에서는 1개의 4중 포트 HBA와 2개의 디스크 쉘프 스택을 사용하여 다중 경로 HA 구성에서 컨트롤러 포트 A와 C를 연결하는 방법을 보여 줍니다. 스택 1에 대한 연결은 파란색으로 표시됩니다. 스택 2에 대한 연결은 주황색으로 표시됩니다.
 
-image::../media/drw_controller_to_stack_rules_ports_a_and_c_example.gif[규칙 포트 A 및 c를 스택하는 drw 컨트롤러 예]
+image::../media/drw_controller_to_stack_rules_ports_a_and_c_example.gif[내부 스토리지가 없는 플랫폼을 위한 컨트롤러 A 및 C 포트 연결 규칙]
 
 
 
@@ -183,7 +183,7 @@ IOM 포트 4는 4중 경로 HA 및 4중 경로 구성에만 사용됩니다.
 
 다음 그림에서는 1개의 4중 포트 HBA와 2개의 디스크 쉘프 스택을 사용하여 다중 경로 HA 구성에서 컨트롤러 포트 B와 D를 연결하는 방법을 보여 줍니다. 스택 1에 대한 연결은 파란색으로 표시됩니다. 스택 2에 대한 연결은 주황색으로 표시됩니다.
 
-image::../media/drw_controller_to_stack_rules_ports_b_and_d_example.gif[규칙 포트 b 및 d를 스택하는 drw 컨트롤러 예]
+image::../media/drw_controller_to_stack_rules_ports_b_and_d_example.gif[내부 스토리지가 없는 플랫폼을 위한 컨트롤러 B 및 D 포트 연결 규칙]
 
 
 
@@ -211,7 +211,7 @@ A 및 C SAS 포트는 스택의 논리적 첫 번째 쉘프에 연결됩니다. 
 
 .. 목록의 첫 번째 포트가 목록의 끝으로 이동하도록 D 및 B 포트 목록을 다시 작성합니다.
 +
-예를 들면 다음과 같습니다. image:../media/drw_gen_sas_cable_step2.png[""]
+예를 들면 다음과 같습니다. image:../media/drw_gen_sas_cable_step2.png["D 및 B 포트 목록을 다시 작성합니다"]
 
 +
 둘 이상의 SAS 포트 슬롯을 사용할 수 있을 때 여러 슬롯(물리적 PCI 슬롯 및 온보드 슬롯)에서 하나의 포트 쌍을 기준으로 슬롯의 순서를 오프셋하여 하나의 SAS HBA에 스택이 케이블로 연결되지 않도록 합니다.
@@ -240,7 +240,7 @@ NOTE: HA 쌍의 경우, 첫 번째 컨트롤러에서 식별한 포트 쌍 목�
 예를 들어, 시스템에 대해 6개의 포트 쌍을 식별했고 다중 경로를 케이블로 연결할 3개의 스택이 있는 경우, 목록에서 다른 모든 포트 쌍을 케이블로 연결합니다.
 
 +
-image::../media/drw_portpair_connection_rules_list_skip.gif[drw 포트 쌍 연결 규칙 목록이 건너뜁니다]
+image::../media/drw_portpair_connection_rules_list_skip.gif[포트 쌍을 건너뛰는 옵션입니다]
 
 +
 
@@ -290,7 +290,7 @@ NOTE: 0b/0b1 포트를 올바른 도메인(교차 연결 도메인)에 연결하
 
 다음 그림에서는 외부 쉘프 스택에 대한 내부 스토리지 포트(0b/0b1) 도메인 연결을 보여 줍니다.
 
-image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[drw fas2600 mpha 도메인 예 IEOPS 1172]
+image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[내부 스토리지 포트 0b/0b1 도메인 연결]
 
 
 
@@ -307,7 +307,7 @@ FAS2800 HA 쌍에서 3중 경로 HA 연결을 사용할 수 있습니다. 3중 �
 
 다음은 3중 경로 HA 연결을 지원하는 컨트롤러의 내부 연결 및 외부 케이블입니다.
 
-image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[drw fas2800 개념 tpha IEOPS 950]
+image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[3경로 HA 연결]
 
 FAS2800 외부 SAS 포트:
 
@@ -316,7 +316,7 @@ FAS2800 외부 SAS 포트:
 * 0b2 포트는 사용되지 않습니다. 비활성화됩니다. 케이블이 연결되어 있으면 오류 메시지가 나타납니다.
 
 
-image::../media/drw_sas3_ports_on_fas2800_IEOPS-946 (1).svg[fas2800 IEOPS 946의 drw sas3 포트(1)]
+image::../media/drw-sas3-ports-on-fas2800.svg[fas2800의 drw sas3 포트]
 
 FAS2800 HA 쌍 케이블 연결의 예는 에서 확인할 수 있습니다 link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케이블링 워크시트 및 내부 스토리지가 있는 플랫폼의 케이블 연결 예"] 섹션을 참조하십시오.
 

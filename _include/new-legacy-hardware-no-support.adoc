@@ -1,0 +1,56 @@
+= AFF 및 FAS 시스템
+:allow-uri-read: 
+
+
+
+
+=== AFF 및 FAS 시스템
+
+[cols="2*"]
+|===
+| 시스템 | 지원이 중단되었습니다. 
+
+
+ a| 
+* AFF A200
+* FAS2650
+* FAS2620
+
+ a| 
+ONTAP 9.12.1
+
+
+
+ a| 
+* AFF AFF8020, AFF8040, AFF8060, AFF8080
+* FAS8020, FAS8040, FAS8060, FAS8080
+* FAS2520, FAS2552, FAS2554
+
+ a| 
+ONTAP 9.9.1
+
+|===
+
+
+=== 스위치
+
+[cols="2*"]
+|===
+| 스위치 | 지원이 중단되었습니다. 
+
+
+ a| 
+NetApp CN1610 스위치
+| ONTAP 9.13.1 을 참조하십시오 
+
+
+ a| 
+클러스터 스위치
+
+* Cisco 5596UP
+* Cisco 5596T
+
+ a| 
+ONTAP 9.11.1
+
+|===
