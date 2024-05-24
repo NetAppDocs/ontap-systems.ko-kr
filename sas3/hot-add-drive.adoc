@@ -1,0 +1,16 @@
+---
+permalink: sas3/hot-add-drive.html 
+sidebar: sidebar 
+keywords: sas3, shelves, shelf, sas3 shelves, hot-add, drive 
+summary: I/O 작업 중에도 운영 중단 없이 새 드라이브를 전원이 공급되는 쉘프에 추가할 수 있습니다. 
+---
+= 핫 애드 드라이브-SAS 쉘프
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+I/O 작업 중에도 운영 중단 없이 새 드라이브를 전원이 공급되는 쉘프에 추가할 수 있습니다.
+
+NetApp 기술 문서 사용 https://kb.netapp.com/on-prem/ontap/OHW/OHW-KBs/Best_practices_for_adding_disks_to_an_existing_shelf_or_cluster["기존 쉘프 또는 클러스터에 디스크를 추가하는 모범 사례"^].

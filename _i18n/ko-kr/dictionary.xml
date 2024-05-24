@@ -8632,7 +8632,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="407685da96fd9ced3310d7d46ae6df51" category="doc">쉘프-쉘프를 IOM12/IOM12B 모듈로 콜드 교체합니다</block>
   <block id="ec2ab707a85ae3f8634491d0876e34c6" category="paragraph">디스크가 사용 중인 운영 시스템에서 드라이브 쉘프를 교체할 경우 콜드 쉘프를 교체해야 합니다. 이는 중단 절차입니다. 즉, HA 쌍의 컨트롤러를 중지해야 합니다.</block>
   <block id="b70986af2d94261df69e2141b1a928cf" category="inline-link">콜드 쉘프 제거 절차를 사용하여 쉘프 섀시를 교체하는 방법</block>
-  <block id="9bfe0b1ca930a33b763298ba44f6db91" category="paragraph">KB 문서를 사용합니다<block ref="0ce7a268461a7f9e86d34962088e7dcd" category="inline-link-rx"></block>.</block>
   <block id="3946a95173cf2872b6b6e8309352d61b" category="inline-link">NS224 NVMe 드라이브 쉘프 케이블링 가이드</block>
   <block id="29c2f32397b266395d18c9814ee2c641" category="paragraph"><block ref="29c2f32397b266395d18c9814ee2c641" category="inline-link-rx"></block></block>
   <block id="5932d352036c33399a3ddcba5a995002" category="summary">NS224 드라이브 쉘프를 콜드 교체할 수 있습니다.</block>
@@ -8698,8 +8697,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6839d8dc991c3da89b9b3b916fde2b7b" category="doc">쉘프 유지보수 개요 - NS224 쉘프</block>
   <block id="79a918585a1d94a22b468960e11e9174" category="paragraph">NS224 쉘프를 유지하려면 다음과 같은 작업을 수행할 수 있습니다.</block>
   <block id="4ad47736772386e98b3765035e4ccc77" category="summary">sas3 셸프 유지 보수 개요</block>
-  <block id="87504c530521bba0db07c8180af8e3cb" category="doc">쉘프 유지 보수 개요 - SAS3 쉘프</block>
-  <block id="c74c43788d9279fa623b9982f6dc6df0" category="paragraph">SAS3 셸프를 유지 관리하려면 다음 작업을 수행할 수 있습니다.</block>
   <block id="9db4c90afc251da112cecabb2b945f1a" category="sidebar">셸프 유지 관리 개요</block>
   <block id="8eb5d7e14f078213436247ba24450689" category="summary">AFF, ASA, FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고 하드웨어를 케이블로 연결하고 스토리지를 구성합니다.</block>
   <block id="96a3941fc07feefba651e74e742d6638" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 스위치를 설치합니다</block>
@@ -8746,4 +8743,15 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5aa9a0e12c17de73e420b615315f7453" category="paragraph">ONTAP 9 릴리스의 알려진 문제, 제한 사항 및 업그레이드 주의 사항에 대한 자세한 내용은 를 참조하십시오<block ref="84fe5db170ffeba3db16dd5c6d7a58db" category="inline-link-rx"></block>. 릴리스 정보에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.</block>
   <block id="d1f3a81423106ee57c19f4fc60f797ca" category="sidebar">지원 종료</block>
   <block id="3709879cf4b397082ed4cccaa4fc0561" category="image-alt">FAS2800 외부 SAS 포트</block>
+  <block id="684a3c483281d887c3d3be6f2fec0dee" category="inline-link-macro">드라이브를 핫 애드 합니다</block>
+  <block id="0981347849054d7973149d23c4187aa8" category="list-text"><block ref="0981347849054d7973149d23c4187aa8" category="inline-link-macro-rx"></block></block>
+  <block id="fd6333b3a15bf4ff3d4a25db6d99ea06" category="paragraph">NetApp 기술 문서 사용<block ref="0ce7a268461a7f9e86d34962088e7dcd" category="inline-link-rx"></block>.</block>
+  <block id="b1acc3668afb9014f44281694ae06824" category="summary">I/O 작업 중에도 운영 중단 없이 새 드라이브를 전원이 공급되는 쉘프에 추가할 수 있습니다.</block>
+  <block id="68bab7572a161f11853ff30476a32e76" category="doc">드라이브를 핫 애드 - NS224 쉘프</block>
+  <block id="4c8c4b22ca17117dae583f0c094d9eed" category="inline-link">기존 쉘프 또는 클러스터에 디스크를 추가하는 모범 사례</block>
+  <block id="daf4bbdefc995283fd259f0a85f2206e" category="paragraph">NetApp 기술 문서 사용<block ref="d77269536bcca9e0e9d3e1016828b4c0" category="inline-link-rx"></block>.</block>
+  <block id="b7a6ae7b0390fcc46b05224bb591437e" category="doc">쉘프 유지 관리 개요 - SAS 쉘프</block>
+  <block id="3336aa3ff360375747634c1e3385684b" category="paragraph">SAS 쉘프를 유지하려면 다음 작업을 수행할 수 있습니다.</block>
+  <block id="db84f3feadfa946e6f025822cc6bb942" category="doc">핫 애드 드라이브-SAS 쉘프</block>
+  <block id="532733c728150f3f848affd8d9840374" category="sidebar">핫 애드 드라이브</block>
 </blocks>

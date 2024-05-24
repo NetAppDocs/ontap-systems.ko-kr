@@ -13,6 +13,7 @@ summary: NS224 쉘프 유지보수 개요
 [role="lead"]
 NS224 쉘프를 유지하려면 다음과 같은 작업을 수행할 수 있습니다.
 
+* link:hot-add-drive.html["드라이브를 핫 애드 합니다"]
 * link:cold-replace-shelf.html["콜드-쉘프 교체"]
 * link:hot-remove-shelf.html["쉘프를 핫 제거할 수 있습니다"]
 * link:service-monitor-leds.html["쉘프 LED를 모니터링합니다"]
