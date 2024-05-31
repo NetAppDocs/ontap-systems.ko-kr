@@ -195,7 +195,7 @@ mcc1A::> metrocluster operation show
 image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
 +
-[cols="10,90"]
+[cols="10a,90a"]
 |===
 
 
@@ -208,7 +208,9 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-| 컨트롤러가 섀시 밖으로 약간 이동합니다 
+ a| 
+컨트롤러가 섀시 밖으로 약간 이동합니다
+
 |===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +
@@ -304,7 +306,7 @@ NOTE: 하단 슬롯에 카드를 설치할 때 카드 소켓이 제대로 보이
 video::e3fd32b6-bdbb-4c53-b666-b030018a5744[panopto]
 image::../media/drw_A400_Replace-mezz-card.png[drw A400 메자닌 카드를 교체합니다]
 
-[cols="10,90"]
+[cols="10a,90a"]
 |===
 
 
@@ -324,7 +326,9 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
  a| 
 image:../media/legend_icon_03.png["설명선 번호 3"]
-| 라이저 카드 
+ a| 
+라이저 카드
+
 |===
 . 라이저 번호 3(슬롯 4 및 5)을 분리합니다.
 +

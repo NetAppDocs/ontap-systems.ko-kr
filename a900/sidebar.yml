@@ -68,6 +68,7 @@ entries:
   - title: 팬
     url: "/a900/fan_swap_out.html"
   - title: 입출력 모듈
+    pdf-filename: AFF A900 I/O 모듈
     entries:
     - title: 입출력 모듈을 교체합니다
       url: "/a900/pci_cards_and_risers_replace.html"

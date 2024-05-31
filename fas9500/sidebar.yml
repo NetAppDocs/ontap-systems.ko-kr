@@ -70,6 +70,7 @@ entries:
   - title: 팬
     url: "/fas9500/fan_swap_out.html"
   - title: 입출력 모듈
+    pdf-filename: FAS9500 I/O 모듈
     entries:
     - title: 대치
       url: "/fas9500/pci_cards_and_risers_replace.html"

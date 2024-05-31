@@ -7,7 +7,7 @@ summary: AFF, ASA, FAS 시스템을 시작하고 실행하려면 ONTAP에서 하
 = AFF, ASA 및 FAS 스토리지 시스템을 가동 및 운영합니다
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

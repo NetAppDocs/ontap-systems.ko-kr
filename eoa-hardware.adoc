@@ -7,7 +7,7 @@ summary: 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보�
 = 기존 하드웨어는 더 이상 지원되지 않습니다
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -15,7 +15,7 @@ summary: 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보�
 
 
 
-=== AFF 및 FAS 시스템
+== AFF 및 FAS 시스템
 
 [cols="2*"]
 |===
@@ -43,7 +43,7 @@ ONTAP 9.9.1
 |===
 
 
-=== 스위치
+== 스위치
 
 [cols="2*"]
 |===
@@ -67,7 +67,7 @@ ONTAP 9.11.1
 |===
 
 
-=== 관련 정보
+== 관련 정보
 
 * https://mysupport.netapp.com/site/info/cisco-ethernet-switch["지원되는 Cisco 이더넷 스위치"]
 * https://mysupport.netapp.com/site/info/netapp-cluster-switch["지원되는 NetApp 이더넷 스위치"]

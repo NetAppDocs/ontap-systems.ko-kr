@@ -6,6 +6,8 @@ summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상�
 ---
 = 온보드 암호화 키 사전 종료 검사 - ASA A900
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 [role="lead"]

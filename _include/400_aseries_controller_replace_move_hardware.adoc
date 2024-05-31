@@ -29,7 +29,7 @@ video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 image:../media/drw_A400_Remove_controller.png[""]
 
 +
-[cols="10,90"]
+[cols="10a,90a"]
 |===
 
 
@@ -42,7 +42,9 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-| 컨트롤러가 섀시 밖으로 약간 이동합니다 
+ a| 
+컨트롤러가 섀시 밖으로 약간 이동합니다
+
 |===
 . 컨트롤러 모듈을 섀시 밖으로 밀어냅니다.
 +

@@ -7,7 +7,7 @@ summary: AFF, ASA 및 FAS 시스템의 새로운 기능과 더 이상 지원되�
 = AFF, ASA 및 FAS 시스템의 새로운 기능
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

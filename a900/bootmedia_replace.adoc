@@ -6,6 +6,8 @@ summary: 컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미�
 ---
 = 컨트롤러를 제거하고 부팅 미디어를 교체한 다음 부팅 이미지(AFF A900)를 전송합니다
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 [role="lead"]

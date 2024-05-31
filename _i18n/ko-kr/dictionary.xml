@@ -5757,8 +5757,6 @@
   <block id="f24bbd8bd23b87a9a7d8b466f2edd685" category="list-text">가장 좋은 방법은 드라이브를 핫 스왑하기 전에 DQP(Disk Qualification Package)의 현재 버전을 설치하는 것입니다.</block>
   <block id="38b15850492133a635d50ad8448e62b9" category="list-text">디스크를 핫 스왑하는 방법은 디스크 드라이브의 사용 방식에 따라 다릅니다. SED 인증이 활성화된 경우 의 SED 교체 지침을 사용해야 합니다<block ref="fc87e4868a863f484cb32d2391c4aa0d" category="inline-link-rx"></block>. 이 지침에서는 SED를 교체하기 전과 후에 수행해야 하는 추가 단계에 대해 설명합니다.</block>
   <block id="6e3d311e755c860fa8be4786c7ffe617" category="list-text">교체 드라이브는 플랫폼이 지원해야 합니다. 를 참조하십시오<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block>.</block>
-  <block id="455e7132916e2cfdc2ed81e21742458e" category="paragraph">stdin&gt;에서 해결되지 않은 지시문 - 포함::::./_include/drive_hotswap_sas.adoc [ ]</block>
-  <block id="ed6243b9da8cbb52d7ded5d7a78d3b37" category="paragraph">stdin&gt;에서 해결되지 않은 지시문 - 포함:::./_include/drive_hotswap_sas.adoc.adoc []</block>
   <block id="2bed99b4660dcf909368c3a2ae62b513" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - AFF A800</block>
   <block id="ad451e1c6a6a584f53b88b5c73144db7" category="doc">기타 모델</block>
   <block id="03be12a0476133b21cb6c1c927956d23" category="doc">SSD 드라이브 또는 HDD 드라이브 - AFF A220 및 FAS2700을 교체합니다</block>
@@ -8687,7 +8685,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5407ed45e4a9085a4f72a4611d202d7c" category="sidebar">NetApp의 NS224 쉘프 및 SAS 쉘프는 디지털 혁신에 필요한 성능, 복원력, 유연성을 제공합니다.</block>
   <block id="432ba2d883505b11fa27f305c25abca9" category="sidebar">ONTAP 하드웨어 시스템용 드라이브 쉘프</block>
   <block id="4ab265d37ededf839a389d0b0bedcb7f" category="paragraph">30cm</block>
-  <block id="70f83c59fcbb747c1a869b38caf783e3" category="list-text">환경 변수가 예상대로 설정되지 않은 경우 로 수정합니다<block ref="ac4028a4cb48838c0a22ab27fa6e6920" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="f0c3921d8aabdebf1548d35d830083d9" category="list-text">컨트롤러 모듈에서 IO Plate를 똑바로 밀어 꺼냅니다.</block>
   <block id="4dfabb2b4515ceefb323f4a3eb8d4a32" category="list-text">IO Plate를 다시 설치합니다.</block>
   <block id="ed991b7c3c7e4af5c89a603772f54dd1" category="paragraph">손상된 컨트롤러 모듈에서 IO Plate 및 PCIe 메자닌 카드를 분리합니다.</block>
@@ -8754,4 +8751,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3336aa3ff360375747634c1e3385684b" category="paragraph">SAS 쉘프를 유지하려면 다음 작업을 수행할 수 있습니다.</block>
   <block id="db84f3feadfa946e6f025822cc6bb942" category="doc">핫 애드 드라이브-SAS 쉘프</block>
   <block id="532733c728150f3f848affd8d9840374" category="sidebar">핫 애드 드라이브</block>
+  <block id="0a2a423f4439c54ecca356a8fb8eb51a" category="sidebar">ASA A900 I/O 모듈</block>
+  <block id="dc0e78bb347a9452f2f910586b57cb0e" category="sidebar">FAS9000 I/O 모듈</block>
+  <block id="774c0226814e0f61e839b7a7ba1bf4ee" category="sidebar">FAS9500 I/O 모듈</block>
+  <block id="1f07f30ffd2c12b9cf3727d864face5b" category="sidebar">AFF A700 I/O 모듈</block>
+  <block id="7c5471ad0d8503f56474b0e9d10bff2a" category="sidebar">AFF A900 I/O 모듈</block>
 </blocks>

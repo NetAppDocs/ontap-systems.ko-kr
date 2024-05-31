@@ -175,7 +175,7 @@ mcc1A::> metrocluster operation show
 video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
 
-[cols="10,90"]
+[cols="10a,90a"]
 |===
 
 
@@ -188,7 +188,9 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-| 컨트롤러가 섀시 밖으로 약간 이동합니다 
+ a| 
+컨트롤러가 섀시 밖으로 약간 이동합니다
+
 |===
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.

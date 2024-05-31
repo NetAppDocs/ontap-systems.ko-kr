@@ -7,10 +7,7 @@ summary: 드라이브 쉘프 구성 요소의 상태 및 위치를 이해하면 
 = 드라이브 쉘프 LED - NS224 쉘프 모니터링
 :allow-uri-read: 
 :icons: font
-:firstname: both:imagesdir: ../media/
-:author: both:imagesdir: ../media/
-:authorinitials: b
-:authors: both:imagesdir: ../media/
+:imagesdir: ../media/
 
 
 [role="lead"]

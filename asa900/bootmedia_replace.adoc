@@ -6,6 +6,8 @@ summary: 컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미�
 ---
 = 부팅 매체(ASA A900)를 교체합니다
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 [role="lead"]
