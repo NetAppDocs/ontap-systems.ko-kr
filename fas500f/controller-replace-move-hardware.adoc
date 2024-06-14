@@ -34,7 +34,7 @@ video::ab0ebe6b-e891-489c-aab4-ac5b015c8f01[panopto]
 NOTE: 컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지 손가락을 안쪽의 손가락 구멍을 통과하도록 합니다(팔을 교차함).
 
 +
-image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
+image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘 열기]
 
 +
 |===
@@ -54,7 +54,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 양손으로 컨트롤러 모듈 측면을 잡고 섀시에서 조심스럽게 당겨 평평하고 안정적인 표면에 놓습니다.
 . 컨트롤러 모듈 앞면의 손잡이 나사를 시계 반대 방향으로 돌려 컨트롤러 모듈 덮개를 엽니다.
 +
-image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트롤러 모듈 덮개]
+image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 덮개 열기]
 
 +
 |===
@@ -73,7 +73,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 |===
 . 에어 덕트 커버를 들어 올리십시오.
 +
-image::../media/drw_a250_remove_airduct_cover.png[drw A250 공기 덕트 커버를 탈거하십시오]
+image::../media/drw_a250_remove_airduct_cover.png[에어 덕트 커버를 들어 올립니다]
 
 
 
@@ -92,7 +92,7 @@ image::../media/drw_a250_remove_airduct_cover.png[drw A250 공기 덕트 커버�
 CAUTION: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀어 넣을 때 과도한 힘을 가하지 마십시오.
 
 +
-image::../media/drw_a250_replace_psu.png[drw A250 PSU를 교체합니다]
+image::../media/drw_a250_replace_psu.png[전원 공급 장치 분리]
 
 +
 |===
@@ -128,7 +128,7 @@ IMPORTANT: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를
 
 . 팬 모듈의 측면을 잡고 팬 모듈을 컨트롤러 모듈에서 똑바로 들어 올려 팬 모듈을 분리합니다.
 +
-image::../media/drw_a250_replace_fan.png[drw A250 팬을 교체합니다]
+image::../media/drw_a250_replace_fan.png[팬 모듈 분리]
 
 +
 |===
@@ -152,7 +152,7 @@ AFF A250에는 컨트롤러 모듈의 에어 덕트 아래에 하나의 부트 �
 
 . 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 부팅 미디어를 찾아 이동합니다.
 +
-image::../media/drw_a250_replace_boot_media.png[drw A250 부팅 매체를 교체합니다]
+image::../media/drw_a250_replace_boot_media.png[부팅 미디어를 교체합니다]
 
 +
 |===
@@ -187,7 +187,7 @@ NOTE: 부트 미디어의 나사를 조일 때 힘을 가하지 마십시오. �
 
 DIMM을 이동하려면 손상된 컨트롤러를 찾아 교체 컨트롤러로 이동한 다음 특정 단계를 따릅니다.
 
-image::../media/drw_a250_dimm_replace.png[drw A250 DIMM 교체]
+image::../media/drw_a250_dimm_replace.png[DIMM 장착]
 
 
 IMPORTANT: 각 DIMM을 손상된 컨트롤러 모듈에서 점유한 동일한 슬롯에 설치합니다.
@@ -214,7 +214,7 @@ DIMM은 소켓에 단단히 고정되어 있습니다. 그렇지 않은 경우 D
 
 . 손상된 컨트롤러 모듈에서 메자닌 카드를 찾아 이동합니다.
 +
-image::../media/drw_a250_replace_mezz_card.png[drw A250 메자닌 카드를 교체합니다]
+image::../media/drw_a250_replace_mezz_card.png[메자닌 카드 분리]
 
 +
 |===
@@ -266,7 +266,7 @@ NOTE: 메자닌 카드의 나사를 조일 때 힘을 가하지 마십시오. �
 
 . 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 NVMEM 배터리를 찾아 이동합니다.
 +
-image::../media/drw_a250_replace_nvmem_batt.png[drw A250은 nvmem batt를 대체합니다]
+image::../media/drw_a250_replace_nvmem_batt.png[NVMEM 배터리 제거]
 
 +
 |===
@@ -315,11 +315,11 @@ image:../media/legend_icon_04.png["설명선 번호 4"]
 
 . 아직 설치하지 않은 경우 에어 덕트를 장착하십시오.
 +
-image::../media/drw_a250_install_airduct_cover.png[drw A250 에어덕트 커버를 장착하십시오]
+image::../media/drw_a250_install_airduct_cover.png[에어 덕트 설치]
 
 . 컨트롤러 모듈 덮개를 닫고 손잡이 나사를 조입니다.
 +
-image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러 모듈 덮개를 닫습니다]
+image::../media/drw_a250_close_controller_module_cover.png[컨트롤러 모듈 덮개를 닫습니다]
 
 +
 |===

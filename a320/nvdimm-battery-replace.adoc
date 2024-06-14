@@ -80,7 +80,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 . 전원에서 컨트롤러 모듈 전원 공급 장치를 분리합니다.
 . 케이블을 케이블 관리 장치에 연결하는 후크 및 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블과 SFP(필요한 경우)를 분리합니다.
 +
-image::../media/drw_a320_controller_cable_unplug_animated_gif.png[A320 drw 컨트롤러 케이블 언플러그 애니메이션 gif]
+image::../media/drw_a320_controller_cable_unplug_animated_gif.png[케이블 관리 장치를 분리합니다]
 
 +
 케이블 관리 장치에 케이블을 남겨 두면 케이블 관리 장치를 다시 설치할 때 케이블이 정리됩니다.
@@ -88,7 +88,7 @@ image::../media/drw_a320_controller_cable_unplug_animated_gif.png[A320 drw 컨�
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 . 섀시에서 컨트롤러 모듈을 분리합니다.
 +
-image::../media/drw_a320_controller_remove_animated_gif.png[A320 drw 컨트롤러 애니메이션 gif]
+image::../media/drw_a320_controller_remove_animated_gif.png[컨트롤러를 분리합니다]
 
 +
 .. 검지를 컨트롤러 모듈 양쪽에 있는 래치 장치에 삽입합니다.
@@ -130,7 +130,7 @@ image::../media/drw_a320_nvbat_move_animated_gif.png[A320 drw nvbat move 애니�
 . 아직 설치하지 않은 경우 컨트롤러 모듈 후면의 공기 덕트를 닫고 PCIe 카드 위에 덮개를 다시 설치합니다.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
 +
-image::../media/drw_a320_controller_install_animated_gif.png[A320 drw 컨트롤러 설치 애니메이션 gif]
+image::../media/drw_a320_controller_install_animated_gif.png[컨트롤러 설치]
 
 +
 

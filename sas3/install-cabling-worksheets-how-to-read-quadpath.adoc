@@ -22,7 +22,7 @@ summary: 이 예는 4중 경로 연결을 위해 IOM12/IOM12B 모듈을 사용�
 * 필요한 경우 을 참조할 수 있습니다 link:install-cabling-rules.html["SAS 케이블 연결 규칙 및 개념"] 컨트롤러 슬롯 번호 지정 규칙, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결(포트 쌍 사용 포함)에 대한 자세한 내용은 를 참조하십시오.
 
 
-image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[drw 워크시트 qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau]
+image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[4중 경로 HA를 위한 케이블 연결 워크시트]
 
 image::../media/drw_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[drw qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau]
 

@@ -190,7 +190,7 @@ NVRAM 모듈을 장착하려면 섀시의 슬롯 6에서 모듈을 찾은 다음
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 이전 NVRAM 모듈에서 새 NVRAM 모듈로 FlashCache 모듈을 이동합니다.
 +
-image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거합니다]
+image::../media/drw_9000_remove_flashcache.png[캐싱 모듈 교체]
 
 +
 |===
@@ -604,7 +604,7 @@ dr-group-id            cluster node           configuration-state
 .. MetroCluster가 구성되어 있고 'MetroCluster show'(정상 모드)로 설정되어 있는지 확인합니다
 .. 'MetroCluster check run'이라는 MetroCluster check을 수행한다
 .. MetroCluster 체크 표시 결과를 MetroCluster check show로 출력한다
-.. Config Advisor를 실행합니다. NetApp Support 사이트 의 Config Advisor 페이지로 이동합니다 http://support.netapp.com/NOW/download/tools/config_advisor/["support.netapp.com/NOW/download/tools/config_advisor/"].
+.. Config Advisor를 실행합니다. NetApp Support 사이트 의 Config Advisor 페이지로 이동합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor/["support.netapp.com/NOW/download/tools/config_advisor/"].
 +
 Config Advisor를 실행한 후 도구의 출력을 검토하고 출력에서 권장 사항을 따라 발견된 문제를 해결하십시오.
 

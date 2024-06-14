@@ -89,7 +89,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 NOTE: 컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지 손가락을 안쪽의 손가락 구멍을 통과하도록 합니다(팔을 교차함).
 
 +
-image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
+image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘 열기]
 
 +
 |===
@@ -109,7 +109,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 양손으로 컨트롤러 모듈 측면을 잡고 섀시에서 조심스럽게 당겨 평평하고 안정적인 표면에 놓습니다.
 . 컨트롤러 모듈 앞면의 손잡이 나사를 시계 반대 방향으로 돌려 컨트롤러 모듈 덮개를 엽니다.
 +
-image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트롤러 모듈 덮개]
+image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 덮개 열기]
 
 +
 |===
@@ -128,7 +128,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 |===
 . 에어 덕트 커버를 들어 올리십시오.
 +
-image::../media/drw_a250_remove_airduct_cover.png[drw A250 공기 덕트 커버를 탈거하십시오]
+image::../media/drw_a250_remove_airduct_cover.png[에어 덕트 커버를 들어 올립니다]
 
 
 
@@ -177,7 +177,7 @@ image:../media/legend_icon_03.png["설명선 번호 3"]
 . 정전기 방지 운송용 백에서 교체용 배터리를 제거합니다.
 . 방열판과 미드플레인 사이에 RTC 배터리 홀더를 찾아서 그림과 같이 정확하게 삽입합니다.
 +
-image::../media/drw_a250_install_rtc_batt.png[drw A250 RTC 배치 설치]
+image::../media/drw_a250_install_rtc_batt.png[RTC 배터리 설치]
 
 +
 |===

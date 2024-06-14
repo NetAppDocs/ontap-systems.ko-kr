@@ -469,7 +469,7 @@ NOTE: ID가 깜빡이는 데 15초 이상 걸리는 경우 버튼을 다시 길�
 케이블의 양쪽 끝을 연결한 후 쉘프 및 컨트롤러 포트 LNK(녹색) LED가 켜집니다. 포트 LNK LED가 켜지지 않으면 케이블을 다시 연결합니다.
 
 +
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
 * 다음 그림을 사용하여 쉘프 NSM 포트, e0a 및 e0b를 물리적으로 식별할 수 있습니다.
 +
@@ -662,7 +662,7 @@ NOTE: 이 단계에서는 각 컨트롤러 모듈에 슬롯 7이 아닌 슬롯 3
 다음 그림에서는 각 컨트롤러 모듈에 1개의 RoCE 가능 I/O 모듈을 사용한 1개의 핫 추가 쉘프에 대한 케이블 연결을 보여 줍니다.
 
 +
-image::../media/drw_ns224_a700_1shelf.png[drw ns224 a700 1쉘프]
+image::../media/drw_ns224_a700_1shelf.png[HA 쌍을 단일 드라이브 쉘프에 케이블 연결]
 
 
 
@@ -706,7 +706,7 @@ NOTE: 다음 하위 단계에서는 슬롯 3(쉘프 1의 케이블링 하위 단
 다음 그림에서는 첫 번째 및 두 번째 핫 애드 쉘프의 케이블 연결을 보여줍니다.
 
 +
-image::../media/drw_ns224_a700_2shelves.png[drw ns224 a700 2쉘프]
+image::../media/drw_ns224_a700_2shelves.png[2개의 드라이브 쉘프에 HA 쌍을 케이블로 연결]
 
 . 핫 애드 쉘프가 올바로 연결되었는지 확인합니다.
 +

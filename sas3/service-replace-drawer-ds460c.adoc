@@ -45,7 +45,7 @@ DCM 또는 DCM2 드라이브 드로어에 장애가 발생하면 DCM 또는 DCM2
 DCM 드라이브 드로어는 다음과 같습니다.
 
 +
-image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[28 DWG e2860 de460c 전면 설명선 없음]
+image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[드라이브 쉘프 전면]
 
 +
 DCM2 드라이브 드로어는 파란색 스트라이프와 "DCM2" 레이블로 구분됩니다.
@@ -157,7 +157,7 @@ NOTE: * 가능한 하드웨어 손상: * 선반의 정전기 방전 손상을 �
 이 그림은 왼쪽에 있는 주황색 탭에서 확장 및 해제된 팬 모듈의 핸들을 보여줍니다.
 
 +
-image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[28 DWG e2860 de460c 팬 캐니스터 핸들과 설명선]
+image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[확장된 팬 모듈 손잡이]
 
 +
 [cols="10,90"]
@@ -292,7 +292,7 @@ image::../media/28_dwg_e2860_drive_latches_top_view.gif[28 DWG e2860 드라이�
 .. 드라이브 핸들을 수직으로 올립니다.
 .. 핸들을 사용하여 드라이브 드로어에서 드라이브를 들어 올립니다.
 +
-image::../media/92_dwg_de6600_install_or_remove_drive.gif[92 DWG de6600 드라이브를 설치하거나 제거합니다]
+image::../media/92_dwg_de6600_install_or_remove_drive.gif[드라이브 설치 또는 분리]
 
 .. 드라이브를 평평하고 정전기가 없는 표면 위에 놓고 자기 장치와 떨어진 곳에 놓습니다.
 +
@@ -386,7 +386,7 @@ NOTE: * 장비 손상 위험: * 과도한 저항이나 바인딩이 느껴지면
 이 그림은 드라이브의 우측면도 및 올라간 버튼의 위치를 보여줍니다.
 
 +
-image::../media/28_dwg_e2860_de460c_drive_cru.gif[28 DWG e2860 de460c 드라이브 CRU]
+image::../media/28_dwg_e2860_de460c_drive_cru.gif[드라이브에서 돌출된 단추 위치]
 
 +
 [cols="10,90"]
@@ -406,7 +406,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 NOTE: * 장비 오작동 위험: * 공기 흐름이 원활하도록 하고 과열을 방지하려면 항상 처음 4개의 드라이브를 전면 슬롯(0, 3, 6, 9)에 설치하십시오.
 
 +
-image::../media/92_dwg_de6600_install_or_remove_drive.gif[92 DWG de6600 드라이브를 설치하거나 제거합니다]
+image::../media/92_dwg_de6600_install_or_remove_drive.gif[드라이브 설치 또는 분리]
 
 .. 이 하위 단계를 반복하여 모든 드라이브를 재설치합니다.
 

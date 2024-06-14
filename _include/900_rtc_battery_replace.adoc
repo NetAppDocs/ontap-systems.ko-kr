@@ -133,7 +133,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 .애니메이션 - 컨트롤러를 제거합니다
 video::256721fd-4c2e-40b3-841a-adf2000df5fa[panopto]
 +
-image::../media/drw_a900_remove_PCM.png[drw a900 PCM을 제거합니다]
+image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
 
 +
 [cols="10,90"]
@@ -160,7 +160,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 컨트롤러 모듈 덮개를 평평하고 안정적인 곳에 놓고 덮개의 파란색 단추를 누르고 덮개를 컨트롤러 모듈 뒤쪽으로 민 다음 덮개를 위로 돌려 컨트롤러 모듈에서 들어올립니다.
 
 
-image::../media/drw_a900_PCM_open.png[drw a900 PCM이 열려 있습니다]
+image::../media/drw_a900_PCM_open.png[컨트롤러 모듈에서 덮개를 들어올립니다]
 
 [cols="10,90"]
 |===

@@ -31,7 +31,7 @@ summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드�
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_a700s_pcm_remove.png[drw a700s PCM 제거]
+image::../media/drw_a700s_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
 |===

@@ -191,14 +191,14 @@ image::../media/drw_c400_remove_controller_IEOPS-1216.svg[DRW C400은 컨트롤�
 
 
  a| 
-image:../media/legend_icon_01.png[""]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png[""]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 컨트롤러가 섀시 밖으로 약간 이동합니다
 
@@ -223,7 +223,7 @@ NOTE: 애니메이션과 그림은 DIMM이 없는 소켓용 빈 슬롯을 보여
 
 .애니메이션 - 시스템 DIMM을 교체합니다
 video::93025369-2f61-46b1-bd51-b03100040fe6[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
+image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM 이동]
 
 [cols="10,90"]
 |===

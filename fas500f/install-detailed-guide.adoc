@@ -61,7 +61,7 @@ X66240A-05(112-00595), 0.5m,
 
 X66240-2(112-00573), 2m
  a| 
-image:../media/oie_cable100_gbe_qsfp28.png[""]
+image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP28 커넥터"]
  a| 
 클러스터 인터커넥트 네트워크
 
@@ -92,7 +92,7 @@ RJ-45(주문에 따라 다름)
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_rj45.png[""]
+image:../media/oie_cable_rj45.png["RJ-45 케이블 커넥터"]
  a| 
 관리 네트워크(BMC 및 렌치 포트) 및 이더넷 데이터(e0a 및 e0b)
 
@@ -109,7 +109,7 @@ X66250-15(112-00346) 15m,
 
 X66250-30(112-00347) 30m
  a| 
-image:../media/oie_cable_fc_optical.png[""]
+image:../media/oie_cable_fc_optical.png["OIE 파이버 채널 광 케이블"]
  a| 
 
 
@@ -130,7 +130,7 @@ image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_power.png[""]
+image:../media/oie_cable_power.png["전원 케이블"]
  a| 
 시스템 전원을 켭니다
 
@@ -152,7 +152,7 @@ image:../media/oie_cable_power.png[""]
 NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 
 +
-image::../media/drw_affa250_weight_caution.png[drw affa250 중량 주의]
+image::../media/drw_affa250_weight_caution.png[2인 리프트 주의]
 
 . 이 시스템에는 케이블 관리 장치가 없으므로 케이블을 식별하고 관리합니다.
 . 시스템 전면에 베젤을 부착합니다.
@@ -181,7 +181,7 @@ image::../media/drw_affa250_weight_caution.png[drw affa250 중량 주의]
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
 
-image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.png[당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -196,29 +196,30 @@ video::beec3966-0a01-473c-a5de-ac68017fbf29[panopto]
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png[""]
+image:../media/oie_legend_icon_1_lg.png["1단계"]
  a| 
 클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 케이블로 서로 연결합니다
 
-image:../media/oie_cable_sfp_gbe_copper.png[""]:
+image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터"]:
 
 * e0c - e0c
-* e0d ~ e0dimage:../media/drw_affa250_tnsc_cabling.png[""]
+* e0d ~ e0d
+image:../media/drw_affa250_tnsc_cabling.png["스위치가 없는 2노드 클러스터에서 클러스터 인터커넥트 케이블 연결"]
 
 
 
 
  a| 
-image:../media/oie_legend_icon_2_dr.png[""]
+image:../media/oie_legend_icon_2_dr.png["설명선 번호 2"]
  a| 
 RJ45 케이블을 사용하여 관리 네트워크 스위치에 렌치 포트를 연결합니다.
 
-image::../media/drw_affa250_mgmt_cabling.png[drw affa250 관리 케이블링]
+image::../media/drw_affa250_mgmt_cabling.png[관리 포트 케이블 연결]
 
 
 
  a| 
-image:../media/oie_legend_icon_attn_symbol.png[""]
+image:../media/oie_legend_icon_attn_symbol.png["주의 기호"]
  a| 
 이때 전원 코드를 꽂지 마십시오.
 
@@ -236,7 +237,7 @@ image:../media/oie_legend_icon_attn_symbol.png[""]
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
 
-image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.png[당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -251,27 +252,28 @@ video::bf6759dc-4cbf-488e-982e-ac68017fbef8[panopto]
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png[""]
+image:../media/oie_legend_icon_1_lg.png["1단계"]
  a| 
 클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
 
 * e0c
-* e0dimage:../media/drw_affa250_switched_clust_cabling.png[""]
+* e0d
+image:../media/drw_affa250_switched_clust_cabling.png["클러스터 인터커넥트 케이블 연결"]
 
 
 
 
  a| 
-image:../media/oie_legend_icon_2_dr.png[""]
+image:../media/oie_legend_icon_2_dr.png["설명선 번호 2"]
  a| 
 RJ45 케이블을 사용하여 관리 네트워크 스위치에 렌치 포트를 연결합니다.
 
-image::../media/drw_affa250_mgmt_cabling.png[drw affa250 관리 케이블링]
+image::../media/drw_affa250_mgmt_cabling.png[관리 포트 케이블 연결]
 
 
 
  a| 
-image::../media/oie_legend_icon_attn_symbol.png[OIE 범례 아이콘 특성 기호]
+image::../media/oie_legend_icon_attn_symbol.png[주의 기호]
  a| 
 이때 전원 코드를 꽂지 마십시오.
 
@@ -295,7 +297,7 @@ Fibre Channel 또는 iSCSI 호스트 네트워크 또는 직접 연결 스토리
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -310,7 +312,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.
 
-image::../media/drw_affa250_fc_host_cabling.png[drw affa250 fc 호스트 케이블 연결]
+image::../media/drw_affa250_fc_host_cabling.png[Fibre Channel 호스트 케이블 연결]
 
 
 
@@ -342,7 +344,7 @@ image::../media/drw_affa250_fc_host_cabling.png[drw affa250 fc 호스트 케이�
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -357,7 +359,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
  a| 
 케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.
 
-image::../media/drw_affa250_25gbe_host_cabling.png[drw affa250 25GbE 호스트 케이블 연결]
+image::../media/drw_affa250_25gbe_host_cabling.png[25GbE 케이블 연결]
 
 
 
@@ -386,7 +388,7 @@ image::../media/drw_affa250_25gbe_host_cabling.png[drw affa250 25GbE 호스트 �
 
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -401,16 +403,16 @@ video::3f92e625-a19c-4d10-9028-ac68017fbf57[panopto]
 
 
  a| 
-image:../media/oie_legend_icon_1_mb.png[""]
+image:../media/oie_legend_icon_1_mb.png["설명선 번호 1"]
  a| 
-컨트롤러 A를 쉘프에 연결: image:../media/drw_affa250_1shelf_cabling_a.png[""]
+컨트롤러 A를 쉘프에 연결:    image:../media/drw_affa250_1shelf_cabling_a.png["컨트롤러 A 케이블링"]
 
 
 
  a| 
-image:../media/oie_legend_icon_2_lo.png[""]
+image:../media/oie_legend_icon_2_lo.png["설명선 번호 2"]
  a| 
-컨트롤러 B를 쉘프에 연결: image:../media/drw_affa250_1shelf_cabling_b.png[""]
+컨트롤러 B를 쉘프에 연결:    image:../media/drw_affa250_1shelf_cabling_b.png["컨트롤러 B 케이블 연결"]
 
 |===
 시스템 설정을 완료하려면 을 참조하십시오 link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration["4단계: 시스템 설치 및 구성을 완료합니다"].
@@ -439,7 +441,7 @@ image:../media/oie_legend_icon_2_lo.png[""]
 video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]
+image::../media/drw_autodiscovery_controler_select.png[ONTAP 아이콘을 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.
@@ -476,7 +478,7 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 .. 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.
 +
-image::../media/drw_console_client_mgmt_subnet_affa250.png[drw 콘솔 클라이언트 관리 서브넷 affa250]
+image::../media/drw_console_client_mgmt_subnet_affa250.png[관리 서브넷에 연결하는 중입니다]
 
 .. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
 

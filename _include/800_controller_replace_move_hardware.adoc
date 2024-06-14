@@ -27,7 +27,7 @@ image::../media/drw_a800_drive_seated_IEOPS-960.svg[DRW A800 드라이브 장착
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_a800_pcm_remove.png[drw A800 PCM 제거]
+image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
 [cols="1,4"]
@@ -55,7 +55,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 .. 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 .. 공기 덕트를 팬 모듈 쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
 +
-image::../media/drw_a800_open_air_duct.png[drw A800 개방형 공기 덕트]
+image::../media/drw_a800_open_air_duct.png[에어 덕트 열기]
 
 +
 [cols="1,4"]
@@ -135,7 +135,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 . 팬 모듈 측면에 있는 잠금 탭을 잡고 팬 모듈을 컨트롤러 모듈 밖으로 똑바로 들어 올려 팬 모듈을 분리합니다.
 +
-image::../media/drw_a800_replace_fan.png[drw A800은 팬을 교체합니다]
+image::../media/drw_a800_replace_fan.png[팬을 분리합니다]
 
 +
 |===
@@ -410,7 +410,7 @@ DIMM, NVDIMM 및 부팅 미디어를 이동한 후 교체 컨트롤러 모듈에
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
+image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
 +
 [cols="1,4"]

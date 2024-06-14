@@ -91,7 +91,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 
  a| 
-image::../media/legend_icon_03.png[범례 아이콘 03]
+image::../media/legend_icon_03.png[설명선 번호 3]
  a| 
 공기 덕트를 위로 돌립니다
 

@@ -49,7 +49,7 @@ video::86487f5e-20ff-43e6-99ae-ac5b015c1aa5[panopto]
 CAUTION: PSU가 짧습니다. 컨트롤러 모듈에서 분리할 때 컨트롤 모듈이 갑자기 흔들리지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.
 
 +
-image::../media/drw_a250_replace_psu.png[drw A250 PSU를 교체합니다]
+image::../media/drw_a250_replace_psu.png[전원 공급 장치 분리]
 
 +
 |===

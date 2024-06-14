@@ -27,7 +27,7 @@ summary: 각 DS460C 드라이브 쉘프는 2개의 팬 모듈을 포함합니다
 주의 LED가 켜진 팬 모듈을 교체해야 합니다.
 
 +
-image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[28 DWG e2860 de460c LED 설명선이 있는 단일 팬 캐니스터]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[주의 LED 위치]
 
 +
 |===
@@ -58,7 +58,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 |===
 . 팬 모듈 손잡이를 사용하여 선반에서 팬 모듈을 꺼냅니다.
 +
-image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[28 DWG e2860 de460c 팬 캐니스터 핸들과 설명선]
+image::../media/28_dwg_e2860_de460c_fan_canister_handle_with_callout.gif[확장된 팬 모듈 손잡이]
 
 +
 |===

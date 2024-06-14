@@ -149,7 +149,7 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 .애니메이션 - I/O 모듈 제거/설치
 video::3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6[panopto]
 +
-image:../media/drw_a900_remove_PCIe_module.png[""]
+image:../media/drw_a900_remove_PCIe_module.png["PCIe 모듈 분리"]
 
 
 

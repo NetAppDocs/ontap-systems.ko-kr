@@ -30,7 +30,7 @@ summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 공�
 NOTE: 컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지 손가락을 안쪽의 손가락 구멍을 통과하도록 합니다(팔을 교차함).
 
 +
-image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
+image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘 열기]
 
 +
 |===
@@ -52,7 +52,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 양손으로 컨트롤러 모듈 측면을 잡고 섀시에서 조심스럽게 당겨 평평하고 안정적인 표면에 놓습니다.
 . 컨트롤러 모듈 앞면의 손잡이 나사를 시계 반대 방향으로 돌려 컨트롤러 모듈 덮개를 엽니다.
 +
-image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트롤러 모듈 덮개]
+image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 덮개 열기]
 
 +
 |===
@@ -73,7 +73,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 |===
 . 에어 덕트 커버를 들어 올리십시오.
 +
-image::../media/drw_a250_remove_airduct_cover.png[drw A250 공기 덕트 커버를 탈거하십시오]
+image::../media/drw_a250_remove_airduct_cover.png[에어 덕트 커버를 들어 올립니다]
 
 
 
@@ -91,7 +91,7 @@ image::../media/drw_a250_remove_airduct_cover.png[drw A250 공기 덕트 커버�
 video::7c2cad51-dd95-4b07-a903-ac5b015c1a6d[panopto]
 . 손상된 부트 미디어를 컨트롤러 모듈에서 찾아 교체합니다.
 +
-image::../media/drw_a250_replace_boot_media.png[drw A250 부팅 매체를 교체합니다]
+image::../media/drw_a250_replace_boot_media.png[부팅 미디어를 교체합니다]
 
 +
 |===
@@ -163,11 +163,11 @@ USB 플래시 드라이브에는 EFI 폴더와 손상된 컨트롤러가 실행 
 . 노트북에서 USB 플래시 드라이브를 제거합니다.
 . 아직 설치하지 않은 경우 에어 덕트를 장착하십시오.
 +
-image::../media/drw_a250_install_airduct_cover.png[drw A250 에어덕트 커버를 장착하십시오]
+image::../media/drw_a250_install_airduct_cover.png[에어 덕트 설치]
 
 . 컨트롤러 모듈 덮개를 닫고 손잡이 나사를 조입니다.
 +
-image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러 모듈 덮개를 닫습니다]
+image::../media/drw_a250_close_controller_module_cover.png[컨트롤러 모듈 덮개를 닫습니다]
 
 +
 |===

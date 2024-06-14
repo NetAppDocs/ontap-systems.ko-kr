@@ -29,7 +29,7 @@ summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 팬 및 컨�
 
 . 전원 공급 장치 캠 핸들의 분리 래치를 누른 다음 캠 핸들을 완전히 열린 위치로 내려 중앙면에서 전원 공급 장치를 분리합니다.
 +
-image::../media/drw_rxl_psu.png[drw rxl PSU]
+image::../media/drw_rxl_psu.png[전원 공급 장치 분리]
 
 +
 |===
@@ -101,7 +101,7 @@ NOTE: 전원 공급 장치에는 전원 케이블만 연결하십시오. 이때 
 팬 모듈은 섀시에서 약간 떨어진 곳으로 이동합니다.
 
 +
-image::../media/drw_fas32xx_fan.png[drw fas32xx 팬]
+image::../media/drw_fas32xx_fan.png[팬을 분리합니다]
 
 +
 |===
@@ -165,11 +165,11 @@ CAUTION: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에�
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[drw 32xx cbl 관리 암]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
 
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
 +
-image::../media/drw_8020_cam_handle_thumbscrew.png[drw 8020 캠 핸들 손잡이 나사]
+image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
 |===

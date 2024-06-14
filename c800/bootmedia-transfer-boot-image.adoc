@@ -52,7 +52,7 @@ USB 플래시 드라이브에는 EFI 폴더와 손상된 컨트롤러가 실행 
 ... 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 ... 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a800_close_air_duct.png[drw A800 공기 덕트 닫기]
+image::../media/drw_a800_close_air_duct.png[에어 덕트 닫기]
 
 +
 |===

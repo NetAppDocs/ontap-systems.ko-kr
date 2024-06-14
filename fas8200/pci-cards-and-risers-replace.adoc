@@ -187,11 +187,11 @@ mcc1A::> metrocluster operation show
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[drw 32xx cbl 관리 암]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
 
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
 +
-image::../media/drw_8020_cam_handle_thumbscrew.png[drw 8020 캠 핸들 손잡이 나사]
+image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
 [cols="1,3"]
@@ -224,7 +224,7 @@ PCIe 카드를 교체하려면 컨트롤러 내에서 카드를 찾은 후 특�
 . 컨트롤러 모듈 측면 패널의 손잡이 나사를 풉니다.
 . 측면 패널을 컨트롤러 모듈에서 돌려 냅니다.
 +
-image::../media/drw_rxl_pcie.png[drw rxl PCIe]
+image::../media/drw_rxl_pcie.png[PCIe 카드 분리 또는 설치]
 
 +
 [cols="1,3"]

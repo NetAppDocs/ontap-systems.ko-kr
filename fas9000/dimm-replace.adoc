@@ -185,7 +185,7 @@ mcc1A::> metrocluster operation show
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 주황색 버튼을 잠금 해제할 때까지 아래로 밉니다.
 +
-image::../media/drw_9000_remove_pcm.png[drw 9000을 사용하여 PCM을 제거합니다]
+image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
 
 +
 |===
@@ -210,7 +210,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 . 컨트롤러 모듈 덮개를 평평하고 안정적인 곳에 놓고 덮개의 파란색 단추를 누르고 덮개를 컨트롤러 모듈 뒤쪽으로 민 다음 덮개를 위로 돌려 컨트롤러 모듈에서 들어올립니다.
 +
-image::../media/drw_9000_pcm_open.png[drw 9000 PCM이 열려 있습니다]
+image::../media/drw_9000_pcm_open.png[컨트롤러 모듈 열기 또는 닫기]
 
 +
 |===

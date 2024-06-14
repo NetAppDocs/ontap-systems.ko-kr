@@ -26,17 +26,17 @@ summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_25xx_cable_management_arm.png[drw 25xx 케이블 관리대]
+image::../media/drw_25xx_cable_management_arm.png[케이블 관리 ARM 삽입 또는 분리]
 
 . 케이블을 분리한 후 SFP 모듈을 시스템에 남겨 둔 경우 새 컨트롤러 모듈로 이동합니다.
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2240_x_opening_cam_latch.png[drw 2240 x 캠 개방 래치]
+image::../media/drw_2240_x_opening_cam_latch.png[캠 핸들 래치를 엽니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 파란색 탭을 밀어 덮개를 연 다음 덮개를 위로 돌려 엽니다.
 +
-image::../media/drw_2600_opening_pcm_cover.png[drw 2600 열림 PCM 커버]
+image::../media/drw_2600_opening_pcm_cover.png[컨트롤러 모듈 열기 또는 닫기]
 
 
 
@@ -48,7 +48,7 @@ image::../media/drw_2600_opening_pcm_cover.png[drw 2600 열림 PCM 커버]
 
 . 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-image::../media/drw_2600_boot_media_repl_animated_gif.png[drw 2600 부트 미디어 repl 애니메이션 gif]
+image::../media/drw_2600_boot_media_repl_animated_gif.png[부팅 미디어를 교체합니다]
 
 . 부트 미디어 하우징의 파란색 버튼을 눌러 하우징에서 부트 미디어를 분리한 다음 부트 미디어 소켓에서 조심스럽게 똑바로 당겨 빼냅니다.
 +
@@ -74,7 +74,7 @@ NVMEM 배터리를 이전 컨트롤러 모듈에서 새 컨트롤러 모듈로 �
 ** 시스템이 HA 구성인 경우 다음 단계로 이동합니다.
 ** 시스템이 독립 실행형 구성에 있는 경우 컨트롤러 모듈을 완전히 종료한 다음 NV 아이콘으로 식별되는 NVRAM LED를 확인합니다.
 +
-image::../media/drw_hw_nvram_icon.png[drw HW NVRAM 아이콘]
+image::../media/drw_hw_nvram_icon.png[NV LED입니다]
 
 +
 
@@ -92,7 +92,7 @@ NOTE: 시스템을 중단할 때 플래시 메모리에 콘텐츠를 디스테�
 
 . 컨트롤러 모듈에서 NVMEM 배터리를 찾습니다.
 +
-image::../media/drw_2600_nvmem_battery_move_animated_gif.png[drw 2600 nvmem 배터리 이동 애니메이션 gif]
+image::../media/drw_2600_nvmem_battery_move_animated_gif.png[NVMEM 배터리 교체]
 
 . 배터리 플러그를 찾아 배터리 플러그 표면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 분리합니다.
 . 배터리를 잡고 누름 이라고 표시된 파란색 잠금 탭을 누른 다음 홀더 및 컨트롤러 모듈에서 배터리를 들어올립니다.
@@ -124,7 +124,7 @@ NOTE: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므�
 다음 그림은 시스템 DIMM의 위치를 보여줍니다.
 
 +
-image::../media/drw_2600_dimms.png[drw 2600 DIMM]
+image::../media/drw_2600_dimms.png[시스템 DIMM의 위치입니다]
 
 . 필요에 따라 추가 DIMM을 제거하려면 다음 단계를 반복합니다.
 . NVMEM 배터리가 새 컨트롤러 모듈에 연결되어 있지 않은지 확인합니다.

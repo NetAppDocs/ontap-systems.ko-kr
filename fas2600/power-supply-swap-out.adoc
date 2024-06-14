@@ -38,7 +38,7 @@ link:https://youtu.be/fTOMwENNi9M["AFF FAS2600 전원 공급 장치 교체 비�
 
 . 전원 공급 장치 캠 핸들의 래치를 누른 다음 캠 핸들을 열어 중간 평면에서 전원 공급 장치를 완전히 분리합니다.
 +
-image::../media/drw_2600_psu_repl_animated_gif.png[drw 2600 PSU repl 애니메이션 gif]
+image::../media/drw_2600_psu_repl_animated_gif.png[캠 핸들 열기]
 
 . 캠 핸들을 사용하여 전원 공급 장치를 시스템 밖으로 밀어냅니다.
 +

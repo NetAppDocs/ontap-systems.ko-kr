@@ -17,10 +17,10 @@ FAS9000 및 AFF A700 시스템에는 2개의 2포스트 지원 레일 키트가 
 
 == 2-포스트 미드마운트 레일 키트를 장착하십시오
 
-image::../media/drw_telco_mid_mount_1.gif[drw Telco MID 마운트 1]
+image::../media/drw_telco_mid_mount_1.gif[Telco 랙 중간 마운트 설치]
 
 
 
 == 2-포스트 플러시 마운트 레일 키트를 설치합니다
 
-image::../media/drw_telco_front_mount_1.gif[drw 통신 전면 마운트 1]
+image::../media/drw_telco_front_mount_1.gif[Telco 랙 설치]

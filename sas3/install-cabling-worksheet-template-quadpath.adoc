@@ -68,7 +68,7 @@ image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_set1_c
 다음 예에서는 다중 경로 케이블 연결에 포트 쌍 1c/2D를 사용하고 스택 2에 대한 4중 경로 케이블 연결에는 포트 쌍 2c/1b를 사용합니다.
 
 +
-image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[drw 워크시트 qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau]
+image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[4중 경로 HA를 위한 케이블 연결 워크시트]
 
 . 4중 경로(단일 컨트롤러) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 합니다. 컨트롤러 1 정보만 사용하여 컨트롤러-스택 연결을 케이블로 연결할 수 있습니다.
 +

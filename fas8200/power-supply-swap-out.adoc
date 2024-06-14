@@ -35,7 +35,7 @@ NOTE: 섀시에서 전원 공급 장치를 분리한 후 2분 이내에 전원 �
 
 .. 전원 공급 장치 캠 핸들의 분리 래치를 누른 다음 캠 핸들을 완전히 열린 위치로 내려 중앙면에서 전원 공급 장치를 분리합니다.
 +
-image::../media/drw_rxl_psu.png[drw rxl PSU]
+image::../media/drw_rxl_psu.png[전원 공급 장치 분리]
 
 +
 |===

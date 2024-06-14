@@ -96,11 +96,11 @@ NOTE: 디스크 드라이브 펌웨어 검사는 2분마다 수행됩니다.
 * 필요한 경우 모니터링 디스크 쉘프 LED 섹션에서 운영자 디스플레이 패널 및 FRU 구성요소의 디스크 쉘프 LED의 의미 및 위치에 대한 정보를 확인할 수 있습니다.
 * DS460C 드라이브 쉘프는 각각 12개의 드라이브 슬롯을 포함하는 5개의 드라이브 드로어(맨 위에 있는 드라이브 드로어 1 ~ 아래쪽에 있는 드라이브 드로어 5)로 구성되어 있습니다.
 +
-image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[28 DWG e2860 de460c 전면 설명선 없음]
+image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[드라이브 쉘프 전면]
 
 * 다음 그림에서는 쉘프 내의 각 드라이브 드로어에서 드라이브 번호가 0에서 11로 지정되는 방식을 보여 줍니다.
 +
-image::../media/dwg_trafford_drawer_with_hdds_callouts.gif[HDD 속성 표시기가 있는 DWG Trafford 서랍]
+image::../media/dwg_trafford_drawer_with_hdds_callouts.gif[드라이브 번호 지정]
 
 
 
@@ -173,7 +173,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 .. 30초 동안 기다립니다.
 .. 캠 핸들을 사용하여 드라이브를 선반에서 들어 올립니다.
 +
-image::../media/92_dwg_de6600_install_or_remove_drive.gif[92 DWG de6600 드라이브를 설치하거나 제거합니다]
+image::../media/92_dwg_de6600_install_or_remove_drive.gif[드라이브 설치 또는 분리]
 
 .. 드라이브를 자기 들판 반대쪽으로 정전기 방지 쿠션 처리된 표면에 놓습니다.
 
@@ -183,7 +183,7 @@ image::../media/92_dwg_de6600_install_or_remove_drive.gif[92 DWG de6600 드라�
 .. 새 드라이브의 캠 핸들을 수직으로 올립니다.
 .. 드라이브 캐리어의 양쪽에 있는 두 개의 돌출된 단추를 드라이브 드로어의 드라이브 채널에서 일치하는 틈에 맞춥니다.
 +
-image::../media/28_dwg_e2860_de460c_drive_cru.gif[28 DWG e2860 de460c 드라이브 CRU]
+image::../media/28_dwg_e2860_de460c_drive_cru.gif[드라이브에서 돌출된 단추 위치]
 
 +
 [cols="1,3"]
@@ -197,7 +197,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 .. 드라이브를 수직으로 내린 다음 드라이브가 주황색 분리 래치 아래에 고정될 때까지 캠 핸들을 아래로 돌립니다.
 .. 드라이브 드로어를 조심스럽게 케이스에 다시 밀어 넣습니다.
 +
-image:../media/2860_dwg_e2860_de460c_gentle_close.gif[""]
+image:../media/2860_dwg_e2860_de460c_gentle_close.gif["서랍을 부드럽게 닫습니다"]
 
 +
 

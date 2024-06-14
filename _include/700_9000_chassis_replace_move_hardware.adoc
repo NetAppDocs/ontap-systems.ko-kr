@@ -78,7 +78,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 주황색 버튼을 잠금 해제할 때까지 아래로 밉니다.
 +
-image::../media/drw_9000_remove_pcm.png[drw 9000을 사용하여 PCM을 제거합니다]
+image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
 
 +
 [cols="1,3"]
@@ -129,7 +129,7 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 입출력 모듈이 있던 슬롯을 추적해야 합니다.
 
 +
-image::../media/drw_9000_remove_pcie_module.png[drw 9000 PCIe 모듈을 제거합니다]
+image::../media/drw_9000_remove_pcie_module.png[PCIe 모듈 분리]
 
 +
 [cols="1,3"]

@@ -184,7 +184,7 @@ mcc1A::> metrocluster operation show
 
 .애니메이션 - 컨트롤러 모듈을 분리합니다
 video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
+image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합니다]
 
 [cols="10a,90a"]
 |===
@@ -242,7 +242,7 @@ NOTE: 이 애니메이션은 DIMM이 없는 소켓용 빈 슬롯을 보여줍니
 
 .애니메이션 - NVDIMM을 교체합니다
 video::2d407c98-e925-4099-a222-afcf01683d4d[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
+image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM 이동]
 
 [cols="10,90"]
 |===

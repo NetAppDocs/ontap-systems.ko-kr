@@ -89,7 +89,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 NOTE: 컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지 손가락을 안쪽의 손가락 구멍을 통과하도록 합니다(팔을 교차함).
 
 +
-image::../media/drw_a250_pcm_remove_install.png[drw A250 PCM 제거 설치]
+image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘 열기]
 
 +
 |===
@@ -109,7 +109,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 양손으로 컨트롤러 모듈 측면을 잡고 섀시에서 조심스럽게 당겨 평평하고 안정적인 표면에 놓습니다.
 . 컨트롤러 모듈 앞면의 손잡이 나사를 시계 반대 방향으로 돌려 컨트롤러 모듈 덮개를 엽니다.
 +
-image::../media/drw_a250_open_controller_module_cover.png[drw A250 열린 컨트롤러 모듈 덮개]
+image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 덮개 열기]
 
 +
 |===
@@ -128,7 +128,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 |===
 . 에어 덕트 커버를 들어 올리십시오.
 +
-image::../media/drw_a250_remove_airduct_cover.png[drw A250 공기 덕트 커버를 탈거하십시오]
+image::../media/drw_a250_remove_airduct_cover.png[에어 덕트 커버를 들어 올립니다]
 
 
 
@@ -147,7 +147,7 @@ video::fa6b8107-86fb-4332-aa57-ac5b01605e52[panopto]
 DIMM은 마더보드의 슬롯 3 또는 1에 있습니다. 슬롯 2와 4는 비어 있습니다. 이 슬롯에 DIMM을 설치하지 마십시오.
 
 +
-image::../media/drw_a250_dimm_replace.png[drw A250 DIMM 교체]
+image::../media/drw_a250_dimm_replace.png[DIMM 장착]
 
 . 교체 DIMM을 올바른 방향으로 삽입할 수 있도록 소켓에서 DIMM의 방향을 기록해 두십시오.
 . DIMM의 양쪽에 있는 DIMM 이젝터 탭을 천천히 밀고 DIMM을 슬롯에서 밀어 꺼냅니다.
@@ -174,11 +174,11 @@ DIMM은 소켓에 단단히 고정되어 있습니다. 그렇지 않은 경우 D
 
 . 아직 설치하지 않은 경우 에어 덕트를 장착하십시오.
 +
-image::../media/drw_a250_install_airduct_cover.png[drw A250 에어덕트 커버를 장착하십시오]
+image::../media/drw_a250_install_airduct_cover.png[에어 덕트 설치]
 
 . 컨트롤러 모듈 덮개를 닫고 손잡이 나사를 조입니다.
 +
-image::../media/drw_a250_close_controller_module_cover.png[drw A250 컨트롤러 모듈 덮개를 닫습니다]
+image::../media/drw_a250_close_controller_module_cover.png[컨트롤러 모듈 덮개를 닫습니다]
 
 +
 |===

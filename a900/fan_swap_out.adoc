@@ -29,7 +29,7 @@ IMPORTANT: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시�
 .애니메이션 - 팬 제거/설치
 video::3c3c8d93-b48e-4554-87c8-adf9016af819[panopto]
 +
-image::../media/drw_a900_remove_install_fan.png[drw a900 설치 팬을 제거합니다]
+image::../media/drw_a900_remove_install_fan.png[팬 분리 또는 설치]
 
 +
 [cols="10,90"]

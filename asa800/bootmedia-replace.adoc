@@ -32,7 +32,7 @@ summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라�
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_a800_pcm_remove.png[drw A800 PCM 제거]
+image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
 [cols="1,4"]
@@ -64,7 +64,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 
 
-image::../media/drw_a800_open_air_duct.png[drw A800 개방형 공기 덕트]
+image::../media/drw_a800_open_air_duct.png[에어 덕트 열기]
 
 [cols="1,4"]
 |===
@@ -211,7 +211,7 @@ NOTE: Windows를 사용하여 콘텐츠를 추출하는 경우 WinZip을 사용�
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a800_close_air_duct.png[drw A800 공기 덕트 닫기]
+image::../media/drw_a800_close_air_duct.png[에어 덕트 닫기]
 
 +
 [cols="1,4"]

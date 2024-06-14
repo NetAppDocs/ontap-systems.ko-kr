@@ -1,7 +1,7 @@
 ---
 permalink: fas9000/caching-module-hot-swap.html 
 sidebar: sidebar 
-keywords: aff a700, fas9000, hot swap, replace, FlashCache 
+keywords: aff  fas9000, hot swap, replace, FlashCache 
 summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9000 시스템의 슬롯 6에 있는 NVRAM10 모듈 전면에 있습니다. ONTAP 9.4부터는 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
 ---
 = 캐싱 모듈-FAS9000을 핫 스왑합니다
@@ -76,7 +76,7 @@ NOTE: 를 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9121/["명�
 
 . 캐싱 모듈을 제거합니다.
 +
-image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거합니다]
+image::../media/drw_9000_remove_flashcache.png[캐싱 모듈 교체]
 
 +
 |===

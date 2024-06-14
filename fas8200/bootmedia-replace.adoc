@@ -26,11 +26,11 @@ summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체�
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[drw 32xx cbl 관리 암]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
 
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
 +
-image::../media/drw_8020_cam_handle_thumbscrew.png[drw 8020 캠 핸들 손잡이 나사]
+image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
 |===
@@ -70,7 +70,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-image::../media/drw_rxl_boot_media.png[drw rxl 부팅 미디어]
+image::../media/drw_rxl_boot_media.png[부팅 미디어를 제거하는 중입니다]
 
 . 부트 미디어 하우징의 파란색 버튼을 눌러 하우징에서 부트 미디어를 분리한 다음 부트 미디어 소켓에서 조심스럽게 똑바로 당겨 빼냅니다.
 +

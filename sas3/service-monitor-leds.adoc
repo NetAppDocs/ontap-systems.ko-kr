@@ -212,7 +212,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 이벤트 메시지를 확인하여 필요한 수정 조치를 결정합니다.
 
 |===
-image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[28 DWG e2860 de460c LED 설명선이 있는 단일 팬 캐니스터]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[주의 LED 위치]
 
 
 

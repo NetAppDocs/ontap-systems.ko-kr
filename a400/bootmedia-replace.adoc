@@ -32,7 +32,7 @@ summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
+image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합니다]
 
 +
 |===
@@ -77,7 +77,7 @@ video::bb4d91d7-2be1-44d8-ba18-afcf01681872[panopto]
 .단계
 . 에어 덕트를 엽니다.
 +
-image::../media/drw_A400_open-air-duct.png[drw A400 개방형 공기 덕트]
+image::../media/drw_A400_open-air-duct.png[에어 덕트 열기]
 
 +
 |===
@@ -98,7 +98,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 
  a| 
-image::../media/legend_icon_03.png[범례 아이콘 03]
+image::../media/legend_icon_03.png[설명선 번호 3]
  a| 
 공기 덕트를 위로 돌립니다
 
@@ -110,7 +110,7 @@ image::../media/legend_icon_03.png[범례 아이콘 03]
 
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
 +
-image::../media/drw_A400_Replace-boot_media.png[drw A400 부팅 미디어를 교체합니다]
+image::../media/drw_A400_Replace-boot_media.png[부팅 미디어 제거]
 
 +
 |===

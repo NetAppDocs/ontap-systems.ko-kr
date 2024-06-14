@@ -75,16 +75,16 @@ Ctrl+C를 누른 다음 y를 누릅니다.
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_25xx_cable_management_arm.png[drw 25xx 케이블 관리대]
+image::../media/drw_25xx_cable_management_arm.png[케이블 관리 ARM 삽입 또는 분리]
 
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2240_x_opening_cam_latch.png[drw 2240 x 캠 개방 래치]
+image::../media/drw_2240_x_opening_cam_latch.png[캠 핸들 래치를 엽니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 파란색 탭을 밀어 덮개를 연 다음 덮개를 위로 돌려 엽니다.
 +
-image::../media/drw_2600_opening_pcm_cover.png[drw 2600 열림 PCM 커버]
+image::../media/drw_2600_opening_pcm_cover.png[컨트롤러 모듈 열기 또는 닫기]
 
 
 
@@ -101,14 +101,14 @@ DIMM을 교체할 경우 컨트롤러 모듈에서 NVMEM 배터리를 분리한 
 비휘발성 메모리(NVMEM)에서 기록되지 않은 데이터가 손실되지 않도록 시스템 구성요소를 교체하기 전에 완전 시스템 종료를 수행해야 합니다. LED는 컨트롤러 모듈 뒷면에 있습니다. 다음 아이콘을 찾습니다.
 
 +
-image::../media/drw_hw_nvram_icon.png[drw HW NVRAM 아이콘]
+image::../media/drw_hw_nvram_icon.png[NV LED입니다]
 
 . NVMEM LED가 깜박이지 않으면 NVMEM에 콘텐츠가 없습니다. 다음 단계를 건너뛰고 이 절차의 다음 작업을 진행할 수 있습니다.
 . NVMEM LED가 깜박이면 NVMEM에 데이터가 있으며 메모리를 지우려면 배터리를 분리해야 합니다.
 +
 .. 배터리를 찾아 배터리 플러그 표면에 있는 클립을 눌러 플러그 소켓에서 잠금 클립을 분리한 다음 소켓에서 배터리 케이블을 분리합니다.
 +
-image::../media/drw_2600_nvmem_battery_unplug.png[drw 2600 nvmem 배터리 분리]
+image::../media/drw_2600_nvmem_battery_unplug.png[NVMEM 배터리 교체]
 
 .. NVMEM LED가 더 이상 켜져 있지 않은지 확인합니다.
 .. 배터리 커넥터를 다시 연결합니다.
@@ -129,7 +129,7 @@ NOTE: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므�
 다음 그림은 시스템 DIMM의 위치를 보여줍니다.
 
 +
-image::../media/drw_2600_dimm_repl_animated_gif.png[drw 2600 DIMM repl 애니메이션 gif]
+image::../media/drw_2600_dimm_repl_animated_gif.png[DIMM 교체]
 
 . 정전기 방지 포장용 백에서 교체용 DIMM을 제거하고 DIMM을 모서리에 맞춰 슬롯에 맞춥니다.
 +

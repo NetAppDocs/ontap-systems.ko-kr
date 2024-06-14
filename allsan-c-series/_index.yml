@@ -48,4 +48,4 @@ indexpage:
     - title: 시스템 하드웨어 업그레이드
       url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
     - title: ONTAP 소프트웨어 업그레이드
-      url: https://docs.netapp.com/us-en/ontap/upgrade/maintain-overview.html
+      url: https://docs.netapp.com/us-en/ontap/upgrade/index.html

@@ -26,12 +26,12 @@ summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[drw 32xx cbl 관리 암]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
 
 . 케이블을 분리한 후 SFP 모듈을 시스템에 남겨 둔 경우 새 컨트롤러 모듈로 이동합니다.
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
 +
-image::../media/drw_8020_cam_handle_thumbscrew.png[drw 8020 캠 핸들 손잡이 나사]
+image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
 |===
@@ -62,7 +62,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 . 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-image::../media/drw_rxl_boot_media.png[drw rxl 부팅 미디어]
+image::../media/drw_rxl_boot_media.png[부팅 미디어를 제거하는 중입니다]
 
 . 부트 미디어 하우징의 파란색 버튼을 눌러 하우징에서 부트 미디어를 분리한 다음 부트 미디어 소켓에서 조심스럽게 똑바로 당겨 빼냅니다.
 +
@@ -88,7 +88,7 @@ NVMEM 배터리를 이전 컨트롤러 모듈에서 새 컨트롤러 모듈로 �
 ** 시스템이 HA 구성인 경우 다음 단계로 이동합니다.
 ** 시스템이 독립 실행형 구성에 있는 경우 컨트롤러 모듈을 완전히 종료한 다음 NV 아이콘으로 식별되는 NVRAM LED를 확인합니다.
 +
-image::../media/drw_hw_nvram_icon.png[drw HW NVRAM 아이콘]
+image::../media/drw_hw_nvram_icon.png[NV LED입니다]
 
 +
 
@@ -106,7 +106,7 @@ NOTE: 시스템을 중단할 때 플래시 메모리에 콘텐츠를 디스테�
 
 . CPU 공기 덕트를 열고 NVMEM 배터리를 찾습니다.
 +
-image::../media/drw_rxl_nvmem_battery.png[drw rxl nvmem 배터리]
+image::../media/drw_rxl_nvmem_battery.png[NVMEM 배터리 교체]
 
 +
 |===
@@ -147,7 +147,7 @@ NOTE: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므�
 다음 그림은 시스템 DIMM의 위치를 보여줍니다.
 
 +
-image::../media/drw_rxl_dimms.png[drw rxl DIMM]
+image::../media/drw_rxl_dimms.png[DIMM 교체]
 
 . DIMM을 설치할 슬롯을 찾습니다.
 . 커넥터의 DIMM 이젝터 탭이 열린 위치에 있는지 확인한 다음 DIMM을 슬롯에 똑바로 삽입합니다.
@@ -174,7 +174,7 @@ PCIe 카드를 이전 컨트롤러 모듈에서 새 컨트롤러의 해당 슬�
 . 컨트롤러 모듈 측면 패널의 손잡이 나사를 풉니다.
 . 측면 패널을 컨트롤러 모듈에서 돌려 냅니다.
 +
-image::../media/drw_rxl_pcie.png[drw rxl PCIe]
+image::../media/drw_rxl_pcie.png[PCIe 카드 분리 또는 설치]
 
 +
 |===

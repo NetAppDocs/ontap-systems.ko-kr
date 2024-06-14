@@ -54,7 +54,7 @@ summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)를 계속 �
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_a800_pcm_remove.png[drw A800 PCM 제거]
+image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
 [cols="1,4"]
@@ -81,7 +81,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 .. 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 .. 공기 덕트를 팬 모듈 쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
 +
-image::../media/drw_a800_open_air_duct.png[drw A800 개방형 공기 덕트]
+image::../media/drw_a800_open_air_duct.png[에어 덕트 열기]
 
 +
 [cols="1,4"]
@@ -181,7 +181,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
+image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
 +
 [cols="1,4"]

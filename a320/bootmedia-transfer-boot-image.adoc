@@ -59,7 +59,7 @@ USB 콘솔 포트가 아니라 USB 장치용 슬롯에 USB 플래시 드라이�
 
 .. 컨트롤러 모듈 재설치를 완료합니다.
 +
-image::../media/drw_a320_controller_install_animated_gif.png[A320 drw 컨트롤러 설치 애니메이션 gif]
+image::../media/drw_a320_controller_install_animated_gif.png[컨트롤러 설치]
 
 +
 ... 래치 암이 확장된 위치에 잠겨 있는지 확인합니다.

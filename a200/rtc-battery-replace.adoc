@@ -78,16 +78,16 @@ Ctrl+C를 누른 다음 y를 누릅니다.
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_25xx_cable_management_arm.png[drw 25xx 케이블 관리대]
+image::../media/drw_25xx_cable_management_arm.png[케이블 관리 ARM 삽입 또는 분리]
 
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2240_x_opening_cam_latch.png[drw 2240 x 캠 개방 래치]
+image::../media/drw_2240_x_opening_cam_latch.png[캠 핸들 래치를 엽니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 파란색 탭을 밀어 덮개를 연 다음 덮개를 위로 돌려 엽니다.
 +
-image::../media/drw_2600_opening_pcm_cover.png[drw 2600 열림 PCM 커버]
+image::../media/drw_2600_opening_pcm_cover.png[컨트롤러 모듈 열기 또는 닫기]
 
 
 
@@ -101,7 +101,7 @@ RTC 배터리를 교체하려면 컨트롤러 내부에 있는 배터리를 찾�
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . RTC 배터리를 찾습니다.
 +
-image::../media/drw_2600_rtc_battery.png[drw 2600 RTC 배터리]
+image::../media/drw_2600_rtc_battery.png[RTC 배터리 분리]
 
 . 배터리를 홀더에서 조심스럽게 밀어내고 홀더에서 돌린 다음 홀더에서 들어 꺼냅니다.
 +

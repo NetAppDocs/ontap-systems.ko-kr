@@ -1,8 +1,8 @@
 ---
 permalink: fas9500/caching_module_hot_swap.html 
 sidebar: sidebar 
-keywords: aff a700, fas9000, hot swap, replace, FlashCache 
-summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS900 시스템의 슬롯 6에만 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
+keywords: fas9500, hot swap, replace, FlashCache 
+summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
 ---
 = 핫 스왑 A 캐싱 모듈 - FAS9500
 :allow-uri-read: 

@@ -70,7 +70,7 @@ X66211A-2(112-00574), 2m
 
 X66211A-5(112-00574), 5m
  a| 
-image:../media/oie_cable100_gbe_qsfp28.png[""]
+image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP28 커넥터"]
  a| 
 스토리지, 클러스터 인터커넥트/HA 및 이더넷 데이터(주문 종속)
 
@@ -83,7 +83,7 @@ X66240-2(112-00598), 2m
 
 X66240-5(112-00639), 5m
  a| 
-image:../media/oie_cable_sfp_gbe_copper.png[""]
+image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터"]
  a| 
 GbE 네트워크 연결(순서에 따라 다름)
 
@@ -98,7 +98,7 @@ X66250-5(112-00344), 5m
 
 X66250-15(112-00346), 15m
  a| 
-image:../media/oie_cable_sfp_gbe_copper.png[""]
+image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터"]
  a| 
 FC 네트워크 연결입니다
 
@@ -122,7 +122,7 @@ X6585-R6(112-00291), 3m
 
 X6562-R6(112-00196), 5m
  a| 
-image:../media/oie_cable_rj45.png[""]
+image:../media/oie_cable_rj45.png["RJ-45 케이블 커넥터"]
  a| 
 관리 네트워크
 
@@ -144,7 +144,7 @@ image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_power.png[""]
+image:../media/oie_cable_power.png["전원 케이블"]
  a| 
 시스템 전원을 켭니다
 
@@ -168,11 +168,11 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가�
 NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 
 +
-image::../media/drw_katana_lifting_restriction_icon.png[drw 카타나 인양 제한 아이콘]
+image::../media/drw_katana_lifting_restriction_icon.png[2인 리프트 주의]
 
 . 케이블 관리 장치를 연결합니다(그림 참조).
 +
-image::../media/drw_a320_cable_management_arms.png[A320 drw 케이블 관리 암]
+image::../media/drw_a320_cable_management_arms.png[케이블 관리 암 분리 또는 설치]
 
 . 시스템 전면에 베젤을 부착합니다.
 
@@ -200,9 +200,9 @@ image::../media/drw_a320_cable_management_arms.png[A320 drw 케이블 관리 암
 .이 작업에 대해
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 온보드 포트에 대해 위로, 확장(NIC) 카드에서는 아래로 이동합니다.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
-image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.png[당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -226,9 +226,9 @@ image::../media/drw_c400_TNSC-networking-cabling_IEOPS-1095.svg[drw C400 TNSC �
 .이 작업에 대해
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 온보드 포트에 대해 위로, 확장(NIC) 카드에서는 아래로 이동합니다.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
-image::../media/oie_cable_pull_tab_down.png[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.png[당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -258,7 +258,7 @@ image::../media/drw_c400_switched_network_cabling_IEOPS-1096.svg[drw C400 스위
 .이 작업에 대해
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. NS224의 케이블 당김 탭이 위로 올라와 있습니다.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -280,7 +280,7 @@ image::../media/drw_c400_one_ns224_shelf_IEOPS-1097.svg[drw C400 1개 ns224 쉘�
 .이 작업에 대해
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. NS224의 케이블 당김 탭이 위로 올라와 있습니다.
 
-image::../media/oie_cable_pull_tab_up.png[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.png[상단의 당김 탭이 있는 케이블 커넥터]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -324,7 +324,7 @@ image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
 
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.png[drw 자동 검색 제어자 선택]
+image::../media/drw_autodiscovery_controler_select.png[ONTAP 아이콘을 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.

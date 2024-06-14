@@ -87,7 +87,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_a800_pcm_remove.png[drw A800 PCM 제거]
+image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
 |===
@@ -120,7 +120,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 . 콘솔 오류 메시지를 확인하거나 마더보드에서 팬 모듈에 대해 표시등이 켜진 LED를 찾아 교체해야 하는 팬 모듈을 식별합니다.
 . 팬 모듈 측면에 있는 잠금 탭을 잡고 팬 모듈을 컨트롤러 모듈 밖으로 똑바로 들어 올려 팬 모듈을 분리합니다.
 +
-image::../media/drw_a800_replace_fan.png[drw A800은 팬을 교체합니다]
+image::../media/drw_a800_replace_fan.png[팬을 분리합니다]
 
 +
 |===

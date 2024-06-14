@@ -184,7 +184,7 @@ mcc1A::> metrocluster operation show
 
 .애니메이션 - 컨트롤러 모듈을 분리합니다
 video::75b6fa91-96b9-4323-b156-aae10007c9a5[panopto]
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
+image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합니다]
 
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
@@ -226,7 +226,7 @@ NOTE: 애니메이션과 그림은 DIMM이 없는 소켓용 빈 슬롯을 보여
 
 .애니메이션 - NVDIMM을 교체합니다
 video::e0afec49-0953-4dcc-b9d0-aadb01578e1b[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[drw A400 NVDIMM을 교체합니다]
+image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM 이동]
 
 .단계
 . 공기 덕트를 열고 컨트롤러 모듈의 슬롯 11에서 NVDIMM을 찾습니다.
@@ -266,7 +266,7 @@ NOTE: NVDIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지
 
 .애니메이션 - 컨트롤러 모듈을 설치합니다
 video::9249fdb8-1522-437d-9280-aae10007c97b[panopto]
-image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
+image::../media/drw_A400_Install_controller_source.png[컨트롤러 설치]
 
 .단계
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.

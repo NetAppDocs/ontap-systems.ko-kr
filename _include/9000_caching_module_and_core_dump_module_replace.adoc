@@ -195,7 +195,7 @@ NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)은 별도의 모듈
 NOTE: 시스템에 다른 캐시 모듈을 추가하는 경우 빈 모듈을 제거하고 다음 단계로 이동합니다.
 
 +
-image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거합니다]
+image::../media/drw_9000_remove_flashcache.png[캐시 모듈을 제거합니다]
 
 +
 |===
@@ -248,7 +248,7 @@ NVRAM10 모듈에서 제거할 때 캐싱 모듈을 지원해야 합니다.
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 장애가 발생한 코어 덤프 모듈을 교체하는 경우 다음을 찾아 제거합니다.
 +
-image::../media/drw_9000_remove_flashcache.png[drw 9000이 FlashCache를 제거합니다]
+image::../media/drw_9000_remove_flashcache.png[캐시 모듈을 제거합니다]
 
 +
 [cols="1,3"]

@@ -163,4 +163,4 @@ image::../media/drw_sys_cab_side_front_dimensions_ozeki.gif[drw sys 운전실 �
 
 시스템 캐비닛이 데이터 센터 플로어를 통해 떨어지지 않도록 시스템 캐비닛 하단의 케이블 액세스 구멍보다 넓은 바닥 입구 위로 시스템 캐비닛을 굴리지 마십시오.
 
-image::../media/drw_ozeki_sys_cab_bottom_top_dimensions.gif[drw ozeki sys 캡 하단 상단 치수]
+image::../media/drw_ozeki_sys_cab_bottom_top_dimensions_ieops-1803.svg[Drw ozeki sys 운전실 하단 상단 치수 ieops 1803]

@@ -78,7 +78,7 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 * https://docs.netapp.com/us-en/ontap-systems/asa250/install-setup.html["ASA A250"]
 * https://docs.netapp.com/us-en/ontap-systems/asa400/install-setup.html["ASA A400"]
 * https://docs.netapp.com/us-en/ontap-systems/asa800/install-setup.html["ASA A800"]
-* https://docs.netapp.com/us-en/ontap-systems/asa900/install-setup.html["ASA A900"]
+* https://docs.netapp.com/us-en/ontap-systems/asa900/install_setup.html["ASA A900"]
 
 
 [role="quick-margin-para"]

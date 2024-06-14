@@ -29,7 +29,7 @@ summary: 이 절차는 2차 부팅 미디어 복원이 실패하거나 2차 부�
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
+image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
 +
 |===
@@ -110,7 +110,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a700s_close_air_duct.png[drw a700s 공기 덕트 닫기]
+image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
 +
 |===

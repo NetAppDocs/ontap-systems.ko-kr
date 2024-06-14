@@ -184,7 +184,7 @@ mcc1A::> metrocluster operation show
 
 .애니메이션 - 컨트롤러 모듈을 분리합니다
 video::75b6fa91-96b9-4323-b156-aae10007c9a5[panopto]
-image::../media/drw_A400_Remove_controller.png[drw A400 컨트롤러를 제거합니다]
+image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합니다]
 
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
@@ -251,7 +251,7 @@ NOTE: 배터리함을 홀더에서 분리할 때 배터리의 극성에 유의�
 
 .애니메이션 - 컨트롤러 모듈을 설치합니다
 video::9249fdb8-1522-437d-9280-aae10007c97b[panopto]
-image::../media/drw_A400_Install_controller_source.png[drw A400 컨트롤러 소스 설치]
+image::../media/drw_A400_Install_controller_source.png[컨트롤러 설치]
 
 .단계
 . 에어 덕트 또는 컨트롤러 모듈 커버를 아직 닫지 않은 경우 닫으십시오.

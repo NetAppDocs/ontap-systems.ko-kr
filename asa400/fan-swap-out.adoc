@@ -20,7 +20,7 @@ NOTE: 팬 모듈을 섀시에서 분리한 후 2분 이내에 교체해야 합�
 
 .애니메이션 - 팬을 교체합니다
 video::ae59d53d-7746-402c-bd6b-aad9012efa89[panopto]
-image::../media/drw_A400_Replace_fan.png[drw A400 팬을 교체합니다]
+image::../media/drw_A400_Replace_fan.png[팬 분리]
 
 [cols="10,90"]
 |===
