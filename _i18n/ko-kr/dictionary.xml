@@ -721,8 +721,6 @@
   <block id="75e6252bb5a504fc80a435f3c6fc7c82" category="paragraph">주황색으로 고정되어 있습니다</block>
   <block id="b1c23a7b6408627bd440346dc97e6430" category="paragraph">팬에 결함이 있습니다</block>
   <block id="8381a4cbd0b46421f46ed9e6a81a2fa3" category="list-text">주황색 탭을 눌러 팬 모듈 손잡이를 분리합니다.</block>
-  <block id="3f7cf11429b516c3cb53569b1d4e1f45" category="image-alt">28 DWG e2860 de460c 주황색 탭 설명선이 있는 단일 팬 캐니스터</block>
-  <block id="cd502c53e12310d019d79673fe2f6a6f" category="cell">누르면 팬 모듈 핸들이 해제됩니다</block>
   <block id="e4dae0ada00c8c95fbbb526e2193977e" category="list-text">팬 모듈 손잡이를 사용하여 선반에서 팬 모듈을 꺼냅니다.</block>
   <block id="8874f1e7a2829d0a245568080fc2e410" category="cell">팬 모듈을 당겨 빼냅니다</block>
   <block id="7dfc346aec83c73e30210e88ca2e6f48" category="list-text">교체용 팬 모듈을 선반으로 밀어 넣고 팬 모듈 손잡이를 주황색 탭으로 걸릴 때까지 옆으로 이동합니다.</block>
@@ -1103,7 +1101,6 @@
   <block id="2a921b818bf0f9a17eeab21f133b15eb" category="list-text">손잡이를 사용하여 팬 모듈을 드라이브 쉘프에서 꺼내고 한쪽에 둡니다.</block>
   <block id="e6ba190a277f57ecadc541f4456b0308" category="list-text">분리할 5개의 케이블 체인 중 어떤 것을 수동으로 결정합니다.</block>
   <block id="bc710fd735f6e034125f66df1496c590" category="paragraph">이 그림은 팬 모듈이 분리된 상태에서 드라이브 쉘프의 오른쪽을 보여줍니다. 팬 모듈을 분리한 상태에서 각 드로어에 대해 5개의 케이블 체인과 수직 및 수평 커넥터를 볼 수 있습니다. 드라이브 드로어 1에 대한 설명선이 제공됩니다.</block>
-  <block id="41f00bd0bd50ec63b4c6eb083fc571c2" category="image-alt">2860 DWG 풀 백 뷰 체인 커넥터</block>
   <block id="fc29580e25d6ddbfcca9007302b4394c" category="cell">케이블 체인</block>
   <block id="4ca8a3b9b08673eaae9294722c5c27a1" category="paragraph">수직 커넥터(미드플레인에 연결됨)</block>
   <block id="22cf3fd1aa7a7963237df6cf98dc1b2b" category="paragraph">수평 커넥터(드라이브 드로어에 연결됨)</block>
@@ -1111,14 +1108,12 @@
   <block id="c8fbd1fadd109381076b56c0dc1f40a7" category="list-text">손가락을 사용하여 오른쪽의 케이블 체인을 왼쪽으로 이동합니다.</block>
   <block id="992ef3a35b769779d4cd73fc69f5ca85" category="list-text">다음 단계에 따라 해당 수직 브래킷에서 오른쪽 케이블 체인을 분리하십시오.</block>
   <block id="341cb68b980b266565dcd8fa70febe16" category="list-text">손전등을 사용하여 인클로저의 수직 브래킷에 연결된 케이블 체인 끝에 있는 주황색 링을 찾습니다.</block>
-  <block id="35d9f0c67f086a56ca2465f0708cabfb" category="image-alt">체인용 2860 DWG 수직 링</block>
   <block id="1a3df78424a80efaf743ff88cc6ad26d" category="cell">세로 브래킷의 주황색 링</block>
   <block id="9ec3b4fdedfc0b5c080f9785e9032043" category="list-text">주황색 링의 중앙을 살짝 누르고 케이블 왼쪽을 인클로저 밖으로 당겨 수직 커넥터(중앙판에 연결됨)를 분리합니다.</block>
   <block id="00d2f5860b3111749ab6d10b5ed46d2b" category="list-text">케이블 체인을 분리하려면 손가락을 약 2.5cm(1인치) 정도 사용자 쪽으로 조심스럽게 당기되, 케이블 체인 커넥터는 수직 브래킷 안에 둡니다.</block>
   <block id="60b1736b26a1128c852d3a649c188964" category="list-text">다음 단계에 따라 케이블 체인의 다른 쪽 끝을 분리합니다.</block>
   <block id="0d8a5a672c6545040deab921db92c44c" category="list-text">손전등을 사용하여 인클로저의 수평 브래킷에 부착된 케이블 체인 끝에 있는 주황색 링을 찾습니다.</block>
   <block id="1634348a275c2b7d1d291c09f7819093" category="paragraph">그림은 오른쪽의 수평 커넥터와 케이블 체인이 분리되고 부분적으로 왼쪽에서 당겨진 상태를 보여줍니다.</block>
-  <block id="aba015c8ec32303eef5374aaf1a510e7" category="image-alt">2860 DWG 수평 링이 체인에 사용됩니다</block>
   <block id="758ebe518499ad49574f8197dd4f5e5a" category="cell">가로 브래킷의 주황색 링</block>
   <block id="ef7cf81fedf71d4efb38f0e341f8d90f" category="list-text">주황색 링에 손가락을 천천히 넣습니다.</block>
   <block id="dc7063675eda2bbcd278d42189c4d77d" category="paragraph">아래 그림은 수평 브래킷의 주황색 링을 아래로 밀어 인클로저에서 나머지 케이블 체인을 당겨 빼낼 수 있게 해 줍니다.</block>
@@ -1137,14 +1132,12 @@
   <block id="978b42922d8c3bc15e9a979ce2c8cf1a" category="list-text">확장 레버를 사용하여 드라이브 서랍이 멈출 때까지 조심스럽게 빼냅니다. 드라이브 쉘프에서 드라이브 드로어를 완전히 제거하지 마십시오.</block>
   <block id="66ba465a335a9fbce33b49f55f94397c" category="list-text">드라이브 드로어에서 드라이브를 분리합니다.</block>
   <block id="10d1dd29bccd11c53b8fe8d5262038e8" category="list-text">각 드라이브의 중앙 전면에 보이는 주황색 분리 래치를 부드럽게 뒤로 당깁니다. 다음 이미지는 각 드라이브의 주황색 분리 래치를 보여줍니다.</block>
-  <block id="38e70df2ee8a82d813f8533469938b12" category="image-alt">28 DWG e2860 드라이브 래치 윗면도</block>
   <block id="c5b59405b079d560a2f881ac32d325d3" category="list-text">드라이브 핸들을 수직으로 올립니다.</block>
   <block id="551c1c27351815124bb530cc776cb70a" category="list-text">핸들을 사용하여 드라이브 드로어에서 드라이브를 들어 올립니다.</block>
   <block id="829f9bebd59be0183621be6dce3f1e14" category="list-text">드라이브를 평평하고 정전기가 없는 표면 위에 놓고 자기 장치와 떨어진 곳에 놓습니다.</block>
   <block id="73d514302bcf0d1c92a5157d6cd68ad5" category="admonition">* 데이터 액세스 손실 가능성: * 자기장을 사용하면 드라이브의 모든 데이터가 파괴되고 드라이브 회로가 복구할 수 없는 손상을 입을 수 있습니다. 데이터 액세스 손실 및 드라이브 손상을 방지하려면 드라이브가 항상 자기 장치에 닿지 않도록 하십시오.</block>
   <block id="140a6fd5028538cee6ebf617b3fa1d71" category="list-text">드라이브 드로어를 분리하려면 다음 단계를 수행하십시오.</block>
   <block id="c8da6e6a7d9e2361e6ab370c40673442" category="list-text">드라이브 드로어의 양쪽에 있는 플라스틱 분리 레버를 찾습니다.</block>
-  <block id="ba4bde21cd7161f52663069ffa4b153f" category="image-alt">92 PHT de6600 드라이브 서랍 분리 레버</block>
   <block id="0b98f6520f21008aa9272d63423c6a68" category="cell">드라이브 드로어 분리 레버</block>
   <block id="d97c00b9a1dae1b32ba8e26b84d61f46" category="list-text">래치를 사용자 쪽으로 당겨 두 분리 레버를 모두 엽니다.</block>
   <block id="ed3feb0427e42faaeb0702007b184c2f" category="list-text">두 분리 레버를 모두 잡은 상태에서 드라이브 드로어를 사용자 쪽으로 당깁니다.</block>
@@ -1152,7 +1145,6 @@
   <block id="aa88d15bb6aa9c2d7b1282acbe7f8338" category="paragraph">드라이브 서랍을 드라이브 쉘프에 설치하는 경우, 서랍을 빈 슬롯에 밀어 넣고 드라이브를 설치한 다음 전면 베젤을 다시 끼워야 합니다.</block>
   <block id="1c0cc2116ea595f697955e9248420c5f" category="list-text">드라이브 선반의 전면에서 손전등을 빈 서랍 슬롯에 비추고 해당 슬롯의 잠금 해제 텀블러를 찾습니다.</block>
   <block id="c8e81f437d4ffbfea91534a5fc234aa3" category="paragraph">잠금 텀블러 어셈블리는 한 번에 두 개 이상의 드라이브 드로어를 열 수 없도록 하는 안전 기능입니다.</block>
-  <block id="e35f213b1a3e33e3eeefc18fdd4b20bd" category="image-alt">92 PHT de6600 락아웃 텀블러 디테일</block>
   <block id="e0ec9e9e0cece115f4b8feddec63e0ef" category="cell">락아웃 텀블러</block>
   <block id="fbf674ef7c7a06fea3c33fe950efead3" category="paragraph">서랍 가이드</block>
   <block id="1b04f58f0fd4dd8056239cc400658262" category="list-text">교체용 드라이브 드로어를 빈 슬롯 앞에 놓고 가운데 약간 오른쪽으로 배치합니다.</block>
@@ -1173,7 +1165,6 @@
   <block id="55451c7cebd8269f03ecac9742984329" category="list-text">드라이브 쉘프 전면에 베젤을 부착합니다.</block>
   <block id="4ab9a12c053dc60c1cfdd6c7dd07687e" category="list-text">드라이브 드로어 및 모든 드라이브를 교체했습니다.</block>
   <block id="72774896cf4456a17908ca4b102fbb02" category="list-text">왼쪽 및 오른쪽으로 표시된 교체용 케이블 체인 2개가 있습니다(드라이브 드로어 옆의 수평 커넥터에 있음).</block>
-  <block id="b65bb2c36cf61ca817a09197efa2a05a" category="image-alt">28 DWG e2860 de460c 케이블 체인 왼쪽</block>
   <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">커넥터</block>
   <block id="5cf0603a9cc38118a92d6f62afbc27ad" category="cell">에 연결합니다</block>
   <block id="945d5e233cf7d6240f6b783b36a374ff" category="cell">왼쪽</block>
@@ -1181,14 +1172,12 @@
   <block id="90927c014932e05182fc7357971626e5" category="paragraph">미드플레인</block>
   <block id="c1b5fa03ecdb95d4a45dd1c40b02527f" category="paragraph">수평</block>
   <block id="5914f1ca7493235755e6e8677094a44a" category="paragraph">드라이브 드로어</block>
-  <block id="e7ab877c7dd32e133ab833ff45b3afe6" category="paragraph"><block ref="e7ab877c7dd32e133ab833ff45b3afe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="92b09c7c48c520c3c55e497875da437c" category="cell">맞습니다</block>
   <block id="7cba79c47deee4f5e6514e571038f802" category="list-text">왼쪽 케이블 체인을 연결하려면 다음 단계를 수행하십시오.</block>
   <block id="3ca83482a720d4949c4a59729ccdda4d" category="list-text">왼쪽 케이블 체인에서 수평 및 수직 커넥터를 찾고 인클로저 내에서 해당 수평 및 수직 브래킷을 찾습니다.</block>
   <block id="a24bc81f5cde8658108f5c5b3d844c06" category="list-text">두 케이블 체인 커넥터를 해당 브래킷에 맞춥니다.</block>
   <block id="ac2b9b8f769fab4b670e147e8905bfc0" category="list-text">케이블 체인의 수평 커넥터를 수평 브래킷의 가이드 레일 아래로 밀어 최대한 밀어 넣습니다.</block>
   <block id="96f9950b3b97a535413144b1b5b486c7" category="paragraph">이 그림은 케이스의 두 번째 드라이브 드로어의 왼쪽에 있는 가이드 레일을 보여 줍니다.</block>
-  <block id="dfecf95bf362e85faa2aaa34b01c87e8" category="image-alt">2860 DWG 가이드 레일</block>
   <block id="3a4048e0d6c04d862c5eb36f478ac453" category="cell">가이드 레일</block>
   <block id="b94391c2ccba7617899a22fadc33ce57" category="paragraph">* 장비 오작동의 위험: * 브라켓의 가이드 레일 아래에 커넥터를 밀어 넣으십시오. 커넥터가 가이드 레일 상단에 있으면 시스템이 실행될 때 문제가 발생할 수 있습니다.</block>
   <block id="32377595584a67c89f23605aeb12cd22" category="list-text">왼쪽 케이블 체인의 수직 커넥터를 수직 브래킷에 밀어 넣습니다.</block>
@@ -6001,7 +5990,6 @@
   <block id="ee0c60e2d91c7aed52362f32053f76dc" category="list-text">DCM 드라이브 드로어 및 DCM2 드라이브 드로어는 외관에 따라 구분할 수 있습니다.</block>
   <block id="032d64c3ac3941e331a360a54f0a04ef" category="paragraph">DCM 드라이브 드로어는 다음과 같습니다.</block>
   <block id="319d072de0a7eb80654d8506bc74de47" category="paragraph">DCM2 드라이브 드로어는 파란색 스트라이프와 "DCM2" 레이블로 구분됩니다.</block>
-  <block id="8bf45bf113568322e421362c99ee6a1e" category="image-alt">dcm2</block>
   <block id="d5240bafd6bf54bcb59e9a9f899b324e" category="section-title">드라이브 드로어를 교체할 준비를 합니다</block>
   <block id="38cd7f0eca6a82b183b0f9dc3599583a" category="paragraph">드라이브 드로어를 교체하기 전에 필요한 경우 IOM12 FW를 업데이트하고, HA 쌍을 중지해야 하므로 쉘프에 데이터 애그리게이트를 유지할 수 있으며, HA 쌍을 계속 유지할 수 있는 옵션이 있습니다. 이 경우 디스크 드라이브에 상주하는 데이터 애그리게이트에서 모든 데이터를 오프라인 상태로 이동하고 데이터 애그리게이트를 삭제해야 합니다. 하지만 쉘프에 루트 애그리게이트가 포함되어 있는 경우 HA 쌍을 중지해야 합니다. 마지막으로, 쉘프의 전원을 꺼야 합니다.</block>
   <block id="fca3ffea6534176432f58b5a22ed22e1" category="list-title">단계</block>
@@ -8759,4 +8747,15 @@ SFP+(타겟/이니시에이터)</block>
   <block id="be156c2254730ffea327aad8b7574600" category="paragraph">&lt;stdin&gt;-include:../_include/700_9000_caching_module_and_core_dump_module_replace.adoc[]</block>
   <block id="c2aecd7a81767c23b66c3ce771bbf967" category="image-alt">Drw ozeki sys 운전실 하단 상단 치수 ieops 1803</block>
   <block id="98c84c18c84bbdb869a3af52fb92fee5" category="admonition">SuperRail을 설치하기 위한 전면 및 후면 연결 지점 사이의 최소 깊이는 24인치이며 최대 깊이는 32인치입니다.</block>
+  <block id="4310ae1c54d0fb440933bafa796b368e" category="image-alt">DCM2 드라이브 드로어</block>
+  <block id="391efe7c4ae90cf6bb51a9deabcdbefb" category="image-alt">5개의 케이블 체인과 각 드로어에 대한 수직 및 수평 커넥터 모습</block>
+  <block id="eaa8764720f96ec6f05bfcafb2927484" category="image-alt">케이블 체인 끝에 있는 주황색 고리</block>
+  <block id="ce8c0a15cd3a283989fdd236596cac09" category="image-alt">케이블 체인 및 주황색 고리</block>
+  <block id="a5c468b2feb45044b7a84817bf860018" category="image-alt">드라이브 분리 래치</block>
+  <block id="595caf2c9a566f7cae1fc3062decf2e1" category="image-alt">서랍 분리 레버</block>
+  <block id="c5255515ced9ac590abe750c26310d2e" category="image-alt">잠금 장치 텀블러 및 드로어 가이드의 위치</block>
+  <block id="ab49907b6b1ab2d23d3e1482f67b2287" category="image-alt">좌측 교체용 케이블 체인</block>
+  <block id="4fa52de47c741739e8f7d44adf43e2c4" category="inline-image-macro">우측 교체용 케이블 체인</block>
+  <block id="34295d4ce178b90b68e15136040e3cc3" category="paragraph"><block ref="34295d4ce178b90b68e15136040e3cc3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ce0bb18b72a89153bd80d397683365ef" category="image-alt">팬 모듈 분리 탭</block>
 </blocks>

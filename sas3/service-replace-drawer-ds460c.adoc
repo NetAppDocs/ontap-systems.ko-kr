@@ -51,7 +51,7 @@ image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[드라이브 쉘프 �
 DCM2 드라이브 드로어는 파란색 스트라이프와 "DCM2" 레이블로 구분됩니다.
 
 +
-image::../media/dcm2.png[dcm2]
+image::../media/dcm2.png[DCM2 드라이브 드로어]
 
 
 
@@ -176,7 +176,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 이 그림은 팬 모듈이 분리된 상태에서 드라이브 쉘프의 오른쪽을 보여줍니다. 팬 모듈을 분리한 상태에서 각 드로어에 대해 5개의 케이블 체인과 수직 및 수평 커넥터를 볼 수 있습니다. 드라이브 드로어 1에 대한 설명선이 제공됩니다.
 
 +
-image::../media/2860_dwg_full_back_view_chain_connectors.gif[2860 DWG 풀 백 뷰 체인 커넥터]
+image::../media/2860_dwg_full_back_view_chain_connectors.gif[5개의 케이블 체인과 각 드로어에 대한 수직 및 수평 커넥터 모습]
 
 +
 [cols="10,90"]
@@ -209,7 +209,7 @@ image:../media/legend_icon_03.png["설명선 번호 3"]
 +
 .. 손전등을 사용하여 인클로저의 수직 브래킷에 연결된 케이블 체인 끝에 있는 주황색 링을 찾습니다.
 +
-image::../media/2860_dwg_vertical_ring_for_chain.gif[체인용 2860 DWG 수직 링]
+image::../media/2860_dwg_vertical_ring_for_chain.gif[케이블 체인 끝에 있는 주황색 고리]
 
 +
 [cols="10,90"]
@@ -231,7 +231,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 그림은 오른쪽의 수평 커넥터와 케이블 체인이 분리되고 부분적으로 왼쪽에서 당겨진 상태를 보여줍니다.
 
 +
-image::../media/2860_dwg_horiz_ring_for_chain.gif[2860 DWG 수평 링이 체인에 사용됩니다]
+image::../media/2860_dwg_horiz_ring_for_chain.gif[케이블 체인 및 주황색 고리]
 
 +
 [cols="10,90"]
@@ -287,7 +287,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 +
 .. 각 드라이브의 중앙 전면에 보이는 주황색 분리 래치를 부드럽게 뒤로 당깁니다. 다음 이미지는 각 드라이브의 주황색 분리 래치를 보여줍니다.
 +
-image::../media/28_dwg_e2860_drive_latches_top_view.gif[28 DWG e2860 드라이브 래치 윗면도]
+image::../media/28_dwg_e2860_drive_latches_top_view.gif[드라이브 분리 래치]
 
 .. 드라이브 핸들을 수직으로 올립니다.
 .. 핸들을 사용하여 드라이브 드로어에서 드라이브를 들어 올립니다.
@@ -305,7 +305,7 @@ NOTE: * 데이터 액세스 손실 가능성: * 자기장을 사용하면 드라
 +
 .. 드라이브 드로어의 양쪽에 있는 플라스틱 분리 레버를 찾습니다.
 +
-image::../media/92_pht_de6600_drive_drawer_release_lever.gif[92 PHT de6600 드라이브 서랍 분리 레버]
+image::../media/92_pht_de6600_drive_drawer_release_lever.gif[서랍 분리 레버]
 
 +
 [cols="10,90"]
@@ -344,7 +344,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 잠금 텀블러 어셈블리는 한 번에 두 개 이상의 드라이브 드로어를 열 수 없도록 하는 안전 기능입니다.
 
 +
-image::../media/92_pht_de6600_lock_out_tumbler_detail.gif[92 PHT de6600 락아웃 텀블러 디테일]
+image::../media/92_pht_de6600_lock_out_tumbler_detail.gif[잠금 장치 텀블러 및 드로어 가이드의 위치]
 
 +
 [cols="10,90"]
@@ -430,7 +430,7 @@ NOTE: * 장비 오작동 위험: * 두 레버를 모두 눌러 드라이브 드�
 * 왼쪽 및 오른쪽으로 표시된 교체용 케이블 체인 2개가 있습니다(드라이브 드로어 옆의 수평 커넥터에 있음).
 
 
-image::../media/28_dwg_e2860_de460c_cable_chain_left.gif[28 DWG e2860 de460c 케이블 체인 왼쪽]
+image::../media/28_dwg_e2860_de460c_cable_chain_left.gif[좌측 교체용 케이블 체인]
 
 [cols="4*"]
 |===
@@ -456,7 +456,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 드라이브 드로어
 
 |===
-image:../media/28_dwg_e2860_de460c_cable_chain_right.gif[""]
+image:../media/28_dwg_e2860_de460c_cable_chain_right.gif["우측 교체용 케이블 체인"]
 
 [cols="4*"]
 |===
@@ -492,7 +492,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 이 그림은 케이스의 두 번째 드라이브 드로어의 왼쪽에 있는 가이드 레일을 보여 줍니다.
 
 +
-image::../media/2860_dwg_guide_rail.gif[2860 DWG 가이드 레일]
+image::../media/2860_dwg_guide_rail.gif[가이드 레일]
 
 +
 [cols="10,90"]

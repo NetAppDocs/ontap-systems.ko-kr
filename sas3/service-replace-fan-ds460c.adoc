@@ -46,7 +46,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 |===
 . 주황색 탭을 눌러 팬 모듈 손잡이를 분리합니다.
 +
-image::../media/28_dwg_e2860_de460c_single_fan_canister_with_orange_tab_callout.gif[28 DWG e2860 de460c 주황색 탭 설명선이 있는 단일 팬 캐니스터]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_with_orange_tab_callout.gif[팬 모듈 분리 탭]
 
 +
 |===
@@ -54,7 +54,7 @@ image::../media/28_dwg_e2860_de460c_single_fan_canister_with_orange_tab_callout.
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 누르면 팬 모듈 핸들이 해제됩니다 
+| 팬 모듈 분리 탭 
 |===
 . 팬 모듈 손잡이를 사용하여 선반에서 팬 모듈을 꺼냅니다.
 +
