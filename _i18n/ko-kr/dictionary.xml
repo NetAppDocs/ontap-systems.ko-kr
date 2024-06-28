@@ -1024,7 +1024,6 @@
   <block id="dcef7e6e25f4d0285a65c6e2456b274e" category="paragraph">시스템 관리자는 서비스가 필요한 디스크 쉘프를 물리적으로 찾을 수 있도록 이 LED 기능을 활성화했습니다.</block>
   <block id="735b119b02d7cf2ed75726f0f7dd0561" category="paragraph">디스크 쉘프 모델에 따라 작동 디스플레이 패널은 다르게 보이지만 세 개의 LED는 같은 방식으로 배열됩니다.</block>
   <block id="5d405fcbf9fe0221fc5a388844b43691" category="paragraph">다음 그림은 엔드 캡이 있는 DS224C 디스크 쉘프 운영자 디스플레이 패널을 보여줍니다.</block>
-  <block id="619a6c64b692f7c7d530acc10ff465bd" category="image-alt">drw OPD</block>
   <block id="06193ae5b75dce356ceef150051cbba7" category="paragraph">SAS 포트 기능: 4개의 SAS 레인 모두에서 링크를 설정했습니다(어댑터 또는 다른 디스크 쉘프 사용).</block>
   <block id="96c5571f7b6648b76366cba9755c4f43" category="paragraph">LNK</block>
   <block id="19e79e9ef0fa80f9b6aa5a3f8e5bb42c" category="paragraph">포트 링크</block>
@@ -1040,9 +1039,7 @@
   <block id="1a72857039f3a753045df458fd5906ab" category="paragraph">디스크 쉘프 모델에 따라 전원 공급 장치가 달라질 수 있으며 두 LED의 위치를 딕테이하게 됩니다.</block>
   <block id="79fddb156a4156f81169729e4d9cffdb" category="paragraph">다음 그림은 DS460C 디스크 쉘프에 사용되는 전원 공급 장치에 대한 것입니다.</block>
   <block id="c7be9f260eddf0b7fc78f0f0d8a0badb" category="paragraph">두 개의 LED 아이콘은 레이블 및 LED의 역할을 하며, 이는 아이콘 자체가 켜지며 인접한 LED는 없습니다.</block>
-  <block id="af487f14c93aeba1a41a35a9cca4312f" category="image-alt">28 DWG e2860 de460c PSU</block>
   <block id="d5c6a2bd5432e8fbef8c970d23dcf3eb" category="paragraph">다음 그림은 DS224C 또는 DS212C 디스크 쉘프에 사용되는 전원 공급 장치에 대한 것입니다.</block>
-  <block id="4f313555132af3204cd271a139b5c34e" category="image-alt">drw 전원 공급 913w VSD</block>
   <block id="345010c98ef3c11621e4e15a3c0ec3f8" category="section-title">DS460C 디스크 쉘프의 팬 LED</block>
   <block id="f0a6a09f1e4521d0cf1bb52fa09f86a7" category="paragraph">DS460C 팬의 LED는 팬이 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.</block>
   <block id="a7d0fabb0e19581fdc7108acf3ea86ca" category="paragraph">다음 표에서는 DS460C 디스크 쉘프에서 사용되는 팬의 LED에 대해 설명합니다.</block>
@@ -1060,13 +1057,10 @@
   <block id="a9b892ba337a8e7b9f2875122e19906e" category="paragraph">디스크 쉘프 모델에 따라 디스크 드라이브는 디스크 쉘프에서 수직 또는 수평으로 배열되어 두 LED의 위치를 지정합니다.</block>
   <block id="6fcb2aeff28bfdde99d5d5e7628dffe3" category="paragraph">다음 그림은 DS224C 디스크 쉘프에 사용되는 디스크 드라이브에 대한 것입니다.</block>
   <block id="ac7ce2e8893776638061d98a41a6da23" category="paragraph">DS224C 디스크 쉘프는 디스크 쉘프에 수직으로 배열된 2.5인치 디스크 드라이브를 사용합니다.</block>
-  <block id="d3831e4b4605a55a128c22b44710d351" category="image-alt">drw diskdrive ds224c</block>
   <block id="0be0d8f9dcc763351e6b179f59ea8d79" category="paragraph">다음 그림은 DS212C 디스크 쉘프에 사용되는 디스크 드라이브에 대한 것입니다.</block>
   <block id="ab2a4261e7906c704e186f152e2374e7" category="paragraph">DS212C 디스크 쉘프는 디스크 쉘프에 수평으로 배열된 캐리어에서 3.5인치 디스크 드라이브 또는 2.5인치 디스크 드라이브를 사용합니다.</block>
-  <block id="ec4a7957a8a47f540240aff6916801c3" category="image-alt">drw diskdrive ds212c</block>
   <block id="b9be917c323e96d70ab495eab12b6c00" category="section-title">DS460C 디스크 쉘프용 디스크 드라이브 LED</block>
   <block id="fce257bfc0486761d4ac8ccf0c947059" category="paragraph">다음 그림 및 표에서는 드라이브 드로어의 드라이브 활동 LED 및 작동 상태를 설명합니다.</block>
-  <block id="070f412c2c9d7fb140413a465094384d" category="image-alt">2860 DWG 드라이브 드로어 LED</block>
   <block id="53e0dbc06e48e3d381ac224fa8bae3df" category="cell">LED</block>
   <block id="65ad8eb103ce3020ca3cc9608a6c0c1e" category="cell">상태 표시등</block>
   <block id="c4ca4238a0b923820dcc509a6f75849b" category="cell">1</block>
@@ -1081,7 +1075,6 @@
   <block id="8507b52d43e7ac061231102f596a1dbb" category="paragraph">드라이브에 전원이 공급되고 I/O 작업이 진행 중입니다.</block>
   <block id="b95638ffe5ef5db581fdf7a45bf4718a" category="paragraph">전원이 꺼져 있습니다.</block>
   <block id="830b5fe829eb12d5b43a45ca8d16c92f" category="paragraph">드라이브 드로어가 열려 있으면 각 드라이브 전면에 주의 LED가 표시됩니다.</block>
-  <block id="9a0daa08283e3d5284734f7a4dd54c88" category="image-alt">드라이브의 2860 DWG 호박색입니다</block>
   <block id="6c6102fba9a6a67d68f726fd9a0aaa6a" category="cell">주의 LED가 켜집니다</block>
   <block id="a83cb446c51cb0bdbc4bec489e45b406" category="paragraph">이 절차를 수행하려면 다음 항목이 필요합니다.</block>
   <block id="4b4b58cabc76886a516816c3c1dca8a2" category="list-text">정전기 방지</block>
@@ -1396,7 +1389,6 @@
   <block id="8ca8a28d3a4fcaa7628298761c8c87ef" category="list-text">전원에서 전원 코드를 뽑습니다.</block>
   <block id="9d3152dd7134a38c61091e66e214cb44" category="list-text">전원 공급 장치 캠 손잡이의 주황색 걸쇠를 푼 다음 캠 핸들을 열어 중간 평면에서 전원 공급 장치를 완전히 분리합니다.</block>
   <block id="89887a2f76093b08b21a590600a7bcac" category="paragraph">다음 그림은 DS224C 또는 DS212C 디스크 쉘프에 사용되는 전원 공급 장치에 대한 것이지만, 래치는 DS460C 디스크 쉘프에 사용되는 전원 공급 장치에 대해 동일한 방식으로 작동합니다.</block>
-  <block id="f39323775c898c50566f84aac9156328" category="image-alt">drw 2600 PSU</block>
   <block id="de8e59dcf51e7b30704a6f80648b9553" category="list-text">캠 핸들을 사용하여 디스크 선반에서 전원 공급 장치를 밀어 꺼냅니다.</block>
   <block id="fb6c8632d480a02cbfbde1455d99aca2" category="paragraph">DS224C 또는 DS212C 디스크 쉘프가 있는 경우 전원 공급 장치를 분리할 때 플랩이 제자리를 잡으면 빈 베이를 차단하여 공기 흐름과 냉각을 유지할 수 있습니다.</block>
   <block id="971f5d2a8ea2665c1752c9b83bb38fa4" category="admonition">전원 공급 장치를 취급할 때는 항상 두 손을 사용하여 무게를 지탱하십시오.</block>
@@ -2994,13 +2986,10 @@
   <block id="2ebdec22d5a391965cdb58290055d04c" category="paragraph">공기 덕트를 팬 모듈 쪽으로 돌립니다</block>
   <block id="0d7e9cfc68207216c33db900c7febcd1" category="list-text">라이저 왼쪽의 라이저 잠금 래치를 팬 모듈 쪽으로 돌립니다.</block>
   <block id="fa323fe0e7eb4e73cb83bdb12663ab9d" category="list-text">라이저를 위로 들어 올리고 팬을 향해 이동시키고 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 들어 올린 다음 안정적이고 평평한 표면에 놓습니다.</block>
-  <block id="88392f9a99f1005f66ebe3b02bcb2fc4" category="image-alt">drw A800 라이저 2 3 제거</block>
   <block id="92a1e44c6fd05cd1ba8ab2abf944200f" category="paragraph">라이저 2(중앙 라이저) 잠금 래치</block>
   <block id="f8875cd0262026ed3fb8588a40cc1ddf" category="list-text">라이저 2에서 RTC 배터리를 찾습니다.</block>
-  <block id="f384f058a9e18cd94b2018353655dfd8" category="image-alt">DRW A800 RTC 배터리 교체</block>
   <block id="5970ecf5a77095b830e5e2d378b5f67c" category="paragraph">라이저 2</block>
   <block id="759e216c6a22313a95c34c198ce8cb0b" category="summary">부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라이저 3을 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다.</block>
-  <block id="c77a1ae1297b5c5dbfc50dce06f417ff" category="image-alt">drw A800 부트 미디어 교체</block>
   <block id="413c7cb867bfe063a5a3a480228674da" category="paragraph">라이저 3</block>
   <block id="d4d3885e3484305b905fde6b3ef5c19c" category="paragraph">Phillips #1 드라이버</block>
   <block id="b075a4576b5250274446097769fe8ec1" category="list-text">교체 부팅 미디어를 컨트롤러 모듈에 설치합니다.</block>
@@ -3010,7 +2999,6 @@
   <block id="2ee0c03cb33be156e12b5b33dbf8e422" category="doc">NVDIMM 배터리 교체 - AFF A800</block>
   <block id="a2a7f6c4d01f5224a71aaaa23dd37c83" category="list-text">케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 시스템 케이블과 SFP 및 QSFP 모듈(필요한 경우)을 컨트롤러 모듈에서 분리하여 케이블이 연결된 위치를 추적합니다. 케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블을 분리합니다.</block>
   <block id="eb8c69a21ff0c4a8461c088e525b55c0" category="list-text">공기 덕트 덮개를 열고 라이저에서 NVDIMM 배터리를 찾습니다.</block>
-  <block id="66151fb772d064fd39d4562e83cd643e" category="image-alt">drw A800 NVDIMM 배터리 교체</block>
   <block id="9c519cb503392d6429ecc30f4aa04158" category="cell">공기 덕트 라이저</block>
   <block id="616ee803e04b5662c35b068cd97a9721" category="paragraph">NVDIMM 배터리 플러그</block>
   <block id="2229b80bc5e27cd06fad1d9da17f1a02" category="paragraph">NVDIMM 배터리 팩</block>
@@ -3026,7 +3014,6 @@
   <block id="f474da68fe49004e7ef71b0e2e717c06" category="doc">전체 시스템 복원 - AFF A800</block>
   <block id="161d11f75b68457ea33ac52c79b01c05" category="doc">NVDIMM-AFF A800을 교체합니다</block>
   <block id="2c0856fef0927def0bd154513fb326fb" category="list-text">NVDIMM을 분리하거나 이동하는 경우 라이저의 잠금 래치를 잠금 해제한 다음 해당 라이저를 분리합니다.</block>
-  <block id="e9d13b816c74953ab05ce3d6d2486166" category="image-alt">drw A800 NVDIMM 교체</block>
   <block id="f8cdcc9997405437e79f5d57e18498f5" category="paragraph">라이저 2 및 NVDIMM 11</block>
   <block id="80257ad9b8e102e01f1a08f309c3eed0" category="doc">부팅 이미지를 부팅 미디어 - AFF A800으로 전송</block>
   <block id="5ffba9ed2c673f5145fe25996fc2b0dc" category="summary">이 섹션에서는 AFF A800 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.</block>
@@ -3075,7 +3062,6 @@
   <block id="67f8e001ff11a5ea0b9591fadb082aee" category="section-title">옵션 4: 컨트롤러를 두 드라이브 쉘프에 연결합니다</block>
   <block id="e477637685baafe9bbd353f71ef51283" category="paragraph">시스템이 부팅을 시작합니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다.</block>
   <block id="56ea39f220f0f9a4e092906ae1b4e2a2" category="paragraph">컨트롤러 모듈을 교체할 때 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 전원 공급 장치를 이동해야 합니다.</block>
-  <block id="0368ad4cb6b0c6375825fb1435656e38" category="image-alt">drw A800은 PSU를 대체합니다</block>
   <block id="489f4d822f036e8983d65332d7a37f54" category="section-title">3단계: 팬을 이동합니다</block>
   <block id="3526385a16b15ee87aa73e9d27bca396" category="section-title">4단계: NVDIMM 배터리를 이동합니다</block>
   <block id="d38ed09d0b9f4f8f9a3e205ecbf9bada" category="list-text">배터리를 잡고 공기 덕트 및 컨트롤러 모듈에서 배터리를 들어 꺼냅니다.</block>
@@ -3089,12 +3075,10 @@
   <block id="98e98a06e3a3254b76d460b5e1cf8ee9" category="section-title">7단계: NVDIMM을 이동합니다</block>
   <block id="34fd67d638efc01a9982820477d8cd0d" category="paragraph">NVDIMM을 이동하려면 손상된 컨트롤러를 찾아 교체 컨트롤러로 이동한 다음 특정 단계를 따르십시오.</block>
   <block id="e1483a59aeaa93f50df5e7591168e9ab" category="list-text">컨트롤러 모듈에서 NVDIMM을 찾습니다.</block>
-  <block id="d4a68f7fd87b5e586e165e74371205d8" category="image-alt">drw A800 라이저 없음 NVDIMM 이동</block>
   <block id="5521b41573623c3aa2d96f12239f0385" category="paragraph">NVDIMM</block>
   <block id="fb9c911f5fd782e8fd686ca595abbfed" category="list-text">이전 단계를 반복하여 다른 NVDIMM을 이동합니다.</block>
   <block id="80392a74120115863aba040983d75dcc" category="section-title">8단계: 부팅 미디어를 이동합니다</block>
   <block id="4ca80d99d67871d37c8da5807f9599aa" category="paragraph">부팅 미디어는 라이저 3 아래에 있습니다.</block>
-  <block id="22593e2f0620849aa4f82e482025ae6d" category="image-alt">DRW A800 PCM은 부트 미디어만 교체합니다</block>
   <block id="c2ac0f879d7f2a549904c604053848ff" category="section-title">9단계: PCIe 라이저를 설치합니다</block>
   <block id="62e09e7465a59af05fb9cbfbb611b808" category="paragraph">DIMM, NVDIMM 및 부팅 미디어를 이동한 후 교체 컨트롤러 모듈에 PCIe 라이저를 설치합니다.</block>
   <block id="6aee55fb2ccea9a6748ee2d1c0a8562e" category="list-text">교체용 컨트롤러 모듈에 라이저를 설치합니다.</block>
@@ -3108,7 +3092,6 @@
   <block id="9194957b9ba15b1fae65a0f5a08ad128" category="doc">DIMM-AFF A800을 교체합니다</block>
   <block id="ef9f4e0c500a9033e3ecc6ac2bea9386" category="section-title">3단계: DIMM을 교체합니다</block>
   <block id="0bbcf96a7a6e1bb2c80b14750507eac7" category="list-text">DIMM을 분리할 때 해당 라이저에서 잠금 래치를 푼 다음 라이저를 분리합니다.</block>
-  <block id="fa798a18ec151c4f13a254075e708834" category="image-alt">drw A800 DIMM 교체</block>
   <block id="c21d766079506ca0395f0d5206836fde" category="paragraph">라이저 1 및 DIMM 뱅크 1 및 3-6</block>
   <block id="359472a70133529fc01e7b943ee51b2d" category="paragraph">라이저 2 및 DIMM 뱅크 7-10, 12-13 및 15-18</block>
   <block id="5c2989b756c1c0a4f26576c2a249cb73" category="paragraph">라이저 3 및 DIMM 19-22 및 24</block>
@@ -3127,10 +3110,8 @@
   <block id="acbf6011b70c1d614f3cb407d3ff275c" category="list-text">라이저 2 또는 3에서 PCIe 카드를 교체하는 경우 4단계부터 7단계까지 수행하십시오.</block>
   <block id="3222bf2357c1cda6e1289f65f5832d33" category="list-text">컨트롤러 모듈에서 라이저 1을 분리합니다.</block>
   <block id="f803b95b3f6f842f7601def9443d12bf" category="list-text">PCIe 카드에 있을 수 있는 QSFP 모듈을 제거합니다.</block>
-  <block id="88fe392568a27eddb8f48a1d2fe2079b" category="image-alt">drw A800 PCIe 1 교체</block>
   <block id="0f3ecb90e2e2ad2346ed470bcb39eacd" category="paragraph">슬롯 1에 100GbE PCIe 카드가 있는 라이저 1(왼쪽 라이저)</block>
   <block id="54695be30289fe04fcf18a671a938a9e" category="list-text">라이저 1에서 PCIe 카드를 분리합니다.</block>
-  <block id="640795c255f5074f0eb0240192c6c518" category="image-alt">drw A800 PCIe 2 5 교체</block>
   <block id="459b04b57cb298e237d6e8f1b58ca36a" category="paragraph">라이저 2(중앙 라이저) 또는 3(오른쪽 라이저) 잠금 래치</block>
   <block id="e7315d38e49b671f684ed0967484fb36" category="paragraph">라이저 2 또는 3의 측면 패널</block>
   <block id="fa24f2fea9da0ff2b6276c37ee49cd79" category="paragraph">라이저 2 또는 3의 PCIe 카드</block>
@@ -3219,7 +3200,6 @@
   <block id="b8e74ae60e8625fb6ed112fc8da2a6b9" category="list-text">파트너 노드의 반환: 'storage failover 반환 - ofnode_target_node_name_'</block>
   <block id="9744ad3e63fafdf6d52c1d0eeed92d7d" category="inline-link">NS224 드라이브 쉘프 핫 추가</block>
   <block id="64f6b820ab2dfc538680f52ee5405553" category="list-text">팬 모듈의 주황색 버튼을 누르고 팬 모듈을 섀시에서 직선 방향으로 당겨 자유손으로 받칩니다.</block>
-  <block id="88078bd3899896adbf5f6ff558fd57fe" category="image-alt">drw 9000 설치 팬을 제거합니다</block>
   <block id="d5275a655fb4dd5eb0c4cd06eb536394" category="paragraph">주황색 해제 버튼</block>
   <block id="02115e0d387563593963d3e090ae447d" category="list-text">교체용 팬 모듈의 가장자리를 섀시의 입구에 맞춘 다음 제자리에 고정될 때까지 섀시에 밀어 넣습니다.</block>
   <block id="07dfb549e1842a4183274e59acab0da7" category="paragraph">활성 시스템에 팬 모듈이 성공적으로 섀시에 삽입되면 황색 주의 LED가 네 번 깜박입니다.</block>
@@ -3230,12 +3210,10 @@
   <block id="7f5137e59b2780e60cc5115a3e706f06" category="list-text">컨트롤러 모듈 덮개를 평평하고 안정적인 곳에 놓고 덮개의 파란색 단추를 누르고 덮개를 컨트롤러 모듈 뒤쪽으로 민 다음 덮개를 위로 돌려 컨트롤러 모듈에서 들어올립니다.</block>
   <block id="369a112325c2f8cf50340f6da403d2c3" category="paragraph">컨트롤러 모듈 커버 잠금 버튼</block>
   <block id="2b73e226597ff4d1285ad08cb73c1c2c" category="paragraph">RTC 배터리를 교체하려면 컨트롤러 모듈에서 결함이 있는 배터리를 찾아 홀더에서 분리한 다음 교체용 배터리를 홀더에 설치해야 합니다.</block>
-  <block id="78d6212d8f30faeb1f63caab05c699e0" category="image-alt">drw 9000은 RTC 배터리를 제거합니다</block>
   <block id="eb8657699f4de5ec6af6863ae9c1bd12" category="paragraph">RTC 배터리</block>
   <block id="f1acf88ce1b64e66be230f01fc83f63a" category="paragraph">RTC 배터리 하우징</block>
   <block id="34b0fd94c5c9f42571c8dbe794b3702c" category="list-text">컨트롤러 모듈 덮개를 다시 설치합니다.</block>
   <block id="41f1900893059b1540d80744e44303eb" category="section-title">4단계: 컨트롤러 모듈을 다시 설치하고 시간/날짜를 설정합니다</block>
-  <block id="221a009c2c8e027e67f318554e11c21c" category="paragraph"><block ref="221a009c2c8e027e67f318554e11c21c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f098bab9337722dcf96ec8db49fd9ff" category="paragraph">분리 탭을 누릅니다</block>
   <block id="c8587180911d070686f7467322a07db1" category="list-text">뚜껑의 핀을 마더보드 캐리어의 슬롯에 맞추고 덮개를 제자리에 밀어 넣어 컨트롤러 모듈 덮개를 다시 설치합니다.</block>
   <block id="9148f81e87e207af324fa20ce6e3a4df" category="list-text">필요에 따라 컨트롤러 모듈을 다시 장착합니다.</block>
@@ -3243,9 +3221,7 @@
   <block id="de8dff5c76cce6c1c8bf248199921c22" category="admonition">구성한 타겟 포트는 네트워크 연결을 통한 'var' 파일 시스템 복원 중에 정상적인 노드에서 장애가 발생한 노드와 통신하는 데 사용하는 타겟 포트입니다. 이 명령에서 e0M 포트를 사용할 수도 있습니다.</block>
   <block id="4ef2119efbb49942a200e3b516caf558" category="doc">장애가 발생한 부품을 NetApp-AFF A700 및 FAS9000으로 반환합니다</block>
   <block id="5f1d298de53194255e6ce0c8f30f4bdb" category="list-text">컨트롤러 모듈 후면에서 검은색 공기 덕트를 들어 올린 후 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.</block>
-  <block id="7b84102a9bd32b60a70160d72d9c018c" category="image-alt">drw 9000 부트 DEV 제거</block>
   <block id="844463768f93b4eeabac9c4516ca0130" category="section-title">3단계: 시스템 DIMM을 이동합니다</block>
-  <block id="933fb7d2c5ea1e50599371981d69faf8" category="image-alt">DRW 9000이 PCM DIMM을 교체합니다</block>
   <block id="cfc8a707905d308742a0633fefb9ba76" category="paragraph">DIMM 이젝터 탭</block>
   <block id="cf3978c4f41003aa5f5fa0b3f484dfbe" category="paragraph">DIMM</block>
   <block id="f7980892d5a8155c0cf2a73f4bff4bad" category="paragraph">컨트롤러 모듈에 구성 요소를 설치한 후에는 컨트롤러 모듈을 시스템 섀시에 다시 설치하고 운영 체제를 부팅해야 합니다.</block>
@@ -3283,7 +3259,6 @@
   <block id="a904f2e8295df63a3f31580ce01700e0" category="list-text">교체 캐싱 모듈이 온라인 상태이고 인식되는지 확인한 다음 황색 주의 LED가 켜져 있지 않은지 확인하십시오. 'Sysconfig-AV slot_number</block>
   <block id="0733021a14a5c436b9b7a0e6bc3eed4e" category="admonition">캐싱 모듈을 다른 공급업체의 캐싱 모듈로 교체하는 경우 명령 출력에 새 공급업체 이름이 표시됩니다.</block>
   <block id="3d5375a17f55c7bdf08ca9af8aca2b83" category="list-text">전원 공급 장치 손잡이의 주황색 단추를 누른 상태에서 전원 공급 장치를 섀시에서 꺼냅니다.</block>
-  <block id="71cd574cf82c03ecc2bf9c3d37e621d3" category="image-alt">drw 9000 설치 제거 PSU 모듈</block>
   <block id="5c35096da376ba0c64381e3c367a4347" category="paragraph">잠금 버튼</block>
   <block id="772b3d601fb0517d5ef4e922b24709a1" category="list-text">양손으로 전원 공급 장치의 가장자리를 시스템 섀시의 입구에 맞춘 다음 전원 공급 장치가 제자리에 고정될 때까지 조심스럽게 섀시에 밀어 넣습니다.</block>
   <block id="ef20366d8eeda4ed0725f1a5a164c558" category="paragraph">PSU가 섀시에 완전히 삽입되면 녹색 전원 LED가 켜지고 황색 주의 LED가 처음에는 깜박이지만 몇 분 후에 꺼집니다.</block>
@@ -3295,7 +3270,6 @@
   <block id="1c4193ed6249e5f5b3234bd1999a5488" category="paragraph">모듈에 결함이 있으면 LED가 주황색으로 고정됩니다.</block>
   <block id="5d0c9dbc5140fd9bc61987a41aa6e82e" category="admonition">탈거 후 5분 이내에 섀시에서 DCPM 모듈을 교체해야 합니다. 그렇지 않으면 관련 컨트롤러가 종료됩니다.</block>
   <block id="fb7c7bccc626fda05f2f38df01e3b282" category="list-text">모듈 손잡이의 주황색 잠금 버튼을 누른 다음 섀시에서 DCPM 모듈을 밀어 꺼냅니다.</block>
-  <block id="8e7473b5f728b00bd855292fa84338a9" category="image-alt">drw 9000은 NV 배터리를 제거합니다</block>
   <block id="bb9e730cb1bf41d49bb0bc0e691c93ae" category="paragraph">DCPM 모듈 주황색 잠금 버튼</block>
   <block id="1e3e36e08215d7340bc57faa93175817" category="list-text">DCPM 모듈의 끝을 섀시 구멍에 맞춘 다음 딸깍 소리가 나면서 제자리에 고정될 때까지 조심스럽게 섀시에 밀어 넣습니다.</block>
   <block id="5757182a1de9468716f0a4f7c8a637d5" category="admonition">모듈 및 슬롯은 키 입력되어 있습니다. 모듈을 입구에 강제로 밀어 넣지 마십시오. 모듈이 쉽게 들어가지 않으면 모듈을 다시 정렬하고 섀시에 밀어 넣습니다.</block>
@@ -3350,7 +3324,6 @@
   <block id="44cc7055d64e9241fd58fa9511a21357" category="section-title">옵션 2: 2노드 MetroCluster 구성으로 복구 이미지를 부팅합니다</block>
   <block id="37567fb6b8c5af5beeabf61a11cdb257" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 참고: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.</block>
   <block id="6c5689e6cebd33e09bd3177ac7c907ca" category="summary">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.</block>
-  <block id="17e2d63e3b45ecbfe13bcc32fec929d0" category="paragraph">* 시작하기 전에 *</block>
   <block id="6a925f3765a4dc795f4b5a0732579780" category="admonition-title">컨트롤러가 MetroCluster에 있습니다</block>
   <block id="ed8076069cbf889b55cfae7fbfe0fa77" category="section-title">2단계: NVRAM 모듈을 교체합니다</block>
   <block id="a50a60c5a4b173a391b664ba7a38c5de" category="paragraph">NVRAM 모듈을 장착하려면 섀시의 슬롯 6에서 모듈을 찾은 다음 특정 단계를 따릅니다.</block>
@@ -3365,10 +3338,8 @@
   <block id="0ecd762c67fe8cf5a5a773646ce470c9" category="list-text">섀시에서 대상 NVRAM 모듈을 분리합니다.</block>
   <block id="c4f162b9feccf5f963d674a3299a9f00" category="paragraph">NVRAM 모듈은 섀시에서 분리되어 몇 인치 정도 밖으로 이동합니다.</block>
   <block id="ca401bca71da68589a6c9f6ae6d2abdf" category="list-text">모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 NVRAM 모듈을 분리합니다.</block>
-  <block id="6184b175066c71d474eb941a3a1d652d" category="image-alt">drw 9000 이동 NVRAM 모듈을 제거합니다</block>
   <block id="0e50691d6ac3e9df529fa546f2486bd7" category="paragraph">I/O 래치가 완전히 잠금 해제되었습니다</block>
   <block id="eafa33dcde1775d804ec271bdff3229f" category="list-text">NVRAM 모듈을 안정적인 표면에 놓고 덮개의 파란색 잠금 버튼을 눌러 NVRAM 모듈에서 덮개를 분리한 다음 파란색 버튼을 누른 상태에서 NVRAM 모듈의 덮개를 밀어 분리합니다.</block>
-  <block id="a349949a23d3b6bc1fc063b1937564e6" category="image-alt">drw 9000은 NVRAM 모듈 내용을 제거합니다</block>
   <block id="870ce8034da9f6c249302e25daedfefc" category="paragraph">커버 잠금 버튼</block>
   <block id="924c27ff82defaaf482486b520ff7a4c" category="paragraph">DIMM 및 DIMM 이젝터 탭</block>
   <block id="e14c2599c6caaa2dd36597d6664749f1" category="list-text">이전 NVRAM 모듈에서 한 번에 하나씩 DIMM을 분리하여 교체용 NVRAM 모듈에 설치합니다.</block>
@@ -3397,7 +3368,6 @@
   <block id="123ef787b4689ac71f6faa1ecdb5c6c4" category="inline-link">FAS9000 설치 및 설정 지침</block>
   <block id="52ca5a52198c80398dfe6a706737b20e" category="paragraph">"image_xxx.tgz"를 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.</block>
   <block id="f7738a24d9355b95820a5116baee7814" category="list-text">무중단 교체를 위해 HA 쌍에서는 'var' 파일 시스템을 복구하기 위해 네트워크에 연결할 필요가 없습니다. 단일 섀시의 HA 쌍에는 내부 e0S 연결이 있는데, 이 연결을 사용하여 서로 'var' 구성을 전송할 수 있습니다.</block>
-  <block id="91dc152b486fdff7eae2fccfe59d0d0b" category="image-alt">drw 9000 DIMM 맵</block>
   <block id="727b43bb986548fddfd9fbbfd6c3c609" category="summary">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다.</block>
   <block id="9c675ab95a17d7706cc75c5ef43cd314" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.5를 실행 중인 경우 로 이동합니다 <block ref="bb573a9efe1b6bf0e0892d0c586f8500" category="inline-xref-macro-rx"></block>.</block>
   <block id="08b4a74e7beb4fdd66d8c35f48e446dd" category="list-text">명령 출력에 &lt;lno-DARE&gt;가 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 로 이동하십시오 <block ref="51b5502ad45a0354bf57a42b448e6184" category="inline-xref-macro-rx"></block>.</block>
@@ -3455,12 +3425,10 @@
   <block id="546213aeb2cbd4cabb4e9e5099416edd" category="summary">서비스를 중단하지 않고 LED USB 모듈을 교체할 수 있습니다.</block>
   <block id="9e3a9c661f6d65ead55d7e84a7cd5d37" category="paragraph">FAS9000 또는 AFF A700 LED USB 모듈은 콘솔 포트 및 시스템 상태에 대한 연결을 제공합니다. 이 모듈을 교체하는 경우 도구가 필요하지 않습니다.</block>
   <block id="6fc19b2ab7e603f08d79313f5c91b43f" category="list-text">이전 LED USB 모듈을 분리합니다.</block>
-  <block id="f9c5efaad4942120d8d0b2107b8f7404" category="image-alt">LED 3</block>
   <block id="06122fdd45ab8a79a240bdae5b3f14e5" category="list-text">베젤을 분리한 상태에서 섀시 전면의 왼쪽 하단에 있는 LED USB 모듈을 찾습니다.</block>
   <block id="a9cc546e484ed1a6781c6b460ee74298" category="list-text">래치를 밀어 모듈을 부분적으로 꺼냅니다.</block>
   <block id="4b0a042e48a9843195c0871c9e058a9c" category="list-text">베이에서 모듈을 당겨 중앙판에서 분리합니다. 슬롯을 비워 두지 마십시오.</block>
   <block id="fd0036cb10116882daf9616495697a62" category="list-text">새 LED USB 모듈을 설치합니다.</block>
-  <block id="4c9d94edf12bf23bde20e225e0ae878e" category="image-alt">LED 4</block>
   <block id="7fae300c0e583b8ddac7c68a83249aa0" category="list-text">모듈을 베이의 슬라이더 래치 근처에 있는 모듈 모서리의 노치와 맞춥니다. 베이는 모듈을 거꾸로 설치할 수 없습니다.</block>
   <block id="4ca78e7a42c4693e2d9cfe7f6930f8a7" category="list-text">모듈이 섀시와 완전히 맞닿을 때까지 베이에 밀어 넣습니다.</block>
   <block id="97f6bb6bf183f068f291c29c77c8d952" category="paragraph">모듈이 안전하게 중앙판에 연결되어 있을 때 딸깍 소리가 납니다.</block>
@@ -3720,11 +3688,9 @@
   <block id="a6b7b1f6b451582b4f3e4ee818b0b022" category="paragraph">팬을 섀시 안쪽으로/밖으로 밉니다</block>
   <block id="b9f8bf80fa7fab32aca8c28430b0b999" category="doc">실시간 시계 배터리 교체 - AFF A900</block>
   <block id="4cc95bf9d5b32fe7d0352f48b0791827" category="list-text">캠 핸들의 테라코타 버튼이 잠금 해제될 때까지 아래로 밉니다.</block>
-  <block id="70f590ae3de022f014ffe169e236da55" category="image-alt">drw a900 RTC 배터리를 제거합니다</block>
   <block id="7ac0a68ff3a0c6b3beb7f03b58c8496d" category="paragraph">RTC 배터리를 교체한 후 컨트롤러 모듈을 다시 설치해야 합니다. RTC 배터리를 10분 이상 컨트롤러 모듈에서 분리한 경우 시간과 날짜를 재설정해야 할 수 있습니다.</block>
   <block id="f019032ca5e4ee1339ef0bcd485f9c8d" category="summary">컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미디어를 찾아 교체한 다음 교체 부팅 미디어로 이미지를 전송해야 합니다.</block>
   <block id="f42f050dc5269ad7b9f62abb5be6f335" category="doc">컨트롤러를 제거하고 부팅 미디어를 교체한 다음 부팅 이미지(AFF A900)를 전송합니다</block>
-  <block id="89c421ecee17b213d1a0c7b9a2dd8106" category="image-alt">drw a900 부트 DEV를 제거합니다</block>
   <block id="61fb64589c53cb1543b86398c0f9bf5f" category="admonition">인터페이스에 다른 매개 변수가 필요할 수 있습니다. 자세한 내용은 펌웨어 프롬프트에서 help ifconfig를 입력할 수 있습니다.</block>
   <block id="92119567969a6dfb8d14b4d139115118" category="list-text">MetroCluster 포트를 이니시에이터로 설정합니다: "ucadmin modify -m fc -t iniitator adapter_name"</block>
   <block id="13437270a7a5bb30024bcf51e56b9645" category="doc">장애가 발생한 부품을 NetApp-AFF A900으로 되돌립니다</block>
@@ -3848,8 +3814,6 @@
   <block id="b422a6f4d3945c00efbef5a1554df972" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM을 교체합니다. - AFF A900</block>
   <block id="4d365227a3a5ccf9886fa9c35ba6a99d" category="paragraph">NVRAM 모듈은 NVRAM11 및 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 분리하고 DIMM을 교체 모듈로 옮긴 다음 교체용 NVRAM 모듈을 섀시에 설치해야 합니다.</block>
   <block id="356bb2eaf8fe1f9955f9f22e00ddcb54" category="paragraph">시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.</block>
-  <block id="dad23827b140b55a3121c86e5b861fad" category="image-alt">drw a900 이동 NVRAM 모듈을 제거합니다</block>
-  <block id="df3566616f23116dab812ba8e95510cb" category="image-alt">drw a900 NVRAM 모듈 내용을 제거합니다</block>
   <block id="0133a8841f8d283d3a060042f4904613" category="list-text">NVRAM 모듈을 섀시에 설치합니다.</block>
   <block id="2afb3c10441f511142ed51efdd86c073" category="list-text">교체 컨트롤러 모듈의 유지보수 모드에서 모든 구성 요소가 동일한 'HA' 상태 즉, ha-config show를 표시하는지 확인합니다</block>
   <block id="e4d75425009bc77525096ccae70bd9ac" category="cell">모든 구성요소의 HA 상태는...</block>
@@ -3865,7 +3829,6 @@
   <block id="6551c0f6e6caf0566c6eae152ecd7b38" category="doc">부팅 매체(AFF A900)를 교체합니다</block>
   <block id="10446d8e0f9e8e6b297995ce7dafe03c" category="doc">교체 프로세스 - AFF A900 을 완료합니다</block>
   <block id="fcc9aa8940599a2c3be38723a65e9e21" category="doc">DIMM-AFF A900을 교체합니다</block>
-  <block id="a2996937d1a0f2d39e753cdc891f28a1" category="image-alt">drw a900 DIMM 맵</block>
   <block id="ad4cfe6fc2b7cb05bf19c4a07bb3ec19" category="list-text">Press Ctrl-C for Boot Menu가 표시되면 Ctrl-C를 눌러 부팅 프로세스를 중단합니다.</block>
   <block id="4a11061a1e6cf88a01ac0a8a2d4682c6" category="doc">컨트롤러 모듈 하드웨어를 교체합니다. - AFF A900</block>
   <block id="a1828edb3cde53f0ba3419e2ebe71f61" category="paragraph">다음 애니메이션은 손상된 부품을 교체 컨트롤러로 이동하는 전체 과정을 보여줍니다.</block>
@@ -3907,9 +3870,6 @@
   <block id="3f5fa7ca9a9d6129ce081b64cc104ab6" category="paragraph">섀시 교체를 완료하려면 특정 작업을 완료해야 합니다.</block>
   <block id="32574a63619099277d431cfd465fea0b" category="list-text">섀시의 HA 상태를 "ha-config modify chassis_ha-state_"로 설정합니다</block>
   <block id="e81993a1d153ae6594cc7e0070093d6a" category="doc">하드웨어 이동 및 교체 - AFF A900</block>
-  <block id="ba60b428b4c093e111c8f00b60fc4a80" category="image-alt">drw a900 설치 PSU 모듈을 제거합니다</block>
-  <block id="ba076cc47bbe54dead2d30165db372b5" category="image-alt">drw a900 NV 배터리를 제거합니다</block>
-  <block id="8da7df8c5a74dcac7b5b9a5067e72313" category="image-alt">drw a900 제거 LED 모드 교체</block>
   <block id="6b058f6aab05ab39cfb929fd3a13e5ad" category="paragraph">모듈을 꺼냅니다.</block>
   <block id="fdbcf566dc8794b2a2c635f286edfa2b" category="paragraph">섀시 밖으로 밀어냅니다.</block>
   <block id="2aba05ee9a4093e5315b48903c27d988" category="doc">I/O 모듈 교체 - AFF A900</block>
@@ -8101,7 +8061,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d29d6bf2e5a715077adb0e295955fc92" category="paragraph">컨트롤러 잠금 래치</block>
   <block id="5165d02c271e4ccb721ce18d6870adbf" category="paragraph">배터리 플러그</block>
   <block id="f961d430c4493499006fd8fba8e3d862" category="paragraph">잠금 탭</block>
-  <block id="1f25549d09d9fee6b326b3ae80c2ed1b" category="image-alt">drw a400 빈 라이저 제거</block>
   <block id="7f8edcba2fa9fe4c07e4da59fa96b68f" category="paragraph">라이저 분리 래치</block>
   <block id="5aebd0a51655336d4e63f45f4d8699cd" category="paragraph">PSU 잠금 탭</block>
   <block id="2c741817612fe801331c1ab28fc54399" category="paragraph">전원 케이블 고정대</block>
@@ -8478,7 +8437,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2790027947ff94fbf03f63a1df957821" category="list-text">컨트롤러 모듈에서 PCIe 라이저 2(중간 라이저)를 분리합니다.</block>
   <block id="f24c160de87a570618194aa5d8b9c9de" category="open-title">VER2 컨트롤러</block>
   <block id="204438254dc5e5c9fbc69d974b0ec2ad" category="list-text">DIMM 근처에서 RTC 배터리를 찾습니다.</block>
-  <block id="71adfc8a5d09d16090dd4dd7ff8256f4" category="image-alt">DRW A800 RTC 배터리 v2 교체</block>
   <block id="129717f48118cb8374cc8d6ecb1a3002" category="list-text">LOADER 프롬프트에서 _replacement_node의 날짜 및 시간을 확인합니다.<block ref="7e17e2b336dbdd66c2f45405573b53de" prefix=" " category="inline-code"></block></block>
   <block id="335c1f89cc948dbecd252495550db62d" category="paragraph">에 액세스합니다 <block ref="add36804e7e09c91c721643d36c96ccb" category="inline-link-macro-rx"></block></block>
   <block id="1ba8725aca8dcca67731e32e2a39f77f" category="paragraph">빠른 시작은 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르기까지 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다.</block>
@@ -8661,14 +8619,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="be6dd92e56e589c43e6ecf9ff2fb511d" category="inline-image-macro">컨트롤러 B를 2개 쉘프에 케이블 연결</block>
   <block id="96d704bc763b695c9de9168784c7737d" category="paragraph">컨트롤러 B를 쉘프에 연결:    <block ref="a190910980606e8669e301ec6bfe2395" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9293060aa1ce6aba93f2da08c5b9a87a" category="image-alt">관리 서브넷을 켜기 위해 랩톱 또는 콘솔을 연결합니다</block>
-  <block id="8354ac591d21bc8f487173406cdc0ff9" category="image-alt">컨트롤러를 분리합니다</block>
-  <block id="537c3d5f16e3ab81ae71572e822e02ae" category="image-alt">컨트롤러 모듈에서 덮개를 들어올립니다</block>
   <block id="dc0a61369ab78188b5040b237202d13a" category="inline-image-macro">PCIe 모듈 분리</block>
   <block id="851adb1cfe0add8b264f80f294e53d6e" category="paragraph"><block ref="851adb1cfe0add8b264f80f294e53d6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b4bed25d7279305fb1486095526c2cbe" category="image-alt">팬 분리 또는 설치</block>
   <block id="793c006966d00d222996468e86da89f4" category="image-alt">Telco 랙 중간 마운트 설치</block>
   <block id="7f615fc773ecf20799d3f2a060bd3afb" category="image-alt">Telco 랙 설치</block>
-  <block id="48a4c5d2941af2c3562b0a15dc70a0d8" category="image-alt">DIMM 분리</block>
   <block id="f6f0bd2e4727e80f2ce638a745f37465" category="image-alt">캐시 모듈 제거</block>
   <block id="7b421531117f7a333a0bf6943ea821e6" category="image-alt">RTC 배터리 분리</block>
   <block id="633a92fd671d3ef2ca3005733f0cb806" category="image-alt">컨트롤러 모듈 분리</block>
@@ -8680,7 +8635,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="148d3cda8eafa148ec058e4c32601c3e" category="paragraph"><block ref="148d3cda8eafa148ec058e4c32601c3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d53fc5f7f17cd7f32066a7718395744" category="image-alt">부팅 미디어 찾기</block>
   <block id="374900d2cb65aa69562bc3dff6893f0e" category="image-alt">캐싱 모듈 교체</block>
-  <block id="1f64ef61e8a4113c46452f69ac2488ed" category="paragraph"><block ref="1f64ef61e8a4113c46452f69ac2488ed" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f1e92832e143e090cfa4b652055d540" category="image-alt">전원 공급 장치 교체</block>
   <block id="49136ce507af20ea51c62b05ac2b352f" category="image-alt">NVDIMM 배터리 분리</block>
   <block id="d461a61dff68fdcb5519b0daf99dcef0" category="inline-image-macro">미니 SAS - 미니 SAS 커넥터</block>
@@ -8758,4 +8712,82 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4fa52de47c741739e8f7d44adf43e2c4" category="inline-image-macro">우측 교체용 케이블 체인</block>
   <block id="34295d4ce178b90b68e15136040e3cc3" category="paragraph"><block ref="34295d4ce178b90b68e15136040e3cc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ce0bb18b72a89153bd80d397683365ef" category="image-alt">팬 모듈 분리 탭</block>
+  <block id="c67be94ee958ceebb6db7abe1db3bc41" category="image-alt">래치 메커니즘을 엽니다</block>
+  <block id="ce5bc8c4d2ed152c49b5309ef78fee97" category="image-alt">컨트롤러 모듈 덮개를 엽니다</block>
+  <block id="b31e91fc254e569a25ab5ceeb9ed57fd" category="image-alt">에어 덕트 커버를 들어 올리십시오</block>
+  <block id="18e4dec2042502e4dbe9f496d200b59e" category="image-alt">RTC 배터리를 장착하십시오</block>
+  <block id="df43f88987248387e11b33b60909357d" category="inline-image-macro">컨트롤러 모듈을 분리합니다</block>
+  <block id="56635ea65393d8cb3bf52e9b405cc4df" category="paragraph"><block ref="56635ea65393d8cb3bf52e9b405cc4df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0257832c9450d2cd778a77e8cb6b7eb8" category="image-alt">빈 라이저를 분리합니다</block>
+  <block id="5125e52ed8d0181c4c5b76e41793f66e" category="image-alt">전원 공급 장치를 교체합니다</block>
+  <block id="76f5ea7b4e5d5f0685d6419cffda6cea" category="image-alt">NVDIMM 배터리를 분리합니다</block>
+  <block id="979987524f5620ba19fe14ffac6eb107" category="image-alt">부팅 미디어를 분리합니다</block>
+  <block id="c435a6a068c116929f1dbd307fc27909" category="image-alt">PCIe 카드를 분리합니다</block>
+  <block id="b8652a7b1f9cf9429a1fdc4649c753be" category="image-alt">DIMM을 이동합니다</block>
+  <block id="38a935caeaf023510ec541a208095462" category="image-alt">컨트롤러를 설치합니다</block>
+  <block id="149a5385ddaeae57db88349171adb9cd" category="image-alt">RTC 배터리를 탈거한 후 교체합니다</block>
+  <block id="5410e91fb74a6232ed7debcfeb0d26e9" category="video-title">애니메이션 - RTC 배터리를 교체합니다</block>
+  <block id="26e38d31d368fa344a653ab87cee79bb" category="image-alt">컨트롤러 모듈을 분리합니다</block>
+  <block id="1b351ea2ff535fb23b06ece3ba2fe492" category="image-alt">컨트롤러 모듈을 열거나 닫습니다</block>
+  <block id="b12384fac829aa0731e0b0ab2cdcb5e7" category="inline-image-macro">부팅 장치를 분리합니다</block>
+  <block id="ee3cab93de008593dceb43c6b0f86176" category="paragraph"><block ref="ee3cab93de008593dceb43c6b0f86176" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afb89ec73a0ff902780db208ce75410a" category="image-alt">전원 공급 장치(PSU) 분리</block>
+  <block id="64d929bdbe16df89dfaaf26f541a8b64" category="image-alt">팬을 분리합니다</block>
+  <block id="6381b0020cb72e570fb872d95eff0646" category="image-alt">PCIe 모듈을 분리합니다</block>
+  <block id="3b1abe15f6882f401c3dc9723f65bf31" category="image-alt">NV 배터리를 탈거하십시오</block>
+  <block id="4fcb345d73f495dfa1710ef72e4f7802" category="image-alt">컨트롤러 DIMM을 분리합니다</block>
+  <block id="0838411666e8c1940c30b2dbc251becd" category="image-alt">DCPM 배터리를 제거합니다</block>
+  <block id="4777b9734b9440c775e1e09df45dd21a" category="image-alt">DCPM 모듈을 제거합니다</block>
+  <block id="0775c60008b48c7ea13a76d06758cd83" category="image-alt">DIMM 맵</block>
+  <block id="9e6030f3670c2b6c66c56eb7e7e0bf8b" category="image-alt">DCPM DIMM을 교체합니다</block>
+  <block id="0f5c26725df67fdc2e8c88dcf524e95c" category="image-alt">팬을 분리하거나 설치합니다</block>
+  <block id="03179fd466a7aa0f3e53179b37b57129" category="image-alt">LED USB 모듈을 분리합니다</block>
+  <block id="d1335de86d18d8a0abccf9295268da24" category="image-alt">LED USB 모뎀을 설치합니다</block>
+  <block id="0ee24d65d35df77dd08e7401bf02be08" category="image-alt">캐시 모듈을 교체합니다</block>
+  <block id="1ade29bb16a89d6eb1ac0378b26d08cc" category="image-alt">NVRAM 모듈을 분리합니다</block>
+  <block id="81ca6b09d46adef04ca59cb0d1b31149" category="image-alt">NVRAM 모듈 내용물을 분리합니다</block>
+  <block id="441ad040c64afcb9dfc504f35954a356" category="image-alt">전원 공급 장치를 분리하거나 설치합니다</block>
+  <block id="1022e3d84b6867fa4ece4809eddb2d21" category="image-alt">RTC 배터리를 분리하거나 교체합니다</block>
+  <block id="76185dd3f297b916aece4921b670f230" category="image-alt">부팅 미디어를 교체합니다</block>
+  <block id="b769d006922e082b7e0d51c27c10a3c8" category="image-alt">에어 덕트를 닫으십시오</block>
+  <block id="3a0848e8d5eadd7c0fbbe084d6e49830" category="image-alt">에어 덕트를 여십시오</block>
+  <block id="a56c59679d906a3283a3e45eaa86d492" category="image-alt">전원 공급 장치를 분리하거나 교체합니다</block>
+  <block id="6e5254eabfe6f3227fad98d397cfb494" category="image-alt">팬을 분리합니다</block>
+  <block id="4a2ad2d8aa201019cb0bc513fe5f7826" category="image-alt">NVDIMM 배터리를 교체합니다</block>
+  <block id="1141c3c3ab0e43dfce1e58233c4432d0" category="image-alt">라이저 2 및 3 을 탈착합니다</block>
+  <block id="4636c15e38d6453ad24a704793aa4ee0" category="image-alt">NVDIMM을 이동합니다</block>
+  <block id="136dcb2edcd74121805a5141d72b31e0" category="image-alt">DIMM을 교체합니다</block>
+  <block id="edc420a4c44652d8dd85ee8775642512" category="image-alt">NVDIMM을 교체합니다</block>
+  <block id="f5eaaa2c0331c296c304abfbbfdfe041" category="image-alt">라이저 1에 PCI 카드를 교체합니다</block>
+  <block id="7ae2b35d3bbe1d9a13c6d1a62b35adc0" category="image-alt">PCI 카드 2 - 5를 가운데 라이저와 오른쪽 라이저에 장착합니다</block>
+  <block id="0ffb4e0de09b1124c97cf10e382bf5fd" category="image-alt">PSU를 제거하거나 다시 설치합니다</block>
+  <block id="3ad7bf644a38266128e45a57c5343388" category="image-alt">라이저 2를 분리합니다</block>
+  <block id="102aeba9c687de78e4469d1c5b8a136c" category="image-alt">RTC 배터리를 탈거한 후 교체합니다</block>
+  <block id="cd00c15aaa19bafee35b933c13b7cf74" category="image-alt">컨트롤러를 놓습니다</block>
+  <block id="c48dc208a7c9314e0f757a53547c772d" category="image-alt">컨트롤러 모듈에서 덮개를 들어올립니다</block>
+  <block id="32ed2f69928f3427bcaa400b9cd20c6f" category="image-alt">부팅 미디어를 제거합니다</block>
+  <block id="95aeba05fe11ccca40520c6ce7b337c0" category="image-alt">PSU 모듈을 분리하거나 설치합니다</block>
+  <block id="24e0e5253433e4844dd4f414ae1d2599" category="image-alt">팬을 분리하거나 설치합니다</block>
+  <block id="a3c54240889d795a785f54b21112d1b7" category="image-alt">컨트롤러를 분리합니다</block>
+  <block id="f57cfb70573c5a389eec98a4b3777fac" category="paragraph"><block ref="f57cfb70573c5a389eec98a4b3777fac" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d44f4505f0712dd667909d5cee1045ad" category="image-alt">NV 배터리를 분리합니다</block>
+  <block id="f7bb7277d30be1722953bb82a41f4e96" category="image-alt">USB LED 모듈을 분리하거나 교체합니다</block>
+  <block id="f4b28a464440a488e54ab8d8cd76ab99" category="image-alt">DIMM을 분리합니다</block>
+  <block id="67550a2c9a63c691d7df7437a3e51506" category="image-alt">DIMM 위치 맵</block>
+  <block id="06bc29f6fd4846509ff02a3bcd57dfc2" category="image-alt">DIMM을 분리합니다</block>
+  <block id="cbbd92f6eb83a9a939ca1ac9673002a5" category="list-text">손상된 LED USB 모듈을 분리합니다.</block>
+  <block id="0fc16b203bddbfc834dc54c640fc1fd2" category="image-alt">LED USB 모듈을 분리합니다</block>
+  <block id="e5247af1b25811b19243276e67aa7b9b" category="image-alt">NVRAM 모듈을 분리합니다</block>
+  <block id="11d45af041bcae71c4e4d631ead36642" category="image-alt">NVRAM 모듈 내용을 제거합니다</block>
+  <block id="99a4fad8e3a9e518a4c8e3984c45a020" category="image-alt">PSU 모뎀을 제거하거나 설치합니다</block>
+  <block id="38d3a35ba6c4b54bcaa647b5f49f15bf" category="image-alt">RTC 배터리를 탈거한 후 장착하십시오</block>
+  <block id="c591c62ae89f72b00936f85341489306" category="image-alt">전원 공급 장치 캠 핸들 열기</block>
+  <block id="0709513deb20f95d7151fe2b5265dec7" category="image-alt">엔드 캡 작업자 디스플레이</block>
+  <block id="6d4ef13a216b4449d8385bdc797b5980" category="image-alt">IOM12 모듈</block>
+  <block id="45a452ade727e83add27f0689b3dfcf5" category="image-alt">IOM12B 모듈</block>
+  <block id="27f4db3d0c0b88a35b26c07b3354b604" category="image-alt">LED 아이콘</block>
+  <block id="9b7efec93172fc898bf5924b3d02fa85" category="image-alt">드라이브 캐리어 수직 배열</block>
+  <block id="360e760cf4c2611f24bef9936525c878" category="image-alt">드라이브 캐리어 수평 배열</block>
+  <block id="9302993f1cbe0a62b1c08bac8ff42e30" category="image-alt">드라이브 활동 LED</block>
+  <block id="6daeeb8640b388bf728f2d3fa2ceac68" category="image-alt">드라이브 주의 LED</block>
 </blocks>

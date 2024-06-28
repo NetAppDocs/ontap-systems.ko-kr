@@ -100,7 +100,9 @@ image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 래치 
+ a| 
+잠금 래치
+
 
 
  a| 
@@ -118,7 +120,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 .. 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 .. 공기 덕트를 팬 모듈 쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
 +
-image::../media/drw_a800_open_air_duct.png[에어 덕트 열기]
+image::../media/drw_a800_open_air_duct.png[에어 덕트를 여십시오]
 
 +
 [cols="1,4"]
@@ -127,7 +129,9 @@ image::../media/drw_a800_open_air_duct.png[에어 덕트 열기]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 에어 덕트 잠금 탭 
+ a| 
+에어 덕트 잠금 탭
+
 
 
  a| 
@@ -168,7 +172,7 @@ PCIe 카드를 교체하려면 대상 라이저의 PCIe 카드 포트에서 케�
 
 .. 라이저를 위로 들어 올리고 팬을 향해 이동시키고 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 들어 올린 다음 안정적이고 평평한 표면에 놓습니다.
 +
-image::../media/drw_a800_pcie_1_replace.png[drw A800 PCIe 1 교체]
+image::../media/drw_a800_pcie_1_replace.png[라이저 1에 PCI 카드를 교체합니다]
 
 +
 [cols="1,4"]
@@ -177,7 +181,9 @@ image::../media/drw_a800_pcie_1_replace.png[drw A800 PCIe 1 교체]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 에어 덕트 
+ a| 
+에어 덕트
+
 
 
  a| 
@@ -218,7 +224,7 @@ image:../media/legend_icon_04.png["설명선 번호 4"]
 
 .. 라이저를 위로 들어 올리고 팬을 향해 이동시키고 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 들어 올린 다음 안정적이고 평평한 표면에 놓습니다.
 +
-image::../media/drw_a800_pcie_2_5_replace.gif[drw A800 PCIe 2 5 교체]
+image::../media/drw_a800_pcie_2_5_replace.gif[PCI 카드 2 - 5를 가운데 라이저와 오른쪽 라이저에 장착합니다]
 
 +
 [cols="1,4"]
@@ -227,7 +233,9 @@ image::../media/drw_a800_pcie_2_5_replace.gif[drw A800 PCIe 2 5 교체]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 에어 덕트 
+ a| 
+에어 덕트
+
 
 
  a| 
@@ -303,7 +311,7 @@ NOTE: 카드가 라이저 소켓에 완전히 똑바로 장착되었는지 확�
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a800_close_air_duct.png[에어 덕트 닫기]
+image::../media/drw_a800_close_air_duct.png[에어 덕트를 닫으십시오]
 
 +
 [cols="1,4"]
@@ -312,7 +320,9 @@ image::../media/drw_a800_close_air_duct.png[에어 덕트 닫기]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 탭 
+ a| 
+잠금 탭
+
 
 
  a| 

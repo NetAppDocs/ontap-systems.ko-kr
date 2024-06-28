@@ -17,9 +17,10 @@ NOTE: 팬 모듈을 섀시에서 분리한 후 2분 이내에 교체해야 합�
 CAUTION: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에서 떨어져 다치지 않도록 항상 다른 손으로 팬 모듈의 하단을 지지하십시오.
 
 +
-image::../media/drw_9000_remove_install_fan.png[drw 9000 설치 팬을 제거합니다]
+image::../media/drw_9000_remove_install_fan.png[팬을 분리하거나 설치합니다]
 
 +
+[cols="1,4"]
 |===
 
 

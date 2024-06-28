@@ -71,7 +71,7 @@ image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
 
 다음 그림은 엔드 캡이 있는 DS224C 디스크 쉘프 운영자 디스플레이 패널을 보여줍니다.
 
-image::../media/drw_opd.gif[drw OPD]
+image::../media/drw_opd.gif[엔드 캡 작업자 디스플레이]
 
 
 
@@ -128,11 +128,11 @@ image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
 |===
 다음 그림은 IOM12 모듈에 대한 것입니다.
 
-image::../media/drw_iom12.gif[drw iom12]
+image::../media/drw_iom12.gif[IOM12 모듈]
 
 IOM12B 모듈은 파란색 스트라이프와 "IOM12B" 레이블로 구별됩니다.
 
-image::../media/iom12b.png[iom12b]
+image::../media/iom12b.png[IOM12B 모듈]
 
 
 
@@ -181,11 +181,11 @@ image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
 
 두 개의 LED 아이콘은 레이블 및 LED의 역할을 하며, 이는 아이콘 자체가 켜지며 인접한 LED는 없습니다.
 
-image::../media/28_dwg_e2860_de460c_psu.gif[28 DWG e2860 de460c PSU]
+image::../media/28_dwg_e2860_de460c_psu.gif[LED 아이콘]
 
 다음 그림은 DS224C 또는 DS212C 디스크 쉘프에 사용되는 전원 공급 장치에 대한 것입니다.
 
-image::../media/drw_powersupply_913w_vsd.gif[drw 전원 공급 913w VSD]
+image::../media/drw_powersupply_913w_vsd.gif[LED 아이콘]
 
 
 
@@ -263,13 +263,13 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 DS224C 디스크 쉘프는 디스크 쉘프에 수직으로 배열된 2.5인치 디스크 드라이브를 사용합니다.
 
-image::../media/drw_diskdrive_ds224c.gif[drw diskdrive ds224c]
+image::../media/drw_diskdrive_ds224c.gif[드라이브 캐리어 수직 배열]
 
 다음 그림은 DS212C 디스크 쉘프에 사용되는 디스크 드라이브에 대한 것입니다.
 
 DS212C 디스크 쉘프는 디스크 쉘프에 수평으로 배열된 캐리어에서 3.5인치 디스크 드라이브 또는 2.5인치 디스크 드라이브를 사용합니다.
 
-image::../media/drw_diskdrive_ds212c.gif[drw diskdrive ds212c]
+image::../media/drw_diskdrive_ds212c.gif[드라이브 캐리어 수평 배열]
 
 
 
@@ -277,7 +277,7 @@ image::../media/drw_diskdrive_ds212c.gif[drw diskdrive ds212c]
 
 다음 그림 및 표에서는 드라이브 드로어의 드라이브 활동 LED 및 작동 상태를 설명합니다.
 
-image::../media/2860_dwg_drive_drawer_leds.gif[2860 DWG 드라이브 드로어 LED]
+image::../media/2860_dwg_drive_drawer_leds.gif[드라이브 활동 LED]
 
 [cols="4*"]
 |===
@@ -327,7 +327,7 @@ image::../media/2860_dwg_drive_drawer_leds.gif[2860 DWG 드라이브 드로어 L
 |===
 드라이브 드로어가 열려 있으면 각 드라이브 전면에 주의 LED가 표시됩니다.
 
-image::../media/2860_dwg_amber_on_drive.gif[드라이브의 2860 DWG 호박색입니다]
+image::../media/2860_dwg_amber_on_drive.gif[드라이브 주의 LED]
 
 [cols="10,90"]
 |===

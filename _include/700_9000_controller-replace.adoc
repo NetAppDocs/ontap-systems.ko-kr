@@ -16,16 +16,14 @@
 . 캠 핸들의 주황색 버튼을 잠금 해제할 때까지 아래로 밉니다.
 
 
-image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
+image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-
-
-
  a| 
 캠 핸들 해제 버튼
 
@@ -33,9 +31,6 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-
-
-
  a| 
 캠 핸들
 
@@ -46,23 +41,20 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 . 컨트롤러 모듈 덮개를 평평하고 안정적인 곳에 놓고 덮개의 파란색 단추를 누르고 덮개를 컨트롤러 모듈 뒤쪽으로 민 다음 덮개를 위로 돌려 컨트롤러 모듈에서 들어올립니다.
 +
-image::../media/drw_9000_pcm_open.png[컨트롤러 모듈 열기 또는 닫기]
+image::../media/drw_9000_pcm_open.png[컨트롤러 모듈을 열거나 닫습니다]
 
-+
+
+
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-
-
-
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
 |===
-
-
 
 
 == 2단계: 부팅 미디어를 이동합니다
@@ -72,17 +64,15 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 .단계
 . 컨트롤러 모듈 후면에서 검은색 공기 덕트를 들어 올린 후 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-image::../media/drw_9000_remove_boot_dev.gif[drw 9000 부트 DEV 제거]
+image::../media/drw_9000_remove_boot_dev.gif[부팅 장치를 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-
-
-
  a| 
 분리 탭을 누릅니다
 
@@ -90,9 +80,6 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-
-
-
  a| 
 미디어를 부팅합니다
 
@@ -126,17 +113,15 @@ DIMM을 이동하려면 이전 컨트롤러에서 교체 컨트롤러로 이동�
 NOTE: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므로 DIMM의 가장자리를 조심스럽게 잡으십시오.
 
 +
-image::../media/drw_9000_replace_pcm_dimms.png[DRW 9000이 PCM DIMM을 교체합니다]
+image::../media/drw_9000_replace_pcm_dimms.png[컨트롤러 DIMM을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-
-
-
  a| 
 DIMM 이젝터 탭
 
@@ -144,9 +129,6 @@ DIMM 이젝터 탭
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-
-
-
  a| 
 DIMM
 

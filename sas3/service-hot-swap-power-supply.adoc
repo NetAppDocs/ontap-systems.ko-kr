@@ -56,7 +56,7 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp
 다음 그림은 DS224C 또는 DS212C 디스크 쉘프에 사용되는 전원 공급 장치에 대한 것이지만, 래치는 DS460C 디스크 쉘프에 사용되는 전원 공급 장치에 대해 동일한 방식으로 작동합니다.
 
 +
-image::../media/drw_2600_psu.gif[drw 2600 PSU]
+image::../media/drw_2600_psu.gif[전원 공급 장치 캠 핸들 열기]
 
 . 캠 핸들을 사용하여 디스크 선반에서 전원 공급 장치를 밀어 꺼냅니다.
 +

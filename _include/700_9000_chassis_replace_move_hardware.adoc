@@ -25,7 +25,7 @@
 CAUTION: 전원 공급 장치를 분리할 때는 항상 두 손을 사용하여 무게를 지탱하십시오.
 
 +
-image::../media/drw_9000_remove_install_psu_module.gif[drw 9000 설치 제거 PSU 모듈]
+image::../media/drw_9000_remove_install_psu_module.gif[전원 공급 장치(PSU) 분리]
 
 +
 [cols="1,3"]
@@ -34,7 +34,9 @@ image::../media/drw_9000_remove_install_psu_module.gif[drw 9000 설치 제거 PS
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 버튼 
+ a| 
+잠금 버튼
+
 |===
 . 나머지 전원 공급 장치에 대해 위의 단계를 반복합니다.
 
@@ -53,7 +55,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 CAUTION: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에서 떨어져 다치지 않도록 항상 다른 손으로 팬 모듈의 하단을 지지하십시오.
 
 +
-image::../media/drw_9000_remove_install_fan.png[drw 9000 설치 팬을 제거합니다]
+image::../media/drw_9000_remove_install_fan.png[팬을 분리합니다]
 
 +
 [cols="1,3"]
@@ -62,7 +64,9 @@ image::../media/drw_9000_remove_install_fan.png[drw 9000 설치 팬을 제거합
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 주황색 해제 버튼 
+ a| 
+주황색 해제 버튼
+
 |===
 . 팬 모듈을 따로 보관해 둡니다.
 . 나머지 팬 모듈에 대해 위의 단계를 반복합니다.
@@ -78,7 +82,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 주황색 버튼을 잠금 해제할 때까지 아래로 밉니다.
 +
-image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
+image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
 +
 [cols="1,3"]
@@ -87,7 +91,9 @@ image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 캠 핸들 해제 버튼 
+ a| 
+캠 핸들 해제 버튼
+
 
 
  a| 
@@ -129,7 +135,7 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 입출력 모듈이 있던 슬롯을 추적해야 합니다.
 
 +
-image::../media/drw_9000_remove_pcie_module.png[PCIe 모듈 분리]
+image::../media/drw_9000_remove_pcie_module.png[PCIe 모듈을 분리합니다]
 
 +
 [cols="1,3"]
@@ -138,7 +144,9 @@ image::../media/drw_9000_remove_pcie_module.png[PCIe 모듈 분리]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 문자 및 숫자 I/O 캠 래치 
+ a| 
+문자 및 숫자 I/O 캠 래치
+
 
 
  a| 
@@ -162,7 +170,7 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 . 모듈 손잡이의 주황색 잠금 버튼을 누른 다음 섀시에서 DCPM 모듈을 밀어 꺼냅니다.
 +
-image::../media/drw_9000_remove_nv_battery.png[drw 9000은 NV 배터리를 제거합니다]
+image::../media/drw_9000_remove_nv_battery.png[NV 배터리를 탈거하십시오]
 
 +
 [cols="1,3"]
@@ -171,7 +179,9 @@ image::../media/drw_9000_remove_nv_battery.png[drw 9000은 NV 배터리를 제�
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| DCPM 모듈 주황색 잠금 버튼 
+ a| 
+DCPM 모듈 주황색 잠금 버튼
+
 |===
 . DCPM 모듈을 안전한 곳에 두고 나머지 DCPM 모듈에 대해 이 단계를 반복합니다.
 

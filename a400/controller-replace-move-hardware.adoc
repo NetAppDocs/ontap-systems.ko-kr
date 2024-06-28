@@ -66,7 +66,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 video::49053752-e813-4c15-a917-ab190147fa6e[panopto]
 
 
-image::../media/drw_a400_empty_riser_remove.png[drw a400 빈 라이저 제거]
+image::../media/drw_a400_empty_riser_remove.png[빈 라이저를 분리합니다]
 
 [cols="10,90"]
 |===
@@ -96,7 +96,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 video::92060115-1967-475b-b517-aad9012f130c[panopto]
 . 전원 공급 장치를 분리합니다.
 +
-image::../media/drw_A400_psu.png[전원 공급 장치 교체]
+image::../media/drw_A400_psu.png[전원 공급 장치를 교체합니다]
 
 +
 [cols="10,90"]
@@ -144,7 +144,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 .애니메이션 - NVDIMM 배터리를 이동합니다
 video::94d115b2-b02a-4234-805c-aad9012f204c[panopto]
-image::../media/drw_A400_nvdimm-batt.png[NVDIMM 배터리 분리]
+image::../media/drw_A400_nvdimm-batt.png[NVDIMM 배터리를 분리합니다]
 
 [cols="10,90"]
 |===
@@ -197,7 +197,7 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 .애니메이션 - 부팅 미디어를 이동합니다
 video::2a14099c-85de-4a84-867c-aad9012efac8[panopto]
-image::../media/drw_A400_Replace-boot_media.png[부팅 미디어 제거]
+image::../media/drw_A400_Replace-boot_media.png[부팅 미디어를 분리합니다]
 
 [cols="10,90"]
 |===
@@ -252,7 +252,7 @@ video::f4ee1d4d-6029-4fe6-a063-aad9012f170b[panopto]
 
 .애니메이션 - 메자닌 카드 및 라이저 3을 이동합니다
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto]
-image::../media/drw_A400_Replace-PCIe-cards.png[PCIe 카드 분리]
+image::../media/drw_A400_Replace-PCIe-cards.png[PCIe 카드를 분리합니다]
 
 [cols="10,90"]
 |===
@@ -324,7 +324,7 @@ DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트�
 
 .애니메이션 - DIMM을 이동합니다
 video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM 이동]
+image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM을 이동합니다]
 
 [cols="10,90"]
 |===
@@ -389,7 +389,7 @@ DIMM은 소켓에 단단히 장착되지만 쉽게 장착할 수 있습니다. �
 
 .애니메이션 - 컨트롤러 모듈을 설치합니다
 video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
-image::../media/drw_A400_Install_controller_source.png[컨트롤러 설치]
+image::../media/drw_A400_Install_controller_source.png[컨트롤러를 설치합니다]
 
 [cols="10,90"]
 |===

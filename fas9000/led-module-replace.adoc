@@ -18,7 +18,7 @@ FAS9000 또는 AFF A700 LED USB 모듈은 콘솔 포트 및 시스템 상태에 
 .단계
 . 이전 LED USB 모듈을 분리합니다.
 +
-image::../media/led_3.png[LED 3]
+image::../media/led_3.png[LED USB 모듈을 분리합니다]
 
 +
 .. 베젤을 분리한 상태에서 섀시 전면의 왼쪽 하단에 있는 LED USB 모듈을 찾습니다.
@@ -28,7 +28,7 @@ image::../media/led_3.png[LED 3]
 
 . 새 LED USB 모듈을 설치합니다.
 +
-image::../media/led_4.png[LED 4]
+image::../media/led_4.png[LED USB 모뎀을 설치합니다]
 
 +
 .. 모듈을 베이의 슬라이더 래치 근처에 있는 모듈 모서리의 노치와 맞춥니다. 베이는 모듈을 거꾸로 설치할 수 없습니다.

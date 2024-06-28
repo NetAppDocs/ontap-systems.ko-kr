@@ -8,8 +8,7 @@ NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flas
 
 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.
 
-* 시작하기 전에 *
-
+.시작하기 전에
 * 모든 디스크 쉘프가 올바로 작동하고 있어야 합니다.
 * 시스템이 HA 쌍 내에 있는 경우 파트너 노드가 교체할 NVRAM 모듈과 연결된 노드를 인수할 수 있어야 합니다.
 * 이 절차에서는 다음과 같은 용어를 사용합니다.
@@ -190,9 +189,10 @@ NVRAM 모듈을 장착하려면 섀시의 슬롯 6에서 모듈을 찾은 다음
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 이전 NVRAM 모듈에서 새 NVRAM 모듈로 FlashCache 모듈을 이동합니다.
 +
-image::../media/drw_9000_remove_flashcache.png[캐싱 모듈 교체]
+image::../media/drw_9000_remove_flashcache.png[캐시 모듈을 교체합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -232,9 +232,10 @@ NVRAM 모듈은 섀시에서 분리되어 몇 인치 정도 밖으로 이동합�
 
 .. 모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 NVRAM 모듈을 분리합니다.
 +
-image::../media/drw_9000_move_remove_nvram_module.png[drw 9000 이동 NVRAM 모듈을 제거합니다]
+image::../media/drw_9000_move_remove_nvram_module.png[NVRAM 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -255,9 +256,10 @@ I/O 래치가 완전히 잠금 해제되었습니다
 
 . NVRAM 모듈을 안정적인 표면에 놓고 덮개의 파란색 잠금 버튼을 눌러 NVRAM 모듈에서 덮개를 분리한 다음 파란색 버튼을 누른 상태에서 NVRAM 모듈의 덮개를 밀어 분리합니다.
 +
-image::../media/drw_9000_remove_nvram_module_contents.png[drw 9000은 NVRAM 모듈 내용을 제거합니다]
+image::../media/drw_9000_remove_nvram_module_contents.png[NVRAM 모듈 내용물을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -304,9 +306,10 @@ NVRAM 모듈은 섀시에서 분리되어 몇 인치 정도 밖으로 이동합�
 
 .. 모듈 면의 측면에 있는 당김 탭을 당겨 섀시에서 NVRAM 모듈을 분리합니다.
 +
-image::../media/drw_9000_move_remove_nvram_module.png[drw 9000 이동 NVRAM 모듈을 제거합니다]
+image::../media/drw_9000_move_remove_nvram_module.png[NVRAM 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -327,9 +330,10 @@ I/O 래치가 완전히 잠금 해제되었습니다
 
 . NVRAM 모듈을 안정적인 표면에 놓고 덮개의 파란색 잠금 버튼을 눌러 NVRAM 모듈에서 덮개를 분리한 다음 파란색 버튼을 누른 상태에서 NVRAM 모듈의 덮개를 밀어 분리합니다.
 +
-image::../media/drw_9000_remove_nvram_module_contents.png[drw 9000은 NVRAM 모듈 내용을 제거합니다]
+image::../media/drw_9000_remove_nvram_module_contents.png[NVRAM 모듈 내용물을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 

@@ -185,7 +185,7 @@ mcc1A::> metrocluster operation show
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 주황색 버튼을 잠금 해제할 때까지 아래로 밉니다.
 +
-image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
+image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
 +
 [cols="1,3"]
@@ -236,7 +236,7 @@ RTC 배터리를 교체하려면 컨트롤러 모듈에서 결함이 있는 배�
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . RTC 배터리를 찾습니다.
 +
-image::../media/drw_9000_remove_rtc_battery.png[drw 9000은 RTC 배터리를 제거합니다]
+image::../media/drw_9000_remove_rtc_battery.png[RTC 배터리를 분리하거나 교체합니다]
 
 +
 [cols="1,3"]

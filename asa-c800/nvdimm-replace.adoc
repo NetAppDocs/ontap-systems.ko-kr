@@ -94,12 +94,15 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 래치 
+ a| 
+잠금 래치
+
 
 
  a| 
@@ -128,7 +131,9 @@ image::../media/drw_a800_open_air_duct.png[에어 덕트 열기]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 에어 덕트 잠금 탭 
+ a| 
+에어 덕트 잠금 탭
+
 
 
  a| 
@@ -154,7 +159,7 @@ NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용
 
 . NVDIMM을 분리하거나 이동하는 경우 라이저의 잠금 래치를 잠금 해제한 다음 해당 라이저를 분리합니다.
 +
-image::../media/drw_a800_nvdimm_replace.png[drw A800 NVDIMM 교체]
+image::../media/drw_a800_nvdimm_replace.png[NVDIMM을 교체합니다]
 
 +
 [cols="1,4"]
@@ -163,7 +168,9 @@ image::../media/drw_a800_nvdimm_replace.png[drw A800 NVDIMM 교체]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 에어 덕트 커버 
+ a| 
+에어 덕트 커버
+
 
 
  a| 
@@ -208,7 +215,7 @@ NOTE: NVDIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지
 .. 잠금 탭이 딸깍 소리가 날 때까지 공기 덕트를 라이저 쪽으로 밉니다.
 .. 공기 덕트가 제대로 장착되고 제자리에 고정되었는지 확인합니다.
 +
-image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
+image::../media/drw_a700s_close_air_duct.png[에어 덕트를 닫으십시오]
 
 +
 [cols="1,4"]
@@ -217,7 +224,9 @@ image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 탭 
+ a| 
+잠금 탭
+
 
 
  a| 

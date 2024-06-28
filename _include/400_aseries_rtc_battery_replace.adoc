@@ -186,7 +186,7 @@ mcc1A::> metrocluster operation show
 image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -220,7 +220,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 .애니메이션 - RTC 배터리를 교체합니다
 video::80fe7a9b-de6f-46e0-a18b-aadb0157263d[panopto]
-image::../media/drw_A400_rtc-batt.png[drw A400 RTC 배치]
+image::../media/drw_A400_rtc-batt.png[RTC 배터리를 탈거한 후 교체합니다]
 
 [cols="10,90"]
 |===
@@ -279,9 +279,9 @@ NOTE: 배터리함을 홀더에서 분리할 때 배터리의 극성에 유의�
 
 .애니메이션 - 컨트롤러 모듈을 설치합니다
 video::0310fe80-b129-4685-8fef-ab19010e720a[panopto]
-image::../media/drw_A400_Install_controller_source.png[컨트롤러 설치]
+image::../media/drw_A400_Install_controller_source.png[컨트롤러를 설치합니다]
 
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 

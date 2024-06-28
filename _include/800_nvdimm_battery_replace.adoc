@@ -83,12 +83,15 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 래치 
+ a| 
+잠금 래치
+
 
 
  a| 
@@ -112,15 +115,18 @@ NVDIMM 전지를 교체하려면, 컨트롤러 모듈에서 결함이 있는 전
 
 . 공기 덕트 덮개를 열고 라이저에서 NVDIMM 배터리를 찾습니다.
 +
-image::../media/drw_a800_nvdimm_battery_replace.png[drw A800 NVDIMM 배터리 교체]
+image::../media/drw_a800_nvdimm_battery_replace.png[NVDIMM 배터리를 교체합니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 공기 덕트 라이저 
+ a| 
+공기 덕트 라이저
+
 
 
  a| 
@@ -136,7 +142,8 @@ image:../media/legend_icon_03.png["설명선 번호 3"]
 NVDIMM 배터리 팩
 
 |===
-+
+
+
 * 주의: * 시스템을 중단할 때 NVDIMM 배터리 컨트롤 보드 LED가 깜박이면서 플래시 메모리에 내용을 디스테이징합니다. 디스테이징이 완료되면 LED가 꺼집니다.
 
 . 배터리 플러그를 찾아 배터리 플러그 표면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 분리합니다.

@@ -24,7 +24,7 @@ summary: 컨트롤러 내의 구성 요소에 액세스하려면 먼저 시스�
 . 손상된 컨트롤러 모듈에서 케이블을 뽑고 케이블이 연결된 위치를 추적합니다.
 . 캠 핸들의 주황색 버튼을 잠금 해제할 때까지 아래로 밉니다.
 +
-image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
+image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
 +
 |===
@@ -32,6 +32,9 @@ image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
+
+
+
  a| 
 캠 핸들 해제 버튼
 
@@ -39,6 +42,9 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
+
+
+
  a| 
 캠 핸들
 
@@ -49,7 +55,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 . 컨트롤러 모듈 덮개를 평평하고 안정적인 곳에 놓고 덮개의 파란색 단추를 누르고 덮개를 컨트롤러 모듈 뒤쪽으로 민 다음 덮개를 위로 돌려 컨트롤러 모듈에서 들어올립니다.
 +
-image::../media/drw_9000_pcm_open.png[컨트롤러 모듈 열기 또는 닫기]
+image::../media/drw_9000_pcm_open.png[컨트롤러 모듈을 열거나 닫습니다]
 
 
 
@@ -58,6 +64,9 @@ image::../media/drw_9000_pcm_open.png[컨트롤러 모듈 열기 또는 닫기]
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
+
+
+
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -68,13 +77,16 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 
-image:../media/drw_9000_remove_boot_dev.svg[""]
+image:../media/drw_9000_remove_boot_dev.svg["부팅 장치를 분리합니다"]
 
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
+
+
+
  a| 
 분리 탭을 누릅니다
 
@@ -82,6 +94,9 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
+
+
+
  a| 
 미디어를 부팅합니다
 

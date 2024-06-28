@@ -37,7 +37,7 @@ AC PSU를 교체하려면 다음 단계를 수행하십시오.
 CAUTION: PSU가 짧습니다. 컨트롤러 모듈에서 분리할 때 컨트롤 모듈이 갑자기 흔들리지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.
 
 +
-image::../media/drw_a800_replace_psu.png[drw A800은 PSU를 대체합니다]
+image::../media/drw_a800_replace_psu.png[PSU를 제거하거나 다시 설치합니다]
 
 +
 [cols="1,3"]

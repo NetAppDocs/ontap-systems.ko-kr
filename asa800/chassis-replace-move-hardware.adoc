@@ -34,12 +34,15 @@ summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드�
 image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 래치 
+ a| 
+잠금 래치
+
 
 
  a| 

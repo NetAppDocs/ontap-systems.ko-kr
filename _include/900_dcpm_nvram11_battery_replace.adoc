@@ -27,10 +27,10 @@ IMPORTANT: 탈거 후 5분 이내에 섀시에서 DCPM 모듈을 교체해야 �
 .애니메이션 - DCPM 탈거/장착
 video::ade18276-5dbc-4b91-9a0e-adf9016b4e55[panopto]
 +
-image::../media/drw_9000_remove_nv_battery.svg[drw 9000은 NV 배터리를 제거합니다]
+image::../media/drw_9000_remove_nv_battery.svg[NV 배터리를 탈거하십시오]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 

@@ -21,10 +21,10 @@ video::30337552-b10f-4146-9bdb-adf2000df5bd[panopto]
 .애니메이션 - 컨트롤러를 제거합니다
 video::256721fd-4c2e-40b3-841a-adf2000df5fa[panopto]
 +
-image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
+image::../media/drw_a900_remove_PCM.png[컨트롤러를 놓습니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -51,7 +51,7 @@ image::../media/drw_a900_PCM_open.png[컨트롤러 모듈에서 덮개를 들어
 
 
 
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -69,10 +69,10 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 . 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-image::../media/drw_a900_remove_boot_dev.png[drw a900 부트 DEV를 제거합니다]
+image::../media/drw_a900_remove_boot_dev.png[부팅 미디어를 분리합니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -120,10 +120,10 @@ NOTE: VER2 컨트롤러에는 DIMM 소켓이 적습니다. 지원되는 DIMM의 
 IMPORTANT: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므로 DIMM의 가장자리를 조심스럽게 잡으십시오.
 
 +
-image::../media/drw_a900_replace_PCM_dimms.png[DIMM 분리]
+image::../media/drw_a900_replace_PCM_dimms.png[DIMM을 분리합니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -179,10 +179,10 @@ NOTE: 시스템이 부팅될 때 시스템 펌웨어를 업데이트할 수 있�
 .애니메이션 - 컨트롤러 설치
 video::099237f3-d7f2-4749-86e2-adf2000df53c[panopto]
 +
-image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
+image::../media/drw_a900_remove_PCM.png[컨트롤러를 놓습니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 

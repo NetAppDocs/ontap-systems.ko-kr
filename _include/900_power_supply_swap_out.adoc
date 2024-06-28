@@ -41,10 +41,10 @@ IMPORTANT: PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항�
 .애니메이션 - PSU 제거/설치
 video::6d0eee92-72e2-4da4-a4fa-adf9016b57ff[panopto]
 +
-image::../media/drw_9000_remove_install_psu_module.svg[drw 9000 설치 제거 PSU 모듈]
+image::../media/drw_9000_remove_install_psu_module.svg[PSU 모뎀을 제거하거나 설치합니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 

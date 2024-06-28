@@ -188,6 +188,7 @@ mcc1A::> metrocluster operation show
 image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈 분리]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -210,9 +211,10 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 . 컨트롤러 모듈 덮개를 평평하고 안정적인 곳에 놓고 덮개의 파란색 단추를 누르고 덮개를 컨트롤러 모듈 뒤쪽으로 민 다음 덮개를 위로 돌려 컨트롤러 모듈에서 들어올립니다.
 +
-image::../media/drw_9000_pcm_open.png[컨트롤러 모듈 열기 또는 닫기]
+image::../media/drw_9000_pcm_open.png[컨트롤러 모듈을 열거나 닫습니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -235,7 +237,7 @@ DIMM을 교체하려면 컨트롤러 내부에서 DIMM을 찾은 후 특정 단�
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
 
 
-image::../media/drw_9000_dimm_map.png[drw 9000 DIMM 맵]
+image::../media/drw_9000_dimm_map.png[DIMM 맵]
 
 . DIMM의 양쪽에 있는 두 개의 DIMM 이젝터 탭을 천천히 밀어 슬롯에서 DIMM을 꺼낸 다음 슬롯에서 DIMM을 밀어 꺼냅니다.
 +
@@ -243,7 +245,7 @@ image::../media/drw_9000_dimm_map.png[drw 9000 DIMM 맵]
 NOTE: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므로 DIMM의 가장자리를 조심스럽게 잡으십시오.
 
 +
-image::../media/drw_9000_replace_pcm_dimms.png[DRW 9000이 PCM DIMM을 교체합니다]
+image::../media/drw_9000_replace_pcm_dimms.png[DCPM DIMM을 교체합니다]
 
 +
 [cols="1,3"]

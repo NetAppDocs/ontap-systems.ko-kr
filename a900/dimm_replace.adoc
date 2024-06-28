@@ -143,10 +143,10 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 .애니메이션 - 컨트롤러를 제거합니다
 video::256721fd-4c2e-40b3-841a-adf2000df5fa[panopto]
 +
-image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
+image::../media/drw_a900_remove_PCM.png[컨트롤러를 놓습니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -172,7 +172,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 image::../media/drw_a900_PCM_open.png[컨트롤러 모듈에서 덮개를 들어올립니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -195,9 +195,8 @@ NOTE: VER2 컨트롤러에는 DIMM 소켓이 적습니다. 지원되는 DIMM의 
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
-
-
-image::../media/drw_a900_DIMM_map.png[drw a900 DIMM 맵]
++
+image::../media/drw_a900_DIMM_map.png[DIMM 위치 맵]
 
 . DIMM의 양쪽에 있는 두 개의 DIMM 이젝터 탭을 천천히 밀어 슬롯에서 DIMM을 꺼낸 다음 슬롯에서 DIMM을 밀어 꺼냅니다.
 +
@@ -208,10 +207,10 @@ IMPORTANT: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으
 .애니메이션 - DIMM을 교체합니다
 video::db161030-298a-4ae4-b902-adf2000e2aa4[panopto]
 +
-image::../media/drw_a900_replace_PCM_dimms.png[DIMM 분리]
+image::../media/drw_a900_replace_PCM_dimms.png[DIMM을 분리합니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -258,7 +257,7 @@ IMPORTANT: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는
 image::../media/drw_a900_PCM_open.png[컨트롤러 모듈에서 덮개를 들어올립니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
@@ -273,10 +272,10 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 .애니메이션 - 컨트롤러 설치
 video::099237f3-d7f2-4749-86e2-adf2000df53c[panopto]
 +
-image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
+image::../media/drw_a900_remove_PCM.png[컨트롤러를 놓습니다]
 
 +
-[cols="10,90"]
+[cols="1,4"]
 |===
 
 
