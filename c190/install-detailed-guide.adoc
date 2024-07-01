@@ -88,9 +88,9 @@ X6536-R6(112-00090), 5m
 
 X6554-R6(112-00189), 15m
  a| 
-image:../media/oie_sfp_optical.png[""]
+image:../media/oie_sfp_optical.png["광 네트워크 케이블 SFP"]
 
-image::../media/oie_cable_fiber_lc_connector.png[OIE 케이블 파이버 LC 커넥터]
+image::../media/oie_cable_fiber_lc_connector.png[파이버 채널 네트워크 LC 케이블]
  a| 
 SFP+ FC 호스트 네트워크
 
@@ -214,13 +214,13 @@ NOTE: 광 스위치에 연결하는 경우 포트에 케이블을 연결하기 �
 UTA2 데이터 네트워크 구성::
 +
 --
-image::../media/drw_c190_tnsc_unified_network_cabling_animated_gif.png[drw C190 tnsc 통합 네트워크 케이블 애니메이션 gif]
+image::../media/drw_c190_tnsc_unified_network_cabling_animated_gif.png[스위치가 없는 2노드 클러스터 통합 네트워크 케이블 애니메이션]
 
 --
 이더넷 네트워크 구성::
 +
 --
-image::../media/drw_c190_tnsc_ethernet_network_cabling_animated_gif.png[drw C190 tnsc 이더넷 네트워크 케이블 애니메이션 gif]
+image::../media/drw_c190_tnsc_ethernet_network_cabling_animated_gif.png[2노드 스위치가 없는 클러스터 Eternet 네트워크 케이블 연결 애니메이션]
 
 --
 
@@ -280,13 +280,13 @@ NOTE: 광 스위치에 연결하는 경우 포트에 케이블을 연결하기 �
 통합 네트워크 구성::
 +
 --
-image::../media/drw_c190_switched_unified_network_cabling_animated_gif.png[drw C190 스위치 통합 네트워크 케이블 애니메이션 gif]
+image::../media/drw_c190_switched_unified_network_cabling_animated_gif.png[스위치 클러스터 통합 네트워크 케이블 연결 애니메이션]
 
 --
 이더넷 네트워크 구성::
 +
 --
-image::../media/drw_c190_switched_ethernet_network_cabling_animated.png[drw C190 스위치 이더넷 네트워크 케이블 애니메이션]
+image::../media/drw_c190_switched_ethernet_network_cabling_animated.png[스위치 클러스터 이더넷 네트워크 케이블 연결 애니메이션]
 
 --
 

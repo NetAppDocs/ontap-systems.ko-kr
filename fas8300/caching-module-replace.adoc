@@ -235,7 +235,7 @@ NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Sup
 
 .애니메이션 - 캐싱 모듈을 교체합니다
 video::d5f75ac5-b4f3-4b49-984b-aad9012f0c8e[panopto]
-image::../media/drw_8300_Replace-flashcache.png[drw 8300 FlashCache를 교체합니다]
+image::../media/drw_8300_Replace-flashcache.png[캐시 모듈을 제거하고 교체합니다]
 
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.

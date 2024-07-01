@@ -38,9 +38,10 @@ NOTE: 섀시에서 전원 공급 장치를 분리한 후 2분 이내에 전원 �
 CAUTION: 전원 공급 장치가 단락되었습니다. 컨트롤러 모듈에서 분리할 때 컨트롤 모듈이 갑자기 흔들리지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.
 
 +
-image::../media/drw_a700s_replace_psu.png[drw a700s PSU 교체]
+image::../media/drw_a700s_replace_psu.png[PSU를 교체합니다]
 
 +
+[cols="1,4"]
 |===
 
 

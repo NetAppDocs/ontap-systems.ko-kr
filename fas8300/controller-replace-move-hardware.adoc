@@ -51,7 +51,7 @@ https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=49053752-e813-4c1
 
 
 
-image::../media/drw_8300_empty_riser_remove.png[drw 8300 빈 라이저 분리]
+image::../media/drw_8300_empty_riser_remove.png[빈 라이저를 분리합니다]
 
 . 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 . 공기 덕트를 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
@@ -69,7 +69,7 @@ image::../media/drw_8300_empty_riser_remove.png[drw 8300 빈 라이저 분리]
 
 .애니메이션 - 전원 공급 장치를 이동합니다
 video::92060115-1967-475b-b517-aad9012f130c[panopto]
-image::../media/drw_A400_psu.png[전원 공급 장치 교체]
+image::../media/drw_A400_psu.png[전원 공급 장치를 교체합니다]
 
 . 전원 공급 장치를 분리합니다.
 +
@@ -109,7 +109,7 @@ video::94d115b2-b02a-4234-805c-aad9012f204c[panopto]
 . 컨트롤러 모듈에서 NVDIMM 배터리를 찾습니다.
 
 
-image::../media/drw_A400_nvdimm-batt.png[NVDIMM 배터리 분리]
+image::../media/drw_A400_nvdimm-batt.png[NVDIMM 배터리를 분리합니다]
 
 . 배터리 플러그를 찾아 배터리 플러그 표면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 분리합니다.
 . 배터리를 잡고 누름 이라고 표시된 파란색 잠금 탭을 누른 다음 홀더 및 컨트롤러 모듈에서 배터리를 들어올립니다.
@@ -131,7 +131,7 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 .애니메이션 - 부팅 미디어를 이동합니다
 video::2a14099c-85de-4a84-867c-aad9012efac8[panopto]
-image::../media/drw_A400_Replace-boot_media.png[부팅 미디어 제거]
+image::../media/drw_A400_Replace-boot_media.png[부팅 미디어를 분리합니다]
 
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
 +
@@ -168,13 +168,13 @@ NOTE: 라이저에서 PCIe 카드를 분리하지 않아도 됩니다. PCIe 카�
 
 .애니메이션 - PCI 라이저 1과 2를 이동합니다
 video::f4ee1d4d-6029-4fe6-a063-aad9012f170b[panopto]
-image::../media/drw_A400_Replace-PCIe-cards.png[PCIe 카드 분리]
+image::../media/drw_A400_Replace-PCIe-cards.png[PCIe 카드를 분리합니다]
 
 메자닌 카드 및 라이저 3(오른쪽 라이저) 이동:
 
 .애니메이션 - 메자닌 카드 및 라이저 3을 이동합니다
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto]
-image::../media/drw_A400_Replace-mezz-card.png[메자닌 카드 분리]
+image::../media/drw_A400_Replace-mezz-card.png[메자닌 카드를 분리합니다]
 
 . PCIe 라이저 1과 2를 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동합니다.
 +
@@ -216,7 +216,7 @@ NOTE: Ver2 컨트롤러 모듈에는 FAS8300에는 캐싱 모듈 소켓이 하�
 
 .애니메이션 - 캐싱 모듈을 이동합니다
 video::d6a43902-0e78-40c3-a2bd-aad9012f5b94[panopto]
-image::../media/drw_A400_Replace-flashcache.png[drw A400 FlashCache 교체]
+image::../media/drw_A400_Replace-flashcache.png[캐시 모듈을 제거하고 교체합니다]
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 캐시 모듈을 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동합니다.
@@ -242,7 +242,7 @@ DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트�
 
 .애니메이션 - DIMM을 이동합니다
 video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto]
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM 이동]
+image::../media/drw_A400_Replace-NVDIMM-DIMM.png[DIMM을 이동합니다]
 
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
 . DIMM을 올바른 방향으로 교체 컨트롤러 모듈에 삽입할 수 있도록 소켓에 있는 DIMM의 방향을 기록해 두십시오.
@@ -283,7 +283,7 @@ DIMM은 소켓에 단단히 장착되지만 쉽게 장착할 수 있습니다. �
 
 .애니메이션 - 컨트롤러 모듈을 설치합니다
 video::9249fdb8-1522-437d-9280-aae10007c97b[panopto]
-image::../media/drw_A400_Install_controller_source.png[컨트롤러 설치]
+image::../media/drw_A400_Install_controller_source.png[컨트롤러를 설치합니다]
 
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.

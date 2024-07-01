@@ -216,7 +216,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - 스위치가 없는 2노드 클러스터 케이블링
 video::80c4701e-8e4a-408e-96e6-ab1b00666d3f[panopto]
 +
-image::../media/drw_fas8300_TNSC_network_cabling.png[drw fas8300 TNSC 네트워크 케이블 연결]
+image::../media/drw_fas8300_TNSC_network_cabling.png[스위치가 없는 2노드 클러스터 케이블 연결 다이어그램]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -244,7 +244,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - 스위치 방식 클러스터 케이블 연결
 video::5893b7d4-6f67-4a64-ad89-ab1b006658d1[panopto]
 +
-image::../media/drw_fas8300_switched_network_cabling.png[drw fas8300 스위치 방식 네트워크 케이블 연결]
+image::../media/drw_fas8300_switched_network_cabling.png[스위치 클러스터 네트워크 케이블 연결 다이어그램]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -272,7 +272,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다
 video::46c0da0b-6842-449f-b28c-ab1b0066584b[panopto]
 +
-image::../media/drw_fas8300_three-ds224c_shelves.png[drw fas8300 ds224c 선반 3개]
+image::../media/drw_fas8300_three-ds224c_shelves.png[세 개의 DS224C 쉘프 케이블 연결 다이어그램]
 
 . 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 

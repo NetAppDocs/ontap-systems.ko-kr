@@ -198,19 +198,22 @@ mcc1A::> metrocluster operation show
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리]
 
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
 +
 image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 나비 나사 
+ a| 
+나비 나사
+
 
 
  a| 
@@ -245,7 +248,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 스토리지 시스템에는 캐싱 모듈에 사용할 수 있는 슬롯이 2개 있으며 기본적으로 슬롯이 1개만 사용되고 있습니다.
 
 +
-image::../media/drw_rxl_fcache.png[drw rxl FCache]
+image::../media/drw_rxl_fcache.png[캐시 모듈을 제거하거나 교체합니다]
 
 
 

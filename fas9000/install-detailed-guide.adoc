@@ -190,7 +190,7 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가�
 NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 
 +
-image::../media/drw_9000_lifting_icon.png[drw 9000 인양 아이콘]
+image::../media/drw_9000_lifting_icon.png[인양 무게 주의 레이블]
 
 
 
@@ -199,7 +199,7 @@ NOTE: 왼쪽에 있는 레이블은 빈 섀시를 나타내고, 오른쪽에 있
 
 . 케이블 관리 장치를 연결합니다(그림 참조).
 +
-image::../media/drw_9000_cable_management_arms.png[drw 9000 케이블 관리 암]
+image::../media/drw_9000_cable_management_arms.png[케이블 관리 암을 부착합니다]
 
 . 시스템 전면에 베젤을 부착합니다.
 
@@ -232,7 +232,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 video::7a55b98a-e8b8-41d5-821f-ac5b0032ead0[panopto]
 
 
-image::../media/drw_9000_TNSC_composite_cabling.png[drw 9000 TNSC 복합 케이블 연결]
+image::../media/drw_9000_TNSC_composite_cabling.png[스위치가 없는 2노드 클러스터 복합 케이블 연결 다이어그램]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -259,7 +259,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 video::6381b3f1-4ce5-4805-bd0a-ac5b0032f51d[panopto]
 
 
-image:../media/drw_9000_switched_cluster_cabling.png[""]
+image:../media/drw_9000_switched_cluster_cabling.png["스위치 클러스터 복합 케이블 연결 다이어그램"]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 

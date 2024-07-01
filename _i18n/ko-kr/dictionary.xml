@@ -70,7 +70,6 @@
   <block id="3b746021467b635137eb94fcf5c83573" category="section-title">3단계: RTC 배터리를 교체합니다</block>
   <block id="c97564e8e6a94dc642e3f69b7ae80557" category="paragraph">RTC 배터리를 교체하려면 컨트롤러 모듈 내부에서 해당 배터리를 찾은 다음 특정 단계를 따라야 합니다.</block>
   <block id="65c45f25b11ef516aa4180bd435460a0" category="list-text">RTC 배터리를 찾습니다.</block>
-  <block id="78cdea792972b347c50369463c3d2407" category="image-alt">drw 2600 RTC 배터리</block>
   <block id="e789dadff6ab02fe418b101bca452d66" category="list-text">배터리를 홀더에서 조심스럽게 밀어내고 홀더에서 돌린 다음 홀더에서 들어 꺼냅니다.</block>
   <block id="9e5b0cf96e39c07e340d8e7e3f98141d" category="admonition">배터리함을 홀더에서 분리할 때 배터리의 극성에 유의하십시오. 배터리에는 플러스 기호가 표시되어 있으며 홀더에 올바르게 위치해야 합니다. 홀더 근처에 있는 더하기 기호는 배터리를 어떻게 배치해야 하는지 알려줍니다.</block>
   <block id="ea4330063aff847ec18a76ddefbeb737" category="list-text">정전기 방지 운송용 백에서 교체용 배터리를 제거합니다.</block>
@@ -302,7 +301,6 @@
   <block id="86f21ec895ba66975c627726798bc797" category="paragraph">X6553-R6(112-00188), 2m</block>
   <block id="f0b8dbf961f93d5d136181b058ae6f49" category="paragraph">X6536-R6(112-00090), 5m</block>
   <block id="ddac2f549f656aa8118a6bcb0bd45703" category="paragraph">X6554-R6(112-00189), 15m</block>
-  <block id="caaa8a847335f7164117894cfe79e731" category="paragraph"><block ref="caaa8a847335f7164117894cfe79e731" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2dbee959c43fd0b0e9eab0968ff31b96" category="image-alt">OIE 케이블 파이버 LC 커넥터</block>
   <block id="fea037cb34a319bd3b823395ee5fdd07" category="paragraph">SFP+ FC 호스트 네트워크</block>
   <block id="113c5b43783d0048ca249335849a1d63" category="paragraph">CAT 6, RJ-45(주문 종속)</block>
@@ -331,7 +329,6 @@
   <block id="7540cda30776c310e4b86b624032cea1" category="image-alt">OIE 케이블 당김 탭을 아래로 내립니다</block>
   <block id="1ec9fa42251d8d9889cd15b2ab11e819" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.</block>
   <block id="fcca883f68c4e92b98d0f294614cda60" category="admonition">광 스위치에 연결하는 경우 포트에 케이블을 연결하기 전에 컨트롤러 포트에 SFP를 삽입합니다.</block>
-  <block id="73da34bccb5db786798534ea5b6eb1d6" category="image-alt">drw C190 tnsc 통합 네트워크 케이블 애니메이션 gif</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="cell">단계</block>
   <block id="3f4a7771ab61ac16b156190d458da251" category="cell">각 컨트롤러에서 수행합니다</block>
   <block id="29232642e257cc5bf9288d51db5b38a1" category="paragraph">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트를 서로 케이블로 연결합니다.</block>
@@ -340,12 +337,9 @@
   <block id="2cd55300ec4cb3223c5bc06b35b221bc" category="paragraph">이때 전원 코드를 꽂지 마십시오.</block>
   <block id="f2371181894421446afe16fe1e5da25b" category="inline-link-macro">4단계: 시스템 설치 및 구성을 완료합니다</block>
   <block id="9bb6dc35b9c3cfb584e92ef6bf229185" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="b9ddf35bfac2437b7499c5c6e18fd46e" category="inline-link-macro-rx"></block>.</block>
-  <block id="d7d7ce9a70c375da7dd9edb7b21a9134" category="image-alt">drw C190 스위치 통합 네트워크 케이블 애니메이션 gif</block>
   <block id="e19d235ecefc26b5aac95b096a664ec6" category="cell">각 컨트롤러 모듈에서 수행합니다</block>
   <block id="81b22135a51aae23b34a49fb4dc95ad2" category="paragraph">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 스위치에 e0a 및 e0b 케이블 연결:</block>
-  <block id="0df32eef6f99f6d05877f5da86a45063" category="image-alt">drw C190 tnsc 이더넷 네트워크 케이블 애니메이션 gif</block>
   <block id="836e597d16643401627d14a351ba6a9c" category="paragraph">Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.</block>
-  <block id="ac3d560a40b4d6d28fac097677ecaa8d" category="image-alt">drw C190 스위치 이더넷 네트워크 케이블 애니메이션</block>
   <block id="ca6a767f42962c9e0a0d4a74740024b9" category="paragraph">스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료합니다.</block>
   <block id="11b77e98d05566e5db1d8a342bd88e64" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우 시스템 설치 및 구성을 완료합니다</block>
   <block id="03acfd01fa7e9005a658be1126450720" category="paragraph">랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료할 수 있습니다.</block>
@@ -2231,7 +2225,6 @@
   <block id="bea349f51fb4fb1a5633e236822fa5b4" category="list-text">분리 탭을 누릅니다.</block>
   <block id="c9b10c926499cf0c03511222cfe41c81" category="list-text">히트싱크를 분리합니다.</block>
   <block id="72899bf5d7c3e86a01a078b9f3c1b933" category="paragraph">스토리지 시스템에는 캐싱 모듈에 사용할 수 있는 슬롯이 2개 있으며 기본적으로 슬롯이 1개만 사용되고 있습니다.</block>
-  <block id="407e11715a937f08e831c6ea7ba60d89" category="image-alt">drw rxl FCache</block>
   <block id="bb9fc9627a5a2fc0453a6abc13985482" category="list-text">캐시 모듈을 새 컨트롤러 모듈로 이동한 다음 캐시 모듈의 가장자리를 소켓 하우징에 맞춘 다음 소켓에 부드럽게 밀어 넣습니다.</block>
   <block id="06c9138c9dda8dce357c29f596493704" category="list-text">캐싱 모듈이 소켓에 직각으로 완전히 장착되었는지 확인합니다. 필요한 경우 캐시 모듈을 분리하고 소켓에 재장착합니다.</block>
   <block id="048793ffb893f6b4afd5d4d5b5ff23b9" category="list-text">히트싱크를 다시 장착하고 아래로 눌러 캐싱 모듈 하우징의 잠금 버튼을 누릅니다.</block>
@@ -2382,7 +2375,6 @@
   <block id="b4528c91634508bf10f34e21233169c0" category="list-text">컨트롤러 모듈을 안전한 곳에 둡니다.</block>
   <block id="b6e4e85c37e79abd40b307ddc60db9d3" category="paragraph">NVRAM 배터리를 교체하려면 오류가 발생한 NVRAM 배터리를 컨트롤러 모듈에서 분리하고 교체용 NVRAM 배터리를 컨트롤러 모듈에 설치해야 합니다.</block>
   <block id="50596866677de4b15c95c4f2ac253894" category="list-text">라이저 모듈, 라이저 1의 왼쪽에서 NVRAM 배터리를 찾습니다.</block>
-  <block id="cad0b5b8d9a3a648fed2d2cf9843ff68" category="image-alt">drw a700s NVMe 배터리 교체</block>
   <block id="5a66fe4f16ba9a8ec80a9b48be30d41b" category="paragraph">NVRAM 배터리 플러그</block>
   <block id="8e50b634b9172df00520f757e65899a2" category="paragraph">파란색 NVRAM 배터리 잠금 탭</block>
   <block id="e4191ffb24cf00ba5d94d1981ea4fb72" category="list-text">배터리 홀더의 파란색 잠금 탭을 눌러 래치가 홀더에서 풀리도록 합니다.</block>
@@ -2407,7 +2399,6 @@
   <block id="bf1b040c014a82c7128928f952e50325" category="paragraph">에어 덕트 잠금 탭</block>
   <block id="72188531636fc5815089233196e1ec35" category="paragraph">라이저</block>
   <block id="f663c131d87c9bf95d21d63d6579dfb8" category="paragraph">RTC 배터리를 교체하려면 컨트롤러 내부에 있는 배터리를 찾아 특정 단계를 따르십시오.</block>
-  <block id="6199e9ac737bb64b5d2e7bfb2a3da5a0" category="image-alt">drw a700s RTC 배터리를 교체합니다</block>
   <block id="a7f375a810d73a673cfac8d89305ccac" category="paragraph">RTC 배터리 및 하우징</block>
   <block id="e5869c3e3552c60a1a151cf93d8bdbee" category="summary">컨트롤러 모듈에서 중간 PCIe 모듈을 분리하고, 부팅 미디어 근처의 LED로 결함이 있는 부팅 미디어를 찾은 다음 부팅 미디어를 교체해야 합니다.</block>
   <block id="e9e66c1bd59e20ff8acce6fb41f94461" category="paragraph">섀시에서 컨트롤러 모듈을 분리하고 연 다음, 결함이 있는 부팅 미디어를 교체해야 합니다.</block>
@@ -2416,7 +2407,6 @@
   <block id="d49fe2e5280db996ef1801aa2312cf51" category="list-text">부팅 미디어를 찾습니다.</block>
   <block id="ea47f8c3d75d0ae8c63333493732e287" category="list-text">필요한 경우 공기 덕트를 엽니다.</block>
   <block id="95b0ed2bf52614c4803a52c7bfbc4da6" category="list-text">필요한 경우 잠금 래치를 잠금 해제한 다음 컨트롤러 모듈에서 라이저를 분리하여 가운데 PCIe 모듈인 라이저 2를 분리합니다.</block>
-  <block id="c5f3456e0fd8df43b4786bdc636b23b4" category="image-alt">drw a700s 부팅 미디어를 교체합니다</block>
   <block id="3e4e796f89697f9552e6f9741f53026c" category="paragraph">라이저 2(중간 PCIe 모듈)</block>
   <block id="10cacafa178fdb6b46f50bea9be0d8cf" category="paragraph">부트 미디어 나사</block>
   <block id="c6a69d731488373ecdb2d591b1a85654" category="paragraph">미디어를 부팅합니다</block>
@@ -2438,7 +2428,6 @@
   <block id="e603d2510eeff2fb744840a8b8277f7c" category="doc">전원 공급 장치 스왑 - AFF A700s</block>
   <block id="25b17a241b7878627647c78d24614092" category="paragraph">전원 공급 장치 교체 대상 전원 공급 장치(PSU) 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등이 포함됩니다.</block>
   <block id="1bdc46934af8b9f35655b38de6850eea" category="list-text">잠금 탭을 누른 상태에서 컨트롤러 모듈에서 전원 공급 장치를 당겨 빼낼 수 있도록 캠 핸들을 돌립니다.</block>
-  <block id="c27a73d454940b40747d6959d070735e" category="image-alt">drw a700s PSU 교체</block>
   <block id="1b2219e72635f17b115bf4b878fa99f2" category="paragraph">파란색 전원 공급 장치 잠금 탭</block>
   <block id="667ec5d2e7ff49916ac90c31eb178520" category="list-text">캠 핸들을 끝까지 아래로 돌려 닫습니다.</block>
   <block id="f88c775f01fc49ed67168d71b69a1c0c" category="doc">전체 시스템 복원 - AFF A700s</block>
@@ -2465,7 +2454,6 @@
   <block id="5cee811338d57ecf44d6f22dca7fcd4b" category="list-text">라이저 왼쪽에 있는 라이저 잠금 래치를 팬 쪽으로 돌립니다.</block>
   <block id="62b41ad108afe6b4d651d8da18394eea" category="paragraph">NVRAM 라이저가 컨트롤러 모듈에서 약간 위로 올라갑니다.</block>
   <block id="d3110f91324e5f8cfcd28600df5ac2d9" category="list-text">NVRAM 라이저를 위로 들어 올리고 팬을 향해 이동해서 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 수직으로 들어올립니다. 그런 다음 NVRAM 카드에 액세스할 수 있도록 평평하고 안정적인 곳에 놓습니다.</block>
-  <block id="2d0b5667d44ad59ef139c09efe0999d0" category="image-alt">drw a700s NVMe 교체</block>
   <block id="f3be4d98894ffbfb83050debf5045c14" category="paragraph">라이저 1 잠금 래치</block>
   <block id="ae936646ba28c5499caf8ff8a09c1158" category="paragraph">NVRAM 카드에 연결하는 NVRAM 배터리 케이블 플러그</block>
   <block id="a5a2e7319e6511ec0e394434ba44783a" category="paragraph">카드 잠금 브래킷</block>
@@ -2488,7 +2476,6 @@
   <block id="25e84b8b11804a262c8f96f5c0494341" category="list-text">라이저 왼쪽의 모듈 잠금 래치를 위로 돌려 팬 모듈을 향해 돌립니다.</block>
   <block id="9b87501921d55169b6d5df97c4ac5eff" category="paragraph">PCIe 라이저가 컨트롤러 모듈에서 약간 위로 올라갑니다.</block>
   <block id="2995e2f5de5ab5f7e237aaaca60f083f" category="list-text">PCIe 라이저를 위로 들어 올리고 팬 쪽으로 이동시키고 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 들어 올린 다음 안정적이고 평평한 표면에 놓습니다.</block>
-  <block id="8301780f2b7742ba6677d0c2900a7256" category="image-alt">drw a700s PCIe 교체</block>
   <block id="8adcba29860559485059fb792f38322a" category="paragraph">라이저 잠금 래치</block>
   <block id="2bc8b7df71c8cc78b90710217056fad5" category="paragraph">라이저 2(중간 라이저) 및 라이저 슬롯 2 및 3의 PCI 카드</block>
   <block id="fb379bac7a8e7aac40472cfecc7165aa" category="list-text">라이저에서 PCIe 카드를 분리합니다.</block>
@@ -2509,12 +2496,10 @@
   <block id="db804e965118c7ddc7ce55f19a1af1bc" category="section-title">5단계: 팬을 이동합니다</block>
   <block id="6e84c6f5de78e87ef68b12592b7a3451" category="paragraph">오류가 발생한 컨트롤러 모듈을 교체할 때 장애가 발생한 컨트롤러 모듈에서 교체 모듈로 팬을 이동해야 합니다.</block>
   <block id="913828212c34150e0ba19cde9f31f04f" category="list-text">팬 모듈 측면에 있는 잠금 탭을 잡고 팬 모듈을 컨트롤러 모듈 밖으로 똑바로 들어 올려 팬 모듈을 분리합니다.</block>
-  <block id="fe45ee98537552d5aae5b293496a5f0f" category="image-alt">drw a700s 팬을 교체합니다</block>
   <block id="a1502c1dce561f00d4aba662f80c5fa3" category="cell">팬 잠금 탭</block>
   <block id="219dba91289309b728804e9ddd5f60be" category="list-text">팬 모듈을 교체용 컨트롤러 모듈로 옮긴 다음 팬 모듈의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 잠금 래치가 제자리에 고정될 때까지 팬 모듈을 컨트롤러 모듈로 밀어 넣습니다.</block>
   <block id="2dc8b6264a38dd08bad002bfa0761258" category="section-title">6단계: 시스템 DIMM을 이동합니다</block>
   <block id="981355f252d77b57262594c30633c45b" category="paragraph">DIMM을 이동하려면 손상된 컨트롤러를 찾아 교체 컨트롤러로 이동한 다음 특정 단계를 따릅니다.</block>
-  <block id="36ac39cea070e713b0fb0a0f54db88b7" category="image-alt">drw a700s DIMM 교체</block>
   <block id="ce1a3d7dcbc5b34bf0ed36bacde61766" category="paragraph">라이저 1 및 DIMM 뱅크 1-4</block>
   <block id="ac5ffb09cd704fd27e86246b89dcd4aa" category="paragraph">라이저 2 및 DIMM 뱅크 5-8 및 9-12</block>
   <block id="b305092c73b0e314321c71b8240b1516" category="paragraph">라이저 3 및 DIMM 뱅크 13-16</block>
@@ -2671,7 +2656,6 @@
   <block id="1dfd8f0a690cafa9d3544e4817f68306" category="list-text">컨트롤러 모듈을 안정적이고 평평한 표면에 놓습니다.</block>
   <block id="4f4fd54acab309f1a5e65fa28f282bda" category="paragraph">컨트롤러 모듈 내에서 RTC 배터리를 찾은 다음 특정 단계를 따라야 합니다. RTC 배터리의 위치는 컨트롤러 모듈 내부의 FRU 맵을 참조하십시오.</block>
   <block id="1d865762dc572ea89458b46f1d146cdf" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.</block>
-  <block id="ec83112a8c30bb826b259d5c77a3c3ca" category="image-alt">drw A400 RTC 배치</block>
   <block id="b83b44d067ff2b81649ca1ec4d078840" category="list-text">에어 덕트를 엽니다.</block>
   <block id="7f17300d94b3ad1307db5cc0a95ca048" category="list-text">에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.</block>
   <block id="3f88f0afc7a9dcaea99ffc820cae4c95" category="list-text">공기 덕트를 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.</block>
@@ -3910,10 +3894,8 @@
   <block id="598ec2ec2714b9a699a42898b690e48d" category="section-title">옵션 1: SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
   <block id="ed8e6ac65f869dd5cec262d6da357514" category="doc">교체 프로세스 완료 - FAS8300 및 FAS8700</block>
   <block id="27dcde903ce9d2827a6882d72efe7cb4" category="doc">손상된 컨트롤러를 종료합니다. - AFF FAS8300 및 FAS8700</block>
-  <block id="b8f99a879bdae690f650b2171355b5bb" category="image-alt">drw 8300 빈 라이저 분리</block>
   <block id="6976de191bb895bccff42aea7f5ef312" category="section-title">6단계: 캐싱 모듈 이동</block>
   <block id="1e6c27613480cee2fca639b93121fd62" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 캐싱 모듈을 새 컨트롤러 모듈로 이동할 수 있습니다.</block>
-  <block id="98e31120864bf3bc3ac05e5585fc2718" category="image-alt">drw A400 FlashCache 교체</block>
   <block id="6ce420982732936565ee6cdc23281310" category="list-text">캐시 모듈을 손상된 컨트롤러 모듈에서 교체 컨트롤러 모듈로 이동합니다.</block>
   <block id="37532f61023625948a2dff3e87ad659d" category="list-text">캐싱 모듈 끝에 있는 파란색 분리 탭을 누르고 모듈을 위로 돌린 다음 소켓에서 모듈을 분리합니다.</block>
   <block id="d84a3f8a48a291e94be45b2446ab30e1" category="list-text">캐시 모듈을 교체 컨트롤러 모듈의 동일한 소켓에 끼웁니다.</block>
@@ -3935,7 +3917,6 @@
   <block id="8a653be38ee9a052d5a08a28a70c1d9e" category="paragraph">컨트롤러의 레이블에 Flash Cache라고도 하는 캐싱 모듈을 교체하려면 컨트롤러 내부에 있는 슬롯을 찾은 다음 특정 단계를 따르십시오. Flash Cache의 위치는 컨트롤러 모듈의 FRU 맵을 참조하십시오.</block>
   <block id="70edce28424200208b28981e9b221707" category="list-text">캐싱 모듈의 내용은 암호화되지만 모듈을 교체하기 전에 모듈 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오<block ref="89de74d6a86df9137b0ef3fb03a43036" category="inline-link-rx"></block> 을 방문하십시오.</block>
   <block id="bb90eba065615f7ac639d1758ba84812" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 캐싱 모듈을 교체할 수 있습니다.</block>
-  <block id="540a3a140ba4c7da7729d8bbfbe06861" category="image-alt">drw 8300 FlashCache를 교체합니다</block>
   <block id="b08a9c5bee019bb00ec5f4f00b59819e" category="list-text">컨트롤러 모듈의 FRU 맵을 사용하여 오류가 발생한 캐싱 모듈을 찾아서 제거합니다.</block>
   <block id="58a5256eec02e1fef80c02b3deffc3f5" category="list-text">파란색 분리 탭을 누릅니다.</block>
   <block id="3b9dfc19fe13a88ce4bf85240df578ae" category="paragraph">캐싱 모듈 끝이 릴리스 탭에서 위로 올라갑니다.</block>
@@ -5518,9 +5499,6 @@
   <block id="e935849faf7cd25a183a726f34797bb7" category="doc">컨트롤러 모듈 교체 - AFF A300</block>
   <block id="75a0d3caeb66a7c3aca3b7bc0f0c5985" category="image-alt">A320 drw 스위치 방식 네트워크 케이블 컴포지트 애니메이션 GIF</block>
   <block id="82430a05d3820aeaeb756230e94ee643" category="doc">온보드 암호화 - FAS8200을 확인하십시오</block>
-  <block id="0082203fcfff94aab099c16763176076" category="image-alt">drw fas8300 TNSC 네트워크 케이블 연결</block>
-  <block id="507f9f4c8680d2c9a9bcba815a7976e8" category="image-alt">drw fas8300 스위치 방식 네트워크 케이블 연결</block>
-  <block id="56cbc310abb53560871f37318fe0636d" category="image-alt">drw fas8300 ds224c 선반 3개</block>
   <block id="a28455bf2eecf6cc499c335ee152cd75" category="paragraph">다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.</block>
   <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
   <block id="af844de12c61a1b2d86c05934c317256" category="summary">플랫폼에서 드라이브 실패를 나타내는 경고 메시지를 시스템 콘솔에 기록할 때 드라이브를 교체해야 합니다. 또한, 작동 디스플레이 패널의 오류 LED와 고장 드라이브의 오류 LED가 모두 켜집니다.</block>
@@ -8790,4 +8768,36 @@ SFP+(타겟/이니시에이터)</block>
   <block id="360e760cf4c2611f24bef9936525c878" category="image-alt">드라이브 캐리어 수평 배열</block>
   <block id="9302993f1cbe0a62b1c08bac8ff42e30" category="image-alt">드라이브 활동 LED</block>
   <block id="6daeeb8640b388bf728f2d3fa2ceac68" category="image-alt">드라이브 주의 LED</block>
+  <block id="3d01b4425d5fa4915f6e209ff5ebc5fa" category="image-alt">NVRAM 카드를 교체합니다</block>
+  <block id="1471ac39cb9785883e4f8e0156141768" category="image-alt">PCIe 카드를 교체합니다</block>
+  <block id="d41ba6049ada491c1bedd4e982b5a12a" category="image-alt">팬을 교체합니다</block>
+  <block id="732cb0105e10dcf3046c4f8dd9a5a991" category="image-alt">NVRAM 배터리를 교체합니다</block>
+  <block id="ca80c728e158c474fa562e4e6fe53868" category="image-alt">PSU를 교체합니다</block>
+  <block id="ba465a4963e9d81b0df00697f6765e53" category="image-alt">RTC 배터리를 교체합니다</block>
+  <block id="b64d12e71baab796101791fd15a05a3d" category="image-alt">스위치가 없는 2노드 클러스터 케이블 연결</block>
+  <block id="9405a4b49345c23900c5d7b5d872d67a" category="image-alt">스위치 클러스터 네트워킹 케이블 연결</block>
+  <block id="2808a423f10e955f0c8304464c9f2414" category="image-alt">NS224 쉘프를 컨트롤러에 케이블 연결합니다</block>
+  <block id="c0ec9acb24ae98cfebde995d130a61a6" category="image-alt">NS224 쉘프 3개를 컨트롤러에 케이블 연결합니다</block>
+  <block id="92f7f93ee79f5a69c599aa1657e9464d" category="inline-image-macro">광 네트워크 케이블 SFP</block>
+  <block id="2fd2c03db6de3bb625cb5f3d864f2dc0" category="paragraph"><block ref="2fd2c03db6de3bb625cb5f3d864f2dc0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="40583e3c9e34e396cefb248dc9173b2d" category="image-alt">파이버 채널 네트워크 LC 케이블</block>
+  <block id="c81e616187fdaca7623c438cb82e7556" category="image-alt">스위치가 없는 2노드 클러스터 통합 네트워크 케이블 애니메이션</block>
+  <block id="44fd0bb5c642a9c9019ef389713404b7" category="image-alt">2노드 스위치가 없는 클러스터 Eternet 네트워크 케이블 연결 애니메이션</block>
+  <block id="ed839f063b04ef2bf205198607e99c45" category="image-alt">스위치 클러스터 통합 네트워크 케이블 연결 애니메이션</block>
+  <block id="9aa93e3b751066980500f1c3a9b9a3ad" category="image-alt">스위치 클러스터 이더넷 네트워크 케이블 연결 애니메이션</block>
+  <block id="a288981c3d3562c19205360c4a1975aa" category="image-alt">RTC 배터리를 교체합니다</block>
+  <block id="080a22aca65cc690a4adc58019e01c5b" category="image-alt">케이블 관리 암 분리</block>
+  <block id="415d68191d2fba8f12396142cd83b078" category="image-alt">캐시 모듈을 제거하거나 교체합니다</block>
+  <block id="fc29ed0d741870e4e8c36ca82510cf9a" category="image-alt">캐시 모듈을 제거하고 교체합니다</block>
+  <block id="6bc6ce8422771329317122532e3badfd" category="image-alt">캐시 모듈을 제거하고 교체합니다</block>
+  <block id="88d9a1b17863a743c5d31333c8bd6c82" category="image-alt">빈 라이저를 분리합니다</block>
+  <block id="8edb2beda5152e63e95d47b37fce7aa7" category="image-alt">메자닌 카드를 분리합니다</block>
+  <block id="3e86dd6511e223ecedd044d86cd934bf" category="image-alt">스위치가 없는 2노드 클러스터 케이블 연결 다이어그램</block>
+  <block id="2d2cf47916959433721b7cc7d46cdea2" category="image-alt">스위치 클러스터 네트워크 케이블 연결 다이어그램</block>
+  <block id="f9fdbcb98f873b6faf3dd8bc1752740e" category="image-alt">세 개의 DS224C 쉘프 케이블 연결 다이어그램</block>
+  <block id="4af594348d1cc40a4fa6849ea04fd49a" category="image-alt">인양 무게 주의 레이블</block>
+  <block id="3f4027780297605ef158a649078063e9" category="image-alt">케이블 관리 암을 부착합니다</block>
+  <block id="e84bd7a7cafaabc7b1743876dcc73c70" category="image-alt">스위치가 없는 2노드 클러스터 복합 케이블 연결 다이어그램</block>
+  <block id="0372c9caab5ee11faf1ffac3ef3c46fa" category="inline-image-macro">스위치 클러스터 복합 케이블 연결 다이어그램</block>
+  <block id="009e65f17aa2f40deb1c718bea3bf98b" category="paragraph"><block ref="009e65f17aa2f40deb1c718bea3bf98b" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

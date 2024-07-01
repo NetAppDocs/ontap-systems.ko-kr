@@ -127,7 +127,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 .. 에어 덕트 측면에 있는 잠금 탭을 컨트롤러 모듈 중앙을 향해 누릅니다.
 .. 공기 덕트를 팬 모듈 쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
 +
-image::../media/drw_a700s_open_air_duct.png[에어 덕트를 엽니다]
+image::../media/drw_a700s_open_air_duct.png[에어 덕트를 여십시오]
 
 +
 [cols="1,4"]
@@ -173,7 +173,7 @@ NVRAM 라이저가 컨트롤러 모듈에서 약간 위로 올라갑니다.
 
 .. NVRAM 라이저를 위로 들어 올리고 팬을 향해 이동해서 라이저의 판금 립이 컨트롤러 모듈의 모서리에서 분리되도록 한 다음, 라이저를 컨트롤러 모듈에서 수직으로 들어올립니다. 그런 다음 NVRAM 카드에 액세스할 수 있도록 평평하고 안정적인 곳에 놓습니다.
 +
-image::../media/drw_a700s_nvme_replace.png[drw a700s NVMe 교체]
+image::../media/drw_a700s_nvme_replace.png[NVRAM 카드를 교체합니다]
 
 +
 [cols="1,4"]

@@ -81,6 +81,7 @@ Ctrl+C를 누른 다음 y를 누릅니다.
 image::../media/drw_a700s_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -113,9 +114,10 @@ NVRAM 배터리를 교체하려면 오류가 발생한 NVRAM 배터리를 컨트
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 라이저 모듈, 라이저 1의 왼쪽에서 NVRAM 배터리를 찾습니다.
 +
-image::../media/drw_a700s_nvme_battery_replace.png[drw a700s NVMe 배터리 교체]
+image::../media/drw_a700s_nvme_battery_replace.png[NVRAM 배터리를 교체합니다]
 
 +
+[cols="1,4"]
 |===
 
 
@@ -155,6 +157,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
 +
+[cols="1,4"]
 |===
 
 

@@ -26,7 +26,7 @@ summary: 컨트롤러 모듈 하드웨어를 교체하려면 손상된 컨트롤
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리]
 
 . 케이블을 분리한 후 SFP 모듈을 시스템에 남겨 둔 경우 새 컨트롤러 모듈로 이동합니다.
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
@@ -34,12 +34,15 @@ image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
 image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 나비 나사 
+ a| 
+나비 나사
+
 
 
  a| 
@@ -109,12 +112,15 @@ NOTE: 시스템을 중단할 때 플래시 메모리에 콘텐츠를 디스테�
 image::../media/drw_rxl_nvmem_battery.png[NVMEM 배터리 교체]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 배터리 잠금 탭 
+ a| 
+배터리 잠금 탭
+
 
 
  a| 
@@ -177,14 +183,12 @@ PCIe 카드를 이전 컨트롤러 모듈에서 새 컨트롤러의 해당 슬�
 image::../media/drw_rxl_pcie.png[PCIe 카드 분리 또는 설치]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-
-
-
  a| 
 측면 패널
 
@@ -192,9 +196,6 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
-
-
-
  a| 
 PCIe 카드
 
@@ -226,7 +227,7 @@ PCIe 카드가 있던 슬롯을 추적해야 합니다.
 스토리지 시스템에는 캐싱 모듈에 사용할 수 있는 슬롯이 2개 있으며 기본적으로 슬롯이 1개만 사용되고 있습니다.
 
 +
-image::../media/drw_rxl_fcache.png[drw rxl FCache]
+image::../media/drw_rxl_fcache.png[캐시 모듈을 제거하고 교체합니다]
 
 
 
