@@ -53,6 +53,9 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 ** AFF A 시리즈 시스템**
 
 [role="quick-margin-list"]
+* https://docs.netapp.com/us-en/ontap-systems/a1k/install-overview.html["AFF A1K 를 참조하십시오"]
+* https://docs.netapp.com/us-en/ontap-systems/a70-90/install-overview.html["AFF A70 를 참조하십시오"]
+* https://docs.netapp.com/us-en/ontap-systems/a70-90/install-overview.html["AFF A90 를 참조하십시오"]
 * https://docs.netapp.com/us-en/ontap-systems/a150/install-setup.html["AFF A150"]
 * https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html["AFF A250"]
 * https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html["AFF A400"]

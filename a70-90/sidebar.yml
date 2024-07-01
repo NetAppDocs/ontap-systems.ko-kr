@@ -1,0 +1,91 @@
+---
+section: a70-90
+title: AFF A70 및 AFF A90 시스템
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF A70, AFF A90 설치 및 설정
+  entries:
+  - title: 워크플로를 설치합니다
+    url: "/a70-90/install-overview.html"
+  - title: 설치를 준비합니다
+    url: "/a70-90/install-prepare.html"
+  - title: 하드웨어를 설치합니다
+    url: "/a70-90/install-hardware.html"
+  - title: 하드웨어 케이블 연결
+    url: "/a70-90/install-cable.html"
+  - title: 시스템 전원을 켭니다
+    url: "/a70-90/install-power-hardware.html"
+  - title: 시스템 설치를 완료합니다
+    url: "/a70-90/install-complete.html"
+- title: 유지 관리
+  pdf-filename: AFF A70, AFF A90 유지 보수
+  entries:
+  - title: 개요
+    url: "/a70-90/maintain-overview.html"
+  - title: 미디어를 부팅합니다
+    pdf-filename: AFF A70, AFF A90 부팅 미디어
+    entries:
+    - title: 부팅 미디어 교체 개요
+      url: "/a70-90/bootmedia-replace-overview.html"
+    - title: 온보드 암호화 키를 확인합니다
+      url: "/a70-90/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a70-90/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/a70-90/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/a70-90/bootmedia-recovery-image-boot.html"
+    - title: 암호화 복원
+      url: "/a70-90/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/a70-90/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: AFF A70, AFF A90 섀시
+    entries:
+    - title: 섀시 교체 개요
+      url: "/a70-90/chassis-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a70-90/chassis-replace-shutdown.html"
+    - title: 섀시를 교체합니다
+      url: "/a70-90/chassis-replace-move-hardware.html"
+    - title: 섀시 교체를 완료합니다
+      url: "/a70-90/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러
+    pdf-filename: AFF A70, AFF A90 컨트롤러 모듈
+    entries:
+    - title: 컨트롤러 모듈 교체 개요
+      url: "/a70-90/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a70-90/controller-replace-shutdown.html"
+    - title: 컨트롤러를 교체합니다
+      url: "/a70-90/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/a70-90/controller-replace-system-config-restore-and-verify.html"
+    - title: 회수 가능 시스템
+      url: "/a70-90/controller-replace-recable-reassign-disks.html"
+    - title: 전체 컨트롤러 교체
+      url: "/a70-90/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    url: "/a70-90/dimm-replace.html"
+  - title: 드라이브
+    url: "/a70-90/drive-replace.html"
+  - title: 팬
+    url: "/a70-90/fan-swap-out.html"
+  - title: NVRAM
+    url: "/a70-90/nvram-replace.html"
+  - title: NV 배터리
+    url: "/a70-90/nvdimm-battery-replace.html"
+  - title: 입출력 모듈
+    entries:
+    - title: 입출력 모듈 추가 또는 교체 개요
+      url: "/a70-90/io-module-overview.html"
+    - title: 입출력 모듈을 추가합니다
+      url: "/a70-90/io-module-add.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "/a70-90/io-module-replace.html"
+  - title: 전원 공급 장치
+    url: "/a70-90/power-supply-replace.html"
+  - title: 실시간 시계 배터리
+    url: "/a70-90/rtc-battery-replace.html"
+  - title: 시스템 관리 모듈
+    url: "/a70-90/system-management-replace.html"

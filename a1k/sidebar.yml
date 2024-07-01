@@ -1,0 +1,78 @@
+---
+section: a1k
+title: AFF A1K 시스템
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF A1K 설치 및 설정
+  entries:
+  - title: 워크플로를 설치합니다
+    url: "/a1k/install-overview.html"
+  - title: 설치를 준비합니다
+    url: "/a1k/install-prepare.html"
+  - title: 하드웨어를 설치합니다
+    url: "/a1k/install-hardware.html"
+  - title: 하드웨어 케이블 연결
+    url: "/a1k/install-cable.html"
+  - title: 시스템 전원을 켭니다
+    url: "/a1k/install-power-hardware.html"
+  - title: 시스템 설치를 완료합니다
+    url: "/a1k/install-complete.html"
+- title: 유지 관리
+  pdf-filename: AFF A1K 유지 보수
+  entries:
+  - title: 개요
+    url: "/a1k/maintain-overview.html"
+  - title: 미디어를 부팅합니다
+    pdf-filename: AFF A1K 부팅 미디어
+    entries:
+    - title: 부팅 미디어 교체 개요
+      url: "/a1k/bootmedia-replace-overview.html"
+    - title: 온보드 암호화 키를 확인합니다
+      url: "/a1k/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a1k/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/a1k/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/a1k/bootmedia-recovery-image-boot.html"
+    - title: 암호화 복원
+      url: "/a1k/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/a1k/bootmedia-complete-rma.html"
+  - title: 컨트롤러
+    pdf-filename: AFF A1K 컨트롤러 모듈
+    entries:
+    - title: 컨트롤러 모듈 교체 개요
+      url: "/a1k/controller-replace-overview.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a1k/controller-replace-shutdown.html"
+    - title: 컨트롤러를 교체합니다
+      url: "/a1k/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/a1k/controller-replace-system-config-restore-and-verify.html"
+    - title: 컨트롤러를 반납합니다
+      url: "/a1k/controller-replace-recable-reassign-disks.html"
+    - title: 전체 컨트롤러 교체
+      url: "/a1k/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    url: "/a1k/dimm-replace.html"
+  - title: 팬
+    url: "/a1k/fan-replace.html"
+  - title: NVRAM
+    url: "/a1k/nvram-replace.html"
+  - title: NV 배터리
+    url: "/a1k/nvdimm-battery-replace.html"
+  - title: 입출력 모듈
+    entries:
+    - title: 입출력 모듈 추가 또는 교체 개요
+      url: "/a1k/io-module-overview.html"
+    - title: 입출력 모듈을 추가합니다
+      url: "/a1k/io-module-add.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "/a1k/io-module-replace.html"
+  - title: 전원 공급 장치
+    url: "/a1k/power-supply-replace.html"
+  - title: 실시간 시계 배터리
+    url: "/a1k/rtc-battery-replace.html"
+  - title: 시스템 관리 모듈
+    url: "/a1k/system-management-replace.html"

@@ -9,7 +9,7 @@ indexpage:
   - title: NS224 쉘프를 설치합니다
     links:
     - title: 쉘프를 핫 추가
-      url: "../ns224/hot-add-shelf.html"
+      url: "../ns224/hot-add-shelf-overview.html"
     - title: 쉘프 ID를 변경합니다
       url: "../ns224/change-shelf-id.html"
     - title: 스위치 연결 스토리지로 쉘프를 연결합니다

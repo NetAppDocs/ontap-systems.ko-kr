@@ -1,0 +1,363 @@
+= 1단계: 손상된 컨트롤러를 종료합니다
+:allow-uri-read: 
+
+
+NVRAM 모듈은 NVRAM12 하드웨어와 현장 교체 가능한 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 분리하고 DIMM을 교체 모듈로 이동한 다음 교체 NVRAM 모듈을 섀시에 설치해야 합니다.
+
+시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
+
+
+
+== 1단계: 손상된 컨트롤러를 종료합니다
+
+다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: 대부분의 시스템
+--
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+.이 작업에 대해
+* SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지를 확인해야  `cluster kernel-service show`합니다.  `cluster kernel-service show`priv advanced 모드에서 명령을 실행하면 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태가 표시됩니다.
++
+각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+
+
+.단계
+. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다. `system node autosupport invoke -node * -type all -message MAINT=<# of hours>h`
++
+다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다. `cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
++
+
+NOTE: 자동 반환을 비활성화하시겠습니까?_가 표시되면 'y'를 입력합니다.
+
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+.옵션 2: 컨트롤러가 MetroCluster에 있습니다
+--
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+* MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.
+
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+====
+
+
+== 2단계: NVRAM 모듈을 교체합니다
+
+NVRAM 모듈을 교체하려면 섀시의 슬롯 4/5에서 모듈을 찾고 구체적인 단계를 따릅니다.
+
+. 섀시 앞면에서 엄지 손가락으로 각 드라이브를 단단히 눌러 정지가 느껴질 때까지 밀어넣습니다. 이렇게 하면 드라이브가 섀시 중앙판에 단단히 고정됩니다.
++
+image::../media/drw_a800_drive_seated_IEOPS-960.svg[DRW A800 드라이브 장착형 IEOPS 960]
+
+. 섀시 후면으로 이동합니다. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 두 PSU에서 전원 코드를 뽑습니다.
++
+
+NOTE: 시스템에 DC 전원 공급 장치가 있는 경우 PSU에서 전원 케이블 블록을 분리합니다.
+
+. 케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.
+. 섀시에서 대상 NVRAM 모듈을 분리합니다.
++
+.. 캠 래치 버튼을 누릅니다.
++
+캠 버튼이 섀시에서 멀어져 있습니다.
+
+.. 캠 래치를 끝까지 돌립니다.
+.. 캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 손상된 NVRAM 모듈을 섀시에서 분리합니다.
++
+image::../media/drw_a70-90_nvram12_remove_replace_ieops-1370.svg[NVRAM12 모듈 및 DIMM을 분리합니다]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+ a| 
+캠 잠금 버튼
+
+
+
+ a| 
+image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
+ a| 
+DIMM 잠금 탭
+
+|===
+
+
+. NVRAM 모듈을 안정적인 표면에 놓습니다.
+. 손상된 NVRAM 모듈에서 DIMM을 한 번에 하나씩 분리하여 교체 NVRAM 모듈에 설치합니다.
+. 교체용 NVRAM 모듈을 섀시에 설치합니다.
++
+.. 모듈을 슬롯 4/5의 섀시 입구 가장자리에 맞춥니다.
+.. 모듈을 조심스럽게 슬롯에 완전히 밀어 넣은 다음 캠 래치를 위로 끝까지 밀어 모듈을 제자리에 잠급니다.
+
+
+. PSU를 재구성합니다.
++
+
+NOTE: 시스템에 DC 전원 공급 장치가 있는 경우 전원 케이블 블록을 PSU에 다시 연결합니다.
+
+. 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+
+
+
+
+== 3단계: NVRAM DIMM을 교체합니다
+
+NVRAM 모듈에서 NVRAM DIMM을 교체하려면 NVRAM 모듈을 분리한 다음 대상 DIMM을 교체해야 합니다.
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 두 PSU에서 전원 코드를 뽑습니다.
++
+
+NOTE: 시스템에 DC 전원 공급 장치가 있는 경우 PSU에서 전원 케이블 블록을 분리합니다.
+
+. 용지함 끝에 있는 핀을 살짝 당기고 용지함을 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.
+. 섀시에서 대상 NVRAM 모듈을 분리합니다.
++
+.. 캠 버튼을 누릅니다.
++
+캠 버튼이 섀시에서 멀어져 있습니다.
+
+.. 캠 래치를 끝까지 돌립니다.
+.. 캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 NVRAM 모듈을 섀시에서 분리합니다.
++
+image::../media/drw_a70-90_nvram12_remove_replace_ieops-1370.svg[NVRAM12 모듈 및 DIMM을 분리합니다]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+| 캠 잠금 버튼 
+
+
+ a| 
+image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
+ a| 
+DIMM 잠금 탭
+
+|===
+
+
+. NVRAM 모듈을 안정적인 표면에 놓습니다.
+. NVRAM 모듈 내에서 교체할 DIMM을 찾습니다.
++
+
+NOTE: NVRAM 모듈 측면에 있는 FRU 맵 레이블을 참조하여 DIMM 슬롯 1 및 2의 위치를 확인합니다.
+
+. DIMM 잠금 탭을 누르고 소켓에서 DIMM을 들어올려 DIMM을 분리합니다.
+. DIMM을 소켓에 맞추고 잠금 탭이 제자리에 잠길 때까지 DIMM을 소켓에 부드럽게 밀어 넣어 교체 DIMM을 설치합니다.
+. NVRAM 모듈을 섀시에 설치합니다.
++
+.. 캠 래치가 I/O 캠 핀과 맞물리기 시작할 때까지 모듈을 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.
+
+
+. PSU를 재구성합니다.
++
+
+NOTE: 시스템에 DC 전원 공급 장치가 있는 경우 전원 케이블 블록을 PSU에 다시 연결합니다.
+
+. 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+
+
+
+
+== 4단계: 컨트롤러를 재부팅합니다
+
+FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
+
+. LOADER 프롬프트에서 ONTAP를 부팅하려면 _bye_를 입력합니다.
+
+
+
+
+== 5단계: 디스크를 다시 할당합니다
+
+컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경 사항이 구현되었는지 확인해야 합니다.
+
+
+CAUTION: 디스크 재할당은 NVRAM 모듈을 교체할 때만 필요하며 NVRAM DIMM 교체에는 적용되지 않습니다.
+
+.단계
+. 컨트롤러가 유지보수 모드(프롬프트를 표시)인 경우 `*>` 유지보수 모드를 종료하고 LOADER 프롬프트:_HALT_로 이동합니다
+. 컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID가 일치하지 않아 시스템 ID를 재정의하라는 메시지가 표시될 때 _y_를 입력합니다.
+. Giveback이 완료될 때까지 기다립니다. 메시지가 교체 모듈과 함께 컨트롤러 콘솔에 표시된 다음 정상 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. _storage failover show_
++
+명령 출력에는 손상된 컨트롤러에서 시스템 ID가 변경되었다는 메시지와 함께 올바른 이전 및 새 ID가 표시되어야 합니다. 다음 예제에서 node2는 교체를 거쳤으며 새 시스템 ID가 151759706입니다.
+
++
+[listing]
+----
+node1:> storage failover show
+                                    Takeover
+Node              Partner           Possible     State Description
+------------      ------------      --------     -------------------------------------
+node1             node2             false        System ID changed on partner (Old:
+                                                  151759755, New: 151759706), In takeover
+node2             node1             -            Waiting for giveback (HA mailboxes)
+----
+. 컨트롤러를 다시 제공합니다.
++
+.. 정상 작동이 확인된 컨트롤러에서 교체된 컨트롤러의 스토리지를 반환하십시오. _storage failover 반환 - ofnode replacement_node_name_
++
+컨트롤러가 스토리지를 다시 가져와 부팅을 완료합니다.
+
++
+시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 _y_를 입력해야 합니다.
+
++
+
+NOTE: 기브백이 거부되면 거부권을 재정의할 수 있습니다.
+
++
+자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/high-availability/ha_manual_giveback.html#if-giveback-is-interrupted["수동 반환 명령"^] 거부권을 무효화하기 위한 주제.
+
+.. 기브백이 완료된 후 HA 쌍이 정상 상태이고 테이크오버가 가능한지 확인합니다. _ 스토리지 페일오버 show _
++
+'storage failover show' 명령의 출력에는 파트너 메시지에서 변경된 시스템 ID가 포함되지 않아야 합니다.
+
+
+
+. 디스크가 제대로 할당되었는지 확인합니다. '스토리지 디스크 표시-소유권'
++
+컨트롤러에 속한 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 node1이 소유한 디스크에 새 시스템 ID 151759706이 표시됩니다.
+
++
+[listing]
+----
+node1:> storage disk show -ownership
+
+Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
+----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
+1.0.0  aggr0_1  node1 node1  -        151759706  151759706  -       151759706 Pool0
+1.0.1  aggr0_1  node1 node1           151759706  151759706  -       151759706 Pool0
+.
+.
+.
+----
+. 시스템이 MetroCluster 구성인 경우 컨트롤러 상태를 모니터링합니다. _MetroCluster node show _
++
+MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이 경우 각 컨트롤러에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. MetroCluster node show-fields node-systemid 명령 출력은 MetroCluster 구성이 정상 상태로 돌아갈 때까지 이전 시스템 ID를 표시합니다.
+
+. 컨트롤러가 MetroCluster 구성에 있는 경우 MetroCluster 상태에 따라 원래 소유자가 재해 사이트의 컨트롤러인 경우 DR 홈 ID 필드에 디스크의 원래 소유자가 표시되는지 확인합니다.
++
+다음 두 조건이 모두 참인 경우 이 작업이 필요합니다.
+
++
+** MetroCluster 구성이 전환 상태입니다.
+** 컨트롤러는 재해 사이트에 있는 디스크의 현재 소유자입니다.
++
+을 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html#disk-ownership-changes-during-ha-takeover-and-metrocluster-switchover-in-a-four-node-metrocluster-configuration["4노드 MetroCluster 구성에서 HA 테이크오버 및 MetroCluster 스위치오버 중에 디스크 소유권이 변경됩니다"] 를 참조하십시오.
+
+
+
+. 시스템이 MetroCluster 구성인 경우 각 컨트롤러가 구성되어 있는지 확인하십시오. _MetroCluster node show -fields configuration -state_
++
+[listing]
+----
+node1_siteA::> metrocluster node show -fields configuration-state
+
+dr-group-id            cluster node           configuration-state
+-----------            ---------------------- -------------- -------------------
+1 node1_siteA          node1mcc-001           configured
+1 node1_siteA          node1mcc-002           configured
+1 node1_siteB          node1mcc-003           configured
+1 node1_siteB          node1mcc-004           configured
+
+4 entries were displayed.
+----
+. 각 컨트롤러에 대해 예상되는 볼륨이 'vol show-node-name'인지 확인합니다
+. 스토리지 암호화가 활성화된 경우 기능을 복원해야 합니다.
+. 재부팅 시 자동 테이크오버 기능을 비활성화한 경우 다음 정상 컨트롤러에서 활성화하십시오. _storage failover modify -node replacement -node -name -onreboot true _
+. AutoSupport가 설정된 경우 명령을 사용하여 자동 케이스 생성을 복원/억제 `system node autosupport invoke -node * -type all -message MAINT=END` 해제합니다.
+
+
+
+
+== 6단계: 장애가 발생한 부품을 NetApp에 반환
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

@@ -1,0 +1,212 @@
+---
+permalink: a1k/io-module-replace.html 
+sidebar: sidebar 
+keywords: aff a1k, replace a pcie card 
+summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 제거한 다음 라이저를 다시 설치하고 SFP 및 QSFP 모듈을 다시 설치해야 합니다. 
+---
+= 입출력 모듈 교체 - AFF A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 절차를 사용하여 장애가 발생한 입출력 모듈을 교체하십시오.
+
+* 스토리지 시스템에서 지원하는 모든 ONTAP 버전에 이 절차를 사용할 수 있습니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+
+
+
+== 1단계: 장애가 있는 노드를 종료합니다
+
+다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: 대부분의 시스템
+--
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+.이 작업에 대해
+노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+
+.단계
+. AutoSupport가 활성화된 경우 AutoSupport 메시지 명령을 호출하여 자동 케이스 생성을 억제합니다. `system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
++
+다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다. `cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+"기백을 기다리는 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러에서 손상된 컨트롤러를 중지하거나 인계합니다. `storage failover takeover -ofnode _impaired_node_name_`
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+.옵션 2: 컨트롤러가 MetroCluster에 있습니다
+--
+
+NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
+
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+* MetroCluster 설정이 있는 경우 MetroCluster 설정 상태가 구성되어 있고 해당 노드가 설정 및 정상 상태('MetroCluster node show')인지 확인해야 합니다.
+
+
+.단계
+. AutoSupport가 활성화된 경우 AutoSupport 명령을 호출하여 자동 케이스 생성을 억제합니다. `system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
++
+다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다. `cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러에서 손상된 컨트롤러를 중지하거나 인계합니다. `storage failover takeover -ofnode _impaired_node_name_`
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+====
+
+
+== 2단계: 장애가 발생한 입출력 모듈을 교체합니다
+
+I/O 모듈을 교체하려면 인클로저 내에서 해당 모듈을 찾고 특정 단계를 따르십시오.
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 컨트롤러에서 PSU 케이블을 뽑습니다.
++
+
+NOTE: 기억 장치 시스템에 DC 전원 공급 장치가 있는 경우, 전원 공급 장치(PSU)에서 전원 케이블 블록을 분리하십시오.
+
+. 대상 I/O 모듈의 케이블을 뽑습니다.
+. 케이블 관리 트레이 안쪽의 양쪽에 있는 단추를 당겨 케이블 관리 트레이를 아래로 돌린 다음 트레이를 아래로 돌립니다.
++
+
+NOTE: 다음 그림에서는 수평 및 수직 I/O 모듈 분리를 보여 줍니다. 일반적으로 하나의 입출력 모듈만 제거합니다.
+
++
+image:../media/drw_a1k_io_remove_replace_ieops-1382.svg["입출력 모듈을 분리합니다"]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+ a| 
+I/O 캠 래치
+
+|===
++
+케이블을 어디에 연결했는지 알 수 있도록 케이블에 레이블을 지정해야 합니다.
+
+. 엔클로저에서 타겟 입출력 모듈을 분리합니다.
++
+.. 대상 모듈의 캠 버튼을 누릅니다.
++
+캠 버튼이 인클로저에서 멀리 이동합니다.
+
+.. 캠 래치를 최대한 아래로 돌립니다. 수평 모듈의 경우 캠을 모듈에서 최대한 멀리 돌립니다.
+.. 캠 레버 입구에 손가락을 넣고 엔클로저 밖으로 모듈을 당겨 엔클로저에서 모듈을 분리합니다.
++
+입출력 모듈이 있던 슬롯을 추적해야 합니다.
+
+
+
+. 입출력 모듈을 따로 보관해 둡니다.
+. 교체용 입출력 모듈을 엔클로저에 설치합니다.
++
+.. 모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.
+.. 모듈을 인클로저 끝까지 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.
+
+
+. I/O 모듈에 케이블을 연결합니다.
+. PSU를 다시 연결합니다.
+. 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+
+
+
+
+== 3단계: 컨트롤러를 재부팅합니다
+
+I/O 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.
+
+
+NOTE: 새 입출력 모듈이 장애가 발생한 모듈과 다른 모델인 경우 먼저 BMC를 재부팅해야 합니다.
+
+.단계
+. 교체 모듈이 이전 모듈과 다른 모델인 경우 BMC를 재부팅합니다.
++
+.. LOADER 프롬프트에서 advanced 권한 모드:_set privilege advanced_로 변경합니다
+.. BMC:_SP 재부팅 _ 을(를) 재부팅합니다
+
+
+. LOADER 프롬프트에서 node:_bye_를 재부팅합니다
++
+
+NOTE: 그러면 I/O 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
+. 노드를 정상 작업:_스토리지 페일오버 반환 - ofnode impaired_node_name _
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오. _ 스토리지 페일오버 수정 -node local-auto-given true _
+
+
+
+
+== 4단계: 장애가 발생한 부품을 NetApp에 반환
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.

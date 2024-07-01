@@ -6,7 +6,27 @@ entries:
   pdf-filename: NS224 선반 설치 및 케이블
   entries:
   - title: 쉘프를 핫 추가
-    url: "/ns224/hot-add-shelf.html"
+    entries:
+    - title: 핫 애드 워크플로우
+      url: "/ns224/hot-add-shelf-overview.html"
+    - title: 요구사항에 대해 설명합니다
+      url: "/ns224/requirements-hot-add-shelf.html"
+    - title: 핫 애드를 준비합니다
+      url: "/ns224/prepare-hot-add-shelf.html"
+    - title: 핫 애드용 쉘프를 설치합니다
+      url: "/ns224/install-hot-add-shelf.html"
+    - title: 핫 애드용 케이블 선반
+      entries:
+      - title: 케이블 연결 개요
+        url: "/ns224/cable-overview-hot-add-shelf.html"
+      - title: AFF 시스템
+        url: "/ns224/cable-aff-systems-hot-add-shelf.html"
+      - title: ASA 시스템
+        url: "/ns224/cable-asa-systems-hot-add-shelf.html"
+      - title: 이용 종료 시스템
+        url: "/ns224/cable-eoa-systems-hot-add-shelf.html"
+    - title: 핫 애드를 완료합니다
+      url: "/ns224/complete-hot-add-shelf.html"
   - title: 쉘프 ID를 변경합니다
     url: "/ns224/change-shelf-id.html"
   - title: 스위치 연결 스토리지로 쉘프를 연결합니다

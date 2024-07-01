@@ -25,6 +25,16 @@ ONTAP 9 릴리스의 알려진 문제, 제한 사항 및 업그레이드 주의 
 
 
  a| 
+* https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf["AFF A1K 를 참조하십시오"]
+* https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf["AFF A70 를 참조하십시오"]
+* https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf["AFF A90 를 참조하십시오"]
+
+ a| 
+ONTAP 9.15.1
+
+
+
+ a| 
 https://www.netapp.com/data-storage/all-flash-san-storage-array/["ASA C250 을 참조하십시오"]
  a| 
 ONTAP 9.13.1P1
@@ -352,6 +362,15 @@ ONTAP 9.6
 [cols="25h,~,~"]
 |===
 | 기능 | 설명 및 자세한 내용 | 처음부터 사용할 수 있습니다 
+
+
+ a| 
+멀티 클러스터 인터커넥트 스위치
+ a| 
+다중 클러스터 구성을 사용하면 여러 클러스터가 4x4 및 2x8 노드 구성을 위한 2개의 새로운 참조 구성 파일을 통해 제공되는 동일한 클러스터 스위치를 공유할 수 있습니다.
+ a| 
+ONTAP 9.14.1
+
 
 
  a| 

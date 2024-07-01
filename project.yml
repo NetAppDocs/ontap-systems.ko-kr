@@ -23,6 +23,8 @@ sidebar:
   - title: AFF A 시리즈 시스템
     url: "/aff-aseries/index.html"
     entries:
+    - section: a1k
+    - section: a70-90
     - section: a150
     - section: a250
     - section: a400

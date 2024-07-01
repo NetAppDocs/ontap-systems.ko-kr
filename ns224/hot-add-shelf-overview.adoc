@@ -1,0 +1,33 @@
+---
+permalink: ns224/hot-add-shelf-overview.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, overview 
+summary: NS224 드라이브 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다. 
+---
+= 핫 추가 워크플로우 - NS224 쉘프
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음 워크플로우 단계에 따라 NS224 쉘프를 핫 추가하십시오.
+
+.시작하기 전에
+NS224 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다. 를 검토합니다. link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:prepare-hot-add-shelf.html["핫 애드 준비를 하세요"]
+[role="quick-margin-para"]
+플랫폼 모델에 따라 추가 RoCE 지원 PCIe 카드 또는 I/O 모듈을 설치하고, 스토리지용으로 비전용 RoCE 지원 이더넷 포트를 구성하고, 다른 슬롯에 있는 두 개의 포트 세트에 기존 쉘프를 재구성하여 슬롯 장애 시 복원력을 보장해야 할 수 있습니다. 드라이브 소유권을 수동으로 할당하는 경우 자동 드라이브 할당을 비활성화합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:install-hot-add-shelf.html["쉘프를 설치합니다"]
+[role="quick-margin-para"]
+선반을 설치하려면 선반용 레일 키트를 설치한 다음 선반을 텔코 랙 또는 캐비닛에 설치하고 고정합니다. 그런 다음 전원 코드를 쉘프 전원을 켠 다음, 고유한 쉘프 ID를 할당하여 HA 쌍 내에서 쉘프가 구분되도록 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:cable-overview-hot-add-shelf.html["선반에 케이블을 연결합니다"]
+[role="quick-margin-para"]
+HA Pair의 각 컨트롤러에 대한 연결 2개를 가질 수 있도록 핫 추가할 쉘프에 케이블을 연결합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:complete-hot-add-shelf.html["핫 애드를 완료하십시오"]
+[role="quick-margin-para"]
+핫 애드 준비 과정에서 자동 드라이브 할당을 비활성화한 경우 드라이브 소유권을 수동으로 할당한 다음 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.

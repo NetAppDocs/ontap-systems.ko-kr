@@ -13,6 +13,10 @@ indexpage:
       url: https://www.netapp.com/data-storage/aff-a-series/
   - title: 설치 및 설정
     links:
+    - title: AFF A1K 를 참조하십시오
+      url: "../a1k/install-overview.html"
+    - title: AFF A70 및 A90
+      url: "../a70-90/install-overview.html"
     - title: AFF A150
       url: "../a150/install-setup.html"
     - title: AFF A250
@@ -25,6 +29,10 @@ indexpage:
       url: "../a900/install_setup.html"
   - title: 시스템을 유지보수하십시오
     links:
+    - title: AFF A1K 를 참조하십시오
+      url: "../a1k/maintain-overview.html"
+    - title: AFF A70 및 A90
+      url: "../a70-90/maintain-overview.html"
     - title: AFF A150
       url: "../a150/maintain-overview.html"
     - title: AFF A250

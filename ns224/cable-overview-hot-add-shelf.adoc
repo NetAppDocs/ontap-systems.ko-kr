@@ -1,0 +1,61 @@
+---
+permalink: ns224/cable-overview-hot-add-shelf.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, cable, hot-add an ns224 drive shelf 
+summary: 핫 애드되는 각 NS224 쉘프를 케이블로 연결하면 각 쉘프가 HA 쌍의 각 컨트롤러에 2개의 연결이 가능합니다. 
+---
+= 핫 애드온 NS224 쉘프의 케이블 연결 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+핫 애드되는 각 NS224 쉘프를 케이블로 연결하면 각 쉘프가 HA 쌍의 각 컨트롤러에 2개의 연결이 가능합니다.
+
+이 케이블 연결 섹션에서는 NS224 쉘프를 다음 스토리지 시스템에 케이블로 연결하는 방법을 설명합니다.
+
+* link:cable-aff-systems-hot-add-shelf.html["AFF 시스템에 케이블 연결"]
+* link:cable-asa-systems-hot-add-shelf.html["ASA 시스템에 케이블 연결"]
+* link:cable-eoa-systems-hot-add-shelf.html["EOA 시스템에 케이블 연결"]
+
+
+
+
+== 이 작업에 대해
+
+* 케이블 커넥터의 올바른 방향과 NS224 NSM100 쉘프 모듈의 포트 위치 및 레이블을 숙지하십시오.
++
+** 케이블은 커넥터 당김 탭이 위를 향하도록 삽입됩니다.
++
+케이블이 올바르게 삽입되면 딸깍 소리가 나면서 제자리에 고정됩니다.
+
++
+케이블의 양쪽 끝을 연결한 후 쉘프 및 컨트롤러 포트 LNK(녹색) LED가 켜집니다. 포트 LNK LED가 켜지지 않으면 케이블을 다시 연결합니다.
+
++
+image::../media/oie_cable_pull_tab_up.png[케이블은 커넥터 당김 탭이 위를 향하도록 삽입합니다]
+
+** 다음 그림을 사용하면 쉘프 NSM100 포트, e0a 및 e0b를 물리적으로 식별할 수 있습니다.
++
+NS224 쉘프에는 NSM100 모듈 2개가 포함되어 있습니다. 상단 모듈은 슬롯 A(NSM A)에 있고 하단 모듈은 슬롯 B(NSM B)에 들어갑니다.
+
++
+각 NSM100 모듈에는 100GbE QSFP28 포트 e0a 및 e0b 2개가 포함되어 있습니다.
+
++
+image::../media/drw_ns224_back_ports.png[NS224 NSM100 모듈 포트 e0a 및 e0b]
+
+
+
+* 핫 추가 쉘프를 케이블로 연결한 후 ONTAP에서 쉘프를 인식합니다.
++
+** 드라이브 소유권은 자동 드라이브 할당이 활성화된 경우 할당됩니다.
+** 필요한 경우 NSM 셸프 펌웨어 및 드라이브 펌웨어를 자동으로 업데이트해야 합니다.
++
+
+NOTE: 펌웨어 업데이트는 최대 30분 정도 걸릴 수 있습니다.
+
+
+
+

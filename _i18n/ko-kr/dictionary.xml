@@ -3867,11 +3867,8 @@
   <block id="56b9aa57eb07c87d93d8f36e42537891" category="list-text">CIFS 세션이 열려 있어 명령이 실패한 경우 고객에게 CIFS 세션을 닫는 방법을 확인하십시오.</block>
   <block id="99cf22e04f567c5375349f8aa14becd4" category="list-text">파트너가 "준비되지 않음" 상태이기 때문에 명령이 실패하면 NVRAM이 동기화될 때까지 5분 정도 기다립니다.</block>
   <block id="4d2b3834d59169dcbb17afc3c699e3ac" category="list-text">NDMP, SnapMirror 또는 SnapVault 프로세스로 인해 명령이 실패하면 프로세스를 해제합니다. 자세한 내용은 해당 콘텐츠를 참조하십시오.</block>
-  <block id="01644ff2aec9678b64ae01d076703f1a" category="paragraph">"false"로 표시된 인터페이스가 있으면 net int revert 명령을 사용하여 해당 인터페이스를 홈 포트로 되돌립니다.</block>
   <block id="681ec8b91432585ef548a814edeadbb6" category="paragraph">7단계로 이동합니다.</block>
   <block id="b17e311ccd8e21ff73506e54f24b6cfd" category="list-text">3분 동안 기다린 다음 storage failover show 명령을 사용하여 페일오버 상태를 확인합니다.</block>
-  <block id="5af23d53e03e2919ad84a3f9112823ac" category="list-text">Key Manager type="external" 및 "restored" column = yes/true" 이외의 경우, security key-manager external restore 명령을 사용하여 인증 키의 키 ID를 복구한다.</block>
-  <block id="3796dde1eb4771fdc94b7b6dd6b04cbf" category="list-text">Key Manager type="Onboard" 및 "restored" column = yes/true" 이외의 경우 보안 키 관리자 온보드 동기화 명령을 사용하여 Key Manager 유형을 다시 동기화하십시오.</block>
   <block id="6012de004f4bd50d98163ac921889523" category="doc">LED USB 모듈 교체 - AFF A900</block>
   <block id="6f2af58da87b0cd7d98ca72ff52c9044" category="paragraph">LED USB 모듈은 콘솔 포트 및 시스템 상태에 대한 연결을 제공합니다. 이 모듈을 교체하는 경우 도구가 필요하지 않으며 서비스가 중단되지 않습니다.</block>
   <block id="807c4e7b40aa97c700fd63bd5a5477a6" category="section-title">1단계: LED USB 모듈을 교체합니다</block>
@@ -4462,8 +4459,6 @@
   <block id="eeb59433d501968b152fd713cddd2e47" category="paragraph">NS224 드라이브 쉘프를 핫 추가하기 전에 HA 쌍이 특정 요구사항을 충족해야 합니다.</block>
   <block id="9e3a02c5b7d1bbea0a425314be87f94c" category="list-text">사용 중인 플랫폼 모델과 ONTAP 버전은 NS224 쉘프와 핫 추가 중인 드라이브를 지원해야 합니다.</block>
   <block id="b3f61222fb51c826335ea05f957189ce" category="list-text">쉘프를 연결하려면 올바른 개수의 케이블이 있어야 합니다.</block>
-  <block id="700841889ff35bf8741ce3731cbe8278" category="list-text">HA 쌍에서 사용 중인 쉘프 수를 지원할 수 있는 충분한 RoCE 가능 포트가 있어야 합니다.</block>
-  <block id="3130d58fd4980df36a53d47d41873fc3" category="paragraph">핫 추가할 각 쉘프에 최소 2개의 RoCE 가능 포트가 필요합니다. 이들 포트는 플랫폼 모델에서 지원하는 대로 컨트롤러, RoCE 지원 PCIe 카드, 두 가지를 결합한 포트 또는 RoCE 지원 I/O 모듈 상에 추가할 수 있습니다.</block>
   <block id="149bd884ff7361ec4900f148e94264c1" category="paragraph">HA 쌍에 사용 가능한 RoCE 가능 포트가 충분하지 않으며 플랫폼 모델에서 RoCE 지원 PCIe 카드 또는 I/O 모듈 사용을 지원하는 경우, 플랫폼 모델에서 지원하는 대로 추가 카드 또는 I/O 모듈을 올바른 컨트롤러 슬롯에 설치해야 합니다.</block>
   <block id="bf9e404e3724ecf929670f95275b884e" category="paragraph">비전용 RoCE 지원 포트는 스토리지용으로 구성해야 합니다(네트워킹 사용 안 함).</block>
   <block id="3a0537bc074963c8c7b8afdfa7851872" category="paragraph"><block ref="cd0ec4d1059266e2eb6b1658ce353e50" category="inline-xref-macro-rx"></block></block>
@@ -4482,8 +4477,6 @@
   <block id="97f2d61fca24e47abce33d66ce5427b7" category="list-text">필요한 경우 NSM 셸프 펌웨어 및 드라이브 펌웨어를 자동으로 업데이트해야 합니다.</block>
   <block id="4cf3f390446c26252aab038e17c0643f" category="section-title">핫 애드 준비</block>
   <block id="c0f11900de778c0c7dbc4dcc23284ed9" category="paragraph">NS224 드라이브 쉘프를 핫 추가하기 전에 HA 쌍에 적용할 수 있는 준비 작업을 완료해야 합니다.</block>
-  <block id="6e74f4b097338a6fbcb3d84b0a803fde" category="section-title">전용 RoCE가 지원되지 않는 포트를 준비하여 핫 애드 가능</block>
-  <block id="cd7573270f8cd38c56d1bb74eb86d8c6" category="paragraph">HA 쌍에 NS224 드라이브 쉘프를 핫 추가하는 데 사용 중인 전용 RoCE가 아닌 포트가 있는 경우, 포트가 스토리지를 사용하도록 구성되었는지 확인해야 합니다(네트워킹 사용 아님). 플랫폼 모델에 따라 RoCE 지원 포트는 컨트롤러, RoCE 지원 PCIe 카드, 두 카드의 조합 또는 RoCE 지원 I/O 모듈에 탑재됩니다.</block>
   <block id="204c25542c5d660c031ae735415785bc" category="list-text">일부 플랫폼 모델의 경우, RoCE 지원 PCIe 카드 또는 I/O 모듈을 컨트롤러의 지원 슬롯에 설치하면 기본적으로 스토리지가 사용됩니다(네트워킹 대신). 하지만 이 절차를 완료하여 저장소용으로 RoCE 가능 포트가 구성되었는지 확인하는 것이 좋습니다.</block>
   <block id="2cd678bb1387e05d5c4dd3461278cff2" category="list-text">HA 쌍에서 비전용 RoCE 지원 포트를 스토리지로 구성되지 않음을 확인할 경우 무중단 구성 절차를 통해 포트를 구성할 수 있습니다.</block>
   <block id="f13cb5d2becdef8b8ebea94e8b537d9f" category="admonition">HA 쌍이 ONTAP 9.6 버전을 실행 중인 경우 컨트롤러를 한 번에 하나씩 재부팅해야 합니다.</block>
@@ -4492,7 +4485,6 @@
   <block id="9c421700c0f93ff32ed586c9cde9ac20" category="paragraph">HA 쌍이 ONTAP 9.8 이상을 실행 중인 경우 비전용 포트는 "모드" 열에 "저장"을 표시합니다.</block>
   <block id="1a0894ce06ca64ffb7715de304b85900" category="paragraph">HA 쌍이 ONTAP 9.7 또는 9.6을 실행 중인 경우, '전용 여부'에 '거짓'을 표시하는 비전용 포트는 무엇입니까 '상태' 열에 '활성화됨'도 표시됩니다.</block>
   <block id="d0d1f0809de877f29fd0a846c8876708" category="list-text">비전용 포트가 스토리지에 사용하도록 구성된 경우 이 절차를 수행합니다.</block>
-  <block id="577d23be077627bcf451d00d32ee44b3" category="paragraph">그렇지 않으면 3-6단계를 완료하여 포트를 구성해야 합니다.</block>
   <block id="07d80afbccd38f7712fa336226de0865" category="paragraph">비전용 포트가 스토리지 용도로 구성되지 않은 경우 명령 출력에 다음이 표시됩니다.</block>
   <block id="ea26f0c009e33e86f172f22d6e190d0a" category="paragraph">HA 쌍이 ONTAP 9.8 이상을 실행 중인 경우 비전용 포트는 Mode 열에 network를 표시합니다.</block>
   <block id="73124fcd33e14baccdc22e05ad18e381" category="paragraph">HA 쌍이 ONTAP 9.7 또는 9.6을 실행 중인 경우, 'Dedicated'에 'false'를 표시하는 비전용 포트가 표시됩니다 칼럼은 또한 '상태' 칼럼에 '비활성화'를 표시합니다.</block>
@@ -4500,28 +4492,17 @@
   <block id="1529765b6b367d0e6b6e265150953287" category="paragraph">구성할 각 포트에 대해 해당 명령을 반복해야 합니다.</block>
   <block id="08991d0bdf685c94c284280aafed49b0" category="cell">HA 쌍이 실행 중인 경우...</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="paragraph">ONTAP 9.8 이상</block>
-  <block id="97b8f6a880b769e0f35c2c8fb10fed3c" category="paragraph">'Storage port modify -node node name -port port name -mode storage'</block>
   <block id="5bf92b0f5dcba33ceffc7fde775fa3ac" category="paragraph">ONTAP 9.7 또는 9.6</block>
-  <block id="00f9e81cfbd27645415ec70f385a34a4" category="paragraph">'Storage port enable-node name-port port name'입니다</block>
-  <block id="cf4916008e4b27e26bdeecc5dc5b330f" category="list-text">HA 쌍이 ONTAP 9.6을 실행 중인 경우 포트 변경 내용이 적용되도록 컨트롤러 모듈을 재부팅하십시오. 'system node reboot -node node name -reason for the reboot'</block>
   <block id="99718262b8a1bcade48d62a6ea4c523c" category="paragraph">그렇지 않으면 다음 단계로 이동합니다.</block>
   <block id="bb38aa03e396afd98be51523e1304b09" category="admonition">재부팅에는 최대 15분이 소요될 수 있습니다.</block>
   <block id="2af8713b29d92440aed549d35fa1f9a3" category="list-text">두 번째 컨트롤러 모듈에 대해 단계를 반복합니다.</block>
   <block id="fc4a6c2a954652ed60c43c56910ae75a" category="paragraph">ONTAP 9.7 이상</block>
-  <block id="0c1f0f96805df0c678d18efaf7b64931" category="list-text">3단계를 반복합니다.</block>
-  <block id="dffe770e475bdd7497db0437af0f3e38" category="list-text">6단계로 이동합니다.</block>
   <block id="7dd2a92fd3f41a5334edf46f95d77e71" category="paragraph">ONTAP 9.6</block>
-  <block id="b5b0f2dff5bdcc9e85cf639a6245b998" category="list-text">3단계와 4단계를 반복합니다.</block>
   <block id="97e5b69d6a085b09c71789a6b191bdbd" category="admonition">첫 번째 컨트롤러의 재부팅이 이미 완료되어 있어야 합니다.</block>
   <block id="b4c2dd2542e47ff1364abd95f6610ff8" category="list-text">두 컨트롤러 모듈에 있는 비전용 포트가 스토리지를 사용하도록 구성되었는지 확인합니다. 'Storage port show</block>
-  <block id="9dd4670d3c797341bf0b1649ee18743f" category="list-text">설치한 RoCE 가능 PCIe 카드 또는 I/O 모듈의 포트를 활성화해야 합니다.</block>
   <block id="5f73e21cfc57f9099894052fde4bfc56" category="list-text">재연결은 쉘프에 다중 경로-HA 연결이 있는 경우 중단 없는 절차입니다.</block>
-  <block id="00fb5d894e369d181617f17a9dec8a1b" category="paragraph">각 컨트롤러에서 두 포트 세트 간에 첫 번째 쉘프를 재설정하면 두 번째 쉘프를 핫 추가할 때 두 쉘프 모두에서 복원력이 뛰어난 연결을 유지할 수 있습니다.</block>
-  <block id="4a681792f044e81503a327f4c48db609" category="list-text">이 절차를 수행하는 동안 항상 선반과 연결을 유지하기 위해 한 번에 하나의 케이블을 이동합니다.</block>
-  <block id="0077637f8f5fcac1587cab5699dba4dc" category="list-text">플랫폼 모델에 따라 각 컨트롤러의 두 포트 세트 전반에 걸쳐 기존 쉘프의 연결을 다시 구성할 수 있습니다.</block>
   <block id="7e273a22e6f4b495323284cd54002213" category="admonition">케이블을 한 포트에서 분리하여 다른 포트에 꽂는 시간 사이에는 케이블을 이동할 필요가 없습니다.</block>
   <block id="7e4c7e7366de7251794bd2cee31785b8" category="cell">다음 중 어떤 것이 있는 경우</block>
-  <block id="7e874a7e7fce6d08319e452556499a17" category="paragraph">AFF A700 HA 쌍</block>
   <block id="2f37a5aa23cfb87abad4097db5d8b5ee" category="admonition">하위 단계에서는 기존 쉘프가 각 컨트롤러의 슬롯 3에 있는 RoCE 가능 I/O 모듈에 케이블로 연결되어 있다고 가정합니다.</block>
   <block id="ce2468b66455462f68b8eef51607d931" category="paragraph">필요한 경우 2개의 쉘프 구성에서 기존 단일 쉘프와 사용 가능한 쉘프를 보여주는 케이블 연결 그림을 참조할 수 있습니다.</block>
   <block id="863ee9a0c8ca40928975158c8441cb3e" category="paragraph"><block ref="8b0dd5f6450b331119d433eade9d39d0" category="inline-xref-macro-rx"></block></block>
@@ -4529,14 +4510,10 @@
   <block id="7fade3ed4792ef4e89e2ae6000199479" category="list-text">컨트롤러 B에서 동일한 케이블 이동을 반복합니다</block>
   <block id="97db9d4f6a8cf0456ad92952a384cb79" category="admonition">하위 단계에서는 기존 쉘프가 각 컨트롤러의 슬롯 5에 있는 RoCE 가능 PCIe 카드에 연결되어 있다고 가정합니다.</block>
   <block id="f6eccf676a12f3899de1b6cd792b9d6f" category="list-text">컨트롤러 A에서 슬롯 5 포트 b(e5b)에서 슬롯 3 포트 b(e3b)로 케이블을 이동합니다.</block>
-  <block id="299be2017fe243bf0cb27752cb61cba4" category="paragraph">AFF A400 HA 쌍</block>
   <block id="35abee2b20175ae748c82f6ba4453ac1" category="paragraph"><block ref="2d20d554d868477c9c895109bac068ae" category="inline-xref-macro-rx"></block></block>
   <block id="077cb21f670cc68aea4bf00f1abd4745" category="list-text">컨트롤러 A에서 포트 e0d를 슬롯 5 포트 b(e5b)로 케이블을 이동합니다.</block>
   <block id="d39331f2882996e7bd91bd33be8e8eda" category="list-text">레이블이 붙은 쉘프가 올바로 연결되었는지 확인합니다.</block>
   <block id="b72b3c2205cb08a656771ba6697f52d1" category="paragraph">핫 추가할 NS224 드라이브 쉘프에 드라이브 소유권을 수동으로 할당하는 경우 자동 드라이브 할당을 사용하도록 설정한 경우 이를 비활성화해야 합니다.</block>
-  <block id="041191b425581424d1dade4249a5421e" category="paragraph">쉘프의 드라이브가 HA 쌍의 두 컨트롤러 모듈에서 소유하는 경우 드라이브 소유권을 수동으로 할당해야 합니다.</block>
-  <block id="5b2a9da67a0934c316ba7d6f17cb36b6" category="section-title">핫 애드용 드라이브 쉘프를 설치합니다</block>
-  <block id="26f90712b783e9cc3ac80d0bd0ba6246" category="paragraph">새 NS224 드라이브 쉘프를 설치하려면 랙 또는 캐비닛에 쉘프를 설치하고, 전원 코드(쉘프 자동 전원 공급)를 연결한 다음 쉘프 ID를 설정해야 합니다.</block>
   <block id="98a23f93a2146d0c96053cc9158120a2" category="list-text">해당 준비 절차를 완료해야 합니다.</block>
   <block id="4dc0b17b937c12129ebe893f11113096" category="paragraph"><block ref="b033791636e3890ff7903341ce0a7906" category="inline-xref-macro-rx"></block></block>
   <block id="0d42cbc8b21edd5f33f740bf5b14d10d" category="list-text">키트 상자에 들어 있는 설치 안내물을 사용하여 선반과 함께 제공된 레일 마운트 키트를 설치합니다.</block>
@@ -4557,15 +4534,10 @@
   <block id="a1a7af675ea23b3ddcdf9cf5e4355669" category="paragraph">약 5초 후 두 숫자가 깜박이기 시작하고 ODP의 황색 LED가 켜집니다.</block>
   <block id="7cd532a90215f8cff1bce2eea092415d" category="paragraph">선반에서 두 전원 코드를 모두 뽑고 10초 정도 기다린 다음 다시 연결해야 합니다.</block>
   <block id="24e10780f209a577c697057f12f64f10" category="paragraph">전원 공급 장치로 전원이 복원되면 두 색 LED가 녹색으로 켜집니다.</block>
-  <block id="be355dee9f72986f0aafd260106ee987" category="section-title">핫 애드용 드라이브 쉘프에 케이블을 연결합니다</block>
-  <block id="52f4904b9873d65908b7d22ca910291e" category="paragraph">핫 추가할 각 NS224 드라이브 쉘프에 케이블을 연결하여 HA 쌍의 각 컨트롤러 모듈에 두 개의 연결을 설정할 수 있습니다. 핫 추가할 쉘프 수와 플랫폼 모델에 따라 컨트롤러, RoCE 지원 PCIe 카드, 두 가지를 결합한 포트 또는 RoCE 지원 I/O 모듈에서 RoCE 가능 포트를 사용합니다.</block>
   <block id="d84d97bfca6c6a7d47f929c1b0ee1fb3" category="section-title">핫 애드 케이블 연결 시 고려 사항</block>
-  <block id="00d2619e88b97f1c37f53ab4557be753" category="paragraph">적절한 케이블 커넥터 방향을 숙지하고 NS224 NSM 드라이브 쉘프 모듈의 포트 위치와 레이블을 부착하면 핫 애드 셸프를 케이블로 연결하기 전에 도움이 될 수 있습니다.</block>
   <block id="52aad3ff52241a2e329ba14ca2b495ec" category="list-text">케이블은 커넥터 당김 탭이 위를 향하도록 삽입됩니다.</block>
   <block id="546b03f9ca211c30f5975ab99dd93ce8" category="paragraph">케이블이 올바르게 삽입되면 딸깍 소리가 나면서 제자리에 고정됩니다.</block>
   <block id="36dad54a495121233a847704d6bf5a6b" category="paragraph">케이블의 양쪽 끝을 연결한 후 쉘프 및 컨트롤러 포트 LNK(녹색) LED가 켜집니다. 포트 LNK LED가 켜지지 않으면 케이블을 다시 연결합니다.</block>
-  <block id="d337e0e180d9a5b8e29fe40b9935de95" category="list-text">다음 그림을 사용하여 쉘프 NSM 포트, e0a 및 e0b를 물리적으로 식별할 수 있습니다.</block>
-  <block id="a73fdad937d5d9186c5991210a3247b5" category="image-alt">drw ns224 후면 포트</block>
   <block id="02c2cc4184073e3a32ac2cad0adca3ad" category="section-title">AFF A900 HA 쌍의 핫 추가 쉘프에 케이블을 연결합니다</block>
   <block id="e859983e28521134b4429e2ad40d035f" category="paragraph">추가 스토리지가 필요한 경우 AFF A900 HA 쌍에 최대 3개의 NS224 드라이브 쉘프(총 4개의 쉘프)를 추가로 핫 추가할 수 있습니다.</block>
   <block id="373a35978efc6b28d1b1d225b662f5db" category="paragraph"><block ref="4688946b74942e3697fd11a0bd3e0972" category="inline-xref-macro-rx"></block></block>
@@ -5405,7 +5377,6 @@
   <block id="1cd605139bf377c8532c404fdbca04f0" category="paragraph">_replacement_controller에 속하는 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 노드 1이 소유한 디스크에 새 시스템 ID 1873775277이 표시됩니다.</block>
   <block id="10f72301134f1f2b78e11983dd3c4654" category="list-text">각 컨트롤러에 대해 예상되는 볼륨이 'vol show-node-name'인지 확인합니다</block>
   <block id="e5fb91f466e4f9bded3cae7f56b2a15e" category="list-text">재부팅 시 자동 테이크오버 기능을 사용하지 않도록 설정한 경우 정상 컨트롤러에서 활성화하십시오. 'storage failover modify -node replacement -node -name -onreboot true'</block>
-  <block id="71f1fa980323b48bfcd7c23a6851e346" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 "admin"으로 로그인합니다.</block>
   <block id="6fb459fd46b17c9a37607abf2db84056" category="section-title">1단계: ONTAP에서 교체 컨트롤러에 대한 라이센스를 설치합니다</block>
   <block id="51e6a2fb5c6f27756e90e2666efd984d" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.</block>
   <block id="d1342671e7a1aeffea6df3cd0214be86" category="list-text">이 절차는 중단을 따릅니다. 2-컨트롤러 클러스터의 경우, 다중 노드 클러스터의 서비스 운영이 중단되어 부분 중단이 발생할 수 있습니다.</block>
@@ -6137,7 +6108,6 @@
   <block id="7d60346fb854755b0fc4b8486f2e5769" category="section-title">1단계: ONTAP에서 _replacement_controller에 대한 라이센스 설치</block>
   <block id="541648f14089765ba6e8c3198be32507" category="section-title">2단계: 부팅 매체를 교체합니다</block>
   <block id="6fdf23777adc5b39f52f2829b69833e5" category="inline-link-macro">노드를 클러스터와 동기화합니다</block>
-  <block id="dca9d9d34ff973dbf261373e223aa9e4" category="list-text">SAN 시스템을 사용하는 경우 이벤트 메시지를 확인해야 합니다 <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix="(" category="inline-code"></block>) 손상된 컨트롤러 SCSI 블레이드의 경우. 를 클릭합니다<block ref="090678c8ba0a25df800d3d4eeaf19522" prefix=" " category="inline-code"></block> 명령은 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태를 표시합니다.</block>
   <block id="03733c422db2a03d86659ae5a1e923dc" category="paragraph">다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.<block ref="387708b955ccf034fcf9197ad51ba879" prefix=" " category="inline-code"></block></block>
   <block id="f1f0ba04096d04407de2d15a11510ac1" category="paragraph">시스템 프롬프트 또는 암호 프롬프트</block>
   <block id="639008d04bbddd83a85cafeeb0a39a18" category="paragraph">이전에 스토리지 또는 볼륨 암호화를 사용하도록 구성한 스토리지 시스템의 경우 무중단 암호화 기능을 제공하기 위해 추가 단계를 수행해야 합니다. 스토리지 또는 볼륨 암호화가 설정되지 않은 스토리지 시스템에서 이 작업을 건너뛸 수 있습니다.</block>
@@ -6399,11 +6369,7 @@
   <block id="413763831143110464ea32cf926646ff" category="list-text">전원 코드를 전원 공급 장치에 다시 연결한 다음, AC 전원 공급 장치인 경우 전원 코드 고정 장치로 전원 코드를 고정하거나 DC 전원 공급 장치인 경우 두 개의 나비 나사를 조인 다음 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
   <block id="fc2b3ed430cb8c91e352b492f909df0e" category="list-text">다음 애니메이션은 드라이브 핫 스왑 절차의 물리적 분리 및 삽입 부분을 간략하게 보여 줍니다.</block>
   <block id="a5296c0167e1a9e0e79d0ac90763897a" category="list-text">다음 애니메이션 또는 작성된 단계를 사용하여 DIMM을 교체할 수 있습니다.</block>
-  <block id="4be5ffb0248a7f7fbd958f1cda061f7a" category="section-title">AFF A700, AFF A800, AFF C800, AFF A400, AFF C400 HA 쌍을 준비하여 두 번째 쉘프를 핫 추가합니다</block>
-  <block id="c574e5a033e5460323e267b83b04dfe1" category="paragraph">AFF A700, AFF A800, AFF C800, AFF A400, AFF C400 HA 2노드 및 각 컨트롤러의 RoCE 가능 포트 세트 하나에 케이블로 연결된 NS224 드라이브 쉘프 하나를 보유한 경우, 쉘프를 다시 정리해야 합니다 (추가 RoCE 가능 PCIe 카드 또는 I/O 모듈을 설치한 후) 각 컨트롤러의 두 포트 세트 간에 작업을 수행한 다음, 두 번째 쉘프를 핫 추가합니다.</block>
-  <block id="20b6f43af9fa83cc4fb91fe544ed870c" category="paragraph">AFF A800 또는 AFF C800 HA 쌍</block>
   <block id="39d970461581cdbd7cd52a0c942e09cc" category="paragraph"><block ref="4c1ac301fada9548f6ad2acaf0e467d2" category="inline-xref-macro-rx"></block></block>
-  <block id="f3d5d75e576e887e5cc38744e9413dea" category="paragraph">AFF C400 HA 쌍</block>
   <block id="d83f6d97e759c5156f389e1bbaca2e46" category="paragraph"><block ref="b415fb6b993cf20b1b9d3f6c50f3ab17" category="inline-xref-macro-rx"></block></block>
   <block id="08755d45823cf538e7c3e95cdbf3232d" category="list-text">컨트롤러 A에서 슬롯 4 포트 A(e4a)에서 슬롯 5 포트 b(e5b)로 케이블을 이동합니다.</block>
   <block id="2714efafc88a564eeaaee969d028a550" category="list-text">전원 코드를 선반에 연결한 다음 AC 전원 공급 장치인 경우 전원 코드 고정쇠로 고정하거나 DC 전원 공급 장치인 경우 두 개의 나비 나사로 고정한 다음 전원 코드를 다른 전원에 연결하여 복원성을 확인합니다.</block>
@@ -6629,14 +6595,11 @@
   <block id="3f7ee1fb6cfdfd18c49f8e060fa8f9c9" category="paragraph">이 절차는 2-노드, 비-MetroCluster 구성에 한해서만 적용됩니다. 두 개 이상의 노드가 있는 시스템의 경우 를 참조하십시오<block ref="681b47fbe1cebc545a75e77efd420ec0" category="inline-link-rx"></block>.</block>
   <block id="36ee27bc3fc7c617977b35534609c979" category="paragraph">필요한 사항:</block>
   <block id="68d685ddbaa25f1a411d5e93d6f91913" category="list-text">ONTAP에 대한 로컬 관리자 자격 증명입니다.</block>
-  <block id="ac1036c822296c33d140ef7ba7cd246d" category="list-text">스토리지 암호화를 사용하는 경우 NetApp 온보드 키 관리(OKM) 클러스터 전체 암호 구문</block>
-  <block id="93e6bf3fa29a7ebd2a4bb235a54deb94" category="list-text">각 컨트롤러에 대한 SP/BMC 액세스 가능성</block>
   <block id="d6562c849f41b9038124f0c304aed030" category="list-text">모든 클라이언트/호스트에서 NetApp 시스템의 데이터에 액세스하지 못하도록 합니다.</block>
   <block id="d61b46d9cd719b77efb76269147aa377" category="list-text">외부 백업 작업을 일시 중지합니다.</block>
   <block id="527f18fb3f8ac4bca4ae01901a2c9317" category="list-text">교체에 필요한 공구 및 장비</block>
   <block id="3b6fc5695f8237510131da824ce788d0" category="inline-link">스토리지 시스템을 정상적으로 종료하고 전원을 켭니다 해결 설명서</block>
   <block id="03f7958d5b1fc7636429e97368e2f97f" category="admonition">시스템이 FabricPool 클라우드 계층으로 사용되는 NetApp StorageGRID 또는 ONTAP S3인 경우 를 참조하십시오<block ref="6db187057e0b0e01589d1a1a7f510469" category="inline-link-rx"></block> 이 절차를 수행한 후</block>
-  <block id="ec965df16952820cbea39156c0dfe2f0" category="admonition">FlexArray 스토리지 LUN을 사용하는 경우 이 절차를 수행한 후 해당 시스템에 대해 수행할 종료 절차는 해당 공급업체의 스토리지 시스템 설명서를 참조하십시오.</block>
   <block id="ad8a5006901db5ea8481166a34f27929" category="inline-link">SU490: (영향: 위험) SSD 모범 사례: 2개월 이상 전원을 끈 경우 드라이브 고장 및 데이터 손실 위험을 피하십시오</block>
   <block id="7d140f8b4464f9a8684a7943df8e74d9" category="admonition">SSD를 사용하는 경우 을 참조하십시오<block ref="13eec713a6c81535d5709aa561195b7a" category="inline-link-rx"></block></block>
   <block id="356bf392971487f892daba5338258571" category="paragraph">시스템을 종료하기 전에 다음을 수행해야 합니다.</block>
@@ -6646,20 +6609,13 @@
   <block id="9f4d2068e7b3d206efc0252b3da597a5" category="inline-link">Active IQ Wellness 알림 및 위험</block>
   <block id="c5df4dcae9a001142a36959487445ff6" category="list-text">모두 해결<block ref="31b25beca26cb366eeb0665e3c0d7cbf" category="inline-link-rx"></block>. 시스템 구성 요소의 LED와 같은 현재 시스템에 있는 모든 결함을 기록해 둡니다.</block>
   <block id="3923b7d5100131c85be2160c8b680704" category="list-text">SSH를 통해 클러스터에 로그인하거나 로컬 콘솔 케이블과 랩톱/콘솔을 사용하여 클러스터의 노드에서 로그인합니다.</block>
-  <block id="d9e8189e14354652821e1f0f10f12dfe" category="list-text">AutoSupport를 끄고 시스템이 오프라인 상태로 될 것으로 예상되는 시간을 표시합니다.</block>
   <block id="ac2a6618449930e8abeb32fd078d7716" category="list-text">모든 노드의 SP/BMC 주소 확인:</block>
   <block id="0d16db60da2c01b63ef84ee8d616c2fb" category="paragraph"><block ref="b206d268f79aeaa7c4f1e44684d2f080" prefix="" category="inline-code"></block></block>
   <block id="a0fd5b31be719aeb26e2fc9c6991da9f" category="list-text">클러스터 쉘을 종료합니다.<block ref="f24f62eeb789199b9b2e467df3b1876b" prefix=" " category="inline-code"></block></block>
   <block id="cf814f480a03329076e1d0cf2f71d7e3" category="list-text">이전 단계의 출력에 나열된 노드의 IP 주소를 사용하여 SSH를 통해 SP/BMC에 로그인합니다.</block>
   <block id="aed4c23042b5f25dad252449f4ddcc59" category="paragraph">콘솔/노트북을 사용하는 경우 동일한 클러스터 관리자 자격 증명을 사용하여 컨트롤러에 로그인합니다.</block>
   <block id="a3dcd96fdc725fa51c4161c8a03146ab" category="admonition">진행 상황을 모니터링할 수 있도록 모든 SP/BMC 연결에 대한 SSH 세션을 엽니다.</block>
-  <block id="e2cba6e644aeaf95f80f688b880746da" category="list-text">클러스터의 모든 노드 중지:</block>
-  <block id="02e0d9b5c39d838c007bfad7b6e34196" category="paragraph"><block ref="b89a38fd8ae1ad809e5b3560be211bfa" prefix="" category="inline-code"></block>.</block>
-  <block id="aba2c36fe67a0528d4417c7e5c4da8a1" category="admonition">StrictSync 모드에서 작동하는 SnapMirror Synchronous를 사용하는 클러스터의 경우:<block ref="03e2e719454253f2db864fa560da7899" prefix=" " category="inline-code"></block></block>
-  <block id="3171aeb3fa199cec60349b4529cc0178" category="list-text">클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다<block ref="25cae4cb08eccf660db87cfb99a959d7" prefix=" " category="inline-code"></block></block>
   <block id="a39c8c38e51a42fcfaac22367dd19064" category="list-text">각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.</block>
-  <block id="461bb1724a0adc2c975edfdd4b4923a1" category="list-text">PSU 켜기/끄기 스위치가 없는 경우 각 PSU를 끄거나 전원 코드를 뽑습니다.</block>
-  <block id="e3dc6cc26ed03ba51ee4327edde1e1fc" category="list-text">각 PSU에서 전원 코드를 뽑습니다.</block>
   <block id="3f80193798fcbb08cbe99cbe0a3aff95" category="paragraph">섀시를 교체한 후 클러스터 구성 요소의 전원을 다음 순서대로 켭니다.</block>
   <block id="f9604921fe40d48421b9ae74e9a50059" category="list-text">스위치 전원을 켭니다</block>
   <block id="85ee83d55e3fb9b20f9f17b7fb773ca0" category="list-text">드라이브 쉘프의 전원을 켭니다</block>
@@ -6699,7 +6655,6 @@
   <block id="2a29b6abc01fa919029a6defab91ed09" category="list-text">다음 그림을 참조하여 컨트롤러를 단일 드라이브 쉘프에 연결합니다.</block>
   <block id="cf05a1b835cc522d6ff312818c4655b5" category="image-alt">drw C400 1개 ns224 쉘프 IEOPS 1097</block>
   <block id="c8bb212781cb1ea1ac1f2bb19672260b" category="image-alt">drw C400 2개 ns224 쉘프 IEOPS 1098</block>
-  <block id="268f653b0107cd8d721a5e6a0707445b" category="list-text">손상된 섀시의 모든 컨트롤러의 전원이 꺼져 있는지 확인합니다.</block>
   <block id="9169713781138720e26fc387a18b87c3" category="list-text">전원 케이블을 다시 PSU에 꽂습니다.</block>
   <block id="3b6f7041bdbf002d5fb8118b3b66bbaf" category="list-text">로커를 * 켜짐 * 으로 전환하여 PSU를 켜고 컨트롤러가 완전히 켜질 때까지 기다립니다.</block>
   <block id="535e6a17cac4b6fcea21c21d76a16011" category="list-text">전원을 켠 후 섀시 및 컨트롤러의 앞면과 뒷면에 장애 표시등이 있는지 확인합니다.</block>
@@ -6873,7 +6828,6 @@
   <block id="5f9489878c0e21ab14f2c4768367bc39" category="list-text">AutoSupport 유지보수 윈도우가 트리거된 경우 를 사용하여 윈도우를 종료합니다<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="fe5bb47bbec2cc6ab51288fa7ec602da" category="paragraph">컨트롤러 모듈의 스토리지 및 네트워크 연결 케이블을 다시 연결합니다.</block>
   <block id="8f71288719d23ae490bd8fa8ba6d2988" category="paragraph">인터페이스가 로 나열되어 있는 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>에서 이러한 인터페이스를 홈 포트로 되돌립니다<block ref="71c4baf0f55b5bfce2627ab279a13043" prefix=" " category="inline-code"></block> 명령.</block>
-  <block id="1ccdd49d3b4e697ec664a985a5983b41" category="list-text">을 사용하여 AutoSupport를 비활성화한 경우 복원합니다<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block></block>
   <block id="657e1e449c74518bb94702c89e392c1b" category="list-text">Healthy_node에서 시스템 시간을 확인합니다.<block ref="1cac34e5e8442fb80d6ade838d969fc0" prefix=" " category="inline-code"></block></block>
   <block id="6071c318b780c1f56da250b5fe0334d8" category="paragraph">날짜와 시간은 구성된 시간대를 기준으로 합니다.</block>
   <block id="598dc5e99f2a14bda43240b77ca40634" category="section-title">2단계: 시스템을 불러옵니다</block>
@@ -8800,4 +8754,1249 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e84bd7a7cafaabc7b1743876dcc73c70" category="image-alt">스위치가 없는 2노드 클러스터 복합 케이블 연결 다이어그램</block>
   <block id="0372c9caab5ee11faf1ffac3ef3c46fa" category="inline-image-macro">스위치 클러스터 복합 케이블 연결 다이어그램</block>
   <block id="009e65f17aa2f40deb1c718bea3bf98b" category="paragraph"><block ref="009e65f17aa2f40deb1c718bea3bf98b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="586605376a36631b68766c450645ce95" category="list-text">스토리지 및 네트워크 연결에 컨트롤러 모듈을 다시 연결합니다.</block>
+  <block id="3787a827ea9c976e2c93c9193d615b97" category="list-text">SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지를 확인해야 <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix="(" category="inline-code"></block>합니다. <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix=" " category="inline-code"></block>priv advanced 모드에서 명령을 실행하면 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태가 표시됩니다.</block>
+  <block id="c8f595ad6dcf30f27e5e610fae364875" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.<block ref="fa00b95aa82b5506a4c27cc4a50f05d7" prefix=" " category="inline-code"></block></block>
+  <block id="a6efff0cc5b19d4c49cb4467336db466" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 메시지 명령을 호출하여 자동 케이스 생성을 억제합니다.<block ref="fbcb7868c4849064439910664677cb60" prefix=" " category="inline-code"></block></block>
+  <block id="61612a74be5170dd342eb619d607d9a0" category="paragraph">다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다.<block ref="6cf51b10a85b7bdc2a6698400ee841b7" prefix=" " category="inline-code"></block></block>
+  <block id="ab859514fa976f71299cd0d5366c702d" category="paragraph">정상적인 컨트롤러에서 손상된 컨트롤러를 중지하거나 인계합니다.<block ref="64d2ac6bbd59fb854ec2bed7b2dbe259" prefix=" " category="inline-code"></block></block>
+  <block id="fd9366185c7040d2814e95fefcce2264" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 명령을 호출하여 자동 케이스 생성을 억제합니다.<block ref="fbcb7868c4849064439910664677cb60" prefix=" " category="inline-code"></block></block>
+  <block id="9f496d341d66d79304a55547445c00a2" category="doc">옵션 1: 빈 슬롯이 있는 스토리지 시스템에 입출력 모듈을 추가합니다</block>
+  <block id="c4b17ef982ae644ec1d2b995fa1534a8" category="paragraph">빈 슬롯이 있는 스토리지 시스템에 새 입출력 모듈을 추가하거나 완전히 채워진 스토리지 시스템에서 새 입출력 모듈을 교체하여 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="656450ae55843844fdfca7b44cbc5678" category="list-text">에서 새 입출력 모듈이 사용 중인 스토리지 시스템 및 ONTAP 버전과 호환되는지<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 확인하십시오.</block>
+  <block id="9808a3e490e0cd81c2fab70cb489f958" category="paragraph">스토리지 시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="f9c9ac20332a969e865def6eb6464e99" category="list-text">컨트롤러에서 PSU(전원 공급 장치) 케이블을 뽑습니다.</block>
+  <block id="5f8429d099b5837b4b0f8245a6e25659" category="admonition">기억 장치 시스템에 DC PSU가 있는 경우, PSU에서 전원 케이블 블록을 분리하십시오.</block>
+  <block id="78263f5226743bdd204519f0e9bd22d2" category="list-text">케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.</block>
+  <block id="72e0b58a2d456f6ab89ca8d83859264d" category="list-text">캐리어에서 타겟 슬롯 블랭킹 모듈을 탈거하십시오.</block>
+  <block id="abca9f9a7ffb3d4afa15f947303b1c4c" category="admonition">다음 그림에서는 수평 및 수직 I/O 모듈 분리를 보여 줍니다. 일반적으로 하나의 입출력 모듈만 제거합니다.</block>
+  <block id="b0fe3ad00c115ca25f49fb3d48769b0b" category="image-alt">AFF A1K 입출력 모듈을 분리합니다</block>
+  <block id="243dd5ebf726e6d6a9762938953c1a6a" category="cell">캠 잠금 버튼</block>
+  <block id="3939b3c4c6e868d0268fd9a75f3b3805" category="list-text">대상 슬롯에서 블랭킹 모듈의 캠 래치를 누르십시오.</block>
+  <block id="c053808d9acb931bed74754155a6e86f" category="list-text">캠 래치를 최대한 아래로 돌립니다. 수평 모듈의 경우 캠을 모듈에서 최대한 멀리 돌립니다.</block>
+  <block id="8321467648a8b1839622d0c940ffc054" category="list-text">캠 레버 입구에 손가락을 넣고 엔클로저 밖으로 모듈을 당겨 엔클로저에서 모듈을 분리합니다.</block>
+  <block id="f47dbf934d7d51340a5c58741715b2d5" category="list-text">I/O 모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.</block>
+  <block id="b3fe1b3e8557371fcb101f90a1a32fd0" category="list-text">모듈을 인클로저 끝까지 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
+  <block id="be9dc0332662b913cef88d5dcde78acd" category="list-text">I/O 모듈에 케이블을 연결합니다.</block>
+  <block id="040f840d8fdf859359eb680be25e8992" category="paragraph">입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 연결합니다.</block>
+  <block id="3072040b83655039de255184380a9271" category="paragraph">I/O 모듈이 스토리지 모듈인 경우 NS224 쉘프에 케이블을 연결합니다.</block>
+  <block id="9056e6b74b2e2b546abd76b6e7408f4d" category="list-text">케이블 관리 트레이를 닫힘 위치까지 돌립니다.</block>
+  <block id="a0a7e707ad35c210d4582fab4069c223" category="list-text">파트너 컨트롤러에서 컨트롤러를 반납합니다. -ofnode target_node_name_</block>
+  <block id="6c91356d53993ce0d1f0c1af28c7a48b" category="list-text">AutoSupport가 설정된 경우 명령을 사용하여 자동 케이스 생성을 복원/억제<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block> 해제합니다.</block>
+  <block id="b5428794115862895177c132452bd21f" category="inline-link">쉘프를 핫 추가합니다</block>
+  <block id="7656f6417cf0159238db8844dd418859" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다.<block ref="82ab472144cf8d8775c0f52eabd5ed87" category="inline-link-rx"></block></block>
+  <block id="026bf593d893e27d6f090dc74e403a75" category="section-title">옵션 2: 빈 슬롯이 없는 스토리지 시스템에 입출력 모듈을 추가합니다</block>
+  <block id="a06ddc697cce62226c19e353e0f2eeba" category="paragraph">기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 완전히 채워진 시스템의 입출력 슬롯에서 입출력 모듈을 변경할 수 있습니다.</block>
+  <block id="47ab52c1da07a0c00e2b876e54778a95" category="paragraph">선택한 LIF를 다른 홈 포트에 영구적으로 재할당합니다. System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 를 참조하십시오.<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block></block>
+  <block id="8f6ea8b644b16793208bc55e27bc7669" category="section-title">2단계: 입출력 모듈 교체</block>
+  <block id="beb24afcb0e8b318a6d1dcdd39cadd0e" category="list-text">컨트롤러에서 PSU 케이블을 뽑습니다.</block>
+  <block id="900056c17f40fb1a034e134a72eca912" category="image-alt">AFF A1K 입출력 모듈을 제거합니다</block>
+  <block id="8181d3a6b1640b5868632cfe5589a05d" category="list-text">캠 래치 버튼을 누릅니다.</block>
+  <block id="0cfc07520b64c5be4e64fac899e6eaa9" category="list-text">I/O 모듈을 엔클로저의 대상 슬롯에 설치합니다.</block>
+  <block id="7b71c8c5341c95139930e1f1748956d7" category="list-text">모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.</block>
+  <block id="0169e44348295d5766b174aa4c296a62" category="list-text">제거 및 설치 단계를 반복하여 컨트롤러의 추가 모듈을 교체합니다.</block>
+  <block id="eae4ce64858efbf6f1946bcf1cacd2bc" category="list-text">PSU를 다시 연결합니다.</block>
+  <block id="7c99497119e4bb81fd50dbd906dfde72" category="list-text">LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _ bye _</block>
+  <block id="270bbec39f8392e251637a1b86bbf5c3" category="list-text">컨트롤러에서 BMC의 버전을 확인하십시오. _SYSTEM SERVICE-PROCESSOR show _</block>
+  <block id="d6b96e8ac8bc341aa87626c9a7f76ffd" category="list-text">필요한 경우 BMC 펌웨어를 업데이트하십시오. _system service-processor image update_</block>
+  <block id="3ff703e913550c7687a9cef2aa4f646d" category="list-text">노드를 재부팅합니다. _bye_</block>
+  <block id="db89594b0a0cbb483395a2641220f1fe" category="list-text">해제된 경우 자동 반환 활성화: _ 스토리지 페일오버 수정 -node local-auto-given true _</block>
+  <block id="4e0b6dc04aaa383038bc23130a17cb25" category="cell">입출력 모듈이 a인 경우...</block>
+  <block id="09c2cf2531a14305542e6aff93e691c5" category="paragraph">NIC 모듈</block>
+  <block id="b621b364024bc001c97686b6636931c3" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="59465119b0c6c62b3fb598004d7a9a24" category="inline-link-rx"></block>연결합니다.</block>
+  <block id="b20dcdb6484b6a4d5293d5d3de29ee0e" category="doc">ONTAP 9.15 이상을 실행하는 시스템에서 NVE 또는 NSE를 확인하십시오</block>
+  <block id="f4247136ba1a68a91a49f4e715963146" category="paragraph">손상된 컨트롤러를 종료하기 전에 시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인해야 합니다.</block>
+  <block id="ee3b489243bdd4fdcc48ef1ad422f531" category="section-title">보안 키 관리자 구성을 확인합니다</block>
+  <block id="19033065ab73d137563560b1fc6895b0" category="inline-link">보안 키 관리자 keystore show man page</block>
+  <block id="a816d953401f2846877f62bed4fdd27b" category="list-text">키 관리자가 _security key-manager keystore show_명령을 사용하여 활성 상태인지 확인합니다. 자세한 내용은 를 참조하십시오<block ref="4b8f2aeacb1514195535ef615c2cae4a" category="inline-link-rx"></block></block>
+  <block id="71f479ec4da1fa9d5c9be25ad13a546d" category="admonition">추가 키 관리자 유형이 있을 수 있습니다. 형식은<block ref="5a2c55bb167f4f0fcfe52384fe7a4f0b" prefix=" " category="inline-code"></block><block ref="15460966dfd5d819470e51c2381536a3" prefix=" " category="inline-code"></block>, 및<block ref="c731f72e1d22a7c5e01a7cb789a8885e" prefix=" " category="inline-code"></block>입니다. 이러한 유형을 확인하는 프로세스는 확인<block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block> 또는<block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block> 키 관리자 유형과 동일합니다.</block>
+  <block id="a286fff38dd07b679c8ce3d88b6f2962" category="inline-link-macro">손상된 컨트롤러를 종료합니다</block>
+  <block id="367826db12be5d0f5fa3825090445002" category="list-text">출력이 표시되지 않으면 로 <block ref="eee94cfaa2087b0a7525f83880646105" category="inline-link-macro-rx"></block> 이동하여 손상된 노드를 종료합니다.</block>
+  <block id="d59c3f1076a11584ab7756dc397ac53d" category="list-text">명령에 출력이 표시되면 시스템이 활성 상태이므로<block ref="3e5d9bfa91fefbf6ef9dcbbf78fad776" prefix=" " category="inline-code"></block> 유형 및 상태를 표시해야<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block> 합니다.</block>
+  <block id="9c6ad91fc60690c917a5cd6ed6cd7a33" category="list-text">security key -manager key query_command 를 사용하여 active 에 대한 정보를<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block> 표시합니다.</block>
+  <block id="d4d54422637dc235d95476cfe54ea635" category="list-text">유형이 표시되고 열이 표시되면<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>손상된 컨트롤러를 종료해도 안전합니다.</block>
+  <block id="70a67dee5ee1d1759bf1a2c010c1e811" category="list-text">형식이 표시되고 열이 표시되면<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>몇 가지 추가 단계를 완료해야 합니다.</block>
+  <block id="a2bb34c9514c6e80246f4c62ebc228ba" category="list-text">형식이 표시되고 열에 이 이외의 내용이 표시되면<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>몇 가지 추가 단계를 완료해야 합니다.</block>
+  <block id="9c33fca9f2622d604fc8874a364353ac" category="list-text">형식이 표시되고 열에 이 이외의 내용이 표시되면<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>몇 가지 추가 단계를 완료해야 합니다.</block>
+  <block id="74604182978b167f63843f1b5103e2fc" category="list-text">유형이 표시되고 열이 표시되면<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>OKM 정보를 수동으로 백업합니다.</block>
+  <block id="2f860acdf6b26736b405ca465ba26aa8" category="list-text">계속 진행하라는 메시지가 나타나면 Enter 키를<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 누릅니다.<block ref="8d2cf87827d8c4c105b70542cc18077d" prefix=" " category="inline-code"></block></block>
+  <block id="4c94e967d32d6a5e4a0ee6ac899694ef" category="list-text">명령을 입력하여 키 관리 정보를 표시합니다. _security key-manager onboard show-backup_</block>
+  <block id="20ae1bfb7c7e894e8452d6455767525e" category="list-text">손상된 컨트롤러를 안전하게 종료할 수 있습니다.</block>
+  <block id="557f328fcef62c2d64ceebcbd641d6c9" category="list-text">형식이 표시되고 열에 다음 이외의 내용이 표시되는 경우<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>:</block>
+  <block id="8df76dc1d3bd7d69bf652ac978436153" category="list-text">Onboard security key-manager sync command:_security key-manager Onboard sync _ 를 입력합니다</block>
+  <block id="2f7724b07e3bd024392416fca683c713" category="admonition">프롬프트에서 32자 영숫자 온보드 키 관리 암호를 입력합니다. 암호를 제공할 수 없는 경우 NetApp 지원에 문의하십시오.<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block></block>
+  <block id="00aae9c1b73fd095e6e3a0c8e04cc543" category="list-text">열에 모든 인증 키가 표시되는지<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 확인합니다.<block ref="c9b37f9017fc101cecef415e707e7b5f" prefix=" " category="inline-code"></block></block>
+  <block id="4332aa8c798bac1ec6c0f4c83e0df305" category="list-text">유형이 표시되는지 확인한<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block>다음 OKM 정보를 수동으로 백업합니다.</block>
+  <block id="ad7a7ba5e951e1f95f031b922654b81d" category="list-text">명령을 입력하여 키 관리 백업 정보를 표시합니다. _security key-manager onboard show-backup_</block>
+  <block id="f460d19ca5b84d519df411e9bc1309e8" category="list-text">형식이 표시되고 열에 다음 이외의 내용이 표시되는 경우<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>:</block>
+  <block id="bd978885d127d957b96043955d436bad" category="paragraph">명령이 실패하면 에서 NetApp 지원 팀에 문의하십시오.<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block></block>
+  <block id="0fc2888b577a950f06774de71be916c1" category="list-text">모든 인증 키에 대해 _ security key - manager key query _ 가 표시되는지<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 확인합니다</block>
+  <block id="7f1dab55b896652272852d94aadf9413" category="list-text">LOADER 프롬프트에서 USB 플래시 드라이브 _BOOT_RECOVERY_에서 복구 이미지를 부팅합니다</block>
+  <block id="66e5f5f877412d7578e6bec4d8f933b5" category="list-text">손상된 컨트롤러에서 가 표시되면 _Y_를 누릅니다<block ref="aa48693d0248bb57512e373cd7f7eebc" prefix=" " category="inline-code"></block></block>
+  <block id="3578391379ba5c5411207a0793afef71" category="list-text">손상된 컨트롤러에서 덮어쓸지 묻는 메시지가 나타나면 _Y_를<block ref="295b4ac77f4e1c5f93c6894df85fd86d" prefix=" " category="inline-code"></block>누릅니다.</block>
+  <block id="496e1cf89cb904a9a2ceccd873c325c5" category="list-text">정상 상태의 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준:_set -privilege advanced_로 설정합니다.</block>
+  <block id="f0cfaabee28943cffa398d23cd5ca41f" category="list-text">정상 상태의 파트너 컨트롤러에서 복원 백업 명령:_system node restore -backup -node local -target -address impaired_node_ip_address _ 를 실행합니다.</block>
+  <block id="1c1f324db7646bade3d65840670981d5" category="admonition">복원 성공 이외의 메시지가 표시되면 에 문의하십시오<block ref="dac6ef02422de09259cb8cc562a669a7" category="inline-link-rx"></block>.</block>
+  <block id="271ca74eba5af203102f7ab7c6dd3191" category="list-text">정상 상태의 파트너 컨트롤러에서 손상된 컨트롤러를 admin 레벨:_set -privilege admin_으로 되돌립니다.</block>
+  <block id="61dad7d5cf7f4e4b7469b097ac35485f" category="list-text">손상된 컨트롤러에서 가 표시되면 _y_를<block ref="dff08971c5acbbdac6642922fde20608" prefix=" " category="inline-code"></block>누릅니다.</block>
+  <block id="e9636d3f8e24f08b43c5d1ed71e065ea" category="list-text">손상된 컨트롤러에서 가 표시되면 _y_를<block ref="396e369cf75815ba643925818d3ec37e" prefix=" " category="inline-code"></block>누릅니다.</block>
+  <block id="976af5aa217f6c1b1dbf16e0ed0a4bde" category="list-text">손상된 컨트롤러에서 손상된 컨트롤러를 재부팅하라는 메시지가 나타나면 _y_를 누르고 부팅 메뉴에 대해 _Ctrl-c_를 누릅니다.</block>
+  <block id="29d550bee6b8b18ca38f7642778d8dad" category="inline-link-macro">키 관리자를 복원합니다</block>
+  <block id="88045ffbfc0d9ef09cd470c545082621" category="list-text">시스템에서 encyption을 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고 그렇지 않으면 로 이동합니다. <block ref="f2abf47fd75193a34b6b143e08f5b248" category="inline-link-macro-rx"></block></block>
+  <block id="55f7c3a98a49a2f2d96cb2d21b95d947" category="list-text">_storage failover 반환 -fromnode local_명령을 사용하여 컨트롤러를 되돌립니다.</block>
+  <block id="4c6b53c8ce9f5900a70a994f21a32c6b" category="list-text">storage failover modify -node local -auto -giving true_명령을 사용하여 자동 반환을 사용하지 않도록 설정한 경우 복원</block>
+  <block id="85ef34c14131c3f446c3d96330659ce7" category="list-text">AutoSupport가 활성화된 경우 _SYSTEM NODE AutoSupport invoke -node * -type all-message MAINT=end_command를 사용하여 자동 케이스 생성을 복원/억제 해제합니다.</block>
+  <block id="1d5e6fb63cdc1edb63d6a40f348b2dff" category="paragraph">연락처<block ref="dac6ef02422de09259cb8cc562a669a7" category="inline-link-rx"></block>.</block>
+  <block id="4e3d3d75dd1d92ce7fd5a7cb8fbca06f" category="doc">1단계: 부팅 매체를 교체합니다</block>
+  <block id="cfb8d631ef0909ee2cb18c2966215fcc" category="paragraph">부팅 미디어를 교체하려면 시스템 뒷면에서 시스템 관리 모듈을 분리하고, 손상된 부팅 미디어를 제거하고, 시스템 관리 모듈에 교체 부팅 미디어를 설치한 다음, ONTAP 이미지를 USB 플래시 드라이브에서 교체용 부팅 미디어로 전송해야 합니다.</block>
+  <block id="40137b2ef5d6219999ccbff7acc4080e" category="paragraph">부팅 매체는 시스템 관리 모듈 내부에 있으며 시스템에서 모듈을 제거하여 액세스합니다.</block>
+  <block id="c7e42b88c75788e5a4dd44ffee425837" category="image-alt">부팅 미디어를 교체합니다. 그래픽 교체</block>
+  <block id="65c48f838cd0d6bef4f7f9dfeffa6c20" category="paragraph">시스템 관리 모듈 캠 래치</block>
+  <block id="8805d2e1601760a201715748ea07f6ee" category="paragraph">부트 미디어 잠금 버튼</block>
+  <block id="69d4901c403551aafed499a69f6a6854" category="list-text">컨트롤러에서 PSU에서 전원 공급 장치 케이블을 뽑습니다.</block>
+  <block id="8f95aa0a30128c64f675b79156365155" category="admonition">기억 장치 시스템에 DC 전원 공급 장치가 있는 경우, 전원 공급 장치(PSU)에서 전원 케이블 블록을 분리하십시오.</block>
+  <block id="f1f9e5f6b36ebaca49f1a330347ef511" category="list-text">시스템 관리 모듈에 연결된 모든 케이블을 분리합니다. 모듈을 다시 설치할 때 케이블을 올바른 포트에 연결할 수 있도록 케이블이 연결된 위치에 레이블을 붙여야 합니다.</block>
+  <block id="ef59e6e115d6a402e96debfbcf2d43a4" category="list-text">케이블 관리 트레이 안쪽의 양쪽에 있는 단추를 당겨 케이블 관리 트레이를 아래로 돌린 다음 트레이를 아래로 돌립니다.</block>
+  <block id="4de74279b34bc439bb927ff19c3f2635" category="list-text">시스템 관리 캠 버튼을 누릅니다. 캠 레버가 인클로저에서 멀리 이동합니다.</block>
+  <block id="8c124a15e8ff5fddc697411c217c8f3e" category="list-text">캠 래치를 최대한 아래로 돌립니다.</block>
+  <block id="446d736b3461ada66026e254d8004909" category="list-text">캠 레버 입구에 손가락을 넣고 엔클로저 밖으로 모듈을 당겨 엔클로저에서 시스템 관리 모듈을 분리합니다.</block>
+  <block id="0c04e9069213a3f01693dfea6d29cdea" category="list-text">부팅 미디어에 액세스할 수 있도록 시스템 관리 모듈을 정전기 방지 매트 위에 놓습니다.</block>
+  <block id="ba3a3b56428ecfc8ebf41d52ae4ed44f" category="list-text">관리 모듈에서 부팅 미디어를 분리합니다.</block>
+  <block id="9311c748da20953e872f62a07f2f146a" category="list-text">파란색 잠금 버튼을 누르십시오.</block>
+  <block id="ad748b83f8069d8ce4bf1f2c768d755b" category="list-text">부팅 미디어를 위로 돌려 소켓에서 밀어 꺼낸 다음 한쪽에 둡니다.</block>
+  <block id="11b547b96ac77ea198ea4fcd9a73eacd" category="list-text">교체 부팅 미디어를 시스템 관리 모듈에 설치합니다.</block>
+  <block id="e8d309e430c2817195ddb3d32206d6a5" category="list-text">부트 미디어를 잠금 버튼 쪽으로 돌립니다.</block>
+  <block id="20247ab102e351fac25284d50f4dada7" category="list-text">잠금 버튼을 누르고 부트 미디어를 아래로 완전히 돌린 다음 잠금 버튼을 놓습니다.</block>
+  <block id="4b2ac8ffad2e17ce1b138e4a3264ab6b" category="list-text">시스템 관리 모듈을 다시 설치합니다.</block>
+  <block id="eb765d2015d11e6c71f74bca03b12008" category="list-text">시스템 관리 모듈을 재구성합니다.</block>
+  <block id="abc1667423446f22a4eac1d73495d6f2" category="section-title">2단계: ONTAP 이미지를 부팅 미디어로 전송합니다</block>
+  <block id="4c04528cd15c6862246747e51ea5163a" category="paragraph">설치한 교체 부팅 매체에는 ONTAP 이미지가 없으므로 USB 플래시 드라이브를 사용하여 ONTAP 이미지를 전송해야 합니다.</block>
+  <block id="01850306ed8f10853a5c93880928f943" category="list-text">FAT32로 포맷된 빈 USB 플래시 드라이브가 4GB 이상의 용량으로 있어야 합니다.</block>
+  <block id="c20c35ef53bf1b70789ce94e66800147" category="inline-link">다운로드</block>
+  <block id="4483cf253c00ede642b7a63aa3d2b81d" category="list-text">손상된 컨트롤러가 실행 중이던 것과 동일한 ONTAP 이미지 버전이 있어야 합니다. NetApp Support 사이트의 섹션에서 적절한 이미지를 다운로드할 수 있습니다<block ref="f61be463ec1c2ded1b2e4929c0dfce17" category="inline-link-rx"></block></block>
+  <block id="aca106b8f189624bfd486237c3a81fcb" category="list-text">NVE가 지원되는 경우 다운로드 버튼에 표시된 대로 NetApp 볼륨 암호화로 이미지를 다운로드합니다.</block>
+  <block id="aa25abaefb58698a9aea7bafb0a15058" category="list-text">NVE가 지원되지 않는 경우 다운로드 버튼에 표시된 대로 NetApp 볼륨 암호화 없이 이미지를 다운로드합니다.</block>
+  <block id="6915dfe0929824fbf5ea71fa2e56edf2" category="list-text">시스템이 HA 쌍인 경우 컨트롤러의 노드 관리 포트(일반적으로 e0M 인터페이스) 간에 네트워크가 연결되어 있어야 합니다.</block>
+  <block id="0968f5229befb788e281eee2fe891623" category="list-text">에서 적절한 서비스 이미지를 다운로드하여<block ref="0ecdd602ef5a1e7a11a81dad2433ccb0" category="inline-link-rx"></block> USB 플래시 드라이브로 복사합니다.</block>
+  <block id="f74da9d158e4ceafc0b4ed6073d99fcd" category="list-text">페이지의 다운로드 링크에서 랩톱의 작업 공간으로 서비스 이미지를 다운로드합니다.</block>
+  <block id="4f27bf76519571ba037a32b1c4a00e10" category="paragraph">USB 플래시 드라이브에는 손상된 컨트롤러가 실행 중인 것에 대한 적절한 ONTAP 이미지가 있어야 합니다.</block>
+  <block id="502b19f0923675ac37953f046d92661c" category="list-text">USB 플래시 드라이브를 시스템 관리 모듈의 USB 슬롯에 삽입합니다.</block>
+  <block id="54d19c7d0de44aef2c43e3480794f731" category="list-text">전원 케이블을 전원 공급 장치에 연결하고 전원 케이블 고정대를 다시 설치합니다.</block>
+  <block id="beab314ce8e147a2186f06e70152d37b" category="paragraph">시스템에 전원이 다시 연결되면 컨트롤러가 부팅을 시작합니다.</block>
+  <block id="023f9d7e0e4f25a5ac2fefbe339b9d2a" category="list-text">DHCP를 구성하는 경우:<block ref="910e8145592a2ef4eaf5e3c21b90a5e1" prefix=" " category="inline-code"></block></block>
+  <block id="be7a3d5eb4dec2257326a1191d508e3f" category="list-text">수동 연결을 구성하는 경우:<block ref="0cfd36fa2f6970c4256c7587d6c9730f" prefix=" " category="inline-code"></block></block>
+  <block id="1db37c7c622a5ec1ab0be3b691e2c1f6" category="image-alt">컨트롤러 모듈 공기 덕트 그림 AFF A70-90을 닫습니다</block>
+  <block id="740236aa24dec4fe92ea505b4ce4484b" category="inline-image-macro">설명선 번호 1, 너비 = 30px</block>
+  <block id="9e3f037b41b2f04bd48e1435a560c2b5" category="paragraph"><block ref="9e3f037b41b2f04bd48e1435a560c2b5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e01fe5ae3d3d5a778b912fa1ed7c886" category="inline-image-macro">설명선 번호 2, 너비 = 30px</block>
+  <block id="22145a28e449ee345dafd03a944a6931" category="paragraph"><block ref="22145a28e449ee345dafd03a944a6931" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="814c3874029ed6ca8ad80dd3b7be6a3b" category="list-text"><block ref="d7c37365844b6be16568f626fb19383d" prefix="" category="inline-code"></block> AFF A220 및 All SAN 어레이의 경우</block>
+  <block id="2544230e60d1b55358bdfdcb8dc88d1a" category="paragraph">컨트롤러 모듈을 다시 설치하고 부팅합니다.</block>
+  <block id="4b4f05880c9e59004f4d9737b616f786" category="list-text">컨트롤러 모듈의 끝을 인클로저의 입구에 맞추고 레버를 시스템 전면에서 돌려 컨트롤러 모듈을 섀시에 밀어 넣습니다.</block>
+  <block id="7eeaf0c972303a1c59af784bd3e8da0b" category="list-text">컨트롤러 모듈이 더 이상 밀지 못하게 되면 팬 아래로 걸쇠가 걸릴 때까지 캠 핸들을 안쪽으로 돌립니다</block>
+  <block id="8a49bfce6bcdffbbf61b9e5ceea826b0" category="admonition">커넥터가 손상되지 않도록 컨트롤러 모듈을 인클로저에 밀어 넣을 때 과도한 힘을 가하지 마십시오.</block>
+  <block id="fd89795a6400fed6df7a2b36f87b64f7" category="paragraph">컨트롤러 모듈이 엔클로저에 완전히 장착되는 즉시 부팅을 시작합니다.</block>
+  <block id="57732d0a6edf6ce7cb291eba7fb6006d" category="paragraph">컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부의 구성 요소를 교체할 때 엔클로저에서 컨트롤러 모듈을 분리해야 합니다.</block>
+  <block id="9a9295f640bbff8ee0d2001b1f08195e" category="list-text">시스템의 슬롯 4/5에 있는 NVRAM 상태 LED를 확인합니다. 컨트롤러 모듈의 전면 패널에도 NVRAM LED가 있습니다. NV 아이콘을 찾습니다.</block>
+  <block id="883e97ce0fc5299b4c253bfe7422df99" category="image-alt">NVRAM 주의 및 상태 LED 위치 그래픽</block>
+  <block id="fb3e042908dc833eeb938bc1847b7c47" category="inline-image-macro">설명선 번호 1, 너비 = 30px</block>
+  <block id="476432aae4cbe8e2198de9a114b9c8b8" category="paragraph"><block ref="476432aae4cbe8e2198de9a114b9c8b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e752b86e927b89b7fc1a7d0c5e13ef64" category="paragraph">NVRAM 상태 LED</block>
+  <block id="bd461ff11b9415fa200815bf50691a35" category="paragraph"><block ref="bd461ff11b9415fa200815bf50691a35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3e0d1dbbb8d79c619401e691855e6d04" category="paragraph">NVRAM 주의 LED</block>
+  <block id="5dc97b940d2a0a8bf57b3743911070b2" category="admonition">NVRAM 상태 LED가 깜박이는 경우 컨트롤러 모듈이 올바르게 전환되지 않았거나 중지되었음을 의미할 수 있습니다(커밋되지 않은 데이터). 손상된 컨트롤러 모듈이 파트너 컨트롤러 모듈에 의해 성공적으로 인수되지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> .</block>
+  <block id="4e0f18112e412988fc61a484d32624af" category="paragraph">손상된 컨트롤러 모듈에서 NVRAM 상태 LED의 일반적인 동작은 다음과 같습니다.</block>
+  <block id="6c521503338c94e4dc5bf3d3eeb13d8b" category="list-text">컨트롤러 모듈에서 전원이 제거되고 컨트롤러 모듈이 "반환 대기 중" 상태이거나 컨트롤러 모듈이 테이크오버되거나 제대로 중지되지 않은 경우(커밋되지 않은 데이터) NVRAM 상태 LED가 깜박입니다.</block>
+  <block id="1fc34159d945428767817ea4688dbeb4" category="list-text">컨트롤러 모듈이 엔클로저에서 분리되면 NVRAM 상태 LED가 깜박이며 컨트롤러 모듈이 제대로 전환되지 않거나 정지될 수 있습니다(커밋되지 않은 데이터). 컨트롤러 모듈이 파트너 컨트롤러 모듈이나 손상된 컨트롤러 모듈에 의해 완전히 테이크오버되었는지 확인합니다.<block ref="cbd30655d53ec6ae9cc96680b3199b33" prefix=" " category="inline-code"></block> 그런 다음 깜박이는 LED를 무시할 수 있습니다(그리고 컨트롤러를 인클로저에서 분리할 수 있음).</block>
+  <block id="cca9ed5787e1c9e8e02cd46db907ea96" category="list-text">장치 전면에서 잠금 캠의 구멍에 손가락을 걸고 캠 레버의 탭을 누르면서 동시에 두 래치를 사용자 쪽으로 단단히 돌립니다.</block>
+  <block id="f496c685f16af1d79af2853eb1f4f094" category="paragraph">컨트롤러 모듈이 인클로저에서 약간 벗어납니다.</block>
+  <block id="6e7081198e310340fdbd7ee3575a92db" category="image-alt">컨트롤러 분리 그래픽</block>
+  <block id="537f891f06a3ecc3188c33c8f8c77e26" category="cell">잠금 캠 래치</block>
+  <block id="1dc32853fd03864e0537b3ae1ad7ef3b" category="list-text">컨트롤러 모듈을 인클로저에서 밀어 꺼내고 평평하고 안정적인 표면에 놓습니다.</block>
+  <block id="33fdb32302198e8a827003b4173b5eb0" category="paragraph">엔클로저에서 컨트롤러 모듈을 밀어낼 때 컨트롤러 모듈의 하단을 지지해야 합니다.</block>
+  <block id="ad2e93db0fd7faf8c4c39a6cd5326275" category="doc">1단계 컨트롤러 모듈을 분리합니다</block>
+  <block id="75a5f080add11b67917840158e6bbd4b" category="paragraph">컨트롤러를 교체하려면 손상된 컨트롤러를 분리하고 FRU 구성 요소를 교체 컨트롤러 모듈로 이동한 다음 인클로저에 교체용 컨트롤러 모듈을 설치한 다음 시스템을 유지 관리 모드로 부팅해야 합니다.</block>
+  <block id="946c9f8702013d89a2409f6409b3b2c1" category="paragraph">고장난 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 5개의 팬 모듈을 분리해야 합니다.</block>
+  <block id="ba353b9db22f76b4888d654901cd45fb" category="list-text">팬 모듈의 회색 잠금 단추를 누르고 팬 모듈을 섀시에서 똑바로 잡아당겨 빼냅니다. 다른 손으로 팬 모듈을 받쳐주어야 합니다.</block>
+  <block id="4bc3c3e0bb0fe52395c42198e6c403bd" category="image-alt">팬 AFF A1K를 탈거하십시오</block>
+  <block id="f3f11142b3f1ba3290db4a0e2e633cfd" category="paragraph">검은색 잠금 버튼</block>
+  <block id="debe0f6d6dc114b1f0cef960df854815" category="list-text">교체용 컨트롤러 모듈에 팬을 설치합니다.</block>
+  <block id="45df54a2b26bf4a42f1390b3c6ef9772" category="list-text">팬 하우징의 가장자리를 교체용 컨트롤러 모듈 전면의 입구에 맞춥니다.</block>
+  <block id="e686f2a2ce224ff59a379a8809414e0a" category="list-text">팬 모듈이 제자리에 잠길 때까지 교체용 컨트롤러 모듈에 완전히 밀어 넣습니다.</block>
+  <block id="d79f0dd315cf97c251e1a6c09d067105" category="list-text">나머지 팬 모듈에 대해 위의 단계를 반복합니다.</block>
+  <block id="46810735002ef647c47c737b1c841a61" category="section-title">3단계: NV 배터리를 이동합니다</block>
+  <block id="febcb77a862bc52409a4f8f740402587" category="paragraph">NV 배터리를 교체용 컨트롤러로 이동합니다.</block>
+  <block id="7ceb4e46e4149d02704a9f5392162d68" category="list-text">NV 배터리 에어 덕트 커버를 열고 NV 배터리를 찾으십시오.</block>
+  <block id="5d0ae38b4c8434b70d17efcba4dd5330" category="image-alt">NV 배터리 AFF A1K를 탈거하십시오</block>
+  <block id="a3e0153f76677675f8bb1342adde5264" category="cell">NV 배터리 에어 덕트 커버</block>
+  <block id="70556b2459b07072e084ca4716e15404" category="paragraph">NV 배터리 플러그</block>
+  <block id="c8b33a78e910858963b37c7abd687001" category="paragraph">NV 배터리 팩</block>
+  <block id="7ed467d4bdf9c9367883e89d279e4fac" category="list-text">배터리를 들어 올려 배터리 플러그에 접근합니다.</block>
+  <block id="61b3ca5b853eb0d7f19e9f3ca01cbc8f" category="list-text">배터리 플러그의 전면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 뽑습니다.</block>
+  <block id="f4da51bbb625e23b85fef74383c71629" category="list-text">에어 덕트 및 컨트롤러 모듈에서 배터리를 들어 올립니다.</block>
+  <block id="8a6a55f57710316dc7c5a91b8adaf000" category="list-text">배터리 팩을 교체용 컨트롤러 모듈로 옮긴 다음 NV 배터리 공기 덕트에 장착합니다.</block>
+  <block id="2d51009dce4886c2f7688130ca476ffe" category="list-text">교체용 컨트롤러 모듈에서 NV 배터리 공기 덕트를 엽니다.</block>
+  <block id="fb45242a415dec0639b84df3fc0d1ced" category="list-text">배터리 플러그를 소켓에 꽂고 플러그가 제자리에 잠겼는지 확인하십시오.</block>
+  <block id="c95499dcf2b14dcf082a1fa5c88623e8" category="list-text">에어 덕트 커버를 닫으십시오.</block>
+  <block id="c1916c940fc91e59ba9f2dc4c12d33a9" category="section-title">4단계: 시스템 DIMM을 이동합니다</block>
+  <block id="9635576fe94c98878df92769aa04942e" category="paragraph">DIMM을 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="678958dabd5cd5624ccb0372fbfb21dd" category="list-text">마더보드 공기 흐름판을 열고 DIMM을 찾습니다.</block>
+  <block id="1f00fb8fdfbb9b6cb0eec8b6368009cd" category="image-alt">DIMM AFF A1K를 분리합니다</block>
+  <block id="a9638d4d52688cbe2f6d101cb55be3b8" category="paragraph">시스템 DIMM입니다</block>
+  <block id="ed3f8b7cf16a504e6873c49f3ad8c721" category="list-text">교체 컨트롤러 모듈에서 DIMM을 설치할 슬롯을 찾습니다.</block>
+  <block id="3874bbf004c50eed71c2b06f7ce4e648" category="list-text">나머지 DIMM에 대해 이 단계를 반복합니다. 마더보드 공기 덕트를 닫습니다.</block>
+  <block id="d20809d05af81f52d71c6d3d4f4fe771" category="list-text">부팅 장치는 시스템 뒷면에 설치된 시스템 관리 모듈에 있으므로 컨트롤러 모듈을 교체할 때 부팅 장치를 이동할 필요가 없습니다.</block>
+  <block id="c78805aa63e8c47c7cae0cdebcc54f64" category="list-text">항상 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 캡처해야 합니다.</block>
+  <block id="564469f8ea8458a513637b3b059f6404" category="doc">1단계: 컨트롤러를 돌려줍니다</block>
+  <block id="3342bfb4c028e1d77e8b0ab8a0dce560" category="paragraph">컨트롤러를 되돌려 교체 절차를 계속합니다.</block>
+  <block id="f9d9eff2772e16e9135d964e4533138c" category="list-text">스토리지 시스템에 Encryption이 구성되어 있는 경우 다음 절차에 따라 스토리지 또는 볼륨 암호화 기능을 복원하여 시스템을 재부팅해야 합니다.</block>
+  <block id="c380f4d06afd36dcee7654a86545b95b" category="list-text">메뉴로 부팅하고 옵션 10을 실행합니다</block>
+  <block id="1cd2c681f4d255665595108ab57cef94" category="list-text">암호 및 백업 데이터를 입력한 다음 정상 부팅을 수행합니다. 을 참조하십시오.<block ref="1ab4828979a21de09829a9c51e95a6df" category="inline-link-rx"></block></block>
+  <block id="96a3368c4eb24da6086771ab60d2ecd4" category="list-text">CFO만 반환을 수행합니다</block>
+  <block id="a049cbbca5d1ded27d17b5360d6af4f8" category="inline-link">MB 교체 후 반환 실패 - 키 관리자에 의해 작업이 거부되었습니다</block>
+  <block id="29e750a9b823df60ddab27630a086eb0" category="list-text">Onboard Sync를 수행하고 SVM-KEK가 true로 설정되어 있는지 확인합니다. 를 참조하십시오<block ref="c73f7aa01fb003f53b587770aef9410a" category="inline-link-rx"></block></block>
+  <block id="137461f81303a8e99562914dc4aead7e" category="list-text">반환 SFO, (강제 없음)</block>
+  <block id="54e470877c32b61b020326e0bd9815fd" category="list-text">시스템에 Encryption이 구성되어 있지 않으면 다음 절차를 수행하여 시스템을 재부팅합니다.</block>
+  <block id="da9ac1c91f37b4e5f63555337c4e5a28" category="list-text">메뉴로 부팅하고 옵션 1을 실행합니다.</block>
+  <block id="ec77e5f87d39009b586c11431b08f2df" category="paragraph">하드웨어 교체를 완료한 후 교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다.</block>
+  <block id="19b66ea26285ab6907d553e575e1e598" category="list-text">교체 컨트롤러 모듈에서 유지 관리 모드로 부팅하고 모든 구성 요소가 동일한 상태를 나타내는지 확인합니다.<block ref="594c16ca0695f6665d7cf4971707adf6" prefix=" " category="inline-code"></block><block ref="fb4e6c2e33b945c3ff4d042cb66d2ed4" prefix=" " category="inline-code"></block></block>
+  <block id="5ce635c93ed7a2d51e30b917452c6ec7" category="list-text"><block ref="f46f944e351f8b92e40c3308318738a3" prefix="" category="inline-code"></block> (지원되지 않음)</block>
+  <block id="221f15e39f2382e44ef4321b5b0e4320" category="list-text"><block ref="524b78f7770e94479dc70b1b445c5cf3" prefix="" category="inline-code"></block> (지원되지 않음)</block>
+  <block id="a540c64e6896cd0fc3bf3d5fb82d4719" category="paragraph">시스템에서 해당 DIMM에 대한 영구적인 오류 상태를 보고하는 경우 DIMM을 교체해야 합니다.</block>
+  <block id="af1d9d834ef798d564fea05edab6f5ce" category="list-text">컨트롤러 상단에 있는 컨트롤러 에어 덕트를 엽니다.</block>
+  <block id="8678f7271dde2bbb03d6fae2cd581f74" category="list-text">에어 덕트 끝의 오목한 부분에 손가락을 삽입합니다.</block>
+  <block id="61d83846d2595cc8a4ddba0b92ac1f5f" category="list-text">에어 덕트를 들어 올려 최대한 위로 돌립니다.</block>
+  <block id="c91b6f7be7626aeee99aefaf9c8d08bd" category="list-text">컨트롤러 모듈에서 DIMM을 찾고 교체할 DIMM을 식별합니다.</block>
+  <block id="9f6b3b55748dc3abdda6a24404bc0981" category="image-alt">DIMM을 교체합니다</block>
+  <block id="5ad0bee4781dc71ce545ac6a5192bb27" category="list-text">컨트롤러 공기 덕트를 닫습니다.</block>
+  <block id="1269042d0106261911211f79eb6bd615" category="paragraph">서비스를 중단하지 않고 팬 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다.</block>
+  <block id="36c158f4fa724abf128192885ff5d304" category="paragraph">컨트롤러 모듈을 마주 보고 있는 팬 모듈은 왼쪽에서 오른쪽으로 1부터 5까지 번호가 매겨집니다.</block>
+  <block id="565ca033dd00cf8e99e85b5be9d0426f" category="admonition">각 팬에는 하나의 LED가 있습니다. 팬이 올바르게 작동하면 녹색이고, 작동하지 않으면 주황색입니다.</block>
+  <block id="c073b9a839d8979c2b08d95b28ded9fe" category="list-text">팬 모듈의 검은색 단추를 누르고 팬 모듈을 섀시에서 똑바로 잡아당겨 빼냅니다. 다른 손으로 팬 모듈을 받치도록 합니다.</block>
+  <block id="4cad152e4a8c970b1849e94a2254d195" category="image-alt">팬을 교체합니다</block>
+  <block id="18c14c604d7ac7c5d0494811693b9110" category="paragraph">검은색 분리 버튼</block>
+  <block id="9e52fd318e1e9fdec71287f49c3f8ace" category="paragraph">활성 시스템에 삽입되면 해당 시스템에서 팬을 인식하면 황색 주의 LED가 꺼집니다.</block>
+  <block id="a82008765c43ce8690a1d600f8b18c57" category="paragraph">스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.</block>
+  <block id="1ceae8e0ff0bec3c4a785784e13c38e0" category="paragraph">이 절차를 사용하여 장애가 발생한 입출력 모듈을 교체하십시오.</block>
+  <block id="e17459e86046e44229fbebc069407c9c" category="list-text">스토리지 시스템에서 지원하는 모든 ONTAP 버전에 이 절차를 사용할 수 있습니다.</block>
+  <block id="8cc2ff9ddd81637d4ad2b7ee220a7774" category="section-title">2단계: 장애가 발생한 입출력 모듈을 교체합니다</block>
+  <block id="2de111d6117fc7e01d3fbeb75aed3c88" category="paragraph">I/O 모듈을 교체하려면 인클로저 내에서 해당 모듈을 찾고 특정 단계를 따르십시오.</block>
+  <block id="d65ea709db708c195e73f1f8f5f75781" category="list-text">컨트롤러에서 PSU 케이블을 뽑습니다.</block>
+  <block id="0af6fe064800da7d11e3417d85012213" category="inline-image-macro">입출력 모듈을 분리합니다</block>
+  <block id="1ac0ca437900f8bc507ae669a832b4dd" category="paragraph"><block ref="1ac0ca437900f8bc507ae669a832b4dd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d09aea2ff4780e8e31df238e5b9f5161" category="paragraph">I/O 캠 래치</block>
+  <block id="9a3f7fa88970e2acddf04471a151ec80" category="list-text">엔클로저에서 타겟 입출력 모듈을 분리합니다.</block>
+  <block id="2f4150c3867bbf0ce9e1aa56330f576b" category="list-text">대상 모듈의 캠 버튼을 누릅니다.</block>
+  <block id="53843c5eb3759758de138cf301af27c3" category="paragraph">캠 버튼이 인클로저에서 멀리 이동합니다.</block>
+  <block id="cb6d0d31a2a110b0d07c657262474a40" category="list-text">교체용 입출력 모듈을 엔클로저에 설치합니다.</block>
+  <block id="1ac1a67458bf621b04e5e87511601b9c" category="list-text">LOADER 프롬프트에서 advanced 권한 모드:_set privilege advanced_로 변경합니다</block>
+  <block id="10c3a425fded9589c238301aa82be35e" category="list-text">BMC:_SP 재부팅 _ 을(를) 재부팅합니다</block>
+  <block id="8c2fb795497456b969ba9307ef6f84c8" category="list-text">LOADER 프롬프트에서 node:_bye_를 재부팅합니다</block>
+  <block id="7abd890d238c51ed2801454d1144b6c2" category="admonition">그러면 I/O 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</block>
+  <block id="f39bcef8471a9193d70395e440c5c30f" category="list-text">노드를 정상 작업:_스토리지 페일오버 반환 - ofnode impaired_node_name _</block>
+  <block id="f2c34b40606f74a0c5a165e98e56be18" category="list-text">자동 반환이 비활성화된 경우 다시 활성화하십시오. _ 스토리지 페일오버 수정 -node local-auto-given true _</block>
+  <block id="6e841026c8e0f5dd3c837c24875db96c" category="paragraph">NV 전지를 교체하려면 컨트롤러 모듈을 분리하고 전지를 분리한 다음 전지를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다.</block>
+  <block id="301c48aa12dd5949431fa0e966cbc5fd" category="section-title">3단계: NV 배터리를 교체합니다</block>
+  <block id="f851a35105a1b833fdaa09454b949379" category="paragraph">컨트롤러 모듈에서 오류가 발생한 NV 배터리를 제거하고 교체용 NV 배터리를 설치합니다.</block>
+  <block id="fb5007e49932b0f6efe4ea8898b9e979" category="list-text">에어 덕트 커버를 열고 NV 배터리를 찾으십시오.</block>
+  <block id="f302136d7678e9c48ab4915051de2822" category="image-alt">NV 배터리를 다시 끼우십시오</block>
+  <block id="24047a6db7d76f066348eb7ec600f329" category="list-text">배터리를 공기 덕트 및 컨트롤러 모듈에서 들어올려 한쪽에 둡니다.</block>
+  <block id="711984feeea728e6125e2dc423e3fac6" category="list-text">컨트롤러에 교체용 배터리 팩을 설치합니다.</block>
+  <block id="be9a1fd60aae57036d44ee7248eef782" category="list-text">NV 공기 덕트 커버를 닫으십시오.</block>
+  <block id="d9086fba38bd40ec38280d2251574230" category="paragraph">NVRAM 모듈은 NVRAM12 하드웨어와 현장 교체 가능한 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 인클로저에서 모듈을 분리하고 DIMM을 교체 모듈로 이동한 다음 교체용 NVRAM 모듈을 인클로저에 설치해야 합니다.</block>
+  <block id="4241925b317fc8692e52a8a332fb8340" category="paragraph">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 에 문의하십시오<block ref="dac6ef02422de09259cb8cc562a669a7" category="inline-link-rx"></block>.</block>
+  <block id="eaf77e551d9134f3614ee70624c0542a" category="paragraph">NVRAM 모듈을 교체하려면 인클로저의 슬롯 4/5에 있는 모듈을 찾아 특정 단계의 순서를 따릅니다.</block>
+  <block id="f7a22033f03f49d91738ef92b897c094" category="list-text">두 PSU에서 전원 코드를 뽑습니다.</block>
+  <block id="37482fa38231232549f86b1d6fa25993" category="list-text">용지함 끝에 있는 핀을 살짝 당기고 용지함을 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.</block>
+  <block id="5aaa2c1d195fa72e1355d04b3f634478" category="list-text">인클로저에서 손상된 NVRAM 모듈을 분리합니다.</block>
+  <block id="61aaaaab1400d8b97407614db657600d" category="list-text">캠 잠금 버튼을 누르십시오.</block>
+  <block id="dbcee7480d150359f0c4b33876b00276" category="list-text">캠 레버 입구에 손가락을 넣고 인클로저에서 모듈을 당겨 손상된 NVRAM 모듈을 분리합니다.</block>
+  <block id="eee27535abf73df12252e1f6eacb1f66" category="image-alt">NVRAM12 모듈 및 DIMM을 분리합니다</block>
+  <block id="33c6ad62c17f0ff7f37b0d9884d0ae0b" category="list-text">NVRAM 모듈을 안정적인 표면에 놓습니다.</block>
+  <block id="062fb969c20058ecacc90814782d6ba8" category="list-text">손상된 NVRAM 모듈에서 DIMM을 한 번에 하나씩 분리하여 교체 NVRAM 모듈에 설치합니다.</block>
+  <block id="f5f476104a659f15b01240f0164f088e" category="list-text">교체용 NVRAM 모듈을 엔클로저에 설치합니다.</block>
+  <block id="fe45f09f3d38a42012d52bda47bfdcc7" category="list-text">모듈을 슬롯 4/5의 인클로저 입구 가장자리에 맞춥니다.</block>
+  <block id="4d4167eb18e956b44d723ceeede0193f" category="list-text">모듈을 조심스럽게 슬롯에 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
+  <block id="6e2989415e40098a560eebad3e205116" category="list-text">PSU를 재배열.</block>
+  <block id="eec63a2949571c6f6cf1da1163be920f" category="paragraph">NVRAM 모듈에서 NVRAM DIMM을 교체하려면 NVRAM 모듈을 분리한 다음 대상 DIMM을 교체해야 합니다.</block>
+  <block id="1b81b67438951134b0a7dce78f9425b9" category="list-text">엔클로저에서 대상 NVRAM 모듈을 분리합니다.</block>
+  <block id="188502f3235b53927f05d5c460e5dffa" category="image-alt">NVRAM 12 모듈 및 DIMM을 분리합니다</block>
+  <block id="930706c0e38089f0a1ce36e5fdf6b4d7" category="list-text">NVRAM 모듈 내에서 교체할 DIMM을 찾습니다.</block>
+  <block id="b08d4fe4a5c8c03e9ec06803ec81f949" category="admonition">NVRAM 모듈 측면에 있는 FRU 맵 레이블을 참조하여 DIMM 슬롯 1 및 2의 위치를 확인합니다.</block>
+  <block id="f1605e83555ac6fff25674a90928b3e7" category="list-text">DIMM 잠금 탭을 누르고 소켓에서 DIMM을 들어올려 DIMM을 분리합니다.</block>
+  <block id="23f5629213f6fe0e6f15f79ecad3b590" category="list-text">엔클로저에 NVRAM 모듈을 설치합니다.</block>
+  <block id="566acb9aca693613465c9963de07cf2d" category="list-text">캠 래치가 I/O 캠 핀과 맞물리기 시작할 때까지 모듈을 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
+  <block id="8c7bd045108e1c5b78c97e914b17c504" category="list-text">LOADER 프롬프트에서 ONTAP를 부팅하려면 _bye_를 입력합니다.</block>
+  <block id="92c80dd5462d9ebbe458a4d5574a0bcd" category="paragraph">컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경 사항이 구현되었는지 확인해야 합니다.</block>
+  <block id="4809a5131531611e176d418579ff2bce" category="list-text">컨트롤러가 유지보수 모드(프롬프트를 표시)인 경우<block ref="2cf8a3bab83c4d2618c18eeeca9ebc98" prefix=" " category="inline-code"></block> 유지보수 모드를 종료하고 LOADER 프롬프트:_HALT_로 이동합니다</block>
+  <block id="98848d6f640c1b9d9ad1cab89e0b0a13" category="list-text">컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID가 일치하지 않아 시스템 ID를 재정의하라는 메시지가 표시될 때 _y_를 입력합니다.</block>
+  <block id="4e5f4ae21b25e767c4cce37a6162f267" category="list-text">Giveback이 완료될 때까지 기다립니다. 메시지가 교체 모듈과 함께 컨트롤러 콘솔에 표시된 다음 정상 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. _storage failover show_</block>
+  <block id="7fea4b03ba1069ae857e3bf99659e212" category="list-text">정상 작동이 확인된 컨트롤러에서 교체된 컨트롤러의 스토리지를 반환하십시오. _storage failover 반환 - ofnode replacement_node_name_</block>
+  <block id="67a849a4d7dbba4f1483601cbb852e97" category="paragraph">컨트롤러가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
+  <block id="3f9b10525f2631d5b41e860b9e7e89eb" category="paragraph">시스템 ID 불일치로 인해 시스템 ID를 무시하라는 메시지가 나타나면 _y_를 입력해야 합니다.</block>
+  <block id="06ce7a49ca4ff2a756ef3ac25493e20e" category="list-text">기브백이 완료된 후 HA 쌍이 정상 상태이고 테이크오버가 가능한지 확인합니다. _ 스토리지 페일오버 show _</block>
+  <block id="a0dd90115e7c76849c98c9962018407e" category="paragraph">컨트롤러에 속한 디스크는 새 시스템 ID를 표시해야 합니다. 다음 예에서는 node1이 소유한 디스크에 새 시스템 ID 151759706이 표시됩니다.</block>
+  <block id="650a68a05410f236496a28baccfa4727" category="list-text">시스템이 MetroCluster 구성인 경우 컨트롤러 상태를 모니터링합니다. _MetroCluster node show _</block>
+  <block id="ed60c71388c93567b70f2c648568f43e" category="paragraph">MetroCluster 구성을 정상 상태로 되돌리려면 교체 후 몇 분 정도 걸리며, 이 경우 각 컨트롤러에 구성된 상태가 표시되며 DR 미러링이 활성화되고 정상 모드가 표시됩니다. <block ref="3a430417b055bb7642531def2eebffec" prefix=" " category="inline-code"></block>MetroCluster 구성이 정상 상태로 돌아갈 때까지 명령 출력에 손상된 시스템 ID가 표시됩니다.</block>
+  <block id="df52882bdb0f8ccab117b27b8ad08f11" category="list-text">컨트롤러는 재해 사이트에 있는 디스크의 현재 소유자입니다.</block>
+  <block id="dbdb9c1ac216db7c2a5488c988607c9b" category="list-text">시스템이 MetroCluster 구성인 경우 각 컨트롤러가 구성되어 있는지 확인하십시오. _MetroCluster node show -fields configuration -state_</block>
+  <block id="1964518eff1cbd81e89b8431963a7b3a" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 다음 정상 컨트롤러에서 활성화하십시오. _storage failover modify -node replacement -node -name -onreboot true _</block>
+  <block id="71bca665257574bbbda30f9d50e92e47" category="list-text">전원 케이블 고정대를 열어 PSU를 분리한 다음 PSU에서 전원 케이블을 뽑습니다.</block>
+  <block id="f83defba1f467eab098c839b34ecd50f" category="image-alt">PSU를 교체합니다</block>
+  <block id="dc77af39a42fc8bba7b24ca9686dfb67" category="paragraph">테라코타 PSU 잠금 탭</block>
+  <block id="e1335ae9dd3c981060cb7896ec1cad9f" category="paragraph">고장난 RTC 배터리를 제거하고 교체용 RTC 배터리를 설치합니다.</block>
+  <block id="566292be87714518ecb8c7c29be8ec9f" category="list-text">에어 덕트 아래에서 RTC 배터리를 찾습니다.</block>
+  <block id="64b63ecd89f955eb06b5c08086727967" category="section-title">단계 5: 컨트롤러의 시간과 날짜를 재설정합니다</block>
+  <block id="33260d772cd05a0b795ab3645a9eb2a0" category="admonition">RTC 배터리를 교체하고 컨트롤러를 삽입하고 첫 번째 BIOS를 재설정하면 다음 오류 메시지가 표시됩니다. 이러한 메시지는 영향을 받지 않으므로 이 절차를 계속 진행할 수 있습니다.<block ref="049ec00df3ddcbe28d63cf4fa733682c" prefix=" " category="inline-code"></block><block ref="6c8ad83004cc8bc224a596f5f1682744" prefix=" " category="inline-code"></block></block>
+  <block id="fab17b330ab320e5b8c5e1a66099e261" category="list-text">cluster date show _ 명령으로 정상 상태의 컨트롤러에서 날짜와 시간을 확인합니다.</block>
+  <block id="48114951ad024ff5ccb330a34fc42135" category="admonition">시스템이 부팅 메뉴에서 중지되면 옵션을 선택하고 메시지가 표시되면 respect_y_를 선택한 <block ref="6390b97950613f587497b26c5800a6d6" prefix=" " category="inline-code"></block> 다음 _Ctrl-C_를 눌러 LOADER로 부팅합니다</block>
+  <block id="6d4f67c4e68f24ae46019161fd1dc11f" category="list-text">대상 컨트롤러의 LOADER 프롬프트에서 명령을 사용하여 시간과 날짜를 확인합니다<block ref="1cac34e5e8442fb80d6ade838d969fc0" prefix=" " category="inline-code"></block> .</block>
+  <block id="50eff6815804791e40e2b69b309b1d1d" category="list-text">LOADER 프롬프트에서 _bye_를 입력하여 PCIe 카드 및 기타 구성 요소를 다시 초기화하고 컨트롤러를 재부팅하도록 합니다.</block>
+  <block id="16521cf1f70c4395939dda4bddea2b5d" category="list-text">스토리지:_storage failover 반환 -ofnode_impaired_node_name__을(를) 되돌려 컨트롤러를 정상 작동 상태로 되돌립니다</block>
+  <block id="0893a47f6bcd823d484b5a31753ffc12" category="paragraph">슬롯 8의 컨트롤러 후면에 있는 시스템 관리 모듈에는 시스템 관리를 위한 온보드 구성 요소와 외부 관리용 포트가 포함되어 있습니다. 손상된 시스템 관리 모듈을 교체하거나 부팅 미디어를 교체하려면 대상 컨트롤러를 종료해야 합니다.</block>
+  <block id="0328ebde7a1dc0b9e859680eb6f7816a" category="paragraph">시스템 관리 모듈에는 다음과 같은 온보드 구성 요소가 있습니다.</block>
+  <block id="df6080323c2768a86da55883d49a16d8" category="list-text">부팅 미디어를 사용하면 컨트롤러 모듈을 분리하지 않고도 부팅 미디어를 교체할 수 있습니다.</block>
+  <block id="396262ee936f3d3e26ff0e60bea6cae0" category="list-text">BMC</block>
+  <block id="6bed21c5dc5eaffdda7e98b265ae1c86" category="list-text">관리 스위치</block>
+  <block id="44de79bdf062cb05ac4b573615e664a4" category="paragraph">시스템 관리 모듈에는 외부 관리를 위한 다음과 같은 포트도 포함되어 있습니다.</block>
+  <block id="4baaa91502c35d44bf3b938e8962f6d5" category="list-text">RJ45 시리얼</block>
+  <block id="734233c07fafca68d078ca506f9ceba6" category="list-text">USB 시리얼(Type-C)</block>
+  <block id="69381ed751e9fb1eeb4c93152247e3d7" category="list-text">USB Type-A(부팅 복구)</block>
+  <block id="198fa86a9c542f1a61c0f6a62120cad4" category="list-text">e0M RJ45 이더넷</block>
+  <block id="1db6096e898c7b22a21f2204a6c1393e" category="paragraph">시스템 관리 모듈 또는 부팅 미디어를 교체하려면 손상된 컨트롤러를 종료해야 합니다.</block>
+  <block id="f744d4ede8531b24b196b4678a6fdfce" category="list-text">다른 모든 시스템 구성 요소가 제대로 작동해야 합니다.</block>
+  <block id="8071fa49d4debf76dea275eb3c85adf2" category="list-text">파트너 컨트롤러가 손상된 컨트롤러를 인계할 수 있어야 합니다.</block>
+  <block id="4fbb43a9c47d6d76253729e7d93c5f55" category="section-title">2단계: 손상된 시스템 관리 모듈을 교체합니다</block>
+  <block id="c47bf9b7aee8dbcdf5cb1d3159433af1" category="paragraph">손상된 시스템 관리 모듈을 교체합니다.</block>
+  <block id="c03e55a0c29d0a74f43acf5542d00ef3" category="list-text">시스템 관리 모듈을 분리합니다.</block>
+  <block id="b7e0d509eb2461d427f3833f801dc8f3" category="admonition">계속하기 전에 NVRAM 디스테이징이 완료되었는지 확인하십시오.</block>
+  <block id="066580f9b652d10cecee2396c264bd1b" category="image-alt">시스템 관리 모듈을 교체합니다</block>
+  <block id="8150fa37baf490f5e9dea5f5d1970825" category="list-text">시스템 관리 모듈에 연결된 모든 케이블을 분리합니다. 모듈을 다시 설치할 때 케이블을 올바른 포트에 연결할 수 있도록 케이블이 연결된 위치에 레이블을 확인하십시오.</block>
+  <block id="c69ab679bbecef08bc0a49a10e95d6bd" category="list-text">손상된 컨트롤러의 PSU에서 전원 코드를 뽑습니다.</block>
+  <block id="bdb3ce65576e6e5ccbbae08a6a0756d9" category="list-text">시스템 관리 모듈의 캠 버튼을 누릅니다.</block>
+  <block id="dadbb19fc9d1e5a6ec5b0bc9cc8cf2f3" category="list-text">캠 레버를 아래로 최대한 돌립니다.</block>
+  <block id="31b39fac52ec77b69cbfefb3a072f4fc" category="list-text">캠 레버의 구멍에 손가락을 넣고 모듈을 시스템에서 똑바로 잡아당깁니다.</block>
+  <block id="c978c6b00ecd54798f9668f867b1913f" category="list-text">부팅 미디어를 교체 시스템 관리 모듈로 이동합니다.</block>
+  <block id="9a750a7e2598efecb70a139da9f7d6cc" category="image-alt">부팅 미디어를 교체합니다</block>
+  <block id="29e212eedf2877738d87eea2f281d3b9" category="list-text">손상된 시스템 관리 모듈에서 파란색 부팅 미디어 잠금 버튼을 누릅니다.</block>
+  <block id="c1d988e4a01f99542e0e3e683559a958" category="list-text">부팅 미디어를 위로 돌려 소켓에서 꺼냅니다.</block>
+  <block id="7755345d457638b790820574c6f32ae1" category="list-text">교체 시스템 관리 모듈에 부팅 미디어를 설치합니다.</block>
+  <block id="bba0658767c4f219720b8059eb351003" category="list-text">부트 미디어가 잠금 단추에 닿을 때까지 아래로 돌립니다.</block>
+  <block id="7110121461eafcee8f9f5638f6f98768" category="list-text">파란색 잠금을 누르고 부트 미디어를 아래로 완전히 돌린 다음 파란색 잠금 버튼을 놓습니다.</block>
+  <block id="58c0901068a2e0126819b27bfadaba76" category="list-text">교체용 시스템 관리 모듈을 인클로저에 설치합니다.</block>
+  <block id="74f39d10e6192c13072375a409227742" category="list-text">교체 시스템 관리 모듈의 가장자리를 시스템 입구에 맞추고 컨트롤러 모듈에 부드럽게 밀어 넣습니다.</block>
+  <block id="c5636b2c060822d9237c298c9b4ed296" category="list-text">케이블 관리 ARM를 닫힘 위치까지 돌립니다.</block>
+  <block id="d1e3991136db3d982ab25f6e5eeec67c" category="section-title">3단계: 컨트롤러 모듈을 재부팅합니다</block>
+  <block id="87faf0594e9a4ac1e4ad3b090942d772" category="list-text">전원 케이블을 PSU에 다시 꽂습니다.</block>
+  <block id="5cf314d7d9b8c453e8f6d5ee28dc576f" category="paragraph">일반적으로 LOADER 프롬프트에서 시스템이 재부팅되기 시작합니다.</block>
+  <block id="61f88778bfaaa034c04052c8ec25d964" category="list-text">LOADER 프롬프트에서 _bye_를 입력합니다.</block>
+  <block id="4ea15f830f2e664204a3efb99fb72b4d" category="section-title">4단계: 라이센스를 설치하고 제품 번호를 등록합니다</block>
+  <block id="05dceffd3c31a9d53e9b23ec48d1bf77" category="paragraph">장애가 있는 노드가 표준(노드 잠김) 라이센스가 필요한 ONTAP 기능을 사용하는 경우 노드에 대한 새 라이센스를 설치해야 합니다. 표준 라이센스가 있는 기능의 경우 클러스터의 각 노드에 기능에 대한 자체 키가 있어야 합니다.</block>
+  <block id="d498932449bd1680afbe5aad136fb7e3" category="paragraph">라이센스 키를 설치할 때까지 표준 라이센스가 필요한 기능을 노드에서 계속 사용할 수 있습니다. 그러나 이 기능에 대한 라이센스가 있는 클러스터에서 노드가 유일한 노드인 경우에는 해당 기능에 대한 구성을 변경할 수 없습니다. 또한 노드에서 라이센스가 없는 기능을 사용하면 라이센스 계약을 준수하지 않을 수 있으므로 가능한 한 빨리 노드에 대한 교체 라이센스 키를 설치해야 합니다.</block>
+  <block id="3e508eeaedfdae09fad57a764b5e2b73" category="section-title">단계 1: 손상된 컨트롤러 모듈을 종료합니다</block>
+  <block id="6f13230d5681e1c88b50f5ecbce62637" category="paragraph">다음 옵션 중 하나를 사용하여 손상된 컨트롤러 모듈을 종료하거나 인계하십시오.</block>
+  <block id="ac3e2454340641f4dc863ba7de892571" category="list-text">컨트롤러 모듈을 3인치 정도 당겨 전원을 분리합니다.</block>
+  <block id="5d053cb0e109f37b3c9cfa31e957c2bc" category="list-text">컨트롤러 모듈을 섀시에서 3인치 정도 당겨 전원을 분리합니다.</block>
+  <block id="d9d1de25706aa51c5367e4dafd60898e" category="list-text">섀시에서 대상 슬롯 블랭킹 모듈을 탈거하십시오.</block>
+  <block id="192d3ce6854b267e65d46222f8f3a24f" category="image-alt">입출력 모듈을 분리합니다</block>
+  <block id="75fa26086844dfcbf14f35086518217a" category="list-text">블랭킹 모듈을 탈거하십시오.</block>
+  <block id="2b6adb50592127273fdb4bb2b68918d5" category="list-text">I/O 모듈을 컨트롤러 모듈 슬롯 입구의 가장자리에 맞춥니다.</block>
+  <block id="97366bfb1dcb5b97156c347c8ad89d9a" category="list-text">모듈을 슬롯에 완전히 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
+  <block id="7e0cc13ccecee19c414070713bc932cd" category="admonition">DC PSU가 있는 경우 케이블 블록을 PSU에 다시 연결합니다.</block>
+  <block id="f0a953cf8667ec627e4c74a13844c3d6" category="inline-link">핫 - 쉘프 추가</block>
+  <block id="2a6ebde871b7a14ea9937c0b77f288c1" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다.<block ref="b6d396abfa2f33a744444ad20ba7003c" category="inline-link-rx"></block></block>
+  <block id="2f3095e4c2c969f1f9dca69963ff66c1" category="paragraph">Assetected LIF를 다른 홈 포트에 영구적으로 재할당합니다. System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 를 참조하십시오.<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block></block>
+  <block id="6181ce929bc404494408989e6b8a9b52" category="paragraph">I/O 모듈을 교체하려면 컨트롤러 모듈 내에서 해당 모듈을 찾아 특정 단계의 순서를 따릅니다.</block>
+  <block id="5cdf632bde34078b63091a6513a92902" category="admonition">기억 장치 시스템에 DC 전원 공급 장치가 있는 경우, PSU에서 전원 케이블 블록을 분리하십시오.</block>
+  <block id="8a9a8a0db84d9dd59b0f006930b47193" category="list-text">캠 래치 버튼을 누릅니다.</block>
+  <block id="422e2aa4ec97de509f54db9d23618f37" category="list-text">캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 모듈을 섀시에서 분리합니다.</block>
+  <block id="ce8b63d25565a610d1f9564150f85914" category="list-text">모듈을 조심스럽게 슬롯에 밀어 섀시에 완전히 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
+  <block id="fb2068c184d4dbf1c0e520d9e9b173b2" category="list-text">제거 및 설치 단계를 반복하여 컨트롤러 모듈의 추가 모듈을 교체합니다.</block>
+  <block id="ed5714a7b9709284c56117bd6dc4e081" category="list-text">케이블 관리 트레이를 잠금 위치로 돌립니다.</block>
+  <block id="268bccb6c35b538d967467b5d2935b49" category="list-text">LOADER 프롬프트에서 컨트롤러 모듈을 재부팅합니다. _ bye _</block>
+  <block id="253b24d74d0517388c6e5b078713c86a" category="inline-link">Burt 1494308 - I/O 모듈 교체 중에 환경 종료가 트리거될 수 있습니다</block>
+  <block id="fc5ee1a4ca46ff0160eeada84fe673fc" category="admonition">재부팅 중에 문제가 발생하면 을 참조하십시오<block ref="5f4b19e33781d4df6c59a005be26e607" category="inline-link-rx"></block></block>
+  <block id="cfedf0b233356261eb909e7add24bded" category="list-text">파트너 컨트롤러 모듈에서 컨트롤러 모듈을 되돌립니다. _스토리지 페일오버 반환 - ofnode target_node_name_</block>
+  <block id="50452a92c8429276ad6b40b6a483c0dc" category="paragraph">부팅 미디어를 교체하려면 시스템 뒷면에서 시스템 관리 모듈을 분리하고, 손상된 부팅 미디어를 제거하고, 시스템 관리 모듈에 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.</block>
+  <block id="43d656a7b2fb92dbbe5e13b8f00a00b8" category="list-text">시스템 관리 캠 버튼을 누릅니다. 캠 레버가 섀시에서 멀어집니다.</block>
+  <block id="f0d27e50eb41ec006d18a96b5254063e" category="list-text">캠 레버를 완전히 아래로 돌려 컨트롤러 모듈에서 시스템 관리 모듈을 분리합니다.</block>
+  <block id="d090349173c11be6a6275698aa2404cd" category="list-text">시스템 관리 모듈을 다시 설치합니다.</block>
+  <block id="54a53a09772d42f23357a9952d2d46a1" category="section-title">2단계: 부팅 이미지를 부팅 미디어로 전송합니다</block>
+  <block id="ba6a859a07959f14e93fa82e7da1233e" category="image-alt">컨트롤러 모듈 공기 덕트 그림 AFF A1K 닫기</block>
+  <block id="51f2f04b22eba49bd6c9066a5648bd67" category="list-text">장애가 있는 컨트롤러 모듈 후면의 슬롯 4/5에 있는 상태 LED가 꺼져 있는지 황색 NVRAM을 확인합니다. NV 아이콘을 찾습니다.</block>
+  <block id="da5f7089cdcd7902b7086f24a299a313" category="list-text">컨트롤러 모듈에서 전원이 제거되고 스토리지 시스템이 "반환 대기 중" 상태이거나 컨트롤러 모듈이 테이크오버되거나 제대로 중지되지 않은 경우(커밋되지 않은 데이터) NVRAM 상태 LED가 깜박입니다.</block>
+  <block id="997ed926bb92f58aed3a035708bb70c0" category="list-text">컨트롤러 모듈이 섀시에서 분리되면 NVRAM 상태 LED가 깜박이며 컨트롤러 모듈이 제대로 전환되지 않거나 정지될 수 있습니다(커밋되지 않은 데이터). 컨트롤러 모듈이 파트너 컨트롤러 모듈이나 손상된 컨트롤러 모듈에 의해 완전히 테이크오버되었는지 확인합니다.<block ref="cbd30655d53ec6ae9cc96680b3199b33" prefix=" " category="inline-code"></block> 그런 다음 깜박이는 LED를 무시할 수 있으며 컨트롤러 모듈을 섀시에서 분리할 수 있습니다.</block>
+  <block id="deb4147b46ea2ebcf52f58598b90e46b" category="list-text">컨트롤러 모듈 전원 공급 장치(PSU)에서 컨트롤러 모듈 전원 공급 장치 케이블을 뽑습니다.</block>
+  <block id="6233363b0d15d7066ec85e296a99f7eb" category="admonition">시스템에 DC 전원이 있는 경우 PSU에서 전원 블록을 분리합니다.</block>
+  <block id="afba20d4eb44e94103854196f1d30cbf" category="list-text">컨트롤러 모듈에서 시스템 케이블과 SFP 및 QSFP 모듈(필요한 경우)을 뽑아 케이블이 연결된 위치를 추적합니다.</block>
+  <block id="a5fd25bf69ec23e5f23fbe3cc38a7e54" category="list-text">컨트롤러 모듈에서 케이블 관리 장치를 분리합니다.</block>
+  <block id="942fdbfcbfd61f0c694784bf520773d4" category="cell">잠금 래치</block>
+  <block id="645034a4c73a4f25d79cfc0892d91937" category="inline-image-macro">설명선 번호 2, 너비 = 30px</block>
+  <block id="ebce31788a3f5b7c47411e09ce8c4f30" category="paragraph"><block ref="ebce31788a3f5b7c47411e09ce8c4f30" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="32dde6c192b854cc5ef8fbf9965197f3" category="list-text">컨트롤러 모듈을 섀시에서 밀어 꺼내고 평평하고 안정적인 표면에 놓습니다.</block>
+  <block id="3a35b79f6cdc064e1fd8bae199bb7cc1" category="list-text">각 드라이브의 드라이브 베이를 추적하고 정전기가 없는 카트 또는 테이블에 드라이브를 따로 둡니다.</block>
+  <block id="bbad437d407ac0dc494f22cf01d36f95" category="section-title">3단계: 장비 랙 또는 시스템 캐비닛 내에서 섀시를 교체합니다</block>
+  <block id="f5a29541ab8c131d31027f615587c55c" category="list-text">이전 섀시의 드라이브를 교체용 섀시에 설치합니다.</block>
+  <block id="d19c9b117b9744b2968c6a7a29cf682c" category="list-text">드라이브를 섀시 안으로 끝까지 밀어 넣은 다음 캠 핸들을 위로 밀어 드라이브 캐리어에 대고 잠급니다.</block>
+  <block id="f3b97d340b8389ddeabbcf54ce084292" category="section-title">4단계: 컨트롤러 모듈을 다시 설치합니다</block>
+  <block id="48f5f398094b93996cc2a11416b14ee9" category="paragraph">컨트롤러 모듈을 다시 설치하고 재부팅합니다.</block>
+  <block id="efcc254ceb718ef7e8b881f466009928" category="list-text">공기 덕트를 끝까지 돌려 완전히 닫혔는지 확인합니다.</block>
+  <block id="0ccceedf0ba73e89727474e882e1b520" category="paragraph">컨트롤러 모듈 판금과 수평을 이루어야 합니다.</block>
+  <block id="1a3dc6e4b0a5fba85d4b38f8ec0323b7" category="paragraph">트랜시버(QSFP 또는 SFP)를 제거한 경우 광섬유 케이블을 사용하는 경우 트랜시버를 다시 설치해야 합니다.</block>
+  <block id="e1e5cf3c178b5500c9ca99734851f088" category="list-text">잠금 래치를 위쪽으로 돌려 잠금 위치에 놓습니다.</block>
+  <block id="2e642e4a5011ff5ac26769f55b9fb111" category="list-text">전원 코드를 전원 공급 장치에 연결합니다.</block>
+  <block id="73bf3c5901e8959909093f245da79b5c" category="admonition">DC 전원 공급 장치가 있는 경우 컨트롤러 모듈이 섀시에 완전히 장착된 후 전원 공급 장치에 전원 블록을 다시 연결합니다.</block>
+  <block id="7cb60d31286d9a356a9f1d81c01d5d76" category="paragraph">전원이 복원되면 컨트롤러 모듈이 부팅됩니다. LOADER 프롬프트로 부팅되는 경우 명령을 사용하여 컨트롤러를<block ref="ce54ef17bebf280339d340bd40dff593" prefix=" " category="inline-code"></block> 재부팅합니다.</block>
+  <block id="c90c2ae11fe917d8b5a1debf0e0a1a26" category="list-text">* 이 절차는 중단입니다. * 2노드 클러스터의 경우, 다중 노드 클러스터의 서비스 중단이 완전히 완료되고 부분 중단이 발생할 것입니다.</block>
+  <block id="7ae4c88c0c1f1ed7c8b6a312fdab75ab" category="paragraph">컨트롤러를 교체하려면 손상된 컨트롤러를 분리하고 FRU 구성 요소를 손상된 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 이동한 다음 섀시에 교체용 컨트롤러 모듈을 설치한 다음 시스템을 유지 관리 모드로 부팅해야 합니다.</block>
+  <block id="2fb967de668a2d809970dd0ee11a24ab" category="paragraph">전원 공급 장치를 교체 컨트롤러로 이동합니다.</block>
+  <block id="2a7480039bddad1197a5ab3ef2e9c642" category="image-alt">PSU를 제거합니다</block>
+  <block id="d064a3d94819a3fa5dab2f305999e373" category="paragraph">팬 모듈을 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="4f42b1d0608fb1685f8d72748eac26b7" category="section-title">4단계: NV 배터리를 이동합니다</block>
+  <block id="14d784154f4aa3f57f9c9dfbbeaeb34f" category="paragraph">NV 배터리를 교체 컨트롤러 모듈로 이동합니다.</block>
+  <block id="e71823c1e743186a0666f6927e650467" category="list-text">컨트롤러 모듈 중간에 있는 에어 덕트 커버를 열고 NV 배터리를 찾습니다.</block>
+  <block id="62b84ce1ed8f33077fd9cc685a96482f" category="image-alt">NV 배터리를 이동합니다</block>
+  <block id="87b314771bccd0b0dc0e6412487e2fb9" category="cell">NV 배터리 에어 덕트</block>
+  <block id="b235fe0d197181d860d1e9566dae0bf7" category="paragraph">NV 배터리 팩 플러그</block>
+  <block id="a78a80d2da92de4642ea63dd1541f1f7" category="paragraph">*주의:* 시스템을 중지하면 콘텐츠를 플래시 메모리로 디스테이징하는 동안 NV 모듈 LED가 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.</block>
+  <block id="f8f7c1045b42c3c72f377477b544d2c0" category="list-text">배터리 팩을 교체용 컨트롤러 모듈로 이동한 다음 교체용 컨트롤러 모듈에 설치합니다.</block>
+  <block id="326322113ec6d7afd516677c70a620ba" category="list-text">NV 배터리 에어 덕트를 닫으십시오.</block>
+  <block id="27f35b27313c8e5ab77d19b60ae6e137" category="section-title">5단계: 시스템 DIMM을 이동합니다</block>
+  <block id="694d7036e292f7957abb19acc5e9b758" category="list-text">마더보드에서 시스템 DIMM을 찾습니다.</block>
+  <block id="039f58bd987ef88313145c074df5d70a" category="list-text">DIMM을 설치할 교체용 컨트롤러 모듈에서 슬롯을 찾습니다.</block>
+  <block id="c37a4d7725ea260112e56edceaf5e4d1" category="section-title">6단계: 입출력 모듈을 이동합니다</block>
+  <block id="6744bc76d019e9b71a7aa664d4ed7127" category="paragraph">입출력 모듈을 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="24418166f8dead9d275ddfdbc74a4cd7" category="cell">I/O 모듈 캠 레버</block>
+  <block id="c9551b0fc75e2c8508231fd6835ef674" category="list-text">케이블 관리 ARM 안쪽에 있는 단추를 당기고 아래로 돌려 케이블 관리 ARM를 아래로 돌립니다.</block>
+  <block id="ab7f57bf2d31f89a07c8be533fdaddec" category="list-text">컨트롤러 모듈에서 I/O 모듈을 분리합니다.</block>
+  <block id="f3d88c3c810af1cdb84d313cc4275953" category="list-text">대상 I/O 모듈 캠 래치 버튼을 누릅니다.</block>
+  <block id="7c6e6d55849c69a2b7dab4c3fb9da90d" category="paragraph">캠 레버가 컨트롤러 모듈에서 멀리 이동합니다.</block>
+  <block id="9845fc7da7211da718a847b9a731f5b8" category="list-text">손가락을 캠 레버 입구에 넣고 모듈을 컨트롤러 모듈에서 당겨 모듈을 분리합니다.</block>
+  <block id="f849da379b8d83f31d348b3d693cc638" category="list-text">I/O 캠 래치가 I/O 캠 핀과 맞물리기 시작할 때까지 I/O 모듈을 슬롯에 부드럽게 밀어 넣은 다음 I/O 캠 래치를 위로 끝까지 밀어 모듈을 제자리에 잠급니다.</block>
+  <block id="4af3919f928bd4d197aed63e4bc600d5" category="list-text">이 단계를 반복하여 슬롯 6 및 7에 있는 모듈을 제외한 나머지 입출력 모듈을 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="11fbadf7448d1ecaf73c923529479716" category="admonition">슬롯 6 및 7에서 입출력 모듈을 이동하려면 이러한 입출력 모듈이 포함된 캐리어를 장애가 있는 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 이동해야 합니다.</block>
+  <block id="b401db8e87b7b803acaf5a09680163d0" category="list-text">슬롯 6 및 7에 있는 I/O 모듈이 포함된 캐리어를 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="74f230000179ad1d679ddad3d5bdf7b0" category="list-text">캐리어 핸들의 맨 오른쪽 손잡이에 있는 버튼을 누릅니다. .. 손상된 컨트롤러 모듈에서 캐리어를 밀어 꺼냅니다. 손상된 컨트롤러 모듈과 같은 위치에 있는 교체용 컨트롤러 모듈에 캐리어를 삽입합니다.</block>
+  <block id="aa0bcb347c0d996ed6d3094ca9407905" category="list-text">캐리어가 제자리에 잠길 때까지 캐리어를 교체용 컨트롤러 모듈 안으로 부드럽게 밀어 넣습니다.</block>
+  <block id="e156abc6c55d67bc52379c9afbf08a38" category="section-title">7단계: 시스템 관리 모듈을 이동합니다</block>
+  <block id="0970f7cff19d17cbcf6cda476c075ee2" category="paragraph">시스템 관리 모듈을 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="94b3eb3106138f7bc53935ffbe690cbf" category="paragraph">교체 시스템 관리 모듈</block>
+  <block id="18dd6244b942460d88413f477ea1a813" category="list-text">손상된 컨트롤러 모듈에서 시스템 관리 모듈을 분리합니다.</block>
+  <block id="953f96c587cb69d7c4ffdd62048a1067" category="list-text">캠 레버를 완전히 아래로 돌립니다.</block>
+  <block id="d02b3bf2c9834e1200fb66a2408e400a" category="list-text">손가락을 캠 레버에 대고 모듈을 똑바로 당겨 시스템에서 빼냅니다.</block>
+  <block id="ab3626fcfbaeea815fd23f550fd13062" category="list-text">시스템 관리 모듈을 장애가 있는 컨트롤러 모듈의 슬롯과 동일한 슬롯에 있는 교체 컨트롤러 모듈에 설치합니다.</block>
+  <block id="3d097b51b3e4ea6203013f7839213333" category="list-text">시스템 관리 모듈의 가장자리를 시스템 입구에 맞추고 컨트롤러 모듈에 부드럽게 밀어 넣습니다.</block>
+  <block id="93d8a200b2cc8e970b5193d83e374359" category="section-title">8단계: NVRAM 모듈을 이동합니다</block>
+  <block id="728a43e0558b95abf033f81cd70a4b11" category="paragraph">NVRAM 모듈을 교체용 컨트롤러 모듈로 이동합니다.</block>
+  <block id="e50a7c739fc2316f761a6625cccf1d7b" category="paragraph">DIMM 잠금 탭</block>
+  <block id="61979a24638dee7b1c411448ac9c41f1" category="list-text">손상된 컨트롤러 모듈에서 NVRAM 모듈을 분리합니다.</block>
+  <block id="c1039369bd751ebbfacb4f5e49909936" category="list-text">캠 래치를 끝까지 돌립니다.</block>
+  <block id="a06af58b2429096e2a27101cacada83a" category="list-text">캠 레버 입구에 손가락을 넣고 엔클로저 밖으로 모듈을 당겨 엔클로저에서 NVRAM 모듈을 분리합니다.</block>
+  <block id="5e2cf5b700caea63b803a11d6bd14c72" category="list-text">NVRAM 모듈을 교체용 컨트롤러 모듈의 슬롯 4/5에 설치합니다.</block>
+  <block id="54f74a217055779c9d05e10acdb2101f" category="list-text">모듈을 슬롯 4/5의 섀시 입구 가장자리에 맞춥니다.</block>
+  <block id="a34f5d7448ca509b8fdfe99eb0258923" category="list-text">모듈을 조심스럽게 슬롯에 완전히 밀어 넣은 다음 캠 래치를 위로 끝까지 밀어 모듈을 제자리에 잠급니다.</block>
+  <block id="3da6ea6cfd2a784b8a10d3a2f614c9f8" category="section-title">9단계: 컨트롤러 모듈을 설치합니다</block>
+  <block id="b7dcc5448a06ec706832cdeab132792c" category="list-text">케이블 관리 장치를 다시 설치하고 컨트롤러를 다시 연결하십시오.</block>
+  <block id="bb5b089c7f5c4d10ebe7f2948ffd4a76" category="paragraph">저장 장치, 네트워크 연결을 다시 설정하고 컨트롤러를 되돌려 교체 절차를 계속합니다.</block>
+  <block id="eceb1e51c26ea3e966510ccb24feafbc" category="section-title">단계 2: 컨트롤러를 되돌립니다</block>
+  <block id="cd857ff122008e8c33281aac10c4a797" category="list-text">컨트롤러 모듈에서 DIMM을 찾고 대상 DIMM을 식별합니다.</block>
+  <block id="8a682c66646ec7954594a9800184dc7d" category="inline-link">NetApp Hardware Universe</block>
+  <block id="bbd2b770350c6f52732f68cd939d17e5" category="admonition">AFF A70 또는 AFF A90의 정확한 DIMM 위치는 컨트롤러 모듈의 또는 FRU 맵을 참조하십시오<block ref="4e43c3b83d98d9534ba258422aad47e3" category="inline-link-rx"></block> .</block>
+  <block id="610add0822408300fa8ad516407472f4" category="section-title">3단계: 팬을 교체합니다</block>
+  <block id="46d9d4074dd716b11379b5c6b5eecbdd" category="admonition">기억 장치 시스템에 DC 전원 공급 장치(PSU)가 있는 경우, PSU에서 전원 케이블 블록을 분리하십시오.</block>
+  <block id="fc6665e9f1b6162e5d38bd8eb567b787" category="list-text">컨트롤러 모듈에서 I/O 모듈을 분리합니다.</block>
+  <block id="43bdfcb23a758397ea6517f635aacc1d" category="paragraph">캠 래치가 컨트롤러 모듈에서 멀어집니다.</block>
+  <block id="e7a88b07d0fe11e52b015a7a07b1b7ee" category="list-text">교체용 입출력 모듈을 타겟 슬롯에 설치합니다.</block>
+  <block id="a3106006bcbd6b01107844abf97f1800" category="list-text">모듈을 조심스럽게 슬롯에 밀어 넣고, 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
+  <block id="6ba2e9eb4c2829dc2017284892829c45" category="admonition">DC 전원 공급 장치가 있는 경우 케이블 블록을 PSU에 다시 연결합니다.</block>
+  <block id="1089c3637780c1a22ad88c3e30e3eaa6" category="image-alt">NV 배터리를 교체합니다</block>
+  <block id="f5844b9beff2dd81e52b9a5d98082467" category="paragraph">NVRAM 모듈은 NVRAM12 하드웨어와 현장 교체 가능한 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다. 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 분리하고 DIMM을 교체 모듈로 이동한 다음 교체 NVRAM 모듈을 섀시에 설치해야 합니다.</block>
+  <block id="f7de4e424b34170ef3a103ee0f882402" category="paragraph">NVRAM 모듈을 교체하려면 섀시의 슬롯 4/5에서 모듈을 찾고 구체적인 단계를 따릅니다.</block>
+  <block id="25bc068a4c7f7f5d040abc107e9b53e7" category="admonition">시스템에 DC 전원 공급 장치가 있는 경우 PSU에서 전원 케이블 블록을 분리합니다.</block>
+  <block id="b9c07f9700f6e60517bd8e8c52b698d0" category="list-text">캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 손상된 NVRAM 모듈을 섀시에서 분리합니다.</block>
+  <block id="380b4a9b7635aab20565f10313ad18ca" category="list-text">PSU를 재구성합니다.</block>
+  <block id="6cc4600854ca82a2aad4bc0932afe89b" category="admonition">시스템에 DC 전원 공급 장치가 있는 경우 전원 케이블 블록을 PSU에 다시 연결합니다.</block>
+  <block id="95202d1c51ddd04e5c7ee2a579109553" category="list-text">캠 버튼을 누릅니다.</block>
+  <block id="eea43b1f9f4191af441ec7f1515ffd01" category="list-text">캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 NVRAM 모듈을 섀시에서 분리합니다.</block>
+  <block id="586cd1de26648f3c3aa70dbd61199e65" category="image-alt">DC PSU를 분리합니다</block>
+  <block id="c9ac10817b7d9d9b4a84ded99fbd1d9b" category="inline-image-macro">설명선 번호 3, 너비 = 30px</block>
+  <block id="a00672aef070452de050862fe1451fe1" category="paragraph"><block ref="a00672aef070452de050862fe1451fe1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="119b8386395af0270a4cad663d460ae6" category="inline-image-macro">설명선 번호 4, 너비 = 30x</block>
+  <block id="67ad3a060e2655b765af597f395aa7d3" category="paragraph"><block ref="67ad3a060e2655b765af597f395aa7d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5862e3059693b0ae5802e65d68b3df4c" category="list-text">명령을 사용하여 정상 상태의 컨트롤러에서 날짜와 시간을 확인합니다<block ref="1cac34e5e8442fb80d6ade838d969fc0" prefix=" " category="inline-code"></block> .</block>
+  <block id="84d381361973ac3871949fc5ba34d24f" category="list-text">파란색 잠금 버튼을 누르십시오. 부트 미디어가 위쪽으로 약간 회전합니다.</block>
+  <block id="59073837e9444bf2400f497219e938ff" category="list-text">부팅 미디어를 위로 돌려 소켓에서 꺼냅니다.</block>
+  <block id="39ae5f56527ba81d40a11f9ee81d3594" category="list-text">잠금 버튼이 맞물릴 때까지 부트 미디어를 아래쪽으로 돌립니다. 필요한 경우 파란색 잠금 장치를 누릅니다.</block>
+  <block id="31b44b2bbf802ac2ba72cd5f64a91a73" category="list-text">시스템 관리 모듈을 설치합니다.</block>
+  <block id="ca97995b5e50e8b10ac1fc3b62cf50d1" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에 최대 2개의 NS224 쉘프를 AFF A70 또는 AFF A90 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="c8eac505350cb0f1af11cd259653ff42" category="inline-link-macro">핫 추가 요구사항 및 모범 사례</block>
+  <block id="41f1f5d5c9c84b4192d60dae68221e74" category="list-text">를 검토해야 <block ref="4ce128836e76285f9c9ed40b724d2cac" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="132e9fc46dcb8ce0ada8aaba479842e1" category="inline-link-macro">핫 애드 준비 - 쉘프 추가</block>
+  <block id="4cff528eaaa2c2b349b730fbd0fcabe9" category="list-text">에서 해당 절차를 완료해야 <block ref="f3f64106bbfa74e473b00e3a56614cbe" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="bd9bb82cb12ed85b385001364772cc79" category="inline-link-macro">핫 애드용 쉘프를 설치합니다</block>
+  <block id="7767ac26e2b3cd3f28d8d69583317704" category="list-text">에 설명된 대로 쉘프를 설치하고 전원을 켠 후 쉘프 ID를 설정해야 합니다. <block ref="68c2828044dd0dd776e961af4615948f" category="inline-link-macro-rx"></block></block>
+  <block id="6c5978baa311721c1879e0b7bc95d1af" category="list-text">이 절차에서는 HA 쌍에 내부 스토리지만 있고(외부 쉘프 없음), 각 컨트롤러에 최대 2개의 추가 쉘프와 RoCE 지원 I/O 모듈 2개를 핫 추가한다고 가정합니다.</block>
+  <block id="693d178bd7e316e4b461a6475eabb0f5" category="list-text">이 절차에서는 다음과 같은 핫 애드 시나리오에 대해 설명합니다.</block>
+  <block id="0b58f7350d7c6e30945be789846ad507" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 1개를 통해 첫 번째 쉘프를 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="b5c973de929d19f312e40bec11aa04c2" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 통해 첫 번째 쉘프를 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="4367e3d6fa33a8e5340bcdfaf20e76b1" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 통해 두 번째 쉘프를 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="bd7b27778a055163b7315acc047708fd" category="list-text">각 컨트롤러 모듈에서 RoCE 지원 포트 한 세트(RoCE 지원 I/O 모듈 1개)를 사용하여 쉘프 하나를 핫 추가할 때, HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="7326450dfaf2d352b15c1dbb36a9010e" category="admonition">이 단계에서는 슬롯 11에 RoCE 지원 I/O 모듈을 설치했다고 가정합니다.</block>
+  <block id="f9ba636c0d9fc6353c91cac13fe6290c" category="image-alt">셸프 1개와 입출력 모듈 1개로 AFF A70 또는 A90의 케이블 연결</block>
+  <block id="1d99994321fcf88aba221cbb6612805a" category="admonition">이 단계에서는 슬롯 11 및 8에 RoCE 지원 I/O 모듈을 설치했다고 가정합니다.</block>
+  <block id="220b4e5517a1a5b99f0642ce282c3975" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 11 포트 A(e11a)에 케이블로 연결합니다.</block>
+  <block id="635ff36fada70d6b9a46124ec04022cf" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 8 포트 b(e8b)에 연결합니다.</block>
+  <block id="3adcb5d3f00489780b17f91dbcf4c8b6" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 11 포트 A(e11a)에 케이블로 연결합니다.</block>
+  <block id="fed38315c77f3f617a7a61ed019eb467" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 8 포트 b(e8b)에 연결합니다.</block>
+  <block id="8b2cc73a271f9ec9f419e138f66cb109" category="paragraph">다음 그림은 각 컨트롤러 모듈에서 RoCE 지원 I/O 모듈 2개를 사용하는 핫 애드 쉘프 1개의 케이블 연결을 보여줍니다.</block>
+  <block id="0fd5a3b540c1af5ae188f141b2f40c24" category="image-alt">1개의 셸프 및 2개의 IO 모듈로 AFF A70 또는 A90의 케이블 연결</block>
+  <block id="efd179e747ea06abffaa97721b0cc372" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 8 포트 A(e8a)에 케이블로 연결합니다.</block>
+  <block id="9db08de14bb838886cf8eaaee8575093" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 11 포트 b(e11b)에 연결합니다.</block>
+  <block id="e227bb2c8482a8ac7a342596ddc812fe" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 8 포트 A(e8a)에 케이블로 연결합니다.</block>
+  <block id="6d4a579eaf72f5aec95723d499d76fe9" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 11 포트 b(e11b)에 연결합니다.</block>
+  <block id="ae14ce538d268aca5ec54fbb093b2156" category="paragraph">다음 그림은 각 컨트롤러 모듈에 있는 RoCE 지원 I/O 모듈 2개를 사용하여 2개의 핫 애드 쉘프용 케이블 연결을 보여줍니다.</block>
+  <block id="25862846eedff523b089999508c204b1" category="image-alt">2개의 쉘프와 2개의 IO 모듈로 AFF A70 또는 A90의 케이블 연결</block>
+  <block id="14ac662b33a52d48f6573c07b50e5b8f" category="list-text">를 사용하여 핫 애드 쉘프가 올바르게 연결되었는지 확인합니다<block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block>.</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
+  <block id="8d39c366d0f2a2847eeab7a904800822" category="paragraph">이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다. 로 이동합니다. <block ref="27f0c709ab4d9ea809b0da6fd9c1c251" category="inline-link-macro-rx"></block></block>
+  <block id="0e3d081c008c032c73e41d141ef3e8f2" category="paragraph">그렇지 않으면 핫 애드 쉘프 절차가 완료됩니다.</block>
+  <block id="8043797db2626f941c758e70e51c6421" category="paragraph">AFF A1K HA 쌍에 최대 3개의 NS224 쉘프(총 4개 쉘프)를 핫 추가할 수 있습니다.</block>
+  <block id="d2ac780b2e8141b11e4649760187228e" category="inline-link-macro">핫 애드 준비를 합니다</block>
+  <block id="ee6f36975e23e964b7700e9186519410" category="list-text">에서 해당 절차를 완료해야 <block ref="93c25ff2c1ab57827ce49b9c5fd4ddeb" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="1bab1cfda6fee5cde83d1380c3e5b9ab" category="list-text">이 절차는 HA 쌍에 기존 NS224 쉘프가 하나 이상 있다고 가정합니다.</block>
+  <block id="9d83d849a4156a45c99412990ea0e5ec" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 통해 두 번째 쉘프를 HA 쌍에 핫 추가할 수 있습니다. (두 번째 I/O 모듈을 설치하고 첫 번째 쉘프를 두 개의 I/O 모듈에 다시 연결했거나 첫 번째 쉘프를 이미 두 개의 I/O 모듈에 케이블로 연결했습니다. 두 번째 쉘프는 두 번째 I/O 모듈에 모두 케이블로 연결됩니다.</block>
+  <block id="e16364738058258c38c3fd4625d05ec4" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 3개를 통해 HA 쌍에 세 번째 쉘프를 핫 추가합니다. (세 번째 I/O 모듈을 설치했으며 세 번째 I/O 모듈에만 세 번째 쉘프를 연결합니다.)</block>
+  <block id="244addd6f2bc2e043852c2e18eeb5621" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 통해 HA 쌍에 세 번째 쉘프를 핫 추가합니다. (세 번째 및 네 번째 I/O 모듈을 설치했으며 세 번째 셸프를 세 번째 및 네 번째 I/O 모듈에 연결합니다.)</block>
+  <block id="72cdf939e98d17baf87d0a5a64dfcea8" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 통해 HA 쌍에 4번째 쉘프를 핫 추가합니다. (네 번째 I/O 모듈을 설치하고 세 번째 쉘프를 세 번째 및 네 번째 I/O 모듈에 다시 연결했거나 세 번째 쉘프를 세 번째 및 네 번째 I/O 모듈에 케이블로 연결했습니다. 네 번째 셸프는 세 번째 및 네 번째 입출력 모듈 모두에 케이블로 연결됩니다.)</block>
+  <block id="b5fb112065a7304ad93afe5e3c7fa849" category="paragraph">다음 그림에서는 HA 쌍의 두 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 보여 줍니다.</block>
+  <block id="ea0cc2be4039f5636ca9de5e2c7a3940" category="image-alt">2개의 쉘프와 2개의 IO 모듈이 포함된 AFF A1K의 케이블 연결</block>
+  <block id="7190ee5c0c8079e24da44f24c6b7abbc" category="list-text">핫 애드할 NS224 쉘프가 각 컨트롤러에 RoCE 지원 I/O 모듈 3개와 함께 HA 쌍의 세 번째 NS224 쉘프가 될 경우, 다음 하위 단계를 완료하십시오. 그렇지 않으면 다음 단계로 이동합니다.</block>
+  <block id="67a32de8a36abcac3887051fb422a5f5" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 9 포트 A(e9a)에 케이블로 연결합니다.</block>
+  <block id="b94b22c566c53666c9eb824858482f94" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 9 포트 b(e9b)에 연결합니다.</block>
+  <block id="daa2e224b274ef312de5853c6cbffaf6" category="list-text">케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 9 포트 A(e9A)에 연결합니다.</block>
+  <block id="3a8f2e391b6044dec7d6ef6c3e9dda69" category="list-text">컨트롤러 A 슬롯 9 포트 b(e9b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다.</block>
+  <block id="6c6e97e4c29594c5856e13f4b1a8be0c" category="paragraph">다음 그림에서는 HA 쌍의 세 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 3개를 보여 줍니다.</block>
+  <block id="94213ae2609c82c94807004beab91de1" category="image-alt">3개의 쉘프와 3개의 IO 모듈이 포함된 AFF A1K의 케이블 연결</block>
+  <block id="46e04d93b6d495a5235036857998eae9" category="list-text">핫 애드할 NS224 쉘프가 HA 쌍의 세 번째 NS224 쉘프가 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 함께 제공되는 경우, 다음 하위 단계를 완료하십시오. 그렇지 않으면 다음 단계로 이동합니다.</block>
+  <block id="abb0dbc2abeae0d456ed2095b4c9ed12" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 8 포트 b(e8b)에 연결합니다.</block>
+  <block id="8ff8aa3f78832bf6ceceeea539763fec" category="list-text">컨트롤러 A 슬롯 8 포트 b(e8b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다.</block>
+  <block id="863764690b094c2d6a28b8edc2afba72" category="paragraph">다음 그림에서는 HA 쌍의 세 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 보여 줍니다.</block>
+  <block id="f9d0d9976d1ff7ee0097da8e1b7fb3c2" category="image-alt">3개의 셸프 및 4개의 IO 모듈로 AFF A1K의 케이블 연결</block>
+  <block id="3bd0afb8978e34368879d152c8aec251" category="list-text">핫 애드할 NS224 쉘프가 HA 쌍의 4번째 NS224 쉘프가 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 함께 사용되는 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="d10794f4d3cca7a2993e8d2d6a12cd28" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 8 포트 A(e8a)에 케이블로 연결합니다.</block>
+  <block id="ed24faf41d7d53c3a668df6e070aca6d" category="list-text">케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 8 포트 A(e8A)에 연결합니다.</block>
+  <block id="551d2fc9e8e1159b84b9c23da6d27984" category="paragraph">다음 그림에서는 HA 쌍의 4번째 쉘프에 있는 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 케이블 연결을 보여 줍니다.</block>
+  <block id="40d57aad6b502bb35f6aa64821041f6a" category="image-alt">4개의 쉘프 및 4개의 IO 모듈로 구성된 AFF A1K의 케이블 연결</block>
+  <block id="8f5d4ff45922bd2a0a4b4ca26b784653" category="paragraph">추가 스토리지가 필요한 경우 최대 1개의 NS224 쉘프를 AFF A250 또는 AFF C250 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="674639f981420a300672aa48922e8167" category="image-alt">AFF A250용 케이블 연결</block>
+  <block id="3c8f15ce2288517ffd28cbab07b4cd4f" category="paragraph">핫 애드용 NS224 쉘프에 케이블을 연결하는 방법은 AFF A400 또는 AFF C400 HA 쌍을 보유하고 있는지 여부에 따라 달라집니다.</block>
+  <block id="95e9c90f47d7134271c5de6f5d8d41f5" category="paragraph">* AFF A400 HA 쌍에 대한 케이블 선반 *</block>
+  <block id="e47d066c3638efab14a13923e89b312a" category="paragraph">AFF A400 HA 쌍의 경우 최대 2개의 쉘프를 핫 추가할 수 있으며 필요에 따라 온보드 포트 e0c/e0d 및 슬롯 5의 포트를 사용할 수 있습니다.</block>
+  <block id="d4e171bee30acee3b4097e177f087224" category="list-text">각 컨트롤러에서 RoCE 지원 포트(온보드 RoCE 지원 포트) 하나를 사용하여 하나의 쉘프를 핫 추가할 수 있으며, 이 쉘프가 HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="4df6de3fb6b5eece4bd1d42f75e5ae3d" category="paragraph">다음 그림은 각 컨트롤러에서 RoCE 지원 포트 세트를 사용하여 핫 추가 쉘프 1개의 케이블 연결을 보여줍니다.</block>
+  <block id="672cc22dbbc7622be2f56d3dce98ffcd" category="image-alt">NS224 쉘프 1개와 온보드 포트 1개로 AFF A400 케이블 연결</block>
+  <block id="306fa6b2ff7e9909c6a2a302a380875a" category="list-text">각 컨트롤러에서 RoCE 지원 포트(온보드 및 PCIe 카드 RoCE 지원 포트)의 2세트를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="303de4b6b1481e40bb1b8e2368a123b6" category="image-alt">AFF A400의 케이블 연결: NS224 쉘프 2개, 온보드 포트 1세트, PCIe 카드의 포트 1세트</block>
+  <block id="41132f8bc7d00935b8687c18c2c9e35d" category="list-text">이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다. 을 <block ref="27f0c709ab4d9ea809b0da6fd9c1c251" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="406a6a05dc05bb651919c02b9570c743" category="paragraph">* 케이블 선반을 AFF C400 HA 쌍에 연결 *</block>
+  <block id="9d6636aae443fd88eb415b0a814eb7ed" category="paragraph">AFF C400 HA 쌍의 경우, 최대 2개의 쉘프를 핫 추가할 수 있으며 필요에 따라 슬롯 4와 5에서 포트를 사용할 수 있습니다.</block>
+  <block id="b6c9c1f2bae5bda1b2ec0ca34865478a" category="list-text">각 컨트롤러에서 RoCE 지원 포트 하나를 사용하여 하나의 쉘프를 핫 추가할 수 있으며, 이것이 HA 쌍에서 유일한 NS224 쉘프인 경우 다음 하위 단계를 완료하십시오.</block>
+  <block id="a3c44bf0089bcb64a39869e3500ee7be" category="image-alt">AFF C400의 NS224 쉘프 1개와 PCIe 카드 포트 1세트를 위한 케이블 연결</block>
+  <block id="c4dcb8322178395823ac67e2ea704340" category="list-text">각 컨트롤러에서 RoCE 지원 포트 2세트를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="8e60b7b6a9c9e9483da2fb013ea4987b" category="image-alt">NS224 쉘프 2개와 PCIe 카드 포트 2세트가 포함된 AFF C400의 케이블 연결</block>
+  <block id="8b27019cea28c7866ff81a933ac7c02c" category="paragraph">AFF A800 또는 AFF C800 HA 쌍에서 NS224 쉘프를 케이블로 연결하는 방법은 핫 애드하는 쉘프 수와 컨트롤러에서 사용 중인 RoCE 지원 포트 세트(1~2개)에 따라 다릅니다.</block>
+  <block id="e6960ae3a6a92d53555f3471da322c41" category="list-text">각 컨트롤러에 RoCE 지원 포트 한 세트(RoCE 지원 PCIe 카드 1개)를 사용하여 하나의 쉘프를 핫 추가할 수 있으며, 이것이 HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="c55555ebd43bc616a6c859bbbad79ac8" category="paragraph">다음 그림은 각 컨트롤러에서 RoCE 지원 PCIe 카드 1개를 사용하여 핫 애드 쉘프 1개의 케이블 연결을 보여줍니다.</block>
+  <block id="e21205a57cd96b3d3b2ad37564df9874" category="image-alt">NS224 쉘프 1개와 PCIe 카드 1개가 포함된 AFF A800 또는 AFF C800의 케이블 연결</block>
+  <block id="6f313b51958d9ef2aa65c80a9b64de6b" category="list-text">각 컨트롤러에서 RoCE 지원 포트 2세트(RoCE 지원 PCIe 카드 2개)를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 해당 하위 단계를 완료하십시오.</block>
+  <block id="b44d424c15322ecb36a077b677527005" category="image-alt">NS224 쉘프 2개와 IO 모듈 2개가 포함된 AFF A900용 케이블 연결</block>
+  <block id="e896f649bc7a69947f85c288e5cb0b96" category="image-alt">NS224 쉘프 3개와 IO 모듈 4개로 구성된 AFF A900용 케이블 연결</block>
+  <block id="325058948df9e92ff2c1577aeb745fc0" category="image-alt">NS224 쉘프 4개와 IO 모듈 4개로 구성된 AFF A900용 케이블 연결</block>
+  <block id="40e6ceebb2eb1677b588bd7f52f95206" category="paragraph">쉘프 ID 번호입니다</block>
+  <block id="42a63d570d38a93d3cbaddcfd266a58c" category="paragraph">쉘프 ID 액세스 버튼</block>
+  <block id="326dcf3a777a5d77ced1cd01fc928869" category="paragraph">replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고 클러스터 상태를 확인하고 자동 반환을 재설정해야 합니다.</block>
+  <block id="d6f7de8608837079f0d0dd7fa668c457" category="list-text">클러스터의 상태를 확인합니다. <block ref="9f193d2818f839c9575e0a6969820fd9" category="inline-link-rx"></block>자세한 내용은 KB 문서를 참조하십시오.</block>
+  <block id="92a8f4f22e2adcc65ead3e4c5a1435db" category="list-text">드라이브가 중앙판에 완전히 장착되고 핸들이 딸깍 소리를 내며 제자리에 고정되도록 캠 핸들을 닫습니다.</block>
+  <block id="ccb7122523ff13a861d44c2bcdc45f81" category="list-text">각 드라이브 할당:<block ref="e546c7c0f19a803f32f47d3907849b62" prefix=" " category="inline-code"></block></block>
+  <block id="3774ddca34a7ba4f3e245f00869ad3d4" category="paragraph">여러 개의 디스크 드라이브를 교체할 때, 스토리지 시스템이 각 새 디스크의 존재를 인식할 수 있도록 장애가 발생한 각 디스크 드라이브를 분리하고 교체 디스크 드라이브를 삽입할 때까지 70초 동안 기다려야 합니다.</block>
+  <block id="9f8cb0e8a48411f934bc97473df58706" category="list-text">AutoSupport가 활성화된 경우 를 사용하여 자동 케이스 생성을 복원/억제 해제합니다<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block></block>
+  <block id="a93d77f6df5e06d389505b064ee465e0" category="doc">부팅 미디어 교체를 완료합니다</block>
+  <block id="9cdea9bbd0e16c22fc991522b7972ed5" category="paragraph">이 절차의 시작 부분에서 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.</block>
+  <block id="7b2bdafe064028eef5977d05150f12ac" category="admonition">NSE 또는 NVE가 온보드 또는 외부 키 관리자와 함께 활성화되어 있는 경우 이 절차를 시작할 때 캡처한 설정을 복원해야 합니다.</block>
+  <block id="63a4de1bcedff077618555275f624f08" category="open-title">옵션 1: 온보드 키 관리자 서버 구성이 있는 시스템</block>
+  <block id="da8f6d618f55e4068dea90bc98f1254e" category="paragraph">ONATP 부팅 메뉴에서 온보드 키 관리자 구성을 복원합니다.</block>
+  <block id="89cb88c9bc1bb6b7dcae6435585c0324" category="paragraph">OKM 구성을 복원하는 동안 다음 정보가 필요합니다.</block>
+  <block id="7000494e61efaf925f6df5293a176456" category="inline-link">온보딩 키 관리를 활성화합니다</block>
+  <block id="da204d9262b182aa6636ef0f759e2181" category="list-text">클러스터 전체 암호를 입력했습니다.<block ref="45fc92ed2fd28afadf25f8be26cb5500" category="inline-link-rx"></block></block>
+  <block id="f295be867ed42957086669bda6d018d8" category="inline-link">Onboard Key Manager에 대한 백업 정보입니다</block>
+  <block id="0d8f4216b1a686595d00ee0b5d71392f" category="list-text"><block ref="2ee0908f9e5223d6e83d8a800aaafc05" category="inline-link-rx"></block>..</block>
+  <block id="a631c4c4852d87f0373a4ceef554cd55" category="inline-link">온보드 키 관리 백업 및 클러스터 전체 암호를 확인하는 방법</block>
+  <block id="e1136da7593260e34ba5b2ed856ccd05" category="list-text"><block ref="aaf4edeb3b26d690deb5096fe7a1d65f" category="inline-link-rx"></block>계속하기 전에 절차를 수행하십시오.</block>
+  <block id="299ca460e09d443253eaddad0c22b9a6" category="list-text">ONTAP 부팅 메뉴에서 옵션 10:</block>
+  <block id="e5aa840dde8194d8d6df61253c09f357" category="list-text">프로세스의 계속성을 확인합니다.<block ref="9c14d4f8d14519ea4ded790c9f9cd146" prefix=" " category="inline-code"></block> _y_</block>
+  <block id="c6e69b2f1336dfec071685d57a03c518" category="list-text">클러스터 전체의 암호를 두 번 입력합니다.</block>
+  <block id="f9bffba0a703b49e4849f916f5e0b86a" category="admonition">암호문을 입력하는 동안 콘솔에 아무 입력도 표시되지 않습니다.</block>
+  <block id="13919b42be0dc9d06cf38142917f4b9e" category="paragraph"><block ref="2b673e138bf62e9f201d2fe3f4e48e85" prefix="" category="inline-code"></block></block>
+  <block id="0784a1581386529d37ed702d7c0c6404" category="paragraph"><block ref="7c93709ee00a5bf88772022db8bfa591" prefix="" category="inline-code"></block></block>
+  <block id="de5132c93b5d93a59d85652f38a4c1be" category="list-text">백업 정보를 입력합니다. 시작 백업 라인의 전체 컨텐츠를 백업 종료 라인을 통해 붙여 넣습니다.</block>
+  <block id="23f31e8486de5b0c9919cdb1d6f7bb1f" category="paragraph">입력 끝에 있는 Enter 키를 두 번 누릅니다.</block>
+  <block id="17f4c7292b19bfcfe3d4c928df22bc3c" category="list-text">복구 프로세스가 완료됩니다.</block>
+  <block id="25a669068aaab50a7c2fd5bce904c674" category="admonition">표시된 출력이 과(와) 다른 경우 계속 진행하지 마십시오.<block ref="3f52dc951949a3041638d54635d71099" prefix=" " category="inline-code"></block> 문제 해결을 수행하여 오류를 수정합니다.</block>
+  <block id="4ca210717c7b74a5849140e091b8b172" category="list-text">부팅 메뉴에서 옵션 1을 선택하여 ONTAP로 계속 부팅합니다.</block>
+  <block id="de52f5c2d18fad1d9bb02f99ec8dadf5" category="list-text">컨트롤러의 콘솔에 가 표시되는지 확인합니다<block ref="22714968f3c097ea3249c9d4b9e8119f" prefix=" " category="inline-code"></block></block>
+  <block id="999c46a3c0b0be09d2315b772cef93f4" category="list-text">파트너 노드에서 파트너 컨트롤러를 반환하십시오. _ 스토리지 페일오버 반환 - fromnode local-only-CFO-aggregates true _</block>
+  <block id="6ede7407442dd193a49f8d2d41499d14" category="list-text">CFO 애그리게이트에서만 부팅한 후 _security key-manager 온보드 sync​​​​​​​_ 명령을 실행합니다.</block>
+  <block id="df09cb8ebed3f1cee6a949f0db88f478" category="list-text">Onboard Key Manager의 클러스터 전체 암호 입력:</block>
+  <block id="34872b906ccadd846f8c009d5dae06d3" category="list-text">모든 키가 동기화되었는지 확인합니다. _security key-manager key query-restored false_입니다</block>
+  <block id="36127ab42d959b7fd1802bde97fbbebd" category="paragraph"><block ref="ff552bb89260932a935c259f2e059d29" prefix="" category="inline-code"></block></block>
+  <block id="1a397feeabbac5c761b3d1f336523079" category="admonition">복원된 매개 변수에서 false를 필터링할 때 결과가 나타나지 않습니다.</block>
+  <block id="3b26794816c291bf36128e61d0be91bd" category="list-text">파트너에서 노드를 반환:_스토리지 페일오버 반환 - fromnode local _</block>
+  <block id="612c478fd861d23534a26dd856605b43" category="open-title">옵션 2: 외부 키 관리자 서버 구성이 있는 시스템</block>
+  <block id="179622516286b14a2256b085ee45c10a" category="paragraph">ONATP 부팅 메뉴에서 외부 키 관리자 구성을 복원합니다.</block>
+  <block id="075c44463f07a0ee059a3e5089c43ca5" category="paragraph">EKM(External Key Manager) 구성을 복원하려면 다음 정보가 필요합니다.</block>
+  <block id="751a65070ef8776fe1f50db7fd7774ef" category="list-text">다른 클러스터 노드에서 /cfcard/KMIP/servers.cfg 파일의 복사본 또는 다음 정보가 필요합니다.</block>
+  <block id="d60b517023845eb33535660ac501cf18" category="list-text">KMIP 서버 주소입니다.</block>
+  <block id="70b8d21a07e70130ed6b262a91c18626" category="list-text">KMIP 포트입니다.</block>
+  <block id="08abc77c04d9685a10837fbb9135a705" category="list-text">다른 클러스터 노드 또는 클라이언트 인증서의 /cfcard/kMIP/certs/client.crt 파일 사본.</block>
+  <block id="db1b600b813d1f6f50a04eba824c70ab" category="list-text">다른 클러스터 노드에서 /cfcard/kMIP/certs/client.key 파일의 복사본 또는 클라이언트 키</block>
+  <block id="dbf0b245d6b63885207c70d983243a7b" category="list-text">다른 클러스터 노드 또는 KMIP 서버 CA의 /cfcard/kMIP/certs/CA.pem 파일 사본.</block>
+  <block id="e43680b19a57600cbf0bc788265754c7" category="list-text">ONTAP 부팅 메뉴에서 옵션 11 을 선택합니다.</block>
+  <block id="a2a02d01ac6ca6a677201d0767b02f34" category="list-text">메시지가 표시되면 필요한 정보를 수집했는지 확인합니다.</block>
+  <block id="91edae04cf5f805055ec3dac6c3b7f8c" category="list-text"><block ref="b19458ff12859c393f2fd46d02cb24d4" prefix="" category="inline-code"></block> _y_</block>
+  <block id="635db4ba4393f4aa6637dd02dc8cabae" category="list-text"><block ref="05ac7348459861360c86dc5851e1ab0b" prefix="" category="inline-code"></block> _y_</block>
+  <block id="1ea0f8ccc55c1aaa4b40e778eca7d203" category="list-text"><block ref="0daafd01a5c78aa4cf52e57febc9c7d9" prefix="" category="inline-code"></block> _y_</block>
+  <block id="7edfa6272c16cc3e1b7ef52bbf985294" category="list-text"><block ref="05f6b998dcdacf2a7e5882ef776dfa8e" prefix="" category="inline-code"></block> _y_</block>
+  <block id="66b0e02903c6c36ff4685952e8a46ec1" category="paragraph">대신 다음과 같은 메시지가 표시될 수도 있습니다.</block>
+  <block id="db7e8e2b0c1ff16e7d69c69fa0d6a061" category="list-text"><block ref="05f6b998dcdacf2a7e5882ef776dfa8e" prefix="" category="inline-code"></block> _n _</block>
+  <block id="ca2e8c6e7a166833a27d9755f814672b" category="list-text"><block ref="9254f5a10bf0e4d18aa18a91a9321bea" prefix="" category="inline-code"></block> _y_</block>
+  <block id="d0d46e5c203e3a92bef26e001a5e623d" category="list-text"><block ref="616aa2e195f429a92684489246e90f34" prefix="" category="inline-code"></block> _y_</block>
+  <block id="83b207edf8a800f4f88cf102b88cf241" category="list-text">각 프롬프트에 대한 정보를 제공합니다.</block>
+  <block id="f34776f2862555d0fd11d0991ff286ff" category="list-text"><block ref="62188abb740b08015af98427fc26ea8c" prefix="" category="inline-code"></block></block>
+  <block id="c74003b43b828d213916b7196bc60c50" category="list-text"><block ref="9f3c7fcbc9851c468adda9a0e9abe4f2" prefix="" category="inline-code"></block></block>
+  <block id="dc67dd4e83bd586a50c17ea2c94c00d5" category="list-text"><block ref="3b8595d627306d8980fff3bd262d05b2" prefix="" category="inline-code"></block></block>
+  <block id="536aadfad0128887672b66e929f02fcb" category="list-text"><block ref="a6dd61fa165deef585a79e05f8de73b0" prefix="" category="inline-code"></block></block>
+  <block id="a242b56bad1d07089dce8ccb795966f2" category="list-text">복구 프로세스가 완료됩니다.</block>
+  <block id="4730255e1152aa0891d10726285854f6" category="paragraph">일반 부팅 후 최종 검사를 완료하고 저장 공간을 되돌려 부팅 미디어 교체 프로세스를 완료합니다.</block>
+  <block id="3bac3ae452491bc05a59b99b3d2476d6" category="paragraph">6단계로 이동합니다.</block>
+  <block id="070dd7606e33a466d7a8bb82a9a64b17" category="list-text">_storage failover show_명령을 사용하여 타겟 컨트롤러가 반환 준비가 되었는지 확인합니다.</block>
+  <block id="378fa36f6e90b3bf6ddbb070e35b0388" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 _storage failover -fromnode local-only -CFO-aggregates true_ 명령을 사용하여 타겟 컨트롤러 스토리지를 되돌립니다.</block>
+  <block id="bd7b047ae429d755acf6b20e1064e5ce" category="list-text">파트너가 "준비되지 않음"으로 인해 명령이 실패하는 경우 파트너 간에 HA 하위 시스템이 동기화될 때까지 5분 동안 기다립니다.</block>
+  <block id="1bcf977583274fe2567618999a9b0c90" category="list-text">3분 동안 기다린 후 _storage failover show_command를 사용하여 페일오버 상태를 확인합니다.</block>
+  <block id="d92dd32085afaf328cc7fcda13198cc8" category="list-text">clustershell 프롬프트에서 _network interface show -is -home false_명령을 입력하여 홈 컨트롤러와 포트에 없는 논리 인터페이스를 나열합니다.</block>
+  <block id="e396be98bc8257ac03b57843c10e38b9" category="paragraph">인터페이스가 로 나열된 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>_net int revert -vserver Cluster -lif_nodename_ 명령을 사용하여 해당 인터페이스를 홈 포트로 되돌립니다.</block>
+  <block id="62de7d9b4c53e76eb0aa2abbb0821ccd" category="list-text">콘솔 케이블을 대상 컨트롤러로 이동하고 _version -v_ 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
+  <block id="63d74ff14d34f13a62e8eb172d26a62f" category="list-text">를 사용하여<block ref="46353f4e0bb2c136591c37c9eeedcf40" prefix=" " category="inline-code"></block> 출력을 검토합니다.</block>
+  <block id="d9432d5d4d3a21bdc03aa318c2cfdb11" category="list-text">키 관리 서버에 저장된 인증 키의 키 ID를 표시하려면 _security key-manager key query_명령을 사용하십시오.</block>
+  <block id="8064cac27c9219c213e029af9a5800db" category="list-text">= 및 칼럼 = 이외의 값이면<block ref="aac34f614f4514a3f670bae971a30369" prefix=" " category="inline-code"></block><block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="0f456cd0d7a5ae4a393a7b207a83284e" prefix=" " category="inline-code"></block>_security key-manager external restore_명령을 사용하여 인증 키의 키 ID를 복원합니다.</block>
+  <block id="8b6a11a09054c203c222c056a501059f" category="list-text">= 및 칼럼 = 이외의 값이면<block ref="aac34f614f4514a3f670bae971a30369" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="0f456cd0d7a5ae4a393a7b207a83284e" prefix=" " category="inline-code"></block>_security key-manager 온보드 sync_명령을 사용하여 복구된 노드에서 누락된 온보드 키를 동기화합니다.</block>
+  <block id="27b0a5d00d58f515ceda3d56b392bdf7" category="paragraph">security key-manager key query_command 를 사용하여<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block> 모든 인증 키에 대해 칼럼=<block ref="0f456cd0d7a5ae4a393a7b207a83284e" prefix=" " category="inline-code"></block> 을(를) 확인하십시오.</block>
+  <block id="4f95ab1472771ae8e2475d26cfccfefd" category="paragraph">다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.`cluster1: *&gt; system node AutoSupport invoke -node * -type all-message MAINT=2h입니다</block>
+  <block id="46bbc90a4740f73d85b026da0e0ba4db" category="list-text">정상 컨트롤러에서 자동 반환 비활성화:</block>
+  <block id="b719e721c62569ed8b97aaf7ac03691a" category="paragraph">멀티 클러스터 인터커넥트 스위치</block>
+  <block id="237cf241ea2c39cca38863cb459577d8" category="paragraph">다중 클러스터 구성을 사용하면 여러 클러스터가 4x4 및 2x8 노드 구성을 위한 2개의 새로운 참조 구성 파일을 통해 제공되는 동일한 클러스터 스위치를 공유할 수 있습니다.</block>
+  <block id="8020ad245e7cbc2ac49c84b7f4ace684" category="paragraph">ONTAP 9.14.1</block>
+  <block id="0be7ecaeb710959e64858a36fa1f8783" category="inline-link">AFF A1K 를 참조하십시오</block>
+  <block id="c2a8d2daab462dc4e111773660175634" category="list-text"><block ref="c2a8d2daab462dc4e111773660175634" category="inline-link-rx"></block></block>
+  <block id="c61e96543ff55077f64d8dd03940c2c6" category="inline-link">AFF A70 를 참조하십시오</block>
+  <block id="42c132c69bb240c16653198af04a6c29" category="list-text"><block ref="42c132c69bb240c16653198af04a6c29" category="inline-link-rx"></block></block>
+  <block id="1db440d0ff148102407f3995eb4ce33b" category="inline-link">AFF A90 를 참조하십시오</block>
+  <block id="c1e138890e8b119b56757505431c6b24" category="list-text"><block ref="c1e138890e8b119b56757505431c6b24" category="inline-link-rx"></block></block>
+  <block id="8cd7d5cbedf290a9b729cc263d9b289c" category="paragraph">ONTAP 9.15.1</block>
+  <block id="749d1dbcf19baa47625663e5476ad9f4" category="list-text">스토리지 암호화 또는 NVE/NAE를 사용하는 경우 NetApp 온보드 키 관리(OKM) 클러스터 전체 암호에 사용할 수 있습니다.</block>
+  <block id="3fa7c0866aba2253b800fb8f1b9d08dc" category="list-text">각 컨트롤러에 대한 BMC 접근성</block>
+  <block id="8dc1996b26821772c990ddda1d27158c" category="list-text">AutoSupport를 끄고 시스템이 오프라인이 될 것으로 예상되는 기간을 표시합니다.</block>
+  <block id="f25d35773ff0f2436be7da8b7c0afbcf" category="list-text">손상된 섀시에 있는 2개의 노드를 중지합니다.</block>
+  <block id="a775efd15ce512c43b877e33a7f4e2ed" category="paragraph"><block ref="b6619702dec8da7cf250a9139ef9b0f0" prefix="" category="inline-code"></block></block>
+  <block id="70072850ad1f4d17d4786c385e8f20b9" category="admonition">StrictSync 모드에서 운영되는 SnapMirror 동기식 클러스터를 사용하는 클러스터의 경우:<block ref="aaef8b07a47365ee6d9bf14ea36ad5d1" prefix=" " category="inline-code"></block></block>
+  <block id="2990a44118615c0a3bf6cce4a7382d56" category="list-text">가 표시되면 클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다<block ref="e50c9785a9a600201730c59602a210ab" prefix=" " category="inline-code"></block></block>
+  <block id="889f830bf501de78eaa854a4c956e927" category="doc">결함이 있는 부품을 NetApp-AFF A1K으로 반납합니다</block>
+  <block id="66ed54e044d464902b4fc84eae0aaebf" category="doc">온보드 암호화 키 확인 - AFF A1K</block>
+  <block id="0af39fad029d8a54529403cecac5dfcd" category="doc">암호화 복원 - AFF A1K</block>
+  <block id="1ab064b6602aa76e09ccae7297651215" category="doc">복구 이미지를 부팅합니다 - AFF A1K</block>
+  <block id="b32c820e9a6b0c19e598a90100f6ede2" category="doc">부팅 미디어 교체 개요 - AFF A1K</block>
+  <block id="59b85bf8d1d726d67312a9425f7cabac" category="doc">부팅 미디어를 교체합니다. - AFF A1K</block>
+  <block id="ac632c351c050929564cd7a72c3d383a" category="doc">손상된 컨트롤러를 종료합니다. - AFF A1K을 종료합니다</block>
+  <block id="c0fbab8ec26a74970b48b956b885d93b" category="doc">컨트롤러 모듈 하드웨어 - AFF A1K을 교체합니다</block>
+  <block id="62eb40be1c65593a3462e6f5ba4a05a0" category="doc">컨트롤러 모듈 교체 개요 - AFF A1K</block>
+  <block id="a4fbb291103a5430eb9ece2393c095a4" category="doc">컨트롤러 - AFF A1K를 돌려줍니다</block>
+  <block id="fb829c49a3a2da88fb46330449bb960d" category="summary">시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다. RMA 번호 또는 교체 절차에 대한 추가 도움이 필요한 경우 기술 지원 부서(888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양))으로 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
+  <block id="8993dc7b76f8cb7fa94fec3534c4c210" category="doc">전체 시스템 복원 - AFF A1K</block>
+  <block id="5f0eff5741eb1b44c778897a8674fa87" category="paragraph">시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다.</block>
+  <block id="6bcc49329cd2b052a2bddab981fec2e3" category="section-title">1단계: LIF 확인 및 클러스터 상태 확인</block>
+  <block id="61ec4d4962d0f24c38b731c335dcb259" category="doc">시스템 구성 - AFF A1K을 복원하고 확인합니다</block>
+  <block id="8eed652f60c06861a89907936cca366c" category="doc">DIMM-AFF A1K을 교체합니다</block>
+  <block id="ef8131c8fab80a7f6810536e7b19d76a" category="doc">팬을 교체합니다. - AFF A1K</block>
+  <block id="60a0f60c6fda9ab961400c0ed3ca97d6" category="summary">AFF A1K 하드웨어 유지 관리</block>
+  <block id="bb7a55741482c8e763010707020f23d9" category="doc">AFF A1K 하드웨어를 유지 관리합니다</block>
+  <block id="329f086bc28e08fd5ac2e1779761b32a" category="paragraph">AFF A1K 저장 장치 시스템의 경우 다음 구성 요소에 대한 유지 보수 절차를 수행할 수 있습니다.</block>
+  <block id="35c8cbb9ef12137ad48ef7364ffcd530" category="section-title">시스템 관리 모듈</block>
+  <block id="f424eb06e28282360201a36ab719f6c7" category="paragraph">시스템 관리 모듈은 컨트롤러 또는 시스템 유지 관리를 위해 컨트롤러와 콘솔 또는 랩톱 간에 인터페이스를 제공합니다. 시스템 관리 모듈에는 부팅 매체가 포함되어 있으며 시스템 일련 번호(SSN)가 저장됩니다.</block>
+  <block id="3fb7b4296088420fb4e0b9343835ec5f" category="summary">컨트롤러의 관리 네트워크 포트는 스위치에 연결됩니다. HA 인터커넥트 및 클러스터 인터커넥트 포트는 두 컨트롤러 모두에 케이블로 연결됩니다. 컨트롤러 모듈은 주문한 경우 외부 스토리지에 연결됩니다.</block>
+  <block id="b1e60e9c8e3b79ce7200aaa962a901d0" category="doc">하드웨어 케이블 연결 - AFF A1K</block>
+  <block id="0d47251cb5a40d7e8fdd90893a890cb5" category="paragraph">특정 스토리지 시스템 구성에 따라 컨트롤러와 쉘프에 케이블을 연결합니다.</block>
+  <block id="403075fa89afdf5689d3f155524d9e1b" category="paragraph">케이블 커넥터의 당김 탭 방향이 올바른지 케이블 다이어그램의 그림 화살표를 확인합니다.</block>
+  <block id="04c6391623d6bd5d0ac0d7df563f74dc" category="image-alt">케이블 당김 탭 방향의 예</block>
+  <block id="35bd3e31ed449ec51ffdc43a42bdcd8f" category="list-text">스위치에 광 케이블을 연결하는 경우 포트에 케이블을 연결하기 전에 SFP를 컨트롤러 포트에 삽입합니다.</block>
+  <block id="e8dcbbdb0b0cc30021cdb1772e14a12d" category="section-title">1단계: 컨트롤러를 네트워크에 케이블로 연결합니다</block>
+  <block id="6df54967c5941126ef71ad521ce71f57" category="paragraph">다음 절차는 일반적인 구성을 보여 줍니다. 특정 케이블 연결은 스토리지 시스템에 대해 주문된 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="774fc771cbe0562cf589e2e5571e543c" category="open-title">옵션 1: 스위치가 없는 클러스터 케이블 연결</block>
+  <block id="ab3e6f854653e79b55b1aef74734d66a" category="paragraph">스위치 없는 클러스터 연결을 케이블로 연결합니다.</block>
+  <block id="0ce6d01af755d7d63a1db543cd42ef01" category="list-text">클러스터/HA 인터커넥트 포트 E1A와 e1A를 클러스터/HA 인터커넥트 케이블로 e7a에 연결합니다.</block>
+  <block id="883f8ccaa3b7bb186f5d85df551292e7" category="admonition">클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리적 포트를 공유합니다.</block>
+  <block id="29b62d617481485649ea2d5b54fca512" category="image-alt">클러스터 HA 케이블</block>
+  <block id="8c1f3262727530ad8d4652a5b107e167" category="paragraph">* 클러스터/HA 인터커넥트 케이블 *</block>
+  <block id="23fb563ac26a205349d9c7cce9636f14" category="list-text">이더넷 모듈 포트를 호스트 네트워크에 케이블로 연결합니다.</block>
+  <block id="e5878ec206640d3f0489cbe562e56856" category="paragraph">다음은 몇 가지 일반적인 호스트 네트워크 케이블 연결의 예입니다. 특정 시스템 구성은 를 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="d6971cc4d66c44424c9f79edd62c87a4" category="list-text">그림과 같이 이더넷 데이터 네트워크 스위치에 e9a 및 e9b를 케이블로 연결합니다.</block>
+  <block id="4f223663358c0dcb4aac038f73fdf58d" category="admonition">클러스터 및 HA 트래픽에서 시스템 성능을 최대화하려면 호스트 네트워크 연결에 포트 e1b 및 e7b 포트를 사용하지 않는 것이 좋습니다. 성능을 최대화하려면 별도의 호스트 카드를 사용하십시오.</block>
+  <block id="d2163ed76fe91108f8a1e58f08924448" category="paragraph">* 100 GbE 케이블 *</block>
+  <block id="dca4917cf460ca0094ae46e8d7178c17" category="image-alt">100Gb 이더넷 케이블</block>
+  <block id="63498c78e69ef7b5cc7cd5a1c0c3b724" category="image-alt">100Gb 이더넷 네트워크에 케이블 연결</block>
+  <block id="eddbc7579882e3cdebc0716bd1a883cb" category="list-text">10/25 GbE 호스트 네트워크 스위치에 케이블을 연결합니다.</block>
+  <block id="fbb2ead6e1dba22c64b785b1864b9809" category="paragraph">* 10/25GbE 호스트 *</block>
+  <block id="e6db43427a500d394f1d34dcfecf3b50" category="image-alt">10/25GB 이더넷 케이블</block>
+  <block id="204d53c0ad48ec9abe6f3cde34241579" category="image-alt">10/25GB 이더넷 네트워크에 케이블 연결</block>
+  <block id="23b5c21ed8d6bd3d9626d882b8ed5b76" category="list-text">1000BASE-T RJ-45 케이블을 사용하여 컨트롤러 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.</block>
+  <block id="1107155d6b0c900a6485f06681854862" category="image-alt">RJ-45 케이블</block>
+  <block id="9c29eb35e98929529d99ca71cd855f4e" category="paragraph">* 1000BASE-T RJ-45 케이블 *</block>
+  <block id="a8536d671676b42d7c49328e04123a96" category="image-alt">관리 네트워크에 연결합니다</block>
+  <block id="c67ade60c9405661826821f009653f29" category="admonition">아직 전원 코드를 연결하지 마십시오.</block>
+  <block id="09e9d41a74e65e2200df2359e0c54806" category="open-title">옵션 2: 케이블 스위치 클러스터</block>
+  <block id="0b7f474dc87a04642d4a17b892a87553" category="paragraph">스위치된 클러스터 연결을 케이블로 연결합니다.</block>
+  <block id="fe1ed4b5e6a760085b2af448921f0d53" category="list-text">다음과 같은 케이블 연결을 설정합니다.</block>
+  <block id="6166cb0eddbc000f8b888922799ec0c0" category="list-text">컨트롤러 A의 케이블 포트 E1A와 컨트롤러 B의 포트 E1A를 클러스터 네트워크 스위치 A에 연결합니다</block>
+  <block id="c1634d34779ed3f630d8561f06954738" category="list-text">컨트롤러 A의 케이블 포트 e7a와 컨트롤러 B의 포트 e7a를 클러스터 네트워크 스위치 B에 연결합니다</block>
+  <block id="b222cca23840b6a495e76b8c300b08f2" category="image-alt">100Gb 케이블</block>
+  <block id="f1d133e33e29362e931a34312a961d0b" category="image-alt">클러스터 연결을 클러스터 네트워크에 케이블 연결합니다</block>
+  <block id="5a8b74659281e9e3495bfc29767b645c" category="paragraph">* 4포트, 10/25 GbE 호스트 *</block>
+  <block id="ff54d299af9abd1be5b8082a790261aa" category="section-title">2단계: 컨트롤러를 쉘프에 케이블 연결합니다</block>
+  <block id="071bf81b7a0d7e66c24dfdb5f3604a4c" category="paragraph">컨트롤러를 쉘프 또는 쉘프에 케이블을 연결합니다.</block>
+  <block id="8cf6a83f767cc36c3f339af205b3e7d0" category="paragraph">다음 절차는 컨트롤러를 1개 쉘프 및 2개 쉘프에 연결하는 방법을 보여줍니다. 최대 4개의 쉘프를 컨트롤러에 직접 연결할 수 있습니다.</block>
+  <block id="d5a4ec7e98f94395b8939b8bc64155e0" category="open-title">옵션 1: NS224 쉘프 1개에 케이블 연결</block>
+  <block id="ffa3c6d2c04b126c7ca74f9a656eb36e" category="paragraph">각 컨트롤러를 NS224 쉘프의 NSM 모듈에 연결합니다. 그래픽은 각 컨트롤러의 케이블 연결을 보여줍니다. 컨트롤러 A 케이블은 파란색으로, 컨트롤러 B 케이블은 노란색으로 연결합니다.</block>
+  <block id="56af31a9320e84a6619ac8ae861b165a" category="list-text">컨트롤러 A에서 다음 케이블을 연결합니다.</block>
+  <block id="f316f1854f33785f42807636a3284714" category="list-text">포트 e11a를 NSM A 포트 e0a에 연결합니다.</block>
+  <block id="7fd21be5068998e5aac33f1cffcff76c" category="list-text">포트 e11b를 포트 NSM B 포트 e0b에 연결합니다.</block>
+  <block id="2bc2dbfb240bdfb79a6c1bb80f34be8a" category="inline-image-macro">컨트롤러 A e11a 및 e11b - 단일 NS224 쉘프</block>
+  <block id="e8e2e70664d58c738dc5f3e73dd79bbb" category="paragraph"><block ref="e8e2e70664d58c738dc5f3e73dd79bbb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f47ceff0e36392d25c7ff7cd39860ec6" category="list-text">컨트롤러 B에서 다음 케이블을 연결합니다.</block>
+  <block id="a34418430d19dabd71e89f00a9e8e782" category="list-text">포트 e11a를 NSM B 포트 e0a에 연결합니다.</block>
+  <block id="3a95f3cf99705bbbd01d1dd74336e9fd" category="list-text">포트 e11b를 NSM A 포트 e0b에 연결합니다.</block>
+  <block id="182824a7bd82a321df1a100637995a19" category="inline-image-macro">컨트롤러 B 포트 e11a 및 e11b를 단일 NS224 쉘프에 케이블 연결</block>
+  <block id="86ab7b5fab8b30fc8e3619226fb66002" category="paragraph"><block ref="86ab7b5fab8b30fc8e3619226fb66002" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="08c7b8b999017a30f27de344bfc6beb2" category="open-title">옵션 2: NS224 쉘프 2개에 케이블 연결</block>
+  <block id="2aec08b694d0f04216b731c2d38eff0a" category="paragraph">각 컨트롤러를 두 NS224 쉘프의 NSM 모듈에 케이블로 연결합니다. 그래픽은 각 컨트롤러의 케이블 연결을 보여줍니다. 컨트롤러 A 케이블은 파란색으로, 컨트롤러 B 케이블은 노란색으로 연결합니다.</block>
+  <block id="4b079ba797f88f932136bdbd1aa314a0" category="list-text">포트 e11a를 쉘프 1 NSM A 포트 e0a에 연결합니다.</block>
+  <block id="486d7e107c3f396974308ba4cc20a5f9" category="list-text">포트 e11b를 쉘프 2 NSM B 포트 e0b에 연결합니다.</block>
+  <block id="2eaa4fb60d669ed2bf97809a07457f81" category="list-text">포트 e10a를 쉘프 2 NSM A 포트 e0a에 연결합니다.</block>
+  <block id="910336e4e301588a648d82f197dcbad1" category="list-text">포트 e10b를 쉘프 1 NSM A 포트 e0b에 연결합니다.</block>
+  <block id="0f55271b4c6ea651f102c7fc3cd0c694" category="inline-image-macro">컨트롤러 A의 컨트롤러-쉘프 연결</block>
+  <block id="35300d156e654cc20e9c29eb06999674" category="paragraph"><block ref="35300d156e654cc20e9c29eb06999674" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a23f98c3274066686b18c28bfdbf7b2" category="list-text">포트 e11a를 쉘프 1 NSM B 포트 e0a에 연결합니다.</block>
+  <block id="5e82af64ee793cb8b1b3d10f8e325bed" category="list-text">포트 e11b를 쉘프 2 NSM A 포트 e0b에 연결합니다.</block>
+  <block id="2f6df380cd83e22784e9ab6e56edd84d" category="list-text">포트 e10a를 쉘프 2 NSM B 포트 e0a에 연결합니다.</block>
+  <block id="cd510ec7974b62b233e62a6e6a5c727e" category="inline-image-macro">컨트롤러 B의 컨트롤러-쉘프 연결</block>
+  <block id="462dd5d60871bb2319eb46e1da38c42d" category="paragraph"><block ref="462dd5d60871bb2319eb46e1da38c42d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d5bec2eb0018e8e254a2426f768cf678" category="summary">스위치와 랩톱에 대한 연결만 있는 클러스터 검색을 사용하거나 스토리지 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 플랫폼 설정 및 구성을 완료합니다.</block>
+  <block id="e0c6d59cdb58b213183cb0fc7534ee18" category="doc">스토리지 시스템 설치 및 구성을 완료합니다. - AFF A1K</block>
+  <block id="897dc3c4dc954f5e16e901f1eab0854c" category="paragraph">하드웨어를 설치한 후 ONTAP 소프트웨어를 사용하여 스토리지 시스템을 구성 및 관리합니다.</block>
+  <block id="4ba7257f41527371f7a52420787c1085" category="section-title">1단계: 클러스터 정보 수집</block>
+  <block id="e13a4e2099510963f792c4fc1ef4fced" category="paragraph">아직 수집하지 않은 경우 클러스터 관리 인터페이스 포트 및 IP 주소 등 클러스터를 구성하는 데 필요한 정보를 수집합니다.</block>
+  <block id="8c468ee786068bf98fe0b8a71cf946fa" category="inline-link">클러스터 설정 워크시트</block>
+  <block id="34c4c0a38a5ca0192ee4865cdbb0a29c" category="paragraph">클러스터 설정 프로세스 중에 필요한 값을 를 사용하여<block ref="21429355d1404c86c4038169e7df91bc" category="inline-link-rx"></block> 기록합니다. 기본값이 제공되는 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.</block>
+  <block id="4616f779d40b2ecdf1191d9d79c0a350" category="section-title">2단계: 클러스터 네트워크를 검색합니다</block>
+  <block id="b4e52cacc81413e852d2fa47a578fb04" category="paragraph">검색 프로세스를 통해 네트워크에서 스토리지 시스템 컨트롤러를 검색할 수 있습니다.</block>
+  <block id="87d44868bcfa03f5ad272605d74737c1" category="open-title">옵션 1: 네트워크 검색이 활성화되었습니다</block>
+  <block id="604f01e847e2c4e9cd0b9906a9ff2140" category="paragraph">랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 플랫폼 설정 및 구성을 완료할 수 있습니다.</block>
+  <block id="13a5c797fb82f415ef3d13e5c012faf4" category="list-text">랩톱을 관리 스위치에 연결하고 네트워크 컴퓨터 및 장치에 액세스합니다.</block>
+  <block id="f221a54fe8a1d6ecf7668d526c93b0aa" category="image-alt">Windows 파일 탐색기로 컨트롤러를 검색하는 방법</block>
+  <block id="4aec97d731539f50b200414275b82dd7" category="admonition">xxxxx는 대상 노드의 플랫폼 일련 번호입니다.</block>
+  <block id="330cfe945ce3f586f079ea386fb67cff" category="open-title">옵션 2: 네트워크 검색이 활성화되지 않았습니다</block>
+  <block id="688aa74b62c0c2511666ad96b9dc3726" category="paragraph">랩톱에서 네트워크 검색이 활성화되어 있지 않은 경우 ONTAP CLI(Command Line Interface) 클러스터 설정 마법사를 사용하여 구성 및 설정을 완료합니다.</block>
+  <block id="236a4f95ac53e773b32d5263f4f3c76f" category="paragraph">랩톱이 시리얼 콘솔 포트에 연결되어 있고 컨트롤러 전원이 켜져 있는지 확인합니다. 자세한 내용은 을 <block ref="31d9c8c23bc40252f42cad2b21229cbd" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="b2fee2229d33fcf0b97717446435f7bb" category="list-text">첫 번째 노드의 콘솔에 연결합니다.</block>
+  <block id="00a2f26d65c63976ed98d9b8d38880f3" category="paragraph">노드가 부팅된 다음 콘솔에서 클러스터 설정 마법사가 시작됩니다.</block>
+  <block id="f85417ae10b7f79bccdb3735a79b7ec3" category="list-text">클러스터 설정 마법사에서 물으면 노드의 관리 IP 주소를 입력합니다.</block>
+  <block id="932ce8b8d60e3730c547081f25cce2e6" category="section-title">3단계: 클러스터 구성</block>
+  <block id="b265770b187e4a8451ddd37476001903" category="paragraph">NetApp은 System Manager를 사용하여 새 클러스터를 설정할 것을 권장합니다. 설치 지침은 을<block ref="76a0ad9e6d9605be893ded0930762dd1" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="1557b8ad03da8f6954c03ccd61005ac5" category="paragraph">System Manager는 노드 관리 IP 주소 할당, 클러스터 초기화, 로컬 계층 생성, 프로토콜 구성, 연결된 스토리지의 초기 프로비저닝 등 클러스터 설정 및 구성을 위한 간단하고 쉬운 워크플로를 제공합니다.</block>
+  <block id="2ce1349fe67fa0e027bf3526a78ebb93" category="admonition">클러스터가 초기화되면 을 다운로드하고 실행하여 <block ref="48865c7c1d8013246e4e5f705a9105de" category="inline-link-rx"></block> 설정을 확인하십시오.</block>
+  <block id="ed198c6c65dda3bfcee47cc329346a10" category="summary">스토리지 시스템을 캐비닛 또는 통신 랙에 설치합니다.</block>
+  <block id="94ebd1127cf45d2e2e1f6f1b0cd35269" category="doc">AFF A1K 하드웨어를 설치합니다</block>
+  <block id="7acdb30933a12f95dfea26017bada1f5" category="paragraph">다음 지침은 빈 캐비닛이나 텔코 랙에 하드웨어를 설치하는 방법을 설명합니다. 캐비닛이 미리 채워져 있으면 이 단계를 건너뜁니다.</block>
+  <block id="dfdc73d42700a9c3fdaeacd939a51a4f" category="inline-link">안전 고지</block>
+  <block id="ab68982517ac3ad46c0076188c40b44c" category="list-text">설명서를 검토하고<block ref="cf650561cfd1ad2dfbe54c8781566683" category="inline-link-rx"></block> 하드웨어 이동 및 설치에 대한 주의 사항을 이해해야 합니다.</block>
+  <block id="ba4a0871133faabe4aa77db489cdd95f" category="list-text">지침은 레일 키트와 함께 포장되어 있어야 합니다.</block>
+  <block id="8e1aabd1c656abc178babd71f8776b44" category="list-text">플랫폼 및 선반의 무게와 관련된 안전 문제를 숙지해야 합니다.</block>
+  <block id="e55a9011c423c880adfcc3c86f8853a4" category="list-text">키트에 포함된 지침에 따라 필요에 따라 플랫폼 및 선반용 레일 키트를 설치합니다.</block>
+  <block id="5fa8d497851dfe0abacec979a3120dc8" category="list-text">캐비닛 또는 통신 랙에 플랫폼을 설치하고 고정합니다.</block>
+  <block id="880290b720b791ab429f09f225910ebf" category="list-text">캐비닛 또는 통신 랙의 중앙에 있는 레일 위에 플랫폼을 놓은 다음 아래쪽에서 플랫폼을 지지하고 제자리에 밀어 넣습니다.</block>
+  <block id="7ff61639824e703bd4a303ea89a779de" category="list-text">포함된 장착 나사를 사용하여 플랫폼을 캐비닛이나 텔코 랙에 고정합니다.</block>
+  <block id="a21ee0e1df8582726afc6306cc99ef3b" category="list-text">쉘프 또는 쉘프 설치:</block>
+  <block id="41d0162b829c86f804973e362022ee25" category="list-text">선반의 후면을 레일에 놓은 다음 하단에서 선반을 지지하고 캐비닛이나 텔코 랙에 밀어 넣습니다.</block>
+  <block id="f27419cb0b36bb39cc7c4466769ccdbf" category="paragraph">여러 쉘프를 설치하는 경우 첫 번째 쉘프를 컨트롤러 바로 위에 놓습니다. 두 번째 쉘프를 컨트롤러 바로 아래에 배치합니다. 추가 드라이브 쉘프에 대해 이 패턴을 반복합니다.</block>
+  <block id="6bbef5157a3a6aedb6bc6c893061aafc" category="list-text">포함된 장착 나사를 사용하여 캐비닛이나 텔코 랙에 쉘프를 고정합니다.</block>
+  <block id="9befb49ff1b56070c1ef21476a709671" category="list-text">케이블 관리 장치를 플랫폼 후면에 연결합니다.</block>
+  <block id="6b7aa880220c7f598440de8d8a0f944b" category="image-alt">케이블 관리 장치를 설치합니다</block>
+  <block id="b647ec81f6bfcb450169641046ccaaca" category="list-text">플랫폼 전면에 베젤을 부착합니다.</block>
+  <block id="0e0e2b2ed8789596071dfbf76e75f335" category="summary">AFF A1K 스토리지 시스템을 설치 및 설정하고 ONTAP 시스템에 노드로 배포하려면 다음 단계를 따르십시오.</block>
+  <block id="49879e1937eb584d6d1329cf32f36c17" category="doc">설치 설정 워크플로 - AFF A1K</block>
+  <block id="9eda15b0c07f5fb1e2490feec4e5ae37" category="paragraph">AFF A1K 스토리지 시스템을 설치, 설정 및 배포하려면 다음 워크플로우 단계를 따르십시오.</block>
+  <block id="2be710d107cc8e46959e3e62e4dd4ce3" category="inline-link-macro">설치를 준비합니다</block>
+  <block id="9043ab3a65cd1350dbda4be47f21ec5c" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="5011908086784bfaa4525017596fbe2f" category="inline-link-macro-rx"></block></block>
+  <block id="ae37677074f9ff9d8928c0f76565c1f8" category="paragraph">설치를 준비하려면 현장 준비, 환경 및 전기 요구 사항, 충분한 랙 공간이 있는지 확인해야 합니다. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.</block>
+  <block id="543e6a3c9b07a3642afb462fba582642" category="inline-link-macro">하드웨어를 설치합니다</block>
+  <block id="0daf67323f6374a80f12afc31c54ae52" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="3068911acb0b71d1c5f064869e9b802c" category="inline-link-macro-rx"></block></block>
+  <block id="3a172b938ebc0bcb033a917bc78949f3" category="paragraph">하드웨어를 설치하려면 플랫폼 및 선반용 레일 키트를 설치한 다음 캐비닛이나 텔코 랙에 플랫폼을 설치하고 고정합니다. 그런 다음 선반을 레일에 밀어 넣습니다. 마지막으로 케이블 관리 장치를 플랫폼 후면에 연결하여 케이블을 체계적으로 배선합니다.</block>
+  <block id="ea6245a5aad1d347d3bfd8727ccbe15c" category="inline-link-macro">하드웨어 케이블 연결</block>
+  <block id="edbddbe119f4ad198500b1c1e7ba4f52" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="126f36101e06fcd4dd487e889fcb7145" category="inline-link-macro-rx"></block></block>
+  <block id="dfdac243a395e5b1ba82e312c215986f" category="paragraph">하드웨어를 케이블로 연결하려면 먼저 컨트롤러를 네트워크에 케이블로 연결한 다음 컨트롤러를 쉘프에 케이블을 연결합니다.</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="b2b76e77a7b6cf193e3439cb4a6ff4cc" category="inline-link-macro">스토리지 시스템의 전원을 켭니다</block>
+  <block id="b6180a89c068535cbdcabc203f7dfa6a" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="1404b70315f2fceae786975a12b854e5" category="inline-link-macro-rx"></block></block>
+  <block id="046a5bc73524f6b601e10aac7dad5c7c" category="paragraph">시스템 전원을 켜려면 먼저 각 NS224 쉘프의 전원을 켜고 고유한 쉘프 ID를 할당하여 설정 내에서 각 쉘프가 구분되도록 해야 합니다. 그런 다음 컨트롤러의 전원을 켭니다. 마지막으로 제공된 고정 장치를 사용하여 각 전원 공급 장치의 전원 케이블을 고정합니다.</block>
+  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
+  <block id="32faffb9b7b89515bab5605b39a5c57d" category="inline-link-macro">스토리지 시스템 설정을 완료합니다</block>
+  <block id="6e64cb3fdf6eb566ca2c753432f1247f" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="ed796137dcbf61e6432604e7b2936e62" category="inline-link-macro-rx"></block></block>
+  <block id="aae7e85311563575e46976e45988721f" category="paragraph">시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 웹 기반 인터페이스인 System Manager에 액세스할 수 있습니다. 설정 마법사를 통해 클러스터 구성을 시작할 수 있습니다. 또는 CLI(Command Line Interface)를 사용할 수도 있습니다.</block>
+  <block id="079541787256810512e79fe819711d61" category="summary">전원 케이블을 연결하고 쉘프 및 컨트롤러의 전원을 켭니다.</block>
+  <block id="c2b963a7671a8f77c637646d3e8c76a5" category="doc">스토리지 시스템의 전원을 켭니다. AFF A1K</block>
+  <block id="334084b3d6aab4c485e6aeead3639ada" category="paragraph">네트워크와 쉘프 케이블을 연결한 후 컨트롤러 및 쉘프에 전원을 공급할 준비가 되었습니다.</block>
+  <block id="0b5c1681fb8f009a141f0c7d0f2d8f64" category="section-title">1단계: 쉘프 전원을 켜고 쉘프 ID를 할당합니다</block>
+  <block id="8d24ecb081b813a63dd1dda9aad1d93c" category="paragraph">ONTAP 스토리지 시스템에서 각 NS224 쉘프는 고유한 쉘프 ID로 구별됩니다. 이 ID는 쉘프가 스토리지 시스템 설정 내에서 구분되도록 합니다. 기본적으로 쉘프 ID는 '00' 및 '01'로 할당되지만 스토리지 시스템 전체에서 고유성을 유지하기 위해 이러한 ID를 조정해야 할 수도 있습니다.</block>
+  <block id="4acf2e1827dc9d94e8643d89bb45be93" category="list-text">쉘프 ID가 적용되려면 쉘프의 전원을 껐다가 다시 켜기(두 전원 코드를 모두 뽑은 다음, 적절한 시간을 기다린 다음 다시 꽂아야 합니다).</block>
+  <block id="90b5c3b3e8b76a473c431858d638eccb" category="list-text">전원 코드를 선반에 먼저 연결하고 전원 코드 고정대로 제자리에 고정한 다음 전원 코드를 다른 회로의 전원에 연결하여 선반의 전원을 켭니다.</block>
+  <block id="aa4d119638bea60a8850d8c9e0b57b86" category="paragraph">셸프의 전원이 켜지고 전원에 연결되면 자동으로 부팅됩니다.</block>
+  <block id="67cfcbdbfb87a54aadf338e218c38216" category="list-text">왼쪽 끝 캡을 제거하여 전면판 뒤의 셸프 ID 버튼에 액세스합니다.</block>
+  <block id="f044e75ec5037aabefb204d1365ba96b" category="image-alt">NS224 쉘프 ID를 변경합니다</block>
+  <block id="d8147b4a0f272144c59f006b412b8290" category="image-alt">[설명 번호 2</block>
+  <block id="8c5529e435c4992332c3afef54410f4e" category="image-alt">[설명 번호 3</block>
+  <block id="1e7068fa54071c2235730ac32aea59df" category="image-alt">[설명 번호 4</block>
+  <block id="7d080ef2a38b64e6cac5c0ae019e1a04" category="list-text">종이 클립의 곧게 편 끝이나 끝이 뾰족한 볼 포인트 펜을 작은 구멍에 삽입합니다.</block>
+  <block id="6344f7fd68670da7ea2e25f860ab47c7" category="list-text">쉘프 ID가 적용되도록 쉘프 전원을 10초 이상 껐다가 다시 켭니다.</block>
+  <block id="8dd5b39a083288c66f9b37e4b47571ed" category="list-text">쉘프의 두 전원 공급 장치에서 전원 코드를 뽑습니다.</block>
+  <block id="2fd334af24d7f85b4be7ae87f6cc3fd5" category="list-text">10초 동안 기다립니다.</block>
+  <block id="f4eba532dc9721310c35cdad2e0831ac" category="list-text">전원 코드를 쉘프 전원 공급 장치에 다시 꽂아 전원을 껐다가 다시 켭니다.</block>
+  <block id="b1ea51baf980ec6bb00ca1b7b419d506" category="section-title">2단계: 컨트롤러의 전원을 켭니다</block>
+  <block id="da22bb3ea79ddb2366d539465852f273" category="list-text">랩톱을 직렬 콘솔 포트에 연결하여 컨트롤러에 전원이 공급될 때 부팅 순서를 모니터링할 수 있습니다.</block>
+  <block id="943e3a7c8a0476b63130b5a3dfab2ef1" category="list-text">노트북의 직렬 콘솔 포트를 N-8-1에서 115,200보드로 설정합니다.</block>
+  <block id="04112f6af1c35028ff6da3640556c14c" category="admonition">직렬 콘솔 포트를 구성하는 방법에 대한 지침은 노트북의 온라인 도움말을 참조하십시오.</block>
+  <block id="c7d14c04a57d9e31aaae62ee110f2cd9" category="list-text">콘솔 케이블을 노트북에 연결하고 플랫폼과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 직렬 콘솔 포트를 연결합니다.</block>
+  <block id="dc4cb3e8c6b9abe025aa10b2d8d4b6f5" category="list-text">랩톱을 관리 서브넷의 스위치에 연결합니다.</block>
+  <block id="5dc15886a7be0b02974c471249fd2702" category="image-alt">콘솔 연결</block>
+  <block id="9e7e8b48adc159107d0baf9021253c61" category="list-text">관리 서브넷에 있는 주소를 사용하여 랩톱에 TCP/IP 주소를 할당합니다.</block>
+  <block id="d4b97f0234af8d33d5ad6190a7930ff4" category="image-alt">일반 전원 연결 다이어그램</block>
+  <block id="1231fe933f3b46c84db2f5066eca43a5" category="list-text">플랫폼이 부팅되기 시작합니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다.</block>
+  <block id="71abffb89587fc128eb09ec9ef2dd7e1" category="list-text">LED가 깜박이고 팬이 시작되면서 컨트롤러에 전원이 들어오고 있음을 나타냅니다.</block>
+  <block id="5e90eef3467966790ef48f7bc66eaea8" category="list-text">팬이 처음 시동될 때 매우 큰 소음이 발생할 수 있습니다. 시동 중 큰 팬 소음이 발생하는 것은 정상입니다.</block>
+  <block id="671754b07475807f952083aca6f98a97" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 케이블을 고정합니다.</block>
+  <block id="b20f6daaff695ed207299929a85ec2f0" category="summary">AFF A1K 플랫폼 설치를 준비합니다.</block>
+  <block id="7322abed84a9319ae754d84788be0a04" category="doc">설치 준비 - AFF A1K</block>
+  <block id="b08289f100b75f4c534e1d2f7b065d98" category="inline-link-macro">클러스터를 구성합니다</block>
+  <block id="4df010254bccca3ca04b1ea2f27bc98d" category="list-text">를 사용하여<block ref="21429355d1404c86c4038169e7df91bc" category="inline-link-rx"></block> 필요한 값을 <block ref="5fecf2f883e4e59df3d0a6a1bcd5e808" category="inline-link-macro-rx"></block>기록합니다. 기본값이 제공되는 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.</block>
+  <block id="4157e2eb4dd8641bf3242a14b2dfed09" category="list-text">하드웨어 설치를 완료하는 데 필요한 모든 추가 장비와 도구가 있는지 확인합니다.</block>
+  <block id="d9a73103885ae8b7024a16f9b7de34b7" category="list-text">ESD 스트랩</block>
+  <block id="1cf76f3395dbf84a39ec8781dc375709" category="list-text">NS224 선반 ID 설정을 위한 종이 클립 또는 끝이 뾰족한 볼펜</block>
+  <block id="32271edc7814b81370e65a0b9ea22010" category="list-text">USB/직렬 연결이 있는 랩톱 또는 콘솔</block>
+  <block id="5c454c254f4e346b0d54dac30e743b57" category="list-text">웹 브라우저에 액세스하여 스토리지 시스템을 구성합니다</block>
+  <block id="97c8363ab8f2bf90b40d701079ee1b9b" category="list-text">플랫폼 무게와 관련된 안전 문제를 숙지해야 합니다.</block>
+  <block id="ce20e4d335b040b9531723f1ead004ab" category="paragraph">완전히 장착된 A1K 플랫폼은 무게가 최대 28.5kg(62.83lbs)이며 유압 리프트를 올리거나 사용하려면 2명이 필요합니다.</block>
+  <block id="00db13616a21c862d199d7fae938549d" category="image-alt">AFF A1K 인양 주의 아이콘</block>
+  <block id="4e170b28ebb6850991292afb9c2051de" category="list-text">선반의 무게와 관련된 안전 문제를 알고 있어야 합니다.</block>
+  <block id="e3c1fd502d61f3f93d6f9ebbb32ced79" category="paragraph">완전히 장착된 선반은 무게가 최대 30.29kg(66.78lbs)이며 유압 리프트를 사용하거나 들어 올리려면 2명이 필요합니다. 선반 무게가 불균형하게 되므로 선반 무게를 줄이기 위해 선반 구성 요소(선반 전면 또는 후면의)를 제거하지 마십시오.</block>
+  <block id="c55a46464ae8350cc2bff0a097df93e1" category="image-alt">NS224 인양 주의</block>
+  <block id="935ac3c2bb6566a5dc2ab9114aec6183" category="list-text">스토리지 시스템을 통과하는 공기 흐름은 베젤 또는 엔드 캡이 설치된 전면에서 들어오고 포트가 있는 후면에서 배출됩니다.</block>
+  <block id="92c8397408f55d9526d554c55cde3d22" category="section-title">1단계: 사이트를 준비합니다</block>
+  <block id="0409fe2e24b1b8f51df857a1319fa881" category="paragraph">사용할 사이트 및 캐비닛 또는 랙이 스토리지 시스템의 사양을 충족하는지 확인하십시오.</block>
+  <block id="0e2d8e6b1b2e831a550a22ebf28da119" category="list-text">에 표시된 대로 작업장이 플랫폼의 환경 및 전기 요구 사항을 충족하는지<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>확인합니다.</block>
+  <block id="0b75c01928f08a952353b4ed76796fb5" category="list-text">충분한 랙 공간이 있는지 확인합니다.</block>
+  <block id="588fcd6ecf982925ddac393983abe360" category="list-text">플랫폼의 HA 구성이 4U입니다</block>
+  <block id="da3fb29b9c49b56a1258104d41af01b0" category="list-text">NS224 쉘프당 2U</block>
+  <block id="58289cba8eae4ebda5681e0e7e10f324" category="list-text">플랫폼 근처에 필요한 네트워크 스위치를 설치합니다.</block>
+  <block id="11b5963f8c4ca653ab5f43bc4b9828df" category="inline-link">스위치 설명서</block>
+  <block id="f2f64ae8a8810988ba30737729696726" category="paragraph">설치 지침 및 호환성 정보는 를<block ref="664f8ad712a885ab177a41fa3298f95f" category="inline-link-rx"></block> <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="6630a85163683d2127a4b50c91d77093" category="section-title">2단계: 상자의 포장을 풉니다</block>
+  <block id="8214ba6045bea7b27c21955011903997" category="paragraph">모든 상자의 포장을 풀고 내용물을 포장 명세서에 있는 항목과 비교합니다.</block>
+  <block id="82174a976e9a37564a41e6138a110eb6" category="list-text">모든 상자를 조심스럽게 열고 정리된 방식으로 내용물을 배치합니다.</block>
+  <block id="d6aed2118da6ba77f55936d16677727f" category="list-text">포장을 푼 내용물과 포장 명세서의 목록을 비교합니다.</block>
+  <block id="6056345394434bf38ce0cd6fc7155a3e" category="admonition">배송 상자 측면의 QR 코드를 스캔하여 포장 목록을 얻을 수 있습니다.</block>
+  <block id="1726196375cd4d9085528facd587a31e" category="paragraph">다음 항목은 상자에 표시될 수 있는 내용 중 일부입니다.</block>
+  <block id="3a5ea134befe8869fed079290f956fd1" category="paragraph">상자에 들어 있는 모든 항목이 포장 명세서의 목록과 일치하는지 확인합니다. 불일치 사항이 있는 경우 추가 조치를 위해 메모하십시오.</block>
+  <block id="958c530ea1ae0e18b942f8784148734c" category="cell">* 하드웨어 *</block>
+  <block id="09ff86ce1246a36d79f5d417bc9fb6be" category="cell">* 케이블 *</block>
+  <block id="419f3742e6de8e0ec4b22cce005e7630" category="list-text">플랫폼</block>
+  <block id="27369e02201cfd95107ef7fe0fe1a46c" category="list-text">쉘프</block>
+  <block id="45e29b9394f4cac59a4b24854556dec2" category="list-text">지침이 포함된 레일 키트(옵션)</block>
+  <block id="680d900a0d52fdf0778ee2a5588f6f69" category="list-text">케이블 관리 장치</block>
+  <block id="efb4c0c41cf8767bf0f9361a8c61a50a" category="list-text">베젤</block>
+  <block id="7ceeb9e2de47574891152d45e033aea1" category="list-text">전원 코드</block>
+  <block id="b2cdf9589096f203f816541f43a15f6c" category="list-text">네트워크 케이블</block>
+  <block id="06d2646a8077631818b55a12dc3c58ac" category="list-text">관리 이더넷 케이블(RJ-45 케이블)</block>
+  <block id="3ad4852daca6060d9a43783d0d67578c" category="list-text">USB-C 직렬 포트 케이블</block>
+  <block id="8fb8b901c9406f66b944ce69ca368bef" category="list-text">스토리지 케이블(추가 스토리지를 주문한 경우)</block>
+  <block id="a824ea8f6ce3f1963a3ab81dff178919" category="section-title">3단계: 하드웨어를 등록합니다</block>
+  <block id="885791cdc23c6886e9b36f9ec6e17613" category="paragraph">플랫폼을 등록하면 지원 혜택이 제공됩니다.</block>
+  <block id="23a47645f6fbd975494d974f8b3133df" category="list-text">사용 중인 플랫폼에 해당하는 시스템 일련 번호를 찾습니다.</block>
+  <block id="501009762675d8b94f6d05080102eaa1" category="paragraph">포장 명세서, 확인 이메일 또는 컨트롤러의 시스템 관리 모듈에서 포장을 푼 후 번호를 찾을 수 있습니다.</block>
+  <block id="8a7ac8ffae90ca0a1caaddb0f33069c2" category="list-text">NetApp 지원 사이트 로 이동합니다<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block>.</block>
+  <block id="d1cc88bda5b2251b480ce496987d8474" category="list-text">하드웨어 등록:</block>
+  <block id="8f45a9f1fcb944bee42c078bdeacd8ac" category="cell">귀하의 경우...</block>
+  <block id="e3df4624e4d36502b5d044730eab97cc" category="cell">다음 단계를 따르십시오...</block>
+  <block id="d3f2dc7623074c370346f082b621f2db" category="paragraph">더 많은 워크로드 추가)</block>
+  <block id="8a55a5b89690f6046e6de8dd649ff837" category="list-text">사용자 이름과 암호를 사용하여 로그인합니다.</block>
+  <block id="5c83cedabfd78baf337988a092bcf317" category="list-text">시스템 * &gt; * 내 시스템 * 을 선택합니다.</block>
+  <block id="1f122c4c30234dec74d765075fd1f45f" category="list-text">새 시스템의 일련 번호가 나열되어 있는지 확인합니다.</block>
+  <block id="d193a53b34315bee1bed499f665686ce" category="list-text">그렇지 않은 경우 새 NetApp 고객에 대한 지침을 따르십시오.</block>
+  <block id="daee797d0bf63a91fe069e1df88d7923" category="paragraph">신규 NetApp 고객</block>
+  <block id="12dc2a66a130388ec482398caa6ce95b" category="list-text">지금 등록 * 을 클릭하고 계정을 만듭니다.</block>
+  <block id="89cc8de091278e0fb0686833ac6a7982" category="list-text">시스템 * &gt; * 시스템 등록 * 을 선택합니다.</block>
+  <block id="c04746c1c8deb45f0567d25441428d64" category="list-text">제품 시스템 일련 번호 및 요청된 세부 정보를 입력합니다.</block>
+  <block id="9fcab783d1ffadeafb84de00efe883d9" category="paragraph">등록이 승인되면 필요한 소프트웨어를 다운로드할 수 있습니다. 승인 프로세스는 최대 24시간이 걸릴 수 있습니다.</block>
+  <block id="43322d1e43d632d017f923484e7efa80" category="summary">PCIe 카드를 교체하려면 카드에 케이블을 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 분리한 다음 SFP 및 QSFP 모듈을 다시 설치해야 합니다.</block>
+  <block id="240a5f8ed7bc82e0c089904a09102a91" category="doc">입출력 모듈 추가 - AFF A1K</block>
+  <block id="165e0559b98c0c22e37b61a08f8854d6" category="summary">결함이 있는 구성 요소를 공급자로부터 받은 교체 필드 교체 가능 장치(FRU) 구성 요소로 교체해야 합니다.</block>
+  <block id="6b3ba57eee03f197f451232d78a67ae7" category="doc">추가 및 교체 입출력 모듈 개요 - AFF A1K</block>
+  <block id="15b6d818d073c06a42ebd390b182c2c8" category="doc">입출력 모듈 교체 - AFF A1K</block>
+  <block id="58a851f6216724f76b5a14d7c8fad39c" category="paragraph">부팅 매체는 시스템이 부팅할 때 사용하는 ONTAP 이미지 파일의 기본 및 보조 세트를 저장합니다.</block>
+  <block id="be5d336a89e5897803fb4f7e791dafd6" category="paragraph">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 ONTAP 운영 체제 소프트웨어를 실행합니다.</block>
+  <block id="577d2d3976799dbcd1fc23ee08a572cc" category="paragraph">듀얼 인라인 메모리 모듈(DIMM)은 일종의 컴퓨터 메모리입니다. 컨트롤러 마더보드에 시스템 메모리를 추가하기 위해 설치됩니다.</block>
+  <block id="83ec06d2d85deb94568cf05665746cc6" category="paragraph">팬은 컨트롤러를 냉각시킵니다.</block>
+  <block id="f7ce037e5340ee9ac2b2cd474ee29778" category="paragraph">NVRAM(Non-Volatile Random Access Memory)은 시스템 전원이 꺼질 경우 컨트롤러가 전송 중인 데이터를 보호하고 저장할 수 있도록 하는 모듈입니다. 시스템 ID는 NVRAM 모듈에 상주합니다. 교체된 경우 컨트롤러는 교체용 NVRAM 모듈의 새 시스템 ID로 가정합니다.</block>
+  <block id="d138e90428f37a60387c8577b6e009b8" category="section-title">NV 배터리</block>
+  <block id="971b00f795c3753e8fa0422eed0b0d3e" category="paragraph">NVRAM 배터리는 정전 후 전송 중인 데이터에 플래시 메모리로 디스테이징되는 동안 NVRAM 모듈에 전원을 공급하는 역할을 합니다.</block>
+  <block id="807b26d7111f209057a30d265b88f6ae" category="paragraph">I/O 모듈(입/출력 모듈)은 컨트롤러와 데이터를 교환해야 하는 여러 장치 또는 시스템 간의 중간 역할을 하는 하드웨어 구성 요소입니다.</block>
+  <block id="517e65cbfa02ca306eec69200485822d" category="paragraph">전원 공급 장치는 컨트롤러에 중복 전원을 제공합니다.</block>
+  <block id="aebd84aedf30ca3854097975c59229ed" category="doc">NV 배터리 교체 - AFF A1K</block>
+  <block id="ef0c1c9390131a9f1f9560791151e3fd" category="summary">NVRAM 모듈은 NVRAM12 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.</block>
+  <block id="f133a8ed8a0b7a76b6c1b28bc00b0fb1" category="doc">NVRAM-AFF A1K을 교체합니다</block>
+  <block id="6794ac4e17218aaa4a21099cb6c428a5" category="doc">전원 공급 장치 교체 - AFF A1K</block>
+  <block id="5dae7574a50de0a82f041d98e2b363d4" category="doc">실시간 클럭 배터리(AFF A1K)를 교체합니다</block>
+  <block id="7a0d50897c7e82eeae5a76e821ede64f" category="summary">교체해야 합니다.</block>
+  <block id="8696c3a11bb55bf4544256cfb1b2bd94" category="doc">시스템 관리 모듈 교체 - AFF A1K</block>
+  <block id="cca32d9f7020830ce64904a8c1aecba9" category="doc">결함이 있는 부품을 NetApp-AFF A70, AFF A90으로 반납합니다</block>
+  <block id="24adca74cd4521b9f4f4a8ab1033a6d8" category="doc">온보드 암호화 키 확인 - AFF A70, AFF A90</block>
+  <block id="ce327d04876efb8d4a59808bf378cece" category="doc">암호화 복원 - AFF A70, AFF A90</block>
+  <block id="a79b7b4459526eba247c33a94309858e" category="doc">복구 이미지를 부팅합니다 - AFF A70, AFF A90</block>
+  <block id="1123346d505790a2a7f4001b490d0c4c" category="doc">부팅 미디어 교체 개요 - AFF A70, AFF A90</block>
+  <block id="b565c8083612023ff18332e3f18570fb" category="doc">부팅 미디어를 교체합니다(AFF A70, AFF A90)</block>
+  <block id="7a78f14a4a6a79a25fb9d91deac29f7f" category="doc">AFF A70, AFF A90 컨트롤러를 종료합니다</block>
+  <block id="c51acb19ea5c85f590681561a6632ee7" category="doc">복원 및 교체 프로세스 - AFF A70, AFF A90 을 완료합니다</block>
+  <block id="1f6784a27e692a917bbc139bcab6f062" category="doc">하드웨어 이동 및 교체 - AFF A70, AFF A90</block>
+  <block id="3fd2ece46b2cae70b208d459839b7ea6" category="doc">섀시를 교체합니다(AFF A70, AFF A90)</block>
+  <block id="47cc53453bdbc0a412f7d6260da64a94" category="doc">AFF A70, AFF A90 등의 컨트롤러를 종료합니다</block>
+  <block id="ea75031f570b7a55db89689259c07998" category="doc">컨트롤러 모듈 하드웨어(AFF A70, AFF A90)를 교체합니다</block>
+  <block id="b5c682512ae7ddb81d1086428c97af49" category="doc">컨트롤러 모듈 교체 개요 - AFF A70, AFF A90</block>
+  <block id="729f102b3131803a07803cd2f223d3c3" category="summary">스토리지를 재부팅해야 합니다.</block>
+  <block id="5026bf36473d8bd98b2f832968a63c84" category="doc">재배열 및 컨트롤러 - AFF A70, AFF A90</block>
+  <block id="e01e42ef6a8116389e0f89dad6068e42" category="doc">전체 시스템 복원 - AFF A70, AFF A90</block>
+  <block id="7b78a43d2ef1cd56888972224b322cba" category="section-title">1단계: LIF 확인 및 클러스터 상태 확인</block>
+  <block id="44e04fa20bc233bee93d06b7b58ece31" category="doc">손상된 컨트롤러(AFF A70, AFF A90)를 종료합니다</block>
+  <block id="9a05f1c61c530c04ac5d33357330d517" category="doc">시스템 구성(AFF A70, AFF A90)을 복원하고 확인합니다</block>
+  <block id="71a75f66de0b5a1e6f82e2ce5d803726" category="doc">DIMM을 교체합니다. - AFF A70, AFF A90</block>
+  <block id="dbdf350afb243fd4cd0befedfd1602f1" category="doc">SSD 드라이브 교체 - AFF A70, AFF A90</block>
+  <block id="9e2c31d5c46d92fa7a0e1d87de2b8f61" category="doc">팬 모듈 교체 - AFF A70, AFF A90</block>
+  <block id="8764eb166fd4f85322158239bc87e88c" category="summary">AFF A70, AFF A90 하드웨어를 유지 관리합니다</block>
+  <block id="c79fbe33ba055331bbb64ae5c44ca6e3" category="doc">AFF A70, AFF A90 하드웨어 유지 관리</block>
+  <block id="6f088e5455bf9d5415570fed055240bc" category="paragraph">AFF A70 및 A90 보관 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="fd49219a793e799e8711a9d83ceab53e" category="doc">하드웨어 케이블 연결 - AFF A70, AFF A90</block>
+  <block id="1fba4a247f94ae0adebcaa57fd54e768" category="image-alt">케이블 당김 탭 방향의 예</block>
+  <block id="261ca3ab85aacb02f4f06f9776818d57" category="paragraph">다음 절차는 일반적인 구성을 보여 줍니다. 특정 케이블 연결은 스토리지 시스템에 대해 주문된 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="d4f534f2d370cb0f29178f31331b3536" category="image-alt">100Gb 이더넷 네트워크에 케이블 연결</block>
+  <block id="06d20f31fccdd7b31221a7b1e1ed37d1" category="image-alt">10/25Gb 케이블</block>
+  <block id="95b007a39e5ec5c4d9b8e17f2ec0424d" category="image-alt">RJ45 케이블</block>
+  <block id="fffbddfa6c26d83bdcb33f97eb7e513d" category="paragraph">다음 절차는 컨트롤러를 1개 쉘프 및 2개 쉘프에 연결하는 방법을 보여줍니다. 컨트롤러를 최대 4개의 쉘프에 연결할 수 있습니다.</block>
+  <block id="9dcc8dc3a558729dc61c31c84e00c3e4" category="list-text">컨트롤러 A 포트 e11a를 NSM A 포트 e0a에 연결합니다.</block>
+  <block id="918349807746744597338bfd03ce241f" category="list-text">컨트롤러 A 포트 e11b를 포트 NSM B 포트 e0b에 연결합니다.</block>
+  <block id="956aab6b8733f2140ed524c12e37f4bd" category="paragraph"><block ref="956aab6b8733f2140ed524c12e37f4bd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8861b3a8d06aef3022e3d2cfa014512" category="list-text">컨트롤러 B 포트 e11a를 NSM B 포트 e0a에 연결합니다.</block>
+  <block id="6a5052a8c54e3e46dc1452dcb9c98eaa" category="list-text">컨트롤러 B 포트 e11b를 NSM A 포트 e0b에 연결합니다.</block>
+  <block id="a35e9f25f382abbe5abcfeab4b53167c" category="inline-image-macro">컨트롤러 B e11a 및 e11b - 단일 NS224 쉘프</block>
+  <block id="7f958fb1f7822d334698802022ec3956" category="paragraph"><block ref="7f958fb1f7822d334698802022ec3956" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ca923df64a292d4c64ae8ba3bd1fa16d" category="list-text">컨트롤러 A에서 다음 케이블을 연결합니다.</block>
+  <block id="622567f759d81c4e71f74d57546ee33a" category="list-text">포트 e11a를 쉘프 1, NSM A 포트 e0a에 연결합니다.</block>
+  <block id="fa65b92c92e4c6583d514be0324b7aae" category="list-text">포트 e11b를 쉘프 2,NSM B 포트 e0b에 연결합니다.</block>
+  <block id="884b219f88a01bf8fe5bf55db135e450" category="list-text">포트 e8a를 쉘프 2, NSM A 포트 e0a에 연결합니다.</block>
+  <block id="3d76afb25e68cbf6ec448ba97c8d77a4" category="list-text">포트 e8b를 쉘프 1,NSM B 포트 e0b에 연결합니다.</block>
+  <block id="f574117739b3e8dc40831cbb75e78d7f" category="paragraph"><block ref="f574117739b3e8dc40831cbb75e78d7f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7c74d901dd29a71ee51992bf6462dd04" category="list-text">포트 e11a를 쉘프 1, NSM B 포트 e0a에 연결합니다.</block>
+  <block id="1e063e8299a01fcdf8268f46edf62dfe" category="list-text">포트 e11b를 쉘프 2,NSM A 포트 e0b에 연결합니다.</block>
+  <block id="a032a8830d9e7689c545a9f5d436568b" category="list-text">포트 e8a를 쉘프 2, NSM B 포트 e0a에 연결합니다.</block>
+  <block id="a7ac225913423b42ae7801d894de31c8" category="list-text">포트 e8b를 쉘프 1,NSM A 포트 e0b에 연결합니다.</block>
+  <block id="bf1f9977d76210449a57d0b526df80f9" category="paragraph"><block ref="bf1f9977d76210449a57d0b526df80f9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="04906a53d5026b5fceb0bb70b93770cf" category="doc">전체 스토리지 시스템 설치 및 구성 - AFF A70, AFF A90</block>
+  <block id="c6a553b8b8155340301e1d96a324e013" category="doc">AFF A70, AFF A90 하드웨어를 설치합니다</block>
+  <block id="88e6081ee98670cab8a3fe0dfaf9ba6d" category="list-text">케이블 관리 장치 2개를 컨트롤러 후면에 연결합니다.</block>
+  <block id="a55683ab467b68505d4d77b810a9a29c" category="summary">AFF A70 또는 A90 스토리지 시스템을 설치 및 설정하고 ONTAP 시스템에 노드로 배포하려면 다음 단계를 따르십시오.</block>
+  <block id="85b0f2fed3866ab2961a3f0674e32d0e" category="doc">설치 설정 워크플로 - AFF A70, AFF A90</block>
+  <block id="bea6c678d4039f6fab5dc48633437381" category="paragraph">AFF A70, AFF A90 스토리지 시스템을 설치, 설정 및 배포하려면 다음 워크플로우 단계를 따르십시오.</block>
+  <block id="e1bca12013dce14bfb0c72dc412b9321" category="doc">스토리지 시스템의 전원을 켭니다(AFF A70, AFF A90)</block>
+  <block id="7b6f0d636b997b079dfb8b56de6e6f86" category="paragraph">네트워크와 쉘프 케이블을 연결한 후 컨트롤러 및 추가 쉘프에 전원을 공급할 준비가 되었습니다.</block>
+  <block id="81e99160d9d8d2511e0e1db54531167e" category="admonition">외부 NS224 쉘프는 선택 사항입니다.</block>
+  <block id="8f176870ac6c4361a1f6d7201cca260f" category="paragraph">ONTAP 스토리지 시스템에서 각 NS224 쉘프는 고유한 쉘프 ID로 구별됩니다. 이 ID는 쉘프가 스토리지 시스템 설정 내에서 구분되도록 합니다. 기본적으로 쉘프 ID는 일반적으로 '00' 및 '01'로 할당되지만, 스토리지 시스템 전체에서 고유성을 유지하기 위해 이러한 ID를 조정해야 할 수 있습니다.</block>
+  <block id="4de17b4fab9ee69108776ab9c4aaa0c6" category="admonition">컨트롤러 섀시 쉘프 ID는 '00'으로 하드 코딩됩니다. 플랫폼에 연결된 NS224 쉘프에는 쉘프 ID '00'을 사용하지 마십시오.</block>
+  <block id="8e6cf8027b121504bad8e5f00fe274bd" category="summary">AFF A70, AFF A90 플랫폼 설치를 준비합니다.</block>
+  <block id="6ac7ef3cf74f3edcc05e92fb62092d4a" category="doc">설치 준비 - AFF A70, AFF A90</block>
+  <block id="45fa7acb63053c31c5ae0a83dd4b3618" category="paragraph">플랫폼 설치를 준비합니다.</block>
+  <block id="62ca0ae61a6f061f90175c671563df84" category="list-text">웹 브라우저에 액세스하여 스토리지 시스템을 구성합니다</block>
+  <block id="bcaac0b69edbeb6d6ebf55df173a989d" category="paragraph">완전히 장착된 A70-90 플랫폼은 무게가 최대 68.8kg(151.68파운드)이며, 유압 리프트를 들어 올리거나 사용하려면 4명이 필요합니다.</block>
+  <block id="50c089c00eacadfe94238545067e1673" category="image-alt">AFF A90 를 참조하십시오</block>
+  <block id="129270e102c6ee2c4b9e965303a8486f" category="list-text">플랫폼 섀시용 4U</block>
+  <block id="fa2548c5f212acd29e45e9296579f088" category="paragraph">설치 지침 및 호환성 정보는 를<block ref="512a1f6ca3554ab9c3f8be1627b41678" category="inline-link-rx"></block> <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="4d3c32f3b37fe2830b654fcd25daa841" category="list-text">온보드 드라이브가 설치된 플랫폼</block>
+  <block id="c466a56afb5075d2e82e969f860401ee" category="list-text">쉘프(옵션)</block>
+  <block id="6e6faa41850da2cbf2fba1981d46dbf5" category="list-text">케이블 관리 장치 2개</block>
+  <block id="a960b1448ee5bc8431d64797103ff6f9" category="paragraph">지원 혜택을 받으려면 플랫폼을 등록하십시오.</block>
+  <block id="9ddae9a7519b413c3e002aaa6578c11b" category="paragraph">포장 명세서, 확인 이메일 또는 포장을 푼 후 컨트롤러에서 번호를 찾을 수 있습니다.</block>
+  <block id="321d330a3500c9aa223bf5d134d0886b" category="list-text">시스템 일련 번호와 요청된 세부 정보를 입력합니다.</block>
+  <block id="9693b6a52f0ee9092f8116f36e38a969" category="summary">입출력 모듈을 교체하려면 모듈에서 케이블을 분리하고, SFP 및 QSFP 모듈을 모듈에서 분리하고, 모듈을 제거하고, 교체 모듈을 설치하고, SFP 및 QSFP 모듈을 재설치한 다음, I/O 모듈에 케이블을 연결해야 합니다.</block>
+  <block id="2224bc58afd68539e0dea6bf9e50c3d6" category="doc">입출력 모듈 추가 - AFF A70, AFF A90</block>
+  <block id="24ca01289b896c334109ba7e14ec004f" category="doc">추가 및 교체 입출력 모듈 개요 - AFF A70-90K</block>
+  <block id="924c37fc9153e68527b7be3c003bb435" category="doc">입출력 모듈 교체 - AFF A70, AFF A90</block>
+  <block id="1f6a084d4572b01747b6b088d9e0ee43" category="paragraph">AFF A70, AFF A90 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="f99a621b951fd2b537d7a091c6b754fd" category="doc">NV 배터리 교체 - AFF A70, AFF A90</block>
+  <block id="64adf1ea4c1f4c02f038823429bd4c66" category="doc">NVRAM을 교체합니다. - AFF A70, AFF A90</block>
+  <block id="9020c560951313547d9b00a00f95d818" category="doc">전원 공급 장치를 교체합니다. - AFF A70, AFF A90</block>
+  <block id="866b7e69a0fb0f745608a59b2a02f1ca" category="doc">실시간 클럭 배터리(AFF A70, AFF A90)를 교체합니다</block>
+  <block id="a1bdc631ad485f9356bc93d7ccbb7e85" category="doc">시스템 관리 모듈(AFF A70, AFF A90)을 교체합니다</block>
+  <block id="47213676da315290cbc4f8dbfd4c19b1" category="list-text"><block ref="47213676da315290cbc4f8dbfd4c19b1" category="inline-link-rx"></block></block>
+  <block id="0f8eba0b4d4003961e911a8b87c8c645" category="list-text"><block ref="0f8eba0b4d4003961e911a8b87c8c645" category="inline-link-rx"></block></block>
+  <block id="afadad86a19bc1f3f4145429ab25f587" category="list-text"><block ref="afadad86a19bc1f3f4145429ab25f587" category="inline-link-rx"></block></block>
+  <block id="f710bde9f928341df6ff92fee79cb81a" category="summary">핫 애드되는 각 NS224 쉘프를 케이블로 연결하면 각 쉘프가 HA 쌍의 각 컨트롤러에 2개의 연결이 가능합니다.</block>
+  <block id="567fab43047b0960ce69a80b4d3eeef2" category="doc">AFF 시스템에 케이블 쉘프 - NS224 쉘프</block>
+  <block id="62415c5f208498fa7a928f2f3d1ce337" category="example-title">케이블 선반을 AFF A1K에 연결합니다</block>
+  <block id="4c1a38701cdd1b85c2cc3396c3cda1ba" category="example-title">AFF A70 또는 AFF A90에 케이블 선반을 연결합니다</block>
+  <block id="97a5530ac5ff8544a3e1b76f2a7c829b" category="example-title">AFF A250 또는 AFF C250에 케이블 선반을 연결합니다</block>
+  <block id="4631b1a60ba4b9c98b792c04ede40e3e" category="example-title">AFF A400 또는 AFF C400에 케이블 쉘프를 연결합니다</block>
+  <block id="2c4de459c86fa6d0fcf85f5f54f925ea" category="example-title">AFF A800 또는 AFF C800에 케이블 쉘프를 연결합니다</block>
+  <block id="faf33e342e418597ef26218d26be2eb3" category="example-title">AFF A900에 케이블 쉘프를 연결합니다</block>
+  <block id="101e83bd64f471fa9ab9ec831ae79bf5" category="doc">ASA 시스템에 케이블 쉘프 - NS224 쉘프</block>
+  <block id="14e93bfe999bd26d30efe27bc42d4e33" category="example-title">ASA A250 또는 ASA C250에 케이블 선반을 연결합니다</block>
+  <block id="8249cdd39950bcc8dcd2742ed885f569" category="example-title">ASA A400 또는 ASA C400에 케이블 쉘프를 연결합니다</block>
+  <block id="7702b4b78c879b561068c08066c8216e" category="example-title">ASA A800 또는 ASA C800에 케이블 쉘프를 연결합니다</block>
+  <block id="5988254c8d26b61e1a07c6a096e63ce5" category="example-title">ASA A900에 케이블 쉘프를 연결합니다</block>
+  <block id="58b21538405eea98ef7b8d327aac34fc" category="doc">공급 중단 시스템에 케이블 쉘프를 구축합니다. - NS224 쉘프</block>
+  <block id="93d30e9f000936c1ea0bb870a06b4bfa" category="example-title">AFF A320에 케이블 선반을 연결합니다</block>
+  <block id="3a3fd2c18ea2486ea238ad698e2db584" category="paragraph">추가 스토리지가 필요한 경우 기존 HA 쌍에 두 번째 쉘프를 핫 추가할 수 있습니다.</block>
+  <block id="e1661f98263e8ce47be51e134d3c36d0" category="list-text">쉘프를 컨트롤러에 케이블로 연결합니다.</block>
+  <block id="1cfaf56b497f5a10023e79e4fb9c1fbb" category="image-alt">NS224 쉘프 2개와 온보드 포트 3세트가 포함된 AFF A320의 케이블 연결</block>
+  <block id="4cae9c36555adc7405cb65350569cc5b" category="example-title">AFF A700에 케이블 쉘프를 연결합니다</block>
+  <block id="6d74e474495b3177dfbf319429b6127e" category="paragraph">NS224 쉘프를 AFF A700 HA 쌍에 케이블로 연결하는 방법은 핫 추가하는 쉘프 수와 컨트롤러에서 사용 중인 RoCE 지원 포트 세트(1~2개)의 수에 따라 다릅니다.</block>
+  <block id="efa6ea2ea99c7e90eec9ccd6f7a76146" category="list-text">초기 NS224 쉘프를 핫 추가할 경우(HA 쌍에 NS224 쉘프가 없음), 코어 덤프 모듈(X9170A, NVMe 1TB SSD)을 각 컨트롤러에 설치하여 코어 덤프(코어 파일 저장)를 지원해야 합니다.</block>
+  <block id="b2482d207d76c39d02b23b924006d57a" category="paragraph">을 <block ref="475cacc4c4d3f4ca67cc021d7e76f4ce" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="08580c56ffbd5745597395d8d6e0d742" category="list-text">각 컨트롤러에 RoCE 지원 포트 세트(RoCE 지원 I/O 모듈 1개) 하나를 사용하여 쉘프 하나를 핫 추가할 수 있으며, 이것이 HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="499e8a65f6cfb0d93ad414f0ec885567" category="admonition">이 단계에서는 각 컨트롤러에서 슬롯 7이 아닌 슬롯 3에 RoCE 지원 I/O 모듈을 설치했다고 가정합니다.</block>
+  <block id="d39664dd0d35fc68dbbe8654914c8ddf" category="paragraph">다음 그림은 각 컨트롤러에서 RoCE 지원 I/O 모듈 1개를 사용하는 핫 애드 쉘프 1개의 케이블 연결을 보여줍니다.</block>
+  <block id="7981040959b8ff518083d65eb7cbd0d8" category="image-alt">NS224 쉘프 1개와 IO 모듈 포트 1세트가 포함된 AFF A700의 케이블 연결</block>
+  <block id="c7ecb88c8abf3772dd901d707c09f414" category="list-text">각 컨트롤러에서 RoCE 지원 포트 2세트(RoCE 지원 I/O 모듈 2개)를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 해당 하위 단계를 완료하십시오.</block>
+  <block id="84d0e0babe795476f7ae8da0b8e585f1" category="image-alt">NS224 쉘프 2개와 IO 모듈 포트 2세트가 포함된 AFF A700의 케이블 연결</block>
+  <block id="f4bf409b84e11d30249909dc7746ba6d" category="example-title">FAS500f에 쉘프를 연결합니다</block>
+  <block id="a89eecfaa6455eb7bc4017895b259e99" category="paragraph">추가 스토리지가 필요할 경우 NS224 쉘프 1개를 FAS500f HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="a372a75abe895e1d1df66a7346836990" category="image-alt">NS224 쉘프 1개와 포트 1개로 구성된 FAS500f AFF A250 또는 AFF C250의 케이블 연결</block>
+  <block id="f890bb9917c8ebad074582718fe97720" category="doc">FAS 시스템에 케이블 쉘프 - NS224 쉘프</block>
+  <block id="833d8fad165a38386db2f5d83d561178" category="doc">핫 애드온 NS224 쉘프의 케이블 연결 개요</block>
+  <block id="46f11d99d5f59f4aa316ba3db790a179" category="paragraph">이 케이블 연결 섹션에서는 NS224 쉘프를 다음 스토리지 시스템에 케이블로 연결하는 방법을 설명합니다.</block>
+  <block id="a392e2560dc5e657e918caf1331842b5" category="inline-link-macro">AFF 시스템에 케이블 연결</block>
+  <block id="e486dfdb295c50313a841301bdff1252" category="list-text"><block ref="e486dfdb295c50313a841301bdff1252" category="inline-link-macro-rx"></block></block>
+  <block id="67ae7265d01a10fd7ba93405485a9bd6" category="inline-link-macro">ASA 시스템에 케이블 연결</block>
+  <block id="2f658f93ae23965e7c42c3eb6ac41a06" category="list-text"><block ref="2f658f93ae23965e7c42c3eb6ac41a06" category="inline-link-macro-rx"></block></block>
+  <block id="71ccc93af9bf68a63dfe7bea83d57067" category="inline-link-macro">EOA 시스템에 케이블 연결</block>
+  <block id="63ff153655ced66df13d8b44311364cb" category="list-text"><block ref="63ff153655ced66df13d8b44311364cb" category="inline-link-macro-rx"></block></block>
+  <block id="612f3ba3d7c921e4e9a9699a946fa2ee" category="list-text">케이블 커넥터의 올바른 방향과 NS224 NSM100 쉘프 모듈의 포트 위치 및 레이블을 숙지하십시오.</block>
+  <block id="c9901d05aa53a48d550152e6d189ffc4" category="image-alt">케이블은 커넥터 당김 탭이 위를 향하도록 삽입합니다</block>
+  <block id="aed40018e03baa0cb0ff1fc2ac8a3a01" category="list-text">다음 그림을 사용하면 쉘프 NSM100 포트, e0a 및 e0b를 물리적으로 식별할 수 있습니다.</block>
+  <block id="175008e225c4f0b4f43ff24af0d85656" category="paragraph">NS224 쉘프에는 NSM100 모듈 2개가 포함되어 있습니다. 상단 모듈은 슬롯 A(NSM A)에 있고 하단 모듈은 슬롯 B(NSM B)에 들어갑니다.</block>
+  <block id="3ec82f450cefc3cf550494e5fe235a93" category="paragraph">각 NSM100 모듈에는 100GbE QSFP28 포트 e0a 및 e0b 2개가 포함되어 있습니다.</block>
+  <block id="a7a068010129cb64bdcd94f83548eaa2" category="image-alt">NS224 NSM100 모듈 포트 e0a 및 e0b</block>
+  <block id="0a8cb3c38ccd084a10c6299732a71520" category="doc">핫 애드온 NS224 쉘프를 완성합니다</block>
+  <block id="c2ea2e55d65331d8bcef52bb3b64c92d" category="paragraph">NS224 쉘프 핫 애드 준비 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당한 다음 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
+  <block id="d83a83fb9fe927923ea18a2ee6b6a97e" category="inline-link-macro">핫 애드 케이블 연결 개요</block>
+  <block id="d3f2a9416871f3005be3d67b52def753" category="paragraph">HA 쌍의 지침에 따라 이미 쉘프의 케이블을 연결해야 합니다. 을 <block ref="9022d9944a90d9c35d6825c9076441c8" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="cb765b2f357801af3e06c0ea438901c4" category="paragraph">두 컨트롤러 중 하나에서 명령을 입력할 수 있습니다.</block>
+  <block id="8727882f7d3942a12771df67450a7f2a" category="paragraph">두 컨트롤러 모두에서 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
+  <block id="564ffc14604e000bfeb97b6018c52095" category="summary">NS224 드라이브 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다.</block>
+  <block id="447174728e5129c9b8c53342c0264116" category="doc">핫 추가 워크플로우 - NS224 쉘프</block>
+  <block id="053409ab39417f68b55ff02091cdc8a8" category="paragraph">다음 워크플로우 단계에 따라 NS224 쉘프를 핫 추가하십시오.</block>
+  <block id="be1a34deed7e0574ef6cd0ac74fb0fff" category="paragraph">NS224 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다. 를 검토합니다. <block ref="4ce128836e76285f9c9ed40b724d2cac" category="inline-link-macro-rx"></block></block>
+  <block id="1a5e345c0f17016fde10413b2819068b" category="inline-link-macro">핫 애드 준비를 하세요</block>
+  <block id="549ca2ce1f0bb7709065c93991fbf32d" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="23e7b17e935955a0ced3a866a7d3f994" category="inline-link-macro-rx"></block></block>
+  <block id="3c8cdaceb2d0f43fc2d3506231f63b93" category="paragraph">플랫폼 모델에 따라 추가 RoCE 지원 PCIe 카드 또는 I/O 모듈을 설치하고, 스토리지용으로 비전용 RoCE 지원 이더넷 포트를 구성하고, 다른 슬롯에 있는 두 개의 포트 세트에 기존 쉘프를 재구성하여 슬롯 장애 시 복원력을 보장해야 할 수 있습니다. 드라이브 소유권을 수동으로 할당하는 경우 자동 드라이브 할당을 비활성화합니다.</block>
+  <block id="7a0deab7173e7204e2e4459ffd121ad6" category="inline-link-macro">쉘프를 설치합니다</block>
+  <block id="775c6030e9743bbed8a852b3e8a20bcd" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="a6b180b7d344b08e449360b1fc8e7912" category="inline-link-macro-rx"></block></block>
+  <block id="f9c593fc474bf3ae98144f9c167660d5" category="paragraph">선반을 설치하려면 선반용 레일 키트를 설치한 다음 선반을 텔코 랙 또는 캐비닛에 설치하고 고정합니다. 그런 다음 전원 코드를 쉘프 전원을 켠 다음, 고유한 쉘프 ID를 할당하여 HA 쌍 내에서 쉘프가 구분되도록 합니다.</block>
+  <block id="d27ec3c6554e9ab2b8d0207fb25f4f21" category="inline-link-macro">선반에 케이블을 연결합니다</block>
+  <block id="c6fb67d510dc1d5618e70b4dc334b6f5" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="c9298aba701f0349a6aafcc92942d939" category="inline-link-macro-rx"></block></block>
+  <block id="e9a05c30d154bcc11825c7c6f620c2b7" category="paragraph">HA Pair의 각 컨트롤러에 대한 연결 2개를 가질 수 있도록 핫 추가할 쉘프에 케이블을 연결합니다.</block>
+  <block id="b234edf4e69ffb2b833a8efb85ba5ee7" category="inline-link-macro">핫 애드를 완료하십시오</block>
+  <block id="a03ae9a3c924d10a64e97ade6d86ee2b" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="49e34f6a53fbd8084ac48e4e6738a264" category="inline-link-macro-rx"></block></block>
+  <block id="6cfe7f4574d90cb894d56246a1414fa2" category="paragraph">핫 애드 준비 과정에서 자동 드라이브 할당을 비활성화한 경우 드라이브 소유권을 수동으로 할당한 다음 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
+  <block id="047de0ebf31d4be4fc5eb6722a69201e" category="list-text">HA 쌍에서 핫 추가할 쉘프 수를 지원하기에 충분한 RoCE 지원 이더넷 포트가 있어야 합니다.</block>
+  <block id="2ab4e0b94726eca79e1aeeb2f1e8ceb5" category="paragraph">핫 애드할 각 쉘프에 각 컨트롤러에 RoCE 지원 포트 2개가 필요합니다. 이들 포트는 플랫폼 모델에서 지원하는 대로 컨트롤러, RoCE 지원 PCIe 카드, 두 가지를 결합한 포트 또는 RoCE 지원 I/O 모듈 상에 추가할 수 있습니다.</block>
+  <block id="463315a2a8c1964ff9259e984ef43a7c" category="list-text">사용 중인 플랫폼 모델에 적합한 컨트롤러 슬롯을 식별합니다.</block>
+  <block id="132976e79206d2260fc5308469634e7a" category="list-text">PCIe 카드 또는 I/O 모듈 설치 지침은 플랫폼 모델 설명서를 참조하십시오.</block>
+  <block id="088ddb10f92e4aec09d8bccaa095dbe7" category="paragraph"><block ref="088ddb10f92e4aec09d8bccaa095dbe7" category="inline-link-rx"></block></block>
+  <block id="bf06bfbbc1d29234d918a086f98a4c2c" category="section-title">핫 추가에 사용할 비전용 RoCE 지원 이더넷 포트를 준비합니다</block>
+  <block id="c62d22065cef5eaab1771562c4464853" category="paragraph">HA 쌍에 NS224 드라이브 쉘프를 핫 추가하는 데 사용할 수 없는 전용 RoCE 지원 이더넷 포트가 있는 경우, 포트가 스토리지용으로 구성되었는지(네트워킹용이 아님) 확인해야 합니다.</block>
+  <block id="2d957a99f7e946ae3806773ee52b1821" category="paragraph">각 컨트롤러에 RoCE 지원 PCIe 카드를 추가로 설치하는 것을 포함하여 스토리지 시스템 요구사항을 충족해야 합니다.</block>
+  <block id="b3af01e20201c67551f5dc6511b19431" category="admonition">스토리지 사용에서 네트워킹 사용으로 포트를 변경하려면, 명령을 입력합니다<block ref="9a677bf17da6cbfa9b6a63efbc67d3f2" prefix=" " category="inline-code"></block>.</block>
+  <block id="21e6d0e9cee07588109c3bca9e4f33a8" category="list-text">SSH 또는 시리얼 콘솔 포트를 사용하여 클러스터에 로그인합니다.</block>
+  <block id="5fc0fcdc83b05fb4f062a9fa1fe851d9" category="paragraph">그렇지 않으면 4-7단계를 완료하여 포트를 구성해야 합니다.</block>
+  <block id="9db058e565a88604b6d87108ed139c51" category="paragraph"><block ref="6e972b196ebbc48e0575e24a92c8720d" prefix="" category="inline-code"></block></block>
+  <block id="eb3110f9f105714e88d250d436520c1d" category="paragraph"><block ref="91bc4c8d50e9272a27ce62a39b4bf1a6" prefix="" category="inline-code"></block></block>
+  <block id="7c09109da9baa17bbe92aa7b509456d7" category="list-text">HA 쌍에서 ONTAP 9.6를 실행 중인 경우 포트 변경 사항이 적용되도록 컨트롤러 모듈을 재부팅합니다.<block ref="6751ed4c60ef0a0b22c8f041a5e5cf3d" prefix=" " category="inline-code"></block></block>
+  <block id="6f5a1f5a085ff35b3e9c182f13e6c8a8" category="list-text">4단계를 반복합니다.</block>
+  <block id="83d3292b963da6451d1d0d83b537c8e3" category="list-text">4단계와 5단계를 반복합니다.</block>
+  <block id="7142ab39fb3d18d24163683bfd871b22" category="section-title">추가 쉘프를 핫 추가하기 전에 기존 쉘프의 연결을 준비합니다</block>
+  <block id="a61cf40b2e5406ed295d4e38c35656df" category="paragraph">쉘프를 핫 추가하기 전에 플랫폼 모델에 따라 다른 슬롯에 있는 두 개의 포트 세트에 걸쳐 기존 쉘프를 다시 장착할 수 있습니다(RoCE 지원 PCIe 카드 또는 I/O 모듈을 추가로 설치한 후). 이렇게 하면 슬롯 장애에 대한 복원력을 확보할 수 있습니다.</block>
+  <block id="74b8df0719b21a5aee599f46d92e870d" category="list-text">각 컨트롤러에 추가 RoCE 지원 PCIe 카드 또는 I/O 모듈을 설치하는 것을 포함하여 시스템 요구사항을 충족해야 합니다.</block>
+  <block id="b3aa8ef8d86d2e03895965e9958978a7" category="list-text">RoCE 지원 PCIe 카드의 비전용 포트 또는 설치한 I/O 모듈이 스토리지용으로 구성되었는지 확인해야 합니다.</block>
+  <block id="bac6096d635a78bfc7662e151ab39559" category="list-text">이 절차 중에는 항상 쉘프와의 연결을 유지할 수 있도록 한 번에 하나의 케이블을 이동합니다.</block>
+  <block id="51b7d26dc4977295bdc15e4ceffe3a84" category="list-text">AFF A1K HA 쌍이 있고 세 번째 쉘프를 핫 추가하고 각 컨트롤러에 세 번째 또는 네 번째 RoCE 지원 I/O 모듈을 설치하는 경우, 세 번째 쉘프는 세 번째 또는 세 번째/세 번째 I/O 모듈에만 케이블로 연결됩니다. 기존 쉘프를 재장착할 필요가 없습니다.</block>
+  <block id="e87dec4c82a6131b352eff5116f7fab8" category="list-text">플랫폼 모델에 해당하는 경우 서로 다른 슬롯에 있는 RoCE 지원 포트 2세트에서 기존 셸프의 연결을 재연결할 수 있습니다.</block>
+  <block id="5c8e2a1729140c2319ea38bc38c671ba" category="paragraph">AFF A70 또는 AFF A90 HA 쌍, 두 번째 쉘프 추가</block>
+  <block id="815887f62fd8f7be15e3424efc32b20c" category="paragraph">RoCE 지원 두 개의 I/O 모듈 모두에서 첫 번째 쉘프 재배열:</block>
+  <block id="3dbc71070033db4d4c05e736c6f4075a" category="admonition">하위 단계에서는 기존 쉘프가 각 컨트롤러의 슬롯 11에 있는 RoCE 지원 I/O 모듈에 케이블로 연결되어 있다고 가정합니다.</block>
+  <block id="b73b81430a005b6489a33cd21955e985" category="list-text">컨트롤러 A에서 슬롯 11 포트 b(e11b)에서 슬롯 8 포트 b(e8b)로 케이블을 이동합니다.</block>
+  <block id="5df57c3b9f444d48109943fb05d242b0" category="paragraph">필요한 경우 기존 단일 쉘프와 재연결된 쉘프를 2쉘프 구성으로 보여주는 케이블 연결 그림을 참조할 수 있습니다.</block>
+  <block id="a935e388e4de5cd04b8314123fe7074d" category="paragraph"><block ref="a8947d9a1a575b89ffe8fcb06a161750" category="inline-xref-macro-rx"></block></block>
+  <block id="a36b1e64cc692b8ab8d3df36996375fb" category="paragraph">AFF A1K HA 쌍, 두 번째 쉘프 핫 추가</block>
+  <block id="04c18e5cb17496cb3b9f53a5b07c76b4" category="list-text">컨트롤러 A에서 슬롯 11 포트 b(e11b)에서 슬롯 10 포트 b(e10b)로 케이블을 이동합니다.</block>
+  <block id="ceab97c7abf1d0009b8f39e726984b0e" category="paragraph"><block ref="6bc0eba2df9bed360cea4cf9b0a3cb3d" category="inline-xref-macro-rx"></block></block>
+  <block id="1392119f637fc041996b3a606abe7bdd" category="paragraph">AFF A1K HA 2노드를 지원하며 핫 추가할 수 있습니다</block>
+  <block id="787c328c7045406142342c912caafa3c" category="paragraph">각 컨트롤러의 슬롯 9에 있는 R0CE 지원 I/O 모듈에서 세 번째 셸프를 재장착할 수 있습니다.</block>
+  <block id="59a884f424ff6cf6eadda8a43ad15c18" category="list-text">컨트롤러 A에서 슬롯 9 포트 b(e9b)에서 슬롯 8 포트 b(e8b)로 케이블을 이동합니다.</block>
+  <block id="f6f7bd955e18a236aa6bd00bbe5b99b4" category="paragraph">AFF C400 HA 쌍, 그리고 두 번째 쉘프를 핫 추가할 수 있습니다</block>
+  <block id="97c77af9ebe44ea3e03f2f6517b0a3d3" category="paragraph">각 컨트롤러의 RoCE 지원 포트 세트 모두에서 첫 번째 쉘프를 재배열:</block>
+  <block id="2ddae5c7aeab2acbf79374a7699a0e6b" category="paragraph">AFF A800 또는 AFF C800 HA 2노드, 두 번째 쉘프를 추가할 경우</block>
+  <block id="82d1c3d2c1369a3c0cf17eefbe0771e3" category="paragraph">AFF A400 HA 쌍 및 보조 쉘프 추가</block>
+  <block id="b517525ed52282a89cb1f6c210c70b1a" category="paragraph">AFF A700 HA 쌍, 그리고 보조 쉘프 추가 기능이 있습니다</block>
+  <block id="6ffd935255573ad4570c6a3b3450e0f9" category="inline-link">디스크 소유권 자동 할당 정보</block>
+  <block id="57c73fa2509bcf1d4b22913e1dd561cf" category="paragraph">드라이브 소유권을 수동으로 할당해야 하는지 또는 스토리지 시스템에 대한 드라이브 소유권 정책의 자동 할당을 이해하려는 경우 을 참조하십시오<block ref="7cf2c47025b8136f811da5dc672735ee" category="inline-link-rx"></block></block>
+  <block id="53c2f27803aec3d938e33bbae4de6b05" category="paragraph">두 노드 중 하나에서 명령을 입력할 수 있습니다.</block>
+  <block id="5aa025a6412a09854e833ab5ef7bad16" category="paragraph">자동 드라이브 할당이 활성화된 경우 출력이 각 노드에 대해 열에 표시됩니다<block ref="ed2b5c0139cec8ad2873829dc1117d50" prefix=" " category="inline-code"></block><block ref="36dcdb9f764aaa4313fab85a6eb8d6a6" prefix=" " category="inline-code"></block> .</block>
+  <block id="76252ddf99e749110059e04910646005" category="paragraph">두 노드 모두에서 자동 드라이브 할당을 해제해야 합니다.</block>
+  <block id="dcd988efa9773d6784cd82af7e72fc28" category="paragraph">새 NS224 쉘프를 설치하려면 랙 또는 캐비닛에 쉘프를 설치하고 전원 코드를 연결한(쉘프에 자동으로 전원 켜기), 쉘프 ID를 설정해야 합니다.</block>
+  <block id="c44506a424da54e7a512c3fe58befda4" category="list-text">한 면이 곧게 펴진 종이 클립이나 끝이 좁은 볼펜 클립이 있는지 확인하십시오.</block>
+  <block id="d6f9c5ee662e9a54b98d8ab3c1fbbe0c" category="paragraph">선반 ID 변경 단계 중에 종이 클립이나 볼펜 펜을 사용하여 ODP(오퍼레이터 디스플레이 패널) 뒤에 있는 선반 ID 버튼에 액세스할 수 있습니다.</block>
+  <block id="7834fa1dae5baa351b43df3825d7c51e" category="section-title">핫 애드용 선반에 케이블을 연결합니다</block>
+  <block id="0198adb183966b6a1cec77414f7184cf" category="paragraph">케이블 커넥터의 방향이 올바른지 숙지하고, NS224 NSM 셸프 모듈의 포트 위치 및 레이블 지정은 핫애드 셸프를 케이블로 연결하기 전에 도움이 될 수 있습니다.</block>
+  <block id="403cdeaa74f4f7d57300e7cfb63e3508" category="section-title">AFF A70 또는 AFF A90 HA 2노드에 대해 핫 추가 쉘프를 케이블 연결</block>
+  <block id="4b2cba344589a212fe317976558dad4a" category="list-text">스토리지 시스템 요구 사항을 충족해야 합니다.</block>
+  <block id="feadc282c1b706313d9abaf2e604fa56" category="paragraph"><block ref="8c3173c57b196b7c4ca9e3e232f3a310" category="inline-xref-macro-rx"></block></block>
+  <block id="6e76b79ceb1c0834e1d6d42376d001b2" category="section-title">AFF A1K HA 쌍을 위한 핫 추가 쉘프에 케이블을 연결합니다</block>
+  <block id="96ef72d95f222f00433291a58b6b8744" category="doc">핫 애드온 NS224 쉘프용 쉘프를 설치합니다</block>
+  <block id="3e7bc606456977aca4460d0843a5999b" category="paragraph">NS224 쉘프를 캐비닛이나 통신 랙에 설치하고 전원 코드를 연결하고(쉘프에 자동으로 전원 공급) 쉘프 ID를 설정해야 합니다.</block>
+  <block id="ed86a7d5c45c5290afeff3be20438da8" category="paragraph">선반 ID를 변경하려면 종이 클립이나 볼펜 펜을 사용하여 ODP(Operator Display Panel) 뒤에 있는 선반 ID(선반 ID) 변경 단계에 액세스합니다.</block>
+  <block id="66570bf97ccd535a1a7ed18220e5a243" category="list-text">완전 장착된 NS224 선반은 무게가 최대 30.29kg(66.78lbs)이며 유압 리프트를 들어 올리거나 사용하려면 2명이 필요합니다. 선반 무게가 불균형하게 되므로 선반 무게를 줄이기 위해 선반 구성 요소(선반 전면 또는 후면의)를 제거하지 마십시오.</block>
+  <block id="da0aca2ea4c0e9ba2b05f533db2f5bc8" category="list-text">키트와 함께 제공된 지침에 따라 필요한 경우 선반용 레일 키트를 설치합니다.</block>
+  <block id="707f1d6805c820b56046e8ac294bd1c0" category="list-text">쉘프 설치:</block>
+  <block id="42ad81bfc37998d9d772238e0973f213" category="paragraph">여러 쉘프를 설치하는 경우 첫 번째 쉘프를 컨트롤러 바로 위에 놓습니다. 두 번째 쉘프를 컨트롤러 바로 아래에 배치합니다. 추가 선반에 대해 이 패턴을 반복합니다.</block>
+  <block id="a7f349e031998a4bbf68e83d92f1c162" category="list-text">키트에 포함된 장착 나사를 사용하여 캐비닛이나 텔코 랙에 쉘프를 고정합니다.</block>
+  <block id="bb3722846e62a502c273544475700df9" category="list-text">전원 연결:</block>
+  <block id="61c2a23ab7de542a166a4abf9dcc6ee8" category="list-text">전원 코드를 선반에 연결하고 제자리에 고정합니다.</block>
+  <block id="97511945d44e34fdc26e7a5083ebd20d" category="paragraph">AC 전원 공급 장치인 경우 전원 코드 고정 장치로 고정합니다.</block>
+  <block id="081d25588bc0e416dcb90117515e0162" category="paragraph">DC 전원 공급 장치인 경우 두 개의 나비 나사로 제자리에 고정합니다.</block>
+  <block id="0c2a365669993e8b6749e4053a2ea454" category="list-text">복원력을 위해 전원 코드를 다른 전원에 연결합니다.</block>
+  <block id="62867ffe0beeac6153809460aa6adcfc" category="paragraph">자세한 지침은 을 참조하십시오 <block ref="c69a1009359358cbb1f3e5d6483736fb" category="inline-link-macro-rx"></block>.</block>
+  <block id="98be19dba1a369d902405986d602e7c9" category="paragraph">핫 애드 쉘프에 케이블을 연결합니다. 로 이동합니다. <block ref="9022d9944a90d9c35d6825c9076441c8" category="inline-link-macro-rx"></block></block>
+  <block id="aecdb59befc0746a8105963d6c8096af" category="doc">핫 애드온 NS224 쉘프를 준비합니다</block>
+  <block id="ecfa7406eca9294b8db5d3a07d57ef49" category="paragraph">NS224 쉘프를 핫 추가하기 전에 HA 쌍에 적합한 준비 작업을 완료합니다.</block>
+  <block id="75fafab48d351db2b919a6a10431f31b" category="paragraph">해당 준비 작업이 완료되면 로 이동합니다 <block ref="68c2828044dd0dd776e961af4615948f" category="inline-link-macro-rx"></block>.</block>
+  <block id="42635b3d9723bd789b225319be56c7c8" category="section-title">RoCE 지원 PCIe 카드 또는 I/O 모듈을 설치합니다</block>
+  <block id="31ff39468f998e23e617383291720b0f" category="paragraph">플랫폼 모델에서 RoCE 지원 PCIe 카드 또는 I/O 모듈 사용을 지원하는 경우, 핫 애드할 쉘프 수를 지원할 수 있는 RoCE 지원 이더넷 포트가 HA 쌍에 충분해야 합니다.</block>
+  <block id="1b27049efde6cac780da715f0b01bc98" category="list-text">핫 추가할 각 쉘프에 대해 각 컨트롤러에 RoCE 지원 포트가 2개 있는지 확인합니다.</block>
+  <block id="a50ddb4ae65653aca8601897505aa60f" category="paragraph">이들 포트는 플랫폼 모델에서 지원하는 대로 컨트롤러, RoCE 지원 PCIe 카드, 두 가지를 결합한 포트 또는 RoCE 지원 I/O 모듈 상에 추가할 수 있습니다.</block>
+  <block id="6ac3e8a30409115d5b79db8603f51706" category="list-text">HA 쌍에 사용 가능한 RoCE 지원 포트가 충분하지 않은 경우, 플랫폼 모델에서 지원하는 대로 추가 PCIe 카드 또는 I/O 모듈을 올바른 컨트롤러 슬롯에 설치합니다.</block>
+  <block id="9e9a9898b5abe5f31eb65bf39449aef9" category="list-text">사용 중인 플랫폼 모델에 적합한 컨트롤러 슬롯을 식별합니다. 을<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="e29034f589384eef13baae824e82b481" category="section-title">스토리지용으로 RoCE 지원 포트를 구성합니다</block>
+  <block id="8d40e879b78362d010921b5b0212222e" category="paragraph">HA 쌍에 NS224 쉘프를 핫 추가하는 데 사용할 수 없는 전용 RoCE 지원 이더넷 포트가 있는 경우, 스토리지용으로 포트를 구성해야 합니다(네트워킹용 아님).</block>
+  <block id="8b2e5af852d259b533001cadde1a0ca8" category="list-text">각 컨트롤러에 RoCE 지원 PCIe 카드 또는 I/O 모듈을 추가로 설치했는지 확인합니다.</block>
+  <block id="72146225175efd85ba944f5ac7575176" category="list-text">일부 플랫폼 모델의 경우, RoCE 지원 PCIe 카드 또는 I/O 모듈을 컨트롤러의 지원되는 슬롯에 설치하면 포트가 자동으로 스토리지 사용(네트워킹 대신)으로 기본 설정됩니다. 단, 다음 절차를 완료하여 RoCE 지원 포트가 저장소용으로 구성되었는지 확인하는 것이 좋습니다.</block>
+  <block id="45b68273c86f9462a44eefdf969f3222" category="paragraph">HA 쌍이 실행 중인 ONTAP 버전에 따라 컨트롤러를 재부팅해야 할 수도 있습니다.</block>
+  <block id="2ea18967d5aa61c347f7083b24fa762a" category="list-text">나중에 스토리지 사용에서 네트워킹 사용으로 포트를 변경해야 하는 경우에는 명령을 입력합니다.<block ref="9a677bf17da6cbfa9b6a63efbc67d3f2" prefix=" " category="inline-code"></block></block>
+  <block id="d5c6e08c6eebf8adfb34dc24756d570f" category="list-text">SSH 또는 시리얼 콘솔 포트를 사용하여 클러스터에 로그인합니다.</block>
+  <block id="3e4a94904f41cf118e77a622f36547e9" category="list-text">다음 명령을 입력하여 HA 쌍의 비전용 포트가 스토리지용으로 구성되었는지 확인합니다.</block>
+  <block id="d75813e35497e6772c951cd78d3c71cb" category="paragraph"><block ref="90e0991b70398b08e4e3eb0ae46c4163" prefix="" category="inline-code"></block></block>
+  <block id="cac946705a8c279083094c886d6e736a" category="list-text">다음 컨트롤러 중 하나에서 스토리지용으로 비전용 포트를 구성합니다.</block>
+  <block id="394247ac369fff4729d586172906244e" category="cell">이 명령 사용...</block>
+  <block id="587c08539bc557ccc5bb76a807d3ef9a" category="list-text">HA 쌍에서 ONTAP 9.6을 실행 중인 경우 포트 변경 사항이 적용되도록 컨트롤러를 재부팅합니다.<block ref="6751ed4c60ef0a0b22c8f041a5e5cf3d" prefix=" " category="inline-code"></block></block>
+  <block id="3bea88e8a94c2069d98a1678de188c82" category="list-text">두 번째 컨트롤러에 대해 다음 단계를 반복합니다.</block>
+  <block id="acc2bb851ead4ba06a525f898fa9d757" category="list-text">두 컨트롤러의 비전용 포트가 스토리지용으로 구성되었는지 확인합니다.<block ref="90e0991b70398b08e4e3eb0ae46c4163" prefix=" " category="inline-code"></block></block>
+  <block id="dff6b8783c45aa76125a2603fbfe43bf" category="section-title">기존 쉘프의 케이블을 뽑습니다</block>
+  <block id="afd2be08ff66ef180fcc2f0cc5cf1fd7" category="list-text">설치한 RoCE 지원 PCIe 카드 또는 I/O 모듈의 비전용 포트가 스토리지용으로 구성되었는지 확인합니다.</block>
+  <block id="692f3fd736128335341ec9c447ca8376" category="list-text">필요한 경우 에서 해당 플랫폼 모델의 셸프 케이블 그림을 참조하십시오 <block ref="9022d9944a90d9c35d6825c9076441c8" category="inline-link-macro-rx"></block>.</block>
+  <block id="54f937d3a20d54ade33be7b557487bde" category="paragraph">두 번째 셸프나 네 번째 셸프를 핫 추가할 경우 다음 중 하나를 수행합니다.</block>
+  <block id="899adf8ecd6aef37ec53e5c48663013b" category="admonition">AFF A1K HA 쌍이 있고 세 번째 쉘프를 핫 추가하고 각 컨트롤러에 세 번째 또는 네 번째 RoCE 지원 I/O 모듈을 설치하는 경우, 세 번째 쉘프는 세 번째 또는 세 번째 및 네 번째 I/O 모듈에만 연결됩니다. 기존 쉘프를 재장착할 필요가 없습니다.</block>
+  <block id="f191cdb40a12349ee1f8c533f07dc92c" category="list-text">두 번째 쉘프를 핫 추가할 경우, 각 컨트롤러의 슬롯 11과 슬롯 10에 있는 RoCE 지원 I/O 모듈에서 첫 번째 쉘프를 재장착할 수 있습니다.</block>
+  <block id="b0f7f259d069071edc40fb8d3e8a652c" category="list-text">4번째 쉘프를 핫 추가할 경우, 각 컨트롤러의 슬롯 9와 슬롯 8에 있는 RoCE 지원 I/O 모듈에서 세 번째 쉘프를 재장착할 수 있습니다.</block>
+  <block id="c5ee181c89508f48f2ee4f481db306ee" category="paragraph">하위 단계에서는 세 번째 쉘프가 각 컨트롤러의 슬롯 9에 있는 RoCE 지원 I/O 모듈에 케이블로 연결되어 있다고 가정합니다.</block>
+  <block id="7a3b05b130c9ce12ac95ac076b53bfcf" category="open-title">AFF A70 또는 AFF A90</block>
+  <block id="cdf1c0270479d0a5ad04f2c74c0c4833" category="paragraph">두 번째 쉘프를 핫 추가할 경우, 각 컨트롤러의 슬롯 11과 슬롯 8에 있는 RoCE 지원 I/O 모듈에서 첫 번째 쉘프를 재장착할 수 있습니다.</block>
+  <block id="651656ace2aedb3df5c7638a857b529b" category="open-title">AFF A800 또는 AFF C800</block>
+  <block id="ddb435164ec15edba58659109e9b1ed3" category="paragraph">두 번째 쉘프를 핫 추가할 경우, 각 컨트롤러의 슬롯 5와 슬롯 3에 있는 RoCE 지원 포트 2세트에 첫 번째 쉘프를 재장착할 수 있습니다.</block>
+  <block id="87c636a063da18092d1205f20f872dc3" category="paragraph">두 번째 쉘프를 핫 추가할 경우, 각 컨트롤러의 슬롯 3과 슬롯 7에 있는 RoCE 지원 포트 2세트에 첫 번째 쉘프를 재장착할 수 있습니다.</block>
+  <block id="0403e095c309b62ff7c6b736fe5f1b0f" category="open-title">AFF A400 또는 AFF C400</block>
+  <block id="f60c054fab21a0c7ab3a2990f06f3918" category="paragraph">두 번째 쉘프를 핫 추가할 경우 플랫폼 모델에 따라 다음 중 하나를 수행합니다.</block>
+  <block id="165b58213f3001efb531a140285078b3" category="list-text">AFF A400:</block>
+  <block id="2eef41081d0f91ffdb6457ede9f4cb73" category="paragraph">각 컨트롤러의 RoCE 지원 포트 2세트, 온보드 e0c/e0d 및 슬롯 5에서 첫 번째 쉘프를 재연결합니다.</block>
+  <block id="9ea7d3176d7e42bb894c7dfc4a047f98" category="paragraph">하위 단계에서는 각 컨트롤러의 기존 쉘프가 RoCE 지원 온보드 포트 e0c/e0d에 케이블로 연결되어 있다고 가정합니다.</block>
+  <block id="d69878207b35b21781b0b0d31559655d" category="list-text">AFF C400의 경우:</block>
+  <block id="04853e3291e216091e8f7c8d858186d5" category="paragraph">각 컨트롤러에서 슬롯 4와 슬롯 5에 있는 RoCE 지원 포트 2개에서 첫 번째 쉘프를 재연결합니다.</block>
+  <block id="7227ec552cdc231f47c1e1a1851c0e84" category="paragraph">하위 단계에서는 기존 쉘프가 각 컨트롤러의 슬롯 4에 있는 RoCE 지원 포트에 케이블로 연결되어 있다고 가정합니다.</block>
+  <block id="0219958df85d229cc47655b01271068a" category="list-text">을 사용하여 재연결된 쉘프가 올바르게 연결되었는지 확인합니다<block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block>.</block>
+  <block id="9d21aacca1510ddef8de552b2390d5c8" category="section-title">자동 드라이브 할당을 비활성화합니다</block>
+  <block id="8aadf4d491c9afd936a2737677005583" category="paragraph">핫 애드할 NS224 쉘프에 드라이브 소유권을 수동으로 할당하는 경우 자동 드라이브 할당을 사용하지 않도록 설정해야 합니다.</block>
+  <block id="e5eccc451484bc421d9afd96e1a5fba3" category="paragraph">드라이브 소유권을 수동으로 할당해야 하는지 또는 스토리지 시스템에 대한 드라이브 소유권 정책의 자동 할당을 이해하려면 로 이동합니다<block ref="7cf2c47025b8136f811da5dc672735ee" category="inline-link-rx"></block>.</block>
+  <block id="1e0acb33e6ab3e22b4a9fb3ca7e493f9" category="doc">핫 애드온 NS224 쉘프의 요구사항 및 모범 사례</block>
+  <block id="388fa08176ec0787504660c971afb5ce" category="paragraph">쉘프를 핫 추가하기 전에 요구사항과 모범 사례를 검토해야 합니다.</block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">요구 사항</block>
+  <block id="363158f1a7b77877e830ff40750ea599" category="paragraph">NS224 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다.</block>
+  <block id="d5b2dc488bc34a9addcea2215df132cb" category="list-text">* 지원되는 ONTAP 버전 *: ONTAP의 플랫폼 모델 및 버전은 핫 애드인 NS224 셸프 및 드라이브를 지원해야 합니다. 을 참조하십시오<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block></block>
+  <block id="803860583bfa2665bad301bcd365c743" category="list-text">* 쉘프 수 *: HA 쌍은 지원되는 최대 쉘프 수보다 적어야 합니다. 적어도 핫 추가할 셸프 수가 더 적어야 합니다.</block>
+  <block id="0500cc21f1d9baac1c3bf93ce1d9c6df" category="paragraph">쉘프를 핫 추가한 후에는 HA 쌍에서 지원하는 최대 쉘프 수를 초과할 수 없습니다. 을<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="cc50eb33da36b3b2dc0375c9859ba991" category="list-text">* 케이블 *:</block>
+  <block id="1b1694d3f7a5f1dca21b2fd8b938a575" category="list-text">쉘프를 연결하는 데 사용할 케이블 수와 유형이 올바른지 확인하십시오. 을<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="9f69034c3015816e0c4ed00c6f13a51a" category="paragraph">를 실행하여 스토리지 케이블 연결 오류 메시지 및 취해야 할 수정 조치를 확인할 수 <block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="c2ffe02d76c4f089648f1647b43e4ee5" category="section-title">모범 사례</block>
+  <block id="c4d5d39d9de05fa063bc3710cce88d43" category="paragraph">NS224 쉘프를 핫 추가하기 전에 다음 모범 사례를 숙지하십시오.</block>
+  <block id="b0af51fce4a966624ca8dbbb18556393" category="inline-link">디스크 검증 패키지</block>
+  <block id="fc229f016899e45241a8132e54e09068" category="list-text">* 모범 사례: * 모범 사례는 선반을 핫 추가하기 전에 의 최신 버전을<block ref="2e664cd4eb21331de01544565a2d83a5" category="inline-link-rx"></block> 설치하는 것입니다.</block>
+  <block id="98321f616aed394d511784263fe8c7fb" category="list-text">* 모범 사례: * 모범 사례는 선반을 핫 애드하기 전과 후에 실행하는<block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block> 것입니다.</block>
+  <block id="7f6edac9921630c5438c29ec64337ded" category="paragraph">쉘프를 핫 추가하기 전에 Active IQ Config Advisor를 실행하면 기존 ENET(셸프 이더넷) 연결의 스냅샷이 제공되며, NSM(NVMe 쉘프 모듈) 펌웨어 버전을 확인하고, HA 쌍에서 이미 사용 중인 쉘프 ID를 확인할 수 있습니다.</block>
+  <block id="9f24cdc2b556e4f7c914bbbf091868aa" category="paragraph">쉘프를 핫 추가한 후 Active IQ Config Advisor를 실행하면 쉘프가 올바로 연결되었는지, 쉘프 ID가 HA 쌍 내에서 고유한지 확인할 수 있습니다.</block>
+  <block id="3ddbd0df27907810ff1b446086cf9a21" category="inline-link">NVMe 쉘프 모듈(NSM) 펌웨어</block>
+  <block id="9a29657c935c0df841655f534d7ab2f2" category="inline-link">드라이브 펌웨어</block>
+  <block id="b8f81eee7a525fe28574a64eeb1b3cd6" category="list-text">* 모범 사례: * 모범 사례는 새 셸프를 추가하기 전에 스토리지 시스템에 및 의 최신 버전을 설치하는<block ref="2e6e5b670045aa9f131e153e1b997791" category="inline-link-rx"></block><block ref="fdb117163130a37cd01d2ae31eb75969" category="inline-link-rx"></block> 것입니다.</block>
+  <block id="504b2d1c5d5c40ae68d5ac067b2214ed" category="sidebar">AFF A70 및 A90</block>
+  <block id="79a4da7f1ec39f638870f54388dd033e" category="sidebar">AFF A1K 시스템</block>
+  <block id="1359f19561173d7123369e0c8f9fb141" category="sidebar">AFF A1K 설치 및 설정</block>
+  <block id="6f550466a69bad21f11ab99fc12db497" category="sidebar">워크플로를 설치합니다</block>
+  <block id="7b2ca066e862da1c95471b425468af14" category="sidebar">시스템 전원을 켭니다</block>
+  <block id="fad3eebd1aa676638de5e9e932b52f40" category="sidebar">시스템 설치를 완료합니다</block>
+  <block id="cdea6179c22763aadc0ee6a4b14f5f21" category="sidebar">AFF A1K 유지 보수</block>
+  <block id="5881b108517b27e7011c12b72fab1eb6" category="sidebar">AFF A1K 부팅 미디어</block>
+  <block id="316c8b53d0bf94b7eb89217eff43484f" category="sidebar">부팅 미디어 교체 개요</block>
+  <block id="96be37c346f6ee6fa03e35cdcf3a0159" category="sidebar">암호화 복원</block>
+  <block id="2df31b353db26ab75397dd256071bb0f" category="sidebar">AFF A1K 컨트롤러 모듈</block>
+  <block id="f2113978e313a35c71164bd53785fe54" category="sidebar">컨트롤러 모듈 교체 개요</block>
+  <block id="2dc5b9299e6c112139901723adb67ed0" category="sidebar">컨트롤러를 반납합니다</block>
+  <block id="5a34816c99c709c3123cc893c23aa8de" category="sidebar">NV 배터리</block>
+  <block id="9e76982e92861bfe7b8b9a2c95380f48" category="sidebar">입출력 모듈 추가 또는 교체 개요</block>
+  <block id="4d5d9ed8cd3daf7e0f60b7f56524d07a" category="sidebar">입출력 모듈을 추가합니다</block>
+  <block id="00015974de1f6f69c16403a005f48582" category="sidebar">입출력 모듈을 교체합니다</block>
+  <block id="8c62ca0981c296824eceba9a38d6aa19" category="sidebar">AFF A70 및 AFF A90 시스템</block>
+  <block id="e6c9d67e322d32a62190a7360e1ce738" category="sidebar">AFF A70, AFF A90 설치 및 설정</block>
+  <block id="8431b3d07718f99a71910529288bfbef" category="sidebar">AFF A70, AFF A90 유지 보수</block>
+  <block id="0961888a0db0b2456e0301cb7e70997c" category="sidebar">AFF A70, AFF A90 부팅 미디어</block>
+  <block id="bae3b9c4dc4ef01c1c3e52131996d15d" category="sidebar">AFF A70, AFF A90 섀시</block>
+  <block id="6895ff697457a497cc096ed423a7f5f7" category="sidebar">섀시 교체 개요</block>
+  <block id="12a66472ea6e6007bdd278fb5f5f4773" category="sidebar">AFF A70, AFF A90 컨트롤러 모듈</block>
+  <block id="be9c2c89d042ee7f71b10024f37a31ce" category="sidebar">핫 애드 워크플로우</block>
+  <block id="9671268467391e7f925a038c0f83e411" category="sidebar">요구사항에 대해 설명합니다</block>
+  <block id="df10384110caadaab35322c6cb194231" category="sidebar">핫 애드를 준비합니다</block>
+  <block id="62a10800dc4fe510c56d94d676f237a7" category="sidebar">핫 애드용 쉘프를 설치합니다</block>
+  <block id="4f3c2a2682e905ecf93df0cc8b4bb7c8" category="sidebar">핫 애드용 케이블 선반</block>
+  <block id="3b1d6e6330ca5bf54a0c22beaa407de9" category="sidebar">케이블 연결 개요</block>
+  <block id="f3585daa539c5917b4fedd0eb7efb3f2" category="sidebar">AFF 시스템</block>
+  <block id="6476573ba5b973ad8ea01c57f5b30267" category="sidebar">ASA 시스템</block>
+  <block id="9aaba65702056e024efc0836758c1538" category="sidebar">핫 애드를 완료합니다</block>
 </blocks>

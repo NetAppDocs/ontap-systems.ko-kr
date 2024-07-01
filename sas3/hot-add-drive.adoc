@@ -6,8 +6,6 @@ summary: I/O 작업 중에도 운영 중단 없이 새 드라이브를 전원이
 ---
 = 핫 애드 드라이브-SAS 쉘프
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
