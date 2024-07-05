@@ -100,7 +100,7 @@ X66250-5(112-00328), 5m
 
 X66250-30(112-00331), 30m
  a| 
-image:../media/oie_cable_etherned_mpo.png[""]
+image:../media/oie_cable_etherned_mpo.png["이더넷 케이블 - MPO"]
  a| 
 이더넷 케이블(순서에 따라 다름)
 
@@ -186,11 +186,11 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002["클러스터 구�
 NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 
 +
-image::../media/drw_a320_weight_label.png[A320 drw 중량 레이블]
+image::../media/drw_a320_weight_label.png[시스템 리프트 무게 주의]
 
 . 케이블 관리 장치를 연결합니다(그림 참조).
 +
-image::../media/drw_a320_cable_management_arms.png[케이블 관리 암 분리 또는 설치]
+image::../media/drw_a320_cable_management_arms.png[케이블 관리 암을 분리하거나 설치합니다]
 
 . 시스템 전면에 베젤을 부착합니다.
 
@@ -218,7 +218,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 그림 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.
 +
-image::../media/drw_a320_tnsc_network_cabling_composite_animated_gif.png[A320 drw tnsc 네트워크 케이블 연결 합성 애니메이션 gif]
+image::../media/drw_a320_tnsc_network_cabling_composite_animated_gif.png[스위치가 없는 2노드 클러스터 케이블 연결 복합]
 
 +
 [cols="1,2"]
@@ -232,7 +232,7 @@ image:../media/oie_legend_icon_1_lg.png["1단계"]
 다음과 같이 100GbE(QSFP28) 케이블로 클러스터/HA 포트를 서로 연결합니다.
 
 ** e0a ~ e0a
-** e0d ~ e0dimage:../media/drw_a320_tnsc_cluster_ha_connection_step1a.png[""]
+** e0d ~ e0d image:../media/drw_a320_tnsc_cluster_ha_connection_step1a.png["스위치가 없는 2노드 클러스터를 통해 클러스터 HA 연결을 연결합니다"]
 
 
 
@@ -242,7 +242,7 @@ image:../media/oie_legend_icon_2_o.png["2단계"]
  a| 
 데이터 네트워크 연결을 위해 온보드 포트를 사용하는 경우 100GbE 또는 40GbE 케이블을 해당 데이터 네트워크 스위치에 연결합니다.
 
-** e0g 및 e0himage:../media/drw_a320_onboard_data_connection_step2.png[""]
+** e0g 및 e0h image:../media/drw_a320_onboard_data_connection_step2.png["온보드 데이터 네트워크 연결을 연결합니다"]
 
 
 
@@ -252,7 +252,7 @@ image:../media/oie_legend_icon_3_dr.png["3단계"]
  a| 
 NIC 카드를 이더넷 또는 FC 연결에 사용하는 경우 해당 스위치에 NIC 카드를 연결합니다.
 
-image::../media/drw_a320_nic_connections_step3.png[A320 drw NIC 연결 3단계]
+image::../media/drw_a320_nic_connections_step3.png[스위치가 없는 2노드 클러스터가 NIC를 연결합니다]
 
 
 
@@ -261,7 +261,7 @@ image:../media/oie_legend_icon_4_lp.png["4단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
-image:../media/drw_a320_management_port_connection_step4.png[""]
+image:../media/drw_a320_management_port_connection_step4.png["관리 포트를 연결합니다"]
 
 
 
@@ -291,7 +291,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 그림 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.
 +
-image::../media/drw_a320_switched_network_cabling_composite_animated_GIF.png[A320 drw 스위치 방식 네트워크 케이블 컴포지트 애니메이션 GIF]
+image::../media/drw_a320_switched_network_cabling_composite_animated_GIF.png[스위치 클러스터 케이블 연결 복합]
 
 +
 [cols="1,3"]
@@ -305,7 +305,7 @@ image:../media/oie_legend_icon_1_lg.png["1단계"]
 클러스터/HA 포트를 100GbE(QSFP28) 케이블로 연결:
 
 ** 클러스터/HA 스위치에 있는 두 컨트롤러의 e0a
-** e0d - 양쪽 컨트롤러에서 클러스터/HA 스위치에 연결image:../media/drw_a320_switched_cluster_ha_connection_step1b.png[""]
+** 두 컨트롤러에서 클러스터/HA 스위치에 e0d 사용 image:../media/drw_a320_switched_cluster_ha_connection_step1b.png["스위치 클러스터 클러스터 HA 연결"]
 
 
 
@@ -315,7 +315,7 @@ image:../media/oie_legend_icon_2_o.png["2단계"]
  a| 
 데이터 네트워크 연결을 위해 온보드 포트를 사용하는 경우 100GbE 또는 40GbE 케이블을 해당 데이터 네트워크 스위치에 연결합니다.
 
-** e0g 및 e0himage:../media/drw_a320_onboard_data_connection_step2.png[""]
+** e0g 및 e0h image:../media/drw_a320_onboard_data_connection_step2.png["스위치 클러스터 온보드 네트워크 연결"]
 
 
 
@@ -325,7 +325,7 @@ image:../media/oie_legend_icon_3_dr.png["3단계"]
  a| 
 NIC 카드를 이더넷 또는 FC 연결에 사용하는 경우 해당 스위치에 NIC 카드를 연결합니다.
 
-image::../media/drw_a320_nic_connections_step3.png[A320 drw NIC 연결 3단계]
+image::../media/drw_a320_nic_connections_step3.png[스위치 클러스터 네트워크 연결]
 
 
 
@@ -334,7 +334,7 @@ image:../media/oie_legend_icon_4_lp.png["4단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
-image:../media/drw_a320_management_port_connection_step4.png[""]
+image:../media/drw_a320_management_port_connection_step4.png["스위치 클러스터 관리 네트워크 연결"]
 
 
 
@@ -368,7 +368,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 그림 또는 단계별 지침을 사용하여 컨트롤러를 단일 쉘프에 연결할 수 있습니다.
 +
-image::../media/drw_a320_single_shelf_connections_animated_gif.png[A320 drw 단일 셸프 연결 애니메이션 gif]
+image::../media/drw_a320_single_shelf_connections_animated_gif.png[단일 드라이브 쉘프 케이블링 컴포짓]
 
 +
 [cols="1,3"]
@@ -379,14 +379,14 @@ image::../media/drw_a320_single_shelf_connections_animated_gif.png[A320 drw 단�
  a| 
 image:../media/oie_legend_icon_1_mb.png["설명선 번호 1"]
  a| 
-컨트롤러 A를 쉘프에 연결합니다 image:../media/drw_a320_storage_cabling_controller_a_single_shelf.png[""]
+컨트롤러 A를 쉘프에 케이블 연결합니다 image:../media/drw_a320_storage_cabling_controller_a_single_shelf.png["컨트롤러 A를 쉘프에 연결합니다"]
 
 
 
  a| 
 image:../media/oie_legend_icon_2_lo.png["설명선 번호 2"]
  a| 
-컨트롤러 B를 쉘프에 연결: image:../media/drw_a320_storage_cabling_controller_b_single_shelf.png[""]
+컨트롤러 B를 쉘프에 케이블 연결: image:../media/drw_a320_storage_cabling_controller_b_single_shelf.png["컨트롤러 B를 단일 쉘프에 연결합니다"]
 
 |===
 . 시스템 설정을 완료하려면 을 참조하십시오 <<시스템 설치 및 구성을 완료합니다>>
@@ -407,7 +407,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 다음 그림 또는 작성된 단계를 사용하여 컨트롤러를 2개의 드라이브 쉘프에 연결할 수 있습니다.
 +
-image::../media/drw_a320_2_shevles_cabling_animated_gif.png[A320 drw 2 전선케이블 애니메이션 gif]
+image::../media/drw_a320_2_shevles_cabling_animated_gif.png[2개의 선반 애니메이션을 케이블로 연결합니다]
 
 +
 [cols="1-3"]
@@ -418,14 +418,14 @@ image::../media/drw_a320_2_shevles_cabling_animated_gif.png[A320 drw 2 전선케
  a| 
 image:../media/oie_legend_icon_1_mb.png["설명선 번호 1"]
  a| 
-컨트롤러 A를 쉘프에 연결: image:../media/drw_a320_2_shelves_cabling_controller_a.png[""]
+컨트롤러 A를 쉘프에 케이블 연결: image:../media/drw_a320_2_shelves_cabling_controller_a.png["컨트롤러 A에 쉘프 2개를 연결합니다"]
 
 
 
  a| 
 image:../media/oie_legend_icon_2_lo.png["설명선 번호 2"]
  a| 
-컨트롤러 B를 쉘프에 연결: image:../media/drw_a320_2_shelves_cabling_controller_b.png[""]
+컨트롤러 B를 쉘프에 케이블 연결: image:../media/drw_a320_2_shelves_cabling_controller_b.png["컨트롤러 b에 케이블 테오 선반"]
 
 |===
 . 시스템 설정을 완료하려면 을 참조하십시오 <<시스템 설치 및 구성을 완료합니다>>
@@ -496,7 +496,7 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 .. 시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 관리 스위치에 연결합니다.
 +
-image::../media/drw_a320_laptop_to_switch_and_controller.png[스위치 및 컨트롤러를 위한 A320 drw 노트북]
+image::../media/drw_a320_laptop_to_switch_and_controller.png[랩톱을 관리 서브넷 스위치에 케이블 연결합니다]
 
 .. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
 

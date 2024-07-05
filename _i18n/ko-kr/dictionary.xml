@@ -1658,7 +1658,6 @@
   <block id="88ac4d07d58a69eac184825b4a4f7ab4" category="summary">서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다.</block>
   <block id="19700f9c729dfc1036b3ebeb2a20006a" category="doc">팬 모듈 핫 스왑 - AFF A320</block>
   <block id="d84d817301b3fda6e7f2d0b2ffa82793" category="admonition">팬 모듈을 섀시에서 분리한 후 2분 이내에 교체해야 합니다. 시스템 공기 흐름이 중단되고 과열되지 않도록 2분 후에 컨트롤러 모듈 또는 모듈이 종료됩니다.</block>
-  <block id="18537f27e3c57fa7095de2a3bbea83b2" category="image-alt">A320 drw 팬을 교체합니다</block>
   <block id="1c38a6f5e9d74d90b79d7e7bda908821" category="list-text">베젤의 양 측면에 있는 입구를 잡은 다음 섀시 프레임의 볼 스터드에서 베젤이 분리될 때까지 양손으로 베젤을 분리합니다(필요한 경우).</block>
   <block id="eec5fe6d3c4d1821d8ef29726fec6123" category="list-text">콘솔 오류 메시지를 확인하고 각 팬 모듈의 주의 LED를 확인하여 교체해야 하는 팬 모듈을 식별합니다.</block>
   <block id="6c73a7ebffd4fd597788afebf36629af" category="list-text">팬 모듈 캠 핸들의 분리 래치를 아래로 누른 다음 캠 핸들을 아래쪽으로 돌립니다.</block>
@@ -1689,7 +1688,6 @@
   <block id="dfadb5bec4ad9ae917f6e3fe437aea8d" category="list-text">컨트롤러 모듈 측면을 잡을 수 있도록 컨트롤러 모듈을 사용자 쪽으로 몇 인치 정도 가볍게 당깁니다.</block>
   <block id="8e18da52b3dfee1b96bba3a745df11b2" category="list-text">양손으로 컨트롤러 모듈을 섀시에서 조심스럽게 당겨 평평하고 안정적인 표면에 놓습니다.</block>
   <block id="5d32a38a1b041424ab4d21535c31e0b6" category="section-title">4단계: RTC 배터리를 교체합니다</block>
-  <block id="ca57ca907ae8206b83c7ddff6d0710d5" category="image-alt">애니메이션 gif를 대체하는 A320 drw RTC 배치</block>
   <block id="f443567234fee382feed95c62b71f4ac" category="list-text">PCIe 덮개를 분리합니다.</block>
   <block id="098c84ebcbcf1abdb1b6be280f983f02" category="list-text">컨트롤러 모듈 후면의 온보드 포트 위에 있는 파란색 손잡이 나사를 풉니다.</block>
   <block id="c7705a8f2e7cd22c3c497bc8bdc6a22e" category="list-text">덮개를 사용자 쪽으로 밀고 덮개를 위쪽으로 돌립니다.</block>
@@ -1712,7 +1710,6 @@
   <block id="8041c469e6d9bb1d2588be103ea09ab6" category="doc">NVDIMM 배터리 교체 - AFF A320</block>
   <block id="cc9b9cbb2b7e2941b317fa5e4937583c" category="section-title">3단계: NVDIMM 배터리를 교체합니다</block>
   <block id="23303fd786407709fac1485d347f7aa2" category="paragraph">NVDIMM 전지를 교체하려면, 컨트롤러 모듈에서 결함이 있는 전지를 제거하고 교체 전지를 컨트롤러 모듈에 설치해야 합니다.</block>
-  <block id="7a7bd9d285c26c52e7363905c161c15e" category="image-alt">A320 drw nvbat move 애니메이션 gif</block>
   <block id="ddd5abc1f11eb7170e1eeacbd5acc236" category="list-text">에어 덕트를 열고 NVDIMM 배터리를 찾습니다.</block>
   <block id="132e7df6bb77c84e49f793bfa8f603a2" category="list-text">배터리 모듈을 배터리 입구에 맞춘 다음 제자리에 잠길 때까지 배터리를 슬롯에 부드럽게 밀어 넣습니다.</block>
   <block id="034cdc8c763b58cb46a43e92fa5725bd" category="list-text">배터리 플러그를 컨트롤러 모듈에 다시 연결한 다음 에어 덕트를 닫습니다.</block>
@@ -1730,7 +1727,6 @@
   <block id="72e762fb9ea8e85f3b69ae72fd4dc171" category="doc">NVDIMM-AFF A320을 교체합니다</block>
   <block id="00a491f6ddc82f254e9e3fa6711c8a44" category="section-title">3단계: NVDIMM을 교체합니다</block>
   <block id="d07d22679fd595588166f72cbc3fcec6" category="admonition">NVDIMM LED는 시스템을 중단할 때 내용을 디스테이징하는 동안 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.</block>
-  <block id="a28d1d59ce7973c59f7c8fb5eb3f42b3" category="image-alt">A320 drw NVDIMM 교체 애니메이션 gif</block>
   <block id="47cd398c5a2374103dbd8377631bc325" category="list-text">공기 덕트를 열고 컨트롤러 모듈의 슬롯 11에서 NVDIMM을 찾습니다.</block>
   <block id="dbbfb501b0cd6e084bc9a536cb1e4772" category="admonition">NVDIMM은 시스템 DIMM과 상당히 다릅니다.</block>
   <block id="b860df82f0aa962ce83ad7cbf06bb972" category="list-text">NVDIMM을 교체 컨트롤러 모듈에 올바른 방향으로 삽입할 수 있도록 소켓에 있는 NVDIMM의 방향을 기록해 두십시오.</block>
@@ -1768,7 +1764,6 @@
   <block id="9acce39f034b56b5a36d798f9b54c493" category="paragraph">X66200-2(112-00326), 2m</block>
   <block id="36789c9401bff1c7c561e68fd452d624" category="paragraph">X66250-5(112-00328), 5m</block>
   <block id="638d6c29f972d003a7c9bce0be1075c0" category="paragraph">X66250-30(112-00331), 30m</block>
-  <block id="ee2a005a5fff47af39846bc52215856a" category="paragraph"><block ref="ee2a005a5fff47af39846bc52215856a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6d03b2201d103d5ae1263174b93ad00d" category="paragraph">이더넷 케이블(순서에 따라 다름)</block>
   <block id="99e6a93356204a99615e29e4f73ced9b" category="paragraph">광 케이블</block>
   <block id="a0e077807aa1ab474e20633b71f65adc" category="paragraph">SR:</block>
@@ -1785,41 +1780,28 @@
   <block id="5dce1d6a0952709f0d3753b80a1cfdfb" category="list-text">클러스터 구성 워크시트 _ 을(를) 다운로드하고 완료합니다.</block>
   <block id="9245f306913d78c734376f866af93a01" category="paragraph"><block ref="9245f306913d78c734376f866af93a01" category="inline-link-rx"></block></block>
   <block id="923a86c9f908f09f61d33d7831905371" category="section-title">하드웨어를 설치합니다</block>
-  <block id="36038ef1dbb81cac29095e7ec102e15e" category="image-alt">A320 drw 중량 레이블</block>
   <block id="6c9822a6a6265e0e6627098c357cfe2d" category="section-title">컨트롤러를 네트워크에 케이블로 연결합니다</block>
   <block id="f69d8cf8cac45861ff6e65b70f1318ea" category="section-title">옵션 1: 스위치가 없는 2노드 클러스터를 케이블로 연결합니다</block>
   <block id="a766258e1cfb1ce4e72917121f65a74d" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트/HA 포트는 두 컨트롤러 모듈에 모두 케이블로 연결됩니다.</block>
   <block id="b0f36369923404e3d59d32e54263eb35" category="paragraph">시스템에 스위치를 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의해야 합니다.</block>
   <block id="6fe081310097e5bdd9201304d5f2f43c" category="image-alt">OIE 케이블 당김 탭 위로</block>
   <block id="5e71f7cd3736dc18c619e22ab69496b8" category="list-text">그림 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.</block>
-  <block id="013322a8027b639585538fe290718386" category="image-alt">A320 drw tnsc 네트워크 케이블 연결 합성 애니메이션 gif</block>
   <block id="e5cd602ca5c03c391e8dfac3c307e06c" category="paragraph">다음과 같이 100GbE(QSFP28) 케이블로 클러스터/HA 포트를 서로 연결합니다.</block>
-  <block id="4f8f8380e5597e92380de812b879c5d1" category="list-text">e0d ~ e0d<block ref="5ea5295965a00406899d4b7460801661" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ec377d11568067a729ee6f50dee77c8" category="paragraph">데이터 네트워크 연결을 위해 온보드 포트를 사용하는 경우 100GbE 또는 40GbE 케이블을 해당 데이터 네트워크 스위치에 연결합니다.</block>
-  <block id="3c04babfe00a81e06f8982d93dd90179" category="list-text">e0g 및 e0h<block ref="6fafbcd677ceba87d8c48de1a29a3bf5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cc74cb2d1e5f9750b5812faaf036676e" category="paragraph">NIC 카드를 이더넷 또는 FC 연결에 사용하는 경우 해당 스위치에 NIC 카드를 연결합니다.</block>
-  <block id="becd6fe246f05c450f5f6f1ff59f10ab" category="image-alt">A320 drw NIC 연결 3단계</block>
   <block id="9dfe7ca4d480fd4e10a0954286489a0f" category="paragraph">RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.</block>
-  <block id="5d86a652667b386e0b98042631990c02" category="paragraph"><block ref="5d86a652667b386e0b98042631990c02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb9634f2ea796139d7f0aeca3f6ce2d4" category="section-title">옵션 2: 스위치 클러스터 케이블링</block>
   <block id="5b2974409018c6d4642074b9be18209d" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트/HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.</block>
   <block id="f5412d7277a9aad4f1e320bf63f0582b" category="paragraph">클러스터/HA 포트를 100GbE(QSFP28) 케이블로 연결:</block>
   <block id="840e60c4749a688bca9fc657aaff1710" category="list-text">클러스터/HA 스위치에 있는 두 컨트롤러의 e0a</block>
-  <block id="c59f62b950bdb48bdd4229f438a8c8a8" category="list-text">e0d - 양쪽 컨트롤러에서 클러스터/HA 스위치에 연결<block ref="15e7674fee3b32b30f565083329e5ce8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60e821d2b0d80835cf4d935eb3557760" category="section-title">컨트롤러를 드라이브 쉘프에 케이블로 연결합니다</block>
   <block id="ea4a0ef865c900d0ce0d6485667ba790" category="paragraph">온보드 스토리지 포트를 사용하여 컨트롤러를 쉘프에 연결해야 합니다.</block>
   <block id="44545bc0051cf1d567b013be4fbb64b8" category="section-title">옵션 1: 컨트롤러를 단일 드라이브 쉘프에 연결합니다</block>
   <block id="722164afb5db2ef3c2f2cf14fc383cba" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="23d2444a35f8c3c8957c78070a834d0c" category="list-text">그림 또는 단계별 지침을 사용하여 컨트롤러를 단일 쉘프에 연결할 수 있습니다.</block>
-  <block id="d49bb9b3f4ea10bb2faedd5805957881" category="image-alt">A320 drw 단일 셸프 연결 애니메이션 gif</block>
-  <block id="fcc21d6aa5ce2f3d80b7b15b3efd7622" category="paragraph">컨트롤러 A를 쉘프에 연결합니다 <block ref="97ef6a28616ee1b44c8e319d2e09ad63" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cf09fa2cd4cedb36165538f6f6133b7f" category="paragraph">컨트롤러 B를 쉘프에 연결: <block ref="adad54de70c837652052dc8fbe20179a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e47141e6c8fccf9bfe115e4e18090b8e" category="section-title">옵션 2: 컨트롤러를 두 드라이브 쉘프에 연결합니다</block>
   <block id="a496c0eee37cdb410fb5999f04b37d60" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="6bd176ab7852b1804bc6113808615ff6" category="list-text">다음 그림 또는 작성된 단계를 사용하여 컨트롤러를 2개의 드라이브 쉘프에 연결할 수 있습니다.</block>
-  <block id="e49f4a89e69b410e9fd76acc797854aa" category="image-alt">A320 drw 2 전선케이블 애니메이션 gif</block>
-  <block id="1fd24d2bc89f56e2b5b986eb7d944870" category="paragraph">컨트롤러 A를 쉘프에 연결: <block ref="dc30c6795d4eccef24ec9e4cbd9f34a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="64cd25defcb831725e6dbd4eeb07cec0" category="paragraph">컨트롤러 B를 쉘프에 연결: <block ref="fcd3de865e51763ca7c18796d9eecca6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="29507e337f4599b17e78b1e81c219e26" category="section-title">시스템 설치 및 구성을 완료합니다</block>
   <block id="f5db8a467b7fb8d7cf073d921c784267" category="paragraph">스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료할 수 있습니다.</block>
   <block id="1001f289121bc2aaf60e874b29a86ac9" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우 시스템 설치 및 구성 완료</block>
@@ -1832,7 +1814,6 @@
   <block id="9d0be0d6f61b9f5f1bd1c769171e1a51" category="list-text">초기 구성을 완료한 후 로 이동합니다<block ref="8203f64117389bb7bbdf8d4d70d36e4d" category="inline-link-rx"></block> 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.</block>
   <block id="9e22e123b14b1f7e6da8d2bfe46c63a7" category="section-title">옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성 완료</block>
   <block id="7a2b8204791fefff118f35cda4159e64" category="list-text">시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 관리 스위치에 연결합니다.</block>
-  <block id="80b38fbcbc6122c93f20a23f0edcacc5" category="image-alt">스위치 및 컨트롤러를 위한 A320 drw 노트북</block>
   <block id="a1fe4b5bc72dd1ed629092acf7170112" category="list-text">다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.</block>
   <block id="58599a78c7345fe9e241e0a8a135d733" category="list-text">NetApp ONTAP 구성 가이드 _ 에서 수집한 데이터를 사용하여 시스템을 구성합니다.</block>
   <block id="82bbfcee09add33fd33001d4761a8949" category="inline-link">올바른 복구 절차 선택</block>
@@ -1858,7 +1839,6 @@
   <block id="1229beab8577341c3e1295090613296f" category="section-title">4단계: 부팅 미디어를 이동합니다</block>
   <block id="11c0701315f6ed07c6cf9f964fa86a42" category="paragraph">부팅 미디어를 찾은 다음 지침에 따라 손상된 컨트롤러 모듈에서 분리한 후 교체 컨트롤러 모듈에 삽입해야 합니다.</block>
   <block id="af959703d2cf03d6f0ec54feb06a483a" category="paragraph">다음 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 부팅 미디어를 이동할 수 있습니다.</block>
-  <block id="688801a2df2e8d7d87f1b2c5de917ce1" category="image-alt">A320 drw 부트 미디어 이동 애니메이션 gif</block>
   <block id="11eb9c8c2de064eb9f7977a655de2097" category="list-text">공기 덕트를 열고 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.</block>
   <block id="b7354c4a03a4fa8e4dad4a1e56b737cd" category="list-text">컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.</block>
   <block id="2f803b1fd5ca64429b8057b9d74d5e2b" category="list-text">부팅 미디어의 립이 파란색 버튼을 지울 때까지 부팅 미디어 끝에 있는 파란색 버튼을 누릅니다.</block>
@@ -1870,8 +1850,6 @@
   <block id="3a03dd2c91e538d3e67a42cab9b8cce1" category="section-title">5단계: DIMM을 이동합니다</block>
   <block id="6446bf31ea57eb06abcf3d71277ace1f" category="paragraph">DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 DIMM을 이동해야 합니다.</block>
   <block id="8704a1a5bea5c63a077fa4f8a91fa4a6" category="paragraph">다음 그림이나 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 DIMM을 이동할 수 있습니다.</block>
-  <block id="2f486cec6da5b4ab5646e87394d2a4a2" category="image-alt">A320 drw DIMM 이동 애니메이션 gif</block>
-  <block id="05e409ce8812fcbb841a7e4fffcaacac" category="image-alt">A320 drw DIMM 맵</block>
   <block id="8d669e84d5ccc297894b17bd6469d12d" category="cell">에어 덕트</block>
   <block id="81991fce0a133e64dc7f5bd7f590afbd" category="list-text">시스템 DIMM 슬롯: 2,4, 7, 9, 13, 15, 18, 20세</block>
   <block id="42fedd56824cc1ddf6aa00c30e53255e" category="list-text">NVDIMM 슬롯: 11</block>
@@ -1888,7 +1866,6 @@
   <block id="f7201b424e63db1eb201784a41831c5b" category="section-title">6단계: PCIe 라이저를 이동합니다</block>
   <block id="09a031229040acdcc93835464607987d" category="paragraph">PCIe 카드가 설치된 상태에서 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 PCIe 라이저를 이동해야 합니다.</block>
   <block id="7b54866b2a0d6e6e75dbd1588a1d2832" category="paragraph">다음 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 PCIe 라이저를 이동할 수 있습니다.</block>
-  <block id="eb05cd11b7228336d5c9c6b4b1189e9b" category="image-alt">A320 drw PCI 라이저 이동 애니메이션 gif</block>
   <block id="e3c377eeac98c2c7c22ab039e765483b" category="list-text">덮개의 파란색 손잡이 나사를 풀어 PCIe 라이저 위에 있는 덮개를 분리하고 덮개를 사용자 쪽으로 밀고 덮개를 위로 돌린 다음 컨트롤러 모듈에서 들어올려 분리합니다.</block>
   <block id="64e10ab629fdd5f98070e4ba4cbc9431" category="list-text">교체용 컨트롤러 모듈에서 빈 라이저를 분리합니다.</block>
   <block id="fb2259bf7b24733032c36ee5d7b47fc1" category="list-text">라이저 모듈의 왼쪽에 있는 구멍에 검지를 넣고 엄지 손가락으로 라이저를 잡습니다.</block>
@@ -1933,7 +1910,6 @@
   <block id="314e31cf4cbebcf3a827e9ba64a1e005" category="list-text">에어 덕트를 열림 위치로 돌리십시오.</block>
   <block id="3c96abc43edac8ae6d9684f7b2c979fa" category="list-text">DIMM 양쪽에 있는 두 개의 DIMM 이젝터 탭을 천천히 밀어 소켓에서 DIMM을 꺼낸 다음 소켓에서 DIMM을 꺼냅니다.</block>
   <block id="b06018bc829da55a1eb1a43b93312dc5" category="summary">부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다.</block>
-  <block id="e6b7941c3f8bfc56083e6d96c76bea05" category="image-alt">A320 drw 부팅 미디어 교체 애니메이션 gif</block>
   <block id="e7ee072a3e06310afcc412655144e84b" category="section-title">3단계: USB 플래시 드라이브를 사용하여 부팅 이미지를 부팅 미디어로 전송합니다</block>
   <block id="0186f6c22953c36e3e4978bb091e11b3" category="paragraph">설치한 교체 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다.</block>
   <block id="ce92127c659a39f2e906ff085ee4ba89" category="list-text">최소 4GB 용량의 MBR/FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다</block>
@@ -1982,7 +1958,6 @@
   <block id="bc5719b37f755088b3bb793c36a74d06" category="section-title">1단계: 장애가 있는 노드를 종료합니다</block>
   <block id="d26f9a8db778421541cf5cebfdeb9039" category="section-title">3단계: PCIe 카드를 교체합니다</block>
   <block id="c6835c4571228046430ed6bbb1f8c06a" category="paragraph">오류가 발생한 PCIe 카드가 들어 있는 PCIe 라이저를 컨트롤러 모듈에서 분리하고, 오류가 발생한 PCIe 카드를 라이저에서 제거하고, 교체용 PCIe 카드를 라이저에 설치한 다음, 라이저를 컨트롤러 모듈에 다시 설치해야 합니다.</block>
-  <block id="d53dfbdb1355f3674e5de636f87c5be0" category="image-alt">A320 drw PCI 카드 교체 애니메이션 gif</block>
   <block id="618712f4c03b5acbe994f7deb8579ad4" category="list-text">오류가 발생한 PCIe 카드로 라이저를 분리합니다.</block>
   <block id="c5001055f65b1d0ac2ba105ee25e93fe" category="list-text">PCIe 카드에 있을 수 있는 SFP 또는 QSFP 모듈을 모두 분리합니다.</block>
   <block id="8da48c6dbfa1b11e1b02a674f7016444" category="list-text">라이저를 소켓에서 똑바로 들어 올려 옆에 둡니다.</block>
@@ -2051,7 +2026,6 @@
   <block id="e944774dbb716679ef719542153680f0" category="doc">전원 공급 장치 교체 - AFF A320</block>
   <block id="f044adaf132925553df56c50232bae8a" category="paragraph">전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결하는 작업이 포함됩니다.</block>
   <block id="76c422e38c98bcea8a54ea2c31b96d23" category="admonition">섀시에서 전원 공급 장치를 분리한 후 2분 이내에 전원 공급 장치를 교체하는 것이 좋습니다. 시스템이 계속 작동하지만 ONTAP에서는 전원 공급 장치를 교체할 때까지 성능이 저하된 전원 공급 장치에 대한 메시지를 콘솔에 보냅니다.</block>
-  <block id="4cc9071129241d95215f35c3a4e731ef" category="image-alt">A320 drw PSU 교체 애니메이션 gif</block>
   <block id="bdf78208a16277bdf48a7e0c9bfa97a4" category="list-text">전원 공급 장치를 분리합니다.</block>
   <block id="0b8bc61409e02494497fb415b526324c" category="list-text">전원 공급 장치를 분리합니다.</block>
   <block id="bd5e4756909c5ec64e5959e1f7d9e160" category="list-text">캠 핸들을 돌려 섀시에서 전원 공급 장치를 당겨 빼냅니다.</block>
@@ -2110,7 +2084,6 @@
   <block id="13fa4776dd3902d644b4c8c6e4086d8d" category="doc">실시간 시계 배터리 - FAS8200을 교체하십시오</block>
   <block id="6ffcd61574f4970c28c0b71a5611ad7c" category="section-title">3단계: RTC 배터리를 교체합니다</block>
   <block id="12567249cf52e7754ded20b52b9cb150" category="paragraph">RTC 배터리를 교체하려면 컨트롤러 내부에 있는 배터리를 찾아 특정 단계를 따르십시오.</block>
-  <block id="b7d5be6336dc1e791cd4f528bc0ef57a" category="image-alt">drw rxl RTC 배터리</block>
   <block id="529a5b75d801eb658fc7856f114ac8e5" category="section-title">4단계: 컨트롤러 모듈을 다시 설치하고 RTC 배터리 교체 후 시간/날짜를 설정합니다</block>
   <block id="e62b4750e70bd7d70bffad33b5e2a973" category="list-text">전원 케이블을 전원 공급 장치와 전원에 다시 연결한 다음 전원을 켜서 부팅 프로세스를 시작합니다.</block>
   <block id="8f511756e5bb3f8ab1b0c5b4c59ad2d1" category="section-title">5단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다</block>
@@ -2729,23 +2702,19 @@
   <block id="19026798e40f3d682dde87cbb940fc1b" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 두 컨트롤러 모듈에 모두 케이블로 연결됩니다.</block>
   <block id="3d6d824132e6ea9215d5f55aab2c487b" category="paragraph">포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 온보드 포트에 대해 위로, 확장(NIC) 카드에서는 아래로 이동합니다.</block>
   <block id="d50b249d8e309dd400e0180a12ceae23" category="list-text">애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.</block>
-  <block id="89022c411a82a2fd505bed4d053014b2" category="image-alt">drw A400 TNSC 네트워크 케이블 연결</block>
   <block id="cdb5f9fd7bdb37f00fbde22fc433f594" category="list-text">로 이동합니다 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block> 드라이브 쉘프 케이블링 지침:</block>
   <block id="6c0e530aa28d8009701169ec145c45b2" category="section-title">옵션 2: 스위치 클러스터 케이블 연결</block>
   <block id="1e156599489dd8cc844095b452c708a0" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드, 메자닌 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.</block>
-  <block id="1183b63959875b4b1d4b622707e3bdb2" category="image-alt">drw a400 스위치 방식 네트워크 케이블 연결</block>
   <block id="3791be63815c8fbe248b161feeb8b6cd" category="section-title">4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다</block>
   <block id="23b4387b0bd437fdde9fbf6ab72eb30b" category="paragraph">NSS224 또는 SAS 쉘프를 시스템에 케이블로 연결할 수 있습니다.</block>
   <block id="8e0457ffe2e7bb2af86481f4fd7c6f41" category="paragraph">그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. NS224의 케이블 당김 탭이 위로 올라와 있습니다.</block>
   <block id="3e2f0478573244aa002f7207cde9b93b" category="list-text">다음 애니메이션 또는 그림을 사용하여 컨트롤러를 단일 드라이브 쉘프에 연결합니다.</block>
   <block id="f3e065129fb4cb88ba99260c70d8c054" category="list-text">로 이동합니다 <block ref="53346fef0c147b551f530d05bbad2e41" category="inline-xref-macro-rx"></block> 시스템 설치 및 구성을 완료합니다.</block>
   <block id="0d41b873813de2203d2c7cc22322899d" category="list-text">다음 애니메이션 또는 그림을 사용하여 컨트롤러를 2개 드라이브 쉘프에 케이블을 연결하십시오.</block>
-  <block id="28a5b6c12bed824c9983c41c17b4e08c" category="image-alt">drw a400 2개의 ns224 셸프</block>
   <block id="2d30f0e7d0bd139e4aadac367a22367c" category="section-title">옵션 3: SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
   <block id="3368a061a42c179bf8e803509b06906f" category="paragraph">각 컨트롤러를 두 SAS 드라이브 쉘프의 IOM 모듈에 연결해야 합니다.</block>
   <block id="22b99956f40dddc5bacbbde3d6214bfb" category="paragraph">그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. DS224-C의 케이블 당김 탭이 내려졌습니다.</block>
   <block id="f7a5a513bed985929212bb6fb12674e1" category="list-text">다음 그림을 참조하여 컨트롤러를 2개의 드라이브 쉘프에 연결합니다.</block>
-  <block id="f2a5deba6280f91d25f9842359122210" category="image-alt">drw a400 ds224c 쉘프 3개</block>
   <block id="591a460534c5cea6a44feabf56c126fc" category="section-title">5단계: 시스템 설치 및 구성을 완료합니다</block>
   <block id="55d80e432b90973a4fa7b6b869da09c2" category="paragraph">시스템에 NS224 드라이브 쉘프가 있는 경우, 쉘프는 쉘프 ID 00 및 01로 사전 설정됩니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다.</block>
   <block id="dc8bb6b58e1b8b075a55fc33d6eedede" category="list-text">계정 설정 및 Active IQ Config Advisor 다운로드:</block>
@@ -5468,7 +5437,6 @@
   <block id="03163c4d180c5b6d6482efa550043cd8" category="doc">컨트롤러-AFF A800을 종료합니다</block>
   <block id="f0623f3de563d7ac67a984a76c53803d" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.</block>
   <block id="e935849faf7cd25a183a726f34797bb7" category="doc">컨트롤러 모듈 교체 - AFF A300</block>
-  <block id="75a0d3caeb66a7c3aca3b7bc0f0c5985" category="image-alt">A320 drw 스위치 방식 네트워크 케이블 컴포지트 애니메이션 GIF</block>
   <block id="82430a05d3820aeaeb756230e94ee643" category="doc">온보드 암호화 - FAS8200을 확인하십시오</block>
   <block id="a28455bf2eecf6cc499c335ee152cd75" category="paragraph">다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.</block>
   <block id="3e1047f2ebaed54fe88cc6f78291dbb6" category="doc">부팅 미디어 교체 - FAS500f</block>
@@ -8711,7 +8679,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0fc16b203bddbfc834dc54c640fc1fd2" category="image-alt">LED USB 모듈을 분리합니다</block>
   <block id="e5247af1b25811b19243276e67aa7b9b" category="image-alt">NVRAM 모듈을 분리합니다</block>
   <block id="11d45af041bcae71c4e4d631ead36642" category="image-alt">NVRAM 모듈 내용을 제거합니다</block>
-  <block id="99a4fad8e3a9e518a4c8e3984c45a020" category="image-alt">PSU 모뎀을 제거하거나 설치합니다</block>
   <block id="38d3a35ba6c4b54bcaa647b5f49f15bf" category="image-alt">RTC 배터리를 탈거한 후 장착하십시오</block>
   <block id="c591c62ae89f72b00936f85341489306" category="image-alt">전원 공급 장치 캠 핸들 열기</block>
   <block id="0709513deb20f95d7151fe2b5265dec7" category="image-alt">엔드 캡 작업자 디스플레이</block>
@@ -8808,7 +8775,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f4247136ba1a68a91a49f4e715963146" category="paragraph">손상된 컨트롤러를 종료하기 전에 시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인해야 합니다.</block>
   <block id="ee3b489243bdd4fdcc48ef1ad422f531" category="section-title">보안 키 관리자 구성을 확인합니다</block>
   <block id="19033065ab73d137563560b1fc6895b0" category="inline-link">보안 키 관리자 keystore show man page</block>
-  <block id="a816d953401f2846877f62bed4fdd27b" category="list-text">키 관리자가 _security key-manager keystore show_명령을 사용하여 활성 상태인지 확인합니다. 자세한 내용은 를 참조하십시오<block ref="4b8f2aeacb1514195535ef615c2cae4a" category="inline-link-rx"></block></block>
   <block id="71f479ec4da1fa9d5c9be25ad13a546d" category="admonition">추가 키 관리자 유형이 있을 수 있습니다. 형식은<block ref="5a2c55bb167f4f0fcfe52384fe7a4f0b" prefix=" " category="inline-code"></block><block ref="15460966dfd5d819470e51c2381536a3" prefix=" " category="inline-code"></block>, 및<block ref="c731f72e1d22a7c5e01a7cb789a8885e" prefix=" " category="inline-code"></block>입니다. 이러한 유형을 확인하는 프로세스는 확인<block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block> 또는<block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block> 키 관리자 유형과 동일합니다.</block>
   <block id="a286fff38dd07b679c8ce3d88b6f2962" category="inline-link-macro">손상된 컨트롤러를 종료합니다</block>
   <block id="367826db12be5d0f5fa3825090445002" category="list-text">출력이 표시되지 않으면 로 <block ref="eee94cfaa2087b0a7525f83880646105" category="inline-link-macro-rx"></block> 이동하여 손상된 노드를 종료합니다.</block>
@@ -9029,7 +8995,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8c7bd045108e1c5b78c97e914b17c504" category="list-text">LOADER 프롬프트에서 ONTAP를 부팅하려면 _bye_를 입력합니다.</block>
   <block id="92c80dd5462d9ebbe458a4d5574a0bcd" category="paragraph">컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경 사항이 구현되었는지 확인해야 합니다.</block>
   <block id="4809a5131531611e176d418579ff2bce" category="list-text">컨트롤러가 유지보수 모드(프롬프트를 표시)인 경우<block ref="2cf8a3bab83c4d2618c18eeeca9ebc98" prefix=" " category="inline-code"></block> 유지보수 모드를 종료하고 LOADER 프롬프트:_HALT_로 이동합니다</block>
-  <block id="98848d6f640c1b9d9ad1cab89e0b0a13" category="list-text">컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID가 일치하지 않아 시스템 ID를 재정의하라는 메시지가 표시될 때 _y_를 입력합니다.</block>
   <block id="4e5f4ae21b25e767c4cce37a6162f267" category="list-text">Giveback이 완료될 때까지 기다립니다. 메시지가 교체 모듈과 함께 컨트롤러 콘솔에 표시된 다음 정상 컨트롤러에서 새 파트너 시스템 ID가 자동으로 할당되었는지 확인합니다. _storage failover show_</block>
   <block id="7fea4b03ba1069ae857e3bf99659e212" category="list-text">정상 작동이 확인된 컨트롤러에서 교체된 컨트롤러의 스토리지를 반환하십시오. _storage failover 반환 - ofnode replacement_node_name_</block>
   <block id="67a849a4d7dbba4f1483601cbb852e97" category="paragraph">컨트롤러가 스토리지를 다시 가져와 부팅을 완료합니다.</block>
@@ -9376,7 +9341,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dc67dd4e83bd586a50c17ea2c94c00d5" category="list-text"><block ref="3b8595d627306d8980fff3bd262d05b2" prefix="" category="inline-code"></block></block>
   <block id="536aadfad0128887672b66e929f02fcb" category="list-text"><block ref="a6dd61fa165deef585a79e05f8de73b0" prefix="" category="inline-code"></block></block>
   <block id="a242b56bad1d07089dce8ccb795966f2" category="list-text">복구 프로세스가 완료됩니다.</block>
-  <block id="4730255e1152aa0891d10726285854f6" category="paragraph">일반 부팅 후 최종 검사를 완료하고 저장 공간을 되돌려 부팅 미디어 교체 프로세스를 완료합니다.</block>
   <block id="3bac3ae452491bc05a59b99b3d2476d6" category="paragraph">6단계로 이동합니다.</block>
   <block id="070dd7606e33a466d7a8bb82a9a64b17" category="list-text">_storage failover show_명령을 사용하여 타겟 컨트롤러가 반환 준비가 되었는지 확인합니다.</block>
   <block id="378fa36f6e90b3bf6ddbb070e35b0388" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 _storage failover -fromnode local-only -CFO-aggregates true_ 명령을 사용하여 타겟 컨트롤러 스토리지를 되돌립니다.</block>
@@ -9438,7 +9402,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="04c6391623d6bd5d0ac0d7df563f74dc" category="image-alt">케이블 당김 탭 방향의 예</block>
   <block id="35bd3e31ed449ec51ffdc43a42bdcd8f" category="list-text">스위치에 광 케이블을 연결하는 경우 포트에 케이블을 연결하기 전에 SFP를 컨트롤러 포트에 삽입합니다.</block>
   <block id="e8dcbbdb0b0cc30021cdb1772e14a12d" category="section-title">1단계: 컨트롤러를 네트워크에 케이블로 연결합니다</block>
-  <block id="6df54967c5941126ef71ad521ce71f57" category="paragraph">다음 절차는 일반적인 구성을 보여 줍니다. 특정 케이블 연결은 스토리지 시스템에 대해 주문된 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="774fc771cbe0562cf589e2e5571e543c" category="open-title">옵션 1: 스위치가 없는 클러스터 케이블 연결</block>
   <block id="ab3e6f854653e79b55b1aef74734d66a" category="paragraph">스위치 없는 클러스터 연결을 케이블로 연결합니다.</block>
   <block id="0ce6d01af755d7d63a1db543cd42ef01" category="list-text">클러스터/HA 인터커넥트 포트 E1A와 e1A를 클러스터/HA 인터커넥트 케이블로 e7a에 연결합니다.</block>
@@ -9460,7 +9423,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1107155d6b0c900a6485f06681854862" category="image-alt">RJ-45 케이블</block>
   <block id="9c29eb35e98929529d99ca71cd855f4e" category="paragraph">* 1000BASE-T RJ-45 케이블 *</block>
   <block id="a8536d671676b42d7c49328e04123a96" category="image-alt">관리 네트워크에 연결합니다</block>
-  <block id="c67ade60c9405661826821f009653f29" category="admonition">아직 전원 코드를 연결하지 마십시오.</block>
   <block id="09e9d41a74e65e2200df2359e0c54806" category="open-title">옵션 2: 케이블 스위치 클러스터</block>
   <block id="0b7f474dc87a04642d4a17b892a87553" category="paragraph">스위치된 클러스터 연결을 케이블로 연결합니다.</block>
   <block id="fe1ed4b5e6a760085b2af448921f0d53" category="list-text">다음과 같은 케이블 연결을 설정합니다.</block>
@@ -9523,7 +9485,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2ce1349fe67fa0e027bf3526a78ebb93" category="admonition">클러스터가 초기화되면 을 다운로드하고 실행하여 <block ref="48865c7c1d8013246e4e5f705a9105de" category="inline-link-rx"></block> 설정을 확인하십시오.</block>
   <block id="ed198c6c65dda3bfcee47cc329346a10" category="summary">스토리지 시스템을 캐비닛 또는 통신 랙에 설치합니다.</block>
   <block id="94ebd1127cf45d2e2e1f6f1b0cd35269" category="doc">AFF A1K 하드웨어를 설치합니다</block>
-  <block id="7acdb30933a12f95dfea26017bada1f5" category="paragraph">다음 지침은 빈 캐비닛이나 텔코 랙에 하드웨어를 설치하는 방법을 설명합니다. 캐비닛이 미리 채워져 있으면 이 단계를 건너뜁니다.</block>
   <block id="dfdc73d42700a9c3fdaeacd939a51a4f" category="inline-link">안전 고지</block>
   <block id="ab68982517ac3ad46c0076188c40b44c" category="list-text">설명서를 검토하고<block ref="cf650561cfd1ad2dfbe54c8781566683" category="inline-link-rx"></block> 하드웨어 이동 및 설치에 대한 주의 사항을 이해해야 합니다.</block>
   <block id="ba4a0871133faabe4aa77db489cdd95f" category="list-text">지침은 레일 키트와 함께 포장되어 있어야 합니다.</block>
@@ -9591,7 +9552,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5e90eef3467966790ef48f7bc66eaea8" category="list-text">팬이 처음 시동될 때 매우 큰 소음이 발생할 수 있습니다. 시동 중 큰 팬 소음이 발생하는 것은 정상입니다.</block>
   <block id="671754b07475807f952083aca6f98a97" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 케이블을 고정합니다.</block>
   <block id="b20f6daaff695ed207299929a85ec2f0" category="summary">AFF A1K 플랫폼 설치를 준비합니다.</block>
-  <block id="7322abed84a9319ae754d84788be0a04" category="doc">설치 준비 - AFF A1K</block>
   <block id="b08289f100b75f4c534e1d2f7b065d98" category="inline-link-macro">클러스터를 구성합니다</block>
   <block id="4df010254bccca3ca04b1ea2f27bc98d" category="list-text">를 사용하여<block ref="21429355d1404c86c4038169e7df91bc" category="inline-link-rx"></block> 필요한 값을 <block ref="5fecf2f883e4e59df3d0a6a1bcd5e808" category="inline-link-macro-rx"></block>기록합니다. 기본값이 제공되는 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.</block>
   <block id="4157e2eb4dd8641bf3242a14b2dfed09" category="list-text">하드웨어 설치를 완료하는 데 필요한 모든 추가 장비와 도구가 있는지 확인합니다.</block>
@@ -9640,14 +9600,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="501009762675d8b94f6d05080102eaa1" category="paragraph">포장 명세서, 확인 이메일 또는 컨트롤러의 시스템 관리 모듈에서 포장을 푼 후 번호를 찾을 수 있습니다.</block>
   <block id="8a7ac8ffae90ca0a1caaddb0f33069c2" category="list-text">NetApp 지원 사이트 로 이동합니다<block ref="28649c93049a329043d206ec7fa0c6f8" category="inline-link-rx"></block>.</block>
   <block id="d1cc88bda5b2251b480ce496987d8474" category="list-text">하드웨어 등록:</block>
-  <block id="8f45a9f1fcb944bee42c078bdeacd8ac" category="cell">귀하의 경우...</block>
-  <block id="e3df4624e4d36502b5d044730eab97cc" category="cell">다음 단계를 따르십시오...</block>
-  <block id="d3f2dc7623074c370346f082b621f2db" category="paragraph">더 많은 워크로드 추가)</block>
   <block id="8a55a5b89690f6046e6de8dd649ff837" category="list-text">사용자 이름과 암호를 사용하여 로그인합니다.</block>
   <block id="5c83cedabfd78baf337988a092bcf317" category="list-text">시스템 * &gt; * 내 시스템 * 을 선택합니다.</block>
   <block id="1f122c4c30234dec74d765075fd1f45f" category="list-text">새 시스템의 일련 번호가 나열되어 있는지 확인합니다.</block>
-  <block id="d193a53b34315bee1bed499f665686ce" category="list-text">그렇지 않은 경우 새 NetApp 고객에 대한 지침을 따르십시오.</block>
-  <block id="daee797d0bf63a91fe069e1df88d7923" category="paragraph">신규 NetApp 고객</block>
   <block id="12dc2a66a130388ec482398caa6ce95b" category="list-text">지금 등록 * 을 클릭하고 계정을 만듭니다.</block>
   <block id="89cc8de091278e0fb0686833ac6a7982" category="list-text">시스템 * &gt; * 시스템 등록 * 을 선택합니다.</block>
   <block id="c04746c1c8deb45f0567d25441428d64" category="list-text">제품 시스템 일련 번호 및 요청된 세부 정보를 입력합니다.</block>
@@ -9735,7 +9690,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8f176870ac6c4361a1f6d7201cca260f" category="paragraph">ONTAP 스토리지 시스템에서 각 NS224 쉘프는 고유한 쉘프 ID로 구별됩니다. 이 ID는 쉘프가 스토리지 시스템 설정 내에서 구분되도록 합니다. 기본적으로 쉘프 ID는 일반적으로 '00' 및 '01'로 할당되지만, 스토리지 시스템 전체에서 고유성을 유지하기 위해 이러한 ID를 조정해야 할 수 있습니다.</block>
   <block id="4de17b4fab9ee69108776ab9c4aaa0c6" category="admonition">컨트롤러 섀시 쉘프 ID는 '00'으로 하드 코딩됩니다. 플랫폼에 연결된 NS224 쉘프에는 쉘프 ID '00'을 사용하지 마십시오.</block>
   <block id="8e6cf8027b121504bad8e5f00fe274bd" category="summary">AFF A70, AFF A90 플랫폼 설치를 준비합니다.</block>
-  <block id="6ac7ef3cf74f3edcc05e92fb62092d4a" category="doc">설치 준비 - AFF A70, AFF A90</block>
   <block id="45fa7acb63053c31c5ae0a83dd4b3618" category="paragraph">플랫폼 설치를 준비합니다.</block>
   <block id="62ca0ae61a6f061f90175c671563df84" category="list-text">웹 브라우저에 액세스하여 스토리지 시스템을 구성합니다</block>
   <block id="bcaac0b69edbeb6d6ebf55df173a989d" category="paragraph">완전히 장착된 A70-90 플랫폼은 무게가 최대 68.8kg(151.68파운드)이며, 유압 리프트를 들어 올리거나 사용하려면 4명이 필요합니다.</block>
@@ -9747,7 +9701,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6e6faa41850da2cbf2fba1981d46dbf5" category="list-text">케이블 관리 장치 2개</block>
   <block id="a960b1448ee5bc8431d64797103ff6f9" category="paragraph">지원 혜택을 받으려면 플랫폼을 등록하십시오.</block>
   <block id="9ddae9a7519b413c3e002aaa6578c11b" category="paragraph">포장 명세서, 확인 이메일 또는 포장을 푼 후 컨트롤러에서 번호를 찾을 수 있습니다.</block>
-  <block id="321d330a3500c9aa223bf5d134d0886b" category="list-text">시스템 일련 번호와 요청된 세부 정보를 입력합니다.</block>
   <block id="9693b6a52f0ee9092f8116f36e38a969" category="summary">입출력 모듈을 교체하려면 모듈에서 케이블을 분리하고, SFP 및 QSFP 모듈을 모듈에서 분리하고, 모듈을 제거하고, 교체 모듈을 설치하고, SFP 및 QSFP 모듈을 재설치한 다음, I/O 모듈에 케이블을 연결해야 합니다.</block>
   <block id="2224bc58afd68539e0dea6bf9e50c3d6" category="doc">입출력 모듈 추가 - AFF A70, AFF A90</block>
   <block id="24ca01289b896c334109ba7e14ec004f" category="doc">추가 및 교체 입출력 모듈 개요 - AFF A70-90K</block>
@@ -9999,4 +9952,67 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f3585daa539c5917b4fedd0eb7efb3f2" category="sidebar">AFF 시스템</block>
   <block id="6476573ba5b973ad8ea01c57f5b30267" category="sidebar">ASA 시스템</block>
   <block id="9aaba65702056e024efc0836758c1538" category="sidebar">핫 애드를 완료합니다</block>
+  <block id="b1cd69e899e8ab2e8b0c559899a3f2d7" category="admonition">다음 그림에서는 수평 및 수직 I/O 모듈 분리를 보여 줍니다. 일반적으로 하나의 입출력 모듈만 제거합니다.</block>
+  <block id="ed8012a83cd9088ec111d26e82a75971" category="list-text">키 관리자가 _security key-manager keystore show_command를 사용하여 활성 상태인지 확인합니다. 자세한 내용은 를 참조하십시오<block ref="4b8f2aeacb1514195535ef615c2cae4a" category="inline-link-rx"></block></block>
+  <block id="3e6277588162255770fd3384bad09d6d" category="list-text">컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID가 일치하지 않아 시스템 ID를 재정의하라는 메시지가 표시될 때 _y_를 입력합니다.</block>
+  <block id="9daabece8db7521a7882f63ebd76a891" category="image-alt">상단의 분리 단추가 있는 드라이브를 분리합니다</block>
+  <block id="e0bc24820711c466532ba2cb67ababd9" category="image-alt">분리 단추가 중간에 있는 드라이브를 분리합니다</block>
+  <block id="5be3be4e3c78f5ba4233a70fab6255f9" category="paragraph">최종 확인을 완료하고 저장 공간을 되돌려 정상적인 부팅 후 부팅 미디어 교체 프로세스를 완료합니다.</block>
+  <block id="0ae7701d2ef507a0fceb7c75d4891e75" category="list-text">컨트롤러 A의 케이블 포트 E1A를 컨트롤러 B의 포트 E1A에 연결합니다</block>
+  <block id="8bf237b60bd4b2db806d6610ad52ec49" category="list-text">컨트롤러 A의 케이블 포트 e7a를 컨트롤러 B의 포트 e1A로 연결합니다</block>
+  <block id="1de71be9c54175327aecef768179d1bd" category="paragraph">+ image::../media/drw_a1k_tnsc_cluster_cluster_cabling_ieops-1648.svg [스위치가 없는 2노드 클러스터 케이블 연결 다이어그램, 너비=500px]</block>
+  <block id="89135cd683c3d107d2c82b9a703f04cb" category="paragraph">+. 이더넷 모듈 포트를 호스트 네트워크에 케이블로 연결합니다.</block>
+  <block id="4e44798e075d2d881a9fb7543667af95" category="paragraph">+ 다음은 일반적인 호스트 네트워크 케이블 연결 예입니다. 특정 시스템 구성은 를 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="38821947dff053760f4c97b648ca454a" category="admonition">아직 전원 코드를 연결하지 마십시오.</block>
+  <block id="b0dc4e3ef222885899ea12125b17e5eb" category="list-text">왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.</block>
+  <block id="1d0b4b2ae4d50e55a4247f5c6ede72f1" category="paragraph">빈 캐비닛이나 텔코 랙에 하드웨어를 설치합니다. 캐비닛이 미리 채워져 있으면 이 단계를 건너뜁니다.</block>
+  <block id="cd5e55734c933dafcff53ae3865a89d5" category="doc">설치 준비 - AFF A1K</block>
+  <block id="5a5cce6679503c381a637f466b048193" category="open-title">옵션 1: 기존 NetApp 고객</block>
+  <block id="253e5915076081eaf8bcc8dd74c1d42e" category="admonition">새 시스템 일련 번호가 목록에 없으면 새 NetApp 고객을 위한 지침을 따릅니다.</block>
+  <block id="7e2ca0c1daf9aaf521d6b306d11f7c79" category="open-title">옵션 2: 신규 NetApp 고객</block>
+  <block id="a620e4025016adf1d0a58233ca0fabf5" category="image-alt">RTC 배터리를 제거하거나 교체합니다</block>
+  <block id="49c0e8738689c7137641d0b6eed8b74c" category="image-alt">부팅 미디어를 이동합니다</block>
+  <block id="e9178489530d4c60949007e8abe6cd95" category="image-alt">DIMM 애니메이션을 이동합니다</block>
+  <block id="3cebb0bf3f808b01f8380666a63cc376" category="image-alt">PCI 라이저를 이동합니다</block>
+  <block id="1079efe662e16cf433206d49d63eeaa6" category="paragraph"><block ref="1079efe662e16cf433206d49d63eeaa6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8dca5ac38ffa0e9613281a20a0ace994" category="image-alt">시스템 리프트 무게 주의</block>
+  <block id="9971c7f02208e39ad6368e57eb2f82f3" category="image-alt">케이블 관리 암을 분리하거나 설치합니다</block>
+  <block id="2b6ebc45199173506b9b4592d62affa0" category="image-alt">스위치가 없는 2노드 클러스터 케이블 연결 복합</block>
+  <block id="3988cb152ae91c53f380027a4232d536" category="inline-image-macro">스위치가 없는 2노드 클러스터를 통해 클러스터 HA 연결을 연결합니다</block>
+  <block id="372a8dd97d0e0a73dd341e38652ff673" category="list-text">e0d ~ e0d <block ref="df4a6e6703f97285d4be98ac6b32bb9f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="896029f9803d769d6b4c354df0fa1440" category="inline-image-macro">온보드 데이터 네트워크 연결을 연결합니다</block>
+  <block id="5fc0a7eeb4f9f66fd26242880a45cfa4" category="list-text">e0g 및 e0h <block ref="ba2134526422f5f21eaaa9ef2e2f11c5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="722ecbce3343f3dc23dee2d53d88f2ed" category="image-alt">스위치가 없는 2노드 클러스터가 NIC를 연결합니다</block>
+  <block id="5a77698302494ef91ee95c3f9ded308f" category="inline-image-macro">관리 포트를 연결합니다</block>
+  <block id="1c0c9fe4df36ecf54b797e69eff0360e" category="paragraph"><block ref="1c0c9fe4df36ecf54b797e69eff0360e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aecf4c890506699d5134914982e97718" category="image-alt">스위치 클러스터 케이블 연결 복합</block>
+  <block id="79135b297c57329d2d977b75149a086c" category="inline-image-macro">스위치 클러스터 클러스터 HA 연결</block>
+  <block id="2a41afda28faa24bd5359e120005398d" category="list-text">두 컨트롤러에서 클러스터/HA 스위치에 e0d 사용 <block ref="b92a1fef09a96ed6d9089504fec643ee" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b6bade89e0d586d34572548f1418dff" category="inline-image-macro">스위치 클러스터 온보드 네트워크 연결</block>
+  <block id="e734ac5b706a3982e94ed4bcf5783d35" category="list-text">e0g 및 e0h <block ref="d655351f2183e938c691c0566f625116" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2b5e3a94d4de532d196fa8367775092" category="image-alt">스위치 클러스터 네트워크 연결</block>
+  <block id="aeb83c4121e1220b0a8efc82136a809d" category="inline-image-macro">스위치 클러스터 관리 네트워크 연결</block>
+  <block id="df81ef45089583d9cf254a5e823c88ab" category="paragraph"><block ref="df81ef45089583d9cf254a5e823c88ab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f44e898d80cbbf4a33440188c038a5d3" category="image-alt">단일 드라이브 쉘프 케이블링 컴포짓</block>
+  <block id="7619a75fe3181346925af214b3805907" category="inline-image-macro">컨트롤러 A를 쉘프에 연결합니다</block>
+  <block id="ed6605849a8f419088845bc48c2b4374" category="paragraph">컨트롤러 A를 쉘프에 케이블 연결합니다 <block ref="8f69dbb1a9676f77b4e45659e89350f0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9228396d4ae4e82ba4cd05b1f94961bf" category="inline-image-macro">컨트롤러 B를 단일 쉘프에 연결합니다</block>
+  <block id="4e324a0bffb1eb75afb38454acf8e1ea" category="paragraph">컨트롤러 B를 쉘프에 케이블 연결: <block ref="eae43961c4d76c017c2440362d53b1c7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7d0a8670d6614b389c8403bdb0f5690" category="image-alt">2개의 선반 애니메이션을 케이블로 연결합니다</block>
+  <block id="694cbf19b59e9646ed9b4e00c40a2d5e" category="inline-image-macro">컨트롤러 A에 쉘프 2개를 연결합니다</block>
+  <block id="eeadc1e47c5ada05336cc4a2430aff44" category="paragraph">컨트롤러 A를 쉘프에 케이블 연결: <block ref="d1f96be8e1b1f281d39fbb850bfff8ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2f7272edef7a7fba4085ccfab3dcab29" category="inline-image-macro">컨트롤러 b에 케이블 테오 선반</block>
+  <block id="5068cb73707de732551109a3000233a5" category="paragraph">컨트롤러 B를 쉘프에 케이블 연결: <block ref="a2de9db71ec552fd6bcd09e536f53289" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3efca07728c425a2d570687f9c5ee055" category="list-text">파일 탐색기를 엽니다.</block>
+  <block id="060661d6632055dffb9c643daef86e4f" category="image-alt">랩톱을 관리 서브넷 스위치에 케이블 연결합니다</block>
+  <block id="cf3f3f0fc4be4a45a82eb23742f77b44" category="image-alt">NV 배터리를 교체합니다</block>
+  <block id="8dd9b5acff09c1cf11545aba64dc805d" category="image-alt">NVDIMM을 교체합니다</block>
+  <block id="d8ee7164de4500239f84b98bce6a6cba" category="image-alt">케이블 관리 장치를 분리합니다</block>
+  <block id="0607668bcd83e971ac318001952a55ae" category="image-alt">PCI 카드를 교체합니다</block>
+  <block id="abb9a3f7b40da322ff2c9d6b0f555396" category="image-alt">스위치 클러스터 네트워크 케이블 연결</block>
+  <block id="11e10f0140c4a2adc649196a587b4fb5" category="image-alt">쉘프 2개를 컨트롤러에 연결합니다</block>
+  <block id="91ffcf18fe68ab362696af94371c45a6" category="image-alt">쉘프 3개를 컨트롤러에 연결합니다</block>
+  <block id="5d40c2e94b9e6a2b23697795499fe265" category="paragraph">+ image::../media/drw_70-90_tnsc_cluster_cluster_cabling_ieops-1653.svg [스위치가 없는 2노드 클러스터 케이블 연결 다이어그램, 너비=500px]</block>
+  <block id="46ef92fe9e0acb49a708c33291f9e608" category="doc">설치 준비 - AFF A70, AFF A90</block>
+  <block id="0f8a8f2efc51dcb48a6d357e4ed1476e" category="sidebar">설치를 준비합니다</block>
 </blocks>

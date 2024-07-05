@@ -7,7 +7,7 @@ entries:
   entries:
   - title: 워크플로를 설치합니다
     url: "/a70-90/install-overview.html"
-  - title: 설치를 준비합니다
+  - title: 설치 준비
     url: "/a70-90/install-prepare.html"
   - title: 하드웨어를 설치합니다
     url: "/a70-90/install-hardware.html"

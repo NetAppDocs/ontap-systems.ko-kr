@@ -82,7 +82,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 . 전원에서 컨트롤러 모듈 전원 공급 장치를 분리합니다.
 . 케이블을 케이블 관리 장치에 연결하는 후크 및 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블과 SFP(필요한 경우)를 분리합니다.
 +
-image::../media/drw_a320_cable_management_arms.png[케이블 관리 암 분리 또는 설치]
+image::../media/drw_a320_cable_management_arms.png[케이블 관리 암을 분리하거나 설치합니다]
 
 +
 케이블 관리 장치에 케이블을 남겨 두면 케이블 관리 장치를 다시 설치할 때 케이블이 정리됩니다.
@@ -113,7 +113,7 @@ image::../media/drw_a320_controller_remove_animated_gif.png[컨트롤러를 분�
 
 NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 찾을 수 있으며 특정 순서에 따라 교체해야 합니다.
 
-image::../media/drw_a320_nvdimm_replace_animated_gif.png[A320 drw NVDIMM 교체 애니메이션 gif]
+image::../media/drw_a320_nvdimm_replace_animated_gif.png[NVDIMM을 교체합니다]
 
 . 공기 덕트를 열고 컨트롤러 모듈의 슬롯 11에서 NVDIMM을 찾습니다.
 +

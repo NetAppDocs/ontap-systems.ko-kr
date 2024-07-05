@@ -79,7 +79,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 다음 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 NVDIMM 배터리를 이동할 수 있습니다.
 
-image::../media/drw_a320_nvbat_move_animated_gif.png[A320 drw nvbat move 애니메이션 gif]
+image::../media/drw_a320_nvbat_move_animated_gif.png[NV 배터리를 이동합니다]
 
 . 컨트롤러 모듈에서 NVDIMM 배터리를 찾습니다.
 . 배터리 플러그를 찾아 배터리 플러그 표면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 분리합니다.
@@ -100,7 +100,7 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 다음 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 부팅 미디어를 이동할 수 있습니다.
 
-image::../media/drw_a320_boot_media_move_animated_gif.png[A320 drw 부트 미디어 이동 애니메이션 gif]
+image::../media/drw_a320_boot_media_move_animated_gif.png[부팅 미디어를 이동합니다]
 
 . 공기 덕트를 열고 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
@@ -133,11 +133,11 @@ DIMM을 찾은 다음 장애가 있는 컨트롤러 모듈에서 교체 컨트�
 
 다음 그림이나 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 DIMM을 이동할 수 있습니다.
 
-image::../media/drw_a320_dimm_move_animated_gif.png[A320 drw DIMM 이동 애니메이션 gif]
+image::../media/drw_a320_dimm_move_animated_gif.png[DIMM 애니메이션을 이동합니다]
 
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
 +
-image::../media/drw_a320_dimm_map.png[A320 drw DIMM 맵]
+image::../media/drw_a320_dimm_map.png[DIMM 맵]
 
 +
 |===
@@ -196,7 +196,7 @@ PCIe 카드가 설치된 상태에서 장애가 있는 컨트롤러 모듈에서
 
 다음 그림 또는 기록된 단계를 사용하여 장애가 있는 컨트롤러 모듈에서 교체 컨트롤러 모듈로 PCIe 라이저를 이동할 수 있습니다.
 
-image::../media/drw_a320_pci_riser_move_animated_gif.png[A320 drw PCI 라이저 이동 애니메이션 gif]
+image::../media/drw_a320_pci_riser_move_animated_gif.png[PCI 라이저를 이동합니다]
 
 . 덮개의 파란색 손잡이 나사를 풀어 PCIe 라이저 위에 있는 덮개를 분리하고 덮개를 사용자 쪽으로 밀고 덮개를 위로 돌린 다음 컨트롤러 모듈에서 들어올려 분리합니다.
 . 교체용 컨트롤러 모듈에서 빈 라이저를 분리합니다.

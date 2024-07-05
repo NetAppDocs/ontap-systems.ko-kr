@@ -222,7 +222,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - 스위치가 없는 2노드 클러스터 케이블링
 video::48552ddf-0925-4f88-8e93-ab1b00666489[panopto]
 +
-image::../media/drw_A400_TNSC-network-cabling.png[drw A400 TNSC 네트워크 케이블 연결]
+image::../media/drw_A400_TNSC-network-cabling.png[스위치가 없는 2노드 네트워크 케이블 연결]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -250,7 +250,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - 스위치 방식 클러스터 케이블 연결
 video::8fefba75-f395-4cf2-ba3c-ab1b00665870[panopto]
 +
-image::../media/drw_a400_switched_network_cabling.png[drw a400 스위치 방식 네트워크 케이블 연결]
+image::../media/drw_a400_switched_network_cabling.png[스위치 클러스터 네트워크 케이블 연결]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
 
@@ -304,7 +304,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - 컨트롤러를 하나의 NS224 드라이브 쉘프에 연결합니다
 video::5501c7bf-8b74-49e8-8067-ab1b00668804[panopto]
 +
-image::../media/drw_a400_two_ns224_shelves.png[drw a400 2개의 ns224 셸프]
+image::../media/drw_a400_two_ns224_shelves.png[쉘프 2개를 컨트롤러에 연결합니다]
 
 . 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 
@@ -328,7 +328,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다
 video::cbb0280e-708d-4365-92b6-ab1b006677ef[panopto]
 +
-image::../media/drw_a400_three_ds224c_shelves.png[drw a400 ds224c 쉘프 3개]
+image::../media/drw_a400_three_ds224c_shelves.png[쉘프 3개를 컨트롤러에 연결합니다]
 
 . 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 

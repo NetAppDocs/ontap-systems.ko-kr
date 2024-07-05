@@ -17,7 +17,7 @@
 == 보안 키 관리자 구성을 확인합니다
 
 .단계
-. 키 관리자가 _security key-manager keystore show_명령을 사용하여 활성 상태인지 확인합니다. 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap-cli/security-key-manager-keystore-show.html["보안 키 관리자 keystore show man page"^]
+. 키 관리자가 _security key-manager keystore show_command를 사용하여 활성 상태인지 확인합니다. 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap-cli/security-key-manager-keystore-show.html["보안 키 관리자 keystore show man page"^]
 +
 
 NOTE: 추가 키 관리자 유형이 있을 수 있습니다. 형식은 `KMIP` `AKV`, 및 `GCP`입니다. 이러한 유형을 확인하는 프로세스는 확인 `external` 또는 `onboard` 키 관리자 유형과 동일합니다.

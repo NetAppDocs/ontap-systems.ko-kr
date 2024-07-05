@@ -117,7 +117,7 @@ image::../media/drw_a320_controller_remove_animated_gif.png[컨트롤러를 분�
 
 == 4단계: RTC 배터리를 교체합니다
 
-image::../media/drw_a320_rtc_batt_replace_animated_gif.png[애니메이션 gif를 대체하는 A320 drw RTC 배치]
+image::../media/drw_a320_rtc_batt_replace_animated_gif.png[RTC 배터리를 교체합니다]
 
 . PCIe 덮개를 분리합니다.
 +

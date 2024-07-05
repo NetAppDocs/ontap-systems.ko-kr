@@ -23,7 +23,7 @@ NOTE: 섀시에서 전원 공급 장치를 분리한 후 2분 이내에 전원 �
 
 
 .단계
-image::../media/drw_a320_psu_replace_animated_gif.png[A320 drw PSU 교체 애니메이션 gif]
+image::../media/drw_a320_psu_replace_animated_gif.png[PSU를 교체합니다]
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 콘솔 오류 메시지 또는 전원 공급 장치의 LED를 통해 교체할 전원 공급 장치를 식별합니다.

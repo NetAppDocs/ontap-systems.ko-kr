@@ -54,7 +54,7 @@ image::../media/drw_a320_controller_remove_animated_gif.png[컨트롤러를 분�
 . 공기 덕트를 열고 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 . 컨트롤러 모듈에서 부팅 미디어를 찾아 제거합니다.
 +
-image::../media/drw_a320_boot_media_replace_animated_gif.png[A320 drw 부팅 미디어 교체 애니메이션 gif]
+image::../media/drw_a320_boot_media_replace_animated_gif.png[부팅 미디어를 교체합니다]
 
 +
 .. 부팅 미디어의 립이 파란색 버튼을 지울 때까지 부팅 미디어 끝에 있는 파란색 버튼을 누릅니다.

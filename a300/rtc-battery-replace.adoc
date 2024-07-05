@@ -187,19 +187,22 @@ mcc1A::> metrocluster operation show
 
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 +
-image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리][]
+image::../media/drw_32xx_cbl_mgmt_arm.png[케이블 관리 암 분리]
 
 . 컨트롤러 모듈의 캠 핸들에 있는 손잡이 나사를 풉니다.
 +
 image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 캠 핸들을 엽니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
-| 나비 나사 
+ a| 
+나비 나사
+
 
 
  a| 
@@ -223,7 +226,7 @@ RTC 배터리를 교체하려면 컨트롤러 내부에 있는 배터리를 찾�
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . RTC 배터리를 찾습니다.
 +
-image::../media/drw_rxl_rtc_battery.png[drw rxl RTC 배터리]
+image::../media/drw_rxl_rtc_battery.png[RTC 배터리를 제거하거나 교체합니다]
 
 . 배터리를 홀더에서 조심스럽게 밀어내고 홀더에서 돌린 다음 홀더에서 들어 꺼냅니다.
 +

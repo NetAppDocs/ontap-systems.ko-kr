@@ -111,7 +111,7 @@ image::../media/drw_a320_controller_remove_animated_gif.png[컨트롤러를 분�
 
 NVDIMM 전지를 교체하려면, 컨트롤러 모듈에서 결함이 있는 전지를 제거하고 교체 전지를 컨트롤러 모듈에 설치해야 합니다.
 
-image::../media/drw_a320_nvbat_move_animated_gif.png[A320 drw nvbat move 애니메이션 gif]
+image::../media/drw_a320_nvbat_move_animated_gif.png[NV 배터리를 교체합니다]
 
 . 에어 덕트를 열고 NVDIMM 배터리를 찾습니다.
 . 배터리 플러그를 찾아 배터리 플러그 표면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 분리합니다.
@@ -130,7 +130,7 @@ image::../media/drw_a320_nvbat_move_animated_gif.png[A320 drw nvbat move 애니�
 . 아직 설치하지 않은 경우 컨트롤러 모듈 후면의 공기 덕트를 닫고 PCIe 카드 위에 덮개를 다시 설치합니다.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
 +
-image::../media/drw_a320_controller_install_animated_gif.png[컨트롤러 설치]
+image::../media/drw_a320_controller_install_animated_gif.png[컨트롤러를 설치합니다]
 
 +
 
