@@ -1,0 +1,41 @@
+---
+permalink: a1k/bootmedia-replace-workflow.html 
+sidebar: sidebar 
+keywords: aff a1k, replace the boot media 
+summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
+---
+= 부팅 미디어 교체 워크플로우 - AFF A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+부팅 미디어를 교체하려면 다음 워크플로 단계를 수행하십시오.
+
+.시작하기 전에
+부팅 미디어를 교체하려면 특정 요구 사항을 충족해야 합니다. 를 검토합니다. link:bootmedia-replace-requirements.html["부팅 미디어 요구 사항 및 고려 사항"]
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-encryption-preshutdown-checks.html["온보드 암호화 키를 확인합니다"]
+[role="quick-margin-para"]
+시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown.html["손상된 컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-replace.html["부팅 미디어를 교체합니다"]
+[role="quick-margin-para"]
+시스템 관리 모듈에서 오류가 발생한 부팅 미디어를 제거하고 교체용 부팅 미디어를 설치한 다음 USB 플래시 드라이브를 사용하여 ONTAP 이미지를 교체용 부팅 미디어로 전송합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-recovery-image-boot.html["복구 이미지를 부팅합니다"]
+[role="quick-margin-para"]
+USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원한 다음 환경 변수를 확인합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:bootmedia-encryption-restore.html["암호화를 복원합니다"]
+[role="quick-margin-para"]
+ONATP 부팅 메뉴에서 온보드 키 관리자 구성 또는 외부 키 관리자를 복원합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:bootmedia-complete-rma.html["장애가 발생한 부품을 NetApp으로 반환합니다"]
+[role="quick-margin-para"]
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.

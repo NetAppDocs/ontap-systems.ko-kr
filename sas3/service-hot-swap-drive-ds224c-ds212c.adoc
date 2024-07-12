@@ -146,13 +146,13 @@ NOTE: DS212C 디스크 쉘프의 디스크 드라이브는 디스크 드라이�
 다음은 DS212C 디스크 쉘프에 있는 디스크 드라이브를 보여 줍니다.
 
 +
-image::../media/drw_drive_open_no_bezel.png[drw 드라이브가 베젤을 열지 않았습니다]
+image::../media/drw_drive_open_no_bezel.png[DS212C 디스크 쉘프에서 디스크 제거]
 
 +
 다음은 DS224C 디스크 쉘프에 있는 디스크 드라이브를 보여 줍니다.
 
 +
-image::../media/2240_removing_disk_no_bezel.png[2240 디스크 분리 베젤 없음]
+image::../media/2240_removing_disk_no_bezel.png[DS224C 디스크 쉘프에서 디스크 제거]
 
 . 디스크 드라이브를 살짝 밀어 디스크가 안전하게 스핀다운될 수 있도록 한 다음 디스크 쉘프에서 디스크 드라이브를 분리합니다.
 +

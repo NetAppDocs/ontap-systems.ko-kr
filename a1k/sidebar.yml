@@ -7,7 +7,7 @@ entries:
   entries:
   - title: 워크플로를 설치합니다
     url: "/a1k/install-overview.html"
-  - title: 설치를 준비합니다
+  - title: 설치 준비
     url: "/a1k/install-prepare.html"
   - title: 하드웨어를 설치합니다
     url: "/a1k/install-hardware.html"
@@ -20,13 +20,15 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A1K 유지 보수
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/a1k/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A1K 부팅 미디어
     entries:
-    - title: 부팅 미디어 교체 개요
-      url: "/a1k/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 대체 워크플로
+      url: "/a1k/bootmedia-replace-workflow.html"
+    - title: 요구 사항 및 고려 사항
+      url: "/a1k/bootmedia-replace-requirements.html"
     - title: 온보드 암호화 키를 확인합니다
       url: "/a1k/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
@@ -35,15 +37,17 @@ entries:
       url: "/a1k/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/a1k/bootmedia-recovery-image-boot.html"
-    - title: 암호화 복원
+    - title: 암호화를 복원합니다
       url: "/a1k/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/a1k/bootmedia-complete-rma.html"
   - title: 컨트롤러
     pdf-filename: AFF A1K 컨트롤러 모듈
     entries:
-    - title: 컨트롤러 모듈 교체 개요
-      url: "/a1k/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/a1k/controller-replace-workflow.html"
+    - title: 요구 사항 및 고려 사항
+      url: "/a1k/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a1k/controller-replace-shutdown.html"
     - title: 컨트롤러를 교체합니다
@@ -64,7 +68,7 @@ entries:
     url: "/a1k/nvdimm-battery-replace.html"
   - title: 입출력 모듈
     entries:
-    - title: 입출력 모듈 추가 또는 교체 개요
+    - title: I/O 모듈 개요
       url: "/a1k/io-module-overview.html"
     - title: 입출력 모듈을 추가합니다
       url: "/a1k/io-module-add.html"

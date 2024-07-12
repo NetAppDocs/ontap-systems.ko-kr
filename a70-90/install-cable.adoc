@@ -52,19 +52,20 @@ NOTE: 클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리
 +
 * 클러스터/HA 인터커넥트 케이블 *
 
-
-
-
-
++
 image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[클러스터 HA 케이블]
 
-+ image::../media/drw_70-90_tnsc_cluster_cluster_cabling_ieops-1653.svg [스위치가 없는 2노드 클러스터 케이블 연결 다이어그램, 너비=500px]
 
-+. 이더넷 모듈 포트를 호스트 네트워크에 케이블로 연결합니다.
 
-+ 다음은 일반적인 호스트 네트워크 케이블 연결 예입니다. 특정 시스템 구성은 를 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 참조하십시오.
++
+image::../media/drw_70-90_tnsc_cluster_cabling_ieops-1653.svg[스위치가 없는 2노드 클러스터 케이블 연결 다이어그램]
 
-. 그림과 같이 이더넷 데이터 네트워크 스위치에 e9a 및 e9b를 케이블로 연결합니다.
+. 이더넷 모듈 포트를 호스트 네트워크에 케이블로 연결합니다.
++
+다음은 몇 가지 일반적인 호스트 네트워크 케이블 연결의 예입니다. 특정 시스템 구성은 를 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 참조하십시오.
+
++
+.. 그림과 같이 이더넷 데이터 네트워크 스위치에 e9a 및 e9b를 케이블로 연결합니다.
 +
 
 NOTE: 클러스터 및 HA 트래픽에서 시스템 성능을 최대화하려면 호스트 네트워크 연결에 포트 e1b 및 e7b 포트를 사용하지 않는 것이 좋습니다. 성능을 최대화하려면 별도의 호스트 카드를 사용하십시오.
@@ -78,7 +79,7 @@ image::../media/oie_cable_sfp_gbe_copper.svg[100Gb 이더넷 케이블]
 +
 image::../media/drw_70-90_network_cabling1_ieops-1654.svg[100Gb 이더넷 네트워크에 케이블 연결]
 
-. 10/25 GbE 호스트 네트워크 스위치에 케이블을 연결합니다.
+.. 10/25 GbE 호스트 네트워크 스위치에 케이블을 연결합니다.
 +
 * 4포트, 10/25 GbE 호스트 *
 
@@ -88,8 +89,9 @@ image::../media/oie_cable_sfp_gbe_copper.svg[10/25Gb 케이블]
 +
 image::../media/drw_70-90_network_cabling2_ieops-1655.svg[100Gb 이더넷 네트워크에 케이블 연결]
 
-+
-.. 1000BASE-T RJ-45 케이블을 사용하여 컨트롤러 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
+
+
+. 1000BASE-T RJ-45 케이블을 사용하여 컨트롤러 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
 +
 image::../media/oie_cable_rj45.svg[RJ45 케이블]
 
@@ -98,8 +100,6 @@ image::../media/oie_cable_rj45.svg[RJ45 케이블]
 
 +
 image::../media/drw_70-90_management_connection_ieops-1656.svg[관리 네트워크에 연결합니다]
-
-
 
 
 

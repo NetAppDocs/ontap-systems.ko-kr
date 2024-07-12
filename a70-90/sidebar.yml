@@ -20,13 +20,15 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A70, AFF A90 유지 보수
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/a70-90/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A70, AFF A90 부팅 미디어
     entries:
-    - title: 부팅 미디어 교체 개요
-      url: "/a70-90/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 대체 워크플로
+      url: "/a70-90/bootmedia-replace-workflow.html"
+    - title: 요구 사항 및 고려 사항
+      url: "/a70-90/bootmedia-replace-requirements.html"
     - title: 온보드 암호화 키를 확인합니다
       url: "/a70-90/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
@@ -35,15 +37,17 @@ entries:
       url: "/a70-90/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/a70-90/bootmedia-recovery-image-boot.html"
-    - title: 암호화 복원
+    - title: 암호화를 복원합니다
       url: "/a70-90/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/a70-90/bootmedia-complete-rma.html"
   - title: 섀시
     pdf-filename: AFF A70, AFF A90 섀시
     entries:
-    - title: 섀시 교체 개요
-      url: "/a70-90/chassis-replace-overview.html"
+    - title: 섀시 교체 작업 흐름
+      url: "/a70-90/chassis-replace-workflow.html"
+    - title: 요구 사항 및 고려 사항
+      url: "/a70-90/chassis-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a70-90/chassis-replace-shutdown.html"
     - title: 섀시를 교체합니다
@@ -53,8 +57,10 @@ entries:
   - title: 컨트롤러
     pdf-filename: AFF A70, AFF A90 컨트롤러 모듈
     entries:
-    - title: 컨트롤러 모듈 교체 개요
-      url: "/a70-90/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/a70-90/controller-replace-workflow.html"
+    - title: 요구 사항 및 고려 사항
+      url: "/a70-90/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a70-90/controller-replace-shutdown.html"
     - title: 컨트롤러를 교체합니다
@@ -77,7 +83,7 @@ entries:
     url: "/a70-90/nvdimm-battery-replace.html"
   - title: 입출력 모듈
     entries:
-    - title: 입출력 모듈 추가 또는 교체 개요
+    - title: I/O 모듈 개요
       url: "/a70-90/io-module-overview.html"
     - title: 입출력 모듈을 추가합니다
       url: "/a70-90/io-module-add.html"

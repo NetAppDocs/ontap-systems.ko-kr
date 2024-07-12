@@ -27,13 +27,13 @@ NOTE: 이 절차는 쉘프 IOM 핫 스왑 또는 교체와 유사할 경우 적�
 IOM12 모듈은 "IOM12" 레이블로 구분됩니다.
 
 +
-image::../media/drw_iom12.gif[drw iom12]
+image::../media/drw_iom12.gif[IOM12의 전면]
 
 +
 IOM12B 모듈은 파란색 스트라이프와 "IOM12B" 레이블로 구별됩니다.
 
 +
-image::../media/iom12b.png[iom12b]
+image::../media/iom12b.png[IOM12B 전면]
 
 * 다중 경로(다중 경로 HA 또는 다중 경로), 3중 경로 HA 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우 쉘프 IOM을 핫 스왑할 수 있습니다. 즉, 전원이 켜져 있고 데이터 I/O를 제공하는 시스템의 쉘프 IOM을 중단 없이 교체할 수 있습니다.
 * FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성의 경우 전원을 켜고 데이터를 제공하는 시스템의 쉘프 IOM을 대체하기 위해 테이크오버 및 반환 작업을 수행해야 합니다. -- I/O가 진행 중입니다.
@@ -110,10 +110,10 @@ FAS2600 시리즈 단일 경로 구성
 
 . 쉘프 IOM 캠 핸들에서 주황색 걸쇠가 분리될 때까지 누른 다음 캠 핸들을 완전히 열어 중간 평면에서 쉘프 IOM을 해제합니다.
 +
-image::../media/drw_iom_latch.png[drw IOM 래치]
+image::../media/drw_iom_latch.png[캠 핸들의 래치를 풉니다]
 
 +
-image::../media/drw_iom_open.png[drw IOM이 열려 있습니다]
+image::../media/drw_iom_open.png[캠 핸들이 열린 위치에 있습니다]
 
 . 캠 핸들을 사용하여 쉘프 IOM을 디스크 쉘프 밖으로 밀어냅니다.
 +

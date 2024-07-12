@@ -1,17 +1,17 @@
 ---
-permalink: a70-90/controller-replace-overview.html 
+permalink: a70-90/controller-replace-requirements.html 
 sidebar: sidebar 
-keywords: aff a70, aff a90, prerequisite, replace the controller module 
+keywords: aff a1k, prerequisite, replace the controller module 
 summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
 ---
-= 컨트롤러 모듈 교체 개요 - AFF A70, AFF A90
+= 요구 사항 및 고려 사항 - AFF A70, AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다.
+컨트롤러 교체 절차에 대한 요구 사항을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 요구 사항을 선택해야 합니다.
 
 * 모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.
 * 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러"라고 함).

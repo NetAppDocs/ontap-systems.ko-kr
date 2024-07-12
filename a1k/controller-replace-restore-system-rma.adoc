@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: '시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다. RMA 번호 또는 교체 절차에 대한 추가 도움이 필요한 경우 기술 지원 부서(888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양))으로 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].' 
 ---
-= 전체 시스템 복원 - AFF A1K
+= 전체 컨트롤러 교체 - AFF A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

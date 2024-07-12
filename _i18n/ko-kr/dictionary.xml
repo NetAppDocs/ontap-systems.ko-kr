@@ -928,7 +928,6 @@
   <block id="954499b275aa6b0244088769d4cab500" category="admonition">MetroCluster 구성에서는 IOM B 경로를 사용할 수 없습니다.</block>
   <block id="f260b20153205d9038127e4a15618a0f" category="list-text">SAS 케이블 커넥터는 SAS 포트에 올바르게 꽂으면 딸깍 소리가 나면서 제자리에 고정됩니다.</block>
   <block id="10ae5a4ce8cb24c89ab7989958cb34b9" category="paragraph">쉘프의 경우 당김 탭을 아래로 향하게 하여(커넥터 아래쪽에 있음) SAS 케이블 커넥터를 삽입합니다. 컨트롤러의 경우 SAS 포트 방향은 플랫폼 모델에 따라 다를 수 있으므로 SAS 케이블 커넥터의 올바른 방향은 서로 다릅니다.</block>
-  <block id="9eae6e522d01233eda31813671040bc9" category="image-alt">drw SAS2 sas3 혼합 스택</block>
   <block id="a4450110a0add0d3dc0ed544c4dc9587" category="list-text">스택에서 논리적 마지막 쉘프를 물리적으로 식별합니다.</block>
   <block id="3290caa995109a5019ab331bcbb4fd8c" category="paragraph">그렇지 않으면 3단계로 이동합니다.</block>
   <block id="49ae96093ef4318ebea3748695f1f2ec" category="cell">IOM6 스택 연결 기능이 다음과 같은 경우에 사용 가능합니다.</block>
@@ -973,10 +972,8 @@
   <block id="894ffcc20897b622cbd7b6ca6714ee4f" category="list-text">케이블 연결 예는 컨트롤러 A 및 C 포트 연결과 컨트롤러 B 및 D 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.</block>
   <block id="f8e47c7d28ca54fc60e534a2aa66cd55" category="image-alt">drw 컨트롤러 - 스택 케이블 유형 키</block>
   <block id="e49b7bdd8191780aea4f583124847913" category="list-text">케이블 연결 예시와 워크시트의 해당 포트 쌍은 HA 쌍의 각 스택에 대한 연결을 구별하기 위해 색상으로 구분되어 있습니다.</block>
-  <block id="de01522e941cfe599b9f3b4a6394c373" category="image-alt">drw 컨트롤러 - 스택 케이블 색상 키 -&gt; 2600이 아닙니다</block>
   <block id="0230c83ced57a67f2d5277748826cfef" category="list-text">케이블 연결 예는 HA 쌍 또는 단일 컨트롤러 구성의 각 스택에 대해 4중 경로 방식의 연결을 달성하는 데 필요한 2개의 다중 경로 케이블 세트를 시각적으로 구별합니다.</block>
   <block id="bdb9e07856583317bddd1f2c2748f611" category="paragraph">첫 번째 다중 경로 케이블 세트를 "다중 경로"라고 합니다. 두 번째 다중 경로 케이블 세트를 ""4중 경로""라고 합니다. 두 번째 케이블 세트는 "4중 경로"라고 합니다. 이 케이블 세트를 완료하면 4중 경로 방식의 연결이 가능하기 때문입니다.</block>
-  <block id="3ab4c9235d9001b444564b2a71159407" category="image-alt">4중 경로 연결 키를 스택하는 drw 컨트롤러</block>
   <block id="a1133df643b44f52c54c9ac1cc0963ee" category="list-text">워크시트 예는 다중 경로 케이블 연결 또는 4중 경로 케이블 연결에서 해당 스택까지 지정된 포트 쌍을 보여줍니다.</block>
   <block id="ecc08dd2661076f245ef51eb14c4a74d" category="paragraph">다중 경로 케이블링용으로 지정된 각 포트 쌍은 케이블로 연결된 스택과 연결된 타원형으로 둘러싸여 있습니다. 4중 케이블 연결에 지정된 각 포트 쌍은 케이블이 연결된 스택과 연결된 직사각형으로 둘러싸입니다.</block>
   <block id="7c0edd402cd55e5ea26650be4a6f998c" category="section-title">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택이 있는 4중 경로 HA입니다</block>
@@ -1022,7 +1019,6 @@
   <block id="96c5571f7b6648b76366cba9755c4f43" category="paragraph">LNK</block>
   <block id="19e79e9ef0fa80f9b6aa5a3f8e5bb42c" category="paragraph">포트 링크</block>
   <block id="e35abb0fc157a472260600f52f6994cc" category="paragraph">4개의 SAS 레인 중 하나 이상이 링크를 설정했습니다(어댑터 또는 다른 디스크 쉘프 사용).</block>
-  <block id="f2105620d136a321a397d0310e98f133" category="image-alt">drw iom12</block>
   <block id="2aa3adf1c0ff2c8444260a0e888c02bc" category="section-title">전원 공급 장치 LED</block>
   <block id="09cdf702b67ff26e9a51e5bd564332db" category="paragraph">전원 공급 장치의 LED는 전원 공급 장치가 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.</block>
   <block id="593e6773180149ce15a83f47762be685" category="paragraph">다음 표에서는 DS460C, DS224C 및 DS212C 디스크 쉘프에서 사용되는 전원 공급 장치의 LED 두 개를 설명합니다.</block>
@@ -1328,9 +1324,7 @@
   <block id="f9949e25a19a066ee96b2445c47e6bbd" category="paragraph">해제 버튼을 누르면 디스크 드라이브 스프링의 캠 핸들이 부분적으로 열립니다.</block>
   <block id="8c1abcf074a9adec09e39ebd810a512d" category="admonition">DS212C 디스크 쉘프의 디스크 드라이브는 디스크 드라이브 문자반 왼쪽에 있는 릴리스 단추와 함께 가로로 정렬됩니다. DS224C 디스크 쉘프에 있는 디스크 드라이브는 디스크 드라이브 문자반 상단에 있는 분리 단추와 함께 수직으로 배열됩니다.</block>
   <block id="691f396d85c0be2dbf8fe249eb9aa06b" category="paragraph">다음은 DS212C 디스크 쉘프에 있는 디스크 드라이브를 보여 줍니다.</block>
-  <block id="9f384f4e3cb7648375730a62ac90eff9" category="image-alt">drw 드라이브가 베젤을 열지 않았습니다</block>
   <block id="ae837c75b919fd34b7bb3a1ac14b40ca" category="paragraph">다음은 DS224C 디스크 쉘프에 있는 디스크 드라이브를 보여 줍니다.</block>
-  <block id="3c8f0ed13542dc0b44cabea8893057b5" category="image-alt">2240 디스크 분리 베젤 없음</block>
   <block id="0a6926c08151fd5eb5c8be886b34f3d9" category="list-text">디스크 드라이브를 살짝 밀어 디스크가 안전하게 스핀다운될 수 있도록 한 다음 디스크 쉘프에서 디스크 드라이브를 분리합니다.</block>
   <block id="e36b3cad9a6a6901301f9b0cbb18d94b" category="paragraph">안전하게 스핀다운하려면 HDD가 최대 1분 정도 걸릴 수 있습니다.</block>
   <block id="fbe4d4e18826cc880bfe176cb971e107" category="admonition">디스크 드라이브를 취급할 때는 항상 두 손을 사용하여 무게를 지탱하십시오.</block>
@@ -1492,8 +1486,6 @@
   <block id="1e78ab40bbabb204b7d418ad7a32f801" category="paragraph">FAS2600 시리즈 단일 경로 구성</block>
   <block id="afd363af41e03520500b30751b522491" category="list-text">시스템 콘솔에서 '중지'를 눌러 시스템을 종료합니다</block>
   <block id="e8403bb6f96eb0e9dd855761d673bcfb" category="list-text">스토리지 시스템 콘솔을 확인하여 시스템이 중단되었는지 확인합니다.</block>
-  <block id="cd5f38b38ffd79461cf543f7d3a14843" category="image-alt">drw IOM 래치</block>
-  <block id="4c85cb5670afa3b61996e7baa0111129" category="image-alt">drw IOM이 열려 있습니다</block>
   <block id="ccadbe2edcc98f542a5f72090def31e3" category="paragraph">70초 이상 기다리면 운전자가 쉘프 ID를 올바르게 등록할 수 있습니다.</block>
   <block id="9bf609fda741e4f05af53222039c4623" category="list-text">케이블을 다시 연결합니다.</block>
   <block id="240ac1f7b24df668dce754edbdea2f25" category="paragraph">SAS 케이블 커넥터는 IOM 포트에 올바르게 맞추면 딸깍 소리가 나면서 제자리에 고정되며 IOM 포트 LNK LED가 녹색으로 켜집니다. SAS 케이블 커넥터를 당김 탭이 아래로 향하게 하여(커넥터 아래쪽에 있음) IOM 포트에 삽입합니다.</block>
@@ -1634,7 +1626,6 @@
   <block id="2d876268689d2b3dd0523bf8bc1a49ab" category="list-text">드라이브 드로어의 상단을 보고 각 드라이브 앞의 드로어에 있는 주의 LED를 찾습니다.</block>
   <block id="27967334ee8d19e4cf590fd2f532f262" category="list-text">열려 있는 드로어에서 장애가 발생한 드라이브를 제거합니다.</block>
   <block id="e42c19e11077bb09d5a36d3d6a01cda9" category="list-text">분리할 드라이브 앞에 있는 주황색 분리 래치를 부드럽게 뒤로 당깁니다.</block>
-  <block id="2006a7ac1c738ee804933b92cb0fd114" category="image-alt">트래포드 드라이브 렐 버튼</block>
   <block id="40f837f06bbd36f49cef42babd88b053" category="cell">주황색 분리 래치</block>
   <block id="48cb4c1c5e18eec97fe2c35a66b8047c" category="list-text">캠 핸들을 열고 드라이브를 약간 들어 올립니다.</block>
   <block id="764a62532760f655a4934a835eafa280" category="list-text">30초 동안 기다립니다.</block>
@@ -5774,7 +5765,6 @@
   <block id="0455216bece3ce620e2fd5c84b24a523" category="list-text">HA 2노드의 경우 2개의 IOM6 쉘프와 2개의 IOM12/IOM12B 쉘프가 포함된 스택 내에서 단일 속도의 전환이 다음과 같이 표현됩니다.</block>
   <block id="22c141c57159ea5a9cf5ecee1f8b4145" category="list-text">IOM A 경로의 SAS 포트를 먼저 연결하여 IOM12/IOM12B 쉘프에 케이블을 연결한 다음, 스택 연결에 해당하는 IOM B 경로에 대해 케이블 연결 단계를 반복합니다.</block>
   <block id="f40ad7d263effd48cd15f5ec54dc2775" category="list-text">FC-to-SAS 브리지를 사용하지 않는 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 연결하는 방법은 다음 그림을 참조하십시오.</block>
-  <block id="5c5d06fa180884eea62ba831b980ed33" category="list-text">다음 그림은 브리지 연결 MetroCluster 구성에서 IOM6 쉘프 스택에 IOM12/IOM12B 쉘프를 연결하는 방법을 보여 줍니다. <block ref="3bf7d126d94220be52cd0d278e98261d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d7f99cbbf1b9ba05ea3a6ec89eae8b6" category="list-text">IOM6 스택에 IOM12/IOM12B 쉘프가 추가되었습니다. 즉, IOM6 쉘프에 다른 IOM12/IOM12B 쉘프가 존재하지 않는 IOM12/IOM12B 쉘프를 추가하려면 해당 하위 단계를 완료하십시오.</block>
   <block id="423d2f16d6d5594161f3868e4a50907a" category="list-text">마지막 IOM6 쉘프 IOM A 원 포트(하위 단계 A에서 새 IOM12/IOM12B 쉘프 IOM A 포트 1)에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
   <block id="41cb447e88bb124a5db517ed30198998" category="list-text">다른 IOM12/IOM12B 쉘프를 핫 추가할 경우, 방금 연결한 쉘프의 IOM12/IOM12B 쉘프 IOM A 포트 3 및 다음 IOM12/IOM12B 쉘프 IOM A 포트 1 간에 쉘프-쉘프 연결을 케이블로 연결합니다.</block>
@@ -5819,7 +5809,6 @@
   <block id="ebe49a15e88084dd22a61a0c761257fe" category="list-text">IOM12 모듈 및 IOM12B 모듈은 다음과 같이 외관에 따라 구별할 수 있습니다.</block>
   <block id="20b0dc7787284cb0afa2dbc5d95136a2" category="paragraph">IOM12 모듈은 "IOM12" 레이블로 구분됩니다.</block>
   <block id="5416d570ace1334ffbc27d0d9486ebe5" category="paragraph">IOM12B 모듈은 파란색 스트라이프와 "IOM12B" 레이블로 구별됩니다.</block>
-  <block id="d2a8fdadc8d18dd445c56f47cea6197a" category="image-alt">iom12b</block>
   <block id="9785f45e8f6989c9b8cb2419a2b695da" category="list-text">FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성의 경우 전원을 켜고 데이터를 제공하는 시스템의 쉘프 IOM을 대체하기 위해 테이크오버 및 반환 작업을 수행해야 합니다. -- I/O가 진행 중입니다.</block>
   <block id="0894c7928fa1bee8fd4a0207429b7254" category="list-text">FAS2600 시리즈 단일 경로 구성의 경우 쉘프 IOM을 교체하기 위해 시스템을 중지해야 합니다.</block>
   <block id="f00eb102fd21bbf5e0dd612fcc8a9fde" category="admonition">단일 경로 연결로 디스크 쉘프의 쉘프 IOM을 핫 스왑하려고 하면 디스크 쉘프의 디스크 드라이브 및 해당 디스크 쉘프의 디스크 드라이브에 모두 액세스할 수 없게 됩니다. 전체 시스템을 다운시킬 수도 있습니다.</block>
@@ -8913,8 +8902,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3874bbf004c50eed71c2b06f7ce4e648" category="list-text">나머지 DIMM에 대해 이 단계를 반복합니다. 마더보드 공기 덕트를 닫습니다.</block>
   <block id="d20809d05af81f52d71c6d3d4f4fe771" category="list-text">부팅 장치는 시스템 뒷면에 설치된 시스템 관리 모듈에 있으므로 컨트롤러 모듈을 교체할 때 부팅 장치를 이동할 필요가 없습니다.</block>
   <block id="c78805aa63e8c47c7cae0cdebcc54f64" category="list-text">항상 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 캡처해야 합니다.</block>
-  <block id="564469f8ea8458a513637b3b059f6404" category="doc">1단계: 컨트롤러를 돌려줍니다</block>
-  <block id="3342bfb4c028e1d77e8b0ab8a0dce560" category="paragraph">컨트롤러를 되돌려 교체 절차를 계속합니다.</block>
   <block id="f9d9eff2772e16e9135d964e4533138c" category="list-text">스토리지 시스템에 Encryption이 구성되어 있는 경우 다음 절차에 따라 스토리지 또는 볼륨 암호화 기능을 복원하여 시스템을 재부팅해야 합니다.</block>
   <block id="c380f4d06afd36dcee7654a86545b95b" category="list-text">메뉴로 부팅하고 옵션 10을 실행합니다</block>
   <block id="1cd2c681f4d255665595108ab57cef94" category="list-text">암호 및 백업 데이터를 입력한 다음 정상 부팅을 수행합니다. 을 참조하십시오.<block ref="1ab4828979a21de09829a9c51e95a6df" category="inline-link-rx"></block></block>
@@ -9375,16 +9362,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2990a44118615c0a3bf6cce4a7382d56" category="list-text">가 표시되면 클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다<block ref="e50c9785a9a600201730c59602a210ab" prefix=" " category="inline-code"></block></block>
   <block id="889f830bf501de78eaa854a4c956e927" category="doc">결함이 있는 부품을 NetApp-AFF A1K으로 반납합니다</block>
   <block id="66ed54e044d464902b4fc84eae0aaebf" category="doc">온보드 암호화 키 확인 - AFF A1K</block>
-  <block id="0af39fad029d8a54529403cecac5dfcd" category="doc">암호화 복원 - AFF A1K</block>
   <block id="1ab064b6602aa76e09ccae7297651215" category="doc">복구 이미지를 부팅합니다 - AFF A1K</block>
-  <block id="b32c820e9a6b0c19e598a90100f6ede2" category="doc">부팅 미디어 교체 개요 - AFF A1K</block>
   <block id="59b85bf8d1d726d67312a9425f7cabac" category="doc">부팅 미디어를 교체합니다. - AFF A1K</block>
   <block id="ac632c351c050929564cd7a72c3d383a" category="doc">손상된 컨트롤러를 종료합니다. - AFF A1K을 종료합니다</block>
-  <block id="c0fbab8ec26a74970b48b956b885d93b" category="doc">컨트롤러 모듈 하드웨어 - AFF A1K을 교체합니다</block>
-  <block id="62eb40be1c65593a3462e6f5ba4a05a0" category="doc">컨트롤러 모듈 교체 개요 - AFF A1K</block>
   <block id="a4fbb291103a5430eb9ece2393c095a4" category="doc">컨트롤러 - AFF A1K를 돌려줍니다</block>
   <block id="fb829c49a3a2da88fb46330449bb960d" category="summary">시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다. RMA 번호 또는 교체 절차에 대한 추가 도움이 필요한 경우 기술 지원 부서(888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양))으로 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
-  <block id="8993dc7b76f8cb7fa94fec3534c4c210" category="doc">전체 시스템 복원 - AFF A1K</block>
   <block id="5f0eff5741eb1b44c778897a8674fa87" category="paragraph">시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다.</block>
   <block id="6bcc49329cd2b052a2bddab981fec2e3" category="section-title">1단계: LIF 확인 및 클러스터 상태 확인</block>
   <block id="61ec4d4962d0f24c38b731c335dcb259" category="doc">시스템 구성 - AFF A1K을 복원하고 확인합니다</block>
@@ -9618,7 +9600,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="83ec06d2d85deb94568cf05665746cc6" category="paragraph">팬은 컨트롤러를 냉각시킵니다.</block>
   <block id="f7ce037e5340ee9ac2b2cd474ee29778" category="paragraph">NVRAM(Non-Volatile Random Access Memory)은 시스템 전원이 꺼질 경우 컨트롤러가 전송 중인 데이터를 보호하고 저장할 수 있도록 하는 모듈입니다. 시스템 ID는 NVRAM 모듈에 상주합니다. 교체된 경우 컨트롤러는 교체용 NVRAM 모듈의 새 시스템 ID로 가정합니다.</block>
   <block id="d138e90428f37a60387c8577b6e009b8" category="section-title">NV 배터리</block>
-  <block id="971b00f795c3753e8fa0422eed0b0d3e" category="paragraph">NVRAM 배터리는 정전 후 전송 중인 데이터에 플래시 메모리로 디스테이징되는 동안 NVRAM 모듈에 전원을 공급하는 역할을 합니다.</block>
   <block id="807b26d7111f209057a30d265b88f6ae" category="paragraph">I/O 모듈(입/출력 모듈)은 컨트롤러와 데이터를 교환해야 하는 여러 장치 또는 시스템 간의 중간 역할을 하는 하드웨어 구성 요소입니다.</block>
   <block id="517e65cbfa02ca306eec69200485822d" category="paragraph">전원 공급 장치는 컨트롤러에 중복 전원을 제공합니다.</block>
   <block id="aebd84aedf30ca3854097975c59229ed" category="doc">NV 배터리 교체 - AFF A1K</block>
@@ -9630,20 +9611,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8696c3a11bb55bf4544256cfb1b2bd94" category="doc">시스템 관리 모듈 교체 - AFF A1K</block>
   <block id="cca32d9f7020830ce64904a8c1aecba9" category="doc">결함이 있는 부품을 NetApp-AFF A70, AFF A90으로 반납합니다</block>
   <block id="24adca74cd4521b9f4f4a8ab1033a6d8" category="doc">온보드 암호화 키 확인 - AFF A70, AFF A90</block>
-  <block id="ce327d04876efb8d4a59808bf378cece" category="doc">암호화 복원 - AFF A70, AFF A90</block>
   <block id="a79b7b4459526eba247c33a94309858e" category="doc">복구 이미지를 부팅합니다 - AFF A70, AFF A90</block>
-  <block id="1123346d505790a2a7f4001b490d0c4c" category="doc">부팅 미디어 교체 개요 - AFF A70, AFF A90</block>
   <block id="b565c8083612023ff18332e3f18570fb" category="doc">부팅 미디어를 교체합니다(AFF A70, AFF A90)</block>
   <block id="7a78f14a4a6a79a25fb9d91deac29f7f" category="doc">AFF A70, AFF A90 컨트롤러를 종료합니다</block>
-  <block id="c51acb19ea5c85f590681561a6632ee7" category="doc">복원 및 교체 프로세스 - AFF A70, AFF A90 을 완료합니다</block>
-  <block id="1f6784a27e692a917bbc139bcab6f062" category="doc">하드웨어 이동 및 교체 - AFF A70, AFF A90</block>
   <block id="3fd2ece46b2cae70b208d459839b7ea6" category="doc">섀시를 교체합니다(AFF A70, AFF A90)</block>
   <block id="47cc53453bdbc0a412f7d6260da64a94" category="doc">AFF A70, AFF A90 등의 컨트롤러를 종료합니다</block>
-  <block id="ea75031f570b7a55db89689259c07998" category="doc">컨트롤러 모듈 하드웨어(AFF A70, AFF A90)를 교체합니다</block>
-  <block id="b5c682512ae7ddb81d1086428c97af49" category="doc">컨트롤러 모듈 교체 개요 - AFF A70, AFF A90</block>
   <block id="729f102b3131803a07803cd2f223d3c3" category="summary">스토리지를 재부팅해야 합니다.</block>
   <block id="5026bf36473d8bd98b2f832968a63c84" category="doc">재배열 및 컨트롤러 - AFF A70, AFF A90</block>
-  <block id="e01e42ef6a8116389e0f89dad6068e42" category="doc">전체 시스템 복원 - AFF A70, AFF A90</block>
   <block id="7b78a43d2ef1cd56888972224b322cba" category="section-title">1단계: LIF 확인 및 클러스터 상태 확인</block>
   <block id="44e04fa20bc233bee93d06b7b58ece31" category="doc">손상된 컨트롤러(AFF A70, AFF A90)를 종료합니다</block>
   <block id="9a05f1c61c530c04ac5d33357330d517" category="doc">시스템 구성(AFF A70, AFF A90)을 복원하고 확인합니다</block>
@@ -9703,9 +9677,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9ddae9a7519b413c3e002aaa6578c11b" category="paragraph">포장 명세서, 확인 이메일 또는 포장을 푼 후 컨트롤러에서 번호를 찾을 수 있습니다.</block>
   <block id="9693b6a52f0ee9092f8116f36e38a969" category="summary">입출력 모듈을 교체하려면 모듈에서 케이블을 분리하고, SFP 및 QSFP 모듈을 모듈에서 분리하고, 모듈을 제거하고, 교체 모듈을 설치하고, SFP 및 QSFP 모듈을 재설치한 다음, I/O 모듈에 케이블을 연결해야 합니다.</block>
   <block id="2224bc58afd68539e0dea6bf9e50c3d6" category="doc">입출력 모듈 추가 - AFF A70, AFF A90</block>
-  <block id="24ca01289b896c334109ba7e14ec004f" category="doc">추가 및 교체 입출력 모듈 개요 - AFF A70-90K</block>
   <block id="924c37fc9153e68527b7be3c003bb435" category="doc">입출력 모듈 교체 - AFF A70, AFF A90</block>
-  <block id="1f6a084d4572b01747b6b088d9e0ee43" category="paragraph">AFF A70, AFF A90 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="f99a621b951fd2b537d7a091c6b754fd" category="doc">NV 배터리 교체 - AFF A70, AFF A90</block>
   <block id="64adf1ea4c1f4c02f038823429bd4c66" category="doc">NVRAM을 교체합니다. - AFF A70, AFF A90</block>
   <block id="9020c560951313547d9b00a00f95d818" category="doc">전원 공급 장치를 교체합니다. - AFF A70, AFF A90</block>
@@ -9927,13 +9899,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fad3eebd1aa676638de5e9e932b52f40" category="sidebar">시스템 설치를 완료합니다</block>
   <block id="cdea6179c22763aadc0ee6a4b14f5f21" category="sidebar">AFF A1K 유지 보수</block>
   <block id="5881b108517b27e7011c12b72fab1eb6" category="sidebar">AFF A1K 부팅 미디어</block>
-  <block id="316c8b53d0bf94b7eb89217eff43484f" category="sidebar">부팅 미디어 교체 개요</block>
-  <block id="96be37c346f6ee6fa03e35cdcf3a0159" category="sidebar">암호화 복원</block>
   <block id="2df31b353db26ab75397dd256071bb0f" category="sidebar">AFF A1K 컨트롤러 모듈</block>
-  <block id="f2113978e313a35c71164bd53785fe54" category="sidebar">컨트롤러 모듈 교체 개요</block>
   <block id="2dc5b9299e6c112139901723adb67ed0" category="sidebar">컨트롤러를 반납합니다</block>
   <block id="5a34816c99c709c3123cc893c23aa8de" category="sidebar">NV 배터리</block>
-  <block id="9e76982e92861bfe7b8b9a2c95380f48" category="sidebar">입출력 모듈 추가 또는 교체 개요</block>
   <block id="4d5d9ed8cd3daf7e0f60b7f56524d07a" category="sidebar">입출력 모듈을 추가합니다</block>
   <block id="00015974de1f6f69c16403a005f48582" category="sidebar">입출력 모듈을 교체합니다</block>
   <block id="8c62ca0981c296824eceba9a38d6aa19" category="sidebar">AFF A70 및 AFF A90 시스템</block>
@@ -9941,7 +9909,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8431b3d07718f99a71910529288bfbef" category="sidebar">AFF A70, AFF A90 유지 보수</block>
   <block id="0961888a0db0b2456e0301cb7e70997c" category="sidebar">AFF A70, AFF A90 부팅 미디어</block>
   <block id="bae3b9c4dc4ef01c1c3e52131996d15d" category="sidebar">AFF A70, AFF A90 섀시</block>
-  <block id="6895ff697457a497cc096ed423a7f5f7" category="sidebar">섀시 교체 개요</block>
   <block id="12a66472ea6e6007bdd278fb5f5f4773" category="sidebar">AFF A70, AFF A90 컨트롤러 모듈</block>
   <block id="be9c2c89d042ee7f71b10024f37a31ce" category="sidebar">핫 애드 워크플로우</block>
   <block id="9671268467391e7f925a038c0f83e411" category="sidebar">요구사항에 대해 설명합니다</block>
@@ -9960,9 +9927,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5be3be4e3c78f5ba4233a70fab6255f9" category="paragraph">최종 확인을 완료하고 저장 공간을 되돌려 정상적인 부팅 후 부팅 미디어 교체 프로세스를 완료합니다.</block>
   <block id="0ae7701d2ef507a0fceb7c75d4891e75" category="list-text">컨트롤러 A의 케이블 포트 E1A를 컨트롤러 B의 포트 E1A에 연결합니다</block>
   <block id="8bf237b60bd4b2db806d6610ad52ec49" category="list-text">컨트롤러 A의 케이블 포트 e7a를 컨트롤러 B의 포트 e1A로 연결합니다</block>
-  <block id="1de71be9c54175327aecef768179d1bd" category="paragraph">+ image::../media/drw_a1k_tnsc_cluster_cluster_cabling_ieops-1648.svg [스위치가 없는 2노드 클러스터 케이블 연결 다이어그램, 너비=500px]</block>
-  <block id="89135cd683c3d107d2c82b9a703f04cb" category="paragraph">+. 이더넷 모듈 포트를 호스트 네트워크에 케이블로 연결합니다.</block>
-  <block id="4e44798e075d2d881a9fb7543667af95" category="paragraph">+ 다음은 일반적인 호스트 네트워크 케이블 연결 예입니다. 특정 시스템 구성은 를 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="38821947dff053760f4c97b648ca454a" category="admonition">아직 전원 코드를 연결하지 마십시오.</block>
   <block id="b0dc4e3ef222885899ea12125b17e5eb" category="list-text">왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.</block>
   <block id="1d0b4b2ae4d50e55a4247f5c6ede72f1" category="paragraph">빈 캐비닛이나 텔코 랙에 하드웨어를 설치합니다. 캐비닛이 미리 채워져 있으면 이 단계를 건너뜁니다.</block>
@@ -10012,7 +9976,121 @@ SFP+(타겟/이니시에이터)</block>
   <block id="abb9a3f7b40da322ff2c9d6b0f555396" category="image-alt">스위치 클러스터 네트워크 케이블 연결</block>
   <block id="11e10f0140c4a2adc649196a587b4fb5" category="image-alt">쉘프 2개를 컨트롤러에 연결합니다</block>
   <block id="91ffcf18fe68ab362696af94371c45a6" category="image-alt">쉘프 3개를 컨트롤러에 연결합니다</block>
-  <block id="5d40c2e94b9e6a2b23697795499fe265" category="paragraph">+ image::../media/drw_70-90_tnsc_cluster_cluster_cabling_ieops-1653.svg [스위치가 없는 2노드 클러스터 케이블 연결 다이어그램, 너비=500px]</block>
   <block id="46ef92fe9e0acb49a708c33291f9e608" category="doc">설치 준비 - AFF A70, AFF A90</block>
-  <block id="0f8a8f2efc51dcb48a6d357e4ed1476e" category="sidebar">설치를 준비합니다</block>
+  <block id="5f1422fe4664becf0aa8b9ffe6bf86d6" category="paragraph">부팅 미디어를 교체하기 전에 다음 요구 사항을 검토하십시오.</block>
+  <block id="76b9ce100a5ce0ab266bb83f1c474ac5" category="list-text">이 절차에서 나중에 사용할 수 있도록 파일을 USB 플래시 드라이브에 복사해야<block ref="c70b112e1b022bd450e0790d8615c85a" prefix=" " category="inline-code"></block> 합니다.</block>
+  <block id="01df70585b251d67c7e85dbced3f0bae" category="paragraph">스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전합니다.</block>
+  <block id="5685250d28f7395e8ea2fbd5656061c6" category="paragraph">컨트롤러 교체 절차에 대한 요구 사항을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 요구 사항을 선택하십시오.</block>
+  <block id="b7325683a2337dcdab8a07d398701bbe" category="list-text">시스템이 MetroCluster 구성인 경우 이 컨트롤러 교체 절차를 사용해야 하는지 여부를 확인하려면 섹션을 검토해야<block ref="dbcae02c495cc3db61b37ce85396171e" category="inline-link-rx"></block> 합니다.</block>
+  <block id="8505696d0e3fbe2fd170739bbdf0fd07" category="list-text">시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 작동하지 않는 경우 기술 지원 부서에 문의하십시오.</block>
+  <block id="9b3a68cd89d10f3b0ccc10f24e3f6012" category="list-text">시스템에서 지원하는 모든 ONTAP 버전에 섀시 교체 절차를 사용할 수 있습니다.</block>
+  <block id="fd6ec360446d31e3ab9c3f69a39b148a" category="list-text">섀시 교체 절차는 베젤, NVMe 드라이브 및 컨트롤러 모듈을 새 섀시로 이동하고 교체 섀시는 NetApp의 새로운 구성요소라고 가정하여 작성되었습니다.</block>
+  <block id="f39018b3c08ed8bfa54e407c9e13c6b4" category="list-text">*섀시 교체 절차는 중단입니다.* 2노드 클러스터의 경우, 다중 노드 클러스터의 서비스 중단이 완전히 완료되고 부분 중단이 발생할 것입니다.</block>
+  <block id="a77e388862c17fbfa9503eb6e38c1ec3" category="paragraph">컨트롤러 교체 절차에 대한 요구 사항을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 요구 사항을 선택해야 합니다.</block>
+  <block id="fcf1f99c5510f69d07371f2deebe6070" category="doc">암호화 복원 - AFF A1K</block>
+  <block id="6153407aa3467dec46b4d9467c1b1856" category="summary">부팅 미디어 교체 요구 사항에 대해 알아봅니다.</block>
+  <block id="cc038387595615d54230bead39a5f9c2" category="doc">요구 사항 및 고려 사항 - AFF A1K</block>
+  <block id="83755d1a8b686dba4bc8143c0cb7f397" category="doc">부팅 미디어 교체 워크플로우 - AFF A1K</block>
+  <block id="1d7e5e0e3df76ac9dc695510c92b0468" category="paragraph">부팅 미디어를 교체하려면 다음 워크플로 단계를 수행하십시오.</block>
+  <block id="725fba88551da9c92e0dc7b5ab34ba0c" category="inline-link-macro">부팅 미디어 요구 사항 및 고려 사항</block>
+  <block id="7aa8454601f36b96e1a20bee3753c58b" category="paragraph">부팅 미디어를 교체하려면 특정 요구 사항을 충족해야 합니다. 를 검토합니다. <block ref="be62bd79c2fbb00cbbdbbb71ced5d802" category="inline-link-macro-rx"></block></block>
+  <block id="80a95f49e4683aaa8aed6e4b56d5cef1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="0caeda8d60cf80f7a042375ba653d60a" category="inline-link-macro-rx"></block></block>
+  <block id="d5874724b2a05ddd0fcf9a45278e58ff" category="paragraph">시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인합니다.</block>
+  <block id="99656405f7d1d5d39430b7771d03dad7" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="7444ce336f5cb99437679b1ac8b6aefb" category="inline-link-macro-rx"></block></block>
+  <block id="7db8d856045d03a62b20e857798b75c4" category="paragraph">손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.</block>
+  <block id="ecb8f83b8d48363a92afc461e11d3752" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="d5411bd0189d789655f8f33f07ceef1c" category="inline-link-macro-rx"></block></block>
+  <block id="8ba62a96dab9549596c8edd46f3bd5cc" category="paragraph">시스템 관리 모듈에서 오류가 발생한 부팅 미디어를 제거하고 교체용 부팅 미디어를 설치한 다음 USB 플래시 드라이브를 사용하여 ONTAP 이미지를 교체용 부팅 미디어로 전송합니다.</block>
+  <block id="28f71f0981cad1b4d63248d24cc356e5" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="68895f240ebc6c043e757f74f16ee4e8" category="inline-link-macro-rx"></block></block>
+  <block id="3075613c146b62cdb964218b1b25f33a" category="paragraph">USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원한 다음 환경 변수를 확인합니다.</block>
+  <block id="328c5bc6b9f2e06bb542a0d6dabcedd7" category="inline-link-macro">암호화를 복원합니다</block>
+  <block id="e8715de67b3dc98a20f01d64b03b5a53" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="d767082d20397ebb99e586749eda3a08" category="inline-link-macro-rx"></block></block>
+  <block id="66155ab867b9e72e003c32039430a194" category="paragraph">ONATP 부팅 메뉴에서 온보드 키 관리자 구성 또는 외부 키 관리자를 복원합니다.</block>
+  <block id="3e7991bdfb889505687a7da2384ab8ab" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block><block ref="ad27444622868149ebc13d5b01cf807a" category="inline-link-macro-rx"></block></block>
+  <block id="5be3f38f9a32479c868826a858d049a6" category="doc">컨트롤러 모듈 AFF A1K을 교체합니다</block>
+  <block id="011c6a75a4dc386bdb35a883058e2297" category="doc">전체 컨트롤러 교체 - AFF A1K</block>
+  <block id="f3555ea3467ebe4fdfc22c15f93397e0" category="doc">컨트롤러 교체 워크플로우 - AFF A1K</block>
+  <block id="4eccda983f51d658744291e7b5e3e733" category="paragraph">다음 워크플로우 단계에 따라 컨트롤러 모듈을 교체하십시오.</block>
+  <block id="d768a9e13831df72a415dcdd45486ce6" category="inline-link-macro">컨트롤러 교체 요구 사항 및 고려 사항</block>
+  <block id="42a7b941256031cfc400576fdc2d0885" category="paragraph">컨트롤러 모듈을 교체하려면 특정 요구 사항을 충족해야 합니다. 를 검토합니다. <block ref="dd87dfb53f7dd70c25e1260ab79eff31" category="inline-link-macro-rx"></block></block>
+  <block id="ae3b72ec9d4bfefbb94ce5a07d383d84" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="980cfa80bc576e35f09c67c3be4eddc8" category="inline-link-macro-rx"></block></block>
+  <block id="55c7ebf0deeac4f8204507eb9ab3cf38" category="inline-link-macro">컨트롤러를 교체합니다</block>
+  <block id="a0a9245f1a7e957d0b3062551118fe1b" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="1f759de80b41385676d2f1fe163eb0aa" category="inline-link-macro-rx"></block></block>
+  <block id="033d50cc4a08211a432c03a9350b9a71" category="paragraph">컨트롤러 교체에는 손상된 컨트롤러 분리, FRU 구성 요소 교체 컨트롤러 모듈로 이동, 인클로저에 교체 컨트롤러 모듈 설치가 포함됩니다.</block>
+  <block id="4d642a38ec660c3a650895de21d1fe3b" category="inline-link-macro">시스템 구성을 복원하고 확인합니다</block>
+  <block id="0710b8cf1cc5e9353db038dc5164ec82" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="d7f15e9703914d919163ee72018c4347" category="inline-link-macro-rx"></block></block>
+  <block id="1f2fe4b700b2b1be29968eb7ee0dfa6b" category="paragraph">교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다.</block>
+  <block id="f3cee1c656f19c44e3775cb54693c03a" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="0314c54fb87f2f2b01af763f24ebf5ef" category="inline-link-macro-rx"></block></block>
+  <block id="4e11a85a0220206b0bc560e74a5eb99f" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="94dc13e126f429eefb3c1f2ca69200fa" category="inline-link-macro-rx"></block></block>
+  <block id="3f241611f37a3a938c6086f224665f2d" category="paragraph">LIF를 확인하고 클러스터 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
+  <block id="cddf061490cf83caae5feee2aaeb87ab" category="summary">파트너는 공급자로부터 받은 교체용 현장 교체 장치(FRU) 구성 요소로 장애가 발생한 구성요소를 교체해야 합니다.</block>
+  <block id="cc642e219166c76e6ac027cc2f450209" category="list-text"><block ref="cc642e219166c76e6ac027cc2f450209" category="inline-link-macro-rx"></block></block>
+  <block id="74b0c9e1c6f08f1930847df1992af055" category="paragraph">모듈을 추가하면 중복성이 개선되어 하나의 모듈이 고장나도 시스템이 계속 작동할 수 있습니다.</block>
+  <block id="b49ba47015c67eae9f182326198621a4" category="list-text"><block ref="b49ba47015c67eae9f182326198621a4" category="inline-link-macro-rx"></block></block>
+  <block id="9fda3838f591736cf5d7bf5941736a26" category="paragraph">장애가 발생한 입출력 모듈을 교체하면 시스템을 최적의 작동 상태로 복구할 수 있습니다.</block>
+  <block id="7a327b859ee108f2920cd543eddd73a0" category="paragraph">하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. AFF A1K 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와 있습니다.</block>
+  <block id="7799c706f7bfc9f724a38dd742f52aaa" category="paragraph">이 섹션의 절차에서는 AFF A1K 시스템이 이미 ONTAP 환경에서 스토리지 노드로 구축되어 있다고 가정합니다.</block>
+  <block id="000fb458b47995fb84311bb7ef7c7f62" category="section-title">시스템 구성 요소</block>
+  <block id="c0e6d430c38f280369988922128024f4" category="paragraph"><block ref="c0e6d430c38f280369988922128024f4" category="inline-link-macro-rx"></block></block>
+  <block id="dceb619599d0aa6d9d89d0abf54e0b37" category="paragraph"><block ref="dceb619599d0aa6d9d89d0abf54e0b37" category="inline-link-macro-rx"></block></block>
+  <block id="57a64598a9ce65521278654300cbc21d" category="paragraph"><block ref="57a64598a9ce65521278654300cbc21d" category="inline-link-macro-rx"></block></block>
+  <block id="48fa76b6ceef78de919d0c14de5c1e8e" category="paragraph"><block ref="48fa76b6ceef78de919d0c14de5c1e8e" category="inline-link-macro-rx"></block></block>
+  <block id="7c9d2d9c711dd30a47c41d53fb8f639d" category="paragraph"><block ref="7c9d2d9c711dd30a47c41d53fb8f639d" category="inline-link-macro-rx"></block></block>
+  <block id="42e36784b087ac0d890c7f6dabed6982" category="paragraph"><block ref="42e36784b087ac0d890c7f6dabed6982" category="inline-link-macro-rx"></block></block>
+  <block id="55e7645d6bac38e8a7d8f01356040d16" category="paragraph">NV 배터리는 정전 후 전송 중인 데이터가 플래시 메모리로 디스테이징되는 동안 NVRAM 모듈에 전원을 공급하는 역할을 합니다.</block>
+  <block id="1cec3a4ecd2d4b7c8580770e953af5c3" category="paragraph"><block ref="1cec3a4ecd2d4b7c8580770e953af5c3" category="inline-link-macro-rx"></block></block>
+  <block id="95ab97eb0fe2b20f23eb848c59d681ac" category="paragraph"><block ref="95ab97eb0fe2b20f23eb848c59d681ac" category="inline-link-macro-rx"></block></block>
+  <block id="05cdc0d49abee279ee5e0bdde910f96c" category="paragraph"><block ref="05cdc0d49abee279ee5e0bdde910f96c" category="inline-link-macro-rx"></block></block>
+  <block id="bc425b4b6ac9f297a4fe3bc23a9beb1c" category="paragraph">전원이 꺼져 있는 경우 실시간 클럭 배터리는 시스템 날짜 및 시간 정보를 보존합니다.</block>
+  <block id="e6b4d284961b2daa06d56302ba361b67" category="inline-link-macro">시스템 관리 모듈</block>
+  <block id="e5f38539729ed58a561f506662e81abe" category="paragraph"><block ref="e5f38539729ed58a561f506662e81abe" category="inline-link-macro-rx"></block></block>
+  <block id="d7158a40e6d62c91f568a937bb75f8ad" category="paragraph">시스템 관리 모듈은 컨트롤러 또는 시스템 유지 관리를 위해 컨트롤러와 콘솔 또는 랩톱 간에 인터페이스를 제공합니다. 시스템 관리 모듈에는 부팅 매체가 포함되어 있으며 시스템 일련 번호(SSN)가 저장됩니다.</block>
+  <block id="22e57cb512e3ee6dd44ad84e9c0eba6d" category="doc">암호화 복원 - AFF A70, AFF A90</block>
+  <block id="806833b8e020115ba120e0259b5b6dde" category="doc">요구 사항 및 고려 사항 - AFF A70, AFF A90</block>
+  <block id="3a090f45cd3eaaf1125470fb47b78d45" category="doc">부팅 미디어 교체 워크플로우 - AFF A70, AFF A90</block>
+  <block id="1a80a229053bc2701262e358084c838b" category="paragraph">부팅 미디어를 교체하려면 가 특정 요구 사항을 충족해야 합니다. 를 검토합니다. <block ref="be62bd79c2fbb00cbbdbbb71ced5d802" category="inline-link-macro-rx"></block></block>
+  <block id="f9b1c5db9a25fd2334e8aba09a914138" category="doc">전체 섀시 교체 - AFF A70, AFF A90</block>
+  <block id="e2fecd58050f321afb4d9cc739d4187c" category="summary">손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다.</block>
+  <block id="ed235526c9cfaa44fbc032db9854b1e9" category="doc">섀시 교체 워크플로우 - AFF A70, AFF A90</block>
+  <block id="64e923d27d8f20b1c39e996784b889e8" category="paragraph">다음 워크플로우 단계에 따라 섀시를 교체합니다.</block>
+  <block id="ad5348d83b53533243eebb2be9ef1707" category="inline-link-macro">섀시 교체 요구 사항 및 고려 사항</block>
+  <block id="d00e4984e8012d79f3629015b50175c5" category="paragraph">섀시를 교체하려면 특정 요구 사항을 충족해야 합니다. 를 검토합니다. <block ref="85b79c35aab56873c02d629d1d3908c3" category="inline-link-macro-rx"></block></block>
+  <block id="b9a16e18baf3e3435991b6d9c3ba01af" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="6b014aeda9f88c8732e6a64d143414df" category="inline-link-macro-rx"></block></block>
+  <block id="d26fcd936ac92db8cf84389a3ab7bf47" category="inline-link-macro">섀시를 교체합니다</block>
+  <block id="d59de865276916bdd9f97d9473947ee3" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="50c430fbfd37e7720d34aff806c960b8" category="inline-link-macro-rx"></block></block>
+  <block id="2c248a1a1b5e42590f3b77ae3ede043f" category="paragraph">섀시 교체에는 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꾸는 작업이 포함됩니다.</block>
+  <block id="76f5f34488e514a65bf0c31e970e4fe7" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="24cfaad2045c82e6542685b8f9154291" category="inline-link-macro-rx"></block></block>
+  <block id="7f54aa0b6fdadc77a6c35a589cdb35b3" category="paragraph">섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환합니다.</block>
+  <block id="59ae240445027bbf9dc6c3c5d9bceb5c" category="doc">컨트롤러 모듈(AFF A70, AFF A90)을 교체합니다</block>
+  <block id="b935c7ad64878b8339ab0991016d016b" category="doc">전체 컨트롤러 교체 - AFF A70, AFF A90</block>
+  <block id="458af0f5eb6cb4db8860e3274353ecac" category="doc">컨트롤러 교체 워크플로우 - AFF A70, AFF A90</block>
+  <block id="58d356c259fddd513288088c96915d44" category="inline-link-macro">케이블을 재장착하고 컨트롤러를 반납합니다</block>
+  <block id="d0f2dbd12d4daa019c3a6a9b40b092ac" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="e14fc53a2fbc5d3f87f2c572a1629eed" category="inline-link-macro-rx"></block></block>
+  <block id="9a4829e743998d9894153667670dfd29" category="paragraph">컨트롤러를 재장착하고 스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전합니다.</block>
+  <block id="b1e4b88723d63ea7009965cda7a3722c" category="doc">추가 및 교체 입출력 모듈 개요 - AFF A70, AFF A90</block>
+  <block id="137aeb15d685b764448324fcbbc40af6" category="paragraph">하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. AFF A70 및 AFF A90 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와 있습니다.</block>
+  <block id="75775d88e26bd0ec1b5827bced4fb9dd" category="paragraph">이 섹션의 절차에서는 AFF A70 및 AFF A90 시스템이 ONTAP 환경에서 이미 스토리지 노드로 구축되어 있다고 가정합니다.</block>
+  <block id="cde82c9b04790b90c2679aca48bf0641" category="paragraph">ASA A70 및 ASA A90 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="dc5fb977cb8c88d079092e9c6ec6160e" category="paragraph"><block ref="dc5fb977cb8c88d079092e9c6ec6160e" category="inline-link-macro-rx"></block></block>
+  <block id="5d7bf1cac3020aecc9e419835da60990" category="paragraph"><block ref="5d7bf1cac3020aecc9e419835da60990" category="inline-link-macro-rx"></block></block>
+  <block id="8c2694371a75dd052d8b2e0cd66496fc" category="paragraph">드라이브는 데이터에 필요한 물리적 스토리지를 제공하는 장치입니다.</block>
+  <block id="68957a8f3d38a433e42aad8e6127ef63" category="paragraph"><block ref="68957a8f3d38a433e42aad8e6127ef63" category="inline-link-macro-rx"></block></block>
+  <block id="817eb80fb251d174bd0db4e59b399ab2" category="image-alt">컨트롤러-스택 케이블링을 위한 케이블 유형 키</block>
+  <block id="4feb668b50eb4388bae4031a6d3195b8" category="image-alt">케이블 연결 워크시트에 대한 색상 키입니다</block>
+  <block id="d72417441c3fe0b8542f7fd634702b7c" category="image-alt">4중 경로 연결용 컬러 키</block>
+  <block id="92111cfa73a8b9848b8194c307bf7fc4" category="image-alt">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택이 있는 Quuad 경로 HA입니다</block>
+  <block id="331d1570f3bb78a7df5983eef1419886" category="image-alt">다중 경로 혼합 스택 케이블 연결</block>
+  <block id="36ee953295cb8328778ccc3c480b3518" category="inline-image-macro">브리지 연결 구성의 혼합 스택 케이블 연결</block>
+  <block id="5e93aebff8a73cdc55e9e45600704cda" category="list-text">브리지가 연결된 MetroCluster 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 케이블로 연결한 경우 다음 그림을 참조할 수 있습니다. <block ref="0933d45bdb42bc4cf61cb846f3d6402b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b370bb883c0ae399576093140be62573" category="image-alt">DS212C 디스크 쉘프에서 디스크 제거</block>
+  <block id="ef1b2155f266ae851abdcc2efb79e577" category="image-alt">DS224C 디스크 쉘프에서 디스크 제거</block>
+  <block id="783b57f4c424133fb614814a5561cacd" category="image-alt">IOM12의 전면</block>
+  <block id="a8ab1a97e4cda29b26f514a774dd5ba0" category="image-alt">IOM12B 전면</block>
+  <block id="4283b924e5ab8de772cce8a8672e234a" category="image-alt">캠 핸들의 래치를 풉니다</block>
+  <block id="5bd609ccafc05b4bba3acfef2eaa0190" category="image-alt">캠 핸들이 열린 위치에 있습니다</block>
+  <block id="7dd431cc03f43f663695fa547eddc199" category="sidebar">유지 보수 개요</block>
+  <block id="d95c547fbb677f06b886d9af6b8c8c7f" category="sidebar">부팅 미디어 대체 워크플로</block>
+  <block id="e7d709a415f457e468d93ff7beb8afbf" category="sidebar">요구 사항 및 고려 사항</block>
+  <block id="4f46fe04ed7debd30ef1d3c151e24935" category="sidebar">컨트롤러 교체 워크플로우</block>
+  <block id="1ca4e63b42d944e09b1132b7f6f56b66" category="sidebar">I/O 모듈 개요</block>
+  <block id="926cbecf3e76b90a2bcdbc9c4519fc77" category="sidebar">섀시 교체 작업 흐름</block>
 </blocks>
