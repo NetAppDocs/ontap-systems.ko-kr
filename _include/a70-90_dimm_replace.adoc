@@ -225,10 +225,10 @@ NOTE: AFF A70 또는 AFF A90의 정확한 DIMM 위치는 컨트롤러 모듈의 
 
 IMPORTANT: DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므로 DIMM의 가장자리를 조심스럽게 잡으십시오.
 
-
-
++
 image::../media/drw_a70_90_dimm_ieops-1513.svg[DIMM을 교체합니다]
 
++
 [cols="1,4"]
 |===
 
