@@ -14,7 +14,7 @@ summary: AFF A70, AFF A90 플랫폼 설치를 준비합니다.
 플랫폼 설치를 준비합니다.
 
 .시작하기 전에
-* 를 사용하여 https://docs.netapp.com/us-en/ontap/software_setup/index.html["클러스터 설정 워크시트"] 필요한 값을 link:complete-install.html#step-3-configure-your-cluster["클러스터를 구성합니다"]기록합니다. 기본값이 제공되는 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.
+* 를 사용하여 https://docs.netapp.com/us-en/ontap/software_setup/index.html["클러스터 설정 워크시트"] 클러스터를 구성할 때 필요한 값을 기록합니다. 기본값이 제공된 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.
 * 하드웨어 설치를 완료하는 데 필요한 모든 추가 장비와 도구가 있는지 확인합니다.
 +
 ** Phillips #2 드라이버

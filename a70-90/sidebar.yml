@@ -67,7 +67,7 @@ entries:
       url: "/a70-90/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/a70-90/controller-replace-system-config-restore-and-verify.html"
-    - title: 회수 가능 시스템
+    - title: 재배열 및 컨트롤러 반환
       url: "/a70-90/controller-replace-recable-reassign-disks.html"
     - title: 전체 컨트롤러 교체
       url: "/a70-90/controller-replace-restore-system-rma.html"

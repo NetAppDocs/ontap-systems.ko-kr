@@ -4928,7 +4928,6 @@
   <block id="69197301cb56574fc56288a3e58f5214" category="sidebar">AFF A200 NVMEM 배터리</block>
   <block id="5a23c7002956a0e647543225fab68b63" category="sidebar">AFF A200 전원 공급 장치</block>
   <block id="c806fa9e8b1640e211b0ebdc4dbce098" category="sidebar">AFF A200 실시간 시계 배터리</block>
-  <block id="ee8a8644ffd12b189575bcf38607f745" category="sidebar">NS224 선반 설치 및 케이블</block>
   <block id="cb74611b1d6389cb0fc09a68cc007132" category="sidebar">NS224 선반 유지 관리</block>
   <block id="3cb52a5c3c25dcd729403c0c723500bc" category="list-text">'storage failover show'-반환' 명령을 사용하여 반환 작업의 진행률을 모니터링합니다.</block>
   <block id="4cc5d765a3b2155ab803f6ce50c11747" category="paragraph">'storage failover show' 명령의 출력에는 'system ID changed on partner' 메시지가 포함되지 않아야 한다.</block>
@@ -9419,8 +9418,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5e90eef3467966790ef48f7bc66eaea8" category="list-text">팬이 처음 시동될 때 매우 큰 소음이 발생할 수 있습니다. 시동 중 큰 팬 소음이 발생하는 것은 정상입니다.</block>
   <block id="671754b07475807f952083aca6f98a97" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 케이블을 고정합니다.</block>
   <block id="b20f6daaff695ed207299929a85ec2f0" category="summary">AFF A1K 플랫폼 설치를 준비합니다.</block>
-  <block id="b08289f100b75f4c534e1d2f7b065d98" category="inline-link-macro">클러스터를 구성합니다</block>
-  <block id="4df010254bccca3ca04b1ea2f27bc98d" category="list-text">를 사용하여<block ref="21429355d1404c86c4038169e7df91bc" category="inline-link-rx"></block> 필요한 값을 <block ref="5fecf2f883e4e59df3d0a6a1bcd5e808" category="inline-link-macro-rx"></block>기록합니다. 기본값이 제공되는 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.</block>
   <block id="4157e2eb4dd8641bf3242a14b2dfed09" category="list-text">하드웨어 설치를 완료하는 데 필요한 모든 추가 장비와 도구가 있는지 확인합니다.</block>
   <block id="d9a73103885ae8b7024a16f9b7de34b7" category="list-text">ESD 스트랩</block>
   <block id="1cf76f3395dbf84a39ec8781dc375709" category="list-text">NS224 선반 ID 설정을 위한 종이 클립 또는 끝이 뾰족한 볼펜</block>
@@ -9967,4 +9964,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1d7ebda4bed7079759a768f2499d31e6" category="inline-link">AFF A700s의 보조 부팅 장치를 교체하는 방법</block>
   <block id="9b7a185b60a0431ee8b8715c107b112e" category="paragraph">기본 부팅 미디어가 설치되어 있고 정상 상태인 동안 보조 부팅 미디어를 교체해야 하는 경우 NetApp 지원에 문의하여 KB 문서를 참조하십시오<block ref="1f934b5b84ae8c28d2ccbd8c83b2dd26" category="inline-link-rx"></block> .</block>
   <block id="0861a4c5524aee3e491db29774dd89a8" category="sidebar">컨트롤러를 종료합니다</block>
+  <block id="cada3ae8b9b850f4721595b91f8ab383" category="doc">단계 1: 컨트롤러를 재배열</block>
+  <block id="8727c9934e62950f5ec3ad8fac1885d6" category="list-text">를 사용하여<block ref="21429355d1404c86c4038169e7df91bc" category="inline-link-rx"></block> 클러스터를 구성할 때 필요한 값을 기록합니다. 기본값이 제공된 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.</block>
+  <block id="f4c083c41633c63a72a1bbce7db1c159" category="sidebar">컨트롤러를 반납합니다</block>
+  <block id="26916af0dde7f17e1c0020bc61152522" category="sidebar">재배열 및 컨트롤러 반환</block>
 </blocks>
