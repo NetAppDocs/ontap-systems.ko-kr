@@ -31,7 +31,7 @@ link:install-cabling-worksheets-examples-fas2600.html["컨트롤러-스택 케�
 * 필요한 경우 워크시트를 작성한 후 을 참조할 수 있습니다 link:install-cabling-worksheets-how-to-read-multipath.html["다중 경로 연결을 위해 컨트롤러 대 스택 연결에 케이블을 연결하기 위해 워크시트를 읽는 방법"]
 
 
-image::../media/drw_worksheet_mpha_template.gif[drw 워크시트 mpha 템플릿]
+image::../media/drw_worksheet_mpha_template.gif[MPHA 컨트롤러 - 스택 케이블 연결 워크시트 템플릿]
 
 .단계
 . 회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.
@@ -54,7 +54,7 @@ image::../media/drw_worksheet_mpha_template.gif[drw 워크시트 mpha 템플릿]
 예를 들어 8개의 SAS 포트와 4개의 스택이 있는 다중 경로 HA 구성에서 포트 쌍 1a/2b는 스택 1에 케이블로 연결되고, 포트 쌍 2a/1d는 스택 2에 연결되고, 포트 쌍 1c/2D는 stack3에 케이블로 연결되고, 포트 쌍 2c/1b는 스택 4에 케이블로 연결됩니다.
 
 +
-image::../media/drw_worksheet_mpha_slots_1_and_2_two_4porthbas_two_stacks.gif[drw 워크시트 mpha 슬롯 1 및 2 2개의 4portbas 두 개의 스택]
+image::../media/drw_worksheet_mpha_slots_1_and_2_two_4porthbas_two_stacks.gif[다중 경로 HA 케이블 연결 워크시트를 작성했습니다]
 
 +
 시스템의 스택에 케이블을 연결하는 데 모든 포트 쌍이 필요하지 않은 경우에는 포트 쌍을 건너뜁니다(다른 모든 포트 쌍 사용).
@@ -67,14 +67,14 @@ image::../media/drw_worksheet_mpha_slots_1_and_2_two_4porthbas_two_stacks.gif[dr
 NOTE: 시스템의 스택에 케이블을 연결하는 것보다 많은 포트 쌍이 있는 경우, 시스템의 SAS 포트를 최적화하기 위해 포트 쌍을 건너뛰는 것이 가장 좋습니다. SAS 포트를 최적화하여 시스템 성능을 최적화합니다.
 
 +
-image::../media/drw_worksheet_mpha_skipped_template.gif[drw 워크시트 mpha 건너뛴 템플릿]
+image::../media/drw_worksheet_mpha_skipped_template.gif[건너뛴 포트 쌍을 보여주는 다중 경로 HA 케이블 연결 워크시트]
 
 +
 완성된 워크시트를 사용하여 시스템에 케이블을 연결할 수 있습니다.
 
 . 단일 컨트롤러(다중 경로) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 표시합니다.
 +
-image::../media/drw_worksheet_mp_template.gif[drw 워크시트 MP 템플릿]
+image::../media/drw_worksheet_mp_template.gif[다중 경로 케이블 연결 워크시트를 작성했습니다]
 
 +
 완성된 워크시트를 사용하여 시스템에 케이블을 연결할 수 있습니다.

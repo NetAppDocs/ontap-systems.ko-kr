@@ -688,8 +688,6 @@
   <block id="a513cfe8d83ba38ea85b01260a4ffb53" category="list-text">단일 컨트롤러 구성이 있는 경우 두 번째 컨트롤러에 케이블을 연결하기 위한 하위 단계 b 및 d를 건너뜁니다.</block>
   <block id="129ad208c03826aef81ff147b924ba05" category="inline-link-macro">SAS 케이블 연결 규칙</block>
   <block id="cd0bbcf8c45ff326b72c889eab8250c0" category="paragraph">포트 쌍은 워크시트의 다른 모든 포트 쌍(1a/2b 및 1c/2d)을 사용하여 케이블로 연결됩니다.</block>
-  <block id="1924d3ee43c267ede3f6ed98969b8a41" category="image-alt">drw 워크시트 mpha 건너뛴 템플릿</block>
-  <block id="2674e8f8d480cc5fce26a4245094489c" category="image-alt">drw mpha 슬롯 1 및 2 2개의 4portbas 두 개의 스택을 건너뛰었습니다</block>
   <block id="270a0442694cb2d6cfb0b5aac8bf618c" category="list-text">스택 1에 대해 각 컨트롤러의 케이블 포트 쌍 1a/2b:</block>
   <block id="84233093e0fddbce6c78136ff461562e" category="list-text">컨트롤러 1 포트 1a를 스택 1에 케이블로 연결하고, 첫 번째 쉘프 IOM A 포트 1을 연결합니다.</block>
   <block id="557284091904937ad44ab1d95de8abdd" category="list-text">컨트롤러 2 포트 1a를 스택 1에 케이블로 연결하고, 첫 번째 쉘프 IOM B 포트 1을 연결합니다.</block>
@@ -970,7 +968,6 @@
   <block id="f0cd87f18d90e4016279796c776837f8" category="inline-link-macro">4중 경로 연결을 위해 컨트롤러-스택 간 연결을 케이블로 연결하기 위해 워크시트를 읽는 방법</block>
   <block id="1cf61d431bf950cf1f2f9f2368e7f729" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="22de937f8b92c8373761b256e9819f4a" category="inline-link-macro-rx"></block>.</block>
   <block id="894ffcc20897b622cbd7b6ca6714ee4f" category="list-text">케이블 연결 예는 컨트롤러 A 및 C 포트 연결과 컨트롤러 B 및 D 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.</block>
-  <block id="f8e47c7d28ca54fc60e534a2aa66cd55" category="image-alt">drw 컨트롤러 - 스택 케이블 유형 키</block>
   <block id="e49b7bdd8191780aea4f583124847913" category="list-text">케이블 연결 예시와 워크시트의 해당 포트 쌍은 HA 쌍의 각 스택에 대한 연결을 구별하기 위해 색상으로 구분되어 있습니다.</block>
   <block id="0230c83ced57a67f2d5277748826cfef" category="list-text">케이블 연결 예는 HA 쌍 또는 단일 컨트롤러 구성의 각 스택에 대해 4중 경로 방식의 연결을 달성하는 데 필요한 2개의 다중 경로 케이블 세트를 시각적으로 구별합니다.</block>
   <block id="bdb9e07856583317bddd1f2c2748f611" category="paragraph">첫 번째 다중 경로 케이블 세트를 "다중 경로"라고 합니다. 두 번째 다중 경로 케이블 세트를 ""4중 경로""라고 합니다. 두 번째 케이블 세트는 "4중 경로"라고 합니다. 이 케이블 세트를 완료하면 4중 경로 방식의 연결이 가능하기 때문입니다.</block>
@@ -978,13 +975,11 @@
   <block id="ecc08dd2661076f245ef51eb14c4a74d" category="paragraph">다중 경로 케이블링용으로 지정된 각 포트 쌍은 케이블로 연결된 스택과 연결된 타원형으로 둘러싸여 있습니다. 4중 케이블 연결에 지정된 각 포트 쌍은 케이블이 연결된 스택과 연결된 직사각형으로 둘러싸입니다.</block>
   <block id="7c0edd402cd55e5ea26650be4a6f998c" category="section-title">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택이 있는 4중 경로 HA입니다</block>
   <block id="f76dc75f678aa69ffe38bc567a89bca0" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 스택 1의 포트 쌍 1a/2b(다중 경로) 및 2a/1d(4중 경로)와 stack2의 포트 쌍 1c/2D(다중 경로) 및 2c/1b(4중 경로)를 사용합니다.</block>
-  <block id="bfaf47370d0e0636d466e95dcd0ebeb2" category="image-alt">drw qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
   <block id="5976250f174c7aa7423cbb91c458e804" category="list-text">이 절차 및 워크시트 템플릿은 하나 이상의 스택을 사용한 다중 경로 HA 또는 다중 경로 구성을 위한 다중 경로 연결 케이블에 적용할 수 있습니다.</block>
   <block id="8c7e7585bf065649c4ca12e935833b4c" category="paragraph">완성된 워크시트는 다중 경로 HA 및 다중 경로 구성을 위해 제공됩니다.</block>
   <block id="da38645c7fd59844e84034f3e0e006a1" category="list-text">워크시트 서식 파일을 사용하면 최대 6개의 스택을 사용할 수 있으므로 필요한 경우 열을 더 추가해야 합니다.</block>
   <block id="bf19714cdcd1dd190617db0b27cdf3cf" category="inline-link-macro">다중 경로 연결을 위해 컨트롤러 대 스택 연결에 케이블을 연결하기 위해 워크시트를 읽는 방법</block>
   <block id="2afb2ee03a930cb4967503a5dbf7a5b0" category="list-text">필요한 경우 워크시트를 작성한 후 을 참조할 수 있습니다 <block ref="32f1048d76ed4ef07349228b731694c0" category="inline-link-macro-rx"></block></block>
-  <block id="b1d23e069f48305f66afd6c74e6f2742" category="image-alt">drw 워크시트 mpha 템플릿</block>
   <block id="9c43147d4d4c774a215292ec5b9439de" category="paragraph">예: 1a, 2a, 1c, 2c</block>
   <block id="6184df819b9367f5c25fc56f0851d7b3" category="paragraph">예: 1b, 2b, 1d, 2D</block>
   <block id="2cfe5da4c8722b640a9dfc5b5ab60ebf" category="list-text">회색 상자 아래의 상자에서 목록의 첫 번째 포트가 목록의 끝으로 이동하도록 D 및 B 포트 목록을 다시 작성합니다.</block>
@@ -992,12 +987,10 @@
   <block id="ba0659d8c8f23ac9bb4a89e0ac5cf39e" category="list-text">각 스택에 대한 포트 쌍을 동그라미(지정)합니다.</block>
   <block id="22c2eaf8b52a6dea27cf80d568d40bff" category="paragraph">시스템의 스택에 케이블을 연결하는 데 모든 포트 쌍을 사용하는 경우, 워크시트에 포트 쌍이 정의되어 나열된 순서대로 포트 쌍을 순환합니다.</block>
   <block id="94f595af50c508a9bfc270b82e05e305" category="paragraph">예를 들어 8개의 SAS 포트와 4개의 스택이 있는 다중 경로 HA 구성에서 포트 쌍 1a/2b는 스택 1에 케이블로 연결되고, 포트 쌍 2a/1d는 스택 2에 연결되고, 포트 쌍 1c/2D는 stack3에 케이블로 연결되고, 포트 쌍 2c/1b는 스택 4에 케이블로 연결됩니다.</block>
-  <block id="f6c7f1f76e5b0db843e015bbd294f8e4" category="image-alt">drw 워크시트 mpha 슬롯 1 및 2 2개의 4portbas 두 개의 스택</block>
   <block id="e7e585cb7670d3be4cdba5735d958f70" category="paragraph">시스템의 스택에 케이블을 연결하는 데 모든 포트 쌍이 필요하지 않은 경우에는 포트 쌍을 건너뜁니다(다른 모든 포트 쌍 사용).</block>
   <block id="56e6b9c478a4854dae4b86e5e412a5b0" category="paragraph">예를 들어, 8개의 SAS 포트와 2개의 스택이 있는 다중 경로 HA 구성에서 포트 쌍 1a/2b는 스택 1에 케이블로 연결되고 포트 쌍 1c/2D는 스택 2에 케이블로 연결됩니다. 나중에 두 개의 추가 스택이 핫 애드 될 경우, 포트 쌍 2a/1d는 스택 3에 케이블로 연결되고 포트 쌍 2c/1b는 스택 4에 케이블로 연결됩니다.</block>
   <block id="00cd973eb68aeaf9e8db5ec3ee1fe277" category="paragraph">완성된 워크시트를 사용하여 시스템에 케이블을 연결할 수 있습니다.</block>
   <block id="e4a252d9b1af57bdcc80fe662dcbc613" category="list-text">단일 컨트롤러(다중 경로) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 표시합니다.</block>
-  <block id="9a3590de6db32aab0916b85a06f72852" category="image-alt">drw 워크시트 MP 템플릿</block>
   <block id="0ed20e374c19ba1929de6bdbbdd59fb4" category="summary">디스크 쉘프 구성 요소의 상태 및 위치를 이해하면 디스크 쉘프의 상태를 모니터링할 수 있습니다.</block>
   <block id="a93d9d3aea843199027168d521da5dea" category="section-title">오퍼레이터 디스플레이 패널 LED</block>
   <block id="3b4ebd8e7c477a0f7a960c9c6a4ce31f" category="paragraph">디스크 쉘프 전면 운영자 디스플레이 패널의 LED는 디스크 쉘프가 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
@@ -1177,16 +1170,11 @@
   <block id="f3c63ac44190e806f7590f75016082ad" category="list-text">드라이브 쉘프의 두 전원 스위치를 켭니다.</block>
   <block id="39cc2d6f5935ef61ab1eac11e4ea2a0a" category="list-text">두 팬이 모두 켜지는지, 팬 뒷면의 주황색 LED가 꺼져 있는지 확인합니다.</block>
   <block id="ee547c1c638ccba345b1cbcb32709bcc" category="list-text">케이블 연결 예는 IOM A(도메인 A) 및 IOM B(도메인 B)를 통해 연결을 구별하기 위해 컨트롤러-스택 연결 및 쉘프-쉘프 연결을 두 가지 색상으로 보여 줍니다.</block>
-  <block id="c81b301c5f51b115f5e18cb1507f7388" category="image-alt">drw fas2600 케이블 색상 키</block>
   <block id="ff82ea2b354e0f934f26abf26044a994" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0b를 사용합니다.</block>
   <block id="8498d609d156c09f9b21ae8adb760b18" category="section-title">FAS2600 시리즈 다중 쉘프 스택 1개 포함 다중 경로 구성</block>
   <block id="5067863de55d98010fd9bb2898b6d0e2" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0b를 사용합니다.</block>
   <block id="436ea39ce2a06ceb277515424ceed3d4" category="paragraph">이 예제에서 컨트롤러는 섀시의 슬롯 A에 설치됩니다. 컨트롤러가 섀시의 슬롯 A에 있는 경우 내부 스토리지 포트(0b)가 도메인 A(IOM A)에 있으므로 포트 0b는 스택의 도메인 A(IOM A)에 연결해야 합니다.</block>
-  <block id="9d7e2c912bd24db6d5e507b93ee24a2c" category="image-alt">drw fas2600 MP 슬롯 A 워크시트</block>
-  <block id="83184cde59484a95c39cf3dc4cb53580" category="image-alt">drw fas2600 MP 슬롯 A</block>
   <block id="f713f3d5118d64219e7f60c5bb8b1949" category="paragraph">이 예제에서 컨트롤러는 섀시의 슬롯 B에 설치됩니다. 컨트롤러가 섀시의 슬롯 B에 있는 경우 내부 스토리지 포트(0b)가 도메인 B(IOM B)에 있으므로 포트 0b는 스택의 도메인 B(IOM B)에 연결해야 합니다.</block>
-  <block id="558b115477a065d99c298cb43b8dce82" category="image-alt">drw fas2600 MP 슬롯 b 워크시트</block>
-  <block id="c5973d1d05064577208601411fd0be8d" category="image-alt">drw fas2600 MP 슬롯 b</block>
   <block id="de33df5f9c0e7cad9f4a80efe6b64037" category="section-title">시스템의 상태입니다</block>
   <block id="ca56cd02a36881bbfbd303ad25ed02ab" category="list-text">시스템과 버전의 ONTAP는 IOM, 디스크 드라이브 및 SAS 케이블을 포함하여 현재 추가하고 있는 디스크 쉘프를 지원해야 합니다.</block>
   <block id="87f977ab6d3b14c09f67014c03174f98" category="list-text">시스템에 핫 추가할 디스크 쉘프 수가 지원되는 최대 디스크 드라이브 수보다 작아야 합니다.</block>
@@ -1438,8 +1426,6 @@
   <block id="8fd0f0ba5d2b2db036e96ecd3ee6d8aa" category="list-text">케이블 연결 예는 경로 A(IOM A) 중 하나를 재사용하는 방법을 보여줍니다.</block>
   <block id="ec63bd7bc48ac55f299c9d68ecffd51e" category="paragraph">경로 B(IOM B)에 대한 재배선 작업을 반복합니다.</block>
   <block id="211fa836e39f7f323e02691753f9da66" category="paragraph">스택에서 논리적 첫 번째 디스크 쉘프를 제거할 경우 또는 스택에 다중 경로 연결이 있는 경우 재연결을 추론할 수 있습니다.</block>
-  <block id="c2f61fd2c187c56b3314931c01a8eaf7" category="image-alt">drw hotremove 끝</block>
-  <block id="147a645b8f80ab0559368234fa51e963" category="image-alt">drw 중간을 제거합니다</block>
   <block id="2133a074d4f3eed060561ab613c08f5f" category="list-text">제거하려는 디스크 쉘프를 무시하고 IOM A(IOM A) 스택 연결을 올바르게 다시 설정했는지 '스토리지 디스크 표시 포트'를 확인합니다</block>
   <block id="ea506b405fca1a39370affafd0936a56" category="paragraph">HA 쌍 구성에서는 두 컨트롤러 중 하나의 클러스터 쉘에서 이 명령을 실행합니다. 시스템이 검색을 완료하는 데 최대 1분이 걸릴 수 있습니다.</block>
   <block id="136e33ca7a2498e1bfe9b9d0001facc5" category="paragraph">출력의 처음 두 줄은 경로 A와 경로 B를 모두 통해 연결된 디스크 드라이브를 보여 줍니다 출력의 마지막 두 줄은 단일 경로 B를 통해 연결된 디스크 드라이브를 보여 줍니다</block>
@@ -1469,16 +1455,13 @@
   <block id="ad63c86113a304962d0cc1e56235db08" category="list-text">워크시트 예에서 포트 쌍은 다중 경로 케이블 연결이나 4중 경로 케이블 연결을 위해 해당 스택에 지정됩니다.</block>
   <block id="6b49172cc392f1e21991cb36314012ab" category="paragraph">다중 경로 케이블링용으로 지정된 각 포트 쌍은 케이블로 연결된 스택과 연결된 타원형으로 둘러싸여 있습니다. 4중 케이블 연결에 지정된 각 포트 쌍은 케이블이 연결된 스택과 연결된 직사각형으로 둘러싸입니다. 스택 1은 파란색과 연결되며 스택 2는 주황색과 연결됩니다.</block>
   <block id="511fc491991f37919ad20aca7e974640" category="list-text">필요한 경우 워크시트를 작성한 후 을 참조할 수 있습니다 <block ref="22de937f8b92c8373761b256e9819f4a" category="inline-link-macro-rx"></block>.</block>
-  <block id="d51e2dd4571539675d09c8266f532da7" category="image-alt">drw 워크시트 4분할 경로 템플릿 nau</block>
   <block id="d188e830851e5adf6a214df5d3690a7a" category="list-text">첫 번째 포트 쌍 세트 주위에 타원을 그리고 두 번째 포트 쌍 세트 주위에 사각형을 그려 스택 1에 연결할 두 포트 쌍 세트를 식별합니다.</block>
   <block id="5a9358c4788bb22fd681dc5b9edd2b65" category="paragraph">각 컨트롤러에서 HA 쌍 또는 단일 컨트롤러 구성의 스택 1로 4중 경로 연결된 연결을 달성하기 위해 두 케이블 연결 세트가 필요합니다.</block>
   <block id="e5c73ac582d78bdd23a793ebf20bc372" category="paragraph">다음 예에서는 다중 경로 케이블 연결에 포트 쌍 1a/2b를 사용하고 스택 1에 대한 4중 경로 케이블 연결의 경우 포트 쌍 2a/1d를 사용합니다.</block>
-  <block id="eab4780f245d746dcf9b36a1b58952f9" category="image-alt">drw 워크시트 qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 1이 nau 원으로 표시됨</block>
   <block id="d3566caec182b926eca4a9f44279b27c" category="list-text">첫 번째 포트 쌍 세트 주위에 타원을 그리고 두 번째 포트 쌍 세트 주위에 사각형을 그려 스택 2에 연결할 두 포트 쌍 세트를 식별합니다.</block>
   <block id="3c08192bd02659fc7b8bcc9f8b87cbd1" category="paragraph">다음 예에서는 다중 경로 케이블 연결에 포트 쌍 1c/2D를 사용하고 스택 2에 대한 4중 경로 케이블 연결에는 포트 쌍 2c/1b를 사용합니다.</block>
   <block id="060cf3aeb3fb474b79039b8afb45b9cc" category="list-text">4중 경로(단일 컨트롤러) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 합니다. 컨트롤러 1 정보만 사용하여 컨트롤러-스택 연결을 케이블로 연결할 수 있습니다.</block>
   <block id="5a7e2a7578fd39d1750be23b4f5dd41d" category="paragraph">다음 예제는 컨트롤러 2에 대한 정보가 십자 표시되었음을 보여줍니다.</block>
-  <block id="c7e0976f97baf05a4e20821f4c8fad4d" category="image-alt">drw 워크시트 Qp 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau</block>
   <block id="44a79028b8e2f56c8d1164ae1aedc076" category="list-text">보유하고 있는 구성 유형에 따라 다음 작업 중 하나를 수행합니다.</block>
   <block id="e8599f3c8ef213317efbf60b0379685c" category="cell">있는 경우...</block>
   <block id="1e5e667063d28d41ec828c8438a56b89" category="paragraph">IOM A가 컨트롤러 1에 속합니다. IOM B가 컨트롤러 2에 속합니다.</block>
@@ -1495,43 +1478,28 @@
   <block id="1a9e0b4a2336d16f8663305e4fc18c6f" category="summary">컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 사용하여 HA 쌍을 다중 경로 HA 구성으로 연결할 수 있습니다.</block>
   <block id="7ab9991308c3a3d15fb6ed5c7a347e31" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="32f1048d76ed4ef07349228b731694c0" category="inline-link-macro-rx"></block>.</block>
   <block id="f36fd727bb50e27882dbe086058bd373" category="list-text">케이블 연결 예는 컨트롤러 A 및 C 포트 연결과 컨트롤러 B 및 D 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.</block>
-  <block id="0263bf92f1b077873ca5f3be62ee7999" category="image-alt">케이블 색상 키(26,4stackcolor가 아닌)를 스택하는 drw 컨트롤러</block>
   <block id="c40ae5fd6fe56977961009936fb22772" category="list-text">워크시트 및 케이블 연결 예는 워크시트에 나열된 순서대로 케이블 연결 포트 쌍을 보여 줍니다.</block>
   <block id="4793698648b62c13f412201fed41c48a" category="section-title">4중 포트 SAS HBA를 사용하는 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예</block>
   <block id="a5537beab2d57d8f92d18aa4b43ac79a" category="paragraph">완성된 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예를 사용하여 4중 포트 SAS HBA가 포함된 일반적인 다중 경로 HA 구성을 케이블로 연결할 수 있습니다. 이러한 컨트롤러에는 온보드 SAS 포트가 없습니다.</block>
   <block id="67fb290012ca7ea992335f995235ede3" category="section-title">4중 포트 SAS HBA 1개와 단일 쉘프 스택 1개가 포함된 다중 경로 HA</block>
   <block id="93b601e950264be059ea1d5b32f10026" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 1a/1d를 사용합니다.</block>
-  <block id="2933229ed5abcc45033a2418c9b910e4" category="image-alt">drw 워크시트 mpha 슬롯 1 단일 4portthba 단일 singleshelf 스택</block>
-  <block id="2abf7c4f4b7d25573f03b17b84c56ba8" category="image-alt">drw mpha 슬롯 1 4portthba 단일 singleshelf 스택 1개</block>
   <block id="087bd4561dfdad46ae02633fa277ae73" category="section-title">4중 포트 SAS HBA 1개와 단일 쉘프 스택 2개가 포함된 다중 경로 HA</block>
   <block id="286a44775577ac42d6556a1b94ccf11d" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 1a/1d 및 1c/1b를 사용합니다.</block>
-  <block id="cee0e72541c2d9024b158235398a89aa" category="image-alt">drw 워크시트 mpha 슬롯 1 하나의 4portthba 두 개의 singleshelf 스택</block>
-  <block id="04330b348fb2b9d75b97c043d31daf90" category="image-alt">drw mpha 슬롯 1 하나의 4portthba 두 개의 singleshelf 스택</block>
   <block id="950a4c3dee043c6b8d57efe763aa74b0" category="section-title">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택을 사용하는 다중 경로 HA</block>
   <block id="812b5452f2ae1ba9d42246be0ba8bbb4" category="paragraph">이 구성에서는 1a/2b, 2a/1d, 1c/2D 및 2c/1b의 4포트 쌍을 사용할 수 있습니다. 포트 쌍이 식별되는 순서(워크시트에 나열됨)에 따라 케이블을 연결하거나 다른 모든 포트 쌍을 케이블 연결할 수 있습니다(포트 쌍 건너뛰기).</block>
   <block id="44f3c9d1b50f147155d0f7e703646a3c" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 워크시트에 나열된 순서대로 사용되는 포트 쌍을 보여줍니다. 1a/2b, 2a/1d, 1c/2D 및 2c/1b.</block>
-  <block id="e9f0b703b3431747897cac71fb8ebd91" category="image-alt">drw mpha 슬롯 1 및 2 4portbas 4 스택</block>
   <block id="17e96d703112075599edce9d292a39d1" category="paragraph">다음 워크시트 및 케이블 연결 예는 목록의 다른 포트 쌍을 사용하기 위해 건너뛰는 포트 쌍을 보여줍니다. 1a/2b 및 1c/2d.</block>
   <block id="0bb5beea0a9b1467e5ac683d8be8d731" category="admonition">나중에 세 번째 스택이 추가되면 건너뛴 포트 쌍을 사용합니다.</block>
-  <block id="239ee149676f0df1d039840c242eba03" category="image-alt">drw 워크시트 mpha 슬롯 1 및 2개의 4portbas 스택 두 개를 건너뛰었습니다</block>
   <block id="fcd5677b429a2c0c1940d06b27a14472" category="section-title">4개의 온보드 SAS 포트를 사용하는 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예</block>
   <block id="1692a4bb913bb0bd5a1646725968d427" category="paragraph">완성된 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예를 사용하여 4개의 온보드 SAS 포트가 있는 일반적인 다중 경로 HA 구성을 케이블로 연결할 수 있습니다.</block>
   <block id="8b99b1fc11a783a6bad8150e784520d9" category="section-title">4개의 온보드 SAS 포트와 1개의 단일 쉘프 스택을 갖춘 다중 경로 HA</block>
   <block id="50a57875df5b4710b97c08b882cf829b" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0d를 사용합니다.</block>
-  <block id="af4a8c360a6ae6bf12e672a43d6e8b2f" category="image-alt">drw 워크시트 mpha 슬롯 0 4포트 단일 단일 단일 스택</block>
-  <block id="e5dc3186ca191839ad127357dddc7bd5" category="image-alt">drw mpha 슬롯 0 4포트 단일 singleshelf 스택</block>
   <block id="e5a500887ccbe7eb842a138d7e34e9ea" category="section-title">4개의 온보드 SAS 포트와 2개의 단일 쉘프 스택을 지원하는 다중 경로 HA</block>
   <block id="f15a59667216d2f74074a23640bdfa53" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0d 및 0c/0b를 사용합니다.</block>
-  <block id="2d4df670a3063037bf70c227e7e35296" category="image-alt">drw 워크시트 mpha 슬롯 0 4포트 2개의 singleshelf 스택</block>
-  <block id="c325a6bfb4450799a552152ef2595987" category="image-alt">drw mpha 슬롯 0 4포트 2개의 singleshelf 스택</block>
   <block id="7fc39d7251ed4c074771788ecc1490ba" category="section-title">4개의 온보드 SAS 포트, 4중 포트 SAS HBA 및 2개의 다중 쉘프 스택이 있는 다중 경로 HA</block>
   <block id="53f539c1967a84fca04c27119295cf2b" category="paragraph">이 구성에는 0a/1b, 1a/0d, 0c/1d, 1c/0b의 4포트 쌍이 제공됩니다. 포트 쌍이 식별되는 순서(워크시트에 나열됨)에 따라 케이블을 연결하거나 다른 모든 포트 쌍을 케이블 연결할 수 있습니다(포트 쌍 건너뛰기).</block>
   <block id="fc18b2ec0e89c97b98059a6008f86886" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 워크시트에 표시된 포트 쌍(0a/1b, 1a/0d, 0c/1d 및 1c/0b)에 따라 사용되는 포트 쌍을 보여줍니다.</block>
-  <block id="ffcf77fcdb808479167cca5e84d81e49" category="image-alt">drw 워크시트 mpha 슬롯 0 및 1 8포트 4스택</block>
-  <block id="a885c23848f611c0e426434d67bcb5f9" category="image-alt">drw mpha 슬롯 0 및 1 8포트 4 스택</block>
   <block id="6c41b1568b5db604b91d32b896598e73" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 0a/1b 및 0c/1d의 목록에서 다른 모든 포트를 사용하도록 건너뛴 포트 쌍을 보여줍니다.</block>
-  <block id="6ef763da442e6cc67ed639f83a4e7b31" category="image-alt">drw 워크시트 mpha 슬롯 0 및 1 8포트 2개의 스택을 건너뛰었습니다</block>
-  <block id="cc1b17d485465e67146abdf8583e715e" category="image-alt">drw mpha 슬롯 0 및 1 8포트 2개의 스택을 건너뛰었습니다</block>
   <block id="2f40064540d7b13547e7d24b16fd49e7" category="paragraph">이 예제에서 사용된 구성은 4중 포트 SAS HBA 2개가 각 컨트롤러에 장착되어 있고 IOM12 모듈이 포함된 디스크 쉘프 2개를 포함하는 4중 경로 HA 구성입니다.</block>
   <block id="480e4f10ac2e8a84a7f6455bf724bff5" category="paragraph">이것은 스택 1의 다중 경로 케이블 연결입니다.</block>
   <block id="1fc785872b10266253c6fc954df23d48" category="list-text">스택 1에 대해 각 컨트롤러의 케이블 포트 쌍 2a/1d:</block>
@@ -2899,7 +2867,6 @@
   <block id="491ac40caf1751d565e668d868bc0d41" category="paragraph">각 노드를 스택의 IOM B에 연결합니다</block>
   <block id="4b340db6110d657781e4a28d91e76457" category="list-text">컨트롤러 1 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM B 포트 1로 연결합니다.</block>
   <block id="8c2c57baca5559cc6deaa2d149cbcc7e" category="paragraph">드라이브 쉘프 스택이 둘 이상인 경우, 드라이브 쉘프 유형에 대한 _설치 및 케이블 연결 가이드_를 참조하십시오.</block>
-  <block id="ba9a3cf272ff19e49b8066ab84a2b3dc" category="inline-link-macro">설치 및 케이블 연결</block>
   <block id="a83c5e67d745b0c85b815af3214463cd" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우 시스템 설정을 완료합니다</block>
   <block id="cbd6e530c253bd69eae2efffc8a1d409" category="list-text">다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다</block>
   <block id="4a548135158bf0dbaee8622657e29f8a" category="doc">손상된 컨트롤러(AFF A220 및 FAS2700)를 종료합니다</block>
@@ -3142,7 +3109,6 @@
   <block id="220db6473cc602ad3f31d5c33d7b32f6" category="list-text">슬롯 3에 X91148A 모듈을 장착하십시오.</block>
   <block id="bee1f07b307186667ad005db1d21960d" category="list-text">스토리지용 두 번째 X91148A 모듈을 설치하는 경우 슬롯 7의 모듈에 대한 분리 및 설치 단계를 반복합니다.</block>
   <block id="b8e74ae60e8625fb6ed112fc8da2a6b9" category="list-text">파트너 노드의 반환: 'storage failover 반환 - ofnode_target_node_name_'</block>
-  <block id="9744ad3e63fafdf6d52c1d0eeed92d7d" category="inline-link">NS224 드라이브 쉘프 핫 추가</block>
   <block id="64f6b820ab2dfc538680f52ee5405553" category="list-text">팬 모듈의 주황색 버튼을 누르고 팬 모듈을 섀시에서 직선 방향으로 당겨 자유손으로 받칩니다.</block>
   <block id="d5275a655fb4dd5eb0c4cd06eb536394" category="paragraph">주황색 해제 버튼</block>
   <block id="02115e0d387563593963d3e090ae447d" category="list-text">교체용 팬 모듈의 가장자리를 섀시의 입구에 맞춘 다음 제자리에 고정될 때까지 섀시에 밀어 넣습니다.</block>
@@ -3421,7 +3387,6 @@
   <block id="47ca5790bc9136484568813eaaef77c5" category="paragraph">열려 있는 슬롯이 있는 시스템에서 X91148A 모듈을 스토리지 모듈로 추가하려면 특정 단계의 순서를 따라야 합니다.</block>
   <block id="a995822127725d44db8de596bb8202d5" category="list-text">이 절차에서는 슬롯 3 및/또는 7이 열려 있는 것으로 가정합니다.</block>
   <block id="642f6e57cb2cd65a42c4b04259516876" category="list-text">스토리지용 두 번째 X91148A 모듈을 설치하는 경우 슬롯 7의 모듈에 대해 이 단계를 반복합니다.</block>
-  <block id="1dce66ce512581bef6c7afdf40ed4417" category="inline-link">핫 추가-NS224 쉘프</block>
   <block id="89df533077d1f80c319c0c00d4c58ed1" category="doc">실시간 시계 배터리 AFF A250을 교체합니다</block>
   <block id="ba33da695ad96f17f79f8e49c2a7e76b" category="paragraph">컨트롤러 모듈 내부의 구성 요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.</block>
   <block id="1f9529736c8bd4ae7629be26ea8da34d" category="list-text">컨트롤러 모듈 양쪽에 있는 래치 장치에 검지를 넣고 엄지 손가락으로 레버를 누른 다음 섀시에서 몇 인치 정도 조심스럽게 컨트롤러를 당깁니다.</block>
@@ -5871,13 +5836,6 @@
   <block id="89f7a66402ba80464b2d8b21ad48be2c" category="video-title">애니메이션 - 컨트롤러를 하나의 NS224 드라이브 쉘프에 연결합니다</block>
   <block id="63f87aaa5f633e2ee952b199ae093a26" category="video-title">애니메이션 - 교체 컨트롤러 모듈에서 빈 라이저를 분리합니다</block>
   <block id="44de44e43d612d76f985580ff643993b" category="video-title">애니메이션 - FAS500f의 설치 및 설정</block>
-  <block id="d272d6404ac091b7fda10049815d3c66" category="video-title">애니메이션 - NS224 드라이브 쉘프에 있는 NSM 모듈을 교체합니다</block>
-  <block id="c1e842505e6c0c129cf294ca23947b12" category="video-title">애니메이션 - N224 드라이브 쉘프에 팬을 교체합니다</block>
-  <block id="851089e257660775de9f14fc67ced6b3" category="video-title">애니메이션 - NS224 드라이브 쉘프에서 RTC 배터리를 교체합니다</block>
-  <block id="d4b0cbc1b32ce59a45784581449d8ba9" category="video-title">애니메이션 - NS224 드라이브 쉘프에 부팅 미디어를 교체합니다</block>
-  <block id="e7e22033080d7da41ac4bfcc79ca5333" category="video-title">애니메이션 - NS224 드라이브 쉘프의 전원 공급 장치를 핫 스왑합니다</block>
-  <block id="14da31a798f124bf79cb65b46258e585" category="video-title">애니메이션 - NS224 드라이브 쉘프에 DIMM을 교체합니다</block>
-  <block id="369edc1650f252cd85eee0d67fd82791" category="video-title">애니메이션 - NS224 드라이브 쉘프에 있는 드라이브 핫 스와핑</block>
   <block id="837918aaa69464badcf35f3fe9990380" category="video-title">애니메이션 - 컨트롤러를 단일 드라이브 쉘프에 연결합니다</block>
   <block id="967cea93964caa083c2f02eb64b559e9" category="video-title">애니메이션 - 컨트롤러를 두 드라이브 쉘프에 연결합니다</block>
   <block id="26115a2b78227837b2498242d7c3a180" category="video-title">"애니메이션 - AFF A800 설치 및 설정</block>
@@ -6051,10 +6009,8 @@
   <block id="037baf09c7ddcc7c38f81e7dbe35fa87" category="paragraph">빈 슬롯이 있는 시스템에 새 I/O 결절을 추가하거나 완전히 채워진 시스템에서 I/O 모듈을 새 결절로 교체하여 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="55f1569cdcfb82612fcf293f23db4f6f" category="list-text">를 확인하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.</block>
   <block id="6e4968851f4373ab9764e16cffb39389" category="list-text">여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.</block>
-  <block id="849384ba6480c0ea1f0194c179b1dad2" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="a84558faf7b836b9db418a291f2462b5" category="inline-link-rx"></block>.</block>
   <block id="3aa5c10c865ad075f0b3003697aa0a31" category="inline-image-macro">너비 = 20px</block>
   <block id="5574e785cb3feaf25b9cde927c042bd5" category="paragraph"><block ref="5574e785cb3feaf25b9cde927c042bd5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="314032c5f76e6fcf7f32085e64ca9fd1" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="120b604fa0c5a5c9d522c8314c790770" category="inline-link-rx"></block>.</block>
   <block id="757216293ea1da04339a2c9b8eaa2641" category="admonition">tar.gz 파일은 최소 4GB인 FAT32 형식의 파티션에 배치해야 합니다. FAT32 파티션은 최대 2TB일 수 있지만 Windows 내장 도구(예: diskpart)는 FAT32 파티션을 32GB보다 크게 포맷할 수 없습니다.</block>
   <block id="e9d3276fadd16a57346b54cecf613793" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="5ffb603e9f437c31dabf66aeb6dc9941" prefix=" " category="inline-code"></block></block>
   <block id="06dd51a0351c6bc1041f60a7a78358f1" category="admonition">를 실행합니다<block ref="77da07d2ad54f11335f6a0e867b30843" prefix=" " category="inline-code"></block> FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.</block>
@@ -6607,7 +6563,6 @@
   <block id="0c8480de057f1244b5ab346faf4daf5d" category="paragraph">SAS 테이프 드라이브가 있는 경우 단일 경로 케이블을 사용할 수 있습니다. 외부 쉘프가 없는 경우, SAS 케이블을 시스템과 함께 주문한 경우 내부 드라이브에 대한 MP-HA 케이블 연결은 선택 사항(표시되지 않음)입니다.</block>
   <block id="3d8bab9b47da70efbcdca04a75fddf8e" category="list-text">HA Pair를 외부 드라이브 쉘프에 연결합니다.</block>
   <block id="f2f386197bbf8899460af5987fca456d" category="paragraph">다음 예제는 DS224C 드라이브 쉘프의 케이블 연결을 보여줍니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다.</block>
-  <block id="1d775c632fba61d3af79e48b275d4b7e" category="paragraph">드라이브 쉘프 스택이 두 개 이상인 경우, 를 참조하십시오 <block ref="a1770e5cf644990212f313f91eccb2d8" category="inline-link-macro-rx"></block> 드라이브 쉘프 유형</block>
   <block id="624bc3e7c8eadd32ac4d94ff03171ec7" category="section-title">5단계: 시스템 설치를 완료합니다</block>
   <block id="60567d4e2a479c00e2c6513bd91d9cd1" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="492b1b89e16fbed782c0f28e34fb9371" category="inline-link-rx"></block>.</block>
   <block id="23dc4039b6ba90f63944cca90e993ec5" category="inline-link">기존 계정 또는 생성 및 계정</block>
@@ -6695,20 +6650,13 @@
   <block id="33541e56b6653b3ccd3503e7d446f985" category="summary">완성된 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예를 사용하여 내부 스토리지가 있는 플랫폼을 케이블로 연결할 수 있습니다.</block>
   <block id="84c55d9e8eb41695e92702bc9aa7e417" category="list-text">필요한 경우 을 참조할 수 있습니다 <block ref="513d554484deefc85e1b679659a84cbc" category="inline-link-macro-rx"></block> 지원되는 구성, 쉘프-쉘프 연결 및 컨트롤러-쉘프 연결에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="84f61db881175683de35ce39e2e25556" category="list-text">케이블 연결 예는 컨트롤러 0b/0b1 포트 연결과 컨트롤러 0a 포트 연결을 구별하기 위해 컨트롤러-스택 케이블을 실선 또는 점선으로 표시합니다.</block>
-  <block id="dd4d7242739fdb8eb5eab6889088e71a" category="image-alt">drw fas2600 컨트롤러-스택 케이블 유형 키 IEOPS 947</block>
   <block id="559ab6a66b2bfa274b38981fac849dbe" category="section-title">외부 쉘프가 없는 다중 경로 HA 구성의 FAS2800 플랫폼</block>
   <block id="c551f9f047036ae88cefbff0f867bfd7" category="paragraph">다음 예에서는 다중 경로 HA 연결을 위한 케이블이 필요하지 않은 것을 보여 줍니다.</block>
-  <block id="7520d8de654d9ba2c8c8616c324533eb" category="image-alt">drw fas2800 귀걸이형 Mpha IEOPS 954</block>
   <block id="dce517c194d8aadca050f89acd9479f9" category="section-title">외부 쉘프가 없는 삼중 경로 HA 구성의 FAS2800 플랫폼</block>
   <block id="96093137909588511c6efc52b70c20f0" category="paragraph">다음 케이블 연결 예는 3개 경로 연결을 위해 두 컨트롤러 간의 필수 케이블 연결을 보여줍니다.</block>
-  <block id="24511779e02007e937b5e09eb22acd22" category="image-alt">drw fas2800 귀걸이형 tpha IEOPS 955</block>
   <block id="45eccdceb680b5fc042ecd5f2cb2f360" category="section-title">단일 다중 쉘프 스택을 사용하는 삼중 경로 HA 구성의 FAS2800 플랫폼</block>
   <block id="f9fe60b0d5b0a173d8e8a93ef1fad4fa" category="paragraph">다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0b1을 사용합니다.</block>
-  <block id="94d112c03cbc394f8f2a92ff360b41b9" category="image-alt">drw fas2800 워크시트 IEOPS 948</block>
-  <block id="68f4d5ceedad60b68609111dd83bb1dd" category="image-alt">drw fas2800, tpha IEOPS 949 포함</block>
   <block id="b1e743b8776f5252291595e89248eca8" category="admonition">이 섹션은 FAS2800 또는 FAS25XX 시스템에는 적용되지 않습니다.</block>
-  <block id="b3bbdd3382ae9ee68dc7a3c014a9e55f" category="image-alt">drw fas2600 mpha 워크시트 IEOPS 1255</block>
-  <block id="7e1de3653f38ae49017d6c9db4292905" category="image-alt">drw fas2600 mpha IEOPS 1256</block>
   <block id="889643b70d8973adb82162d572e085b6" category="list-text">다중 경로(다중 경로 HA 또는 다중 경로), 3중 경로 HA 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우 쉘프 IOM을 핫 스왑할 수 있습니다. 즉, 전원이 켜져 있고 데이터 I/O를 제공하는 시스템의 쉘프 IOM을 중단 없이 교체할 수 있습니다.</block>
   <block id="78e2c67b6cd9683131c2d5cc3b5f52eb" category="paragraph">다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 4중 경로 구성</block>
   <block id="6d777385d5ec907bb961f7417dca8878" category="paragraph"><block ref="6d777385d5ec907bb961f7417dca8878" category="inline-link-rx"></block></block>
@@ -7116,7 +7064,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e3248bada0dd8141e2ab87552806328f" category="list-text">"모든 상태": LED는 "켜짐", "꺼짐" 또는 "깜박임"일 수 있습니다.</block>
   <block id="6afbd49803e44c3aa6797e42828fd734" category="paragraph">드라이브 쉘프 전면 운영자 디스플레이 패널(ODP)의 LED는 드라이브 쉘프가 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
   <block id="98b358c9e04e87becfb72379a2b4c9d5" category="paragraph">다음 그림과 표는 ODP의 세 가지 LED를 설명합니다.</block>
-  <block id="138149667750b6d9b839cc79c8d6b29a" category="image-alt">drw ns224 odp LED IEOPS 1262</block>
   <block id="6984fd43f67a1bf48379d74906b421c0" category="cell">LED 이름 및 색상</block>
   <block id="89a44a0e4b47aa8032cdb05ec66374e8" category="paragraph">전원(녹색)</block>
   <block id="521c36a31c2762741cf0f8890cbe05e3" category="paragraph">켜짐</block>
@@ -7130,7 +7077,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="745d735db3f2e8f31dbbfa30d77113d9" category="section-title">NSM 모듈 상태 표시등</block>
   <block id="2abced28d6da640242f441beadbf8ee0" category="paragraph">NSM 모듈의 LED는 모듈이 정상적으로 작동하는지 여부, 입출력 트래픽에 대한 준비가 되었는지 여부, 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
   <block id="eb21c45722f5ff9bf64973b0ac209180" category="paragraph">다음 그림 및 표에서는 모듈의 기능과 관련된 NSM 모듈 상태 표시등 및 모듈의 각 NVMe 포트의 기능에 대해 설명합니다.</block>
-  <block id="68f54317fa8b23ea7098189416f011eb" category="image-alt">drw ns224 NSM LED IEOPS 1270</block>
   <block id="a5b225465f65d6810c16d66ba3172319" category="cell">전화하십시오</block>
   <block id="cb5feb1b7314637725a2e73bdc9f7295" category="cell">색상</block>
   <block id="9594eec95be70e7b1710f730fdda33d9" category="paragraph">파란색</block>
@@ -7156,7 +7102,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cfad0a7419f44ea0c64db24197abbf70" category="paragraph">깜박임</block>
   <block id="6b6aa0b6d9b620cfef1de19db2c781e5" category="paragraph">AC 또는 DC 전원 공급 장치(PSU)의 LED는 PSU가 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.</block>
   <block id="ddf6d4204e991f952d5f65cedae767ce" category="paragraph">다음 그림 및 표에서는 PSU의 LED에 대해 설명합니다. (그림은 AC PSU입니다. 하지만 DC PSU의 LED 위치는 동일합니다.)</block>
-  <block id="cb64a8852ed883dfc686d51492e31bfa" category="image-alt">drw ns224 PSU LED IEOPS 1261</block>
   <block id="7609b319dac3aca8b9d7c805388fc5e6" category="paragraph">2색 LED는 녹색이 되면 전원/작동을 나타내고 주황색이 되면 장애를 나타냅니다.</block>
   <block id="0cb6b469a5da43eb5225c25fab0b5ff0" category="cell">전원/작동(녹색)</block>
   <block id="cd5f6c10b859eea6eaed71a2e494c0db" category="paragraph">케이스에 AC/DC 전원이 공급되지 않습니다</block>
@@ -7169,7 +7114,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0485558d80ce3f9e356a60181cefb758" category="section-title">드라이브 LED</block>
   <block id="ec2086f8c8aa32f4039431accf799e7e" category="paragraph">NVMe 드라이브의 LED는 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.</block>
   <block id="1789a93f2267580a7b3d61d32fd8de64" category="paragraph">다음 그림 및 표에서는 NVMe 드라이브의 두 LED를 설명합니다.</block>
-  <block id="82e7f0e876b2809cacccfffb630802cf" category="image-alt">drw ns224 드라이브 LED IEOPS 1263</block>
   <block id="31eef7712c15110e77d39c33fa6398b8" category="paragraph">전원/작동</block>
   <block id="4f64599448fa0ed6d8c8631c9c782051" category="cell">전원/작동(녹색)</block>
   <block id="d24aa27125c051e29098493eceace539" category="cell">관련 ODP LED</block>
@@ -8095,12 +8039,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c1abdda48959ad5305acdea9199b4083" category="list-text">콘솔 케이블을 랩톱이나 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음 c 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
   <block id="ea6092d42464dfafd164efeca17f02cc" category="list-text">에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <block ref="d0fb50e606c7cb2fa74e99fa5a3520a8" category="inline-xref-macro-rx"></block>...</block>
   <block id="6a1952da65ff3ad3728cd89ec078bfa2" category="paragraph">이 절차에서는 AFF C250 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
-  <block id="bcf0b3352838b481d0374edbdb31f0a0" category="image-alt">drw SAS 전원 아이콘</block>
-  <block id="f598000290b443eb531fea17b731ed46" category="image-alt">DRW SAS 오류 아이콘</block>
-  <block id="7b1f02d808dfc03ff26bec5de1c435de" category="image-alt">drw sas3 위치 아이콘</block>
-  <block id="a2cb8617cb158198389b743ac2b50756" category="inline-image-macro">너비 = 5px</block>
-  <block id="a28edc89fe8bb6fcbeda4a8c5427d04f" category="cell"><block ref="a28edc89fe8bb6fcbeda4a8c5427d04f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="df6fc52eeceab2497b885a798c538a6f" category="cell"><block ref="df6fc52eeceab2497b885a798c538a6f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3e9ec063809ed35fdf77c6c261c6e205" category="paragraph">빠른 설명서는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르기까지 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 콘텐츠를 사용합니다.</block>
   <block id="34da8131e3c849a4fd58c995ca7c8514" category="paragraph">설치 및 설정 지침에는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침이 나와 있습니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.</block>
   <block id="5590b96dc59eb91eb51b7b3ea51d3fd8" category="image-alt">DRW C400은 컨트롤러 IEOPS 1216을 탈착합니다</block>
@@ -8206,12 +8144,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f9b35dee9e3929b0b611c7ce18cf5603" category="list-text">교체 모듈이 이전 모듈과 다른 모델인 경우 BMC를 재부팅합니다.</block>
   <block id="80977faeee33db44f9c1823cc9e6015d" category="list-text">LOADER 프롬프트에서 고급 권한 모드로 변경합니다.<block ref="0581d0d071ad835f74bf419081ce5d75" prefix=" " category="inline-code"></block></block>
   <block id="53bdebcc4567a5d5fce995d39e71d6ed" category="list-text">교체 모듈이 이전 모듈과 같은 경우 LOADER 프롬프트에서 부팅합니다.<block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix=" " category="inline-code"></block></block>
-  <block id="602d60f17affd81a37150c1525267788" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="72e4379e9511740d20321904205a5f79" category="inline-link-rx"></block>.</block>
   <block id="8cda93f56f29013f8b72c2c1f486d752" category="list-text">X91148A 모듈을 100GbE NIC로 추가하는 경우 열려 있는 모든 슬롯을 사용할 수 있습니다. 그러나 기본적으로 슬롯 3과 7은 스토리지 슬롯으로 설정됩니다. 이러한 슬롯을 네트워크 슬롯으로 사용하고 NS224 쉘프를 추가하지 않으려면 에서 네트워킹 사용을 위해 슬롯을 수정해야 합니다<block ref="60578b38516b9ac929876fc9b1f357a0" prefix=" " category="inline-code"></block> 각 포트에 대한 명령입니다. 를 참조하십시오<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> X91148A 모듈에서 네트워킹을 위해 사용할 수 있는 다른 슬롯의 경우</block>
   <block id="2c9095b91db2dc1432f4e86018a03639" category="list-text">X91148A 모듈을 X91148A 모듈과 포트 수가 동일한 NIC 모듈이 포함된 슬롯에 추가하는 경우, LIF는 컨트롤러 모듈이 종료될 때 자동으로 마이그레이션됩니다. 교체할 NIC 모듈에 X91148A 모듈보다 많은 포트가 있는 경우 영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당해야 합니다. 을 참조하십시오<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오</block>
   <block id="f0770a756304b05e8fc4f321e0babe43" category="open-title">옵션 2: X91148A 모듈을 스토리지 모듈로 추가</block>
   <block id="9e41ec46d0af5ba1b01d8b3bde9b4f52" category="list-text">X91148A 모듈을 슬롯 3 및/또는 7의 스토리지 모듈로 추가하는 경우 에 설명된 대로 기존 NIC 모듈이 있는 슬롯에 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block>.</block>
-  <block id="c81f78014b983d44adbb454f838c2ae9" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 연결합니다<block ref="a84558faf7b836b9db418a291f2462b5" category="inline-link-rx"></block>.</block>
   <block id="68439e6a6b3d21f29b1f4c3391b0fc9d" category="admonition">Ver2 컨트롤러 모듈의 FAS8300에는 캐싱 모듈 소켓(슬롯 6)이 하나만 있습니다. FAS8700에는 VER2 컨트롤러 모듈이 없습니다. 캐싱 모듈 기능은 소켓 제거의 영향을 받지 않습니다.</block>
   <block id="c70a0b227334f67f05309732ae67641e" category="paragraph">다음 애니메이션, 그림, 시스템의 모피 맵 또는 기록된 단계를 사용하여 손상된 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 PCIe 라이저 및 메자닌 카드를 이동할 수 있습니다.</block>
   <block id="e0b36bb653f20c62f1b87229ea86e61e" category="admonition">라이저에서 PCIe 카드를 분리하지 않아도 됩니다. PCIe 카드가 설치된 상태에서 라이저를 교체용 컨트롤러 모듈로 옮깁니다.</block>
@@ -8278,15 +8214,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9e956a69209fd02cc7fc71bcd825b619" category="inline-link">공급 중지 플랫폼</block>
   <block id="25ac67e138b8fda2539443953ff699a2" category="list-text"><block ref="25ac67e138b8fda2539443953ff699a2" category="inline-link-rx"></block></block>
   <block id="70c1ec940020a23d470c43a425a19dbd" category="image-alt">슬롯 및 슬롯[포트 결합</block>
-  <block id="39512bdbabbfe6463989630fdaea738d" category="image-alt">표준 쉘프-쉘프 연결</block>
-  <block id="c690abed43ee84b2aa4c067ae75274a5" category="image-alt">이중 와이드 쉘프-쉘프 연결</block>
-  <block id="b912ea83cac657f0577115ac95728ead" category="image-alt">내부 스토리지가 없는 플랫폼을 위한 컨트롤러 A 및 C 포트 연결 규칙</block>
-  <block id="d759728a4cd391f6debf60656cfa418b" category="image-alt">내부 스토리지가 없는 플랫폼을 위한 컨트롤러 B 및 D 포트 연결 규칙</block>
-  <block id="59009e88d7a055107f6ba1d9f17ae2e7" category="inline-image-macro">D 및 B 포트 목록을 다시 작성합니다</block>
-  <block id="c64ccaa723127cd5c1f19cd2d8a9937f" category="paragraph">예를 들면 다음과 같습니다. <block ref="f5b253e3b09b12b383be6c4485664df6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bf7080fa51742670c142cfdf8d73846d" category="image-alt">포트 쌍을 건너뛰는 옵션입니다</block>
-  <block id="c89ad601d530f2912af428762ab2c116" category="image-alt">내부 스토리지 포트 0b/0b1 도메인 연결</block>
-  <block id="d92309c4fbff10ebdb4237d6a87fe7b6" category="image-alt">3경로 HA 연결</block>
   <block id="a0bdeb39cc6a9364f3559ad9a77e2a71" category="summary">AFF, ASA 및 FAS 시스템의 새로운 기능과 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보십시오.</block>
   <block id="5aa9a0e12c17de73e420b615315f7453" category="paragraph">ONTAP 9 릴리스의 알려진 문제, 제한 사항 및 업그레이드 주의 사항에 대한 자세한 내용은 를 참조하십시오<block ref="84fe5db170ffeba3db16dd5c6d7a58db" category="inline-link-rx"></block>. 릴리스 정보에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.</block>
   <block id="d1f3a81423106ee57c19f4fc60f797ca" category="sidebar">지원 종료</block>
@@ -8452,7 +8379,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1e448f6afe6009059237e178cc26035e" category="paragraph"><block ref="1e448f6afe6009059237e178cc26035e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f88ec5a2698376424f37fdeb5d261d8f" category="list-text">스택의 마지막 드라이브 쉘프에 있는 컨트롤러 2 포트 0b에서 IOM B 포트 3으로
 <block ref="065babb6c425d208f17452adf684f6f8" category="inline-image-macro-rx" type="image"></block>     미니 SAS HD - 미니 SAS HD 케이블</block>
-  <block id="8127e33aaf3dd71a914a210c8ced78c0" category="image-alt">4중 경로 HA를 위한 케이블 연결 워크시트</block>
   <block id="926c0f4c72fca232ba2af81a0b2d2da5" category="image-alt">리프트 핸들 설치</block>
   <block id="34a9b2c74eff15662c1f632211a0b41d" category="image-alt">드라이브 번호 지정</block>
   <block id="5b5f1e0efd716ec76021d032e9473f40" category="image-alt">드라이브에서 돌출된 단추 위치</block>
@@ -8489,16 +8415,12 @@ SFP+(타겟/이니시에이터)</block>
   <block id="be156c2254730ffea327aad8b7574600" category="paragraph">&lt;stdin&gt;-include:../_include/700_9000_caching_module_and_core_dump_module_replace.adoc[]</block>
   <block id="c2aecd7a81767c23b66c3ce771bbf967" category="image-alt">Drw ozeki sys 운전실 하단 상단 치수 ieops 1803</block>
   <block id="98c84c18c84bbdb869a3af52fb92fee5" category="admonition">SuperRail을 설치하기 위한 전면 및 후면 연결 지점 사이의 최소 깊이는 24인치이며 최대 깊이는 32인치입니다.</block>
-  <block id="4310ae1c54d0fb440933bafa796b368e" category="image-alt">DCM2 드라이브 드로어</block>
   <block id="391efe7c4ae90cf6bb51a9deabcdbefb" category="image-alt">5개의 케이블 체인과 각 드로어에 대한 수직 및 수평 커넥터 모습</block>
   <block id="eaa8764720f96ec6f05bfcafb2927484" category="image-alt">케이블 체인 끝에 있는 주황색 고리</block>
   <block id="ce8c0a15cd3a283989fdd236596cac09" category="image-alt">케이블 체인 및 주황색 고리</block>
   <block id="a5c468b2feb45044b7a84817bf860018" category="image-alt">드라이브 분리 래치</block>
   <block id="595caf2c9a566f7cae1fc3062decf2e1" category="image-alt">서랍 분리 레버</block>
   <block id="c5255515ced9ac590abe750c26310d2e" category="image-alt">잠금 장치 텀블러 및 드로어 가이드의 위치</block>
-  <block id="ab49907b6b1ab2d23d3e1482f67b2287" category="image-alt">좌측 교체용 케이블 체인</block>
-  <block id="4fa52de47c741739e8f7d44adf43e2c4" category="inline-image-macro">우측 교체용 케이블 체인</block>
-  <block id="34295d4ce178b90b68e15136040e3cc3" category="paragraph"><block ref="34295d4ce178b90b68e15136040e3cc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ce0bb18b72a89153bd80d397683365ef" category="image-alt">팬 모듈 분리 탭</block>
   <block id="c67be94ee958ceebb6db7abe1db3bc41" category="image-alt">래치 메커니즘을 엽니다</block>
   <block id="ce5bc8c4d2ed152c49b5309ef78fee97" category="image-alt">컨트롤러 모듈 덮개를 엽니다</block>
@@ -8572,9 +8494,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0709513deb20f95d7151fe2b5265dec7" category="image-alt">엔드 캡 작업자 디스플레이</block>
   <block id="6d4ef13a216b4449d8385bdc797b5980" category="image-alt">IOM12 모듈</block>
   <block id="45a452ade727e83add27f0689b3dfcf5" category="image-alt">IOM12B 모듈</block>
-  <block id="27f4db3d0c0b88a35b26c07b3354b604" category="image-alt">LED 아이콘</block>
-  <block id="9b7efec93172fc898bf5924b3d02fa85" category="image-alt">드라이브 캐리어 수직 배열</block>
-  <block id="360e760cf4c2611f24bef9936525c878" category="image-alt">드라이브 캐리어 수평 배열</block>
   <block id="9302993f1cbe0a62b1c08bac8ff42e30" category="image-alt">드라이브 활동 LED</block>
   <block id="6daeeb8640b388bf728f2d3fa2ceac68" category="image-alt">드라이브 주의 LED</block>
   <block id="3d01b4425d5fa4915f6e209ff5ebc5fa" category="image-alt">NVRAM 카드를 교체합니다</block>
@@ -8636,8 +8555,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9056e6b74b2e2b546abd76b6e7408f4d" category="list-text">케이블 관리 트레이를 닫힘 위치까지 돌립니다.</block>
   <block id="a0a7e707ad35c210d4582fab4069c223" category="list-text">파트너 컨트롤러에서 컨트롤러를 반납합니다. -ofnode target_node_name_</block>
   <block id="6c91356d53993ce0d1f0c1af28c7a48b" category="list-text">AutoSupport가 설정된 경우 명령을 사용하여 자동 케이스 생성을 복원/억제<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block> 해제합니다.</block>
-  <block id="b5428794115862895177c132452bd21f" category="inline-link">쉘프를 핫 추가합니다</block>
-  <block id="7656f6417cf0159238db8844dd418859" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다.<block ref="82ab472144cf8d8775c0f52eabd5ed87" category="inline-link-rx"></block></block>
   <block id="026bf593d893e27d6f090dc74e403a75" category="section-title">옵션 2: 빈 슬롯이 없는 스토리지 시스템에 입출력 모듈을 추가합니다</block>
   <block id="a06ddc697cce62226c19e353e0f2eeba" category="paragraph">기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 완전히 채워진 시스템의 입출력 슬롯에서 입출력 모듈을 변경할 수 있습니다.</block>
   <block id="47ab52c1da07a0c00e2b876e54778a95" category="paragraph">선택한 LIF를 다른 홈 포트에 영구적으로 재할당합니다. System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 를 참조하십시오.<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block></block>
@@ -8654,7 +8571,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="db89594b0a0cbb483395a2641220f1fe" category="list-text">해제된 경우 자동 반환 활성화: _ 스토리지 페일오버 수정 -node local-auto-given true _</block>
   <block id="4e0b6dc04aaa383038bc23130a17cb25" category="cell">입출력 모듈이 a인 경우...</block>
   <block id="09c2cf2531a14305542e6aff93e691c5" category="paragraph">NIC 모듈</block>
-  <block id="b621b364024bc001c97686b6636931c3" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="59465119b0c6c62b3fb598004d7a9a24" category="inline-link-rx"></block>연결합니다.</block>
   <block id="b20dcdb6484b6a4d5293d5d3de29ee0e" category="doc">ONTAP 9.15 이상을 실행하는 시스템에서 NVE 또는 NSE를 확인하십시오</block>
   <block id="f4247136ba1a68a91a49f4e715963146" category="paragraph">손상된 컨트롤러를 종료하기 전에 시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인해야 합니다.</block>
   <block id="ee3b489243bdd4fdcc48ef1ad422f531" category="section-title">보안 키 관리자 구성을 확인합니다</block>
@@ -8946,8 +8862,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="75fa26086844dfcbf14f35086518217a" category="list-text">블랭킹 모듈을 탈거하십시오.</block>
   <block id="2b6adb50592127273fdb4bb2b68918d5" category="list-text">I/O 모듈을 컨트롤러 모듈 슬롯 입구의 가장자리에 맞춥니다.</block>
   <block id="97366bfb1dcb5b97156c347c8ad89d9a" category="list-text">모듈을 슬롯에 완전히 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
-  <block id="f0a953cf8667ec627e4c74a13844c3d6" category="inline-link">핫 - 쉘프 추가</block>
-  <block id="2a6ebde871b7a14ea9937c0b77f288c1" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다.<block ref="b6d396abfa2f33a744444ad20ba7003c" category="inline-link-rx"></block></block>
   <block id="2f3095e4c2c969f1f9dca69963ff66c1" category="paragraph">Assetected LIF를 다른 홈 포트에 영구적으로 재할당합니다. System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 를 참조하십시오.<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block></block>
   <block id="6181ce929bc404494408989e6b8a9b52" category="paragraph">I/O 모듈을 교체하려면 컨트롤러 모듈 내에서 해당 모듈을 찾아 특정 단계의 순서를 따릅니다.</block>
   <block id="8a9a8a0db84d9dd59b0f006930b47193" category="list-text">캠 래치 버튼을 누릅니다.</block>
@@ -9123,7 +9037,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="551d2fc9e8e1159b84b9c23da6d27984" category="paragraph">다음 그림에서는 HA 쌍의 4번째 쉘프에 있는 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 케이블 연결을 보여 줍니다.</block>
   <block id="40d57aad6b502bb35f6aa64821041f6a" category="image-alt">4개의 쉘프 및 4개의 IO 모듈로 구성된 AFF A1K의 케이블 연결</block>
   <block id="8f5d4ff45922bd2a0a4b4ca26b784653" category="paragraph">추가 스토리지가 필요한 경우 최대 1개의 NS224 쉘프를 AFF A250 또는 AFF C250 HA 쌍에 핫 추가할 수 있습니다.</block>
-  <block id="674639f981420a300672aa48922e8167" category="image-alt">AFF A250용 케이블 연결</block>
   <block id="3c8f15ce2288517ffd28cbab07b4cd4f" category="paragraph">핫 애드용 NS224 쉘프에 케이블을 연결하는 방법은 AFF A400 또는 AFF C400 HA 쌍을 보유하고 있는지 여부에 따라 달라집니다.</block>
   <block id="95e9c90f47d7134271c5de6f5d8d41f5" category="paragraph">* AFF A400 HA 쌍에 대한 케이블 선반 *</block>
   <block id="e47d066c3638efab14a13923e89b312a" category="paragraph">AFF A400 HA 쌍의 경우 최대 2개의 쉘프를 핫 추가할 수 있으며 필요에 따라 온보드 포트 e0c/e0d 및 슬롯 5의 포트를 사용할 수 있습니다.</block>
@@ -9607,11 +9520,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="71ccc93af9bf68a63dfe7bea83d57067" category="inline-link-macro">EOA 시스템에 케이블 연결</block>
   <block id="63ff153655ced66df13d8b44311364cb" category="list-text"><block ref="63ff153655ced66df13d8b44311364cb" category="inline-link-macro-rx"></block></block>
   <block id="612f3ba3d7c921e4e9a9699a946fa2ee" category="list-text">케이블 커넥터의 올바른 방향과 NS224 NSM100 쉘프 모듈의 포트 위치 및 레이블을 숙지하십시오.</block>
-  <block id="c9901d05aa53a48d550152e6d189ffc4" category="image-alt">케이블은 커넥터 당김 탭이 위를 향하도록 삽입합니다</block>
   <block id="aed40018e03baa0cb0ff1fc2ac8a3a01" category="list-text">다음 그림을 사용하면 쉘프 NSM100 포트, e0a 및 e0b를 물리적으로 식별할 수 있습니다.</block>
   <block id="175008e225c4f0b4f43ff24af0d85656" category="paragraph">NS224 쉘프에는 NSM100 모듈 2개가 포함되어 있습니다. 상단 모듈은 슬롯 A(NSM A)에 있고 하단 모듈은 슬롯 B(NSM B)에 들어갑니다.</block>
   <block id="3ec82f450cefc3cf550494e5fe235a93" category="paragraph">각 NSM100 모듈에는 100GbE QSFP28 포트 e0a 및 e0b 2개가 포함되어 있습니다.</block>
-  <block id="a7a068010129cb64bdcd94f83548eaa2" category="image-alt">NS224 NSM100 모듈 포트 e0a 및 e0b</block>
   <block id="0a8cb3c38ccd084a10c6299732a71520" category="doc">핫 애드온 NS224 쉘프를 완성합니다</block>
   <block id="c2ea2e55d65331d8bcef52bb3b64c92d" category="paragraph">NS224 쉘프 핫 애드 준비 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당한 다음 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
   <block id="d83a83fb9fe927923ea18a2ee6b6a97e" category="inline-link-macro">핫 애드 케이블 연결 개요</block>
@@ -9918,11 +9829,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="68957a8f3d38a433e42aad8e6127ef63" category="paragraph"><block ref="68957a8f3d38a433e42aad8e6127ef63" category="inline-link-macro-rx"></block></block>
   <block id="817eb80fb251d174bd0db4e59b399ab2" category="image-alt">컨트롤러-스택 케이블링을 위한 케이블 유형 키</block>
   <block id="4feb668b50eb4388bae4031a6d3195b8" category="image-alt">케이블 연결 워크시트에 대한 색상 키입니다</block>
-  <block id="d72417441c3fe0b8542f7fd634702b7c" category="image-alt">4중 경로 연결용 컬러 키</block>
-  <block id="92111cfa73a8b9848b8194c307bf7fc4" category="image-alt">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택이 있는 Quuad 경로 HA입니다</block>
   <block id="331d1570f3bb78a7df5983eef1419886" category="image-alt">다중 경로 혼합 스택 케이블 연결</block>
-  <block id="36ee953295cb8328778ccc3c480b3518" category="inline-image-macro">브리지 연결 구성의 혼합 스택 케이블 연결</block>
-  <block id="5e93aebff8a73cdc55e9e45600704cda" category="list-text">브리지가 연결된 MetroCluster 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 케이블로 연결한 경우 다음 그림을 참조할 수 있습니다. <block ref="0933d45bdb42bc4cf61cb846f3d6402b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b370bb883c0ae399576093140be62573" category="image-alt">DS212C 디스크 쉘프에서 디스크 제거</block>
   <block id="ef1b2155f266ae851abdcc2efb79e577" category="image-alt">DS224C 디스크 쉘프에서 디스크 제거</block>
   <block id="783b57f4c424133fb614814a5561cacd" category="image-alt">IOM12의 전면</block>
@@ -9968,4 +9875,90 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f4c083c41633c63a72a1bbce7db1c159" category="sidebar">컨트롤러를 반납합니다</block>
   <block id="26916af0dde7f17e1c0020bc61152522" category="sidebar">재배열 및 컨트롤러 반환</block>
   <block id="a39e0fbfb2db42a80ba7546850d8b5c6" category="paragraph"><block ref="a39e0fbfb2db42a80ba7546850d8b5c6" category="inline-link-rx"></block></block>
+  <block id="e27597c307865e3bea898a954dc995d4" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을<block ref="4c714ee9fc4a7e04a2f40d5895a74f6c" category="inline-link-rx"></block>연결합니다.</block>
+  <block id="c143f6738ddd9a541350644ebd64ceb2" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다.<block ref="4c714ee9fc4a7e04a2f40d5895a74f6c" category="inline-link-rx"></block></block>
+  <block id="755e668f97fbbf7befbf9d64fb746177" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="f09cb6a873a3efd513b1f74c6b0f4d6b" category="inline-link-rx"></block>연결합니다.</block>
+  <block id="4c32ebd39f3a998e8ed434a92fb2337e" category="image-alt">NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF A250 C250 또는 FAS500f 케이블 연결</block>
+  <block id="b413266e5808605ce76e56374f66f52b" category="paragraph">케이블 연결에 대한 자세한 내용은 을<block ref="defd6f8cbcbf4438c52ada1e92d7a17f" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="3512d92434ff4ef9e4eb4253b21a863e" category="image-alt">케이블은 커넥터 당김 탭이 위를 향하도록 삽입합니다</block>
+  <block id="fa8057e66f11f58b193c0063c5f89d0f" category="image-alt">NS224 NSM100 모듈 포트 e0a 및 e0b의 위치</block>
+  <block id="21631ea576ae592d82bfa53578687d4b" category="image-alt">작업자 디스플레이 패널 전원 LED</block>
+  <block id="98d01cf184fc8b875e89cd5e6234e36c" category="image-alt">오퍼레이터 디스플레이 패널 주의 LED</block>
+  <block id="345a70f624e27675dfa914aa27521075" category="image-alt">운영자 디스플레이 패널 위치 LED</block>
+  <block id="82b02a7f538654637bee258d6f50f2c2" category="image-alt">NS224 NSM100 모듈 상태 표시등</block>
+  <block id="e23e0b24b8028a3ca10d97610ed2cdc4" category="image-alt">전원 공급 장치 전원 작동 LED</block>
+  <block id="d76dbc0bc89ed484665b2691eeb87f82" category="image-alt">NVMe 드라이브 주의 및 전원 LED</block>
+  <block id="81afc3d8da6ab6563fde9e64a84f2f23" category="image-alt">스택의 끝에서 쉘프를 핫 제거합니다</block>
+  <block id="9f91cef6ea27f27877a4e1d5a204dc61" category="image-alt">용지 더미의 가운데에서 선반을 핫 제거합니다</block>
+  <block id="ce95b5aa502a7ac6900dcb6f4c74ec70" category="image-alt">표준 쉘프와 쉘프 간 연결</block>
+  <block id="48b51973d2f40c69d9aa854a49e1be72" category="image-alt">이중 와이드 셸프-셸프 연결</block>
+  <block id="7d2ba12100572ef16dd961583110ed6d" category="image-alt">내부 스토리지가 없는 플랫폼을 위한 컨트롤러 A 및 C 포트 연결 규칙</block>
+  <block id="b902d5218bf1e1dccabb170b90d04d3d" category="image-alt">내부 스토리지가 없는 플랫폼을 위한 컨트롤러 B 및 D 포트 연결 규칙</block>
+  <block id="49c3d1cf28deaa4cd69e37f873df3af1" category="inline-image-macro">D 및 B 포트 목록을 다시 작성합니다</block>
+  <block id="b93ec5ec5e065330a6f35d6a554fef72" category="paragraph">예를 들면 다음과 같습니다. <block ref="2f7a78035708b9051c061aa707e17453" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fca8683c3b331e05ef94ed99c51dba2a" category="image-alt">포트 쌍을 건너뛰는 옵션입니다</block>
+  <block id="dd01973f9e5109874be08739c9aadac8" category="image-alt">내부 스토리지 포트 0b 0b1 도메인 연결</block>
+  <block id="4bf07b5505dd28a77f6b2784e452682e" category="image-alt">3중 경로 HA 연결</block>
+  <block id="707f71dfd9009f0d5f0f963761dcef08" category="image-alt">MPHA 컨트롤러 - 스택 케이블 연결 워크시트 템플릿</block>
+  <block id="87e0d30c50c5399c89b400200a62aa34" category="image-alt">다중 경로 HA 케이블 연결 워크시트를 작성했습니다</block>
+  <block id="661e8c6a96d450bce78cccb306807beb" category="image-alt">건너뛴 포트 쌍을 보여주는 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="0fcdd37339799214965dc9b420a21536" category="image-alt">다중 경로 케이블 연결 워크시트를 작성했습니다</block>
+  <block id="c099fb199540fc5fb61843ba8e81dfb8" category="image-alt">4중 경로 케이블 연결 워크시트 템플릿</block>
+  <block id="2b55a900daa5f8b280ee4f2d60d69a09" category="image-alt">스택 1에 연결된 포트 쌍을 보여 주는 4중 경로 HA 케이블 연결 워크시트</block>
+  <block id="33960d0405635c8f79c7bce8552f9e7a" category="image-alt">스택 2에 연결된 포트 쌍을 보여 주는 4중 경로 HA 케이블 연결 워크시트</block>
+  <block id="3f686579c7d84b4dfbb612af178e6778" category="image-alt">스택 1과 2에 연결된 포트 쌍을 보여 주는 4중 경로 단일 컨트롤러 케이블 연결 워크시트</block>
+  <block id="71fba59d34f73a8fd5b9be78ee7cbb14" category="image-alt">온보드 스토리지가 있는 플랫폼용 케이블 유형 키입니다</block>
+  <block id="29a8cc812811f08ee47c54a882a55cf7" category="image-alt">온보드 저장 장치가 있는 플랫폼용 케이블 색상 키</block>
+  <block id="3fd3aba750a8134d082e5da9728cba9d" category="image-alt">외부 쉘프 없이 FAS2800 다중 경로 HA</block>
+  <block id="78bfb4ec92649c11f6ff3c0d7da078c8" category="image-alt">Fas2800 Tri Path HA 케이블 연결의 예: 외부 쉘프 없음</block>
+  <block id="3ab84f5b92d635701b7da25b1d7183ef" category="image-alt">스택 1의 포트 쌍을 보여 주는 FAS2800 3경로 HA 케이블 연결 워크시트</block>
+  <block id="ab79ce4bb4c74fd2fa5161b751278cde" category="image-alt">FAS2800 3경로 HA 케이블링 예: 하나의 스택에 케이블 연결</block>
+  <block id="a565db44d0bce22f1abe371257922823" category="image-alt">내부 스토리지와 단일 스택이 있는 플랫폼을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="ebe16c7c11294d83888309527c7aa402" category="image-alt">내부 스토리지가 있는 플랫폼을 위한 다중 경로 HA 케이블링 예</block>
+  <block id="ae886991173ce1313a3472f2bf087bea" category="image-alt">다중 경로 구성을 위한 포트 쌍을 표시하는 FAS2600 케이블 연결 워크시트</block>
+  <block id="b3671733b921b95db06e8cec6536c3fc" category="image-alt">섀시 슬롯 1에 컨트롤러를 포함한 FAS2600 다중 경로 케이블 연결의 예</block>
+  <block id="d690074d02b869fdb690ac22edfa777e" category="image-alt">섀시 슬롯 2의 컨트롤러를 사용한 FAS2600 다중 경로 케이블 연결의 예</block>
+  <block id="386b566f051a5546ac18b97ca1f57221" category="image-alt">다중 경로 HA 구성 케이블 유형 키</block>
+  <block id="c54734f5022e9d15cd5225977dd7b66f" category="image-alt">다중 경로 HA 구성 케이블 색상 키</block>
+  <block id="594337aecd2132e9176259d053679a57" category="image-alt">4중 포트 SAS HBA 1개 및 단일 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="8294287c0e6eba2b3998dc5b370781fe" category="image-alt">4중 포트 SAS HBA 1개와 단일 쉘프 스택 1개에 대한 다중 경로 HA 케이블 연결의 예</block>
+  <block id="70ee4e269878471573cfa44cabc4d18f" category="image-alt">1개의 4중 포트 SAS HBA 및 2개의 단일 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="8fbb3ff611a40a5849cf50048d71805a" category="image-alt">4중 포트 SAS HBA 1개와 단일 쉘프 스택 2개에 대한 다중 경로 HA 케이블 연결의 예</block>
+  <block id="e6c9380d2ba73b5af7fbeb78565ed992" category="image-alt">2개의 4중 포트 SAS HBA 및 2개의 다중 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="6c12de5924e0e43769f1653be356fc30" category="image-alt">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택을 위한 다중 경로 HA 케이블 연결의 예</block>
+  <block id="451908752f82167876bd25019f20a991" category="image-alt">2개의 4중 포트 SAS HBA 및 2개의 다중 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트, 건너뛴 포트 쌍을 사용</block>
+  <block id="12126934ea0c881b51e51a8d9ade3887" category="image-alt">2개의 4중 포트 SAS HBA 및 건너뛴 포트 쌍을 사용하는 2개의 다중 쉘프 스택에 대한 다중 경로 HA 케이블링 예</block>
+  <block id="b995491e81b94b95175d485004a79d77" category="image-alt">4개의 온보드 포트와 1개의 단일 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="278a7a80d9b5fbee1ab774f0c71c52c7" category="image-alt">4개의 온보드 포트와 1개의 단일 쉘프 스택을 위한 다중 경로 HA 케이블링 예</block>
+  <block id="ef973d5aa2d887039ef7da2db19bb0f1" category="image-alt">4개의 온보드 포트와 2개의 단일 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="5372d57a0373734bf02c78d11834cb0f" category="image-alt">4개의 온보드 포트와 2개의 단일 쉘프 스택을 위한 다중 경로 HA 케이블링 예</block>
+  <block id="332b8328acbaf869545f33f15dfa4242" category="image-alt">4개의 온보드 SAS 포트, 4중 포트 SAS HBA 및 2개의 다중 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="bde45bec9a9373f30577ef475cca90db" category="image-alt">다중 경로 HA 케이블링 예: 4개의 온보드 SAS 포트, 4중 포트 SAS HBA 및 2개의 다중 쉘프 스택</block>
+  <block id="6600545a4baf3fdc617efe06fe7662db" category="image-alt">4개의 온보드 포트, 4중 포트 SAS HBA 및 건너뛴 포트 쌍을 사용하는 2개의 다중 쉘프 스택을 위한 다중 경로 HA 케이블 연결 워크시트</block>
+  <block id="0e901a13a10ba7f4850804bf3aad191b" category="image-alt">다중 경로 HA 케이블 연결 예: 4개의 온보드 포트, 4중 포트 SAS HBA 및 건너뛴 포트 쌍을 사용하는 2개의 다중 쉘프 스택</block>
+  <block id="3d610d2b12167265e663549a3c748f27" category="image-alt">건너뛴 포트 쌍을 사용하여 다중 경로 연결을 위한 케이블 연결 워크시트</block>
+  <block id="d2b1273b1d1655b8b7e7d9a9796dbb48" category="image-alt">건너뛴 포트 쌍을 사용한 다중 경로 연결의 케이블 연결 예</block>
+  <block id="5df79c40923ac642c32a56996224181a" category="image-alt">쿼드 경로 연결용 케이블 연결 워크시트</block>
+  <block id="5d84c7e746f0a8e38b19366139120a7d" category="image-alt">4중 경로 연결용 케이블 연결 예</block>
+  <block id="1a04bbf0e03f07aa01adde553944110e" category="image-alt">쿼드 경로 연결용 컬러 키</block>
+  <block id="e14e0550dcd5f5604b98feda5bf7b667" category="image-alt">4중 경로 HA를 위한 케이블 연결 워크시트</block>
+  <block id="cc72ab91fca1a008208d2e19843e2dae" category="image-alt">2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택이 있는 4중 경로 HA</block>
+  <block id="1f69a05f5605aefea983fec2bc6957bb" category="inline-image-macro">브리지 연결 구성의 혼합 스택 케이블 연결</block>
+  <block id="9d9075ed038a4370288f6eb0bb61b6db" category="list-text">브리지가 연결된 MetroCluster 구성에서 IOM12/IOM12B 쉘프를 IOM6 쉘프 스택에 케이블로 연결한 경우 다음 그림을 참조할 수 있습니다. <block ref="dfcce20004c3cc590aa3e7886dc276a1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="192a91d56dc6ef980c24ab2e0ae1423b" category="image-alt">전원 아이콘</block>
+  <block id="cb871b708af7fb3d74d6a08d4319043d" category="inline-image-macro">주의 아이콘, 폭 = 5px</block>
+  <block id="cd2c25f5040cd58922a98268c9d6120f" category="cell"><block ref="cd2c25f5040cd58922a98268c9d6120f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6b734665738e014cd06f37e52de92ee3" category="image-alt">위치 아이콘</block>
+  <block id="8384c440a6fc818dee43b5f7815251c2" category="image-alt">주의 아이콘</block>
+  <block id="743e91e0660670d781894d4e73f8fd30" category="inline-image-macro">전원 아이콘, 폭 = 20px</block>
+  <block id="90056f373b481a28abd892ec887e5506" category="cell"><block ref="90056f373b481a28abd892ec887e5506" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0f5726d07b43c6ac81e2096de0a6739" category="image-alt">전원 공급 장치 LED</block>
+  <block id="6d742b362ea86f6fdb128ceded6d7764" category="image-alt">팬 주의 LED</block>
+  <block id="3b244f34f2148c3434ed59fd95c4b254" category="image-alt">수직 드라이브 캐리어 LED</block>
+  <block id="0e2ef00ea011d7c9539bd19d251bde3b" category="image-alt">수평 드라이브 캐리어 LED</block>
+  <block id="479cc3e6e15f110416925e4f97632c4d" category="image-alt">DCM 드라이브 셸프의 전면도</block>
+  <block id="a7bc52c2f69dce5843599681d279dd65" category="image-alt">DCM2 드라이브 쉘프 전면</block>
+  <block id="4b2bd889d120e947fdefd38ec782a1e4" category="image-alt">좌측 교체용 케이블 체인</block>
+  <block id="73272ed5a28a1f4d9270f9fb73f87cc0" category="inline-image-macro">우측 교체용 케이블 체인</block>
+  <block id="b4418dc8cc1b24bcce503c5f73b9599e" category="paragraph"><block ref="b4418dc8cc1b24bcce503c5f73b9599e" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

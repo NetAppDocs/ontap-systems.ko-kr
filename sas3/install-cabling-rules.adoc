@@ -116,7 +116,7 @@ image::../media/slot0_rules.png[슬롯 및 슬롯[포트 결합]
 
 
 
-image::../media/drw_shelf_to_shelf_standard.gif[표준 쉘프-쉘프 연결]
+image::../media/drw_shelf_to_shelf_standard.gif[표준 쉘프와 쉘프 간 연결]
 
 
 
@@ -132,7 +132,7 @@ image::../media/drw_shelf_to_shelf_standard.gif[표준 쉘프-쉘프 연결]
 
 
 
-image::../media/drw_shelf_to_shelf_double_wide.gif[이중 와이드 쉘프-쉘프 연결]
+image::../media/drw_shelf_to_shelf_double_wide.gif[이중 와이드 셸프-셸프 연결]
 
 
 
@@ -290,7 +290,7 @@ NOTE: 0b/0b1 포트를 올바른 도메인(교차 연결 도메인)에 연결하
 
 다음 그림에서는 외부 쉘프 스택에 대한 내부 스토리지 포트(0b/0b1) 도메인 연결을 보여 줍니다.
 
-image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[내부 스토리지 포트 0b/0b1 도메인 연결]
+image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[내부 스토리지 포트 0b 0b1 도메인 연결]
 
 
 
@@ -307,7 +307,7 @@ FAS2800 HA 쌍에서 3중 경로 HA 연결을 사용할 수 있습니다. 3중 �
 
 다음은 3중 경로 HA 연결을 지원하는 컨트롤러의 내부 연결 및 외부 케이블입니다.
 
-image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[3경로 HA 연결]
+image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[3중 경로 HA 연결]
 
 FAS2800 외부 SAS 포트:
 

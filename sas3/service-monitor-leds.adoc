@@ -27,7 +27,7 @@ summary: 디스크 쉘프 구성 요소의 상태 및 위치를 이해하면 디
 
 
  a| 
-image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
+image::../media/drw_sas_power_icon.svg[전원 아이콘]
  a| 
 전원
  a| 
@@ -37,7 +37,7 @@ image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
 
 
 
-.2+| image:../media/drw_sas_fault_icon.svg["너비 = 5px"] .2+| 주의  a| 
+.2+| image:../media/drw_sas_fault_icon.svg["주의 아이콘, 폭 = 5px"] .2+| 주의  a| 
 주황색으로 고정되어 있습니다
  a| 
 디스크 쉘프, 디스크 드라이브, IOM12/IOM12B 모듈 또는 전원 공급 장치 중 하나의 FRU 기능에 오류가 발생했습니다.
@@ -56,7 +56,7 @@ image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
 
 
  a| 
-image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
+image::../media/drw_sas3_location_icon.svg[위치 아이콘]
  a| 
 위치
  a| 
@@ -89,7 +89,7 @@ IOM12/IOM12B 모듈은 DS460C, DS224C 및 DS212C 디스크 선반에 사용됩�
 
 
  a| 
-image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
+image::../media/drw_sas_fault_icon.svg[주의 아이콘]
  a| 
 주의
  a| 
@@ -115,7 +115,7 @@ LNK
 
 
  a| 
-image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
+image::../media/drw_sas3_location_icon.svg[위치 아이콘]
  a| 
 위치
  a| 
@@ -147,7 +147,7 @@ image::../media/iom12b.png[IOM12B 모듈]
 | LED 아이콘 | LED 이름입니다 | 상태 | 설명 
 
 
-.2+| image:../media/drw_sas_power_icon.svg["너비 = 20px"] .2+| 전원  a| 
+.2+| image:../media/drw_sas_power_icon.svg["전원 아이콘, 폭 = 20px"] .2+| 전원  a| 
 녹색으로 켜져 있습니다
  a| 
 전원 공급 장치가 올바르게 작동하고 있습니다.
@@ -164,7 +164,7 @@ image::../media/iom12b.png[IOM12B 모듈]
 
 
  a| 
-image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
+image::../media/drw_sas_fault_icon.svg[주의 아이콘]
  a| 
 주의
  a| 
@@ -181,11 +181,11 @@ image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
 
 두 개의 LED 아이콘은 레이블 및 LED의 역할을 하며, 이는 아이콘 자체가 켜지며 인접한 LED는 없습니다.
 
-image::../media/28_dwg_e2860_de460c_psu.gif[LED 아이콘]
+image::../media/28_dwg_e2860_de460c_psu.gif[전원 공급 장치 LED]
 
 다음 그림은 DS224C 또는 DS212C 디스크 쉘프에 사용되는 전원 공급 장치에 대한 것입니다.
 
-image::../media/drw_powersupply_913w_vsd.gif[LED 아이콘]
+image::../media/drw_powersupply_913w_vsd.gif[전원 공급 장치 LED]
 
 
 
@@ -212,7 +212,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 이벤트 메시지를 확인하여 필요한 수정 조치를 결정합니다.
 
 |===
-image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[주의 LED 위치]
+image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[팬 주의 LED]
 
 
 
@@ -263,13 +263,13 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 DS224C 디스크 쉘프는 디스크 쉘프에 수직으로 배열된 2.5인치 디스크 드라이브를 사용합니다.
 
-image::../media/drw_diskdrive_ds224c.gif[드라이브 캐리어 수직 배열]
+image::../media/drw_diskdrive_ds224c.gif[수직 드라이브 캐리어 LED]
 
 다음 그림은 DS212C 디스크 쉘프에 사용되는 디스크 드라이브에 대한 것입니다.
 
 DS212C 디스크 쉘프는 디스크 쉘프에 수평으로 배열된 캐리어에서 3.5인치 디스크 드라이브 또는 2.5인치 디스크 드라이브를 사용합니다.
 
-image::../media/drw_diskdrive_ds212c.gif[드라이브 캐리어 수평 배열]
+image::../media/drw_diskdrive_ds212c.gif[수평 드라이브 캐리어 LED]
 
 
 

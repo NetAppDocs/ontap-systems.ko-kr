@@ -45,13 +45,13 @@ DCM 또는 DCM2 드라이브 드로어에 장애가 발생하면 DCM 또는 DCM2
 DCM 드라이브 드로어는 다음과 같습니다.
 
 +
-image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[드라이브 쉘프 전면]
+image::../media/28_dwg_e2860_de460c_front_no_callouts.gif[DCM 드라이브 셸프의 전면도]
 
 +
 DCM2 드라이브 드로어는 파란색 스트라이프와 "DCM2" 레이블로 구분됩니다.
 
 +
-image::../media/dcm2.png[DCM2 드라이브 드로어]
+image::../media/dcm2.png[DCM2 드라이브 쉘프 전면]
 
 
 

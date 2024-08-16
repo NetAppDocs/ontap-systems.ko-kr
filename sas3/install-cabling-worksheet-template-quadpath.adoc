@@ -35,7 +35,7 @@ summary: 워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모
 * 필요한 경우 워크시트를 작성한 후 을 참조할 수 있습니다 link:install-cabling-worksheets-how-to-read-quadpath.html["4중 경로 연결을 위해 컨트롤러-스택 간 연결을 케이블로 연결하기 위해 워크시트를 읽는 방법"].
 
 
-image::../media/drw_worksheet_quad_pathed_template_nau.gif[drw 워크시트 4분할 경로 템플릿 nau]
+image::../media/drw_worksheet_quad_pathed_template_nau.gif[4중 경로 케이블 연결 워크시트 템플릿]
 
 .단계
 . 회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.
@@ -58,7 +58,7 @@ image::../media/drw_worksheet_quad_pathed_template_nau.gif[drw 워크시트 4분
 다음 예에서는 다중 경로 케이블 연결에 포트 쌍 1a/2b를 사용하고 스택 1에 대한 4중 경로 케이블 연결의 경우 포트 쌍 2a/1d를 사용합니다.
 
 +
-image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_set1_circled_nau.gif[drw 워크시트 qpha 슬롯 1 및 2 2개의 4portbas 2개의 스택 1이 nau 원으로 표시됨]
+image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_set1_circled_nau.gif[스택 1에 연결된 포트 쌍을 보여 주는 4중 경로 HA 케이블 연결 워크시트]
 
 . 첫 번째 포트 쌍 세트 주위에 타원을 그리고 두 번째 포트 쌍 세트 주위에 사각형을 그려 스택 2에 연결할 두 포트 쌍 세트를 식별합니다.
 +
@@ -68,13 +68,13 @@ image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_set1_c
 다음 예에서는 다중 경로 케이블 연결에 포트 쌍 1c/2D를 사용하고 스택 2에 대한 4중 경로 케이블 연결에는 포트 쌍 2c/1b를 사용합니다.
 
 +
-image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[4중 경로 HA를 위한 케이블 연결 워크시트]
+image::../media/drw_worksheet_qpha_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[스택 2에 연결된 포트 쌍을 보여 주는 4중 경로 HA 케이블 연결 워크시트]
 
 . 4중 경로(단일 컨트롤러) 구성이 있는 경우 컨트롤러 2에 대한 정보를 교차 합니다. 컨트롤러 1 정보만 사용하여 컨트롤러-스택 연결을 케이블로 연결할 수 있습니다.
 +
 다음 예제는 컨트롤러 2에 대한 정보가 십자 표시되었음을 보여줍니다.
 
 +
-image::../media/drw_worksheet_qp_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[drw 워크시트 Qp 슬롯 1 및 2 2개의 4portbas 2개의 스택 nau]
+image::../media/drw_worksheet_qp_slots_1_and_2_two_4porthbas_two_stacks_nau.gif[스택 1과 2에 연결된 포트 쌍을 보여 주는 4중 경로 단일 컨트롤러 케이블 연결 워크시트]
 
 

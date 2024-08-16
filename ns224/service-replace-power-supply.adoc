@@ -45,8 +45,7 @@ summary: 전원이 켜진 NS224 드라이브 쉘프 및 I/O가 진행 중인 동
 --
 AC 전원 공급 장치를 교체하려면 애니메이션을 보거나 다음 단계를 완료할 수 있습니다.
 
-.애니메이션 - NS224 드라이브 쉘프의 전원 공급 장치를 핫 스왑합니다
-video::5794da63-99aa-425a-825f-aa86002f154d[panopto]
+video::5794da63-99aa-425a-825f-aa86002f154d[Animation,width=Hot-swap a power supply in an NS224 shelf"]
 .단계
 . 적절하게 접지합니다.
 . 장애가 발생한 전원 공급 장치를 물리적으로 식별합니다.

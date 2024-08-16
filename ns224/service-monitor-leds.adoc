@@ -38,7 +38,7 @@ summary: 드라이브 쉘프 구성 요소의 상태 및 위치를 이해하면 
 
 다음 그림과 표는 ODP의 세 가지 LED를 설명합니다.
 
-image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[drw ns224 odp LED IEOPS 1262]
+image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[오퍼레이터 디스플레이 패널 LED]
 
 [cols="1,2,1,5"]
 |===
@@ -46,7 +46,7 @@ image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[drw ns224 odp LED IEOPS 1262]
 
 
  a| 
-image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
+image::../media/drw_sas_power_icon.svg[작업자 디스플레이 패널 전원 LED]
  a| 
 전원(녹색)
  a| 
@@ -57,7 +57,7 @@ image::../media/drw_sas_power_icon.svg[drw SAS 전원 아이콘]
 
 
  a| 
-image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
  a| 
 주의(황색)
  a| 
@@ -76,7 +76,7 @@ image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
 
 
  a| 
-image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
+image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위치 LED]
  a| 
 위치(파란색)
  a| 
@@ -93,7 +93,7 @@ NSM 모듈의 LED는 모듈이 정상적으로 작동하는지 여부, 입출력
 
 다음 그림 및 표에서는 모듈의 기능과 관련된 NSM 모듈 상태 표시등 및 모듈의 각 NVMe 포트의 기능에 대해 설명합니다.
 
-image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[drw ns224 NSM LED IEOPS 1270]
+image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[NS224 NSM100 모듈 상태 표시등]
 
 [cols="1,1,2,4"]
 |===
@@ -103,7 +103,7 @@ image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[drw ns224 NSM LED IEOPS 1270]
  a| 
 image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
-image::../media/drw_sas3_location_icon.svg[drw sas3 위치 아이콘]
+image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위치 LED]
  a| 
 파란색
  a| 
@@ -114,7 +114,7 @@ NSM 모듈:위치
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
-image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
  a| 
 주황색
  a| 
@@ -136,7 +136,7 @@ NVMe 포트/링크: 상태
  a| 
 image:../media/legend_icon_04.png["설명선 번호 4"]
  a| 
-image::../media/drw_sas_fault_icon.svg[DRW SAS 오류 아이콘]
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
  a| 
 주황색
  a| 
@@ -232,7 +232,7 @@ AC 또는 DC 전원 공급 장치(PSU)의 LED는 PSU가 정상적으로 작동�
 
 다음 그림 및 표에서는 PSU의 LED에 대해 설명합니다. (그림은 AC PSU입니다. 하지만 DC PSU의 LED 위치는 동일합니다.)
 
-image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[drw ns224 PSU LED IEOPS 1261]
+image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[전원 공급 장치 전원 작동 LED]
 
 [cols="1,4"]
 |===
@@ -320,7 +320,7 @@ NVMe 드라이브의 LED는 정상 작동 중인지 또는 하드웨어에 문�
 
 다음 그림 및 표에서는 NVMe 드라이브의 두 LED를 설명합니다.
 
-image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[drw ns224 드라이브 LED IEOPS 1263]
+image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[NVMe 드라이브 주의 및 전원 LED]
 
 [cols="1,2,2"]
 |===

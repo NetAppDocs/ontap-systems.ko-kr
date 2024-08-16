@@ -228,7 +228,7 @@ image::../media/drw_ns224_vino_i_2shelves_2cards_ieops-1641.svg[2개의 쉘프�
 .. 케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 1 포트 A(E1A)에 연결합니다.
 .. 컨트롤러 A 슬롯 1 포트 b(e1b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다. + 다음 그림에서는 완료 시 쉘프 케이블 연결을 보여 줍니다.
 +
-image::../media/drw_ns224_a250_c250_f500f_1shelf_ieops-1824.svg[AFF A250용 케이블 연결]
+image::../media/drw_ns224_a250_c250_f500f_1shelf_ieops-1824.svg[NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF A250 C250 또는 FAS500f 케이블 연결]
 
 
 

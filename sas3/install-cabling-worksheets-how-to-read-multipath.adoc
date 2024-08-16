@@ -33,9 +33,9 @@ NOTE: 시스템의 스택에 케이블을 연결하는 것보다 많은 포트 �
 
 포트 쌍은 워크시트의 다른 모든 포트 쌍(1a/2b 및 1c/2d)을 사용하여 케이블로 연결됩니다.
 
-image::../media/drw_worksheet_mpha_skipped_template.gif[drw 워크시트 mpha 건너뛴 템플릿]
+image::../media/drw_worksheet_mpha_skipped_template.gif[건너뛴 포트 쌍을 사용하여 다중 경로 연결을 위한 케이블 연결 워크시트]
 
-image::../media/drw_mpha_slots_1_and_2_two_4porthbas_two_stacks_skipped.gif[drw mpha 슬롯 1 및 2 2개의 4portbas 두 개의 스택을 건너뛰었습니다]
+image::../media/drw_mpha_slots_1_and_2_two_4porthbas_two_stacks_skipped.gif[건너뛴 포트 쌍을 사용한 다중 경로 연결의 케이블 연결 예]
 
 .단계
 . 스택 1에 대해 각 컨트롤러의 케이블 포트 쌍 1a/2b:
