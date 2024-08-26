@@ -23,10 +23,10 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2484194["2 포스트 또�
 
 . 지지대 레일이 필요한 위치를 찾은 후 다음 그림을 참조하여 설치합니다.
 +
-image::../media/drw_syscab_ozeki_support_rail_installation.gif[drw syscab ozeki 지원 레일 설치]
+image::../media/drw_syscab_ozeki_support_rail_installation.gif[지지 레일 설치 방법]
 
 . 장비 장착 플랜지가 지지 레일의 나사 구멍을 지나 연장되면 필요한 경우 지지 레일 위에 케이지 너트를 설치합니다.
 +
-image::../media/drw_clip_nut_install.gif[drw 클립 너트 설치]
+image::../media/drw_clip_nut_install.gif[케이지 너트 설치 방법]
 
 

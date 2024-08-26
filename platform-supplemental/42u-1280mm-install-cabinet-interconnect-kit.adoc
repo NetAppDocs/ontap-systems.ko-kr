@@ -32,7 +32,7 @@ image::../media/drw_fcc_cabinet_ordering.png[그림은 주변 텍스트에 설�
 .. 탈거 중인 프론트 도어를 잠금 해제하고 여십시오.
 .. 다음 그림을 참조하여 조명이 들어오는 베젤의 전원을 분리합니다.
 +
-image::../media/drw_sys_cab_remove_brimstone_back_banel.png[drw sys cab 브림스톤 백 바넬 제거]
+image::../media/drw_sys_cab_remove_brimstone_back_banel.png[표시등이 켜지는 베젤의 전원을 분리하는 방법]
 
 +
 |===
@@ -59,7 +59,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 |===
 .. 다음 그림을 참조하여 프론트 도어를 탈거하십시오.
 +
-image::../media/drw_sys_cab_front_door_daiginjo.png[drw sys 운전실 전면 도어 다이긴자]
+image::../media/drw_sys_cab_front_door_daiginjo.png[전면 도어를 분리하는 방법]
 
 +
 |===
@@ -110,7 +110,7 @@ image:../media/legend_icon_03.png["설명선 번호 3"]
 . 시스템 캐비닛을 완전히 함께 이동한 다음 시스템 캐비닛 아래쪽에 있는 4개의 수평 조정 받침대를 조정하여 정렬 및 수평을 조정합니다.
 . 상호 연결 브래킷을 설치합니다.
 +
-** 시스템 캐비닛 측면 패널이 켜진 상태로 상호 연결 브래킷을 설치할 경우 다음 그림을 참조하십시오.image:../media/drw_syscab_interconnect_bracket_side_panels_on.gif[""]
+** 시스템 캐비닛 측면 패널이 장착된 상호 연결 브래킷을 설치하는 경우 다음 그림을 참조하십시오. image:../media/drw_syscab_interconnect_bracket_side_panels_on.gif["시스템 캐비닛 측면 패널이 있는 상호 연결 브래킷을 설치하는 방법"]
 
 
 +
@@ -147,7 +147,7 @@ image:../media/legend_icon_03.png["설명선 번호 3"]
 
 |===
 +
-** 시스템 캐비닛 측면 패널이 꺼진 상태에서 상호 연결 브래킷을 설치하는 경우 다음 그림을 참조하십시오.image:../media/drw_syscab_interconnect_bracket_side_panels_off.gif[""]
+** 시스템 캐비닛 측면 패널을 분리한 상태에서 상호 연결 브래킷을 설치하는 경우 다음 그림을 참조하십시오. image:../media/drw_syscab_interconnect_bracket_side_panels_off.gif["시스템 캐비닛 측면 패널을 분리한 상태에서 상호 연결 브래킷을 설치하는 방법"]
 
 
 . 나머지 시스템 캐비닛에 대해서도 이 과정을 반복합니다.

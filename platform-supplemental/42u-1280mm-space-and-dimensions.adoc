@@ -155,7 +155,7 @@ summary: 시스템 캐비닛의 포장을 풀 때 시스템 캐비닛을 포장�
 
 다음 그림에서는 시스템 캐비닛의 전면, 후면 및 측면을 보여 줍니다.
 
-image::../media/drw_sys_cab_side_front_dimensions_ozeki.gif[drw sys 운전실 측면 전방 치수 ozeki]
+image::../media/drw_sys_cab_side_front_dimensions_ozeki.gif[시스템 캐비닛의 전면 후면 및 측면 모습]
 
 다음 그림은 시스템 캐비닛의 상단 및 하단 뷰를 보여 주고, 데이터 센터 바닥에서 시스템 캐비닛으로 케이블 번들을 실행할 수 있는 구멍을 나타냅니다. 또한 시스템 캐비닛 캐스터 및 수평 조정 받침의 위치도 그림에 나와 있습니다.
 
@@ -163,4 +163,4 @@ image::../media/drw_sys_cab_side_front_dimensions_ozeki.gif[drw sys 운전실 �
 
 시스템 캐비닛이 데이터 센터 플로어를 통해 떨어지지 않도록 시스템 캐비닛 하단의 케이블 액세스 구멍보다 넓은 바닥 입구 위로 시스템 캐비닛을 굴리지 마십시오.
 
-image::../media/drw_ozeki_sys_cab_bottom_top_dimensions_ieops-1803.svg[Drw ozeki sys 운전실 하단 상단 치수 ieops 1803]
+image::../media/drw_ozeki_sys_cab_bottom_top_dimensions_ieops-1803.svg[시스템 캐비닛의 상단 및 하단 모습]

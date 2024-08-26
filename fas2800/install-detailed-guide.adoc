@@ -48,7 +48,7 @@ IMPORTANT: 특정 전원 요구 사항이 있는 고객은 반드시 확인해�
 .. 을 완료하여 스토리지 시스템에 대한 정보를 수집합니다 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["설치 워크시트(워크시트에 대한 URL 필요)"].
 .. 컨트롤러의 스토리지 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.svg[drw SSN 레이블]
+image::../media/drw_ssn_label.svg[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
 
 
 
@@ -401,7 +401,7 @@ IMPORTANT: 전원 코드를 꽂지 마십시오.
 다음 표에는 드라이브 셸프를 스토리지 시스템에 연결하는 그림 설명에서 출력 번호 및 케이블 색상이 있는 케이블 유형이 나와 있습니다.
 
 
-NOTE: 이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프"^] 를 참조하십시오.
+NOTE: 이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다. 자세한 내용은 을 link:../sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프"] 참조하십시오.
 
 [cols="20%,80%"]
 |===
@@ -436,7 +436,7 @@ image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래�
 이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 사이의 케이블 연결을 완료합니다.
 
 
-IMPORTANT: FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 스토리지 시스템에 쉘프를 설치합니다"^] 를 참조하십시오.
+IMPORTANT: FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 자세한 내용은 을 link:../sas3/install-new-system.html["새 스토리지 시스템에 쉘프를 설치합니다"^] 참조하십시오.
 
 .애니메이션 - 드라이브 쉘프 케이블링
 video::b2a7549d-8141-47dc-9e20-afe8016f4386[panopto]

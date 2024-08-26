@@ -27,7 +27,7 @@ NOTE: 앨런 나사를 제거할 때 캐비닛 프레임에 떨어뜨리지 않�
 
 .. 시스템 캐비닛 프레임에서 하단 힌지를 고정하는 나사를 분리하고 나사와 힌지를 한쪽에 둡니다.
 +
-image::../media/drw_sys_cab_door_reversal_ozeki.gif[drw sys 캡 도어 역전 접합체]
+image::../media/drw_sys_cab_door_reversal_ozeki.gif[하단 힌지를 고정하는 나사를 분리합니다]
 
 +
 |===

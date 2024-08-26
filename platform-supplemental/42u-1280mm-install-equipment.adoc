@@ -27,7 +27,7 @@ NOTE: 장비 장착 플랜지가 지지 레일의 나사 구멍을 지나 연장
 장비가 이미 설치된 시스템 캐비닛을 받는 경우 다음 그림과 같이 빈 캐비닛 베이 바로 아래에 있는 장비 상단의 타이 다운 레일을 제거해야 합니다.
 
 +
-image::../media/drw_syscab_ozei_tiedown_rail_remove_blank_panel.gif[drw syscab ozei tiedown 레일은 블랭크 패널을 제거합니다]
+image::../media/drw_syscab_ozei_tiedown_rail_remove_blank_panel.gif[고정 레일을 제거하는 방법]
 
 . 전면 및 후면 시스템 캐비닛 도어를 다시 설치합니다.
 

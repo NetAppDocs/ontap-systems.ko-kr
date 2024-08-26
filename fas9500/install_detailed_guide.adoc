@@ -35,7 +35,7 @@ summary: 이 A 에서는 일반적인 NetApp 시스템 설치를 위한 단계�
 . 모든 상자의 내용물을 풉니다.
 . 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.svg[drw SSN 레이블]
+image::../media/drw_ssn_label.svg[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
 
 . 받은 케이블의 수와 유형을 확인하고 기록합니다.
 +
@@ -223,7 +223,7 @@ image::../media/drw_9500_cable_management_arms.svg[drw 9500 케이블 관리 암
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
 
-image::../media/oie_cable_pull_tab_up.svg[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.
@@ -312,7 +312,7 @@ image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[drw a900fas9500
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
 
-image::../media/oie_cable_pull_tab_up.svg[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.
@@ -400,14 +400,14 @@ image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[drw a900fas9500
 DS212C 또는 DS224C 드라이브 쉘프를 컨트롤러에 연결합니다.
 
 
-NOTE: SAS 케이블 연결 정보 및 워크시트에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/overview-cabling-rules-examples.html["SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반"^]
+NOTE: SAS 케이블 연결에 대한 자세한 정보 및 워크시트는 를 참조하십시오 link:../sas3/overview-cabling-rules-examples.html["SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반"]
 
 .시작하기 전에
-* 시스템에 대한 SAS 케이블 연결 워크시트를 작성합니다. 을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems/sas3/overview-cabling-rules-examples.html["SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반"^].
+* 시스템에 대한 SAS 케이블 연결 워크시트를 작성합니다. 을 link:../sas3/overview-cabling-rules-examples.html["SAS 케이블 연결 규칙, 워크시트 및 예제 개요 - IOM12 모듈이 포함된 선반"]참조하십시오.
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 
 
-image::../media/oie_cable_pull_tab_up.svg[OIE 케이블 당김 탭 위로]
+image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
 
 image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
 

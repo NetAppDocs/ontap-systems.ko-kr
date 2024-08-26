@@ -366,7 +366,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
 
 
 
-케이블 연결에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프"^]참조하십시오.
+케이블 연결에 대한 자세한 내용은 을 link:../sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12/IOM12B 모듈이 포함된 쉘프"]참조하십시오.
 
 
 

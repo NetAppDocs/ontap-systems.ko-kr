@@ -17,7 +17,7 @@ summary: 옵션 볼트 다운 키트를 설치하여 시스템 캐비닛을 바�
 
 . 시스템 캐비닛을 설치할 바닥의 영역을 표시한 다음 캐비닛을 제자리에 밀어 넣습니다.
 +
-image::../media/drw_sys_cab_universal_boltdown_kit_ozeki.gif[drw sys 캡 범용 볼트다운 키트 ozeki]
+image::../media/drw_sys_cab_universal_boltdown_kit_ozeki.gif[브래킷의 프론트 및 리어 볼트 다운 브래킷 및 플로어 앵커 포인트의 위치]
 
 +
 |===

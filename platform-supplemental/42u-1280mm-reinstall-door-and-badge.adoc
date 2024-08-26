@@ -44,7 +44,7 @@ summary: 전원 공급 장치 및 구성 요소를 시스템 캐비닛의 다른
 
 . 다음 그림을 참조하여 시스템 캐비닛의 전면 도어에 조명이 들어오는 배지를 다시 설치합니다.
 +
-image::../media/drw_sys_cab_gde_brimstone_install.gif[drw sys cab GDE 브림스톤 설치]
+image::../media/drw_sys_cab_gde_brimstone_install.gif[전면 도어에 조명 배지를 다시 설치하는 방법]
 
 . 전면 도어를 닫고 잠급니다.
 

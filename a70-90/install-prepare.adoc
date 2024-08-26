@@ -30,7 +30,7 @@ summary: AFF A70, AFF A90 플랫폼 설치를 준비합니다.
 완전히 장착된 A70-90 플랫폼은 무게가 최대 68.8kg(151.68파운드)이며, 유압 리프트를 들어 올리거나 사용하려면 4명이 필요합니다.
 
 +
-image::../media/drw_a70-90_weight_icon_ieops-1730.svg[AFF A90 를 참조하십시오]
+image::../media/drw_a70-90_weight_icon_ieops-1730.svg[AFF A90 AFF A70 체중 주의 아이콘]
 
 * 선반의 무게와 관련된 안전 문제를 알고 있어야 합니다.
 +

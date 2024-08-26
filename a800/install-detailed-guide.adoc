@@ -166,7 +166,7 @@ image:../media/oie_cable_power.png["전원 케이블"]
 .단계
 . 필요에 따라 레일 키트를 설치합니다.
 +
-https://docs.netapp.com/us-en/ontap-systems/platform-supplemental/superrail-install.html["4-포스트 랙에 SuperRail 설치"^]
+link:../platform-supplemental/superrail-install.html["4-포스트 랙에 SuperRail 설치"]
 
 . 레일 키트에 포함된 지침에 따라 시스템을 설치하고 고정합니다.
 +

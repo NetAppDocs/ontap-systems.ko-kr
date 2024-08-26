@@ -277,7 +277,6 @@
   <block id="52d793d1ea6b22a876f80ca2d53bc2c5" category="list-text">RJ-45 연결 및 웹 브라우저에 대한 액세스 권한이 있는 랩톱 또는 콘솔</block>
   <block id="0e6a8e99a6fb91e4c4fc0cee8731b786" category="list-text">모든 상자의 내용물을 풉니다.</block>
   <block id="9a7aa4a793df686179a9f904351e5dce" category="list-text">컨트롤러에서 시스템 일련 번호를 기록합니다.</block>
-  <block id="a894e80c84e8ffdd148bac48114dae68" category="image-alt">drw SSN 레이블</block>
   <block id="4d825fae8ae896f70b8ddce9f54ecdbd" category="list-text">계정 설정:</block>
   <block id="e94d8dffa39f693984ca4b083d6c79fb" category="list-text">기존 계정에 로그인하거나 계정을 만듭니다.</block>
   <block id="a7db89b634a41cc35499e78cc32cb0ea" category="inline-link-macro">NetApp 제품 등록</block>
@@ -1743,7 +1742,6 @@
   <block id="f69d8cf8cac45861ff6e65b70f1318ea" category="section-title">옵션 1: 스위치가 없는 2노드 클러스터를 케이블로 연결합니다</block>
   <block id="a766258e1cfb1ce4e72917121f65a74d" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트/HA 포트는 두 컨트롤러 모듈에 모두 케이블로 연결됩니다.</block>
   <block id="b0f36369923404e3d59d32e54263eb35" category="paragraph">시스템에 스위치를 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의해야 합니다.</block>
-  <block id="6fe081310097e5bdd9201304d5f2f43c" category="image-alt">OIE 케이블 당김 탭 위로</block>
   <block id="5e71f7cd3736dc18c619e22ab69496b8" category="list-text">그림 또는 단계별 지침을 사용하여 컨트롤러와 스위치 간의 케이블 연결을 완료할 수 있습니다.</block>
   <block id="e5cd602ca5c03c391e8dfac3c307e06c" category="paragraph">다음과 같이 100GbE(QSFP28) 케이블로 클러스터/HA 포트를 서로 연결합니다.</block>
   <block id="1ec377d11568067a729ee6f50dee77c8" category="paragraph">데이터 네트워크 연결을 위해 온보드 포트를 사용하는 경우 100GbE 또는 40GbE 케이블을 해당 데이터 네트워크 스위치에 연결합니다.</block>
@@ -3203,16 +3201,12 @@
   <block id="53590b790d3ba08516176d2bd37b33e9" category="paragraph">보관 케이블</block>
   <block id="8ba04efff1ec0749374586b1b311d6c9" category="admonition">이 케이블은 AFF A700에만 적용됩니다.</block>
   <block id="02b3dac5d46f2e577325711400925ec7" category="list-text">NetApp ONTAP 구성 가이드_를 검토하고 해당 가이드에 나열된 필수 정보를 수집합니다.</block>
-  <block id="bf4bab0f60d5f890ac80c1ebcbbc12a9" category="image-alt">drw 9000 인양 아이콘</block>
   <block id="6aaee4945b201c5a5677251dde867361" category="admonition">왼쪽에 있는 레이블은 빈 섀시를 나타내고, 오른쪽에 있는 레이블은 완전히 채워진 시스템을 나타냅니다.</block>
-  <block id="85b367f413d423e28eebf0d4d7343b21" category="image-alt">drw 9000 케이블 관리 암</block>
   <block id="39ee497291056c5c7e4ecc487f5e822d" category="section-title">옵션 1: 스위치가 없는 2노드 클러스터</block>
   <block id="9cc9aa6b319d537a98d9c9c820e6c4b3" category="paragraph">컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 포트는 두 컨트롤러에 케이블로 연결됩니다.</block>
   <block id="08f8dc743a7889305e9e12b5efdf8be5" category="paragraph">포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.</block>
-  <block id="e7a50f58a45bba10b5aba5b8e04b5f6f" category="image-alt">drw 9000 TNSC 복합 케이블 연결</block>
   <block id="84252b20b7e0ac6281a9b368a8f95d01" category="section-title">옵션 2: 스위치 클러스터</block>
   <block id="64f550ceb718fb87884d6c018d99b0d3" category="paragraph">컨트롤러의 관리 네트워크, 데이터 네트워크 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.</block>
-  <block id="2d4ee23b790e29acaba8afea7d2de7bf" category="paragraph"><block ref="2d4ee23b790e29acaba8afea7d2de7bf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="951f189826bb64c4dbc3f08ee373f69e" category="paragraph">새 시스템이 AFF 또는 FAS 시스템인지에 따라 DS212C, DS224C 또는 NS224 쉘프에 케이블을 연결할 수 있습니다.</block>
   <block id="67ec2b038363eb1a2ca82d119dc3c4ca" category="section-title">옵션 1: 컨트롤러를 DS212C 또는 DS224C 드라이브 쉘프에 연결합니다</block>
   <block id="2c12ea065c27431a69c35d833f9b51a7" category="paragraph">선반부터 선반까지 케이블을 연결한 다음 두 컨트롤러를 DS212C 또는 DS224C 드라이브 쉘프에 케이블로 연결해야 합니다.</block>
@@ -3399,7 +3393,6 @@
   <block id="7420f9b1d8e8ed836b7ae9c80124f6b8" category="list-text">에어 덕트 커버를 들어 올리십시오.</block>
   <block id="e0f21664596f0c97d1d5a04e2fdf74bc" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 RTC 배터리를 교체합니다.</block>
   <block id="3bfc0205925c583b173da8aaa6c933a5" category="list-text">방열판과 미드플레인 사이에서 RTC 배터리를 찾아 그림과 같이 제거합니다.</block>
-  <block id="da00f0981a71582bcc5ed875dab5af5b" category="image-alt">drw A250 RTC 배치 제거</block>
   <block id="fe3be7b129e2b9c74abd26381eea72bb" category="cell">배터리 하우징에서 탭을 천천히 당겨 빼냅니다. * 주의: * 이 탭을 세게 잡아당기면 탭이 대체할 수 있습니다.</block>
   <block id="d61a84f0b033dd225ff9a1af9b0f08a5" category="paragraph">배터리를 들어올립니다. * 참고: * 배터리의 극성을 기록하십시오.</block>
   <block id="2a79f92f83e80b8d7c1b1b19435df449" category="paragraph">배터리가 배출되어야 합니다.</block>
@@ -3694,9 +3687,7 @@
   <block id="ac153f0a41690d0111bba47080ad4deb" category="summary">FAS9000 및 AFF A700 시스템에는 2개의 2포스트 지원 레일 키트가 사용할 수 있습니다. 하나의 키트로 시스템을 2-포스트 랙에 플러시 장착할 수 있고 다른 키트를 사용하여 시스템을 2-포스트 랙에 미드마운트할 수 있습니다.</block>
   <block id="3d621fa2786c28a29e81425001413c0e" category="doc">2포스트 지원 레일 키트 설치 지침 - AFF A700 및 FAS9000</block>
   <block id="9de356bba732ea3279684bd5fa1e5f9f" category="section-title">2-포스트 미드마운트 레일 키트를 장착하십시오</block>
-  <block id="2f338557f8c0be16e8ae51b661b071b1" category="image-alt">drw Telco MID 마운트 1</block>
   <block id="17bc73815850fd6dc60d586cf707300e" category="section-title">2-포스트 플러시 마운트 레일 키트를 설치합니다</block>
-  <block id="ef2cbc76f2fb85efc97170002c910e15" category="image-alt">drw 통신 전면 마운트 1</block>
   <block id="3c941071b26a1822e1cb4494c2fd71da" category="doc">손상된 컨트롤러 AFF A900을 종료합니다</block>
   <block id="68908cbb53a7b71659933af600697a19" category="summary">NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 실패한 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="d04f6248062fc9d16de8588d61c28d1e" category="doc">NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(AFF A900)을 교체하십시오</block>
@@ -3889,11 +3880,9 @@
   <block id="855cffdbc90612707b516c4fbf2e4af6" category="list-text">측면 패널을 제거한 상태에서 상호 연결 키트를 설치하는 경우 캐비닛이 만나는 모서리에 힌지가 있는 전면 도어를 분리합니다.</block>
   <block id="adb71487fe02ff95335d325d05bd2f15" category="list-text">탈거 중인 프론트 도어를 잠금 해제하고 여십시오.</block>
   <block id="9a4fe80d04ca9856800b2ddabd18e395" category="list-text">다음 그림을 참조하여 조명이 들어오는 베젤의 전원을 분리합니다.</block>
-  <block id="85816983ffa30e30b984a6f2f3ceaa67" category="image-alt">drw sys cab 브림스톤 백 바넬 제거</block>
   <block id="e8a8f00a7d5bf25e6a1ac90e7cb6e4ce" category="paragraph">조명이 들어오는 베젤 회로 보드 및 케이블</block>
   <block id="4c3580dc8ec8ac15abb74f8ae9e12d37" category="paragraph">후면 패널 및 손잡이 나사</block>
   <block id="7b38852247e34a7c2f895128fb65a1b9" category="list-text">다음 그림을 참조하여 프론트 도어를 탈거하십시오.</block>
-  <block id="d685fa3196540e3ea5b6005dcc845f27" category="image-alt">drw sys 운전실 전면 도어 다이긴자</block>
   <block id="b8935c8d03d333d31d39f234ce7ca6a2" category="paragraph">도어 접지 케이블</block>
   <block id="137d396b6d0a86b1ac38d18e8d8c8941" category="paragraph">도어 상단 힌지</block>
   <block id="990c943d20a9b30b2a54828e009ea5b0" category="paragraph">힌지 핀</block>
@@ -3903,11 +3892,9 @@
   <block id="7a12958e889303dd69f0e10b6b24a30b" category="list-text">하단 힌지에서 도어를 들어 올린 다음 도어를 한쪽에 둡니다.</block>
   <block id="6e55d11b93b41e214f2747e4f2f62d30" category="list-text">시스템 캐비닛을 완전히 함께 이동한 다음 시스템 캐비닛 아래쪽에 있는 4개의 수평 조정 받침대를 조정하여 정렬 및 수평을 조정합니다.</block>
   <block id="8219a534e6cd0a6c1713509618457269" category="list-text">상호 연결 브래킷을 설치합니다.</block>
-  <block id="9003c6de864cf9e22d9985840ee11662" category="list-text">시스템 캐비닛 측면 패널이 켜진 상태로 상호 연결 브래킷을 설치할 경우 다음 그림을 참조하십시오.<block ref="901c263387e1aa6a92d2a47d94581abb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0581354b86d3712208b91e6cf6f161e8" category="paragraph">시스템 캐비닛 상단의 플라스틱 압인 리벳</block>
   <block id="2bebe43be7aead982807f7b4fe8cc0a2" category="paragraph">상단 상호 연결 브래킷</block>
   <block id="bb59e9a622257ac58cd5376c41c18911" category="paragraph">하단 상호 연결 브래킷</block>
-  <block id="8ca8711af46d57c76eb7b29bf8e82c2c" category="list-text">시스템 캐비닛 측면 패널이 꺼진 상태에서 상호 연결 브래킷을 설치하는 경우 다음 그림을 참조하십시오.<block ref="ed3976d92b59b9f945feec2c90845831" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6ffc5df4a17461423317852eab42d605" category="list-text">나머지 시스템 캐비닛에 대해서도 이 과정을 반복합니다.</block>
   <block id="9513dbed5687d13ec78a5ed7ab3503cc" category="list-text">모든 상호 연결 브래킷 나사를 조입니다.</block>
   <block id="696dd736b666ee17e46c95a26790f5d2" category="summary">시스템 캐비닛의 포장을 풀 때 시스템 캐비닛을 포장재에서 제거할 공간이 충분한지 확인해야 합니다. 또한 시스템 캐비닛의 의도된 위치가 캐비닛을 제 위치로 이동할 수 있을 만큼 충분히 큰지 확인하십시오.</block>
@@ -3959,7 +3946,6 @@
   <block id="ba962792d53198162e980600d4ad1689" category="paragraph">12인치</block>
   <block id="bfcd3622a8ea921fc92445a1fdabbd58" category="section-title">시스템 캐비닛 외부 치수</block>
   <block id="554d16876be8b6f45da7b9f94ca29374" category="paragraph">다음 그림에서는 시스템 캐비닛의 전면, 후면 및 측면을 보여 줍니다.</block>
-  <block id="d33692cb816156acc24972dd0730169e" category="image-alt">drw sys 운전실 측면 전방 치수 ozeki</block>
   <block id="3d916345d2d4b88d59baeb4da4d032c2" category="paragraph">다음 그림은 시스템 캐비닛의 상단 및 하단 뷰를 보여 주고, 데이터 센터 바닥에서 시스템 캐비닛으로 케이블 번들을 실행할 수 있는 구멍을 나타냅니다. 또한 시스템 캐비닛 캐스터 및 수평 조정 받침의 위치도 그림에 나와 있습니다.</block>
   <block id="03e181c9a4ee916b1c6394530dfe5d25" category="paragraph">시스템 캐비닛이 데이터 센터 플로어를 통해 떨어지지 않도록 시스템 캐비닛 하단의 케이블 액세스 구멍보다 넓은 바닥 입구 위로 시스템 캐비닛을 굴리지 마십시오.</block>
   <block id="4ae836b782811ffe91b98aedff96a53f" category="list-text">SED 인증이 활성화된 경우 ONTAP 설명서의 SED 교체 지침을 사용해야 합니다.</block>
@@ -4003,7 +3989,6 @@
   <block id="8c03dc270927151ae2f4c04ba9af6241" category="list-text">시스템 캐비닛 프레임에서 상단 힌지를 고정하는 나사를 분리하고 나사와 힌지를 한쪽에 둡니다.</block>
   <block id="c504df8a2e05ee517dc6a7dfaae8534a" category="admonition">앨런 나사를 제거할 때 캐비닛 프레임에 떨어뜨리지 않도록 주의하십시오. 예비 Allen 나사는 시스템 캐비닛과 함께 제공된 예비 키트에 제공됩니다.</block>
   <block id="6ae32f268b877b3b573defa304a11e20" category="list-text">시스템 캐비닛 프레임에서 하단 힌지를 고정하는 나사를 분리하고 나사와 힌지를 한쪽에 둡니다.</block>
-  <block id="f7903c84afc48e16923743ea24c3501f" category="image-alt">drw sys 캡 도어 역전 접합체</block>
   <block id="faf16e882ec4df1018434c9a53f4aba9" category="paragraph">접지 와이어 스페이드가 있는 도어 접지 나사</block>
   <block id="87a5515b72437b095b1c74278d86d9a5" category="paragraph">접지 와이어</block>
   <block id="2dbb2b48352443791844e4033011af55" category="paragraph">프레임 접지 와이어 러그</block>
@@ -4026,7 +4011,6 @@
   <block id="6df4950fb076868b0e9a60e4ef9e05db" category="list-text">캐치를 180도 회전한 다음 시스템 캐비닛에 똑바로 고정합니다.</block>
   <block id="525de838b0b63aa03a438e94f2a28f29" category="summary">조명이 들어오는 배지를 제거하려면 시스템 캐비닛 전면 도어를 열고 배지의 뒷면에서 전원 코드를 뽑은 다음 시스템 캐비닛 도어에서 배지 구성 요소를 제거해야 합니다.</block>
   <block id="fcb9814ec0f783887dac12f72d00226b" category="doc">조명이 들어오는 배지를 제거하십시오</block>
-  <block id="4c0a89c292f890b878557c520551c332" category="paragraph">다음 단계와 함께 다음 그림을 사용하십시오.<block ref="f85f4e62a4b22615b36542fe3d51ee23" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5e431905274e59cf132f091a54196f47" category="list-text">시스템 캐비닛 전면 도어를 잠금 해제하고 엽니다.</block>
   <block id="85c3d0cde48efa347bc893ba6c30e89b" category="list-text">도어 안쪽에 있는 배지 백 패널의 조임 나사를 푼 다음 후면 패널을 도어 망에서 조심스럽게 당겨 빼냅니다.</block>
   <block id="3316ddf58954cd81f69dd3a261a67df4" category="list-text">플러그에 있는 잠금 클립을 누르고, 소켓에서 코드를 뽑고, 후면 패널에서 케이블을 분리하여 후면 패널에서 전원 코드를 뽑습니다.</block>
@@ -4036,7 +4020,6 @@
   <block id="c29c1bfb6b4af19cbb452ce9d9f780aa" category="list-text">도어 전면에서 배지를 분리하여 한쪽에 둡니다.</block>
   <block id="d971400e841652c0674351e1776f8782" category="summary">시스템 캐비닛을 제자리에 배치하기 전에 시스템 캐비닛 주변의 포장재를 제거해야 합니다. 캐비닛을 개봉한 후에는 포장재를 재활용해야 합니다.</block>
   <block id="a95834c1a8ed59ab3858580d175bb665" category="doc">시스템 캐비닛의 포장을 풉니다</block>
-  <block id="129309842bc5dbd264ad4f8622f29bfc" category="image-alt">drw sys CAB 압축 해제 지침 ozeki</block>
   <block id="9682abea21a8105e25e53a664815f083" category="summary">PDU에 시스템 구성 요소를 연결하고 PDU 케이블을 AC 전원에 연결한 다음 전원을 켭니다.</block>
   <block id="de377ff4f06113db5f03b6d5d7501baa" category="doc">시스템 캐비닛의 전원을 켭니다</block>
   <block id="44626aa3377a470ee951473cc16b9064" category="paragraph">시스템 캐비닛의 각 PDU에 대해 사용할 수 있는 별도의 전원 회로가 있어야 합니다.</block>
@@ -4054,7 +4037,6 @@
   <block id="6389d85f34f387a4ea8fe4528c426e25" category="paragraph">시스템 캐비닛 도어를 후진할 때는 조명식 배지 전원 공급 장치, 전원 케이블 및 케이블 연결 도관을 시스템 캐비닛의 반대쪽으로 이동해야 합니다. 이 어셈블리는 배지에 연결된 케이블이 도어 힌지가 설치된 캐비닛 측면에 있도록 설계되었습니다.</block>
   <block id="709ddaede46e6b855beff61d58586373" category="list-text">전원 케이블 고정 클립을 연 다음 전원 공급 장치에서 전원 케이블을 분리합니다.</block>
   <block id="667c7de8e5248a14983029ec8ffffaa5" category="list-text">다음 그림을 참조하여 전원 공급 장치 하우징 및 전원 공급 장치를 분리합니다.</block>
-  <block id="1776efc78bebc4dcee89829bd247c429" category="image-alt">drw sys CAB 베젤 PSU는 ozeki를 제거합니다</block>
   <block id="2cf25b719c3838a91f027f2c3f8142fd" category="list-text">전원 공급 장치 하우징의 고정 핀을 들어 올린 다음 하우징 커버를 아래쪽으로 돌려 리어 전원 공급 장치 하우징에서 들어 올려 분리합니다.</block>
   <block id="5591b24e5b893e15cc2f08bac3a35504" category="admonition">전원 공급 장치는 후크 및 루프 패치로 전원 공급 장치 하우징에 연결됩니다.</block>
   <block id="7afcbe61bb1a2c3c522f1d080649dfd4" category="list-text">표시등이 있는 배지 케이블에서 전원 공급 장치를 분리한 다음 전원 공급 장치 및 전원 공급 장치 덮개를 옆으로 설정하십시오.</block>
@@ -4066,9 +4048,7 @@
   <block id="661e3d47c0a5f6ab62d151d30ccd98a3" category="list-text">커버 후크를 전원 공급 장치에 다시 맞추고, 커버의 플런저를 위로 당기고, 플런저를 닫은 다음, 플런저를 해제하여 전원 공급 장치 커버와 전원 공급 장치를 설치하십시오.</block>
   <block id="20aadda179d514a8d5e6a99bf7d92b8e" category="list-text">고정 클립에서 도관 고정 클립을 분리하여 베젤 전원 공급 장치 도관을 분리한 다음 도관을 전원 케이블에서 밀어 분리합니다.</block>
   <block id="aca431319f86a8f357d439e7ccf59f20" category="paragraph">도관을 설치할 때 고정 클립과 나사를 캐비닛의 반대쪽에 보관하십시오.</block>
-  <block id="c48a48be7c0f1e99840883a3280b1799" category="image-alt">drw sys 캡 베젤 도관 접합부</block>
   <block id="639cf71ee916974f7f6e30150a85d737" category="list-text">배지 전원 케이블을 캐비닛의 다른 쪽으로 이동합니다.</block>
-  <block id="2d9b6f21ece6c57c36fd0e50193e491d" category="image-alt">drw sys cab 베젤 전원 케이블 이동</block>
   <block id="22c0b80cd01ef90622d1da92c6e0296e" category="list-text">캐비닛의 고무 케이블 리테이너를 오른쪽으로 180° 돌리고 시스템 캐비닛 프레임에서 분리한 다음 시스템 캐비닛에서 케이블을 부드럽게 당겨 빼냅니다.</block>
   <block id="845c272095f5b0f6e051259dcbf4b8c4" category="list-text">케이블을 캐비닛의 다른 쪽으로 옮긴 다음 캐비닛 상단 근처의 구멍을 통해 완전히 통과시킵니다.</block>
   <block id="fb703b4947b0235a0a86e7284865fbdb" category="list-text">고무 케이블 리테이너를 프레임의 구멍에 맞추고, 최대한 밀어 넣은 다음, 케이블 리테이너를 왼쪽으로 180° 돌려 고정합니다.</block>
@@ -4093,9 +4073,7 @@
   <block id="aa24a9cd171f9abd8925640d8d206200" category="list-text">장비에 필요한 공간을 결정합니다.</block>
   <block id="29bf63e9639af89689623a2194820d09" category="paragraph">장비 높이에 따라 장비가 필요한 U 공간(U당 1.75인치)을 계산한 다음 사용 가능한 공간에 따라 시스템 캐비닛에 장비를 설치할 위치를 결정합니다.</block>
   <block id="2c66268a397bedc4a8ee565eb321a361" category="list-text">지지대 레일이 필요한 위치를 찾은 후 다음 그림을 참조하여 설치합니다.</block>
-  <block id="7109dddefbc1cca910a17a3003f918d1" category="image-alt">drw syscab ozeki 지원 레일 설치</block>
   <block id="84362391cde89925e3ad3550a96b7cd2" category="list-text">장비 장착 플랜지가 지지 레일의 나사 구멍을 지나 연장되면 필요한 경우 지지 레일 위에 케이지 너트를 설치합니다.</block>
-  <block id="3b738832fd7805dcb59a6e3ceb6d1691" category="image-alt">drw 클립 너트 설치</block>
   <block id="9f34692e20394559868d838e60e139bf" category="summary">시스템 캐비닛에 포장을 풀고 설치하기 전에 시스템 캐비닛을 제 위치로 이동하고 설치하거나 유지보수 작업을 수행하는 데 필요한 도구와 장비를 수집해야 합니다.</block>
   <block id="3ed6da3ce264f0c66cef48e19cd15c73" category="doc">필요한 공구 및 장비</block>
   <block id="f9fe90b9a7c32c659a86cfe53f6587b1" category="list-text">디스크 쉘프에 적합한 하드웨어 가이드를 참조하십시오</block>
@@ -4114,7 +4092,6 @@
   <block id="bccb69ce24042e59edaddcbd859db7ef" category="admonition">장비 장착 플랜지가 지지 레일의 나사 구멍을 지나 연장되는 경우 장비를 캐비닛에 똑바로 고정하기 위해 필요한 경우 지지 레일 위에 케이지 너트를 설치하십시오.</block>
   <block id="751d4b928240d52864a2818fe5317da7" category="list-text">시스템 캐비닛의 빈 베이 위에 블랭킹 패널을 설치합니다.</block>
   <block id="4ccedf93160862bbf89c3f9a64941193" category="paragraph">장비가 이미 설치된 시스템 캐비닛을 받는 경우 다음 그림과 같이 빈 캐비닛 베이 바로 아래에 있는 장비 상단의 타이 다운 레일을 제거해야 합니다.</block>
-  <block id="b4449fca9dbd74bd7d58f7cfdbad1d41" category="image-alt">drw syscab ozei tiedown 레일은 블랭크 패널을 제거합니다</block>
   <block id="cc32f847114f40b46bd875dc4bc7b049" category="list-text">전면 및 후면 시스템 캐비닛 도어를 다시 설치합니다.</block>
   <block id="119f03ea1c250f1b97c5928c1d9e5432" category="summary">전원 공급 장치 및 구성 요소를 시스템 캐비닛의 다른 쪽으로 이동하고 힌지와 잠금 캐치를 이동한 후에는 시스템 캐비닛 도어와 조명된 배지를 다시 설치하고 배지를 전원에 다시 연결해야 합니다.</block>
   <block id="643cfac87180d8379362af941dea318b" category="doc">도어 및 조명 배지를 다시 설치합니다</block>
@@ -4133,7 +4110,6 @@
   <block id="69204463d5fd7274cd7c15cdd8754c5b" category="section-title">조명이 들어오는 배지를 다시 설치합니다</block>
   <block id="e39173998bcb0a429fbb384ad9f2b4a3" category="paragraph">시스템 캐비닛 도어를 설치한 후, 도어 역전 프로세스를 완료하기 위해 조명이 들어오는 배지를 장착한 다음 전면 도어를 닫고 잠가야 합니다.</block>
   <block id="655b379eb55a962545027e4c4765decc" category="list-text">다음 그림을 참조하여 시스템 캐비닛의 전면 도어에 조명이 들어오는 배지를 다시 설치합니다.</block>
-  <block id="2893f66e6b01f34fba119ce895b85ff5" category="image-alt">drw sys cab GDE 브림스톤 설치</block>
   <block id="07fe9225534f4404a2e26cdf7452dbe0" category="list-text">전면 도어를 닫고 잠급니다.</block>
   <block id="496b4a3650aab467cf608b170b892ff0" category="summary">시스템 캐비닛에서 장애가 발생한 PDU를 교체하거나 기존 PDU를 다른 유형의 PDU로 교체할 수 있습니다.</block>
   <block id="ef229ddf3c0a14a70216a92856d40161" category="doc">PDU를 교체합니다</block>
@@ -4153,7 +4129,6 @@
   <block id="51096157b524c7405d973a26f6a00303" category="doc">볼트 다운 키트를 장착하십시오</block>
   <block id="4630806a49f3d566c73da0208c0cd76a" category="paragraph">각 볼트-다운 브래킷에 대해 바닥에 적절한 앵커 볼트를 제공해야 합니다.</block>
   <block id="147a1dc5cec13c688326299559be22ae" category="list-text">시스템 캐비닛을 설치할 바닥의 영역을 표시한 다음 캐비닛을 제자리에 밀어 넣습니다.</block>
-  <block id="319a2ed158a8cb88c3de9dd6a93c15a1" category="image-alt">drw sys 캡 범용 볼트다운 키트 ozeki</block>
   <block id="1966a82c06f624b9d7efa1d0aa3d578b" category="paragraph">프론트 및 리어 볼트 다운 브래킷</block>
   <block id="b973d96e7d5bc1a13b71536b349a5588" category="paragraph">브래킷의 바닥 고정점 위치</block>
   <block id="547f8fa31ac2afc77d18705755c12837" category="list-text">리어 볼트 다운 브래킷이 바닥에 고정될 고정 지점을 표시한 다음 브래킷 구멍을 뚫으십시오.</block>
@@ -4227,9 +4202,7 @@
   <block id="70150c1a82fd194a31cb4375a5daa21c" category="summary">SuperRail은 표준 사각형 구멍 4포스트 랙에 설치하거나 원형 대 사각형 구멍 어댑터 브래킷을 사용하여 표준 원형 구멍 4포스트 랙에 설치할 수 있습니다.</block>
   <block id="966a4cc013cbf07d2dc9b6d14833b3e0" category="doc">SuperRail 키트 설치 지침</block>
   <block id="04abd72307682d4665fde1d35d82daaf" category="section-title">사각형 구멍 4포스트 랙에 SuperRail 설치</block>
-  <block id="34da9d7212dd506252380d0f44fc7986" category="image-alt">drw 슈퍼레일 사각형 구멍 4 포스트 키트 RE 릴리스</block>
   <block id="c1f04067f36960edddc9075483e6ac55" category="section-title">4포스트 원형 랙에 SuperRail 설치</block>
-  <block id="e38ed45d70c33aad1179b302b05d8606" category="image-alt">drw 슈퍼레일 원형 구멍 4 포스트 키트 재출시</block>
   <block id="065e0cfc1a644921f8da7dcbc4e51ec2" category="summary">시스템 캐비닛을 설치하기 전에 해당 기능을 숙지해야 합니다. 또한 사이트가 시스템 캐비닛을 지원할 수 있는지 확인하고 원하는 위치로 이동한 다음 포장을 풀어야 합니다.</block>
   <block id="c3f0ef3ab0d6ba2b67aa70091a366e6d" category="doc">시스템 캐비닛 설치를 준비합니다</block>
   <block id="7d309cda2d3359be8b443f7451192e61" category="summary">조명이 들어오는 배지, 도어, 상단 힌지 및 관련 하드웨어를 제거한 다음 시스템 캐비닛 프레임 전면 반대쪽에 설치하여 전면 도어가 열리는 방향을 변경할 수 있습니다.</block>
@@ -5463,7 +5436,6 @@
   <block id="a31ab93f41516026d249aceb633bccc3" category="doc">I/O 모듈 FAS9500을 추가합니다</block>
   <block id="4d3b1425bbd62943a546a9f98dc3b7ef" category="list-text">파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다</block>
   <block id="6f8193ca6bfb281db32afbcc9e285f79" category="inline-link">SAS 쉘프 핫 추가</block>
-  <block id="9856beabcb389225df78cec96e74e365" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 SAS 쉘프를 설치하고 케이블을 연결합니다<block ref="322cc377ef41f5776a1c64690e12c49b" category="inline-link-rx"></block>.</block>
   <block id="c964f542415e7614484e4edf970ab7a8" category="paragraph">영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="6d351dbc4a7187d4512a1c505c200687" category="paragraph">에 설명된 대로 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block>.</block>
   <block id="f3ca7c7565b074fbf5e12ffb59930d2f" category="doc">오류가 발생한 부품을 NetApp-FAS9500으로 되돌립니다</block>
@@ -5603,8 +5575,6 @@
   <block id="67e68c155f62af046486d4818ab551b1" category="list-text">케이블을 케이블 관리 암에 연결합니다(그림 없음).</block>
   <block id="0815daeb3f5819b5b26f2d852a3480ed" category="video-title">애니메이션 - 스위치 방식 클러스터 케이블 연결</block>
   <block id="ab4ba237fa2abf24783610d2c0f56a3a" category="image-alt">drw 9500 스위치 방식 네트워크 케이블 연결</block>
-  <block id="c88355c0ee4fee45dfc3a83996fea5ca" category="admonition">SAS 케이블 연결 정보 및 워크시트에 대한 자세한 내용은 을 참조하십시오<block ref="a92f79530cc2a1794f52d1c1214e4c1c" category="inline-link-rx"></block></block>
-  <block id="9d00a2e517a4069bd82955f8b1b02a18" category="list-text">시스템에 대한 SAS 케이블 연결 워크시트를 작성합니다. 을 참조하십시오<block ref="a92f79530cc2a1794f52d1c1214e4c1c" category="inline-link-rx"></block>.</block>
   <block id="3e86e158b18295e17a62b9c2ae164933" category="list-text">다음 애니메이션 또는 그림을 사용하여 컨트롤러를 3개(드라이브 쉘프 1개 스택 및 드라이브 쉘프 2개 스택) DS224C 드라이브 쉘프 에 연결합니다.</block>
   <block id="dd012e2b911cefcb3afb5c18a9eea983" category="image-alt">drw 9500 SAS 셸프 케이블 연결</block>
   <block id="b16ca301b4f1b51a963f8ecd8de52638" category="image-alt">OIE 범례 아이콘 1 MB</block>
@@ -5623,7 +5593,6 @@
   <block id="27daaf3028854170e8321e8ffc573b7a" category="image-alt">drw 9500 케이블 콘솔 스위치 컨트롤러</block>
   <block id="c1ba9dd5eac89f4e8a8e84e18e1785d1" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block> .</block>
   <block id="e9a40b7f4288ab51ddb8de2a88f0cf93" category="video-title">애니메이션 - LED-USB 모듈 제거/설치</block>
-  <block id="a282c221fc0b795896ece0422f9febe5" category="paragraph">에 설명된 대로 SAS 쉘프를 설치하고 케이블을 연결합니다<block ref="f5c5b2b96e8da7cc3e4c1c8ae096611e" category="inline-link-rx"></block>.</block>
   <block id="5fac6017ac5f7a2aad56f49afbe00547" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러를 단일 쉘프에 연결합니다.</block>
   <block id="752a20127a073c8fcfed6924719fb0ed" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러를 두 드라이브 쉘프에 연결합니다.</block>
   <block id="cff7332bdf16692a2c691280471c2521" category="list-text">애니메이션을 사용하여 노트북을 관리 스위치에 연결합니다.</block>
@@ -5951,7 +5920,6 @@
   <block id="450bb6c29a5f5af0fe4d1f8fcfcb4777" category="paragraph">전원 공급 장치 교체에는 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.</block>
   <block id="3e476a4d56adc74857e9c49cf82980f1" category="list-text">시스템에는 4개의 전원 공급 장치가 있습니다.</block>
   <block id="d35281b877a38ecad54d9ac919c0ff9a" category="list-text">전원 케이블을 전원 공급 장치에 다시 연결합니다.</block>
-  <block id="5803fc3bcce0b024b213bb355de85f8f" category="paragraph">NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 쉘프 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 작성해야 합니다. 을 참조하십시오<block ref="86c3962fabec597b00cc6faeabccf883" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="312be20d26d0db2b40b706dc2f350028" category="image-alt">drw a900 OIE 변경 ns224 쉘프 ID IEOPS 836</block>
   <block id="48fb10beb7e1cd15b9bdbab40aac9532" category="paragraph">선반 엔드 캡</block>
   <block id="22f4a2aa68e94fdf29e1fc7d0f30d571" category="paragraph">선반 면판</block>
@@ -5984,7 +5952,6 @@
   <block id="aae78f4a3d47a08dddca98a632d4a75f" category="paragraph">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우, 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다.</block>
   <block id="68d9e980b8b4998ef88139d7b7ab8ff6" category="paragraph"><block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block></block>
   <block id="3cf0b39ddc0b0c6fbe705a62aacc7d3c" category="list-text">섀시 앞면에서 엄지 손가락으로 각 드라이브를 단단히 눌러 정지가 느껴질 때까지 밀어넣습니다. 이렇게 하면 드라이브가 섀시 중앙판에 단단히 고정됩니다.</block>
-  <block id="7acc547c8acfbe4a745ca72a3e0e83e4" category="image-alt">DRW A800 드라이브 장착형 IEOPS 960</block>
   <block id="9fec9d1f051b750c4b137dc68aaa9695" category="list-text">섀시 후면으로 이동합니다. 아직 접지되지 않은 경우 올바르게 접지하십시오.</block>
   <block id="3caccb46026f8affc6c95f65aa0c8af1" category="list-text">컨트롤러 모듈을 섀시 밖으로 밀어내고 안정적이고 평평한 표면에 놓습니다.</block>
   <block id="9bc9bee1c7c86ea6e815437b4f02ff6c" category="paragraph">컨트롤러 모듈 하단을 섀시 밖으로 밀어낼 때 지지하는지 확인합니다. .</block>
@@ -5994,8 +5961,6 @@
   <block id="a5462faa34b6cf806cb49f24d84b02a7" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 nicadmin 변환 명령을 사용하여 유지보수 모드에서 이러한 포트를 10GbE 연결로 변환합니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="c56809d9cff2ea190c6fb9d67e804b42" category="paragraph">섀시를 교체할 때 섀시 전면에 있는 6개의 팬 모듈을 분리해야 합니다.</block>
   <block id="e9e9a6de5e421dfe8a5ccc0b156ecc94" category="admonition">카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다<block ref="432345ed72f5509f18312f01d4f08dff" prefix=" " category="inline-code"></block> 명령 또는 시스템 포장 목록에서 선택합니다.</block>
-  <block id="2f50f96b8a95f8c73f9257ccd13d3c46" category="image-alt">섀시 ID IEOPS 856의 drw a900 컨트롤러</block>
-  <block id="ea69d5fd5f06add244968ab4b689c261" category="image-alt">drw a900 tnsc 네트워크 케이블 연결 IEOPS 933</block>
   <block id="e1ed9dc03578bbf7dfdc44cf31220a86" category="image-alt">drw a900 스위치 네트워크 케이블 IEOPS 934</block>
   <block id="f31eedcaeccdc6e2f0110a8d59512b5b" category="image-alt">drw a900 NS224 선반 케이블 1개 IEOPS 937</block>
   <block id="de9724762d060c871892fe8183e35056" category="image-alt">drw a900 NS224 2개의 선반 케이블 IEOPS 938</block>
@@ -6033,9 +5998,7 @@
   <block id="ba17e519b189ae10cd004d12dcc5e44d" category="paragraph"><block ref="751c01f8467f96987ff97e3a647e9973" category="inline-xref-macro-rx"></block></block>
   <block id="c1918f58421ab69768df267ff2412c99" category="paragraph"><block ref="0b030be2689b90a40f49c456c91f18ec" category="inline-xref-macro-rx"></block></block>
   <block id="b102c1828cf53d9df33f622c2208da4c" category="paragraph"><block ref="6ac3340c69a46ee235155eba76c461d6" category="inline-xref-macro-rx"></block></block>
-  <block id="d034ad76bb5b20c4f0a1790c3665c3b2" category="paragraph"><block ref="d034ad76bb5b20c4f0a1790c3665c3b2" category="inline-link-rx"></block></block>
   <block id="7be2f40216e9676314a384c650694fed" category="admonition">를 참조하십시오<block ref="17d46f7a995ead494ec7b2eb9caffda8" category="inline-link-rx"></block> 자세한 내용은 ONTAP 버전을 참조하십시오.</block>
-  <block id="1fad4d8ec174b60255a8febb2707e048" category="paragraph"><block ref="1fad4d8ec174b60255a8febb2707e048" category="inline-link-rx"></block></block>
   <block id="8c2c8bc4e47d0ed180d7a321a6f45a30" category="paragraph">NVRAM 모듈을 교체하려면 섀시의 슬롯 6에 있는 모듈을 찾은 다음 특정 단계를 따르십시오.</block>
   <block id="44e91a10c5fb9bc923eb6ca613b41106" category="list-text">문자 및 번호가 매겨진 캠 래치를 누릅니다.</block>
   <block id="35ed901089030d76b9de29f7bb8d54ce" category="paragraph">캠 래치가 섀시에서 멀어 집니다.</block>
@@ -6170,7 +6133,6 @@
   <block id="6a5cc777b5cea5516ed3c04946243c15" category="paragraph">DC PSU를 교체하려면 다음 단계를 수행하십시오.</block>
   <block id="81118bbf4dc8e737a15cb33e309d5928" category="list-text">플러그의 나비 나사를 사용하여 D-sub DC 전원 케이블 커넥터를 풉니다.</block>
   <block id="a11fffebed2ec4e6399a05866d830825" category="list-text">PSU에서 전원 케이블을 분리하여 따로 보관합니다.</block>
-  <block id="50e55f801844aaccd3dd2512f4973284" category="image-alt">drw dcpsu remove generic IEOPS 788을 대체합니다</block>
   <block id="7e9c947073c870125f5537753ceb963c" category="inline-image-macro">너비 = 10px</block>
   <block id="3c41e1437657ea44ea906d59991155fe" category="paragraph"><block ref="3c41e1437657ea44ea906d59991155fe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a2188e25bb7db28c0b09dd772382a5c" category="paragraph">나비 나사</block>
@@ -6248,13 +6210,6 @@
   <block id="1a4af28a3bbd2601782d5a7f4300eace" category="paragraph">시스템이 MetroCluster 구성인 경우 로 이동합니다<block ref="7a41c0ceac7b7f46cc98ba334d076153" category="inline-link-rx"></block> MetroCluster 구성 유형에 해당하는 설치 지침을 따르십시오.</block>
   <block id="71e3f3adc231b164f4f0837d133f2bc6" category="paragraph">MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 다음 워크플로우를 사용하여 스토리지 시스템을 구축합니다.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
-  <block id="8e4eec704f9a8706e1a3cf96accb2c17" category="list-text"><block ref="8e4eec704f9a8706e1a3cf96accb2c17" category="inline-link-rx"></block></block>
-  <block id="5173935e91aef44c51b8afd57f32f13f" category="list-text"><block ref="5173935e91aef44c51b8afd57f32f13f" category="inline-link-rx"></block></block>
-  <block id="e06ad9290eff5c16396920aafb75091e" category="list-text"><block ref="e06ad9290eff5c16396920aafb75091e" category="inline-link-rx"></block></block>
-  <block id="2f143cdae4fee80d6697460e215b8a02" category="list-text"><block ref="2f143cdae4fee80d6697460e215b8a02" category="inline-link-rx"></block></block>
-  <block id="9832cac218f9fee6c6d44a9f9b5e7d76" category="list-text"><block ref="9832cac218f9fee6c6d44a9f9b5e7d76" category="inline-link-rx"></block></block>
-  <block id="4cd32923632a1028f1e64fee85335b39" category="list-text"><block ref="4cd32923632a1028f1e64fee85335b39" category="inline-link-rx"></block></block>
-  <block id="2bf999bae7084da5db26c6b483ac44f0" category="list-text"><block ref="2bf999bae7084da5db26c6b483ac44f0" category="inline-link-rx"></block></block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
   <block id="26d2e0bd267361cc8916e7e16faebcbb" category="paragraph">랙 또는 캐비닛에 스위치를 설치합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.</block>
   <block id="8821c03ea98d1edaf4b4b82c0aaf59dc" category="inline-link-macro">BES-53248 스위치를 설치합니다</block>
@@ -6497,8 +6452,6 @@
   <block id="ac4fc8e93ed87aaf0d607c7594b760df" category="open-title">옵션 2: 두 개의 NS224 드라이브 쉘프에 컨트롤러 케이블을 연결합니다</block>
   <block id="eab02c161618f87134d04b274c9ed0a9" category="image-alt">drw a900 NS224 라인 아트 2개의 선반 케이블 IEOPS 1147</block>
   <block id="93d4151426ee3e46d52580ae98128972" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block></block>
-  <block id="a6857db3b19fb4b9bb2a3b1cad9a31f1" category="list-text"><block ref="a6857db3b19fb4b9bb2a3b1cad9a31f1" category="inline-link-rx"></block></block>
-  <block id="90a9e7415b88be6a0d94cebc7d4a7a57" category="list-text"><block ref="90a9e7415b88be6a0d94cebc7d4a7a57" category="inline-link-rx"></block></block>
   <block id="17732d64911b83c1ef019e7ce301df3a" category="summary">스토리지 시스템 설명서를 통해 ASA 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="27562113eba41d0820398afd585cb267" category="sidebar">ASA 소프트웨어 구성</block>
   <block id="ff529c4d04327f7d20ae4d7b457bcd18" category="sidebar">ASA 데이터시트 를 참조하십시오</block>
@@ -6748,7 +6701,6 @@
   <block id="a9965269fc2882517b2f7404230818ad" category="list-text">기존 스택의 끝(논리적 첫 번째 또는 마지막 디스크 쉘프)에 디스크 쉘프를 핫 추가하는 경우 구성에 해당하는 하위 단계를 완료하고, 그렇지 않으면 다음 단계로 이동합니다.</block>
   <block id="ca067501330c228a786fd00d17229575" category="paragraph">다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 컨트롤러에 대한 4중 경로 연결이 있는 스택의 맨 끝에 디스크 쉘프를 추가합니다</block>
   <block id="fa3d4e5360018aa45e5104272d43148c" category="paragraph">스택은 에 명시된 요구 사항을 충족해야 합니다 <block ref="d7ead9d51e0253f97f9c0ae83a2ee9eb" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
-  <block id="78fe270cb69c9ecda90d7e049a571c28" category="list-text">&lt;lno-DARE&gt;가 명령 출력에 표시되지 않고 시스템에서 ONTAP 9.6 이상을 실행 중인 경우 다음 섹션으로 이동하십시오. <block ref="a913f4e8384864716d5146884ff27f0e" category="inline-xref-macro-rx"></block>.</block>
   <block id="d9b691280dde7c1805e39052719c9c29" category="list-text">정상 컨트롤러에서 자동 반환 비활성화:
 storage failover modify -node local -auto-반환 false'입니다
 또는<block ref="1d2c479b57949de891a15e148e1ebcf5" prefix=" " category="inline-code"></block></block>
@@ -7001,7 +6953,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="945919717a9a1b9de8896baef8c155a5" category="paragraph">스위치 클러스터의 네트워크 연결 및 클러스터 인터커넥트 포트에 케이블을 연결합니다.</block>
   <block id="b6713b6dcccfb0ea851ac5892871d1ce" category="paragraph">컨트롤러를 외부 스토리지에 연결합니다.</block>
   <block id="3fc162aa6870cf22cf3e0a947b89615a" category="video-title">애니메이션 - 드라이브 쉘프 케이블링</block>
-  <block id="2728bec52c30a9bf554b834ce8cfd335" category="admonition">FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 을 참조하십시오<block ref="6f4656a8b776447b5b4debad13e7a22e" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="936f11624ce65028d5f2861c02e343af" category="image-alt">OIE 범례 아이콘 1 lo</block>
   <block id="c40e49e90ec7d35ff60916a8d39fe6e8" category="image-alt">OIE 범례 아이콘 2MB</block>
   <block id="3b7d5f20d28c201cdbde659df3e31649" category="image-alt">OIE 범례 아이콘 3 t</block>
@@ -7698,12 +7649,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a15b9605ee28854b0a879286a11a485d" category="doc">FAS2800 하드웨어 유지 관리</block>
   <block id="3bf4e15c5081d9414a6cd3448aae890e" category="paragraph">FAS2800 스토리지 시스템의 경우 다음 구성 요소에서 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="d90835a42340aac8a036ef710a1aa68a" category="doc">AFF, ASA 및 FAS 스토리지 시스템을 가동 및 운영합니다</block>
-  <block id="fe16224741a81fa9747d82d6dc05182c" category="list-text"><block ref="fe16224741a81fa9747d82d6dc05182c" category="inline-link-rx"></block></block>
-  <block id="52142476f2ac75ac73f5e40f09d0e6d4" category="list-text"><block ref="52142476f2ac75ac73f5e40f09d0e6d4" category="inline-link-rx"></block></block>
-  <block id="b9cc4cc5d585d56b19a0b0bf8c7ff71f" category="list-text"><block ref="b9cc4cc5d585d56b19a0b0bf8c7ff71f" category="inline-link-rx"></block></block>
-  <block id="0ac6aa3296c0437f3274277862d88d2b" category="list-text"><block ref="0ac6aa3296c0437f3274277862d88d2b" category="inline-link-rx"></block></block>
   <block id="a334af0b164fc0db79711e89abe4cb0d" category="inline-link">FAS2800</block>
-  <block id="53e69397147d83b3fa253cab22a92a98" category="list-text"><block ref="53e69397147d83b3fa253cab22a92a98" category="inline-link-rx"></block></block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -7973,7 +7919,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ca7dce9cd06f0f2ef6e548c8c26d54d9" category="sidebar">ASA C800 컨트롤러 모듈</block>
   <block id="664f9c52f93e2fbf6e801148b0f573ad" category="inline-link">HA 쌍 관리</block>
   <block id="665a2533bb5f8d55add7fd24df29e614" category="paragraph"><block ref="665a2533bb5f8d55add7fd24df29e614" category="inline-link-rx"></block></block>
-  <block id="8fa572d5dfdbff8c60e791d349eca279" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-dARE&gt;가 표시되면 시스템이 NVE를 지원하지 않는 것입니다. 로 진행합니다<block ref="c2302bfb39f1e6b6fccfd9207e94da44" category="inline-link-rx"></block>.</block>
   <block id="7d52b24114e5d676f50874574fb29878" category="paragraph">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
   <block id="6cca151867efbcb742b6e15efec51760" category="list-text">캠 핸들의 래치를 눌러 분리될 때까지 캠 핸들을 완전히 열어 컨트롤러 모듈을 중앙판에서 분리한 다음, 양손으로 컨트롤러 모듈을 섀시 밖으로 반쯤 당깁니다.</block>
   <block id="92edeac7b5b629f5e93e2de4ba2adf43" category="list-text">컨트롤러 모듈 후면에 있는 NVMEM LED를 확인하십시오.  NV 아이콘을 찾습니다.</block>
@@ -8014,7 +7959,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="089568b0e72f52eda465bac3d797022f" category="list-text">케이블 커넥터 당김 탭 방향이 올바른지 그림 화살표를 확인합니다.</block>
   <block id="cef25943b26eeebcaa1241ede0442fb2" category="paragraph">이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.</block>
   <block id="86ef3e62afc46d4fbce176cfff238447" category="paragraph">다음 표에는 드라이브 셸프를 스토리지 시스템에 연결하는 그림 설명에서 출력 번호 및 케이블 색상이 있는 케이블 유형이 나와 있습니다.</block>
-  <block id="225172475d1dd48d2f55426f1792f1b5" category="admonition">이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다. 을 참조하십시오<block ref="defd6f8cbcbf4438c52ada1e92d7a17f" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="8a811c8bdca2987d299cfb24cf85ad86" category="paragraph">쉘프-쉘프 케이블링</block>
   <block id="3fa1bc4f962d0649f457ff7e994b46d8" category="paragraph">컨트롤러 A를 드라이브 쉘프에 연결합니다</block>
   <block id="353960fbbf75aa5a4dd1042a20bf18dc" category="paragraph">컨트롤러 B를 드라이브 쉘프에 연결합니다</block>
@@ -8041,7 +7985,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6a1952da65ff3ad3728cd89ec078bfa2" category="paragraph">이 절차에서는 AFF C250 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
   <block id="3e9ec063809ed35fdf77c6c261c6e205" category="paragraph">빠른 설명서는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르기까지 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 콘텐츠를 사용합니다.</block>
   <block id="34da8131e3c849a4fd58c995ca7c8514" category="paragraph">설치 및 설정 지침에는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르는 일반적인 시스템 설치에 대한 그래픽 지침이 나와 있습니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.</block>
-  <block id="5590b96dc59eb91eb51b7b3ea51d3fd8" category="image-alt">DRW C400은 컨트롤러 IEOPS 1216을 탈착합니다</block>
   <block id="8a8905b8ba33c894ca2404f3ecc9601d" category="image-alt">DRW C400 개방형 에어 덕트 IEOPS 1215</block>
   <block id="7f3e7059150c562376058a9c62805700" category="image-alt">DRW C400은 부팅 미디어 IEOPS 1217을 교체합니다</block>
   <block id="2e983c0397ba596f716adfed1e1f9821" category="image-alt">DRW C400 빈 라이저는 IEOPS 1225를 제거합니다</block>
@@ -8051,7 +7994,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5af2765bc8ec26a113a34fb076ee531e" category="image-alt">DRW C400은 PCIe 카드 IEOPS 1235를 대체합니다</block>
   <block id="f84e6736e0937abd8ec66865d23305e8" category="image-alt">DRW C400 설치 컨트롤러 IEOPS 1226</block>
   <block id="e46b8c6d3d358d972a1fe516250dcf5d" category="paragraph">컨트롤러를 섀시에 밀어 넣습니다</block>
-  <block id="ff0420a1b97d66a283e50773fa71f7ab" category="image-alt">DRW C400 RTC 배터리 IEOPS 1239</block>
   <block id="d1ad021bd9b79ffa9323df56f68e4b22" category="paragraph">빠른 설명서는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르기까지 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 절차를 사용하십시오.</block>
   <block id="e7f3c0051e6bc5cbd205f59b35151985" category="inline-image-macro">폭 = 500px</block>
   <block id="8f9d84ce0761e9cbbd0e69dc419011a6" category="paragraph"><block ref="8f9d84ce0761e9cbbd0e69dc419011a6" category="inline-image-macro-rx" type="image"></block></block>
@@ -8096,14 +8038,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ca42e40f781122cb5a2d8f08cb50d450" category="summary">스토리지 시스템 설명서를 통해 ASA C-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="d6db6f02fef14cb7ca1df4e0aecf3992" category="doc">ASA(All Flash SAN 어레이) C-Series 시스템</block>
   <block id="1e328579e066bd52d81db5813109e763" category="paragraph">** ASA A-시리즈 시스템**</block>
-  <block id="1ab5446725f4ee75e53cfa05dcd66d51" category="list-text"><block ref="1ab5446725f4ee75e53cfa05dcd66d51" category="inline-link-rx"></block></block>
-  <block id="5bdb8055b260f02eec19d823c3311a42" category="list-text"><block ref="5bdb8055b260f02eec19d823c3311a42" category="inline-link-rx"></block></block>
-  <block id="c68b919518dbc07c3ea6de93e748f2a8" category="list-text"><block ref="c68b919518dbc07c3ea6de93e748f2a8" category="inline-link-rx"></block></block>
-  <block id="77072c848f54ead938faeef11b9c0c7f" category="list-text"><block ref="77072c848f54ead938faeef11b9c0c7f" category="inline-link-rx"></block></block>
   <block id="41bfcd2f6014398965bef92c57ac1de1" category="paragraph">** ASA C-시리즈 시스템**</block>
-  <block id="6505edfb90a2164175a72e5b1e50783a" category="list-text"><block ref="6505edfb90a2164175a72e5b1e50783a" category="inline-link-rx"></block></block>
-  <block id="503163f0da3a219668f1526d7486559b" category="list-text"><block ref="503163f0da3a219668f1526d7486559b" category="inline-link-rx"></block></block>
-  <block id="2127de740eb730a4618a8b073a6c6e02" category="list-text"><block ref="2127de740eb730a4618a8b073a6c6e02" category="inline-link-rx"></block></block>
   <block id="6be417bc5c1ffdb0f8da869305e5d269" category="list-text">케이블 관리 장치를 컨트롤러 후면에 연결합니다(그림 참조).</block>
   <block id="d042cd94231d5a9490b5a46cb7fcfa64" category="image-alt">DRW C400 케이블 트레이 IEOPS 1208</block>
   <block id="9e9d13bc60316acb706283fdc88fb378" category="image-alt">DRW C400 TNSC 네트워킹 케이블 IEOPS 1189</block>
@@ -8247,7 +8182,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b6f08137ef915aeef8b0f7a87febae2a" category="image-alt">상단의 당김 탭이 있는 케이블 커넥터</block>
   <block id="fba6f55e0eedb7bfb55d5ae671432c82" category="image-alt">당김 탭이 있는 케이블 커넥터</block>
   <block id="8310c84e951a895da0b0f8647c1eb8d9" category="image-alt">ONTAP 아이콘을 선택합니다</block>
-  <block id="c4e6f16ead2370d5b6f107bb474cb8d8" category="list-text"><block ref="c4e6f16ead2370d5b6f107bb474cb8d8" category="inline-link-rx"></block></block>
   <block id="efd776be7a583ca294bb1a8ce2c4e66e" category="image-alt">컨트롤러 모듈을 분리합니다</block>
   <block id="cc278673be0ce007e60343587ca221b7" category="image-alt">에어 덕트를 엽니다</block>
   <block id="3adccad6709367d60f0645e89c86a994" category="image-alt">에어 덕트 닫기</block>
@@ -8413,7 +8347,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="421c376f4d6d54ea975a03a818082d3d" category="image-alt">DIMM 교체</block>
   <block id="9cb7281bb7eb2acd0ccc0342394f8a2a" category="summary">NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.</block>
   <block id="be156c2254730ffea327aad8b7574600" category="paragraph">&lt;stdin&gt;-include:../_include/700_9000_caching_module_and_core_dump_module_replace.adoc[]</block>
-  <block id="c2aecd7a81767c23b66c3ce771bbf967" category="image-alt">Drw ozeki sys 운전실 하단 상단 치수 ieops 1803</block>
   <block id="98c84c18c84bbdb869a3af52fb92fee5" category="admonition">SuperRail을 설치하기 위한 전면 및 후면 연결 지점 사이의 최소 깊이는 24인치이며 최대 깊이는 32인치입니다.</block>
   <block id="391efe7c4ae90cf6bb51a9deabcdbefb" category="image-alt">5개의 케이블 체인과 각 드로어에 대한 수직 및 수평 커넥터 모습</block>
   <block id="eaa8764720f96ec6f05bfcafb2927484" category="image-alt">케이블 체인 끝에 있는 주황색 고리</block>
@@ -9476,9 +9409,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9020c560951313547d9b00a00f95d818" category="doc">전원 공급 장치를 교체합니다. - AFF A70, AFF A90</block>
   <block id="866b7e69a0fb0f745608a59b2a02f1ca" category="doc">실시간 클럭 배터리(AFF A70, AFF A90)를 교체합니다</block>
   <block id="a1bdc631ad485f9356bc93d7ccbb7e85" category="doc">시스템 관리 모듈(AFF A70, AFF A90)을 교체합니다</block>
-  <block id="47213676da315290cbc4f8dbfd4c19b1" category="list-text"><block ref="47213676da315290cbc4f8dbfd4c19b1" category="inline-link-rx"></block></block>
-  <block id="0f8eba0b4d4003961e911a8b87c8c645" category="list-text"><block ref="0f8eba0b4d4003961e911a8b87c8c645" category="inline-link-rx"></block></block>
-  <block id="afadad86a19bc1f3f4145429ab25f587" category="list-text"><block ref="afadad86a19bc1f3f4145429ab25f587" category="inline-link-rx"></block></block>
   <block id="f710bde9f928341df6ff92fee79cb81a" category="summary">핫 애드되는 각 NS224 쉘프를 케이블로 연결하면 각 쉘프가 HA 쌍의 각 컨트롤러에 2개의 연결이 가능합니다.</block>
   <block id="567fab43047b0960ce69a80b4d3eeef2" category="doc">AFF 시스템에 케이블 쉘프 - NS224 쉘프</block>
   <block id="62415c5f208498fa7a928f2f3d1ce337" category="example-title">케이블 선반을 AFF A1K에 연결합니다</block>
@@ -9875,11 +9805,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f4c083c41633c63a72a1bbce7db1c159" category="sidebar">컨트롤러를 반납합니다</block>
   <block id="26916af0dde7f17e1c0020bc61152522" category="sidebar">재배열 및 컨트롤러 반환</block>
   <block id="a39e0fbfb2db42a80ba7546850d8b5c6" category="paragraph"><block ref="a39e0fbfb2db42a80ba7546850d8b5c6" category="inline-link-rx"></block></block>
-  <block id="e27597c307865e3bea898a954dc995d4" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을<block ref="4c714ee9fc4a7e04a2f40d5895a74f6c" category="inline-link-rx"></block>연결합니다.</block>
-  <block id="c143f6738ddd9a541350644ebd64ceb2" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다.<block ref="4c714ee9fc4a7e04a2f40d5895a74f6c" category="inline-link-rx"></block></block>
-  <block id="755e668f97fbbf7befbf9d64fb746177" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="f09cb6a873a3efd513b1f74c6b0f4d6b" category="inline-link-rx"></block>연결합니다.</block>
   <block id="4c32ebd39f3a998e8ed434a92fb2337e" category="image-alt">NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF A250 C250 또는 FAS500f 케이블 연결</block>
-  <block id="b413266e5808605ce76e56374f66f52b" category="paragraph">케이블 연결에 대한 자세한 내용은 을<block ref="defd6f8cbcbf4438c52ada1e92d7a17f" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="3512d92434ff4ef9e4eb4253b21a863e" category="image-alt">케이블은 커넥터 당김 탭이 위를 향하도록 삽입합니다</block>
   <block id="fa8057e66f11f58b193c0063c5f89d0f" category="image-alt">NS224 NSM100 모듈 포트 e0a 및 e0b의 위치</block>
   <block id="21631ea576ae592d82bfa53578687d4b" category="image-alt">작업자 디스플레이 패널 전원 LED</block>
@@ -9961,4 +9887,83 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4b2bd889d120e947fdefd38ec782a1e4" category="image-alt">좌측 교체용 케이블 체인</block>
   <block id="73272ed5a28a1f4d9270f9fb73f87cc0" category="inline-image-macro">우측 교체용 케이블 체인</block>
   <block id="b4418dc8cc1b24bcce503c5f73b9599e" category="paragraph"><block ref="b4418dc8cc1b24bcce503c5f73b9599e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="abf8f13bdb84c7122ff9a72d14501969" category="image-alt">컨트롤러를 제거합니다</block>
+  <block id="f58d98f433350ee3e614bfdfe3036a89" category="image-alt">컨트롤러 모듈을 분리합니다</block>
+  <block id="0e6eb93881093798ffaf4eef324aae16" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
+  <block id="f399facc82d214513205adcdfed1e55f" category="image-alt">시트 디스크 드라이브</block>
+  <block id="f20a0219f10b0070c92efe4269486629" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
+  <block id="86e8e2badf42560bb0b1ed3bac3933fa" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
+  <block id="32054c5ad8312edd8060078021c40e5a" category="list-text">명령 출력에 &lt;lno-DARE&gt; 또는 &lt;1Ono-DARE&gt; 가 표시되면 시스템이 NVE를 지원하지 않습니다. 로 이동합니다.<block ref="28ec6f22ff725a2b75e5efb9fe4ec8ad" category="inline-link-macro-rx"></block></block>
+  <block id="f5fc26027a17bd6c3d672fadcfbcbd0a" category="list-text">명령 출력에 &lt;lno-DARE&gt;이 표시되지 않고 시스템에서 ONTAP 9 .6 이상을 실행 중이면 다음 섹션으로 이동합니다.<block ref="2a46afadceb505b77f1bd61e2cc13b61" category="inline-link-macro-rx"></block></block>
+  <block id="b9c98500ab9d006e0d9fd3d1c95f7904" category="paragraph">케이블 연결에 대한 자세한 내용은 을 <block ref="b8ff88c1a2e9444f28ec1504689e0040" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="ade8035150bd89ce6852db30459ac3ea" category="image-alt">AFF A90 AFF A70 체중 주의 아이콘</block>
+  <block id="ef83cb60cd5ea6118e6d106efa30f927" category="image-alt">인양 무게 주의 사항</block>
+  <block id="f3badb2cde47b97db55936f633e8bbf1" category="image-alt">스위치가 없는 2노드 클러스터 복합 케이블 연결</block>
+  <block id="34af8f9ffd0b4b6280598852b3af1562" category="inline-image-macro">스위치 클러스터 복합 케이블 연결</block>
+  <block id="b366deff74abec3d97706be3787610e6" category="paragraph"><block ref="b366deff74abec3d97706be3787610e6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e74fc944b6640bce2095a80e847f3353" category="paragraph"><block ref="e74fc944b6640bce2095a80e847f3353" category="inline-link-macro-rx"></block></block>
+  <block id="26b2e029138f60c53b9962c3dd979bff" category="paragraph"><block ref="26b2e029138f60c53b9962c3dd979bff" category="inline-link-macro-rx"></block></block>
+  <block id="56d92be82a54ba66080116a8d89e1c62" category="image-alt">무게 인양 주의 레이블</block>
+  <block id="9554185bd1af8271072b83b3b2d575ac" category="image-alt">케이블 관리 ARM를 설치합니다</block>
+  <block id="6689fce443e90feab8661570283f66c8" category="image-alt">일반적인 클러스터 구성</block>
+  <block id="e02d5ac9fd42c5389b0ad276455297f1" category="image-alt">케이블 당김 탭 방향</block>
+  <block id="2bccda25615c5e6e7b2f2c08de00a446" category="paragraph">NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 선반 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 만들어야 합니다. <block ref="59d7f7611d6a3a02163f2743d346863e" category="inline-link-macro-rx"></block>자세한 지침은 을 참조하십시오.</block>
+  <block id="79f9797d84bf75ae713143b18a0030f3" category="paragraph">NS224 쉘프는 셸프 ID 00 및 01로 사전 설정되어 있습니다. 선반 ID를 변경하려면 버튼이 있는 구멍에 삽입할 도구를 만들어야 합니다. <block ref="59d7f7611d6a3a02163f2743d346863e" category="inline-link-macro-rx"></block>자세한 지침은 을 참조하십시오.</block>
+  <block id="f3649257de65ad2898ffea0bcd6b4429" category="admonition">이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원되는 다른 드라이브 쉘프와 유사합니다. 자세한 내용은 을 <block ref="b8ff88c1a2e9444f28ec1504689e0040" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="a50d38918f3af2fcdf9a82289745bef3" category="admonition">FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 자세한 내용은 을 <block ref="e082bc1662f9e2eeea25ff123ac1639a" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="cea2fe0896f98e522227f31af739bad1" category="image-alt">RTC 배터리 분리 방법</block>
+  <block id="c865faf8e136bd4fb16b864c71a1a831" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 SAS 쉘프를 설치하고 <block ref="4a30b7191a311b85a3f2f50c86b1c925" category="inline-link-macro-rx"></block>연결합니다.</block>
+  <block id="1668821fbbc6ef249109c235ace901e6" category="paragraph">슬롯 3 또는 7의 NIC 모듈</block>
+  <block id="482ef01703219125ccae426ff4615b76" category="paragraph">에 설명된 대로 SAS 쉘프를 설치하고 케이블을 <block ref="4a30b7191a311b85a3f2f50c86b1c925" category="inline-link-macro-rx"></block>연결합니다.</block>
+  <block id="b50fb23aa9dcb8c4fb1207d42be2b9ef" category="admonition">SAS 케이블 연결에 대한 자세한 정보 및 워크시트는 를 참조하십시오 <block ref="7a9ea3663e1b04ab8d8799fec120c13c" category="inline-link-macro-rx"></block></block>
+  <block id="59a6e33abad0374c68f887cd3fe3416f" category="list-text">시스템에 대한 SAS 케이블 연결 워크시트를 작성합니다. 을 <block ref="7a9ea3663e1b04ab8d8799fec120c13c" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="b6799ec4c4ae20ab730ee39bdc6f022e" category="list-text"><block ref="b6799ec4c4ae20ab730ee39bdc6f022e" category="inline-link-macro-rx"></block></block>
+  <block id="51db8835b6a4662bdd282d562dce9ce4" category="list-text"><block ref="51db8835b6a4662bdd282d562dce9ce4" category="inline-link-macro-rx"></block></block>
+  <block id="9050a46bb2de8c6cc18f67e24b6f5bf6" category="list-text"><block ref="9050a46bb2de8c6cc18f67e24b6f5bf6" category="inline-link-macro-rx"></block></block>
+  <block id="314f50463955587e2037d8d2e40ae3af" category="list-text"><block ref="314f50463955587e2037d8d2e40ae3af" category="inline-link-macro-rx"></block></block>
+  <block id="45f5be1c6c4a88aeaa428800b6f3aee9" category="list-text"><block ref="45f5be1c6c4a88aeaa428800b6f3aee9" category="inline-link-macro-rx"></block></block>
+  <block id="8de3ebdb51afcc0413ac087089da1ef2" category="list-text"><block ref="8de3ebdb51afcc0413ac087089da1ef2" category="inline-link-macro-rx"></block></block>
+  <block id="67a1276a1283538eae5934ff4eb4a757" category="list-text"><block ref="67a1276a1283538eae5934ff4eb4a757" category="inline-link-macro-rx"></block></block>
+  <block id="126e4c17980262c3c430f022f5f56c3f" category="list-text"><block ref="126e4c17980262c3c430f022f5f56c3f" category="inline-link-macro-rx"></block></block>
+  <block id="ba2155c54eab4d26f52d9b663764d321" category="list-text"><block ref="ba2155c54eab4d26f52d9b663764d321" category="inline-link-macro-rx"></block></block>
+  <block id="c47800ce43f6bd4b5933465b941ca5e9" category="list-text"><block ref="c47800ce43f6bd4b5933465b941ca5e9" category="inline-link-macro-rx"></block></block>
+  <block id="e5aad213d0a77808fe82b572eeb5888c" category="list-text"><block ref="e5aad213d0a77808fe82b572eeb5888c" category="inline-link-macro-rx"></block></block>
+  <block id="c53d8396f56e01349bd6179f83e6a9a7" category="list-text"><block ref="c53d8396f56e01349bd6179f83e6a9a7" category="inline-link-macro-rx"></block></block>
+  <block id="694ebeeb15a60c82d17ed627858519ec" category="list-text"><block ref="694ebeeb15a60c82d17ed627858519ec" category="inline-link-macro-rx"></block></block>
+  <block id="c86567a0c3671bea1c02bd3e7294ad5b" category="list-text"><block ref="c86567a0c3671bea1c02bd3e7294ad5b" category="inline-link-macro-rx"></block></block>
+  <block id="fa92edc45af4eed5d7a491dc76f20edd" category="list-text"><block ref="fa92edc45af4eed5d7a491dc76f20edd" category="inline-link-macro-rx"></block></block>
+  <block id="c95480199cbbef020e68f17335af44d8" category="list-text"><block ref="c95480199cbbef020e68f17335af44d8" category="inline-link-macro-rx"></block></block>
+  <block id="ffb9da3894ac287e5ae93e12ca8cfbf5" category="list-text"><block ref="ffb9da3894ac287e5ae93e12ca8cfbf5" category="inline-link-macro-rx"></block></block>
+  <block id="33ec0e26cea0cf48884f5417b5271b20" category="list-text"><block ref="33ec0e26cea0cf48884f5417b5271b20" category="inline-link-macro-rx"></block></block>
+  <block id="76e66c3eaa0efaed0d080a74942cc900" category="list-text"><block ref="76e66c3eaa0efaed0d080a74942cc900" category="inline-link-macro-rx"></block></block>
+  <block id="b1b7d90b95e84c2c2f4f36df9e38550c" category="list-text"><block ref="b1b7d90b95e84c2c2f4f36df9e38550c" category="inline-link-macro-rx"></block></block>
+  <block id="8e4e1285f49cb2de8e4ad6f96de7a955" category="list-text"><block ref="8e4e1285f49cb2de8e4ad6f96de7a955" category="inline-link-macro-rx"></block></block>
+  <block id="6ed83ea3812e071cb890a3397f1ef8f3" category="list-text"><block ref="6ed83ea3812e071cb890a3397f1ef8f3" category="inline-link-macro-rx"></block></block>
+  <block id="f9e104181ae9f5f7cb047ada1d31db67" category="list-text"><block ref="f9e104181ae9f5f7cb047ada1d31db67" category="inline-link-macro-rx"></block></block>
+  <block id="7e888c9e662025943d61a7b6ab33fa3f" category="list-text"><block ref="7e888c9e662025943d61a7b6ab33fa3f" category="inline-link-macro-rx"></block></block>
+  <block id="0b91391244828b90a1ed6303288f165b" category="list-text"><block ref="0b91391244828b90a1ed6303288f165b" category="inline-link-macro-rx"></block></block>
+  <block id="57a2933dce60e141524865c41e2635ce" category="image-alt">지지 레일 설치 방법</block>
+  <block id="6fb023b413c1f113940c64b778b1ea19" category="image-alt">케이지 너트 설치 방법</block>
+  <block id="71d0706f6b47786d0dedd60322ca91a7" category="image-alt">브래킷의 프론트 및 리어 볼트 다운 브래킷 및 플로어 앵커 포인트의 위치</block>
+  <block id="bfc0cce31d98aae9ff6f0afbee4218da" category="image-alt">표시등이 켜지는 베젤의 전원을 분리하는 방법</block>
+  <block id="f578e985217a79047ffda7fc4b180e02" category="image-alt">전면 도어를 분리하는 방법</block>
+  <block id="b2564b61ca12ebf4a488cbdc0cce727f" category="inline-image-macro">시스템 캐비닛 측면 패널이 있는 상호 연결 브래킷을 설치하는 방법</block>
+  <block id="cf8b97cab728f89b4da7baf0f5ca79cf" category="list-text">시스템 캐비닛 측면 패널이 장착된 상호 연결 브래킷을 설치하는 경우 다음 그림을 참조하십시오. <block ref="d70d3974fa2da1671002032761d0a6c5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5738a6b999fdf7d364607840e3cc0677" category="inline-image-macro">시스템 캐비닛 측면 패널을 분리한 상태에서 상호 연결 브래킷을 설치하는 방법</block>
+  <block id="a61dd737c11d0f864c9548e2f6aa9f84" category="list-text">시스템 캐비닛 측면 패널을 분리한 상태에서 상호 연결 브래킷을 설치하는 경우 다음 그림을 참조하십시오. <block ref="a1bcde1197c2dce30494d2f780a78e1d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba6c2986da775e910e79b1ca95b73c8d" category="image-alt">고정 레일을 제거하는 방법</block>
+  <block id="1dcfc009d16c30b8aacf28ebe57c47cc" category="image-alt">전원 공급 장치 하우징 및 전원 공급 장치를 분리하는 방법</block>
+  <block id="09a493301a026113d898691ba7dc2f2f" category="image-alt">베젤 전원 공급 장치 도관을 분리합니다</block>
+  <block id="936ef259e0efb1f9f3f7d58c4321acd0" category="image-alt">배지 전원 케이블을 캐비닛의 다른 쪽으로 이동하는 방법</block>
+  <block id="af93e1aa65228f426ca0975df51e9263" category="image-alt">전면 도어에 조명 배지를 다시 설치하는 방법</block>
+  <block id="c4f952bf2e8da62bbec89d8b25f01d71" category="inline-image-macro">조명 배지를 제거하는 방법</block>
+  <block id="c10739aa61a9c6b713b87668c827de5b" category="paragraph">다음 그림과 함께 다음 단계를 사용하십시오.<block ref="1afa4d7311a14b4db10f850c473bef34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eaa40ecf0ab58cd749fd4bde3bca611e" category="image-alt">하단 힌지를 고정하는 나사를 분리합니다</block>
+  <block id="ac5733ebc895a7d02ab309fcfd6f1e39" category="image-alt">시스템 캐비닛의 전면 후면 및 측면 모습</block>
+  <block id="4f5967d6e1e7c3a8ebe7ff7cb13d297f" category="image-alt">시스템 캐비닛의 상단 및 하단 모습</block>
+  <block id="041e3dc0c2e09769718a5527ab4196a5" category="image-alt">시스템 캐비닛의 포장을 푸는 방법</block>
+  <block id="c6d2485e6e329f1085d2f13a06b7f1f7" category="image-alt">SuperRail을 사각 구멍 4 포스트 랙에 설치하는 방법</block>
+  <block id="1a603190ae07bbceebb7036072831b8b" category="image-alt">원형 구멍 4 포스트 랙에 SuperRail을 설치하는 방법</block>
+  <block id="7c89b00bc8ce7878c39671bd32585c2d" category="image-alt">2개의 포스트 미드 마운트 레일 키트를 설치하는 방법</block>
+  <block id="887f19a9ed16e42d506a7ee90031e54f" category="image-alt">2개의 포스트 플러시 마운트 레일 키트를 설치하는 방법</block>
 </blocks>

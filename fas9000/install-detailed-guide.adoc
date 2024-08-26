@@ -313,7 +313,7 @@ image:../media/SAS_storage_ONTAP_9.8_and_later.png["ONTAP 9.8 이상에 대한 S
 NOTE: 드라이브 쉘프 스택이 둘 이상인 경우, 드라이브 쉘프 유형에 대한 _설치 및 케이블 연결 가이드_를 참조하십시오.
 
 +
-https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12 모듈 장착 선반"]
+link:../sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 케이블 연결 - IOM12 모듈 장착 선반"]
 
 +
 image:../media/Cable_shelves_new_system_IOM12_shelves.png["SAS 쉘프와 스토리지 시스템 케이블링"]

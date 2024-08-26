@@ -53,55 +53,55 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 ** AFF A 시리즈 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/a1k/install-overview.html["AFF A1K 를 참조하십시오"]
-* https://docs.netapp.com/us-en/ontap-systems/a70-90/install-overview.html["AFF A70 를 참조하십시오"]
-* https://docs.netapp.com/us-en/ontap-systems/a70-90/install-overview.html["AFF A90 를 참조하십시오"]
-* https://docs.netapp.com/us-en/ontap-systems/a150/install-setup.html["AFF A150"]
-* https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html["AFF A250"]
-* https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html["AFF A400"]
-* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html["AFF A800"]
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_setup.html["AFF A900"]
+* link:a1k/install-overview.html["AFF A1K 를 참조하십시오"]
+* link:a70-90/install-overview.html["AFF A70 를 참조하십시오"]
+* link:a70-90/install-overview.html["AFF A90 를 참조하십시오"]
+* link:a150/install-setup.html["AFF A150"]
+* link:a250/install-setup.html["AFF A250"]
+* link:a400/install-setup.html["AFF A400"]
+* link:a800/install-setup.html["AFF A800"]
+* link:a900/install_setup.html["AFF A900"]
 
 
 [role="quick-margin-para"]
 ** AFF C 시리즈 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html["AFF C190"]
-* https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html["AFF C250"]
-* https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html["AFF C400"]
-* https://docs.netapp.com/us-en/ontap-systems/c800/install-setup.html["AFF C800"]
+* link:c190/install-setup.html["AFF C190"]
+* link:c250/install-setup.html["AFF C250"]
+* link:c400/install-setup.html["AFF C400"]
+* link:c800/install-setup.html["AFF C800"]
 
 
 [role="quick-margin-para"]
 ** ASA A-시리즈 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/asa150/install-setup.html["ASA A150"]
-* https://docs.netapp.com/us-en/ontap-systems/asa250/install-setup.html["ASA A250"]
-* https://docs.netapp.com/us-en/ontap-systems/asa400/install-setup.html["ASA A400"]
-* https://docs.netapp.com/us-en/ontap-systems/asa800/install-setup.html["ASA A800"]
-* https://docs.netapp.com/us-en/ontap-systems/asa900/install_setup.html["ASA A900"]
+* link:asa150/install-setup.html["ASA A150"]
+* link:asa250/install-setup.html["ASA A250"]
+* link:asa400/install-setup.html["ASA A400"]
+* link:asa800/install-setup.html["ASA A800"]
+* link:asa900/install_setup.html["ASA A900"]
 
 
 [role="quick-margin-para"]
 ** ASA C-시리즈 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/asa-c250/install-setup.html["ASA C250 을 참조하십시오"]
-* https://docs.netapp.com/us-en/ontap-systems/asa-c400/install-setup.html["ASA C400 을 참조하십시오"]
-* https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-setup.html["ASA C800을 참조하십시오"]
+* link:asa-c250/install-setup.html["ASA C250 을 참조하십시오"]
+* link:asa-c400/install-setup.html["ASA C400 을 참조하십시오"]
+* link:asa-c800/install-setup.html["ASA C800을 참조하십시오"]
 
 
 [role="quick-margin-para"]
 ** FAS 시스템**
 
 [role="quick-margin-list"]
-* https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html["FAS2700"]
-* https://docs.netapp.com/us-en/ontap-systems/fas2800/install-setup.html["FAS2800"]
-* https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8300"]
-* https://docs.netapp.com/us-en/ontap-systems/fas8300/install-setup.html["FAS8700"]
-* https://docs.netapp.com/us-en/ontap-systems/fas9500/install_setup.html["FAS9500"]
+* link:fas2700/install-setup.html["FAS2700"]
+* link:fas2800/install-setup.html["FAS2800"]
+* link:fas8300/install-setup.html["FAS8300"]
+* link:fas8300/install-setup.html["FAS8700"]
+* link:fas9500/install_setup.html["FAS9500"]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 케이블을 연결합니다

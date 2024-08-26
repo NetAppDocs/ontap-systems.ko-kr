@@ -192,7 +192,7 @@ mcc1A::> metrocluster operation show
 컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
 
 +
-image::../media/drw_c400_remove_controller_IEOPS-1216.svg[DRW C400은 컨트롤러 IEOPS 1216을 탈착합니다]
+image::../media/drw_c400_remove_controller_IEOPS-1216.svg[컨트롤러 모듈을 분리합니다]
 
 +
 [cols="10,90"]
@@ -229,7 +229,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 .애니메이션 - RTC 배터리를 교체합니다
 video::12ea4bc1-75e2-43e7-be91-b0310000fd34[panopto]
-image::../media/drw_c400_rtc_batt_IEOPS-1239.svg[DRW C400 RTC 배터리 IEOPS 1239]
+image::../media/drw_c400_rtc_batt_IEOPS-1239.svg[RTC 배터리를 제거합니다]
 
 [cols="10,90"]
 |===
