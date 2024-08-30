@@ -37,7 +37,7 @@ NOTE: 컨트롤러 섀시 쉘프 ID는 '00'으로 하드 코딩됩니다. 플랫
 
 . 왼쪽 끝 캡을 제거하여 전면판 뒤의 셸프 ID 버튼에 액세스합니다.
 +
-image::../media/drw_a900_oie_change_ns224_shelf_id_ieops-836.svg[NS224 쉘프 ID를 변경합니다]
+image:drw_a900_oie_change_ns224_shelf_id_ieops-836.svg["NS224 쉘프 ID, 너비 = 300px 를 변경합니다"]
 
 +
 [cols="20%,80%"]
@@ -45,28 +45,28 @@ image::../media/drw_a900_oie_change_ns224_shelf_id_ieops-836.svg[NS224 쉘프 ID
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image:legend_icon_01.svg["설명선 번호 1, 너비 = 20"]
  a| 
 선반 엔드 캡
 
 
 
  a| 
-image::../media/legend_icon_02.svg[설명선 번호 2]
+image:legend_icon_02.svg["설명선 번호 2, 너비 = 20"]
  a| 
 선반 면판
 
 
 
  a| 
-image::../media/legend_icon_03.svg[설명선 번호 3]
+image:legend_icon_03.svg["설명선 번호 3, 너비 = 20"]
  a| 
 쉘프 ID 번호입니다
 
 
 
  a| 
-image::../media/legend_icon_04.svg[설명선 번호 4]
+image:legend_icon_04.svg["설명선 번호 4, 너비 = 20"]
  a| 
 쉘프 ID 액세스 버튼
 
@@ -140,14 +140,14 @@ NOTE: 직렬 콘솔 포트를 구성하는 방법에 대한 지침은 노트북�
 .. 콘솔 케이블을 노트북에 연결하고 플랫폼과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 직렬 콘솔 포트를 연결합니다.
 .. 랩톱을 관리 서브넷의 스위치에 연결합니다.
 +
-image::../media/drw_a1k_70-90_console_connection_ieops-1702.svg[콘솔 연결]
+image:drw_a1k_70-90_console_connection_ieops-1702.svg["콘솔 연결"]
 
 .. 관리 서브넷에 있는 주소를 사용하여 랩톱에 TCP/IP 주소를 할당합니다.
 
 
 . 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
 +
-image::../media/drw_affa1k_power_source_icon_ieops-1700.svg[일반 전원 연결 다이어그램]
+image:drw_affa1k_power_source_icon_ieops-1700.svg["일반 전원 연결 다이어그램"]
 
 +
 ** 플랫폼이 부팅되기 시작합니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다.

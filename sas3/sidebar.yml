@@ -43,6 +43,7 @@ entries:
   - title: DS460C 쉘프의 드라이브 서랍
     url: "/sas3/service-replace-drawer-ds460c.html"
   - title: 드라이브 쉘프
+    pdf-filename: SAS 드라이브 쉘프를 교체합니다
     entries:
     - title: 셸프 유지 관리 개요
       url: "/sas3/sas3-shelf-overview.html"

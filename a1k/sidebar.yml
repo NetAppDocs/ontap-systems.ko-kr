@@ -67,6 +67,7 @@ entries:
   - title: NV 배터리
     url: "/a1k/nvdimm-battery-replace.html"
   - title: 입출력 모듈
+    pdf-filename: A1K I/O 모듈
     entries:
     - title: I/O 모듈 개요
       url: "/a1k/io-module-overview.html"

@@ -38,6 +38,7 @@ entries:
   - title: 드라이브
     url: "/ns224/service-replace-drive.html"
   - title: 드라이브 쉘프
+    pdf-filename: NS224 드라이브 쉘프를 교체합니다
     entries:
     - title: 셸프 유지 관리 개요
       url: "/ns224/ns224-shelf-overview.html"
