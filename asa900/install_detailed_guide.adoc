@@ -181,18 +181,18 @@ image:oie_cable_power.svg["폭 = 85px"]
 NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 
 +
-image:drw_9500_lifting_icon.svg[""]
+image::../media/drw_9500_lifting_icon.svg[무게 인양 주의 레이블]
 
 . 케이블 관리 장치를 연결합니다(그림 참조).
 +
-image:drw_9500_cable_management_arms.svg[""]
+image::../media/drw_9500_cable_management_arms.svg[인양 핸들 및 케이블 관리 장치]
 
 . 시스템 전면에 베젤을 부착합니다.
 
 
 다음 다이어그램은 일반적인 시스템의 모양과 시스템 후면의 주요 구성 요소의 위치를 나타냅니다.
 
-image:drw_a900_controller_in _chassis_ID_IEOPS-856.svg["일반적인 클러스터 구성"]
+image::../media/drw_a900_controller_in_chassis_ID_IEOPS-856.svg[일반적인 클러스터 구성]
 
 
 

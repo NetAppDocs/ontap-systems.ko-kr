@@ -192,7 +192,7 @@ image:drw_9500_cable_management_arms.svg["케이블 관리 ARM를 설치합니�
 
 다음 다이어그램은 일반적인 시스템의 모양과 시스템 후면의 주요 구성 요소의 위치를 나타냅니다.
 
-image:drw_a900_controller_in _chassis_ID_IEOPS-856.svg["일반적인 클러스터 구성"]
+image::../media/drw_a900_controller_in_chassis_ID_IEOPS-856.svg[일반적인 클러스터 구성]
 
 
 

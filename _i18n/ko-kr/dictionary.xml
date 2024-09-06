@@ -2923,7 +2923,6 @@
   <block id="f474da68fe49004e7ef71b0e2e717c06" category="doc">전체 시스템 복원 - AFF A800</block>
   <block id="161d11f75b68457ea33ac52c79b01c05" category="doc">NVDIMM-AFF A800을 교체합니다</block>
   <block id="2c0856fef0927def0bd154513fb326fb" category="list-text">NVDIMM을 분리하거나 이동하는 경우 라이저의 잠금 래치를 잠금 해제한 다음 해당 라이저를 분리합니다.</block>
-  <block id="f8cdcc9997405437e79f5d57e18498f5" category="paragraph">라이저 2 및 NVDIMM 11</block>
   <block id="80257ad9b8e102e01f1a08f309c3eed0" category="doc">부팅 이미지를 부팅 미디어 - AFF A800으로 전송</block>
   <block id="5ffba9ed2c673f5145fe25996fc2b0dc" category="summary">이 섹션에서는 AFF A800 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.</block>
   <block id="823b36f7fa4cb798d78af7be2bf8aca7" category="doc">자세한 단계 - AFF A800</block>
@@ -5497,8 +5496,6 @@
   <block id="9a7819d4ddc611b1438c0a7f4633f619" category="image-alt">OIE 케이블 미니 SAS HD - 미니 SAS HD</block>
   <block id="47138f998237cc4fa9d1dde4218e6a79" category="image-alt">OIE 케이블 마이크로 USB</block>
   <block id="c08fd160f4570df01d3a40efa2524ce7" category="image-alt">OIE 케이블 전원</block>
-  <block id="92688677e16c8790a606404e51b362d1" category="image-alt">drw 9500 인양 아이콘</block>
-  <block id="0604808a9f6264877dad5ce927edb94f" category="image-alt">drw 9500 케이블 관리 암</block>
   <block id="fd2cb99acafb4f0144bfb5e0e4c31373" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.</block>
   <block id="3bdc20d60c6095f8c752a75e72777feb" category="doc">시스템 회수 - FAS9500</block>
   <block id="580fe6e7e310b3db810754c7c7927744" category="list-text">replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
@@ -9988,7 +9985,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f1d30d02381fe3fd0fcf25a5394ca931" category="paragraph"><block ref="f1d30d02381fe3fd0fcf25a5394ca931" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0ce4e5b97dc4eb5b063de87adcdd8d64" category="paragraph"><block ref="0ce4e5b97dc4eb5b063de87adcdd8d64" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1890402c394bdc8f92e9b00832d96f6b" category="paragraph"><block ref="1890402c394bdc8f92e9b00832d96f6b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b3d5200ae441b0d20a4914cbdec727d4" category="paragraph"><block ref="b3d5200ae441b0d20a4914cbdec727d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d94ad2eb413c586a67a90ad278538137" category="paragraph"><block ref="d94ad2eb413c586a67a90ad278538137" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cbf85e66f1cb509bc0522dbbc1b48537" category="paragraph"><block ref="cbf85e66f1cb509bc0522dbbc1b48537" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23f4a6989d877a6848ae85e75cb4107e" category="inline-image-macro">폭 = 30px</block>
@@ -10012,10 +10008,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1eb01e42c3bc98cc6dc3939e3efbe66e" category="paragraph"><block ref="1eb01e42c3bc98cc6dc3939e3efbe66e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="577534c40b40575b9270f9eec17d10bb" category="paragraph"><block ref="577534c40b40575b9270f9eec17d10bb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="45a4f29af6323beb8354f98243d57637" category="paragraph"><block ref="45a4f29af6323beb8354f98243d57637" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b49587dccf0f5de061c677cc2cc91ade" category="paragraph"><block ref="b49587dccf0f5de061c677cc2cc91ade" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ac7edd3cc7124f409cdf5dc436336252" category="paragraph"><block ref="ac7edd3cc7124f409cdf5dc436336252" category="inline-image-macro-rx" type="image"></block></block>
   <block id="53c210c2168561d49ec663ddcdb6d39e" category="sidebar">A1K I/O 모듈</block>
   <block id="37e0009e8f9c1c6982a732432e86d180" category="sidebar">AFF A70 및 AFF A90 입출력 모듈</block>
   <block id="c079075c23cce6316cdc21e35ca264ec" category="sidebar">NS224 드라이브 쉘프를 교체합니다</block>
   <block id="2ebb7b9dab34661ab53f47e149c49c5c" category="sidebar">SAS 드라이브 쉘프를 교체합니다</block>
+  <block id="fb6ec7c4253b066bf6babd3c0e080e2c" category="paragraph">컨트롤러 모듈이 전원에 연결되자마자 부팅이 시작됩니다. 부트 프로세스를 중단할 준비를 하십시오.</block>
+  <block id="f7f4c867e693e550f28050ab9569b77b" category="paragraph">슬롯 11 및 23의 NVDIMM</block>
+  <block id="0ab01e08199504186fb2242508c77af5" category="paragraph">하드 드라이브 및 컨트롤러 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다.</block>
+  <block id="32c1650c7fd910bcdea68420f25c9c98" category="summary">손상된 섀시에서 새 섀시로 하드 드라이브, 컨트롤러 모듈 또는 모듈을 옮기고 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다.</block>
+  <block id="f5fb85d160e4ca0263ef1d466e1904de" category="image-alt">인양 핸들 및 케이블 관리 장치</block>
 </blocks>

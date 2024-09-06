@@ -159,7 +159,7 @@ NVDIMM을 교체하려면 공기 덕트 상단의 NVDIMM 맵 레이블을 사용
 
 . NVDIMM을 분리하거나 이동하는 경우 라이저의 잠금 래치를 잠금 해제한 다음 해당 라이저를 분리합니다.
 +
-image::../media/drw_a800_nvdimm_replace.png[NVDIMM을 교체합니다]
+image::../media/drw_A800_nvdimm_replace_ieops-1953.svg[NVDIMM을 교체합니다]
 
 +
 [cols="1,4"]
@@ -176,7 +176,14 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
-라이저 2 및 NVDIMM 11
+라이저 2
+
+
+
+ a| 
+image:../media/legend_icon_03.png["설명선 번호 3"]
+ a| 
+슬롯 11 및 23의 NVDIMM
 
 |===
 . NVDIMM을 교체 컨트롤러 모듈에 올바른 방향으로 삽입할 수 있도록 소켓에 있는 NVDIMM의 방향을 기록해 두십시오.
