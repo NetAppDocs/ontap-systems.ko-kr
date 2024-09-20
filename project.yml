@@ -71,7 +71,8 @@ sidebar:
     - section: fas500f
     - section: fas8200
     - section: fas9000
-    - section: other
+    - title: 기타 모델
+      url: "/other/other-models.html"
   - title: 드라이브 쉘프
     url: "/drive-shelves/index.html"
     entries:
