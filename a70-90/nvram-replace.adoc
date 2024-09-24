@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, replace an nvdimm 
 summary: 'NVRAM 모듈은 NVRAM12 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
-= NVRAM을 교체합니다. - AFF A70, AFF A90
+= NVRAM-AFF A70 및 AFF A90를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -382,4 +382,4 @@ dr-group-id            cluster node           configuration-state
 
 == 5단계: 장애가 발생한 부품을 NetApp에 반환
 
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"] 페이지를 참조하십시오.
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

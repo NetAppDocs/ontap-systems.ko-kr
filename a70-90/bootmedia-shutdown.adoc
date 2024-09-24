@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, shut down the controller 
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
-= 손상된 컨트롤러 종료 - AFF A70, AFF A90
+= 손상된 컨트롤러 종료 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

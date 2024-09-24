@@ -1,27 +1,46 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: new, features,aff, asa,  fas, legacy, end-of-support 
-summary: AFF, ASA 및 FAS 시스템의 새로운 기능과 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보십시오. 
+keywords: new, features, asa r2, aff, asa, fas, legacy, end-of-support 
+summary: ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오. 
 ---
-= AFF, ASA 및 FAS 시스템의 새로운 기능
+= ONTAP 하드웨어 시스템의 새로운 기능
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-AFF, ASA 및 FAS 시스템의 새로운 기능에 대해 알아보십시오.
+ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오.
 
 ONTAP 9 릴리스의 알려진 문제, 제한 사항 및 업그레이드 주의 사항에 대한 자세한 내용은 를 참조하십시오 https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["ONTAP 9 릴리즈 노트"]. 릴리스 정보에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.
 
 
 
-== 새로운 플랫폼 지원
+== 플랫폼 지원
 
 [cols="2*"]
 |===
-| 플랫폼(데이터 시트에 대한 링크 포함) | 처음부터 사용할 수 있습니다 
+| 플랫폼 | 처음부터 사용할 수 있습니다 
+
+
+ a| 
+https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html["ASA r2 시스템"]
+
+* ASA A1K 를 참조하십시오
+* ASA A70 를 참조하십시오
+* ASA A90 를 참조하십시오
+
+ a| 
+ONTAP 9.16.1
+
+
+
+ a| 
+https://www.netapp.com/data-storage/fas/["FAS70 및 FAS90"]
+ a| 
+ONTAP 9.16.1
+
 
 
  a| 
@@ -212,7 +231,7 @@ ONTAP 9.6
 |===
 
 
-== 새로운 스위치 지원
+== 스위치 지원
 
 [cols="20,65,15"]
 |===
@@ -296,53 +315,7 @@ ONTAP 9.5P8
 |===
 
 
-== 새로운 어댑터 지원
-
-[cols="4*"]
-|===
-| 어댑터 부품 번호 | 설명 | 범주 | 처음부터 사용할 수 있습니다 
-
-
- a| 
-https://hwu.netapp.com/adapter/index["X91148A"]
- a| 
-2포트 100GbE RoCE QSFP28
- a| 
-* 스토리지
-* 네트워킹
-* HA/MetroCluster
-
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/adapter/index["X91122A"]
- a| 
-2-포트 25GbE RoCE QSFP28
- a| 
-* 네트워킹
-* HA/MetroCluster
-
- a| 
-ONTAP 9.8
-
-
-
- a| 
-https://hwu.netapp.com/adapter/index["X9170A"]
- a| 
-NVMe SSD 모듈(1TB)
- a| 
-코어 덤프 장치
- a| 
-ONTAP 9.8
-
-|===
-
-
-== 새로운 쉘프 지원
+== 쉘프 지원
 
 [cols="2*"]
 |===
@@ -357,7 +330,7 @@ ONTAP 9.6
 |===
 
 
-== 새 하드웨어 업데이트
+== 하드웨어 업데이트
 
 [cols="25h,~,~"]
 |===

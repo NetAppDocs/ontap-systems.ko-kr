@@ -7,6 +7,8 @@ entries:
   entries:
   - title: 워크플로를 설치합니다
     url: "/a1k/install-overview.html"
+  - title: 요구사항 검토
+    url: "/a1k/install-requirements.html"
   - title: 설치 준비
     url: "/a1k/install-prepare.html"
   - title: 하드웨어를 설치합니다
@@ -27,7 +29,7 @@ entries:
     entries:
     - title: 부팅 미디어 대체 워크플로
       url: "/a1k/bootmedia-replace-workflow.html"
-    - title: 요구 사항 및 고려 사항
+    - title: 요구사항 검토
       url: "/a1k/bootmedia-replace-requirements.html"
     - title: 온보드 암호화 키를 확인합니다
       url: "/a1k/bootmedia-encryption-preshutdown-checks.html"
@@ -46,7 +48,7 @@ entries:
     entries:
     - title: 컨트롤러 교체 워크플로우
       url: "/a1k/controller-replace-workflow.html"
-    - title: 요구 사항 및 고려 사항
+    - title: 요구사항 검토
       url: "/a1k/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a1k/controller-replace-shutdown.html"

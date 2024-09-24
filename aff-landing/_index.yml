@@ -1,0 +1,75 @@
+---
+indexpage:
+  title: AFF 시스템
+  summary: AFF 시스템 문서에서는 AFF A-Series 및 C-Series 시스템을 설치, 설정 및 유지 관리하는 방법에 대해 설명합니다.
+  keywords: aff a-series, a150, a250, a800, a900, a400, datasheet, install, setup
+  lead: AFF A-Series 및 C-Series 시스템은 조직에서 인프라 혁신을 앞당기고 데이터 중심 전략의 촉진을 도울 수 있도록 설계되었습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: AFF A 시리즈 데이터시트
+      url: https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf
+    - title: AFF A-Series 플랫폼 개요
+      url: https://www.netapp.com/data-storage/aff-a-series/
+    - title: AFF C 시리즈 데이터시트 를 참조하십시오
+      url: https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf
+    - title: AFF C-Series 플랫폼 개요
+      url: https://www.netapp.com/data-storage/aff-c-series/
+  - title: A-Series 시스템 설치 및 설정
+    links:
+    - title: AFF A1K 를 참조하십시오
+      url: "../a1k/install-overview.html"
+    - title: AFF A70 및 A90
+      url: "../a70-90/install-overview.html"
+    - title: AFF A150
+      url: "../a150/install-setup.html"
+    - title: AFF A250
+      url: "../a250/install-setup.html"
+    - title: AFF A400
+      url: "../a400/install-setup.html"
+    - title: AFF A800
+      url: "../a800/install-setup.html"
+    - title: AFF A900
+      url: "../a900/install_setup.html"
+  - title: C-Series 시스템을 설치 및 설정합니다
+    links:
+    - title: AFF C250
+      url: "../c250/install-setup.html"
+    - title: AFF C400
+      url: "../c400/install-setup.html"
+    - title: AFF C800
+      url: "../c800/install-setup.html"
+  - title: A 시리즈 시스템 유지 관리
+    links:
+    - title: AFF A1K 를 참조하십시오
+      url: "../a1k/maintain-overview.html"
+    - title: AFF A70 및 A90
+      url: "../a70-90/maintain-overview.html"
+    - title: AFF A150
+      url: "../a150/maintain-overview.html"
+    - title: AFF A250
+      url: "../a250/maintain-overview.html"
+    - title: AFF A400
+      url: "../a400/maintain-overview.html"
+    - title: AFF A800
+      url: "../a800/maintain-overview.html"
+    - title: AFF A900
+      url: "../a900/maintain-overview.html"
+  - title: C-Series 시스템 유지 관리
+    links:
+    - title: AFF C250
+      url: "../c250/maintain-overview.html"
+    - title: AFF C400
+      url: "../c400/maintain-overview.html"
+    - title: AFF C800
+      url: "../c800/maintain-overview.html"
+  - title: 지원되는 스위치
+    links:
+    - title: Broadcom 지원 BES-53248
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
+    - title: Cisco 9336C-FX2
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
+    - title: 공유 구성의 Cisco 9336-FX2
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
+    - title: nVidia SN2100
+      url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-overview-sn2100-cluster.html

@@ -13,25 +13,26 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 [role="lead lead"]
 다음 워크플로우 단계에 따라 컨트롤러 모듈을 교체하십시오.
 
-.시작하기 전에
-컨트롤러 모듈을 교체하려면 특정 요구 사항을 충족해야 합니다. 를 검토합니다. link:controller-replace-requirements.html["컨트롤러 교체 요구 사항 및 고려 사항"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구 사항을 검토합니다"]
+[role="quick-margin-para"]
+컨트롤러 모듈을 교체하려면 특정 요구 사항을 충족해야 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
 손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:controller-replace-move-hardware.html["컨트롤러를 교체합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:controller-replace-move-hardware.html["컨트롤러를 교체합니다"]
 [role="quick-margin-para"]
 컨트롤러 교체에는 손상된 컨트롤러 분리, FRU 구성 요소 교체 컨트롤러 모듈로 이동, 인클로저에 교체 컨트롤러 모듈 설치가 포함됩니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:controller-replace-system-config-restore-and-verify.html["시스템 구성을 복원하고 확인합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:controller-replace-system-config-restore-and-verify.html["시스템 구성을 복원하고 확인합니다"]
 [role="quick-margin-para"]
 교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:controller-replace-recable-reassign-disks.html["컨트롤러를 반납합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:controller-replace-recable-reassign-disks.html["컨트롤러를 반납합니다"]
 [role="quick-margin-para"]
 스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:controller-replace-restore-system-rma.html["전체 컨트롤러 교체"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:controller-replace-restore-system-rma.html["전체 컨트롤러 교체"]
 [role="quick-margin-para"]
 LIF를 확인하고 클러스터 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환합니다.

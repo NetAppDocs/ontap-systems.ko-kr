@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, add I/O module 
 summary: 입출력 모듈을 교체하려면 모듈에서 케이블을 분리하고, SFP 및 QSFP 모듈을 모듈에서 분리하고, 모듈을 제거하고, 교체 모듈을 설치하고, SFP 및 QSFP 모듈을 재설치한 다음, I/O 모듈에 케이블을 연결해야 합니다. 
 ---
-= 입출력 모듈 추가 - AFF A70, AFF A90
+= 입출력 모듈 추가 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -155,7 +155,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 |===
 +
 .. 대상 슬롯에서 블랭킹 모듈의 캠 래치를 누르십시오.
-.. 캠 래치를 최대한 아래로 돌립니다. 수평 모듈의 경우 캠을 모듈에서 최대한 멀리 돌립니다.
+.. 캠 래치를 모듈에서 최대한 멀리 돌립니다.
 .. 블랭킹 모듈을 탈거하십시오.
 
 

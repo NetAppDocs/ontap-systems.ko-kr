@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff 70, 90, replace the chassis workflow 
 summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
 ---
-= 섀시 교체 워크플로우 - AFF A70, AFF A90
+= 섀시 교체 워크플로우 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,17 +13,18 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 [role="lead"]
 다음 워크플로우 단계에 따라 섀시를 교체합니다.
 
-.시작하기 전에
-섀시를 교체하려면 특정 요구 사항을 충족해야 합니다. 를 검토합니다. link:controller-replace-requirements.html["섀시 교체 요구 사항 및 고려 사항"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-requirements.html["섀시 교체 요구 사항을 검토합니다"]
+[role="quick-margin-para"]
+섀시를 교체하려면 특정 요구 사항을 충족해야 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
 섀시에 대한 유지 관리를 수행할 수 있도록 컨트롤러를 종료합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:chassis-replace-move-hardware.html["섀시를 교체합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:chassis-replace-move-hardware.html["섀시를 교체합니다"]
 [role="quick-margin-para"]
 섀시 교체에는 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꾸는 작업이 포함됩니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]
 [role="quick-margin-para"]
 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환합니다.

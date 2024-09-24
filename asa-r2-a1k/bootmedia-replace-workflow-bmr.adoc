@@ -1,0 +1,34 @@
+---
+permalink: asa-r2-a1k/bootmedia-replace-workflow-bmr.html 
+sidebar: sidebar 
+keywords: asa r2 a1k, replace the boot media 
+summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
+---
+= 부팅 미디어 교체 워크플로우 - ASA A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+부팅 미디어를 교체하려면 다음 워크플로 단계를 수행하십시오.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-replace-requirements-bmr.html["부팅 미디어 요구 사항을 검토합니다"]
+[role="quick-margin-para"]
+부팅 미디어를 교체하려면 특정 요구 사항을 충족해야 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown-asa-r2.html["손상된 컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
+[role="quick-margin-para"]
+시스템 관리 모듈에서 오류가 발생한 부팅 미디어를 제거하고 교체 부팅 미디어를 설치합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-recovery-image-boot-bmr.html["자동 부팅 복구"]
+[role="quick-margin-para"]
+파트너 컨트롤러에서 ONTAP 이미지를 복원합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:bootmedia-complete-rma.html["장애가 발생한 부품을 NetApp으로 반환합니다"]
+[role="quick-margin-para"]
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.

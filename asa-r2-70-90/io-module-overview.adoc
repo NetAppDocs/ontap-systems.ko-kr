@@ -1,0 +1,24 @@
+---
+permalink: asa-r2-70-90/io-module-overview.html 
+sidebar: sidebar 
+keywords: AFF A90, AFF A70, replace io module 
+summary: '결함이 있는 구성 요소를 공급자로부터 받은 교체 필드 교체 가능 장치(FRU) 구성 요소로 교체해야 합니다.' 
+---
+= 추가 및 교체 입출력 모듈 개요 - ASA A70 및 ASA A90
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.
+
+* link:io-module-add.html["입출력 모듈을 추가합니다"]
++
+모듈을 추가하면 중복성이 개선되어 하나의 모듈이 고장나도 시스템이 계속 작동할 수 있습니다.
+
+* link:io-module-replace.html["입출력 모듈을 교체합니다"]
++
+장애가 발생한 입출력 모듈을 교체하면 시스템을 최적의 작동 상태로 복구할 수 있습니다.
+
+

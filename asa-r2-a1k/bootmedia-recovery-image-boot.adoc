@@ -1,0 +1,77 @@
+---
+permalink: asa-r2-a1k/bootmedia-recovery-image-boot.html 
+sidebar: sidebar 
+keywords: asa r2 a1k, boot the recovery image 
+summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
+---
+= 복구 이미지를 부팅합니다 - ASA A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
+
+.단계
+. LOADER 프롬프트에서 USB 플래시 드라이브 _BOOT_RECOVERY_에서 복구 이미지를 부팅합니다
++
+이미지는 USB 플래시 드라이브에서 다운로드됩니다.
+
+. 메시지가 표시되면 이미지 이름을 입력하거나 화면의 괄호 안에 표시된 기본 이미지를 그대로 사용합니다.
+. var 파일 시스템을 복구합니다.
++
+[cols="1,2"]
+|===
+| 시스템이 실행 중인 경우... | 그러면... 
+
+
+ a| 
+ONTAP 9.16.0 이하
+ a| 
+.. 손상된 컨트롤러에서 가 표시되면 _Y_를 누릅니다 `Do you want to restore the backup configuration now?`
+.. 손상된 컨트롤러에서 덮어쓸지 묻는 메시지가 나타나면 _Y_를 `/etc/ssh/ssh_host_ecdsa_key`누릅니다.
+.. 정상 상태의 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준:_set -privilege advanced_로 설정합니다.
+.. 정상 상태의 파트너 컨트롤러에서 복원 백업 명령:_system node restore -backup -node local -target -address impaired_node_ip_address _ 를 실행합니다.
++
+*참고:* 복원에 성공하지 않은 메시지가 표시되면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+.. 정상 상태의 파트너 컨트롤러에서 손상된 컨트롤러를 admin 레벨:_set -privilege admin_으로 되돌립니다.
+.. 손상된 컨트롤러에서 가 표시되면 _y_를 `Was the restore backup procedure successful?`누릅니다.
+.. 손상된 컨트롤러에서 가 표시되면 _y_를 `...would you like to use this restored copy now?`누릅니다.
+.. 손상된 컨트롤러에서 손상된 컨트롤러를 재부팅하라는 메시지가 나타나면 _y_를 누르고 부팅 메뉴에 대해 _Ctrl-c_를 누릅니다.
+.. 시스템에서 encyption을 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고 그렇지 않으면 로 이동합니다. link:bootmedia-encryption-restore.html["키 관리자를 복원합니다"]
+.. 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
+.. _storage failover 반환 -fromnode local_명령을 사용하여 컨트롤러를 되돌립니다.
+.. storage failover modify -node local -auto -giving true_명령을 사용하여 자동 반환을 사용하지 않도록 설정한 경우 복원
+.. AutoSupport가 활성화된 경우 _SYSTEM NODE AutoSupport invoke -node * -type all-message MAINT=end_command를 사용하여 자동 케이스 생성을 복원/억제 해제합니다.
++
+*참고:* 프로세스가 실패하면 에 https://support.netapp.com["NetApp 지원"]문의하십시오.
+
+
+
+
+
+ a| 
+ONTAP 9.16.1 이상
+ a| 
+.. 손상된 컨트롤러에서 백업 구성을 복원하라는 메시지가 나타나면 _y_를 누릅니다.
++
+복원 절차가 성공하면 콘솔 - 에 이 메시지가 표시됩니다 `syncflash_partner: Restore from partner complete`.
+
+.. 손상된 컨트롤러에서 복원 백업이 성공적인지 확인하는 메시지가 표시되면 _y_를 누릅니다.
+.. 손상된 컨트롤러에서 복원된 구성을 사용하라는 메시지가 나타나면 _y_를 누릅니다.
+.. 손상된 컨트롤러에서 노드를 재부팅하라는 메시지가 표시되면 _y_를 누릅니다.
+.. 손상된 컨트롤러에서 손상된 컨트롤러를 재부팅하라는 메시지가 나타나면 _y_를 누르고 부팅 메뉴에 대해 _Ctrl-c_를 누릅니다.
+.. 시스템에서 encyption을 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고 그렇지 않으면 로 이동합니다. link:bootmedia-encryption-restore.html["키 관리자를 복원합니다"]
+.. 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
+.. _storage failover 반환 -fromnode local_명령을 사용하여 컨트롤러를 되돌립니다.
+.. storage failover modify -node local -auto -giving true_명령을 사용하여 자동 반환을 사용하지 않도록 설정한 경우 복원
+.. AutoSupport가 활성화된 경우 _SYSTEM NODE AutoSupport invoke -node * -type all-message MAINT=end_command를 사용하여 자동 케이스 생성을 복원/억제 해제합니다.
++
+*참고:* 프로세스가 실패하면 에 https://support.netapp.com["NetApp 지원"]문의하십시오.
+
+
+
+|===
+

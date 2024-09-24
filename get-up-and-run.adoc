@@ -2,16 +2,16 @@
 permalink: get-up-and-run.html 
 sidebar: sidebar 
 keywords:  
-summary: AFF, ASA, FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고 하드웨어를 케이블로 연결하고 스토리지를 구성합니다. 
+summary: ONTAP 하드웨어 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고, 하드웨어를 연결하고, 스토리지를 구성합니다. 
 ---
-= AFF, ASA 및 FAS 스토리지 시스템을 가동 및 운영합니다
+= ONTAP 하드웨어 시스템을 시작하고 실행합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-AFF, ASA, FAS 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고 하드웨어를 케이블로 연결하고 스토리지를 구성합니다.
+ONTAP 하드웨어 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고, 하드웨어를 연결하고, 스토리지를 구성합니다.
 
 시스템이 MetroCluster 구성인 경우 로 이동합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서 사이트"] MetroCluster 구성 유형에 해당하는 설치 지침을 따르십시오.
 
@@ -25,29 +25,29 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 ** 클러스터 스위치**
 
 [role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/install-hardware-bes53248.html["BES-53248 스위치를 설치합니다"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/install-switch-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-cluster.html["NVIDIA SN2100 스위치를 설치합니다"]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/install-hardware-bes53248.html["BES-53248 스위치를 설치합니다"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/install-switch-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-cluster.html["NVIDIA SN2100 스위치를 설치합니다"^]
 
 
 [role="quick-margin-para"]
 ** 스토리지 스위치**
 
 [role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/install-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-storage.html["NVIDIA SN2100 스위치를 설치합니다"]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/install-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-storage.html["NVIDIA SN2100 스위치를 설치합니다"^]
 
 
 [role="quick-margin-para"]
 ** 공유 스위치**
 
 [role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/install-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/install-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"^]있습니다
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 플랫폼 및 셸프를 설치합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 스토리지 시스템 및 스토리지 쉘프를 설치합니다
 [role="quick-margin-para"]
-플랫폼 및 선반을 캐비닛 또는 랙에 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.
+스토리지 시스템 및 스토리지 쉘프를 캐비닛 또는 랙에 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.
 
 [role="quick-margin-para"]
 ** AFF A 시리즈 시스템**
@@ -94,9 +94,17 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 
 
 [role="quick-margin-para"]
+** ASA R2 시스템**
+
+[role="quick-margin-list"]
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2 시스템"]
+
+
+[role="quick-margin-para"]
 ** FAS 시스템**
 
 [role="quick-margin-list"]
+* link:fas-70-90/install-overview.html["FAS70 및 FAS90"]
 * link:fas2700/install-setup.html["FAS2700"]
 * link:fas2800/install-setup.html["FAS2800"]
 * link:fas8300/install-setup.html["FAS8300"]
@@ -108,7 +116,7 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 [role="quick-margin-para"]
 컨트롤러를 네트워크에 케이블로 연결한 다음 컨트롤러를 쉘프에 케이블을 연결합니다.  플랫폼 모델의 설치 및 설정 지침에는 컨트롤러 포트를 네트워크와 스위치에 케이블로 연결하는 지침이 포함되어 있습니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]  ONTAP 구성을 완료합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] ONTAP 클러스터를 설정합니다
 [role="quick-margin-para"]
 컨트롤러와 스위치를 설치하고 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.
 

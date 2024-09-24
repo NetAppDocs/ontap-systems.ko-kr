@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, replace the chassis 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 요구 사항 및 고려 사항 - AFF A70, AFF A90
+= 섀시 교체 요구 사항 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

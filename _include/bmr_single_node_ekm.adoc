@@ -1,0 +1,123 @@
+= 
+:allow-uri-read: 
+
+
+ `boot_recovery -partner`ONTAP 9.16.0 이상을 실행하는 ASA R2 플랫폼과 함께 를 사용하여 파트너 노드에서 ONTAP 이미지(부팅 미디어 복구)를 복구할 수 있습니다.
+
+노드를 부팅하고 해당 노드의 부팅 미디어가 손상되면 Loader 프롬프트에 다음 메시지와 부팅 프로세스가 중지됩니다.
+
+....
+
+Can't find primary boot device u0a.0
+Can't find backup boot device u0a.1
+ACPI RSDP Found at 0x777fe014
+
+
+Starting AUTOBOOT press Ctrl-C to abort...
+Could not load fat://boot0/X86_64/freebsd/image1/kernel:Device not found
+
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/Linux/image1/vmlinuz (boot0,fat)
+
+
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/freebsd/image1/kernel (boot0,fat)
+
+
+Autoboot of PRIMARY image failed. Device not found (-6)
+LOADER-A>
+....
+이 메시지가 표시되면 ONTAP 이미지를 복원해야 합니다.
+
+.단계
+. Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.
++
+화면에 메시지가 `Starting boot media recovery (BMR) process press Ctrl-C to abort...` 표시되고 부팅 복구 파일의 초기 확인 및 설치가 시작됩니다.
+
++
+.. EKM(External Key Manager)이 구성된 경우 다음과 같은 메시지가 표시됩니다.
++
+....
+Error when fetching key manager config from partner 169.254.139.209: 28
+Has key manager been configured on this system? {y|n}
+....
+.. 키 관리자가 구성된 경우 _y_를 입력합니다.
++
+....
+key manager is configured.
+Entering Bootmenu Option 11...
+....
+
+
++
+Bootmenu 옵션 11은 구성 파일을 재구축할 수 있도록 모든 EKM 구성 정보를 사용자에게 표시합니다.
+
+. 각 프롬프트에서 EKM 구성을 입력합니다.
++
+* 참고: * 이 정보는 대부분 EKM이 처음 활성화되었을 때 입력되었습니다. 초기 EKM 구성 시 입력한 것과 동일한 정보를 입력해야 합니다.
+
+.  `Keystore UUID`및 가 올바른지 `Cluster UUID` 확인합니다.
++
+.. 파트너 노드에서  `cluster identity show`명령을 사용하여 클러스터 UUID를 검색합니다.
+.. 파트너 노드에서 `vserver show -type admin` 명령과 `key-manager keystore show -vserver <nodename>` 명령을 사용하여 Keystore UUID를 검색합니다.
+.. 메시지가 표시되면 Keystore UUID 및 클러스터 UUID 값을 입력합니다.
++
+*참고:* 파트너 노드를 사용할 수 없는 경우, 키 저장소 UUID 및 클러스터 UUID는 구성된 키 서버에 있는 Mroot-AK 키에서 얻을 수 있습니다.
+
++
+ `x-NETAPP-ClusterName: <cluster name>`클러스터 UUID 및 `x-NETAPP-KeyUsage: "MROOT-AK"` Keystore UUID 속성에 대한 를 확인하여 올바른 키가 있는지 확인합니다.
+
+
+
+. ONTAP 노드에 대한 Mroot-AK 조회 및 복구를 모니터링합니다.
+. 프로세스에서 키를 복원할 수 없으면 다음 메시지가 표시되며 메뉴 시스템 쉘에서 e0M을 구성해야 합니다.
++
+....
+ERROR: kmip_init: halting this system with encrypted mroot...
+WARNING: kmip_init: authentication keys might not be available.
+********************************************************
+*                 A T T E N T I O N                    *
+*                                                      *
+*       System cannot connect to key managers.         *
+*                                                      *
+********************************************************
+ERROR: kmip_init: halting this system with encrypted mroot...
+.
+Terminated
+
+Uptime: 11m32s
+System halting...
+
+LOADER-B>
+
+....
++
+..  `boot_recovery -partner`recoverery 노드에서 명령을 실행합니다.
+.. EKM에 대한 옵션을 수행하라는 메시지가 표시되면(y 또는 n) 모두 _ n _ 을(를) 선택합니다.
++
+8개의 프롬프트에 대해 _n_option을 선택하면 시스템이 부팅 메뉴에서 중지됩니다.
+
+.. 다른 클러스터 노드에서 /cfcard/kMIP/servers.cfg 파일 정보를 수집합니다. 다음 정보를 수집합니다.
++
+*** KMIP 서버 주소입니다.
+*** KMIP 포트입니다.
+*** Keystore UUID입니다.
+*** /cfcard/kMIP/certs/client.crt 파일의 클라이언트 인증서 복사본입니다.
+*** /cfcard/kMIP/certs/client.key 파일의 클라이언트 키 복사본입니다.
+*** /cfcard/kMIP/certs/ca.pem 파일의 KMIP 서버 CA 사본.
+
+
+.. 프롬프트에 _systemshell_을 입력하여 bootmenu에서 systemshell 을 입력합니다.
+.. 시스템 셸 메뉴에서 e0M, 넷마스크 및 게이트웨이의 네트워크를 구성합니다.
+.. _exit_명령을 사용하여 메뉴 시스템 쉘을 종료합니다.
+.. 부팅 메뉴가 나타납니다.  `11`EKM 복원을 계속하려면 옵션을 선택합니다.
+..  `y`다음 질문에 답하고 메시지가 표시되면 이전에 수집한 필수 정보를 입력합니다.
++
+*** /cfcard/kMIP/certs/client.crt 파일의 복사본이 있습니까? {y/n}
+*** /cfcard/kMIP/certs/client.key 파일의 복사본이 있습니까? {y/n}
+*** /cfcard/kMIP/certs/ca.pem 파일의 사본이 있습니까? {y/n}
+*** /cfcard/kMIP/servers.cfg 파일의 복사본이 있습니까? {y/n}
+
+
+
+
+. 키가 제대로 복원되면 복구 프로세스가 계속되고 노드를 재부팅합니다.
+

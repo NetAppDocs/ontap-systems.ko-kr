@@ -4,7 +4,26 @@
 
 [cols="2*"]
 |===
-| 플랫폼(데이터 시트에 대한 링크 포함) | 처음부터 사용할 수 있습니다 
+| 플랫폼 | 처음부터 사용할 수 있습니다 
+
+
+ a| 
+https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html["ASA r2 시스템"]
+
+* ASA A1K 를 참조하십시오
+* ASA A70 를 참조하십시오
+* ASA A90 를 참조하십시오
+
+ a| 
+ONTAP 9.16.1
+
+
+
+ a| 
+https://www.netapp.com/data-storage/fas/["FAS70 및 FAS90"]
+ a| 
+ONTAP 9.16.1
+
 
 
  a| 

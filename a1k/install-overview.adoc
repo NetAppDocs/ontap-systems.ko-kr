@@ -2,33 +2,37 @@
 permalink: a1k/install-overview.html 
 sidebar: sidebar 
 keywords: Installation, deployment, Install, deploy, Installing, deploying, a1k 
-summary: AFF A1K 스토리지 시스템을 설치 및 설정하고 ONTAP 시스템에 노드로 배포하려면 다음 단계를 따르십시오. 
+summary: AFF A1K 스토리지 시스템을 설치 및 설정한 후 ONTAP 시스템에 HA 쌍으로 배포할 수 있습니다. 
 ---
-= 설치 설정 워크플로 - AFF A1K
+= 설치 및 구성 워크플로우 - AFF A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF A1K 스토리지 시스템을 설치, 설정 및 배포하려면 다음 워크플로우 단계를 따르십시오.
+AFF A1K 시스템을 설치 및 구성하려면 하드웨어 요구 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치하고, 시스템을 켜고, ONTAP 클러스터를 설정합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:install-prepare.html["설치를 준비합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:install-requirements.html["설치 요구 사항을 검토합니다"]
 [role="quick-margin-para"]
-설치를 준비하려면 현장 준비, 환경 및 전기 요구 사항, 충분한 랙 공간이 있는지 확인해야 합니다. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.
+보관 시스템 및 보관 선반 설치에 필요한 장비와 도구를 검토하고 인양 및 안전 예방 조치를 검토합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:install-hardware.html["하드웨어를 설치합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:install-prepare.html["AFF A1K 스토리지 시스템 설치를 준비합니다"]
 [role="quick-margin-para"]
-하드웨어를 설치하려면 플랫폼 및 선반용 레일 키트를 설치한 다음 캐비닛이나 텔코 랙에 플랫폼을 설치하고 고정합니다. 그런 다음 선반을 레일에 밀어 넣습니다. 마지막으로 케이블 관리 장치를 플랫폼 후면에 연결하여 케이블을 체계적으로 배선합니다.
+시스템 설치를 준비하려면 현장 준비, 환경 및 전기 요구 사항 확인, 충분한 랙 공간 확보 등이 필요합니다. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:install-cable.html["하드웨어 케이블 연결"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:install-hardware.html["AFF A1K 스토리지 시스템용 하드웨어를 설치합니다"]
 [role="quick-margin-para"]
-하드웨어를 케이블로 연결하려면 먼저 컨트롤러를 네트워크에 케이블로 연결한 다음 컨트롤러를 쉘프에 케이블을 연결합니다.
+하드웨어를 설치하려면 스토리지 시스템 및 셸프용 레일 키트를 설치한 다음 스토리지 시스템을 캐비닛이나 텔코 랙에 설치하고 고정합니다. 그런 다음 선반을 레일에 밀어 넣습니다. 마지막으로 케이블 관리 장치를 스토리지 시스템 후면에 연결하여 케이블을 체계적으로 배선합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:install-power-hardware.html["스토리지 시스템의 전원을 켭니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:install-cable.html["AFF A1K 스토리지 시스템용 컨트롤러와 스토리지 쉘프를 케이블로 연결합니다"]
 [role="quick-margin-para"]
-시스템 전원을 켜려면 먼저 각 NS224 쉘프의 전원을 켜고 고유한 쉘프 ID를 할당하여 설정 내에서 각 쉘프가 구분되도록 해야 합니다. 그런 다음 컨트롤러의 전원을 켭니다. 마지막으로 제공된 고정 장치를 사용하여 각 전원 공급 장치의 전원 케이블을 고정합니다.
+하드웨어를 케이블로 연결하려면 먼저 스토리지 컨트롤러를 네트워크에 연결한 다음, 컨트롤러를 스토리지 쉘프에 연결합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:install-complete.html["스토리지 시스템 설정을 완료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:install-power-hardware.html["AFF A1K 스토리지 시스템의 전원을 켭니다"]
 [role="quick-margin-para"]
-시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 웹 기반 인터페이스인 System Manager에 액세스할 수 있습니다. 설정 마법사를 통해 클러스터 구성을 시작할 수 있습니다. 또는 CLI(Command Line Interface)를 사용할 수도 있습니다.
+컨트롤러의 전원을 켜기 전에 각 NS224 쉘프의 전원을 켜고 고유한 쉘프 ID를 할당하여 각 쉘프가 설정 내에서 고유하게 식별되는지 확인하십시오.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:install-complete.html["스토리지 시스템 설정을 완료합니다"]
+[role="quick-margin-para"]
+시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 ONTAP System Manager에 액세스합니다. 설정 마법사를 통해 AFF A1K 스토리지 시스템에 대한 클러스터 구성을 완료할 수 있습니다.

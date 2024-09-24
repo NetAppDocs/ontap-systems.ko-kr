@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, how to recable the system, teboot the system 
 summary: 스토리지를 재부팅해야 합니다. 
 ---
-= 재배열 및 컨트롤러 - AFF A70, AFF A90
+= 재케이블을 사용하여 컨트롤러에 -AFF A70 및 AFF A90를 제공합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

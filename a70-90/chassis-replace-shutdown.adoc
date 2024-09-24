@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, shutdown the controllers 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= AFF A70, AFF A90 등의 컨트롤러를 종료합니다
+= AFF A70 및 AFF A90와 같은 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -1,0 +1,35 @@
+---
+permalink: fas-70-90/controller-replace-restore-system-rma.html 
+sidebar: sidebar 
+keywords: fas70, fas90, how to restore NetApp Storage Encryption, how to complete the replacement process 
+summary: '시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다. RMA 번호 또는 교체 절차에 대한 추가 도움이 필요한 경우 기술 지원 부서(888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양))으로 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].' 
+---
+= 완벽한 컨트롤러 교체 - FAS70 및 FAS90
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다.
+
+
+
+== 1단계: LIF 확인 및 클러스터 상태 확인
+
+replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고 클러스터 상태를 확인하고 자동 반환을 재설정해야 합니다.
+
+.단계
+. 논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다
++
+LIF가 FALSE로 표시되면 해당 LIF를 홈 포트로 되돌립니다. `network interface revert -vserver * -lif *`
+
+. 클러스터의 상태를 확인합니다.  https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법"^]자세한 내용은 KB 문서를 참조하십시오.
+. 자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true'를 다시 설정합니다
+
+
+
+
+== 2단계: 장애가 발생한 부품을 NetApp로 되돌립니다
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

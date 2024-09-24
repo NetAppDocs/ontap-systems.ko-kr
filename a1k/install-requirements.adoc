@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: a1k/install-requirements.html 
+keywords: a1k, install, setup, cautions 
+summary: 작업대 및 선반에 필요한 장비 및 인양 예방 조치를 검토합니다. 
+---
+= 설치 요구 사항 - AFF A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AFF A1K 저장 장치 시스템 및 보관 선반에 필요한 장비와 들어 올리기 주의 사항을 검토합니다.
+
+
+
+== 설치에 필요한 장비
+
+AFF A1K 스토리지 시스템을 설치하려면 다음과 같은 장비와 툴이 필요합니다.
+
+* 웹 브라우저에 액세스하여 스토리지 시스템을 구성합니다
+* 정전기 방전(ESD) 스트랩
+* 플래시
+* USB/직렬 연결이 있는 랩톱 또는 콘솔
+* NS224 스토리지 쉘프 ID를 설정하기 위한 종이 클립 또는 끝이 뾰족한 볼펜
+* Phillips #2 드라이버
+
+
+
+
+== 인양 주의 사항
+
+AFF A1K 스토리지 시스템 및 NS224 스토리지 쉘프는 무겁습니다. 이러한 품목을 들어 올리거나 이동할 때는 주의를 기울이십시오.
+
+
+
+=== AFF A1K 스토리지 시스템입니다
+
+AFF A1K 저장 장치 시스템의 무게는 최대 28.5kg(62.83파운드)입니다. 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.
+
+image::../media/drw_a1k_weight_caution_ieops-1698.svg[AFF A1K 인양 주의 아이콘]
+
+
+
+=== NS224 쉘프
+
+NS224 보관 선반은 무게가 최대 30.29kg(66.78lbs)입니다. 보관 선반을 들어 올리려면 두 사람이 함께 있거나 유압식 리프트를 사용하십시오. 선반 무게의 균형을 잃지 않도록 모든 구성 요소를 보관 선반(전면 및 후면 모두)에 보관하십시오.
+
+image::../media/drw_ns224_lifting_weight_ieops-1716.svg[NS224 인양 주의]
+
+.관련 정보
+* https://library.netapp.com/ecm/ecm_download_file/ECMP12475945["안전 정보 및 규정 고지"^]
+
+
+.다음 단계
+하드웨어 요구 사항을 검토한 후link:install-prepare.html["AFF A1K 스토리지 시스템 설치를 준비합니다"]

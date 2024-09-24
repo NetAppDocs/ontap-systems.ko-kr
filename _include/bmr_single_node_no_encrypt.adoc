@@ -1,0 +1,85 @@
+= 
+:allow-uri-read: 
+
+
+ `boot_recovery -partner`ONTAP 9.16.0 이상을 실행하는 ASA R2 플랫폼에서 명령을 사용하여 파트너 노드에서 ONTAP 이미지(부팅 미디어 복구)를 복구할 수 있습니다.
+
+.시작하기 전에
+노드를 부팅하고 해당 노드의 부팅 미디어가 손상되면 Loader 프롬프트에 다음 메시지와 부팅 프로세스가 중지됩니다.
+
+[listing]
+----
+
+Can't find primary boot device u0a.0
+Can't find backup boot device u0a.1
+ACPI RSDP Found at 0x777fe014
+
+
+Starting AUTOBOOT press Ctrl-C to abort...
+Could not load fat://boot0/X86_64/freebsd/image1/kernel:Device not found
+
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/Linux/image1/vmlinuz (boot0,fat)
+
+
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/freebsd/image1/kernel (boot0,fat)
+
+
+Autoboot of PRIMARY image failed. Device not found (-6)
+LOADER-A>
+
+----
+이 메시지가 표시되면 ONTAP 이미지를 복원해야 합니다
+
+.단계
+. Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.
++
+화면에 메시지가 `Starting boot media recovery (BMR) process press Ctrl-C to abort...` 표시되고 초기 점검이 시작됩니다.
+
+. Loader가 로컬 클러스터 포트를 구성하고 를 통해 Netboot를 실행함에 따라 프로세스를 `\http://<remote-partner-IP>:65530/recoverydisk/image.tgz` 모니터링합니다.
++
+Netboot가 실행되면 `Starting BMR ...` 이 화면에 표시되고 설치 프로세스가 완료됩니다.
+
++
+.. 키 관리자가 구성되지 않은 경우 다음 메시지가 표시됩니다.
++
+....
+key manager is not configured. Exiting.
+....
+.. 다음 메시지가 표시되면 Onboard Key Manager(OKM)가 구성된 것입니다.
++
+....
+
+key manager is configured.
+Entering Bootmenu Option 10...
+
+This option must be used only in disaster recovery procedures. Are you sure? (y or n):
+
+....
++
+로 이동하여 복구 프로세스를 완료합니다.
+
+.. 다음 메시지가 표시되면 EKM(External Key Manager)이 구성된 것입니다. EKM 항목으로 이동하여 복구 프로세스를 완료합니다.
++
+....
+Error when fetching key manager config from partner 169.254.139.209: 28
+Has key manager been configured on this system? {y|n}
+
+....
+
+
+. BMR 프로세스를 모니터링하면 파트너가 백업 구성, env 파일, MDB 및 RDB를 복구할 수 있습니다.
+. 노드가 재부팅되고 BMR이 완료된 것은 다음과 같습니다.
+
+
+....
+
+varfs_backup_restore: update checksum for varfs.tgz
+varfs_backup_restore: restore using /cfcard/x86_64/freebsd/oldvarfs.tgz
+varfs_backup_restore: attempting to restore /var/kmip to the boot device
+varfs_backup_restore: failed to restore /var/kmip to the boot device
+varfs_backup_restore: Rebooting to load the new varfs
+.
+Terminated
+varfs_backup_restore: bootarg.abandon_varfs is set! Skipping /var backup.
+
+....

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF A90, AFF A70, replace io module 
 summary: '결함이 있는 구성 요소를 공급자로부터 받은 교체 필드 교체 가능 장치(FRU) 구성 요소로 교체해야 합니다.' 
 ---
-= 추가 및 교체 입출력 모듈 개요 - AFF A70, AFF A90
+= 추가 및 교체 입출력 모듈 개요 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

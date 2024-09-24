@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, move hardware components, replace the chassis 
 summary: 손상된 섀시에서 새 섀시로 하드 드라이브, 컨트롤러 모듈 또는 모듈을 옮기고 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 섀시를 교체합니다(AFF A70, AFF A90)
+= 섀시를 교체합니다. - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

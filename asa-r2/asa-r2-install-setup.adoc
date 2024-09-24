@@ -1,0 +1,24 @@
+---
+permalink: asa-r2/asa-r2-install-setup.html 
+sidebar: sidebar 
+keywords: asa r2 a1k, a70, a90, install, setup, initial configuration 
+summary: 시스템을 설치하고 설정합니다. 
+---
+= ASA R2 시스템을 설치하고 설정합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+로 이동하여 https://docs.netapp.com/us-en/asa-r2/index.html["ASA R2 시스템 설명서"^] ASA R2 시스템을 설치, 사용 및 관리하는 방법을 알아보십시오.
+
+에는 https://docs.netapp.com/us-en/asa-r2/index.html["ASA R2 시스템 설명서"^] 다음과 같은 정보가 포함되어 있습니다.
+
+* 설치 및 설정 지침
+* SAN 스토리지 용량 할당, 데이터 클론 생성, 로컬 스토리지 크기 조정 등 시스템 구성을 위한 관리 지침입니다.
+* 클라이언트 액세스 관리, 데이터 보안 및 데이터 보호를 포함한 시스템 관리 지침
+* 알림, 클러스터 이벤트 및 시스템 로그에 대한 정보를 포함한 모니터링 및 문제 해결 지침
+
+
+각 ASA R2 시스템 유형에 대한 구체적인 유지 보수 절차는 에 나와 link:../asa-r2-landing-maintain/index.html["ASA R2 시스템 유지 보수 섹션을 참조하십시오"]있습니다.
