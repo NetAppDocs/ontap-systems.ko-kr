@@ -39,7 +39,7 @@ AFF A70 및 AFF A90 스토리지 시스템과 NS224 스토리지 쉘프는 무�
 
 AFF A70 스토리지 시스템 또는 AFF A90 스토리지 시스템의 무게는 최대 68.8kg(151.68파운드)입니다. 시스템을 인양하려면 4명 또는 유압 리프트를 사용합니다.
 
-image::../media/drw_a70-90_weight_icon_ieops-1730.svg[AFF A90 를 참조하십시오]
+image::../media/drw_a70-90_weight_icon_ieops-1730.svg[AFF A90 및 AFF A70 무게 주의 아이콘]
 
 
 

@@ -10497,4 +10497,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="546320f5b1318ecbf9a2d5efa8278b70" category="sidebar">FAS70 및 FAS90 부팅 미디어</block>
   <block id="bbd90c57f0c4facd0e407d460b63f5e4" category="sidebar">FAS70 및 FAS90 컨트롤러 모듈</block>
   <block id="6aa2bbbbcd863a688ecea951a078cc57" category="sidebar">FlashCache 모듈</block>
+  <block id="9d6e68abc86ef52726565c7e52c9dea7" category="image-alt">시스템 일련 번호의 예</block>
+  <block id="acaf98d7d873f9a7ee774034dc1440fc" category="image-alt">AFF A90 및 AFF A70 무게 주의 아이콘</block>
 </blocks>

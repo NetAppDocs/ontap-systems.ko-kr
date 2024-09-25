@@ -39,7 +39,7 @@ MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com
 . 모든 상자의 내용물을 풉니다.
 . 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.png[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
+image::../media/drw_ssn_label.png[시스템 일련 번호의 예]
 
 . 계정 설정:
 +

@@ -36,7 +36,7 @@ http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62
 . 모든 상자의 내용물을 풉니다.
 . 컨트롤러에서 시스템 일련 번호를 기록합니다.
 +
-image::../media/drw_ssn_label.png[번호 위치를 보여 주는 시스템 일련 번호의 예입니다]
+image::../media/drw_ssn_label.png[시스템 일련 번호의 예]
 
 . 받은 케이블의 수와 유형을 확인하고 기록합니다.
 +
