@@ -59,7 +59,7 @@ X66240A-2(112-00598), 2m
 
 X66240A-5(112-00600), 5m
  a| 
-image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+이미지:../media/oie_cable_SFP_GbE_copper.svg
  a| 
 네트워크 케이블
 
@@ -74,7 +74,7 @@ X66250-5(112-00344), 5m
 
 X66250-15(112-00346), 15m
  a| 
-image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+이미지:../media/oie_cable_SFP_GbE_copper.svg
  a| 
 FC 광 네트워크 케이블
 
@@ -89,7 +89,7 @@ X66100-3(112-00543), 3m
 
 X66100-5(112-00544), 5m
  a| 
-image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+이미지:../media/oie_cable100_gbe_qsfp28.svg
  a| 
 이더넷 데이터, 클러스터 네트워크
 
@@ -104,7 +104,7 @@ X66211B-2(112-00574), 2m
 
 X66211B-5(112-00576), 5m
  a| 
-image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+이미지:../media/oie_cable100_gbe_qsfp28.svg
  a| 
 네트워크,
 
@@ -136,7 +136,7 @@ CAT 6, RJ-45(주문 종속)
 
 X6562-R6(112-00196), 5m
  a| 
-image::../media/oie_cable_rj45.svg[OIE 케이블 RJ45]
+이미지: ../media/oie_cable_RJ45.svg
  a| 
 관리 네트워크 및 이더넷 데이터
 
@@ -236,12 +236,13 @@ video::da08295f-ba8c-4de7-88c3-ae7c0170408d[panopto]
 image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케이블 연결]
 
 +
+[cols="20%,80%"]
 |===
 | 단계 | 각 컨트롤러에서 수행합니다 
 
 
  a| 
-image::../media/oie_legend_icon_1_lg.svg[OIE 범례 아이콘 1 LG]
+이미지: ../media/oie_legend_icon_1_lg.svg
  a| 
 케이블 클러스터 인터커넥트 포트:
 
@@ -249,44 +250,44 @@ image::../media/oie_legend_icon_1_lg.svg[OIE 범례 아이콘 1 LG]
 ** 슬롯 A8 및 B8(e8a)
 
 
-image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+이미지:../media/oie_cable100_gbe_qsfp28.svg
 
 
 
  a| 
-image::../media/oie_legend_icon_2_lp.svg[OIE 범례 아이콘 2 lp]
+이미지: ../media/oie_legend_icon_2_lp.svg
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-image::../media/oie_cable_rj45.svg[OIE 케이블 RJ45]
+이미지: ../media/oie_cable_RJ45.svg
 
 
 
  a| 
-image::../media/oie_legend_icon_3_o.svg[OIE 범례 아이콘 3 o]
+이미지: ../media/oie_legend_icon_3_O. SVG
  a| 
 케이블 32 Gb FC 네트워크 스위치:
 
 슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 32Gb FC 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+이미지:../media/oie_cable_SFP_GbE_copper.svg
 
 40GbE 호스트 네트워크 스위치:
 
 슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.
 
-image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+이미지:../media/oie_cable100_gbe_qsfp28.svg
 
 
 
  a| 
-image::../media/oie_legend_icon_4_dr.svg[OIE 범례 아이콘 4 DR]
+이미지: ../media/oie_legend_icon_4_dr.svg
  a| 
 케이블 25GbE 연결:
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+이미지:../media/oie_cable_SFP_GbE_copper.svg
 
 
 
@@ -297,7 +298,7 @@ image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
  a| 
 image::../media/oie_cable_power.svg[OIE 케이블 전원]
 
-image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[drw a900fas9500 전원 아이콘 IEOPS 1142]
+image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원]
 
 |===
 
@@ -325,12 +326,13 @@ video::3ad3f118-8339-4683-865f-ae7c0170400c[panopto]
 image::../media/drw_9500_switched_network_cabling.svg[drw 9500 스위치 방식 네트워크 케이블 연결]
 
 +
+[cols="20%,80%"]
 |===
 | 단계 | 각 컨트롤러에서 수행합니다 
 
 
  a| 
-image::../media/oie_legend_icon_1_lg.svg[OIE 범례 아이콘 1 LG]
+이미지: ../media/oie_legend_icon_1_lg.svg
  a| 
 케이블 클러스터 인터커넥트 A 포트:
 
@@ -338,44 +340,44 @@ image::../media/oie_legend_icon_1_lg.svg[OIE 범례 아이콘 1 LG]
 ** 클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)
 
 
-image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+이미지:../media/oie_cable100_gbe_qsfp28.svg
 
 
 
  a| 
-image::../media/oie_legend_icon_2_lp.svg[OIE 범례 아이콘 2 lp]
+이미지: ../media/oie_legend_icon_2_lp.svg
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-image::../media/oie_cable_rj45.svg[OIE 케이블 RJ45]
+이미지: ../media/oie_cable_RJ45.svg
 
 
 
  a| 
-image::../media/oie_legend_icon_3_o.svg[OIE 범례 아이콘 3 o]
+이미지: ../media/oie_legend_icon_3_O. SVG
  a| 
 케이블 32 Gb FC 네트워크 스위치:
 
 슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 32Gb FC 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+이미지:../media/oie_cable_SFP_GbE_copper.svg
 
 40GbE 호스트 네트워크 스위치:
 
 슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.
 
-image::../media/oie_cable100_gbe_qsfp28.svg[OIE cable100 GbE qsfp28]
+이미지:../media/oie_cable100_gbe_qsfp28.svg
 
 
 
  a| 
-image::../media/oie_legend_icon_4_dr.svg[OIE 범례 아이콘 4 DR]
+이미지: ../media/oie_legend_icon_4_dr.svg
  a| 
 케이블 25GbE 연결:
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
+이미지:../media/oie_cable_SFP_GbE_copper.svg
 
 
 
@@ -386,7 +388,7 @@ image::../media/oie_cable_sfp_gbe_copper.svg[OIE 케이블 SFP GbE 구리]
  a| 
 image::../media/oie_cable_power.svg[OIE 케이블 전원]
 
-image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[drw a900fas9500 전원 아이콘 IEOPS 1142]
+image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원]
 
 |===
 
@@ -475,7 +477,7 @@ image::../media/drw_power-on_set_shelf_ID_set.svg[설정된 셸프 ID 세트의 
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 엔드 캡을 탈거하십시오.
 
@@ -607,7 +609,7 @@ image::../media/drw_power-on_set_shelf_ID_set.svg[설정된 셸프 ID 세트의 
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 엔드 캡을 탈거하십시오.
 

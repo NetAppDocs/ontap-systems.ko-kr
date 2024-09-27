@@ -335,7 +335,7 @@ image::../media/drw_9500_remove_PCIe_module.svg[drw 9500 PCIe 모듈을 제거�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 문자 및 숫자 I/O 캠 래치
 

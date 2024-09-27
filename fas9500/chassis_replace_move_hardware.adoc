@@ -44,7 +44,7 @@ image::../media/drw_9500_remove_install_PSU_module.svg[drw 9500 설치 PSU 모�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 테라 코타 잠금 버튼
 
@@ -77,14 +77,14 @@ image::../media/drw_9500_remove_install_fan.svg[drw 9500 설치 팬을 제거합
 
 
  a| 
-image:../media/legend_icon_01.svg["너비 = 20"]
+image:../media/legend_icon_01.png["설명선 아이콘 1"]
  a| 
 테라 코타 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.svg["너비 = 20"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 팬을 섀시 안쪽으로/밖으로 밉니다
 
@@ -114,14 +114,14 @@ image::../media/drw_9500_remove_PCM.svg[drw 9500 PCM을 탈거하십시오]
 
 
  a| 
-image:../media/legend_icon_01.svg["너비 = 20"]
+image:../media/legend_icon_01.png["설명선 아이콘 1"]
  a| 
 캠 핸들 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.svg["너비 = 20"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -171,7 +171,7 @@ image::../media/drw_9500_remove_PCIe_module.svg[drw 9500 PCIe 모듈을 제거�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 문자 및 숫자 I/O 캠 래치
 
@@ -209,7 +209,7 @@ image::../media/drw_9500_remove_NV_battery.svg[drw 9500 NV 배터리를 제거�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 DCPM 테라코타 잠금 버튼
 
@@ -232,14 +232,14 @@ image::../media/drw_9500_remove_replace_LED_mod.svg[drw 9500 제거 LED 모드 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 모듈을 꺼냅니다.
 
 
 
  a| 
-image:../media/legend_icon_02.svg["너비 = 20"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 섀시 밖으로 밀어냅니다.
 

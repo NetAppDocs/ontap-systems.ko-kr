@@ -93,7 +93,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 컨트롤러 모듈 덮개 분리 단추
 
@@ -115,7 +115,7 @@ image::../media/drw_2850_replace_HIC_IEOPS-700.svg[2850 drw 는 HIC IEOPS 700을
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 IO 플레이트
 

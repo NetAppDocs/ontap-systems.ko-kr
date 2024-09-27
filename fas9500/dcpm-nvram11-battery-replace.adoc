@@ -44,7 +44,7 @@ image::../media/drw_9500_remove_NV_battery.svg[drw 9500 NV 배터리를 제거�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 DCPM 모듈 테라코타 잠금 버튼
 

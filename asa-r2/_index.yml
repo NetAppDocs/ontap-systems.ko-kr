@@ -34,11 +34,3 @@ indexpage:
       url: https://docs.netapp.com/us-en/asa-r2/data-protection/snapshot-replication.html
     - title: 유휴 데이터 암호화
       url: https://docs.netapp.com/us-en/asa-r2/secure-data/encrypt-data-at-rest.html
-  - title: 추가 ASA R2 리소스
-    links:
-    - title: ONTAP 명령 참조입니다
-      url: https://docs.netapp.com/us-en/ontap-cli/
-    - title: ONTAP REST API 참조
-      url: https://docs.netapp.com/us-en/ontap-restapi/index.html
-    - title: ONTAP EMS 참조
-      url: https://docs.netapp.com/us-en/ontap-ems/index.html

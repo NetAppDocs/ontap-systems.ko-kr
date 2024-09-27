@@ -93,7 +93,7 @@ image::../media/drw_9500_remove_PCM.svg[drw 9500 PCM을 탈거하십시오]
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 캠 핸들 해제 버튼
 
@@ -119,7 +119,7 @@ image::../media/drw_9500_PCM_open.svg[drw 9500 PCM이 열려 있습니다]
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -144,7 +144,7 @@ image::../media/drw_9500_remove_RTC_battery.svg[DRW 9500 RTC 배터리를 제거
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 배터리를 위로 돌립니다
 

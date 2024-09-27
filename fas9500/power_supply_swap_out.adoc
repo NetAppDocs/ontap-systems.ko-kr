@@ -56,7 +56,7 @@ image::../media/drw_9500_remove_install_PSU_module.svg[drw 9500 설치 PSU 모�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 잠금 버튼
 

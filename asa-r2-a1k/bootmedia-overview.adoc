@@ -13,11 +13,11 @@ summary: 부팅 미디어를 교체하는 자동화 방법과 수동 방법에 �
 [role="lead"]
 부팅 이미지에 USB 모듈을 사용하거나 자동 부팅 미디어 교체(BMR) 옵션을 통해 장애가 발생한 부팅 미디어를 수동으로 교체할 수 있습니다.
 
-* link:bootmedia-replace-requirements-bmr.html["자동 부팅 미디어 교체"]
+* link:bootmedia-replace-workflow-bmr.html["자동 부팅 미디어 교체"]
 +
 자동 부팅 미디어 교체는 파트너 노드의 부팅 이미지를 사용하고 적절한 부팅 메뉴 옵션을 자동으로 실행하여 교체 부팅 이미지를 설치합니다.
 
-* link:bootmedia-replace-requirements.html["수동 부팅 미디어를 교체합니다"]
+* link:bootmedia-replace-workflow.html["수동 부팅 미디어를 교체합니다"]
 +
 수동 부팅 미디어 교체는 NetApp 지원 사이트에서 ONTAP 이미지를 다운로드하고, 이미지를 USB 드라이브로 전송하고, 대상 교체 부팅 미디어로 다운로드하고, 부팅 메뉴 옵션을 수동으로 탐색하여 교체 부팅 미디어에 ONTAP 이미지를 설치하는 일반적인 방법을 사용합니다.
 

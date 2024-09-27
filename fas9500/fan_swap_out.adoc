@@ -37,7 +37,7 @@ image::../media/drw_9500_remove_install_fan.svg[drw 9500 설치 팬을 제거합
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 테라 코타 해제 버튼
 

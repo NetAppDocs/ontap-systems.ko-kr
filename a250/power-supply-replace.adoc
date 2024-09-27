@@ -118,21 +118,21 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[DC PSU를 분리�
 
 
  a| 
-image:../media/legend_icon_01.svg["너비 = 10px"]
+image:../media/legend_icon_01.png["설명선 아이콘 1"]
  a| 
 나비 나사
 
 
 
  a| 
-image:../media/legend_icon_02.svg["너비 = 10px"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 D-sub DC 전원 케이블 커넥터
 
 
 
  a| 
-image:../media/legend_icon_03.svg["너비 = 10px"]
+image:../media/legend_icon_03.png["설명선 번호 3"]
  a| 
 전원 공급 장치 핸들
 

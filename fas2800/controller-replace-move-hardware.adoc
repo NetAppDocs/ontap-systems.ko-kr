@@ -44,7 +44,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 컨트롤러 모듈 덮개 분리 단추
 
@@ -65,7 +65,7 @@ image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[2850 drw 는 nvbattery 
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 NVMEM 배터리 릴리즈 버튼
 
@@ -109,7 +109,7 @@ image::../media/drw_2850_replace_HIC_IEOPS-700.svg[2850 drw 는 HIC IEOPS 700을
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 IO 플레이트
 
@@ -146,7 +146,7 @@ image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[2850 drw 는 부팅 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 부트 미디어 해제 버튼
 
@@ -202,7 +202,7 @@ image::../media/drw_2850_replace_dimms_IEOPS-699.svg[2850 drw DIMMs IEOPS 699 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 DIMM 잠금 래치
 
@@ -261,7 +261,7 @@ image::../media/drw_2850_replace_caching module_IEOPS-697.svg[2850 drw 캐시 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 캐시 모듈 잠금 버튼
 

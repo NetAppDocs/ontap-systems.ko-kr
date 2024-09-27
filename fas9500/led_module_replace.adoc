@@ -31,7 +31,7 @@ image::../media/drw_9500_remove_replace_LED_mod.svg[drw 9500 제거 LED 모드 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 잠금 버튼
 

@@ -108,7 +108,7 @@ image::../media/drw_9500_move-remove_NVRAM_module.svg[drw 9500 이동 NVRAM 모�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 문자 및 숫자 I/O 캠 래치
 
@@ -132,7 +132,7 @@ image::../media/drw_9500_remove_NVRAM_module_contents.svg[drw 9500NVRAM 모듈 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 커버 잠금 버튼
 
@@ -184,7 +184,7 @@ image::../media/drw_9500_move-remove_NVRAM_module.svg[drw 9500 이동 NVRAM 모�
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 문자 및 숫자 I/O 캠 래치
 
@@ -208,7 +208,7 @@ image::../media/drw_9500_remove_NVRAM_module_contents.svg[drw 9500NVRAM 모듈 �
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 커버 잠금 버튼
 

@@ -50,7 +50,7 @@ image::../media/drw_a800_close_air_duct.png[컨트롤러 모듈 공기 덕트 �
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
 
@@ -60,13 +60,11 @@ image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
 
 
  a| 
-image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
 
 
 
- a| 
-라이저
-
+| 라이저 
 |===
 
 

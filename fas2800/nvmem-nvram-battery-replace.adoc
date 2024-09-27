@@ -123,7 +123,7 @@ image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[2850 drw 는 nvbattery 
 
 
  a| 
-image::../media/legend_icon_01.svg[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 아이콘 1]
  a| 
 배터리 분리 탭
 

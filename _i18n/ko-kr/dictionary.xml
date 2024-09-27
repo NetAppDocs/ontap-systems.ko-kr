@@ -3629,20 +3629,16 @@
   <block id="832e6447f3f0b4b7127bf98e691dabe2" category="list-text">슬롯 A4 및 B4(e4a)</block>
   <block id="afb27063fb1efe124e2c7a172cae259c" category="list-text">슬롯 A8 및 B8(e8a)</block>
   <block id="4d929445fb22edc648f8a3c2ad66dbbc" category="paragraph">케이블 컨트롤러 관리(렌치) 포트</block>
-  <block id="e77136c5bb4120b57e8fb14ff5bfc9e5" category="image-alt">OIE 케이블 RJ45</block>
-  <block id="5d86adeae4cafa6e9bc7b67a443ec6e0" category="image-alt">OIE 범례 아이콘 3 o</block>
   <block id="1450e01f2144c582867e61a2ce391ade" category="paragraph">25GbE 네트워크 스위치 케이블:</block>
   <block id="562006e5bc5a05872c89072601752baa" category="paragraph">슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 25GbE 네트워크 스위치에 연결합니다.</block>
   <block id="aad1d3558c9563a901df636025add55b" category="image-alt">OIE 케이블 SFP GbE 구리</block>
   <block id="01085cf5b9f45152fc01d555522c3aef" category="paragraph">40GbE 호스트 네트워크 스위치:</block>
   <block id="e8eaee0a475f33b542e1373550bc8b20" category="paragraph">슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.</block>
-  <block id="018580c2da3ddca7f76b71c3c8e16b9e" category="image-alt">OIE 범례 아이콘 4 DR</block>
   <block id="8b891f41fe066d01d04ca12a9bd0033f" category="paragraph">케이블 32 Gb FC 연결:</block>
   <block id="c368da6f34e41cf660fe742d1776c0c1" category="paragraph">슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 32Gb FC 네트워크 스위치에 연결합니다.</block>
   <block id="5f4965084173e3c414637c35200b73a8" category="paragraph">케이블 클러스터 인터커넥트 A 포트:</block>
   <block id="765c3c3f314b105120b116fa72fa83ec" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A4 및 B4(e4a).</block>
   <block id="370ef18034bcd8124be9ef4b4b76a551" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)</block>
-  <block id="57f2f6ee86a9d40ab8a7837d0d864830" category="image-alt">OIE 범례 아이콘 2 lp</block>
   <block id="3b632bef76bf01e7a7e2e0c7d8200b68" category="paragraph">25GbE 네트워크 스위치 케이블 연결:</block>
   <block id="c60dbcf19edff60839d3c0fbf6f60f2a" category="paragraph">각 컨트롤러를 AFF A900 시스템의 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="5ec6942c74c6a8edac1d2288d383731d" category="list-text">다음 애니메이션 또는 도면을 사용하여 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다.</block>
@@ -3747,7 +3743,6 @@
   <block id="c5cb03fb8ac84e8ed0867902373368c5" category="paragraph">LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니다.</block>
   <block id="5b4da5fe899903c4fb7ea38cdcd59059" category="paragraph">포트 수가 적은 NIC 입출력 모듈</block>
   <block id="f83c48dd124994c4062d124a835da954" category="paragraph">스토리지 입출력 모듈이 있는 NIC 입출력 모듈</block>
-  <block id="9e64f9f7a827c26fc2d5c89975330a4c" category="image-alt">범례 아이콘 01</block>
   <block id="658f167c4900ed24167db8a2c8ec0dae" category="list-text">입출력 모듈을 타겟 슬롯에 설치합니다.</block>
   <block id="af7e67afbae0d677789152f59d9ac82d" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
   <block id="65c5b494e6d3420e2beeee5028389f58" category="list-text">추가한 경우:</block>
@@ -5473,7 +5468,6 @@
   <block id="9e51ab12d26faade2a31d70da71c74f5" category="list-text">교체 노드는 장애가 발생한 노드를 교체하는 새 노드입니다.</block>
   <block id="537af5095a4992ae7e9026bd3ff008a6" category="list-text">정상 노드는 정상 노드입니다.</block>
   <block id="c704a060606b2944e3c331124aaaa743" category="doc">세부 단계 - FAS9500</block>
-  <block id="32a6e642c9cd7b5239fed7deb8d11082" category="image-alt">OIE cable100 GbE qsfp28</block>
   <block id="9a7819d4ddc611b1438c0a7f4633f619" category="image-alt">OIE 케이블 미니 SAS HD - 미니 SAS HD</block>
   <block id="47138f998237cc4fa9d1dde4218e6a79" category="image-alt">OIE 케이블 마이크로 USB</block>
   <block id="c08fd160f4570df01d3a40efa2524ce7" category="image-alt">OIE 케이블 전원</block>
@@ -5499,8 +5493,6 @@
   <block id="0b8e9f368ea269ec23c6c676a7561e53" category="video-title">애니메이션 - 부팅 미디어를 교체합니다</block>
   <block id="3937ac537a8c89789d0e3e5e505a0afb" category="image-alt">drw 9500 부트 개발 소스를 제거합니다</block>
   <block id="b598514d43d2a37ba4d4454196b07253" category="inline-image-macro">너비 = 20</block>
-  <block id="e96cf2879e64ebff07df1eef426e915f" category="paragraph"><block ref="e96cf2879e64ebff07df1eef426e915f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="72f8e032e3cfe23ff2d5b260d669bf04" category="paragraph"><block ref="72f8e032e3cfe23ff2d5b260d669bf04" category="inline-image-macro-rx" type="image"></block></block>
   <block id="defa99ee750d2ca6a8f52cf79e8eb713" category="list-text">bootarg.init.boot_clustered</block>
   <block id="d18fd3db938a26ebbd3f74de41f0b73f" category="list-text">파트너 - sysid</block>
   <block id="bac349cdf99ddd20206c9b20eb9e6d22" category="list-text">AFF의 경우 bootarg.init.flash_optimized</block>
@@ -5932,8 +5924,6 @@
   <block id="037baf09c7ddcc7c38f81e7dbe35fa87" category="paragraph">빈 슬롯이 있는 시스템에 새 I/O 결절을 추가하거나 완전히 채워진 시스템에서 I/O 모듈을 새 결절로 교체하여 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="55f1569cdcfb82612fcf293f23db4f6f" category="list-text">를 확인하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.</block>
   <block id="6e4968851f4373ab9764e16cffb39389" category="list-text">여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.</block>
-  <block id="3aa5c10c865ad075f0b3003697aa0a31" category="inline-image-macro">너비 = 20px</block>
-  <block id="5574e785cb3feaf25b9cde927c042bd5" category="paragraph"><block ref="5574e785cb3feaf25b9cde927c042bd5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="757216293ea1da04339a2c9b8eaa2641" category="admonition">tar.gz 파일은 최소 4GB인 FAT32 형식의 파티션에 배치해야 합니다. FAT32 파티션은 최대 2TB일 수 있지만 Windows 내장 도구(예: diskpart)는 FAT32 파티션을 32GB보다 크게 포맷할 수 없습니다.</block>
   <block id="e9d3276fadd16a57346b54cecf613793" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="5ffb603e9f437c31dabf66aeb6dc9941" prefix=" " category="inline-code"></block></block>
   <block id="06dd51a0351c6bc1041f60a7a78358f1" category="admonition">를 실행합니다<block ref="77da07d2ad54f11335f6a0e867b30843" prefix=" " category="inline-code"></block> FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.</block>
@@ -6091,11 +6081,8 @@
   <block id="81118bbf4dc8e737a15cb33e309d5928" category="list-text">플러그의 나비 나사를 사용하여 D-sub DC 전원 케이블 커넥터를 풉니다.</block>
   <block id="a11fffebed2ec4e6399a05866d830825" category="list-text">PSU에서 전원 케이블을 분리하여 따로 보관합니다.</block>
   <block id="7e9c947073c870125f5537753ceb963c" category="inline-image-macro">너비 = 10px</block>
-  <block id="3c41e1437657ea44ea906d59991155fe" category="paragraph"><block ref="3c41e1437657ea44ea906d59991155fe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a2188e25bb7db28c0b09dd772382a5c" category="paragraph">나비 나사</block>
-  <block id="6b1819a9a296dc2a07dbd901dfb22247" category="paragraph"><block ref="6b1819a9a296dc2a07dbd901dfb22247" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c589f0723743108df8fff79412bb01b9" category="paragraph">D-sub DC 전원 케이블 커넥터</block>
-  <block id="b5a3b4332b7e14b61ef4982cbd323974" category="paragraph"><block ref="b5a3b4332b7e14b61ef4982cbd323974" category="inline-image-macro-rx" type="image"></block></block>
   <block id="feafb86ee931bf1f66f76fbde04555e9" category="paragraph">전원 공급 장치 핸들</block>
   <block id="f9d5c310b5608c831c5d0dd6865c6294" category="paragraph"><block ref="f9d5c310b5608c831c5d0dd6865c6294" category="inline-image-macro-rx" type="image"></block></block>
   <block id="173dbae753c5a17af5a0f12d0fd36a1d" category="list-text">D-sub DC 전원 케이블을 다시 연결합니다.</block>
@@ -6393,7 +6380,6 @@
   <block id="23fc5004785b6c15e6a491f2e60db752" category="inline-link">Burt 1494308 - I/O 모듈 교체 중에 환경 종료가 트리거될 수 있습니다</block>
   <block id="9da423ef0a315a657b7e20eabc035835" category="admonition">재부팅 중 문제가 발생하는 경우 를 참조하십시오<block ref="260338bdea3a501a12c9c069b20553d1" category="inline-link-rx"></block></block>
   <block id="58d38e899a80743b66bf79e2320b2606" category="list-text">전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.</block>
-  <block id="495cdce574c4e4b9dd48817e71a39cd2" category="image-alt">drw a900fas9500 전원 아이콘 IEOPS 1142</block>
   <block id="1c34ed72998ddf83d183b82b4a5a4938" category="paragraph">DS212C 또는 DS224C 드라이브 쉘프를 컨트롤러에 연결합니다.</block>
   <block id="e5996620d0917580a63333b20b9454ef" category="list-text">두 노드에 대한 전원 공급 장치의 전원 스위치를 켭니다.</block>
   <block id="94f6805f56a12322f9f69e911a22d9b8" category="paragraph">다음 다이어그램은 일반적인 시스템의 모양과 시스템 후면의 주요 구성 요소의 위치를 나타냅니다.</block>
@@ -8528,7 +8514,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fb3e042908dc833eeb938bc1847b7c47" category="inline-image-macro">설명선 번호 1, 너비 = 30px</block>
   <block id="476432aae4cbe8e2198de9a114b9c8b8" category="paragraph"><block ref="476432aae4cbe8e2198de9a114b9c8b8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e752b86e927b89b7fc1a7d0c5e13ef64" category="paragraph">NVRAM 상태 LED</block>
-  <block id="bd461ff11b9415fa200815bf50691a35" category="paragraph"><block ref="bd461ff11b9415fa200815bf50691a35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3e0d1dbbb8d79c619401e691855e6d04" category="paragraph">NVRAM 주의 LED</block>
   <block id="5dc97b940d2a0a8bf57b3743911070b2" category="admonition">NVRAM 상태 LED가 깜박이는 경우 컨트롤러 모듈이 올바르게 전환되지 않았거나 중지되었음을 의미할 수 있습니다(커밋되지 않은 데이터). 손상된 컨트롤러 모듈이 파트너 컨트롤러 모듈에 의해 성공적으로 인수되지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> .</block>
   <block id="4e0f18112e412988fc61a484d32624af" category="paragraph">손상된 컨트롤러 모듈에서 NVRAM 상태 LED의 일반적인 동작은 다음과 같습니다.</block>
@@ -8825,8 +8810,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="95202d1c51ddd04e5c7ee2a579109553" category="list-text">캠 버튼을 누릅니다.</block>
   <block id="eea43b1f9f4191af441ec7f1515ffd01" category="list-text">캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 NVRAM 모듈을 섀시에서 분리합니다.</block>
   <block id="586cd1de26648f3c3aa70dbd61199e65" category="image-alt">DC PSU를 분리합니다</block>
-  <block id="c9ac10817b7d9d9b4a84ded99fbd1d9b" category="inline-image-macro">설명선 번호 3, 너비 = 30px</block>
-  <block id="a00672aef070452de050862fe1451fe1" category="paragraph"><block ref="a00672aef070452de050862fe1451fe1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="119b8386395af0270a4cad663d460ae6" category="inline-image-macro">설명선 번호 4, 너비 = 30x</block>
   <block id="67ad3a060e2655b765af597f395aa7d3" category="paragraph"><block ref="67ad3a060e2655b765af597f395aa7d3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5862e3059693b0ae5802e65d68b3df4c" category="list-text">명령을 사용하여 정상 상태의 컨트롤러에서 날짜와 시간을 확인합니다<block ref="1cac34e5e8442fb80d6ade838d969fc0" prefix=" " category="inline-code"></block> .</block>
@@ -9085,10 +9068,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4616f779d40b2ecdf1191d9d79c0a350" category="section-title">2단계: 클러스터 네트워크를 검색합니다</block>
   <block id="b4e52cacc81413e852d2fa47a578fb04" category="paragraph">검색 프로세스를 통해 네트워크에서 스토리지 시스템 컨트롤러를 검색할 수 있습니다.</block>
   <block id="87d44868bcfa03f5ad272605d74737c1" category="open-title">옵션 1: 네트워크 검색이 활성화되었습니다</block>
-  <block id="604f01e847e2c4e9cd0b9906a9ff2140" category="paragraph">랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 플랫폼 설정 및 구성을 완료할 수 있습니다.</block>
   <block id="13a5c797fb82f415ef3d13e5c012faf4" category="list-text">랩톱을 관리 스위치에 연결하고 네트워크 컴퓨터 및 장치에 액세스합니다.</block>
   <block id="f221a54fe8a1d6ecf7668d526c93b0aa" category="image-alt">Windows 파일 탐색기로 컨트롤러를 검색하는 방법</block>
-  <block id="4aec97d731539f50b200414275b82dd7" category="admonition">xxxxx는 대상 노드의 플랫폼 일련 번호입니다.</block>
   <block id="330cfe945ce3f586f079ea386fb67cff" category="open-title">옵션 2: 네트워크 검색이 활성화되지 않았습니다</block>
   <block id="688aa74b62c0c2511666ad96b9dc3726" category="paragraph">랩톱에서 네트워크 검색이 활성화되어 있지 않은 경우 ONTAP CLI(Command Line Interface) 클러스터 설정 마법사를 사용하여 구성 및 설정을 완료합니다.</block>
   <block id="b2fee2229d33fcf0b97717446435f7bb" category="list-text">첫 번째 노드의 콘솔에 연결합니다.</block>
@@ -9119,12 +9100,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b1ea51baf980ec6bb00ca1b7b419d506" category="section-title">2단계: 컨트롤러의 전원을 켭니다</block>
   <block id="943e3a7c8a0476b63130b5a3dfab2ef1" category="list-text">노트북의 직렬 콘솔 포트를 N-8-1에서 115,200보드로 설정합니다.</block>
   <block id="04112f6af1c35028ff6da3640556c14c" category="admonition">직렬 콘솔 포트를 구성하는 방법에 대한 지침은 노트북의 온라인 도움말을 참조하십시오.</block>
-  <block id="c7d14c04a57d9e31aaae62ee110f2cd9" category="list-text">콘솔 케이블을 노트북에 연결하고 플랫폼과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 직렬 콘솔 포트를 연결합니다.</block>
   <block id="dc4cb3e8c6b9abe025aa10b2d8d4b6f5" category="list-text">랩톱을 관리 서브넷의 스위치에 연결합니다.</block>
   <block id="5dc15886a7be0b02974c471249fd2702" category="image-alt">콘솔 연결</block>
   <block id="9e7e8b48adc159107d0baf9021253c61" category="list-text">관리 서브넷에 있는 주소를 사용하여 랩톱에 TCP/IP 주소를 할당합니다.</block>
   <block id="d4b97f0234af8d33d5ad6190a7930ff4" category="image-alt">일반 전원 연결 다이어그램</block>
-  <block id="1231fe933f3b46c84db2f5066eca43a5" category="list-text">플랫폼이 부팅되기 시작합니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다.</block>
   <block id="71abffb89587fc128eb09ec9ef2dd7e1" category="list-text">LED가 깜박이고 팬이 시작되면서 컨트롤러에 전원이 들어오고 있음을 나타냅니다.</block>
   <block id="671754b07475807f952083aca6f98a97" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 케이블을 고정합니다.</block>
   <block id="b20f6daaff695ed207299929a85ec2f0" category="summary">AFF A1K 플랫폼 설치를 준비합니다.</block>
@@ -9144,7 +9123,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3a5ea134befe8869fed079290f956fd1" category="paragraph">상자에 들어 있는 모든 항목이 포장 명세서의 목록과 일치하는지 확인합니다. 불일치 사항이 있는 경우 추가 조치를 위해 메모하십시오.</block>
   <block id="958c530ea1ae0e18b942f8784148734c" category="cell">* 하드웨어 *</block>
   <block id="09ff86ce1246a36d79f5d417bc9fb6be" category="cell">* 케이블 *</block>
-  <block id="419f3742e6de8e0ec4b22cce005e7630" category="list-text">플랫폼</block>
   <block id="45e29b9394f4cac59a4b24854556dec2" category="list-text">지침이 포함된 레일 키트(옵션)</block>
   <block id="680d900a0d52fdf0778ee2a5588f6f69" category="list-text">케이블 관리 장치</block>
   <block id="efb4c0c41cf8767bf0f9361a8c61a50a" category="list-text">베젤</block>
@@ -9728,45 +9706,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1a603190ae07bbceebb7036072831b8b" category="image-alt">원형 구멍 4 포스트 랙에 SuperRail을 설치하는 방법</block>
   <block id="7c89b00bc8ce7878c39671bd32585c2d" category="image-alt">2개의 포스트 미드 마운트 레일 키트를 설치하는 방법</block>
   <block id="887f19a9ed16e42d506a7ee90031e54f" category="image-alt">2개의 포스트 플러시 마운트 레일 키트를 설치하는 방법</block>
-  <block id="b86f1d6c96041a5555b0eeb0d961c958" category="inline-image-macro">폭 = 300px</block>
-  <block id="63c096f5d747b5901a4e4a36f3aa6339" category="paragraph"><block ref="63c096f5d747b5901a4e4a36f3aa6339" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="256e7b6221cc372d4c7438f290102613" category="paragraph"><block ref="256e7b6221cc372d4c7438f290102613" category="inline-image-macro-rx" type="image"></block></block>
   <block id="34b0592b90649145df285163256979f1" category="paragraph"><block ref="34b0592b90649145df285163256979f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="68de0f1c0c0a3216e6ba51295424d756" category="paragraph"><block ref="68de0f1c0c0a3216e6ba51295424d756" category="inline-image-macro-rx" type="image"></block></block>
   <block id="edbe18d1d431ff5c580c40f87966b4f5" category="paragraph"><block ref="edbe18d1d431ff5c580c40f87966b4f5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6f0e7f42636386fbffaf36b54fbacbf2" category="paragraph"><block ref="6f0e7f42636386fbffaf36b54fbacbf2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="babff6765c503db416f9aad69aec82a2" category="inline-image-macro">폭 = 85px</block>
-  <block id="dc1d3c7f8b5174880f91aa6524f186eb" category="paragraph"><block ref="dc1d3c7f8b5174880f91aa6524f186eb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3db2800441aa6ca29fd1bd67f542d1bd" category="paragraph"><block ref="3db2800441aa6ca29fd1bd67f542d1bd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f94c4982d99cc7ba1168f178d5d52649" category="paragraph"><block ref="f94c4982d99cc7ba1168f178d5d52649" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4c8dbd18eefd428a2369abb267937a3d" category="paragraph"><block ref="4c8dbd18eefd428a2369abb267937a3d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6be69614f7f631ae41156c7262cbfa20" category="paragraph"><block ref="6be69614f7f631ae41156c7262cbfa20" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f1d30d02381fe3fd0fcf25a5394ca931" category="paragraph"><block ref="f1d30d02381fe3fd0fcf25a5394ca931" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0ce4e5b97dc4eb5b063de87adcdd8d64" category="paragraph"><block ref="0ce4e5b97dc4eb5b063de87adcdd8d64" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1890402c394bdc8f92e9b00832d96f6b" category="paragraph"><block ref="1890402c394bdc8f92e9b00832d96f6b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d94ad2eb413c586a67a90ad278538137" category="paragraph"><block ref="d94ad2eb413c586a67a90ad278538137" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cbf85e66f1cb509bc0522dbbc1b48537" category="paragraph"><block ref="cbf85e66f1cb509bc0522dbbc1b48537" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23f4a6989d877a6848ae85e75cb4107e" category="inline-image-macro">폭 = 30px</block>
-  <block id="f9699d6d10a66e7dba1302dde0e673e6" category="paragraph"><block ref="f9699d6d10a66e7dba1302dde0e673e6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a382efe39ca1c5af285eccf0c3d8c05c" category="paragraph"><block ref="a382efe39ca1c5af285eccf0c3d8c05c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f76d5540905d1cc6c8338428fd9d3811" category="paragraph"><block ref="f76d5540905d1cc6c8338428fd9d3811" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fdb524c81cefaf7db65d9ed7860fcb25" category="paragraph"><block ref="fdb524c81cefaf7db65d9ed7860fcb25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="664a1b1220265a449d182e15fb02318f" category="inline-image-macro">폭 = 200px</block>
-  <block id="e2c11749d8ea9cc8051d3a7bd0cb0080" category="paragraph"><block ref="e2c11749d8ea9cc8051d3a7bd0cb0080" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="039c37b42c48bd7a9b86e7c17df52d69" category="paragraph"><block ref="039c37b42c48bd7a9b86e7c17df52d69" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="295668da1a72746b1e49ede1730d71a9" category="paragraph"><block ref="295668da1a72746b1e49ede1730d71a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="15b1cc1c6654646db65180e23bdc80db" category="paragraph"><block ref="15b1cc1c6654646db65180e23bdc80db" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f46fcba45ee604355020dcd7df29d159" category="paragraph"><block ref="f46fcba45ee604355020dcd7df29d159" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ba54bcf2001d79bb8625529fa7f35e9f" category="inline-image-macro">폭 = 50px</block>
-  <block id="b4990fed2df281f883d25b9ff4fc1532" category="paragraph"><block ref="b4990fed2df281f883d25b9ff4fc1532" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="34470acac68b3677d6a7380524d4bec1" category="paragraph"><block ref="34470acac68b3677d6a7380524d4bec1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="54de702be0b1e6a75b4ae600758440de" category="paragraph"><block ref="54de702be0b1e6a75b4ae600758440de" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="650c0cbd6c737b406f1159925d524291" category="paragraph"><block ref="650c0cbd6c737b406f1159925d524291" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e320175742d036b41e5fb1a481d8d47f" category="paragraph"><block ref="e320175742d036b41e5fb1a481d8d47f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28f823292921e13f5f1e716a34156335" category="paragraph"><block ref="28f823292921e13f5f1e716a34156335" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1eb01e42c3bc98cc6dc3939e3efbe66e" category="paragraph"><block ref="1eb01e42c3bc98cc6dc3939e3efbe66e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="577534c40b40575b9270f9eec17d10bb" category="paragraph"><block ref="577534c40b40575b9270f9eec17d10bb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="45a4f29af6323beb8354f98243d57637" category="paragraph"><block ref="45a4f29af6323beb8354f98243d57637" category="inline-image-macro-rx" type="image"></block></block>
   <block id="53c210c2168561d49ec663ddcdb6d39e" category="sidebar">A1K I/O 모듈</block>
   <block id="37e0009e8f9c1c6982a732432e86d180" category="sidebar">AFF A70 및 AFF A90 입출력 모듈</block>
   <block id="c079075c23cce6316cdc21e35ca264ec" category="sidebar">NS224 드라이브 쉘프를 교체합니다</block>
@@ -9786,12 +9732,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2e8e8fd780cc78a14b825cad663b2611" category="paragraph">ONTAP 9.16.0 이하</block>
   <block id="607ae42cd8348594bc8bfa6a3c380eba" category="paragraph">*참고:* 복원에 성공하지 않은 메시지가 표시되면 에 문의하십시오<block ref="dac6ef02422de09259cb8cc562a669a7" category="inline-link-rx"></block>.</block>
   <block id="d9cbafff040793241dffd17bc8129532" category="paragraph">*참고:* 프로세스가 실패하면 에<block ref="dac6ef02422de09259cb8cc562a669a7" category="inline-link-rx"></block>문의하십시오.</block>
-  <block id="fe96aa95930d10c2f5829bc437157a9c" category="paragraph">ONTAP 9.16.1 이상</block>
-  <block id="58ebc1c44c2a1ad587a1ef97b4e67ea8" category="list-text">손상된 컨트롤러에서 백업 구성을 복원하라는 메시지가 나타나면 _y_를 누릅니다.</block>
-  <block id="5f711b3cd97054c3fbee1821e742da6d" category="paragraph">복원 절차가 성공하면 콘솔 - 에 이 메시지가 표시됩니다<block ref="92080c75f9b065e263d7fea155b1d733" prefix=" " category="inline-code"></block>.</block>
-  <block id="bc8c74ae602ccbbf0e37d69985aa90bd" category="list-text">손상된 컨트롤러에서 복원 백업이 성공적인지 확인하는 메시지가 표시되면 _y_를 누릅니다.</block>
-  <block id="4dd4245a91d32c3932d3b5d936cc489f" category="list-text">손상된 컨트롤러에서 복원된 구성을 사용하라는 메시지가 나타나면 _y_를 누릅니다.</block>
-  <block id="e10980055432f699a4007ff594abd273" category="list-text">손상된 컨트롤러에서 노드를 재부팅하라는 메시지가 표시되면 _y_를 누릅니다.</block>
   <block id="53f59a608ecfcdc90a1a8b37f4c8f010" category="paragraph">부팅 미디어를 교체하려면 시스템 뒷면에서 시스템 관리 모듈을 분리하고, 손상된 부팅 미디어를 제거하고, 시스템 관리 모듈에 교체 부팅 미디어를 설치해야 합니다.</block>
   <block id="54d6f7773c4a60500d049c396202a23d" category="list-text">시스템 관리 캠 버튼을 누릅니다.</block>
   <block id="dd684f2098cba6838a05d1dbbeac275c" category="paragraph">설치한 교체 부팅 매체는 ONTAP 이미지가 없는 것이므로 에서<block ref="0ecdd602ef5a1e7a11a81dad2433ccb0" category="inline-link-rx"></block> USB 플래시 드라이브로 해당 ONTAP 서비스 이미지를 다운로드한 다음 교체 부팅 매체로 ONTAP 이미지를 전송할 수 있습니다.</block>
@@ -9811,9 +9751,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cf91b43675e7187d6e724e7c312e336a" category="list-text">캠 래치를 최대한 모듈에서 멀리 돌립니다.</block>
   <block id="f5c1d99a4f032f30d087e32fbbbdb994" category="paragraph">컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다. - 손상된 컨트롤러를 종료하려면 컨트롤러의 상태를 확인하고 필요한 경우 컨트롤러를 인계받아 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 해야 합니다.</block>
   <block id="5050dae1093a80a257a1d121ca5f3b0f" category="section-title">4단계: 컨트롤러 상태를 확인합니다</block>
-  <block id="e8acdbf790ee266b0ff015c4f2b34c61" category="paragraph"><block ref="4d9c822f717329c7000654e8bae09ae4" prefix=" " category="inline-code"></block>ONTAP 9.16.0 이상을 실행하는 ASA R2 플랫폼과 함께 를 사용하여 파트너 노드에서 ONTAP 이미지(부팅 미디어 복구)를 복구할 수 있습니다.</block>
   <block id="9e1d0b74b993eba7eafb9168cc7662b3" category="paragraph">노드를 부팅하고 해당 노드의 부팅 미디어가 손상되면 Loader 프롬프트에 다음 메시지와 부팅 프로세스가 중지됩니다.</block>
-  <block id="0c140b30356afe2d47d779db9a6bac26" category="paragraph">이 메시지가 표시되면 ONTAP 이미지를 복원해야 합니다.</block>
   <block id="dbc253985631ee33fc6976832d319aa9" category="list-text">Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.</block>
   <block id="9071774e0d4e739ca2fe57b55c805c89" category="paragraph">화면에 메시지가<block ref="a42d5407fe60b5716cd9fdd4d4063f27" prefix=" " category="inline-code"></block> 표시되고 부팅 복구 파일의 초기 확인 및 설치가 시작됩니다.</block>
   <block id="c3fcf34a186ddf28b42002ccdea5bb89" category="list-text">EKM(External Key Manager)이 구성된 경우 다음과 같은 메시지가 표시됩니다.</block>
@@ -9827,27 +9765,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6d194eccb9cd88bfbcde1df65103cbb4" category="list-text">메시지가 표시되면 Keystore UUID 및 클러스터 UUID 값을 입력합니다.</block>
   <block id="dc96ebaefbca0b39bdff8d2d09a5fc61" category="paragraph">*참고:* 파트너 노드를 사용할 수 없는 경우, 키 저장소 UUID 및 클러스터 UUID는 구성된 키 서버에 있는 Mroot-AK 키에서 얻을 수 있습니다.</block>
   <block id="a1af56a72048fea6d9e9cfde4d42ba60" category="paragraph"><block ref="b8bbecc4d00a5d5b7dc368313818ee3e" prefix=" " category="inline-code"></block>클러스터 UUID 및<block ref="8a298935cfa9f81db49083081a35f190" prefix=" " category="inline-code"></block> Keystore UUID 속성에 대한 를 확인하여 올바른 키가 있는지 확인합니다.</block>
-  <block id="590f459917bbe31595105daebcf768c1" category="list-text">ONTAP 노드에 대한 Mroot-AK 조회 및 복구를 모니터링합니다.</block>
-  <block id="89300ff102ca2ae1f98390b5c9e15301" category="list-text">프로세스에서 키를 복원할 수 없으면 다음 메시지가 표시되며 메뉴 시스템 쉘에서 e0M을 구성해야 합니다.</block>
-  <block id="6cc7c87f6feab358abdd7e5d3a02d56a" category="list-text"><block ref="4d9c822f717329c7000654e8bae09ae4" prefix=" " category="inline-code"></block>recoverery 노드에서 명령을 실행합니다.</block>
-  <block id="c2ba694984018511e5fcb2227ede89a7" category="list-text">EKM에 대한 옵션을 수행하라는 메시지가 표시되면(y 또는 n) 모두 _ n _ 을(를) 선택합니다.</block>
-  <block id="e270b10aff38431298d0f26d98b59928" category="paragraph">8개의 프롬프트에 대해 _n_option을 선택하면 시스템이 부팅 메뉴에서 중지됩니다.</block>
-  <block id="008a857939aa018d50da198fbe054fc6" category="list-text">다른 클러스터 노드에서 /cfcard/kMIP/servers.cfg 파일 정보를 수집합니다. 다음 정보를 수집합니다.</block>
-  <block id="72722c702d15bfb2fc8ae00fb7ba789c" category="list-text">Keystore UUID입니다.</block>
-  <block id="b116d908108592e18c15ab8b11021aa3" category="list-text">/cfcard/kMIP/certs/client.crt 파일의 클라이언트 인증서 복사본입니다.</block>
-  <block id="1c3672fe84635589ee6c4a3e23e103ee" category="list-text">/cfcard/kMIP/certs/client.key 파일의 클라이언트 키 복사본입니다.</block>
-  <block id="38738990aba5afc22196bbc862eb761f" category="list-text">/cfcard/kMIP/certs/ca.pem 파일의 KMIP 서버 CA 사본.</block>
-  <block id="e2874eeec152eb2179db88a81efc4de9" category="list-text">프롬프트에 _systemshell_을 입력하여 bootmenu에서 systemshell 을 입력합니다.</block>
-  <block id="b2248e7da0926dbcdb8b9df477d2b087" category="list-text">시스템 셸 메뉴에서 e0M, 넷마스크 및 게이트웨이의 네트워크를 구성합니다.</block>
-  <block id="f3d49466f3a6a7af00b2e999892ac7bc" category="list-text">_exit_명령을 사용하여 메뉴 시스템 쉘을 종료합니다.</block>
-  <block id="19dca7dc65f43fc760cd93421c38f7e1" category="list-text">부팅 메뉴가 나타납니다. <block ref="6512bd43d9caa6e02c990b0a82652dca" prefix=" " category="inline-code"></block>EKM 복원을 계속하려면 옵션을 선택합니다.</block>
-  <block id="de426d6c771ceeb06e9a9b20e9f71651" category="list-text"><block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block>다음 질문에 답하고 메시지가 표시되면 이전에 수집한 필수 정보를 입력합니다.</block>
-  <block id="b19458ff12859c393f2fd46d02cb24d4" category="list-text">/cfcard/kMIP/certs/client.crt 파일의 복사본이 있습니까? {y/n}</block>
-  <block id="05ac7348459861360c86dc5851e1ab0b" category="list-text">/cfcard/kMIP/certs/client.key 파일의 복사본이 있습니까? {y/n}</block>
-  <block id="0daafd01a5c78aa4cf52e57febc9c7d9" category="list-text">/cfcard/kMIP/certs/ca.pem 파일의 사본이 있습니까? {y/n}</block>
-  <block id="05f6b998dcdacf2a7e5882ef776dfa8e" category="list-text">/cfcard/kMIP/servers.cfg 파일의 복사본이 있습니까? {y/n}</block>
   <block id="d887305d2b2206bc86e35b35a47e130f" category="list-text">키가 제대로 복원되면 복구 프로세스가 계속되고 노드를 재부팅합니다.</block>
-  <block id="e1b8c672b53ced266041810009ef0acb" category="paragraph"><block ref="4d9c822f717329c7000654e8bae09ae4" prefix=" " category="inline-code"></block>ONTAP 9.16.0 이상을 실행하는 ASA R2 플랫폼에서 명령을 사용하여 파트너 노드에서 ONTAP 이미지(부팅 미디어 복구)를 복구할 수 있습니다.</block>
   <block id="65efffc08222998f24c68d8ee17af399" category="paragraph">이 메시지가 표시되면 ONTAP 이미지를 복원해야 합니다</block>
   <block id="e4b7511a00ba0effd6c938bde56c85b1" category="paragraph">화면에 메시지가<block ref="a42d5407fe60b5716cd9fdd4d4063f27" prefix=" " category="inline-code"></block> 표시되고 초기 점검이 시작됩니다.</block>
   <block id="d1de7a2b347063926ee7045aa2c0d40f" category="list-text">Loader가 로컬 클러스터 포트를 구성하고 를 통해 Netboot를 실행함에 따라 프로세스를<block ref="41e7db54f2498671a212595a5bc3f9c4" prefix=" " category="inline-code"></block> 모니터링합니다.</block>
@@ -10151,14 +10069,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9c80bf2ce5b5ebdbe4120c07897a68bf" category="doc">부팅 미디어 교체 개요 - ASA A70 및 ASA A90</block>
   <block id="2ae2a629b0bc850781e0206745cd3b3e" category="paragraph">부팅 이미지에 USB 모듈을 사용하거나 자동 부팅 미디어 복구(BMR) 옵션을 통해 장애가 발생한 부팅 미디어를 수동으로 교체할 수 있습니다.</block>
   <block id="0792ce6d8f86d180ff01c2a8e3138f0f" category="inline-link-macro">자동 부팅 미디어 복구</block>
-  <block id="49f22f0d665263e5b2eefdc62c1fd779" category="list-text"><block ref="49f22f0d665263e5b2eefdc62c1fd779" category="inline-link-macro-rx"></block></block>
   <block id="223bbbfb281b468a486440892257143a" category="paragraph">자동 부팅 미디어 복구는 파트너 노드의 부팅 이미지를 사용하고 적절한 부팅 메뉴 옵션을 자동으로 실행하여 교체 부팅 미디어에 부팅 이미지를 설치합니다.</block>
   <block id="05697ae1686cab5868aea887e013256c" category="inline-link-macro">수동 부팅 미디어를 교체합니다</block>
-  <block id="ab627a0858cfd29a960b1e47d8e3309c" category="list-text"><block ref="ab627a0858cfd29a960b1e47d8e3309c" category="inline-link-macro-rx"></block></block>
   <block id="be50da4a0a4e7670cc5496e8959abd3e" category="paragraph">수동 부팅 미디어 교체는 NetApp 지원 사이트에서 ONTAP 이미지를 다운로드하고, 이미지를 USB 드라이브로 전송하고, 대상 교체 부팅 미디어로 다운로드하고, 부팅 메뉴 옵션을 수동으로 탐색하여 교체 부팅 미디어에 ONTAP 이미지를 설치하는 일반적인 방법을 사용합니다.</block>
   <block id="4a64f3d63fd0e8b93b80ef48b4698a9a" category="summary">자동 부팅 복구 프로세스를 통해 파트너 컨트롤러에서 부팅 미디어의 이미지를 복원할 수 있습니다.</block>
   <block id="41f43600bfb66f22a00e070720eb3684" category="doc">자동 부팅 복구 - ASA A70 및 ASA A90</block>
-  <block id="03d754d98b9bef4fdb6dd9961b94bc3f" category="paragraph">자동 부팅 복구 프로세스를 사용하여 파트너 컨트롤러에서 부팅 미디어의 이미지를 복원할 수 있습니다.</block>
   <block id="b1eee21c24b289e0918c000ada54e323" category="paragraph">해당 구성과 일치하는 단일 노드 자동 복구 옵션을 선택합니다.</block>
   <block id="bc870d27a5756c85d171dcfa81222b70" category="open-title">옵션 1: 암호화하지 않고 복구합니다</block>
   <block id="87d5b822cdb7420f1f697bbcb85e5ef1" category="open-title">옵션 2: Onboard Key Manager를 사용한 복구가 있습니다</block>
@@ -10173,8 +10088,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f34aa6a5d31a45519f859aa60bd859b0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="eca088c3311d093e84211f243a48b6b0" category="inline-link-macro-rx"></block></block>
   <block id="e15dd4e77a0784cb0db73357420aff31" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="16af84fbab48141f269a09d09712af68" category="inline-link-macro-rx"></block></block>
   <block id="bbe9dab8dbb04372040fcb892979257c" category="paragraph">시스템 관리 모듈에서 오류가 발생한 부팅 미디어를 제거하고 교체 부팅 미디어를 설치합니다.</block>
-  <block id="eeec2f41cb0966f090c3a2623c28a3fa" category="inline-link-macro">부팅 미디어의 이미지 복원(자동 부팅 복구)</block>
-  <block id="9194785fe046484032e6aeeed4bc66cb" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="5b7b9b4eeaff7d7b9673dc99f0735b0c" category="inline-link-macro-rx"></block></block>
   <block id="d09fb8e8be6d5c93fb8113549e3abfb0" category="paragraph">파트너 컨트롤러에서 ONTAP 이미지를 복원합니다.</block>
   <block id="cebae21dc29c5d5bdb777db254647344" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="ad27444622868149ebc13d5b01cf807a" category="inline-link-macro-rx"></block></block>
   <block id="b8a9f715dbb64fd5c56e7783c6820a61" category="inline-image-macro">2개</block>
@@ -10225,7 +10138,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4f1e6ebf3d99237dad391edcff698e41" category="doc">부팅 미디어 교체 개요 - ASA A1K</block>
   <block id="41ec2d608f4a0ca66575022373e46ea1" category="paragraph">부팅 이미지에 USB 모듈을 사용하거나 자동 부팅 미디어 교체(BMR) 옵션을 통해 장애가 발생한 부팅 미디어를 수동으로 교체할 수 있습니다.</block>
   <block id="57efd27226590ce2a9ed9d60e73941c5" category="inline-link-macro">자동 부팅 미디어 교체</block>
-  <block id="13c486d56a980a07463ae9b26d00f23e" category="list-text"><block ref="13c486d56a980a07463ae9b26d00f23e" category="inline-link-macro-rx"></block></block>
   <block id="f10ac3acf2f78a54b07401e632bafa47" category="paragraph">자동 부팅 미디어 교체는 파트너 노드의 부팅 이미지를 사용하고 적절한 부팅 메뉴 옵션을 자동으로 실행하여 교체 부팅 이미지를 설치합니다.</block>
   <block id="8e22ce60290e8b393a0781c3d78c5f34" category="doc">자동 부팅 복구 - ASA A1K</block>
   <block id="4815b5bdc49e0c84c1f8a77425bfdc4d" category="doc">복구 이미지를 부팅합니다 - ASA A1K</block>
@@ -10241,7 +10153,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="55960eb9cf1af0070a8d87ac5ec35c50" category="doc">전체 컨트롤러 교체 - ASA A1K</block>
   <block id="289510b9a5b70d78d5dde9549bcc6837" category="doc">시스템 구성 - ASA A1K을 복원하고 확인합니다</block>
   <block id="bb324afe147f01d9741bad94e9f48fa5" category="doc">컨트롤러 교체 워크플로우 - ASA A1K</block>
-  <block id="12971b2e7d5c8abc7c624fdf8b7cce90" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="00ff41a73d410c5006f78cd4269abce5" category="inline-link-macro-rx"></block>..</block>
   <block id="573cb7e20352c6ed49fece2c623ec50b" category="doc">DIMM-ASA A1K을 교체합니다</block>
   <block id="d874941f5988be4d767ed305d690f93e" category="doc">팬을 교체합니다. - ASA A1K</block>
   <block id="3f3cad89dab9930e656089557bd4ab26" category="doc">ASA A1K 하드웨어를 유지 관리합니다</block>
@@ -10463,10 +10374,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d0dfdfe73aea97321d81327461d381a2" category="sidebar">스냅샷을 생성합니다</block>
   <block id="8d6905d51dacb11051a0666d04bc75af" category="sidebar">스냅샷 복제를 설정합니다</block>
   <block id="adfd33fbce17f21dd8572d1c07677009" category="sidebar">유휴 데이터 암호화</block>
-  <block id="d8f87ca27811771e6005ec1e8989bb8c" category="sidebar">추가 ASA R2 리소스</block>
-  <block id="f3497351aae46692e603fedb2f2cd146" category="sidebar">ONTAP 명령 참조입니다</block>
-  <block id="8162203e3ec38c896e5f6d688115d731" category="sidebar">ONTAP REST API 참조</block>
-  <block id="27c7ca02055622739ea07ba1243d7683" category="sidebar">ONTAP EMS 참조</block>
   <block id="2a2dfadb84e98697260fabd8a1ba63ea" category="sidebar">하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. ASA r2 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와 있습니다.</block>
   <block id="9823a9d702614ebe046cb789d32b241d" category="sidebar">ASA R2 시스템을 유지 관리하는 방법에 대해 알아보십시오.</block>
   <block id="8cf7baf96983d1c70a286576ddcd0ca1" category="sidebar">ASA A70 및 ASA A90</block>
@@ -10499,4 +10406,110 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6aa2bbbbcd863a688ecea951a078cc57" category="sidebar">FlashCache 모듈</block>
   <block id="9d6e68abc86ef52726565c7e52c9dea7" category="image-alt">시스템 일련 번호의 예</block>
   <block id="acaf98d7d873f9a7ee774034dc1440fc" category="image-alt">AFF A90 및 AFF A70 무게 주의 아이콘</block>
+  <block id="3ffe1b4b35d8ce374d7dc5d83345fd3d" category="inline-image-macro">설명선 아이콘 1</block>
+  <block id="f06f62b4ad43fced0296dc47015840f1" category="paragraph"><block ref="f06f62b4ad43fced0296dc47015840f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="edd9ce1e4d9cc655a3b0e8c6c36049db" category="paragraph">부팅 미디어 이미지를 복원합니다.</block>
+  <block id="54425f945644281ccaf6201b998f169f" category="paragraph"><block ref="54425f945644281ccaf6201b998f169f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3fb5b2d26ef96cd39a9a5e534c7a587f" category="paragraph"><block ref="3fb5b2d26ef96cd39a9a5e534c7a587f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e41a410f85201d7cc87e022e1f2daf34" category="paragraph">랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 설정 및 구성을 완료할 수 있습니다.</block>
+  <block id="637d6f599c1184d1c5de273700d7924f" category="list-text">콘솔 케이블을 랩톱에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 시리얼 콘솔 포트를 연결합니다.</block>
+  <block id="6b66db132383abf32640c51ec249e853" category="list-text">스토리지 시스템 부팅이 시작됩니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다.</block>
+  <block id="26e7314ba01a2bdc4fda67ee84154359" category="list-text">스토리지 시스템용 HA 구성의 4U입니다</block>
+  <block id="f31303ddb8ada38aed08c2bb8f9d8e6c" category="list-text">수행할 수 있습니다</block>
+  <block id="f65a3f7f8789fde53b9d1f80f9881d85" category="paragraph">ONTAP 9.16.0</block>
+  <block id="cfb74b9f3447e3aada1f3cbeb61c7028" category="inline-link">CONTAP-285173 - ADP는 10개 이상의 내부 드라이브가 있는 AFF A150에 스페어 루트 파티션을 남기지 않습니다</block>
+  <block id="07a122cd7d4dff1e08840f1451880b84" category="paragraph">* 경고: * 시스템에 ONTAP 9.13.1P8-9.13.1P11, ONTAP 9.14.1P1-9.14.1P7 또는 ONTAP 9.15.1-9.15.1P2가 설치되어 있고 시스템에 10개 이상의 내부 솔리드 스테이트 드라이브가 있는 경우 추가 단계를 수행하여 시스템을 설치해야 합니다. 문제를 <block ref="91b500cab7dd22cbefdc889d84f14119" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="46ec1d6e2c2e89b0c765c298cda1e6ee" category="paragraph">이미지:../media/oie_legend_icon_1_lg.svgwidth=40px]</block>
+  <block id="2d61ee570b36c9125f556978ae918a8c" category="image-alt">GbE 구리 SFP</block>
+  <block id="04b5e81f252ed6de54e3084f34764b6d" category="image-alt">LC 파이버 커넥터</block>
+  <block id="5e2d926601a0a4a1ae88f86f7756f827" category="image-alt">마이크로 USB 커넥터</block>
+  <block id="4489eeaa0d096fc981d5292de4d3cac8" category="image-alt">전원 케이블 커넥터</block>
+  <block id="90c52d30d091d37fae11dc4e72c02149" category="image-alt">100Gb 커넥터</block>
+  <block id="82b5f9f6676e97aeff8f20e8d031eb13" category="image-alt">설명선 아이콘 2</block>
+  <block id="6315d8124b9a65ea160f6b54baf833ac" category="image-alt">설명선 아이콘 3</block>
+  <block id="9d6cb0c62a8ecfb13bd32e4ac9f3674a" category="image-alt">GbE 구리 SFP</block>
+  <block id="186367cdfc61d158b1e3ff56e8283700" category="image-alt">100 GbE 케이블 커넥터</block>
+  <block id="44c20f16d2e4027980b60741a2cef47d" category="inline-image-macro">설명선 아이콘 4</block>
+  <block id="581f29c387556808b07826423c070bff" category="paragraph"><block ref="581f29c387556808b07826423c070bff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6a891f04e00c321e9636e39feaef819b" category="paragraph">케이블 32Gb FC 연결: xxx</block>
+  <block id="22bcc70c5e50763b93ec954705944af6" category="paragraph"><block ref="22bcc70c5e50763b93ec954705944af6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb30e72302359793be50542dc764c90a" category="image-alt">설명선 아이콘 5</block>
+  <block id="8ca3bab8fcef03d6612177d09193eade" category="list-text">케이블을 케이블 관리 암에 연결합니다(그림 없음).</block>
+  <block id="bd6f2f179e92d79b65397b0d15328141" category="inline-image-macro">전원 케이블</block>
+  <block id="a0950ac4d58705ad21f3b880984ca406" category="paragraph"><block ref="a0950ac4d58705ad21f3b880984ca406" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ea20ab43b51e28478057e256ebcc6372" category="inline-image-macro">전원 연결</block>
+  <block id="0fe5a7372057ea7ee4222a1697273ab7" category="paragraph"><block ref="0fe5a7372057ea7ee4222a1697273ab7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c768623247638e0599b7dc4f0a0ff0a4" category="paragraph"><block ref="c768623247638e0599b7dc4f0a0ff0a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="244aab4d90ed993eeebce11659eac82b" category="inline-image-macro">스위치 네트워크 케이블 연결</block>
+  <block id="9a1be7dc3c562e8748f6cf3f28efe9d5" category="paragraph"><block ref="9a1be7dc3c562e8748f6cf3f28efe9d5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b46faedc65a8539f47deb371e2b7f449" category="paragraph"><block ref="b46faedc65a8539f47deb371e2b7f449" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e459e836c4eb0f13220d0fdbb30451f6" category="inline-image-macro">100 GbE 케이블</block>
+  <block id="009ac423bcde702c97f685ed3184a79f" category="paragraph"><block ref="009ac423bcde702c97f685ed3184a79f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a46b6e5ca02482a3657b7e699f28b2ad" category="paragraph"><block ref="a46b6e5ca02482a3657b7e699f28b2ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ecbd87571013fc2a6189a2f1332b5ac6" category="image-alt">drw a900fas9500 전원 아이콘 IEOPS 1142</block>
+  <block id="f31eedcaeccdc6e2f0110a8d59512b5b" category="image-alt">drw a900 NS224 선반 케이블 1개 IEOPS 937</block>
+  <block id="c035916e80865a389b46dc94eff9f686" category="image-alt">설명 번호 1</block>
+  <block id="34e6fe740fc8bf6168ecb8b1b0745f9b" category="image-alt">100 GbE QSFP 커넥터</block>
+  <block id="5f5e3192cf1bf26c28160eea36e207cb" category="image-alt">설명 번호 2</block>
+  <block id="eab02c161618f87134d04b274c9ed0a9" category="image-alt">drw a900 NS224 라인 아트 2개의 선반 케이블 IEOPS 1147</block>
+  <block id="78620236a5eab09d95e03d98711ce717" category="image-alt">NS224 쉘프 2개를 케이블로 연결</block>
+  <block id="5b2defc99cd5513c34e06eb9995791ca" category="paragraph"><block ref="5b2defc99cd5513c34e06eb9995791ca" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9dc52a120cb0e2aa8bce8b72c20fef3c" category="image-alt">쉘프 ID를 변경하는 중입니다</block>
+  <block id="57e26d998595a265ac7f1779db589905" category="image-alt">전원 스위치</block>
+  <block id="756311dd61e5d2b34e7f3e6941908f6d" category="image-alt">콘솔 케이블 연결</block>
+  <block id="18c795091b0e1dd7d14e327d2fdcc6bf" category="list-text"><block ref="18c795091b0e1dd7d14e327d2fdcc6bf" category="inline-link-macro-rx"></block></block>
+  <block id="bfa3052576370ffd1e7fd95b04d45ed2" category="list-text"><block ref="bfa3052576370ffd1e7fd95b04d45ed2" category="inline-link-macro-rx"></block></block>
+  <block id="a798fcdd920238e06f858177485cf73e" category="paragraph">ONTAP 9.16.0 이상을 실행하는 ASA R2 시스템과 함께 를 사용하여 파트너 노드에서 ONTAP 이미지(부팅 미디어 복구)를 복구할 수<block ref="4d9c822f717329c7000654e8bae09ae4" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="fc470b262a8a9f527fb1ef08eff78628" category="inline-link-macro">부팅 미디어에서 이미지 복원(자동 부팅 복구)</block>
+  <block id="c28ba0284e703cae6ab6dd5a8bf205b7" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="675b0dafb39ecb851a6b35f633284961" category="inline-link-macro-rx"></block></block>
+  <block id="37de2a16ca4082fa4b5cd4a5baf9780e" category="list-text"><block ref="37de2a16ca4082fa4b5cd4a5baf9780e" category="inline-link-macro-rx"></block></block>
+  <block id="97f38983c168fbca0309639ea35f0fc4" category="paragraph">USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원한 다음 환경 변수를 확인합니다.</block>
+  <block id="53d526a1e2015eb0014a2a207e1f9c14" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="68d5bc9454bd7547ecfb5c5f9710ef33" category="inline-link-macro-rx"></block></block>
+  <block id="11fc8e31e3ddc1e067dca8608a6b8f13" category="paragraph"><block ref="11fc8e31e3ddc1e067dca8608a6b8f13" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="99451b3a2dc8f1a520f7be297189f3c5" category="paragraph"><block ref="99451b3a2dc8f1a520f7be297189f3c5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ef70dd264de35c8c40db8f9a7c08883c" category="paragraph"><block ref="ef70dd264de35c8c40db8f9a7c08883c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cd62e375cee8868e7ca465d22a3115b7" category="paragraph"><block ref="cd62e375cee8868e7ca465d22a3115b7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d35f48507d7b26248ebd1c467d0bdf5" category="inline-image-macro">마이크로 USB 케이블</block>
+  <block id="4ed21815545f5d3d2e1848f74c69d479" category="paragraph"><block ref="4ed21815545f5d3d2e1848f74c69d479" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8f7d6264f448d2e1a3897ab3abd1fc37" category="paragraph"><block ref="8f7d6264f448d2e1a3897ab3abd1fc37" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c42476805252ea713c6d2d84cea79d57" category="paragraph"><block ref="c42476805252ea713c6d2d84cea79d57" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a3479b1ff22f258fe8dd4077252cd9cd" category="inline-image-macro">설명선 아이콘 1</block>
+  <block id="b2fc50a6e447298a39a0865cfe76c4b1" category="paragraph"><block ref="b2fc50a6e447298a39a0865cfe76c4b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="50bc74d4b734039bfc4cef1692453ceb" category="inline-image-macro">설명선 아이콘 2</block>
+  <block id="a165a3ad69d55f99f38f093213fdb59b" category="paragraph"><block ref="a165a3ad69d55f99f38f093213fdb59b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="21f25e3135866d211935a709f5289115" category="inline-image-macro">설명선 아이콘 3</block>
+  <block id="3a15937e842431a4a4cbcbf0439dadb2" category="paragraph"><block ref="3a15937e842431a4a4cbcbf0439dadb2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6f1c9e49e85b9240d07364dd186d0229" category="inline-image-macro">설명선 아이콘 4</block>
+  <block id="922c5b5e2d3383b23cfb17eba49966fc" category="paragraph"><block ref="922c5b5e2d3383b23cfb17eba49966fc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d66d945a7ae4bb7ccfad0b5c62b2cc09" category="paragraph"><block ref="d66d945a7ae4bb7ccfad0b5c62b2cc09" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d26d2327584b56c9a013b12acd15fec" category="paragraph"><block ref="3d26d2327584b56c9a013b12acd15fec" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4872eb17dd86a165fd75465f4ecc87ce" category="paragraph">이미지: ../media/oie_legend_icon_1_lg.svg[</block>
+  <block id="f841420d1e9292c7a510633ed43f1245" category="paragraph"><block ref="f841420d1e9292c7a510633ed43f1245" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0b506b21022f98be480e89240ce6d4f5" category="paragraph"><block ref="0b506b21022f98be480e89240ce6d4f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e7fac73e0f725a0bff64985cd631ae4c" category="paragraph"><block ref="e7fac73e0f725a0bff64985cd631ae4c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a9ed26735f0eccd765844732c1a10663" category="paragraph"><block ref="a9ed26735f0eccd765844732c1a10663" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16eb23473be1d14d8b358a124b188a4c" category="paragraph"><block ref="16eb23473be1d14d8b358a124b188a4c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb1aa27aedd255b424644bbc2c34a3f9" category="paragraph"><block ref="eb1aa27aedd255b424644bbc2c34a3f9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3f32fe0555e647fb09ebf8c5027fab99" category="paragraph"><block ref="3f32fe0555e647fb09ebf8c5027fab99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b22ca487ac635c2a25cf30cabd8313a1" category="paragraph"><block ref="b22ca487ac635c2a25cf30cabd8313a1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f7305488b29b60c60ef013880d0f02ad" category="paragraph"><block ref="f7305488b29b60c60ef013880d0f02ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f75d8f74515bc0ee57e1170331fe899a" category="paragraph"><block ref="f75d8f74515bc0ee57e1170331fe899a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4ddc14342448cccff4c1de1b37615ab6" category="paragraph"><block ref="4ddc14342448cccff4c1de1b37615ab6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a18694bfa10dd9b027282521693676b2" category="paragraph"><block ref="a18694bfa10dd9b027282521693676b2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="479d87b89f643c48150efb707fc18d0f" category="paragraph"><block ref="479d87b89f643c48150efb707fc18d0f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f62c6097f594e20eff16caf60adf9108" category="paragraph"><block ref="f62c6097f594e20eff16caf60adf9108" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a367e21663d7d88be766a2410f65c492" category="paragraph"><block ref="a367e21663d7d88be766a2410f65c492" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ac0857a87a7abd7093eb3d3c3ab029f6" category="paragraph"><block ref="ac0857a87a7abd7093eb3d3c3ab029f6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e94429f521ed29d67f459524b27c6f12" category="paragraph"><block ref="e94429f521ed29d67f459524b27c6f12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18e3f73e3766723c8fa1d65835a9ff5e" category="paragraph"><block ref="18e3f73e3766723c8fa1d65835a9ff5e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="855935b54efa0e5d9f88e4215e420e21" category="paragraph">이미지: [설명선 아이콘 1] drw_a900_power-on_IEOPS-941.svg [width=500px]</block>
+  <block id="05764bf778d661cdfb862c4272213d5c" category="image-alt">설명선 아이콘 3]</block>
+  <block id="939c4cc63bfc58ab80a6ee095f3674ab" category="paragraph">이미지:../media/oie_cable_SFP_GbE_copper.svg</block>
+  <block id="baf035da1f059a3d6470498a256e1995" category="paragraph">이미지:../media/oie_cable100_gbe_qsfp28.svg</block>
+  <block id="22fd7f9d1143ecf8b6b98661e6adcbfc" category="paragraph">이미지: ../media/oie_cable_RJ45.svg</block>
+  <block id="6602815c3bfd2003139e5a65476de2cd" category="paragraph">이미지: ../media/oie_legend_icon_1_lg.svg</block>
+  <block id="1db145f290b20679909db8ad1eca83ca" category="paragraph">이미지: ../media/oie_legend_icon_2_lp.svg</block>
+  <block id="51804f70062dafe032c8fe8fa5e0f04e" category="paragraph">이미지: ../media/oie_legend_icon_3_O. SVG</block>
+  <block id="7f8347da58318dccc83d860e55cfb598" category="paragraph">이미지: ../media/oie_legend_icon_4_dr.svg</block>
+  <block id="0efe74a0894d83f88156519939a5c6c8" category="image-alt">전원</block>
 </blocks>

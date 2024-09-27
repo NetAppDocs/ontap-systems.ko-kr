@@ -131,14 +131,14 @@ image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 L
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 NVRAM 상태 LED
 
 
 
  a| 
-image:../media/legend_icon_02.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 NVRAM 주의 LED
 
@@ -169,7 +169,7 @@ image::../media/drw_a1k_pcm_remove_replace_ieops-1375.svg[컨트롤러 분리 �
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 잠금 캠 래치 
 |===
 . 컨트롤러 모듈을 인클로저에서 밀어 꺼내고 평평하고 안정적인 표면에 놓습니다.
@@ -193,16 +193,14 @@ image::../media/drw_a1k_remove_replace_nvmembat_ieops-1379.svg[NV 배터리를 �
 |===
 
 
- a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
-| NV 배터리 에어 덕트 커버 
+| image:../media/legend_icon_01.png["설명선 번호 1"]  a| 
+NV 배터리 에어 덕트 커버
 
 
- a| 
-image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
- a| 
-NV 배터리 플러그
 
+ a| 
+image:../media/legend_icon_02.png["설명선 번호 2"]
+| NV 배터리 플러그 
 |===
 . 배터리를 들어 올려 배터리 플러그에 접근합니다.
 . 배터리 플러그의 전면에 있는 클립을 눌러 소켓에서 플러그를 분리한 다음 소켓에서 배터리 케이블을 뽑습니다.

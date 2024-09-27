@@ -90,14 +90,14 @@ image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 L
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 NVRAM 상태 LED
 
 
 
  a| 
-image:../media/legend_icon_02.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 NVRAM 주의 LED
 
@@ -138,12 +138,12 @@ image::../media/drw_a70-90_pcm_remove_replace_ieops-1365.svg[컨트롤러 분리
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_01.png["설명선 번호 1"]
 | 잠금 래치 
 
 
  a| 
-image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
+image:../media/legend_icon_02.png["설명선 번호 2"]
  a| 
 잠금 핀
 

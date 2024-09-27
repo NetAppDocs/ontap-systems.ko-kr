@@ -15,6 +15,8 @@ summary: 두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설
 
 MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 설명서"^].
 
+* 경고: * 시스템에 ONTAP 9.13.1P8-9.13.1P11, ONTAP 9.14.1P1-9.14.1P7 또는 ONTAP 9.15.1-9.15.1P2가 설치되어 있고 시스템에 10개 이상의 내부 솔리드 스테이트 드라이브가 있는 경우 추가 단계를 수행하여 시스템을 설치해야 합니다. 문제를  https://mysupport.netapp.com/site/bugs-online/product/ONTAP/JiraNgage/CONTAP-285173["CONTAP-285173 - ADP는 10개 이상의 내부 드라이브가 있는 AFF A150에 스페어 루트 파티션을 남기지 않습니다"^]참조하십시오.
+
 하드웨어 설치 및 케이블 연결:: 다음 비디오는 시스템 설치 및 케이블 연결 방법을 보여줍니다.
 
 

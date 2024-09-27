@@ -29,7 +29,7 @@ image::../media/drw_a1k_fan_remove_replace_ieops-1376.svg[팬을 교체합니다
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/legend_icon_01.png["설명선 번호 1"]
  a| 
 검은색 분리 버튼
 
