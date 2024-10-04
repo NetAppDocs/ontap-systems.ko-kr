@@ -115,7 +115,7 @@ X6553-R6(112-00188), 2m
 
 X6536-R6(112-00090), 5m
  a| 
-image:../media/oie_cable_fiber_lc_connector.png["광섬유 LC 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_fiber_lc_connector.png["LC 파이버 커넥터"]
  a| 
 FC 호스트 네트워크
 
@@ -154,7 +154,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 

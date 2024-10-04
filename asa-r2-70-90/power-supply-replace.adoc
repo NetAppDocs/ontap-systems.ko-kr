@@ -51,7 +51,7 @@ image::../media/drw_a70-90_psu_remove_replace_ieops-1368.svg[PSU를 교체합니
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 테라코타 PSU 잠금 탭 
 |===
 . 컨트롤러 모듈에 교체용 PSU를 설치합니다.
@@ -107,28 +107,28 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[DC PSU를 분리�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 나비 나사
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 D-sub DC 전원 PSU 케이블 커넥터
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 전원 공급 장치 핸들
 
 
 
  a| 
-image:../media/legend_icon_04.svg["설명선 번호 4, 너비 = 30x"]
+image:../media/icon_round_4.png["설명선 번호 4"]
 | 파란색 PSU 잠금 탭 
 |===
 . 컨트롤러 모듈에 교체용 PSU를 설치합니다.

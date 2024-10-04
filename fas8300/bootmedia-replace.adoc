@@ -43,14 +43,14 @@ image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 컨트롤러를 섀시 밖으로 밀어냅니다
 
@@ -88,21 +88,21 @@ image::../media/drw_A400_open-air-duct.png[에어 덕트 열기]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 공기 덕트를 컨트롤러 뒤쪽으로 밉니다
 
 
 
  a| 
-image::../media/legend_icon_03.png[설명선 번호 3]
+image::../media/icon_round_3.png[설명선 번호 3]
  a| 
 공기 덕트를 위로 돌립니다
 
@@ -121,14 +121,14 @@ image::../media/drw_A400_Replace-boot_media.png[부팅 미디어 제거]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 파란색 버튼을 누릅니다
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 부팅 미디어를 위로 돌리고 소켓에서 제거합니다
 

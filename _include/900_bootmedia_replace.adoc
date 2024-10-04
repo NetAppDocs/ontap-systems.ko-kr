@@ -26,14 +26,14 @@ image::../media/drw_a900_remove_PCM.png[컨트롤러를 놓습니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -52,7 +52,7 @@ image::../media/drw_a900_PCM_open.png[컨트롤러 모듈에서 덮개를 들어
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -79,14 +79,14 @@ image::../media/drw_a900_remove_boot_dev.png[부팅 미디어를 제거합니다
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 분리 탭을 누릅니다
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 미디어를 부팅합니다
 

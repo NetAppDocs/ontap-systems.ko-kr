@@ -84,7 +84,7 @@ image::../media/drw_a1k_io_remove_replace_ieops-1382.svg[AFF A1K 입출력 모�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 캠 잠금 버튼 
 |===
 +
@@ -227,7 +227,7 @@ image::../media/drw_a1k_io_remove_replace_ieops-1382.svg[AFF A1K 입출력 모�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 캠 잠금 버튼 
 |===
 +

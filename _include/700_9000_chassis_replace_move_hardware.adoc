@@ -33,7 +33,7 @@ image::../media/drw_9000_remove_install_psu_module.gif[전원 공급 장치(PSU)
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 버튼
 
@@ -63,7 +63,7 @@ image::../media/drw_9000_remove_install_fan.png[팬을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 주황색 해제 버튼
 
@@ -90,14 +90,14 @@ image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -143,14 +143,14 @@ image::../media/drw_9000_remove_pcie_module.png[PCIe 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 문자 및 숫자 I/O 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 
@@ -178,7 +178,7 @@ image::../media/drw_9000_remove_nv_battery.png[NV 배터리를 탈거하십시�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 DCPM 모듈 주황색 잠금 버튼
 

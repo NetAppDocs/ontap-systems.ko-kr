@@ -122,7 +122,7 @@ image:../media/oie_cable_fc_optical.png["OIE 파이버 채널 광 케이블"]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 소프트웨어 설정 중 콘솔 연결
 

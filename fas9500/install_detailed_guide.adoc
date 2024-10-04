@@ -59,7 +59,7 @@ X66240A-2(112-00598), 2m
 
 X66240A-5(112-00600), 5m
  a| 
-이미지:../media/oie_cable_SFP_GbE_copper.svg
+이미지:../media/oie_cable_sfp_gbe_copper.png
  a| 
 네트워크 케이블
 
@@ -74,7 +74,7 @@ X66250-5(112-00344), 5m
 
 X66250-15(112-00346), 15m
  a| 
-이미지:../media/oie_cable_SFP_GbE_copper.svg
+이미지:../media/oie_cable_sfp_gbe_copper.png
  a| 
 FC 광 네트워크 케이블
 
@@ -89,7 +89,7 @@ X66100-3(112-00543), 3m
 
 X66100-5(112-00544), 5m
  a| 
-이미지:../media/oie_cable100_gbe_qsfp28.svg
+이미지:../media/oie_cable100_gbe_qsfp28.png
  a| 
 이더넷 데이터, 클러스터 네트워크
 
@@ -104,7 +104,7 @@ X66211B-2(112-00574), 2m
 
 X66211B-5(112-00576), 5m
  a| 
-이미지:../media/oie_cable100_gbe_qsfp28.svg
+이미지:../media/oie_cable100_gbe_qsfp28.png
  a| 
 네트워크,
 
@@ -123,7 +123,7 @@ X66032A(112-00437), 2m
 
 X66033A(112-00438), 3m
  a| 
-image::../media/oie_cable_fiber_lc_connector.svg[OIE 케이블 파이버 LC 커넥터]
+image::../media/oie_cable_fiber_lc_connector.png[OIE 케이블 파이버 LC 커넥터]
  a| 
 FC 광 네트워크
 
@@ -136,7 +136,7 @@ CAT 6, RJ-45(주문 종속)
 
 X6562-R6(112-00196), 5m
  a| 
-이미지: ../media/oie_cable_RJ45.svg
+이미지:../media/oie_cable_rj45.png
  a| 
 관리 네트워크 및 이더넷 데이터
 
@@ -162,7 +162,7 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SA
  a| 
 해당 없음
  a| 
-image::../media/oie_cable_micro_usb.svg[OIE 케이블 마이크로 USB]
+이미지: ../media/oie_cable_micro_usb.pngMicro USB 커넥터]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -173,7 +173,7 @@ Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 �
  a| 
 해당 없음
  a| 
-image::../media/oie_cable_power.svg[OIE 케이블 전원]
+image::../media/oie_cable_power.png[전원 케이블]
  a| 
 시스템 전원을 켭니다
 
@@ -242,7 +242,7 @@ image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케
 
 
  a| 
-이미지: ../media/oie_legend_icon_1_lg.svg
+이미지:../media/icon_square_1_green.png
  a| 
 케이블 클러스터 인터커넥트 포트:
 
@@ -250,44 +250,44 @@ image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케
 ** 슬롯 A8 및 B8(e8a)
 
 
-이미지:../media/oie_cable100_gbe_qsfp28.svg
+이미지:../media/oie_cable100_gbe_qsfp28.png
 
 
 
  a| 
-이미지: ../media/oie_legend_icon_2_lp.svg
+이미지:../media/icon_square_2_yellow.png
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-이미지: ../media/oie_cable_RJ45.svg
+이미지:../media/oie_cable_rj45.png
 
 
 
  a| 
-이미지: ../media/oie_legend_icon_3_O. SVG
+이미지:../media/icon_square_3_orange.png
  a| 
 케이블 32 Gb FC 네트워크 스위치:
 
 슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 32Gb FC 네트워크 스위치에 연결합니다.
 
-이미지:../media/oie_cable_SFP_GbE_copper.svg
+이미지:../media/oie_cable_sfp_gbe_copper.png
 
 40GbE 호스트 네트워크 스위치:
 
 슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.
 
-이미지:../media/oie_cable100_gbe_qsfp28.svg
+이미지:../media/oie_cable100_gbe_qsfp28.png
 
 
 
  a| 
-이미지: ../media/oie_legend_icon_4_dr.svg
+이미지:../media/icon_square_4_red.png
  a| 
 케이블 25GbE 연결:
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-이미지:../media/oie_cable_SFP_GbE_copper.svg
+이미지:../media/oie_cable_sfp_gbe_copper.png
 
 
 
@@ -296,7 +296,7 @@ image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
  a| 
-image::../media/oie_cable_power.svg[OIE 케이블 전원]
+image::../media/oie_cable_power.png[전원 케이블]
 
 image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원]
 
@@ -332,7 +332,7 @@ image::../media/drw_9500_switched_network_cabling.svg[drw 9500 스위치 방식 
 
 
  a| 
-이미지: ../media/oie_legend_icon_1_lg.svg
+이미지:../media/icon_square_1_green.png
  a| 
 케이블 클러스터 인터커넥트 A 포트:
 
@@ -340,44 +340,44 @@ image::../media/drw_9500_switched_network_cabling.svg[drw 9500 스위치 방식 
 ** 클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)
 
 
-이미지:../media/oie_cable100_gbe_qsfp28.svg
+이미지:../media/oie_cable100_gbe_qsfp28.png
 
 
 
  a| 
-이미지: ../media/oie_legend_icon_2_lp.svg
+이미지:../media/icon_square_2_yellow.png
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-이미지: ../media/oie_cable_RJ45.svg
+이미지:../media/oie_cable_rj45.png
 
 
 
  a| 
-이미지: ../media/oie_legend_icon_3_O. SVG
+이미지:../media/icon_square_3_orange.png
  a| 
 케이블 32 Gb FC 네트워크 스위치:
 
 슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 32Gb FC 네트워크 스위치에 연결합니다.
 
-이미지:../media/oie_cable_SFP_GbE_copper.svg
+이미지:../media/oie_cable_sfp_gbe_copper.png
 
 40GbE 호스트 네트워크 스위치:
 
 슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.
 
-이미지:../media/oie_cable100_gbe_qsfp28.svg
+이미지:../media/oie_cable100_gbe_qsfp28.png
 
 
 
  a| 
-이미지: ../media/oie_legend_icon_4_dr.svg
+이미지:../media/icon_square_4_red.png
  a| 
 케이블 25GbE 연결:
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-이미지:../media/oie_cable_SFP_GbE_copper.svg
+이미지:../media/oie_cable_sfp_gbe_copper.png
 
 
 
@@ -386,7 +386,7 @@ image::../media/drw_9500_switched_network_cabling.svg[drw 9500 스위치 방식 
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
  a| 
-image::../media/oie_cable_power.svg[OIE 케이블 전원]
+image::../media/oie_cable_power.png[전원 케이블]
 
 image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원]
 
@@ -430,7 +430,7 @@ image::../media/drw_9500_sas_shelf_cabling.svg[drw 9500 SAS 셸프 케이블 연
 
 
  a| 
-image::../media/oie_legend_icon_1_mb.svg[OIE 범례 아이콘 1 MB]
+image::../media/icon_square_1_blue.png[아이콘 사각형 1 파란색]
  a| 
 드라이브 쉘프 스택 1을 컨트롤러에 연결합니다. 참고로 사용하십시오.
 
@@ -441,7 +441,7 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SA
 
 
  a| 
-image::../media/oie_legend_icon_2_t.svg[OIE 범례 아이콘 2 t]
+image::../media/icon_square_2_yellow.png[아이콘 사각형 2 노란색]
  a| 
 드라이브 쉘프 스택 2를 컨트롤러에 연결합니다. 참고로 사용합니다.
 
@@ -477,14 +477,14 @@ image::../media/drw_power-on_set_shelf_ID_set.svg[설정된 셸프 ID 세트의 
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 엔드 캡을 탈거하십시오.
 
 
 
  a| 
-image::../media/legend_icon_02.svg[범례 아이콘 02]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 첫 번째 숫자가 깜박일 때까지 쉘프 ID 버튼을 누른 후 을 눌러 0-9로 이동합니다.
 
@@ -494,7 +494,7 @@ NOTE: 첫 번째 숫자가 계속 깜박입니다
 
 
  a| 
-image::../media/legend_icon_03.svg[범례 아이콘 03]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 쉘프 ID 버튼을 두 번째 숫자가 깜박일 때까지 길게 누른 다음 을 눌러 0-9로 이동합니다.
 
@@ -504,14 +504,14 @@ NOTE: 첫 번째 숫자의 깜박임이 멈추고 두 번째 숫자의 깜박임
 
 
  a| 
-image::../media/legend_icon_04.svg[범례 아이콘 04]
+image::../media/icon_round_4.png[설명선 번호 4]
  a| 
 엔드 캡을 교체합니다.
 
 
 
  a| 
-image::../media/legend_icon_05.svg[범례 아이콘 05]
+image::../media/icon_round_5.png[설명선 번호 5]
  a| 
 황색 LED(!)가 나타날 때까지 10초 동안 기다립니다. 쉘프 ID를 설정한 후 드라이브 쉘프의 전원을 껐다가 다시 켭니다.
 
@@ -609,14 +609,14 @@ image::../media/drw_power-on_set_shelf_ID_set.svg[설정된 셸프 ID 세트의 
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 엔드 캡을 탈거하십시오.
 
 
 
  a| 
-image::../media/legend_icon_02.svg[범례 아이콘 02]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 첫 번째 숫자가 깜박일 때까지 쉘프 ID 버튼을 누른 후 을 눌러 0-9로 이동합니다.
 
@@ -626,7 +626,7 @@ NOTE: 첫 번째 숫자가 계속 깜박입니다
 
 
  a| 
-image::../media/legend_icon_03.svg[범례 아이콘 03]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 쉘프 ID 버튼을 두 번째 숫자가 깜박일 때까지 길게 누른 다음 을 눌러 0-9로 이동합니다.
 
@@ -636,14 +636,14 @@ NOTE: 첫 번째 숫자의 깜박임이 멈추고 두 번째 숫자의 깜박임
 
 
  a| 
-image::../media/legend_icon_04.svg[범례 아이콘 04]
+image::../media/icon_round_4.png[설명선 번호 4]
  a| 
 엔드 캡을 교체합니다.
 
 
 
  a| 
-image::../media/legend_icon_05.svg[범례 아이콘 05]
+image::../media/icon_round_5.png[설명선 번호 5]
  a| 
 황색 LED(!)가 나타날 때까지 10초 동안 기다립니다. 쉘프 ID를 설정한 후 드라이브 쉘프의 전원을 껐다가 다시 켭니다.
 

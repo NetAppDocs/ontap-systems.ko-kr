@@ -49,7 +49,7 @@ image::../media/drw_9000_remove_install_psu_module.svg[PSU 모듈을 분리하�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 버튼
 

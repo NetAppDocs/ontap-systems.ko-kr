@@ -97,7 +97,7 @@ X6536-R6(112-00090), 5m
 
 X6554-R6(112-00189), 15m
  a| 
-image:../media/oie_cable_fiber_lc_connector.png["광섬유 LC 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_fiber_lc_connector.png["LC 파이버 커넥터"]
  a| 
 FC 호스트 네트워크
 
@@ -138,7 +138,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -195,21 +195,21 @@ image::../media/drw_cable_management_arm_install.png[케이블 관리 장치 연
 
 
  a| 
-이미지:../media/oie_legend_icon_1_lg.svgwidth=40px]
+image::../media/icon_square_1_green.png[설명선 번호 1]
  a| 
 클러스터 인터커넥트
 
 
 
  a| 
-image::../media/oie_legend_icon_2_o.svg[OIE 범례 아이콘 2 o]
+image::../media/icon_square_2_yellow.png[설명선 번호 2]
  a| 
 데이터 네트워크 스위치를 호스팅할 컨트롤러
 
 
 
  a| 
-image::../media/oie_legend_icon_3_lp.svg[OIE 범례 아이콘 3 lp]
+image::../media/icon_square_3_orange.png[설명선 번호 3]
  a| 
 컨트롤러 - 관리 네트워크 스위치
 
@@ -240,7 +240,7 @@ UTA2 데이터 네트워크 구성:: UTA2 데이터 포트를 호스트 네트�
 ** FC 호스트의 경우 0c 및 0d * 또는 * 0e 및 0f를 사용하십시오.
 ** 10GbE 시스템의 경우 e0c 및 e0d * 또는 * e0e 및 e0f 를 사용합니다.
 +
-image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
+image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 +
 하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.
@@ -258,7 +258,7 @@ image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연�
 
 . RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 +
-image:../media/drw_c190_u_mgmt_cbling.png["관리 포트 케이블 연결"]
+image:../media/drw_c190_u_mgmt_cabling.png["관리 포트 케이블 연결"]
 
 
 
@@ -291,7 +291,7 @@ UTA2 데이터 네트워크 구성:: UTA2 데이터 포트를 호스트 네트�
 ** FC 호스트의 경우 0c 및 0d** 또는** 0e 및 0f를 사용합니다.
 ** 10GbE 시스템의 경우 e0c 및 e0d ** 또는 ** e0e 및 e0f 를 사용합니다.
 +
-image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
+image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 +
 하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.
@@ -309,7 +309,7 @@ image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연�
 
 . RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 +
-image:../media/drw_c190_u_mgmt_cbling.png["관리 포트 케이블 연결"]
+image:../media/drw_c190_u_mgmt_cabling.png["관리 포트 케이블 연결"]
 
 
 

@@ -198,12 +198,12 @@ image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -249,12 +249,12 @@ image::../media/drw_rxl_nvmem_battery.png[NVMEM 배터리 교체]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | NVMEM 배터리 잠금 탭 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 NVMEM 배터리
 

@@ -34,7 +34,7 @@ image::../media/drw_sys_cab_door_reversal_ozeki.gif[하단 힌지를 고정하�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
@@ -44,7 +44,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
@@ -54,7 +54,7 @@ image:../media/legend_icon_02.png["설명선 번호 2"]
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
 
 
 
@@ -64,7 +64,7 @@ image:../media/legend_icon_03.png["설명선 번호 3"]
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
 
 
 
@@ -74,7 +74,7 @@ image:../media/legend_icon_04.png["설명선 번호 4"]
 
 
  a| 
-image:../media/legend_icon_05.png["설명선 번호 5"]
+image:../media/icon_round_5.png["설명선 번호 5"]
 
 
 

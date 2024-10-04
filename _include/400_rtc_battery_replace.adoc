@@ -191,14 +191,14 @@ image::../media/drw_c400_remove_controller_IEOPS-1216.svg[컨트롤러 모듈을
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 컨트롤러가 섀시 밖으로 약간 이동합니다
 
@@ -227,21 +227,21 @@ image::../media/drw_c400_rtc_batt_IEOPS-1239.svg[RTC 배터리를 제거합니�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 중앙 라이저
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 RTC 배터리를 제거합니다
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 시트 RTC 배터리
 

@@ -11,81 +11,57 @@ summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템
 
 
 [role="lead"]
-ONTAP 9.16.0 이상을 실행하는 ASA R2 시스템과 함께 를 사용하여 파트너 노드에서 ONTAP 이미지(부팅 미디어 복구)를 복구할 수 `boot_recovery -partner` 있습니다.
+부팅 미디어가 손상된 경우 파트너 노드에서 ONTAP 이미지를 복원합니다.
 
-.시작하기 전에
-노드를 부팅하고 해당 노드의 부팅 미디어가 손상되면 Loader 프롬프트에 다음 메시지와 부팅 프로세스가 중지됩니다.
+.이 작업에 대해
+노드의 부팅 미디어가 손상된 경우 Loader 프롬프트에서 부팅 프로세스가 멈추고 부팅 오류 메시지가 표시됩니다.
 
+이러한 부팅 오류 메시지가 표시되면 파트너 노드에서 ONTAP 이미지를 복원해야 합니다.
+
+.부팅 오류 메시지의 예를 표시합니다
+[%collapsible]
+====
 ....
-
 Can't find primary boot device u0a.0
 Can't find backup boot device u0a.1
 ACPI RSDP Found at 0x777fe014
 
-
 Starting AUTOBOOT press Ctrl-C to abort...
-Could not load fat://boot0/X86_64/freebsd/image1/kernel:Device not found
+Could not load fat://boot0/X86_64/freebsd/image1/kernel: Device not found
 
-ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/Linux/image1/vmlinuz (boot0,fat)
-
-
-ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/freebsd/image1/kernel (boot0,fat)
-
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/Linux/image1/vmlinuz (boot0, fat)
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/freebsd/image1/kernel (boot0, fat)
 
 Autoboot of PRIMARY image failed. Device not found (-6)
 LOADER-A>
-
 ....
-이 메시지가 표시되면 ONTAP 이미지를 복원해야 합니다
+====
+.단계
+. Loader 프롬프트에서 다음 명령을 입력합니다.
++
+`boot_recovery -partner`
 
-해당 구성과 일치하는 단일 노드 자동 복구 옵션을 선택합니다.
++
+화면에 다음 메시지가 표시됩니다.
 
++
+`Starting boot media recovery (BMR) process. Press Ctrl-C to abort…`
+
+. Loader가 로컬 클러스터 포트를 구성하고 파트너 노드에서 실행할 때 부팅 미디어 복구 프로세스를 `netboot` 모니터링합니다.
++
+netboot가 실행 중이면 `Starting BMR` 메시지가 표시됩니다.
+
+. 암호화 방법에 따라 단일 노드 구성과 일치하는 옵션을 선택합니다.
++
 [role="tabbed-block"]
 ====
-.옵션 1: 암호화하지 않고 복구합니다
+.암호화 없음
 --
-부팅 미디어 이미지를 복원합니다.
+암호화가 감지되지 않으면 키 관리 없이 부팅 미디어 복구 프로세스가 계속됩니다.
 
-.단계
-. Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.
-+
-화면에 메시지가 `Starting boot media recovery (BMR) process press Ctrl-C to abort...` 표시되고 초기 점검이 시작됩니다.
+파트너 노드에서 백업 구성, env 파일, MDB 및 RDB를 복구하면서 복구 프로세스를 계속 모니터링합니다.
 
-. Loader가 로컬 클러스터 포트를 구성하고 를 통해 Netboot를 실행함에 따라 프로세스를 `\http://<remote-partner-IP>:65530/recoverydisk/image.tgz` 모니터링합니다.
-+
-Netboot가 실행되면 `Starting BMR ...` 이 화면에 표시되고 설치 프로세스가 완료됩니다.
-
-+
-.. 키 관리자가 구성되지 않은 경우 다음 메시지가 표시됩니다.
-+
-....
-key manager is not configured. Exiting.
-....
-.. 다음 메시지가 표시되면 Onboard Key Manager(OKM)가 구성된 것입니다.
-+
-....
-
-key manager is configured.
-Entering Bootmenu Option 10...
-
-This option must be used only in disaster recovery procedures. Are you sure? (y or n):
-
-....
-+
-로 이동하여 복구 프로세스를 완료합니다.
-
-.. 다음 메시지가 표시되면 EKM(External Key Manager)이 구성된 것입니다. EKM 항목으로 이동하여 복구 프로세스를 완료합니다.
-+
-....
-Error when fetching key manager config from partner 169.254.139.209: 28
-Has key manager been configured on this system? {y|n}
-
-....
-
-
-. BMR 프로세스를 모니터링하면 파트너가 백업 구성, env 파일, MDB 및 RDB를 복구할 수 있습니다.
-. 노드가 재부팅되고 BMR이 완료된 것은 다음과 같습니다.
-
+복구 프로세스가 완료되면 노드가 재부팅됩니다. 다음 메시지는 복구에 성공했음을 나타냅니다.
 
 ....
 
@@ -100,30 +76,22 @@ varfs_backup_restore: bootarg.abandon_varfs is set! Skipping /var backup.
 
 ....
 --
-.옵션 2: Onboard Key Manager를 사용한 복구가 있습니다
+.온보드 키 관리자(OKM)
 --
-부팅 미디어 이미지를 복원합니다.
+Onboard Key Manager(OKM)가 감지되면 다음과 같은 프롬프트가 표시됩니다.
 
-.단계
-. Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.
-+
-화면에 메시지가 `Starting boot media recovery (BMR) process press Ctrl-C to abort...` 표시되고 부팅 복구 파일의 초기 확인 및 설치가 시작됩니다.
-
-+
-.. Onboard Key Manager(OKM)가 구성된 경우 다음과 같은 메시지가 표시됩니다.
-+
 ....
 key manager is configured.
 Entering Bootmenu Option 10...
 
 This option must be used only in disaster recovery procedures. Are you sure? (y or n):
 ....
-
-
-. 프롬프트에 _y_를 입력합니다.
-. 가 표시되면 온보드 키 관리자에 대한 암호를 입력합니다 `Enter the passphrase for onboard key management:`
-. 암호를 확인하는 메시지가 표시되면 온보드 키 관리자에 대한 암호를 다시 입력합니다.
+.. Bootmenu 옵션 프롬프트에서 를 `Y` 입력하여 bootmedia 복구 옵션을 사용할 것인지 확인합니다.
+.. 메시지가 표시되면 온보드 키 관리자에 대한 암호를 입력하고 암호를 다시 입력하여 확인합니다.
 +
+.암호 프롬프트의 예를 표시합니다
+[%collapsible]
+=====
 ....
 Enter the passphrase for onboard key management:
 Enter the passphrase again to confirm:
@@ -139,8 +107,10 @@ QRHwv+1aWvAAAAAAAAAAACQAAAAAAAAAgAAAAAAAAABHVFpxAAAAAHUgdVq0EKNp
 .
 .
 ....
+=====
+.. 파트너 노드에서 백업 구성, env 파일, MDB 및 RDB를 복구하면서 복구 프로세스를 계속 모니터링합니다.
 +
-복구 프로세스가 완료되면 다음 메시지가 표시됩니다.
+복구 프로세스가 완료되면 노드가 재부팅됩니다. 다음 메시지는 복구에 성공했음을 나타냅니다.
 
 +
 ....
@@ -151,59 +121,90 @@ Trying to delete any existing km_onboard.wkeydb file.
 
 Successfully recovered keymanager secrets.
 ....
-. BMR 프로세스를 모니터링하면 파트너가 백업 구성, env 파일, MDB 및 RDB를 복구할 수 있습니다.
-+
-복원이 완료되면 노드가 재부팅되어 프로세스가 완료됩니다.
-
 
 
 --
-.옵션 3: External Key Manager가 있는 복구
+.외부 키 관리자(EKM)
 --
-부팅 미디어 이미지를 복원합니다.
+EKM이 구성된 경우 다음 프롬프트가 표시됩니다.
 
-.단계
-. Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.
-+
-화면에 메시지가 `Starting boot media recovery (BMR) process press Ctrl-C to abort...` 표시되고 부팅 복구 파일의 초기 확인 및 설치가 시작됩니다.
-
-+
-.. EKM(External Key Manager)이 구성된 경우 다음과 같은 메시지가 표시됩니다.
-+
 ....
-Error when fetching key manager config from partner 169.254.139.209: 28
+Error when fetching key manager config from partner <IP>: 28
+
 Has key manager been configured on this system? {y|n}
 ....
-.. 키 관리자가 구성된 경우 _y_를 입력합니다.
+.. EKM이 구성된 경우 를 `Y` 입력합니다.
 +
 ....
 key manager is configured.
 Entering Bootmenu Option 11...
 ....
++
+설치 중에 처음 사용한 EKM 설정을 묻는 메시지가 나타납니다.
 
+.. 메시지가 나타나면 각 EKM 구성 설정을 입력합니다.
+.. 클러스터 UUID 및 Keystore UUID의 속성이 올바른지 확인합니다.
++
+*** 파트너 노드에서 다음 명령을 사용하여 클러스터 UUID를 검색합니다.
++
+`cluster identity show`
+
+*** 파트너 노드에서 다음 명령을 사용하여 Keystore UUID를 검색합니다.
++
+`vserver show -type admin`
 
 +
-Bootmenu 옵션 11은 구성 파일을 재구축할 수 있도록 모든 EKM 구성 정보를 사용자에게 표시합니다.
+`key-manager keystore show -vserver <nodename>`
 
-. 각 프롬프트에서 EKM 구성을 입력합니다.
+*** 파트너 노드를 사용할 수 없는 경우 Mroot-AK 키를 사용하여 UUID를 검색합니다.
 +
-* 참고: * 이 정보는 대부분 EKM이 처음 활성화되었을 때 입력되었습니다. 초기 EKM 구성 시 입력한 것과 동일한 정보를 입력해야 합니다.
+**** 클러스터 UUID의 경우 다음 명령을 입력합니다.
++
+`x-NETAPP-ClusterName: <cluster name>`
 
-.  `Keystore UUID`및 가 올바른지 `Cluster UUID` 확인합니다.
+**** Keystore UUID에 다음 명령을 입력합니다.
 +
-.. 파트너 노드에서  `cluster identity show`명령을 사용하여 클러스터 UUID를 검색합니다.
-.. 파트너 노드에서 `vserver show -type admin` 명령과 `key-manager keystore show -vserver <nodename>` 명령을 사용하여 Keystore UUID를 검색합니다.
+`x-NETAPP-KeyUsage: MROOT-AK`
+
+
+
+
+
 .. 메시지가 표시되면 Keystore UUID 및 클러스터 UUID 값을 입력합니다.
+.. 키가 성공적으로 복원되었는지 여부에 따라 다음 작업 중 하나를 수행합니다.
 +
-*참고:* 파트너 노드를 사용할 수 없는 경우, 키 저장소 UUID 및 클러스터 UUID는 구성된 키 서버에 있는 Mroot-AK 키에서 얻을 수 있습니다.
-
+*** 키가 성공적으로 복원되면 복구 프로세스가 계속되고 노드를 재부팅합니다. 4단계를 진행합니다.
+*** 키가 성공적으로 복원되지 않으면 시스템이 중지되고 오류 및 경고 메시지가 표시됩니다. 복구 프로세스를 다시 실행합니다.
 +
- `x-NETAPP-ClusterName: <cluster name>`클러스터 UUID 및 `x-NETAPP-KeyUsage: "MROOT-AK"` Keystore UUID 속성에 대한 를 확인하여 올바른 키가 있는지 확인합니다.
+.키 복구 오류 및 경고 메시지의 예를 표시합니다
+[%collapsible]
+=====
+....
+
+ERROR: kmip_init: halting this system with encrypted mroot...
+
+WARNING: kmip_init: authentication keys might not be available.
+
+System cannot connect to key managers.
+
+ERROR: kmip_init: halting this system with encrypted mroot...
+
+Terminated
+
+Uptime: 11m32s
+
+System halting...
+
+LOADER-B>
+....
+=====
 
 
-
-. 키가 제대로 복원되면 복구 프로세스가 계속되고 노드를 재부팅합니다.
 
 
 --
 ====
+
+
+. 노드를 재부팅할 때 시스템이 다시 온라인 상태이고 작동 중인지 확인하여 부팅 미디어 복구가 성공적인지 확인합니다.
+

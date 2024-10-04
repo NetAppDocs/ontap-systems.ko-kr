@@ -1,10 +1,10 @@
 ---
-permalink: asa-r2-70-90/bootmedia-shutdown-asa-r2.html 
+permalink: asa-r2-a1k/bootmedia-shutdown-bmr.html 
 sidebar: sidebar 
-keywords: asa r2 a70, asa r2 a90, shut down the controller 
-summary: 손상된 컨트롤러의 종료를 완료해야 합니다. 
+keywords: asa r2 a1k, shut down the controller 
+summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
-= ASA A70 및 ASA A90 컨트롤러를 종료합니다
+= 손상된 컨트롤러를 종료합니다. - ASA A1K을 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

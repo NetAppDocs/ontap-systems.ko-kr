@@ -59,7 +59,7 @@ X66240A-2(112-00598), 2m
 
 X66240A-5(112-00600), 5m
  a| 
-image::../media/oie_cable_sfp_gbe_copper.svg[GbE 구리 SFP]
+image::../media/oie_cable_sfp_gbe_copper.png[GbE 구리 SFP]
  a| 
 네트워크 케이블
 
@@ -74,7 +74,7 @@ X66250-5(112-00344), 5m
 
 X66250-15(112-00346), 15m
  a| 
-image::../media/oie_cable_sfp_gbe_copper.svg[GbE 구리 SFP]
+image::../media/oie_cable_sfp_gbe_copper.png[GbE 구리 SFP]
  a| 
 FC 광 네트워크 케이블
 
@@ -89,7 +89,7 @@ X66100-3(112-00543), 3m
 
 X66100-5(112-00544), 5m
  a| 
-image::../media/oie_cable100_gbe_qsfp28.svg[GbE 구리 SFP]
+image::../media/oie_cable100_gbe_qsfp28.png[GbE 구리 SFP]
  a| 
 이더넷 데이터, 클러스터 네트워크
 
@@ -104,7 +104,7 @@ X66211B-2(112-00574), 2m
 
 X66211B-5(112-00576), 5m
  a| 
-image::../media/oie_cable100_gbe_qsfp28.svg[GbE 구리 SFP]
+image::../media/oie_cable100_gbe_qsfp28.png[GbE 구리 SFP]
  a| 
 네트워크,
 
@@ -125,7 +125,7 @@ X66032A(112-00437), 2m
 
 X66033A(112-00438), 3m
  a| 
-image::../media/oie_cable_fiber_lc_connector.svg[LC 파이버 커넥터]
+image::../media/oie_cable_fiber_lc_connector.png[LC 파이버 커넥터]
  a| 
 FC 광 네트워크
 
@@ -138,7 +138,7 @@ CAT 6, RJ-45(주문 종속)
 
 X6562-R6(112-00196), 5m
  a| 
-image::../media/oie_cable_rj45.svg[RJ-45 케이블 커넥터]
+image::../media/oie_cable_rj45.png[RJ-45 케이블 커넥터]
  a| 
 관리 네트워크 및 이더넷 데이터
 
@@ -149,7 +149,7 @@ image::../media/oie_cable_rj45.svg[RJ-45 케이블 커넥터]
  a| 
 해당 없음
  a| 
-image::../media/oie_cable_micro_usb.svg[마이크로 USB 커넥터]
+image::../media/oie_cable_micro_usb.png[마이크로 USB 커넥터]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -160,7 +160,7 @@ Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 �
  a| 
 해당 없음
  a| 
-image::../media/oie_cable_power.svg[전원 케이블 커넥터]
+image::../media/oie_cable_power.png[전원 케이블 커넥터]
  a| 
 시스템 전원을 켭니다
 
@@ -230,7 +230,7 @@ image::../media/drw_a900_tnsc_network_cabling_IEOPS-933.svg[스위치가 없는 
 
 
  a| 
-image::../media/oie_legend_icon_1_lg.svg[설명선 아이콘 1]
+image::../media/icon_square_1_green.png[설명선 번호 1]
  a| 
 케이블 클러스터 인터커넥트 포트:
 
@@ -238,55 +238,55 @@ image::../media/oie_legend_icon_1_lg.svg[설명선 아이콘 1]
 ** 슬롯 A8 및 B8(e8a)
 
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100Gb 커넥터]
+image::../media/oie_cable100_gbe_qsfp28.png[100Gb 커넥터]
 
 
 
  a| 
-image::../media/oie_legend_icon_2_lp.svg[설명선 아이콘 2]
+image::../media/icon_square_2_purple.png[설명선 번호 2]
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-image::../media/oie_cable_rj45.svg[RJ-45 케이블 커넥터]
+image::../media/oie_cable_rj45.png[RJ-45 케이블 커넥터]
 
 
 
  a| 
-image::../media/oie_legend_icon_3_o.svg[설명선 아이콘 3]
+image::../media/icon_square_3_orange.png[설명선 번호 3]
  a| 
 25GbE 네트워크 스위치 케이블:
 
 슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[GbE 구리 SFP]
+image::../media/oie_cable_sfp_gbe_copper.png[GbE 구리 SFP]
 
 40GbE 호스트 네트워크 스위치:
 
 슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE 케이블 커넥터]
+image::../media/oie_cable100_gbe_qsfp28.png[100 GbE 케이블 커넥터]
 
 
 
  a| 
-image:../media/oie_legend_icon_4_dr.svg["설명선 아이콘 4"]
+image:../media/icon_square_4_red.png["설명선 번호 4"]
  a| 
 케이블 32Gb FC 연결: xxx
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 32Gb FC 네트워크 스위치에 연결합니다.
 
-image:../media/oie_cable_sfp_gbe_copper.svg["GbE 구리 SFP"]
+image:../media/oie_cable_sfp_gbe_copper.png["GbE 구리 SFP"]
 
 
 
  a| 
-image::../media/oie_legend_icon_5_lp.png[설명선 아이콘 5]
+image::../media/icon_square_5_grey.png[설명선 아이콘 5]
  a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
 
-image:../media/oie_cable_power.svg["전원 케이블"]
+image:../media/oie_cable_power.png["전원 케이블"]
 
 image:../media/drw_a900fas9500_power_icon_IEOPS-1142.svg["전원 연결"]
 
@@ -322,7 +322,7 @@ image:../media/drw_a900_switched_network_cabling_IEOPS-934.svg["스위치 네트
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.svg["설명선 아이콘 1"]
+image:../media/icon_square_1_green.png["설명선 번호 1"]
  a| 
 케이블 클러스터 인터커넥트 A 포트:
 
@@ -330,57 +330,57 @@ image:../media/oie_legend_icon_1_lg.svg["설명선 아이콘 1"]
 ** 클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)
 
 
-image:../media/oie_cable100_gbe_qsfp28.svg["100 GbE 케이블"]
+image:../media/oie_cable100_gbe_qsfp28.png["100 GbE 케이블"]
 
 
 
  a| 
-image:../media/oie_legend_icon_2_lo.svg["설명선 아이콘 2"]
+image:../media/icon_square_2_purple.png["설명선 번호 2"]
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-image::../media/oie_cable_rj45.svg[RJ45 케이블]
+image::../media/oie_cable_rj45.png[RJ45 케이블]
 
 
 
  a| 
-image::../media/oie_legend_icon_3_o.svg[설명선 아이콘 3]
+image::../media/icon_square_3_orange.png[설명선 번호 3]
  a| 
 25GbE 네트워크 스위치 케이블 연결:
 
 슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[GbE 구리 SFP]
+image::../media/oie_cable_sfp_gbe_copper.png[GbE 구리 SFP]
 
 40GbE 호스트 네트워크 스위치:
 
 슬롯 A4 및 B4(e4b)의 호스트 측 b 포트와 슬롯 A8 및 B8(e8b)을 호스트 스위치에 케이블로 연결합니다.
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE 케이블]
+image::../media/oie_cable100_gbe_qsfp28.png[100 GbE 케이블]
 
 
 
  a| 
-image::../media/oie_legend_icon_4_dr.svg[설명선 아이콘 4]
+image::../media/icon_square_4_red.png[설명선 번호 4]
  a| 
 케이블 32 Gb FC 연결:
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 32Gb FC 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_sfp_gbe_copper.svg[GbE 구리 SFP]
+image::../media/oie_cable_sfp_gbe_copper.png[GbE 구리 SFP]
 
 
 
  a| 
-image::../media/oie_legend_icon_5_lp.png[설명선 아이콘 5]
+image::../media/icon_square_5_grey.png[설명선 아이콘 5]
  a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
 
-image::../media/oie_cable_power.svg[OIE 케이블 전원]
+image::../media/oie_cable_power.png[전원 케이블]
 
-image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[drw a900fas9500 전원 아이콘 IEOPS 1142]
+image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원 연결]
 
 |===
 
@@ -415,7 +415,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - 단일 NS224 선반을 케이블로 연결합니다
 video::8d8b45cd-bd8f-4fab-a4fa-afa5017e7b72[panopto]
 +
-image::../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[drw a900 NS224 선반 케이블 1개 IEOPS 937]
+image::../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[단일 쉘프 케이블링]
 
 +
 [cols="20%,80%"]
@@ -424,26 +424,26 @@ image::../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[drw a900 NS224 �
 
 
  a| 
-image::../media/oie_legend_icon_1_mb.svg[설명 번호 1]
+image::../media/icon_square_1_blue.png[설명 번호 1]
  a| 
 ** 컨트롤러 A 포트 e2a를 쉘프의 NSM A의 포트 e0a에 연결합니다.
 ** 컨트롤러 A 포트 e10b를 쉘프의 NSM B의 포트 e0b에 연결합니다.
 
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE QSFP 커넥터]
+image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP 커넥터]
 
 100GbE 케이블
 
 
 
  a| 
-image::../media/oie_legend_icon_2_lo.svg[설명 번호 2]
+image::../media/icon_square_2_yellow.png[설명 번호 2]
  a| 
 ** 컨트롤러 B 포트 e2a를 쉘프의 NSM B에 있는 포트 e0a에 연결합니다.
 ** 컨트롤러 B 포트 e10b를 쉘프의 NSM A의 포트 e0b에 연결합니다.
 
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE QSFP 커넥터]
+image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP 커넥터]
 
 100GbE 케이블
 
@@ -461,7 +461,7 @@ image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE QSFP 커넥터]
 
 image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
 
-image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.svg[케이블 당김 탭 방향]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -471,7 +471,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 .애니메이션 - NS224 셸프 2개를 케이블로 연결합니다
 video::ec143c32-9e4b-47e5-893e-afa5017da6b4[panopto]
 +
-image::../media/drw_a900_NS224_line_art_two shelf_cabling_IEOPS-1147.svg[drw a900 NS224 라인 아트 2개의 선반 케이블 IEOPS 1147]
+image::../media/drw_a900_NS224_line_art_two shelf_cabling_IEOPS-1147.svg[쉘프 케이블 2개]
 
 +
 image::../media/drw_a900_NS224_two_shelf_cabling_IEOPS-938.svg[NS224 쉘프 2개를 케이블로 연결]
@@ -483,7 +483,7 @@ image::../media/drw_a900_NS224_two_shelf_cabling_IEOPS-938.svg[NS224 쉘프 2개
 
 
  a| 
-image::../media/oie_legend_icon_1_mb.svg[설명선 아이콘 1]
+image::../media/icon_square_1_blue.png[설명선 번호 1]
  a| 
 ** 쉘프 1의 NSM A e0a에 컨트롤러 A 포트 e2a를 연결합니다.
 ** 컨트롤러 A 포트 e10b를 쉘프 1의 NSM B e0b에 연결합니다.
@@ -491,14 +491,14 @@ image::../media/oie_legend_icon_1_mb.svg[설명선 아이콘 1]
 ** 컨트롤러 A 포트 e10a를 쉘프 2의 NSM A e0a에 연결합니다.
 
 
-image::../media/oie_cable100_gbe_qsfp28.svg[GbE 구리 SFP]
+image::../media/oie_cable100_gbe_qsfp28.png[GbE 구리 SFP]
 
 100GbE 케이블
 
 
 
  a| 
-image::../media/oie_legend_icon_2_lo.svg[설명선 아이콘 2]
+image::../media/icon_square_2_yellow.png[설명선 번호 2]
  a| 
 ** 컨트롤러 B 포트 e2a를 쉘프 1의 NSM B e0a에 연결합니다.
 ** 컨트롤러 B 포트 e10b를 쉘프 1의 NSM A e0b에 연결합니다.
@@ -506,7 +506,7 @@ image::../media/oie_legend_icon_2_lo.svg[설명선 아이콘 2]
 ** 컨트롤러 B 포트 e10a를 쉘프 2의 NSM B e0a에 연결합니다.
 
 
-image:../media/oie_cable100_gbe_qsfp28.svg["GbE 구리 SFP"]
+image:../media/oie_cable100_gbe_qsfp28.png["GbE 구리 SFP"]
 
 100GbE 케이블
 
@@ -543,28 +543,28 @@ image::../media/drw_a900_oie_change_ns224_shelf_ID_ieops-836.svg[쉘프 ID를 �
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 선반 엔드 캡
 
 
 
  a| 
-image::../media/legend_icon_02.png[설명선 아이콘 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 선반 면판
 
 
 
  a| 
-image::../media/legend_icon_03.png[설명선 아이콘 3]
+image::../media/icon_round_3.png[설명선 번호 3]
  a| 
 쉘프 ID LED
 
 
 
  a| 
-image::../media/legend_icon_04.png[설명선 아이콘 4]
+image::../media/icon_round_4.png[설명선 번호 4]
  a| 
 쉘프 ID 설정 버튼
 
@@ -589,11 +589,11 @@ NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 .애니메이션 - 노트북을 관리 스위치에 연결합니다
 video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 +
-image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
+image::../media/dwr_laptop_to_switch_only.svg[노트북과 스위치 연결]
 
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.svg[drw 자동 검색 제어자 선택]
+image::../media/drw_autodiscovery_controler_select.svg[자동 검색]
 
 +
 .. 파일 탐색기를 엽니다.
@@ -665,28 +665,28 @@ image::../media/drw_a900_oie_change_ns224_shelf_ID_ieops-836.svg[쉘프 ID를 �
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 선반 엔드 캡
 
 
 
  a| 
-image::../media/legend_icon_02.png[설명선 아이콘 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 선반 면판
 
 
 
  a| 
-image::../media/legend_icon_03.png[설명선 아이콘 3]
+image::../media/icon_round_3.png[설명선 번호 3]
  a| 
 쉘프 ID LED
 
 
 
  a| 
-image::../media/legend_icon_04.png[설명선 아이콘 4]
+image::../media/icon_round_4.png[설명선 번호 4]
  a| 
 쉘프 ID 설정 버튼
 

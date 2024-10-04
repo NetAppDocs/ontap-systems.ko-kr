@@ -335,14 +335,14 @@ image:../media/drw_a900_remove_PCIe_module.png["PCIe 모듈 분리"]
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 문자 및 숫자 I/O 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 

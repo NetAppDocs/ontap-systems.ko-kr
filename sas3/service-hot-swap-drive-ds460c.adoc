@@ -166,7 +166,7 @@ image::../media/trafford_drive_rel_button.gif[주황색 분리 래치]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 주황색 분리 래치 
 |===
 .. 캠 핸들을 열고 드라이브를 약간 들어 올립니다.
@@ -191,7 +191,7 @@ image::../media/28_dwg_e2860_de460c_drive_cru.gif[드라이브에서 돌출된 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 드라이브 캐리어 오른쪽에 있는 위로 단추 
 |===
 .. 드라이브를 수직으로 내린 다음 드라이브가 주황색 분리 래치 아래에 고정될 때까지 캠 핸들을 아래로 돌립니다.

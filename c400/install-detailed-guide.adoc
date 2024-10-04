@@ -109,7 +109,7 @@ FC 네트워크 연결입니다
  a| 
 X66250-2-N-C(112-00342)
  a| 
-image:../media/oie_cable_fiber_lc_connector.png["광섬유 LC 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_fiber_lc_connector.png["LC 파이버 커넥터"]
  a| 
 메자닌 카드용 16Gb FC 또는 25GbE 케이블(주문 종속)
 
@@ -133,7 +133,7 @@ image:../media/oie_cable_rj45.png["RJ-45 케이블 커넥터"]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 노트북 또는 콘솔이 네트워크 검색을 지원하지 않는 경우 소프트웨어 설치 중에 콘솔 연결이 사용됩니다.
 

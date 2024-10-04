@@ -39,14 +39,14 @@ image::../media/drw_c400_remove_controller_IEOPS-1216.svg[컨트롤러를 제거
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 컨트롤러가 섀시 밖으로 약간 이동합니다
 
@@ -70,7 +70,7 @@ image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[DRW C400 빈 라이�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 라이저 래치
 
@@ -102,14 +102,14 @@ image::../media/drw_c400_psu_IEOPS-1237.svg[DRW C400 PSU IEOPS 1237]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 PSU 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 전원 케이블 고정대
 
@@ -149,21 +149,21 @@ image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[DRW C400 NVDIMM 배터리 IE
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 NVDIMM 배터리 플러그
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 NVDIMM 배터리 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 NVDIMM 배터리
 
@@ -202,14 +202,14 @@ image::../media/drw_c400_replace_boot_media_IEOPS-1217.svg[DRW C400은 부팅 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 부트 미디어 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 미디어를 부팅합니다
 
@@ -257,28 +257,28 @@ image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[DRW C400은 PCIe 카�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 라이저 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 PCI 카드 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 PCI 잠금 플레이트
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 PCI 카드
 
@@ -329,21 +329,21 @@ image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[drw A400 NVDIMM IEOP
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 DIMM 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 DIMM
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 DIMM 소켓
 
@@ -398,14 +398,14 @@ image::../media/drw_c400_install_controller_IEOPS-1226.svg[DRW C400 설치 컨�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 컨트롤러를 섀시에 밀어 넣습니다
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 잠금 래치
 

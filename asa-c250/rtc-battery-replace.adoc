@@ -97,14 +97,14 @@ image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘을 엽니다
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 레버
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 
@@ -120,12 +120,12 @@ image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image::../media/legend_icon_02.png[설명선 번호 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 컨트롤러 모듈 덮개
 
@@ -156,21 +156,21 @@ image::../media/drw_a250_remove_rtc_batt.png[RTC 배터리를 제거합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 배터리 하우징에서 탭을 천천히 당겨 빼냅니다. * 주의: * 이 탭을 세게 잡아당기면 탭이 대체할 수 있습니다.
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 배터리를 들어올립니다. * 참고: * 배터리의 극성을 기록하십시오.
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 배터리가 배출되어야 합니다.
 
@@ -188,12 +188,12 @@ image::../media/drw_a250_install_rtc_batt.png[RTC 배터리를 장착하십시�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 양극이 위를 향하도록 하여 배터리를 배터리 하우징 탭 아래로 밀어 넣습니다. 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 배터리를 조심스럽게 제자리에 밀어 넣고 탭이 하우징에 고정되었는지 확인합니다.
 

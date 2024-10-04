@@ -33,14 +33,14 @@ image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 L
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 NVRAM 상태 LED
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 NVRAM 주의 LED
 
@@ -81,12 +81,12 @@ image::../media/drw_a70-90_pcm_remove_replace_ieops-1365.svg[컨트롤러 분리
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 잠금 래치 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -117,12 +117,12 @@ image::../media/drw_a70-90_psu_remove_replace_ieops-1368.svg[PSU를 제거합니
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
 | 테라코타 PSU 잠금 탭 
 
 
  a| 
-image::../media/legend_icon_02.svg[설명선 번호 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 전원 공급 장치
 
@@ -154,14 +154,14 @@ image::../media/drw_a70-90_fan_remove_replace_ieops-1366.svg[팬을 분리합니
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 팬 잠금 탭
 
 
 
  a| 
-image::../media/legend_icon_02.svg[설명선 번호 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 팬 모듈
 
@@ -186,12 +186,12 @@ image::../media/drw_a70-90_remove_replace_nvmembat_ieops-1369.svg[NV 배터리�
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
 | NV 배터리 에어 덕트 
 
 
  a| 
-image::../media/legend_icon_02.svg[설명선 번호 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 NV 배터리 팩 플러그
 
@@ -234,7 +234,7 @@ image::../media/drw_a70_90_dimm_ieops-1513.svg[DIMM 맵]
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
 | 시스템 DIMM입니다 
 |===
 . DIMM을 올바른 방향으로 교체 컨트롤러 모듈에 삽입할 수 있도록 소켓에 있는 DIMM의 방향을 기록해 두십시오.
@@ -270,7 +270,7 @@ image::../media/drw_a70_90_io_remove_replace_ieops-1532.svg[입출력 모듈을 
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
 | I/O 모듈 캠 레버 
 |===
 . 대상 I/O 모듈의 케이블을 뽑습니다.
@@ -315,21 +315,21 @@ image::../media/drw_a70-90_sys-mgmt_replace_ieops-1373.svg[시스템 관리 모�
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 시스템 관리 모듈 캠 래치
 
 
 
  a| 
-image::../media/legend_icon_02.svg[설명선 번호 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 부트 미디어 잠금 버튼
 
 
 
  a| 
-image::../media/legend_icon_03.svg[설명선 번호 3]
+image::../media/icon_round_3.png[설명선 번호 3]
  a| 
 교체 시스템 관리 모듈
 
@@ -361,13 +361,13 @@ image::../media/drw_a70-90_nvram12_remove_replace_ieops-1370.svg[NVRAM12 모듈 
 |===
 
 
-| image:../media/legend_icon_01.png["설명선 번호 1"]  a| 
+| image:../media/icon_round_1.png["설명선 번호 1"]  a| 
 캠 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
 | DIMM 잠금 탭 
 |===
 . 손상된 컨트롤러 모듈에서 NVRAM 모듈을 분리합니다.

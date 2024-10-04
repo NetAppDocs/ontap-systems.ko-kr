@@ -87,7 +87,7 @@ image:../media/drw_a1k_io_remove_replace_ieops-1382.svg["입출력 모듈을 분
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 I/O 캠 래치
 

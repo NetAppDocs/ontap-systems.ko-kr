@@ -24,7 +24,7 @@ image::../media/drw_sys_cab_universal_boltdown_kit_ozeki.gif[브래킷의 프론
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
@@ -34,7 +34,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 

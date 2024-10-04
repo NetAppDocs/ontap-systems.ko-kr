@@ -99,14 +99,14 @@ image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -128,21 +128,21 @@ image::../media/drw_a800_open_air_duct.png[에어 덕트를 여십시오]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 공기 덕트를 팬 모듈 쪽으로 밉니다
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 공기 덕트를 팬 모듈 쪽으로 돌립니다
 
@@ -180,28 +180,28 @@ image::../media/drw_a800_pcie_1_replace.png[라이저 1에 PCI 카드를 교체�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 카드 잠금 브래킷
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 슬롯 1에 100GbE PCIe 카드가 있는 라이저 1(왼쪽 라이저)
 
@@ -232,35 +232,35 @@ image::../media/drw_a800_pcie_2_5_replace.gif[PCI 카드 2 - 5를 가운데 라�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저 2(중앙 라이저) 또는 3(오른쪽 라이저) 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 카드 잠금 브래킷
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 라이저 2 또는 3의 측면 패널
 
 
 
  a| 
-image:../media/legend_icon_05.png["설명선 번호 5"]
+image:../media/icon_round_5.png["설명선 번호 5"]
  a| 
 라이저 2 또는 3의 PCIe 카드
 
@@ -319,14 +319,14 @@ image::../media/drw_a800_close_air_duct.png[에어 덕트를 닫으십시오]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 슬라이드 플런저
 

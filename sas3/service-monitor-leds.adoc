@@ -201,7 +201,7 @@ DS460C 팬의 LED는 팬이 정상적으로 작동하는지 또는 하드웨어 
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 주의
  a| 
@@ -231,7 +231,7 @@ image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[팬
 | 속성 표시기 | LED 이름입니다 | 상태 | 설명 
 
 
-.2+| image:../media/legend_icon_01.png["설명선 번호 1"] .2+| 활동입니다  a| 
+.2+| image:../media/icon_round_1.png["설명선 번호 1"] .2+| 활동입니다  a| 
 녹색으로 켜져 있습니다
  a| 
 디스크 드라이브에 전원이 공급되고 있습니다.
@@ -246,7 +246,7 @@ image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[팬
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 주의
  a| 
@@ -334,6 +334,6 @@ image::../media/2860_dwg_amber_on_drive.gif[드라이브 주의 LED]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 주의 LED가 켜집니다 
 |===

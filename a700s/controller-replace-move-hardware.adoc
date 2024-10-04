@@ -39,14 +39,14 @@ image::../media/drw_a700s_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -68,21 +68,21 @@ image::../media/drw_a700s_open_air_duct.png[에어 덕트를 여십시오]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 에어 덕트
 
@@ -113,35 +113,35 @@ image::../media/drw_a700s_nvme_replace.png[NVRAM 카드를 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저 1 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 NVRAM 카드에 연결하는 NVRAM 배터리 케이블 플러그
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 카드 잠금 브래킷
 
 
 
  a| 
-image:../media/legend_icon_05.png["설명선 번호 5"]
+image:../media/icon_round_5.png["설명선 번호 5"]
  a| 
 NVRAM 카드
 
@@ -197,28 +197,28 @@ image::../media/drw_a700s_pcie_replace.png[PCIe 카드를 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저 잠금 래치
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 카드 잠금 브래킷
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 라이저 2(중간 라이저) 및 라이저 슬롯 2 및 3의 PCI 카드
 
@@ -269,28 +269,28 @@ image::../media/drw_a700s_boot_media_replace.png[부팅 미디어를 교체합�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저 2(중간 PCIe 모듈)
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 부트 미디어 나사
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 미디어를 부팅합니다
 
@@ -333,14 +333,14 @@ image::../media/drw_a700s_replace_fan.png[팬을 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 팬 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 팬 모듈
 
@@ -365,28 +365,28 @@ image::../media/drw_a700s_dimm_replace.png[DIMM을 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 에어 덕트
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 라이저 1 및 DIMM 뱅크 1-4
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 라이저 2 및 DIMM 뱅크 5-8 및 9-12
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 라이저 3 및 DIMM 뱅크 13-16
 
@@ -445,14 +445,14 @@ image::../media/drw_a700s_nvme_battery_replace.png[NVRAM 배터리를 교체합�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 NVRAM 배터리 플러그
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 파란색 NVRAM 배터리 잠금 탭
 
@@ -510,14 +510,14 @@ image::../media/drw_a700s_replace_psu.gif[PSU를 교체합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 파란색 전원 공급 장치 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 전원 공급 장치
 
@@ -557,14 +557,14 @@ image::../media/drw_a700s_close_air_duct.png[에어 덕트 닫기]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 탭
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 슬라이드 플런저
 

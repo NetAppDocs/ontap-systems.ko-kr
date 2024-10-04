@@ -201,7 +201,7 @@ image::../media/28_dwg_e2860_de460c_drive_cru.gif[드라이브에서 돌출된 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 드라이브 캐리어 오른쪽에 있는 위로 단추
 

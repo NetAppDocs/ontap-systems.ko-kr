@@ -85,12 +85,12 @@ image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 잠금 래치 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -118,12 +118,12 @@ image::../media/drw_a800_replace_fan.png[팬을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 팬 잠금 탭 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 팬 모듈
 

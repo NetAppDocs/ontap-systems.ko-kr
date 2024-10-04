@@ -113,7 +113,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 컨트롤러 모듈 덮개 분리 단추
 
@@ -148,7 +148,7 @@ image::../media/drw_2850_replace_caching module_IEOPS-697.svg[2850 drw 캐시 �
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 캐싱 모듈 해제 버튼
 

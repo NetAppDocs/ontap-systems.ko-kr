@@ -144,14 +144,14 @@ image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 L
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 NVRAM 상태 LED
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 NVRAM 주의 LED
 
@@ -192,12 +192,12 @@ image::../media/drw_a70-90_pcm_remove_replace_ieops-1365.svg[컨트롤러 분리
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 잠금 래치 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 잠금 핀
 
@@ -223,13 +223,13 @@ image::../media/drw_a70-90_remove_replace_nvmembat_ieops-1369.svg[NV 배터리�
 |===
 
 
-| image:../media/legend_icon_01.png["설명선 번호 1"]  a| 
+| image:../media/icon_round_1.png["설명선 번호 1"]  a| 
 NV 배터리 에어 덕트 커버
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
 | NV 배터리 플러그 
 |===
 . 배터리를 들어 올려 배터리 플러그에 접근합니다.

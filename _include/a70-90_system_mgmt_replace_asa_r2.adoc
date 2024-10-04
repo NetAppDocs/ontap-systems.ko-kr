@@ -124,7 +124,7 @@ image::../media/drw_70-90_sys-mgmt_remove_ieops-1817.svg[시스템 관리 모듈
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 시스템 관리 모듈 캠 래치
 
@@ -149,21 +149,21 @@ image::../media/drw_a70-90_sys-mgmt_replace_ieops-1373.svg[부팅 미디어를 �
 
 
  a| 
-image::../media/legend_icon_01.svg[설명선 번호 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 시스템 관리 모듈 캠 래치
 
 
 
  a| 
-image::../media/legend_icon_02.svg[설명선 번호 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 부트 미디어 잠금 버튼
 
 
 
  a| 
-image::../media/legend_icon_03.svg[설명선 번호 3]
+image::../media/icon_round_3.png[설명선 번호 3]
  a| 
 미디어를 부팅합니다
 

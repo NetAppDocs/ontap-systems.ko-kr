@@ -63,7 +63,7 @@ NOTE: 클러스터 및 HA 트래픽에서 시스템 성능을 최대화하려면
 * 100 GbE 케이블 *
 
 +
-image::../media/oie_cable_sfp_gbe_copper.svg[100Gb 이더넷 케이블]
+image::../media/oie_cable_sfp_gbe_copper.png[100Gb 이더넷 케이블]
 
 +
 image::../media/drw_a1k_network_cabling1_ieops-1649.svg[100Gb 이더넷 네트워크에 케이블 연결]
@@ -73,7 +73,7 @@ image::../media/drw_a1k_network_cabling1_ieops-1649.svg[100Gb 이더넷 네트�
 * 10/25GbE 호스트 *
 
 +
-image::../media/oie_cable_sfp_gbe_copper.svg[10/25GB 이더넷 케이블]
+image::../media/oie_cable_sfp_gbe_copper.png[10/25GB 이더넷 케이블]
 
 +
 image::../media/drw_a1k_network_cabling2_ieops-1650.svg[10/25GB 이더넷 네트워크에 케이블 연결]
@@ -82,7 +82,7 @@ image::../media/drw_a1k_network_cabling2_ieops-1650.svg[10/25GB 이더넷 네트
 
 . 1000BASE-T RJ-45 케이블을 사용하여 컨트롤러 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
 +
-image::../media/oie_cable_rj45.svg[RJ-45 케이블]
+image::../media/oie_cable_rj45.png[RJ-45 케이블]
 
 +
 * 1000BASE-T RJ-45 케이블 *
@@ -134,7 +134,7 @@ NOTE: 클러스터 및 HA 트래픽에서 시스템 성능을 최대화하려면
 * 100 GbE 케이블 *
 
 +
-image::../media/oie_cable_sfp_gbe_copper.svg[100Gb 이더넷 케이블]
+image::../media/oie_cable_sfp_gbe_copper.png[100Gb 이더넷 케이블]
 
 +
 image::../media/drw_70-90_network_cabling1_ieops-1654.svg[100Gb 이더넷 네트워크에 케이블 연결]
@@ -144,7 +144,7 @@ image::../media/drw_70-90_network_cabling1_ieops-1654.svg[100Gb 이더넷 네트
 * 4포트, 10/25 GbE 호스트 *
 
 +
-image::../media/oie_cable_sfp_gbe_copper.svg[10/25Gb 케이블]
+image::../media/oie_cable_sfp_gbe_copper.png[10/25Gb 케이블]
 
 +
 image::../media/drw_70-90_network_cabling2_ieops-1655.svg[100Gb 이더넷 네트워크에 케이블 연결]
@@ -153,7 +153,7 @@ image::../media/drw_70-90_network_cabling2_ieops-1655.svg[100Gb 이더넷 네트
 
 . 1000BASE-T RJ-45 케이블을 사용하여 컨트롤러 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
 +
-image::../media/oie_cable_rj45.svg[RJ45 케이블]
+image::../media/oie_cable_rj45.png[RJ45 케이블]
 
 +
 * 1000BASE-T RJ-45 케이블 *
@@ -250,7 +250,7 @@ image:../media/drw_a1k_2shelf_cabling_b_ieops-1706.svg["컨트롤러 B의 컨트
 
 * 100 GbE QSFP28 구리 케이블 *
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE QSFP28 구리 케이블]
+image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP28 구리 케이블]
 
 .단계
 . 컨트롤러 A 포트 e11a를 NSM A 포트 e0a에 연결합니다.
@@ -273,7 +273,7 @@ image:../media/drw_a70-90_1shelf_cabling_b_ieops-1732.svg["컨트롤러 B e11a �
 
 * 100 GbE QSFP28 구리 케이블 *
 
-image::../media/oie_cable100_gbe_qsfp28.svg[100 GbE QSFP28 구리 케이블]
+image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP28 구리 케이블]
 
 .단계
 . 컨트롤러 A에서 다음 포트를 연결합니다.

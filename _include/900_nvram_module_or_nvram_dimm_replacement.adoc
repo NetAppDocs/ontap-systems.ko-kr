@@ -167,14 +167,14 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[NVRAM 모듈을 분리합�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 문자 및 번호가 매겨진 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 래치가 완전히 잠금 해제되었습니다
 
@@ -189,14 +189,14 @@ image::../media/drw_a900_remove_NVRAM_module_contents.png[NVRAM 모듈 내용을
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 커버 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 DIMM 및 DIMM 이젝터 탭
 
@@ -243,14 +243,14 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[NVRAM 모듈을 분리합�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 문자 및 번호가 매겨진 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 래치가 완전히 잠금 해제되었습니다
 
@@ -265,14 +265,14 @@ image::../media/drw_a900_remove_NVRAM_module_contents.png[NVRAM 모듈 내용을
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 커버 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 DIMM 및 DIMM 이젝터 탭
 

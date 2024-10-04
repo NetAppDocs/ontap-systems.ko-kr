@@ -94,14 +94,14 @@ image::../media/drw_9500_remove_PCM.svg[drw 9500 PCM을 탈거하십시오]
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image::../media/legend_icon_02.svg[범례 아이콘 02]
+image::../media/icon_round_2.png[아이콘 라운드 2]
  a| 
 캠 핸들
 
@@ -120,7 +120,7 @@ image::../media/drw_9500_PCM_open.svg[drw 9500 PCM이 열려 있습니다]
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -158,14 +158,14 @@ image::../media/drw_9500_replace_PCM_dimms.svg[DRW 9500 PCM DIMM을 교체합니
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 DIMM 이젝터 탭
 
 
 
  a| 
-image::../media/legend_icon_02.svg[범례 아이콘 02]
+image::../media/icon_round_2.png[아이콘 라운드 2]
  a| 
 DIMM
 
@@ -205,7 +205,7 @@ image::../media/drw_9500_PCM_open.svg[drw 9500 PCM이 열려 있습니다]
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -223,14 +223,14 @@ image::../media/drw_9500_remove_PCM.svg[drw 9500 PCM을 탈거하십시오]
 
 
  a| 
-image::../media/legend_icon_01.png[설명선 아이콘 1]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image::../media/legend_icon_02.svg[범례 아이콘 02]
+image::../media/icon_round_2.png[아이콘 라운드 2]
  a| 
 캠 핸들
 

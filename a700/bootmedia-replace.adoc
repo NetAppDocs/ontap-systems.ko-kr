@@ -31,7 +31,7 @@ image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
@@ -41,7 +41,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
@@ -63,7 +63,7 @@ image::../media/drw_9000_pcm_open.png[컨트롤러 모듈을 열거나 닫습니
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
@@ -83,7 +83,7 @@ image:../media/drw_9000_remove_boot_dev.svg["부팅 장치를 분리합니다"]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
@@ -93,7 +93,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 

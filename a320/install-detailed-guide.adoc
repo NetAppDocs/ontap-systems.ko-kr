@@ -125,7 +125,7 @@ X66260-5(112-00344), 5m
 
 X66260-30(112-00354), 30m
  a| 
-image:../media/oie_cable_fiber_lc_connector.png["광섬유 LC 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_fiber_lc_connector.png["LC 파이버 커넥터"]
  a| 
 FC 구성(주문 종속)
 
@@ -149,7 +149,7 @@ image:../media/oie_cable_rj45.png["RJ-45 케이블 커넥터"]
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 노트북 또는 콘솔이 네트워크 검색을 지원하지 않는 경우 소프트웨어 설치 중에 콘솔 연결이 사용됩니다.
 
@@ -227,7 +227,7 @@ image::../media/drw_a320_tnsc_network_cabling_composite_animated_gif.png[스위�
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png["1단계"]
+image:../media/icon_square_1_green.png["1단계"]
  a| 
 다음과 같이 100GbE(QSFP28) 케이블로 클러스터/HA 포트를 서로 연결합니다.
 
@@ -238,7 +238,7 @@ image:../media/oie_legend_icon_1_lg.png["1단계"]
 
 
  a| 
-image:../media/oie_legend_icon_2_o.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 데이터 네트워크 연결을 위해 온보드 포트를 사용하는 경우 100GbE 또는 40GbE 케이블을 해당 데이터 네트워크 스위치에 연결합니다.
 
@@ -248,7 +248,7 @@ image:../media/oie_legend_icon_2_o.png["2단계"]
 
 
  a| 
-image:../media/oie_legend_icon_3_dr.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 NIC 카드를 이더넷 또는 FC 연결에 사용하는 경우 해당 스위치에 NIC 카드를 연결합니다.
 
@@ -257,7 +257,7 @@ image::../media/drw_a320_nic_connections_step3.png[스위치가 없는 2노드 �
 
 
  a| 
-image:../media/oie_legend_icon_4_lp.png["4단계"]
+image:../media/icon_square_4_red.png["4단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -300,7 +300,7 @@ image::../media/drw_a320_switched_network_cabling_composite_animated_GIF.png[스
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png["1단계"]
+image:../media/icon_square_1_green.png["1단계"]
  a| 
 클러스터/HA 포트를 100GbE(QSFP28) 케이블로 연결:
 
@@ -311,7 +311,7 @@ image:../media/oie_legend_icon_1_lg.png["1단계"]
 
 
  a| 
-image:../media/oie_legend_icon_2_o.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 데이터 네트워크 연결을 위해 온보드 포트를 사용하는 경우 100GbE 또는 40GbE 케이블을 해당 데이터 네트워크 스위치에 연결합니다.
 
@@ -321,7 +321,7 @@ image:../media/oie_legend_icon_2_o.png["2단계"]
 
 
  a| 
-image:../media/oie_legend_icon_3_dr.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 NIC 카드를 이더넷 또는 FC 연결에 사용하는 경우 해당 스위치에 NIC 카드를 연결합니다.
 
@@ -330,7 +330,7 @@ image::../media/drw_a320_nic_connections_step3.png[스위치 클러스터 네트
 
 
  a| 
-image:../media/oie_legend_icon_4_lp.png["4단계"]
+image:../media/icon_square_4_red.png["4단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -377,14 +377,14 @@ image::../media/drw_a320_single_shelf_connections_animated_gif.png[단일 드라
 
 
  a| 
-image:../media/oie_legend_icon_1_mb.png["설명선 번호 1"]
+image:../media/icon_square_1_blue.png["설명선 번호 1"]
  a| 
 컨트롤러 A를 쉘프에 케이블 연결합니다 image:../media/drw_a320_storage_cabling_controller_a_single_shelf.png["컨트롤러 A를 쉘프에 연결합니다"]
 
 
 
  a| 
-image:../media/oie_legend_icon_2_lo.png["설명선 번호 2"]
+image:../media/icon_square_2_yellow.png["설명선 번호 2"]
  a| 
 컨트롤러 B를 쉘프에 케이블 연결: image:../media/drw_a320_storage_cabling_controller_b_single_shelf.png["컨트롤러 B를 단일 쉘프에 연결합니다"]
 
@@ -416,14 +416,14 @@ image::../media/drw_a320_2_shevles_cabling_animated_gif.png[2개의 선반 애�
 
 
  a| 
-image:../media/oie_legend_icon_1_mb.png["설명선 번호 1"]
+image:../media/icon_square_1_blue.png["설명선 번호 1"]
  a| 
 컨트롤러 A를 쉘프에 케이블 연결: image:../media/drw_a320_2_shelves_cabling_controller_a.png["컨트롤러 A에 쉘프 2개를 연결합니다"]
 
 
 
  a| 
-image:../media/oie_legend_icon_2_lo.png["설명선 번호 2"]
+image:../media/icon_square_2_yellow.png["설명선 번호 2"]
  a| 
 컨트롤러 B를 쉘프에 케이블 연결: image:../media/drw_a320_2_shelves_cabling_controller_b.png["컨트롤러 b에 케이블 테오 선반"]
 

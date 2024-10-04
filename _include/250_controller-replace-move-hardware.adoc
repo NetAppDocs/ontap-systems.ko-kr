@@ -33,12 +33,12 @@ image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘 열기]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 레버 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 래치 메커니즘
 
@@ -54,12 +54,12 @@ image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈 덮개
 
@@ -96,12 +96,12 @@ image::../media/drw_a250_replace_psu.png[전원 공급 장치 분리]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 파란색 전원 공급 장치 잠금 탭 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 전원 공급 장치
 
@@ -133,7 +133,7 @@ image::../media/drw_a250_replace_fan.png[팬 모듈 분리]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 팬 모듈 
 |===
 . 팬 모듈을 교체용 컨트롤러 모듈로 이동하고 팬 모듈의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 팬 모듈을 밀어 넣습니다.
@@ -161,12 +161,12 @@ image::../media/drw_a250_replace_boot_media.png[부팅 미디어를 교체합니
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 손상된 컨트롤러 모듈의 마더보드에 부트 미디어를 고정하는 나사를 분리합니다. 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 손상된 컨트롤러 모듈에서 부트 미디어를 들어올립니다.
 
@@ -221,19 +221,19 @@ image::../media/drw_a250_replace_mezz_card.png[메자닌 카드 분리]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 컨트롤러 모듈 표면에 있는 나사를 제거합니다. 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 컨트롤러 모듈의 나사를 풉니다.
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 메자닌 카드를 이동합니다.
 
@@ -274,26 +274,26 @@ image::../media/drw_a250_replace_nvmem_batt.png[NVMEM 배터리 제거]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 배터리 플러그 표면에 있는 클립을 누릅니다. 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 소켓에서 배터리 케이블을 분리합니다.
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 배터리를 잡고 푸시가 표시된 파란색 잠금 탭을 누르십시오.
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 홀더 및 컨트롤러 모듈에서 배터리를 들어올립니다.
 
@@ -328,12 +328,12 @@ image::../media/drw_a250_close_controller_module_cover.png[컨트롤러 모듈 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 컨트롤러 모듈 덮개 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 나비 나사
 

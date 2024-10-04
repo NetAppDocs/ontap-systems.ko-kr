@@ -12,28 +12,28 @@ image:../media/drw_a900_oie_change_ns224_shelf_ID_ieops-836.svg["쉘프 ID를 �
 
 
  a| 
-image:legend_icon_01.png["설명선 아이콘 1"]
+image:icon_round_1.png["설명선 번호 1"]
  a| 
 선반 엔드 캡
 
 
 
  a| 
-image:legend_icon_02.svg["너비 = 20"]
+image:icon_round_2.png["설명선 번호 2"]
  a| 
 선반 면판
 
 
 
  a| 
-image:legend_icon_03.svg["너비 = 20"]
+image:icon_round_2.png["설명선 번호 2"]
  a| 
 쉘프 ID 번호입니다
 
 
 
  a| 
-image:legend_icon_04.svg["너비 = 20"]
+image:icon_round_4.png["설명선 번호 4"]
  a| 
 쉘프 ID 액세스 버튼
 

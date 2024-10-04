@@ -46,7 +46,7 @@ image::../media/drw_a900_remove_install_PSU_module.png[PSU 모듈을 분리하�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 잠금 버튼
 
@@ -79,14 +79,14 @@ image::../media/drw_a900_remove_install_fan.png[팬을 분리하거나 설치합
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 테라 코타 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 팬을 섀시 안쪽으로/밖으로 밉니다
 
@@ -116,14 +116,14 @@ image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 캠 핸들 잠금 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -175,14 +175,14 @@ image:../media/drw_a900_remove_PCIe_module.png["PCIe 모듈을 분리합니다"]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 문자 및 숫자 I/O 캠 래치
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 I/O 캠 래치가 완전히 잠금 해제되었습니다
 
@@ -211,7 +211,7 @@ image::../media/drw_a900_remove_NV_battery.png[NV 배터리를 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 DCPM 테라코타 잠금 버튼
 
@@ -234,14 +234,14 @@ image::../media/drw_a900_remove_replace_LED_mod.png[USB LED 모듈을 분리하�
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 모듈을 꺼냅니다.
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 섀시 밖으로 밀어냅니다.
 

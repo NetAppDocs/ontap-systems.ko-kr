@@ -102,7 +102,7 @@ X6536-R6(112-00090), 5m
 
 X6554-R6(112-00189), 15m
  a| 
-image:../media/oie_cable_fiber_lc_connector.png["광섬유 LC 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_fiber_lc_connector.png["LC 파이버 커넥터"]
  a| 
 FC 호스트 네트워크
 
@@ -143,7 +143,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
  a| 
 해당 없음
  a| 
-image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터를 보여 주는 그림"]
+image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -221,7 +221,7 @@ image::../media/drw_2700_tnsc_unified_network_cabling_animated_gif.png[유니파
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png["1단계"]
+image:../media/icon_square_1_green.png["1단계"]
  a| 
 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트를 서로 케이블로 연결합니다.
 
@@ -233,7 +233,7 @@ image:../media/drw_c190_u_tnsc_clust_cbling.png["클러스터 인터커넥트 �
 
 
  a| 
-image:../media/oie_legend_icon_2_o.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 UTA2 데이터 포트를 호스트 네트워크에 케이블로 연결하려면 다음 케이블 유형 중 하나를 사용하십시오.
 
@@ -248,16 +248,16 @@ FC 호스트
 
 NOTE: 하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.
 
-image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
+image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 
 
  a| 
-image:../media/oie_legend_icon_3_lp.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
-image:../media/drw_c190_u_mgmt_cbling.png["관리 포트 케이블 연결"]
+image:../media/drw_c190_u_mgmt_cabling.png["관리 포트 케이블 연결"]
 
 
 
@@ -297,7 +297,7 @@ image::../media/drw_2700_switched_unified_network_cabling_animated_gif.png[스�
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png["1단계"]
+image:../media/icon_square_1_green.png["1단계"]
  a| 
 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 스위치에 e0a 및 e0b 케이블 연결:
 
@@ -306,7 +306,7 @@ image:../media/drw_c190_u_switched_clust_cbling.png["Clusterinterconnect 케이�
 
 
  a| 
-image:../media/oie_legend_icon_2_o.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 UTA2 데이터 포트를 호스트 네트워크에 케이블로 연결하려면 다음 케이블 유형 중 하나를 사용하십시오.
 
@@ -325,16 +325,16 @@ FC 호스트
 
 NOTE: 하나의 포트 쌍을 CNA로, 하나의 포트 쌍을 FC로 연결하거나, 두 포트 쌍을 CNA로 또는 두 포트 쌍 모두를 FC로 연결할 수 있습니다.
 
-image:../media/drw_c190_u_fc_10gbe_cbling.png["주변 텍스트에 설명된 대로 데이터 포트 연결을 보여 주는 그림입니다"]
+image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 
 
  a| 
-image:../media/oie_legend_icon_3_lp.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
-image:../media/drw_c190_u_mgmt_cbling.png["관리 포트 케이블 연결"]
+image:../media/drw_c190_u_mgmt_cabling.png["관리 포트 케이블 연결"]
 
 
 
@@ -374,19 +374,18 @@ image::../media/drw_2700_tnsc_ethernet_network_cabling_animated_gif.png[스위�
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png["1단계"]
+image:../media/icon_square_1_green.png["1단계"]
  a| 
 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트를 서로 케이블로 연결합니다.
 
 ** e0a ~ e0a
-** e0b ~ e0b
-image:../media/drw_c190_e_tnsc_clust_cbling.png["컨트롤러 후면의 포트 간 클러스터 인터커넥트를 보여주는 그림입니다"]
+** e0b ~ e0b image:../media/drw_c190_e_tnsc_clust_cbling.png["컨트롤러 후면의 포트 간 클러스터 상호 연결"]
 
 
 
 
  a| 
-image:../media/oie_legend_icon_2_o.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.
 
@@ -395,7 +394,7 @@ image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연�
 
 
  a| 
-image:../media/oie_legend_icon_3_lp.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -439,7 +438,7 @@ image::../media/drw_2700_switched_ethernet_network_cabling_animated_gif.png[스�
 
 
  a| 
-image:../media/oie_legend_icon_1_lg.png["1단계"]
+image:../media/icon_square_1_green.png["1단계"]
  a| 
 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 스위치에 e0a 및 e0b 케이블 연결:
 
@@ -448,7 +447,7 @@ image:../media/drw_c190_e_switched_clust_cbling.png["클러스터 인터커넥�
 
 
  a| 
-image:../media/oie_legend_icon_2_o.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.
 
@@ -457,7 +456,7 @@ image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연�
 
 
  a| 
-image:../media/oie_legend_icon_3_lp.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -506,7 +505,7 @@ image::../media/drw_2700_ha_storage_cabling_animated_gif.png[HA 쌍의 쉘프 �
 
 
  a| 
-image:../media/oie_legend_icon_1_lo.png["설명선 번호 1"]
+image:../media/icon_square_1_blue.png["설명선 번호 1"]
  a| 
 쉘프-쉘프 포트에 케이블을 연결합니다.
 
@@ -520,7 +519,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
 
 
  a| 
-image:../media/oie_legend_icon_2_mb.png["2단계"]
+image:../media/icon_square_2_yellow.png["2단계"]
  a| 
 각 노드를 스택의 IOM A에 연결합니다.
 
@@ -534,7 +533,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
 
 
  a| 
-image:../media/oie_legend_icon_3_t.png["3단계"]
+image:../media/icon_square_3_orange.png["3단계"]
  a| 
 각 노드를 스택의 IOM B에 연결합니다
 

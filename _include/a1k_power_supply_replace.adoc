@@ -30,7 +30,7 @@ image::../media/drw_a1k_psu_remove_replace_ieops-1378.svg[PSU를 교체합니다
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 테라코타 PSU 잠금 탭
 

@@ -133,14 +133,14 @@ image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 L
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 NVRAM 상태 LED
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 NVRAM 주의 LED
 
@@ -171,8 +171,8 @@ image::../media/drw_a1k_pcm_remove_replace_ieops-1375.svg[컨트롤러 분리 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
-| 잠금 캠 래치 
+image:../media/icon_round_1.png["설명선 번호 1"]
+| 캠 래치 잠금 
 |===
 . 컨트롤러 모듈을 인클로저에서 밀어 꺼내고 평평하고 안정적인 표면에 놓습니다.
 +
@@ -201,7 +201,7 @@ image::../media/drw_a1k_rtc_remove_replace_ieops-1381.svg[RTC 배터리를 교�
 |===
 
 
-| image:../media/legend_icon_01.png["설명선 번호 1"] | RTC 배터리 및 하우징 
+| image:../media/icon_round_1.png["설명선 번호 1"] | RTC 배터리 및 하우징 
 |===
 . 배터리를 홀더에서 조심스럽게 밀어내고 홀더에서 돌린 다음 홀더에서 들어 꺼냅니다.
 +

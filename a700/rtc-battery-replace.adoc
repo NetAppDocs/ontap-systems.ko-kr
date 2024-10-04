@@ -193,14 +193,14 @@ image::../media/drw_9000_remove_pcm.png[컨트롤러 모듈을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 캠 핸들 해제 버튼
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들
 
@@ -219,7 +219,7 @@ image::../media/drw_9000_pcm_open.png[컨트롤러 모듈 열기 또는 닫기]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 컨트롤러 모듈 커버 잠금 버튼
 
@@ -244,14 +244,14 @@ image::../media/drw_9000_remove_rtc_battery.png[RTC 배터리를 분리하거나
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 RTC 배터리
 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 RTC 배터리 하우징
 

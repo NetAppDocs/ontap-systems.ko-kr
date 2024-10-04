@@ -100,7 +100,7 @@ image::../media/drw_a70_90_io_remove_replace_ieops-1532.svg[입출력 모듈을 
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 캠 잠금 버튼
 

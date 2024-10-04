@@ -53,3 +53,7 @@ indexpage:
       url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
     - title: 내부 디스크 드라이브 교체(비디오)
       url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
+    - title: TR-4384 - FC 프로토콜을 사용하는 NetApp FAS 시스템 기반 SAP HANA
+      url: https://docs.netapp.com/us-en/netapp-solutions-sap/bp/saphana_fas_fc_introduction.html
+    - title: TR-4290 - NFS가 포함된 NetApp FAS 시스템 기반 SAP HANA
+      url: https://docs.netapp.com/us-en/netapp-solutions-sap/bp/saphana-fas-nfs_introduction.html

@@ -36,33 +36,33 @@ image::../media/drw_rxl_psu.png[전원 공급 장치 분리]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 전원 공급 장치 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들 해제 래치
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 전원 및 장애 표시등
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 캠 핸들
 
 
 
  a| 
-image:../media/legend_icon_05.png["설명선 번호 5"]
+image:../media/icon_round_5.png["설명선 번호 5"]
  a| 
 전원 케이블 잠금 메커니즘
 
@@ -108,26 +108,26 @@ image::../media/drw_fas32xx_fan.png[팬을 분리합니다]
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 캠 핸들 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 팬 모듈
 
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 캠 핸들 해제 래치
 
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 팬 모듈 주의 LED
 
@@ -175,12 +175,12 @@ image::../media/drw_8020_cam_handle_thumbscrew.png[손잡이 나사를 풀어 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
 | 나비 나사 
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캠 핸들
 

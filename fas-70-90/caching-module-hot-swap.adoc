@@ -152,28 +152,28 @@ image::../media/drw_fas70-90_remove_caching_module_carrier_ieops-1772.svg[FlashC
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 FlashCache 모듈 캐리어
 
 
 
  a| 
-image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캐시 모듈 슬롯 번호
 
 
 
  a| 
-image:../media/legend_icon_03.svg["설명선 번호 3, 너비 = 30px"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 FlashCache 모듈 캐리어 캠 핸들
 
 
 
  a| 
-image:../media/legend_icon_04.svg["설명선 번호 4, 너비 = 30px"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 FlashCache 모듈 캐리어 오류 LED
 
@@ -276,14 +276,14 @@ image::../media/drw_fas70-90_caching_module_remove_ieops-1773.svg[캐싱 모듈�
 
 
  a| 
-image:../media/legend_icon_01.svg["설명선 번호 1, 너비 = 30px"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 캐시 모듈 캠 핸들
 
 
 
  a| 
-image:../media/legend_icon_02.svg["설명선 번호 2, 너비 = 30px"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 캐싱 모듈 장애 표시등
 

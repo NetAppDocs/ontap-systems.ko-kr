@@ -101,7 +101,7 @@ image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[NS224 NSM100 모듈 상태 표
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위치 LED]
  a| 
@@ -112,7 +112,7 @@ NSM 모듈:위치
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
  a| 
@@ -123,7 +123,7 @@ NSM 모듈: 주의
 
 
  a| 
-image:../media/legend_icon_03.png["설명선 번호 3"]
+image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
 LNK
  a| 
@@ -134,7 +134,7 @@ NVMe 포트/링크: 상태
 
 
  a| 
-image:../media/legend_icon_04.png["설명선 번호 4"]
+image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
 image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
  a| 
@@ -240,7 +240,7 @@ image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[전원 공급 장치 전원 �
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 2색 LED는 녹색이 되면 전원/작동을 나타내고 주황색이 되면 장애를 나타냅니다.
 
@@ -328,7 +328,7 @@ image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[NVMe 드라이브 주의 및
 
 
  a| 
-image:../media/legend_icon_01.png["설명선 번호 1"]
+image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
 주의
  a| 
@@ -337,7 +337,7 @@ image:../media/legend_icon_01.png["설명선 번호 1"]
 
 
  a| 
-image:../media/legend_icon_02.png["설명선 번호 2"]
+image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 전원/작동
  a| 
