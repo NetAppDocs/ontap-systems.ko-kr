@@ -35,7 +35,6 @@ indexpage:
     - title: 드라이브
       url: "../ns224/service-replace-drive.html"
     - title: 드라이브 쉘프
-      pdf-filename: NS224 shelf
       url: "../ns224/ns224-shelf-overview.html"
     - title: 팬
       url: "../ns224/service-replace-fan.html"
@@ -54,7 +53,6 @@ indexpage:
     - title: DS460C 쉘프의 드라이브 서랍
       url: "../sas3/service-replace-drawer-ds460c.html"
     - title: 드라이브 쉘프
-      pdf-filename: SAS shelf
       url: "../sas3/sas3-shelf-overview.html"
     - title: DS460C 쉘프의 팬
       url: "../sas3/service-replace-fan-ds460c.html"

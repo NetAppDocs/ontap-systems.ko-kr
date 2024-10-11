@@ -23,7 +23,7 @@ entries:
     entries:
     - title: 개요
       url: "/a700s/bootmedia-replace-overview.html"
-    - title: 온보드 암호화를 확인합니다
+    - title: 암호화 키를 확인합니다
       url: "/a700s/bootmedia-encryption-preshutdown-checks.html"
     - title: 노드를 종료합니다
       url: "/a700s/bootmedia-shutdown.html"

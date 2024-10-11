@@ -1,10 +1,10 @@
 ---
-permalink: a400/bootmedia-impaired-controller-shutdown.html 
+permalink: asa400/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: aff a400, aff, a400, shut, down, take, over, impair, controller, procedure, storage, system, hardware, configuration, shut down the impaired controller 
+keywords: asa a400, asa, a400, shut, down, take, over, impair, controller, procedure, storage, system, hardware, configuration, shut down the impaired controller 
 summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
 ---
-= 손상된 컨트롤러-AFF A400을 종료합니다
+= 손상된 컨트롤러-ASA A400을 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

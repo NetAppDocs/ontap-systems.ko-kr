@@ -1,21 +1,23 @@
 ---
-permalink: fas8200/bootmedia-impaired-controller-shutdown.html 
+permalink: c400/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: fas8200, shut down the impaired controller 
+keywords: aff c400, aff, c400, shut, down, take, over, impair, controller, procedure, storage, system, hardware, configuration, shut down the impaired controller 
 summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
 ---
-= 손상된 컨트롤러 - FAS8200을 종료합니다
+= 손상된 컨트롤러 AFF C400을 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
-
-
-== 옵션 1: 대부분의 시스템
-
 [role="lead"]
-NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
+NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+
+
+
+== 옵션 1: 대부분의 구성
+
+NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
 
 .단계
 . 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.

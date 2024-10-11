@@ -23,7 +23,7 @@ entries:
     entries:
     - title: 개요
       url: "/a800/bootmedia-replace-overview.html"
-    - title: 온보드 암호화 키를 확인합니다
+    - title: 암호화 키를 확인합니다
       url: "/a800/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a800/bootmedia-shutdown.html"

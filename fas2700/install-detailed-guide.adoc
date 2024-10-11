@@ -233,7 +233,7 @@ image:../media/drw_c190_u_tnsc_clust_cbling.png["클러스터 인터커넥트 �
 
 
  a| 
-image:../media/icon_square_2_yellow.png["2단계"]
+image:../media/icon_square_2_orange.png["2단계"]
  a| 
 UTA2 데이터 포트를 호스트 네트워크에 케이블로 연결하려면 다음 케이블 유형 중 하나를 사용하십시오.
 
@@ -253,7 +253,7 @@ image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_purple.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -306,7 +306,7 @@ image:../media/drw_c190_u_switched_clust_cbling.png["Clusterinterconnect 케이�
 
 
  a| 
-image:../media/icon_square_2_yellow.png["2단계"]
+image:../media/icon_square_2_orange.png["2단계"]
  a| 
 UTA2 데이터 포트를 호스트 네트워크에 케이블로 연결하려면 다음 케이블 유형 중 하나를 사용하십시오.
 
@@ -330,7 +330,7 @@ image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_purple.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -385,7 +385,7 @@ image:../media/icon_square_1_green.png["1단계"]
 
 
  a| 
-image:../media/icon_square_2_yellow.png["2단계"]
+image:../media/icon_square_2_orange.png["2단계"]
  a| 
 Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.
 
@@ -394,7 +394,7 @@ image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연�
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_purple.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -447,7 +447,7 @@ image:../media/drw_c190_e_switched_clust_cbling.png["클러스터 인터커넥�
 
 
  a| 
-image:../media/icon_square_2_yellow.png["2단계"]
+image:../media/icon_square_2_orange.png["2단계"]
  a| 
 Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다.
 
@@ -456,7 +456,7 @@ image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연�
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_purple.png["3단계"]
  a| 
 RJ45 케이블을 사용하여 e0M 포트를 관리 네트워크 스위치에 연결합니다.
 
@@ -533,7 +533,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_tourquoise.png["3단계"]
  a| 
 각 노드를 스택의 IOM B에 연결합니다
 

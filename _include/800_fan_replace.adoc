@@ -11,7 +11,7 @@
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
 
 .이 작업에 대해
-* SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지를 확인해야  `cluster kernel-service show`합니다.  `cluster kernel-service show`priv advanced 모드에서 명령을 실행하면 노드 이름, 해당 노드의 쿼럼 상태, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태가 표시됩니다.
+* SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지를 확인해야  `cluster kernel-service show`합니다. priv advanced 모드에서 명령을 실행하면 `cluster kernel-service show` 해당 노드의 노드 이름link:https://docs.netapp.com/us-en/ontap/system-admin/display-nodes-cluster-task.html["쿼럼 상태입니다"], 해당 노드의 가용성 상태 및 해당 노드의 작동 상태가 표시됩니다.
 +
 각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.
 

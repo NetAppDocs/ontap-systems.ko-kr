@@ -211,7 +211,7 @@ image::../media/drw_a900_controller_in_chassis_ID_IEOPS-856.svg[일반적인 클
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
 
-image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
+image::../media/oie_cable_pull_tab_up.png[케이블 당김 탭 방향]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -303,7 +303,7 @@ image:../media/drw_a900fas9500_power_icon_IEOPS-1142.svg["전원 연결"]
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
 
-image:../media/oie_cable_pull_tab_up.svg["케이블 당김 탭 방향"]
+image:../media/oie_cable_pull_tab_up.png["케이블 당김 탭 방향"]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.
@@ -403,9 +403,9 @@ image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원 연결]
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 
 
-image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
+image::../media/oie_cable_pull_tab_up.png[케이블 당김 탭 방향]
 
-image::../media/oie_cable_pull_tab_down.svg[케이블 당김 탭 방향]
+image::../media/oie_cable_pull_tab_down.png[케이블 당김 탭 방향]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -459,9 +459,9 @@ image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP 커넥터]
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 
 
-image::../media/oie_cable_pull_tab_up.svg[케이블 당김 탭 방향]
+image::../media/oie_cable_pull_tab_up.png[케이블 당김 탭 방향]
 
-image::../media/oie_cable_pull_tab_down.svg[케이블 당김 탭 방향]
+image::../media/oie_cable_pull_tab_down.png[케이블 당김 탭 방향]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.

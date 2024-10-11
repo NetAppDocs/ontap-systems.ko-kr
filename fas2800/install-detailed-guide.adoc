@@ -209,7 +209,7 @@ image::../media/icon_square_1_green.png[설명선 번호 3]]
 
 
  a| 
-image::../media/icon_square_2_yellow.png[설명선 번호 2]
+image::../media/icon_square_2_purple.png[설명선 번호 2]
  a| 
 관리 네트워크 스위치
 
@@ -231,7 +231,7 @@ image::../media/icon_square_3_orange.png[설명선 번호 3]
 
 
 
-image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.png[당기기 탭 방향]
 
 [role="tabbed-block"]
 ====
@@ -409,28 +409,28 @@ NOTE: 이 예제에서는 DS224C를 사용합니다. 케이블 연결은 지원�
 
 
  a| 
-image::../media/icon_square_1_blue.png[아이콘 사각형 1 파란색]
+image::../media/icon_square_1_yellow.png[설명선 아이콘 1]
  a| 
 쉘프-쉘프 케이블링
 
 
 
  a| 
-image::../media/icon_square_2_yellow.png[아이콘 사각형 2 노란색]
+image::../media/icon_square_2_blue.png[설명선 아이콘 2]
  a| 
 컨트롤러 A를 드라이브 쉘프에 연결합니다
 
 
 
  a| 
-image::../media/icon_square_3_orange.png[아이콘 사각형 3 주황색]
+image::../media/icon_square_3_tourquoise.png[설명선 아이콘 3]
  a| 
 컨트롤러 B를 드라이브 쉘프에 연결합니다
 
 |===
 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오.
 
-image::../media/oie_cable_pull_tab_down.svg[OIE 케이블 당김 탭을 아래로 내립니다]
+image::../media/oie_cable_pull_tab_down.png[당기기 탭 방향]
 
 .이 작업에 대해
 이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 사이의 케이블 연결을 완료합니다.

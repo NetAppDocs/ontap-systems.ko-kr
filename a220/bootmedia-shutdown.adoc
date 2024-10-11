@@ -1,10 +1,10 @@
 ---
-permalink: asa150/bootmedia-impaired-controller-shutdown.html 
+permalink: a220/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: asa a150, a150, asa, shut, down, impaired, controller, take, over 
+keywords: fas2700, aff a220, shut, down, impaired, controller, take, over 
 summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
 ---
-= 손상된 컨트롤러 ASA A150을 종료합니다
+= 손상된 컨트롤러(AFF A220)를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

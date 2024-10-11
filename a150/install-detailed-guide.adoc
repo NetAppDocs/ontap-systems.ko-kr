@@ -209,7 +209,7 @@ image::../media/icon_square_2_yellow.png[설명선 번호 2]
 
 
  a| 
-image::../media/icon_square_3_orange.png[설명선 번호 3]
+image::../media/icon_square_3_purple.png[설명선 번호 3]
  a| 
 컨트롤러 - 관리 네트워크 스위치
 

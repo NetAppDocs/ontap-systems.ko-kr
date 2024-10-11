@@ -211,7 +211,7 @@ image::../media/drw_a900_controller_in_chassis_ID_IEOPS-856.svg[일반적인 클
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
 
-image:../media/oie_cable_pull_tab_up.svg["케이블 당김 탭 방향"]
+image:../media/oie_cable_pull_tab_up.png["케이블 당김 탭 방향"]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -243,7 +243,7 @@ image:../media/oie_cable100_gbe_qsfp28.png["100Gb 케이블"]
 
 
  a| 
-image:../media/icon_square_2_yellow.png["설명선 번호 2"]
+image:../media/icon_square_2_purple.png["설명선 번호 2"]
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
@@ -280,7 +280,7 @@ image:../media/oie_cable_sfp_gbe_copper.png["GbE 구리 SFP"]
 
 
  a| 
-image:../media/icon_square_4_red.png["설명선 아이콘 5"]
+image:../media/icon_square_5_grey.png["설명선 아이콘 5"]
  a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
@@ -299,7 +299,7 @@ image:../media/icon_square_4_red.png["설명선 아이콘 5"]
 
 포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 네트워킹 모듈 포트에 대해 위로 들어 있습니다.
 
-image:../media/oie_cable_pull_tab_up.svg["케이블 당김 탭 방향"]
+image:../media/oie_cable_pull_tab_up.png["케이블 당김 탭 방향"]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.
@@ -318,7 +318,7 @@ image:../media/drw_a900_switched_network_cabling_IEOPS-934.svg["폭 = 500px"]
 
 
  a| 
-이미지: ../media/icon_square_1_green.png[
+image:../media/icon_square_1_green.png["설명선 번호 1"]
  a| 
 케이블 클러스터 인터커넥트 A 포트:
 
@@ -368,7 +368,7 @@ image:../media/oie_cable_sfp_gbe_copper.png["GbE 구리 SFP"]
 
 
  a| 
-image:../media/icon_square_4_red.png["설명선 아이콘 5"]
+image:../media/icon_square_5_grey.png["설명선 아이콘 5"]
  a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
@@ -399,9 +399,9 @@ image:../media/drw_a900fas9500_power_icon_IEOPS-1142.svg["폭 = 200px"]
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 
 
-image:../media/oie_cable_pull_tab_up.svg["케이블 당김 탭 방향"]
+image:../media/oie_cable_pull_tab_up.png["케이블 당김 탭 방향"]
 
-image:../media/oie_cable_pull_tab_down.svg["폭 = 200px"]
+image:../media/oie_cable_pull_tab_down.png["당기기 탭 방향"]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -455,9 +455,9 @@ image:../media/oie_cable100_gbe_qsfp28.png["폭 = 50px"]
 * 그림 화살표에 올바른 케이블 커넥터 당김 탭 방향이 있는지 확인하십시오. 스토리지 모듈의 케이블 풀 탭은 위쪽, 쉘프의 풀 탭은 아래쪽 입니다.
 
 
-image:../media/oie_cable_pull_tab_up.svg["케이블 당김 탭 방향"]
+image:../media/oie_cable_pull_tab_up.png["케이블 당김 탭 방향"]
 
-image:../media/oie_cable_pull_tab_down.svg["폭 = 200px"]
+image:../media/oie_cable_pull_tab_down.png["당기기 탭 방향"]
 
 
 NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.
@@ -487,14 +487,14 @@ image:../media/icon_square_1_blue.png["설명선 번호 1"]
 ** 컨트롤러 A 포트 e10a를 쉘프 2의 NSM A e0a에 연결합니다.
 
 
-image:../media/oie_cable100_gbe_qsfp28.png["폭 = 50px"]
+image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP 커넥터"]
 
 100GbE 케이블
 
 
 
  a| 
-image:../media/icon_square_2_yellow.png["폭 = 30px"]
+image:../media/icon_square_2_yellow.png["설명선 아이콘 2"]
  a| 
 ** 컨트롤러 B 포트 e2a를 쉘프 1의 NSM B e0a에 연결합니다.
 ** 컨트롤러 B 포트 e10b를 쉘프 1의 NSM A e0b에 연결합니다.
@@ -502,7 +502,7 @@ image:../media/icon_square_2_yellow.png["폭 = 30px"]
 ** 컨트롤러 B 포트 e10a를 쉘프 2의 NSM B e0a에 연결합니다.
 
 
-image:../media/oie_cable100_gbe_qsfp28.png["폭 = 50px"]
+image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP 커넥터"]
 
 100GbE 케이블
 

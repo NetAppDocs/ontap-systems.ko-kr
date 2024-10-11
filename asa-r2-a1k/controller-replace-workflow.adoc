@@ -17,7 +17,7 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 [role="quick-margin-para"]
 컨트롤러 모듈을 교체하려면 특정 요구 사항을 충족해야 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:controller-replace-shutdown-nomcc.html["손상된 컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
 손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.
 

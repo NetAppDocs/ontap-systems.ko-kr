@@ -13,10 +13,11 @@ OKM 구성을 복원하는 동안 다음 정보가 필요합니다.
 
 
 .단계
-. ONTAP 부팅 메뉴에서 옵션 10:
+. ONTAP 부팅 메뉴에서 적절한 옵션을 선택합니다.
 +
-[listing]
-----
+** ONTAP 9 .8 이상의 경우 옵션 10:
++
+....
 
 Please choose one of the following:
 
@@ -33,9 +34,29 @@ Please choose one of the following:
 (11) Configure node for external key management.
 Selection (1-11)? 10
 
-----
+....
+** ONTAP 9 .7 이하 버전의 경우 숨겨진 옵션 `recover_onboard_keymanager` 명령을 입력합니다.
++
+....
+
+Please choose one of the following:
+
+(1)  Normal Boot.
+(2)  Boot without /etc/rc.
+(3)  Change password.
+(4)  Clean configuration and initialize all disks.
+(5)  Maintenance mode boot.
+(6)  Update flash from backup config.
+(7)  Install new software first.
+(8)  Reboot node.
+(9)  Configure Advanced Drive Partitioning.
+Selection (1-19)? recover_onboard_keymanager
+
+....
+
+
 . 프로세스의 계속성을 확인합니다.
-`This option must be used only in disaster recovery procedures. Are you sure? (y or n):` _y_
+`This option must be used only in disaster recovery procedures. Are you sure? (y or n): `y`
 . 클러스터 전체의 암호를 두 번 입력합니다.
 +
 
@@ -52,8 +73,7 @@ NOTE: 암호문을 입력하는 동안 콘솔에 아무 입력도 표시되지 �
 입력 끝에 있는 Enter 키를 두 번 누릅니다.
 
 +
-[listing]
-----
+....
 
 
 Enter the backup data:
@@ -91,11 +111,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 ---------------------------END BACKUP---------------------------
 
-----
+....
 . 복구 프로세스가 완료됩니다.
 +
-[listing]
-----
+....
 
 Trying to recover keymanager secrets....
 Setting recovery material for the onboard key manager
@@ -110,15 +129,14 @@ Successfully recovered keymanager secrets.
 * Run the "security key-manager onboard sync" command to synchronize the key database after the node reboots.
 ***********************************************************************************
 
-----
+....
 +
 
 WARNING: 표시된 출력이 과(와) 다른 경우 계속 진행하지 마십시오. `Successfully recovered keymanager secrets` 문제 해결을 수행하여 오류를 수정합니다.
 
 . 부팅 메뉴에서 옵션 1을 선택하여 ONTAP로 계속 부팅합니다.
 +
-[listing]
-----
+....
 
 ***********************************************************************************
 * Select option "(1) Normal Boot." to complete the recovery process.
@@ -139,21 +157,24 @@ WARNING: 표시된 출력이 과(와) 다른 경우 계속 진행하지 마십�
 (11) Configure node for external key management.
 Selection (1-11)? 1
 
-----
+....
 . 컨트롤러의 콘솔에 가 표시되는지 확인합니다 `Waiting for giveback...(Press Ctrl-C to abort wait)`
-. 파트너 노드에서 파트너 컨트롤러를 반환하십시오. _ 스토리지 페일오버 반환 - fromnode local-only-CFO-aggregates true _
-. CFO 애그리게이트에서만 부팅한 후 _security key-manager 온보드 sync​​​​​​​_ 명령을 실행합니다.
-. Onboard Key Manager의 클러스터 전체 암호 입력:
+. 파트너 노드에서 파트너 컨트롤러를 반환하십시오. `storage failover giveback -fromnode local -only-cfo-aggregates true`
+. CFO 애그리게이트에서만 부팅한 후에는 _security key-manager 온보드 sync​​​​​​​_ 명령을 실행하십시오.
+. Onboard Key Manager의 클러스터 전체 암호를 입력합니다.
 +
-[listing]
-----
+....
 
 Enter the cluster-wide passphrase for the Onboard Key Manager:
 
 All offline encrypted volumes will be brought online and the corresponding volume encryption keys (VEKs) will be restored automatically within 10 minutes. If any offline encrypted volumes are not brought online automatically, they can be brought online manually using the "volume online -vserver <vserver> -volume <volume_name>" command.
 
-----
-. 모든 키가 동기화되었는지 확인합니다. _security key-manager key query-restored false_입니다
+....
++
+
+NOTE: 동기화에 성공하면 추가 메시지 없이 클러스터 프롬프트가 반환됩니다. 동기화가 실패하면 클러스터 프롬프트로 돌아가기 전에 오류 메시지가 나타납니다. 오류가 수정되고 동기화가 성공적으로 실행될 때까지 계속하지 마십시오.
+
+. 모든 키가 동기화되었는지 확인합니다 `security key-manager key query -restored false`.
 +
 `There are no entries matching your query.`
 
@@ -161,5 +182,5 @@ All offline encrypted volumes will be brought online and the corresponding volum
 
 NOTE: 복원된 매개 변수에서 false를 필터링할 때 결과가 나타나지 않습니다.
 
-. 파트너에서 노드를 반환:_스토리지 페일오버 반환 - fromnode local _
+. 파트너에서 노드 반환: `storage failover giveback -fromnode local`
 

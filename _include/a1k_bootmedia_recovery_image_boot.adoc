@@ -23,11 +23,11 @@ ONTAP 9.16.0 이하
 .. 손상된 컨트롤러에서 가 표시되면 _Y_를 누릅니다 `Do you want to restore the backup configuration now?`
 .. 손상된 컨트롤러에서 덮어쓸지 묻는 메시지가 나타나면 _Y_를 `/etc/ssh/ssh_host_ecdsa_key`누릅니다.
 .. 정상 상태의 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준:_set -privilege advanced_로 설정합니다.
-.. 정상 상태의 파트너 컨트롤러에서 복원 백업 명령:_system node restore -backup -node local -target -address impaired_node_ip_address _ 를 실행합니다.
+.. 정상 상태의 파트너 컨트롤러에서 복원 백업 명령을 실행합니다. `system node restore-backup -node local -target-address impaired_node_IP_address`
 +
 *참고:* 복원에 성공하지 않은 메시지가 표시되면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
 
-.. 정상 상태의 파트너 컨트롤러에서 손상된 컨트롤러를 admin 레벨:_set -privilege admin_으로 되돌립니다.
+.. 정상적인 파트너 컨트롤러에서 손상된 컨트롤러를 관리자 수준으로 되돌립니다 `set -privilege admin`.
 .. 손상된 컨트롤러에서 가 표시되면 _y_를 `Was the restore backup procedure successful?`누릅니다.
 .. 손상된 컨트롤러에서 가 표시되면 _y_를 `...would you like to use this restored copy now?`누릅니다.
 .. 손상된 컨트롤러에서 손상된 컨트롤러를 재부팅하라는 메시지가 나타나면 _y_를 누르고 부팅 메뉴에 대해 _Ctrl-c_를 누릅니다.

@@ -228,7 +228,7 @@ video::edc42447-f721-4cbe-b080-ab0c0123a139[panopto]
 
 
  a| 
-image:../media/icon_square_1_blue.png["설명선 번호 1"]
+image:../media/icon_square_1_dark_purple.png["설명선 번호 1"]
  a| 
 HA 인터커넥트 포트에 케이블 연결:
 
@@ -240,7 +240,7 @@ image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
 
 
  a| 
-image:../media/icon_square_2_yellow.png["설명선 번호 2"]
+image:../media/icon_square_2_green.png["설명선 번호 2"]
  a| 
 클러스터 인터커넥트 포트에 케이블 연결:
 
@@ -252,7 +252,7 @@ image:../media/drw_affa800_tnsc_clust_cabling.png["스위치가 없는 2노드 �
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_purple.png["3단계"]
  a| 
 관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_affa800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
 
@@ -303,7 +303,7 @@ video::49e48140-4c5a-4395-a7d7-ab0c0123a10e[panopto]
 
 
  a| 
-image:../media/icon_square_1_blue.png["설명선 번호 1"]
+image:../media/icon_square_1_dark_purple.png["설명선 번호 1"]
  a| 
 HA 인터커넥트 포트에 케이블 연결:
 
@@ -315,7 +315,7 @@ image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
 
 
  a| 
-image:../media/icon_square_2_yellow.png["설명선 번호 2"]
+image:../media/icon_square_2_green.png["설명선 번호 2"]
  a| 
 클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
 ** e0a
@@ -325,7 +325,7 @@ image:../media/drw_affa800_switched_clust_cabling.png["클러스터 인터커넥
 
 
  a| 
-image:../media/icon_square_3_orange.png["3단계"]
+image:../media/icon_square_3_purple.png["3단계"]
  a| 
 관리 네트워크 스위치에 관리 포트를 케이블로 연결합니다    image:../media/drw_affa800_mgmt_cabling.png["시스템 뒷면의 관리 포트 위치를 보여 주는 그림입니다"]
 

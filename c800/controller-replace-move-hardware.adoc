@@ -299,7 +299,7 @@ NVDIMM을 이동하려면 손상된 컨트롤러를 찾아 교체 컨트롤러�
 
 . 컨트롤러 모듈에서 NVDIMM을 찾습니다.
 +
-image::../media/drw_a800_no_risers_nvdimm_move.png[NVDIMM을 이동합니다]
+image::../media/drw_a800_no_risers_nvdimm_move.svg[NVDIMM을 이동합니다]
 
 +
 [cols="1,4"]
