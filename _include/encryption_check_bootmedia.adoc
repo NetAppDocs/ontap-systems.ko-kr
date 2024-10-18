@@ -1,4 +1,4 @@
-= 1단계: ONTAP 버전이 암호화를 지원하는지 확인합니다
+= 1단계: 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인합니다
 :allow-uri-read: 
 
 
@@ -6,7 +6,7 @@
 
 
 
-== 1단계: ONTAP 버전이 암호화를 지원하는지 확인합니다
+== 1단계: 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인합니다
 
 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하십시오. 이 정보는 올바른 ONTAP 이미지를 다운로드하는 데 중요합니다.
 
@@ -29,66 +29,68 @@
 
 == 단계 2: 컨트롤러를 종료해도 안전한지 확인합니다
 
-컨트롤러를 안전하게 종료하려면 먼저 Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성 상태인지 확인합니다. 그런 다음 사용 중인 키 관리자를 확인하고, 적절한 키 정보를 표시하고, 인증 키의 상태에 따라 조치를 취합니다.
+컨트롤러를 안전하게 종료하려면 먼저 EKM(External Key Manager) 또는 OKM(Onboard Key Manager)이 활성 상태인지 확인합니다. 그런 다음 사용 중인 키 관리자를 확인하고, 적절한 키 정보를 표시하고, 인증 키의 상태에 따라 조치를 취합니다.
 
 . 시스템에서 활성화된 키 관리자를 확인합니다.
 +
 [cols="1a,2a"]
 |===
-| 키 관리자 유형입니다 | 다음 단계를 따르십시오... 
+| ONTAP 버전입니다 | 이 명령을 실행합니다 
 
 
  a| 
-외부 키 관리자(EKM)
+ONTAP 9.14.1 이상
  a| 
-다음 명령을 실행하여 시스템에서 EKM이 활성화되어 있는지 확인합니다.
-
-`security key-manager show key store`
-
-EKM이 활성화된 경우 `external` 가 출력에 나열됩니다.
-
-
-
- a| 
-온보드 키 관리자(OKM)
- a| 
-노드가 실행 중인 ONTAP 버전에 따라 다음 명령 중 하나를 실행하여 시스템에서 OKM이 사용 설정되었는지 확인합니다.
-
-** ONTAP 9.14.1 이상의 경우 다음 명령을 입력합니다.
-+
 `security key-manager keystore show`
 
-+
-OKM을 사용하면 `OKM` 이 명령 출력에 표시됩니다.
+** EKM을 사용하면 `EKM` 이 명령 출력에 표시됩니다.
+** OKM을 사용하면 `OKM` 이 명령 출력에 표시됩니다.
+** 키 관리자가 설정되어 있지 않으면 `No key manager keystores configured` 명령 출력에 이 표시됩니다.
 
-** ONTAP 9.13.1 이하 버전의 경우 다음 명령을 입력합니다.
-+
+
+
+
+ a| 
+ONTAP 9.13.1 이하
+ a| 
 `security key-manager show-key-store`
 
-+
-OKM을 사용하면 `onboard` 이 명령 출력에 표시됩니다.
-
+** EKM을 사용하면 `external` 이 명령 출력에 표시됩니다.
+** OKM을 사용하면 `onboard` 이 명령 출력에 표시됩니다.
+** 키 관리자가 설정되어 있지 않으면 `No key managers configured` 명령 출력에 이 표시됩니다.
 
 
 |===
-. 다음 query 명령을 입력하여 키 관리자에 인증 키의 상태를 표시합니다.
-+
-`security key-manager key query`
-
-. 키 관리자의 열에 있는 값의 출력을 `Restored` 확인합니다.
-+
-이 열은 키 관리자에 대한 인증 키(EKM 또는 OKM)가 성공적으로 복원되었는지 여부를 나타냅니다.
-
-+
-** 복원됨 열의 값이 참이면 키가 제대로 복원되므로 컨트롤러 종료를 진행해도 됩니다.
-** 값이 TRUE가 아닌 경우 키가 복원되지 않은 것이므로 EKM을 사용하는지 OKM을 사용하는지 여부에 따라 추가 단계(키 복원 또는 동기화)를 수행해야 합니다.
-
-
-. EKM을 사용하는지 OKM을 사용하는지에 따라 다음 옵션 중 하나를 선택하고 열에 표시되는 출력 값에 따라 적절한 단계를 `Restored` 따릅니다.
+. 시스템에 키 관리자가 구성되었는지 여부에 따라 다음 옵션 중 하나를 선택합니다.
 +
 [role="tabbed-block"]
 ====
-.이케이엠주식회사
+.키 관리자가 구성되지 않았습니다
+--
+손상된 컨트롤러를 안전하게 종료할 수 있습니다. 로 이동합니다. link:bootmedia-shutdown.html["손상된 컨트롤러를 종료합니다"]
+
+--
+.외부 또는 Onboard Key Manager가 구성되었습니다
+--
+.. 다음 query 명령을 입력하여 키 관리자에 인증 키의 상태를 표시합니다.
++
+`security key-manager key query`
+
+.. 키 관리자의 열에 있는 값의 출력을 `Restored` 확인합니다.
++
+이 열은 키 관리자에 대한 인증 키(EKM 또는 OKM)가 성공적으로 복원되었는지 여부를 나타냅니다.
+
+
+
+--
+====
+
+
+. 시스템에서 External Key Manager를 사용하는지 Onboard Key Manager를 사용하는지 여부에 따라 다음 옵션 중 하나를 선택합니다.
++
+[role="tabbed-block"]
+====
+.외부 키 관리자
 --
 열에 표시되는 출력 값에 따라 `Restored` 적절한 단계를 따릅니다.
 
@@ -114,7 +116,7 @@ OKM을 사용하면 `onboard` 이 명령 출력에 표시됩니다.
 +
 명령이 실패하면 에 문의하십시오. http://mysupport.netapp.com/["NetApp 지원"^]
 
-.. 명령을 입력하여 열에 `true` 모든 인증 키가  `_security key-manager key query_`표시되는지 확인합니다 `Restored`.
+.. 명령을 입력하여 열에 `true` 모든 인증 키가  `security key-manager key query`표시되는지 확인합니다 `Restored`.
 +
 모든 인증 키가 있는 경우 `true` 손상된 컨트롤러를 안전하게 종료할 수 있습니다. 로 이동합니다. link:bootmedia-shutdown.html["손상된 컨트롤러를 종료합니다"]
 
@@ -122,7 +124,7 @@ OKM을 사용하면 `onboard` 이 명령 출력에 표시됩니다.
 
 |===
 --
-.확인
+.Onboard Key Manager(온보드 키 관리자
 --
 열에 표시되는 출력 값에 따라 `Restored` 적절한 단계를 따릅니다.
 

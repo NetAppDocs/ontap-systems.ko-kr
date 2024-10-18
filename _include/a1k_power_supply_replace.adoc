@@ -34,7 +34,7 @@ AC PSU를 교체하려면 다음 단계를 수행하십시오.
 CAUTION: PSU가 짧습니다. 컨트롤러 모듈에서 분리할 때 컨트롤 모듈이 갑자기 흔들리지 않고 다치지 않도록 항상 두 손을 사용하여 지지하십시오.
 
 +
-image::../media/drw_a70-90_psu_remove_replace_ieops-1368.svg[PSU를 교체합니다]
+image::../media/drw_a1k_psu_remove_replace_ieops-1378.svg[PSU를 교체합니다]
 
 +
 [cols="1,4"]

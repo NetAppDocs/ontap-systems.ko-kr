@@ -60,7 +60,8 @@ NSM 모듈 펌웨어 검사는 10분마다 수행됩니다. NSM 모듈 펌웨어
 
 * 다음 애니메이션 또는 작성된 단계를 사용하여 NSM 모듈을 교체할 수 있습니다.
 +
-video::f57693b3-b164-4014-a827-aa86002f4b34[Animation,width=Replace an NSM module in an NS224 shelf"]
+.NS224 쉘프의 NSM 모듈을 교체합니다
+video::f57693b3-b164-4014-a827-aa86002f4b34[panopto]
 
 
 .단계

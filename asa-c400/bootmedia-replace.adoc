@@ -189,6 +189,10 @@ NOTE: Windows를 사용하여 콘텐츠를 추출하는 경우 WinZip을 사용�
 
 .. EFI 폴더를 USB 플래시 드라이브의 최상위 디렉토리에 복사합니다.
 +
+
+NOTE: 서비스 이미지에 EFI 폴더가 없는 경우 을 참조하십시오link:https://kb.netapp.com/onprem/ontap/hardware/EFI_folder_missing_from_Service_Image_download_file_used_for_boot_device_recovery_for_FAS_and_AFF_models["FAS 및 AFF 모델의 부팅 장치 복구에 사용되는 서비스 이미지 다운로드 파일에서 EFI 폴더가 누락되었습니다"].
+
++
 USB 플래시 드라이브에는 EFI 폴더와 손상된 컨트롤러가 실행 중인 것과 동일한 BIOS(Service Image) 버전이 있어야 합니다.
 
 .. 노트북에서 USB 플래시 드라이브를 제거합니다.

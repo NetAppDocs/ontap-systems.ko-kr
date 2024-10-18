@@ -2866,7 +2866,6 @@
   <block id="d4d3885e3484305b905fde6b3ef5c19c" category="paragraph">Phillips #1 드라이버</block>
   <block id="b075a4576b5250274446097769fe8ec1" category="list-text">교체 부팅 미디어를 컨트롤러 모듈에 설치합니다.</block>
   <block id="09286498e9c19adb60810f2dcab43b11" category="paragraph">설치한 교체 부팅 매체는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다.</block>
-  <block id="cece3275192f19a99192545e91b78506" category="list-text">USB 플래시 드라이브의 최상위 디렉토리에 EFI 폴더를 복사합니다. + USB 플래시 드라이브에는 EFI 폴더와 손상된 컨트롤러가 실행 중인 것과 동일한 BIOS(서비스 이미지) 버전이 있어야 합니다.</block>
   <block id="228833e7e465458067df236eb339d948" category="doc">장애가 발생한 부품을 NetApp-AFF A800으로 반환</block>
   <block id="2ee0c03cb33be156e12b5b33dbf8e422" category="doc">NVDIMM 배터리 교체 - AFF A800</block>
   <block id="a2a7f6c4d01f5224a71aaaa23dd37c83" category="list-text">케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 시스템 케이블과 SFP 및 QSFP 모듈(필요한 경우)을 컨트롤러 모듈에서 분리하여 케이블이 연결된 위치를 추적합니다. 케이블을 케이블 관리 장치에 연결하는 후크와 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블을 분리합니다.</block>
@@ -8615,7 +8614,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e1e5cf3c178b5500c9ca99734851f088" category="list-text">잠금 래치를 위쪽으로 돌려 잠금 위치에 놓습니다.</block>
   <block id="2e642e4a5011ff5ac26769f55b9fb111" category="list-text">전원 코드를 전원 공급 장치에 연결합니다.</block>
   <block id="73bf3c5901e8959909093f245da79b5c" category="admonition">DC 전원 공급 장치가 있는 경우 컨트롤러 모듈이 섀시에 완전히 장착된 후 전원 공급 장치에 전원 블록을 다시 연결합니다.</block>
-  <block id="7cb60d31286d9a356a9f1d81c01d5d76" category="paragraph">전원이 복원되면 컨트롤러 모듈이 부팅됩니다. LOADER 프롬프트로 부팅되는 경우 명령을 사용하여 컨트롤러를<block ref="ce54ef17bebf280339d340bd40dff593" prefix=" " category="inline-code"></block> 재부팅합니다.</block>
   <block id="c90c2ae11fe917d8b5a1debf0e0a1a26" category="list-text">* 이 절차는 중단입니다. * 2노드 클러스터의 경우, 다중 노드 클러스터의 서비스 중단이 완전히 완료되고 부분 중단이 발생할 것입니다.</block>
   <block id="7ae4c88c0c1f1ed7c8b6a312fdab75ab" category="paragraph">컨트롤러를 교체하려면 손상된 컨트롤러를 분리하고 FRU 구성 요소를 손상된 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 이동한 다음 섀시에 교체용 컨트롤러 모듈을 설치한 다음 시스템을 유지 관리 모드로 부팅해야 합니다.</block>
   <block id="2fb967de668a2d809970dd0ee11a24ab" category="paragraph">전원 공급 장치를 교체 컨트롤러로 이동합니다.</block>
@@ -8779,8 +8777,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9cdea9bbd0e16c22fc991522b7972ed5" category="paragraph">이 절차의 시작 부분에서 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.</block>
   <block id="7b2bdafe064028eef5977d05150f12ac" category="admonition">NSE 또는 NVE가 온보드 또는 외부 키 관리자와 함께 활성화되어 있는 경우 이 절차를 시작할 때 캡처한 설정을 복원해야 합니다.</block>
   <block id="63a4de1bcedff077618555275f624f08" category="open-title">옵션 1: 온보드 키 관리자 서버 구성이 있는 시스템</block>
-  <block id="da8f6d618f55e4068dea90bc98f1254e" category="paragraph">ONATP 부팅 메뉴에서 온보드 키 관리자 구성을 복원합니다.</block>
-  <block id="89cb88c9bc1bb6b7dcae6435585c0324" category="paragraph">OKM 구성을 복원하는 동안 다음 정보가 필요합니다.</block>
   <block id="7000494e61efaf925f6df5293a176456" category="inline-link">온보딩 키 관리를 활성화합니다</block>
   <block id="da204d9262b182aa6636ef0f759e2181" category="list-text">클러스터 전체 암호를 입력했습니다.<block ref="45fc92ed2fd28afadf25f8be26cb5500" category="inline-link-rx"></block></block>
   <block id="f295be867ed42957086669bda6d018d8" category="inline-link">Onboard Key Manager에 대한 백업 정보입니다</block>
@@ -8791,47 +8787,15 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f9bffba0a703b49e4849f916f5e0b86a" category="admonition">암호문을 입력하는 동안 콘솔에 아무 입력도 표시되지 않습니다.</block>
   <block id="13919b42be0dc9d06cf38142917f4b9e" category="paragraph"><block ref="2b673e138bf62e9f201d2fe3f4e48e85" prefix="" category="inline-code"></block></block>
   <block id="0784a1581386529d37ed702d7c0c6404" category="paragraph"><block ref="7c93709ee00a5bf88772022db8bfa591" prefix="" category="inline-code"></block></block>
-  <block id="de5132c93b5d93a59d85652f38a4c1be" category="list-text">백업 정보를 입력합니다. 시작 백업 라인의 전체 컨텐츠를 백업 종료 라인을 통해 붙여 넣습니다.</block>
   <block id="23f31e8486de5b0c9919cdb1d6f7bb1f" category="paragraph">입력 끝에 있는 Enter 키를 두 번 누릅니다.</block>
-  <block id="17f4c7292b19bfcfe3d4c928df22bc3c" category="list-text">복구 프로세스가 완료됩니다.</block>
   <block id="25a669068aaab50a7c2fd5bce904c674" category="admonition">표시된 출력이 과(와) 다른 경우 계속 진행하지 마십시오.<block ref="3f52dc951949a3041638d54635d71099" prefix=" " category="inline-code"></block> 문제 해결을 수행하여 오류를 수정합니다.</block>
   <block id="4ca210717c7b74a5849140e091b8b172" category="list-text">부팅 메뉴에서 옵션 1을 선택하여 ONTAP로 계속 부팅합니다.</block>
-  <block id="de52f5c2d18fad1d9bb02f99ec8dadf5" category="list-text">컨트롤러의 콘솔에 가 표시되는지 확인합니다<block ref="22714968f3c097ea3249c9d4b9e8119f" prefix=" " category="inline-code"></block></block>
   <block id="36127ab42d959b7fd1802bde97fbbebd" category="paragraph"><block ref="ff552bb89260932a935c259f2e059d29" prefix="" category="inline-code"></block></block>
   <block id="1a397feeabbac5c761b3d1f336523079" category="admonition">복원된 매개 변수에서 false를 필터링할 때 결과가 나타나지 않습니다.</block>
-  <block id="612c478fd861d23534a26dd856605b43" category="open-title">옵션 2: 외부 키 관리자 서버 구성이 있는 시스템</block>
-  <block id="179622516286b14a2256b085ee45c10a" category="paragraph">ONATP 부팅 메뉴에서 외부 키 관리자 구성을 복원합니다.</block>
   <block id="075c44463f07a0ee059a3e5089c43ca5" category="paragraph">EKM(External Key Manager) 구성을 복원하려면 다음 정보가 필요합니다.</block>
   <block id="d60b517023845eb33535660ac501cf18" category="list-text">KMIP 서버 주소입니다.</block>
   <block id="70b8d21a07e70130ed6b262a91c18626" category="list-text">KMIP 포트입니다.</block>
-  <block id="08abc77c04d9685a10837fbb9135a705" category="list-text">다른 클러스터 노드 또는 클라이언트 인증서의 /cfcard/kMIP/certs/client.crt 파일 사본.</block>
-  <block id="db1b600b813d1f6f50a04eba824c70ab" category="list-text">다른 클러스터 노드에서 /cfcard/kMIP/certs/client.key 파일의 복사본 또는 클라이언트 키</block>
-  <block id="dbf0b245d6b63885207c70d983243a7b" category="list-text">다른 클러스터 노드 또는 KMIP 서버 CA의 /cfcard/kMIP/certs/CA.pem 파일 사본.</block>
   <block id="e43680b19a57600cbf0bc788265754c7" category="list-text">ONTAP 부팅 메뉴에서 옵션 11 을 선택합니다.</block>
-  <block id="a2a02d01ac6ca6a677201d0767b02f34" category="list-text">메시지가 표시되면 필요한 정보를 수집했는지 확인합니다.</block>
-  <block id="91edae04cf5f805055ec3dac6c3b7f8c" category="list-text"><block ref="b19458ff12859c393f2fd46d02cb24d4" prefix="" category="inline-code"></block> _y_</block>
-  <block id="635db4ba4393f4aa6637dd02dc8cabae" category="list-text"><block ref="05ac7348459861360c86dc5851e1ab0b" prefix="" category="inline-code"></block> _y_</block>
-  <block id="1ea0f8ccc55c1aaa4b40e778eca7d203" category="list-text"><block ref="0daafd01a5c78aa4cf52e57febc9c7d9" prefix="" category="inline-code"></block> _y_</block>
-  <block id="7edfa6272c16cc3e1b7ef52bbf985294" category="list-text"><block ref="05f6b998dcdacf2a7e5882ef776dfa8e" prefix="" category="inline-code"></block> _y_</block>
-  <block id="66b0e02903c6c36ff4685952e8a46ec1" category="paragraph">대신 다음과 같은 메시지가 표시될 수도 있습니다.</block>
-  <block id="db7e8e2b0c1ff16e7d69c69fa0d6a061" category="list-text"><block ref="05f6b998dcdacf2a7e5882ef776dfa8e" prefix="" category="inline-code"></block> _n _</block>
-  <block id="ca2e8c6e7a166833a27d9755f814672b" category="list-text"><block ref="9254f5a10bf0e4d18aa18a91a9321bea" prefix="" category="inline-code"></block> _y_</block>
-  <block id="d0d46e5c203e3a92bef26e001a5e623d" category="list-text"><block ref="616aa2e195f429a92684489246e90f34" prefix="" category="inline-code"></block> _y_</block>
-  <block id="83b207edf8a800f4f88cf102b88cf241" category="list-text">각 프롬프트에 대한 정보를 제공합니다.</block>
-  <block id="a242b56bad1d07089dce8ccb795966f2" category="list-text">복구 프로세스가 완료됩니다.</block>
-  <block id="3bac3ae452491bc05a59b99b3d2476d6" category="paragraph">6단계로 이동합니다.</block>
-  <block id="070dd7606e33a466d7a8bb82a9a64b17" category="list-text">_storage failover show_명령을 사용하여 타겟 컨트롤러가 반환 준비가 되었는지 확인합니다.</block>
-  <block id="378fa36f6e90b3bf6ddbb070e35b0388" category="list-text">콘솔 케이블을 파트너 컨트롤러로 이동하고 _storage failover -fromnode local-only -CFO-aggregates true_ 명령을 사용하여 타겟 컨트롤러 스토리지를 되돌립니다.</block>
-  <block id="bd7b047ae429d755acf6b20e1064e5ce" category="list-text">파트너가 "준비되지 않음"으로 인해 명령이 실패하는 경우 파트너 간에 HA 하위 시스템이 동기화될 때까지 5분 동안 기다립니다.</block>
-  <block id="1bcf977583274fe2567618999a9b0c90" category="list-text">3분 동안 기다린 후 _storage failover show_command를 사용하여 페일오버 상태를 확인합니다.</block>
-  <block id="d92dd32085afaf328cc7fcda13198cc8" category="list-text">clustershell 프롬프트에서 _network interface show -is -home false_명령을 입력하여 홈 컨트롤러와 포트에 없는 논리 인터페이스를 나열합니다.</block>
-  <block id="e396be98bc8257ac03b57843c10e38b9" category="paragraph">인터페이스가 로 나열된 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>_net int revert -vserver Cluster -lif_nodename_ 명령을 사용하여 해당 인터페이스를 홈 포트로 되돌립니다.</block>
-  <block id="62de7d9b4c53e76eb0aa2abbb0821ccd" category="list-text">콘솔 케이블을 대상 컨트롤러로 이동하고 _version -v_ 명령을 실행하여 ONTAP 버전을 확인합니다.</block>
-  <block id="63d74ff14d34f13a62e8eb172d26a62f" category="list-text">를 사용하여<block ref="46353f4e0bb2c136591c37c9eeedcf40" prefix=" " category="inline-code"></block> 출력을 검토합니다.</block>
-  <block id="d9432d5d4d3a21bdc03aa318c2cfdb11" category="list-text">키 관리 서버에 저장된 인증 키의 키 ID를 표시하려면 _security key-manager key query_명령을 사용하십시오.</block>
-  <block id="8064cac27c9219c213e029af9a5800db" category="list-text">= 및 칼럼 = 이외의 값이면<block ref="aac34f614f4514a3f670bae971a30369" prefix=" " category="inline-code"></block><block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="0f456cd0d7a5ae4a393a7b207a83284e" prefix=" " category="inline-code"></block>_security key-manager external restore_명령을 사용하여 인증 키의 키 ID를 복원합니다.</block>
-  <block id="8b6a11a09054c203c222c056a501059f" category="list-text">= 및 칼럼 = 이외의 값이면<block ref="aac34f614f4514a3f670bae971a30369" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block><block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block><block ref="0f456cd0d7a5ae4a393a7b207a83284e" prefix=" " category="inline-code"></block>_security key-manager 온보드 sync_명령을 사용하여 복구된 노드에서 누락된 온보드 키를 동기화합니다.</block>
-  <block id="27b0a5d00d58f515ceda3d56b392bdf7" category="paragraph">security key-manager key query_command 를 사용하여<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block> 모든 인증 키에 대해 칼럼=<block ref="0f456cd0d7a5ae4a393a7b207a83284e" prefix=" " category="inline-code"></block> 을(를) 확인하십시오.</block>
   <block id="4f95ab1472771ae8e2475d26cfccfefd" category="paragraph">다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.`cluster1: *&gt; system node AutoSupport invoke -node * -type all-message MAINT=2h입니다</block>
   <block id="46bbc90a4740f73d85b026da0e0ba4db" category="list-text">정상 컨트롤러에서 자동 반환 비활성화:</block>
   <block id="b719e721c62569ed8b97aaf7ac03691a" category="paragraph">멀티 클러스터 인터커넥트 스위치</block>
@@ -9238,7 +9202,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3e6277588162255770fd3384bad09d6d" category="list-text">컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID가 일치하지 않아 시스템 ID를 재정의하라는 메시지가 표시될 때 _y_를 입력합니다.</block>
   <block id="9daabece8db7521a7882f63ebd76a891" category="image-alt">상단의 분리 단추가 있는 드라이브를 분리합니다</block>
   <block id="e0bc24820711c466532ba2cb67ababd9" category="image-alt">분리 단추가 중간에 있는 드라이브를 분리합니다</block>
-  <block id="5be3be4e3c78f5ba4233a70fab6255f9" category="paragraph">최종 확인을 완료하고 저장 공간을 되돌려 정상적인 부팅 후 부팅 미디어 교체 프로세스를 완료합니다.</block>
   <block id="38821947dff053760f4c97b648ca454a" category="admonition">아직 전원 코드를 연결하지 마십시오.</block>
   <block id="b0dc4e3ef222885899ea12125b17e5eb" category="list-text">왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.</block>
   <block id="a620e4025016adf1d0a58233ca0fabf5" category="image-alt">RTC 배터리를 제거하거나 교체합니다</block>
@@ -9620,7 +9583,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d6b5f802b07df1179c13649ed53524f0" category="paragraph">복구 프로세스가 완료되면 다음 메시지가 표시됩니다.</block>
   <block id="c6980bbd79483c6809cc84795b7d14d6" category="paragraph">복원이 완료되면 노드가 재부팅되어 프로세스가 완료됩니다.</block>
   <block id="0afa9147e7fde537954ecea742d84625" category="list-text">다음 옵션 중 하나를 선택하여 ONATP 부팅 메뉴에서 온보드 키 관리자 구성을 복원합니다.</block>
-  <block id="1f816c392c5ee466677e2fd2587ce8a1" category="section-title">2단계: 부팅 미디어 교체를 완료합니다</block>
   <block id="417968dd9c410e2ebdf82236e2a6f1d8" category="doc">1단계: 스토리지 컨트롤러를 네트워크에 연결합니다</block>
   <block id="c0b05ac617b77a5c10f26756e6ef04f2" category="list-text">광 스위치에 연결하는 경우 포트에 케이블을 연결하기 전에 SFP(Small Form-Factor Pluggable) 트랜시버를 컨트롤러 포트에 삽입합니다.</block>
   <block id="1463138ead0bd5def70e2d744eddfc0a" category="paragraph">컨트롤러를 서로 또는 호스트 네트워크에 직접 연결합니다.</block>
@@ -9670,7 +9632,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="871681e86e80556b261166721e0bbe3b" category="list-text">함께 제공된 장착 나사를 사용하여 저장 장치 쉘프를 캐비닛이나 텔코 랙에 고정합니다.</block>
   <block id="c5eaaf4a6fa532356e5d0189384e0e34" category="list-text">케이블 관리 장치를 기억 장치 시스템 후면에 연결하십시오.</block>
   <block id="36eaeecf3fe5d82e498290c50c773db1" category="list-text">베젤을 스토리지 시스템의 전면에 장착합니다.</block>
-  <block id="c239b345dc160b2bfc0fb8247acc17eb" category="paragraph">각 NS224 쉘프는 고유한 쉘프 ID로 구별됩니다. 이 ID는 쉘프가 스토리지 시스템 설정 내에서 구분되도록 합니다. 기본적으로 쉘프 ID는 '00' 및 '01'로 할당되지만 스토리지 시스템 전체에서 고유성을 유지하기 위해 이러한 ID를 조정해야 할 수도 있습니다.</block>
   <block id="f044e75ec5037aabefb204d1365ba96b" category="image-alt">NS224 쉘프 ID를 변경합니다</block>
   <block id="d8147b4a0f272144c59f006b412b8290" category="image-alt">[설명 번호 2</block>
   <block id="8c5529e435c4992332c3afef54410f4e" category="image-alt">[설명 번호 3</block>
@@ -10375,7 +10336,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5bfc9396e31ecaf44561c35f76ab21a6" category="list-text">MetroCluster 구성 상태가 구성되었으며 노드가 사용 및 정상 상태인지 확인해야 <block ref="4d06f3844212ac745a73965bbb3f6e51" prefix="(" category="inline-code"></block>합니다.</block>
   <block id="b53660f761dc53e7b68aefd5edbbae44" category="paragraph">다음 섹션으로 이동합니다.</block>
   <block id="cb469b95641c1382be009038b04e5158" category="paragraph">컨트롤러 모듈을 뽑고 시스템 뒷면에서 시스템 관리 모듈을 분리한 다음 손상된 부팅 미디어를 제거하고 시스템 관리 모듈에 교체 부팅 미디어를 설치해야 합니다.</block>
-  <block id="ffffd77faa91cb4a767b88905267cf2b" category="doc">1단계: ONTAP 버전이 암호화를 지원하는지 확인합니다</block>
   <block id="ef265e1108b8991c7b12209078d6123e" category="paragraph">손상된 컨트롤러를 종료하기 전에 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 그리고 키 관리 시스템이 제대로 구성되었는지 확인하십시오.</block>
   <block id="fdb2cbe8b1e451ff001e9714b834c459" category="paragraph">사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하십시오. 이 정보는 올바른 ONTAP 이미지를 다운로드하는 데 중요합니다.</block>
   <block id="1c09443221312bdba5a22ddbba4f768f" category="list-text">다음 명령을 실행하여 ONTAP 버전이 암호화를 지원하는지 확인합니다.</block>
@@ -10385,27 +10345,14 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d8b3ebaef14f15ddadd58f8788097867" category="list-text">NVE가 지원되는 경우 NetApp 볼륨 암호화로 ONTAP 이미지를 다운로드합니다.</block>
   <block id="723417ff6efb8e61349dd2d6b90d0898" category="list-text">NVE가 지원되지 않는 경우 NetApp 볼륨 암호화 없이 * ONTAP 이미지 * 를 다운로드하십시오.</block>
   <block id="6bd78f9c7732510cf857d49ceb4bd776" category="section-title">단계 2: 컨트롤러를 종료해도 안전한지 확인합니다</block>
-  <block id="bdaa0edeb07bd0ecc38e28982c4df8d7" category="paragraph">컨트롤러를 안전하게 종료하려면 먼저 Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성 상태인지 확인합니다. 그런 다음 사용 중인 키 관리자를 확인하고, 적절한 키 정보를 표시하고, 인증 키의 상태에 따라 조치를 취합니다.</block>
   <block id="30f7cbebdfdaa0338bc99a69c5ef0e38" category="list-text">시스템에서 활성화된 키 관리자를 확인합니다.</block>
-  <block id="aac34f614f4514a3f670bae971a30369" category="cell">키 관리자 유형입니다</block>
-  <block id="a36a9da82fdc17311ba2d5d847082cce" category="paragraph">다음 명령을 실행하여 시스템에서 EKM이 활성화되어 있는지 확인합니다.</block>
-  <block id="c62c99e83e1c9d2a44da11eaa2e0b14a" category="paragraph"><block ref="0565c41723caaa37b0079906ad365846" prefix="" category="inline-code"></block></block>
-  <block id="89add348f9d444253c70c9efcfa0b483" category="paragraph">EKM이 활성화된 경우<block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block> 가 출력에 나열됩니다.</block>
-  <block id="518b09108bfe2ee41d9afdf44e6a6e45" category="paragraph">노드가 실행 중인 ONTAP 버전에 따라 다음 명령 중 하나를 실행하여 시스템에서 OKM이 사용 설정되었는지 확인합니다.</block>
-  <block id="f8cefe4e9eda67cd04349f4560aad96f" category="list-text">ONTAP 9.14.1 이상의 경우 다음 명령을 입력합니다.</block>
   <block id="9b5996b90a7a19dc5ca9e91a6d0c7ac9" category="paragraph"><block ref="ed039e134fdf3b84c71d409a4024dbc7" prefix="" category="inline-code"></block></block>
   <block id="67d6aa20f2257cc1b6c99fa4ed444eca" category="paragraph">OKM을 사용하면<block ref="90d4e6078945c9c6155e77edcafa9984" prefix=" " category="inline-code"></block> 이 명령 출력에 표시됩니다.</block>
-  <block id="5114d877b6bdc7484d5c2c9efc040aa0" category="list-text">ONTAP 9.13.1 이하 버전의 경우 다음 명령을 입력합니다.</block>
   <block id="6f76cbf64620dc55dc8a5d1462ae7822" category="paragraph"><block ref="1847f4f206eb3ab8397f6206fcf1bb3f" prefix="" category="inline-code"></block></block>
   <block id="4efa472f82474aa8572aacddb95c4a1b" category="paragraph">OKM을 사용하면<block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block> 이 명령 출력에 표시됩니다.</block>
-  <block id="b520d3c69ccbf428928a30eeb5fcaeec" category="list-text">다음 query 명령을 입력하여 키 관리자에 인증 키의 상태를 표시합니다.</block>
   <block id="2a4a9d693caa859153f77cf2204d30cc" category="paragraph"><block ref="c9b37f9017fc101cecef415e707e7b5f" prefix="" category="inline-code"></block></block>
   <block id="775c4f8ef2eabc8574bb57ddd10b0b23" category="list-text">키 관리자의 열에 있는 값의 출력을<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block> 확인합니다.</block>
   <block id="0244ade962fa9d071f4def5c7ef769cc" category="paragraph">이 열은 키 관리자에 대한 인증 키(EKM 또는 OKM)가 성공적으로 복원되었는지 여부를 나타냅니다.</block>
-  <block id="5532ef9f6f6fe7cdd455dde7a78eb12c" category="list-text">복원됨 열의 값이 참이면 키가 제대로 복원되므로 컨트롤러 종료를 진행해도 됩니다.</block>
-  <block id="8ec65b3b21949ed324beef5dbc025c92" category="list-text">값이 TRUE가 아닌 경우 키가 복원되지 않은 것이므로 EKM을 사용하는지 OKM을 사용하는지 여부에 따라 추가 단계(키 복원 또는 동기화)를 수행해야 합니다.</block>
-  <block id="b4bddfeecfd5716741acba5ef08dfdd9" category="list-text">EKM을 사용하는지 OKM을 사용하는지에 따라 다음 옵션 중 하나를 선택하고 열에 표시되는 출력 값에 따라 적절한 단계를<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block> 따릅니다.</block>
-  <block id="d080cdba04a9e58adbe244b4d170ff25" category="open-title">이케이엠주식회사</block>
   <block id="a26b32b28af2e3521ad3e104fee11f80" category="paragraph">열에 표시되는 출력 값에 따라<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block> 적절한 단계를 따릅니다.</block>
   <block id="c9fb391da0641ace637021ed0f9d1c94" category="cell">열의 출력 값<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block></block>
   <block id="22cfef4d87bd251ba39dd92d08a6b0bb" category="paragraph"><block ref="b326b5062b2f0e69046810717534cb09" prefix="" category="inline-code"></block></block>
@@ -10414,9 +10361,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1a1cd257525bddea68723047e36e6e90" category="list-text">다음 명령을 사용하여 외부 키 관리 인증 키를 클러스터의 모든 노드에 복원합니다.</block>
   <block id="74c90316d25b4cdc5c8e524af066a5a0" category="paragraph"><block ref="24b420efa276a683b4bd02f14a2d6f59" prefix="" category="inline-code"></block></block>
   <block id="581f12d33ebdffd65e567d7483436438" category="paragraph">명령이 실패하면 에 문의하십시오.<block ref="1a36b59ecae7684863b79a0f690b6840" category="inline-link-rx"></block></block>
-  <block id="c2c27d455a0034831b8e2b3d5a1fdd37" category="list-text">명령을 입력하여 열에<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 모든 인증 키가 <block ref="91f9c18d13195a5e3c010df87360adf2" prefix=" " category="inline-code"></block>표시되는지 확인합니다<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block>.</block>
   <block id="90b0be5cd55fef8ba4b2677ba61937be" category="paragraph">모든 인증 키가 있는 경우<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 손상된 컨트롤러를 안전하게 종료할 수 있습니다. 로 이동합니다. <block ref="eee94cfaa2087b0a7525f83880646105" category="inline-link-macro-rx"></block></block>
-  <block id="90d4e6078945c9c6155e77edcafa9984" category="open-title">확인</block>
   <block id="f756353c7a60081133f6ef85804b6485" category="paragraph">OKM 정보를 수동으로 백업합니다.</block>
   <block id="349e0edd7094f31576c430a35f1c73e3" category="list-text">를 입력하여 고급 모드로<block ref="8d2cf87827d8c4c105b70542cc18077d" prefix=" " category="inline-code"></block> 이동한 다음 메시지가 나타나면 를 입력합니다<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block>.</block>
   <block id="86123e57ff90dca177de37d445925d0d" category="list-text">다음 명령을 입력하여 키 관리 정보를 표시합니다.</block>
@@ -10431,20 +10376,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d81a048f736ca3a03a0fc11c4bc74978" category="list-text">명령을 입력하여 키 관리 백업 정보를 표시합니다.</block>
   <block id="d019a61bbe760bfae51153af25e806b3" category="doc">1단계: 키 관리자를 복원합니다</block>
   <block id="926dc92762712fb5c888d06d13b2835c" category="list-text">ONTAP 부팅 메뉴에서 적절한 옵션을 선택합니다.</block>
-  <block id="802134e5cd64408009bf9ca5065786b2" category="list-text">ONTAP 9 .8 이상의 경우 옵션 10:</block>
-  <block id="07447cab17885ca45337781e921897fa" category="list-text">ONTAP 9 .7 이하 버전의 경우 숨겨진 옵션<block ref="7191584fa52473c1df15d3c03b065c0b" prefix=" " category="inline-code"></block> 명령을 입력합니다.</block>
-  <block id="b8853c4009726e2ece8d95f47908e1c0" category="list-text">프로세스의 계속성을 확인합니다.<block ref="31d3e9f860a1ea4bc24acbcd0c462856" prefix=" " category="inline-code"></block></block>
-  <block id="2f494951e987e38666c6a1935c0c88be" category="list-text">파트너 노드에서 파트너 컨트롤러를 반환하십시오.<block ref="291b31306c2e0668f091d41edca7e97f" prefix=" " category="inline-code"></block></block>
-  <block id="b6074ec78f4878986cfabd4a86abf5c8" category="list-text">CFO 애그리게이트에서만 부팅한 후에는 _security key-manager 온보드 sync​​​​​​​_ 명령을 실행하십시오.</block>
   <block id="3554bd6dca965e0e8bcb314a54ef655c" category="list-text">Onboard Key Manager의 클러스터 전체 암호를 입력합니다.</block>
   <block id="68e51e7cb5faf4732838f76bc7db6b45" category="admonition">동기화에 성공하면 추가 메시지 없이 클러스터 프롬프트가 반환됩니다. 동기화가 실패하면 클러스터 프롬프트로 돌아가기 전에 오류 메시지가 나타납니다. 오류가 수정되고 동기화가 성공적으로 실행될 때까지 계속하지 마십시오.</block>
-  <block id="ce4fb0e60bb66e89ea3ad1fd2ff46a30" category="list-text">모든 키가 동기화되었는지 확인합니다<block ref="297f477a8524857592ffedfea06bb8d7" prefix=" " category="inline-code"></block>.</block>
-  <block id="39182fbb28bf0718bee46eab1961e1bd" category="list-text">파트너에서 노드 반환:<block ref="e23a9f1c6189f372292c98d844a0895f" prefix=" " category="inline-code"></block></block>
-  <block id="61942e8f4689a17c71500d84d0b47041" category="list-text">다른 클러스터 노드에서 /cfcard/kMIP/servers.cfg 파일의 복사본 또는 다음 정보:</block>
-  <block id="6b7fb6689b4ff21477eda31338d189ce" category="list-text">_클라이언트 인증서(client.crt) 파일 내용을 입력하십시오. _</block>
-  <block id="4cf3e6ebf1c573912cdf7f61f3baff04" category="list-text">_클라이언트 키(client.key) 파일 내용을 입력합니다. _</block>
-  <block id="8a0822d48c830ac216ea7f9d4db5a9dd" category="list-text">_KMIP 서버 CA(CA.pem) 파일 내용을 입력하십시오. _</block>
-  <block id="fff930cef46bf6cadd68fad5ec20a254" category="list-text">_서버 구성(servers.cfg) 파일 내용을 입력하십시오. _</block>
   <block id="5eadc2e25337518dc852a80577d9cf1e" category="doc">암호화 키 지원 및 상태 확인 - AFF A150</block>
   <block id="0dc57322765c9d58ce88190f1690fcde" category="doc">암호화 키 지원 및 상태 확인 - AFF A1K</block>
   <block id="8bc64411ac44956417615b1424961016" category="paragraph">노드에서 암호화를 복원합니다.</block>
@@ -10507,4 +10440,109 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d431e47bf770a9393ee9f239dc2035b5" category="sidebar">ASA A70 및 ASA A90 I/O 모듈</block>
   <block id="2d5a952fbb91c4ae00f6cf700a7a8912" category="sidebar">ASA A1K 컨트롤러</block>
   <block id="21b2ca1e48faf28d5918cce56ce73345" category="sidebar">ASA A1K 입출력 모듈</block>
+  <block id="de6146d3d2df55568fb2490009341fe7" category="inline-link-macro">FAS 및 AFF 모델의 부팅 장치 복구에 사용되는 서비스 이미지 다운로드 파일에서 EFI 폴더가 누락되었습니다</block>
+  <block id="08bb41e143a5dbcb1f95809650758d5d" category="admonition">서비스 이미지에 EFI 폴더가 없는 경우 을 참조하십시오<block ref="ff41085fda5f8dca9d0e49c279b90ce2" category="inline-link-macro-rx"></block>.</block>
+  <block id="fb187e830be89fc21d44062ee3e0783a" category="list-text">Loader 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅합니다.<block ref="199329b95897fa5b91256fa51b2186ce" prefix=" " category="inline-code"></block></block>
+  <block id="9f4b6474b2791f1e18fb394e0a9d5749" category="list-text">건강한 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준으로 설정합니다<block ref="0581d0d071ad835f74bf419081ce5d75" prefix=" " category="inline-code"></block>.</block>
+  <block id="852fee667b0218d56efb26732593192d" category="inline-link-macro">AFF/FAS 시스템의 라이센스 업데이트를 위한 마더보드 교체 후 프로세스</block>
+  <block id="77464f13a7bfd5b5de3f6d6592b43344" category="admonition">시스템에서 처음에 ONTAP 9.10.1 이상을 실행 중이었다면 에 설명된 절차를 <block ref="396f3a939b9056719487db53e0cdf43e" category="inline-link-macro-rx"></block>사용하십시오. 시스템의 초기 ONTAP 릴리스를 잘 모르는 경우 에서 자세한 내용을 참조하십시오<block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="8137cc3da5d92cb60020874c492d8701" category="list-text">필요에 따라 스토리지 시스템을 재구성합니다.</block>
+  <block id="fc2585bb5dd330e4d87dd2cdbd6c596b" category="admonition">콘솔 케이블이 복구된 컨트롤러 모듈에 연결되어 재부팅 시 콘솔 메시지가 수신되도록 하십시오. 복구된 컨트롤러는 정상 컨트롤러로부터 전원을 공급받으며 섀시에 완전히 장착되는 즉시 재부팅을 시작합니다.</block>
+  <block id="1dbff4f0fe05034cfd08080f90023ca9" category="admonition">컨트롤러가 Loader 프롬프트로 부팅되는 경우 명령을 사용하여 재부팅하십시오.<block ref="ce54ef17bebf280339d340bd40dff593" prefix=" " category="inline-code"></block></block>
+  <block id="c9a687d1939d0b48b69bff3618583e04" category="doc">1단계: 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인합니다</block>
+  <block id="7a98ae061f92b7a841dcacb8930a02c5" category="paragraph">컨트롤러를 안전하게 종료하려면 먼저 EKM(External Key Manager) 또는 OKM(Onboard Key Manager)이 활성 상태인지 확인합니다. 그런 다음 사용 중인 키 관리자를 확인하고, 적절한 키 정보를 표시하고, 인증 키의 상태에 따라 조치를 취합니다.</block>
+  <block id="8dd09587169b8d8db58ece09496b890f" category="cell">이 명령을 실행합니다</block>
+  <block id="d5069b83ec1ddf9e9d88f354e8909059" category="paragraph">ONTAP 9.14.1 이상</block>
+  <block id="196874775b44aa4bd067da099307af94" category="list-text">EKM을 사용하면<block ref="d080cdba04a9e58adbe244b4d170ff25" prefix=" " category="inline-code"></block> 이 명령 출력에 표시됩니다.</block>
+  <block id="de8ced263989be76729e57ef48af2580" category="list-text">키 관리자가 설정되어 있지 않으면<block ref="6f10782c5275dd4037c763904b15d067" prefix=" " category="inline-code"></block> 명령 출력에 이 표시됩니다.</block>
+  <block id="70c9355c5ddc7957399355ec7ad55706" category="paragraph">ONTAP 9.13.1 이하</block>
+  <block id="bf7423b09b1d8268d393de84679df3cb" category="list-text">EKM을 사용하면<block ref="6a21b6995a068148bbb65c8f949b3fb2" prefix=" " category="inline-code"></block> 이 명령 출력에 표시됩니다.</block>
+  <block id="3bdaba759104a48c3a95e5443ba7e5e0" category="list-text">키 관리자가 설정되어 있지 않으면<block ref="119e62c9aa407bc6041ef3db23b93be8" prefix=" " category="inline-code"></block> 명령 출력에 이 표시됩니다.</block>
+  <block id="4867667f589f1bf5a2892fe48a4b93ba" category="list-text">시스템에 키 관리자가 구성되었는지 여부에 따라 다음 옵션 중 하나를 선택합니다.</block>
+  <block id="52aadd496ee1f92c301bdde94ed48b99" category="open-title">키 관리자가 구성되지 않았습니다</block>
+  <block id="3bf4a86005a59ea3cd8643586d04cd78" category="open-title">외부 또는 Onboard Key Manager가 구성되었습니다</block>
+  <block id="64d036deb4b248416ccf87deceafe674" category="list-text">다음 query 명령을 입력하여 키 관리자에 인증 키의 상태를 표시합니다.</block>
+  <block id="22f8cc1607d6f80a2aa89016db8a184d" category="list-text">시스템에서 External Key Manager를 사용하는지 Onboard Key Manager를 사용하는지 여부에 따라 다음 옵션 중 하나를 선택합니다.</block>
+  <block id="7f6aa2eddb31d7d07b49d6c308057b6a" category="open-title">외부 키 관리자</block>
+  <block id="710588d994062c1accbe164eb56effb3" category="list-text">명령을 입력하여 열에<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 모든 인증 키가 <block ref="c9b37f9017fc101cecef415e707e7b5f" prefix=" " category="inline-code"></block>표시되는지 확인합니다<block ref="5fdf564f22be6bd901a690f1c5a6d9eb" prefix=" " category="inline-code"></block>.</block>
+  <block id="a32dd2ca79d8d8a0056821cb37fed7f4" category="open-title">Onboard Key Manager(온보드 키 관리자</block>
+  <block id="9b9655d38c65764bacf8c0b8b4afb853" category="doc">옵션 1: Onboard Key Manager 구성을 복원합니다</block>
+  <block id="7e6403e728a2ec69c3089e7bc3236779" category="paragraph">부팅 미디어 교체 절차의 시작 부분에 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.</block>
+  <block id="be88b9d7f41515efb1dc3a6709cef2ab" category="paragraph">시스템에 구성된 키 관리자에 따라 다음 옵션 중 하나를 선택하여 부팅 메뉴에서 복원합니다.</block>
+  <block id="206a7e535a6da65b30f0a9fac61abc1c" category="list-text"><block ref="206a7e535a6da65b30f0a9fac61abc1c" category="inline-link-macro-rx"></block></block>
+  <block id="9969c9b9ffd1f5e74ee3793724d1c3ee" category="inline-link-macro">옵션 2: 외부 키 관리자 구성을 복원합니다</block>
+  <block id="68a33ad2037a014f19d73eff657236ff" category="list-text"><block ref="68a33ad2037a014f19d73eff657236ff" category="inline-link-macro-rx"></block></block>
+  <block id="959b1843f7153b31ca9e5042d5534f8c" category="paragraph">ONTAP 부팅 메뉴에서 Onboard Key Manager(OKM) 구성을 복원합니다.</block>
+  <block id="8f697727fea4250d67048e2138fdfe91" category="list-text">OKM 구성을 복원하는 동안 다음 정보가 있는지 확인하십시오.</block>
+  <block id="c7c0fa0163df4e41253409458437d32b" category="list-text">ONTAP 부팅 메뉴의 부팅 메뉴에서 적절한 옵션을 선택합니다.</block>
+  <block id="d94292453b69f94bbc4d0bef7005d22f" category="cell">이 옵션을 선택합니다</block>
+  <block id="c6cd4470ed1711bc2e8d8495a077a331" category="paragraph">옵션 10 을 선택합니다.</block>
+  <block id="5aae59241c50fe780033cb1d5baf9473" category="example-title">부팅 메뉴의 예를 표시합니다</block>
+  <block id="5a830b76ff5a71db59759b13f383410c" category="paragraph">ONTAP 9.7 이하</block>
+  <block id="f3f3dc4442f797fb778f168eb6675243" category="paragraph">숨겨진 옵션을 선택합니다<block ref="7191584fa52473c1df15d3c03b065c0b" prefix=" " category="inline-code"></block></block>
+  <block id="2872bac3bb8e962ddbf71990facbbad1" category="list-text">복구 프로세스를 계속 진행할지 확인합니다.</block>
+  <block id="8c93e57015aff70c970b23d7de65c653" category="example-title">예제 프롬프트를 표시합니다</block>
+  <block id="e314c9fb053c84dcecbf01a9551cdbba" category="paragraph"><block ref="9c14d4f8d14519ea4ded790c9f9cd146" prefix="" category="inline-code"></block></block>
+  <block id="ec8983024a1dd9d86d8993145c0634a2" category="list-text">백업 정보를 입력합니다.</block>
+  <block id="488b5fa5584634f2b60d1dede7597561" category="list-text">시작 백업 라인의 전체 컨텐츠를 백업 종료 라인을 통해 붙여 넣습니다.</block>
+  <block id="22533ece7a970e82cf7bf3234ae433b9" category="paragraph">복구 프로세스가 완료됩니다.</block>
+  <block id="56a002b10eeb1f0bd392165e1ce5d75e" category="list-text">컨트롤러의 콘솔에 다음 메시지가 표시되는지 확인합니다.</block>
+  <block id="0825b93c2d111f930b63d2cd3e2d04ef" category="paragraph"><block ref="22714968f3c097ea3249c9d4b9e8119f" prefix="" category="inline-code"></block></block>
+  <block id="3f6182c959954ae64a1f0a7915a90752" category="list-text">파트너 노드에서 다음 명령을 입력하여 파트너 컨트롤러를 반환하십시오.</block>
+  <block id="d13607256d488794948c0a4e6b5b5273" category="paragraph"><block ref="291b31306c2e0668f091d41edca7e97f" prefix="" category="inline-code"></block>..</block>
+  <block id="63faa4ccd80cd6495683040b69af8206" category="list-text">CFO 애그리게이트만 부팅한 후 다음 명령을 실행합니다.</block>
+  <block id="83b41e54088cea42afe1d3b83e81ef91" category="list-text">다음 명령을 입력하여 모든 키가 동기화되었는지 확인합니다.</block>
+  <block id="a1f1cac1fa107bdba40f9cbe641925e7" category="paragraph"><block ref="297f477a8524857592ffedfea06bb8d7" prefix="" category="inline-code"></block>..</block>
+  <block id="f0069062031757b5fc9b9b11649dfe8f" category="list-text">다음 명령을 입력하여 파트너의 노드를 반환합니다.</block>
+  <block id="d2dafc284c7314e818c45df3a8758637" category="paragraph"><block ref="e23a9f1c6189f372292c98d844a0895f" prefix="" category="inline-code"></block></block>
+  <block id="670813ebc2cd52c023ff4cd4ada7a627" category="list-text">사용하지 않도록 설정한 경우 다음 명령을 입력하여 자동 반환을 복원합니다.</block>
+  <block id="50273ef55b3a53bf30771dd1ef5f8b5f" category="list-text">AutoSupport가 활성화된 경우 다음 명령을 입력하여 자동 케이스 생성을 복원합니다.</block>
+  <block id="824a761c1584c25f025a384b7b387c56" category="paragraph"><block ref="9ac424c0d7b432975df36a19daf50c9c" prefix="" category="inline-code"></block></block>
+  <block id="02f6f43349cf003c6dd944a923f4ce06" category="paragraph">ONTAP 부팅 메뉴에서 외부 키 관리자 구성을 복원합니다.</block>
+  <block id="9b5c6b418b2bc4f063803a9b7739bb1d" category="paragraph">EKM(External Key Manager) 구성을 복원하려면 다음 정보가 필요합니다.</block>
+  <block id="2b48a2afe7987203a2b1e9de1f031374" category="list-text">다른 클러스터 노드에서 /cfcard/kMIP/servers.cfg 파일의 복사본 또는 다음 정보:</block>
+  <block id="482d3df52d0525a7489378dac2f01ff9" category="list-text">다른 클러스터 노드 또는 클라이언트 인증서의 파일 복사본입니다.<block ref="d606236dedb6ed649b29651c1ec53a99" prefix=" " category="inline-code"></block></block>
+  <block id="97caf745f0852f09d6e00ee59a8529bb" category="list-text">다른 클러스터 노드 또는 클라이언트 키의 파일 복사본입니다.<block ref="ccb442c2c2cc4367a087cfc7cd3b4876" prefix=" " category="inline-code"></block></block>
+  <block id="18c2b9b14349e289338452c8eeaa5868" category="list-text">다른 클러스터 노드 또는 KMIP 서버 CA의 파일 복사본입니다.<block ref="443acc94def30bc037fb2dacac4fb7d3" prefix=" " category="inline-code"></block></block>
+  <block id="3addeb39344804a6c77f096b5c3fe2fc" category="list-text">ONTAP 부팅 메뉴에서 옵션 11 을 선택합니다.</block>
+  <block id="962741d9207d007a86d85dd741057111" category="list-text">메시지가 표시되면 필요한 정보를 수집했는지 확인합니다.</block>
+  <block id="8fbd4854fd031dc0c47635c899b74c12" category="list-text">메시지가 표시되면 클라이언트 및 서버 정보를 입력합니다.</block>
+  <block id="b1a80a7089afd7d3b9be5936d7cc2c4b" category="example-title">프롬프트를 표시합니다</block>
+  <block id="6015ee0c3c4dbc37f534783a65239e72" category="example-title">예제 보기</block>
+  <block id="6758e112526dd1470fdafbd89c3b25df" category="paragraph">클라이언트 및 서버 정보를 입력하면 복구 프로세스가 완료됩니다.</block>
+  <block id="5c333c9d5086ee50b7f10724d1f9dc2b" category="paragraph">A|ONTAP 9 .7 및 이전 A|숨김 옵션을 선택합니다<block ref="7191584fa52473c1df15d3c03b065c0b" prefix=" " category="inline-code"></block></block>
+  <block id="d9b80a753e6bd9c6b770fc295f295dc3" category="cell">+. 복구 프로세스를 계속 진행할지 확인합니다. +. 예제 프롬프트 표시 [%축소 가능]</block>
+  <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">를 누릅니다</block>
+  <block id="68ce5ec1e3f9c353c053b6feafae61f1" category="paragraph">+ 경고: 표시된 출력이 이외의 경우 진행하지<block ref="3f52dc951949a3041638d54635d71099" prefix=" " category="inline-code"></block> 마십시오. 문제 해결을 수행하여 오류를 수정합니다.</block>
+  <block id="1544c9897deafcbdffc044dac2f06610" category="list-text">컨트롤러의 콘솔에 다음이 표시되는지 확인합니다.</block>
+  <block id="1ebe17e50ef0f20c9a4943cdde00f20b" category="list-text">파트너 노드에서 파트너 컨트롤러를 반환하십시오.</block>
+  <block id="24de39ef6b972a13ee81c8f1e764261f" category="list-text">CFO 애그리게이트만 부팅한 후 다음 명령을 실행합니다.</block>
+  <block id="a26071b84ebad6f3f9f4f6902bd06efe" category="paragraph"><block ref="1fd11ad9c6fc9e17e9729cd939a2b47b" prefix="" category="inline-code"></block> 명령.</block>
+  <block id="93c58e434dc7b5eb5c16678bb00205d0" category="paragraph">+ 참고: 동기화가 성공하면 추가 메시지 없이 클러스터 프롬프트가 반환됩니다. 동기화가 실패하면 클러스터 프롬프트로 돌아가기 전에 오류 메시지가 나타납니다. 오류가 수정되고 동기화가 성공적으로 실행될 때까지 계속하지 마십시오.</block>
+  <block id="85ea8ad93708cbd62f01b1e93c22f93c" category="list-text">모든 키가 동기화되었는지 확인합니다.</block>
+  <block id="e4cab1326503c7b85827bb20b6ecc371" category="list-text">파트너에서 노드를 반환:</block>
+  <block id="8c262ff4c019499a1809393e7aaf9ec1" category="list-text">사용하지 않도록 설정한 경우 다음 명령을 입력하여 자동 반환을 복원합니다.</block>
+  <block id="b0a8481877486fd3aa85b04b4ae588ea" category="list-text">AutoSupport가 활성화된 경우 다음 명령을 입력하여 자동 케이스 생성을 복원합니다.</block>
+  <block id="98605073c3b6ddfa49164a951555a334" category="paragraph">ONATP 부팅 메뉴에서 외부 키 관리자 구성을 복원합니다.</block>
+  <block id="44175671016a3c55aa9144d7352ab920" category="list-text">다른 클러스터 노드 또는 클라이언트 인증서에서 /cfcard/kMIP/certs/client.crt 파일의 복사본입니다.</block>
+  <block id="d424dce62a7b2ea39afe29d8361240e7" category="list-text">다른 클러스터 노드 또는 클라이언트 키에서 /cfcard/kMIP/certs/client.key 파일의 복사본입니다.</block>
+  <block id="b8dd2898e8ee20a6f6cb34867845aa17" category="list-text">다른 클러스터 노드 또는 KMIP 서버 CA의 /cfcard/kMIP/certs/CA.pem 파일 사본.</block>
+  <block id="7ae600ed46c79416b9301ce3a1377c21" category="paragraph">+. 예제를 표시합니다</block>
+  <block id="16080a7eee840ac3e377c36a8da5fb6f" category="paragraph">시스템에서 외부 키 관리자를 사용할 준비가 되었습니다. 키 서버에서 키를 복구하는 중 [Aug 29 21:06:28]: 0x808806100:0:debug:kmip2::main: [initOpenssl]:460: OpenSSL 초기화를 수행하면 키 관리자 암호가 복구되었습니다.</block>
+  <block id="f9797a252c2780e96d414a71cd6ecf04" category="list-text">복구 프로세스를 완료하려면 "(1) Normal Boot.(정상 부팅)" 옵션을 선택합니다. *</block>
+  <block id="285251407570005df5c8fe081a777f29" category="paragraph">(1) 정상 부팅. (2) /etc/rc 없이 부팅합니다. (3) 암호를 변경합니다. (4) 구성을 정리하고 모든 디스크를 초기화합니다. (5) 유지 관리 모드 부팅. (6) 백업 구성에서 플래시를 업데이트합니다. (7) 먼저 새 소프트웨어를 설치합니다. (8) 노드를 재부팅합니다. (9) 고급 드라이브 파티셔닝 구성 (10) Onboard Key Manager 복구 암호를 설정합니다. (11) 외부 키 관리를 위해 노드를 구성합니다. 선택(1-11)? 1</block>
+  <block id="5943dcc79f4be51c7946faa01081c8c7" category="admonition">시스템에서 처음에 ONTAP 9.10.1 이상을 실행 중이었다면 에 설명된 절차를 <block ref="b14f44ab326196475bf1d94f7e3821ad" category="inline-link-rx"></block>사용하십시오. 시스템의 초기 ONTAP 릴리스를 잘 모르는 경우 에서 자세한 내용을 참조하십시오<block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="6379280c267113ec35e5881e1b0f65bb" category="paragraph">각 쉘프는 고유한 쉘프 ID로 구분됩니다. 이 ID는 쉘프가 스토리지 시스템 설정 내에서 구분되도록 합니다.</block>
+  <block id="937eeb311ae4c7f36059ec45705ae05b" category="list-text">유효한 외부 쉘프 ID는 01~99입니다.</block>
+  <block id="ce4b2f7741d87ac6c37e8727ca9ad20a" category="paragraph">컨트롤러 내에 통합된 내부 쉘프(스토리지)가 있는 경우 고정 쉘프 ID 00이 할당됩니다.</block>
+  <block id="9944ff6c526e81f7d9ce060adc105e86" category="list-text">쉘프 ID 버튼을 눌렀다가 놓으면 0에서 9까지, 시스템에 온보드 스토리지가 있는 경우 1에서 9까지 원하는 번호에 도달할 때까지 번호가 앞으로 이동합니다.</block>
+  <block id="52f79b2833c42027e63e45681585067e" category="example-title">대신 이러한 메시지가 표시될 수 있습니다</block>
+  <block id="e65e1ac152dcb95552c1c1f62ceaf393" category="paragraph"><block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix="" category="inline-code"></block> 명령.</block>
+  <block id="85ef91c4d71faa53c83efc7222148253" category="video-title">NS224 쉘프 부팅 미디어를 교체합니다</block>
+  <block id="bed8800ffb3dfb17d15fabcbf21305be" category="video-title">NS224 쉘프의 DIMM을 교체합니다</block>
+  <block id="d0a4089478fc848fcc714a17114651e5" category="video-title">NS224 쉘프에서 드라이브를 핫 스왑</block>
+  <block id="adf9a21a79092388f61e544af11cd756" category="video-title">NS224 쉘프의 팬을 교체합니다</block>
+  <block id="f8798e73b2d5e1dfd7612b46ff0e89e2" category="video-title">NS224 쉘프의 NSM 모듈을 교체합니다</block>
+  <block id="ed5f0b1fadc9d155c332ddd3a2c8910b" category="video-title">NS224 쉘프의 전원 공급 장치를 핫 스왑</block>
+  <block id="4dc161fec1e803228a4a6e64a87cc800" category="video-title">NS224 쉘프의 RTC 배터리를 교체합니다</block>
 </blocks>

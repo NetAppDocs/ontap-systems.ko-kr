@@ -4,7 +4,7 @@
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
 
-. LOADER 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅하십시오: "boot_recovery"
+. Loader 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅합니다. `boot_recovery <image_name>`
 +
 이미지는 USB 플래시 드라이브에서 다운로드됩니다.
 
@@ -21,7 +21,7 @@ ONTAP 9.16.0 이하
  a| 
 .. 손상된 컨트롤러에서 가 표시되면 _Y_를 누릅니다 `Do you want to restore the backup configuration now?`
 .. 손상된 컨트롤러에서 덮어쓸지 묻는 메시지가 나타나면 _Y_를 `/etc/ssh/ssh_host_ecdsa_key`누릅니다.
-.. 건강한 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준으로 설정합니다 `set -privilege admin`.
+.. 건강한 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준으로 설정합니다 `set -privilege advanced`.
 .. 정상 상태의 파트너 컨트롤러에서 복원 백업 명령을 실행합니다. `system node restore-backup -node local -target-address impaired_node_IP_address`
 +
 *참고:* 복원에 성공하지 않은 메시지가 표시되면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].

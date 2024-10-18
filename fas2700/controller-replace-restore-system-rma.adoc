@@ -27,6 +27,9 @@ summary: '시스템을 전체 작업으로 복원하려면 NetApp 스토리지 �
 
 라이센스 키를 설치할 수 있는 90일의 유예 기간이 있습니다. 유예 기간이 지나면 모든 이전 라이센스가 무효화됩니다. 유효한 라이센스 키를 설치한 후 유예 기간이 끝나기 전에 모든 키를 24시간 동안 설치해야 합니다.
 
+
+NOTE: 시스템에서 처음에 ONTAP 9.10.1 이상을 실행 중이었다면 에 설명된 절차를  https://kb.netapp.com/on-prem/ontap/OHW/OHW-KBs/Post_Motherboard_Replacement_Process_to_update_Licensing_on_a_AFF_FAS_system#Internal_Notes^["AFF/FAS 시스템의 라이센스 업데이트를 위한 마더보드 교체 후 프로세스"]사용하십시오. 시스템의 초기 ONTAP 릴리스를 잘 모르는 경우 에서 자세한 내용을 참조하십시오link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^].
+
 .단계
 . 새 라이센스 키가 필요한 경우 에서 교체용 라이센스 키를 받으십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp Support 사이트"] My Support(내 지원) 섹션에서 Software licenses(소프트웨어 라이센스) 를 선택합니다.
 +

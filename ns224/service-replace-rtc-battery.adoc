@@ -53,7 +53,8 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["NetApp
 
 * 다음 애니메이션 또는 기록된 단계를 사용하여 RTC 배터리를 교체할 수 있습니다.
 +
-video::df7a12f4-8554-4448-a3df-aa86002f2de8[Animation,width=Replace an RTC battery in an NS224 shelf"]
+.NS224 쉘프의 RTC 배터리를 교체합니다
+video::df7a12f4-8554-4448-a3df-aa86002f2de8[panopto]
 
 
 .단계
