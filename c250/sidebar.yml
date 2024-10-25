@@ -23,7 +23,7 @@ entries:
     entries:
     - title: 개요
       url: "/c250/bootmedia-replace-overview.html"
-    - title: 온보드 암호화 키를 확인합니다
+    - title: 암호화 키를 확인합니다
       url: "/c250/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/c250/bootmedia-shutdown.html"
@@ -31,7 +31,7 @@ entries:
       url: "/c250/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/c250/bootmedia-recovery-image-boot-non-2n-mcc.html"
-    - title: OKM, NSE 및 NVE를 복원합니다
+    - title: 암호화를 복원합니다
       url: "/c250/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/c250/bootmedia-complete-rma.html"

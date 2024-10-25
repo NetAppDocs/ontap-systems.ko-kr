@@ -31,7 +31,7 @@ entries:
       url: "/a320/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/a320/bootmedia-recovery-image-boot-non-2n-mcc.html"
-    - title: OKM, NSE 및 NVE를 복원합니다
+    - title: 암호화를 복원합니다
       url: "/a320/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/a320/bootmedia-complete-rma.html"

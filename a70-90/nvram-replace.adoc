@@ -195,6 +195,9 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 NOTE: 컨트롤러가 섀시에 완전히 장착되는 즉시 재부팅됩니다.
 
 . 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+. 손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다 `storage failover giveback -ofnode _impaired_node_name_`.
+. 자동 반환이 비활성화되어 있는 경우, 다음과 같이 다시 활성화하십시오 `storage failover modify -node local -auto-giveback true`.
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 
@@ -269,6 +272,9 @@ NOTE: NVRAM 모듈 측면에 있는 FRU 맵 레이블을 참조하여 DIMM 슬�
 NOTE: 컨트롤러가 섀시에 완전히 장착되는 즉시 재부팅됩니다.
 
 . 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+. 손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다 `storage failover giveback -ofnode _impaired_node_name_`.
+. 자동 반환이 비활성화되어 있는 경우, 다음과 같이 다시 활성화하십시오 `storage failover modify -node local -auto-giveback true`.
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 
@@ -370,8 +376,9 @@ dr-group-id            cluster node           configuration-state
 ----
 . 각 컨트롤러에 대해 예상되는 볼륨이 'vol show-node-name'인지 확인합니다
 . 스토리지 암호화가 활성화된 경우 기능을 복원해야 합니다.
-. 재부팅 시 자동 테이크오버 기능을 비활성화한 경우 다음 정상 컨트롤러에서 활성화하십시오. _storage failover modify -node replacement -node -name -onreboot true _
-. AutoSupport가 설정된 경우 명령을 사용하여 자동 케이스 생성을 복원/억제 `system node autosupport invoke -node * -type all -message MAINT=END` 해제합니다.
+. 손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다 `storage failover giveback -ofnode _impaired_node_name_`.
+. 자동 반환이 비활성화되어 있는 경우, 다음과 같이 다시 활성화하십시오 `storage failover modify -node local -auto-giveback true`.
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 

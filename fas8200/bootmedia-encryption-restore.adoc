@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: fas8200, post boot media replacement steps for okm, nse, and nve 
 summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
 ---
-= 필요에 따라 OKM, NSE 및 NVE를 복원합니다 - FAS8200
+= 암호화 복원 - FAS8200
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+교체 부팅 미디어에서 암호화를 복원합니다.
+
 부팅 미디어 교체 절차의 시작 부분에 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.
 
 시스템에 구성된 키 관리자에 따라 다음 옵션 중 하나를 선택하여 부팅 메뉴에서 복원합니다.
