@@ -207,4 +207,16 @@ LOADER-B>
 
 
 . 노드를 재부팅할 때 시스템이 다시 온라인 상태이고 작동 중인지 확인하여 부팅 미디어 복구가 성공적인지 확인합니다.
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+`storage failover giveback -ofnode _impaired_node_name_`..
+
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
++
+`storage failover modify -node local -auto-giveback true`..
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`..
+
 

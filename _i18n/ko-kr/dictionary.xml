@@ -5365,7 +5365,6 @@
   <block id="16e515f4f7ddf43ca6fc5f5321a960e5" category="list-text">IOM12/IOM12B 모듈이 포함된 디스크 쉘프를 기존 스택(IOM12/IOM12B 모듈이 있는 디스크 쉘프)에 핫 애드하는 경우, 스택의 논리 첫 번째 또는 마지막 디스크 쉘프에 디스크 쉘프를 추가할 수 있습니다.</block>
   <block id="4a6c06310d2bcd1c9758407cb59a423d" category="list-text">IOM12/IOM12B 모듈이 포함된 디스크 쉘프는 자체 고유 스택에 있어야 하며, IOM6 모듈 또는 IOM3 모듈이 포함된 쉘프가 있는 스택에 추가할 수 없습니다.</block>
   <block id="5b07090bafdc58182b6f01852ecbad05" category="summary">워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈이 포함된 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다.</block>
-  <block id="5d57c73dbe661f28ff4ab36825900d40" category="doc">IOM1/IOM12B2 모듈을 사용하는 4중 경로 연결 쉘프용 컨트롤러-스택 케이블링 워크시트 템플릿</block>
   <block id="51432cf63c198a0a11bab993299ae7fd" category="paragraph">워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.</block>
   <block id="b6e864fc7eab4fd6206badf96144db05" category="list-text">회색 상자 위의 상자에 시스템의 모든 SAS A 포트 및 시스템의 모든 SAS C 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.</block>
   <block id="e50ad77c16b4b45855a35ff91f7ad9a6" category="list-text">회색 상자에 시스템의 모든 SAS B 포트 및 시스템의 모든 SAS D 포트를 슬롯(0, 1, 2, 3 등)의 순서로 나열합니다.</block>
@@ -6696,7 +6695,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cfad0a7419f44ea0c64db24197abbf70" category="paragraph">깜박임</block>
   <block id="6b6aa0b6d9b620cfef1de19db2c781e5" category="paragraph">AC 또는 DC 전원 공급 장치(PSU)의 LED는 PSU가 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.</block>
   <block id="ddf6d4204e991f952d5f65cedae767ce" category="paragraph">다음 그림 및 표에서는 PSU의 LED에 대해 설명합니다. (그림은 AC PSU입니다. 하지만 DC PSU의 LED 위치는 동일합니다.)</block>
-  <block id="7609b319dac3aca8b9d7c805388fc5e6" category="paragraph">2색 LED는 녹색이 되면 전원/작동을 나타내고 주황색이 되면 장애를 나타냅니다.</block>
   <block id="0cb6b469a5da43eb5225c25fab0b5ff0" category="cell">전원/작동(녹색)</block>
   <block id="cd5f6c10b859eea6eaed71a2e494c0db" category="paragraph">케이스에 AC/DC 전원이 공급되지 않습니다</block>
   <block id="aade40c62d1308360c2f119536da1c63" category="paragraph">PSU에 AC/DC 전원이 공급되지 않습니다</block>
@@ -9290,35 +9288,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cf91b43675e7187d6e724e7c312e336a" category="list-text">캠 래치를 최대한 모듈에서 멀리 돌립니다.</block>
   <block id="f5c1d99a4f032f30d087e32fbbbdb994" category="paragraph">컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다. - 손상된 컨트롤러를 종료하려면 컨트롤러의 상태를 확인하고 필요한 경우 컨트롤러를 인계받아 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 해야 합니다.</block>
   <block id="5050dae1093a80a257a1d121ca5f3b0f" category="section-title">4단계: 컨트롤러 상태를 확인합니다</block>
-  <block id="dbc253985631ee33fc6976832d319aa9" category="list-text">Loader 프롬프트에서 _boot_recovery -partner_ 명령을 입력합니다.</block>
-  <block id="9071774e0d4e739ca2fe57b55c805c89" category="paragraph">화면에 메시지가<block ref="a42d5407fe60b5716cd9fdd4d4063f27" prefix=" " category="inline-code"></block> 표시되고 부팅 복구 파일의 초기 확인 및 설치가 시작됩니다.</block>
-  <block id="c3fcf34a186ddf28b42002ccdea5bb89" category="list-text">EKM(External Key Manager)이 구성된 경우 다음과 같은 메시지가 표시됩니다.</block>
-  <block id="e41b0fa291ba7a2f8d02db37d829dfe6" category="list-text">키 관리자가 구성된 경우 _y_를 입력합니다.</block>
-  <block id="8652886cdac2e198b58233db3fe44eb6" category="paragraph">Bootmenu 옵션 11은 구성 파일을 재구축할 수 있도록 모든 EKM 구성 정보를 사용자에게 표시합니다.</block>
-  <block id="3fd9d3baae5e410a98ba4eb52a03ab26" category="list-text">각 프롬프트에서 EKM 구성을 입력합니다.</block>
-  <block id="4cbdd1cac9566795166b3d9206cbcf86" category="paragraph">* 참고: * 이 정보는 대부분 EKM이 처음 활성화되었을 때 입력되었습니다. 초기 EKM 구성 시 입력한 것과 동일한 정보를 입력해야 합니다.</block>
-  <block id="b5a73f8c93bdb89882d1ca9e462b0e2a" category="list-text"><block ref="1cc9af734f039af6fc9db1cd2f09ad05" prefix=" " category="inline-code"></block>및 가 올바른지<block ref="878efc5de6def52e25be6f622fb5a7ee" prefix=" " category="inline-code"></block> 확인합니다.</block>
-  <block id="5fb974d016811ca21ebd195d4c257e8e" category="list-text">파트너 노드에서 <block ref="73bad5beeda4a2a6bd01d97def1d4e67" prefix=" " category="inline-code"></block>명령을 사용하여 클러스터 UUID를 검색합니다.</block>
-  <block id="923bf1a61097d8e90a02dbe1a7df32ad" category="list-text">파트너 노드에서<block ref="2f710df81fb8b58c1792ebb010c82902" prefix=" " category="inline-code"></block> 명령과<block ref="f2892b1a90652446a2c8a2dce1d42eee" prefix=" " category="inline-code"></block> 명령을 사용하여 Keystore UUID를 검색합니다.</block>
   <block id="6d194eccb9cd88bfbcde1df65103cbb4" category="list-text">메시지가 표시되면 Keystore UUID 및 클러스터 UUID 값을 입력합니다.</block>
-  <block id="dc96ebaefbca0b39bdff8d2d09a5fc61" category="paragraph">*참고:* 파트너 노드를 사용할 수 없는 경우, 키 저장소 UUID 및 클러스터 UUID는 구성된 키 서버에 있는 Mroot-AK 키에서 얻을 수 있습니다.</block>
-  <block id="a1af56a72048fea6d9e9cfde4d42ba60" category="paragraph"><block ref="b8bbecc4d00a5d5b7dc368313818ee3e" prefix=" " category="inline-code"></block>클러스터 UUID 및<block ref="8a298935cfa9f81db49083081a35f190" prefix=" " category="inline-code"></block> Keystore UUID 속성에 대한 를 확인하여 올바른 키가 있는지 확인합니다.</block>
-  <block id="d887305d2b2206bc86e35b35a47e130f" category="list-text">키가 제대로 복원되면 복구 프로세스가 계속되고 노드를 재부팅합니다.</block>
-  <block id="e4b7511a00ba0effd6c938bde56c85b1" category="paragraph">화면에 메시지가<block ref="a42d5407fe60b5716cd9fdd4d4063f27" prefix=" " category="inline-code"></block> 표시되고 초기 점검이 시작됩니다.</block>
-  <block id="d1de7a2b347063926ee7045aa2c0d40f" category="list-text">Loader가 로컬 클러스터 포트를 구성하고 를 통해 Netboot를 실행함에 따라 프로세스를<block ref="41e7db54f2498671a212595a5bc3f9c4" prefix=" " category="inline-code"></block> 모니터링합니다.</block>
-  <block id="7d7167e676e301c377a23cf821f58e87" category="paragraph">Netboot가 실행되면<block ref="78a0f5e144f919e879f7037c4f29865c" prefix=" " category="inline-code"></block> 이 화면에 표시되고 설치 프로세스가 완료됩니다.</block>
-  <block id="e9bdba49a952b52d8fc36e6ae32295bf" category="list-text">키 관리자가 구성되지 않은 경우 다음 메시지가 표시됩니다.</block>
-  <block id="233309cf2a420789e8fcc1627010277c" category="list-text">다음 메시지가 표시되면 Onboard Key Manager(OKM)가 구성된 것입니다.</block>
-  <block id="0062654a58ca10b6a4b1ffce37755e67" category="paragraph">로 이동하여 복구 프로세스를 완료합니다.</block>
-  <block id="e6424e7ff2e258bc2ce037ee38b77931" category="list-text">다음 메시지가 표시되면 EKM(External Key Manager)이 구성된 것입니다. EKM 항목으로 이동하여 복구 프로세스를 완료합니다.</block>
-  <block id="b5b024aba6aeeef11aba1df77e7bc935" category="list-text">BMR 프로세스를 모니터링하면 파트너가 백업 구성, env 파일, MDB 및 RDB를 복구할 수 있습니다.</block>
-  <block id="1fd38840c77d72c3a907f5a961467b12" category="list-text">노드가 재부팅되고 BMR이 완료된 것은 다음과 같습니다.</block>
-  <block id="76e65f6de5f0ef338defad156e9302d6" category="list-text">Onboard Key Manager(OKM)가 구성된 경우 다음과 같은 메시지가 표시됩니다.</block>
-  <block id="16881782fee9167d362ad031a7bd4efa" category="list-text">프롬프트에 _y_를 입력합니다.</block>
-  <block id="efdeb95716fc588d0e0896e9945962d6" category="list-text">가 표시되면 온보드 키 관리자에 대한 암호를 입력합니다<block ref="2b673e138bf62e9f201d2fe3f4e48e85" prefix=" " category="inline-code"></block></block>
-  <block id="d1da2db4d465ceb969bae13f9a2c1665" category="list-text">암호를 확인하는 메시지가 표시되면 온보드 키 관리자에 대한 암호를 다시 입력합니다.</block>
-  <block id="d6b5f802b07df1179c13649ed53524f0" category="paragraph">복구 프로세스가 완료되면 다음 메시지가 표시됩니다.</block>
-  <block id="c6980bbd79483c6809cc84795b7d14d6" category="paragraph">복원이 완료되면 노드가 재부팅되어 프로세스가 완료됩니다.</block>
   <block id="417968dd9c410e2ebdf82236e2a6f1d8" category="doc">1단계: 스토리지 컨트롤러를 네트워크에 연결합니다</block>
   <block id="c0b05ac617b77a5c10f26756e6ef04f2" category="list-text">광 스위치에 연결하는 경우 포트에 케이블을 연결하기 전에 SFP(Small Form-Factor Pluggable) 트랜시버를 컨트롤러 포트에 삽입합니다.</block>
   <block id="1463138ead0bd5def70e2d744eddfc0a" category="paragraph">컨트롤러를 서로 또는 호스트 네트워크에 직접 연결합니다.</block>
@@ -9898,7 +9868,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6aa2bbbbcd863a688ecea951a078cc57" category="sidebar">FlashCache 모듈</block>
   <block id="9d6e68abc86ef52726565c7e52c9dea7" category="image-alt">시스템 일련 번호의 예</block>
   <block id="acaf98d7d873f9a7ee774034dc1440fc" category="image-alt">AFF A90 및 AFF A70 무게 주의 아이콘</block>
-  <block id="edd9ce1e4d9cc655a3b0e8c6c36049db" category="paragraph">부팅 미디어 이미지를 복원합니다.</block>
   <block id="54425f945644281ccaf6201b998f169f" category="paragraph"><block ref="54425f945644281ccaf6201b998f169f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e41a410f85201d7cc87e022e1f2daf34" category="paragraph">랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 설정 및 구성을 완료할 수 있습니다.</block>
   <block id="637d6f599c1184d1c5de273700d7924f" category="list-text">콘솔 케이블을 랩톱에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 시리얼 콘솔 포트를 연결합니다.</block>
@@ -10055,7 +10024,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cd5ec5f3586869573f3f0b3112426052" category="sidebar">TR-4290 - NFS가 포함된 NetApp FAS 시스템 기반 SAP HANA</block>
   <block id="1e4893fc6c634f02ace3ba7beb78d669" category="inline-link-macro">쿼럼 상태입니다</block>
   <block id="8df1727c16aa446d0622abe8cab177ae" category="list-text">SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지를 확인해야 <block ref="090678c8ba0a25df800d3d4eeaf19522" prefix="(" category="inline-code"></block>합니다. priv advanced 모드에서 명령을 실행하면<block ref="090678c8ba0a25df800d3d4eeaf19522" prefix=" " category="inline-code"></block> 해당 노드의 노드 이름<block ref="8650efa63daff32c831511388978454c" category="inline-link-macro-rx"></block>, 해당 노드의 가용성 상태 및 해당 노드의 작동 상태가 표시됩니다.</block>
-  <block id="35f2b79f2ef05c6cbaae401c14dbe36d" category="list-text">건강한 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준으로 설정합니다<block ref="0a654c13d63710f829bc02c4cbec79ee" prefix=" " category="inline-code"></block>.</block>
   <block id="8ad44b8e0ede0abb18fd1d9732ea1fec" category="list-text">정상 상태의 파트너 컨트롤러에서 복원 백업 명령을 실행합니다.<block ref="44d388b27236c791c5fe1d30cc29bc43" prefix=" " category="inline-code"></block></block>
   <block id="3fef721e9c365db9acdcf0c6462afc1d" category="list-text">정상적인 파트너 컨트롤러에서 손상된 컨트롤러를 관리자 수준으로 되돌립니다<block ref="0a654c13d63710f829bc02c4cbec79ee" prefix=" " category="inline-code"></block>.</block>
   <block id="eb907bd5c32aa1799bf0e27e04819907" category="list-text">시스템에서 encyption을 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고 그렇지 않으면 로 이동합니다. <block ref="9946ce0c7c3feb5cc0b8738324cc4807" category="inline-link-macro-rx"></block></block>
@@ -10331,4 +10299,18 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3d7237c5aa2d20431d9cae1d4abbadb9" category="doc">암호화 복원 - FAS9000</block>
   <block id="13e7cf07309f0d95eee5aa49b6842dc0" category="doc">암호화 키 지원 및 상태 확인 - FAS9500</block>
   <block id="e4d9374bc79ce9095fb021e03551599f" category="doc">암호화 복원 - FAS9500</block>
+  <block id="bd5c047c4a41e95a8a9424888875e56a" category="list-text">지정된 장치에 입출력 모듈을 케이블로 연결합니다.</block>
+  <block id="2d8241a8fe54414b6494b29d26d8b251" category="list-text">정상 작동이 확인된 노드에서 명령을 사용하여 자동 반환을 비활성화한 경우<block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix=" " category="inline-code"></block> 복원합니다.</block>
+  <block id="9d462bd05672844aeab0d3d5d323d66a" category="list-text">컨트롤러를 다시 설치하고 컨트롤러 모듈에 전원을 다시 연결합니다.</block>
+  <block id="4d872659b015ad414d5e68440a7ddfd6" category="paragraph">컨트롤러가 장착되고 전원이 복구되는 즉시 부팅이 시작됩니다.</block>
+  <block id="6f3fa8086df2fa20b3e903512f693396" category="list-text">손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.</block>
+  <block id="c2e17c0358bcab54416e83b4418be536" category="paragraph"><block ref="30edaf7c9fa43c78aeaf4b8fabb7af1a" prefix="" category="inline-code"></block>..</block>
+  <block id="32c032e6d73023a7bc6955f5bc422d4d" category="list-text">자동 반환이 비활성화된 경우 다시 활성화하십시오.</block>
+  <block id="929b41baf89e2c5975631c98cabedd59" category="paragraph"><block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix="" category="inline-code"></block>..</block>
+  <block id="af4b4d5cc6a7f6d9937999949dd33233" category="list-text">AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.</block>
+  <block id="0306ff5f8ff1d760b409c6f7f1b3b8bd" category="paragraph"><block ref="9ac424c0d7b432975df36a19daf50c9c" prefix="" category="inline-code"></block>..</block>
+  <block id="e48348202fcdb5533fd8d224264fdc58" category="paragraph">&lt;stdin&gt;-include::../_include/bootmedia_recovery_image.adoc [ ] 의 확인되지 않은 지시문</block>
+  <block id="1ae221b034a7bacf99b88892279c2462" category="paragraph">2색 LED는 녹색이면 전원/작동 상태를, 빨간색은 전원/작동을 나타냅니다.</block>
+  <block id="7ea17d80896a391ffe01665c36e03909" category="cell">주의(빨간색)</block>
+  <block id="ede3a6bd0f0cd8205608f251691a19e1" category="doc">IOM12/IOM12B 모듈을 사용하는 4중 경로 연결 쉘프용 컨트롤러-스택 케이블링 워크시트 템플릿</block>
 </blocks>
