@@ -6,7 +6,7 @@ entries:
 - title: 유지 보수 개요
   url: "/asa-r2-a1k/maintain-overview.html"
 - title: 부팅 미디어 - 자동 복구
-  pdf-filename: ASA A1K 부팅 미디어
+  pdf-filename: ASA A1K 부팅 미디어 자동
   entries:
   - title: 부팅 미디어 개요
     url: "/asa-r2-a1k/bootmedia-overview-bmr.html"
@@ -23,6 +23,7 @@ entries:
   - title: 오류가 발생한 부품을 NetApp으로 반환합니다
     url: "/asa-r2-a1k/bootmedia-complete-rma-bmr.html"
 - title: 부팅 미디어 - 수동 복구
+  pdf-filename: ASA A1K 부팅 미디어 설명서 를 참조하십시오
   entries:
   - title: 부팅 미디어 개요
     url: "/asa-r2-a1k/bootmedia-overview.html"

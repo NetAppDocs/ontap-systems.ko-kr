@@ -2,16 +2,16 @@
 permalink: fas2800/maintain-overview.html 
 sidebar: sidebar 
 keywords: fas2800 maintenance, maintenance, repairing, repairing fas2700, replace fas2800 components, replace fas2800 components 
-summary: FAS2800 하드웨어 유지 관리 
+summary: FAS2820 하드웨어 유지 관리 
 ---
-= FAS2800 하드웨어 유지 관리
+= FAS2820 하드웨어 유지보수
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FAS2800 스토리지 시스템의 경우 다음 구성 요소에서 유지보수 절차를 수행할 수 있습니다.
+FAS2820 스토리지 시스템의 경우 다음 구성 요소에서 유지보수 절차를 수행할 수 있습니다.
 
 
 

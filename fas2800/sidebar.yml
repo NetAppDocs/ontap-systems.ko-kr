@@ -1,9 +1,9 @@
 ---
 section: fas2800
-title: FAS800 시스템을 지원합니다
+title: FAS2820 시스템
 entries:
 - title: 설치 및 설정
-  pdf-filename: FAS2800 설치 및 설정
+  pdf-filename: FAS2820 설치 및 설정
   entries:
   - title: 설치 및 설정 환경을 선택합니다
     url: "/fas2800/install-setup.html"
@@ -14,12 +14,12 @@ entries:
   - title: 세부 단계
     url: "/fas2800/install-detailed-guide.html"
 - title: 유지 관리
-  pdf-filename: FAS800 유지관리
+  pdf-filename: FAS2820 유지 보수
   entries:
   - title: 개요
     url: "/fas2800/maintain-overview.html"
   - title: 미디어를 부팅합니다
-    pdf-filename: FAS2800 부팅 미디어
+    pdf-filename: FAS2820 부팅 미디어
     entries:
     - title: 개요
       url: "/fas2800/bootmedia-replace-overview.html"
@@ -36,10 +36,10 @@ entries:
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/fas2800/bootmedia-complete-rma.html"
   - title: 캐싱 모듈
-    pdf-filename: FAS2800 캐싱 모듈
+    pdf-filename: FAS2820 캐싱 모듈
     url: "/fas2800/caching-module-replace.html"
   - title: 섀시
-    pdf-filename: FAS2800 섀시
+    pdf-filename: FAS2820 섀시
     entries:
     - title: 개요
       url: "/fas2800/chassis-replace-overview.html"
@@ -50,7 +50,7 @@ entries:
     - title: 구성을 복원합니다
       url: "/fas2800/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
-    pdf-filename: FAS2800 컨트롤러
+    pdf-filename: FAS2820 컨트롤러
     entries:
     - title: 개요
       url: "/fas2800/controller-replace-overview.html"
@@ -65,20 +65,20 @@ entries:
     - title: 시스템 복원을 완료합니다
       url: "/fas2800/controller-replace-restore-system-rma.html"
   - title: DIMM
-    pdf-filename: 2800 DIMM을 선택합니다
+    pdf-filename: FAS2820 DIMM를 사용합니다
     url: "/fas2800/dimm-replace.html"
   - title: 드라이브
-    pdf-filename: FAS2800 드라이브
+    pdf-filename: FAS2820 드라이브
     url: "/fas2800/drive-replace.html"
   - title: NVMEM 배터리
-    pdf-filename: FAS2800 NVMEM 배터리
+    pdf-filename: FAS2820 NVMEM 배터리
     url: "/fas2800/nvmem-nvram-battery-replace.html"
   - title: 메자닌 카드
-    pdf-filename: FAS2800 메자닌 카드
+    pdf-filename: FAS2820 메자닌 카드
     url: "/fas2800/pci-cards-and-risers-replace.html"
   - title: 전원 공급 장치
-    pdf-filename: FAS2800 전원 공급 장치
+    pdf-filename: FAS2820 전원 공급 장치
     url: "/fas2800/power-supply-swap-out.html"
   - title: 실시간 시계 배터리
-    pdf-filename: FAS2800 실시간 시계 배터리
+    pdf-filename: FAS2820 실시간 시계 배터리
     url: "/fas2800/rtc-battery-replace.html"

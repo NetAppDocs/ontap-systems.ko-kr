@@ -46,14 +46,12 @@ USB 플래시 드라이브에는 EFI 폴더와 손상된 컨트롤러가 실행 
 image::../media/drw_a800_close_air_duct.png[컨트롤러 모듈 공기 덕트 그림 AFF A1K 닫기]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-
-
-
  a| 
 에어 덕트
 
@@ -61,10 +59,9 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
  a| 
 image:../media/icon_round_2.png["설명선 번호 2"]
+ a| 
+라이저
 
-
-
-| 라이저 
 |===
 
 

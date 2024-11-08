@@ -8,10 +8,9 @@
 
 == 1단계: 시스템 회수
 
-컨트롤러 모듈의 스토리지 및 네트워크 연결 케이블을 다시 연결합니다.
+컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인합니다.
 
 .단계
-. 스토리지 및 네트워크 연결에 컨트롤러 모듈을 다시 연결합니다.
 . 을 사용하여 케이블이 올바른지 확인합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"].
 +
 .. Config Advisor를 다운로드하고 설치합니다.

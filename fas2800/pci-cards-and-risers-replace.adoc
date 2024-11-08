@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, fas2800, replace, pcie, mezzanine, card, disconnect, cable, sfp, qsfp, module, fail, mezzanine, shut, down, impair, controller, pcie, switch, aggregate, two-node, metrocluster, complete, replacement, process, replace a pcie or mezzanine card, shut down the impaired controller, remove the controller module, replace a pcie card, replace the mezzanine card, install the controller module, switch back aggregates in a two-node metrocluster configuration, restore the controller module to operation, complete the replacement process 
 summary: PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈을 카드에서 분리하고, 오류가 발생한 PCIe 또는 메자닌 카드를 교체한 다음 카드를 다시 배선해야 합니다. 
 ---
-= 메자닌 카드(FAS2800)를 교체합니다
+= 메자닌 카드(FAS2820)를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

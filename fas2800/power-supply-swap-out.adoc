@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, swap, power, supply, turn off, disconnect, remove, install, connect, turn on, replacement 
 summary: 전원 공급 장치 교체에는 손상된 전원 공급 장치를 끄고, 분리하고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
 ---
-= 전원 공급 장치를 교체합니다. - FAS2800
+= 전원 공급 장치 교체 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

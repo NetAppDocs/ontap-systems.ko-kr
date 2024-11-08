@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, video, rack, cable, system, manager, guided, setup, configuration 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 비디오 단계 - FAS2800
+= 비디오 단계 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,5 +13,5 @@ summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 
 [role="lead"]
 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
 
-.애니메이션 - FAS2800 설치 및 설정 지침
+.애니메이션 - FAS2820 설치 및 설정 지침
 video::3caea3f4-14fe-4c13-a324-afa3013a1e48[panopto]

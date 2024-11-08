@@ -286,8 +286,6 @@ image::../media/icon_square_5_grey.png[설명선 아이콘 5]
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
 
-image:../media/oie_cable_power.png["전원 케이블"]
-
 image:../media/drw_a900fas9500_power_icon_IEOPS-1142.svg["전원 연결"]
 
 |===

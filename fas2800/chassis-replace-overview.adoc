@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 섀시 교체 개요 - FAS2800
+= 섀시 교체 개요 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

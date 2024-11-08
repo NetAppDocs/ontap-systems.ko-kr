@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, shutdown, checks, onboard, encryption, keys, impaired controller, disable, automatic, feedback 
 summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
 ---
-= 암호화 키 지원 및 상태 확인 - FAS2800
+= 암호화 키 지원 및 상태 확인 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -95,7 +95,7 @@ ONTAP 9.13.1 이하
 ====
 
 
-. 시스템에서 External Key Manager를 사용하는지 Onboard Key Manager를 사용하는지 여부에 따라 다음 옵션 중 하나를 선택합니다.
+. 시스템에서 External Key Manager 또는 Onboard Key Manager를 사용하는지 여부에 따라 다음 옵션 중 하나를 선택합니다.
 +
 [role="tabbed-block"]
 ====

@@ -2,7 +2,7 @@
 permalink: fas-70-90/system-management-replace.html 
 sidebar: sidebar 
 keywords: fas70, fas90, replace the system manager module 
-summary: 교체해야 합니다. 
+summary: 시스템 관리 모듈을 교체해야 합니다. 
 ---
 = 시스템 관리 모듈 FAS70 및 FAS90을 교체합니다
 :allow-uri-read: 

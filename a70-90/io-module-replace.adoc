@@ -147,7 +147,9 @@ image::../media/drw_a70_90_io_remove_replace_ieops-1532.svg[입출력 모듈을 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-| 캠 잠금 버튼 
+ a| 
+캠 잠금 버튼
+
 |===
 +
 .. 캠 래치 버튼을 누릅니다.

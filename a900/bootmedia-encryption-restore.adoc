@@ -1,5 +1,5 @@
 ---
-permalink: a900/bootmedia_encryption_restore.html 
+permalink: a900/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords:  
 summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 

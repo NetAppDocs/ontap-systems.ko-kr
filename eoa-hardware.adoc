@@ -78,8 +78,6 @@ NetApp CN1610 스위치
 
 
  a| 
-클러스터 스위치
-
 * Cisco 5596UP
 * Cisco 5596T
 

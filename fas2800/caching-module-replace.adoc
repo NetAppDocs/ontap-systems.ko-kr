@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: replace, caching, module,  fas2800, shut, down, impaired, controller, controller, aggregates, metrocluster, configuration, replace, reinstall 
 summary: '시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다.' 
 ---
-= 캐싱 모듈 FAS2800을 교체합니다
+= 캐싱 모듈 교체 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

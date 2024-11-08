@@ -151,14 +151,16 @@ image::../media/drw_a1k_nvram12_remove_replace_ieops-1380.svg[NVRAM12 모듈 및
 |===
 
 
-| image:../media/icon_round_1.png["설명선 번호 1"]  a| 
-캠 잠금 버튼
-
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+| 캠 잠금 버튼 
 
 
  a| 
 image:../media/icon_round_2.png["설명선 번호 2"]
-| DIMM 잠금 탭 
+ a| 
+DIMM 잠금 탭
+
 |===
 
 
@@ -192,14 +194,16 @@ image::../media/drw_a1k_nvram12_remove_replace_ieops-1380.svg[NVRAM 12 모듈 �
 |===
 
 
-| image:../media/icon_round_1.png["설명선 번호 1"]  a| 
-캠 잠금 버튼
-
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+| 캠 잠금 버튼 
 
 
  a| 
 image:../media/icon_round_2.png["설명선 번호 2"]
-| DIMM 잠금 탭 
+ a| 
+DIMM 잠금 탭
+
 |===
 . NVRAM 모듈을 안정적인 표면에 놓습니다.
 . NVRAM 모듈 내에서 교체할 DIMM을 찾습니다.

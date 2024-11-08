@@ -10,7 +10,7 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 :imagesdir: ../media/
 
 
-[role="lead lead"]
+[role="lead"]
 다음 워크플로우 단계에 따라 컨트롤러 모듈을 교체하십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구사항을 검토하십시오"]

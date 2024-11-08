@@ -95,7 +95,7 @@ ONTAP 9.13.1 이하
 ====
 
 
-. 시스템에서 External Key Manager를 사용하는지 Onboard Key Manager를 사용하는지 여부에 따라 다음 옵션 중 하나를 선택합니다.
+. 시스템에서 External Key Manager 또는 Onboard Key Manager를 사용하는지 여부에 따라 다음 옵션 중 하나를 선택합니다.
 +
 [role="tabbed-block"]
 ====

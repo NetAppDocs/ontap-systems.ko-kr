@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, storage system, setup, discovery 
 summary: 이 절차는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
 ---
-= 세부 단계 - FAS2800
+= 세부 단계 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -436,7 +436,7 @@ image::../media/oie_cable_pull_tab_down.png[당기기 탭 방향]
 이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 드라이브 쉘프 사이의 케이블 연결을 완료합니다.
 
 
-IMPORTANT: FAS2800에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 자세한 내용은 을 link:../sas3/install-new-system.html["새 스토리지 시스템에 쉘프를 설치합니다"^] 참조하십시오.
+IMPORTANT: FAS2820에서 포트 0b2를 사용하지 마십시오. 이 SAS 포트는 ONTAP에서 사용되지 않으며 항상 비활성화되어 있습니다. 자세한 내용은 을 link:../sas3/install-new-system.html["새 스토리지 시스템에 쉘프를 설치합니다"^] 참조하십시오.
 
 .애니메이션 - 드라이브 쉘프 케이블링
 video::b2a7549d-8141-47dc-9e20-afe8016f4386[panopto]

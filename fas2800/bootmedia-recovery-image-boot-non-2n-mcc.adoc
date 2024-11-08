@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, boot, recovery, image, restore, file, system, environmental, varible 
 summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
 ---
-= 복구 이미지를 부팅합니다. - FAS2800
+= 복구 이미지-FAS2820을 부팅합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

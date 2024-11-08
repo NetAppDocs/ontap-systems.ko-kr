@@ -112,9 +112,6 @@ Running command '/sbin/ifconfig e0M'
 ..
 ..
 kmip_init: cmd: ReleaseExtraBSDPort e0M
-​​​​....
-
-
 ....
 ====
 . 복구 프로세스가 완료됩니다.

@@ -29,15 +29,15 @@ image::../media/drw_fas2600_cable_color_key.png[온보드 저장 장치가 있�
 
 
 
-== 외부 쉘프가 없는 다중 경로 HA 구성의 FAS2800 플랫폼
+== 외부 쉘프가 없는 다중 경로 HA 구성의 FAS2820 플랫폼
 
 다음 예에서는 다중 경로 HA 연결을 위한 케이블이 필요하지 않은 것을 보여 줍니다.
 
-image::../media/drw_fas2800_noshelf_mpha_IEOPS-954.svg[외부 쉘프 없이 FAS2800 다중 경로 HA]
+image::../media/drw_fas2800_noshelf_mpha_IEOPS-954.svg[외부 쉘프 없이 FAS2820 다중 경로 HA]
 
 
 
-== 외부 쉘프가 없는 삼중 경로 HA 구성의 FAS2800 플랫폼
+== 외부 쉘프가 없는 삼중 경로 HA 구성의 FAS2820 플랫폼
 
 다음 케이블 연결 예는 3개 경로 연결을 위해 두 컨트롤러 간의 필수 케이블 연결을 보여줍니다.
 
@@ -45,13 +45,13 @@ image::../media/drw_fas2800_noshelf_tpha_IEOPS-955.svg[Fas2800 Tri Path HA 케�
 
 
 
-== 단일 다중 쉘프 스택을 사용하는 삼중 경로 HA 구성의 FAS2800 플랫폼
+== 단일 다중 쉘프 스택을 사용하는 삼중 경로 HA 구성의 FAS2820 플랫폼
 
 다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0b1을 사용합니다.
 
-image::../media/drw_fas2800_worksheet_IEOPS-948.svg[스택 1의 포트 쌍을 보여 주는 FAS2800 3경로 HA 케이블 연결 워크시트]
+image::../media/drw_fas2800_worksheet_IEOPS-948.svg[스택 1의 포트 쌍을 보여 주는 FAS2820 3경로 HA 케이블 연결 워크시트]
 
-image::../media/drw_fas2800_withshelves_tpha_IEOPS-949.svg[FAS2800 3경로 HA 케이블링 예: 하나의 스택에 케이블 연결]
+image::../media/drw_fas2800_withshelves_tpha_IEOPS-949.svg[FAS2820 3경로 HA 케이블링 예: 하나의 스택에 케이블 연결]
 
 
 
@@ -60,7 +60,7 @@ image::../media/drw_fas2800_withshelves_tpha_IEOPS-949.svg[FAS2800 3경로 HA �
 다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0b를 사용합니다.
 
 
-NOTE: 이 섹션은 FAS2800 또는 FAS25XX 시스템에는 적용되지 않습니다.
+NOTE: 이 섹션은 FAS2820 또는 FAS25XX 시스템에는 적용되지 않습니다.
 
 image::../media/drw_fas2600_mpha_worksheet_IEOPS-1255.svg[내부 스토리지와 단일 스택이 있는 플랫폼을 위한 다중 경로 HA 케이블 연결 워크시트]
 

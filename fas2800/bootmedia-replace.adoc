@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, replace, boot, media, controller, module, fru map 
 summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다. 
 ---
-= 부팅 미디어(FAS2800)를 교체합니다
+= 부팅 미디어 교체 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
