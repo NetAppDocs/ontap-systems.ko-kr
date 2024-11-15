@@ -30,7 +30,7 @@ entries:
     - title: 부팅 이미지를 교체합니다
       url: "/asa-c800/bootmedia-replace.html"
     - title: 부팅 복구 이미지
-      url: "/asa-c800/bootmedia-recovery-image-boot-non-2n-mcc.html"
+      url: "/asa-c800/bootmedia-recovery-image-boot.html"
     - title: 암호화를 복원합니다
       url: "/asa-c800/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다

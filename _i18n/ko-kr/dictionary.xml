@@ -3576,7 +3576,6 @@
   <block id="4e4fca0318eac6dc1315f4bad56eb1c6" category="summary">완전히 채워진 시스템에서 기존 입출력 모듈을 새 입출력 모듈로 교체하거나 새 입출력 모듈을 섀시의 빈 슬롯에 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="a164244a6913c60772e9b9fbbbc17a4a" category="doc">입출력 모듈 추가 - AFF A900</block>
   <block id="e01b6c84aaebe2321eef7b7a933b171f" category="list-text">입출력 모듈을 무중단으로 추가하려면 타겟 컨트롤러를 인수하고, 타겟 슬롯에서 슬롯 블랭킹 커버를 제거하거나, 기존 입출력 모듈을 제거하고, 새 입출력 모듈 또는 교체 입출력 모듈을 추가한 다음 타겟 컨트롤러를 반환해야 합니다.</block>
-  <block id="329fe7c89a525def535e03c6dbc6f98f" category="section-title">옵션 1: 슬롯이 열린 시스템에 입출력 모듈을 추가합니다</block>
   <block id="c45c3f1f9d099575b7abd851e7ef8b33" category="list-text">캠 래치가 열림 위치가 될 때까지 아래로 돌립니다.</block>
   <block id="9a08e35bf8850515585d9bd11e96351b" category="list-text">입출력 모듈을 설치합니다.</block>
   <block id="66efd9c2b6ae55ef5c1ff3be01c1fe65" category="list-text">입출력 모듈을 슬롯의 가장자리에 맞춥니다.</block>
@@ -3584,7 +3583,6 @@
   <block id="7ca78c6d47f27487175e23a00c576196" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
   <block id="3267c15e351fe1dd15721e79b072fedc" category="admonition">사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.</block>
   <block id="05648a23fc430a3dcc4fb4c1fbb040cd" category="list-text">네트워킹에 슬롯 3 및/또는 7을 사용하는 경우, 네트워킹 사용을 위해 슬롯을 변환하려면 'storage port modify -node__&lt;node name&gt;___port__&lt;port name&gt;__-mode network' 명령어를 사용한다.</block>
-  <block id="3e0887648c519f4a3c16a1c61b2e8ec3" category="section-title">옵션 2: 슬롯이 없는 시스템에 입출력 모듈을 추가합니다</block>
   <block id="cebb0168d5bfd94a91f0da51501ba6b8" category="list-text">다음과 같은 경우:</block>
   <block id="e818b574f8a890f6c21405d9164bb6ef" category="cell">교체 중...</block>
   <block id="d6737fd4fc838900efec68220d9b62d5" category="paragraph">같은 수의 포트가 있는 NIC 입출력 모듈</block>
@@ -5660,10 +5658,7 @@
   <block id="6f189db9f1b1dfc1be838de48c805168" category="video-title">애니메이션 - NVMe 드라이브 쉘프 ID를 설정합니다</block>
   <block id="1f583998630e94806bf5b9e059227dd4" category="paragraph"><block ref="1f583998630e94806bf5b9e059227dd4" category="inline-link-rx"></block></block>
   <block id="9b0500b65158795cfc5abb2becae4e80" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
-  <block id="192e7ded6d54e3ac04596dc33b9c67cf" category="paragraph">시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="741ade379895992f2a574e8e60de1571" category="section-title">2단계: 입출력 모듈 추가</block>
-  <block id="31ac56c0f673cbef254563f6a8a32626" category="paragraph">시스템이 완전히 채워진 경우 기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 입출력 슬롯의 입출력 모듈을 변경할 수 있습니다.</block>
-  <block id="037baf09c7ddcc7c38f81e7dbe35fa87" category="paragraph">빈 슬롯이 있는 시스템에 새 I/O 결절을 추가하거나 완전히 채워진 시스템에서 I/O 모듈을 새 결절로 교체하여 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="55f1569cdcfb82612fcf293f23db4f6f" category="list-text">를 확인하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.</block>
   <block id="6e4968851f4373ab9764e16cffb39389" category="list-text">여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.</block>
   <block id="757216293ea1da04339a2c9b8eaa2641" category="admonition">tar.gz 파일은 최소 4GB인 FAT32 형식의 파티션에 배치해야 합니다. FAT32 파티션은 최대 2TB일 수 있지만 Windows 내장 도구(예: diskpart)는 FAT32 파티션을 32GB보다 크게 포맷할 수 없습니다.</block>
@@ -6509,11 +6504,6 @@
   <block id="fb7c806d17ac05daec934e824397154e" category="list-text">교체 섀시의 두 번째 컨트롤러 모듈에 대해 위의 단계를 반복합니다.</block>
   <block id="5a78b16de65a946feda8c56392de99d0" category="paragraph">하드웨어 교체를 완료하고 교체 컨트롤러를 부팅한 후, 교체 컨트롤러의 하위 레벨 시스템 구성을 확인하고 필요에 따라 시스템 설정을 다시 구성하십시오.</block>
   <block id="3fc70ee0f25a2808ad9e1ace34edd095" category="list-text">컨트롤러에 대해 표시되는 시스템 상태가 시스템 구성과 일치하지 않으면 교체 컨트롤러 모듈에 대한 HA 상태를 설정합니다.<block ref="83ac5421ebdbb8b86762e96ecda44c4a" prefix=" " category="inline-code"></block></block>
-  <block id="c5ad83e174ba7727e76fc50c8366e589" category="list-text">var 파일 시스템을 복구합니다.</block>
-  <block id="e51ecd8f185715278ef737fd290e62f5" category="list-text">를 누릅니다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> 구성 복사본을 복원하라는 메시지가 표시되면</block>
-  <block id="1a037944aedbce3040a5314200246858" category="list-text">클러스터 프롬프트에서 와(과) 논리 인터페이스를 확인합니다<block ref="55cf88a325a6e0574aef732566cc984c" prefix=" " category="inline-code"></block> 명령.</block>
-  <block id="8c4cb494b75288cf3ce1e7ce1dee3c9d" category="paragraph">"false"로 나열된 인터페이스가 있는 경우 를 사용하여 해당 인터페이스를 홈 포트로 되돌립니다<block ref="ffbe7d182280173cba10c83ec9992974" prefix=" " category="inline-code"></block> 명령.</block>
-  <block id="fcb4d3b1f229bc036dc2280a7c1d29c4" category="list-text">스토리지 암호화를 사용하지 않는 경우 자동 반환 및 AutoSupport를 복원합니다.</block>
   <block id="82374f90663d7205d26c38028c93cb8d" category="inline-link">사용 중인 ONTAP 9 버전에 대한 릴리즈 노트</block>
   <block id="202c6b9676e6e0879f99a323aacdd76b" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
   <block id="21d9a13ac1bf780b5a88db05a215c05d" category="paragraph">10GbE, SFP28 케이블(주문 종속)</block>
@@ -7196,8 +7186,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="678386553f74beb2b1838a6f503572a1" category="sidebar">ASA A150 전원 공급 장치</block>
   <block id="3b407a01f87e8a92694c7e38e00bfea0" category="sidebar">ASA A150 실시간 시계 배터리</block>
   <block id="88caadba05eccaaf5df5206e6c67f90b" category="sidebar">AFF C-Series 시스템</block>
-  <block id="0ebe6df8a3ac338e0512acc741823fdb" category="sidebar">대치</block>
-  <block id="ec211f7c20af43e742bf2570c3cb84f9" category="sidebar">추가</block>
   <block id="880e70d8b15ad919e463072506581a9a" category="sidebar">ASA A400 시스템</block>
   <block id="9d524e3b80cdb8b322945f9b3acd0611" category="sidebar">ASA A400 설치 및 설정</block>
   <block id="34dd7f09476a68e4a11cace464b55609" category="sidebar">ASA A400의 유지 관리</block>
@@ -8011,9 +7999,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7b71c8c5341c95139930e1f1748956d7" category="list-text">모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.</block>
   <block id="0169e44348295d5766b174aa4c296a62" category="list-text">제거 및 설치 단계를 반복하여 컨트롤러의 추가 모듈을 교체합니다.</block>
   <block id="7c99497119e4bb81fd50dbd906dfde72" category="list-text">LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _ bye _</block>
-  <block id="270bbec39f8392e251637a1b86bbf5c3" category="list-text">컨트롤러에서 BMC의 버전을 확인하십시오. _SYSTEM SERVICE-PROCESSOR show _</block>
-  <block id="d6b96e8ac8bc341aa87626c9a7f76ffd" category="list-text">필요한 경우 BMC 펌웨어를 업데이트하십시오. _system service-processor image update_</block>
-  <block id="3ff703e913550c7687a9cef2aa4f646d" category="list-text">노드를 재부팅합니다. _bye_</block>
   <block id="db89594b0a0cbb483395a2641220f1fe" category="list-text">해제된 경우 자동 반환 활성화: _ 스토리지 페일오버 수정 -node local-auto-given true _</block>
   <block id="4e0b6dc04aaa383038bc23130a17cb25" category="cell">입출력 모듈이 a인 경우...</block>
   <block id="09c2cf2531a14305542e6aff93e691c5" category="paragraph">NIC 모듈</block>
@@ -8148,8 +8133,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2f4150c3867bbf0ce9e1aa56330f576b" category="list-text">대상 모듈의 캠 버튼을 누릅니다.</block>
   <block id="53843c5eb3759758de138cf301af27c3" category="paragraph">캠 버튼이 인클로저에서 멀리 이동합니다.</block>
   <block id="cb6d0d31a2a110b0d07c657262474a40" category="list-text">교체용 입출력 모듈을 엔클로저에 설치합니다.</block>
-  <block id="1ac1a67458bf621b04e5e87511601b9c" category="list-text">LOADER 프롬프트에서 advanced 권한 모드:_set privilege advanced_로 변경합니다</block>
-  <block id="10c3a425fded9589c238301aa82be35e" category="list-text">BMC:_SP 재부팅 _ 을(를) 재부팅합니다</block>
   <block id="8c2fb795497456b969ba9307ef6f84c8" category="list-text">LOADER 프롬프트에서 node:_bye_를 재부팅합니다</block>
   <block id="7abd890d238c51ed2801454d1144b6c2" category="admonition">그러면 I/O 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</block>
   <block id="f39bcef8471a9193d70395e440c5c30f" category="list-text">노드를 정상 작업:_스토리지 페일오버 반환 - ofnode impaired_node_name _</block>
@@ -10375,4 +10358,38 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2f9958347081d2ce185d76c702380979" category="sidebar">FAS2820 메자닌 카드</block>
   <block id="6283d5729bdaa96d13760bf62bbe62f2" category="sidebar">FAS2820 전원 공급 장치</block>
   <block id="e8a44fb416b30e755ecaf489baacfd39" category="sidebar">FAS2820 실시간 시계 배터리</block>
+  <block id="227398eddfb6e692fd89b8302d75c666" category="paragraph">스토리지 시스템에 빈 슬롯이 있는 경우 새 입출력 모듈을 사용 가능한 슬롯 중 하나에 설치합니다. 모든 슬롯이 사용 중인 경우 기존 입출력 모듈을 제거하여 공간을 확보한 다음 새 입출력 모듈을 설치합니다.</block>
+  <block id="a76aaa38baa5ae3b2ab41cc1b875078f" category="open-title">빈 슬롯에 입출력 모듈을 추가합니다</block>
+  <block id="f2cc9125d85f992590d6b8f3fbd46de6" category="paragraph">사용 가능한 빈 슬롯이 있는 스토리지 시스템에 새 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="c0f2e030aecd4084592ca2454ad9a524" category="open-title">완전히 채워진 시스템에 입출력 모듈을 추가합니다</block>
+  <block id="6408704f957fafc42e96a37aa68b10ce" category="paragraph">기존 입출력 모듈을 제거하고 새 입출력 모듈을 설치하여 완전히 채워진 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="d9c0fee19239cdba61031cde184c8d74" category="paragraph">완전히 채워진 시스템에 새 입출력 모듈을 추가하기 위한 다음 시나리오를 이해해야 합니다.</block>
+  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">시나리오</block>
+  <block id="3d6623b8d5249788a0d797d4bbc5e5a1" category="cell">작업이 필요합니다</block>
+  <block id="6be20647be40341586dcfb1dbbefcbcc" category="paragraph">NIC-NIC(동일한 포트 수)</block>
+  <block id="09109aaca603d8ac1da46aa588c46f63" category="paragraph">NIC-NIC(포트 수가 다름)</block>
+  <block id="4e7b2ae169cb37276347e7c88d211db4" category="paragraph">선택한 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 자세한 내용은 을<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="0c3f64052572f9d13d9b078656a055e4" category="paragraph">스토리지 입출력 모듈에 대한 NIC</block>
+  <block id="deaf42dafc1e4522c0ccf86ad58f237e" category="list-text">파트너 컨트롤러에서 컨트롤러를 반환하십시오. '스토리지 페일오버 반환 - ofnode target_node_name'입니다</block>
+  <block id="c1d0761e549ef1ce873a404f8d41a2d5" category="list-text">Loader 프롬프트에서 컨트롤러를 재부팅합니다.<block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix=" " category="inline-code"></block></block>
+  <block id="5d831aef00c06eb087aebfb790f041b7" category="section-title">2단계: 새 입출력 모듈 추가</block>
+  <block id="68c06f8f4688078ddfe1ceedef798cae" category="list-text">파트너 컨트롤러에서 컨트롤러를 반납합니다.</block>
+  <block id="523f5a38bba8d64b2af1cdee174a06cc" category="paragraph"><block ref="49c908925c3b8a3554612823f81c8964" prefix="" category="inline-code"></block></block>
+  <block id="b98036ad0a9b610670da83fe762dadb5" category="list-text">정상 작동이 확인된 노드에서 다음 명령을 사용하여 자동 반환을 비활성화한 경우 복원합니다.</block>
+  <block id="518d4ff09aabdcee7f75f2c44315aa32" category="list-text">AutoSupport가 활성화된 경우 다음 명령을 사용하여 자동 케이스 생성을 복원합니다.</block>
+  <block id="4bcd1563c4332086304e70dd3fb7e19a" category="list-text">비활성화된 경우 자동 반환 활성화:</block>
+  <block id="1e80f086f2d3ddea0cd02baa25f9c2f1" category="list-text">NIC 입출력 모듈을 제거하고 새 NIC 입출력 모듈을 설치한 경우 각 포트에 대해 다음 네트워크 명령을 사용하십시오.</block>
+  <block id="157602c08bdec493e8c79f5e41971ab6" category="paragraph"><block ref="9dedaa5871e5e9684cbae52f5e1b987d" prefix="" category="inline-code"></block></block>
+  <block id="ff7274e5c00dade3058bf32828127837" category="list-text">NIC 입출력 모듈을 제거하고 스토리지 입출력 모듈을 설치한 경우 에 설명된 대로 NS224 셸프를 설치하고 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
+  <block id="fe7cc4281bcf5c347bdaa6bdb704b29b" category="list-text">Loader 프롬프트에서 ``bye’ 노드를 재부팅합니다</block>
+  <block id="440f1f310315bec96a5e23d47024d880" category="list-text">다른 드라이브를 교체하는 경우 2-6단계를 반복합니다.</block>
+  <block id="91dfaaed30791a3d6d5402ba403f8f73" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFF A1K 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="8b6b47c9ffbf56147eb39245a0848071" category="open-title">옵션 2: MetroCluster 구성</block>
+  <block id="e1e5a630a2475cff2c5c9107cbfff228" category="section-title">2단계: 새 입출력 모듈을 추가합니다</block>
+  <block id="aaa31e70b1e8d53e84fc317dfdcef1ed" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFF A70 및 AFF A90 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="fc201f3061cf0fb0ac92be830093fe44" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFF A900 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="5342cf7e14ace50bbfab26225b3e6f39" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 ASA A70 및 ASA A90 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="cac74c301a508cf350f8f41a7de866a0" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 ASA A1K 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="94aa992895c11cf963b2b749b84aa267" category="paragraph">사용 가능한 슬롯이 비어 있거나 모든 슬롯이 완전히 채워진 경우 FAS70 및 FAS90 스토리지 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
+  <block id="bc049e4428d592b69605104cc85d56bc" category="section-title">2단계: 새 입출력 모듈을 추가합니다</block>
 </blocks>

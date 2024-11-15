@@ -30,7 +30,7 @@ entries:
     - title: 부팅 미디어를 교체합니다
       url: "/c400/bootmedia-replace.html"
     - title: 부팅 복구 이미지
-      url: "/c400/bootmedia-recovery-image-boot-options.html"
+      url: "/c400/bootmedia-recovery-image-boot.html"
     - title: MetroCluster 구성을 다시 전환합니다
       url: "/c400/bootmedia-2n-mcc-switchback.html"
     - title: 암호화를 복원합니다

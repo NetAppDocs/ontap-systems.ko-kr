@@ -72,10 +72,10 @@ entries:
   - title: 입출력 모듈
     pdf-filename: FAS9500 I/O 모듈
     entries:
-    - title: 대치
-      url: "/fas9500/pci_cards_and_risers_replace.html"
-    - title: 추가
+    - title: 입출력 모듈을 추가합니다
       url: "/fas9500/add_io_module.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "/fas9500/pci_cards_and_risers_replace.html"
   - title: LED USB
     url: "/fas9500/led_module_replace.html"
   - title: NVRAM

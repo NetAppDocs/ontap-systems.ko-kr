@@ -354,21 +354,14 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 . 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
 . LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _ bye _
 +
-.. 컨트롤러에서 BMC의 버전을 확인하십시오. _SYSTEM SERVICE-PROCESSOR show _
-.. 필요한 경우 BMC 펌웨어를 업데이트하십시오. _system service-processor image update_
-.. 노드를 재부팅합니다. _bye_
-+
-
-NOTE: 이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
 
 +
 
 NOTE: 재부팅 중 문제가 발생하는 경우 를 참조하십시오 https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1494308["Burt 1494308 - I/O 모듈 교체 중에 환경 종료가 트리거될 수 있습니다"]
 
-
-
-. 파트너 컨트롤러에서 컨트롤러를 반납합니다. -ofnode target_node_name_
-. 해제된 경우 자동 반환 활성화: _ 스토리지 페일오버 수정 -node local-auto-given true _
+. 파트너 컨트롤러에서 컨트롤러를 반환하십시오. '스토리지 페일오버 반환 - ofnode target_node_name'입니다
+. 'Storage failover modify -node local -auto-반환 true'가 비활성화되면 자동 반환이 활성화됩니다
 . 추가한 경우:
 +
 [cols="1,2"]

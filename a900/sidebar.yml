@@ -70,10 +70,10 @@ entries:
   - title: 입출력 모듈
     pdf-filename: AFF A900 I/O 모듈
     entries:
-    - title: 입출력 모듈을 교체합니다
-      url: "/a900/pci_cards_and_risers_replace.html"
     - title: 입출력 모듈을 추가합니다
       url: "/a900/add_io_module.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "/a900/pci_cards_and_risers_replace.html"
   - title: LED USB
     url: "/a900/led_module_replace.html"
   - title: NVRAM
