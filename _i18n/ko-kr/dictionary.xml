@@ -3583,12 +3583,7 @@
   <block id="7ca78c6d47f27487175e23a00c576196" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
   <block id="3267c15e351fe1dd15721e79b072fedc" category="admonition">사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.</block>
   <block id="05648a23fc430a3dcc4fb4c1fbb040cd" category="list-text">네트워킹에 슬롯 3 및/또는 7을 사용하는 경우, 네트워킹 사용을 위해 슬롯을 변환하려면 'storage port modify -node__&lt;node name&gt;___port__&lt;port name&gt;__-mode network' 명령어를 사용한다.</block>
-  <block id="cebb0168d5bfd94a91f0da51501ba6b8" category="list-text">다음과 같은 경우:</block>
-  <block id="e818b574f8a890f6c21405d9164bb6ef" category="cell">교체 중...</block>
-  <block id="d6737fd4fc838900efec68220d9b62d5" category="paragraph">같은 수의 포트가 있는 NIC 입출력 모듈</block>
   <block id="c5cb03fb8ac84e8ed0867902373368c5" category="paragraph">LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니다.</block>
-  <block id="5b4da5fe899903c4fb7ea38cdcd59059" category="paragraph">포트 수가 적은 NIC 입출력 모듈</block>
-  <block id="f83c48dd124994c4062d124a835da954" category="paragraph">스토리지 입출력 모듈이 있는 NIC 입출력 모듈</block>
   <block id="658f167c4900ed24167db8a2c8ec0dae" category="list-text">입출력 모듈을 타겟 슬롯에 설치합니다.</block>
   <block id="af7e67afbae0d677789152f59d9ac82d" category="list-text">교체용 입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 케이블로 연결합니다.</block>
   <block id="65c5b494e6d3420e2beeee5028389f58" category="list-text">추가한 경우:</block>
@@ -5172,7 +5167,6 @@
   <block id="a31ab93f41516026d249aceb633bccc3" category="doc">I/O 모듈 FAS9500을 추가합니다</block>
   <block id="4d3b1425bbd62943a546a9f98dc3b7ef" category="list-text">파트너 노드에서 노드를 다시 지정합니다. 'storage failover - ofnode target_node_name'을 선택합니다</block>
   <block id="6f8193ca6bfb281db32afbcc9e285f79" category="inline-link">SAS 쉘프 핫 추가</block>
-  <block id="c964f542415e7614484e4edf970ab7a8" category="paragraph">영향을 받는 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 을 참조하십시오<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="6d351dbc4a7187d4512a1c505c200687" category="paragraph">에 설명된 대로 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block>.</block>
   <block id="f3ca7c7565b074fbf5e12ffb59930d2f" category="doc">오류가 발생한 부품을 NetApp-FAS9500으로 되돌립니다</block>
   <block id="4ea7136415cb99f780a4177ea7ada9f4" category="doc">시스템 구성 복원 및 확인 - FAS9500</block>
@@ -5658,7 +5652,6 @@
   <block id="6f189db9f1b1dfc1be838de48c805168" category="video-title">애니메이션 - NVMe 드라이브 쉘프 ID를 설정합니다</block>
   <block id="1f583998630e94806bf5b9e059227dd4" category="paragraph"><block ref="1f583998630e94806bf5b9e059227dd4" category="inline-link-rx"></block></block>
   <block id="9b0500b65158795cfc5abb2becae4e80" category="paragraph">다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 케이블을 찾아 사용 여부를 확인합니다.</block>
-  <block id="741ade379895992f2a574e8e60de1571" category="section-title">2단계: 입출력 모듈 추가</block>
   <block id="55f1569cdcfb82612fcf293f23db4f6f" category="list-text">를 확인하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 새 입출력 모듈이 실행 중인 시스템 및 ONTAP 버전과 호환되는지 확인합니다.</block>
   <block id="6e4968851f4373ab9764e16cffb39389" category="list-text">여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.</block>
   <block id="757216293ea1da04339a2c9b8eaa2641" category="admonition">tar.gz 파일은 최소 4GB인 FAT32 형식의 파티션에 배치해야 합니다. FAT32 파티션은 최대 2TB일 수 있지만 Windows 내장 도구(예: diskpart)는 FAT32 파티션을 32GB보다 크게 포맷할 수 없습니다.</block>
@@ -7969,14 +7962,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="61612a74be5170dd342eb619d607d9a0" category="paragraph">다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다.<block ref="6cf51b10a85b7bdc2a6698400ee841b7" prefix=" " category="inline-code"></block></block>
   <block id="ab859514fa976f71299cd0d5366c702d" category="paragraph">정상적인 컨트롤러에서 손상된 컨트롤러를 중지하거나 인계합니다.<block ref="64d2ac6bbd59fb854ec2bed7b2dbe259" prefix=" " category="inline-code"></block></block>
   <block id="fd9366185c7040d2814e95fefcce2264" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 명령을 호출하여 자동 케이스 생성을 억제합니다.<block ref="fbcb7868c4849064439910664677cb60" prefix=" " category="inline-code"></block></block>
-  <block id="9f496d341d66d79304a55547445c00a2" category="doc">옵션 1: 빈 슬롯이 있는 스토리지 시스템에 입출력 모듈을 추가합니다</block>
-  <block id="c4b17ef982ae644ec1d2b995fa1534a8" category="paragraph">빈 슬롯이 있는 스토리지 시스템에 새 입출력 모듈을 추가하거나 완전히 채워진 스토리지 시스템에서 새 입출력 모듈을 교체하여 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="656450ae55843844fdfca7b44cbc5678" category="list-text">에서 새 입출력 모듈이 사용 중인 스토리지 시스템 및 ONTAP 버전과 호환되는지<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 확인하십시오.</block>
-  <block id="9808a3e490e0cd81c2fab70cb489f958" category="paragraph">스토리지 시스템의 빈 모듈 슬롯에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="78263f5226743bdd204519f0e9bd22d2" category="list-text">케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.</block>
   <block id="72e0b58a2d456f6ab89ca8d83859264d" category="list-text">캐리어에서 타겟 슬롯 블랭킹 모듈을 탈거하십시오.</block>
   <block id="abca9f9a7ffb3d4afa15f947303b1c4c" category="admonition">다음 그림에서는 수평 및 수직 I/O 모듈 분리를 보여 줍니다. 일반적으로 하나의 입출력 모듈만 제거합니다.</block>
-  <block id="b0fe3ad00c115ca25f49fb3d48769b0b" category="image-alt">AFF A1K 입출력 모듈을 분리합니다</block>
   <block id="243dd5ebf726e6d6a9762938953c1a6a" category="cell">캠 잠금 버튼</block>
   <block id="3939b3c4c6e868d0268fd9a75f3b3805" category="list-text">대상 슬롯에서 블랭킹 모듈의 캠 래치를 누르십시오.</block>
   <block id="c053808d9acb931bed74754155a6e86f" category="list-text">캠 래치를 최대한 아래로 돌립니다. 수평 모듈의 경우 캠을 모듈에서 최대한 멀리 돌립니다.</block>
@@ -7984,24 +7973,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f47dbf934d7d51340a5c58741715b2d5" category="list-text">I/O 모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.</block>
   <block id="b3fe1b3e8557371fcb101f90a1a32fd0" category="list-text">모듈을 인클로저 끝까지 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
   <block id="be9dc0332662b913cef88d5dcde78acd" category="list-text">I/O 모듈에 케이블을 연결합니다.</block>
-  <block id="040f840d8fdf859359eb680be25e8992" category="paragraph">입출력 모듈이 NIC인 경우 모듈을 데이터 스위치에 연결합니다.</block>
-  <block id="3072040b83655039de255184380a9271" category="paragraph">I/O 모듈이 스토리지 모듈인 경우 NS224 쉘프에 케이블을 연결합니다.</block>
   <block id="9056e6b74b2e2b546abd76b6e7408f4d" category="list-text">케이블 관리 트레이를 닫힘 위치까지 돌립니다.</block>
-  <block id="a0a7e707ad35c210d4582fab4069c223" category="list-text">파트너 컨트롤러에서 컨트롤러를 반납합니다. -ofnode target_node_name_</block>
   <block id="6c91356d53993ce0d1f0c1af28c7a48b" category="list-text">AutoSupport가 설정된 경우 명령을 사용하여 자동 케이스 생성을 복원/억제<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block> 해제합니다.</block>
-  <block id="026bf593d893e27d6f090dc74e403a75" category="section-title">옵션 2: 빈 슬롯이 없는 스토리지 시스템에 입출력 모듈을 추가합니다</block>
-  <block id="a06ddc697cce62226c19e353e0f2eeba" category="paragraph">기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 완전히 채워진 시스템의 입출력 슬롯에서 입출력 모듈을 변경할 수 있습니다.</block>
-  <block id="47ab52c1da07a0c00e2b876e54778a95" category="paragraph">선택한 LIF를 다른 홈 포트에 영구적으로 재할당합니다. System Manager를 사용하여 LIF를 영구적으로 이동하는 방법에 대한 자세한 내용은 를 참조하십시오.<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block></block>
-  <block id="8f6ea8b644b16793208bc55e27bc7669" category="section-title">2단계: 입출력 모듈 교체</block>
-  <block id="900056c17f40fb1a034e134a72eca912" category="image-alt">AFF A1K 입출력 모듈을 제거합니다</block>
   <block id="8181d3a6b1640b5868632cfe5589a05d" category="list-text">캠 래치 버튼을 누릅니다.</block>
   <block id="0cfc07520b64c5be4e64fac899e6eaa9" category="list-text">I/O 모듈을 엔클로저의 대상 슬롯에 설치합니다.</block>
   <block id="7b71c8c5341c95139930e1f1748956d7" category="list-text">모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.</block>
   <block id="0169e44348295d5766b174aa4c296a62" category="list-text">제거 및 설치 단계를 반복하여 컨트롤러의 추가 모듈을 교체합니다.</block>
   <block id="7c99497119e4bb81fd50dbd906dfde72" category="list-text">LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _ bye _</block>
-  <block id="db89594b0a0cbb483395a2641220f1fe" category="list-text">해제된 경우 자동 반환 활성화: _ 스토리지 페일오버 수정 -node local-auto-given true _</block>
-  <block id="4e0b6dc04aaa383038bc23130a17cb25" category="cell">입출력 모듈이 a인 경우...</block>
-  <block id="09c2cf2531a14305542e6aff93e691c5" category="paragraph">NIC 모듈</block>
   <block id="a286fff38dd07b679c8ce3d88b6f2962" category="inline-link-macro">손상된 컨트롤러를 종료합니다</block>
   <block id="4332aa8c798bac1ec6c0f4c83e0df305" category="list-text">유형이 표시되는지 확인한<block ref="c759882cd4e7fcd95f15b0df0ce7f51c" prefix=" " category="inline-code"></block><block ref="c6b9507c26062233f2341cb90db60eaa" prefix=" " category="inline-code"></block>다음 OKM 정보를 수동으로 백업합니다.</block>
   <block id="66e5f5f877412d7578e6bec4d8f933b5" category="list-text">손상된 컨트롤러에서 가 표시되면 _Y_를 누릅니다<block ref="aa48693d0248bb57512e373cd7f7eebc" prefix=" " category="inline-code"></block></block>
@@ -8010,7 +7988,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e9636d3f8e24f08b43c5d1ed71e065ea" category="list-text">손상된 컨트롤러에서 가 표시되면 _y_를<block ref="396e369cf75815ba643925818d3ec37e" prefix=" " category="inline-code"></block>누릅니다.</block>
   <block id="976af5aa217f6c1b1dbf16e0ed0a4bde" category="list-text">손상된 컨트롤러에서 손상된 컨트롤러를 재부팅하라는 메시지가 나타나면 _y_를 누르고 부팅 메뉴에 대해 _Ctrl-c_를 누릅니다.</block>
   <block id="29d550bee6b8b18ca38f7642778d8dad" category="inline-link-macro">키 관리자를 복원합니다</block>
-  <block id="88045ffbfc0d9ef09cd470c545082621" category="list-text">시스템에서 encyption을 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고 그렇지 않으면 로 이동합니다. <block ref="f2abf47fd75193a34b6b143e08f5b248" category="inline-link-macro-rx"></block></block>
   <block id="55f7c3a98a49a2f2d96cb2d21b95d947" category="list-text">_storage failover 반환 -fromnode local_명령을 사용하여 컨트롤러를 되돌립니다.</block>
   <block id="4c6b53c8ce9f5900a70a994f21a32c6b" category="list-text">storage failover modify -node local -auto -giving true_명령을 사용하여 자동 반환을 사용하지 않도록 설정한 경우 복원</block>
   <block id="85ef34c14131c3f446c3d96330659ce7" category="list-text">AutoSupport가 활성화된 경우 _SYSTEM NODE AutoSupport invoke -node * -type all-message MAINT=end_command를 사용하여 자동 케이스 생성을 복원/억제 해제합니다.</block>
@@ -8233,23 +8210,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="05dceffd3c31a9d53e9b23ec48d1bf77" category="paragraph">장애가 있는 노드가 표준(노드 잠김) 라이센스가 필요한 ONTAP 기능을 사용하는 경우 노드에 대한 새 라이센스를 설치해야 합니다. 표준 라이센스가 있는 기능의 경우 클러스터의 각 노드에 기능에 대한 자체 키가 있어야 합니다.</block>
   <block id="d498932449bd1680afbe5aad136fb7e3" category="paragraph">라이센스 키를 설치할 때까지 표준 라이센스가 필요한 기능을 노드에서 계속 사용할 수 있습니다. 그러나 이 기능에 대한 라이센스가 있는 클러스터에서 노드가 유일한 노드인 경우에는 해당 기능에 대한 구성을 변경할 수 없습니다. 또한 노드에서 라이센스가 없는 기능을 사용하면 라이센스 계약을 준수하지 않을 수 있으므로 가능한 한 빨리 노드에 대한 교체 라이센스 키를 설치해야 합니다.</block>
   <block id="3e508eeaedfdae09fad57a764b5e2b73" category="section-title">단계 1: 손상된 컨트롤러 모듈을 종료합니다</block>
-  <block id="6f13230d5681e1c88b50f5ecbce62637" category="paragraph">다음 옵션 중 하나를 사용하여 손상된 컨트롤러 모듈을 종료하거나 인계하십시오.</block>
   <block id="5d053cb0e109f37b3c9cfa31e957c2bc" category="list-text">컨트롤러 모듈을 섀시에서 3인치 정도 당겨 전원을 분리합니다.</block>
-  <block id="d9d1de25706aa51c5367e4dafd60898e" category="list-text">섀시에서 대상 슬롯 블랭킹 모듈을 탈거하십시오.</block>
-  <block id="192d3ce6854b267e65d46222f8f3a24f" category="image-alt">입출력 모듈을 분리합니다</block>
-  <block id="75fa26086844dfcbf14f35086518217a" category="list-text">블랭킹 모듈을 탈거하십시오.</block>
-  <block id="2b6adb50592127273fdb4bb2b68918d5" category="list-text">I/O 모듈을 컨트롤러 모듈 슬롯 입구의 가장자리에 맞춥니다.</block>
-  <block id="97366bfb1dcb5b97156c347c8ad89d9a" category="list-text">모듈을 슬롯에 완전히 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
   <block id="6181ce929bc404494408989e6b8a9b52" category="paragraph">I/O 모듈을 교체하려면 컨트롤러 모듈 내에서 해당 모듈을 찾아 특정 단계의 순서를 따릅니다.</block>
   <block id="8a9a8a0db84d9dd59b0f006930b47193" category="list-text">캠 래치 버튼을 누릅니다.</block>
-  <block id="422e2aa4ec97de509f54db9d23618f37" category="list-text">캠 레버 입구에 손가락을 넣고 모듈을 섀시에서 당겨 모듈을 섀시에서 분리합니다.</block>
-  <block id="ce8b63d25565a610d1f9564150f85914" category="list-text">모듈을 조심스럽게 슬롯에 밀어 섀시에 완전히 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.</block>
-  <block id="fb2068c184d4dbf1c0e520d9e9b173b2" category="list-text">제거 및 설치 단계를 반복하여 컨트롤러 모듈의 추가 모듈을 교체합니다.</block>
   <block id="ed5714a7b9709284c56117bd6dc4e081" category="list-text">케이블 관리 트레이를 잠금 위치로 돌립니다.</block>
-  <block id="268bccb6c35b538d967467b5d2935b49" category="list-text">LOADER 프롬프트에서 컨트롤러 모듈을 재부팅합니다. _ bye _</block>
-  <block id="253b24d74d0517388c6e5b078713c86a" category="inline-link">Burt 1494308 - I/O 모듈 교체 중에 환경 종료가 트리거될 수 있습니다</block>
-  <block id="fc5ee1a4ca46ff0160eeada84fe673fc" category="admonition">재부팅 중에 문제가 발생하면 을 참조하십시오<block ref="5f4b19e33781d4df6c59a005be26e607" category="inline-link-rx"></block></block>
-  <block id="cfedf0b233356261eb909e7add24bded" category="list-text">파트너 컨트롤러 모듈에서 컨트롤러 모듈을 되돌립니다. _스토리지 페일오버 반환 - ofnode target_node_name_</block>
   <block id="43d656a7b2fb92dbbe5e13b8f00a00b8" category="list-text">시스템 관리 캠 버튼을 누릅니다. 캠 레버가 섀시에서 멀어집니다.</block>
   <block id="f0d27e50eb41ec006d18a96b5254063e" category="list-text">캠 레버를 완전히 아래로 돌려 컨트롤러 모듈에서 시스템 관리 모듈을 분리합니다.</block>
   <block id="54a53a09772d42f23357a9952d2d46a1" category="section-title">2단계: 부팅 이미지를 부팅 미디어로 전송합니다</block>
@@ -8848,7 +8812,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f3585daa539c5917b4fedd0eb7efb3f2" category="sidebar">AFF 시스템</block>
   <block id="6476573ba5b973ad8ea01c57f5b30267" category="sidebar">ASA 시스템</block>
   <block id="9aaba65702056e024efc0836758c1538" category="sidebar">핫 애드를 완료합니다</block>
-  <block id="b1cd69e899e8ab2e8b0c559899a3f2d7" category="admonition">다음 그림에서는 수평 및 수직 I/O 모듈 분리를 보여 줍니다. 일반적으로 하나의 입출력 모듈만 제거합니다.</block>
   <block id="3e6277588162255770fd3384bad09d6d" category="list-text">컨트롤러의 LOADER 프롬프트에서 컨트롤러를 부팅하고 시스템 ID가 일치하지 않아 시스템 ID를 재정의하라는 메시지가 표시될 때 _y_를 입력합니다.</block>
   <block id="9daabece8db7521a7882f63ebd76a891" category="image-alt">상단의 분리 단추가 있는 드라이브를 분리합니다</block>
   <block id="e0bc24820711c466532ba2cb67ababd9" category="image-alt">분리 단추가 중간에 있는 드라이브를 분리합니다</block>
@@ -9088,7 +9051,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0e6eb93881093798ffaf4eef324aae16" category="list-text">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
   <block id="f399facc82d214513205adcdfed1e55f" category="image-alt">시트 디스크 드라이브</block>
   <block id="f20a0219f10b0070c92efe4269486629" category="list-text">스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
-  <block id="86e8e2badf42560bb0b1ed3bac3933fa" category="paragraph">에 설명된 대로 NS224 쉘프를 설치하고 케이블을 <block ref="4dfda7c2f93914990922f65bd50f90b3" category="inline-link-macro-rx"></block>연결합니다.</block>
   <block id="b9c98500ab9d006e0d9fd3d1c95f7904" category="paragraph">케이블 연결에 대한 자세한 내용은 을 <block ref="b8ff88c1a2e9444f28ec1504689e0040" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="ef83cb60cd5ea6118e6d106efa30f927" category="image-alt">인양 무게 주의 사항</block>
   <block id="f3badb2cde47b97db55936f633e8bbf1" category="image-alt">스위치가 없는 2노드 클러스터 복합 케이블 연결</block>
@@ -9833,7 +9795,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c285ffddf1786cd1a14a26bcf9b74c7d" category="paragraph"><block ref="061047859ec1e213bd771fe5350bda2c" prefix="" category="inline-code"></block></block>
   <block id="811ae15d713f8c846d0516e053f895b2" category="list-text">Loader가 로컬 클러스터 포트를 구성하고 파트너 노드에서 실행할 때 부팅 미디어 복구 프로세스를<block ref="83a4445bcfef2bd179eaffaabe3b3c20" prefix=" " category="inline-code"></block> 모니터링합니다.</block>
   <block id="8f616ca67798afd132662e15fc4caa28" category="paragraph">netboot가 실행 중이면<block ref="f6715e6f2a651bfc51d27566b1be5385" prefix=" " category="inline-code"></block> 메시지가 표시됩니다.</block>
-  <block id="ab8b7433e2ad2aa82ba07b42b4cd465d" category="list-text">암호화 방법에 따라 단일 노드 구성과 일치하는 옵션을 선택합니다.</block>
   <block id="39cb6e7651585d511fc148af8198837f" category="open-title">암호화 없음</block>
   <block id="aada4d2dac8a2a5bd04bf211104ff2c5" category="paragraph">암호화가 감지되지 않으면 키 관리 없이 부팅 미디어 복구 프로세스가 계속됩니다.</block>
   <block id="69c50e084d31ca90079f6b8b4409607b" category="paragraph">파트너 노드에서 백업 구성, env 파일, MDB 및 RDB를 복구하면서 복구 프로세스를 계속 모니터링합니다.</block>
@@ -10190,7 +10151,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="13e7cf07309f0d95eee5aa49b6842dc0" category="doc">암호화 키 지원 및 상태 확인 - FAS9500</block>
   <block id="e4d9374bc79ce9095fb021e03551599f" category="doc">암호화 복원 - FAS9500</block>
   <block id="bd5c047c4a41e95a8a9424888875e56a" category="list-text">지정된 장치에 입출력 모듈을 케이블로 연결합니다.</block>
-  <block id="2d8241a8fe54414b6494b29d26d8b251" category="list-text">정상 작동이 확인된 노드에서 명령을 사용하여 자동 반환을 비활성화한 경우<block ref="6f0c6616b99fea33a3020e0e0dcbe3c6" prefix=" " category="inline-code"></block> 복원합니다.</block>
   <block id="9d462bd05672844aeab0d3d5d323d66a" category="list-text">컨트롤러를 다시 설치하고 컨트롤러 모듈에 전원을 다시 연결합니다.</block>
   <block id="4d872659b015ad414d5e68440a7ddfd6" category="paragraph">컨트롤러가 장착되고 전원이 복구되는 즉시 부팅이 시작됩니다.</block>
   <block id="6f3fa8086df2fa20b3e903512f693396" category="list-text">손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.</block>
@@ -10370,9 +10330,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="09109aaca603d8ac1da46aa588c46f63" category="paragraph">NIC-NIC(포트 수가 다름)</block>
   <block id="4e7b2ae169cb37276347e7c88d211db4" category="paragraph">선택한 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 자세한 내용은 을<block ref="8a81e44d8701c7e0abd4b6ad328792f0" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="0c3f64052572f9d13d9b078656a055e4" category="paragraph">스토리지 입출력 모듈에 대한 NIC</block>
-  <block id="deaf42dafc1e4522c0ccf86ad58f237e" category="list-text">파트너 컨트롤러에서 컨트롤러를 반환하십시오. '스토리지 페일오버 반환 - ofnode target_node_name'입니다</block>
-  <block id="c1d0761e549ef1ce873a404f8d41a2d5" category="list-text">Loader 프롬프트에서 컨트롤러를 재부팅합니다.<block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix=" " category="inline-code"></block></block>
-  <block id="5d831aef00c06eb087aebfb790f041b7" category="section-title">2단계: 새 입출력 모듈 추가</block>
   <block id="68c06f8f4688078ddfe1ceedef798cae" category="list-text">파트너 컨트롤러에서 컨트롤러를 반납합니다.</block>
   <block id="523f5a38bba8d64b2af1cdee174a06cc" category="paragraph"><block ref="49c908925c3b8a3554612823f81c8964" prefix="" category="inline-code"></block></block>
   <block id="b98036ad0a9b610670da83fe762dadb5" category="list-text">정상 작동이 확인된 노드에서 다음 명령을 사용하여 자동 반환을 비활성화한 경우 복원합니다.</block>
@@ -10392,4 +10349,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cac74c301a508cf350f8f41a7de866a0" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 ASA A1K 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="94aa992895c11cf963b2b749b84aa267" category="paragraph">사용 가능한 슬롯이 비어 있거나 모든 슬롯이 완전히 채워진 경우 FAS70 및 FAS90 스토리지 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="bc049e4428d592b69605104cc85d56bc" category="section-title">2단계: 새 입출력 모듈을 추가합니다</block>
+  <block id="a6448c631c301c525a61c500fdf8e46a" category="list-text">암호화 방법에 따라 시스템 구성과 일치하는 옵션을 선택합니다.</block>
+  <block id="92ba658b9a66d0825f0f084b7da309b7" category="list-text">시스템에서 암호화를 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고, 그렇지 않으면 로 이동합니다<block ref="d767082d20397ebb99e586749eda3a08" category="inline-link-macro-rx"></block>.</block>
 </blocks>
