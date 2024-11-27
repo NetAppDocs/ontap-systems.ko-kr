@@ -1,0 +1,28 @@
+= 
+:allow-uri-read: 
+
+
+I/O 모듈을 교체한 후 컨트롤러 모듈을 재부팅해야 합니다.
+
+.단계
+. Loader 프롬프트에서 노드를 재부팅합니다.
++
+`bye`
+
++
+
+NOTE: 그러면 I/O 모듈 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
+. 파트너 컨트롤러에서 컨트롤러를 반납합니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 정상 상태의 노드에서 자동 반환을 해제한 경우 복원합니다.
++
+`storage failover modify -node local -auto-giveback _true_`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+

@@ -9513,9 +9513,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="53211074b0edd2a1e49952ae0a99c70e" category="doc">실시간 클럭 배터리(ASA A1K)를 교체합니다</block>
   <block id="791c7d7e48c500e265e759e91a1190c4" category="paragraph">다음 시스템, 쉘프 및 스위치는 지정된 ONTAP 버전에서 더 이상 지원되지 않습니다.</block>
   <block id="e039aa1be61543fd84f1c4eb5d3e9f6b" category="section-title">ONTAP 하드웨어 시스템</block>
-  <block id="2d32b3d87a83d9147e0da8371e685ab9" category="section-title">쉘프 모듈</block>
   <block id="65cc6c94582f61a33aa4704c52ac52c0" category="cell">쉘프 모듈</block>
-  <block id="8c5d814fd2a79ee668b40d5bb90febe6" category="paragraph">IOM 6 모듈</block>
   <block id="a50d5562329cec378062f8ecd6f08580" category="doc">장애가 발생한 부품을 NetApp-FAS70 및 FAS90으로 반환합니다</block>
   <block id="70e171be442c06a383310683a983f973" category="doc">암호화 복원 - FAS70 및 FAS90</block>
   <block id="0f8fed13fee9009a30d0eed748301401" category="doc">복구 이미지 부팅 - FAS70 및 FAS90</block>
@@ -10332,8 +10330,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0c3f64052572f9d13d9b078656a055e4" category="paragraph">스토리지 입출력 모듈에 대한 NIC</block>
   <block id="68c06f8f4688078ddfe1ceedef798cae" category="list-text">파트너 컨트롤러에서 컨트롤러를 반납합니다.</block>
   <block id="523f5a38bba8d64b2af1cdee174a06cc" category="paragraph"><block ref="49c908925c3b8a3554612823f81c8964" prefix="" category="inline-code"></block></block>
-  <block id="b98036ad0a9b610670da83fe762dadb5" category="list-text">정상 작동이 확인된 노드에서 다음 명령을 사용하여 자동 반환을 비활성화한 경우 복원합니다.</block>
-  <block id="518d4ff09aabdcee7f75f2c44315aa32" category="list-text">AutoSupport가 활성화된 경우 다음 명령을 사용하여 자동 케이스 생성을 복원합니다.</block>
   <block id="4bcd1563c4332086304e70dd3fb7e19a" category="list-text">비활성화된 경우 자동 반환 활성화:</block>
   <block id="1e80f086f2d3ddea0cd02baa25f9c2f1" category="list-text">NIC 입출력 모듈을 제거하고 새 NIC 입출력 모듈을 설치한 경우 각 포트에 대해 다음 네트워크 명령을 사용하십시오.</block>
   <block id="157602c08bdec493e8c79f5e41971ab6" category="paragraph"><block ref="9dedaa5871e5e9684cbae52f5e1b987d" prefix="" category="inline-code"></block></block>
@@ -10351,4 +10347,17 @@ SFP+(타겟/이니시에이터)</block>
   <block id="bc049e4428d592b69605104cc85d56bc" category="section-title">2단계: 새 입출력 모듈을 추가합니다</block>
   <block id="a6448c631c301c525a61c500fdf8e46a" category="list-text">암호화 방법에 따라 시스템 구성과 일치하는 옵션을 선택합니다.</block>
   <block id="92ba658b9a66d0825f0f084b7da309b7" category="list-text">시스템에서 암호화를 사용하지 않는 경우 _option 1 Normal Boot._를 선택하고, 그렇지 않으면 로 이동합니다<block ref="d767082d20397ebb99e586749eda3a08" category="inline-link-macro-rx"></block>.</block>
+  <block id="efd2f4952f00033a0e6fc35f4c287446" category="paragraph">스토리지 시스템에 사용 가능한 슬롯이 있는 경우 사용 가능한 슬롯 중 하나에 새 입출력 모듈을 설치합니다. 모든 슬롯이 사용 중인 경우 기존 입출력 모듈을 제거하여 공간을 확보한 다음 새 입출력 모듈을 설치합니다.</block>
+  <block id="6d65586ee736e7deb557e0892d29cb10" category="open-title">사용 가능한 슬롯에 입출력 모듈을 추가합니다</block>
+  <block id="49a08f00572d73e2840b5619c89ab1e1" category="paragraph">사용 가능한 슬롯이 있는 스토리지 시스템에 새 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="ca7d77450cda007d5de82ede81b0d00a" category="list-text">Loader 프롬프트에서 노드를 재부팅합니다.</block>
+  <block id="b8f2c5ae8a36c3665d2a4dca23133f73" category="paragraph"><block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix="" category="inline-code"></block></block>
+  <block id="828affe31ac2a06ccc21501bfa636556" category="admonition">그러면 I/O 모듈 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.</block>
+  <block id="6f756efb267a066160637f10de5a5a2a" category="list-text">정상 상태의 노드에서 자동 반환을 해제한 경우 복원합니다.</block>
+  <block id="670c1c5a5408c616a1d3cfe47f4ac730" category="paragraph"><block ref="20fc6f4f297f578893ff3fdce470b0b3" prefix="" category="inline-code"></block></block>
+  <block id="65f59d8f76000eaee913fff3a76a6a03" category="paragraph">현재 지원되지 않는 하드웨어에 대해서는 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="e9a03ff1b18d65002e3e1c03a0219bb4" category="paragraph">IOM6 6Gb/s SAS 모듈, 사용 위치:</block>
+  <block id="e688c272d2fffea0002fa7b68d0816ed" category="list-text">DS2246를 참조하십시오</block>
+  <block id="4ff171b65bafa644d75f512e8e9e42e8" category="list-text">DS4246를 참조하십시오</block>
+  <block id="a35582cda1497b785cabaa95e67fda6e" category="list-text">DS4486를 참조하십시오</block>
 </blocks>
