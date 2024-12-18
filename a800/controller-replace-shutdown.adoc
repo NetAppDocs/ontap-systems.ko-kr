@@ -26,7 +26,7 @@ summary: 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인
 +
 다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다. `cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
 
-. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 정상 상태의 컨트롤러 콘솔에서 자동 반환 비활성화: `storage failover modify -node local -auto-giveback false`
 +
 
 NOTE: 자동 반환을 비활성화하시겠습니까?_가 표시되면 'y'를 입력합니다.

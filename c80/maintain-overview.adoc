@@ -1,0 +1,110 @@
+---
+permalink: c80/maintain-overview.html 
+sidebar: sidebar 
+keywords: c80 maintenance, maintenance, repairing aff c80, repairing c80, replace c80 components 
+summary: AFF C80하드웨어를 유지 관리합니다 
+---
+= AFF C80 하드웨어를 유지 관리합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. AFF C80 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와 있습니다.
+
+이 섹션의 절차에서는 AFF C80 시스템이 이미 ONTAP 환경에서 스토리지 노드로 구축되어 있다고 가정합니다.
+
+
+
+== 시스템 구성 요소
+
+AFF C80 저장 장치 시스템의 경우 다음 구성 요소에 대한 유지 보수 절차를 수행할 수 있습니다.
+
+[cols="25,65"]
+|===
+
+
+ a| 
+link:bootmedia-replace-workflow.html["미디어를 부팅합니다"]
+ a| 
+부팅 매체는 시스템이 부팅할 때 사용하는 ONTAP 이미지 파일의 기본 및 보조 세트를 저장합니다.
+
+
+
+ a| 
+link:chassis-replace-workflow.html["섀시"]
+ a| 
+섀시는 컨트롤러/CPU 장치, 전원 공급 장치 및 I/O와 같은 모든 컨트롤러 구성 요소를 수용하는 물리적 인클로저입니다
+
+
+
+ a| 
+link:controller-replace-workflow.html["컨트롤러"]
+ a| 
+컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 ONTAP 운영 체제 소프트웨어를 실행합니다.
+
+
+
+ a| 
+link:dimm-replace.html["DIMM"]
+ a| 
+듀얼 인라인 메모리 모듈(DIMM)은 일종의 컴퓨터 메모리입니다. 컨트롤러 마더보드에 시스템 메모리를 추가하기 위해 설치됩니다.
+
+
+
+ a| 
+link:drive-replace.html["드라이브"]
+ a| 
+드라이브는 데이터에 필요한 물리적 스토리지를 제공하는 장치입니다.
+
+
+
+ a| 
+link:fan-swap-out.html["팬"]
+ a| 
+팬은 컨트롤러를 냉각시킵니다.
+
+
+
+ a| 
+link:nvram-replace.html["NVRAM"]
+ a| 
+NVRAM(Non-Volatile Random Access Memory)은 시스템 전원이 꺼질 경우 컨트롤러가 전송 중인 데이터를 보호하고 저장할 수 있도록 하는 모듈입니다. 시스템 ID는 NVRAM 모듈에 상주합니다. 교체된 경우 컨트롤러는 교체용 NVRAM 모듈의 새 시스템 ID로 가정합니다.
+
+
+
+ a| 
+link:nvdimm-battery-replace.html["NV 배터리"]
+ a| 
+NV 배터리는 정전 후 전송 중인 데이터가 플래시 메모리로 디스테이징되는 동안 NVRAM 모듈에 전원을 공급하는 역할을 합니다.
+
+
+
+ a| 
+link:io-module-overview.html["입출력 모듈"]
+ a| 
+I/O 모듈(입/출력 모듈)은 컨트롤러와 데이터를 교환해야 하는 여러 장치 또는 시스템 간의 중간 역할을 하는 하드웨어 구성 요소입니다.
+
+
+
+ a| 
+link:power-supply-replace.html["전원 공급 장치"]
+ a| 
+전원 공급 장치는 컨트롤러에 중복 전원을 제공합니다.
+
+
+
+ a| 
+link:rtc-battery-replace.html["실시간 시계 배터리"]
+ a| 
+전원이 꺼져 있는 경우 실시간 클럭 배터리는 시스템 날짜 및 시간 정보를 보존합니다.
+
+
+
+ a| 
+link:system-management-replace.html["시스템 관리 모듈"]
+ a| 
+시스템 관리 모듈은 컨트롤러 또는 시스템 유지 관리를 위해 컨트롤러와 콘솔 또는 랩톱 간에 인터페이스를 제공합니다. 시스템 관리 모듈에는 부팅 매체가 포함되어 있으며 시스템 일련 번호(SSN)가 저장됩니다.
+
+|===

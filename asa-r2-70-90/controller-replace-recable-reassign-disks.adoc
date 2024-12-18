@@ -39,12 +39,6 @@ summary: 스토리지를 재부팅해야 합니다.
 .온보드 암호화(OKM)
 --
 . Loader 프롬프트에서 를 입력합니다 `boot_ontap maint`.
-. 명령을 사용하여 TMP 펌웨어 버전을 `sysconfig -v` 확인합니다.
-+
-** 버전이 5.63 미만인 경우 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
-** 버전이 5.63 이상이면 Loader 프롬프트를 종료합니다 `halt`.
-
-
 . Loader 프롬프트에서 ONTAP 메뉴로 부팅하고 `boot_ontap menu` 옵션 10을 선택합니다.
 . OKM 암호를 입력합니다. 이 암호를 고객으로부터 받거나 에 문의할 수 https://support.netapp.com["NetApp 지원"] 있습니다.
 +

@@ -1,0 +1,188 @@
+= 
+:allow-uri-read: 
+
+
+[role="tabbed-block"]
+====
+.AFF 시스템
+--
+AFF A-Series 및 AFF C-Series 시스템은 가상화 환경에 맞게 조정된 강력한 스케일아웃 플랫폼을 제공합니다. 독립 실행형 시스템 또는 NetApp ONTAP 구성에서 고성능 계층으로 구축할 수 있습니다. link:https://www.netapp.com/data-storage/all-flash-san-storage-array["AFF 시스템에 대해 자세히 알아보십시오"]..
+
+AFF A-Series 및 AFF C-Series 시스템은 다음 ONTAP 릴리즈와 호환됩니다.
+
+ONTAP 9.16.1::
++
+--
+* AFF A20 를 참조하십시오
+* AFF A30 를 참조하십시오
+* AFF A50 를 참조하십시오
+* AFF C30 를 참조하십시오
+* AFF C60 를 참조하십시오
+* AFF C80 를 참조하십시오
+
+
+--
+ONTAP 9.15.1::
++
+--
+* AFF A1K 를 참조하십시오
+* AFF A70 를 참조하십시오
+* AFF A90 를 참조하십시오
+
+
+--
+ONTAP 9.12.1P1::
++
+--
+* AFF A150
+* AFF C250
+* AFF C400
+* AFF C800
+
+
+--
+ONTAP 9.10.1::
++
+--
+* AFF A900
+
+
+--
+ONTAP 9.8::
++
+--
+* AFF A250
+
+
+--
+ONTAP 9.7::
++
+--
+* AFF A400
+* AFF A800
+
+
+--
+
+
+--
+.ASA r2 시스템
+--
+ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. link:https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html["ASA R2 시스템에 대해 자세히 알아보십시오"]..
+
+ASA R2 시스템은 다음 ONTAP 릴리즈와 호환됩니다.
+
+ONTAP 9.16.0::
++
+--
+* ASA A1K 를 참조하십시오
+* ASA A70 를 참조하십시오
+* ASA A90 를 참조하십시오
+
+
+--
+
+
+--
+.ASA 시스템
+--
+ASA A-Series 및 ASA C-Series 시스템은 FCP 또는 iSCSI 프로토콜을 사용하여 엔터프라이즈 미션 크리티컬 데이터베이스 및 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다. link:https://www.netapp.com/data-storage/all-flash-san-storage-array["ASA 시스템에 대해 자세히 알아보십시오"]..
+
+ASA 시스템은 다음 ONTAP 릴리스와 호환됩니다.
+
+ONTAP 9.13.1P1::
++
+--
+* ASA C250 을 참조하십시오
+* ASA C400 을 참조하십시오
+* ASA C800을 참조하십시오
+
+
+--
+ONTAP 9.13.1 을 참조하십시오::
++
+--
+* ASA A150
+* ASA A250
+* ASA A400
+* ASA A900
+
+
+--
+ONTAP 9.8::
++
+--
+* ASA AFF A250
+* ASA AFF A800
+
+
+--
+ONTAP 9.7::
++
+--
+* ASA AFF A400
+
+
+--
+
+
+--
+.FAS 시스템
+--
+FAS 시스템은 계층화, 백업 및 재해 복구를 위한 최상의 솔루션인 효율적이고 안전한 2차 스토리지를 제공합니다. link:https://www.netapp.com/data-storage/fas/["FAS 시스템에 대해 자세히 알아보십시오"]..
+
+FAS 시스템은 다음 ONTAP 릴리스와 호환됩니다.
+
+ONTAP 9.15.1::
++
+--
+* FAS70를 참조하십시오
+* FAS90를 참조하십시오
+
+
+--
+ONTAP 9.13.1 을 참조하십시오::
++
+--
+* FAS2820
+
+
+--
+ONTAP 9.11.1::
++
+--
+* FAS9500
+
+
+--
+ONTAP 9.10.1P3입니다::
++
+--
+* FAS9500
+
+
+--
+ONTAP 9.7::
++
+--
+* FAS2750를 참조하십시오
+* FAS8300
+* FAS8700
+
+
+--
+
+
+--
+.드라이브 쉘프
+--
+드라이브 쉘프는 NetApp AFF, ASA 및 FAS 시스템을 위해 특별히 설계되었으며 디지털 전환 시 필요한 성능, 복원력 및 유연성을 제공합니다.
+
+드라이브 쉘프는 다음 ONTAP 릴리즈부터 제공됩니다.
+
+ONTAP 9.16.1:: NS224 및 NSM100B 모듈 포함
+ONTAP 9.6:: NSM100 모듈 포함 NS224 쉘프
+
+
+--
+====

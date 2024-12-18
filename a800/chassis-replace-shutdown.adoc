@@ -56,11 +56,11 @@ NOTE: 진행 상황을 모니터링할 수 있도록 모든 SP/BMC 연결에 대
 
 . 손상된 섀시에 있는 2개의 노드를 중지합니다.
 +
-`system node halt -node <node>,<node2> -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true`
+`system node halt -node <node1>,<node2> -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true`
 
 +
 
-NOTE: StrictSync 모드에서 운영되는 SnapMirror 동기식 클러스터를 사용하는 클러스터의 경우: `system node halt -node <node>,<node2>  -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true -ignore-strict-sync-warnings true`
+NOTE: StrictSync 모드에서 운영되는 SnapMirror 동기식 클러스터를 사용하는 클러스터의 경우: `system node halt -node <node1>,<node2>  -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true -ignore-strict-sync-warnings true`
 
 . 가 표시되면 클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다 `_Warning: Are you sure you want to halt node "cluster <node-name> number"?
 {y|n}:_`

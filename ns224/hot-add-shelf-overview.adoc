@@ -14,7 +14,9 @@ summary: NS224 드라이브 쉘프를 핫 추가하려면 HA 쌍이 특정 요�
 다음 워크플로우 단계에 따라 NS224 쉘프를 핫 추가하십시오.
 
 .시작하기 전에
-NS224 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다. 를 검토합니다. link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]
+* 이 절차는 직접 연결된 스토리지에만 적용됩니다. 스위치 부착 스토리지에 대한 지침을 보려면 를 link:cable-as-switch-attached.html["스위치 연결 케이블 연결 가이드"]참조하십시오.
+* NS224 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해야 합니다. 를 검토합니다. link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]
+
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:prepare-hot-add-shelf.html["핫 애드 준비를 하세요"]
 [role="quick-margin-para"]

@@ -1,0 +1,94 @@
+---
+section: a20-30-50
+title: AFF A20, AFF A30 및 AFF A50 시스템
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF A20, AFF A30 및 AFF A50 설치 및 설정
+  entries:
+  - title: 워크플로를 설치합니다
+    url: "/a20-30-50/install-overview.html"
+  - title: 요구사항 검토
+    url: "/a20-30-50/install-requirements.html"
+  - title: 설치 준비
+    url: "/a20-30-50/install-prepare.html"
+  - title: 하드웨어를 설치합니다
+    url: "/a20-30-50/install-hardware.html"
+  - title: 하드웨어 케이블 연결
+    url: "/a20-30-50/install-cable.html"
+  - title: 시스템 전원을 켭니다
+    url: "/a20-30-50/install-power-hardware.html"
+  - title: 시스템 설치를 완료합니다
+    url: "/a20-30-50/install-complete.html"
+- title: 유지 관리
+  pdf-filename: AFF A20, AFF A30 및 AFF A50 유지 보수
+  entries:
+  - title: 유지 보수 개요
+    url: "/a20-30-50/maintain-overview.html"
+  - title: 미디어를 부팅합니다
+    entries:
+    - title: 부팅 미디어 대체 워크플로
+      url: "/a20-30-50/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a20-30-50/bootmedia-replace-requirements.html"
+    - title: 암호화 키를 확인합니다
+      url: "/a20-30-50/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a20-30-50/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/a20-30-50/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/a20-30-50/bootmedia-recovery-image-boot.html"
+    - title: 암호화를 복원합니다
+      url: "/a20-30-50/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/a20-30-50/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: AFF A20, AFF A30 및 AFF A50 섀시
+    entries:
+    - title: 섀시 교체 작업 흐름
+      url: "/a20-30-50/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a20-30-50/chassis-replace-requirements.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/a20-30-50/chassis-replace-shutdown.html"
+    - title: 섀시를 교체합니다
+      url: "/a20-30-50/chassis-replace-move-hardware.html"
+    - title: 섀시 교체를 완료합니다
+      url: "/a20-30-50/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러
+    pdf-filename: AFF A20, AFF A30 및 AFF A50 컨트롤러 모듈
+    entries:
+    - title: 컨트롤러 교체 워크플로우
+      url: "/a20-30-50/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a20-30-50/controller-replace-requirements.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/a20-30-50/controller-replace-shutdown.html"
+    - title: 컨트롤러를 교체합니다
+      url: "/a20-30-50/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/a20-30-50/controller-replace-system-config-restore-and-verify.html"
+    - title: 컨트롤러를 반납합니다
+      url: "/a20-30-50/controller-replace-recable-reassign-disks.html"
+    - title: 전체 컨트롤러 교체
+      url: "/a20-30-50/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    url: "/a20-30-50/dimm-replace.html"
+  - title: 드라이브
+    url: "/a20-30-50/drive-replace.html"
+  - title: 팬
+    url: "/a20-30-50/fan-replace.html"
+  - title: 입출력 모듈
+    entries:
+    - title: I/O 모듈 개요
+      url: "/a20-30-50/io-module-overview.html"
+    - title: 입출력 모듈을 추가합니다
+      url: "/a20-30-50/io-module-add.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "/a20-30-50/io-module-replace.html"
+  - title: NV 배터리
+    url: "/a20-30-50/nvdimm-battery-replace.html"
+  - title: 전원 공급 장치
+    url: "/a20-30-50/power-supply-replace.html"
+  - title: 실시간 시계 배터리
+    url: "/a20-30-50/rtc-battery-replace.html"

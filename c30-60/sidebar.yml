@@ -1,0 +1,94 @@
+---
+section: c30-60
+title: AFF C30 및 AFF C60 시스템
+entries:
+- title: 설치 및 설정
+  pdf-filename: AFF C30 및 AFF C60 설치 및 설정
+  entries:
+  - title: 워크플로를 설치합니다
+    url: "/c30-60/install-overview.html"
+  - title: 요구사항 검토
+    url: "/c30-60/install-requirements.html"
+  - title: 설치 준비
+    url: "/c30-60/install-prepare.html"
+  - title: 하드웨어를 설치합니다
+    url: "/c30-60/install-hardware.html"
+  - title: 하드웨어 케이블 연결
+    url: "/c30-60/install-cable.html"
+  - title: 시스템 전원을 켭니다
+    url: "/c30-60/install-power-hardware.html"
+  - title: 시스템 설치를 완료합니다
+    url: "/c30-60/install-complete.html"
+- title: 유지 관리
+  pdf-filename: AFF C30 및 AFF C60 유지 보수
+  entries:
+  - title: 유지 보수 개요
+    url: "/c30-60/maintain-overview.html"
+  - title: 미디어를 부팅합니다
+    entries:
+    - title: 부팅 미디어 대체 워크플로
+      url: "/c30-60/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/c30-60/bootmedia-replace-requirements.html"
+    - title: 암호화 키를 확인합니다
+      url: "/c30-60/bootmedia-encryption-preshutdown-checks.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/c30-60/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/c30-60/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/c30-60/bootmedia-recovery-image-boot.html"
+    - title: 암호화를 복원합니다
+      url: "/c30-60/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/c30-60/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: AFF C30 및 AFF C60 섀시
+    entries:
+    - title: 섀시 교체 작업 흐름
+      url: "/c30-60/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/c30-60/chassis-replace-requirements.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/c30-60/chassis-replace-shutdown.html"
+    - title: 섀시를 교체합니다
+      url: "/c30-60/chassis-replace-move-hardware.html"
+    - title: 섀시 교체를 완료합니다
+      url: "/c30-60/chassis-replace-complete-system-restore-rma.html"
+  - title: 컨트롤러
+    pdf-filename: AFF C30 및 AFF C60 컨트롤러 모듈
+    entries:
+    - title: 컨트롤러 교체 워크플로우
+      url: "/c30-60/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/c30-60/controller-replace-requirements.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/c30-60/controller-replace-shutdown.html"
+    - title: 컨트롤러를 교체합니다
+      url: "/c30-60/controller-replace-move-hardware.html"
+    - title: 시스템 구성을 복원합니다
+      url: "/c30-60/controller-replace-system-config-restore-and-verify.html"
+    - title: 재배열 및 컨트롤러 반환
+      url: "/c30-60/controller-replace-recable-reassign-disks.html"
+    - title: 전체 컨트롤러 교체
+      url: "/c30-60/controller-replace-restore-system-rma.html"
+  - title: DIMM
+    url: "/c30-60/dimm-replace.html"
+  - title: 드라이브
+    url: "/c30-60/drive-replace.html"
+  - title: 팬
+    url: "/c30-60/fan-replace.html"
+  - title: 입출력 모듈
+    entries:
+    - title: I/O 모듈 개요
+      url: "/c30-60/io-module-overview.html"
+    - title: 입출력 모듈을 추가합니다
+      url: "/c30-60/io-module-add.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "/c30-60/io-module-replace.html"
+  - title: NV 배터리
+    url: "/c30-60/nvdimm-battery-replace.html"
+  - title: 전원 공급 장치
+    url: "/c30-60/power-supply-replace.html"
+  - title: 실시간 시계 배터리
+    url: "/c30-60/rtc-battery-replace.html"

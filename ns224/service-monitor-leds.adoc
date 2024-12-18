@@ -1,7 +1,7 @@
 ---
 permalink: ns224/service-monitor-leds.html 
 sidebar: sidebar 
-keywords: monitor, health, drive, shelf, location, status, condition, led, component, operator, display, panel, nsm, power, supply, drive, monitor drive shelf leds, operator display panel leds, nsm module leds, power supply leds, drive leds 
+keywords: monitor, health, drive, shelf, location, status, condition, led, component, operator, display, panel, nsm, power, supply, drive, monitor drive shelf leds, operator display panel leds, nsm leds, power supply leds, drive leds 
 summary: 드라이브 쉘프 구성 요소의 상태 및 위치를 이해하면 드라이브 쉘프 상태를 모니터링할 수 있습니다. 
 ---
 = 드라이브 쉘프 LED - NS224 쉘프 모니터링
@@ -13,7 +13,7 @@ summary: 드라이브 쉘프 구성 요소의 상태 및 위치를 이해하면 
 [role="lead"]
 드라이브 쉘프 구성 요소의 상태 및 위치를 이해하면 드라이브 쉘프 상태를 모니터링할 수 있습니다.
 
-* 선반 ODP(operator display panel)와 두 NSM 모듈의 위치(blue) LED는 서비스가 필요한 셸프를 물리적으로 찾을 수 있도록 활성화할 수 있습니다. `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
+* Shelf의 ODP(Operator Display Panel) 및 두 NSM 모두에 있는 위치(파란색) LED를 활성화하여 서비스가 필요한 선반을 물리적으로 찾을 수 있습니다. `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
 +
 해당 셸프의 '_shelf_name_'을 모르는 경우 'storage shelf show' 명령어를 실행한다.
 
@@ -87,12 +87,16 @@ image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위�
 |===
 
 
-== NSM 모듈 상태 표시등
+== NSM LED
 
-NSM 모듈의 LED는 모듈이 정상적으로 작동하는지 여부, 입출력 트래픽에 대한 준비가 되었는지 여부, 하드웨어에 문제가 있는지 여부를 나타냅니다.
+NSM의 LED는 모듈이 정상적으로 작동하는지 여부, 입출력 트래픽에 대한 준비가 되었는지 여부 및 하드웨어에 문제가 있는지 여부를 나타냅니다.
 
-다음 그림 및 표에서는 모듈의 기능과 관련된 NSM 모듈 상태 표시등 및 모듈의 각 NVMe 포트의 기능에 대해 설명합니다.
+다음 그림과 표는 모듈의 기능 및 모듈의 각 NVMe 포트의 기능과 관련된 NSM LED에 대해 설명합니다.
 
+[role="tabbed-block"]
+====
+.NSM100 모듈
+--
 image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[NS224 NSM100 모듈 상태 표시등]
 
 [cols="1,1,2,4"]
@@ -107,7 +111,7 @@ image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위�
  a| 
 파란색
  a| 
-NSM 모듈:위치
+NSM: 위치
 
 
 
@@ -118,7 +122,7 @@ image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 �
  a| 
 주황색
  a| 
-NSM 모듈: 주의
+NSM: 주의
 
 
 
@@ -143,6 +147,72 @@ image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 �
 NVMe 포트/링크: 주의
 
 |===
+--
+.NSM100B 모듈
+--
+image::../media/drw_ns224_nsmb_leds_ieops-2004.svg[NS224 NSM100B 모듈 상태 표시등]
+
+[cols="1,1,2,4"]
+|===
+| 전화하십시오 | LED 아이콘 | 색상 | 설명 
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+ a| 
+LNK
+ a| 
+녹색
+ a| 
+NVMe 포트/링크: 상태
+
+
+
+ a| 
+image:../media/icon_round_2.png["설명선 번호 2"]
+ a| 
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
+ a| 
+주황색
+ a| 
+NVMe 포트/링크: 주의
+
+
+
+ a| 
+image:../media/icon_round_3.png["설명선 번호 3"]
+ a| 
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
+ a| 
+주황색
+ a| 
+I/O 모듈: 상태
+
+
+
+ a| 
+image:../media/icon_round_4.png["설명선 번호 4"]
+ a| 
+image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위치 LED]
+ a| 
+파란색
+ a| 
+NSM: 위치
+
+
+
+ a| 
+image:../media/icon_round_5.png["설명선 번호 5"]
+ a| 
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
+ a| 
+주황색
+ a| 
+NSM: 주의
+
+|===
+--
+====
 [cols="2,1,1,1"]
 |===
 | 상태 | NSM 주의(황색) | 포트 LNK(녹색) | 포트 주의(황색) 
