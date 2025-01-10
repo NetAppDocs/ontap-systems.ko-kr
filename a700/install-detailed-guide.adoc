@@ -192,8 +192,7 @@ NOTE: 시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.
 +
 image::../media/drw_9000_lifting_icon.png[인양 무게 주의 사항]
 
-
-
++
 
 NOTE: 왼쪽에 있는 레이블은 빈 섀시를 나타내고, 오른쪽에 있는 레이블은 완전히 채워진 시스템을 나타냅니다.
 
@@ -230,8 +229,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 +
 .애니메이션 - 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
 video::7a55b98a-e8b8-41d5-821f-ac5b0032ead0[panopto]
-
-
++
 image::../media/drw_9000_TNSC_composite_cabling.png[스위치가 없는 2노드 클러스터 복합 케이블 연결]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
@@ -257,8 +255,7 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 +
 .애니메이션 - 스위치 방식 클러스터 케이블 연결
 video::6381b3f1-4ce5-4805-bd0a-ac5b0032f51d[panopto]
-
-
++
 image:../media/drw_9000_switched_cluster_cabling.png["스위치 클러스터 복합 케이블 연결"]
 
 . 로 이동합니다 <<4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다>> 드라이브 쉘프 케이블링 지침:
@@ -290,18 +287,16 @@ NOTE: 이 예에서는 DS224C 쉘프를 사용합니다. 케이블 연결은 지
 
 +
 ** FAS9000, AFF A700 및 ASA AFF A700, ONTAP 9.7 및 이전 버전의 SAS 쉘프 케이블링:
-
-
 +
 .애니메이션 - 케이블 SAS 스토리지 - ONTAP 9.7 이하
 video::a312e09e-df56-47b3-9b5e-ab2300477f67[panopto]
+
+
 +
 image:../media/SAS_storage_ONTAP_9.7_and_earlier.png["ONTAP 9.7 이하 버전에 대한 SAS 스토리지 케이블 연결"]
 
 +
 ** FAS9000, AFF A700 및 ASA AFF A700, ONTAP 9.8 이상의 SAS 쉘프 케이블링:
-
-
 +
 .애니메이션 - 케이블 SAS 스토리지 - ONTAP 9.8 이상
 video::61d23302-9526-4a2b-9335-ac5b0032eafd[panopto]
@@ -317,6 +312,8 @@ link:../sas3/install-new-system.html["새 시스템 설치용 쉘프 설치 및 
 
 +
 image:../media/Cable_shelves_new_system_IOM12_shelves.png["SAS 쉘프와 스토리지 시스템 케이블링"]
+
+
 
 . 로 이동합니다 <<5단계: 시스템 설치 및 구성을 완료합니다>> 시스템 설치 및 구성을 완료합니다.
 
@@ -467,7 +464,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 ONTAP의 추가 기능 구성에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^] 참조하십시오.
 
 
 
@@ -563,5 +560,5 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 ONTAP의 추가 기능 구성에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^] 참조하십시오.
 

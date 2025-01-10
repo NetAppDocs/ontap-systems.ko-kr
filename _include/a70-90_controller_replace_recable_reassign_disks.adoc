@@ -40,8 +40,6 @@ NOTE: 암호를 묻는 메시지가 두 번 표시됩니다.
 . 부팅 메뉴에서 일반 부팅에 대한 옵션을 입력합니다 `1`.
 . when_waiting for Giveback_이 표시되면 <enter> 키를 누릅니다.
 . 콘솔 케이블을 파트너 노드로 이동하고 로 `admin`로그인합니다.
-. 복구 노드의 모든 코어 덤프가 고급 모드로 이동하여 저장되었는지 확인합니다." `set -privilege advanced` `run local partner savecore`
-. 관리자 레버로 돌아가기 `set privilege admin`:.
 . CFO 애그리게이트(루트 애그리게이트)만 반환합니다. `storage failover giveback -fromnode local -only-cfo-aggregates true`
 +
 ** 오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].

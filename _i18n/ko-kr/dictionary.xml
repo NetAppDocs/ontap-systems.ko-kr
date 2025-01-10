@@ -357,8 +357,6 @@
   <block id="f98f13be72259cd42dc0ed68589c1bab" category="inline-link-macro">ONTAP 구성 가이드 를 참조하십시오</block>
   <block id="26e92d478a1389009c384007225dc825" category="list-text">System Manager의 안내에 따라 설정을 사용하여 에서 수집한 데이터를 사용하여 시스템을 구성합니다 <block ref="571ad76602d16a750ecd1119ab38063c" category="inline-link-macro-rx"></block>.</block>
   <block id="ab6c62f8c03fd8de7dd75edd9339f332" category="list-text">Config Advisor을 실행하여 시스템의 상태를 확인하십시오.</block>
-  <block id="32ff0984d1cda5a6a82a31ba6abcaf25" category="inline-link-macro">ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스</block>
-  <block id="e6db50cefb25b43305353a6a987f05e3" category="list-text">초기 구성을 완료한 후 로 이동합니다 <block ref="9c0a34143b47aa65068059820284fe99" category="inline-link-macro-rx"></block> 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.</block>
   <block id="c148c3a234659fa32cba3b91e58f84d2" category="admonition">유니파이드 구성 시스템의 기본 포트 구성은 CNA 모드입니다. FC 호스트 네트워크에 연결하는 경우 FC 모드의 포트를 수정해야 합니다.</block>
   <block id="ff07d29ea509a7a995f5989a37c478e6" category="section-title">옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성을 완료합니다</block>
   <block id="e26c9b04bf0bc2c4d8073d81596cbe06" category="paragraph">랩톱에서 네트워크 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.</block>
@@ -1693,7 +1691,6 @@
   <block id="45ee8c440f001b54eda6e16b8de7a56f" category="list-text">마우스 오른쪽 버튼을 클릭하고 새로 고침을 선택합니다.</block>
   <block id="b0312e5410d679be9e7767f60affd0f9" category="list-text">System Manager의 안내에 따라 setup을 사용하여 _NetApp ONTAP 구성 가이드_에서 수집한 데이터를 사용하여 시스템을 구성하십시오.</block>
   <block id="a0088be4d3f107601d8dc70168cc815e" category="paragraph"><block ref="a0088be4d3f107601d8dc70168cc815e" category="inline-link-rx"></block></block>
-  <block id="9d0be0d6f61b9f5f1bd1c769171e1a51" category="list-text">초기 구성을 완료한 후 로 이동합니다<block ref="8203f64117389bb7bbdf8d4d70d36e4d" category="inline-link-rx"></block> 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.</block>
   <block id="9e22e123b14b1f7e6da8d2bfe46c63a7" category="section-title">옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성 완료</block>
   <block id="7a2b8204791fefff118f35cda4159e64" category="list-text">시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 관리 스위치에 연결합니다.</block>
   <block id="a1fe4b5bc72dd1ed629092acf7170112" category="list-text">다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.</block>
@@ -3522,7 +3519,6 @@
   <block id="c866cf78ea22fe8b8a7122b28202ae22" category="paragraph"><block ref="c866cf78ea22fe8b8a7122b28202ae22" category="inline-link-rx"></block></block>
   <block id="acd7b72db18d0ae87815c2b9586bcc35" category="paragraph"><block ref="acd7b72db18d0ae87815c2b9586bcc35" category="inline-link-rx"></block></block>
   <block id="3868a54921a81264bddb64b574765582" category="paragraph"><block ref="3868a54921a81264bddb64b574765582" category="inline-link-rx"></block></block>
-  <block id="5ee8cd6a87d8b25f71b533639902587c" category="list-text">초기 구성을 완료한 후 로 이동합니다<block ref="3cd2da01c2a4ba58d102a6abe7a05e1f" category="inline-link-rx"></block> 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.</block>
   <block id="208ee0864fe983f53622b3619eef5932" category="section-title">옵션 2: 네트워크 검색이 활성화되지 않은 경우</block>
   <block id="b3364f412d1466e4f6e340836fff9abb" category="paragraph">Windows 또는 Mac 기반 랩톱 또는 콘솔을 사용하고 있지 않거나 자동 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.</block>
   <block id="11991b3479fcd322fec352f130b7b364" category="admonition">주소의 형식은 +https://x.x.x.x+ 입니다.</block>
@@ -3893,10 +3889,6 @@
   <block id="3ed6da3ce264f0c66cef48e19cd15c73" category="doc">필요한 공구 및 장비</block>
   <block id="f9fe90b9a7c32c659a86cfe53f6587b1" category="list-text">디스크 쉘프에 적합한 하드웨어 가이드를 참조하십시오</block>
   <block id="bcf8fb15c418590ecd335df2dcfad4e4" category="list-text">시스템에 대한 적절한 설치 및 설정 지침</block>
-  <block id="5d69fd338b800eeec5483a90a86e34c3" category="inline-link">All Flash FAS 문서 리소스</block>
-  <block id="94ca956ba088a0239acd4c8e7349af15" category="paragraph"><block ref="94ca956ba088a0239acd4c8e7349af15" category="inline-link-rx"></block></block>
-  <block id="bc36b7561098172a45ca8601c91c3c1c" category="inline-link">FAS 스토리지 시스템 설명서 리소스</block>
-  <block id="ffd3191487f66e44a54010853dc2463b" category="paragraph"><block ref="ffd3191487f66e44a54010853dc2463b" category="inline-link-rx"></block></block>
   <block id="45b8f0b842002ec85fb07171d4b0d278" category="list-text">#1 및 #2 십자 드라이버</block>
   <block id="830cb2795d80d2d868f65bf4fc0302ba" category="list-text">시스템 캐비닛 수평 조정을 위한 레벨링 도구</block>
   <block id="d351abcbb11dcaf6e66ff33c4d15a5ea" category="summary">시스템 캐비닛에 추가 지원 레일을 설치한 후에는 미리 채워진 시스템 캐비닛에 더 많은 시스템 구성 요소를 추가하거나 기존 시스템 구성 요소를 빈 시스템 캐비닛에 추가할 수 있습니다.</block>
@@ -9631,7 +9623,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="69c68a07899b46965d63bdd6fea6e0da" category="paragraph"><block ref="4d9c822f717329c7000654e8bae09ae4" prefix="" category="inline-code"></block></block>
   <block id="1857c0ed792dbbfc2525805e6132de0b" category="paragraph">화면에 다음 메시지가 표시됩니다.</block>
   <block id="c285ffddf1786cd1a14a26bcf9b74c7d" category="paragraph"><block ref="061047859ec1e213bd771fe5350bda2c" prefix="" category="inline-code"></block></block>
-  <block id="811ae15d713f8c846d0516e053f895b2" category="list-text">Loader가 로컬 클러스터 포트를 구성하고 파트너 노드에서 실행할 때 부팅 미디어 복구 프로세스를<block ref="83a4445bcfef2bd179eaffaabe3b3c20" prefix=" " category="inline-code"></block> 모니터링합니다.</block>
   <block id="8f616ca67798afd132662e15fc4caa28" category="paragraph">netboot가 실행 중이면<block ref="f6715e6f2a651bfc51d27566b1be5385" prefix=" " category="inline-code"></block> 메시지가 표시됩니다.</block>
   <block id="39cb6e7651585d511fc148af8198837f" category="open-title">암호화 없음</block>
   <block id="aada4d2dac8a2a5bd04bf211104ff2c5" category="paragraph">암호화가 감지되지 않으면 키 관리 없이 부팅 미디어 복구 프로세스가 계속됩니다.</block>
@@ -10021,7 +10012,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e5954b5f665f3b9aee4023c5d8eb4f5f" category="list-text">when_waiting for Giveback_이 표시되면 &lt;enter&gt; 키를 누릅니다.</block>
   <block id="68921013f9ca843f9d1bcfd514ee67de" category="list-text">콘솔 케이블을 파트너 노드로 이동하고 로<block ref="21232f297a57a5a743894a0e4a801fc3" prefix=" " category="inline-code"></block>로그인합니다.</block>
   <block id="92e13c6a52e1a9d4e2955cd77e4db99d" category="list-text">복구 노드의 모든 코어 덤프가 고급 모드로 이동하여 저장되었는지 확인합니다."<block ref="0581d0d071ad835f74bf419081ce5d75" prefix=" " category="inline-code"></block><block ref="7f4756e08687048c35020c40f9c8567b" prefix=" " category="inline-code"></block></block>
-  <block id="2b0a436148e337f3515c283e053a817b" category="list-text">관리자 레버로 돌아가기<block ref="4282e6e28684065097c0d90042d19b11" prefix=" " category="inline-code"></block>:.</block>
   <block id="9e989767231ec29efb85ce3345c961ff" category="list-text">CFO 애그리게이트(루트 애그리게이트)만 반환합니다.<block ref="291b31306c2e0668f091d41edca7e97f" prefix=" " category="inline-code"></block></block>
   <block id="e28912f373bd8bce85f7c259590bbe92" category="list-text">오류가 발생하면 에 문의하십시오<block ref="dac6ef02422de09259cb8cc562a669a7" category="inline-link-rx"></block>.</block>
   <block id="bfc2c53d06a8a433a0fef8b142ab388e" category="list-text">반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block>. 및<block ref="852ce55a153bc728405ba8a2c95bcdf1" prefix=" " category="inline-code"></block>.</block>
@@ -10644,7 +10634,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fe464b77547b113c26b6c4a663f8d99c" category="paragraph">선반을 옮기거나 들어올릴 때 필요한 예방 조치를 취하십시오.</block>
   <block id="55a163291cdcad8ab6af6a932720e193" category="inline-link-macro">AFF 시스템에 대해 자세히 알아보십시오</block>
   <block id="67bacc9d73c9b4789f2c3cde9ab59ad8" category="paragraph">AFF A-Series 및 AFF C-Series 시스템은 가상화 환경에 맞게 조정된 강력한 스케일아웃 플랫폼을 제공합니다. 독립 실행형 시스템 또는 NetApp ONTAP 구성에서 고성능 계층으로 구축할 수 있습니다. <block ref="587107815f5f912e7d3b8f989c8db7df" category="inline-link-macro-rx"></block>..</block>
-  <block id="a9db10f1a3e6d0ba4d022c457468e317" category="paragraph">AFF A-Series 및 AFF C-Series 시스템은 다음 ONTAP 릴리즈와 호환됩니다.</block>
   <block id="9d9de1698f7e401c78687204de906ee5" category="list-text">AFF A20 를 참조하십시오</block>
   <block id="f8f6ba2d572ef729148f2d89d8ff810a" category="list-text">AFF A30 를 참조하십시오</block>
   <block id="cc6089132b9a5e4af29a76834480cc1a" category="list-text">AFF A50 를 참조하십시오</block>
@@ -10653,16 +10642,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="724bf3ae18d86521a5b9d77a13fcfddb" category="list-text">AFF C80 를 참조하십시오</block>
   <block id="8c20e9c3f526d526af74c044baf7da64" category="inline-link-macro">ASA R2 시스템에 대해 자세히 알아보십시오</block>
   <block id="77f5d8fa3689e046b946bfbacf61536e" category="paragraph">ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. <block ref="2f9305bd6f8a2949646123561cb92ab4" category="inline-link-macro-rx"></block>..</block>
-  <block id="d6b4d0a4c54a0ac7b309dcc0a4c68300" category="paragraph">ASA R2 시스템은 다음 ONTAP 릴리즈와 호환됩니다.</block>
   <block id="e2ead389bfa8a65f29bc4e57fdaf4a7b" category="inline-link-macro">ASA 시스템에 대해 자세히 알아보십시오</block>
   <block id="0f14ce10f8ff3a34f46c25bba942372c" category="paragraph">ASA A-Series 및 ASA C-Series 시스템은 FCP 또는 iSCSI 프로토콜을 사용하여 엔터프라이즈 미션 크리티컬 데이터베이스 및 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다. <block ref="9c36b794130c589d6d71e1c2ef02ceef" category="inline-link-macro-rx"></block>..</block>
-  <block id="eb0470bba41a4cbf0371d0bd107bbce5" category="paragraph">ASA 시스템은 다음 ONTAP 릴리스와 호환됩니다.</block>
   <block id="2ce90a39656cd7489bede7894c2a9943" category="list-text">ASA AFF A250</block>
   <block id="7ddb32a2b45e07e265f9e454f57d2eb0" category="list-text">ASA AFF A800</block>
   <block id="b5efaabac2b0776c5f0ca29587d418e4" category="list-text">ASA AFF A400</block>
   <block id="4c71fe952f2c533bd53ba2db64f6ef23" category="inline-link-macro">FAS 시스템에 대해 자세히 알아보십시오</block>
   <block id="1c95b928d9b5e4bc7aae5c9a97498da8" category="paragraph">FAS 시스템은 계층화, 백업 및 재해 복구를 위한 최상의 솔루션인 효율적이고 안전한 2차 스토리지를 제공합니다. <block ref="be362a4689d663d0b6df6b6c151241ba" category="inline-link-macro-rx"></block>..</block>
-  <block id="404f3f6d0927e6ee3c2ebeca58d2189b" category="paragraph">FAS 시스템은 다음 ONTAP 릴리스와 호환됩니다.</block>
   <block id="017db3debbf4b1ed577798b78fd96b66" category="list-text">FAS70를 참조하십시오</block>
   <block id="649e9f4912bcf4af7efe489c6866eb1d" category="list-text">FAS90를 참조하십시오</block>
   <block id="3eab1bbd4a3f05ea0803f3bcf5fac9e5" category="list-text">FAS2750를 참조하십시오</block>
@@ -11115,7 +11101,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="967573797c1191f0df22ec6107c3aa00" category="paragraph">NSM: 위치</block>
   <block id="8d205de013ce8da6fb34e1d90ce0701b" category="paragraph">NSM: 주의</block>
   <block id="6cdd970a99287856fae6549b1e4e2661" category="image-alt">NS224 NSM100B 모듈 상태 표시등</block>
-  <block id="3730904429a62b0e0defc58fca36a915" category="paragraph">I/O 모듈: 상태</block>
   <block id="61252ea3598dcec72eee2b579cc93a3f" category="paragraph">NS224 쉘프에서 장애가 발생한 부팅 미디어를 교체할 수 있습니다. 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 부팅 미디어를 중단 없이 교체할 수 있습니다.</block>
   <block id="cd222c56bd862c1482d8e9937d65d53f" category="list-text">* NS224(NSM100 모듈만 포함) *: HA 쌍에서 지원되는 최소 버전의 NSM 펌웨어를 사용하는 ONTAP 9.7 이상을 이미 실행하고 있어야 합니다.</block>
   <block id="93b1f886febe706b068327d5a32a6de5" category="paragraph">쉘프에서 NSM 펌웨어 버전 0111 이상을 실행하고 있지 않으면 부팅 미디어를 교체할 수 없으며 NSM을 교체해야 합니다.</block>
@@ -11252,23 +11237,17 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3354017d0219e20af53d56d429ce46e6" category="list-text">NSM 덮개를 닫고 나비나사를 시계 방향으로 돌려 조입니다.</block>
   <block id="ba899e38071a77eb1dfc114477d7df7e" category="summary">사용 중인 플랫폼 또는 쉘프에서 지원되는 ONTAP 버전에 대해 알아보십시오.</block>
   <block id="7e5d96420c04db907e37ffc0f25670b5" category="doc">ONTAP 하드웨어 및 소프트웨어 호환성</block>
-  <block id="7d52a2ea081400d43cc4e5df6690bda4" category="paragraph">ONTAP 스토리지 시스템은 여러 버전의 ONTAP 소프트웨어와 호환됩니다. 스토리지 시스템 및 드라이브 쉘프가 지원하는 ONTAP 버전에 대해 알아보십시오.</block>
   <block id="66a2f01bbe5e27a2d0a21ef15725c491" category="paragraph">ONTAP 하드웨어 시스템에 대한 전체 구성 지원 및 제한 사항은 에서 <block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block>확인할 수 있습니다. ONTAP 9 소프트웨어의 알려진 문제, 제한 사항 및 업그레이드 주의 사항에 대한 자세한 내용은 에서 확인할 수<block ref="84fe5db170ffeba3db16dd5c6d7a58db" category="inline-link-rx"></block> 있습니다.</block>
   <block id="c43fddbfefcc8dab0b365319ffc7ad2f" category="summary">ONTAP 하드웨어 시스템을 위한 새로운 플랫폼에 대해 알아보십시오.</block>
   <block id="b1243a1d02acf9453220663ea4294abf" category="paragraph">ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오.</block>
   <block id="73b3856e20fbea83dc1573f8203ad6a4" category="section-title">2024년 12월</block>
-  <block id="1129d1f188d1633e51b36c0cd887e4d2" category="section-title">AFF A20, AFF A30 및 AFF A50</block>
-  <block id="a8eff28ccaa252cbf7a07cd04596e572" category="paragraph">새로운 AFF A20, A30 및 A50 하드웨어 시스템은 더 많은 고객과 워크로드에서 고성능의 지능적이고 포괄적인 데이터 관리 기능을 확장합니다.</block>
   <block id="909cc883ddbed6fc06a25647ba1f212b" category="paragraph">이 시스템은 블록, 파일 및 오브젝트 스토리지를 지원하는 AI, VMware, 데이터베이스 및 분석을 포함한 미션 크리티컬 워크로드를 위한 실시간 ML 기반 랜섬웨어 감지, 원활한 클라우드 통합, 탁월한 성능을 제공합니다.</block>
   <block id="3c8e670cb2f634a0b68672d5f01ec686" category="inline-link-macro">AFF A-Series 시스템에 대해 자세히 알아보십시오</block>
   <block id="cc41bf37432333539dd5ceeb6841880b" category="paragraph"><block ref="ec47a919cf5fb6b1b188d40c3428c9bc" category="inline-link-macro-rx"></block>..</block>
-  <block id="2bb9fccffbf46bf730e526d835bed9ef" category="section-title">AFF C30, AFF C60 및 AFF C80</block>
-  <block id="b58cef9baa77e44e93bac28d90989c0f" category="paragraph">새로운 AFF C30, AFF C60 및 AFF C80 하드웨어 시스템은 2랙 구축에서 업계 최고 수준의 1.5PB의 스토리지 용량을 제공하여 기업에서 플래시의 성능 및 효율성 이점을 더욱 손쉽게 활용할 수 있도록 지원합니다.</block>
   <block id="f96ee2b3f1f5c0e57287bc570e1eafdd" category="paragraph">이 솔루션은 60TB 드라이브로 탁월한 집적도와 향상된 성능, 개선된 I/O 유연성을 제공합니다.</block>
   <block id="e3433be76af8797b5b6d90a688a36fd9" category="inline-link-macro">AFF C-Series 시스템에 대해 자세히 알아보십시오</block>
   <block id="6541c02105210891ec02de804f02e6af" category="paragraph"><block ref="607826820a51c80a539353cde0434437" category="inline-link-macro-rx"></block>..</block>
   <block id="f31f11743f1dfba18e9f008e2956d24e" category="section-title">2024년 9월</block>
-  <block id="a69d86173a4fe9e3cf70845ad40fd15a" category="paragraph">새로운 ASA R2 하드웨어 시스템(ASA A1K, ASA A70, ASA A90) 시스템은 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공하는 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다.</block>
   <block id="d6ee5f134cf5e78f59ab20a782f67ed3" category="paragraph"><block ref="2f9305bd6f8a2949646123561cb92ab4" category="inline-link-macro-rx"></block>..</block>
   <block id="8a3c98db91e158f54dfa013fc3f590be" category="paragraph">새로운 FAS70 및 FAS90 하드웨어 시스템은 경제적이고 성능이 우수한 백업 스토리지를 제공하여 랜섬웨어 공격으로부터 복구할 수 있는 안전한 사이버 보관소를 제공합니다.</block>
   <block id="8a974b4a7078e973c2cf1c4794446802" category="paragraph"><block ref="be362a4689d663d0b6df6b6c151241ba" category="inline-link-macro-rx"></block>..</block>
@@ -11296,4 +11275,27 @@ SFP+(타겟/이니시에이터)</block>
   <block id="41d12fb2ee8b3c6f7046a51242a72a75" category="sidebar">C80 섀시</block>
   <block id="3e4165f9c6936da0daac33c7b7ca4957" category="sidebar">C80 컨트롤러 모듈</block>
   <block id="8f31b4d50eb915a24104b3cb7a5cfcb5" category="sidebar">C80 I/O 모듈</block>
+  <block id="325e928b605da8dd44aca29a94da895c" category="list-text">Loader가 로컬 포트를 구성하고 파트너 노드에서 실행할 때 부팅 미디어 복구 프로세스를<block ref="83a4445bcfef2bd179eaffaabe3b3c20" prefix=" " category="inline-code"></block> 모니터링합니다.</block>
+  <block id="a0828c6d7f89434e71860268e9d651b2" category="list-text">파트너 노드가 완전히 가동되어 데이터를 제공하는 후 클러스터 전체에서 OKM 키를 동기화합니다.</block>
+  <block id="4230ba5bca3d60bf63b2c39aa992ed84" category="paragraph">AFF A-Series 및 AFF C-Series 시스템은 다음 ONTAP 릴리즈에서 지원됩니다.</block>
+  <block id="5fce742f9b06c803a2f04474b1d16eef" category="paragraph">ASA R2 시스템은 다음 ONTAP 릴리즈부터 지원됩니다.</block>
+  <block id="7ca2ebdb81019f1e7c8ef7f9d66913b9" category="paragraph">ASA 시스템은 다음 ONTAP 릴리스부터 지원됩니다.</block>
+  <block id="5f0845697f3ce72b24247637120d7754" category="paragraph">FAS 시스템은 다음 ONTAP 릴리스부터 지원됩니다.</block>
+  <block id="c09b5be4c2da04f4040eef1878f258aa" category="inline-link">ONTAP 9 설명서</block>
+  <block id="8d3ee503b5cc36e3c6b7cbecb34eb387" category="list-text">초기 구성을 완료한 후 ONTAP의 추가 기능 구성에 대한 자세한 내용은 을<block ref="10428d07d2ebc7af9af6725963887c6d" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="98c507d8c3fe68bb4281ebd9f9ea9418" category="paragraph">I/O 모듈: 주의</block>
+  <block id="6a78e833d1d48c3ad3f5fcd87dc0f4d4" category="cell">I/O 모듈 주의</block>
+  <block id="402ff9cfbe902d88550764b90aa6cb76" category="paragraph">입출력 모듈이 누락되었습니다</block>
+  <block id="5f99c34270a42ab74283fdec312239c2" category="paragraph">ONTAP 스토리지 시스템은 여러 버전의 ONTAP 소프트웨어와 호환됩니다. 스토리지 시스템 및 드라이브 쉘프가 지원하는 ONTAP 버전에 대해 알아보십시오.</block>
+  <block id="6e078dd140fc50f53b5f2c4385d718bd" category="section-title">NSM100B 모듈이 포함된 NS224 쉘프</block>
+  <block id="e0d3410def69ea25d4a73fbd6f0bbed2" category="paragraph">NSM100B 모듈이 포함된 NS224 드라이브 쉘프는 디지털 혁신 요구사항에 적합한 고성능과 유연성을 제공합니다.</block>
+  <block id="fc65336c1bd8a062ad4562b40078d3fe" category="inline-link-macro">NS224 쉘프로 하드웨어 시스템 스토리지를 확장할 수 있습니다</block>
+  <block id="7b19cd7f52ff90324c1acacbd46001f8" category="paragraph"><block ref="66341a595da7a2db1d6f0b3d14139d08" category="inline-link-macro-rx"></block>..</block>
+  <block id="7158496fa6a387eea85c17aa48eba85e" category="section-title">AFF A20, AFF A30 및 AFF A50의 약어입니다</block>
+  <block id="a09039ce1af61d84b9a954849fc88067" category="paragraph">새로운 AFF A20, A30, A50 하드웨어 시스템은 더 많은 고객과 워크로드에서 고성능의 지능적이고 포괄적인 데이터 관리 기능을 확장합니다.</block>
+  <block id="bc44b220c4c2656e94204809ef23fa40" category="section-title">AFF C30, AFF C60 및 AFF C80의 약어입니다</block>
+  <block id="67a30af096daac591ce29425c8d0e867" category="paragraph">새로운 AFF C30, AFF C60, AFF C80 하드웨어 시스템은 2랙 구축에서 업계 최고 수준의 1.5PB의 스토리지 용량을 제공하여 기업이 플래시의 성능 및 효율성 이점을 더욱 활용할 수 있도록 지원합니다.</block>
+  <block id="007ace9cd707338f2e4f8f25ed4bb0b8" category="section-title">NSM100B 쉘프 모듈이 포함된 NS224 드라이브 쉘프</block>
+  <block id="e3f4eea829fa5771d87c60fb05124223" category="paragraph">NS224와 새로운 NSM100B NVMe 스토리지 확장 모듈을 통해 데이터 센터의 기능을 향상하십시오. NSM100 모듈을 직접 대체하도록 설계된 새로운 NSM100B 셸프 모듈은 기존 설정에 원활하게 통합됩니다. NS224 쉘프의 직접 연결 및 스위치 연결 구성을 모두 지원하므로 뛰어난 유연성을 제공하여 스토리지 시스템의 효율성과 확장성을 최적화할 수 있습니다.</block>
+  <block id="02ad6883c66e836f88f8ac60378af5d5" category="paragraph">새로운 ASA R2 하드웨어 시스템(ASA A1K, ASA A70 및 ASA A90)은 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공하는 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다.</block>
 </blocks>

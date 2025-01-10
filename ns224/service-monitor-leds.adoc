@@ -147,72 +147,6 @@ image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 �
 NVMe 포트/링크: 주의
 
 |===
---
-.NSM100B 모듈
---
-image::../media/drw_ns224_nsmb_leds_ieops-2004.svg[NS224 NSM100B 모듈 상태 표시등]
-
-[cols="1,1,2,4"]
-|===
-| 전화하십시오 | LED 아이콘 | 색상 | 설명 
-
-
- a| 
-image:../media/icon_round_1.png["설명선 번호 1"]
- a| 
-LNK
- a| 
-녹색
- a| 
-NVMe 포트/링크: 상태
-
-
-
- a| 
-image:../media/icon_round_2.png["설명선 번호 2"]
- a| 
-image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
- a| 
-주황색
- a| 
-NVMe 포트/링크: 주의
-
-
-
- a| 
-image:../media/icon_round_3.png["설명선 번호 3"]
- a| 
-image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
- a| 
-주황색
- a| 
-I/O 모듈: 상태
-
-
-
- a| 
-image:../media/icon_round_4.png["설명선 번호 4"]
- a| 
-image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위치 LED]
- a| 
-파란색
- a| 
-NSM: 위치
-
-
-
- a| 
-image:../media/icon_round_5.png["설명선 번호 5"]
- a| 
-image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
- a| 
-주황색
- a| 
-NSM: 주의
-
-|===
---
-====
 [cols="2,1,1,1"]
 |===
 | 상태 | NSM 주의(황색) | 포트 LNK(녹색) | 포트 주의(황색) 
@@ -294,6 +228,180 @@ NSM VPD 오류입니다
 모든 시/도
 
 |===
+--
+.NSM100B 모듈
+--
+image::../media/drw_ns224_nsmb_leds_ieops-2004.svg[NS224 NSM100B 모듈 상태 표시등]
+
+[cols="1,1,2,4"]
+|===
+| 전화하십시오 | LED 아이콘 | 색상 | 설명 
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+ a| 
+LNK
+ a| 
+녹색
+ a| 
+NVMe 포트/링크: 상태
+
+
+
+ a| 
+image:../media/icon_round_2.png["설명선 번호 2"]
+ a| 
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
+ a| 
+주황색
+ a| 
+NVMe 포트/링크: 주의
+
+
+
+ a| 
+image:../media/icon_round_3.png["설명선 번호 3"]
+ a| 
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
+ a| 
+주황색
+ a| 
+I/O 모듈: 주의
+
+
+
+ a| 
+image:../media/icon_round_4.png["설명선 번호 4"]
+ a| 
+image::../media/drw_sas3_location_icon.svg[운영자 디스플레이 패널 위치 LED]
+ a| 
+파란색
+ a| 
+NSM: 위치
+
+
+
+ a| 
+image:../media/icon_round_5.png["설명선 번호 5"]
+ a| 
+image::../media/drw_sas_fault_icon.svg[오퍼레이터 디스플레이 패널 주의 LED]
+ a| 
+주황색
+ a| 
+NSM: 주의
+
+|===
+[cols="2,1,1,1,1"]
+|===
+| 상태 | NSM 주의(황색) | 포트 LNK(녹색) | 포트 주의(황색) | I/O 모듈 주의 
+
+
+ a| 
+NSM 정상
+ a| 
+꺼짐
+ a| 
+모든 시/도
+ a| 
+꺼짐
+ a| 
+꺼짐
+
+
+
+ a| 
+NSM 오류입니다
+ a| 
+켜짐
+ a| 
+모든 시/도
+ a| 
+모든 시/도
+ a| 
+꺼짐
+
+
+
+ a| 
+NSM VPD 오류입니다
+ a| 
+켜짐
+ a| 
+모든 시/도
+ a| 
+모든 시/도
+ a| 
+꺼짐
+
+
+
+ a| 
+호스트 포트 연결이 없습니다
+ a| 
+모든 시/도
+ a| 
+꺼짐
+ a| 
+꺼짐
+ a| 
+꺼짐
+
+
+
+ a| 
+호스트 포트 연결 링크가 활성화되었습니다
+ a| 
+모든 시/도
+ a| 
+작동 시 켜짐/깜박임
+ a| 
+모든 시/도
+ a| 
+꺼짐
+
+
+
+ a| 
+호스트 포트 접속에 장애가 발생했습니다
+ a| 
+켜짐
+ a| 
+모든 레인에 장애가 발생한 경우 켜기/끄기
+ a| 
+켜짐
+ a| 
+꺼짐
+
+
+
+ a| 
+전원을 켠 후 BIOS 이미지에서 BIOS를 부팅합니다
+ a| 
+깜박임
+ a| 
+모든 시/도
+ a| 
+모든 시/도
+ a| 
+꺼짐
+
+
+
+ a| 
+입출력 모듈이 누락되었습니다
+ a| 
+켜짐
+ a| 
+해당 없음
+ a| 
+해당 없음
+ a| 
+켜짐
+
+|===
+--
+====
 
 
 == 전원 공급 장치 LED

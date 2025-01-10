@@ -574,7 +574,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"^] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 ONTAP의 추가 기능 구성에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^] 참조하십시오.
 
 
 --
@@ -655,8 +655,7 @@ video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
 image::../media/drw_9500_power-on.svg[drw 9500 전원을 켭니다]
 
-
-
++
 
 NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 
@@ -713,7 +712,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 
 
 . Config Advisor을 실행하여 시스템의 상태를 확인하십시오.
-. 초기 구성을 완료한 후 로 이동합니다 https://www.netapp.com/data-management/oncommand-system-documentation/["ONTAP 및 amp; ONTAP 시스템 관리자 설명서 리소스"^] 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.
+. 초기 구성을 완료한 후 ONTAP의 추가 기능 구성에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^] 참조하십시오.
 
 
 --

@@ -15,12 +15,6 @@ summary: 시스템 캐비닛에 포장을 풀고 설치하기 전에 시스템 �
 
 * 디스크 쉘프에 적합한 하드웨어 가이드를 참조하십시오
 * 시스템에 대한 적절한 설치 및 설정 지침
-+
-https://www.netapp.com/data-storage/all-flash-documentation/["All Flash FAS 문서 리소스"]
-
-+
-https://www.netapp.com/data-storage/fas/documentation/["FAS 스토리지 시스템 설명서 리소스"]
-
 * #1 및 #2 십자 드라이버
 * 시스템 캐비닛 나사용 torq 드라이버
 * 시스템 캐비닛 수평 조정을 위한 레벨링 도구

@@ -56,6 +56,41 @@ DC 전원 공급 장치인 경우 두 개의 나비 나사로 제자리에 고�
 자세한 지침은 을 참조하십시오 link:change-shelf-id.html["쉘프 ID-NS224 쉘프를 변경합니다"^].
 
 +
+image::../media/drw_a900_oie_change_ns224_shelf_ID_ieops-836.svg[NS224 쉘프 ID를 변경합니다]
+
++
+[cols="20%,80%"]
+|===
+
+
+ a| 
+image::../media/icon_round_1.png[설명선 번호 1]
+ a| 
+선반 엔드 캡
+
+
+
+ a| 
+image::../media/icon_round_2.png[[설명 번호 2]
+ a| 
+선반 면판
+
+
+
+ a| 
+image::../media/icon_round_3.png[[설명 번호 3]
+ a| 
+쉘프 ID 번호입니다
+
+
+
+ a| 
+image::../media/icon_round_4.png[[설명 번호 4]
+ a| 
+쉘프 ID 버튼
+
+|===
++
 .. 왼쪽 엔드 캡을 제거하고 LED 오른쪽에 있는 작은 구멍을 찾습니다.
 .. 종이 클립 또는 유사한 도구의 끝을 작은 구멍에 삽입하여 선반 ID 버튼에 닿게 합니다.
 .. 디지털 디스플레이의 첫 번째 숫자가 깜박일 때까지 단추를 최대 15초 동안 누른 다음 버튼에서 손을 뗍니다.
