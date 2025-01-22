@@ -11,7 +11,7 @@ summary: 스위치와 랩톱에 대한 연결만 사용하거나 스토리지 �
 
 
 [role="lead"]
-스토리지 시스템을 켠 후 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.
+AFF A1K 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.
 
 
 
@@ -104,4 +104,4 @@ NetApp은 System Manager를 사용하여 새 클러스터를 설정할 것을 �
 System Manager는 노드 관리 IP 주소 할당, 클러스터 초기화, 로컬 계층 생성, 프로토콜 구성, 연결된 스토리지의 초기 프로비저닝 등 클러스터 설정 및 구성을 위한 간단하고 쉬운 워크플로를 제공합니다.
 
 .다음 단계
-클러스터가 초기화되면 을 다운로드하고 실행하여  https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^] 설정을 확인하십시오.
+클러스터가 초기화되면 을 다운로드하고 실행하여 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] 설정을 확인하십시오.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, replace the boot media 
 summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다. 
 ---
-= 요구 사항 및 고려 사항 - AFF C30 및 AFF C60
+= 부팅 미디어 요구 사항 - AFF C30 및 AFF C60
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, replace the chassis 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 요구 사항 및 고려 사항 - AFF A20, AFF A30 및 AFF A50
+= 섀시 교체 요구 사항 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

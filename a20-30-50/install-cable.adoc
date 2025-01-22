@@ -127,6 +127,9 @@ image::../media/drw_isi_a20_switchless_2p_25gbe_cabling_ieops-2018.svg[25GbE 입
 
 =====
 --
+====
+[role="tabbed-block"]
+====
 .스위치 클러스터 케이블링
 --
 .2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF A30 또는 AFF A50

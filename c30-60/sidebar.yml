@@ -25,6 +25,7 @@ entries:
   - title: 유지 보수 개요
     url: "/c30-60/maintain-overview.html"
   - title: 미디어를 부팅합니다
+    pdf-filename: AFF C30 및 AFF C60 부팅 미디어
     entries:
     - title: 부팅 미디어 대체 워크플로
       url: "/c30-60/bootmedia-replace-workflow.html"
@@ -79,6 +80,7 @@ entries:
   - title: 팬
     url: "/c30-60/fan-replace.html"
   - title: 입출력 모듈
+    pdf-filename: AFF C30 및 AFF C60 입출력 모듈
     entries:
     - title: I/O 모듈 개요
       url: "/c30-60/io-module-overview.html"
