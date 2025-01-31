@@ -17,7 +17,6 @@ AFF C80 저장 장치 시스템 및 보관 선반에 필요한 장비와 들어 
 
 == 설치에 필요한 장비
 
-.다음 단계
 기억 장치 시스템을 설치하려면 다음과 같은 장비와 도구가 필요합니다.
 
 * 웹 브라우저에 액세스하여 스토리지 시스템을 구성합니다
@@ -58,4 +57,5 @@ image::../media/drw_ns224_lifting_weight_ieops-1716.svg[NS224 NSM100 인양 주�
 * https://library.netapp.com/ecm/ecm_download_file/ECMP12475945["안전 정보 및 규정 고지"^]
 
 
+.다음 단계
 하드웨어 요구 사항을 검토한 후link:install-prepare.html["AFF C80 스토리지 시스템 설치를 준비합니다"]

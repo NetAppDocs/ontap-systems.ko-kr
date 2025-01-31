@@ -23,7 +23,7 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:chassis-replace-move-hardware.html["섀시를 교체합니다"]
 [role="quick-margin-para"]
-섀시 교체에는 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꾸는 작업이 포함됩니다.
+섀시 교체에는 드라이브 및 드라이브 보호물, 컨트롤러(전원 공급 장치 포함) 및 베젤을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꾸는 작업이 포함됩니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]
 [role="quick-margin-para"]

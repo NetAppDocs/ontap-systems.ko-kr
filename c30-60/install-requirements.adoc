@@ -11,7 +11,7 @@ summary: 작업대 및 선반에 필요한 장비 및 인양 예방 조치를 �
 
 
 [role="lead"]
-AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항 및 고려사항을 검토하십시오.
+AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항을 검토하십시오.
 
 
 
@@ -39,9 +39,9 @@ AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항 및 고려�
 
 기억 장치 시스템을 옮기거나 들어올릴 때 필요한 예방 조치를 취하십시오.
 
-A20, A30 또는 A50 저장 장치 시스템은 무게가 최대 27.9kg(61.5lbs)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.
+저장 장치 시스템의 무게는 최대 27.9kg(61.5파운드)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.
 
-image::../media/drw_g_lifting_weight_ieops-1831.svg[AFF A20 를 참조하십시오,A30,or an A50 weight caution icon]
+image::../media/drw_g_lifting_weight_ieops-1831.svg[AFF A20 를 참조하십시오,A30,A50 and C30 and C60 weight caution icon]
 
 
 

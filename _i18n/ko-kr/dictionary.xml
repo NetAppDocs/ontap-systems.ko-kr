@@ -10771,10 +10771,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6bc9706054ddce477397a74fecd293ed" category="inline-link-macro">하드웨어를 케이블로 연결합니다</block>
   <block id="8bfccb1f0c0fcef7c65c13971279707a" category="paragraph">스토리지 시스템용 하드웨어를 설치한 후에는<block ref="bca22c8e81cd07d8c060c28f352f5c5b" category="inline-link-macro-rx"></block></block>
   <block id="d18e261115fca673ca85d869ef16199c" category="doc">설치 및 설정 워크플로우 - AFF A20, AFF A30 및 AFF A50</block>
-  <block id="974849b8889ed6277f040af2b6045c37" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템을 설치 및 설정하려면 설치 요구사항과 고려 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 연결하고, 스토리지 시스템을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
-  <block id="d1f82b8af31f0a0381699baa1730106d" category="inline-link-macro">설치 요구 사항 및 고려 사항을 검토합니다</block>
-  <block id="c33163874d186249575ec12fe18107ae" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="d0e286d31263eb61b4396ffbc7a7ab09" category="inline-link-macro-rx"></block></block>
-  <block id="9b74ca95663410ee614590c26b489ebd" category="paragraph">스토리지 시스템을 설치하기 전에 스토리지 시스템이 설치 요구 사항을 충족해야 하며 설치 고려 사항을 검토해야 합니다.</block>
   <block id="3cdf8c6347bdc0a257b06253a291ef6c" category="paragraph-title"><block ref="444c1bf2e877f5617e8ce0a2ded57f4f" category="inline-image-macro-rx" type="image"></block><block ref="bce179ad419bd48e9c41b073fd99e202" category="inline-link-macro-rx"></block></block>
   <block id="efbed9ff10698a899995d519b6515646" category="paragraph">설치를 준비하려면 현장 준비, 환경 및 전기 요구 사항 확인, 충분한 랙 공간이 있는지 확인해야 합니다. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.</block>
   <block id="966353821596fdf316108d72854ad8be" category="paragraph-title"><block ref="4f954e3aac01b1dc982b61d245b37a02" category="inline-image-macro-rx" type="image"></block><block ref="d8f87fb4140fea77f47017bd9ec5dcdd" category="inline-link-macro-rx"></block></block>
@@ -10799,7 +10795,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1594210318baaedcde7a9ee6cf877e2f" category="list-text">확인할 수 있습니다</block>
   <block id="b9d56fbafd9b44fad97bacb9a2bb786a" category="inline-link-macro">스토리지 시스템용 하드웨어를 설치합니다</block>
   <block id="6cc83c1114ef7a72628c17c930f42046" category="paragraph">스토리지 시스템을 설치할 준비가 되면 <block ref="32ef1f18704cc0c97dfcafcf18cacd02" category="inline-link-macro-rx"></block>됩니다.</block>
-  <block id="810da8188a0c92df4fdc4ccf84b888d0" category="paragraph">A20, A30 또는 A50 저장 장치 시스템은 무게가 최대 27.9kg(61.5lbs)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.</block>
   <block id="6eb0f75df27b0466f7984bf67accd904" category="paragraph">NSM100B 모듈이 포함된 NS224 선반의 무게는 최대 25.8kg(56.8파운드)입니다. 선반을 인양하려면 두 사람이 함께 작업하거나 유압식 리프트를 사용하십시오. 선반 무게의 균형을 맞추기 위해 모든 구성 요소를 선반(전면 및 후면 모두)에 보관하십시오.</block>
   <block id="34ae4f1779c2db0223377cbefc6262df" category="image-alt">NS224(NSM100b 인양 주의 포함</block>
   <block id="2ef800dd74cfc13c160b4dd543b29cf0" category="inline-link-macro">설치를 준비합니다</block>
@@ -10840,7 +10835,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7198cc5bade7b4a7512214ef6d139fb9" category="doc">손상된 컨트롤러를 종료합니다(AFF C30 및 AFF C60)</block>
   <block id="1bd446701023b8913ca9b526c3e92f2e" category="doc">시스템 구성(AFF C30 및 AFF C60)을 복원하고 확인합니다</block>
   <block id="dffc469bd601fde82121083a3480be81" category="doc">컨트롤러 교체 워크플로우 - AFF C30 및 AFF C60</block>
-  <block id="faebe8964cab5b375d2a8b865d40cf87" category="paragraph">컨트롤러를 교체하려면 손상된 컨트롤러를 분리하고 FRU 구성 요소를 교체 컨트롤러로 이동한 다음 인클로저에 교체 컨트롤러를 설치하는 작업이 포함됩니다.</block>
   <block id="520d3987267b97f93ef8b0f406babbc3" category="doc">DIMM-AFF C30 및 AFF C60를 교체합니다</block>
   <block id="a4e5adc7bc258b17747b6f19d04cc2fa" category="doc">드라이브 교체 - AFF C30 및 AFF C60</block>
   <block id="c610b83162fd42225d6905d0aaa5cac5" category="doc">팬 모듈 교체 - AFF C30 및 AFF C60</block>
@@ -10849,41 +10843,15 @@ SFP+(타겟/이니시에이터)</block>
   <block id="323a91f2ce5b9b7fd43982a93a67f379" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="ea610f51a26134e77e0b3dc338a41e31" category="doc">하드웨어 케이블 연결 - AFF C30 및 AFF C60</block>
   <block id="a79626103b80bf3ef3558a2b727998a3" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다.</block>
-  <block id="ede0aafc1b41dc94c4d76b7c466d2aa0" category="example-title">2포트 100GbE I/O 모듈 2개가 있는 AFF A30 또는 A50</block>
-  <block id="6d6ca7f3814a8f260c612cf258dab7a0" category="paragraph">슬롯 2와 4의 I/O 모듈 포트는 40/100GbE 포트입니다.??? 이 내용은 30-50에만 적용됩니까? 그렇다면 두 개의 메모를 현재 위치에 두고 3에 모두 적용되는 경우 섹션 리드 텍스트 아래에 새 단락을 이동하십시오.???</block>
-  <block id="d98eb9805dd93d1aaac3e343c97a1f62" category="admonition">슬롯 2 및 4의 입출력 모듈에 있는 e2b 및 e4b 포트는 사용되지 않으며 필요한 경우 프런트엔드(호스트 네트워크) 연결에 사용할 수 있습니다.</block>
-  <block id="c31d1fbb0d31d5bf997b520e9fa2706e" category="image-alt">2개의 100GbE IO 모듈을 사용하는 2노드 스위치가 없는 클러스터 케이블 연결 다이어그램</block>
-  <block id="6db5b30a6d539226a0c954c6f40c1772" category="example-title">2포트 100GbE I/O 모듈 1개가 있는 AFF A30 또는 A50</block>
-  <block id="db938adc8ef91331ea918e590ee2aa37" category="paragraph">슬롯 2와 4의 I/O 모듈 포트는 40/100GbE 포트입니다.???</block>
-  <block id="8c9ccc84a53843554d3857c6945a9e81" category="image-alt">하나의 100GbE IO 모듈을 사용하는 2노드 스위치가 없는 클러스터 케이블 연결 다이어그램</block>
-  <block id="d2a19b5b325d1bb5216c0d27edab36c9" category="example-title">2포트 10/25GbE 입출력 모듈 1개가 포함된 AFF A20</block>
-  <block id="26a5bf324c50bc7978d531c6959ae245" category="paragraph">예제 추가</block>
-  <block id="dc9d6009a3fa846fe260b38b4ca36eee" category="paragraph">+ <block ref="a1afb0f3e8ab3c3594052bdc55e1ed7f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">를 누릅니다</block>
-  <block id="f6d364ad4bb4bbfe3666f43739ecf1e2" category="paragraph">참고: 슬롯 2 및 4의 I/O 모듈에 있는 40/100GbE 포트 e2b 및 e4b는 사용되지 않으며 필요한 경우 프런트엔드 연결에 사용할 수 있습니다.</block>
-  <block id="b19d000e702330f26cd2a384108098ff" category="list-text">케이블 컨트롤러 A 포트 e4a 및 컨트롤러 B 포트 e4a를 클러스터 네트워크 스위치 A에 연결합니다</block>
-  <block id="f402a4b4af565c562918917734dbebd4" category="list-text">케이블 컨트롤러 A 포트 e4b 및 컨트롤러 B 포트 e4b를 클러스터 네트워크 스위치 B에 연결합니다</block>
-  <block id="d8c30c43f11d0f060f64c5660c7a1f39" category="paragraph">컨트롤러를 호스트 네트워크에 케이블로 연결합니다. 이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다. 호스트 접속은 40/100 GbE입니다.??</block>
-  <block id="9dffbf69ffba8bc38bc4e01abf4b1675" category="paragraph">텍스트</block>
-  <block id="10a84bc73fc237edf3588d386c411fd8" category="list-text">선택 사항: 40/100GbE 호스트 네트워크 스위치에 케이블 연결.</block>
-  <block id="56d0764b8104d28ddcc923d5d3caa5c5" category="paragraph">각 컨트롤러의 케이블 포트 e2a, e2b, E2C 및 e2D를 이더넷 호스트 네트워크 스위치에 연결합니다.</block>
-  <block id="2ecc82bcc80b9638467a2765ee8fd8cf" category="list-text">선택 사항: FC 호스트 네트워크 스위치에 대한 케이블.</block>
-  <block id="abfc920ef548717adc4c6b03eeb2bc77" category="paragraph">각 컨트롤러에서 FC 호스트 네트워크 스위치에 대한 포트 1a, 1b, 1c 및 1d를 케이블로 연결합니다.</block>
-  <block id="2e169c8e6f4cc1f6315545b46d7284a2" category="image-alt">64Gb FC 케이블</block>
-  <block id="e87e6e084ead192e20865cc30a9a2d38" category="example-title">2포트 100GbE 모듈 1개가 있는 AFF A20</block>
-  <block id="e907544e9df7140708b309d63b376864" category="paragraph">텍스트를 추가합니다</block>
-  <block id="536c0db2530016209cf6a71d69470c1c" category="paragraph">이 절차에서는 컨트롤러를 NS224 쉘프 1개에 케이블로 연결하는 방법을 보여줍니다.</block>
   <block id="b079b3155e464d9b84f317b7c289baaa" category="doc">AFF C30 및 AFF C60 등 스토리지 시스템 설치 및 구성을 완료합니다</block>
   <block id="c2193a61b82d60ca9261e895b85747bb" category="doc">AFF C30 및 AFF C60 하드웨어를 설치합니다</block>
   <block id="bde05321bc44e000faa60469a895ce4a" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다.</block>
   <block id="b96dbc5fbc9ab81f32efde0325589654" category="doc">설치 및 설정 워크플로우 - AFF C30 및 AFF C60</block>
-  <block id="fcec2a1b8db28667e03855ac9f46c2f1" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템을 설치 및 설정하려면 설치 요구 사항 및 고려 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블 연결하고, 스토리지 시스템의 전원을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
   <block id="67867da29f56590b8e9c87517604808b" category="doc">스토리지 시스템 전원을 켭니다(AFF C30 및 AFF C60)</block>
   <block id="80fd78b0f849541b11cbcf6acdae3b4f" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템의 네트워크 및 쉘프에 컨트롤러를 케이블로 연결한 후 쉘프와 컨트롤러의 전원을 켭니다.</block>
   <block id="fab9e21f1bee0f7c0618cad32b09e254" category="summary">AFF C30 및 AFF C60 플랫폼 설치를 준비합니다.</block>
   <block id="e5c1fdfad20885712f2500f11ac35b2f" category="doc">설치 준비 - AFF C30 및 AFF C60</block>
   <block id="79e12a938ddc8f32473767866053dbf9" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 스토리지 시스템 등록을 통해 AFF C30 또는 AFF C60 저장 장치 시스템 설치를 준비합니다.</block>
-  <block id="7a3914f84de0175770593720f9a6ce99" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항 및 고려사항을 검토하십시오.</block>
   <block id="9bf4665a2c4e66c0d1872abb97cf1e62" category="doc">입출력 모듈 추가 - AFF C30 및 AFF C60</block>
   <block id="72e4a819218c094d076f11afa9177f29" category="paragraph">사용 가능한 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFF C30 및 AFF C60 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
   <block id="bc5a9bac2cd28850393e45660c8a2ef4" category="doc">추가 및 교체 입출력 모듈 개요 - AFF C30 및 AFF C60</block>
@@ -11247,4 +11215,16 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f923335af94abdb12e15d306f375ccba" category="sidebar">AFF A20, AFF A30 및 AFF A50 입출력 모듈</block>
   <block id="78630acc24e5fd1073367e9c78f003a0" category="sidebar">AFF C30 및 AFF C60 부팅 미디어</block>
   <block id="0cc03c1fb7fac3f451692406956a999d" category="sidebar">AFF C30 및 AFF C60 입출력 모듈</block>
+  <block id="d27876edf06fef01e9d562affcf483bc" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템을 설치 및 설정하려면 설치 요구 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 연결하고, 스토리지 시스템을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
+  <block id="2b9366d786af7f25816abf5ad658f2ab" category="inline-link-macro">설치 요구 사항을 검토합니다</block>
+  <block id="bd9e341941a30be8d1d66fd436b9cbb4" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="5f0905e544c52c81d90a8c636fddd0a9" category="inline-link-macro-rx"></block></block>
+  <block id="70bfeb1ef79ed88d76859531032e6795" category="paragraph">스토리지 시스템을 설치하기 전에 스토리지 시스템이 설치 요구 사항을 충족해야 합니다.</block>
+  <block id="a62423bfdb0c7361946c3892f20d2e7d" category="paragraph">저장 장치 시스템의 무게는 최대 27.9kg(61.5파운드)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.</block>
+  <block id="05591bc7cdace84971ece26cdbd0437b" category="example-title">2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF C30 또는 AFF C60</block>
+  <block id="a25f694b3fe46b8223a96d7f7a6709e2" category="example-title">2포트 40/100 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60</block>
+  <block id="40311ade600e0691ceb4ef1447a01304" category="example-title">2포트 10/25 GbE 입출력 모듈 1개가 포함된 AFF C30</block>
+  <block id="365c5f6cc1c974e74595f900dc07803d" category="example-title">2포트 10/25 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60</block>
+  <block id="61bc9478fe9837a2edfeec12cfef1a17" category="example-title">2포트 10/25 GbE 모듈 1개가 있는 AFF C30</block>
+  <block id="385d33bb3589ce3f38e65ed1e314719e" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템을 설치 및 설정하려면 설치 요구 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블 연결하고, 스토리지 시스템의 전원을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
+  <block id="d92a2bc26be46a05b32e6cc5c37b3984" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항을 검토하십시오.</block>
 </blocks>
