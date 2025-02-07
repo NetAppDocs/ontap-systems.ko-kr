@@ -32,7 +32,7 @@ image:../media/drw_cable_pull_tab_direction_ieops-1699.svg["케이블 당김 탭
 
 == 1단계: 클러스터/HA 연결 케이블 연결
 
-컨트롤러를 ONTAP 클러스터에 케이블로 연결합니다. 이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다.
+ONTAP 클러스터를 연결하려면 컨트롤러를 서로 케이블로 연결하십시오.
 
 [role="tabbed-block"]
 ====
@@ -41,8 +41,6 @@ image:../media/drw_cable_pull_tab_direction_ieops-1699.svg["케이블 당김 탭
 .2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF C30 또는 AFF C60
 [%collapsible]
 =====
-ONTAP 클러스터를 연결하려면 컨트롤러를 서로 케이블로 연결하십시오.
-
 .단계
 . 클러스터/HA 인터커넥트 연결 케이블 연결:
 +
@@ -73,8 +71,6 @@ image::../media/drw_isi_a30-50_switchless_2p_100gbe_2card_cabling_ieops-2011.svg
 .2포트 40/100 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60
 [%collapsible]
 =====
-ONTAP 클러스터를 연결하려면 컨트롤러를 서로 케이블로 연결하십시오.
-
 .단계
 . 클러스터/HA 인터커넥트 연결 케이블 연결:
 +
@@ -98,42 +94,12 @@ image::../media/drw_isi_a30-50_switchless_2p_100gbe_1card_cabling_ieops-1925.svg
 
 
 =====
-.2포트 10/25 GbE 입출력 모듈 1개가 포함된 AFF C30
-[%collapsible]
-=====
-ONTAP 클러스터를 연결하려면 컨트롤러를 서로 케이블로 연결하십시오.
-
-.단계
-. 클러스터/HA 인터커넥트 연결 케이블 연결:
-+
-
-NOTE: 클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리적 포트(슬롯 4의 I/O 모듈)를 공유합니다. 포트는 10/25GbE입니다.
-
-+
-.. 컨트롤러 A 포트 e4a를 컨트롤러 B 포트 e4a에 케이블로 연결합니다.
-.. 컨트롤러 A 포트 e4b를 컨트롤러 B 포트 e4b에 케이블 연결
-+
-* 25GbE 클러스터/HA 인터커넥트 케이블 *
-
-+
-image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터, 폭 = 100px"]
-
-+
-image::../media/drw_isi_a20_switchless_2p_25gbe_cabling_ieops-2018.svg[25GbE 입출력 모듈 1개를 사용한 A20 스위치 없는 클러스터 케이블 연결 다이어그램]
-
-
-
-
-
-=====
 --
 .스위치 클러스터 케이블링
 --
 .2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF C30 또는 AFF C60
 [%collapsible]
 =====
-컨트롤러를 클러스터 네트워크 스위치에 케이블로 연결하여 ONTAP 클러스터 연결을 생성합니다.
-
 .단계
 . 클러스터/HA 인터커넥트 연결 케이블 연결:
 +
@@ -166,8 +132,6 @@ image::../media/drw_isi_a30-50_switched_2p_100gbe_2card_cabling_ieops-2013.svg[2
 .2포트 40/100 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60
 [%collapsible]
 =====
-컨트롤러를 클러스터 네트워크 스위치에 케이블로 연결하여 ONTAP 클러스터 연결을 생성합니다.
-
 .단계
 . 컨트롤러를 클러스터 네트워크 스위치에 케이블 연결합니다.
 +
@@ -193,58 +157,23 @@ image::../media/drw_isi_a30-50_2p_100gbe_1card_switched_cabling_ieops-1926.svg[�
 
 
 =====
-.2포트 10/25 GbE 입출력 모듈 1개가 포함된 AFF C30
-[%collapsible]
-=====
-컨트롤러를 클러스터 네트워크 스위치에 케이블로 연결하여 ONTAP 클러스터 연결을 생성합니다.
-
-. 컨트롤러를 클러스터 네트워크 스위치에 케이블 연결합니다.
-+
-
-NOTE: 클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리적 포트(슬롯 4의 I/O 모듈)를 공유합니다. 포트는 10/25GbE입니다.
-
-+
-.. 컨트롤러 A 포트 e4a를 클러스터 네트워크 스위치 A에 케이블 연결
-.. 컨트롤러 A 포트 e4b를 클러스터 네트워크 스위치 B에 케이블 연결
-.. 컨트롤러 B 포트 e4a를 클러스터 네트워크 스위치 A에 케이블 연결
-.. 컨트롤러 B 포트 e4b를 클러스터 네트워크 스위치 B에 케이블 연결
-+
-* 10/25GbE 클러스터/HA 인터커넥트 케이블 *
-
-+
-image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터, 폭 = 100px"]
-
-+
-image:../media/drw_isi_a20_switched_2p_25gbe_cabling_ieops-2019.svg["25GbE 입출력 모듈 1개를 사용한 A20 스위치 클러스터 케이블 연결 다이어그램"]
-
-
-
-
-
-=====
 --
 ====
 
 
 == 2단계: 호스트 네트워크 연결 케이블 연결
 
-컨트롤러를 호스트 네트워크에 케이블로 연결합니다.
+컨트롤러를 이더넷 또는 FC 호스트 네트워크에 케이블로 연결합니다.
 
-이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다.
-
+[role="tabbed-block"]
+====
+.이더넷 호스트 케이블 연결
+--
 .2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF C30 또는 AFF C60
 [%collapsible]
-====
+=====
 .단계
-. 호스트 네트워크 연결을 케이블로 연결합니다.
-+
-다음 하위 단계는 선택적 호스트 네트워크 케이블 연결의 예입니다. 필요한 경우 특정 스토리지 시스템 구성에 대한  내용은 을 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]참조하십시오.
-
-+
-.. 선택 사항: 컨트롤러를 호스트 네트워크 스위치에 연결합니다.
-+
-각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2b 및 e4b를 연결합니다.
-
+. 각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2b 및 e4b를 연결합니다.
 +
 
 NOTE: 슬롯 2 및 4의 입출력 모듈 포트는 40/100 GbE(호스트 접속은 40/100 GbE)입니다.
@@ -258,37 +187,14 @@ image::../media/oie_cable_sfp_gbe_copper.png[40/100 Gb 케이블]
 +
 image::../media/drw_isi_a30-50_host_2p_40-100gbe_2card_cabling_ieops-2014.svg[40/100GbE 이더넷 호스트 네트워크 스위치에 케이블 연결]
 
-.. 선택 사항: 컨트롤러를 FC 호스트 네트워크 스위치에 케이블 연결합니다.
-+
-각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.
-
-+
-* 64 Gb/s FC 케이블 *
-
-+
-image:../media/oie_cable_sfp_gbe_copper.png["64Gb FC 케이블, 폭 = 100px"]
-
-+
-image::../media/drw_isi_a30-50_4p_64gb_fc_2card_cabling_ieops-2023.svg[2개의 입출력 모듈을 사용하여 A30 또는 A50~64GB FC 호스트 네트워크 스위치에 케이블 연결]
 
 
-
-
-
-====
-.2포트 10/25 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60
+=====
+.4포트 10/25 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60
 [%collapsible]
-====
+=====
 .단계
-. 호스트 네트워크 연결을 케이블로 연결합니다.
-+
-다음 하위 단계는 선택적 호스트 네트워크 케이블 연결의 예입니다. 필요한 경우 특정 스토리지 시스템 구성에 대한  내용은 을 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]참조하십시오.
-
-+
-.. 선택 사항: 컨트롤러를 호스트 네트워크 스위치에 연결합니다.
-+
-각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2a, e2b, E2C 및 e2D를 연결합니다.
-
+. 각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2a, e2b, E2C 및 e2D를 연결합니다.
 +
 * 10/25 GbE 케이블 *
 
@@ -298,10 +204,17 @@ image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터, 폭 = 100
 +
 image::../media/drw_isi_a30-50_host_2p_40-100gbe_1card_cabling_ieops-1923.svg[40/100GbE 이더넷 호스트 네트워크 스위치에 케이블 연결]
 
-.. 선택 사항: 컨트롤러를 FC 호스트 네트워크 스위치에 케이블 연결합니다.
-+
-각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.
 
+
+=====
+--
+.FC 호스트 케이블링
+--
+.4포트 64Gb/s FC 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60
+[%collapsible]
+=====
+.단계
+. 각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.
 +
 * 64 Gb/s FC 케이블 *
 
@@ -313,48 +226,8 @@ image::../media/drw_isi_a30-50_4p_64gb_fc_1card_cabling_ieops-1924.svg[64GB FC �
 
 
 
-
-
-====
-.2포트 10/25 GbE 모듈 1개가 있는 AFF C30
-[%collapsible]
-====
-.단계
-. 호스트 네트워크 연결을 케이블로 연결합니다.
-+
-다음 하위 단계는 선택적 호스트 네트워크 케이블 연결의 예입니다. 필요한 경우 특정 스토리지 시스템 구성에 대한  내용은 을 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]참조하십시오.
-
-+
-.. 옵션: 컨트롤러를 네트워크 스위치에 케이블로 연결합니다.
-+
-각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2a, e2b, E2C 및 e2D를 연결합니다.
-
-+
-* 10/25 GbE 케이블 *
-
-+
-image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터, 폭 = 100pxx"]
-
-+
-image::../media/drw_isi_a20_host_4p_25gbe_cabling_ieops-2017.svg[A20 - 40/100GbE 이더넷 호스트 네트워크 스위치 케이블]
-
-.. 선택 사항: 컨트롤러를 FC 호스트 네트워크 스위치에 케이블 연결합니다.
-+
-각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.
-
-+
-* 64 Gb/s FC 케이블 *
-
-+
-image:../media/oie_cable_sfp_gbe_copper.png["64Gb FC 케이블, 폭 = 100pxx"]
-
-+
-image::../media/drw_isi_a20_4p_64gb_fc_cabling_ieops-2016.svg[A20 - 64GB FC 호스트 네트워크 스위치 케이블 연결]
-
-
-
-
-
+=====
+--
 ====
 
 

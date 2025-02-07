@@ -2371,7 +2371,6 @@
   <block id="8ebc074b350a73fb776c940df7d61fd5" category="summary">팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다.</block>
   <block id="413ac2fd2fb4f86c9ec059076dc0b76b" category="list-text">콘솔 오류 메시지를 확인하거나 마더보드에서 팬 모듈에 대해 표시등이 켜진 LED를 찾아 교체해야 하는 팬 모듈을 식별합니다.</block>
   <block id="c6c330df068950fe73f003a3f85b3fa0" category="list-text">교체용 팬 모듈의 가장자리를 컨트롤러 모듈의 입구에 맞춘 다음 잠금 래치가 제자리에 고정될 때까지 교체용 팬 모듈을 컨트롤러 모듈에 밀어 넣습니다.</block>
-  <block id="83b27b00949218cb0d9ec7e1eb1c92ad" category="inline-link-macro">업그레이드할 노드를 준비합니다</block>
   <block id="3c18bf7f079d36181ad6878ed8071663" category="paragraph">루트 볼륨에서 부팅 장치로 구성 정보를 복원해야 합니다.</block>
   <block id="fb1a4e47184adef08299b0192c4065a3" category="paragraph">다음 단계로 진행하기 전에 노드 3과 노드 4에서 다음 단계를 수행하여 한 노드에서 각 단계를 완료한 다음 다른 노드에서 다른 단계를 완료해야 합니다.</block>
   <block id="e3c0709957067379b297d87750941317" category="list-text">LOADER 프롬프트에서 boot 메뉴에 액세스합니다</block>
@@ -2382,16 +2381,7 @@
   <block id="b3f3a2ee1b0886d1b6596283fceb837b" category="paragraph">노드가 MetroCluster 구성에 있고 사이트의 모든 노드를 교체한 경우 스위치백 전_replacement_node 또는 노드에 라이센스 키를 설치해야 합니다.</block>
   <block id="a2539e65a13fda0a8ce497ac0baa63a7" category="inline-link-macro">컨트롤러 하드웨어 업그레이드 익스프레스 가이드</block>
   <block id="1988e9c8cf124cb346a67d52ea613567" category="inline-link-macro">ONTAP 9 SAN 관리 가이드 를 참조하십시오</block>
-  <block id="93d6a78ca650a17d67b6a45ca81b7f3f" category="inline-link-macro">노드1을 폐기합니다</block>
-  <block id="5ff20c188ceb23808ed9b47d8e5637ff" category="inline-link-macro">노드3을 설치하고 부팅합니다</block>
-  <block id="ac616410952c35e808a3c7ce4ea5b4a7" category="inline-link-macro">기존 시스템을 폐기합니다</block>
-  <block id="550ffaa7219faf74146770514db0d8e8" category="inline-link-macro">netboot를 준비합니다</block>
-  <block id="df5267f8e4bbfa9add1dd732e6b68e41" category="inline-link-macro">노드 4에 FC 또는 UTA/UTA2 구성을 설정합니다</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="list-text">스토리지</block>
-  <block id="bc26b5e5559721e19875fb91dce22cec" category="inline-link-macro">노드 3에 FC 또는 UTA/UTA2 구성을 설정합니다</block>
-  <block id="1a02fe8fc6a186319dd3345573fc3717" category="inline-link-macro">노드 4를 설치하고 부팅합니다</block>
-  <block id="27af4227ca8acc558df96e2723ec9b37" category="inline-link-macro">새 컨트롤러 모듈에서 스토리지 암호화를 설정합니다</block>
-  <block id="befd434b83717d2b7bd83967d66e9157" category="inline-link-macro">노드2를 폐기합니다</block>
   <block id="a68a35a43540dd794ad04d22e6017f00" category="paragraph">독립 실행형 시스템에서는 시스템을 정상 운영 상태로 되돌리기 전에 디스크를 새 컨트롤러의 시스템 ID로 수동으로 재할당해야 합니다.</block>
   <block id="149765daf2bb4f317cf4bf88eeba26d8" category="admonition">이 절차는 독립 실행형 구성에 있는 시스템에만 적용됩니다.</block>
   <block id="d2022b24f11e03f2795bf79d17ee74ea" category="list-text">아직 재부팅하지 않은 경우_replacement_node를 재부팅하고 Ctrl-C를 눌러 부팅 프로세스를 중단한 다음, 표시된 메뉴에서 유지보수 모드로 부팅하는 옵션을 선택하십시오.</block>
@@ -2442,8 +2432,6 @@
   <block id="d221362a63e7ae50e83d35a15224dfbc" category="inline-link">사용 중인 Data ONTAP 8 버전에 대한 고가용성 구성 가이드를 찾아보십시오</block>
   <block id="fdb5e3795d932923cacf5ee53c989cbb" category="paragraph"><block ref="fdb5e3795d932923cacf5ee53c989cbb" category="inline-link-rx"></block></block>
   <block id="8b641292568e892fbb88f218a413255c" category="paragraph">LOADER 프롬프트에서 시스템이 중지됩니다.</block>
-  <block id="bdbf296139657929f989f110dccebbd3" category="doc">애그리게이트 재배치 실패 여부를 확인합니다</block>
-  <block id="64f7904c016a035f1928a2cbeea82ab1" category="section-title">노드 1의 원래 애그리게이트는 업그레이드 완료 후 노드 4에서 소유합니다</block>
   <block id="2c4c75d1e0e065592eedb5be469928fc" category="doc">팬 모듈 핫스왑 - AFF A400</block>
   <block id="f94769a33d4669a6660b7ec2722589ef" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 팬 모듈을 핫 스왑할 수 있습니다.</block>
   <block id="a6c279177bd30a0d3ee3363a3679bffa" category="doc">실시간 클럭 배터리-AFF A400을 교체합니다</block>
@@ -4359,50 +4347,7 @@
   <block id="4dfce048960b478e43e915d68b452801" category="sidebar">입출력 모듈을 추가합니다</block>
   <block id="098be92f0aeba04b5ea336aeb0e987a0" category="sidebar">스위치 연결 스토리지로 쉘프를 연결합니다</block>
   <block id="f2c6151d6c0d99f3666129b97e2100f5" category="sidebar">드라이브</block>
-  <block id="8fb4b518ce39a0704f920c9d4f2f7b77" category="sidebar">애그리게이트 재배치를 사용하여 컨트롤러 하드웨어를 업그레이드합니다</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
-  <block id="3ffee04e4bb020103f1bece18c2ac58e" category="sidebar">컨트롤러 업그레이드 프로세스를 자동화합니다</block>
-  <block id="2e4e187dce2e8970e167f157b1040ef2" category="sidebar">애그리게이트 재배치 가이드 사용 여부를 결정합니다</block>
-  <block id="0e635d7a91ccc4eccdfb03e35353c899" category="sidebar">필요한 도구 및 문서</block>
-  <block id="da289ccf0fe9b7b8a0a8c3f55c76c877" category="sidebar">ARL을 사용한 컨트롤러 업그레이드 지침</block>
-  <block id="e7323a54c9f53a295a2c4d707c7b3fce" category="sidebar">MetroCluster 구성의 상태를 확인합니다</block>
-  <block id="f1b92e8f33cf66355b4b9762bf95256b" category="sidebar">MetroCluster 구성 오류를 확인합니다</block>
-  <block id="9759ad3dfabdb9631ec5fba47d71c313" category="sidebar">전환, 복구, 스위치백을 확인합니다</block>
-  <block id="32de3fe80cc3182e6d21291decbf392a" category="sidebar">ARL 업그레이드 개요</block>
-  <block id="15577d2c813239ab53fdc6f35d8a1dc5" category="sidebar">노드 쌍을 업그레이드합니다</block>
-  <block id="eee953986530407bd81dc7dec37f7151" category="sidebar">1단계 업그레이드 준비</block>
-  <block id="26678fb639f40f31f518f926dd61b9ab" category="sidebar">스토리지 암호화를 위한 외부 키 관리 서버의 IP 주소를 가져옵니다</block>
-  <block id="d410001785d5e6cf46422378e7dc305f" category="sidebar">2단계 노드1 재배치 및 폐기</block>
-  <block id="7de24b16e7313de118da7559fecd8fd4" category="sidebar">노드 1이 소유한 루트 이외의 Aggregate 및 NAS 데이터 LIF를 노드 2로 재배치합니다</block>
-  <block id="97075c537f59de355c8d44c57697ef74" category="sidebar">장애가 발생하거나 거부권을 행사한 Aggregate를 재배치합니다</block>
-  <block id="db0f435716365df4f28208e723c02179" category="sidebar">3단계 노드 3을 설치하고 부팅합니다</block>
-  <block id="63ad3c4d36a1a9f413872ac57af754a7" category="sidebar">노드3 설치를 확인합니다</block>
-  <block id="7ce57c4ce051863fc414ccd402a178f5" category="sidebar">노드 3에서 키 관리자 구성을 복원합니다</block>
-  <block id="840820d31f6c078aeb1567ce302bdd05" category="sidebar">노드 1이 소유하는 루트 이외의 Aggregate 및 NAS 데이터 LIF를 노드 2에서 노드 3으로 이동합니다</block>
-  <block id="cd93c6e9e61b2d31c781ea8786cb4e81" category="sidebar">4단계 노드2 재배치 및 폐기</block>
-  <block id="43ccb3503988f16a767b1af1e29d2384" category="sidebar">루트 이외의 애그리게이트 및 NAS 데이터 LIF를 노드 2에서 노드 3으로 재배치합니다</block>
-  <block id="62e340083f3c5febba2fa693ce759a1a" category="sidebar">5단계 노드 4를 설치하고 부팅합니다</block>
-  <block id="405ab80b96586360ea83735c37305935" category="sidebar">노드 4 설치를 확인합니다</block>
-  <block id="6d23265c57ba430c404cc6f3a940e117" category="sidebar">노드 4의 키 관리자 구성을 복원합니다</block>
-  <block id="32d978cffec9875e4d92dc55b84df69b" category="sidebar">노드 2가 소유한 루트 이외의 애그리게이트 및 NAS 데이터 LIF를 노드 3에서 노드 4로 이동합니다</block>
-  <block id="ded1f8eb21bf382d51471642d150b8d5" category="sidebar">6단계 업그레이드를 완료합니다</block>
-  <block id="b81d64bc331b1e2e60b2cef595c6ddf8" category="sidebar">MetroCluster FC 구성의 업그레이드를 완료합니다</block>
-  <block id="1a4d3feb333aa03c1008e54bae47d8e9" category="sidebar">새 컨트롤러가 올바르게 설정되었는지 확인합니다</block>
-  <block id="da7d6f53a5e074768e000aca830b3bfa" category="sidebar">새 컨트롤러 모듈에서 NetApp Volume Encryption 설정</block>
-  <block id="140c4ad72e426b76f7e15699ae078635" category="sidebar">SnapMirror 작업을 재개합니다</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="sidebar">문제 해결</block>
-  <block id="b02aac451baf6d7b36d981f898537961" category="sidebar">애그리게이트 재배치 실패</block>
-  <block id="d75bd21e9af20a5036c0fbf461bc4e2d" category="sidebar">재부팅, 패닉 또는 전원 껐다 켜기</block>
-  <block id="e33c48b52ab7d302b4af41aca3bbe858" category="sidebar">절차의 여러 단계에서 발생할 수 있는 문제입니다</block>
-  <block id="06d473a91334306e0ea337d0cf403b02" category="sidebar">LIF 마이그레이션 실패</block>
-  <block id="7bd0358c3b996edfe19bd3da912bde62" category="sidebar">Cisco Nexus 9336C-FX2 공유 스위치</block>
-  <block id="eac9e7086f92a026c0dbe06001206204" category="sidebar">Cisco 공유 스위치에 대한 설정 및 구성 가이드</block>
-  <block id="b72c69a60f695309089392e6d394557c" category="sidebar">NX-OS 소프트웨어 및 참조 구성 파일(RCFs) 설치</block>
-  <block id="b7167dcb288bc483f270fcd135c332ec" category="sidebar">2개의 새 공유 스위치를 추가하여 DAT 스토리지가 있는 스위치가 없는 클러스터에서 마이그레이션합니다</block>
-  <block id="467a501ced0eaaee20142a975e074f95" category="sidebar">새 공유 스위치 2개를 추가하여 DAT 스토리지를 사용하는 스위치 구성에서 마이그레이션합니다</block>
-  <block id="31a64a44fce8ed03b7b71b06a1ddc567" category="sidebar">스토리지 스위치를 재사용하여 SAT 스토리지를 사용하는 스위치가 없는 구성에서 마이그레이션합니다</block>
-  <block id="62bb127cfc33134b4b7ba3eb79ae05f3" category="sidebar">스토리지 스위치를 재사용하여 SAT 스토리지가 있는 스위치 클러스터에서 마이그레이션합니다</block>
-  <block id="8a6725809e9d102de1fa5e1c7d8c431d" category="sidebar">Cisco Nexus 9336C-FX2 공유 스위치를 교체합니다</block>
   <block id="f32bab2b08e5fc2e905512eaec57f369" category="sidebar">AFF C190 시스템</block>
   <block id="6bcfc4aeb02db575a71692ba5bde6626" category="sidebar">AFF C190 설치 및 설정</block>
   <block id="b4de374d75b22d216e3867b88bd708e7" category="sidebar">설치 및 설정 환경을 선택합니다</block>
@@ -10677,7 +10622,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c486d43df45ffe41cde84a1b0fa45aa0" category="paragraph"><block ref="c486d43df45ffe41cde84a1b0fa45aa0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e3eb777419d46f8ec20ca944795a4d26" category="list-text">광 스위치에 케이블로 연결하는 경우 광 트랜시버를 컨트롤러 포트에 삽입한 후 스위치 포트에 연결합니다.</block>
   <block id="d16a227aab66041a81c6f88b290eb486" category="section-title">1단계: 클러스터/HA 연결 케이블 연결</block>
-  <block id="e5f780ef73bd41c1dd64af7a1a1a31ac" category="paragraph">컨트롤러를 ONTAP 클러스터에 케이블로 연결합니다. 이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다.</block>
   <block id="134e0586a0879fa097abfb47d5e64dbe" category="open-title">스위치가 없는 클러스터 케이블 연결</block>
   <block id="ee68cf12a16ca46d58bedd8cf9051f32" category="example-title">2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF A30 또는 AFF A50</block>
   <block id="1de8dab1beab3d5ee0495c66a3c814b7" category="paragraph">ONTAP 클러스터를 연결하려면 컨트롤러를 서로 케이블로 연결하십시오.</block>
@@ -10700,7 +10644,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6fb39f4b9d1de8f2f3a463d3f9eedd52" category="paragraph"><block ref="6fb39f4b9d1de8f2f3a463d3f9eedd52" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e04550968face4eb31df851171941f8" category="image-alt">25GbE 입출력 모듈 1개를 사용한 A20 스위치 없는 클러스터 케이블 연결 다이어그램</block>
   <block id="666ce5251c9c6f25db5da3d713f9b34a" category="open-title">스위치 클러스터 케이블링</block>
-  <block id="c9802659f25463254a11923317d9fd06" category="paragraph">컨트롤러를 클러스터 네트워크 스위치에 케이블로 연결하여 ONTAP 클러스터 연결을 생성합니다.</block>
   <block id="3a343cf67a3c616a35a00f3a82358fe3" category="list-text">컨트롤러 A 포트 e4a를 클러스터 네트워크 스위치 A에 케이블 연결</block>
   <block id="627172884756ce9f3fccfd51a4559c59" category="list-text">컨트롤러 A 포트 e2a를 클러스터 네트워크 스위치 B에 케이블 연결</block>
   <block id="9c7f10ca7cef7791dc302ef4b9fc6cff" category="list-text">컨트롤러 B 포트 e4a를 클러스터 네트워크 스위치 A에 케이블 연결</block>
@@ -10716,35 +10659,18 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3488ff918c31f4a57e74bbab6ef9bcc9" category="inline-image-macro">25GbE 입출력 모듈 1개를 사용한 A20 스위치 클러스터 케이블 연결 다이어그램</block>
   <block id="ae3bd4fc66b4084d0dc856b5f0230d72" category="paragraph"><block ref="ae3bd4fc66b4084d0dc856b5f0230d72" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7f99cbc2aa28ab9fed6e99fa94242b4a" category="section-title">2단계: 호스트 네트워크 연결 케이블 연결</block>
-  <block id="9b8a63481b35238e3f6af2aff25d8e9a" category="paragraph">컨트롤러를 호스트 네트워크에 케이블로 연결합니다.</block>
-  <block id="40a36b0ffd7a648bae61167d750303ae" category="paragraph">이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다.</block>
-  <block id="b3d6f5fd41d136be22908a2112c08ed2" category="list-text">호스트 네트워크 연결을 케이블로 연결합니다.</block>
-  <block id="9ef6fba4dfd63e9f14ee44588abe6952" category="paragraph">다음 하위 단계는 선택적 호스트 네트워크 케이블 연결의 예입니다. 필요한 경우 특정 스토리지 시스템 구성에 대한  내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="1c4fc31a2e3f3932ec066d51327fdee3" category="list-text">선택 사항: 컨트롤러를 호스트 네트워크 스위치에 연결합니다.</block>
   <block id="8246042d23ca859d83185957ac9c4044" category="paragraph">각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2b 및 e4b를 연결합니다.</block>
   <block id="e827a0600a7ebd00f36ea855012f66a1" category="admonition">슬롯 2 및 4의 입출력 모듈 포트는 40/100 GbE(호스트 접속은 40/100 GbE)입니다.</block>
   <block id="7329bfa51dec924de206ced093bea600" category="paragraph">* 40/100 GbE 케이블 *</block>
   <block id="8f31147c7cfeb7520dc9739e31dedc90" category="image-alt">40/100 Gb 케이블</block>
   <block id="ec83c89c1bfd1fa2fe72db4df75b0e43" category="image-alt">40/100GbE 이더넷 호스트 네트워크 스위치에 케이블 연결</block>
-  <block id="a4beda8ffedc190bd2365aa3c0a3982e" category="list-text">선택 사항: 컨트롤러를 FC 호스트 네트워크 스위치에 케이블 연결합니다.</block>
   <block id="8f03269dbdbab70bab244893051fb6ec" category="paragraph">각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.</block>
   <block id="241c17a1be2cc4feae5c8c6007f8aed3" category="paragraph">* 64 Gb/s FC 케이블 *</block>
   <block id="176084e0e3d1d8b98919ade28704bd7b" category="inline-image-macro">64Gb FC 케이블, 폭 = 100px</block>
   <block id="0174aef3c6edce25256f90638a06bdca" category="paragraph"><block ref="0174aef3c6edce25256f90638a06bdca" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3c8610994d0d0d721ba1a3c2b56d2606" category="image-alt">2개의 입출력 모듈을 사용하여 A30 또는 A50~64GB FC 호스트 네트워크 스위치에 케이블 연결</block>
-  <block id="6070aae2c5cbb466ea4b44033555f52a" category="example-title">2포트 10/25 GbE 입출력 모듈 1개가 있는 AFF A30 또는 AFF A50</block>
   <block id="baae66b5065d8c53c84d82ba2175779d" category="paragraph">각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2a, e2b, E2C 및 e2D를 연결합니다.</block>
   <block id="c053ea984f8ec26545ef5a0f8e3c516b" category="paragraph">* 10/25 GbE 케이블 *</block>
   <block id="53b32e6926c94a5a2ab06b2fe3836135" category="image-alt">64GB FC 호스트 네트워크 스위치에 대한 케이블 연결</block>
-  <block id="2fcfbaa3d5181e463a6bbfa1a15ce7fa" category="example-title">2포트 10/25 GbE 모듈 1개가 있는 AFF A20</block>
-  <block id="3a6f33d3d155b4ae4ac4c5555a5a5b30" category="list-text">옵션: 컨트롤러를 네트워크 스위치에 케이블로 연결합니다.</block>
-  <block id="615ea66b0774b4053f21b1c6a497d682" category="inline-image-macro">GbE SFP 구리 커넥터, 폭 = 100pxx</block>
-  <block id="3448e0c15182366c2b7b3aa1515e467c" category="paragraph"><block ref="3448e0c15182366c2b7b3aa1515e467c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f6e881d94dc3ef7c3a5b2444eddf6212" category="image-alt">A20 - 40/100GbE 이더넷 호스트 네트워크 스위치 케이블</block>
-  <block id="09b66647463ed1ce42bd62c5b8ec2e1a" category="paragraph">각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.</block>
-  <block id="8e97dad8f8493822d0e00e75c6d71f3c" category="inline-image-macro">64Gb FC 케이블, 폭 = 100pxx</block>
-  <block id="a592636155b15ffbef0e20c00b496be4" category="paragraph"><block ref="a592636155b15ffbef0e20c00b496be4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="be986ea08bb54dd79ad4a1cee8ab3d63" category="image-alt">A20 - 64GB FC 호스트 네트워크 스위치 케이블 연결</block>
   <block id="945babbf23a8741321d27a1c4a0c4200" category="section-title">3단계: 관리 네트워크 연결 케이블 연결</block>
   <block id="b88fb46fa64622aa179b7b543ddf13a5" category="paragraph">컨트롤러를 관리 네트워크에 케이블로 연결합니다.</block>
   <block id="e42848811631f979cb5744f72268013a" category="list-text">각 컨트롤러의 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.</block>
@@ -10772,7 +10698,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8bfccb1f0c0fcef7c65c13971279707a" category="paragraph">스토리지 시스템용 하드웨어를 설치한 후에는<block ref="bca22c8e81cd07d8c060c28f352f5c5b" category="inline-link-macro-rx"></block></block>
   <block id="d18e261115fca673ca85d869ef16199c" category="doc">설치 및 설정 워크플로우 - AFF A20, AFF A30 및 AFF A50</block>
   <block id="3cdf8c6347bdc0a257b06253a291ef6c" category="paragraph-title"><block ref="444c1bf2e877f5617e8ce0a2ded57f4f" category="inline-image-macro-rx" type="image"></block><block ref="bce179ad419bd48e9c41b073fd99e202" category="inline-link-macro-rx"></block></block>
-  <block id="efbed9ff10698a899995d519b6515646" category="paragraph">설치를 준비하려면 현장 준비, 환경 및 전기 요구 사항 확인, 충분한 랙 공간이 있는지 확인해야 합니다. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.</block>
   <block id="966353821596fdf316108d72854ad8be" category="paragraph-title"><block ref="4f954e3aac01b1dc982b61d245b37a02" category="inline-image-macro-rx" type="image"></block><block ref="d8f87fb4140fea77f47017bd9ec5dcdd" category="inline-link-macro-rx"></block></block>
   <block id="14dba6115fa0ee08da437dd9fc5018c2" category="paragraph">하드웨어를 설치하려면 스토리지 시스템 및 쉘프용 레일 키트를 설치한 다음 스토리지 시스템과 쉘프를 캐비닛이나 텔코 랙에 설치하고 고정합니다.</block>
   <block id="88b736e6d5561b4dc7cce39802381ee6" category="inline-link-macro">하드웨어를 케이블로 연결합니다</block>
@@ -11218,13 +11143,22 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d27876edf06fef01e9d562affcf483bc" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템을 설치 및 설정하려면 설치 요구 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 연결하고, 스토리지 시스템을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
   <block id="2b9366d786af7f25816abf5ad658f2ab" category="inline-link-macro">설치 요구 사항을 검토합니다</block>
   <block id="bd9e341941a30be8d1d66fd436b9cbb4" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="5f0905e544c52c81d90a8c636fddd0a9" category="inline-link-macro-rx"></block></block>
-  <block id="70bfeb1ef79ed88d76859531032e6795" category="paragraph">스토리지 시스템을 설치하기 전에 스토리지 시스템이 설치 요구 사항을 충족해야 합니다.</block>
   <block id="a62423bfdb0c7361946c3892f20d2e7d" category="paragraph">저장 장치 시스템의 무게는 최대 27.9kg(61.5파운드)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.</block>
   <block id="05591bc7cdace84971ece26cdbd0437b" category="example-title">2포트 40/100 GbE 입출력 모듈 2개가 있는 AFF C30 또는 AFF C60</block>
   <block id="a25f694b3fe46b8223a96d7f7a6709e2" category="example-title">2포트 40/100 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60</block>
-  <block id="40311ade600e0691ceb4ef1447a01304" category="example-title">2포트 10/25 GbE 입출력 모듈 1개가 포함된 AFF C30</block>
-  <block id="365c5f6cc1c974e74595f900dc07803d" category="example-title">2포트 10/25 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60</block>
-  <block id="61bc9478fe9837a2edfeec12cfef1a17" category="example-title">2포트 10/25 GbE 모듈 1개가 있는 AFF C30</block>
   <block id="385d33bb3589ce3f38e65ed1e314719e" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템을 설치 및 설정하려면 설치 요구 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블 연결하고, 스토리지 시스템의 전원을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
   <block id="d92a2bc26be46a05b32e6cc5c37b3984" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항을 검토하십시오.</block>
+  <block id="b3fb7cc55fec6d7df9078e2ee7739718" category="paragraph">DIMM을 올바르게 삽입하면 쉽게 들어갈 수 있지만 슬롯에 단단히 고정됩니다. 그렇지 않은 경우 DIMM을 재장착합니다.</block>
+  <block id="7e08ee4b466dc677d31c40c8b0488339" category="list-text">DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 육안으로 확인합니다.</block>
+  <block id="34f650ca44fabe66ff7e4095a137da22" category="list-text">스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 작동하지 않는 경우 계속하기 전에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>."</block>
+  <block id="54d890bf92693607c99bccb67f9933f5" category="paragraph">컨트롤러에 케이블을 연결하여 ONTAP 클러스터 연결을 생성합니다.</block>
+  <block id="d48b3cfe096b47bcb7f13e683c934beb" category="paragraph">컨트롤러를 이더넷 또는 FC 호스트 네트워크에 케이블로 연결합니다.</block>
+  <block id="bb8661c49545cac68358046e25b8f950" category="open-title">이더넷 호스트 케이블 연결</block>
+  <block id="3c90cea8d34e6c024dcfcf7fbe2bc396" category="example-title">4포트 10/25 GbE 입출력 모듈 1개가 있는 AFF A20, A30 또는 AFF A50</block>
+  <block id="91ca13b03c277f557b91f705d4455de5" category="open-title">FC 호스트 케이블링</block>
+  <block id="45adc6168b3bfdd0a69aad7185cab6d2" category="example-title">4포트 64Gb/s FC 입출력 모듈 1개가 있는 AFF A20, A30 또는 AFF A50</block>
+  <block id="5b903193757e7495dce32499ded20f07" category="paragraph">스토리지 시스템을 설치하기 전에 설치 요구 사항을 충족해야 합니다.</block>
+  <block id="82f66f7658dd53410415bd1c67e9ccad" category="paragraph">설치 준비를 위해 현장 준비, 환경 및 전기 요구 사항 확인, 랙 공간 충분 확인. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.</block>
+  <block id="c273a3f4ab5c9add6857208b8a70d10e" category="example-title">4포트 10/25 GbE 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60</block>
+  <block id="46a9bbd60b5adf699bea6b74307aac99" category="example-title">4포트 64Gb/s FC 입출력 모듈 1개가 있는 AFF C30 또는 AFF C60</block>
 </blocks>

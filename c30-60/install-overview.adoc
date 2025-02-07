@@ -15,11 +15,11 @@ AFF C30 또는 AFF C60 스토리지 시스템을 설치 및 설정하려면 설�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:install-requirements.html["설치 요구 사항을 검토합니다"]
 [role="quick-margin-para"]
-스토리지 시스템을 설치하기 전에 스토리지 시스템이 설치 요구 사항을 충족해야 합니다.
+스토리지 시스템을 설치하기 전에 설치 요구 사항을 충족해야 합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["1개"]link:install-prepare.html["설치 준비"]
 [role="quick-margin-para"]
-설치를 준비하려면 현장 준비, 환경 및 전기 요구 사항 확인, 충분한 랙 공간이 있는지 확인해야 합니다. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.
+설치 준비를 위해 현장 준비, 환경 및 전기 요구 사항 확인, 랙 공간 충분 확인. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["2개"]link:install-hardware.html["하드웨어를 설치합니다"]
 [role="quick-margin-para"]
