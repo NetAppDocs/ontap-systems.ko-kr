@@ -49,67 +49,11 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 [role="quick-margin-para"]
 스토리지 시스템 및 스토리지 쉘프를 캐비닛 또는 랙에 설치합니다. 해당 플랫폼 모델의 설치 및 설정 지침에 액세스합니다.
 
-[role="quick-margin-para"]
-** AFF A 시리즈 시스템**
-
 [role="quick-margin-list"]
-* link:a1k/install-overview.html["AFF A1K 를 참조하십시오"]
-* link:a70-90/install-overview.html["AFF A70 를 참조하십시오"]
-* link:a70-90/install-overview.html["AFF A90 를 참조하십시오"]
-* link:a150/install-setup.html["AFF A150"]
-* link:a250/install-setup.html["AFF A250"]
-* link:a400/install-setup.html["AFF A400"]
-* link:a800/install-setup.html["AFF A800"]
-* link:a900/install_setup.html["AFF A900"]
-
-
-[role="quick-margin-para"]
-** AFF C 시리즈 시스템**
-
-[role="quick-margin-list"]
-* link:c190/install-setup.html["AFF C190"]
-* link:c250/install-setup.html["AFF C250"]
-* link:c400/install-setup.html["AFF C400"]
-* link:c800/install-setup.html["AFF C800"]
-
-
-[role="quick-margin-para"]
-** ASA A-시리즈 시스템**
-
-[role="quick-margin-list"]
-* link:asa150/install-setup.html["ASA A150"]
-* link:asa250/install-setup.html["ASA A250"]
-* link:asa400/install-setup.html["ASA A400"]
-* link:asa800/install-setup.html["ASA A800"]
-* link:asa900/install_setup.html["ASA A900"]
-
-
-[role="quick-margin-para"]
-** ASA C-시리즈 시스템**
-
-[role="quick-margin-list"]
-* link:asa-c250/install-setup.html["ASA C250 을 참조하십시오"]
-* link:asa-c400/install-setup.html["ASA C400 을 참조하십시오"]
-* link:asa-c800/install-setup.html["ASA C800을 참조하십시오"]
-
-
-[role="quick-margin-para"]
-** ASA R2 시스템**
-
-[role="quick-margin-list"]
+* link:aff-landing/index.html["AFF 시스템"]
+* link:allsan-landing/index.html["ASA 시스템"]
 * https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2 시스템"]
-
-
-[role="quick-margin-para"]
-** FAS 시스템**
-
-[role="quick-margin-list"]
-* link:fas-70-90/install-overview.html["FAS70 및 FAS90"]
-* link:fas2700/install-setup.html["FAS2700"]
-* link:fas2800/install-setup.html["FAS2820"]
-* link:fas8300/install-setup.html["FAS8300"]
-* link:fas8300/install-setup.html["FAS8700"]
-* link:fas9500/install_setup.html["FAS9500"]
+* link:fas/index.html["FAS 시스템"]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 케이블을 연결합니다

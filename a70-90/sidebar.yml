@@ -50,6 +50,8 @@ entries:
       url: "/a70-90/chassis-replace-workflow.html"
     - title: 요구사항 검토
       url: "/a70-90/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/a70-90/chassis-replace-prepare.html"
     - title: 컨트롤러를 종료합니다
       url: "/a70-90/chassis-replace-shutdown.html"
     - title: 섀시를 교체합니다
