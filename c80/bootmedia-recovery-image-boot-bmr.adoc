@@ -10,32 +10,26 @@ summary: 자동 부팅 복구 프로세스를 통해 파트너 컨트롤러에�
 :imagesdir: ../media/
 
 
+.시작하기 전에
 [role="lead"]
-부팅 미디어가 손상된 경우 파트너 노드에서 ONTAP 이미지를 복원합니다.
+* 다음 방법 중 하나를 사용하여 Onboard Key Manger(OKM) 또는 EKM(Eternal Key Manager)이 구성되었는지 확인합니다.
++
+** 고객이나 시스템 관리자에게 OKM 또는 EKM이 활성화되어 있는지 질문할 수 있습니다.
+** OKM이 설정되어 있는지 확인하려면 을 `security key-manager onboard show`사용합니다.
+** EKM이 활성화되어 있는지 확인하려면 를 `security key-manager external show`사용합니다.
 
-.이 작업에 대해
-노드의 부팅 미디어가 손상된 경우 Loader 프롬프트에서 부팅 프로세스가 멈추고 부팅 오류 메시지가 표시됩니다.
 
-이러한 부팅 오류 메시지가 표시되면 파트너 노드에서 ONTAP 이미지를 복원해야 합니다.
+* OKM의 경우 OKM 암호 파일 내용이 필요합니다.
+* EKM의 경우 파트너 노드에서 다음 파일의 복사본이 필요합니다.
++
+** /cfcard/kMIP/servers.cfg 파일.
+** /cfcard/kMIP/cert/client.crt 파일.
+** /cfcard/kMIP/certs/client.key 파일.
+** /cfcard/kMIP/certs/ca.pem 파일.
 
-.부팅 오류 메시지의 예를 표시합니다
-[%collapsible]
-====
-....
-Can't find primary boot device u0a.0
-Can't find backup boot device u0a.1
-ACPI RSDP Found at 0x777fe014
 
-Starting AUTOBOOT press Ctrl-C to abort...
-Could not load fat://boot0/X86_64/freebsd/image1/kernel: Device not found
 
-ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/Linux/image1/vmlinuz (boot0, fat)
-ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/freebsd/image1/kernel (boot0, fat)
 
-Autoboot of PRIMARY image failed. Device not found (-6)
-LOADER-A>
-....
-====
 .단계
 . Loader 프롬프트에서 다음 명령을 입력합니다.
 +
@@ -47,43 +41,67 @@ LOADER-A>
 +
 `Starting boot media recovery (BMR) process. Press Ctrl-C to abort…`
 
-. Loader가 로컬 포트를 구성하고 파트너 노드에서 실행할 때 부팅 미디어 복구 프로세스를 `netboot` 모니터링합니다.
+. 부팅 미디어 설치 복구 프로세스를 모니터링합니다.
 +
-netboot가 실행 중이면 `Starting BMR` 메시지가 표시됩니다.
+프로세스가 완료되고 `Installation complete.` 메시지가 표시됩니다.
 
-. 암호화 방법에 따라 시스템 구성과 일치하는 옵션을 선택합니다.
+. 시스템에서 암호화 및 암호화 유형을 확인하고 두 메시지 중 하나를 표시합니다. 표시되는 메시지에 따라 다음 작업 중 하나를 수행합니다.
++
+
+IMPORTANT: 경우에 따라 프로세스에서 키 관리자가 시스템에 구성되어 있는지 여부를 확인하지 못할 수 있습니다. 오류 메시지가 표시되고 시스템에 키 관리자가 구성되어 있는지 확인한 다음 구성된 키 관리자 유형을 묻습니다. 문제를 해결한 후 프로세스가 재개됩니다.
+
++
+.프롬프트를 찾는 구성 오류 예를 표시합니다
+[%collapsible]
+====
+....
+Error when fetching key manager config from partner ${partner_ip}: ${status}
+
+Has key manager been configured on this system
+
+Is the key manager onboard
+
+....
+====
++
+[cols="1,2"]
+|===
+| 이 메시지가 표시되는 경우... | 수행할 작업... 
+
+
+ a| 
+`key manager is not configured. Exiting.`
+ a| 
+암호화가 시스템에 설치되어 있지 않습니다. 다음 단계를 완료합니다.
+
+.. 로그인 프롬프트가 표시될 때 노드에 로그인하고 스토리지를 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+.. 자동 반환이 비활성화된 경우 5단계로 이동합니다.
+
+
+
+
+ a| 
+`key manager is configured.`
+ a| 
+4단계로 이동하여 해당 키 관리자를 복원합니다.
+
+노드가 부팅 메뉴에 액세스하여 다음을 실행합니다.
+
+** Onboard Key Manager(OKM)가 있는 시스템의 경우 옵션 10
+** EKM(External Key Manager)이 있는 시스템의 경우 옵션 11.
+
+
+|===
+. 적절한 키 관리자 복원 프로세스를 선택합니다.
 +
 [role="tabbed-block"]
 ====
-.암호화 없음
---
-암호화가 감지되지 않으면 키 관리 없이 부팅 미디어 복구 프로세스가 계속됩니다.
-
-.. 파트너 노드에서 백업 구성, env 파일, MDB 및 RDB를 복구하면서 복구 프로세스를 계속 모니터링합니다.
-.. 복구 프로세스가 완료되면 노드가 재부팅됩니다. 다음 메시지는 복구에 성공했음을 나타냅니다.
-
-
-....
-
-varfs_backup_restore: update checksum for varfs.tgz
-varfs_backup_restore: restore using /cfcard/x86_64/freebsd/oldvarfs.tgz
-varfs_backup_restore: Rebooting to load the new varfs
-.
-Terminated
-varfs_backup_restore: bootarg.abandon_varfs is set! Skipping /var backup.
-
-....
-.. 노드를 재부팅할 때 시스템이 다시 온라인 상태이고 작동 중인지 확인하여 부팅 미디어 복구가 성공적인지 확인합니다.
-.. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
-+
-`storage failover giveback -ofnode _impaired_node_name_`..
-
-
-
---
 .온보드 키 관리자(OKM)
 --
-Onboard Key Manager(OKM)가 감지되면 다음과 같은 프롬프트가 표시됩니다.
+OKM이 감지되면 시스템은 다음 메시지를 표시하고 BootMenu 옵션 10을 실행하기 시작합니다.
 
 ....
 key manager is configured.
@@ -91,8 +109,8 @@ Entering Bootmenu Option 10...
 
 This option must be used only in disaster recovery procedures. Are you sure? (y or n):
 ....
-.. Bootmenu 옵션 프롬프트에서 를 `Y` 입력하여 bootmedia 복구 옵션을 사용할 것인지 확인합니다.
-.. 메시지가 표시되면 온보드 키 관리자에 대한 암호를 입력하고 암호를 다시 입력하여 확인합니다.
+.. OKM 복구 프로세스 시작을 확인하는 프롬프트에 를 `Y` 입력합니다.
+.. 메시지가 표시되면 온보드 키 관리자에 대한 암호를 입력하고, 메시지가 표시되면 암호를 다시 입력하여 확인합니다.
 +
 .암호 프롬프트의 예를 표시합니다
 [%collapsible]
@@ -101,19 +119,12 @@ This option must be used only in disaster recovery procedures. Are you sure? (y 
 Enter the passphrase for onboard key management:
 Enter the passphrase again to confirm:
 Enter the backup data:
-TmV0QXBwIEtleSBCbG9iAAECAAAEAAAAcAEAAAAAAAA3yR6UAAAAACEAAAAAAAAA
-QAAAAAAAAACJz1u2AAAAAPX84XY5AU0p4Jcb9t8wiwOZoqyJPJ4L6/j5FHJ9yj/w
-RVDO1sZB1E4HO79/zYc82nBwtiHaSPWCbkCrMWuQQDsiAAAAAAAAACgAAAAAAAAA
-3WTh7gAAAAAAAAAAAAAAAAIAAAAAAAgAZJEIWvdeHr5RCAvHGclo+wAAAAAAAAAA
-IgAAAAAAAAAoAAAAAAAAAEOTcR0AAAAAAAAAAAAAAAACAAAAAAAJAGr3tJA/LRzU
-QRHwv+1aWvAAAAAAAAAAACQAAAAAAAAAgAAAAAAAAABHVFpxAAAAAHUgdVq0EKNp
-.
-.
-.
-.
+-----BEGIN PASSPHRASE-----
+<passphrase_value>
+-----END PASSPHRASE-----
 ....
 =====
-.. 파트너 노드에서 백업 구성, env 파일, MDB 및 RDB를 복구하면서 복구 프로세스를 계속 모니터링합니다.
+.. 파트너 노드에서 적절한 파일을 복원하므로 복구 프로세스를 계속 모니터링합니다.
 +
 복구 프로세스가 완료되면 노드가 재부팅됩니다. 다음 메시지는 복구에 성공했음을 나타냅니다.
 
@@ -122,7 +133,7 @@ QRHwv+1aWvAAAAAAAAAAACQAAAAAAAAAgAAAAAAAAABHVFpxAAAAAHUgdVq0EKNp
 Trying to recover keymanager secrets....
 Setting recovery material for the onboard key manager
 Recovery secrets set successfully
-Trying to delete any existing km_onboard.wkeydb file.
+Trying to delete any existing km_onboard.keydb file.
 
 Successfully recovered keymanager secrets.
 ....
@@ -140,55 +151,194 @@ Successfully recovered keymanager secrets.
 --
 .외부 키 관리자(EKM)
 --
-EKM이 구성된 경우 다음 프롬프트가 표시됩니다.
+EKM이 감지되면 시스템은 다음 메시지를 표시하고 BootMenu 옵션 11을 실행하기 시작합니다.
 
-....
-Error when fetching key manager config from partner <IP>:
-
-Has key manager been configured on this system? {y|n}
-....
-.. EKM이 구성된 경우 를 `Y` 입력합니다.
-+
 ....
 key manager is configured.
 Entering Bootmenu Option 11...
 ....
+.. 다음 단계는 시스템에서 실행 중인 ONTAP 버전에 따라 다릅니다.
 +
-설치 중에 처음 사용한 EKM 설정을 묻는 메시지가 나타납니다.
+[cols="1,2"]
+|===
+| 시스템이 실행 중인 경우... | 수행할 작업... 
 
-.. 메시지가 나타나면 각 EKM 구성 설정을 입력합니다.
-.. 클러스터 UUID 및 Keystore UUID의 속성이 올바른지 확인합니다.
+
+ a| 
+ONTAP 9.16.0
+ a| 
+... 를 `Ctlr-C` 눌러 BootMenu 옵션 11을 종료합니다.
+... 키를 눌러 `Ctlr-C` EKM 구성 프로세스를 종료하고 부팅 메뉴로 돌아갑니다.
+... BootMenu 옵션 8 을 선택합니다.
+... 노드를 재부팅합니다.
 +
-*** 파트너 노드에서 다음 명령을 사용하여 클러스터 UUID를 검색합니다.
-+
-`cluster identity show`
-
-*** 파트너 노드에서 다음 명령을 사용하여 Keystore UUID를 검색합니다.
-+
-`vserver show -type admin -fields uuid`
+가 설정된 경우 `AUTOBOOT` 노드가 재부팅되고 파트너 노드의 구성 파일을 사용합니다.
 
 +
-`key-manager keystore show -vserver <nodename>`
+가 설정되지 않은 경우 `AUTOBOOT` 해당 부팅 명령을 입력합니다. 노드가 재부팅되고 파트너 노드의 구성 파일을 사용합니다.
 
-*** 파트너 노드를 사용할 수 없는 경우 Mroot-AK 키를 사용하여 UUID를 검색합니다.
+... EKM이 부팅 미디어 파티션을 보호하도록 노드를 재부팅합니다.
+... C 단계를 진행합니다
+
+
+
+
+ a| 
+ONTAP 9.16.1
+ a| 
+다음 단계를 진행합니다.
+
+|===
+.. 메시지가 표시되면 다음 EKM 구성 설정을 입력합니다.
 +
-**** 클러스터 UUID의 경우 다음 명령을 입력합니다.
-+
-`x-NETAPP-ClusterName: <cluster name>`
-
-**** Keystore UUID에 다음 명령을 입력합니다.
-+
-`x-NETAPP-KeyUsage: MROOT-AK`
+[cols="2"]
+|===
+| 조치 | 예 
 
 
+ a| 
+파일의 클라이언트 인증서 내용을 `/cfcard/kmip/certs/client.crt` 입력합니다.
+ a| 
+.클라이언트 인증서 내용의 예를 표시합니다
+[%collapsible]
+=====
+....
+-----BEGIN CERTIFICATE-----
+<certificate_value>
+-----END CERTIFICATE-----
+....
+=====
 
 
+ a| 
+파일에서 클라이언트 키 파일 내용을 `/cfcard/kmip/certs/client.key` 입력합니다.
+ a| 
+.클라이언트 키 파일 내용의 예를 보여 줍니다
+[%collapsible]
+=====
+....
+-----BEGIN RSA PRIVATE KEY-----
+<key_value>
+-----END RSA PRIVATE KEY-----
+....
+=====
 
-.. 메시지가 표시되면 Keystore UUID 및 클러스터 UUID 값을 입력합니다.
+
+ a| 
+파일에서 KMIP 서버 CA 파일 내용을 입력합니다 `/cfcard/kmip/certs/CA.pem`.
+ a| 
+.KMIP 서버 파일 내용의 예를 보여줍니다
+[%collapsible]
+=====
+....
+-----BEGIN CERTIFICATE-----
+<KMIP_certificate_CA_value>
+-----END CERTIFICATE-----
+....
+=====
+
+
+ a| 
+파일에서 서버 구성 파일 내용을 `/cfcard/kmip/servers.cfg` 입력합니다.
+ a| 
+.서버 구성 파일 내용의 예를 보여 줍니다
+[%collapsible]
+=====
+....
+xxx.xxx.xxx.xxx:5696.host=xxx.xxx.xxx.xxx
+xxx.xxx.xxx.xxx:5696.port=5696
+xxx.xxx.xxx.xxx:5696.trusted_file=/cfcard/kmip/certs/CA.pem
+xxx.xxx.xxx.xxx:5696.protocol=KMIP1_4
+1xxx.xxx.xxx.xxx:5696.timeout=25
+xxx.xxx.xxx.xxx:5696.nbio=1
+xxx.xxx.xxx.xxx:5696.cert_file=/cfcard/kmip/certs/client.crt
+xxx.xxx.xxx.xxx:5696.key_file=/cfcard/kmip/certs/client.key
+xxx.xxx.xxx.xxx:5696.ciphers="TLSv1.2:kRSA:!CAMELLIA:!IDEA:!RC2:!RC4:!SEED:!eNULL:!aNULL"
+xxx.xxx.xxx.xxx:5696.verify=true
+xxx.xxx.xxx.xxx:5696.netapp_keystore_uuid=<id_value>
+....
+=====
+
+
+ a| 
+메시지가 표시되면 파트너의 ONTAP 클러스터 UUID를 입력합니다.
+ a| 
+.에는 ONTAP 클러스터 UUID의 예가 나와 있습니다
+[%collapsible]
+=====
+....
+Notice: bootarg.mgwd.cluster_uuid is not set or is empty.
+Do you know the ONTAP Cluster UUID? {y/n} y
+Enter the ONTAP Cluster UUID: <cluster_uuid_value>
+
+
+System is ready to utilize external key manager(s).
+....
+=====
+
+
+ a| 
+메시지가 표시되면 노드의 임시 네트워크 인터페이스 및 설정을 입력합니다.
+ a| 
+.임시 네트워크 설정의 예를 보여줍니다
+[%collapsible]
+=====
+....
+In order to recover key information, a temporary network interface needs to be
+configured.
+
+Select the network port you want to use (for example, 'e0a')
+e0M
+
+Enter the IP address for port : xxx.xxx.xxx.xxx
+Enter the netmask for port : xxx.xxx.xxx.xxx
+Enter IP address of default gateway: xxx.xxx.xxx.xxx
+Trying to recover keys from key servers....
+[discover_versions]
+[status=SUCCESS reason= message=]
+....
+=====
+|===
 .. 키가 성공적으로 복원되었는지 여부에 따라 다음 작업 중 하나를 수행합니다.
 +
-*** 키가 성공적으로 복원되면 복구 프로세스가 계속되고 노드를 재부팅합니다. 4단계를 진행합니다.
-*** 키가 성공적으로 복원되지 않으면 시스템이 중지되고 오류 및 경고 메시지가 표시됩니다. 복구 프로세스를 다시 실행합니다.
+*** EKM 구성이 성공적으로 복원된 경우 프로세스는 파트너 노드에서 적절한 파일 복원을 시도하고 노드를 재부팅합니다. d 단계로 이동합니다
++
+.성공적인 9.16.0 복원 메시지의 예를 보여줍니다
+[%collapsible]
+=====
+....
+
+kmip2_client: Importing keys from external key server: xxx.xxx.xxx.xxx:5696
+[Feb  6 04:57:43]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdUtils: [locateMrootAkUuids]:420: Locating local cluster MROOT-AK with keystore UUID: <uuid>
+[Feb  6 04:57:43]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdBase: [doCmdImp]:79: Calling KMIP Locate for the following attributes: [<x-NETAPP-ClusterId, <uuid>>, <x-NETAPP-KeyUsage, MROOT-AK>, <x-NETAPP-KeystoreUuid, <uuid>>, <x-NETAPP-Product, Data ONTAP>]
+[Feb  6 04:57:44]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdBase: [doCmdImp]:84: KMIP Locate executed successfully!
+[Feb  6 04:57:44]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdBase: [setUuidList]:50: UUID returned: <uuid>
+...
+kmip2_client: Successfully imported the keys from external key server: xxx.xxx.xxx.xxx:5696
+
+GEOM_ELI: Device nvd0s4.eli created.
+GEOM_ELI: Encryption: AES-XTS 256
+GEOM_ELI:     Crypto: software
+Feb 06 05:02:37 [_server-name_]: crypto_get_mroot_ak:140 MROOT-AK is requested.
+Feb 06 05:02:37 [_server-name_]: crypto_get_mroot_ak:162 Returning MROOT-AK.
+....
+=====
++
+.성공적인 9.16.1 복원 메시지의 예를 보여줍니다
+[%collapsible]
+=====
+....
+
+System is ready to utilize external key manager(s).
+Trying to recover keys from key servers....
+[discover_versions]
+[status=SUCCESS reason= message=]
+...
+kmip2_client: Successfully imported the keys from external key server: xxx.xxx.xxx.xxx:xxxx
+Successfully recovered keymanager secrets.
+....
+=====
+*** 키가 성공적으로 복원되지 않으면 시스템이 중지되고 키를 복원할 수 없음을 나타냅니다. 오류 및 경고 메시지가 표시됩니다. 를 입력하여 복구 프로세스를 다시 `boot_recovery -partner` 실행합니다.
 +
 .키 복구 오류 및 경고 메시지의 예를 표시합니다
 [%collapsible]
@@ -196,17 +346,18 @@ Entering Bootmenu Option 11...
 ....
 
 ERROR: kmip_init: halting this system with encrypted mroot...
-
 WARNING: kmip_init: authentication keys might not be available.
-
-System cannot connect to key managers.
-
+********************************************************
+*                 A T T E N T I O N                    *
+*                                                      *
+*       System cannot connect to key managers.         *
+*                                                      *
+********************************************************
 ERROR: kmip_init: halting this system with encrypted mroot...
-
+.
 Terminated
 
 Uptime: 11m32s
-
 System halting...
 
 LOADER-B>
@@ -214,8 +365,8 @@ LOADER-B>
 =====
 
 
-.. 노드를 재부팅할 때 시스템이 다시 온라인 상태이고 작동 중인지 확인하여 부팅 미디어 복구가 성공적인지 확인합니다.
-.. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
+.. 노드가 재부팅될 때 시스템이 다시 온라인 상태이고 작동 중인지 확인하여 부팅 미디어 복구가 성공했는지 확인합니다.
+.. 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
 +
 `storage failover giveback -ofnode _impaired_node_name_`..
 

@@ -15,7 +15,7 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-replace-requirements-bmr.html["부팅 미디어 요구 사항을 검토합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체하려면 특정 요구 사항을 충족해야 합니다.
+부팅 미디어 교체에 대한 요구 사항을 검토합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown-bmr.html["손상된 컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
@@ -25,7 +25,7 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 [role="quick-margin-para"]
 시스템 관리 모듈에서 오류가 발생한 부팅 미디어를 제거하고 교체 부팅 미디어를 설치합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-recovery-image-boot-bmr.html["부팅 미디어에서 이미지 복원(자동 부팅 복구)"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-recovery-image-boot-bmr.html["부팅 미디어에서 이미지를 복원합니다"]
 [role="quick-margin-para"]
 파트너 컨트롤러에서 ONTAP 이미지를 복원합니다.
 

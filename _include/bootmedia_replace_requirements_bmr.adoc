@@ -1,16 +1,7 @@
----
-permalink: asa-r2-a1k/bootmedia-replace-requirements-bmr.html 
-sidebar: sidebar 
-keywords: asa r2 a1k, replace the boot media 
-summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다. 
----
-= 부팅 미디어 교체 요구 사항 - ASA A1K
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
 부팅 미디어를 교체하기 전에 다음 요구 사항을 검토하십시오.
 
 * 장애가 발생한 부팅 미디어를 NetApp에서 받은 교체 부팅 미디어로 교체해야 합니다.
@@ -32,6 +23,3 @@ summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다.
 
 
 
-
-.다음 단계
-부팅 미디어 요구 사항을 검토한 후link:bootmedia-shutdown-bmr.html["손상된 컨트롤러를 종료합니다"]
