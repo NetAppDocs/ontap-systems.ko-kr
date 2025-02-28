@@ -60,7 +60,7 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 [role="quick-margin-para"]
 컨트롤러를 네트워크에 케이블로 연결한 다음 컨트롤러를 쉘프에 케이블을 연결합니다.  플랫폼 모델의 설치 및 설정 지침에는 컨트롤러 포트를 네트워크와 스위치에 케이블로 연결하는 지침이 포함되어 있습니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] ONTAP 클러스터를 설정합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["6개"] ONTAP 클러스터를 설정합니다
 [role="quick-margin-para"]
 컨트롤러와 스위치를 설치하고 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.
 

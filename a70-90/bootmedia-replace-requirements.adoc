@@ -2,7 +2,7 @@
 permalink: a70-90/bootmedia-replace-requirements.html 
 sidebar: sidebar 
 keywords: aff a70, a90, replace the boot media 
-summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다. 
+summary: AFF A70 또는 AFF A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체 부팅 장치, 시스템 펌웨어 및 ONTAP 소프트웨어에 대한 액세스 및 필수 구성 데이터의 백업이 있는지 확인하십시오. 
 ---
 = 부팅 미디어 교체 요구 사항 - AFF A70 및 AFF A90
 :allow-uri-read: 
@@ -11,7 +11,9 @@ summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다.
 
 
 [role="lead"]
-부팅 미디어를 교체하기 전에 다음 요구 사항을 검토하십시오.
+AFF A70 또는 AFF A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체 부팅 장치, 시스템 펌웨어 및 ONTAP 소프트웨어에 대한 액세스 및 필수 구성 데이터의 백업이 있는지 확인하십시오.
+
+다음 요구 사항을 검토하십시오.
 
 * "image_xxx.tgz" 파일을 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.
 * 이 절차에서 나중에 사용할 수 있도록 파일을 USB 플래시 드라이브에 복사해야 `image_xxx.tgz` 합니다.

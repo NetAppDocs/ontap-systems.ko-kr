@@ -4,7 +4,7 @@ permalink: eoa-hardware.html
 keywords: legacy, hardware, end-of-support 
 summary: 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보십시오. 
 ---
-= 기존 하드웨어는 더 이상 지원되지 않습니다
+= 하드웨어가 더 이상 지원되지 않습니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

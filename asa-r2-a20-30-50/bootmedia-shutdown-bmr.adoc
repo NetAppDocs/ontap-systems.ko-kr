@@ -1,10 +1,10 @@
 ---
-permalink: c80/bootmedia-shutdown-bmr.html 
+permalink: asa-r2-a20-30-50/bootmedia-shutdown-bmr.html 
 sidebar: sidebar 
-keywords: c80, shut down the controller 
+keywords: aff a20, aff a30, aff a50, shut down the controller 
 summary: 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
-= 컨트롤러를 종료합니다. - AFF C80입니다
+= AFF A20, AFF A30 및 AFF A50 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -63,3 +63,6 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 
 |===
 
+
+.다음 단계
+손상된 컨트롤러를 종료한 후link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]

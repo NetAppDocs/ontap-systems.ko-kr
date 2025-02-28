@@ -1,11 +1,11 @@
 ---
 indexpage:
-  title: ASA(All Flash SAN 어레이) C-Series 시스템
+  title: ASA C-Series 시스템
   summary: 스토리지 시스템 설명서를 통해 ASA C-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
   keywords: allsan, asa, flash, array, c-series, systems, configuration, asa-c250,
     c-400, c-800
-  lead: NetApp의 All Flash SAN 어레이(ASA)는 조직의 미션 크리티컬 데이터베이스와 기타 SAN 워크로드에 지속적인 데이터
-    가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다.
+  lead: ASA C-Series 시스템은 데이터 센터 내 중요 엔터프라이즈 애플리케이션에 맞게 설계된 비용 효율적인 고밀도 플래시 스토리지 솔루션을
+    제공합니다.
   tiles:
   - title: 시작하십시오
     links:

@@ -3,7 +3,8 @@ indexpage:
   title: ASA 시스템
   summary: 스토리지 시스템 설명서를 통해 ASA A-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
   keywords: asa, a-series, asa a150, asa a250, asa a400, asa a800, asa a900, datasheet
-  lead: ASA A-Series 및 C-Series 모델은 고객의 요구사항에 맞는 광범위한 성능과 용량을 제공합니다.
+  lead: ASA A-Series 및 ASA C-Series 시스템은 FCP 또는 iSCSI 프로토콜을 사용하여 엔터프라이즈 미션 크리티컬 데이터베이스
+    및 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다.
   tiles:
   - title: 시작하십시오
     links:

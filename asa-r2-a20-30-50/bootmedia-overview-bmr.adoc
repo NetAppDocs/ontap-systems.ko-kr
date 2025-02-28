@@ -1,0 +1,31 @@
+---
+permalink: asa-r2-a20-30-50/bootmedia-overview-bmr.html 
+sidebar: sidebar 
+keywords: aff a20, aff a30, aff a50, overview, automatic recovery, boot media 
+summary: 부팅 미디어를 자동으로 교체하는 방법에 대해 알아봅니다. 
+---
+= 부팅 미디어 복구 개요 - AFF A20, AFF A30 및 AFF A50
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+부팅 미디어 복구는 파트너 노드의 부팅 이미지를 사용하고 적절한 부팅 메뉴 옵션을 자동으로 실행하여 교체 부팅 미디어에 부팅 이미지를 설치합니다.
+
+아래에 표시된 것과 유사한 부팅 오류 메시지가 표시되면 부팅 미디어를 교체하고 파트너 노드에서 ONTAP 이미지를 복원해야 합니다.
+
+....
+Can't find primary boot device u0a.0
+Can't find backup boot device u0a.1
+ACPI RSDP Found at 0x777fe014
+
+Starting AUTOBOOT press Ctrl-C to abort...
+Could not load fat://boot0/X86_64/freebsd/image1/kernel: Device not found
+
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/Linux/image1/vmlinuz (boot0, fat)
+ERROR: Error booting OS on: 'boot0' file: fat://boot0/X86_64/freebsd/image1/kernel (boot0, fat)
+
+Autoboot of PRIMARY image failed. Device not found (-6)
+LOADER-A>
+....
