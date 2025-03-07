@@ -1,34 +1,34 @@
 ---
 permalink: fas-70-90/caching-module-hot-swap.html 
 sidebar: sidebar 
-keywords: fas70, fas90, hot swap, replace, FlashCache module carrier, caching module, FlashCache 
-summary: 'NVMe SSD FlashCache 모듈 캐리어는 각 캐싱 모듈에 통합된 단일 SSD 캐싱 드라이브가 있는 하나 또는 2개의 FlashCache 모듈(캐싱 모듈)을 포함합니다. 캐시 모듈은 핫 스왑할 수 있지만 FlashCache 모듈 캐리어는 핫 스왑이 가능하지 않습니다.' 
+keywords: fas70, fas90, hot swap, replace, Flash Cache module carrier, caching module, Flash Cache 
+summary: 'NVMe SSD Flash Cache 모듈 캐리어는 각 캐싱 모듈에 통합된 단일 SSD 캐싱 드라이브를 갖춘 하나 또는 2개의 Flash Cache 모듈(캐싱 모듈)을 포함합니다. 캐시 모듈은 핫 스왑할 수 있지만 Flash Cache 모듈 캐리어는 핫 스왑이 가능하지 않습니다.' 
 ---
-= FlashCache 모듈 캐리어 또는 캐싱 모듈 FAS70 및 FAS90을 교체합니다
+= Flash Cache 모듈 캐리어 또는 캐싱 모듈 FAS70 및 FAS90을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-NVMe SSD FlashCache 모듈 캐리어는 각 캐싱 모듈에 통합된 단일 SSD FlashCache 드라이브가 있는 하나 또는 2개의 FlashCache 모듈(캐싱 모듈)을 포함합니다.
+NVMe SSD Flash Cache 모듈 캐리어는 각 캐싱 모듈에 통합된 단일 SSD Flash Cache 드라이브를 갖춘 하나 또는 2개의 Flash Cache 모듈(캐싱 모듈)을 포함합니다.
 
-FAS70은 2TB 캐싱 모듈을 지원하며 FAS90은 4TB 캐싱 모듈을 지원합니다. FlashCache 모듈 캐리어에서 용량이 서로 다른 캐싱 모듈을 혼합할 수 없습니다.
+FAS70은 2TB 캐싱 모듈을 지원하며 FAS90은 4TB 캐싱 모듈을 지원합니다. 서로 다른 용량의 캐싱 모듈을 Flash Cache 모듈 캐리어에서 혼합할 수 없습니다.
 
-교체해야 할 항목에 따라 전체 FlashCache 모듈 캐리어 또는 캐시 모듈 중 하나를 수행할 수 있습니다.
+교체해야 하는 항목에 따라 다음 절차 중 하나를 수행할 수 있습니다. 전체 Flash Cache 모듈 캐리어 또는 캐싱 모듈.
 
-* <<FlashCache 모듈 캐리어를 교체합니다>>
+* <<Flash Cache 모듈 캐리어를 교체합니다>>
 * <<캐싱 모듈을 교체합니다>>
 
 
 
 
-== FlashCache 모듈 캐리어를 교체합니다
+== Flash Cache 모듈 캐리어를 교체합니다
 
-FlashCache 모듈 캐리어는 슬롯 6에 있으며 FlashCache 모듈을 최대 2개까지 장착할 수 있습니다. FlashCache 모듈 캐리어는 핫 스왑할 수 없습니다
+Flash Cache 모듈 캐리어는 슬롯 6에 있으며 최대 2개의 Flash Cache 모듈을 장착할 수 있습니다. Flash Cache 모듈 캐리어는 핫 스왑할 수 없습니다
 
 .시작하기 전에
-* 스토리지 시스템에 교체용 FlashCache 모듈 캐리어에 적합한 운영 체제가 있는지 확인합니다.
+* 스토리지 시스템에 교체용 Flash Cache 모듈 캐리어에 적합한 운영 체제가 있는지 확인합니다.
 * 다른 모든 구성 요소가 제대로 작동하는지 확인합니다. 제대로 작동하지 않으면 기술 지원 부서에 문의해야 합니다.
 
 
@@ -136,15 +136,15 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 ====
 
 
-=== 2단계: FlashCache 모듈 캐리어를 교체합니다
+=== 2단계: Flash Cache 모듈 캐리어를 교체합니다
 
-FlashCache 모듈 캐리어를 교체하려면 다음 단계를 수행하십시오.
+다음 단계를 수행하여 Flash Cache 모듈 캐리어를 교체합니다.
 
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
-. FlashCache 모듈 캐리어 전면에 있는 주황색 주의 LED로 슬롯 6에서 장애가 발생한 FlashCache 모듈 캐리어를 찾습니다.
+. Flash Cache 모듈 캐리어 전면에 있는 주황색 주의 LED를 사용해 장애가 발생한 Flash Cache 모듈 캐리어를 슬롯 6에서 찾습니다.
 +
-image::../media/drw_fas70-90_remove_caching_module_carrier_ieops-1772.svg[FlashCache 모듈 캐리어를 분리합니다]
+image::../media/drw_fas70-90_remove_caching_module_carrier_ieops-1772.svg[Flash Cache 모듈 캐리어를 분리합니다]
 
 +
 [cols="1,4"]
@@ -154,7 +154,7 @@ image::../media/drw_fas70-90_remove_caching_module_carrier_ieops-1772.svg[FlashC
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
-FlashCache 모듈 캐리어
+Flash Cache 모듈 캐리어
 
 
 
@@ -168,33 +168,33 @@ image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
 image:../media/icon_round_3.png["설명선 번호 3"]
  a| 
-FlashCache 모듈 캐리어 캠 핸들
+Flash Cache 모듈 캐리어 캠 핸들
 
 
 
  a| 
 image:../media/icon_round_4.png["설명선 번호 4"]
  a| 
-FlashCache 모듈 캐리어 오류 LED
+Flash Cache 모듈 캐리어 오류 LED
 
 |===
-. 장애가 발생한 FlashCache 모듈 캐리어를 제거합니다.
+. 장애가 발생한 Flash Cache 모듈 캐리어를 제거합니다.
 +
 .. 케이블 관리 트레이 안쪽의 양쪽에 있는 단추를 당겨 케이블 관리 트레이를 아래로 돌린 다음 트레이를 아래로 돌립니다.
-.. FlashCache 모듈 캐리어 하단의 파란색 탭을 누릅니다.
+.. Flash Cache 모듈 캐리어 하단의 파란색 탭을 누릅니다.
 .. 탭을 돌려 모듈에서 분리합니다.
 
 
-. FlashCache 모듈 캐리어를 컨트롤러 모듈에서 당겨 정전기 방지 매트에 놓습니다.
-. 캐시 모듈을 교체용 FlashCache 모듈 캐리어로 이동합니다.
+. Flash Cache 모듈 캐리어를 컨트롤러 모듈에서 당겨 정전기 방지 매트에 놓습니다.
+. 캐싱 모듈을 교체용 Flash Cache 모듈 캐리어로 이동합니다.
 +
 .. 캐싱 모듈 상단에 있는 Terra Cotta 탭을 잡고 캠 핸들을 캐시 모듈에서 멀리 돌립니다.
-.. 캠 레버 입구에 손가락을 넣고 FlashCache 모듈 캐리어에서 모듈을 당겨 엔클로저에서 모듈을 분리합니다.
-.. 캐시 모듈을 교체용 FlashCache 모듈 캐리어의 동일한 슬롯에 설치하고 캠 핸들을 캐싱 모듈의 닫힌 위치로 돌려 제자리에 잠급니다.
+.. 캠 레버 입구에 손가락을 넣고 Flash Cache 모듈 캐리어에서 모듈을 당겨 엔클로저에서 모듈을 분리합니다.
+.. 캐싱 모듈을 교체용 Flash Cache 모듈 캐리어의 동일한 슬롯에 설치하고 캠 핸들을 캐싱 모듈의 닫힌 위치로 돌려 제자리에 잠급니다.
 
 
 . 두 번째 캐시 모듈이 있는 경우 이 단계를 반복합니다.
-. 교체용 FlashCache 모듈 캐리어를 시스템에 설치합니다.
+. 교체용 Flash Cache 모듈 캐리어를 시스템에 설치합니다.
 +
 .. 모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.
 .. 모듈을 인클로저 끝까지 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.
@@ -207,7 +207,7 @@ FlashCache 모듈 캐리어 오류 LED
 
 === 3단계: 컨트롤러를 재부팅합니다
 
-FlashCache 모듈 캐리어를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
+Flash Cache 모듈 캐리어를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
 
 .단계
 . LOADER 프롬프트에서 node:_bye_를 재부팅합니다
@@ -230,7 +230,7 @@ NOTE: 그러면 I/O 카드 및 기타 구성 요소가 다시 초기화되고 �
 == 캐싱 모듈을 교체합니다
 
 .시작하기 전에
-FlashCache 모듈(캐시 모듈)은 슬롯 6-1 또는 슬롯 6-2에 있거나 슬롯 6-1과 슬롯 6-2에 있습니다.
+Flash Cache 모듈(캐시 모듈)은 슬롯 6-1 또는 슬롯 6-2에 있거나 슬롯 6-1과 슬롯 6-2에 있습니다.
 
 개별 캐시 모듈을 동일한 공급업체 또는 다른 지원 공급업체에서 제공하는 동일한 용량의 캐싱 모듈로 핫 스왑할 수 있습니다.
 
@@ -292,9 +292,9 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 .. 케이블 관리 트레이 안쪽의 양쪽에 있는 단추를 당겨 케이블 관리 트레이를 아래로 돌린 다음 트레이를 아래로 돌립니다.
 .. 캐싱 모듈 앞면에 있는 테라코타 해제 단추를 누릅니다.
 .. 캠 핸들을 끝까지 돌립니다.
-.. 캠 레버 입구에 손가락을 넣고 FlashCache 모듈 캐리어에서 모듈을 당겨 캐쉬 모듈 모듈을 인클로저에서 분리합니다.
+.. 캠 레버 입구에 손가락을 넣고 Flash Cache 모듈 캐리어 밖으로 모듈을 당겨 엔클로저에서 캐시 모듈 모듈을 분리합니다.
 +
-FlashCache 모듈 캐리어에서 캐시 모듈을 분리할 때 캐시 모듈을 지원해야 합니다.
+Flash Cache 모듈 캐리어에서 캐싱 모듈을 분리할 때 이 모듈을 지원해야 합니다.
 
 
 

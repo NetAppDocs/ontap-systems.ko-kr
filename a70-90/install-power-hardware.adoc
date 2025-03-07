@@ -2,7 +2,7 @@
 permalink: a70-90/install-power-hardware.html 
 sidebar: sidebar 
 keywords: aff a70, a90, power controllers 
-summary: 전원 케이블을 연결하고 쉘프 및 컨트롤러의 전원을 켭니다. 
+summary: AFF A70 또는 AFF A90 스토리지 시스템용 랙 하드웨어를 설치하고 컨트롤러 및 스토리지 쉘프용 케이블을 설치한 후에는 스토리지 쉘프와 컨트롤러의 전원을 켜야 합니다. 
 ---
 = 스토리지 시스템 전원을 켭니다(AFF A70 및 AFF A90)
 :allow-uri-read: 

@@ -1,8 +1,8 @@
 ---
 permalink: fas9000/caching-module-hot-swap.html 
 sidebar: sidebar 
-keywords: fas9000, hot swap, replace, FlashCache 
-summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9000 시스템의 슬롯 6에 있는 NVRAM10 모듈 전면에 있습니다. ONTAP 9.4부터는 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
+keywords: fas9000, hot swap, replace, Flash Cache 
+summary: 'NVMe SSD Flash Cache 모듈(플래시 캐시 또는 캐싱 모듈)은 FAS9000 시스템의 슬롯 6에 있는 NVRAM10 모듈 전면에 있습니다. ONTAP 9.4부터는 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
 ---
 = 캐싱 모듈-FAS9000을 핫 스왑합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9000
 
 
 [role="lead"]
-NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9000 시스템의 슬롯 6에 있는 NVRAM10 모듈 전면에 있습니다. ONTAP 9.4부터는 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.
+NVMe SSD Flash Cache 모듈(플래시 캐시 또는 캐싱 모듈)은 FAS9000 시스템의 슬롯 6에 있는 NVRAM10 모듈 전면에 있습니다. ONTAP 9.4부터는 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.
 
 .시작하기 전에
 스토리지 시스템은 상황에 따라 특정 기준을 충족해야 합니다.

@@ -1,8 +1,8 @@
 ---
 permalink: fas9500/caching_module_hot_swap.html 
 sidebar: sidebar 
-keywords: fas9500, hot swap, replace, FlashCache 
-summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
+keywords: fas9500, hot swap, replace, Flash Cache 
+summary: 'NVMe SSD Flash Cache 모듈(플래시 캐시 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.' 
 ---
 = 핫 스왑 A 캐싱 모듈 - FAS9500
 :allow-uri-read: 
@@ -11,10 +11,10 @@ summary: 'NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500
 
 
 [role="lead"]
-NVMe SSD FlashCache 모듈(FlashCache 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.
+NVMe SSD Flash Cache 모듈(플래시 캐시 또는 캐싱 모듈)은 FAS9500 시스템의 슬롯 6에 있는 NVRAM11 모듈 전면에 있습니다. 동일하거나 다른 지원되는 공급업체에서 동일한 용량의 캐시 모듈을 핫 스왑할 수 있습니다.
 
 
-NOTE: FlashCache 모듈을 콜드 스왑해야 하거나 콜드 스왑하려면 입출력 모듈을 교체하는 절차를 따르십시오.
+NOTE: Flash Cache 모듈을 콜드 스왑해야 하거나 콜드 스왑하려면 I/O 모듈 교체 절차를 따르십시오.
 
 .시작하기 전에
 스토리지 시스템은 상황에 따라 특정 기준을 충족해야 합니다.

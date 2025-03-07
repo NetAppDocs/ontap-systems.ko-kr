@@ -39,7 +39,7 @@ USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복�
 
 .. Loader 프롬프트에서 손상된 노드를 NetBoot합니다.
 +
-`netboot \http://_web_server_ip/path_to_web-accessible_directory_/<ontap_version>_image.tgz`
+`netboot \http://_web_server_ip/path_to_web-accessible_directory_/<xxx_image.tgz>`
 
 .. 부팅 메뉴에서 옵션을 선택합니다 `7`.
 .. 백업 구성을 복원할지 묻는 메시지가 표시되면 를 `n` 입력합니다.

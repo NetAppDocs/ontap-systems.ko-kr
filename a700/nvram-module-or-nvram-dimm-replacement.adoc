@@ -2,7 +2,7 @@
 permalink: a700/nvram-module-or-nvram-dimm-replacement.html 
 sidebar: sidebar 
 keywords: aff a700, replace, nvram, module, dimm, manually, reassign, system, id, ha, system, disk, two, node, restore, storage, volume, encryption, functionality 
-summary: 'NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.' 
+summary: 'NVRAM 모듈은 NVRAM10와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
 = NVRAM 모듈 또는 NVRAM DIMM-AFF A700을 교체합니다
 :allow-uri-read: 
@@ -11,9 +11,9 @@ summary: 'NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVM
 
 
 [role="lead"]
-NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다.
+NVRAM 모듈은 NVRAM10와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다.
 
-장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 모듈을 제거하고, NVRAM 모듈에서 FlashCache 모듈을 제거하고, DIMM을 교체 모듈로 이동하고, FlashCache 모듈을 다시 설치하고, 교체 NVRAM 모듈을 섀시에 설치해야 합니다.
+장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 분리하고, NVRAM 모듈에서 Flash Cache 모듈을 분리하고, DIMM을 교체 모듈로 이동하고, Flash Cache 모듈 또는 모듈을 재설치한 다음, 교체용 NVRAM 모듈을 섀시에 설치해야 합니다.
 
 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체할 경우 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.
 
@@ -196,7 +196,7 @@ NVRAM 모듈을 장착하려면 섀시의 슬롯 6에서 모듈을 찾은 다음
 
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
-. 이전 NVRAM 모듈에서 새 NVRAM 모듈로 FlashCache 모듈을 이동합니다.
+. Flash Cache 모듈을 기존 NVRAM 모듈에서 새 NVRAM 모듈로 이동합니다.
 +
 image::../media/drw_9000_remove_flashcache.png[캐시 모듈을 교체합니다]
 
@@ -208,25 +208,25 @@ image::../media/drw_9000_remove_flashcache.png[캐시 모듈을 교체합니다]
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
  a| 
-주황색 분리 단추(비어 있는 FlashCache 모듈의 경우 회색)
+주황색 분리 버튼(비어 있는 Flash Cache 모듈의 경우 회색)
 
 
 
  a| 
 image:../media/icon_round_2.png["설명선 번호 2"]
  a| 
-FlashCache 캠 핸들
+Flash Cache 캠 핸들
 
 |===
 +
-.. FlashCache 모듈 앞면에 있는 주황색 단추를 누릅니다.
+.. Flash Cache 모듈 전면에 있는 주황색 버튼을 누릅니다.
 +
 
-NOTE: 비어 있는 FlashCache 모듈의 분리 단추가 회색입니다.
+NOTE: 빈 Flash Cache 모듈의 해제 버튼은 회색입니다.
 
 .. 모듈이 이전 NVRAM 모듈에서 빠져나올 때까지 캠 핸들을 바깥쪽으로 돌립니다.
 .. 모듈 캠 핸들을 잡고 NVRAM 모듈에서 밀어낸 다음 새 NVRAM 모듈의 전면에 삽입합니다.
-.. FlashCache 모듈을 NVRAM 모듈에 완전히 밀어 넣은 다음 모듈이 제자리에 잠길 때까지 캠 핸들을 돌려 닫습니다.
+.. 플래시 캐시 모듈을 NVRAM 모듈 안으로 부드럽게 밀어 넣은 다음 모듈이 제자리에 잠길 때까지 캠 핸들을 돌려 닫습니다.
 
 
 . 섀시에서 대상 NVRAM 모듈을 분리합니다.

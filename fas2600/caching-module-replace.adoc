@@ -36,7 +36,7 @@ link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-t
 .. 캐싱 모듈의 데이터를 지웁니다. `system controller flash-cache secure-erase run -node _node name_ localhost -device-id _device_number_`
 +
 
-NOTE: 를 실행합니다 `system controller flash-cache show` FlashCache 장치 ID를 모르는 경우 명령을 실행합니다.
+NOTE:  `system controller flash-cache show`Flash Cache 디바이스 ID를 모르는 경우 명령을 실행합니다.
 
 .. 캐싱 모듈에서 데이터가 삭제되었는지 확인합니다. `system controller flash-cache secure-erase show`
 

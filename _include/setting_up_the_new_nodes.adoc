@@ -5,7 +5,7 @@
 스토리지를 이동하여 업그레이드하는 동안 노드 3과 노드 4의 전원을 켜고 소프트웨어 이미지를 부팅하고 노드를 구성합니다. 원래 노드와 새 노드 간의 물리적 포트 레이아웃은 다를 수 있습니다. 원래 노드와 대체 노드 간의 포트 매핑은 포트와 연결의 적절한 레이아웃을 식별하기 위해 수행해야 합니다.
 
 .이 작업에 대해
-새 노드에서 실행되는 ONTAP 버전이 원래 노드의 버전과 다른 경우 NetApp Support 사이트에서 웹 액세스 가능한 디렉토리로 올바른 <ONTAP_VERSION>_IMAGE.tgz 파일을 다운로드해야 합니다(4단계 참조). 시스템의 netboot를 수행하려면 <ONTAP_VERSION>_IMAGE.tgz 파일이 필요합니다.
+새 노드에서 실행되는 ONTAP의 버전이 원래 노드의 버전과 다를 경우 NetApp 지원 사이트에서 웹 액세스 가능한 디렉토리로 올바른 <xxx_image.tgz> 파일을 다운로드해야 합니다(4단계 참조). 시스템의 NetBoot을 수행하려면 <xxx_image.tgz> 파일이 필요합니다.
 
 .단계
 . 노드 3의 전원을 켠 다음 콘솔 터미널에서 Ctrl-C를 즉시 눌러 로더 프롬프트에 액세스합니다.
@@ -63,11 +63,11 @@ ifconfig e0M-addr=ip_addr-mask=netmask"-GW=gateway입니다
  a| 
 * 다른 모든 시스템 *
  a| 
-'+netboot http://web_server_ip/path_to_web-accessible_directory/<ontap_version>_image.tgz+`[]
+`+netboot http://web_server_ip/path_to_web-accessible_directory/<xxx_image.tgz>+`
 
 |===
 +
-path_to_the_web-Accessible_directory는 다운로드한 <ONTAP_version>_image.tgz 파일의 위치입니다.
+WEB-ACCEBABLE_DIRECTORY 경로는 다운로드한 <xxx_image.tgz> 파일의 위치입니다.
 
 +
 
@@ -77,7 +77,7 @@ NOTE: 새 컨트롤러를 netboot에 연결할 수 없으면 기술 지원 부�
 +
 "이 절차는 HA 쌍에서 무중단 업그레이드를 지원하지 않습니다."라는 메시지를 무시하십시오. 무중단 소프트웨어 업그레이드에는 적용되며 컨트롤러 업그레이드에는 적용되지 않습니다.
 
-. 절차를 계속하라는 메시지가 나타나면 y를 입력하고 패키지를 입력하라는 메시지가 나타나면 이미지 파일의 URL(+ http://web_server_ip/path_to_web-accessible_directory/<ontap_version>_image.tgz+` )을 입력합니다.
+. 절차를 계속할지 묻는 메시지가 표시되면 를 입력하고 패키지를 선택하라는 메시지가 `y` 표시되면 이미지 파일의 URL을 입력합니다. `+http://web_server_ip/path_to_web-accessible_directory/<xxx_image.tgz>+`
 +
 해당하는 경우 사용자 이름/암호를 입력하거나 Enter 키를 눌러 계속합니다.
 

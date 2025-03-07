@@ -2,7 +2,7 @@
 permalink: fas-70-90/nvram-replace.html 
 sidebar: sidebar 
 keywords: fas70, fas90, replace an nvdimm 
-summary: 'NVRAM 모듈은 NVRAM12 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.' 
+summary: 'NVRAM 모듈은 NVRAM12와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
 = NVRAM-FAS70 및 FAS90을 교체합니다
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: a70-90/install-prepare.html 
 sidebar: sidebar 
 keywords: aff a70-90k, prepare installation 
-summary: AFF A70 및 AFF A90 플랫폼 설치를 준비합니다. 
+summary: 사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택에 액세스할 수 있도록 시스템을 등록하여 AFF A70 또는 AFF A90 스토리지 시스템 설치를 준비합니다. 
 ---
 = 설치 준비 - AFF A70 및 AFF A90
 :allow-uri-read: 

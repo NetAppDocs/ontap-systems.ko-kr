@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70 aff a90 maintenance, maintenance, repairing aff a70 aff a90, repairing a70 aff a90, replace a70 aff a90 components 
 summary: AFF A70 및 AFF A90 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= AFF A70 및 AFF A90 스토리지 시스템 유지 관리
+= 유지 관리 절차 개요 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

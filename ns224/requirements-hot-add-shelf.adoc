@@ -41,18 +41,18 @@ NS224 쉘프를 핫 추가하려면 HA 쌍이 특정 요구사항을 충족해�
 
 NS224 쉘프를 핫 추가하기 전에 다음 모범 사례를 숙지하십시오.
 
-* * 모범 사례: * 모범 사례는 선반을 핫 추가하기 전에 의 최신 버전을 https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["디스크 검증 패키지"^] 설치하는 것입니다.
+* * 디스크 검증 패키지 : * 모범 사례는 선반을 핫 추가하기 전에 의 최신 버전을 https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["디스크 검증 패키지"^] 설치하는 것입니다.
 +
 현재 버전의 DQP를 설치하면 시스템이 새로 인증된 드라이브를 인식하고 사용할 수 있습니다. 이렇게 하면 드라이브가 인식되지 않으므로 최신 드라이브 정보가 없는 경우 및 드라이브 파티셔닝 예방에 대한 시스템 이벤트 메시지가 표시되지 않습니다. 또한 DQP는 최신 버전이 아닌 드라이브 펌웨어에 대해서도 알려줍니다.
 
-* * 모범 사례: * 모범 사례는 선반을 핫 애드하기 전과 후에 실행하는 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^] 것입니다.
+* * Active IQ Config Advisor: * 모범 사례는 선반을 핫 애드하기 전과 후에 실행하는 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^] 것입니다.
 +
 쉘프를 핫 추가하기 전에 Active IQ Config Advisor를 실행하면 기존 ENET(쉘프 이더넷) 연결의 스냅샷이 생성되며, NVMe 쉘프 모듈(NSM) 펌웨어 버전을 확인하고, HA 쌍에서 이미 사용 중인 쉘프 ID를 확인할 수 있습니다.
 
 +
 쉘프를 핫 추가한 후 Active IQ Config Advisor를 실행하면 쉘프가 올바로 연결되었는지, 쉘프 ID가 HA 쌍 내에서 고유한지 확인할 수 있습니다.
 
-* * 모범 사례: * 모범 사례는 새 셸프를 추가하기 전에 스토리지 시스템에 및 의 최신 버전을 설치하는 https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NVMe 쉘프 모듈(NSM) 펌웨어"^] https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["드라이브 펌웨어"^] 것입니다.
+* * NSM 펌웨어: * 모범 사례는 새 셸프를 추가하기 전에 스토리지 시스템에 및 https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["드라이브 펌웨어"^] 의 최신 버전을 사용하는 https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NVMe 쉘프 모듈(NSM) 펌웨어"^] 것입니다.
 +
 
 NOTE: 펌웨어를 쉘프와 해당 구성요소를 지원하지 않는 버전으로 되돌리지 마십시오.

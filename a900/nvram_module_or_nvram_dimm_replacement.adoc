@@ -2,7 +2,7 @@
 permalink: a900/nvram_module_or_nvram_dimm_replacement.html 
 sidebar: sidebar 
 keywords:  
-summary: 'NVRAM 모듈은 NVRAM11 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.' 
+summary: 'NVRAM 모듈은 NVRAM11과 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
 = NVRAM 모듈 및/또는 NVRAM DIMM을 교체합니다. - AFF A900
 :allow-uri-read: 

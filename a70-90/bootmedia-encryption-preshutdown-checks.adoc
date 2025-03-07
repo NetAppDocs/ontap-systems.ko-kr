@@ -2,16 +2,16 @@
 permalink: a70-90/bootmedia-encryption-preshutdown-checks.html 
 sidebar: sidebar 
 keywords: aff a70, aff a90, pre-shutdown checks for onboard encryption keys 
-summary: 'AFF A70 및 AFF A90 스토리지 시스템에서 데이터 보안을 보장하려면 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.' 
+summary: 'AFF A70 및 AFF A90 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.' 
 ---
-= 암호화 키 지원 및 상태 - AFF A70 및 AFF A90를 확인합니다
+= 부팅 매체에서 암호화 키 지원 및 상태를 확인합니다(AFF A70 및 AFF A90)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF A70 및 AFF A90 스토리지 시스템에서 데이터 보안을 보장하려면 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.
+AFF A70 또는 AFF A90 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.
 
 손상된 컨트롤러를 종료하기 전에 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 그리고 키 관리 시스템이 제대로 구성되었는지 확인하십시오.
 
@@ -194,3 +194,6 @@ OKM을 수동으로 복구해야 하는 재해 시나리오에서 이 구성 이
 --
 ====
 
+
+.다음 단계
+부팅 미디어에서 암호화 키 지원 및 상태를 확인한 후 다음을 link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]수행해야 합니다.

@@ -2,7 +2,7 @@
 permalink: asa-r2-a1k/nvram-replace.html 
 sidebar: sidebar 
 keywords: asa r2 a1k, replace an nvdimm 
-summary: 'NVRAM 모듈은 NVRAM12 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(FlashCache 또는 캐싱 모듈)로 구성됩니다.' 
+summary: 'NVRAM 모듈은 NVRAM12와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
 = NVRAM-ASA A1K을 교체합니다
 :allow-uri-read: 
@@ -225,21 +225,24 @@ NOTE: 기브백이 거부되면 거부권을 재정의할 수 있습니다.
 .. 기브백이 완료된 후 HA 쌍이 정상 상태이고 테이크오버가 가능한지 확인합니다. _ 스토리지 페일오버 show _
 
 
-. 디스크 풀이 예상대로 작동하는 디스크를 확인합니다. `storage disk show -ownership`
+. 모든 디스크가 표시되는지 확인합니다. `storage disk show`
 +
 [listing]
 ----
-node1:> storage disk show -ownership
 
-Disk     Aggregate  Home Owner    DR Home      Home ID       Owner ID    DR Home ID  Reserver Pool
--------- --------- ------------- ------------- ------------- ----------- ----------- ----------- ----------- ------
-1.0.0 pod_NVME_SSD_1
+::> storage disk show
+                     Usable           Disk    Container   Container
+Disk                   Size Shelf Bay Type    Type        Name
+---------------- ---------- ----- --- ------- ----------- ---------
+1.0.0                3.49TB     0   0 SSD-NVM aggregate   pod_NVME_SSD_1
+1.0.1                3.49TB     0   1 SSD-NVM aggregate   pod_NVME_SSD_1
+1.0.2                3.49TB     0   2 SSD-NVM aggregate   pod_NVME_SSD_1
+1.0.3                3.49TB     0   3 SSD-NVM aggregate   pod_NVME_SSD_1
+1.0.4                3.49TB     0   4 SSD-NVM aggregate   pod_NVME_SSD_1
 
-0 0 - 0 Pool0
-1.0.1 pod_NVME_SSD_1
-0 0 - 0 Pool0
-1.0.2 pod_NVME_SSD_1
-0 0 - 0 Pool0
+[...]
+48 entries were displayed.
+
 ----
 
 

@@ -38,7 +38,10 @@ summary: 시스템을 재부팅합니다.
 --
 .온보드 암호화(OKM)
 --
-. Loader 프롬프트에서 를 입력합니다 `boot_ontap maint`.
+. Loader 프롬프트에서 다음을 입력합니다.
++
+`boot_ontap maint`
+
 . Loader 프롬프트에서 ONTAP 메뉴로 부팅하고 `boot_ontap menu` 옵션 10을 선택합니다.
 . OKM 암호를 입력합니다. 이 암호를 고객으로부터 받거나 에 문의할 수 https://support.netapp.com["NetApp 지원"] 있습니다.
 +
@@ -110,7 +113,6 @@ NOTE: 문제가 있는 경우 에 https://support.netapp.com["NetApp 지원"] �
 
 . 시스템이 처리되면 부팅 메뉴가 표시됩니다. 정상 부팅의 경우 '1'을 선택하십시오.
 . 인수 상태를 확인합니다 `storage failover show`.
-. 복구 노드의 모든 코어 덤프가 고급 모드로 이동하여 저장되었는지 확인합니다." `set -privilege advanced` `run local partner savecore`
 . 손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다 `storage failover giveback -ofnode _impaired_node_name_`.
 . 자동 반환이 비활성화되어 있는 경우, 다음과 같이 다시 활성화하십시오 `storage failover modify -node local -auto-giveback true`.
 . AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
