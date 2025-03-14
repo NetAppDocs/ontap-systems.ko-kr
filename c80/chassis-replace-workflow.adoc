@@ -2,7 +2,7 @@
 permalink: c80/chassis-replace-workflow.html 
 sidebar: sidebar 
 keywords: aff 70, 90, replace the chassis workflow 
-summary: AFF C80 섀시 교체에는 시스템 종료, 섀시 제거 및 교체, 구성 요소 재구성 및 시스템 작동 확인 단계가 포함되어 있습니다. 
+summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 분리 및 교체하고, 시스템 작동을 확인하여 AFF C80 시스템의 섀시 교체를 시작하십시오. 
 ---
 = 섀시 교체를 위한 빠른 시작 - AFF C80
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: AFF C80 섀시 교체에는 시스템 종료, 섀시 제거 및 교체,
 
 
 [role="lead"]
-AFF C80 섀시 교체에는 시스템 종료, 섀시 제거 및 교체, 구성 요소 재구성 및 시스템 작동 확인 단계가 포함되어 있습니다.
+교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 분리 및 교체하고, 시스템 작동을 확인하여 AFF C80 시스템의 섀시 교체를 시작하십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-requirements.html["섀시 교체 요구 사항을 검토합니다"]
 [role="quick-margin-para"]

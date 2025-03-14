@@ -2,7 +2,7 @@
 permalink: asa-r2-70-90/fan-swap-out.html 
 sidebar: sidebar 
 keywords: asa r2 a70, asa r2 a90, asa r2, swap, out, fan, module, interrupt, service, sequence, task, hot-swap, hot-swap a fan module 
-summary: ASA A70 또는 ASA A90 시스템에서 팬이 고장나거나 효율적으로 작동하지 않는 경우 팬 모듈을 교체하여 시스템 냉각 및 전체 성능에 영향을 줄 수 있습니다. 
+summary: 팬이 고장나거나 효율적으로 작동하지 않는 경우 시스템 냉각 및 전체 성능에 영향을 줄 수 있으므로 ASA A70 또는 ASA A90 시스템에서 팬 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다. 
 ---
 = 팬 모듈 교체 - ASA A70 및 ASA A90
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: ASA A70 또는 ASA A90 시스템에서 팬이 고장나거나 효율적
 
 
 [role="lead"]
-ASA A70 또는 ASA A90 시스템에서 팬이 고장나거나 효율적으로 작동하지 않는 경우 팬 모듈을 교체하여 시스템 냉각 및 전체 성능에 영향을 줄 수 있습니다.
+팬이 고장나거나 효율적으로 작동하지 않는 경우 시스템 냉각 및 전체 성능에 영향을 줄 수 있으므로 ASA A70 또는 ASA A90 시스템에서 팬 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.
 
 팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다.
 

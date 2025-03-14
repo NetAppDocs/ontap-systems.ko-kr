@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: c80 maintenance, maintenance, repairing aff c80, repairing c80, replace c80 components 
 summary: AFF C80 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= AFF C80 스토리지 시스템을 유지 관리합니다
+= 유지보수 절차 개요 - AFF C80
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

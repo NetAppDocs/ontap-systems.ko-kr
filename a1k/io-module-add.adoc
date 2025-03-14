@@ -2,7 +2,7 @@
 permalink: a1k/io-module-add.html 
 sidebar: sidebar 
 keywords: aff a1k, add I/O module 
-summary: PCIe 카드를 교체하려면 카드에 케이블을 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 분리한 다음 SFP 및 QSFP 모듈을 다시 설치해야 합니다. 
+summary: AFF A1K 시스템에 입출력 모듈을 추가하여 네트워크 연결을 개선하고 데이터 트래픽을 처리하는 시스템의 기능을 확장합니다. 
 ---
 = 입출력 모듈 추가 - AFF A1K
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: PCIe 카드를 교체하려면 카드에 케이블을 연결하기 전�
 
 
 [role="lead"]
+AFF A1K 시스템에 입출력 모듈을 추가하여 네트워크 연결을 개선하고 데이터 트래픽을 처리하는 시스템의 기능을 확장합니다.
+
 사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFF A1K 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.
 
 

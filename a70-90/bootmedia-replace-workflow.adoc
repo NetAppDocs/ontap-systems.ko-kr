@@ -11,9 +11,9 @@ summary: 교체 미디어를 준비하고 시스템에 설치하고 부팅 이�
 
 
 [role="lead"]
-교체 미디어를 준비하고 시스템에 설치하고 부팅 이미지를 복원하고 시스템 기능을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 부팅 미디어를 교체하는 작업을 시작하십시오.
+교체 요구 사항을 검토하고, 암호화 상태 확인, 컨트롤러 종료, 부팅 미디어 교체, 복구 이미지 부팅, 암호화 복원 및 시스템 기능 확인을 통해 AFF A70 또는 AFF A90 스토리지 시스템의 부팅 미디어 교체를 시작하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-replace-requirements.html["부팅 미디어 요구 사항을 검토합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-replace-requirements.html["부팅 미디어를 교체하는 데 필요한 요구 사항을 검토합니다"]
 [role="quick-margin-para"]
 부팅 미디어 교체 요구 사항을 검토합니다.
 
@@ -21,9 +21,9 @@ summary: 교체 미디어를 준비하고 시스템에 설치하고 부팅 이�
 [role="quick-margin-para"]
 시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-shutdown.html["손상된 컨트롤러를 종료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-장애가 있는 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있도록 손상된 컨트롤러를 종료하거나 인계하십시오.
+부팅 미디어를 교체해야 할 때 스토리지 시스템에서 컨트롤러를 종료합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-replace.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]

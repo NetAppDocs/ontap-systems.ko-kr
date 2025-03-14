@@ -2,16 +2,16 @@
 permalink: fas-70-90/bootmedia-encryption-preshutdown-checks.html 
 sidebar: sidebar 
 keywords: fas70, fas90, pre-shutdown checks for onboard encryption keys 
-summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
+summary: 'FAS70 또는 FAS90 스토리지 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.' 
 ---
-= 암호화 키 지원 및 상태 확인 - FAS70 및 FAS90
+= 부팅 미디어 FAS70 및 FAS90에서 암호화 키 지원 및 상태를 확인합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-손상된 컨트롤러를 종료하기 전에 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 그리고 키 관리 시스템이 제대로 구성되었는지 확인하십시오.
+FAS70 또는 FAS90 스토리지 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.
 
 
 
@@ -192,3 +192,6 @@ OKM을 수동으로 복구해야 하는 재해 시나리오에서 이 구성 이
 --
 ====
 
+
+.다음 단계
+부팅 미디어에서 암호화 키 지원 및 상태를 확인한 후 다음을 link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]수행해야 합니다.

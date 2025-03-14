@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, replace the boot media 
 summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
 ---
-= 부팅 미디어 교체 워크플로우 - AFF A20, AFF A30 및 AFF A50
+= 부팅 미디어 교체 워크플로우 - ASA A20, ASA A30 및 ASA A50
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -2,7 +2,7 @@
 permalink: a70-90/controller-replace-workflow.html 
 sidebar: sidebar 
 keywords: aff a70, a90, replace the controller workflow 
-summary: AFF A70 및 AFF A90 컨트롤러 교체에는 컨트롤러 종료, 컨트롤러 제거 및 교체, 시스템 설정 재구성 및 시스템 작업 확인 단계가 포함되어 있습니다. 
+summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 작업을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오. 
 ---
 = 컨트롤러 교체를 위한 빠른 시작 - AFF A70 및 AFF A90
 :allow-uri-read: 
@@ -11,9 +11,9 @@ summary: AFF A70 및 AFF A90 컨트롤러 교체에는 컨트롤러 종료, 컨�
 
 
 [role="lead"]
-AFF A70 및 AFF A90 컨트롤러 교체에는 컨트롤러 종료, 컨트롤러 제거 및 교체, 시스템 설정 재구성 및 시스템 작업 확인 단계가 포함되어 있습니다.
+손상된 컨트롤러를 종료하고, 컨트롤러를 분리 및 교체하고, 시스템 구성을 복원하며, 시스템 작업을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구 사항을 검토합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구 사항을 검토하십시오"]
 [role="quick-margin-para"]
 컨트롤러 모듈을 교체하려면 특정 요구 사항을 충족해야 합니다.
 

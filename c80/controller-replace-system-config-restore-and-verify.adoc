@@ -61,3 +61,6 @@ HA 상태의 값은 다음 중 하나일 수 있습니다.
 
 . 유지 관리 모드를 `halt` 종료합니다.
 
+
+.다음 단계
+AFF C80 시스템의 시스템 구성을 복원하고 확인한 후에는 다음을 수행해야 link:controller-replace-recable-reassign-disks.html["컨트롤러를 반납합니다"]합니다.

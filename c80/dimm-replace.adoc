@@ -2,7 +2,7 @@
 permalink: c80/dimm-replace.html 
 sidebar: sidebar 
 keywords: c80, replace a dimm 
-summary: AFF C80 시스템의 DIMM을 교체할 수 있는 오류가 너무 많으면 교체합니다. 이러한 문제는 종종 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 
+summary: AFF C80 시스템의 DIMM을 교체하십시오. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 
 ---
 = DIMM-AFF C80을 교체합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: AFF C80 시스템의 DIMM을 교체할 수 있는 오류가 너무 많�
 
 
 [role="lead"]
-AFF C80 시스템의 DIMM을 교체할 수 있는 오류가 너무 많으면 교체합니다. 이러한 문제는 종종 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다.
+AFF C80 시스템의 DIMM을 교체하십시오. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.
 
 .시작하기 전에
 * 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.

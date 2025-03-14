@@ -2,7 +2,7 @@
 permalink: asa-r2-70-90/bootmedia-replace-requirements-bmr.html 
 sidebar: sidebar 
 keywords: asa r2 a70, a90, replace the boot media 
-summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다. 
+summary: ASA A70 또는 A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 
 ---
 = 부팅 미디어 교체 요구 사항 - ASA A70 및 ASA A90
 :allow-uri-read: 
@@ -11,7 +11,9 @@ summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다.
 
 
 [role="lead"]
-부팅 미디어를 교체하기 전에 다음 요구 사항을 검토하십시오.
+ASA A70 또는 ASA A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 올바른 교체 부팅 미디어가 있는지 확인, 컨트롤러에 결함 있는 클러스터 포트가 없는지 확인, Onboard Key Manager(OKM) 또는 External Key Manager(EKM) 활성화 여부 확인이 포함됩니다.
+
+다음 요구 사항을 검토하십시오.
 
 * 장애가 발생한 부팅 미디어를 NetApp에서 받은 교체 부팅 미디어로 교체해야 합니다.
 * 손상된 컨트롤러에 결함이 있는 클러스터 포트가 없어야 합니다.
@@ -34,4 +36,4 @@ summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다.
 
 
 .다음 단계
-부팅 미디어 요구 사항을 검토한 후link:bootmedia-shutdown-bmr.html["손상된 컨트롤러를 종료합니다"]
+부팅 미디어 요구 사항을 검토한 후link:bootmedia-shutdown-bmr.html["컨트롤러를 종료합니다"]

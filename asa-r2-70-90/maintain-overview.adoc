@@ -4,16 +4,16 @@ sidebar: sidebar
 keywords: asa r2 a70 asa r2 a90 maintenance, maintenance, repairing asa r2 a70 asa r2 a90, repairing a70 asa r2 a90, replace a70 asa r2 a90 components 
 summary: ASA R2 A70, ASA R2 A90 하드웨어를 유지 관리합니다 
 ---
-= ASA A70 및 ASA A90 하드웨어 유지 관리
+= 유지 관리 절차 개요 - ASA A70 및 ASA A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. ASA A70 및 ASA A90 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와 있습니다.
+ASA A70 및 ASA A90 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.
 
-이 섹션의 절차에서는 ASA A70 및 ASA A90 시스템이 ONTAP 환경에서 이미 스토리지 노드로 구축되어 있다고 가정합니다.
+유지 관리 절차에서는 ASA A70 및 ASA A90 시스템이 이미 ONTAP 환경에 스토리지 노드로 구축되어 있다고 가정합니다.
 
 
 

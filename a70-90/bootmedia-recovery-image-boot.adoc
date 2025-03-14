@@ -2,7 +2,7 @@
 permalink: a70-90/bootmedia-recovery-image-boot.html 
 sidebar: sidebar 
 keywords: aff a70, aff a90, boot the recovery image 
-summary: AFF A70 또는 AFF A90 시스템의 부팅 미디어가 손상된 경우 USB 드라이브에서 복구 이미지를 부팅하고 파트너 노드에서 구성을 복원할 수 있습니다. 
+summary: AFF A70 또는 AFF A90 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 부팅하고 파트너 노드에서 구성을 복원할 수 있습니다. 
 ---
 = 복구 이미지를 부팅합니다 - AFF A70 and AFF A90
 :allow-uri-read: 
@@ -11,9 +11,7 @@ summary: AFF A70 또는 AFF A90 시스템의 부팅 미디어가 손상된 경�
 
 
 [role="lead"]
-AFF A70 또는 AFF A90 시스템의 부팅 미디어가 손상된 경우 USB 드라이브에서 복구 이미지를 부팅하고 파트너 노드에서 구성을 복원할 수 있습니다.
-
-USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
+AFF A70 또는 AFF A90 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 부팅하고 파트너 노드에서 구성을 복원할 수 있습니다.
 
 .단계
 . LOADER 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅하십시오: "boot_recovery"

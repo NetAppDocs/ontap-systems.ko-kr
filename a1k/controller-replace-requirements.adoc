@@ -2,21 +2,24 @@
 permalink: a1k/controller-replace-requirements.html 
 sidebar: sidebar 
 keywords: aff a1k, prerequisite, replace the controller module 
-summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
+summary: AFF A1K 시스템의 컨트롤러를 교체하기 전에 성공적인 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 올바른 교체 컨트롤러, 시스템 구성 백업, 필요한 도구 및 펌웨어에 대한 액세스가 포함됩니다. 
 ---
-= 컨트롤러 교체 요구 사항 - AFF A1K
+= 컨트롤러 교체 요구사항 - AFF A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-컨트롤러 교체 절차에 대한 요구 사항을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 요구 사항을 선택하십시오.
+AFF A1K 시스템의 컨트롤러를 교체하기 전에 성공적인 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 올바른 교체 컨트롤러, 시스템 구성 백업, 필요한 도구 및 펌웨어에 대한 액세스가 포함됩니다.
+
+컨트롤러 교체 요구 사항을 검토하십시오.
 
 * 모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.
 * 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러"라고 함).
+* 컨트롤러 업그레이드에 대해서는 이 절차를 사용하지 마십시오. 대신 의 지침을 참조하십시오 https://docs.netapp.com/us-en/ontap-systems-upgrade/choose_controller_upgrade_procedure.html["컨트롤러 하드웨어 업그레이드 절차를 선택합니다"].
 * 시스템이 MetroCluster 구성인 경우 이 컨트롤러 교체 절차를 사용해야 하는지 여부를 확인하려면 섹션을 검토해야 https://docs.netapp.com/us-en/ontap-metrocluster/disaster-recovery/concept_choosing_the_correct_recovery_procedure_parent_concept.html["올바른 복구 절차 선택"] 합니다.
-* 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
+* 장애가 발생한 구성요소를 NetApp에서 제공한 현장 교체 장치(FRU)로 교체해야 합니다.
 * 컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.
 * 이 절차의 일부로 드라이브 또는 드라이브 쉘프를 변경할 수 없습니다.
 * 부팅 장치는 시스템 뒷면에 설치된 시스템 관리 모듈에 있으므로 컨트롤러 모듈을 교체할 때 부팅 장치를 이동할 필요가 없습니다.
@@ -32,3 +35,6 @@ summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중
 교체 프로세스 중에 발생할 수 있는 문제를 해결할 수 있도록 절차에 대한 기록을 제공합니다.
 
 
+
+.다음 단계
+AFF A1K 컨트롤러 교체를 위한 요구사항을 검토한 후에는 다음을 수행해야 link:controller-replace-shutdown.html["컨트롤러를 종료합니다"]합니다.

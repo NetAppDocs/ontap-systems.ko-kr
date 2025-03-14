@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, boot the recovery image 
 summary: 자동 부팅 복구 프로세스를 통해 파트너 컨트롤러에서 부팅 미디어의 이미지를 복원할 수 있습니다. 
 ---
-= ONTAP 이미지(AFF A20, AFF A30 및 AFF A50)를 복원합니다
+= ONTAP 이미지(ASA A20, ASA A30 및 ASA A50)를 복원합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,8 +15,14 @@ summary: 자동 부팅 복구 프로세스를 통해 파트너 컨트롤러에�
 * 다음 방법 중 하나를 사용하여 Onboard Key Manger(OKM) 또는 EKM(Eternal Key Manager)이 구성되었는지 확인합니다.
 +
 ** 고객이나 시스템 관리자에게 OKM 또는 EKM이 활성화되어 있는지 질문할 수 있습니다.
-** OKM이 설정되어 있는지 확인하려면 을 `security key-manager onboard show`사용합니다.
-** EKM이 활성화되어 있는지 확인하려면 를 `security key-manager external show`사용합니다.
+** OKM이 설정되어 있는지 확인하려면 다음 명령을 사용합니다.
++
+`security key-manager onboard show`
+
+** EKM이 활성화되어 있는지 확인하려면 다음 명령을 사용하십시오.
++
+`security key-manager external show`
+
 
 
 * OKM의 경우 OKM 암호 파일 내용이 필요합니다.

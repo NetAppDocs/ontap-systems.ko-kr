@@ -2,16 +2,16 @@
 permalink: fas-70-90/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: fas70, fas90, post boot media replacement steps for okm, nse, and nve 
-summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
+summary: FAS70 또는 FAS90 시스템의 교체 부팅 미디어에서 암호화를 복원하여 지속적인 데이터 보호를 보장할 수 있습니다. 교체 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다. 
 ---
-= 암호화 복원 - FAS70 및 FAS90
+= 부팅 미디어의 암호화 복원 - FAS70 및 FAS90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+FAS70 또는 FAS90 시스템의 교체 부팅 미디어에서 암호화를 복원하여 지속적인 데이터 보호를 보장할 수 있습니다. 교체 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다.
 
 부팅 미디어 교체 절차의 시작 부분에 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.
 
@@ -429,3 +429,6 @@ Selection (1-11)? 1
 `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
+
+.다음 단계
+부팅 미디어에서 암호화를 복원한 후 다음을 link:bootmedia-complete-rma.html["결함이 있는 부품을 NetApp로 반환합니다"]수행해야 합니다.

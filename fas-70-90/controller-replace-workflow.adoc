@@ -2,16 +2,16 @@
 permalink: fas-70-90/controller-replace-workflow.html 
 sidebar: sidebar 
 keywords: fas70, fas90, replace the controller 
-summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
+summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 운영을 확인하여 FAS70 또는 FAS90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오. 
 ---
-= 컨트롤러 교체 워크플로우 - FAS70 및 FAS90
+= 컨트롤러 교체를 위한 빠른 시작 - FAS70 및 FAS90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 워크플로우 단계에 따라 컨트롤러 모듈을 교체하십시오.
+손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 구성을 복원하며, 시스템 작업을 확인하여 FAS70 또는 FAS90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구사항을 검토하십시오"]
 [role="quick-margin-para"]

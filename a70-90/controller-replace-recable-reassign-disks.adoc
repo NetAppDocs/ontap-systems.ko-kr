@@ -2,7 +2,7 @@
 permalink: a70-90/controller-replace-recable-reassign-disks.html 
 sidebar: sidebar 
 keywords: aff a70, aff a90, how to recable the system, reboot the system 
-summary: RReturn 스토리지 리소스를 교체 컨트롤러로 제어하여 AFF A70 또는 AFF A90 시스템에서 정상 운영을 재개할 수 있도록 합니다. 
+summary: AFF A70 또는 AFF A90 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 
 ---
 = AFF A70와 AFF A90 같은 컨트롤러를 반납합니다
 :allow-uri-read: 

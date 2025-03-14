@@ -66,3 +66,6 @@ NOTE: StrictSync 모드에서 운영되는 SnapMirror 동기식 클러스터를 
 
 . 각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.
 
+
+.다음 단계
+컨트롤러를 종료한 후에는 를 수행해야 link:chassis-replace-move-hardware.html["섀시를 교체합니다"]합니다.
