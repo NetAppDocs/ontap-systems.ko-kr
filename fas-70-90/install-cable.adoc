@@ -18,6 +18,10 @@ FAS70 또는 FAS90 스토리지 시스템용 랙 하드웨어를 설치한 후 �
 
 .이 작업에 대해
 * 다음 절차는 일반적인 구성을 보여 줍니다. 특정 케이블 연결은 스토리지 시스템용으로 주문한 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]참조하십시오.
+* FAS70 및 FAS90 컨트롤러의 I/O 슬롯은 1~11로 번호가 매겨집니다.
++
+image::../media/drw_a1K_back_slots_labeled_ieops-2162.svg[FAS70 및 FAS90 컨트롤러에 대한 슬롯 번호 지정]
+
 * 케이블 연결 그래픽에는 포트에 커넥터를 삽입할 때 케이블 커넥터 당김 탭의 올바른 방향(위 또는 아래)을 나타내는 화살표 아이콘이 있습니다.
 +
 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.
@@ -135,6 +139,8 @@ IMPORTANT: 아직 전원 코드를 연결하지 마십시오.
 다음 케이블 연결 절차는 컨트롤러를 스토리지 쉘프에 연결하는 방법을 보여줍니다. 설정에 맞는 다음 케이블 연결 옵션 중 하나를 선택합니다.
 
 스토리지 시스템에서 지원되는 최대 쉘프 수와 모든 케이블 옵션에 대한 내용은 을 참조하십시오.link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+
+SAS 쉘프 케이블 연결에 대한 추가 지침은 를 참조하십시오link:https://docs.netapp.com/us-en/ontap-systems/sas3/install-cabling-rules.html["SAS 케이블 연결 규칙 및 개념 - IOM12/IOM12B 모듈이 포함된 선반"].
 
 [role="tabbed-block"]
 ====

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, replace the boot media 
 summary: 교체 요구 사항을 검토하고, 암호화 상태 확인, 컨트롤러 종료, 부팅 미디어 교체, 복구 이미지 부팅, 암호화 복원 및 시스템 기능 확인을 통해 AFF A1K 스토리지 시스템의 부팅 미디어 교체를 시작하십시오. 
 ---
-= 부팅 미디어 교체를 위한 빠른 시작 - AFF A1K
+= 부팅 미디어 교체 워크플로우 - AFF A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

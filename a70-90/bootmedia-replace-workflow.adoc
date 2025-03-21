@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, a90, replace the boot media 
 summary: 교체 미디어를 준비하고 시스템에 설치하고 부팅 이미지를 복원하고 시스템 기능을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 부팅 미디어를 교체하는 작업을 시작하십시오. 
 ---
-= 부팅 미디어 교체를 위한 빠른 시작 - AFF A70 및 AFF A90
+= 부팅 미디어 교체 워크플로우 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

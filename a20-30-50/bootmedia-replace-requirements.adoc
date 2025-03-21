@@ -2,7 +2,7 @@
 permalink: a20-30-50/bootmedia-replace-requirements.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, replace the boot media 
-summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다. 
+summary: AFF A20, AFF A30 또는 AFF A50 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 적절한 용량의 USB 플래시 드라이브가 있는지 확인하고 올바른 교체용 부팅 장치가 있는지 확인하는 작업이 포함됩니다. 
 ---
 = 부팅 미디어 교체 요구 사항 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다.
 
 
 [role="lead"]
+AFF A20, AFF A30 또는 AFF A50 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 적절한 용량의 USB 플래시 드라이브가 있는지 확인하고 올바른 교체용 부팅 장치가 있는지 확인하는 작업이 포함됩니다.
+
 부팅 미디어를 교체하기 전에 다음 요구 사항 및 고려 사항을 검토하십시오.
 
 
@@ -40,3 +42,6 @@ summary: 부팅 미디어 교체 요구 사항에 대해 알아봅니다.
 명령을 입력하여 이러한 기능을 해제할 수 `system location-led _off_` 있습니다. LED가 켜져 있는지 또는 꺼져 있는지 확실하지 않은 경우 명령을 입력하여 LED의 상태를 확인할 수 `system location-led show` 있습니다.
 
 
+
+.다음 단계
+부팅 미디어를 교체하는 데 필요한 요구 사항을 검토한 후 를 link:bootmedia-encryption-preshutdown-checks.html["부팅 미디어에서 암호화 키 지원 및 상태를 확인합니다"]수행해야 합니다.

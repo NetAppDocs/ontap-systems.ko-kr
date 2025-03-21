@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: ONTAP 하드웨어 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고, 하드웨어를 연결하고, 스토리지를 구성합니다. 
 ---
-= ONTAP 하드웨어 시스템을 시작하고 실행합니다
+= ONTAP 하드웨어 시스템의 빠른 시작
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

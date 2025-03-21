@@ -2,7 +2,7 @@
 permalink: fas-70-90/bootmedia-complete-rma.html 
 sidebar: sidebar 
 keywords: fas70, fas90, complete the replacement process 
-summary: 'FAS70 또는 FAS90 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.' 
+summary: FAS70 또는 FAS90 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp에 반환합니다. 
 ---
 = 장애가 발생한 부품을 NetApp-FAS70 및 FAS90으로 반환합니다
 :allow-uri-read: 

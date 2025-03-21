@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, replace the boot media 
 summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 부팅 미디어의 이미지를 복원하고, 시스템 기능을 확인하여 ASA A1K 스토리지 시스템의 부팅 미디어 교체를 시작하십시오. 
 ---
-= 부팅 미디어 교체를 위한 빠른 시작 - ASA A1K
+= 부팅 미디어 교체 워크플로우 - ASA A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

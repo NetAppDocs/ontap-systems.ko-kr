@@ -2,7 +2,7 @@
 permalink: c30-60/chassis-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, move hardware components, replace the chassis 
-summary: 손상된 섀시에서 새 섀시로 베젤, 드라이브 및 컨트롤러 모듈을 옮기고 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
+summary: 하드웨어 오류가 필요한 경우 AFF C30 또는 AFF C60 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치 분리, 손상된 섀시에서 드라이브 분리, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다. 
 ---
 = 섀시를 교체합니다. - AFF C30 및 AFF C60
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: 손상된 섀시에서 새 섀시로 베젤, 드라이브 및 컨트롤
 
 
 [role="lead"]
+하드웨어 오류가 필요한 경우 AFF C30 또는 AFF C60 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 손상된 섀시에서 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.
+
 드라이브, 드라이브 보호물, 컨트롤러 및 베젤을 손상된 섀시에서 교체 섀시(동일한 모델)로 이동한 다음 장비 랙 또는 시스템 캐비닛 내에서 손상된 섀시를 교체합니다.
 
 
@@ -293,3 +295,6 @@ DC PSU입니다
 `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
+
+.다음 단계
+손상된 AFF C30 또는 AFF C60 섀시를 교체하고 구성 요소를 다시 설치한 후 다음을 수행해야 link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]합니다.

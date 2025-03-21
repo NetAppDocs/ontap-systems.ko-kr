@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, replace the controller 
 summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 분리 및 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 ASA A1K 스토리지 시스템의 컨트롤러 교체를 시작하십시오. 
 ---
-= 컨트롤러 교체를 위한 빠른 시작 - ASA A1K
+= 컨트롤러 교체 워크플로우 - ASA A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -27,7 +27,7 @@ entries:
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A70, AFF A90 부팅 미디어
     entries:
-    - title: 부팅 미디어 교체를 위한 빠른 시작
+    - title: 부팅 미디어 교체 워크플로우
       url: "/a70-90/bootmedia-replace-workflow.html"
     - title: 요구사항 검토
       url: "/a70-90/bootmedia-replace-requirements.html"
@@ -46,7 +46,7 @@ entries:
   - title: 섀시
     pdf-filename: AFF A70, AFF A90 섀시
     entries:
-    - title: 섀시 교체를 위한 빠른 시작
+    - title: 섀시 교체 워크플로우
       url: "/a70-90/chassis-replace-workflow.html"
     - title: 요구사항 검토
       url: "/a70-90/chassis-replace-requirements.html"
@@ -61,7 +61,7 @@ entries:
   - title: 컨트롤러
     pdf-filename: AFF A70, AFF A90 컨트롤러 모듈
     entries:
-    - title: 컨트롤러 교체를 위한 빠른 시작
+    - title: 컨트롤러 교체 워크플로우
       url: "/a70-90/controller-replace-workflow.html"
     - title: 요구사항 검토
       url: "/a70-90/controller-replace-requirements.html"

@@ -10,7 +10,7 @@ entries:
   entries:
   - title: 부팅 미디어 개요
     url: "/asa-r2-70-90/bootmedia-overview-bmr.html"
-  - title: 부팅 미디어 교체를 위한 빠른 시작
+  - title: 부팅 미디어 교체 워크플로우
     url: "/asa-r2-70-90/bootmedia-replace-workflow-bmr.html"
   - title: 요구사항 검토
     url: "/asa-r2-70-90/bootmedia-replace-requirements-bmr.html"
@@ -25,7 +25,7 @@ entries:
 - title: 섀시
   pdf-filename: ASA A70 및 ASA A90 섀시
   entries:
-  - title: 섀시 교체를 위한 빠른 시작
+  - title: 섀시 교체 워크플로우
     url: "/asa-r2-70-90/chassis-replace-workflow.html"
   - title: 요구사항 검토
     url: "/asa-r2-70-90/chassis-replace-requirements.html"
@@ -40,7 +40,7 @@ entries:
 - title: 컨트롤러
   pdf-filename: ASA A70 및 ASA A90 컨트롤러
   entries:
-  - title: 컨트롤러 교체를 위한 빠른 시작
+  - title: 컨트롤러 교체 워크플로우
     url: "/asa-r2-70-90/controller-replace-workflow.html"
   - title: 요구사항 검토
     url: "/asa-r2-70-90/controller-replace-requirements.html"

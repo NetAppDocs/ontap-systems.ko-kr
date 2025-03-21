@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a70, a90, replace the controller workflow 
 summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 작업을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오. 
 ---
-= 컨트롤러 교체를 위한 빠른 시작 - AFF A70 및 AFF A90
+= 컨트롤러 교체 워크플로우 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-손상된 컨트롤러를 종료하고, 컨트롤러를 분리 및 교체하고, 시스템 구성을 복원하며, 시스템 작업을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오.
+손상된 컨트롤러를 종료하고, 컨트롤러를 분리 및 교체하고, 시스템 구성을 복원하고, 스토리지 리소스에 대한 제어를 교체 컨트롤러로 되돌려 AFF A70 또는 AFF A90 스토리지 시스템의 컨트롤러 교체를 시작합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구 사항을 검토하십시오"]
 [role="quick-margin-para"]

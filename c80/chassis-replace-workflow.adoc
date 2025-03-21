@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff 70, 90, replace the chassis workflow 
 summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 분리 및 교체하고, 시스템 작동을 확인하여 AFF C80 시스템의 섀시 교체를 시작하십시오. 
 ---
-= 섀시 교체를 위한 빠른 시작 - AFF C80
+= 섀시 교체 워크플로우 - AFF C80
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

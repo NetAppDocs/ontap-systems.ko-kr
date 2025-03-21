@@ -2,7 +2,7 @@
 permalink: a20-30-50/bootmedia-replace.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, replace the boot media 
-summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라이저 3을 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다. 
+summary: AFF A20, AFF A30 또는 AFF A50 시스템의 부팅 매체에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈 분리, 손상된 부팅 미디어 제거, 교체용 부팅 미디어 설치, ONTAP 이미지 전송 등이 포함됩니다. 
 ---
 = 부팅 미디어(AFF A20, AFF A30 및 AFF A50)를 교체합니다
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라�
 
 
 [role="lead"]
+AFF A20, AFF A30 또는 AFF A50 시스템의 부팅 매체에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈 분리, 손상된 부팅 미디어 제거, 교체용 부팅 미디어 설치, ONTAP 이미지 전송 등이 포함됩니다.
+
 부팅 미디어를 교체하려면 손상된 컨트롤러를 분리하고 부팅 미디어를 제거한 다음 교체 부팅 미디어를 설치하고 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
 
 
@@ -309,3 +311,6 @@ DC PSU입니다
 
 |===
 
+
+.다음 단계
+부팅 미디어를 교체한 후 을 수행해야 link:bootmedia-recovery-image-boot.html["복구 이미지를 부팅합니다"]합니다.

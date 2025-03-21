@@ -11,7 +11,7 @@ summary: 시스템을 설치하고 설정합니다.
 
 
 [role="lead"]
-로 이동하여 https://docs.netapp.com/us-en/asa-r2/index.html["ASA R2 시스템 설명서"^] ASA R2 시스템을 설치, 사용 및 관리하는 방법을 알아보십시오.
+로 https://docs.netapp.com/us-en/asa-r2/install-setup/install-setup-workflow.html["ASA R2 설치 및 설정 지침"^] 이동하여 시스템을 설치하고 설정하는 방법을 알아보십시오.
 
 에는 https://docs.netapp.com/us-en/asa-r2/index.html["ASA R2 시스템 설명서"^] 다음과 같은 정보가 포함되어 있습니다.
 

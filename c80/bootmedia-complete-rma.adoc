@@ -2,7 +2,7 @@
 permalink: c80/bootmedia-complete-rma.html 
 sidebar: sidebar 
 keywords: c80, complete the replacement process 
-summary: 'AFF C80 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.' 
+summary: AFF C80 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오. 
 ---
 = 결함이 있는 부품을 NetApp-AFF C80으로 반납합니다
 :allow-uri-read: 

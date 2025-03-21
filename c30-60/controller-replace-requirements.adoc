@@ -2,7 +2,7 @@
 permalink: c30-60/controller-replace-requirements.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, prerequisite, replace the controller module 
-summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
+summary: AFF C30 또는 AFF C60 시스템에서 컨트롤러를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 올바른 교체 컨트롤러가 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 작업이 포함됩니다. 
 ---
 = 컨트롤러 교체 요구 사항 - AFF C30 및 AFF C60
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중
 
 
 [role="lead"]
+AFF C30 또는 AFF C60 시스템에서 컨트롤러를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 올바른 교체 컨트롤러가 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 작업이 포함됩니다.
+
 컨트롤러 교체 절차와 관련된 요구 사항 및 고려 사항을 검토해야 합니다.
 
 
@@ -46,3 +48,6 @@ summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중
 명령을 입력하여 이러한 기능을 해제할 수 `system location-led _off_` 있습니다. LED가 켜져 있는지 또는 꺼져 있는지 확실하지 않은 경우 명령을 입력하여 LED의 상태를 확인할 수 `system location-led show` 있습니다.
 
 
+
+.다음 단계
+AFF C30 또는 AFF C60 컨트롤러를 교체하는 데 필요한 요구사항을 검토한 후에는 을link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"](를) 수행해야 합니다.
