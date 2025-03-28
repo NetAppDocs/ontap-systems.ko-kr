@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, replace a pcie card 
 summary: 모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 ASA A1K 시스템의 입출력 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다. 
 ---
-= 입출력 모듈 교체 - ASA A1K
+= I/O 모듈 교체 - ASA A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

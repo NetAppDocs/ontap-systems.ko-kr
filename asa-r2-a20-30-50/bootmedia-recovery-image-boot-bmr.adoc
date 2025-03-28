@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, boot the recovery image 
 summary: 자동 부팅 복구 프로세스를 통해 파트너 컨트롤러에서 부팅 미디어의 이미지를 복원할 수 있습니다. 
 ---
-= ONTAP 이미지(ASA A20, ASA A30 및 ASA A50)를 복원합니다
+= 부팅 미디어에서 ASA A20, ASA A30 및 ASA A50의 ONTAP 이미지를 복원합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -23,7 +23,6 @@ AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항을 검토�
 * 정전기 방전(ESD) 스트랩
 * 플래시
 * USB/직렬 연결이 있는 랩톱 또는 콘솔
-* NS224 스토리지 쉘프 ID를 설정하기 위한 종이 클립 또는 끝이 뾰족한 볼펜
 * Phillips #2 드라이버
 
 
@@ -41,7 +40,7 @@ AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항을 검토�
 
 저장 장치 시스템의 무게는 최대 27.9kg(61.5파운드)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.
 
-image::../media/drw_g_lifting_weight_ieops-1831.svg[AFF A20 를 참조하십시오,A30,A50 and C30 and C60 weight caution icon]
+image::../media/drw_g_lifting_weight_ieops-1831.svg[AFF A20 A30 A50, C30 및 C60 무게 주의 아이콘]
 
 
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF C80, replace io module 
 summary: AFF C80 스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다. 
 ---
-= 추가 및 교체 입출력 모듈 개요 - AFF C80
+= 입출력 모듈 추가 및 교체 개요 - AFF C80
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

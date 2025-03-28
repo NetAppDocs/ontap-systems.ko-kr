@@ -2,7 +2,7 @@
 permalink: c80/chassis-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: c80, move hardware components, replace the chassis 
-summary: '하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를 교체합니다. 교체 프로세스에는 전원 공급 장치(PSU) 분리, 기존 섀시 제거, 새 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.' 
+summary: '하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.' 
 ---
 = 섀시를 교체합니다. - AFF C80
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: '하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를
 
 
 [role="lead"]
-하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를 교체합니다. 교체 프로세스에는 전원 공급 장치(PSU) 분리, 기존 섀시 제거, 새 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.
+하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.
 
 
 

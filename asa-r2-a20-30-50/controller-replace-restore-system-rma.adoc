@@ -2,7 +2,7 @@
 permalink: asa-r2-a20-30-50/controller-replace-restore-system-rma.html 
 sidebar: sidebar 
 keywords: asa a20, asa a30, asa a50, how to restore NetApp Storage Encryption, how to complete the replacement process 
-summary: '필요한 경우 NetApp 스토리지 암호화 구성을 복원하고, 교체 컨트롤러에 대한 라이센스를 설치하고, 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행하고, 교체 컨트롤러의 일련 번호를 등록한 다음, 장애가 발생한 부품을 NetApp에 반환하여 ASA A20, ASA A30 또는 ASA A50 컨트롤러 교체 절차의 최종 단계를 완료합니다.' 
+summary: 'ASA A20, ASA A30 또는 ASA A50 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.' 
 ---
 = 전체 컨트롤러 교체 - ASA A20, ASA A30 및 ASA A50
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: '필요한 경우 NetApp 스토리지 암호화 구성을 복원하고,
 
 
 [role="lead"]
-필요한 경우 NetApp 스토리지 암호화 구성을 복원하고, 교체 컨트롤러에 대한 라이센스를 설치하고, 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행하고, 교체 컨트롤러의 일련 번호를 등록한 다음, 장애가 발생한 부품을 NetApp에 반환하여 ASA A20, ASA A30 또는 ASA A50 컨트롤러 교체 절차의 최종 단계를 완료합니다.
+ASA A20, ASA A30 또는 ASA A50 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.
 
 
 

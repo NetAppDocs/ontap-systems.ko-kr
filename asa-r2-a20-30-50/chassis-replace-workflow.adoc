@@ -2,7 +2,7 @@
 permalink: asa-r2-a20-30-50/chassis-replace-workflow.html 
 sidebar: sidebar 
 keywords: asa a20, asa a30, asa a50, replace the chassis workflow 
-summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다. 
+summary: 교체 요구 사항을 검토하고 컨트롤러를 종료하고 섀시를 교체하고 시스템 작업을 확인하여 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 섀시 교체를 시작하십시오. 
 ---
 = 섀시 교체 워크플로우 - ASA A20, ASA A30 및 ASA A50
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 오류가 발생한 구성 요소를 공급업체로부터 받은 교�
 
 
 [role="lead"]
-다음 워크플로우 단계에 따라 섀시를 교체합니다.
+교체 요구 사항을 검토하고 컨트롤러를 종료하고 섀시를 교체하고 시스템 작업을 확인하여 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 섀시 교체를 시작하십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-requirements.html["섀시 교체 요구 사항을 검토합니다"]
 [role="quick-margin-para"]

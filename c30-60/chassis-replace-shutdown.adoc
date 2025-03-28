@@ -2,7 +2,7 @@
 permalink: c30-60/chassis-replace-shutdown.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, shutdown the controllers 
-summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
+summary: AFF C30 또는 AFF C60 스토리지 시스템의 컨트롤러를 종료하여 데이터 손실을 방지하고 섀시 교체 시 시스템 안정성을 유지합니다. 
 ---
 = AFF C30 및 AFF C60와 같은 컨트롤러를 종료합니다
 :allow-uri-read: 

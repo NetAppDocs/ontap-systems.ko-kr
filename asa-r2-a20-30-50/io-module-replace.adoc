@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, replace a pcie card 
 summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 제거한 다음 라이저를 다시 설치하고 SFP 및 QSFP 모듈을 다시 설치해야 합니다. 
 ---
-= 입출력 모듈 교체 - ASA A20, ASA A30 및 ASA A50
+= 입출력 모듈(ASA A20, ASA A30 및 ASA A50)을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 절차를 사용하여 장애가 발생한 입출력 모듈을 교체하십시오.
+모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 ASA A20, ASA A30 또는 ASA A50 시스템에서 입출력 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.
 
 .시작하기 전에
 스토리지 시스템의 다른 모든 구성 요소는 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의해야 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"] 합니다.

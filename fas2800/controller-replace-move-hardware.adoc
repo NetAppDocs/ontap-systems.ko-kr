@@ -72,7 +72,7 @@ NVMEM 배터리 릴리즈 버튼
 
 
  a| 
-image::../media/icon_round_2.png[아이콘 라운드 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 NVMEM 배터리 플러그
 
@@ -116,7 +116,7 @@ IO 플레이트
 
 
  a| 
-image::../media/icon_round_2.png[아이콘 라운드 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 PCIe 메자닌 카드
 
@@ -209,7 +209,7 @@ DIMM 잠금 래치
 
 
  a| 
-image::../media/icon_round_2.png[아이콘 라운드 2]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 DIMM
 

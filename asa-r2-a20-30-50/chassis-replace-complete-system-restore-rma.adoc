@@ -2,7 +2,7 @@
 permalink: asa-r2-a20-30-50/chassis-replace-complete-system-restore-rma.html 
 sidebar: sidebar 
 keywords: asa a20, asa a30, asa a50, verify and set HA state, complete the replacement process 
-summary: 키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환해야 합니다. 
+summary: 섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 ASA A20, ASA A30 및 ASA A50 섀시 교체 절차의 최종 단계를 완료합니다. 
 ---
 = 전체 섀시 교체 - ASA A20, ASA A30 및 ASA A50
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 
 
 
 [role="lead"]
-키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환해야 합니다.
+섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 ASA A20, ASA A30 및 ASA A50 섀시 교체 절차의 최종 단계를 완료합니다.
 
 
 

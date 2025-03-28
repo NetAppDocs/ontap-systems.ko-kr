@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, replace io module 
 summary: AFF A1K 시스템은 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공하여 네트워크 연결 및 성능을 향상시킵니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다. 
 ---
-= 추가 및 교체 입출력 모듈 개요 - AFF A1K
+= 입출력 모듈 추가 및 교체 개요 - AFF A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

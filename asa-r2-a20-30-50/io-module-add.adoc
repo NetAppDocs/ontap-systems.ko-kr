@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, add I/O module 
 summary: 입출력 모듈을 교체하려면 모듈에서 케이블을 분리하고, SFP 및 QSFP 모듈을 모듈에서 분리하고, 모듈을 제거하고, 교체 모듈을 설치하고, SFP 및 QSFP 모듈을 재설치한 다음, I/O 모듈에 케이블을 연결해야 합니다. 
 ---
-= 입출력 모듈 추가 - ASA A20, ASA A30 및 ASA A50
+= 입출력 모듈(ASA A20, ASA A30 및 ASA A50)을 추가합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+ASA A20, ASA A30 또는 ASA A50 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.
+
 사용 가능한 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 ASA A20, ASA A30 및 ASA A50 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.
 
 .이 작업에 대해

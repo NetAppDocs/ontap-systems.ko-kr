@@ -123,7 +123,7 @@ X66032A(112-00437), 2m
 
 X66033A(112-00438), 3m
  a| 
-image::../media/oie_cable_fiber_lc_connector.png[OIE 케이블 파이버 LC 커넥터]
+image::../media/oie_cable_fiber_lc_connector.png[LC 광 커넥터]
  a| 
 FC 광 네트워크
 
@@ -151,7 +151,7 @@ X66032A(112-00437), 2m
 
 X66033A(112-00438), 3m
  a| 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니 SAS 커넥터]
  a| 
 스토리지
 
@@ -162,7 +162,7 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SA
  a| 
 해당 없음
  a| 
-이미지: ../media/oie_cable_micro_usb.pngMicro USB 커넥터]
+image::../media/oie_cable_micro_usb.png[마이크로 USB 커넥터]
  a| 
 Windows 또는 Mac 랩톱/콘솔에서 소프트웨어를 설치하는 동안 콘솔 연결
 
@@ -242,7 +242,7 @@ image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케
 
 
  a| 
-이미지:../media/icon_square_1_green.png
+image::../media/icon_square_1_green.png[설명선 아이콘 1]
  a| 
 케이블 클러스터 인터커넥트 포트:
 
@@ -255,11 +255,11 @@ image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP 커넥터]
 
 
  a| 
-image::../media/icon_square_2_yellow.png[설명선 아이콘 2]
+image::../media/icon_square_2_purple.png[설명선 아이콘 2]
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
-이미지:../media/oie_cable_rj45.png
+image::../media/oie_cable_rj45.png[RJ-45 커넥터]
 
 
 
@@ -281,7 +281,7 @@ image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP 커넥터]
 
 
  a| 
-이미지:../media/icon_square_4_red.png
+image::../media/icon_square_4_red.png[설명선 아이콘 4]
  a| 
 케이블 25GbE 연결:
 
@@ -292,10 +292,12 @@ image::../media/oie_cable_sfp_gbe_copper.png[GbE SFP 구리 커넥터]
 
 
  a| 
+image::../media/icon_square_5_grey.png[설명선 아이콘 4]
+ a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
- a| 
+
 image::../media/oie_cable_power.png[전원 케이블]
 
 image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원]
@@ -345,7 +347,7 @@ image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP 커넥터]
 
 
  a| 
-image::../media/icon_square_2_yellow.png[설명선 아이콘 2]
+image::../media/icon_square_2_purple.png[설명선 아이콘 2]
  a| 
 케이블 컨트롤러 관리(렌치) 포트
 
@@ -377,15 +379,17 @@ image::../media/icon_square_4_red.png[설명선 아이콘 4]
 
 슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.
 
-이미지:../media/oie_cable_sfp_gbe_copper.png
+image::../media/oie_cable_sfp_gbe_copper.png[100 GbE 구리 커넥터]
 
 
 
+ a| 
+image::../media/icon_square_4_red.png[설명선 아이콘 4]
  a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 PSU에 연결하고 다른 전원에 연결합니다(표시되지 않음). PSU 1과 3은 모든 측면 A 구성 요소에 전원을 공급하고 PSU2 및 PSU4는 모든 측면 B 구성 요소에 전원을 공급합니다.
 
- a| 
+
 image::../media/oie_cable_power.png[전원 케이블]
 
 image::../media/drw_a900fas9500_power_icon_IEOPS-1142.svg[전원]
@@ -434,20 +438,31 @@ image::../media/icon_square_1_blue.png[아이콘 사각형 1 파란색]
  a| 
 드라이브 쉘프 스택 1을 컨트롤러에 연결합니다. 참고로 사용하십시오.
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
+* 미니 SAS 케이블 *
 
-미니 SAS 케이블
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
 
 
 
  a| 
 image::../media/icon_square_2_yellow.png[설명선 아이콘 2]
  a| 
-드라이브 쉘프 스택 2를 컨트롤러에 연결합니다. 참고로 사용합니다.
+그래픽을 사용하여 스택 2의 드라이브 쉘프를 서로 연결합니다.
+
+* 미니 SAS 케이블 *
 
 image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
 
-미니 SAS 케이블
+
+
+ a| 
+image::../media/icon_square_3_tourquoise.png[설명선 아이콘 3]
+ a| 
+드라이브 쉘프 스택 2를 컨트롤러에 연결합니다. 참고로 사용합니다.
+
+* 미니 SAS 케이블 *
+
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
 
 |===
 
@@ -540,12 +555,11 @@ image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
 
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.svg[drw 자동 검색 제어자 선택]
+image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[drw autodiscovery controller ieops 1849를 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 네트워크를 클릭합니다.
-.. 마우스 오른쪽 버튼을 클릭하고 새로 고침을 선택합니다.
+.. 왼쪽 창에서 네트워크 를 클릭하고 마우스 오른쪽 단추를 클릭한 다음 새로 고침 을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 
