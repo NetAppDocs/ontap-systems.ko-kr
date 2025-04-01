@@ -1,0 +1,135 @@
+---
+permalink: fas50/controller-replace-recable-reassign-disks.html 
+sidebar: sidebar 
+keywords: fas50, how to reboot the system 
+summary: 'FAS50 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스를 교체 컨트롤러로 다시 제어합니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.' 
+---
+= 컨트롤러-FAS50을 돌려줍니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FAS50 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스를 교체 컨트롤러로 다시 제어합니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.
+
+활성화된 경우 암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.
+
+[role="tabbed-block"]
+====
+.암호화 없음
+--
+손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다.
+
+.단계
+. Loader 프롬프트에서 를 입력합니다 `boot_ontap`.
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** _login_prompt가 표시되면 이 섹션 끝에 있는 다음 단계로 이동합니다.
+** _waiting for Giveback_이 표시되면 <enter> 키를 누르고 파트너 노드에 로그인한 후 이 섹션 끝에 있는 다음 단계로 이동합니다.
+
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+--
+.온보드 암호화(OKM)
+--
+온보드 암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.
+
+.단계
+. Loader 프롬프트에서 를 입력합니다 `boot_ontap maint`.
+. Loader 프롬프트에서 ONTAP 메뉴로 부팅하고 `boot_ontap menu` 옵션 10을 선택합니다.
+. OKM 암호를 입력합니다.
++
+
+NOTE: 암호를 묻는 메시지가 두 번 표시됩니다.
+
+. 메시지가 나타나면 백업 키 데이터를 입력합니다.
+. 부팅 메뉴에서 일반 부팅에 대한 옵션을 입력합니다 `1`.
+. when_waiting for Giveback_이 표시되면 <enter> 키를 누릅니다.
+. 콘솔 케이블을 파트너 노드로 이동하고 로 `admin`로그인합니다.
+. CFO 애그리게이트(루트 애그리게이트)만 반환합니다. `storage failover giveback -fromnode local -only-cfo-aggregates _true_`
++
+** 오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+
+. 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다 `storage failover show`. 및 `storage failover show-giveback`.
+. 동기화 및 키 상태 확인:
++
+.. 콘솔 케이블을 다시 교체용 컨트롤러로 이동합니다.
+.. 누락된 키 동기화: `security key-manager onboard sync`
++
+
+NOTE: 클러스터에 대한 OKM의 클러스터 전체 암호를 묻는 메시지가 표시됩니다.
+
+.. 키의 상태를 확인합니다. `security key-manager key query -restored _false_`
++
+제대로 동기화되면 출력에 결과가 표시되지 않습니다.
+
++
+출력에 결과(시스템의 내부 키 테이블에 없는 키의 키 ID)가 표시되면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+--
+.외부 키 관리자(EKM)
+--
+암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.
+
+.단계
+. 루트 볼륨이 External Key Manager로 암호화되고 콘솔 케이블이 교체 노드에 연결된 경우 option을 `boot_ontap menu` 입력하고 선택합니다 `11`.
+. 또는 `n` 다음 질문에 답합니다. `y`
++
+/cfcard/kMIP/certs/client.crt 파일의 복사본이 있습니까? {y/n}
+
++
+/cfcard/kMIP/certs/client.key 파일의 복사본이 있습니까? {y/n}
+
++
+/cfcard/kMIP/certs/ca.pem 파일의 사본이 있습니까? {y/n}
+
++
+또는
+
++
+/cfcard/kMIP/servers.cfg 파일의 복사본이 있습니까? {y/n}
+
++
+KMIP 서버 주소를 알고 계십니까? {y/n}
+
++
+KMIP 포트를 아십니까? {y/n}
+
++
+
+NOTE: 문제가 있는 경우 에 https://support.netapp.com["NetApp 지원"] 문의하십시오.
+
+. 다음에 대한 정보를 제공합니다.
++
+** 클라이언트 인증서(client.crt) 파일 내용
+** 클라이언트 키(client.key) 파일 내용
+** KMIP 서버 CA(CA.pem) 파일 콘텐츠입니다
+** KMIP 서버의 IP 주소입니다
+** KMIP 서버의 포트입니다
+
+
+. 시스템이 처리되면 Boot Menu(부팅 메뉴) 가 나타납니다. 정상 부팅의 경우 '1'을 선택하십시오.
+. 테이크오버 상태를 확인합니다. `storage failover show`
+. 고급 모드로 전환한 다음 `run local partner nosavecore` 복구된 노드의 코어 덤프가 저장되는지 확인합니다 `set -privilege advanced`.
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+--
+====
+.다음 단계
+스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전한 후에는 절차를 수행해야 link:controller-replace-restore-system-rma.html["컨트롤러 교체를 완료합니다"]합니다.

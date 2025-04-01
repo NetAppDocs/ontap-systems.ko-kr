@@ -21,6 +21,7 @@ AFF C30 또는 AFF C60 시스템에서 컨트롤러를 교체하기 전에 올�
 
 * 모든 선반이 올바르게 작동해야 합니다.
 * 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러"라고 함).
+* 시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다 https://docs.netapp.com/us-en/ontap-metrocluster/disaster-recovery/concept_choosing_the_correct_recovery_procedure_parent_concept.html["올바른 복구 절차 선택"] 이 절차를 사용해야 하는지 여부를 확인합니다.
 * 컨트롤러를 동일한 모델 유형의 컨트롤러로 교체해야 합니다. 컨트롤러만 교체하여 시스템을 업그레이드할 수 없습니다.
 * 이 절차에서 드라이브나 쉘프를 변경할 수 없습니다.
 * 항상 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 캡처해야 합니다.

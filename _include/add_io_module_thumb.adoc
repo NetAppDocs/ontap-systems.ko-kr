@@ -7,7 +7,7 @@
 .시작하기 전에
 * 에서 새 입출력 모듈이 사용 중인 스토리지 시스템 및 ONTAP 버전과 호환되는지 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^] 확인하십시오.
 * 여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^] 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.
-* 스토리지 시스템의 다른 모든 구성 요소는 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의해야 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"] 합니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
 
 
 [role="tabbed-block"]

@@ -14,7 +14,7 @@ summary: 지나치게 수정할 수 있거나 수정할 수 없는 메모리 오
 지나치게 수정할 수 있거나 수정할 수 없는 메모리 오류가 감지되면 AFF A20, AFF A30 또는 AFF A50 시스템의 DIMM을 교체합니다. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.
 
 .시작하기 전에
-* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 작동하지 않는 경우 계속하기 전에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"]."
+* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
 * 장애가 발생한 FRU 구성 요소를 공급자로부터 받은 교체용 FRU 구성 요소로 교체해야 합니다.
 
 
@@ -29,6 +29,12 @@ summary: 지나치게 수정할 수 있거나 수정할 수 없는 메모리 오
 
 == 1단계: 손상된 컨트롤러를 종료합니다
 
+다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
+
+[role="tabbed-block"]
+====
+.옵션 1: 대부분의 시스템
+--
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
 
 .이 작업에 대해
@@ -80,6 +86,54 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 |===
 
 
+--
+.옵션 2: 컨트롤러가 MetroCluster에 있습니다
+--
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+* MetroCluster 구성 상태가 구성되었으며 노드가 사용 및 정상 상태인지 확인해야 (`metrocluster node show`합니다.
+
+
+.단계
+. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=number_of_hours_downh' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
++
+다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+
+. 정상적인 컨트롤러의 콘솔에서 'Storage failover modify – node local - auto-반환 false'를 자동으로 반환합니다
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 섹션으로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+
+손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+
+|===
+
+
+--
+====
 
 
 == 2단계: 컨트롤러를 제거합니다
@@ -87,7 +141,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 컨트롤러를 교체하거나 컨트롤러 내의 구성 요소를 교체할 때 섀시에서 컨트롤러를 제거해야 합니다.
 
 .시작하기 전에
-스토리지 시스템의 다른 모든 구성 요소는 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의해야 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"] 합니다.
+스토리지 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 제대로 작동하지 않는 경우 이 절차를 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
 
 .단계
 . 손상된 컨트롤러에서 NV LED가 꺼져 있는지 확인합니다.

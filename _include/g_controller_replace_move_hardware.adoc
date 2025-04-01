@@ -9,7 +9,7 @@
 컨트롤러를 교체하거나 컨트롤러 내의 구성 요소를 교체할 때 섀시에서 컨트롤러를 제거해야 합니다.
 
 .시작하기 전에
-스토리지 시스템의 다른 모든 구성 요소는 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의해야 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"] 합니다.
+스토리지 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 제대로 작동하지 않는 경우 이 절차를 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
 
 .단계
 . 손상된 컨트롤러에서 NV LED가 꺼져 있는지 확인합니다.

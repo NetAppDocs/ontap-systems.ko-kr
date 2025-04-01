@@ -8795,7 +8795,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ab7ef1e990b02e4f310f950e86665f24" category="list-text">컨트롤러 B에서 다음 포트를 연결합니다.</block>
   <block id="9567b57fbc256ab6a2a904d9e65e90fc" category="paragraph">클러스터 설정 프로세스 중에 필요한 값을 를 사용하여<block ref="2b7eb894c1625ebcb138cf06e4e24423" category="inline-link-rx"></block> 기록합니다. 기본값이 제공되는 경우 해당 값을 사용하거나 직접 입력할 수 있습니다.</block>
   <block id="2b613a5cfe94ed4e246fd0b8d8e788d7" category="inline-link-macro">스토리지 시스템의 전원을 켭니다</block>
-  <block id="62b1b8fecbe53d21e29b3193b917d52b" category="paragraph">랩톱이 시리얼 콘솔 포트에 연결되어 있고 컨트롤러 전원이 켜져 있는지 확인합니다. 자세한 내용은 을 <block ref="7c573676638f479dced3a24193374cdc" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="c0cca90a0ea793a9983b3bf5d8f21117" category="paragraph">NetApp은 System Manager를 사용하여 새 클러스터를 설정할 것을 권장합니다. 설치 지침은 을<block ref="21993ef26df9bd69488ae5f93ea51b95" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="25e29897c37b7e5f9f9f0d8aac2e8c21" category="list-text">지침이 레일 키트와 함께 포장되어 있는지 확인하십시오.</block>
   <block id="cd5270ea2c99376e2e028058d02bfa65" category="list-text">스토리지 시스템을 통과하는 공기 흐름은 베젤 또는 엔드 캡이 설치된 전면에서 유입되고 포트가 있는 후면에서 배출됩니다.</block>
@@ -9876,16 +9875,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a475b089bd1d54a48dc02d6327ce3723" category="paragraph">HA-state 값은 _ha_여야 합니다.</block>
   <block id="9c6a064471e1d988a3b10d26ed1c4d09" category="list-text">아직 수행하지 않았다면 나머지 스토리지 시스템을 재설정하십시오.</block>
   <block id="90c5817c78a73467a558dc23bd5e4f4c" category="list-text">섀시의 다른 컨트롤러에 대해 이 단계를 반복합니다.</block>
-  <block id="45d69e7bdfec0647cf3523f57e30a808" category="section-title">2단계: 손상된 섀시에서 드라이브를 분리합니다</block>
-  <block id="c0055725498ec7c6a2d459f6d18aef46" category="paragraph">손상된 섀시에서 모든 드라이브와 드라이브 보호물을 분리하여 나중에 교체 섀시에 설치할 수 있도록 해야 합니다.</block>
   <block id="dd96419c0010405119a86fda57cc77f4" category="list-text">기억 장치 시스템 전면에서 베젤을 조심스럽게 분리합니다.</block>
-  <block id="3e56a6d3defe800cc97429c918a7c4fb" category="list-text">드라이브 및 드라이브 보호물을 분리합니다.</block>
-  <block id="ba52981b53ce10a301f84e2da386c778" category="admonition">교체 섀시의 동일한 드라이브 베이에 설치해야 하므로 각 드라이브 및 드라이브 보호물이 제거되었던 드라이브 베이를 추적하십시오.</block>
   <block id="802e81544e7cd56335454cb3f02f6c1a" category="image-alt">NVMe 드라이브를 제거합니다</block>
   <block id="36c4bb9266e617d3ca8a33eb9502e855" category="paragraph">캠 핸들을 아래로 돌려 드라이브를 중앙판에서 분리합니다.</block>
   <block id="72b54ea7be3a13b4755dc4521c8d0af6" category="paragraph">다른 손으로 드라이브를 지지하고 캠 핸들을 사용하여 드라이브 베이에서 드라이브를 밀어 꺼냅니다.</block>
   <block id="0093c88dee6ce91e0bd8ccb1cfbc03ff" category="admonition">드라이브는 깨지기 쉬우므로 취급을 최소화하여 손상을 방지하십시오.</block>
-  <block id="ab32ae446e6fa5de50a5d631bbe01daf" category="list-text">드라이브를 정전기가 없는 카트 또는 테이블에 놓습니다.</block>
   <block id="0649d37403624118b801efa8956dc716" category="section-title">3단계: 장비 랙 또는 시스템 캐비닛 내에서 섀시를 교체합니다</block>
   <block id="e5a4b20c56ed46e589289f6e1a9368dd" category="paragraph">장비 랙 또는 시스템 캐비닛에서 손상된 섀시를 분리하고, 교체 섀시를 설치하고, 드라이브, 드라이브 보호물을 설치한 다음 베젤을 설치합니다.</block>
   <block id="eb8def779f4d3e61a371ec65c0cc0128" category="list-text">손상된 섀시 장착 지점에서 나사를 분리합니다.</block>
@@ -9903,8 +9897,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a49827c76ee70fdd179847c88075dc56" category="list-text">컨트롤러가 미드플레인과 만나서 섀시에 완전히 장착될 때까지 핸들을 단단히 누릅니다.</block>
   <block id="3056a592db17bf1d39a65418c696f961" category="list-text">전원 코드를 제외하고 필요한 경우 컨트롤러를 재연결합니다.</block>
   <block id="707d1581f04f57894e17cb3cafe9b845" category="list-text">이 단계를 반복하여 섀시에 두 번째 컨트롤러를 설치합니다.</block>
-  <block id="a6d6e73e138675b6ffbbb0e4663b2d5d" category="list-text">손상된 섀시에서 분리한 드라이브 및 드라이브 보호물을 교체용 섀시에 설치합니다.</block>
-  <block id="4a7738e24d9329241e05c40def3be102" category="admonition">드라이브 및 드라이브 보호물은 교체 섀시의 동일한 드라이브 베이에 설치해야 합니다.</block>
   <block id="8434f030a8261109d70a0f1ab5da399d" category="list-text">캠 핸들이 열린 위치에 있는 상태에서 양손으로 드라이브를 삽입합니다.</block>
   <block id="969b8fc5cc51be52f8dce30f8f2d4b34" category="list-text">드라이브가 멈출 때까지 부드럽게 누릅니다.</block>
   <block id="1b247863479c60a2779b5eedef888d17" category="list-text">나머지 드라이브에 대해서도 이 과정을 반복합니다.</block>
@@ -10712,7 +10704,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4572f45ac79ded53bd57f95eaf949d13" category="doc">설치 요구 사항 - AFF C30 및 AFF C60</block>
   <block id="2795470282b110353916b87e8a68ea10" category="paragraph">AFF C80 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="021fad57648b2198deca585e8c317a71" category="paragraph">FAS70 또는 FAS90 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
-  <block id="4c92eb29f2a257faff3e90e45cf70459" category="paragraph">DS460C 선반의 무게는 최대 181.1kg(260.4lbs)입니다. 보관 선반을 들어 올리려면 최대 5명까지 앉거나 유압식 리프트가 필요할 수 있습니다. 선반 무게의 균형을 잃지 않도록 모든 구성 요소를 보관 선반(전면 및 후면 모두)에 보관하십시오.</block>
   <block id="510996b7cd8e0bf946a50e1f000afbe2" category="paragraph">SuperRail은 사각형 구멍 어댑터 브래킷을 사용하여 표준 사각형 구멍 4포스트 랙 또는 표준 원형 구멍 4포스트 랙에 설치할 수 있습니다.</block>
   <block id="090baac144fae3a90d22bb679e0194a6" category="sidebar">AFF A20, AFF A30 및 AFF A50 부팅 미디어</block>
   <block id="f923335af94abdb12e15d306f375ccba" category="sidebar">AFF A20, AFF A30 및 AFF A50 입출력 모듈</block>
@@ -11593,7 +11584,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0d7d91e5c0ba14682d8accd0725bd4f8" category="paragraph">다음 요구 사항 및 고려 사항을 검토하십시오.</block>
   <block id="26bdea20d97a5dc3ed17ac3abb94f903" category="paragraph">컨트롤러 교체 절차에 대한 요구 사항 및 고려 사항을 검토하십시오.</block>
   <block id="b00e817c5e070498acf083d5cdea215d" category="paragraph">NS224 보관 선반 ID를 설정하기 위한 종이 클립 또는 끝이 가는 볼펜이 있는지 확인하십시오.</block>
-  <block id="dac54bdee97e00ed11513b711808fbbb" category="list-text">쉘프 ID가 적용되도록 쉘프의 전원을 껐다가 다시 켜야 합니다(SAS 쉘프 후면에서 전원 스위치를 끄고 적당한 시간을 기다린 다음 전원을 다시 켭니다).</block>
   <block id="7ca755a8f6cc07b6b9e0fb7e1b6c9a09" category="list-text">전원 코드를 선반에 먼저 연결하고 전원 코드 고정대로 제자리에 고정하고 전원 코드를 다른 회로의 전원에 연결한 다음 각 전원 공급 장치(선반 후면)의 전원 스위치를 켜서 선반의 전원을 켭니다.</block>
   <block id="58664d0a6ee33336810fe2050bd807f7" category="paragraph">셸프의 전원이 켜지고 전원이 켜지면 자동으로 부팅됩니다.</block>
   <block id="ba79a134cbfbf535ef0d30ec122fd9fb" category="list-text">왼쪽 끝 캡을 제거하여 전면판의 주황색 쉘프 ID 버튼을 액세스합니다.</block>
@@ -11610,7 +11600,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7c72724f0b6450fb95e7722b18d2e78f" category="summary">AFF A20, AFF A30 또는 AFF A50 시스템의 섀시를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족하는지 확인하십시오. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 섀시가 있는지 확인하고, 필요한 도구가 포함됩니다.</block>
   <block id="6c5e82deb6f3de231e3eb286f77e492f" category="paragraph">섀시 교체 요구 사항을 검토한 후 필요한 작업을 수행해야 <block ref="5ad1268d806d8db9e0e59370c95dfac1" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="e7eea0ad5ba5d4f18a6414b3197206c3" category="summary">교체 요구 사항을 검토하고 컨트롤러를 종료하고 섀시를 교체하고 시스템 작업을 확인하여 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 섀시 교체를 시작하십시오.</block>
-  <block id="dcde20e17b1c5c80f1f980da5150736e" category="list-text">시스템 섀시 앞면의 쉘프 ID 디스플레이가 켜지지 않습니다. 시스템의 내부 쉘프 ID는 00으로 고정되어 있습니다.</block>
   <block id="b299bf8f9276ecc9c20cd1ae118c9799" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 코드를 고정합니다. : A20-30-50!:</block>
   <block id="12c8eb3808a13f0adea4f2c3d86acb4c" category="image-alt">AFF A20 A30 A50, C30 및 C60 무게 주의 아이콘</block>
   <block id="90c51f2e3ac0e73e60b00bd0eba8b946" category="doc">입출력 모듈(AFF A20, AFF A30 및 AFF A50)을 추가합니다</block>
@@ -11710,4 +11699,181 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9f4af5ab487f7477da2dd13bdd9a635c" category="paragraph">그래픽을 사용하여 스택 2의 드라이브 쉘프를 서로 연결합니다.</block>
   <block id="5314841cf1990f9c696f41eaf702eb4f" category="image-alt">drw autodiscovery controller ieops 1849를 선택합니다</block>
   <block id="4c871f3eceeb63ae32259cd45a0be767" category="list-text">왼쪽 창에서 네트워크 를 클릭하고 마우스 오른쪽 단추를 클릭한 다음 새로 고침 을 선택합니다.</block>
+  <block id="08308f65214c45c04131a1ad77f35101" category="list-text">스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
+  <block id="6c9f2761d7d74eb3a979daf442af39b5" category="paragraph">스토리지 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 제대로 작동하지 않는 경우 이 절차를 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
+  <block id="452dbbce25fd2a411a98a68c759a30a7" category="paragraph">HA-state 값은 _ha_여야 합니다. HA 상태 값은 다음 중 하나일 수 있습니다.***_ha_***_MCC_(ASA에서 지원되지 않음)</block>
+  <block id="944a42cded90e80d0304a07ec28b9a33" category="section-title">2단계: 손상된 섀시에서 캐싱 모듈을 제거합니다</block>
+  <block id="d7906265ec3e4443fc6dc14ccbf13357" category="paragraph">손상된 섀시에서 캐시 모듈과 드라이브 보호물을 모두 분리해야 합니다. 이렇게 하면 나중에 이 모듈을 교체용 섀시에 설치할 수 있습니다.</block>
+  <block id="54418dee1efbdcdf7f7e4f53c224f259" category="list-text">캐시 모듈 및 드라이브 보호물을 분리합니다.</block>
+  <block id="a4453fe1e94237d231fc2f4878753194" category="admonition">교체 섀시의 동일한 드라이브 베이에 설치해야 하므로 각 캐시 모듈과 드라이브 보호물이 제거된 드라이브 베이를 추적하십시오.</block>
+  <block id="4feff098827182c526ab95ef83e78f24" category="image-alt">fas50 캐싱 모듈 교체 단계 그림</block>
+  <block id="9a4b2d8c6321f069d147bd3a6aab1771" category="paragraph">모듈 면의 분리 버튼을 눌러 캠 핸들을 엽니다.</block>
+  <block id="078ab15ebb81d82e85799292435daed5" category="paragraph">캠 핸들을 아래로 돌려 모듈을 중앙판에서 분리합니다.</block>
+  <block id="3696cc02cc4e1d6727f9f15be51f46c4" category="paragraph">다른 손으로 모듈을 지지하고 캠 핸들을 사용하여 드라이브 베이에서 모듈을 밀어 꺼냅니다.</block>
+  <block id="12399a516954dd0843cdcb19410dd141" category="paragraph">모듈을 분리할 때는 항상 두 손으로 무게를 지탱하십시오.</block>
+  <block id="9222b175cf0c7af5a9ebb98fd1fd266f" category="list-text">캐시 모듈을 정전기가 없는 카트 또는 테이블 위에 놓습니다.</block>
+  <block id="fb042e101845ff5cfb8e58953697dd25" category="list-text">손상된 섀시에서 분리한 캐시 모듈 및 드라이브 보호물을 교체용 섀시에 설치합니다.</block>
+  <block id="08a3990a102599592f1bfa837fdb4b59" category="admonition">캐시 모듈과 드라이브 보호물은 교체 섀시의 동일한 드라이브 베이에 설치해야 합니다.</block>
+  <block id="7efc069c2d6033d673e36b12fe42467a" category="paragraph">컨트롤러 교체 절차와 관련된 요구 사항 및 고려 사항을 검토해야 합니다.</block>
+  <block id="8e02634dbf9dfd6114030109a952c94d" category="list-text">스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
+  <block id="cb4319361e919e892411df69baf2763b" category="paragraph">팬을 교체하려면 컨트롤러를 분리하고 결함이 있는 팬을 분리한 다음 교체 팬을 설치한 다음 컨트롤러를 다시 설치해야 합니다.</block>
+  <block id="1ceae8e0ff0bec3c4a785784e13c38e0" category="paragraph">이 절차를 사용하여 장애가 발생한 입출력 모듈을 교체하십시오.</block>
+  <block id="72cad785e17debea8fb89d72f80450e0" category="paragraph">NV 전지를 교체하려면 컨트롤러를 분리하고 결함이 있는 전지를 제거한 다음 교체용 전지를 설치한 다음 컨트롤러를 다시 설치해야 합니다.</block>
+  <block id="837c47c934f14522b94248f34ec495be" category="paragraph">컨트롤러의 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 스토리지 시스템의 서비스 및 애플리케이션이 계속 작동하도록 합니다.</block>
+  <block id="55eba7ecf8d7b61636e734c095e4ed8c" category="paragraph">랩톱이 시리얼 콘솔 포트에 연결되어 있고 컨트롤러 전원이 켜져 있는지 확인합니다.</block>
+  <block id="91860a8cf69554e12c3e3a5720821c5a" category="list-text">쉘프 ID가 적용되도록 쉘프의 각 전원 공급 장치에서 전원 스위치를 끄고 적절한 시간을 기다린 다음 전원을 다시 켭니다.</block>
+  <block id="f5afd4b6c78c970d9b9f36473a81eb43" category="paragraph">DS460C 선반의 무게는 최대 181.1kg(260.4lbs)입니다. 보관 선반을 들어 올리려면 최대 5명이나 유압식 리프트가 필요할 수 있습니다. 선반 무게의 균형을 잃지 않도록 모든 구성 요소를 보관 선반(전면 및 후면 모두)에 보관하십시오.</block>
+  <block id="33ae25491bd1a8a3daa58c3e044ddc6f" category="doc">장애가 발생한 부품을 NetApp-FAS50으로 반환합니다</block>
+  <block id="cb898608072ab3625e9f94c0f82cbc2f" category="paragraph">FAS50 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp로 반환합니다. <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block>자세한 내용은 페이지를 참조하십시오.</block>
+  <block id="ddcc1fe805cfc4158d50ee0c9f6ad59c" category="doc">컨트롤러-FAS50을 재설치합니다</block>
+  <block id="739ec770fb0f54d0a185f727d0e59411" category="doc">컨트롤러-FAS50을 분리합니다</block>
+  <block id="0277d6392a2af9f708f9e4369e630a19" category="summary">FAS50 스토리지 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.</block>
+  <block id="f1079072d592c82515d925fae16c5721" category="doc">온보드 암호화 키 확인 - FAS50</block>
+  <block id="0c7c2005d76982e23553fd1d3514150c" category="summary">지속적인 데이터 보호를 위해 FAS50 시스템의 교체 부팅 미디어에 암호화를 복원합니다. 교체 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다.</block>
+  <block id="0151d2e25a624c9dbf01c9da862a2efb" category="doc">암호화 복원 - FAS50</block>
+  <block id="16d1af605f4fcd33a64f8a2ed880330e" category="summary">FAS50 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 부팅하고 파트너 노드에서 구성을 복원할 수 있습니다.</block>
+  <block id="d21d0e8ba826df129a1cd71f29ee4d5e" category="doc">복구 이미지-FAS50을 부팅합니다</block>
+  <block id="56429bb6d74550cd9c5360f41397c6de" category="summary">FAS50 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 적절한 용량의 USB 플래시 드라이브가 있는지 확인하고 올바른 교체용 부팅 장치가 있는지 확인하는 작업이 포함됩니다.</block>
+  <block id="aeba6c8bbaea20952c636da581b7a8c2" category="doc">부팅 미디어 교체 요구 사항 - FAS50</block>
+  <block id="062f7c310d8631c5c060416fd38b1228" category="doc">부팅 미디어 교체 워크플로 - FAS50</block>
+  <block id="1d7e5e0e3df76ac9dc695510c92b0468" category="paragraph">부팅 미디어를 교체하려면 다음 워크플로 단계를 수행하십시오.</block>
+  <block id="bd898a77e63b1dd4978b864491e6c7b0" category="summary">FAS50 시스템의 부팅 매체에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈 분리, 손상된 부팅 미디어 제거, 교체용 부팅 미디어 설치, ONTAP 이미지 전송 등이 포함됩니다.</block>
+  <block id="719e92c119e580be0fedfe1616953620" category="doc">부팅 미디어 교체 - FAS50</block>
+  <block id="c518e6003337d8c1efff7e119d9365d2" category="summary">FAS50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어 교체 시 시스템 안정성을 유지합니다.</block>
+  <block id="079acc3f3f4418c4b4c1010b6fa2edff" category="doc">부팅 미디어를 교체하려면 컨트롤러를 종료합니다. - FAS50</block>
+  <block id="5f8c2ad1061532c9035fde45699f108c" category="summary">지원되는 동일 또는 다른 공급업체에서 제공하는 동일한 용량의 NVMe SSD Flash Cache 모듈(캐싱 모듈)을 핫 스왑할 수 있습니다.</block>
+  <block id="3645f29f6c8c221f20d7813f0fa26a50" category="doc">캐싱 모듈-FAS50을 핫 스왑합니다</block>
+  <block id="375300c4c74d065b6e97b93cfb47065f" category="paragraph">지원되는 동일 또는 다른 공급업체에서 제공하는 동일한 용량의 NVMe SSD 캐싱 모듈(Flash Cache 모듈)을 핫 스왑할 수 있습니다.</block>
+  <block id="8ebd59de86e8c4e921b201cca97c0308" category="list-text">스토리지 시스템에 설치할 캐싱 모듈에 적합한 운영 체제가 있어야 합니다.</block>
+  <block id="b8c60af649b796482380a3f6a76bbe83" category="list-text">스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
+  <block id="cc2fe3a3c64e24b07aa04c80f9e847e5" category="list-text">캐싱 모듈 전면에 있는 황색 주의 LED를 통해 장애가 발생한 캐싱 모듈을 찾습니다.</block>
+  <block id="a2a6e52f9ed0f0942796917dad1d8983" category="paragraph">캐시 모듈은 드라이브 베이 0 또는 23에 있을 수 있습니다.</block>
+  <block id="62e950648d145fe8127106ed64a26ffc" category="list-text">교체용 캐싱 모듈을 삽입하기 전에 최소 70초 동안 기다립니다.</block>
+  <block id="c212e76764548ecbad1eec55aa51a425" category="list-text">캠 핸들이 열린 위치에 있는 상태에서 양손으로 모듈을 삽입합니다.</block>
+  <block id="654ae1f780a7bf81f96af9189ef4e099" category="list-text">모듈이 멈출 때까지 부드럽게 누릅니다.</block>
+  <block id="f4766f330ca30e7a625e2b5dbae44be1" category="list-text">모듈이 미드플레인에 완전히 장착되고 핸들이 딸깍 소리를 내며 제자리에 고정되도록 캠 핸들을 닫습니다.</block>
+  <block id="dc327f7dba7a06bc6de0e2276d46d0a4" category="paragraph">캠 핸들이 모듈의 면과 올바르게 정렬되도록 천천히 닫아야 합니다.</block>
+  <block id="b99f6dafb7ef9e4ba4319aeb859a0f74" category="list-text">모듈의 작동 상태(녹색) LED가 켜져 있는지 확인합니다.</block>
+  <block id="69013c48c40dc96bdb9016813612271b" category="summary">섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 FAS50 섀시 교체 절차의 최종 단계를 완료합니다.</block>
+  <block id="71ca5fa859d5d656d350997252618cfd" category="doc">전체 섀시 교체 - FAS50</block>
+  <block id="c39f2ee0c21b22242c863103ccffba7b" category="summary">하드웨어 장애가 필요할 경우 FAS50 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 캐시 모듈 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
+  <block id="f7fd8733f7a1cdfb735457344642d65a" category="doc">섀시-FAS50을 교체합니다</block>
+  <block id="43c0e4ff98cea4dff4c5c25388cd5bdb" category="paragraph">손상된 FAS50 섀시를 교체하고 구성 요소를 다시 설치한 후에는 다음을 수행해야 <block ref="e567761f3b9d650307e1ffbce9c62dc9" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="92b1dd9a60c1d18f7606ce281d72ad2d" category="summary">FAS50 시스템의 섀시를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 섀시가 있는지 확인하고, 필요한 도구가 포함됩니다.</block>
+  <block id="b6658ca07f1d7034f64ec87009aff148" category="doc">섀시 교체 요구 사항 - FAS50</block>
+  <block id="d5558ef85c97f84228e8ede4f9fe68a6" category="summary">FAS50 스토리지 시스템에서 컨트롤러를 종료하여 데이터 손실을 방지하고 섀시 교체 시 시스템 안정성을 유지합니다.</block>
+  <block id="975d6c51bb7949ae1d3665c5ddf83cd9" category="doc">컨트롤러 종료 - FAS50</block>
+  <block id="9d9651f97ee43fc1894d70b8fca0c55f" category="doc">섀시 교체 워크플로우 - FAS50</block>
+  <block id="64e923d27d8f20b1c39e996784b889e8" category="paragraph">다음 워크플로우 단계에 따라 섀시를 교체합니다.</block>
+  <block id="d46dfcea882ba1b154e777304a052dbb" category="paragraph">섀시 교체에는 드라이브 보호물, 캐시 모듈, 컨트롤러(전원 공급 장치 포함) 및 베젤을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꾸는 작업이 포함됩니다.</block>
+  <block id="f8ab9ad62f54fefd22c0d90bef055198" category="summary">하드웨어 오류가 필요할 경우 FAS50 시스템에서 컨트롤러를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
+  <block id="b8642444bf8dd9a7f955ef4d53c42954" category="doc">컨트롤러-FAS50을 교체합니다</block>
+  <block id="38ebe64559125444b42957c926d9309b" category="paragraph">손상된 FAS50 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="f47617ad2fb9ec35e7f692f630cf213c" category="summary">FAS50 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스를 교체 컨트롤러로 다시 제어합니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
+  <block id="f82377f16c8e20dd1aa1d107e057ab26" category="doc">컨트롤러-FAS50을 돌려줍니다</block>
+  <block id="94346bd4e393d4a734081b75a7200d5c" category="doc">컨트롤러 교체 요구사항 - FAS50</block>
+  <block id="18850df12d6d3905c171cf3b41eb6ff7" category="summary">FAS50 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
+  <block id="6a9ca21da69005485aa97597c969ab06" category="doc">전체 컨트롤러 교체 - FAS50</block>
+  <block id="73b625912eebd490af94249495a8a3ff" category="summary">FAS50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 보장합니다.</block>
+  <block id="47a8a5d1c629f2781c2ebb30539303b9" category="doc">손상된 컨트롤러-FAS50을 종료합니다</block>
+  <block id="49945f2cad4c9c368059dd754d754f6a" category="summary">컨트롤러의 HA 구성이 활성 상태이고 FAS50 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크의 모든 경로가 표시되는지 확인합니다.</block>
+  <block id="c8401b5380a5df9e9eb71687aa5cbf9f" category="doc">시스템 구성 복원 및 검증 - FAS50</block>
+  <block id="2c4ddbd4f1c1216183f0c5bd566a6763" category="paragraph">FAS50 시스템에 대한 시스템 구성을 복원 및 확인한 후에는 다음을 수행해야 <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="5f4615774f4a50ce4e2b4677a17e8e75" category="doc">컨트롤러 교체 워크플로우 - FAS50</block>
+  <block id="fdfa46ff546c241fb59ecec0b3caccd1" category="paragraph">다음 워크플로우 단계에 따라 컨트롤러를 교체합니다.</block>
+  <block id="72b60d2ae609d3cbfaf3bd48263c8ae5" category="summary">지나치게 수정 가능하거나 수정할 수 없는 메모리 오류가 감지되면 FAS50 시스템의 DIMM을 교체합니다. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
+  <block id="83182c55d59f50af3178dc292ed9f781" category="doc">DIMM-FAS50을 교체합니다</block>
+  <block id="b12e36ec5c23c2b057b2d1aff5582fd9" category="summary">팬이 고장나거나 효율적으로 작동하지 않으면 시스템 냉각 및 전체 성능에 영향을 미칠 수 있으므로 FAS50 시스템에서 팬 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="14c5b0713d5ac9cac842b3b9d9f1c6e9" category="doc">팬 모듈 교체 - FAS50</block>
+  <block id="c553f0c394c115c59a3770645eef6aac" category="summary">FAS50 하드웨어 유지 관리</block>
+  <block id="aedcdd21a0c77de5f96885987dfadefb" category="doc">FAS50 하드웨어 유지보수</block>
+  <block id="b58ab625a31715db771c75c8ea90990d" category="paragraph">FAS50 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
+  <block id="24b87f9884757dfe5ebe74a987ca5489" category="doc">하드웨어 FAS50 케이블 연결</block>
+  <block id="176d935f21584d13a73cc2fee6d2006f" category="paragraph">FAS50 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다.</block>
+  <block id="e7bd234f89aa10fe2a25ab70f1881386" category="example-title">2포트 40/100 GbE 입출력 모듈 1개가 있는 FAS50</block>
+  <block id="ab0929853066bc5afff8f565bc7e138d" category="image-alt">하나의 100GbE IO 모듈을 사용하는 fas50 스위치가 없는 클러스터 케이블 연결 다이어그램</block>
+  <block id="f5e2edd1a08f37ae784f4706be49b73d" category="admonition">클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리적 포트(슬롯 4의 I/O 모듈)를 공유합니다. 포트는 40/100 GbE입니다.</block>
+  <block id="587bed5e1b1013acb3b0cad78e0dc97f" category="inline-image-macro">하나의 100GbE IO 모듈을 사용하는 fas50 스위치 클러스터 케이블 연결 다이어그램</block>
+  <block id="5af61e2d32561bdfd725b4ff1abad33d" category="paragraph"><block ref="5af61e2d32561bdfd725b4ff1abad33d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="30116aad52f0bad698fa0cb2a523a7d2" category="example-title">4포트 10/25 GbE 입출력 모듈 1개가 포함된 FAS50</block>
+  <block id="83ed0059cf7b8565a69e40d218194766" category="image-alt">케이블 fas50과 10/25GbE 이더넷 호스트 네트워크 스위치</block>
+  <block id="97999a10174c7270f80d69a61f881c34" category="example-title">4포트 64Gb/s FC 입출력 모듈 1개가 포함된 FAS50</block>
+  <block id="4af0635b9b0fa01d90348d64d44ac5a7" category="paragraph">다음 절차에서는 하나 또는 두 개의 DS460C 쉘프에 컨트롤러를 연결하는 방법을 보여 줍니다.</block>
+  <block id="0d4ae2c19fb1eec9c73a9ba31cf7b80f" category="list-text">케이블 연결 예제에 DS460C 쉘프가 표시되어 있지만, 추가 SAS 쉘프는 지원됩니다. 를 참조하십시오.<block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block></block>
+  <block id="dc59d157ac5f286eedfff99a1bb61862" category="inline-link-macro">새 시스템 설치를 위해 쉘프를 설치하고 케이블을 연결합니다</block>
+  <block id="016ce9a551ae5a3866c3feb9f430f867" category="inline-link-macro">SAS 케이블 연결 문제, 워크시트 및 예제 개요</block>
+  <block id="41f30de602f778bd37fd94cde0e93d98" category="paragraph">지원되는 다른 SAS 쉘프의 케이블 연결도 유사합니다. 을 <block ref="c0d7aa9ee22aab3ecf7bf0fe7732f94e" category="inline-link-macro-rx"></block>참조하십시오. 을 참조할 수도 <block ref="f178d666cc0e8ba0d12eda1a67319fdb" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="0bf36a9d3e5241c7c2a803cca8393af0" category="list-text">스토리지 시스템에 지원되는 최대 쉘프 수와 광, 스위치 연결 등 모든 케이블 연결 옵션은 을 참조하십시오.<block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block></block>
+  <block id="72d885b36f3dabe9e44ce371442073d6" category="list-text">스토리지 시스템과 함께 제공된 스토리지 케이블을 사용합니다. 케이블 유형은 다음과 같습니다.</block>
+  <block id="72f4035027f2f7ca82b0a522cc86f866" category="open-title">옵션 1: DS460C 쉘프 1개</block>
+  <block id="1475db94c866c1134ab5b90020f91d8e" category="paragraph">각 컨트롤러를 DS460C 쉘프의 각 IOM12 모듈에 연결합니다.</block>
+  <block id="4148c23baf0acb2d5a889bf39e98d451" category="list-text">케이블 컨트롤러 A 포트 3a를 IOMA 포트 1에 연결합니다.</block>
+  <block id="83622a8ebd61bb324e46d859d063a629" category="list-text">케이블 컨트롤러 A 포트 3D - IOMB 포트 3.</block>
+  <block id="e9c2e0916e87c8e70c3f414d7a2a3171" category="inline-image-macro">하나의 DS460C 쉘프에 컨트롤러 A 포트 3a 및 3D 케이블 연결</block>
+  <block id="ad272dab205763d50bc64eb8ffbaab6a" category="paragraph"><block ref="ad272dab205763d50bc64eb8ffbaab6a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="65b2202bf59d69d19c408dfe2eb87eb4" category="list-text">케이블 컨트롤러 B 포트 3a와 IOMB 포트 1을 연결합니다.</block>
+  <block id="e8849143d50daef61f19b6d8a620b759" category="list-text">케이블 컨트롤러 B 포트 3D - IOMA 포트 3.</block>
+  <block id="ef1647c46666dea72c87973140aae982" category="inline-image-macro">하나의 DS460C 쉘프에 컨트롤러 B 포트 3A 및 3D 케이블 연결</block>
+  <block id="e4c4ceb79fe5729418dba70f3d3a4b6f" category="paragraph"><block ref="e4c4ceb79fe5729418dba70f3d3a4b6f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fd4b8702e1fece6900211aed1df08297" category="open-title">옵션 2: DS460C 선반 2개</block>
+  <block id="d5b0fb86b04fadb04b2c1aabdc682124" category="paragraph">각 컨트롤러를 두 DS460C 쉘프의 IOM12 모듈에 연결합니다.</block>
+  <block id="92b6981d91e56c51ed8cd81ceb0c2725" category="list-text">쉘프-쉘프 연결 케이블 연결:</block>
+  <block id="4a433061aeb5f5489a4f6f2c6998431e" category="list-text">케이블 선반 1 IOMA 포트 3 - 셸프 2 IOMA 포트 1</block>
+  <block id="953e03d7a579b26571697352f2be0e05" category="list-text">케이블 선반 1 IOMB 포트 3 - 셸프 2 IOMB 포트 1</block>
+  <block id="123ab7e1c9141cb0b7e7b712d202404a" category="inline-image-macro">선반-선반 연결</block>
+  <block id="5b5c504f96f7bd830b1746878c952c52" category="paragraph"><block ref="5b5c504f96f7bd830b1746878c952c52" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="32711258ec649d276f0febe359183174" category="list-text">컨트롤러 A를 쉘프에 연결:</block>
+  <block id="8a077fe26258a791808f6c79d3bb7497" category="list-text">케이블 컨트롤러 A 포트 3a를 쉘프 1 IOMA 포트 1에 연결합니다.</block>
+  <block id="3b49545c9e32c779ba99005b8bdb4459" category="list-text">케이블 컨트롤러 A 포트 3D-셸프 2 IOMB 포트 3.</block>
+  <block id="262e032c06dfbe5a4f5e5984c10f93a8" category="inline-image-macro">2개의 DS460C 쉘프에 케이블 연결된 컨트롤러 A 포트 3a 및 3D</block>
+  <block id="f55c64664eae8ba733b8672a7ff524f8" category="paragraph"><block ref="f55c64664eae8ba733b8672a7ff524f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a6143a096aca12e23bfad9f1d41fe20" category="list-text">컨트롤러 B를 쉘프에 연결:</block>
+  <block id="0b811f09e9eac5e37e239a12858a54c1" category="list-text">컨트롤러 B 포트 3A를 쉘프 1 IOMB 포트 1에 연결합니다.</block>
+  <block id="01c7cda26a7b465d1c56f741d328e967" category="list-text">케이블 컨트롤러 B 포트 3D-셸프 2 IOMA 포트 3.</block>
+  <block id="60fee2ee2c3e768d10719c680fb38afb" category="inline-image-macro">컨트롤러 B 포트 3a 및 3D를 두 DS460C 쉘프에 케이블로 연결합니다</block>
+  <block id="7a2d0d2a1e1f5dc3d5184332fb23afba" category="paragraph"><block ref="7a2d0d2a1e1f5dc3d5184332fb23afba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c7a75f3a015710392a8467c08fd9862a" category="doc">스토리지 시스템 설치 및 구성을 완료합니다. - FAS50</block>
+  <block id="c63c71562f3b83fe3a2793ff2deb8fd5" category="paragraph">FAS50 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
+  <block id="a48dcb52a80835a67657f668af54582e" category="doc">hardware-FAS50 을 설치합니다</block>
+  <block id="986b47fd733e9cbf32255b28864ed238" category="paragraph">FAS50 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다.</block>
+  <block id="4f71d9bde1ecffc22f8c526c10e5381e" category="doc">설치 및 설정 워크플로우 - FAS50</block>
+  <block id="1974af6df768391cf88c40aec678571e" category="paragraph">FAS50 스토리지 시스템을 설치 및 설정하려면 설치 요구사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블 연결하고, 스토리지 시스템의 전원을 켜고, ONTAP 클러스터를 설정해야 합니다.</block>
+  <block id="dbcb2bc4d50c0b367ad35ab35049f6cf" category="doc">스토리지 시스템 전원을 켭니다. FAS50</block>
+  <block id="58a9bceae382f9146952eb764c24eaa4" category="paragraph">FAS50 스토리지 시스템의 네트워크 및 쉘프에 컨트롤러를 케이블로 연결한 후 쉘프와 컨트롤러의 전원을 켭니다.</block>
+  <block id="c5c54b199e1cae61ce9f1f8df4d64ad2" category="list-text">시스템 섀시 앞면의 쉘프 ID 디스플레이가 켜지지 않습니다.</block>
+  <block id="21b1424b1e644de7e738b04ffc32d5fb" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 코드를 고정합니다. : fas50-a20-30-50!:</block>
+  <block id="64edc211ab70498201f3acbe712ec6a4" category="summary">FAS50 플랫폼 설치 준비</block>
+  <block id="ba721f2e06c40252a394b51ea95142e3" category="doc">설치 준비 - FAS50</block>
+  <block id="e20b24ffe711fbb4211c8b7f51f10949" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택을 이용할 수 있도록 스토리지 시스템 등록을 통해 FAS50 스토리지 시스템 설치를 준비합니다.</block>
+  <block id="bf6f76951a411b87fee677094547f5d4" category="doc">설치 요구사항 - FAS50</block>
+  <block id="f3239a5f1291696246e54607fd3b9a01" category="paragraph">FAS50 스토리지 시스템에 대한 요구사항을 검토하십시오.</block>
+  <block id="e56a8d138f62f4590eed5655df5c011f" category="paragraph">저장 장치 시스템의 무게는 최대 24.4kg(53.8파운드)입니다. 보관 시스템을 인양하려면 두 사람 또는 유압 리프트를 사용합니다.</block>
+  <block id="9c48a8da7b0db1cca470b9010947185e" category="image-alt">FAS50 무게 주의 아이콘</block>
+  <block id="af0319de88f3ed43d4ee4fb8b670c558" category="paragraph">DS460C 선반의 무게는 최대 181.1kg(260.4lbs)입니다. 선반을 들어 올리려면 최대 5명 또는 유압식 리프트가 필요할 수 있습니다. 선반 무게의 균형을 맞추기 위해 모든 구성 요소를 선반(전면 및 후면 모두)에 보관하십시오.</block>
+  <block id="7b153c13ff10bb5ce6fd48c3d66f3a2d" category="summary">FAS50 시스템에 I/O 모듈을 추가하여 네트워크 연결을 향상하고 시스템 데이터 트래픽 처리 능력을 확장하십시오.</block>
+  <block id="26f561223ab76238a005189688efb525" category="doc">I/O 모듈 FAS50을 추가합니다</block>
+  <block id="472113a5add68b7f9bf4dce6d45207dd" category="paragraph">사용 가능한 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 FAS50 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="0da13ed47030f4f6aff66ca53e9ab7bd" category="summary">FAS50 시스템은 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공하여 네트워크 연결 및 성능을 향상합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
+  <block id="9f6e0871bc1f665d9d55adeaef141285" category="doc">입출력 모듈 추가 및 교체 개요 - FAS50</block>
+  <block id="74be49eeaaab5e0816ef02fff20cac31" category="summary">모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 FAS50 시스템의 I/O 모듈을 교체합니다. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="c65fcc9bc376acee1b7dc4604e426776" category="doc">I/O 모듈-FAS50을 교체합니다</block>
+  <block id="c296ba9a8987d716f7c569e3d75c754e" category="summary">FAS50 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
+  <block id="651d5528b03e26465b5710deab4b18d5" category="doc">하드웨어 유지 관리 개요 - FAS50</block>
+  <block id="92bf596899ecc2dd428dae4ead6350e9" category="paragraph">유지 관리 절차에서는 FAS50 시스템이 이미 ONTAP 환경에 스토리지 노드로 구축되어 있다고 가정합니다.</block>
+  <block id="0c2720f00fff80891cbfa57fc6b79952" category="paragraph"><block ref="0c2720f00fff80891cbfa57fc6b79952" category="inline-link-macro-rx"></block></block>
+  <block id="c83ef2561162a9d1f0f9a046b5027a5f" category="paragraph">캐싱 모듈(Flash Cache 모듈)은 고속 SSD를 활용하여 자주 액세스하는 데이터를 저장하여 보다 빠르게 검색합니다.</block>
+  <block id="99345c0fa01397fc4834fca8d86e6924" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리 충전이 소실되거나 장애가 발생하면 FAS50 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
+  <block id="ee30a6d4bd29182df174caa70edbbdf0" category="doc">NV 배터리-FAS50을 교체합니다</block>
+  <block id="8847128a12be40ae1b08a6092e93aa11" category="summary">FAS50 시스템에 장애가 발생하거나 결함이 발생한 경우, 안정적인 작동을 위해 필요한 전원을 계속 공급받을 수 있도록 FAS50 시스템의 AC 또는 DC 전원 공급 장치(PSU)를 교체하십시오. 교체 프로세스에는 결함이 있는 PSU를 전원에서 분리하고, 전원 코드를 뽑고, 결함이 있는 PSU를 교체한 다음 전원에 다시 연결하는 과정이 포함됩니다.</block>
+  <block id="bfae144eadfeb10d9deaca4eda74d8ca" category="doc">전원 공급 장치 교체 - FAS50</block>
+  <block id="ac8a37f8b37d0c6890e6847a1c6e4f90" category="summary">FAS50 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 합니다.</block>
+  <block id="cd9bb4588a19b474bb2eea89a70d69b9" category="doc">실시간 시계 배터리 교체 - FAS50</block>
+  <block id="d85e5cacacd757755e3d09416d2a8bf8" category="sidebar">FAS50를 참조하십시오</block>
+  <block id="89c74f56d3077d699f62355b846ecb58" category="sidebar">FAS50 시스템</block>
+  <block id="d45586db6404e164f2c1f5e7cee53a63" category="sidebar">FAS50 설치 및 설정</block>
+  <block id="e4a119c627ab5c9085b1bc8cdd861028" category="sidebar">FAS50 유지 보수</block>
+  <block id="b27b643308a11f640602b0b02c8a2b53" category="sidebar">FAS50 부팅 미디어</block>
+  <block id="58a129a196d2bcb0ede5faa90327004e" category="sidebar">FAS50 섀시</block>
+  <block id="e05691d9a469c6dfe5333a08214cfeee" category="sidebar">FAS50 컨트롤러 모듈</block>
+  <block id="58a7a102daa03629c6548f4b567a8bdc" category="sidebar">FAS50 I/O 모듈</block>
 </blocks>

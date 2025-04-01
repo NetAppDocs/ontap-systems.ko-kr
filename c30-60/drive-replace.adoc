@@ -27,7 +27,7 @@ ONTAP 설명서의 지침은 SED를 교체하기 전과 후에 수행해야 하�
 +
 https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html["CLI를 통한 NetApp 암호화 개요"^]
 
-* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의해야 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"] 합니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
 * 분리하려는 드라이브가 실패했는지 확인합니다.
 +
 'storage disk show-Broken' 명령을 실행하여 드라이브 실패를 확인할 수 있습니다. 오류가 발생한 드라이브가 실패한 드라이브 목록에 나타납니다. 그렇지 않으면 기다린 다음 명령을 다시 실행해야 합니다.

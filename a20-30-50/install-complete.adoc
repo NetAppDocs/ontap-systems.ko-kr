@@ -60,7 +60,7 @@ System Manager가 열립니다.
 랩톱에서 네트워크 검색이 활성화되어 있지 않은 경우 ONTAP CLI(Command Line Interface) 클러스터 설정 마법사를 사용하여 구성 및 설정을 완료합니다.
 
 .시작하기 전에
-랩톱이 시리얼 콘솔 포트에 연결되어 있고 컨트롤러 전원이 켜져 있는지 확인합니다. 자세한 내용은 을 link:install-power-hardware.html#step-2-power-on-the-controllers["스토리지 시스템의 전원을 켭니다"] 참조하십시오.
+랩톱이 시리얼 콘솔 포트에 연결되어 있고 컨트롤러 전원이 켜져 있는지 확인합니다.
 
 .단계
 노드 중 하나에 초기 노드 관리 IP 주소를 할당합니다.

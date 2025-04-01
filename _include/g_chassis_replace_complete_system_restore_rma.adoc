@@ -22,7 +22,7 @@ HA 상태는 모든 구성 요소에 대해 동일해야 합니다.
 `ha-config modify chassis _HA-state_`
 
 +
-HA-state 값은 _ha_여야 합니다.
+HA-state 값은 _ha_여야 합니다. HA 상태 값은 다음 중 하나일 수 있습니다.***_ha_***_MCC_(ASA에서 지원되지 않음)
 
 .. 설정이 변경되었는지 확인합니다.
 +
