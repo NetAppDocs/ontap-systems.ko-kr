@@ -15,6 +15,18 @@ ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2025년 4월
+
+
+
+=== FAS50를 참조하십시오
+
+FAS50 시스템은 2차 스토리지에 대해 기가바이트당 비용이 가장 저렴하며 link:https://docs.netapp.com/us-en/netapp-solutions/cyber-vault/ontap-cyber-vault-overview.html["보안 사이버 소산"]백업 속도 향상, IOPS 향상, 5-10ms의 짧은 지연 시간으로 2차 작업 부하에 대한 성능을 향상시킵니다.
+
+link:https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf["FAS 시스템에 대해 자세히 알아보십시오"]..
+
+
+
 == 2025년 2월
 
 
