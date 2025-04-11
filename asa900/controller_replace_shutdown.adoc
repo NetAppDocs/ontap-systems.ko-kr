@@ -28,11 +28,20 @@ summary: 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인
 
 
 .단계
-. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다. `system node autosupport invoke -node * -type all -message MAINT=<# of hours>h`
+. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
 +
-다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다. `cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
+`system node autosupport invoke -node * -type all -message MAINT=<# of hours>h`
 
-. 정상 상태의 컨트롤러 콘솔에서 자동 반환 비활성화: `storage failover modify -node local -auto-giveback false`
++
+다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.
+
++
+`cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 정상 상태의 컨트롤러 콘솔에서 자동 반환 비활성화:
++
+`storage failover modify -node local -auto-giveback false`
+
 +
 
 NOTE: 자동 반환을 비활성화하시겠습니까?_가 표시되면 'y'를 입력합니다.
@@ -61,9 +70,11 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
  a| 
 시스템 프롬프트 또는 암호 프롬프트
  a| 
-정상적인 컨트롤러 'storage failover takeover -ofnode_impaired_node_name_'에서 손상된 컨트롤러를 인수하거나 중단합니다
+정상적인 컨트롤러에서 손상된 컨트롤러를 인계하거나 중지합니다.
 
-손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 응답합니다.
+`storage failover takeover -ofnode _impaired_node_name_ -halt _true_`
+
+_-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 |===
 

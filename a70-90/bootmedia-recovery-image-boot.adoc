@@ -26,7 +26,7 @@ AFF A70 또는 AFF A90 시스템에 새 부팅 미디어 장치를 설치한 후
 .옵션 1: ONTAP 9.16.0 이하
 --
 .. 손상된 컨트롤러에서 가 표시되면 `Do you want to restore the backup configuration now?` 를 누릅니다 `Y`
-.. 손상된 컨트롤러에서 덮어쓰기 _/etc/ssh/ssh_host_ECDSA_KEY_라는 메시지가 나타나면 를 `Y` 누릅니다.
+.. 손상된 컨트롤러에 메시지가 나타나면 를 `Y` 눌러 _/etc/ssh/ssh_host_ECDSA_key_를 덮어씁니다.
 .. 건강한 파트너 컨트롤러에서 손상된 컨트롤러를 고급 권한 수준으로 설정합니다 `set -privilege advanced`.
 .. 정상 상태의 파트너 컨트롤러에서 복원 백업 명령을 실행합니다. `system node restore-backup -node local -target-address impaired_node_IP_address`
 +

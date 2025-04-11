@@ -51,4 +51,4 @@ ASA A20, ASA A30 또는 ASA A50 시스템에서 컨트롤러를 교체하기 전
 
 
 .다음 단계
-ASA A20, ASA A30 또는 ASA A50 컨트롤러를 교체하는 데 필요한 요구 사항을 검토한 후에는 다음을 수행해야 link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]합니다.
+손상된 컨트롤러를 교체하기 위한 요구 사항을 검토한 후에는 다음을 link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]수행해야 합니다.

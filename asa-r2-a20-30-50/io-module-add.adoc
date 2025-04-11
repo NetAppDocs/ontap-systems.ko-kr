@@ -90,7 +90,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 손상된 컨트롤러에서 대상 슬롯에서 I/O 블랭킹 모듈을 제거합니다.
 +
-사용하지 않는 I/O 슬롯에는 발생 가능한 발열 문제를 방지하기 위해 블랭킹 모듈이 설치되어 있어야 합니다.
+사용하지 않는 입출력 슬롯에는 발생 가능한 발열 문제를 방지하고 EMC 규정 준수를 위해 블랭킹 모듈이 설치되어 있어야 합니다.
 
 +
 image::../media/drw_g_io_blanking_module_replace_ieops-1901.svg[I/O 블랭킹 모듈을 탈거하십시오]
@@ -131,7 +131,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 +
 손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성 요소도 다시 초기화됩니다.
 
-. 장애가 있는 컨트롤러를 파트너 컨트롤러에서 반납합니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 건강한 컨트롤러에서 손상된 컨트롤러를 반납합니다. `storage failover giveback -ofnode _impaired_node_name_`
 . 이 단계를 반복하여 다른 컨트롤러에 입출력 모듈을 추가합니다.
 . 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원: `storage failover modify -node local -auto-giveback _true_`
 . AutoSupport가 활성화된 경우 자동 케이스 생성을 복원(기능 억제 해제)합니다. `system node autosupport invoke -node * -type all -message MAINT=END`
@@ -214,10 +214,10 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 +
 손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성 요소도 다시 초기화됩니다.
 
-. 장애가 있는 컨트롤러를 파트너 컨트롤러에서 반납합니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 건강한 컨트롤러에서 손상된 컨트롤러를 반납합니다. `storage failover giveback -ofnode _impaired_node_name_`
 . 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원: `storage failover modify -node local -auto-giveback _true_`
-. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원(기능 억제 해제)합니다. system node AutoSupport invoke -node * -type all-message MAINT=end
-. NIC 모듈을 설치한 경우 각 포트의 사용법 모드를 _network_: `storage port modify -node *_<node name>_ -port *_<port name>_ -mode network`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원(기능 억제 해제)합니다. `system node autosupport invoke -node * -type all -message MAINT=END`
+. NIC 모듈을 설치한 경우 각 포트의 사용법 모드를 _network_: `storage port modify -node _node_name_ -port _port_name_ -mode _network_`
 . 다른 컨트롤러에 대해 이 단계를 반복합니다.
 
 

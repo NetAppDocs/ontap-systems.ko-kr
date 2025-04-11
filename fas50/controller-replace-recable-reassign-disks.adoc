@@ -86,7 +86,7 @@ NOTE: 클러스터에 대한 OKM의 클러스터 전체 암호를 묻는 메시�
 
 .단계
 . 루트 볼륨이 External Key Manager로 암호화되고 콘솔 케이블이 교체 노드에 연결된 경우 option을 `boot_ontap menu` 입력하고 선택합니다 `11`.
-. 또는 `n` 다음 질문에 답합니다. `y`
+. 이러한 질문이 나타나면 또는 `n` 필요에 따라 답변하십시오. `y`
 +
 /cfcard/kMIP/certs/client.crt 파일의 복사본이 있습니까? {y/n}
 
@@ -95,9 +95,6 @@ NOTE: 클러스터에 대한 OKM의 클러스터 전체 암호를 묻는 메시�
 
 +
 /cfcard/kMIP/certs/ca.pem 파일의 사본이 있습니까? {y/n}
-
-+
-또는
 
 +
 /cfcard/kMIP/servers.cfg 파일의 복사본이 있습니까? {y/n}

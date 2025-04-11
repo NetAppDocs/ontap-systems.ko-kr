@@ -629,4 +629,4 @@ DC PSU입니다
 
 
 .다음 단계
-손상된 ASA A20, ASA A30 또는 ASA A50 컨트롤러를 교체한 후에는 다음을 link:controller-replace-system-config-restore-and-verify.html["시스템 구성을 복원합니다"]수행해야 합니다.
+손상된 컨트롤러를 교체한 후에는 다음을 수행해야 link:controller-replace-system-config-restore-and-verify.html["시스템 구성을 복원합니다"]합니다.

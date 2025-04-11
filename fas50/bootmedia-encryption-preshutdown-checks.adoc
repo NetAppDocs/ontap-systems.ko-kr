@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, pre-shutdown checks for onboard encryption keys 
 summary: 'FAS50 스토리지 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.' 
 ---
-= 온보드 암호화 키 확인 - FAS50
+= 부팅 미디어 - FAS50에서 암호화 키 지원 및 상태를 확인합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

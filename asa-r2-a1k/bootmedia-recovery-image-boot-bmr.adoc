@@ -53,7 +53,7 @@ ASA A1K 시스템에 새 부팅 미디어 장치를 설치한 후 자동 부팅 
 
 . 부팅 미디어 설치 복구 프로세스를 모니터링합니다.
 +
-프로세스가 완료되고 `Installation complete.` 메시지가 표시됩니다.
+프로세스가 완료되고 `Installation complete` 메시지가 표시됩니다.
 
 . 시스템에서 암호화 및 암호화 유형을 확인하고 두 메시지 중 하나를 표시합니다. 표시되는 메시지에 따라 다음 작업 중 하나를 수행합니다.
 +
@@ -348,7 +348,10 @@ kmip2_client: Successfully imported the keys from external key server: xxx.xxx.x
 Successfully recovered keymanager secrets.
 ....
 =====
-*** 키가 성공적으로 복원되지 않으면 시스템이 중지되고 키를 복원할 수 없음을 나타냅니다. 오류 및 경고 메시지가 표시됩니다. 를 입력하여 복구 프로세스를 다시 `boot_recovery -partner` 실행합니다.
+*** 키가 성공적으로 복원되지 않으면 시스템이 중지되고 키를 복원할 수 없음을 나타냅니다. 오류 및 경고 메시지가 표시됩니다. 복구 프로세스를 다시 실행합니다.
++
+`boot_recovery -partner`
+
 +
 .키 복구 오류 및 경고 메시지의 예를 표시합니다
 [%collapsible]
@@ -378,7 +381,7 @@ LOADER-B>
 .. 노드가 재부팅될 때 시스템이 다시 온라인 상태이고 작동 중인지 확인하여 부팅 미디어 복구가 성공했는지 확인합니다.
 .. 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
 +
-`storage failover giveback -ofnode _impaired_node_name_`..
+'Storage failover 반환 - ofnode_impaired_node_name_'
 
 
 
@@ -388,11 +391,11 @@ LOADER-B>
 
 . 자동 반환이 비활성화된 경우 다시 활성화하십시오.
 +
-`storage failover modify -node local -auto-giveback true`..
+`storage failover modify -node local -auto-giveback true`
 
 . AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
 +
-`system node autosupport invoke -node * -type all -message MAINT=END`..
+`system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 

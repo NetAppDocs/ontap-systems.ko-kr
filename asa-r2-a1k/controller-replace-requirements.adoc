@@ -36,4 +36,4 @@ ASA A1K 시스템의 컨트롤러를 교체하기 전에 올바른 교체를 위
 
 
 .다음 단계
-ASA A1K 컨트롤러를 교체하는 데 필요한 요구 사항을 검토한 후 다음을 수행해야 link:controller-replace-shutdown-nomcc.html["컨트롤러를 종료합니다"]합니다.
+ASA A1K 컨트롤러를 교체하는 데 필요한 요구 사항을 검토한 후에는 다음을 수행해야 link:controller-replace-shutdown-nomcc.html["컨트롤러를 종료합니다"]합니다.

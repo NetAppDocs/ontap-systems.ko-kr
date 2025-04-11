@@ -37,9 +37,9 @@ NOTE: _Personality mismatch_가 표시되면 고객 지원에 문의하십시오
 +
 HA 상태는 모든 구성 요소에 대해 동일해야 합니다.
 
-. 컨트롤러 모듈의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 컨트롤러 모듈의 HA 상태를 "ha-config modify controller ha-state"로 설정합니다
+. 컨트롤러 모듈의 표시된 시스템 상태가 시스템 구성과 일치하지 않는 경우 컨트롤러 모듈의 상태를 설정합니다 `HA`. `ha-config modify controller ha`
 +
-HA 상태의 값은 다음 중 하나일 수 있습니다.
+HA 상태 값은 다음 중 하나가 될 수 있습니다.
 
 +
 ** 하
