@@ -13,4 +13,4 @@ summary: 이 비디오에서는 새 시스템을 설치하고 케이블을 연�
 [role="lead"]
 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
 
-video::lLuiL0js7dI?[youtube]
+video::rQ-za_bli0Y?[youtube]

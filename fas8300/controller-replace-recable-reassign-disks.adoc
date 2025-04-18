@@ -187,14 +187,14 @@ Local System ID: 118065481
     ...
     ...
 ----
-. disk show 명령인 'disk reassign-s old system ID'에서 얻은 시스템 ID 정보를 사용하여 디스크 소유권(FAS 시스템의 경우) 또는 LUN 소유권(FlexArray 시스템의 경우)을 재할당합니다
+. disk show 명령에서 얻은 시스템 ID 정보를 사용하여(FAS 시스템의 경우) 디스크 소유권을 재할당합니다. `disk reassign -s old system ID`
 +
 위의 예시에서 명령어의 내용은 '디스크 재할당-s 118073209'이다
 
 +
 계속하라는 메시지가 나타나면 Y로 응답할 수 있습니다.
 
-. 디스크(또는 FlexArray LUN)가 올바르게 할당되었는지 확인합니다. disk show-a입니다
+. 디스크가 올바르게 할당되었는지 확인합니다
 +
 replacement_node에 속한 디스크에 _replacement_node의 새 시스템 ID가 표시되는지 확인합니다. 다음 예에서는 system-1에서 소유한 디스크에 새 시스템 ID 118065481이 표시됩니다.
 

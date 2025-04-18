@@ -15,7 +15,7 @@ summary: 시스템에서 NVMEM 배터리를 교체하려면 컨트롤러 모듈�
 
 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
 
-link:https://youtu.be/bVJ92AIMyoQ["AFF FAS2600 NVMEM 배터리 교체 비디오"]
+link:https://youtu.be/dgEMcYxya5M["AFF FAS2600 NVMEM 배터리 교체 비디오"^]
 
 
 

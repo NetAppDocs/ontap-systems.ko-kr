@@ -2001,10 +2001,8 @@
   <block id="741c2196cc7abcf971992d4e656da7ea" category="paragraph">이 예에서 Node_B_1은 이전 시스템 ID가 11807329인 이전 노드입니다.</block>
   <block id="2aa94dd7242f16ec9126f4d25ad06195" category="list-text">손상된 노드의 유지보수 모드 프롬프트에서 새 시스템 ID를 확인합니다. "디스크 쇼"</block>
   <block id="761dab2a2eaf4e205d39d0acc4925d17" category="paragraph">이 예에서 새 시스템 ID는 118065481입니다.</block>
-  <block id="73a7440753d817323876d5857eb4a3f7" category="list-text">disk show 명령인 'disk reassign-s old system ID'에서 얻은 시스템 ID 정보를 사용하여 디스크 소유권(FAS 시스템의 경우) 또는 LUN 소유권(FlexArray 시스템의 경우)을 재할당합니다</block>
   <block id="aab7ee705a771085da41cf3f32f1aebe" category="paragraph">위의 예시에서 명령어의 내용은 '디스크 재할당-s 118073209'이다</block>
   <block id="1d1227c1811174bd93682bbcc9fdce3c" category="paragraph">계속하라는 메시지가 나타나면 Y로 응답할 수 있습니다.</block>
-  <block id="a3437746fcb93fe85bd0d8ade510007d" category="list-text">디스크(또는 FlexArray LUN)가 올바르게 할당되었는지 확인합니다. disk show-a입니다</block>
   <block id="21d6dd74cdb7e164685f5da4f2e76256" category="paragraph">replacement_node에 속한 디스크에 _replacement_node의 새 시스템 ID가 표시되는지 확인합니다. 다음 예에서는 system-1에서 소유한 디스크에 새 시스템 ID 118065481이 표시됩니다.</block>
   <block id="b06003538a02608d68f5e58756344017" category="list-text">코어 덤프가 저장되었는지 확인합니다. 'system node run-node_local-node-name_partner savecore'</block>
   <block id="83d65805f786049104c0e0050c82696b" category="paragraph">명령 출력에 savecore가 진행 중임을 나타내는 경우 savecore가 완료될 때까지 기다린 다음 반환 명령을 실행합니다. 'system node run-node_local-node-name_partner savecore -s command'를 사용하여 savecore의 진행률을 모니터링할 수 있습니다.&lt;/info&gt;</block>
@@ -2086,7 +2084,6 @@
   <block id="f9ad44620c55ffa0395a914006e636cf" category="list-text">전원 공급 장치와 전원에 전원 케이블을 다시 연결하고 전원을 켜서 부팅 프로세스를 시작한 다음 Ctrl-C를 누릅니다. 부팅 메뉴에 Ctrl-C를 누릅니다. 메시지가 나타나면 Ctrl-C를 누릅니다.</block>
   <block id="ce412027e710a9d744a414178dca4fc9" category="paragraph">* 중요: * 부팅 프로세스 중에 다음과 같은 메시지가 표시될 수 있습니다.</block>
   <block id="e742eb9c2d018e1c3855d10b4906368d" category="doc">부팅 미디어 - FAS8200을 교체합니다</block>
-  <block id="ddd1a9511bc4cec117e8b939fbe7f2cc" category="list-text"><block ref="ddd1a9511bc4cec117e8b939fbe7f2cc" category="inline-link-macro-rx"></block></block>
   <block id="cfe676549c53e52dc611f1610a8ef495" category="paragraph">MetroCluster 구성의 경우 다음 중 하나를 참조하십시오.</block>
   <block id="b232e9ef89b4f98b36e1c295adeb4a63" category="inline-link">MetroCluster IP 구성을 설치합니다</block>
   <block id="b8657f72d8b4e1ef5c7e2c082690279e" category="list-text"><block ref="b8657f72d8b4e1ef5c7e2c082690279e" category="inline-link-rx"></block></block>
@@ -2103,7 +2100,6 @@
   <block id="9f3fe6619f3cc21d2cc057e260c9a3ae" category="doc">손상된 컨트롤러 - FAS8200을 종료합니다</block>
   <block id="244b874016608f71c1442226368f5da8" category="list-text">AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=_number_of_hours_down_h' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다</block>
   <block id="2c605d107b8b0f8d344d6c863e4c47a9" category="paragraph">Ctrl+C를 누른 다음 y를 누릅니다.</block>
-  <block id="2cbabd3028fd0cb6f4a57144ace2ee33" category="list-text">시스템이 FlexArray 시스템이거나 V_StorageAttach 라이센스가 있는 경우 이 절차를 수행하기 전에 필요한 추가 단계를 참조해야 합니다.</block>
   <block id="18286caf45baac43fedf94bfeaff35fa" category="list-text">기존 컨트롤러 모듈에서 새 컨트롤러 모듈로 또는 기존 고객 사이트 인벤토리에서 추가된 PCIe 카드는 교체 컨트롤러 모듈에서 지원해야 합니다.</block>
   <block id="8385c47a31a80f44b8892894d86e73a6" category="paragraph">섀시를 교체하려면 전원 공급 장치, 팬 및 컨트롤러 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 장비 랙 또는 시스템 캐비닛에서 손상된 섀시와 동일한 모델의 새 섀시로 바꿔야 합니다.</block>
   <block id="47dab8e7deee5ba45f8438d286d83eb4" category="list-text">이 절차는 컨트롤러 모듈 또는 모듈을 새 섀시로 이동하는 가정과 NetApp의 새 구성 요소로 이루어져 있습니다.</block>
@@ -2333,7 +2329,6 @@
   <block id="327cba4c3b39fe95536adbd9bda04a68" category="paragraph">보조 부팅 미디어에 오류가 있거나 image.tgz 파일이 없는 경우 USB 플래시 드라이브를 사용하여 기본 부팅 미디어를 복원해야 합니다. 드라이브는 FAT32로 포맷해야 하며 image_xxx.tgz 파일을 저장할 적절한 저장 공간이 있어야 합니다.</block>
   <block id="c36778782b4ef6254390f7e747b95625" category="list-text">교체 프로세스는 보조 부팅 미디어 또는 USB 플래시 드라이브에서 기본 부팅 미디어로 var 파일 시스템을 복구합니다.</block>
   <block id="320003b122e9ced04801080d4fca8abd" category="list-text"><block ref="320003b122e9ced04801080d4fca8abd" category="inline-link-macro-rx"></block></block>
-  <block id="604b91e7007f6b52b608d188580ff582" category="list-text"><block ref="604b91e7007f6b52b608d188580ff582" category="inline-link-macro-rx"></block></block>
   <block id="2e7119d7d654a51006d39261079ed460" category="doc">컨트롤러 모듈 AFF A700s를 제거합니다</block>
   <block id="24907dee7e4205c74e589d14a85e4bbd" category="doc">DIMM-AFF A700s를 교체합니다</block>
   <block id="bf7918e10696cda0294441f81ad32ee4" category="paragraph">"기백을 기다리는 중...</block>
@@ -2358,7 +2353,6 @@
   <block id="ee5ff73969a958477db471cca8246c98" category="doc">컨트롤러 종료 - AFF A700s</block>
   <block id="1ab25fd464770ca38598dbf7e3aa872c" category="doc">설치 및 설정 비디오 - AFF A700s</block>
   <block id="0e77f42d7c64a07ce718d60dd8e6bd46" category="inline-link-macro">AFF A700s 설정 비디오</block>
-  <block id="ad95e5b69f87474809f8228af5e2fbe2" category="paragraph"><block ref="ad95e5b69f87474809f8228af5e2fbe2" category="inline-link-macro-rx"></block></block>
   <block id="0adc04c81c64b8636310e95596f6f092" category="summary">PCIe 카드를 교체하려면 라이저의 카드에서 케이블을 분리하고 라이저를 꺼낸 다음 해당 라이저에 있는 카드를 다시 장착해야 합니다.</block>
   <block id="ae5748bcef90e1cb5076c109b969e1d9" category="doc">PCIe 카드 교체 - AFF A700s</block>
   <block id="ab0f1b74bde528a6c04a7682a94cb284" category="paragraph">PCIe 카드를 교체하려면 대상 라이저의 PCIe 카드 포트에서 케이블 연결과 모든 SFP를 제거하고, 컨트롤러 모듈에서 라이저를 꺼낸 다음 PCIe 카드를 분리하고 다시 설치하고, 다시 설치해야 합니다.</block>
@@ -2609,7 +2603,6 @@
   <block id="54f4c70c653781a776673e986d65e502" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
   <block id="478fc4fb96b68e7639f1b8b60636da7c" category="doc">NVMEM 배터리-FAS2600을 교체합니다</block>
   <block id="c8ce5afe6808111cafcf57c11a22b941" category="inline-link-macro">AFF FAS2600 NVMEM 배터리 교체 비디오</block>
-  <block id="42eb4da4054bc83a79fd36f832504d55" category="paragraph"><block ref="42eb4da4054bc83a79fd36f832504d55" category="inline-link-macro-rx"></block></block>
   <block id="3970e41706ca509bbbe93d6bce9c9705" category="paragraph">컨트롤러 모듈의 구성 요소를 교체한 후 섀시에 다시 설치합니다.</block>
   <block id="a47803b6b6d01b67efcc88a157378c39" category="doc">장애가 발생한 부품을 NetApp-FAS2600으로 반환합니다</block>
   <block id="d2efa0c31f219abbc043377bfd4ffa3b" category="doc">복구 이미지 - FAS2600을 부팅합니다</block>
@@ -2618,11 +2611,9 @@
   <block id="6b0ffb907f1863f46339c1cee8853799" category="section-title">옵션 2: ONTAP의 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다</block>
   <block id="04a9405b6945cd62aebba48163e7663f" category="doc">전원 공급 장치-FAS2600을 교체하십시오</block>
   <block id="7030094db64cfe33a24436a2528348b6" category="inline-link-macro">AFF FAS2600 전원 공급 장치 교체 비디오</block>
-  <block id="e85e66f99bf70a0cd52615d346aa4f9f" category="paragraph"><block ref="e85e66f99bf70a0cd52615d346aa4f9f" category="inline-link-macro-rx"></block></block>
   <block id="6abcd38b98db86440d4e33f853945773" category="doc">전체 시스템 복원 - FAS2600</block>
   <block id="f8775be935fb9d9effeb8c290b2531ef" category="doc">설치 및 설정 PDF 포스터 - FAS2600</block>
   <block id="5b9bf9643d348558871bac7550eb6bf2" category="inline-link-macro">AFF FAS2600 컨트롤러 교체 비디오</block>
-  <block id="bfc5f4fff0a27940b1f4676800d974c4" category="paragraph"><block ref="bfc5f4fff0a27940b1f4676800d974c4" category="inline-link-macro-rx"></block></block>
   <block id="86b067a1faa816ad3c0a245cc1e409ad" category="section-title">5단계: 캐싱 모듈을 이동합니다</block>
   <block id="f5f4db4cbf741ec589cd881a641a1a02" category="paragraph">컨트롤러의 레이블에 M.2 PCIe 카드라고 하는 캐싱 모듈을 이동하려면 이전 컨트롤러에서 교체 컨트롤러로 이동하여 특정 단계를 따릅니다.</block>
   <block id="482f9dcd012d730126a9c52d8eac49ab" category="paragraph">캐시 모듈을 이전 컨트롤러 모듈에서 새 모듈의 해당 슬롯으로 직접 이동할 수 있도록 새 컨트롤러 모듈이 준비되어 있어야 합니다. 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.</block>
@@ -2633,12 +2624,10 @@
   <block id="49ba302fbc53429009e579494e0457be" category="list-text"><block ref="49ba302fbc53429009e579494e0457be" category="inline-link-macro-rx"></block></block>
   <block id="9d74ba2bcb476d63733debafcde443ea" category="doc">DIMM-FAS2600을 교체합니다</block>
   <block id="c217f888de7cccc4e5f27065cb754354" category="inline-link-macro">AFF FAS2600 DIMM 교체 비디오</block>
-  <block id="e3d9e54e0daad2e60e36e8b370fec883" category="paragraph"><block ref="e3d9e54e0daad2e60e36e8b370fec883" category="inline-link-macro-rx"></block></block>
   <block id="7a463f9e839bbbeef6456ebce3997799" category="paragraph">스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수하십시오.</block>
   <block id="cc0229491324372575d8e9833b910f02" category="list-text">NVMEM LED를 다시 확인하십시오.</block>
   <block id="a618373732a54299b15020c4fdcc9ff7" category="doc">캐싱 모듈-FAS2600을 교체하십시오</block>
   <block id="f6f6b5bb4c3c117ebfdad565e3beb0c3" category="inline-link-macro">AFF FAS2600 캐싱 모듈 교체 비디오</block>
-  <block id="083781fc87756a032121b806b4d18a92" category="paragraph"><block ref="083781fc87756a032121b806b4d18a92" category="inline-link-macro-rx"></block></block>
   <block id="308216007c5ec00e109a42c5068cc3de" category="paragraph">캐시 모듈을 교체하기 전에 캐시 모듈의 내용을 지울 수 있습니다.</block>
   <block id="6ec04a396d43adc0bf840cc9e4cce4b3" category="list-text">캐싱 모듈의 데이터가 암호화되지만 손상된 캐싱 모듈에서 데이터를 모두 지우고 캐싱 모듈에 데이터가 없는지 확인해야 할 수 있습니다.</block>
   <block id="07b824a16e2eac6bafd600bdf983d340" category="list-text">독립 실행형 시스템의 경우 'system node halt_impaired_node_name_'</block>
@@ -2653,7 +2642,6 @@
   <block id="a102b530af65288511339cf8117713a3" category="doc">컨트롤러-FAS2600을 종료합니다</block>
   <block id="c66eef3fd6b2a7fdd9b6e9fbe927aa2f" category="doc">설치 및 설정 비디오 - FAS2600</block>
   <block id="7d529e0ab83dded43342f45ed2a098bd" category="inline-link-macro">AFF FAS2600 설정 비디오</block>
-  <block id="5f3f6cd3a4d5edc50129f46b603aa9c2" category="paragraph"><block ref="5f3f6cd3a4d5edc50129f46b603aa9c2" category="inline-link-macro-rx"></block></block>
   <block id="10c7f296fbe86b208c1b89ca81a28947" category="doc">장애가 발생한 부품을 NetApp-AFF A220 및 FAS2700으로 반환합니다</block>
   <block id="ac5b5b75bd82572e4d052c9c0ed18250" category="paragraph">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재가동하고, 디스크 재할당을 확인하고, NetApp Storage Encryption 구성을 복원(필요한 경우)하고, 새 컨트롤러에 대한 라이센스를 설치해야 합니다. 시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.</block>
   <block id="9c35eb9cc1848b17dc8df9f76cc3d6cf" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다.</block>
@@ -3422,7 +3410,6 @@
   <block id="055140d300b472c3cf197b316fc1a111" category="doc">전체 시스템 복원 - AFF A900</block>
   <block id="8f73eb9fb7acfd413cf2778aacee51b6" category="doc">비디오 스텝 - AFF A900</block>
   <block id="3bc737994532b61e4fad9c84d6dccfc0" category="summary">이 A 에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 자세히 설명합니다.</block>
-  <block id="b37eeea92bef8e254a5c7650e7002788" category="doc">상세 단계 - AFF 900</block>
   <block id="fa3056f29df183b75e177c2b6ee65b45" category="paragraph">이 문서에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 문서를 사용하십시오.</block>
   <block id="8666406295c84e68942a4f6fc1b2cb4e" category="paragraph">에 대한 액세스 권한이 있어야 합니다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> 사이트 요구 사항 및 구성된 시스템에 대한 추가 정보를 확인하십시오.</block>
   <block id="efe451bd1c5b374a05e7d5178bb06987" category="inline-link">ONTAP 9 릴리즈 노트</block>
@@ -9901,7 +9888,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="07e9b2c4f45f1b16bcc15da0757a3cab" category="admonition">지시가 있을 때까지 컨트롤러를 섀시에 완전히 삽입하지 마십시오.</block>
   <block id="ef25353e4e6a2996c8c58db66688c4b4" category="list-text">콘솔 케이블을 컨트롤러의 콘솔 포트와 랩톱에 연결하여 컨트롤러가 재부팅되면 랩톱에서 콘솔 메시지를 받습니다.</block>
   <block id="b5286ddd59d2d1bedeafbeaffb7de288" category="list-text">컨트롤러를 섀시에 완전히 장착합니다.</block>
-  <block id="28b7fea1449f9a616376a90e478d67b0" category="admonition">컨트롤러가 섀시에 완전히 장착되는 즉시 부팅을 시작합니다.</block>
   <block id="f34b6cfc50a1739d51d949fcdd369dad" category="list-text">CTRL-C를 눌러 컨트롤러를 Loader 프롬프트로 전환하여 자동 부팅을 중단합니다.</block>
   <block id="316bb85cd1ab9a7f0cc40325c5827a6d" category="list-text">컨트롤러의 시간 및 날짜 설정:</block>
   <block id="1e5698196a8490bf6290a21eeb883524" category="paragraph">컨트롤러의 Loader 프롬프트에 있는지 확인합니다.</block>
@@ -11911,4 +11897,19 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3034b89fc8e6fc3ae99585d8f1eab80e" category="doc">컨트롤러-FAS50을 대체할 요구사항</block>
   <block id="5c15054b184102da84361b1cd1e81384" category="paragraph">FAS50 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 향상하고 데이터 트래픽 처리 능력을 확장하십시오.</block>
   <block id="9bb6ca48b5f448262155e3c3811e7d6e" category="paragraph">사용 가능한 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우(기존 I/O 모듈을 제거하고 새 모듈을 설치하여) FAS50 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.</block>
+  <block id="b9aaf4b8305c7a34a4b30da6df50ebc5" category="list-text">disk show 명령에서 얻은 시스템 ID 정보를 사용하여(FAS 시스템의 경우) 디스크 소유권을 재할당합니다.<block ref="c59d47aa9e91bfb7b5c45feb4846c496" prefix=" " category="inline-code"></block></block>
+  <block id="2dcdf3018c4d483d8c38e450dbdf5944" category="list-text">시스템에 V_StorageAttach 라이센스가 있는 경우 이 절차를 수행하기 전에 필요한 추가 단계를 참조해야 합니다.</block>
+  <block id="1253bf6221482d606a7719ba415d9176" category="admonition">이때 다른 케이블이나 전원 코드를 연결하지 마십시오.</block>
+  <block id="c69071436bdfe1b2f2edc29969a29980" category="admonition">교체 컨트롤러는 정상 상태의 컨트롤러로부터 전원을 공급받고 섀시에 완전히 장착되는 즉시 부팅을 시작합니다.</block>
+  <block id="5cb4dbca31ce772b17987c15a725b52e" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
+  <block id="257315f653a5868c10e8897449aa264f" category="list-text">정상 상태의 컨트롤러 콘솔에서 자동 반환 복원:</block>
+  <block id="b9adb77861a7f27800ce914be076df5d" category="list-text"><block ref="b9adb77861a7f27800ce914be076df5d" category="inline-link-macro-rx"></block></block>
+  <block id="ec3558cc556230de3472d8f669055445" category="paragraph"><block ref="ec3558cc556230de3472d8f669055445" category="inline-link-macro-rx"></block></block>
+  <block id="2b1f12b6c48af6da013ad7ca0b3e507d" category="doc">자세한 단계 - AFF A900</block>
+  <block id="b8a400661d0d8f4681160e3984f8fe0e" category="paragraph"><block ref="b8a400661d0d8f4681160e3984f8fe0e" category="inline-link-macro-rx"></block></block>
+  <block id="c17ceb181c73449b45e8ac62b23f0788" category="paragraph"><block ref="c17ceb181c73449b45e8ac62b23f0788" category="inline-link-macro-rx"></block></block>
+  <block id="7d3ad47a619f98568e42b3c81d3fc66e" category="paragraph"><block ref="7d3ad47a619f98568e42b3c81d3fc66e" category="inline-link-macro-rx"></block></block>
+  <block id="3f6b8f5ed334d33d55220057f3840983" category="paragraph"><block ref="3f6b8f5ed334d33d55220057f3840983" category="inline-link-macro-rx"></block></block>
+  <block id="13ac941ecf968dc28151bce5851fd7a9" category="paragraph"><block ref="13ac941ecf968dc28151bce5851fd7a9" category="inline-link-macro-rx"></block></block>
+  <block id="f9314d663ff89799d6d255ab7e3ca079" category="paragraph"><block ref="f9314d663ff89799d6d255ab7e3ca079" category="inline-link-macro-rx"></block></block>
 </blocks>

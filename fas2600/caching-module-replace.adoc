@@ -16,7 +16,7 @@ summary: '시스템에서 모듈이 오프라인으로 전환되었다는 단일
 * 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
 
 
-link:https://youtu.be/Rc-EQT-HAxU["AFF FAS2600 캐싱 모듈 교체 비디오"^]
+link:https://youtu.be/LaMzvnAwM_I["AFF FAS2600 캐싱 모듈 교체 비디오"^]
 
 
 
