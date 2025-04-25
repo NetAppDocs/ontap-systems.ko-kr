@@ -54,7 +54,7 @@ image::../media/drw_ssn_label.png[시스템 일련 번호의 예]
 +
 [cols="1,2,1,2"]
 |===
-| 케이블 유형... | 부품 번호 및 길이 | 커넥터 유형 | 대상... 
+| 케이블 유형... | 부품 번호 및 길이 | 커넥터 유형 | 대상... .2+ 
 
 
  a| 
@@ -62,7 +62,7 @@ image::../media/drw_ssn_label.png[시스템 일련 번호의 예]
  a| 
 X66240A-05(112-00595), 0.5m,
 
-X66240-2(112-00573), 2m
+X66240-2(112-00573), 2m.3+
  a| 
 image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP28 커넥터"]
  a| 
@@ -76,31 +76,28 @@ X66240A-2(112-00598), 2m,
 X66240A-5(112-00600), 5m
  a| 
 데이터
-
-
-
  a| 
 100GbE 케이블
  a| 
 X66211-2(112-00574), 2m,
 
 X66211-5(112-00576), 5m
+
+
+
  a| 
 스토리지
-
-
-
  a| 
 RJ-45(주문에 따라 다름)
  a| 
 해당 없음
  a| 
 image:../media/oie_cable_rj45.png["RJ-45 케이블 커넥터"]
+
+
+
  a| 
 관리 네트워크(BMC 및 렌치 포트) 및 이더넷 데이터(e0a 및 e0b)
-
-
-
  a| 
 파이버 채널
  a| 
@@ -113,29 +110,27 @@ X66250-15(112-00346) 15m,
 X66250-30(112-00347) 30m
  a| 
 image:../media/oie_cable_fc_optical.png["OIE 파이버 채널 광 케이블"]
+
+
+
  a| 
-
-
-
  a| 
 마이크로 USB 콘솔 케이블
  a| 
 해당 없음
  a| 
 image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
+
+
+
  a| 
 소프트웨어 설정 중 콘솔 연결
-
-
-
  a| 
 전원 케이블
  a| 
 해당 없음
  a| 
 image:../media/oie_cable_power.png["전원 케이블"]
- a| 
-시스템 전원을 켭니다
 
 |===
 . 를 검토합니다 link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가이드 를 참조하십시오"^] 그런 다음 해당 가이드에 나열된 필수 정보를 수집합니다.
@@ -327,11 +322,11 @@ video::3f92e625-a19c-4d10-9028-ac68017fbf57[panopto]
 .단계
 . 컨트롤러 A를 쉘프에 연결합니다.
 +
-image:../media/drw_affa250_1shelf_cabling_a.png["컨트롤러 A 케이블링"]
+image:../media/drw_affa250_1shelf_cabling_a.png["컨트롤러 1 케이블 연결"]
 
 . 컨트롤러 B를 쉘프에 연결합니다.
 +
-image:../media/drw_affa250_1shelf_cabling_b.png["컨트롤러 B 케이블 연결"]
+image:../media/drw_affa250_1shelf_cabling_b.png["컨트롤러 2 케이블 연결"]
 
 
 
@@ -364,12 +359,11 @@ image:../media/drw_affa250_1shelf_cabling_b.png["컨트롤러 B 케이블 연결
 video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.png[ONTAP 아이콘을 선택합니다]
+image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[ONTAP 아이콘을 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 * 네트워크 * 를 클릭합니다.
-.. 마우스 오른쪽 버튼을 클릭하고 * 새로 고침 * 을 선택합니다.
+.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 

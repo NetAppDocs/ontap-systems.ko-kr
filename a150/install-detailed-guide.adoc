@@ -202,7 +202,7 @@ image::../media/icon_square_1_green.png[설명선 번호 1]
 
 
  a| 
-image::../media/icon_square_2_yellow.png[설명선 번호 2]
+image::../media/icon_square_2_orange.png[설명선 번호 2]
  a| 
 데이터 네트워크 스위치를 호스팅할 컨트롤러
 
@@ -362,8 +362,7 @@ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS
 . 각 노드를 스택의 IOM B에 연결합니다
 +
 ** 컨트롤러 1 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM B 포트 1로 연결합니다.
-** 스택의 마지막 드라이브 쉘프에 있는 컨트롤러 2 포트 0b에서 IOM B 포트 3으로
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS 커넥터"]     미니 SAS HD - 미니 SAS HD 케이블
+** 스택의 마지막 드라이브 쉘프에 있는 컨트롤러 2 포트 0b에서 IOM B 포트 3으로 + image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png["미니 SAS - 미니 SAS 커넥터"] 미니 SAS HD - 미니 SAS HD 케이블
 
 
 
@@ -406,12 +405,11 @@ image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
 
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.png[ONTAP 아이콘을 선택합니다]
+image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[ONTAP 아이콘을 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 네트워크를 클릭합니다.
-.. 마우스 오른쪽 버튼을 클릭하고 새로 고침을 선택합니다.
+.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 

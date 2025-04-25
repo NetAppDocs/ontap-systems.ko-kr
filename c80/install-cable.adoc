@@ -54,10 +54,10 @@ NOTE: 클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리
 * 클러스터/HA 인터커넥트 케이블 *
 
 +
-image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[클러스터 HA 케이블]
+image::../media/oie_cable_25Gb_Ethernet_SFP28_ieops-1069.png[클러스터 HA 케이블]
 
 +
-image::../media/drw_70-90_tnsc_cluster_cabling_ieops-1653.svg[스위치가 없는 2노드 클러스터 케이블 연결 다이어그램]
+image::../media/drw_a1k_tnsc_cluster_cabling_ieops-1648.svg[스위치가 없는 2노드 클러스터 케이블 연결 다이어그램]
 
 
 
@@ -72,13 +72,11 @@ image::../media/drw_70-90_tnsc_cluster_cabling_ieops-1653.svg[스위치가 없�
 +
 * 100 GbE 케이블 *
 
-+
+
+
 image::../media/oie_cable100_gbe_qsfp28.png[100Gb 케이블]
 
-+
 image::../media/drw_70-90_switched_cluster_cabling_ieops-1657.svg[클러스터 연결을 클러스터 네트워크에 케이블 연결합니다]
-
-
 
 --
 ====
@@ -123,9 +121,9 @@ image::../media/drw_70-90_network_cabling2_ieops-1655.svg[10/25GB 이더넷 네�
 
 1000BASE-T RJ-45 케이블을 사용하여 각 컨트롤러의 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_rj45.png[RJ-45 케이블]
-
 * 1000BASE-T RJ-45 케이블 *
+
+image::../media/oie_cable_rj45.png[RJ-45 케이블]
 
 image::../media/drw_70-90_management_connection_ieops-1656.svg[관리 네트워크에 연결합니다]
 

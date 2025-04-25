@@ -317,7 +317,6 @@
   <block id="1d73b4bc0bd82d2084a03bfdfa9c1378" category="list-text">레일 키트에 포함된 지침에 따라 시스템을 설치하고 고정합니다.</block>
   <block id="9f54b5b254fa807cab889d1440acbc05" category="admonition">시스템 무게와 관련된 안전 문제를 알고 있어야 합니다.</block>
   <block id="5f640e6d3479fd7b72c9ae7db89d3548" category="list-text">케이블 관리 장치를 연결합니다(그림 참조).</block>
-  <block id="78b39d88cb979ddb300a4cf2c6cdb1be" category="image-alt">drw 케이블 관리 암 설치</block>
   <block id="d8f1926eaea2f861c4642d7c0de8a8ca" category="list-text">시스템 전면에 베젤을 부착합니다.</block>
   <block id="76f8ab3a142a0ed066c38221ca4e605f" category="section-title">3단계: 컨트롤러를 네트워크에 케이블로 연결합니다</block>
   <block id="c08fb1bb0bc06fd60fcf8dd51de5f2ee" category="paragraph">스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.</block>
@@ -345,7 +344,6 @@
   <block id="a5f30d9d0017c08d2de16a548bbccd2d" category="list-text">랩톱에 네트워크 검색이 활성화되어 있는지 확인합니다.</block>
   <block id="f780f4ec9525200fcfec254876cc9681" category="paragraph">자세한 내용은 노트북의 온라인 도움말을 참조하십시오.</block>
   <block id="e897f5a61b2733e58437829c5307ea46" category="list-text">나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.</block>
-  <block id="0b62e9153cdcecb79f7e53c87ce67330" category="image-alt">drw 자동 검색 제어자 선택</block>
   <block id="098bbae74bb948e3ff3baff0a28b2546" category="list-text">파일 탐색기를 엽니다.</block>
   <block id="423ba51655c4d8cf97fea5498fc8182b" category="list-text">왼쪽 창에서 * 네트워크 * 를 클릭합니다.</block>
   <block id="52cc73fca17e9ee46a84b54fe8d9c8f2" category="list-text">마우스 오른쪽 버튼을 클릭하고 * 새로 고침 * 을 선택합니다.</block>
@@ -1685,8 +1683,6 @@
   <block id="1001f289121bc2aaf60e874b29a86ac9" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우 시스템 설치 및 구성 완료</block>
   <block id="cc96661e257df64a25ec11990688e801" category="paragraph">시스템이 부팅을 시작합니다. 초기 부팅에는 최대 8분이 소요될 수 있습니다</block>
   <block id="ea68fc4bd3124625f5669e18cc6321be" category="list-text">다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.</block>
-  <block id="dd91aaae84d7888dedec54ca2a506f0b" category="list-text">왼쪽 창에서 네트워크를 클릭합니다.</block>
-  <block id="45ee8c440f001b54eda6e16b8de7a56f" category="list-text">마우스 오른쪽 버튼을 클릭하고 새로 고침을 선택합니다.</block>
   <block id="b0312e5410d679be9e7767f60affd0f9" category="list-text">System Manager의 안내에 따라 setup을 사용하여 _NetApp ONTAP 구성 가이드_에서 수집한 데이터를 사용하여 시스템을 구성하십시오.</block>
   <block id="a0088be4d3f107601d8dc70168cc815e" category="paragraph"><block ref="a0088be4d3f107601d8dc70168cc815e" category="inline-link-rx"></block></block>
   <block id="9e22e123b14b1f7e6da8d2bfe46c63a7" category="section-title">옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성 완료</block>
@@ -2750,7 +2746,6 @@
   <block id="13f3f5d40904a4c5b68e6c877e0c9bbd" category="paragraph">AFF A800 시스템을 설치하려면 계정을 생성하고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="6c2f5875cec2a33db9d2ba4133823107" category="paragraph">100GbE 케이블</block>
   <block id="b772890c716d468c4b26510d897c0276" category="paragraph">HA 인터커넥트</block>
-  <block id="3d8315ff7403b2d22ef55f5c6720369f" category="paragraph">X66211A-05(112-00595), 0.5m,</block>
   <block id="a3ad201a1a037cefc3f3acc547d02b93" category="paragraph">X66211-1(112-00573), 1m</block>
   <block id="b5aa834207857f1041aac5cca3b2acbd" category="paragraph">X66211-2(112-00574), 2m,</block>
   <block id="9a42137a0fecde479c706410dfb4fc68" category="paragraph">X66211-5(112-00576), 5m</block>
@@ -5016,7 +5011,6 @@
   <block id="537af5095a4992ae7e9026bd3ff008a6" category="list-text">정상 노드는 정상 노드입니다.</block>
   <block id="c704a060606b2944e3c331124aaaa743" category="doc">세부 단계 - FAS9500</block>
   <block id="9a7819d4ddc611b1438c0a7f4633f619" category="image-alt">OIE 케이블 미니 SAS HD - 미니 SAS HD</block>
-  <block id="c08fd160f4570df01d3a40efa2524ce7" category="image-alt">OIE 케이블 전원</block>
   <block id="fd2cb99acafb4f0144bfb5e0e4c31373" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.</block>
   <block id="3bdc20d60c6095f8c752a75e72777feb" category="doc">시스템 회수 - FAS9500</block>
   <block id="580fe6e7e310b3db810754c7c7927744" category="list-text">replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
@@ -5035,9 +5029,7 @@
   <block id="837fcf17f123dccb1301f252ade8a58e" category="admonition">시스템이 2노드 MetroCluster 구성인 경우, 다음 단계에 설명된 대로 애그리게이트를 다시 전환해야 합니다.</block>
   <block id="abc219c929a34cf7b62e36c2503b63ac" category="video-title">애니메이션 - 컨트롤러 모듈을 제거합니다</block>
   <block id="0b3bd9d9290b20b7deabeee68dbd8982" category="image-alt">drw 9500 PCM 소스를 제거합니다</block>
-  <block id="0c95144374a371b7d780cf2dda8caa68" category="image-alt">drw 9500 PCM 오픈 소스</block>
   <block id="0b8e9f368ea269ec23c6c676a7561e53" category="video-title">애니메이션 - 부팅 미디어를 교체합니다</block>
-  <block id="3937ac537a8c89789d0e3e5e505a0afb" category="image-alt">drw 9500 부트 개발 소스를 제거합니다</block>
   <block id="defa99ee750d2ca6a8f52cf79e8eb713" category="list-text">bootarg.init.boot_clustered</block>
   <block id="d18fd3db938a26ebbd3f74de41f0b73f" category="list-text">파트너 - sysid</block>
   <block id="bac349cdf99ddd20206c9b20eb9e6d22" category="list-text">AFF의 경우 bootarg.init.flash_optimized</block>
@@ -5460,7 +5452,6 @@
   <block id="e90d1c109a9cd8d68a357882d5cf925c" category="list-text">시스템 설정을 완료하려면 을 참조하십시오 <block ref="84c1e7f35fa076545c5f4c4417de33e1" category="inline-xref-macro-rx"></block></block>
   <block id="d12db64c0cb5cb862afbde49d98d6f25" category="inline-link-macro">교체 프로세스를 완료합니다</block>
   <block id="e739fb18db4795dd1e2cea8f3c5244c3" category="list-text">로 이동합니다 <block ref="56c57196a2457d200e49164377b65ba5" category="inline-link-macro-rx"></block>.</block>
-  <block id="54c5909d12d5c473924ce9b2c856a68d" category="image-alt">drw A400 NVDIMM batt IEOPS 1004</block>
   <block id="85445cdcf89edd32e9cf4cb8554898a3" category="image-alt">drw A400 NVDIMM IEOPS 1009 교체</block>
   <block id="0ea0d47e034118a7f063c35eaf67ebd2" category="list-text">스토리지 암호화가 활성화된 경우 기능을 복원해야 합니다.</block>
   <block id="34dbbed571bcfe30f4b9897172116b74" category="list-text">저장 장치에 케이블을 연결하려면 를 참조하십시오 <block ref="4261ea2b75c295a1978f7924667f1c11" category="inline-xref-macro-rx"></block></block>
@@ -6108,8 +6099,6 @@
   <block id="206f40d3d3a553b715b00b4ada962595" category="image-alt">2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695</block>
   <block id="ac250ab529052385767cc5abd9d02efe" category="paragraph">컨트롤러 모듈 덮개 분리 단추</block>
   <block id="02196554e362859bf13fdb8c354bd53c" category="paragraph">메자닌 카드 아래에 있는 컨트롤러 모듈에서 부팅 미디어를 찾고 지침에 따라 교체합니다.</block>
-  <block id="b269a4583845b75a99e2494b866181d5" category="inline-image-macro">폭 = 500</block>
-  <block id="ab18556462377223339c421c568ab231" category="paragraph"><block ref="ab18556462377223339c421c568ab231" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6b6e58fb741960f0300c7783438276a5" category="paragraph">부트 미디어 잠금 탭</block>
   <block id="fa8b2d8b91c1c89065d3652288dbddc1" category="list-text">다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 메자닌 카드를 분리합니다.</block>
   <block id="d62aede9e33b9cbeca49d6fcc6de78c2" category="list-text">메자닌 카드의 손잡이 나사를 풉니다.</block>
@@ -6282,7 +6271,6 @@
   <block id="9e4563e9b028264514409ab230a5da42" category="paragraph">X66240A-05, .5m</block>
   <block id="0aeb49c9fa6e4bb6f0e2ba133818122d" category="paragraph">X66240-2, 2m</block>
   <block id="f6f5073d92449b0a0e2bd3034fc1ecea" category="paragraph">X66240A-5, 5m</block>
-  <block id="dea505bfaa4f0d732b7c8f5f9938f6be" category="image-alt">OIE 케이블 25Gb 이더넷 SFP28 IEOPS 1069</block>
   <block id="cd438f3250a6932c30ca2344ae39b00e" category="paragraph">32Gb 파이버 채널,
 SFP+(타겟/이니시에이터)</block>
   <block id="2c4afc06b1fdae4cd99b305968ffe5d2" category="paragraph">X66250-2, 2m</block>
@@ -6297,7 +6285,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7176bca53e61f926de4367eb107ce7c8" category="paragraph">USB-C 콘솔 케이블</block>
   <block id="34dc50315428bf6e6940b722c6a21ee9" category="paragraph">옵션 FC 케이블</block>
   <block id="01b24af9f8a6b3efddd64ee9ab57a42e" category="paragraph">추가 FC 네트워크 케이블</block>
-  <block id="3157ab12e29c7ae731c3bbc36443b23f" category="image-alt">OIE fas2800 무게 주의 IEOPS 1070</block>
   <block id="9646d1820777de5269873d2317186ecb" category="paragraph">관리 네트워크 스위치</block>
   <block id="e80abcbf02cd3bed5561a16253c1dea0" category="paragraph">호스트 네트워크 스위치</block>
   <block id="3b9d43c8f889d04a7e7e50ecc887f626" category="paragraph">스위치가 없는 2노드 클러스터용 네트워크 연결과 클러스터 인터커넥트 포트에 케이블을 연결합니다.</block>
@@ -6305,11 +6292,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="43f3f164715da7f3368f26b28f4ef36f" category="video-title">애니메이션 - 스위치가 없는 2노드 클러스터 케이블 연결</block>
   <block id="00cdc1c050c54120647c95f8ac43e946" category="list-text">클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0a~e0a 및 e0b~e0b에 케이블 연결:</block>
   <block id="64d64c32d62f821e30eb2ef5d4583099" category="paragraph">* 클러스터 인터커넥트 케이블 *</block>
-  <block id="0d31c2b61f0790381bf124be78a40d97" category="image-alt">drw 2800 tnsc 클러스터 케이블 연결 IEOPS 892</block>
   <block id="329a1da79dbbba5ea7dea23acd21eb44" category="paragraph">RJ45 케이블 *</block>
-  <block id="71148769b55621d50b01310cdb17af44" category="image-alt">drw 2800 관리 연결 IEOPS 1077</block>
   <block id="69dc61becc19938a9333356069afeddb" category="list-text">메자닌 카드 포트를 호스트 네트워크에 케이블로 연결합니다.</block>
-  <block id="a773f522f61f6a463095f90a0f74a848" category="image-alt">drw 2800 네트워크 케이블 IEOPS 894</block>
   <block id="1d249cc4581bfebd1ac174f1d758e2de" category="list-text">4포트 이더넷 데이터 네트워크가 있는 경우 이더넷 데이터 네트워크에 E1A-e1d를 연결합니다.</block>
   <block id="1cc0b86b94e25e4841fd242fdbd850e8" category="list-text">4포트, 10/25Gb 이더넷, SFP28</block>
   <block id="213b283921a16f109ab5a42efd1afde7" category="list-text">4포트, 10GBASE-T, RJ45</block>
@@ -6325,18 +6309,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6ac0c621e44f0d6d3cfb9a6035ba969b" category="list-text">IOM A의 포트 1을 IOM A의 포트 3으로 바로 아래에 있는 쉘프의 IOM A에서 포트 3으로 연결합니다.</block>
   <block id="a2a4a3ef1017cf43a3cf109d61286633" category="list-text">IOM B의 포트 1을 IOM B의 포트 3으로 바로 아래에 있는 쉘프의 IOM B에서 포트 3으로 연결합니다.</block>
   <block id="9f8e1f093714df2b4e4cea2483986e1f" category="paragraph">미니 SAS HD - 미니 SAS HD 케이블 *</block>
-  <block id="202f3ec29ba7fc0c62960a60ae2f794f" category="image-alt">DRW 2800 선반과 셸프 간 케이블 연결 IEOPS 895</block>
-  <block id="b1905c91f00e1e7ad75a290938d0c0ae" category="list-text">컨트롤러 A를 드라이브 쉘프에 연결합니다.</block>
-  <block id="7414b28752291f5ed73122cbbe85acd3" category="list-text">컨트롤러 A 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM B 포트 1로 연결합니다.</block>
-  <block id="d490aaf97e1fdf82eb244edca242e5f7" category="list-text">컨트롤러 A 포트 0b1에서 IOM A로 스택 마지막 드라이브 쉘프의 포트 3으로 연결합니다.</block>
-  <block id="0d5514b466e4b55a41f3994d3034c96f" category="image-alt">DWR 2800 컨트롤러 - 쉘프 IEOPS 896</block>
-  <block id="575f5a968bfa57f9d0a99b09b5f73ff2" category="list-text">컨트롤러 B를 드라이브 쉘프에 연결합니다.</block>
-  <block id="49fefb8508936cb5a0f672b0146c0013" category="list-text">컨트롤러 B 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM A 포트 1로 연결합니다.</block>
-  <block id="0cbd55a3e4a33973ae5e025f7565fe75" category="list-text">컨트롤러 B 포트 0b1을 스택의 마지막 드라이브 쉘프에 있는 IOM B 포트 3으로 연결합니다.</block>
-  <block id="8f61138caddaadc30f99b723e123cf22" category="image-alt">DWR 2800 컨트롤러 2 - 쉘프 IEOPS 897</block>
-  <block id="17eddeb5ca42d640ce98ba7b90523804" category="image-alt">DWR 2800은 IEOPS 898의 전원을 켭니다</block>
   <block id="5725fc4af65adef1b57d4b7c9a365287" category="paragraph">랩톱에서 네트워크 검색이 활성화되지 않은 경우 수동으로 구성 및 설정을 완료합니다.</block>
-  <block id="6f196fc99c938b047a2dbbae60694da9" category="image-alt">컨트롤러 IEOPS 1084로 전환하기 위한 drw 2800 노트북</block>
   <block id="041e48089a1444bcdc82526d41790e40" category="paragraph">시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈 덮개를 분리합니다.</block>
   <block id="8caaa86fafbf22c9627e97fb31c1eea5" category="paragraph">컨트롤러 내에서 DIMM을 찾아 분리한 다음 다시 장착합니다.</block>
   <block id="95da017c37970d073ec39c2d3a5f57a0" category="admonition">DIMM을 교체하기 전에 컨트롤러 모듈에서 NVMEM 배터리를 분리해야 합니다.</block>
@@ -7072,7 +7045,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c4d97f649f8fd0bc0d2842c98374b325" category="summary">설치 및 설정 동영상은 새 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다.</block>
   <block id="728c8b35a059c5debd8717ebc5eef9cc" category="doc">비디오 단계 - ASA A250</block>
   <block id="da8c100a35e67a4a9a03589f6afa9ddc" category="doc">비디오 단계 - FAS500f</block>
-  <block id="0a5ad698c7446792fa1695e8ef9001ee" category="image-alt">DRW 2800 스위치 클러스터 케이블 연결 IEOPS 893</block>
   <block id="92217d103cec461ace2aded92b4f42ab" category="doc">결함이 있는 부품을 NetApp-ASA C400으로 반환합니다</block>
   <block id="f4b7b756855e1111bd19648537226e16" category="doc">ASA C400 하드웨어를 유지 관리합니다</block>
   <block id="f85c225eac9932f77dacb6e6236f7ce2" category="paragraph">ASA C400 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
@@ -7268,7 +7240,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="70cdb4752e56964c8e382c73c4dad5a3" category="list-text">에서 시스템을 등록합니다<block ref="609ce97692648785b01245072a80d78d" category="inline-link-rx"></block>.</block>
   <block id="6ef8afe0d08cfff8d7c63feeb46c3bbe" category="inline-link">NetApp ONTAP 리소스</block>
   <block id="1e030dc8ef51cc0c3b7cfdf5b1fb31ef" category="list-text">초기 구성을 완료한 후 로 이동합니다<block ref="0d9c07b12aa4e6262cc31099f94c22ac" category="inline-link-rx"></block> 페이지에서 ONTAP의 추가 기능 구성에 대한 정보를 얻을 수 있습니다.</block>
-  <block id="c1abdda48959ad5305acdea9199b4083" category="list-text">콘솔 케이블을 랩톱이나 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음 c 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
   <block id="ea6092d42464dfafd164efeca17f02cc" category="list-text">에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <block ref="d0fb50e606c7cb2fa74e99fa5a3520a8" category="inline-xref-macro-rx"></block>...</block>
   <block id="6a1952da65ff3ad3728cd89ec078bfa2" category="paragraph">이 절차에서는 AFF C250 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
   <block id="3e9ec063809ed35fdf77c6c261c6e205" category="paragraph">빠른 설명서는 랙 설치 및 케이블 연결에서 초기 시스템 불러오기에 이르기까지 일반적인 시스템 설치에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 콘텐츠를 사용합니다.</block>
@@ -7485,17 +7456,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="381f37fd0c6301b4adcfedecc4eda925" category="image-alt">4인 리프트 주의</block>
   <block id="3a0eeccdd4e521f45365f2b428095f2d" category="image-alt">케이블 관리 장치 연결</block>
   <block id="5ef048ab759bf73977c35349ec483eab" category="inline-image-macro">HA 쌍 케이블링</block>
-  <block id="2b1368b4381f3629e96800ab48579d68" category="list-text">e1b에서 e1b까지
-<block ref="aa46ce125e154e60d93093e92fe06f34" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4fae04c8c73682a0f5aee781b4ba55e0" category="list-text">E1A ~ E1A
-<block ref="ce168455f06d894620cf25f3ad7f95ae" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2d5ce426423eeeead4f35769cd8b1b27" category="inline-image-macro">3단계</block>
   <block id="75f728010e80f6e306c8d0419ab6e02f" category="inline-image-macro">주의 기호</block>
   <block id="a64c1d9519895ea9b4d05af7302a3f5d" category="paragraph"><block ref="a64c1d9519895ea9b4d05af7302a3f5d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a9640555fa5bc248b1730cc507ea1862" category="paragraph">클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
-** e0a
-** E1A
-<block ref="03c334f1a71e7086b1987bb740b5b995" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fae734ae73d4d9ca0d2c390bc2bb7c39" category="inline-image-macro">Fibre Channel 호스트 네트워크 케이블 연결</block>
   <block id="b2d4d0d6d18aadc5250160804ec5f72c" category="paragraph">포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.<block ref="f7469edef6c72cc42131f9dced4b36a4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e69c5c6214fe233e92d0ac376a7db30a" category="paragraph">케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.<block ref="54eadf4427f8838bf31ee4b6c63b48ac" category="inline-image-macro-rx" type="image"></block></block>
@@ -8512,7 +8475,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="eeadc1e47c5ada05336cc4a2430aff44" category="paragraph">컨트롤러 A를 쉘프에 케이블 연결: <block ref="d1f96be8e1b1f281d39fbb850bfff8ae" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2f7272edef7a7fba4085ccfab3dcab29" category="inline-image-macro">컨트롤러 b에 케이블 테오 선반</block>
   <block id="5068cb73707de732551109a3000233a5" category="paragraph">컨트롤러 B를 쉘프에 케이블 연결: <block ref="a2de9db71ec552fd6bcd09e536f53289" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3efca07728c425a2d570687f9c5ee055" category="list-text">파일 탐색기를 엽니다.</block>
   <block id="060661d6632055dffb9c643daef86e4f" category="image-alt">랩톱을 관리 서브넷 스위치에 케이블 연결합니다</block>
   <block id="cf3f3f0fc4be4a45a82eb23742f77b44" category="image-alt">NV 배터리를 교체합니다</block>
   <block id="8dd9b5acff09c1cf11545aba64dc805d" category="image-alt">NVDIMM을 교체합니다</block>
@@ -9186,7 +9148,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f7305488b29b60c60ef013880d0f02ad" category="paragraph"><block ref="f7305488b29b60c60ef013880d0f02ad" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a18694bfa10dd9b027282521693676b2" category="paragraph"><block ref="a18694bfa10dd9b027282521693676b2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="479d87b89f643c48150efb707fc18d0f" category="paragraph"><block ref="479d87b89f643c48150efb707fc18d0f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f62c6097f594e20eff16caf60adf9108" category="paragraph"><block ref="f62c6097f594e20eff16caf60adf9108" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a367e21663d7d88be766a2410f65c492" category="paragraph"><block ref="a367e21663d7d88be766a2410f65c492" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0efe74a0894d83f88156519939a5c6c8" category="image-alt">전원</block>
   <block id="8123303767547374b75236612d61eaea" category="paragraph"><block ref="8123303767547374b75236612d61eaea" category="inline-image-macro-rx" type="image"></block></block>
@@ -9236,7 +9197,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8188063ba0cf302b151076be57ced81f" category="image-alt">쉘프 케이블 2개</block>
   <block id="d30d07697739e058466e9449e759a88c" category="paragraph"><block ref="d30d07697739e058466e9449e759a88c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="caf1bb6cd794cb2234ad5594cd599806" category="image-alt">노트북과 스위치 연결</block>
-  <block id="cdde7ae0e94e375bc190503128bce1fc" category="image-alt">자동 검색</block>
   <block id="4dbdeeec8c8a1db8c3051377a336528c" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="4756441374eb951a9eff4e8462cce863" category="inline-link-macro-rx"></block></block>
   <block id="295e63d74f4c0ccd864527db0492eb45" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="743c3bfe574d2216cecf6275411cf3b1" category="inline-link-macro-rx"></block></block>
   <block id="b45a109e4d0580107e262e3038f944ca" category="paragraph"><block ref="b45a109e4d0580107e262e3038f944ca" category="inline-image-macro-rx" type="image"></block></block>
@@ -9505,7 +9465,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7ca88951bb06ba87dc8ba0b64e33c507" category="list-text">명령을 사용하여 현재 시간을 GMT로<block ref="0ad4ade5bf715a5335525c69a44424c1" prefix=" " category="inline-code"></block> 설정합니다. 파트너 노드에서 'date-u' 명령을 사용하여 현재 GMT를 가져올 수 있습니다.</block>
   <block id="cdce55e02d4cb663168a3f407165ecce" category="list-text">NV LED가 꺼져 있는 경우 다음 단계로 이동합니다.</block>
   <block id="3e206922895508e63afff7ed9697807f" category="list-text">NV LED가 깜박이는 경우 깜박임이 멈출 때까지 기다립니다. 깜박임이 5분 이상 지속될 경우 기술 지원 부서에 문의하십시오.</block>
-  <block id="224597833baafb79ff1d8b9ef9e0bff7" category="paragraph">활성화된 경우 암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.</block>
   <block id="151adffc209b320ba53a9853aae1eabe" category="open-title">암호화 없음</block>
   <block id="a2f6973fda0857d7d2ce0472981331ed" category="list-text">Loader 프롬프트에서 를 입력합니다<block ref="ce54ef17bebf280339d340bd40dff593" prefix=" " category="inline-code"></block>.</block>
   <block id="dab3afc1f6c32cd488de89f6f35ab456" category="list-text">콘솔 메시지가 중지되면 &lt;enter&gt; 키를 누릅니다.</block>
@@ -10201,7 +10160,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4e38ca25783f7173a88cdcafcbc8fcf1" category="doc">AFF A20, AFF A30 및 AFF A50과 같은 하드웨어 케이블을 연결합니다</block>
   <block id="c0b72cc8650fc5a7e5f5cf9c191a5b7c" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다.</block>
   <block id="b3a1e3cfc607694cb423d46b8b23fa54" category="paragraph">스토리지 시스템을 네트워크 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.</block>
-  <block id="f37876f75af8e8f5192b039199defe16" category="list-text">클러스터/HA 및 호스트 네트워크 케이블 연결 절차는 일반적인 구성을 보여줍니다. 특정 케이블 연결은 스토리지 시스템에 대해 주문된 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="28c4b42113d6ebd3c5e6ca40929d04a6" category="list-text">케이블 연결 그래픽에는 포트에 커넥터를 삽입할 때 케이블 커넥터 당김 탭의 올바른 방향(위 또는 아래)을 나타내는 화살표 아이콘이 있습니다.</block>
   <block id="c486d43df45ffe41cde84a1b0fa45aa0" category="paragraph"><block ref="c486d43df45ffe41cde84a1b0fa45aa0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e3eb777419d46f8ec20ca944795a4d26" category="list-text">광 스위치에 케이블로 연결하는 경우 광 트랜시버를 컨트롤러 포트에 삽입한 후 스위치 포트에 연결합니다.</block>
@@ -10331,7 +10289,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="aac515bc7c0fef6db4d96f41deee5fd1" category="doc">AFF C30 및 AFF C60와 같은 컨트롤러를 종료합니다</block>
   <block id="63e13473c1728f519626b3fe2d9025a1" category="doc">섀시 교체 워크플로우 - AFF C30 및 AFF C60</block>
   <block id="48bcab49f13e58a7dda016546607124d" category="doc">컨트롤러(AFF C30 및 AFF C60)를 교체합니다</block>
-  <block id="27a8d5c594dd7466b19bfce476d8655f" category="doc">재케이블을 사용하여 컨트롤러에 -AFF C30 및 AFF C60를 제공합니다</block>
   <block id="985e3f4c0c5e5154a781b3845a345cdf" category="doc">전체 컨트롤러 교체 - AFF C30 및 AFF C60</block>
   <block id="7198cc5bade7b4a7512214ef6d139fb9" category="doc">손상된 컨트롤러를 종료합니다(AFF C30 및 AFF C60)</block>
   <block id="1bd446701023b8913ca9b526c3e92f2e" category="doc">시스템 구성(AFF C30 및 AFF C60)을 복원하고 확인합니다</block>
@@ -10365,7 +10322,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="90a513766fed06a1c7ddad5bc9b658b0" category="doc">부팅 미디어를 교체합니다. - AFF C80</block>
   <block id="157ac321bdd43ec0c575181166c8b935" category="doc">전체 섀시 교체 - AFF C80</block>
   <block id="f7366f893dcc8238229a1e5377b17a3b" category="doc">섀시를 교체합니다. - AFF C80</block>
-  <block id="ab855d4ae0d2ee27daa0f6dffb2837b4" category="doc">케이블을 재장착하고 컨트롤러 - AFF C80을 반환하십시오</block>
   <block id="8def3d76b77de6e3dbb32ae5e959e725" category="doc">전체 컨트롤러 교체 - AFF C80</block>
   <block id="2fff840bbe3ee1ad4cc2f3efd810b44b" category="doc">손상된 컨트롤러를 종료합니다. - AFF C80을 종료합니다</block>
   <block id="5c26fa22febe5fde9e598be8ee312d12" category="doc">시스템 구성 - AFF C80을 복원하고 확인합니다</block>
@@ -10628,7 +10584,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f376855bc2e70ede2a3302568f196ac3" category="sidebar">AFF C30 및 AFF C60 유지 보수</block>
   <block id="60e1f7550be0949bf7734cc91fda2356" category="sidebar">AFF C30 및 AFF C60 섀시</block>
   <block id="045c113b9d1cea61a74dc657da45639a" category="sidebar">AFF C30 및 AFF C60 컨트롤러 모듈</block>
-  <block id="26916af0dde7f17e1c0020bc61152522" category="sidebar">재배열 및 컨트롤러 반환</block>
   <block id="f22a96549ddb43b0980ceea8499ceba7" category="sidebar">AFF C80 시스템</block>
   <block id="af39c2d08f5bb60a56a2c3273eb31df0" category="sidebar">C80 설치 및 설정</block>
   <block id="68bf1f26144175dee40f3509aa1cb595" category="sidebar">C80 유지 보수</block>
@@ -11376,7 +11331,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="35ac4e474d14cd3235380c2e767e83a3" category="paragraph">비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 FAS70 또는 FAS90 시스템의 NVRAM를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, NVRAM 모듈 또는 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="a7188c3f4745ef552e2d05d7b35f5f28" category="summary">FAS70 또는 FAS90 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 합니다.</block>
   <block id="2ffef1288a7f6acf62a54035268660b1" category="summary">FAS70 또는 FAS90 시스템에 결함이 있거나 펌웨어가 손상된 경우 시스템 관리 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 장애가 발생한 시스템 관리 모듈 교체, 컨트롤러 재부팅, 라이센스 키 업데이트, 실패한 부품 NetApp 반환 등이 포함됩니다.</block>
-  <block id="61a20642d1e9cad056e372d8196160b8" category="paragraph">+ USB 플래시 드라이브에는 EFI 폴더와 손상된 컨트롤러가 실행 중인 것과 동일한 BIOS(서비스 이미지) 버전이 있어야 합니다.</block>
   <block id="5058f1af8388633f609cadb75a75dc9d" category="paragraph">.</block>
   <block id="83755d1a8b686dba4bc8143c0cb7f397" category="doc">부팅 미디어 교체 워크플로우 - AFF A1K</block>
   <block id="25602a3f0e04b149a4c958bcec65c371" category="summary">AFF A1K 시스템의 부팅 매체에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 시스템 관리 모듈 분리, 손상된 부팅 미디어 제거, 교체 부팅 미디어 설치, ONTAP 이미지 전송 등이 포함됩니다.</block>
@@ -11647,8 +11601,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="23ec6e18dffbef0189449646f5931878" category="image-alt">100 GbE 구리 커넥터</block>
   <block id="483f1570f8eb0f7bf748ec2f83a68cba" category="paragraph">* 미니 SAS 케이블 *</block>
   <block id="9f4af5ab487f7477da2dd13bdd9a635c" category="paragraph">그래픽을 사용하여 스택 2의 드라이브 쉘프를 서로 연결합니다.</block>
-  <block id="5314841cf1990f9c696f41eaf702eb4f" category="image-alt">drw autodiscovery controller ieops 1849를 선택합니다</block>
-  <block id="4c871f3eceeb63ae32259cd45a0be767" category="list-text">왼쪽 창에서 네트워크 를 클릭하고 마우스 오른쪽 단추를 클릭한 다음 새로 고침 을 선택합니다.</block>
   <block id="08308f65214c45c04131a1ad77f35101" category="list-text">스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
   <block id="6c9f2761d7d74eb3a979daf442af39b5" category="paragraph">스토리지 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 제대로 작동하지 않는 경우 이 절차를 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
   <block id="452dbbce25fd2a411a98a68c759a30a7" category="paragraph">HA-state 값은 _ha_여야 합니다. HA 상태 값은 다음 중 하나일 수 있습니다.***_ha_***_MCC_(ASA에서 지원되지 않음)</block>
@@ -11912,4 +11864,63 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3f6b8f5ed334d33d55220057f3840983" category="paragraph"><block ref="3f6b8f5ed334d33d55220057f3840983" category="inline-link-macro-rx"></block></block>
   <block id="13ac941ecf968dc28151bce5851fd7a9" category="paragraph"><block ref="13ac941ecf968dc28151bce5851fd7a9" category="inline-link-macro-rx"></block></block>
   <block id="f9314d663ff89799d6d255ab7e3ca079" category="paragraph"><block ref="f9314d663ff89799d6d255ab7e3ca079" category="inline-link-macro-rx"></block></block>
+  <block id="83bff0d5c34d578fa839ac49404c9392" category="list-text">컨트롤러 모듈에서 I/O 케이블을 뽑습니다.</block>
+  <block id="d86f5a7ed8b3122487d6d2983a3d95f1" category="list-text">컨트롤러 모듈 I/O 케이블을 다시 연결합니다.</block>
+  <block id="db424e93139f05b40145c02ca1496dab" category="image-alt">NVDIMM 배터리를 교체합니다</block>
+  <block id="f01c12d2b181f3fa692e46f31483240d" category="list-text">캐비닛 또는 텔코 랙의 가이드 핀이 섀시 가이드 슬롯에 고정되었는지 확인합니다.</block>
+  <block id="0ce45b8799d32fa93b50aed5301e827b" category="list-text">스택의 마지막 드라이브 쉘프에 있는 컨트롤러 2 포트 0b에서 IOM B 포트 3으로 + <block ref="065babb6c425d208f17452adf684f6f8" category="inline-image-macro-rx" type="image"></block> 미니 SAS HD - 미니 SAS HD 케이블</block>
+  <block id="ce48b5f9c255c35e0431b311322885fc" category="list-text">클러스터/HA 및 호스트 네트워크 케이블 연결 절차는 일반적인 구성을 보여줍니다.</block>
+  <block id="11695514a878032b3fb5ecdf5e659b5b" category="paragraph">여기에 구성이 표시되지 않으면 를 방문하여 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>스토리지 시스템에 케이블을 연결하기 위한 포괄적인 구성 및 슬롯 우선 순위 정보를 확인하십시오.</block>
+  <block id="2e169c8e6f4cc1f6315545b46d7284a2" category="inline-image-macro">64Gb FC 케이블</block>
+  <block id="0bf370304560205688213d22ba637c07" category="paragraph"><block ref="0bf370304560205688213d22ba637c07" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="beb0d5517240a78e9a0d820d0cc72901" category="cell">대상... .2+</block>
+  <block id="41808d27e9d2aded3d4e7b4d381cd4f6" category="paragraph">X66240-2(112-00573), 2m.3+</block>
+  <block id="610784c65e00a7160be578b24e829e1f" category="inline-image-macro">컨트롤러 1 케이블 연결</block>
+  <block id="fb1a92a9f3466626feb9c8b39fc2f15a" category="paragraph"><block ref="fb1a92a9f3466626feb9c8b39fc2f15a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4aee1879aa42ff92e3eacf5873fbb5d4" category="inline-image-macro">컨트롤러 2 케이블 연결</block>
+  <block id="db57e3bdde1cc2a58f1093e55c91edd8" category="paragraph"><block ref="db57e3bdde1cc2a58f1093e55c91edd8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5a6e3a7ce135d06e87acea56094849bd" category="paragraph">X66211-2(112-00574), 2m</block>
+  <block id="445ce7c267c4207385a654bbf96a7cd2" category="inline-image-macro">10 GbE QSFP28 커넥터</block>
+  <block id="ff93dddb805cf284a90f50a9478044a8" category="paragraph"><block ref="ff93dddb805cf284a90f50a9478044a8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c61df210c55ff2f064cc13ece1afeb8" category="inline-image-macro">25 GbE QSFP28 커넥터</block>
+  <block id="33bad94543f43b5a86ed85b45f07fad9" category="paragraph"><block ref="33bad94543f43b5a86ed85b45f07fad9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eec89088ee408b80387155272b113256" category="list-text">네트워크</block>
+  <block id="b44c77c4bff9d030b38703307329190c" category="paragraph">전원 공급원에 PSU 연결</block>
+  <block id="5d1da2d235e27fc0bcc9ce897d690f1a" category="list-text">e1b ~ e1b</block>
+  <block id="aa46ce125e154e60d93093e92fe06f34" category="paragraph"><block ref="aa46ce125e154e60d93093e92fe06f34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dab4cb98bc90925ff554009f35b28013" category="list-text">e1a ~ e1a</block>
+  <block id="ce168455f06d894620cf25f3ad7f95ae" category="paragraph"><block ref="ce168455f06d894620cf25f3ad7f95ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d82509fd67d3344fdfc796875cbb5148" category="paragraph">클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.</block>
+  <block id="922c556baf6272bffc4fa28b2e9a0bbc" category="list-text">e0a를 참조하십시오</block>
+  <block id="9cb7b36b3f2bccc776862e6f2f494077" category="list-text">e1a를 참조하십시오</block>
+  <block id="03c334f1a71e7086b1987bb740b5b995" category="paragraph"><block ref="03c334f1a71e7086b1987bb740b5b995" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="149908e216dc72e0533f69ab126aad8f" category="doc">컨트롤러 - AFF C30 및 AFF C60을 돌려줍니다</block>
+  <block id="d577eb8153a8191824e900c199f4adb5" category="image-alt">2개의 100GbE IO 모듈을 사용하는 A30 및 A60 스위치가 없는 클러스터 케이블 연결 다이어그램</block>
+  <block id="b36b92a50cc219291b67a5511975b913" category="image-alt">하나의 100GbE IO 모듈을 사용하는 A30 및 A60 스위치가 없는 클러스터 케이블 연결 다이어그램</block>
+  <block id="ccea46e36f76a430c118e619834cee72" category="image-alt">2개의 100GbE IO 모듈을 사용하는 A30 및 A60 스위치 클러스터 케이블 다이어그램</block>
+  <block id="526ef9ab51ab95d97249aac6cc69c855" category="doc">컨트롤러 - AFF C80를 돌려줍니다</block>
+  <block id="f114d3932a75433b75f66fa15d3b0340" category="list-text">스택의 마지막 드라이브 쉘프에 있는 컨트롤러 2 포트 0b에서 IOM B 포트 3으로</block>
+  <block id="6ba9035799414ab848820232d6755ea3" category="paragraph">drw_autodiscovery_controller_select_ieops-1849.svg [ONTAP 아이콘 선택]</block>
+  <block id="ace672d02e91b22d0e293d6ce8c9ee77" category="image-alt">컨트롤러를 엽니다</block>
+  <block id="ecb9e090aec7cb8bd31f706750ce1760" category="paragraph"><block ref="ecb9e090aec7cb8bd31f706750ce1760" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9c332a8daf8a0021ec9153a974044b66" category="image-alt">25Gb 네트워크 케이블</block>
+  <block id="262904644a868ffbd1ee5c1fd87f7e1a" category="image-alt">미니 SAS-미니 SAS 케이블</block>
+  <block id="b68abce5afd4f011d69f546d6ca42bb0" category="image-alt">인양 주의 레이블</block>
+  <block id="952940d015e596e40662acd687844cc4" category="image-alt">2노드 클러스터 케이블링</block>
+  <block id="a1200bdfe199f9fa17797210969ba510" category="image-alt">관리 연결</block>
+  <block id="20822b3c185b92a79afd73ff588c5aca" category="image-alt">네트워크 연결</block>
+  <block id="610f4c607b42bf25cf6ef97ed4b0f226" category="image-alt">25Gb 이더넷 케이블</block>
+  <block id="d3a1b9f7d22d4b09db0b92c5183f1170" category="image-alt">25Gb 이더넷 커넥터</block>
+  <block id="ee151691d95fa34033bab458f921f308" category="image-alt">스위치 클러스터 연결</block>
+  <block id="422b19e9df415d67d88bd9b0fb3451d2" category="image-alt">관리 네트워크 연결</block>
+  <block id="fb8d77e1874a8ce16ad0e1d15408d8cd" category="image-alt">미니 SAS-미니 SAS 커넥터</block>
+  <block id="ead5f0e9b0fc157a5b141be2ccd44dbd" category="paragraph">+ 이미지::../media/drw_2800_shelf-to-shelf_cabling_IEOPS-895.svg [셸프-셸프 케이블 연결]</block>
+  <block id="b672b75ae62195a280bf8f67f6923701" category="paragraph">+. 컨트롤러 A를 드라이브 쉘프에 연결합니다. ... 컨트롤러 A 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM B 포트 1로 연결합니다. ... 컨트롤러 A 포트 0b1에서 IOM A로 스택 마지막 드라이브 쉘프의 포트 3으로 연결합니다.</block>
+  <block id="331c92c74ae2411dbfdce0b34bc0251f" category="paragraph">+ 이미지::../MEDIA/OIE_Cable_mini_SAS_HD_to_mini_SAS_HD.SVG [미니 SAS-미니 SAS 커넥터]</block>
+  <block id="2525bc76b22ae63a5087b660ed944490" category="paragraph">+ 이미지::../media/DWR-2800_Controller1 - shelf_IEOPS-896.svg[컨트롤러 A-셸프 연결]</block>
+  <block id="d93bc8a87f3c34f95017b69aa2590230" category="paragraph">+. 컨트롤러 B를 드라이브 쉘프에 연결합니다. ... 컨트롤러 B 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM A 포트 1로 연결합니다. ... 컨트롤러 B 포트 0b1을 스택의 마지막 드라이브 쉘프에 있는 IOM B 포트 3으로 연결합니다.</block>
+  <block id="05a6bd9e18c93cca4d9b550746dfd5d1" category="paragraph">+ 이미지::../media/DWR-2800_controller2 - shelf_IEOPS-897.svg[컨트롤러 B - 쉘프 연결]</block>
+  <block id="40bde7f2324ee2876dd8a09846b14ff4" category="image-alt">전원을 켭니다</block>
+  <block id="512bdc85c8065a0397ce7025381aaf66" category="image-alt">자동 검색 시스템</block>
+  <block id="397249170dcc18ae00c3a7885f97fdc1" category="list-text">콘솔 케이블을 랩톱 또는 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음, 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
 </blocks>

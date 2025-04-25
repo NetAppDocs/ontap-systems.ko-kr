@@ -27,7 +27,7 @@ entries:
       url: "/asa800/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/asa800/bootmedia-shutdown.html"
-    - title: 부팅 이미지를 교체합니다
+    - title: 부팅 미디어를 교체합니다
       url: "/asa800/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/asa800/bootmedia-recovery-image-boot.html"

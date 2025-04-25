@@ -92,6 +92,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈을 분리합니다]
 
 +
+[cols="1,4"]
 |===
 
 

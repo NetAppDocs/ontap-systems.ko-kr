@@ -214,7 +214,7 @@ image:../media/drw_a1k_2shelf_cabling_b_ieops-1706.svg["컨트롤러 B 포트 e1
 
 * 미니 SAS HD 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니 SAS HD 케이블]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[미니 SAS HD 케이블]
 
 .단계
 . 컨트롤러 A에서 다음 케이블을 연결합니다.

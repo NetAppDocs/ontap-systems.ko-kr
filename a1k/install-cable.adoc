@@ -54,7 +54,7 @@ NOTE: 클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리
 * 클러스터/HA 인터커넥트 케이블 *
 
 +
-image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[클러스터 HA 케이블]
+image::../media/oie_cable_25Gb_Ethernet_SFP28_ieops-1069.png[클러스터 HA 케이블]
 
 +
 image::../media/drw_a1k_tnsc_cluster_cabling_ieops-1648.svg[스위치가 없는 2노드 클러스터 케이블 연결 다이어그램]
@@ -100,7 +100,7 @@ NOTE: 클러스터 및 HA 트래픽에 시스템 성능을 극대화하려면 �
 * 100 GbE 케이블 *
 
 +
-image::../media/oie_cable_sfp_gbe_copper.svg[100Gb 이더넷 케이블]
+image::../media/oie_cable_sfp_gbe_copper.png[100Gb 이더넷 케이블]
 
 +
 image::../media/drw_a1k_network_cabling1_ieops-1649.svg[100Gb 이더넷 네트워크에 케이블 연결]
@@ -110,7 +110,7 @@ image::../media/drw_a1k_network_cabling1_ieops-1649.svg[100Gb 이더넷 네트�
 * 10/25GbE 호스트 *
 
 +
-image::../media/oie_cable_sfp_gbe_copper.svg[10/25GB 이더넷 케이블]
+image::../media/oie_cable_sfp_gbe_copper.png[10/25GB 이더넷 케이블]
 
 +
 image::../media/drw_a1k_network_cabling2_ieops-1650.svg[10/25GB 이더넷 네트워크에 케이블 연결]
@@ -123,9 +123,9 @@ image::../media/drw_a1k_network_cabling2_ieops-1650.svg[10/25GB 이더넷 네트
 
 1000BASE-T RJ-45 케이블을 사용하여 각 컨트롤러의 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
 
-image::../media/oie_cable_rj45.svg[RJ-45 케이블]
-
 * 1000BASE-T RJ-45 케이블 *
+
+image::../media/oie_cable_rj45.png[RJ-45 케이블]
 
 image::../media/drw_a1k_management_connection_ieops-1651.svg[관리 네트워크에 연결합니다]
 

@@ -27,32 +27,20 @@ ASA A70 또는 ASA A90 시스템이 정상 작동을 재개할 수 있도록 스
 ** _waiting for Giveback_이 표시되면 <enter> 키를 누르고 파트너 노드에 로그인한 후 이 섹션 끝에 있는 다음 단계로 이동합니다.
 
 
-. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
-+
-`storage failover giveback -ofnode _impaired_node_name_`..
-
-. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
-+
-`storage failover modify -node local -auto-giveback true`..
-
-. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
-+
-`system node autosupport invoke -node * -type all -message MAINT=END`..
-
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 --
-.OKM 암호화
+.온보드 암호화(OKM)
 --
 온보드 암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.
 
 .단계
-. Loader 프롬프트에서 다음을 입력합니다.
-+
-`boot_ontap maint`
-
+. Loader 프롬프트에서 를 입력합니다 `boot_ontap maint`.
 . Loader 프롬프트에서 ONTAP 메뉴로 부팅하고 `boot_ontap menu` 옵션 10을 선택합니다.
-. OKM 암호를 입력합니다. 이 암호를 고객으로부터 받거나 에 문의할 수 https://support.netapp.com["NetApp 지원"] 있습니다.
+. OKM 암호를 입력합니다.
 +
 
 NOTE: 암호를 묻는 메시지가 두 번 표시됩니다.
@@ -61,48 +49,36 @@ NOTE: 암호를 묻는 메시지가 두 번 표시됩니다.
 . 부팅 메뉴에서 일반 부팅에 대한 옵션을 입력합니다 `1`.
 . when_waiting for Giveback_이 표시되면 <enter> 키를 누릅니다.
 . 콘솔 케이블을 파트너 노드로 이동하고 로 `admin`로그인합니다.
-. CFO 애그리게이트(루트 애그리게이트)만 반환합니다.
+. CFO 애그리게이트(루트 애그리게이트)만 반환합니다. `storage failover giveback -fromnode local -only-cfo-aggregates _true_`
 +
-`storage failover giveback -fromnode local -only-cfo-aggregates true`
+** 오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
 
+
+. 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다 `storage failover show`. 및 `storage failover show-giveback`.
+. 동기화 및 키 상태 확인:
 +
-오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
-
-. 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다.
-+
-`storage failover show` `storage failover show-giveback` 및.
-
-. 콘솔 케이블을 교체 노드로 이동하고 다음을 입력합니다.
-+
-`security key-manager onboard sync`
-
+.. 콘솔 케이블을 다시 교체용 컨트롤러로 이동합니다.
+.. 누락된 키 동기화: `security key-manager onboard sync`
 +
 
 NOTE: 클러스터에 대한 OKM의 클러스터 전체 암호를 묻는 메시지가 표시됩니다.
 
-. 다음 명령을 사용하여 키의 상태를 확인합니다.
+.. 키의 상태를 확인합니다. `security key-manager key query -restored _false_`
 +
-`security key-manager key query -key-type svm-KEK`..
+제대로 동기화되면 출력에 결과가 표시되지 않습니다.
 
 +
-restored_column에 _true_를 제외한 내용이 표시되면 에 https://support.netapp.com["NetApp 지원"]문의하십시오.
+출력에 결과(시스템의 내부 키 테이블에 없는 키의 키 ID)가 표시되면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
 
-. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
-+
-`storage failover giveback -ofnode _impaired_node_name_`..
 
-. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
-+
-`storage failover modify -node local -auto-giveback true`..
 
-. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
-+
-`system node autosupport invoke -node * -type all -message MAINT=END`..
-
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 --
-.EKM 암호화
+.외부 키 관리자(EKM)
 --
 암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.
 
@@ -135,25 +111,17 @@ NOTE: 문제가 있는 경우 에 https://support.netapp.com["NetApp 지원"] �
 +
 ** 클라이언트 인증서(client.crt) 파일 내용
 ** 클라이언트 키(client.key) 파일 내용
-** KMIP 서버 CA(CA.pem) 파일 콘텐츠입니다.
-** KMIP 서버의 IP 주소입니다.
-** KMIP 서버의 포트입니다.
+** KMIP 서버 CA(CA.pem) 파일 콘텐츠입니다
+** KMIP 서버의 IP 주소입니다
+** KMIP 서버의 포트입니다
 
 
-. 시스템이 처리되면 부팅 메뉴가 표시됩니다. 정상 부팅의 경우 '1'을 선택하십시오.
-. 테이크오버 상태를 확인합니다.
-+
-`storage failover show`..
-
-. 손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다 `storage failover giveback -ofnode _impaired_node_name_`.
-. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
-+
-`storage failover modify -node local -auto-giveback true`..
-
-. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
-+
-`system node autosupport invoke -node * -type all -message MAINT=END`..
-
+. 시스템이 처리되면 Boot Menu(부팅 메뉴) 가 나타납니다. 정상 부팅의 경우 '1'을 선택하십시오.
+. 테이크오버 상태를 확인합니다. `storage failover show`
+. 고급 모드로 전환한 다음 `run local partner nosavecore` 복구된 노드의 코어 덤프가 저장되는지 확인합니다 `set -privilege advanced`.
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 --

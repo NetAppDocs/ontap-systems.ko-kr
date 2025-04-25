@@ -101,12 +101,15 @@ NOTE: 컨트롤러 모듈을 분리하는 데 어려움이 있는 경우, 검지
 image::../media/drw_a250_pcm_remove_install.png[래치 메커니즘 열기]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-| 레버 
+ a| 
+레버
+
 
 
  a| 
@@ -121,12 +124,15 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 image::../media/drw_a250_open_controller_module_cover.png[컨트롤러 모듈 덮개 열기]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-| 나비 나사 
+ a| 
+나비 나사
+
 
 
  a| 
@@ -156,12 +162,15 @@ NOTE: 표시된 지침을 순서대로 따르는 것이 좋습니다.
 image::../media/drw_a250_replace_nvmem_batt.png[NVMEM 배터리 제거]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-| 배터리 플러그 표면에 있는 클립을 누릅니다. 
+ a| 
+배터리 플러그 표면에 있는 클립을 누릅니다.
+
 
 
  a| 
@@ -205,12 +214,15 @@ image:../media/icon_round_4.png["설명선 번호 4"]
 image::../media/drw_a250_close_controller_module_cover.png[컨트롤러 모듈 덮개를 닫습니다]
 
 +
+[cols="1,4"]
 |===
 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-| 컨트롤러 모듈 덮개 
+ a| 
+컨트롤러 모듈 덮개
+
 
 
  a| 

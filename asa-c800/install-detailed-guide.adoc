@@ -55,7 +55,7 @@ image::../media/drw_ssn_label.png[시스템 일련 번호의 예]
 다음 표에서는 수신할 수 있는 케이블 유형을 보여 줍니다. 표에 나와 있지 않은 케이블을 받은 경우 를 참조하십시오 link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 케이블을 찾아 사용 여부를 확인합니다.
 
 +
-[cols="1,2,1,2"]
+[cols="1,2,2,2"]
 |===
 | 커넥터 유형 | 부품 번호 및 길이 | 케이블 유형... | 대상... 
 
@@ -64,28 +64,19 @@ image::../media/drw_ssn_label.png[시스템 일련 번호의 예]
 100GbE 케이블
  a| 
 X66211A-05(112-00595), 0.5m
- a| 
-image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP28 커넥터"]
- a| 
-HA 인터커넥트
-
-
-
- a| 
-X66211A-05(112-00595), 0.5m,
 
 X66211-1(112-00573), 1m
- a| 
-클러스터 인터커넥트 네트워크
 
-
-
- a| 
-X66211-2(112-00574), 2m,
+X66211-2(112-00574), 2m
 
 X66211-5(112-00576), 5m
  a| 
-스토리지, 데이터
+image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP28 커넥터"]
+ a| 
+** HA 인터커넥트
+** 클러스터 인터커넥트 네트워크
+** 스토리지, 데이터
+
 
 
 
@@ -96,7 +87,10 @@ X6566B-3-R6(112-00300), 3m,
 
 X6566B-5-R6(112-00301), 5m
  a| 
-데이터
+image:../media/oie_cable100_gbe_qsfp28.png["10 GbE QSFP28 커넥터"]
+ a| 
+** 데이터
+
 
 
 
@@ -107,7 +101,10 @@ X66240A-2(112-00598), 2m,
 
 X66240A-5(112-00600), 5m
  a| 
-데이터
+image:../media/oie_cable100_gbe_qsfp28.png["25 GbE QSFP28 커넥터"]
+ a| 
+** 데이터
+
 
 
 
@@ -118,7 +115,8 @@ RJ-45(주문에 따라 다름)
  a| 
 image:../media/oie_cable_rj45.png["RJ-45 케이블 커넥터"]
  a| 
-관리
+** 관리
+
 
 
 
@@ -135,6 +133,8 @@ X66250-30(112-00347) 30m
  a| 
 image:../media/oie_cable_fc_optical.png["OIE 파이버 채널 광 케이블"]
  a| 
+** 네트워크
+
 
 
 
@@ -145,7 +145,8 @@ image:../media/oie_cable_fc_optical.png["OIE 파이버 채널 광 케이블"]
  a| 
 image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
-소프트웨어 설정 중 콘솔 연결
+** 소프트웨어 설정 중 콘솔 연결
+
 
 
 
@@ -156,7 +157,7 @@ image:../media/oie_cable_micro_usb.png["마이크로 USB 커넥터"]
  a| 
 image:../media/oie_cable_power.png["전원 케이블"]
  a| 
-시스템 전원을 켭니다
+전원 공급원에 PSU 연결
 
 |===
 . 를 다운로드하고 완료합니다 link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002["클러스터 구성 워크시트"^].
@@ -233,9 +234,10 @@ image:../media/icon_square_1_dark_purple.png["설명선 번호 1"]
 HA 인터커넥트 포트에 케이블 연결:
 
 ** e0b ~ e0b
-** e1b에서 e1b까지
-image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
+** e1b ~ e1b
 
+
+image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
 
 
 
@@ -245,9 +247,10 @@ image:../media/icon_square_2_green.png["설명선 번호 2"]
 클러스터 인터커넥트 포트에 케이블 연결:
 
 ** e0a ~ e0a
-** E1A ~ E1A
-image:../media/drw_affa800_tnsc_clust_cabling.png["스위치가 없는 2노드 클러스터에서 클러스터 인터커넥트 케이블 연결"]
+** e1a ~ e1a
 
+
+image:../media/drw_affa800_tnsc_clust_cabling.png["스위치가 없는 2노드 클러스터에서 클러스터 인터커넥트 케이블 연결"]
 
 
 
@@ -308,9 +311,10 @@ image:../media/icon_square_1_dark_purple.png["설명선 번호 1"]
 HA 인터커넥트 포트에 케이블 연결:
 
 ** e0b ~ e0b
-** e1b에서 e1b까지
-image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
+** e1b ~ e1b
 
+
+image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
 
 
 
@@ -318,8 +322,11 @@ image:../media/drw_affa800_ha_pair_cabling.png["HA 쌍 케이블링"]
 image:../media/icon_square_2_green.png["설명선 번호 2"]
  a| 
 클러스터 인터커넥트 포트를 100GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.
-** e0a
-** E1A
+
+** e0a를 참조하십시오
+** e1a를 참조하십시오
+
+
 image:../media/drw_affa800_switched_clust_cabling.png["클러스터 인터커넥트 케이블 연결"]
 
 
@@ -547,12 +554,11 @@ image:../media/icon_square_2_yellow.png["설명선 번호 2"]
 video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.png[ONTAP 아이콘을 선택합니다]
+image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[ONTAP 아이콘을 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 * 네트워크 * 를 클릭합니다.
-.. 마우스 오른쪽 버튼을 클릭하고 * 새로 고침 * 을 선택합니다.
+.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 

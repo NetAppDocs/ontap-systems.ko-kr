@@ -39,6 +39,7 @@ video::ca74d345-e213-4390-a599-aae10019ec82[panopto]
 image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합니다]
 
 +
+[cols="1,3"]
 |===
 
 
@@ -84,6 +85,7 @@ video::e0825a97-c57d-47d7-b87d-aad9012efa12[panopto]
 image::../media/drw_A400_open-air-duct.png[에어 덕트 열기]
 
 +
+[cols="1,3"]
 |===
 
 
@@ -117,6 +119,7 @@ image::../media/icon_round_3.png[설명선 번호 3]
 image::../media/drw_A400_Replace-boot_media.png[부팅 미디어 제거]
 
 +
+[cols="1,3"]
 |===
 
 

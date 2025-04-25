@@ -591,12 +591,11 @@ image::../media/dwr_laptop_to_switch_only.svg[노트북과 스위치 연결]
 
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
-image::../media/drw_autodiscovery_controler_select.svg[자동 검색]
+image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[ONTAP 아이콘을 선택합니다]
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 네트워크를 클릭합니다.
-.. 마우스 오른쪽 버튼을 클릭하고 새로 고침을 선택합니다.
+.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 
