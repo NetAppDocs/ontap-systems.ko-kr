@@ -7996,20 +7996,17 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4367e3d6fa33a8e5340bcdfaf20e76b1" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 통해 두 번째 쉘프를 HA 쌍에 핫 추가할 수 있습니다.</block>
   <block id="bd7b27778a055163b7315acc047708fd" category="list-text">각 컨트롤러 모듈에서 RoCE 지원 포트 한 세트(RoCE 지원 I/O 모듈 1개)를 사용하여 쉘프 하나를 핫 추가할 때, HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
   <block id="7326450dfaf2d352b15c1dbb36a9010e" category="admonition">이 단계에서는 슬롯 11에 RoCE 지원 I/O 모듈을 설치했다고 가정합니다.</block>
-  <block id="f9ba636c0d9fc6353c91cac13fe6290c" category="image-alt">셸프 1개와 입출력 모듈 1개로 AFF A70 또는 A90의 케이블 연결</block>
   <block id="1d99994321fcf88aba221cbb6612805a" category="admonition">이 단계에서는 슬롯 11 및 8에 RoCE 지원 I/O 모듈을 설치했다고 가정합니다.</block>
   <block id="220b4e5517a1a5b99f0642ce282c3975" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 11 포트 A(e11a)에 케이블로 연결합니다.</block>
   <block id="635ff36fada70d6b9a46124ec04022cf" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 8 포트 b(e8b)에 연결합니다.</block>
   <block id="3adcb5d3f00489780b17f91dbcf4c8b6" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 11 포트 A(e11a)에 케이블로 연결합니다.</block>
   <block id="fed38315c77f3f617a7a61ed019eb467" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 8 포트 b(e8b)에 연결합니다.</block>
   <block id="8b2cc73a271f9ec9f419e138f66cb109" category="paragraph">다음 그림은 각 컨트롤러 모듈에서 RoCE 지원 I/O 모듈 2개를 사용하는 핫 애드 쉘프 1개의 케이블 연결을 보여줍니다.</block>
-  <block id="0fd5a3b540c1af5ae188f141b2f40c24" category="image-alt">1개의 셸프 및 2개의 IO 모듈로 AFF A70 또는 A90의 케이블 연결</block>
   <block id="efd179e747ea06abffaa97721b0cc372" category="list-text">NSM A 포트 e0a를 컨트롤러 A 슬롯 8 포트 A(e8a)에 케이블로 연결합니다.</block>
   <block id="9db08de14bb838886cf8eaaee8575093" category="list-text">NSM A 포트 e0b를 컨트롤러 B 슬롯 11 포트 b(e11b)에 연결합니다.</block>
   <block id="e227bb2c8482a8ac7a342596ddc812fe" category="list-text">NSM B 포트 e0a를 컨트롤러 B 슬롯 8 포트 A(e8a)에 케이블로 연결합니다.</block>
   <block id="6d4a579eaf72f5aec95723d499d76fe9" category="list-text">NSM B 포트 e0b를 컨트롤러 A 슬롯 11 포트 b(e11b)에 연결합니다.</block>
   <block id="ae14ce538d268aca5ec54fbb093b2156" category="paragraph">다음 그림은 각 컨트롤러 모듈에 있는 RoCE 지원 I/O 모듈 2개를 사용하여 2개의 핫 애드 쉘프용 케이블 연결을 보여줍니다.</block>
-  <block id="25862846eedff523b089999508c204b1" category="image-alt">2개의 쉘프와 2개의 IO 모듈로 AFF A70 또는 A90의 케이블 연결</block>
   <block id="14ac662b33a52d48f6573c07b50e5b8f" category="list-text">를 사용하여 핫 애드 쉘프가 올바르게 연결되었는지 확인합니다<block ref="7064c89577900622f24a070c24ebbaa7" category="inline-link-rx"></block>.</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
   <block id="8d39c366d0f2a2847eeab7a904800822" category="paragraph">이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다. 로 이동합니다. <block ref="27f0c709ab4d9ea809b0da6fd9c1c251" category="inline-link-macro-rx"></block></block>
@@ -8023,48 +8020,36 @@ SFP+(타겟/이니시에이터)</block>
   <block id="244addd6f2bc2e043852c2e18eeb5621" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 통해 HA 쌍에 세 번째 쉘프를 핫 추가합니다. (세 번째 및 네 번째 I/O 모듈을 설치했으며 세 번째 셸프를 세 번째 및 네 번째 I/O 모듈에 연결합니다.)</block>
   <block id="72cdf939e98d17baf87d0a5a64dfcea8" category="list-text">각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 통해 HA 쌍에 4번째 쉘프를 핫 추가합니다. (네 번째 I/O 모듈을 설치하고 세 번째 쉘프를 세 번째 및 네 번째 I/O 모듈에 다시 연결했거나 세 번째 쉘프를 세 번째 및 네 번째 I/O 모듈에 케이블로 연결했습니다. 네 번째 셸프는 세 번째 및 네 번째 입출력 모듈 모두에 케이블로 연결됩니다.)</block>
   <block id="b5fb112065a7304ad93afe5e3c7fa849" category="paragraph">다음 그림에서는 HA 쌍의 두 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 보여 줍니다.</block>
-  <block id="ea0cc2be4039f5636ca9de5e2c7a3940" category="image-alt">2개의 쉘프와 2개의 IO 모듈이 포함된 AFF A1K의 케이블 연결</block>
   <block id="7190ee5c0c8079e24da44f24c6b7abbc" category="list-text">핫 애드할 NS224 쉘프가 각 컨트롤러에 RoCE 지원 I/O 모듈 3개와 함께 HA 쌍의 세 번째 NS224 쉘프가 될 경우, 다음 하위 단계를 완료하십시오. 그렇지 않으면 다음 단계로 이동합니다.</block>
   <block id="67a32de8a36abcac3887051fb422a5f5" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 9 포트 A(e9a)에 케이블로 연결합니다.</block>
   <block id="b94b22c566c53666c9eb824858482f94" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 9 포트 b(e9b)에 연결합니다.</block>
   <block id="daa2e224b274ef312de5853c6cbffaf6" category="list-text">케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 9 포트 A(e9A)에 연결합니다.</block>
   <block id="3a8f2e391b6044dec7d6ef6c3e9dda69" category="list-text">컨트롤러 A 슬롯 9 포트 b(e9b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다.</block>
   <block id="6c6e97e4c29594c5856e13f4b1a8be0c" category="paragraph">다음 그림에서는 HA 쌍의 세 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 3개를 보여 줍니다.</block>
-  <block id="94213ae2609c82c94807004beab91de1" category="image-alt">3개의 쉘프와 3개의 IO 모듈이 포함된 AFF A1K의 케이블 연결</block>
   <block id="46e04d93b6d495a5235036857998eae9" category="list-text">핫 애드할 NS224 쉘프가 HA 쌍의 세 번째 NS224 쉘프가 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 함께 제공되는 경우, 다음 하위 단계를 완료하십시오. 그렇지 않으면 다음 단계로 이동합니다.</block>
   <block id="abb0dbc2abeae0d456ed2095b4c9ed12" category="list-text">케이블 쉘프 NSM A 포트 e0b를 컨트롤러 B 슬롯 8 포트 b(e8b)에 연결합니다.</block>
   <block id="8ff8aa3f78832bf6ceceeea539763fec" category="list-text">컨트롤러 A 슬롯 8 포트 b(e8b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다.</block>
   <block id="863764690b094c2d6a28b8edc2afba72" category="paragraph">다음 그림에서는 HA 쌍의 세 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 보여 줍니다.</block>
-  <block id="f9d0d9976d1ff7ee0097da8e1b7fb3c2" category="image-alt">3개의 셸프 및 4개의 IO 모듈로 AFF A1K의 케이블 연결</block>
   <block id="3bd0afb8978e34368879d152c8aec251" category="list-text">핫 애드할 NS224 쉘프가 HA 쌍의 4번째 NS224 쉘프가 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 함께 사용되는 경우, 다음 하위 단계를 완료하십시오.</block>
   <block id="d10794f4d3cca7a2993e8d2d6a12cd28" category="list-text">쉘프 NSM A 포트 e0a를 컨트롤러 A 슬롯 8 포트 A(e8a)에 케이블로 연결합니다.</block>
   <block id="ed24faf41d7d53c3a668df6e070aca6d" category="list-text">케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 8 포트 A(e8A)에 연결합니다.</block>
   <block id="551d2fc9e8e1159b84b9c23da6d27984" category="paragraph">다음 그림에서는 HA 쌍의 4번째 쉘프에 있는 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 케이블 연결을 보여 줍니다.</block>
-  <block id="40d57aad6b502bb35f6aa64821041f6a" category="image-alt">4개의 쉘프 및 4개의 IO 모듈로 구성된 AFF A1K의 케이블 연결</block>
   <block id="8f5d4ff45922bd2a0a4b4ca26b784653" category="paragraph">추가 스토리지가 필요한 경우 최대 1개의 NS224 쉘프를 AFF A250 또는 AFF C250 HA 쌍에 핫 추가할 수 있습니다.</block>
   <block id="3c8f15ce2288517ffd28cbab07b4cd4f" category="paragraph">핫 애드용 NS224 쉘프에 케이블을 연결하는 방법은 AFF A400 또는 AFF C400 HA 쌍을 보유하고 있는지 여부에 따라 달라집니다.</block>
   <block id="95e9c90f47d7134271c5de6f5d8d41f5" category="paragraph">* AFF A400 HA 쌍에 대한 케이블 선반 *</block>
   <block id="e47d066c3638efab14a13923e89b312a" category="paragraph">AFF A400 HA 쌍의 경우 최대 2개의 쉘프를 핫 추가할 수 있으며 필요에 따라 온보드 포트 e0c/e0d 및 슬롯 5의 포트를 사용할 수 있습니다.</block>
   <block id="d4e171bee30acee3b4097e177f087224" category="list-text">각 컨트롤러에서 RoCE 지원 포트(온보드 RoCE 지원 포트) 하나를 사용하여 하나의 쉘프를 핫 추가할 수 있으며, 이 쉘프가 HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
   <block id="4df6de3fb6b5eece4bd1d42f75e5ae3d" category="paragraph">다음 그림은 각 컨트롤러에서 RoCE 지원 포트 세트를 사용하여 핫 추가 쉘프 1개의 케이블 연결을 보여줍니다.</block>
-  <block id="672cc22dbbc7622be2f56d3dce98ffcd" category="image-alt">NS224 쉘프 1개와 온보드 포트 1개로 AFF A400 케이블 연결</block>
   <block id="306fa6b2ff7e9909c6a2a302a380875a" category="list-text">각 컨트롤러에서 RoCE 지원 포트(온보드 및 PCIe 카드 RoCE 지원 포트)의 2세트를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 다음 하위 단계를 완료하십시오.</block>
-  <block id="303de4b6b1481e40bb1b8e2368a123b6" category="image-alt">AFF A400의 케이블 연결: NS224 쉘프 2개, 온보드 포트 1세트, PCIe 카드의 포트 1세트</block>
   <block id="41132f8bc7d00935b8687c18c2c9e35d" category="list-text">이 절차를 준비하는 과정에서 자동 드라이브 할당을 사용하지 않도록 설정한 경우 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다. 을 <block ref="27f0c709ab4d9ea809b0da6fd9c1c251" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="406a6a05dc05bb651919c02b9570c743" category="paragraph">* 케이블 선반을 AFF C400 HA 쌍에 연결 *</block>
   <block id="9d6636aae443fd88eb415b0a814eb7ed" category="paragraph">AFF C400 HA 쌍의 경우, 최대 2개의 쉘프를 핫 추가할 수 있으며 필요에 따라 슬롯 4와 5에서 포트를 사용할 수 있습니다.</block>
   <block id="b6c9c1f2bae5bda1b2ec0ca34865478a" category="list-text">각 컨트롤러에서 RoCE 지원 포트 하나를 사용하여 하나의 쉘프를 핫 추가할 수 있으며, 이것이 HA 쌍에서 유일한 NS224 쉘프인 경우 다음 하위 단계를 완료하십시오.</block>
-  <block id="a3c44bf0089bcb64a39869e3500ee7be" category="image-alt">AFF C400의 NS224 쉘프 1개와 PCIe 카드 포트 1세트를 위한 케이블 연결</block>
   <block id="c4dcb8322178395823ac67e2ea704340" category="list-text">각 컨트롤러에서 RoCE 지원 포트 2세트를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 다음 하위 단계를 완료하십시오.</block>
-  <block id="8e60b7b6a9c9e9483da2fb013ea4987b" category="image-alt">NS224 쉘프 2개와 PCIe 카드 포트 2세트가 포함된 AFF C400의 케이블 연결</block>
   <block id="8b27019cea28c7866ff81a933ac7c02c" category="paragraph">AFF A800 또는 AFF C800 HA 쌍에서 NS224 쉘프를 케이블로 연결하는 방법은 핫 애드하는 쉘프 수와 컨트롤러에서 사용 중인 RoCE 지원 포트 세트(1~2개)에 따라 다릅니다.</block>
   <block id="e6960ae3a6a92d53555f3471da322c41" category="list-text">각 컨트롤러에 RoCE 지원 포트 한 세트(RoCE 지원 PCIe 카드 1개)를 사용하여 하나의 쉘프를 핫 추가할 수 있으며, 이것이 HA 쌍에서 유일한 NS224 쉘프인 경우, 다음 하위 단계를 완료하십시오.</block>
   <block id="c55555ebd43bc616a6c859bbbad79ac8" category="paragraph">다음 그림은 각 컨트롤러에서 RoCE 지원 PCIe 카드 1개를 사용하여 핫 애드 쉘프 1개의 케이블 연결을 보여줍니다.</block>
-  <block id="e21205a57cd96b3d3b2ad37564df9874" category="image-alt">NS224 쉘프 1개와 PCIe 카드 1개가 포함된 AFF A800 또는 AFF C800의 케이블 연결</block>
   <block id="6f313b51958d9ef2aa65c80a9b64de6b" category="list-text">각 컨트롤러에서 RoCE 지원 포트 2세트(RoCE 지원 PCIe 카드 2개)를 사용하여 하나 또는 2개의 쉘프를 핫 추가할 경우, 해당 하위 단계를 완료하십시오.</block>
-  <block id="b44d424c15322ecb36a077b677527005" category="image-alt">NS224 쉘프 2개와 IO 모듈 2개가 포함된 AFF A900용 케이블 연결</block>
-  <block id="e896f649bc7a69947f85c288e5cb0b96" category="image-alt">NS224 쉘프 3개와 IO 모듈 4개로 구성된 AFF A900용 케이블 연결</block>
-  <block id="325058948df9e92ff2c1577aeb745fc0" category="image-alt">NS224 쉘프 4개와 IO 모듈 4개로 구성된 AFF A900용 케이블 연결</block>
   <block id="40e6ceebb2eb1677b588bd7f52f95206" category="paragraph">쉘프 ID 번호입니다</block>
   <block id="42a63d570d38a93d3cbaddcfd266a58c" category="paragraph">쉘프 ID 액세스 버튼</block>
   <block id="d6f7de8608837079f0d0dd7fa668c457" category="list-text">클러스터의 상태를 확인합니다. <block ref="9f193d2818f839c9575e0a6969820fd9" category="inline-link-rx"></block>자세한 내용은 KB 문서를 참조하십시오.</block>
@@ -8572,7 +8557,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cada3ae8b9b850f4721595b91f8ab383" category="doc">단계 1: 컨트롤러를 재배열</block>
   <block id="f4c083c41633c63a72a1bbce7db1c159" category="sidebar">컨트롤러를 반납합니다</block>
   <block id="a39e0fbfb2db42a80ba7546850d8b5c6" category="paragraph"><block ref="a39e0fbfb2db42a80ba7546850d8b5c6" category="inline-link-rx"></block></block>
-  <block id="4c32ebd39f3a998e8ed434a92fb2337e" category="image-alt">NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF A250 C250 또는 FAS500f 케이블 연결</block>
   <block id="3512d92434ff4ef9e4eb4253b21a863e" category="image-alt">케이블은 커넥터 당김 탭이 위를 향하도록 삽입합니다</block>
   <block id="fa8057e66f11f58b193c0063c5f89d0f" category="image-alt">NS224 NSM100 모듈 포트 e0a 및 e0b의 위치</block>
   <block id="21631ea576ae592d82bfa53578687d4b" category="image-alt">작업자 디스플레이 패널 전원 LED</block>
@@ -9060,15 +9044,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7bf4e86b8c2f5ff036932a932f9dc604" category="list-text"><block ref="7bf4e86b8c2f5ff036932a932f9dc604" category="inline-link-rx"></block></block>
   <block id="3ab6aa369c3f9b8276a331929da6f82c" category="example-title">케이블 선반을 ASA A1K에 연결합니다</block>
   <block id="5085ff6c350861af4448d82a2c958fe8" category="paragraph">ASA A1K HA 쌍에 최대 3개의 NS224 쉘프(총 4개 쉘프)를 핫 추가할 수 있습니다.</block>
-  <block id="b96506939d3be5ee82870422bae11f18" category="image-alt">2개의 쉘프와 2개의 IO 모듈이 포함된 ASA A1K의 케이블 연결</block>
-  <block id="7c5aa1be4042527c8f9979e790cb45ad" category="image-alt">3개의 쉘프와 3개의 IO 모듈이 포함된 ASA A1K의 케이블 연결</block>
-  <block id="09bb2c93b169f0c519beed078ec84db3" category="image-alt">3개의 셸프 및 4개의 IO 모듈로 ASA A1K의 케이블 연결</block>
-  <block id="568d158739474681892c0a2e2456188d" category="image-alt">4개의 쉘프 및 4개의 IO 모듈로 구성된 ASA A1K의 케이블 연결</block>
   <block id="ae9e439bbd5c00f8b8a1bc7a935729c7" category="example-title">ASA A70 또는 ASA A90에 케이블 선반을 연결합니다</block>
   <block id="9e4b32259f721cc54024969657de5534" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에 최대 2개의 NS224 쉘프를 ASA A70 또는 ASA A90 HA 쌍에 핫 추가할 수 있습니다.</block>
-  <block id="087914c8dfa7abbb50d9c6d8ec5daab1" category="image-alt">셸프 1개와 입출력 모듈 1개로 ASA A70 또는 A90의 케이블 연결</block>
-  <block id="1bc9489d5803221329c048bb065c42ec" category="image-alt">1개의 셸프 및 2개의 IO 모듈로 ASA A70 또는 A90의 케이블 연결</block>
-  <block id="cdd4188b076dc68d9ffe52ac80b230c6" category="image-alt">2개의 쉘프와 2개의 IO 모듈로 ASA A70 또는 A90의 케이블 연결</block>
   <block id="55ec693931401ff7a634100e33ff8cfd" category="doc">ONTAP 하드웨어 시스템의 새로운 기능</block>
   <block id="ec6e72d1c4bb7dccdc62b6caf35c95f7" category="sidebar">ONTAP 하드웨어 시스템 설명서</block>
   <block id="64f78e10c5d8a4db6f25299bf9a418cd" category="sidebar">AFF A-Series 및 C-Series 시스템은 조직에서 인프라 혁신을 앞당기고 데이터 중심 전략의 촉진을 도울 수 있도록 설계되었습니다.</block>
@@ -9669,10 +9646,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e726d5f098bf18b53d3d464c11fbe033" category="list-text">AutoSupport가 활성화된 경우 자동 케이스 생성을 복원(기능 억제 해제)합니다. system node AutoSupport invoke -node * -type all-message MAINT=end</block>
   <block id="975c4856a4750ba558520ec8a4820a30" category="list-text">NIC 모듈을 설치한 경우 각 포트의 사용법 모드를 _network_:<block ref="2318bc4fadd0b94ffa92c4a515df2262" prefix=" " category="inline-code"></block></block>
   <block id="b6d91a8f20eef2bd8b5f445d19459cac" category="list-text">다른 컨트롤러에 대해 이 단계를 반복합니다.</block>
-  <block id="fbff7da02a9769667db9e912fa36fc5e" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에 최대 2개의 NS224 쉘프를 AFF A20, AFF A30, AFF C30, AFF A50 또는 AFF C60 HA 쌍에 핫 추가할 수 있습니다.</block>
-  <block id="73a95c42a81e9be601403e3a9d4a84c9" category="list-text">이 절차는 HA 쌍에 내부 스토리지(외부 쉘프 없음)만 있고 다음 중 하나가 있다고 가정합니다.</block>
-  <block id="c6e5816c4606aead75e5bf161bd98726" category="list-text">AFF A20의 경우 쉘프를 하나 더 추가합니다.</block>
-  <block id="11e9efba28ae2ed6dc6e8d713d0a9d85" category="list-text">AFF A30, AFF C30, AFF A50 또는 AFF C60의 각 컨트롤러에 최대 2개의 추가 쉘프 및 RoCE 지원 I/O 모듈 2개를 핫 추가 합니다.</block>
   <block id="4a09af6ecaf81ef3c2832bb75c6a0661" category="list-text">이러한 시스템은 NSM100 모듈 장착 NS224 쉘프 및 NSM100B 모듈 장착 NS224 쉘프 모두와 호환됩니다. 컨트롤러를 올바른 포트에 연결하려면 각 다이어그램의 "X"를 모듈에 맞는 포트 번호로 교체하십시오.</block>
   <block id="d6df784a5f01190c34ccccae7152455a" category="cell">모듈 유형</block>
   <block id="0ef8def66b79f6a75efa2dde40c34190" category="cell">포트 레이블 지정</block>
@@ -9687,7 +9660,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4719f083a14108e1749d33a162c3f72e" category="list-text">케이블 쉘프 NSM A 포트 EXB를 컨트롤러 B 슬롯 3 포트 b(e3b)에 연결합니다.</block>
   <block id="e12dd7341a7320b1bfee16cf7817ae73" category="list-text">케이블 쉘프 NSM B 포트 Exa에서 컨트롤러 B 슬롯 3 포트 A(e3A)까지 지원합니다.</block>
   <block id="36eb4fa8319a2d5789a89ff95d28ecb4" category="list-text">케이블 쉘프 NSM B 포트 EXB를 컨트롤러 A 슬롯 3 포트 b(e3b)에 연결합니다.</block>
-  <block id="4d6aa4e10ec4c72ec3a386b483422bc8" category="image-alt">AFF A20용 케이블 연결</block>
   <block id="d6dc171c9f98fe17e814fd05d2ee1489" category="admonition">이 단계에서는 슬롯 3 및 1에 RoCE 지원 I/O 모듈을 설치했다고 가정합니다.</block>
   <block id="e8becaef69668c291a5f960c6cd5f04e" category="list-text">케이블 NSM A 포트 Exa를 컨트롤러 A 슬롯 3 포트 A(e3a)에 연결합니다.</block>
   <block id="5d0425db587b395e698ec97c99c625fc" category="list-text">NSM A 포트 EXB를 컨트롤러 B 슬롯 1 포트 b(e1b)에 케이블로 연결합니다.</block>
@@ -10373,7 +10345,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dafdc51bcfddfb75cdc104244fa42b60" category="doc">실시간 클럭 배터리(AFF C80)를 교체합니다</block>
   <block id="0c760c78e9d0c008701a3538ed8f1c85" category="doc">시스템 관리 모듈 교체 - AFF C80</block>
   <block id="0e0493531094a28281ba5f32c328ac63" category="paragraph">본 하드웨어 시스템은 NSM100 모듈이 포함된 NS224 쉘프 및 NSM100B 모듈이 포함된 NS224 쉘프 모두와 호환될 수 있습니다. 사용 중인 하드웨어 및 쉘프의 호환성 및 포트 이름을 확인하려면 을<block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="c97d3a72e7c1692c1c5f56d517b82c8c" category="example-title">AFF A20, AFF A30, AFF A50, AFF C30 또는 AFF C60에 케이블 선반을 연결합니다</block>
   <block id="494fa596205dff234fa0bdbd9d667c60" category="example-title">케이블 선반을 AFF A70, AFF A90 또는 AFF C80에 연결합니다</block>
   <block id="cfa4ea65df4b282eb8322ca03dbd679d" category="inline-link-macro">스위치 연결 케이블 연결 가이드</block>
   <block id="d8ddb474e138beeebfa487dca0fe0955" category="list-text">이 절차는 직접 연결된 스토리지에만 적용됩니다. 스위치 부착 스토리지에 대한 지침을 보려면 를 <block ref="655fd8ce12b9f1cd7287415659488f07" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -10614,7 +10585,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dbc74f369dbf214b25d0f839fd4cd2b0" category="list-text">자동 반환을 비활성화한 경우 복원:</block>
   <block id="37e73c8cf9d7d3b4aeaa58f23b2fcb81" category="paragraph">AFF A1K 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="f2cde5cb8aa49228f5cb392e473dff51" category="paragraph">클러스터가 초기화되면 을 다운로드하고 실행하여<block ref="48865c7c1d8013246e4e5f705a9105de" category="inline-link-rx"></block> 설정을 확인하십시오.</block>
-  <block id="5d181ca91be1af691d1f01654691cc7b" category="image-alt">A1K 기억 장치 시스템 및 A70 또는 A90 전원 연결 다이어그램</block>
   <block id="e826d5b26017ec374bf63b94b8a425d9" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 코드를 고정합니다. : a1k-a70-90!:</block>
   <block id="0bf1ff1f561d2a96752b8ee596c65068" category="list-text">HA 구성이 4U입니다</block>
   <block id="3ac4d4a9f6b930345bd4ccdb8435d0fb" category="list-text">를 클릭합니다</block>
@@ -10777,7 +10747,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4e3c3284590d1aa1440e67b3bd65ba6e" category="list-text"><block ref="4e3c3284590d1aa1440e67b3bd65ba6e" category="inline-link-macro-rx"></block></block>
   <block id="370d2e6f20948d3881708f9706576691" category="sidebar">교체를 준비합니다</block>
   <block id="19d944a3a323213d80bcdd66ecd5c26f" category="list-text">다음 방법 중 하나를 사용하여 Onboard Key Manger(OKM) 또는 EKM(Eternal Key Manager)이 구성되었는지 확인합니다.</block>
-  <block id="b3387f173ebbff42e3160605c9db518a" category="list-text">고객이나 시스템 관리자에게 OKM 또는 EKM이 활성화되어 있는지 질문할 수 있습니다.</block>
   <block id="5dc17ba8443f8aafae4ca9de8cf9545b" category="list-text">OKM이 설정되어 있는지 확인하려면 을<block ref="3c690d79c23fa8c25994507c25377567" prefix=" " category="inline-code"></block>사용합니다.</block>
   <block id="4e447e93a3331607c74749775653cbfc" category="list-text">EKM이 활성화되어 있는지 확인하려면 를<block ref="001642cb897a8bebce3210207b7e81af" prefix=" " category="inline-code"></block>사용합니다.</block>
   <block id="161a8b7bf3b6a7aaa3bda387e5eab04b" category="list-text">OKM의 경우 OKM 암호 파일 내용이 필요합니다.</block>
@@ -11119,10 +11088,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3b0feb5303f3eeec93eba65f8eb967ae" category="list-text">다른 모든 시스템 구성 요소가 제대로 작동하는지 확인합니다.</block>
   <block id="d5607198701fa39cc481498d62a52e7b" category="list-text">시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 작동하지 않는 경우 에<block ref="468ae937a554dfd3baf209aa53f9f7a6" category="inline-link-rx"></block> 지원을 요청하십시오.</block>
   <block id="1b55fb3af000d448310e77a6de6c5161" category="paragraph">NVRAM 모듈은 NVRAM12 하드웨어와 현장 교체 가능한 DIMM으로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다.</block>
-  <block id="566c293315d81d047304e5fade9a967d" category="list-text">OKM이 설정되어 있는지 확인하려면 다음 명령을 사용합니다.</block>
-  <block id="248c44cfee0de883f1e8e602cd90cfbb" category="paragraph"><block ref="3c690d79c23fa8c25994507c25377567" prefix="" category="inline-code"></block></block>
-  <block id="a0e65297bb80c27972e34aa4810ab81b" category="list-text">EKM이 활성화되어 있는지 확인하려면 다음 명령을 사용하십시오.</block>
-  <block id="49bfbad696a2529ef03d859ad9b3f40a" category="paragraph"><block ref="001642cb897a8bebce3210207b7e81af" prefix="" category="inline-code"></block></block>
   <block id="c174421f5b8f9ca697d7784c901fd0e7" category="paragraph">스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.</block>
   <block id="6e9d75b7e6d83f0d47bf1ca8b289ab30" category="summary">AFF A1K 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오. <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block>자세한 내용은 페이지를 참조하십시오.</block>
   <block id="e7202980adb67469897852b1c95d1aa0" category="summary">AFF A1K 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.</block>
@@ -11923,4 +11888,50 @@ SFP+(타겟/이니시에이터)</block>
   <block id="40bde7f2324ee2876dd8a09846b14ff4" category="image-alt">전원을 켭니다</block>
   <block id="512bdc85c8065a0397ce7025381aaf66" category="image-alt">자동 검색 시스템</block>
   <block id="397249170dcc18ae00c3a7885f97fdc1" category="list-text">콘솔 케이블을 랩톱 또는 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음, 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
+  <block id="caf5b8ffb4d79dceb1fb647290798a01" category="list-text">이 절차는 HA 쌍에 내부 스토리지만(외부 쉘프 없음) 있으며 최대 1개의 추가 쉘프를 핫 추가한다고 가정합니다.</block>
+  <block id="93594816ce3f17fed74d263c83a0dbf3" category="image-alt">1개의 쉘프 및 1개의 IO 모듈로 AFF/ASA A20의 케이블 연결</block>
+  <block id="1e105a621d0adba625aea7a6ae6a26c4" category="list-text">각 컨트롤러 모듈에서 RoCE 지원 포트 2세트(RoCE 지원 I/O 모듈 2개)를 사용하여 하나의 쉘프를 핫 추가할 경우, 다음 하위 단계를 완료하십시오.</block>
+  <block id="ce8013dd06f3fee752bb7a7d4b9238d2" category="image-alt">1개의 쉘프 및 2개의 IO 모듈로 AFF/ASA A20의 케이블 연결</block>
+  <block id="aa7a979a65afd227664ca4bcf07916aa" category="list-text">이 절차에서는 HA 쌍에 내부 스토리지만(외부 쉘프 없음), 각 컨트롤러에 핫 애드까지 2개의 추가 쉘프와 RoCE 지원 I/O 모듈 2개를 있다고 가정합니다.</block>
+  <block id="f2a9ba351ff729d0ca9404bb3db069f6" category="image-alt">AFF/ASA A30용 케이블 연결</block>
+  <block id="22069d1c29859ffdad9469c1e6747cf1" category="image-alt">AFF A30/ASA 케이블 연결</block>
+  <block id="612bdab395b71e87cee7fad47c71f93d" category="image-alt">1개의 셸프와 1개의 IO 모듈이 있는 AFF/ASA A70 또는 A90의 케이블 연결</block>
+  <block id="e3292c7d546f92fd0a5ab680be388d1f" category="image-alt">1개의 쉘프 및 2개의 IO 모듈로 AFF/ASA A70 또는 A90의 케이블 연결</block>
+  <block id="6aa91cf36fd9acfb2a369c09c6c070ca" category="image-alt">2개의 쉘프와 2개의 IO 모듈로 AFF/ASA A70 또는 A90의 케이블 연결</block>
+  <block id="9bb029ef1a9ff9e816e879a364d3c7b6" category="image-alt">2개의 쉘프와 2개의 IO 모듈이 포함된 AFF/ASA A1K의 케이블 연결</block>
+  <block id="7376879927d2b84ec553cfa3f1bfd0f4" category="image-alt">3개의 쉘프와 3개의 IO 모듈이 포함된 AFF/ASA A1K의 케이블 연결</block>
+  <block id="de5bea2fd617f7327f73c1c44e37b9a6" category="image-alt">3개의 쉘프 및 4개의 IO 모듈이 포함된 AFF/ASA A1K의 케이블 연결</block>
+  <block id="db0e24742d4fd4f6f2a732aeac2ca6a3" category="image-alt">4개의 쉘프 및 4개의 IO 모듈로 구성된 AFF/ASA A1K의 케이블 연결</block>
+  <block id="ac2f75fe6673cb1f5f103f2229eb9ca0" category="image-alt">NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF/ASA A250 C250 또는 FAS500f 케이블 연결</block>
+  <block id="eaa19193ad1b64f0162e8f312a6ddc47" category="image-alt">NS224 쉘프 1개와 온보드 포트 1세트로 AFF/ASA A400 케이블 연결</block>
+  <block id="bba30f16a0c3755741b0f3e2032fe595" category="image-alt">NS224 쉘프 2개, 온보드 포트 1세트, PCIe 카드의 포트 1세트로 A/ASA A400 케이블 연결</block>
+  <block id="062f2d0d7124d747b94b599ceb1f29ed" category="image-alt">NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF/ASA C400 케이블 연결</block>
+  <block id="ea4ee6dbdfefd4ed125fc31c39deee4c" category="image-alt">NS224 쉘프 2개와 PCIe 카드 포트 2세트로 AFF/ASA C400 케이블 연결</block>
+  <block id="baa82981e40f9200b81a359d31653dd6" category="image-alt">NS224 쉘프 1개와 PCIe 카드 1개로 AFF/ASA A800 또는 AFF/ASA C800의 케이블 연결</block>
+  <block id="c398a3b33f9866994ec7dd506a0affe1" category="image-alt">NS224 쉘프 2개와 IO 모듈 2개로 AFF/ASA A900의 케이블 연결</block>
+  <block id="0e9ff50f94b0a9a55c9b9c4773ddccbe" category="image-alt">NS224 쉘프 3개와 IO 모듈 4개로 AFF/ASA A900의 케이블 연결</block>
+  <block id="97f00e66a1cda314ebb07a43f08fca5b" category="image-alt">NS224 쉘프 4개 및 IO 모듈 4개로 AFF/ASA A900의 케이블 연결</block>
+  <block id="10236a63db20e6dd5b0c0b8f3cbc1c18" category="list-text">2개의 전원 코드를 컨트롤러 전원 공급 장치에 꽂은 다음 다른 회로의 전원에 연결합니다.</block>
+  <block id="dba5caf7b75bcd8724abd1b1ca8827fd" category="image-alt">AFF A1K AFF A70, AFF A90 또는 FAS70 또는 FAS90 전원 연결 다이어그램</block>
+  <block id="638f4a62fea5cc77db53abd671ddb8ef" category="example-title">AFF A20에 케이블 선반을 연결합니다</block>
+  <block id="9eec124f47af3a03039f640091e3ed69" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에) NS224 쉘프 하나를 AFF A20 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="e76cf9924a9de1dd17f1b48f3a38d0cd" category="example-title">AFF A30, AFF A50, AFF C30 또는 AFF C60에 케이블 선반을 연결합니다</block>
+  <block id="5820f31f30f8fc695d25c9cec1305cdb" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에) AFF A30, AFF C30, AFF A50 또는 AFF C60 HA 쌍에 최대 2개의 NS224 쉘프를 핫 추가할 수 있습니다.</block>
+  <block id="2b5ec68149482145f38e8592a2e4b794" category="example-title">ASA A20에 케이블 선반을 연결합니다</block>
+  <block id="c84fe478157d5a5e8c65815d80aa16a6" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에) 최대 1개의 NS224 쉘프를 ASA A20 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="bb5cf394b2e920ea8a139221d234cd8f" category="example-title">ASA A30 또는 ASA A50에 케이블 선반을 연결합니다</block>
+  <block id="541e9b9bea8f992a6c173f0c44b17452" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에 최대 2개의 NS224 쉘프를 ASA A30 또는 A50 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="46aa3bf0a87f8519f8e9314ed7186c68" category="paragraph">추가 스토리지가 필요한 경우 최대 1개의 NS224 쉘프를 ASA A250 또는 ASA C250 HA 쌍에 핫 추가할 수 있습니다.</block>
+  <block id="74259516da197cf641342dca62af2c0b" category="paragraph">핫 애드용 NS224 쉘프에 케이블을 연결하는 방법은 ASA A400 또는 ASA C400 HA 쌍을 보유하고 있는지 여부에 따라 달라집니다.</block>
+  <block id="5a9c7ba8fea538e8bddca7cfd05765f9" category="paragraph">ASA A800 또는 ASA C800 HA 쌍에서 NS224 쉘프를 케이블로 연결하는 방법은 핫 애드하는 쉘프 수와 컨트롤러에서 사용 중인 RoCE 지원 포트 세트(1~2개)에 따라 다릅니다.</block>
+  <block id="6bb205a0be0fdef8b8935f61e328f79d" category="paragraph">추가 스토리지가 필요한 경우 ASA A900 HA 쌍에 최대 3개의 NS224 드라이브 쉘프(총 4개의 쉘프)를 추가로 핫 추가할 수 있습니다.</block>
+  <block id="74375be821a0ccfdaa2aae68f1a39391" category="list-text">AFF 시스템의 경우:</block>
+  <block id="f7e7abd6131f4502c1bda794831656d2" category="list-text">ASA 시스템의 경우:</block>
+  <block id="c1ec0f43de6728212fc94985d5f83feb" category="admonition">ASA A1K HA 쌍이 있고 세 번째 쉘프를 핫 추가하고 각 컨트롤러에 세 번째 또는 네 번째 RoCE 지원 I/O 모듈을 설치하는 경우, 세 번째 쉘프는 세 번째 또는 세 번째 및 네 번째 I/O 모듈에만 연결됩니다. 기존 쉘프를 재장착할 필요가 없습니다.</block>
+  <block id="80e4582b9d6f2e4fef63bc13dc0ddad1" category="open-title">ASA A70 또는 ASA A90</block>
+  <block id="ba8d903e745090016b0afab400d33f7c" category="open-title">ASA A800 또는 ASA C800</block>
+  <block id="ade2052b1dc75cccb7fc7b0760456566" category="open-title">ASA A400 또는 ASA C400</block>
+  <block id="18b75697f84707c97e051581b495caae" category="list-text">ASA A400:</block>
+  <block id="f08c247bf18a7d50e52f66010faca66f" category="list-text">ASA C400의 경우:</block>
+  <block id="2aba7ab5e3f8f696965da4208fe4dd23" category="open-title">ASA A30 또는 ASA A50</block>
 </blocks>

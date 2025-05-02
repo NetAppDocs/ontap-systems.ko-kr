@@ -144,7 +144,7 @@ image::../media/drw_g_isi_console_serial_port_cabling_ieops-1882.svg[콘솔 연�
 
 
 . 관리 서브넷에 있는 주소를 사용하여 랩톱에 TCP/IP 주소를 할당합니다.
-. 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
+. 2개의 전원 코드를 컨트롤러 전원 공급 장치에 꽂은 다음 다른 회로의 전원에 연결합니다.
 +
 image::../media/drw_psu_layout_1_ieops-1886.svg[A20 또는 A30 또는 A50 스토리지 시스템 전원 연결 다이어그램]
 

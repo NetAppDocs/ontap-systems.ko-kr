@@ -2,8 +2,6 @@
 :allow-uri-read: 
 
 
-추가 스토리지가 필요한 경우 AFF A900 HA 쌍에 최대 3개의 NS224 드라이브 쉘프(총 4개의 쉘프)를 추가로 핫 추가할 수 있습니다.
-
 .시작하기 전에
 * 를 검토해야 link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]합니다.
 * 에서 해당 절차를 완료해야 link:prepare-hot-add-shelf.html["핫 애드 준비 - 쉘프 추가"]합니다.
@@ -29,7 +27,7 @@
 다음 그림에서는 두 번째 쉘프 케이블링(및 첫 번째 쉘프)를 보여 줍니다.
 
 +
-image::../media/drw_ns224_a900_2shelves.png[NS224 쉘프 2개와 IO 모듈 2개가 포함된 AFF A900용 케이블 연결]
+image::../media/drw_ns224_a900_2shelves.png[NS224 쉘프 2개와 IO 모듈 2개로 AFF/ASA A900의 케이블 연결]
 
 
 
@@ -46,7 +44,7 @@ image::../media/drw_ns224_a900_2shelves.png[NS224 쉘프 2개와 IO 모듈 2개�
 다음 그림에서는 세 번째 쉘프 케이블링을 보여 줍니다.
 
 +
-image::../media/drw_ns224_a900_3shelves.png[NS224 쉘프 3개와 IO 모듈 4개로 구성된 AFF A900용 케이블 연결]
+image::../media/drw_ns224_a900_3shelves.png[NS224 쉘프 3개와 IO 모듈 4개로 AFF/ASA A900의 케이블 연결]
 
 
 
@@ -63,7 +61,7 @@ image::../media/drw_ns224_a900_3shelves.png[NS224 쉘프 3개와 IO 모듈 4개�
 다음 그림에서는 네 번째 쉘프 케이블링을 보여 줍니다.
 
 +
-image::../media/drw_ns224_a900_4shelves.png[NS224 쉘프 4개와 IO 모듈 4개로 구성된 AFF A900용 케이블 연결]
+image::../media/drw_ns224_a900_4shelves.png[NS224 쉘프 4개 및 IO 모듈 4개로 AFF/ASA A900의 케이블 연결]
 
 
 

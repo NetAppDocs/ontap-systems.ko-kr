@@ -2,8 +2,6 @@
 :allow-uri-read: 
 
 
-추가 스토리지가 필요한 경우 최대 1개의 NS224 쉘프를 AFF A250 또는 AFF C250 HA 쌍에 핫 추가할 수 있습니다.
-
 .시작하기 전에
 * 를 검토해야 link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]합니다.
 * 에서 해당 절차를 완료해야 link:prepare-hot-add-shelf.html["핫 애드 준비 - 쉘프 추가"]합니다.
@@ -21,7 +19,7 @@
 .. 케이블 쉘프 NSM B 포트 e0a를 컨트롤러 B 슬롯 1 포트 A(E1A)에 연결합니다.
 .. 컨트롤러 A 슬롯 1 포트 b(e1b)에 쉘프 NSM B 포트 e0b를 케이블로 연결합니다. + 다음 그림에서는 완료 시 쉘프 케이블 연결을 보여 줍니다.
 +
-image::../media/drw_ns224_a250_c250_f500f_1shelf_ieops-1824.svg[NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF A250 C250 또는 FAS500f 케이블 연결]
+image::../media/drw_ns224_a250_c250_f500f_1shelf_ieops-1824.svg[NS224 쉘프 1개와 PCIe 카드 포트 1세트로 AFF/ASA A250 C250 또는 FAS500f 케이블 연결]
 
 
 

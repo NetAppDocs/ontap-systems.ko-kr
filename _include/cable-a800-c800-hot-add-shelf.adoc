@@ -2,8 +2,6 @@
 :allow-uri-read: 
 
 
-AFF A800 또는 AFF C800 HA 쌍에서 NS224 쉘프를 케이블로 연결하는 방법은 핫 애드하는 쉘프 수와 컨트롤러에서 사용 중인 RoCE 지원 포트 세트(1~2개)에 따라 다릅니다.
-
 .시작하기 전에
 * 를 검토해야 link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]합니다.
 * 에서 해당 절차를 완료해야 link:prepare-hot-add-shelf.html["핫 애드 준비 - 쉘프 추가"]합니다.
@@ -28,7 +26,7 @@ NOTE: 이 단계에서는 슬롯 5에 RoCE 가능 PCIe 카드를 설치했다고
 다음 그림은 각 컨트롤러에서 RoCE 지원 PCIe 카드 1개를 사용하여 핫 애드 쉘프 1개의 케이블 연결을 보여줍니다.
 
 +
-image::../media/drw_ns224_a800_c800_1shelf_IEOPS-964.svg[NS224 쉘프 1개와 PCIe 카드 1개가 포함된 AFF A800 또는 AFF C800의 케이블 연결]
+image::../media/drw_ns224_a800_c800_1shelf_IEOPS-964.svg[NS224 쉘프 1개와 PCIe 카드 1개로 AFF/ASA A800 또는 AFF/ASA C800의 케이블 연결]
 
 
 

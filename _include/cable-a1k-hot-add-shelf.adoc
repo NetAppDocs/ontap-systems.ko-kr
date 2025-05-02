@@ -2,8 +2,6 @@
 :allow-uri-read: 
 
 
-AFF A1K HA 쌍에 최대 3개의 NS224 쉘프(총 4개 쉘프)를 핫 추가할 수 있습니다.
-
 .시작하기 전에
 * 를 검토해야 link:requirements-hot-add-shelf.html["핫 추가 요구사항 및 모범 사례"]합니다.
 * 에서 해당 절차를 완료해야 link:prepare-hot-add-shelf.html["핫 애드 준비를 합니다"]합니다.
@@ -36,7 +34,7 @@ AFF A1K HA 쌍에 최대 3개의 NS224 쉘프(총 4개 쉘프)를 핫 추가할 
 다음 그림에서는 HA 쌍의 두 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 2개를 보여 줍니다.
 
 +
-image::../media/drw_ns224_vino_m_2shelves_2cards_ieops-1642.svg[2개의 쉘프와 2개의 IO 모듈이 포함된 AFF A1K의 케이블 연결]
+image::../media/drw_ns224_vino_m_2shelves_2cards_ieops-1642.svg[2개의 쉘프와 2개의 IO 모듈이 포함된 AFF/ASA A1K의 케이블 연결]
 
 
 
@@ -50,7 +48,7 @@ image::../media/drw_ns224_vino_m_2shelves_2cards_ieops-1642.svg[2개의 쉘프�
 다음 그림에서는 HA 쌍의 세 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 3개를 보여 줍니다.
 
 +
-image::../media/drw_ns224_vino_m_3shelves_3cards_ieops-1643.svg[3개의 쉘프와 3개의 IO 모듈이 포함된 AFF A1K의 케이블 연결]
+image::../media/drw_ns224_vino_m_3shelves_3cards_ieops-1643.svg[3개의 쉘프와 3개의 IO 모듈이 포함된 AFF/ASA A1K의 케이블 연결]
 
 
 
@@ -64,7 +62,7 @@ image::../media/drw_ns224_vino_m_3shelves_3cards_ieops-1643.svg[3개의 쉘프�
 다음 그림에서는 HA 쌍의 세 번째 쉘프에 대한 케이블 연결과 각 컨트롤러에 RoCE 지원 I/O 모듈 4개를 보여 줍니다.
 
 +
-image::../media/drw_ns224_vino_m_3shelves_4cards_ieops-1644.svg[3개의 셸프 및 4개의 IO 모듈로 AFF A1K의 케이블 연결]
+image::../media/drw_ns224_vino_m_3shelves_4cards_ieops-1644.svg[3개의 쉘프 및 4개의 IO 모듈이 포함된 AFF/ASA A1K의 케이블 연결]
 
 
 
@@ -78,7 +76,7 @@ image::../media/drw_ns224_vino_m_3shelves_4cards_ieops-1644.svg[3개의 셸프 �
 다음 그림에서는 HA 쌍의 4번째 쉘프에 있는 각 컨트롤러에 RoCE 지원 I/O 모듈 4개와 케이블 연결을 보여 줍니다.
 
 +
-image::../media/drw_ns224_vino_m_4shelves_4cards_ieops-1645.svg[4개의 쉘프 및 4개의 IO 모듈로 구성된 AFF A1K의 케이블 연결]
+image::../media/drw_ns224_vino_m_4shelves_4cards_ieops-1645.svg[4개의 쉘프 및 4개의 IO 모듈로 구성된 AFF/ASA A1K의 케이블 연결]
 
 
 
