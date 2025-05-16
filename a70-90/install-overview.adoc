@@ -31,7 +31,7 @@ AFF A70 또는 AFF A90 시스템을 설치 및 구성하려면 하드웨어 요�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:install-power-hardware.html["AFF A70 또는 AFF A90 스토리지 시스템의 전원을 켭니다"]
 [role="quick-margin-para"]
-컨트롤러의 전원을 켜기 전에 각 NS224 쉘프의 전원을 켜고 고유한 쉘프 ID를 할당하여 각 쉘프가 설정 내에서 고유하게 식별되는지 확인하십시오.
+컨트롤러의 전원을 켜기 전에 각 NS224 쉘프의 전원을 켜고 고유한 쉘프 ID를 할당하여 설정 내에서 각 쉘프가 고유하게 식별되는지 확인하고 랩톱 또는 콘솔을 컨트롤러에 연결한 다음 컨트롤러를 전원에 연결합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:install-complete.html["스토리지 시스템 설정을 완료합니다"]
 [role="quick-margin-para"]
