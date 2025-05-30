@@ -10,13 +10,11 @@ entries:
   - title: 미디어를 부팅합니다
     pdf-filename: ASA A20, ASA A30 및 ASA A50 부팅 미디어
     entries:
-    - title: 부팅 미디어 개요
-      url: "/asa-r2-a20-30-50/bootmedia-overview-bmr.html"
     - title: 부팅 미디어 대체 워크플로
       url: "/asa-r2-a20-30-50/bootmedia-replace-workflow-bmr.html"
     - title: 요구사항 검토
       url: "/asa-r2-a20-30-50/bootmedia-replace-requirements-bmr.html"
-    - title: 손상된 컨트롤러를 종료합니다
+    - title: 컨트롤러를 종료합니다
       url: "/asa-r2-a20-30-50/bootmedia-shutdown-bmr.html"
     - title: 부팅 미디어를 교체합니다
       url: "/asa-r2-a20-30-50/bootmedia-replace-bmr.html"

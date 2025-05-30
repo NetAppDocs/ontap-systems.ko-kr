@@ -7,8 +7,6 @@ entries:
 - title: 미디어를 부팅합니다
   pdf-filename: ASA A70 및 ASA A90 부팅 미디어
   entries:
-  - title: 부팅 미디어 개요
-    url: "/asa-r2-70-90/bootmedia-overview-bmr.html"
   - title: 부팅 미디어 교체 워크플로우
     url: "/asa-r2-70-90/bootmedia-replace-workflow-bmr.html"
   - title: 요구사항 검토

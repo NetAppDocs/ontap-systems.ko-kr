@@ -1,0 +1,14 @@
+---
+permalink: asa-r2-c30/bootmedia-complete-rma-bmr.html 
+sidebar: sidebar 
+keywords: asa c30, complete the replacement process 
+summary: ASA C30 스토리지 시스템의 구성 요소에 오류가 발생하면 오류가 발생한 부품을 NetApp으로 반환하세요. 
+---
+= 결함이 있는 부품을 NetApp-ASA C30으로 반납합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ASA C30 스토리지 시스템의 구성 요소에 오류가 발생하면 오류가 발생한 부품을 NetApp으로 반환하세요.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

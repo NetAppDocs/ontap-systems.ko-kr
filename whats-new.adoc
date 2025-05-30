@@ -15,6 +15,18 @@ ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2025년 5월
+
+
+
+=== ASA C30
+
+새로운 ASA C30 시스템은 더 많은 고객과 작업 부하에 고성능, 지능적이고 포괄적인 데이터 관리 기능을 제공합니다.
+
+link:https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html["ASA R2 시스템에 대해 자세히 알아보십시오"]..
+
+
+
 == 2025년 4월
 
 
