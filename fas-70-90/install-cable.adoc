@@ -142,6 +142,17 @@ IMPORTANT: 아직 전원 코드를 연결하지 마십시오.
 
 SAS 쉘프 케이블 연결에 대한 추가 지침은 를 참조하십시오link:https://docs.netapp.com/us-en/ontap-systems/sas3/install-cabling-rules.html["SAS 케이블 연결 규칙 및 개념 - IOM12/IOM12B 모듈이 포함된 선반"].
 
+.이 작업에 대해
+FAS70 및 FAS90 스토리지 시스템은 NSM100 또는 NSM100B 모듈을 사용하여 DS212C, DS224C, DS460C 및 NS224 선반을 지원합니다.
+
+NS224 모듈의 주요 차이점은 다음과 같습니다.
+
+* NSM100 선반 모듈은 내장 포트 e0a 및 e0b를 사용합니다.
+* NSM100B 쉘프 모듈은 슬롯 1의 포트 e1a와 e1b를 사용합니다.
+
+
+다음 NS224 케이블링 예시는 쉘프 모듈 포트를 참조할 때 NS224 쉘프에 있는 NSM100 모듈을 보여줍니다.
+
 [role="tabbed-block"]
 ====
 .옵션 1: NS224 스토리지 쉘프 1개
