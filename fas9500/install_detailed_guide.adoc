@@ -230,10 +230,10 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-.애니메이션 - 스위치가 없는 2노드 클러스터 케이블링
+.애니메이션 2노드 스위치리스 클러스터 케이블링
 video::da08295f-ba8c-4de7-88c3-ae7c0170408d[panopto]
 +
-image::../media/drw_9500_tnsc_network_cabling.svg[drw 9500 tnsc 네트워크 케이블 연결]
+image::../media/drw_9500_tnsc_network_cabling.svg[TNSC 네트워크 케이블링 다이어그램]
 
 +
 [cols="20%,80%"]
@@ -322,10 +322,10 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 애니메이션이나 그림을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.
 +
-.애니메이션 - 스위치 방식 클러스터 케이블 연결
+.애니메이션 스위치 클러스터 케이블링
 video::3ad3f118-8339-4683-865f-ae7c0170400c[panopto]
 +
-image::../media/drw_9500_switched_network_cabling.svg[drw 9500 스위치 방식 네트워크 케이블 연결]
+image::../media/drw_9500_switched_network_cabling.svg[스위치 클러스터 네트워크 케이블 연결]
 
 +
 [cols="20%,80%"]
@@ -422,10 +422,10 @@ NOTE: 커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 �
 
 . 다음 애니메이션 또는 그림을 사용하여 컨트롤러를 3개(드라이브 쉘프 1개 스택 및 드라이브 쉘프 2개 스택) DS224C 드라이브 쉘프 에 연결합니다.
 +
-.애니메이션 - 드라이브 쉘프 케이블 연결
+.애니메이션 케이블로 드라이브 선반을 연결하세요
 video::c958aae6-9d08-4d3d-a213-ae7c017040cd[panopto]
 +
-image::../media/drw_9500_sas_shelf_cabling.svg[drw 9500 SAS 셸프 케이블 연결]
+image::../media/drw_9500_sas_shelf_cabling.svg[SAS 쉘프 케이블링]
 
 +
 [cols="20%,80%"]
@@ -434,13 +434,13 @@ image::../media/drw_9500_sas_shelf_cabling.svg[drw 9500 SAS 셸프 케이블 연
 
 
  a| 
-image::../media/icon_square_1_blue.png[아이콘 사각형 1 파란색]
+image::../media/icon_square_1_blue.png[설명선 아이콘 1]
  a| 
 드라이브 쉘프 스택 1을 컨트롤러에 연결합니다. 참고로 사용하십시오.
 
 * 미니 SAS 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니-SAS HD 케이블]
 
 
 
@@ -451,7 +451,7 @@ image::../media/icon_square_2_yellow.png[설명선 아이콘 2]
 
 * 미니 SAS 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니-SAS HD 케이블]
 
 
 
@@ -462,7 +462,7 @@ image::../media/icon_square_3_tourquoise.png[설명선 아이콘 3]
 
 * 미니 SAS 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SAS HD - 미니 SAS HD]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니-SAS HD 케이블]
 
 |===
 
@@ -481,10 +481,10 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[OIE 케이블 미니 SA
 
 . 다음 애니메이션 또는 그리기를 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.
 +
-.애니메이션 - 쉘프 ID &#8217;s를 설정합니다
+.애니메이션 선반 ID 설정
 video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 +
-image::../media/drw_power-on_set_shelf_ID_set.svg[설정된 셸프 ID 세트의 drw 전원을 켭니다]
+image::../media/drw_power-on_set_shelf_ID_set.svg[전원을 켜고 선반 ID를 설정하세요]
 
 +
 [cols="20%,80%"]
@@ -533,10 +533,10 @@ image::../media/icon_round_5.png[설명선 번호 5]
 |===
 . 두 노드에 대한 전원 공급 장치의 전원 스위치를 켭니다.
 +
-.애니메이션 - 컨트롤러의 전원을 켭니다
+.애니메이션 컨트롤러의 전원을 켜세요
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
-image::../media/drw_9500_power-on.svg[drw 9500 전원을 켭니다]
+image::../media/drw_9500_power-on.svg[시스템 전원을 켭니다]
 
 +
 
@@ -548,10 +548,10 @@ NOTE: 초기 부팅에는 최대 8분이 소요될 수 있습니다.
 
 . 다음 애니메이션을 사용하여 랩톱을 관리 스위치에 연결합니다.
 +
-.애니메이션 - 노트북을 관리 스위치에 연결합니다
+.애니메이션 노트북을 관리 스위치에 연결하세요
 video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto]
 +
-image::../media/dwr_laptop_to_switch_only.svg[DWR 노트북만 전환합니다]
+image::../media/dwr_laptop_to_switch_only.svg[노트북에서 케이블로 전환]
 
 . 나열된 ONTAP 아이콘을 선택하여 다음을 검색합니다.
 +
@@ -605,17 +605,17 @@ NOTE: 콘솔 포트를 구성하는 방법은 랩톱 또는 콘솔의 온라인 
 
 .. 시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 스위치에 연결합니다.
 +
-image::../media/drw_9500_cable_console_switch_controller.svg[drw 9500 케이블 콘솔 스위치 컨트롤러]
+image::../media/drw_9500_cable_console_switch_controller.svg[연결을 전환하기 위한 콘솔]
 
 .. 관리 서브넷에 있는 TCP/IP 주소를 사용하여 랩톱 또는 콘솔에 할당합니다.
 
 
 . 다음 애니메이션을 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.
 +
-.애니메이션 - 쉘프 ID &#8217;s를 설정합니다
+.애니메이션 선반 ID 설정
 video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto]
 +
-image::../media/drw_power-on_set_shelf_ID_set.svg[설정된 셸프 ID 세트의 drw 전원을 켭니다]
+image::../media/drw_power-on_set_shelf_ID_set.svg[전원을 켜고 선반 ID를 설정하세요]
 
 +
 [cols="20%,80%"]
@@ -664,10 +664,10 @@ image::../media/icon_round_5.png[설명선 번호 5]
 |===
 . 두 노드에 대한 전원 공급 장치의 전원 스위치를 켭니다.
 +
-.애니메이션 - 컨트롤러의 전원을 켭니다
+.애니메이션 컨트롤러의 전원을 켜세요
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
-image::../media/drw_9500_power-on.svg[drw 9500 전원을 켭니다]
+image::../media/drw_9500_power-on.svg[시스템 전원을 켭니다]
 
 +
 

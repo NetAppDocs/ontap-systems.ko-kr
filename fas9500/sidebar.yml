@@ -26,7 +26,7 @@ entries:
     - title: 암호화 키를 확인합니다
       url: "/fas9500/bootmedia_encryption_preshutdown_checks.html"
     - title: 손상된 컨트롤러를 종료합니다
-      url: "/fas9500/bootmedia_impaired_controller_shutdown.html"
+      url: "/fas9500/bootmedia-shutdown.html"
     - title: 부팅 미디어를 교체합니다
       url: "/fas9500/bootmedia_replace.html"
     - title: 복구 이미지를 부팅합니다

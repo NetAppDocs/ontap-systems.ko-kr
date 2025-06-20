@@ -38,7 +38,7 @@ video::0631b48a-ad6f-4433-a2bd-af54014778c2[panopto]
 
 . 전원 공급 장치 캠 핸들의 래치를 누른 다음 캠 핸들을 열어 중간 평면에서 전원 공급 장치를 완전히 분리합니다.
 +
-image::../media/drw_2850_replace_PSU_IEOPS-702.svg[2850 drw는 PSU IEOPS 702를 대체합니다]
+image::../media/drw_2850_replace_PSU_IEOPS-702.svg[PSU를 교체합니다]
 
 . 캠 핸들을 사용하여 전원 공급 장치를 시스템 밖으로 밀어냅니다.
 +

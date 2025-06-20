@@ -48,7 +48,7 @@ CAUTION: 전원 공급 장치를 분리할 때는 항상 두 손을 사용하여
 .애니메이션 - PSU 제거/설치
 video::590b3414-6ea5-42b2-b7f4-ae78004b86a4[panopto]
 +
-image::../media/drw_9500_remove_install_PSU_module.svg[drw 9500 설치 PSU 모듈을 제거합니다]
+image::../media/drw_9500_remove_install_PSU_module.svg[PSU 모듈을 분리하거나 설치합니다]
 
 +
 [cols="20%,80%"]

@@ -30,12 +30,12 @@ video::c83a3301-3161-4d65-86e8-af540147576a[panopto]
 . 케이블을 분리한 후 SFP 모듈을 시스템에 남겨 둔 경우 교체용 컨트롤러 모듈로 이동합니다.
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2240_x_opening_cam_latch.svg[drw 2240 x 캠 개방 래치]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[컨트롤러를 분리합니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 컨트롤러 모듈 측면에 있는 파란색 단추를 눌러 덮개를 연 다음 덮개를 컨트롤러 모듈에서 위로 돌려 분리합니다.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[덮개를 제거하세요]
 
 
 
@@ -58,7 +58,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 
 NOTE: 지시가 있을 때까지 NVMEM 배터리를 연결하지 마십시오.
 
-image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[2850 drw 는 nvbattery IEOPS 715를 대체합니다]
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[NV 배터리를 이동합니다]
 
 [cols="1,3"]
 |===
@@ -102,7 +102,7 @@ NOTE: 배터리를 아직 연결하지 마십시오.  나머지 구성 요소를
 
 손상된 컨트롤러 모듈에서 IO Plate 및 PCIe 메자닌 카드를 분리합니다.
 
-image::../media/drw_2850_replace_HIC_IEOPS-700.svg[2850 drw 는 HIC IEOPS 700을 대체합니다]
+image::../media/drw_2850_replace_HIC_IEOPS-700.svg[메자닌 카드를 옮기세요]
 
 [cols="1,3"]
 |===
@@ -138,7 +138,7 @@ NOTE: 손가락이나 드라이버로 나비나사를 풀 수 있습니다.
 
 . 메자닌 카드를 분리한 후 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.
 +
-image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[2850 drw 는 부팅 미디어 IEOPS 696을 교체합니다]
+image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[부팅 미디어를 이동합니다]
 
 +
 [cols="1,3"]
@@ -195,7 +195,7 @@ NOTE: 부트 미디어가 소켓 또는 부트 미디어를 손상시킬 수 있
 
 손상된 컨트롤러 모듈에서 DIMM을 분리하여 교체 컨트롤러 모듈에 설치합니다.
 
-image::../media/drw_2850_replace_dimms_IEOPS-699.svg[2850 drw DIMMs IEOPS 699 교체]
+image::../media/drw_2850_replace_dimms_IEOPS-699.svg[DIMM을 이동합니다]
 
 [cols="1,3"]
 |===
@@ -254,7 +254,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 손상된 컨트롤러 모듈에서 캐싱 모듈을 제거하여 교체 컨트롤러 모듈에 설치합니다.
 
-image::../media/drw_2850_replace_caching module_IEOPS-697.svg[2850 drw 캐시 모듈 IEOPS 697 교체]
+image::../media/drw_2850_replace_caching module_IEOPS-697.svg[캐싱 모듈을 이동합니다]
 
 [cols="1,3"]
 |===

@@ -79,12 +79,12 @@ Ctrl+C를 누른 다음 y를 누릅니다.
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[2850 drw PCM 제거 IEOPS 694 설치]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[컨트롤러를 분리합니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 컨트롤러 모듈 측면에 있는 파란색 단추를 눌러 덮개를 연 다음 덮개를 컨트롤러 모듈에서 위로 돌려 분리합니다.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[컨트롤러를 엽니다]
 
 
 
@@ -107,7 +107,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 메자닌 카드를 분리합니다.
 +
-image::../media/drw_2850_replace_HIC_IEOPS-700.svg[2850 drw 는 HIC IEOPS 700을 대체합니다]
+image::../media/drw_2850_replace_HIC_IEOPS-700.svg[메자닌 카드 교체]
 
 +
 [cols="1,3"]

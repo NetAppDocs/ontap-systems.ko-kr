@@ -75,11 +75,11 @@ Ctrl+C를 누른 다음 y를 누릅니다.
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 . 캠 핸들의 래치를 눌러 분리될 때까지 캠 핸들을 완전히 열어 컨트롤러 모듈을 중앙판에서 분리한 다음, 양손으로 컨트롤러 모듈을 섀시 밖으로 반쯤 당깁니다.
 +
-image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[2850 drw PCM 제거 IEOPS 694 설치]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[컨트롤러를 분리합니다]
 
 . 컨트롤러 모듈 후면에 있는 NVMEM LED를 확인하십시오.  NV 아이콘을 찾습니다.
 +
-image::../media/drw_hw_nvram_icon.svg[drw HW NVRAM 아이콘]
+image::../media/drw_hw_nvram_icon.svg[NV 아이콘]
 
 +
 
@@ -108,14 +108,14 @@ NOTE: 시스템이 "반환 대기 중" 상태이거나 시스템이 제대로 �
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 컨트롤러 모듈 측면에 있는 파란색 단추를 눌러 덮개를 연 다음 덮개를 컨트롤러 모듈에서 위로 돌려 분리합니다.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[컨트롤러 커버를 제거하세요]
 
 . 컨트롤러 모듈에서 NVMEM 배터리를 찾습니다.
 +
 .애니메이션 - NV 배터리를 교체합니다
 video::592217fb-4868-4294-a559-af4701725598[panopto]
 +
-image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[2850 drw 는 nvbattery IEOPS 715를 대체합니다]
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[NV 배터리를 교체합니다]
 
 +
 [cols="1,3"]

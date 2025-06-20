@@ -97,12 +97,12 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[2850 drw PCM 제거 IEOPS 694 설치]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[컨트롤러를 분리합니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 컨트롤러 모듈 측면에 있는 파란색 단추를 눌러 덮개를 연 다음 덮개를 컨트롤러 모듈에서 위로 돌려 분리합니다.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[컨트롤러 커버를 제거하세요]
 
 
 
@@ -114,7 +114,7 @@ RTC 배터리를 컨트롤러 내부에 찾아서 교체하고 특정 단계를 
 
 .애니메이션 - RTC 배터리를 교체합니다
 video::7420d100-23b1-4213-a8da-af4701725622[panopto]
-image::../media/drw_2850_replace_rtc_battery_IEOPS-701.svg[2850 drw RTC 배터리 IEOPS 701을 교체합니다]
+image::../media/drw_2850_replace_rtc_battery_IEOPS-701.svg[RTC 배터리를 교체합니다]
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . RTC 배터리를 찾습니다.
@@ -127,6 +127,7 @@ NOTE: 배터리함을 홀더에서 분리할 때 배터리의 극성에 유의�
 . 컨트롤러 모듈에서 빈 배터리 홀더를 찾습니다.
 . RTC 배터리의 극성을 확인한 다음 배터리를 비스듬히 기울이고 아래로 눌러 홀더에 삽입합니다.
 . 배터리를 육안으로 검사하여 홀더가 완전히 장착되어 있고 극성이 올바른지 확인하십시오.
+. 컨트롤러 커버를 다시 설치하세요.
 
 
 
@@ -148,7 +149,7 @@ NOTE: 배터리함을 홀더에서 분리할 때 배터리의 극성에 유의�
 . 컨트롤러 모듈 재설치를 완료합니다.
 
 
-image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[2850 drw PCM 제거 IEOPS 694 설치]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[컨트롤러를 분리합니다]
 
 . 캠 핸들을 열린 위치에 둔 상태에서 컨트롤러 모듈이 중앙판과 완전히 맞닿고 완전히 장착될 때까지 단단히 누른 다음 캠 핸들을 잠금 위치로 닫습니다.
 +

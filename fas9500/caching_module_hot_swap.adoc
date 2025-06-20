@@ -55,7 +55,7 @@ NOTE: 를 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9121/["명�
 
 . 캐싱 모듈을 제거합니다.
 +
-image::../media/drw_9500_remove_flashcache.svg[drw 9500 FlashCache를 제거합니다]
+image::../media/drw_9500_remove_flashcache.svg[캐싱 모듈을 분리합니다]
 
 +
 [cols="20%,80%"]

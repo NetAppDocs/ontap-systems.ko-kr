@@ -99,12 +99,12 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 . 컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
 . 캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.
 +
-image::../media/drw_2240_x_opening_cam_latch.svg[drw 2240 x 캠 개방 래치]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[컨트롤러를 분리합니다]
 
 . 컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.
 . 컨트롤러 모듈 측면에 있는 파란색 단추를 눌러 덮개를 연 다음 덮개를 컨트롤러 모듈에서 위로 돌려 분리합니다.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[컨트롤러 모듈을 엽니다]
 
 
 
@@ -140,7 +140,7 @@ video::12b339c5-640a-4be8-a5fc-af47017276fd[panopto]
 .. 파란색 분리 버튼을 누르고 캐싱 모듈을 위로 돌립니다.
 .. 캐싱 모듈을 하우징에서 똑바로 천천히 당겨 빼냅니다.
 +
-image::../media/drw_2850_replace_caching module_IEOPS-697.svg[2850 drw 캐시 모듈 IEOPS 697 교체]
+image::../media/drw_2850_replace_caching module_IEOPS-697.svg[캐싱을 교체하세요]
 
 +
 [cols="1,3"]

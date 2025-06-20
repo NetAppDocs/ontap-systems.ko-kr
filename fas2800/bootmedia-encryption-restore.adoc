@@ -429,3 +429,6 @@ Selection (1-11)? 1
 `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
+
+.다음 단계
+부팅 미디어에서 암호화를 복원한 후 다음을 link:bootmedia-complete-rma.html["결함이 있는 부품을 NetApp로 반환합니다"]수행해야 합니다.

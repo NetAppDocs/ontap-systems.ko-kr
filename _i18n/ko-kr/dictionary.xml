@@ -22,7 +22,6 @@
   <block id="73ffa1532dd710d7eb1520cb730fb392" category="paragraph">케이블 관리 장치에 케이블을 남겨 두면 케이블 관리 장치를 다시 설치할 때 케이블이 정리됩니다.</block>
   <block id="3e5a02473a086978bae6a6516ad46c5e" category="list-text">컨트롤러 모듈의 왼쪽과 오른쪽에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.</block>
   <block id="1b96f3aa099b152fc864dedb115af912" category="list-text">캠 손잡이의 래치를 꽉 잡고 캠 핸들을 완전히 열어 미드플레인에서 컨트롤러 모듈을 분리한 다음 두 손으로 컨트롤러 모듈을 섀시에서 꺼냅니다.</block>
-  <block id="d6daae29261c119313124d1d21a1c267" category="image-alt">drw 2240 x 캠 개방 래치</block>
   <block id="5fb9af22ffedd74df1492c91f96b8d7a" category="list-text">컨트롤러 모듈을 뒤집어 평평하고 안정적인 곳에 놓습니다.</block>
   <block id="99734ded605f0a86173c861064992678" category="list-text">파란색 탭을 밀어 덮개를 연 다음 덮개를 위로 돌려 엽니다.</block>
   <block id="c9401da24274c9e8ecd7f5ccb9df6dcd" category="section-title">3단계: NVMEM 배터리를 교체합니다</block>
@@ -30,7 +29,6 @@
   <block id="3c6ea2c01213e3cce235755697efaef0" category="list-text">NVMEM LED 확인:</block>
   <block id="ab01e8bc0bdcfd1b8e9fd68e8f127d6e" category="list-text">시스템이 HA 구성인 경우 다음 단계로 이동합니다.</block>
   <block id="992ba8f6a09995675199e12cea75d2b6" category="list-text">시스템이 독립 실행형 구성에 있는 경우 컨트롤러 모듈을 완전히 종료한 다음 NV 아이콘으로 식별되는 NVRAM LED를 확인합니다.</block>
-  <block id="8d2c918ab807c3bf6748afd3be858588" category="image-alt">drw HW NVRAM 아이콘</block>
   <block id="0d2f41567416b9039d5fd64d9cda09a2" category="paragraph">시스템을 중단할 때 플래시 메모리에 콘텐츠를 디스테이징하는 동안 NVRAM LED가 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.</block>
   <block id="3d12d323463409975d1721c7acad53e3" category="list-text">완전히 종료하지 않고 전원이 차단되면 NVMEM LED는 디스테이징이 완료될 때까지 깜박인 다음 LED가 꺼집니다.</block>
   <block id="9452f6d1d428f83bab1f0e5a0924350f" category="list-text">LED가 켜져 있고 전원이 켜져 있는 경우 기록되지 않은 데이터는 NVMEM에 저장됩니다.</block>
@@ -3459,7 +3457,6 @@
   <block id="c3ecc9b1be38b712a8f61f8b27c41352" category="list-text">컨트롤러 B 포트 e10a를 쉘프 2의 NSM B e0a에 연결합니다.</block>
   <block id="1a012ae90c41b7530ce0df40b8053d54" category="section-title">옵션 1: 네트워크 검색이 활성화된 경우</block>
   <block id="5eadc00e7d9146c2fd474e7d8d5f5137" category="list-text">다음 애니메이션 또는 그리기를 사용하여 하나 이상의 드라이브 쉘프 ID를 설정합니다.</block>
-  <block id="6b39390f8836ac9ddcaf033f6ec9d535" category="image-alt">설정된 셸프 ID 세트의 drw 전원을 켭니다</block>
   <block id="543ab7831f0589c951278e6073647eb0" category="paragraph">엔드 캡을 탈거하십시오.</block>
   <block id="77b9275f6fd711644f4214aa9c1fd216" category="paragraph">첫 번째 숫자가 깜박일 때까지 쉘프 ID 버튼을 누른 후 을 눌러 0-9로 이동합니다.</block>
   <block id="72e911c52ba51e970a39b1b30b1c8424" category="paragraph">엔드 캡을 교체합니다.</block>
@@ -4977,7 +4974,6 @@
   <block id="fb796745f1b93e7c27af0a928be9d5ae" category="doc">핫 스왑 A 캐싱 모듈 - FAS9500</block>
   <block id="fa807167a57a5e7782f90326093319e4" category="list-text">캐시 모듈이 시스템에서 볼 수 있을 정도로 제대로 작동하고 있어야 합니다. 마지막 부팅 이후 캐시 모듈이 작동하지 않는 경우 이 절차를 사용할 수 없으며 콜드 스왑 절차를 사용해야 합니다.</block>
   <block id="bdd8c99ec41c2de3e99ba0a36e04bfbf" category="list-text">admin 권한 수준에서, target NVMe slot for removal, y를 준비하고, 계속할지 여부를 묻는 메시지가 표시되면 y를 응답한다. 'system controller slot module remove-node_name-slot slot_number' 다음 명령을 실행하면 node1의 슬롯 6-1이 제거되도록 준비되고 안전하게 제거할 수 있다는 메시지가 출력된다.</block>
-  <block id="68607949342d7df39c7770d809d0a5f2" category="image-alt">drw 9500 FlashCache를 제거합니다</block>
   <block id="5e8d2460689245ee00f6d51f5db543dc" category="paragraph">테라 코타 해제 버튼.</block>
   <block id="948a2b625585740c830fda62dae13d97" category="list-text">캐싱 모듈 앞면에 있는 테라코타 해제 단추를 누릅니다.</block>
   <block id="783e93aa36e1cf0b0fe9d46618c3f4da" category="admonition">번호가 매겨진 문자 I/O 캠 래치를 사용하여 캐싱 모듈을 꺼내지 마십시오. 번호가 매겨지고 문자 글자가 새겨진 I/O 캠 래치는 캐싱 모듈이 아닌 전체 NVRAM11 모듈을 배출합니다.</block>
@@ -5010,7 +5006,6 @@
   <block id="9e51ab12d26faade2a31d70da71c74f5" category="list-text">교체 노드는 장애가 발생한 노드를 교체하는 새 노드입니다.</block>
   <block id="537af5095a4992ae7e9026bd3ff008a6" category="list-text">정상 노드는 정상 노드입니다.</block>
   <block id="c704a060606b2944e3c331124aaaa743" category="doc">세부 단계 - FAS9500</block>
-  <block id="9a7819d4ddc611b1438c0a7f4633f619" category="image-alt">OIE 케이블 미니 SAS HD - 미니 SAS HD</block>
   <block id="fd2cb99acafb4f0144bfb5e0e4c31373" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 뒤집은 다음 다시 시도하십시오.</block>
   <block id="3bdc20d60c6095f8c752a75e72777feb" category="doc">시스템 회수 - FAS9500</block>
   <block id="580fe6e7e310b3db810754c7c7927744" category="list-text">replacement_node가 유지보수 모드("*&gt;" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다</block>
@@ -5028,7 +5023,6 @@
   <block id="208e6af1006f73ba3b37a7e05e3692cd" category="list-text">노드를 정상 작동 상태로 되돌리십시오: 'storage failover 반환 - ofnode_impaired_node_name_'</block>
   <block id="837fcf17f123dccb1301f252ade8a58e" category="admonition">시스템이 2노드 MetroCluster 구성인 경우, 다음 단계에 설명된 대로 애그리게이트를 다시 전환해야 합니다.</block>
   <block id="abc219c929a34cf7b62e36c2503b63ac" category="video-title">애니메이션 - 컨트롤러 모듈을 제거합니다</block>
-  <block id="0b3bd9d9290b20b7deabeee68dbd8982" category="image-alt">drw 9500 PCM 소스를 제거합니다</block>
   <block id="0b8e9f368ea269ec23c6c676a7561e53" category="video-title">애니메이션 - 부팅 미디어를 교체합니다</block>
   <block id="defa99ee750d2ca6a8f52cf79e8eb713" category="list-text">bootarg.init.boot_clustered</block>
   <block id="d18fd3db938a26ebbd3f74de41f0b73f" category="list-text">파트너 - sysid</block>
@@ -5044,53 +5038,35 @@
   <block id="a1781eecf18376feb2f740b6a3d7781d" category="list-text">bootarg.Onboard_keymanager &lt;값&gt;</block>
   <block id="8ed13fe688162a9d4d89829700344e8f" category="list-text">'printenv variable-name' 명령을 사용하여 변경 사항을 확인합니다.</block>
   <block id="f8cc7bd538c729e18dab57ecfd18b69e" category="video-title">애니메이션 - NVRAM 모듈을 교체합니다</block>
-  <block id="9b191eaf82da57faf3acb37f96f84ca6" category="image-alt">drw 9500 이동 NVRAM 모듈을 제거합니다</block>
-  <block id="1b75d6028af1363f62eb9a45010f31c4" category="image-alt">drw 9500NVRAM 모듈 내용을 제거합니다</block>
-  <block id="2c2b9a83665e5336275a4320efcb9a16" category="image-alt">drw 9500 PCM을 탈거하십시오</block>
-  <block id="31006bbd619d2a77e6fe8ac85bee0cc0" category="image-alt">drw 9500 PCM이 열려 있습니다</block>
   <block id="65b7d00d22ce12162c084039ae28de63" category="video-title">애니메이션 - RTC 배터리를 교체합니다</block>
-  <block id="53eb8664ee63f8ed2095fd3f5e8eb8f1" category="image-alt">DRW 9500 RTC 배터리를 제거합니다</block>
   <block id="e0ec09ab8cb93f04e1ddb90be314a159" category="paragraph">배터리를 위로 돌립니다</block>
   <block id="0c724ad091d5fbe112bba9f946140f9b" category="paragraph">배터리를 하우징에서 밀어 꺼냅니다</block>
   <block id="4714e8423619d9cc43be300b5a406117" category="list-text">스토리지 'storage failover 반환 - ofnode impaired_node_name'을 제공하여 노드를 정상 작동 상태로 되돌립니다</block>
   <block id="29aa4a699a26a575f893c69af8527aa7" category="video-title">애니메이션 - 팬 제거/설치</block>
-  <block id="2966eb224d8489f097a42690752e472a" category="image-alt">drw 9500 설치 팬을 제거합니다</block>
   <block id="262047271a9f0ac7ba69952e78e4ced1" category="video-title">애니메이션 - PSU 제거/설치</block>
-  <block id="9494be0e4fc0cc7bf5a561ba23cc37dd" category="image-alt">drw 9500 설치 PSU 모듈을 제거합니다</block>
   <block id="c593377a30c937702f96d13d76989bc2" category="video-title">애니메이션 - I/O 모듈 제거/설치</block>
-  <block id="5ef805c7229de31e948db97478049a11" category="image-alt">drw 9500 PCIe 모듈을 제거합니다</block>
   <block id="1738e7d625dcae031916a2d329f6a6b1" category="video-title">애니메이션 - DCPM 탈거/장착</block>
-  <block id="450c055f11dd33524e41f3c84160e631" category="image-alt">drw 9500 NV 배터리를 제거합니다</block>
   <block id="cae2fd913220da36fb401366df2ed0b8" category="video-title">애니메이션 - USB 모듈 제거/설치</block>
-  <block id="0161d43ee09fff69cc35ae43ed1f07f5" category="image-alt">drw 9500 제거 LED 모드 교체</block>
   <block id="58f1a63de110893e27e2b9974273d710" category="video-title">애니메이션 - 컨트롤러 모듈 교체, 프로세스 완료</block>
-  <block id="eee0b061ed19ecc08e6c30167f3b0ca9" category="image-alt">drw 9500 부트 개발 제거</block>
-  <block id="3c882fe343465f148bf8900ab7dde11b" category="image-alt">DRW 9500 PCM DIMM을 교체합니다</block>
   <block id="abe0e9d012f3bb2e25626cbd54f69e36" category="video-title">애니메이션 - 컨트롤러 모듈을 설치합니다</block>
   <block id="9c50a16ad09918eb5e84e11b90826699" category="video-title">애니메이션 - 컨트롤러를 제거합니다</block>
-  <block id="3b0d2698116982bc6cc48e12fb31e0d2" category="image-alt">drw 9500 DIMM 맵</block>
   <block id="a0ab299f7b0b0e1628580e5c326625a7" category="video-title">애니메이션 - DIMM을 교체합니다</block>
   <block id="2ea72e4e42953327054629036f1b6a12" category="video-title">애니메이션 - 컨트롤러 설치</block>
   <block id="ce43cf0f3fdd398cbca499ba447d6df2" category="video-title">애니메이션 - 스위치가 없는 2노드 클러스터 케이블링</block>
-  <block id="b78339b4bcd807d0cb07b09d3b379c86" category="image-alt">drw 9500 tnsc 네트워크 케이블 연결</block>
   <block id="9f6754a88107405b79961d111f064f72" category="paragraph">케이블 32 Gb FC 네트워크 스위치:</block>
   <block id="393993c9f7562f1a53d4d13744facd0e" category="paragraph">슬롯 A3 및 B3(e3a 및 e3c) 및 슬롯 A9 및 B9(e9a 및 e9c)의 포트를 32Gb FC 네트워크 스위치에 연결합니다.</block>
   <block id="7b49110d5bcbc4998964949bf1d4d386" category="paragraph">케이블 25GbE 연결:</block>
   <block id="823c1d0595274590edabd782a377efc4" category="paragraph">슬롯 A5 및 B5(5a, 5b, 5c 및 5d)와 슬롯 A7 및 B7(7a, 7b, 7c 및 7d)의 케이블 포트를 25GbE 네트워크 스위치에 연결합니다.</block>
   <block id="67e68c155f62af046486d4818ab551b1" category="list-text">케이블을 케이블 관리 암에 연결합니다(그림 없음).</block>
   <block id="0815daeb3f5819b5b26f2d852a3480ed" category="video-title">애니메이션 - 스위치 방식 클러스터 케이블 연결</block>
-  <block id="ab4ba237fa2abf24783610d2c0f56a3a" category="image-alt">drw 9500 스위치 방식 네트워크 케이블 연결</block>
   <block id="3e86e158b18295e17a62b9c2ae164933" category="list-text">다음 애니메이션 또는 그림을 사용하여 컨트롤러를 3개(드라이브 쉘프 1개 스택 및 드라이브 쉘프 2개 스택) DS224C 드라이브 쉘프 에 연결합니다.</block>
-  <block id="dd012e2b911cefcb3afb5c18a9eea983" category="image-alt">drw 9500 SAS 셸프 케이블 연결</block>
   <block id="b216213c8469f70fd4cd72ba7795f4aa" category="paragraph">드라이브 쉘프 스택 1을 컨트롤러에 연결합니다. 참고로 사용하십시오.</block>
   <block id="ff080081ab0602360a6573f88141ada1" category="paragraph">드라이브 쉘프 스택 2를 컨트롤러에 연결합니다. 참고로 사용합니다.</block>
   <block id="6029e94957ee34ca18227d08b799c166" category="admonition">첫 번째 숫자가 계속 깜박입니다</block>
   <block id="5d41de9f95f6b3adc43d1136659190d1" category="paragraph">쉘프 ID 버튼을 두 번째 숫자가 깜박일 때까지 길게 누른 다음 을 눌러 0-9로 이동합니다.</block>
   <block id="28764a4bf139e725956a33d36127da72" category="admonition">첫 번째 숫자의 깜박임이 멈추고 두 번째 숫자의 깜박임이 계속됩니다.</block>
   <block id="a308cbadd7ff9683558704008014a7a5" category="video-title">애니메이션 - 컨트롤러의 전원을 켭니다</block>
-  <block id="92ffcfe5fdb4d48f02fe79bb44448ab3" category="image-alt">drw 9500 전원을 켭니다</block>
   <block id="89b878b89413c1b8d2254e6380e13c0d" category="list-text">시스템과 함께 제공된 콘솔 케이블을 사용하여 콘솔 케이블을 랩톱 또는 콘솔에 연결한 다음 랩톱을 관리 서브넷의 스위치에 연결합니다.</block>
-  <block id="27daaf3028854170e8321e8ffc573b7a" category="image-alt">drw 9500 케이블 콘솔 스위치 컨트롤러</block>
   <block id="c1ba9dd5eac89f4e8a8e84e18e1785d1" category="list-text">에서 수집한 데이터를 사용하여 시스템을 구성합니다<block ref="31fb422f2cdfc1b2e916b587bec00136" category="inline-link-rx"></block> .</block>
   <block id="e9a40b7f4288ab51ddb8de2a88f0cf93" category="video-title">애니메이션 - LED-USB 모듈 제거/설치</block>
   <block id="5fac6017ac5f7a2aad56f49afbe00547" category="paragraph">애니메이션 또는 표 형식 단계를 사용하여 컨트롤러를 단일 쉘프에 연결합니다.</block>
@@ -5266,8 +5242,6 @@
   <block id="052c4e56b98f7829dc91610f07b00a63" category="video-title">애니메이션 - 컨트롤러를 단일 NS224에 케이블로 연결합니다</block>
   <block id="b3a9c9a12a5c08d26dedba9b785cdd73" category="video-title">애니메이션 - 노트북을 관리 스위치에 연결합니다</block>
   <block id="00e71c1d8c914ec4583e90599632f9f5" category="video-title">애니메이션 - 메자닌 카드를 교체합니다</block>
-  <block id="b198e959073372c8a4e521b4b4a94fb3" category="video-title">애니메이션 - 드라이브 쉘프 케이블 연결</block>
-  <block id="219d4ec85f928925cadb5590292cbb49" category="video-title">애니메이션 - 쉘프 ID &amp;#8217;s를 설정합니다</block>
   <block id="3312f9cce5a2b0b4ea67ddcce0850bf9" category="video-title">애니메이션 - I/O 모듈을 교체합니다</block>
   <block id="1b251c10d7185e8e92bbc89e18a05085" category="video-title">애니메이션 - FAS9500 설치 및 설정 지침(ISI)</block>
   <block id="a51b0e75591721e9a3d930569f70d056" category="video-title">애니메이션 - 단일 NS224 선반을 케이블로 연결합니다</block>
@@ -6094,9 +6068,7 @@
   <block id="ca067501330c228a786fd00d17229575" category="paragraph">다중 경로 HA, 3중 경로 HA, 다중 경로, 4중 경로 HA 또는 컨트롤러에 대한 4중 경로 연결이 있는 스택의 맨 끝에 디스크 쉘프를 추가합니다</block>
   <block id="fa3d4e5360018aa45e5104272d43148c" category="paragraph">스택은 에 명시된 요구 사항을 충족해야 합니다 <block ref="d7ead9d51e0253f97f9c0ae83a2ee9eb" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="ba1ddb4c1d6bdc698ece9a974aae0713" category="paragraph">컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.</block>
-  <block id="1a829a672d8f4a1ab6936c766164f3fe" category="image-alt">2850 drw PCM 제거 IEOPS 694 설치</block>
   <block id="5d9c656065fa74e7cb14500497b33617" category="list-text">컨트롤러 모듈 측면에 있는 파란색 단추를 눌러 덮개를 연 다음 덮개를 컨트롤러 모듈에서 위로 돌려 분리합니다.</block>
-  <block id="206f40d3d3a553b715b00b4ada962595" category="image-alt">2850 drw 열린 컨트롤러 모듈 덮개 IEOPS 695</block>
   <block id="ac250ab529052385767cc5abd9d02efe" category="paragraph">컨트롤러 모듈 덮개 분리 단추</block>
   <block id="02196554e362859bf13fdb8c354bd53c" category="paragraph">메자닌 카드 아래에 있는 컨트롤러 모듈에서 부팅 미디어를 찾고 지침에 따라 교체합니다.</block>
   <block id="6b6e58fb741960f0300c7783438276a5" category="paragraph">부트 미디어 잠금 탭</block>
@@ -6122,7 +6094,6 @@
   <block id="a3dc3f912569e20eb3139702fd4a6206" category="inline-link">어떤 ONTAP 이미지를 다운로드해야 합니까? 볼륨 암호화 사용 여부</block>
   <block id="1532b93706d24d095538566641303954" category="list-text">클러스터에서 NVE가 지원되지 않는 경우 NetApp 볼륨 암호화 없이 이미지를 다운로드합니다.
 을 참조하십시오<block ref="087e4d006962c8ba6c4d8fdb71ff8e38" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="b455521e9b63749ce3c5c792316849ca" category="list-text">다운로드한 이미지의 압축을 풉니다.</block>
   <block id="0f844d6324319ebe9b4aabd24f1b88dd" category="list-text">컨트롤러 모듈을 설치합니다.</block>
   <block id="6bfde1459ef866428e3532004887b3b8" category="list-text">컨트롤러 모듈을 다시 장착합니다.</block>
   <block id="db5c04ca6cb958f296ff071cf8420f54" category="paragraph">카드에서 케이블과 SFP 및 QSFP 모듈을 분리하고 오류가 발생한 메자닌 카드를 교체한 다음 카드를 다시 꺼냅니다.</block>
@@ -6130,7 +6101,6 @@
   <block id="a0ff1a6d16d908c33e10409aed0ac623" category="paragraph">시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈의 덮개를 분리합니다.</block>
   <block id="cf6800eb49ae54456676c105c115a1fa" category="section-title">3단계: 메자닌 카드를 교체합니다</block>
   <block id="6918dd1d1ecfa7a18a047a925c4f30ee" category="paragraph">메자닌 카드를 교체합니다.</block>
-  <block id="808ce573561d6717a3c0cc395df3a504" category="image-alt">2850 drw 는 HIC IEOPS 700을 대체합니다</block>
   <block id="83b54898f0ac014b1e217ee413643205" category="paragraph">PCIe 메자닌 카드</block>
   <block id="64016c063cf6b470fdcccc5a97f852b1" category="list-text">메자닌 카드의 손잡이 나사를 풀고 메자닌 카드를 위로 들어올립니다.</block>
   <block id="4bca5310f65e82fe5c4eec2c7a1c6c17" category="list-text">교체용 메자닌 카드 플러그의 소켓을 마더보드의 소켓에 맞춘 다음 카드를 소켓에 똑바로 맞춥니다.</block>
@@ -6143,7 +6113,6 @@
   <block id="2a0805526339647b20ef0fc7df37dd6f" category="paragraph">컨트롤러 모듈을 분리하고 엽니다.</block>
   <block id="9ae3f8b33ac65ec233f1c5afa0e5b31c" category="paragraph">시스템에서 실패한 NVMEM 배터리를 제거하고 새 NVMEM 배터리로 교체합니다.</block>
   <block id="6858cb3dca131d0d76332f3bd5160ce7" category="video-title">애니메이션 - NV 배터리를 교체합니다</block>
-  <block id="cf7e5cd262adf1cc20a08505755f07a3" category="image-alt">2850 drw 는 nvbattery IEOPS 715를 대체합니다</block>
   <block id="168d99dab7a9fe08ab26290312dd16e7" category="paragraph">배터리 분리 탭</block>
   <block id="33d1a8451c69f74459695562e91ceef8" category="paragraph">배터리 전원 커넥터</block>
   <block id="c0c80117cce7bb03ee803f73b530673c" category="list-text">컨트롤러 모듈에서 결함이 있는 배터리를 분리합니다.</block>
@@ -6175,7 +6144,6 @@
   <block id="099cf7f6040f65b3c9d7fb3f7393d4c3" category="list-text">메자닌 카드를 똑바로 들어 올려 정전기 방지 표면에 놓습니다.</block>
   <block id="3356d87e196ed94acd2635f8d405e53f" category="paragraph">손상된 컨트롤러 모듈에서 부팅 미디어를 분리하여 교체 컨트롤러 모듈에 설치합니다.</block>
   <block id="fed0c92cdbae5ea9c1adbf11ed80e55a" category="list-text">메자닌 카드를 분리한 후 다음 그림 또는 컨트롤러 모듈의 FRU 맵을 사용하여 부팅 미디어를 찾습니다.</block>
-  <block id="45602b20a419ba91959f6389b3e025a3" category="image-alt">2850 drw 는 부팅 미디어 IEOPS 696을 교체합니다</block>
   <block id="a9ddd021b293dcac2e98382851f85f92" category="paragraph">부트 미디어 해제 버튼</block>
   <block id="f77adf36adb0721ff6a3bdb4c40ae967" category="list-text">다음과 같이 부팅 미디어를 제거합니다.</block>
   <block id="7716b5b822ee00aa2c3fbd58b6ff2117" category="list-text">부트 미디어 하우징의 파란색 버튼을 눌러 하우징에서 부트 미디어를 분리합니다.</block>
@@ -6187,7 +6155,6 @@
   <block id="507e7243ab4a1d0bdbfa4edd5c9733d3" category="list-text">메자닌 카드를 마더보드의 소켓에 맞춥니다.</block>
   <block id="fc7fc35188ad3f7c32f3328839f4dff2" category="list-text">카드를 조심스럽게 눌러 소켓에 장착합니다.</block>
   <block id="ec782fd2b49f0e4d6edd263c0d30d7f7" category="paragraph">손상된 컨트롤러 모듈에서 DIMM을 분리하여 교체 컨트롤러 모듈에 설치합니다.</block>
-  <block id="64b66263e264f63be40a6135bb7e5f04" category="image-alt">2850 drw DIMMs IEOPS 699 교체</block>
   <block id="2a7c25f4f62d559672aaa2da18086b65" category="paragraph">DIMM 잠금 래치</block>
   <block id="97d11e594531d9157ff1f8acb63fd22c" category="list-text">컨트롤러 모듈에서 DIMM을 찾습니다</block>
   <block id="dab2480c00fbe3b34d9af825595e97ae" category="admonition">DIMM을 교체 컨트롤러 모듈의 동일한 위치에 올바른 방향으로 삽입할 수 있도록 DIMM의 위치를 소켓에 기록해 두십시오.</block>
@@ -6200,7 +6167,6 @@
   <block id="3ef62fc6a162d755622021a1d6a1ed56" category="list-text">다른 DIMM에 대해서도 이 단계를 반복합니다.</block>
   <block id="873b72e260492016e7a701ecefab8d34" category="section-title">7단계: 캐싱 모듈을 이동합니다</block>
   <block id="2123f32d0c6f36af91430296709196a1" category="paragraph">손상된 컨트롤러 모듈에서 캐싱 모듈을 제거하여 교체 컨트롤러 모듈에 설치합니다.</block>
-  <block id="60f4158622c1b93ba749ee47777762b7" category="image-alt">2850 drw 캐시 모듈 IEOPS 697 교체</block>
   <block id="bdf54b9db8bfe07cda14f003e5b4afea" category="paragraph">캐시 모듈 잠금 버튼</block>
   <block id="d6be971cb9546606b4106e2ce6594564" category="list-text">컨트롤러 모듈 후면 근처에 있는 캐싱 모듈을 찾아서 분리합니다.</block>
   <block id="86afc3ba2df9db0892f3d7b13977fdb3" category="list-text">파란색 잠금 버튼을 누르고 캐싱 모듈을 위로 돌립니다.</block>
@@ -6236,11 +6202,9 @@
   <block id="58a4b1c93d94014eec48898453bccf6b" category="list-text">AutoSupport 유지보수 윈도우가 트리거된 경우 를 사용하여 윈도우를 종료합니다<block ref="9ac424c0d7b432975df36a19daf50c9c" prefix=" " category="inline-code"></block></block>
   <block id="f13ddfa8c0e2762d2f399acfc6f0806b" category="summary">전원 공급 장치 교체에는 손상된 전원 공급 장치를 끄고, 분리하고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.</block>
   <block id="9b0f331e43ad447dbbb78d71a44b1734" category="video-title">애니메이션 - 전원 공급 장치를 교체합니다</block>
-  <block id="ad74e1b8d39de33b6e8b9df71820c85f" category="image-alt">2850 drw는 PSU IEOPS 702를 대체합니다</block>
   <block id="2675f497966bc5cad0cdd88dbe6eab31" category="list-text">을(를) 기다립니다<block ref="f1cce1d6823a5337ea1ed313f3bc1d65" prefix=" " category="inline-code"></block> 반환 명령을 사용하여 반환이 실행되기 전에 명령을 완료합니다.</block>
   <block id="578b3122a990bee5553a818b631268ef" category="admonition">기브백이 거부되면 거부권 문제를 해결하십시오. 거부권이 해결되지 않으면 거부권을 무효화할 수 있습니다.</block>
   <block id="103256b354864966fcc74d6466bc1cc4" category="paragraph">RTC 배터리를 컨트롤러 내부에 찾아서 교체하고 특정 단계를 따릅니다.</block>
-  <block id="51f7be1d2b3585b769547e04e7036ed9" category="image-alt">2850 drw RTC 배터리 IEOPS 701을 교체합니다</block>
   <block id="9f463a2feadd622498da11734b7d3548" category="paragraph">컨트롤러 모듈을 다시 설치하고 LOADER 프롬프트로 부팅합니다.</block>
   <block id="8133c5bbfd79c61b3d28f53fd52d6b77" category="section-title">5단계: RTC 배터리 교체 후 시간/날짜를 설정합니다</block>
   <block id="e8b941fcc944e0bbefda4636b0900a37" category="list-text"><block ref="e8b941fcc944e0bbefda4636b0900a37" category="inline-link-macro-rx"></block></block>
@@ -6308,7 +6272,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3fc162aa6870cf22cf3e0a947b89615a" category="video-title">애니메이션 - 드라이브 쉘프 케이블링</block>
   <block id="6ac0c621e44f0d6d3cfb9a6035ba969b" category="list-text">IOM A의 포트 1을 IOM A의 포트 3으로 바로 아래에 있는 쉘프의 IOM A에서 포트 3으로 연결합니다.</block>
   <block id="a2a4a3ef1017cf43a3cf109d61286633" category="list-text">IOM B의 포트 1을 IOM B의 포트 3으로 바로 아래에 있는 쉘프의 IOM B에서 포트 3으로 연결합니다.</block>
-  <block id="9f8e1f093714df2b4e4cea2483986e1f" category="paragraph">미니 SAS HD - 미니 SAS HD 케이블 *</block>
   <block id="5725fc4af65adef1b57d4b7c9a365287" category="paragraph">랩톱에서 네트워크 검색이 활성화되지 않은 경우 수동으로 구성 및 설정을 완료합니다.</block>
   <block id="041e48089a1444bcdc82526d41790e40" category="paragraph">시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈 덮개를 분리합니다.</block>
   <block id="8caaa86fafbf22c9627e97fb31c1eea5" category="paragraph">컨트롤러 내에서 DIMM을 찾아 분리한 다음 다시 장착합니다.</block>
@@ -7217,7 +7180,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1c893d208d4a91c970226886751e800d" category="paragraph">다음 표에서는 스위치가 없는 2노드 클러스터와 스위치 없는 클러스터 모두에 대한 그림에서 호출 번호 및 케이블 색상이 있는 케이블 유형을 보여 줍니다.</block>
   <block id="1ab7eafd757e6d1eae57d16228e5edc3" category="list-text">스토리지 시스템을 스위치에 연결하는 방법에 대한 자세한 내용은 네트워크 관리자에게 문의하십시오.</block>
   <block id="089568b0e72f52eda465bac3d797022f" category="list-text">케이블 커넥터 당김 탭 방향이 올바른지 그림 화살표를 확인합니다.</block>
-  <block id="cef25943b26eeebcaa1241ede0442fb2" category="paragraph">이 애니메이션 또는 단계별 지침을 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다.</block>
   <block id="86ef3e62afc46d4fbce176cfff238447" category="paragraph">다음 표에는 드라이브 셸프를 스토리지 시스템에 연결하는 그림 설명에서 출력 번호 및 케이블 색상이 있는 케이블 유형이 나와 있습니다.</block>
   <block id="8a811c8bdca2987d299cfb24cf85ad86" category="paragraph">쉘프-쉘프 케이블링</block>
   <block id="3fa1bc4f962d0649f457ff7e994b46d8" category="paragraph">컨트롤러 A를 드라이브 쉘프에 연결합니다</block>
@@ -7226,7 +7188,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9aca62ddbd88e63be7ec9f9c2469acab" category="section-title">5단계: 스토리지 시스템 설치 및 구성을 완료합니다</block>
   <block id="b3308aded4f838607d118fa8281f0f4e" category="paragraph">옵션 1: 네트워크 검색이 활성화된 경우 또는 옵션 2: 네트워크 검색이 활성화되지 않은 경우 중 하나를 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.</block>
   <block id="cc76013bd2ca10d4b55bab3a0f8d5331" category="paragraph">랩톱에서 네트워크 검색이 활성화된 경우 자동 클러스터 검색을 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.</block>
-  <block id="89fb7289455abb973e1e1d1887a8172d" category="list-text">다음 애니메이션을 사용하여 셸프 전원을 켜고 셸프 ID를 설정합니다.</block>
   <block id="9be08f77b7ab4837ae1dadad63405dc2" category="list-text">컨트롤러의 전원을 켭니다</block>
   <block id="4a8d781d6ae79557515be034fcf4bd6e" category="list-text">다음 그림이나 단계를 사용하여 구성할 스토리지 시스템 노드를 검색합니다.</block>
   <block id="38c0c9e875391d2dc0f78f243ecc4f59" category="admonition">xxxxx는 타겟 노드의 스토리지 시스템 일련 번호입니다.</block>
@@ -9171,7 +9132,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cbb5640a4c423d549c9eb57b27dbd4ea" category="image-alt">아이콘 사각형 1 녹색</block>
   <block id="0b9a61d1a01d980aaf6ca850e1b286f5" category="paragraph"><block ref="0b9a61d1a01d980aaf6ca850e1b286f5" category="inline-link-macro-rx"></block></block>
   <block id="96a5f900d6bd8337209c17fce1a47ae5" category="image-alt">설명선 번호 3]</block>
-  <block id="b88e980e78bfd532f1f6322cf703cb25" category="image-alt">아이콘 사각형 1 파란색</block>
   <block id="f8fda7956963dfb2e60c6e0d0ffa6ede" category="list-text"><block ref="f8fda7956963dfb2e60c6e0d0ffa6ede" category="inline-link-macro-rx"></block></block>
   <block id="cd5ec5f3586869573f3f0b3112426052" category="sidebar">TR-4290 - NFS가 포함된 NetApp FAS 시스템 기반 SAP HANA</block>
   <block id="1e4893fc6c634f02ace3ba7beb78d669" category="inline-link-macro">쿼럼 상태입니다</block>
@@ -10964,7 +10924,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="045e51ef9fd14e92bed7263f56f60f6a" category="doc">컨트롤러(AFF A70 및 AFF A90)를 교체합니다</block>
   <block id="7802e205f19ce9b3c1e4b5875798ebef" category="inline-link-macro">시스템 구성을 복원합니다</block>
   <block id="44505b1d85314cbb257a6a2a6bf388ab" category="paragraph">손상된 AFF A70 또는 AFF A90 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
-  <block id="13b0f53aec80ac13170530410c42bc46" category="paragraph">AFF A70 또는 AFF A90 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="a61002aab76d792f612bedb7d53fdd4f" category="inline-link-macro">컨트롤러 교체를 완료합니다</block>
   <block id="8e4a77cdcca9305c0b2b2aaff9ccf95f" category="paragraph">스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전한 후에는 절차를 수행해야 <block ref="d6f5f08e0612b966d919b4ea0b494c53" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="09d0394dd9f4460ac15da27cea6fffaf" category="summary">논리 인터페이스가 홈 포트에 보고되는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp에 반환하여 AFF A70 및 AFF A90 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
@@ -11062,7 +11021,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="12f231246c1957ecc017d5e14e8fa5ce" category="doc">컨트롤러-AFF A1K을 교체합니다</block>
   <block id="a7a4c58bcecc6da48011ed379f160841" category="paragraph">손상된 AFF A1K 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="65cfd4efc075696b5b4fa182bd8310b6" category="summary">AFF A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
-  <block id="18ffded833a06eab340a3512c997924e" category="paragraph">AFF A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="c0fde7c58eda00a5144709bacf24bfe9" category="doc">컨트롤러 교체 요구사항 - AFF A1K</block>
   <block id="6911c42baf5226ca6d00478ac1b258b9" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp로 반환하여 AFF A1K 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="3559feca6c2a12a75b7a78f13f084dc8" category="summary">컨트롤러의 HA 구성이 활성 상태이고 AFF A1K 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크의 모든 경로가 표시되는지 확인합니다.</block>
@@ -11121,7 +11079,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f27d9a5f7d5680dbe736e6836d3c1a9f" category="summary">하드웨어 장애가 필요한 경우 ASA A70 또는 ASA A90 시스템에서 컨트롤러를 교체합니다. 이 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 시스템을 재부팅하는 작업이 포함됩니다.</block>
   <block id="2c72ab76cb7a954eb5f3546d4abad687" category="doc">컨트롤러(ASA A70 및 ASA A90)를 교체합니다</block>
   <block id="1a68c286a29e94a07ffe7e1a8e288e40" category="summary">ASA A70 또는 ASA A90 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
-  <block id="33973baa5847fa5dcb8ee97041c826ae" category="paragraph">ASA A70 또는 ASA A90 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="b25f0fb243bad5e39db497ca9643ee35" category="doc">컨트롤러 교체 요구 사항 - ASA A70 및 ASA A90</block>
   <block id="1e60488a65d744862b8f6292544da3f0" category="doc">전체 컨트롤러 교체 - ASA A70 및 ASA A90</block>
   <block id="bb9f8e902211727b75f62da6100f446a" category="summary">지나치게 수정할 수 있거나 수정할 수 없는 메모리 오류가 감지되면 ASA A70 또는 ASA A90 시스템의 DIMM을 교체합니다. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
@@ -11152,7 +11109,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f36c76518c1338c3f03a21b9d4c06d87" category="paragraph">하드웨어 오류가 필요한 경우 ASA A1K 시스템의 컨트롤러를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="f501a4282c0407a5377e73a38c2fe79c" category="paragraph">손상된 ASA A1K 컨트롤러를 교체한 후에는 다음을 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>수행해야 합니다.</block>
   <block id="0b7aa62fd5de84b2f6b9168c29cd9699" category="summary">ASA A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
-  <block id="650cd8dda24c1d628d2370fc896e2898" category="paragraph">ASA A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="6a41dab46dde5ea92e32bfe9162ff999" category="doc">컨트롤러 교체 요구 사항 - ASA A1K</block>
   <block id="1a197d6edeae9c94e0721ab454a5fb33" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp에 반환하여 ASA A1K 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="95155c153887de18d244e072071f2b3a" category="summary">컨트롤러의 HA 구성이 활성 상태이고 ASA A1K 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크에 대한 모든 경로가 표시되는지 확인합니다.</block>
@@ -11193,7 +11149,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d13e978f047aec74606199ffff94e6ba" category="doc">컨트롤러-AFF C80을 교체합니다</block>
   <block id="02a9e9984c956e264ae67617477e3c81" category="paragraph">하드웨어 오류가 필요한 경우 AFF C80 시스템의 컨트롤러를 교체합니다. 이 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 시스템을 재부팅하는 작업이 포함됩니다.</block>
   <block id="7fe746cff776821811860f80a8a2766b" category="paragraph">손상된 AFF C80 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
-  <block id="70ca6ca8fd81886c4dcc82d957e79ee9" category="paragraph">AFF C80 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="c59af556b2a6209df2da47002b6b6559" category="doc">컨트롤러 교체 요구 사항 - AFF C80</block>
   <block id="993406729b186cdaf4296a5964b58d0c" category="summary">논리 인터페이스가 홈 포트에 보고되는지 확인하고 클러스터 상태 점검을 수행한 다음 장애가 발생한 부품을 NetApp에 반환하여 AFF C80 컨트롤러 교체 절차의 마지막 단계를 완료합니다.</block>
   <block id="179b17b78c730160d70c7ea7bf15c4b0" category="paragraph">AFF C80 시스템의 시스템 구성을 복원하고 확인한 후에는 다음을 수행해야 <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>합니다.</block>
@@ -11226,7 +11181,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2e49773a386b54a9cb9b9ac6679c6e79" category="doc">컨트롤러를 교체합니다. - FAS70 및 FAS90</block>
   <block id="a09bde82e257a9efc5c840b3d64e8e4f" category="paragraph">손상된 FAS70 또는 FAS90 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="1e70422005019f4903b79a5a577df1a1" category="summary">스토리지 리소스를 교체 컨트롤러로 다시 관리하여 FAS70 또는 FAS90 시스템이 정상 작동을 재개할 수 있도록 합니다.</block>
-  <block id="493e5e25ac20d8aedaf3aae396a4ec29" category="paragraph">스토리지 리소스를 교체 컨트롤러로 다시 관리하여 FAS70 또는 FAS90 시스템이 정상 작동을 재개할 수 있도록 합니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="819d0a4d339e34d2e8daf63b772aae13" category="doc">컨트롤러-FAS70 및 FAS90을 대체할 요구사항</block>
   <block id="6dd3fde43a5f29446a4c49fb87879b65" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp로 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="dcac0d4d44ce3609f70b9f6817380eb7" category="summary">컨트롤러의 HA 구성이 활성 상태이고 FAS70 또는 FAS90 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크에 대한 모든 경로가 표시되는지 확인합니다.</block>
@@ -11412,7 +11366,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="85ff23f588feef29eb74730158d32ac1" category="list-text">각 전원 공급 장치의 전원 스위치를 끕니다.</block>
   <block id="8d2d400bb8fd6bedd576a4f6ecb3b00e" category="list-text">각 전원 공급 장치의 전원 스위치를 켜서 전원 사이클을 완료합니다.</block>
   <block id="8e07696a8d5e9a7e9c31668e6a3d49b7" category="paragraph">전원 공급 장치의 전원이 켜지면 2색 LED가 녹색으로 켜져야 합니다.</block>
-  <block id="efd27c031d08beb4f219a6bb74784e23" category="paragraph">AFF A1K 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="6c7364d4c1c4b5063efec0f8c273bf0e" category="doc">입출력 모듈 추가 - AFF A1K</block>
   <block id="a9c0987fd2b31f999e6738087d128cfb" category="doc">입출력 모듈 추가 및 교체 개요 - AFF A1K</block>
   <block id="5bd705ad3d1ea061d9af69ede4ff4f69" category="doc">I/O 모듈 교체 - AFF A1K</block>
@@ -11429,7 +11382,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dc5c74d1abe195182477161220f736cb" category="summary">하드웨어 장애가 필요한 경우 AFF A70 또는 AFF A90 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="d40f146aa7a5b4915ec82bbac5b1b200" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시 교체, 시스템 작업 확인을 통해 AFF A70 또는 AFF A90 스토리지 시스템의 섀시 교체를 시작하십시오.</block>
   <block id="cdab9753bdddb0aefefab44fd8865fbb" category="summary">AFF A70 또는 AFF A90 시스템의 컨트롤러를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 올바른 교체 컨트롤러가 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 작업이 포함됩니다.</block>
-  <block id="da2e83722a9d109b38820bde87ddb7a8" category="paragraph">AFF A70 및 AFF A90 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="caea42c273f28398fdc8ee7ee846cba1" category="image-alt">AFF A90 AFF A70 및 C80 무게 주의 아이콘</block>
   <block id="d33e53b401671bb9e3a6e4281b9c3735" category="doc">입출력 모듈(AFF A70 및 AFF A90)을 추가합니다</block>
   <block id="52f502f025ccffe3d4cc228d684b7404" category="doc">입출력 모듈 추가 및 교체 개요 - AFF A70 및 AFF A90</block>
@@ -11438,13 +11390,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="634fb6b2414a0adde8fe288c6e3a4d20" category="summary">하드웨어 오류가 필요한 경우 ASA A70 또는 ASA A90 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="626e429540858707bd287f5035fff3d8" category="summary">ASA A70 또는 ASA A90 시스템의 섀시를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고 ONTAP에 대한 로컬 관리자 자격 증명, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 작업이 포함됩니다.</block>
   <block id="5fcac3b7d3646c7d8da4eed2bc7243ed" category="summary">컨트롤러를 종료하고 섀시를 교체하며 시스템 작동을 확인하여 ASA A70 또는 ASA A90 스토리지 시스템의 섀시를 교체하는 작업을 시작하십시오.</block>
-  <block id="eb60074f3f47ce499f250468ad5726d5" category="paragraph">ASA A70 및 ASA A90 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="7123adf741599afcbf244e4e98d663f5" category="doc">SSD 드라이브 교체 - ASA A70 및 ASA A90</block>
   <block id="9b6a53cb25d5ad933496e9c5e800035c" category="doc">입출력 모듈(ASA A70 및 ASA A90)을 추가합니다</block>
   <block id="69d316c0d65bb5a04b4bf5e833d3782c" category="doc">입출력 모듈 추가 및 교체 - ASA A70 및 ASA A90 개요</block>
   <block id="be95fdb39b28a4328a79fd4d94cbeb8a" category="doc">입출력 모듈 교체 - ASA A70 및 ASA A90</block>
   <block id="77847efd1cd22c7d12c880345c3d2cbd" category="summary">ASA A70 또는 ASA A90 시스템에 장애가 발생하거나 결함이 발생한 경우, 안정적인 작동을 위해 시스템이 필요한 전원을 계속 공급받을 수 있도록 AC 또는 DC 전원 공급 장치(PSU)를 교체하십시오. 교체 프로세스에는 결함이 있는 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 결함이 있는 PSU를 교체한 다음 전원에 다시 연결하는 작업이 포함됩니다.</block>
-  <block id="114a1e34144ca96c18dd9f4b501897b1" category="paragraph">ASA A1K 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="ced875171f078cb35825b28e1856dd9d" category="doc">입출력 모듈 추가 - ASA A1K</block>
   <block id="8c1b02887a2e6fb34ad3351d42ea690b" category="doc">입출력 모듈 추가 및 교체 개요 - ASA A1K</block>
   <block id="b69d7ce462751c8d58c3cff284a4f258" category="doc">I/O 모듈 교체 - ASA A1K</block>
@@ -11499,12 +11449,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="148c37b997fbf92672f09bf3d72bdde2" category="summary">하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="5e4f388782b23b352ea8d9214c80bfd5" category="summary">AFF C80 시스템의 섀시를 교체하기 전에 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고 ONTAP에 대한 로컬 관리자 자격 증명, 올바른 교체 섀시 및 필요한 도구가 있는지 확인합니다.</block>
   <block id="149d9cc9170faac13c9c0680a914233c" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작동을 확인하여 AFF C80 시스템의 섀시 교체를 시작하십시오.</block>
-  <block id="69da385d0b4ed938e7f5432f78900f88" category="paragraph">AFF C80 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="2084cec6febad8ab72f79daa8b23a355" category="doc">입출력 모듈 추가 - AFF C80</block>
   <block id="79787f56fde4cb3ddec3ad369a61f158" category="doc">입출력 모듈 추가 및 교체 개요 - AFF C80</block>
   <block id="41528475327a8cca2a4718c8cf712b2d" category="doc">I/O 모듈 교체 - AFF C80</block>
   <block id="52c303d0882103b7a06ffa380685a14d" category="summary">AFF C80 시스템에 장애가 발생하거나 결함이 발생한 경우 AC 또는 DC 전원 공급 장치(PSU)를 교체하여 시스템이 안정적인 작동을 위해 필요한 전원을 계속 공급받을 수 있도록 하십시오. 교체 프로세스에는 결함이 있는 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 결함이 있는 PSU를 교체한 다음 전원에 다시 연결하는 작업이 포함됩니다.</block>
-  <block id="4050cf454bfa73771654e36df1daa1f3" category="paragraph">FAS70 및 FAS90 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이센스를 설치해야 합니다. 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 새 컨트롤러의 일련 번호를 등록한 다음 장애가 발생한 부품을 NetApp에 반환합니다.</block>
   <block id="049a0642927141e1d119692b5063c175" category="doc">I/O 모듈 추가 - FAS70 및 FAS90</block>
   <block id="a4612f2df8f0746881d188cca57452da" category="doc">I/O 모듈 추가 및 교체 개요 - FAS70 및 FAS90</block>
   <block id="c10739f7f976ccb066c6001d422a250a" category="doc">I/O 모듈 교체 - FAS70 및 FAS90</block>
@@ -11825,13 +11773,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d3a1b9f7d22d4b09db0b92c5183f1170" category="image-alt">25Gb 이더넷 커넥터</block>
   <block id="ee151691d95fa34033bab458f921f308" category="image-alt">스위치 클러스터 연결</block>
   <block id="422b19e9df415d67d88bd9b0fb3451d2" category="image-alt">관리 네트워크 연결</block>
-  <block id="fb8d77e1874a8ce16ad0e1d15408d8cd" category="image-alt">미니 SAS-미니 SAS 커넥터</block>
-  <block id="ead5f0e9b0fc157a5b141be2ccd44dbd" category="paragraph">+ 이미지::../media/drw_2800_shelf-to-shelf_cabling_IEOPS-895.svg [셸프-셸프 케이블 연결]</block>
-  <block id="b672b75ae62195a280bf8f67f6923701" category="paragraph">+. 컨트롤러 A를 드라이브 쉘프에 연결합니다. ... 컨트롤러 A 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM B 포트 1로 연결합니다. ... 컨트롤러 A 포트 0b1에서 IOM A로 스택 마지막 드라이브 쉘프의 포트 3으로 연결합니다.</block>
-  <block id="331c92c74ae2411dbfdce0b34bc0251f" category="paragraph">+ 이미지::../MEDIA/OIE_Cable_mini_SAS_HD_to_mini_SAS_HD.SVG [미니 SAS-미니 SAS 커넥터]</block>
-  <block id="2525bc76b22ae63a5087b660ed944490" category="paragraph">+ 이미지::../media/DWR-2800_Controller1 - shelf_IEOPS-896.svg[컨트롤러 A-셸프 연결]</block>
-  <block id="d93bc8a87f3c34f95017b69aa2590230" category="paragraph">+. 컨트롤러 B를 드라이브 쉘프에 연결합니다. ... 컨트롤러 B 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM A 포트 1로 연결합니다. ... 컨트롤러 B 포트 0b1을 스택의 마지막 드라이브 쉘프에 있는 IOM B 포트 3으로 연결합니다.</block>
-  <block id="05a6bd9e18c93cca4d9b550746dfd5d1" category="paragraph">+ 이미지::../media/DWR-2800_controller2 - shelf_IEOPS-897.svg[컨트롤러 B - 쉘프 연결]</block>
   <block id="40bde7f2324ee2876dd8a09846b14ff4" category="image-alt">전원을 켭니다</block>
   <block id="512bdc85c8065a0397ce7025381aaf66" category="image-alt">자동 검색 시스템</block>
   <block id="397249170dcc18ae00c3a7885f97fdc1" category="list-text">콘솔 케이블을 랩톱 또는 콘솔에 연결하고 스토리지 시스템과 함께 제공된 콘솔 케이블을 사용하여 컨트롤러의 콘솔 포트를 연결한 다음, 랩톱 또는 콘솔을 관리 서브넷의 스위치에 연결합니다.</block>
@@ -12016,5 +11957,68 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8fdc5ec3ff56b023a707d257557cb7c1" category="paragraph">FAS70 및 FAS90 스토리지 시스템은 NSM100 또는 NSM100B 모듈을 사용하여 DS212C, DS224C, DS460C 및 NS224 선반을 지원합니다.</block>
   <block id="cb1d7f2de7963108d3fe1b590a415523" category="paragraph">NS224 모듈의 주요 차이점은 다음과 같습니다.</block>
   <block id="a1c52b2edb23bc93318c0b82dc9baead" category="paragraph">다음 NS224 케이블링 예시는 쉘프 모듈 포트를 참조할 때 NS224 쉘프에 있는 NSM100 모듈을 보여줍니다.</block>
-  <block id="29cc4b807f94b06bddae2e11c6a56c1e" category="paragraph">USB 플래시 드라이브에는 손상된 컨트롤러가 실행 중인 것과 동일한 서비스 이미지(BIOS) 버전이 있어야 합니다.</block>
+  <block id="e275ee75ac16491873bfc9c9d1565329" category="paragraph">AFF A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="7c43eb5994700149a54fedd4ee1d8391" category="paragraph">AFF A1K 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하십시오(필요한 경우). 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 문제가 발생한 부분을 NetApp으로 반환하십시오.</block>
+  <block id="7b78a43d2ef1cd56888972224b322cba" category="section-title">1단계: LIF 확인 및 클러스터 상태 확인</block>
+  <block id="8cd41611fab4233f826795a5cff7057f" category="paragraph">AFF A70 또는 AFF A90 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="2097fe5d6db2ee8034ca3ec430540bd7" category="paragraph">AFF A70 또는 AFF A90 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하십시오(필요한 경우). 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 문제가 발생한 부분을 NetApp으로 반환하십시오.</block>
+  <block id="26625a50fa6e85a829f4ae9e66e4eeaf" category="paragraph">ASA A70 또는 ASA A90 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="7c549e4c601c8fdf656eed56c26fc0b1" category="paragraph">ASA A70 또는 ASA A90 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하십시오(필요한 경우). 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 문제가 발생한 부분을 NetApp으로 반환하십시오.</block>
+  <block id="313b22307115c166dbbc63f27c50f3d7" category="paragraph">ASA A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="641052e443b693ce41e21f05c5994e69" category="paragraph">ASA A1K 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하십시오(필요한 경우). 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 문제가 발생한 부분을 NetApp으로 반환하십시오.</block>
+  <block id="9004880577dcf1d74c99d6bebf00183c" category="paragraph">AFF C80 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="d87e0bc356d5924fdcb4486c339c3ed6" category="paragraph">AFF C80 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하십시오(필요한 경우). 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 문제가 발생한 부분을 NetApp으로 반환하십시오.</block>
+  <block id="f99fbeb85893ef928614af3af04b57f9" category="paragraph">스토리지 리소스를 교체 컨트롤러로 다시 관리하여 FAS70 또는 FAS90 시스템이 정상 작동을 재개할 수 있도록 합니다. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="e72336b4018af60c67f4cbf23f269180" category="paragraph">손상된 컨트롤러 모듈을 제거하고 열고, 컨트롤러에서 부팅 미디어를 찾아 교체하고, 부팅 이미지를 USB 드라이브로 전송하고, 컨트롤러에 USB 드라이브를 삽입한 다음 컨트롤러를 부팅해야 합니다.</block>
+  <block id="058a58abf3e6b9d728a2756ffe61127f" category="paragraph">컨트롤러는 섀시에 완전히 설치되면 부팅을 시작하고 LOADER 프롬프트에서 멈춥니다.</block>
+  <block id="21c4edb5ca29e24e278c8cc8630ccac2" category="image-alt">컨트롤러 모듈을 엽니다</block>
+  <block id="a665ff03cf3a259d8b99ade952697613" category="image-alt">캐싱을 교체하세요</block>
+  <block id="d3ec6e2694028a650f125d7451009961" category="image-alt">덮개를 제거하세요</block>
+  <block id="9379754ed9f3ab421dc04083411d001d" category="image-alt">메자닌 카드를 옮기세요</block>
+  <block id="191a2899fb1c6d81badd1d85126edeb4" category="image-alt">캐싱 모듈을 이동합니다</block>
+  <block id="408690a10a3a39e404462d2e1558a022" category="image-alt">NV 아이콘</block>
+  <block id="df44d7e45332b82ddd2a2cb6eb3f7a38" category="image-alt">DIMM을 교체합니다</block>
+  <block id="5ec55e0a37fd9e86ae241589ac05d8d2" category="paragraph">표에 나와 있는 해당 애니메이션이나 자세한 단계를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.</block>
+  <block id="0b13de20fe6ea39ec286743f12673e9b" category="image-alt">선반 간 케이블링</block>
+  <block id="b1905c91f00e1e7ad75a290938d0c0ae" category="list-text">컨트롤러 A를 드라이브 쉘프에 연결합니다.</block>
+  <block id="7414b28752291f5ed73122cbbe85acd3" category="list-text">컨트롤러 A 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM B 포트 1로 연결합니다.</block>
+  <block id="d490aaf97e1fdf82eb244edca242e5f7" category="list-text">컨트롤러 A 포트 0b1에서 IOM A로 스택 마지막 드라이브 쉘프의 포트 3으로 연결합니다.</block>
+  <block id="0b2a648dd1d045b83d1fa5142e7649da" category="image-alt">컨트롤러 A와 선반 연결</block>
+  <block id="575f5a968bfa57f9d0a99b09b5f73ff2" category="list-text">컨트롤러 B를 드라이브 쉘프에 연결합니다.</block>
+  <block id="49fefb8508936cb5a0f672b0146c0013" category="list-text">컨트롤러 B 포트 0a를 스택의 첫 번째 드라이브 쉘프에 있는 IOM A 포트 1로 연결합니다.</block>
+  <block id="0cbd55a3e4a33973ae5e025f7565fe75" category="list-text">컨트롤러 B 포트 0b1을 스택의 마지막 드라이브 쉘프에 있는 IOM B 포트 3으로 연결합니다.</block>
+  <block id="b6843b9add1e2cb558dffaed47319e3d" category="image-alt">컨트롤러 B와 선반 연결</block>
+  <block id="b1b862857f003aefeb508f3763b1caad" category="paragraph">선반 ID 설정이 필요한 두 옵션 중 하나에서 다음 애니메이션을 사용하세요.</block>
+  <block id="56632d1795a7d32b89a455a3b633b7f5" category="list-text">이 단계의 시작 부분에 있는 애니메이션을 사용하여 선반 전원을 켜고 선반 ID를 설정합니다.</block>
+  <block id="6a3ffb8f58252e034e90b5eb7a9cc233" category="list-text">이 단계의 시작 부분에 있는 애니메이션을 사용하여 선반 전원을 켜고 선반 ID를 설정합니다.</block>
+  <block id="cb102c5c1eccde9b442d1de001f76cc3" category="image-alt">컨트롤러 커버를 제거하세요</block>
+  <block id="8fca7d700183532fd08f68b674a86c60" category="image-alt">컨트롤러를 엽니다</block>
+  <block id="6abebf9335209d6b986ad1d41e48f43b" category="image-alt">메자닌 카드 교체</block>
+  <block id="9f8a96e46f0e86179108737100c29b9d" category="list-text">컨트롤러 커버를 다시 설치하세요.</block>
+  <block id="627450f7182bd50247300c6db6f17129" category="image-alt">PCI 모듈 제거</block>
+  <block id="ec6f3c3168126d55e199d31103c5eff8" category="image-alt">PSU 제거</block>
+  <block id="f2382f3ee3a7ff64d7ec97d77b5ab15c" category="image-alt">팬 제거</block>
+  <block id="4bfdd5a73e3720ad79c2b5323672c823" category="image-alt">LED 모듈을 분리합니다</block>
+  <block id="c23afc0489b14bba326028378555b9c1" category="image-alt">컨트롤러를 다시 설치하세요</block>
+  <block id="e16243c0ca21c7afdd6fc0990b04c048" category="image-alt">NV(DCPM) 배터리 교체</block>
+  <block id="5052644d2a37d1cfee946a38ee7221f2" category="image-alt">시스템 DIMM 맵</block>
+  <block id="376b1cae869bbe8ab1cce68fdb30b696" category="image-alt">DIMM을 교체합니다</block>
+  <block id="b8de587b448eba855f302087e9db5abe" category="image-alt">컨트롤러를 닫으세요</block>
+  <block id="cae1523af1f42548daf31beb55c076e0" category="image-alt">컨트롤러를 제거하거나 설치하세요</block>
+  <block id="8d0301aa96154a1dd899f6aadef9857e" category="image-alt">팬을 교체하세요</block>
+  <block id="fe50dc87275089b9495d8023e008b820" category="video-title">애니메이션 2노드 스위치리스 클러스터 케이블링</block>
+  <block id="7008a581ef7d44f47c027e3b2e9746e8" category="image-alt">TNSC 네트워크 케이블링 다이어그램</block>
+  <block id="f22ce3022c33416700b0499a02c630a6" category="video-title">애니메이션 스위치 클러스터 케이블링</block>
+  <block id="2f208beb3bb9a5b6070bc5ce129978b3" category="video-title">애니메이션 케이블로 드라이브 선반을 연결하세요</block>
+  <block id="813131c928daa8bd0b445b14f11fdefd" category="image-alt">SAS 쉘프 케이블링</block>
+  <block id="131cc8f642319d66d2eee46367e4254b" category="image-alt">미니-SAS HD 케이블</block>
+  <block id="41c5dae76a3f9314369f86b5e52c3453" category="video-title">애니메이션 선반 ID 설정</block>
+  <block id="ce8dd9fe7cfc645c2eaac3f8f1775ee7" category="image-alt">전원을 켜고 선반 ID를 설정하세요</block>
+  <block id="05e7f3a9aff7390f8890fd6714b7fc4a" category="video-title">애니메이션 컨트롤러의 전원을 켜세요</block>
+  <block id="921b8127a66db9c0d2ddd74b4aef6f67" category="video-title">애니메이션 노트북을 관리 스위치에 연결하세요</block>
+  <block id="7b7f09122e68189a8cc5eade0ea74852" category="image-alt">노트북에서 케이블로 전환</block>
+  <block id="c19c878358034620e42421b1d0e88979" category="image-alt">연결을 전환하기 위한 콘솔</block>
+  <block id="bcbe9ce5b2d50ad0b254f40cda6fc7e1" category="image-alt">전원을 켜고 선반 ID를 설정하세요</block>
+  <block id="43f978a7787080590a53cc2abdd637c9" category="image-alt">LED 모듈을 교체하세요</block>
+  <block id="a54c219a955221bc0586ab22f8a07401" category="image-alt">RTC 배터리를 교체하세요</block>
 </blocks>
