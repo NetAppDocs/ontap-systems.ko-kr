@@ -9965,8 +9965,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5914cbd8747a44dda8282e3747061adf" category="section-title">스토리지 시스템 중량입니다</block>
   <block id="bb7471e13b2ece22767cb35368ded2a7" category="section-title">선반 무게</block>
   <block id="fe464b77547b113c26b6c4a663f8d99c" category="paragraph">선반을 옮기거나 들어올릴 때 필요한 예방 조치를 취하십시오.</block>
-  <block id="55a163291cdcad8ab6af6a932720e193" category="inline-link-macro">AFF 시스템에 대해 자세히 알아보십시오</block>
-  <block id="67bacc9d73c9b4789f2c3cde9ab59ad8" category="paragraph">AFF A-Series 및 AFF C-Series 시스템은 가상화 환경에 맞게 조정된 강력한 스케일아웃 플랫폼을 제공합니다. 독립 실행형 시스템 또는 NetApp ONTAP 구성에서 고성능 계층으로 구축할 수 있습니다. <block ref="587107815f5f912e7d3b8f989c8db7df" category="inline-link-macro-rx"></block>..</block>
   <block id="9d9de1698f7e401c78687204de906ee5" category="list-text">AFF A20 를 참조하십시오</block>
   <block id="f8f6ba2d572ef729148f2d89d8ff810a" category="list-text">AFF A30 를 참조하십시오</block>
   <block id="cc6089132b9a5e4af29a76834480cc1a" category="list-text">AFF A50 를 참조하십시오</block>
@@ -9976,7 +9974,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8c20e9c3f526d526af74c044baf7da64" category="inline-link-macro">ASA R2 시스템에 대해 자세히 알아보십시오</block>
   <block id="77f5d8fa3689e046b946bfbacf61536e" category="paragraph">ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. <block ref="2f9305bd6f8a2949646123561cb92ab4" category="inline-link-macro-rx"></block>..</block>
   <block id="e2ead389bfa8a65f29bc4e57fdaf4a7b" category="inline-link-macro">ASA 시스템에 대해 자세히 알아보십시오</block>
-  <block id="0f14ce10f8ff3a34f46c25bba942372c" category="paragraph">ASA A-Series 및 ASA C-Series 시스템은 FCP 또는 iSCSI 프로토콜을 사용하여 엔터프라이즈 미션 크리티컬 데이터베이스 및 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다. <block ref="9c36b794130c589d6d71e1c2ef02ceef" category="inline-link-macro-rx"></block>..</block>
   <block id="2ce90a39656cd7489bede7894c2a9943" category="list-text">ASA AFF A250</block>
   <block id="7ddb32a2b45e07e265f9e454f57d2eb0" category="list-text">ASA AFF A800</block>
   <block id="b5efaabac2b0776c5f0ca29587d418e4" category="list-text">ASA AFF A400</block>
@@ -10451,7 +10448,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7e5d96420c04db907e37ffc0f25670b5" category="doc">ONTAP 하드웨어 및 소프트웨어 호환성</block>
   <block id="66a2f01bbe5e27a2d0a21ef15725c491" category="paragraph">ONTAP 하드웨어 시스템에 대한 전체 구성 지원 및 제한 사항은 에서 <block ref="ed4326c3351d8ac0e334b8b4d9b37c82" category="inline-link-rx"></block>확인할 수 있습니다. ONTAP 9 소프트웨어의 알려진 문제, 제한 사항 및 업그레이드 주의 사항에 대한 자세한 내용은 에서 확인할 수<block ref="84fe5db170ffeba3db16dd5c6d7a58db" category="inline-link-rx"></block> 있습니다.</block>
   <block id="c43fddbfefcc8dab0b365319ffc7ad2f" category="summary">ONTAP 하드웨어 시스템을 위한 새로운 플랫폼에 대해 알아보십시오.</block>
-  <block id="b1243a1d02acf9453220663ea4294abf" category="paragraph">ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오.</block>
   <block id="73b3856e20fbea83dc1573f8203ad6a4" category="section-title">2024년 12월</block>
   <block id="909cc883ddbed6fc06a25647ba1f212b" category="paragraph">이 시스템은 블록, 파일 및 오브젝트 스토리지를 지원하는 AI, VMware, 데이터베이스 및 분석을 포함한 미션 크리티컬 워크로드를 위한 실시간 ML 기반 랜섬웨어 감지, 원활한 클라우드 통합, 탁월한 성능을 제공합니다.</block>
   <block id="3c8e670cb2f634a0b68672d5f01ec686" category="inline-link-macro">AFF A-Series 시스템에 대해 자세히 알아보십시오</block>
@@ -11666,8 +11662,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1a22b1d20df6f5e65b8bb7003b91c005" category="section-title">3단계: 디스크를 다시 할당합니다</block>
   <block id="e7c2a2aadaeb3f0bbd622bc6dfdbba35" category="section-title">3단계: 컨트롤러 상태를 확인합니다</block>
   <block id="97e9b99ec4fb1f882057ec866b408907" category="paragraph">사용하지 않는 입출력 슬롯에는 발생 가능한 발열 문제를 방지하고 EMC 규정 준수를 위해 블랭킹 모듈이 설치되어 있어야 합니다.</block>
-  <block id="569db66c718b1f6397ae27568f2b6360" category="list-text">건강한 컨트롤러에서 손상된 컨트롤러를 반납합니다.<block ref="30edaf7c9fa43c78aeaf4b8fabb7af1a" prefix=" " category="inline-code"></block></block>
-  <block id="8036f04f3126628e1157f62c82a46ac6" category="list-text">NIC 모듈을 설치한 경우 각 포트의 사용법 모드를 _network_:<block ref="b5ce1b43695dab734898874661154238" prefix=" " category="inline-code"></block></block>
   <block id="bc8cd0b25c4f8f5afe020026e3d82314" category="paragraph">프로세스가 완료되고<block ref="fd27264bf07cac36017c79d5bc35af81" prefix=" " category="inline-code"></block> 메시지가 표시됩니다.</block>
   <block id="59b113844b84da51f785fb0828d66ba7" category="list-text">키가 성공적으로 복원되지 않으면 시스템이 중지되고 키를 복원할 수 없음을 나타냅니다. 오류 및 경고 메시지가 표시됩니다. 복구 프로세스를 다시 실행합니다.</block>
   <block id="f3b6228c1cbd418b703785112e6450cf" category="list-text">손상된 컨트롤러에 메시지가 나타나면 를<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block> 눌러 _/etc/ssh/ssh_host_ECDSA_key_를 덮어씁니다.</block>
@@ -11709,7 +11703,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2dcdf3018c4d483d8c38e450dbdf5944" category="list-text">시스템에 V_StorageAttach 라이센스가 있는 경우 이 절차를 수행하기 전에 필요한 추가 단계를 참조해야 합니다.</block>
   <block id="1253bf6221482d606a7719ba415d9176" category="admonition">이때 다른 케이블이나 전원 코드를 연결하지 마십시오.</block>
   <block id="c69071436bdfe1b2f2edc29969a29980" category="admonition">교체 컨트롤러는 정상 상태의 컨트롤러로부터 전원을 공급받고 섀시에 완전히 장착되는 즉시 부팅을 시작합니다.</block>
-  <block id="5cb4dbca31ce772b17987c15a725b52e" category="list-text">노드를 정상 작동 상태로 되돌립니다.</block>
   <block id="257315f653a5868c10e8897449aa264f" category="list-text">정상 상태의 컨트롤러 콘솔에서 자동 반환 복원:</block>
   <block id="b9adb77861a7f27800ce914be076df5d" category="list-text"><block ref="b9adb77861a7f27800ce914be076df5d" category="inline-link-macro-rx"></block></block>
   <block id="ec3558cc556230de3472d8f669055445" category="paragraph"><block ref="ec3558cc556230de3472d8f669055445" category="inline-link-macro-rx"></block></block>
@@ -12027,4 +12020,19 @@ SFP+(타겟/이니시에이터)</block>
   <block id="72dc238e73081e826d88e29df24b4c58" category="paragraph">하드웨어 오류가 필요한 경우 AFF C30 또는 AFF C60 시스템의 섀시를 교체합니다. 교체 과정에는 컨트롤러 제거, 드라이브 제거, 교체 섀시 설치, 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="149eed3e03e259c4e52b1de45a4fe3e9" category="paragraph">셸프의 드라이브 드로어를 교체하려면 전체 스토리지 시스템(HA 쌍)을 중지하여 셸프에 데이터 집계를 유지할 수 있습니다. 또는 HA 쌍을 계속 작동 상태로 유지할 수 있는데, 이렇게 하려면 셸프 디스크 드라이브에 있는 데이터 집계의 모든 데이터를 이동한 후 오프라인으로 전환하고 해당 데이터 집계를 삭제해야 합니다. 셸프에 루트 집계가 포함된 경우 HA 쌍을 중지해야 합니다.</block>
   <block id="12e16a41f9ae5c97288e4e9e78b0bbf6" category="list-text">선반에 있는 모든 디스크 드라이브에 있는 데이터 집계에서 모든 데이터를 이동합니다.</block>
+  <block id="18de2c69e2059bfb4397c266ca003000" category="list-text">AutoSupport 활성화된 경우 자동 케이스 생성을 복원(억제 해제)합니다. +</block>
+  <block id="2aa2517148232c12ae58df0e0682f437" category="list-text">LOADER 프롬프트에서 손상된 컨트롤러를 재부팅합니다.</block>
+  <block id="9607981dab4fa77906d0065cb84e707f" category="list-text">AutoSupport 활성화된 경우 자동 케이스 생성을 복원(억제 해제)합니다.</block>
+  <block id="6752a0d2cd717c7824d154f27bacd610" category="list-text">NIC 모듈을 설치한 경우 각 포트의 사용 모드를 _network_로 지정합니다.</block>
+  <block id="249c68a3d34c9d4fc7fa8e3d5b116625" category="paragraph"><block ref="b5ce1b43695dab734898874661154238" prefix="" category="inline-code"></block></block>
+  <block id="b29e463b3ffa2246f6ca9731ac640d4f" category="list-text">건강한 컨트롤러에서 날짜와 시간을 확인하세요.</block>
+  <block id="540405fb4a2a991ec2b5bd0ec4a08d48" category="paragraph"><block ref="1cac34e5e8442fb80d6ade838d969fc0" prefix="" category="inline-code"></block></block>
+  <block id="526f0f6f4025118277a35fffe0e34747" category="list-text">손상된 컨트롤러에서 LOADER 프롬프트에서 시간과 날짜를 확인하세요.</block>
+  <block id="32544c893b7f5f19e7a5f77a5c3e83d8" category="list-text">필요한 경우 날짜를 수정하세요.</block>
+  <block id="b44d7cf4a1e6c8202283ae7adf14c206" category="paragraph"><block ref="7e61842d1d9bb6d13127efea49e14c96" prefix="" category="inline-code"></block></block>
+  <block id="be701243d86021173bd71c46c1236c57" category="list-text">필요한 경우 GMT로 시간을 설정하세요.</block>
+  <block id="a85af06f0bd401f4adf6e2aa1bb77ee7" category="paragraph">AFF A-Series 및 AFF C-Series 시스템은 가상화 환경에 맞게 조정된 강력한 스케일아웃 플랫폼을 제공합니다. 독립 실행형 시스템 또는 NetApp ONTAP 구성에서 고성능 계층으로 구축할 수 있습니다. 및 에 대해 자세히 <block ref="e32d7f43a965b20b68ffaecd5419d04d" category="inline-link-macro-rx"></block><block ref="bab42395a66f3eaff2c39fe532427141" category="inline-link-macro-rx"></block>알아보십시오.</block>
+  <block id="d28d6e92f4637a29005ec41e1e153608" category="paragraph">ASA A-Series 및 ASA C-Series 시스템은 FCP 또는 iSCSI 프로토콜을 사용하여 엔터프라이즈 미션 크리티컬 데이터베이스 및 기타 SAN 워크로드에 지속적인 데이터 가용성을 제공하는 간편한 전용 SAN 경험을 제공합니다. <block ref="81e0314610971d584490a2155e03ad8e" category="inline-link-macro-rx"></block>..</block>
+  <block id="f43d5eca9a113ac2db5fd46e7f859dc2" category="inline-link-macro">더 이상 지원되지 않는 하드웨어</block>
+  <block id="0fabeaca13110e9bf6952a432c728512" category="paragraph">ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오. 추가 지원 정보는 다음을 참조하세요. <block ref="957a5393ecc937ae8cfffe4d00549121" category="inline-link-macro-rx"></block> 그리고 <block ref="54b6b6b0b8b3660c20a40919b7a145c9" category="inline-link-macro-rx"></block> .</block>
 </blocks>

@@ -347,6 +347,18 @@ DC PSU입니다
 
 
 |===
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원:
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport 활성화된 경우 자동 케이스 생성을 복원(억제 해제)합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
 
 
 

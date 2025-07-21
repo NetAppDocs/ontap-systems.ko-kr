@@ -40,8 +40,8 @@ NOTE: 암호를 묻는 메시지가 두 번 표시됩니다.
 . 콘솔 케이블을 파트너 노드로 이동하고 로 `admin`로그인합니다.
 . CFO 애그리게이트(루트 애그리게이트)만 반환합니다. `storage failover giveback -fromnode local -only-cfo-aggregates _true_`
 +
-** 오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
 
+NOTE: 오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
 
 . 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다 `storage failover show`. 및 `storage failover show-giveback`.
 . 동기화 및 키 상태 확인:

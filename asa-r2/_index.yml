@@ -11,7 +11,7 @@ indexpage:
     - title: ASA R2 스토리지 시스템에 대해 알아보십시오
       url: https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html
     - title: ASA 데이터시트 를 참조하십시오
-      url: https://www.netapp.com/data-storage/all-flash-san-storage-array/
+      url: https://www.netapp.com/asa/
   - title: ASA R2 시스템을 설치하고 유지 관리합니다
     links:
     - title: ASA R2 시스템을 설치합니다

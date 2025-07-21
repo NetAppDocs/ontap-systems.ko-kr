@@ -151,10 +151,19 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 +
 손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성 요소도 다시 초기화됩니다.
 
-. 건강한 컨트롤러에서 손상된 컨트롤러를 반납합니다. `storage failover giveback -ofnode _impaired_node_name_`
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+`storage failover giveback -ofnode _impaired_node_name_`..
+
 . 이 단계를 반복하여 다른 컨트롤러에 입출력 모듈을 추가합니다.
-. 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원: `storage failover modify -node local -auto-giveback _true_`
-. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원(기능 억제 해제)합니다. `system node autosupport invoke -node * -type all -message MAINT=END`
+. 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원:
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport 활성화된 경우 자동 케이스 생성을 복원(억제 해제)합니다. +
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
 
 
 --
@@ -230,14 +239,29 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 스토리지 I/O 모듈을 설치한 경우 에 설명된 대로 NS224 쉘프를 설치하고 연결합니다. https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf-overview.html["핫 애드 워크플로우"^]
 
 . I/O 모듈 분리 및 설치 단계를 반복하여 컨트롤러에 추가 I/O 모듈을 추가합니다.
-. Loader 프롬프트에서 손상된 컨트롤러를 재부팅합니다. `bye`
+. LOADER 프롬프트에서 손상된 컨트롤러를 재부팅합니다.
++
+`bye`
+
 +
 손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성 요소도 다시 초기화됩니다.
 
-. 건강한 컨트롤러에서 손상된 컨트롤러를 반납합니다. `storage failover giveback -ofnode _impaired_node_name_`
-. 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원: `storage failover modify -node local -auto-giveback _true_`
-. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원(기능 억제 해제)합니다. `system node autosupport invoke -node * -type all -message MAINT=END`
-. NIC 모듈을 설치한 경우 각 포트의 사용법 모드를 _network_: `storage port modify -node _node_name_ -port _port_name_ -mode _network_`
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 정상 상태의 컨트롤러 콘솔에서 자동 반환 복원:
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport 활성화된 경우 자동 케이스 생성을 복원(억제 해제)합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+. NIC 모듈을 설치한 경우 각 포트의 사용 모드를 _network_로 지정합니다.
++
+`storage port modify -node _node_name_ -port _port_name_ -mode _network_`
+
 . 다른 컨트롤러에 대해 이 단계를 반복합니다.
 
 

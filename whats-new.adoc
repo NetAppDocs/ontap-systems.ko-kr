@@ -11,7 +11,7 @@ summary: ONTAP 하드웨어 시스템을 위한 새로운 플랫폼에 대해 �
 
 
 [role="lead"]
-ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오.
+ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오. 추가 지원 정보는 다음을 참조하세요. link:supported-platforms.html["ONTAP 하드웨어 및 소프트웨어 호환성"] 그리고 link:eoa-hardware.html["더 이상 지원되지 않는 하드웨어"] .
 
 
 
