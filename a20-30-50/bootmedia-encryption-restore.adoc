@@ -2,16 +2,16 @@
 permalink: a20-30-50/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, post boot media replacement steps for okm, nse, and nve 
-summary: AFF A20, AFF A30 또는 AFF A50 시스템의 교체 부팅 미디어에서 암호화를 복원하여 지속적인 데이터 보호를 보장합니다. 교체 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다. 
+summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부팅 미디어에 암호화를 복원하여 데이터 보호를 지속하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용, 데이터 보안 액세스 확인이 포함됩니다. 
 ---
-= 부팅 미디어(AFF A20, AFF A30 및 AFF A50)에서 암호화를 복원합니다
+= 수동 부팅 복구 후 암호화 키 복원 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF A20, AFF A30 또는 AFF A50 시스템의 교체 부팅 미디어에서 암호화를 복원하여 지속적인 데이터 보호를 보장합니다. 교체 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다.
+AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부팅 미디어에 암호화를 복원하여 데이터 보호를 지속하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용, 데이터 보안 액세스 확인이 포함됩니다.
 
 부팅 미디어 교체 절차의 시작 부분에 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.
 

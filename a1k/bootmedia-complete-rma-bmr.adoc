@@ -1,0 +1,14 @@
+---
+permalink: a1k/bootmedia-complete-rma-bmr.html 
+sidebar: sidebar 
+keywords: a1k, complete the replacement process 
+summary: AFF A1K 시스템의 구성 요소가 고장난 경우, 고장난 부품을 NetApp 으로 반환하세요. 
+---
+= 실패한 부팅 미디어 부분을 NetApp 으로 반환 - AFF A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AFF A1K 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

@@ -1,0 +1,20 @@
+= 
+:allow-uri-read: 
+
+
+정상적인 컨트롤러에 스토리지를 반환하고, 자동 반환을 복원하고, AutoSupport 자동 케이스 생성을 다시 활성화하여 스토리지 시스템을 정상 작동 상태로 복구합니다.
+
+.단계
+. 건강한 컨트롤러(인수된 컨트롤러)를 저장장치를 반환하여 정상 작동 상태로 되돌립니다.
++
+`storage failover giveback -ofnode _healthy_node_name_`
+
+. 손상된 컨트롤러(건강한 컨트롤러를 인수한 컨트롤러)의 콘솔에서 자동 반환을 복원합니다.
++
+`storage failover modify -node local -auto-giveback _true_`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=end`
+
+

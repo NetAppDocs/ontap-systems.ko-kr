@@ -22,8 +22,6 @@ indexpage:
       url: "../sas3/install-hot-add-shelf.html"
     - title: 쉘프 ID를 변경합니다
       url: "../sas3/install-change-shelf-id.html"
-    - title: IOM6 쉘프 스택에 핫 추가 쉘프(혼합 스택)
-      url: "../sas3/iom12-hot-add-mix.html"
     - title: SAS 케이블 연결 규칙, 워크시트 및 예
       url: "../sas3/overview-cabling-rules-examples.html"
   - title: NS224 쉘프를 유지합니다

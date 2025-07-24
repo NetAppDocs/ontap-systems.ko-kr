@@ -4,31 +4,38 @@ sidebar: sidebar
 keywords: aff a20 aff a30 aff a50 maintenance, maintenance, repairing a20 aff a30 aff a50, replace a20 aff a30 aff a50 components 
 summary: 장기적인 안정성과 최적의 성능을 보장하기 위해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 하드웨어를 유지 관리합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= 하드웨어 유지 관리 개요 - AFF A20, AFF A30 및 AFF A50
+= AFF A20, AFF A30 및 AFF A50 유지 관리 절차 개요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-장기적인 안정성과 최적의 성능을 보장하기 위해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 하드웨어를 유지 관리합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.
+장기적인 안정성과 최적의 성능을 보장하려면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 하드웨어를 정기적으로 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.
 
-유지 관리 절차에서는 AFF A20, AFF A30 및 AFF A50 시스템이 이미 ONTAP 환경에 스토리지 노드로 구축되어 있다고 가정합니다.
+유지 관리 절차에서는 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.
 
 
 
 == 시스템 구성 요소
 
-AFF A20, AFF A30 및 AFF A50 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.
+AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 경우 다음 구성 요소에 대한 유지 관리 절차를 수행할 수 있습니다.
 
 [cols="25,65"]
 |===
 
 
  a| 
-link:bootmedia-replace-workflow.html["미디어를 부팅합니다"]
+link:bootmedia-replace-workflow-bmr.html["부팅 미디어 - 자동 복구"]
  a| 
-부팅 매체에는 ONTAP 이미지 파일의 기본 및 보조 집합과 시스템이 부팅할 때 사용하는 시스템 구성 정보가 저장됩니다.
+부팅 미디어는 스토리지 시스템이 파트너 노드에서 이미지를 부팅하고 적절한 부팅 메뉴 옵션을 자동으로 실행하여 교체 부팅 미디어에 부팅 이미지를 설치하는 데 사용하는 기본 및 보조 ONTAP 이미지 파일 세트를 저장합니다. 자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
+
+
+
+ a| 
+link:bootmedia-replace-workflow.html["부팅 미디어 - 수동 복구"]
+ a| 
+부팅 미디어는 스토리지 시스템이 USB 드라이브에서 이미지를 부팅하고 파트너 노드에서 구성을 복원하는 데 사용하는 기본 및 보조 ONTAP 이미지 파일 세트를 저장합니다.
 
 
 

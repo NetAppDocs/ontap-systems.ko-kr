@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, pre-shutdown checks for onboard encryption keys 
 summary: A20, AFF A30 또는 AFF A50 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다. 
 ---
-= 부팅 미디어에서 암호화 키 지원 및 상태를 확인합니다(AFF A20, AFF A30 및 AFF A50)
+= 수동 부팅 미디어 복구에 대한 암호화 지원 확인 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

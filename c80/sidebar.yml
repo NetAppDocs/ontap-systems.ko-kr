@@ -24,7 +24,22 @@ entries:
   entries:
   - title: 유지 보수 개요
     url: "/c80/maintain-overview.html"
-  - title: 미디어를 부팅합니다
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: C80 부팅 미디어
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/c80/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/c80/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/c80/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/c80/bootmedia-replace-bmr.html"
+    - title: 부팅 복구 이미지
+      url: "/c80/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/c80/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
     pdf-filename: C80 부팅 미디어
     entries:
     - title: 부팅 미디어 교체 워크플로우

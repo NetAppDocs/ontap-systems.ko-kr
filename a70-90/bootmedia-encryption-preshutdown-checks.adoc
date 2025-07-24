@@ -2,9 +2,9 @@
 permalink: a70-90/bootmedia-encryption-preshutdown-checks.html 
 sidebar: sidebar 
 keywords: aff a70, aff a90, pre-shutdown checks for onboard encryption keys 
-summary: 'AFF A70 및 AFF A90 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.' 
+summary: 'AFF A70 또는 AFF A90 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.' 
 ---
-= 부팅 매체에서 암호화 키 지원 및 상태를 확인합니다(AFF A70 및 AFF A90)
+= 수동 부팅 미디어 복구에 대한 암호화 지원 확인 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

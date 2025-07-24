@@ -2,7 +2,7 @@
 permalink: a70-90/bootmedia-complete-rma.html 
 sidebar: sidebar 
 keywords: aff a70, aff a90, complete the replacement process 
-summary: 'AFF A70 또는 AFF A90 시스템의 구성 요소에 장애가 발생하면 결함이 있는 부품을 NetApp로 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.' 
+summary: 'AFF A70 또는 AFF A90 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp 으로 반송하십시오 .  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"] 자세한 내용은 페이지를 참조하세요.' 
 ---
 = 결함이 있는 부품을 NetApp-AFF A70 및 AFF A90로 반환합니다
 :allow-uri-read: 
@@ -11,4 +11,4 @@ summary: 'AFF A70 또는 AFF A90 시스템의 구성 요소에 장애가 발생�
 
 
 [role="lead"]
-AFF A70 또는 AFF A90 시스템의 구성 요소에 장애가 발생하면 결함이 있는 부품을 NetApp로 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.
+AFF A70 또는 AFF A90 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp 으로 반송하십시오 .  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"] 자세한 내용은 페이지를 참조하세요.

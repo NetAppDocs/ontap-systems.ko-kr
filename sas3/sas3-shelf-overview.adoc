@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sas3, shelves, shelf, sas3 shelves, drive, aggregate, shelf maintenance 
 summary: sas3 셸프 유지 보수 개요 
 ---
-= 쉘프 유지 관리 개요 - SAS 쉘프
+= 선반 유지 관리 개요 - DS212C, DS224C 또는 DS460C
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

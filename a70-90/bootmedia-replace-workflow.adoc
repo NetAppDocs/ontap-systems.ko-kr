@@ -2,16 +2,20 @@
 permalink: a70-90/bootmedia-replace-workflow.html 
 sidebar: sidebar 
 keywords: aff a70, a90, replace the boot media 
-summary: 교체 미디어를 준비하고 시스템에 설치하고 부팅 이미지를 복원하고 시스템 기능을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 부팅 미디어를 교체하는 작업을 시작하십시오. 
+summary: 부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF A70 또는 AFF A90 시스템의 교체 부트 미디어에 ONTAP 다시 설치하는 과정입니다. NetApp 지원 사이트에서 해당 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 정상 작동 상태로 복원합니다. 
 ---
-= 부팅 미디어 교체 워크플로우 - AFF A70 및 AFF A90
+= 부팅 미디어 수동 복구 워크플로 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 요구 사항을 검토하고, 암호화 상태 확인, 컨트롤러 종료, 부팅 미디어 교체, 복구 이미지 부팅, 암호화 복원 및 시스템 기능 확인을 통해 AFF A70 또는 AFF A90 스토리지 시스템의 부팅 미디어 교체를 시작하십시오.
+부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF A70 또는 AFF A90 시스템의 교체 부트 미디어에 ONTAP 다시 설치하는 과정입니다. NetApp 지원 사이트에서 해당 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 정상 작동 상태로 복원합니다.
+
+시스템이 ONTAP 9.17.1 이상에서 실행 중인 경우 다음을 사용하세요. link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .
+
+시작하려면 복구 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, USB 드라이브를 사용하여 이미지를 복원하고, 필요한 경우 암호화 설정을 다시 적용하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-replace-requirements.html["부팅 미디어를 교체하는 데 필요한 요구 사항을 검토합니다"]
 [role="quick-margin-para"]
@@ -23,7 +27,7 @@ summary: 교체 미디어를 준비하고 시스템에 설치하고 부팅 이�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 스토리지 시스템에서 컨트롤러를 종료합니다.
+부팅 미디어를 교체해야 할 때 컨트롤러를 종료합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-replace.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]
@@ -35,7 +39,7 @@ USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:bootmedia-encryption-restore.html["암호화를 복원합니다"]
 [role="quick-margin-para"]
-ONATP 부팅 메뉴에서 온보드 키 관리자 구성 또는 외부 키 관리자를 복원합니다.
+ONTAP 부팅 메뉴에서 온보드 키 관리자 구성이나 외부 키 관리자를 복원합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png["7번"]link:bootmedia-complete-rma.html["장애가 발생한 부품을 NetApp으로 반환합니다"]
 [role="quick-margin-para"]

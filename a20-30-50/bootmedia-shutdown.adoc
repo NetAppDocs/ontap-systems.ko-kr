@@ -2,16 +2,16 @@
 permalink: a20-30-50/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, shut down the controller 
-summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어를 교체할 때 시스템 안정성을 유지합니다. 
+summary: 수동 부팅 미디어 복구 프로세스 동안 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 손상된 컨트롤러를 종료하세요. 
 ---
-= 컨트롤러를 종료하고 부팅 미디어(AFF A20, AFF A30 및 AFF A50)를 교체합니다
+= 수동 부팅 미디어 복구를 위해 컨트롤러 종료 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어를 교체할 때 시스템 안정성을 유지합니다.
+수동 부팅 미디어 복구 프로세스 동안 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 손상된 컨트롤러를 종료하세요.
 
 [role="tabbed-block"]
 ====

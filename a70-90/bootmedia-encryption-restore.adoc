@@ -2,9 +2,9 @@
 permalink: a70-90/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: aff a70, aff a90, post boot media replacement steps for okm, nse, and nve 
-summary: AFF A70 또는 AFF A90 시스템의 교체 부팅 미디어에서 암호화를 복원하여 데이터를 계속 보호합니다. 이 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다. 
+summary: AFF A70 또는 AFF A90 시스템의 교체 부팅 미디어에서 암호화를 복원하여 데이터를 계속 보호합니다. 교체 프로세스에는 키 가용성을 확인하고, 암호화 설정을 다시 적용하고, 데이터에 대한 보안 액세스를 확인하는 작업이 포함됩니다. 
 ---
-= 부팅 미디어에서 암호화 복원 - AFF A70 및 AFF A90
+= 수동 부팅 복구 후 암호화 키 복원 - AFF A70 및 AFF A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
