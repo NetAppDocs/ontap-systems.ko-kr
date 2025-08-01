@@ -4725,7 +4725,6 @@
   <block id="9d01d7eb3a0827983de11cc9671e5029" category="sidebar">AFF A220 설치 및 설정</block>
   <block id="01d7cd58de6e7861c757c7723be1642f" category="sidebar">AFF A220 유지 보수</block>
   <block id="c39d4a3a07244494f50723bf4b6bee7c" category="sidebar">AFF A220 부팅 미디어</block>
-  <block id="595db83f42715fcd4f8806a8433e430a" category="sidebar">AFF A220 캐싱 모듈</block>
   <block id="139224360f764f63e0f1a87f6575b350" category="sidebar">AFF A220 컨트롤러</block>
   <block id="f6caefdbf5b7d345e721affd6b6d9bab" category="sidebar">AFF A220 DIMM</block>
   <block id="9e493c35f280e1be11ab7f0f286f498b" category="sidebar">AFF A220 드라이브</block>
@@ -5232,7 +5231,6 @@
   <block id="15bdfa06733933ff3285c6dd92cad9c7" category="doc">전원 공급 장치를 교체합니다. - AFF A150</block>
   <block id="f9195e4f2cbce0b6d30752619eae4687" category="doc">컨트롤러 모듈 하드웨어 AFF A150을 교체합니다</block>
   <block id="890166d65f80913ec2882e814dc85cff" category="doc">컨트롤러 종료 - AFF A150</block>
-  <block id="882c273cdfcc452f3288c0e3d97ccb3a" category="doc">캐싱 모듈 AFF A150을 교체합니다</block>
   <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="6daf7f4112fcf7c7be366c44ff70faf2" prefix=" " category="inline-code"></block></block>
   <block id="236dd84b9226dbf8dfd98a6c46b59972" category="list-text">캐싱 모듈에서 데이터가 삭제되었는지 확인합니다.<block ref="55030d884a341e8f95d06478b61fbec9" prefix=" " category="inline-code"></block></block>
   <block id="af41b619bf9d50ddae2454efc001e4dd" category="paragraph">출력에는 캐싱 모듈 상태가 지워진 것으로 표시되어야 합니다.</block>
@@ -5452,7 +5450,6 @@
   <block id="cafd0584cfa2700cbb38234c6c87ff44" category="sidebar">AFF A150 설치 및 설정</block>
   <block id="19aa00b7e147cb8650f3b77592febb48" category="sidebar">AFF A150 유지 보수</block>
   <block id="6dbe7abf62684ff33daa35e4cfe2dad6" category="sidebar">AFF A150 부팅 미디어</block>
-  <block id="1d3fd2e7fce9bd10949365404c11c97c" category="sidebar">AFF A150 캐싱 모듈</block>
   <block id="c3257e2a1d015102202312f79a478c54" category="sidebar">AFF A150 섀시</block>
   <block id="458bbaee6ced13db5a8e0de32d6df8a8" category="sidebar">AFF A150 컨트롤러</block>
   <block id="6fce75a073a0f8f56117212fb7d30171" category="sidebar">AFF A150 DIMM</block>
@@ -6413,7 +6410,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e62c9575cf056df4d18b2411ab0383c9" category="doc">NVMEM 배터리 - AFF A220을 교체합니다</block>
   <block id="b0a76e52e3b12252b04aa4ef3efa85e3" category="doc">상세 가이드 - AFF A220</block>
   <block id="3b2e4727003f1d4e72cdd41e2838439a" category="paragraph">AFF A220 시스템을 설치하려면 NetApp Support 사이트에서 계정을 만들고 시스템을 등록하고 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
-  <block id="3d51762b7421c8317aae715f0b2368db" category="doc">캐싱 모듈 AFF A220을 교체합니다</block>
   <block id="4124b23e9bae2450bbd8a3539dc99e09" category="summary">AFF A220 하드웨어 유지 관리</block>
   <block id="ac48dff602fe1a0d707dc3e0fe5f1273" category="doc">AFF A220 하드웨어 유지 관리</block>
   <block id="42bd9bd5d289e1ecf2b904f426c6c76b" category="paragraph">AFF A220 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
@@ -6457,7 +6453,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
   <block id="1fc58e4765d0d92d238af8bdfc3ab370" category="list-text">통합 네트워크 케이블 연결</block>
   <block id="b7f69837ac40254faa2741b926641a85" category="list-text">이더넷 네트워크 케이블 연결</block>
-  <block id="a6149c92ff6d6dbb4ad19aaa33146829" category="doc">캐싱 모듈 ASA A150을 교체합니다</block>
   <block id="76f8020a6c211d0a85b51e324867f828" category="paragraph">ASA A150 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="25e4ca3cea9556bf60cfd34a863bcc83" category="doc">실시간 시계 배터리 ASA A150을 교체합니다</block>
   <block id="b2d9da7407ab97d4d923ee0f45653d7f" category="doc">DIMM-ASA A150을 교체합니다</block>
@@ -6604,7 +6599,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="368f4ad51a183b3227240865f154992a" category="sidebar">ASA A150 설치 및 설정</block>
   <block id="84e77b935658c3a7085640c008aa60e8" category="sidebar">ASA A150 유지 보수</block>
   <block id="c5018cbb2e0ee66adef273b385d34913" category="sidebar">ASA A150 부팅 미디어</block>
-  <block id="75f9ae75c68151929bbe66d2860d2e02" category="sidebar">ASA A150 캐싱 모듈</block>
   <block id="64420c8df46e74a115ddb021cc1dceec" category="sidebar">ASA A150 섀시</block>
   <block id="703b4afabc9f364c6d9c4e8ebcba6db8" category="sidebar">ASA A150 컨트롤러</block>
   <block id="debe458f06502f4b7171de38a492f295" category="sidebar">ASA A150 DIMM</block>
@@ -11086,7 +11080,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="08a3990a102599592f1bfa837fdb4b59" category="admonition">캐시 모듈과 드라이브 보호물은 교체 섀시의 동일한 드라이브 베이에 설치해야 합니다.</block>
   <block id="7efc069c2d6033d673e36b12fe42467a" category="paragraph">컨트롤러 교체 절차와 관련된 요구 사항 및 고려 사항을 검토해야 합니다.</block>
   <block id="8e02634dbf9dfd6114030109a952c94d" category="list-text">스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 계속하기 전에 에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
-  <block id="cb4319361e919e892411df69baf2763b" category="paragraph">팬을 교체하려면 컨트롤러를 분리하고 결함이 있는 팬을 분리한 다음 교체 팬을 설치한 다음 컨트롤러를 다시 설치해야 합니다.</block>
   <block id="1ceae8e0ff0bec3c4a785784e13c38e0" category="paragraph">이 절차를 사용하여 장애가 발생한 입출력 모듈을 교체하십시오.</block>
   <block id="72cad785e17debea8fb89d72f80450e0" category="paragraph">NV 전지를 교체하려면 컨트롤러를 분리하고 결함이 있는 전지를 제거한 다음 교체용 전지를 설치한 다음 컨트롤러를 다시 설치해야 합니다.</block>
   <block id="837c47c934f14522b94248f34ec495be" category="paragraph">컨트롤러의 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 스토리지 시스템의 서비스 및 애플리케이션이 계속 작동하도록 합니다.</block>
@@ -11646,13 +11639,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d606236dedb6ed649b29651c1ec53a99" category="list-text">/cfcard/kmip/certs/client.crt</block>
   <block id="ccb442c2c2cc4367a087cfc7cd3b4876" category="list-text">/cfcard/kmip/certs/client.key</block>
   <block id="443acc94def30bc037fb2dacac4fb7d3" category="list-text">/cfcard/kmip/certs/CA.pem</block>
-  <block id="be1d405df341495ba5e673dc445711f6" category="list-text">e0S(e0M 렌치) 포트는 자동 부팅 복구 프로세스 동안 두 컨트롤러 간 통신에 사용됩니다. 손상된 컨트롤러의 e0S 포트가 제대로 작동하는지 확인하십시오.</block>
   <block id="741c1531b1b7141f53a0337179c265cf" category="paragraph">교체용 클러스터와 슬롯 4의 HA I/O 모듈을 온라인으로 전환하고, 모듈 포트가 성공적으로 초기화되었는지 확인하고, 슬롯 4의 전원이 켜져 있는지 확인한 다음, 모듈이 온라인 상태이고 인식되는지 확인합니다.</block>
   <block id="75dd7e743b900db3d0f9c02be5b24510" category="list-text">교체 클러스터와 HA I/O 모듈을 온라인으로 전환합니다.</block>
-  <block id="07234693718c0b9406fa4e3633f14739" category="paragraph"><block ref="745b14e097ab19452bc5b29a2ededcd3" prefix="" category="inline-code"></block></block>
-  <block id="36722bd4769da843e8f441b71ca44abf" category="admonition">_계속하시겠습니까?_라는 메시지가 표시되면 다음을 입력하세요. <block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> .</block>
   <block id="028ada948dd464df9426709f6a1d2269" category="paragraph">출력에서는 클러스터와 HA I/O 모듈이 성공적으로 온라인 상태가 되었는지(전원이 켜지고, 초기화되고, 서비스에 들어갔는지) 확인해야 합니다.</block>
-  <block id="568871c6dcd9e6501c8ce710a4715c3d" category="paragraph">예를 들어, 다음 명령은 노드2(손상된 컨트롤러)의 슬롯 4를 온라인으로 전환하고 프로세스가 성공했다는 메시지를 표시합니다.</block>
   <block id="c5f5687001a40fd7c2a564fc926869a0" category="list-text">클러스터와 HA I/O 모듈의 각 포트가 성공적으로 초기화되었는지 확인하세요.</block>
   <block id="51d4dccbc76a334800d2dac18db18ac2" category="paragraph"><block ref="15404739b2f55b30bb50d467945d6913" prefix="" category="inline-code"></block></block>
   <block id="7fc275cd9bf1fb166d2fa3b246080895" category="admonition">필요한 펌웨어 업데이트와 포트 초기화가 완료되기까지 몇 분이 걸릴 수 있습니다.</block>
@@ -11672,10 +11661,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f8b2336a2bcefa8eae3cc1dd58f2ef1d" category="paragraph"><block ref="4c5e89da35e7d8eb3d4b03256b0e62e0" prefix="" category="inline-code"></block></block>
   <block id="73dc1410bd15a21d2e25a8c2c5bb6654" category="paragraph">예를 들어, 다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.</block>
   <block id="c2128aedb31aab2e3956fd01cbeed47c" category="paragraph"><block ref="2f7215622e57a8f3f6890685db5d3613" prefix="" category="inline-code"></block></block>
-  <block id="b132e544edb8ce61c7d56a9072e34ce4" category="list-text">손상된 컨트롤러의 콘솔에서 자동 반환을 비활성화합니다.</block>
   <block id="98a7ada8dee442fe8faa866e293fb607" category="list-text">슬롯 4에 있는 실패한 클러스터와 HA 모듈을 서비스에서 제거하고 전원을 꺼서 제거할 준비를 합니다.</block>
   <block id="5ddee439702c3faec4f27c253933b0fe" category="paragraph"><block ref="2bde061eaeb28b0fdc0cb59228784ef6" prefix="" category="inline-code"></block></block>
-  <block id="e7a3e0e8cc6c6cea7438ab7fe5169327" category="paragraph">예를 들어, 다음 명령은 노드2(손상된 컨트롤러)의 슬롯 4에 있는 모듈을 제거할 준비를 하고, 제거해도 안전하다는 메시지를 표시합니다.</block>
   <block id="c5d3a7ea33e518913edcfbd2758e0b62" category="list-text">슬롯 4의 실패한 클러스터와 HA 모듈의 전원이 꺼져 있는지 확인하세요.</block>
   <block id="0e39c3862c5814af942ca4592a92eb0c" category="paragraph">출력은 다음과 같아야 합니다. <block ref="dad62d6cbcf5ade24a9f59bab2c1490a" prefix=" " category="inline-code"></block> 슬롯 4의 실패한 모듈에 대한 상태 열에 있습니다.</block>
   <block id="3eb3ec950e8cd06ef38158071b70d5af" category="paragraph">슬롯 4의 실패한 클러스터와 HA I/O 모듈을 동등한 I/O 모듈로 교체합니다.</block>
@@ -11764,12 +11751,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="bcd8431d9578c377430b244dbafbcbdf" category="summary">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈 장애 발생 시 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 핫스왑이 가능합니다.</block>
   <block id="6b232c9d9431de2948d224ac1438ed55" category="doc">클러스터 및 HA 트래픽에 사용되는 I/O 모듈 핫스왑 - AFF A20, AFF A30 및 AFF A50</block>
   <block id="ae0a8348139fa13812ce5b8381566578" category="paragraph">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈에 장애가 발생하고 스토리지 시스템이 특정 요구 사항을 충족하는 경우, AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 모듈을 핫스왑할 수 있습니다.</block>
-  <block id="99b039d0810d67c6ff9a251e2b351041" category="paragraph">핫스왑 프로세스에는 실패한 모듈을 안전하게 제거할 수 있도록 스토리지 시스템과 I/O 모듈 슬롯 4를 준비하고, 실패한 모듈을 동등한 모듈로 핫스왑하고, 교체 모듈을 온라인 상태로 전환하고, 스토리지 시스템을 정상 작동 상태로 복구하고, 실패한 모듈을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
-  <block id="065aa4d38fa7ea20d45720222b7d420b" category="list-text">이 절차를 사용하려면 귀하의 저장 시스템이 다음 요구 사항을 모두 충족해야 합니다.</block>
   <block id="4df4a7f18003a7a352929815909d2724" category="inline-link-macro">I/O 모듈 교체 절차</block>
-  <block id="587f23526d05b31b9f023bdf21efdca5" category="admonition">귀하의 스토리지 시스템이 다음 요구 사항을 모두 충족하지 못하는 경우 다음을 사용해야 합니다. <block ref="9f7a817607c1343a4577e0eb53bffb0f" category="inline-link-macro-rx"></block> .</block>
   <block id="6f0bac18353bd75d71f7a421f1c4fd2f" category="list-text">스토리지 시스템은 ONTAP 9.17.1 이상을 실행해야 합니다.</block>
-  <block id="5b8561df8e42666ef6470a2351c923ff" category="list-text">장애가 발생한 I/O 모듈은 슬롯 4에 있는 클러스터 및 HA I/O 모듈이어야 하며, 다른 클러스터 및 HA I/O 모듈로 교체해야 합니다. I/O 모듈 유형은 변경할 수 없습니다.</block>
   <block id="c47de950a59748040835adedd3b77af8" category="list-text">스토리지 시스템 구성에는 슬롯 4에 클러스터와 HA I/O 모듈이 하나만 있어야 하며, 클러스터와 HA I/O 모듈이 두 개가 있어서는 안 됩니다.</block>
   <block id="7725f6ef165da5751744a53bfaec7915" category="list-text">스토리지 시스템은 2노드(스위치리스 또는 스위치드) 클러스터 구성이어야 합니다.</block>
   <block id="c16f887b0b90f799bb88880e3ea5a676" category="list-text">장애가 발생한 클러스터와 HA I/O 모듈이 있는 컨트롤러(장애가 발생한 컨트롤러)는 이미 정상 파트너 컨트롤러의 작업을 인수했어야 합니다. I/O 모듈에 장애가 발생하면 자동으로 인수가 이루어졌어야 합니다.</block>
@@ -11781,12 +11764,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5d04a05e7c4341bb0ab0e307d5258258" category="list-text">클러스터와 HA I/O 모듈을 핫스왑할 때 올바른 컨트롤러에 명령을 적용하는 것이 중요합니다.</block>
   <block id="f0e82e7a2343dab9b216c5b80fe26396" category="list-text">_손상된 컨트롤러_는 클러스터와 HA I/O 모듈을 핫스왑하는 컨트롤러이며, 정상적인 컨트롤러를 인수한 컨트롤러입니다.</block>
   <block id="b77e3edae5d77f87bcb2c4471aebceba" category="list-text">_건강한 컨트롤러_는 손상된 컨트롤러의 HA 파트너이며 손상된 컨트롤러가 해당 컨트롤러를 인수한 것입니다.</block>
-  <block id="41deb90709f5abd3ff9f5de8d9c7e992" category="section-title">1단계: 스토리지 시스템 및 I/O 모듈 슬롯 4 준비</block>
-  <block id="0b33838263d40f2273222ce1d64ac79a" category="section-title">2단계: 실패한 클러스터 및 HA I/O 모듈 교체</block>
-  <block id="da9c9bc8f7d824941079105dcd3ed1f1" category="section-title">3단계: 교체 클러스터와 HA I/O 모듈을 온라인으로 전환</block>
-  <block id="a13c4c544af9e693a29ec7d5e170393b" category="section-title">4단계: 스토리지 시스템을 정상 작동 상태로 복원합니다.</block>
   <block id="cfd09206f0a13c5092d1f58dd42e890d" category="summary">AFF A20, AFF A30 및 AFF A50 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
-  <block id="1e51a22599b0f67b709168f8638adca9" category="doc">I/O 모듈 추가, 핫스왑 및 교체 개요 - AFF A20, AFF A30 및 AFF A50</block>
   <block id="8ef45d64afdfdfbe4e19aaf35faa33ff" category="paragraph">스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈 또는 다른 유형의 I/O 모듈로 교체할 수 있습니다. 스토리지 시스템이 특정 요구 사항을 충족하는 경우 클러스터와 HA I/O 모듈을 핫스왑할 수 있습니다. 또한, 사용 가능한 슬롯이 있는 스토리지 시스템에 I/O 모듈을 추가할 수도 있습니다.</block>
   <block id="05c8d2e17b691ebb9e570097babd4b3f" category="inline-link-macro">클러스터 및 HA I/O 모듈 핫스왑</block>
   <block id="f34320fb440d129decb61de6359de310" category="list-text"><block ref="f34320fb440d129decb61de6359de310" category="inline-link-macro-rx"></block></block>
@@ -11834,12 +11812,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ca6ff5e2a18f563b4e6acadc68d46f64" category="doc">클러스터 및 HA 트래픽에 사용되는 I/O 모듈 핫스왑 - ASA A20, ASA A30 및 ASA A50</block>
   <block id="6f5a8e68f677f939bbd426fa307f6c3c" category="paragraph">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈에 장애가 발생하고 스토리지 시스템이 특정 요구 사항을 충족하는 경우, ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 모듈을 핫스왑할 수 있습니다.</block>
   <block id="c23f7f672ee68d0408de4bf7050428ff" category="summary">ASA A20, ASA A30 및 ASA A50 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 고장난 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
-  <block id="2b67a6475be974a5940559dd41ea9006" category="doc">I/O 모듈 추가, 핫스왑 및 교체 개요 - ASA A20, ASA A30 및 ASA A50</block>
   <block id="7cfc66ffab0e5dcaf35aec6c1f45c0e4" category="paragraph">이 절차를 사용하려면 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행해야 하며 특정 시스템 요구 사항을 충족해야 합니다.</block>
   <block id="267b034862e77ecf585e0f10c53a998d" category="summary">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈 장애 발생 시 ASA C30 스토리지 시스템에서 핫스왑이 가능합니다.</block>
   <block id="7e204d8c50c3b311f5f084b18f60fe42" category="doc">클러스터 및 HA 트래픽에 사용되는 I/O 모듈 핫스왑 - ASA C30</block>
   <block id="ae9ac95e753aa6e11b1f186d2894bfbe" category="paragraph">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈에 장애가 발생하고 스토리지 시스템이 특정 요구 사항을 충족하는 경우 ASA C30 스토리지 시스템에서 모듈을 핫스왑할 수 있습니다.</block>
-  <block id="dc57bcd4218063c4d29107fb57242526" category="doc">I/O 모듈 추가, 핫스왑 및 교체 개요 - ASA C30</block>
   <block id="7e40ba54f9478efaeb9f51563cb1f923" category="paragraph">ASA C30 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
   <block id="54d490a5d6fa1e1e563c715d1658d4c2" category="doc">실패한 부팅 미디어 부분을 NetApp 으로 반환 - AFF C30 및 AFF C60</block>
   <block id="e4fd04a4bd5ca71d2941edf4b47e1b10" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp 으로 반송하십시오 . <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 자세한 내용은 페이지를 참조하세요.</block>
@@ -11874,7 +11850,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1b0c016612713903a3c497b1aba4bbe6" category="doc">클러스터 및 HA 트래픽에 사용되는 I/O 모듈 핫스왑 - AFF C30 및 AFF C60</block>
   <block id="257a07574b8e17c7ad551a78350bbfb1" category="paragraph">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈에 장애가 발생하고 스토리지 시스템이 특정 요구 사항을 충족하는 경우, AFF C30 또는 AFF C60 스토리지 시스템에서 모듈을 핫스왑할 수 있습니다.</block>
   <block id="ac8f3969a316894b12e15fbd022b3e6b" category="summary">AFF C30 및 AFF C60 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
-  <block id="3f2c03959d433e31975c5ccc2dec2998" category="doc">I/O 모듈 추가, 핫스왑 및 교체 개요 - AFF C30 및 AFF C60</block>
   <block id="73cacf52c7ab30fc7a47a1633dbe49f5" category="paragraph">장기적인 안정성과 최적의 성능을 보장하려면 AFF C30 또는 AFF C60 스토리지 시스템의 하드웨어를 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="466d1cf6baca603bba771ae5236812f6" category="paragraph">이 섹션의 절차에서는 AFF C30 또는 AFF C60 스토리지 시스템이 이미 ONTAP 환경에 스토리지 노드로 배포되었다고 가정합니다.</block>
   <block id="e39a5918ade9e607f5afc8f6e8b009f2" category="summary">AFF C80 스토리지 시스템의 구성 요소에 오류가 발생하면 오류가 발생한 부품을 NetApp 으로 반환하세요.</block>
@@ -11967,7 +11942,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5b013473b3a0ecde061a431e92574ae9" category="doc">클러스터 및 HA 트래픽에 사용되는 I/O 모듈 핫스왑 - FAS50</block>
   <block id="6cae912dff84ae6240c315ddaaf28349" category="paragraph">클러스터 및 HA I/O 모듈은 클러스터링 및 고가용성을 위한 상호 연결을 지원합니다. 모듈에 장애가 발생하고 스토리지 시스템이 특정 요구 사항을 충족하는 경우 FAS50 스토리지 시스템에서 모듈을 핫스왑할 수 있습니다.</block>
   <block id="1db9aadbce6a6b3c04d462fe3f9bbd95" category="summary">FAS50 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
-  <block id="1db7a64cdf50bbc605521dd6fb058114" category="doc">I/O 모듈 추가, 핫스왑 및 교체 개요 - FAS50</block>
   <block id="50021c9aa8d3585a4c703c3363cab114" category="paragraph">장기적인 안정성과 최적의 성능을 보장하려면 FAS50 스토리지 시스템의 하드웨어를 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="8eba03c70758101e68e6391b4be43740" category="paragraph">유지 관리 절차에서는 FAS50 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.</block>
   <block id="49be3e0ad5188b850535280e2d521d5f" category="doc">선반 냉간 교체 - DS212C, DS224C 및 DS460C</block>
@@ -12105,4 +12079,30 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4db3443ca8b7e077da6fda74143b5d12" category="sidebar">다중 경로 HA</block>
   <block id="98a06331c5019fee7c2bec76b5d289fb" category="sidebar">쿼드 경로 HA</block>
   <block id="fd00151c44420f6f79e4b58679a95624" category="sidebar">DS212C, DS224C 또는 DS460C 선반 유지</block>
+  <block id="445dfd5b6a6cefa8cddbd35f02b84b3f" category="list-text">손상된 컨트롤러의 e0M(렌치) 포트가 연결되어 있고 오류가 없는지 확인하세요.</block>
+  <block id="28ee83acca422d1018aa8c24fc45a4ae" category="paragraph">e0M 포트는 자동 부팅 복구 프로세스 동안 두 컨트롤러 간 통신에 사용됩니다.</block>
+  <block id="6dcd1ebf4390170868ab9bcdfd967581" category="list-text">다음 명령을 입력하세요:</block>
+  <block id="44a1542818eb6c662eb3c490c43da379" category="paragraph"><block ref="429cc3d1d3dd3682974d006c02080d7a" prefix="" category="inline-code"></block></block>
+  <block id="fafdccda6cda9f9e3734c54d6282a4a7" category="list-text">입력하다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> _계속하시겠습니까?_라는 메시지가 표시되면</block>
+  <block id="e2d52ada26e40deccc8c184926b380b3" category="paragraph">예를 들어, 다음 명령은 노드 2(손상된 컨트롤러)의 슬롯 4를 온라인으로 전환하고 프로세스가 성공했다는 메시지를 표시합니다.</block>
+  <block id="e1e4c5a78e939d1c395d29fa29b00a6d" category="list-text">자동 환불 비활성화:</block>
+  <block id="8a0b41604f08531e25cac74cbed555ce" category="list-text">손상된 컨트롤러의 콘솔에서 다음 명령을 입력하세요.</block>
+  <block id="c839598e8cd5c29bde6c617cf440daeb" category="list-text">입력하다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면</block>
+  <block id="b17710a831db85286b790ec982422585" category="list-text">입력하다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> _계속하시겠습니까?_라는 메시지가 표시되면</block>
+  <block id="b3a29894ebbd7743077b200ddcd67c99" category="paragraph">예를 들어, 다음 명령은 노드 2(손상된 컨트롤러)의 슬롯 4에 있는 모듈을 제거할 준비를 하고, 제거해도 안전하다는 메시지를 표시합니다.</block>
+  <block id="4bdafd7f42b0b57fc4b68e8b3bb68636" category="paragraph">이 절차를 사용하려면 스토리지 시스템이 모든 요구 사항을 충족해야 합니다.  이 절차에 대한 추가 맥락을 알아보려면 고려 사항을 읽어보세요.</block>
+  <block id="3a06445388ea9f45380e61bdcd8e390a" category="admonition">귀하의 저장 시스템이 모든 요구 사항을 충족하지 못하는 경우 다음을 사용해야 합니다.<block ref="9f7a817607c1343a4577e0eb53bffb0f" category="inline-link-macro-rx"></block> .</block>
+  <block id="d5289a7c7a439993123bceae28506164" category="list-text">오류가 발생한 I/O 모듈은 슬롯 4의 클러스터 및 HA I/O 모듈이어야 하며, 동등한 클러스터 및 HA I/O 모듈로 교체해야 합니다. I/O 모듈 유형은 변경할 수 없습니다.</block>
+  <block id="8a1240d7278991deb34efd819884bfe7" category="paragraph">모듈을 핫스왑하려면 스토리지 시스템이 절차 요구 사항을 충족하는지 확인하고, 슬롯 4에서 스토리지 시스템과 I/O 모듈을 준비하고, 오류가 발생한 모듈을 동등한 모듈로 핫스왑하고, 교체 모듈을 온라인 상태로 전환하고, 스토리지 시스템을 정상 작동 상태로 복원한 다음, 오류가 발생한 모듈을 NetApp 으로 반환합니다.</block>
+  <block id="0ce7a3dae2c87181c761986e783eb102" category="section-title">1단계: 스토리지 시스템이 절차 요구 사항을 충족하는지 확인하십시오.</block>
+  <block id="7da2c8847c1955b0494341a440d20a1b" category="section-title">2단계: 스토리지 시스템 및 I/O 모듈 슬롯 4 준비</block>
+  <block id="1826a677aeed73d2d1ad12227f635ea5" category="section-title">3단계: 실패한 클러스터 및 HA I/O 모듈 교체</block>
+  <block id="ef52935218329fe4c276c834a767e2b0" category="section-title">4단계: 교체 클러스터와 HA I/O 모듈을 온라인으로 전환</block>
+  <block id="aa6f3f8c8fe8c3ee1076fbae1b862c0f" category="section-title">5단계: 스토리지 시스템을 정상 작동 상태로 복원합니다.</block>
+  <block id="4494f67d47bd95840cfaf71f7427c5d9" category="doc">I/O 모듈 유지 관리 개요 - AFF A20, AFF A30 및 AFF A50</block>
+  <block id="96c5fffbd9befb3a2893a3e1abf894c4" category="doc">I/O 모듈 유지 관리 개요 - ASA A20, ASA A30 및 ASA A50</block>
+  <block id="e22df5a6b5342608f4c99f5bb172c1ff" category="doc">I/O 모듈 유지 관리 개요 - ASA C30</block>
+  <block id="10fdff00cbd8dc0b562f7c384ead00e8" category="paragraph">////2025년 7월: ontap-systems 370: 이 플랫폼에서 지원되지 않으므로 캐싱 모듈을 삭제했습니다.</block>
+  <block id="e30ec3a146d2f46cfcab61e84ddafe94" category="doc">I/O 모듈 유지 관리 개요 - AFF C30 및 AFF C60</block>
+  <block id="99479e0da4b4c4c75f054c2458b99405" category="doc">I/O 모듈 유지 관리 개요 - FAS50</block>
 </blocks>

@@ -35,9 +35,6 @@ entries:
       url: "/asa150/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/asa150/bootmedia-complete-rma.html"
-  - title: 캐싱 모듈
-    pdf-filename: ASA A150 캐싱 모듈
-    url: "/asa150/caching-module-replace.html"
   - title: 섀시
     pdf-filename: ASA A150 섀시
     entries:

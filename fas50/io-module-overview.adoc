@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF A90, AFF A70, replace io module 
 summary: FAS50 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다. 
 ---
-= I/O 모듈 추가, 핫스왑 및 교체 개요 - FAS50
+= I/O 모듈 유지 관리 개요 - FAS50
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

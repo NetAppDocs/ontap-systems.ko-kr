@@ -6,17 +6,16 @@
 
 . 교체 클러스터와 HA I/O 모듈을 온라인으로 전환합니다.
 +
-`system controller slot module insert -node impaired_node_name_ -slot _slot_name_`
-
+.. 다음 명령을 입력하세요:
 +
+`system controller slot module insert -node _impaired_node_name_ -slot _slot_name_`
 
-NOTE: _계속하시겠습니까?_라는 메시지가 표시되면 다음을 입력하세요.  `y` .
-
+.. 입력하다 `y` _계속하시겠습니까?_라는 메시지가 표시되면
 +
 출력에서는 클러스터와 HA I/O 모듈이 성공적으로 온라인 상태가 되었는지(전원이 켜지고, 초기화되고, 서비스에 들어갔는지) 확인해야 합니다.
 
 +
-예를 들어, 다음 명령은 노드2(손상된 컨트롤러)의 슬롯 4를 온라인으로 전환하고 프로세스가 성공했다는 메시지를 표시합니다.
+예를 들어, 다음 명령은 노드 2(손상된 컨트롤러)의 슬롯 4를 온라인으로 전환하고 프로세스가 성공했다는 메시지를 표시합니다.
 
 +
 [listing]
@@ -29,6 +28,8 @@ Do you want to continue? {y|n}: `y`
 
 The module has been successfully powered on, initialized and placed into service.
 ----
+
+
 . 클러스터와 HA I/O 모듈의 각 포트가 성공적으로 초기화되었는지 확인하세요.
 +
 `event log show -event \*hotplug.init*`
