@@ -2,7 +2,7 @@
 permalink: fas50/install-hardware.html 
 sidebar: sidebar 
 keywords: fas50, install hardware, telco rack 
-summary: 스토리지 시스템을 캐비닛 또는 통신 랙에 설치합니다. 
+summary: FAS50 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다. 
 ---
 = hardware-FAS50 을 설치합니다
 :allow-uri-read: 

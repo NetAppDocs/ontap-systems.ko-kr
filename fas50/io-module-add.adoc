@@ -2,7 +2,7 @@
 permalink: fas50/io-module-add.html 
 sidebar: sidebar 
 keywords: fas50, add I/O module 
-summary: FAS50 시스템에 I/O 모듈을 추가하여 네트워크 연결을 향상하고 시스템 데이터 트래픽 처리 능력을 확장하십시오. 
+summary: FAS50 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 향상하고 데이터 트래픽 처리 능력을 확장하십시오. 
 ---
 = I/O 모듈 FAS50을 추가합니다
 :allow-uri-read: 

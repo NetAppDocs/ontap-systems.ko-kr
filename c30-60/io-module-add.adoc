@@ -2,7 +2,7 @@
 permalink: c30-60/io-module-add.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, add I/O module 
-summary: AFF C30 또는 AFF C60 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오. 
+summary: AFF C30 또는 AFF C60 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 기능을 확장하세요. 
 ---
 = 입출력 모듈(AFF C30 및 AFF C60)을 추가합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: AFF C30 또는 AFF C60 시스템에 I/O 모듈을 추가하여 네트�
 
 
 [role="lead"]
-AFF C30 또는 AFF C60 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.
+AFF C30 또는 AFF C60 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 기능을 확장하세요.
 
 사용 가능한 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFF C30 및 AFF C60 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.
 

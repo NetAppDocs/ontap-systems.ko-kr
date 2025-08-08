@@ -1,0 +1,21 @@
+= 
+:allow-uri-read: 
+
+
+컨트롤러 모듈을 재부팅합니다.
+
+.단계
+. LOADER 프롬프트에서 _bye_를 입력합니다.
+. 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 자동 환불 복원:
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport 유지 관리 창이 트리거된 경우 이를 종료합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+

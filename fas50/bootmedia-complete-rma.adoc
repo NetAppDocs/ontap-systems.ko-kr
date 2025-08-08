@@ -2,7 +2,7 @@
 permalink: fas50/bootmedia-complete-rma.html 
 sidebar: sidebar 
 keywords: fas50, complete the replacement process 
-summary: 부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 
+summary: FAS50 시스템의 부품을 교체한 후에는 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp 으로 반품할 수 있습니다. 
 ---
 = 장애가 발생한 부품을 NetApp-FAS50으로 반환합니다
 :allow-uri-read: 

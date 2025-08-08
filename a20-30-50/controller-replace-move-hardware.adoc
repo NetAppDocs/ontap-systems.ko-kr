@@ -2,7 +2,7 @@
 permalink: a20-30-50/controller-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, move the controller module hardware 
-summary: 하드웨어 오류가 필요한 경우 AFF A20, AFF A30 또는 AFF A50 시스템에서 컨트롤러를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다. 
+summary: 하드웨어 오류로 인해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러를 교체하세요.  교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다. 
 ---
 = 컨트롤러를 교체합니다(AFF A20, AFF A30 및 AFF A50)
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 하드웨어 오류가 필요한 경우 AFF A20, AFF A30 또는 AFF A50
 
 
 [role="lead"]
-하드웨어 오류가 필요한 경우 AFF A20, AFF A30 또는 AFF A50 시스템에서 컨트롤러를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.
+하드웨어 오류로 인해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러를 교체하세요.  교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.
 
 
 

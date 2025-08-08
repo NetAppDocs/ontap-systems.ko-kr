@@ -2,7 +2,7 @@
 permalink: a20-30-50/rtc-battery-replace.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, replace the real-time clock battery 
-summary: 'AFF A20, AFF A30 또는 AFF A50 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동하도록 합니다.' 
+summary: '정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.' 
 ---
 = 실시간 클럭 배터리(AFF A20, AFF A30 및 AFF A50)를 교체합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'AFF A20, AFF A30 또는 AFF A50 시스템에서 일반적으로 코인
 
 
 [role="lead"]
-AFF A20, AFF A30 또는 AFF A50 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동하도록 합니다.
+정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.
 
 .시작하기 전에
 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].

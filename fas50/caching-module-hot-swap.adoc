@@ -2,7 +2,7 @@
 permalink: fas50/caching-module-hot-swap.html 
 sidebar: sidebar 
 keywords: fas50, hot swap, replace, Flash Cache 
-summary: '지원되는 동일 또는 다른 공급업체에서 제공하는 동일한 용량의 NVMe SSD Flash Cache 모듈(캐싱 모듈)을 핫 스왑할 수 있습니다.' 
+summary: 동일하거나 다른 지원 공급업체에서 나온 동일 용량의 NVMe SSD 캐싱 모듈, Flash Cache 모듈을 FAS50 스토리지 시스템에 핫스왑할 수 있습니다. 
 ---
 = 캐싱 모듈-FAS50을 핫 스왑합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: '지원되는 동일 또는 다른 공급업체에서 제공하는 동�
 
 
 [role="lead"]
-지원되는 동일 또는 다른 공급업체에서 제공하는 동일한 용량의 NVMe SSD 캐싱 모듈(Flash Cache 모듈)을 핫 스왑할 수 있습니다.
+동일하거나 다른 지원 공급업체의 동일 용량 NVMe SSD 캐싱 모듈(플래시 캐시 모듈)을 FAS50 스토리지 시스템에 핫스왑할 수 있습니다.
 
 .시작하기 전에
 스토리지 시스템은 상황에 따라 특정 기준을 충족해야 합니다.

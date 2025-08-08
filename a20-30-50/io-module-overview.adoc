@@ -1,7 +1,7 @@
 ---
 permalink: a20-30-50/io-module-overview.html 
 sidebar: sidebar 
-keywords: AFF A20, AFF A30, and AFF A50, replace io module, add io module, hotswap io module 
+keywords: aff a20, aff a30, and aff a50, replace io module, add io module, hotswap io module 
 summary: AFF A20, AFF A30 및 AFF A50 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다. 
 ---
 = I/O 모듈 유지 관리 개요 - AFF A20, AFF A30 및 AFF A50

@@ -2,7 +2,7 @@
 permalink: fas50/install-prepare.html 
 sidebar: sidebar 
 keywords: fas50, prepare installation 
-summary: FAS50 플랫폼 설치 준비 
+summary: 사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택을 이용할 수 있도록 스토리지 시스템 등록을 통해 FAS50 스토리지 시스템 설치를 준비합니다. 
 ---
 = 설치 준비 - FAS50
 :allow-uri-read: 

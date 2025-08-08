@@ -8,6 +8,7 @@
 
 컨트롤러가 재부팅되면 ONTAP를 부팅하고 컨트롤러를 반납합니다.
 
+.단계
 . 콘솔 출력을 확인합니다.
 +
 .. 컨트롤러가 Loader 프롬프트로 부팅되면 명령을 사용하여 컨트롤러를 `boot_ontap` 재부팅합니다.
@@ -28,6 +29,7 @@
 
 컨트롤러에서 스토리지를 반환한 후에는 를 통해 전체 상태를 확인해야 합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"].
 
+.단계
 . 기브백이 완료된 후 Active IQ Config Advisor를 실행하여 스토리지 시스템의 상태를 확인합니다.
 . 발생한 모든 문제를 해결합니다.
 

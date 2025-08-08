@@ -1,8 +1,8 @@
 ---
 permalink: a20-30-50/index.html 
 sidebar: sidebar 
-keywords: aff a70 aff a90 maintenance, maintenance, repairing a70 aff a90,  replace a70 aff a90 components 
-summary: AFF A20, AFF A30 및 AFF A50 하드웨어를 유지 관리합니다 
+keywords: aff a20, aff a30, aff a50 maintenance, maintenance, repairing aff a20, aff a30, aff a50,  replace aff a20, aff a30, aff a50 components 
+summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다. 
 ---
 = AFF A20, AFF A30 및 AFF A50 하드웨어를 유지 관리합니다
 :allow-uri-read: 

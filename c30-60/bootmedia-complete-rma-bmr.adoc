@@ -2,7 +2,7 @@
 permalink: c30-60/bootmedia-complete-rma-bmr.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, complete the replacement process 
-summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 구성 요소가 실패하면 실패한 부품을 NetApp 으로 반환하세요. 
+summary: AFF C30 또는 AFF C60 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp 으로 반송하십시오 
 ---
 = 실패한 부팅 미디어 부분을 NetApp 으로 반환 - AFF C30 및 AFF C60
 :allow-uri-read: 

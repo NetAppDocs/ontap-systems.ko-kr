@@ -2,7 +2,7 @@
 permalink: a20-30-50/install-hardware.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, install hardware, telco rack 
-summary: 스토리지 시스템을 캐비닛 또는 통신 랙에 설치합니다. 
+summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다. 
 ---
 = AFF A20, AFF A30 및 AFF A50 하드웨어를 설치합니다
 :allow-uri-read: 

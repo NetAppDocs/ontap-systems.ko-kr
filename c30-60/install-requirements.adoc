@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: c30-60/install-requirements.html 
 keywords: aff c30, aff c60, install, setup, cautions 
-summary: 작업대 및 선반에 필요한 장비 및 인양 예방 조치를 검토합니다. 
+summary: AFF C30 또는 AFF C60 스토리지 시스템에 대한 요구사항을 검토하십시오. 
 ---
 = 설치 요구 사항 - AFF C30 및 AFF C60
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: a20-30-50/bootmedia-recovery-image-boot-bmr.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, boot the recovery image 
-summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에 새 부트 미디어 장치를 설치한 후 자동 부트 미디어 복구 프로세스를 시작하여 파트너 노드에서 구성을 복원할 수 있습니다. 
+summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에 새 부트 미디어 장치를 설치한 후, 자동 부트 미디어 복구 프로세스를 시작하여 파트너 노드의 구성을 복원할 수 있습니다. 복구 프로세스 중에 시스템은 암호화가 활성화되어 있는지 확인하고 사용 중인 키 암호화 유형을 확인합니다. 키 암호화가 활성화되어 있는 경우, 시스템은 복원을 위한 적절한 단계를 안내합니다. 
 ---
 = 파트너 노드에서 자동 부팅 미디어 복구 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
@@ -16,7 +16,7 @@ AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에 새 부트 미디어 �
 자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
 
 .시작하기 전에
-* OKM의 경우 OKM 암호 파일 내용이 필요합니다.
+* OKM의 경우 클러스터 전체 암호와 백업 데이터가 필요합니다.
 * EKM의 경우 파트너 노드에서 다음 파일의 복사본이 필요합니다.
 +
 ** /cfcard/kMIP/servers.cfg 파일.
@@ -85,7 +85,7 @@ Is the key manager onboard
  a| 
 4단계로 이동하여 해당 키 관리자를 복원합니다.
 
-노드가 부팅 메뉴에 액세스하여 다음을 실행합니다.
+노드는 부팅 메뉴에 액세스하여 다음을 실행합니다.
 
 ** Onboard Key Manager(OKM)가 있는 시스템의 경우 옵션 10
 ** EKM(External Key Manager)이 있는 시스템의 경우 옵션 11.
@@ -107,20 +107,32 @@ Entering Bootmenu Option 10...
 This option must be used only in disaster recovery procedures. Are you sure? (y or n):
 ....
 .. OKM 복구 프로세스 시작을 확인하는 프롬프트에 를 `Y` 입력합니다.
-.. 메시지가 표시되면 온보드 키 관리자에 대한 암호를 입력하고, 메시지가 표시되면 암호를 다시 입력하여 확인합니다.
+.. 메시지가 나타나면 다음을 입력하세요.
 +
-.암호 프롬프트의 예를 표시합니다
+... 암호문구
+... 확인을 요청하면 암호를 다시 입력하세요.
+... 온보드 키 관리자를 위한 백업 데이터
++
+.암호문구 및 백업 데이터 프롬프트의 예를 보여주세요
 [%collapsible]
 =====
 ....
 Enter the passphrase for onboard key management:
-Enter the passphrase again to confirm:
-Enter the backup data:
 -----BEGIN PASSPHRASE-----
 <passphrase_value>
 -----END PASSPHRASE-----
+Enter the passphrase again to confirm:
+-----BEGIN PASSPHRASE-----
+<passphrase_value>
+-----END PASSPHRASE-----
+Enter the backup data:
+-----BEGIN BACKUP-----
+<passphrase_value>
+-----END ACKUP-----
 ....
 =====
+
+
 .. 파트너 노드에서 적절한 파일을 복원하므로 복구 프로세스를 계속 모니터링합니다.
 +
 복구 프로세스가 완료되면 노드가 재부팅됩니다. 다음 메시지는 복구에 성공했음을 나타냅니다.
@@ -181,7 +193,7 @@ ONTAP 9.16.0
 
 
  a| 
-ONTAP 9.16.1
+ONTAP 9.16.1 이상
  a| 
 다음 단계를 진행합니다.
 
@@ -259,6 +271,8 @@ xxx.xxx.xxx.xxx:5696.netapp_keystore_uuid=<id_value>
 
  a| 
 메시지가 표시되면 파트너의 ONTAP 클러스터 UUID를 입력합니다.
+
+파트너 노드에서 클러스터 UUID를 확인하려면 다음을 사용하세요. `cluster identify show` 명령.
  a| 
 .에는 ONTAP 클러스터 UUID의 예가 나와 있습니다
 [%collapsible]
@@ -276,6 +290,13 @@ System is ready to utilize external key manager(s).
 
  a| 
 메시지가 표시되면 노드의 임시 네트워크 인터페이스 및 설정을 입력합니다.
+
+다음을 입력해야 합니다.
+
+... 포트의 IP 주소
+... 포트의 넷마스크
+... 기본 게이트웨이의 IP 주소
+
  a| 
 .임시 네트워크 설정의 예를 보여줍니다
 [%collapsible]
@@ -298,44 +319,11 @@ Trying to recover keys from key servers....
 |===
 .. 키가 성공적으로 복원되었는지 여부에 따라 다음 작업 중 하나를 수행합니다.
 +
-*** EKM 구성이 성공적으로 복원된 경우 프로세스는 파트너 노드에서 적절한 파일 복원을 시도하고 노드를 재부팅합니다. d 단계로 이동합니다
+*** 당신이 보면 `kmip2_client: Successfully imported the keys from external key server: xxx.xxx.xxx.xxx:5696` 출력에서 EKM 구성이 성공적으로 복원되었습니다.
 +
-.성공적인 9.16.0 복원 메시지의 예를 보여줍니다
-[%collapsible]
-=====
-....
+이 프로세스는 파트너 노드에서 적절한 파일을 복원하고 노드를 재부팅합니다.  d 단계로 이동합니다.
 
-kmip2_client: Importing keys from external key server: xxx.xxx.xxx.xxx:5696
-[Feb  6 04:57:43]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdUtils: [locateMrootAkUuids]:420: Locating local cluster MROOT-AK with keystore UUID: <uuid>
-[Feb  6 04:57:43]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdBase: [doCmdImp]:79: Calling KMIP Locate for the following attributes: [<x-NETAPP-ClusterId, <uuid>>, <x-NETAPP-KeyUsage, MROOT-AK>, <x-NETAPP-KeystoreUuid, <uuid>>, <x-NETAPP-Product, Data ONTAP>]
-[Feb  6 04:57:44]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdBase: [doCmdImp]:84: KMIP Locate executed successfully!
-[Feb  6 04:57:44]: 0x80cc09000: 0: DEBUG: kmip2::kmipCmds::KmipLocateCmdBase: [setUuidList]:50: UUID returned: <uuid>
-...
-kmip2_client: Successfully imported the keys from external key server: xxx.xxx.xxx.xxx:5696
-
-GEOM_ELI: Device nvd0s4.eli created.
-GEOM_ELI: Encryption: AES-XTS 256
-GEOM_ELI:     Crypto: software
-Feb 06 05:02:37 [_server-name_]: crypto_get_mroot_ak:140 MROOT-AK is requested.
-Feb 06 05:02:37 [_server-name_]: crypto_get_mroot_ak:162 Returning MROOT-AK.
-....
-=====
-+
-.성공적인 9.16.1 복원 메시지의 예를 보여줍니다
-[%collapsible]
-=====
-....
-
-System is ready to utilize external key manager(s).
-Trying to recover keys from key servers....
-[discover_versions]
-[status=SUCCESS reason= message=]
-...
-kmip2_client: Successfully imported the keys from external key server: xxx.xxx.xxx.xxx:xxxx
-Successfully recovered keymanager secrets.
-....
-=====
-*** 키가 성공적으로 복원되지 않으면 시스템이 중지되고 키를 복원할 수 없음을 나타냅니다. 오류 및 경고 메시지가 표시됩니다. 복구 프로세스를 다시 실행합니다.
+*** 키가 성공적으로 복구되지 않으면 시스템이 중단되고 키를 복구할 수 없다는 메시지가 표시됩니다.  오류 및 경고 메시지가 표시됩니다.  복구 프로세스를 다시 실행해야 합니다.
 +
 `boot_recovery -partner`
 

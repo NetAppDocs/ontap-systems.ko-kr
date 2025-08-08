@@ -2,7 +2,7 @@
 permalink: a20-30-50/bootmedia-replace-workflow.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, replace the boot media 
-summary: 부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF A20, AFF A30 또는 AFF A50 시스템의 교체 부트 미디어에 ONTAP 다시 설치하는 과정입니다. NetApp 지원 사이트에서 해당 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 작동 상태로 복원합니다. 
+summary: 부트 이미지를 수동으로 복구하려면 USB 드라이브를 사용하여 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치해야 합니다. NetApp 지원 사이트에서 적절한 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 작동 상태로 복원합니다. 
 ---
 = 부팅 미디어 수동 복구 워크플로 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF 
 
 
 [role="lead"]
-부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF A20, AFF A30 또는 AFF A50 시스템의 교체 부트 미디어에 ONTAP 다시 설치하는 과정입니다. NetApp 지원 사이트에서 해당 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 작동 상태로 복원합니다.
+부트 이미지를 수동으로 복구하려면 USB 드라이브를 사용하여 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치해야 합니다. NetApp 지원 사이트에서 적절한 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 작동 상태로 복원합니다.
 
 시스템이 ONTAP 9.17.1 이상에서 실행 중인 경우 다음을 사용하세요. link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .
 

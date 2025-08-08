@@ -2,7 +2,7 @@
 permalink: c30-60/install-prepare.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, prepare installation 
-summary: AFF C30 및 AFF C60 플랫폼 설치를 준비합니다. 
+summary: 사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 스토리지 시스템 등록을 통해 AFF C30 또는 AFF C60 저장 장치 시스템 설치를 준비합니다. 
 ---
 = 설치 준비 - AFF C30 및 AFF C60
 :allow-uri-read: 

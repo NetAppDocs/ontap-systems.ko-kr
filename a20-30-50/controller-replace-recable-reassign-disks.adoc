@@ -2,7 +2,7 @@
 permalink: a20-30-50/controller-replace-recable-reassign-disks.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, how to reboot the system 
-summary: AFF A20, AFF A30 또는 AFF A50 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. 
+summary: 'AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함, 온보드 키 관리자(OKM) 암호화, 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.' 
 ---
 = AFF A20, AFF A30 및 AFF A50 컨트롤러를 반납합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: AFF A20, AFF A30 또는 AFF A50 시스템이 정상 작동을 재개할
 
 
 [role="lead"]
-AFF A20, AFF A30 또는 AFF A50 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.
+AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, 온보드 키 관리자(OKM) 암호화, 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.
 
 [role="tabbed-block"]
 ====

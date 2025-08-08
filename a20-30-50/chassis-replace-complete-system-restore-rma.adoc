@@ -2,7 +2,7 @@
 permalink: a20-30-50/chassis-replace-complete-system-restore-rma.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, verify and set HA state, complete the replacement process 
-summary: 컨트롤러를 재부팅하고 시스템 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 AFF A20, AFF A30 및 AFF A50 섀시 교체 절차의 최종 단계를 완료합니다. 
+summary: 섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 AFF A20, AFF A30 및 AFF A50 섀시 교체 절차의 최종 단계를 완료합니다. 
 ---
 = 전체 섀시 교체 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 

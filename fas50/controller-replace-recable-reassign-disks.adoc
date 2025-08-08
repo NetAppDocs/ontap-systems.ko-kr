@@ -2,7 +2,7 @@
 permalink: fas50/controller-replace-recable-reassign-disks.html 
 sidebar: sidebar 
 keywords: fas50, how to reboot the system 
-summary: 'FAS50 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스를 교체 컨트롤러로 다시 제어합니다. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.' 
+summary: 'FAS50 시스템이 정상적인 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, Onboard Key Manager OKM 암호화, External Key Manager EKM 암호화)에 따라 다릅니다.' 
 ---
 = 컨트롤러-FAS50을 돌려줍니다
 :allow-uri-read: 
