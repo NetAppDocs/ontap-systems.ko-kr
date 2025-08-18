@@ -17,8 +17,6 @@ entries:
     url: "/a1k/install-cable.html"
   - title: 시스템 전원을 켭니다
     url: "/a1k/install-power-hardware.html"
-  - title: 시스템 설치를 완료합니다
-    url: "/a1k/install-complete.html"
 - title: 유지 관리
   pdf-filename: AFF A1K 유지 보수
   entries:

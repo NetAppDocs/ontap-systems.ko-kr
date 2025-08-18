@@ -1,4 +1,4 @@
-= 3단계: 컨트롤러를 재부팅합니다
+= 
 :allow-uri-read: 
 
 
@@ -93,26 +93,4 @@ image::../media/icon_round_3.png[설명선 번호 3]
 NOTE: DC 전원 공급 장치가 있는 경우 전원 블록을 전원 공급 장치에 다시 연결합니다.
 
 . 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
-
-
-
-
-== 3단계: 컨트롤러를 재부팅합니다
-
-컨트롤러 모듈을 재부팅합니다.
-
-.단계
-. LOADER 프롬프트에서 _bye_를 입력합니다.
-. 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
-+
-'Storage failover 반환 - ofnode_impaired_node_name_'
-
-. 자동 환불 복원:
-+
-`storage failover modify -node local -auto-giveback true`
-
-. AutoSupport 유지 관리 창이 트리거된 경우 이를 종료합니다.
-+
-`system node autosupport invoke -node * -type all -message MAINT=END`
-
 

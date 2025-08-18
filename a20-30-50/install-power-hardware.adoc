@@ -163,4 +163,4 @@ image::../media/drw_psu_layout_1_ieops-1886.svg[A20 또는 A30 또는 A50 스토
 
 
 .다음 단계
-스토리지 시스템의 전원을 켠 후link:install-complete.html["시스템 설치를 완료합니다"]
+저장 시스템의 전원을 켠 후 https://docs.netapp.com/us-en/ontap/software_setup/workflow-summary.html["클러스터를 설정하세요"] .

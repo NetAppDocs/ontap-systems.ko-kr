@@ -13,10 +13,6 @@ summary: 'NVRAM 모듈은 NVRAM12와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe
 [role="lead"]
 비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 AFF C80 시스템의 NVRAM를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, NVRAM 모듈 또는 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.
 
-
-
-== 2단계: NVRAM 모듈 또는 NVRAM DIMM을 교체합니다
-
 적절한 다음 옵션을 사용하여 NVRAM 모듈 또는 NVRAM DIMM을 교체합니다.
 
 [role="tabbed-block"]

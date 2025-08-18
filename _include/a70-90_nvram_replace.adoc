@@ -1,10 +1,6 @@
-= 2단계: NVRAM 모듈 또는 NVRAM DIMM을 교체합니다
+= 3단계: 디스크를 다시 할당합니다
 :allow-uri-read: 
 
-
-
-
-== 2단계: NVRAM 모듈 또는 NVRAM DIMM을 교체합니다
 
 적절한 다음 옵션을 사용하여 NVRAM 모듈 또는 NVRAM DIMM을 교체합니다.
 

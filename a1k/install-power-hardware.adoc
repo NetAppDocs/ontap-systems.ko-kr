@@ -162,4 +162,4 @@ image::../media/drw_affa1k_power_source_icon_ieops-1700.svg[AFF A1K AFF A70, AFF
 
 
 .다음 단계
-AFF A1K 스토리지 시스템을 켠 후에link:install-complete.html["시스템 설정을 완료합니다"]
+AFF A1K 저장 시스템을 켠 후에는 https://docs.netapp.com/us-en/ontap/software_setup/workflow-summary.html["클러스터를 설정하세요"] .

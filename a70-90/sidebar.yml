@@ -17,8 +17,6 @@ entries:
     url: "/a70-90/install-cable.html"
   - title: 시스템 전원을 켭니다
     url: "/a70-90/install-power-hardware.html"
-  - title: 시스템 설치를 완료합니다
-    url: "/a70-90/install-complete.html"
 - title: 유지 관리
   pdf-filename: AFF A70, AFF A90 유지 보수
   entries:

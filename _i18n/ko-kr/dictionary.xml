@@ -7805,8 +7805,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2f6df380cd83e22784e9ab6e56edd84d" category="list-text">포트 e10a를 쉘프 2 NSM B 포트 e0a에 연결합니다.</block>
   <block id="cd510ec7974b62b233e62a6e6a5c727e" category="inline-image-macro">컨트롤러 B의 컨트롤러-쉘프 연결</block>
   <block id="462dd5d60871bb2319eb46e1da38c42d" category="paragraph"><block ref="462dd5d60871bb2319eb46e1da38c42d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d5bec2eb0018e8e254a2426f768cf678" category="summary">스위치와 랩톱에 대한 연결만 있는 클러스터 검색을 사용하거나 스토리지 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 플랫폼 설정 및 구성을 완료합니다.</block>
-  <block id="e0c6d59cdb58b213183cb0fc7534ee18" category="doc">스토리지 시스템 설치 및 구성을 완료합니다. - AFF A1K</block>
   <block id="4ba7257f41527371f7a52420787c1085" category="section-title">1단계: 클러스터 정보 수집</block>
   <block id="e13a4e2099510963f792c4fc1ef4fced" category="paragraph">아직 수집하지 않은 경우 클러스터 관리 인터페이스 포트 및 IP 주소 등 클러스터를 구성하는 데 필요한 정보를 수집합니다.</block>
   <block id="8c468ee786068bf98fe0b8a71cf946fa" category="inline-link">클러스터 설정 워크시트</block>
@@ -7830,7 +7828,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ea6245a5aad1d347d3bfd8727ccbe15c" category="inline-link-macro">하드웨어 케이블 연결</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
   <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
-  <block id="32faffb9b7b89515bab5605b39a5c57d" category="inline-link-macro">스토리지 시스템 설정을 완료합니다</block>
   <block id="079541787256810512e79fe819711d61" category="summary">전원 케이블을 연결하고 쉘프 및 컨트롤러의 전원을 켭니다.</block>
   <block id="c2b963a7671a8f77c637646d3e8c76a5" category="doc">스토리지 시스템의 전원을 켭니다. AFF A1K</block>
   <block id="0b5c1681fb8f009a141f0c7d0f2d8f64" category="section-title">1단계: 쉘프 전원을 켜고 쉘프 ID를 할당합니다</block>
@@ -8067,7 +8064,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1359f19561173d7123369e0c8f9fb141" category="sidebar">AFF A1K 설치 및 설정</block>
   <block id="6f550466a69bad21f11ab99fc12db497" category="sidebar">워크플로를 설치합니다</block>
   <block id="7b2ca066e862da1c95471b425468af14" category="sidebar">시스템 전원을 켭니다</block>
-  <block id="fad3eebd1aa676638de5e9e932b52f40" category="sidebar">시스템 설치를 완료합니다</block>
   <block id="cdea6179c22763aadc0ee6a4b14f5f21" category="sidebar">AFF A1K 유지 보수</block>
   <block id="5881b108517b27e7011c12b72fab1eb6" category="sidebar">AFF A1K 부팅 미디어</block>
   <block id="2df31b353db26ab75397dd256071bb0f" category="sidebar">AFF A1K 컨트롤러 모듈</block>
@@ -8450,7 +8446,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="585305b30e013fddf0d6343d4ee20ddd" category="open-title">옵션 2: NS224 스토리지 쉘프 2개에 연결</block>
   <block id="6ed30500ab710bf43940cb83592bdbfa" category="inline-link-macro">AFF A1K 스토리지 시스템의 전원을 켭니다</block>
   <block id="3f9b0cea76dc6f2b6177d8bcb5908423" category="paragraph">AFF A1K 시스템용 하드웨어를 케이블로 연결한 후<block ref="654696be1fe92ecfa0ff053c720b2b1d" category="inline-link-macro-rx"></block>,</block>
-  <block id="27ed857e5ec70c9d4b25678f791b6131" category="summary">스위치와 랩톱에 대한 연결만 사용하거나 스토리지 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 클러스터 검색을 사용하여 설정 및 구성을 완료합니다.</block>
   <block id="b53b432cc7bef69c6e3b55451a6e6076" category="paragraph">AFF A1K 스토리지 시스템을 설치할 준비가 되면 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 캐비닛이나 통신 랙에 플랫폼을 설치하고 고정합니다.</block>
   <block id="957ae92207588304b6d7d5e236d23f00" category="paragraph">캐비닛이 미리 채워져 있으면 이 단계를 건너뜁니다.</block>
   <block id="2faeb3f50bfdbdf81bf89b4827b8be68" category="inline-link-macro">AFF A1K 스토리지 시스템용 하드웨어를 케이블로 연결합니다</block>
@@ -8472,11 +8467,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5ff2c2e371b329794d430555ced9e3f7" category="paragraph">하드웨어를 케이블로 연결하려면 먼저 스토리지 컨트롤러를 네트워크에 연결한 다음, 컨트롤러를 스토리지 쉘프에 연결합니다.</block>
   <block id="285d6553cd8c7daec6f0d12aba91379c" category="inline-link-macro">AFF A1K 스토리지 시스템의 전원을 켭니다</block>
   <block id="7975efdb78ae2356ecfb7785916813ea" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="e440a513b8c5f4e1fdb4e9cd395eb57d" category="inline-link-macro-rx"></block></block>
-  <block id="54cd8d1881f4be7195e616a39249670b" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block><block ref="ed796137dcbf61e6432604e7b2936e62" category="inline-link-macro-rx"></block></block>
-  <block id="80c97b00983d1544cf5059e1ae224d3c" category="paragraph">시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 ONTAP System Manager에 액세스합니다. 설정 마법사를 통해 AFF A1K 스토리지 시스템에 대한 클러스터 구성을 완료할 수 있습니다.</block>
   <block id="cb3c09e0aea666ca89714e771fe2a341" category="paragraph">AFF A1K 스토리지 시스템용 랙 하드웨어를 설치하고 컨트롤러 및 스토리지 쉘프용 케이블을 설치한 후에는 스토리지 쉘프와 컨트롤러의 전원을 켜야 합니다.</block>
-  <block id="35f11b67e0796a5ad8b1a42113d555af" category="inline-link-macro">시스템 설정을 완료합니다</block>
-  <block id="bb0e3698075baec263b94b00c624fc7f" category="paragraph">AFF A1K 스토리지 시스템을 켠 후에<block ref="cdf5a4c974bf88b91aa8dc567bf1a13f" category="inline-link-macro-rx"></block></block>
   <block id="42aa8e4e5869ddf4141b1addfd622a67" category="doc">설치 준비 - AFF A1K</block>
   <block id="d0f453bcbfb08f54ed7c397b49f72493" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택에 액세스할 수 있도록 시스템을 등록하여 AFF A1K 스토리지 시스템 설치를 준비합니다.</block>
   <block id="f6b81eee7a6985b4bd76813e240e5101" category="inline-link-macro">AFF A1K 스토리지 시스템용 하드웨어를 설치합니다</block>
@@ -8505,7 +8496,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="129659531a7af0b8cc014b27db714e59" category="paragraph">AFF A70 또는 AFF A90 스토리지 시스템용 랙 하드웨어를 설치한 후 컨트롤러의 네트워크 케이블을 설치하고 컨트롤러와 스토리지 쉘프 간에 케이블을 연결합니다.</block>
   <block id="4303b29f12561a35dc71cb122558d909" category="inline-link-macro">AFF A70 또는 AFF A90 스토리지 시스템의 전원을 켭니다</block>
   <block id="f4e587df8e3873f191b7a2eaee7efc0d" category="paragraph">AFF A70 또는 AFF A90 시스템용 하드웨어를 케이블로 연결한 후<block ref="c5f2d57d7889d01ebbda3bc0e0e75909" category="inline-link-macro-rx"></block>,</block>
-  <block id="0a9fdcb4b99938b1949943d7889de0e4" category="doc">AFF A70 및 AFF A90 등 스토리지 시스템 설치 및 구성을 완료합니다</block>
   <block id="eaed2b50f9ac1d1c725b320e4c9f09e1" category="doc">AFF A70 및 AFF A90 하드웨어를 설치합니다</block>
   <block id="816bbd9f7f68bfea42f976bdd1e27e0d" category="paragraph">AFF A70 또는 AFF A90 스토리지 시스템을 설치할 준비가 되면 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 캐비닛이나 통신 랙에 플랫폼을 설치하고 고정합니다.</block>
   <block id="fd0f91da61deb35dbaf2ae06cc064cf2" category="inline-link-macro">AFF A70 또는 AFF A90 스토리지 시스템용 하드웨어를 케이블로 연결합니다</block>
@@ -8520,11 +8510,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2d3e272e1a75695d2e91a62c635ca211" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="aadc43ed51769de185eed40b0ee14a06" category="inline-link-macro-rx"></block></block>
   <block id="4c29a03a0ab864082fe459c7b721fbbc" category="inline-link-macro">AFF A70 또는 AFF A90 스토리지 시스템의 전원을 켭니다</block>
   <block id="a19bec9c1c3c4f1245f5b6986c20b987" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="5a2730391e8b064fb32b1f55a3ad2002" category="inline-link-macro-rx"></block></block>
-  <block id="7ebf9d5e847b8d7a94676c8589e3ba8a" category="paragraph">시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 ONTAP System Manager에 액세스합니다. 설정 마법사를 통해 AFF A70 또는 AFF A90 스토리지 시스템에 대한 클러스터 구성을 완료할 수 있습니다.</block>
   <block id="15dfdd4107875517824d97fd681fd5cb" category="doc">스토리지 시스템 전원을 켭니다(AFF A70 및 AFF A90)</block>
   <block id="addbfcd02447e9d1c6cbb3810c45a6ac" category="paragraph">AFF A70 또는 AFF A90 스토리지 시스템용 랙 하드웨어를 설치하고 컨트롤러 및 스토리지 쉘프용 케이블을 설치한 후에는 스토리지 쉘프와 컨트롤러의 전원을 켜야 합니다.</block>
-  <block id="ed1a15747627f84755b5eef621bb8e85" category="inline-link-macro">시스템 설치를 완료합니다</block>
-  <block id="c0677b3f2eac3919f6dafe43a0461dd5" category="paragraph">AFF A70 또는 AFF A90 스토리지 시스템을 켠 후에<block ref="a6663b3be7b31b2e16a5286f009fcfff" category="inline-link-macro-rx"></block></block>
   <block id="ec9b0b25a575ea2719a43e0ed4eba2ef" category="doc">설치 준비 - AFF A70 및 AFF A90</block>
   <block id="e2ffcf27d17e53137e3f3b594c1cd4c4" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택에 액세스할 수 있도록 시스템을 등록하여 AFF A70 또는 AFF A90 스토리지 시스템 설치를 준비합니다.</block>
   <block id="61c06139b6cae8ee51fc2ec7501dee42" category="inline-link-macro">AFF A70 또는 AFF A90 스토리지 시스템용 하드웨어를 설치합니다</block>
@@ -8639,7 +8626,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="552d44762a43ddc762f1255c8680368c" category="paragraph"><block ref="552d44762a43ddc762f1255c8680368c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6076d59638af62c513db60414806ba6a" category="inline-link-macro">FAS70 또는 FAS90 스토리지 시스템의 전원을 켭니다</block>
   <block id="0b38b0938783d2cf1b3800f66d5154c3" category="paragraph">FAS70 또는 FAS90 시스템용 하드웨어를 케이블로 연결한 후<block ref="9d70727ad16ec47c3b1ffe9fcd624399" category="inline-link-macro-rx"></block></block>
-  <block id="c847155be497cfc98de50193bb0ef4e3" category="doc">완전한 스토리지 시스템 설정 및 구성 - FAS70 및 FAS90</block>
   <block id="a88ce76514a173cf2bddffce66860b3a" category="doc">하드웨어 FAS70 및 FAS90 설치</block>
   <block id="8f4b2475d7c4e7fd5a95811a1509212a" category="paragraph">FAS70 또는 FAS90 스토리지 시스템 설치 준비를 마친 후에는 시스템에 하드웨어를 설치하십시오. 먼저 레일 키트를 설치합니다. 그런 다음 캐비닛이나 통신 랙에 플랫폼을 설치하고 고정합니다.</block>
   <block id="6416cb7210c1cd9b1d9cc413f9b62376" category="inline-link-macro">FAS70 또는 FAS90 스토리지 시스템용 하드웨어를 케이블로 연결합니다.</block>
@@ -8655,10 +8641,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="de6952744c4efa4af3b088924141554c" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="47f9cb95cf9bc2df13978b8a91985b13" category="inline-link-macro-rx"></block></block>
   <block id="a817c10af381296411c154c716af48b7" category="inline-link-macro">FAS70 또는 FAS90 스토리지 시스템의 전원을 켭니다</block>
   <block id="b2f6fbbaf5842fe5addbaac3aabc158d" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="164a6e7d5b74e1ce7eb1009b0b13e4f3" category="inline-link-macro-rx"></block></block>
-  <block id="7bf2fa9e265a50a618153953f60062b9" category="paragraph">시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 ONTAP System Manager에 액세스합니다. 설정 마법사를 통해 스토리지 시스템에 대한 클러스터 구성을 완료할 수 있습니다.</block>
   <block id="d9eb7005000baef74822bf5afd90707b" category="doc">스토리지 시스템 켜기 - FAS70 및 FAS90</block>
   <block id="f6d3448cfd45b6a4ae23d47aec38dd6f" category="paragraph">FAS70 0r FAS90 스토리지 시스템에 랙 하드웨어를 설치하고 컨트롤러 및 스토리지 쉘프용 케이블을 설치한 후에는 스토리지 쉘프와 컨트롤러의 전원을 켜야 합니다.</block>
-  <block id="7678c73f0b90edbadbeeacf02256f941" category="paragraph">FAS70 또는 FAS90 스토리지 시스템을 켜면 <block ref="a6663b3be7b31b2e16a5286f009fcfff" category="inline-link-macro-rx"></block>됩니다.</block>
   <block id="971e955dfe15e7503ed5654ed6ebd8e0" category="summary">FAS70 및 FAS90 플랫폼 설치 준비</block>
   <block id="03162faf493040269b3b60738c942373" category="doc">FAS70 및 FAS90 설치 준비</block>
   <block id="5c3b9df48b8876003c4bc9bef5a99d08" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택을 이용할 수 있도록 시스템을 등록하여 FAS70 또는 FAS90 스토리지 시스템 설치를 준비합니다.</block>
@@ -9813,7 +9797,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a7232cb75808a8e7cf49cc148792b59d" category="inline-image-macro">하나의 NS224 쉘프에 컨트롤러 B 포트 e3a 및 e3b 케이블 연결</block>
   <block id="4e7a391052a15e943c46f8d16f6bd53d" category="paragraph"><block ref="4e7a391052a15e943c46f8d16f6bd53d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="00f18c30a7bbd65060cf6a0e58f57e8f" category="paragraph">스토리지 시스템용 하드웨어를 케이블로 연결한 후<block ref="b337e1aa7c5092d0bcfa0886ff778532" category="inline-link-macro-rx"></block>,</block>
-  <block id="41d2428eb3b5bcaf38caff2b05238c99" category="doc">AFF A20, AFF A30 및 AFF A50 등 스토리지 시스템 설치 및 구성을 완료합니다</block>
   <block id="b33623048258f5659092aa830041844a" category="doc">AFF A20, AFF A30 및 AFF A50 하드웨어를 설치합니다</block>
   <block id="4a671f9889e4f6492c5a797641c7d77f" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다.</block>
   <block id="8206c8008227416f46d5d9a68b5f5f92" category="paragraph">스토리지 시스템이 캐비닛에 들어 있는 경우 이 단계를 건너뜁니다.</block>
@@ -9829,12 +9812,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3f43328b333c4df4c9ec539236523e92" category="inline-link-macro">스토리지 시스템의 전원을 켭니다</block>
   <block id="e6eeb9ce8e52b3b9db9cd7abc091625d" category="paragraph-title"><block ref="91d7076df3f3bfcf6ace71bd0aa6cf68" category="inline-image-macro-rx" type="image"></block><block ref="8a056a6439f08c4b1b6c616463cfac54" category="inline-link-macro-rx"></block></block>
   <block id="503f95c5c9b5a04e511351c93261b35d" category="paragraph">스토리지 시스템의 전원을 켜려면 각 쉘프의 전원을 켜고 필요에 따라 고유한 쉘프 ID를 할당한 다음 컨트롤러의 전원을 켭니다.</block>
-  <block id="2da317240a59e2e0c3ab69f98844fd97" category="paragraph-title"><block ref="6e12d70052c23b4d8ac555d298c6cb54" category="inline-image-macro-rx" type="image"></block><block ref="ed796137dcbf61e6432604e7b2936e62" category="inline-link-macro-rx"></block></block>
-  <block id="e79be7c13a8e05b95f0803989d822f1a" category="paragraph">스토리지 시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 ONTAP System Manager에 액세스합니다. 설정 마법사를 통해 스토리지 시스템에 대한 클러스터 구성을 완료할 수 있습니다.</block>
   <block id="9057791e1506dce04bd3005efa6d93aa" category="doc">스토리지 시스템(AFF A20, AFF A30 및 AFF A50)의 전원을 켭니다</block>
   <block id="0e13dd128aeb300bd4c4e4321d3b6d00" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 네트워크 및 쉘프에 컨트롤러를 케이블로 연결한 후 쉘프와 컨트롤러의 전원을 켭니다.</block>
   <block id="d2318e267239f37a3cc57e89925b9627" category="image-alt">A20 또는 A30 또는 A50 스토리지 시스템 전원 연결 다이어그램</block>
-  <block id="c99b4f07076f9f2d91c4d91135d1dc65" category="paragraph">스토리지 시스템의 전원을 켠 후<block ref="a6663b3be7b31b2e16a5286f009fcfff" category="inline-link-macro-rx"></block></block>
   <block id="80c5d8d4caa18675a1c928876932e0f5" category="doc">설치 준비 - AFF A20, AFF A30 및 AFF A50</block>
   <block id="3d805e2ccb8d322d7295163d2ef0cd1d" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 스토리지 시스템 등록을 통해 AFF A20, AFF A30 또는 AFF A50 저장 장치 시스템 설치를 준비합니다.</block>
   <block id="586f9ad5db82f223a8b9cca9ed48f572" category="list-text">스토리지 시스템의 경우 2U</block>
@@ -9871,7 +9851,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="323a91f2ce5b9b7fd43982a93a67f379" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="ea610f51a26134e77e0b3dc338a41e31" category="doc">하드웨어 케이블 연결 - AFF C30 및 AFF C60</block>
   <block id="a79626103b80bf3ef3558a2b727998a3" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다.</block>
-  <block id="b079b3155e464d9b84f317b7c289baaa" category="doc">AFF C30 및 AFF C60 등 스토리지 시스템 설치 및 구성을 완료합니다</block>
   <block id="c2193a61b82d60ca9261e895b85747bb" category="doc">AFF C30 및 AFF C60 하드웨어를 설치합니다</block>
   <block id="bde05321bc44e000faa60469a895ce4a" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다.</block>
   <block id="b96dbc5fbc9ab81f32efde0325589654" category="doc">설치 및 설정 워크플로우 - AFF C30 및 AFF C60</block>
@@ -9901,8 +9880,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4218f8d2412136bfb32601e026baa923" category="paragraph">AFF C80 스토리지 시스템용 랙 하드웨어를 설치한 후 컨트롤러의 네트워크 케이블을 설치하고 컨트롤러와 스토리지 쉘프 간에 케이블을 연결합니다.</block>
   <block id="692eb202bcfcdd5ff15ac88e850a8958" category="inline-link-macro">AFF C80 스토리지 시스템의 전원을 켭니다</block>
   <block id="7d21a7c62df428d46d7ff82091e62589" category="paragraph">AFF C80 시스템용 하드웨어를 케이블로 연결한 후<block ref="763dfc53859a04a5c267821436720409" category="inline-link-macro-rx"></block>,</block>
-  <block id="63d7026bd2a296696d20207af94b856c" category="summary">스위치와 랩톱에 연결된 경우에만 클러스터 검색을 사용하거나 스토리지 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 스토리지 시스템 설정 및 구성을 완료합니다.</block>
-  <block id="d3e862b08cbf5c7b7a60cae18ea4735e" category="doc">스토리지 시스템 설치 및 구성을 완료합니다. - AFF C80</block>
   <block id="c567aa1fcd31cf1fc0ed7ef613af1ec2" category="doc">AFF C80 하드웨어를 설치합니다</block>
   <block id="ac535b6b9c7de780cfad843a39bc961c" category="paragraph">AFF C80 스토리지 시스템을 설치할 준비가 되면 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다.</block>
   <block id="33a7bb70ec0d85a6af9ff85989ebee02" category="inline-link-macro">AFF C80 스토리지 시스템용 하드웨어를 케이블로 연결합니다</block>
@@ -9918,10 +9895,8 @@ SFP+(타겟/이니시에이터)</block>
   <block id="511d044004931d0b1b2a06b8015413bd" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block><block ref="662ed7ee864af1cfedbe87e2ee1f3eb1" category="inline-link-macro-rx"></block></block>
   <block id="58194004b73e5c3f0f7893e86022434b" category="inline-link-macro">AFF C80 스토리지 시스템의 전원을 켭니다</block>
   <block id="4cb1bbde7d4f7a3185716ba5e6aeb05d" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="bcacb9d1291db203e425798ebfffc016" category="inline-link-macro-rx"></block></block>
-  <block id="a16c29eb6be9b9073d5e43b9d22851b9" category="paragraph">시스템 설정을 완료하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 ONTAP System Manager에 액세스합니다. 설정 마법사를 통해 AFF C80 스토리지 시스템에 대한 클러스터 구성을 완료할 수 있습니다.</block>
   <block id="42bc98faf5f65033d7e58c1389bfb4d8" category="doc">스토리지 시스템의 전원을 켭니다. AFF C80</block>
   <block id="56f39934b7b567638a5c7fab3e4713dc" category="paragraph">AFF C80 스토리지 시스템용 랙 하드웨어를 설치하고 컨트롤러 및 스토리지 쉘프용 케이블을 설치한 후에는 스토리지 쉘프와 컨트롤러의 전원을 켜야 합니다.</block>
-  <block id="72d24e6471241ba980e6c2b8017a3c3e" category="paragraph">AFF C80 스토리지 시스템을 켠 후에<block ref="a6663b3be7b31b2e16a5286f009fcfff" category="inline-link-macro-rx"></block></block>
   <block id="c60dc618663ce54c52b024e209050e57" category="summary">AFF C80 저장 장치 시스템 설치를 준비합니다.</block>
   <block id="aa2e3ee65f05caaf497283a0ab483129" category="doc">설치 준비 - AFF C80</block>
   <block id="ae94559d673eaece00e4a335f4347e99" category="paragraph">사이트 준비, 상자 포장 풀기, 포장 명세서와 상자 내용물 비교, 지원 혜택에 액세스할 수 있도록 시스템을 등록하여 AFF C80 스토리지 시스템 설치를 준비합니다.</block>
@@ -10172,8 +10147,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f1f5a8071b69ef980c0fca64b3b9c54e" category="list-text">자동 반환을 비활성화한 경우 복원</block>
   <block id="a7ecdb67614fe7d399a65b213dd20e1a" category="paragraph">드라이브 쉘프는 NetApp AFF, ASA 및 FAS 시스템을 위해 특별히 설계되었으며 디지털 전환 시 필요한 성능, 복원력, 유연성을 제공합니다.</block>
   <block id="dbc74f369dbf214b25d0f839fd4cd2b0" category="list-text">자동 반환을 비활성화한 경우 복원:</block>
-  <block id="37e73c8cf9d7d3b4aeaa58f23b2fcb81" category="paragraph">AFF A1K 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
-  <block id="f2cde5cb8aa49228f5cb392e473dff51" category="paragraph">클러스터가 초기화되면 을 다운로드하고 실행하여<block ref="48865c7c1d8013246e4e5f705a9105de" category="inline-link-rx"></block> 설정을 확인하십시오.</block>
   <block id="e826d5b26017ec374bf63b94b8a425d9" category="list-text">각 전원 공급 장치의 고정 장치를 사용하여 전원 코드를 고정합니다. : a1k-a70-90!:</block>
   <block id="0bf1ff1f561d2a96752b8ee596c65068" category="list-text">HA 구성이 4U입니다</block>
   <block id="3ac4d4a9f6b930345bd4ccdb8435d0fb" category="list-text">를 클릭합니다</block>
@@ -10181,15 +10154,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6de84c72e7e126f172cbcc00c68cd297" category="paragraph">NS224 선반의 무게는 최대 30.29kg(66.78lbs)입니다. 선반을 인양하려면 두 사람이 함께 작업하거나 유압식 리프트를 사용하십시오. 선반 무게의 균형을 맞추기 위해 모든 구성 요소를 선반(전면 및 후면 모두)에 보관하십시오.</block>
   <block id="f6212161be26bdf2d9804cc49d78a681" category="image-alt">NS224 NSM100 인양 주의</block>
   <block id="4eb7fd7f39fdba863f648fba58c6a17b" category="list-text"><block ref="fa81f583d8b6c7dcaf8e26a5fcf5de52" category="inline-link-rx"></block> : a1k! :</block>
-  <block id="be520d0c187d935243d727d6ae1fae7d" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="a8df3504a76da7d726b26d0dfd4a23f3" category="doc">설치 요구 사항 - AFF A20, AFF A30 및 AFF A50</block>
   <block id="a6c628254ff2bf40212541b76682d0ca" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에 대한 요구사항을 검토하십시오.</block>
-  <block id="b88e50a127892280ab464a0d38a10676" category="paragraph">AFF A70 또는 AFF A90 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="7fffd066161648ae573d6d74ec60e85e" category="paragraph">저장 장치 시스템의 무게는 최대 68.8kg(151.68파운드)입니다. 보관 시스템을 인양하려면 네 명 또는 유압 리프트를 사용합니다.</block>
-  <block id="877c6321779942add591f77ab7b28f2e" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="4572f45ac79ded53bd57f95eaf949d13" category="doc">설치 요구 사항 - AFF C30 및 AFF C60</block>
-  <block id="2795470282b110353916b87e8a68ea10" category="paragraph">AFF C80 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
-  <block id="021fad57648b2198deca585e8c317a71" category="paragraph">FAS70 또는 FAS90 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="510996b7cd8e0bf946a50e1f000afbe2" category="paragraph">SuperRail은 사각형 구멍 어댑터 브래킷을 사용하여 표준 사각형 구멍 4포스트 랙 또는 표준 원형 구멍 4포스트 랙에 설치할 수 있습니다.</block>
   <block id="090baac144fae3a90d22bb679e0194a6" category="sidebar">AFF A20, AFF A30 및 AFF A50 부팅 미디어</block>
   <block id="f923335af94abdb12e15d306f375ccba" category="sidebar">AFF A20, AFF A30 및 AFF A50 입출력 모듈</block>
@@ -11094,8 +11062,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="01c7cda26a7b465d1c56f741d328e967" category="list-text">케이블 컨트롤러 B 포트 3D-셸프 2 IOMA 포트 3.</block>
   <block id="60fee2ee2c3e768d10719c680fb38afb" category="inline-image-macro">컨트롤러 B 포트 3a 및 3D를 두 DS460C 쉘프에 케이블로 연결합니다</block>
   <block id="7a2d0d2a1e1f5dc3d5184332fb23afba" category="paragraph"><block ref="7a2d0d2a1e1f5dc3d5184332fb23afba" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c7a75f3a015710392a8467c08fd9862a" category="doc">스토리지 시스템 설치 및 구성을 완료합니다. - FAS50</block>
-  <block id="c63c71562f3b83fe3a2793ff2deb8fd5" category="paragraph">FAS50 스토리지 시스템을 켜면 클러스터 네트워크를 검색하고 ONTAP 클러스터를 설정할 수 있습니다.</block>
   <block id="a48dcb52a80835a67657f668af54582e" category="doc">hardware-FAS50 을 설치합니다</block>
   <block id="986b47fd733e9cbf32255b28864ed238" category="paragraph">FAS50 스토리지 시스템을 설치할 준비가 되면 스토리지 시스템용 하드웨어를 설치합니다. 먼저 레일 키트를 설치합니다. 그런 다음 스토리지 시스템을 캐비닛이나 통신 랙에 설치하고 고정합니다.</block>
   <block id="4f71d9bde1ecffc22f8c526c10e5381e" category="doc">설치 및 설정 워크플로우 - FAS50</block>
@@ -11868,8 +11834,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="aa531670186ea89165a64b4839889b9b" category="list-text">드라이브 서랍을 조심스럽게 인클로저로 다시 밀어 넣으세요. +s <block ref="e57bb4934e3c0d4cbe8c534709c18cf5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2efcc590b5abb3211d808cb53bc04668" category="paragraph">다음 하위 단계를 사용하여 선반 ID를 변경할 수 있습니다. 자세한 지침은 다음을 참조하세요. <block ref="1bf0acf64e45d0c785cbad3f63f469c6" category="inline-link-macro-rx"></block> .</block>
   <block id="9982fc2fe5816d297a37b3ad57f43a5e" category="section-title">2단계: 핫 애드를 위한 케이블 디스크 선반</block>
-  <block id="8791ec38034bbb459948342e16d5eeef" category="list-text">이 절차를 완료하기 위해서는 다음 요구 사항을 충족해야 합니다. <block ref="8f2931546a85884febd2253de0e97e97" category="inline-xref-macro-rx"></block> 섹션을 설치하고 전원을 켜고 각 디스크 선반에 대한 선반 ID를 지시대로 설정했습니다. <block ref="e16f4ee23c5ee1fb9788c3c8a75ff6d9" category="inline-xref-macro-rx"></block> .</block>
-  <block id="72e517954e40be84083a6b87508b39b0" category="paragraph">스택은 다음 요구 사항을 충족해야 합니다. <block ref="8f2931546a85884febd2253de0e97e97" category="inline-xref-macro-rx"></block> 이 절차의 섹션입니다.</block>
   <block id="e799b535f2d63f0553a59afd2bbcbc37" category="section-title">(선택 사항) 3단계: DS460C 선반 이동 또는 운반</block>
   <block id="790df2827c132e9040bd12ac9938f8e1" category="paragraph">나중에 DS460C 선반을 데이터 센터의 다른 곳으로 옮기거나 선반을 다른 위치로 운반하는 경우 드라이브 서랍에서 드라이브를 제거하여 드라이브 서랍과 드라이브가 손상되는 것을 방지해야 합니다.</block>
   <block id="84f49fb7ef2efb64157148b160d0f41b" category="list-text">DS460C 선반을 설치할 때 드라이브 포장재를 선반 핫애드의 일부로 보관한 경우, 이를 사용하여 드라이브를 옮기기 전에 다시 포장하세요.</block>
@@ -12113,4 +12077,16 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1a9030bf843d5fd6c4e2ffad5e4f7589" category="summary">정전 시에도 중요한 시스템 데이터를 보존하는 역할을 하는 NV 배터리가 충전을 잃거나 고장나면 FAS50 저장 시스템의 NV 배터리를 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="be9875a94cc09d90fb578f7e7eb0c1b9" category="summary">FAS50 스토리지 시스템의 AC 또는 DC 전원 공급 장치(PSU)에 오류가 발생하거나 오류가 생기면 교체하여 시스템이 안정적으로 작동하는 데 필요한 전력을 계속 공급받을 수 있도록 하세요.  교체 과정에는 결함이 있는 PSU를 전원에서 분리하고, 전원 코드를 뽑고, 결함이 있는 PSU를 교체한 다음, 다시 전원에 연결하는 작업이 포함됩니다.</block>
   <block id="5933d58ecdf477732aebddd62290e674" category="summary">정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 FAS50 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.</block>
+  <block id="92db1257222418b67082094015c7573b" category="inline-link">클러스터 설정</block>
+  <block id="cc51e5e3b47d6ec06dc4243cef49c8d0" category="paragraph-title"><block ref="ef78558f80439832e0f51cc22cee8b8c" category="inline-image-macro-rx" type="image"></block>/<block ref="51676d6e20492df73dde4996e18903b5" category="inline-link-rx"></block></block>
+  <block id="fab8921216755946904b56169390c6a4" category="inline-link">클러스터를 설정하세요</block>
+  <block id="17d8b1a24625f873cbd79169b4d6a4a1" category="paragraph">저장 시스템의 전원을 켠 후<block ref="0f60cfcace4de2b8e8fde35e0c84ffd6" category="inline-link-rx"></block> .</block>
+  <block id="429705c279d5084e43119e97001cc757" category="paragraph">AFF A1K 저장 시스템을 켠 후에는<block ref="0f60cfcace4de2b8e8fde35e0c84ffd6" category="inline-link-rx"></block> .</block>
+  <block id="7330f49604b46d73a3ab5144a0883082" category="paragraph-title"><block ref="6e12d70052c23b4d8ac555d298c6cb54" category="inline-image-macro-rx" type="image"></block>/<block ref="51676d6e20492df73dde4996e18903b5" category="inline-link-rx"></block></block>
+  <block id="ba86337324d5518a2b56b6eb5db17504" category="paragraph">AFF A70 또는 AFF A90 저장 시스템을 켠 후<block ref="0f60cfcace4de2b8e8fde35e0c84ffd6" category="inline-link-rx"></block> .</block>
+  <block id="bb955abc1ee1a042f477c6977d0bfc07" category="paragraph"><block ref="bb955abc1ee1a042f477c6977d0bfc07" category="inline-link-macro-rx"></block></block>
+  <block id="8d96a0652a56a46a76c2dfa6064eedc6" category="paragraph">AFF C80 저장 시스템을 켠 후에는<block ref="0f60cfcace4de2b8e8fde35e0c84ffd6" category="inline-link-rx"></block> .</block>
+  <block id="6fe10565744cf725b2fd75861906fbc1" category="paragraph">FAS70 또는 FAS90 스토리지 시스템을 켠 후<block ref="0f60cfcace4de2b8e8fde35e0c84ffd6" category="inline-link-rx"></block> .</block>
+  <block id="130be2fd2e92afb91e19f2dec9836c4c" category="admonition">이 절차는 ASA r2 시스템에는 적용되지 않습니다.</block>
+  <block id="9da319b07aef4095e22497ba00c68f1e" category="list-text">이 절차를 완료하기 위한 요구 사항을 충족해야 하며 지시된 대로 각 디스크 선반에 대한 선반 ID를 설치, 전원 켜고 설정해야 합니다.<block ref="e16f4ee23c5ee1fb9788c3c8a75ff6d9" category="inline-xref-macro-rx"></block> .</block>
 </blocks>
