@@ -51,13 +51,14 @@ summary: 모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기
 +
 `cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
 
-. 정상 상태의 컨트롤러 콘솔에서 자동 반환 비활성화:
+. 자동 환불 비활성화:
++
+.. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
 `storage failover modify -node local -auto-giveback false`
 
-+
+.. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 
-NOTE: 자동 반환을 비활성화하시겠습니까?_가 표시되면 'y'를 입력합니다.
 
 . 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
 +
