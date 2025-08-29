@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c800, replace the boot media 
 summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라이저 3을 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다. 
 ---
-= 부팅 미디어(AFF C800)를 교체합니다
+= 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - AFF C800
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -12,6 +12,8 @@ summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라�
 
 [role="lead"]
 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
+
+스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 
 
 

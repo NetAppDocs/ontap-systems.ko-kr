@@ -1,14 +1,19 @@
 ---
 permalink: fas8300/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: fas8300, fas8300, shut, down, take, over, impair, controller, procedure, storage, system, hardware, configuration, shut down the impaired controller 
+keywords: fas8300, fas8700, shut, down, take, over, impair, controller, procedure, storage, system, hardware, configuration, shut down the impaired controller 
 summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
 ---
-= 손상된 컨트롤러를 종료합니다. - AFF FAS8300 및 FAS8700
+= 수동 부팅 미디어 복구를 위해 컨트롤러 종료 - FAS8300 및 FAS8700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
+
+[role="lead"]
+NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+
+스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 
 
 

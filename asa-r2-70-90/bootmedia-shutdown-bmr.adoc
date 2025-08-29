@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a70, asa r2 a90, shut down the controller 
 summary: ASA A70 또는 ASA A90 저장 장치 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어를 교체할 때 시스템 안정성을 유지합니다. 
 ---
-= 컨트롤러를 종료하여 부팅 미디어를 교체합니다. - ASA A1K
+= 부트 미디어를 교체하려면 컨트롤러를 종료하세요 - ASA A70 또는 ASA A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

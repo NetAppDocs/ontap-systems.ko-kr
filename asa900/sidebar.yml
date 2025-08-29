@@ -16,23 +16,38 @@ entries:
 - title: 유지 관리
   pdf-filename: ASA A900 유지 보수
   entries:
-  - title: 개요
-    url: "/asa900/index.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: ASA A900 부트 미디어
+  - title: 유지 보수 개요
+    url: "/asa900/maintain-overview.html"
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: AFF ASA 900 부트 미디어 자동화
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/asa900/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/asa900/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/asa900/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/asa900/bootmedia-replace-bmr.html"
+    - title: 부팅 미디어의 이미지를 복원합니다
+      url: "/asa900/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/asa900/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: AFF ASA 900 부트 미디어 매뉴얼
     entries:
     - title: 개요
       url: "/asa900/bootmedia_replace_overview.html"
     - title: 암호화 키를 확인합니다
       url: "/asa900/bootmedia_encryption_preshutdown_checks.html"
     - title: 손상된 컨트롤러를 종료합니다
-      url: "/asa900/bootmedia_impaired_controller_shutdown.html"
-    - title: 장애가 발생한 부팅 미디어를 교체합니다
+      url: "/asa900/bootmedia-shutdown.html"
+    - title: 부팅 미디어를 교체합니다
       url: "/asa900/bootmedia_replace.html"
     - title: 부팅 복구 이미지
       url: "/asa900/bootmedia_recovery_image.html"
     - title: 암호화를 복원합니다
-      url: "/asa900/bootmedia_encryption_restore.html"
+      url: "/asa900/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/asa900/bootmedia_complete_rma.html"
   - title: 섀시

@@ -1,0 +1,38 @@
+---
+permalink: a800/bootmedia-replace-workflow-bmr.html 
+sidebar: sidebar 
+keywords: a800, replace the boot media 
+summary: AFF A800 스토리지 시스템의 부트 미디어를 교체하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부트 미디어를 교체하고, 부트 미디어에 이미지를 복원하고, 시스템 기능을 확인하는 등의 작업을 수행하세요. 
+---
+= 부팅 미디어 자동 복구 워크플로 - AFF A800
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+부트 이미지 자동 복구는 시스템이 적절한 부트 메뉴 옵션을 자동으로 식별하고 선택하는 과정을 포함합니다. 파트너 노드의 부트 이미지를 사용하여 AFF A800 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치합니다.
+
+자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
+
+시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부트 미디어를 교체하고, 시스템이 이미지를 복원하도록 한 다음, 시스템 기능을 확인하세요.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:bootmedia-replace-requirements-bmr.html["부팅 미디어 요구 사항을 검토합니다"]
+[role="quick-margin-para"]
+부팅 미디어 교체에 대한 요구 사항을 검토합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown-bmr.html["컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+부팅 미디어를 교체해야 할 때 스토리지 시스템에서 컨트롤러를 종료합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
+[role="quick-margin-para"]
+컨트롤러 모듈에서 오류가 발생한 부트 미디어를 제거하고 교체 부트 미디어를 설치합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-recovery-image-boot-bmr.html["부팅 미디어에서 이미지를 복원합니다"]
+[role="quick-margin-para"]
+파트너 컨트롤러에서 ONTAP 이미지를 복원합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:bootmedia-complete-rma-bmr.html["장애가 발생한 부품을 NetApp으로 반환합니다"]
+[role="quick-margin-para"]
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.

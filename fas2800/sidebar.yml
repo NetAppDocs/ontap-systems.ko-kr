@@ -14,15 +14,32 @@ entries:
   - title: 세부 단계
     url: "/fas2800/install-detailed-guide.html"
 - title: 유지 관리
-  pdf-filename: FAS2820 유지 보수
+  pdf-filename: AFF FAS2800 유지관리
   entries:
-  - title: 개요
+  - title: 유지 관리 개요
     url: "/fas2800/maintain-overview.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: FAS2820 부팅 미디어
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: FAS2820 부트 미디어 자동화
     entries:
-    - title: 개요
-      url: "/fas2800/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas2800/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/fas2800/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/fas2800/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/fas2800/bootmedia-replace-bmr.html"
+    - title: 부팅 복구 이미지
+      url: "/fas2800/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas2800/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: FAS2820 부트 미디어 매뉴얼
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas2800/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a800/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
       url: "/fas2800/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다

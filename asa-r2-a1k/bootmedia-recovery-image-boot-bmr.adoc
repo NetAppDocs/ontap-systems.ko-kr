@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, boot the recovery image 
 summary: ASA A1K 시스템의 교체 부팅 미디어에서 ONTAP 이미지를 복원합니다. 이 프로세스에는 Loader 프롬프트에서 부팅 복구 프로세스를 시작하고 복구 프로세스가 완료되고 노드가 재부팅될 때까지 복구 프로세스를 모니터링하는 작업이 포함됩니다. 
 ---
-= 부팅 미디어에서 이미지를 복원합니다 - ASA A1K
+= 부트 미디어에 ONTAP 이미지 복원 - ASA A1K
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -128,7 +128,7 @@ Enter the passphrase again to confirm:
 Enter the backup data:
 -----BEGIN BACKUP-----
 <passphrase_value>
------END ACKUP-----
+-----END BACKUP-----
 ....
 =====
 

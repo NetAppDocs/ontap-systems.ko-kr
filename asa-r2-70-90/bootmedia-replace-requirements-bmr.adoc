@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a70, a90, replace the boot media 
 summary: ASA A70 또는 A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 
 ---
-= 부팅 미디어 교체 요구 사항 - ASA A70 및 ASA A90
+= 부트 미디어 교체 요구 사항 - ASA A70 및 ASA A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

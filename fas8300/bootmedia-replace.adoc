@@ -1,16 +1,18 @@
 ---
 permalink: fas8300/bootmedia-replace.html 
 sidebar: sidebar 
-keywords: fas8300, fas8300, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
+keywords: fas8300, fas8700, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
 summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.' 
 ---
-= 부트 미디어를 교체합니다. - FAS8300 및 FAS8700
+= 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - FAS8300 및 FAS8700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
+
+스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 
 
 

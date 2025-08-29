@@ -2,8 +2,6 @@
 :allow-uri-read: 
 
 
-컨트롤러 모듈을 뽑고 컨트롤러 모듈을 분리했다가 연 다음, 컨트롤러의 부팅 미디어를 찾아 교체한 다음 이미지를 교체용 부팅 미디어로 전송해야 합니다.
-
 
 
 == 1단계: 컨트롤러 모듈을 분리합니다
@@ -71,7 +69,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 .애니메이션 - 부팅 미디어를 교체합니다
 video::c5080658-765e-4d29-8456-adf2000e1495[panopto]
 +
-image::../media/drw_a900_remove_boot_dev.png[부팅 미디어를 제거합니다]
+image::../media/drw_9000_remove_boot_dev.svg[부팅 미디어를 제거합니다]
 
 +
 [cols="1,4"]
@@ -153,7 +151,7 @@ USB 콘솔 포트가 아니라 USB 장치용 슬롯에 USB 플래시 드라이�
 . 컨트롤러가 확장 또는 패브릭 연결 MetroCluster에 있는 경우 FC 어댑터 구성을 복원해야 합니다.
 +
 .. 유지보수 모드로 부팅:'boot_ONTAP maint
-.. MetroCluster 포트를 이니시에이터로 설정합니다: "ucadmin modify -m fc -t iniitator adapter_name"
+.. MetroCluster 포트를 개시자로 설정합니다. `ucadmin modify -m fc -t initiator adapter_name`
 .. 유지 보수 모드로 복귀하기 위해 정지한다
 
 

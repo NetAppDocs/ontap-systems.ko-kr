@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a800, boot the recovery image 
 summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
 ---
-= 복구 이미지 부팅 - AFF A800
+= USB 드라이브에서 수동 부팅 미디어 복구 - AFF A800
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -12,6 +12,8 @@ summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템
 
 [role="lead"]
 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 부팅하고 파트너 노드에서 구성을 복원할 수 있습니다.
+
+스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 
 .단계
 . LOADER 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅하십시오: "boot_recovery"

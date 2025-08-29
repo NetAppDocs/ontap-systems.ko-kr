@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, replace, boot, media, controller, module, fru map 
 summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다. 
 ---
-= 부팅 미디어 교체 - FAS2820
+= 부팅 미디어를 교체하고 수동 부팅 복구를 준비하세요 - FAS2820
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -12,6 +12,8 @@ summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체�
 
 [role="lead"]
 손상된 컨트롤러 모듈을 제거하고 열고, 컨트롤러에서 부팅 미디어를 찾아 교체하고, 부팅 이미지를 USB 드라이브로 전송하고, 컨트롤러에 USB 드라이브를 삽입한 다음 컨트롤러를 부팅해야 합니다.
+
+스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 
 
 

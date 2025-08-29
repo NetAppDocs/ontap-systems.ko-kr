@@ -1,0 +1,82 @@
+---
+permalink: asa800/bootmedia-shutdown-bmr.html 
+sidebar: sidebar 
+keywords: asa800, shut down the controller 
+summary: 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 ASA A800 스토리지 시스템에서 손상된 컨트롤러를 종료하세요. 
+---
+= 자동 부팅 미디어 복구를 위해 컨트롤러 종료 - ASA A800
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+자동 부팅 미디어 복구 프로세스 동안 데이터 손실을 방지하고 시스템 안정성을 유지하려면 ASA A800 스토리지 시스템에서 손상된 컨트롤러를 종료하세요.
+
+자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
+
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+.이 작업에 대해
+* SAN 시스템을 사용하는 경우 손상된 컨트롤러 SCSI 블레이드에 대한 이벤트 메시지를 확인해야  `cluster kernel-service show`합니다. priv advanced 모드에서 명령을 실행하면 `cluster kernel-service show` 해당 노드의 노드 이름link:https://docs.netapp.com/us-en/ontap/system-admin/display-nodes-cluster-task.html["쿼럼 상태입니다"], 해당 노드의 가용성 상태 및 해당 노드의 작동 상태가 표시됩니다.
++
+각 SCSI 블레이드 프로세스는 클러스터의 다른 노드와 함께 쿼럼에 있어야 합니다. 교체를 진행하기 전에 모든 문제를 해결해야 합니다.
+
+* 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+
+
+.단계
+. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=<# of hours>h`
+
++
+다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.
+
++
+`cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 자동 환불 비활성화:
++
+.. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
++
+`storage failover modify -node local -auto-giveback false`
+
+.. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
+
+
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+반환 대기 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트
+ a| 
+정상적인 컨트롤러에서 손상된 컨트롤러를 인계하거나 중지합니다.
+
+`storage failover takeover -ofnode _impaired_node_name_ -halt _true_`
+
+_-halt true_parameter는 Loader 프롬프트를 표시합니다.
+
+|===
+
+
+.다음 단계
+손상된 컨트롤러를 종료한 후link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]

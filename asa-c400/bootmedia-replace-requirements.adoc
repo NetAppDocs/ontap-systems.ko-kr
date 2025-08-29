@@ -1,0 +1,19 @@
+---
+permalink: asa-c400/bootmedia-replace-requirements.html 
+sidebar: sidebar 
+keywords: asa-c400, replace the boot media 
+summary: ASA C400 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다. 
+---
+= 수동 부팅 미디어 복구 요구 사항 - ASA C400
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ASA C400 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다.
+
+스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 프로세스를 사용해야 합니다.
+
+.다음 단계
+부팅 미디어를 교체하는 데 필요한 요구 사항을 검토한 후 를 link:bootmedia-encryption-preshutdown-checks.html["부팅 미디어에서 암호화 키 지원 및 상태를 확인합니다"]수행해야 합니다.

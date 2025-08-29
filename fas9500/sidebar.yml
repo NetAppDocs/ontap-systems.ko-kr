@@ -6,37 +6,52 @@ entries:
   pdf-filename: FAS9500 설치 및 설정
   entries:
   - title: 설치 및 설정 환경을 선택합니다
-    url: "/fas9500/install_setup.html"
+    url: "/fas9500/install-setup.html"
   - title: 빠른 단계
-    url: "/fas9500/install_quick_guide.html"
+    url: "/fas9500/install-quick-guide.html"
   - title: 비디오 단계
-    url: "/fas9500/install_videos.html"
+    url: "/fas9500/install-videos.html"
   - title: 세부 단계
-    url: "/fas9500/install_detailed_guide.html"
+    url: "/fas9500/install-detailed-guide.html"
 - title: 유지 관리
   pdf-filename: 9500의 유지보수
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/fas9500/maintain-overview.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: FAS9500 부팅 미디어
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: FAS9500 부트 미디어 자동화
     entries:
-    - title: 개요
-      url: "/fas9500/bootmedia_replace_overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas9500/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/fas9500/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/fas9500/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/fas9500/bootmedia-replace-bmr.html"
+    - title: 부팅 미디어의 이미지를 복원합니다
+      url: "/fas9500/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas9500/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: FAS9500 부트 미디어 매뉴얼
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas9500/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas9500/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
-      url: "/fas9500/bootmedia_encryption_preshutdown_checks.html"
+      url: "/fas9500/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas9500/bootmedia-shutdown.html"
     - title: 부팅 미디어를 교체합니다
-      url: "/fas9500/bootmedia_replace.html"
-    - title: 복구 이미지를 부팅합니다
-      url: "/fas9500/bootmedia_recovery_image.html"
-    - title: OKM, NSE 및 NVE를 위한 부팅 후 미디어 교체 단계
-      url: "/fas9500/bootmedia_encryption_restore.html"
-    - title: 장애가 발생한 부품을 NetApp으로 반환합니다
-      url: "/fas9500/bootmedia_complete_rma.html"
-  - title: 캐싱 모듈
-    url: "/fas9500/caching_module_hot_swap.html"
+      url: "/fas9500/bootmedia-replace.html"
+    - title: 부팅 복구 이미지
+      url: "/fas9500/bootmedia-recovery-image.html"
+    - title: 암호화를 복원합니다
+      url: "/fas9500/bootmedia-encryption-restore.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas9500/bootmedia-complete-rma.html"
   - title: 섀시
     pdf-filename: FAS9500 섀시
     entries:
@@ -44,22 +59,22 @@ entries:
       url: "/fas9500/chassis_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas9500/chassis_replace_shutdown.html"
-    - title: 하드웨어를 교체합니다
+    - title: 섀시를 교체합니다
       url: "/fas9500/chassis_replace_move_hardware.html"
     - title: 구성 복원 및 확인
       url: "/fas9500/chassis_replace_complete_system_restore_rma.html"
-  - title: 컨트롤러 모듈
+  - title: 컨트롤러
     pdf-filename: FAS9500 컨트롤러 모듈
     entries:
     - title: 개요
       url: "/fas9500/controller_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas9500/controller_replace_shutdown.html"
-    - title: 컨트롤러 모듈 하드웨어를 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/fas9500/controller_replace.html"
-    - title: 시스템 구성을 복원하고 확인합니다
+    - title: 시스템 구성을 복원 및 확인합니다
       url: "/fas9500/controller_replace_system_config_restore_and_verify.html"
-    - title: 시스템을 다시 연결합니다
+    - title: 회수 가능 시스템
       url: "/fas9500/controller_replace_recable_reassign_disks.html"
     - title: 시스템 복원을 완료합니다
       url: "/fas9500/controller_replace_complete_system_restoration_rma.html"

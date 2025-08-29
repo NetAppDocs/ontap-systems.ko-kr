@@ -3,7 +3,7 @@ section: fas8300
 title: FAS8300 및 FAS8700 시스템
 entries:
 - title: 설치 및 설정
-  pdf-filename: AFF FAS8300 및 FAS8700 설치 및 설정
+  pdf-filename: FAS8300 및 FAS8700 설치 및 설정
   entries:
   - title: 설치 및 설정 환경을 선택합니다
     url: "/fas8300/install-setup.html"
@@ -14,15 +14,32 @@ entries:
   - title: 세부 단계
     url: "/fas8300/install-detailed-guide.html"
 - title: 유지 관리
-  pdf-filename: AFF FAS8300 및 FAS8700 유지 관리
+  pdf-filename: FAS8300 및 FAS8700 유지 관리
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/fas8300/maintain-overview.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: AFF FAS8300 및 FAS8700 부팅 미디어
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: FAS8300 및 FAS8700 부트 미디어 자동화
     entries:
-    - title: 개요
-      url: "/fas8300/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas8300/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/fas8300/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/fas8300/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/fas8300/bootmedia-replace-bmr.html"
+    - title: 부팅 미디어의 이미지를 복원합니다
+      url: "/fas8300/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas8300/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: FAS8300 및 FAS8700 부트 미디어 설명서
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas8300/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas8300/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
       url: "/fas8300/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
@@ -31,17 +48,15 @@ entries:
       url: "/fas8300/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/fas8300/bootmedia-recovery-image-boot.html"
-    - title: MetroCluster 구성을 다시 전환합니다
-      url: "/fas8300/bootmedia-2n-mcc-switchback.html"
     - title: 암호화를 복원합니다
       url: "/fas8300/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/fas8300/bootmedia-complete-rma.html"
   - title: 캐싱 모듈
-    pdf-filename: AFF FAS8300 및 FAS8700 캐싱 모듈
+    pdf-filename: FAS8300 및 FAS8700 캐싱 모듈
     url: "/fas8300/caching-module-replace.html"
   - title: 섀시
-    pdf-filename: AFF FAS8300 및 FAS8700 섀시
+    pdf-filename: FAS8300 및 FAS8700 섀시
     entries:
     - title: 개요
       url: "/fas8300/chassis-replace-overview.html"
@@ -52,7 +67,7 @@ entries:
     - title: 전체 교체
       url: "/fas8300/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
-    pdf-filename: AFF FAS8300 및 FAS8700 컨트롤러
+    pdf-filename: FAS8300 및 FAS8700 컨트롤러
     entries:
     - title: 개요
       url: "/fas8300/controller-replace-overview.html"
@@ -67,7 +82,7 @@ entries:
     - title: 전체 교체
       url: "/fas8300/controller-replace-restore-system-rma.html"
   - title: DIMM
-    pdf-filename: AFF FAS8300 및 FAS8700 DIMM
+    pdf-filename: FAS8300 및 FAS8700 DIMM
     url: "/fas8300/dimm-replace.html"
   - title: 팬
     url: "/fas8300/fan-swap-out.html"
@@ -76,11 +91,11 @@ entries:
   - title: NVDIMM 배터리
     url: "/fas8300/nvdimm-battery-replace.html"
   - title: PCIe 또는 메자닌 카드
-    pdf-filename: AFF FAS8300 및 FAS8700 PCIe 또는 메자닌 카드
+    pdf-filename: FAS8300 및 FAS8700 PCIe 또는 메자닌 카드
     url: "/fas8300/pci-cards-and-risers-replace.html"
   - title: 전원 공급 장치
-    pdf-filename: AFF FAS8300 및 FAS8700 전원 공급 장치
+    pdf-filename: FAS8300 및 FAS8700 전원 공급 장치
     url: "/fas8300/power-supply-replace.html"
   - title: 실시간 시계 배터리
-    pdf-filename: AFF FAS8300 및 FAS8700 실시간 클럭 배터리
+    pdf-filename: FAS8300 및 FAS8700 실시간 클록 배터리
     url: "/fas8300/rtc-battery-replace.html"

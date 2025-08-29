@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a70, asa r2 a90, boot the recovery image 
 summary: ASA A70 또는 ASA A90 시스템에 새 부팅 미디어 장치를 설치한 후 자동 부팅 미디어 복구 프로세스를 시작하여 파트너 노드에서 구성을 복원할 수 있습니다. 
 ---
-= 부팅 미디어(ASA A70 및 ASA A90)에서 이미지를 복원합니다
+= 부트 미디어에 ONTAP 이미지 복원 - ASA A70 및 ASA A90
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -128,7 +128,7 @@ Enter the passphrase again to confirm:
 Enter the backup data:
 -----BEGIN BACKUP-----
 <passphrase_value>
------END ACKUP-----
+-----END BACKUP-----
 ....
 =====
 

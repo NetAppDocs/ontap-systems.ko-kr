@@ -1,5 +1,5 @@
 ---
-section: asa-c-400
+section: asa-c400
 title: ASA C400 시스템
 entries:
 - title: 설치 및 설정
@@ -16,13 +16,30 @@ entries:
 - title: 유지 관리
   pdf-filename: ASA C400이 유지됩니다
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/asa-c400/maintain-overview.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: ASA C400 부팅 미디어
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: ASA C400 부트 미디어 자동화
     entries:
-    - title: 개요
-      url: "/asa-c400/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/asa-c400/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/asa-c400/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/asa-c400/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/asa-c400/bootmedia-replace-bmr.html"
+    - title: 부팅 미디어의 이미지를 복원합니다
+      url: "/asa-c400/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/asa-c400/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: ASA C400 부트 미디어 매뉴얼
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/asa-c400/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/asa-c400/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
       url: "/asa-c400/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
@@ -31,8 +48,6 @@ entries:
       url: "/asa-c400/bootmedia-replace.html"
     - title: 부팅 복구 이미지
       url: "/asa-c400/bootmedia-recovery-image-boot.html"
-    - title: MetroCluster 구성을 다시 전환합니다
-      url: "/asa-c400/bootmedia-2n-mcc-switchback.html"
     - title: 암호화를 복원합니다
       url: "/asa-c400/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
@@ -73,7 +88,7 @@ entries:
     pdf-filename: ASA C400 NVDIMM 배터리
     url: "/asa-c400/nvdimm-battery-replace.html"
   - title: NVDIMM
-    pdf-filename: ASA A320 NVDIMM
+    pdf-filename: ASA C400 NVDIMM
     url: "/asa-c400/nvdimm-replace.html"
   - title: PCIe 또는 메자닌 카드
     pdf-filename: ASA C400 PCIe 또는 메자닌 카드
