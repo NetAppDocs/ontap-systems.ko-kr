@@ -45,7 +45,7 @@ PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node local -auto-giveback false`
+`storage failover modify -node _impaired_node_name_ -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 

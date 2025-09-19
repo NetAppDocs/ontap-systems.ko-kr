@@ -51,7 +51,7 @@ ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에 I/O 모듈을 추가�
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node local -auto-giveback false`
+`storage failover modify -node _impaired_node_name_ -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 

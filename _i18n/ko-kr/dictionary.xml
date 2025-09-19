@@ -10518,7 +10518,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="67caf5dc8dfdda70610a58906fa4b6d2" category="inline-link-macro">컨트롤러를 종료합니다</block>
   <block id="eab58b4fd7927bfc67a19b1176afc945" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block><block ref="f09c415cff110572b095b0b47b53909d" category="inline-link-macro-rx"></block></block>
   <block id="1694aca8e34009761e2e7c350661707d" category="paragraph">부팅 미디어를 교체해야 할 때 컨트롤러를 종료합니다.</block>
-  <block id="c7bb0682619aac3924ad651203f10f14" category="summary">하드웨어 오류가 필요할 경우 AFF A1K 시스템에서 컨트롤러를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="12f231246c1957ecc017d5e14e8fa5ce" category="doc">컨트롤러-AFF A1K을 교체합니다</block>
   <block id="a7a4c58bcecc6da48011ed379f160841" category="paragraph">손상된 AFF A1K 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="65cfd4efc075696b5b4fa182bd8310b6" category="summary">AFF A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
@@ -10598,7 +10597,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="24ba379bd8e7bdde7e0e1b156431376b" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 부팅 미디어의 이미지를 복원하고, 시스템 기능을 확인하여 ASA A1K 스토리지 시스템의 부팅 미디어 교체를 시작하십시오.</block>
   <block id="4d60e015da1ccbddbd5825262ead312e" category="paragraph">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 부팅 미디어의 이미지를 복원하고, 시스템 기능을 확인하여 ASA A1K 스토리지 시스템의 부팅 미디어 교체를 시작하십시오.</block>
   <block id="8f31c4d6dd15a8b6badb61be6bbe870f" category="doc">컨트롤러-ASA A1K을 교체합니다</block>
-  <block id="f36c76518c1338c3f03a21b9d4c06d87" category="paragraph">하드웨어 오류가 필요한 경우 ASA A1K 시스템의 컨트롤러를 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="f501a4282c0407a5377e73a38c2fe79c" category="paragraph">손상된 ASA A1K 컨트롤러를 교체한 후에는 다음을 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>수행해야 합니다.</block>
   <block id="0b7aa62fd5de84b2f6b9168c29cd9699" category="summary">ASA A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
   <block id="6a41dab46dde5ea92e32bfe9162ff999" category="doc">컨트롤러 교체 요구 사항 - ASA A1K</block>
@@ -11467,8 +11465,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3d64f9d659d620b82ee84b480edfe77a" category="doc">수동 부팅 미디어 복구를 위해 컨트롤러 종료 - AFF A1K</block>
   <block id="a4171598a9b6537fe8fa298ad497f7f6" category="inline-link-macro">부팅 미디어 - 자동 복구</block>
   <block id="2b43a2491d5babfc034a1b39308b0d39" category="paragraph"><block ref="2b43a2491d5babfc034a1b39308b0d39" category="inline-link-macro-rx"></block></block>
-  <block id="867c47462b7dbbde23368654369cdfb2" category="inline-link-macro">부팅 미디어 - 수동 복구</block>
-  <block id="f4855f83eb4f1d3ed29ac13e5aba3470" category="paragraph"><block ref="f4855f83eb4f1d3ed29ac13e5aba3470" category="inline-link-macro-rx"></block></block>
   <block id="b214a7d2f434291d180eb08d9e110707" category="paragraph">부팅 미디어는 시스템이 USB 드라이브에서 이미지를 부팅하고 파트너 노드에서 구성을 복원하는 데 사용하는 기본 및 보조 ONTAP 이미지 파일 세트를 저장합니다.</block>
   <block id="002e098e4eaaa09d220774f545b9c2bf" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 구성 요소가 실패하면 실패한 부품을 NetApp 으로 반환하세요.</block>
   <block id="58463f7f9959c3a53fb6c0c0a714fa80" category="doc">실패한 부팅 미디어 부분을 NetApp 으로 반환 - AFF A20, AFF A30 및 AFF A50</block>
@@ -12426,4 +12422,106 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b283de4e13a7d5b68dec3f041941e3bc" category="sidebar">FAS8300 및 FAS8700 실시간 클록 배터리</block>
   <block id="49083f96e824487850956b55d36a363f" category="sidebar">FAS9500 부트 미디어 자동화</block>
   <block id="92e1f12178f27a238b4b86215c5615af" category="sidebar">FAS9500 부트 미디어 매뉴얼</block>
+  <block id="3bce4848ee8babd978a1eed14ffb0657" category="paragraph"><block ref="e5d0e758897049635b8f9c5e676046ce" prefix="" category="inline-code"></block></block>
+  <block id="08ff655980adcc7a622e1807b2ce15c0" category="list-text">자동 환불이 비활성화된 경우 다시 활성화하세요.<block ref="07d94d90bbf940cf95f9dbba0029631f" prefix=" " category="inline-code"></block></block>
+  <block id="23d2a44e582b0f47f51ad61543f2784a" category="paragraph">컨트롤러를 제거하기 전에 두 개의 전원 공급 장치(PSU)를 제거해야 합니다.</block>
+  <block id="754bdcb9d2a9982ca84863ebead5a9e8" category="list-text">PSU를 제거합니다.</block>
+  <block id="4b944e2196447e52700b84ea963df7b5" category="list-text">PSU에서 전원 코드를 뽑으세요.</block>
+  <block id="6c06a5fb23d0b27d73f3c9f97f33c32c" category="list-text">PSU 손잡이를 위로 돌려 PSU를 빼낸 다음 PSU 잠금 탭을 누르고 섀시에서 PSU를 빼내 섀시 후면에서 두 개의 PSU를 제거합니다.</block>
+  <block id="581513d5a12dbd1f3bfe6ef45b1ed5ff" category="image-alt">PSU 제거 또는 교체</block>
+  <block id="ed4b810b55283df203ad480485a82a62" category="list-text">두 번째 PSU에 대해서도 이 단계를 반복합니다.</block>
+  <block id="1cfb4651ff023a85a810b0d0f8752d3b" category="list-text">케이블 관리 장치를 섀시에서 제거하여 따로 보관하세요.</block>
+  <block id="232518c3cb9c6af2fd4c7e458c6f8392" category="section-title">2단계: I/O 카드, NVRAM12 및 시스템 관리 모듈 제거</block>
+  <block id="422e2aa4ec97de509f54db9d23618f37" category="list-text">캠 레버 개구부에 손가락을 걸고 모듈을 섀시에서 당겨 섀시에서 모듈을 제거합니다.</block>
+  <block id="bc697ed81f913243860bc2c3886255ae" category="list-text">I/O 모듈을 따로 보관하고 다른 I/O 모듈에 대해서도 이 단계를 반복합니다.</block>
+  <block id="123360600d0becc5e58411f458b74156" category="list-text">NVRAM12 모듈을 제거합니다.</block>
+  <block id="05a0d79ed405af3160693b48cbaf0c70" category="cell">NVRAM12 캠 래치</block>
+  <block id="09cc9509bdf826c6ba58bbc69212af57" category="list-text">시스템 관리 모듈을 제거합니다.</block>
+  <block id="d6c8246628a797c4b268d4c17cafc3ff" category="image-alt">시스템 관리 제거</block>
+  <block id="c988528d3c37d2f9b0d866605d6767c9" category="section-title">4단계: 손상된 섀시 교체</block>
+  <block id="643b45a9b6dd32c35870daa6dfbb048c" category="list-text">손상된 섀시를 시스템 캐비닛이나 장비 랙의 랙 레일에서 밀어낸 다음 따로 보관합니다.</block>
+  <block id="9c1c113447189ce75af5b185c93c6bbb" category="list-text">시스템 캐비닛이나 장비 랙의 랙 레일에 섀시를 맞춰서 교체 섀시를 장비 랙이나 시스템 캐비닛에 설치합니다.</block>
+  <block id="8c9255ceb852418064ecca7af8f50926" category="section-title">5단계: 섀시 구성 요소 설치</block>
+  <block id="bb82c34a491e47b4833cd43d9a513a52" category="paragraph">교체용 섀시를 설치한 후에는 컨트롤러 모듈을 설치하고, I/O 모듈과 시스템 관리 모듈을 다시 연결한 다음 PSU를 다시 설치하고 연결해야 합니다.</block>
+  <block id="c5b4904134f0b5ed318e3e08c1c32beb" category="list-text">컨트롤러 모듈의 끝부분을 섀시 앞쪽의 개구부에 맞춘 다음, 컨트롤러를 섀시 안쪽으로 조심스럽게 밀어 넣습니다.</block>
+  <block id="c1704a094a14ee73d5195ae8a7a3e6e8" category="list-text">잠금 래치를 잠금 위치로 돌립니다.</block>
+  <block id="38b59633be983fb905704036391e127c" category="list-text">섀시 후면에 I/O 카드를 설치하세요.</block>
+  <block id="53c5be162e0f6f1625d426c7fd50db77" category="list-text">손상된 섀시와 교체 섀시의 동일한 슬롯에 I/O 모듈의 끝을 맞춘 다음 모듈을 섀시 안쪽으로 조심스럽게 밀어 넣습니다.</block>
+  <block id="66a1431f6c9e0f235d21851ca45dbdb2" category="list-text">캠 래치를 위쪽으로 돌려 잠금 위치로 설정합니다.</block>
+  <block id="d834c622fceca6769c88ad53db3a2a22" category="list-text">다른 I/O 모듈에 대해서도 이 단계를 반복합니다.</block>
+  <block id="1ae245f9dddd7b829203e0086aaa9a2b" category="list-text">섀시 후면에 시스템 관리 모듈을 설치하세요.</block>
+  <block id="0f82c9849f4faa128c397db07a54a6d3" category="list-text">시스템 관리 모듈의 끝부분을 섀시의 개구부에 맞춘 다음, 모듈을 섀시 안쪽으로 조심스럽게 밀어 넣습니다.</block>
+  <block id="ede66225ebedc3cf820e20627637056c" category="list-text">아직 케이블 관리 장치를 다시 설치하지 않았다면 케이블을 I/O 카드와 시스템 관리 모듈에 다시 연결하세요.</block>
+  <block id="9120340c78efb5856c815d38239bd2f9" category="paragraph">케이블이 케이블 라벨에 따라 연결되었는지 확인하세요.</block>
+  <block id="7d05725619265b0ad412764bd666826f" category="list-text">섀시 후면에 NVRAM12 모듈을 설치합니다.</block>
+  <block id="ae55effaa43d7b2d63f1dac58367549b" category="list-text">NVRAM12 모듈의 끝부분을 섀시의 개구부에 맞춘 다음 모듈을 섀시 안쪽으로 조심스럽게 밀어 넣습니다.</block>
+  <block id="f4101c3338d1ec932207cef05c24c529" category="list-text">PSU를 설치하세요:</block>
+  <block id="32a8792c5b10dbf3bf64cb4a8447bbb8" category="list-text">두 손을 사용하여 PSU의 가장자리를 섀시의 개구부에 맞춰 지지하고 정렬합니다.</block>
+  <block id="6874d25be6b9d52091b73fa2bac59eea" category="list-text">잠금 탭이 제자리에 딸깍 소리가 날 때까지 PSU를 섀시에 부드럽게 밀어 넣습니다.</block>
+  <block id="ab5ae5779d2a4772a591893618c45e4b" category="list-text">PSU 전원 케이블을 두 PSU에 다시 연결하고 전원 케이블 고정 장치를 사용하여 각 전원 케이블을 PSU에 고정합니다.</block>
+  <block id="7f3b2db379f7f8b9b33f928f1a3f33a8" category="paragraph"><block ref="73d25173d7c27d69b9fef91a1e6d8f78" prefix="" category="inline-code"></block></block>
+  <block id="ab9d481619a2ea583cb02397bab7bba7" category="section-title">3단계: 케이블에 라벨을 붙이세요</block>
+  <block id="c2d122cdbef703afa5e9e90edb466820" category="paragraph">시스템 뒷면의 I/O 모듈에서 케이블을 제거하기 전에 케이블에 라벨을 붙여야 합니다.</block>
+  <block id="acaef3896a2bbb98ae14983c2076d3b4" category="paragraph">섀시는 팬, 컨트롤러/CPU 장치, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈, PSU 등 모든 시스템 구성 요소를 수용하는 물리적 섀시입니다.</block>
+  <block id="059aa23ccfbd2dceb25deca0d4248c15" category="list-text">섀시 교체 절차는 베젤, 팬, 컨트롤러 모듈, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈, PSU를 새 섀시로 옮기고, 교체 섀시가 NetApp 의 새로운 구성 요소라는 가정 하에 작성되었습니다.</block>
+  <block id="c3b7f04deba9a99877c66d5f1520e4bc" category="summary">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 AFF A1K 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
+  <block id="bbdf42194bd34fedc2e7a3c5ab0f3cd8" category="doc">섀시 교체 완료 - AFF A1K</block>
+  <block id="7b15497869394a629839f26501a0e20f" category="summary">하드웨어 장애로 인해 AFF A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="5fb72873516b6fa89bc4cbc55f8f79a6" category="doc">섀시 교체 - AFF A1K</block>
+  <block id="a4a8f7ed930a61fed25e5cb4b874522c" category="paragraph">하드웨어 장애로 인해 AFF A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈, 전원 공급 장치(PSU)를 제거하고, 교체 섀시를 설치하고, 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="cf55c741d07b351e4641605836e7f7da" category="paragraph">손상된 AFF A1K 섀시를 교체하고 구성 요소를 다시 설치한 후에는 다음을 수행해야 합니다.<block ref="e567761f3b9d650307e1ffbce9c62dc9" category="inline-link-macro-rx"></block> .</block>
+  <block id="f46cc179d6201e4d20946e55e80904c7" category="summary">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 AFF A1K 시스템에서 손상된 섀시를 교체할 준비를 합니다.</block>
+  <block id="550b5e652d0cd66624604284a9bf0e52" category="doc">섀시 교체 준비 - AFF A1K</block>
+  <block id="a329d7bda6be9d9cd0acffdf8de0fd5b" category="paragraph">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 AFF A1K 시스템에서 손상된 섀시를 교체할 준비를 합니다.</block>
+  <block id="32e22e6977dd1aab50fc6944e5493bd8" category="paragraph">AFF A1K 섀시 하드웨어를 교체할 준비가 되면 다음이 필요합니다.<block ref="56c6ba4ece2a517e11a0ae4af44a8f78" category="inline-link-macro-rx"></block> .</block>
+  <block id="e8eafb11fc103049334709c8a99424a8" category="summary">AFF A1K 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP 에 대한 로컬 관리자 자격 증명이 있는지, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="53c0093bd34bf6a527a5c8325c4a70b7" category="doc">섀시 교체 요구 사항 - AFF A1K</block>
+  <block id="5bc32c69bc3e2a93ca5d61477d2ca629" category="summary">섀시를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFF A1K 스토리지 시스템의 컨트롤러를 종료하세요.</block>
+  <block id="dead0cfc0c14a2689b03b6ce8f269ea1" category="doc">섀시를 교체하려면 컨트롤러를 종료하세요 - AFF A1K</block>
+  <block id="327b8a05ec36b221608a43f0917dd8d7" category="summary">AFF A1K 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작업을 확인하세요.</block>
+  <block id="70e2b3fc8f982246ab5a2130f07ef1ec" category="doc">섀시 교체 워크플로 - AFF A1K</block>
+  <block id="c77d647fced0d18ea8388a89c9fbbe8c" category="paragraph-title"><block ref="6b77e2260873b4d678c3f337dd767e02" category="inline-image-macro-rx" type="image"></block><block ref="148983c7fc1a624047153d53429d13a1" category="inline-link-macro-rx"></block></block>
+  <block id="a59a9a05f780a25a994c0a1796c4e14c" category="paragraph">섀시에서 유지관리를 수행하려면 컨트롤러를 종료하세요.</block>
+  <block id="710a3e7fade7e7d65d3f95207d84a760" category="paragraph">컨트롤러를 올리고, 컨트롤러를 돌려주고, 실패한 섀시를 NetApp 으로 반환하여 섀시 교체를 완료합니다.</block>
+  <block id="0a53613f0a8092b49f93c48b98e6639c" category="summary">하드웨어 장애로 인해 AFF A1K 시스템의 컨트롤러를 교체해야 하는 경우, 교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="1c003f60306195fc28f8caffd47dd340" category="paragraph">하드웨어 장애로 인해 AFF A1K 시스템 컨트롤러를 교체해야 하는 경우. 교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
+  <block id="28c4dddeb520e51d2f0abe60128d46e8" category="paragraph">섀시에는 팬, 컨트롤러, 전원 공급 장치, PSU, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈이 들어 있습니다.</block>
+  <block id="7ff4349856f45df803f8bf1c62cd8a3e" category="summary">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 ASA A1K 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
+  <block id="9c92b4551d0ebe4951d40344b2e526c8" category="doc">섀시 교체 완료 - ASA A1K</block>
+  <block id="12e1a630fcbebc408d89ab84807bfcf2" category="summary">하드웨어 장애로 인해 ASA A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="5aeefe07266bb1fc5e1139b04473dfe8" category="doc">섀시 교체 - ASA A1K</block>
+  <block id="89c5427feacbde4f607d05cd07f48f94" category="paragraph">하드웨어 장애로 인해 ASA A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈, 전원 공급 장치(PSU)를 제거하고, 교체 섀시를 설치하고, 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="e1a44d52ef9851aabc78844c3bc47c92" category="paragraph">손상된 ASA A1K 섀시를 교체하고 구성 요소를 다시 설치한 후에는 다음을 수행해야 합니다.<block ref="e567761f3b9d650307e1ffbce9c62dc9" category="inline-link-macro-rx"></block> .</block>
+  <block id="fd98fab18d28b555609a40ff2da246cc" category="summary">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 ASA A1K 시스템에서 손상된 섀시를 교체할 준비를 합니다.</block>
+  <block id="3da1146d548beaacf7f23d0a781ba402" category="doc">섀시 교체 준비 - ASA A1K</block>
+  <block id="e8a527b81bcbe490b98bc368dac43e45" category="paragraph">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 ASA A1K 시스템에서 손상된 섀시를 교체할 준비를 합니다.</block>
+  <block id="73b8932c0e9d952de3428d339d3c9176" category="paragraph">ASA A1K 섀시 하드웨어를 교체할 준비가 되면 다음이 필요합니다.<block ref="56c6ba4ece2a517e11a0ae4af44a8f78" category="inline-link-macro-rx"></block> .</block>
+  <block id="5581f7e866a160d28eefb508e480ba53" category="summary">ASA A1K 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP 에 대한 로컬 관리자 자격 증명이 있는지, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="850837518a06d2feaf03b103e01b619b" category="doc">섀시 교체 요구 사항 - ASA A1K</block>
+  <block id="c3493d287110e2fecc8fe4a00755810a" category="summary">섀시를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 ASA A1K 스토리지 시스템의 컨트롤러를 종료하세요.</block>
+  <block id="abf7924958c351fce7ade0ced8f159bb" category="doc">섀시를 교체하려면 컨트롤러를 종료하세요 - ASA A1K</block>
+  <block id="48b2982a8a3ef500c4100e6df4f7a36f" category="summary">ASA A1K 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작업을 확인하세요.</block>
+  <block id="086e2962bab7f4d95eabde09a20941a6" category="doc">섀시 교체 워크플로 - ASA A1K</block>
+  <block id="00cfcf708436d304f31cc1839fa2b7ca" category="paragraph">하드웨어 장애로 인해 ASA A1K 시스템 컨트롤러를 교체해야 하는 경우 교체하세요. 교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
+  <block id="39317983344793ba26ea170a2d890ebb" category="summary">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 FAS70 및 FAS90 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
+  <block id="a584be06d42c86eb582b119daa14da5d" category="doc">섀시 교체 완료 - FAS70 및 FAS90</block>
+  <block id="c2dc989e45ed55b7aae85308ef4125c6" category="summary">하드웨어 장애로 인해 FAS70 또는 FAS90 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="dce30f474dda0b72a0d206b0e7ddb077" category="doc">섀시 교체 - FAS70 및 FAS90</block>
+  <block id="0d823891069047b4e507bdd24e6d65c4" category="paragraph">하드웨어 장애로 인해 FAS70 또는 FAS90 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈, 전원 공급 장치(PSU)를 제거하고, 교체 섀시를 설치하고, 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="9a938e00f17fc76cb7355904a9c9f5f4" category="paragraph">손상된 FAS70 및 FAS90 섀시를 교체하고 구성 요소를 다시 설치한 후에는 다음을 수행해야 합니다.<block ref="e567761f3b9d650307e1ffbce9c62dc9" category="inline-link-macro-rx"></block> .</block>
+  <block id="5a030365819f761722986adc43daa6f2" category="summary">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 FAS70 및 FAS90 시스템에서 손상된 섀시를 교체할 준비를 합니다.</block>
+  <block id="fa392e0dd040cfa23f9b009f3e2c5aa4" category="doc">섀시 교체 준비 - FAS70 및 FAS90</block>
+  <block id="8e7fe670b4f6140501330d90f05eac87" category="paragraph">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 FAS70 또는 FAS90 시스템에서 손상된 섀시를 교체할 준비를 합니다.</block>
+  <block id="d2502d2bcf545026b78bb173fb5fa6e7" category="paragraph">FAS70 또는 FAS90 섀시 하드웨어를 교체할 준비가 되면 다음을 수행해야 합니다.<block ref="56c6ba4ece2a517e11a0ae4af44a8f78" category="inline-link-macro-rx"></block> .</block>
+  <block id="56e56c2b65322d342febf7b273c54b50" category="summary">FAS70 또는 FAS90 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP 에 대한 로컬 관리자 자격 증명이 있는지, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="79b671b6294c72beeb496f663231935a" category="doc">섀시 교체 요구 사항 - FAS70 및 FAS90</block>
+  <block id="555ee8aff84c91eb64d9de30e5275b3f" category="summary">섀시를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 FAS70 또는 FAS90 스토리지 시스템의 컨트롤러를 종료하세요.</block>
+  <block id="d7dc6cc66a3cc2307ae77db0423dbc46" category="doc">섀시를 교체하려면 컨트롤러를 종료하세요 - FAS70 및 FAS90</block>
+  <block id="bbc718ac69fd8c0c219feac9d361896a" category="summary">FAS70 또는 FAS90 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작업을 확인하세요.</block>
+  <block id="3280801af2b8e921539cc0997419f436" category="doc">섀시 교체 워크플로 - FAS70 및 FAS90</block>
+  <block id="093f932f5f4bdb15c42d178147860933" category="summary">드라이브에 오류가 발생하거나 업그레이드가 필요한 경우 FAS50 스토리지 시스템의 드라이브를 교체합니다. 교체 프로세스에는 오류가 있는 드라이브를 식별하고, 안전하게 제거한 다음, 지속적인 데이터 액세스와 시스템 성능을 보장하기 위해 새 드라이브를 설치하는 작업이 포함됩니다.</block>
+  <block id="fa11c1555fbac9e3100e8a3bd62d4cde" category="doc">드라이브 교체 - FAS50</block>
+  <block id="8e031770a4d9a08d2f7e16ac12a9cd0a" category="sidebar">AFF A1K 섀시</block>
+  <block id="d9d281ab673771b297258ea764116200" category="sidebar">ASA A1K 섀시</block>
+  <block id="e428b65248e01ed552b943e7bea6d786" category="sidebar">FAS70 및 FAS90 섀시</block>
 </blocks>

@@ -40,6 +40,13 @@ link:bootmedia-replace-workflow.html["부팅 미디어 - 수동 복구"]
 
 
  a| 
+link:chassis-replace-workflow.html["섀시"]
+ a| 
+섀시에는 팬, 컨트롤러, 전원 공급 장치, PSU, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈이 들어 있습니다.
+
+
+
+ a| 
 link:controller-replace-workflow.html["컨트롤러"]
  a| 
 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 ONTAP 운영 체제 소프트웨어를 실행합니다.

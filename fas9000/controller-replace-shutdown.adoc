@@ -42,7 +42,7 @@ summary: 손상된 노드를 종료하려면 노드 상태를 확인하고, 필�
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node local -auto-giveback false`
+`storage failover modify -node _impaired_node_name_ -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 

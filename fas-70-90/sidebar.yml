@@ -56,6 +56,21 @@ entries:
       url: "/fas-70-90/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
       url: "/fas-70-90/bootmedia-complete-rma.html"
+  - title: 섀시
+    pdf-filename: FAS70 및 FAS90 섀시
+    entries:
+    - title: 섀시 교체 워크플로우
+      url: "/fas-70-90/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas-70-90/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/fas-70-90/chassis-replace-prepare.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/fas-70-90/chassis-replace-shutdown.html"
+    - title: 섀시를 교체합니다
+      url: "/fas-70-90/chassis-replace-move-hardware.html"
+    - title: 섀시 교체를 완료합니다
+      url: "/fas-70-90/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
     pdf-filename: FAS70 및 FAS90 컨트롤러 모듈
     entries:

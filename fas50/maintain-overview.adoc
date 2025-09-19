@@ -68,6 +68,13 @@ link:dimm-replace.html["DIMM"]
 
 
  a| 
+link:drive-replace.html["드라이브"]
+ a| 
+드라이브는 데이터에 필요한 물리적 스토리지를 제공하는 장치입니다.
+
+
+
+ a| 
 link:fan-replace.html["팬"]
  a| 
 팬은 컨트롤러와 드라이브를 냉각시킵니다.

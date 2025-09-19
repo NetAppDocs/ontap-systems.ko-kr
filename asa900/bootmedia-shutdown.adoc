@@ -46,7 +46,7 @@ NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node local -auto-giveback false`
+`storage failover modify -node _impaired_node_name_ -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 
