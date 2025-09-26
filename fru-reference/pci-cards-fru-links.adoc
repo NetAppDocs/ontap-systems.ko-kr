@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: fru-reference/pci-cards-fru-links.html 
+keywords: PCI cards, risers, field replaceable units, FRU, PCI replacement 
+summary: 이 페이지에서는 시스템별 PCI 카드 및 라이저 교체 절차에 대한 링크를 제공합니다. 
+---
+= PCI 카드 및 라이저 FRU 링크
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 페이지에서는 플랫폼 모델별로 정리된 PCI 카드 및 라이저 교체 절차에 대한 링크를 제공합니다.
+
+[role="tabbed-block"]
+====
+.AFF 시스템
+--
+* link:../a300/pci-cards-and-risers-replace.html["AFF A300"^]
+* link:../a320/pci-cards-and-risers-replace.html["AFF A320"^]
+* link:../a400/pci-cards-and-risers-replace.html["AFF A400"^]
+* link:../a700/pci-cards-and-risers-replace.html["AFF A700"^]
+* link:../a700s/pci-cards-and-risers-replace.html["AFF A700s를 참조하십시오"^]
+* link:../a800/pci-cards-and-risers-replace.html["AFF A800"^]
+* link:../c400/pci-cards-and-risers-replace.html["AFF C400"^]
+* link:../c800/pci-cards-and-risers-replace.html["AFF C800"^]
+
+
+--
+.ASA 시스템
+--
+* link:../asa400/pci-cards-and-risers-replace.html["ASA A400"^]
+* link:../asa800/pci-cards-and-risers-replace.html["ASA A800"^]
+* link:../asa-c400/pci-cards-and-risers-replace.html["ASA C400 을 참조하십시오"^]
+* link:../asa-c800/pci-cards-and-risers-replace.html["ASA C800을 참조하십시오"^]
+
+
+--
+.FAS 시스템
+--
+* link:../fas2800/pci-cards-and-risers-replace.html["FAS2800"^]
+* link:../fas8200/pci-cards-and-risers-replace.html["FAS8200"^]
+* link:../fas8300/pci-cards-and-risers-replace.html["FAS8300"^]
+* link:../fas9000/pci-cards-and-risers-replace.html["FAS9000"^]
+
+
+--
+====

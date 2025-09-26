@@ -94,3 +94,5 @@ entries:
     url: "/c800/power-supply-replace.html"
   - title: 실시간 시계 배터리
     url: "/c800/rtc-battery-replace.html"
+- title: 주요 사양
+  url: "/c800/overview.html"

@@ -109,3 +109,11 @@ entries:
     url: "/a20-30-50/power-supply-replace.html"
   - title: 실시간 시계 배터리
     url: "/a20-30-50/rtc-battery-replace.html"
+- title: 주요 사양
+  entries:
+  - title: AFF A20 를 참조하십시오
+    url: a20-key-specifications.html
+  - title: AFF A30 를 참조하십시오
+    url: a30-key-specifications.html
+  - title: AFF A50 를 참조하십시오
+    url: a50-key-specifications.html

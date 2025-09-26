@@ -1,0 +1,112 @@
+---
+permalink: a90-key-specifications.html 
+sidebar: sidebar 
+keywords: AFF A90 specifications, AFF A90 specs, NetApp AFF A90, AFF A90 hardware 
+summary: AFF A90 저장 시스템의 주요 사양 
+---
+= AFF A90 의 주요 사양
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음은 AFF A90 의 일부 사양입니다.  방문하다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] AFF A90 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.
+
+
+
+=== AFF A90 의 주요 사양
+
+플랫폼 구성: AFF A90 단일 섀시 HA 쌍
+
+최대 원시 용량: 6.6096PB
+
+메모리: 2048.0000GB
+
+폼 팩터: 2개의 HA 컨트롤러와 48개의 드라이브 슬롯이 있는 4U 섀시
+
+ONTAP 버전: b_startONTAP: 9.16.1P2b_end
+
+PCIe 확장 슬롯: 18개
+
+최소 ONTAP 버전: ONTAP 9.15.1RC2
+
+
+
+=== 스케일아웃 최대값
+
+* NAS: 12개 HA 쌍, 79.3PB/70.4PiB 원시 용량, 최대 24576GB 메모리
+* SAN: 6개 HA 쌍, 39.7PB/35.2PiB 원시 용량, 최대 12288GB 메모리
+* HA 쌍: 6.6PB / 5.9PiB 원시 용량, 최대 2048.0000GB 메모리
+
+
+
+
+=== 아이오
+
+
+
+==== 온보드 IO
+
+온보드 IO 데이터가 없습니다.
+
+
+
+==== 총 IO
+
+* 이더넷 200Gbps: 24개 포트
+* 이더넷 100Gbps: 36개 포트
+* 이더넷 25Gbps: 56개 포트
+* 이더넷 10Gbps: 56개 포트
+* FC 64Gbps: 56개 포트
+* NVMe/FC 64Gbps: 56개 포트
+* SAS 12Gbps: 56개 포트
+
+
+
+
+==== 관리 포트
+
+* 이더넷 1Gbps: 2개 포트
+* RS-232 115Kbps: 4포트
+* USB 600Mbps: 2개 포트
+
+
+
+
+=== 스토리지 네트워킹 지원
+
+CIFS; FC; iSCSI; NFS v3; NFS v4.0; NFS v4.1; NFS v4.2; NFSv3/RDMA; NFSv4/RDMA; NVMe/FC; NVMe/TCP; S3; NAS가 있는 S3; SMB 2.0; SMB 2.1; SMB 2.x; SMB 3.0; SMB 3.1; SMB 3.1.1;
+
+
+
+=== 시스템 환경 사양
+
+* 일반적인 전력: 8304 BTU/hr
+* 최악의 경우 전력: 10948 BTU/hr
+* 무게: 118.0 lbbr/53.5 kg
+* 높이: 4U
+* 너비: 19인치 IEC 랙 호환(17.6인치 44.7cm)
+* 깊이: 34.5인치(케이블 관리 브래킷 포함 36.6인치)
+* 작동 온도/고도/습도: 10°C ~ 35°C/50°F ~ 95°F) atbr/= 3048mbr/= 10000 ft) 고도; 8% ~ 80%br/상대 습도, 비응축
+* 비작동 온도/습도: -40°C ~ 70°C(-40°F ~ 158°F) 최대 12192m(40000피트)<br/>10% ~ 95% 상대 습도, 비응축, 원래 용기에 보관
+* 음향 소음: 공표된 음향 전력(LwAd): 8.6;br/음압(LpAm)(방관자 위치): 71.6dB
+
+
+
+
+=== 규정 준수
+
+* 인증 EMC/EMI: AMCA, FCC, ICES, KC, 모로코, VCCI
+* 인증 안전: BIS, CB, CSA, G_K_U-SoR, IRAM, NOM, NRCS, SONCAP, TBS
+* 인증 안전/EMC/EMI: EAC, UKRSEPRO
+* 인증 안전/EMC/EMI/RoHS: BSMI, CE DoC, UKCA DoC
+* 표준 EMC/EMI: BS-EN-55032, BS-EN55035, CISPR 32, EN55022, EN55024, EN55032, EN55035, EN61000-3-2, EN61000-3-3, FCC Part 15 Class A, ICES-003, KS C 9832, KS C 9835
+* 표준 안전: ANSI/UL60950-1, ANSI/UL62368-1, BS-EN62368-1, CAN/CSA C22.2 No. 60950-1, CAN/CSA C22.2 No. 62368-1, CNS 15598-1, EN60825-1, EN62368-1, IEC 62368-1, IEC60950-1, IS 13252(파트 1)
+
+
+
+
+=== 고가용성
+
+이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리;

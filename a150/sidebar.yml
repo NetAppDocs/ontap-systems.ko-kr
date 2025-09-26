@@ -76,3 +76,5 @@ entries:
   - title: 실시간 시계 배터리
     pdf-filename: AFF A150 실시간 시계 배터리
     url: "/a150/rtc-battery-replace.html"
+- title: 주요 사양
+  url: "/a150/overview.html"

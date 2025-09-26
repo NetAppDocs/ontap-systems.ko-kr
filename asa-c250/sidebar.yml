@@ -75,3 +75,5 @@ entries:
     url: "/asa-c250/power-supply-replace.html"
   - title: 실시간 시계 배터리
     url: "/asa-c250/rtc-battery-replace.html"
+- title: 주요 사양
+  url: "/asa-c250/overview.html"

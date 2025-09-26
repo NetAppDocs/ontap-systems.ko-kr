@@ -1,0 +1,147 @@
+---
+permalink: fas50/overview.html 
+sidebar: sidebar 
+keywords: FAS50 specifications, FAS50 specs, NetApp FAS50, FAS50 hardware 
+summary: FAS50 스토리지 시스템의 주요 사양 
+---
+= FAS50의 주요 사양
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FAS50의 일부 사양은 다음과 같습니다.  방문하다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] FAS50 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.
+
+
+
+=== FAS50의 주요 사양
+
+플랫폼 구성: FAS50 단일 섀시 HA 쌍
+
+최대 원시 용량: 10.5600 PB
+
+메모리: 128.0000GB
+
+폼 팩터: 2개의 HA 컨트롤러가 있는 2U 섀시
+
+ONTAP 버전: b_startONTAP: 9.16.1P2b_end
+
+PCIe 확장 슬롯: 12개
+
+최소 ONTAP 버전: ONTAP 9.16.1
+
+
+
+=== 스케일아웃 최대값
+
+|===
+
+
+| 유형 | HA 쌍 | 원시 용량 | 최대 메모리 
+
+
+| NAS | 4 | 42.2PB / 37.5PiB | 512GB 
+
+
+| SAN | 4 | 42.2PB / 37.5PiB | 512GB 
+
+
+| HA 쌍 |  | 10.6PB / 9.4PiB | 128.0000 
+|===
+
+
+=== 아이오
+
+
+
+==== 온보드 IO
+
+온보드 IO 데이터가 없습니다.
+
+
+
+==== 총 IO
+
+|===
+
+
+| 규약 | 포트 
+
+
+| 이더넷 100Gbps | 16 
+
+
+| 이더넷 25Gbps | 24 
+
+
+| 이더넷 10Gbps | 24 
+
+
+| FC 64Gbps | 24 
+
+
+| NVMe/FC 64Gbps | 24 
+
+
+|  | 0 
+
+
+| SAS 12Gbps | 16 
+|===
+
+
+==== 관리 포트
+
+|===
+
+
+| 규약 | 포트 
+
+
+| 이더넷 1Gbps | 2 
+
+
+| RS-232 115Kbps | 4 
+
+
+| USB 600Mbps | 2 
+|===
+
+
+=== 스토리지 네트워킹 지원
+
+CIFS; FC; iSCSI; NFS v3; NFS v4.0; NFS v4.1; NFS v4.2; NVMe/FC; NVMe/TCP; S3; NAS가 있는 S3; SMB 2.0; SMB 2.1; SMB 2.x; SMB 3.0; SMB 3.1; SMB 3.1.1;
+
+
+
+=== 시스템 환경 사양
+
+* 일반적인 전력: 2319 BTU/hr
+* 최악의 경우 전력: 3872 BTU/hr
+* 무게: 52.2파운드/23.7kg
+* 높이: 2U
+* 너비: 19인치 IEC 랙 호환(17.6인치 44.7cm)
+* 깊이:
+* 작동 온도/고도/습도: 10°C ~ 35°C/50°F ~ 95°F) atbr/= 3048mbr/= 10000 ft) 고도; 8% ~ 80%br/상대 습도, 비응축
+* 비작동 온도/습도: -40°C ~ 70°C(-40°F ~ 158°F) 최대 12192m(40000피트)<br/>10% ~ 95% 상대 습도, 비응축, 원래 용기에 보관
+* 음향 소음: 공표된 음향 전력(LwAd): 8.0;br/음압(LpAm)(방관자 위치): 70.5dB
+
+
+
+
+=== 규정 준수
+
+* 인증 EMC/EMI: AMCA, FCC, ICES, KC, 모로코, VCCI
+* 인증 안전: BIS, CB, CSA, G_K_U-SoR, IRAM, NOM, NRCS, SONCAP, TBS
+* 인증 안전/EMC/EMI: EAC, UKRSEPRO
+* 인증 안전/EMC/EMI/RoHS: BSMI, CE DoC, UKCA DoC
+* 표준 EMC/EMI: BS-EN-55032, BS-EN55035, CISPR 32, EN55022, EN55024, EN55032, EN55035, EN61000-3-2, EN61000-3-3, FCC Part 15 Class A, ICES-003, KS C 9832, KS C 9835
+* 표준 안전: ANSI/UL60950-1, ANSI/UL62368-1, BS-EN62368-1, CAN/CSA C22.2 No. 60950-1, CAN/CSA C22.2 No. 62368-1, CNS 15598-1, EN60825-1, EN62368-1, IEC 62368-1, IEC60950-1, IS 13252(파트 1)
+
+
+
+
+=== 고가용성
+
+이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리;

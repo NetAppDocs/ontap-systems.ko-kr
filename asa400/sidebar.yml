@@ -99,3 +99,5 @@ entries:
   - title: 실시간 시계 배터리
     pdf-filename: ASA A400 실시간 클럭 배터리
     url: "/asa400/rtc-battery-replace.html"
+- title: 주요 사양
+  url: "/asa400/overview.html"

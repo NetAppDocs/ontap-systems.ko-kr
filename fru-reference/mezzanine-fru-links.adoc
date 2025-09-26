@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: fru-reference/mezzanine-fru-links.html 
+keywords: mezzanine, field replaceable units, FRU, mezzanine replacement 
+summary: 이 페이지는 시스템별 메자닌 교체 절차에 대한 링크를 제공합니다. 
+---
+= 메자닌 FRU 링크
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 페이지에서는 플랫폼 모델별로 정리된 메자닌 교체 절차에 대한 링크를 제공합니다.
+
+[role="tabbed-block"]
+====
+.AFF 시스템
+--
+* link:../a250/mezzanine-replace.html["AFF A250"^]
+* link:../c250/mezzanine-replace.html["AFF C250"^]
+
+
+--
+.ASA 시스템
+--
+* link:../asa250/mezzanine-replace.html["ASA A250"^]
+* link:../asa-c250/mezzanine-replace.html["ASA C250 을 참조하십시오"^]
+
+
+--
+.FAS 시스템
+--
+* link:../fas500f/mezzanine-replace.html["500f로 설정합니다"^]
+
+
+--
+====

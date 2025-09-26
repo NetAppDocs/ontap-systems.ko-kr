@@ -1,0 +1,18 @@
+---
+sidebar: sidebar 
+permalink: fru-reference/led-module-fru-links.html 
+keywords: LED module, field replaceable units, FRU, LED module replacement 
+summary: 이 페이지에서는 플랫폼별 LED 모듈 교체 절차에 대한 링크를 제공합니다. 
+---
+= LED 모듈 FRU 링크
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 페이지에서는 플랫폼 모델별로 정리된 LED 모듈 교체 절차에 대한 링크를 제공합니다.
+
+* link:../a700/led-module-replace.html["AFF A700"^]
+* link:../fas9000/led-module-replace.html["FAS9000"^]
+

@@ -1,0 +1,113 @@
+---
+permalink: a150/overview.html 
+sidebar: sidebar 
+summary: A150 플랫폼 그룹의 주요 사양 
+---
+= AFF A150 의 주요 사양
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음은 단일 고가용성 쌍의 AFF A150 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.
+
+
+
+== AFF A150 의 주요 사양
+
+* 플랫폼 구성: AFF A150 UTA2 단일 섀시 HA 쌍
+* 최대 원시 용량: 0.5472 PB
+* 메모리: 64.0000GB
+* 폼 팩터: 2개의 HA 컨트롤러와 24개의 드라이브 슬롯이 있는 2U 섀시
+* ONTAP 버전: ONTAP: 9.16.1P2
+* 최소 ONTAP 버전: ONTAP 9.10.1P12 == 확장 최대값
+* 유형: NAS; HA 쌍: 12; 원시 용량: 6.6PB / 5.8PiB; 최대 메모리: 768GB
+* 유형: SAN; HA 쌍: 6; 원시 용량: 3.3PB / 2.9PiB; 최대 메모리: 384GB
+* 유형: HA 쌍; 원시 용량: 0.5 PB / 0.5 PiB; 최대 메모리: 64.0000
+
+
+
+
+== 입출력
+
+
+
+=== 온보드 I/O
+
+* 프로토콜: 이더넷 10Gbps; 포트: 12
+* 프로토콜: FC 16Gbps; 포트: 8
+* 프로토콜: SAS 12Gbps; 포트: 4개
+
+
+
+
+=== 총 I/O
+
+* 프로토콜: 이더넷 10Gbps; 포트: 12
+* 프로토콜: FC 16Gbps; 포트: 8
+* 프로토콜: SAS 12Gbps; 포트: 4개
+
+
+
+
+=== 관리 포트
+
+* 프로토콜: 이더넷 1Gbps; 포트: 2개
+* 프로토콜: RS-232 115Kbps; 포트: 4
+* 프로토콜: USB 12Mbps; 포트: 2개
+
+
+
+
+== 스토리지 네트워킹 지원
+
+* CIFS
+* FC
+* FCoE
+* iSCSI
+* NFS v3
+* NFS v4.0
+* NFS v4.1
+* NFS v4.2
+* NVMe/TCP
+* S3
+* NAS가 있는 S3
+* SMB 2.0
+* SMB 2.1
+* SMB 2.x
+* SMB 3.0
+* SMB 3.1
+* SMB 3.1.1 == 시스템 환경 사양
+* 일반적인 전력: 1209 BTU/hr
+* 최악의 경우 전력: 1676 BTU/hr
+* 무게: 60.8파운드 27.6kg
+* 높이: 2U
+* 너비: 19인치 IEC 랙 호환(17.6인치 44.7cm)
+* 깊이: 19.0인치(케이블 관리 브래킷 포함 시 24.1인치)
+* 작동 온도/고도/습도: 5°C ~ 45°C(41°F ~ 113°F) 고도 <= 3048m <= 10000피트; 상대 습도 8% ~ 90%, 비응축
+* 비작동 온도/습도: -40°C ~ 70°C(-40°F ~ 158°F) 최대 12192m(40000피트) 상대 습도 10% ~ 95%, 비응축, 원래 용기에 보관
+* 음향 소음: 공표된 음향 전력(LwAd): 6.9 음압(LpAm)(방관자 위치): 51.0dB
+
+
+
+
+== 규정 준수
+
+* 인증 EMC/EMI: AMCA, FCC, ICES, KC, 모로코, VCCI
+* 인증 안전: BIS, CB, CSA, G_K_U-SoR, IRAM, NOM, NRCS, SONCAP, TBS
+* 인증 안전/EMC/EMI: EAC, UKRSEPRO
+* 인증 안전/EMC/EMI/RoHS: BSMI, CE DoC, UKCA DoC
+* 표준 EMC/EMI: BS-EN-55024, BS-EN55035, CISPR 32, EN55022, EN55024, EN55032, EN55035, EN61000-3-2, EN61000-3-3, FCC Part 15 Class A, ICES-003, KS C 9832, KS C 9835
+* 표준 안전: ANSI/UL60950-1, ANSI/UL62368-1, BS-EN62368-1, CAN/CSA C22.2 No. 60950-1, CAN/CSA C22.2 No. 62368-1, CNS 14336, EN60825-1, EN62368-1, IEC 62368-1, IEC60950-1, IS 13252(파트 1)
+
+
+
+
+== 고가용성
+
+* 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스
+* 중복 핫스왑 가능 컨트롤러
+* 중복 핫스왑 가능 전원 공급 장치
+* SAS 연결을 통한 SAS 인밴드 관리
+

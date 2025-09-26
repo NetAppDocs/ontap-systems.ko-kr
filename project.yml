@@ -73,6 +73,7 @@ sidebar:
       - section: asa-r2-a70-90-maintain
       - section: asa-r2-a20-30-50-maintain
       - section: asa-r2-c30-maintain
+    - section: asa-r2-key-specifications
   - title: FAS 시스템
     url: "/fas/index.html"
     entries:
@@ -153,6 +154,46 @@ sidebar:
           url: "/platform-supplemental/42u-1280mm-reverse-hinge-and-lock.html"
         - title: 도어 및 조명 배지를 다시 장착하십시오
           url: "/platform-supplemental/42u-1280mm-reinstall-door-and-badge.html"
+  - title: 플랫폼 FRU 참조
+    entries:
+    - title: 개요
+      url: "/fru-reference/fru-overview.html"
+    - title: 미디어를 부팅합니다
+      url: "/fru-reference/bootmedia-fru-links.html"
+    - title: 캐싱 모듈
+      url: "/fru-reference/caching-module-fru-links.html"
+    - title: 섀시
+      url: "/fru-reference/chassis-fru-links.html"
+    - title: 컨트롤러
+      url: "/fru-reference/controller-fru-links.html"
+    - title: DCPM 전원 모듈
+      url: "/fru-reference/dcpm-power-fru-links.html"
+    - title: DIMM
+      url: "/fru-reference/dimm-fru-links.html"
+    - title: 드라이브
+      url: "/fru-reference/drive-fru-links.html"
+    - title: 팬
+      url: "/fru-reference/fan-fru-links.html"
+    - title: 입출력 모듈
+      url: "/fru-reference/io-module-fru-links.html"
+    - title: LED 모듈
+      url: "/fru-reference/led-module-fru-links.html"
+    - title: 중 이층
+      url: "/fru-reference/mezzanine-fru-links.html"
+    - title: NVDIMM
+      url: "/fru-reference/nvdimm-fru-links.html"
+    - title: NVMEM/ NVRAM 배터리
+      url: "/fru-reference/nvmem-battery-fru-links.html"
+    - title: NVRAM 모듈
+      url: "/fru-reference/nvram-module-fru-links.html"
+    - title: PCI 카드 및 라이저
+      url: "/fru-reference/pci-cards-fru-links.html"
+    - title: 전원 공급 장치
+      url: "/fru-reference/power-supply-fru-links.html"
+    - title: RTC 배터리
+      url: "/fru-reference/rtc-battery-fru-links.html"
+    - title: 시스템 관리 모듈
+      url: "/fru-reference/system-management-fru-links.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:

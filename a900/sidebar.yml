@@ -99,3 +99,5 @@ entries:
     url: "/a900/power_supply_swap_out.html"
   - title: 실시간 시계 배터리
     url: "/a900/rtc_battery_replace.html"
+- title: 주요 사양
+  url: "/a900/overview.html"

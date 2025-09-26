@@ -97,3 +97,5 @@ entries:
     url: "/asa900/power_supply_swap_out.html"
   - title: 실시간 시계 배터리
     url: "/asa900/rtc_battery_replace.html"
+- title: 주요 사양
+  url: "/asa900/overview.html"
