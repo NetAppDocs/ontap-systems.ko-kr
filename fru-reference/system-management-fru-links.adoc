@@ -2,37 +2,37 @@
 sidebar: sidebar 
 permalink: fru-reference/system-management-fru-links.html 
 keywords: system management module, field replaceable units, FRU, system management replacement 
-summary: 이 페이지에서는 플랫폼별 시스템 관리 모듈 교체 절차에 대한 링크를 제공합니다. 
+summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템에 대한 시스템 관리 모듈 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 시스템 관리 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다. 
 ---
-= 시스템 관리 모듈 FRU 링크
+= 플랫폼 제품군별 시스템 관리 모듈 교체 절차
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 페이지에서는 플랫폼 모델별로 정리된 시스템 관리 모듈 교체 절차에 대한 링크를 제공합니다.
+플랫폼 제품군별로 정리된 NetApp 스토리지 시스템에 대한 시스템 관리 모듈 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 시스템 관리 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
 
 [role="tabbed-block"]
 ====
 .AFF 시스템
 --
-* link:../a1k/system-management-replace.html["AFF A1K 를 참조하십시오"^]
-* link:../a70-90/system-management-replace.html["AFF A70/90"^]
-* link:../c80/system-management-replace.html["AFF C80 를 참조하십시오"^]
+* link:../a1k/system-management-replace.html["AFF A1K 를 참조하십시오"]
+* link:../a70-90/system-management-replace.html["AFF A70/90"]
+* link:../c80/system-management-replace.html["AFF C80 를 참조하십시오"]
 
 
 --
 .ASA 시스템
 --
-* link:../asa-r2-a1k/system-management-replace.html["ASA A1K 를 참조하십시오"^]
-* link:../asa-r2-70-90/system-management-replace.html["ASA 70/90"^]
+* link:../asa-r2-a1k/system-management-replace.html["ASA A1K 를 참조하십시오"]
+* link:../asa-r2-70-90/system-management-replace.html["ASA 70/90"]
 
 
 --
 .FAS 시스템
 --
-* link:../fas-70-90/system-management-replace.html["FAS70/90"^]
+* link:../fas-70-90/system-management-replace.html["FAS70/90"]
 
 
 --

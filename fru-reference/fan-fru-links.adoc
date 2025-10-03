@@ -2,67 +2,62 @@
 sidebar: sidebar 
 permalink: fru-reference/fan-fru-links.html 
 keywords: fan, field replaceable units, FRU, fan replacement 
-summary: 이 페이지에서는 시스템별 팬 교체 절차에 대한 링크를 제공합니다. 
+summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 팬 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 팬 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다. 
 ---
-= 팬 FRU 링크
+= 플랫폼 제품군별 팬 교체 절차
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 페이지에서는 플랫폼 모델별로 팬 교체 절차에 대한 링크를 제공합니다.
+플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 팬 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 팬 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
 
 [role="tabbed-block"]
 ====
 .AFF 시스템
 --
-* link:../a1k/fan-replace.html["AFF A1K 를 참조하십시오"^]
-* link:../a20-30-50/fan-replace.html["AFF A20/30/50"^]
-* link:../a250/fan-replace.html["AFF A250"^]
-* link:../a300/fan-swap-out.html["AFF A300"^]
-* link:../a320/fan-swap-out.html["AFF A320"^]
-* link:../a400/fan-swap-out.html["AFF A400"^]
-* link:../a70-90/fan-swap-out.html["AFF A70/90"^]
-* link:../a700/fan-swap-out.html["AFF A700"^]
-* link:../a700s/fan-replace.html["AFF A700s를 참조하십시오"^]
-* link:../a800/fan-replace.html["AFF A800"^]
-* link:../c250/fan-replace.html["AFF C250"^]
-* link:../c30-60/fan-replace.html["AFF C30/60"^]
-* link:../c400/fan-swap-out.html["AFF C400"^]
-* link:../c80/fan-swap-out.html["AFF C80 를 참조하십시오"^]
-* link:../c800/fan-replace.html["AFF C800"^]
+* link:../a1k/fan-replace.html["AFF A1K 를 참조하십시오"]
+* link:../a20-30-50/fan-replace.html["AFF A20/30/50"]
+* link:../a250/fan-replace.html["AFF A250"]
+* link:../a300/fan-swap-out.html["AFF A300"]
+* link:../a320/fan-swap-out.html["AFF A320"]
+* link:../a400/fan-swap-out.html["AFF A400"]
+* link:../a70-90/fan-swap-out.html["AFF A70/90"]
+* link:../a700/fan-swap-out.html["AFF A700"]
+* link:../a700s/fan-replace.html["AFF A700s를 참조하십시오"]
+* link:../a800/fan-replace.html["AFF A800"]
+* link:../c250/fan-replace.html["AFF C250"]
+* link:../c30-60/fan-replace.html["AFF C30/60"]
+* link:../c400/fan-swap-out.html["AFF C400"]
+* link:../c80/fan-swap-out.html["AFF C80 를 참조하십시오"]
+* link:../c800/fan-replace.html["AFF C800"]
 
 
 --
 .ASA 시스템
 --
-* link:../asa250/fan-replace.html["ASA A250"^]
-* link:../asa400/fan-swap-out.html["ASA A400"^]
-* link:../asa800/fan-replace.html["ASA A800"^]
-* link:../asa-c250/fan-replace.html["ASA C250 을 참조하십시오"^]
-* link:../asa-c400/fan-swap-out.html["ASA C400 을 참조하십시오"^]
-* link:../asa-c800/fan-replace.html["ASA C800을 참조하십시오"^]
-
-
---
-.ASA 시스템
---
-* link:../asa-r2-a1k/fan-replace.html["ASA A1K 를 참조하십시오"^]
-* link:../asa-r2-a20-30-50/fan-replace.html["ASA A20/30/50"^]
-* link:../asa-r2-70-90/fan-swap-out.html["ASA 70/90"^]
-* link:../asa-r2-c30/fan-replace.html["ASA C30"^]
+* link:../asa250/fan-replace.html["ASA A250"]
+* link:../asa400/fan-swap-out.html["ASA A400"]
+* link:../asa800/fan-replace.html["ASA A800"]
+* link:../asa-c250/fan-replace.html["ASA C250 을 참조하십시오"]
+* link:../asa-c400/fan-swap-out.html["ASA C400 을 참조하십시오"]
+* link:../asa-c800/fan-replace.html["ASA C800을 참조하십시오"]
+* link:../asa-r2-a1k/fan-replace.html["ASA A1K 를 참조하십시오"]
+* link:../asa-r2-a20-30-50/fan-replace.html["ASA A20/30/50"]
+* link:../asa-r2-70-90/fan-swap-out.html["ASA 70/90"]
+* link:../asa-r2-c30/fan-replace.html["ASA C30"]
 
 
 --
 .FAS 시스템
 --
-* link:../fas50/fan-replace.html["FAS50를 참조하십시오"^]
-* link:../fas-70-90/fan-replace.html["FAS70/90"^]
-* link:../fas500f/fan-replace.html["500f로 설정합니다"^]
-* link:../fas8200/fan-swap-out.html["FAS8200"^]
-* link:../fas8300/fan-swap-out.html["FAS8300"^]
-* link:../fas9000/fan-swap-out.html["FAS9000"^]
+* link:../fas50/fan-replace.html["FAS50를 참조하십시오"]
+* link:../fas-70-90/fan-replace.html["FAS70/90"]
+* link:../fas500f/fan-replace.html["500f로 설정합니다"]
+* link:../fas8200/fan-swap-out.html["FAS8200"]
+* link:../fas8300/fan-swap-out.html["FAS8300"]
+* link:../fas9000/fan-swap-out.html["FAS9000"]
 
 
 --

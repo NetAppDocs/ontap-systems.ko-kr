@@ -1,0 +1,58 @@
+---
+indexpage:
+  title: NetApp 스토리지 시스템에 대한 시스템 구성 요소 교체 참조
+  summary: 스토리지 시스템의 현장 교체 장치(FRU)에 대한 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에
+    대한 단계별 교체 워크플로에 대한 직접 링크를 제공하여 특정 하드웨어 유지 관리 요구 사항에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
+  keywords: FRU reference, field replaceable units, platform FRUs, hardware components,
+    replacement procedures, AFF, ASA, FAS
+  lead: 스토리지 시스템의 현장 교체 장치(FRU)에 대한 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한
+    단계별 교체 워크플로에 대한 직접 링크를 제공하여 특정 하드웨어 유지 관리 요구 사항에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
+  tiles:
+  - title: 핵심 시스템 구성 요소
+    links:
+    - title: 컨트롤러 교체 절차
+      url: "/controller-fru-links.html"
+    - title: 섀시 교체 절차
+      url: "/chassis-fru-links.html"
+    - title: 부트 미디어 교체 절차
+      url: "/bootmedia-fru-links.html"
+    - title: 시스템 관리 모듈 교체 절차
+      url: "/system-management-fru-links.html"
+  - title: 메모리 및 저장 모듈
+    links:
+    - title: DIMM 교체 절차
+      url: "/dimm-fru-links.html"
+    - title: NVDIMM 교체 절차
+      url: "/nvdimm-fru-links.html"
+    - title: NVRAM 모듈 교체 절차
+      url: "/nvram-module-fru-links.html"
+  - title: 전력 및 냉각
+    links:
+    - title: 전원 공급 장치 교체 절차
+      url: "/power-supply-fru-links.html"
+    - title: 팬 교체 절차
+      url: "/fan-fru-links.html"
+    - title: DCPM 전원 모듈 교체 절차
+      url: "/dcpm-power-fru-links.html"
+  - title: I/O 및 확장 카드
+    links:
+    - title: I/O 모듈 교체 절차
+      url: "/io-module-fru-links.html"
+    - title: PCI 카드 및 라이저 교체 절차
+      url: "/pci-cards-fru-links.html"
+    - title: 중이층 교체 시술
+      url: "/mezzanine-fru-links.html"
+  - title: 저장소 및 드라이브
+    links:
+    - title: 드라이브 교체 절차
+      url: "/drive-fru-links.html"
+    - title: 캐싱 모듈 교체 절차
+      url: "/caching-module-fru-links.html"
+  - title: 시스템 배터리 및 표시등
+    links:
+    - title: NVMEM/ NVRAM 배터리 교체 절차
+      url: "/nvmem-battery-fru-links.html"
+    - title: RTC 배터리 교체 절차
+      url: "/rtc-battery-fru-links.html"
+    - title: LED 모듈 교체 절차
+      url: "/led-module-fru-links.html"

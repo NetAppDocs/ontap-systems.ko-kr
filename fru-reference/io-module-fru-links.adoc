@@ -1,43 +1,43 @@
 ---
 sidebar: sidebar 
 permalink: fru-reference/io-module-fru-links.html 
-keywords: IO module, field replaceable units, FRU, IO module replacement 
-summary: 이 페이지에서는 시스템별 IO 모듈 교체 절차에 대한 링크를 제공합니다. 
+keywords: I/O module, field replaceable units, FRU, I/O module replacement 
+summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 I/O 모듈 교체 절차를 찾아보세요.  이 참조 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 I/O 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다. 
 ---
-= IO 모듈 FRU 링크
+= 플랫폼 제품군별 I/O 모듈 교체 절차
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 페이지에서는 플랫폼 모델별로 정리된 IO 모듈 교체 절차에 대한 링크를 제공합니다.
+플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 I/O 모듈 교체 절차를 찾아보세요.  이 참조 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 I/O 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
 
 [role="tabbed-block"]
 ====
 .AFF 시스템
 --
-* link:../a1k/io-module-replace.html["AFF A1K 를 참조하십시오"^]
-* link:../a20-30-50/io-module-replace.html["AFF A20/30/50"^]
-* link:../a70-90/io-module-replace.html["AFF A70/90"^]
-* link:../c30-60/io-module-replace.html["AFF C30/60"^]
-* link:../c80/io-module-replace.html["AFF C80 를 참조하십시오"^]
+* link:../a1k/io-module-replace.html["AFF A1K 를 참조하십시오"]
+* link:../a20-30-50/io-module-replace.html["AFF A20/30/50"]
+* link:../a70-90/io-module-replace.html["AFF A70/90"]
+* link:../c30-60/io-module-replace.html["AFF C30/60"]
+* link:../c80/io-module-replace.html["AFF C80 를 참조하십시오"]
 
 
 --
 .ASA 시스템
 --
-* link:../asa-r2-a1k/io-module-replace.html["ASA A1K 를 참조하십시오"^]
-* link:../asa-r2-a20-30-50/io-module-replace.html["ASA A20/30/50"^]
-* link:../asa-r2-70-90/io-module-replace.html["ASA 70/90"^]
-* link:../asa-r2-c30/io-module-replace.html["ASA C30"^]
+* link:../asa-r2-a1k/io-module-replace.html["ASA A1K 를 참조하십시오"]
+* link:../asa-r2-a20-30-50/io-module-replace.html["ASA A20/30/50"]
+* link:../asa-r2-70-90/io-module-replace.html["ASA 70/90"]
+* link:../asa-r2-c30/io-module-replace.html["ASA C30"]
 
 
 --
 .FAS 시스템
 --
-* link:../fas50/io-module-replace.html["FAS50를 참조하십시오"^]
-* link:../fas-70-90/io-module-replace.html["FAS70/90"^]
+* link:../fas50/io-module-replace.html["FAS50를 참조하십시오"]
+* link:../fas-70-90/io-module-replace.html["FAS70/90"]
 
 
 --

@@ -21,7 +21,7 @@ ONTAP 하드웨어 시스템의 새로운 기능에 대해 알아보십시오. �
 
 === 플랫폼 사양
 
-ONTAP 하드웨어 시스템 설명서에는 이제 다음에서도 찾을 수 있는 사양이 포함됩니다.link:https://hwu.netapp.com["Hardware Universe"] .  예를 들어,link:https://docs.netapp.com/us-en/ontap-systems_hotfix-main/a1k/overview.html["AFF A1K 의 주요 사양"] .
+ONTAP 하드웨어 시스템 설명서에는 이제 다음에서도 찾을 수 있는 사양이 포함됩니다.link:https://hwu.netapp.com["Hardware Universe"] . 예를 들어,link:https://docs.netapp.com/us-en/ontap-systems/a1k/overview.html["AFF A1K 의 주요 사양"] .
 
 
 
