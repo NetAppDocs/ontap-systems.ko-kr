@@ -1,5 +1,5 @@
 ---
-permalink: fas9500/install_videos.html 
+permalink: fas9500/install-videos.html 
 sidebar: sidebar 
 keywords: FAS9500 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 

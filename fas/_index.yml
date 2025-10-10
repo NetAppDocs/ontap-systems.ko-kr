@@ -24,7 +24,7 @@ indexpage:
     - title: FAS8300 및 FAS8700
       url: "../fas8300/install-setup.html"
     - title: FAS9500
-      url: "../fas9500/install_setup.html"
+      url: "../fas9500/install-setup.html"
   - title: 시스템을 유지보수하십시오
     links:
     - title: FAS50를 참조하십시오

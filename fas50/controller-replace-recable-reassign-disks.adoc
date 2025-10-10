@@ -118,7 +118,6 @@ NOTE: 문제가 있는 경우 에 https://support.netapp.com["NetApp 지원"] �
 
 . 시스템이 처리되면 Boot Menu(부팅 메뉴) 가 나타납니다. 정상 부팅의 경우 '1'을 선택하십시오.
 . 테이크오버 상태를 확인합니다. `storage failover show`
-. 고급 모드로 전환한 다음 `run local partner nosavecore` 복구된 노드의 코어 덤프가 저장되는지 확인합니다 `set -privilege advanced`.
 . 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다. `storage failover giveback -ofnode _impaired_node_name_`
 . 자동 반환이 비활성화되어 있는 경우, 다시 활성화합니다. `storage failover modify -node local -auto-giveback _true_`
 . AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`

@@ -1,16 +1,19 @@
 ---
 permalink: fas9500/overview.html 
 sidebar: sidebar 
+keywords: fas9500 overview, specifications fas9500, fas9500 components, fas9500 specifications 
 summary: FAS9500 플랫폼 그룹의 주요 사양 
 ---
 = FAS9500 의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
+:firstname: [.lead]
+:author: [.lead]
+:authorinitials: [
+:authors: [.lead]
+:revdate: The following are select specifications for the FAS9500 storage system in a single high availability pair. Visit NetApp Hardware Universe (HWU) for the complete specifications for this storage system.
 
-
-[role="lead"]
-다음은 단일 고가용성 쌍의 FAS9500 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.
 
 
 

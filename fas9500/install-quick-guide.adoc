@@ -1,5 +1,5 @@
 ---
-permalink: fas9500/install_quick_guide.html 
+permalink: fas9500/install-quick-guide.html 
 sidebar: sidebar 
 keywords: FAS9500 
 summary: 이 항목에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 

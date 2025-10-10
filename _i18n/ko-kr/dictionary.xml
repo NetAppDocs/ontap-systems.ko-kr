@@ -3405,9 +3405,6 @@
   <block id="807c4e7b40aa97c700fd63bd5a5477a6" category="section-title">1단계: LED USB 모듈을 교체합니다</block>
   <block id="f0bf4654c0d8dcfe407c27af203be1d1" category="paragraph">USB LED 모듈</block>
   <block id="9bfe8c74a54e0b8aed08814ba2231085" category="section-title">2단계: 장애가 발생한 구성 요소를 반환합니다</block>
-  <block id="3d583022c2a0e3f44141400e25a3113d" category="list-text"><block ref="3d583022c2a0e3f44141400e25a3113d" category="inline-link-macro-rx"></block></block>
-  <block id="e95c782f97493fda4a0794b55f88c5be" category="list-text"><block ref="e95c782f97493fda4a0794b55f88c5be" category="inline-link-macro-rx"></block></block>
-  <block id="280316afc56c30d6861e875ee64f9d8b" category="list-text"><block ref="280316afc56c30d6861e875ee64f9d8b" category="inline-link-macro-rx"></block></block>
   <block id="d00782da692bd9ebe9130b9b13318aa8" category="doc">시스템 구성을 복원 및 확인합니다 - AFF A900</block>
   <block id="f53fd2bac78253daaa912be518fddcc2" category="doc">팬 모듈 핫 스왑 - FAS8300 및 FAS8700</block>
   <block id="97a3946d5380c45539697b463767b69c" category="section-title">4단계: RTC 배터리 교체 후 컨트롤러 모듈을 다시 설치하고 시간/날짜를 설정합니다</block>
@@ -4833,9 +4830,6 @@
   <block id="a138242d674238dc6089a602c6c8909b" category="list-text">반환이 완료된 후 HA 쌍이 정상 상태이며 테이크오버 가능 여부를 확인합니다. 스토리지 페일오버가 표시됩니다</block>
   <block id="f2c155633ff38e4e2d070e9d244a9074" category="doc">하드웨어-FAS9500을 이동하고 교체합니다</block>
   <block id="68828ed4b0036df85ace8abb1ad7c137" category="doc">설정 복원 및 확인 - FAS9500</block>
-  <block id="ca44994b81cf73317bcdf6088f5dae8f" category="list-text"><block ref="ca44994b81cf73317bcdf6088f5dae8f" category="inline-link-macro-rx"></block></block>
-  <block id="bfd64d4015631c5c2c0c4db3a0badb51" category="list-text"><block ref="bfd64d4015631c5c2c0c4db3a0badb51" category="inline-link-macro-rx"></block></block>
-  <block id="f15e9fe5ff90a0ec8840f664bb40c138" category="list-text"><block ref="f15e9fe5ff90a0ec8840f664bb40c138" category="inline-link-macro-rx"></block></block>
   <block id="b139dc4b4943474860d7b90b369c2b27" category="doc">비디오 단계 - FAS9500</block>
   <block id="3a1bdb9a053493a7e1c1e62e796f32e6" category="doc">부팅 미디어(FAS9500)를 교체합니다</block>
   <block id="3e5fda4bdb63c28cc3aa53cadbde1129" category="doc">DIMM-FAS9500을 교체합니다</block>
@@ -9430,7 +9424,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3ba33b604021069649467ecdf257be05" category="list-text">KMIP 서버의 포트입니다</block>
   <block id="2d554fdba3f08dbae96d767011163c64" category="list-text">시스템이 처리되면 Boot Menu(부팅 메뉴) 가 나타납니다. 정상 부팅의 경우 '1'을 선택하십시오.</block>
   <block id="5724bf734a1f497a07f249f0b315ffe6" category="list-text">테이크오버 상태를 확인합니다.<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block></block>
-  <block id="fb06fb0bfbf591aaabffe9c4be97a3fe" category="list-text">고급 모드로 전환한 다음<block ref="18e262a813b10ff8e5a5c7387605eb8c" prefix=" " category="inline-code"></block> 복구된 노드의 코어 덤프가 저장되는지 확인합니다<block ref="0581d0d071ad835f74bf419081ce5d75" prefix=" " category="inline-code"></block>.</block>
   <block id="0f4c05d658aace7b29b5ea53d3fa4cf2" category="list-text">모든 선반이 올바르게 작동해야 합니다.</block>
   <block id="34f0c52d74ac2c621ab6284425793c19" category="list-text">컨트롤러를 동일한 모델 유형의 컨트롤러로 교체해야 합니다. 컨트롤러만 교체하여 시스템을 업그레이드할 수 없습니다.</block>
   <block id="f66467941a18b4f0a908d26d19b031ae" category="list-text">이 절차에서 드라이브나 쉘프를 변경할 수 없습니다.</block>
@@ -10447,7 +10440,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9a14eb4201f018a934225cd84a42221c" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 방전되거나 고장 나면 AFF A70 또는 AFF A90 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="b85925ab6af84e80af54ee558d7cdd7b" category="summary">비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 AFF A70 또는 AFF A90 시스템의 NVRAM를 교체하십시오.</block>
   <block id="aaf0a6c95c867df69992eef6a692ca4b" category="doc">NVRAM-AFF A70 및 AFF A90를 교체합니다</block>
-  <block id="6ce37dbe2a72695de938ca0373d07a48" category="paragraph">비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 AFF A70 또는 AFF A90 시스템의 NVRAM를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, NVRAM 모듈 또는 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="2529fd3c33c553ca2e8d9592843f4207" category="summary">AFF A70 또는 AFF A90 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스와 응용 프로그램이 계속 작동하도록 합니다.</block>
   <block id="074741912fd3881b9c0c739cd18929e2" category="summary">AFF A70 또는 AFF A90 시스템에 결함이 있거나 펌웨어가 손상된 경우 시스템 관리 모듈을 교체합니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 오류가 발생한 시스템 관리 모듈을 교체하고, 컨트롤러를 재부팅하고, 라이센스 키를 업데이트하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="20b1449f6216ab28919605292500b402" category="doc">시스템 관리 모듈(AFF A70 및 AFF A90)을 교체합니다</block>
@@ -10583,7 +10575,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9820e4314a3e441bfece800b6e086ee5" category="paragraph">ASA A70 및 ASA A90 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="156e54fb574402ca9f26edcfaeff46e1" category="paragraph">유지 관리 절차에서는 ASA A70 및 ASA A90 시스템이 이미 ONTAP 환경에 스토리지 노드로 구축되어 있다고 가정합니다.</block>
   <block id="99b88f32607667ac31ffc4d65b240425" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 방전되거나 고장 나면 ASA A70 또는 ASA A90 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
-  <block id="2c183cd7821c2303d65c52bc4eccc960" category="paragraph">비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 ASA A70 또는 ASA A90 시스템의 NVRAM를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, NVRAM 모듈 또는 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="41e2f285e686b8f2a3edb4bab2e58d51" category="paragraph">ASA A70 또는 ASA A90 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스와 응용 프로그램이 계속 작동하도록 합니다.</block>
   <block id="bcde75f7bddc9226b30c2cb1712cb52b" category="summary">ASA A70 또는 ASA A90 시스템에 결함이 있거나 펌웨어가 손상된 경우 시스템 관리 모듈을 교체합니다. 교체 프로세스에는 컨트롤러 종료, 장애가 발생한 시스템 관리 모듈 교체, 컨트롤러 재부팅, 라이센스 키 업데이트, 실패한 부품 NetApp 반환 등이 포함됩니다.</block>
   <block id="603c758839f418606126a3dd634c68d9" category="doc">시스템 관리 모듈(ASA A70 및 ASA A90)을 교체합니다</block>
@@ -10644,7 +10635,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dd70af6ac86c3004056a10922bf1e4a7" category="paragraph">유지 관리 절차에서는 AFF C80 시스템이 이미 ONTAP 환경에서 스토리지 노드로 구축되어 있다고 가정합니다.</block>
   <block id="5d542a4393896b1649a9f71a10d0053c" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 충전되지 않거나 고장 나면 AFF C80 시스템의 NV 배터리를 교체하십시오.</block>
   <block id="6c723933775e16b84e349b93a65294be" category="paragraph">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 충전되지 않거나 고장 나면 AFF C80 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
-  <block id="4a39a7154d94aaf673b103d62c88527f" category="paragraph">비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 AFF C80 시스템의 NVRAM를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, NVRAM 모듈 또는 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="faed8c38f21fc080afa13d15d554d7cd" category="summary">AFF C80 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스와 응용 프로그램이 계속 작동하도록 합니다.</block>
   <block id="6bb54b1dd4c1b6fa5564137fda344533" category="summary">AFF C80 시스템에 결함이 있거나 펌웨어가 손상된 경우 시스템 관리 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 장애가 발생한 시스템 관리 모듈 교체, 컨트롤러 재부팅, 라이센스 키 업데이트, 실패한 부품 NetApp 반환 등이 포함됩니다.</block>
   <block id="a119fd4e8fa2ab8606dde519437910b4" category="summary">FAS70 또는 FAS90 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp에 반환합니다. <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block>자세한 내용은 페이지를 참조하십시오.</block>
@@ -13181,7 +13171,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6ec20c5ffb71fc8e6407815aba709ebe" category="cell">15.0PB / 13.3PiB</block>
   <block id="e71a112fcba059348a330658e07fff85" category="list-text">작동 온도/고도/습도: 10°C ~ 35°C/50°F ~ 95°F) atbr/= 3048mbr/= 10000 ft) 고도; 8% ~ 90%br/상대 습도, 비응축</block>
   <block id="fd64ba1b0614f4ffd66207f445196c93" category="summary">FAS9500 플랫폼 그룹의 주요 사양</block>
-  <block id="e3a28d350d8771729547475ef2d67149" category="paragraph">다음은 단일 고가용성 쌍의 FAS9500 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="8d8c60ca9b0b29f222ed76c52c6cf55b" category="list-text">최소 ONTAP 버전: ONTAP 9.10.1P3 == 확장 최대값</block>
   <block id="014f2208129cdc831cee84fc30f9247f" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 180.0 PB / 159.9 PiB; 최대 메모리: 24576 GB</block>
   <block id="42af051dd0fff696f5ce895c1bb97de4" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 90.0PB / 79.9PiB; 최대 메모리: 12288GB</block>
@@ -13804,4 +13793,23 @@ SFP+(타겟/이니시에이터)</block>
   <block id="496c7adc63a126d0eb4ab5118d782f86" category="sidebar">저장소 및 드라이브</block>
   <block id="f529a7aaf3d6572add4d618d8be7d377" category="sidebar">시스템 배터리 및 표시등</block>
   <block id="58c13d8b084f626609d7f7546283abc8" category="sidebar">구성품별 교체 절차</block>
+  <block id="bf8cf727ae3139f3e7fe3e65453bcea8" category="paragraph">사용하는 절차는 컨트롤러 중복성 구성에 따라 달라집니다.</block>
+  <block id="c78ea1575d6ed5311ae16f57e7080f55" category="open-title">옵션 1: HA 쌍</block>
+  <block id="cddabae5c0c8b3e2d64da933c9d3a116" category="paragraph">=== HA 시스템에서 시스템 ID 변경 확인</block>
+  <block id="237578e36bc0b82ac635199432b9561a" category="open-title">옵션 2: 2노드 MetroCluster</block>
+  <block id="a50442518571cefc0118bd7662d857e6" category="paragraph">=== 2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다.</block>
+  <block id="d11707ec467f1cc151a3fc2bff916c27" category="list-text">컨트롤러의 잠금 래치 두 개를 모두 누르고, 두 래치를 동시에 아래로 돌린 다음 컨트롤러를 약 7~10cm 정도 빼냅니다.</block>
+  <block id="3212e1d7238176b184891f4e58ec4874" category="list-text">컨트롤러 모듈을 다시 설치합니다.  컨트롤러는 완전히 삽입되면 즉시 재부팅됩니다.</block>
+  <block id="d44afbf1e0eec290d1d18fef6bc57aad" category="paragraph">비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 AFF A70 또는 AFF A90 시스템의 NVRAM 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러를 몇 인치 빼내어 전원을 완전히 차단하고, NVRAM 모듈이나 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 오류가 발생한 부품을 NetApp 에 ​​반환하는 작업이 포함됩니다.</block>
+  <block id="824e41b098dc2aeee8956dcc4079298b" category="list-text"><block ref="824e41b098dc2aeee8956dcc4079298b" category="inline-link-macro-rx"></block></block>
+  <block id="aa34fced84bfbcbb78619eb4193930e4" category="list-text"><block ref="aa34fced84bfbcbb78619eb4193930e4" category="inline-link-macro-rx"></block></block>
+  <block id="9c9e03a4da33702773b54fa36d9407bc" category="list-text"><block ref="9c9e03a4da33702773b54fa36d9407bc" category="inline-link-macro-rx"></block></block>
+  <block id="7e7450c37920b1792b62c14f49c6591b" category="paragraph">비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 ASA A70 또는 ASA A90 시스템의 NVRAM 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러를 몇 인치 빼내어 전원을 완전히 차단하고, NVRAM 모듈이나 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 오류가 발생한 부품을 NetApp 에 ​​반환하는 작업이 포함됩니다.</block>
+  <block id="985cd84f00f61cfd350f06f034996dbc" category="list-text"><block ref="985cd84f00f61cfd350f06f034996dbc" category="inline-link-macro-rx"></block></block>
+  <block id="31ac19365e9e82afbf1c92c80f8f5345" category="list-text"><block ref="31ac19365e9e82afbf1c92c80f8f5345" category="inline-link-macro-rx"></block></block>
+  <block id="b749fa61154e5014f90db363c596629d" category="list-text"><block ref="b749fa61154e5014f90db363c596629d" category="inline-link-macro-rx"></block></block>
+  <block id="a3e8d54603612818524bd33249aa8a23" category="paragraph">비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 AFF c80 시스템의 NVRAM 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러를 몇 인치 빼내어 전원을 완전히 차단하고, NVRAM 모듈이나 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 오류가 발생한 부품을 NetApp 에 ​​반환하는 작업이 포함됩니다.</block>
+  <block id="e0afc6f17acc32734a97d12897107976" category="list-text"><block ref="e0afc6f17acc32734a97d12897107976" category="inline-link-macro-rx"></block></block>
+  <block id="de12502ea1f5b1e834a82b554781952a" category="list-text"><block ref="de12502ea1f5b1e834a82b554781952a" category="inline-link-macro-rx"></block></block>
+  <block id="18b2d9b4b9271130118b3fa4d34741ca" category="list-text"><block ref="18b2d9b4b9271130118b3fa4d34741ca" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -1,5 +1,5 @@
 ---
-permalink: a900/install_setup.html 
+permalink: a900/install-setup.html 
 sidebar: sidebar 
 keywords: fas9000, aff a700, install, setup, initial configuration 
 summary: 시스템을 설치하고 설정합니다. 
@@ -13,15 +13,15 @@ summary: 시스템을 설치하고 설정합니다.
 [role="lead"]
 새로운 스토리지 시스템을 설치하고 설정하는 과정을 안내하는 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.
 
-* link:../a900/install_quick_guide.html["빠른 단계"^]
+* link:../a900/install-quick-guide.html["빠른 단계"^]
 +
 추가 콘텐츠에 대한 라이브 링크가 포함된 단계별 지침의 인쇄 가능한 PDF입니다.
 
-* link:../a900/install_videos.html["비디오 단계"^]
+* link:../a900/install-videos.html["비디오 단계"^]
 +
 단계별 지침을 비디오로 제공합니다.
 
-* link:../a900/install_detailed_guide.html["세부 단계"^]
+* link:../a900/install-detailed-guide.html["세부 단계"^]
 +
 추가 컨텐츠에 대한 라이브 링크가 포함된 온라인 단계별 지침.
 
