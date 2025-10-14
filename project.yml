@@ -56,11 +56,52 @@ sidebar:
       - title: 유지 보수 개요
         url: "/afx-1k/maintain-overview.html"
       - title: 미디어를 부팅합니다
-        url: "/afx-1k/bootmedia-replace-workflow.html"
+        pdf-filename: AFX 1K 부트 미디어
+        entries:
+        - title: 부팅 미디어 교체 워크플로우
+          url: "/afx-1k/bootmedia-replace-workflow.html"
+        - title: 요구사항 검토
+          url: "/afx-1k/bootmedia-replace-requirements.html"
+        - title: 컨트롤러를 종료합니다
+          url: "/afx-1k/bootmedia-shutdown.html"
+        - title: 부팅 미디어를 교체합니다
+          url: "/afx-1k/bootmedia-replace.html"
+        - title: 부팅 미디어 복원
+          url: "/afx-1k/bootmedia-recovery-image-boot.html"
+        - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+          url: "/afx-1k/bootmedia-complete-rma.html"
       - title: 섀시
-        url: "/afx-1k/chassis-replace-workflow.html"
+        pdf-filename: AFX A1K 섀시
+        entries:
+        - title: 섀시 교체 워크플로우
+          url: "/afx-1k/chassis-replace-workflow.html"
+        - title: 요구사항 검토
+          url: "/afx-1k/chassis-replace-requirements.html"
+        - title: 교체를 준비합니다
+          url: "/afx-1k/chassis-replace-prepare.html"
+        - title: 컨트롤러를 종료합니다
+          url: "/afx-1k/chassis-replace-shutdown.html"
+        - title: 섀시를 교체합니다
+          url: "/afx-1k/chassis-replace-move-hardware.html"
+        - title: 섀시 교체를 완료합니다
+          url: "/afx-1k/chassis-replace-complete-system-restore-rma.html"
       - title: 컨트롤러
-        url: "/afx-1k/controller-replace-workflow.html"
+        pdf-filename: AFX 1K 컨트롤러
+        entries:
+        - title: 컨트롤러 교체 워크플로우
+          url: "/afx-1k/controller-replace-workflow.html"
+        - title: 요구사항 검토
+          url: "/afx-1k/controller-replace-requirements.html"
+        - title: 손상된 컨트롤러를 종료합니다
+          url: "/afx-1k/controller-replace-shutdown.html"
+        - title: 컨트롤러를 교체합니다
+          url: "/afx-1k/controller-replace-move-hardware.html"
+        - title: 시스템 구성을 복원합니다
+          url: "/afx-1k/controller-replace-system-config-restore-and-verify.html"
+        - title: 컨트롤러를 반납합니다
+          url: "/afx-1k/controller-replace-recable-reassign-disks.html"
+        - title: 전체 컨트롤러 교체
+          url: "/afx-1k/controller-replace-restore-system-rma.html"
       - title: DIMM
         url: "/afx-1k/dimm-replace.html"
       - title: 팬
@@ -70,7 +111,14 @@ sidebar:
       - title: NV 배터리
         url: "/afx-1k/nvdimm-battery-replace.html"
       - title: 입출력 모듈
-        url: "/afx-1k/io-module-overview.html"
+        pdf-filename: AFX 1K IO 모듈
+        entries:
+        - title: I/O 모듈 개요
+          url: "/afx-1k/io-module-overview.html"
+        - title: 입출력 모듈을 추가합니다
+          url: "/afx-1k/io-module-add.html"
+        - title: 입출력 모듈을 교체합니다
+          url: "/afx-1k/io-module-replace.html"
       - title: 전원 공급 장치
         url: "/afx-1k/power-supply-replace.html"
       - title: 실시간 시계 배터리
