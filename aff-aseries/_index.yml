@@ -28,7 +28,7 @@ indexpage:
     - title: AFF A800
       url: "../a800/install-setup.html"
     - title: AFF A900
-      url: "../a900/install_setup.html"
+      url: "../a900/install-setup.html"
   - title: 시스템을 유지보수하십시오
     links:
     - title: AFF A1K 를 참조하십시오

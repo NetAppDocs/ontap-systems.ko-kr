@@ -1,0 +1,282 @@
+---
+permalink: afx-1k/rtc-battery-replace.html 
+sidebar: sidebar 
+keywords: afx 1k, replace the real-time clock battery 
+summary: '정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 AFX 1K 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.' 
+---
+= 실시간 시계 배터리 교체 - AFX 1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 AFX 1K 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.
+
+.시작하기 전에
+* 시스템에서 지원하는 모든 ONTAP 버전에 이 절차를 사용할 수 있다는 점을 이해합니다.
+* 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하십시오. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+
+
+
+
+== 1단계: 손상된 컨트롤러를 종료합니다
+
+다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
+
+손상된 컨트롤러를 종료하려면 컨트롤러의 상태를 확인하고 필요한 경우 컨트롤러의 스토리지 장애 조치 인수를 수행하여 정상 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 해야 합니다.
+
+.이 작업에 대해
+* 4개 이상의 노드가 있는 클러스터가 있는 경우 쿼럼에 있어야 합니다.  노드에 대한 클러스터 정보를 보려면 다음을 사용하세요. `cluster show` 명령.  자세한 내용은 `cluster show` 명령, 참조link:https://docs.netapp.com/us-en/ontap/system-admin/display-nodes-cluster-task.html["ONTAP 클러스터에서 노드 수준 세부 정보 보기"^] .
+* 클러스터가 쿼럼에 포함되지 않았거나 손상된 컨트롤러를 제외한 모든 컨트롤러의 상태 또는 적격성이 거짓으로 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다. 보다 link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^] .
+
+
+.단계
+. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=<# of hours>h`
+
++
+다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.
+
++
+`cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 손상된 컨트롤러의 콘솔에서 자동 반환을 비활성화합니다.
++
+`storage failover modify -node impaired-node -auto-giveback-of false`
+
++
+
+NOTE: _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면 다음을 입력하세요. `y` .
+
++
+.. ONTAP 버전 9.17.1을 실행 중이고 손상된 컨트롤러를 가동할 수 없거나 이미 인수된 경우 손상된 컨트롤러를 부팅하기 전에 정상 컨트롤러에서 HA 상호 연결 링크를 끊어야 합니다.  이렇게 하면 손상된 컨트롤러가 자동으로 반환하는 것을 방지할 수 있습니다.
++
+`system ha interconnect link off -node healthy-node -link 0`
+
++
+`system ha interconnect link off -node healthy-node -link 1`
+
++
+
+NOTE: ONTAP 버전 9.17.1을 실행하지 않는 경우 위 단계를 건너뛰고 3단계로 이동하세요.
+
+
+
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트
+ a| 
+건강한 컨트롤러로부터 손상된 컨트롤러를 인수하거나 중단합니다.
+`storage failover takeover -ofnode _impaired_node_name_ -halt _true_`
+
+_-halt true_ 매개변수는 손상된 노드를 LOADER 프롬프트로 가져옵니다.
+
+|===
+
+
+
+
+== 2단계: 컨트롤러 모듈을 분리합니다
+
+컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부의 구성 요소를 교체할 때 엔클로저에서 컨트롤러 모듈을 분리해야 합니다.
+
+. 시스템의 슬롯 4/5에 있는 NVRAM 상태 LED를 확인합니다. 컨트롤러 모듈의 전면 패널에도 NVRAM LED가 있습니다. NV 아이콘을 찾습니다.
++
+image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 LED 위치 그래픽]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+ a| 
+NVRAM 상태 LED
+
+
+
+ a| 
+image:../media/icon_round_2.png["설명선 번호 2"]
+ a| 
+NVRAM 주의 LED
+
+|===
++
+** NV LED가 꺼져 있는 경우 다음 단계로 이동합니다.
+** NV LED가 깜박이는 경우 깜박임이 멈출 때까지 기다립니다. 깜박임이 5분 이상 지속될 경우 기술 지원 부서에 문의하십시오.
+
+
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 필요한 경우 두 손으로 베젤을 제거합니다. 베젤 양쪽의 개구부를 잡고 섀시 프레임의 볼 스터드에서 베젤이 분리될 때까지 몸쪽으로 당깁니다.
+. 장치 전면에서 잠금 캠의 구멍에 손가락을 걸고 캠 레버의 탭을 누르면서 동시에 두 래치를 사용자 쪽으로 단단히 돌립니다.
++
+컨트롤러 모듈이 인클로저에서 약간 벗어납니다.
+
++
+image::../media/drw_a1k_pcm_remove_replace_ieops-1375.svg[컨트롤러 분리 그래픽]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+| 캠 래치 잠금 
+|===
+. 컨트롤러 모듈을 인클로저에서 밀어 꺼내고 평평하고 안정적인 표면에 놓습니다.
++
+엔클로저에서 컨트롤러 모듈을 밀어낼 때 컨트롤러 모듈의 하단을 지지해야 합니다.
+
+
+
+
+
+== 3단계: RTC 배터리를 교체합니다
+
+고장난 RTC 배터리를 제거하고 교체용 배터리를 설치하세요.
+
+. 컨트롤러 상단에 있는 컨트롤러 에어 덕트를 엽니다.
++
+.. 에어 덕트 끝의 오목한 부분에 손가락을 삽입합니다.
+.. 에어 덕트를 들어 올려 최대한 위로 돌립니다.
+
+
+. 에어 덕트 아래에서 RTC 배터리를 찾습니다.
++
+image::../media/drw_a1k_rtc_remove_replace_ieops-1381.svg[RTC 배터리를 교체합니다]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+| RTC 배터리 및 하우징 
+|===
+. 배터리를 홀더에서 조심스럽게 밀어내고 홀더에서 돌린 다음 홀더에서 들어 꺼냅니다.
++
+
+NOTE: 홀더에서 배터리를 제거할 때 배터리의 극성을 주의하세요.  배터리에는 플러스 기호가 표시되어 있으며 홀더에 올바르게 넣어야 합니다.  홀더 근처의 더하기 기호는 올바른 방향을 나타냅니다.
+
+. 정전기 방지 운송용 백에서 교체용 배터리를 제거합니다.
+. RTC 배터리의 극성을 확인한 다음 배터리를 비스듬히 기울이고 아래로 눌러 홀더에 삽입합니다.
+. 배터리를 육안으로 검사하여 홀더가 완전히 장착되어 있고 극성이 올바른지 확인하십시오.
+
+
+
+
+== 4단계: 컨트롤러 모듈을 재설치합니다
+
+컨트롤러 모듈을 다시 설치하고 부팅합니다.
+
+. 공기 덕트를 끝까지 돌려 완전히 닫혔는지 확인합니다.
++
+컨트롤러 모듈 판금과 수평을 이루어야 합니다.
+
+. 컨트롤러 모듈의 끝을 인클로저의 입구에 맞추고 레버를 시스템 전면에서 돌려 컨트롤러 모듈을 섀시에 밀어 넣습니다.
+. 컨트롤러 모듈이 더 이상 밀지 못하게 되면 팬 아래로 걸쇠가 걸릴 때까지 캠 핸들을 안쪽으로 돌립니다
++
+
+NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 인클로저에 밀어 넣을 때 과도한 힘을 가하지 마십시오.
+
++
+컨트롤러 모듈이 엔클로저에 완전히 장착되는 즉시 부팅을 시작합니다.
+
+. 베젤을 볼 스터드에 맞춘 다음 베젤을 조심스럽게 밀어 넣어 제자리에 고정합니다.
+
+
+
+
+== 단계 5: 컨트롤러의 시간과 날짜를 재설정합니다
+
+
+NOTE: RTC 배터리를 교체하고 컨트롤러를 삽입한 후 첫 번째 BIOS 재설정을 실행하면 다음과 같은 오류 메시지가 표시됩니다.
+`RTC date/time error. Reset date/time to default`
+`RTC power failure error` 이러한 메시지는 예상된 것이며, 계속해서 절차를 진행할 수 있습니다.
+
+. 건강한 컨트롤러의 날짜와 시간을 확인하세요. `cluster date show` 명령.
++
+
+NOTE: 시스템이 부팅 메뉴에서 중지되면 옵션을 선택하고 메시지가 표시되면 respect_y_를 선택한  `Reboot node` 다음 _Ctrl-C_를 눌러 LOADER로 부팅합니다
+
++
+.. 대상 컨트롤러의 LOADER 프롬프트에서 시간과 날짜를 확인하십시오. `show date` 명령.
+.. 필요한 경우 'mm/dd/yyyy' 명령으로 날짜를 수정합니다.
+.. 필요한 경우 '시간 설정 hh:mm:ss' 명령을 사용하여 GMT로 시간을 설정합니다.
++
+... 파트너 노드에서 현재 GMT를 얻을 수 있습니다. `date -u` 명령.
+
+
+
+
+. 대상 컨트롤러의 날짜 및 시간을 확인합니다.
+. LOADER 프롬프트에서 BYE를 입력하여 PCIe 카드 및 기타 구성 요소를 재초기화하고 컨트롤러를 재부팅합니다.
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** _로그인_ 프롬프트가 표시되면 다음 단계로 넘어가세요.
+** 로그인 프롬프트가 나타나지 않으면 파트너 노드에 로그인하세요.
+
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분 정도 기다린 후 장애 조치 및 반환 상태를 확인하세요.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
++
+`storage failover modify -node local -auto-giveback-of true`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+
+
+== 6단계: 장애가 발생한 부품을 NetApp에 반환
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

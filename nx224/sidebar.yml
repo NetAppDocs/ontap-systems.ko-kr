@@ -1,0 +1,36 @@
+---
+section: nx224
+title: NX224 선반
+entries:
+- title: 쉘프를 핫 추가
+  url: "/nx224/hot-add-shelf.html"
+- title: 쉘프 ID를 변경합니다
+  url: "/nx224/change-shelf-id.html"
+- title: 유지 관리
+  pdf-filename: NX224 선반 유지 관리
+  entries:
+  - title: 미디어를 부팅합니다
+    url: "/nx224/service-replace-boot-media.html"
+  - title: DIMM
+    url: "/nx224/service-replace-dimm.html"
+  - title: 드라이브
+    url: "/nx224/service-replace-drive.html"
+  - title: 드라이브 쉘프
+    pdf-filename: NX224 드라이브 선반 교체
+    entries:
+    - title: 셸프 유지 관리 개요
+      url: "/nx224/nx224-shelf-overview.html"
+    - title: 핫 애드 드라이브
+      url: "/nx224/hot-add-drive.html"
+    - title: 쉘프 LED를 모니터링합니다
+      url: "/nx224/service-monitor-leds.html"
+  - title: 팬
+    url: "/nx224/service-replace-fan.html"
+  - title: 입출력 모듈
+    url: "/nx224/service-replace-io-module.html"
+  - title: NSM
+    url: "/nx224/service-replace-nsm140.html"
+  - title: 전원 공급 장치
+    url: "/nx224/service-replace-power-supply.html"
+  - title: 실시간 시계 배터리
+    url: "/nx224/service-replace-rtc-battery.html"

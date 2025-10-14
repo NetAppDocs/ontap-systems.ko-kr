@@ -6,6 +6,12 @@ indexpage:
   keywords: install ns224, hot-add, shelves, cable, drive-shelves
   lead: NetApp의 NS224 쉘프 및 SAS 쉘프는 디지털 혁신에 필요한 성능, 복원력, 유연성을 제공합니다.
   tiles:
+  - title: NX224 선반 설치
+    links:
+    - title: 쉘프를 핫 추가
+      url: "../nx224/hot-add-shelf.html"
+    - title: 쉘프 ID를 변경합니다
+      url: "../nx224/change-shelf-id.html"
   - title: NS224 쉘프를 설치합니다
     links:
     - title: 쉘프를 핫 추가
@@ -24,6 +30,26 @@ indexpage:
       url: "../sas3/install-change-shelf-id.html"
     - title: SAS 케이블 연결 규칙, 워크시트 및 예
       url: "../sas3/overview-cabling-rules-examples.html"
+  - title: NX224 선반 유지 관리
+    links:
+    - title: 미디어를 부팅합니다
+      url: "../nx224/service-replace-boot-media.html"
+    - title: DIMM
+      url: "../nx224/service-replace-dimm.html"
+    - title: 드라이브
+      url: "../nx224/service-replace-drive.html"
+    - title: 드라이브 쉘프
+      url: "../nx224/nx224-shelf-overview.html"
+    - title: 팬
+      url: "../nx224/service-replace-fan.html"
+    - title: 입출력 모듈
+      url: "../nx224/service-replace-io-module.html"
+    - title: NSM
+      url: "../nx224/service-replace-nsm140.html"
+    - title: 전원 공급 장치
+      url: "../nx224/service-replace-power-supply.html"
+    - title: RTC 배터리
+      url: "../nx224/service-replace-rtc-battery.html"
   - title: NS224 쉘프를 유지합니다
     links:
     - title: 미디어를 부팅합니다

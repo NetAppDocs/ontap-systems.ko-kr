@@ -1,0 +1,89 @@
+---
+permalink: afx-1k/chassis-replace-complete-system-restore-rma.html 
+sidebar: sidebar 
+keywords: afx 1k,  verify and set HA state, complete the replacement process 
+summary: 컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 AFF A1K 섀시 교체 절차의 마지막 단계를 완료합니다. 
+---
+= 섀시 교체 완료 - AFX 1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 AFX 1K 섀시 교체 절차의 마지막 단계를 완료합니다.
+
+
+
+== 단계 1: 컨트롤러를 부팅하고 컨트롤러를 되돌립니다
+
+컨트롤러가 재부팅되면 ONTAP를 부팅하고 컨트롤러를 반납합니다.
+
+.단계
+. 콘솔 출력을 확인합니다.
++
+.. 컨트롤러가 LOADER 프롬프트에서 멈추면 컨트롤러를 부팅합니다. `boot_ontap` 명령.
+.. 노드가 부팅되고 로그인 프롬프트가 표시되면 파트너 컨트롤러에 로그인하고 교체된 컨트롤러가 반환할 준비가 되었는지 확인하십시오. `storage failover show` 명령.
+
+
+. 반환 수행:
++
+.. 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
+.. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+*** _로그인_ 프롬프트가 표시되면 다음 단계로 넘어가세요.
+*** 로그인 프롬프트가 나타나지 않으면 파트너 노드에 로그인하세요.
+
+
+.. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+.. 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+.. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+.. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+.. 자동 환불이 비활성화된 경우 다시 활성화하세요. `storage failover modify -node _impaired_node_name_ -auto-giveback-of _true_`
+.. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+
+
+
+== 2단계: 스토리지 시스템 상태 확인
+
+컨트롤러가 저장장치를 반환한 후 다음을 사용하여 상태를 확인하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .
+
+.단계
+. 기브백이 완료된 후 Active IQ Config Advisor를 실행하여 스토리지 시스템의 상태를 확인합니다.
+. 발생한 모든 문제를 해결합니다.
+
+
+
+
+== 3단계: 장애가 발생한 부품을 NetApp에 반환
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

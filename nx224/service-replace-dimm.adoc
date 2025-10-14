@@ -1,0 +1,199 @@
+---
+permalink: nx224/service-replace-dimm.html 
+sidebar: sidebar 
+keywords: nx224, shelves, shelf, nx224 shelves, replace, nondisruptive, dimm, i/o, replace a dimm 
+summary: 전원이 켜져 있고 I/O가 진행 중인 NX224 드라이브 선반에서 오류가 있는 DIMM을 중단 없이 교체할 수 있습니다. 
+---
+= DIMM 교체 - NX224 선반
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+전원이 켜져 있고 I/O가 진행 중인 NX224 드라이브 선반에서 오류가 있는 DIMM을 중단 없이 교체할 수 있습니다.
+
+.이 작업에 대해
+* NSM(NVMe 쉘프 모듈)을 제거하고 설치하는 데 최소 70초가 소요됩니다.
++
+이렇게 하면 ONTAP에서 NSM 제거 이벤트를 처리할 수 있는 충분한 시간이 주어집니다.
+
+* *모범 사례:* FRU 구성 요소를 교체하기 전에 시스템에 최신 버전의 NVMe 셸프 모듈(NSM) 펌웨어와 드라이브 펌웨어를 설치하는 것이 모범 사례입니다. NetApp 지원 사이트를 방문하여  https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["디스크 쉘프 펌웨어 다운로드"^] 그리고  https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["디스크 드라이브 펌웨어 다운로드"^] .
++
+[NOTE]
+====
+펌웨어를 쉘프와 해당 구성요소를 지원하지 않는 버전으로 되돌리지 마십시오.
+
+====
+* 필요한 경우 셸프의 위치(파란색) LED를 켜서 해당 셸프를 물리적으로 찾을 수 있습니다. 'Storage shelf location-led modify-shelf-name_shelf_name_-led-status on'
++
+해당 셸프의 '_shelf_name_'을 모르는 경우 'storage shelf show' 명령어를 실행한다.
+
++
+셸프에는 세 개의 위치 LED가 있습니다. 하나는 오퍼레이터 디스플레이 패널에 있고 다른 하나는 NSM에 있습니다. 위치 LED가 30분 동안 켜져 있습니다. 같은 명령을 입력하고 옵션을 사용하면 이러한 기능을 해제할 수 있습니다 `off`.
+
+* 교체 DIMM의 포장을 풀 때 결함이 있는 DIMM을 반환할 때 사용할 수 있도록 포장재를 모두 보관하십시오.
++
+교체 절차에 대한 RMA 번호 또는 추가 도움이 필요한 경우, 에서 기술 지원 팀에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양).
+
+
+
+.시작하기 전에
+* 선반의 파트너 NSM은 작동 중이어야 하며 올바르게 케이블이 연결되어 있어야 실패한 FRU(대상 NSM)가 있는 NSM을 제거할 때 선반의 연결이 유지됩니다.  파트너 NSM의 상태를 확인할 수 있습니다. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Config Advisor 다운로드 및 실행"^] .
+* 나머지 세 개의 DIMM을 포함한 시스템의 다른 모든 구성 요소는 제대로 작동해야 합니다.
+
+
+.단계
+. 적절하게 접지합니다.
+. 교체할 FRU가 포함된 NSM에서 케이블을 뽑습니다.
++
+.. 전원 코드 고정 장치를 열고 전원 코드를 전원 공급 장치에서 분리하여 전원 코드를 전원 공급 장치에서 분리합니다.
++
+전원 공급 장치에는 전원 스위치가 없습니다.
+
+.. NSM 포트에서 스토리지 케이블을 분리합니다.
++
+각 케이블이 연결된 NSM 포트를 기록합니다. NSM을 다시 장착할 때 케이블을 동일한 포트에 다시 연결합니다. 이 절차의 뒷부분에서 수행합니다.
+
+
+
+. NSM을 선반에 삽입합니다.
++
+image::../media/drw_g_and_t_handles_reinstall_ieops-1838.svg[NSM를 교체합니다.]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image::../media/icon_round_1.png[설명선 번호 1]
+ a| 
+NSM을 수리하는 동안 NSM 핸들을 똑바로(탭 옆) 돌린 경우 수평 위치로 아래로 돌립니다.
+
+
+
+ a| 
+image::../media/icon_round_2.png[설명선 번호 2]
+ a| 
+NSM의 후면을 선반의 입구에 맞춘 다음 핸들을 사용하여 NSM이 완전히 장착될 때까지 부드럽게 누릅니다.
+
+
+
+ a| 
+image::../media/icon_round_3.png[설명선 번호 3]
+ a| 
+핸들을 똑바로 세운 위치로 돌린 다음 탭으로 제자리에 고정합니다.
+
+|===
+. 나비나사를 시계 반대 방향으로 돌려 NSM 덮개를 연 다음 덮개를 엽니다.
++
+NSM 커버의 FRU 라벨은 NSM에 있는 4개의 DIMM 위치를 보여줍니다.
+
+. 결함이 있는 DIMM을 물리적으로 식별합니다.
++
+DIMM에 결함이 있으면 교체해야 하는 DIMM을 나타내는 경고 메시지가 시스템 콘솔에 기록됩니다.
+
+. 결함이 있는 DIMM을 분리합니다.
++
+image::../media/drw_tp_dimm_replace_ieops-2202.svg[DIMM을 분리합니다.]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image::../media/icon_round_1.png[설명선 번호 1]
+ a| 
+DIMM 슬롯 번호 및 위치
+
+
+
+ a| 
+image::../media/icon_round_2.png[설명선 번호 2]
+ a| 
+** 동일한 방향으로 교체용 DIMM을 삽입할 수 있도록 소켓에 DIMM의 방향을 기록해 둡니다.
+** DIMM 슬롯의 양쪽 끝에 있는 DIMM 이젝터 탭 2개를 천천히 밀어 결함이 있는 DIMM을 꺼냅니다.
+
+
+
+IMPORTANT: DIMM 회로 보드 구성 요소에 압력이 가해질 수 있으므로 모서리 또는 가장자리로 DIMM을 조심스럽게 잡습니다.
+
+
+
+ a| 
+image::../media/icon_round_3.png[설명선 번호 3]
+ a| 
+DIMM을 들어올려 슬롯에서 꺼냅니다.
+
+이젝터 탭이 열린 위치에 있습니다.
+
+|===
+. DIMM을 교체합니다.
++
+.. 정전기 방지 포장용 백에서 교체용 DIMM을 꺼냅니다.
+.. DIMM의 모서리를 잡은 다음 DIMM을 슬롯에 똑바로 삽입합니다.
++
+DIMM 하단의 노치가 핀에서 슬롯의 탭과 정렬되어야 합니다.
+
++
+올바르게 삽입되면 DIMM은 쉽게 장착되지만 슬롯에 단단히 고정되어야 합니다. 그렇지 않은 경우 DIMM을 재장착합니다.
+
+.. 이젝터 탭이 DIMM 양쪽 끝의 노치 위에 걸릴 때까지 DIMM의 상단 가장자리를 조심스럽게 누르십시오.
+
+
+. NSM 덮개를 닫고 나비 나사를 조입니다.
+. NSM을 선반에 삽입합니다.
++
+image::../media/drw_g_and_t_handles_reinstall_ieops-1838.svg[NSM를 교체합니다.]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image::../media/icon_round_1.png[설명선 번호 1]
+ a| 
+NSM을 수리하는 동안 NSM 핸들을 똑바로(탭 옆) 돌린 경우 수평 위치로 아래로 돌립니다.
+
+
+
+ a| 
+image::../media/icon_round_2.png[설명선 번호 2]
+ a| 
+NSM의 후면을 선반의 입구에 맞춘 다음 핸들을 사용하여 NSM이 완전히 장착될 때까지 부드럽게 누릅니다.
+
+
+
+ a| 
+image::../media/icon_round_3.png[설명선 번호 3]
+ a| 
+핸들을 똑바로 세운 위치로 돌린 다음 탭으로 제자리에 고정합니다.
+
+|===
+. NSM에 케이블을 다시 연결합니다.
++
+.. 스토리지 케이블을 동일한 8개의 NSM 포트에 다시 연결합니다.
++
+케이블은 커넥터 당김 탭이 위를 향하도록 삽입됩니다. 케이블이 올바르게 삽입되면 딸깍 소리가 나면서 제자리에 고정됩니다.
+
+.. 전원 코드를 전원 공급 장치에 다시 연결한 다음 전원 코드 고정 장치로 전원 코드를 고정합니다.
++
+올바르게 작동하면 전원 공급 장치의 이중 LED가 녹색으로 켜집니다.
+
++
+또한 두 NSM 포트 LNK(녹색) LED가 모두 켜집니다. LNK LED가 켜지지 않으면 케이블을 다시 연결합니다.
+
+
+
+. 장애가 발생한 DIMM 및 쉘프 운영자 디스플레이 패널이 포함된 NSM의 주의(황색) LED가 더 이상 켜지지 않는지 확인합니다.
++
+NSM이 재부팅되면 NSM 주의 LED가 꺼지고 더 이상 DIMM 문제가 감지되지 않습니다. 이 작업은 3~5분 정도 걸릴 수 있습니다.
+
+. NSM이 올바르게 케이블로 연결되었는지 확인하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Config Advisor 실행 중"^] .
++
+케이블 연결 오류가 발생하면 제공된 수정 조치를 따르십시오.
+
+

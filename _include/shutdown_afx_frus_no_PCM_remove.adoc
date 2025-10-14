@@ -1,0 +1,56 @@
+= 
+:allow-uri-read: 
+
+
+손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 컨트롤러를 인수해야 합니다.
+
+.시작하기 전에
+노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
+
+.단계
+. AutoSupport 활성화된 경우 AutoSupport 메시지 명령을 호출하여 자동 케이스 생성을 억제합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
+
++
+다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다.
+
++
+`cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 정상 컨트롤러의 콘솔에서 자동 반환을 비활성화합니다.
++
+`storage failover modify –node local -auto-giveback false`
+
+. 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
++
+[cols="1,2"]
+|===
+| 손상된 컨트롤러가 표시되는 경우... | 그러면... 
+
+
+ a| 
+LOADER 메시지가 표시됩니다
+ a| 
+다음 단계로 이동합니다.
+
+
+
+ a| 
+"기백을 기다리는 중...
+ a| 
+Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
+
+
+
+ a| 
+시스템 프롬프트 또는 암호 프롬프트(시스템 암호 입력)
+ a| 
+정상적인 컨트롤러에서 손상된 컨트롤러를 인계하거나 중지합니다.
+
+`storage failover takeover -ofnode impaired_node_name -halt true`
+
+그만큼 `-halt true` 매개변수를 입력하면 LOADER 프롬프트로 이동합니다.
+
+|===
+

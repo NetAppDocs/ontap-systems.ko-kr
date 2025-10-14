@@ -32,7 +32,7 @@ indexpage:
     - title: AFF A800
       url: "../a800/install-setup.html"
     - title: AFF A900
-      url: "../a900/install_setup.html"
+      url: "../a900/install-setup.html"
   - title: C-Series 시스템을 설치 및 설정합니다
     links:
     - title: AFF C30 및 AFF C60

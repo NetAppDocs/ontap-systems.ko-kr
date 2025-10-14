@@ -1,0 +1,42 @@
+---
+indexpage:
+  title: AFX 스토리지 시스템 유지 관리
+  summary: 장기적인 안정성과 최적의 성능을 보장하려면 AFX 스토리지 시스템의 하드웨어를 유지 관리하세요.
+  keywords: maintain afx 1k
+  lead: 장기적인 안정성과 최적의 성능을 보장하려면 AFX 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지
+    관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.
+  tiles:
+  - title: 핵심 시스템 구성 요소
+    links:
+    - title: 컨트롤러
+      url: "../afx-1k/controller-replace-workflow.html"
+    - title: 섀시
+      url: "../afx-1k/chassis-replace-workflow.html"
+    - title: 시스템 관리 모듈
+      url: "../afx-1k/system-management-replace.html"
+  - title: 메모리 및 저장
+    links:
+    - title: 미디어를 부팅합니다
+      url: "../afx-1k/bootmedia-replace-workflow.html"
+    - title: DIMM
+      url: "../afx-1k/dimm-replace.html"
+    - title: NVRAM
+      url: "../afx-1k/nvram-replace.html"
+    - title: NV 배터리
+      url: "../afx-1k/nvdimm-battery-replace.html"
+  - title: 전력 및 냉각
+    links:
+    - title: 전원 공급 장치
+      url: "../afx-1k/power-supply-replace.html"
+    - title: 팬
+      url: "../afx-1k/fan-replace.html"
+    - title: 실시간 시계 배터리
+      url: "../afx-1k/rtc-battery-replace.html"
+  - title: I/O 및 확장
+    links:
+    - title: I/O 모듈 개요
+      url: "../afx-1k/io-module-overview.html"
+    - title: 입출력 모듈을 추가합니다
+      url: "../afx-1k/io-module-add.html"
+    - title: 입출력 모듈을 교체합니다
+      url: "../afx-1k/io-module-replace.html"

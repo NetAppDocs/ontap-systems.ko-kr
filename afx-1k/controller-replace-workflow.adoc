@@ -1,0 +1,38 @@
+---
+permalink: afx-1k/controller-replace-workflow.html 
+sidebar: sidebar 
+keywords: afx 1k, replace the controller 
+summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거했다가 다시 장착하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 AFX 1K 스토리지 시스템의 컨트롤러 교체를 시작하세요. 
+---
+= 컨트롤러 교체 워크플로 - AFX 1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 구성을 복원하고, 시스템 작동을 확인하여 AFX 1K 스토리지 시스템의 컨트롤러 교체를 시작하세요.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구 사항을 검토하십시오"]
+[role="quick-margin-para"]
+컨트롤러 모듈을 교체하려면 특정 요구 사항을 충족해야 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:controller-replace-move-hardware.html["컨트롤러를 교체합니다"]
+[role="quick-margin-para"]
+손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 모듈로 옮긴 다음, 교체 모듈을 인클로저에 설치하여 컨트롤러를 교체합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:controller-replace-system-config-restore-and-verify.html["시스템 구성을 복원하고 확인합니다"]
+[role="quick-margin-para"]
+교체 컨트롤러의 저수준 시스템 구성을 확인하고 필요한 경우 시스템 설정을 업데이트합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:controller-replace-recable-reassign-disks.html["컨트롤러를 반납합니다"]
+[role="quick-margin-para"]
+스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:controller-replace-restore-system-rma.html["전체 컨트롤러 교체"]
+[role="quick-margin-para"]
+논리 인터페이스(LIF)를 확인하고, 클러스터 상태를 점검하고, 실패한 부분을 NetApp 으로 반환합니다.

@@ -1,0 +1,14 @@
+---
+permalink: nx224/hot-add-drive.html 
+sidebar: sidebar 
+keywords: nx224, shelves, shelf, nx224 shelves, hot-add, drive 
+summary: I/O 작업 중에도 운영 중단 없이 새 드라이브를 전원이 공급되는 쉘프에 추가할 수 있습니다. 
+---
+= 드라이브 핫 추가 - NX224 셸프
+:allow-uri-read: 
+
+
+[role="lead"]
+I/O 작업 중에도 운영 중단 없이 새 드라이브를 전원이 공급되는 쉘프에 추가할 수 있습니다.
+
+NetApp 기술 문서 사용 https://kb.netapp.com/on-prem/ontap/OHW/OHW-KBs/Best_practices_for_adding_disks_to_an_existing_shelf_or_cluster["기존 쉘프 또는 클러스터에 디스크를 추가하는 모범 사례"^].

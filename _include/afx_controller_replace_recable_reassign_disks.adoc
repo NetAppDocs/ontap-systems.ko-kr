@@ -1,0 +1,143 @@
+= 
+:allow-uri-read: 
+
+
+[role="tabbed-block"]
+====
+.암호화 없음
+--
+손상된 컨트롤러를 다시 보관하여 정상 작동으로 되돌립니다.
+
+.단계
+. LOADER 프롬프트에서 다음을 입력하세요.
++
+`boot_ontap`
+
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** _login_prompt가 표시되면 이 섹션 끝에 있는 다음 단계로 이동합니다.
+** 로그인 프롬프트가 나타나지 않으면 <enter> 키를 누르세요. 그래도 프롬프트가 나타나지 않으면 파트너 노드에 로그인하세요.
+
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분간 기다린 다음 장애 조치 및 반환 상태를 확인하세요.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
++
+`storage failover modify -node local -auto-giveback-of true`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+--
+.OKM 암호화
+--
+온보드 암호화를 재설정하고 컨트롤러를 정상 작동 상태로 되돌립니다.
+
+.단계
+. Loader 프롬프트에서 다음을 입력합니다.
++
+`boot_ontap maint`
+
+. Loader 프롬프트에서 ONTAP 메뉴로 부팅하고 `boot_ontap menu` 옵션 10을 선택합니다.
+. OKM 암호를 입력합니다. 이 암호를 고객으로부터 받거나 에 문의할 수 https://support.netapp.com["NetApp 지원"] 있습니다.
++
+
+NOTE: 암호를 묻는 메시지가 두 번 표시됩니다.
+
+. 메시지가 나타나면 백업 키 데이터를 입력합니다.
+. 부팅 메뉴에서 일반 부팅에 대한 옵션을 입력합니다 `1`.
+. 콘솔 케이블을 파트너 노드로 옮기고 다음 로그인을 입력합니다.
++
+`admin`
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage  failover giveback -ofnode impaired-node -only-root true -override-destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분간 기다린 다음 장애 조치 및 반환 상태를 확인하세요.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. 콘솔 케이블을 교체 노드로 옮기고 다음을 입력합니다.
++
+`security key-manager onboard sync`
+
++
+
+NOTE: 클러스터에 대한 OKM의 클러스터 전체 암호를 묻는 메시지가 표시됩니다.
+
+. 다음 명령을 사용하여 키의 상태를 확인합니다.
++
+`security key-manager key query -key-type svm-KEK`
+
++
+restored_column에 _true_를 제외한 내용이 표시되면 에 https://support.netapp.com["NetApp 지원"]문의하십시오.
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
++
+.. HA 상호 연결 링크가 끊어진 경우 자동으로 다시 연결되도록 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+
+
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
++
+`storage failover modify -node local -auto-giveback-of true`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+--
+====

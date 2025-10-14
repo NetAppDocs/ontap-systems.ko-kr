@@ -44,6 +44,39 @@ sidebar:
       - section: c250
       - section: c400
       - section: c800
+  - title: AFX 시스템
+    url: "/afx/index.html"
+    entries:
+    - title: 설치 및 설정
+      url: "/afx/afx-install-setup.html"
+    - title: 유지 관리
+      pdf-filename: AFX 유지
+      url: "/afx-landing-maintain/index.html"
+      entries:
+      - title: 유지 보수 개요
+        url: "/afx-1k/maintain-overview.html"
+      - title: 미디어를 부팅합니다
+        url: "/afx-1k/bootmedia-replace-workflow.html"
+      - title: 섀시
+        url: "/afx-1k/chassis-replace-workflow.html"
+      - title: 컨트롤러
+        url: "/afx-1k/controller-replace-workflow.html"
+      - title: DIMM
+        url: "/afx-1k/dimm-replace.html"
+      - title: 팬
+        url: "/afx-1k/fan-replace.html"
+      - title: NVRAM
+        url: "/afx-1k/nvram-replace.html"
+      - title: NV 배터리
+        url: "/afx-1k/nvdimm-battery-replace.html"
+      - title: 입출력 모듈
+        url: "/afx-1k/io-module-overview.html"
+      - title: 전원 공급 장치
+        url: "/afx-1k/power-supply-replace.html"
+      - title: 실시간 시계 배터리
+        url: "/afx-1k/rtc-battery-replace.html"
+      - title: 시스템 관리 모듈
+        url: "/afx-1k/system-management-replace.html"
   - title: ASA 시스템
     url: "/allsan-landing/index.html"
     entries:
@@ -103,6 +136,7 @@ sidebar:
     url: "/drive-shelves/index.html"
     entries:
     - section: ns224
+    - section: nx224
     - section: sas3
   - title: 캐비닛 및 레일 키트
     entries:

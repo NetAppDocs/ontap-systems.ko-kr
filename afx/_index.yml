@@ -1,0 +1,39 @@
+---
+indexpage:
+  title: AFX 시스템
+  summary: NetApp AFX 스토리지 시스템은 고성능 NAS 및 S3 고객의 고유한 요구 사항에 초점을 맞춘 분산형 하드웨어 및 소프트웨어
+    솔루션입니다. 성능과 확장성은 AI 및 ML 워크로드의 요구 사항을 충족하도록 특별히 설계되었습니다.
+  keywords: afx, afx 1k, install, setup, maintain
+  lead: NetApp AFX 스토리지 시스템은 고성능 NAS 및 S3 고객의 고유한 요구 사항에 초점을 맞춘 분산형 하드웨어 및 소프트웨어 솔루션입니다.
+    성능과 확장성은 AI 및 ML 워크로드의 요구 사항을 충족하도록 특별히 설계되었습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: AFX 스토리지에 대해 알아보세요
+      url: https://docs.netapp.com/us-en/ontap-afx/get-started/ontap-afx-storage.html
+    - title: AFX 시스템 특성
+      url: https://docs.netapp.com/us-en/ontap-afx/get-started/system-design.html
+    - title: AFX 아키텍처
+      url: https://docs.netapp.com/us-en/ontap-afx/get-started/software-architecture.html
+  - title: AFX 설치 및 유지 관리
+    links:
+    - title: AFX 하드웨어 설치
+      url: https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html
+    - title: AFX 하드웨어 유지 관리
+      url: "../afx-landing-maintain/index.html"
+  - title: AFX에서 데이터 관리
+    links:
+    - title: AFX 볼륨 생성
+      url: https://docs.netapp.com/us-en/ontap-afx/manage-data/create-configure-volume.html
+    - title: AFX 볼륨 관리
+      url: https://docs.netapp.com/us-en/ontap-afx/manage-data/manage-volumes.html
+    - title: AFX 버킷 만들기
+      url: https://docs.netapp.com/us-en/ontap-afx/manage-data/create-configure-bucket.html
+  - title: AFX에서 데이터를 보호하고 보안하세요
+    links:
+    - title: 스냅샷을 생성합니다
+      url: https://docs.netapp.com/us-en/ontap-afx/protect-data/create-snapshot.html
+    - title: 스냅샷 복제를 설정합니다
+      url: https://docs.netapp.com/us-en/ontap-afx/protect-data/snapshot-replication.html
+    - title: 유휴 데이터 암호화
+      url: https://docs.netapp.com/us-en/ontap-afx/secure-data/encrypt-data-at-rest.html

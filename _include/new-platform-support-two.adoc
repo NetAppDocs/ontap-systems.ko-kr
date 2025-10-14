@@ -66,9 +66,25 @@ ONTAP 9.7::
 
 
 --
+.AFX 시스템
+--
+AFX 시스템은 AI/ML 애플리케이션을 포함한 고성능 NAS 및 S3 워크로드의 엄격한 요구 사항을 충족하도록 설계된 분산 솔루션을 제공합니다. link:https://docs.netapp.com/us-en/ontap-afx/get-started/ontap-afx-storage.html["AFX 시스템에 대해 자세히 알아보세요"^] .
+
+AFX 시스템은 다음 ONTAP 릴리스부터 지원됩니다.
+
+ONTAP 9.17.1::
++
+--
+* AFX 1K
+
+
+--
+
+
+--
 .ASA r2 시스템
 --
-ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. link:https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html["ASA R2 시스템에 대해 자세히 알아보십시오"]..
+ASA r2 시스템은 SAN 전용 고객의 요구 사항에 맞춰 간소화된 환경을 만드는 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다. link:https://docs.netapp.com/us-en/asa-r2/get-started/learn-about.html["ASA R2 시스템에 대해 자세히 알아보십시오"^] .
 
 ASA R2 시스템은 다음 ONTAP 릴리즈부터 지원됩니다.
 
@@ -193,10 +209,17 @@ ONTAP 9.7::
 --
 .드라이브 쉘프
 --
-드라이브 쉘프는 NetApp AFF, ASA 및 FAS 시스템을 위해 특별히 설계되었으며 디지털 전환 시 필요한 성능, 복원력, 유연성을 제공합니다.
+드라이브 셸프는 NetApp AFF, AFX, ASA 및 FAS 시스템용으로 특별히 설계되었으며 디지털 혁신에 필요한 성능, 복원력 및 유연성을 제공하는 데 도움이 됩니다.
 
 드라이브 쉘프는 다음 ONTAP 릴리즈부터 제공됩니다.
 
+ONTAP 9.17.1::
++
+--
+* AFX 시스템용 NSX224 선반
+
+
+--
 ONTAP 9.16.1::
 +
 --

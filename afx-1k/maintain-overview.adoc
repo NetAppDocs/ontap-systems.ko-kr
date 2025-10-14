@@ -1,0 +1,96 @@
+---
+permalink: afx-1k/maintain-overview.html 
+sidebar: sidebar 
+keywords: afx 1k maintenance, maintenance, repairing a1k, repairing afx 1k, replace afx 1k components, replace afx 1k components 
+summary: 장기적인 안정성과 최적의 성능을 보장하려면 AFX 1K 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다. 
+---
+= AFX 1K 유지보수 절차 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+장기적인 안정성과 최적의 성능을 보장하려면 AFX 1K 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.
+
+유지 관리 절차에서는 AFX 1K 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.
+
+
+
+== 시스템 구성 요소
+
+AFX 1K 스토리지 시스템의 경우 다음 구성 요소에 대한 유지 관리 절차를 수행할 수 있습니다.
+
+[cols="25,65"]
+|===
+
+
+ a| 
+link:bootmedia-replace-workflow.html["미디어를 부팅합니다"]
+ a| 
+부팅 미디어는 시스템이 부팅될 때 사용하는 기본 및 보조 ONTAP 이미지 파일 세트를 저장합니다.
+
+
+
+ a| 
+link:controller-replace-workflow.html["컨트롤러"]
+ a| 
+컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 ONTAP 운영 체제 소프트웨어를 실행합니다.
+
+
+
+ a| 
+link:dimm-replace.html["DIMM"]
+ a| 
+듀얼 인라인 메모리 모듈(DIMM)은 일종의 컴퓨터 메모리입니다. 컨트롤러 마더보드에 시스템 메모리를 추가하기 위해 설치됩니다.
+
+
+
+ a| 
+link:fan-replace.html["팬"]
+ a| 
+팬은 컨트롤러를 냉각시킵니다.
+
+
+
+ a| 
+link:nvram-replace.html["NVRAM 모듈"]
+ a| 
+NVRAM (비휘발성 랜덤 액세스 메모리) 모듈을 사용하면 시스템의 전원이 꺼져도 컨트롤러가 전송 중인 데이터를 보호하고 저장할 수 있습니다.  시스템 ID는 NVRAM 모듈에 저장됩니다.  교체 시, 컨트롤러는 교체 NVRAM 모듈의 새 시스템 ID를 사용합니다.
+
+
+
+ a| 
+link:nvdimm-battery-replace.html["NV 배터리"]
+ a| 
+NV 배터리는 정전 후 전송 중인 데이터가 플래시 메모리로 디스테이징되는 동안 NVRAM 모듈에 전원을 공급하는 역할을 합니다.
+
+
+
+ a| 
+link:io-module-overview.html["입출력 모듈"]
+ a| 
+I/O 모듈(입/출력 모듈)은 컨트롤러와 데이터를 교환해야 하는 여러 장치 또는 시스템 간의 중간 역할을 하는 하드웨어 구성 요소입니다.
+
+
+
+ a| 
+link:power-supply-replace.html["전원 공급 장치"]
+ a| 
+전원 공급 장치는 컨트롤러에 중복 전원을 제공합니다.
+
+
+
+ a| 
+link:rtc-battery-replace.html["실시간 시계 배터리"]
+ a| 
+전원이 꺼져 있는 경우 실시간 클럭 배터리는 시스템 날짜 및 시간 정보를 보존합니다.
+
+
+
+ a| 
+link:system-management-replace.html["시스템 관리 모듈"]
+ a| 
+시스템 관리 모듈은 컨트롤러 또는 시스템 유지 관리를 위해 컨트롤러와 콘솔 또는 랩톱 간에 인터페이스를 제공합니다. 시스템 관리 모듈에는 부팅 매체가 포함되어 있으며 시스템 일련 번호(SSN)가 저장됩니다.
+
+|===

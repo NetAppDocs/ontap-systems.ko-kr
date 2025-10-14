@@ -1,0 +1,31 @@
+---
+permalink: afx-1k/io-module-overview.html 
+sidebar: sidebar 
+keywords: afx 1k, replace io module 
+summary: AFX 1K 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다.  네트워크 기능을 업그레이드하거나 오류가 발생한 모듈을 처리할 때 I/O 모듈을 추가하거나 교체하는 것이 필수적입니다. 
+---
+= I/O 모듈 추가 및 교체 개요 - AFX 1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AFX 1K 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다.  네트워크 기능을 업그레이드하거나 오류가 발생한 모듈을 처리할 때 I/O 모듈을 추가하거나 교체하는 것이 필수적입니다.
+
+AFX 1K 스토리지 시스템에서 오류가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈이나 다른 유형의 I/O 모듈로 교체할 수 있습니다.  빈 슬롯이 있는 시스템에 I/O 모듈을 추가할 수도 있습니다.
+
+* link:io-module-add.html["입출력 모듈을 추가합니다"]
++
+모듈을 추가하면 중복성이 개선되어 하나의 모듈이 고장나도 시스템이 계속 작동할 수 있습니다.
+
+* link:io-module-replace.html["입출력 모듈을 교체합니다"]
++
+장애가 발생한 입출력 모듈을 교체하면 시스템을 최적의 작동 상태로 복구할 수 있습니다.
+
+
+
+.I/O 슬롯 번호 지정
+AFX 1K 컨트롤러의 I/O 슬롯은 다음 그림과 같이 1부터 11까지 번호가 매겨져 있습니다.
+
+image::../media/drw_a1K_back_slots_labeled_ieops-2162.svg[AFX 1K 컨트롤러의 슬롯 번호 매기기]

@@ -1,0 +1,210 @@
+= 
+:allow-uri-read: 
+
+
+스토리지 시스템에 사용 가능한 슬롯이 있는 경우 사용 가능한 슬롯 중 하나에 새 입출력 모듈을 설치합니다. 모든 슬롯이 사용 중인 경우 기존 입출력 모듈을 제거하여 공간을 확보한 다음 새 입출력 모듈을 설치합니다.
+
+.시작하기 전에
+* 확인하다 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^] 새로운 I/O 모듈이 귀하의 스토리지 시스템 및 ONTAP 버전과 호환되는지 확인하세요.
+* 여러 슬롯을 사용할 수 있는 경우 에서 슬롯 우선 순위를 확인합니다 https://hwu.netapp.com/["NetApp Hardware Universe를 참조하십시오"^] 입출력 모듈에 사용할 수 있는 최상의 모듈을 사용하십시오.
+* 다른 모든 구성 요소가 제대로 작동하는지 확인합니다.
+* NetApp 에서 받은 교체 구성 요소가 있는지 확인하세요.
+
+
+[role="tabbed-block"]
+====
+.사용 가능한 슬롯에 입출력 모듈을 추가합니다
+--
+사용 가능한 슬롯이 있는 스토리지 시스템에 새 입출력 모듈을 추가할 수 있습니다.
+
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.
+. 캐리어에서 타겟 슬롯 블랭킹 모듈을 탈거하십시오.
++
+.. 대상 슬롯에서 블랭킹 모듈의 캠 래치를 누르십시오.
+.. 캠 래치를 모듈에서 최대한 멀리 돌립니다.
+.. 캠 레버 입구에 손가락을 넣고 엔클로저 밖으로 모듈을 당겨 엔클로저에서 모듈을 분리합니다.
+
+
+. 입출력 모듈을 설치합니다.
++
+.. I/O 모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.
+.. 모듈을 인클로저 끝까지 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.
+
+
+. 지정된 장치에 입출력 모듈을 케이블로 연결합니다.
++
+
+NOTE: 사용하지 않는 I/O 슬롯에 열 문제가 발생하지 않도록 보호물이 설치되어 있는지 확인합니다.
+
+. 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+. Loader 프롬프트에서 노드를 재부팅합니다.
++
+`bye`
+
++
+
+NOTE: 그러면 I/O 모듈 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** _로그인_ 프롬프트가 표시되면 다음 단계로 넘어가세요.
+** 로그인 프롬프트가 보이지 않으면 파트너 노드에 로그인하세요.
+
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 컨트롤러 B에 대해 이 단계를 반복합니다
+. 정상 상태의 노드에서 자동 반환을 해제한 경우 복원합니다.
++
+`storage failover modify -node local -auto-giveback-of _true_`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+--
+.완전히 채워진 시스템에 입출력 모듈을 추가합니다
+--
+기존 입출력 모듈을 제거하고 새 입출력 모듈을 설치하여 완전히 채워진 시스템에 입출력 모듈을 추가할 수 있습니다.
+
+.이 작업에 대해
+완전히 채워진 시스템에 새 입출력 모듈을 추가하기 위한 다음 시나리오를 이해해야 합니다.
+
+[cols="1,2"]
+|===
+| 시나리오 | 작업이 필요합니다 
+
+
+ a| 
+NIC-NIC(동일한 포트 수)
+ a| 
+LIF는 컨트롤러 모듈이 종료되면 자동으로 마이그레이션됩니다.
+
+
+
+ a| 
+NIC-NIC(포트 수가 다름)
+ a| 
+선택한 LIF를 다른 홈 포트에 영구적으로 재할당합니다. 자세한 내용은 을 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^] 참조하십시오.
+
+
+
+ a| 
+스토리지 입출력 모듈에 대한 NIC
+ a| 
+에 설명된 대로 System Manager를 사용하여 LIF를 다른 홈 포트로 영구적으로 마이그레이션합니다 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html["LIF 마이그레이션"^].
+
+|===
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 대상 I/O 모듈의 케이블을 뽑습니다.
+. 케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.
+. 섀시에서 대상 I/O 모듈을 분리합니다.
++
+.. 캠 래치 버튼을 누릅니다.
+.. 캠 래치를 모듈에서 최대한 멀리 돌립니다.
+.. 캠 레버 입구에 손가락을 넣고 엔클로저 밖으로 모듈을 당겨 엔클로저에서 모듈을 분리합니다.
++
+입출력 모듈이 있던 슬롯을 추적해야 합니다.
+
+
+
+. I/O 모듈을 엔클로저의 대상 슬롯에 설치합니다.
++
+.. 모듈을 인클로저 슬롯 입구의 가장자리에 맞춥니다.
+.. 모듈을 인클로저 끝까지 슬롯에 부드럽게 밀어 넣은 다음 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.
+
+
+. 지정된 장치에 입출력 모듈을 케이블로 연결합니다.
+. 제거 및 설치 단계를 반복하여 컨트롤러의 추가 모듈을 교체합니다.
+. 케이블 관리 트레이를 닫힘 위치까지 돌립니다.
+. LOADER 프롬프트에서 컨트롤러를 재부팅합니다. _ bye _
++
+이렇게 하면 PCIe 카드 및 기타 구성 요소가 다시 초기화되고 노드가 재부팅됩니다.
+
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** _로그인_ 프롬프트가 표시되면 다음 단계로 넘어가세요.
+** 로그인 프롬프트가 보이지 않으면 파트너 노드에 로그인하세요.
+
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분 동안 기다린 다음 페일오버 상태와 반환 상태를 확인합니다.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+`storage failover giveback -ofnode impaired_node_name`
+
+. 비활성화된 경우 자동 반환 활성화:
++
+`storage failover modify -node local -auto-giveback-of true`
+
+. 다음 중 하나를 수행합니다.
++
+** 스토리지 I/O 모듈을 제거하고 새 NIC I/O 모듈을 설치한 경우 각 포트에 대해 다음 네트워크 명령을 사용하세요.
++
+`storage port modify -node <node name>__ -port <port name>__ -mode network`
+
+** NIC I/O 모듈을 제거하고 스토리지 I/O 모듈을 설치한 경우 설명된 대로 NX224 선반을 설치하고 케이블로 연결하십시오.link:../nx224/hot-add-shelf.html["핫애드 NX224 선반"] .
+
+
+. 컨트롤러 B에 대해 이 단계를 반복합니다
+
+
+--
+====

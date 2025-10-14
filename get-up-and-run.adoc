@@ -21,28 +21,11 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 [role="quick-margin-para"]
 랙 또는 캐비닛에 스위치를 설치합니다. 스위치 모델에 대한 다음 지침을 참조하십시오.
 
-[role="quick-margin-para"]
-** 클러스터 스위치**
-
 [role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/install-hardware-bes53248.html["BES-53248 스위치를 설치합니다"^]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/install-switch-9336c-cluster.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"^]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-cluster.html["NVIDIA SN2100 스위치를 설치합니다"^]
-
-
-[role="quick-margin-para"]
-** 스토리지 스위치**
-
-[role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/install-9336c-storage.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"^]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100-storage/configure-overview-sn2100-storage.html["NVIDIA SN2100 스위치를 설치합니다"^]
-
-
-[role="quick-margin-para"]
-** 공유 스위치**
-
-[role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/install-9336c-shared.html["Cisco Nexus 9336C-FX2 스위치를 설치합니다"^]있습니다
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/afx/index.html["AFX 스위치"^]
+* link:https://review.docs.netapp.com/us-en/ontap-systems-switches/cluster/index.html["클러스터 스위치"^]
+* link:https://review.docs.netapp.com/us-en/ontap-systems-switches/storage/index.html["스토리지 스위치"^]
+* link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/install-9336c-shared.html["공유 스위치"^]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 스토리지 시스템 및 스토리지 쉘프를 설치합니다
@@ -52,7 +35,8 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 [role="quick-margin-list"]
 * link:aff-landing/index.html["AFF 시스템"]
 * link:allsan-landing/index.html["ASA 시스템"]
-* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2 시스템"]
+* link:https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html["AFX 시스템"]
+* https://docs.netapp.com/us-en/asa-r2/install-setup/install-setup-workflow.html["ASA r2 시스템"]
 * link:fas/index.html["FAS 시스템"]
 
 
@@ -65,6 +49,6 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 컨트롤러와 스위치를 설치하고 설정한 후에는 ONTAP에서 스토리지 구성을 완료해야 합니다. 배포 구성에 따라 다음 지침에 액세스합니다.
 
 [role="quick-margin-list"]
-* ONTAP 배포의 경우 를 참조하십시오 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["ONTAP를 구성합니다"].
-* MetroCluster 배포를 지원하는 ONTAP의 경우 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/["ONTAP를 사용하여 MetroCluster를 구성합니다"].
+* ONTAP 배포에 대해서는 다음을 참조하세요. https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["ONTAP를 구성합니다"^] .
+* MetroCluster 배포를 사용한 ONTAP 의 경우 다음을 참조하세요. https://docs.netapp.com/us-en/ontap-metrocluster/["ONTAP를 사용하여 MetroCluster를 구성합니다"^] .
 

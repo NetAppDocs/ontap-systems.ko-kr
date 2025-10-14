@@ -1,0 +1,65 @@
+= 
+:allow-uri-read: 
+
+
+컨트롤러 모듈을 다시 설치하고 부팅합니다.
+
+. 공기 덕트를 끝까지 돌려 완전히 닫혔는지 확인합니다.
++
+컨트롤러 모듈 판금과 수평을 이루어야 합니다.
+
+. 컨트롤러 모듈의 끝을 인클로저의 입구에 맞추고 레버를 시스템 전면에서 돌려 컨트롤러 모듈을 섀시에 밀어 넣습니다.
+. 컨트롤러 모듈이 더 이상 밀지 못하게 되면 팬 아래로 걸쇠가 걸릴 때까지 캠 핸들을 안쪽으로 돌립니다
++
+
+NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 인클로저에 밀어 넣을 때 과도한 힘을 가하지 마십시오.
+
++
+컨트롤러 모듈이 엔클로저에 완전히 장착되는 즉시 부팅을 시작합니다.
+
+. 베젤을 볼 스터드에 맞춘 다음 베젤을 조심스럽게 밀어 넣어 제자리에 고정합니다.
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** 로그인 메시지가 표시되면 다음 단계로 넘어가세요.
+** 로그인 프롬프트가 표시되지 않으면 파트너 노드에 로그인하세요.
+
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분간 기다린 다음 장애 조치 및 반환 상태를 확인하세요.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
++
+`system ha interconnect link on -node healthy-node -link 0`
+
++
+`system ha interconnect link on -node healthy-node -link 1`
+
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
++
+`storage failover modify -node local -auto-giveback-of true`
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제:
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
