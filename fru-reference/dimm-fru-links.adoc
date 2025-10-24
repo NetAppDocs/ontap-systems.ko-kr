@@ -40,6 +40,12 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 DI
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/dimm-replace.html["AFX A1K"]
+
+
+--
 .ASA 시스템
 * link:../asa150/dimm-replace.html["ASA A150"]
 * link:../asa250/dimm-replace.html["ASA A250"]
@@ -66,6 +72,13 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 DI
 * link:../fas8300/dimm-replace.html["FAS8300"]
 * link:../fas9000/dimm-replace.html["FAS9000"]
 * link:../fas9500/dimm_replace.html["FAS9500"]
+
+
+--
+.선반 시스템
+--
+* link:../ns224/service-replace-dimm.html["NS224"]
+* link:../nx224/service-replace-dimm.html["NX224"]
 
 
 --

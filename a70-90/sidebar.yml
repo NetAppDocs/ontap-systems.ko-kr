@@ -2,6 +2,12 @@
 section: a70-90
 title: AFF A70 및 AFF A90 시스템
 entries:
+- title: 개요
+  entries:
+  - title: AFF A70 개요
+    url: "/a70-90/aff-a-series-affa70-overview.html"
+  - title: AFF A90 개요
+    url: "/a70-90/aff-a-series-affa90-overview.html"
 - title: 설치 및 설정
   pdf-filename: AFF A70, AFF A90 설치 및 설정
   entries:
@@ -116,6 +122,6 @@ entries:
 - title: 주요 사양
   entries:
   - title: AFF A70 를 참조하십시오
-    url: a70-key-specifications.html
+    url: "/a70-90/a70-key-specifications.html"
   - title: AFF A90 를 참조하십시오
-    url: a90-key-specifications.html
+    url: "/a70-90/a90-key-specifications.html"

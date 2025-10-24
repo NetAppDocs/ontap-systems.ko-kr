@@ -1,0 +1,18 @@
+---
+sidebar: sidebar 
+permalink: fru-reference/nsm-fru-links.html 
+keywords: NSM, NVMe shelf module, field replaceable units, FRU, NSM replacement 
+summary: 'NetApp 스토리지 쉘프에 대한 NVMe 쉘프 모듈(NSM) 교체 절차를 쉘프 모델별로 정리하여 찾아보세요. 이 참고 자료는 NS224 및 NX224 선반에 대한 단계별 NSM 교체 워크플로에 대한 직접 링크를 제공하여 특정 선반 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.' 
+---
+= 선반 모델에 따른 NSM 교체 절차
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp 스토리지 쉘프에 대한 NVMe 쉘프 모듈(NSM) 교체 절차를 쉘프 모델별로 정리하여 찾아보세요. 이 참고 자료는 NS224 및 NX224 선반에 대한 단계별 NSM 교체 워크플로에 대한 직접 링크를 제공하여 특정 선반 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
+
+* link:../ns224/service-replace-nsm100.html["NS224"]
+* link:../nx224/service-replace-nsm140.html["NX224"]
+

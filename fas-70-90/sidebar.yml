@@ -115,6 +115,6 @@ entries:
 - title: 주요 사양
   entries:
   - title: FAS70를 참조하십시오
-    url: fas70-key-specifications.html
+    url: "/fas-70-90/fas70-key-specifications.html"
   - title: FAS90를 참조하십시오
-    url: fas90-key-specifications.html
+    url: "/fas-70-90/fas90-key-specifications.html"

@@ -48,6 +48,12 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 �
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/bootmedia-replace-workflow.html["AFX A1K"]
+
+
+--
 .ASA 시스템
 --
 * link:../asa150/bootmedia-replace-overview.html["ASA A150 (수동 복구)"]
@@ -85,6 +91,13 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 �
 * link:../fas9000/bootmedia-replace-overview.html["FAS9000 (수동 복구)"]
 * link:../fas9500/bootmedia-replace-workflow-bmr.html["FAS9500 (자동 복구)"]
 * link:../fas9500/bootmedia-replace-workflow.html["FAS9500 (수동 복구)"]
+
+
+--
+.선반 시스템
+--
+* link:../ns224/service-replace-boot-media.html["NS224"]
+* link:../nx224/service-replace-boot-media.html["NX224"]
 
 
 --

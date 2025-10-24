@@ -1,10 +1,10 @@
 ---
 permalink: a400/power-supply-replace.html 
 sidebar: sidebar 
-keywords: aff a400, aff, a400, replace, replacing, power, supply, psu, disconnect, target, psu, unplug, power, cable, removing, remove, replacement, source, replace a power supply 
-summary: '전원 공급 장치 \(PSU\)를 교체하려면 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결해야 합니다.' 
+keywords: aff a400, replace a power supply 
+summary: '전원 공급 장치 교체에는 대상 전원 공급 장치(PSU)를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 전원에 다시 연결하는 작업이 포함됩니다.' 
 ---
-= 전원 공급 장치 교체 - AFF A400
+= 전원 공급 장치 핫스왑 - AFF A400
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,7 +13,7 @@ summary: '전원 공급 장치 \(PSU\)를 교체하려면 대상 PSU를 전원�
 [role="lead"]
 전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결하는 작업이 포함됩니다.
 
-* 전원 공급 장치는 이중화되고 핫 스왑이 가능합니다.
+* 전원 공급 장치는 중복성이 뛰어나고 핫스왑이 가능합니다. PSU를 교체하기 위해 컨트롤러를 끌 필요는 없습니다.
 * 이 절차는 한 번에 하나의 전원 공급 장치를 교체하기 위한 것입니다.
 +
 

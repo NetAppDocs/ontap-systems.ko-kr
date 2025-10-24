@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, replace, power, supply, psu, disconnect, source, cable, install, reconnect 
 summary: '전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결하는 작업이 포함됩니다.' 
 ---
-= 전원 공급 장치 교체 - FAS8300 및 FAS8700
+= 전원 공급 장치 핫스왑 - FAS8300 및 FAS8700
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

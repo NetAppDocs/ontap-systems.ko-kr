@@ -25,6 +25,12 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템에 �
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/nvdimm-battery-replace.html["AFX A1K"]
+
+
+--
 .ASA 시스템
 --
 * link:../asa400/nvdimm-replace.html["ASA A400"]

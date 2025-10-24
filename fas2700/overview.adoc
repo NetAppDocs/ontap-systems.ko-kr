@@ -1,6 +1,7 @@
 ---
 permalink: fas2700/overview.html 
 sidebar: sidebar 
+keywords: FAS2700 specifications, FAS2700 specs, NetApp FAS2700, FAS2700 hardware 
 summary: FAS2700 플랫폼 그룹의 주요 사양 
 ---
 = FAS2750 의 주요 사양
@@ -109,5 +110,5 @@ summary: FAS2700 플랫폼 그룹의 주요 사양
 * 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스
 * 중복 핫스왑 가능 컨트롤러
 * 중복 핫스왑 가능 전원 공급 장치
-* 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리
+* 외부 셸프에 대한 SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357
 

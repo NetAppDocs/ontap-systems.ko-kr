@@ -8,18 +8,18 @@ indexpage:
   - title: ASA r2 A1K
     links:
     - title: 주요 사양
-      url: asa-r2-a1k-key-specifications.html
+      url: asa-a1k-key-specifications.html
   - title: ASA r2 A70 및 ASA r2 A90
     links:
     - title: 주요 사양(A70)
-      url: asa-r2-70-90/asa-a-series-asaa70-overview.html
+      url: asa-a70-key-specifications.html
     - title: 주요 사양(A90)
-      url: asa-r2-70-90/asa-a-series-asaa90-overview.html
+      url: asa-a90-key-specifications.html
   - title: ASA r2 A20, A30 및 A50
     links:
     - title: 주요 사양(A20)
-      url: asa-r2-a20-30-50/asa-a-series-asaa20-overview.html
+      url: asa-a20-key-specifications.html
     - title: 주요 사양(A30)
-      url: asa-r2-a20-30-50/asa-a-series-asaa30-overview.html
+      url: asa-a30-key-specifications.html
     - title: 주요 사양(A50)
-      url: asa-r2-a20-30-50/asa-a-series-asaa50-overview.html
+      url: asa-a50-key-specifications.html

@@ -1,6 +1,7 @@
 ---
-permalink: /fas8300/fas8700-key-specifications.html 
+permalink: fas8300/fas8700-key-specifications.html 
 sidebar: sidebar 
+keywords: FAS8700 specifications, FAS8700 specs, FAS8700 capacity, FAS8700 memory, FAS8700 I/O, FAS8700 compliance 
 summary: FAS8700 의 주요 사양 
 ---
 = FAS8700 의 주요 사양
@@ -114,5 +115,5 @@ summary: FAS8700 의 주요 사양
 * 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스
 * 중복 핫스왑 가능 컨트롤러
 * 중복 핫스왑 가능 전원 공급 장치
-* 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리
+* 외부 셸프에 대한 SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357
 

@@ -25,6 +25,12 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 I/
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/io-module-replace.html["AFX A1K"]
+
+
+--
 .ASA 시스템
 --
 * link:../asa-r2-a1k/io-module-replace.html["ASA A1K 를 참조하십시오"]
@@ -38,6 +44,13 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 I/
 --
 * link:../fas50/io-module-replace.html["FAS50를 참조하십시오"]
 * link:../fas-70-90/io-module-replace.html["FAS70/90"]
+
+
+--
+.선반 시스템
+--
+* link:../ns224/service-replace-io-module.html["NS224"]
+* link:../nx224/service-replace-io-module.html["NX224"]
 
 
 --

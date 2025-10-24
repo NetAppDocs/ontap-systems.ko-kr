@@ -1,6 +1,7 @@
 ---
 permalink: a20-30-50/overview.html 
 sidebar: sidebar 
+keywords: AFF A20 A30 A50 specifications, AFF A20 A30 A50 specs, AFF A20 A30 A50 capacity, AFF A20 A30 A50 memory, AFF A20 A30 A50 I/O, AFF A20 A30 A50 compliance 
 summary: A20-30-50 플랫폼 그룹의 주요 사양 
 ---
 = A20-30-50 플랫폼 그룹의 주요 사양
@@ -286,6 +287,7 @@ CIFS; FC; iSCSI; NFS v3; NFS v4.0; NFS v4.1; NFS v4.2; NVMe/FC; NVMe/TCP; S3; NA
 
 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리;
 
+ [//] 2025-10-15 ontap-systems-internal/issues/1357
 
 
 == AFF A30 를 참조하십시오

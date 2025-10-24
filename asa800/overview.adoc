@@ -1,7 +1,8 @@
 ---
 permalink: asa800/overview.html 
 sidebar: sidebar 
-summary: ASA800 플랫폼 그룹의 주요 사양 
+keywords: ASA A800 specifications, ASA A800 specs, NetApp ASA A800, ASA A800 hardware 
+summary: ASA A800 스토리지 시스템의 주요 사양 
 ---
 = ASA A800 의 주요 사양
 :allow-uri-read: 
@@ -10,71 +11,126 @@ summary: ASA800 플랫폼 그룹의 주요 사양
 
 
 [role="lead"]
-다음은 단일 고가용성 쌍의 ASA A800 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.
+다음은 ASA A800 의 선택 사양입니다.  방문하다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] ASA A800 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.
 
 
 
-== ASA A800 의 주요 사양
+=== ASA A800 의 주요 사양
 
-* 플랫폼 구성: ASA A800 단일 섀시 HA 쌍
-* 최대 원시 용량: 6.6096PB
-* 메모리: 1280.0000GB
-* 폼 팩터: 2개의 HA 컨트롤러와 48개의 드라이브 슬롯이 있는 4U 섀시
-* ONTAP 버전: ONTAP: 9.16.1P2
-* PCIe 확장 슬롯: 10개
-* 최소 ONTAP 버전: ONTAP 9.13.1 == 확장 최대값
-* 유형: NAS
-* 유형: SAN; HA 쌍: 6; 원시 용량: 39.7PB / 35.2PiB; 최대 메모리: 7680GB
-* 유형: HA 쌍; 원시 용량: 6.6PB / 5.9PiB; 최대 메모리: 1280.0000
+플랫폼 구성: ASA A800 단일 섀시 HA 쌍
 
+최대 원시 용량: 6.6096PB
 
+메모리: 1280.0000GB
 
+폼 팩터: 2개의 HA 컨트롤러와 48개의 드라이브 슬롯이 있는 4U 섀시
 
-== 입출력
+ONTAP 버전: b_startONTAP: 9.16.1P2b_end
+
+PCIe 확장 슬롯: 10개
+
+최소 ONTAP 버전: ONTAP 9.13.1
 
 
 
-=== 온보드 I/O
+=== 스케일아웃 최대값
 
-* 프로토콜: 이더넷 100Gbps; 포트: 4개
-
-
+|===
 
 
-=== 총 I/O
-
-* 프로토콜: 이더넷 100Gbps; 포트: 20
-* 프로토콜: 이더넷 25Gbps; 포트: 16
-* 프로토콜: 이더넷 10Gbps; 포트: 32
-* 프로토콜: FC 32Gbps; 포트: 32
-* 프로토콜: NVMe/FC 32Gbps; 포트: 32
-* 포트: 0
-* 포트: 0
-* 프로토콜: SAS 12Gbps; 포트: 32
+| 유형 | HA 쌍 | 원시 용량 | 최대 메모리 
 
 
+| NAS |  |  |  
 
 
-=== 관리 포트
+| SAN | 6 | 39.7PB / 35.2PiB | 7680GB 
 
-* 프로토콜: 이더넷 1Gbps; 포트: 4개
-* 프로토콜: RS-232 115Kbps; 포트: 4
-* 프로토콜: USB 12Mbps; 포트: 4개
+
+| HA 쌍 |  | 6.6페타바이트 / 5.9파이바이트 | 1280.0000 
+|===
+
+
+=== 아이오
 
 
 
+==== 온보드 IO
 
-== 스토리지 네트워킹 지원
-
-* FC
-* iSCSI
-* NVMe/FC
-* NVMe/TCP == 시스템 환경 사양 환경 데이터가 없습니다.
+|===
 
 
+| 규약 | 포트 
 
 
-== 규정 준수
+| 이더넷 100Gbps | 4 
+|===
+
+
+==== 총 IO
+
+|===
+
+
+| 규약 | 포트 
+
+
+| 이더넷 100Gbps | 20 
+
+
+| 이더넷 25Gbps | 16 
+
+
+| 이더넷 10Gbps | 32 
+
+
+| FC 32Gbps | 32 
+
+
+| NVMe/FC 32Gbps | 32 
+
+
+|  | 0 
+
+
+|  | 0 
+
+
+| SAS 12Gbps | 32 
+|===
+
+
+==== 관리 포트
+
+|===
+
+
+| 규약 | 포트 
+
+
+| 이더넷 1Gbps | 4 
+
+
+| RS-232 115Kbps | 4 
+
+
+| USB 12Mbps | 4 
+|===
+
+
+=== 스토리지 네트워킹 지원
+
+FC; iSCSI; NVMe/FC ; NVMe/TCP;
+
+
+
+=== 시스템 환경 사양
+
+환경 데이터가 없습니다.
+
+
+
+=== 규정 준수
 
 * 인증 EMC/EMI: AMCA, FCC, ICES, KC, 모로코, VCCI
 * 인증 안전: BIS, CB, CSA, G_K_U-SoR, IRAM, NOM, NRCS, SONCAP, TBS
@@ -86,10 +142,6 @@ summary: ASA800 플랫폼 그룹의 주요 사양
 
 
 
-== 고가용성
+=== 고가용성
 
-* 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스
-* 중복 핫스왑 가능 컨트롤러
-* 중복 핫스왑 가능 전원 공급 장치
-* 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리
-
+이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리; [//] 2025-10-15 ontap-systems-internal/issues/1357

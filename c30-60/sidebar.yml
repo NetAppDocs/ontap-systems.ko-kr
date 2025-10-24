@@ -2,6 +2,8 @@
 section: c30-60
 title: AFF C30 및 AFF C60 시스템
 entries:
+- title: 개요
+  url: "/c30-60/overview.html"
 - title: 설치 및 설정
   pdf-filename: AFF C30 및 AFF C60 설치 및 설정
   entries:
@@ -112,6 +114,6 @@ entries:
 - title: 주요 사양
   entries:
   - title: AFF C30 를 참조하십시오
-    url: c30-key-specifications.html
+    url: "/c30-60/c30-key-specifications.html"
   - title: AFF C60 를 참조하십시오
-    url: c60-key-specifications.html
+    url: "/c30-60/c60-key-specifications.html"

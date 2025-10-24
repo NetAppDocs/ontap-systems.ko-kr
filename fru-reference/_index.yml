@@ -48,6 +48,8 @@ indexpage:
       url: "/drive-fru-links.html"
     - title: 캐싱 모듈 교체 절차
       url: "/caching-module-fru-links.html"
+    - title: NSM 교체 절차
+      url: "/nsm-fru-links.html"
   - title: 시스템 배터리 및 표시등
     links:
     - title: NVMEM/ NVRAM 배터리 교체 절차

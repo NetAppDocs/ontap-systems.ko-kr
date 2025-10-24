@@ -1,6 +1,7 @@
 ---
 permalink: a900/overview.html 
 sidebar: sidebar 
+keywords: AFF A900 specifications, AFF A900 specs, NetApp AFF A900, AFF A900 hardware 
 summary: A900 플랫폼 그룹의 주요 사양 
 ---
 = AFF A900 의 주요 사양
@@ -111,5 +112,5 @@ summary: A900 플랫폼 그룹의 주요 사양
 * 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스
 * 중복 핫스왑 가능 컨트롤러
 * 중복 핫스왑 가능 전원 공급 장치
-* SAS 연결을 통한 SAS 인밴드 관리
+* SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357
 

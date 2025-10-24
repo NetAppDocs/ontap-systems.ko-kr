@@ -26,6 +26,12 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 NV
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/nvram-replace.html["AFX A1K"]
+
+
+--
 .ASA 시스템
 --
 * link:../asa900/nvram_module_or_nvram_dimm_replacement.html["ASA A900"]

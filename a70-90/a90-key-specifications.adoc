@@ -1,6 +1,7 @@
 ---
-permalink: a90-key-specifications.html 
+permalink: a70-90/a90-key-specifications.html 
 sidebar: sidebar 
+keywords: AFF A90 specifications, AFF A90 specs, AFF A90 capacity, AFF A90 memory, AFF A90 I/O, AFF A90 compliance 
 summary: AFF A90 의 주요 사양 
 ---
 = AFF A90 의 주요 사양
@@ -114,5 +115,5 @@ summary: AFF A90 의 주요 사양
 * 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스
 * 중복 핫스왑 가능 컨트롤러
 * 중복 핫스왑 가능 전원 공급 장치
-* 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리
+* 외부 셸프에 대한 SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357
 

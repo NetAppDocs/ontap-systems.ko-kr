@@ -2,6 +2,8 @@
 section: a20-30-50
 title: AFF A20, AFF A30 및 AFF A50 시스템
 entries:
+- title: 개요
+  url: "/a20-30-50/overview.html"
 - title: 설치 및 설정
   pdf-filename: AFF A20, AFF A30 및 AFF A50 설치 및 설정
   entries:
@@ -112,8 +114,8 @@ entries:
 - title: 주요 사양
   entries:
   - title: AFF A20 를 참조하십시오
-    url: a20-key-specifications.html
+    url: "/a20-30-50/a20-key-specifications.html"
   - title: AFF A30 를 참조하십시오
-    url: a30-key-specifications.html
+    url: "/a20-30-50/a30-key-specifications.html"
   - title: AFF A50 를 참조하십시오
-    url: a50-key-specifications.html
+    url: "/a20-30-50/a50-key-specifications.html"

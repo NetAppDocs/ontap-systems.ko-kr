@@ -55,4 +55,11 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 �
 
 
 --
+.선반 시스템
+--
+* link:../ns224/service-replace-drive.html["NS224"]
+* link:../nx224/service-replace-drive.html["NX224"]
+
+
+--
 ====

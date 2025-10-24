@@ -1760,7 +1760,6 @@
   <block id="72bed1a0f807450c817ba40ca198679f" category="list-text">섀시의 HA 상태를 "ha-config modify chassis_HA-state_"로 설정합니다</block>
   <block id="1a3890308672bc09a82a2b01bfd856b6" category="list-text">시스템 앞면에 베젤을 다시 설치합니다.</block>
   <block id="d6cd25c7a2ec0fe6ad8621d4562ce0ae" category="summary">전원 공급 장치 \(PSU\)를 교체하려면 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결해야 합니다.</block>
-  <block id="e944774dbb716679ef719542153680f0" category="doc">전원 공급 장치 교체 - AFF A320</block>
   <block id="f044adaf132925553df56c50232bae8a" category="paragraph">전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결하는 작업이 포함됩니다.</block>
   <block id="76c422e38c98bcea8a54ea2c31b96d23" category="admonition">섀시에서 전원 공급 장치를 분리한 후 2분 이내에 전원 공급 장치를 교체하는 것이 좋습니다. 시스템이 계속 작동하지만 ONTAP에서는 전원 공급 장치를 교체할 때까지 성능이 저하된 전원 공급 장치에 대한 메시지를 콘솔에 보냅니다.</block>
   <block id="bdf78208a16277bdf48a7e0c9bfa97a4" category="list-text">전원 공급 장치를 분리합니다.</block>
@@ -2075,7 +2074,6 @@
   <block id="864c38e2026ab798db96e7d96459d9e2" category="doc">시스템을 재할당하고 디스크를 재할당할 수 있는 AFF A700s를 사용합니다</block>
   <block id="a0d8eae32c5a472f83afef8b93706ea5" category="paragraph">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다. 시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.</block>
   <block id="f99e3c0be135f8d468eda1703b7345f9" category="summary">전원 공급 장치 교체 대상 전원 공급 장치 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등과 관련된 작업을 합니다.</block>
-  <block id="e603d2510eeff2fb744840a8b8277f7c" category="doc">전원 공급 장치 스왑 - AFF A700s</block>
   <block id="25b17a241b7878627647c78d24614092" category="paragraph">전원 공급 장치 교체 대상 전원 공급 장치(PSU) 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등이 포함됩니다.</block>
   <block id="1bdc46934af8b9f35655b38de6850eea" category="list-text">잠금 탭을 누른 상태에서 컨트롤러 모듈에서 전원 공급 장치를 당겨 빼낼 수 있도록 캠 핸들을 돌립니다.</block>
   <block id="1b2219e72635f17b115bf4b878fa99f2" category="paragraph">파란색 전원 공급 장치 잠금 탭</block>
@@ -2457,7 +2455,6 @@
   <block id="936537a41290b6040d5cea518bd8e9f8" category="doc">시스템 구성 복원 및 확인 - AFF A400</block>
   <block id="085d4c339245e025ba9f6a2524c69c57" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 그러면 이전 사이트의 SVM(Sync-Source Storage Virtual Machine\)이 활성 상태이고 로컬 디스크 풀에서 데이터를 제공하는 구성을 정상 운영 상태로 되돌릴 수 있습니다.</block>
   <block id="79cfe080d4a6943442ed3bba2502d8a1" category="doc">2노드 MetroCluster 구성인 AFF A400에서 애그리게이트를 다시 전환합니다</block>
-  <block id="897fb2e62dec5276f207c3447d27e6c4" category="doc">전원 공급 장치 교체 - AFF A400</block>
   <block id="54f4c70c653781a776673e986d65e502" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
   <block id="478fc4fb96b68e7639f1b8b60636da7c" category="doc">NVMEM 배터리-FAS2600을 교체합니다</block>
   <block id="c8ce5afe6808111cafcf57c11a22b941" category="inline-link-macro">AFF FAS2600 NVMEM 배터리 교체 비디오</block>
@@ -2713,7 +2710,6 @@
   <block id="45c8293117e9731c1b2983abd691e338" category="paragraph">팬 모듈을 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.</block>
   <block id="403f4d4be631e5311ef7c1b52afdf039" category="section-title">3단계: 팬을 교체합니다</block>
   <block id="9fc6e6ebb195a8b268f686a0f8256e7b" category="summary">전원 공급 장치를 교체하려면 전원에서 대상 전원 공급 장치를 분리하고 전원 케이블을 분리한 다음 기존 PSU를 분리하고 교체용 PSU를 설치한 다음 다시 전원에 연결해야 합니다.</block>
-  <block id="80185b76790082a23c34d9ebf9a01f7e" category="doc">전원 공급 장치 교체 - AFF A800</block>
   <block id="af9d8ec1fd1a942d04dce1dd9b6787b7" category="paragraph">전원 공급 장치 교체에는 대상 전원 공급 장치(PSU)를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 전원에 다시 연결하는 작업이 포함됩니다.</block>
   <block id="6d3e06f6307975945ccc1b05b8b5460b" category="list-text">콘솔 오류 메시지 또는 전원 공급 장치의 빨간색 오류 LED를 통해 교체할 전원 공급 장치를 식별합니다.</block>
   <block id="889b878f17fd664e744718e80f4d60de" category="doc">장애가 있는 컨트롤러-AFF A300을 종료합니다</block>
@@ -3119,7 +3115,6 @@
   <block id="48e86fa37ff9042482bfe36770e4d6e2" category="list-text">커넥터의 DIMM 이젝터 탭을 열린 위치로 둡니다.</block>
   <block id="43ed6adb7e19c956b260008f811b5750" category="list-text">교체용 DIMM을 슬롯에 똑바로 삽입합니다.</block>
   <block id="dd33af940cfd986282d97dc9269783a9" category="summary">전원 공급 장치를 교체하려면 전원에서 대상 전원 공급 장치 \(PSU\)를 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 다시 전원에 연결해야 합니다.</block>
-  <block id="b122a7303b98280f8acc1bef20b1890d" category="doc">전원 공급 장치 교체 - AFF A250</block>
   <block id="1f684a558f672dca1e5cd104fa082470" category="doc">전체 시스템 복원 - AFF A250</block>
   <block id="d23cbe6becf6b71df8e4c820a09aed00" category="doc">부팅 미디어(AFF A250)를 교체합니다</block>
   <block id="d3756853c8e6da5920108eeb1441fe5d" category="paragraph">부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다.</block>
@@ -3236,7 +3231,6 @@
   <block id="bc6668cc9984ca2f625c085c1e7dbe6c" category="doc">팬 교체 - FAS500f</block>
   <block id="95408ece8c23cd5f2a24760856f4819e" category="paragraph">장애가 발생하면 팬을 새 팬 모듈로 교체합니다.</block>
   <block id="20851709efa205bf63087d09e01725ff" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 팬을 교체할 수 있습니다.</block>
-  <block id="b94c622729a1c3b9f221ed4f8376e65b" category="doc">전원 공급 장치 교체 - FAS500f</block>
   <block id="1661dbd7e15cf50b73ab10b3561b2d66" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
   <block id="13c4db3516e2bb246a5834f3d7814d4f" category="doc">FAN-AFF A900을 맞교환한다</block>
   <block id="cf4805b12d3714cb1c102043670019d7" category="list-text">팬 모듈의 테라코타 단추를 누르고 팬 모듈을 섀시에서 똑바로 당겨 빼냅니다.</block>
@@ -3255,7 +3249,6 @@
   <block id="e52d65661673e0d8112057f135b30a91" category="inline-link">수동 반환 명령</block>
   <block id="85bdc20f7292dbafd4caa42c19f7b123" category="paragraph">자세한 내용은 를 참조하십시오<block ref="fea6157c393b81b627aed2aca6311576" category="inline-link-rx"></block> 거부권을 무효화하기 위한 주제.</block>
   <block id="7be085f8f1dc91cbac9f773985faef24" category="paragraph">자세한 내용은 을 참조하십시오<block ref="4b1c17d30e94cc8d68adcd4265a76547" category="inline-link-rx"></block> 주제.</block>
-  <block id="d35fd8965949830b92555b33686beb19" category="doc">전원 공급 장치를 교체합니다. - AFF A900</block>
   <block id="12ccb6284dde6c218f4afb3d3857d96e" category="list-text">전원 공급 장치 손잡이의 테라 코타 단추를 누른 상태에서 전원 공급 장치를 섀시에서 당겨 꺼냅니다.</block>
   <block id="8b33a6fabc9dc64d006c6243d17ccb18" category="paragraph">주의:</block>
   <block id="055140d300b472c3cf197b316fc1a111" category="doc">전체 시스템 복원 - AFF A900</block>
@@ -3457,7 +3450,6 @@
   <block id="1fc23df34c1ef373bc238879bf1082e5" category="list-text"><block ref="1fc23df34c1ef373bc238879bf1082e5" category="inline-link-macro-rx"></block></block>
   <block id="b8a901030a76c92bf9e4426d81439fa5" category="list-text"><block ref="b8a901030a76c92bf9e4426d81439fa5" category="inline-link-macro-rx"></block></block>
   <block id="e81e65a4f6bbdd26bd0618bcbf34a71d" category="doc">시스템 구성 복원 및 확인 - FAS8300 및 FAS8700</block>
-  <block id="3a08488c499949ce994ce7beebe666ee" category="doc">전원 공급 장치 교체 - FAS8300 및 FAS8700</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="27e4f654e31a54c18c3f94846eb8fcc2" category="inline-link">디스크 쉘프에 대한 고지 사항</block>
   <block id="176cf5dfe0545aace2d630a3f6ef2208" category="summary">시스템 캐비닛 도어 및 측면 패널을 제거하여 조명이 들어오는 배지와 구성 요소를 이동하고 도어를 후진해야 합니다.</block>
@@ -4815,7 +4807,6 @@
   <block id="3f679ad9b20cbb8994ff36e9ce18d58f" category="doc">NVRAM 모듈 및/또는 NVRAM DIMM-FAS9500을 교체합니다</block>
   <block id="140a295824b1023b2fcf1ac1414fc56b" category="paragraph">및 NVRAM DIMM을 교체하려면 NVRAM 모듈을 섀시에서 분리하고 모듈에서 장애가 발생한 DIMM을 교체한 다음 NVRAM 모듈을 다시 설치해야 합니다.</block>
   <block id="821b1e6be57f410ab68ac2071fc04df4" category="doc">NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(FAS9500)을 교체하십시오</block>
-  <block id="1aa73ef56da88752323de5876f9b3750" category="doc">전원 공급 장치 교체 - FAS9500</block>
   <block id="70ebba1c8f978f26a3ed9799176dd8a9" category="doc">컨트롤러 모듈 FAS9500을 교체합니다</block>
   <block id="0b69ae5dbb558a62f47c8962baf19909" category="list-text">시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다<block ref="2a021072247e4cc2397c2bcdaab4e2b0" category="inline-link-rx"></block> 이 절차를 사용해야 하는지 여부를 확인합니다.</block>
   <block id="c60c00789a015e4c8edc176d68ea53c2" category="list-text">이 절차에서는 교체 노드가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치가 손상된 노드에서 교체 노드로 이동됩니다.</block>
@@ -5169,7 +5160,6 @@
   <block id="c2df61cd54941946b9e1d41669228517" category="paragraph"><block ref="c2df61cd54941946b9e1d41669228517" category="inline-link-rx"></block></block>
   <block id="a7d0c7f24713f4f2e4432bb2b91f97d0" category="paragraph"><block ref="a7d0c7f24713f4f2e4432bb2b91f97d0" category="inline-link-rx"></block></block>
   <block id="c4c07270ebbe6cd1bc5aa6f45be76f02" category="video-title">애니메이션 - AFF A150을 설치하고 설정합니다</block>
-  <block id="15bdfa06733933ff3285c6dd92cad9c7" category="doc">전원 공급 장치를 교체합니다. - AFF A150</block>
   <block id="f9195e4f2cbce0b6d30752619eae4687" category="doc">컨트롤러 모듈 하드웨어 AFF A150을 교체합니다</block>
   <block id="890166d65f80913ec2882e814dc85cff" category="doc">컨트롤러 종료 - AFF A150</block>
   <block id="7befdc0c8cc35d0c1711e11bd7feb970" category="list-text">캐싱 모듈의 데이터를 지웁니다.<block ref="6daf7f4112fcf7c7be366c44ff70faf2" prefix=" " category="inline-code"></block></block>
@@ -5197,7 +5187,6 @@
   <block id="5e7787ae07713719c2880dedfbaa61f7" category="doc">시스템 구성 복원 및 확인 - AFF C250</block>
   <block id="2fe38375bb3f7a0d45a583d876016df5" category="doc">DIMM-AFF C250을 교체합니다</block>
   <block id="157f430cb5493d5d45b9bcab28a74c47" category="doc">부팅 미디어(AFF C250)를 교체합니다</block>
-  <block id="9c0f44d79b852189eca9e0c3c970c0ff" category="doc">전원 공급 장치 교체 - AFF C250</block>
   <block id="3801b936526098c0a13cec6739840593" category="doc">시스템을 재할당하고 디스크를 재할당합니다 - AFF C250</block>
   <block id="9173003f27a48b6c3802570ab91f9690" category="summary">이 섹션에서는 AFF C250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.</block>
   <block id="650ebf976037bb8321f0f947063e1da1" category="doc">자세한 단계 - AFF C250</block>
@@ -5224,7 +5213,6 @@
   <block id="a637f1b4c2a1d9b5cb9f0347c7e77539" category="doc">시스템 구성을 복원 및 확인합니다 - AFF C400</block>
   <block id="b1c4aeeae550bfbe7c6574898398d781" category="doc">NVDIMM 배터리를 교체합니다. - AFF C400</block>
   <block id="76f50c3f31d2ab405df556357b00ae41" category="doc">컨트롤러 모듈 교체 개요 - AFF C400</block>
-  <block id="327f4c7d5141a205c506afea880dfdef" category="doc">전원 공급 장치 교체 - AFF C400</block>
   <block id="59278043c69406fc3ad5a92b1268c7a1" category="list-text"><block ref="59278043c69406fc3ad5a92b1268c7a1" category="inline-link-macro-rx"></block></block>
   <block id="207fa20809605ec76418419987911de1" category="list-text"><block ref="207fa20809605ec76418419987911de1" category="inline-link-macro-rx"></block></block>
   <block id="8ec5a018cdb8c2ff183e79e6526679cf" category="list-text"><block ref="8ec5a018cdb8c2ff183e79e6526679cf" category="inline-link-macro-rx"></block></block>
@@ -5248,7 +5236,6 @@
   <block id="311f323a046afbcf6ce4b152ad2dee93" category="list-text">이 절차는 한 번에 하나의 PSU를 교체하는 데 사용됩니다.</block>
   <block id="be0020622e775d64818f3acc7c2d856d" category="admonition">PSU를 섀시에서 분리한 후 2분 이내에 교체하는 것이 좋습니다. 시스템이 계속 작동하지만 ONTAP는 PSU를 교체할 때까지 성능이 저하된 PSU에 대한 메시지를 콘솔에 보냅니다.</block>
   <block id="e5b2987f321084b00bed28fd97c58226" category="paragraph">사용 중인 PSU 유형(AC 또는 DC)에 맞는 절차를 사용하십시오.</block>
-  <block id="f93bc8f892972bb47d2b0ca4cd480fad" category="open-title">옵션 1: AC PSU 교체</block>
   <block id="19a7bfc2c20931ac9f3593ce3f8c7632" category="paragraph">다음 비디오 또는 표 형식 단계를 사용하여 PSU를 교체합니다.</block>
   <block id="a2528ca750816c5cbcc2ab1df78a8eb6" category="video-title">애니메이션 - AC PSU를 교체합니다</block>
   <block id="ba076df359148e35b1b589b37e5d2faa" category="list-text">콘솔 오류 메시지 또는 PSU의 빨간색 오류 LED를 통해 교체할 PSU를 식별합니다.</block>
@@ -5265,7 +5252,6 @@
   <block id="965cc3fcca40fe72903f2bf567787bd9" category="list-text">전원 케이블을 PSU에 다시 연결합니다.</block>
   <block id="774e50999ed71aed779cdb839371a69d" category="list-text">전원 케이블 고정 장치를 사용하여 전원 케이블을 PSU에 고정합니다.</block>
   <block id="eb3ac9b9efdc3a8db20ea72534f74755" category="paragraph">PSU에 전원이 다시 공급되면 상태 LED가 녹색이어야 합니다.</block>
-  <block id="88ff7f55200d397b9c241c6c03ccd6ab" category="open-title">옵션 2: DC PSU 교체</block>
   <block id="6a5cc777b5cea5516ed3c04946243c15" category="paragraph">DC PSU를 교체하려면 다음 단계를 수행하십시오.</block>
   <block id="81118bbf4dc8e737a15cb33e309d5928" category="list-text">플러그의 나비 나사를 사용하여 D-sub DC 전원 케이블 커넥터를 풉니다.</block>
   <block id="a11fffebed2ec4e6399a05866d830825" category="list-text">PSU에서 전원 케이블을 분리하여 따로 보관합니다.</block>
@@ -5345,7 +5331,6 @@
   <block id="e00efce1b44b4a70e33640aa4e4da7ab" category="doc">팬을 교체합니다. - AFF C800</block>
   <block id="7bb5b3f1026a3e755afd3077cd503481" category="doc">NVDIMM 배터리를 교체합니다. - AFF C800</block>
   <block id="47b1e09c5a04b6651d4bc03190565935" category="doc">컨트롤러 모듈 교체 개요 - AFF C800</block>
-  <block id="555193cbb314d41872f483748d489825" category="doc">전원 공급 장치 교체 - AFF C800</block>
   <block id="3898efc1e45ee027e1343af6cd87375e" category="list-text"><block ref="3898efc1e45ee027e1343af6cd87375e" category="inline-link-macro-rx"></block></block>
   <block id="76908712922b1fbfdbdf730f794b109c" category="list-text"><block ref="76908712922b1fbfdbdf730f794b109c" category="inline-link-macro-rx"></block></block>
   <block id="96ec8a0dff9ea2637e9a0469cd7bf45e" category="list-text"><block ref="96ec8a0dff9ea2637e9a0469cd7bf45e" category="inline-link-macro-rx"></block></block>
@@ -6057,7 +6042,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7449f0c5fea223a0e8f25794fa6bfcf2" category="paragraph">새 섀시에 컨트롤러 모듈을 설치한 후 시스템을 부팅해야 합니다.</block>
   <block id="456c80751c3f09b31ee496c3872f0c25" category="paragraph">키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환해야 합니다.</block>
   <block id="8d25d311e353251341d471f4c2d37620" category="section-title">2단계: 장애가 발생한 부품을 NetApp로 되돌립니다</block>
-  <block id="689f5d1d68f65bf1f76cf70ed891009d" category="doc">전원 공급 장치 교체 - ASA A250</block>
   <block id="508de305feb20c63f33ef9eff7de5eb4" category="doc">부팅 미디어(ASA A250)를 교체합니다</block>
   <block id="a4117f1bf6bfe8785548e1e7a31f9864" category="summary">이 절에서는 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.</block>
   <block id="cef403fe8ffcaa9e4b76963ad5fbdfd9" category="doc">상세 단계 - ASA A250</block>
@@ -6138,7 +6122,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6b97317afb01b5239c7991717942bc31" category="doc">컨트롤러 모듈 교체 개요 - AFF A700</block>
   <block id="ceeabc8de1992b857f097aa39825ded7" category="doc">DIMM-AFF A700을 교체합니다</block>
   <block id="b00bdc86703139105ae05ab07b807a6a" category="paragraph">NVDIMM(비휘발성 듀얼 인라인 메모리 모듈)은 휘발성 메모리에서 비휘발성 저장소로 데이터를 전송하고 전원 손실 또는 시스템 종료 시 데이터 무결성을 유지합니다.</block>
-  <block id="53cf1eb17a3e9045dac329b1022412e7" category="doc">전원 공급 장치 스왑 아웃 - AFF A700</block>
   <block id="b5862dffd2a662580b7e6e08646b8a4e" category="doc">컨트롤러 종료 - AFF A700</block>
   <block id="a4a9da0210f62016e71b1c10b9e4c492" category="doc">디스테이지 컨트롤러 전원 모듈(DCPM) - AFF A700을 핫 스왑합니다</block>
   <block id="5b2f7b92c7435bc4b996d69c57391d11" category="doc">손상된 컨트롤러 AFF A700을 종료합니다</block>
@@ -6184,7 +6167,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="caa8aa4a595b6f33857d21fb97a3622e" category="paragraph">이 페이지에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 를 사용합니다 <block ref="0cdb4981396afec17d02c8ce5d1b8e06" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="f0d6a8fa292b0f0965c180c3ec81b98c" category="admonition">ASA A800은 AFF A800 시스템과 동일한 설치 절차를 사용합니다.</block>
   <block id="1809d57833f6aee6ca28a7a9976f3c02" category="doc">SSD 드라이브 또는 HDD 드라이브 교체 - ASA A800</block>
-  <block id="8efb05cbcb76a25c9260967bb6da74ea" category="doc">전원 공급 장치 교체 - ASA A800</block>
   <block id="ab40c87c67587a22552f3f86175f6b6c" category="doc">컨트롤러 교체 - ASA A800</block>
   <block id="3e1e482bf99769f878506ac262ea9469" category="doc">섀시 교체 - ASA A800</block>
   <block id="cf89ec61d7d165d24a4540839ef73f51" category="doc">전체 섀시 교체 - ASA A800</block>
@@ -6211,7 +6193,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7c14198274ad186b196f84339867747a" category="doc">전체 시스템 복원 - FAS9000</block>
   <block id="92106d784bab2c2d0ac64d21da8379b3" category="doc">컨트롤러 모듈 교체 개요 - FAS9000</block>
   <block id="d9f3feb3ff9dd83a5d862eb64cc9a110" category="doc">DIMM-FAS9000을 교체합니다</block>
-  <block id="6a2bdbf29fe66b28017ff3dc4e7ce2b1" category="doc">전원 공급 장치-FAS9000을 바꿉니다</block>
   <block id="7354c77553fbaba43d86f13f4a4b476e" category="doc">FAS9000을 종료합니다</block>
   <block id="74aa9c71bfd41b33dc21e26b67720c49" category="doc">디스테이지 컨트롤러 전원 모듈(DCPM) - FAS9000 핫 스왑</block>
   <block id="14e88a77d6efea55ca64c457b9ab65da" category="doc">손상된 컨트롤러-FAS9000을 종료합니다</block>
@@ -6261,7 +6242,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ae383c4833f526c25894b4e6dec33459" category="paragraph">ASA A900 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="1cf6ac8a974aa424dc7fbb078c513f07" category="doc">실시간 시계 배터리를 교체합니다. - ASA A900</block>
   <block id="0b03535505d87f108fe49abb6aa06130" category="doc">DIMM-ASA A900을 교체합니다</block>
-  <block id="028f92edd9500c0efb168e412294a861" category="doc">전원 공급 장치를 교체합니다. - ASA A900</block>
   <block id="ed6183c79360d84f37e156e80fe33aa6" category="doc">컨트롤러 종료 - ASA A900</block>
   <block id="67bcd92a05c94a3a813d8e595b1f5283" category="doc">전체 시스템 복원 - ASA A900</block>
   <block id="eb192783589d844d1af1ecb849489b22" category="section-title">1단계: 새 컨트롤러에 대한 라이센스를 설치합니다</block>
@@ -6296,7 +6276,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="185d6bc662c8cd2db9d58c8a722d974e" category="paragraph">FAS2700 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="4091c5e7156fea8e74fb2f6ff3fe34fd" category="doc">실시간 시계 배터리 교체 - FAS2700</block>
   <block id="b8e850ed2869826d3faae08f01220ae6" category="doc">DIMM-FAS2700을 교체합니다</block>
-  <block id="de599e8ee2b792a05ff2446e93b3a7e5" category="doc">전원 공급 장치 교체 - FAS2700</block>
   <block id="38b5b8ea2b8764ef3d6b86337c41db64" category="doc">컨트롤러 종료 - FAS2700</block>
   <block id="478014c57de308398851e19e48a955f6" category="summary">시스템을 전체 작업으로 복원하려면 NetApp 스토리지 암호화 구성(필요한 경우)을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 다음 장애가 발생한 부품을 NetApp로 반환해야 합니다.</block>
   <block id="dd3e1b2974ba653fef81686173aafcb6" category="doc">전체 시스템 복원 - FAS2700</block>
@@ -6371,7 +6350,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="76f8020a6c211d0a85b51e324867f828" category="paragraph">ASA A150 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="25e4ca3cea9556bf60cfd34a863bcc83" category="doc">실시간 시계 배터리 ASA A150을 교체합니다</block>
   <block id="b2d9da7407ab97d4d923ee0f45653d7f" category="doc">DIMM-ASA A150을 교체합니다</block>
-  <block id="044e314ccb891749cf1ff6ab7bb779e9" category="doc">전원 공급 장치를 교체합니다. - ASA A150</block>
   <block id="17d46fdea79baa1b0abb75060c4b26eb" category="doc">컨트롤러 종료 - ASA A150</block>
   <block id="15f3dc209220fcd5ed53507c602a5619" category="doc">OKM, NSE 및 NVE-ASA A150을 복원합니다</block>
   <block id="3481ad4d7a2afb32f38e558fa9328a94" category="list-text"><block ref="3481ad4d7a2afb32f38e558fa9328a94" category="inline-link-macro-rx"></block></block>
@@ -6423,7 +6401,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b8a21ef26361bcf497970ad95729f649" category="doc">전체 시스템 복원 - ASA A400</block>
   <block id="b65dcf1c7ad6c86f6d2d5bed4626bcc6" category="doc">빠른 가이드 - ASA A400</block>
   <block id="5eb8101a6e8a2a3f54c56549ab21ade4" category="admonition">ASA A400은 AFF A400 시스템과 동일한 설치 절차를 사용합니다.</block>
-  <block id="b26cf0fc163ec7e9ea966514eed60da1" category="doc">전원 공급 장치 교체 - ASA A400</block>
   <block id="2d7c6c8ec11dfd6f4583d91c8d94d5d0" category="doc">컨트롤러-ASA A400을 교체합니다</block>
   <block id="1952c1c21894126b1d43fd1b446add88" category="doc">섀시 교체 개요 - ASA A400</block>
   <block id="8a5c79d05f266b99fd8b21d069b75d78" category="doc">전체 섀시 교체 - ASA A400</block>
@@ -6657,7 +6634,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="967b266f7bf42739746ff8ee10704ec8" category="doc">전체 시스템 복원 - ASA C400</block>
   <block id="a2e400b53e6df30e6ea808a7a8d9cf03" category="doc">시스템을 재장착하고 디스크를 재할당합니다 - ASA C400</block>
   <block id="d87d17cd765dde0b8f553a33b6d61945" category="doc">하드웨어 교체 - ASA C400</block>
-  <block id="6b6916e7dab19d8ffcd0bc0fa006d0c2" category="doc">전원 공급 장치 장착 - ASA C400</block>
   <block id="d8548c2140dedaa5fc883590a1f7009a" category="doc">실시간 클럭 배터리(ASA C400)를 교체합니다</block>
   <block id="90276cd1568977c0a841334b01c793ee" category="doc">시스템 구성 - ASA C400을 복원하고 확인합니다</block>
   <block id="9f50c74c54d6b3ee3b7485498ed65016" category="doc">복원 및 교체 프로세스 - ASA C400 을 완료합니다</block>
@@ -6686,7 +6662,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e6b4abf5b92977063300e1d579857b79" category="doc">시스템을 재장착하고 디스크를 재할당합니다 - ASA C250</block>
   <block id="12e315d8c52faa94677b1901adfb8eb4" category="doc">하드웨어 교체 - ASA C250</block>
   <block id="e6d96f81a26c1a2a35065ae9c3793837" category="doc">NVMEM 배터리 교체 - ASA C250</block>
-  <block id="5a3293bed167a0eb16f492a5ce0b1ed5" category="doc">전원 공급 장치 교체 - ASA C250</block>
   <block id="7382bde7f210f74c2e89d6849d2c853c" category="doc">실시간 클럭 배터리(ASA C250)를 교체합니다</block>
   <block id="d39ab7984d0a9959c51323b1566d39fd" category="doc">시스템 구성 - ASA C250을 복원하고 확인합니다</block>
   <block id="4011a7882485055cdc06ec93e7092124" category="doc">복원 및 교체 프로세스 - ASA C250을 완료합니다</block>
@@ -6716,7 +6691,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7aceb406cd07b754209377738399299c" category="doc">전체 시스템 복원 - ASA C800</block>
   <block id="7eb1428cde412a152576637c584b14c0" category="doc">시스템을 재장착하고 디스크를 재할당합니다 - ASA C800</block>
   <block id="ea1dc19906ddc0d31254dd6f8ec34328" category="doc">하드웨어 이동 및 교체 - ASA C800</block>
-  <block id="5bb05bb37b0f50f78a66bcb870b4f799" category="doc">전원 공급 장치 교체 - ASA C800</block>
   <block id="bf0c9d599368cd33e5930b660050f4e0" category="doc">실시간 클럭 배터리(ASA C800)를 교체합니다</block>
   <block id="d7839b53c88c4bbaff7e95ac9d3c76fc" category="doc">시스템 구성 - ASA C800을 복원하고 확인합니다</block>
   <block id="cbc21197c1871348bbf882e4a113a8cf" category="doc">복원 및 교체 프로세스 - ASA C800을 완료합니다</block>
@@ -7777,7 +7751,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="807b26d7111f209057a30d265b88f6ae" category="paragraph">I/O 모듈(입/출력 모듈)은 컨트롤러와 데이터를 교환해야 하는 여러 장치 또는 시스템 간의 중간 역할을 하는 하드웨어 구성 요소입니다.</block>
   <block id="517e65cbfa02ca306eec69200485822d" category="paragraph">전원 공급 장치는 컨트롤러에 중복 전원을 제공합니다.</block>
   <block id="f133a8ed8a0b7a76b6c1b28bc00b0fb1" category="doc">NVRAM-AFF A1K을 교체합니다</block>
-  <block id="6794ac4e17218aaa4a21099cb6c428a5" category="doc">전원 공급 장치 교체 - AFF A1K</block>
   <block id="5dae7574a50de0a82f041d98e2b363d4" category="doc">실시간 클럭 배터리(AFF A1K)를 교체합니다</block>
   <block id="6f088e5455bf9d5415570fed055240bc" category="paragraph">AFF A70 및 A90 보관 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="1fba4a247f94ae0adebcaa57fd54e768" category="image-alt">케이블 당김 탭 방향의 예</block>
@@ -8335,7 +8308,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a353ad5d28eb41a61c5aaf6e3cdd653a" category="paragraph">AFF A1K 스토리지 시스템용 랙 하드웨어를 설치한 후 컨트롤러의 네트워크 케이블을 설치하고 컨트롤러와 스토리지 쉘프 간에 케이블을 연결합니다.</block>
   <block id="c4cbbd77402de8c27a0e7a305bcd7a83" category="list-text">컨트롤러 A의 포트 E1A를 컨트롤러 B의 포트 E1A에 연결합니다</block>
   <block id="e2e054e25b28fb3d74a683482ef337a6" category="list-text">컨트롤러 A의 포트 e7a를 컨트롤러 B의 포트 e7a에 연결합니다</block>
-  <block id="b1a78b15892ed366f203ff3009cb08d9" category="admonition">클러스터 및 HA 트래픽에 시스템 성능을 극대화하려면 호스트 네트워크 연결에 포트 e1b 및 e7b 포트를 사용하지 마십시오. 성능을 최대화하려면 별도의 호스트 카드를 사용하십시오.</block>
   <block id="bf419afe8104f0626b8c6f35d7546f54" category="list-text">컨트롤러 A의 포트 E1A와 컨트롤러 B의 포트 E1A를 클러스터 네트워크 스위치 A에 연결합니다</block>
   <block id="cf5e5d4912cff0cbaa590fc1ae9ce6d7" category="list-text">컨트롤러 A의 포트 e7a와 컨트롤러 B의 포트 e7a를 클러스터 네트워크 스위치 B에 연결합니다</block>
   <block id="8bff2f2dabc32a6a40817e91a3008934" category="open-title">옵션 1: NS224 스토리지 쉘프 1개에 연결</block>
@@ -8417,7 +8389,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e78eb711e1e947ddb92f05657d0347d1" category="inline-link-macro">AFF A70 또는 AFF A90 스토리지 시스템 설치를 준비합니다</block>
   <block id="2f2189cfd66651c01e836375bb7f1b05" category="paragraph">하드웨어 요구 사항을 검토한 후<block ref="cee013a212eeca03333769e1fffc4483" category="inline-link-macro-rx"></block></block>
   <block id="45246f3dd0a53426b7b68a7138275eae" category="doc">NV 배터리 - AFF A70 및 AFF A90를 교체합니다</block>
-  <block id="142aed9b4219bef04d9ce41b26e16e98" category="doc">전원 공급 장치 교체 - AFF A70 및 AFF A90</block>
   <block id="09667d54b485aed2ff058a0b9116b943" category="doc">실시간 클럭 배터리(AFF A70 및 AFF A90)를 교체합니다</block>
   <block id="1d04f5bb7d7b81fc8fded3b79cc0c8d3" category="doc">ASA R2 시스템을 설치하고 설정합니다</block>
   <block id="22d05c38a6e8032e35e9ff8d6b826ee0" category="inline-link">ASA R2 시스템 설명서</block>
@@ -8452,7 +8423,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5f402dad935ff3ab451b558b0df9b4f3" category="paragraph">컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 스토리지, I/O 카드를 제어하고 ONTAP 운영 체제 소프트웨어를 실행합니다.</block>
   <block id="33a7e77eb8f382b670aecd2f25304362" category="doc">NV 배터리 - ASA A70 및 ASA A90을 교체하십시오</block>
   <block id="124b0b12b52d6ff2b5c211d8ab2b86c6" category="doc">NVRAM-ASA A70 및 ASA A90을 교체합니다</block>
-  <block id="778b3919afeff8e8a35cc6a213bb7784" category="doc">전원 공급 장치 교체 - ASA A70 및 ASA A90</block>
   <block id="591fbd5c7a0e4469981c4bc0919fffdb" category="doc">실시간 클럭 배터리(ASA A70 및 ASA A90)를 교체합니다</block>
   <block id="77dbbb0add58d8d5b96d74c1b27689bb" category="doc">결함이 있는 부품을 NetApp-ASA A1K으로 반납합니다</block>
   <block id="1c1be2f74300d879eb6d6d09021f9e6f" category="doc">부팅 미디어를 교체합니다. - ASA A1K</block>
@@ -8465,7 +8435,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3f3cad89dab9930e656089557bd4ab26" category="doc">ASA A1K 하드웨어를 유지 관리합니다</block>
   <block id="c0948273a639518682bdf15da7ef7782" category="paragraph">ASA A1K 저장 장치 시스템의 경우 다음 구성 요소에 대한 유지 보수 절차를 수행할 수 있습니다.</block>
   <block id="d40d4bbeff22abe0ae50f578804e3f1d" category="doc">NVRAM-ASA A1K을 교체합니다</block>
-  <block id="8280bf46cc1987c5763fa466b06ce943" category="doc">전원 공급 장치 교체 - ASA A1K</block>
   <block id="53211074b0edd2a1e49952ae0a99c70e" category="doc">실시간 클럭 배터리(ASA A1K)를 교체합니다</block>
   <block id="791c7d7e48c500e265e759e91a1190c4" category="paragraph">다음 시스템, 쉘프 및 스위치는 지정된 ONTAP 버전에서 더 이상 지원되지 않습니다.</block>
   <block id="e039aa1be61543fd84f1c4eb5d3e9f6b" category="section-title">ONTAP 하드웨어 시스템</block>
@@ -8553,7 +8522,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5060dc7c2f8e62d845323bb56c316f67" category="paragraph">하드웨어 요구 사항을 검토한 후<block ref="f9fa58ae9ecc3e85b1db488d30bad78e" category="inline-link-macro-rx"></block></block>
   <block id="3a36e6b466e0265c25d241c486f64e02" category="paragraph">Flash Cache는 최근에 읽은 사용자 데이터와 NetApp 메타데이터의 실시간 지능형 캐싱을 통해 데이터 액세스 속도를 높입니다. 데이터베이스, 이메일, 파일 서비스를 비롯한 랜덤 읽기 집약적인 워크로드에 효과적입니다.</block>
   <block id="c4ed6403201dfa217ff707bb31f7629c" category="doc">NVRAM-FAS70 및 FAS90을 교체합니다</block>
-  <block id="031f9f009940597777a75796e5b17818" category="doc">전원 공급 장치 교체 - FAS70 및 FAS90</block>
   <block id="6edcaa0f49095aafb0fa011d3fa4d4c5" category="doc">실시간 클럭 배터리를 교체합니다. - FAS70 및 FAS90</block>
   <block id="d387637ce68cde3388b8e2a316fb8a4b" category="summary">ONTAP 하드웨어 시스템을 시작하고 실행하려면 ONTAP에서 하드웨어 구성요소를 설치하고, 하드웨어를 연결하고, 스토리지를 구성합니다.</block>
   <block id="b11226c776ec1b74f6a42f871e3194c9" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 스토리지 시스템 및 스토리지 쉘프를 설치합니다</block>
@@ -9449,7 +9417,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="87e83e1392e33b9e82110521a139bad8" category="list-text">NV 배터리를 탈거하십시오.</block>
   <block id="d61cc7e5822a30588ead2cb9b0e8c0d8" category="list-text">교체용 NV 배터리를 장착하십시오.</block>
   <block id="216cd6b3556908b9bf9092308aacc2f2" category="list-text">NV 배터리를 함에 넣습니다.</block>
-  <block id="29e74344b0f8f3bb2a741f7b4a504193" category="paragraph">PSU는 중복되고 핫 스왑이 가능합니다.</block>
   <block id="a9f9d19ee0352e6fe7d4ace8f91528b4" category="list-text">중요: 효율 등급 또는 입력 유형이 다른 PSU를 혼합하지 마십시오. 항상 Like를 사용합니다.</block>
   <block id="f6454949377394cc2236360f10f7e56e" category="list-text">콘솔 오류 메시지 또는 PSU의 빨간색 주의 LED를 통해 결함이 있는 PSU를 식별합니다.</block>
   <block id="6f48d98c2df2386d39c71bc10860a818" category="list-text">전원 코드 고정대를 열어 PSU에서 전원 코드를 뽑은 다음 PSU에서 전원 코드를 뽑습니다.</block>
@@ -9509,7 +9476,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7638bec0a959f7fd0b1433ed8d2deca8" category="list-text">보관 선반(추가 저장 장치를 주문한 경우)</block>
   <block id="4aaf4b6268f5873187a9eb7110d1ec2e" category="list-text">USB-C 직렬 콘솔 케이블</block>
   <block id="8f6507883f353b8fbeb448f5d296b420" category="paragraph">사이트가 스토리지 시스템 사양에 대한 요구 사항을 충족하는지 확인하고 주문한 모든 부품이 있는지 확인한 후에는 스토리지 시스템을 등록해야 합니다.</block>
-  <block id="2ab82a0b93ec71d9918e64fb9b828444" category="list-text">설치할 모든 컨트롤러의 SSN(시스템 일련 번호)을 찾습니다. 일련 번호는 다음 위치에서 찾을 수 있습니다.</block>
   <block id="3db53907b5ca9a298d8e8517cdd30a44" category="list-text">일련 번호는 다음 위치에서 찾을 수 있습니다.</block>
   <block id="3fc885acbf9f3f66cb5fefc99c0d76c6" category="list-text">포장 명세서</block>
   <block id="cf163ceac39b37fd1108b3cf9ff2b719" category="list-text">확인 이메일에 입력합니다</block>
@@ -9707,7 +9673,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="90173eb1ed454afdf58b9269bb20c2b9" category="paragraph">팬은 컨트롤러와 드라이브를 냉각시킵니다.</block>
   <block id="05a221444243ea0ca6f4dad99fe28c6c" category="paragraph">비휘발성 메모리(NV) 배터리는 정전 후 전송 중인 데이터가 플래시 메모리로 디스테이징되는 동안 NVMEM 구성 요소에 전원을 공급하는 역할을 합니다.</block>
   <block id="93cffbd214791f6c73bd02d80e0804ab" category="doc">NV 배터리(AFF A20, AFF A30 및 AFF A50)를 교체합니다</block>
-  <block id="c21a1648c7655abd0241b02472ce577b" category="doc">전원 공급 장치를 교체합니다(AFF A20, AFF A30 및 AFF A50)</block>
   <block id="d04789e64aa71c747fa327e4d399534e" category="doc">실시간 클럭 배터리(AFF A20, AFF A30 및 AFF A50)를 교체합니다</block>
   <block id="4bc0f3e72d6123d7efdfe5948cc79a4c" category="doc">결함이 있는 부품을 NetApp-AFF C30 및 AFF C60로 반환합니다</block>
   <block id="5c067d0c56a9b99bc0f72610745316f6" category="doc">전체 섀시 교체 - AFF C30 및 AFF C60</block>
@@ -10303,7 +10268,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f7505dbf9cbf21226d33ed67b7c926e6" category="doc">하드웨어 유지 관리 개요 - ASA A20, ASA A30 및 ASA A50</block>
   <block id="02cbc9c9b92f52062a793fbc039a7a5f" category="paragraph">ASA A20, ASA A30 및 ASA A50 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="c62c530fe1e7e769964d1cac42c0c1ca" category="doc">NV 배터리(ASA A20, ASA A30 및 ASA A50)를 교체합니다</block>
-  <block id="db9511faddf8c60d659417ec7880bb9b" category="doc">전원 공급 장치를 교체합니다(ASA A20, ASA A30 및 ASA A50)</block>
   <block id="69ddcdcae3c05843aa3be62f304e023b" category="doc">실시간 클럭 배터리(ASA A20, ASA A30 및 ASA A50)를 교체합니다</block>
   <block id="3d68bd292ff38f0f7a42e75bafb71ae7" category="summary">AFF C80 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오. <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block>자세한 내용은 페이지를 참조하십시오.</block>
   <block id="f48200b4fe7f2f013c6d085467e08b85" category="summary">하드웨어 장애 또는 업그레이드에 필요한 경우 AFF C80 시스템의 컨트롤러를 교체합니다. 이 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 시스템을 재부팅하는 작업이 포함됩니다.</block>
@@ -12547,14 +12511,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="810944644ddbd9a71f9a53ebcd73f51d" category="list-text">표준 EMC/EMI: BS-EN-55024, BS-EN55035, CISPR 32, EN55022, EN55024, EN55032, EN55035, EN61000-3-2, EN61000-3-3, FCC Part 15 Class A, ICES-003, KS C 9832, KS C 9835</block>
   <block id="9b3b75c67a53d54bba73c70cd1786aed" category="list-text">표준 안전: ANSI/UL60950-1, ANSI/UL62368-1, BS-EN62368-1, CAN/CSA C22.2 No. 60950-1, CAN/CSA C22.2 No. 62368-1, CNS 14336, EN60825-1, EN62368-1, IEC 62368-1, IEC60950-1, IS 13252(파트 1)</block>
   <block id="520b661a272c9e6f55f469cc9c24193d" category="section-title">고가용성</block>
-  <block id="e447884015fc6cccd73419a58f4a2dc9" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; SAS 연결을 통한 SAS 인밴드 관리;</block>
-  <block id="953484270d99ac98b7edea761c8accc5" category="summary">A150 플랫폼 그룹의 주요 사양</block>
-  <block id="98cf7c8810f9cbc80da978f12dfd11de" category="paragraph">다음은 단일 고가용성 쌍의 AFF A150 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="f5046e4779952c40dda2055325e842f6" category="list-text">ONTAP 버전: ONTAP: 9.16.1P2</block>
-  <block id="f31908f038c51788c271c5c4f452a2f9" category="list-text">최소 ONTAP 버전: ONTAP 9.10.1P12 == 확장 최대값</block>
-  <block id="b88ea7120b8d94ca7802d027ea4ae35d" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 6.6PB / 5.8PiB; 최대 메모리: 768GB</block>
-  <block id="a4e92d69d00158d7ae606a77ce4fd213" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 3.3PB / 2.9PiB; 최대 메모리: 384GB</block>
-  <block id="c00cb3237fcdb94d446acf8665539403" category="list-text">유형: HA 쌍; 원시 용량: 0.5 PB / 0.5 PiB; 최대 메모리: 64.0000</block>
   <block id="014e996a6a164aaf40b8b3e72704fc2e" category="section-title">입출력</block>
   <block id="c9517cd5cbe4fac6d0c526d61f3fcc39" category="section-title">온보드 I/O</block>
   <block id="81754037ddc5b97d9b806acad96f8815" category="list-text">프로토콜: 이더넷 10Gbps; 포트: 12</block>
@@ -12716,11 +12673,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="caee1a6bd998eef961868a45bd4dbc8b" category="list-text">최악의 경우 전력: 3476 BTU/hr</block>
   <block id="7d5423ead4cc9c9c7523162c96b9a70a" category="list-text">무게: 54.3 lbbr/24.6 kg</block>
   <block id="bfb224eca9d5778fa9096edb45c6e0a6" category="list-text">음향 소음: 공표된 음향 전력(LwAd): 7.2;br/음압(LpAm)(방관자 위치): 69.1dB</block>
-  <block id="72c1a142348c9ef5cd0bfa8785831482" category="summary">A250 플랫폼 그룹의 주요 사양</block>
-  <block id="d4ece2dd07e2b088387c9e6101f7374b" category="paragraph">다음은 단일 고가용성 쌍의 AFF A250 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="141231dc194fb8130baba1dedc3a1437" category="list-text">최소 ONTAP 버전: ONTAP 9.8RC1 == 확장 최대값</block>
-  <block id="e09d173ed5c31e4dd78ba88f30e765c1" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 13.2PB / 11.7PiB; 최대 메모리: 1536GB</block>
-  <block id="883fa3568cecac0f4750af6ef669d774" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 6.6PB / 5.9PiB; 최대 메모리: 768GB</block>
   <block id="8620fd4a54bd59df48445495cc60d6a1" category="list-text">유형: HA 쌍; 원시 용량: 1.1 PB / 1.0 PiB; 최대 메모리: 128.0000</block>
   <block id="f350094c762b190b03da78050fac38f6" category="list-text">프로토콜: 이더넷 25Gbps; 포트: 4개</block>
   <block id="ae6233ad0fe7d541d74b7fcbd8e20ee1" category="list-text">프로토콜: 이더넷 10Gbps; 포트: 4개</block>
@@ -12749,17 +12701,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="99190bf361f23d7f60b0311ed65db52c" category="list-text">높이: 4U</block>
   <block id="fd82bddbad5203300e57904c991cb840" category="list-text">깊이: 32.6인치(케이블 관리 브래킷 포함 시 34.7인치)</block>
   <block id="9725247c68aace7973804f231cbdd26b" category="list-text">음향 소음: 공표된 음향 전력(LwAd): 8.5;br/음압(LpAm)(방관자 위치): 67.2dB</block>
-  <block id="2ecaf45e6d941aa8787c5207d6e14cbf" category="summary">A400 플랫폼 그룹의 주요 사양</block>
-  <block id="f0e9d60af7684125f1b3ec54132594db" category="paragraph">다음은 단일 고가용성 쌍의 AFF A400 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="8d6f1126e03ba70819901e3191bf6358" category="list-text">최소 ONTAP 버전: ONTAP 9.7RC1 == 확장 최대값</block>
-  <block id="af08be515a9d4c3e3b541572ab14ca83" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 176.3PB / 156.5PiB; 최대 메모리: 3072GB</block>
-  <block id="93b63827e9f32e325a3be96e3d1d0d01" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 88.1PB / 78.3PiB; 최대 메모리: 1536GB</block>
-  <block id="d9dd3b93e031a157b272db3164ac9cef" category="list-text">유형: HA 쌍; 원시 용량: 14.7PB / 13.0PiB; 최대 메모리: 256.0000</block>
   <block id="603170cd5591c91144ede853fb7004e9" category="list-text">프로토콜: 이더넷 25Gbps; 포트: 12</block>
   <block id="c3346d55fb4bcd313308cf344c3c9956" category="list-text">프로토콜: 이더넷 100Gbps; 포트: 20</block>
   <block id="1f9a9c48fecfca4a044d529a9d033783" category="list-text">프로토콜: 이더넷 10Gbps; 포트: 32</block>
-  <block id="637b290f820eaaf5033dfa8ab5a60528" category="list-text">프로토콜: FC 32Gbps; 포트: 24</block>
-  <block id="53650a5ecd2e7e6bd89acc186768c407" category="list-text">프로토콜: NVMe/FC 32Gbps; 포트: 24</block>
   <block id="4930a203d4d9fe648c8369b3361ea867" category="list-text">프로토콜: SAS 12Gbps; 포트: 32</block>
   <block id="24679701c4662127aa11de2c774f57f7" category="list-text">무게: 110.0파운드 49.9kg</block>
   <block id="f8c2b681f9f457cefef2b7a4d0a49b52" category="list-text">깊이: 32.6인치(케이블 관리 브래킷 포함 시 34.7인치)</block>
@@ -12922,10 +12867,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8d316cb0dd32e6a29db7a99bc113d716" category="paragraph">최소 ONTAP 버전: ONTAP 9.13.1</block>
   <block id="f0ed92d1c0fd3e909c924094a93243f1" category="paragraph">FC; iSCSI; NVMe/TCP;</block>
   <block id="fd49e13a7e97bd8bb1e4c38997b7c545" category="paragraph">환경 데이터가 없습니다.</block>
-  <block id="0e1c2f19527964f6e08154d6482b5e30" category="summary">ASA150 플랫폼 그룹의 주요 사양</block>
-  <block id="4dbc96329d5818883df31ecb13a05ebd" category="paragraph">다음은 단일 고가용성 쌍의 ASA A150 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="541cac174e166b24f88392f26d40f404" category="list-text">최소 ONTAP 버전: ONTAP 9.13.1 == 확장 최대값</block>
-  <block id="18f87be5c5603f09112f8af3908b1280" category="list-text">NVMe/TCP == 시스템 환경 사양 환경 데이터가 없습니다.</block>
   <block id="680d950d544b60547a8bacca951d6718" category="summary">ASA A250 스토리지 시스템의 주요 사양</block>
   <block id="a97c7cd2a22344db01c67b788d791334" category="doc">ASA A250 의 주요 사양</block>
   <block id="20955af66ca82e86dac8266497f64dec" category="paragraph">다음은 ASA A250 의 선택 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> ASA A250 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
@@ -12933,9 +12874,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8a7a6a6e68946412c0d94b0a69520833" category="cell">4.4PB / 3.9PiB</block>
   <block id="adb1577c933e08c5e605d6b3e683d150" category="cell">0.7PB / 0.7파이비</block>
   <block id="1978f393885cf00f05ab1be479828e8f" category="paragraph">FC; iSCSI; NVMe/FC ; NVMe/TCP;</block>
-  <block id="65f5bdc4ea585a25db7e798fe434a135" category="summary">ASA250 플랫폼 그룹의 주요 사양</block>
-  <block id="81dee4edf751df8f6f2a9351c3c1054e" category="paragraph">다음은 단일 고가용성 쌍의 ASA A250 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="a87f27eafdf3369f35e9efc3c479e4f7" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 4.4PB / 3.9PiB; 최대 메모리: 768GB</block>
   <block id="8635c55a722f7078767bf23390e4512b" category="list-text">프로토콜: FC 32Gbps; 포트: 8</block>
   <block id="836d5b409933ca37fd9abb594f9ffa51" category="list-text">프로토콜: NVMe/FC 32Gbps; 포트: 8개</block>
   <block id="1e9ab1ef21b71ca54d8fb332aba59c57" category="summary">ASA A400 스토리지 시스템의 주요 사양</block>
@@ -12943,8 +12881,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="50c7467b088c1359dd4f78f13eee0b4a" category="paragraph">다음은 ASA A400 의 선택 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> ASA A400 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
   <block id="c34e8a3f11aa9b5bf96f8f039946f5ac" category="paragraph">플랫폼 구성: ASA A400 단일 섀시 HA 쌍, 이더넷 번들</block>
   <block id="171ad46774f32c56db17e5cc8a1c27ca" category="list-text">최악의 경우 전력: 5212 BTU/hr</block>
-  <block id="36fb5b627c2dfb6e53810cdd3e6be3f3" category="summary">ASA400 플랫폼 그룹의 주요 사양</block>
-  <block id="1976618cf00c0b6aea89a517e457a8c1" category="paragraph">다음은 단일 고가용성 쌍의 ASA A400 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="65d0afe8c0786bff1dd86021fdc07256" category="summary">ASA A800 스토리지 시스템의 주요 사양</block>
   <block id="59a59c8ca4ad93f3a28d68343d4dc062" category="doc">ASA A800 의 주요 사양</block>
   <block id="263fbe530f95144e2f9fc1764572e731" category="paragraph">다음은 ASA A800 의 선택 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> ASA A800 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
@@ -12952,8 +12888,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9aa49a71aa0866fdf22c763b884cf447" category="cell">39.7PB / 35.2PiB</block>
   <block id="857fbb927f9301cb274cfbbe50576f34" category="cell">7680GB</block>
   <block id="0a74815927318643e615dd9f6d9ef36c" category="cell">1280.0000</block>
-  <block id="580e58da3f4c8c0e004338e2d5463568" category="summary">ASA800 플랫폼 그룹의 주요 사양</block>
-  <block id="06eb93fc791c5a505c106b277c7d4f76" category="paragraph">다음은 단일 고가용성 쌍의 ASA A800 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="1cb06846bf340ec24f77328a4840931c" category="summary">ASA A900 스토리지 시스템의 주요 사양</block>
   <block id="cdca003ab9116f8c6df61f92c170e74f" category="doc">ASA A900 의 주요 사양</block>
   <block id="b9cb6f539efb85bd3dbecb8f63b109da" category="paragraph">다음은 ASA A900 의 선택 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> ASA A900 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
@@ -12964,8 +12898,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d5badd98590f7c8475031c722bee9f13" category="list-text">무게: 220.5 lbbr/100.0 kg</block>
   <block id="d7dbfe33d50154da8ce85d1c1065e7be" category="list-text">깊이: 28.8인치(케이블 관리 브래킷 포함 시 36.8인치)</block>
   <block id="a57159585077204011cc6d81536a227c" category="list-text">음향 소음: 공표된 음향 전력(LwAd): 7.4;br/음압(LpAm)(방관자 위치): 65.0dB</block>
-  <block id="fa224ab2852d40c3701e238592589a35" category="summary">ASA900 플랫폼 그룹의 주요 사양</block>
-  <block id="dae772a251ba6ae7609ce9eb445c4ca7" category="paragraph">다음은 단일 고가용성 쌍의 ASA A900 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="18dc17338011190ae60489762b18bbba" category="summary">AFF C250 저장 시스템의 주요 사양</block>
   <block id="06b4db325464ed97a14422979b4d8924" category="doc">AFF C250 의 주요 사양</block>
   <block id="12dc95d0bc892a4d68c08990a2e0e93f" category="paragraph">다음은 AFF C250 의 일부 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> AFF C250 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
@@ -12975,10 +12907,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ca0c9966bf6d8b13874c9a33d9b103fa" category="cell">8.8페타바이트 / 7.9파이바이트</block>
   <block id="4dfae59c5327b0ed3524f4482c118eaa" category="cell">1.5페타바이트 / 1.3파이바이트</block>
   <block id="acd481bb21a2d48c85590f748324f123" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치;</block>
-  <block id="4f598ad0067992538a9b25a635fd7ebe" category="summary">C250 플랫폼 그룹의 주요 사양</block>
-  <block id="c77413b9effec9f5e6d3543e5e5b357a" category="paragraph">다음은 단일 고가용성 쌍의 AFF C250 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="f15eebaf1ae51e81f921eaf53eb1297d" category="list-text">최소 ONTAP 버전: ONTAP 9.10.1P15 == 확장 최대값</block>
-  <block id="bdf24340dd03a1e6485e317e7694b9b2" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 17.7PB / 15.7PiB; 최대 메모리: 1536GB</block>
   <block id="121ccbb25c187ccfd21ddfb63cddb37b" category="summary">AFF C30의 주요 사양</block>
   <block id="ac83142a3cf60457afcf64302dc699f8" category="paragraph">다음은 단일 고가용성 쌍의 AFF C30 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="bdb291fe6613a36b2df9dcf579e18d44" category="section-title">AFF C30 사양을 한눈에 보기</block>
@@ -13008,9 +12936,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="73378505345b16bafe8e8e0adc36335b" category="cell">2.9페타바이트 / 2.6파이바이트</block>
   <block id="33e75ff09dd601bbe69f351039152189" category="cell">28</block>
   <block id="d645920e395fedad7bbbed0eca3fe2e0" category="cell">40</block>
-  <block id="cc2197d8b97e0d4876bce9bda259529b" category="summary">C400 플랫폼 그룹의 주요 사양</block>
-  <block id="14bd00edae2bf24d6d6bb1e970380fcd" category="paragraph">다음은 단일 고가용성 쌍의 AFF C400 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="e2904e96770de9235975509793655256" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 35.4PB / 31.4PiB; 최대 메모리: 3072GB</block>
   <block id="08bd3bd31dd4639c8d1ce08094a5c7ef" category="summary">AFF C80 저장 시스템의 주요 사양</block>
   <block id="2d33040a8a66f0c30e2c415a9eec7d8d" category="doc">AFF C80의 주요 사양</block>
   <block id="67e389a0ebc658619776b9d5ac7e49d5" category="paragraph">다음은 AFF C80의 일부 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> AFF C80 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
@@ -13025,12 +12950,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4e635c54d834641513e2b2c8e225a127" category="cell">이더넷 200Gbps</block>
   <block id="19ca14e7ea6328a42e0eb13d585e4c22" category="cell">36</block>
   <block id="9f61408e3afb633e50cdf1b20de6f466" category="cell">56</block>
-  <block id="866524d146caf6d5d5ca58414133dfcb" category="summary">C80 플랫폼 그룹의 주요 사양</block>
-  <block id="fc53799482b5c72e371c896c296eeaca" category="paragraph">다음은 단일 고가용성 쌍의 AFF C80 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="790f2f7025a49405ecf494550abd2025" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 176.8PB / 157.0PiB; 최대 메모리: 6144GB</block>
-  <block id="4668001b533dcb01a288e13e438ef996" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 88.4PB / 78.5PiB; 최대 메모리: 3072GB</block>
-  <block id="88fef25d7d076a46933eb5cfece64d7d" category="list-text">유형: HA 쌍; 원시 용량: 14.7PB / 13.1PiB; 최대 메모리: 512.0000</block>
-  <block id="48f850c93d74da66ee33ca24f09bc3d1" category="list-text">SMB 3.1.1 == 시스템 환경 사양 사용 가능한 환경 데이터가 없습니다.</block>
   <block id="c16047b0b69bcd197b44430d6882aab1" category="summary">AFF C800 스토리지 시스템의 주요 사양</block>
   <block id="198b715fa6258cbda0053099c7bc668e" category="doc">AFF C800 의 주요 사양</block>
   <block id="f7695e44bea62e5b28836a193e3bda64" category="paragraph">다음은 AFF C800 의 선택 사양입니다.  방문하다<block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> AFF C800 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
@@ -13040,9 +12959,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="439e4902245729253229992fd0a361ae" category="list-text">무게: 132.5 lbbr/60.1 kg</block>
   <block id="f60520e90b3a6d873ecb44d71d75b734" category="list-text">작동 온도/고도/습도: 5°C ~ 40°Cbr/41°F ~ br/104°F) atbr/= 3048mbr/= 10000 ft) 고도; 8% ~ 90%br/상대 습도, 비응축</block>
   <block id="d5cacbff7b82ab3d26541de685b1a32b" category="list-text">음향 소음: 공표된 음향 전력(LwAd): 8.0;br/음압(LpAm)(방관자 위치): 62.8dB</block>
-  <block id="de73ab042d31fbcaea0758773ba2aed7" category="summary">C800 플랫폼 그룹의 주요 사양</block>
-  <block id="fc95a14b356ccae993f1c5a596003764" category="paragraph">다음은 단일 고가용성 쌍의 AFF C800 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="3a02dddbfe8af1c44ece16bc861685bb" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 88.4PB / 78.5PiB; 최대 메모리: 15360GB</block>
   <block id="8403c0175395ff495c9af55099b8fef4" category="summary">FAS70의 주요 사양</block>
   <block id="c96eb561070b12daad5027ae91335418" category="paragraph">다음은 단일 고가용성 쌍의 FAS70 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="c692e4fa105561892a2a9228b34bffae" category="section-title">FAS70 사양을 한눈에 보기</block>
@@ -13108,12 +13024,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5914ff703c6686a6800588a76dacab74" category="list-text">일반적인 전력: 2319 BTU/hr</block>
   <block id="1c28248d81d6ff87ee55b4eb47056a8c" category="list-text">최악의 경우 전력: 3872 BTU/hr</block>
   <block id="b95d880eb71d3f28802d99353d93f6f0" category="list-text">무게: 52.2파운드/23.7kg</block>
-  <block id="1c52b559c1f437da01a94de79dc7f45c" category="summary">FAS50 플랫폼 그룹의 주요 사양</block>
-  <block id="18f027e2b7707b7ff7767f76d5927af2" category="paragraph">다음은 단일 고가용성 쌍의 FAS50 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
-  <block id="f0a067ccea8b26d0b2f17d9fbdb931ad" category="list-text">유형: NAS; HA 쌍: 4; 원시 용량: 42.2PB / 37.5PiB; 최대 메모리: 512GB</block>
-  <block id="3a0f42ee3e73e3f8370b07da4111f5b5" category="list-text">유형: SAN; HA 쌍: 4; 원시 용량: 42.2PB / 37.5PiB; 최대 메모리: 512GB</block>
-  <block id="2283cd8fe9d3e6788a5f1e28f24f55a4" category="list-text">유형: HA 쌍; 원시 용량: 10.6PB / 9.4PiB; 최대 메모리: 128.0000</block>
-  <block id="656b17c351d41c4973d279414ea79cc9" category="list-text">무게: 52.2파운드 23.7kg</block>
   <block id="c0abf347ba9cbc3892abfa80eb2e4397" category="summary">FAS8300 의 주요 사양</block>
   <block id="e0fa95a49988723bdb3a71e39da9c698" category="paragraph">다음은 단일 고가용성 쌍의 FAS8300 스토리지 시스템에 대한 선택 사양입니다.  이 스토리지 시스템의 전체 사양을 보려면 NetApp Hardware Universe (HWU)를 방문하세요.</block>
   <block id="39d93cb8cb49b1e34ce4682195baa972" category="section-title">FAS8300 사양을 한눈에 보기</block>
@@ -13133,7 +13043,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0d53ee5ca699c3621f3c0a505c890b66" category="list-text">일반적인 전력: 5430 BTU/hr</block>
   <block id="36a13f3d826d9f6cf7fc56d6627d7528" category="list-text">최악의 경우 전력: 5796 BTU/hr</block>
   <block id="d61c7e37be329d2ba5a7e809fb08d9c5" category="list-text">무게: 108.9파운드 49.4kg</block>
-  <block id="e495c9f38a737b6da2117ebaa52ba7ac" category="doc">FAS9500 개요</block>
   <block id="40d3675d7a1ade404a4fdd374833eb73" category="paragraph">플랫폼 구성: FAS9500 단일 섀시 HA 쌍</block>
   <block id="ce98aac2c839cd0ed245c16a1a40165a" category="summary">FAS9500 스토리지 시스템의 주요 사양</block>
   <block id="1ea1a140190bf37eb933a90c35b37442" category="doc">FAS9500 의 주요 사양</block>
@@ -13144,12 +13053,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5d1cd462bd74ff5016c71d1735d844d0" category="cell">90.0 PB / 79.9 PiB</block>
   <block id="6ec20c5ffb71fc8e6407815aba709ebe" category="cell">15.0PB / 13.3PiB</block>
   <block id="e71a112fcba059348a330658e07fff85" category="list-text">작동 온도/고도/습도: 10°C ~ 35°C/50°F ~ 95°F) atbr/= 3048mbr/= 10000 ft) 고도; 8% ~ 90%br/상대 습도, 비응축</block>
-  <block id="fd64ba1b0614f4ffd66207f445196c93" category="summary">FAS9500 플랫폼 그룹의 주요 사양</block>
-  <block id="8d8c60ca9b0b29f222ed76c52c6cf55b" category="list-text">최소 ONTAP 버전: ONTAP 9.10.1P3 == 확장 최대값</block>
-  <block id="014f2208129cdc831cee84fc30f9247f" category="list-text">유형: NAS; HA 쌍: 12; 원시 용량: 180.0 PB / 159.9 PiB; 최대 메모리: 24576 GB</block>
-  <block id="42af051dd0fff696f5ce895c1bb97de4" category="list-text">유형: SAN; HA 쌍: 6; 원시 용량: 90.0PB / 79.9PiB; 최대 메모리: 12288GB</block>
-  <block id="8f449cf0254f2ad40d59dd095542b714" category="list-text">유형: HA 쌍; 원시 용량: 15.0 PB / 13.3 PiB; 최대 메모리: 2048.0000</block>
-  <block id="f931f7d58dafa987aed167fe956586d0" category="list-text">작동 온도/고도/습도: 10°C ~ 35°C 50°F ~ 95°F) 고도 = 3048m = 10000피트; 상대 습도 8% ~ 90%, 비응축</block>
   <block id="65a4d6fcc372057dd61e6cc7abb8c696" category="inline-link-macro">AFF A1K (자동 복구)</block>
   <block id="94bd55fe0571dbfa433cb6e80d3e228b" category="inline-link-macro">AFF A1K (수동 복구)</block>
   <block id="3c9419b0744beccd4fd6272e84be9db0" category="inline-link-macro">AFF A20/30/50(자동 복구)</block>
@@ -14170,7 +14073,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4bf81e37c38393eea22b0e46d9f43158" category="paragraph">FAS50 시스템은 보조 스토리지와 보안 사이버 볼트에 대해 기가바이트당 가장 낮은 비용을 제공하며, 더 빠른 백업, 더 높은 IOPS, 5~10ms의 낮은 지연 시간으로 보조 워크로드에 대한 성능을 향상시킵니다.</block>
   <block id="beb7924c631bd72f6f5181a6a1773865" category="paragraph"><block ref="6fb9af7bf62d637bf3890d9d97180d06" category="inline-link-macro-rx"></block> .</block>
   <block id="7b619a398942b2af52ce099821518739" category="section-title">2024년 출시</block>
-  <block id="e17f7565f95df58a416490dff287f6c1" category="paragraph"><block ref="b5bce7716321adf42716e3b598ed224d" category="inline-link-macro-rx"></block> .</block>
   <block id="7b2fa3ce2f1cc4527c7d0a4e0f774ce1" category="paragraph"><block ref="9086cf3a37365194865877acb82e7669" category="inline-link-macro-rx"></block> .</block>
   <block id="e3dd50b258bede9c23ca84687d397bed" category="paragraph"><block ref="028bf0170285d2584dcfed56c7103ca0" category="inline-link-macro-rx"></block> .</block>
   <block id="728d7df870ee1451558451c200b714aa" category="sidebar">NetApp AFX 스토리지 시스템은 고성능 NAS 및 S3 고객의 고유한 요구 사항에 초점을 맞춘 분산형 하드웨어 및 소프트웨어 솔루션입니다. 성능과 확장성은 AI 및 ML 워크로드의 요구 사항을 충족하도록 특별히 설계되었습니다.</block>
@@ -14202,4 +14104,88 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d3bca45bb48d04c6d999281b772fa015" category="sidebar">AFX A1K 섀시</block>
   <block id="9a4e2ca13bc5368ad30e628996c8e94e" category="sidebar">AFX 1K 컨트롤러</block>
   <block id="4c052a07dcf923d8d73e0be9a32b97a7" category="sidebar">AFX 1K IO 모듈</block>
+  <block id="35be92b1079dd4d454c4f763e5723f8a" category="list-text">전원 공급 장치는 중복성이 뛰어나고 핫스왑이 가능합니다. PSU를 교체하기 위해 컨트롤러를 끌 필요는 없습니다.</block>
+  <block id="1053cf7d108791c08478ce9591984516" category="open-title">옵션 1: AC PSU 핫스왑</block>
+  <block id="3d70b6b1c750645a1540b9185ec5dbfc" category="open-title">옵션 2: DC PSU 핫스왑</block>
+  <block id="27b8025bf920b2fdec95f4719d7e3772" category="paragraph">PSU는 중복성이 뛰어나고 핫스왑이 가능합니다. PSU를 교체하기 위해 컨트롤러를 끌 필요는 없습니다.</block>
+  <block id="41221ad2b8f379d044b6e4c034575270" category="list-text">설치 중인 모든 컨트롤러의 시스템 일련 번호(SSN)를 찾으세요.</block>
+  <block id="639a764bd23851da6594721b4ee0a7d1" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; SAS 연결을 통한 SAS 인밴드 관리; [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="67bfe38eadb8acf6e70be93f4020561b" category="doc">전원 공급 장치 핫스왑 - AFF A150</block>
+  <block id="5ea0f09670f21c71300695e92b2cd256" category="admonition">호스트 네트워크 연결에는 e1b 및 e7b 포트를 사용하지 마세요. 별도의 호스트 카드를 사용하세요.</block>
+  <block id="e0c35bf779836a3b5e187a211457a2b9" category="list-text">외부 셸프에 대한 SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="25b7a8eef02360c09d8cb7847663af3e" category="doc">전원 공급 장치 핫스왑 - AFF A1K</block>
+  <block id="db8171f7944e9dc66fab5b089698d3fc" category="doc">전원 공급 장치 핫스왑 - AFF A20, AFF A30 및 AFF A50</block>
+  <block id="6d20796c812619e842f3483504be63f4" category="doc">전원 공급 장치 핫스왑 - AFF A250</block>
+  <block id="057cab5a212fb0cce841ca14b2cfeda3" category="doc">전원 공급 장치 핫스왑 - AFF A320</block>
+  <block id="3bebfde8a4d27ae5e27f0cd50cf9a5de" category="doc">전원 공급 장치 핫스왑 - AFF A400</block>
+  <block id="30432b9617d110e91bb55e0ee6592cdb" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리; [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="3076b9da82c66ef1cac1e7179b746828" category="paragraph">100GbE 케이블을 사용하여 컨트롤러 A 및 B 포트 e1a, e7a를 클러스터 네트워크 스위치 A 및 B에 연결합니다.</block>
+  <block id="92998a9e2d395c7927371ced81dc9182" category="admonition">호스트 네트워크 연결에는 e1b 및 e7b 포트를 사용하지 마세요. 별도의 호스트 카드를 사용하세요.</block>
+  <block id="ec3eca6cbff6c81c2c7efdc9ca0afcf4" category="doc">전원 공급 장치 핫스왑 - AFF A70 및 AFF A90</block>
+  <block id="b61c2071102a270d16023e40ee5b949e" category="doc">전원 공급 장치 핫스왑 - AFF A700</block>
+  <block id="9fdca944f84d0d7c1dd5bec5b33c4dad" category="doc">전원 공급 장치 핫스왑 - AFF A700s</block>
+  <block id="c88ebc5327d1036601d0eda773d3a9b3" category="doc">전원 공급 장치 핫스왑 - AFF A800</block>
+  <block id="000e33b346cf40ffbe68a52c2d14f2ea" category="list-text">SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="8548a56c519034463f28eadc644360ab" category="doc">전원 공급 장치 핫스왑 - AFF A900</block>
+  <block id="20c8ebc12d960783bc610a9a7c628624" category="list-text">중복 핫스왑 가능 전원 공급 장치 [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="98c78afbee9a38af4c14116fcea041ee" category="doc">전원 공급 장치 핫스왑 - ASA C250</block>
+  <block id="a93641a4525fdc7b24b1b838539eaefd" category="doc">전원 공급 장치 핫스왑 - ASA C400</block>
+  <block id="c5fdd34e2ef42364012a118012d79fb4" category="doc">전원 공급 장치 핫스왑 - ASA C800</block>
+  <block id="55db671ae8020eca8e8aeb4349a2b054" category="doc">전원 공급 장치 핫스왑 - ASA A70 및 ASA A90</block>
+  <block id="c9a369c5554de29ccc1c26e1a891a293" category="doc">전원 공급 장치 핫스왑 - ASA A1K</block>
+  <block id="9bb2e7ff1d23ef0e1b53976314308a35" category="doc">전원 공급 장치 핫스왑 - ASA A20, ASA A30 및 ASA A50</block>
+  <block id="06d8fe566407f64414a820ada76ed8c0" category="doc">전원 공급 장치 핫스왑 - ASA A150</block>
+  <block id="b63c7571644d5ccca1e3715abbae44ca" category="doc">전원 공급 장치 핫스왑 - ASA A250</block>
+  <block id="2c050786a43c0ea0115e636878783956" category="doc">전원 공급 장치 핫스왑 - ASA A400</block>
+  <block id="a2ada69f15b8dc349c947f1966fadfab" category="doc">전원 공급 장치 핫스왑 - ASA A800</block>
+  <block id="afa34f783768c8c33178d16016fc5fc4" category="doc">전원 공급 장치 핫스왑 - ASA A900</block>
+  <block id="a09a90cc8fcac9f4d3e4b984533b8cad" category="paragraph">[//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="5e227aeb2fcad7eaeead32f5302682f3" category="doc">전원 공급 장치 핫스왑 - AFF C250</block>
+  <block id="41002485b29502010a8644065a0c7d58" category="doc">전원 공급 장치 핫스왑 - AFF C400</block>
+  <block id="7b4a1a3080b004d0b85c18311475acc2" category="paragraph">100GbE 케이블을 사용하여 컨트롤러 A 및 B 포트 e1a, e7a를 클러스터 네트워크 스위치 A 및 B에 연결합니다. 단계. 컨트롤러 A의 포트 e1a와 컨트롤러 B의 포트 e1a를 클러스터 네트워크 스위치 A에 연결합니다. 컨트롤러 A의 포트 e7a와 컨트롤러 B의 포트 e7a를 클러스터 네트워크 스위치 B에 연결합니다.</block>
+  <block id="a6b43aa69cfefff427f0aa588edab24d" category="paragraph">+ *100GbE 케이블*</block>
+  <block id="e8b86e4a9e550f2cd1adce1d2f24708b" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
+  <block id="e742e13f0573253743538a54686b965c" category="doc">전원 공급 장치 핫스왑 - AFF C800</block>
+  <block id="bb9a46a830b86006c64c8c357fbcb73c" category="doc">전원 공급 장치 핫스왑 - FAS70 및 FAS90</block>
+  <block id="c0fb977424a2b5bca01ac503e2f1b009" category="doc">전원 공급 장치 핫스왑 - FAS2700</block>
+  <block id="58c298876292ce3ccb07434a6eb98ee8" category="doc">전원 공급 장치 핫스왑 - FAS500f</block>
+  <block id="265e5afbc76b65a563c8e31441a1e485" category="doc">전원 공급 장치 핫스왑 - FAS8300 및 FAS8700</block>
+  <block id="653496b123c4243a527d8a9ea55d4f8f" category="doc">전원 공급 장치 핫스왑 - FAS9000</block>
+  <block id="048c525dc48e40a1d09bef0038c82ef7" category="doc">전원 공급 장치 핫스왑 - FAS9500</block>
+  <block id="80f1b598bcc25f7ec82fc65712322c5f" category="inline-link-macro">AFX A1K</block>
+  <block id="456595a68c845460a0bce72ae205008b" category="list-text"><block ref="456595a68c845460a0bce72ae205008b" category="inline-link-macro-rx"></block></block>
+  <block id="bc43101d4663f6af1088f44fa1f4971c" category="open-title">선반 시스템</block>
+  <block id="4118c4e0c27fbed6f04b04d3aa72ac24" category="list-text"><block ref="4118c4e0c27fbed6f04b04d3aa72ac24" category="inline-link-macro-rx"></block></block>
+  <block id="ce10d24d102f61248a1ca7225202165a" category="inline-link-macro">NX224</block>
+  <block id="125f10a9ef50430953cfa201c04d3fc7" category="list-text"><block ref="125f10a9ef50430953cfa201c04d3fc7" category="inline-link-macro-rx"></block></block>
+  <block id="a15565e937e16d1f4615ffae54386c32" category="list-text"><block ref="a15565e937e16d1f4615ffae54386c32" category="inline-link-macro-rx"></block></block>
+  <block id="3c91bcd5af8e3e8a07bca4d6122e6b3e" category="list-text"><block ref="3c91bcd5af8e3e8a07bca4d6122e6b3e" category="inline-link-macro-rx"></block></block>
+  <block id="2eea8cfe67bfbaf554197cde256262be" category="list-text"><block ref="2eea8cfe67bfbaf554197cde256262be" category="inline-link-macro-rx"></block></block>
+  <block id="ed07672fb572f93f885feb990d0a637f" category="list-text"><block ref="ed07672fb572f93f885feb990d0a637f" category="inline-link-macro-rx"></block></block>
+  <block id="7a51e753de7bf2934296fac2cdc9d593" category="list-text"><block ref="7a51e753de7bf2934296fac2cdc9d593" category="inline-link-macro-rx"></block></block>
+  <block id="1397e21113f4acf414d8754488a466fc" category="list-text"><block ref="1397e21113f4acf414d8754488a466fc" category="inline-link-macro-rx"></block></block>
+  <block id="66fcce69e4503a0a9c8c46637435aa8c" category="list-text"><block ref="66fcce69e4503a0a9c8c46637435aa8c" category="inline-link-macro-rx"></block></block>
+  <block id="badea07b223f33f206dbb3f59038b884" category="list-text"><block ref="badea07b223f33f206dbb3f59038b884" category="inline-link-macro-rx"></block></block>
+  <block id="54d8c26f8a704f2ae1cd358913de64ac" category="list-text"><block ref="54d8c26f8a704f2ae1cd358913de64ac" category="inline-link-macro-rx"></block></block>
+  <block id="4b4484c2e067a790a8b029f0e7157ba8" category="list-text"><block ref="4b4484c2e067a790a8b029f0e7157ba8" category="inline-link-macro-rx"></block></block>
+  <block id="d4ec2b21b63964207f65fe842cdcf1d9" category="list-text"><block ref="d4ec2b21b63964207f65fe842cdcf1d9" category="inline-link-macro-rx"></block></block>
+  <block id="f9eb62938eec55221ed8ab27033b19b9" category="list-text"><block ref="f9eb62938eec55221ed8ab27033b19b9" category="inline-link-macro-rx"></block></block>
+  <block id="7ca1678229ac5064dbd99a27e4886773" category="list-text"><block ref="7ca1678229ac5064dbd99a27e4886773" category="inline-link-macro-rx"></block></block>
+  <block id="bd57b67f8598879d2601631d0c721137" category="summary">NetApp 스토리지 쉘프에 대한 NVMe 쉘프 모듈(NSM) 교체 절차를 쉘프 모델별로 정리하여 찾아보세요. 이 참고 자료는 NS224 및 NX224 선반에 대한 단계별 NSM 교체 워크플로에 대한 직접 링크를 제공하여 특정 선반 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
+  <block id="09836515455d31781ff12c48f8614517" category="doc">선반 모델에 따른 NSM 교체 절차</block>
+  <block id="1a82a6fe55e3f2f61872867b5fd0dceb" category="list-text"><block ref="1a82a6fe55e3f2f61872867b5fd0dceb" category="inline-link-macro-rx"></block></block>
+  <block id="f39104a2d7ac4b866439486ba176811c" category="list-text"><block ref="f39104a2d7ac4b866439486ba176811c" category="inline-link-macro-rx"></block></block>
+  <block id="8f5f4bdbc294c6f2651fcd2e526c8a78" category="list-text"><block ref="8f5f4bdbc294c6f2651fcd2e526c8a78" category="inline-link-macro-rx"></block></block>
+  <block id="211bc6ebaac1ad5d04c5e33045e9bf83" category="list-text"><block ref="211bc6ebaac1ad5d04c5e33045e9bf83" category="inline-link-macro-rx"></block></block>
+  <block id="09fad4d466bf3d1fedb9b890171a4ef4" category="list-text"><block ref="09fad4d466bf3d1fedb9b890171a4ef4" category="inline-link-macro-rx"></block></block>
+  <block id="fb22f4b778e12fb8fce97075a2c2e7cc" category="list-text"><block ref="fb22f4b778e12fb8fce97075a2c2e7cc" category="inline-link-macro-rx"></block></block>
+  <block id="7e67c0810c8ad6d0694164958ee67278" category="list-text"><block ref="7e67c0810c8ad6d0694164958ee67278" category="inline-link-macro-rx"></block></block>
+  <block id="5b2fbd0784647c22ca81799fe3de9d4b" category="list-text"><block ref="5b2fbd0784647c22ca81799fe3de9d4b" category="inline-link-macro-rx"></block></block>
+  <block id="9dfce2bdad58de88bbfaf4eb1ffec4c6" category="list-text"><block ref="9dfce2bdad58de88bbfaf4eb1ffec4c6" category="inline-link-macro-rx"></block></block>
+  <block id="9942cbccf0648199db8728c675a51861" category="list-text"><block ref="9942cbccf0648199db8728c675a51861" category="inline-link-macro-rx"></block></block>
+  <block id="53293de4445d9809b5beb36bf8b2bdd2" category="list-text"><block ref="53293de4445d9809b5beb36bf8b2bdd2" category="inline-link-macro-rx"></block></block>
+  <block id="b1a10fdec821bde7511fcf1b956e5382" category="paragraph"><block ref="b6b8a8462966204b648f1ae9c887611d" category="inline-link-macro-rx"></block>.</block>
+  <block id="8a484401787078890bc1e7fd9beb44fb" category="sidebar">NSM 교체 절차</block>
+  <block id="9dd7ce2f864cf38177fc70779cbe6635" category="sidebar">AFF A70 개요</block>
+  <block id="045d04f83b324cbd691c0a2eef106f65" category="sidebar">AFF A90 개요</block>
 </blocks>

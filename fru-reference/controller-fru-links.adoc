@@ -40,6 +40,12 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 �
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/controller-replace-workflow.html["AFX A1K"]
+
+
+--
 .ASA 시스템
 --
 * link:../asa150/controller-replace-overview.html["ASA A150"]

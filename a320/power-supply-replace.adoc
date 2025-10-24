@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, replace, replacing, power, supply, psu, involve, disconnect, target, source, unplug, cable, replacement, replace a power supply 
 summary: '전원 공급 장치 \(PSU\)를 교체하려면 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결해야 합니다.' 
 ---
-= 전원 공급 장치 교체 - AFF A320
+= 전원 공급 장치 핫스왑 - AFF A320
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
