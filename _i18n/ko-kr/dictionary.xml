@@ -14142,8 +14142,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a09a90cc8fcac9f4d3e4b984533b8cad" category="paragraph">[//] 2025-10-15 ontap-systems-internal/issues/1357</block>
   <block id="5e227aeb2fcad7eaeead32f5302682f3" category="doc">전원 공급 장치 핫스왑 - AFF C250</block>
   <block id="41002485b29502010a8644065a0c7d58" category="doc">전원 공급 장치 핫스왑 - AFF C400</block>
-  <block id="7b4a1a3080b004d0b85c18311475acc2" category="paragraph">100GbE 케이블을 사용하여 컨트롤러 A 및 B 포트 e1a, e7a를 클러스터 네트워크 스위치 A 및 B에 연결합니다. 단계. 컨트롤러 A의 포트 e1a와 컨트롤러 B의 포트 e1a를 클러스터 네트워크 스위치 A에 연결합니다. 컨트롤러 A의 포트 e7a와 컨트롤러 B의 포트 e7a를 클러스터 네트워크 스위치 B에 연결합니다.</block>
-  <block id="a6b43aa69cfefff427f0aa588edab24d" category="paragraph">+ *100GbE 케이블*</block>
   <block id="e8b86e4a9e550f2cd1adce1d2f24708b" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
   <block id="e742e13f0573253743538a54686b965c" category="doc">전원 공급 장치 핫스왑 - AFF C800</block>
   <block id="bb9a46a830b86006c64c8c357fbcb73c" category="doc">전원 공급 장치 핫스왑 - FAS70 및 FAS90</block>
@@ -14188,4 +14186,5 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8a484401787078890bc1e7fd9beb44fb" category="sidebar">NSM 교체 절차</block>
   <block id="9dd7ce2f864cf38177fc70779cbe6635" category="sidebar">AFF A70 개요</block>
   <block id="045d04f83b324cbd691c0a2eef106f65" category="sidebar">AFF A90 개요</block>
+  <block id="dcb60d37ecd73502c4c85283951d3ef3" category="paragraph">100GbE 케이블을 사용하여 컨트롤러 A 및 B 포트 e1a와 e7a를 클러스터 네트워크 스위치 A 및 B에 연결합니다.</block>
 </blocks>
