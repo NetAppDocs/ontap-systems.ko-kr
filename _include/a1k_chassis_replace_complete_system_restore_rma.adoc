@@ -1,12 +1,6 @@
-= 단계 1: 컨트롤러를 부팅하고 컨트롤러를 되돌립니다
+= 
 :allow-uri-read: 
 
-
-
-
-== 단계 1: 컨트롤러를 부팅하고 컨트롤러를 되돌립니다
-
-컨트롤러가 재부팅되면 ONTAP를 부팅하고 컨트롤러를 반납합니다.
 
 .단계
 . 콘솔 출력을 확인합니다.
@@ -23,21 +17,5 @@
 .. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
+. 반환이 완료된 후 실행하세요 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] 저장 시스템의 상태를 확인하고 발생한 문제를 해결합니다.
 
-
-
-
-== 2단계: 스토리지 시스템 상태 확인
-
-컨트롤러에서 스토리지를 반환한 후에는 를 통해 전체 상태를 확인해야 합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"].
-
-.단계
-. 기브백이 완료된 후 Active IQ Config Advisor를 실행하여 스토리지 시스템의 상태를 확인합니다.
-. 발생한 모든 문제를 해결합니다.
-
-
-
-
-== 3단계: 장애가 발생한 부품을 NetApp에 반환
-
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

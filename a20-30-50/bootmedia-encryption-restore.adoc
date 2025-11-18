@@ -13,33 +13,27 @@ summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부팅
 [role="lead"]
 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부팅 미디어에 암호화를 복원하여 데이터 보호를 지속하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용, 데이터 보안 액세스 확인이 포함됩니다.
 
-부팅 미디어 교체 절차의 시작 부분에 캡처한 설정을 사용하여 온보드 키 관리자(OKM), NSE(NetApp 스토리지 암호화) 또는 NVE(NetApp 볼륨 암호화)가 활성화된 시스템별 단계를 완료해야 합니다.
+키 관리자 유형에 따라 시스템의 암호화를 복원하기 위한 적절한 단계를 완료하세요.  시스템에서 어떤 키 관리자를 사용하는지 확실하지 않은 경우 부팅 미디어 교체 절차를 시작할 때 캡처한 설정을 확인하세요.
 
-시스템에 구성된 키 관리자에 따라 다음 옵션 중 하나를 선택하여 부팅 메뉴에서 복원합니다.
-
-* link:["옵션 1: Onboard Key Manager 구성을 복원합니다"]
-* link:["옵션 2: 외부 키 관리자 구성을 복원합니다"]
-
-
-
-
-== 옵션 1: Onboard Key Manager 구성을 복원합니다
-
+[role="tabbed-block"]
+====
+.온보드 키 관리자(OKM)
+--
 ONTAP 부팅 메뉴에서 Onboard Key Manager(OKM) 구성을 복원합니다.
 
 .시작하기 전에
-* OKM 구성을 복원하는 동안 다음 정보가 있는지 확인하십시오.
-+
-** 클러스터 전체 암호를 입력했습니다. https://docs.netapp.com/us-en/ontap/encryption-at-rest/enable-onboard-key-management-96-later-nse-task.html["온보딩 키 관리를 활성화합니다"]
-** https://docs.netapp.com/us-en/ontap/encryption-at-rest/backup-key-management-information-manual-task.html["Onboard Key Manager에 대한 백업 정보입니다"]..
+다음 정보를 준비하세요.
 
-
-*  https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_verify_onboard_key_management_backup_and_cluster-wide_passphrase["온보드 키 관리 백업 및 클러스터 전체 암호를 확인하는 방법"]계속하기 전에 절차를 수행하십시오.
+* 클러스터 전체 암호가 입력되었습니다. https://docs.netapp.com/us-en/ontap/encryption-at-rest/enable-onboard-key-management-96-later-nse-task.html["온보드 키 관리 활성화"]
+* https://docs.netapp.com/us-en/ontap/encryption-at-rest/backup-key-management-information-manual-task.html["Onboard Key Manager에 대한 백업 정보입니다"]
+* 다음을 사용하여 올바른 암호 문구와 백업 데이터를 가지고 있는지 확인하십시오. https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_verify_onboard_key_management_backup_and_cluster-wide_passphrase["온보드 키 관리 백업 및 클러스터 전체 암호를 확인하는 방법"] 절차
 
 
 .단계
-. 콘솔 케이블을 대상 컨트롤러에 연결합니다.
-. ONTAP 부팅 메뉴의 부팅 메뉴에서 적절한 옵션을 선택합니다.
+*손상된 컨트롤러에 관하여:*
+
+. 손상된 컨트롤러에 콘솔 케이블을 연결하세요.
+. ONTAP 부팅 메뉴에서 적절한 옵션을 선택합니다.
 +
 [cols="1a,2a"]
 |===
@@ -53,7 +47,7 @@ ONTAP 9.8 이상
 
 .부팅 메뉴의 예를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 Please choose one of the following:
@@ -72,7 +66,7 @@ Please choose one of the following:
 Selection (1-11)? 10
 
 ....
-====
+=====
 
 
  a| 
@@ -82,7 +76,7 @@ ONTAP 9.7 이하
 
 .부팅 메뉴의 예를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 Please choose one of the following:
@@ -99,36 +93,36 @@ Please choose one of the following:
 Selection (1-19)? recover_onboard_keymanager
 
 ....
-====
+=====
 |===
-. 복구 프로세스를 계속 진행할지 확인합니다.
+. 메시지가 표시되면 복구 프로세스를 계속할지 확인하세요.
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 `This option must be used only in disaster recovery procedures. Are you sure? (y or n):`
 
-====
+=====
 . 클러스터 전체의 암호를 두 번 입력합니다.
 +
-암호문을 입력하는 동안 콘솔에 아무 입력도 표시되지 않습니다.
+암호를 입력하는 동안 콘솔에 아무런 입력도 표시되지 않습니다.
 
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 `Enter the passphrase for onboard key management:`
 
 `Enter the passphrase again to confirm:`
 
-====
-. 백업 정보를 입력합니다.
+=====
+. 백업 정보를 입력하세요:
 +
-.. 시작 백업 라인의 전체 컨텐츠를 백업 종료 라인을 통해 붙여 넣습니다.
+.. 대시를 포함하여 BEGIN BACKUP 줄부터 END BACKUP 줄까지의 전체 내용을 붙여넣습니다.
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 ....
 Enter the backup data:
 
@@ -166,15 +160,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ---------------------------END BACKUP---------------------------
 
 ....
-====
-.. 입력 끝에 있는 Enter 키를 두 번 누릅니다.
+=====
+.. 입력이 끝나면 Enter 키를 두 번 누르세요.
 +
-복구 프로세스가 완료됩니다.
+복구 프로세스가 완료되고 다음 메시지가 표시됩니다.
+
++
+`Successfully recovered keymanager secrets.`
 
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 Trying to recover keymanager secrets....
@@ -191,18 +188,18 @@ Successfully recovered keymanager secrets.
 ***********************************************************************************
 
 ....
-====
-
-
+=====
 +
 
-WARNING: 표시된 출력이 과(와) 다른 경우 계속 진행하지 마십시오. `Successfully recovered keymanager secrets` 문제 해결을 수행하여 오류를 수정합니다.
+WARNING: 표시된 출력이 다음과 다른 경우 진행하지 마십시오. `Successfully recovered keymanager secrets` .  오류를 수정하기 위해 문제 해결을 수행하세요.
 
-. 부팅 메뉴에서 옵션 1을 선택하여 ONTAP로 계속 부팅합니다.
+
+
+. 옵션 선택 `1` 부팅 메뉴에서 ONTAP 으로 부팅을 계속합니다.
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 ***********************************************************************************
@@ -225,24 +222,30 @@ WARNING: 표시된 출력이 과(와) 다른 경우 계속 진행하지 마십�
 Selection (1-11)? 1
 
 ....
-====
-. 컨트롤러의 콘솔에 다음 메시지가 표시되는지 확인합니다.
+=====
+. 컨트롤러 콘솔에 다음 메시지가 표시되는지 확인하세요.
 +
 `Waiting for giveback...(Press Ctrl-C to abort wait)`
 
-. 파트너 노드에서 다음 명령을 입력하여 파트너 컨트롤러를 반환하십시오.
 +
-`storage failover giveback -fromnode local -only-cfo-aggregates true`..
+*파트너 컨트롤러에서:*
 
-. CFO 애그리게이트만 부팅한 후 다음 명령을 실행합니다.
+. 손상된 컨트롤러를 돌려주세요:
++
+`storage failover giveback -fromnode local -only-cfo-aggregates true`
+
++
+*손상된 컨트롤러에 관하여:*
+
+. CFO 집계만으로 부팅한 후 키 관리자를 동기화합니다.
 +
 `security key-manager onboard sync`
 
-. Onboard Key Manager의 클러스터 전체 암호를 입력합니다.
+. 메시지가 표시되면 Onboard Key Manager에 대한 클러스터 전체 암호를 입력합니다.
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 Enter the cluster-wide passphrase for the Onboard Key Manager:
@@ -250,63 +253,58 @@ Enter the cluster-wide passphrase for the Onboard Key Manager:
 All offline encrypted volumes will be brought online and the corresponding volume encryption keys (VEKs) will be restored automatically within 10 minutes. If any offline encrypted volumes are not brought online automatically, they can be brought online manually using the "volume online -vserver <vserver> -volume <volume_name>" command.
 
 ....
-====
+=====
 +
 
-NOTE: 동기화에 성공하면 추가 메시지 없이 클러스터 프롬프트가 반환됩니다. 동기화가 실패하면 클러스터 프롬프트로 돌아가기 전에 오류 메시지가 나타납니다. 오류가 수정되고 동기화가 성공적으로 실행될 때까지 계속하지 마십시오.
+NOTE: 동기화가 성공하면 추가 메시지 없이 클러스터 프롬프트가 반환됩니다.  동기화에 실패하면 클러스터 프롬프트로 돌아가기 전에 오류 메시지가 나타납니다.  오류가 수정되고 동기화가 성공적으로 실행될 때까지 계속 진행하지 마세요.
 
-. 다음 명령을 입력하여 모든 키가 동기화되었는지 확인합니다.
+. 모든 키가 동기화되었는지 확인하세요.
 +
-`security key-manager key query -restored false`..
-
-+
-`There are no entries matching your query.`
+`security key-manager key query -restored false`
 
 +
+이 명령은 결과를 반환하지 않습니다.  결과가 나타나면 더 이상 결과가 반환되지 않을 때까지 동기화 명령을 반복합니다.
 
-NOTE: 복원된 매개 변수에서 false를 필터링할 때 결과가 나타나지 않습니다.
++
+*파트너 컨트롤러에서:*
 
-. 다음 명령을 입력하여 파트너의 노드를 반환합니다.
+. 손상된 컨트롤러를 돌려주세요:
 +
 `storage failover giveback -fromnode local`
 
-. 사용하지 않도록 설정한 경우 다음 명령을 입력하여 자동 반환을 복원합니다.
+. 자동 반환을 비활성화한 경우 복원:
 +
 `storage failover modify -node local -auto-giveback true`
 
-. AutoSupport가 활성화된 경우 다음 명령을 입력하여 자동 케이스 생성을 복원합니다.
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
 +
 `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 
-
-
-== 옵션 2: 외부 키 관리자 구성을 복원합니다
-
+--
+.외부 키 관리자(EKM)
+--
 ONTAP 부팅 메뉴에서 외부 키 관리자 구성을 복원합니다.
 
 .시작하기 전에
-EKM(External Key Manager) 구성을 복원하려면 다음 정보가 필요합니다.
+다른 클러스터 노드나 백업에서 다음 파일을 수집합니다.
 
-* 다른 클러스터 노드에서 /cfcard/kMIP/servers.cfg 파일의 복사본 또는 다음 정보:
-+
-** KMIP 서버 주소입니다.
-** KMIP 포트입니다.
-
-
-* 다른 클러스터 노드 또는 클라이언트 인증서의 파일 복사본입니다. `/cfcard/kmip/certs/client.crt`
-* 다른 클러스터 노드 또는 클라이언트 키의 파일 복사본입니다. `/cfcard/kmip/certs/client.key`
-* 다른 클러스터 노드 또는 KMIP 서버 CA의 파일 복사본입니다. `/cfcard/kmip/certs/CA.pem`
+* `/cfcard/kmip/servers.cfg`파일 또는 KMIP 서버 주소 및 포트
+* `/cfcard/kmip/certs/client.crt`파일(클라이언트 인증서)
+* `/cfcard/kmip/certs/client.key`파일(클라이언트 키)
+* `/cfcard/kmip/certs/CA.pem`파일(KMIP 서버 CA 인증서)
 
 
 .단계
-. 콘솔 케이블을 대상 컨트롤러에 연결합니다.
-. ONTAP 부팅 메뉴에서 옵션 11 을 선택합니다.
+*손상된 컨트롤러에 관하여:*
+
+. 손상된 컨트롤러에 콘솔 케이블을 연결하세요.
+. 옵션 선택 `11` ONTAP 부팅 메뉴에서.
 +
 .부팅 메뉴의 예를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 (1)  Normal Boot.
@@ -322,35 +320,30 @@ EKM(External Key Manager) 구성을 복원하려면 다음 정보가 필요합�
 (11) Configure node for external key management.
 Selection (1-11)? 11
 ....
-====
-. 메시지가 표시되면 필요한 정보를 수집했는지 확인합니다.
+=====
+. 메시지가 표시되면 필요한 정보를 수집했는지 확인하세요.
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 ....
 Do you have a copy of the /cfcard/kmip/certs/client.crt file? {y/n}
 Do you have a copy of the /cfcard/kmip/certs/client.key file? {y/n}
 Do you have a copy of the /cfcard/kmip/certs/CA.pem file? {y/n}
 Do you have a copy of the /cfcard/kmip/servers.cfg file? {y/n}
 ....
-====
+=====
 . 메시지가 표시되면 클라이언트 및 서버 정보를 입력합니다.
 +
-.프롬프트를 표시합니다
-[%collapsible]
-====
-....
-Enter the client certificate (client.crt) file contents:
-Enter the client key (client.key) file contents:
-Enter the KMIP server CA(s) (CA.pem) file contents:
-Enter the server configuration (servers.cfg) file contents:
-....
-====
+.. BEGIN 및 END 줄을 포함하여 클라이언트 인증서(client.crt) 파일 내용을 입력합니다.
+.. BEGIN 및 END 줄을 포함하여 클라이언트 키(client.key) 파일 내용을 입력합니다.
+.. BEGIN 및 END 줄을 포함하여 KMIP 서버 CA(CA.pem) 파일 내용을 입력합니다.
+.. KMIP 서버 IP 주소를 입력하세요.
+.. KMIP 서버 포트를 입력합니다(기본 포트 5696을 사용하려면 Enter를 누릅니다).
 +
 .예제 보기
 [%collapsible]
-====
+=====
 ....
 Enter the client certificate (client.crt) file contents:
 -----BEGIN CERTIFICATE-----
@@ -378,26 +371,31 @@ Running command '/sbin/ifconfig e0M'
 ..
 kmip_init: cmd: ReleaseExtraBSDPort e0M
 ....
-====
+=====
 +
-클라이언트 및 서버 정보를 입력하면 복구 프로세스가 완료됩니다.
+복구 프로세스가 완료되고 다음 메시지가 표시됩니다.
+
++
+`Successfully recovered keymanager secrets.`
 
 +
 .예제 보기
 [%collapsible]
-====
+=====
 ....
 System is ready to utilize external key manager(s).
 Trying to recover keys from key servers....
 Performing initialization of OpenSSL
 Successfully recovered keymanager secrets.
 ....
-====
-. 부팅 메뉴에서 옵션 1을 선택하여 ONTAP로 계속 부팅합니다.
+=====
+
+
+. 옵션 선택 `1` 부팅 메뉴에서 ONTAP 으로 부팅을 계속합니다.
 +
 .예제 프롬프트를 표시합니다
 [%collapsible]
-====
+=====
 ....
 
 ***************************************************************************
@@ -419,16 +417,18 @@ Successfully recovered keymanager secrets.
 Selection (1-11)? 1
 
 ....
-====
-. 자동 반환을 비활성화한 경우 복원
+=====
+. 자동 반환을 비활성화한 경우 복원:
 +
 `storage failover modify -node local -auto-giveback true`
 
-. AutoSupport가 활성화된 경우 다음 명령을 입력하여 자동 케이스 생성을 복원합니다.
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
 +
 `system node autosupport invoke -node * -type all -message MAINT=END`
 
 
 
+--
+====
 .다음 단계
 부팅 미디어에서 암호화를 복원한 후 다음을 link:bootmedia-complete-rma.html["결함이 있는 부품을 NetApp로 반환합니다"]수행해야 합니다.

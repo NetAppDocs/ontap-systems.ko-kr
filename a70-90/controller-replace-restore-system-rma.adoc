@@ -20,12 +20,21 @@ AFF A70 또는 AFF A90 시스템의 컨트롤러 교체를 완료하려면 먼�
 교체 노드를 서비스로 반환하기 전에 논리 인터페이스가 홈 포트에 있는지 확인하고 클러스터 상태를 확인한 다음 자동 반환을 재설정합니다.
 
 .단계
-. 논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다
+. 논리적 인터페이스가 홈 서버와 포트에 보고하는지 확인하세요.
 +
-논리적 인터페이스가 false로 표시되는 경우 홈 포트로 되돌립니다. `network interface revert -vserver * -lif *`
+`network interface show -is-home false`
 
-. 클러스터의 상태를 확인합니다.  https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법"^]자세한 내용은 KB 문서를 참조하십시오.
-. 자동 반환이 비활성화된 경우 'Storage failover modify -node local -auto-반환 true'를 다시 설정합니다
++
+논리적 인터페이스가 거짓으로 나열된 경우 해당 인터페이스를 홈 포트로 되돌립니다.
+
++
+`network interface revert -vserver * -lif *`
+
+. 클러스터의 상태를 확인하세요.  를 참조하십시오 https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["ONTAP에서 스크립트를 사용하여 클러스터 상태 점검을 수행하는 방법"^] KB 문서.
+. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
++
+`storage failover modify -node local -auto-giveback true`
+
 
 
 

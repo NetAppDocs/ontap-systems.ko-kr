@@ -13,22 +13,22 @@ summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀
 [role="lead"]
 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시 교체, 시스템 작업 확인을 통해 AFF A70 또는 AFF A90 스토리지 시스템의 섀시 교체를 시작하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-requirements.html["섀시 교체 요구 사항을 검토합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-requirements.html["섀시 교체 요구 사항 검토"]
 [role="quick-margin-para"]
-섀시 교체 요구 사항을 검토합니다.
+시스템 호환성, 필요한 도구, ONTAP 자격 증명, 구성 요소 기능 검증을 포함한 섀시 교체 요구 사항을 검토합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:chassis-replace-prepare.html["섀시 교체를 준비합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:chassis-replace-prepare.html["섀시 교체 준비"]
 [role="quick-margin-para"]
-시스템을 찾고, 시스템 자격 증명과 필요한 도구를 수집하고, 교체 섀시가 수신되었는지 확인하고, 시스템 케이블에 레이블을 지정하여 섀시를 교체할 준비를 합니다.
+시스템 위치 파악, 자격 증명 및 도구 수집, 교체 섀시 확인, 케이블 레이블링 등을 통해 섀시 교체를 준비합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3가지"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-섀시에 대한 유지 관리를 수행할 수 있도록 컨트롤러를 종료합니다.
+섀시 유지관리를 안전하게 수행하려면 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:chassis-replace-move-hardware.html["섀시를 교체합니다"]
 [role="quick-margin-para"]
-손상된 섀시에서 교체 섀시로 구성 요소를 이동하여 섀시를 교체합니다.
+손상된 섀시에서 교체 섀시로 구성 요소를 옮깁니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]
 [role="quick-margin-para"]
-컨트롤러를 다시 시작하고 컨트롤러를 반환한 다음 장애가 발생한 섀시를 NetApp로 반환하여 섀시 교체를 완료합니다.
+컨트롤러를 부팅하고, Giveback을 수행하고, 실패한 섀시를 NetApp 으로 반환하여 교체를 완료합니다.
