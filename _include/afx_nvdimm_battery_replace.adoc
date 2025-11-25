@@ -44,10 +44,6 @@ NOTE: _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표�
 +
 `system ha interconnect link off -node healthy-node -link 1`
 
-+
-
-NOTE: ONTAP 버전 9.17.1을 실행하지 않는 경우 위 단계를 건너뛰고 3단계로 이동하세요.
-
 
 
 . 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.
