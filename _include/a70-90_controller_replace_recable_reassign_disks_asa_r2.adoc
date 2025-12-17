@@ -8,17 +8,13 @@
 
 == 단계 1: 컨트롤러를 재배열
 
-컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인합니다.
+컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인하려면 다음을 사용하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .
 
 .단계
-. 을 사용하여 케이블이 올바른지 확인합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"].
-+
-.. Config Advisor를 다운로드하고 설치합니다.
-.. 대상 시스템에 대한 정보를 입력한 다음 데이터 수집 을 클릭합니다.
-.. 케이블 연결 탭을 클릭한 다음 출력을 확인합니다. 모든 디스크 쉘프가 표시되고 모든 디스크가 출력에 표시되는지 확인하여 찾은 케이블 연결 문제를 해결합니다.
-.. 해당 탭을 클릭하여 다른 케이블을 확인한 다음 Config Advisor의 출력을 확인합니다.
-
-
+. Config Advisor를 다운로드하고 설치합니다.
+. 대상 시스템에 대한 정보를 입력한 다음 데이터 수집 을 클릭합니다.
+. 케이블 연결 탭을 클릭한 다음 출력을 확인합니다. 모든 디스크 쉘프가 표시되고 모든 디스크가 출력에 표시되는지 확인하여 찾은 케이블 연결 문제를 해결합니다.
+. 해당 탭을 클릭하여 다른 케이블을 확인한 다음 Config Advisor의 출력을 확인합니다.
 
 
 

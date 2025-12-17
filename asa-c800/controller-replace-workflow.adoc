@@ -1,0 +1,38 @@
+---
+permalink: asa-c800/controller-replace-workflow.html 
+sidebar: sidebar 
+keywords: asa c800, replace the controller workflow 
+summary: ASA C800 스토리지 시스템의 컨트롤러를 교체하려면 먼저 고장난 컨트롤러를 종료하고, 컨트롤러를 제거한 후 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하십시오. 
+---
+= 컨트롤러 교체 워크플로 - ASA C800
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ASA C800 스토리지 시스템의 컨트롤러를 교체하려면 손상된 컨트롤러를 종료하고, 컨트롤러를 제거한 후 새 컨트롤러로 교체하고, 시스템 구성을 복원하고, 스토리지 리소스 제어권을 교체된 컨트롤러로 되돌려야 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:controller-replace-requirements.html["컨트롤러 교체 요구 사항을 검토하십시오"]
+[role="quick-margin-para"]
+시스템 호환성, 필요한 도구, ONTAP 자격 증명, 구성 요소 기능 검증을 포함한 컨트롤러 교체 요구 사항을 검토합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+손상된 컨트롤러를 종료하거나 인수하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공할 수 있도록 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:controller-replace-move-hardware.html["컨트롤러를 교체합니다"]
+[role="quick-margin-para"]
+손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체 컨트롤러 모듈로 옮긴 다음, 교체 컨트롤러 모듈을 인클로저에 설치합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:controller-replace-system-config-restore-and-verify.html["시스템 구성을 복원하고 확인합니다"]
+[role="quick-margin-para"]
+교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:controller-replace-recable-reassign-disks.html["케이블을 재장착하고 컨트롤러를 반납합니다"]
+[role="quick-margin-para"]
+컨트롤러를 재장착하고 스토리지 리소스의 소유권을 교체 컨트롤러로 다시 이전합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:controller-replace-restore-system-rma.html["전체 컨트롤러 교체"]
+[role="quick-margin-para"]
+LIF를 확인하고 클러스터 상태를 확인한 후 장애가 발생한 부품을 NetApp에 반환합니다.

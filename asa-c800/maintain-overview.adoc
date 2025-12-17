@@ -40,14 +40,14 @@ link:bootmedia-replace-workflow.html["부팅 미디어 - 수동 복구"]
 
 
  a| 
-link:chassis-replace-overview.html["섀시"]
+link:chassis-replace-workflow.html["섀시"]
  a| 
 섀시는 컨트롤러/CPU 장치, 전원 공급 장치 및 I/O와 같은 모든 컨트롤러 구성 요소를 수용하는 물리적 인클로저입니다
 
 
 
  a| 
-link:controller-replace-overview.html["컨트롤러"]
+link:controller-replace-workflow.html["컨트롤러"]
  a| 
 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 ONTAP 기능을 구현합니다.
 

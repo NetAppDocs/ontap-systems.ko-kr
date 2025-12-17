@@ -55,9 +55,13 @@ entries:
   - title: 섀시
     pdf-filename: ASA C800 섀시
     entries:
-    - title: 개요
-      url: "/asa-c800/chassis-replace-overview.html"
-    - title: 손상된 컨트롤러를 종료합니다
+    - title: 섀시 교체 워크플로우
+      url: "/asa-c800/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/asa-c800/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/asa-c800/chassis-replace-prepare.html"
+    - title: 컨트롤러를 종료합니다
       url: "/asa-c800/chassis-replace-shutdown.html"
     - title: 섀시를 교체합니다
       url: "/asa-c800/chassis-replace-move-hardware.html"
@@ -66,8 +70,10 @@ entries:
   - title: 컨트롤러
     pdf-filename: ASA C800 컨트롤러 모듈
     entries:
-    - title: 개요
-      url: "/asa-c800/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/asa-c800/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/asa-c800/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/asa-c800/controller-replace-shutdown.html"
     - title: 컨트롤러를 교체합니다

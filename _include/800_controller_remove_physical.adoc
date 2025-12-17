@@ -1,0 +1,85 @@
+= 
+:allow-uri-read: 
+
+
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 섀시의 모든 드라이브가 중앙판에 단단히 장착되어 있는지 확인합니다. 엄지 손가락으로 각 드라이브를 눌러 멈춤 상태가 될 때까지 누릅니다.
++
+.영상 - 운전석 확인
+video::2c46e4af-2c21-4f12-b065-b38b003d0ea2[panopto]
++
+image::../media/drw_a800_drive_seated_IEOPS-960.svg[운전석에 앉으세요]
+
+. 시스템 상태에 따라 컨트롤러 드라이브를 점검하십시오.
++
+.. 정상적인 컨트롤러에서 활성 RAID 그룹 중 성능 저하 상태, 실패 상태 또는 둘 다에 해당하는 그룹이 있는지 확인하십시오.
++
+[source, cli]
+----
+storage aggregate show -raidstatus !*normal*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Check-missing-drives,다음 하위 단계로 이동하여 누락된 드라이브가 있는지 확인합니다.>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+.. [[Check-missing-drives]]파일 시스템 또는 예비 드라이브 모두에서 누락된 드라이브 문제를 확인합니다.
++
+[source, cli]
+----
+event log show -severity * -node * -message-name *disk.missing*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<remove-power-cables,다음 단계로 이동>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+
+
+. [[전원 케이블 제거]]전원 케이블 고정 장치를 제거한 다음 전원 공급 장치에서 케이블을 뽑으세요.
+. 케이블 정리 장치의 벨크로 스트랩을 느슨하게 하세요.  컨트롤러 모듈에서 시스템 케이블과 SFP/QSFP 모듈(필요한 경우)을 분리하십시오.  각 케이블의 위치를 기록해 두세요.
++
+케이블 관리 장치에 케이블을 남겨 두면 케이블 관리 장치를 다시 설치할 때 케이블이 정리됩니다.
+
+. 컨트롤러 모듈에서 케이블 관리 장치를 분리하여 한쪽에 둡니다.
+. 양쪽 잠금 래치를 아래로 누른 다음 두 래치를 동시에 아래로 돌립니다.
++
+컨트롤러 모듈이 섀시에서 약간 꺼냅니다.
+
++
+image::../media/drw_a800_pcm_remove.png[컨트롤러 모듈 분리]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+ a| 
+잠금 래치
+
+
+
+ a| 
+image:../media/icon_round_2.png["설명선 번호 2"]
+ a| 
+잠금 핀
+
+|===
+. 컨트롤러 모듈을 섀시 밖으로 밀어내고 안정적이고 평평한 표면에 놓습니다.
++
+컨트롤러 모듈의 하단을 받쳐준 후 섀시에서 빼내십시오.
+
+

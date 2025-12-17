@@ -37,4 +37,4 @@ AFF A70 또는 AFF A90 시스템의 컨트롤러를 교체하기 전에 올바�
 
 
 .다음 단계
-AFF A70 또는 AFF A90 컨트롤러를 교체하는 데 필요한 요구사항을 검토한 후에는 을link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"](를) 수행해야 합니다.
+AFF A70 또는 AFF A90 컨트롤러 교체 요구 사항을 검토한 후에는 다음 단계를 수행해야 합니다.link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"] .

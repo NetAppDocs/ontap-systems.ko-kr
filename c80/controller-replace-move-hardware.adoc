@@ -20,11 +20,51 @@ summary: 하드웨어 장애 또는 업그레이드에 필요한 경우 AFF C80 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
 
 .단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 섀시의 모든 드라이브가 중앙판에 단단히 장착되어 있는지 확인합니다. 엄지 손가락으로 각 드라이브를 눌러 멈춤 상태가 될 때까지 누릅니다.
 +
-image::../media/drw_a800_drive_seated_IEOPS-960.svg[시트 디스크 드라이브]
+.영상 - 운전석 확인
+video::2c46e4af-2c21-4f12-b065-b38b003d0ea2[panopto]
++
+image::../media/drw_a800_drive_seated_IEOPS-960.svg[운전석에 앉으세요]
 
-. 장애가 있는 컨트롤러 모듈 후면의 슬롯 4/5에 있는 상태 LED가 꺼져 있는지 황색 NVRAM을 확인합니다. NV 아이콘을 찾습니다.
+. 시스템 상태에 따라 컨트롤러 드라이브를 점검하십시오.
++
+.. 정상적인 컨트롤러에서 활성 RAID 그룹 중 성능 저하 상태, 실패 상태 또는 둘 다에 해당하는 그룹이 있는지 확인하십시오.
++
+[source, cli]
+----
+storage aggregate show -raidstatus !*normal*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Check-missing-drives,다음 하위 단계로 이동하여 누락된 드라이브가 있는지 확인합니다.>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+.. [[Check-missing-drives]]파일 시스템 또는 예비 드라이브 모두에서 누락된 드라이브 문제를 확인합니다.
++
+[source, cli]
+----
+event log show -severity * -node * -message-name *disk.missing*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Check-the-amber-NVRAM,다음 단계로 이동>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+
+
+. [[황색 NVRAM 확인]]고장난 컨트롤러 모듈 뒷면의 4/5번 슬롯에 있는 황색 NVRAM 상태 LED가 꺼져 있는지 확인하십시오.  NV 아이콘을 찾아보세요.
 +
 image::../media/drw_a1K-70-90_nvram-led_ieops-1463.svg[NVRAM 주의 및 상태 LED 위치 그래픽]
 

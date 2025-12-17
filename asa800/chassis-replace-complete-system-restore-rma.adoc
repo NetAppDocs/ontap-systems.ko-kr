@@ -4,21 +4,20 @@ sidebar: sidebar
 keywords: asa a800, verify and set HA state, complete the replacement process 
 summary: 키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환해야 합니다. 
 ---
-= 전체 섀시 교체 - ASA A800
+= 복원 및 교체 프로세스를 완료하십시오 - ASA A800
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고 장애가 발생한 부품을 NetApp에 반환해야 합니다.
+컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 고장난 부품을 NetApp 으로 반환하여 ASA A800 섀시 교체 절차의 마지막 단계를 완료하십시오.
 
 
 
 == 1단계: 섀시의 HA 상태를 확인하고 설정합니다
 
-섀시의 HA 상태를 확인하고 필요한 경우 시스템 구성에 맞게 상태를 업데이트해야 합니다.
-
+.단계
 . 유지보수 모드의 컨트롤러 모듈 중 하나에서 로컬 컨트롤러 모듈 및 섀시의 HA 상태를 "ha-config show"로 표시합니다
 +
 HA 상태는 모든 구성 요소에 대해 동일해야 합니다.
@@ -45,6 +44,12 @@ HA 상태의 값은 다음 중 하나일 수 있습니다.
 
 
 
-== 2단계: 장애가 발생한 부품을 NetApp로 되돌립니다
+== 2단계: 스토리지 시스템 상태 확인
+
+컨트롤러 반환이 완료된 후 다음을 사용하여 시스템 상태를 확인하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .  발견된 문제점을 해결하세요.
+
+
+
+== 3단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

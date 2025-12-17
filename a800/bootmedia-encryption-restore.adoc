@@ -11,7 +11,7 @@ summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetAp
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+데이터 보호를 지속하려면 AFF A800 시스템의 교체 부팅 미디어에 암호화를 복원하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용, 데이터 보안 액세스 확인이 포함됩니다.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 
@@ -432,3 +432,5 @@ Selection (1-11)? 1
 
 --
 ====
+.다음 단계
+부팅 미디어에서 암호화를 복원한 후 다음을 link:bootmedia-complete-rma.html["결함이 있는 부품을 NetApp로 반환합니다"]수행해야 합니다.

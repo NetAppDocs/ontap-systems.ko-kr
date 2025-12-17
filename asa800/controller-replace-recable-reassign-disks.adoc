@@ -11,23 +11,19 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 
 [role="lead"]
-스토리지를 재설정하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.
+ASA A800 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음 또는 온보드 키 관리자(OKM) 암호화)에 따라 다릅니다.
 
 
 
 == 1단계: 시스템 회수
 
-컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인합니다.
+컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인하려면 다음을 사용하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .
 
 .단계
-. 을 사용하여 케이블이 올바른지 확인합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"].
-+
-.. Config Advisor를 다운로드하고 설치합니다.
-.. 대상 시스템에 대한 정보를 입력한 다음 데이터 수집 을 클릭합니다.
-.. 케이블 연결 탭을 클릭한 다음 출력을 확인합니다. 모든 디스크 쉘프가 표시되고 모든 디스크가 출력에 표시되는지 확인하여 찾은 케이블 연결 문제를 해결합니다.
-.. 해당 탭을 클릭하여 다른 케이블을 확인한 다음 Config Advisor의 출력을 확인합니다.
-
-
+. Config Advisor를 다운로드하고 설치합니다.
+. 대상 시스템에 대한 정보를 입력한 다음 데이터 수집 을 클릭합니다.
+. 케이블 연결 탭을 클릭한 다음 출력을 확인합니다. 모든 디스크 쉘프가 표시되고 모든 디스크가 출력에 표시되는지 확인하여 찾은 케이블 연결 문제를 해결합니다.
+. 해당 탭을 클릭하여 다른 케이블을 확인한 다음 Config Advisor의 출력을 확인합니다.
 
 
 
@@ -36,8 +32,9 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. _replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.
 
-이 절차는 HA 쌍에서 ONTAP를 실행하는 시스템에만 적용됩니다.
+이 단계는 ONTAP HA 쌍으로 실행하는 시스템에만 적용됩니다.
 
+.단계
 . replacement_controller가 유지보수 모드("*>" 프롬프트 표시)인 경우 유지보수 모드를 종료하고 로더 프롬프트인 "halt"로 이동합니다
 . system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 y를 입력합니다
 . replacement_controller 콘솔에 'Waiting for 반환...' 메시지가 표시될 때까지 기다린 후 정상적인 컨트롤러에서 새 파트너 시스템 ID가 자동으로 지정되었는지 확인합니다. 'storage failover show

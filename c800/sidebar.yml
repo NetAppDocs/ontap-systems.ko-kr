@@ -55,28 +55,34 @@ entries:
   - title: 섀시
     pdf-filename: AFF C800 섀시
     entries:
-    - title: 개요
-      url: "/c800/chassis-replace-overview.html"
-    - title: 손상된 컨트롤러를 종료합니다
+    - title: 섀시 교체 워크플로우
+      url: "/c800/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/c800/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/c800/chassis-replace-prepare.html"
+    - title: 컨트롤러를 종료합니다
       url: "/c800/chassis-replace-shutdown.html"
-    - title: 하드웨어를 교체합니다
+    - title: 섀시를 교체합니다
       url: "/c800/chassis-replace-move-hardware.html"
-    - title: 전체 교체
+    - title: 섀시 교체를 완료합니다
       url: "/c800/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
     pdf-filename: AFF C800 컨트롤러 모듈
     entries:
-    - title: 개요
-      url: "/c800/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/c800/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/c800/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/c800/controller-replace-shutdown.html"
-    - title: 컨트롤러 모듈을 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/c800/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/c800/controller-replace-system-config-restore-and-verify.html"
     - title: 회수 가능 시스템
       url: "/c800/controller-replace-recable-reassign-disks.html"
-    - title: 전체 교체
+    - title: 전체 컨트롤러 교체
       url: "/c800/controller-replace-restore-system-rma.html"
   - title: DIMM
     url: "/c800/dimm-replace.html"

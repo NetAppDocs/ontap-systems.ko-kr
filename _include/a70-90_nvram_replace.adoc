@@ -10,12 +10,51 @@
 --
 NVRAM 모듈을 교체하려면 섀시의 슬롯 4/5에서 모듈을 찾고 구체적인 단계를 따릅니다.
 
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 섀시의 모든 드라이브가 중앙판에 단단히 장착되어 있는지 확인합니다. 엄지 손가락으로 각 드라이브를 눌러 멈춤 상태가 될 때까지 누릅니다.
 +
-image::../media/drw_a800_drive_seated_IEOPS-960.svg[시트 디스크 드라이브]
+.영상 - 운전석 확인
+video::2c46e4af-2c21-4f12-b065-b38b003d0ea2[panopto]
++
+image::../media/drw_a800_drive_seated_IEOPS-960.svg[운전석에 앉으세요]
 
-. 섀시 후면으로 이동합니다. 아직 접지되지 않은 경우 올바르게 접지하십시오.
-. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 시스템 상태에 따라 컨트롤러 드라이브를 점검하십시오.
++
+.. 정상적인 컨트롤러에서 활성 RAID 그룹 중 성능 저하 상태, 실패 상태 또는 둘 다에 해당하는 그룹이 있는지 확인하십시오.
++
+[source, cli]
+----
+storage aggregate show -raidstatus !*normal*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Check-missing-drives,다음 하위 단계로 이동하여 누락된 드라이브가 있는지 확인합니다.>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+.. [[Check-missing-drives]]파일 시스템 또는 예비 드라이브 모두에서 누락된 드라이브 문제를 확인합니다.
++
+[source, cli]
+----
+event log show -severity * -node * -message-name *disk.missing*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Go-to-the-rear,다음 단계로 이동>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+
+
+. [[뒤쪽으로 이동]]차체의 뒤쪽으로 이동합니다.
 . 컨트롤러의 PSU를 분리합니다.
 +
 
@@ -91,11 +130,51 @@ NOTE: DC 전원 공급 장치가 있는 경우 전원 블록을 전원 공급 �
 --
 NVRAM 모듈에서 NVRAM DIMM을 교체하려면 먼저 NVRAM 모듈을 분리한 다음 대상 DIMM을 교체해야 합니다.
 
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 섀시의 모든 드라이브가 중앙판에 단단히 장착되어 있는지 확인합니다. 엄지 손가락으로 각 드라이브를 눌러 멈춤 상태가 될 때까지 누릅니다.
 +
-image::../media/drw_a800_drive_seated_IEOPS-960.svg[시트 디스크 드라이브]
+.영상 - 운전석 확인
+video::2c46e4af-2c21-4f12-b065-b38b003d0ea2[panopto]
++
+image::../media/drw_a800_drive_seated_IEOPS-960.svg[운전석에 앉으세요]
 
-. 섀시 후면으로 이동합니다. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 시스템 상태에 따라 컨트롤러 드라이브를 점검하십시오.
++
+.. 정상적인 컨트롤러에서 활성 RAID 그룹 중 성능 저하 상태, 실패 상태 또는 둘 다에 해당하는 그룹이 있는지 확인하십시오.
++
+[source, cli]
+----
+storage aggregate show -raidstatus !*normal*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Check-missing-drives,다음 하위 단계로 이동하여 누락된 드라이브가 있는지 확인합니다.>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+.. [[Check-missing-drives]]파일 시스템 또는 예비 드라이브 모두에서 누락된 드라이브 문제를 확인합니다.
++
+[source, cli]
+----
+event log show -severity * -node * -message-name *disk.missing*
+----
++
+*** 명령이 반환되면 `There are no entries matching your query.` 계속하세요<<Go-to-the-rear,다음 단계로 이동>> .
+*** 명령 실행 결과가 다르게 나오는 경우, 두 컨트롤러에서 AutoSupport 데이터를 수집하여 NetApp 지원팀에 문의하여 추가 지원을 받으십시오.
++
+[source, cli]
+----
+system node autosupport invoke -node * -type all -message '<message_name>'
+----
+
+
+
+
+. [[뒤쪽으로 이동]]차체의 뒤쪽으로 이동합니다.
 . 컨트롤러의 PSU를 분리합니다.
 +
 
