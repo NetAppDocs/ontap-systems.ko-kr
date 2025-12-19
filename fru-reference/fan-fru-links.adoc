@@ -71,6 +71,7 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 �
 --
 * link:../ns224/service-replace-fan.html["NS224"]
 * link:../nx224/service-replace-fan.html["NX224"]
+* link:../sas3/service-replace-fan-ds460c.html["DS460C"]
 
 
 --

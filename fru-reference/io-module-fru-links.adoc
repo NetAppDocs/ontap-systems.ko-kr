@@ -51,6 +51,7 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 I/
 --
 * link:../ns224/service-replace-io-module.html["NS224"]
 * link:../nx224/service-replace-io-module.html["NX224"]
+* link:../sas3/service-hot-swap-iom.html["DS212C, DS224C, DS460C"]
 
 
 --

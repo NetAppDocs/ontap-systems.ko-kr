@@ -135,4 +135,4 @@ CIFS; FC; iSCSI; NFS v3; NFS v4.0; NFS v4.1; NFS v4.2; NFSv3/RDMA; NFSv4/RDMA; N
 
 === 고가용성
 
-이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; [//] 2025-10-15 ontap-systems-internal/issues/1357
+이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치;

@@ -13,6 +13,6 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 DC
 [role="lead"]
 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 DCPM 전원 모듈 교체 절차를 찾아보세요.  이 참고 자료는 AFF 및 FAS 시스템에 대한 단계별 DCPM 전원 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
 
-* link:../a700/dcpm-power-replace.html["AFF A700"]
-* link:../fas9000/dcpm-power-replace.html["FAS9000"]
+* link:../a700/dcpm-nvram10-battery-replace.html["AFF A700"]
+* link:../fas9000/dcpm-nvram10-battery-replace.html["FAS9000"]
 
