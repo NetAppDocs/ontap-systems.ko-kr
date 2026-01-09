@@ -1,8 +1,8 @@
 ---
 permalink: a200/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: aff a200, shut down the controller 
-summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
+keywords: aff a200, shut down the controller, manual, manual boot recovery 
+summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러를 종료해야 합니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
 = 손상된 컨트롤러-AFF A200을 종료합니다
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 
 
 
 [role="lead"]
+구성에 맞는 절차를 사용하여 손상된 컨트롤러를 종료하십시오. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
+
 NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
 
 .단계

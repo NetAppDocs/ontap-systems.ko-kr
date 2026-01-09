@@ -1,8 +1,8 @@
 ---
 permalink: a700s/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: aff a700s, aff, a700s, completing, complete, nve, nse, shutdown, impair, controller, shut down the controller 
-summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
+keywords: aff a700s, aff, a700s, completing, complete, nve, nse, shutdown, impair, controller, shut down the controller, manual, manual boot recovery 
+summary: 암호화 검사를 완료한 후 AFF A700s 시스템에서 손상된 컨트롤러를 종료하십시오. AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = controller-AFF A700s를 종료합니다
 :allow-uri-read: 
@@ -11,6 +11,10 @@ summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 
 
 
 [role="lead"]
+암호화 검사를 완료한 후 AFF A700s 시스템에서 손상된 컨트롤러를 종료하십시오. 이 절차에는 컨트롤러를 LOADER 프롬프트로 이동시키고, 참조를 위해 부팅 환경 변수를 캡처하고, 부팅 미디어 교체를 위해 컨트롤러를 준비하는 과정이 포함됩니다.
+
+AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
+
 NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
 
 .단계

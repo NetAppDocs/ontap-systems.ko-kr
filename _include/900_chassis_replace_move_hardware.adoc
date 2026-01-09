@@ -27,7 +27,7 @@ NOTE: 전원 공급 장치를 분리할 때는 항상 두 손을 사용하여 �
 .애니메이션 - PSU 제거/설치
 video::6d0eee92-72e2-4da4-a4fa-adf9016b57ff[panopto]
 +
-image::../media/drw_a900_remove_install_PSU_module.png[PSU 모듈을 분리하거나 설치합니다]
+image::../media/drw_a900_remove_install_PSU_module.svg[PSU 모듈을 분리하거나 설치합니다]
 
 +
 [cols="1,4"]
@@ -60,7 +60,7 @@ NOTE: 팬 모듈이 단락되었습니다. 팬 모듈이 갑자기 섀시에서 
 .애니메이션 - 팬 제거/설치
 video::3c3c8d93-b48e-4554-87c8-adf9016af819[panopto]
 +
-image::../media/drw_a900_remove_install_fan.png[팬을 분리하거나 설치합니다]
+image::../media/drw_a900_remove_install_fan.svg[팬을 분리하거나 설치합니다]
 
 +
 [cols="1,4"]
@@ -97,7 +97,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 .애니메이션 - 컨트롤러를 제거합니다
 video::256721fd-4c2e-40b3-841a-adf2000df5fa[panopto]
 +
-image::../media/drw_a900_remove_PCM.png[컨트롤러를 분리합니다]
+image::../media/drw_a900_remove_PCM.svg[컨트롤러를 분리합니다]
 
 +
 [cols="1,4"]
@@ -154,7 +154,7 @@ I/O 모듈이 섀시에서 분리되어 I/O 슬롯에서 약 1.3cm 정도 이동
 .애니메이션 - I/O 모듈 제거/설치
 video::3a5b1f6e-15ec-40b4-bb2a-adf9016af7b6[panopto]
 +
-image:../media/drw_a900_remove_PCIe_module.png["PCIe 모듈을 분리합니다"]
+image:../media/drw_a900_remove_PCIe_module.svg["PCIe 모듈을 분리합니다"]
 
 
 
@@ -192,7 +192,7 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 .애니메이션 - DCPM 탈거/장착
 video::ade18276-5dbc-4b91-9a0e-adf9016b4e55[panopto]
 +
-image::../media/drw_a900_remove_NV_battery.png[NV 배터리를 분리합니다]
+image::../media/drw_a900_remove_NV_battery.svg[NV 배터리를 분리합니다]
 
 +
 [cols="1,4"]
@@ -216,7 +216,7 @@ USB LED 모듈을 분리합니다.
 
 .애니메이션 - USB를 제거/설치합니다
 video::eb715462-cc20-454f-bcf9-adf9016af84e[panopto]
-image::../media/drw_a900_remove_replace_LED_mod.png[USB LED 모듈을 분리하거나 교체합니다]
+image::../media/drw_a900_remove_replace_LED_mod.svg[USB LED 모듈을 분리하거나 교체합니다]
 
 [cols="1,4"]
 |===

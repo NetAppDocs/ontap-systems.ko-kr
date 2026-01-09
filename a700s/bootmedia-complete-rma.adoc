@@ -1,8 +1,8 @@
 ---
 permalink: a700s/bootmedia-complete-rma.html 
 sidebar: sidebar 
-keywords: aff a700s, aff, a700s, replace, part, return, fail, netapp, rma, instruction, kit, technical, support, replacement, procedure, complete the replacement process 
-summary: '부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 기술 지원 부서(에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"], 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.' 
+keywords: aff a700s, aff, a700s, replace, part, return, fail, netapp, rma, instruction, kit, technical, support, replacement, procedure, complete the replacement process, manual, manual boot recovery 
+summary: 부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반환할 수 있습니다. AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = 장애가 발생한 부품을 NetApp-AFF A700s로 반환합니다
 :allow-uri-read: 
@@ -11,4 +11,4 @@ summary: '부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따�
 
 
 [role="lead"]
-키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.
+키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송하십시오. 보세요 https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"] 자세한 내용은 해당 페이지를 참조하십시오. AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.

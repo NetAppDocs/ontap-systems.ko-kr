@@ -1,8 +1,8 @@
 ---
 permalink: a320/bootmedia-encryption-preshutdown-checks.html 
 sidebar: sidebar 
-keywords: aff, a320, aff a320, shut, down, impair, controller, check, status, onboard, encryption, kets, status, impair, controller, disable, automatic, giveback, ontap, run, pre-shutdown, pre-shutdown checks for onboard encryption keys 
-summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
+keywords: aff, a320, aff a320, shut, down, impair, controller, check, status, onboard, encryption, kets, status, impair, controller, disable, automatic, giveback, ontap, run, pre-shutdown, pre-shutdown checks for onboard encryption keys, manual, manual boot recovery 
+summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 컨트롤러의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
 = 암호화 키 지원 및 상태 확인 - AFF A320
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상�
 
 
 [role="lead"]
-스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.
+저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 
 

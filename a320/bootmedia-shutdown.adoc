@@ -1,8 +1,8 @@
 ---
 permalink: a320/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: aff, a320, aff a320, complete, completing, nve, nse, task, shutdown, impair, node, shut, down, shut down the node 
-summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 
+keywords: aff, a320, aff a320, complete, completing, nve, nse, task, shutdown, impair, node, shut, down, shut down the node, manual, manual boot recovery 
+summary: NVE 또는 NSE 작업을 완료한 후에는 문제가 발생한 노드를 종료해야 합니다. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = node-AFF A320 종료
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료
 
 
 [role="lead"]
-NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+NVE 또는 NSE 작업을 완료한 후에는 문제가 발생한 노드를 종료해야 합니다. 구성에 맞는 절차를 사용하여 손상된 컨트롤러를 종료하거나 제어권을 인계받으십시오. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 
 

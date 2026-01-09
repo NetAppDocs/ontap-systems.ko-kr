@@ -1,8 +1,8 @@
 ---
 permalink: a300/bootmedia-encryption-restore.html 
 sidebar: sidebar 
-keywords: aff a300, post boot media replacement steps for okm, nse, and nve 
-summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
+keywords: aff a300, post boot media replacement steps for okm, nse, and nve, manual, manual boot recovery 
+summary: '환경 변수 확인이 완료되면 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.' 
 ---
 = 암호화 복원 - AFF A300
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetAp
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+교체 부팅 미디어에 암호화를 복원합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 키 관리자 유형에 따라 시스템의 암호화를 복원하기 위한 적절한 단계를 완료하세요.  시스템에서 어떤 키 관리자를 사용하는지 확실하지 않은 경우 부팅 미디어 교체 절차를 시작할 때 캡처한 설정을 확인하세요.
 

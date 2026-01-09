@@ -1,8 +1,8 @@
 ---
 permalink: a700s/bootmedia-transfer-boot-image.html 
 sidebar: sidebar 
-keywords: aff a700s, aff, a700s, procedure, secondary, boot, media, restore, fail, image, tgz, file, trasnfer, usb, flash, drive, transfer the boot image to the boot medai using a usb flash drive 
-summary: 이 절차는 2차 부팅 미디어 복원이 실패하거나 2차 부팅 미디어에서 image.tgz 파일을 찾을 수 없는 경우에만 사용해야 합니다. 
+keywords: aff a700s, aff, a700s, procedure, secondary, boot, media, restore, fail, image, tgz, file, trasnfer, usb, flash, drive, transfer the boot image to the boot medai using a usb flash drive, manual, manual boot recovery 
+summary: 보조 부팅 미디어 또는 USB 플래시 드라이브를 사용하여 AFF A700s 시스템의 교체 부팅 미디어에 부팅 이미지를 전송하십시오. AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = 부팅 이미지를 부팅 미디어인 AFF A700s로 전송합니다
 :allow-uri-read: 
@@ -11,11 +11,13 @@ summary: 이 절차는 2차 부팅 미디어 복원이 실패하거나 2차 부�
 
 
 [role="lead"]
-시스템 이미지를 복원하는 기본 방법인 컨트롤러 모듈에 설치된 두 번째 부팅 미디어의 이미지 중 하나를 사용하여 교체 부팅 미디어에 시스템 이미지를 설치할 수 있습니다. 또는 2차 부팅 미디어 복원이 실패하거나 2차 부팅 미디어에서 image.tgz 파일을 찾을 수 없을 때 USB 플래시 드라이브를 사용하여 부팅 이미지를 부팅 미디어로 전송합니다.
+보조 부팅 미디어 또는 USB 플래시 드라이브를 사용하여 AFF A700s 시스템의 교체 부팅 미디어에 부팅 이미지를 전송하십시오. 이 절차에는 기본 방법으로 보조 부팅 미디어의 이미지에서 복원하는 방법과 보조 부팅 미디어 복원이 실패하거나 image.tgz 파일이 없는 경우 USB 플래시 드라이브를 사용하는 방법이 포함됩니다.
+
+AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 
 
-== 옵션 1: 두 번째 부팅 미디어에서 백업 복구를 사용하여 부팅 미디어로 파일을 전송합니다
+== 옵션 1: 두 번째 부팅 미디어의 백업 복구를 사용하여 파일을 전송합니다.
 
 컨트롤러 모듈에 설치된 두 번째 부팅 미디어의 이미지를 사용하여 교체 부팅 미디어에 시스템 이미지를 설치할 수 있습니다. 이는 컨트롤러 모듈에 두 개의 부팅 미디어가 있는 시스템의 교체 부팅 미디어로 부팅 미디어 파일을 전송하는 기본 방법입니다.
 
@@ -84,7 +86,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
-== 옵션 2: USB 플래시 드라이브를 사용하여 부팅 이미지를 부팅 미디어로 전송합니다
+== 옵션 2: USB 플래시 드라이브를 사용하여 부팅 이미지를 전송합니다.
 
 이 절차는 2차 부팅 미디어 복원이 실패하거나 2차 부팅 미디어에서 image.tgz 파일을 찾을 수 없는 경우에만 사용해야 합니다.
 

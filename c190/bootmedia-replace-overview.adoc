@@ -1,8 +1,8 @@
 ---
 permalink: c190/bootmedia-replace-overview.html 
 sidebar: sidebar 
-keywords: AFF c190, nondisruptive, disruptive, replace the boot media 
-summary: '부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.' 
+keywords: AFF c190, nondisruptive, disruptive, replace the boot media, manual, manual boot recovery 
+summary: AFF C190 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오. AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = 부트 미디어 교체 개요 - AFF C190
 :allow-uri-read: 
@@ -11,7 +11,9 @@ summary: '부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(�
 
 
 [role="lead"]
-부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.
+AFF C190 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오. 부팅 미디어에는 시스템 시작 시 사용되는 기본 및 보조 부팅 이미지 파일이 저장됩니다. 네트워크 구성에 따라 무중단 교체(HA 쌍이 네트워크에 연결됨) 또는 중단 교체(두 번의 재부팅 필요)를 수행할 수 있습니다.
+
+AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 "image_xxx.tgz" 파일을 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.
 

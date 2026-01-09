@@ -1,8 +1,8 @@
 ---
 permalink: fas2700/bootmedia-recovery-image-boot-non-2n-mcc.html 
 sidebar: sidebar 
-keywords: fas2700, aff 220, boot, recovery, image, restore, file, system, environmental, varible 
-summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
+keywords: fas2700, aff 220, boot, recovery, image, restore, file, system, environmental, varible, manual, manual boot recovery 
+summary: FAS2700 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. FAS2700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = 복구 이미지-FAS2700을 부팅합니다
 :allow-uri-read: 
@@ -11,6 +11,10 @@ summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템
 
 
 [role="lead"]
+FAS2700 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. 이 절차에는 USB 플래시 드라이브로 부팅, 파일 시스템 복원, 환경 변수 확인, 부팅 미디어 교체 후 컨트롤러를 정상 작동 상태로 되돌리는 과정이 포함됩니다.
+
+FAS2700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
+
 USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
 
 .단계

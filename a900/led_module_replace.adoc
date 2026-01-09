@@ -23,7 +23,7 @@ LED USB 모듈은 콘솔 포트 및 시스템 상태에 대한 연결을 제공�
 .애니메이션 - LED-USB 모듈 제거/설치
 video::eb715462-cc20-454f-bcf9-adf9016af84e[panopto]
 +
-image::../media/drw_a900_remove_replace_LED_mod.png[LED USB 모듈을 분리합니다]
+image::../media/drw_a900_remove_replace_LED_mod.svg[LED USB 모듈을 분리합니다]
 
 +
 [cols="1,4"]

@@ -1,8 +1,8 @@
 ---
 permalink: a300/bootmedia-replace-overview.html 
 sidebar: sidebar 
-keywords: aff a300, replace the boot media 
-summary: '부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.' 
+keywords: aff a300, replace the boot media, manual, manual boot recovery 
+summary: '부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템(부팅 이미지) 파일 세트가 저장됩니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 있는 교체를 수행할 수 있습니다.' 
 ---
 = 부팅 미디어 교체 개요 - AFF A300
 :allow-uri-read: 

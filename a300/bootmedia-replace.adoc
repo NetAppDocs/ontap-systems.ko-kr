@@ -1,8 +1,8 @@
 ---
 permalink: a300/bootmedia-replace.html 
 sidebar: sidebar 
-keywords: aff a300, replace the boot media 
-summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다. 
+keywords: aff a300, replace the boot media, manual, manual boot recovery 
+summary: 컨트롤러에서 부팅 미디어를 찾아 지침에 따라 교체해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
 = 부팅 미디어 교체 - AFF A300
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체�
 
 
 [role="lead"]
-부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
+부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 제거하고, 교체용 부팅 미디어를 설치한 다음, 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 
 

@@ -1,8 +1,8 @@
 ---
 permalink: c190/bootmedia-replace.html 
 sidebar: sidebar 
-keywords: aff c190, locate, boot, media, controller, direction, replace 
-summary: 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다. 
+keywords: aff c190, locate, boot, media, controller, direction, replace, manual, manual boot recovery 
+summary: AFF C190 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = 부팅 미디어 교체 - AFF C190
 :allow-uri-read: 
@@ -11,7 +11,9 @@ summary: 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 �
 
 
 [role="lead"]
-부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
+AFF C190 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. 이 절차에는 섀시에서 컨트롤러 모듈을 제거하고, 부팅 미디어 구성 요소를 물리적으로 교체하고, USB 플래시 드라이브를 사용하여 부팅 이미지를 교체 미디어로 전송하고, 시스템을 정상 작동 상태로 복원하는 과정이 포함됩니다.
+
+AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 
 

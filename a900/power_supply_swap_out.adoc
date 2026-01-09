@@ -50,7 +50,7 @@ IMPORTANT: PSU를 다른 효율 등급과 함께 사용하지 마십시오. 항�
 .애니메이션 - PSU 제거/설치
 video::6d0eee92-72e2-4da4-a4fa-adf9016b57ff[panopto]
 +
-image::../media/drw_9000_remove_install_psu_module.svg[PSU 모듈을 분리하거나 설치합니다]
+image::../media/drw_a900_remove_install_PSU_module.svg[PSU 모듈을 분리하거나 설치합니다]
 
 +
 [cols="1,4"]

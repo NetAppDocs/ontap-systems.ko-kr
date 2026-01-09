@@ -1,16 +1,20 @@
 ---
 permalink: fas2700/bootmedia-replace-overview.html 
 sidebar: sidebar 
-keywords: fas2700, aff a220, replace, boot, media, image, nondisruptive, disruptive, replacement, fat32, usb 
-summary: '부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.' 
+keywords: fas2700, aff a220, replace, boot, media, image, nondisruptive, disruptive, replacement, fat32, usb, manual, manual boot recovery 
+summary: 'FAS2700 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오. 부팅 미디어에는 시스템 시작 시 사용되는 기본 및 보조 부팅 이미지 파일이 저장됩니다. 네트워크 구성에 따라 무중단 교체(HA 쌍이 네트워크에 연결됨) 또는 중단 교체(두 번의 재부팅 필요)를 수행할 수 있습니다.' 
 ---
-= 부팅 미디어 교체 개요 - AFF A220 및 FAS2700
+= FAS2700 부팅 미디어 교체 개요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+FAS2700 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오.
+
+부팅 미디어에는 시스템 시작 시 사용되는 기본 및 보조 부팅 이미지 파일이 저장됩니다. 네트워크 구성에 따라 무중단 교체(HA 쌍이 네트워크에 연결됨) 또는 중단 교체(두 번의 재부팅 필요)를 수행할 수 있습니다.
+
 부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.
 
 "image_xxx.tgz" 파일을 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.

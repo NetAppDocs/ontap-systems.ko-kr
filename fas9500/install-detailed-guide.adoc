@@ -151,7 +151,7 @@ X66032A(112-00437), 2m
 
 X66033A(112-00438), 3m
  a| 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니 SAS 커넥터]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[미니 SAS 커넥터]
  a| 
 스토리지
 
@@ -444,7 +444,7 @@ image::../media/icon_square_1_blue.png[설명선 아이콘 1]
 
 * 미니 SAS 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니-SAS HD 케이블]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[미니-SAS HD 케이블]
 
 
 
@@ -455,7 +455,7 @@ image::../media/icon_square_2_yellow.png[설명선 아이콘 2]
 
 * 미니 SAS 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니-SAS HD 케이블]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[미니-SAS HD 케이블]
 
 
 
@@ -466,7 +466,7 @@ image::../media/icon_square_3_tourquoise.png[설명선 아이콘 3]
 
 * 미니 SAS 케이블 *
 
-image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[미니-SAS HD 케이블]
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[미니-SAS HD 케이블]
 
 |===
 
@@ -541,7 +541,7 @@ image::../media/icon_round_5.png[설명선 번호 5]
 .애니메이션 컨트롤러의 전원을 켜세요
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto]
 +
-image::../media/drw_9500_power-on.svg[시스템 전원을 켭니다]
+image::../media/drw_a900_power-on_IEOPS-941.svg[시스템 전원을 켭니다]
 
 +
 

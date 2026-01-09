@@ -1,8 +1,8 @@
 ---
 permalink: c190/bootmedia-recovery-image-boot-non-2n-mcc.html 
 sidebar: sidebar 
-keywords: aff c190, verify environment variables, image, boot the recovery image 
-summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
+keywords: aff c190, verify environment variables, image, boot the recovery image, manual, manual boot recovery 
+summary: AFF C190 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
 = 복구 이미지 부팅 - AFF C190
 :allow-uri-read: 
@@ -11,7 +11,9 @@ summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템
 
 
 [role="lead"]
-USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
+AFF C190 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. 이 절차에는 USB 플래시 드라이브로 부팅, 파일 시스템 복원, 환경 변수 확인, 부팅 미디어 교체 후 컨트롤러를 정상 작동 상태로 되돌리는 과정이 포함됩니다.
+
+AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
 .단계
 . LOADER 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅합니다.
