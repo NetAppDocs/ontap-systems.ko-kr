@@ -11,4 +11,4 @@ summary: 이 워크시트를 사용하면 ONTAP 클러스터를 구성할 때 �
 
 
 [role="lead"]
-를 사용할 수 있습니다 link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002["클러스터 구성 워크시트"^] ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록합니다.
+link:https://docs.netapp.com/us-en/ontap/software_setup/gather_cluster_setup_information.html["클러스터 구성 워크시트"^]를 사용하여 사이트별 IP 주소 및 ONTAP 클러스터 구성 시 필요한 기타 정보를 수집하고 기록할 수 있습니다.

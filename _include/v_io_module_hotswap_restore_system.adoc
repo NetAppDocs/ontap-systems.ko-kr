@@ -7,30 +7,11 @@
 .단계
 . 스토리지 시스템에서 실행 중인 ONTAP 버전과 컨트롤러 상태에 따라 필요에 따라 인수된 컨트롤러에서 스토리지를 반환하고 자동 반환을 복원합니다.
 +
-[cols="1,2,3"]
+[cols="1,2"]
 |===
-| ONTAP 버전입니다 | 만약... | 그러면... 
+| 만약... | 그러면... 
 
 
- a| 
-9.17.1 또는 9.18.1RC
- a| 
-손상된 컨트롤러가 정상 컨트롤러를 자동 테이크오버한 경우
- a| 
-.. 스토리지를 반환하여 정상 컨트롤러를 정상 작동 상태로 되돌립니다.
-+
-`storage failover giveback -ofnode _healthy_node_name_`
-
-.. 장애가 발생한 컨트롤러의 콘솔에서 자동 반환을 복구합니다.
-+
-`storage failover modify -node local -auto-giveback _true_`
-
-
-
-
-
- a| 
-9.18.1GA 이상
  a| 
 어느 한쪽 컨트롤러가 자동으로 파트너를 인수한 경우
  a| 
@@ -47,14 +28,12 @@
 
 
  a| 
-9.18.1GA 이상
- a| 
 두 컨트롤러 모두 I/O(데이터 제공)를 실행하고 있습니다
  a| 
 다음 단계로 이동합니다.
 
 |===
-. 논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다
+. 논리 인터페이스가 홈 노드 및 포트에 보고하는지 확인합니다. `network interface show -is-home false`
 +
 LIF가 FALSE로 표시되면 해당 LIF를 홈 포트로 되돌립니다. `network interface revert -vserver * -lif *`
 

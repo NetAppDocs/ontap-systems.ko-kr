@@ -103,6 +103,8 @@ entries:
       url: "/c80/io-module-overview.html"
     - title: 입출력 모듈을 추가합니다
       url: "/c80/io-module-add.html"
+    - title: 핫 스왑 I/O 모듈
+      url: "/c80/io-module-hotswap.html"
     - title: 입출력 모듈을 교체합니다
       url: "/c80/io-module-replace.html"
   - title: 전원 공급 장치

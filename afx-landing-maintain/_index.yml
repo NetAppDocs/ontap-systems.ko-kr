@@ -38,5 +38,7 @@ indexpage:
       url: "../afx-1k/io-module-overview.html"
     - title: 입출력 모듈을 추가합니다
       url: "../afx-1k/io-module-add.html"
+    - title: 핫 스왑 I/O 모듈
+      url: "../afx-1k/io-module-hotswap.html"
     - title: 입출력 모듈을 교체합니다
       url: "../afx-1k/io-module-replace.html"

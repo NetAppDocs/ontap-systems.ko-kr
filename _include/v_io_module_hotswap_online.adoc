@@ -1,0 +1,115 @@
+= 
+:allow-uri-read: 
+
+
+교체용 I/O 모듈을 온라인 상태로 전환하고, I/O 모듈 포트가 성공적으로 초기화되었는지 확인하고, 슬롯에 전원이 공급되는지 확인한 다음, I/O 모듈이 온라인 상태이고 인식되는지 확인합니다.
+
+.이 작업에 대해
+I/O 모듈을 교체하고 포트가 정상 상태로 돌아온 후 LIF가 교체된 I/O 모듈로 되돌아갑니다.
+
+.단계
+. 교체용 I/O 모듈을 온라인 상태로 전환합니다.
++
+.. 다음 명령을 입력하세요:
++
+`system controller slot module insert -node _impaired_node_name_ -slot _slot_number_`
+
+.. 입력하다 `y` _계속하시겠습니까?_라는 메시지가 표시되면
++
+출력 결과는 I/O 모듈이 성공적으로 온라인 상태(전원 켜짐, 초기화 및 서비스 투입)가 되었음을 확인해야 합니다.
+
++
+예를 들어, 다음 명령은 노드 2(손상된 컨트롤러)의 슬롯 7을 온라인 상태로 만들고 프로세스가 성공했다는 메시지를 표시합니다.
+
++
+[listing]
+----
+node2::> system controller slot module insert -node node2 -slot 7
+
+Warning: IO_2X_100GBE_NVDA_NIC module in slot 7 of node node2 will be powered on and initialized.
+
+Do you want to continue? {y|n}: `y`
+
+The module has been successfully powered on, initialized and placed into service.
+----
+
+
+. I/O 모듈의 각 포트가 성공적으로 초기화되었는지 확인하십시오.
++
+.. 손상된 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
++
+`event log show -event \*hotplug.init*`
+
++
+
+NOTE: 필요한 펌웨어 업데이트 및 포트 초기화에 몇 분 정도 소요될 수 있습니다.
+
++
+출력에는 하나 이상의 hotplug.init.success EMS 이벤트와 `_hotplug.init.success:_`  `_Event_`열에 I/O 모듈의 각 포트가 성공적으로 초기화되었음을 나타내는 내용이 표시되어야 합니다.
+
++
+예를 들어, 다음 출력은 I/O 포트 e7b 및 e7a에 대한 초기화가 성공했음을 보여줍니다.
+
++
+[listing]
+----
+node2::> event log show -event *hotplug.init*
+
+Time                Node             Severity      Event
+
+------------------- ---------------- ------------- ---------------------------
+
+7/11/2025 16:04:06  node2      NOTICE        hotplug.init.success: Initialization of ports "e7b" in slot 7 succeeded
+
+7/11/2025 16:04:06  node2      NOTICE        hotplug.init.success: Initialization of ports "e7a" in slot 7 succeeded
+
+2 entries were displayed.
+----
+.. 포트 초기화에 실패하면 EMS 로그를 검토하여 다음 단계를 확인하십시오.
+
+
+. I/O 모듈 슬롯에 전원이 공급되고 작동 준비가 완료되었는지 확인하십시오.
++
+`system controller slot module show`
+
++
+출력 결과에는 슬롯 상태가 `_powered-on_`로 표시되어야 하며, 이는 I/O 모듈 작동 준비가 완료되었음을 의미합니다.
+
+. I/O 모듈이 온라인 상태이고 인식되었는지 확인하십시오.
++
+손상된 컨트롤러의 콘솔에서 명령을 입력하세요:
+
++
+`system controller config show -node local -slot _slot_number_`
+
++
+I/O 모듈이 성공적으로 온라인 상태가 되어 인식되면 출력에는 슬롯의 포트 정보를 포함한 I/O 모듈 정보가 표시됩니다.
+
++
+예를 들어, 슬롯 7의 I/O 모듈에 대해 다음과 유사한 출력이 표시됩니다.
+
++
+[listing]
+----
+node2::> system controller config show -node local -slot 7
+
+Node: node2
+Sub- Device/
+Slot slot Information
+---- ---- -----------------------------
+   7    - Dual 40G/100G Ethernet Controller CX6-DX
+                  e7a MAC Address: d0:39:ea:59:69:74 (auto-100g_cr4-fd-up)
+                          QSFP Vendor:        CISCO-BIZLINK
+                          QSFP Part Number:   L45593-D218-D10
+                          QSFP Serial Number: LCC2807GJFM-B
+                  e7b MAC Address: d0:39:ea:59:69:75 (auto-100g_cr4-fd-up)
+                          QSFP Vendor:        CISCO-BIZLINK
+                          QSFP Part Number:   L45593-D218-D10
+                          QSFP Serial Number: LCC2809G26F-A
+                  Device Type:        CX6-DX PSID(NAP0000000027)
+                  Firmware Version:   22.44.1700
+                  Part Number:        111-05341
+                  Hardware Revision:  20
+                  Serial Number:      032403001370
+----
+

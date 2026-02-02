@@ -97,12 +97,14 @@ entries:
   - title: NV 배터리
     url: "/a1k/nvdimm-battery-replace.html"
   - title: 입출력 모듈
-    pdf-filename: A1K I/O 모듈
+    pdf-filename: AFF A1K I/O 모듈
     entries:
     - title: I/O 모듈 개요
       url: "/a1k/io-module-overview.html"
     - title: 입출력 모듈을 추가합니다
       url: "/a1k/io-module-add.html"
+    - title: 핫 스왑 I/O 모듈
+      url: "/a1k/io-module-hotswap.html"
     - title: 입출력 모듈을 교체합니다
       url: "/a1k/io-module-replace.html"
   - title: 전원 공급 장치

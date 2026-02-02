@@ -1,0 +1,368 @@
+---
+permalink: a1k/io-module-hotswap.html 
+sidebar: sidebar 
+keywords: aff a1k, hot swap a cluster ha card, hot swap ethernet client io module, hotswap io module, hot swap io module 
+summary: 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF A1K 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다. 
+---
+= I/O 모듈 핫 스왑 - AFF A1K
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF A1K 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.
+
+I/O 모듈을 핫 스왑하려면 스토리지 시스템이 ONTAP 9.18.1 GA 이상을 실행 중인지 확인하고, 스토리지 시스템과 I/O 모듈을 준비한 다음, 장애가 발생한 모듈을 핫 스왑하고, 교체 모듈을 온라인 상태로 전환하고, 스토리지 시스템을 정상 작동 상태로 복원한 후 장애가 발생한 모듈을 NetApp에 반환합니다.
+
+.이 작업에 대해
+* 장애가 발생한 I/O 모듈을 교체하기 전에 수동 테이크오버를 수행할 필요가 없습니다.
+* 핫 스왑 중에 올바른 컨트롤러와 I/O 슬롯에 명령을 적용하십시오.
++
+** _손상된 컨트롤러_는 I/O 모듈을 교체하는 컨트롤러입니다.
+** 건강한 컨트롤러는 손상된 컨트롤러의 HA 파트너입니다.
+
+
+* 영향을 받는 스토리지 시스템을 물리적으로 찾는 데 도움이 되도록 스토리지 시스템 위치(파란색) LED를 켤 수 있습니다. SSH를 사용하여 BMC에 로그인하고  `system location-led _on_` 명령을 입력하십시오.
++
+스토리지 시스템에는 위치 표시 LED가 세 개 포함되어 있습니다. 하나는 작업자 표시 패널에 있고 나머지 하나는 각 컨트롤러에 있습니다. LED는 30분 동안 켜져 있습니다.
+
++
+명령을 입력하여 이러한 기능을 해제할 수 `system location-led _off_` 있습니다. LED가 켜져 있는지 또는 꺼져 있는지 확실하지 않은 경우 명령을 입력하여 LED의 상태를 확인할 수 `system location-led show` 있습니다.
+
+
+
+
+
+== 1단계: 스토리지 시스템이 절차 요구 사항을 충족하는지 확인하십시오.
+
+이 절차를 사용하려면 스토리지 시스템에서 ONTAP 9.18.1 GA 이상을 실행하고 있어야 하며 스토리지 시스템이 모든 요구 사항을 충족해야 합니다.
+
+
+NOTE: 스토리지 시스템이 ONTAP 9.18.1 GA 이상을 실행하고 있지 않은 경우 이 절차를 사용할 수 없으며 link:io-module-replace.html["I/O 모듈 교체 절차"]을 사용해야 합니다.
+
+* 클러스터, HA 및 클라이언트에 사용되는 포트 조합에 관계없이 모든 슬롯에서 이더넷 I/O 모듈을 동등한 I/O 모듈로 핫 스왑할 수 있습니다. I/O 모듈 유형은 변경할 수 없습니다.
++
+스토리지 또는 MetroCluster에 사용되는 포트가 있는 Ethernet I/O 모듈은 핫 스왑을 지원하지 않습니다.
+
+* 스토리지 시스템(스위치리스 또는 스위치드 클러스터 구성)에는 스토리지 시스템에 대해 지원되는 수의 노드가 있을 수 있습니다.
+* 클러스터의 모든 노드는 동일한 ONTAP 버전(ONTAP 9.18.1GA 이상)을 실행하거나 동일한 ONTAP 버전의 서로 다른 패치 레벨을 실행해야 합니다.
++
+클러스터의 노드가 서로 다른 ONTAP 버전을 실행하는 경우 혼합 버전 클러스터로 간주되며 I/O 모듈 핫 스왑은 지원되지 않습니다.
+
+
+
+* 스토리지 시스템의 컨트롤러는 다음 두 가지 상태 중 하나일 수 있습니다.
++
+** 두 컨트롤러 모두 I/O(데이터 제공)를 실행할 수 있습니다.
+** I/O 모듈 장애로 인해 테이크오버가 발생했고 노드가 정상적으로 작동하는 경우 두 컨트롤러 중 하나가 테이크오버 상태에 있을 수 있습니다.
++
+특정 상황에서 ONTAP은 장애가 발생한 I/O 모듈로 인해 두 컨트롤러 중 하나를 자동으로 테이크오버할 수 있습니다. 예를 들어, 장애가 발생한 I/O 모듈에 모든 클러스터 포트가 포함되어 있는 경우(해당 컨트롤러의 모든 클러스터 링크가 다운되는 경우) ONTAP은 자동으로 테이크오버를 수행합니다.
+
+
+
+
+
+* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
+
+
+
+
+== 2단계: 스토리지 시스템 및 I/O 모듈 슬롯을 준비합니다.
+
+장애가 발생한 I/O 모듈을 안전하게 제거할 수 있도록 스토리지 시스템과 I/O 모듈 슬롯을 준비하십시오.
+
+.단계
+. 적절하게 접지합니다.
+. 케이블에 라벨을 붙여 케이블이 연결된 위치를 식별한 다음 대상 I/O 모듈에서 모든 케이블을 분리하십시오.
++
+[NOTE]
+====
+I/O 모듈에 오류가 발생해야 합니다(포트가 링크 다운 상태여야 함). 그러나 링크가 여전히 활성화되어 있고 마지막으로 작동하는 클러스터 포트가 포함되어 있는 경우 케이블을 분리하면 자동 테이크오버가 트리거됩니다.
+
+케이블을 분리한 후 5분 정도 기다려 테이크오버 또는 LIF 페일오버가 완전히 완료되었는지 확인한 후 이 절차를 진행하십시오.
+
+====
+. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=<number of hours down>h`
+
++
+예를 들어, 다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.
+
++
+`node2::> system node autosupport invoke -node * -type all -message MAINT=2h`
+
+. 파트너 노드가 테이크오버된 경우 자동 반환을 비활성화합니다.
++
+[cols="1,2"]
+|===
+| 만약... | 그러면... 
+
+
+ a| 
+어느 한쪽 컨트롤러가 자동으로 파트너를 인수한 경우
+ a| 
+자동 환불 비활성화:
+
+.. 파트너를 인수한 컨트롤러의 콘솔에서 다음 명령을 입력합니다.
++
+`storage failover modify -node local -auto-giveback false`
+
+.. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
+
+
+
+
+ a| 
+두 컨트롤러 모두 I/O(데이터 제공)를 실행하고 있습니다
+ a| 
+다음 단계로 이동합니다.
+
+|===
+. 장애가 발생한 I/O 모듈을 서비스에서 제거하고 전원을 꺼서 제거 준비를 합니다.
++
+.. 다음 명령을 입력하세요:
++
+`system controller slot module remove -node _impaired_node_name_ -slot _slot_number_`
+
+.. 입력하다 `y` _계속하시겠습니까?_라는 메시지가 표시되면
++
+예를 들어, 다음 명령은 node 2(손상된 컨트롤러)의 슬롯 7에 있는 장애가 발생한 모듈을 제거할 수 있도록 준비하고 제거해도 안전하다는 메시지를 표시합니다.
+
++
+[listing]
+----
+node2::> system controller slot module remove -node node2 -slot 7
+
+Warning: IO_2X_100GBE_NVDA_NIC module in slot 7 of node node2 will be powered off for removal.
+
+Do you want to continue? {y|n}: y
+
+The module has been successfully removed from service and powered off. It can now be safely removed.
+----
+
+
+. 장애가 발생한 I/O 모듈의 전원이 꺼져 있는지 확인합니다.
++
+`system controller slot module show`
+
++
+출력 결과에는 오류가 발생한 모듈과 해당 슬롯 번호에 대해  `_status_` 열에  `_powered-off_`이(가) 표시되어야 합니다.
+
+
+
+
+
+== 3단계: 장애가 발생한 I/O 모듈 핫 스왑
+
+장애가 발생한 I/O 모듈을 동등한 I/O 모듈로 핫 스왑하십시오.
+
+.단계
+. 아직 접지되지 않은 경우 올바르게 접지하십시오.
+. 케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.
+. 컨트롤러 모듈에서 I/O 모듈을 분리합니다.
++
+
+NOTE: 다음 그림은 수평 및 수직 I/O 모듈을 제거하는 방법을 보여줍니다. 일반적으로는 I/O 모듈 하나만 제거합니다.
+
++
+image::../media/drw_a1k_io_remove_replace_ieops-1382.svg[입출력 모듈을 분리합니다]
+
++
+[cols="1,4"]
+|===
+
+
+ a| 
+image:../media/icon_round_1.png["설명선 번호 1"]
+ a| 
+캠 잠금 버튼
+
+|===
++
+.. 캠 래치 버튼을 누릅니다.
+.. 캠 래치를 모듈에서 최대한 멀리 돌립니다.
+.. 손가락을 캠 레버 입구에 넣고 모듈을 컨트롤러 모듈에서 당겨 모듈을 분리합니다.
++
+I/O 모듈이 어느 슬롯에 장착되었는지 기록해 두십시오.
+
+
+
+. 입출력 모듈을 따로 보관해 둡니다.
+. 교체용 입출력 모듈을 타겟 슬롯에 설치합니다.
++
+.. 입출력 모듈을 슬롯의 가장자리에 맞춥니다.
+.. 모듈을 조심스럽게 슬롯에 밀어 넣고, 캠 래치를 위로 끝까지 돌려 모듈을 제자리에 잠급니다.
+
+
+. I/O 모듈에 케이블을 연결합니다.
+. 케이블 관리 트레이를 잠금 위치로 돌립니다.
+
+
+
+
+== 4단계: 교체 I/O 모듈을 온라인 상태로 전환합니다
+
+교체용 I/O 모듈을 온라인 상태로 전환하고, I/O 모듈 포트가 성공적으로 초기화되었는지 확인하고, 슬롯에 전원이 공급되는지 확인한 다음, I/O 모듈이 온라인 상태이고 인식되는지 확인합니다.
+
+.이 작업에 대해
+I/O 모듈을 교체하고 포트가 정상 상태로 돌아온 후 LIF가 교체된 I/O 모듈로 되돌아갑니다.
+
+.단계
+. 교체용 I/O 모듈을 온라인 상태로 전환합니다.
++
+.. 다음 명령을 입력하세요:
++
+`system controller slot module insert -node _impaired_node_name_ -slot _slot_number_`
+
+.. 입력하다 `y` _계속하시겠습니까?_라는 메시지가 표시되면
++
+출력 결과는 I/O 모듈이 성공적으로 온라인 상태(전원 켜짐, 초기화 및 서비스 투입)가 되었음을 확인해야 합니다.
+
++
+예를 들어, 다음 명령은 노드 2(손상된 컨트롤러)의 슬롯 7을 온라인 상태로 만들고 프로세스가 성공했다는 메시지를 표시합니다.
+
++
+[listing]
+----
+node2::> system controller slot module insert -node node2 -slot 7
+
+Warning: IO_2X_100GBE_NVDA_NIC module in slot 7 of node node2 will be powered on and initialized.
+
+Do you want to continue? {y|n}: `y`
+
+The module has been successfully powered on, initialized and placed into service.
+----
+
+
+. I/O 모듈의 각 포트가 성공적으로 초기화되었는지 확인하십시오.
++
+.. 손상된 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
++
+`event log show -event \*hotplug.init*`
+
++
+
+NOTE: 필요한 펌웨어 업데이트 및 포트 초기화에 몇 분 정도 소요될 수 있습니다.
+
++
+출력에는 하나 이상의 hotplug.init.success EMS 이벤트와 `_hotplug.init.success:_`  `_Event_`열에 I/O 모듈의 각 포트가 성공적으로 초기화되었음을 나타내는 내용이 표시되어야 합니다.
+
++
+예를 들어, 다음 출력은 I/O 포트 e7b 및 e7a에 대한 초기화가 성공했음을 보여줍니다.
+
++
+[listing]
+----
+node2::> event log show -event *hotplug.init*
+
+Time                Node             Severity      Event
+
+------------------- ---------------- ------------- ---------------------------
+
+7/11/2025 16:04:06  node2      NOTICE        hotplug.init.success: Initialization of ports "e7b" in slot 7 succeeded
+
+7/11/2025 16:04:06  node2      NOTICE        hotplug.init.success: Initialization of ports "e7a" in slot 7 succeeded
+
+2 entries were displayed.
+----
+.. 포트 초기화에 실패하면 EMS 로그를 검토하여 다음 단계를 확인하십시오.
+
+
+. I/O 모듈 슬롯에 전원이 공급되고 작동 준비가 완료되었는지 확인하십시오.
++
+`system controller slot module show`
+
++
+출력 결과에는 슬롯 상태가 `_powered-on_`로 표시되어야 하며, 이는 I/O 모듈 작동 준비가 완료되었음을 의미합니다.
+
+. I/O 모듈이 온라인 상태이고 인식되었는지 확인하십시오.
++
+손상된 컨트롤러의 콘솔에서 명령을 입력하세요:
+
++
+`system controller config show -node local -slot _slot_number_`
+
++
+I/O 모듈이 성공적으로 온라인 상태가 되어 인식되면 출력에는 슬롯의 포트 정보를 포함한 I/O 모듈 정보가 표시됩니다.
+
++
+예를 들어, 슬롯 7의 I/O 모듈에 대해 다음과 유사한 출력이 표시됩니다.
+
++
+[listing]
+----
+node2::> system controller config show -node local -slot 7
+
+Node: node2
+Sub- Device/
+Slot slot Information
+---- ---- -----------------------------
+   7    - Dual 40G/100G Ethernet Controller CX6-DX
+                  e7a MAC Address: d0:39:ea:59:69:74 (auto-100g_cr4-fd-up)
+                          QSFP Vendor:        CISCO-BIZLINK
+                          QSFP Part Number:   L45593-D218-D10
+                          QSFP Serial Number: LCC2807GJFM-B
+                  e7b MAC Address: d0:39:ea:59:69:75 (auto-100g_cr4-fd-up)
+                          QSFP Vendor:        CISCO-BIZLINK
+                          QSFP Part Number:   L45593-D218-D10
+                          QSFP Serial Number: LCC2809G26F-A
+                  Device Type:        CX6-DX PSID(NAP0000000027)
+                  Firmware Version:   22.44.1700
+                  Part Number:        111-05341
+                  Hardware Revision:  20
+                  Serial Number:      032403001370
+----
+
+
+
+
+== 5단계: 스토리지 시스템을 정상 작동 상태로 복원합니다.
+
+스토리지 시스템을 정상 작동 상태로 복원하려면 (필요에 따라) 테이크오버된 컨트롤러에 스토리지를 반환하고, (필요에 따라) 자동 반환 기능을 복원하고, LIF가 홈 포트에 있는지 확인하고, AutoSupport 자동 케이스 생성 기능을 다시 활성화하십시오.
+
+.단계
+. 스토리지 시스템에서 실행 중인 ONTAP 버전과 컨트롤러 상태에 따라 필요에 따라 인수된 컨트롤러에서 스토리지를 반환하고 자동 반환을 복원합니다.
++
+[cols="1,2"]
+|===
+| 만약... | 그러면... 
+
+
+ a| 
+어느 한쪽 컨트롤러가 자동으로 파트너를 인수한 경우
+ a| 
+.. 스토리지를 반환하여 테이크오버된 컨트롤러를 정상 작동 상태로 되돌립니다.
++
+`storage failover giveback -ofnode _controller that was taken over_name_`
+
+.. 인수된 컨트롤러의 콘솔에서 자동 반환을 복원합니다.
++
+`storage failover modify -node local -auto-giveback _true_`
+
+
+
+
+
+ a| 
+두 컨트롤러 모두 I/O(데이터 제공)를 실행하고 있습니다
+ a| 
+다음 단계로 이동합니다.
+
+|===
+. 논리 인터페이스가 홈 노드 및 포트에 보고하는지 확인합니다. `network interface show -is-home false`
++
+LIF가 FALSE로 표시되면 해당 LIF를 홈 포트로 되돌립니다. `network interface revert -vserver * -lif *`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=end`
+
+
+
+
+
+== 6단계: 장애가 발생한 부품을 NetApp에 반환
+
+키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

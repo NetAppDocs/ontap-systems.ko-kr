@@ -101,8 +101,8 @@ entries:
       url: "/fas50/io-module-overview.html"
     - title: 입출력 모듈을 추가합니다
       url: "/fas50/io-module-add.html"
-    - title: 핫스왑 클러스터/HA 모듈
-      url: "/fas50/io-module-hotswap-ha-slot4.html"
+    - title: 핫 스왑 I/O 모듈
+      url: "/fas50/io-module-hotswap.html"
     - title: 입출력 모듈을 교체합니다
       url: "/fas50/io-module-replace.html"
   - title: NV 배터리
