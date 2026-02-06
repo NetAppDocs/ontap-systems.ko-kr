@@ -207,3 +207,6 @@ NOTE: 이는 Onboard Key Manager를 처음 구성할 때 생성한 클러스터 
 --
 ====
 
+
+.다음 단계
+부팅 미디어에서 암호화 키 지원 및 상태를 확인한 후 다음을 link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]수행해야 합니다.

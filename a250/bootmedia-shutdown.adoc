@@ -1,20 +1,24 @@
 ---
 permalink: a250/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords: aff a250, shutdown 
+keywords: aff a250, shut down the controller 
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
-= 컨트롤러 AFF A250을 종료합니다
+= 수동 부팅 미디어 복구를 위해 컨트롤러를 종료하십시오 - AFF A250
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+자동 부팅 미디어 복구 프로세스 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A250 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.
+
+스토리지 시스템이 ONTAP 9.18.1 이상을 실행 중인 경우 link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"]을(를) 사용하십시오. 시스템이 이전 버전의 ONTAP를 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
+
 
 
 == 옵션 1: 대부분의 시스템
 
-[role="lead"]
 NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
 
 .단계
@@ -56,9 +60,7 @@ NOTE: 이 명령은 부팅 장치가 손상되었거나 작동하지 않는 경�
 
 
 
-== 옵션 2: MetroCluster의 시스템
-
-NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
+== 옵션 2: 시스템이 MetroCluster에 있습니다
 
 
 NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
@@ -105,3 +107,6 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 
 |===
 
+
+.다음 단계
+컨트롤러를 종료한 후 를 수행해야 link:bootmedia-replace.html["부팅 미디어를 교체합니다"]합니다.

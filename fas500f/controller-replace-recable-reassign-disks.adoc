@@ -11,6 +11,8 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 
 [role="lead"]
+FAS500f 시스템 구성 복원 및 확인을 완료한 후에는 시스템 케이블을 다시 연결하고 디스크를 재할당해야 합니다.
+
 스토리지를 재설정하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.
 
 
@@ -144,3 +146,6 @@ dr-group-id            cluster node           configuration-state
 . 각 컨트롤러에 대해 예상되는 볼륨이 'vol show-node-name'인지 확인합니다
 . 재부팅 시 자동 테이크오버 기능을 사용하지 않도록 설정한 경우 정상 컨트롤러에서 활성화하십시오. 'storage failover modify -node replacement -node -name -onreboot true'
 
+
+.다음 단계
+시스템 케이블을 다시 연결하고 디스크를 재할당한 후에는 link:controller-replace-restore-system-rma.html["컨트롤러 교체를 완료합니다"]을(를) 수행해야 합니다.

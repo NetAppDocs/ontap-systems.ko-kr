@@ -16,13 +16,30 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A250 유지 보수
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/a250/maintain-overview.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: AFF A250 부팅 미디어
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: AFF A250 부팅 미디어 자동화
     entries:
-    - title: 개요
-      url: "/a250/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/a250/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/a250/bootmedia-replace-requirements-bmr.html"
+    - title: 컨트롤러를 종료합니다
+      url: "/a250/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/a250/bootmedia-replace-bmr.html"
+    - title: 부팅 미디어의 이미지를 복원합니다
+      url: "/a250/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/a250/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: AFF 250 부트 미디어 설명서
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/a250/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a250/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
       url: "/a250/bootmedia-encryption-preshutdown-checks.html"
     - title: 손상된 컨트롤러를 종료합니다
@@ -38,9 +55,13 @@ entries:
   - title: 섀시
     pdf-filename: AFF A250 섀시
     entries:
-    - title: 개요
-      url: "/a250/chassis-replace-overview.html"
-    - title: 손상된 컨트롤러를 종료합니다
+    - title: 섀시 교체 워크플로우
+      url: "/a250/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a250/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/a250/chassis-replace-prepare.html"
+    - title: 컨트롤러를 종료합니다
       url: "/a250/chassis-replace-shutdown.html"
     - title: 섀시를 교체합니다
       url: "/a250/chassis-replace-move-hardware.html"
@@ -49,8 +70,10 @@ entries:
   - title: 컨트롤러
     pdf-filename: AFF A250 컨트롤러 모듈
     entries:
-    - title: 개요
-      url: "/a250/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/a250/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a250/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a250/controller-replace-shutdown.html"
     - title: 컨트롤러를 교체합니다
@@ -59,7 +82,7 @@ entries:
       url: "/a250/controller-replace-system-config-restore-and-verify.html"
     - title: 회수 가능 시스템
       url: "/a250/controller-replace-recable-reassign-disks.html"
-    - title: 시스템 복원을 완료합니다
+    - title: 전체 컨트롤러 교체
       url: "/a250/controller-replace-restore-system-rma.html"
   - title: DIMM
     url: "/a250/dimm-replace.html"

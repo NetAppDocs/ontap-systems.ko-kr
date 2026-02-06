@@ -4,13 +4,17 @@ sidebar: sidebar
 keywords: aff a250, replace the boot media 
 summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 공기 덕트를 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다. 
 ---
-= 부팅 미디어(AFF A250)를 교체합니다
+= 부팅 미디어를 교체하고 수동 부팅 복구를 준비하십시오 - AFF A250
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A250 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 System Management 모듈을 제거하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 설치하고, USB 플래시 드라이브를 사용하여 ONTAP 이미지를 교체용 부팅 미디어로 수동으로 전송하는 단계로 진행됩니다.
+
+스토리지 시스템이 ONTAP 9.18.1 이상을 실행 중인 경우 link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"]을(를) 사용하십시오. 시스템이 이전 버전의 ONTAP를 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
+
 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
 
 
@@ -217,3 +221,6 @@ USB 콘솔 포트가 아니라 USB 장치용 슬롯에 USB 플래시 드라이�
 
 
 
+
+.다음 단계
+부팅 미디어를 교체한 후 을 수행해야 link:bootmedia-recovery-image-boot.html["복구 이미지를 부팅합니다"]합니다.

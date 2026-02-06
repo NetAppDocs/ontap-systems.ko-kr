@@ -1,0 +1,43 @@
+---
+permalink: asa250/chassis-replace-prepare.html 
+sidebar: sidebar 
+keywords: asa a250, replace the chassis 
+summary: ASA A250 시스템에서 손상된 섀시를 교체하기 위해 준비하려면 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여야 합니다. 
+---
+= 섀시 교체 준비 - ASA A250
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ASA A250 시스템에서 손상된 섀시를 교체하기 위해 준비하려면 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여야 합니다.
+
+.단계
+. 직렬 콘솔 포트에 연결하여 와 인터페이스하고 시스템을 모니터링합니다.
+. 컨트롤러의 위치 LED를 켜세요:
++
+.. 사용하다 `system controller location-led show` 위치 LED의 현재 상태를 표시하는 명령입니다.
+.. 위치 LED를 켜세요:
++
+`system controller location-led modify -node _node1_ -state on`
+
++
+위치 LED가 30분 동안 켜져 있습니다.
+
+
+
+. 포장을 열기 전에 포장 라벨을 살펴보고 다음 사항을 확인하세요.
++
+** 구성품 부품 번호
+** 부품 설명
+** 상자 내 수량
+
+
+. 포장에서 내용물을 꺼내고, 포장은 고장난 구성 요소를 NetApp 으로 반품할 때 보관합니다.
+. 저장 시스템에 연결된 모든 케이블에 라벨을 붙이세요.  이렇게 하면 나중에 이 절차에서 적절한 재배선이 보장됩니다.
+. 아직 접지되어 있지 않다면 접지하세요.
+
+
+.다음 단계
+ASA A250 섀시 하드웨어 교체 준비를 마친 후 link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]해야 합니다.

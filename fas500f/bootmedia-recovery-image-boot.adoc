@@ -1,0 +1,109 @@
+---
+permalink: fas500f/bootmedia-recovery-image-boot.html 
+sidebar: sidebar 
+keywords: fas500f, boot the recovery image 
+summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
+---
+= USB 드라이브에서 수동 부팅 미디어 복구 - FAS500f
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FAS500f 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 부팅하여 파트너 노드의 구성을 복원할 수 있습니다.
+
+스토리지 시스템이 ONTAP 9.18.1 이상을 실행 중인 경우 link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"]을(를) 사용하십시오. 시스템이 이전 버전의 ONTAP를 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
+
+.시작하기 전에
+* 콘솔이 손상된 컨트롤러에 연결되어 있는지 확인하세요.
+* 복구 이미지가 포함된 USB 플래시 드라이브가 있는지 확인하세요.
+* 시스템이 암호화를 사용하는지 확인하세요.  암호화가 활성화되어 있는지 여부에 따라 3단계에서 적절한 옵션을 선택해야 합니다.
+
+
+.단계
+. 손상된 컨트롤러의 LOADER 프롬프트에서 USB 플래시 드라이브에서 복구 이미지를 부팅합니다.
++
+`boot_recovery`
+
++
+복구 이미지는 USB 플래시 드라이브에서 다운로드됩니다.
+
+. 메시지가 표시되면 이미지 이름을 입력하거나 *Enter*를 눌러 괄호 안에 표시된 기본 이미지를 적용합니다.
+. ONTAP 버전에 맞는 절차를 사용하여 var 파일 시스템을 복원합니다.
++
+[role="tabbed-block"]
+====
+.ONTAP 9.16.0 이하
+--
+손상된 컨트롤러와 파트너 컨트롤러에서 다음 단계를 완료하세요.
+
+.. *손상된 컨트롤러에서:* 누르기 `Y` 당신이 볼 때 `Do you want to restore the backup configuration now?`
+.. *손상된 컨트롤러에서:* 메시지가 표시되면 다음을 누르세요. `Y` _/etc/ssh/ssh_host_ecdsa_key_를 덮어씁니다.
+.. *파트너 컨트롤러에서:* 손상된 컨트롤러를 고급 권한 수준으로 설정합니다.
++
+`set -privilege advanced`
+
+.. *파트너 컨트롤러에서:* 백업 복원 명령을 실행합니다.
++
+`system node restore-backup -node local -target-address _impaired_node_IP_address_`
+
++
+
+NOTE: 성공적인 복원 외의 메시지가 표시되면 NetApp 지원팀에 문의하세요.
+
+.. *파트너 컨트롤러에서:* 관리자 수준으로 돌아가기:
++
+`set -privilege admin`
+
+.. *손상된 컨트롤러에서:* 누르기 `Y` 당신이 볼 때 `Was the restore backup procedure successful?`
+.. *손상된 컨트롤러에서:* 누르기 `Y` 당신이 볼 때 `...would you like to use this restored copy now?`
+.. *손상된 컨트롤러에서:* 누르기 `Y` 재부팅하라는 메시지가 표시되면 다음을 누르세요. `Ctrl-C` 부팅 메뉴가 보일 때.
+.. *손상된 컨트롤러에서:* 다음 중 하나를 수행하세요.
++
+*** 시스템이 암호화를 사용하지 않는 경우 부팅 메뉴에서 _옵션 1 일반 부팅_을 선택하세요.
+*** 시스템이 암호화를 사용하는 경우 다음으로 이동하세요.link:bootmedia-encryption-restore.html["암호화를 복원합니다"] .
+
+
+
+
+--
+.ONTAP 9.16.1 이상
+--
+손상된 컨트롤러에서 다음 단계를 완료하세요.
+
+.. 백업 구성을 복원하라는 메시지가 나타나면 키를 `Y` 누릅니다.
++
+복원 절차가 성공적으로 완료되면 다음 메시지가 표시됩니다. `syncflash_partner: Restore from partner complete`
+
+.. 누르다 `Y` 복원 백업이 성공했는지 확인하라는 메시지가 표시됩니다.
+.. 누르다 `Y` 복원된 구성을 사용하라는 메시지가 표시되면.
+.. 누르다 `Y` 노드를 재부팅하라는 메시지가 표시됩니다.
+.. 누르다 `Y` 다시 재부팅하라는 메시지가 표시되면 다음을 누르세요. `Ctrl-C` 부팅 메뉴가 보일 때.
+.. 다음 중 하나를 수행합니다.
++
+*** 시스템이 암호화를 사용하지 않는 경우 부팅 메뉴에서 _옵션 1 일반 부팅_을 선택하세요.
+*** 시스템이 암호화를 사용하는 경우 다음으로 이동하세요.link:bootmedia-encryption-restore.html["암호화를 복원합니다"] .
+
+
+
+
+--
+====
+. 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
+. 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
++
+`storage failover giveback -fromnode local`
+
+. 자동 환불을 비활성화한 경우 다시 활성화하세요.
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+.다음 단계
+복구 이미지를 부팅한 후 필요한 작업을 link:bootmedia-encryption-restore.html["부팅 미디어에서 암호화를 복원합니다"]수행해야 합니다.

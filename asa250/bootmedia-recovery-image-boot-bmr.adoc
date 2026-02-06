@@ -1,0 +1,304 @@
+---
+permalink: asa250/bootmedia-recovery-image-boot-bmr.html 
+sidebar: sidebar 
+keywords: asa a250, boot the recovery image 
+summary: ASA A250 시스템에 새 부팅 미디어 장치를 설치한 후 자동 부팅 미디어 복구 프로세스를 시작하여 파트너 노드에서 구성을 복원할 수 있습니다. 
+---
+= 파트너 노드에서 자동화된 부팅 미디어 복구 - ASA A250
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ASA A250 시스템에 새 부팅 미디어 장치를 설치한 후 자동 부팅 미디어 복구 프로세스를 시작하여 파트너 노드의 구성을 복원할 수 있습니다. 복구 프로세스 중에 시스템은 암호화가 활성화되어 있는지 확인하고 사용 중인 키 암호화 유형을 파악합니다. 키 암호화가 활성화된 경우 시스템은 복원에 필요한 적절한 단계를 안내합니다.
+
+자동 부팅 미디어 복구 프로세스는 ONTAP 9.18.1 이상에서만 지원됩니다. 스토리지 시스템이 이전 버전의 ONTAP를 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"]을 사용하십시오.
+
+.시작하기 전에
+* 주요 관리자 유형을 확인하세요.
++
+** Onboard Key Manager(OKM): 클러스터 전체 암호 및 백업 데이터가 필요합니다.
+** 외부 키 관리자(EKM): 파트너 노드에서 다음 파일이 필요합니다.
++
+*** `/cfcard/kmip/servers.cfg`
+*** `/cfcard/kmip/certs/client.crt`
+*** `/cfcard/kmip/certs/client.key`
+*** `/cfcard/kmip/certs/CA.pem`
+
+
+
+
+
+
+.단계
+. LOADER 프롬프트에서 부팅 미디어 복구 프로세스를 시작합니다.
++
+`boot_recovery -partner`
+
++
+화면에 다음 메시지가 표시됩니다.
+
++
+`Starting boot media recovery (BMR) process. Press Ctrl-C to abort…`
+
+. 부팅 미디어 설치 복구 프로세스를 모니터링합니다.
++
+프로세스가 완료되고 `Installation complete` 메시지가 표시됩니다.
+
+. 시스템은 암호화를 확인하고 다음 메시지 중 하나를 표시합니다.
++
+[cols="1,2"]
+|===
+| 이 메시지가 표시되는 경우... | 수행할 작업... 
+
+
+ a| 
+`key manager is not configured. Exiting.`
+ a| 
+시스템에 암호화가 설치되어 있지 않습니다.
+
+.. 로그인 프롬프트가 표시될 때까지 기다리세요.
+.. 노드에 로그인하여 저장 공간을 반환하세요.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+.. 로 가다 <<reenable-auto-giveback,자동 환불 다시 활성화>> 비활성화된 경우.
+
+
+
+
+ a| 
+`key manager is configured.`
+ a| 
+암호화가 설치되었습니다. 로 가다<<restore-key-manager,키 관리자 복원>> .
+
+|===
++
+
+NOTE: 시스템이 키 관리자 구성을 식별할 수 없는 경우 오류 메시지를 표시하고 키 관리자가 구성되어 있는지, 어떤 유형(온보드 또는 외부)인지 확인하라는 메시지가 표시됩니다.  계속하려면 메시지에 답하세요.
+
+. [[restore-key-manager]] 구성에 적합한 절차를 사용하여 키 관리자를 복원합니다.
++
+[role="tabbed-block"]
+====
+.온보드 키 관리자(OKM)
+--
+시스템은 다음 메시지를 표시하고 BootMenu 옵션 10을 실행하기 시작합니다.
+
+....
+key manager is configured.
+Entering Bootmenu Option 10...
+
+This option must be used only in disaster recovery procedures. Are you sure? (y or n):
+....
+.. 입력하다 `y` OKM 복구 프로세스를 시작할 것인지 확인하는 메시지가 표시됩니다.
+.. 메시지가 표시되면 온보드 키 관리에 대한 암호를 입력하세요.
+.. 확인 메시지가 나타나면 암호를 다시 입력하세요.
+.. 메시지가 표시되면 온보드 키 관리자에 대한 백업 데이터를 입력하세요.
++
+.암호문구 및 백업 데이터 프롬프트의 예를 보여주세요
+[%collapsible]
+=====
+....
+Enter the passphrase for onboard key management:
+-----BEGIN PASSPHRASE-----
+<passphrase_value>
+-----END PASSPHRASE-----
+Enter the passphrase again to confirm:
+-----BEGIN PASSPHRASE-----
+<passphrase_value>
+-----END PASSPHRASE-----
+Enter the backup data:
+-----BEGIN BACKUP-----
+<passphrase_value>
+-----END BACKUP-----
+....
+=====
+.. 파트너 노드에서 적절한 파일을 복원하면서 복구 프로세스를 모니터링합니다.
++
+복구 프로세스가 완료되면 노드가 재부팅됩니다.  다음 메시지는 복구가 성공했음을 나타냅니다.
+
++
+....
+Trying to recover keymanager secrets....
+Setting recovery material for the onboard key manager
+Recovery secrets set successfully
+Trying to delete any existing km_onboard.keydb file.
+
+Successfully recovered keymanager secrets.
+....
+.. 노드를 재부팅한 후 시스템이 다시 온라인 상태가 되고 작동하는지 확인하세요.
+.. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+.. 파트너 노드가 완전히 작동하고 데이터를 제공하면 클러스터 전체에서 OKM 키를 동기화합니다.
++
+`security key-manager onboard sync`
+
++
+로 가다 <<reenable-auto-giveback,자동 환불 다시 활성화>> 비활성화된 경우.
+
+
+
+--
+.외부 키 관리자(EKM)
+--
+시스템은 다음 메시지를 표시하고 BootMenu 옵션 11을 실행하기 시작합니다.
+
+....
+key manager is configured.
+Entering Bootmenu Option 11...
+....
+.. 메시지가 표시되면 EKM 구성 설정을 입력합니다.
++
+... 클라이언트 인증서 내용을 입력하세요. `/cfcard/kmip/certs/client.crt` 파일:
++
+.클라이언트 인증서 내용의 예를 표시합니다
+[%collapsible]
+=====
+....
+-----BEGIN CERTIFICATE-----
+<certificate_value>
+-----END CERTIFICATE-----
+....
+=====
+... 클라이언트 키 파일 내용을 입력하십시오. `/cfcard/kmip/certs/client.key` 파일:
++
+.클라이언트 키 파일 내용의 예를 보여 줍니다
+[%collapsible]
+=====
+....
+-----BEGIN RSA PRIVATE KEY-----
+<key_value>
+-----END RSA PRIVATE KEY-----
+....
+=====
+... KMIP 서버 CA(s) 파일 내용을 입력하십시오. `/cfcard/kmip/certs/CA.pem` 파일:
++
+.KMIP 서버 파일 내용의 예를 보여줍니다
+[%collapsible]
+=====
+....
+-----BEGIN CERTIFICATE-----
+<KMIP_certificate_CA_value>
+-----END CERTIFICATE-----
+....
+=====
+... 서버 구성 파일 내용을 입력하십시오. `/cfcard/kmip/servers.cfg` 파일:
++
+.서버 구성 파일 내용의 예를 보여 줍니다
+[%collapsible]
+=====
+....
+xxx.xxx.xxx.xxx:5696.host=xxx.xxx.xxx.xxx
+xxx.xxx.xxx.xxx:5696.port=5696
+xxx.xxx.xxx.xxx:5696.trusted_file=/cfcard/kmip/certs/CA.pem
+xxx.xxx.xxx.xxx:5696.protocol=KMIP1_4
+1xxx.xxx.xxx.xxx:5696.timeout=25
+xxx.xxx.xxx.xxx:5696.nbio=1
+xxx.xxx.xxx.xxx:5696.cert_file=/cfcard/kmip/certs/client.crt
+xxx.xxx.xxx.xxx:5696.key_file=/cfcard/kmip/certs/client.key
+xxx.xxx.xxx.xxx:5696.ciphers="TLSv1.2:kRSA:!CAMELLIA:!IDEA:!RC2:!RC4:!SEED:!eNULL:!aNULL"
+xxx.xxx.xxx.xxx:5696.verify=true
+xxx.xxx.xxx.xxx:5696.netapp_keystore_uuid=<id_value>
+....
+=====
+... 메시지가 표시되면 파트너 노드의 ONTAP 클러스터 UUID를 입력합니다.  파트너 노드에서 클러스터 UUID를 확인할 수 있습니다. `cluster identify show` 명령.
++
+.ONTAP 클러스터 UUID 프롬프트의 예를 보여주세요
+[%collapsible]
+=====
+....
+Notice: bootarg.mgwd.cluster_uuid is not set or is empty.
+Do you know the ONTAP Cluster UUID? {y/n} y
+Enter the ONTAP Cluster UUID: <cluster_uuid_value>
+
+
+System is ready to utilize external key manager(s).
+....
+=====
+... 메시지가 표시되면 노드의 임시 네트워크 인터페이스와 설정을 입력합니다.
++
+**** 포트의 IP 주소
+**** 포트의 넷마스크
+**** 기본 게이트웨이의 IP 주소
++
+.임시 네트워크 설정 프롬프트의 예를 보여주세요
+[%collapsible]
+=====
+....
+In order to recover key information, a temporary network interface needs to be
+configured.
+
+Select the network port you want to use (for example, 'e0a')
+e0M
+
+Enter the IP address for port : xxx.xxx.xxx.xxx
+Enter the netmask for port : xxx.xxx.xxx.xxx
+Enter IP address of default gateway: xxx.xxx.xxx.xxx
+Trying to recover keys from key servers....
+[discover_versions]
+[status=SUCCESS reason= message=]
+....
+=====
+
+
+
+
+.. 키 복원 상태를 확인하세요.
++
+*** 당신이 보면 `kmip2_client: Successfully imported the keys from external key server: xxx.xxx.xxx.xxx:5696` 출력에서 EKM 구성이 성공적으로 복원되었습니다.  이 프로세스는 파트너 노드에서 적절한 파일을 복원하고 노드를 재부팅합니다.  다음 단계로 넘어가세요.
+*** 키가 성공적으로 복구되지 않으면 시스템이 중단되고 오류 및 경고 메시지가 표시됩니다.  LOADER 프롬프트에서 복구 프로세스를 다시 실행합니다. `boot_recovery -partner`
++
+.키 복구 오류 및 경고 메시지의 예를 표시합니다
+[%collapsible]
+=====
+....
+ERROR: kmip_init: halting this system with encrypted mroot...
+WARNING: kmip_init: authentication keys might not be available.
+********************************************************
+*                 A T T E N T I O N                    *
+*                                                      *
+*       System cannot connect to key managers.         *
+*                                                      *
+********************************************************
+ERROR: kmip_init: halting this system with encrypted mroot...
+.
+Terminated
+
+Uptime: 11m32s
+System halting...
+
+LOADER-B>
+....
+=====
+
+
+.. 노드를 재부팅한 후 시스템이 다시 온라인 상태가 되고 작동하는지 확인하세요.
+.. 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
++
+로 가다 <<reenable-auto-giveback,자동 환불 다시 활성화>> 비활성화된 경우.
+
+
+
+--
+====
+
+
+. [[reenable-auto-giveback]]자동 반환이 비활성화된 경우 다시 활성화합니다.
++
+`storage failover modify -node local -auto-giveback true`
+
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
++
+`system node autosupport invoke -node * -type all -message MAINT=END`
+
+
+
+.다음 단계
+ONTAP 이미지를 복원하고 노드가 가동되어 데이터를 제공하고 나면link:bootmedia-complete-rma-bmr.html["결함이 있는 부품을 NetApp로 반환합니다"]

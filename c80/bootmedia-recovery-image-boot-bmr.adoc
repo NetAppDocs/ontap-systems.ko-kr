@@ -78,10 +78,7 @@ AFF C80 스토리지 시스템에 새 부트 미디어 장치를 설치한 후, 
 
 NOTE: 시스템이 키 관리자 구성을 식별할 수 없는 경우 오류 메시지를 표시하고 키 관리자가 구성되어 있는지, 어떤 유형(온보드 또는 외부)인지 확인하라는 메시지가 표시됩니다.  계속하려면 메시지에 답하세요.
 
-
-
-[[restore-key-manager]]
-. 구성에 맞는 적절한 절차를 사용하여 키 관리자를 복원하세요.
+. [[restore-key-manager]] 구성에 적합한 절차를 사용하여 키 관리자를 복원합니다.
 +
 [role="tabbed-block"]
 ====
@@ -293,8 +290,7 @@ LOADER-B>
 ====
 
 
-[[reenable-auto-giveback]]
-. 자동 반환이 비활성화된 경우 다시 활성화하십시오.
+. [[reenable-auto-giveback]]자동 반환이 비활성화된 경우 다시 활성화합니다.
 +
 `storage failover modify -node local -auto-giveback true`
 

@@ -1,0 +1,34 @@
+---
+permalink: a250/chassis-replace-workflow.html 
+sidebar: sidebar 
+keywords: aff a250, replace the chassis workflow 
+summary: AFF A250 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작동을 확인하십시오. 
+---
+= 섀시 교체 워크플로 - AFF A250
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AFF A250 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작동을 확인하십시오.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-requirements.html["섀시 교체 요구 사항 검토"]
+[role="quick-margin-para"]
+시스템 호환성, 필요한 도구, ONTAP 자격 증명, 구성 요소 기능 검증을 포함한 섀시 교체 요구 사항을 검토합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:chassis-replace-prepare.html["섀시 교체 준비"]
+[role="quick-margin-para"]
+시스템 위치 파악, 자격 증명 및 도구 수집, 교체 섀시 확인, 케이블 레이블링 등을 통해 섀시 교체를 준비합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3가지"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+섀시 유지관리를 안전하게 수행하려면 컨트롤러를 종료하세요.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:chassis-replace-move-hardware.html["섀시를 교체합니다"]
+[role="quick-margin-para"]
+손상된 섀시에서 교체 섀시로 구성 요소를 옮깁니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]
+[role="quick-margin-para"]
+컨트롤러를 부팅하고, Giveback을 수행하고, 실패한 섀시를 NetApp 으로 반환하여 교체를 완료합니다.

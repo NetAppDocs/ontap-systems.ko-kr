@@ -11,6 +11,8 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 
 
 [role="lead"]
+ASA A250 스토리지 시스템의 컨트롤러를 종료하여 섀시를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 보장하십시오.
+
 이 절차는 2개 노드 구성이 있는 시스템을 위한 것입니다. 클러스터를 서비스할 때 정상 종료에 대한 자세한 내용은 을 참조하십시오 https://kb.netapp.com/on-prem/ontap/OHW/OHW-KBs/What_is_the_procedure_for_graceful_shutdown_and_power_up_of_a_storage_system_during_scheduled_power_outage["스토리지 시스템을 정상적으로 종료하고 전원을 켭니다. 해결 가이드 - NetApp 기술 자료"].
 
 .시작하기 전에
@@ -64,3 +66,6 @@ NOTE: StrictSync 모드에서 운영되는 SnapMirror 동기식 클러스터를 
 
 . 각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.
 
+
+.다음 단계
+컨트롤러를 종료한 후,link:chassis-replace-move-hardware.html["섀시를 교체합니다"] .

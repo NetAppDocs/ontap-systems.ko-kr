@@ -65,7 +65,9 @@ entries:
       url: "/fas50/chassis-replace-workflow.html"
     - title: 요구사항 검토
       url: "/fas50/chassis-replace-requirements.html"
-    - title: 컨트롤러를 종료합니다
+    - title: 섀시 교체를 준비하세요
+      url: "/fas50/chassis-replace-prepare.html"
+    - title: 손상된 컨트롤러를 종료합니다
       url: "/fas50/chassis-replace-shutdown.html"
     - title: 섀시를 교체합니다
       url: "/fas50/chassis-replace-move-hardware.html"

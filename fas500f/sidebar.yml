@@ -16,21 +16,38 @@ entries:
 - title: 유지 관리
   pdf-filename: 500f의 유지 관리
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/fas500f/maintain-overview.html"
-  - title: 미디어를 부팅합니다
-    pdf-filename: FAS500f 부팅 미디어
+  - title: 부팅 미디어 - 자동 복구
+    pdf-filename: FAS500f 부팅 미디어 자동화
     entries:
-    - title: 개요
-      url: "/fas500f/bootmedia-replace-overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas500f/bootmedia-replace-workflow-bmr.html"
+    - title: 요구사항 검토
+      url: "/fas500f/bootmedia-replace-requirements-bmr.html"
+    - title: 손상된 컨트롤러를 종료합니다
+      url: "/fas500f/bootmedia-shutdown-bmr.html"
+    - title: 부팅 미디어를 교체합니다
+      url: "/fas500f/bootmedia-replace-bmr.html"
+    - title: 부팅 복구 이미지
+      url: "/fas500f/bootmedia-recovery-image-boot-bmr.html"
+    - title: 오류가 발생한 부품을 NetApp으로 반환합니다
+      url: "/fas500f/bootmedia-complete-rma-bmr.html"
+  - title: 부팅 미디어 - 수동 복구
+    pdf-filename: FAS500f 부팅 미디어 설명서
+    entries:
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/fas500f/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas500f/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
       url: "/fas500f/bootmedia-encryption-preshutdown-checks.html"
-    - title: 노드를 종료합니다
+    - title: 손상된 컨트롤러를 종료합니다
       url: "/fas500f/bootmedia-shutdown.html"
-    - title: 부팅 이미지를 교체합니다
+    - title: 부팅 미디어를 교체합니다
       url: "/fas500f/bootmedia-replace.html"
     - title: 부팅 복구 이미지
-      url: "/fas500f/bootmedia-recovery-image-boot-non-2n-mcc.html"
+      url: "/fas500f/bootmedia-recovery-image-boot.html"
     - title: 암호화를 복원합니다
       url: "/fas500f/bootmedia-encryption-restore.html"
     - title: 오류가 발생한 부품을 NetApp으로 반환합니다
@@ -38,28 +55,34 @@ entries:
   - title: 섀시
     pdf-filename: FAS500f 섀시
     entries:
-    - title: 개요
-      url: "/fas500f/chassis-replace-overview.html"
-    - title: 손상된 컨트롤러를 종료합니다
+    - title: 섀시 교체 워크플로우
+      url: "/fas500f/chassis-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas500f/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/fas500f/chassis-replace-prepare.html"
+    - title: 컨트롤러를 종료합니다
       url: "/fas500f/chassis-replace-shutdown.html"
-    - title: 하드웨어를 교체합니다
+    - title: 섀시를 교체합니다
       url: "/fas500f/chassis-replace-move-hardware.html"
-    - title: 전체 교체
+    - title: 섀시 교체를 완료합니다
       url: "/fas500f/chassis-replace-complete-system-restore-rma.html"
   - title: 컨트롤러
     pdf-filename: 500f 컨트롤러 모듈
     entries:
-    - title: 개요
-      url: "/fas500f/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/fas500f/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas500f/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas500f/controller-replace-shutdown.html"
-    - title: 컨트롤러 모듈을 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/fas500f/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/fas500f/controller-replace-system-config-restore-and-verify.html"
     - title: 회수 가능 시스템
       url: "/fas500f/controller-replace-recable-reassign-disks.html"
-    - title: 시스템 복원을 완료합니다
+    - title: 전체 컨트롤러 교체
       url: "/fas500f/controller-replace-restore-system-rma.html"
   - title: DIMM
     url: "/fas500f/dimm-replace.html"
@@ -70,8 +93,10 @@ entries:
   - title: 메자닌 카드
     url: "/fas500f/mezzanine-replace.html"
   - title: NVMEM 배터리
-    url: "/fas500f/nvmem-battery-replace.html"
+    url: "/fas500f/nvmem-nvram-battery-replace.html"
   - title: 전원 공급 장치
     url: "/fas500f/power-supply-replace.html"
   - title: 실시간 시계 배터리
     url: "/fas500f/rtc-battery-replace.html"
+- title: 주요 사양
+  url: "/fas500f/overview.html"
