@@ -250,7 +250,7 @@ NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습
 
 NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
 
-. HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.
+. HA 인터커넥트 링크가 다운된 경우 다시 활성화하십시오.
 +
 `system ha interconnect link on -node healthy-node -link 0`
 
