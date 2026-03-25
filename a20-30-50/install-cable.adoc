@@ -280,7 +280,7 @@ image::../media/drw_isi_a30-50_host_2p_40-100gbe_1card_cabling_ieops-1923.svg[40
 [%collapsible]
 =====
 .단계
-. 각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.
+. 각 컨트롤러에서 케이블 포트 2a, 2b, 2c 및 2d를 FC 호스트 네트워크 스위치에 연결합니다.
 +
 * 64 Gb/s FC 케이블 *
 

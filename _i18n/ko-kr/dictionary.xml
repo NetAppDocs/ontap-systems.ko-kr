@@ -5332,12 +5332,7 @@
   <block id="68d685ddbaa25f1a411d5e93d6f91913" category="list-text">ONTAP에 대한 로컬 관리자 자격 증명입니다.</block>
   <block id="d6562c849f41b9038124f0c304aed030" category="list-text">모든 클라이언트/호스트에서 NetApp 시스템의 데이터에 액세스하지 못하도록 합니다.</block>
   <block id="d61b46d9cd719b77efb76269147aa377" category="list-text">외부 백업 작업을 일시 중지합니다.</block>
-  <block id="356bf392971487f892daba5338258571" category="paragraph">시스템을 종료하기 전에 다음을 수행해야 합니다.</block>
-  <block id="2ee5edc561a6167cf2d57a64ee655bef" category="inline-link">시스템 상태 점검</block>
-  <block id="7023017d0098f741d6569842ee62b922" category="list-text">추가 를 수행합니다<block ref="9ace058273de133e6accbea83a7d278a" category="inline-link-rx"></block>.</block>
-  <block id="f40b8507b340a958be200bec6d3758a0" category="list-text">ONTAP를 시스템의 권장 릴리스로 업그레이드합니다.</block>
   <block id="9f4d2068e7b3d206efc0252b3da597a5" category="inline-link">Active IQ Wellness 알림 및 위험</block>
-  <block id="c5df4dcae9a001142a36959487445ff6" category="list-text">모두 해결<block ref="31b25beca26cb366eeb0665e3c0d7cbf" category="inline-link-rx"></block>. 시스템 구성 요소의 LED와 같은 현재 시스템에 있는 모든 결함을 기록해 둡니다.</block>
   <block id="3923b7d5100131c85be2160c8b680704" category="list-text">SSH를 통해 클러스터에 로그인하거나 로컬 콘솔 케이블과 랩톱/콘솔을 사용하여 클러스터의 노드에서 로그인합니다.</block>
   <block id="0d16db60da2c01b63ef84ee8d616c2fb" category="paragraph"><block ref="b206d268f79aeaa7c4f1e44684d2f080" prefix="" category="inline-code"></block></block>
   <block id="a39c8c38e51a42fcfaac22367dd19064" category="list-text">각 컨트롤러가 멈출 때까지 기다린 후 LOADER 프롬프트가 표시됩니다.</block>
@@ -7474,7 +7469,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0be7ecaeb710959e64858a36fa1f8783" category="inline-link">AFF A1K 를 참조하십시오</block>
   <block id="c61e96543ff55077f64d8dd03940c2c6" category="inline-link">AFF A70 를 참조하십시오</block>
   <block id="8cd7d5cbedf290a9b729cc263d9b289c" category="paragraph">ONTAP 9.15.1</block>
-  <block id="3fa7c0866aba2253b800fb8f1b9d08dc" category="list-text">각 컨트롤러에 대한 BMC 접근성</block>
   <block id="ac632c351c050929564cd7a72c3d383a" category="doc">손상된 컨트롤러를 종료합니다. - AFF A1K을 종료합니다</block>
   <block id="a4fbb291103a5430eb9ece2393c095a4" category="doc">컨트롤러 - AFF A1K를 돌려줍니다</block>
   <block id="fb829c49a3a2da88fb46330449bb960d" category="summary">시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다. RMA 번호 또는 교체 절차에 대한 추가 도움이 필요한 경우 기술 지원 부서(888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양))으로 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
@@ -8757,7 +8751,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9959e1ea8c67446c566e6a371f9e14cb" category="list-text">손상된 컨트롤러에서 복원이 성공했는지 확인하는 메시지가 나타나면 키를 누릅니다<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block>.</block>
   <block id="b883391d9dfbf834ff0bda07a53554f5" category="list-text">손상된 컨트롤러에서 복원된 구성을 사용하라는 메시지가 나타나면 를<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block> 누릅니다.</block>
   <block id="d0ec0afe83814a07fcdbf02b0d2e2e8b" category="list-text">손상된 컨트롤러에서 노드를 재부팅하라는 메시지가 표시되면 키를 누릅니다<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block>.</block>
-  <block id="cd979ca520736846558f2b04a04b63da" category="paragraph">콘솔/랩톱을 사용하는 경우 동일한 클러스터 관리자 자격 증명을 사용하여 컨트롤러에 로그인합니다.</block>
   <block id="4250e5b5781f94ff901cc1822461f6ae" category="doc">시스템 관리 모듈 교체 - AFF A1K</block>
   <block id="b1b14a007e6d27cacb6cbf9837dd5e7e" category="doc">AFF A70와 AFF A90 같은 컨트롤러를 반납합니다</block>
   <block id="4443f66d8d4febc600e0d4d0b3b0db91" category="doc">컨트롤러 - ASA A70 및 ASA A90을 돌려줍니다</block>
@@ -9399,7 +9392,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7329bfa51dec924de206ced093bea600" category="paragraph">* 40/100 GbE 케이블 *</block>
   <block id="8f31147c7cfeb7520dc9739e31dedc90" category="image-alt">40/100 Gb 케이블</block>
   <block id="ec83c89c1bfd1fa2fe72db4df75b0e43" category="image-alt">40/100GbE 이더넷 호스트 네트워크 스위치에 케이블 연결</block>
-  <block id="8f03269dbdbab70bab244893051fb6ec" category="paragraph">각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.</block>
   <block id="241c17a1be2cc4feae5c8c6007f8aed3" category="paragraph">* 64 Gb/s FC 케이블 *</block>
   <block id="176084e0e3d1d8b98919ade28704bd7b" category="inline-image-macro">64Gb FC 케이블, 폭 = 100px</block>
   <block id="0174aef3c6edce25256f90638a06bdca" category="paragraph"><block ref="0174aef3c6edce25256f90638a06bdca" category="inline-image-macro-rx" type="image"></block></block>
@@ -9867,7 +9859,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4288b2b72921e4670bb8b42ba6a5248d" category="list-text">모든 클러스터 노드의 SP/BMC 주소 식별:</block>
   <block id="bb000e8434af9c71358c26cf3aa76ce3" category="list-text">클러스터 쉘을 종료합니다.</block>
   <block id="d9f6eac526670fe9182f1a63d251a180" category="paragraph"><block ref="f24f62eeb789199b9b2e467df3b1876b" prefix="" category="inline-code"></block></block>
-  <block id="29b1aa97ab42c7253b7c5769a711e501" category="list-text">이전 단계의 출력에 나열된 노드의 IP 주소를 사용하여 SP/BMC over SSH에 로그인하여 진행 상황을 모니터링합니다.</block>
   <block id="4e66424513d5ccef0e91ad9aa7c87642" category="list-text">다음이 표시되면 클러스터의 각 컨트롤러에 대해 * y * 를 입력합니다.</block>
   <block id="38ae227cf94e3775806bccfd95814d4b" category="paragraph"><block ref="035b082bfaf23bf2d7b95c3ef597d380" prefix="" category="inline-code"></block></block>
   <block id="a5e51e5f50ca83720f1d0d8b17c1e93b" category="list-text">다음 절차는 일반적인 구성을 보여 줍니다. 특정 케이블 연결은 스토리지 시스템용으로 주문한 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -14924,4 +14915,12 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0cea086e190611d579375e0cfbe7f6b7" category="paragraph">손상된 컨트롤러를 LOADER 프롬프트까지 정지시키고 부팅 환경 변수를 캡처하여 완전히 종료하십시오. LOADER 프롬프트는 부팅 미디어를 교체할 수 있는 안전한 정지 상태입니다.</block>
   <block id="580317d87f0c97d7c347306d452cfb2c" category="paragraph">손상된 컨트롤러를 종료하거나 제어권을 인계합니다. - 손상된 컨트롤러의 제어권을 인계받아 정지시키면 정상적인 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있습니다. 이를 위해 AutoSupport에서 자동 케이스 생성을 억제하고 자동 반환 기능을 비활성화한 다음 손상된 컨트롤러를 LOADER 프롬프트로 전환합니다. LOADER 프롬프트는 FRU를 교체할 수 있는 안전한 정지 상태입니다.</block>
   <block id="0348833f0ff47bd2ae37f1706a53ef42" category="list-text">HA 인터커넥트 링크가 다운된 경우 다시 활성화하십시오.</block>
+  <block id="5689c5ea3692b97ad8c9b15340cdeaf8" category="admonition">메자닌 카드 나사를 완전히 조이십시오. 나사가 헐거우면 e0e부터 e0h 포트가 감지되지 않거나 LED가 계속 깜빡일 수 있으며 로그에 "지원되지 않는 케이블" 오류가 표시될 수 있습니다.</block>
+  <block id="4383fe9a37feb4f64a0355e3ec27ad10" category="paragraph">추출한 ONTAP 이미지에서 <block ref="6e2807816e9d2621b7e5dffff6c33711" prefix=" " category="inline-code"></block> 폴더를 USB 플래시 드라이브의 루트 디렉터리에 복사합니다.</block>
+  <block id="8b0642e6333dcba17664a67ef72215ec" category="list-text">각 컨트롤러에 대한 BMC 접근성.</block>
+  <block id="da9053d5fc06539ec5cadf63d46c662d" category="list-text">이전 단계에서 확인한 IP 주소를 사용하여 각 컨트롤러의 SP/BMC에 로그인하십시오.</block>
+  <block id="43ed5e374baf2e56183228d2ee15fdc4" category="list-text">SSH를 통해 BMC에서 로그인하는 경우 SP/BMC 주소(예: <block ref="4af43ee092242a6ac7ac3f68e7a27542" prefix=" " category="inline-code"></block>)를 사용하여 연결한 다음 <block ref="6a412eb180c3f0a9798690443fba49e1" prefix=" " category="inline-code"></block> 명령을 입력하고 인증하십시오.</block>
+  <block id="4238d84ec7e4655601b7b55b2f076b2e" category="list-text">컨트롤러에 직접 연결된 로컬 콘솔이나 랩톱을 사용하는 경우 동일한 클러스터 관리자 자격 증명을 사용하여 로그인하십시오.</block>
+  <block id="8e06442a81408e5b3d9d881ee34604d9" category="list-text">포트 e10b를 shelf 1 NSM B 포트 e0b에 연결하십시오.</block>
+  <block id="e075a310e0208871f253ed1786f7aa85" category="list-text">각 컨트롤러에서 케이블 포트 2a, 2b, 2c 및 2d를 FC 호스트 네트워크 스위치에 연결합니다.</block>
 </blocks>

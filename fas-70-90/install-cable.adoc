@@ -199,7 +199,7 @@ image::../media/oie_cable100_gbe_qsfp28.png[100 GbE QSFP28 구리 케이블]
 .. 포트 e11a를 쉘프 1 NSM A 포트 e0a에 연결합니다.
 .. 포트 e11b를 쉘프 2 NSM B 포트 e0b에 연결합니다.
 .. 포트 e10a를 쉘프 2 NSM A 포트 e0a에 연결합니다.
-.. 포트 e10b를 쉘프 1 NSM A 포트 e0b에 연결합니다.
+.. 포트 e10b를 shelf 1 NSM B 포트 e0b에 연결하십시오.
 
 
 +

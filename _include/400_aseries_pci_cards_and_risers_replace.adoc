@@ -350,6 +350,8 @@ image:../media/icon_round_3.png["설명선 번호 3"]
 .. 메자닌 카드의 손잡이 나사를 풀고 카드를 소켓에서 직접 조심스럽게 들어 올려 옆에 둡니다.
 .. 교체용 메자닌 카드를 소켓과 가이드 핀 위에 맞추고 조심스럽게 카드를 소켓에 밀어 넣습니다.
 .. 메자닌 카드의 나비 나사를 조입니다.
++
+ NOTE: Fully tighten the mezzanine card thumbscrews. Loose thumbscrews may prevent ports e0e through e0h from being detected, cause the LED to flash continuously, and result in "unsupported cable" errors in the logs.
 
 
 . 라이저를 재설치합니다.

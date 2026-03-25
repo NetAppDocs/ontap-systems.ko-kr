@@ -143,7 +143,7 @@ image::../media/drw_isi_fas50_4p_25gbe_optional_cabling_ieops-1934.svg[케이블
 [%collapsible]
 =====
 .단계
-. 각 컨트롤러에서 포트 1a, 1b, 1c 및 1d를 FC 호스트 네트워크 스위치에 연결합니다.
+. 각 컨트롤러에서 케이블 포트 2a, 2b, 2c 및 2d를 FC 호스트 네트워크 스위치에 연결합니다.
 +
 * 64 Gb/s FC 케이블 *
 
