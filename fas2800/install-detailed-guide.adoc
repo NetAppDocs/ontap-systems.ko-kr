@@ -394,6 +394,9 @@ IMPORTANT: 전원 코드를 꽂지 마십시오.
 
 컨트롤러를 외부 스토리지에 연결합니다.
 
+
+NOTE: 시스템에 외부 쉘프가 없는 경우 link:../sas3/install-cabling-worksheets-examples-fas2600.html#fas2820-platform-in-a-multipath-ha-configuration-with-no-external-shelves["외부 셸프가 없는 다중 경로 HA 구성에서 FAS2820의 케이블 연결 지침"]을(를) 참조하십시오.
+
 다음 표에는 드라이브 셸프를 스토리지 시스템에 연결하는 그림 설명에서 출력 번호 및 케이블 색상이 있는 케이블 유형이 나와 있습니다.
 
 
