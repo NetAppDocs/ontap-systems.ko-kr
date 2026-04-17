@@ -2,7 +2,7 @@
 permalink: a20-30-50/bootmedia-replace-requirements-bmr.html 
 sidebar: sidebar 
 keywords: aff a20, aff a30, aff a50, replace the boot media 
-summary: 'AFF A20, AFF A30 및 AFF A50 스토리지 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 올바른 교체 부트 미디어를 가지고 있는지 확인하고, 손상된 컨트롤러의 e0M(렌치) 포트가 제대로 작동하는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.' 
+summary: AFF A20, AFF A30 및 AFF A50 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0M 포트가 제대로 작동하는지 확인하며, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다. 
 ---
 = 자동 부팅 미디어 복구 요구 사항 - AFF A20, AFF A30 및 AFF A50
 :allow-uri-read: 

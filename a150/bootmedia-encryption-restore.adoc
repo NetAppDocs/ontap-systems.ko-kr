@@ -2,7 +2,7 @@
 permalink: a150/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: aff a150, a150, aff, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption 
-summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
+summary: 교체 부팅 미디어에서 암호화를 복원합니다. 
 ---
 = 암호화 복원 - AFF A150
 :allow-uri-read: 

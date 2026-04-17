@@ -1,7 +1,7 @@
 ---
 permalink: c80/io-module-add.html 
 sidebar: sidebar 
-keywords: c80, add I/O module 
+keywords: c80, add IO module 
 summary: AFF C80 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오. 
 ---
 = 입출력 모듈 추가 - AFF C80

@@ -2,7 +2,7 @@
 permalink: a900/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords:  
-summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
+summary: 교체 부팅 미디어에 암호화를 복원합니다. Onboard Key Manager, NetApp Storage Encryption 또는 NetApp Volume Encryption이 활성화된 시스템에 대한 특정 단계를 완료하십시오. 
 ---
 = 암호화 복원 - AFF A900
 :allow-uri-read: 

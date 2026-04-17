@@ -1,7 +1,7 @@
 ---
 permalink: sas3/service-hot-swap-drive-ds460c.html 
 sidebar: sidebar 
-keywords: hot-swap, fail, disk, drive, ds460c, nondisruptive, replace, system, power, serving, data, i/o, hot-swap a disk drive in a ds460c disk shelf 
+keywords: hot-swap, fail, disk, drive, ds460c, nondisruptive, replace, system, power, serving, data, I O, hot-swap a disk drive in a ds460c disk shelf 
 summary: DS460C 디스크 쉘프에 있는 고장난 디스크 드라이브를 핫 스왑할 수 있습니다. 
 ---
 = 디스크 드라이브 핫스왑 - DS460C

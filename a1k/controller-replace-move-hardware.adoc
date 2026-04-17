@@ -2,7 +2,7 @@
 permalink: a1k/controller-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: aff a1k, move the controller module hardware 
-summary: '하드웨어 장애로 인해 AFF A1K 시스템의 컨트롤러를 교체해야 하는 경우, 교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.' 
+summary: 하드웨어 장애로 인해 AFF A1K 시스템 컨트롤러를 교체해야 하는 경우. 교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다. 
 ---
 = 컨트롤러-AFF A1K을 교체합니다
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: fas9500/chassis_replace_overview.html 
 sidebar: sidebar 
 keywords:  
-summary: 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다. 
+summary: 섀시를 교체하려면 장애가 발생한 섀시에서 전원 공급 장치, 팬, 컨트롤러 모듈, I/O 모듈, DCPM 모듈 및 USB LED 모듈을 제거하고 교체용 섀시에 설치해야 합니다. 
 ---
 = 섀시 교체 - FAS9500
 :allow-uri-read: 

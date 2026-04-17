@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c30, hot swap a cluster ha card, hot swap ethernet client io module, hotswap io module, hot swap io module 
 summary: 모듈에 장애가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 ASA C30 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다. 
 ---
-= I/O 모듈 핫 스왑 - ASA C30
+= IO 모듈 핫 스왑 - ASA C30
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

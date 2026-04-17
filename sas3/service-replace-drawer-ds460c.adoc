@@ -1,7 +1,7 @@
 ---
 permalink: sas3/service-replace-drawer-ds460c.html 
 sidebar: sidebar 
-keywords: i/o activity, power, off, shelf, replacing, replace, drive, drawer, disk, replace a drive drawer in a ds460c disk shelf, dcm2, dcm 
+keywords: I O activity, power, off, shelf, replacing, replace, drive, drawer, disk, replace a drive drawer in a ds460c disk shelf, dcm2, dcm 
 summary: '쉘프의 드라이브 서랍을 교체하려면 전체 스토리지 시스템(HA 쌍)을 중지해야 합니다. 따라서 쉘프에 데이터 애그리게이트를 계속 유지할 수 있으며, HA 쌍을 계속 유지하고 실행할 수도 있습니다. 이 경우 디스크 드라이브에 상주하는 데이터 애그리게이트에서 모든 데이터를 오프라인 상태로 이동하고 데이터 애그리게이트를 삭제해야 합니다. 하지만 쉘프에 루트 애그리게이트가 포함되어 있는 경우 HA 쌍을 중지해야 합니다.' 
 ---
 = 드라이브 서랍 교체 - DS460C

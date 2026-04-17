@@ -2,7 +2,7 @@
 permalink: a400/bootmedia-replace.html 
 sidebar: sidebar 
 keywords: aff a400, aff, a400, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
-summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.' 
+summary: 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다. 
 ---
 = 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - AFF A400
 :allow-uri-read: 

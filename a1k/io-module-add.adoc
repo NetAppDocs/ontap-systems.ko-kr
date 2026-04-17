@@ -1,7 +1,7 @@
 ---
 permalink: a1k/io-module-add.html 
 sidebar: sidebar 
-keywords: aff a1k, add I/O module 
+keywords: aff a1k, add IO module 
 summary: AFF A1K 시스템에 입출력 모듈을 추가하여 네트워크 연결을 개선하고 데이터 트래픽을 처리하는 시스템의 기능을 확장합니다. 
 ---
 = 입출력 모듈 추가 - AFF A1K

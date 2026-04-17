@@ -2,7 +2,7 @@
 permalink: asa-c400/power-supply-replace.html 
 sidebar: sidebar 
 keywords: asa c400, replace a power supply 
-summary: '전원 공급 장치 교체에는 대상 전원 공급 장치(PSU)를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 전원에 다시 연결하는 작업이 포함됩니다.' 
+summary: ASA C400 시스템의 전원 공급 장치를 교체하려면 대상 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 PSU를 제거하고 교체용 PSU를 설치한 후 전원에 다시 연결하십시오. 
 ---
 = 전원 공급 장치 핫스왑 - ASA C400
 :allow-uri-read: 

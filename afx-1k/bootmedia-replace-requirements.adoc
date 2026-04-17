@@ -2,7 +2,7 @@
 permalink: afx-1k/bootmedia-replace-requirements.html 
 sidebar: sidebar 
 keywords: afx 1k, replace the boot media 
-summary: 'AFX 1K 스토리지 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 올바른 교체 부트 미디어가 있는지 확인하고, 컨트롤러에 결함이 있는 클러스터 포트가 없는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.' 
+summary: AFX 1K 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 컨트롤러에 결함이 있는 클러스터 포트가 없는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다. 
 ---
 = 부트 미디어 교체 요구 사항 - AFX 1K
 :allow-uri-read: 

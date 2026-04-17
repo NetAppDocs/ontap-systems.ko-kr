@@ -1,7 +1,7 @@
 ---
 permalink: afx-1k/io-module-add.html 
 sidebar: sidebar 
-keywords: afx 1k, add I/O module 
+keywords: afx 1k, add IO module 
 summary: AFX 1K 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 능력을 확장하세요. 
 ---
 = I/O 모듈 추가 - AFX 1K

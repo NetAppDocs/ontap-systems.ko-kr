@@ -2,7 +2,7 @@
 permalink: platform-supplemental/42u-1280mm-supported-pdu-types-and-specifications.html 
 sidebar: sidebar 
 keywords: system, cabinet, support, power, distribution, unit, pdu, type, compliant, nema, iec, support pdu type and specificaton 
-summary: '시스템 캐비닛은 다양한 PDU(Power Distribution Unit) 유형을 지원합니다. PDU는 NEMA 또는 IEC와 호환됩니다.' 
+summary: '시스템 캐비닛은 다양한 유형의 전력 분배 장치(PDU)를 지원합니다. 해당 PDU는 NEMA 또는 IEC 규격을 준수합니다.' 
 ---
 = 지원되는 PDU 유형 및 사양
 :allow-uri-read: 

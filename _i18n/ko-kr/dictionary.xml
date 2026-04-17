@@ -61,7 +61,6 @@
   <block id="e6d6a543bb86452c29c8ce9dd3d034cc" category="paragraph">다음 단계를 진행합니다.</block>
   <block id="d099df7ce339c15abb7692668d035fea" category="section-title">6단계: 장애가 발생한 부품을 NetApp에 반환</block>
   <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link">NetApp 지원</block>
-  <block id="fd440756b4a0ce8acdb949b641576347" category="paragraph">부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환할 수 있습니다. 기술 지원 부서(에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.</block>
   <block id="be6de1f798c9c3b8d44917a0380db2a8" category="summary">정확한 시간 동기화에 의존하는 시스템 서비스 및 응용 프로그램이 계속 작동할 수 있도록 컨트롤러 모듈의 실시간 클럭(RTC) 배터리를 교체합니다.</block>
   <block id="fd0db0c0a8315e064601a11ecc8c2b49" category="doc">실시간 시계 배터리를 교체합니다</block>
   <block id="11ce5f5071d3bac04351e20945429ca7" category="list-text">이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다</block>
@@ -238,9 +237,7 @@
   <block id="09792124be37eb490b4c100d51a769f1" category="paragraph">전원 공급 장치로 전원이 복구되면 상태 LED가 녹색이어야 합니다.</block>
   <block id="f6430840c85f6266248e6114248083de" category="list-text">새 전원 공급 장치의 전원을 켠 다음 전원 공급 장치 작동 LED의 작동을 확인합니다.</block>
   <block id="10c1fc08a5b1fdc9646341ddd433a756" category="paragraph">전원 공급 장치가 온라인 상태가 되면 전원 공급 장치 LED가 켜집니다.</block>
-  <block id="561273ebb17be6fcb781473771bc32cb" category="summary">두 개의 비디오가 있습니다. 하나는 시스템을 랙에 설치하고 케이블을 연결하는 방법을 보여 주는 것이고 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여 주는 것입니다.</block>
   <block id="9ed9163b4599600e6378be760fd75fa8" category="paragraph">다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.</block>
-  <block id="0f9b7af429c6f61cb54f2dc7fb47b9a6" category="summary">시스템을 전체 운영으로 복구하려면 NetApp Storage Encryption 구성(필요한 경우)을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 후 키트와 함께 제공된 RMA 지침에 설명된 대로 실패한 부품을 NetApp으로 반환해야 합니다. 기술 지원 부서(에 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>, 888-463-8277 (북미), 00-800-44-638277 (유럽) 또는 +800-800-80-800 (아시아/태평양) 교체 절차에 대한 추가 지원이 필요한 경우.</block>
   <block id="13bebe2596a4000b53c1d171e85d4669" category="doc">전체 시스템 복원 - AFF C190</block>
   <block id="03a45c592eebddeaf80cccbc66213075" category="paragraph">시스템을 전체 운영으로 복구하려면 NetApp Storage Encryption 구성(필요한 경우)을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 후 키트와 함께 제공된 RMA 지침에 설명된 대로 실패한 부품을 NetApp으로 반환해야 합니다.</block>
   <block id="f29590bcbb1621777529a668ca509dc2" category="paragraph">장애가 발생한 노드가 표준(노드 잠김) 라이센스가 필요한 ONTAP 기능을 사용 중인 경우 _replacement_node에 대한 새 라이센스를 설치해야 합니다. 표준 라이센스가 있는 기능의 경우 클러스터의 각 노드에 기능에 대한 자체 키가 있어야 합니다.</block>
@@ -432,7 +429,6 @@
   <block id="24718eccce3cd133d143bec81426275c" category="list-text">시스템 ID 불일치 및 시스템 ID 재정의를 요청하는 프롬프트 경고.</block>
   <block id="3125087114c2490b7c6800800a39a990" category="summary">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="8a20c268704bf24640a88346ca257e3e" category="doc">빠른 단계 - AFF C190</block>
-  <block id="11ecaa8360379504a6aba6752c5f87ed" category="summary">부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.</block>
   <block id="cc36390de0e6f5128a70841fe11c7e73" category="doc">부팅 미디어 교체 - AFF C190</block>
   <block id="2539aecd37c66635374c3189de97ba14" category="paragraph">부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.</block>
   <block id="2721d15a1712238198ba49214a74054c" category="paragraph">"image_xxx.tgz" 파일을 저장할 적절한 저장 공간을 가진 FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다.</block>
@@ -527,7 +523,6 @@
   <block id="596bcca65aca56bacb3df39265f83dfb" category="summary">섀시를 교체하려면 컨트롤러를 종료해야 합니다.</block>
   <block id="fc3fc335fe3d498e24675e2eff27cd4f" category="doc">컨트롤러 종료 - AFF C190</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
-  <block id="d5bfba1ac511ef4b8b0fcb489bdaf25b" category="summary">환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.</block>
   <block id="33d6eb89aeb8e2ba671f43912a716deb" category="summary">시스템을 설치하고 설정합니다.</block>
   <block id="32df575971fcea9e12bea94b59ef2afa" category="doc">여기서 시작: 설치 및 설정 환경을 선택합니다</block>
   <block id="27e824f8d84211dc662b81aa3d2c5296" category="paragraph">새로운 스토리지 시스템을 설치하고 설정하는 과정을 안내하는 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.</block>
@@ -562,7 +557,6 @@
   <block id="32b858596eeb9351eca27c2906a21da4" category="list-text">mcip</block>
   <block id="524b78f7770e94479dc70b1b445c5cf3" category="list-text">비 하</block>
   <block id="fae7015efc6e23d7bb922c3def6ec70a" category="list-text">설정이 변경되었는지 확인합니다. ha-config show</block>
-  <block id="c96ba587407b7de20ae8f5750c50673c" category="summary">ONTAP가 아직 실행되지 않거나 시스템에 케이블로 연결되기 전에 쉘프를 핫 추가할 때 시스템의 쉘프 ID를 변경할 수 있습니다. ONTAP가 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음) 쉘프 ID를 변경할 수도 있고, 쉘프의 모든 드라이브가 소유되지 않은 상태, 스페어 또는 오프라인 애그리게이트의 일부일 때도 변경할 수 있습니다.</block>
   <block id="7bb2de11f19c9aab4053bb448f6f6712" category="paragraph">ONTAP가 아직 실행되지 않거나 시스템에 케이블로 연결되기 전에 쉘프를 핫 추가할 때 시스템의 쉘프 ID를 변경할 수 있습니다. 또한 ONTAP가 가동 중이고 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음) 쉘프 ID를 변경할 수 있으며 쉘프의 모든 드라이브가 소유 안 됨, 스페어 또는 오프라인 애그리게이트의 일부임</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="d1433048cd9c5a1ba76a8df5300f9864" category="list-text">ONTAP가 실행 중인 경우(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음), 쉘프의 모든 드라이브가 소유되지 않은 애그리게이트, 스페어 또는 오프라인 애그리게이트의 일부인지 확인해야 합니다.</block>
@@ -1640,7 +1634,6 @@
   <block id="5beb49709902306e7264c7704117a827" category="section-title">3단계: 시스템 DIMM을 교체합니다</block>
   <block id="314e31cf4cbebcf3a827e9ba64a1e005" category="list-text">에어 덕트를 열림 위치로 돌리십시오.</block>
   <block id="3c96abc43edac8ae6d9684f7b2c979fa" category="list-text">DIMM 양쪽에 있는 두 개의 DIMM 이젝터 탭을 천천히 밀어 소켓에서 DIMM을 꺼낸 다음 소켓에서 DIMM을 꺼냅니다.</block>
-  <block id="b06018bc829da55a1eb1a43b93312dc5" category="summary">부팅 매체는 시스템이 부팅될 때 사용하는 시스템\(부팅 이미지\) 파일의 기본 및 보조 세트를 저장합니다.</block>
   <block id="0186f6c22953c36e3e4978bb091e11b3" category="paragraph">설치한 교체 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다.</block>
   <block id="ce92127c659a39f2e906ff085ee4ba89" category="list-text">최소 4GB 용량의 MBR/FAT32로 포맷된 USB 플래시 드라이브가 있어야 합니다</block>
   <block id="b65df0fb7cdfc57ae87846b3fa994222" category="list-text">손상된 컨트롤러가 실행 중인 것과 동일한 ONTAP 이미지 버전의 복사본. NetApp Support 사이트의 다운로드 섹션에서 해당 이미지를 다운로드할 수 있습니다</block>
@@ -1752,7 +1745,6 @@
   <block id="5ea1825dfe698bdb7cf7ba6f0b41458d" category="list-text">유지보수 모드의 컨트롤러 모듈 중 하나에서 로컬 컨트롤러 모듈 및 섀시의 HA 상태를 "ha-config show"로 표시합니다</block>
   <block id="72bed1a0f807450c817ba40ca198679f" category="list-text">섀시의 HA 상태를 "ha-config modify chassis_HA-state_"로 설정합니다</block>
   <block id="1a3890308672bc09a82a2b01bfd856b6" category="list-text">시스템 앞면에 베젤을 다시 설치합니다.</block>
-  <block id="d6cd25c7a2ec0fe6ad8621d4562ce0ae" category="summary">전원 공급 장치 \(PSU\)를 교체하려면 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결해야 합니다.</block>
   <block id="f044adaf132925553df56c50232bae8a" category="paragraph">전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결하는 작업이 포함됩니다.</block>
   <block id="76c422e38c98bcea8a54ea2c31b96d23" category="admonition">섀시에서 전원 공급 장치를 분리한 후 2분 이내에 전원 공급 장치를 교체하는 것이 좋습니다. 시스템이 계속 작동하지만 ONTAP에서는 전원 공급 장치를 교체할 때까지 성능이 저하된 전원 공급 장치에 대한 메시지를 콘솔에 보냅니다.</block>
   <block id="bdf78208a16277bdf48a7e0c9bfa97a4" category="list-text">전원 공급 장치를 분리합니다.</block>
@@ -2063,7 +2055,6 @@
   <block id="5e1a5ffb20ce25d1d79c8e2014f87d45" category="doc">복구 이미지 부팅 - AFF A700s</block>
   <block id="864c38e2026ab798db96e7d96459d9e2" category="doc">시스템을 재할당하고 디스크를 재할당할 수 있는 AFF A700s를 사용합니다</block>
   <block id="a0d8eae32c5a472f83afef8b93706ea5" category="paragraph">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다. 시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.</block>
-  <block id="f99e3c0be135f8d468eda1703b7345f9" category="summary">전원 공급 장치 교체 대상 전원 공급 장치 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등과 관련된 작업을 합니다.</block>
   <block id="25b17a241b7878627647c78d24614092" category="paragraph">전원 공급 장치 교체 대상 전원 공급 장치(PSU) 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등이 포함됩니다.</block>
   <block id="1bdc46934af8b9f35655b38de6850eea" category="list-text">잠금 탭을 누른 상태에서 컨트롤러 모듈에서 전원 공급 장치를 당겨 빼낼 수 있도록 캠 핸들을 돌립니다.</block>
   <block id="1b2219e72635f17b115bf4b878fa99f2" category="paragraph">파란색 전원 공급 장치 잠금 탭</block>
@@ -2275,7 +2266,6 @@
   <block id="9ce7205fba4ea7a5cf342ea9bb657de2" category="list-text">잠금 래치를 위쪽으로 돌려 잠금 핀이 풀리도록 컨트롤러 모듈을 기울인 다음 컨트롤러를 완전히 밀어 넣은 다음 잠금 래치를 잠금 위치로 내려 섀시에 완전히 장착합니다.</block>
   <block id="8809109bc3c32c4643721e11bd2daa4b" category="list-text">정상 부트 프로세스를 중단하고 'Ctrl-C'를 눌러 로더로 부팅합니다.</block>
   <block id="53a6eef1d61ae1268797df395fb6c8cd" category="admonition">시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 옵션을 선택합니다.</block>
-  <block id="601c15b5101316dedeb3a25975e9e2f9" category="summary">컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.</block>
   <block id="a695ddd31702bf0ddff2a7cf2f63d196" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.</block>
   <block id="88ef394be03c2dee8da212eb3ce203d3" category="paragraph">잠금 래치</block>
   <block id="be0b7bebdbc010beb298a7c7fac29946" category="paragraph">컨트롤러를 섀시 밖으로 밀어냅니다</block>
@@ -2437,7 +2427,6 @@
   <block id="d495410a7f7a2c72ad8aa73f5cdb0372" category="list-text"><block ref="d495410a7f7a2c72ad8aa73f5cdb0372" category="inline-link-rx"></block></block>
   <block id="8711dbf45eeb8f6f1664a1d0fb9dd217" category="list-text"><block ref="8711dbf45eeb8f6f1664a1d0fb9dd217" category="inline-link-rx"></block></block>
   <block id="936537a41290b6040d5cea518bd8e9f8" category="doc">시스템 구성 복원 및 확인 - AFF A400</block>
-  <block id="085d4c339245e025ba9f6a2524c69c57" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 그러면 이전 사이트의 SVM(Sync-Source Storage Virtual Machine\)이 활성 상태이고 로컬 디스크 풀에서 데이터를 제공하는 구성을 정상 운영 상태로 되돌릴 수 있습니다.</block>
   <block id="79cfe080d4a6943442ed3bba2502d8a1" category="doc">2노드 MetroCluster 구성인 AFF A400에서 애그리게이트를 다시 전환합니다</block>
   <block id="54f4c70c653781a776673e986d65e502" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
   <block id="478fc4fb96b68e7639f1b8b60636da7c" category="doc">NVMEM 배터리-FAS2600을 교체합니다</block>
@@ -3078,7 +3067,6 @@
   <block id="efd84250e54da20a3b20aedbf193e8d1" category="paragraph">DIMM은 마더보드의 슬롯 3 또는 1에 있습니다. 슬롯 2와 4는 비어 있습니다. 이 슬롯에 DIMM을 설치하지 마십시오.</block>
   <block id="48e86fa37ff9042482bfe36770e4d6e2" category="list-text">커넥터의 DIMM 이젝터 탭을 열린 위치로 둡니다.</block>
   <block id="43ed6adb7e19c956b260008f811b5750" category="list-text">교체용 DIMM을 슬롯에 똑바로 삽입합니다.</block>
-  <block id="dd33af940cfd986282d97dc9269783a9" category="summary">전원 공급 장치를 교체하려면 전원에서 대상 전원 공급 장치 \(PSU\)를 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 다시 전원에 연결해야 합니다.</block>
   <block id="9c352024a81fccd1d1663e4b4f18ac5b" category="list-text"><block ref="9c352024a81fccd1d1663e4b4f18ac5b" category="inline-link-macro-rx"></block></block>
   <block id="bbe3d192a877942589d158cec251063f" category="list-text"><block ref="bbe3d192a877942589d158cec251063f" category="inline-link-macro-rx"></block></block>
   <block id="b08dcca279bedeebb1e6f621d1a5afa2" category="list-text"><block ref="b08dcca279bedeebb1e6f621d1a5afa2" category="inline-link-macro-rx"></block></block>
@@ -3274,7 +3262,6 @@
   <block id="9de356bba732ea3279684bd5fa1e5f9f" category="section-title">2-포스트 미드마운트 레일 키트를 장착하십시오</block>
   <block id="17bc73815850fd6dc60d586cf707300e" category="section-title">2-포스트 플러시 마운트 레일 키트를 설치합니다</block>
   <block id="3c941071b26a1822e1cb4494c2fd71da" category="doc">손상된 컨트롤러 AFF A900을 종료합니다</block>
-  <block id="68908cbb53a7b71659933af600697a19" category="summary">NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 실패한 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="d04f6248062fc9d16de8588d61c28d1e" category="doc">NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(AFF A900)을 교체하십시오</block>
   <block id="90eb2af5a768fd638c695d0394817a0e" category="section-title">1단계: DCPM 모듈을 교체하십시오</block>
   <block id="6acd2520bad86e2719b0a66d04f59f28" category="list-text">모듈 손잡이의 테라 코타 잠금 버튼을 누른 다음 DCPM 모듈을 섀시 밖으로 밉니다.</block>
@@ -3602,7 +3589,6 @@
   <block id="3543f693e588dc2b8f0d38c9c547ec79" category="list-text">도관을 PDU 전원 케이블 위로 밀고 도관을 시스템 캐비닛 프레임을 따라 PDU에 배선합니다.</block>
   <block id="f6fd32c0375af84905b62ee7c499c0f3" category="list-text">수납장의 다른 쪽에서 도관 위에 도관 고정 클립을 설치하여 캐비닛 프레임에 고정합니다.</block>
   <block id="ca2f1d75952196e0940183d0bf21cf4c" category="list-text">배지 케이블을 전원 공급 장치에 다시 연결하되, 전원 공급 장치를 전원에 다시 연결하지 마십시오.</block>
-  <block id="77edb60a5060dd35dbf31b71147dde8d" category="summary">시스템 캐비닛은 다양한 PDU(Power Distribution Unit) 유형을 지원합니다. PDU는 NEMA 또는 IEC와 호환됩니다.</block>
   <block id="3536220b5e80ece536e76091bbcde43f" category="doc">지원되는 PDU 유형 및 사양</block>
   <block id="345f336ebbb6b879b90d461c9ead417e" category="paragraph">시스템 캐비닛은 다양한 PDU(Power Distribution Unit) 유형을 지원합니다. PDU는 NEMA 또는 IEC와 호환됩니다.</block>
   <block id="fa010c3e95aca618a783f3f5f398a8ba" category="paragraph">시스템 캐비닛에서 지원되는 PDU에 대한 최신 정보는 Hardware Universe에 나와 있습니다.</block>
@@ -3943,11 +3929,9 @@
   <block id="6893aba6204908a9ad4e8ef231b0937b" category="list-text">NSM B 포트 e0a를 컨트롤러 B 포트 e0e에 케이블로 연결합니다.</block>
   <block id="fd1b7820b9a22b62bca8acf5ddbaf7ed" category="list-text">NSM B 포트 e0b를 컨트롤러 A 포트 e0b에 연결합니다. + 다음 그림에서는 핫 애드 셸프(셸프 2)의 케이블 연결을 보여 줍니다.</block>
   <block id="c639108428188e5708bbbe72adfdde85" category="paragraph">NS224 드라이브 쉘프 핫 애드 준비의 일부로 자동 드라이브 할당을 사용하지 않도록 설정한 경우, 드라이브 소유권을 수동으로 할당하고 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
-  <block id="883c91c37ee151a81d34d6105afae5ea" category="summary">NS224 드라이브 쉘프를 스위치 연결 스토리지\(직접 연결 스토리지\ 아님)로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용하십시오.</block>
   <block id="a94de468f363b57c8cc1ea1b7a532a9e" category="paragraph">NS224 드라이브 쉘프를 직접 연결 스토리지가 아닌 스위치 연결 스토리지로 케이블로 연결해야 하는 시스템이 있는 경우 제공된 정보를 사용합니다.</block>
   <block id="97a30f090fd38397124788f1f0376eda" category="inline-link">AFF 및 FAS 스위치 문서</block>
   <block id="04d800fa50ce1545b4418475b40e3ed5" category="doc">NS224 쉘프</block>
-  <block id="1274af9ca4bdcb3c01063f8652a1d020" category="summary">NS224 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 손상된 NVMe 쉘프 모듈\(NSM\)을 중단 없이 교체할 수 있습니다.</block>
   <block id="2f6e858c0cedc7dae2867ed31ec85e2c" category="paragraph">NS224 드라이브 쉘프의 장애가 발생한 NVMe 쉘프 모듈(NSM)을 전원이 켜져 있고 I/O가 진행 중인 동안 중단 없이 교체할 수 있습니다.</block>
   <block id="74e02b1a8147eff24fccd5044e563889" category="list-text">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다.</block>
   <block id="b2f313ee86144ada0c48562afb2d40cc" category="paragraph">해당 셸프의 'helf_name'을 모르는 경우 'storage shelf show' 명령어를 실행한다.</block>
@@ -3975,7 +3959,6 @@
   <block id="9d1ae14f2ff79acfc8e3625d7e49361b" category="list-text">장애가 발생한 팬을 교체합니다.</block>
   <block id="139ce540361536d483467917385aa5b2" category="list-text">파란색 터치 포인트가 있는 측면을 단단히 잡고 수직으로 들어올려 소켓에서 분리한 후 결함이 있는 팬을 분리합니다.</block>
   <block id="f722151f886b6d867be170b0ee89e837" category="list-text">교체용 팬을 가이드 안에 맞춘 다음 팬 모듈 커넥터가 소켓에 완전히 장착될 때까지 아래로 누릅니다.</block>
-  <block id="d6d8a1a3b9a54c543134bb59ad36c7ef" category="summary">드라이브에서 애그리게이트를 제거한 NS224 드라이브 쉘프를 HA 쌍에서 데이터를 처리하고 \(I/O가 진행 중\) 데이터를 핫 제거할 수 있습니다.</block>
   <block id="547789886fcdaf2aca4537e1693b3b9e" category="paragraph">드라이브에서 애그리게이트를 제거한 NS224 드라이브 쉘프를 HA 쌍에서 데이터를 처리하고 I/O가 진행 중인 상태에서 핫 제거할 수 있습니다.</block>
   <block id="f0efa51e8edbba6e292cee6e81da292c" category="list-text">HA 쌍이 테이크오버 상태가 될 수 없습니다.</block>
   <block id="b19f857c715b45e6cb3690dc35ce2bcc" category="list-text">분리할 쉘프의 모든 애그리게이트(드라이브가 스페어 드라이브여야 함)를 드라이브에서 제거해야 합니다.</block>
@@ -4008,14 +3991,12 @@
   <block id="3447b91e516e4fc6b5dba827fcb68bee" category="paragraph">ONTAP 9.7</block>
   <block id="d81f7f24384cc4d23a1eb3cdc1f3093b" category="list-text">첫 번째 컨트롤러 모듈에서 네트워킹용 비전용 포트를 'STORAGE PORT DISABLE-NODE_NODE NAME_-PORT_PORT NAME_'로 재구성합니다</block>
   <block id="d133f9489f82e1094aeabb56f67bbcb9" category="list-text">두 컨트롤러 모듈의 비전용 포트가 네트워킹용으로 재구성되었는지 확인합니다. 'Storage port show'</block>
-  <block id="eca4ecc78ec43fe459fcc0715dc2d5db" category="summary">전원이 켜진 NS224 드라이브 셸프에서 장애가 발생한 실시간 클럭\(RTC\) 배터리를 중단 없이, 입출력이 진행 중인 동안 교체할 수 있습니다.</block>
   <block id="e4882b21497de6fedaf4c9c3b8016faa" category="paragraph">전원이 켜진 NS224 드라이브 셸프에서 장애가 발생한 실시간 클럭(RTC) 배터리를 중단 없이 교체할 수 있으며 I/O가 진행 중인 동안에도 교체할 수 있습니다.</block>
   <block id="d8a4ade402c2a58964f76f76d5e40639" category="list-text">교체용 RTC 배터리의 포장을 푸는 경우, 결함이 있는 RTC 배터리를 반품할 때 사용할 포장재를 모두 보관하십시오.</block>
   <block id="8e3521698724daea37d72f82d00b93c9" category="list-text">장애가 발생한 RTC 배터리를 물리적으로 식별합니다.</block>
   <block id="4230cd66e4b97c5c537e2fc66b106a54" category="list-text">RTC 배터리를 교체합니다.</block>
   <block id="bf6676c1b4e1cac9f1e6593249e2ba7d" category="list-text">배터리함이 기울어진 각도(홀더에서 기울어진 상태)가 될 때까지 홀더에서 배터리를 부드럽게 밀어 꺼낸 후 홀더에서 들어 꺼냅니다.</block>
   <block id="3b3396eaf97f4b90a50effb7d2321635" category="list-text">교체용 배터리를 기울어진 각도(홀더에서 기울어진 각도)로 홀더에 삽입하고 똑바로 세운 위치로 밀어 넣은 다음 완전히 장착될 때까지 커넥터에 단단히 누릅니다.</block>
-  <block id="ee902d4594abf28b5457ac82defd33ec" category="summary">ONTAP 9.7 이상을 실행 중인 HA 쌍의 NS224 드라이브 쉘프에서 부팅 미디어가 실패하거나, 쉘프가 NVMe 쉘프 모듈\(NSM\) 펌웨어 버전 1.1x 이상을 실행 중인 경우 부팅 미디어를 교체할 수 있습니다. 드라이브 쉘프의 전원이 켜져 있고 I/O가 진행 중인 동안 부팅 미디어를 중단 없이 교체할 수 있습니다.</block>
   <block id="74f49f6f28d9fd5e7df6f1800c601a73" category="paragraph">컨트롤러의 콘솔에서 'storage shelf show-module' 명령을 입력하여 쉘프에 있는 NSM 펌웨어의 버전을 확인할 수 있습니다.</block>
   <block id="d6d6b039d46a324ed8ec81e6ba9ff295" category="paragraph">부트 미디어를 보드에 고정하는 데 사용되는 나사는 Phillips #1 드라이버가 필요합니다. 다른 유형의 드라이버를 사용하면 나사가 벗겨질 수 있습니다.</block>
   <block id="00aa3f1a6a7c08b0657c7993e5c8b5c3" category="paragraph">이 작업은 최대 5분 정도 걸릴 수 있습니다.</block>
@@ -5006,7 +4987,6 @@
   <block id="c4a176fcfed8ad262bd0a9b82f87a961" category="paragraph">DIMM에 결함이 있으면 시스템 콘솔에 어떤 DIMM에 결함이 있는지 나타내는 경고 메시지가 기록됩니다.</block>
   <block id="0c2b7daebf1a1e94a676675bf614fba6" category="paragraph">부팅 미디어는 전원 공급 장치와 반대되는 선반 섀시 벽을 따라 있습니다.</block>
   <block id="d067784c8bad4d41a4f87accd50abbc1" category="list-text">노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) <block ref="68d9e980b8b4998ef88139d7b7ab8ff6" category="inline-link-macro-rx"></block>.</block>
-  <block id="859c951ebab21901f2fd6183c53339d5" category="summary">NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="8ea19d634d233a26f4f650bd2e2b467c" category="paragraph">NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
   <block id="58fb0a507d97ff336e5db5d69ba846e9" category="inline-link">10GbE 연결을 위해 40GbE NIC 포트를 여러 10GbE 포트로 변환합니다</block>
   <block id="8ae73aa056882e7b560f3b52b5764957" category="list-text">시스템이 10GbE 클러스터 상호 연결 및 40GbE NIC의 데이터 연결을 지원하도록 구성된 경우 를 사용하여 이러한 포트를 10GbE 연결로 변환합니다<block ref="5ec041cdb2bbdf01cd4ea2c400b17495" prefix=" " category="inline-code"></block> 유지보수 모드의 명령입니다. 을 참조하십시오<block ref="2d808a662d9493bde97b50913a25a294" category="inline-link-rx"></block> 를 참조하십시오.</block>
@@ -6141,7 +6121,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4091c5e7156fea8e74fb2f6ff3fe34fd" category="doc">실시간 시계 배터리 교체 - FAS2700</block>
   <block id="b8e850ed2869826d3faae08f01220ae6" category="doc">DIMM-FAS2700을 교체합니다</block>
   <block id="38b5b8ea2b8764ef3d6b86337c41db64" category="doc">컨트롤러 종료 - FAS2700</block>
-  <block id="478014c57de308398851e19e48a955f6" category="summary">시스템을 전체 작업으로 복원하려면 NetApp 스토리지 암호화 구성(필요한 경우)을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 다음 장애가 발생한 부품을 NetApp로 반환해야 합니다.</block>
   <block id="dd3e1b2974ba653fef81686173aafcb6" category="doc">전체 시스템 복원 - FAS2700</block>
   <block id="6375580a439a26351f5f73fdcb39f1ff" category="doc">빠른 가이드 - FAS2700</block>
   <block id="16a3fde330c06892c7676575d0819f6e" category="doc">복구 이미지-FAS2700을 부팅합니다</block>
@@ -7463,7 +7442,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8cd7d5cbedf290a9b729cc263d9b289c" category="paragraph">ONTAP 9.15.1</block>
   <block id="ac632c351c050929564cd7a72c3d383a" category="doc">손상된 컨트롤러를 종료합니다. - AFF A1K을 종료합니다</block>
   <block id="a4fbb291103a5430eb9ece2393c095a4" category="doc">컨트롤러 - AFF A1K를 돌려줍니다</block>
-  <block id="fb829c49a3a2da88fb46330449bb960d" category="summary">시스템을 전체 작동 상태로 복원하려면 LIF를 확인하고 클러스터 상태를 확인한 후 실패한 부품을 NetApp에 반환해야 합니다. RMA 번호 또는 교체 절차에 대한 추가 도움이 필요한 경우 기술 지원 부서(888-463-8277(북미), 00-800-44-638277(유럽) 또는 +800-800-80-800(아시아/태평양))으로 문의하십시오<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>.</block>
   <block id="61ec4d4962d0f24c38b731c335dcb259" category="doc">시스템 구성 - AFF A1K을 복원하고 확인합니다</block>
   <block id="8eed652f60c06861a89907936cca366c" category="doc">DIMM-AFF A1K을 교체합니다</block>
   <block id="ef8131c8fab80a7f6810536e7b19d76a" category="doc">팬을 교체합니다. - AFF A1K</block>
@@ -9981,7 +9959,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="43d776718c1fd733b854e3b84bdffa63" category="summary">컨트롤러의 HA 구성이 활성 상태이고 AFF C80 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크의 모든 경로가 표시되는지 확인합니다.</block>
   <block id="28494b8071c5db3970085154386f4a39" category="summary">드라이브에 오류가 발생하거나 업그레이드가 필요한 경우 AFF C80 시스템의 드라이브를 교체합니다. 이 프로세스에는 결함이 있는 드라이브를 식별하고 안전하게 제거하고 새 드라이브를 설치하여 지속적인 데이터 액세스와 시스템 성능을 보장하는 과정이 포함됩니다.</block>
   <block id="cd8d2c9f06c5661e2266f9927427382e" category="summary">AFF C80 스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.</block>
-  <block id="d395647cfc21ff6edde6803e55dea637" category="summary">모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 AFF C80 시스템의 입출력 모듈을 교체하십시오.</block>
   <block id="c52f1e3ee9e9664930223aa9ebbd84dc" category="summary">AFF C80 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="68cbf1b0b6ee68064dae0d1f74537f78" category="doc">하드웨어가 더 이상 지원되지 않습니다</block>
   <block id="a70eaca09b18d4d2941af3eb0f7325cd" category="paragraph-title"><block ref="a65152a941ce25485720d5bcfae86492" category="inline-image-macro-rx" type="image"></block> ONTAP 클러스터를 설정합니다</block>
@@ -10155,7 +10132,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a7a4c58bcecc6da48011ed379f160841" category="paragraph">손상된 AFF A1K 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="65cfd4efc075696b5b4fa182bd8310b6" category="summary">AFF A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
   <block id="c0fde7c58eda00a5144709bacf24bfe9" category="doc">컨트롤러 교체 요구사항 - AFF A1K</block>
-  <block id="6911c42baf5226ca6d00478ac1b258b9" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp로 반환하여 AFF A1K 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="3559feca6c2a12a75b7a78f13f084dc8" category="summary">컨트롤러의 HA 구성이 활성 상태이고 AFF A1K 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크의 모든 경로가 표시되는지 확인합니다.</block>
   <block id="7fdca32f90d14c1028db4d9982fb4f82" category="paragraph">AFF A1K 시스템에 대한 시스템 구성을 복원하고 확인한 후에는 다음을 수행해야 <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="1949c395d505ef989d4d7af415759b52" category="summary">손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 작업을 확인하여 AFF A1K 스토리지 시스템에서 컨트롤러 교체를 시작하십시오.</block>
@@ -10192,7 +10168,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="24fd70ba02d3ad8edef21fae96195bae" category="paragraph">ASA A70 또는 ASA A90 시스템에 새 부팅 미디어 장치를 설치한 후 자동 부팅 미디어 복구 프로세스를 시작하여 파트너 노드에서 구성을 복원할 수 있습니다.</block>
   <block id="fee45db111832f938d749d9972109b24" category="paragraph">복구 프로세스 중에 시스템은 암호화가 활성화되었는지 여부를 확인하고 사용 중인 키 암호화의 유형을 결정합니다. 키 암호화가 활성화된 경우 시스템에서 적절한 복원 단계를 안내합니다.</block>
   <block id="9ebf0f9cdc8e3d4b2cb25a5314423cb2" category="summary">ASA A70 또는 ASA A90 시스템의 부팅 매체에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 시스템 관리 모듈 분리, 손상된 부팅 미디어 제거, 시스템 관리 모듈에 교체 부팅 미디어 설치 및 시스템 관리 모듈 재설치가 포함됩니다.</block>
-  <block id="f64cb6d84d7c27a06ee97bfed6357102" category="summary">ASA A70 또는 A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다.</block>
   <block id="c330ef0ca8c9d8e7a95cd59e8bd29028" category="paragraph">부팅 미디어 요구 사항을 검토한 후<block ref="a9f725bc41d31688b04caf5a2f249945" category="inline-link-macro-rx"></block></block>
   <block id="2637ddc571b4eec6fba99d80e4508ea3" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 부팅 미디어의 이미지를 복원하고, 시스템 기능을 확인하여 ASA A70 및 ASA A90 저장 장치 시스템의 부팅 미디어를 교체하는 작업을 시작하십시오.</block>
   <block id="e02c1c38027df9cf184c084019ca80bd" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block><block ref="c17103ffaf4bf6b45a49b4f8fd312634" category="inline-link-macro-rx"></block></block>
@@ -10229,7 +10204,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f501a4282c0407a5377e73a38c2fe79c" category="paragraph">손상된 ASA A1K 컨트롤러를 교체한 후에는 다음을 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>수행해야 합니다.</block>
   <block id="0b7aa62fd5de84b2f6b9168c29cd9699" category="summary">ASA A1K 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 되돌립니다.</block>
   <block id="6a41dab46dde5ea92e32bfe9162ff999" category="doc">컨트롤러 교체 요구 사항 - ASA A1K</block>
-  <block id="1a197d6edeae9c94e0721ab454a5fb33" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp에 반환하여 ASA A1K 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="95155c153887de18d244e072071f2b3a" category="summary">컨트롤러의 HA 구성이 활성 상태이고 ASA A1K 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크에 대한 모든 경로가 표시되는지 확인합니다.</block>
   <block id="f68165cbf3ba1e1d45a1b8381c53da48" category="paragraph">ASA A1K 시스템에 대한 시스템 구성을 복원하고 확인한 후 다음을 수행해야 <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="3554082e8291b9cdbf124dd341192845" category="summary">손상된 컨트롤러를 종료하고, 컨트롤러를 분리 및 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 ASA A1K 스토리지 시스템의 컨트롤러 교체를 시작하십시오.</block>
@@ -10284,7 +10258,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a09bde82e257a9efc5c840b3d64e8e4f" category="paragraph">손상된 FAS70 또는 FAS90 컨트롤러를 교체한 후에는 다음을 수행해야 <block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="1e70422005019f4903b79a5a577df1a1" category="summary">스토리지 리소스를 교체 컨트롤러로 다시 관리하여 FAS70 또는 FAS90 시스템이 정상 작동을 재개할 수 있도록 합니다.</block>
   <block id="819d0a4d339e34d2e8daf63b772aae13" category="doc">컨트롤러-FAS70 및 FAS90을 대체할 요구사항</block>
-  <block id="6dd3fde43a5f29446a4c49fb87879b65" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp로 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="dcac0d4d44ce3609f70b9f6817380eb7" category="summary">컨트롤러의 HA 구성이 활성 상태이고 FAS70 또는 FAS90 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크에 대한 모든 경로가 표시되는지 확인합니다.</block>
   <block id="8f15a6b55f9d40c8f4779330981502f5" category="paragraph">FAS70 또는 FAS90 시스템에 대한 시스템 구성을 복원 및 확인한 후에는 다음을 수행해야 <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="17e4dd018a5a20b5b198058502e171bc" category="summary">손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 운영을 확인하여 FAS70 또는 FAS90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오.</block>
@@ -10411,7 +10384,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="12c8eb3808a13f0adea4f2c3d86acb4c" category="image-alt">AFF A20 A30 A50, C30 및 C60 무게 주의 아이콘</block>
   <block id="90c51f2e3ac0e73e60b00bd0eba8b946" category="doc">입출력 모듈(AFF A20, AFF A30 및 AFF A50)을 추가합니다</block>
   <block id="37783cf8bbf503f6c904d4be13f8c509" category="doc">입출력 모듈(AFF A20, AFF A30 및 AFF A50)을 교체합니다</block>
-  <block id="dc5c74d1abe195182477161220f736cb" category="summary">하드웨어 장애가 필요한 경우 AFF A70 또는 AFF A90 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="d40f146aa7a5b4915ec82bbac5b1b200" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시 교체, 시스템 작업 확인을 통해 AFF A70 또는 AFF A90 스토리지 시스템의 섀시 교체를 시작하십시오.</block>
   <block id="cdab9753bdddb0aefefab44fd8865fbb" category="summary">AFF A70 또는 AFF A90 시스템의 컨트롤러를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 올바른 교체 컨트롤러가 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 작업이 포함됩니다.</block>
   <block id="caea42c273f28398fdc8ee7ee846cba1" category="image-alt">AFF A90 AFF A70 및 C80 무게 주의 아이콘</block>
@@ -10419,7 +10391,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="52f502f025ccffe3d4cc228d684b7404" category="doc">입출력 모듈 추가 및 교체 개요 - AFF A70 및 AFF A90</block>
   <block id="85b0d33109c8d3609950454b4c2a7d79" category="doc">입출력 모듈 교체 - AFF A70 및 AFF A90</block>
   <block id="172bb971e016c43ff64ba57272404e84" category="summary">AFF A70 또는 AFF A90 시스템에 장애가 발생하거나 결함이 발생한 경우, 안정적인 작동을 위해 시스템이 필요한 전원을 계속 공급받을 수 있도록 AC 또는 DC 전원 공급 장치(PSU)를 교체하십시오. 교체 프로세스에는 결함이 있는 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 결함이 있는 PSU를 교체한 다음 전원에 다시 연결하는 작업이 포함됩니다.</block>
-  <block id="634fb6b2414a0adde8fe288c6e3a4d20" category="summary">하드웨어 오류가 필요한 경우 ASA A70 또는 ASA A90 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="7123adf741599afcbf244e4e98d663f5" category="doc">SSD 드라이브 교체 - ASA A70 및 ASA A90</block>
   <block id="9b6a53cb25d5ad933496e9c5e800035c" category="doc">입출력 모듈(ASA A70 및 ASA A90)을 추가합니다</block>
   <block id="69d316c0d65bb5a04b4bf5e833d3782c" category="doc">입출력 모듈 추가 및 교체 - ASA A70 및 ASA A90 개요</block>
@@ -10450,7 +10421,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1c4b51b458fce412a8c007542d10d036" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.</block>
   <block id="d7dae7b7d8a61375a24bff154aa12898" category="summary">섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 AFF C30 및 AFF C60 섀시 교체 절차의 최종 단계를 완료합니다.</block>
   <block id="c52568a311e3d85bff701b5334ea6c43" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작동을 확인하여 AFF C30 또는 AFF C60 스토리지 시스템의 섀시 교체를 시작하십시오.</block>
-  <block id="877ce8d6e2378f25eb1934d780634787" category="doc">입출력 모듈(AFF C30 및 AFF C60)을 추가합니다</block>
   <block id="f9430f7ad2e3d7cbd4ff22fe4e6db301" category="doc">입출력 모듈(AFF C30 및 AFF C60)을 교체합니다</block>
   <block id="148c37b997fbf92672f09bf3d72bdde2" category="summary">하드웨어 오류가 필요한 경우 AFF C80 시스템의 섀시를 교체합니다. 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="2084cec6febad8ab72f79daa8b23a355" category="doc">입출력 모듈 추가 - AFF C80</block>
@@ -10839,7 +10809,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c9f4b7c42437a2c4b4690a3b013628ba" category="doc">컨트롤러를 종료하여 부팅 미디어(ASA C30)를 교체합니다</block>
   <block id="669772d17e2dc353f34f422c36121ce3" category="summary">섀시의 HA 상태를 확인한 다음, 실패한 부품을 NetApp으로 반환하여 ASA C30 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
   <block id="23d33c98c35b14fd4a80967e1b3e3457" category="doc">전체 섀시 교체 - ASA C30</block>
-  <block id="25237d71e9d7f1d0ad7e397e5833e8b3" category="summary">하드웨어 장애로 인해 ASA C30 스토리지 시스템의 섀시를 교체해야 하는 경우 교체 프로세스에는 컨트롤러 및 전원 공급 장치(PSU) 분리, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="635216b917d6fdf5a454b511576ce44d" category="doc">섀시를 교체합니다. - ASA C30</block>
   <block id="aab639c4c9147a73b0546ea341640574" category="summary">ASA C30 스토리지 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 섀시가 있는지 확인하고, 필요한 도구가 포함됩니다.</block>
   <block id="d8d0c8656fc7188d35f6528aa09e4d2f" category="doc">섀시 교체 요구 사항 - ASA C30</block>
@@ -10849,7 +10818,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e2ed0a4168043c9156a55b725d7222e5" category="doc">섀시 교체 워크플로우 - ASA C30</block>
   <block id="e0ac24275668c9f2a6cc457319a609cf" category="summary">하드웨어 오류로 인해 ASA C30 스토리지 시스템의 컨트롤러를 교체해야 하는 경우 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="05e289dc15f65b50fbc090198495aabb" category="doc">컨트롤러-ASA C30을 교체합니다</block>
-  <block id="46f7be643adbfb35dff8b275ed40b40a" category="summary">ASA C30 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함, 온보드 키 관리자(OKM) 암호화 또는 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.</block>
   <block id="6b422659ac5fffe3ecc8c66789fdeadd" category="doc">컨트롤러 - ASA C30를 돌려줍니다</block>
   <block id="67cb3952ec89ce8d08815e47cfffe7fb" category="paragraph">ASA C30 스토리지 시스템이 정상적인 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요. Giveback 절차는 암호화 없음, OKM(Onboard Key Manager) 암호화 또는 EKM(External Key Manager) 암호화 등 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
   <block id="7ea5dd39204016c48a5829f91be918a1" category="summary">ASA C30 스토리지 시스템의 컨트롤러를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 시스템의 다른 모든 구성 요소가 올바르게 작동하는지 확인하고, 올바른 교체 컨트롤러가 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 작업이 포함됩니다.</block>
@@ -10872,7 +10840,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8129be3599ad6ec9ac772edc71b7c944" category="doc">입출력 모듈 추가 - ASA C30</block>
   <block id="efbf95fd94ecc04d20688f2a1a7413ed" category="summary">ASA C30 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
   <block id="c7d9daf18836286b26e5af2f7a1b19f0" category="summary">모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 ASA C30 스토리지 시스템의 I/O 모듈을 교체합니다. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
-  <block id="04309486482d3d0620657420da172323" category="doc">I/O 모듈 교체 - ASA C30</block>
   <block id="1bc87c4a07526688d1214c5a431c934a" category="summary">ASA C30 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="2b35d20ce09f7745c49b8451372caf6c" category="doc">하드웨어 유지 관리 개요 - ASA C30</block>
   <block id="907caac40616ad0b3b73482a664ecc6b" category="paragraph">이 섹션의 절차에서는 ASA C30 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.</block>
@@ -11370,7 +11337,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="aa6f3f8c8fe8c3ee1076fbae1b862c0f" category="section-title">5단계: 스토리지 시스템을 정상 작동 상태로 복원합니다.</block>
   <block id="4494f67d47bd95840cfaf71f7427c5d9" category="doc">I/O 모듈 유지 관리 개요 - AFF A20, AFF A30 및 AFF A50</block>
   <block id="96c5fffbd9befb3a2893a3e1abf894c4" category="doc">I/O 모듈 유지 관리 개요 - ASA A20, ASA A30 및 ASA A50</block>
-  <block id="e22df5a6b5342608f4c99f5bb172c1ff" category="doc">I/O 모듈 유지 관리 개요 - ASA C30</block>
   <block id="10fdff00cbd8dc0b562f7c384ead00e8" category="paragraph">////2025년 7월: ontap-systems 370: 이 플랫폼에서 지원되지 않으므로 캐싱 모듈을 삭제했습니다.</block>
   <block id="e30ec3a146d2f46cfcab61e84ddafe94" category="doc">I/O 모듈 유지 관리 개요 - AFF C30 및 AFF C60</block>
   <block id="99479e0da4b4c4c75f054c2458b99405" category="doc">I/O 모듈 유지 관리 개요 - FAS50</block>
@@ -11421,11 +11387,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fa67c19fe81d95264be5c7759ed6afd8" category="summary">AFF A20, AFF A30 및 AFF A50 스토리지 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 올바른 교체 부트 미디어를 가지고 있는지 확인하고, 손상된 컨트롤러의 e0M(렌치) 포트가 제대로 작동하는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="08c58bb79904586b0b84d9a778dc8107" category="summary">부트 이미지를 수동으로 복구하려면 USB 드라이브를 사용하여 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치해야 합니다. NetApp 지원 사이트에서 적절한 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 작동 상태로 복원합니다.</block>
   <block id="dc79fe320ee45a815e863d895752a274" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈 제거, 손상된 부트 미디어 제거, 교체 부트 미디어 설치, 그리고 USB 플래시 드라이브를 사용하여 ONTAP 이미지를 교체 부트 미디어로 수동으로 전송하는 과정으로 구성됩니다.</block>
-  <block id="bde33c2c67d772b35ad0626f8cbd8254" category="summary">하드웨어 오류로 인해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 섀시를 교체하세요.  교체 과정에는 컨트롤러와 전원 공급 장치(PSU) 제거, 드라이브 제거, 교체 섀시 설치, 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="357b430d8171ba2cd2ef98dee7df36ee" category="paragraph">하드웨어 오류로 인해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 섀시를 교체하세요.  교체 과정에는 컨트롤러 제거, 드라이브 제거, 교체 섀시 설치, 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="88a6ec6d39a1fe20b418b3c1ec40cd1d" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 섀시와 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
   <block id="75887c274cb165e4b1c96890f02f0996" category="summary">하드웨어 오류로 인해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러를 교체하세요.  교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
-  <block id="2580891b2fea72dbc8d92a978522aef3" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함, 온보드 키 관리자(OKM) 암호화, 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.</block>
   <block id="cb3dc45ab8a4a2a6f13973e27edcfe48" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, 온보드 키 관리자(OKM) 암호화, 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.</block>
   <block id="ddfee45d1a32cc77764ff9a18684e3f6" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 컨트롤러를 가지고 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 것이 포함됩니다.</block>
   <block id="8f5c315cb49801079466207b737cd908" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이선스를 설치합니다.  다음으로, 논리적 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다.  마지막으로, 새로운 컨트롤러의 일련번호를 등록한 후, 실패한 부품을 NetApp 으로 반환합니다.</block>
@@ -11447,7 +11411,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9285d0066746f6d0aa6ec9aa93f25239" category="summary">하드웨어 오류로 인해 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 섀시를 교체하세요.  교체 과정에는 컨트롤러 제거, 드라이브 제거, 교체 섀시 설치, 섀시 구성 요소 재설치가 포함됩니다.</block>
   <block id="e4a47d40d8a148e2fbb3194fbb3cea9d" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 섀시와 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
   <block id="7971d8d0801f3f8c3a476b64b9472422" category="summary">하드웨어 오류로 인해 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 교체하세요.  교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
-  <block id="6caa9ba1734bbb8cc9849acbec223740" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 안 함, 온보드 키 관리자(OKM) 암호화, 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.</block>
   <block id="762e0132133a1c7606e1ccd7bc675458" category="paragraph">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, 온보드 키 관리자(OKM) 암호화, 외부 키 관리자(EKM) 암호화)에 따라 다릅니다.</block>
   <block id="a6b1615dfbc2a8ac2b35d1758aa9b452" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 컨트롤러를 가지고 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 것이 포함됩니다.</block>
   <block id="60f2dc8c7558644ab5f91d6ec46c4400" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이선스를 설치합니다.  다음으로, 논리적 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다.  마지막으로, 새로운 컨트롤러의 일련번호를 등록한 후, 실패한 부품을 NetApp 으로 반환합니다.</block>
@@ -11494,7 +11457,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2c8cbe274d6629c9c07d4a72fa65dc56" category="summary">FAS50 스토리지 시스템 섀시를 교체하려면 다음 워크플로 단계를 따르세요.</block>
   <block id="0db644dce9b72e765dfa42cb271aa4bb" category="summary">하드웨어 장애로 인해 FAS50 스토리지 시스템의 컨트롤러를 교체해야 하는 경우  교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="7f10d81a2af374e7d73011ddfefcffa0" category="summary">FAS50 시스템이 정상적인 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, Onboard Key Manager OKM 암호화, External Key Manager EKM 암호화)에 따라 다릅니다.</block>
-  <block id="1eb5a9af90ca61fe0c3d080035b42c6e" category="summary">FAS50 시스템의 컨트롤러 교체를 완료하려면 먼저 필요한 경우 NetApp 스토리지 암호화 구성을 복원하고 새 컨트롤러에 필요한 라이선스를 설치합니다.  다음으로, 논리적 인터페이스 LIF가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다.  마지막으로, 새로운 컨트롤러의 일련번호를 등록한 후, 실패한 부품을 NetApp 으로 반환합니다.</block>
   <block id="bcab8849efe81ef1ee715149bbf79a0a" category="summary">FAS50 스토리지 시스템의 컨트롤러를 교체하려면 다음 워크플로 단계를 따르세요.</block>
   <block id="011c80f4e9e47f254013ed199051aea6" category="summary">과도한 수정 가능 또는 수정 불가능 메모리 오류가 감지된 경우 FAS50 스토리지 시스템에서 DIMM을 교체하세요.  이러한 오류로 인해 스토리지 시스템이 ONTAP 부팅하지 못할 수 있습니다.  교체 프로세스에는 손상된 컨트롤러를 종료하고, 제거하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="a14f60f5ae08b6e865df544028d7abdf" category="summary">FAS50 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
@@ -11647,7 +11609,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="83c2b84806c943f6b50bafd0fb4efb51" category="summary">ASA C400 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈을 제거하고, 손상된 부트 미디어를 제거하고, 컨트롤러 모듈에 교체 부트 미디어를 설치한 다음, 컨트롤러 모듈을 다시 설치하는 작업이 포함됩니다.</block>
   <block id="55d53312805fe204533f1bb33f0fedca" category="doc">자동 부팅 복구를 위한 부팅 미디어 교체 - ASA C400</block>
   <block id="5d69ccf09575fcce4a0fcad17c305a7b" category="paragraph">ASA C400 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈을 제거하고 열고, 손상된 부트 미디어를 제거하고, 컨트롤러 모듈에 교체 부트 미디어를 설치한 다음, 컨트롤러 모듈을 다시 설치하는 작업이 포함됩니다.</block>
-  <block id="95af7460d1911057f13d748a51faf551" category="summary">ASA C400 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오.</block>
   <block id="fafee2b3699468f91e3f14fc4e792257" category="doc">자동 부팅 미디어 복구 요구 사항 - ASA C400</block>
   <block id="10d2fbd856f042a1112a6b4be8d605a4" category="paragraph">ASA C400 의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요구 사항을 충족하는지 확인하세요.  여기에는 올바른 교체 부트 미디어를 가지고 있는지 확인하고, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="1a3246c7ae0b5f948f467b33a302c911" category="summary">ASA C400 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다.</block>
@@ -11673,7 +11634,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cc6c150eeeda76035baba1ca9bec7f8b" category="summary">ASA C800 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈을 제거하고, 손상된 부트 미디어를 제거하고, 컨트롤러 모듈에 교체 부트 미디어를 설치한 다음, 컨트롤러 모듈을 다시 설치하는 작업이 포함됩니다.</block>
   <block id="9075606b5faf6dd212619308b8e5025e" category="doc">자동 부팅 복구를 위한 부팅 미디어 교체 - ASA C800</block>
   <block id="075d5fc89153c0383e52d9f3e5badfb0" category="paragraph">ASA C800 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 프로세스에는 컨트롤러 모듈을 제거하고 열고, 손상된 부트 미디어를 제거하고, 컨트롤러 모듈에 교체 부트 미디어를 설치한 다음, 컨트롤러 모듈을 다시 설치하는 작업이 포함됩니다.</block>
-  <block id="6bca484b66731ad1c39b5ddad4ee5423" category="summary">ASA C800 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오.</block>
   <block id="18319bfb663e3372f07d3e1e8e0ed3de" category="doc">자동 부팅 미디어 복구 요구 사항 - ASA C800</block>
   <block id="eab54dfc4e7beb82ae1f48213a2b2b62" category="paragraph">ASA C800 의 부트 미디어를 교체하기 전에 성공적인 교체를 위해 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 올바른 교체 부트 미디어를 가지고 있는지 확인하고, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="a0e501facd187264d36a04b26ace9613" category="summary">ASA C800 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다.</block>
@@ -12004,7 +11964,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="059aa23ccfbd2dceb25deca0d4248c15" category="list-text">섀시 교체 절차는 베젤, 팬, 컨트롤러 모듈, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈, PSU를 새 섀시로 옮기고, 교체 섀시가 NetApp 의 새로운 구성 요소라는 가정 하에 작성되었습니다.</block>
   <block id="c3b7f04deba9a99877c66d5f1520e4bc" category="summary">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 AFF A1K 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
   <block id="bbdf42194bd34fedc2e7a3c5ab0f3cd8" category="doc">섀시 교체 완료 - AFF A1K</block>
-  <block id="7b15497869394a629839f26501a0e20f" category="summary">하드웨어 장애로 인해 AFF A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="5fb72873516b6fa89bc4cbc55f8f79a6" category="doc">섀시 교체 - AFF A1K</block>
   <block id="a4a8f7ed930a61fed25e5cb4b874522c" category="paragraph">하드웨어 장애로 인해 AFF A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈, 전원 공급 장치(PSU)를 제거하고, 교체 섀시를 설치하고, 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="cf55c741d07b351e4641605836e7f7da" category="paragraph">손상된 AFF A1K 섀시를 교체하고 구성 요소를 다시 설치한 후에는 다음을 수행해야 합니다.<block ref="e567761f3b9d650307e1ffbce9c62dc9" category="inline-link-macro-rx"></block> .</block>
@@ -12021,12 +11980,10 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c77d647fced0d18ea8388a89c9fbbe8c" category="paragraph-title"><block ref="6b77e2260873b4d678c3f337dd767e02" category="inline-image-macro-rx" type="image"></block><block ref="148983c7fc1a624047153d53429d13a1" category="inline-link-macro-rx"></block></block>
   <block id="a59a9a05f780a25a994c0a1796c4e14c" category="paragraph">섀시에서 유지관리를 수행하려면 컨트롤러를 종료하세요.</block>
   <block id="710a3e7fade7e7d65d3f95207d84a760" category="paragraph">컨트롤러를 올리고, 컨트롤러를 돌려주고, 실패한 섀시를 NetApp 으로 반환하여 섀시 교체를 완료합니다.</block>
-  <block id="0a53613f0a8092b49f93c48b98e6639c" category="summary">하드웨어 장애로 인해 AFF A1K 시스템의 컨트롤러를 교체해야 하는 경우, 교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="1c003f60306195fc28f8caffd47dd340" category="paragraph">하드웨어 장애로 인해 AFF A1K 시스템 컨트롤러를 교체해야 하는 경우. 교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="28c4dddeb520e51d2f0abe60128d46e8" category="paragraph">섀시에는 팬, 컨트롤러, 전원 공급 장치, PSU, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈이 들어 있습니다.</block>
   <block id="7ff4349856f45df803f8bf1c62cd8a3e" category="summary">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 ASA A1K 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
   <block id="9c92b4551d0ebe4951d40344b2e526c8" category="doc">섀시 교체 완료 - ASA A1K</block>
-  <block id="12e1a630fcbebc408d89ab84807bfcf2" category="summary">하드웨어 장애로 인해 ASA A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="5aeefe07266bb1fc5e1139b04473dfe8" category="doc">섀시 교체 - ASA A1K</block>
   <block id="89c5427feacbde4f607d05cd07f48f94" category="paragraph">하드웨어 장애로 인해 ASA A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈, 전원 공급 장치(PSU)를 제거하고, 교체 섀시를 설치하고, 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="e1a44d52ef9851aabc78844c3bc47c92" category="paragraph">손상된 ASA A1K 섀시를 교체하고 구성 요소를 다시 설치한 후에는 다음을 수행해야 합니다.<block ref="e567761f3b9d650307e1ffbce9c62dc9" category="inline-link-macro-rx"></block> .</block>
@@ -12953,7 +12910,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a7da9d6c9cdcddf6adea58eed6c0f530" category="inline-link-macro">RTC 배터리 교체 절차</block>
   <block id="dff5719e2d9eaa7b6bd9235aaa97593d" category="inline-link-macro">시스템 관리 모듈 교체 절차</block>
   <block id="ce0289f5a93ebc431b8daf2de51af353" category="summary">플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 I/O 모듈 교체 절차를 찾아보세요.  이 참조 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 I/O 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
-  <block id="ade554b9dd3913961cccafe3afa99fba" category="doc">플랫폼 제품군별 I/O 모듈 교체 절차</block>
   <block id="d6b1e37b5093a063f4e832675aca8094" category="list-text"><block ref="d6b1e37b5093a063f4e832675aca8094" category="inline-link-macro-rx"></block></block>
   <block id="f0faab9b0a0ca9b5fae752e5335e1484" category="list-text"><block ref="f0faab9b0a0ca9b5fae752e5335e1484" category="inline-link-macro-rx"></block></block>
   <block id="809a748fbb0e6b9762d56b3144e2761a" category="list-text"><block ref="809a748fbb0e6b9762d56b3144e2761a" category="inline-link-macro-rx"></block></block>
@@ -12990,7 +12946,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="aa9ef474e0d2c928220c6db0e5796f2b" category="list-text"><block ref="aa9ef474e0d2c928220c6db0e5796f2b" category="inline-link-macro-rx"></block></block>
   <block id="31cd71f316d01892ea56126c0fb235dd" category="list-text"><block ref="31cd71f316d01892ea56126c0fb235dd" category="inline-link-macro-rx"></block></block>
   <block id="df7ef2525ea6878df2c32d881ac88bca" category="summary">플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 NVMEM/ NVRAM 배터리 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 NVMEM/ NVRAM 배터리 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
-  <block id="baec62041aa3ab0e04f8ea8c512b22d6" category="doc">플랫폼 제품군별 NVMEM/ NVRAM 배터리 교체 절차</block>
   <block id="19fdf710660be381dbee7f8da4227d94" category="list-text"><block ref="19fdf710660be381dbee7f8da4227d94" category="inline-link-macro-rx"></block></block>
   <block id="68cf8dcc4a05b4ec0938073817aad8af" category="list-text"><block ref="68cf8dcc4a05b4ec0938073817aad8af" category="inline-link-macro-rx"></block></block>
   <block id="9b10cdf6eda88aa5a12e51ecbdc904b7" category="list-text"><block ref="9b10cdf6eda88aa5a12e51ecbdc904b7" category="inline-link-macro-rx"></block></block>
@@ -13341,11 +13296,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e9a4fd6d757916321039c241b25883ba" category="paragraph">컨트롤러를 종료한 후,<block ref="067d400ed1fcec8dc5a70b9626d0928f" category="inline-link-macro-rx"></block> .</block>
   <block id="3b944bd07c9350da1f5ff412902503e4" category="doc">섀시 교체 완료 - AFX 1K</block>
   <block id="f432d643911bfe1f40fce00570be273c" category="paragraph">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 AFX 1K 섀시 교체 절차의 마지막 단계를 완료합니다.</block>
-  <block id="89187ec5a518498af60702544b9b4c7a" category="summary">하드웨어 장애로 인해 AFX 1K 스토리지 시스템의 섀시를 교체해야 하는 경우 교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="e01fa430bba3f9f0fdf0dc0b32be7416" category="doc">섀시 교체 - AFX 1K</block>
   <block id="9287ca3da4ca19560b93cd1054ecc58f" category="paragraph">하드웨어 장애로 인해 AFX 1K 스토리지 시스템의 섀시를 교체해야 하는 경우 교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈, 전원 공급 장치(PSU)를 제거하고, 교체 섀시를 설치하고, 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
   <block id="92c5e9cb0394b67e0571b7f5418b5c4c" category="inline-link-macro">섀시 교체</block>
-  <block id="4977e2735da0aea95d25556527f50d61" category="paragraph">손상된 AFF A1K 섀시를 교체하고 구성 요소를 다시 설치한 후 다음을 완료하십시오.<block ref="26075a6bb8a8530abf8ac901371df95c" category="inline-link-macro-rx"></block> .</block>
   <block id="024891dc154221a3fd983742d0749550" category="summary">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 AFX 1K 스토리지 시스템의 손상된 섀시를 교체할 준비를 합니다.</block>
   <block id="6333849dd5ba2298242602f4ab5f909f" category="doc">섀시 교체 준비 - AFX 1K</block>
   <block id="95ac2d8894f5f59683ab1ad1d55d6b1b" category="paragraph">손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 AFX 1K 스토리지 시스템의 손상된 섀시를 교체할 준비를 합니다.</block>
@@ -13438,7 +13391,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="51686d37e51a378d1be55d6e38beb7d7" category="list-text"><block ref="51686d37e51a378d1be55d6e38beb7d7" category="inline-link-rx"></block></block>
   <block id="b54483c149c4951b43214e0e419d0882" category="list-text">ONTAP 배포에 대해서는 다음을 참조하세요.<block ref="daad8f612ac7448a64fdb14518a581cb" category="inline-link-rx"></block> .</block>
   <block id="aeaeb10b6f9fde2ae4de6c336b6e2a09" category="list-text">MetroCluster 배포를 사용한 ONTAP 의 경우 다음을 참조하세요.<block ref="63d00fc18e84d6621c63394dbe0320b4" category="inline-link-rx"></block> .</block>
-  <block id="b555c88715871e0ab49ad92e684efffd" category="summary">ONTAP 아직 실행 중이 아니거나 시스템에 케이블로 연결되기 전에 셸프를 핫 추가할 때 시스템의 셸프 ID를 변경할 수 있습니다.  ONTAP 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있을 때) 쉘프 ID를 변경할 수 있으며 쉘프의 모든 드라이브가 소유되지 않은 드라이브, 예비 드라이브 또는 오프라인 집계의 일부일 때도 쉘프 ID를 변경할 수 있습니다.</block>
   <block id="b2931c9de96ffec093328665afff6c26" category="doc">선반 ID 변경 - NX224 선반</block>
   <block id="a9903f2b0fc1c58d182e0c36f31792a7" category="paragraph">ONTAP 아직 실행 중이 아니거나 시스템에 케이블로 연결하기 전에 셸프를 핫 애드하는 경우 시스템에서 NX224 셸프 ID를 변경할 수 있습니다.  ONTAP 실행 중일 때(컨트롤러 모듈을 사용하여 데이터를 제공할 수 있음) 셸프의 모든 드라이브가 소유자가 없거나 예비 드라이브인 경우에도 셸프 ID를 변경할 수 있습니다.</block>
   <block id="88b13fd715f99692479fe3ad83ca588f" category="list-text">AFX 클러스터 내에서는 선반 ID가 고유해야 합니다.</block>
@@ -13531,7 +13483,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="bcbb78790793c3b3a6c4cc3de0f22bc6" category="list-text">고장난 NSM을 제거해도 선반의 연결이 유지되도록 선반의 파트너인 NSM이 제대로 작동하고 케이블이 올바르게 연결되어 있어야 합니다.  파트너 NSM의 상태를 확인할 수 있습니다.<block ref="d3209ff29e83e82c4ec5003559161f56" category="inline-link-rx"></block> .</block>
   <block id="8b9a79e838c879494b6ec6a4dd9f83d7" category="list-text">NSM을 다시 케이블로 연결하세요:</block>
   <block id="2ddc2541950d2b7cf5fa865af0c30811" category="list-text">오류가 발생한 I/O 모듈과 선반 운영자 디스플레이 패널이 포함된 NSM의 주의(주황색) LED가 더 이상 켜지지 않는지 확인합니다.</block>
-  <block id="bb737625afde517204010c198f050aee" category="summary">전원이 켜져 있고 I/O가 진행 중인 NX224 드라이브 선반에서 손상된 NVMe 선반 모듈 \(NSM\)을 중단 없이 교체할 수 있습니다.</block>
   <block id="868dffc494c85c09a39784a568ce58c4" category="doc">NSM - NX224 선반 교체</block>
   <block id="8caf14bc08677c718cf235d44b23051c" category="paragraph">전원이 켜져 있고 I/O가 진행 중인 NX224 드라이브 선반에서 손상된 NVMe 선반 모듈(NSM)을 중단 없이 교체할 수 있습니다.</block>
   <block id="1ca26d4850e86adaada89afb267eaf6f" category="list-text">NSM을 교체하려면 손상된 NSM의 DIMM, 팬, 부팅 미디어, I/O 모듈, 전원 공급 장치를 교체용 NSM으로 옮겨야 합니다.</block>
@@ -13549,7 +13500,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1b4028b0424fade1bdb82356997b35c2" category="list-text">전원 공급 핸들을 아래로 돌려서 정상적인 작동을 방해하지 않도록 하세요.</block>
   <block id="c772043a43cbf70f178bc60e9c2bb650" category="summary">전원이 켜져 있고 I/O가 진행 중인 NX224 셸프에서 고장난 전원 공급 장치를 중단 없이 교체할 수 있습니다.</block>
   <block id="d50fc1b8ef2aa32e52f173d19ecc37c2" category="doc">전원 공급 장치 핫스왑 - NX224 선반</block>
-  <block id="cdc16f7c380d947b149dd311510c68f2" category="summary">전원이 켜져 있고 I/O가 진행 중인 NX224 선반에서 고장난 실시간 클록 (RTC) 배터리를 중단 없이 교체할 수 있습니다.</block>
   <block id="8cd7ffd76d7b4b46c49c984da4cc21cf" category="doc">실시간 시계 배터리 교체 - NX224 선반</block>
   <block id="504ce12704134674e6c4f4d48826e550" category="paragraph">전원이 켜져 있고 I/O가 진행 중인 NX224 셸프에서 고장난 실시간 클록(RTC) 배터리를 중단 없이 교체할 수 있습니다.</block>
   <block id="99dfa28920a40a7be0858c50f989a3e5" category="section-title">2025년 10월</block>
@@ -14234,26 +14184,20 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6a4129d7f7559d93bea64aaf6cc50dd2" category="paragraph">키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송하십시오. 보세요<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 자세한 내용은 해당 페이지를 참조하십시오. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="2f2b66e4958780f4b0218a228e142375" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 컨트롤러의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="5e4d3493c495db06014fa5d1c4ba98a2" category="paragraph">저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="2a38eccf29619a7c06875648bdbf5aa9" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="ba84a621c7485d91c2c8ab174648083a" category="paragraph">교체 부팅 미디어에 암호화를 복원합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="232b514d5cb9e9b1767dc306e59f6a4d" category="summary">USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원한 다음 환경 변수를 확인해야 합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="53730ccfa28b3e3ffc10eb272982d61c" category="paragraph">AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
-  <block id="c453023c99c39ca3485fd37f5b6aafae" category="summary">부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템(부팅 이미지) 파일 세트가 저장됩니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 있는 교체를 수행할 수 있습니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="93303c110d5a89a2d943e7bb7282ad9d" category="summary">컨트롤러에서 부팅 미디어를 찾아 지침에 따라 교체해야 합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="f6f0c5143d03c908260edb730d21ef18" category="summary">스토리지 시스템 하드웨어 구성에 따라 서로 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 제어권을 확보할 수 있습니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="882250128c224c1fbdd372d32597991d" category="paragraph">구성에 맞는 절차를 사용하여 손상된 컨트롤러를 종료하거나 제어권을 인계받으십시오. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="b99f3ef5da4db32163d85e0e59fc5926" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 이렇게 하면 구성이 정상 작동 상태로 복원되며, 이전에 문제가 발생했던 사이트의 동기화 소스 스토리지 가상 머신(SVM)이 이제 활성화되어 로컬 디스크 풀에서 데이터를 제공합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="28c09a76a539cac48fbf3bcb1e88771b" category="paragraph">부팅 미디어 교체를 완료한 후 MetroCluster 스위치백 작업을 수행하십시오. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="26cab572f60fbb16a513d5d6cacfe94f" category="summary">부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송할 수 있습니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 기술 지원팀에 문의하세요.<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>RMA 번호가 필요하거나 교체 절차에 대한 추가 도움이 필요하시면 북미 지역은 888-463-8277, 유럽 지역은 00-800-44-638277, 아시아/태평양 지역은 +800-800-80-800으로 연락해 주십시오.</block>
   <block id="b4f9e21b6cb4be0615d95b69fce6c7b8" category="paragraph">부팅 미디어를 교체한 후 고장난 부품을 NetApp 으로 반송하십시오. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="92d8c38f4c65c5a2e2d7baf3d4f75b39" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 컨트롤러의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="4585895ebb7097a6d74e58d99e20e151" category="paragraph">저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="89206b2c34ef884bad24d16aa929d77a" category="paragraph">ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하세요.</block>
-  <block id="e1a0a619534a33db9c34d8d068e9c4ee" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="cd7e7a7beb4e7979e12176a610d6aabd" category="paragraph">교체 부팅 미디어에 암호화를 복원합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="279d10c4854449f1c8fffcc770c1d33a" category="summary">손상된 컨트롤러를 복구 이미지에서 부팅하는 절차는 시스템이 2노드 MetroCluster 구성인지 여부에 따라 다릅니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="fd61a87e54350163fd45f73f7d03bf43" category="paragraph">손상된 컨트롤러를 복구 이미지에서 부팅하는 절차는 시스템이 2개의 컨트롤러로 구성된 MetroCluster 구성인지 여부에 따라 다릅니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="e1887a0915f40702ad150fd4a3064134" category="summary">부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템(부팅 이미지) 파일 세트가 저장됩니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 있는 교체를 수행할 수 있습니다.</block>
   <block id="ec288fa9102803d16b8872c9da48c5c5" category="summary">컨트롤러에서 부팅 미디어를 찾아 지침에 따라 교체해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="e7199746bf12e08d76bedcbd9d050820" category="paragraph">부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 제거하고, 교체용 부팅 미디어를 설치한 다음, 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="f913c2a70852b80287a4b79c41a77fb9" category="summary">스토리지 시스템 하드웨어 구성에 따라 서로 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 제어권을 확보할 수 있습니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
@@ -14273,7 +14217,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4206624bbbad923da4b854862152a86b" category="summary">NVE 또는 NSE 작업을 완료한 후에는 문제가 발생한 노드를 종료해야 합니다. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="ceb5bd5610e4072d7e0ea83ab8c9bd35" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 문제가 발생한 노드를 종료해야 합니다. 구성에 맞는 절차를 사용하여 손상된 컨트롤러를 종료하거나 제어권을 인계받으십시오. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="53df83e7f3d3d516635394c3f473ae6d" category="summary">새로 설치한 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="b53095e62c73c8b99f1d02552c000fe3" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 이렇게 하면 구성이 정상 작동 상태로 복원되며, 이전에 문제가 발생했던 사이트의 동기화 소스 스토리지 가상 머신(SVM)이 이제 활성화되어 로컬 디스크 풀에서 데이터를 제공합니다. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="99cf1e1ab20c4cfd0d95014cd67a0a08" category="doc">2노드 MetroCluster 구성에서 스위치백 애그리게이트 - AFF A700</block>
   <block id="1c03bf396c9eca00858b527b5453a171" category="paragraph">부팅 미디어 교체를 완료한 후 MetroCluster 스위치백 작업을 수행하십시오. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="7c5da5f5d614c9e136861d7065d7b7de" category="summary">부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송할 수 있습니다. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
@@ -14281,7 +14224,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3abf23ca48f7e13f80f5fe7bb1275105" category="paragraph">키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송하십시오. 보세요<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 자세한 내용은 해당 페이지를 참조하십시오. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="e4e3fca76d6c0e123250e2cff21a47c3" category="summary">손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 노드의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="e5c2fdb34f1de6346aff8ea3b7a3e6f4" category="paragraph">저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="c244f21ad756e7c793cac0e0cd147065" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="75ab832e014c22332ebc38b0436cb501" category="paragraph">교체 부팅 미디어에 암호화를 복원합니다. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="c7d20417b980cce3ed3bb7d7005db376" category="summary">AFF A700 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="57fd47470ae718542cad7b5b9f01e9e9" category="paragraph">AFF A700 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. 이 절차에는 USB 플래시 드라이브에서 부팅, 파일 시스템 복원, 환경 변수 확인, 컨트롤러를 정상 작동 상태로 되돌리는 과정이 포함되며, 시스템이 2노드 MetroCluster 구성인지 여부에 따라 구체적인 단계가 달라집니다.</block>
@@ -14374,13 +14316,11 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4fa7fac5155fdf6f00f32df2d2a3b87a" category="paragraph">FAS8200 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. 이 절차에는 섀시에서 컨트롤러 모듈을 제거하고, 부팅 미디어 구성 요소를 물리적으로 교체하고, USB 플래시 드라이브를 사용하여 부팅 이미지를 교체 미디어로 전송하고, 시스템을 정상 작동 상태로 복원하는 과정이 포함됩니다.</block>
   <block id="e992c53eecb095681987a9a8910cafde" category="summary">암호화 검사를 완료한 후 FAS8200 시스템에서 문제가 있는 컨트롤러를 종료하십시오. FAS8200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="e5d65c4ef08045931c1be2779705747d" category="paragraph">암호화 검사를 완료한 후 FAS8200 시스템에서 문제가 있는 컨트롤러를 종료하십시오. 이 절차에는 컨트롤러를 LOADER 프롬프트로 이동시키고, 참조를 위해 부팅 환경 변수를 캡처하고, 부팅 미디어 교체를 위해 컨트롤러를 준비하는 과정이 포함되며, 구체적인 단계는 시스템 구성에 따라 달라집니다.</block>
-  <block id="87cb40395acfe10a1650b9e02b006d26" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후에는 MetroCluster 스위치백 작업을 수행할 수 있습니다. 이렇게 하면 구성이 정상 작동 상태로 복원되며, 이전에 문제가 발생했던 사이트의 동기화 소스 스토리지 가상 머신(SVM)이 이제 활성화되어 로컬 디스크 풀에서 데이터를 제공합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="b9c389d5862c302fad7b418a751b439f" category="paragraph">부팅 미디어 교체를 완료한 후 MetroCluster 스위치백 작업을 수행하십시오. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="d758bd8309af45c1b9501e2a932fa172" category="summary">부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송할 수 있습니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="bbc2e11d910d1f68251116d75c0e313c" category="paragraph">키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송하십시오. 보세요<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 자세한 내용은 해당 페이지를 참조하십시오. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="cbea2cd042953291c746b64ed00be111" category="summary">손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 노드의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="3249cc5272c53a1d5aa9d8cabeeb1b8a" category="paragraph">저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="c46823c1660463f61a49f1053b334476" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="5bf36be54158a4cae3903c79c7649a8b" category="paragraph">교체 부팅 미디어에 암호화를 복원합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="f2355f742ad86c970b7ed390e9ced48b" category="summary">손상된 노드를 복구 이미지에서 부팅하는 절차는 시스템이 2노드 MetroCluster 구성인지 여부에 따라 다릅니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="49692a6c92e707f5a903378cbf38fea9" category="paragraph">손상된 노드를 복구 이미지에서 부팅하는 절차는 시스템이 2노드 MetroCluster 구성인지 여부에 따라 다릅니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
@@ -14511,7 +14451,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="83ac6a4711c3416ed290046898df82df" category="summary">모듈에 장애가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.</block>
   <block id="3e25ddbb94c4b798474308099541a9de" category="doc">I/O 모듈 핫 스왑 - ASA A20, ASA A30 및 ASA A50</block>
   <block id="8e3cd31e8a235e75e789cfedbe57a095" category="summary">모듈에 장애가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 ASA C30 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.</block>
-  <block id="7e34b764fe767bebec3fb4012725ee85" category="doc">I/O 모듈 핫 스왑 - ASA C30</block>
   <block id="2e653b1c06ff140c10b0fcd2447299a8" category="summary">모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF C30 또는 AFF C60 스토리지 시스템에서 Ethernet I/O 모듈을 핫 스왑할 수 있습니다.</block>
   <block id="8c09192e3ad4ada0bd01a56b960e1dcb" category="doc">I/O 모듈 핫 스왑 - AFF C30 및 AFF C60</block>
   <block id="6a7de62c378c9220323525ce7cf5a281" category="summary">모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF C80 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.</block>
@@ -14634,7 +14573,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ecbed1b1911625de2c7d7fef54dd3a9e" category="summary">ASA C250 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈을 분리하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 컨트롤러 모듈에 설치하고, 마지막으로 컨트롤러 모듈을 재설치하는 순서로 진행됩니다.</block>
   <block id="fb319d4fcbcaebe65f129baa7d71cb8a" category="doc">자동 부팅 복구를 위한 부팅 미디어 교체 - ASA C250</block>
   <block id="3f7c598b8de926ed6f4ede96849867ae" category="paragraph">ASA C250 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈을 분리하여 열고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 컨트롤러 모듈에 설치하고, 마지막으로 컨트롤러 모듈을 재설치하는 단계로 진행됩니다.</block>
-  <block id="ca511809cd8088dd2136eacfb38a9e80" category="summary">ASA C250 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요구 사항을 충족하는지 확인하십시오.</block>
   <block id="f9052d4f873e62ac3bbdcc8f796de6fe" category="doc">자동화된 부팅 미디어 복구 요구 사항 - ASA C250</block>
   <block id="66a7a5e00dcd2fba43bdc509c4ce2960" category="paragraph">ASA C250에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지 확인하고, Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="123aa1a0dc08eb892a6d0bd8c79861ea" category="summary">ASA C250 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 적절한 용량의 USB 플래시 드라이브가 있는지, 그리고 올바른 교체용 부팅 장치인지 확인하는 것이 포함됩니다.</block>
@@ -14889,4 +14827,193 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e075a310e0208871f253ed1786f7aa85" category="list-text">각 컨트롤러에서 케이블 포트 2a, 2b, 2c 및 2d를 FC 호스트 네트워크 스위치에 연결합니다.</block>
   <block id="10d1cd0e02125f8bd564ede88ccb6299" category="inline-link-macro">외부 셸프가 없는 다중 경로 HA 구성에서 FAS2820의 케이블 연결 지침</block>
   <block id="d39169304221934e8d58603cd9d63040" category="admonition">시스템에 외부 쉘프가 없는 경우 <block ref="44f2a0a0fa1af21b0c18497342de4644" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="1472d0846b2b91de129aca7e98296d0d" category="summary">부팅 미디어에는 시스템 부팅 시 사용하는 기본 및 보조 시스템 부팅 이미지 파일 세트가 저장됩니다. 네트워크 구성에 따라 무중단 또는 중단 방식의 교체를 수행할 수 있습니다.</block>
+  <block id="db4b07939d5968f820b88aed869a270e" category="summary">시스템을 정상 작동 상태로 복원하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
+  <block id="a6b2f34556844c0ae760db1e40b9d4f8" category="summary">스토리지 시스템에서 상태 모니터 경고에 따른 과도한 CECC 오류 또는 수정 불가능한 ECC 오류와 같은 오류가 발생하는 경우 컨트롤러의 DIMM을 교체해야 합니다. 이러한 오류는 일반적으로 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하게 됩니다.</block>
+  <block id="d7ea30f5d9bdf996fe98dac5e277876a" category="summary">정확한 시간 동기화에 의존하는 시스템의 서비스 및 애플리케이션이 계속 작동하도록 컨트롤러 모듈의 실시간 클록 배터리를 교체합니다.</block>
+  <block id="53268beed41ffb3f314a2745851b4bf9" category="summary">하드웨어 장애로 인해 필요한 경우 AFF A1K 시스템의 섀시를 교체하십시오. 교체 프로세스에는 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈 및 전원 공급 장치를 제거하고, 교체용 섀시를 설치한 다음 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.</block>
+  <block id="8c75fc2f1268fd88207d9be00c6f9c60" category="summary">AFF A1K 시스템의 컨트롤러 교체를 완료하려면 NetApp Storage Encryption 구성을 복원하고, 논리 인터페이스가 홈 포트로 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="ea5b2459c699efdaef98a9e968467d10" category="summary">AFF A1K 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 고장 난 PSU를 교체하고 전원에 다시 연결하는 것입니다.</block>
+  <block id="d942009d250947e0518de97a084bce37" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF A1K 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="786ed385ca8edef5612119574c8c5cc4" category="summary">AFF A20, AFF A30 및 AFF A50 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0M 포트가 제대로 작동하는지 확인하며, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="1abf30223472a66181e724a1c6915682" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 반환 절차는 시스템에서 암호화를 사용하지 않는지, Onboard Key Manager 암호화를 사용하는지 또는 External Key Manager 암호화를 사용하는지에 따라 다릅니다.</block>
+  <block id="46a429f4c90efb3ab452cd903f164c59" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러 교체를 완료하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 새 컨트롤러의 일련 번호를 등록하고 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="d446c02343f0a4295a7f9f44014d22ab" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 PSU를 전원에서 분리하고 전원 코드를 뽑은 다음 고장 난 PSU를 교체하고 전원에 다시 연결하는 것으로 구성됩니다.</block>
+  <block id="85f75fd3645ce89116e6f687ee1734ad" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="e34a49184932e88ae65124025512a1d7" category="summary">부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 부팅 이미지 파일 세트가 저장됩니다. 네트워크 구성에 따라 무중단 또는 중단 방식의 교체를 수행할 수 있습니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="939703437888acbc2d9527b5d77140bc" category="summary">AFF A220 스토리지 시스템의 교체 부팅 미디어에서 암호화를 복원합니다. AFF A220은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="d2cc36611130df774860ec2f75f321e9" category="summary">부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 파일 세트가 저장됩니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="6e22aeba684a6e97574c0d3f9369cbe5" category="summary">시스템을 완전히 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="a3defd259800db21896c7d417550a5a2" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A220 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="16ff462f085c849a72906f8d3a09022d" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A220 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="b23cd5f717a120eb5ced735aa19ee027" category="summary">AFF A250 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp으로 반환하십시오.</block>
+  <block id="26c631b7ee648dad6b23d5d87d174849" category="summary">AFF A250 시스템의 교체 부팅 미디어에 암호화를 복원하십시오. Onboard Key Manager, NetApp Storage Encryption 또는 NetApp Volume Encryption이 활성화된 시스템에 대한 특정 단계를 완료하십시오.</block>
+  <block id="9492514c6280c5d6ecf3fe85120065ea" category="summary">AFF A250 시스템의 컨트롤러 교체를 완료하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="244c00d77fa9e5f227fc776970c53b6c" category="summary">상태 모니터 경고를 기반으로 과도한 CECC 오류가 발생하거나 스토리지 시스템이 ONTAP를 부팅하지 못하게 하는 수정 불가능한 ECC 오류가 발생할 경우 AFF A250 컨트롤러의 DIMM을 교체하십시오.</block>
+  <block id="b684b7214d40df10105c8970d247f071" category="summary">AFF A250 시스템의 전원 공급 장치를 교체하려면 대상 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 PSU를 제거하고 교체용 PSU를 설치한 후 전원에 다시 연결하십시오.</block>
+  <block id="ae425b975a6a046a58fb4d15d457e360" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A250 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="009e5e05d86cbe23663a0b21e9479f8b" category="summary">2노드 MetroCluster 구성에서 부팅 미디어 교체를 완료한 후 MetroCluster 스위치백 작업을 수행하여 구성을 정상 작동 상태로 되돌려야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="1d39e867dc7ed9008e966b116f4df953" category="summary">부팅 미디어를 교체한 후에는 고장난 부품을 NetApp으로 반환하십시오. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="d2b049a7054e7e6f0e2f4783375aefe3" category="summary">교체 부팅 미디어에 암호화를 복원합니다. Onboard Key Manager, NetApp Storage Encryption 또는 NetApp Volume Encryption이 활성화된 시스템에 대한 특정 단계를 완료하십시오. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="bca04953ff1ef2efc88a1348500ea804" category="summary">부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 파일 세트가 저장됩니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 네트워크 구성에 따라 무중단 또는 중단 방식의 교체를 수행할 수 있습니다.</block>
+  <block id="3aeb69a11a9a7f4d11aea4a2ded1d608" category="summary">AFF A300 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="173c845c80c7a652be518b370c8ff912" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A300 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="7a2b36fde1992cfbd071e7a8409e3829" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A300 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="b5f86c7d3c861c0d88b4bee07e876992" category="summary">AFF A320 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="7b992d579fe8c435826ab3dbe3ccdbca" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A320 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="c659daebd29f425a3799be0dfe9aa81c" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 정상이 아니라고 등록하면 AFF A320 컨트롤러 모듈의 NVDIMM을 교체하십시오. 결함이 있는 NVDIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="5dc1c33af860babdc19ae26e102fa1a5" category="summary">AFF A320 시스템의 전원 공급 장치를 교체하려면 대상 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 PSU를 제거하고 교체용 PSU를 설치한 후 교체용 PSU를 전원에 다시 연결하십시오.</block>
+  <block id="153c5d61bda29a7b0c96d3d7488ca269" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A320 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="56572163fb483ea4f6f61362d0aaa483" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후 MetroCluster 스위치백 작업을 수행하여 구성을 정상 작동 상태로 되돌리십시오. 그러면 이전에 문제가 발생했던 사이트의 동기화 소스 스토리지 가상 머신이 활성화되어 로컬 디스크 풀에서 데이터를 제공하게 됩니다.</block>
+  <block id="53c1cc0d2035d159daddd659e0ec67b9" category="summary">부팅 미디어를 교체한 후 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="643f89dfcdb99598dff0698a6c6f477f" category="summary">교체 부팅 미디어에 암호화를 복원합니다. Onboard Key Manager, NetApp Storage Encryption 또는 NetApp Volume Encryption이 활성화된 시스템에 대한 특정 단계를 완료하십시오.</block>
+  <block id="4d7aa69fc026b3a6f987b82e95bc8b6e" category="summary">부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템 파일 세트가 저장됩니다.</block>
+  <block id="bb5e69b90aaf792d44828cce6a24757b" category="summary">컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.</block>
+  <block id="392332a3990bcf6a83cb056eebd84db7" category="summary">AFF A400 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="7c3d0fbb22df3b0d007f4c77b6168305" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A400 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="bc8a0da992c3b6518fd7063cb3cb66d5" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 정상 상태가 아니라고 등록하면 AFF A400 컨트롤러 모듈의 NVDIMM을 교체하십시오. 결함이 있는 NVDIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="ceae6e7ef833654d24b8abca1cfe66da" category="summary">AFF A400 시스템의 전원 공급 장치를 교체하려면 대상 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 PSU를 제거하고 교체용 PSU를 설치한 후 전원에 다시 연결하십시오.</block>
+  <block id="56ff8c7b3994ec81b45fbc6c4516f556" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A400 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="2cff4ef16270e78d824ec0e5588ed740" category="summary">AFF A70 또는 AFF A90 스토리지 시스템에서 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp Volume Encryption을 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오.</block>
+  <block id="874d7fb8de0d29b917bd899680154ac5" category="summary">하드웨어 장애로 인해 필요한 경우 AFF A70 또는 AFF A90 시스템의 섀시를 교체하십시오. 교체 프로세스에는 컨트롤러 및 전원 공급 장치 제거, 드라이브 제거, 교체 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
+  <block id="c83cd84ebd76f43db16748ad6191bed8" category="summary">AFF A70 또는 AFF A90 시스템의 AC 또는 DC 전원 공급 장치에 장애가 발생하거나 결함이 있을 때 교체하여 시스템이 안정적인 작동에 필요한 전원을 계속 공급받을 수 있도록 하십시오. 교체 프로세스에는 결함이 있는 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 결함이 있는 PSU를 교체한 다음 전원에 다시 연결하는 작업이 포함됩니다.</block>
+  <block id="a791f77edfd0613711eb39704877ad82" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF A70 또는 AFF A90 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="9f89df513102b7dce5d24e9c97605bc7" category="summary">부팅 미디어 교체가 완료되면 MetroCluster 스위치백 작업을 수행하여 구성을 정상 작동 상태로 되돌리십시오. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="6c3a7ba8122959eac518241d37492645" category="summary">교체 부팅 미디어에 암호화를 복원하십시오. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="c24a51b35683a1b3a468f3dfc1b77db9" category="summary">AFF A700 시스템을 정상 작동 상태로 복원하려면 스토리지 케이블을 다시 연결하고, 필요한 경우 NetApp Storage Encryption 구성을 복원하고, 새 컨트롤러용 라이센스를 설치하십시오.</block>
+  <block id="4568a05b77b05b444286a51fe61d2d34" category="summary">NVRAM10 배터리가 포함된 디스테이지 컨트롤러 전원 모듈을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치하십시오.</block>
+  <block id="ff321f557ed23eceb7c1cb7883553d85" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A700 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="ab626b3d38a4cacdfc546dcb3ed1e346" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A700 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="5c56e0cbd309a124abec6276930772e9" category="summary">AFF A700s 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="5d772acd06632d923e984c45750e3908" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 점점 더 많이 발생하는 경우 AFF A700s 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="6b3f4face2ccc8b65ff64d87545373e3" category="summary">AFF A700s 시스템의 전원 공급 장치를 교체하려면 교체할 전원 공급 장치를 전원 콘센트에서 분리하고 전원 케이블을 뽑은 다음, 기존 전원 공급 장치를 제거하고 교체용 전원 공급 장치를 설치한 후 전원 콘센트에 다시 연결하십시오.</block>
+  <block id="3f2d7c1e4cdbc3f6e3c8abb0ba621799" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A700s 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="ea375d5e36c4e7b1f6931dff01202255" category="summary">AFF A800 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="22600fea49f115d5a7dd464c41871081" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A800 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="2a516ecfac96af3e19f1897a743b908c" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 정상이 아니라고 등록하면 AFF A800 컨트롤러 모듈의 NVDIMM을 교체하십시오. 결함이 있는 NVDIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="dce2c5b5ca739c07f5977476453cadb6" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A800 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="4cf4c8ee6b01b78700767a7b253e2178" category="summary">부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 파일 세트가 저장됩니다. 네트워크 구성에 따라 무중단 또는 중단 방식의 교체를 수행할 수 있습니다.</block>
+  <block id="4400d11d028a44ee93dcb00e0255cfd1" category="summary">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오.</block>
+  <block id="739c3f4db1f93539b6a8c22f737aadf4" category="summary">AFF A900 시스템을 정상 작동 상태로 복원하려면 스토리지 케이블을 다시 연결하고, 필요한 경우 NetApp Storage Encryption 구성을 복원하고, 새 컨트롤러용 라이센스를 설치하십시오.</block>
+  <block id="6934b8963faa41cad6ab7878ecf068d8" category="summary">스토리지 및 네트워크 구성을 다시 연결하여 교체 절차를 계속 진행하십시오.</block>
+  <block id="786451c5b0445647376790176aec344b" category="summary">NVRAM11 배터리가 포함된 디스테이지 컨트롤러 전원 모듈을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치하십시오.</block>
+  <block id="2980f0164fc36c326fa392408a9a128c" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 AFF A900 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="81dfc88131a13eccc5d05a20595092d5" category="summary">NVRAM 모듈은 NVRAM11 및 DIMM으로 구성되며, NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈을 포함할 수 있습니다.</block>
+  <block id="5130dac5f3f7c61fe5fefc65fc743995" category="summary">AFX 1K 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 컨트롤러에 결함이 있는 클러스터 포트가 없는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="f75fdbb79708698584fcf9529cd80f22" category="summary">하드웨어 장애로 인해 필요한 경우 AFX 1K 스토리지 시스템의 섀시를 교체하십시오. 교체 과정은 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치, NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체용 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 방식으로 진행됩니다.</block>
+  <block id="431ae7c9c8bf0227f6f329eae3dcd98c" category="paragraph">손상된 AFX 1K 섀시를 교체하고 구성 요소를 다시 설치한 후 <block ref="26075a6bb8a8530abf8ac901371df95c" category="inline-link-macro-rx"></block>을(를) 완료하십시오.</block>
+  <block id="400277cd57a847cc81235359fc3c9ac3" category="summary">논리 인터페이스가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 AFX 1K 컨트롤러 교체 절차의 최종 단계를 완료하십시오.</block>
+  <block id="8af3cb062b8215435852bbbdb9820738" category="summary">AFX 1K 스토리지 시스템의 AC 전원 공급 장치가 고장 나거나 결함이 있을 때 교체하여 시스템이 안정적인 작동에 필요한 전원을 계속 공급받을 수 있도록 하십시오. 교체 프로세스에는 대상 PSU의 연결을 끊고, 전원 케이블을 뽑고, 결함이 있는 PSU를 제거하고 교체 PSU를 설치한 다음 전원에 다시 연결하는 작업이 포함됩니다.</block>
+  <block id="7eea43bba690bd87c72ddf9fddc135df" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFX 1K 스토리지 시스템의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="2b1bc261cc5749dbf4e4f13e9a2ece9d" category="summary">ASA C250 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S 포트에 결함이 없는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="a3d70967e4eb34cedc8573ff88b71434" category="summary">하드웨어 장애가 발생하여 필요한 경우 ASA C250 시스템의 섀시를 교체하십시오. 교체 프로세스에는 컨트롤러 및 전원 공급 장치 제거, 드라이브 제거, 교체용 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
+  <block id="1fca55c5b504c17a82494dc0201bdb06" category="summary">ASA C250 시스템의 컨트롤러 교체를 완료하여 시스템을 정상적으로 작동시키려면 필요에 따라 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 다음 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
+  <block id="23033b7d4ab3d3f4b003b68357ea8a3a" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 ASA C250 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="e1d97d0efa1843266f40131207618d83" category="summary">두 개의 비디오가 있는데, 하나는 시스템을 랙에 장착하고 케이블을 연결하는 방법을 보여주고, 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여줍니다.</block>
+  <block id="6adf08b8ebd877590ed27341d020d28b" category="summary">ASA C250 시스템의 전원 공급 장치를 교체하려면 대상 전원 공급 장치를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 장치를 제거하고 교체 장치를 설치한 후 전원에 다시 연결하십시오.</block>
+  <block id="9d7c3d3b770fe5897f074e07e07cbcaf" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA C250 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="b24f02c4e7a8a9855edccae6b952886b" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후 MetroCluster 스위치백 작업을 수행할 수 있습니다. 이 작업을 통해 구성이 정상 작동 상태로 복원되며, 이전에 장애가 발생했던 사이트의 동기화 소스 스토리지 가상 머신이 활성화되어 로컬 디스크 풀에서 데이터를 제공합니다.</block>
+  <block id="1def1a624f87466dfe205016921c2a3b" category="summary">ASA C400에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S 또는 e0M 렌치 포트가 고장 나지 않았는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="9fef75caa345568e96571917968940bb" category="summary">ASA C400 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="9cb41a7869b0b4762e6d8c42cd595bb2" category="summary">시스템에서 수정 가능한 오류 정정 코드 또는 수정 불가능한 ECC 오류가 증가하는 경우 ASA C400 컨트롤러 모듈의 DIMM을 교체하십시오. 결함이 있는 DIMM을 교체하지 않으면 시스템 패닉이 발생할 수 있습니다.</block>
+  <block id="1bc0e984a9d2a92049c302ccd0a7b555" category="summary">시스템에서 플래시 메모리의 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상적이지 않다고 표시되면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
+  <block id="aeb9b01e5a21c04bbf5df5b71f87cce4" category="summary">ASA C400 시스템의 전원 공급 장치를 교체하려면 대상 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 PSU를 제거하고 교체용 PSU를 설치한 후 전원에 다시 연결하십시오.</block>
+  <block id="343d785d1055043f9b1d1c3f76987958" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA C400 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="3096da172ccb720fab1970bf9dc82ecd" category="summary">ASA C800에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S 또는 e0M 렌치 포트가 고장 나지 않았는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="c7a32c0727faafcd823662fab2a0dffb" category="summary">ASA C800 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="e2c749c3e50e0c3d3854580a3d832204" category="summary">ASA C800 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다.</block>
+  <block id="9ff112bac6a151758e7051113d3f389b" category="doc">설치 및 설정 방식을 선택하세요</block>
+  <block id="e81dd1e67407af1075b881131cb290b7" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
+  <block id="4e8f597338df11b331fdf2263b47a658" category="summary">ASA C800 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받도록 하십시오.</block>
+  <block id="3002eb4fc074ae94e7063dc95cba8980" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA C800 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="dc1ef186211234c85e2c0e8a3480c5ff" category="summary">ASA A70 또는 ASA A90 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체 부팅 미디어를 확보했는지, 손상된 컨트롤러의 클러스터 포트가 제대로 작동하는지, 그리고 Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 작업이 포함됩니다.</block>
+  <block id="6b3c6a9a4fa812c7ba48994c10fc86ca" category="summary">하드웨어 장애로 인해 필요한 경우 ASA A70 또는 ASA A90 시스템의 섀시를 교체하십시오. 교체 프로세스에는 컨트롤러 및 전원 공급 장치 제거, 드라이브 제거, 교체용 섀시 설치 및 섀시 구성 요소 재설치가 포함됩니다.</block>
+  <block id="82439983780a4e7049b36af18b68cc54" category="summary">ASA A70 또는 ASA A90 시스템의 컨트롤러 교체를 완료하려면 먼저 필요에 따라 NetApp Storage Encryption 구성을 복원하십시오. 그런 다음 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 고장난 부품을 NetApp으로 반환하십시오.</block>
+  <block id="10602612ef32373bd98cdcf456331268" category="summary">ASA A70 또는 ASA A90 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고 전원 케이블을 뽑은 다음, 고장 난 전원 공급 장치를 교체하고 전원에 다시 연결하는 것입니다.</block>
+  <block id="e7a0804a898b2bcc23cb1c15d8557f65" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA A70 또는 ASA A90 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="b16c5d06937ef7dee4498ce1d1f4b4a3" category="summary">하드웨어 장애로 인해 필요한 경우 ASA A1K 시스템의 섀시를 교체하십시오. 교체 과정은 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈 및 전원 공급 장치를 제거하고, 교체용 섀시를 설치한 다음 섀시 구성 요소를 다시 설치하는 단계로 구성됩니다.</block>
+  <block id="a70ca33c4157f97deb5c7026982a4734" category="summary">ASA A1K 시스템의 컨트롤러 교체를 완료하려면 먼저 필요한 경우 NetApp Storage Encryption 구성을 복원하십시오. 그런 다음 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 고장난 부품을 NetApp으로 반환하십시오.</block>
+  <block id="13c91fd1af344e582cc4fefd8ea6d14a" category="summary">ASA A1K 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고, 전원 케이블을 뽑고, 고장 난 전원 공급 장치를 교체한 후 전원에 다시 연결하는 방식으로 진행됩니다.</block>
+  <block id="f4112458bbea42ba3e9c98323d0e0bca" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA A1K 시스템의 실시간 클록 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하십시오.</block>
+  <block id="d665dff7c4109191edf0f1cf98656be8" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위해 필요한 요구 사항과 고려 사항을 모두 충족했는지 확인하십시오. 여기에는 올바른 교체 부팅 미디어를 확보했는지, 손상된 컨트롤러의 e0M 포트가 제대로 작동하는지, 그리고 Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="0f39fd21b832baaffb198434d01d6c3f" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 반환 절차는 시스템에서 사용하는 암호화 유형에 따라 다릅니다.</block>
+  <block id="f4a4ab776e518e7b53acb4eca03f9bdd" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 다음으로 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 새 컨트롤러의 일련 번호를 등록한 다음 고장난 부품을 NetApp으로 반환하십시오.</block>
+  <block id="61c73a2594c6e42bdd155b7b6edf3e25" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받도록 하십시오.</block>
+  <block id="2790c4f9ffb922d68e323b68530902e2" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하십시오.</block>
+  <block id="5ef996d7130f7240b1a66f693b6cd171" category="summary">ASA C30 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위해 필요한 요구 사항과 고려 사항을 충족하는지 확인하십시오. 여기에는 올바른 교체 부팅 미디어가 있는지 확인하고, 손상된 컨트롤러의 e0M 렌치 포트가 제대로 작동하는지 확인하며, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="4d0d90e223742e6845cbaf6540074bb8" category="summary">ASA C30 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 제어권 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, Onboard Key Manager 암호화 또는 External Key Manager 암호화)에 따라 다릅니다.</block>
+  <block id="c00e009f6bff8e1a69d42333c388aa32" category="summary">ASA C30 스토리지 시스템의 컨트롤러 교체를 완료하려면 먼저 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 다음으로 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 새 컨트롤러의 일련 번호를 등록한 후 고장난 부품을 NetApp으로 반환하십시오.</block>
+  <block id="e5cc9678dc581ae1ad5d47c55251b592" category="doc">IO 모듈 핫 스왑 - ASA C30</block>
+  <block id="106dde289c48bc59ed1c7fdc2b7664b2" category="doc">IO 모듈 유지 관리 개요 - ASA C30</block>
+  <block id="e774a8fba338570ea3bd65c28b1d0900" category="doc">IO 모듈 교체 - ASA C30</block>
+  <block id="7a3912e633fb7ff47f4af76a79bc4e37" category="summary">ASA C30 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고 전원 코드를 뽑은 다음, 고장 난 전원 공급 장치를 교체하고 전원에 다시 연결하는 방식으로 진행됩니다.</block>
+  <block id="cb232032cd15d6c1b1c75afbf14c1988" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA C30 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하십시오.</block>
+  <block id="c4ae36d50f64939c24cba58a921a821b" category="summary">시스템을 완전히 복원하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
+  <block id="1a2543993d3609a9315e8b6d406893de" category="summary">시스템에서 수정 가능한 오류 정정 코드의 수가 증가하면 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템이 패닉 상태에 빠집니다.</block>
+  <block id="47995c9b68ae13e910cec7ac18e18f88" category="summary">환경 변수를 확인한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특정한 단계를 완료해야 합니다.</block>
+  <block id="80a03749c26b164d7070302e7fb6265c" category="summary">시스템에서 수정 가능한 오류 수정 코드(ECC)가 점점 증가하는 경우 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
+  <block id="36f57f3085cbef659363e3f44ff548bd" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후 MetroCluster 스위치백 작업을 수행할 수 있습니다. 이 작업을 통해 구성이 정상 작동 상태로 복원되며, 이전에 장애가 발생했던 사이트의 동기화 소스 스토리지 가상 머신(SVM)이 활성화되어 로컬 디스크 풀에서 데이터를 제공합니다.</block>
+  <block id="d30f19d7a1c4ffd11d33f8d689ac0e96" category="summary">부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템 부팅 이미지 파일 세트가 저장됩니다.</block>
+  <block id="9434dd2b0b8671c7f3e981dec2723908" category="summary">시스템을 완전히 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 키트와 함께 제공된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
+  <block id="bd65b9823a24aa687849ee601ce1a98a" category="summary">시스템에서 수정 가능한 오류 수정 코드(ECC)의 수가 증가하는 경우 시스템 패닉을 방지하려면 컨트롤러 모듈의 DIMM을 교체해야 합니다.</block>
+  <block id="c0d800e72ab9f4f4587eea240b4be738" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록하면 시스템 패닉을 방지하기 위해 컨트롤러 모듈의 NVDIMM을 교체해야 합니다.</block>
+  <block id="4636bd1fe7b8dcbebddaa21d31c37740" category="summary">정확한 시간 동기화에 의존하는 시스템의 서비스 및 애플리케이션이 계속 작동하도록 컨트롤러 모듈의 실시간 클록 RTC 배터리를 교체합니다.</block>
+  <block id="befc4cb041413b5ea9b04dadfb924709" category="summary">ASA A800 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp으로 반환하십시오.</block>
+  <block id="918c9c4664932a4b102c91bd2c977464" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자, NetApp 스토리지 암호화 또는 NetApp 볼륨 암호화가 활성화된 시스템에 특정한 단계를 완료해야 합니다.</block>
+  <block id="4471be5b1383941cec582357ef8d40f5" category="summary">시스템을 완전히 복원하려면 필요에 따라 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
+  <block id="fda4a0e43747cb6e21f5dcedf9ef107e" category="summary">ASA A800 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오.</block>
+  <block id="f243207d170faec472f9a84fdd99566b" category="summary">ASA A800 시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 시스템에 등록되면 NVDIMM을 교체하십시오. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
+  <block id="4d9a63f9af931342f387a8da0ab95040" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 ASA A800 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="f24c1737697b716dad4c526af76ff980" category="summary">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원에 문의해야 합니다.</block>
+  <block id="3716452037d6d2ef68f4100b615173e9" category="summary">교체 절차를 완료하고 시스템을 정상 작동 상태로 복원하려면 스토리지 케이블을 다시 연결하고, 필요한 경우 NetApp Storage Encryption 구성을 복원하고, 새 컨트롤러용 라이센스를 설치해야 합니다.</block>
+  <block id="b18aa209d1e727b36e68a30c19d08c00" category="summary">NVRAM11 배터리가 포함된 디스테이지 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
+  <block id="7465f06db69d19c5b30bf6a443fe2d82" category="summary">시스템을 완전히 복원하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
+  <block id="d4b7c99ac859bc216908502db39596ec" category="summary">스토리지 시스템에서 상태 모니터 경고를 기반으로 하는 과도한 수정 가능 오류 수정 코드 오류 또는 수정 불가능한 ECC 오류와 같은 오류가 발생하는 경우 컨트롤러의 DIMM을 교체해야 합니다. 이러한 오류는 일반적으로 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하게 합니다.</block>
+  <block id="e34b47b2fc72c64c99406982ed952d64" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자, NetApp 스토리지 암호화 또는 NetApp 볼륨 암호화가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다.</block>
+  <block id="6fea8dae69f912b0a722a051419e6ef1" category="summary">AFF C250 시스템의 컨트롤러 교체를 완료하여 시스템을 완전히 작동시키려면 NetApp 스토리지 암호화 구성을 복원하고 새 컨트롤러에 대한 라이선스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
+  <block id="15644129509c2584f7bffe491694e5c1" category="summary">AFF C30 또는 AFF C60 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
+  <block id="72c9bdd2d54c242e898b2fcd4b5fbbe6" category="doc">IO 모듈 추가 - AFF C30 및 AFF C60</block>
+  <block id="dbd80ee306ba34928c51a4931c276537" category="summary">AFF C30 또는 AFF C60 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고 전원 코드를 뽑은 다음 고장 난 전원 공급 장치를 교체하고 전원에 다시 연결하는 것입니다.</block>
+  <block id="71d361350ed28dfae001760251b6e988" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF C30 또는 AFF C60 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="9c0259404d69f4d29b60fec70f11e02b" category="summary">시스템에서 수정 가능한 오류 정정 코드(ECC) 수가 증가하는 경우 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
+  <block id="4d0de1aa903c8531ee993843c390d95b" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
+  <block id="871ad3ba53041c3a75cf83648e719c3a" category="summary">모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF C80 스토리지 시스템에서 이더넷 IO 모듈을 핫 스왑할 수 있습니다.</block>
+  <block id="0e2576bf6135181a77de0afbb0ddb287" category="summary">AFF C80 스토리지 시스템에서 장애가 발생한 IO 모듈을 동일한 유형의 IO 모듈 또는 다른 유형의 IO 모듈로 교체할 수 있습니다. 또한 빈 슬롯이 있는 시스템에 IO 모듈을 추가할 수도 있습니다.</block>
+  <block id="476cd2535436c394ffae21a94050d5d6" category="summary">AFF C80 시스템의 IO 모듈이 고장 나거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 해당 모듈을 교체하십시오.</block>
+  <block id="e4951c72c27c4acc805899cfd7022d28" category="summary">AFF C80 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고, 전원 케이블을 뽑고, 고장 난 장치를 교체한 후 전원에 다시 연결하는 방식으로 진행됩니다.</block>
+  <block id="9b6acfe0850d0b16626e69b449fc54ed" category="summary">시스템을 완전히 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
+  <block id="ac0d5817bcde76d7fd9530fd7038f298" category="summary">AFF C800 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다.</block>
+  <block id="25fdd5cbd652d766256f8d9b91f8e5cf" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록되면 AFF C800 시스템에서 NVDIMM을 교체하십시오.</block>
+  <block id="f3a5c71e866dfbd04d73a025f6537eaa" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF C800 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
+  <block id="628e0ea8f430824b56ef084c36c8b583" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료하십시오.</block>
+  <block id="d3d512e526ac868a239555ddd73d9f40" category="summary">FAS70 및 FAS90 시스템에 IO 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
+  <block id="4d88092f49391634d941c7f9a01627af" category="summary">FAS70 또는 FAS90 시스템의 AC 또는 DC 전원 공급 장치(PSU)가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 고장 난 PSU를 교체하고 전원에 다시 연결하는 것으로 구성됩니다.</block>
+  <block id="b07aea309906d731bba58ed3043ff468" category="summary">FAS70 또는 FAS90 시스템의 실시간 클록 RTC 배터리(일반적으로 코인형 배터리라고 함)를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
+  <block id="0579440bb13bf2bfd41f6329073bb6bd" category="summary">FAS2600 시스템의 교체 부팅 미디어에 암호화 구성을 복원합니다. 이 절차에는 온보드 키 관리자, NetApp 스토리지 암호화 또는 NetApp 볼륨 암호화가 활성화된 시스템의 안전한 데이터 액세스 및 정상적인 시스템 작동을 보장하기 위한 교체 후 단계가 포함됩니다.</block>
+  <block id="57c27de2d3a4250a794c5126c7689cd5" category="summary">시스템에서 모듈이 오프라인 상태가 되었다는 AutoSupport 메시지가 한 번이라도 발생하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다. 그렇지 않으면 성능 저하가 발생합니다.</block>
+  <block id="c33792b816d1acd207e4f7b9e39566a1" category="summary">시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고, 새 컨트롤러용 라이센스를 설치한 다음, 키트와 함께 제공된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
+  <block id="781bde38ce2d03a2f7be8f3709d24293" category="summary">스토리지 시스템에서 Health Monitor 알림을 기반으로 하는 과도한 수정 가능 오류 수정 코드 오류 또는 수정 불가능한 ECC 오류와 같은 오류가 발생하는 경우 컨트롤러의 DIMM을 교체해야 합니다. 이러한 오류는 일반적으로 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하게 합니다.</block>
+  <block id="75f298fb1f477d4db400ddfb7e065070" category="summary">시스템에서 모듈이 오프라인 상태가 되었다는 단일 AutoSupport ASUP 메시지를 등록하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다. 그렇지 않으면 성능 저하가 발생합니다.</block>
+  <block id="48b9ff328860008a7b4c9903eca883a4" category="summary">시스템에서 컨트롤러 모듈의 캐싱 모듈이 오프라인 상태가 되었다는 단일 AutoSupport ASUP 메시지가 등록되면 해당 모듈을 교체해야 합니다. 장애가 발생한 모듈을 교체하지 않으면 스토리지 시스템의 성능 저하가 발생합니다.</block>
+  <block id="03f8a661d634a52b3c2ce7ac5c9b3996" category="summary">NetApp Storage Encryption 또는 Volume Encryption 구성을 복원하고 교체 컨트롤러에 대한 라이센스를 설치한 다음 키트에 포함된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환하여 시스템을 완전히 복구하십시오.</block>
+  <block id="59019687441e2eb0818b5023b4ab0ba6" category="summary">스토리지 시스템에서 상태 모니터 경고에 따른 과도한 수정 가능 ECC 오류 또는 스토리지 시스템이 ONTAP를 부팅하지 못하게 하는 수정 불가능한 ECC 오류와 같은 오류가 발생하면 컨트롤러의 DIMM을 교체해야 합니다.</block>
+  <block id="af859bb04cfd8d814e3a4c1ae6fc8477" category="summary">FAS50 시스템의 컨트롤러 교체를 완료하려면 먼저 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 다음으로 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 새 컨트롤러의 일련 번호를 등록한 후 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="9a52199d89b9bc792962d6ff8bee75a4" category="summary">FAS50 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받을 수 있도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고 전원 코드를 뽑은 다음, 고장 난 전원 공급 장치를 교체하고 전원에 다시 연결하는 것입니다.</block>
+  <block id="87abd5d785ac8055e2a30b8259c31244" category="summary">FAS50 스토리지 시스템에서 코인 셀 배터리로 일반적으로 알려진 실시간 클록 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
+  <block id="a4233e2689756afa4c35f8178e93d100" category="summary">FAS500f 시스템의 컨트롤러 교체를 완료하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 대한 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
+  <block id="af2af0c1e68071e8bf53bed2781c2495" category="summary">시스템을 정상 작동 상태로 복원하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 키트와 함께 제공된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
+  <block id="4d6311844e27a0880eb696859b154c06" category="summary">시스템에서 모듈이 오프라인 상태가 되었다는 AutoSupport 메시지가 한 번이라도 발생하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다.</block>
+  <block id="7d37e915c232e619a58edf8fc1613f57" category="summary">스토리지 시스템에서 과도한 수정 가능한 오류 수정 코드 또는 수정 불가능한 오류와 같은 오류가 발생하는 경우 컨트롤러의 DIMM을 교체해야 합니다. 이러한 오류는 일반적으로 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하게 됩니다.</block>
+  <block id="f0e3ebc07bccbe0d538dc631bb7b8a91" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다.</block>
+  <block id="de8f990d2195a210082224e50a84ff36" category="summary">2노드 MetroCluster 구성에서 FRU 교체를 완료한 후 MetroCluster 스위치백 작업을 수행할 수 있습니다. 이 작업을 통해 구성이 정상 작동 상태로 복원되며, 이전에 장애가 발생했던 사이트의 동기화 소스 스토리지 가상 머신(SVM)이 활성화되어 로컬 디스크 풀에서 데이터를 제공합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="da2ac8d5a8e144d9801128279d269441" category="summary">환경 변수를 확인한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특화된 단계를 완료해야 합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
+  <block id="ad129376a559df00499bb5ca3335bc56" category="summary">NVRAM10 배터리가 포함된 디스테이지 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
+  <block id="84f52a55e88720b5c6b1979b22518a99" category="summary">NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈, Flash Cache 또는 캐싱 모듈로 구성됩니다.</block>
+  <block id="d500e2b8a53910c2f8ca210ea9270774" category="summary">섀시를 교체하려면 장애가 발생한 섀시에서 전원 공급 장치, 팬, 컨트롤러 모듈, I/O 모듈, DCPM 모듈 및 USB LED 모듈을 제거하고 교체용 섀시에 설치해야 합니다.</block>
+  <block id="e94f76ed4f789e51d45eda953f52349d" category="summary">NVRAM11 배터리가 포함된 destage 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
+  <block id="4d78a5d4341c378a7bca13dc0522214a" category="summary">스토리지 시스템에서 Health Monitor 알림을 기반으로 한 과도한 CECC 오류 또는 수정 불가능한 ECC 오류와 같은 오류가 발생하는 경우 컨트롤러의 DIMM을 교체해야 합니다. 이러한 오류는 일반적으로 단일 DIMM 장애로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하게 됩니다.</block>
+  <block id="aa211743815898551dd144cdebabd4e6" category="doc">플랫폼 제품군별 IO 모듈 교체 절차</block>
+  <block id="284f3d864e67ec64454ad1382833e490" category="summary">NetApp 스토리지 쉘프 모델별로 정리된 NVMe 쉘프 모듈 교체 절차를 찾아보세요. 이 자료는 NS224 및 NX224 쉘프에 대한 단계별 NSM 교체 워크플로 링크를 제공하여 특정 쉘프 모델에 맞는 절차를 신속하게 찾을 수 있도록 도와줍니다.</block>
+  <block id="a461d5a3ec6eff00835d5b1479552285" category="doc">플랫폼 제품군별 NVMEM 또는 NVRAM 배터리 교체 절차</block>
+  <block id="66439d0b114daf635ee9ba53d5e8d568" category="summary">시스템 캐비닛은 다양한 유형의 전력 분배 장치(PDU)를 지원합니다. 해당 PDU는 NEMA 또는 IEC 규격을 준수합니다.</block>
 </blocks>

@@ -1,7 +1,7 @@
 ---
 permalink: asa-r2-a20-30-50/io-module-add.html 
 sidebar: sidebar 
-keywords: asa a20, asa a30, asa a50, add I/O module 
+keywords: asa a20, asa a30, asa a50, add IO module 
 summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 기능을 확장하세요. 
 ---
 = 입출력 모듈(ASA A20, ASA A30 및 ASA A50)을 추가합니다

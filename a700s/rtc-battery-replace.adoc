@@ -1,8 +1,8 @@
 ---
 permalink: a700s/rtc-battery-replace.html 
 sidebar: sidebar 
-keywords: aff a700s, aff, a700s, replace, real-time, clock, rtc, battery, controller, system, service, application, synchronization, function, impair, module, reinstall, replacement, complete, process, replace the real-time clock battery, shut down the impaired controller, remove the controller module, replace the rtc battery, reinstall the controller module and setting time/date after rtc battery replacement, complete the replacement process 
-summary: '정확한 시간 동기화에 의존하는 시스템 서비스 및 응용 프로그램이 계속 작동할 수 있도록 컨트롤러 모듈의 실시간 클럭(RTC) 배터리를 교체합니다.' 
+keywords: aff a700s, aff, a700s, replace, real-time, clock, rtc, battery, controller, system, service, application, synchronization, function, impair, module, reinstall, replacement, complete, process, replace the real-time clock battery, shut down the impaired controller, remove the controller module, replace the rtc battery, reinstall the controller module and setting time and date after rtc battery replacement, complete the replacement process 
+summary: 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A700s 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오. 
 ---
 = 실시간 시계 배터리 AFF A700s를 교체하십시오
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: fas-70-90/controller-replace-restore-system-rma.html 
 sidebar: sidebar 
 keywords: fas70, fas90, how to restore NetApp Storage Encryption, how to complete the replacement process 
-summary: '논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행한 다음, 장애가 발생한 부품을 NetApp로 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료합니다.' 
+summary: '논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료하십시오.' 
 ---
 = 완벽한 컨트롤러 교체 - FAS70 및 FAS90
 :allow-uri-read: 

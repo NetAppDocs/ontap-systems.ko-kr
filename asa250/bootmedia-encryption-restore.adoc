@@ -2,7 +2,7 @@
 permalink: asa250/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: asa a250, post boot media replacement steps for okm, nse, and nve 
-summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
+summary: '환경 변수를 확인한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특정한 단계를 완료해야 합니다.' 
 ---
 = 암호화 복원 - ASA A250
 :allow-uri-read: 

@@ -1,8 +1,8 @@
 ---
 permalink: fas-70-90/io-module-add.html 
 sidebar: sidebar 
-keywords: fas70, fas90, add I/O module 
-summary: FAS70 및 FAS90 시스템에 I/O 모듈을 추가하여 네트워크 연결을 향상하고 데이터 트래픽 처리 기능을 확장하십시오. 
+keywords: fas70, fas90, add IO module 
+summary: FAS70 및 FAS90 시스템에 IO 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오. 
 ---
 = I/O 모듈 추가 - FAS70 및 FAS90
 :allow-uri-read: 

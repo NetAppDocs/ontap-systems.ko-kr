@@ -2,7 +2,7 @@
 permalink: c30-60/rtc-battery-replace.html 
 sidebar: sidebar 
 keywords: aff c30, aff c60, replace the real-time clock battery 
-summary: '정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 AFF C30 또는 AFF C60 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.' 
+summary: '정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF C30 또는 AFF C60 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.' 
 ---
 = 실시간 클럭 배터리(AFF C30 및 AFF C60)를 교체합니다
 :allow-uri-read: 

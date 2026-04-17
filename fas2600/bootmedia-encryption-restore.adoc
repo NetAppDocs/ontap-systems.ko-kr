@@ -2,7 +2,7 @@
 permalink: fas2600/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: fas2600, post boot media replacement steps for okm, nse, and nve, manual, manual boot recovery 
-summary: 'FAS2600 시스템의 교체 부팅 미디어에 암호화 구성을 복원합니다. 이 절차에는 안전한 데이터 액세스와 적절한 시스템 작동을 보장하기 위해 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 교체 후 단계를 완료하는 과정이 포함됩니다.' 
+summary: FAS2600 시스템의 교체 부팅 미디어에 암호화 구성을 복원합니다. 이 절차에는 온보드 키 관리자, NetApp 스토리지 암호화 또는 NetApp 볼륨 암호화가 활성화된 시스템의 안전한 데이터 액세스 및 정상적인 시스템 작동을 보장하기 위한 교체 후 단계가 포함됩니다. 
 ---
 = 암호화 복원 - FAS2600
 :allow-uri-read: 

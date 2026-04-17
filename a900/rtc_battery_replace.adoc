@@ -2,7 +2,7 @@
 permalink: a900/rtc_battery_replace.html 
 sidebar: sidebar 
 keywords:  
-summary:  
+summary: 정확한 시간 동기화에 의존하는 시스템의 서비스 및 애플리케이션이 계속 작동하도록 컨트롤러 모듈의 실시간 클록 배터리를 교체합니다. 
 ---
 = 실시간 시계 배터리 교체 - AFF A900
 :allow-uri-read: 

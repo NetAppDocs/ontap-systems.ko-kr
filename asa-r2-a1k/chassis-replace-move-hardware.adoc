@@ -2,7 +2,7 @@
 permalink: asa-r2-a1k/chassis-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: asa a1k, move hardware components, replace the chassis 
-summary: '하드웨어 장애로 인해 ASA A1K 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.' 
+summary: 하드웨어 장애로 인해 필요한 경우 ASA A1K 시스템의 섀시를 교체하십시오. 교체 과정은 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈 및 전원 공급 장치를 제거하고, 교체용 섀시를 설치한 다음 섀시 구성 요소를 다시 설치하는 단계로 구성됩니다. 
 ---
 = 섀시 교체 - ASA A1K
 :allow-uri-read: 

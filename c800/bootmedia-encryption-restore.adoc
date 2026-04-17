@@ -2,7 +2,7 @@
 permalink: c800/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: aff c800, post boot media replacement steps for okm, nse, and nve 
-summary: '환경 변수를 선택한 후에는 Onboard Key Manager\(OKM\), NetApp Storage Encryption\(NSE\), NetApp Volume Encryption\(NVE\)가 활성화된 시스템 관련 단계를 완료해야 합니다.' 
+summary: 데이터 보호를 지속하려면 AFF C800 시스템의 교체 부팅 미디어에 암호화를 복원하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용, 데이터 보안 액세스 확인이 포함됩니다. 
 ---
 = 암호화 복원 - AFF C800
 :allow-uri-read: 

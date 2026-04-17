@@ -2,7 +2,7 @@
 permalink: asa-c800/bootmedia-replace-requirements-bmr.html 
 sidebar: sidebar 
 keywords: asa c800, replace the boot media 
-summary: ASA C800 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 
+summary: ASA C800에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S 또는 e0M 렌치 포트가 고장 나지 않았는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다. 
 ---
 = 자동 부팅 미디어 복구 요구 사항 - ASA C800
 :allow-uri-read: 

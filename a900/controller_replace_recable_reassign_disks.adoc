@@ -2,7 +2,7 @@
 permalink: a900/controller_replace_recable_reassign_disks.html 
 sidebar: sidebar 
 keywords:  
-summary:  
+summary: 스토리지 및 네트워크 구성을 다시 연결하여 교체 절차를 계속 진행하십시오. 
 ---
 = 시스템 회수 - AFF A900
 :allow-uri-read: 

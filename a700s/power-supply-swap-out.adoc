@@ -2,7 +2,7 @@
 permalink: a700s/power-supply-swap-out.html 
 sidebar: sidebar 
 keywords: aff a700s, aff, a700s, swap, power, supply, disconnect, target, psu, source, unplug, cable, install, reconnect, swap out a power supply 
-summary: 전원 공급 장치 교체 대상 전원 공급 장치 분리, 전원 케이블 분리, 기존 PSU 제거 및 교체 PSU 설치, 전원 공급 장치에 다시 연결 등과 관련된 작업을 합니다. 
+summary: AFF A700s 시스템의 전원 공급 장치를 교체하려면 교체할 전원 공급 장치를 전원 콘센트에서 분리하고 전원 케이블을 뽑은 다음, 기존 전원 공급 장치를 제거하고 교체용 전원 공급 장치를 설치한 후 전원 콘센트에 다시 연결하십시오. 
 ---
 = 전원 공급 장치 핫스왑 - AFF A700s
 :allow-uri-read: 

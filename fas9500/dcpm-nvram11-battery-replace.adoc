@@ -2,7 +2,7 @@
 permalink: fas9500/dcpm-nvram11-battery-replace.html 
 sidebar: sidebar 
 keywords: FAS9500 
-summary: 'NVRAM11 배터리가 포함된 디스테이징 컨트롤러 전원 모듈 \(DCPM\)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.' 
+summary: NVRAM11 배터리가 포함된 destage 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다. 
 ---
 = NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(FAS9500)을 교체하십시오
 :allow-uri-read: 

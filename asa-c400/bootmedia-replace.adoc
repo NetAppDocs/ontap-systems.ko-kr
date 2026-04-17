@@ -2,7 +2,7 @@
 permalink: asa-c400/bootmedia-replace.html 
 sidebar: sidebar 
 keywords: asa c400, asa, c400, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
-summary: '컨트롤러 모듈 \(컨트롤러 모듈의 FRU 맵 참조)에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.' 
+summary: 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다. 
 ---
 = 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - ASA C400
 :allow-uri-read: 
