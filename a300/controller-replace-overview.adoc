@@ -13,6 +13,15 @@ summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중
 [role="lead"]
 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다.
 
+[NOTE]
+====
+NetApp에서는 작업 중인 장치에서 콘솔 로깅을 활성화하고 이 절차를 수행할 때 다음 조치를 취할 것을 강력히 권장합니다.
+
+* 유지 관리 중에도 AutoSupport 기능을 활성화 상태로 유지하십시오. 이렇게 하면 문제가 발생할 경우 NetApp 지원팀에서 진단 정보를 받을 수 있습니다.
+* CLI 세션에 대한 세션 로깅을 활성화하십시오. 이렇게 하면 유지보수 윈도우 중에 수행된 모든 명령과 시스템 출력에 대한 완전한 기록이 생성됩니다. 세션 로깅 활성화 방법에 대한 자세한 내용은 https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_configure_PuTTY_for_optimal_connectivity_to_ONTAP_systems["ONTAP 시스템에 최적의 연결을 위해 PuTTY를 구성하는 방법"^]을 참조하십시오.
+
+
+====
 * 모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.
 * 시스템이 HA 쌍인 경우 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다("손상된 컨트롤러" 절차라고 함).
 * 시스템이 MetroCluster 구성인 경우 해당 섹션을 검토해야 합니다 https://docs.netapp.com/us-en/ontap-metrocluster/disaster-recovery/concept_choosing_the_correct_recovery_procedure_parent_concept.html["올바른 복구 절차 선택"] 이 절차를 사용해야 하는지 여부를 확인합니다.
@@ -37,9 +46,5 @@ https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"]
 ** replacement_controller는 손상된 컨트롤러를 교체하는 새로운 컨트롤러입니다.
 ** healthy_controller는 정상적인 컨트롤러입니다.
 
-
-* 컨트롤러의 콘솔 출력을 항상 텍스트 파일로 캡처해야 합니다.
-+
-교체 프로세스 중에 발생할 수 있는 문제를 해결할 수 있도록 절차에 대한 기록을 제공합니다.
 
 

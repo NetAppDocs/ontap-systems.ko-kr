@@ -131,7 +131,7 @@ image:../media/drw_isi_fas50_2p_100gbe_switched_cluster_cabling_ieops-1936.svg["
 image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터, 폭 = 100px"]
 
 +
-image::../media/drw_isi_fas50_4p_25gbe_optional_cabling_ieops-1934.svg[케이블 fas50과 10/25GbE 이더넷 호스트 네트워크 스위치]
+image::../media/drw_isi_fas50_4p_25gbe_optional_cabling_ieops-1934.svg[FAS50을 10/25GbE 이더넷 호스트 네트워크 스위치에 케이블로 연결]
 
 
 

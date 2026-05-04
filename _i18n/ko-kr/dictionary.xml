@@ -467,8 +467,6 @@
   <block id="bd27adfc86de062b9f9126c881c09f52" category="list-text">impaired_node는 교체되는 노드입니다.</block>
   <block id="d1fa186cdefd81b91a15808c2af74110" category="list-text">replacement_node는 손상된 노드를 교체하는 새 노드입니다.</block>
   <block id="1747d832b55f55ab2365153d8657c603" category="list-text">healthy_node는 정상적인 노드입니다.</block>
-  <block id="ef82d539dc8acbd089c50343493834e6" category="list-text">노드의 콘솔 출력을 항상 텍스트 파일로 캡처해야 합니다.</block>
-  <block id="c05037a88de91ff2d60122b1ccf7291a" category="paragraph">교체 프로세스 중에 발생할 수 있는 문제를 해결할 수 있도록 절차에 대한 기록을 제공합니다.</block>
   <block id="b4c31341ab0f1e49529261f974be146d" category="summary">손상된 노드를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 노드의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다.</block>
   <block id="0373910e51252c7b97dcbea9f4942604" category="inline-link-macro">mysupport.netapp.com</block>
   <block id="ea4513e2fbde4152c809a34c62a93e1f" category="summary">손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다.</block>
@@ -2323,7 +2321,6 @@
   <block id="ab1eb0d40068abc277573b15ea33ed24" category="paragraph">X66033A(112-00438), 3m</block>
   <block id="e7e749fdb513f8650505d5c05ea4890c" category="paragraph">미니 SAS HD-미니 SAS HD 케이블(주문 종속)</block>
   <block id="b8baf655ec765d5d983898664c9272aa" category="paragraph">X66250-2-N-C(112-00342)</block>
-  <block id="13378a0df578c502443ae7f6cba29221" category="paragraph">메자닌 카드용 16Gb FC 또는 25GbE 케이블(주문 종속)</block>
   <block id="6a34534c1e57a69bc063e8a88767c875" category="list-text">NetApp ONTAP 구성 가이드_를 검토하고 해당 가이드에 나열된 필수 정보를 수집합니다.</block>
   <block id="19026798e40f3d682dde87cbb940fc1b" category="paragraph">컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 두 컨트롤러 모듈에 모두 케이블로 연결됩니다.</block>
   <block id="3d6d824132e6ea9215d5f55aab2c487b" category="paragraph">포트에 케이블을 삽입할 때 케이블 당김 탭의 방향을 확인하십시오. 케이블 당김 탭은 모든 온보드 포트에 대해 위로, 확장(NIC) 카드에서는 아래로 이동합니다.</block>
@@ -3106,10 +3103,7 @@
   <block id="611c6be02af4f5847e3d1df02f0dd5cd" category="paragraph">컨트롤러의 모든 포트는 스위치, 클러스터 인터커넥트, 관리, 파이버 채널, 데이터 또는 호스트 네트워크 스위치에 연결됩니다.</block>
   <block id="09401fd662d47d1159b97106f3c2c4b4" category="paragraph">클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 스위치에 케이블로 연결합니다.</block>
   <block id="96640993dd2592a16c29226daf83b860" category="list-text">e0c</block>
-  <block id="56207a9d07b6607ddcfada226919fb00" category="list-text"><block ref="9f2a6ae0f8e4e0c002cabfcf0d3b8027" category="inline-xref-macro-rx"></block></block>
   <block id="9ec8ef762c375cb5ef67631e96a76733" category="list-text"><block ref="1476a857b220f13e41f9015c8596b1d0" category="inline-xref-macro-rx"></block></block>
-  <block id="46bef70db2abdd00f0d4fccb83fbd3db" category="section-title">옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다</block>
-  <block id="2283d2460c1fb366154589c8106aeabb" category="paragraph">컨트롤러의 25GbE 포트는 25GbE 데이터 또는 호스트 네트워크 스위치에 연결됩니다.</block>
   <block id="3ee99f95dccd989449c31c5582a02a92" category="list-text"><block ref="9d121b80040875d39da3830ae414ba9b" category="inline-xref-macro-rx"></block></block>
   <block id="0e103ad5ee434b2faca19141061cbe51" category="paragraph">각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결합니다.</block>
   <block id="b0a5349e52bfc1b486c0f4bb7f8c6b18" category="doc">컨트롤러 종료 - AFF A250</block>
@@ -3145,7 +3139,6 @@
   <block id="86dc7cd20630b2e611de506fafba9463" category="summary">이 섹션에서는 FAS500f 시스템을 설치하는 방법에 대한 자세한 단계별 지침을 제공합니다.</block>
   <block id="591619e8839fdfc064f5e99d963dd15b" category="doc">세부 단계 - FAS500f</block>
   <block id="3b92fecaa3772b0492ba3935a96dedea" category="paragraph">FAS500f 시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
-  <block id="3ea38b3923e0e690201e332cebb4b94d" category="paragraph">클러스터 인터커넥트 포트를 25GbE 클러스터 인터커넥트 케이블로 서로 연결합니다</block>
   <block id="91007f6223d7f1e23fa6822f2e16adad" category="paragraph">포트 2a에서 2D를 FC 호스트 스위치에 케이블로 연결합니다.</block>
   <block id="277ba6b7a127ec6b40495a0cd012279f" category="paragraph">케이블 포트 e4a~e4d를 10GbE 호스트 네트워크 스위치에 연결합니다.</block>
   <block id="bee4c56b42643842f4964906e7825545" category="summary">이 섹션에서는 랙 설치 및 케이블 연결부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
@@ -3226,7 +3219,6 @@
   <block id="5f4965084173e3c414637c35200b73a8" category="paragraph">케이블 클러스터 인터커넥트 A 포트:</block>
   <block id="765c3c3f314b105120b116fa72fa83ec" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A4 및 B4(e4a).</block>
   <block id="370ef18034bcd8124be9ef4b4b76a551" category="list-text">클러스터 네트워크 스위치에 대한 슬롯 A8 및 B8(e8a)</block>
-  <block id="3b632bef76bf01e7a7e2e0c7d8200b68" category="paragraph">25GbE 네트워크 스위치 케이블 연결:</block>
   <block id="c60dbcf19edff60839d3c0fbf6f60f2a" category="paragraph">각 컨트롤러를 AFF A900 시스템의 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.</block>
   <block id="5ec6942c74c6a8edac1d2288d383731d" category="list-text">다음 애니메이션 또는 도면을 사용하여 컨트롤러를 단일 NS224 드라이브 쉘프에 연결합니다.</block>
   <block id="3a58f6912b98caf7435fd9f6896ba4c6" category="list-text">컨트롤러 A 포트 e2a를 쉘프의 NSM A의 포트 e0a에 연결합니다.</block>
@@ -4254,7 +4246,6 @@
   <block id="2abfff2974f589f7a217325f304e0ec5" category="paragraph">ONTAP 9.8</block>
   <block id="0328774aec0a00ab97b619f670f3584f" category="inline-link">X91122A</block>
   <block id="22fb50240417da3b46a5b9bc9f4fba23" category="paragraph"><block ref="22fb50240417da3b46a5b9bc9f4fba23" category="inline-link-rx"></block></block>
-  <block id="0c54c33cbdaf870abc3b1f6dccea1cd7" category="paragraph">2-포트 25GbE RoCE QSFP28</block>
   <block id="8c6eb6a8f3b879a85c9abb062dcf57b6" category="inline-link">X9170A</block>
   <block id="dfd3db7fdc1a7e88e6e8d964ce5bed7b" category="paragraph"><block ref="dfd3db7fdc1a7e88e6e8d964ce5bed7b" category="inline-link-rx"></block></block>
   <block id="8ed5851faf32cc00c77e732fa7ccd048" category="paragraph">NVMe SSD 모듈(1TB)</block>
@@ -4277,7 +4268,6 @@
   <block id="fe3922b3af83dfb6ba506bb4b7969408" category="list-text">AFF A800/AFF ASA A800</block>
   <block id="040a43f160d19358d6aaa58c129061c6" category="list-text">AFF A700/AFF ASA A700</block>
   <block id="a2830a8a6b7415efd3d60ab3af3c1b02" category="list-text">AFF A400/AFF ASA A400</block>
-  <block id="fc2c2083a19a418b8843fac67146e44d" category="paragraph">Broadcom BES-53248 클러스터 인터커넥트 스위치는 10/25GbE 포트가 있는 AFF/FAS 컨트롤러를 지원합니다.</block>
   <block id="afa798215d91c0ee616815befa600f66" category="paragraph">ONTAP 9.5P8</block>
   <block id="ad30bda50ee1d84821c1e37d140d5779" category="section-title">새로운 플랫폼 지원</block>
   <block id="8d5222cdfab2ef87317118b2f5929210" category="cell">플랫폼(데이터 시트에 대한 링크 포함)</block>
@@ -4429,7 +4419,6 @@
   <block id="93693d8b94899fb843897083df3dfad1" category="list-text">impaired_controller는 교체되는 컨트롤러입니다.</block>
   <block id="8fc18417b34debbf06d43a8004e7af83" category="list-text">replacement_controller는 손상된 컨트롤러를 교체하는 새로운 컨트롤러입니다.</block>
   <block id="adb78e1174ae799e5d64ba90539a8d1a" category="list-text">healthy_controller는 정상적인 컨트롤러입니다.</block>
-  <block id="d1e26bcc4cbc247391931bd56755d0de" category="list-text">컨트롤러의 콘솔 출력을 항상 텍스트 파일로 캡처해야 합니다.</block>
   <block id="8e7b0fd27b2fda4467ea9b412f6b1995" category="list-text">'show date' 명령으로 정상적인 컨트롤러의 날짜 및 시간을 확인한다.</block>
   <block id="e09ab6999180d4e7f9a47f740144761f" category="list-text">대상 컨트롤러의 LOADER 프롬프트에서 시간 및 날짜를 확인합니다.</block>
   <block id="988240067960851699de08084d42c5e5" category="list-text">대상 컨트롤러의 날짜 및 시간을 확인합니다.</block>
@@ -5470,12 +5459,10 @@
   <block id="d8c9578f313af4d30124d95a9a82f55a" category="list-text"><block ref="45857239f243800c6028823fe1bb7167" category="inline-link-macro-rx"></block> 시스템.</block>
   <block id="42608111c1df97efb2c5e1785a0c9236" category="paragraph">스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러에 케이블을 연결합니다.</block>
   <block id="940761e28da4b693854d6f9dd90cf253" category="video-title">애니메이션 - 케이블 2노드 스위치가 없는 클러스터</block>
-  <block id="e8da070fbb7ed9f4e58234be76f00e95" category="list-text">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c~e0c 및 e0d를 e0d에 연결합니다.</block>
   <block id="c26780590002425e46bd9c5734245466" category="paragraph">애니메이션이나 단계를 사용하여 컨트롤러와 스위치 사이의 케이블 연결을 완료합니다. 각 컨트롤러에서 단계를 수행합니다.</block>
   <block id="76cc458c90f11508f1ec83bed8953ef1" category="video-title">애니메이션 - 케이블 스위치 클러스터</block>
   <block id="f7d77014760bf79c9b9469d98b1e031b" category="admonition">커넥터를 삽입할 때 딸깍 소리가 들려야 합니다. 딸깍 소리가 안 되면 커넥터를 제거하고 회전했다가 다시 시도하십시오.</block>
   <block id="ed7a3f593115fbd1332dbd3743a9967c" category="paragraph">각 컨트롤러 모듈에서 다음 단계를 수행하십시오.</block>
-  <block id="63acd4af39a4e0dda6fe6c3d381743a7" category="open-title">옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블을 연결합니다</block>
   <block id="2b5c65d5b0abc122c914eec510d083ae" category="paragraph">디스크 쉘프, 디스크 드라이브, IOM12/IOM12B 모듈 또는 전원 공급 장치 중 하나의 FRU 기능에 오류가 발생했습니다.</block>
   <block id="179393dc95adf2d21fee0c7a4ac43a35" category="paragraph">이 LED 기능이 활성화되면 작동 디스플레이 패널과 IOM12/IOM12B 모듈의 위치 LED가 켜집니다. 위치 LED는 30분 후에 자동으로 꺼집니다.</block>
   <block id="a0e54d8ccf5f2c0e80dde9c632b59a06" category="section-title">IOM12/IOM12B 모듈 LED</block>
@@ -6438,7 +6425,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="abc8a9a1aab13018556d024a5691afae" category="doc">비디오 단계 - FAS8300 및 FAS8700</block>
   <block id="57fcdb44384a01811b20cb55bd021011" category="doc">비디오 단계 - AFF A320</block>
   <block id="f4c78bd954ecc6d38092f7c504ddfb9a" category="doc">비디오 단계 - FAS2700</block>
-  <block id="3620e8833d6beeecd610b282d65a89b5" category="admonition"><block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 호스트 네트워크 카드(Fibre Channel 또는 25GbE)의 슬롯 우선 순위는 슬롯 2입니다. 그러나 두 카드가 모두 있는 경우 Fibre Channel 카드가 슬롯 2에 들어가고 25GbE 카드가 슬롯 1에 들어갑니다(아래 옵션 참조). 외부 셸프가 있는 경우 스토리지 카드는 셸프용으로 지원되는 유일한 슬롯인 슬롯 1에 들어갑니다.</block>
   <block id="de8a85d6bcdb94b40275e65134363d85" category="doc">비디오 단계 - AFF C250</block>
   <block id="0b22644145264cc3d3c89acc64fc435a" category="doc">비디오 단계 - AFF A150</block>
   <block id="0f2e7671fbc778ffb86bcc59f57731e6" category="doc">비디오 단계 - AFF A800</block>
@@ -6710,7 +6696,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4169d3d04b863ba6044225d783c8511c" category="paragraph">를 사용합니다 <block ref="760faf2edba83a3b2dfe198c423cd5ec" category="inline-link-macro-rx"></block> NetApp 시스템 설치에 익숙한 경우</block>
   <block id="230fb764922530d0d527b96fb40d15f8" category="paragraph"><block ref="230fb764922530d0d527b96fb40d15f8" category="inline-link-macro-rx"></block></block>
   <block id="9e4682a37df843156979b712e93e942d" category="paragraph"><block ref="9e4682a37df843156979b712e93e942d" category="inline-link-macro-rx"></block></block>
-  <block id="370d65afeef540ea21d331a7da8675ec" category="list-text">25GbE 클러스터 인터커넥트 케이블로 클러스터 인터커넥트 포트 e0c에서 e0c 및 e0d~e0d를 연결합니다.</block>
   <block id="5407ed45e4a9085a4f72a4611d202d7c" category="sidebar">NetApp의 NS224 쉘프 및 SAS 쉘프는 디지털 혁신에 필요한 성능, 복원력, 유연성을 제공합니다.</block>
   <block id="4ab265d37ededf839a389d0b0bedcb7f" category="paragraph">30cm</block>
   <block id="f0c3921d8aabdebf1548d35d830083d9" category="list-text">컨트롤러 모듈에서 IO Plate를 똑바로 밀어 꺼냅니다.</block>
@@ -7022,10 +7007,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e84bd7a7cafaabc7b1743876dcc73c70" category="image-alt">스위치가 없는 2노드 클러스터 복합 케이블 연결 다이어그램</block>
   <block id="0372c9caab5ee11faf1ffac3ef3c46fa" category="inline-image-macro">스위치 클러스터 복합 케이블 연결 다이어그램</block>
   <block id="009e65f17aa2f40deb1c718bea3bf98b" category="paragraph"><block ref="009e65f17aa2f40deb1c718bea3bf98b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a6efff0cc5b19d4c49cb4467336db466" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 메시지 명령을 호출하여 자동 케이스 생성을 억제합니다.<block ref="fbcb7868c4849064439910664677cb60" prefix=" " category="inline-code"></block></block>
-  <block id="61612a74be5170dd342eb619d607d9a0" category="paragraph">다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다.<block ref="6cf51b10a85b7bdc2a6698400ee841b7" prefix=" " category="inline-code"></block></block>
   <block id="ab859514fa976f71299cd0d5366c702d" category="paragraph">정상적인 컨트롤러에서 손상된 컨트롤러를 중지하거나 인계합니다.<block ref="64d2ac6bbd59fb854ec2bed7b2dbe259" prefix=" " category="inline-code"></block></block>
-  <block id="fd9366185c7040d2814e95fefcce2264" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 명령을 호출하여 자동 케이스 생성을 억제합니다.<block ref="fbcb7868c4849064439910664677cb60" prefix=" " category="inline-code"></block></block>
   <block id="656450ae55843844fdfca7b44cbc5678" category="list-text">에서 새 입출력 모듈이 사용 중인 스토리지 시스템 및 ONTAP 버전과 호환되는지<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 확인하십시오.</block>
   <block id="78263f5226743bdd204519f0e9bd22d2" category="list-text">케이블 관리 트레이 안쪽에 있는 버튼을 당기고 아래로 돌려 케이블 관리 트레이를 아래로 돌립니다.</block>
   <block id="72e0b58a2d456f6ab89ca8d83859264d" category="list-text">캐리어에서 타겟 슬롯 블랭킹 모듈을 탈거하십시오.</block>
@@ -7129,7 +7111,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ed3f8b7cf16a504e6873c49f3ad8c721" category="list-text">교체 컨트롤러 모듈에서 DIMM을 설치할 슬롯을 찾습니다.</block>
   <block id="3874bbf004c50eed71c2b06f7ce4e648" category="list-text">나머지 DIMM에 대해 이 단계를 반복합니다. 마더보드 공기 덕트를 닫습니다.</block>
   <block id="d20809d05af81f52d71c6d3d4f4fe771" category="list-text">부팅 장치는 시스템 뒷면에 설치된 시스템 관리 모듈에 있으므로 컨트롤러 모듈을 교체할 때 부팅 장치를 이동할 필요가 없습니다.</block>
-  <block id="c78805aa63e8c47c7cae0cdebcc54f64" category="list-text">항상 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 캡처해야 합니다.</block>
   <block id="f9d9eff2772e16e9135d964e4533138c" category="list-text">스토리지 시스템에 Encryption이 구성되어 있는 경우 다음 절차에 따라 스토리지 또는 볼륨 암호화 기능을 복원하여 시스템을 재부팅해야 합니다.</block>
   <block id="c380f4d06afd36dcee7654a86545b95b" category="list-text">메뉴로 부팅하고 옵션 10을 실행합니다</block>
   <block id="1cd2c681f4d255665595108ab57cef94" category="list-text">암호 및 백업 데이터를 입력한 다음 정상 부팅을 수행합니다. 을 참조하십시오.<block ref="1ab4828979a21de09829a9c51e95a6df" category="inline-link-rx"></block></block>
@@ -9112,7 +9093,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0f4c05d658aace7b29b5ea53d3fa4cf2" category="list-text">모든 선반이 올바르게 작동해야 합니다.</block>
   <block id="34f0c52d74ac2c621ab6284425793c19" category="list-text">컨트롤러를 동일한 모델 유형의 컨트롤러로 교체해야 합니다. 컨트롤러만 교체하여 시스템을 업그레이드할 수 없습니다.</block>
   <block id="f66467941a18b4f0a908d26d19b031ae" category="list-text">이 절차에서 드라이브나 쉘프를 변경할 수 없습니다.</block>
-  <block id="11f1efcf5793dbf6efc77f8d776228ce" category="paragraph">콘솔 출력은 교체 프로세스 중에 발생할 수 있는 문제를 해결하는 데 사용할 수 있는 절차에 대한 기록을 제공합니다.</block>
   <block id="c5977cf82bd57f5e5245e58d04c5be10" category="list-text">이 절차의 명령을 올바른 컨트롤러에 적용하는 것이 중요합니다.</block>
   <block id="057fbac6858b356c70e8500db3bd9f68" category="paragraph"><block ref="594c16ca0695f6665d7cf4971707adf6" prefix=" " category="inline-code"></block>컨트롤러의 상태를 확인하고, 필요한 경우 스토리지 시스템 구성과 일치하도록 상태를 업데이트해야 합니다.</block>
   <block id="cc4a4c0fdb2dd603766bf674e02390ba" category="list-text">유지보수 모드로 부팅:</block>
@@ -9338,8 +9318,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="04fca3f1f2d55aeb84370ab3e66d9214" category="list-text">컨트롤러 B 포트 e4b를 클러스터 네트워크 스위치 B에 케이블 연결</block>
   <block id="044628848918241f36841cbeb4d4dc4e" category="admonition">클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리적 포트(슬롯 4의 I/O 모듈)를 공유합니다. 포트는 10/25GbE입니다.</block>
   <block id="9d14c26ccbbb0d65a3b5d05e2013404b" category="paragraph">* 10/25GbE 클러스터/HA 인터커넥트 케이블 *</block>
-  <block id="3488ff918c31f4a57e74bbab6ef9bcc9" category="inline-image-macro">25GbE 입출력 모듈 1개를 사용한 A20 스위치 클러스터 케이블 연결 다이어그램</block>
-  <block id="ae3bd4fc66b4084d0dc856b5f0230d72" category="paragraph"><block ref="ae3bd4fc66b4084d0dc856b5f0230d72" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7f99cbc2aa28ab9fed6e99fa94242b4a" category="section-title">2단계: 호스트 네트워크 연결 케이블 연결</block>
   <block id="8246042d23ca859d83185957ac9c4044" category="paragraph">각 컨트롤러에서 이더넷 호스트 네트워크 스위치에 케이블 포트 e2b 및 e4b를 연결합니다.</block>
   <block id="e827a0600a7ebd00f36ea855012f66a1" category="admonition">슬롯 2 및 4의 입출력 모듈 포트는 40/100 GbE(호스트 접속은 40/100 GbE)입니다.</block>
@@ -10501,7 +10479,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="587bed5e1b1013acb3b0cad78e0dc97f" category="inline-image-macro">하나의 100GbE IO 모듈을 사용하는 fas50 스위치 클러스터 케이블 연결 다이어그램</block>
   <block id="5af61e2d32561bdfd725b4ff1abad33d" category="paragraph"><block ref="5af61e2d32561bdfd725b4ff1abad33d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="30116aad52f0bad698fa0cb2a523a7d2" category="example-title">4포트 10/25 GbE 입출력 모듈 1개가 포함된 FAS50</block>
-  <block id="83ed0059cf7b8565a69e40d218194766" category="image-alt">케이블 fas50과 10/25GbE 이더넷 호스트 네트워크 스위치</block>
   <block id="97999a10174c7270f80d69a61f881c34" category="example-title">4포트 64Gb/s FC 입출력 모듈 1개가 포함된 FAS50</block>
   <block id="4af0635b9b0fa01d90348d64d44ac5a7" category="paragraph">다음 절차에서는 하나 또는 두 개의 DS460C 쉘프에 컨트롤러를 연결하는 방법을 보여 줍니다.</block>
   <block id="0d4ae2c19fb1eec9c73a9ba31cf7b80f" category="list-text">케이블 연결 예제에 DS460C 쉘프가 표시되어 있지만, 추가 SAS 쉘프는 지원됩니다. 를 참조하십시오.<block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block></block>
@@ -10569,7 +10546,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="58a7a102daa03629c6548f4b567a8bdc" category="sidebar">FAS50 I/O 모듈</block>
   <block id="42ce83dc3f5ef22d986311b267a5ac20" category="section-title">2025년 4월</block>
   <block id="a574039687c6d52e2a17e47affbc4d8d" category="list-text">AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.</block>
-  <block id="5c40960208a7535beecf44f84d10cea9" category="paragraph"><block ref="fa00b95aa82b5506a4c27cc4a50f05d7" prefix="" category="inline-code"></block></block>
   <block id="2a9205137f8a0ec57be25e6b19b96284" category="paragraph">다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.</block>
   <block id="cd080b2ac496489acb1e57ed7c6444c6" category="paragraph"><block ref="387708b955ccf034fcf9197ad51ba879" prefix="" category="inline-code"></block></block>
   <block id="b452c4bf6d6344fb288a06006598685e" category="paragraph"><block ref="f454cdc7efb7d9bfad8109c4264a3a1b" prefix="" category="inline-code"></block></block>
@@ -10581,7 +10557,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="83057bdb135cca58f0756be73b3fe4f0" category="paragraph">HA 상태 값은 다음 중 하나가 될 수 있습니다.</block>
   <block id="b0e2306e9f0b1db26beda9207b643adc" category="list-text">MetroCluster 구성 상태가 구성되었으며 노드가 사용 및 정상 상태인지 확인해야 합니다.</block>
   <block id="ecada3140a47012aab89f14c63ba9190" category="paragraph"><block ref="4d06f3844212ac745a73965bbb3f6e51" prefix="" category="inline-code"></block></block>
-  <block id="f045de31e6ca5c44bdd82fc2b4ea9e53" category="paragraph"><block ref="fbcb7868c4849064439910664677cb60" prefix="" category="inline-code"></block></block>
   <block id="b56b78769068ef30879ff862bf0d7d58" category="paragraph"><block ref="6cf51b10a85b7bdc2a6698400ee841b7" prefix="" category="inline-code"></block></block>
   <block id="5f54996be1665b2f88bba84f87a93569" category="paragraph">컨트롤러 공기 덕트의 FRU 맵을 사용하여 DIMM 슬롯을 찾습니다.</block>
   <block id="7d0097234d19020f58b7650559edaf2b" category="section-title">2단계: NVRAM 모듈 또는 NVRAM DIMM을 교체합니다</block>
@@ -10652,8 +10627,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="11695514a878032b3fb5ecdf5e659b5b" category="paragraph">여기에 구성이 표시되지 않으면 를 방문하여 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>스토리지 시스템에 케이블을 연결하기 위한 포괄적인 구성 및 슬롯 우선 순위 정보를 확인하십시오.</block>
   <block id="2e169c8e6f4cc1f6315545b46d7284a2" category="inline-image-macro">64Gb FC 케이블</block>
   <block id="0bf370304560205688213d22ba637c07" category="paragraph"><block ref="0bf370304560205688213d22ba637c07" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="beb0d5517240a78e9a0d820d0cc72901" category="cell">대상... .2+</block>
-  <block id="41808d27e9d2aded3d4e7b4d381cd4f6" category="paragraph">X66240-2(112-00573), 2m.3+</block>
   <block id="610784c65e00a7160be578b24e829e1f" category="inline-image-macro">컨트롤러 1 케이블 연결</block>
   <block id="fb1a92a9f3466626feb9c8b39fc2f15a" category="paragraph"><block ref="fb1a92a9f3466626feb9c8b39fc2f15a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4aee1879aa42ff92e3eacf5873fbb5d4" category="inline-image-macro">컨트롤러 2 케이블 연결</block>
@@ -11319,7 +11292,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4db3443ca8b7e077da6fda74143b5d12" category="sidebar">다중 경로 HA</block>
   <block id="98a06331c5019fee7c2bec76b5d289fb" category="sidebar">쿼드 경로 HA</block>
   <block id="fd00151c44420f6f79e4b58679a95624" category="sidebar">DS212C, DS224C 또는 DS460C 선반 유지</block>
-  <block id="445dfd5b6a6cefa8cddbd35f02b84b3f" category="list-text">손상된 컨트롤러의 e0M(렌치) 포트가 연결되어 있고 오류가 없는지 확인하세요.</block>
   <block id="28ee83acca422d1018aa8c24fc45a4ae" category="paragraph">e0M 포트는 자동 부팅 복구 프로세스 동안 두 컨트롤러 간 통신에 사용됩니다.</block>
   <block id="6dcd1ebf4390170868ab9bcdfd967581" category="list-text">다음 명령을 입력하세요:</block>
   <block id="fafdccda6cda9f9e3734c54d6282a4a7" category="list-text">입력하다<block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block> _계속하시겠습니까?_라는 메시지가 표시되면</block>
@@ -11439,7 +11411,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d3db264d9eacbc28b1e95a3db2488f15" category="summary">과도한 수정 가능 또는 수정 불가능 메모리 오류가 감지된 경우 AFF C30 또는 AFF C60 스토리지 시스템에서 DIMM을 교체하세요.  이러한 오류로 인해 스토리지 시스템이 ONTAP 부팅하지 못할 수 있습니다.  교체 프로세스에는 손상된 컨트롤러를 종료하고, 제거하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="e64c35566f4192910fd96255b2ce6829" category="summary">드라이브에 오류가 발생하거나 업그레이드가 필요한 경우 AFF C30 또는 AFF C60 스토리지 시스템의 드라이브를 교체합니다.  교체 프로세스에는 오류가 있는 드라이브를 식별하고, 안전하게 제거한 다음, 지속적인 데이터 액세스와 시스템 성능을 보장하기 위해 새 드라이브를 설치하는 작업이 포함됩니다.</block>
   <block id="30039d681358f47535e9dc792b85b7ff" category="summary">팬이 고장나거나 효율적으로 작동하지 않는 경우 AFF C30 또는 AFF C60 스토리지 시스템의 팬 모듈을 교체하세요. 이는 시스템 냉각 및 전반적인 성능에 영향을 미칠 수 있습니다.  교체 프로세스에는 컨트롤러를 종료하고, 컨트롤러를 제거하고, 팬을 교체하고, 컨트롤러를 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
-  <block id="d8a896f9e037be6fb6681599c6a8aa8c" category="summary">AFF C30 또는 AFF C60 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 기능을 확장하세요.</block>
   <block id="9b18885feab6818399cdcd5895dc6c4c" category="summary">모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 AFF C30 또는 AFF C60 스토리지 시스템의 I/O 모듈을 교체합니다. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="c76ddb32b3eb44ec7a4a9ee7f5667f81" category="summary">정전 시에도 중요한 시스템 데이터를 보존하는 역할을 하는 NV 배터리는 배터리가 충전을 잃거나 고장나면 AFF C30 또는 AFF C60 저장 시스템의 NV 배터리를 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="27fb3d3ae019d8ba63f63d1bd7545c44" category="summary">AFF C30 또는 AFF C60 스토리지 시스템의 AC 또는 DC 전원 공급 장치(PSU)에 오류가 발생하거나 오류가 생기면 교체하여 시스템이 안정적으로 작동하는 데 필요한 전력을 계속 공급받을 수 있도록 하세요.  교체 과정에는 결함이 있는 PSU를 전원에서 분리하고, 전원 코드를 뽑고, 결함이 있는 PSU를 교체한 다음, 다시 전원에 연결하는 작업이 포함됩니다.</block>
@@ -11832,7 +11803,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a9f25df7e08b579215eb3375343eb3a5" category="paragraph">FAS8300 또는 FAS8700 의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 올바른 교체 부트 미디어를 가지고 있는지 확인하고, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="be767870bb556c204155138a2ea3ad9f" category="summary">FAS8300 및 FAS8700 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다.</block>
   <block id="cc2c652dd46d9b43caba43e56578d8fc" category="doc">수동 부팅 미디어 복구 요구 사항 - FAS8300 및 FAS8700</block>
-  <block id="00211911b2ba513521720fdc3f5c8683" category="paragraph">FAS8300 또는 FAS8700 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다.</block>
   <block id="65899bfeb0f4080d023f5b76933df62a" category="summary">FAS8300 또는 FAS8700 스토리지 시스템의 부트 미디어를 교체하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부트 미디어를 교체하고, 부트 미디어에 이미지를 복원하고, 시스템 기능을 확인하는 등의 작업을 수행하세요.</block>
   <block id="9c211242417a2d4e971c87e2f2ab93b0" category="doc">부팅 미디어 자동 복구 워크플로 - FAS8300 및 FAS8700</block>
   <block id="c23c751e94afc93f18b1692d0c6f7466" category="paragraph">부트 이미지 자동 복구는 시스템이 적절한 부트 메뉴 옵션을 자동으로 식별하고 선택하는 과정을 포함합니다. 파트너 노드의 부트 이미지를 사용하여 FAS8300 또는 FAS8700 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치합니다.</block>
@@ -13250,8 +13220,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="306709d67f2dec8b8ba6331b0da7011d" category="paragraph">ASA r2 시스템은 SAN 전용 고객의 요구 사항에 맞춰 간소화된 환경을 만드는 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다. <block ref="67383e616307465eca49426accf697dc" category="inline-link-macro-rx"></block> .</block>
   <block id="277f3da1559e139922ed3989a9354148" category="paragraph">드라이브 셸프는 NetApp AFF, AFX, ASA 및 FAS 시스템용으로 특별히 설계되었으며 디지털 혁신에 필요한 성능, 복원력 및 유연성을 제공하는 데 도움이 됩니다.</block>
   <block id="15098ffd77b0868f845cfc616f250a6b" category="list-text">AFX 시스템용 NSX224 선반</block>
-  <block id="3cfc071da5a0fdf899bb147a25be0c08" category="list-text">AutoSupport 활성화된 경우 AutoSupport 메시지 명령을 호출하여 자동 케이스 생성을 억제합니다.</block>
-  <block id="2a9c9df22f9538653501b32719999555" category="paragraph">다음 AutoSupport 명령은 2시간 동안 자동 케이스 생성을 억제합니다.</block>
   <block id="a5e0a9798bce38c0259a506f0fd1147d" category="list-text">정상 컨트롤러의 콘솔에서 자동 반환을 비활성화합니다.</block>
   <block id="a9f9ae342279f5d338d3038ce3af820c" category="paragraph"><block ref="7b903d789523bfa1771a2f63b3523783" prefix="" category="inline-code"></block></block>
   <block id="506e005a43769e0aa9d2a519e91ac21a" category="paragraph"><block ref="5fd0741516e2bbd70fc3c26403444415" prefix="" category="inline-code"></block></block>
@@ -13669,8 +13637,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f2ea399faffde1f5e44ec5d36a46743b" category="list-text">이 절차에서 사용되는 컨트롤러 용어를 이해하세요.</block>
   <block id="fd9d57e205ad7278ee5e9d7da776e592" category="list-text">_손상된_ 컨트롤러는 교체되는 컨트롤러입니다.</block>
   <block id="2a9c66dec8268e51da2f8aeefaacc47b" category="list-text">_교체_ 컨트롤러는 손상된 컨트롤러를 대체하는 새로운 컨트롤러입니다.</block>
-  <block id="dfa9a1a987cae2ab54b634b23d17d07f" category="list-text">컨트롤러의 콘솔 출력을 텍스트 로그 파일에 캡처합니다.</block>
-  <block id="75eecc98c33af038783f7353a8c916ec" category="paragraph">이는 교체 과정에서 발생하는 문제를 해결하기 위한 절차에 대한 기록을 제공합니다.</block>
   <block id="a3a951ff4647dbd0664ca7a8ea23ed07" category="paragraph">시스템을 서비스에 복귀하기 전에 HA 구성 설정과 디스크 목록을 확인하세요.</block>
   <block id="04d87613fffde1c6cb2c90776f2d0c2a" category="list-text">컨트롤러 모듈의 표시된 시스템 상태가 시스템 구성과 일치하지 않으면 다음을 설정하십시오.<block ref="594c16ca0695f6665d7cf4971707adf6" prefix=" " category="inline-code"></block> 컨트롤러 모듈의 상태:</block>
   <block id="b883881b0cd895a8decfc031e7c33695" category="list-text">어댑터가 모든 디스크에 대한 경로를 나열하는지 확인하세요.<block ref="c41292f339fa0dd66d84b7c3a9eac054" prefix=" " category="inline-code"></block></block>
@@ -14967,7 +14933,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e34b47b2fc72c64c99406982ed952d64" category="summary">환경 변수 확인이 완료되면 온보드 키 관리자, NetApp 스토리지 암호화 또는 NetApp 볼륨 암호화가 활성화된 시스템에 대한 특정 단계를 완료해야 합니다.</block>
   <block id="6fea8dae69f912b0a722a051419e6ef1" category="summary">AFF C250 시스템의 컨트롤러 교체를 완료하여 시스템을 완전히 작동시키려면 NetApp 스토리지 암호화 구성을 복원하고 새 컨트롤러에 대한 라이선스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
   <block id="15644129509c2584f7bffe491694e5c1" category="summary">AFF C30 또는 AFF C60 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
-  <block id="72c9bdd2d54c242e898b2fcd4b5fbbe6" category="doc">IO 모듈 추가 - AFF C30 및 AFF C60</block>
   <block id="dbd80ee306ba34928c51a4931c276537" category="summary">AFF C30 또는 AFF C60 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고 전원 코드를 뽑은 다음 고장 난 전원 공급 장치를 교체하고 전원에 다시 연결하는 것입니다.</block>
   <block id="71d361350ed28dfae001760251b6e988" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF C30 또는 AFF C60 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
   <block id="9c0259404d69f4d29b60fec70f11e02b" category="summary">시스템에서 수정 가능한 오류 정정 코드(ECC) 수가 증가하는 경우 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
@@ -15055,4 +15020,34 @@ SFP+(타겟/이니시에이터)</block>
   <block id="21eb4ba3e07d5691bb2ca2aeeaea8fca" category="paragraph">손상된 컨트롤러에 스토리지를 반환하고, 자동 반환을 복원하고, AutoSupport 유지보수 윈도우를 종료합니다.</block>
   <block id="b0cf17c34e1e13a80699938c1fb9a3a1" category="list-text">정상 컨트롤러 또는 클러스터 관리자 프롬프트에서 스토리지를 복원하여 컨트롤러를 정상 작동으로 되돌립니다.<block ref="30edaf7c9fa43c78aeaf4b8fabb7af1a" prefix=" " category="inline-code"></block></block>
   <block id="5a1c9794f830d65f2a212554cf798ab8" category="admonition">손상된 NSM 커버를 닫기 전에 모든 빈 DIMM 슬롯의 이젝터 탭이 잠금 위치로 완전히 돌아갔는지 확인하십시오.</block>
+  <block id="66f72fed10eea65ffd47206a4c0e4a12" category="paragraph">NetApp에서는 작업 중인 장치에서 콘솔 로깅을 활성화하고 이 절차를 수행할 때 다음 조치를 취할 것을 강력히 권장합니다.</block>
+  <block id="d60697e9ad2359c8b84595bbbf7b4dd1" category="list-text">유지 관리 중에도 AutoSupport 기능을 활성화 상태로 유지하십시오. 이렇게 하면 문제가 발생할 경우 NetApp 지원팀에서 진단 정보를 받을 수 있습니다.</block>
+  <block id="fb42fce84a1f5a648367e2e027a6c941" category="inline-link">ONTAP 시스템에 최적의 연결을 위해 PuTTY를 구성하는 방법</block>
+  <block id="28d499572d8b4be2e6b17a164ce69bb7" category="list-text">CLI 세션에 대한 세션 로깅을 활성화하십시오. 이렇게 하면 유지보수 윈도우 중에 수행된 모든 명령과 시스템 출력에 대한 완전한 기록이 생성됩니다. 세션 로깅 활성화 방법에 대한 자세한 내용은<block ref="969f6e4e41456399a13556dea44fc607" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="4b48b65f16187f40e68db0c4df7cb08a" category="inline-link">예정된 유지보수 윈도우 동안 자동 케이스 생성을 억제하는 방법</block>
+  <block id="ccbd6c8b93f413ab5d3cabde9555077b" category="paragraph">이렇게 하면 예정된 유지보수 윈도우 동안 자동 지원 케이스가 열리지 않습니다. 최대 차단 기간은 72시간입니다. 유지 관리가 조기에 완료된 경우<block ref="f0f32d61e0cd2495dc3cf151e5af854d" prefix=" " category="inline-code"></block>와 함께 AutoSupport 메시지를 호출하여 케이스 생성을 다시 활성화할 수 있습니다. 자세한 내용은<block ref="103c5a3d17ace9358d9c20d8a69a4d2c" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="c2226ed1d066c6a94ef089cb63240788" category="list-text">손상된 컨트롤러의 e0S 인터페이스(e0M 렌치 포트)에 결함이 없는지 확인하십시오.</block>
+  <block id="18a7044864206b80675dbf6c85b18b1d" category="list-text">장애가 발생한 컨트롤러의 e0S 인터페이스(e0M 렌치 포트)에 결함이 없는지 확인하십시오.</block>
+  <block id="d691a1ea4819b7230086723af3ecd3a0" category="paragraph">2포트 25GbE RoCE QSFP28</block>
+  <block id="21df9f311f1f416a9e469b29179c8aa1" category="paragraph">10/25GbE 포트가 있는 AFF/FAS 컨트롤러에 대한 Broadcom BES-53248 클러스터 인터커넥트 스위치 지원.</block>
+  <block id="a9c7addc04fb05dcf8c26ea8c1d6e122" category="inline-image-macro">25GbE IO 모듈 1개를 사용하는 A20 스위치 클러스터 케이블링 다이어그램</block>
+  <block id="31022f648a706591ff17bdcf7d2de430" category="paragraph"><block ref="31022f648a706591ff17bdcf7d2de430" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b566031093c2862a24b61416128a899" category="list-text">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c를 e0c에, e0d를 e0d에 연결하십시오.</block>
+  <block id="88ed1058d08ec766642e8b39b6f34c94" category="admonition"><block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block> 호스트 네트워크 카드(파이버 채널 또는 25GbE)의 슬롯 우선 순위는 슬롯 2입니다. 하지만 두 카드를 모두 사용하는 경우 파이버 채널 카드는 슬롯 2에, 25GbE 카드는 슬롯 1에 장착합니다(아래 옵션 참조). 외장형 쉘프를 사용하는 경우 스토리지 카드는 쉘프에서 지원하는 유일한 슬롯인 슬롯 1에 장착합니다.</block>
+  <block id="5835c21fa077803ab06f9ca055cffa02" category="open-title">옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블 연결</block>
+  <block id="f3009b83cc38372f17ed6158a021abe6" category="paragraph">컨트롤러의 25 GbE 포트는 25 GbE 데이터 또는 호스트 네트워크 스위치에 연결됩니다.</block>
+  <block id="854f160935893031748d736c0d182855" category="paragraph">메자닌 카드용 16Gb FC 또는 25GbE 케이블(주문에 따라 다름)</block>
+  <block id="65c598353c15f10a9eb14a722d053351" category="list-text">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트 e0c를 e0c에, e0d를 e0d에 연결합니다.</block>
+  <block id="85a6c0ec28664166f4a156353c8b037c" category="open-title">옵션 2: 25GbE 데이터 또는 호스트 네트워크에 케이블 연결</block>
+  <block id="877ce8d6e2378f25eb1934d780634787" category="doc">I/O 모듈 추가 - AFF C30 및 AFF C60</block>
+  <block id="0a3f2b72eb2ea0bdcd4dc118b1aae238" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오. 이 절차를 사용하여 계획된 업그레이드의 일환으로 운영 중인 컨트롤러에 I/O 모듈을 추가하거나 유지보수 윈도우 중에 손상된 컨트롤러에 I/O 모듈을 추가할 수 있습니다.</block>
+  <block id="97607991c1dd6b608ef187243a963982" category="paragraph">HA 쌍의 컨트롤러 중 어느 하나에서든 이 절차를 수행할 수 있으며, 컨트롤러가 현재 작동 중인지 또는 손상된 상태인지 여부는 중요하지 않습니다. I/O 모듈은 실행 중인 컨트롤러에 추가할 수 없으므로 모듈을 설치하기 전에 대상 컨트롤러를 종료해야 합니다. 이 절차가 진행되는 동안 HA 파트너가 스토리지 작업을 인계받아 클라이언트가 데이터에 계속 액세스할 수 있도록 합니다.</block>
+  <block id="1e0843e40bafc397e75bea095831f620" category="list-text">대상 컨트롤러가 *작동 중*인 경우(계획된 추가), 해당 콘텐츠에서 대상 컨트롤러를 "손상된" 컨트롤러로 간주하여 종료 단계를 따르십시오.</block>
+  <block id="085d901dd9c5d889c883f7e54c4cfb71" category="list-text">대상 컨트롤러가 *손상된* 경우 명시된 종료 단계를 따르십시오.</block>
+  <block id="3cde15579201073e7ad07db8b2135498" category="section-title">1단계: 타겟 컨트롤러 모듈을 종료합니다</block>
+  <block id="43fb137870b7f187f8cab19a2c6819a1" category="paragraph">대상 컨트롤러 모듈의 제어권을 인계받아 종료하면, I/O 모듈을 추가하는 동안에도 해당 HA 파트너 컨트롤러가 계속해서 데이터를 제공할 수 있습니다. 링크된 단계에서는 종료되는 컨트롤러를 "손상된" 컨트롤러라고 지칭하지만, 계획된 추가 작업을 위해 작동 중인 컨트롤러의 제어권을 인계받거나 이미 손상된 컨트롤러를 종료하는 경우에도 동일한 단계가 적용됩니다.</block>
+  <block id="5bb9eb7c6de6a5f45df6464218ff1cf1" category="image-alt">FAS50을 10/25GbE 이더넷 호스트 네트워크 스위치에 케이블로 연결</block>
+  <block id="9032ec2413add8bae5c7091ded2efd15" category="paragraph">25GbE 클러스터 인터커넥트 케이블을 사용하여 클러스터 인터커넥트 포트를 서로 연결합니다</block>
+  <block id="ae50728003d401e456e4268de55cb82f" category="list-text"><block ref="22c13bbaef49007250d4766c3983eb52" category="inline-xref-macro-rx"></block></block>
+  <block id="c8319347335872bf1fd4bd3b782289bd" category="paragraph">FAS8300 또는 FAS8700 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지 확인하고, Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
 </blocks>

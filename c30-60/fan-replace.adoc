@@ -43,7 +43,10 @@ summary: 팬이 고장나거나 효율적으로 작동하지 않는 경우 AFF C
 .단계
 . AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
 +
-`system node autosupport invoke -node * -type all -message MAINT=<# of hours>h`
+`system node autosupport invoke -node * -type all -message MAINT=<number of hours down>h`
+
++
+이렇게 하면 예정된 유지보수 윈도우 동안 자동 지원 케이스가 열리지 않습니다. 최대 차단 기간은 72시간입니다. 유지 관리가 조기에 완료된 경우 `MAINT=END`와 함께 AutoSupport 메시지를 호출하여 케이스 생성을 다시 활성화할 수 있습니다. 자세한 내용은 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU92["예정된 유지보수 윈도우 동안 자동 케이스 생성을 억제하는 방법"^]을 참조하십시오.
 
 +
 다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.
@@ -108,7 +111,10 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 .단계
 . AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
 +
-`system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
+`system node autosupport invoke -node * -type all -message MAINT=<number of hours down>h`
+
++
+이렇게 하면 예정된 유지보수 윈도우 동안 자동 지원 케이스가 열리지 않습니다. 최대 차단 기간은 72시간입니다. 유지 관리가 조기에 완료된 경우 `MAINT=END`와 함께 AutoSupport 메시지를 호출하여 케이스 생성을 다시 활성화할 수 있습니다. 자세한 내용은 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU92["예정된 유지보수 윈도우 동안 자동 케이스 생성을 억제하는 방법"^]을 참조하십시오.
 
 +
 다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.

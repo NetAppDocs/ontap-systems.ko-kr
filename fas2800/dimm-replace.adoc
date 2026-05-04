@@ -28,9 +28,18 @@ video::6c035199-9b79-494b-9c65-af9a015ffaf0[panopto]
 노드가 2개 이상인 클러스터가 있는 경우 쿼럼에 있어야 합니다. 클러스터가 쿼럼에 없거나 정상 컨트롤러에 자격 및 상태에 대해 FALSE가 표시되는 경우 손상된 컨트롤러를 종료하기 전에 문제를 해결해야 합니다(참조) link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum["노드를 클러스터와 동기화합니다"^].
 
 .단계
-. AutoSupport가 활성화된 경우 'system node AutoSupport invoke -node * -type all-message MAINT=_number_of_hours_down_h' AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다
+. AutoSupport가 활성화된 경우 AutoSupport 메시지를 호출하여 자동 케이스 생성을 억제합니다.
 +
-다음 AutoSupport 메시지는 두 시간 동안 자동 케이스 생성을 억제합니다: ' cluster1: * > system node AutoSupport invoke - node * -type all-message MAINT=2h'
+`system node autosupport invoke -node * -type all -message MAINT=<number of hours down>h`
+
++
+이렇게 하면 예정된 유지보수 윈도우 동안 자동 지원 케이스가 열리지 않습니다. 최대 차단 기간은 72시간입니다. 유지 관리가 조기에 완료된 경우 `MAINT=END`와 함께 AutoSupport 메시지를 호출하여 케이스 생성을 다시 활성화할 수 있습니다. 자세한 내용은 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU92["예정된 유지보수 윈도우 동안 자동 케이스 생성을 억제하는 방법"^]을 참조하십시오.
+
++
+다음 AutoSupport 메시지는 2시간 동안 자동 케이스 생성을 억제합니다.
+
++
+`cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
 
 . 손상된 컨트롤러가 HA 쌍의 일부인 경우 정상 컨트롤러의 콘솔에서 '스토리지 페일오버 수정-노드 로컬-자동 반환 거짓'을 자동 반환하도록 해제합니다
 . 손상된 컨트롤러를 로더 프롬프트로 가져가십시오.

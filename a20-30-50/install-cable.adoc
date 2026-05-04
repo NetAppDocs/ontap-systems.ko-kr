@@ -209,7 +209,7 @@ NOTE: 클러스터 인터커넥트 트래픽과 HA 트래픽은 동일한 물리
 image:../media/oie_cable_sfp_gbe_copper.png["GbE SFP 구리 커넥터"]
 
 +
-image:../media/drw_isi_a20_switched_2p_25gbe_cabling_ieops-2019.svg["25GbE 입출력 모듈 1개를 사용한 A20 스위치 클러스터 케이블 연결 다이어그램"]
+image:../media/drw_isi_a20_switched_2p_25gbe_cabling_ieops-2019.svg["25GbE IO 모듈 1개를 사용하는 A20 스위치 클러스터 케이블링 다이어그램"]
 
 
 
