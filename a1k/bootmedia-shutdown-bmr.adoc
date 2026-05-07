@@ -1,7 +1,7 @@
 ---
 permalink: a1k/bootmedia-shutdown-bmr.html 
 sidebar: sidebar 
-keywords: a1k, shut down the controller 
+keywords: aff a1k, shut down the controller 
 summary: AFF A1K 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어를 교체할 때 시스템 안정성을 유지합니다. 
 ---
 = 자동 부팅 미디어 복구를 위해 컨트롤러 종료 - AFF A1K

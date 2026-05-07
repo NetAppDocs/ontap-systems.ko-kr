@@ -1,7 +1,7 @@
 ---
 permalink: a70-90/bootmedia-replace-workflow.html 
 sidebar: sidebar 
-keywords: aff a70, a90, replace the boot media 
+keywords: aff a70, aff a90, replace the boot media 
 summary: 부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF A70 또는 AFF A90 시스템의 교체 부트 미디어에 ONTAP 다시 설치하는 과정입니다. NetApp 지원 사이트에서 해당 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 정상 작동 상태로 복원합니다. 
 ---
 = 부팅 미디어 수동 복구 워크플로 - AFF A70 및 AFF A90

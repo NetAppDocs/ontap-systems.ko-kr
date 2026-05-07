@@ -1,7 +1,7 @@
 ---
 permalink: c80/bootmedia-replace-requirements-bmr.html 
 sidebar: sidebar 
-keywords: c80, replace the boot media 
+keywords: aff c80, replace the boot media 
 summary: AFF C80 스토리지 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 
 ---
 = 자동 부팅 미디어 복구 요구 사항 - AFF C80

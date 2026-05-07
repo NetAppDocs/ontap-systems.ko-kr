@@ -1,7 +1,7 @@
 ---
 permalink: a900/bootmedia-complete-rma.html 
 sidebar: sidebar 
-keywords:  
+keywords: aff a900, complete the replacement process 
 summary: 부팅 미디어를 교체한 후 고장난 부품을 NetApp에 반환하십시오. 
 ---
 = 실패한 부팅 미디어를 NetApp 으로 반환 - AFF A900

@@ -1,7 +1,7 @@
 ---
 permalink: a1k/bootmedia-replace-workflow-bmr.html 
 sidebar: sidebar 
-keywords: a1k, replace the boot media 
+keywords: aff a1k, replace the boot media 
 summary: 부트 이미지 자동 복구는 시스템이 적절한 부트 메뉴 옵션을 자동으로 식별하고 선택하는 과정을 포함합니다. 파트너 노드의 부트 이미지를 사용하여 AFF A1K 시스템의 교체 부트 미디어에 ONTAP 다시 설치합니다. 
 ---
 = 부팅 미디어 자동 복구 워크플로 - AFF A1K

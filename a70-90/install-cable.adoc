@@ -1,7 +1,7 @@
 ---
 permalink: a70-90/install-cable.html 
 sidebar: sidebar 
-keywords: aff a70, a90, prepare installation 
+keywords: aff a70, aff a90, prepare installation 
 summary: AFF A70 또는 AFF A90 스토리지 시스템용 랙 하드웨어를 설치한 후 컨트롤러의 네트워크 케이블을 설치하고 컨트롤러와 스토리지 쉘프 간에 케이블을 연결합니다. 
 ---
 = 하드웨어 케이블 연결 - AFF A70 및 AFF A90

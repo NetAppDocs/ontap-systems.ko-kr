@@ -1,7 +1,7 @@
 ---
 permalink: a900/power_supply_swap_out.html 
 sidebar: sidebar 
-keywords:  
+keywords: aff a900, replace a power supply 
 summary: 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
 ---
 = 전원 공급 장치 핫스왑 - AFF A900

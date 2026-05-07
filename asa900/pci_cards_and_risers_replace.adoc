@@ -1,7 +1,7 @@
 ---
 permalink: asa900/pci_cards_and_risers_replace.html 
 sidebar: sidebar 
-keywords:  
+keywords: asa a900, replace io module 
 summary: 입출력 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = I/O 모듈 - ASA A900을 교체합니다

@@ -1,7 +1,7 @@
 ---
 permalink: c80/bootmedia-replace-bmr.html 
 sidebar: sidebar 
-keywords: c80, replace the boot media 
+keywords: aff c80, replace the boot media 
 summary: AFF C80 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 시스템 관리 모듈 제거, 손상된 부팅 미디어 제거, 시스템 관리 모듈에 교체 부팅 미디어 설치, 그리고 시스템 관리 모듈 재설치로 구성됩니다. 
 ---
 = 자동 부팅 복구를 위한 부팅 미디어 교체 - AFF C80

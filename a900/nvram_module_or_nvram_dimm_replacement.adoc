@@ -1,7 +1,7 @@
 ---
 permalink: a900/nvram_module_or_nvram_dimm_replacement.html 
 sidebar: sidebar 
-keywords:  
+keywords: aff a900, replace nvram 
 summary: NVRAM 모듈은 NVRAM11 및 DIMM으로 구성되며, NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈을 포함할 수 있습니다. 
 ---
 = NVRAM 모듈 및/또는 NVRAM DIMM을 교체합니다. - AFF A900

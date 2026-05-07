@@ -1,7 +1,7 @@
 ---
 permalink: a900/bootmedia-shutdown.html 
 sidebar: sidebar 
-keywords:  
+keywords: aff a900, shut down the controller 
 summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
 ---
 = 수동 부팅 미디어 복구를 위해 컨트롤러 종료 - AFF A900

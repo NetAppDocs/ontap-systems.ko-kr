@@ -1,7 +1,7 @@
 ---
 permalink: c80/controller-replace-restore-system-rma.html 
 sidebar: sidebar 
-keywords: c80, how to restore NetApp Storage Encryption, how to complete the replacement process 
+keywords: aff c80, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: 논리 인터페이스가 홈 포트에 보고되는지 확인하고 클러스터 상태 점검을 수행한 다음 장애가 발생한 부품을 NetApp에 반환하여 AFF C80 컨트롤러 교체 절차의 마지막 단계를 완료합니다. 
 ---
 = 전체 컨트롤러 교체 - AFF C80

@@ -1,7 +1,7 @@
 ---
 permalink: a1k/bootmedia-replace-requirements-bmr.html 
 sidebar: sidebar 
-keywords: a1k, replace the boot media 
+keywords: aff a1k, replace the boot media 
 summary: AFF A1K 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 
 ---
 = 자동 부팅 미디어 복구 요구 사항 - AFF A1K

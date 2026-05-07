@@ -1,7 +1,7 @@
 ---
 permalink: c80/controller-replace-shutdown.html 
 sidebar: sidebar 
-keywords: c80, shut down the impaired controller 
+keywords: aff c80, shut down the impaired controller 
 summary: AFF C80 스토리지 시스템에서 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러를 교체할 때 시스템 안정성을 유지합니다. 
 ---
 = 손상된 컨트롤러를 종료합니다. - AFF C80을 종료합니다

@@ -1,7 +1,7 @@
 ---
 permalink: a900/chassis_replace_move_hardware.html 
 sidebar: sidebar 
-keywords:  
+keywords: aff a900, move hardware components, replace the chassis 
 summary: 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오. 
 ---
 = 하드웨어 이동 및 교체 - AFF A900

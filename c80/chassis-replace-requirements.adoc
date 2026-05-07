@@ -1,7 +1,7 @@
 ---
 permalink: c80/chassis-replace-requirements.html 
 sidebar: sidebar 
-keywords: c80, replace the chassis 
+keywords: aff c80, replace the chassis 
 summary: AFF C80 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP 에 대한 로컬 관리자 자격 증명이 있는지, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다. 
 ---
 = 섀시 교체 요구 사항 - AFF C80

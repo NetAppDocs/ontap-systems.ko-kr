@@ -1,7 +1,7 @@
 ---
 permalink: fas9500/bootmedia-recovery-image.html 
 sidebar: sidebar 
-keywords:  
+keywords: fas9500, boot the recovery image 
 summary: 복구 이미지에서 손상된 노드를 부팅하는 절차는 시스템이 2노드 MetroCluster 구성에 있는지 여부에 따라 다릅니다. 
 ---
 = USB 드라이브에서 수동 부팅 미디어 복구 - FAS9500

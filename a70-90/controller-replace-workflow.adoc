@@ -1,7 +1,7 @@
 ---
 permalink: a70-90/controller-replace-workflow.html 
 sidebar: sidebar 
-keywords: aff a70, a90, replace the controller workflow 
+keywords: aff a70, aff a90, replace the controller workflow 
 summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 작업을 확인하여 AFF A70 또는 AFF A90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오. 
 ---
 = 컨트롤러 교체 워크플로우 - AFF A70 및 AFF A90

@@ -1,8 +1,8 @@
 ---
 permalink: fas9500/rtc_battery_replace.html 
 sidebar: sidebar 
-keywords:  
-summary:  
+keywords: fas9500, replace the real-time clock battery 
+summary: 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오. 
 ---
 = 실시간 시계 배터리(FAS9500)를 교체합니다
 :allow-uri-read: 

@@ -1,7 +1,7 @@
 ---
 permalink: fas-70-90/chassis-replace-prepare.html 
 sidebar: sidebar 
-keywords: aff a1k, replace the chassis 
+keywords: fas70, fas90, replace the chassis 
 summary: 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여 FAS70 및 FAS90 시스템에서 손상된 섀시를 교체할 준비를 합니다. 
 ---
 = 섀시 교체 준비 - FAS70 및 FAS90

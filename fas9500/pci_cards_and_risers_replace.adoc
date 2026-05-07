@@ -1,7 +1,7 @@
 ---
 permalink: fas9500/pci_cards_and_risers_replace.html 
 sidebar: sidebar 
-keywords:  
+keywords: fas9500, replace an io module 
 summary: 입출력 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다. 
 ---
 = I/O 모듈 교체 - FAS9500

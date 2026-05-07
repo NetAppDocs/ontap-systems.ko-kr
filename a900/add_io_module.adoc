@@ -1,7 +1,7 @@
 ---
 permalink: a900/add_io_module.html 
-sidebar:  
-keywords:  
+sidebar: sidebar 
+keywords: aff a900, add io module 
 summary: 완전히 채워진 시스템에서 기존 입출력 모듈을 새 입출력 모듈로 교체하거나 새 입출력 모듈을 섀시의 빈 슬롯에 추가하여 시스템에 입출력 모듈을 추가할 수 있습니다. 
 ---
 = 입출력 모듈 추가 - AFF A900

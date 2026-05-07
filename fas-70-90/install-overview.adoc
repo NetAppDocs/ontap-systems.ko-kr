@@ -1,7 +1,7 @@
 ---
 permalink: fas-70-90/install-overview.html 
 sidebar: sidebar 
-keywords: Installation, deployment, Install, deploy, Installing, deploying, a1k 
+keywords: fas70, fas90, Installation, deployment, Install, deploy, Installing, deploying 
 summary: 다음 단계에 따라 FAS70 및 FAS90 스토리지 시스템을 설치 및 설정한 후 ONTAP 시스템에 노드로 구축하십시오. 
 ---
 = 설치 및 구성 워크플로우 - FAS70 및 FAS90

@@ -1,7 +1,7 @@
 ---
 permalink: asa-r2-70-90/controller-replace-workflow.html 
 sidebar: sidebar 
-keywords: asa r2 a70, a90, replace the controller workflow 
+keywords: asa r2 a70, asa r2 a90, replace the controller workflow 
 summary: ASA A70 또는 ASA A90 스토리지 시스템의 컨트롤러를 교체하고, 컨트롤러를 분리 및 교체하고, 시스템 구성을 복원하고, 스토리지 리소스 제어를 교체 컨트롤러로 되돌려 교체하여 컨트롤러를 교체하는 작업을 시작하십시오. 
 ---
 = 컨트롤러 교체 워크플로우 - ASA A70 및 ASA A90

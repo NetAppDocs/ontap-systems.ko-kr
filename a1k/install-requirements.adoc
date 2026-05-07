@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: a1k/install-requirements.html 
-keywords: a1k, install, setup, cautions 
+keywords: aff a1k, install, setup, cautions 
 summary: 작업대 및 선반에 필요한 장비 및 인양 예방 조치를 검토합니다. 
 ---
 = 설치 요구 사항 - AFF A1K
