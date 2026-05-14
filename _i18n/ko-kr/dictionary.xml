@@ -8306,12 +8306,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9e4b32259f721cc54024969657de5534" category="paragraph">추가 스토리지가 필요한 경우(내부 쉘프에 최대 2개의 NS224 쉘프를 ASA A70 또는 ASA A90 HA 쌍에 핫 추가할 수 있습니다.</block>
   <block id="55ec693931401ff7a634100e33ff8cfd" category="doc">ONTAP 하드웨어 시스템의 새로운 기능</block>
   <block id="ec6e72d1c4bb7dccdc62b6caf35c95f7" category="sidebar">ONTAP 하드웨어 시스템 설명서</block>
-  <block id="64f78e10c5d8a4db6f25299bf9a418cd" category="sidebar">AFF A-Series 및 C-Series 시스템은 조직에서 인프라 혁신을 앞당기고 데이터 중심 전략의 촉진을 도울 수 있도록 설계되었습니다.</block>
-  <block id="d186b8a54af216bfae7a9573dc3dfd54" category="sidebar">AFF 시스템 문서에서는 AFF A-Series 및 C-Series 시스템을 설치, 설정 및 유지 관리하는 방법에 대해 설명합니다.</block>
-  <block id="8b4ad289620e7b0611000ddd6fa583c3" category="sidebar">A-Series 시스템 설치 및 설정</block>
-  <block id="c91d48fe9284f4d299615b787ff7c882" category="sidebar">C-Series 시스템을 설치 및 설정합니다</block>
-  <block id="d82b198ed12fecd580981b34c4959490" category="sidebar">A 시리즈 시스템 유지 관리</block>
-  <block id="e32ee65ffedbf05873ffce177cee51b5" category="sidebar">C-Series 시스템 유지 관리</block>
   <block id="9c2e760711833288658335a04261b16a" category="sidebar">ASA R2 스토리지 시스템 설명서를 통해 ASA R2 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="e995d56efd9e31d97825dd79be4d1383" category="sidebar">ASA R2 스토리지 시스템에 대해 알아보십시오</block>
   <block id="aa0dbb314a1c2c27148345705facc55c" category="sidebar">ASA R2 시스템을 설치하고 유지 관리합니다</block>
@@ -8328,8 +8322,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2a2dfadb84e98697260fabd8a1ba63ea" category="sidebar">하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. ASA r2 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와 있습니다.</block>
   <block id="9823a9d702614ebe046cb789d32b241d" category="sidebar">ASA R2 시스템을 유지 관리하는 방법에 대해 알아보십시오.</block>
   <block id="8cf7baf96983d1c70a286576ddcd0ca1" category="sidebar">ASA A70 및 ASA A90</block>
-  <block id="91be56ff709f018bb7b1a4c33c68d316" category="sidebar">A-Series 시스템</block>
-  <block id="078c4b575f196efdc8ec79e58f26db9f" category="sidebar">C-Series 시스템</block>
   <block id="2d0e9a7694bf5bc701c3af145a6bba71" category="sidebar">요구사항 검토</block>
   <block id="f76aaf3aaa7b30238e7a3e2b1a04493b" category="sidebar">설치 준비</block>
   <block id="03f15d4e5abe2379224af55ea714e8fd" category="sidebar">ASA A70 및 ASA A90 시스템</block>
@@ -9781,7 +9773,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="38ae227cf94e3775806bccfd95814d4b" category="paragraph"><block ref="035b082bfaf23bf2d7b95c3ef597d380" prefix="" category="inline-code"></block></block>
   <block id="a5e51e5f50ca83720f1d0d8b17c1e93b" category="list-text">다음 절차는 일반적인 구성을 보여 줍니다. 특정 케이블 연결은 스토리지 시스템용으로 주문한 구성 요소에 따라 다릅니다. 포괄적인 구성 및 슬롯 우선 순위에 대한 자세한 내용은 을 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="e5f780ef73bd41c1dd64af7a1a1a31ac" category="paragraph">컨트롤러를 ONTAP 클러스터에 케이블로 연결합니다. 이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다.</block>
-  <block id="0990249c3bba6596b74be9af46837266" category="list-text">컨트롤러 A의 포트 e7a를 컨트롤러 B의 포트 E1A에 연결합니다</block>
   <block id="18695b824b22d82a916970e4903bf31d" category="paragraph">100 GbE 케이블을 사용하여 포트 E1A를 E1A에 연결하고 포트 e7a를 e7a에 연결합니다.</block>
   <block id="3b29102e499249644dff327644d96081" category="list-text">이더넷 데이터 네트워크 스위치에 e9a 및 e9b 포트를 연결합니다.</block>
   <block id="c7900e3ee1f4eb935f449465b57ad5c1" category="paragraph">1000BASE-T RJ-45 케이블을 사용하여 각 컨트롤러의 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.</block>
@@ -9812,7 +9803,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8019bdcaff5849ab8015533c8674f305" category="paragraph">각 컨트롤러를 두 NS224 쉘프의 NSM 모듈에 케이블로 연결합니다. 그래픽은 컨트롤러 A 케이블을 파란색으로, 컨트롤러 B 케이블은 노란색으로 표시합니다.</block>
   <block id="546125971d4fce23d0f562118f0ce95f" category="open-title">옵션 3: DS460C 선반 2개</block>
   <block id="8994222dc8e3118b755e00531cef6a1c" category="paragraph">각 컨트롤러를 두 DS460C 쉘프의 IOM 모듈에 케이블로 연결합니다. 그래픽은 컨트롤러 A 케이블을 파란색으로, 컨트롤러 B 케이블은 노란색으로 표시합니다.</block>
-  <block id="d42c87e93d80bf28fffc01d7bb494eb2" category="list-text"><block ref="d42c87e93d80bf28fffc01d7bb494eb2" category="inline-link-macro-rx"></block></block>
   <block id="98aab8017242eea1d6e23ba928b20ae5" category="list-text"><block ref="98aab8017242eea1d6e23ba928b20ae5" category="inline-link-macro-rx"></block></block>
   <block id="4e3c3284590d1aa1440e67b3bd65ba6e" category="list-text"><block ref="4e3c3284590d1aa1440e67b3bd65ba6e" category="inline-link-macro-rx"></block></block>
   <block id="370d2e6f20948d3881708f9706576691" category="sidebar">교체를 준비합니다</block>
@@ -15048,4 +15038,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6b7f864bd91be16ace313bfe44f12e71" category="section-title">DS460C 쉘프 2개</block>
   <block id="b62281acd6d6f68b211c9c140acb1de6" category="summary">시스템 케이블을 다시 연결하고 디스크를 재할당하십시오.</block>
   <block id="c7585f11abe7b6b5267f9b01ab8db3d3" category="summary">컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="4e219191285e6b026a35828fa008670f" category="list-text"><block ref="4e219191285e6b026a35828fa008670f" category="inline-link-macro-rx"></block></block>
+  <block id="f907c55a04055c61d778510e17a75874" category="list-text"><block ref="f907c55a04055c61d778510e17a75874" category="inline-link-macro-rx"></block></block>
 </blocks>

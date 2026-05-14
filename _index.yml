@@ -18,8 +18,10 @@ indexpage:
       url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
   - title: 지원합니다
     links:
-    - title: AFF 시스템
-      url: "/aff-landing/index.html"
+    - title: AFF A-Series 시스템
+      url: "/aff-aseries/index.html"
+    - title: AFF C-Series 시스템
+      url: "/aff-cseries/index.html"
     - title: ASA 시스템
       url: "/allsan-landing/index.html"
     - title: AFX 시스템

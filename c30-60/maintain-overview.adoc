@@ -1,7 +1,7 @@
 ---
 permalink: c30-60/maintain-overview.html 
 sidebar: sidebar 
-keywords: aff c30, aff c60, maintenance, maintenance, repairing a20 aff a30 aff a50, replace a20 aff a30 aff a50 components 
+keywords: AFF C30 maintenance, AFF C60 maintenance, repairing AFF C30, repairing AFF C60, replace AFF C30 components, replace AFF C60 components 
 summary: 장기적인 안정성과 최적의 성능을 보장하려면 AFF C30 또는 AFF C60 스토리지 시스템의 하드웨어를 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다. 
 ---
 = 하드웨어 유지 관리 개요 - AFF C30 및 AFF C60

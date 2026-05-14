@@ -220,7 +220,7 @@ NOTE: VER2 컨트롤러에는 DIMM 소켓이 적습니다. 지원되는 DIMM의 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 컨트롤러 모듈에서 DIMM을 찾습니다.
 +
-image::../media/drw_a900_DIMM_map.svg[DIMM 위치 맵]
+image::../media/drw_a900_DIMM_map.png[DIMM 위치 맵]
 
 . DIMM의 양쪽에 있는 두 개의 DIMM 이젝터 탭을 천천히 밀어 슬롯에서 DIMM을 꺼낸 다음 슬롯에서 DIMM을 밀어 꺼냅니다.
 +
