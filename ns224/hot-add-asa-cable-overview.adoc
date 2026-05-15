@@ -1,0 +1,33 @@
+---
+permalink: ns224/hot-add-asa-cable-overview.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, asa systems, cable 
+summary: NS224 쉘프를 ASA 시스템에 케이블로 연결하여 HA 쌍에 대한 스토리지 이중화 및 고가용성을 보장하는 이중 경로 연결을 제공하십시오. 
+---
+= NS224 셸프를 ASA 시스템에 케이블로 연결하세요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NS224 쉘프를 ASA 시스템에 케이블로 연결하여 HA 쌍에 대한 스토리지 이중화 및 고가용성을 보장하는 이중 경로 연결을 제공하십시오.
+
+
+
+== ASA 시스템의 케이블링 개요
+
+각 시스템마다 고유한 포트 할당 및 I/O 모듈 구성이 있기 때문에 케이블 연결 방식은 ASA 플랫폼 모델별로 다릅니다.
+
+핫 애드 케이블링 절차 동안 각 NS224 쉘프를 HA 쌍의 두 컨트롤러에 모두 연결합니다.
+
+* 각 쉘프 NSM 모듈은 각 컨트롤러의 전용 스토리지 포트에 연결되어 쉘프당 두 개의 경로(NSM A를 통한 경로 하나, NSM B를 통한 경로 하나)를 생성합니다.
+* 이중 경로 구성은 스토리지 이중화를 제공하고 단일 경로에 장애가 발생하더라도 지속적인 데이터 액세스를 보장합니다.
+* 케이블은 쉘프 NSM e0a/e0b 포트(NSM100) 또는 e1a/e1b 포트(NSM100B)에서 컨트롤러의 RoCE 지원 스토리지 포트로 연결됩니다.
+
+
+
+
+== 추가 리소스
+
+하드웨어 시스템은 NSM100 모듈이 장착된 NS224 쉘프와 NSM100B 모듈이 장착된 NS224 쉘프 모두와 호환될 수 있습니다. 포괄적인 포트 이름 및 구성 세부 정보는 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]을 참조하십시오.

@@ -2,28 +2,124 @@
 section: ns224
 title: NS224 쉘프
 entries:
-- title: 쉘프를 핫 추가
+- title: AFF 시스템용 핫 애드 쉘프
   entries:
   - title: 핫 애드 워크플로우
-    url: "/ns224/hot-add-shelf-overview.html"
+    url: "/ns224/hot-add-aff-workflow.html"
   - title: 요구사항에 대해 설명합니다
-    url: "/ns224/requirements-hot-add-shelf.html"
+    url: "/ns224/hot-add-aff-requirements.html"
   - title: 핫 애드를 준비합니다
-    url: "/ns224/prepare-hot-add-shelf.html"
-  - title: 핫 애드용 쉘프를 설치합니다
-    url: "/ns224/install-hot-add-shelf.html"
-  - title: 핫 애드용 케이블 선반
+    entries:
+    - title: 핫 애드 준비 개요
+      url: "/ns224/hot-add-aff-prepare.html"
+    - title: AFF A1K 를 참조하십시오
+      url: "/ns224/hot-add-aff-prepare-a1k.html"
+    - title: AFF A70, A90 및 C80
+      url: "/ns224/hot-add-aff-prepare-a70-90-c80.html"
+    - title: AFF A800 및 C800
+      url: "/ns224/hot-add-aff-prepare-a800-c800.html"
+    - title: AFF A400 및 C400
+      url: "/ns224/hot-add-aff-prepare-a400-c400.html"
+    - title: AFF A900
+      url: "/ns224/hot-add-aff-prepare-a900.html"
+    - title: AFF A30, A50, C30 및 C60
+      url: "/ns224/hot-add-aff-prepare-a30-50-60.html"
+  - title: 쉘프 설치
+    url: "/ns224/hot-add-aff-install.html"
+  - title: AFF 시스템 케이블 연결
     entries:
     - title: 케이블 연결 개요
-      url: "/ns224/cable-overview-hot-add-shelf.html"
-    - title: AFF 시스템
-      url: "/ns224/cable-aff-systems-hot-add-shelf.html"
-    - title: ASA 시스템
-      url: "/ns224/cable-asa-systems-hot-add-shelf.html"
-    - title: 이용 종료 시스템
-      url: "/ns224/cable-eoa-systems-hot-add-shelf.html"
+      url: "/ns224/hot-add-aff-cable-overview.html"
+    - title: AFF A1K 를 참조하십시오
+      url: "/ns224/hot-add-aff-cable-a1k.html"
+    - title: AFF A20 를 참조하십시오
+      url: "/ns224/hot-add-aff-cable-a20.html"
+    - title: AFF A30, A50, C30 및 C60
+      url: "/ns224/hot-add-aff-cable-a30-50-60.html"
+    - title: AFF A70, A90 및 C80
+      url: "/ns224/hot-add-aff-cable-a70-90-c80.html"
+    - title: AFF A250 및 C250
+      url: "/ns224/hot-add-aff-cable-a250-c250.html"
+    - title: AFF A400 및 C400
+      url: "/ns224/hot-add-aff-cable-a400-c400.html"
+    - title: AFF A800 및 C800
+      url: "/ns224/hot-add-aff-cable-a800-c800.html"
+    - title: AFF A900
+      url: "/ns224/hot-add-aff-cable-a900.html"
   - title: 핫 애드를 완료합니다
-    url: "/ns224/complete-hot-add-shelf.html"
+    url: "/ns224/hot-add-aff-complete.html"
+- title: ASA 시스템용 핫 애드 쉘프
+  entries:
+  - title: 핫 애드 워크플로우
+    url: "/ns224/hot-add-asa-workflow.html"
+  - title: 요구사항에 대해 설명합니다
+    url: "/ns224/hot-add-asa-requirements.html"
+  - title: 핫 애드를 준비합니다
+    entries:
+    - title: 핫 애드 준비 개요
+      url: "/ns224/hot-add-asa-prepare.html"
+    - title: ASA A1K 를 참조하십시오
+      url: "/ns224/hot-add-asa-prepare-a1k.html"
+    - title: ASA A70 또는 A90
+      url: "/ns224/hot-add-asa-prepare-a70-90.html"
+    - title: ASA A800 또는 C800
+      url: "/ns224/hot-add-asa-prepare-a800-c800.html"
+    - title: ASA A400 또는 C400
+      url: "/ns224/hot-add-asa-prepare-a400-c400.html"
+    - title: ASA A900
+      url: "/ns224/hot-add-asa-prepare-a900.html"
+    - title: ASA A30 또는 A50
+      url: "/ns224/hot-add-asa-prepare-a30-50.html"
+  - title: 쉘프 설치
+    url: "/ns224/hot-add-asa-install.html"
+  - title: ASA 시스템 케이블 연결
+    entries:
+    - title: 케이블 연결 개요
+      url: "/ns224/hot-add-asa-cable-overview.html"
+    - title: ASA A1K 를 참조하십시오
+      url: "/ns224/hot-add-asa-cable-a1k.html"
+    - title: ASA A20
+      url: "/ns224/hot-add-asa-cable-a20.html"
+    - title: ASA A30 또는 A50
+      url: "/ns224/hot-add-asa-cable-a30-50.html"
+    - title: ASA A70 또는 A90
+      url: "/ns224/hot-add-asa-cable-a70-90.html"
+    - title: ASA A250
+      url: "/ns224/hot-add-asa-cable-a250.html"
+    - title: ASA A400 또는 C400
+      url: "/ns224/hot-add-asa-cable-a400-c400.html"
+    - title: ASA A800 또는 C800
+      url: "/ns224/hot-add-asa-cable-a800-c800.html"
+    - title: ASA A900
+      url: "/ns224/hot-add-asa-cable-a900.html"
+  - title: 핫 애드를 완료합니다
+    url: "/ns224/hot-add-asa-complete.html"
+- title: EOA 시스템용 hot-add 셸프
+  entries:
+  - title: 핫 애드 워크플로우
+    url: "/ns224/hot-add-eoa-workflow.html"
+  - title: 요구사항에 대해 설명합니다
+    url: "/ns224/hot-add-eoa-requirements.html"
+  - title: 핫 애드를 준비합니다
+    entries:
+    - title: 핫 애드 준비 개요
+      url: "/ns224/hot-add-eoa-prepare-overview.html"
+    - title: EOA 시스템
+      url: "/ns224/hot-add-eoa-prepare-systems.html"
+  - title: 쉘프 설치
+    url: "/ns224/hot-add-eoa-install.html"
+  - title: 케이블 가용성 종료 시스템
+    entries:
+    - title: 케이블 연결 개요
+      url: "/ns224/hot-add-eoa-cable-overview.html"
+    - title: AFF A320
+      url: "/ns224/hot-add-eoa-cable-a320.html"
+    - title: AFF A700
+      url: "/ns224/hot-add-eoa-cable-a700.html"
+    - title: 500f로 설정합니다
+      url: "/ns224/hot-add-eoa-cable-fas500f.html"
+  - title: 핫 애드를 완료합니다
+    url: "/ns224/hot-add-eoa-complete.html"
 - title: 쉘프 ID를 변경합니다
   url: "/ns224/change-shelf-id.html"
 - title: 스위치 연결 스토리지로 쉘프를 연결합니다

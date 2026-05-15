@@ -1,0 +1,39 @@
+---
+permalink: ns224/hot-add-asa-workflow.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, asa systems, workflow 
+summary: 다음 워크플로 단계를 따라 NS224 셸프를 ASA 시스템에 핫 추가하십시오. 
+---
+= ASA 시스템에 NS224 쉘프 핫 추가
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음 워크플로 단계를 따라 NS224 셸프를 ASA 시스템에 핫 추가하십시오.
+
+.시작하기 전에
+* 이 절차는 직접 연결 스토리지에만 적용됩니다. 스위치 연결 스토리지에 대한 지침을 보려면 link:cable-as-switch-attached.html["스위치 연결 케이블 연결 가이드"]를 참조하십시오.
+* NS224 쉘프를 핫애드하려면 HA 페어가 특정 요구 사항을 충족해야 합니다. link:hot-add-asa-requirements.html["핫 추가 요구사항 및 모범 사례"]을(를) 검토하십시오.
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:hot-add-asa-requirements.html["핫 애드 요구 사항 검토"]
+[role="quick-margin-para"]
+ONTAP 버전 지원, 셸프 개수 및 케이블링 요구 사항을 포함하여 ASA 시스템이 NS224 셸프를 핫 추가하기 위한 요구 사항을 충족하는지 확인하십시오.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:hot-add-asa-prepare.html["핫 애드 준비를 하세요"]
+[role="quick-margin-para"]
+플랫폼 모델에 따라 추가 RoCE 지원 PCIe 카드 또는 I/O 모듈을 설치하고, 스토리지용으로 비전용 RoCE 지원 이더넷 포트를 구성하고, 다른 슬롯에 있는 두 개의 포트 세트에 기존 쉘프를 재구성하여 슬롯 장애 시 복원력을 보장해야 할 수 있습니다. 드라이브 소유권을 수동으로 할당하는 경우 자동 드라이브 할당을 비활성화합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:hot-add-asa-install.html["쉘프를 설치합니다"]
+[role="quick-margin-para"]
+선반용 레일 키트를 설치하고, 통신 랙 또는 캐비닛에 선반을 설치 및 고정하고, 전원 코드를 연결하여 선반의 전원을 켜고, HA 쌍 내에서 선반이 구별되도록 고유한 선반 ID를 할당하십시오.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:hot-add-asa-cable-overview.html["선반에 케이블을 연결합니다"]
+[role="quick-margin-para"]
+HA Pair의 각 컨트롤러에 대한 연결 2개를 가질 수 있도록 핫 추가할 쉘프에 케이블을 연결합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"]link:hot-add-asa-complete.html["핫 애드를 완료하십시오"]
+[role="quick-margin-para"]
+핫 애드 준비 과정에서 자동 드라이브 할당을 비활성화한 경우 드라이브 소유권을 수동으로 할당한 다음 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다.

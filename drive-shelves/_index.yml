@@ -14,8 +14,12 @@ indexpage:
       url: "../nx224/change-shelf-id.html"
   - title: NS224 쉘프를 설치합니다
     links:
-    - title: 쉘프를 핫 추가
-      url: "../ns224/hot-add-shelf-overview.html"
+    - title: AFF 시스템용 핫 애드 쉘프
+      url: "../ns224/hot-add-aff-workflow.html"
+    - title: ASA 시스템용 핫 애드 쉘프
+      url: "../ns224/hot-add-asa-workflow.html"
+    - title: EOA 시스템용 hot-add 셸프
+      url: "../ns224/hot-add-eoa-workflow.html"
     - title: 쉘프 ID를 변경합니다
       url: "../ns224/change-shelf-id.html"
     - title: 스위치 연결 스토리지로 쉘프를 연결합니다

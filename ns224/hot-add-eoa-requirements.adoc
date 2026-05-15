@@ -1,0 +1,44 @@
+---
+permalink: ns224/hot-add-eoa-requirements.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, eoa systems, end-of-availability, requirement 
+summary: 가용성 종료 시스템에 NS224 셸프를 핫 추가하기 전에 요구 사항 및 모범 사례를 검토하십시오. 
+---
+= 가용성 종료 시스템에 NS224 셸프를 핫 추가하기 위한 요구사항 및 모범 사례
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NS224 셸프를 핫 애드하기 전에 사용 종료 시스템이 ONTAP 버전, 셸프 용량 및 케이블링 요구 사항을 충족하는지 확인하십시오. 핫 애드 절차가 오류 없이 성공적으로 완료되도록 펌웨어 및 구성 모범 사례를 검토하십시오.
+
+
+
+== 요구 사항
+
+NS224 셸프를 핫 추가하려면 HA 쌍이 다음 요구 사항을 충족해야 합니다.
+
+지원되는 ONTAP 버전:: 사용하시는 플랫폼 모델과 ONTAP 버전이 핫 추가하려는 NS224 셸프와 드라이브를 지원해야 합니다.  https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]을(를) 참조하십시오.
+쉘프 수:: HA 쌍은 현재 설치된 쉘프 수 외에 최소 하나 이상의 추가 쉘프를 지원해야 합니다. 쉘프를 핫 추가한 후에는 HA 쌍에서 지원하는 최대 쉘프 수를 초과할 수 없습니다.  https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]을 참조하십시오.
+케이블 연결:: 쉘프를 연결하려면 올바른 수량과 유형의 케이블이 있어야 합니다. 이미 NS224 쉘프가 있는 HA 쌍에 쉘프를 핫 추가하는 경우, HA 쌍은 스토리지 케이블링 오류 없이 다중 경로 HA로 케이블링되어 있어야 합니다.
++
+--
+ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^]을 실행하여 스토리지 케이블 연결 오류 메시지 및 수정 조치를 확인하십시오. 케이블 요구 사항은  https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]을 참조하십시오.
+
+--
+
+
+
+
+== 모범 사례
+
+NS224 쉘프를 핫 추가하기 전에 다음 모범 사례를 숙지하십시오.
+
+디스크 검증 패키지::  https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/download/DISKQUAL/ALL/qual_devices.zip["디스크 검증 패키지"^]를 핫 추가하기 전에 최신 버전의 DQP를 설치하십시오. 최신 DQP가 설치되어 있으면 시스템에서 새로 인증된 드라이브를 인식하고 사용할 수 있으며, 최신 드라이브 정보가 아니라는 시스템 이벤트 메시지가 표시되지 않고, 인식되지 않은 드라이브로 인한 드라이브 파티셔닝 오류가 발생하는 것을 방지할 수 있습니다. 또한 DQP는 최신이 아닌 드라이브 펌웨어에 대해 알려줍니다.
+Active IQ Config Advisor::  https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^]를 쉘프를 핫 추가하기 전과 후에 실행하십시오. 핫 추가 전에 실행하면 기존 쉘프 이더넷 연결의 스냅샷을 제공하고, NSM 펌웨어 버전을 확인하며, 이미 사용 중인 쉘프 ID를 식별합니다. 핫 추가 후에 실행하면 쉘프가 올바르게 케이블로 연결되었는지, 그리고 HA 쌍 내에서 쉘프 ID가 고유한지 확인합니다.
+NSM 및 드라이브 펌웨어:: 새 셸프를 추가하기 전에 스토리지 시스템에 https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["NVMe 쉘프 모듈(NSM) 펌웨어"^] 및 https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["드라이브 펌웨어"^]의 최신 버전을 설치하십시오. 셸프 및 해당 구성 요소를 지원하지 않는 버전으로 펌웨어를 되돌리지 마십시오.
+
+
+.다음 단계
+요구사항을 검토한 후link:hot-add-eoa-prepare-overview.html["셸프를 핫 추가할 준비를 하십시오"].

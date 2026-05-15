@@ -1,20 +1,20 @@
 ---
-permalink: ns224/install-hot-add-shelf.html 
+permalink: ns224/hot-add-aff-install.html 
 sidebar: sidebar 
-keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, install, hot-add an ns224 drive shelf 
-summary: HA 쌍이 특정 요구사항을 충족하고 HA 쌍에 적용할 수 있는 준비 작업이 완료된 후에 NS224 드라이브 쉘프를 핫 추가할 수 있습니다. 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff systems, install 
+summary: 캐비닛 또는 통신 랙에 NS224 쉘프를 설치하고 전원 코드를 연결한 다음 AFF 시스템의 쉘프 ID를 설정합니다. 
 ---
-= 핫 애드온 NS224 쉘프용 쉘프를 설치합니다
+= AFF 시스템에 NS224 셸프 설치
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-NS224 쉘프를 캐비닛이나 통신 랙에 설치하고 전원 코드를 연결하고(쉘프에 자동으로 전원 공급) 쉘프 ID를 설정해야 합니다.
+캐비닛 또는 통신 랙에 NS224 쉘프를 설치하고 전원 코드를 연결한 다음 AFF 시스템의 쉘프 ID를 설정합니다.
 
 .시작하기 전에
-* 한 면이 곧게 펴진 종이 클립이나 끝이 좁은 볼펜 클립이 있는지 확인하십시오.
+* 한쪽 끝이 곧게 펴진 종이 클립이나 끝이 좁은 볼펜을 준비하세요.
 +
 선반 ID를 변경하려면 종이 클립이나 볼펜 펜을 사용하여 ODP(Operator Display Panel) 뒤에 있는 선반 ID(선반 ID) 변경 단계에 액세스합니다.
 
@@ -118,4 +118,4 @@ ID가 깜빡이는 데 15초 이상 걸리는 경우 버튼을 다시 길게 눌
 
 
 .다음 단계
-핫 애드 쉘프에 케이블을 연결합니다. 로 이동합니다. link:cable-overview-hot-add-shelf.html["핫 애드 케이블 연결 개요"]
+선반을 설치한 후 link:hot-add-aff-cable-overview.html["쉘프에 케이블을 연결하세요"].

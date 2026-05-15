@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, drive, aggregate, ha, pair, serving, data, io, cold-replace an ns224 
 summary: NS224 드라이브 쉘프를 콜드 교체할 수 있습니다. 
 ---
-= 쉘프를 콜드 교체 - NS224 쉘프
+= NS224 쉘프를 콜드 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

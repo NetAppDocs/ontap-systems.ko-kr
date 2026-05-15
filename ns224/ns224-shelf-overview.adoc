@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, drive, aggregate, shelf maintenance 
 summary: NS224 쉘프 유지보수 개요 
 ---
-= 쉘프 유지보수 개요 - NS224 쉘프
+= NS224 쉘프 유지 관리 개요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

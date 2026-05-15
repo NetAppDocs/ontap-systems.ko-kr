@@ -1,0 +1,39 @@
+---
+permalink: ns224/hot-add-eoa-cable-a320.html 
+sidebar: sidebar 
+keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff a320, cable, end-of-availability 
+summary: NS224 셸프를 AFF A320 시스템에 케이블로 연결하여 각 셸프가 HA 쌍의 각 컨트롤러에 두 개의 연결을 갖도록 하십시오. 
+---
+= NS224 쉘프를 AFF A320 시스템에 케이블로 연결하십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NS224 셸프를 AFF A320 시스템에 케이블로 연결하여 각 셸프가 HA 쌍의 각 컨트롤러에 두 개의 연결을 갖도록 하십시오.
+
+추가 스토리지가 필요한 경우 기존 HA 쌍에 두 번째 쉘프를 핫 추가할 수 있습니다.
+
+.단계
+. 쉘프를 컨트롤러에 케이블로 연결합니다.
++
+.. NSM A 포트 e0a를 컨트롤러 A 포트 e0e에 케이블로 연결합니다.
+.. NSM A 포트 e0b를 컨트롤러 B 포트 e0b에 연결합니다.
+.. NSM B 포트 e0a를 컨트롤러 B 포트 e0e에 케이블로 연결합니다.
+.. NSM B 포트 e0b를 컨트롤러 A 포트 e0b에 연결합니다. + 다음 그림에서는 핫 애드 셸프(셸프 2)의 케이블 연결을 보여 줍니다.
++
+image::../media/drw_ns224_a320_2shelves_direct_attached.png[NS224 쉘프 2개와 온보드 포트 3세트가 포함된 AFF A320의 케이블 연결]
+
+
+
+. 를 사용하여 핫 애드 쉘프가 올바르게 연결되었는지 확인합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^].
++
+케이블 연결 오류가 발생하면 제공된 수정 조치를 따르십시오.
+
+
+
+.다음 단계
+이 절차를 준비하는 과정에서 자동 드라이브 할당을 비활성화한 경우, 드라이브 소유권을 수동으로 할당한 다음 필요한 경우 자동 드라이브 할당을 다시 활성화해야 합니다. link:hot-add-eoa-complete.html["핫 애드 완료"]로 이동하세요.
+
+그렇지 않으면 핫 애드 쉘프 절차가 완료됩니다.

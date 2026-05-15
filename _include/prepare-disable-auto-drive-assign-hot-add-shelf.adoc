@@ -1,0 +1,19 @@
+= 
+:allow-uri-read: 
+
+
+드라이브 소유권을 수동으로 할당해야 하는지 또는 스토리지 시스템에 대한 드라이브 소유권 정책의 자동 할당을 이해하려면 로 이동합니다 https://docs.netapp.com/us-en/ontap/disks-aggregates/disk-autoassignment-policy-concept.html["디스크 소유권 자동 할당 정보"^].
+
+.단계
+. 자동 드라이브 할당이 설정되었는지 'Storage disk option show'를 확인합니다
++
+두 노드 중 하나에서 명령을 입력할 수 있습니다.
+
++
+자동 드라이브 할당이 활성화된 경우, 출력 결과는 각 노드의  `Auto Assign` 열에  `on`를 표시합니다.
+
+. 자동 드라이브 할당이 설정된 경우 'storage disk option modify -node_node_name_-autostassign off'를 비활성화합니다
++
+두 노드 모두에서 자동 드라이브 할당을 해제해야 합니다.
+
+
