@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nx224, shelves, shelf, nx224 shelves, hot-add, ha, pair, install, hot-add an nx224 drive shelf 
 summary: AFX 클러스터가 특정 요구 사항을 충족하고 AFX 클러스터에 적용 가능한 준비 작업이 완료되면 NX224 드라이브 쉘프를 핫 추가할 수 있습니다. 
 ---
-= 선반 추가 - NX224 선반
+= NX224 셸프를 AFX 클러스터에 핫 추가
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nx224, shelves, shelf, nx224 shelves, drive, aggregate, shelf maintenance 
 summary: NX224 선반 유지관리 개요. 
 ---
-= NX224 선반 유지관리 개요
+= NX224 셸프 유지 관리
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
