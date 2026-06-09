@@ -2,7 +2,7 @@
 permalink: a400/maintain-overview.html 
 sidebar: sidebar 
 keywords: aff A400 maintenance, maintenance, repairing A400, repairing aff A400, replace aff A400 components, replace aff A400 components 
-summary: AFF A400 하드웨어 유지 관리 
+summary: 장기적인 안정성과 최적의 성능을 보장하려면 AFF A400 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다. 
 ---
 = AFF A400 하드웨어 유지
 :allow-uri-read: 
@@ -47,7 +47,7 @@ link:chassis-replace-overview.html["섀시"]
 
 
  a| 
-link:controller-replace-overview.html["컨트롤러"]
+link:controller-replace-workflow.html["컨트롤러"]
  a| 
 컨트롤러는 보드, 펌웨어 및 소프트웨어로 구성됩니다. 드라이브를 제어하고 ONTAP 기능을 구현합니다.
 

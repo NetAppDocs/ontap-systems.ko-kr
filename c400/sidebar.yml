@@ -63,20 +63,22 @@ entries:
       url: "/c400/chassis-replace-move-hardware.html"
     - title: 전체 교체
       url: "/c400/chassis-replace-complete-system-restore-rma.html"
-  - title: 컨트롤러 모듈
+  - title: 컨트롤러
     pdf-filename: AFF C400 컨트롤러 모듈
     entries:
-    - title: 개요
-      url: "/c400/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/c400/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/c400/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/c400/controller-replace-shutdown.html"
-    - title: 컨트롤러 모듈을 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/c400/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/c400/controller-replace-system-config-restore-and-verify.html"
-    - title: 시스템을 다시 연결합니다
+    - title: 컨트롤러를 반납합니다
       url: "/c400/controller-replace-recable-reassign-disks.html"
-    - title: 시스템 복원을 완료합니다
+    - title: 전체 컨트롤러 교체
       url: "/c400/controller-replace-restore-system-rma.html"
   - title: DIMM
     pdf-filename: AFF C400 DIMM

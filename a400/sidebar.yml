@@ -66,17 +66,19 @@ entries:
   - title: 컨트롤러
     pdf-filename: AFF A400 컨트롤러 모듈
     entries:
-    - title: 개요
-      url: "/a400/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/a400/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/a400/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a400/controller-replace-shutdown.html"
     - title: 컨트롤러를 교체합니다
       url: "/a400/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/a400/controller-replace-system-config-restore-and-verify.html"
-    - title: 회수 가능 시스템
+    - title: 컨트롤러를 반납합니다
       url: "/a400/controller-replace-recable-reassign-disks.html"
-    - title: 시스템 복원을 완료합니다
+    - title: 전체 컨트롤러 교체
       url: "/a400/controller-replace-restore-system-rma.html"
   - title: DIMM
     pdf-filename: AFF A400 DIMM
@@ -88,7 +90,7 @@ entries:
     pdf-filename: AFF A400 NVDIMM 배터리
     url: "/a400/nvdimm-battery-replace.html"
   - title: NVDIMM
-    pdf-filename: AFF A320 NVDIMM
+    pdf-filename: AFF A400 NVDIMM
     url: "/a400/nvdimm-replace.html"
   - title: PCIe 또는 메자닌 카드
     pdf-filename: AFF A400 PCIe 또는 메자닌 카드

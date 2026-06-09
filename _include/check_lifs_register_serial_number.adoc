@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-replacement_node를 서비스로 반환하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 설정된 경우 _replacement_node의 일련 번호를 등록하고, 자동 반환 기능을 재설정해야 합니다.
+교체 노드를 서비스에 다시 투입하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 활성화된 경우 교체 노드의 일련 번호를 등록하고, 클러스터 상태를 확인하고, 유지 관리 창을 닫고, 자동 반환을 재설정해야 합니다.
 
 .단계
 . 논리 인터페이스가 홈 서버 및 포트에 대해 'network interface show-is-home false'라는 보고를 하는지 확인합니다

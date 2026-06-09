@@ -1,0 +1,46 @@
+---
+permalink: c400/controller-replace-requirements.html 
+sidebar: sidebar 
+keywords: aff c400, prerequisite, replace the controller module 
+summary: AFF C400 시스템의 컨트롤러를 교체하기 전에 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체용 컨트롤러를 사용하고 있는지 확인하고, 컨트롤러 콘솔 출력을 텍스트 로그 파일에 저장하십시오. 
+---
+= 컨트롤러 교체 요구 사항 - AFF C400
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AFF C400 시스템의 컨트롤러를 교체하기 전에 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체용 컨트롤러를 사용하고 있는지 확인하고, 컨트롤러 콘솔 출력을 텍스트 로그 파일에 저장하십시오.
+
+컨트롤러 모듈 교체 요구 사항을 검토하십시오.
+
+[NOTE]
+====
+NetApp에서는 작업 중인 장치에서 콘솔 로깅을 활성화하고 이 절차를 수행할 때 다음 조치를 취할 것을 강력히 권장합니다.
+
+* 유지 관리 중에도 AutoSupport 기능을 활성화 상태로 유지하십시오. 이렇게 하면 문제가 발생할 경우 NetApp 지원팀에서 진단 정보를 받을 수 있습니다.
+* CLI 세션에 대한 세션 로깅을 활성화하십시오. 이렇게 하면 유지보수 윈도우 중에 수행된 모든 명령과 시스템 출력에 대한 완전한 기록이 생성됩니다. 세션 로깅 활성화 방법에 대한 자세한 내용은 https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/How_to_configure_PuTTY_for_optimal_connectivity_to_ONTAP_systems["ONTAP 시스템에 최적의 연결을 위해 PuTTY를 구성하는 방법"^]을 참조하십시오.
+
+
+====
+* 모든 드라이브 쉘프가 올바로 작동하고 있어야 합니다.
+* 건강한 컨트롤러는 교체되는 컨트롤러(이 절차에서는 손상된 컨트롤러라고 함)를 대신 수행할 수 있어야 합니다.
+* 컨트롤러 업그레이드에는 이 절차를 사용하지 마세요.  참조하다 https://docs.netapp.com/us-en/ontap-systems-upgrade/choose_controller_upgrade_procedure.html["컨트롤러 하드웨어 업그레이드 절차를 선택합니다"] 지침을 위해.
+* 시스템이 MetroCluster 구성인 경우 다음을 검토하세요. https://docs.netapp.com/us-en/ontap-metrocluster/disaster-recovery/concept_choosing_the_correct_recovery_procedure_parent_concept.html["올바른 복구 절차 선택"] 이 절차를 사용할지 여부를 결정합니다.
+* 오류가 발생한 구성 요소를 NetApp 에서 받은 현장 교체 가능 장치(FRU)로 교체합니다.
+* 컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체합니다.  컨트롤러 모듈을 교체하여 시스템을 업그레이드할 수 없습니다.
+* 이 절차에서는 드라이브나 드라이브 선반을 변경할 수 없습니다.
+* 이 절차에서는 교체 컨트롤러가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 교체 컨트롤러로 이동합니다.
+* 이 절차에서 사용되는 컨트롤러 용어를 이해하세요.
++
+** _손상된_ 컨트롤러는 교체되는 컨트롤러입니다.
+** _교체_ 컨트롤러는 손상된 컨트롤러를 대체하는 새로운 컨트롤러입니다.
+** healthy_controller는 정상적인 컨트롤러입니다.
+
+
+*  `security key-manager onboard show-key-store`을 사용하여 Onboard Key Manager(OKM)가 구성되어 있는지 확인하십시오. 구성되어 있는 경우 이 절차를 시작하기 전에  https://docs.netapp.com/us-en/ontap-cli/security-key-manager-onboard-show-backup.html["security key-manager onboard show-backup"]를 사용하여 클러스터 전체 암호를 검색하거나 NetApp 지원 팀에 문의하십시오.
+
+
+.다음 단계
+AFF C400 컨트롤러 교체 요구 사항을 검토한 후에는 link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]해야 합니다.

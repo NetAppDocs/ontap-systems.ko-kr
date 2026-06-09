@@ -69,17 +69,19 @@ entries:
   - title: 컨트롤러
     pdf-filename: FAS8300 및 FAS8700 컨트롤러
     entries:
-    - title: 개요
-      url: "/fas8300/controller-replace-overview.html"
+    - title: 컨트롤러 교체 워크플로우
+      url: "/fas8300/controller-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/fas8300/controller-replace-requirements.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas8300/controller-replace-shutdown.html"
-    - title: 컨트롤러 모듈을 교체합니다
+    - title: 컨트롤러를 교체합니다
       url: "/fas8300/controller-replace-move-hardware.html"
     - title: 시스템 구성을 복원합니다
       url: "/fas8300/controller-replace-system-config-restore-and-verify.html"
-    - title: 회수 가능 시스템
+    - title: 컨트롤러를 반납합니다
       url: "/fas8300/controller-replace-recable-reassign-disks.html"
-    - title: 전체 교체
+    - title: 전체 컨트롤러 교체
       url: "/fas8300/controller-replace-restore-system-rma.html"
   - title: DIMM
     pdf-filename: FAS8300 및 FAS8700 DIMM
