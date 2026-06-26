@@ -1,25 +1,25 @@
 ---
 permalink: sas3/service-hot-swap-iom.html 
 sidebar: sidebar 
-keywords: system, configuration, whether, perform, nondisruptive, iom12, module, hot-swap, disruptive, replacement, hot-swap or replace an iom12 iom12b module, iom12b 
-summary: 시스템 구성에 따라 IOM12/IOM12B 모듈 핫 스왑 또는 IOM12/IOM12B 모듈 장애 발생 시 IOM12/IOM12B 모듈 교체 중단 여부를 결정합니다. 
+keywords: module, hot-swap, replace, iom12, iom12b, iom12c, ds212c, ds224c, ds460c 
+summary: 시스템 구성에 따라 IOM12, IOM12B 또는 IOM12C 쉘프 IOM에 장애가 발생했을 때 중단 없는 쉘프 IOM 핫스왑을 수행할지 또는 중단 있는 쉘프 IOM 교체를 수행할지 결정됩니다. 
 ---
-= IOM 모듈 핫스왑 또는 교체 - DS212C, DS224C 또는 DS460C
+= DS212C, DS224C 또는 DS460C IOM 모듈 핫스왑 또는 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-시스템 구성에 따라 IOM12 또는 IOM12B 셸프 IOM에 장애가 발생할 때 중단 없는 셸프 IOM 핫스왑이나 중단 있는 셸프 IOM 교체를 수행할 수 있는지 여부가 결정됩니다.
+시스템 구성에 따라 IOM12, IOM12B 또는 IOM12C 쉘프 IOM에 장애가 발생했을 때 중단 없는 쉘프 IOM 핫스왑을 수행할지 또는 중단 있는 쉘프 IOM 교체를 수행할지 결정됩니다.
 
 .이 작업에 대해
-* 이 절차는 IOM12 또는 IOM12B 모듈이 있는 선반에 적용됩니다.
+* 이 절차는 IOM12, IOM12B 또는 IOM12C 모듈이 있는 쉘프에 적용됩니다.
 +
 
-NOTE: 이 절차는 동일 쉘프 IOM 핫스왑 또는 교체를 위한 것입니다. 즉, IOM12 모듈을 다른 IOM12 모듈로, 또는 IOM12B 모듈을 다른 IOM12B 모듈로만 교체할 수 있습니다.
+NOTE: 이 절차는 동일한 사양의 IOM 모듈 간 핫스왑 또는 교체에만 적용됩니다. 즉, IOM12 모듈은 다른 IOM12 모듈로, IOM12B 모듈은 다른 IOM12B 모듈로, 또는 IOM12C 모듈은 다른 IOM12C 모듈로만 교체할 수 있습니다.
 
-* IOM12 또는 IOM12B 모듈은 외관으로 구별할 수 있습니다.
+* IOM12, IOM12B 또는 IOM12C 모듈은 외형으로 구분할 수 있습니다.
 +
 IOM12 모듈은 "IOM12" 레이블로 구분됩니다.
 
@@ -32,9 +32,14 @@ IOM12B 모듈은 파란색 스트라이프와 "IOM12B" 레이블로 구별됩니
 +
 image::../media/iom12b.png[IOM12B 전면]
 
++
+IOM12C 모듈은 파란색과 회색 스트라이프 및 "IOM12C" 라벨로 구분됩니다:
+
++
+image::../media/drw_iom12c_ieops-2175.svg[IOM12C 전면]
+
 * 다중 경로(다중 경로 HA 또는 다중 경로), 3중 경로 HA 및 4중 경로(4중 경로 HA 또는 4중 경로) 구성의 경우 쉘프 IOM을 핫 스왑할 수 있습니다. 즉, 전원이 켜져 있고 데이터 I/O를 제공하는 시스템의 쉘프 IOM을 중단 없이 교체할 수 있습니다.
-* FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성의 경우 전원을 켜고 데이터를 제공하는 시스템의 쉘프 IOM을 대체하기 위해 테이크오버 및 반환 작업을 수행해야 합니다. -- I/O가 진행 중입니다.
-* FAS2600 시리즈 단일 경로 구성의 경우 쉘프 IOM을 교체하기 위해 시스템을 중지해야 합니다.
+* FAS2700 시리즈 단일 경로 HA 구성의 경우, 전원이 켜져 있고 데이터를 제공하는 시스템(I/O가 진행 중인 상태)에서 쉘프 IOM을 교체하려면 테이크오버 및 기브백 작업을 수행해야 합니다.
 +
 
 CAUTION: 단일 경로 연결로 디스크 쉘프의 쉘프 IOM을 핫 스왑하려고 하면 디스크 쉘프의 디스크 드라이브 및 해당 디스크 쉘프의 디스크 드라이브에 모두 액세스할 수 없게 됩니다. 전체 시스템을 다운시킬 수도 있습니다.
@@ -51,7 +56,7 @@ CAUTION: 단일 경로 연결로 디스크 쉘프의 쉘프 IOM을 핫 스왑하
 
 
 .시작하기 전에
-* 다른 IOM12/IOM12B 모듈을 포함한 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다.
+* 시스템의 다른 모든 구성 요소(다른 IOM12, IOM12B 또는 IOM12C 모듈 포함)는 제대로 작동해야 합니다.
 * *모범 사례*: 새 디스크 셸프, 셸프 FRU 구성 요소 또는 SAS 케이블을 추가하기 전에 시스템에 최신 버전의 디스크 셸프(IOM) 펌웨어와 디스크 드라이브 펌웨어가 설치되어 있는지 확인하십시오. NetApp 지원 사이트를 방문하여  https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware["디스크 쉘프 펌웨어 다운로드"] 그리고  https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware["디스크 드라이브 펌웨어 다운로드"] .
 
 
@@ -77,22 +82,13 @@ CAUTION: 단일 경로 연결로 디스크 쉘프의 쉘프 IOM을 핫 스왑하
 
 
  a| 
-FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성
+FAS2700 시리즈 단일 경로 HA 구성
  a| 
 .. 타겟 노드(장애가 발생한 쉘프 IOM이 속한 노드)를 확인합니다.
 +
 IOM A가 컨트롤러 1에 속합니다. IOM B가 컨트롤러 2에 속합니다.
 
 .. 'Storage failover takeover -bynode_partner HA node_'를 타겟 노드로 인계합니다
-
-
-
-
- a| 
-FAS2600 시리즈 단일 경로 구성
- a| 
-.. 시스템 콘솔에서 '중지'를 눌러 시스템을 종료합니다
-.. 스토리지 시스템 콘솔을 확인하여 시스템이 중단되었는지 확인합니다.
 
 
 |===
@@ -140,16 +136,9 @@ SAS 케이블 커넥터는 IOM 포트에 올바르게 맞추면 딸깍 소리가
 
 
  a| 
-FAS2600 시리즈 및 FAS2700 시리즈 단일 경로 HA 구성
+FAS2700 시리즈 단일 경로 HA 구성
  a| 
 타겟 노드 'storage failover back - fromnode PARTNER_HA_NODE'를 반환한다
-
-
-
- a| 
-FAS2600 시리즈 단일 경로 구성
- a| 
-시스템을 재부팅합니다.
 
 |===
 . 쉘프 IOM 포트 링크가 설정되었는지 확인합니다.

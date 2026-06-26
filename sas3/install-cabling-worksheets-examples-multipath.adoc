@@ -1,17 +1,19 @@
 ---
 permalink: sas3/install-cabling-worksheets-examples-multipath.html 
 sidebar: sidebar 
-keywords: controller-to-stack, cabling, worksheet, cable, ha, pair, multipath, ha, configuration, controller-to-stack, cabling, controller-to-stack cabling worksheets and cabling examples for multipath ha configuration 
-summary: 컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 사용하여 HA 쌍을 다중 경로 HA 구성으로 연결할 수 있습니다. 
+keywords: controller, stack, cable, ha, pair, multipath, configuration, ds212c, ds224c, ds460c 
+summary: 컨트롤러-스택 케이블링 워크시트와 예제를 사용하여 HA 쌍을 다중 경로 HA 구성으로 케이블링할 수 있습니다. 
 ---
-= 다중 경로 HA 구성을 위한 케이블링 워크시트 - DS212C, DS224C 또는 DS460C
+= DS212C, DS224C 또는 DS460C 다중 경로 HA 구성을 위한 케이블링 작업표
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-컨트롤러-스택 케이블 연결 워크시트와 케이블 연결 예시를 활용하여 HA 페어를 다중 경로 HA 구성으로 케이블 연결할 수 있습니다. 이는 IOM12/IOM12B 모듈이 있는 셸프에 적용됩니다.
+컨트롤러-스택 케이블링 워크시트와 케이블 연결 예를 사용하여 HA 쌍을 다중 경로 HA 구성으로 연결할 수 있습니다.
+
+이는 IOM12, IOM12B 또는 IOM12C 모듈이 있는 쉘프에 적용됩니다.
 
 
 NOTE: 이 정보는 내부 스토리지가 없는 플랫폼에 적용됩니다.

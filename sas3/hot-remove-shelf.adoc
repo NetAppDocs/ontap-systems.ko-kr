@@ -1,17 +1,19 @@
 ---
 permalink: sas3/hot-remove-shelf.html 
 sidebar: sidebar 
-keywords: hot-remove, disk, shelf, iom12, module, nondisruptive, module-nondisruptively, system, power, serving, data, I O, progress, hot-remove, stack, shelves, hot-remove a disk shelf with iom12 modules, DS460C, transport DS460C, move DS460C, remove drives from DS460C, DS460C drive handling, iom12b 
-summary: '디스크 쉘프를 이동하거나 교체해야 하는 경우, IOM12 모듈을 사용하여 디스크 쉘프를 핫 제거할 수 있습니다(전원이 켜진 시스템에서 디스크 쉘프를 중단 없이 제거하고 I/O가 진행 중인 경우). 디스크 쉘프 스택 내의 모든 위치에서 디스크 쉘프를 하나 이상 핫 제거하거나 디스크 쉘프 스택을 제거할 수 있습니다.' 
+keywords: hot-remove, remove, disk, shelf, sas3, iom12, iom12b, iom12c, stack, ds460c, transport, move, ds212c, ds224c 
+summary: 시스템 전원이 켜져 있고 I/O 작업이 진행 중인 상태에서 디스크 쉘프를 제거하거나 교체해야 할 때 핫 제거 기능을 사용할 수 있습니다. 
 ---
-= 선반 핫 제거 - DS212C, DS224C 및 DS460C
+= DS212C, DS224C 또는 DS460C 쉘프를 핫 제거합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-디스크 셸프를 이동하거나 교체해야 할 때 IOM12 또는 IOM12B 모듈을 사용하여 디스크 셸프를 핫-제거할 수 있습니다(전원이 켜져 있고 I/O가 진행 중인 시스템에서 디스크 셸프를 중단 없이 제거할 수 있음). 디스크 셸프 스택 내 어디에서든 하나 이상의 디스크 셸프를 핫-제거하거나 디스크 셸프 스택을 제거할 수 있습니다.
+시스템 전원이 켜져 있고 I/O 작업이 진행 중인 상태에서 디스크 쉘프를 제거하거나 교체해야 할 때 핫 리무브 기능을 사용할 수 있습니다. 디스크 쉘프 스택 내 어디에서든 하나 이상의 디스크 쉘프를 핫 리무브하거나 디스크 쉘프 스택 전체를 핫 리무브할 수 있습니다.
+
+이 절차는 IOM12, IOM12B 또는 IOM12C 모듈이 있는 쉘프에 적용됩니다.
 
 .이 작업에 대해
 * 스택에서 디스크 쉘프를 핫 제거하는 경우(스택 제외), 한 번에 하나의 경로(경로 A와 경로 B)를 재배열하여 제거할 디스크 쉘프를 바이패스하여 컨트롤러에서 스택까지 항상 단일 경로 연결을 유지할 수 있습니다.
@@ -175,7 +177,7 @@ NOTE: 포트를 연결하기 전에 10초 이상 기다립니다. SAS 케이블 
 스택의 끝이나 스택 중간에서 디스크 쉘프를 제거할 때 다음 케이블 연결 예를 참조할 수 있습니다. 케이블 연결 예는 다음과 같습니다.
 
 +
-** IOM12/IOM12B 모듈은 DS224C 또는 DS212C 디스크 선반처럼 나란히 배열됩니다. DS460C가 있는 경우 IOM12/IOM12B 모듈은 다른 모듈 위에 정렬됩니다.
+** IOM12, IOM12B 또는 IOM12C 모듈은 DS224C 또는 DS212C 디스크 쉘프에서와 같이 나란히 배열됩니다. DS460C의 경우 IOM12, IOM12B 또는 IOM12C 모듈은 위아래로 배열됩니다.
 ** 각 예의 스택은 표준 쉘프-쉘프 케이블로 연결되고, 다중 경로 HA, 삼중 경로 HA 또는 다중 경로 연결을 통해 케이블로 연결된 스택에 사용됩니다.
 +
 스택이 4중 경로 HA 또는 4중 경로 연결로 케이블이 연결되어 있는지 추론할 수 있습니다. 이 연결은 셸프 간 이중 케이블 연결을 사용합니다.

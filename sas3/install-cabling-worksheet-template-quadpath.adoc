@@ -1,17 +1,17 @@
 ---
 permalink: sas3/install-cabling-worksheet-template-quadpath.html 
 sidebar: sidebar 
-keywords: complete, completing, worksheet, template, controller, sas, port, pair, cable, controller, disk, shelves, shelf, iom12, quad-pathed, connectivity, ha, pair, controller-to-stack, controller-to-stack cabling worksheet template for quad-pathed connectivity 
-summary: 워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈이 포함된 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다. 
+keywords: controller, sas, port, pair, cable, disk, shelf, iom12, quad-pathed, connectivity, ha, stack, iom12b, iom12c, ds212c, ds224c, ds460c 
+summary: HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 연결을 위해 컨트롤러를 디스크 쉘프 스택에 케이블로 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의합니다. 
 ---
-= 4중 경로 연결을 위한 케이블링 워크시트 - DS212C, DS224C 또는 DS460C
+= DS212C, DS224C 또는 DS460C 4중 경로 연결을 위한 케이블링 작업표
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모듈이 포함된 디스크 쉘프 스택에 연결하는 데 사용할 수 있는 컨트롤러 SAS 포트 쌍을 정의하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 방식으로 연결할 수 있습니다. 또한 완성된 워크시트를 사용하여 4중 경로 연결을 구성하는 방법을 단계별로 안내해 줄 수 있습니다.
+케이블링 워크시트를 사용하여 HA 쌍 또는 단일 컨트롤러 구성에서 4중 경로 연결을 달성하기 위해 IOM12, IOM12B 또는 IOM12C 모듈이 장착된 디스크 쉘프 스택에 컨트롤러를 연결하는 데 사용할 컨트롤러 SAS 포트 쌍을 정의할 수 있습니다. 또한 완성된 워크시트를 사용하여 구성에 대한 4중 경로 연결 케이블링을 직접 수행할 수 있습니다.
 
 .이 작업에 대해
 * 이 절차 및 워크시트 템플릿은 하나 이상의 스택으로 4중 경로 HA 또는 4중 경로 구성을 위한 4중 경로 연결 케이블에 연결할 수 있습니다.
@@ -19,7 +19,7 @@ summary: 워크시트 템플릿을 완료하면 컨트롤러를 IOM12/IOM12B 모
 4중 경로 HA 및 4중 경로 구성을 위해 작성된 워크시트의 예가 제공됩니다.
 
 +
-워크시트 예에는 2개의 4중 포트 SAS HBA와 IOM12/IOM12B 모듈이 포함된 2개의 디스크 쉘프 스택이 사용됩니다.
+워크시트 예제에서는 4중 포트 SAS HBA 2개와 IOM12, IOM12B 또는 IOM12C 모듈이 장착된 디스크 쉘프 스택 2개로 구성된 구성을 사용합니다.
 
 * 워크시트 서식 파일을 사용하면 최대 두 개의 스택을 사용할 수 있으므로 필요한 경우 열을 더 추가해야 합니다.
 * 컨트롤러-스택 연결을 위한 4중 경로 연결은 2개의 다중 경로 케이블 세트로 구성됩니다. 첫 번째 케이블 세트를 "다중 경로"라고 하며 두 번째 케이블 세트를 "4중 경로"라고 합니다.

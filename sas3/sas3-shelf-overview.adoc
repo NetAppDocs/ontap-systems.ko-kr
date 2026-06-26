@@ -1,17 +1,17 @@
 ---
 permalink: sas3/sas3-shelf-overview.html 
 sidebar: sidebar 
-keywords: sas3, shelves, shelf, sas3 shelves, drive, aggregate, shelf maintenance 
-summary: sas3 셸프 유지 보수 개요 
+keywords: sas3, shelf, sas3 shelves, drive, aggregate, shelf maintenance, ds212c, ds224c, ds460c 
+summary: DS212C, DS224C 또는 DS460C 쉘프 유지 관리 개요. 
 ---
-= 선반 유지 관리 개요 - DS212C, DS224C 또는 DS460C
+= DS212C, DS224C 또는 DS460C 쉘프 유지 관리 개요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-SAS 쉘프를 유지하려면 다음 작업을 수행할 수 있습니다.
+DS212C, DS224C 또는 DS460C 쉘프를 유지 관리하려면 다음 조치를 취할 수 있습니다.
 
 * link:hot-add-drive.html["드라이브를 핫 애드 합니다"]
 * link:cold-replace-shelf.html["콜드-쉘프 교체"]

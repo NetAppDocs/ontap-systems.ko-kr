@@ -55,7 +55,7 @@ entries:
       url: "/sas3/service-monitor-leds.html"
   - title: DS460C 쉘프의 팬 모듈
     url: "/sas3/service-replace-fan-ds460c.html"
-  - title: IOM12/IOM12B 모듈
+  - title: IOM12, IOM12B 또는 IOM12C 모듈
     url: "/sas3/service-hot-swap-iom.html"
   - title: 전원 공급 장치
     url: "/sas3/service-hot-swap-power-supply.html"
