@@ -262,7 +262,7 @@ LOADER-B>
 
 . 자동 반환이 비활성화된 경우 다시 활성화하십시오.
 +
-`storage failover modify -node local auto-giveback-of true`
+`storage failover modify -node local -auto-giveback-of true`
 
 . AutoSupport가 활성화된 경우 자동 케이스 생성을 복원합니다.
 +

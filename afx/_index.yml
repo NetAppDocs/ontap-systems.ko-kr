@@ -3,7 +3,7 @@ indexpage:
   title: AFX 시스템
   summary: NetApp AFX 스토리지 시스템은 고성능 NAS 및 S3 고객의 고유한 요구 사항에 초점을 맞춘 분산형 하드웨어 및 소프트웨어
     솔루션입니다. 성능과 확장성은 AI 및 ML 워크로드의 요구 사항을 충족하도록 특별히 설계되었습니다.
-  keywords: afx, afx 1k, install, setup, maintain
+  keywords: afx, afx 1k, afx 2k, install, setup, maintain
   lead: NetApp AFX 스토리지 시스템은 고성능 NAS 및 S3 고객의 고유한 요구 사항에 초점을 맞춘 분산형 하드웨어 및 소프트웨어 솔루션입니다.
     성능과 확장성은 AI 및 ML 워크로드의 요구 사항을 충족하도록 특별히 설계되었습니다.
   tiles:
@@ -15,12 +15,18 @@ indexpage:
       url: https://docs.netapp.com/us-en/ontap-afx/get-started/system-design.html
     - title: AFX 아키텍처
       url: https://docs.netapp.com/us-en/ontap-afx/get-started/software-architecture.html
-  - title: AFX 설치 및 유지 관리
+  - title: AFX 시스템 설치 및 설정
     links:
-    - title: AFX 하드웨어 설치
+    - title: AFX 1K 하드웨어 설치
       url: https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html
-    - title: AFX 하드웨어 유지 관리
-      url: "../afx-landing-maintain/index.html"
+    - title: AFX 2K 하드웨어 설치
+      url: https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html
+  - title: AFX 시스템 유지 관리
+    links:
+    - title: AFX 1K
+      url: "../afx-1k/maintain-overview.html"
+    - title: AFX 2K
+      url: "../afx-2k/maintain-overview.html"
   - title: AFX에서 데이터 관리
     links:
     - title: AFX 볼륨 생성

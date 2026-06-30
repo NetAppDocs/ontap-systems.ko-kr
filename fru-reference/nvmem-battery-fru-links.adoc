@@ -40,6 +40,13 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 NV
 
 
 --
+.AFX 시스템
+--
+* link:../afx-1k/nvdimm-battery-replace.html["AFX 1K"]
+* link:../afx-2k/nvdimm-battery-replace.html["AFX 2K"]
+
+
+--
 .ASA 시스템
 --
 * link:../asa150/nvmem-nvram-battery-replace.html["ASA A150"]

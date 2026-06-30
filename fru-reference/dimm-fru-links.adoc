@@ -42,7 +42,8 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 DI
 --
 .AFX 시스템
 --
-* link:../afx-1k/dimm-replace.html["AFX A1K"]
+* link:../afx-1k/dimm-replace.html["AFX 1K"]
+* link:../afx-2k/dimm-replace.html["AFX 2K"]
 
 
 --

@@ -1,10 +1,10 @@
 ---
-permalink: afx/afx-install-setup.html 
+permalink: afx-1k/afx-1k-install-setup.html 
 sidebar: sidebar 
 keywords: afx, afx 1k, install, setup, initial configuration 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= AFX 스토리지 시스템 설치 및 설정
+= AFX 1K 스토리지 시스템 설치 및 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

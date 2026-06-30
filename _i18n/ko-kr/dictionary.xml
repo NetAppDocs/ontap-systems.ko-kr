@@ -12599,7 +12599,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6ec97e2f84e4bbd8386245095dc82c6c" category="admonition">다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.<block ref="7ea886a463a2f378bb349492138018e4" category="inline-link-macro-rx"></block> .</block>
   <block id="6cf6b99f11a6f1d9493d7c0c682e72cc" category="paragraph"><block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix="" category="inline-code"></block>그리고<block ref="852ce55a153bc728405ba8a2c95bcdf1" prefix=" " category="inline-code"></block></block>
   <block id="3e51eab268209c4ecd6a66e3fb482d1e" category="admonition">다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.</block>
-  <block id="fbda2271859607bf1d062d190a7ffbe4" category="list-text">HA 인터커넥트 링크가 끊어진 경우 다시 연결하세요.</block>
   <block id="c45147b20fda10297d1b0e7d907f26f5" category="paragraph"><block ref="124fff7033dbf247c26ba55c91c24e05" prefix="" category="inline-code"></block></block>
   <block id="d764751d3eb0487a9a265fb174875be7" category="paragraph"><block ref="392f25c94aa750e124e01b0898bbf72d" prefix="" category="inline-code"></block></block>
   <block id="4138629ba2319734a01ac99105a7d77e" category="paragraph"><block ref="5702632fd36e775fbe40719b9f560522" prefix="" category="inline-code"></block></block>
@@ -12622,7 +12621,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a3bab47f3ba234dac2b20342edc8dcf3" category="admonition">9.18.1 이상을 실행 중이라면 위 단계를 건너뛰고 다음 단계로 넘어가세요.</block>
   <block id="fc279180fd280dd504aa2557c0c4b7ba" category="list-text">키 관리자가 구성된 시스템의 경우 적절한 키 관리자 복원 프로세스를 선택합니다.</block>
   <block id="f7dd172e6fadfb3c093097a95e97e630" category="list-text">HA 상호 연결 링크가 끊어진 경우 자동으로 다시 연결되도록 다시 연결하세요.</block>
-  <block id="3581d4955c5076af6afb6cb30f7b03b8" category="paragraph"><block ref="9f164e62b00bce8d23a29e3dd492366d" prefix="" category="inline-code"></block></block>
   <block id="ed7739c629ade444e8a564a1c7027dba" category="list-text">시스템 관리 모듈에서 케이블을 제거하고 다시 설치할 때 올바르게 다시 연결할 수 있도록 라벨을 붙입니다.</block>
   <block id="3202c1f631c1e508fc5fbb88d75ecd12" category="list-text">컨트롤러가 LOADER 프롬프트에서 멈추면 컨트롤러를 부팅합니다.<block ref="ce54ef17bebf280339d340bd40dff593" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="fd6b8aa1d23f1f6e813129702041b66f" category="list-text">노드가 부팅되고 로그인 프롬프트가 표시되면 파트너 컨트롤러에 로그인하고 교체된 컨트롤러가 반환할 준비가 되었는지 확인하십시오.<block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block> 명령.</block>
@@ -12701,7 +12699,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7198e71472ec41b1732ea66e4a56ac9e" category="paragraph">그만큼<block ref="710390a66a3f7deb600ee6db0f191788" prefix=" " category="inline-code"></block> 매개변수를 입력하면 LOADER 프롬프트로 이동합니다.</block>
   <block id="7b57ec62c551f7a0803d70e56d72b6df" category="summary">적절한 냉각을 유지하고 시스템 성능 문제를 방지하려면 AFF A1K 시스템에서 고장나거나 오류가 있는 팬 모듈을 교체하세요.  팬은 핫스왑이 가능하므로 시스템을 끄지 않고도 교체할 수 있습니다.</block>
   <block id="3fe309657796b19bb6bd152bdc853d95" category="paragraph">적절한 냉각을 유지하고 시스템 성능 문제를 방지하려면 AFF A1K 시스템에서 고장나거나 오류가 있는 팬 모듈을 교체하세요.  팬은 핫스왑이 가능하므로 시스템을 끄지 않고도 교체할 수 있습니다.  이 절차에는 콘솔 오류 메시지와 LED 표시등을 사용하여 결함이 있는 팬을 식별하고, 베젤을 제거하고, 팬 모듈을 교체하고, 결함이 있는 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
-  <block id="954efe13e01eb3431da5e6dcc2f00ab2" category="doc">AFX 스토리지 시스템 설치 및 설정</block>
   <block id="67e3534cd0feec346d52509c43cc0189" category="inline-link">AFX 문서</block>
   <block id="3854c1721469c26bd8dfca0e95e5bdbf" category="paragraph">로 가다<block ref="1451289199683c74183eb3973056699f" category="inline-link-rx"></block> AFX 시스템을 설치, 사용, 관리하는 방법을 알아보세요.</block>
   <block id="1c2ec7314c1e2ed4dd8bad09528d7973" category="paragraph">그만큼<block ref="1451289199683c74183eb3973056699f" category="inline-link-rx"></block> 다음과 같은 정보가 포함됩니다.</block>
@@ -12869,7 +12866,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0d751a1e018d36709b8b432579e17ae7" category="list-text">케이블 선반 NSM A 및 NSM B Path_A 포트 e1a, e2a, e3a 및 e4a를 스위치 A의 모든 포트에 연결합니다.</block>
   <block id="03832137a2df071ed5fe219e534cd9c2" category="list-text">케이블 선반 NSM A 및 NSM B Path_B 포트 e1b, e2b, e3b 및 e4b를 스위치 B의 모든 포트에 연결합니다.</block>
   <block id="c73a63da4aa2a55331dc580e3f7a6058" category="paragraph">다음 그림은 스위치 구성에 추가 선반을 핫 어딩하기 위한 케이블 연결을 강조해서 보여줍니다.  추가 선반을 추가하려면 동일한 스위치 기반 케이블링 방법을 따르세요.</block>
-  <block id="b05d02c2614c4a2d2b2a26a857851df5" category="image-alt">NX224 스위치 케이블링 - AFX A1K</block>
   <block id="6556efde934a1b635008a5645f522b81" category="summary">NX224 선반 유지관리 개요.</block>
   <block id="993a8298922e1e33c5d4cd26d00918db" category="paragraph">NX224 선반을 유지 관리하려면 다음 작업을 수행할 수 있습니다.</block>
   <block id="25a6c9168ed620e1583de103c9a0feda" category="paragraph">드라이브 선반 구성 요소의 LED 위치와 상태 조건을 파악하여 선반의 상태를 모니터링할 수 있습니다.</block>
@@ -12949,9 +12945,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2eb3070ac77dd41679fb2a4b736fd5ab" category="sidebar">AFX 스토리지에 대해 알아보세요</block>
   <block id="f716c6e3202ed7d92fc8348d46cf91c0" category="sidebar">AFX 시스템 특성</block>
   <block id="42bae4a5964639b077e0e13fa4126b4d" category="sidebar">AFX 아키텍처</block>
-  <block id="c2dc06d8d82ede301d5f832213cb54bf" category="sidebar">AFX 설치 및 유지 관리</block>
-  <block id="89ff3ce0de6b4487110c6bfb69e1cec4" category="sidebar">AFX 하드웨어 설치</block>
-  <block id="8e3f86181f0fb65d0b0b68d13bda7974" category="sidebar">AFX 하드웨어 유지 관리</block>
   <block id="c5d12991791afbc0c95716bf77c8090c" category="sidebar">AFX에서 데이터 관리</block>
   <block id="c19ab7b0503dde9b072764d1a9d252bb" category="sidebar">AFX 볼륨 생성</block>
   <block id="fdba72201777e5847a2c45a3cfc37679" category="sidebar">AFX 볼륨 관리</block>
@@ -12960,17 +12953,13 @@ SFP+(타겟/이니시에이터)</block>
   <block id="601296cd84138b168e734f88cec6ceb2" category="sidebar">장기적인 안정성과 최적의 성능을 보장하려면 AFX 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="e80b87ba4d37600c592831624306362b" category="sidebar">AFX 스토리지 시스템 유지 관리</block>
   <block id="ff5a200358d7841c6f0da4a1e0582537" category="sidebar">장기적인 안정성과 최적의 성능을 보장하려면 AFX 스토리지 시스템의 하드웨어를 유지 관리하세요.</block>
-  <block id="8c9e54112088985292bdf1de01ba195c" category="sidebar">메모리 및 저장</block>
-  <block id="4c81882c84fe8dd13b8c5d9dccc2c472" category="sidebar">I/O 및 확장</block>
   <block id="492876b76f7f3555a0aa9a76a56bccb6" category="sidebar">NX224 선반 설치</block>
   <block id="1336e883edd86f211d74be20135a50b1" category="sidebar">NX224 선반 유지 관리</block>
-  <block id="3ce642d33ebe879acc4e339fbbe88746" category="sidebar">AFX 유지</block>
   <block id="a43cc36cba3c97642118a8f1e1411d2a" category="sidebar">NX224 선반</block>
   <block id="44897f292c79e694fcea494af35f40cc" category="sidebar">NX224 선반 유지 관리</block>
   <block id="9356bad064253adcb17a19cef3f04d34" category="sidebar">NX224 드라이브 선반 교체</block>
   <block id="5198087ddb6461cb35b786132461261c" category="sidebar">AFX 1K 부트 미디어</block>
   <block id="5a94cb746c52c38beb8e02711e643cd9" category="sidebar">부팅 미디어 복원</block>
-  <block id="d3bca45bb48d04c6d999281b772fa015" category="sidebar">AFX A1K 섀시</block>
   <block id="9a4e2ca13bc5368ad30e628996c8e94e" category="sidebar">AFX 1K 컨트롤러</block>
   <block id="4c052a07dcf923d8d73e0be9a32b97a7" category="sidebar">AFX 1K IO 모듈</block>
   <block id="35be92b1079dd4d454c4f763e5723f8a" category="list-text">전원 공급 장치는 중복성이 뛰어나고 핫스왑이 가능합니다. PSU를 교체하기 위해 컨트롤러를 끌 필요는 없습니다.</block>
@@ -13014,38 +13003,26 @@ SFP+(타겟/이니시에이터)</block>
   <block id="265e5afbc76b65a563c8e31441a1e485" category="doc">전원 공급 장치 핫스왑 - FAS8300 및 FAS8700</block>
   <block id="653496b123c4243a527d8a9ea55d4f8f" category="doc">전원 공급 장치 핫스왑 - FAS9000</block>
   <block id="048c525dc48e40a1d09bef0038c82ef7" category="doc">전원 공급 장치 핫스왑 - FAS9500</block>
-  <block id="80f1b598bcc25f7ec82fc65712322c5f" category="inline-link-macro">AFX A1K</block>
-  <block id="456595a68c845460a0bce72ae205008b" category="list-text"><block ref="456595a68c845460a0bce72ae205008b" category="inline-link-macro-rx"></block></block>
   <block id="bc43101d4663f6af1088f44fa1f4971c" category="open-title">선반 시스템</block>
   <block id="4118c4e0c27fbed6f04b04d3aa72ac24" category="list-text"><block ref="4118c4e0c27fbed6f04b04d3aa72ac24" category="inline-link-macro-rx"></block></block>
   <block id="ce10d24d102f61248a1ca7225202165a" category="inline-link-macro">NX224</block>
   <block id="125f10a9ef50430953cfa201c04d3fc7" category="list-text"><block ref="125f10a9ef50430953cfa201c04d3fc7" category="inline-link-macro-rx"></block></block>
-  <block id="a15565e937e16d1f4615ffae54386c32" category="list-text"><block ref="a15565e937e16d1f4615ffae54386c32" category="inline-link-macro-rx"></block></block>
-  <block id="3c91bcd5af8e3e8a07bca4d6122e6b3e" category="list-text"><block ref="3c91bcd5af8e3e8a07bca4d6122e6b3e" category="inline-link-macro-rx"></block></block>
-  <block id="2eea8cfe67bfbaf554197cde256262be" category="list-text"><block ref="2eea8cfe67bfbaf554197cde256262be" category="inline-link-macro-rx"></block></block>
   <block id="ed07672fb572f93f885feb990d0a637f" category="list-text"><block ref="ed07672fb572f93f885feb990d0a637f" category="inline-link-macro-rx"></block></block>
   <block id="7a51e753de7bf2934296fac2cdc9d593" category="list-text"><block ref="7a51e753de7bf2934296fac2cdc9d593" category="inline-link-macro-rx"></block></block>
   <block id="1397e21113f4acf414d8754488a466fc" category="list-text"><block ref="1397e21113f4acf414d8754488a466fc" category="inline-link-macro-rx"></block></block>
   <block id="66fcce69e4503a0a9c8c46637435aa8c" category="list-text"><block ref="66fcce69e4503a0a9c8c46637435aa8c" category="inline-link-macro-rx"></block></block>
-  <block id="badea07b223f33f206dbb3f59038b884" category="list-text"><block ref="badea07b223f33f206dbb3f59038b884" category="inline-link-macro-rx"></block></block>
   <block id="54d8c26f8a704f2ae1cd358913de64ac" category="list-text"><block ref="54d8c26f8a704f2ae1cd358913de64ac" category="inline-link-macro-rx"></block></block>
   <block id="4b4484c2e067a790a8b029f0e7157ba8" category="list-text"><block ref="4b4484c2e067a790a8b029f0e7157ba8" category="inline-link-macro-rx"></block></block>
-  <block id="d4ec2b21b63964207f65fe842cdcf1d9" category="list-text"><block ref="d4ec2b21b63964207f65fe842cdcf1d9" category="inline-link-macro-rx"></block></block>
   <block id="f9eb62938eec55221ed8ab27033b19b9" category="list-text"><block ref="f9eb62938eec55221ed8ab27033b19b9" category="inline-link-macro-rx"></block></block>
   <block id="7ca1678229ac5064dbd99a27e4886773" category="list-text"><block ref="7ca1678229ac5064dbd99a27e4886773" category="inline-link-macro-rx"></block></block>
   <block id="bd57b67f8598879d2601631d0c721137" category="summary">NetApp 스토리지 쉘프에 대한 NVMe 쉘프 모듈(NSM) 교체 절차를 쉘프 모델별로 정리하여 찾아보세요. 이 참고 자료는 NS224 및 NX224 선반에 대한 단계별 NSM 교체 워크플로에 대한 직접 링크를 제공하여 특정 선반 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
   <block id="09836515455d31781ff12c48f8614517" category="doc">선반 모델에 따른 NSM 교체 절차</block>
   <block id="1a82a6fe55e3f2f61872867b5fd0dceb" category="list-text"><block ref="1a82a6fe55e3f2f61872867b5fd0dceb" category="inline-link-macro-rx"></block></block>
   <block id="f39104a2d7ac4b866439486ba176811c" category="list-text"><block ref="f39104a2d7ac4b866439486ba176811c" category="inline-link-macro-rx"></block></block>
-  <block id="8f5f4bdbc294c6f2651fcd2e526c8a78" category="list-text"><block ref="8f5f4bdbc294c6f2651fcd2e526c8a78" category="inline-link-macro-rx"></block></block>
-  <block id="211bc6ebaac1ad5d04c5e33045e9bf83" category="list-text"><block ref="211bc6ebaac1ad5d04c5e33045e9bf83" category="inline-link-macro-rx"></block></block>
-  <block id="09fad4d466bf3d1fedb9b890171a4ef4" category="list-text"><block ref="09fad4d466bf3d1fedb9b890171a4ef4" category="inline-link-macro-rx"></block></block>
   <block id="fb22f4b778e12fb8fce97075a2c2e7cc" category="list-text"><block ref="fb22f4b778e12fb8fce97075a2c2e7cc" category="inline-link-macro-rx"></block></block>
   <block id="7e67c0810c8ad6d0694164958ee67278" category="list-text"><block ref="7e67c0810c8ad6d0694164958ee67278" category="inline-link-macro-rx"></block></block>
-  <block id="5b2fbd0784647c22ca81799fe3de9d4b" category="list-text"><block ref="5b2fbd0784647c22ca81799fe3de9d4b" category="inline-link-macro-rx"></block></block>
   <block id="9dfce2bdad58de88bbfaf4eb1ffec4c6" category="list-text"><block ref="9dfce2bdad58de88bbfaf4eb1ffec4c6" category="inline-link-macro-rx"></block></block>
   <block id="9942cbccf0648199db8728c675a51861" category="list-text"><block ref="9942cbccf0648199db8728c675a51861" category="inline-link-macro-rx"></block></block>
-  <block id="53293de4445d9809b5beb36bf8b2bdd2" category="list-text"><block ref="53293de4445d9809b5beb36bf8b2bdd2" category="inline-link-macro-rx"></block></block>
   <block id="b1a10fdec821bde7511fcf1b956e5382" category="paragraph"><block ref="b6b8a8462966204b648f1ae9c887611d" category="inline-link-macro-rx"></block>.</block>
   <block id="8a484401787078890bc1e7fd9beb44fb" category="sidebar">NSM 교체 절차</block>
   <block id="dcb60d37ecd73502c4c85283951d3ef3" category="paragraph">100GbE 케이블을 사용하여 컨트롤러 A 및 B 포트 e1a와 e7a를 클러스터 네트워크 스위치 A 및 B에 연결합니다.</block>
@@ -15031,4 +15008,227 @@ SFP+(타겟/이니시에이터)</block>
   <block id="53b85a29c003144aff88b6c26f882fa8" category="summary">DS460C 드라이브 쉘프의 팬 모듈에 오류가 발생하면 쉘프의 적절한 냉각을 위해 가능한 한 빨리 교체해야 합니다.</block>
   <block id="9b0d92965a7a8ccab1c7ce6ea546857d" category="doc">DS460C 팬 모듈 교체</block>
   <block id="770b055f16b653c149bedee6248d42a9" category="sidebar">IOM12, IOM12B 또는 IOM12C 모듈</block>
+  <block id="7c0a38097cd9b6cf1def5c4486adbafb" category="admonition">다음 그림은 수직형 I/O 모듈을 제거하는 방법을 보여줍니다. 일반적으로 I/O 모듈은 하나만 제거합니다.</block>
+  <block id="005f37b37bf56ac92e0857be3c202b7a" category="section-title">2단계: I/O 카드, NVRAM12, NVRAM12-EX 및 시스템 관리 모듈을 제거합니다.</block>
+  <block id="eea947ddefc6869f6476a8336b6b48ab" category="paragraph"><block ref="eea947ddefc6869f6476a8336b6b48ab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5cda905a256692afc5d5bd2ad1286cf4" category="image-alt">NVRAM12 모듈을 제거합니다</block>
+  <block id="56243c3b9a32c27ab41689ffc7ffec61" category="list-text">NVRAM12-EX 모듈을 제거하십시오.</block>
+  <block id="614ef23fed4f95db557a4942bf413b2a" category="list-text">모듈의 손잡이를 잡고 잠금 캠 버튼을 누르십시오.</block>
+  <block id="bd8ef8cac0ce99c504a443fc5b0a348b" category="list-text">한 손으로 모듈 하단을 받쳐준 상태에서 다른 손으로 NVRAM12-EX 모듈을 섀시에서 빼냅니다.</block>
+  <block id="05832027315df23232d3769c5b6cb3f6" category="image-alt">NVRAM12-EX 모듈을 제거합니다</block>
+  <block id="6eae4ee81d85be539e8c04f1e55590dc" category="cell">NVRAM12-EX 핸들 및 캠 버튼</block>
+  <block id="c93e60e00d4ea21de1d30a9eac96d292" category="list-text">NVRAM12-EX 모듈을 안정적인 표면에 놓으십시오.</block>
+  <block id="f70281b96bbc4d892cc8175c4073c22b" category="list-text">시스템의 슬롯 4/5에 있는 NVRAM 상태 LED와 슬롯 6/7에 있는 NVRAM12-EX 상태 LED를 확인하십시오.  컨트롤러 모듈의 전면 패널에도 NVRAM LED가 있습니다.  NV 아이콘을 찾으십시오.</block>
+  <block id="94b6b55a0a9db1529f1372e896f14792" category="cell">*NVRAM*</block>
+  <block id="1fa16501584c9e30513abf91fc7cc0b9" category="image-alt">NVRAM12-EX 주의 및 상태 LED 위치 그래픽</block>
+  <block id="ba0a0c19ee7e80bc18262de3b080ead7" category="cell">*NVRAM12-EX*</block>
+  <block id="4404dfb734c8d7aa1077974f0212c768" category="paragraph">NVRAM12-EX 상태 LED</block>
+  <block id="67fb456c50422194fba4214d07f3e99d" category="paragraph">NVRAM12-EX 주의 LED</block>
+  <block id="5c40960208a7535beecf44f84d10cea9" category="paragraph"><block ref="fa00b95aa82b5506a4c27cc4a50f05d7" prefix="" category="inline-code"></block></block>
+  <block id="c3165d0219ae1a4207ad0ebcf7cf0c94" category="admonition">다음 그림은 수직형 I/O 모듈을 제거하는 방법을 보여줍니다. 일반적으로 I/O 모듈은 하나만 제거합니다.</block>
+  <block id="a8ca556aef32bcdf3b78af817650cec9" category="inline-link-macro">NVRAM12-EX의 NV 배터리 교체</block>
+  <block id="19357c6818732b5c143113cfbbdb6c00" category="paragraph">이 절차는 AFX 2K 컨트롤러의 슬롯 4 및 5에 있는 NVRAM 모듈의 고장난 NV 배터리 교체에 적용됩니다. AFX 2K 컨트롤러의 슬롯 6 및 7에 있는 NVRAM12-EX 모듈의 NV 배터리 교체 방법에 대한 자세한 내용은 <block ref="c1527c06da2f8081a89a92a76513721c" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="d0e0c3dcb53bac3afb0b39def82634d7" category="admonition">오버라이드 시스템 ID는 NVRAM 모듈 교체 시에만 필요하며 NVRAM DIMM 교체 시에는 필요하지 않습니다.</block>
+  <block id="e34ffdf953bcf2183852f0fba937d427" category="list-text">정상 컨트롤러에서 교체된 컨트롤러의 스토리지를 반환합니다. `_storage failover giveback -ofnode impaired_node_name_`</block>
+  <block id="632b0abbc27c5b279f1c1a81849131b9" category="paragraph">NVRAM12-EX 모듈은 NVRAM12 하드웨어와 현장 교체 가능한 DIMM으로 구성됩니다. 고장난 NVRAM12-EX 모듈, DIMM 또는 NVRAM12-EX 모듈 내부의 NVRAM 배터리를 교체할 수 있습니다.</block>
+  <block id="42ec7054527c81c3d49a47e997997484" category="admonition">NVRAM12-EX 모듈을 교체하기 전에, 교체 작업을 진행하기 전에 손상된 컨트롤러의 전원을 반드시 끄십시오.</block>
+  <block id="0e0eace371a8fcc0e3130745a7bff00a" category="section-title">2단계: NVRAM12-EX 모듈, NVRAM DIMM 또는 NVRAM 배터리 교체</block>
+  <block id="4e73ecbdea2cdd1dfd05e548e92b3da4" category="paragraph">다음 옵션을 사용하여 NVRAM12-EX 모듈, NVRAM DIMM 또는 NVRAM 배터리를 교체하십시오.</block>
+  <block id="20d230b24a10e2d4ea62d894bf06edae" category="open-title">옵션 1: NVRAM12-EX 모듈 교체</block>
+  <block id="cc7dad726b1758fd9848508967d40ce0" category="paragraph">NVRAM12-EX 모듈을 교체하려면 엔클로저의 슬롯 6/7에서 해당 모듈을 찾고 특정 단계 순서를 따르십시오.</block>
+  <block id="5d5429d2b89c16327681ac2d96a8e585" category="list-text">손상된 NVRAM12-EX 모듈을 엔클로저에서 제거합니다.</block>
+  <block id="0155e2bfb22df6e3385523855e7c694e" category="list-text">잠금 캠 버튼을 누릅니다.</block>
+  <block id="6351073ef6849491c5e2242099202cbf" category="list-text">손상된 NVRAM12-EX 모듈을 엔클로저에서 잡아당겨 제거하십시오.</block>
+  <block id="7016f8b9921b63b5910d0b5052f69057" category="list-text">손가락이나 드라이버를 사용하여 덮개에 있는 엄지나사 하나를 풀고 덮개를 들어 올려 NVRAM12-EX 모듈의 덮개를 엽니다.</block>
+  <block id="f60f8a91635df94cb56f931f0b614a81" category="image-alt">NVRAM12-EX 덮개를 제거합니다.</block>
+  <block id="76fb6593ae1c94607421dddd72aae250" category="cell">NVRAM12-EX 커버용 엄지나사</block>
+  <block id="d3cc0012e39a8a3c9c566e21f5975126" category="list-text">손상된 NVRAM12-EX 모듈에서 DIMM을 하나씩 제거한 후 교체용 NVRAM12-EX 모듈에 설치하십시오.</block>
+  <block id="c40d539131e0503bdda74196d486caa8" category="image-alt">NVRAM12-EX DIMM 제거</block>
+  <block id="3ac4543f6fa68e32a251dd05e79e3fcb" category="list-text">NVRAM12-EX 모듈에서 배터리를 분리하십시오.</block>
+  <block id="32f2f774008234de776ed9574f288b59" category="list-text">배터리 플러그 앞면의 클립을 눌러 소켓에서 플러그를 분리합니다.</block>
+  <block id="84c2235c0bf535a0089b333f043995bf" category="list-text">분리된 배터리를 위로 들어 올려 모듈에서 제거하십시오.</block>
+  <block id="42fda177f3e900e1553b0c165c859c9d" category="image-alt">NVRAM12-EX 배터리 제거</block>
+  <block id="9a045a4e889c795cd065c0bfab75d480" category="cell">NVRAM12-EX 배터리 연결 클립</block>
+  <block id="f91e2ad43acf0c22357712b06e57659b" category="list-text">교체용 NVRAM12-EX 모듈에 배터리를 설치합니다.</block>
+  <block id="04b5db8883b9a87196c9dc6772cfd7b0" category="list-text">배터리 연결 클립을 소켓에 꽂고 플러그가 제자리에 제대로 고정되었는지 확인하십시오.</block>
+  <block id="d9c23bb5121c13dfac0e43210d4e3f83" category="list-text">NVRAM12-EX 모듈의 덮개를 나사 구멍에 맞춰 끼운 후 엄지 나사로 고정하여 설치하십시오.</block>
+  <block id="19dbf5e022f7833a9f3a526224c5d077" category="list-text">교체용 NVRAM12-EX 모듈을 엔클로저에 설치합니다.</block>
+  <block id="7fac372261dcac427b5e44213304e389" category="list-text">모듈을 슬롯 6/7의 엔클로저 개구부 가장자리에 맞춰 정렬합니다.</block>
+  <block id="c57cb6ea839049a3ba2445d4e1c45843" category="list-text">모듈을 슬롯에 끝까지 부드럽게 밀어 넣어 제자리에 고정하십시오.</block>
+  <block id="2cac3dc3cab71edb78a2f05d65dd1557" category="paragraph">NVRAM12-EX 모듈의 NVRAM DIMM을 교체하려면 NVRAM12-EX 모듈을 제거한 다음 교체할 DIMM을 장착해야 합니다.</block>
+  <block id="78e3759baf20573b4d15c50c1e5ffb60" category="list-text">대상 NVRAM12-EX 모듈을 엔클로저에서 제거합니다.</block>
+  <block id="e68c8690544db2ecadf8cdf634ca7343" category="list-text">NVRAM12-EX 모듈 내부에서 교체할 DIMM을 찾으십시오.</block>
+  <block id="73afffb93fececb9ea07d1d4315c870c" category="admonition">NVRAM12-EX 모듈 측면에 있는 FRU 맵 라벨을 참조하여 DIMM 슬롯 1과 2의 위치를 확인하십시오.</block>
+  <block id="af27e1d721237e51be8e630f9e9b8893" category="list-text">NVRAM12-EX 모듈을 엔클로저에 설치합니다:</block>
+  <block id="b424c3c2319e21f3b8f736a3ea323d5c" category="list-text">모듈을 슬롯에 완전히 밀어 넣어 고정하십시오.</block>
+  <block id="c29503e6e52d224926a605d91b7e3bb0" category="open-title">옵션 3: NVRAM 배터리 교체</block>
+  <block id="b5a80cf740dfe64de1875e52a75f6e4e" category="paragraph">NVRAM12-EX 모듈의 NVRAM DIMM을 교체하려면 NVRAM12-EX 모듈을 제거한 다음 배터리를 교체해야 합니다.</block>
+  <block id="f68107ca5b2b795ebda55fa05adc5eb6" category="list-text">교체용 배터리 팩을 NVRAM12-EX 모듈에 설치하십시오.</block>
+  <block id="23a1f9b0ad8df787fa40e2d7976923bf" category="section-title">4단계: NVRAM12-EX 교체 완료</block>
+  <block id="493298a3a6f3a3cf70519ac77bb7cc64" category="paragraph">NVRAM12-EX 교체를 완료하려면 다음 단계를 수행하십시오.</block>
+  <block id="1c0ddb7495bc326a40ae1ea3966e1457" category="paragraph">명령 출력에서 스토리지 교체의 현재 상태를 나타내는 메시지를 볼 수 있습니다. 다음 예에서는 <block ref="78882aaeb08e9a4c81687b5de2add74f" prefix=" " category="inline-code"></block>교체가 완료되었으며 현재 상태가 <block ref="f9aed4590452f5aef264e3a300310c74" prefix=" " category="inline-code"></block>으로 표시됩니다.</block>
+  <block id="42b3f0646b307caaf22f86b43e3eb71d" category="list-text">정상 작동하는 컨트롤러에서 교체된 컨트롤러의 스토리지를 반환하십시오.<block ref="2758e32ab200505077d7f67db24fef34" prefix=" " category="inline-code"></block></block>
+  <block id="ce6279cd36ee4c306295f39452eabbf8" category="doc">AFX 1K 스토리지 시스템 설치 및 설정</block>
+  <block id="30954684f5a6a329efedc9f25f4bcc8c" category="doc">AFX 2K 스토리지 시스템 설치 및 설정</block>
+  <block id="e07ddba440295d8e078bed0178002da1" category="summary">afx 2k 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp에 반환하십시오.</block>
+  <block id="9511dc49b384d1158b9f8a8c0337e207" category="doc">고장난 부품을 NetApp으로 반송하십시오 - AFX 2K</block>
+  <block id="0affd127beb8fc0bfeff964dd038d723" category="paragraph">AFX 2K 스토리지 시스템의 구성 요소에 장애가 발생하면 해당 부품을 NetApp에 반환하십시오. 자세한 내용은<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 페이지를 참조하십시오.</block>
+  <block id="47f0338c49f097e8093bce9657ff1646" category="summary">새 부팅 미디어 장치를 AFX 2K 스토리지 시스템에 설치한 후 자동 부팅 미디어 복구 프로세스를 시작하여 파트너 노드에서 구성을 복원할 수 있습니다.</block>
+  <block id="84153d26e804fcdee7fb671df98746e1" category="doc">복구 이미지로 부팅 - AFX 2K</block>
+  <block id="c450538e490e69fd0e9467f41c8631ab" category="paragraph">새 부팅 미디어 장치를 AFX 2K 스토리지 시스템에 설치한 후 자동 부팅 미디어 복구 프로세스를 시작하여 파트너 노드에서 구성을 복원할 수 있습니다.</block>
+  <block id="5f1f79d08ef475823db8257dc1bdd0cc" category="summary">AFX 2K 스토리지 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 컨트롤러에 결함이 있는 클러스터 포트가 없는지 확인하고, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="d2d71b085d843602a2d9c3f66c9c5596" category="doc">AFX 2K 부팅 미디어 교체 요구 사항</block>
+  <block id="d41dade972da3418c65cb14c057bd633" category="paragraph">AFX 2K 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 컨트롤러에 결함이 있는 클러스터 포트가 없는지 확인하고, 온보드 키 관리자(OKM) 또는 외부 키 관리자(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="d5cd69eac9dd0d5de3d4237a240bece5" category="summary">AFX 2K 스토리지 시스템에서 부팅 미디어 교체를 시작하려면 교체 요구 사항을 검토하고, 암호화 상태를 확인하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 복구 이미지로 부팅하고, 암호화를 복원하고, 시스템 기능을 확인하십시오.</block>
+  <block id="baef70475cbbc792f2131ba3fb54aefe" category="doc">부팅 미디어 교체 워크플로 - AFX 2K</block>
+  <block id="bc830856fd35a52a3a89d651cd864fbf" category="paragraph">AFX 2K 스토리지 시스템의 부팅 미디어 교체를 시작하려면 교체 요구 사항을 검토하고, 암호화 상태를 확인하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 복구 이미지로 부팅하고, 암호화를 복원하고, 시스템 기능을 확인하십시오.</block>
+  <block id="4fd2c496ca4d33821f657d8aaf9a63ba" category="summary">AFX 2K 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 시스템 관리 모듈을 제거하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 시스템 관리 모듈에 설치하고, 마지막으로 시스템 관리 모듈을 재설치하는 순서로 진행됩니다.</block>
+  <block id="0c3e985723f6a8a21af6e15c4396618f" category="doc">부팅 미디어 교체 - AFX 2K</block>
+  <block id="8f1d1b9d974152a32c5690207277c95b" category="paragraph">AFX 2K 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 시스템 관리 모듈을 분리하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 시스템 관리 모듈에 설치하고, 마지막으로 시스템 관리 모듈을 재설치하는 순서로 진행됩니다.</block>
+  <block id="08fa7aa863e6b927cfc399f2ef320f21" category="summary">부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 afx 2k 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.</block>
+  <block id="68866c0551915937e68abe79bf5ef440" category="doc">부팅 미디어를 교체하려면 컨트롤러를 종료하십시오 - AFX 2K</block>
+  <block id="4dc397418ec19de981c3fdf94c990373" category="paragraph">스토리지 시스템 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFX 2K 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.</block>
+  <block id="733189122efc7c7d771d2781ab9edc13" category="doc">섀시 교체 완료 - AFX 2K</block>
+  <block id="f2cf1a2d6a564179db911470c7676dbc" category="paragraph">컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 고장난 부품을 NetApp에 반환하여 AFX 2K 섀시 교체 절차의 최종 단계를 완료하십시오.</block>
+  <block id="90f0deb4f558f0628824127f70ab2904" category="summary">하드웨어 장애가 발생한 경우 afx 2k 스토리지 시스템의 섀시를 교체하십시오. 교체 과정은 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치, NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체용 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 방식으로 진행됩니다.</block>
+  <block id="e8a38b5bcb86d3baafecd1cb84315938" category="doc">섀시 교체 - AFX 2K</block>
+  <block id="5c4826b51aa30ed4ef6492f516458b76" category="paragraph">하드웨어 장애가 발생한 경우 AFX 2K 스토리지 시스템의 섀시를 교체하십시오. 교체 과정은 컨트롤러, I/O 카드, NVRAM12 모듈, 시스템 관리 모듈 및 전원 공급 장치(PSU)를 제거하고, 교체용 섀시를 설치한 후 섀시 구성 요소를 다시 설치하는 것으로 구성됩니다.</block>
+  <block id="5f488087f80a00d8a0a9c9ea39dd9a39" category="paragraph">손상된 AFX 2K 섀시를 교체하고 구성 요소를 다시 설치한 후 <block ref="26075a6bb8a8530abf8ac901371df95c" category="inline-link-macro-rx"></block>을(를) 완료하십시오.</block>
+  <block id="0d31d940838cf27af8dcbdc4bb1e5cc5" category="summary">afx 2k 스토리지 시스템에서 손상된 섀시를 교체할 준비를 하려면 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 레이블을 붙여야 합니다.</block>
+  <block id="97ea2ff13381c9e80e4a9e5866798008" category="doc">섀시 교체 준비 - AFX 2K</block>
+  <block id="8ad61988da397d5c7edb61330bbffe52" category="paragraph">AFX 2K 스토리지 시스템에서 손상된 섀시를 교체할 준비를 하려면 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여야 합니다.</block>
+  <block id="aee3662996304503df8dfe1957eb5f3f" category="paragraph">AFX 2K 섀시 하드웨어 교체를 준비한 후 <block ref="56c6ba4ece2a517e11a0ae4af44a8f78" category="inline-link-macro-rx"></block>해야 합니다.</block>
+  <block id="d6df809a31fd91ee4ebfcf365ecba6c2" category="summary">AFX 2K 스토리지 시스템의 섀시를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP에 대한 로컬 관리자 자격 증명, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="241c5559a8db1110c02f46f1b23144d9" category="doc">섀시 교체 요구 사항 - AFX 2K</block>
+  <block id="d140062b5792fa29619e99c355c9a0d1" category="paragraph">AFX 2K 스토리지 시스템의 섀시를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP에 대한 로컬 관리자 자격 증명, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다.</block>
+  <block id="e16e7814eb1ed3a86464700b59e96402" category="summary">데이터 손실을 방지하고 섀시 교체 시 시스템 안정성을 확보하기 위해 afx 2k 스토리지 시스템의 컨트롤러를 종료합니다.</block>
+  <block id="99fc7a4cd41d10bebbe7ed8ded52ede7" category="doc">섀시 교체를 위해 컨트롤러를 종료합니다 - AFX 2K</block>
+  <block id="69ab490f4653208cd65d6913bee4569c" category="paragraph">AFX 2K 스토리지 시스템에서 컨트롤러를 종료하여 섀시 교체 시 데이터 손실을 방지하고 시스템 안정성을 확보합니다.</block>
+  <block id="1f7ca8867973ca942502e20d95044a0e" category="summary">교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작동을 확인하여 afx 2k 스토리지 시스템의 섀시 교체를 시작하십시오.</block>
+  <block id="eb045a163eb7be9f73f4a40d1c0f41b7" category="doc">섀시 교체 워크플로우 - AFX 2K</block>
+  <block id="eacae0f88e59233ad6ded55e422f7945" category="paragraph">AFX 2K 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체한 후 시스템 작동을 확인하십시오.</block>
+  <block id="5b8f290c3f089907bba9c2c693c2fe48" category="summary">하드웨어 장애가 발생한 경우 afx 2k 스토리지 시스템의 컨트롤러를 교체하십시오. 교체 과정은 고장난 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮긴 후, 교체 컨트롤러를 설치하고 재부팅하는 것입니다.</block>
+  <block id="7a37d11ee7f6a2db7866bba675f4a88c" category="doc">컨트롤러 교체 - AFX 2K</block>
+  <block id="2c9ff4eca4d80dfdc8f7696cd65f5221" category="paragraph">하드웨어 장애가 발생한 경우 AFX 2K 스토리지 시스템의 컨트롤러를 교체하십시오. 교체 과정은 고장난 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮긴 후, 교체 컨트롤러를 설치하고 재부팅하는 것입니다.</block>
+  <block id="9d165553852fd4225e1ab7573c22323b" category="paragraph">고장난 AFX 2K 컨트롤러를 교체한 후, <block ref="2b62b6819eda0605f4028f44dd716aa8" category="inline-link-macro-rx"></block>.</block>
+  <block id="232109d76a222d9f105a0d4882a42416" category="summary">AFX 2K 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오.</block>
+  <block id="3cb36adf127544644230cf2e4b5ab84f" category="doc">컨트롤러 반환 - AFX 2K</block>
+  <block id="19c41860e2f260ae2e77595f423e0eb2" category="paragraph">AFX 2K 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음 또는 Onboard Key Manager(OKM) 암호화)에 따라 다릅니다.</block>
+  <block id="72b508e9c8c6ad7aa90aadf13f71d293" category="summary">AFX 2K 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 컨트롤러, 시스템 구성의 백업, 필요한 도구 및 펌웨어에 대한 액세스가 포함됩니다.</block>
+  <block id="5ce6725b6e299bd1adaa099d3aae884f" category="doc">컨트롤러 교체 요구 사항 - AFX 2K</block>
+  <block id="a3ec385c2147224f642fb131801a40fd" category="paragraph">AFX 2K 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체용 컨트롤러를 사용하고 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 것이 포함됩니다.</block>
+  <block id="529ca8721a927b16e30574449622b413" category="paragraph">AFX 2K 컨트롤러 교체에 필요한 사항을 검토한 후, <block ref="8e2bedbe0502a7014e560cda99cd14d0" category="inline-link-macro-rx"></block>.</block>
+  <block id="8d1c7ddaafa8c8a7745df487e02b16a8" category="summary">논리 인터페이스가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 afx 2k 컨트롤러 교체 절차의 최종 단계를 완료하십시오.</block>
+  <block id="1a5638aad581532c355b25c7fab88dd1" category="doc">컨트롤러 전체 교체 - AFX 2K</block>
+  <block id="c74919ac1cf8befa5b3d4e0140e2f53d" category="paragraph">논리 인터페이스(LIF)가 홈 포트에 보고되는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 AFX 2K 컨트롤러 교체 절차의 최종 단계를 완료하십시오.</block>
+  <block id="3d847e98ec2f041217e5a4b4b4c5c6f6" category="summary">AFX 2K 스토리지 시스템에 장애가 발생하면 컨트롤러를 종료하십시오. 유지 보수 또는 구성 요소 교체를 수행하기 전에 데이터 손실을 방지하고 시스템 안정성을 확보하기 위해 컨트롤러를 안전하게 종료하는 것이 매우 중요합니다.</block>
+  <block id="6c6c11c1dcf06a060fe052443c9b2260" category="doc">손상된 컨트롤러를 종료합니다 - AFX 2K</block>
+  <block id="9188bc0bec40b9527dc8f57405753ee0" category="paragraph">AFX 2K 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오.</block>
+  <block id="b08c8863502f72da3fd581302686a342" category="summary">컨트롤러의 HA 구성이 afx 2k 스토리지 시스템에서 활성화되어 올바르게 작동하는지 확인하고, 시스템의 어댑터에 디스크에 대한 모든 경로가 나열되는지 확인하십시오.</block>
+  <block id="bce3dd09e8330d332cb5912ea39ab800" category="doc">시스템 구성 복원 및 확인 - AFX 2K</block>
+  <block id="85d06de7cf5f37631d681fe7e72c5ca4" category="paragraph">컨트롤러의 HA 구성이 AFX 2K 스토리지 시스템에서 활성화되어 올바르게 작동하는지 확인하고, 시스템의 어댑터에 디스크에 대한 모든 경로가 나열되는지 확인하십시오.</block>
+  <block id="3855e1fdaf92f61d59ffd35c040186b8" category="paragraph">AFX 2K 스토리지 시스템 구성을 복원하고 확인한 후, <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>.</block>
+  <block id="9ca87651c273633e10245db8e8fea9f5" category="summary">손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 AFX 2K 스토리지 시스템의 컨트롤러 교체를 시작하십시오.</block>
+  <block id="5023a06f40721fa8e50780b5148e4ea1" category="doc">컨트롤러 교체 워크플로우 - AFX 2K</block>
+  <block id="5b8b05b20932dd01e5f9e97a0b5065ae" category="paragraph">AFX 2K 스토리지 시스템에서 장애가 발생한 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 구성을 복원하고, 시스템 작동을 확인하여 컨트롤러 교체를 시작하십시오.</block>
+  <block id="99c97b601c7421b57272daa86dbf8b23" category="summary">수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 AFX 2K 스토리지 시스템의 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP으로 부팅되지 않을 수 있습니다. 교체 과정은 문제가 있는 컨트롤러를 종료하고, 컨트롤러를 제거하고, DIMM을 교체한 후 컨트롤러를 다시 설치하고, 마지막으로 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다.</block>
+  <block id="3bdcaf1603b8e82edefeb8b285d86bbc" category="doc">DIMM 교체 - AFX 2K</block>
+  <block id="6dd6eda6c74f7ba8b9bd081607f4aecd" category="paragraph">AFX 2K 스토리지 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP으로 부팅되지 않을 수 있습니다. 교체 과정은 문제가 있는 컨트롤러를 종료하고, 컨트롤러를 제거한 후, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다.</block>
+  <block id="838e989c8093a7e90636389afa993183" category="summary">AFX 2K 시스템의 고장난 팬 모듈을 교체하여 적절한 냉각을 유지하고 시스템 성능 저하 문제를 예방하십시오. 팬은 핫 스왑 방식으로 시스템을 종료하지 않고도 교체할 수 있습니다.</block>
+  <block id="93af2d5c5da4ba62fcf3e889139979f8" category="doc">팬 교체 - AFX 2K</block>
+  <block id="cb1f064b836e4b8c180543dacce71319" category="paragraph">AFX 2K 시스템의 고장난 팬 모듈을 교체하여 적절한 냉각을 유지하고 시스템 성능 문제를 예방하십시오. 팬은 핫 스왑 방식으로 시스템을 종료하지 않고도 교체할 수 있습니다. 이 절차에는 콘솔 오류 메시지와 LED 표시등을 사용하여 고장난 팬을 식별하고, 베젤을 제거하고, 팬 모듈을 교체하고, 고장난 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="887217312340d4bd19fcdac132019576" category="summary">I/O 모듈을 afx 2k 스토리지 시스템에 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
+  <block id="9148cd0d2edc5ced8eb0a4dc9175dd6b" category="doc">I/O 모듈 추가 - AFX 2K</block>
+  <block id="ce6d38b71c3fb3c7fb2ed59d66f0506e" category="paragraph">AFX 2K 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
+  <block id="4fdb5fecd36bff72c28077c8ef1fdd69" category="paragraph">빈 슬롯이 있거나 모든 슬롯이 꽉 찼을 때 AFX 2K 스토리지 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
+  <block id="22b48166a83fe9cb39be3e37e219b528" category="summary">모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우, afx 2k 스토리지 시스템의 Ethernet I/O 모듈을 핫 스왑할 수 있습니다.</block>
+  <block id="3c08a7ab62bcec00e7adabd9ebfa32fb" category="doc">I/O 모듈 핫 스왑 - AFX 2K</block>
+  <block id="69f81f2052320136f3837bb5dc90b742" category="paragraph">모듈에 장애가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFX 2K 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.</block>
+  <block id="1467175f80b5b6aeb9baf8911c169c66" category="paragraph">stdin에서 해결되지 않은 지시문 - include::../_include/afx_2k_io_module_hotswap_replace.adoc[]</block>
+  <block id="a28f0e1852a67eef8c7002ec42407437" category="summary">afx 2k 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. I/O 모듈을 추가하거나 교체하는 것은 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 처리할 때 필수적입니다.</block>
+  <block id="090e0f185fc019584bd34692f1181c1b" category="doc">AFX 2K I/O 모듈 추가 및 교체 개요</block>
+  <block id="2a86a987b9aaad96420c91330dbf1d59" category="paragraph">AFX 2K 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. I/O 모듈을 추가하거나 교체하는 것은 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 처리할 때 필수적입니다.</block>
+  <block id="e79912bea1cf19564789abe796691f33" category="paragraph">AFX 2K 스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈 또는 다른 유형의 I/O 모듈로 교체할 수 있습니다. 또한 빈 슬롯이 있는 시스템에 I/O 모듈을 추가할 수도 있습니다.</block>
+  <block id="93c17c81de596806e55e0bcb545b0124" category="paragraph">AFX 2K 컨트롤러의 I/O 슬롯은 다음 그림과 같이 1번부터 11번까지 번호가 매겨져 있습니다.</block>
+  <block id="0c0b8e9d6d48f25f140564908a0fbefe" category="image-alt">AFX 2K 컨트롤러의 슬롯 번호 매기기</block>
+  <block id="1910382d2df1981bfd58fce3bc46f693" category="cell">슬롯 번호</block>
+  <block id="e6010d0015a0057354e2f435c8258d8c" category="cell">입출력 슬롯</block>
+  <block id="594c16ca0695f6665d7cf4971707adf6" category="cell">HA</block>
+  <block id="36a9bb76a73be848a5443273efc36dce" category="cell">NVRAM12</block>
+  <block id="6ba8ef21cd3a6e29bac6f5100625f023" category="image-alt">설명선 번호 9</block>
+  <block id="249694a485fc5d3289c38986b4f8e887" category="cell">클러스터</block>
+  <block id="252d3b7f2054eb6f5b22182e91ecc613" category="image-alt">설명선 번호 6</block>
+  <block id="07df018939a3e88fde27c12e57c601e0" category="image-alt">설명선 번호 7</block>
+  <block id="3b8240959b126ef66dac73a8609d4e88" category="cell">NVRAM12-EX</block>
+  <block id="995ee42e14fa7ada296e437cafe297d0" category="image-alt">설명선 번호 10</block>
+  <block id="8c7663c7feb0ad581220a65f1966b9b1" category="image-alt">설명선 번호 8</block>
+  <block id="3f93d6296d6d3a4e6ccba7c6defe16e0" category="image-alt">설명선 번호 11</block>
+  <block id="2bbc0144b4be4eb8e87f365fd41bfd2b" category="cell">(*선택 사항*) 추가 관리 연결을 위한 4포트 25GbE SFP28</block>
+  <block id="b4a4627623c6898e3423c3771cab5324" category="summary">AFX 2K 스토리지 시스템의 I/O 모듈에 오류가 발생하거나 성능 향상 또는 추가 기능 지원을 위해 업그레이드가 필요한 경우 해당 모듈을 교체하십시오. 교체 프로세스는 컨트롤러를 종료하고, 고장난 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 고장난 부품을 NetApp에 반환하는 과정으로 이루어집니다.</block>
+  <block id="a44655e5d7603039f1a2569d54108b18" category="doc">I/O 모듈 교체 - AFX 2K</block>
+  <block id="c2bf9157db36930d03521f2fb5063469" category="paragraph">AFX 2K 스토리지 시스템에서 I/O 모듈에 오류가 발생하면 해당 모듈을 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 오류가 발생한 부품을 NetApp에 반환하는 것으로 구성됩니다.</block>
+  <block id="e80e98fbdd1a8ff85f0ba233e912b977" category="summary">afx 2k 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 보수 작업을 수행하면 시스템 다운타임과 데이터 손실을 방지할 수 있습니다.</block>
+  <block id="35c425db32753c4c8a6d5f81d2e0b199" category="doc">AFX 2K 유지보수 절차 개요</block>
+  <block id="8d1a6bb89dd08a5abd5d033d7c40f5c5" category="paragraph">AFX 2K 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 보수 작업을 수행하면 시스템 다운타임과 데이터 손실을 방지할 수 있습니다.</block>
+  <block id="00f00bf38d2535a80ca3e4d1b8808884" category="paragraph">유지 관리 절차는 AFX 2K 스토리지 시스템이 ONTAP 환경에 스토리지 노드로 이미 배포되었다고 가정합니다.</block>
+  <block id="e8b581fab68956048ad06e30bf595e8f" category="paragraph">AFX 2K 스토리지 시스템의 경우 다음 구성 요소에 대한 유지 관리 절차를 수행할 수 있습니다.</block>
+  <block id="19d55967c2bced020d205588fd8a244c" category="inline-link-macro">NVRAM12-EX 모듈</block>
+  <block id="b764fe9de756f253401af614379e0f69" category="paragraph"><block ref="b764fe9de756f253401af614379e0f69" category="inline-link-macro-rx"></block></block>
+  <block id="56ef17b17c8d7c119d3dc5a67d31d1c8" category="paragraph">NVRAM12-EX는 AFX 2K 컨트롤러용 두 번째 NVRAM(비휘발성 랜덤 액세스 메모리) 모듈입니다. NVRAM12-EX 모듈을 사용하면 시스템 전원이 차단될 경우 전송 중인 데이터를 보호하고 저장할 수 있습니다.</block>
+  <block id="a7489340331ce7a0b75196c9756e98c1" category="summary">AFX 2K 스토리지 시스템의 NVRAM12-EX는 비휘발성 메모리에 결함이 발생했거나 업그레이드가 필요한 경우 교체하십시오.</block>
+  <block id="78f7a086ea9ce6525c8511fcf07b4c4c" category="doc">NVRAM12-EX 교체 - AFX 2K</block>
+  <block id="cdeaf4befd645a1418466df1a21922d1" category="paragraph">AFX 2K 스토리지 시스템의 비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 NVRAM12-EX를 교체하십시오. 교체 과정은 고장난 컨트롤러를 종료하고, NVRAM12-EX 모듈, NVRAM DIMM 또는 NVRAM 배터리를 교체한 후 고장난 부품을 NetApp에 반환하는 것을 포함합니다.</block>
+  <block id="fd00f44b87ed9926040c0f7357406795" category="summary">afx 2k 스토리지 시스템의 NV 배터리는 정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로, 배터리 충전량이 감소하거나 고장이 발생하면 교체해야 합니다. 교체 과정은 고장난 컨트롤러를 종료하고, 컨트롤러 모듈을 분리한 후, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 순서로 진행됩니다.</block>
+  <block id="11e2fa2b1a655738e29861e2ca4853d7" category="doc">NV 배터리 교체 - AFX 2K</block>
+  <block id="85e4f998436505a0021e344ba43480ef" category="paragraph">AFX 2K 스토리지 시스템의 NV 배터리는 정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로, 배터리 충전량이 감소하거나 고장이 발생하면 교체해야 합니다. 교체 과정은 고장난 컨트롤러를 종료하고, 컨트롤러 모듈을 분리한 후, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 순서로 진행됩니다.</block>
+  <block id="a8eab56fbea9ed8a962d4d7c33caa257" category="summary">AFX 2K 스토리지 시스템의 비휘발성 메모리에 결함이 발생했거나 업그레이드가 필요한 경우 NVRAM을 교체하십시오.</block>
+  <block id="d9eb0be8817cba6416aa39d8b13e726f" category="doc">NVRAM 교체 - AFX 2K</block>
+  <block id="7a20acbb25fe20c5f0072b737cd45e25" category="paragraph">AFX 2K 스토리지 시스템의 비휘발성 메모리에 결함이 발생하거나 업그레이드가 필요한 경우 NVRAM을 교체하십시오. 교체 과정은 손상된 컨트롤러를 종료하고, NVRAM 모듈 또는 NVRAM DIMM을 교체한 후, 결함이 발생한 부품을 NetApp에 반환하는 단계로 구성됩니다.</block>
+  <block id="5ce39682ade36bffe68d0cc4d123011f" category="summary">AC 전원 공급 장치가 고장 나거나 오작동하는 경우 AFX 2K 스토리지 시스템의 AC 전원 공급 장치를 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받을 수 있도록 하십시오. 교체 과정은 다음과 같습니다. 먼저 대상 PSU의 전원을 차단하고 전원 케이블을 뽑은 후, 고장 난 PSU를 제거하고 새 PSU를 설치한 다음 전원에 다시 연결합니다.</block>
+  <block id="5ff8a93dd5f3d4779eb6968d4ed33fd1" category="doc">전원 공급 장치 교체 - AFX 2K</block>
+  <block id="4afdc9b422bf39e0fd94dee5a0688c44" category="paragraph">AFX 2K 스토리지 시스템의 AC 전원 공급 장치(PSU)가 고장 나거나 오작동하는 경우, 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받을 수 있도록 교체하십시오. 교체 과정은 대상 PSU의 전원을 차단하고 전원 케이블을 뽑은 후, 고장 난 PSU를 제거하고 교체용 PSU를 설치한 다음 전원에 다시 연결하는 순서로 진행됩니다.</block>
+  <block id="a33028de097a1247ad2cadb61dea9867" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 afx 2k 스토리지 시스템의 실시간 클록 배터리를 교체하십시오.</block>
+  <block id="3f6e83d0edc72cc804f8be0755fa3c99" category="doc">실시간 클록 배터리 교체 - AFX 2K</block>
+  <block id="0d8003363fc792dd81c652e8bc618b43" category="paragraph">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFX 2K 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하십시오.</block>
+  <block id="8a3215ed113f872bcf7d0d459fb9afad" category="summary">AFX 2K 스토리지 시스템의 시스템 관리 모듈에 결함이 발생하거나 펌웨어가 손상된 경우 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 고장난 시스템 관리 모듈을 교체하고, 컨트롤러를 재부팅하고, 라이선스 키를 업데이트한 후, 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다.</block>
+  <block id="5ed066357f2fda24aaedd57515d1c183" category="doc">시스템 관리 모듈 교체 - AFX 2K</block>
+  <block id="87ed545ce36193cc1fbea29e4208a193" category="paragraph">AFX 2K 스토리지 시스템의 시스템 관리 모듈에 결함이 발생하거나 펌웨어가 손상된 경우 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 고장난 시스템 관리 모듈을 교체하고, 컨트롤러를 재부팅하고, 라이선스 키를 업데이트한 후, 고장난 부품을 NetApp에 반환하는 단계로 구성됩니다.</block>
+  <block id="cc124a47556540a9a228bf590b7e3b65" category="list-text"><block ref="cc124a47556540a9a228bf590b7e3b65" category="inline-link-macro-rx"></block></block>
+  <block id="23b43ede4557b73e6fa354124a73ba91" category="inline-link-macro">AFX 2K</block>
+  <block id="dbcc312bcf48bb612e820bd1b861c76b" category="list-text"><block ref="dbcc312bcf48bb612e820bd1b861c76b" category="inline-link-macro-rx"></block></block>
+  <block id="b305ca160420c491e6a321b063f1f526" category="list-text"><block ref="b305ca160420c491e6a321b063f1f526" category="inline-link-macro-rx"></block></block>
+  <block id="1c4baa9712f1624f2ffb11507ffcc90d" category="list-text"><block ref="1c4baa9712f1624f2ffb11507ffcc90d" category="inline-link-macro-rx"></block></block>
+  <block id="89d53452505bb77504dd6fe1f1f11472" category="list-text"><block ref="89d53452505bb77504dd6fe1f1f11472" category="inline-link-macro-rx"></block></block>
+  <block id="a6eb711ac1edc0c740ac5b39bccfa56f" category="list-text"><block ref="a6eb711ac1edc0c740ac5b39bccfa56f" category="inline-link-macro-rx"></block></block>
+  <block id="3fcdb1404138eeb1241c5074f743b569" category="list-text"><block ref="3fcdb1404138eeb1241c5074f743b569" category="inline-link-macro-rx"></block></block>
+  <block id="188ee2090b0cf8ebf483a8430f3f9294" category="list-text"><block ref="188ee2090b0cf8ebf483a8430f3f9294" category="inline-link-macro-rx"></block></block>
+  <block id="c1149d1b9cf1aa578313c54f4199ebd5" category="list-text"><block ref="c1149d1b9cf1aa578313c54f4199ebd5" category="inline-link-macro-rx"></block></block>
+  <block id="4afdd656b0da9c824f9f0b1e8b1d2833" category="list-text"><block ref="4afdd656b0da9c824f9f0b1e8b1d2833" category="inline-link-macro-rx"></block></block>
+  <block id="7a4729ce5a9ab5a9b735bf973721a637" category="list-text"><block ref="7a4729ce5a9ab5a9b735bf973721a637" category="inline-link-macro-rx"></block></block>
+  <block id="50f8399feede8a0e5e3e7518573d4934" category="list-text"><block ref="50f8399feede8a0e5e3e7518573d4934" category="inline-link-macro-rx"></block></block>
+  <block id="97218f014fcc079728135c579d4c16fc" category="list-text"><block ref="97218f014fcc079728135c579d4c16fc" category="inline-link-macro-rx"></block></block>
+  <block id="49588709ef279503d46e3fbf769f07d7" category="list-text"><block ref="49588709ef279503d46e3fbf769f07d7" category="inline-link-macro-rx"></block></block>
+  <block id="a2c936d1a014fd55a1910febb0a664ba" category="list-text"><block ref="a2c936d1a014fd55a1910febb0a664ba" category="inline-link-macro-rx"></block></block>
+  <block id="a20fbecf0fecf8199d60e0695a6f05a5" category="inline-link-macro">AFX 2K (NVRAM 모듈)</block>
+  <block id="d157ea7251c66f2e890b7a4531922503" category="list-text"><block ref="d157ea7251c66f2e890b7a4531922503" category="inline-link-macro-rx"></block></block>
+  <block id="9a3b2a88f136b0356dcdcdef27c26265" category="inline-link-macro">AFX 2K (NVRAM12-EX 모듈)</block>
+  <block id="429183d8ac6c25a2fb882b3b334734ad" category="list-text"><block ref="429183d8ac6c25a2fb882b3b334734ad" category="inline-link-macro-rx"></block></block>
+  <block id="b3cb2a10b0831d3295bf6e3135395f22" category="list-text"><block ref="b3cb2a10b0831d3295bf6e3135395f22" category="inline-link-macro-rx"></block></block>
+  <block id="a66e0746dd400680d10a1c0492550e95" category="list-text"><block ref="a66e0746dd400680d10a1c0492550e95" category="inline-link-macro-rx"></block></block>
+  <block id="3baa01ecc1ade86e469162b22bc53651" category="list-text"><block ref="3baa01ecc1ade86e469162b22bc53651" category="inline-link-macro-rx"></block></block>
+  <block id="de18288725848c30dca11daa590f854e" category="list-text"><block ref="de18288725848c30dca11daa590f854e" category="inline-link-macro-rx"></block></block>
+  <block id="c07b54afd1b8f146db9a728b6702a1b5" category="list-text"><block ref="c07b54afd1b8f146db9a728b6702a1b5" category="inline-link-macro-rx"></block></block>
+  <block id="868d7288522b8e1eee22545b0daa00c3" category="list-text"><block ref="868d7288522b8e1eee22545b0daa00c3" category="inline-link-macro-rx"></block></block>
+  <block id="1551ad4ae2e6078eb2eca8d5c6ff4bcb" category="image-alt">NX224 스위치 케이블을 AFX 1K에 연결</block>
+  <block id="40de4ee4d271e2b473a234ce1418e8c1" category="sidebar">AFX 시스템 설치 및 설정</block>
+  <block id="e6b43d44e837c88835a24eed44fe337e" category="sidebar">AFX 1K 하드웨어 설치</block>
+  <block id="22b501d3873dc125bd1324e3e003ec6c" category="sidebar">AFX 2K 하드웨어 설치</block>
+  <block id="99a41adbe6b380b12a49c2d7894517a9" category="sidebar">AFX 시스템 유지 관리</block>
+  <block id="5129c3153a4394fb86c12a43692107aa" category="sidebar">AFX 1K 시스템</block>
+  <block id="6a43958b7770ac343264ac2f57152bf7" category="sidebar">AFX 1K 섀시</block>
+  <block id="7722872ef8ea6640ddd1f94753987349" category="sidebar">AFX 2K 시스템</block>
+  <block id="554af379134221e17ed749696cffb63e" category="sidebar">AFX 2K 부트 미디어</block>
+  <block id="6237e9bd3def009e1ada11487d357dc3" category="sidebar">AFX 2K 섀시</block>
+  <block id="f093b22bad0b8da1a16f35c6f8c25ca0" category="sidebar">AFX 2K Controller</block>
+  <block id="62e406b8d6fcd44e844c63e4623510c3" category="sidebar">AFX 2K IO 모듈</block>
 </blocks>

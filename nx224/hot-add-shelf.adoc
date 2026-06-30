@@ -211,7 +211,7 @@ Path_B 포트(빨간색 포트)
 다음 그림은 스위치 구성에 추가 선반을 핫 어딩하기 위한 케이블 연결을 강조해서 보여줍니다.  추가 선반을 추가하려면 동일한 스위치 기반 케이블링 방법을 따르세요.
 
 +
-image::../media/drw_nx224_afx_a1k_ieops-2344.svg[NX224 스위치 케이블링 - AFX A1K]
+image::../media/drw_nx224_afx_a1k_ieops-2344.svg[NX224 스위치 케이블을 AFX 1K에 연결]
 
 . 를 사용하여 핫 애드 쉘프가 올바르게 연결되었는지 확인합니다 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"^].
 +
