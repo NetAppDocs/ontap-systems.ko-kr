@@ -15231,4 +15231,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6237e9bd3def009e1ada11487d357dc3" category="sidebar">AFX 2K 섀시</block>
   <block id="f093b22bad0b8da1a16f35c6f8c25ca0" category="sidebar">AFX 2K Controller</block>
   <block id="62e406b8d6fcd44e844c63e4623510c3" category="sidebar">AFX 2K IO 모듈</block>
+  <block id="a257f7f4b2f6e07845ce567df142ad00" category="section-title">2026년 7월</block>
+  <block id="b4afdfda38bb4110d19a16da4ee51739" category="paragraph-title">AFX 2K 스토리지 시스템</block>
+  <block id="9a409a4d75890ddb49381881e67f5f7a" category="paragraph">새로운 NetApp AFX 2K 스토리지 시스템은 AI/ML 애플리케이션을 포함한 고성능 NAS 및 S3 워크로드의 까다로운 요구 사항을 충족하도록 설계된 분산형 솔루션을 확장합니다. AFX 2K 시스템은 확장 가능하고 처리량이 높은 파일 및 객체 스토리지가 필요한 고객에게 특화된 기능을 제공합니다.</block>
+  <block id="374ef3ed61ad653976c8db59a5521927" category="paragraph-title">새로운 Cisco 9808 스위치의 AFX 2K 지원</block>
+  <block id="171d55c5398223f97af70b589556e85a" category="paragraph">새로운 Cisco 9808 스위치는 스토리지 쉘프가 장착된 AFX 2K 컨트롤러 노드에 연결됩니다. 이 새로운 스위치는 Cisco 9364D-GX2A 및 Cisco 9332D-GX2B 스위치와 함께 2개 이상의 노드로 구성된 ONTAP 클러스터를 구축할 수 있도록 지원합니다. 고급 프로토콜을 사용하여 성능을 최적화합니다. 이 설계는 VLAN 태깅과 다중 네트워크 경로 및 기술 업그레이드 구성을 기반으로 하여 지속적인 운영과 손쉬운 업그레이드를 보장합니다.</block>
 </blocks>
