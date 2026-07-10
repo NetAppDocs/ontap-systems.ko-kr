@@ -30,6 +30,7 @@ NOTE: 이 가이드에 설명된 컨트롤러 슬롯 번호 지정 규칙, 셸�
 
 
 
+[[configuration-rules]]
 == 구성 규칙
 
 IOM12, IOM12B 또는 IOM12C 모듈이 포함된 디스크 쉘프는 특정 유형의 HA 쌍 및 단일 컨트롤러 구성에서 지원됩니다.
@@ -71,6 +72,7 @@ FAS2820 HA 쌍의 경우, 외부 쉘프에 대한 케이블 연결은 단일 경
 
 
 
+[[controller-slot-numbering-rules]]
 == 컨트롤러 슬롯 번호 지정 규칙
 
 지원되는 모든 HA 쌍 및 단일 컨트롤러 구성에 케이블 연결 규칙을 적용하기 위해 컨트롤러 슬롯 번호 지정 규칙을 사용합니다.
@@ -95,12 +97,14 @@ image::../media/slot0_rules.png[슬롯 및 슬롯[포트 결합]
 
 
 
+[[shelf-to-shelf-connection-rules]]
 == Shelf-Shelf 연결 규칙
 
 디스크 쉘프 스택에 디스크 쉘프가 3개 이상 있는 경우, 해당 ''Standard' 또는 ''double-wide'' 쉘프 케이블을 사용하여 각 SAS 도메인(IOM A 및 IOM B)을 통해 상호 연결됩니다. "표준" 또는 "이중 폭" 선반선반케이블을 사용하는 것은 사용하는 구성에 따라 다릅니다.
 
 
 
+[[standard-shelf-to-shelf-connectivity]]
 === 표준 쉘프-쉘프 연결
 
 * 표준 쉘프-쉘프 연결은 디스크 쉘프가 3개 이상인 모든 디스크 쉘프 스택에서 사용됩니다.
@@ -117,6 +121,7 @@ image::../media/drw_shelf_to_shelf_standard.gif[표준 쉘프와 쉘프 간 연�
 
 
 
+[[double-wide-shelf-to-shelf-connectivity]]
 === 2배 폭 쉘프-쉘프 연결
 
 * 2중 경로(4중 경로 HA 및 4중 경로) 구성에서는 쉘프-쉘프 연결을 사용합니다.
@@ -133,12 +138,14 @@ image::../media/drw_shelf_to_shelf_double_wide.gif[이중 와이드 셸프-셸�
 
 
 
+[[controller-to-stack-connection-rules]]
 == 컨트롤러-스택 연결 규칙
 
 SAS 디스크 쉘프가 소프트웨어 기반 디스크 소유권을 사용하고 컨트롤러 포트 A/C 및 B/D를 스택에 연결하는 방법, 컨트롤러 포트 A/C 및 B/D를 사용하는 것을 이해함으로써 각 컨트롤러에서 HA 쌍 또는 단일 컨트롤러 구성으로 각 스택에 대한 SAS 연결을 올바르게 연결할 수 있습니다. 컨트롤러 포트 A/C 및 B/D가 포트 쌍으로 구성되는 방식 및 내부 스토리지가 있는 플랫폼에서 컨트롤러 포트가 스택에 연결되는 방식
 
 
 
+[[sas-disk-shelf-software-based-disk-ownership-rule]]
 === SAS 디스크 쉘프 소프트웨어 기반 디스크 소유 규칙
 
 SAS 디스크 쉘프는 하드웨어 기반 디스크 소유권이 아니라 소프트웨어 기반 디스크 소유권을 사용합니다. 즉, 디스크 드라이브 소유권은 스토리지 시스템의 물리적 접속의 토폴로지에 의해 결정되지 않고 디스크 드라이브에 저장됩니다(하드웨어 기반 디스크 소유인 경우). 특히, 디스크 드라이브 소유권은 컨트롤러-스택 간 연결에 케이블을 연결하는 방법이 아닌 ONTAP(자동 또는 CLI 명령)에 의해 할당됩니다.
@@ -147,6 +154,7 @@ SAS 디스크 쉘프는 하드웨어 기반 디스크 소유권 스키마를 사
 
 
 
+[[controller-a-and-c-port-connection-rules-for-platforms-without-internal-storage]]
 === 컨트롤러 A 및 C 포트 연결 규칙(내부 스토리지가 없는 플랫폼용)
 
 * A 및 C 포트는 항상 스택의 기본 경로입니다.
@@ -165,6 +173,7 @@ image::../media/drw_controller_to_stack_rules_ports_a_and_c_example.gif[내부 �
 
 
 
+[[controller-b-and-d-port-connection-rules-for-platforms-without-internal-storage]]
 === 컨트롤러 B 및 D 포트 연결 규칙(내부 스토리지가 없는 플랫폼의 경우)
 
 * B 및 D 포트는 항상 스택에 대한 보조 경로입니다.
@@ -184,6 +193,7 @@ image::../media/drw_controller_to_stack_rules_ports_b_and_d_example.gif[내부 �
 
 
 
+[[port-pair-connection-rules-for-platforms-without-internal-storage]]
 === 포트 쌍 연결 규칙(내부 스토리지가 없는 플랫폼용)
 
 컨트롤러 SAS 포트 A, B, C 및 D는 모든 SAS 포트를 활용하는 방법을 통해 포트 쌍으로 구성되며, HA Pair 및 단일 컨트롤러 구성의 컨트롤러-스택 연결을 케이블로 연결할 때 시스템 복원력과 일관성을 제공합니다.
@@ -255,6 +265,7 @@ link:install-cabling-worksheet-template-quadpath.html["4중 경로 연결을 위
 
 
 
+[[controller-0b0b1-and-0a-port-connection-rules-for-platforms-with-internal-storage]]
 === 내부 스토리지가 있는 플랫폼에 대한 컨트롤러 0b/0b1 및 0a 포트 연결 규칙
 
 내부 스토리지가 있는 플랫폼은 내부 스토리지(포트 0b/0b1)와 스택 간에 동일한 도메인 연결을 유지해야 하므로 고유한 연결 규칙 세트가 있습니다. 즉, 컨트롤러가 섀시(컨트롤러 1)의 슬롯 A에 있으면 컨트롤러는 도메인 A(IOM A)에 있으므로 포트 0b/0b1은 스택의 IOM A에 연결해야 합니다. 컨트롤러가 섀시(컨트롤러 2)의 슬롯 B에 있는 경우 컨트롤러는 도메인 B(IOM B)에 있으므로 포트 0b/0b1은 스택의 IOM B에 연결해야 합니다.
@@ -291,6 +302,7 @@ image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[내부 스토리�
 
 
 
+[[tri-path-ha-connectivity]]
 === 3중 경로 HA 연결
 
 FAS2820 HA 쌍에서 3중 경로 HA 연결을 사용할 수 있습니다. 3중 경로 HA 연결에는 각 컨트롤러에서 내부(IOM12G) 및 외부 쉘프까지 3개의 경로가 있습니다.
@@ -319,6 +331,7 @@ FAS2820 HA 쌍 케이블 연결 예는 섹션에서 확인할 수 link:install-c
 
 
 
+[[mini-sas-hd-sas-optical-cable-rules]]
 == 미니 SAS HD SAS 광 케이블 규칙
 
 미니 SAS HD-LC HD-LC 커넥터가 있는 미니 SAS HD-to-mini-SAS HD 커넥터와 다중 모드(OM4) 브레이크아웃 케이블이 있는 멀티모드 액티브 광 케이블(AOC) 케이블)을 사용하여 IOM12 모듈이 있는 디스크 선반이 있는 특정 구성에서 장거리 SAS 연결을 달성할 수 있습니다.

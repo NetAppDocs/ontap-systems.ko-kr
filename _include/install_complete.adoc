@@ -4,6 +4,7 @@
 
 
 
+[[step-1-gather-cluster-information]]
 == 1단계: 클러스터 정보 수집
 
 아직 수집하지 않은 경우 클러스터 관리 인터페이스 포트 및 IP 주소 등 클러스터를 구성하는 데 필요한 정보를 수집합니다.
@@ -12,6 +13,7 @@
 
 
 
+[[step-2-discover-your-cluster-network]]
 == 2단계: 클러스터 네트워크를 검색합니다
 
 검색 프로세스를 통해 네트워크에서 스토리지 시스템 컨트롤러를 검색할 수 있습니다.
@@ -86,6 +88,7 @@ NOTE: PuTTY 구성 방법을 모르는 경우 노트북 또는 콘솔의 온라�
 ====
 
 
+[[step-3-configure-your-cluster]]
 == 3단계: 클러스터 구성
 
 NetApp은 System Manager를 사용하여 새 클러스터를 설정할 것을 권장합니다. 설치 지침은 을 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["System Manager를 사용하여 새 클러스터에서 ONTAP를 구성합니다"^] 참조하십시오.

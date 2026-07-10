@@ -28,6 +28,7 @@ AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에 I/O 모듈을 추가�
 
 
 
+[[step-1-shut-down-the-impaired-controller-module]]
 == 단계 1: 손상된 컨트롤러 모듈을 종료합니다
 
 [role="tabbed-block"]
@@ -172,6 +173,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 ====
 
 
+[[step-2-add-the-new-io-module]]
 == 2단계: 새 입출력 모듈을 추가합니다
 
 스토리지 시스템에 사용 가능한 슬롯이 있는 경우 사용 가능한 슬롯 중 하나에 새 입출력 모듈을 설치합니다. 모든 슬롯이 사용 중인 경우 기존 입출력 모듈을 제거하여 공간을 확보한 다음 새 입출력 모듈을 설치합니다.

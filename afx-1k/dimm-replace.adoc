@@ -23,6 +23,7 @@ CAUTION: 설치 및 유지보수 절차를 수행하는 동안에는 항상 검�
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -93,6 +94,7 @@ _-halt true_ 매개변수는 손상된 노드를 LOADER 프롬프트로 가져�
 
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부의 구성 요소를 교체할 때 엔클로저에서 컨트롤러 모듈을 분리해야 합니다.
@@ -150,6 +152,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-3-replace-a-dimm]]
 == 3단계: DIMM을 교체합니다
 
 시스템에서 해당 DIMM에 대한 영구적인 오류 상태를 보고하는 경우 DIMM을 교체해야 합니다.
@@ -204,6 +207,7 @@ IMPORTANT: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는
 
 
 
+[[step-4-install-the-controller]]
 == 4단계: 컨트롤러를 설치합니다
 
 컨트롤러 모듈을 다시 설치하고 부팅합니다.
@@ -270,6 +274,7 @@ NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습
 
 
 
+[[step-5-return-the-failed-part-to-netapp]]
 == 5단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

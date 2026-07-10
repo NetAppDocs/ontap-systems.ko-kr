@@ -19,6 +19,7 @@ PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.
@@ -191,6 +192,7 @@ mcc1A::> metrocluster operation show
 ====
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -236,6 +238,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-3-replace-a-pcie-card]]
 == 3단계: PCIe 카드를 교체합니다
 
 PCIe 카드를 교체하려면 오류가 발생한 PCIe 카드를 찾아 컨트롤러 모듈에서 카드가 들어 있는 라이저를 꺼낸 다음 컨트롤러 모듈에 PCIe 라이저를 다시 설치해야 합니다.
@@ -311,6 +314,7 @@ NOTE: 하단 슬롯에 카드를 설치할 때 카드 소켓이 제대로 보이
 
 
 
+[[step-4-replace-the-mezzanine-card]]
 == 4단계: 메자닌 카드를 교체합니다
 
 메자닌 카드는 라이저 번호 3(슬롯 4 및 5) 아래에 있습니다. 메자닌 카드에 액세스하려면 라이저를 분리하고 메자닌 카드를 교체한 다음 라이저 번호 3을 다시 설치해야 합니다. 자세한 내용은 컨트롤러 모듈의 FRU 맵을 참조하십시오.
@@ -377,6 +381,7 @@ image:../media/icon_round_3.png["설명선 번호 3"]
 
 
 
+[[step-5-install-the-controller-module]]
 == 5단계: 컨트롤러 모듈을 설치합니다
 
 컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 유지보수 모드로 부팅해야 합니다.
@@ -421,6 +426,7 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 
 
+[[step-6-restore-the-controller-module-to-operation]]
 == 6단계: 컨트롤러 모듈을 작동 상태로 복원합니다
 
 컨트롤러를 복원하려면 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.
@@ -435,6 +441,7 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 
 
+[[step-7-switch-back-aggregates-in-a-two-node-metrocluster-configuration]]
 == 7단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
@@ -491,6 +498,7 @@ Remote: cluster_A configured      		normal
 
 
 
+[[step-8-return-the-failed-part-to-netapp]]
 == 8단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

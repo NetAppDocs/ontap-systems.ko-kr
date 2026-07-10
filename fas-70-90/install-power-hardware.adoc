@@ -15,6 +15,7 @@ FAS70 0r FAS90 스토리지 시스템에 랙 하드웨어를 설치하고 컨트
 
 
 
+[[step-1-power-on-the-shelf-and-assign-shelf-id]]
 == 1단계: 쉘프 전원을 켜고 쉘프 ID를 할당합니다
 
 [role="tabbed-block"]
@@ -242,6 +243,7 @@ NOTE: ID가 깜박이는 데 15초 넘게 걸린 경우 쉘프 ID 버튼을 다�
 ====
 
 
+[[step-2-power-on-the-controllers]]
 == 2단계: 컨트롤러의 전원을 켭니다
 
 쉘프의 전원을 켜고 고유한 ID를 할당한 후 스토리지 컨트롤러의 전원을 켭니다.

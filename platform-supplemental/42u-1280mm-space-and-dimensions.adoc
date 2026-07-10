@@ -15,6 +15,7 @@ summary: 시스템 캐비닛의 포장을 풀 때 시스템 캐비닛을 포장�
 
 
 
+[[required-space-for-unpacking-the-system-cabinet]]
 == 시스템 캐비닛의 포장을 푸는 데 필요한 공간
 
 다음 표에는 시스템 캐비닛의 포장을 풀고 설치하는 데 필요한 공간이 정의되어 있습니다.
@@ -151,6 +152,7 @@ summary: 시스템 캐비닛의 포장을 풀 때 시스템 캐비닛을 포장�
 |===
 
 
+[[system-cabinet-exterior-dimensions]]
 == 시스템 캐비닛 외부 치수
 
 다음 그림에서는 시스템 캐비닛의 전면, 후면 및 측면을 보여 줍니다.

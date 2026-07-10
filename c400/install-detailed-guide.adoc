@@ -19,6 +19,7 @@ https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서
 
 
 
+[[step-1-prepare-for-installation]]
 == 1단계: 설치 준비
 
 시스템을 설치하려면 계정을 만들고 시스템을 등록하고 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
@@ -157,6 +158,7 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가�
 
 
 
+[[step-2-install-the-hardware]]
 == 2단계: 하드웨어 설치
 
 필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치해야 합니다.
@@ -179,6 +181,7 @@ image::../media/drw_c400_cable_tray_IEOPS-1208.svg[DRW C400 케이블 트레이 
 
 
 
+[[step-3-cable-controllers-to-your-network]]
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
 스위치가 없는 2노드 클러스터 방법을 사용하거나 전환된 클러스터 방법을 사용하여 컨트롤러를 네트워크에 연결할 수 있습니다.
@@ -245,12 +248,14 @@ image::../media/drw_c400_switched_network_cabling_IEOPS-1190.svg[DRW C400 스위
 ====
 
 
+[[step-4-cable-controllers-to-drive-shelves]]
 == 4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다
 
 다음 옵션은 하나 또는 두 개의 NS224 드라이브 쉘프를 시스템에 케이블로 연결하는 방법을 보여줍니다.
 
 
 
+[[option-1-cable-the-controllers-to-a-single-drive-shelf]]
 === 옵션 1: 컨트롤러를 단일 드라이브 쉘프에 연결합니다
 
 각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.
@@ -273,6 +278,7 @@ image::../media/drw_c400_one_ns224_shelf_IEOPS-1191.svg[drw C400 하나의 ns224
 
 
 
+[[option-2-cable-the-controllers-to-two-drive-shelves]]
 === 옵션 2: 컨트롤러를 두 드라이브 쉘프에 연결합니다
 
 각 컨트롤러를 NS224 드라이브 쉘프의 NSM 모듈에 케이블로 연결해야 합니다.
@@ -295,12 +301,14 @@ image::../media/drw_c400_two_ns224_shelves_IEOPS-1192.svg[DRW C400 2개의 ns224
 
 
 
+[[step-5-complete-system-setup-and-configuration]]
 == 5단계: 시스템 설치 및 구성을 완료합니다
 
 스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료할 수 있습니다.
 
 
 
+[[option-1-completing-system-setup-and-configuration-if-network-discovery-is-enabled]]
 === 옵션 1: 네트워크 검색이 활성화된 경우 시스템 설치 및 구성 완료
 
 랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료할 수 있습니다.
@@ -364,6 +372,7 @@ https://mysupport.netapp.com/site/tools["NetApp 다운로드: Config Advisor"]
 
 
 
+[[option-2-completing-system-setup-and-configuration-if-network-discovery-is-not-enabled]]
 === 옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성 완료
 
 랩톱에서 네트워크 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.

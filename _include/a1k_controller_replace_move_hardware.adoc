@@ -4,6 +4,7 @@
 
 
 
+[[step-1-remove-the-controller-module]]
 == 1단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부의 구성 요소를 교체할 때 엔클로저에서 컨트롤러 모듈을 분리해야 합니다.
@@ -63,6 +64,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-2-move-the-fans]]
 == 2단계: 팬을 이동합니다
 
 고장난 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 5개의 팬 모듈을 분리해야 합니다.
@@ -100,6 +102,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 
 
 
+[[step-3-move-the-nv-battery]]
 == 3단계: NV 배터리를 이동합니다
 
 NV 배터리를 교체용 컨트롤러로 이동합니다.
@@ -147,6 +150,7 @@ NV 배터리 팩
 
 
 
+[[step-4-move-system-dimms]]
 == 4단계: 시스템 DIMM을 이동합니다
 
 DIMM을 교체용 컨트롤러 모듈로 이동합니다.
@@ -188,6 +192,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 
 
+[[step-5-install-the-controller-module]]
 == 5단계: 컨트롤러 모듈을 설치합니다
 
 컨트롤러 모듈을 다시 설치하고 부팅합니다.

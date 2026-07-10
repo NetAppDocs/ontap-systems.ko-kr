@@ -18,12 +18,14 @@ NOTE: SuperRail을 설치하기 위한 전면 및 후면 연결 지점 사이의
 
 
 
+[[installing-superrail-to-square-hole-four-post-rack]]
 == 사각형 구멍 4포스트 랙에 SuperRail 설치
 
 image::../media/drw_superrail_square_hole_four_post_kit_re_release.png[SuperRail을 사각 구멍 4 포스트 랙에 설치하는 방법]
 
 
 
+[[installing-superrail-to-round-hole-four-post-rack]]
 == 4포스트 원형 랙에 SuperRail 설치
 
 image::../media/drw_superrail_round_hole_four_post_kit_re_release.png[원형 구멍 4 포스트 랙에 SuperRail을 설치하는 방법]

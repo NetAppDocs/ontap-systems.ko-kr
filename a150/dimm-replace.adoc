@@ -19,6 +19,7 @@ summary: 스토리지 시스템에서 상태 모니터 경고에 따른 과도�
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 손상된 컨트롤러의 기능을 인계받아 중지시키면 정상적인 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있습니다. 이를 위해 AutoSupport에서 자동 케이스 생성을 억제하고 자동 반환 기능을 비활성화한 다음 손상된 컨트롤러를 LOADER 프롬프트로 전환합니다. LOADER 프롬프트는 FRU를 교체할 수 있는 안전한 중지 상태입니다.
@@ -90,6 +91,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 
+[[step-2-remove-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 내의 구성 요소에 액세스하려면 먼저 시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈의 덮개를 분리해야 합니다.
@@ -117,6 +119,7 @@ image::../media/drw_2600_opening_pcm_cover.png[컨트롤러 모듈 열기 또는
 
 
 
+[[step-3-replace-the-dimms]]
 == 3단계: DIMM을 교체합니다
 
 DIMM을 교체하려면 컨트롤러 내부에서 DIMM을 찾은 후 특정 단계를 따르십시오.
@@ -182,6 +185,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 
 
+[[step-4-reinstall-the-controller-module]]
 == 4단계: 컨트롤러 모듈을 재설치합니다
 
 컨트롤러 모듈의 구성 요소를 교체한 후 섀시에 다시 설치합니다.
@@ -242,6 +246,7 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 
 
 
+[[step-5-switch-back-aggregates-in-a-two-node-metrocluster-configuration]]
 == 5단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
@@ -298,6 +303,7 @@ Remote: cluster_A configured      		normal
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

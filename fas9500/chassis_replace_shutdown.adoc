@@ -10,6 +10,7 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 
 
 
+[[shutdown-the-impaired-controller-fas9500]]
 == 손상된 컨트롤러 종료 - FAS9500
 
 [role="lead"]

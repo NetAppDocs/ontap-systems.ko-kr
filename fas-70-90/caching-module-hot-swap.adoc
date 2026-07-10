@@ -23,6 +23,7 @@ FAS70은 2TB 캐싱 모듈을 지원하며 FAS90은 4TB 캐싱 모듈을 지원�
 
 
 
+[[replace-the-flash-cache-module-carrier]]
 == Flash Cache 모듈 캐리어를 교체합니다
 
 Flash Cache 모듈 캐리어는 슬롯 6에 있으며 최대 2개의 Flash Cache 모듈을 장착할 수 있습니다. Flash Cache 모듈 캐리어는 핫 스왑할 수 없습니다
@@ -34,6 +35,7 @@ Flash Cache 모듈 캐리어는 슬롯 6에 있으며 최대 2개의 Flash Cache
 
 
 
+[[step-1-shut-down-the-impaired-node]]
 === 1단계: 장애가 있는 노드를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -180,6 +182,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 ====
 
 
+[[step-2-replace-the-flash-cache-module-carrier]]
 === 2단계: Flash Cache 모듈 캐리어를 교체합니다
 
 다음 단계를 수행하여 Flash Cache 모듈 캐리어를 교체합니다.
@@ -249,6 +252,7 @@ Flash Cache 모듈 캐리어 오류 LED
 
 
 
+[[step-3-reboot-the-controller]]
 === 3단계: 컨트롤러를 재부팅합니다
 
 Flash Cache 모듈 캐리어를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
@@ -265,12 +269,14 @@ NOTE: 그러면 I/O 카드 및 기타 구성 요소가 다시 초기화되고 �
 
 
 
+[[step-4-return-the-failed-part-to-netapp]]
 === 4단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.
 
 
 
+[[replace-the-caching-module]]
 == 캐싱 모듈을 교체합니다
 
 Flash Cache 모듈(캐시 모듈)은 슬롯 6-1 또는 슬롯 6-2에 있거나 슬롯 6-1과 슬롯 6-2에 있습니다.

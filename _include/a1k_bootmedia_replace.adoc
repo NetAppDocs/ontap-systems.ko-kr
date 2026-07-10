@@ -4,6 +4,7 @@
 
 
 
+[[step-1-replace-the-boot-media]]
 == 1단계: 부팅 매체를 교체합니다
 
 부팅 매체는 시스템 관리 모듈 내부에 있으며 시스템에서 모듈을 제거하여 액세스합니다.
@@ -79,6 +80,7 @@ NOTE: 기억 장치 시스템에 DC 전원 공급 장치가 있는 경우, 전�
 
 
 
+[[step-2-transfer-the-ontap-image-to-the-boot-media]]
 == 2단계: ONTAP 이미지를 부팅 미디어로 전송합니다
 
 설치한 교체 부팅 매체에는 ONTAP 이미지가 없습니다. 에서 해당 ONTAP 서비스 이미지를 USB 플래시 드라이브로 다운로드한 다음 교체 부팅 미디어로 다운로드하여 ONTAP 이미지를 교체용 부팅 미디어로 전송할 수 https://mysupport.netapp.com/["NetApp Support 사이트"] 있습니다.

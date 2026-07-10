@@ -24,6 +24,7 @@ summary: PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QS
 video::a8ec891d-f6f6-4479-9ca2-af47017254ff[panopto]
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 .시작하기 전에
@@ -88,6 +89,7 @@ Ctrl+C를 누른 다음 y를 누릅니다.
 
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈과 그 덮개를 제거하십시오.
@@ -122,6 +124,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 |===
 
 
+[[step-3-replace-the-mezzanine-card]]
 == 3단계: 메자닌 카드를 교체합니다
 
 메자닌 카드를 교체합니다.
@@ -170,6 +173,7 @@ NOTE: 손가락이나 드라이버로 나비나사를 풀 수 있습니다. 손�
 
 
 
+[[step-4-install-and-reboot-the-controller-module]]
 == 4단계: 컨트롤러 모듈 설치 및 재부팅
 
 컨트롤러 모듈을 재설치하고 재부팅하십시오.
@@ -238,6 +242,7 @@ ONTAP에서 Fibre Channel 구성에 대한 자세한 내용은 link:https://docs
 ====
 
 
+[[step-6-return-the-controller-to-normal-operation]]
 == 6단계: 컨트롤러를 정상 작동 상태로 되돌리십시오
 
 손상된 컨트롤러에 스토리지를 반환하고, 자동 반환을 복원하고, AutoSupport 유지보수 윈도우를 종료합니다.
@@ -249,6 +254,7 @@ ONTAP에서 Fibre Channel 구성에 대한 자세한 내용은 link:https://docs
 
 
 
+[[step-7-return-the-failed-part-to-netapp]]
 == 7단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

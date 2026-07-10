@@ -15,6 +15,7 @@ summary: 손상된 컨트롤러를 복구 이미지에서 부팅하는 절차는
 
 
 
+[[option-1-most-systems]]
 == 옵션 1: 대부분의 시스템
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
@@ -106,6 +107,7 @@ USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복�
 
 
 
+[[option-2-controller-is-in-a-two-node-metrocluster]]
 == 옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 환경 변수를 확인해야 합니다.

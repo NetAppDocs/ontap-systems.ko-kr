@@ -15,6 +15,7 @@ summary: 하드웨어 장애로 인해 AFF C400 시스템의 컨트롤러를 교
 
 
 
+[[step-1-remove-the-controller-module]]
 == 1단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -89,6 +90,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-2-move-the-power-supplies]]
 == 2단계: 전원 공급 장치를 이동합니다
 
 전원 공급 장치를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -142,6 +144,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 
 
+[[step-3-move-the-nvdimm-battery]]
 == 3단계: NVDIMM 배터리를 이동합니다
 
 NVDIMM 배터리를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -198,6 +201,7 @@ NOTE: 지시가 있을 때까지 배터리 케이블을 마더보드에 다시 �
 
 
 
+[[step-4-move-the-boot-media]]
 == 4단계: 부팅 미디어를 이동합니다
 
 부팅 미디어를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -250,6 +254,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-5-move-the-pcie-risers-and-mezzanine-card]]
 == 5단계: PCIe 라이저 및 메자닌 카드를 이동합니다
 
 PCIe 라이저와 메자닌 카드를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -329,6 +334,7 @@ PCI 카드
 
 
 
+[[step-6-move-the-dimms]]
 == 6단계: DIMM을 이동합니다
 
 DIMM을 교체용 컨트롤러 모듈로 이동합니다.
@@ -399,6 +405,7 @@ DIMM은 소켓에 단단히 장착되지만 쉽게 장착할 수 있습니다. �
 
 
 
+[[step-7-install-the-controller-module]]
 == 7단계: 컨트롤러 모듈을 설치합니다
 
 컨트롤러 모듈을 다시 설치하고 재부팅합니다.

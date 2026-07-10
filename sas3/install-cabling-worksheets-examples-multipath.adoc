@@ -33,12 +33,14 @@ image::../media/drw_controller_to_stack_cable_color_key_non2600_4stackcolors.gif
 
 
 
+[[controller-to-stack-cabling-worksheets-and-cabling-examples-for-multipath-ha-configurations-with-quad-port-sas-hbas]]
 == 4중 포트 SAS HBA를 사용하는 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예
 
 완성된 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예를 사용하여 4중 포트 SAS HBA가 포함된 일반적인 다중 경로 HA 구성을 케이블로 연결할 수 있습니다. 이러한 컨트롤러에는 온보드 SAS 포트가 없습니다.
 
 
 
+[[multipath-ha-with-one-quad-port-sas-hba-and-one-single-shelf-stack]]
 === 4중 포트 SAS HBA 1개와 단일 쉘프 스택 1개가 포함된 다중 경로 HA
 
 다음 워크시트 및 케이블 연결 예에서는 포트 쌍 1a/1d를 사용합니다.
@@ -49,6 +51,7 @@ image::../media/drw_mpha_slot_1_one_4porthba_one_singleshelf_stack.gif[4중 포�
 
 
 
+[[multipath-ha-with-one-quad-port-sas-hba-and-two-single-shelf-stacks]]
 === 4중 포트 SAS HBA 1개와 단일 쉘프 스택 2개가 포함된 다중 경로 HA
 
 다음 워크시트 및 케이블 연결 예에서는 포트 쌍 1a/1d 및 1c/1b를 사용합니다.
@@ -59,6 +62,7 @@ image::../media/drw_mpha_slot_1_one_4porthba_two_singleshelf_stacks.gif[4중 포
 
 
 
+[[multipath-ha-with-two-quad-port-sas-hbas-and-two-multi-shelf-stacks]]
 === 2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택을 사용하는 다중 경로 HA
 
 이 구성에서는 1a/2b, 2a/1d, 1c/2D 및 2c/1b의 4포트 쌍을 사용할 수 있습니다. 포트 쌍이 식별되는 순서(워크시트에 나열됨)에 따라 케이블을 연결하거나 다른 모든 포트 쌍을 케이블 연결할 수 있습니다(포트 쌍 건너뛰기).
@@ -83,12 +87,14 @@ image::../media/drw_mpha_slots_1_and_2_two_4porthbas_two_stacks_skipped.gif[2개
 
 
 
+[[controller-to-stack-cabling-worksheets-and-cabling-examples-for-multipath-ha-configurations-with-four-onboard-sas-ports]]
 == 4개의 온보드 SAS 포트를 사용하는 다중 경로 HA 구성을 위한 컨트롤러-스택 케이블링 워크시트 및 케이블링 예
 
 완성된 컨트롤러-스택 케이블링 워크시트 및 케이블 연결 예를 사용하여 4개의 온보드 SAS 포트가 있는 일반적인 다중 경로 HA 구성을 케이블로 연결할 수 있습니다.
 
 
 
+[[multipath-ha-with-four-onboard-sas-ports-and-one-single-shelf-stack]]
 === 4개의 온보드 SAS 포트와 1개의 단일 쉘프 스택을 갖춘 다중 경로 HA
 
 다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0d를 사용합니다.
@@ -99,6 +105,7 @@ image::../media/drw_mpha_slot_0_4ports_one_singleshelf_stack.gif[4개의 온보�
 
 
 
+[[multipath-ha-with-four-onboard-sas-ports-and-two-single-shelf-stacks]]
 === 4개의 온보드 SAS 포트와 2개의 단일 쉘프 스택을 지원하는 다중 경로 HA
 
 다음 워크시트 및 케이블 연결 예에서는 포트 쌍 0a/0d 및 0c/0b를 사용합니다.
@@ -109,6 +116,7 @@ image::../media/drw_mpha_slot_0_4ports_two_singleshelf_stacks.gif[4개의 온보
 
 
 
+[[multipath-ha-with-four-onboard-sas-ports-a-quad-port-sas-hba-and-two-multi-shelf-stacks]]
 === 4개의 온보드 SAS 포트, 4중 포트 SAS HBA 및 2개의 다중 쉘프 스택이 있는 다중 경로 HA
 
 이 구성에는 0a/1b, 1a/0d, 0c/1d, 1c/0b의 4포트 쌍이 제공됩니다. 포트 쌍이 식별되는 순서(워크시트에 나열됨)에 따라 케이블을 연결하거나 다른 모든 포트 쌍을 케이블 연결할 수 있습니다(포트 쌍 건너뛰기).

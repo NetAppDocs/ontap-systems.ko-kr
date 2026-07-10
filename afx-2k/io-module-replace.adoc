@@ -22,6 +22,7 @@ AFX 2K 스토리지 시스템에서 I/O 모듈에 오류가 발생하면 해당 
 
 
 
+[[step-1-shut-down-the-impaired-node]]
 == 1단계: 장애가 있는 노드를 종료합니다
 
 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -79,6 +80,7 @@ _-halt true_ 매개변수는 손상된 노드를 LOADER 프롬프트로 가져�
 
 
 
+[[step-2-replace-a-failed-io-module]]
 == 2단계: 장애가 발생한 입출력 모듈을 교체합니다
 
 I/O 모듈을 교체하려면 인클로저 내에서 해당 모듈을 찾고 특정 단계를 따르십시오.
@@ -136,6 +138,7 @@ I/O 캠 래치
 
 
 
+[[step-3-reboot-the-controller]]
 == 3단계: 컨트롤러를 재부팅합니다
 
 I/O 모듈을 교체한 후에는 컨트롤러를 재부팅해야 합니다.
@@ -193,6 +196,7 @@ NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습
 
 
 
+[[step-4-return-the-failed-part-to-netapp]]
 == 4단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

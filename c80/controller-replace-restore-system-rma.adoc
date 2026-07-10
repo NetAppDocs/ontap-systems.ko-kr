@@ -15,6 +15,7 @@ AFF C80 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토
 
 
 
+[[step-1-verify-lifs-and-check-cluster-health]]
 == 1단계: LIF 확인 및 클러스터 상태 확인
 
 교체 노드를 서비스로 반환하기 전에 논리 인터페이스가 홈 포트에 있는지 확인하고 클러스터 상태를 확인한 다음 자동 반환을 재설정합니다.
@@ -39,6 +40,7 @@ AFF C80 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토
 
 
 
+[[step-2-return-the-failed-part-to-netapp]]
 == 2단계: 장애가 발생한 부품을 NetApp로 되돌립니다
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

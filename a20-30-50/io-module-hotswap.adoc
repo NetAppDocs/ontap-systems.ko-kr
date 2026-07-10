@@ -34,6 +34,7 @@ I/O 모듈을 핫 스왑하려면 스토리지 시스템이 ONTAP 버전 요구 
 
 
 
+[[step-1-ensure-the-storage-system-meets-the-procedure-requirements]]
 == 1단계: 스토리지 시스템이 절차 요구 사항을 충족하는지 확인하십시오.
 
 이 절차를 사용하려면 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행하고 있어야 하며, 스토리지 시스템이 실행 중인 ONTAP 버전의 모든 요구 사항을 충족해야 합니다.
@@ -93,6 +94,7 @@ NOTE: 스토리지 시스템이 ONTAP 9.17.1 이상을 실행하고 있지 않�
 ====
 
 
+[[step-2-prepare-the-storage-system-and-io-module-slot]]
 == 2단계: 스토리지 시스템 및 I/O 모듈 슬롯을 준비합니다.
 
 장애가 발생한 I/O 모듈을 안전하게 제거할 수 있도록 스토리지 시스템과 I/O 모듈 슬롯을 준비하십시오.
@@ -202,6 +204,7 @@ The module has been successfully removed from service and powered off. It can no
 
 
 
+[[step-3-hot-swap-the-failed-io-module]]
 == 3단계: 장애가 발생한 I/O 모듈 핫 스왑
 
 고장난 I/O 모듈을 동등한 I/O 모듈로 핫 스왑합니다.
@@ -245,6 +248,7 @@ image::../media/icon_round_2.png[설명선 번호 2]
 
 
 
+[[step-4-bring-the-replacement-io-module-online]]
 == 4단계: 교체 I/O 모듈을 온라인 상태로 전환합니다
 
 교체용 I/O 모듈을 온라인 상태로 전환하고, I/O 모듈 포트가 성공적으로 초기화되었는지 확인하고, 슬롯에 전원이 공급되는지 확인한 다음, I/O 모듈이 온라인 상태이고 인식되는지 확인합니다.
@@ -361,6 +365,7 @@ Slot slot Information
 
 
 
+[[step-5-restore-the-storage-system-to-normal-operation]]
 == 5단계: 스토리지 시스템을 정상 작동 상태로 복원합니다.
 
 스토리지 시스템을 정상 작동 상태로 복원하려면 (필요에 따라) 테이크오버된 컨트롤러에 스토리지를 반환하고, (필요에 따라) 자동 반환 기능을 복원하고, LIF가 홈 포트에 있는지 확인하고, AutoSupport 자동 케이스 생성 기능을 다시 활성화하십시오.
@@ -427,6 +432,7 @@ LIF가 FALSE로 표시되면 해당 LIF를 홈 포트로 되돌립니다. `netwo
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

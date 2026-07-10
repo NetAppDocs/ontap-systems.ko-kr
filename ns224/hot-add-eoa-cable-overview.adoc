@@ -15,6 +15,7 @@ NS224 쉘프를 가용성 종료 시스템에 케이블로 연결하여 스토�
 
 
 
+[[cabling-overview-for-end-of-availability-systems]]
 == 가용성 종료 시스템의 케이블링 개요
 
 각 시스템마다 고유한 포트 할당 및 I/O 모듈 구성이 있기 때문에 케이블 연결 방식은 플랫폼 모델별로 다릅니다.
@@ -28,6 +29,7 @@ NS224 쉘프를 가용성 종료 시스템에 케이블로 연결하여 스토�
 
 
 
+[[additional-resources]]
 == 추가 리소스
 
 하드웨어 시스템은 NSM100 모듈이 장착된 NS224 쉘프와 NSM100B 모듈이 장착된 NS224 쉘프 모두와 호환될 수 있습니다. 포괄적인 포트 이름 및 구성 세부 정보는 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]을 참조하십시오.

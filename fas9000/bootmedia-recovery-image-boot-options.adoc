@@ -17,6 +17,7 @@ summary: 손상된 노드를 복구 이미지에서 부팅하는 절차는 시�
 
 
 
+[[option-1-boot-the-recovery-image-in-most-systems]]
 == 옵션 1: 대부분의 시스템에서 복구 이미지를 부팅합니다
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
@@ -134,6 +135,7 @@ date-and-time [node-name:iscsi.session.stateChanged:notice]: iSCSI session state
 
 
 
+[[option-2-boot-the-recovery-image-in-a-two-node-metrocluster-configuration]]
 == 옵션 2: 2노드 MetroCluster 구성으로 복구 이미지를 부팅합니다
 
 USB 드라이브에서 ONTAP 이미지를 부팅하고 환경 변수를 확인해야 합니다.

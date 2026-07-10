@@ -34,6 +34,7 @@ image::../media/drw_cable_pull_tab_direction_ieops-1699.svg[케이블 당김 탭
 
 
 
+[[step-1-connect-the-storage-controllers-to-your-network]]
 == 1단계: 스토리지 컨트롤러를 네트워크에 연결합니다
 
 컨트롤러를 ONTAP 클러스터에 케이블로 연결합니다. 이 절차는 스토리지 시스템 모델 및 입출력 모듈 구성에 따라 다릅니다.
@@ -84,6 +85,7 @@ image::../media/drw_a1k_switched_cluster_cabling_ieops-1652.svg[클러스터 연
 ====
 
 
+[[step-2-cable-the-host-network-connections]]
 == 2단계: 호스트 네트워크 연결 케이블 연결
 
 이더넷 모듈 포트를 호스트 네트워크에 연결합니다.
@@ -119,6 +121,7 @@ image::../media/drw_a1k_network_cabling2_ieops-1650.svg[10/25GB 이더넷 네트
 
 
 
+[[step-3-cable-the-management-network-connections]]
 == 3단계: 관리 네트워크 연결 케이블 연결
 
 1000BASE-T RJ-45 케이블을 사용하여 각 컨트롤러의 관리(렌치) 포트를 관리 네트워크 스위치에 연결합니다.
@@ -134,6 +137,7 @@ IMPORTANT: 아직 전원 코드를 연결하지 마십시오.
 
 
 
+[[step-4-cable-the-shelf-connections]]
 == 4단계: 선반 연결 케이블 연결
 
 다음 케이블 연결 절차는 컨트롤러를 스토리지 쉘프에 연결하는 방법을 보여줍니다. 설정에 맞는 다음 케이블 연결 옵션 중 하나를 선택합니다.

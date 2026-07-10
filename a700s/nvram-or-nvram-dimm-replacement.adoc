@@ -29,6 +29,7 @@ summary: 오류가 발생한 NVRAM 카드를 교체하려면 NVRAM 라이저, �
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 .단계
@@ -91,6 +92,7 @@ https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/home.html["ONTAP 9 
 
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -169,6 +171,7 @@ image:../media/icon_round_3.png["설명선 번호 3"]
 
 
 
+[[step-3-remove-the-nvram-card]]
 == 3단계: NVRAM 카드를 분리합니다
 
 NVRAM을 교체하려면 컨트롤러 모듈에서 NVRAM 라이저, 라이저 1, NVRAM 카드에서 NVRAM 배터리 분리, 실패한 NVRAM 카드 제거 및 교체 NVRAM 카드 설치, NVRAM 라이저를 컨트롤러 모듈에 다시 설치하는 것으로 구성됩니다.
@@ -260,6 +263,7 @@ NOTE: 카드가 라이저 소켓에 완전히 똑바로 장착되었는지 확�
 
 
 
+[[step-4-reinstall-the-controller-module-and-booting-the-system]]
 == 4단계: 컨트롤러 모듈을 다시 설치하고 시스템을 부팅합니다
 
 컨트롤러 모듈의 FRU를 교체한 후에는 컨트롤러 모듈을 다시 설치하고 재부팅해야 합니다.
@@ -300,6 +304,7 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 
 
 
+[[step-5-verify-the-system-id-change-on-an-ha-system]]
 == 5단계: HA 시스템에서 시스템 ID 변경을 확인합니다
 
 _replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.
@@ -382,6 +387,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

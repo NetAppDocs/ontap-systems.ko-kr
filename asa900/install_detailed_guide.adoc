@@ -15,6 +15,7 @@ summary: 일반적인 NetApp 시스템 설치를 위한 자세한 단계별 지�
 
 
 
+[[step-1-prepare-for-installation]]
 == 1단계: 설치 준비
 
 시스템을 설치하려면 NetApp Support 사이트에서 계정을 만들고, 시스템을 등록하고, 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
@@ -170,6 +171,7 @@ image:../media/oie_cable_power.png["전원 케이블"]
 
 
 
+[[step-2-install-the-hardware]]
 == 2단계: 하드웨어 설치
 
 필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치해야 합니다.
@@ -196,6 +198,7 @@ image::../media/drw_a900_controller_in_chassis_ID_IEOPS-856.svg[일반적인 클
 
 
 
+[[step-3-cable-controllers-to-your-network]]
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
 스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.
@@ -387,6 +390,7 @@ image:../media/drw_a900fas9500_power_icon_IEOPS-1142.svg["폭 = 200px"]
 ====
 
 
+[[step-4-cable-controllers-to-drive-shelves]]
 == 4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다
 
 단일 NS224 드라이브 쉘프 또는 2개의 NS224 드라이브 쉘프를 컨트롤러에 연결합니다.
@@ -515,6 +519,7 @@ image:../media/oie_cable100_gbe_qsfp28.png["100 GbE QSFP 커넥터"]
 ====
 
 
+[[step-5-complete-system-setup-and-configuration]]
 == 5단계: 시스템 설치 및 구성을 완료합니다
 
 스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료할 수 있습니다.

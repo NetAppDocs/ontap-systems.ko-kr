@@ -22,6 +22,7 @@ NVRAM 모듈은 NVRAM12 하드웨어와 현장 교체 가능한 DIMM으로 구�
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -94,6 +95,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 
+[[step-2-replace-the-nvram-module-or-nvram-dimm]]
 == 2단계: NVRAM 모듈 또는 NVRAM DIMM을 교체합니다
 
 적절한 다음 옵션을 사용하여 NVRAM 모듈 또는 NVRAM DIMM을 교체합니다.
@@ -195,6 +197,7 @@ NOTE: NVRAM 모듈 측면에 있는 FRU 맵 레이블을 참조하여 DIMM 슬�
 ====
 
 
+[[step-3-reboot-the-controller]]
 == 3단계: 컨트롤러를 재부팅합니다
 
 구성 요소를 교체한 후에는 전원 케이블을 PSU에 다시 연결하여 컨트롤러 모듈을 재부팅해야 합니다.
@@ -203,6 +206,7 @@ NOTE: NVRAM 모듈 측면에 있는 FRU 맵 레이블을 참조하여 DIMM 슬�
 
 
 
+[[step-4-verify-controller-state]]
 == 4단계: 컨트롤러 상태를 확인합니다
 
 컨트롤러를 부팅할 때 디스크 풀에 연결된 컨트롤러의 컨트롤러 상태를 확인해야 합니다.
@@ -273,6 +277,7 @@ Disk                   Size Shelf Bay Type    Type        Name
 
 
 
+[[step-5-return-the-failed-part-to-netapp]]
 == 5단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

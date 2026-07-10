@@ -15,6 +15,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[key-specifications-for-asa-c400]]
 == ASA C400 의 주요 사양
 
 * 플랫폼 구성: ASA C400A 단일 섀시 HA 쌍, 이더넷 번들
@@ -28,6 +29,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[scaleout-maximums]]
 == 스케일아웃 최대값
 
 * 유형: NAS
@@ -37,10 +39,12 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[io]]
 == 입출력
 
 
 
+[[onboard-io]]
 === 온보드 I/O
 
 * 프로토콜: 이더넷 100Gbps; 포트: 4개
@@ -49,6 +53,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[total-io]]
 === 총 I/O
 
 * 프로토콜: 이더넷 100Gbps; 포트: 24
@@ -61,6 +66,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[management-ports]]
 === 관리 포트
 
 * 프로토콜: 이더넷 1Gbps; 포트: 2개
@@ -70,6 +76,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[storage-networking-supported]]
 == 스토리지 네트워킹 지원
 
 * FC
@@ -79,6 +86,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[system-environment-specifications]]
 == 시스템 환경 사양
 
 * 일반적인 전력: 4209 BTU/hr
@@ -94,6 +102,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[compliance]]
 == 규정 준수
 
 * 인증 EMC/EMI: AMCA, FCC, ICES, KC, 모로코, VCCI
@@ -106,6 +115,7 @@ summary: ASA-C400 플랫폼 그룹의 주요 사양
 
 
 
+[[high-availability]]
 == 고가용성
 
 * 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스

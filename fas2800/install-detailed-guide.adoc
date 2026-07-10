@@ -15,6 +15,7 @@ summary: 이 절차는 일반적인 NetApp 스토리지 시스템 설치에 대�
 
 
 
+[[step-1-prepare-for-installation]]
 == 1단계: 설치 준비
 
 .시작하기 전에
@@ -167,6 +168,7 @@ image::../media/oie_cable_fiber_lc_connector.png[LC 파이버 커넥터]
 |===
 
 
+[[step-2-install-the-hardware]]
 == 2단계: 하드웨어 설치
 
 필요에 따라 통신 랙 또는 NetApp 스토리지 시스템 캐비닛에 스토리지 시스템을 설치합니다.
@@ -190,6 +192,7 @@ image::../media/drw_cable_management_arm_install.svg[케이블 관리 ARM를 설
 
 
 
+[[step-3-cable-controllers-to-your-network]]
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
 컨트롤러를 스위치가 없는 2노드 클러스터 또는 스위치 있는 클러스터로 네트워크에 케이블로 연결합니다.
@@ -390,6 +393,7 @@ IMPORTANT: 전원 코드를 꽂지 마십시오.
 ====
 
 
+[[step-4-cable-controllers-to-drive-shelves]]
 == 4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다
 
 컨트롤러를 외부 스토리지에 연결합니다.
@@ -471,6 +475,7 @@ image::../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[컨트롤러 B와 
 
 
 
+[[step-5-complete-storage-system-setup-and-configuration]]
 == 5단계: 스토리지 시스템 설치 및 구성을 완료합니다
 
 옵션 1: 네트워크 검색이 활성화된 경우 또는 옵션 2: 네트워크 검색이 활성화되지 않은 경우 중 하나를 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.

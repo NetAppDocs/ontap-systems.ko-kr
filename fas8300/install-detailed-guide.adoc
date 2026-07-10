@@ -15,6 +15,7 @@ summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 �
 
 
 
+[[step-1-prepare-for-installation]]
 == 1단계: 설치 준비
 
 시스템을 설치하려면 계정을 만들고 시스템을 등록하고 라이센스 키를 받아야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
@@ -163,6 +164,7 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613["ONTAP 구성 가�
 
 
 
+[[step-2-install-the-hardware]]
 == 2단계: 하드웨어 설치
 
 필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치해야 합니다.
@@ -186,6 +188,7 @@ image::../media/drw_a320_cable_management_arms.png[케이블 관리 암 분리 �
 
 
 
+[[step-3-cable-controllers-to-your-network]]
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
 스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.
@@ -195,6 +198,7 @@ NOTE: 카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCI
 
 
 
+[[option-1-cable-a-two-node-switchless-cluster]]
 === 옵션 1: 스위치가 없는 2노드 클러스터를 케이블로 연결합니다
 
 컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 두 컨트롤러 모듈에 모두 케이블로 연결됩니다.
@@ -223,6 +227,7 @@ image::../media/drw_fas8300_TNSC_network_cabling.png[스위치가 없는 2노드
 
 
 
+[[option-2-cable-a-switched-cluster]]
 === 옵션 2: 스위치 클러스터 케이블 연결
 
 컨트롤러 모듈의 옵션 데이터 포트, 옵션 NIC 카드, 메자닌 카드 및 관리 포트는 스위치에 연결됩니다. 클러스터 인터커넥트 및 HA 포트는 클러스터/HA 스위치에 케이블로 연결됩니다.
@@ -251,10 +256,12 @@ image::../media/drw_fas8300_switched_network_cabling.png[스위치 클러스터 
 
 
 
+[[step-4-cable-controllers-to-drive-shelves]]
 == 4단계: 컨트롤러 케이블을 드라이브 쉘프에 연결합니다
 
 
 
+[[option-1-cable-the-controllers-to-sas-drive-shelves]]
 === 옵션 1: SAS 드라이브 쉘프에 컨트롤러 케이블을 연결합니다
 
 각 컨트롤러를 두 SAS 드라이브 쉘프의 IOM 모듈에 연결해야 합니다.
@@ -279,12 +286,14 @@ image::../media/drw_fas8300_three-ds224c_shelves.png[세 개의 DS224C 쉘프 �
 
 
 
+[[step-5-complete-system-setup-and-configuration]]
 == 5단계: 시스템 설치 및 구성을 완료합니다
 
 스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료할 수 있습니다.
 
 
 
+[[option-1-completing-system-setup-and-configuration-if-network-discovery-is-enabled]]
 === 옵션 1: 네트워크 검색이 활성화된 경우 시스템 설치 및 구성 완료
 
 랩톱에서 네트워크 검색을 사용하도록 설정한 경우 자동 클러스터 검색을 사용하여 시스템 설정 및 구성을 완료할 수 있습니다.
@@ -346,6 +355,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp
 
 
 
+[[option-2-completing-system-setup-and-configuration-if-network-discovery-is-not-enabled]]
 === 옵션 2: 네트워크 검색이 활성화되지 않은 경우 시스템 설치 및 구성 완료
 
 랩톱에서 네트워크 검색을 사용하지 않는 경우 이 작업을 사용하여 구성 및 설정을 완료해야 합니다.

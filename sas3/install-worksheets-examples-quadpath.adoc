@@ -38,6 +38,7 @@ image::../media/drw_controller_to_stack_quad_pathed_connectivity_key.gif[쿼드 
 
 
 
+[[quad-path-ha-with-two-quad-port-sas-hbas-and-two-multi-shelf-stacks]]
 == 2개의 4중 포트 SAS HBA와 2개의 다중 쉘프 스택이 있는 4중 경로 HA입니다
 
 다음 워크시트 및 케이블 연결 예에서는 스택 1의 포트 쌍 1a/2b(다중 경로) 및 2a/1d(4중 경로)와 stack2의 포트 쌍 1c/2D(다중 경로) 및 2c/1b(4중 경로)를 사용합니다.

@@ -15,6 +15,7 @@ summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드�
 
 
 
+[[step-1-remove-the-controller-modules-from-the-old-chassis]]
 == 1단계: 기존 섀시에서 컨트롤러 모듈을 제거합니다.
 
 기존 섀시에서 컨트롤러 모듈을 제거합니다.
@@ -63,6 +64,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-2-move-drives-to-the-new-chassis]]
 == 2단계: 드라이브를 새 섀시로 이동합니다
 
 기존 케이스에서 새 케이스로 드라이브를 옮기세요.
@@ -100,6 +102,7 @@ NOTE: 드라이브는 충격에 약합니다. 손상을 방지하기 위해 가�
 
 
 
+[[step-3-replace-a-chassis-from-within-the-equipment-rack-or-system-cabinet]]
 == 3단계: 장비 랙 또는 시스템 캐비닛 내에서 섀시를 교체합니다
 
 장비 랙 또는 시스템 캐비닛에 있는 손상된 섀시를 새 섀시로 교체하십시오.
@@ -116,6 +119,7 @@ NOTE: 드라이브는 충격에 약합니다. 손상을 방지하기 위해 가�
 
 
 
+[[step-4-install-the-controller-modules-into-the-new-chassis]]
 == 4단계: 컨트롤러 모듈을 새 섀시에 설치합니다.
 
 새 섀시에 컨트롤러 모듈을 설치한 후 부팅해야 합니다.

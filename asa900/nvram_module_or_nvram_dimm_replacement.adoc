@@ -34,6 +34,7 @@ NVRAM 모듈은 NVRAM11 및 DIMM으로 구성됩니다. 장애가 발생한 NVRA
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -170,6 +171,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 ====
 
 
+[[step-2-replace-the-nvram-module]]
 == 2단계: NVRAM 모듈을 교체합니다
 
 NVRAM 모듈을 장착하려면 섀시의 슬롯 6에서 모듈을 찾은 다음 특정 단계를 따릅니다.
@@ -246,6 +248,7 @@ DIMM 및 DIMM 이젝터 탭
 
 
 
+[[step-3-replace-a-nvram-dimm]]
 == 3단계: NVRAM DIMM을 교체합니다
 
 NVRAM 모듈에서 NVRAM DIMM을 교체하려면 NVRAM 모듈을 분리하고 모듈을 연 다음 대상 DIMM을 교체해야 합니다.
@@ -323,6 +326,7 @@ DIMM 및 DIMM 이젝터 탭
 
 
 
+[[step-4-reboot-the-controller]]
 == 4단계: 컨트롤러를 재부팅합니다
 
 FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
@@ -332,6 +336,7 @@ FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
 
 
 
+[[step-5-reassign-disks]]
 == 5단계: 디스크를 다시 할당합니다
 
 교체 컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.
@@ -434,6 +439,7 @@ dr-group-id            cluster node           configuration-state
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

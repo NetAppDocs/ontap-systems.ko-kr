@@ -15,6 +15,7 @@ summary: 컨트롤러 모듈을 교체하려면 손상된 컨트롤러를 제거
 
 
 
+[[step-1-remove-the-controller-module]]
 == 1단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -103,6 +104,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-2-move-the-power-supplies]]
 == 2단계: 전원 공급 장치를 이동합니다
 
 전원 공급 장치를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -147,6 +149,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 
 
+[[step-3-move-the-fans]]
 == 3단계: 팬을 이동합니다
 
 팬 모듈을 교체용 컨트롤러 모듈로 옮기십시오.
@@ -180,6 +183,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-4-move-the-nvdimm-battery]]
 == 4단계: NVDIMM 배터리를 이동합니다
 
 NVDIMM 배터리를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -229,6 +233,7 @@ NVDIMM 배터리 팩
 
 
 
+[[step-5-remove-the-pcie-risers]]
 == 5단계: PCIe 라이저를 분리합니다
 
 손상된 컨트롤러 모듈에서 PCIe 라이저를 제거하십시오.
@@ -271,6 +276,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-6-move-system-dimms]]
 == 6단계: 시스템 DIMM을 이동합니다
 
 시스템 DIMM을 교체용 컨트롤러 모듈로 옮기십시오.
@@ -297,6 +303,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 
 
+[[step-7-move-the-nvdimms]]
 == 7단계: NVDIMM을 이동합니다
 
 NVDIMM을 교체용 컨트롤러 모듈로 옮기십시오.
@@ -345,6 +352,7 @@ NOTE: NVDIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지
 
 
 
+[[step-8-move-the-boot-media]]
 == 8단계: 부팅 미디어를 이동합니다
 
 부팅 미디어를 교체용 컨트롤러 모듈로 옮기십시오.
@@ -413,6 +421,7 @@ image:../media/icon_round_5.png["설명선 번호 5"]
 
 
 
+[[step-9-install-the-pcie-risers]]
 == 9단계: PCIe 라이저를 설치합니다
 
 교체용 컨트롤러 모듈에 라이저를 설치하십시오.
@@ -434,6 +443,7 @@ image:../media/icon_round_5.png["설명선 번호 5"]
 
 
 
+[[step-10-install-the-controller-module]]
 == 10단계: 컨트롤러 모듈을 설치합니다
 
 컨트롤러 모듈을 다시 설치하고 재부팅합니다.

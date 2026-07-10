@@ -17,6 +17,7 @@ summary: 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보�
 
 
 
+[[ontap-hardware-systems]]
 == ONTAP 하드웨어 시스템
 
 [cols="2*"]
@@ -63,6 +64,7 @@ ONTAP 9.9.1
 |===
 
 
+[[shelves]]
 == 쉘프
 
 [cols="2*"]
@@ -81,6 +83,7 @@ IOM6 6Gb/s SAS 모듈, 사용 위치:
 |===
 
 
+[[switches]]
 == 스위치
 
 [cols="2*"]
@@ -117,6 +120,7 @@ ONTAP 9.11.1
 |===
 
 
+[[related-information]]
 == 관련 정보
 
 * https://mysupport.netapp.com/site/info/cisco-ethernet-switch["지원되는 Cisco 이더넷 스위치"]

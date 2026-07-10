@@ -17,6 +17,7 @@ NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스�
 
 
 
+[[step-1-replace-the-dcpm-module]]
 == 1단계: DCPM 모듈을 교체하십시오
 
 시스템에서 DCPM 모듈을 교체하려면 시스템에서 실패한 DCPM 모듈을 제거한 다음 새 DCPM 모듈로 교체해야 합니다.
@@ -61,6 +62,7 @@ NOTE: 모듈 및 슬롯은 키 입력되어 있습니다. 모듈을 입구에 �
 
 
 
+[[step-2-dispose-of-batteries]]
 == 2단계: 배터리를 폐기하십시오
 
 배터리는 배터리 재활용 또는 폐기에 관한 현지 규정에 따라 폐기해야 합니다. 배터리를 올바르게 폐기할 수 없는 경우 키트와 함께 제공된 RMA 지침에 따라 배터리를 NetApp에 반환해야 합니다.
@@ -69,6 +71,7 @@ https://library.netapp.com/ecm/ecm_download_file/ECMP12475945["안전 정보 및
 
 
 
+[[step-3-return-the-failed-part-to-netapp]]
 == 3단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

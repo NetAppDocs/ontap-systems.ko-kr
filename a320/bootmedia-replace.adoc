@@ -15,6 +15,7 @@ summary: 부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 �
 
 
 
+[[step-1-remove-the-controller-module]]
 == 1단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -48,6 +49,7 @@ image::../media/drw_a320_controller_remove_animated_gif.png[컨트롤러를 분�
 
 
 
+[[step-2-replace-the-boot-media]]
 == 2단계: 부팅 매체를 교체합니다
 
 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다.
@@ -82,6 +84,7 @@ image::../media/drw_a320_boot_media_replace_animated_gif.png[부팅 미디어를
 
 
 
+[[step-3-transfer-the-boot-image-using-a-usb-flash-drive]]
 == 3단계: USB 플래시 드라이브를 사용하여 부팅 이미지를 전송합니다.
 
 설치한 교체 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다.

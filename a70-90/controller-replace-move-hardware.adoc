@@ -15,6 +15,7 @@ summary: 하드웨어 장애가 필요한 경우 AFF A70 또는 AFF A90 시스�
 
 
 
+[[step-1-remove-the-controller-module]]
 == 1단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -137,6 +138,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-2-move-the-power-supplies]]
 == 2단계: 전원 공급 장치를 이동합니다
 
 전원 공급 장치를 교체 컨트롤러로 이동합니다.
@@ -179,6 +181,7 @@ NOTE: 내부 커넥터의 손상을 방지하려면 전원 공급 장치를 시�
 
 
 
+[[step-3-move-the-fans]]
 == 3단계: 팬을 이동합니다
 
 팬 모듈을 교체용 컨트롤러 모듈로 이동합니다.
@@ -212,6 +215,7 @@ image::../media/icon_round_2.png[설명선 번호 2]
 
 
 
+[[step-4-move-the-nv-battery]]
 == 4단계: NV 배터리를 이동합니다
 
 NV 배터리를 교체 컨트롤러 모듈로 이동합니다.
@@ -255,6 +259,7 @@ NV 배터리 팩 플러그
 
 
 
+[[step-5-move-system-dimms]]
 == 5단계: 시스템 DIMM을 이동합니다
 
 DIMM을 교체용 컨트롤러 모듈로 이동합니다.
@@ -321,6 +326,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 
 
+[[step-6-move-the-io-modules]]
 == 6단계: 입출력 모듈을 이동합니다
 
 입출력 모듈을 교체용 컨트롤러 모듈로 이동합니다.
@@ -369,6 +375,7 @@ NOTE: 슬롯 6 및 7에서 입출력 모듈을 이동하려면 이러한 입출�
 
 
 
+[[step-7-move-the-system-management-module]]
 == 7단계: 시스템 관리 모듈을 이동합니다
 
 시스템 관리 모듈을 교체용 컨트롤러 모듈로 이동합니다.
@@ -405,6 +412,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 
 
 
+[[step-8-move-the-nvram-module]]
 == 8단계: NVRAM 모듈을 이동합니다
 
 NVRAM 모듈을 교체용 컨트롤러 모듈로 이동합니다.
@@ -451,6 +459,7 @@ DIMM 잠금 탭
 
 
 
+[[step-9-install-the-controller-module]]
 == 9단계: 컨트롤러 모듈을 설치합니다
 
 컨트롤러 모듈을 다시 설치하고 재부팅합니다.

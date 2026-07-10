@@ -15,6 +15,7 @@ summary: 손상된 섀시에서 팬, 하드 드라이브 및 컨트롤러 모듈
 
 
 
+[[step-1-remove-the-power-supplies]]
 == 1단계: 전원 공급 장치를 분리합니다
 
 .단계
@@ -52,6 +53,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-2-remove-the-fans]]
 == 2단계: 팬을 분리합니다
 
 섀시를 교체할 때 팬 모듈을 분리하려면 특정 작업 순서를 수행해야 합니다.
@@ -83,6 +85,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-3-remove-the-controller-module]]
 == 3단계: 컨트롤러 모듈을 분리합니다
 
 섀시를 교체하려면 이전 섀시에서 컨트롤러 모듈 또는 모듈을 분리해야 합니다.
@@ -120,6 +123,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-4-remove-the-io-modules]]
 == 4단계: I/O 모듈을 분리합니다
 
 .단계
@@ -172,6 +176,7 @@ I/O 캠 래치가 완전히 잠금 해제되었습니다
 
 
 
+[[step-5-remove-the-de-stage-controller-power-module]]
 == 5단계: 디스테이지 컨트롤러 전원 모듈을 분리합니다
 
 .단계
@@ -197,6 +202,7 @@ DCPM 모듈 주황색 잠금 버튼
 
 
 
+[[step-6-replace-a-chassis-from-within-the-equipment-rack-or-system-cabinet]]
 == 6단계: 장비 랙 또는 시스템 캐비닛 내에서 섀시를 교체합니다
 
 .단계
@@ -219,6 +225,7 @@ NOTE: 시스템이 시스템 캐비닛에 있는 경우 리어 타이 다운 브
 
 
 
+[[step-7-move-the-usb-led-module-to-the-new-chassis]]
 == 7단계: USB LED 모듈을 새 섀시로 이동합니다
 
 .단계
@@ -231,6 +238,7 @@ NOTE: 시스템이 시스템 캐비닛에 있는 경우 리어 타이 다운 브
 
 
 
+[[step-8-install-the-de-stage-controller-power-module-when-replacing-the-chassis]]
 == 8단계: 섀시를 교체할 때 디스테이징 컨트롤러 전원 모듈을 설치합니다
 
 .단계
@@ -246,6 +254,7 @@ NOTE: 모듈 및 슬롯은 키 입력되어 있습니다. 모듈을 입구에 �
 
 
 
+[[step-9-install-fans-into-the-chassis]]
 == 9단계: 섀시에 팬을 설치합니다
 
 .단계
@@ -261,6 +270,7 @@ NOTE: 모듈 및 슬롯은 키 입력되어 있습니다. 모듈을 입구에 �
 
 
 
+[[step-10-install-io-modules]]
 == 10단계: 입출력 모듈 설치
 
 .단계
@@ -279,6 +289,7 @@ NOTE: 이전 섀시에 빈 I/O 패널이 있는 경우, 이 때 교체 섀시로
 
 
 
+[[step-11-install-the-power-supplies]]
 == 11단계: 전원 공급 장치를 설치합니다
 
 .단계
@@ -302,6 +313,7 @@ NOTE: 전원 공급 장치에는 전원 케이블만 연결하십시오. 이때 
 
 
 
+[[step-12-install-the-controller]]
 == 12단계: 컨트롤러를 설치합니다
 
 .단계

@@ -22,6 +22,7 @@ ASA C800 시스템의 I/O 모듈이 고장났거나, 더 높은 성능을 지원
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -94,6 +95,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -182,6 +184,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-3-replace-the-pcie-card]]
 == 3단계: PCIe 카드를 교체합니다.
 
 PCIe 카드를 교체하려면 대상 라이저에 있는 PCIe 카드의 포트에서 케이블과 모든 QSFP 및 SFP를 제거하고, 컨트롤러 모듈에서 라이저를 분리하고, PCIe 카드를 제거한 후 새 카드로 교체하고, 라이저와 모든 QSFP 및 SFP를 포트에 다시 설치하고, 포트의 케이블을 다시 연결하십시오.
@@ -331,6 +334,7 @@ NOTE: 카드가 라이저 소켓에 완전히 똑바로 장착되었는지 확�
 
 
 
+[[step-4-reinstall-the-controller-module]]
 == 4단계: 컨트롤러 모듈을 재설치합니다
 
 컨트롤러 모듈을 다시 설치하고 재부팅합니다.
@@ -379,6 +383,7 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 
 
 
+[[step-5-return-the-failed-part-to-netapp]]
 == 5단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

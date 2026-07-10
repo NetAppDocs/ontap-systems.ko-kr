@@ -15,6 +15,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[aff-c60-specifications-at-a-glance]]
 == AFF C60 사양 한눈에 보기
 
 * 플랫폼 구성: AFF C60 단일 섀시 HA 쌍
@@ -28,6 +29,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[scaleout-maximums]]
 == 스케일아웃 최대값
 
 * 유형: NAS; HA 쌍: 4; 원시 용량: 29.5PB / 26.2PiB; 최대 메모리: 512GB
@@ -37,16 +39,19 @@ summary: AFF C60의 주요 사양
 
 
 
+[[io]]
 == 입출력
 
 
 
+[[onboard-io]]
 === 온보드 I/O
 
 온보드 I/O 데이터가 없습니다.
 
 
 
+[[total-io]]
 === 총 I/O
 
 * 프로토콜: 이더넷 100Gbps; 포트: 16
@@ -59,6 +64,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[management-ports]]
 === 관리 포트
 
 * 프로토콜: 이더넷 1Gbps; 포트: 2개
@@ -68,6 +74,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[storage-networking-supported]]
 == 스토리지 네트워킹 지원
 
 * CIFS
@@ -91,6 +98,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[system-environment-specifications]]
 == 시스템 환경 사양
 
 * 일반적인 전력: 2892 BTU/hr
@@ -106,6 +114,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[compliance]]
 == 규정 준수
 
 * 인증 EMC/EMI: AMCA, FCC, ICES, KC, 모로코, VCCI
@@ -118,6 +127,7 @@ summary: AFF C60의 주요 사양
 
 
 
+[[high-availability]]
 == 고가용성
 
 * 이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스

@@ -11,6 +11,7 @@
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -147,6 +148,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 ====
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 내의 구성 요소에 액세스하려면 먼저 시스템에서 컨트롤러 모듈을 분리한 다음 컨트롤러 모듈의 덮개를 분리해야 합니다.
@@ -201,6 +203,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-3-replace-the-dimms]]
 == 3단계: DIMM을 교체합니다
 
 DIMM을 교체하려면 컨트롤러 내부에서 DIMM을 찾은 후 특정 단계를 따르십시오.
@@ -260,6 +263,7 @@ IMPORTANT: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는
 
 
 
+[[step-4-install-the-controller]]
 == 4단계: 컨트롤러를 설치합니다
 
 컨트롤러 모듈에 구성 요소를 설치한 후에는 컨트롤러 모듈을 시스템 섀시에 다시 설치하고 운영 체제를 부팅해야 합니다.
@@ -339,6 +343,7 @@ IMPORTANT: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 
 
 
 
+[[step-5-run-system-level-diagnostics]]
 == 5단계: 시스템 수준 진단 프로그램을 실행합니다
 
 새 DIMM을 설치한 후 진단 유틸리티를 실행해야 합니다.
@@ -445,6 +450,7 @@ Giveback을 수행합니다. `storage failover giveback -ofnode replacement_node
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

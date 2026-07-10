@@ -22,6 +22,7 @@ summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에�
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -94,6 +95,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 
+[[step-2-replace-a-failed-io-module]]
 == 2단계: 장애가 발생한 입출력 모듈을 교체합니다
 
 .단계
@@ -148,6 +150,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-3-reboot-the-controller]]
 == 3단계: 컨트롤러를 재부팅합니다
 
 I/O 모듈을 교체한 후에는 컨트롤러를 재부팅해야 합니다.
@@ -177,6 +180,7 @@ NOTE: 손상된 컨트롤러를 재부팅하면 I/O 모듈 및 기타 구성 요
 
 
 
+[[step-4-return-the-failed-part-to-netapp]]
 == 4단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

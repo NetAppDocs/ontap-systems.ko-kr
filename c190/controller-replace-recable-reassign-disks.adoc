@@ -15,6 +15,7 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 
 
+[[step-1-recable-the-system]]
 == 1단계: 시스템 회수
 
 컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인하려면 다음을 사용하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .
@@ -28,6 +29,7 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 
 
+[[step-2-verifying-the-system-id-change-on-an-ha-system]]
 == 2단계: HA 시스템에서 시스템 ID 변경 확인
 
 스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. _replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.

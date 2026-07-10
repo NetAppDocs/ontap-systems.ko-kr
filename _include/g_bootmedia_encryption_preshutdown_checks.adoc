@@ -8,6 +8,7 @@
 
 
 
+[[check-nve-or-nse-on-systems]]
 == 시스템에서 NVE 또는 NSE를 확인합니다
 
 <stdin>-include:../_include/encryption_check_915_later.adoc[]

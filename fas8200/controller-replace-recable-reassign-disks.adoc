@@ -15,6 +15,7 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 
 
+[[step-1-recable-the-system]]
 == 1단계: 시스템 회수
 
 컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인하려면 다음을 사용하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .
@@ -28,12 +29,14 @@ summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야
 
 
 
+[[step-2-reassign-disks]]
 == 2단계: 디스크를 재할당합니다
 
 스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 구성에 맞는 절차를 사용해야 합니다.
 
 
 
+[[option-1-verify-the-system-id-change-on-an-ha-system]]
 === 옵션 1: HA 시스템의 시스템 ID 변경을 확인합니다
 
 _replacement_controller를 부팅할 때 시스템 ID 변경을 확인한 다음 변경이 구현되었는지 확인해야 합니다.
@@ -123,6 +126,7 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 
 
 
+[[option-2-manually-reassign-the-system-id-on-systems-in-a-two-node-metrocluster-configuration]]
 === 옵션 2: 2노드 MetroCluster 구성의 시스템에서 시스템 ID를 수동으로 재할당합니다
 
 ONTAP를 실행하는 2노드 MetroCluster 구성에서는 시스템을 정상 운영 상태로 되돌리기 전에 디스크를 새 컨트롤러의 시스템 ID로 수동으로 재할당해야 합니다.

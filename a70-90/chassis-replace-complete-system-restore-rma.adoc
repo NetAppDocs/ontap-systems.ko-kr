@@ -15,6 +15,7 @@ summary: 컨트롤러를 재부팅하고 시스템 상태를 확인한 다음 �
 
 
 
+[[step-1-boot-the-controllers-and-perform-giveback]]
 == 1단계: 컨트롤러를 부팅하고 giveback을 수행합니다.
 
 컨트롤러에서 ONTAP 부팅하고 컨트롤러 반환을 수행하여 스토리지 소유권을 반환합니다.
@@ -36,12 +37,14 @@ summary: 컨트롤러를 재부팅하고 시스템 상태를 확인한 다음 �
 
 
 
+[[step-2-verify-storage-system-health]]
 == 2단계: 스토리지 시스템 상태 확인
 
 컨트롤러 반환이 완료된 후 다음을 사용하여 시스템 상태를 확인하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .  발견된 문제점을 해결하세요.
 
 
 
+[[step-3-return-the-failed-part-to-netapp]]
 == 3단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

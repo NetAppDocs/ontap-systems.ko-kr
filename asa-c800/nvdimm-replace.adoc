@@ -20,6 +20,7 @@ ASA C800 시스템에서 플래시 메모리의 수명이 거의 다 되었거�
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -92,6 +93,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 
+[[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하거나 컨트롤러 모듈 내부에 있는 구성요소를 교체할 때 섀시에서 컨트롤러 모듈을 분리해야 합니다.
@@ -180,6 +182,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-3-replace-the-nvdimm]]
 == 3단계: NVDIMM을 교체합니다
 
 에어덕트 상단에 있는 NVDIMM 맵 라벨을 사용하여 컨트롤러 모듈에서 NVDIMM을 찾은 다음 다시 장착하십시오.
@@ -240,6 +243,7 @@ NOTE: NVDIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지
 
 
 
+[[step-4-reinstall-the-controller-module-and-booting-the-system]]
 == 4단계: 컨트롤러 모듈을 다시 설치하고 시스템을 부팅합니다
 
 컨트롤러 모듈을 다시 설치하고 재부팅합니다.
@@ -288,6 +292,7 @@ NOTE: 커넥터가 손상되지 않도록 컨트롤러 모듈을 섀시에 밀�
 
 
 
+[[step-5-return-the-failed-part-to-netapp]]
 == 5단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

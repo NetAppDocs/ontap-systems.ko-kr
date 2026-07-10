@@ -20,6 +20,7 @@ summary: 'NVRAM 모듈은 NVRAM12와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -166,12 +167,16 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 ====
 
 
+[[step-2-replace-the-nvram-module-or-nvram-dimm]]
 == 2단계: NVRAM 모듈 또는 NVRAM DIMM을 교체합니다
 
 적절한 옵션을 사용하여 NVRAM 모듈이나 NVRAM DIMM을 교체합니다.
 
 
 CAUTION: 설치 및 유지보수 절차를 수행하는 동안에는 항상 검증된 접지점에 연결된 접지 손목 스트랩을 착용하십시오. 적절한 ESD 예방 조치를 따르지 않으면 컨트롤러 노드, 스토리지 셸프 및 네트워크 스위치가 영구적으로 손상될 수 있습니다.
+
+
+WARNING: NVRAM 모듈은 핫스왑을 지원하지 않습니다. 교체하기 전에 드라이브를 다시 장착하고 노드를 종료한 다음 컨트롤러 전원을 분리하고 컨트롤러를 섀시에서 몇 인치 꺼내십시오.
 
 [role="tabbed-block"]
 ====
@@ -296,7 +301,7 @@ NOTE: DC 전원 공급 장치가 있는 경우 전원 블록을 전원 공급 �
 --
 .옵션 2: NVRAM DIMM을 교체합니다
 --
-NVRAM 모듈에서 NVRAM DIMM을 교체하려면 먼저 NVRAM 모듈을 분리한 다음 대상 DIMM을 교체해야 합니다.
+NVRAM 모듈에서 NVRAM DIMM을 교체하려면 먼저 NVRAM 모듈을 제거한 다음 대상 DIMM을 교체해야 합니다.
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 섀시의 모든 드라이브가 중앙판에 단단히 장착되어 있는지 확인합니다. 엄지 손가락으로 각 드라이브를 눌러 멈춤 상태가 될 때까지 누릅니다.
@@ -368,7 +373,9 @@ image::../media/drw_a70-90_nvram12_remove_replace_ieops-1370.svg[NVRAM12 모듈 
 
  a| 
 image:../media/icon_round_1.png["설명선 번호 1"]
-| 캠 잠금 버튼 
+ a| 
+캠 잠금 버튼
+
 
 
  a| 
@@ -420,6 +427,7 @@ NOTE: DC 전원 공급 장치가 있는 경우 전원 블록을 전원 공급 �
 ====
 
 
+[[step-3-reassign-disks]]
 == 3단계: 디스크를 다시 할당합니다
 
 컨트롤러를 부팅할 때 시스템 ID 변경을 확인한 다음 변경 사항이 구현되었는지 확인해야 합니다.
@@ -453,8 +461,10 @@ node2             node1             -            Waiting for giveback (HA mailbo
 ----
 . 컨트롤러를 다시 제공합니다.
 +
-.. 건강한 컨트롤러에서 교체된 컨트롤러의 스토리지를 다시 제공합니다: +
+.. 정상 작동하는 컨트롤러에서 교체된 컨트롤러의 스토리지를 반환하십시오.
++
 `storage failover giveback -ofnode replacement_node_name`
+
 +
 컨트롤러가 스토리지를 다시 가져와 부팅을 완료합니다.
 
@@ -545,6 +555,7 @@ dr-group-id            cluster node           configuration-state
 
 
 
+[[step-4-return-the-failed-part-to-netapp]]
 == 4단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

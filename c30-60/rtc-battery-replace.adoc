@@ -29,6 +29,7 @@ summary: '정확한 시간 동기화에 의존하는 서비스 및 애플리케�
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -175,6 +176,7 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 ====
 
 
+[[step-2-remove-the-controller]]
 == 2단계: 컨트롤러를 제거합니다
 
 컨트롤러를 교체하거나 컨트롤러 내의 구성 요소를 교체할 때 섀시에서 컨트롤러를 제거해야 합니다.
@@ -286,6 +288,7 @@ image::../media/icon_round_3.png[설명선 번호 3]
 
 
 
+[[step-3-replace-the-rtc-battery]]
 == 3단계: RTC 배터리를 교체합니다
 
 고장난 RTC 배터리를 제거하고 교체용 RTC 배터리를 설치합니다.
@@ -331,6 +334,7 @@ RTC 배터리를 들어 올려 홀더에서 빼냅니다.
 
 
 
+[[step-4-reinstall-the-controller]]
 == 4단계: 컨트롤러를 다시 설치합니다
 
 컨트롤러를 섀시에 재설치하고 재부팅합니다.
@@ -437,6 +441,7 @@ DC PSU입니다
 
 
 
+[[step-5-reset-the-time-and-date-on-the-controller]]
 == 단계 5: 컨트롤러의 시간과 날짜를 재설정합니다
 
 
@@ -473,6 +478,7 @@ NOTE: 부팅 메뉴에서 스토리지 시스템이 중지된 경우 메시지�
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

@@ -6,6 +6,7 @@
 
 
 
+[[step-1-recable-the-system]]
 == 1단계: 시스템 회수
 
 컨트롤러 모듈의 스토리지 및 네트워크 연결을 확인하려면 다음을 사용하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .
@@ -19,6 +20,7 @@
 
 
 
+[[step-2-reassign-disks]]
 == 2단계: 디스크를 재할당합니다
 
 사용하는 절차는 컨트롤러 중복성 구성에 따라 달라집니다.

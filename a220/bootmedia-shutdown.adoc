@@ -15,6 +15,7 @@ summary: 스토리지 시스템 하드웨어 구성에 따라 서로 다른 절�
 
 
 
+[[option-1-most-configurations]]
 == 옵션 1: 대부분의 구성
 
 손상된 컨트롤러를 LOADER 프롬프트까지 정지시키고 부팅 환경 변수를 캡처하여 완전히 종료하십시오. LOADER 프롬프트는 부팅 미디어를 교체할 수 있는 안전한 정지 상태입니다.
@@ -58,6 +59,7 @@ NOTE: 이 명령은 부팅 장치가 손상되었거나 작동하지 않는 경�
 
 
 
+[[option-2-controller-is-in-a-metrocluster]]
 == 옵션 2: 컨트롤러가 MetroCluster에 있습니다
 
 NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.

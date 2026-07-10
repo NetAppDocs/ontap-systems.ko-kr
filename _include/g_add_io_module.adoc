@@ -24,12 +24,14 @@
 
 
 
+[[option-1-add-io-modules-to-a-storage-system-with-available-slots]]
 == 옵션 1: 사용 가능한 슬롯이 있는 스토리지 시스템에 입출력 모듈을 추가합니다
 
 각 컨트롤러의 사용 가능한 슬롯에 I/O 모듈을 추가할 수 있습니다.
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 === 1단계: 손상된 컨트롤러를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -161,6 +163,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 ====
 
 
+[[step-2-add-io-modules-to-available-slots]]
 === 2단계: 사용 가능한 슬롯에 입출력 모듈 추가
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
@@ -215,6 +218,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[option-2-add-io-modules-in-a-storage-system-with-unavailable-slots]]
 == 옵션 2: 사용할 수 없는 슬롯이 있는 스토리지 시스템에 입출력 모듈을 추가합니다
 
 기존 입출력 모듈을 제거하고 다른 입출력 모듈로 교체하여 완전히 채워진 스토리지 시스템에 입출력 모듈을 추가할 수 있습니다.
@@ -250,6 +254,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 === 1단계: 손상된 컨트롤러를 종료합니다
 
 다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.
@@ -381,6 +386,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 ====
 
 
+[[step-2-add-io-modules-to-unavailable-slots]]
 === 2단계: 사용할 수 없는 슬롯에 입출력 모듈을 추가합니다
 
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.

@@ -15,6 +15,7 @@ summary: 디스크 쉘프 구성 요소의 상태 및 위치를 이해하면 디
 
 
 
+[[operator-display-panel-leds]]
 == 오퍼레이터 디스플레이 패널 LED
 
 디스크 쉘프 전면 운영자 디스플레이 패널의 LED는 디스크 쉘프가 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.
@@ -75,6 +76,7 @@ image::../media/drw_opd.gif[엔드 캡 작업자 디스플레이]
 
 
 
+[[iom12-iom12b-or-iom12c-module-leds]]
 == IOM12, IOM12B 또는 IOM12C 모듈 LED
 
 IOM12, IOM12B 또는 IOM12C 모듈의 LED는 모듈이 정상적으로 작동하는지, I/O 트래픽을 처리할 준비가 되었는지, 하드웨어에 문제가 있는지 여부를 나타냅니다.
@@ -140,6 +142,7 @@ image::../media/drw_iom12c_ieops-2175.svg[IOM12C 모듈,828px,147px]
 
 
 
+[[power-supply-leds]]
 == 전원 공급 장치 LED
 
 전원 공급 장치의 LED는 전원 공급 장치가 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.
@@ -193,6 +196,7 @@ image::../media/drw_powersupply_913w_vsd.gif[전원 공급 장치 LED]
 
 
 
+[[fan-leds-on-ds460c-disk-shelves]]
 == DS460C 디스크 쉘프의 팬 LED
 
 DS460C 팬의 LED는 팬이 정상적으로 작동하는지 또는 하드웨어 문제가 있는지 여부를 나타냅니다.
@@ -220,12 +224,14 @@ image::../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[팬
 
 
 
+[[disk-drive-leds]]
 == 디스크 드라이브 LED
 
 디스크 드라이브의 LED는 정상 작동 중인지 또는 하드웨어에 문제가 있는지 여부를 나타냅니다.
 
 
 
+[[disk-drive-leds-for-ds224c-and-ds212c-disk-shelves]]
 === DS224C 및 DS212C 디스크 쉘프용 디스크 드라이브 LED
 
 다음 표에서는 DS224C 및 DS212C 디스크 쉘프에서 사용되는 디스크 드라이브의 LED 두 개에 대해 설명합니다.
@@ -277,6 +283,7 @@ image::../media/drw_diskdrive_ds212c.gif[수평 드라이브 캐리어 LED]
 
 
 
+[[disk-drive-leds-for-ds460c-disk-shelves]]
 === DS460C 디스크 쉘프용 디스크 드라이브 LED
 
 다음 그림 및 표에서는 드라이브 드로어의 드라이브 활동 LED 및 작동 상태를 설명합니다.

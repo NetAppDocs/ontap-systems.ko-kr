@@ -15,6 +15,7 @@
 
 
 
+[[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.
@@ -187,6 +188,7 @@ mcc1A::> metrocluster operation show
 ====
 
 
+[[step-2-replace-or-add-a-caching-module]]
 == 2단계: 캐싱 모듈을 교체하거나 추가하십시오
 
 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)은 개별 모듈입니다. NVRAM 모듈의 전면에 있습니다. 캐시 모듈을 교체하거나 추가하려면 슬롯 6의 시스템 뒷면에서 캐시 모듈을 찾은 다음 특정 순서에 따라 교체하십시오.
@@ -247,6 +249,7 @@ NVRAM10 모듈에서 제거할 때 캐싱 모듈을 지원해야 합니다.
 
 
 
+[[step-3-add-or-replace-an-x9170a-core-dump-module]]
 == 3단계: X9170A 코어 덤프 모듈을 추가하거나 교체합니다
 
 1TB 캐시 코어 덤프 X9170A는 AFF A700 시스템에서만 사용됩니다. 코어 덤프 모듈을 핫 스왑할 수 없습니다. 코어 덤프 모듈은 일반적으로 시스템 후면의 슬롯 6-1에 있는 NVRAM 모듈 전면에 있습니다. 코어 덤프 모듈을 교체하거나 추가하려면 슬롯 6-1을 찾은 다음 특정 순서에 따라 추가 또는 교체합니다.
@@ -305,6 +308,7 @@ NOTE: 코어 덤프 모듈을 꺼낼 때 번호가 매겨진 입출력부 래치
 
 
 
+[[step-4-reboot-the-controller-after-fru-replacement]]
 == 4단계: FRU 교체 후 컨트롤러를 재부팅합니다
 
 FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
@@ -315,6 +319,7 @@ FRU를 교체한 후에는 컨트롤러 모듈을 재부팅해야 합니다.
 
 
 
+[[step-5-switch-back-aggregates-in-a-two-node-metrocluster-configuration]]
 == 5단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
@@ -371,6 +376,7 @@ Remote: cluster_A configured      		normal
 
 
 
+[[step-6-return-the-failed-part-to-netapp]]
 == 6단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

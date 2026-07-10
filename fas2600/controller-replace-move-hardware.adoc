@@ -17,6 +17,7 @@ link:https://youtu.be/2_uWRt_iJqk["AFF FAS2600 컨트롤러 교체 비디오"]
 
 
 
+[[step-1-remove-controller-module]]
 == 1단계: 컨트롤러 모듈을 분리합니다
 
 컨트롤러 모듈을 교체하려면 먼저 섀시에서 이전 컨트롤러 모듈을 분리해야 합니다.
@@ -45,6 +46,7 @@ image::../media/drw_2600_opening_pcm_cover.png[컨트롤러 모듈 열기 또는
 
 
 
+[[step-2-move-the-boot-media]]
 == 2단계: 부팅 미디어를 이동합니다
 
 부팅 미디어를 찾아 지침에 따라 이전 컨트롤러 모듈에서 분리한 다음 새 컨트롤러 모듈에 삽입해야 합니다.
@@ -69,6 +71,7 @@ NOTE: 부트 미디어가 소켓 또는 부트 미디어를 손상시킬 수 있
 
 
 
+[[step-3-move-the-nvmem-battery]]
 == 3단계: NVMEM 배터리를 이동합니다
 
 NVMEM 배터리를 이전 컨트롤러 모듈에서 새 컨트롤러 모듈로 이동하려면 특정 시퀀스 단계를 수행해야 합니다.
@@ -109,6 +112,7 @@ image::../media/drw_2600_nvmem_battery_move_animated_gif.png[NVMEM 배터리 교
 
 
 
+[[step-4-move-the-dimms]]
 == 4단계: DIMM을 이동합니다
 
 DIMM을 이동하려면 지침에 따라 이전 컨트롤러 모듈을 찾아 교체 컨트롤러 모듈로 이동해야 합니다.
@@ -152,6 +156,7 @@ NOTE: DIMM이 균일하게 정렬되어 슬롯에 완전히 삽입되었는지 �
 
 
 
+[[step-5-move-the-caching-module]]
 == 5단계: 캐싱 모듈을 이동합니다
 
 컨트롤러의 레이블에 M.2 PCIe 카드라고 하는 캐싱 모듈을 이동하려면 이전 컨트롤러에서 교체 컨트롤러로 이동하여 특정 단계를 따릅니다.
@@ -180,6 +185,7 @@ image::../media/drw_2600_fcache.png[캐시 모듈 제거]
 
 
 
+[[step-6-install-the-controller]]
 == 6단계: 컨트롤러를 설치합니다
 
 이전 컨트롤러 모듈의 구성 요소를 새 컨트롤러 모듈에 설치한 후 새 컨트롤러 모듈을 시스템 섀시에 설치하고 운영 체제를 부팅해야 합니다.

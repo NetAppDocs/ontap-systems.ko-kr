@@ -15,6 +15,7 @@ summary: 키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 
 
 
 
+[[step-1-verify-and-set-the-ha-state-of-the-chassis]]
 == 1단계: 섀시의 HA 상태를 확인하고 설정합니다
 
 .단계
@@ -44,12 +45,14 @@ HA 상태의 값은 다음 중 하나일 수 있습니다.
 
 
 
+[[step-2-verify-storage-system-health]]
 == 2단계: 스토리지 시스템 상태 확인
 
 컨트롤러 반환이 완료된 후 다음을 사용하여 시스템 상태를 확인하십시오. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Active IQ Config Advisor"] .  발견된 문제점을 해결하세요.
 
 
 
+[[step-3-return-the-failed-part-to-netapp]]
 == 3단계: 장애가 발생한 부품을 NetApp에 반환
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

@@ -10,6 +10,7 @@ summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다.
 
 
 
+[[shutdown-the-controllers-asa-a900]]
 == 컨트롤러 종료 - ASA A900
 
 [role="lead"]

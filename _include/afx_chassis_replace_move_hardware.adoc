@@ -4,6 +4,7 @@
 
 
 
+[[step-1-remove-the-psus-and-cables]]
 == 1단계: PSU 및 케이블을 분리합니다
 
 컨트롤러를 제거하기 전에 두 개의 전원 공급 장치(PSU)를 제거해야 합니다.
@@ -49,6 +50,7 @@ NOTE: 이 절차를 시작할 때 케이블에 레이블이 부착되어 있어�
 
 
 
+[[step-2-remove-the-io-cards-nvram12-and-system-management-module]]
 == 2단계: I/O 카드, NVRAM12 및 시스템 관리 모듈 제거
 
 . 섀시에서 대상 I/O 모듈을 분리합니다.
@@ -124,6 +126,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 
 
 
+[[step-3-remove-the-controller-module]]
 == 3단계: 컨트롤러 모듈을 분리합니다
 
 . 장치 전면에서 잠금 캠의 구멍에 손가락을 걸고 캠 레버의 탭을 누르면서 동시에 두 래치를 사용자 쪽으로 단단히 돌립니다.
@@ -150,6 +153,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-4-replace-the-impaired-chassis]]
 == 4단계: 손상된 섀시 교체
 
 손상된 섀시를 분리하고 교체용 섀시를 설치합니다.
@@ -172,6 +176,7 @@ image:../media/icon_round_1.png["설명선 번호 1"]
 
 
 
+[[step-5-install-the-chassis-components]]
 == 5단계: 섀시 구성 요소 설치
 
 교체용 섀시를 설치한 후에는 컨트롤러 모듈을 설치하고, I/O 모듈과 시스템 관리 모듈을 다시 연결한 다음 PSU를 다시 설치하고 연결해야 합니다.

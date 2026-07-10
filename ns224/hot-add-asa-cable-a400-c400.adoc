@@ -15,6 +15,7 @@ NS224 쉘프를 ASA A400 또는 ASA C400 시스템에 케이블로 연결하여 
 
 
 
+[[cable-shelf-to-an-a400-ha-pair]]
 == A400 HA 쌍에 쉘프 케이블 연결
 
 AFF A400 HA 쌍의 경우 최대 2개의 쉘프를 핫 애드할 수 있으며 필요에 따라 온보드 포트 e0c/e0d 및 슬롯 5의 포트를 사용할 수 있습니다.
@@ -81,6 +82,7 @@ image::../media/drw_ns224_a400_2shelves_IEOPS-983.svg[NS224 쉘프 2개, 온보�
 
 
 
+[[cable-shelf-to-a-c400-ha-pair]]
 == C400 HA 쌍에 쉘프 케이블 연결
 
 AFF C400 HA 쌍의 경우 최대 2개의 쉘프를 핫 애드할 수 있으며 필요에 따라 슬롯 4와 5의 포트를 사용할 수 있습니다.

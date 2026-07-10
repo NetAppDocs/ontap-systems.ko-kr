@@ -15,6 +15,7 @@ summary: 이 섹션에서는 AFF C190 시스템을 설치하는 방법에 대한
 
 
 
+[[step-1-prepare-for-installation]]
 == 1단계: 설치 준비
 
 AFF C190 시스템을 설치하려면 계정을 만들고 시스템을 등록하십시오. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.
@@ -135,6 +136,7 @@ image:../media/oie_cable_power.png["전원 케이블"]
 
 
 
+[[step-2-install-the-hardware]]
 == 2단계: 하드웨어 설치
 
 필요에 따라 4-포스트 랙 또는 NetApp 시스템 캐비닛에 시스템을 설치합니다.
@@ -158,6 +160,7 @@ image::../media/drw_cable_management_arm_install.png[케이블 관리 장치 연
 
 
 
+[[step-3-cable-controllers-to-your-network]]
 == 3단계: 컨트롤러를 네트워크에 케이블로 연결합니다
 
 스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.
@@ -327,6 +330,7 @@ IMPORTANT: 이때 전원 코드를 꽂지 마십시오.
 ====
 
 
+[[step-4-complete-system-setup]]
 == 4단계: 시스템 설치를 완료합니다
 
 스위치 및 랩톱에 대한 연결만 제공하는 클러스터 검색을 사용하거나 시스템의 컨트롤러에 직접 연결한 다음 관리 스위치에 연결하여 시스템 설치 및 구성을 완료합니다.
