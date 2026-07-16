@@ -54,7 +54,7 @@ image::../media/drw_a70-90_weight_icon_ieops-1730.svg[AFF A90 AFF A70 및 C80 �
 
 NS224 선반의 무게는 최대 30.29kg(66.78lbs)입니다. 선반을 인양하려면 두 사람이 함께 작업하거나 유압식 리프트를 사용하십시오. 선반 무게의 균형을 맞추기 위해 모든 구성 요소를 선반(전면 및 후면 모두)에 보관하십시오.
 
-image::../media/drw_ns224_lifting_weight_ieops-1716.svg[NS224 NSM100 인양 주의]
+image::../media/drw_ns224_lifting_weight_2_ieops-2960.svg[NS224 NSM100 인양 주의]
 
 .관련 정보
 * https://library.netapp.com/ecm/ecm_download_file/ECMP12475945["안전 정보 및 규정 고지"^]

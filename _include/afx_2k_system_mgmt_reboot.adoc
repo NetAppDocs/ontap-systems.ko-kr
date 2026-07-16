@@ -1,0 +1,44 @@
+= 
+:allow-uri-read: 
+
+
+시스템 관리 모듈을 교체한 후에는 컨트롤러를 재부팅하여 정상적인 HA 페어 작동을 복원하십시오. 컨트롤러 전원을 켜고 부분 기브백을 수행하여 루트 애그리게이트를 불러온 다음 전체 기브백을 완료하여 손상된 컨트롤러를 서비스 상태로 되돌려야 합니다.
+
+.단계
+. 전원 케이블을 PSU에 다시 꽂으세요.
++
+시스템은 일반적으로 LOADER 프롬프트로 재부팅됩니다.
+
+. LOADER 프롬프트에서 _bye_를 입력합니다.
+. 콘솔 메시지가 중지되면 <enter> 키를 누릅니다.
++
+** _로그인_ 프롬프트가 표시되면 다음 단계로 넘어가세요.
+** 로그인 프롬프트가 나타나지 않으면 파트너 노드에 로그인하세요.
+
+
+. override-destination-checks 옵션을 사용하여 루트만 반환:
++
+`storage failover giveback -ofnode impaired-node -only-root true -override -destination-checks true`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.  권한 수준에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/system-admin/administrative-privilege-levels-concept.html["ONTAP CLI 명령에 대한 권한 수준을 이해합니다."^] .
+
++
+오류가 발생하면 에 문의하십시오 https://support.netapp.com["NetApp 지원"].
+
+. 반환 보고서가 완료된 후 5분간 기다린 다음 장애 조치 및 반환 상태를 확인하세요.
++
+`storage failover show`그리고 `storage failover show-giveback`
+
++
+
+NOTE: 다음 명령은 진단 모드 권한 수준에서만 사용할 수 있습니다.
+
+. 손상된 컨트롤러를 다시 설치하여 정상 작동으로 되돌립니다.
++
+'Storage failover 반환 - ofnode_impaired_node_name_'
+
+. 자동 환불이 비활성화된 경우 다시 활성화하세요. `storage failover modify -node local -auto-giveback-of true` .
+. AutoSupport가 활성화된 경우 자동 케이스 생성을 복원/억제 해제: `system node autosupport invoke -node * -type all -message MAINT=END`
+

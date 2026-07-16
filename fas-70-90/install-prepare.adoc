@@ -136,4 +136,4 @@ image::../media/drw_ssn_label.svg[번호 위치를 보여 주는 시스템 일�
 
 
 .다음 단계
-FAS70 또는 FAS90 하드웨어를 설치할 준비가 되면 link:install-hardware.html["FAS70 또는 FAS90 스토리지 시스템용 하드웨어를 설치합니다"]됩니다.
+FAS70 또는 FAS90 하드웨어 설치를 준비한 후 link:install-hardware.html["FAS70 또는 FAS90 스토리지 시스템용 하드웨어를 설치합니다"].

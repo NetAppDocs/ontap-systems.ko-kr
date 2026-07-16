@@ -2,7 +2,7 @@
 permalink: fas-70-90/install-hardware.html 
 sidebar: sidebar 
 keywords: fas70, fas90, install hardware, telco rack 
-summary: 스토리지 시스템을 캐비닛 또는 통신 랙에 설치합니다. 
+summary: 스토리지 시스템을 캐비닛이나 통신 랙에 설치하십시오. 
 ---
 = 하드웨어 FAS70 및 FAS90 설치
 :allow-uri-read: 
@@ -47,7 +47,7 @@ image::../media/drw_affa1k_install_cable_mgmt_ieops-1697.svg[케이블 관리 �
 .. 포함된 장착 나사를 사용하여 캐비닛이나 텔코 랙에 쉘프를 고정합니다.
 +
 .다음 단계
-FAS70 또는 FAS90 스토리지 시스템용 하드웨어를 설치한 후에는link:install-cable.html["FAS70 또는 FAS90 스토리지 시스템용 하드웨어를 케이블로 연결합니다."]
+FAS70 또는 FAS90 스토리지 시스템의 하드웨어를 설치한 후 link:install-cable.html["FAS70 또는 FAS90 스토리지 시스템의 하드웨어 케이블 연결"].
 
 
 
