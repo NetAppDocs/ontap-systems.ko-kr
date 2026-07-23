@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러 교체를 완료하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 새 컨트롤러의 일련 번호를 등록하고 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 전체 컨트롤러 교체 - AFF A20, AFF A30 및 AFF A50
+= AFF A20, AFF A30 또는 AFF A50 시스템의 컨트롤러 교체를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

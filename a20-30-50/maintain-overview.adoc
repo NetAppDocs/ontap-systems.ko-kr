@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20 aff a30 aff a50 maintenance, maintenance, repairing a20 aff a30 aff a50, replace a20 aff a30 aff a50 components 
 summary: 장기적인 안정성과 최적의 성능을 보장하기 위해 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 하드웨어를 유지 관리합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= AFF A20, AFF A30 및 AFF A50 유지 관리 절차 개요
+= AFF A20, AFF A30 또는 AFF A50 스토리지 시스템 유지 관리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a400, aff, a400, boot, media, store, primary, secondary, set, system, boot, image, file, replace, replace the boot media 
 summary: 부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템 파일 세트가 저장됩니다. 
 ---
-= 부팅 미디어 교체 개요 - AFF A400
+= AFF A400 시스템의 부팅 미디어 교체 요구 사항 검토
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A400 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 ONTAP 복구 이미지를 저장할 수 있는 충분한 용량을 가진 FAT32 형식으로 포맷된 USB 플래시 드라이브가 필요하며, 시스템 중단 없이 교체할지 또는 시스템 중단을 통해 교체할지 결정해야 합니다.
+
 부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 시스템(부팅 이미지) 파일 세트를 저장합니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 없는 교체를 수행할 수 있습니다.
 
 [NOTE]

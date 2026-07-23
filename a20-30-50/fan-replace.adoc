@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, aff, swap, out, fan, module, interrupt, service, sequence, task, hot-swap, hot-swap a fan module 
 summary: 팬이 고장나거나 효율적으로 작동하지 않는 경우 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 팬 모듈을 교체하세요. 이는 시스템 냉각 및 전반적인 성능에 영향을 미칠 수 있습니다.  교체 프로세스에는 컨트롤러를 종료하고, 컨트롤러를 제거하고, 팬을 교체하고, 컨트롤러를 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다. 
 ---
-= 팬 모듈(AFF A20, AFF A30 및 AFF A50)을 교체합니다
+= AFF A20, AFF A30 또는 AFF A50 시스템에서 팬 모듈을 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -115,7 +115,7 @@ NOTE: 부트 미디어가 소켓 또는 부트 미디어를 손상시킬 수 있
 .단계
 . 포맷된 USB 플래시 드라이브에 해당 ONTAP 이미지 버전을 다운로드합니다.
 +
-.. 사용 https://kb.netapp.com/onprem/ontap/dm/Encryption/How_to_determine_if_the_running_ONTAP_version_supports_NetApp_Volume_Encryption_(NVE)["실행 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하는 방법"^] 볼륨 암호화가 현재 지원되는지 확인합니다.
+..  https://kb.netapp.com/on-prem/ontap/DM/Encryption/Encryption-KBs/How_to_determine_if_the_running_ONTAP_version_supports_Data_At_Rest_Encryption["사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하는 방법"^]를 사용하여 볼륨 암호화가 현재 지원되는지 여부를 확인합니다.
 +
 *** 클러스터에서 NVE가 지원되는 경우 NetApp 볼륨 암호화로 이미지를 다운로드합니다.
 *** 클러스터에서 NVE가 지원되지 않는 경우 NetApp 볼륨 암호화 없이 이미지를 다운로드합니다.

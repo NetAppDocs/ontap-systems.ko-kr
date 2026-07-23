@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, shut, down, impaired, controller, take, over 
 summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
 ---
-= 손상된 컨트롤러 AFF A150을 종료합니다
+= AFF A150 시스템의 수동 부팅 복구 과정 중에 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+데이터 손실을 방지하고 수동 부팅 복구 과정 중 시스템 안정성을 유지하려면 AFF A150 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.
 
 
 

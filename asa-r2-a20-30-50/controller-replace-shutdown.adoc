@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, shut down the impaired controller 
 summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 유지합니다. 
 ---
-= 손상된 컨트롤러(ASA A20, ASA A30 및 ASA A50)를 종료합니다
+= ASA A20, ASA A30 또는 ASA A50 시스템에서 손상된 컨트롤러를 교체하기 전에 전원을 끄십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a250, detailed installation 
 summary: 이 섹션에서는 AFF A250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다. 
 ---
-= 상세 단계 - AFF A250
+= 자세한 단계별 지침에 따라 AFF A250 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 섹션에서는 AFF A250 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.
+AFF A250 스토리지 시스템을 설치하려면 사이트 준비부터 ONTAP 클러스터 가동까지 이 상세한 단계별 지침을 따르십시오.
 
 
 

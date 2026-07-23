@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: AFF A1K 시스템의 컨트롤러 교체를 완료하려면 NetApp Storage Encryption 구성을 복원하고, 논리 인터페이스가 홈 포트로 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 전체 컨트롤러 교체 - AFF A1K
+= AFF A1K 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

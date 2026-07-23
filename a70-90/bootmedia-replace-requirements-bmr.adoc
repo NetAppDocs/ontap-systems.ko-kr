@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, replace the boot media 
 summary: AFF A70 또는 AFF A90 스토리지 시스템의 부트 미디어를 교체하기 전에 요구 사항을 검토하세요. 
 ---
-= 자동 부팅 미디어 복구 요구 사항 - AFF A70 및 AFF A90
+= AFF A70 또는 AFF A90 시스템에서 자동 부팅 미디어 복구를 위한 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a400, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: 'AFF A400 시스템의 컨트롤러 교체를 완료하십시오. 교체 컨트롤러에 대한 라이센스를 설치하고, 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행하십시오. 마지막으로 장애가 발생한 부품을 NetApp에 반환하십시오.' 
 ---
-= 컨트롤러 전체 교체 - AFF A400
+= AFF A400 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

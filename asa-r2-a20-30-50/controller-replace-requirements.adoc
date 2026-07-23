@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, prerequisite, replace the controller module 
 summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 컨트롤러를 가지고 있는지 확인하고, 컨트롤러의 콘솔 출력을 텍스트 로그 파일에 저장하는 것이 포함됩니다. 
 ---
-= 컨트롤러 교체 요구 사항 - ASA A20, ASA A30 및 ASA A50
+= ASA A20, ASA A30 또는 ASA A50 시스템의 컨트롤러를 교체하기 전에 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

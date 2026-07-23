@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
 ---
-= 상세 가이드 - AFF A150
+= 자세한 단계별 지침에 따라 AFF A150 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 섹션에서는 AFF A150 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.
+AFF A150 스토리지 시스템 사이트 준비부터 ONTAP 클러스터 가동까지, 이 상세한 단계별 지침에 따라 AFF A150 스토리지 시스템을 설치하십시오.
 
 MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 설명서"^].
 

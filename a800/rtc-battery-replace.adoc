@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a800, replace the real-time clock battery 
 summary: 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A800 컨트롤러 모듈의 실시간 클록 배터리를 교체하십시오. 
 ---
-= 실시간 시계 배터리 교체 - AFF A800
+= AFF A800 시스템의 실시간 클록 배터리를 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF A800 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.
+정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A800 시스템의 실시간 클록(RTC) 배터리를 교체하십시오.
 
 .시작하기 전에
 * 시스템에서 지원하는 모든 ONTAP 버전에 이 절차를 사용할 수 있다는 점을 이해합니다.

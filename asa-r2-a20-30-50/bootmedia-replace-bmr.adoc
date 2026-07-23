@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, replace the boot media 
 summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈 제거, 손상된 부팅 미디어 제거, 교체용 부팅 미디어 설치, 그리고 컨트롤러 모듈 재설치로 구성됩니다. 
 ---
-= 부팅 미디어(ASA A20, ASA A30 및 ASA A50)를 교체합니다
+= 자동 부팅 복구 프로세스를 사용하여 ASA A20, ASA A30 또는 ASA A50 시스템의 부팅 미디어를 교체하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

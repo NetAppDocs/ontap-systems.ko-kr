@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a250, replace the chassis 
 summary: AFF A250 시스템의 섀시를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, ONTAP에 대한 로컬 관리자 자격 증명, 올바른 교체 섀시 및 필요한 도구가 있는지 확인하는 것이 포함됩니다. 
 ---
-= 섀시 교체 요구 사항 - AFF A250
+= AFF A250 섀시를 교체하기 전에 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

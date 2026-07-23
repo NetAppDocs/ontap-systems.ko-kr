@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, shut down the impaired controller 
 summary: AFF A1K 스토리지 시스템에서 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 유지합니다. 
 ---
-= 손상된 컨트롤러를 종료합니다. - AFF A1K을 종료합니다
+= AFF A1K 시스템에서 손상된 컨트롤러를 교체하기 전에 전원을 끄십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

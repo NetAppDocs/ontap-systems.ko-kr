@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, verify and set HA state, complete the replacement process 
 summary: 섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 ASA A20, ASA A30 및 ASA A50 섀시 교체 절차의 최종 단계를 완료합니다. 
 ---
-= 전체 섀시 교체 - ASA A20, ASA A30 및 ASA A50
+= ASA A20, ASA A30 또는 ASA A50 시스템의 섀시 교체를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, prerequisite, replace the controller module 
 summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
 ---
-= 컨트롤러 모듈 교체 개요 - AFF A150
+= AFF A150 시스템의 컨트롤러 교체 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A150 시스템의 컨트롤러를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 모든 드라이브 쉘프가 제대로 작동하는지, 정상 작동하는 컨트롤러가 손상된 컨트롤러를 인계받을 수 있는지, 그리고 사용 중인 ONTAP 버전에 맞는 올바른 교체 절차를 선택하는지 확인하는 것이 포함됩니다.
+
 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다.
 
 [NOTE]

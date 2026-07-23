@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, shutdown, checks, onboard, encryption, keys, impaired controller, disable, automatic, feedback 
 summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
 ---
-= 암호화 키 지원 및 상태 확인 - AFF A150
+= AFF A150 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.
+AFF A150 스토리지 시스템에서 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp Volume Encryption(NVE)을 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오.
 
 
 

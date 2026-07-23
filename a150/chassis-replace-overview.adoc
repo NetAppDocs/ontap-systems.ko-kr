@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= 섀시 교체 개요 - AFF A150
+= AFF A150 시스템의 섀시 교체 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A150 시스템의 섀시를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 교체 작업이 시스템 운영에 지장을 초래하고 두 컨트롤러를 모두 종료해야 한다는 점을 이해하는 것이 포함됩니다.
+
 섀시를 교체하려면 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 손상된 섀시에서 새 섀시로 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꿔야 합니다.
 
 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.

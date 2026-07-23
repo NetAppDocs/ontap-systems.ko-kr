@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a250, shut down the controller 
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
-= 수동 부팅 미디어 복구를 위해 컨트롤러를 종료하십시오 - AFF A250
+= 수동 부팅 복구 과정 중에 AFF A250 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-자동 부팅 미디어 복구 프로세스 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A250 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.
+AFF A250 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하십시오.
 
 스토리지 시스템이 ONTAP 9.18.1 이상을 실행 중인 경우 link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"]을(를) 사용하십시오. 시스템이 이전 버전의 ONTAP를 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

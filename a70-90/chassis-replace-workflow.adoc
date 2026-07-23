@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, replace the chassis workflow 
 summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시 교체, 시스템 작업 확인을 통해 AFF A70 또는 AFF A90 스토리지 시스템의 섀시 교체를 시작하십시오. 
 ---
-= 섀시 교체 워크플로우 - AFF A70 및 AFF A90
+= AFF A70 및 AFF A90 섀시 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, prepare installation 
 summary: AFF A1K 플랫폼 설치를 준비합니다. 
 ---
-= 설치 준비 - AFF A1K
+= AFF A1K 스토리지 시스템 설치 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: a800, replace the boot media 
 summary: AFF A800 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 
 ---
-= 자동 부팅 미디어 복구 요구 사항 - AFF A800
+= AFF A800 시스템에서 자동 부팅 미디어 복구를 위한 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

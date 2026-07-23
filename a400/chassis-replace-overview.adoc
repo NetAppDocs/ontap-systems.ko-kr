@@ -2,19 +2,25 @@
 permalink: a400/chassis-replace-overview.html 
 sidebar: sidebar 
 keywords: aff a400, aff, a400, component, system, function, properly, contact, technical, support, replace, chassis, shut, down, controller, replacing, remove, module, fan, equipment, rack, cabinet, ha, state, switch, back, aggregate, two-node, metrocluster, configuration, complete, replacement, process, replace the chassis, shut down the controllers when replacing a chassis, remove the controller modules, move the fans, replace a chassis from within the equipment rack or system cabinet, install the controller modules, verify and set the ha state of the chassis, switch back aggregates in a two-node metrocluster configuration, complete the replacement process 
-summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
+summary: AFF A400 시스템의 섀시 교체를 시작하려면 컨트롤러를 종료하고 하드웨어를 교체용 섀시로 이동한 다음 시스템 복원을 완료하십시오. 
 ---
-= 섀시 교체 개요 - AFF A400
+= AFF A400 섀시 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-섀시를 교체하려면 팬과 컨트롤러 모듈을 손상된 섀시에서 손상된 섀시와 동일한 모델의 새 섀시로 옮겨야 합니다.
+AFF A400 시스템의 섀시 교체를 시작하려면 컨트롤러를 종료하고 하드웨어를 교체용 섀시로 이동한 다음 시스템 복원을 완료하십시오.
 
-시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
+[role="quick-margin-para"]
+섀시 유지관리를 안전하게 수행하려면 컨트롤러를 종료하세요.
 
-* 이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다.
-* 이 절차는 중단을 따릅니다. 2노드 클러스터의 경우 완벽한 서비스 중단을 경험하며 다중 노드 클러스터의 일부 중단이 발생할 수 있습니다.
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:chassis-replace-move-hardware.html["섀시를 교체합니다"]
+[role="quick-margin-para"]
+손상된 섀시에서 교체용 섀시로 팬, 드라이브 및 컨트롤러 모듈을 이동합니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:chassis-replace-complete-system-restore-rma.html["섀시 교체를 완료합니다"]
+[role="quick-margin-para"]
+HA 상태를 확인하고 필요한 경우 어그리게이트를 원래대로 되돌린 다음 고장난 섀시를 NetApp에 반환하여 교체를 완료합니다.

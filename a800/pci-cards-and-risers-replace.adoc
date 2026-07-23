@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a800, replace a pcie card 
 summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에서 케이블을 분리하고 SFP 및 QSFP 모듈을 카드에서 제거한 다음 라이저를 다시 설치하고 SFP 및 QSFP 모듈을 다시 설치해야 합니다. 
 ---
-= PCIe 카드 교체 - AFF A800
+= AFF A800 시스템의 PCIe 카드 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF A800 시스템의 I/O 모듈이 고장나거나, 더 높은 성능을 지원하기 위한 업그레이드가 필요하거나, 추가 기능이 필요한 경우 해당 모듈을 교체하거나 추가하십시오. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.
+AFF A800 시스템의 PCIe 카드가 고장 나거나 업그레이드가 필요한 경우 교체하십시오. 교체 과정은 케이블과 SFP 또는 QSFP 모듈을 분리하고, 카드를 교체한 후 케이블을 다시 연결하는 것으로 구성됩니다.
 
 .시작하기 전에
 * NetApp 새 부품 또는 교체 부품을 준비해 두셔야 합니다.

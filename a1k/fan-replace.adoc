@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, replace a fan 
 summary: 적절한 냉각을 유지하고 시스템 성능 문제를 방지하려면 AFF A1K 시스템에서 고장나거나 오류가 있는 팬 모듈을 교체하세요.  팬은 핫스왑이 가능하므로 시스템을 끄지 않고도 교체할 수 있습니다. 
 ---
-= 팬을 교체합니다. - AFF A1K
+= AFF A1K 시스템에서 팬 핫스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

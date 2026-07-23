@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a400, aff, a400, step-by-step, instruction, install, typical, netapp, system, instruction, detail, guide, prepare, installation, hardware, cable, controller, network, drive, shelves, shelf, complete, setup, configuration, detailed guide, prepare for installation, install the hardware, cable controllers to your network, cable controllers to drive shelves, complete system setup and configuration 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오. 
 ---
-= 자세한 가이드 - AFF A400
+= 자세한 단계별 지침에 따라 AFF A400 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오.
+AFF A400 스토리지 시스템 사이트 준비부터 ONTAP 클러스터 가동까지, 이 상세한 단계별 지침에 따라 AFF A400 스토리지 시스템을 설치하십시오.
 
 
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, cabling, cluster cabling, host network cabling, management network cabling, shelf cabling 
 summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다. 
 ---
-= AFF A20, AFF A30 및 AFF A50과 같은 하드웨어 케이블을 연결합니다
+= AFF A20, AFF A30 또는 AFF A50 하드웨어에 네트워크 및 스토리지 연결을 위한 케이블을 연결하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

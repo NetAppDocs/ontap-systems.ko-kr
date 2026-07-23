@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a70, aff a90, hot swap a cluster ha card, hot swap ethernet client io module, hotswap io module, hot swap io module 
 summary: 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF A70 또는 AFF A90 스토리지 시스템에서 Ethernet I/O 모듈을 핫 스왑할 수 있습니다. 
 ---
-= I/O 모듈 핫 스왑 - AFF A70 및 AFF A90
+= AFF A70 또는 AFF A90 시스템에서 시스템 종료 없이 I/O 모듈을 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

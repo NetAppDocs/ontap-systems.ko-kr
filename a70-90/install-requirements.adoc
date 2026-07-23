@@ -4,7 +4,7 @@ permalink: a70-90/install-requirements.html
 keywords: aff a70, aff a90, install, setup, cautions 
 summary: 작업대 및 선반에 필요한 장비 및 인양 예방 조치를 검토합니다. 
 ---
-= 설치 요구 사항 - AFF A70 및 AFF A90
+= AFF A70 또는 AFF A90 스토리지 시스템 설치 요구 사항 검토
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

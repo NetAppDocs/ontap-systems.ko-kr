@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, restore and verify the system configuration, verify and set the ha state of the controller module 
 summary: 컨트롤러의 HA 구성이 활성 상태이고 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크의 모든 경로가 표시되는지 확인합니다. 
 ---
-= 시스템 구성(AFF A20, AFF A30 및 AFF A50)을 복원하고 확인합니다
+= AFF A20, AFF A30 또는 AFF A50 시스템에서 컨트롤러 구성을 복원하고 확인합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

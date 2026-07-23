@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, complete the replacement process 
 summary: AFF A1K 시스템의 구성 요소가 고장난 경우, 고장난 부품을 NetApp 으로 반환하세요. 
 ---
-= 실패한 부팅 미디어 부분을 NetApp 으로 반환 - AFF A1K
+= 수동 부팅 복구 프로세스를 완료한 후 장애가 발생한 AFF A1K 부팅 미디어를 NetApp으로 반환하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

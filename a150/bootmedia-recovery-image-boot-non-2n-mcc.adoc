@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, boot, recovery, image, restore, file, system, environmental, varible 
 summary: USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다. 
 ---
-= 복구 이미지 AFF A150을 부팅합니다
+= 수동 부팅 복구 프로세스를 사용하여 AFF A150 시스템에서 복구 이미지를 부팅합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A150 시스템에 새 부팅 미디어를 설치한 후, USB 드라이브에서 ONTAP 복구 이미지를 부팅하여 파일 시스템을 복원하고 환경 변수를 확인하십시오.
+
 USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원하며 환경 변수를 확인해야 합니다.
 
 .단계

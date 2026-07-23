@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, replace the chassis 
 summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 섀시를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요.  여기에는 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 올바른 교체 섀시와 필요한 도구가 있는지 확인하는 것이 포함됩니다. 
 ---
-= 섀시 교체 요구 사항 - AFF A20, AFF A30 및 AFF A50
+= AFF A20, AFF A30 또는 AFF A50 섀시 교체 전 요구 사항 검토
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

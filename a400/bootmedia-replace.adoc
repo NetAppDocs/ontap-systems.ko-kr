@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a400, aff, a400, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
 summary: 컨트롤러 모듈에서 부팅 미디어를 찾은 다음 지침에 따라 교체해야 합니다. 
 ---
-= 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - AFF A400
+= 수동 부팅 복구 프로세스를 사용하여 AFF A400 시스템의 부팅 미디어를 교체합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다.
+AFF A400 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈을 제거하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 설치하고, USB 플래시 드라이브를 사용하여 ONTAP 이미지를 교체용 부팅 미디어로 전송하는 단계로 진행됩니다.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 프로세스를 사용해야 합니다.
 

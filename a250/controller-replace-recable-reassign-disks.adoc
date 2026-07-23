@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a250, how to recable the system, how to reassign disks 
 summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
 ---
-= 시스템을 재할당하고 디스크를 재할당합니다 - AFF A250
+= AFF A250 시스템의 케이블을 다시 연결하고 디스크를 재할당합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-A250 시스템 복원 및 시스템 구성 확인을 완료한 후에는 시스템 케이블을 다시 연결하고 디스크를 재할당해야 합니다.
+스토리지 케이블을 다시 연결하고 디스크 재할당을 확인한 다음 NetApp 스토리지 암호화를 복원하여 AFF A250 시스템을 정상 작동 상태로 되돌리십시오.
 
 스토리지를 재설정하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.
 

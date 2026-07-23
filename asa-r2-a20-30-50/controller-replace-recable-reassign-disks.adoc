@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a20, asa a30, asa a50, how to reboot the system 
 summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 반환 절차는 시스템에서 사용하는 암호화 유형에 따라 다릅니다. 
 ---
-= ASA A20, ASA A30 및 ASA A50 컨트롤러를 반납합니다
+= ASA A20, ASA A30 또는 ASA A50 시스템의 컨트롤러를 반납하여 정상적인 작동을 재개하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

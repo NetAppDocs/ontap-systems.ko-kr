@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a900, post boot media replacement steps for okm, nse, and nve 
 summary: 교체 부팅 미디어에 암호화를 복원합니다. Onboard Key Manager, NetApp Storage Encryption 또는 NetApp Volume Encryption이 활성화된 시스템에 대한 특정 단계를 완료하십시오. 
 ---
-= 암호화 복원 - AFF A900
+= AFF A900 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화 복원
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-노드에서 암호화를 복원합니다.
+AFF A900 시스템의 교체 부팅 미디어에 암호화를 복원하여 지속적인 데이터 보호를 보장하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용 및 데이터에 대한 안전한 액세스 확인이 포함됩니다.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

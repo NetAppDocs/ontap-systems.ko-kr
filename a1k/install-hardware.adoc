@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, install hardware, telco rack 
 summary: 스토리지 시스템을 캐비닛 또는 통신 랙에 설치합니다. 
 ---
-= AFF A1K 하드웨어를 설치합니다
+= AFF A1K 하드웨어를 캐비닛 또는 랙에 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, aff a220, video, rack, cable, system, manager, guided, setup, configuration 
 summary: 다음 비디오는 시스템 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 비디오 단계 - AFF A150
+= 동영상 안내를 사용하여 AFF A150 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 비디오는 시스템 설치 및 케이블 연결 방법을 보여줍니다.
+단계별 비디오 지침에 따라 AFF A150 스토리지 시스템을 설치하고 케이블을 연결하십시오.
 
 .애니메이션 - AFF A150을 설치하고 설정합니다
 video::561d941a-f387-4eb9-a10a-afb30029eb36[panopto]

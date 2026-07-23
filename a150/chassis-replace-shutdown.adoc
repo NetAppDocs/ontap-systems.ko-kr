@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= 컨트롤러 종료 - AFF A150
+= 섀시를 교체하기 위해 AFF A150 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+AFF A150 스토리지 시스템에서 섀시를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 보장하려면 컨트롤러를 종료하십시오.
 
 
 

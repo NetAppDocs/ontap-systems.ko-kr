@@ -2,9 +2,9 @@
 permalink: asa-r2-a20-30-50/chassis-replace-shutdown.html 
 sidebar: sidebar 
 keywords: asa a20, asa a30, asa a50, shutdown the controllers 
-summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 종료하여 데이터 손실을 방지하고 섀시 교체 시 시스템 안정성을 유지합니다 
+summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 종료하여 데이터 손실을 방지하고 섀시 교체 시 시스템 안정성을 유지합니다. 
 ---
-= 컨트롤러를 종료하여 섀시를 교체합니다(ASA A20, ASA A30 및 ASA A50)
+= ASA A20, ASA A30 또는 ASA A50 컨트롤러를 종료하여 섀시를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, replace the boot media 
 summary: AFF A20, AFF A30 및 AFF A50 스토리지 시스템에서 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0M 포트가 제대로 작동하는지 확인하며, Onboard Key Manager 또는 External Key Manager가 활성화되어 있는지 확인하는 것이 포함됩니다. 
 ---
-= 자동 부팅 미디어 복구 요구 사항 - AFF A20, AFF A30 및 AFF A50
+= AFF A20, AFF A30 또는 AFF A50 시스템에서 자동 부팅 미디어 복구에 필요한 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
