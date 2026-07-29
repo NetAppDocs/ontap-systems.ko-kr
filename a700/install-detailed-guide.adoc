@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a700, detailed, guide, prepare, install, hardware, two, node, switchless, cluster, cable, controller, ds212c, ds224c, ns224, drive, shelf, complete, system, setup, configuration, network, discovery 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
 ---
-= 자세한 가이드 - AFF A700
+= 자세한 단계를 사용하여 AFF A700 스토리지 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오.
+AFF A700 스토리지 시스템 랙 설치 및 케이블 연결부터 초기 시스템 가동까지, 자세한 단계별 지침에 따라 설치하십시오.
 
 
 

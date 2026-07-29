@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a700, fas9000, replace, dcpm, module, fail 
 summary: 시스템에서 DCPM 모듈을 교체하려면 시스템에서 실패한 DCPM 모듈을 제거한 다음 새 DCPM 모듈로 교체해야 합니다. 
 ---
-= DCPM 모듈 - AFF A700을 교체합니다
+= AFF A700 시스템의 DCPM 모듈 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A700 시스템의 DCPM 모듈을 교체하여 NVRAM10의 정상적인 전원 관리를 복원하십시오.
+
 시스템에서 DCPM 모듈을 교체하려면 시스템에서 실패한 DCPM 모듈을 제거한 다음 새 DCPM 모듈로 교체해야 합니다.
 
 .단계

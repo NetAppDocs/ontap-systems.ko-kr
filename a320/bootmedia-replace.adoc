@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, boot, media, store, primary, secondary, set, system, boot, image, file, replace, replace the boot media, manual, manual boot recovery 
 summary: 부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 부팅 이미지 파일 세트가 저장됩니다. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 부팅 미디어 교체 - AFF A320
+= AFF A320 시스템의 부팅 미디어 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

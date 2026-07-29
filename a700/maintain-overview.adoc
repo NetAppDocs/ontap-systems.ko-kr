@@ -2,9 +2,9 @@
 permalink: a700/maintain-overview.html 
 sidebar: sidebar 
 keywords: aff A700 maintenance, maintenance, repairing A700, repairing aff A700, replace aff A700 components, replace aff A700 components 
-summary: ASA A700 하드웨어 유지보수 
+summary: AFF A700 하드웨어 유지 관리 
 ---
-= AFF A700 하드웨어 유지보수
+= AFF A700 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

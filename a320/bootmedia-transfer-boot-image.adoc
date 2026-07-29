@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, replacement, boot, media, install, image, transfer, usb, flash, drive, transfer the boot image to the boot media using a usb flash drive, manual, manual boot recovery 
 summary: 새로 설치한 부팅 미디어에는 부팅 이미지가 없으므로 USB 플래시 드라이브를 사용하여 부팅 이미지를 전송해야 합니다. AFF A320 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
-= USB 플래시 드라이브 - AFF A320 을 사용하여 부팅 이미지를 부팅 미디어로 전송합니다
+= USB 플래시 드라이브를 사용하여 AFF A320 시스템의 부팅 미디어로 부팅 이미지 전송
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

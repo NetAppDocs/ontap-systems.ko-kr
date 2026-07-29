@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a300, boot the recovery image, manual, manual boot recovery 
 summary: 손상된 컨트롤러를 복구 이미지에서 부팅하는 절차는 시스템이 2노드 MetroCluster 구성인지 여부에 따라 다릅니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 복구 이미지 부팅 - AFF A300
+= AFF A300 시스템에서 복구 이미지를 부팅합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

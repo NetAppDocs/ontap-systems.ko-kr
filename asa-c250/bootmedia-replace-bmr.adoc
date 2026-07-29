@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c250, replace the boot media 
 summary: ASA C250 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈을 분리하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 컨트롤러 모듈에 설치하고, 마지막으로 컨트롤러 모듈을 재설치하는 순서로 진행됩니다. 
 ---
-= 자동 부팅 복구를 위한 부팅 미디어 교체 - ASA C250
+= 자동 부팅 복구 프로세스를 사용하여 ASA C250 시스템의 부팅 미디어를 교체합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

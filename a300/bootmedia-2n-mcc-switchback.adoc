@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a300, switch back aggregate in a two-node metrocluster configuration, manual, manual boot recovery 
 summary: 2노드 MetroCluster 구성에서 부팅 미디어 교체를 완료한 후 MetroCluster 스위치백 작업을 수행하여 구성을 정상 작동 상태로 되돌려야 합니다. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 2노드 MetroCluster 구성에서 애그리게이트 다시 전환 - AFF A300
+= AFF A300 시스템의 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

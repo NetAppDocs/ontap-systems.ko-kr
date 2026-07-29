@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: asa c400, asa, c400, swap, out, fan, module, interrupt, service, sequence, task, hot-swap, hot-swap a fan module 
 summary: 서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다. 
 ---
-= 팬 모듈 핫 스왑 - ASA C400
+= ASA C400 시스템에서 팬 핫스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+ASA C400 시스템에서 고장난 팬 모듈을 서비스 중단 없이 핫스왑하여 적절한 공기 흐름과 시스템 냉각을 유지할 수 있습니다.
+
 서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다.
 
 

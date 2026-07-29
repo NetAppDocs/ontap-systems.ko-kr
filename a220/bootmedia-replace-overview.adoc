@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, aff a220, replace, boot, media, image, nondisruptive, disruptive, replacement, fat32, usb, manual, manual boot recovery 
 summary: 부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 파일 세트가 저장됩니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 부팅 미디어 교체 개요 - AFF A220
+= AFF A220 시스템의 부팅 미디어 교체에 대해 알아보십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

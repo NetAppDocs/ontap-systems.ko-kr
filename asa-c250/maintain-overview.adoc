@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa C250 maintenance, maintenance, repairing C250, repairing asa C250, replace asa C250 components, replace asa C250 components 
 summary: ASA C250 하드웨어 유지보수 
 ---
-= ASA C250 하드웨어를 유지 관리합니다
+= ASA C250 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

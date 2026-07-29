@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff 220 maintenance, maintenance, repairing 220, repairing asa 220, replace aff 220 components, replace aff 220 components 
 summary: AFF A220 하드웨어 유지 관리 
 ---
-= AFF A220 하드웨어 유지 관리
+= AFF A220 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

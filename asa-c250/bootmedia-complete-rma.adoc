@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c250, bootmedia, rma 
 summary: 부팅 미디어를 교체한 후 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 결함이 있는 부품을 NetApp-ASA C250으로 반환합니다
+= 수동 부팅 복구 프로세스를 완료한 후 장애가 발생한 ASA C250 부팅 미디어를 NetApp으로 반환하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a300, complete the replacement process, manual, manual boot recovery 
 summary: 부팅 미디어를 교체한 후에는 고장난 부품을 NetApp으로 반환하십시오. AFF A300 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 장애가 발생한 부품을 NetApp-AFF A300에 반환
+= 장애가 발생한 AFF A300 부팅 미디어를 NetApp에 반환합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

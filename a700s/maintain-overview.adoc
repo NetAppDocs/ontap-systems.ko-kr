@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: a700s maintenance, maintenance, repairing a700s, repairing a700s, replace a700s components, replace a700s components 
 summary: AFF A700s 하드웨어 유지 관리 
 ---
-= AFF A700s 하드웨어 유지 관리
+= AFF A700s 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

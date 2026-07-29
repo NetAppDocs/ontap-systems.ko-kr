@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a300, move hardware components, replace the chassis 
 summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 팬 및 컨트롤러 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
 ---
-= Hardware-AFF A300 교체
+= AFF A300 시스템의 섀시 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-손상된 섀시에서 새 섀시로 전원 공급 장치, 팬 및 컨트롤러 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오.
+AFF A300 시스템의 섀시를 교체하려면 고장난 섀시에서 교체 섀시로 전원 공급 장치, 팬 및 컨트롤러 모듈을 이동합니다.
 
 
 

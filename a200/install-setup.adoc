@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a200, install, setup, initial configuration 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= 여기서 시작: 설치 및 설정 환경을 선택합니다
+= AFF A200 스토리지 시스템 설치 및 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-새로운 스토리지 시스템을 설치하고 설정하는 과정을 안내하는 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.
+AFF A200 스토리지 시스템을 설치하고 설정하는 과정을 안내하는 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.
 
 * link:../media/PDF/210-06711+C0_AFFA200_ISI_web.pdf["AFF A200 설치 및 설정 지침"^]
 +

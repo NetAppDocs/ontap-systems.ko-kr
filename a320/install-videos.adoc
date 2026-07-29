@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, video, rack, cable, system, system, manager, guide, setup, configuration, hardware, installation, cabling, hardware installation and cabling 
 summary: 이 비디오에서는 새 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= 비디오 단계 - AFF A320
+= 동영상 안내를 통해 AFF A320 스토리지 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
+AFF A320 스토리지 시스템을 설치하고 케이블을 연결하는 방법을 보여주는 동영상 설명서를 참고하여 AFF A320 스토리지 시스템을 설치하십시오.
 
 video::rQ-za_bli0Y?[youtube]

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a220, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery 
 summary: 이 페이지에서는 일반적인 NetApp 시스템 설치를 위한 자세한 단계별 지침을 제공합니다. 
 ---
-= 상세 가이드 - AFF A220
+= 자세한 단계를 사용하여 AFF A220 스토리지 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 페이지에서는 일반적인 NetApp 시스템 설치를 위한 자세한 단계별 지침을 제공합니다.
+AFF A220 스토리지 시스템 랙 설치 및 케이블 연결부터 초기 시스템 가동까지, 자세한 단계별 지침에 따라 설치하십시오.
 
 
 

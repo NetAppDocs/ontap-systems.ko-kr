@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff A220 maintenance, maintenance, repairing a200, repairing aff a200, replace aff a200 components, replace aff a200 components 
 summary: AFF A200 하드웨어를 유지보수하십시오 
 ---
-= AFF A200 하드웨어를 유지보수하십시오
+= AFF A200 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

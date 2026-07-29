@@ -2,9 +2,9 @@
 permalink: a300/maintain-overview.html 
 sidebar: sidebar 
 keywords: aff A4300 maintenance, maintenance, repairing A300, repairing asa A300, replace  A300 components, replace A300 components 
-summary: ASA A400 하드웨어 유지 관리 
+summary: AFF A300 하드웨어 유지 관리 
 ---
-= AFF A300 하드웨어 유지 관리
+= AFF A300 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c800, replace a power supply 
 summary: ASA C800 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받도록 하십시오. 
 ---
-= 전원 공급 장치 핫스왑 - ASA C800
+= ASA C800 시스템에서 전원 공급 장치를 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

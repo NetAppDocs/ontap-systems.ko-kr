@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a220, replace, boot, media, controller, module, fru map, manual, manual boot recovery 
 summary: 컨트롤러에서 부팅 미디어를 찾아 지침에 따라 교체해야 합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 부팅 미디어(AFF A220)를 교체합니다
+= AFF A220 시스템의 부팅 미디어 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

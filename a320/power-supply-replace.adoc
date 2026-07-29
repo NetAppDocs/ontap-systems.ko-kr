@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff, a320, aff a320, replace, replacing, power, supply, psu, involve, disconnect, target, source, unplug, cable, replacement, replace a power supply 
 summary: AFF A320 시스템의 전원 공급 장치를 교체하려면 대상 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 PSU를 제거하고 교체용 PSU를 설치한 후 교체용 PSU를 전원에 다시 연결하십시오. 
 ---
-= 전원 공급 장치 핫스왑 - AFF A320
+= AFF A320 시스템에서 전원 공급 장치를 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-전원 공급 장치(PSU) 교체에는 대상 PSU를 전원에서 분리하고, 전원 케이블을 뽑고, 기존 PSU를 분리하고, 교체용 PSU를 설치한 다음 교체용 PSU를 전원에 다시 연결하는 작업이 포함됩니다.
+AFF A320 시스템에서 전원 공급 장치를 핫스왑하려면 고장난 장치를 분리하고 제거한 다음 새 장치로 교체하고 다시 연결하여 전원을 복구하십시오.
 
 * 전원 공급 장치는 이중화되고 핫 스왑이 가능합니다.
 * 이 절차는 한 번에 하나의 전원 공급 장치를 교체하기 위한 것입니다.

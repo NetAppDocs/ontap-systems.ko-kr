@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a700, add, x91148a, storage, module, no, open, slots, system, nic 
 summary: 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다. 
 ---
-= 열린 슬롯이 없는 시스템에 X91148A 스토리지 모듈을 추가합니다. - A700
+= AFF A700 시스템의 모든 슬롯이 사용 중인 경우 X91148A 스토리지 모듈을 추가하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A700 시스템의 모든 슬롯이 사용 중인 경우, 기존 모듈을 교체하여 X91148A 스토리지 모듈을 추가하십시오.
+
 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.
 
 * 시스템에서 ONTAP 9.8 이상을 실행해야 합니다.

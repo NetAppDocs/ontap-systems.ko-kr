@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a700s, how to recable the system, how to reassign disks 
 summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
 ---
-= 시스템을 재할당하고 디스크를 재할당할 수 있는 AFF A700s를 사용합니다
+= AFF A700s 시스템의 케이블을 다시 연결하고 디스크를 재할당합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다. 시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.
+AFF A700s 시스템의 컨트롤러 교체를 완료하려면 스토리지 케이블을 다시 연결하고, NetApp Storage Encryption 구성을 복원하고(필요한 경우), 새 컨트롤러용 라이선스를 설치하십시오.
 
 
 

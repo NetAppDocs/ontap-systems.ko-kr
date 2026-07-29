@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a220, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= 컨트롤러 - AFF A220을 종료합니다
+= 섀시 교체를 위해 AFF A220 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+구성에 적합한 절차를 사용하여 섀시를 교체하기 위해 AFF A220 컨트롤러를 종료합니다.
 
 
 

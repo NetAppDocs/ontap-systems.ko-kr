@@ -2,9 +2,9 @@
 permalink: a320/maintain-overview.html 
 sidebar: sidebar 
 keywords: aff A4320 maintenance, maintenance, repairing A320, repairing asa A320, replace  A300 components, replace A320 components 
-summary: ASA A400 하드웨어 유지 관리 
+summary: AFF A320 하드웨어 유지 관리 
 ---
-= AFF A320 하드웨어 유지보수
+= AFF A320 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

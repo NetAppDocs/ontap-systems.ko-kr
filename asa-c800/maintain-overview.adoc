@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa C800 maintenance, maintenance, repairing ASA C800, repairing asa C800, replace asa ASA C800 components, replace asa C800 components 
 summary: ASA C800 하드웨어를 유지보수하십시오 
 ---
-= ASA C800 하드웨어를 유지 관리합니다
+= ASA C800 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

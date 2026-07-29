@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a300, shutdown the controllers 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= 컨트롤러 종료 -- AFF A300
+= 섀시 교체를 위해 AFF A300 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-섀시를 교체하려면 컨트롤러를 종료해야 합니다.
+섀시를 교체하려면 AFF A300 컨트롤러를 종료하십시오.
 
 
 

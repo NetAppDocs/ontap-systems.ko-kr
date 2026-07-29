@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a320, how to recable the system, how to reassign disks 
 summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
 ---
-= 시스템 재할당 및 디스크 재할당 - AFF A320
+= AFF A320 시스템의 케이블을 다시 연결하고 디스크를 재할당합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지를 재설정하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.
+AFF A320 시스템의 컨트롤러 교체를 완료하려면 스토리지 케이블을 다시 연결하고 디스크 재할당을 확인하십시오.
 
 
 

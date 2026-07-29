@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c800, replace an nvdimm 
 summary: 시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다. 
 ---
-= NVDIMM-ASA C800을 교체합니다
+= ASA C800 시스템의 NVDIMM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff a700, fas9000, swap, power, supply, turn, off, disconnect, remove, install, connect, turn, on, return, failed, part 
 summary: 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
 ---
-= 전원 공급 장치 핫스왑 - AFF A700
+= AFF A700 시스템에서 전원 공급 장치를 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF A700 시스템에서 전원 공급 장치를 핫스왑하여 시스템에 지속적인 전원 공급을 유지하십시오.
+
 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.
 
 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.

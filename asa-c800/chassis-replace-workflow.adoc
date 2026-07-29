@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c800, replace the chassis workflow 
 summary: ASA C800 스토리지 시스템의 섀시를 교체하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작동을 확인하는 단계를 따르십시오. 
 ---
-= 섀시 교체 워크플로 - ASA C800
+= ASA C800 섀시 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

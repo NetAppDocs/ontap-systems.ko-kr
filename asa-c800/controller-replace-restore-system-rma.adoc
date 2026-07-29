@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c800, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: ASA C800 시스템을 정상 작동 상태로 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 전체 시스템 복원 - ASA C800
+= ASA C800 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

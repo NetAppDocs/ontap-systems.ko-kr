@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c250, replace a power supply, PSU, power supply unit 
 summary: ASA C250 시스템의 전원 공급 장치를 교체하려면 대상 전원 공급 장치를 전원에서 분리하고 전원 케이블을 뽑은 다음 기존 장치를 제거하고 교체 장치를 설치한 후 전원에 다시 연결하십시오. 
 ---
-= 전원 공급 장치 핫스왑 - ASA C250
+= ASA C250 시스템에서 전원 공급 장치를 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

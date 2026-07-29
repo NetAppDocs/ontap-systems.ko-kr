@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a220, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption, manual, manual boot recovery 
 summary: AFF A220 스토리지 시스템의 교체 부팅 미디어에서 암호화를 복원합니다. AFF A220은 수동 부팅 미디어 복구 절차만 지원합니다. 
 ---
-= 암호화 복원 - AFF A220
+= AFF A220 시스템의 부팅 미디어에서 암호화 복원
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
