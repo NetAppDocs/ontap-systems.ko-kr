@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c30, replace the chassis workflow 
 summary: ASA C30 스토리지 시스템의 섀시를 교체하려면 교체 요구 사항 검토, 컨트롤러 종료, 섀시 교체, 시스템 작업 확인 등의 작업이 필요합니다. 
 ---
-= 섀시 교체 워크플로우 - ASA C30
+= ASA C30 섀시 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

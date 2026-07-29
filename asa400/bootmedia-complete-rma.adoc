@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A400, ASA, A400, replace, part, return, fail, netapp, instruction, ship, kit, technical, support, complete, replacement, process, complete the replacement process 
 summary: 부팅 미디어를 교체한 후 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 실패한 부팅 미디어를 NetApp 으로 반환 - ASA A400
+= 수동 부팅 복구 프로세스를 완료한 후 장애가 발생한 ASA A400 부팅 미디어를 NetApp으로 반환하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

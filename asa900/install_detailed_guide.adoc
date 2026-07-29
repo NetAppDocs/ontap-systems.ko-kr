@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A900 
 summary: 일반적인 NetApp 시스템 설치를 위한 자세한 단계별 지침. 
 ---
-= 상세 단계 - ASA 900
+= 자세한 단계별 지침에 따라 ASA A900 스토리지 시스템을 설치하세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

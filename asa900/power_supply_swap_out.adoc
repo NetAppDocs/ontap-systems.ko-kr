@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a900, replace power supply 
 summary: 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
 ---
-= 전원 공급 장치 핫스왑 - ASA A900
+= ASA A900 시스템에서 전원 공급 장치를 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

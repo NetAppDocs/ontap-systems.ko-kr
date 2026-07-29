@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 2k, prerequisite, replace the controller module 
 summary: AFX 2K 스토리지 시스템에서 컨트롤러를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 컨트롤러, 시스템 구성의 백업, 필요한 도구 및 펌웨어에 대한 액세스가 포함됩니다. 
 ---
-= 컨트롤러 교체 요구 사항 - AFX 2K
+= AFX 2K 스토리지 시스템에서 컨트롤러를 교체하기 전에 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

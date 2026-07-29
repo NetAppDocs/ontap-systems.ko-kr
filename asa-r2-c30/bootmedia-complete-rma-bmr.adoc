@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c30, complete the replacement process 
 summary: ASA C30 스토리지 시스템의 구성 요소에 오류가 발생하면 오류가 발생한 부품을 NetApp으로 반환하세요. 
 ---
-= 결함이 있는 부품을 NetApp-ASA C30으로 반납합니다
+= 자동 부팅 복구 프로세스가 완료된 후 오류가 발생한 ASA C30 부팅 미디어를 NetApp에 반환하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

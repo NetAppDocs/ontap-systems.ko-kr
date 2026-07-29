@@ -2,9 +2,9 @@
 permalink: afx-2k/controller-replace-restore-system-rma.html 
 sidebar: sidebar 
 keywords: afx 2k, how to restore NetApp Storage Encryption, how to complete the replacement process 
-summary: 논리 인터페이스가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 afx 2k 컨트롤러 교체 절차의 최종 단계를 완료하십시오. 
+summary: 논리 인터페이스가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 AFX 2K 컨트롤러 교체 절차의 최종 단계를 완료하십시오. 
 ---
-= 컨트롤러 전체 교체 - AFX 2K
+= AFX 2K 스토리지 시스템의 컨트롤러 교체를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

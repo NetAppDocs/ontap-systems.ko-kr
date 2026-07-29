@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c30, move the controller module hardware 
 summary: 하드웨어 오류로 인해 ASA C30 스토리지 시스템의 컨트롤러를 교체해야 하는 경우 교체 프로세스에는 손상된 컨트롤러를 분리하고, 구성 요소를 교체 컨트롤러로 이동하고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다. 
 ---
-= 컨트롤러-ASA C30을 교체합니다
+= ASA C30 시스템의 컨트롤러 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

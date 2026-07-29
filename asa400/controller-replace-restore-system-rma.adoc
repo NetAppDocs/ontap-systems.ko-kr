@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a400, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: 'ASA A400 시스템의 컨트롤러 교체를 완료하십시오. 교체 컨트롤러에 라이선스를 설치하고, 논리 인터페이스(LIF)가 홈 포트로 보고되는지 확인하고, 클러스터 상태 점검을 수행하십시오. 마지막으로 고장난 부품을 NetApp으로 반환하십시오.' 
 ---
-= 컨트롤러 전체 교체 - ASA A400
+= ASA A400 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

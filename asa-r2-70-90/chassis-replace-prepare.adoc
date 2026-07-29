@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a70, asa r2 a90, prepare to replace the chassis 
 summary: 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 레이블을 지정하여 ASA A70 또는 ASA A90 시스템의 손상된 섀시를 교체할 준비를 합니다. 
 ---
-= 섀시 교체 준비 - ASA A70 및 ASA A90
+= ASA A70 또는 ASA A90 섀시 교체 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

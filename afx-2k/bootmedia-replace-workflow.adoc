@@ -2,9 +2,9 @@
 permalink: afx-2k/bootmedia-replace-workflow.html 
 sidebar: sidebar 
 keywords: afx 2k, replace the boot media 
-summary: AFX 2K 스토리지 시스템에서 부팅 미디어 교체를 시작하려면 교체 요구 사항을 검토하고, 암호화 상태를 확인하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 복구 이미지로 부팅하고, 암호화를 복원하고, 시스템 기능을 확인하십시오. 
+summary: AFX 2K 스토리지 시스템의 부팅 미디어 교체를 시작하려면 교체 요구 사항을 검토하고, 암호화 상태를 확인하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 복구 이미지로 부팅하고, 암호화를 복원하고, 시스템 기능을 확인하십시오. 
 ---
-= 부팅 미디어 교체 워크플로 - AFX 2K
+= 자동 부팅 복구 프로세스를 사용한 AFX 2K 부팅 미디어 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

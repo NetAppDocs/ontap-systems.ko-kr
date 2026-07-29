@@ -2,9 +2,9 @@
 permalink: afx-2k/nvdimm-battery-replace.html 
 sidebar: sidebar 
 keywords: afx 2k, replace the nv battery, NV battery 
-summary: afx 2k 스토리지 시스템의 NV 배터리는 정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로, 배터리 충전량이 감소하거나 고장이 발생하면 교체해야 합니다. 교체 과정은 고장난 컨트롤러를 종료하고, 컨트롤러 모듈을 분리한 후, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 순서로 진행됩니다. 
+summary: AFX 2K 스토리지 시스템의 NV 배터리는 정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로, 배터리 충전량이 감소하거나 고장이 발생하면 교체해야 합니다. 교체 과정은 고장난 컨트롤러를 종료하고, 컨트롤러 모듈을 분리한 후, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 순서로 진행됩니다. 
 ---
-= NV 배터리 교체 - AFX 2K
+= AFX 2K 스토리지 시스템의 NV 배터리 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

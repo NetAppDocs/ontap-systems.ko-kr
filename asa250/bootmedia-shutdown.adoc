@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a250, shutdown 
 summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
 ---
-= 컨트롤러 ASA A250을 종료합니다
+= ASA A250 부팅 미디어를 교체하기 전에 ASA A250 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

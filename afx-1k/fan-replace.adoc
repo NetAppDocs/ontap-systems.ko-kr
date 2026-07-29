@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, replace a fan 
 summary: 적절한 냉각을 유지하고 시스템 성능 문제를 방지하려면 AFX 1K 시스템의 고장난 팬 모듈을 교체하세요.  팬은 핫스왑이 가능하므로 시스템을 끄지 않고도 교체할 수 있습니다. 
 ---
-= 팬 교체 - AFX 1K
+= AFX 1K 스토리지 시스템에서 팬 핫 스왑하기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

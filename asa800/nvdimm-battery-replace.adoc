@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a800, replace the nvdimm battery 
 summary: NVDIMM 전지를 교체하려면 컨트롤러 모듈을 분리하고 전지를 분리한 다음 전지를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다. 
 ---
-= NVDIMM 배터리 교체 - ASA A800
+= ASA A800 시스템의 NVDIMM 배터리를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

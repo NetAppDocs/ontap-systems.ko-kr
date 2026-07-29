@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, replace an nvdimm 
 summary: 비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 ASA A1K 시스템의 NVRAM를 교체하십시오. 
 ---
-= NVRAM-ASA A1K을 교체합니다
+= ASA A1K 시스템의 NVRAM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a150, a150, asa, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption 
 summary: 교체 부팅 미디어에서 암호화를 복원합니다. 
 ---
-= OKM, NSE 및 NVE-ASA A150을 복원합니다
+= ASA A150 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화 복원
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

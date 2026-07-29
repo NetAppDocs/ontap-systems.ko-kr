@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, move the controller module hardware 
 summary: 하드웨어 오류로 인해 AFX 1K 스토리지 시스템의 컨트롤러를 교체해야 하는 경우 교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다. 
 ---
-= 컨트롤러 교체 - AFX 1K
+= AFX 1K 스토리지 시스템의 컨트롤러 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

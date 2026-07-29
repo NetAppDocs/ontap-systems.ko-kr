@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A900 
 summary: NVRAM11 배터리가 포함된 디스테이지 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다. 
 ---
-= NVRAM11 배터리가 포함된 DCPM을 교체합니다. - ASA A900
+= ASA A900 시스템의 NVRAM11 배터리가 포함된 DCPM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

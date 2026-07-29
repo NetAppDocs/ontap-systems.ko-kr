@@ -2,9 +2,9 @@
 permalink: afx-2k/system-management-replace.html 
 sidebar: sidebar 
 keywords: afx 2k, replace the system manager module 
-summary: AFX 2K 스토리지 시스템의 시스템 관리 모듈에 결함이 발생하거나 펌웨어가 손상된 경우 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 고장난 시스템 관리 모듈을 교체하고, 컨트롤러를 재부팅하고, 라이선스 키를 업데이트한 후, 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다. 
+summary: AFX 2K 스토리지 시스템의 시스템 관리 모듈에 결함이 발생하거나 펌웨어가 손상된 경우 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 고장난 시스템 관리 모듈을 교체하고, 컨트롤러를 재부팅하고, 라이선스 키를 업데이트한 후, 고장난 부품을 NetApp에 반환하는 단계로 구성됩니다. 
 ---
-= 시스템 관리 모듈 교체 - AFX 2K
+= AFX 2K 스토리지 시스템의 시스템 관리 모듈 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

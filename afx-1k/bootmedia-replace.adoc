@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, replace the boot media 
 summary: AFX 1K 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 시스템 관리 모듈을 제거하고, 손상된 부팅 미디어를 제거하고, 시스템 관리 모듈에 교체 부팅 미디어를 설치한 다음, 시스템 관리 모듈을 다시 설치하는 과정으로 구성됩니다. 
 ---
-= 부팅 미디어 교체 - AFX 1K
+= 자동 부팅 복구 프로세스를 사용하여 AFX 1K 스토리지 시스템의 부팅 미디어를 교체합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

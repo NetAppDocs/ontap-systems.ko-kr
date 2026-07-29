@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff asa800, replace the boot media 
 summary: ASA A800 스토리지 시스템의 부트 미디어 교체를 시작하려면 교체 요구 사항 검토, 암호화 상태 확인, 컨트롤러 종료, 부트 미디어 교체, 복구 이미지 부팅, 암호화 복원, 시스템 기능 확인을 진행하세요. 
 ---
-= 부트 미디어 수동 복구 워크플로 - ASA A800
+= ASA A800 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

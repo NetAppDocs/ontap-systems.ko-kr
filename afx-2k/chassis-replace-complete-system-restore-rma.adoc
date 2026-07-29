@@ -2,9 +2,9 @@
 permalink: afx-2k/chassis-replace-complete-system-restore-rma.html 
 sidebar: sidebar 
 keywords: afx 2k,  verify and set HA state, complete the replacement process 
-summary: 컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 실패한 부품을 NetApp 으로 반환하여 AFF A1K 섀시 교체 절차의 마지막 단계를 완료합니다. 
+summary: 컨트롤러를 재부팅하고 시스템 상태를 확인한 후, 고장난 부품을 NetApp에 반환하여 AFX 2K 섀시 교체 절차의 최종 단계를 완료하십시오. 
 ---
-= 섀시 교체 완료 - AFX 2K
+= AFX 2K 스토리지 시스템의 섀시 교체를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

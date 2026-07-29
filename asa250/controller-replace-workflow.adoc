@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a250, replace the controller workflow 
 summary: ASA A250 스토리지 시스템에서 컨트롤러를 교체하려면 먼저 손상된 컨트롤러를 종료하고, 컨트롤러를 제거한 후 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하십시오. 
 ---
-= 컨트롤러 교체 워크플로 - ASA A250
+= ASA A250 컨트롤러 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

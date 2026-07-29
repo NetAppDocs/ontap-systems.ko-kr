@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, replace nvram 
 summary: 비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 AFX 1K 스토리지 시스템의 NVRAM 교체하세요. 
 ---
-= NVRAM 교체 - AFX 1K
+= AFX 1K 스토리지 시스템의 NVRAM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

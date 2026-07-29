@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a250, detailed installation 
 summary: 이 절에서는 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
 ---
-= 상세 단계 - ASA A250
+= 자세한 단계별 안내에 따라 ASA A250 스토리지 시스템을 설치합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa A150 maintenance, maintenance, repairing a150, repairing asa a150, replace asa a150 components, replace asa a150 components 
 summary: ASA A150 하드웨어를 유지보수하십시오 
 ---
-= ASA A150 하드웨어 유지보수
+= ASA A150 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

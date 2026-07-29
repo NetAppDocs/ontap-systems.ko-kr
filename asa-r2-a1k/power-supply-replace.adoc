@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, replace a power supply 
 summary: ASA A1K 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고, 전원 케이블을 뽑고, 고장 난 전원 공급 장치를 교체한 후 전원에 다시 연결하는 방식으로 진행됩니다. 
 ---
-= 전원 공급 장치 핫스왑 - ASA A1K
+= ASA A1K 시스템에서 전원 공급 장치를 핫스왑합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -2,9 +2,9 @@
 permalink: afx-2k/power-supply-replace.html 
 sidebar: sidebar 
 keywords: afx 2k, replace a power supply 
-summary: AC 전원 공급 장치가 고장 나거나 오작동하는 경우 AFX 2K 스토리지 시스템의 AC 전원 공급 장치를 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받을 수 있도록 하십시오. 교체 과정은 다음과 같습니다. 먼저 대상 PSU의 전원을 차단하고 전원 케이블을 뽑은 후, 고장 난 PSU를 제거하고 새 PSU를 설치한 다음 전원에 다시 연결합니다. 
+summary: AFX 2K 스토리지 시스템의 AC 전원 공급 장치가 고장 나거나 결함이 있을 때 교체하여 시스템이 안정적인 작동에 필요한 전원을 계속 공급받을 수 있도록 하십시오. 교체 과정은 대상 PSU의 전원을 차단하고 전원 케이블을 뽑은 후, 고장 난 PSU를 제거하고 교체용 PSU를 설치한 다음 전원에 다시 연결하는 순서로 진행됩니다. 
 ---
-= 전원 공급 장치 교체 - AFX 2K
+= AFX 2K 스토리지 시스템의 전원 공급 장치 핫 스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

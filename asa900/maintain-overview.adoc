@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa A900 maintenance, maintenance, repairing asa A900, repairing asa A900, replace asa A900 components, replace asa A900 components 
 summary: ASA A900 하드웨어 유지보수 
 ---
-= ASA A900 하드웨어 유지보수
+= ASA A900 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

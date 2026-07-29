@@ -2,9 +2,9 @@
 permalink: afx-2k/fan-replace.html 
 sidebar: sidebar 
 keywords: afx 2k, replace a fan 
-summary: AFX 2K 시스템의 고장난 팬 모듈을 교체하여 적절한 냉각을 유지하고 시스템 성능 저하 문제를 예방하십시오. 팬은 핫 스왑 방식으로 시스템을 종료하지 않고도 교체할 수 있습니다. 
+summary: AFX 2K 시스템의 고장난 팬 모듈을 교체하여 적절한 냉각을 유지하고 시스템 성능 문제를 예방하십시오. 팬은 핫 스왑 방식으로 시스템을 종료하지 않고도 교체할 수 있습니다. 
 ---
-= 팬 교체 - AFX 2K
+= AFX 2K 스토리지 시스템에서 팬 핫 스왑하기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

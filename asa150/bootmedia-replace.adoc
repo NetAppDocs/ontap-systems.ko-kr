@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a150, a150, asa, replace, boot, media, controller, module, fru map 
 summary: 컨트롤러에서 부팅 미디어를 찾고 지침에 따라 교체해야 합니다. 
 ---
-= 부팅 매체(ASA A150)를 교체합니다
+= ASA A150 시스템의 부팅 미디어 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

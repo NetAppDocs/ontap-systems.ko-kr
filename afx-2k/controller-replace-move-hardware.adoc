@@ -2,9 +2,9 @@
 permalink: afx-2k/controller-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: afx 2k, move the controller module hardware 
-summary: 하드웨어 장애가 발생한 경우 afx 2k 스토리지 시스템의 컨트롤러를 교체하십시오. 교체 과정은 고장난 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮긴 후, 교체 컨트롤러를 설치하고 재부팅하는 것입니다. 
+summary: 하드웨어 장애가 발생한 경우 AFX 2K 스토리지 시스템의 컨트롤러를 교체하십시오. 교체 과정은 고장난 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮긴 후, 교체 컨트롤러를 설치하고 재부팅하는 것입니다. 
 ---
-= 컨트롤러 교체 - AFX 2K
+= AFX 2K 스토리지 시스템의 컨트롤러 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

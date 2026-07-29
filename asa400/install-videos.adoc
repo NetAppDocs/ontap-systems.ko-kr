@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a400, asa, a400, video, rack, cable, system, manager, guide, setup, initial, configuration, hardware, installation, cabling, configuration, hardware installation and cabling, perform end-to-end software configuration 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 비디오 단계 - ASA A400
+= 동영상 단계별 안내에 따라 ASA A400 스토리지 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

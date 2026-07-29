@@ -2,9 +2,9 @@
 permalink: afx-2k/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: afx 2k, shut down the controller 
-summary: 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 afx 2k 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오. 
+summary: 스토리지 시스템 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFX 2K 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오. 
 ---
-= 부팅 미디어를 교체하려면 컨트롤러를 종료하십시오 - AFX 2K
+= 자동 부팅 복구 프로세스 중에 AFX 2K 스토리지 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

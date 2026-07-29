@@ -2,9 +2,9 @@
 permalink: afx-2k/bootmedia-replace.html 
 sidebar: sidebar 
 keywords: afx 2k, replace the boot media 
-summary: AFX 2K 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 시스템 관리 모듈을 제거하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 시스템 관리 모듈에 설치하고, 마지막으로 시스템 관리 모듈을 재설치하는 순서로 진행됩니다. 
+summary: AFX 2K 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 시스템 관리 모듈을 분리하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 시스템 관리 모듈에 설치하고, 마지막으로 시스템 관리 모듈을 재설치하는 순서로 진행됩니다. 
 ---
-= 부팅 미디어 교체 - AFX 2K
+= 자동 부팅 복구 프로세스를 사용하여 AFX 2K 스토리지 시스템의 부팅 미디어를 교체합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

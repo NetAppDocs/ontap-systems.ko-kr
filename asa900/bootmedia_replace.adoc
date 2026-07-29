@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A900, replace, boot, media, controller, directions. replace boot media, transfer image 
 summary: 컨트롤러 모듈을 분리 및 열고 컨트롤러에서 부팅 미디어를 찾아 교체한 다음 교체 부팅 미디어로 이미지를 전송해야 합니다. 
 ---
-= 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - ASA A900
+= 수동 부팅 복구 프로세스를 사용하여 ASA A900 시스템의 부팅 미디어를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

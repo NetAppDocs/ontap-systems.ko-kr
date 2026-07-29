@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a70, asa r2 a90, shutdown the controllers 
 summary: ASA A70 또는 ASA A90 스토리지 시스템의 컨트롤러를 종료하여 데이터 손실을 방지하고 섀시 교체 시 시스템 안정성을 유지합니다. 
 ---
-= 컨트롤러를 종료하여 섀시를 교체합니다(ASA A70 및 ASA A90)
+= ASA A70 또는 ASA A90 컨트롤러를 종료하여 섀시를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

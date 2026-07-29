@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a400, how to recable the system, how to reassign disks 
 summary: ASA A400 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 반환합니다. 
 ---
-= 컨트롤러 반환 - ASA A400
+= ASA A400 시스템의 컨트롤러를 반납하여 정상 작동을 재개하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -2,9 +2,9 @@
 permalink: afx-2k/maintain-overview.html 
 sidebar: sidebar 
 keywords: afx 2k maintenance, maintenance, repairing a1k, repairing afx 2k, replace afx 2k components, replace afx 2k components 
-summary: afx 2k 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 보수 작업을 수행하면 시스템 다운타임과 데이터 손실을 방지할 수 있습니다. 
+summary: AFX 2K 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 보수 작업을 수행하면 시스템 다운타임과 데이터 손실을 방지할 수 있습니다. 
 ---
-= AFX 2K 유지보수 절차 개요
+= AFX 2K 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

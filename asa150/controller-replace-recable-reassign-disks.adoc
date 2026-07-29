@@ -2,9 +2,9 @@
 permalink: asa150/controller-replace-recable-reassign-disks.html 
 sidebar: sidebar 
 keywords: asa a150, a150, asa, how to recable the system, how to reassign disks 
-summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
+summary: ASA A150 시스템이 정상 작동을 재개할 수 있도록 스토리지 리소스의 제어를 교체 컨트롤러로 반환합니다. 
 ---
-= 시스템을 재할당하고 디스크를 재할당합니다 - ASA A150
+= ASA A150 시스템의 컨트롤러를 반납하여 정상 작동을 재개하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

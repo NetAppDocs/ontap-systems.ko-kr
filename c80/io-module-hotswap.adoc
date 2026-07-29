@@ -159,7 +159,7 @@ The module has been successfully removed from service and powered off. It can no
 [[step-3-replace-the-failed-io-module]]
 == 3단계: 장애가 발생한 I/O 모듈 교체
 
-고장난 I/O 모듈을 동등한 I/O 모듈로 교체하십시오.
+고장난 I/O 모듈을 동등한 I/O 모듈로 핫스왑하십시오.
 
 .단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.

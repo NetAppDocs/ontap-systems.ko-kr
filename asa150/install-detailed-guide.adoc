@@ -2,9 +2,9 @@
 permalink: asa150/install-detailed-guide.html 
 sidebar: sidebar 
 keywords: asa a150, a150, asa, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery 
-summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
+summary: 이 상세한 단계별 지침은 설치 준비, 하드웨어 설치, 컨트롤러 케이블 연결 및 설정 완료를 포함하여 ASA A150 시스템 설치 과정을 안내합니다. 
 ---
-= 상세 가이드 - ASA A150
+= 자세한 단계별 안내에 따라 ASA A150 스토리지 시스템을 설치하세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa A250 maintenance, maintenance, repairing A250, repairing asa A250, replace asa A250 components, replace asa A250 components 
 summary: ASA A250 하드웨어 유지보수 
 ---
-= ASA A250 하드웨어 유지보수
+= ASA A250 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 2k, how to recable the system, how to reassign disks 
 summary: AFX 2K 스토리지 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 
 ---
-= 컨트롤러 반환 - AFX 2K
+= 정상적인 작동을 재개하려면 AFX 2K 스토리지 시스템의 컨트롤러를 반납하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

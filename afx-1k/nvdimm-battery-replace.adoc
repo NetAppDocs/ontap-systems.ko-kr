@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, replace the nv battery, NV battery 
 summary: AFX 1K 저장 시스템의 NV 배터리는 정전 시에도 중요한 시스템 데이터를 보존하는 역할을 하므로 배터리가 충전을 잃거나 고장나면 교체하세요. 교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다. 
 ---
-= NV 배터리 교체 - AFX 1K
+= AFX 1K 스토리지 시스템의 NV 배터리 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

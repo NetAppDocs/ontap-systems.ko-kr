@@ -2,9 +2,9 @@
 permalink: afx-2k/controller-replace-workflow.html 
 sidebar: sidebar 
 keywords: afx 2k, replace the controller 
-summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 AFX 2K 스토리지 시스템의 컨트롤러 교체를 시작하십시오. 
+summary: AFX 2K 스토리지 시스템에서 고장난 컨트롤러를 종료하고, 컨트롤러를 제거한 후 새 컨트롤러로 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 컨트롤러 교체를 시작하십시오. 
 ---
-= 컨트롤러 교체 워크플로우 - AFX 2K
+= AFX 2K 컨트롤러 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

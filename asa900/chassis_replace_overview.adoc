@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a900, replace the chassis, overview 
 summary: 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원에 문의해야 합니다. 
 ---
-= 섀시를 교체합니다. - ASA A900
+= ASA A900 섀시를 교체하기 전에 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

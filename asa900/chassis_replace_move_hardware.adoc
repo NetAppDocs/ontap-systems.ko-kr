@@ -4,14 +4,11 @@ sidebar: sidebar
 keywords: asa a900, move hardware components, replace the chassis 
 summary: 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원에 문의해야 합니다. 
 ---
-= 하드웨어 이동 및 교체 - ASA A900
+= ASA A900 시스템의 섀시 교체
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
-
-
-
-[[move-and-replace-hardware-asa-a900]]
-== 하드웨어 이동 및 교체 - ASA A900
 
 [role="lead"]
 섀시를 교체하려면 손상된 섀시에서 구성 요소를 분리하여 교체 섀시에 설치해야 합니다.

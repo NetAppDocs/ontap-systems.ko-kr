@@ -2,9 +2,9 @@
 permalink: asa250/install-videos.html 
 sidebar: sidebar 
 keywords: asa a250, hardware installation and cabling video video 
-summary: 설치 및 설정 동영상은 새 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
+summary: 설치 및 설정 비디오는 새 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= 비디오 단계 - ASA A250
+= ASA A250 스토리지 시스템을 동영상 단계로 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

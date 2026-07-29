@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c30, shutdown the controllers 
 summary: 섀시를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 ASA C30 스토리지 시스템의 컨트롤러를 종료하세요. 
 ---
-= 컨트롤러 종료 - ASA C30
+= 섀시 교체를 위해 ASA C30 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

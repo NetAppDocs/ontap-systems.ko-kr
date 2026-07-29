@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, replace io module 
 summary: AFX 1K 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다.  네트워크 기능을 업그레이드하거나 오류가 발생한 모듈을 처리할 때 I/O 모듈을 추가하거나 교체하는 것이 필수적입니다. 
 ---
-= I/O 모듈 추가 및 교체 개요 - AFX 1K
+= AFX 1K 스토리지 시스템에서 I/O 모듈 추가 및 교체에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

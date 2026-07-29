@@ -2,9 +2,9 @@
 permalink: afx-2k/dimm-replace.html 
 sidebar: sidebar 
 keywords: afx 2k, replace a dimm 
-summary: 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 AFX 2K 스토리지 시스템의 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP으로 부팅되지 않을 수 있습니다. 교체 과정은 문제가 있는 컨트롤러를 종료하고, 컨트롤러를 제거하고, DIMM을 교체한 후 컨트롤러를 다시 설치하고, 마지막으로 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다. 
+summary: AFX 2K 스토리지 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP으로 부팅되지 않을 수 있습니다. 교체 과정은 문제가 있는 컨트롤러를 종료하고, 컨트롤러를 제거한 후, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다. 
 ---
-= DIMM 교체 - AFX 2K
+= AFX 2K 스토리지 시스템의 DIMM을 교체하여 메모리 오류를 해결합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

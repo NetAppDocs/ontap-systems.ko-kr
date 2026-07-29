@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a800, replace an nvdimm 
 summary: ASA A800 시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 시스템에 등록되면 NVDIMM을 교체하십시오. 그렇지 않으면 시스템 패닉이 발생합니다. 
 ---
-= NVDIMM-ASA A800을 교체합니다
+= ASA A800 시스템의 NVDIMM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

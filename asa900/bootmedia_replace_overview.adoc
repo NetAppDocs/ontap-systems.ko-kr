@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A900 
 summary: 부팅 미디어에는 시스템 부팅 시 사용하는 기본 및 보조 시스템 부팅 이미지 파일 세트가 저장됩니다. 네트워크 구성에 따라 무중단 또는 중단 방식의 교체를 수행할 수 있습니다. 
 ---
-= 부팅 매체(ASA A900)를 교체합니다
+= ASA A900 시스템의 부팅 미디어를 교체하기 전에 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

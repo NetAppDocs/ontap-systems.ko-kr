@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c30, move hardware components, replace the chassis 
 summary: 하드웨어 장애로 인해 ASA C30 스토리지 시스템의 섀시를 교체해야 하는 경우 교체 과정에는 컨트롤러 제거, 드라이브 제거, 교체 섀시 설치, 섀시 구성 요소 재설치가 포함됩니다. 
 ---
-= 섀시를 교체합니다. - ASA C30
+= ASA C30 시스템의 섀시 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a400, replace the controller workflow 
 summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 구성을 복원하고, 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하여 ASA A400 스토리지 시스템의 컨트롤러를 교체하십시오. 
 ---
-= 컨트롤러 교체 워크플로우 - ASA A400
+= ASA A400 컨트롤러 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

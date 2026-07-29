@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, complete the replacement process 
 summary: ASA A1K 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오. 
 ---
-= 결함이 있는 부품을 NetApp-ASA A1K으로 반납합니다
+= 자동 부팅 복구 프로세스가 완료된 후 오류가 발생한 ASA A1K 부팅 미디어를 NetApp에 반환하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

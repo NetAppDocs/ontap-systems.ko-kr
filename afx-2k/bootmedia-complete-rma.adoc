@@ -2,9 +2,9 @@
 permalink: afx-2k/bootmedia-complete-rma.html 
 sidebar: sidebar 
 keywords: afx 2k, complete the replacement process 
-summary: afx 2k 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp에 반환하십시오. 
+summary: AFX 2K 스토리지 시스템의 구성 요소에 장애가 발생하면 해당 부품을 NetApp에 반환하십시오. 
 ---
-= 고장난 부품을 NetApp으로 반송하십시오 - AFX 2K
+= 자동 부팅 복구 프로세스가 완료된 후 오류가 발생한 AFX 2K 부팅 미디어를 NetApp으로 반환하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

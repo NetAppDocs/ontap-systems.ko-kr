@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a250, replace a fan 
 summary: 팬을 교체하려면 장애가 발생한 팬 모듈을 분리하고 새 팬 모듈로 교체합니다. 
 ---
-= FAN-ASA A250을 교체한다
+= ASA A250 시스템의 팬 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

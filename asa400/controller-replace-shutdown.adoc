@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a400, shut down the impaired controller 
 summary: ASA A400 스토리지 시스템의 컨트롤러를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 컨트롤러를 종료하십시오. 
 ---
-= 손상된 컨트롤러-ASA A400을 종료합니다
+= 교체하기 전에 ASA A400 시스템에서 손상된 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

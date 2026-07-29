@@ -2,9 +2,9 @@
 permalink: asa900/controller_replace_recable_reassign_disks.html 
 sidebar: sidebar 
 keywords: asa a900, recable the system 
-summary: 스토리지 및 네트워크 구성을 다시 연결하여 교체 절차를 계속 진행하십시오. 
+summary: 스토리지 및 네트워크 구성을 다시 연결하고, 디스크 재할당을 확인한 다음, 스토리지 리소스 제어권을 교체 컨트롤러로 반환하여 ASA A900 시스템이 정상적으로 작동하도록 하십시오. 
 ---
-= 시스템 회수 - ASA A900
+= ASA A900 시스템의 컨트롤러를 반납하여 정상 작동을 재개하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

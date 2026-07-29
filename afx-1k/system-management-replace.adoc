@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 1k, replace the system manager module 
 summary: AFX 1K 스토리지 시스템의 시스템 관리 모듈에 결함이 생기거나 펌웨어가 손상된 경우 교체하세요.  교체 프로세스에는 컨트롤러 종료, 오류가 발생한 시스템 관리 모듈 교체, 컨트롤러 재부팅, 라이선스 키 업데이트, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다. 
 ---
-= 시스템 관리 모듈 교체 - AFX 1K
+= AFX 1K 스토리지 시스템의 시스템 관리 모듈 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

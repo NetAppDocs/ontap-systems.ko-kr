@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a800, hardware installation and cabling video 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 비디오 단계 - ASA A800
+= 동영상 단계별 안내에 따라 ASA A800 스토리지 시스템을 설치합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

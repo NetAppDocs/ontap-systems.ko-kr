@@ -2,9 +2,9 @@
 permalink: afx-2k/io-module-add.html 
 sidebar: sidebar 
 keywords: afx 2k, add IO module 
-summary: I/O 모듈을 afx 2k 스토리지 시스템에 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오. 
+summary: AFX 2K 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오. 
 ---
-= I/O 모듈 추가 - AFX 2K
+= AFX 2K 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시킵니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

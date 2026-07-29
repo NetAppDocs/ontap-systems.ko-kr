@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a250, replace the chassis 
 summary: ASA A250 시스템에서 손상된 섀시를 교체하기 위해 준비하려면 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 붙여야 합니다. 
 ---
-= 섀시 교체 준비 - ASA A250
+= ASA A250 섀시 교체 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
