@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: eoa-hardware.html 
 keywords: legacy, hardware, end-of-support 
-summary: 더 이상 지원되지 않는 기존 하드웨어에 대해 알아보십시오. 
+summary: 더 이상 지원되지 않는 구형 하드웨어에 대해 알아보십시오. 
 ---
-= 하드웨어가 더 이상 지원되지 않습니다
+= ONTAP 하드웨어 시스템은 더 이상 지원되지 않습니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

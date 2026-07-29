@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c80, replace the NV battery, NV battery 
 summary: 정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 충전되지 않거나 고장 나면 AFF C80 시스템의 NV 배터리를 교체하십시오. 
 ---
-= NV 배터리를 교체합니다. - AFF C80
+= AFF C80 스토리지 시스템의 NV 배터리 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

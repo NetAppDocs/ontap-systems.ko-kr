@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c800, how to recable the system, how to reassign disks 
 summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
 ---
-= 시스템을 재할당하고 디스크를 재할당합니다 - AFF C800
+= AFF C800 시스템의 케이블을 다시 연결하고 디스크를 재할당합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

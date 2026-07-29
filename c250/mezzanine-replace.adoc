@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c250, replace or install a mezzanine card 
 summary: 오류가 발생한 메자닌 카드를 교체하려면 케이블과 SFP 또는 QSFP 모듈을 분리하고 카드를 교체하고 SFP 또는 QSFP 모듈을 다시 설치한 다음 카드를 다시 설치해야 합니다. 새 메자닌 카드를 설치하려면 적절한 케이블과 SFP 또는 QSFP 모듈이 있어야 합니다. 
 ---
-= 메자닌 카드(AFF C250)를 교체하거나 설치합니다
+= AFF C250 스토리지 시스템에서 메자닌 카드 교체 또는 설치
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

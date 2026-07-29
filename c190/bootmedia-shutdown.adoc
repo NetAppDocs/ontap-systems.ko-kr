@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c190, shut down the controller, manual, manual boot recovery 
 summary: 암호화 검사를 완료한 후 AFF C190 시스템에서 손상된 컨트롤러를 종료하십시오. AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
-= 컨트롤러 종료 - AFF C190
+= AFF C190 시스템에서 수동 부팅 복구 과정 중에 손상된 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

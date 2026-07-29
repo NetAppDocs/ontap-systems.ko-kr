@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c400, move the controller module hardware 
 summary: 하드웨어 장애로 인해 AFF C400 시스템의 컨트롤러를 교체해야 하는 경우 고장난 컨트롤러를 제거하고 해당 구성 요소를 교체용 컨트롤러로 이동한 후 새 컨트롤러를 설치하고 재부팅하십시오. 
 ---
-= 컨트롤러 교체 - AFF C400
+= AFF C400 스토리지 시스템의 컨트롤러 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

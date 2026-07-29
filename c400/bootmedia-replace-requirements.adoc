@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: c400, replace the boot media 
 summary: AFF C400 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다. 
 ---
-= 수동 부팅 미디어 복구 요구 사항 - AFF C400
+= AFF C400 스토리지 시스템에서 수동 부팅 미디어 복구를 위한 요구 사항 검토
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

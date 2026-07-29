@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, shut down the impaired controller 
 summary: AFF C30 또는 AFF C60 저장 장치 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 유지합니다. 
 ---
-= 손상된 컨트롤러를 종료합니다(AFF C30 및 AFF C60)
+= AFF C30 또는 AFF C60 스토리지 시스템에서 교체 전에 손상된 컨트롤러를 종료하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

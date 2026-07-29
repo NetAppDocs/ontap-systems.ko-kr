@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: ASA R2 시스템 유지 관리
-  summary: ASA R2 시스템을 유지 관리하는 방법에 대해 알아보십시오.
+  title: ONTAP ASA r2 시스템 유지 관리
+  summary: ONTAP ASA r2 시스템을 유지 관리하는 방법을 알아보십시오.
   keywords: maintain asa a1k, a70, a90
-  lead: 하드웨어에 대한 유지 관리 절차를 수행해야 할 수도 있습니다. ASA r2 시스템 구성 요소의 유지 관리에 관한 절차는 이 섹션에 나와
-    있습니다.
+  lead: 하드웨어에 대한 유지 관리 절차를 수행해야 할 수 있습니다. ONTAP ASA r2 시스템 구성 요소 유지 관리에 대한 구체적인 절차는
+    이 섹션에 있습니다.
   tiles:
   - title: ASA A1K 를 참조하십시오
     links:

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c80, replace the chassis 
 summary: 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블 및 컨트롤러 모듈에 레이블을 지정하여 C80 시스템에서 손상된 섀시를 교체할 준비를 합니다. 
 ---
-= 섀시 C80의 교체를 준비합니다
+= AFF C80 섀시 교체 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: NetApp 스토리지 시스템에 대한 시스템 구성 요소 교체 참조
+  title: ONTAP 하드웨어 시스템의 시스템 구성 요소 교체 참조 자료
   summary: 스토리지 시스템의 현장 교체 장치(FRU)에 대한 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에
     대한 단계별 교체 워크플로에 대한 직접 링크를 제공하여 특정 하드웨어 유지 관리 요구 사항에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.
   keywords: FRU reference, field replaceable units, platform FRUs, hardware components,

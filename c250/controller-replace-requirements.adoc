@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c250, prerequisite, replace the controller module 
 summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
 ---
-= 컨트롤러 교체 요구 사항 - AFF C250
+= AFF C250 스토리지 시스템에서 컨트롤러를 교체하기 전에 요구 사항을 검토하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

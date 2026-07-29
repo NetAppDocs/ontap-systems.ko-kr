@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c190, shutdown, checks, onboard, encryption, keys, impaired controller, disable, automatic, feedback, manual, manual boot recovery 
 summary: AFF C190 시스템에서 손상된 컨트롤러를 종료하기 전에 암호화 키 지원 및 상태를 확인하십시오. AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
-= 암호화 키 지원 및 상태 확인 - AFF C190
+= AFF C190 부팅 미디어의 암호화 지원 확인
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

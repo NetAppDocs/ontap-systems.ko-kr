@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c80, prepare installation 
 summary: AFF C80 저장 장치 시스템 설치를 준비합니다. 
 ---
-= 설치 준비 - AFF C80
+= AFF C80 스토리지 시스템 설치 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

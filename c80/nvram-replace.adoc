@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c80, replace nvram 
 summary: 'NVRAM 모듈은 NVRAM12와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다.' 
 ---
-= NVRAM-AFF C80을 교체합니다
+= AFF C80 스토리지 시스템의 NVRAM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

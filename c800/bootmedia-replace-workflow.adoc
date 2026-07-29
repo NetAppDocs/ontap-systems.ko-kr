@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c800, replace the boot media 
 summary: AFF C800 스토리지 시스템의 부트 미디어를 교체하려면 교체 요구 사항을 검토하고, 암호화 상태를 확인하고, 컨트롤러를 종료하고, 부트 미디어를 교체하고, 복구 이미지를 부팅하고, 암호화를 복원하고, 시스템 기능을 확인하는 등의 작업을 수행하세요. 
 ---
-= 부트 미디어 수동 복구 워크플로 - AFF C800
+= AFF C800 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

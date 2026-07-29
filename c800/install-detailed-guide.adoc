@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c800, detailed installation 
 summary: 이 섹션에서는 AFF C800 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
 ---
-= 자세한 단계 - AFF C800
+= 자세한 단계를 사용하여 AFF C800 스토리지 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

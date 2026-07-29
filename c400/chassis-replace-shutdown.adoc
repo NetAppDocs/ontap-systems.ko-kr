@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff c400, aff, c400, component, system, function, properly, contact, technical, support, replace, chassis, shut, down, controller, replacing, remove, module, fan, equipment, rack, cabinet, ha, state, switch, back, aggregate, two-node, metrocluster, configuration, complete, replacement, process, replace the chassis, shut down the controllers when replacing a chassis, remove the controller modules, move the fans, replace a chassis from within the equipment rack or system cabinet, install the controller modules, verify and set the ha state of the chassis, switch back aggregates in a two-node metrocluster configuration, complete the replacement process 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= 컨트롤러를 종료합니다. - AFF C400
+= 섀시 교체를 위해 AFF C400 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+구성에 적합한 절차를 사용하여 섀시를 교체하기 위해 AFF C400 컨트롤러를 종료합니다.
 
 
 

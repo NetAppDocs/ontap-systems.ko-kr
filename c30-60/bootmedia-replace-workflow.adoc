@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, replace the boot media 
 summary: 부트 이미지를 수동으로 복구하려면 USB 드라이브를 사용하여 AFF C30 또는 AFF C60 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치해야 합니다. NetApp 지원 사이트에서 적절한 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사해야 합니다. 이렇게 준비된 USB 드라이브를 사용하여 복구를 수행하고 시스템을 작동 상태로 복원합니다. 
 ---
-= 부팅 미디어 수동 복구 워크플로 - AFF C30 및 AFF C60
+= AFF C30 및 AFF C60 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, pre-shutdown checks for onboard encryption keys 
 summary: AFF C30 또는 AFF C60 스토리지 시스템의 데이터 보안을 보장하려면 부트 미디어의 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. 
 ---
-= 수동 부팅 미디어 복구에 대한 암호화 지원 확인 - AFF C30 및 AFF C60
+= AFF C30 또는 AFF C60 스토리지 시스템의 부팅 미디어에서 암호화 지원 확인
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

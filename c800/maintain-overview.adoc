@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff C800 maintenance, maintenance, repairing C800, repairing aff C800, replace aff C800 components, replace aff C800 components 
 summary: AFF C800 하드웨어 유지 관리 
 ---
-= AFF C800 하드웨어 유지보수
+= AFF C800 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

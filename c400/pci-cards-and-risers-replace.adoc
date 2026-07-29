@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff c400, aff, c400, replace, pcie, mezzanine, card, disconnect, cable, sfp, qsfp, module, fail, mezzanine, shut, down, impair, controller, pcie, switch, aggregate, two-node, metrocluster, complete, replacement, process, replace a pcie or mezzanine card, shut down the impaired controller, remove the controller module, replace a pcie card, replace the mezzanine card, install the controller module, switch back aggregates in a two-node metrocluster configuration, restore the controller module to operation, complete the replacement process 
 summary: PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈을 카드에서 분리하고, 오류가 발생한 PCIe 또는 메자닌 카드를 교체한 다음 카드를 다시 배선해야 합니다. 
 ---
-= PCIe 또는 메자닌 카드(AFF C400)를 교체합니다
+= AFF C400 스토리지 시스템의 PCIe 또는 메자닌 카드 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF C400 스토리지 시스템의 카드에서 케이블과 SFP/QSFP 모듈을 분리하고, 고장난 카드를 교체한 후 케이블을 다시 연결하여 PCIe 또는 메자닌 카드를 교체하십시오.
+
 PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈을 카드에서 분리하고, 오류가 발생한 PCIe 또는 메자닌 카드를 교체한 다음 카드를 다시 배선해야 합니다.
 
 * 이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다
@@ -22,14 +24,12 @@ PCIe 또는 메자닌 카드를 교체하려면 케이블과 SFP 및 QSFP 모듈
 [[step-1-shut-down-the-impaired-controller]]
 == 1단계: 손상된 컨트롤러를 종료합니다
 
-[role="lead"]
 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다.
 
 [role="tabbed-block"]
 ====
 .옵션 1: 대부분의 구성
 --
-[role="lead"]
 손상된 컨트롤러의 기능을 인계받아 중지시키면 정상적인 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있습니다. 이를 위해 AutoSupport에서 자동 케이스 생성을 억제하고 자동 반환 기능을 비활성화한 다음 손상된 컨트롤러를 LOADER 프롬프트로 전환합니다. LOADER 프롬프트는 FRU를 교체할 수 있는 안전한 중지 상태입니다.
 
 .이 작업에 대해
@@ -99,7 +99,6 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 --
 .옵션 2: 컨트롤러가 2노드 MetroCluster에 있습니다
 --
-[role="lead"]
 손상된 컨트롤러를 종료하려면 컨트롤러 상태를 확인하고, 필요한 경우 컨트롤러 전원을 전환하여 정상적인 컨트롤러가 손상된 컨트롤러 스토리지에서 데이터를 계속 제공하도록 해야 합니다.
 
 .이 작업에 대해
@@ -198,9 +197,9 @@ mcc1A::> metrocluster operation show
 [[step-2-remove-the-controller-module]]
 == 2단계: 컨트롤러 모듈을 분리합니다
 
-[role="lead"]
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
 
+.단계
 . 아직 접지되지 않은 경우 올바르게 접지하십시오.
 . 전원 케이블 고정 장치를 분리한 다음 전원 공급 장치에서 케이블을 분리합니다.
 . 케이블을 케이블 관리 장치에 연결하는 후크 및 루프 스트랩을 푼 다음, 케이블이 연결된 위치를 추적하면서 컨트롤러 모듈에서 시스템 케이블과 SFP(필요한 경우)를 분리합니다.
@@ -245,7 +244,6 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 [[step-3-replace-a-pcie-card]]
 == 3단계: PCIe 카드를 교체합니다
 
-[role="lead"]
 PCIe 카드를 교체하려면 오류가 발생한 PCIe 카드를 찾아 컨트롤러 모듈에서 카드가 들어 있는 라이저를 꺼낸 다음 컨트롤러 모듈에 PCIe 라이저를 다시 설치해야 합니다.
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 PCIe 카드를 교체할 수 있습니다.
@@ -285,6 +283,7 @@ image:../media/icon_round_4.png["설명선 번호 4"]
 PCI 카드
 
 |===
+.단계
 . 교체할 카드가 들어 있는 라이저를 분리합니다.
 +
 .. 공기 덕트 측면의 잠금 탭을 눌러 공기 덕트를 열고 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치로 돌립니다.
@@ -326,7 +325,6 @@ NOTE: 하단 슬롯에 카드를 설치할 때 카드 소켓이 제대로 보이
 [[step-4-replace-the-mezzanine-card]]
 == 4단계: 메자닌 카드를 교체합니다
 
-[role="lead"]
 메자닌 카드는 라이저 번호 3(슬롯 4 및 5) 아래에 있습니다. 메자닌 카드에 액세스하려면 라이저를 분리하고 메자닌 카드를 교체한 다음 라이저 번호 3을 다시 설치해야 합니다. 자세한 내용은 컨트롤러 모듈의 FRU 맵을 참조하십시오.
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 메자닌 카드를 교체할 수 있습니다.
@@ -359,6 +357,7 @@ image:../media/icon_round_3.png["설명선 번호 3"]
 라이저 카드
 
 |===
+.단계
 . 라이저 번호 3(슬롯 4 및 5)을 분리합니다.
 +
 .. 공기 덕트 측면의 잠금 탭을 눌러 공기 덕트를 열고 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치로 돌립니다.
@@ -398,6 +397,7 @@ NOTE: 메자닌 카드 나사를 완전히 조이십시오. 나사가 헐거우�
 
 컨트롤러 모듈에서 구성 요소를 교체한 후 컨트롤러 모듈을 섀시에 재설치한 다음 유지보수 모드로 부팅해야 합니다.
 
+.단계
 . 아직 에어 덕트를 닫지 않은 경우 에어 덕트를 닫으십시오.
 . 컨트롤러 모듈의 끝을 섀시의 입구에 맞춘 다음 컨트롤러 모듈을 반쯤 조심스럽게 시스템에 밀어 넣습니다.
 +
@@ -443,6 +443,7 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 컨트롤러를 복원하려면 시스템을 재가동하고 컨트롤러 모듈을 반환한 다음 자동 반환이 다시 사용되도록 설정해야 합니다.
 
+.단계
 . 필요에 따라 시스템을 다시 연결합니다.
 +
 미디어 컨버터(QSFP 또는 SFP)를 분리한 경우 광섬유 케이블을 사용하는 경우 다시 설치해야 합니다.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, power controllers 
 summary: AFF C30 또는 AFF C60 스토리지 시스템의 네트워크 및 쉘프에 컨트롤러를 케이블로 연결한 후 쉘프와 컨트롤러의 전원을 켭니다. 
 ---
-= 스토리지 시스템 전원을 켭니다(AFF C30 및 AFF C60)
+= AFF C30 및 AFF C60 스토리지 시스템 전원 켜기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

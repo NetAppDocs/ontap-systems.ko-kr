@@ -4,13 +4,15 @@ sidebar: sidebar
 keywords: aff c400, aff, c400, replace, nvdimm, battery, remove, controller, module, reinstall, impair, aggregate, switch, back, two-node, metrocluster, configuration, replacement, complete, process, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, restore the controller module to operation, switch back aggregates in a two-node metrocluster configuration, complete the replacement process 
 summary: NVDIMM 전지를 교체하려면 컨트롤러 모듈을 분리하고 전지를 분리한 다음 전지를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다. 
 ---
-= NVDIMM 배터리를 교체합니다. - AFF C400
+= AFF C400 스토리지 시스템의 NVDIMM 배터리 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+AFF C400 스토리지 시스템의 NVDIMM 배터리를 교체하려면 컨트롤러 모듈을 제거하고 배터리를 교체한 다음 컨트롤러 모듈을 다시 설치하십시오.
+
 NVDIMM 전지를 교체하려면 컨트롤러 모듈을 분리하고 전지를 분리한 다음 전지를 교체하고 컨트롤러 모듈을 다시 설치해야 합니다.
 
 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.

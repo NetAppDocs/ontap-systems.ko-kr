@@ -2,16 +2,16 @@
 permalink: c30-60/overview.html 
 sidebar: sidebar 
 keywords: AFF C30 C60 specifications, AFF C30 C60 specs, AFF C30 C60 capacity, AFF C30 C60 memory, AFF C30 C60 IO, AFF C30 C60 compliance 
-summary: C30-60 플랫폼 그룹의 주요 사양 
+summary: 단일 고가용성 쌍으로 구성된 AFF C30 및 AFF C60 스토리지 시스템의 주요 사양 
 ---
-= C30-60 플랫폼 그룹의 주요 사양
+= AFF C30 및 AFF C60의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음은 C30-60 플랫폼 그룹에 대한 선택 사양입니다.  방문하다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 전체 사양 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.
+다음은 단일 고가용성 쌍으로 구성된 AFF C30 및 AFF C60 스토리지 시스템의 주요 사양입니다. 해당 스토리지 시스템의 전체 사양은 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]을 참조하십시오.
 
 
 

@@ -1,10 +1,10 @@
 ---
 permalink: c250/install-videos.html 
 sidebar: sidebar 
-keywords: aff a250, hardware installation and cabling video video 
+keywords: aff c250, hardware installation and cabling video 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 비디오 단계 - AFF C250
+= 동영상 안내를 사용하여 AFF C250 스토리지 시스템을 설치하고 설정합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

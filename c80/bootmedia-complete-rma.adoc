@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c80, complete the replacement process 
 summary: AFF C80 시스템의 구성 요소가 고장난 경우 고장난 부품을 NetApp로 반송하십시오. 
 ---
-= 결함이 있는 부품을 NetApp-AFF C80으로 반납합니다
+= 수동 부팅 복구 프로세스를 완료한 후 장애가 발생한 AFF C80 부팅 미디어를 NetApp으로 반환하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

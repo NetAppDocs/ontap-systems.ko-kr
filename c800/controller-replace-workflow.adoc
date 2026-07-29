@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c800, replace the controller workflow 
 summary: AFF C800 스토리지 시스템의 컨트롤러를 교체하려면 먼저 고장난 컨트롤러를 종료하고, 컨트롤러를 제거한 후 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하십시오. 
 ---
-= 컨트롤러 교체 워크플로우 - AFF C800
+= AFF C800 컨트롤러 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

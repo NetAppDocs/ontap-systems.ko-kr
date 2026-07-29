@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: c400, shut down the controller 
 summary: 부트 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFF C400 스토리지 시스템에서 손상된 컨트롤러를 종료하세요. 
 ---
-= 자동 부팅 미디어 복구를 위해 컨트롤러 종료 - AFF C400
+= 자동 부팅 복구 프로세스 중에 AFF C400 스토리지 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

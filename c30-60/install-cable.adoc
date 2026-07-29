@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, cabling, cluster cabling, host network cabling, management network cabling, shelf cabling 
 summary: AFF C30 또는 AFF C60 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다. 
 ---
-= 하드웨어 케이블 연결 - AFF C30 및 AFF C60
+= AFF C30 및 AFF C60 하드웨어의 네트워크 및 스토리지 연결을 위한 케이블 연결
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

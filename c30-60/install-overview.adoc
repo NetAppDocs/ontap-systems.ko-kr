@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, Installation, deployment, Install, deploy, Installing, deploying 
 summary: AFF C30 또는 AFF C60 스토리지 시스템을 설치 및 설정하려면 설치 요구 사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블 연결하고, 스토리지 시스템의 전원을 켜고, ONTAP 클러스터를 설정해야 합니다. 
 ---
-= 설치 및 설정 워크플로우 - AFF C30 및 AFF C60
+= AFF C30 및 AFF C60 설치 및 구성 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
