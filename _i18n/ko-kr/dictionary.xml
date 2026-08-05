@@ -7006,7 +7006,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d17bb023ab45bd18aad4108bff14bf1e" category="list-text">키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다. <block ref="672892c7f98df9ad95d0024f72bc4b95" category="inline-link-rx"></block>자세한 내용은 페이지를 참조하십시오.</block>
   <block id="66a35db4b6d963b540c6a3d31a9d39e6" category="paragraph">손상된 컨트롤러 모듈을 종료하거나 인계합니다.</block>
   <block id="011b6189f470beb455ff657e2d7f7a63" category="list-text">캠 래치를 모듈에서 최대한 멀리 돌립니다.</block>
-  <block id="2e8e8fd780cc78a14b825cad663b2611" category="paragraph">ONTAP 9.16.0 이하</block>
   <block id="54d6f7773c4a60500d049c396202a23d" category="list-text">시스템 관리 캠 버튼을 누릅니다.</block>
   <block id="e3f95753aace3276fa0375074c45c988" category="list-text">손상된 컨트롤러에 결함이 있는 클러스터 포트가 없어야 합니다.</block>
   <block id="9a55c0fdded61a1e549c1b9afbfc5023" category="list-text"><block ref="32b858596eeb9351eca27c2906a21da4" prefix="" category="inline-code"></block> (ASA 시스템에서는 지원되지 않음)</block>
@@ -10233,7 +10232,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f56ae7fd8ac660d55ee476cc2b6b6715" category="paragraph">최대 원시 용량: 0.5472 PB</block>
   <block id="2ce22d99495ad1d67f2afd59b9d15465" category="paragraph">메모리: 64.0000GB</block>
   <block id="eab43815aa6ddac6523fe001702557fd" category="paragraph">폼 팩터: 2개의 HA 컨트롤러와 24개의 드라이브 슬롯이 있는 2U 섀시</block>
-  <block id="dce6354c7432d233d30699f4fa1dab1b" category="paragraph">ONTAP 버전: b_startONTAP: 9.16.1P2b_end</block>
   <block id="2b13b0d1b04399d702b8569a3b81c7fb" category="paragraph">PCIe 확장 슬롯:</block>
   <block id="467c14d27cfd498baa41b5de62cbe35b" category="paragraph">최소 ONTAP 버전: ONTAP 9.10.1P12</block>
   <block id="4d15157e07692c77bdeff6cb8bc45844" category="section-title">스케일아웃 최대값</block>
@@ -10281,7 +10279,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="810944644ddbd9a71f9a53ebcd73f51d" category="list-text">표준 EMC/EMI: BS-EN-55024, BS-EN55035, CISPR 32, EN55022, EN55024, EN55032, EN55035, EN61000-3-2, EN61000-3-3, FCC Part 15 Class A, ICES-003, KS C 9832, KS C 9835</block>
   <block id="9b3b75c67a53d54bba73c70cd1786aed" category="list-text">표준 안전: ANSI/UL60950-1, ANSI/UL62368-1, BS-EN62368-1, CAN/CSA C22.2 No. 60950-1, CAN/CSA C22.2 No. 62368-1, CNS 14336, EN60825-1, EN62368-1, IEC 62368-1, IEC60950-1, IS 13252(파트 1)</block>
   <block id="520b661a272c9e6f55f469cc9c24193d" category="section-title">고가용성</block>
-  <block id="f5046e4779952c40dda2055325e842f6" category="list-text">ONTAP 버전: ONTAP: 9.16.1P2</block>
   <block id="014e996a6a164aaf40b8b3e72704fc2e" category="section-title">입출력</block>
   <block id="c9517cd5cbe4fac6d0c526d61f3fcc39" category="section-title">온보드 I/O</block>
   <block id="81754037ddc5b97d9b806acad96f8815" category="list-text">프로토콜: 이더넷 10Gbps; 포트: 12</block>
@@ -11688,8 +11685,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="27b8025bf920b2fdec95f4719d7e3772" category="paragraph">PSU는 중복성이 뛰어나고 핫스왑이 가능합니다. PSU를 교체하기 위해 컨트롤러를 끌 필요는 없습니다.</block>
   <block id="41221ad2b8f379d044b6e4c034575270" category="list-text">설치 중인 모든 컨트롤러의 시스템 일련 번호(SSN)를 찾으세요.</block>
   <block id="5ea0f09670f21c71300695e92b2cd256" category="admonition">호스트 네트워크 연결에는 e1b 및 e7b 포트를 사용하지 마세요. 별도의 호스트 카드를 사용하세요.</block>
-  <block id="e0c35bf779836a3b5e187a211457a2b9" category="list-text">외부 셸프에 대한 SAS 연결을 통한 SAS 인밴드 관리 [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
-  <block id="30432b9617d110e91bb55e0ee6592cdb" category="paragraph">이더넷 기반 베이스보드 관리 컨트롤러(BMC) 및 ONTAP 관리 인터페이스; 중복 핫스왑 가능 컨트롤러; 중복 핫스왑 가능 전원 공급 장치; 외부 선반을 위한 SAS 연결을 통한 SAS 인밴드 관리; [//] 2025-10-15 ontap-systems-internal/issues/1357</block>
   <block id="bb9a46a830b86006c64c8c357fbcb73c" category="doc">전원 공급 장치 핫스왑 - FAS70 및 FAS90</block>
   <block id="c0fb977424a2b5bca01ac503e2f1b009" category="doc">전원 공급 장치 핫스왑 - FAS2700</block>
   <block id="58c298876292ce3ccb07434a6eb98ee8" category="doc">전원 공급 장치 핫스왑 - FAS500f</block>
@@ -11811,7 +11806,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9fa7c02bb45265f34f4f69d65e4ba585" category="paragraph"><block ref="ec44bfe32a6d575f528cbdeeb29c9942" prefix="" category="inline-code"></block></block>
   <block id="1a68286f23d4e481b013070b3fb1b2c5" category="paragraph">복구 이미지는 USB 플래시 드라이브에서 다운로드됩니다.</block>
   <block id="0e99a276251e3e975397503d3c6c3d07" category="list-text">메시지가 표시되면 이미지 이름을 입력하거나 *Enter*를 눌러 괄호 안에 표시된 기본 이미지를 적용합니다.</block>
-  <block id="c9e381b8fb72130d3dfe11557316b5b4" category="list-text">ONTAP 버전에 맞는 절차를 사용하여 var 파일 시스템을 복원합니다.</block>
   <block id="510eb69f55221f0ff4cc891c4ba7a6d9" category="paragraph">손상된 컨트롤러와 파트너 컨트롤러에서 다음 단계를 완료하세요.</block>
   <block id="268c64a36efe2137fa47de3437bd4bd0" category="list-text">*손상된 컨트롤러에서:* 누르기<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block> 당신이 볼 때<block ref="aa48693d0248bb57512e373cd7f7eebc" prefix=" " category="inline-code"></block></block>
   <block id="9cf62becb6c08190789fafc5e01382fe" category="list-text">*손상된 컨트롤러에서:* 메시지가 표시되면 다음을 누르세요.<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block> _/etc/ssh/ssh_host_ecdsa_key_를 덮어씁니다.</block>
@@ -11828,7 +11822,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="88c59cc215089054320add9ac5600ce2" category="list-text">*손상된 컨트롤러에서:* 다음 중 하나를 수행하세요.</block>
   <block id="c15238078a77edc2ef4bd593196971b8" category="list-text">시스템이 암호화를 사용하지 않는 경우 부팅 메뉴에서 _옵션 1 일반 부팅_을 선택하세요.</block>
   <block id="99ae95872c3913a9ded71370c70a8cc7" category="list-text">시스템이 암호화를 사용하는 경우 다음으로 이동하세요.<block ref="d767082d20397ebb99e586749eda3a08" category="inline-link-macro-rx"></block> .</block>
-  <block id="fe96aa95930d10c2f5829bc437157a9c" category="open-title">ONTAP 9.16.1 이상</block>
   <block id="f9dbd529813df9b97e2450323ae00565" category="paragraph">손상된 컨트롤러에서 다음 단계를 완료하세요.</block>
   <block id="3b554643290ff3791f79c55bfc5ead66" category="paragraph">복원 절차가 성공적으로 완료되면 다음 메시지가 표시됩니다.<block ref="92080c75f9b065e263d7fea155b1d733" prefix=" " category="inline-code"></block></block>
   <block id="ea673c9d0e265c7c75644bc9baaa8689" category="list-text">누르다<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block> 복원 백업이 성공했는지 확인하라는 메시지가 표시됩니다.</block>
@@ -12740,7 +12733,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9b2d40af21d64d80278ee173eee93493" category="doc">FAS500f의 주요 사양</block>
   <block id="7971c747973f656fa0a258fe576a59ce" category="paragraph">다음은 FAS500f에 대한 선택 사양입니다. <block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block> (HWU)를 방문하여 FAS500f 사양의 전체 목록을 확인하십시오. 이 페이지는 단일 고가용성 쌍을 반영합니다.</block>
   <block id="2993484ef64a91db7d4ffb4091f706d0" category="paragraph">플랫폼 구성: FAS500f 단일 섀시 HA 쌍</block>
-  <block id="9301497e894d25c1a5d8e0997da7a7eb" category="paragraph">ONTAP 버전: 9.16.1P2</block>
   <block id="5a4e86e80e1a2b65d5e11606283fa0e6" category="inline-link-macro">AFF A250 (자동 복구)</block>
   <block id="48f357e077fea73ea971448bfba251ef" category="list-text"><block ref="48f357e077fea73ea971448bfba251ef" category="inline-link-macro-rx"></block></block>
   <block id="2c196d8c70003da4749b8a9477ed6300" category="inline-link-macro">AFF A250(수동 복구)</block>
@@ -15335,4 +15327,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="75f43aac1b3f7478f7dd28c21285aa4f" category="sidebar">새로운 ONTAP ASA r2 시스템(ASA A1K, ASA A70, ASA A90, ASA A20, ASA A30 및 ASA A50)은 SAN 전용 고객의 요구 사항에 특화된 간소화된 환경을 제공하는 통합 하드웨어 및 소프트웨어 솔루션을 제공합니다.</block>
   <block id="2f1ec7862d30d363bcd985b98d0405ea" category="sidebar">ONTAP ASA r2 시스템</block>
   <block id="e39a75fc031fe75db1eb9bd7bb630df0" category="sidebar">ONTAP ASA r2 스토리지 시스템 설명서를 통해 ASA r2 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
+  <block id="b17965ed7656eaefd5896d5e8bc8220f" category="paragraph">네트워크 연결이 필요하며 ONTAP 9.16.0 이하 버전이 실행 중입니다.</block>
+  <block id="3db85ee708765a863ca7bcba163f6a4e" category="paragraph">네트워크 연결이 필요하며 ONTAP 9.16.1 이상 버전이 실행 중입니다.</block>
+  <block id="e77843037570fc2dc04cabc4bbe0c856" category="list-text">백업 구성을 복원하라는 메시지가 표시되면 <block ref="8d9c307cb7f3c4a32822a51922d1ceaa" prefix=" " category="inline-code"></block>을 누르십시오.</block>
+  <block id="20c74d497df9de076409b88163fc27bf" category="paragraph">업데이트를 계속할지 묻는 메시지가 표시되면<block ref="57cec4137b614c87cb4e24a3d003a3e0" prefix=" " category="inline-code"></block>을 누르십시오.</block>
+  <block id="9ada4cfd3f8a4a843a3a72db74213052" category="list-text">부팅 메뉴가 나타나면 <block ref="76be6883bcf9e8a6aed3a347ac20e41f" prefix=" " category="inline-code"></block>을 누르십시오.</block>
 </blocks>

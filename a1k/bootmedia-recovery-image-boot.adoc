@@ -29,12 +29,16 @@ AFF A1K 시스템에 새로운 부트 미디어 장치를 설치한 후 USB 드�
 복구 이미지는 USB 플래시 드라이브에서 다운로드됩니다.
 
 . 메시지가 표시되면 이미지 이름을 입력하거나 *Enter*를 눌러 괄호 안에 표시된 기본 이미지를 적용합니다.
-. ONTAP 버전에 맞는 절차를 사용하여 var 파일 시스템을 복원합니다.
+. var 파일 시스템을 복구합니다.
 +
-[role="tabbed-block"]
-====
-.ONTAP 9.16.0 이하
---
+[cols="1,2"]
+|===
+| 시스템에 다음 기능이 있는 경우: | 그러면... 
+
+
+ a| 
+네트워크 연결이 필요하며 ONTAP 9.16.0 이하 버전이 실행 중입니다.
+ a| 
 손상된 컨트롤러와 파트너 컨트롤러에서 다음 단계를 완료하세요.
 
 .. *손상된 컨트롤러에서:* 누르기 `Y` 당신이 볼 때 `Do you want to restore the backup configuration now?`
@@ -66,9 +70,11 @@ NOTE: 성공적인 복원 외의 메시지가 표시되면 NetApp 지원팀에 �
 
 
 
---
-.ONTAP 9.16.1 이상
---
+
+
+ a| 
+네트워크 연결이 필요하며 ONTAP 9.16.1 이상 버전이 실행 중입니다.
+ a| 
 손상된 컨트롤러에서 다음 단계를 완료하세요.
 
 .. 백업 구성을 복원하라는 메시지가 나타나면 키를 `Y` 누릅니다.
@@ -87,8 +93,59 @@ NOTE: 성공적인 복원 외의 메시지가 표시되면 NetApp 지원팀에 �
 
 
 
---
-====
+
+
+ a| 
+네트워크 연결이 없습니다
+ a| 
+.. 백업 구성을 복원하라는 메시지가 표시되면  `N`을 누르십시오.
+.. 시스템에서 메시지가 표시되면 시스템을 재부팅합니다.
+.. 표시된 메뉴에서 * Update flash from backup config * (sync flash) 옵션을 선택합니다.
++
+업데이트를 계속할지 묻는 메시지가 표시되면 `Y`을 누르십시오.
+
+.. 부팅 메뉴가 나타나면  `Ctrl-C`을 누르십시오.
+.. 다음 중 하나를 수행합니다.
++
+*** 시스템이 암호화를 사용하지 않는 경우 부팅 메뉴에서 _옵션 1 일반 부팅_을 선택하세요.
+*** 시스템이 암호화를 사용하는 경우 다음으로 이동하세요.link:bootmedia-encryption-restore.html["암호화를 복원합니다"] .
+
+
+
+
+
+
+ a| 
+네트워크 연결이 없고 MetroCluster IP 구성에 있습니다
+ a| 
+.. 백업 구성을 복원하라는 메시지가 표시되면  `N`을 누르십시오.
+.. 시스템에서 메시지가 표시되면 시스템을 재부팅합니다.
+.. iSCSI 스토리지 연결이 연결될 때까지 기다립니다.
++
+다음 메시지가 표시되면 계속 진행할 수 있습니다.
+
++
+[listing]
+----
+date-and-time [node-name:iscsi.session.stateChanged:notice]: iSCSI session state is changed to Connected for the target iSCSI-target (type: dr_auxiliary, address: ip-address).
+date-and-time [node-name:iscsi.session.stateChanged:notice]: iSCSI session state is changed to Connected for the target iSCSI-target (type: dr_partner, address: ip-address).
+date-and-time [node-name:iscsi.session.stateChanged:notice]: iSCSI session state is changed to Connected for the target iSCSI-target (type: dr_auxiliary, address: ip-address).
+date-and-time [node-name:iscsi.session.stateChanged:notice]: iSCSI session state is changed to Connected for the target iSCSI-target (type: dr_partner, address: ip-address).
+----
+.. 표시된 메뉴에서 * Update flash from backup config * (sync flash) 옵션을 선택합니다.
++
+업데이트를 계속할지 묻는 메시지가 표시되면 `Y`을 누르십시오.
+
+.. 부팅 메뉴가 나타나면  `Ctrl-C`을 누르십시오.
+.. 다음 중 하나를 수행합니다.
++
+*** 시스템이 암호화를 사용하지 않는 경우 부팅 메뉴에서 _옵션 1 일반 부팅_을 선택하세요.
+*** 시스템이 암호화를 사용하는 경우 다음으로 이동하세요.link:bootmedia-encryption-restore.html["암호화를 복원합니다"] .
+
+
+
+
+|===
 . 콘솔 케이블을 파트너 컨트롤러에 연결합니다.
 . 스토리지를 되돌려 컨트롤러를 정상 작업으로 되돌립니다.
 +

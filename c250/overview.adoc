@@ -26,8 +26,6 @@ summary: AFF C250 저장 시스템의 주요 사양
 
 폼 팩터: 2개의 HA 컨트롤러와 24개의 드라이브 슬롯이 있는 2U 섀시
 
-ONTAP 버전: b_startONTAP: 9.16.1P2b_end
-
 PCIe 확장 슬롯: 4개
 
 최소 ONTAP 버전: ONTAP 9.10.1P15

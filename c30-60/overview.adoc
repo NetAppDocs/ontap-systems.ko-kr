@@ -31,8 +31,6 @@ summary: 단일 고가용성 쌍으로 구성된 AFF C30 및 AFF C60 스토리�
 
 폼 팩터: 2개의 HA 컨트롤러와 24개의 드라이브 슬롯이 있는 2U 섀시
 
-ONTAP 버전: b_startONTAP: 9.16.1P2b_end
-
 PCIe 확장 슬롯: 8개
 
 최소 ONTAP 버전: ONTAP 9.16.1RC1
@@ -172,8 +170,6 @@ CIFS; FC; iSCSI; NFS v3; NFS v4.0; NFS v4.1; NFS v4.2; NVMe/FC; NVMe/TCP; S3; NA
 메모리: 128.0000GB
 
 폼 팩터: 2개의 HA 컨트롤러와 24개의 드라이브 슬롯이 있는 2U 섀시
-
-ONTAP 버전: b_startONTAP: 9.16.1P2b_end
 
 PCIe 확장 슬롯: 8개
 

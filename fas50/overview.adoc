@@ -26,8 +26,6 @@ FAS50의 일부 사양은 다음과 같습니다.  방문하다 https://hwu.neta
 
 폼 팩터: 2개의 HA 컨트롤러가 있는 2U 섀시
 
-ONTAP 버전: b_startONTAP: 9.16.1P2b_end
-
 PCIe 확장 슬롯: 12개
 
 최소 ONTAP 버전: ONTAP 9.16.1

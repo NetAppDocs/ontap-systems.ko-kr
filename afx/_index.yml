@@ -20,7 +20,7 @@ indexpage:
     - title: AFX 1K 하드웨어 설치
       url: https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html
     - title: AFX 2K 하드웨어 설치
-      url: https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html
+      url: https://docs.netapp.com/us-en/ontap-afx/install-afx-2k/install-setup-workflow.html
   - title: AFX 시스템 유지 관리
     links:
     - title: AFX 1K
