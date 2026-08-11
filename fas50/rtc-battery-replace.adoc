@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, replace the real-time clock battery 
 summary: FAS50 스토리지 시스템에서 코인 셀 배터리로 일반적으로 알려진 실시간 클록 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오. 
 ---
-= 실시간 시계 배터리 교체 - FAS50
+= FAS50 시스템의 실시간 클록 배터리를 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -283,7 +283,7 @@ image::../media/icon_round_3.png[설명선 번호 3]
 필요한 경우 손잡이를 똑바로(탭 옆에 있음) 돌려 옆으로 치웁니다.
 
 |===
-. 손잡이 나사를 시계 반대 방향으로 돌려 컨트롤러 덮개를 연 다음 덮개를 엽니다.
+. 엄지나사를 시계 반대 방향으로 돌려 푼 다음 컨트롤러 덮개를 여십시오.
 
 
 
@@ -445,9 +445,9 @@ DC PSU입니다
 == 단계 5: 컨트롤러의 시간과 날짜를 재설정합니다
 
 
-NOTE: RTC 배터리를 교체하고 컨트롤러를 삽입하고 첫 번째 BIOS를 재설정하면 다음 오류 메시지가 표시됩니다. 이러한 메시지가 나타날 수 있으며 이 절차를 계속 진행할 수 있습니다.
+NOTE: RTC 배터리를 교체하고 컨트롤러를 삽입한 후 전원을 켜서 처음으로 BIOS를 재설정하면 다음과 같은 오류 메시지가 나타납니다.
 `RTC date/time error. Reset date/time to default`
-`RTC power failure error`
+`RTC power failure error` 이러한 메시지는 정상적인 현상이므로 절차를 계속 진행할 수 있습니다.
 
 . 건강한 컨트롤러에서 날짜와 시간을 확인하세요.
 +
@@ -455,7 +455,7 @@ NOTE: RTC 배터리를 교체하고 컨트롤러를 삽입하고 첫 번째 BIOS
 
 +
 
-NOTE: 부팅 메뉴에서 스토리지 시스템이 중지된 경우 메시지가 표시되면 _y_옵션을  `Reboot node`선택하고 _Ctrl-C_를 눌러 Loader로 부팅합니다.
+NOTE: 스토리지 시스템이 부팅 메뉴에서 멈추면  `Reboot node` 옵션을 선택하고 메시지가 나타나면 _y_를 입력한 다음, _Ctrl-C_를 눌러 LOADER로 부팅하십시오.
 
 . 손상된 컨트롤러에서 LOADER 프롬프트에서 시간과 날짜를 확인하세요.
 +

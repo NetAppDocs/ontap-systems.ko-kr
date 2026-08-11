@@ -1,10 +1,10 @@
 ---
 permalink: fas2800/maintain-overview.html 
 sidebar: sidebar 
-keywords: fas2800 maintenance, maintenance, repairing, repairing fas2800, replace fas2800 components, replace fas2800 components 
-summary: FAS2820 하드웨어 유지 관리 
+keywords: fas2820 maintenance, maintenance, repairing, repairing fas2820, replace fas2820 components, replace fas2820 components 
+summary: FAS2820 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 
 ---
-= FAS2820 하드웨어 유지보수
+= FAS2820 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -20,7 +20,7 @@ summary: FAS2820 하드웨어 유지 관리
 [[system-components]]
 == 시스템 구성 요소
 
-FAS2820 스토리지 시스템의 경우 다음 구성 요소에서 유지보수 절차를 수행할 수 있습니다.
+FAS2820 스토리지 시스템의 다음 구성 요소에 대해 유지 관리 절차를 수행할 수 있습니다.
 
 [cols="25,65"]
 |===
@@ -85,7 +85,7 @@ link:nvmem-nvram-battery-replace.html["NVMEM 배터리"]
  a| 
 link:pci-cards-and-risers-replace.html["메자닌 카드"]
  a| 
-메자닌 카드는 마더보드의 특수 슬롯에 삽입하도록 설계된 확장 카드로, 카드 I/O 카드를 수용합니다.
+메자닌 카드는 마더보드의 특수 슬롯에 삽입되는 확장 카드로, I/O 카드를 수용합니다.
 
 
 
@@ -99,6 +99,6 @@ link:power-supply-swap-out.html["전원 공급 장치"]
  a| 
 link:rtc-battery-replace.html["실시간 시계 배터리"]
  a| 
-실시간 시계 배터리는 전원이 꺼져 있을 경우 시스템 날짜 및 시간 정보를 보존합니다.
+전원이 꺼져 있는 경우 실시간 클럭 배터리는 시스템 날짜 및 시간 정보를 보존합니다.
 
 |===

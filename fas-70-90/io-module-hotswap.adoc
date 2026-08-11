@@ -2,22 +2,22 @@
 permalink: fas-70-90/io-module-hotswap.html 
 sidebar: sidebar 
 keywords: fas70, fas90, hot swap a cluster ha card, hot swap ethernet client io module, hotswap io module, hot swap io module 
-summary: 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 FAS 70 또는 FAS 90 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다. 
+summary: FAS70 또는 FAS90 스토리지 시스템에서 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 Ethernet I/O 모듈을 핫 스왑할 수 있습니다. 
 ---
-= I/O 모듈 핫 스왑 - FAS 70 및 FAS 90
+= FAS70 또는 FAS90 시스템에서 시스템 종료 없이 I/O 모듈 핫 스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 FAS 70 또는 FAS 90 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.
+FAS70 또는 FAS90 스토리지 시스템에서 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 Ethernet I/O 모듈을 핫 스왑할 수 있습니다.
 
 I/O 모듈을 핫 스왑하려면 스토리지 시스템이 ONTAP 9.18.1 GA 이상을 실행 중인지 확인하고, 스토리지 시스템과 I/O 모듈을 준비한 다음, 장애가 발생한 모듈을 핫 스왑하고, 교체 모듈을 온라인 상태로 전환하고, 스토리지 시스템을 정상 작동 상태로 복원한 후 장애가 발생한 모듈을 NetApp에 반환합니다.
 
 .이 작업에 대해
 * 장애가 발생한 I/O 모듈을 교체하기 전에 수동 테이크오버를 수행할 필요가 없습니다.
-* 핫 스왑 중에 올바른 컨트롤러와 I/O 슬롯에 명령을 적용하십시오.
+* 핫 스왑을 수행하는 동안 올바른 컨트롤러와 I/O 슬롯에 명령을 적용해야 합니다.
 +
 ** _손상된 컨트롤러_는 I/O 모듈을 교체하는 컨트롤러입니다.
 ** 건강한 컨트롤러는 손상된 컨트롤러의 HA 파트너입니다.

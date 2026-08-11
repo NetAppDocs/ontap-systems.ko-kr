@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, replace, nvmem, battery, remove, controller, module, controller, metrocluster, configuration, aggregate, configuration, reinstall, run, system, switch, shut, down 
 summary: 시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 
 ---
-= NVDIMM-FAS8300 및 FAS8700을 교체합니다
+= FAS8300 또는 FAS8700 시스템의 NVDIMM을 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,7 +13,7 @@ summary: 시스템에서 플래시 수명이 거의 다 되었거나 식별된 N
 [role="lead"]
 시스템이 플래시 수명이 거의 끝나거나 식별된 NVDIMM이 일반적인 상태가 아닌 것으로 등록할 때 컨트롤러 모듈에서 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.
 
-시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
 
 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
 
@@ -197,7 +197,7 @@ mcc1A::> metrocluster operation show
 
 컨트롤러 모듈 내부의 구성요소에 액세스하려면 섀시에서 컨트롤러 모듈을 분리해야 합니다.
 
-다음 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
+다음 애니메이션, 그림 또는 기록된 단계를 사용하여 섀시에서 컨트롤러 모듈을 제거할 수 있습니다.
 
 .애니메이션 - 컨트롤러 모듈을 분리합니다
 video::75b6fa91-96b9-4323-b156-aae10007c9a5[panopto]
@@ -227,10 +227,10 @@ image::../media/drw_A400_Remove_controller.png[컨트롤러 모듈을 분리합�
 [[step-3-replace-the-nvdimm]]
 == 3단계: NVDIMM을 교체합니다
 
-NVDIMM을 교체하려면 슬롯 1 라이저 상단에 있는 FRU 맵 공기 덕트 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 모듈을 찾아야 합니다.
+NVDIMM을 교체하려면 슬롯 1 라이저 상단의 FRU 맵을 사용하여 컨트롤러 모듈에서 해당 NVDIMM의 위치를 찾아야 합니다.
 
 * NVDIMM LED는 시스템을 중단할 때 내용을 디스테이징하는 동안 깜박입니다. 디스테이징이 완료되면 LED가 꺼집니다.
-* NVDIMM의 콘텐츠는 암호화되지만 NVDIMM을 교체하기 전에 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"] 를 방문하십시오.
+* NVDIMM의 내용은 암호화되어 있지만, NVDIMM을 교체하기 전에 내용을 지우는 것이 좋습니다. 자세한 내용은 NetApp 지원 사이트의  https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"]을 참조하십시오.
 +
 
 NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Support 사이트에 로그인해야 합니다.
@@ -264,7 +264,7 @@ NVDIMM의 핀 사이의 노치가 소켓의 탭과 일직선이 되어야 합니
 . NVDIMM을 설치할 슬롯을 찾습니다.
 . NVDIMM을 슬롯에 똑바로 삽입합니다.
 +
-NVDIMM은 슬롯에 단단히 장착되지만 쉽게 장착할 수 있습니다. 그렇지 않은 경우 NVDIMM을 슬롯에 재정렬하고 다시 삽입합니다.
+NVDIMM은 슬롯에 꽉 맞게 장착되지만, 쉽게 들어가야 합니다. 만약 잘 들어가지 않으면 NVDIMM을 슬롯에 맞춰 다시 삽입하십시오.
 
 +
 

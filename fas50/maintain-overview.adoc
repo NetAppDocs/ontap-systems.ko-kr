@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50 maintenance, maintenance, repairing fas50, replace fas50 components 
 summary: 장기적인 안정성과 최적의 성능을 보장하려면 FAS50 스토리지 시스템의 하드웨어를 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다. 
 ---
-= 하드웨어 유지 관리 개요 - FAS50
+= FAS50 스토리지 시스템 유지 관리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -43,7 +43,7 @@ link:bootmedia-replace-workflow.html["부팅 미디어 - 수동 복구"]
  a| 
 link:caching-module-hot-swap.html["캐싱 모듈"]
  a| 
-캐싱 모듈(Flash Cache 모듈)은 고속 SSD를 활용하여 자주 액세스하는 데이터를 저장하여 보다 빠르게 검색합니다.
+캐싱 모듈(플래시 캐시 모듈)은 고속 SSD를 사용하여 자주 액세스하는 데이터를 저장함으로써 더 빠른 검색을 가능하게 합니다.
 
 
 

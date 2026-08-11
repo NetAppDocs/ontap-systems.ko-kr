@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, replace a fan 
 summary: 고장난 팬 모듈을 교체할 때 섀시에서 컨트롤러 모듈을 분리하여 새 팬 모듈로 교체해야 합니다. 
 ---
-= 팬 교체 - FAS500f
+= FAS500f 시스템의 팬을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

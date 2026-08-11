@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, fas8200, replace, caching, module, shut, down, impaired, controller, fru, metrocluster, add, aggregates, switch, reinstall 
 summary: 시스템에서 모듈이 오프라인 상태가 되었다는 AutoSupport 메시지가 한 번이라도 발생하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다. 
 ---
-= 캐싱 모듈 교체 - FAS8300 및 FAS8700
+= FAS8300 또는 FAS8700 시스템의 캐싱 모듈을 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -14,7 +14,7 @@ summary: 시스템에서 모듈이 오프라인 상태가 되었다는 AutoSuppo
 시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다.
 
 
-NOTE: Ver2 컨트롤러 모듈에는 FAS8300에는 캐싱 모듈 소켓이 하나만 있습니다. FAS8700에는 VER2 컨트롤러 모듈이 없습니다. 캐싱 모듈 기능은 소켓 제거의 영향을 받지 않습니다.
+NOTE: VER2 컨트롤러 모듈은 FAS8300에 캐싱 모듈 소켓이 하나만 있습니다. FAS8700에는 VER2 컨트롤러 모듈이 없습니다. 소켓 제거는 캐싱 모듈 기능에 영향을 미치지 않습니다.
 
 * 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
 
@@ -226,12 +226,12 @@ NOTE: 슬롯 6은 FAS8300 VER2 컨트롤러에서만 사용할 수 있습니다.
 
 * 설치하는 캐싱 모듈에 적합한 운영 체제가 있어야 합니다.
 * 캐싱 용량을 지원해야 합니다.
-* 캐싱 모듈의 내용은 암호화되지만 모듈을 교체하기 전에 모듈 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"] 을 방문하십시오.
+* 캐싱 모듈의 내용은 암호화되어 있지만, 모듈을 교체하기 전에 내용을 삭제하는 것이 좋습니다. 자세한 내용은 NetApp 지원 사이트에서 해당 시스템에 대한  https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"]을 참조하십시오.
 +
 
 NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Support 사이트에 로그인해야 합니다.
 
-* 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.
+* 스토리지 시스템의 다른 모든 구성 요소가 정상적으로 작동해야 합니다. 그렇지 않은 경우 기술 지원에 문의하십시오.
 
 
 다음 애니메이션, 그림 또는 기록된 단계를 사용하여 캐싱 모듈을 교체할 수 있습니다.
@@ -248,9 +248,9 @@ image::../media/drw_8300_Replace-flashcache.png[캐시 모듈을 제거하고 �
 .. 공기 덕트를 컨트롤러 모듈 뒤쪽으로 민 다음 완전히 열린 위치까지 위쪽으로 돌립니다.
 
 
-. 컨트롤러 모듈의 FRU 맵을 사용하여 오류가 발생한 캐싱 모듈을 찾아서 제거합니다.
+. 컨트롤러 모듈의 FRU 맵을 사용하여 오류가 발생한 캐싱 모듈을 찾아 제거합니다.
 +
-구성에 따라 컨트롤러 모듈에 0, 1 또는 2개의 캐싱 모듈이 있을 수 있습니다. 컨트롤러 모듈 내부의 FRU 맵을 사용하여 캐싱 모듈을 찾을 수 있습니다.
+구성에 따라 컨트롤러 모듈에 캐싱 모듈이 0개, 1개 또는 2개 있을 수 있습니다. 컨트롤러 모듈 내부의 FRU 맵을 사용하여 캐싱 모듈의 위치를 확인하십시오.
 
 +
 .. 파란색 분리 탭을 누릅니다.
@@ -341,8 +341,8 @@ NOTE: 시스템이 부팅 메뉴에서 멈추는 경우 로더로 부팅하는 �
 
 
 
-[[step-7-switch-back-aggregates-in-a-two-node-metrocluster-configuration]]
-== 7단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
+[[step-6-switch-back-aggregates-in-a-two-node-metrocluster-configuration]]
+== 6단계: 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
 
@@ -398,7 +398,7 @@ Remote: cluster_A configured      		normal
 
 
 
-[[step-8-complete-the-replacement-process]]
-== 8단계: 교체 프로세스를 완료합니다
+[[step-7-complete-the-replacement-process]]
+== 7단계: 교체 절차를 완료합니다
 
 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp에 반환합니다.  https://mysupport.netapp.com/site/info/rma["부품 반환 및 교체"]자세한 내용은 페이지를 참조하십시오.

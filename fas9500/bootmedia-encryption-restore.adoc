@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas9500, post boot media replacement steps for okm, nse, and nve 
 summary: '환경 변수를 확인한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특정한 단계를 완료해야 합니다.' 
 ---
-= 암호화 복원 - FAS9500
+= FAS9500 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화 복원
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+FAS9500 시스템의 부팅 미디어를 교체한 후 Onboard Key Manager(OKM) 등 키 관리자 유형에 맞는 단계를 완료하여 암호화를 복원하십시오.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

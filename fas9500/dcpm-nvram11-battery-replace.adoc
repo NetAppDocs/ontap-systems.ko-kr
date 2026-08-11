@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS9500 
 summary: NVRAM11 배터리가 포함된 destage 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다. 
 ---
-= NVRAM11 배터리가 포함된 디스테이징 컨트롤 전원 모듈(FAS9500)을 교체하십시오
+= FAS9500 시스템의 DCPM 모듈과 NVRAM11 배터리를 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,7 +13,7 @@ summary: NVRAM11 배터리가 포함된 destage 컨트롤러 전원 모듈 DCPM�
 [role="lead"]
 NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스왑하려면 고장 난 DCPM 모듈을 찾아 섀시에서 분리한 다음 교체용 DCPM 모듈을 설치해야 합니다.
 
-고장난 모듈을 섀시에서 분리하기 전에 교체용 DCPM 모듈이 있어야 하며, 분리 후 5분 이내에 교체해야 합니다. 섀시에서 DCPM 모듈을 제거한 후에는 DCPM 모듈을 소유하는 컨트롤러 모듈에 대한 셧다운 보호가 없으며, 다른 컨트롤러 모듈에 대한 장애 조치 이외의 다른 모듈은 차단되지 않습니다.
+고장난 모듈을 섀시에서 제거하기 전에 교체용 DCPM 모듈을 미리 준비해 두어야 합니다. 제거 후 5분 이내에 교체해야 합니다. DCPM 모듈이 섀시에서 제거되면 해당 DCPM 모듈을 소유한 컨트롤러 모듈에 대해 다른 컨트롤러 모듈로의 페일오버 외에는 종료 보호 기능이 작동하지 않습니다.
 
 
 
@@ -26,7 +26,7 @@ NVRAM11 배터리가 포함된 DCPM(destage controller power module)을 핫 스�
 . 시스템 전면에서 베젤을 분리하고 한쪽에 둡니다.
 . 모듈의 주의 LED를 찾아 시스템 전면에서 실패한 DCPM 모듈을 찾습니다.
 +
-모듈에 결함이 있으면 LED가 주황색으로 고정됩니다.
+모듈에 결함이 있는 경우 LED는 주황색으로 계속 켜져 있습니다.
 
 +
 

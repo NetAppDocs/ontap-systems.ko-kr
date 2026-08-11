@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, bootmedia, rma 
 summary: 부팅 미디어를 교체한 후 고장난 부품을 NetApp에 반환하십시오. 
 ---
-= 장애가 발생한 부품을 NetApp-FAS500f로 반환합니다
+= 수동 부팅 복구 프로세스를 완료한 후 실패한 FAS500f 부팅 미디어를 NetApp으로 반환하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

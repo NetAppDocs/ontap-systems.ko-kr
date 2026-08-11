@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, replace the chassis workflow 
 summary: FAS70 또는 FAS90 스토리지 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작업을 확인하세요. 
 ---
-= 섀시 교체 워크플로 - FAS70 및 FAS90
+= FAS70 및 FAS90 섀시 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

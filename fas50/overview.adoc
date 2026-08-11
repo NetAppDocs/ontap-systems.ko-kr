@@ -11,7 +11,7 @@ summary: FAS50 스토리지 시스템의 주요 사양
 
 
 [role="lead"]
-FAS50의 일부 사양은 다음과 같습니다.  방문하다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] FAS50 사양의 전체 목록은 (HWU)에서 확인하세요.  이 페이지는 단일 고가용성 쌍을 반영합니다.
+FAS50에 대한 이러한 사양은 단일 고가용성 쌍을 나타냅니다. FAS50의 전체 사양 목록은  https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^](HWU)를 참조하십시오.
 
 
 

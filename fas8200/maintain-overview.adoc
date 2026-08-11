@@ -1,17 +1,17 @@
 ---
 permalink: fas8200/maintain-overview.html 
 sidebar: sidebar 
-keywords: fas2600 maintenance, maintenance, repairing fas2600, repairing fas2600, replace aff fas2600 components, replace aff fas2600 components 
-summary: fas2600 하드웨어 유지보수 
+keywords: fas8200 maintenance, maintenance, repairing fas8200, replace fas8200 components 
+summary: 'FAS8200 스토리지 시스템 구성 요소(부팅 미디어, 섀시, 컨트롤러, DIMM 및 전원 공급 장치 포함)에 대한 유지보수 절차를 수행할 수 있습니다.' 
 ---
-= FAS8200 하드웨어 유지보수
+= FAS8200 스토리지 시스템 유지 관리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FAS8200 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.
+FAS8200 스토리지 시스템 구성 요소(부팅 미디어, 섀시, 컨트롤러, DIMM 및 전원 공급 장치 포함)에 대한 유지보수 절차를 수행할 수 있습니다.
 
 
 
@@ -57,8 +57,8 @@ FAS8200 스토리지 시스템의 경우 다음 구성 요소에 대한 유지�
 
 
 
-[[nvem-battery]]
-== NVEM 배터리
+[[nvmem-battery]]
+== NVMEM 배터리
 
 배터리는 컨트롤러에 포함되어 있으며 AC 전원에 장애가 발생할 경우 캐싱된 데이터를 보존합니다.
 

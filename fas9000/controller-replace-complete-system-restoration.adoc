@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a700, fas9000, storage encryption, licenses, storage encryption, volume encryption, serial number, metrocluster, switchback 
 summary: 교체 절차를 완료하고 시스템을 정상 작동 상태로 복원하려면 스토리지 케이블을 다시 연결하고, 필요한 경우 NetApp Storage Encryption 구성을 복원하고, 새 컨트롤러용 라이센스를 설치해야 합니다. 
 ---
-= 전체 시스템 복원 - FAS9000
+= FAS9000 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다. 시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.
+FAS9000 시스템의 컨트롤러 교체를 완료하려면 스토리지 케이블을 다시 연결하고, 필요한 경우 NetApp Storage Encryption 구성을 복원하고, 새 컨트롤러용 라이선스를 설치하십시오.
 
 
 
@@ -50,8 +50,8 @@ NOTE: 필요한 새 라이센스 키는 자동으로 생성되어 파일의 이�
 
 
 
-[[step-2-verifying-lifs-and-registering-the-serial-number]]
-== 2단계: LIF 확인 및 일련 번호 등록
+[[step-2-verify-lifs-and-register-the-serial-number]]
+== 2단계: LIF를 확인하고 일련 번호를 등록합니다
 
 교체 노드를 서비스에 다시 투입하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 활성화된 경우 교체 노드의 일련 번호를 등록하고, 클러스터 상태를 확인하고, 유지 관리 창을 닫고, 자동 반환을 재설정해야 합니다.
 
@@ -73,8 +73,8 @@ LIF가 FALSE로 표시되면 해당 LIF를 홈 포트로 되돌립니다. `netwo
 
 
 
-[[step-3-metrocluster-only-switching-back-aggregates-in-a-two-node-metrocluster-configuration]]
-== 3단계: (MetroCluster만 해당): 2노드 MetroCluster 구성에서 애그리게이트 되돌리기
+[[step-3-metrocluster-only-switch-back-aggregates-in-a-two-node-metrocluster-configuration]]
+== 3단계(MetroCluster만 해당): 2노드 MetroCluster 구성에서 애그리게이트 스위치백
 
 이 작업은 2노드 MetroCluster 구성에만 적용됩니다.
 

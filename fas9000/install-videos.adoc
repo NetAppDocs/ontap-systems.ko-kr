@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff a700, fas9000, videos, rack, cable, system, system, manager, guided, setup 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 비디오 스텝 - FAS9000
+= 동영상 안내를 통해 FAS9000 시스템을 설치합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
+FAS9000 동영상 설명서를 참고하여 FAS9000 시스템을 설치하고 케이블을 연결하십시오.
 
 .애니메이션 - AFF A700 또는 FAS9000의 설치 및 설정
 video::b46575d4-0475-48bd-8772-ac5d012a4e06[panopto]

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2600, verify environment variables, image, boot the recovery image, manual, manual boot recovery 
 summary: FAS2600 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
-= 복구 이미지 - FAS2600을 부팅합니다
+= FAS2600 시스템에서 복구 이미지 부팅
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -53,7 +53,7 @@ FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. �
 
 
 |===
-. 환경 변수가 예상대로 설정되었는지 확인합니다.
+. 환경 변수가 예상대로 설정되었는지 확인하십시오.
 +
 .. 컨트롤러를 LOADER 프롬프트로 가져가십시오.
 .. printenv 명령으로 환경 변수 설정을 확인한다.
@@ -61,7 +61,7 @@ FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. �
 .. 'aveenv' 명령을 사용하여 변경 사항을 저장합니다.
 
 
-. 다음 항목은 시스템 구성에 따라 다릅니다.
+. 다음 단계는 시스템 구성에 따라 다릅니다.
 +
 ** 시스템에 온보드 키 관리자, NSE 또는 NVE가 구성된 경우 로 이동합니다 xref:bootmedia-encryption-restore.adoc[필요에 따라 OKM, NSE 및 NVE를 복원합니다]
 ** 시스템에 온보드 키 관리자, NSE 또는 NVE가 구성되어 있지 않은 경우 이 섹션의 단계를 완료하십시오.

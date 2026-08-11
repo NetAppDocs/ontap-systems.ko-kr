@@ -1,17 +1,17 @@
 ---
 permalink: fas2800/bootmedia-encryption-preshutdown-checks.html 
 sidebar: sidebar 
-keywords: fas2800, shutdown, checks, onboard, encryption, keys, impaired controller, disable, automatic, feedback 
-summary: 손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에 손상된 컨트롤러의 상태를 확인하고, 자동 반환을 비활성화하고, 시스템이 실행 중인 ONTAP의 버전을 확인해야 합니다. 
+keywords: fas2820, shutdown, checks, onboard, encryption, keys, impaired controller, disable, automatic, feedback 
+summary: FAS2820 스토리지 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp Volume Encryption을 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. 
 ---
-= 암호화 키 지원 및 상태 확인 - FAS2820
+= FAS2820 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 시스템의 데이터 보안을 유지하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NVE(NetApp 볼륨 암호화)를 지원하는지 확인하고 컨트롤러를 종료하기 전에 키 관리자가 활성 상태인지 확인합니다.
+FAS2820 스토리지 시스템의 데이터 보안을 위해 부팅 미디어에서 암호화 키 지원 및 상태를 확인하십시오. ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하십시오. 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 프로세스를 사용해야 합니다.
 

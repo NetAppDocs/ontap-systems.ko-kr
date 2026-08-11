@@ -1,17 +1,17 @@
 ---
 permalink: fas2700/chassis-replace-move-hardware.html 
 sidebar: sidebar 
-keywords: fas2700, aff a220, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
-summary: 손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오. 
+keywords: fas2700, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
+summary: 손상된 섀시에서 교체용 섀시로 전원 공급 장치, 드라이브 및 컨트롤러 모듈을 이동하고, 장비 랙이나 시스템 캐비닛에서 기존 섀시를 동일 모델의 새 섀시로 교체하십시오. 
 ---
-= 하드웨어 교체 - AFF A220 및 FAS2700
+= FAS2700 시스템의 섀시를 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-손상된 섀시에서 새 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈 또는 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 장비 랙 또는 시스템 캐비닛에서 교체하십시오.
+FAS2700 시스템의 손상된 섀시에서 교체용 섀시로 전원 공급 장치, 드라이브 및 컨트롤러 모듈을 이동한 다음, 장비 랙 또는 시스템 캐비닛에서 기존 섀시를 동일 모델의 새 섀시로 교체하십시오.
 
 
 

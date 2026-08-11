@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, cabling, cluster cabling, host network cabling, management network cabling, shelf cabling 
 summary: FAS50 스토리지 시스템 하드웨어를 설치한 후 컨트롤러를 네트워크 및 쉘프에 케이블로 연결합니다. 
 ---
-= 하드웨어 FAS50 케이블 연결
+= FAS50 하드웨어 네트워크 및 스토리지 연결을 위해 케이블을 연결하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -164,7 +164,7 @@ IMPORTANT: 아직 전원 코드를 연결하지 마십시오.
 .이 작업에 대해
 * 케이블 연결 예제에 DS460C 쉘프가 표시되어 있지만, 추가 SAS 쉘프는 지원됩니다. 를 참조하십시오.link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 +
-지원되는 다른 SAS 쉘프의 케이블 연결도 유사합니다. 을 link:../sas3/install-new-system.html["새 시스템 설치를 위해 쉘프를 설치하고 케이블을 연결합니다"^]참조하십시오. 을 참조할 수도 link:../sas3/overview-cabling-rules-examples.html["SAS 케이블 연결 문제, 워크시트 및 예제 개요"^]있습니다.
+다른 지원되는 SAS 셸프의 케이블 연결도 유사합니다. link:../sas3/install-new-system.html["새 시스템 설치를 위해 쉘프를 설치하고 케이블을 연결합니다"^]을 참조하십시오. link:../sas3/overview-cabling-rules-examples.html["SAS 케이블링 규칙, 워크시트 및 예제 개요"^]도 참조할 수 있습니다.
 
 * 스토리지 시스템에 지원되는 최대 쉘프 수와 광, 스위치 연결 등 모든 케이블 연결 옵션은 을 참조하십시오.link:https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 * 그래픽은 컨트롤러 A 케이블을 파란색으로, 컨트롤러 B 케이블은 노란색으로 표시합니다.

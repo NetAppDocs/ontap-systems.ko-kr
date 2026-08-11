@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas8300, fas8700, install, detailed, guide, prepare, hardware, cable, controller, switchless, cluster, sas, drive, two, node, configuration 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오. 
 ---
-= 상세 가이드 - FAS8300 및 FAS8700
+= 자세한 지침에 따라 FAS8300 또는 FAS8700 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오.
+이 상세한 단계별 지침은 랙 설치 및 케이블 연결부터 초기 설정까지 FAS8300 또는 FAS8700 시스템 설치 과정을 안내합니다. 간략한 설치 단계보다 더 자세한 설치 안내가 필요한 경우 이 단계를 참조하십시오.
 
 
 
@@ -194,7 +194,7 @@ image::../media/drw_a320_cable_management_arms.png[케이블 관리 암 분리 �
 스위치가 없는 2노드 클러스터 방법을 사용하거나 클러스터 인터커넥트 네트워크를 사용하여 컨트롤러를 네트워크에 케이블로 연결할 수 있습니다.
 
 
-NOTE: 카드의 포트 레이블이 보이지 않으면 카드 설치 방향(PCIe 커넥터 소켓이 A400 및 FAS8300/8700의 카드 슬롯 왼쪽에 있음)을 확인한 다음 에서 카드를 찾은 후 부품 번호로 카드를 찾습니다 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^] 포트 레이블을 표시할 베젤의 그래픽입니다. 카드 부품 번호는 를 사용하여 찾을 수 있습니다 `sysconfig -a` 명령 또는 시스템 포장 목록에서 선택합니다.
+NOTE: 카드에 포트 라벨이 보이지 않으면 카드 설치 방향을 확인하고(A400 및 FAS8300/8700의 경우 PCIe 커넥터 소켓이 카드 슬롯의 왼쪽에 있습니다), 부품 번호로 카드를 검색하여 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]에서 포트 라벨이 표시된 베젤 이미지를 확인하십시오. 카드 부품 번호는 `sysconfig -a`명령어를 사용하거나 시스템 패키지 목록에서 확인할 수 있습니다.
 
 
 
@@ -318,11 +318,11 @@ image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[ONTAP 아이�
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
+.. 왼쪽 창에서 *네트워크*를 선택하고, *네트워크*를 마우스 오른쪽 버튼으로 클릭한 다음 *새로 고침*을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 
-NOTE: xxxxx는 대상 노드의 시스템 일련 번호입니다.
+NOTE: 이 예에서 XXXXX는 대상 노드의 시스템 일련 번호를 나타냅니다.
 
 +
 System Manager가 열립니다.

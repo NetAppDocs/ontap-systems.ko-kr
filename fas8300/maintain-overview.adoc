@@ -1,17 +1,17 @@
 ---
 permalink: fas8300/maintain-overview.html 
 sidebar: sidebar 
-keywords: fas8300 maintenance, maintenance, repairing, repairing fas8300, replace fas8300 components, replace fas8300 components 
-summary: 장기적인 안정성과 최적의 성능을 보장하려면 FAS8300 및 FAS8700 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다. 
+keywords: fas8300 maintenance, fas8700 maintenance, maintenance, repairing fas8300, repairing fas8700, replace fas8300 components, replace fas8700 components 
+summary: 장기적인 안정성과 최적의 성능을 보장하기 위해 FAS8300 또는 FAS8700 스토리지 시스템의 하드웨어를 유지보수하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 관리 작업을 수행하면 시스템 중단 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= FAS8300 및 FAS8700 하드웨어 유지 관리
+= FAS8300 또는 FAS8700 스토리지 시스템 유지 관리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-장기적인 안정성과 최적의 성능을 보장하려면 FAS8300 및 FAS8700 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.
+장기적인 안정성과 최적의 성능을 보장하기 위해 FAS8300 또는 FAS8700 스토리지 시스템의 하드웨어를 유지보수하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 관리 작업을 수행하면 시스템 중단 및 데이터 손실을 방지할 수 있습니다.
 
 유지 관리 절차에서는 FAS8300 및 FAS8700 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.
 
@@ -85,7 +85,7 @@ NVDIMM(비휘발성 듀얼 인라인 메모리 모듈)은 휘발성 메모리에
  a| 
 link:nvdimm-battery-replace.html["NVDIMM 배터리"]
  a| 
-NVDIMM 전지는 NVDIMM 모듈의 전원 관리를 담당합니다.
+NVDIMM 배터리는 NVDIMM 모듈에 전원을 유지하는 역할을 합니다.
 
 
 
@@ -106,6 +106,6 @@ link:power-supply-replace.html["전원 공급 장치"]
  a| 
 link:rtc-battery-replace.html["실시간 시계 배터리"]
  a| 
-실시간 시계 배터리는 전원이 꺼져 있을 경우 시스템 날짜 및 시간 정보를 보존합니다.
+전원이 꺼져 있는 경우 실시간 클럭 배터리는 시스템 날짜 및 시간 정보를 보존합니다.
 
 |===

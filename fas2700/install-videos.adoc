@@ -1,16 +1,16 @@
 ---
 permalink: fas2700/install-videos.html 
 sidebar: sidebar 
-keywords: fas2700, aff a220, video, rack, cable, system, manager, guided, setup, configuration 
-summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
+keywords: fas2700, video, rack, cable, system, manager, guided, setup, configuration 
+summary: 다음 영상은 FAS2700 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= 비디오 단계 - FAS2700
+= FAS2700 시스템 설치 및 설정 영상을 시청하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
+다음 영상을 시청하여 FAS2700 시스템을 설치하고 케이블을 연결하는 방법을 알아보십시오.
 
 video::FUtG1Je5D1g?[youtube]

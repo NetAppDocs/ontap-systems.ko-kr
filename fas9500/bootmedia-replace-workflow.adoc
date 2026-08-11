@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9500, replace the boot media 
 summary: FAS9500 스토리지 시스템의 부트 미디어 교체를 시작하려면 교체 요구 사항 검토, 암호화 상태 확인, 컨트롤러 종료, 부트 미디어 교체, 복구 이미지 부팅, 암호화 복원, 시스템 기능 확인을 진행하세요. 
 ---
-= 부팅 미디어 수동 복구 워크플로 - FAS9500
+= FAS9500 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -25,7 +25,7 @@ FAS9500 스토리지 시스템의 부트 미디어 교체를 시작하려면 교
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 컨트롤러를 종료합니다.
+부트 미디어를 교체해야 할 때는 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-replace.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]
@@ -37,7 +37,7 @@ USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:bootmedia-encryption-restore.html["암호화를 복원합니다"]
 [role="quick-margin-para"]
-ONATP 부팅 메뉴에서 온보드 키 관리자 구성이나 외부 키 관리자를 복원합니다.
+ONTAP 부팅 메뉴에서 온보드 키 관리자 구성이나 외부 키 관리자를 복원합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png["7번"]link:bootmedia-complete-rma.html["장애가 발생한 부품을 NetApp으로 반환합니다"]
 [role="quick-margin-para"]

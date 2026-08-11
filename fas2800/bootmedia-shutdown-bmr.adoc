@@ -1,17 +1,17 @@
 ---
 permalink: fas2800/bootmedia-shutdown-bmr.html 
 sidebar: sidebar 
-keywords: fas2800, shut down the controller 
-summary: 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 FAS2800 스토리지 시스템에서 손상된 컨트롤러를 종료하세요. 
+keywords: fas2820, shut down the controller 
+summary: 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오. 
 ---
-= 자동 부팅 미디어 복구를 위해 컨트롤러 종료 - FAS2800
+= 자동 부팅 복구 프로세스 중에 FAS2820 시스템에서 손상된 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-자동 부팅 미디어 복구 프로세스 중에 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS2800 스토리지 시스템에서 손상된 컨트롤러를 종료하세요.
+자동 부팅 미디어 복구 프로세스 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.
 
 자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
 

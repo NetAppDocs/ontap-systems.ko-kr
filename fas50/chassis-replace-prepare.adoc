@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, replace the chassis 
 summary: 손상된 섀시를 식별하고, 교체 구성 요소를 확인하고, 케이블과 컨트롤러 모듈에 라벨을 지정하여 FAS50 시스템에서 손상된 섀시를 교체할 준비를 합니다. 
 ---
-= 섀시 교체 준비 - FAS500f
+= FAS50 섀시 교체 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

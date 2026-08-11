@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: LED USB module,replacing,hot-swapping,LED USB module,non-disruptive replacement,LED USB module 
 summary: 서비스를 중단하지 않고 LED USB 모듈을 교체할 수 있습니다. 
 ---
-= LED USB 모듈 교체 - FAS9500
+= FAS9500 시스템의 LED USB 모듈을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-LED USB 모듈은 콘솔 포트 및 시스템 상태에 대한 연결을 제공합니다. 이 모듈을 교체하는 경우 도구가 필요하지 않으며 서비스가 중단되지 않습니다.
+FAS9500 시스템의 LED USB 모듈은 콘솔 포트 연결 및 시스템 상태 표시 기능을 제공합니다. 교체 시 툴이 필요하지 않으며 서비스 중단 없이 수행할 수 있습니다.
 
 
 
@@ -52,10 +52,10 @@ USB LED 모듈
 
 . 새 LED USB 모듈을 설치합니다.
 +
-.. 모듈을 베이의 슬라이더 래치 근처에 있는 모듈 모서리의 노치와 맞춥니다. 베이는 모듈을 거꾸로 설치할 수 없습니다.
+.. 모듈 모서리의 홈이 섀시의 슬라이더 래치 근처에 위치하도록 모듈을 베이에 맞춥니다. 베이는 모듈이 거꾸로 설치되는 것을 방지합니다.
 .. 모듈이 섀시와 완전히 맞닿을 때까지 베이에 밀어 넣습니다.
 +
-모듈이 안전하게 중앙판에 연결되어 있을 때 딸깍 소리가 납니다.
+모듈이 미드플레인에 제대로 연결되면 딸깍 소리가 납니다.
 
 
 

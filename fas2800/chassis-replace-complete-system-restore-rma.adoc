@@ -1,16 +1,17 @@
 ---
 permalink: fas2800/chassis-replace-complete-system-restore-rma.html 
 sidebar: sidebar 
-keywords: fas2800, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
-summary: 키트와 함께 제공된 RMA 명령에 설명된 대로 섀시의 HA 상태를 확인하고, 애그리게이트를 다시 전환한 다음, 장애가 발생한 부품을 NetApp로 반환해야 합니다. 
+keywords: fas2820, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
+summary: 섀시의 HA 상태를 확인하고, 애그리게이트를 스위치백하고, 고장난 부품을 NetApp으로 반환하여 FAS2820 시스템의 섀시 교체를 완료해야 합니다. 이 작업은 키트에 동봉된 RMA 지침에 따라 수행하십시오. 
 ---
-= 구성 복원 및 검증 - FAS2820
+= FAS2820 시스템의 섀시 교체를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
-섀시 HA 상태가 시스템을 불러오는지 확인하고, 키트와 함께 제공된 RMA 지침에 따라 장애가 발생한 부품을 NetApp에 반환합니다.
+[role="lead"]
+섀시의 HA 상태를 확인하고, 애그리게이트를 다시 전환한 다음, 키트와 함께 제공된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환하여 FAS2820 시스템의 섀시 교체를 완료하십시오.
 
 
 
@@ -48,9 +49,9 @@ HA 상태의 값은 다음 중 하나일 수 있습니다.
 == 2단계: 시스템을 불러옵니다
 
 . 전원 케이블을 다시 PSU에 꽂습니다.
-. 로커를 * 켜짐 * 으로 전환하여 PSU를 켜고 컨트롤러가 완전히 켜질 때까지 기다립니다.
+. 전원 공급 장치의 스위치를 *ON*으로 돌려 전원을 켜고 컨트롤러가 완전히 켜질 때까지 기다리십시오.
 . 전원을 켠 후 섀시 및 컨트롤러의 앞면과 뒷면에 장애 표시등이 있는지 확인합니다.
-. SSH를 통해 노드의 SP 또는 BMC IP 주소에 연결합니다. 이 주소는 노드를 종료하는 데 사용되는 주소와 동일합니다.
+. SSH를 통해 노드의 SP 또는 BMC IP 주소에 연결합니다. 이 주소는 노드를 종료할 때 사용하는 주소와 동일합니다.
 . 에 설명된 대로 추가 상태 점검을 수행합니다 https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP["How_to_Perform_a_cluster_health_check_with_a_script_in_ONTAP 을 참조하십시오"^]
 . AutoSupport 유지보수 윈도우가 트리거된 경우 를 사용하여 윈도우를 종료합니다 `system node autosupport invoke -node * -type all -message MAINT=END` 명령.
 

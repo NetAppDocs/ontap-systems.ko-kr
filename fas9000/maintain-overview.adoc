@@ -2,16 +2,16 @@
 permalink: fas9000/maintain-overview.html 
 sidebar: sidebar 
 keywords: fas9000 maintenance, maintenance, repairing fas9000, repairing fas9000, replace fas9000 components, replace fas9000 components 
-summary: ASA A700 하드웨어 유지보수 
+summary: FAS9000 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 관리 작업을 수행하면 시스템 중단 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= FAS9000 하드웨어 유지 관리
+= FAS9000 스토리지 시스템 유지 관리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FAS9000 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.
+FAS9000 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 관리 작업을 수행하면 시스템 중단 및 데이터 손실을 방지할 수 있습니다.
 
 
 
@@ -67,7 +67,7 @@ DCPM(디스테이징 컨트롤러 전원 모듈)에는 NVRAM11 배터리가 포�
 [[io-module]]
 == 입출력 모듈
 
-I/O 모듈(입출력 모듈)은 컨트롤러와 다양한 장치 또는 시스템 사이에서 컨트롤러와 데이터를 교환해야 하는 중개자 역할을 하는 하드웨어 구성 요소입니다.
+I/O 모듈(입/출력 모듈)은 컨트롤러와 데이터를 교환해야 하는 여러 장치 또는 시스템 간의 중간 역할을 하는 하드웨어 구성 요소입니다.
 
 
 

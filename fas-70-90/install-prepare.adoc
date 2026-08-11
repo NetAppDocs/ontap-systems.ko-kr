@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, prepare installation 
 summary: FAS70 및 FAS90 플랫폼 설치 준비 
 ---
-= FAS70 및 FAS90 설치 준비
+= FAS70 또는 FAS90 스토리지 시스템 설치 준비
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -2,16 +2,16 @@
 permalink: fas500f/bootmedia-encryption-restore.html 
 sidebar: sidebar 
 keywords: fas500f, post boot media replacement steps for okm, nse, and nve 
-summary: '환경 변수를 확인한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특정한 단계를 완료해야 합니다.' 
+summary: '환경 변수 확인 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특정한 단계를 완료해야 합니다.' 
 ---
-= 암호화 복원 - FAS500f
+= FAS500f 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화를 복원합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+부팅 미디어를 교체한 후, FAS500f 시스템에서 데이터 보호를 위해 온보드 키 관리자, NetApp Storage Encryption 또는 NetApp Volume Encryption을 사용하는 경우 암호화를 복원하십시오.
 
 키 관리자 유형에 따라 시스템의 암호화를 복원하기 위한 적절한 단계를 완료하세요.  시스템에서 어떤 키 관리자를 사용하는지 확실하지 않은 경우 부팅 미디어 교체 절차를 시작할 때 캡처한 설정을 확인하세요.
 

@@ -1,17 +1,17 @@
 ---
 permalink: fas2800/bootmedia-encryption-restore.html 
 sidebar: sidebar 
-keywords: fas 2800, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption 
-summary: 교체 부팅 미디어에서 암호화를 복원합니다. 
+keywords: fas2820, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption 
+summary: FAS2820 시스템의 교체 부팅 미디어에서 암호화를 복원하십시오. 
 ---
-= 암호화 복원 - FAS2820
+= 수동 부팅 복구 프로세스 후 FAS2820 시스템의 부팅 미디어에 암호화를 복원합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+FAS2820 시스템의 부팅 미디어를 교체한 후 새 장치에서 암호화를 복원하여 데이터 보안을 유지하고 시스템을 원래 구성으로 되돌립니다.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

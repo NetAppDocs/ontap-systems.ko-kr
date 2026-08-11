@@ -1,17 +1,17 @@
 ---
 permalink: fas2700/chassis-replace-shutdown.html 
 sidebar: sidebar 
-keywords: fas2700, aff a220, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
-summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
+keywords: fas2700, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
+summary: 섀시를 교체하기 전에 구성에 적합한 절차를 사용하여 FAS2700 시스템에서 손상된 컨트롤러를 종료하거나 인수하십시오. 
 ---
-= 컨트롤러 종료 - FAS2700
+= 섀시를 교체하기 위해 FAS2700 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+섀시를 교체하기 전에 구성에 적합한 절차를 사용하여 FAS2700 시스템에서 손상된 컨트롤러를 종료하거나 인수하십시오.
 
 
 

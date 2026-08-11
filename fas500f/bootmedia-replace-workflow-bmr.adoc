@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas500f, replace the boot media 
 summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 부팅 미디어의 이미지를 복원하고, 시스템 기능을 확인하여 FAS500f 스토리지 시스템의 부팅 미디어 교체를 시작하십시오. 
 ---
-= 부팅 미디어 자동 복구 워크플로 - FAS500f
+= 자동 부팅 복구 프로세스를 사용한 FAS500f 부팅 미디어 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-부팅 이미지의 자동 복구는 시스템이 적절한 부팅 메뉴 옵션을 자동으로 식별하고 선택하는 것을 포함합니다. 파트너 노드의 부팅 이미지를 사용하여 FAS500f 스토리지 시스템의 교체 부팅 미디어에 ONTAP를 재설치합니다.
+자동 부팅 이미지 복구는 시스템이 자동으로 적절한 부팅 메뉴 옵션을 식별하고 선택하는 방식으로 진행됩니다. 이 과정에서 파트너 노드의 부팅 이미지를 사용하여 FAS500f 스토리지 시스템의 교체 부팅 미디어에 ONTAP를 재설치합니다.
 
 자동 부팅 미디어 복구 프로세스는 ONTAP 9.18.1 이상에서만 지원됩니다. 스토리지 시스템이 이전 버전의 ONTAP를 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"]을 사용하십시오.
 
@@ -23,7 +23,7 @@ summary: 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown-bmr.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 스토리지 시스템에서 컨트롤러를 종료합니다.
+부팅 미디어를 교체해야 할 때는 스토리지 시스템의 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]

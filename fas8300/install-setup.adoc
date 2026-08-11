@@ -1,17 +1,17 @@
 ---
 permalink: fas8300/install-setup.html 
 sidebar: sidebar 
-keywords: fas 8300, 8700, install, setup, initial configuration 
-summary: 시스템을 설치하고 설정합니다. 
+keywords: fas8300, fas8700, install, setup, initial configuration 
+summary: FAS8300 또는 FAS8700 설치 및 설정 방식 중에서 선택하십시오. 
 ---
-= 여기서 시작: 설치 및 설정 환경을 선택합니다
+= FAS8300 또는 FAS8700 설치 및 설정 방식 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-대부분의 구성에서 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.
+대부분의 FAS8300 및 FAS8700 구성에서 빠른 단계, 비디오 단계 또는 자세한 단계 등 필요에 가장 적합한 설치 및 설정 형식을 선택할 수 있습니다.
 
 * link:../fas8300/install-quick-guide.html["빠른 단계"]
 +

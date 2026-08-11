@@ -1,17 +1,17 @@
 ---
 permalink: fas2800/controller-replace-overview.html 
 sidebar: sidebar 
-keywords: fas2800, prerequisite, replace the controller module 
-summary: 교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다. 
+keywords: fas2820, prerequisite, replace the controller module 
+summary: FAS2820 시스템의 컨트롤러를 교체하기 전에 교체 절차의 필수 조건을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 절차를 선택해야 합니다. 
 ---
-= 컨트롤러 모듈 교체 개요 - FAS2820
+= FAS2820 시스템의 컨트롤러를 교체하기 전에 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 절차를 위한 필수 구성 요소를 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 구성 요소를 선택해야 합니다.
+FAS2820 시스템의 컨트롤러를 교체하기 전에 교체 절차의 필수 조건을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 절차를 선택해야 합니다.
 
 [NOTE]
 ====
@@ -29,9 +29,9 @@ NetApp에서는 작업 중인 장치에서 콘솔 로깅을 활성화하고 이 
 절차의 지시에 따라 드라이브 재할당을 수행해야 합니다.
 
 * 오류가 발생한 구성 요소를 공급업체로부터 받은 교체 FRU 구성 요소로 교체해야 합니다.
-* 컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.
+* 컨트롤러 모듈은 동일한 모델 유형의 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하는 것으로는 시스템을 업그레이드할 수 없습니다.
 * 이 절차의 일부로 드라이브 또는 드라이브 쉘프를 변경할 수 없습니다.
-* 이 절차에서는 _ replacement_controller가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 _replacement_controller로 이동합니다.
+* 이 절차에서는 부팅 장치를 손상된 컨트롤러에서 교체 컨트롤러로 옮겨 교체 컨트롤러가 기존 컨트롤러 모듈과 동일한 ONTAP 버전으로 부팅되도록 합니다.
 * 올바른 시스템에 다음 단계에 있는 명령을 적용하는 것이 중요합니다.
 +
 ** impaired_controller는 교체되는 컨트롤러입니다.

@@ -2,16 +2,16 @@
 permalink: fas8300/bootmedia-replace-requirements.html 
 sidebar: sidebar 
 keywords: fas8300, fas8700, replace the boot media 
-summary: FAS8300 및 FAS8700 시스템의 부트 미디어를 교체하기 전에 성공적인 교체에 필요한 요구 사항을 충족하는지 확인하세요. 여기에는 적절한 용량의 저장 공간이 있는 USB 플래시 드라이브가 있는지, 그리고 올바른 교체 부팅 장치가 있는지 확인하는 것이 포함됩니다. 
+summary: FAS8300 또는 FAS8700 시스템의 부팅 미디어를 교체하기 전에 교체에 필요한 조건을 충족하는지 확인하십시오. 여기에는 적절한 용량의 USB 플래시 드라이브가 있는지, 그리고 올바른 교체용 부팅 장치를 사용하고 있는지 확인하는 것이 포함됩니다. 
 ---
-= 수동 부팅 미디어 복구 요구 사항 - FAS8300 및 FAS8700
+= FAS8300 또는 FAS8700 시스템에서 수동 부팅 미디어 복구에 필요한 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FAS8300 또는 FAS8700 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족했는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지 확인하고, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지 확인하고, Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.
+FAS8300 또는 FAS8700 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 올바른 교체용 부팅 미디어를 사용하고 있는지, 손상된 컨트롤러의 e0S(e0M 렌치) 포트에 결함이 없는지, 그리고 Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

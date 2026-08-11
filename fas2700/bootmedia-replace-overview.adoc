@@ -1,10 +1,10 @@
 ---
 permalink: fas2700/bootmedia-replace-overview.html 
 sidebar: sidebar 
-keywords: fas2700, aff a220, replace, boot, media, image, nondisruptive, disruptive, replacement, fat32, usb, manual, manual boot recovery 
+keywords: fas2700, replace, boot, media, image, nondisruptive, disruptive, replacement, fat32, usb, manual, manual boot recovery 
 summary: 'FAS2700 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오. 부팅 미디어에는 시스템 시작 시 사용되는 기본 및 보조 부팅 이미지 파일이 저장됩니다. 네트워크 구성에 따라 무중단 교체(HA 쌍이 네트워크에 연결됨) 또는 중단 교체(두 번의 재부팅 필요)를 수행할 수 있습니다.' 
 ---
-= FAS2700 부팅 미디어 교체 개요
+= FAS2700 시스템의 부팅 미디어 교체에 대해 알아보십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

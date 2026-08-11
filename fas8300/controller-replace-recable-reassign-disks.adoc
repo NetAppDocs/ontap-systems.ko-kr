@@ -2,16 +2,16 @@
 permalink: fas8300/controller-replace-recable-reassign-disks.html 
 sidebar: sidebar 
 keywords: fas8300, fas8700, how to recable the system, how to reassign disks 
-summary: 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하여 FAS8300 및 FAS8700 시스템이 정상 작동을 재개할 수 있도록 합니다. 
+summary: FAS8300 또는 FAS8700 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 
 ---
-= 컨트롤러 반환 - FAS8300 및 FAS8700
+= FAS8300 또는 FAS8700 시스템의 컨트롤러를 반납하여 정상적인 작동을 재개하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 리소스의 제어권을 교체 컨트롤러로 반환하여 FAS8300 및 FAS8700 시스템이 정상 작동을 재개할 수 있도록 합니다.
+FAS8300 또는 FAS8700 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오.
 
 [role="tabbed-block"]
 ====

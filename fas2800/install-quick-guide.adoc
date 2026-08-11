@@ -1,17 +1,17 @@
 ---
 permalink: fas2800/install-quick-guide.html 
 sidebar: sidebar 
-keywords: fas2800, quick, guide, graphic, instructions, install, rack, cable 
-summary: 이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. 
+keywords: fas2820, quick, guide, graphic, instructions, install, rack, cable 
+summary: 이 가이드는 FAS2820 랙 설치 및 케이블 연결부터 초기 시스템 가동까지 FAS2820 시스템 설치에 대한 그림 설명서를 제공합니다. 
 ---
-= 빠른 가이드 - FAS2820
+= 간단한 단계를 따라 FAS2820 시스템을 설치합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 안내서는 랙 설치 및 케이블 연결에서부터 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다. NetApp 시스템 설치에 익숙한 경우 이 가이드를 사용하십시오.
+이 간편 단계별 가이드는 랙 설치 및 케이블 연결부터 초기 시스템 가동까지 FAS2820 시스템 설치 과정을 그림으로 설명합니다. NetApp 시스템 설치 경험이 있는 사용자에게 가장 적합합니다.
 
 설치 및 설정 지침_PDF 포스터에 액세스합니다.
 

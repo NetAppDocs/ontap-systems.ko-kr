@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, shut, chassis, controller, replace, remove, swap, verify, install, power, supply, metrocluster, aggregates, replacement, process, equipment, rack, ha, state, system 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= 컨트롤러를 종료합니다 - FAS8300 및 FAS8700
+= FAS8300 또는 FAS8700 컨트롤러를 종료하여 섀시를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

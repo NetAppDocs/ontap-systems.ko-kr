@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas8300, replace the boot media 
 summary: FAS8300 또는 FAS8700 스토리지 시스템의 부트 미디어를 교체하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부트 미디어를 교체하고, 부트 미디어에 이미지를 복원하고, 시스템 기능을 확인하는 등의 작업을 수행하세요. 
 ---
-= 부팅 미디어 자동 복구 워크플로 - FAS8300 및 FAS8700
+= 자동 부팅 복구 프로세스를 사용한 FAS8300 및 FAS8700 부팅 미디어 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-부트 이미지 자동 복구는 시스템이 적절한 부트 메뉴 옵션을 자동으로 식별하고 선택하는 과정을 포함합니다. 파트너 노드의 부트 이미지를 사용하여 FAS8300 또는 FAS8700 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치합니다.
+자동 부팅 복구 프로세스를 사용하여 FAS8300 또는 FAS8700 스토리지 시스템의 부팅 미디어를 교체하는 방법을 알아보십시오. 시스템은 자동으로 적절한 부팅 메뉴 옵션을 식별하고 선택한 다음, 파트너 노드의 부팅 이미지를 사용하여 교체 부팅 미디어에 ONTAP을 재설치합니다. 교체를 완료하려면 요구 사항을 검토하고 컨트롤러를 종료한 후 부팅 미디어를 교체하고 시스템이 이미지를 복원하도록 한 다음 시스템 기능을 확인합니다.
 
 자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
 
@@ -23,7 +23,7 @@ summary: FAS8300 또는 FAS8700 스토리지 시스템의 부트 미디어를 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown-bmr.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 스토리지 시스템에서 컨트롤러를 종료합니다.
+부팅 미디어를 교체해야 할 때는 스토리지 시스템의 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]

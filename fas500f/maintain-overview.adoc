@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f maintenance, maintenance, repairing, repairing fas500f, replace fas500f components, replace fas500f components 
 summary: FAS500f 하드웨어 유지 관리 
 ---
-= FAS500f 하드웨어 유지보수
+= FAS500f 스토리지 시스템 유지 관리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

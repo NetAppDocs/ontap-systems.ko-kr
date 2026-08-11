@@ -4,7 +4,7 @@ permalink: fas50/install-requirements.html
 keywords: fas50, install, setup, cautions 
 summary: FAS50 스토리지 시스템에 대한 요구사항을 검토하십시오. 
 ---
-= 설치 요구사항 - FAS50
+= FAS50 스토리지 시스템 설치 요구 사항 검토
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

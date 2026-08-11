@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9500, complete the replacement process 
 summary: '교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재구성하고 NetApp Storage Encryption 구성을 복원한 다음(필요한 경우) 새 컨트롤러에 대한 라이센스를 설치해야 합니다.' 
 ---
-= 전체 시스템 복원 - FAS9500
+= FAS9500 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -50,8 +50,8 @@ NOTE: 필요한 새 라이센스 키는 자동으로 생성되어 파일의 이�
 
 
 
-[[step-2-verify-lifs-and-registering-the-serial-number]]
-== 2단계: LIF 확인 및 일련 번호 등록
+[[step-2-verify-lifs-and-register-the-serial-number]]
+== 2단계: LIF를 확인하고 일련 번호를 등록합니다
 
 교체 노드를 서비스에 다시 투입하기 전에 LIF가 홈 포트에 있는지 확인하고, AutoSupport가 활성화된 경우 교체 노드의 일련 번호를 등록하고, 클러스터 상태를 확인하고, 유지 관리 창을 닫고, 자동 반환을 재설정해야 합니다.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, Installation, deployment, Install, deploy, Installing, deploying 
 summary: FAS50 스토리지 시스템을 설치 및 설정하려면 설치 요구사항을 검토하고, 사이트를 준비하고, 하드웨어 구성 요소를 설치 및 케이블 연결하고, 스토리지 시스템의 전원을 켜고, ONTAP 클러스터를 설정해야 합니다. 
 ---
-= 설치 및 설정 워크플로우 - FAS50
+= FAS50 설치 및 구성 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,7 +19,7 @@ FAS50 스토리지 시스템을 설치 및 설정하려면 설치 요구사항�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:install-prepare.html["설치 준비"]
 [role="quick-margin-para"]
-설치 준비를 위해 현장 준비, 환경 및 전기 요구 사항 확인, 랙 공간 충분 확인. 그런 다음 장비의 포장을 풀고 내용물을 포장 명세서와 비교하고 하드웨어를 등록하여 지원 혜택을 받으십시오.
+설치를 준비하려면 설치 장소를 정돈하고, 환경 및 전기 요구 사항을 확인하고, 랙 공간이 충분한지 확인하십시오. 그런 다음 장비를 개봉하고 내용물을 포장 명세서와 대조한 후 지원 혜택을 이용하려면 하드웨어를 등록하십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:install-hardware.html["하드웨어를 설치합니다"]
 [role="quick-margin-para"]

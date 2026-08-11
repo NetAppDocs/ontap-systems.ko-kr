@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, hot swap, replace, Flash Cache 
 summary: 동일하거나 다른 지원 공급업체에서 나온 동일 용량의 NVMe SSD 캐싱 모듈, Flash Cache 모듈을 FAS50 스토리지 시스템에 핫스왑할 수 있습니다. 
 ---
-= 캐싱 모듈-FAS50을 핫 스왑합니다
+= FAS50 시스템에서 캐싱 모듈 핫 스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -18,7 +18,7 @@ summary: 동일하거나 다른 지원 공급업체에서 나온 동일 용량�
 
 * 스토리지 시스템에 설치할 캐싱 모듈에 적합한 운영 체제가 있어야 합니다.
 * 대체 캐싱 모듈의 용량은 실패한 캐싱 모듈과 동일해야 하지만 지원되는 다른 공급업체에서 제공하는 것이어야 합니다.
-* 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 계속하기 전에 에 문의하십시오 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"].
+* 스토리지 시스템의 다른 모든 구성 요소가 정상적으로 작동해야 합니다. 그렇지 않은 경우 계속 진행하기 전에  https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"]에 문의하십시오.
 
 
 .단계

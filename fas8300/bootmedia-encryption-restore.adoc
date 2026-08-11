@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas8300, fas8700, environment, variable, complete, system, onboard, key, manager, okm, storage, volume, netapp, encryption, post, boot, media, replacement, post boot media replacement stpes for okm nse and nve 
 summary: 교체 부팅 미디어에서 암호화를 복원합니다. 
 ---
-= 암호화 복원 - FAS8300 및 FAS8700
+= 수동 부팅 복구 프로세스 후 FAS8300 또는 FAS8700 시스템의 부팅 미디어에 암호화를 복원하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-교체 부팅 미디어에서 암호화를 복원합니다.
+FAS8300 또는 FAS8700 시스템에서 부팅 미디어를 교체한 후 Onboard Key Manager(OKM) 등 키 관리자 유형에 맞는 단계를 완료하여 암호화를 복원하십시오.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
 summary: 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다. 
 ---
-= 부팅 미디어를 교체하고 수동 부팅 복구를 준비합니다 - FAS8300 및 FAS8700
+= FAS8300 또는 FAS8700 시스템의 부팅 미디어를 수동 부팅 복구 프로세스를 사용하여 교체하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -74,7 +74,7 @@ image:../media/icon_round_2.png["설명선 번호 2"]
 컨트롤러 모듈에서 부팅 미디어를 찾은 다음(컨트롤러 모듈의 FRU 맵 참조) 지침에 따라 교체해야 합니다.
 
 .시작하기 전에
-부팅 미디어의 콘텐츠가 암호화되지만 부팅 미디어를 교체하기 전에 부팅 미디어의 내용을 지우는 것이 좋습니다. 자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"] 을 방문하십시오.
+부팅 미디어의 내용은 암호화되어 있지만, 부팅 미디어를 교체하기 전에 내용을 지우는 것이 좋습니다. 자세한 내용은 NetApp 지원 사이트에서 해당 시스템에 대한 https://mysupport.netapp.com/info/web/ECMP1132988.html["휘발성에 대한 설명"]을 참조하십시오.
 
 
 NOTE: 시스템에 대한 _Statement of 휘발성_을 표시하려면 NetApp Support 사이트에 로그인해야 합니다.

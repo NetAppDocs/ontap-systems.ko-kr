@@ -2,16 +2,16 @@
 permalink: fas500f/install-videos.html 
 sidebar: sidebar 
 keywords: fas500f, hardware installation and cabling video 
-summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
+summary: 이 비디오를 시청하여 새로운 FAS500f 시스템을 설치하고 케이블을 연결하는 방법을 알아보십시오. 
 ---
-= 비디오 단계 - FAS500f
+= FAS500f 스토리지 시스템 설치 비디오 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다.
+이 비디오를 시청하여 새로운 FAS500f 시스템을 설치하고 케이블을 연결하는 방법을 알아보십시오.
 
 .애니메이션 - FAS500f의 설치 및 설정
 video::1f975061-b285-411b-b2d7-ac680185a0d1[panopto]

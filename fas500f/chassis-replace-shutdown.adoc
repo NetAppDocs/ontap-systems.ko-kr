@@ -1,10 +1,10 @@
 ---
 permalink: fas500f/chassis-replace-shutdown.html 
 sidebar: sidebar 
-keywords: fas500f, shutdown the controllers 
+keywords: fas500f, shut down the controllers 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= 컨트롤러 종료 - FAS500f
+= FAS500f 컨트롤러를 종료하여 섀시를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

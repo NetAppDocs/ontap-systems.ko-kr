@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas70, fas90, how to restore NetApp Storage Encryption, how to complete the replacement process 
 summary: '논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료하십시오.' 
 ---
-= 완벽한 컨트롤러 교체 - FAS70 및 FAS90
+= FAS70 또는 FAS90 시스템의 컨트롤러 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-AFF A1K 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하십시오(필요한 경우). 그런 다음 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다. 마지막으로, 문제가 발생한 부분을 NetApp으로 반환하십시오.
+FAS70 또는 FAS90 시스템의 컨트롤러 교체를 완료하려면 먼저 NetApp Storage Encryption 구성을 복원하십시오(필요한 경우). 다음으로 논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 고장난 부품을 NetApp에 반환하십시오.
 
 
 

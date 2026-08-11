@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: fas500f, how to recable the system, how to reassign disks 
 summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
 ---
-= 시스템 재할당 및 디스크 재할당 - FAS500f
+= FAS500f 시스템의 컨트롤러를 반납하여 정상 작동을 재개하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FAS500f 시스템 구성 복원 및 확인을 완료한 후에는 시스템 케이블을 다시 연결하고 디스크를 재할당해야 합니다.
+FAS500f 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 시스템 구성을 복원하고 확인한 후 시스템 케이블을 다시 연결하고 디스크를 재할당하십시오.
 
 스토리지를 재설정하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.
 

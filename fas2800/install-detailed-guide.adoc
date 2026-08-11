@@ -1,17 +1,17 @@
 ---
 permalink: fas2800/install-detailed-guide.html 
 sidebar: sidebar 
-keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, storage system, setup, discovery 
-summary: 이 절차는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
+keywords: fas2820, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, storage system, setup, discovery 
+summary: 이 절차는 FAS2820 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
 ---
-= 세부 단계 - FAS2820
+= 자세한 지침에 따라 FAS2820 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 절차에서는 일반적인 NetApp 스토리지 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 보다 자세한 설치 지침을 원할 경우 이 절차를 사용하십시오.
+이 절차는 FAS2820 스토리지 시스템을 준비, 설치, 케이블 연결 및 전원 켜기 위한 자세한 단계별 지침을 제공합니다. 간략한 빠른 가이드보다 자세한 설명을 선호하는 경우 이 단계를 따르십시오.
 
 
 
@@ -45,8 +45,8 @@ IMPORTANT: 특정 전원 요구 사항이 있는 고객은 반드시 확인해�
 
 . 에 액세스합니다 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html#assign-a-node-management-ip-address["System Manager를 사용하여 새 클러스터에서 ONTAP를 구성합니다"^]
 +
-.. 요구사항 AMD 절차 단계를 검토합니다.
-.. 을 완료하여 스토리지 시스템에 대한 정보를 수집합니다 https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["설치 워크시트(워크시트에 대한 URL 필요)"].
+.. 요구사항 및 절차 단계를 검토하십시오.
+.. 스토리지 시스템 설정 워크시트를 작성하여 스토리지 시스템에 대한 정보를 수집하십시오.
 .. 컨트롤러의 스토리지 시스템 일련 번호를 기록합니다.
 +
 image::../media/drw_ssn_label.svg[시스템 일련 번호의 예]
@@ -478,7 +478,7 @@ image::../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[컨트롤러 B와 
 [[step-5-complete-storage-system-setup-and-configuration]]
 == 5단계: 스토리지 시스템 설치 및 구성을 완료합니다
 
-옵션 1: 네트워크 검색이 활성화된 경우 또는 옵션 2: 네트워크 검색이 활성화되지 않은 경우 중 하나를 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.
+네트워크 검색이 활성화된 경우 옵션 1을, 네트워크 검색이 활성화되지 않은 경우 옵션 2를 사용하여 스토리지 시스템 설정 및 구성을 완료하십시오.
 
 선반 ID 설정이 필요한 두 옵션 중 하나에서 다음 애니메이션을 사용하세요.
 
@@ -488,10 +488,10 @@ video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto]
 ====
 .옵션 1: 네트워크 검색이 활성화된 경우
 --
-랩톱에서 네트워크 검색이 활성화된 경우 자동 클러스터 검색을 사용하여 스토리지 시스템 설치 및 구성을 완료합니다.
+노트북에서 네트워크 검색이 활성화된 경우 자동 클러스터 검색을 사용하여 스토리지 시스템 설정 및 구성을 완료하십시오.
 
 .단계
-. 이 단계의 시작 부분에 있는 애니메이션을 사용하여 선반 전원을 켜고 선반 ID를 설정합니다.
+. 선반 전원을 켜고 이 단계 시작 부분의 애니메이션을 사용하여 선반 ID를 설정하십시오.
 . 컨트롤러의 전원을 켭니다
 +
 .. 전원 코드를 컨트롤러 전원 공급 장치에 연결한 다음 다른 회로의 전원 공급 장치에 연결합니다.
@@ -510,13 +510,13 @@ image::../media/dwr_2800_turn_on_power_IEOPS-898.svg[전원을 켭니다]
 자세한 내용은 노트북의 온라인 도움말을 참조하십시오.
 
 . 관리 스위치에 랩톱을 연결합니다.
-. 다음 그림이나 단계를 사용하여 구성할 스토리지 시스템 노드를 검색합니다.
+. 그래픽 또는 단계를 사용하여 스토리지 시스템 노드를 찾아 구성하십시오.
 +
 image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[자동 검색 시스템]
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
+.. 왼쪽 창에서 *네트워크*를 마우스 오른쪽 버튼으로 클릭하고 *새로 고침*을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 
@@ -530,8 +530,8 @@ System Manager가 열립니다.
 . System Manager 안내식 설정을 사용하여 에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <<1단계: 설치 준비>>.
 . 계정을 만들거나 계정에 로그인합니다.
 +
-.. 을 클릭합니다 https://mysupport.netapp.com["mysupport.netapp.com"]
-.. 계정을 만들거나 계정에 로그인해야 하는 경우 _계정 생성_을 클릭합니다.
+.. 선택 https://mysupport.netapp.com["mysupport.netapp.com"]
+.. 계정을 만들거나 기존 계정에 로그인하려면 _Create Account_ 를 선택하십시오.
 
 
 . 다운로드 및 설치 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"]
@@ -606,13 +606,13 @@ NOTE: PuTTY 구성 방법을 모르는 경우 노트북 또는 콘솔의 온라�
 
 NOTE: 주소의 형식은 +https://x.x.x.x.+ 입니다
 
-.. 에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <<1단계: 설치 준비>>...
+.. <<1단계: 설치 준비>>에서 수집한 데이터를 사용하여 스토리지 시스템을 구성하십시오.
 
 
 . 계정을 만들거나 계정에 로그인합니다.
 +
-.. 을 클릭합니다 https://mysupport.netapp.com["mysupport.netapp.com"]
-.. 계정을 만들거나 계정에 로그인해야 하는 경우 _계정 생성_을 클릭합니다.
+.. 선택 https://mysupport.netapp.com["mysupport.netapp.com"]
+.. 계정을 만들거나 기존 계정에 로그인하려면 _Create Account_ 를 선택하십시오.
 
 
 . 다운로드 및 설치 https://mysupport.netapp.com/site/tools["Active IQ Config Advisor"]
