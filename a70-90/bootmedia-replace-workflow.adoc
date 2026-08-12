@@ -27,7 +27,7 @@ summary: 부트 이미지 수동 복구는 USB 드라이브를 사용하여 AFF 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 컨트롤러를 종료합니다.
+부트 미디어를 교체해야 할 때는 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]link:bootmedia-replace.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]

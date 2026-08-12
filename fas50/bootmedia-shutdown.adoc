@@ -2,16 +2,16 @@
 permalink: fas50/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: fas50, shut down the controller 
-summary: 수동 부팅 미디어 복구 프로세스 동안 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS50 스토리지 시스템에서 손상된 컨트롤러를 종료하세요. 
+summary: 스토리지 시스템 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS50 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= 수동 부팅 복구 과정 중에 FAS50 시스템에서 손상된 컨트롤러를 종료하십시오.
+= 수동 부팅 복구 과정 중에 FAS50 시스템의 컨트롤러를 종료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-수동 부팅 미디어 복구 프로세스 동안 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS50 스토리지 시스템에서 손상된 컨트롤러를 종료하세요.
+스토리지 시스템 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS50 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 [role="tabbed-block"]
 ====

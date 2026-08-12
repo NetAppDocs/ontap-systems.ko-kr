@@ -13,7 +13,7 @@ summary: AFF A70 또는 AFF A90 시스템에서 부팅 미디어를 교체하기
 [role="lead"]
 AFF A70 또는 AFF A90 시스템에서 부팅 미디어를 교체하기 전에 올바른 교체를 위해 필요한 요구 사항을 충족해야 합니다. 여기에는 적절한 용량의 USB 플래시 드라이브가 있는지 확인하고 올바른 교체용 부팅 장치가 있는지 확인하는 작업이 포함됩니다.
 
-시스템이 ONTAP 9.17.1 이상에서 실행 중인 경우 다음을 사용하세요. link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .
+시스템이 ONTAP 9.17.1 이상 버전을 실행 중인 경우 link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"]을 사용하십시오.
 
 [NOTE]
 ====

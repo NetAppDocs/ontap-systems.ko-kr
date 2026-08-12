@@ -2,7 +2,7 @@
 permalink: c400/bootmedia-shutdown-bmr.html 
 sidebar: sidebar 
 keywords: c400, shut down the controller 
-summary: 부트 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFF C400 스토리지 시스템에서 손상된 컨트롤러를 종료하세요. 
+summary: AFF C400 스토리지 시스템 부팅 미디어를 교체할 때는 데이터 손실을 방지하고 시스템 안정성을 확보하기 위해 AFF C400 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
 = 자동 부팅 복구 프로세스 중에 AFF C400 스토리지 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 부트 미디어를 교체할 때 데이터 손실을 방지하고 시�
 
 
 [role="lead"]
-부트 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFF C400 스토리지 시스템에서 손상된 컨트롤러를 종료하세요.
+AFF C400 스토리지 시스템 부팅 미디어를 교체할 때는 데이터 손실을 방지하고 시스템 안정성을 확보하기 위해 AFF C400 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 자동 부팅 미디어 복구 프로세스는 ONTAP 9.17.1 이상에서만 지원됩니다. 스토리지 시스템에서 이전 버전의 ONTAP 실행 중인 경우 link:bootmedia-replace-workflow.html["수동 부팅 복구 절차"] .
 
@@ -82,4 +82,4 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 .다음 단계
-손상된 컨트롤러를 종료한 후link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
+컨트롤러 전원을 끈 후에는 link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"].

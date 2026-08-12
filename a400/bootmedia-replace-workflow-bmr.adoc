@@ -21,7 +21,7 @@ summary: AFF A400 스토리지 시스템의 부트 미디어를 교체하려면 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"]link:bootmedia-shutdown-bmr.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 스토리지 시스템에서 컨트롤러를 종료합니다.
+부팅 미디어를 교체해야 할 때는 스토리지 시스템의 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]

@@ -2,16 +2,16 @@
 permalink: fas500f/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: fas500f, shutdown 
-summary: NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다. 
+summary: FAS500f 스토리지 시스템에서 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 컨트롤러를 종료하십시오. 
 ---
-= FAS500f 수동 부팅 복구 과정 중에 FAS500f 시스템에서 손상된 컨트롤러를 종료하십시오.
+= 수동 부팅 복구 과정 중에 FAS500f 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-NVE 또는 NSE 작업을 완료한 후 구성에 적합한 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수하십시오.
+FAS500f 스토리지 시스템에서 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 컨트롤러를 종료하십시오.
 
 
 

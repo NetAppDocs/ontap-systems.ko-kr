@@ -43,7 +43,7 @@ link:bootmedia-replace-workflow.html["부팅 미디어 - 수동 복구"]
  a| 
 link:chassis-replace-workflow.html["섀시"]
  a| 
-섀시에는 팬, 컨트롤러, 전원 공급 장치, PSU, NVRAM12, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈이 들어 있습니다.
+섀시에는 팬, 컨트롤러, 전원 공급 장치, NVRAM, 시스템 관리 모듈, I/O 카드 및 블랭킹 모듈이 들어 있습니다.
 
 
 

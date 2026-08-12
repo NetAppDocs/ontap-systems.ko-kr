@@ -2,16 +2,16 @@
 permalink: a700/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: aff a700, shut, down, impaired, controller, take, over, manual, manual boot recovery 
-summary: 암호화 검사를 완료한 후 AFF A700 시스템에서 손상된 컨트롤러를 종료하십시오. AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
+summary: AFF A700 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A700 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= AFF A700 시스템에서 수동 부팅 복구 과정 중에 손상된 컨트롤러를 종료하십시오.
+= AFF A700 수동 부팅 복구 과정 중에 AFF A900 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-암호화 검사를 완료한 후 AFF A700 시스템에서 손상된 컨트롤러를 종료하십시오. 이 절차에는 컨트롤러를 LOADER 프롬프트로 이동시키고, 참조를 위해 부팅 환경 변수를 캡처하고, 부팅 미디어 교체를 위해 컨트롤러를 준비하는 과정이 포함되며, 구체적인 단계는 시스템 구성에 따라 달라집니다.
+AFF A700 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A700 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 AFF A700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
@@ -64,7 +64,7 @@ NOTE: 이 명령은 부팅 장치가 손상되었거나 작동하지 않는 경�
 [[option-2-controller-is-in-a-metrocluster]]
 === 옵션 2: 컨트롤러가 MetroCluster에 있습니다
 
-NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다. 참고: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.
+NVE 또는 NSE 작업을 완료한 후에는 노드를 종료해야 합니다. 참고: 시스템이 2노드 MetroCluster 구성인 경우에는 이 절차를 사용하지 마십시오.
 
 손상된 컨트롤러의 기능을 인계받아 중지시키면 정상적인 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있습니다. 이를 위해 AutoSupport에서 자동 케이스 생성을 억제하고 자동 반환 기능을 비활성화한 다음 손상된 컨트롤러를 LOADER 프롬프트로 전환합니다. LOADER 프롬프트는 FRU를 교체할 수 있는 안전한 중지 상태입니다.
 
@@ -123,7 +123,7 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 [[option-3-controller-is-in-a-two-node-metrocluster]]
 == 옵션 3: 컨트롤러가 2노드 MetroCluster에 있습니다
 
-NVE 또는 NSE 작업을 완료한 후에는 손상된 노드의 종료를 완료해야 합니다.
+NVE 또는 NSE 작업을 완료한 후에는 노드를 종료해야 합니다.
 
 
 NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.

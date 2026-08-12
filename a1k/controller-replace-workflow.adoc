@@ -35,4 +35,4 @@ summary: 손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"]link:controller-replace-restore-system-rma.html["전체 컨트롤러 교체"]
 [role="quick-margin-para"]
-LIF를 확인하고 클러스터 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환합니다.
+LIF를 확인하고 클러스터 상태를 확인한 후 장애가 발생한 부품을 NetApp에 반환합니다.

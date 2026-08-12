@@ -21,7 +21,7 @@ AFF A250 스토리지 시스템의 섀시 교체를 시작하려면 교체 요�
 [role="quick-margin-para"]
 시스템 위치 파악, 자격 증명 및 도구 수집, 교체 섀시 확인, 케이블 레이블링 등을 통해 섀시 교체를 준비합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3가지"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"]link:chassis-replace-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
 섀시 유지관리를 안전하게 수행하려면 컨트롤러를 종료하세요.
 

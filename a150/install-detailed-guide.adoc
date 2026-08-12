@@ -15,7 +15,7 @@ AFF A150 스토리지 시스템 사이트 준비부터 ONTAP 클러스터 가동
 
 MetroCluster 구성이 있는 경우 를 사용합니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 설명서"^].
 
-* 경고: * 시스템에 ONTAP 9.13.1P8-9.13.1P11, ONTAP 9.14.1P1-9.14.1P7 또는 ONTAP 9.15.1-9.15.1P2가 설치되어 있고 시스템에 10개 이상의 내부 솔리드 스테이트 드라이브가 있는 경우 추가 단계를 수행하여 시스템을 설치해야 합니다. 문제를  https://mysupport.netapp.com/site/bugs-online/product/ONTAP/JiraNgage/CONTAP-285173["CONTAP-285173 - ADP는 10개 이상의 내부 드라이브가 있는 AFF A150에 스페어 루트 파티션을 남기지 않습니다"^]참조하십시오.
+*경고:* ONTAP 9.13.1P8 - 9.13.1P11, ONTAP 9.14.1P1 - 9.14.1P7 또는 ONTAP 9.15.1 - 9.15.1P2를 설치하는 경우, 시스템에 내장 솔리드 스테이트 드라이브(SSD)가 10개 이상 있다면 설치를 위해 시스템을 준비하는 추가 단계를 수행해야 합니다. 문제  https://mysupport.netapp.com/site/bugs-online/product/ONTAP/JiraNgage/CONTAP-285173["CONTAP-285173 - ADP는 10개 이상의 내부 드라이브가 있는 AFF A150에 스페어 루트 파티션을 남기지 않습니다"^]를 참조하십시오.
 
 
 
@@ -32,8 +32,8 @@ AFF A150 시스템을 설치하려면 NetApp Support 사이트에 계정을 만�
 +
 ** 스토리지 시스템의 랙 공간입니다
 ** Phillips #2 드라이버
-** 웹 브라우저를 사용하여 시스템을 네트워크 스위치 및 랩톱 또는 콘솔에 연결하는 추가 네트워킹 케이블
-** RJ-45 연결 및 웹 브라우저에 대한 액세스 권한이 있는 랩톱 또는 콘솔
+** 시스템을 네트워크 스위치와 웹 브라우저가 있는 노트북 또는 콘솔에 연결하기 위한 추가 네트워킹 케이블
+** RJ-45 연결과 웹 브라우저에 액세스할 수 있는 노트북 또는 콘솔
 
 
 
@@ -163,7 +163,7 @@ image:../media/oie_cable_power.png["전원 케이블"]
 [[step-2-install-the-hardware]]
 == 2단계: 하드웨어 설치
 
-필요에 따라 시스템을 4-포스트 랙 또는 NetApp 시스템 캐비닛에 설치합니다.
+해당되는 경우, 시스템을 4포스트 랙 또는 NetApp 시스템 캐비닛에 설치합니다.
 
 .단계
 . 필요에 따라 레일 키트를 설치합니다.
@@ -251,7 +251,7 @@ image:../media/drw_c190_u_fc_10gbe_cabling.png["데이터 포트 연결"]
 
 
 --
-이더넷 네트워크 구성:: Cat 6 RJ45 케이블을 사용하여 e0c - e0f 포트를 호스트 네트워크에 연결합니다. 다음 그림을 참조하십시오.
+이더넷 네트워크 구성:: 다음 그림과 같이 Cat 6 RJ45 케이블을 사용하여 e0c 포트부터 e0f 포트까지를 호스트 네트워크에 연결하십시오.
 +
 --
 image:../media/drw_c190_e_rj45_cbling.png["호스트 네트워크 케이블 연결"]
@@ -414,7 +414,7 @@ image::../media/drw_autodiscovery_controler_select_ieops-1849.svg[ONTAP 아이�
 
 +
 .. 파일 탐색기를 엽니다.
-.. 왼쪽 창에서 * 네트워크 * 를 클릭하고 마우스 오른쪽 버튼을 클릭한 후 * 새로 고침 * 을 선택합니다.
+.. 왼쪽 창에서 *네트워크*를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 *새로 고침*을 선택합니다.
 .. ONTAP 아이콘을 두 번 클릭하고 화면에 표시된 인증서를 수락합니다.
 +
 

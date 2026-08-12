@@ -2,16 +2,16 @@
 permalink: fas2800/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: fas2820, shut, down, impaired, controller, take, over 
-summary: 데이터 손실을 방지하고 수동 부팅 복구 과정 중 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오. 
+summary: FAS2820 스토리지 시스템 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= FAS2820 시스템에서 수동 부팅 복구 과정 중에 손상된 컨트롤러를 종료하십시오.
+= FAS2820 시스템의 수동 부팅 복구 과정 중에 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-데이터 손실을 방지하고 수동 부팅 복구 과정 중 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.
+FAS2820 스토리지 시스템 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행 중인 경우 다음을 사용하십시오.link:bootmedia-replace-workflow-bmr.html["자동 부팅 복구 절차"] .  시스템에서 이전 버전의 ONTAP 실행 중인 경우 수동 부팅 복구 절차를 사용해야 합니다.
 

@@ -49,4 +49,4 @@ NetApp에서는 작업 중인 장치에서 콘솔 로깅을 활성화하고 이 
 
 
 .다음 단계
-손상된 컨트롤러를 교체하기 위한 요구 사항을 검토한 후에는 다음을 link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]수행해야 합니다.
+손상된 컨트롤러를 교체하기 위한 요구 사항을 검토한 후 link:controller-replace-shutdown.html["손상된 컨트롤러를 종료합니다"]해야 합니다.

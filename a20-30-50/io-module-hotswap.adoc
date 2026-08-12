@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a20, aff a30, aff a50, hot swap a cluster ha card, hot swap ethernet client io module, hotswap io module, hot swap io module 
 summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 Ethernet I/O 모듈을 핫 스왑할 수 있습니다. 
 ---
-= AFF A20, AFF A30 또는 AFF A50 시스템에서 시스템을 종료하지 않고 I/O 모듈을 핫스왑합니다
+= AFF A20, AFF A30 또는 AFF A50 시스템에서 I/O 모듈 핫 스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -13,7 +13,7 @@ summary: AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 모듈에 
 [role="lead"]
 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 Ethernet I/O 모듈을 핫 스왑할 수 있습니다.
 
-I/O 모듈을 핫 스왑하려면 스토리지 시스템이 ONTAP 버전 요구 사항을 충족하는지 확인하고, 스토리지 시스템과 I/O 모듈을 준비한 다음, 고장난 모듈을 핫 스왑하고, 교체 모듈을 온라인 상태로 전환하고, 스토리지 시스템을 정상 작동 상태로 복원한 후 고장난 모듈을 NetApp에 반환합니다.
+I/O 모듈을 핫 스왑하려면 스토리지 시스템이 ONTAP 버전 요구 사항을 충족하는지 확인하고, 스토리지 시스템과 I/O 모듈을 준비하고, 고장난 모듈을 핫 스왑하고, 교체 모듈을 온라인 상태로 전환하고, 스토리지 시스템을 정상 작동 상태로 복원한 다음, 고장난 모듈을 NetApp에 반환하십시오.
 
 .이 작업에 대해
 * I/O 모듈을 핫 스왑하면 장애가 발생한 I/O 모듈을 교체하기 전에 수동 테이크오버를 수행할 필요가 없습니다.
@@ -28,7 +28,7 @@ I/O 모듈을 핫 스왑하려면 스토리지 시스템이 ONTAP 버전 요구 
 스토리지 시스템에는 조작자 디스플레이 패널에 1개, 각 컨트롤러에 하나씩 3개의 위치 LED가 있습니다. 위치 LED가 30분 동안 켜져 있습니다.
 
 +
-명령을 입력하여 이러한 기능을 해제할 수 `system location-led _off_` 있습니다. LED가 켜져 있는지 또는 꺼져 있는지 확실하지 않은 경우 명령을 입력하여 LED의 상태를 확인할 수 `system location-led show` 있습니다.
+ `system location-led _off_` 명령을 입력하면 LED를 끌 수 있습니다. LED가 켜져 있는지 꺼져 있는지 확실하지 않은 경우,  `system location-led show` 명령을 입력하여 상태를 확인할 수 있습니다.
 
 
 

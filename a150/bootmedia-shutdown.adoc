@@ -2,7 +2,7 @@
 permalink: a150/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: aff a150, a150, aff, shut, down, impaired, controller, take, over 
-summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수할 수 있습니다. 
+summary: AFF A150 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A150 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
 = AFF A150 시스템의 수동 부팅 복구 과정 중에 컨트롤러를 종료하십시오.
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 스토리지 시스템 하드웨어 구성에 따라 다른 절차를 �
 
 
 [role="lead"]
-데이터 손실을 방지하고 수동 부팅 복구 과정 중 시스템 안정성을 유지하려면 AFF A150 스토리지 시스템에서 손상된 컨트롤러를 종료하십시오.
+AFF A150 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A150 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 
 
@@ -62,7 +62,7 @@ NOTE: 이 명령은 부팅 장치가 손상되었거나 작동하지 않는 경�
 [[option-2-controller-is-in-a-metrocluster]]
 == 옵션 2: 컨트롤러가 MetroCluster에 있습니다
 
-NVE 또는 NSE 작업을 완료한 후에는 손상된 컨트롤러의 종료를 완료해야 합니다.
+NVE 또는 NSE 작업을 완료한 후 컨트롤러를 종료하십시오.
 
 
 NOTE: 시스템이 2노드 MetroCluster 구성인 경우 이 절차를 사용하지 마십시오.

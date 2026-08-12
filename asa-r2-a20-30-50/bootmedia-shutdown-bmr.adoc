@@ -2,7 +2,7 @@
 permalink: asa-r2-a20-30-50/bootmedia-shutdown-bmr.html 
 sidebar: sidebar 
 keywords: asa a20, asa a30, asa a50, shut down the controller 
-summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어를 교체할 때 시스템 안정성을 유지합니다. 
+summary: 부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
 = 자동 부팅 복구 프로세스 중에 ASA A20, ASA A30 또는 ASA A50 시스템의 컨트롤러를 종료하십시오
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 손상된 
 
 
 [role="lead"]
-ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 부팅 미디어를 교체할 때 시스템 안정성을 유지합니다.
+부팅 미디어를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 손상된 컨트롤러의 기능을 인계받아 중지시키면 정상적인 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있습니다. 이를 위해 AutoSupport에서 자동 케이스 생성을 억제하고 자동 반환 기능을 비활성화한 다음 손상된 컨트롤러를 LOADER 프롬프트로 전환합니다. LOADER 프롬프트는 FRU를 교체할 수 있는 안전한 중지 상태입니다.
 
@@ -80,4 +80,4 @@ _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 
 .다음 단계
-손상된 컨트롤러를 종료한 후link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"]
+컨트롤러 전원을 끈 후에는 link:bootmedia-replace-bmr.html["부팅 미디어를 교체합니다"].

@@ -25,13 +25,13 @@ summary: 부트 이미지를 수동으로 복구하려면 USB 드라이브를 �
 [role="quick-margin-para"]
 시스템에 보안 키 관리자가 활성화되어 있는지 또는 암호화된 디스크가 있는지 확인합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["2개"]link:bootmedia-shutdown.html["손상된 컨트롤러를 종료합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["2개"]link:bootmedia-shutdown.html["컨트롤러를 종료합니다"]
 [role="quick-margin-para"]
-부팅 미디어를 교체해야 할 때 컨트롤러를 종료합니다.
+부트 미디어를 교체해야 할 때는 컨트롤러를 종료하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["세 가지"]link:bootmedia-replace.html["부팅 미디어를 교체합니다"]
 [role="quick-margin-para"]
-손상된 컨트롤러에서 실패한 부트 미디어를 제거하고 교체 부트 미디어를 설치한 다음 USB 플래시 드라이브를 사용하여 ONTAP 이미지를 전송합니다.
+컨트롤러에서 고장난 부팅 미디어를 제거하고 교체용 부팅 미디어를 설치한 다음 USB 플래시 드라이브를 사용하여 ONTAP 이미지를 전송하십시오.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["네"]link:bootmedia-recovery-image-boot.html["복구 이미지를 부팅합니다"]
 [role="quick-margin-para"]

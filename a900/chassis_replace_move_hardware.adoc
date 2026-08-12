@@ -2,7 +2,7 @@
 permalink: a900/chassis_replace_move_hardware.html 
 sidebar: sidebar 
 keywords: aff a900, move hardware components, replace the chassis 
-summary: 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오. 
+summary: AFF A900 시스템의 섀시 교체를 시작합니다. 이 절차에는 전원 공급 장치, 팬, 컨트롤러 모듈, I/O 모듈, DCPM 모듈 및 USB LED 모듈을 제거하고 다시 설치하는 작업이 포함됩니다. 시스템의 다른 모든 구성 요소는 정상적으로 작동해야 합니다. 
 ---
 = AFF A900 시스템의 섀시 교체
 :allow-uri-read: 

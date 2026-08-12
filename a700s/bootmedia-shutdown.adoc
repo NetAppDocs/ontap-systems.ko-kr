@@ -2,16 +2,16 @@
 permalink: a700s/bootmedia-shutdown.html 
 sidebar: sidebar 
 keywords: aff a700s, aff, a700s, completing, complete, nve, nse, shutdown, impair, controller, shut down the controller, manual, manual boot recovery 
-summary: 암호화 검사를 완료한 후 AFF A700s 시스템에서 손상된 컨트롤러를 종료하십시오. AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
+summary: AFF A700s 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A700s 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= AFF A700s 시스템에서 수동 부팅 복구 과정 중에 손상된 컨트롤러를 종료하십시오.
+= AFF A700s 수동 부팅 복구 과정 중에 AFF A900 시스템의 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-암호화 검사를 완료한 후 AFF A700s 시스템에서 손상된 컨트롤러를 종료하십시오. 이 절차에는 컨트롤러를 LOADER 프롬프트로 이동시키고, 참조를 위해 부팅 환경 변수를 캡처하고, 부팅 미디어 교체를 위해 컨트롤러를 준비하는 과정이 포함됩니다.
+AFF A700s 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A700s 스토리지 시스템의 컨트롤러를 종료하십시오.
 
 AFF A700s 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.
 
