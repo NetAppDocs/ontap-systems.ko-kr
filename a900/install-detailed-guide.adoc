@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF A900 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 
 ---
-= 자세한 단계별 지침을 사용하여 AFF A900 시스템을 설치하십시오.
+= 자세한 단계별 지침을 사용하여 AFF A900 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

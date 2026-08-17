@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a1k, replace the boot media 
 summary: AFF A1K 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체하려면 System Management 모듈을 제거하고, 손상된 부팅 미디어를 제거한 다음, 교체용 부팅 미디어를 설치하고, 모듈을 다시 설치해야 합니다. 
 ---
-= 자동 부팅 복구 프로세스를 사용하여 AFF A1K 시스템의 부팅 미디어를 교체합니다.
+= 자동 부팅 복구 프로세스를 사용하여 AFF A1K 시스템의 부팅 미디어를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

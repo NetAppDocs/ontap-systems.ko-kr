@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700s, aff, a700s, completing, complete, nve, nse, shutdown, impair, controller, shut down the controller, manual, manual boot recovery 
 summary: AFF A700s 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A700s 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= AFF A700s 수동 부팅 복구 과정 중에 AFF A900 시스템의 컨트롤러를 종료하십시오.
+= AFF A700s 시스템에서 수동 부팅 복구 과정 중에 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

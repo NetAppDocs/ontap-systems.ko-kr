@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff, a700s, aff a700s, install, video 
 summary: 다음 비디오에서는 ONTAP 9.2를 실행하는 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다. 
 ---
-= 동영상 안내를 통해 AFF A700s 스토리지 시스템을 설치하십시오.
+= 동영상 안내를 사용하여 AFF A700s 스토리지 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

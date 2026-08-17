@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, shut, down, impaired, controller, take, over, manual, manual boot recovery 
 summary: AFF A700 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A700 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= AFF A700 수동 부팅 복구 과정 중에 AFF A900 시스템의 컨트롤러를 종료하십시오.
+= 수동 부팅 복구 과정 중에 AFF A700 시스템에서 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

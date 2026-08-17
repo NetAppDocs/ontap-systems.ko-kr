@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, replace, destage, controller, power, module, nvram10, battery, dcpm, dispose, return, failed, part 
 summary: NVRAM10 배터리가 포함된 디스테이지 컨트롤러 전원 모듈을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치하십시오. 
 ---
-= AFF A700 시스템에서 디스테이지 컨트롤러 전원 모듈(DCPM)을 핫스왑 방식으로 교체합니다.
+= AFF A700 시스템에서 DCPM 모듈 핫스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

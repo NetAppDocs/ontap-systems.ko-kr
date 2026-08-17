@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a800, hardware installation and cabling video 
 summary: 다음 비디오에서는 새 시스템의 설치 및 케이블 연결 방법을 보여줍니다. 
 ---
-= 동영상 안내를 통해 AFF A800 시스템을 설치하십시오.
+= 동영상 안내를 사용하여 AFF A800 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
