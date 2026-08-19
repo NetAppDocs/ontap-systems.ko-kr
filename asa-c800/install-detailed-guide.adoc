@@ -2,16 +2,16 @@
 permalink: asa-c800/install-detailed-guide.html 
 sidebar: sidebar 
 keywords: asa c800, detailed installation 
-summary: 이 섹션에서는 ASA C800 시스템 설치에 대한 자세한 단계별 지침을 제공합니다. 
+summary: 자세한 단계별 지침에 따라 설치를 준비하고, 하드웨어를 설치하고, 시스템을 케이블로 연결하고, ASA C800 시스템의 초기 구성을 완료하십시오. 
 ---
-= 자세한 단계를 사용하여 ASA C800 스토리지 시스템을 설치합니다
+= 자세한 단계별 지침에 따라 ASA C800 시스템을 설치하고 설정하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-이 섹션에서는 ASA C800 시스템 설치에 대한 자세한 단계별 지침을 제공합니다.
+자세한 단계별 지침에 따라 설치를 준비하고, 하드웨어를 설치하고, 시스템을 케이블로 연결하고, ASA C800 시스템의 초기 구성을 완료하십시오.
 
 
 

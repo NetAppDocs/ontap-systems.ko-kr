@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a150, a150, asa, quick, guide, graphic, instructions, install, rack, cable 
 summary: 이 간편 단계별 가이드는 랙 설치 및 케이블 연결부터 초기 시스템 부팅까지 ASA A150 시스템 설치에 대한 그림 설명서를 제공합니다. 
 ---
-= 간단한 단계로 ASA A150 스토리지 시스템 설치
+= ASA A150 스토리지 시스템 빠른 설치
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a150, a150, asa, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery 
 summary: 이 상세한 단계별 지침은 설치 준비, 하드웨어 설치, 컨트롤러 케이블 연결 및 설정 완료를 포함하여 ASA A150 시스템 설치 과정을 안내합니다. 
 ---
-= 자세한 단계별 안내에 따라 ASA A150 스토리지 시스템을 설치하세요.
+= ASA A150 스토리지 시스템을 자세한 단계로 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

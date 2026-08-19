@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c80, shut down the controller 
 summary: 자동 부팅 미디어 복구 프로세스 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF C80 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= 자동 부팅 복구 프로세스 중에 AFF C80 스토리지 시스템의 컨트롤러를 종료하십시오
+= 자동 부팅 복구 프로세스 중에 AFF C80 시스템의 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

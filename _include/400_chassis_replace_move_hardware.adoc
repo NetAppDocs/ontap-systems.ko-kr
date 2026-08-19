@@ -2,8 +2,6 @@
 :allow-uri-read: 
 
 
-손상된 섀시에서 새 섀시로 팬, 하드 드라이브 및 컨트롤러 모듈을 이동하고 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 바꿉니다.
-
 
 
 [[step-1-remove-the-controller-modules]]

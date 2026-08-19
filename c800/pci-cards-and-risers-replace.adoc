@@ -10,9 +10,7 @@ summary: PCIe 카드를 장착하려면 카드를 연결하기 전에 카드에�
 :imagesdir: ../media/
 
 
-[role="lead"]
-AFF C800 시스템의 I/O 모듈이 고장났거나, 더 높은 성능을 지원하기 위한 업그레이드가 필요하거나, 추가 기능이 필요한 경우 해당 모듈을 교체하거나 추가하십시오. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.
-
+ Replace a PCIe card in your AFF C800 system when the card fails or when an upgrade is required to support higher performance or additional features. The replacement process involves shutting down the controller, replacing the failed PCIe card, rebooting the controller, and returning the failed part to NetApp.
 .시작하기 전에
 * NetApp 새 부품 또는 교체 부품을 준비해 두셔야 합니다.
 * 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동하는지 확인하고, 작동하지 않는 경우 기술 지원 부서에 문의하십시오.

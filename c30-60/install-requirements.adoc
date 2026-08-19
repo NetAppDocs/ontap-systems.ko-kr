@@ -4,7 +4,7 @@ permalink: c30-60/install-requirements.html
 keywords: aff c30, aff c60, install, setup, cautions 
 summary: 'AFF C30 또는 AFF C60 스토리지 시스템 설치 요구 사항(필요한 장비, 인양 시 주의 사항 및 현장 사양 포함)을 검토하여 설치가 원활하게 진행되도록 하십시오.' 
 ---
-= AFF C30 및 AFF C60 스토리지 시스템 설치 요구 사항 검토
+= AFF C30 또는 AFF C60 스토리지 시스템 설치 요구 사항 검토
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

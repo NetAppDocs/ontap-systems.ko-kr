@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c250, shutdown 
 summary: ASA C250 스토리지 시스템 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 ASA C250 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= ASA C250 수동 부팅 복구 과정 중에 AFF A900 시스템의 컨트롤러를 종료하십시오.
+= 수동 부팅 복구 프로세스 중 ASA C250 시스템에서 컨트롤러 종료
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

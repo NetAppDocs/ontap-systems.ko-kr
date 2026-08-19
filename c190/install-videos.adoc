@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: aff c190, hardware installation and cabling video 
 summary: 두 개의 비디오가 있는데, 하나는 시스템을 랙에 장착하고 케이블을 연결하는 방법을 보여주고, 다른 하나는 System Manager Guided Setup을 사용하여 초기 시스템 구성을 수행하는 예를 보여줍니다. 
 ---
-= 동영상 안내를 따라 AFF C190 스토리지 시스템을 설치하십시오.
+= 동영상 안내를 사용하여 AFF C190 스토리지 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-다음 비디오는 시스템 설치 및 케이블 연결 방법을 보여줍니다.
+시스템 설치 및 케이블 연결 방법을 보여 주는 영상을 시청하십시오.
 
 .애니메이션 - AFF C190의 설치 및 설정
 video::fe034f33-a4bf-4834-9004-ab1f014a2787[panopto]

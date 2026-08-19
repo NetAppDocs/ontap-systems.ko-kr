@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c400, aff, c400, boot, media, store, primary, secondary, set, system, boot, image, file, replace, replace the boot media 
 summary: 부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템 부팅 이미지 파일 세트가 저장됩니다. 
 ---
-= AFF C400 스토리지 시스템의 부팅 미디어 교체에 대해 알아보기
+= AFF C400 시스템의 부팅 미디어 교체 옵션에 대해 알아보십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

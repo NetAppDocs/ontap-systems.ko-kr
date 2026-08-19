@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c400, aff, c400, swap, out, fan, module, interrupt, service, sequence, task, hot-swap, hot-swap a fan module 
 summary: 서비스를 중단하지 않고 팬 모듈을 바꾸려면 특정 작업 순서를 수행해야 합니다. 
 ---
-= AFF C400 스토리지 시스템에서 팬 모듈 핫 스왑
+= AFF C400 시스템에서 팬 모듈 핫스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

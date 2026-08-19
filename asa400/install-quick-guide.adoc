@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a400, asa, a400, guide, graphic, instruction, installation, system, rack, cabling, cable, initial, system, bring-up, guide, install, netapp, system, quick guide 
 summary: 이 간편 단계별 설명은 랙 설치 및 케이블 연결부터 초기 시스템 부팅까지 ASA A400 시스템 설치에 대한 그림 지침을 제공합니다. 
 ---
-= 간단한 단계로 ASA A400 스토리지 시스템 설치
+= 빠른 단계로 ASA A400 스토리지 시스템 설치
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

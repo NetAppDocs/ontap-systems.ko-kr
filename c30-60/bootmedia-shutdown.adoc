@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c30, aff c60, shut down the controller 
 summary: 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF C30 또는 AFF C60 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= AFF C30 또는 AFF C60 스토리지 시스템의 수동 부팅 복구 과정 중에 컨트롤러를 종료하십시오
+= AFF C30 또는 AFF C60 시스템에서 수동 부팅 복구 과정 중 컨트롤러 종료
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
