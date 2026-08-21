@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, video, rack, cable, system, manager, guided, setup, configuration 
 summary: 이 비디오는 새로운 FAS2820 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= FAS2820 시스템 설치 및 설정 동영상을 시청하십시오.
+= FAS2820 시스템 설치 및 설정 영상을 시청하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

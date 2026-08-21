@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, boot, recovery, image, restore, file, system, environmental, varible 
 summary: FAS2820 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 수동으로 부팅하여 파트너 노드의 구성을 복원할 수 있습니다. 
 ---
-= 수동 부팅 복구 프로세스를 사용하여 FAS2820 시스템에서 복구 이미지를 부팅하십시오.
+= FAS2820 시스템에서 수동 부팅 복구 프로세스를 사용하여 복구 이미지를 부팅합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

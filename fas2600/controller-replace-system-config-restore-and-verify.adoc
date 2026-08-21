@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2600, restore and verify the system configuration, verify and set the ha state of the controller module 
 summary: 하드웨어 교체를 완료하고 유지보수 모드로 부팅한 후 FAS2600 시스템에서 컨트롤러 구성을 복원하고 확인하십시오. 
 ---
-= FAS2600 시스템에서 컨트롤러 구성을 복원하고 확인하십시오.
+= FAS2600 시스템에서 컨트롤러 구성을 복원하고 확인합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

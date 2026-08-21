@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, install, setup, initial configuration 
 summary: FAS8300 또는 FAS8700 설치 및 설정 방식 중에서 선택하십시오. 
 ---
-= FAS8300 또는 FAS8700 설치 및 설정 방식 선택
+= FAS8300 또는 FAS8700 스토리지 시스템 설치 방법 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

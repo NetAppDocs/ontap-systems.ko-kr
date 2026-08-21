@@ -15,4 +15,4 @@ summary: '시스템 캐비닛은 다양한 유형의 전력 분배 장치(PDU)�
 
 시스템 캐비닛에서 지원되는 PDU에 대한 최신 정보는 Hardware Universe에 나와 있습니다.
 
-https://hwu.netapp.com/["hwu.netapp.com"]
+https://hwu.netapp.com["hwu.netapp.com"]

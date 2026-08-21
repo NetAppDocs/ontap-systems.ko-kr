@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, install hardware, telco rack 
 summary: 스토리지 시스템을 캐비닛이나 통신 랙에 설치하십시오. 
 ---
-= FAS70 또는 FAS90 하드웨어를 캐비닛이나 랙에 설치하십시오.
+= FAS70 또는 FAS90 하드웨어를 캐비닛이나 랙에 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

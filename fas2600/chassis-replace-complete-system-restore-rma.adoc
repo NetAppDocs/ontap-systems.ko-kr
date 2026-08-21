@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2600, verify and set HA state, complete the replacement process 
 summary: 섀시의 HA 상태를 확인하고 고장난 구성 요소를 NetApp에 반환하여 FAS2600 시스템의 섀시 교체를 완료합니다. 
 ---
-= FAS2600 시스템의 섀시 교체를 완료하십시오.
+= FAS2600 시스템의 섀시 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

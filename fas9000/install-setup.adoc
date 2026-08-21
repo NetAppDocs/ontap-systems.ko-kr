@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9000, aff a700, install, setup, initial, configuration 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= FAS9000 설치 및 설정 환경을 선택하십시오
+= FAS9000 스토리지 시스템 설치 및 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

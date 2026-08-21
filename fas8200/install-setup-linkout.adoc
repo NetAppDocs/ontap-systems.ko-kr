@@ -2,13 +2,13 @@
 permalink: fas8200/install-setup-linkout.html 
 sidebar: sidebar 
 keywords: fas8200, install 
-summary: PDF 포스터를 사용하여 새로운 FAS8200 스토리지 시스템을 설치하고 설정할 수 있습니다. PDF 포스터에는 단계별 지침과 추가 콘텐츠에 대한 라이브 링크가 포함되어 있습니다. 
+summary: PDF 포스터를 사용하여 FAS8200 스토리지 시스템을 설치하고 설정하십시오. 이 포스터는 추가 콘텐츠에 대한 라이브 링크와 함께 빠르고 간편한 단계별 그래픽 지침을 제공합니다. 
 ---
-= PDF 포스터를 사용하여 FAS8200 스토리지 시스템을 설치하고 설정하십시오.
+= 빠른 그림 설명서를 사용하여 FAS8200 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-PDF 포스터를 사용하여 새 FAS8200 스토리지 시스템을 설치하고 설정할 수 있습니다. 포스터 link:../media/PDF/FAS8200_ISI_215-15015_A0.pdf["AFF FAS8200 설치 및 설정 지침"^]에는 단계별 지침과 추가 콘텐츠에 대한 라이브 링크가 포함되어 있습니다.
+link:../media/PDF/FAS8200_ISI_215-15015_A0.pdf["FAS8200 설치 및 설정 지침"^] PDF 포스터를 사용하여 FAS8200 스토리지 시스템을 설치하고 설정하십시오. 이 포스터는 추가 콘텐츠에 대한 라이브 링크와 함께 빠르고 간편한 단계별 그래픽 지침을 제공합니다.

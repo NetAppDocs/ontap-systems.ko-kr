@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, replace, boot, media, controller, module, fru map 
 summary: FAS2820 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장되어 있습니다. 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하여 열고, 부팅 미디어를 찾아 교체한 다음, 부팅 이미지를 USB 드라이브에 전송하고 컨트롤러를 부팅합니다. 
 ---
-= FAS2820 시스템의 부팅 미디어를 수동 부팅 복구 프로세스를 사용하여 교체하십시오.
+= FAS2820 시스템에서 수동 부팅 복구 프로세스를 사용하여 부팅 미디어 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

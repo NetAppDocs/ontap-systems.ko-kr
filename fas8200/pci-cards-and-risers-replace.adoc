@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8200, replace a pcie card 
 summary: PCIe 카드를 교체하려면 시스템에서 컨트롤러 모듈을 분리하고, 측면 패널을 열고, 고장난 카드를 제거하고, 교체용 카드를 설치한 다음 컨트롤러 모듈을 다시 설치해야 합니다. 
 ---
-= FAS8200 시스템의 PCIe 카드 교체
+= FAS8200 시스템의 PCIe 카드를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

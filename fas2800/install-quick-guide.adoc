@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, quick, guide, graphic, instructions, install, rack, cable 
 summary: 이 가이드는 FAS2820 랙 설치 및 케이블 연결부터 초기 시스템 가동까지 FAS2820 시스템 설치에 대한 그림 설명서를 제공합니다. 
 ---
-= 간단한 단계를 따라 FAS2820 시스템을 설치합니다.
+= 빠른 단계를 사용하여 FAS2820 시스템 설치
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

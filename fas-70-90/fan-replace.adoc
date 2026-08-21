@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, replace a fan 
 summary: 시스템 냉각 및 전체 성능에 영향을 미칠 수 있으므로 팬에 장애가 발생하거나 효율적으로 작동하지 않는 경우 FAS70 또는 FAS90 시스템에서 팬 모듈을 교체합니다. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다. 
 ---
-= FAS70 또는 FAS90 시스템의 팬 교체
+= FAS70 또는 FAS90 시스템의 팬 모듈 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, install, detailed, guide, prepare, hardware, cable, controller, switchless, cluster, sas, drive, two, node, configuration 
 summary: 이 가이드에서는 일반적인 NetApp 시스템 설치를 위한 단계별 지침을 제공합니다. 자세한 설치 지침을 보려면 이 가이드를 사용하십시오. 
 ---
-= 자세한 지침에 따라 FAS8300 또는 FAS8700 시스템을 설치하십시오.
+= 자세한 단계별 지침에 따라 FAS8300 또는 FAS8700 시스템을 설치하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

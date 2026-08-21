@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, quick, guide, graphic, instructions, install, rack, cable 
 summary: 이 페이지는 랙 설치 및 케이블 연결부터 초기 시스템 가동에 이르기까지 FAS2700 시스템의 일반적인 설치 과정을 그림으로 설명합니다. 
 ---
-= 간단한 단계를 따라 FAS2700 시스템을 설치합니다.
+= 빠른 단계를 통해 FAS2700 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

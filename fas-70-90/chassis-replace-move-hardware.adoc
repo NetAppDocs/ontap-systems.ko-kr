@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, move hardware components, replace the chassis 
 summary: '하드웨어 장애로 인해 FAS70 또는 FAS90 시스템의 섀시를 교체해야 하는 경우.  교체 프로세스에는 섀시 전면에서 컨트롤러를 제거하고, 전원 공급 장치(PSU), NVRAM12, I/O 모듈 및 블랭크, 시스템 관리 모듈을 제거한 다음, 교체 섀시를 설치하고 섀시 구성 요소를 다시 설치하는 작업이 포함됩니다.' 
 ---
-= FAS70 또는 FAS90 시스템의 섀시를 교체합니다
+= FAS70 또는 FAS90 시스템의 섀시 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

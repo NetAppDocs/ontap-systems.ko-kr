@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, shut down the controller 
 summary: 스토리지 시스템 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 FAS70 또는 FAS90 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= 수동 부팅 복구 과정 중에는 FAS70 또는 FAS90 시스템의 컨트롤러를 종료하십시오.
+= FAS70 또는 FAS90 시스템에서 수동 부팅 복구 프로세스를 진행하는 동안 컨트롤러를 종료하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

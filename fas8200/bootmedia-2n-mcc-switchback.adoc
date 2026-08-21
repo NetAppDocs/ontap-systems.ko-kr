@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8200, switch back aggregate in a two-node metrocluster configuration, manual, manual boot recovery 
 summary: 2노드 MetroCluster 구성에서 부팅 미디어 교체를 완료한 후 FAS8200 시스템에서 MetroCluster 스위치백 작업을 수행하십시오. FAS8200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
-= FAS8200 시스템의 2노드 MetroCluster 구성에서 애그리게이트를 다시 전환합니다
+= FAS8200 시스템의 2노드 MetroCluster 구성에서 애그리게이트를 스위치백합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

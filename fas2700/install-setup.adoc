@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas 2700, install, setup, initial configuration 
 summary: FAS2700 시스템을 설치하고 설정하려면 다양한 콘텐츠 형식 중에서 선택하십시오. 
 ---
-= FAS2700 설치 및 설정 환경을 선택하십시오
+= FAS2700 설치 및 설정 환경을 선택합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

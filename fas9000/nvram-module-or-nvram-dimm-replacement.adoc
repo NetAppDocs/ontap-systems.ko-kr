@@ -2,15 +2,17 @@
 permalink: fas9000/nvram-module-or-nvram-dimm-replacement.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, replace, nvram, module, dimm, manually, reassign, system, id, ha, system, disk, two, node, restore, storage, volume, encryption, functionality 
-summary: NVRAM 모듈은 NVRAM10 및 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈, Flash Cache 또는 캐싱 모듈로 구성됩니다. 
+summary: FAS9000 시스템에서 고장난 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체하십시오. 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체하면 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다. 
 ---
-= FAS9000 시스템의 NVRAM 모듈 또는 NVRAM DIMM을 교체하십시오.
+= FAS9000 시스템의 NVRAM 모듈 또는 NVRAM DIMM 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+FAS9000 시스템에서 고장난 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체하십시오. 시스템 ID는 NVRAM 모듈에서 파생되므로 모듈을 교체하면 시스템에 속한 디스크가 새 시스템 ID로 재할당됩니다.
+
 NVRAM 모듈은 NVRAM10와 DIMM과 NVRAM 모듈당 최대 2개의 NVMe SSD Flash Cache 모듈(Flash Cache 또는 캐싱 모듈)로 구성됩니다. 장애가 발생한 NVRAM 모듈 또는 NVRAM 모듈 내부의 DIMM을 교체할 수 있습니다.
 
 장애가 발생한 NVRAM 모듈을 교체하려면 섀시에서 분리하고, NVRAM 모듈에서 Flash Cache 모듈을 분리하고, DIMM을 교체 모듈로 이동하고, Flash Cache 모듈 또는 모듈을 재설치한 다음, 교체용 NVRAM 모듈을 섀시에 설치해야 합니다.

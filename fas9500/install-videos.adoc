@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS9500 
 summary: 이 비디오는 새로운 FAS9500 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= FAS9500 시스템 설치 및 설정 영상을 시청하십시오.
+= 동영상 안내를 사용하여 FAS9500 스토리지 시스템을 설치합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

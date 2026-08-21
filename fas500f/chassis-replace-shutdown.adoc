@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, shut down the controllers 
 summary: 섀시를 교체하려면 컨트롤러를 종료해야 합니다. 
 ---
-= FAS500f 컨트롤러를 종료하여 섀시를 교체합니다
+= 섀시를 교체하기 위해 FAS500f 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

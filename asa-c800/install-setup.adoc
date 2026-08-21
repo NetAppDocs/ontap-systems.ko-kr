@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa c800, initial configuration options 
 summary: 빠른 그래픽 안내, 비디오 연습 또는 자세한 단계별 지침을 사용하여 ASA C800 시스템을 설정하는 데 가장 적합한 설치 방법을 선택하십시오. 
 ---
-= ASA C800 설치 및 구성 워크플로
+= ASA C800 스토리지 시스템 설치 방법 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

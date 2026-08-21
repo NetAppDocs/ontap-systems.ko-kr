@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, replace, nvmem, battery, remove, controller, module, controller, metrocluster, configuration, aggregate, configuration, reinstall, run, system, switch, shut, down 
 summary: 시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 
 ---
-= FAS8300 또는 FAS8700 시스템의 NVDIMM을 교체하십시오.
+= FAS8300 또는 FAS8700 시스템의 NVDIMM을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -2,15 +2,17 @@
 permalink: fas9000/caching-module-and-core-dump-module-replace.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, replace caching module 
-summary: 시스템에서 모듈이 오프라인 상태가 되었다는 단일 AutoSupport ASUP 메시지를 등록하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다. 그렇지 않으면 성능 저하가 발생합니다. 
+summary: 'FAS9000 시스템에서 모듈이 오프라인 상태가 되었다는 단일 AutoSupport(ASUP) 메시지가 등록되면 캐싱 모듈 또는 코어 덤프 모듈을 교체하십시오. 교체하지 않으면 성능 저하가 발생합니다.' 
 ---
-= FAS9000 시스템의 캐싱 모듈 또는 코어 덤프 모듈을 교체하십시오.
+= FAS9000 시스템의 캐싱 모듈 또는 코어 덤프 모듈 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+FAS9000 시스템에서 모듈이 오프라인 상태가 되었다는 단일 AutoSupport(ASUP) 메시지가 등록되면 캐싱 모듈 또는 코어 덤프 모듈을 교체하십시오. 교체하지 않으면 성능 저하가 발생합니다.
+
 시스템에서 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록하는 경우 컨트롤러 모듈에서 캐싱 모듈을 교체해야 하며, 그렇게 하지 않으면 성능이 저하됩니다. AutoSupport가 활성화되지 않은 경우 모듈 전면에 있는 오류 LED를 통해 장애가 발생한 캐시 모듈을 찾을 수 있습니다. AFF A700 시스템에 NS224 드라이브 쉘프를 설치하는 경우 필요한 1TB, X9170A 코어 덤프 모듈을 추가하거나 교체할 수도 있습니다.
 
 .시작하기 전에

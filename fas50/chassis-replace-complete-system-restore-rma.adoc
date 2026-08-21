@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, verify and set HA state, complete the replacement process 
 summary: 섀시의 HA 상태를 확인한 다음 장애가 발생한 부품을 NetApp에 반환하여 FAS50 섀시 교체 절차의 최종 단계를 완료합니다. 
 ---
-= FAS50 시스템의 섀시 교체를 완료합니다.
+= FAS50 시스템의 섀시 교체를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

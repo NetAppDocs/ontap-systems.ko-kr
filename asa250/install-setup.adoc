@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a250, install, setup, initial configuration 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= ASA A250 설치 및 구성 워크플로
+= ASA A250 스토리지 시스템 설치 방법 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, replace, real, time, clock, battery, impaired, controller, shut, down, controller, system, rtc, date, time, controller, module, reinstall, replace, open 
 summary: FAS2820 시스템의 컨트롤러 모듈에 있는 실시간 클록 배터리를 교체하면 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동할 수 있습니다. 
 ---
-= FAS2820 시스템의 실시간 클록 배터리를 교체하십시오.
+= FAS2820 시스템의 실시간 클록 배터리를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

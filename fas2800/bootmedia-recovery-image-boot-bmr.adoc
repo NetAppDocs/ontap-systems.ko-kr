@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, boot the recovery image 
 summary: FAS2820 시스템의 교체 부팅 미디어에 ONTAP 이미지를 복원하십시오. 이 과정은 LOADER 프롬프트에서 부팅 복구 프로세스를 시작하고 복구 프로세스가 완료되어 노드가 재부팅될 때까지 모니터링하는 방식으로 진행됩니다. 
 ---
-= 자동 부팅 복구 프로세스를 사용하여 FAS2820 시스템의 부팅 이미지를 복원합니다
+= 자동 부팅 복구 프로세스를 사용하여 FAS2820 시스템에서 복구 이미지를 부팅합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

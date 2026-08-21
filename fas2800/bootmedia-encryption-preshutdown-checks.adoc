@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, shutdown, checks, onboard, encryption, keys, impaired controller, disable, automatic, feedback 
 summary: FAS2820 스토리지 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp Volume Encryption을 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. 
 ---
-= FAS2820 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오
+= 수동 부팅 복구 프로세스를 사용하여 FAS2820 시스템의 부팅 미디어에서 암호화 지원 확인
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

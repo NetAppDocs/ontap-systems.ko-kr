@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption 
 summary: FAS2820 시스템의 교체 부팅 미디어에서 암호화를 복원하십시오. 
 ---
-= 수동 부팅 복구 프로세스 후 FAS2820 시스템의 부팅 미디어에 암호화를 복원합니다
+= FAS2820 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화를 복원합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

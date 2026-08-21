@@ -2,7 +2,7 @@
 permalink: fas9000/dimm-replace.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, replace, dimm, shut, down, impaired, controller, module, reinstall, system, node, aggregates, metrocluster, replacement 
-summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)가 점점 증가하는 경우 컨트롤러 모듈의 DIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.' 
+summary: FAS9000 시스템에서 상태 모니터 경고를 통해 수정 가능한 ECC 메모리 오류가 과도하게 발생하거나 수정 불가능한 ECC 오류가 보고되는 경우 DIMM을 교체하십시오. DIMM 오류가 발생하면 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있으므로, DIMM을 교체하면 안정적인 작동이 복원됩니다. 
 ---
 = FAS9000 시스템의 메모리 오류를 해결하려면 DIMM을 교체하십시오.
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: '시스템에서 수정 가능한 오류 수정 코드(ECC)가 점점 �
 
 
 [role="lead"]
+FAS9000 시스템에서 상태 모니터 경고를 통해 수정 가능한 ECC 메모리 오류가 과도하게 발생하거나 수정 불가능한 ECC 오류가 보고되는 경우 DIMM을 교체하십시오. DIMM 오류가 발생하면 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있으므로, DIMM을 교체하면 안정적인 작동이 복원됩니다.
+
 스토리지 시스템이 스토리지 시스템의 ONTAP 부팅을 방해하는 단일 DIMM 오류로 인해 발생하는 과도한 CECC(수정 가능한 오류 수정 코드) 오류 또는 해결할 수 없는 ECC 오류와 같은 오류가 스토리지 시스템에서 발생하면 컨트롤러의 DIMM을 교체해야 합니다.
 
 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.

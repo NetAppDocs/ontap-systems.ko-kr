@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas 2700, post, boot, media, okm, nse, nve, onboard key manager, netapp storage encryption, netapp volume encryption, manual, manual boot recovery 
 summary: 교체 부팅 미디어에 암호화를 복원합니다. FAS2700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다. 
 ---
-= FAS2700 시스템의 부팅 미디어에서 암호화 복원
+= FAS2700 시스템의 부팅 미디어에서 암호화를 복원합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

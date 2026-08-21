@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9500, move hardware components, replace the chassis 
 summary: 섀시를 교체하려면 손상된 섀시에서 구성 요소를 분리하여 교체 섀시에 설치해야 합니다. 
 ---
-= FAS9500 시스템의 섀시를 교체하십시오.
+= FAS9500 시스템의 섀시 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

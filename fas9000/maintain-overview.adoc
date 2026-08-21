@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9000 maintenance, maintenance, repairing fas9000, repairing fas9000, replace fas9000 components, replace fas9000 components 
 summary: FAS9000 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장하십시오. 고장난 부품을 교체하는 등의 정기적인 유지 관리 작업을 수행하면 시스템 중단 및 데이터 손실을 방지할 수 있습니다. 
 ---
-= FAS9000 스토리지 시스템 유지 관리에 대해 알아보십시오
+= FAS9000 스토리지 시스템 유지 관리에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

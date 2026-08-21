@@ -2,15 +2,17 @@
 permalink: fas9000/controller-replace-recable-reassign-disks.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, how to recable the system, how to reassign disks 
-summary: 스토리지를 다시 설정하고 디스크 재할당을 확인해야 합니다. 
+summary: FAS9000 시스템에서 스토리지 케이블을 다시 연결하고 디스크 재할당을 확인하여 교체 컨트롤러가 정상 작동을 재개할 수 있도록 하십시오. 
 ---
-= FAS9000 시스템의 컨트롤러를 반환하여 정상 작동을 재개합니다.
+= FAS9000 시스템의 컨트롤러를 반납하여 정상 작동을 재개하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+FAS9000 시스템에서 스토리지 케이블을 다시 연결하고 디스크 재할당을 확인하여 교체 컨트롤러가 정상 작동을 재개할 수 있도록 하십시오.
+
 스토리지를 재설정하고 디스크 재할당을 확인하여 교체 절차를 계속합니다.
 
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2600, replace the chassis 
 summary: FAS2600 시스템의 섀시를 교체하기 전에 구성 요소를 교체용 섀시로 이동하고 장비 랙 또는 시스템 캐비닛에 설치하기 위한 요구 사항을 검토하십시오. 
 ---
-= FAS2600 섀시를 교체하기 전에 요구 사항을 검토하십시오
+= FAS2600 시스템의 섀시를 교체하기 전에 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

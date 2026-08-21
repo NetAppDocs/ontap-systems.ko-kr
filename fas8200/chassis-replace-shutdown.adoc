@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8200, shutdown the controllers 
 summary: 섀시를 교체하기 전에 FAS8200 시스템에서 손상된 컨트롤러를 종료해야 합니다. 
 ---
-= FAS8200 컨트롤러를 종료하여 섀시를 교체합니다
+= 섀시 교체를 위해 FAS8200 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

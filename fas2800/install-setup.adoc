@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, install, setup, initial configuration 
 summary: FAS2820 시스템을 설치하고 설정하십시오. 
 ---
-= FAS2820 설치 및 설정 환경을 선택하십시오
+= FAS2820 설치 및 설정 환경을 선택하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

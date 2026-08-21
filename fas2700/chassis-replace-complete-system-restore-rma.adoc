@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: FAS2700 시스템의 섀시 교체를 완료하려면 섀시의 HA 상태를 확인하고 고장난 구성 요소를 NetApp에 반환하십시오. 
 ---
-= FAS2700 시스템의 섀시 교체를 완료하십시오.
+= FAS2700 시스템의 섀시 교체를 완료합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

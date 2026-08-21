@@ -2,7 +2,7 @@
 permalink: fas9000/pci-cards-and-risers-replace.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, replace, io, module, shut, down, impaired, controller, node, metrocluster, pcie, replacement, switch, back, aggregates, return, failed, part 
-summary: 입출력 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다. 
+summary: 시스템에서 실행되는 모든 ONTAP 버전에서 지원되는 특정 작업 순서를 사용하여 FAS9000 시스템의 I/O 모듈을 교체하십시오. 
 ---
 = FAS9000 시스템의 I/O 모듈 교체
 :allow-uri-read: 
@@ -11,6 +11,8 @@ summary: 입출력 모듈을 교체하려면 특정 작업 순서를 수행해�
 
 
 [role="lead"]
+시스템에서 실행되는 모든 ONTAP 버전에서 지원되는 특정 작업 순서를 사용하여 FAS9000 시스템의 I/O 모듈을 교체하십시오.
+
 입출력 모듈을 교체하려면 특정 작업 순서를 수행해야 합니다.
 
 * 이 절차는 시스템에서 지원하는 모든 버전의 ONTAP에서 사용할 수 있습니다

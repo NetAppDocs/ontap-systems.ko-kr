@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff fas9500, shutdown the controllers 
 summary: 섀시를 교체하려면 먼저 FAS9500 시스템에서 손상된 컨트롤러를 종료해야 합니다. 
 ---
-= 섀시를 교체하기 위해 FAS9500 컨트롤러를 종료합니다
+= 섀시 교체를 위해 FAS9500 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

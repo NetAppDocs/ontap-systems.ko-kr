@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a800, initial configuration options 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= ASA A800 설치 및 구성 워크플로
+= ASA A800 스토리지 시스템 설치 방법 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

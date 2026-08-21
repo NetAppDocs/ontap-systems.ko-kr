@@ -2,15 +2,17 @@
 permalink: fas9000/x91148a-modules-with-no-open-slots-add.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, add, x91148a, storage, module, no, open, slots, system, nic 
-summary: 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다. 
+summary: 완전히 구성된 FAS9000 시스템에서 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거하여 하나 이상의 X91148A 스토리지 모듈을 설치하십시오. 
 ---
-= 빈 슬롯이 없는 FAS9000 시스템에 X91148A 모듈 추가
+= 모든 슬롯이 사용 중인 경우 FAS9000 시스템에 X91148A 스토리지 모듈 추가
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+완전히 구성된 FAS9000 시스템에서 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거하여 하나 이상의 X91148A 스토리지 모듈을 설치하십시오.
+
 완전히 채워진 시스템에 하나 이상의 X91148A 스토리지 모듈을 설치하려면 시스템에 있는 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거해야 합니다.
 
 * 시스템에서 ONTAP 9.8 이상을 실행해야 합니다.

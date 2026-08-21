@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, initial configuration options 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= FAS500f 설치 및 구성 워크플로
+= FAS500f 스토리지 시스템 설치 방법 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

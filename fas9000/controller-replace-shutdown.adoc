@@ -2,7 +2,7 @@
 permalink: fas9000/controller-replace-shutdown.html 
 sidebar: sidebar 
 keywords: aff a700, fas9000, shut, down, impaired, node, controller, two, node, metrocluster 
-summary: 손상된 노드를 종료하려면 노드 상태를 확인하고, 필요한 경우 정상 노드가 손상된 노드 스토리지에서 데이터를 계속 제공할 수 있도록 노드를 인계해야 합니다. 
+summary: FAS9000 시스템에서 구성에 적합한 절차를 사용하여 손상된 컨트롤러를 종료하거나 해당 컨트롤러의 제어권을 인계받아 정상적인 노드가 손상된 노드의 스토리지에서 데이터를 계속 제공할 수 있도록 하십시오. 
 ---
 = FAS9000 시스템에서 손상된 컨트롤러를 교체하기 전에 전원을 끄십시오.
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 손상된 노드를 종료하려면 노드 상태를 확인하고, 필�
 
 
 [role="lead"]
-구성에 적합한 절차에 따라 컨트롤러를 종료하거나 손상된 컨트롤러를 인수하십시오.
+FAS9000 시스템에서 손상된 컨트롤러를 구성에 적합한 절차를 사용하여 종료하거나 인수합니다.
 
 [role="tabbed-block"]
 ====

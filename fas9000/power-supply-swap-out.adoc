@@ -2,15 +2,17 @@
 permalink: fas9000/power-supply-swap-out.html 
 sidebar: sidebar 
 keywords: fas9000, swap, power, supply, turn, off, disconnect, remove, install, connect, turn, on, return, failed, part 
-summary: 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다. 
+summary: 서비스를 중단하지 않고 FAS9000 시스템의 전원 공급 장치를 핫스왑합니다. 이 절차에는 기존 전원 공급 장치를 끄고, 분리하고, 제거한 다음 교체용 전원 공급 장치를 설치하고, 연결하고, 켜는 작업이 포함됩니다. 
 ---
-= FAS9000 시스템에서 전원 공급 장치를 핫스왑합니다
+= FAS9000 시스템에서 전원 공급 장치 핫스왑
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
+서비스를 중단하지 않고 FAS9000 시스템의 전원 공급 장치를 핫스왑합니다. 이 절차에는 기존 전원 공급 장치를 끄고, 분리하고, 제거한 다음 교체용 전원 공급 장치를 설치하고, 연결하고, 켜는 작업이 포함됩니다.
+
 전원 공급 장치 교체에는 이전 전원 공급 장치를 끄고, 분리하고, 분리하고, 교체 전원 공급 장치를 설치, 연결 및 켜는 작업이 포함됩니다.
 
 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.

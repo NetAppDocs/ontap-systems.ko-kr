@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, fas8200, replace, caching, module, shut, down, impaired, controller, fru, metrocluster, add, aggregates, switch, reinstall 
 summary: 시스템에서 모듈이 오프라인 상태가 되었다는 AutoSupport 메시지가 한 번이라도 발생하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다. 
 ---
-= FAS8300 또는 FAS8700 시스템의 캐싱 모듈을 교체하십시오.
+= FAS8300 또는 FAS8700 시스템의 캐싱 모듈을 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, locate, boot, media, controller, module, fre, map, direction, replace, replace the boot media 
 summary: 부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 분리하고 교체 부팅 미디어를 설치한 다음 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다. 
 ---
-= FAS8300 또는 FAS8700 시스템의 부팅 미디어를 수동 부팅 복구 프로세스를 사용하여 교체하십시오.
+= FAS8300 또는 FAS8700 시스템에서 수동 부팅 복구 프로세스를 사용하여 부팅 미디어를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
