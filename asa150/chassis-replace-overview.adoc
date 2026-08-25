@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa a150, a150, asa, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= ASA A150 섀시 교체 전 요구 사항 검토
+= ASA A150 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

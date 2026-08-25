@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff c190, replace the chassis 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= AFF C190 시스템의 섀시를 교체하기 전에 요구 사항을 검토하십시오
+= AFF C190 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff systems, complete, drive 
 summary: 자동 드라이브 할당을 비활성화한 경우, 드라이브 소유권을 수동으로 할당한 다음 AFF 시스템에 대한 자동 드라이브 할당을 다시 활성화하십시오. 
 ---
-= AFF 시스템에 대한 NS224 쉘프 핫 추가 완료
+= AFF 시스템의 NS224 쉘프 핫 애드 완료
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

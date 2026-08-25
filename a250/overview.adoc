@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF A250 specifications, AFF A250 specs, NetApp AFF A250, AFF A250 hardware 
 summary: AFF A250 저장 시스템의 주요 사양 
 ---
-= AFF A250 의 주요 사양
+= AFF A250 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

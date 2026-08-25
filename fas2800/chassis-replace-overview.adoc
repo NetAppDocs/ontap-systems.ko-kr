@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap 
 summary: FAS2820 시스템의 섀시를 교체하려면 전원 공급 장치, 하드 드라이브, 컨트롤러 모듈을 고장난 섀시에서 동일 모델의 새 섀시로 옮겨야 합니다. 
 ---
-= FAS2820 시스템의 섀시를 교체하기 전에 요구 사항을 검토하십시오
+= FAS2820 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

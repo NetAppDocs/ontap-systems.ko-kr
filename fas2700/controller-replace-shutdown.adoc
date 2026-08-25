@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, shut down the impaired controller 
 summary: FAS2700 시스템의 손상된 컨트롤러를 교체하기 전에, 해당 컨트롤러를 테이크오버하고 LOADER 프롬프트로 중단하여 종료하십시오. 
 ---
-= FAS2700 시스템에서 손상된 컨트롤러를 교체하기 전에 전원을 끄십시오.
+= FAS2700 시스템에서 손상된 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

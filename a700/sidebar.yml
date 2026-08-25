@@ -16,12 +16,12 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF A700이 유지됩니다
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/a700/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: AFF A700 부팅 미디어
     entries:
-    - title: 개요
+    - title: 부팅 미디어 개요
       url: "/a700/bootmedia-replace-overview.html"
     - title: 암호화 키를 확인합니다
       url: "/a700/bootmedia-encryption-preshutdown-checks.html"
@@ -40,7 +40,7 @@ entries:
   - title: 섀시
     pdf-filename: AFF A700 섀시
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/a700/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a700/chassis-replace-shutdown.html"
@@ -51,7 +51,7 @@ entries:
   - title: 컨트롤러 모듈
     pdf-filename: AFF A700 컨트롤러
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/a700/controller-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a700/controller-replace-shutdown.html"
@@ -83,9 +83,9 @@ entries:
   - title: X91148A 모듈
     pdf-filename: AFF A700 X91148A 모듈
     entries:
-    - title: 개요
+    - title: X91148A 모듈 개요
       url: "/a700/x91148a-module-install-overview.html"
     - title: 슬롯이 열린 AFF A700 시스템
       url: "/a700/x91148a-modules-with-open-slots-add.html"
-    - title: AFF A700 시스템은 열려 있는 슬롯이 없습니다
+    - title: AFF A700 시스템 (빈 슬롯 없음)
       url: "/a700/x91148a-modules-with-no-open-slots-add.html"

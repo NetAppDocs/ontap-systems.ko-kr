@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff systems, cable 
 summary: NS224 쉘프를 AFF 시스템에 케이블로 연결하여 HA 쌍에 대한 스토리지 이중화 및 고가용성을 보장하는 이중 경로 연결을 제공하십시오. 
 ---
-= NS224 쉘프를 AFF 시스템에 케이블로 연결합니다
+= NS224 쉘프를 AFF 시스템에 케이블로 연결합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

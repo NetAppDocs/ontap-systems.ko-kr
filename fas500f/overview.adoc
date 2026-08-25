@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS500f specifications, FAS500f specs, NetApp FAS500f, FAS500f hardware 
 summary: FAS500f 스토리지 시스템의 주요 사양 
 ---
-= FAS500f의 주요 사양
+= FAS500f 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

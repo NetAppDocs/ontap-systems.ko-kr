@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS90 specifications, FAS90 specs, FAS90 capacity, FAS90 memory, FAS90 IO, FAS90 compliance 
 summary: FAS90의 주요 사양 
 ---
-= FAS90의 주요 사양
+= FAS90 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

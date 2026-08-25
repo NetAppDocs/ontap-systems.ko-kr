@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas8300, fas8700, shut down the impaired controller 
 summary: FAS8300 또는 FAS8700 스토리지 시스템의 컨트롤러를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 컨트롤러를 종료하십시오. 
 ---
-= FAS8300 또는 FAS8700 시스템에서 고장난 컨트롤러를 교체하기 전에 전원을 끄십시오.
+= FAS8300 또는 FAS8700 시스템에서 손상된 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

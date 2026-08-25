@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9000, replace, controller, module, prerequisites, procedure 
 summary: FAS9000 시스템의 컨트롤러를 교체하기 전에 교체 절차의 필수 조건을 검토하고 사용 중인 ONTAP 버전에 맞는 올바른 절차를 선택하십시오. 
 ---
-= FAS9000 시스템의 컨트롤러를 교체하기 전에 요구 사항을 검토하십시오.
+= FAS9000 시스템에서 컨트롤러를 교체하기 위한 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

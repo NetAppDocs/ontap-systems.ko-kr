@@ -16,12 +16,12 @@ entries:
 - title: 유지 관리
   pdf-filename: FAS2700 유지 관리
   entries:
-  - title: 개요
+  - title: 유지 보수 개요
     url: "/fas2700/maintain-overview.html"
   - title: 미디어를 부팅합니다
     pdf-filename: FAS2700 부팅 미디어
     entries:
-    - title: 개요
+    - title: 부팅 미디어 개요
       url: "/fas2700/bootmedia-replace-overview.html"
     - title: 암호화 키를 확인합니다
       url: "/fas2700/bootmedia-encryption-preshutdown-checks.html"
@@ -41,7 +41,7 @@ entries:
   - title: 섀시
     pdf-filename: FAS2700 섀시
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/fas2700/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas2700/chassis-replace-shutdown.html"
@@ -52,7 +52,7 @@ entries:
   - title: 컨트롤러
     pdf-filename: FAS2700 컨트롤러
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/fas2700/controller-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas2700/controller-replace-shutdown.html"

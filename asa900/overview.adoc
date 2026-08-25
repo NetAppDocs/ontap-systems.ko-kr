@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A900 specifications, ASA A900 specs, NetApp ASA A900, ASA A900 hardware 
 summary: ASA A900 스토리지 시스템의 주요 사양 
 ---
-= ASA A900 의 주요 사양
+= ASA A900 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

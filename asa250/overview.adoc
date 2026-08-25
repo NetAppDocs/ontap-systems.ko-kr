@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A250 specifications, ASA A250 specs, NetApp ASA A250, ASA A250 hardware 
 summary: ASA A250 스토리지 시스템의 주요 사양 
 ---
-= ASA A250 의 주요 사양
+= ASA A250 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

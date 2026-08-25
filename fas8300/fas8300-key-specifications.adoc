@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS8300 specifications, FAS8300 specs, FAS8300 capacity, FAS8300 memory, FAS8300 input output, FAS8300 compliance 
 summary: FAS8300 의 주요 사양 
 ---
-= FAS8300 의 주요 사양
+= FAS8300 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A400 specifications, ASA A400 specs, NetApp ASA A400, ASA A400 hardware 
 summary: ASA A400 스토리지 시스템의 주요 사양 
 ---
-= ASA A400 의 주요 사양
+= ASA A400 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

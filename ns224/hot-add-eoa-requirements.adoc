@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, eoa systems, end-of-availability, requirement 
 summary: 가용성 종료 시스템에 NS224 셸프를 핫 추가하기 전에 요구 사항 및 모범 사례를 검토하십시오. 
 ---
-= 가용성 종료 시스템에 NS224 셸프를 핫 추가하기 위한 요구사항 및 모범 사례
+= 단종 예정 시스템에 NS224 셸프를 핫애드하기 위한 요구사항 및 모범 사례
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

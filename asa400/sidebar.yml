@@ -55,7 +55,7 @@ entries:
   - title: 섀시
     pdf-filename: ASA A400 섀시
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/asa400/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/asa400/chassis-replace-shutdown.html"

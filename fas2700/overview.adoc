@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS2700 specifications, FAS2700 specs, NetApp FAS2700, FAS2700 hardware 
 summary: FAS2700 플랫폼 그룹의 주요 사양 
 ---
-= FAS2750 의 주요 사양
+= FAS2750 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

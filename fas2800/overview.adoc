@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS2820 specifications, FAS2820 specs, NetApp FAS2820, FAS2820 hardware 
 summary: FAS2820 플랫폼 그룹의 주요 사양 
 ---
-= FAS2820 의 주요 사양
+= FAS2820 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

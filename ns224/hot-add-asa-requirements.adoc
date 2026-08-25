@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, asa systems, requirement 
 summary: NS224 셸프를 ASA 시스템에 핫 추가하기 전에 요구 사항 및 모범 사례를 검토하십시오. 
 ---
-= ASA 시스템에 NS224 셸프를 핫애드하기 위한 요구 사항 및 모범 사례
+= ASA 시스템에 NS224 셸프를 핫 애드하기 위한 요구 사항 및 모범 사례
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

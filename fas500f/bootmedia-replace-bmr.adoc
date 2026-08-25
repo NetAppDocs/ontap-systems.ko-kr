@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas500f, replace the boot media 
 summary: FAS500f 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 작업은 컨트롤러 모듈을 분리하고, 손상된 부팅 미디어를 제거한 후, 교체용 부팅 미디어를 설치하고, 컨트롤러 모듈을 다시 설치하는 순서로 진행됩니다. 
 ---
-= 자동 부팅 복구 프로세스를 사용하여 FAS500f 시스템의 부팅 미디어 교체
+= 자동 부팅 복구 프로세스 중에 FAS500f 시스템의 부팅 미디어를 교체합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

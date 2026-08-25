@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, replace the boot media 
 summary: FAS2820 스토리지 시스템의 부팅 미디어 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 부팅 미디어를 교체하고, 부팅 미디어에 이미지를 복원하고, 시스템 기능을 확인하십시오. 
 ---
-= 자동 부팅 복구 프로세스를 사용한 FAS2820 부팅 미디어 교체 워크플로
+= 자동 부팅 복구 프로세스를 사용한 FAS2820 시스템의 부팅 미디어 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

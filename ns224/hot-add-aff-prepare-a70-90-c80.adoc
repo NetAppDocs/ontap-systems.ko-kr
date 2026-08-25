@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff systems, preparation, roce, aff a70, aff a90, aff c80 
 summary: RoCE 지원 I/O 모듈을 설치하고, 포트를 구성하고, 기존 셸프의 케이블을 다시 연결하고, 자동 드라이브 할당을 비활성화하여 AFF A70, A90 또는 C80 시스템에 NS224 셸프를 핫 애드할 수 있도록 준비하십시오. 
 ---
-= AFF A70, A90 또는 C80 시스템에 NS224 쉘프를 핫 추가할 수 있도록 준비하십시오
+= AFF A70, A90 또는 C80 시스템에 NS224 셸프를 핫애드할 수 있도록 준비하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

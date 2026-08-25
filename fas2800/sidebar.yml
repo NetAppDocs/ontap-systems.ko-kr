@@ -16,7 +16,7 @@ entries:
 - title: 유지 관리
   pdf-filename: AFF FAS2800 유지관리
   entries:
-  - title: 유지 관리 개요
+  - title: 유지 보수 개요
     url: "/fas2800/maintain-overview.html"
   - title: 부팅 미디어 - 자동 복구
     pdf-filename: FAS2820 부트 미디어 자동화
@@ -58,7 +58,7 @@ entries:
   - title: 섀시
     pdf-filename: FAS2820 섀시
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/fas2800/chassis-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas2800/chassis-replace-shutdown.html"
@@ -69,7 +69,7 @@ entries:
   - title: 컨트롤러
     pdf-filename: FAS2820 컨트롤러
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/fas2800/controller-replace-overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas2800/controller-replace-shutdown.html"

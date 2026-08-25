@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff systems, workflow 
 summary: 다음 워크플로 단계에 따라 AFF 시스템에 NS224 셸프를 핫 추가하십시오. 
 ---
-= AFF 시스템에 NS224 쉘프 핫 추가
+= AFF 시스템에 NS224 쉘프를 핫 애드합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

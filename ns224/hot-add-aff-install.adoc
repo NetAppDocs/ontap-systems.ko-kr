@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff systems, install 
 summary: 캐비닛 또는 통신 랙에 NS224 쉘프를 설치하고 전원 코드를 연결한 다음 AFF 시스템의 쉘프 ID를 설정합니다. 
 ---
-= AFF 시스템에 NS224 셸프 설치
+= AFF 시스템에 NS224 셸프를 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

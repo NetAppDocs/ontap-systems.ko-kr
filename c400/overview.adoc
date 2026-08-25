@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF C400 specifications, AFF C400 specs, NetApp AFF C400, AFF C400 hardware 
 summary: AFF C400 저장 시스템의 주요 사양 
 ---
-= AFF C400 의 주요 사양
+= AFF C400 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

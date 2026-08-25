@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, asa systems, complete, drive 
 summary: 자동 드라이브 할당을 비활성화한 경우, 드라이브 소유권을 수동으로 할당한 다음 ASA 시스템에서 자동 드라이브 할당을 다시 활성화하십시오. 
 ---
-= ASA 시스템용 NS224 셸프 핫 추가를 완료하십시오
+= ASA 시스템의 NS224 셸프 핫 애드를 완료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -36,8 +36,10 @@ entries:
   - title: 부팅 미디어 - 수동 복구
     pdf-filename: AFF ASA 900 부트 미디어 매뉴얼
     entries:
-    - title: 개요
-      url: "/asa900/bootmedia_replace_overview.html"
+    - title: 부팅 미디어 교체 워크플로우
+      url: "/asa900/bootmedia-replace-workflow.html"
+    - title: 요구사항 검토
+      url: "/asa900/bootmedia-replace-requirements.html"
     - title: 암호화 키를 확인합니다
       url: "/asa900/bootmedia_encryption_preshutdown_checks.html"
     - title: 손상된 컨트롤러를 종료합니다
@@ -53,7 +55,7 @@ entries:
   - title: 섀시
     pdf-filename: ASA A900 섀시
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/asa900/chassis_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/asa900/chassis_replace_shutdown.html"
@@ -64,7 +66,7 @@ entries:
   - title: 컨트롤러
     pdf-filename: ASA A900 컨트롤러 모듈
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/asa900/controller_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/asa900/controller_replace_shutdown.html"

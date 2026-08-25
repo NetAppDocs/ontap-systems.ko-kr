@@ -55,7 +55,7 @@ entries:
   - title: 섀시
     pdf-filename: AFF A900 섀시
     entries:
-    - title: 개요
+    - title: 섀시 교체 워크플로우
       url: "/a900/chassis_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a900/chassis_replace_shutdown.html"
@@ -66,7 +66,7 @@ entries:
   - title: 컨트롤러
     pdf-filename: AFF A900 컨트롤러 모듈
     entries:
-    - title: 개요
+    - title: 컨트롤러 교체 워크플로우
       url: "/a900/controller_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/a900/controller_replace_shutdown.html"

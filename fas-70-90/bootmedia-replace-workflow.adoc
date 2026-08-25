@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas70, fas90, replace the boot media 
 summary: 이 워크플로는 USB 드라이브를 사용하여 FAS70 또는 FAS90 시스템의 교체 부팅 미디어에 ONTAP을 다시 설치하는 방법입니다. NetApp 지원 사이트에서 해당 ONTAP 복구 이미지를 다운로드하여 USB 드라이브에 복사한 다음, 이 이미지를 사용하여 시스템을 정상 작동 상태로 복원하십시오. 
 ---
-= FAS70 및 FAS90 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
+= FAS70 또는 FAS90 시스템의 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

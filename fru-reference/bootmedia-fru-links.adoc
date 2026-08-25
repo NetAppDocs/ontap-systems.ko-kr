@@ -63,7 +63,7 @@ summary: 플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 �
 * link:../asa400/bootmedia-replace-workflow.html["ASA A400 (수동 복구)"]
 * link:../asa800/bootmedia-replace-workflow-bmr.html["ASA A800 (자동 복구)"]
 * link:../asa800/bootmedia-replace-workflow.html["ASA A800 (수동 복구)"]
-* link:../asa900/bootmedia_replace_overview.html["ASA A900"]
+* link:../asa900/bootmedia-replace-requirements.html["ASA A900"]
 * link:../asa-c250/bootmedia-replace-workflow.html["ASA C250 (수동 복구)"]
 * link:../asa-c400/bootmedia-replace-workflow-bmr.html["ASA C400 (자동 복구)"]
 * link:../asa-c400/bootmedia-replace-workflow.html["ASA C400 (수동 복구)"]

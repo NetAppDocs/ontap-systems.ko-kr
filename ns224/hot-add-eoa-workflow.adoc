@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, eoa systems, end-of-availability, workflow 
 summary: 다음 워크플로 단계를 따라 NS224 셸프를 가용성 종료 시스템에 핫 추가하십시오. 
 ---
-= 가용성 종료 시스템에 NS224 셸프 핫 추가
+= 단종 시스템에 NS224 셸프를 핫 애드합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

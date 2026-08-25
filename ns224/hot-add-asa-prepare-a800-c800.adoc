@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, asa systems, preparation, roce, asa a800, asa c800 
 summary: RoCE 지원 PCIe 카드를 설치하고, 포트를 구성하고, 기존 셸프의 케이블을 다시 연결하고, 자동 드라이브 할당을 비활성화하여 ASA A800 또는 C800 시스템에 NS224 셸프를 핫 애드할 수 있도록 준비하십시오. 
 ---
-= NS224 셸프를 핫 추가할 수 있도록 ASA A800 또는 C800 시스템을 준비하십시오
+= ASA A800 또는 C800 시스템에서 NS224 셸프를 핫 애드할 수 있도록 준비합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

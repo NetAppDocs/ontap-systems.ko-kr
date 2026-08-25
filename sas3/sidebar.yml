@@ -13,7 +13,7 @@ entries:
     url: "/sas3/install-change-shelf-id.html"
   - title: SAS 케이블 연결 규칙, 워크시트 및 예
     entries:
-    - title: 개요
+    - title: 케이블 연결 개요
       url: "/sas3/overview-cabling-rules-examples.html"
     - title: SAS 케이블 연결 규칙 및 개념
       url: "/sas3/install-cabling-rules.html"

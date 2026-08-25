@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, asa systems, install 
 summary: NS224 셸프를 캐비닛이나 통신 랙에 설치하고 전원 코드를 연결한 다음 ASA 시스템에 대한 셸프 ID를 설정하십시오. 
 ---
-= ASA 시스템에 NS224 셸프를 설치하십시오
+= ASA 시스템에 NS224 셸프를 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

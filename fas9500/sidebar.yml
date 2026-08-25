@@ -55,7 +55,7 @@ entries:
   - title: 섀시
     pdf-filename: FAS9500 섀시
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/fas9500/chassis_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas9500/chassis_replace_shutdown.html"
@@ -66,7 +66,7 @@ entries:
   - title: 컨트롤러
     pdf-filename: FAS9500 컨트롤러 모듈
     entries:
-    - title: 개요
+    - title: 요구사항 검토
       url: "/fas9500/controller_replace_overview.html"
     - title: 손상된 컨트롤러를 종료합니다
       url: "/fas9500/controller_replace_shutdown.html"

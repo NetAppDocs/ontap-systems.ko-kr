@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas50, replace the boot media 
 summary: 자동 부팅 이미지 복구는 시스템이 자동으로 적절한 부팅 메뉴 옵션을 식별하고 선택하는 방식으로 진행됩니다. 이 과정에서 파트너 노드의 부팅 이미지를 사용하여 FAS50 스토리지 시스템의 교체 부팅 미디어에 ONTAP를 재설치합니다. 
 ---
-= 자동 부팅 복구 프로세스를 사용한 FAS50 부팅 미디어 교체 워크플로
+= 자동 부팅 복구 프로세스를 사용하는 FAS50 시스템의 부팅 미디어 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

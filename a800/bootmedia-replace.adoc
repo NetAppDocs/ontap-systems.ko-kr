@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a800, replace the boot media 
 summary: 부팅 미디어를 교체하기 전에 컨트롤러 모듈에서 라이저 3을 분리하여 컨트롤러 모듈에서 결함이 있는 부팅 미디어를 찾습니다. 
 ---
-= 수동 부팅 복구 프로세스를 사용하여 AFF A800 시스템의 부팅 미디어를 교체합니다
+= AFF A800 시스템의 수동 부팅 복구 과정 중 부팅 미디어 교체
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

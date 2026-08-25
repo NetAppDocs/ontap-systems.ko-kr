@@ -63,6 +63,8 @@ entries:
       url: "/c80/chassis-replace-workflow.html"
     - title: 요구사항 검토
       url: "/c80/chassis-replace-requirements.html"
+    - title: 교체를 준비합니다
+      url: "/c80/chassis-replace-prepare.html"
     - title: 컨트롤러를 종료합니다
       url: "/c80/chassis-replace-shutdown.html"
     - title: 섀시를 교체합니다

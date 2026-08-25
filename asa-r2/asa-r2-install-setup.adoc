@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asa r2 a1k, a70, a90, install, setup, initial configuration 
 summary: 시스템을 설치하고 설정합니다. 
 ---
-= ASA R2 시스템을 설치하고 설정합니다
+= ASA r2 시스템 설치 및 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

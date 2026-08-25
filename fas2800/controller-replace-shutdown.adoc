@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2820, shut down the impaired controller 
 summary: FAS2820 시스템에서 손상된 컨트롤러를 교체하기 전에 전원을 끄십시오. 사용하는 절차는 스토리지 시스템의 하드웨어 구성에 따라 다릅니다. 
 ---
-= FAS2820 시스템에서 손상된 컨트롤러를 교체하기 전에 전원을 끄십시오.
+= FAS2820 시스템에서 손상된 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

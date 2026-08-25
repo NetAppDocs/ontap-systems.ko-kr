@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A150 specifications, ASA A150 specs, NetApp ASA A150, ASA A150 hardware 
 summary: ASA A150 스토리지 시스템의 주요 사양 
 ---
-= ASA A150 의 주요 사양
+= ASA A150 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

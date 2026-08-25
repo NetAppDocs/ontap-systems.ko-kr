@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: FAS9500 specifications, FAS9500 specs, NetApp FAS9500, FAS9500 hardware 
 summary: FAS9500 스토리지 시스템의 주요 사양 
 ---
-= FAS9500 의 주요 사양
+= FAS9500 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

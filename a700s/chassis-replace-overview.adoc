@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700s, replace the chassis 
 summary: 손상된 섀시를 손상된 섀시와 동일한 모델의 새 섀시로 교체합니다. 
 ---
-= AFF A700s 섀시 교체 전 요구 사항 검토
+= AFF A700s 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

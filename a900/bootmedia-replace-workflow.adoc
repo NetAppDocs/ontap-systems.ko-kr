@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a900, replace the boot media 
 summary: AFF A900 스토리지 시스템의 부팅 미디어 교체를 시작합니다. 이 워크플로는 교체 요구 사항 검토, 암호화 상태 확인, 컨트롤러 종료, 부팅 미디어 교체, 복구 이미지 부팅, 암호화 복원 및 시스템 기능 검증을 포함합니다. 
 ---
-= AFF A900 부팅 미디어 교체 워크플로(수동 부팅 복구 프로세스 사용)
+= 수동 부팅 복구 프로세스를 사용한 AFF A900 시스템의 부팅 미디어 교체 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

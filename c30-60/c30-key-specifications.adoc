@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: AFF C30 specifications, AFF C30 specs, AFF C30 capacity, AFF C30 memory, AFF C30 IO, AFF C30 compliance 
 summary: AFF C30의 주요 사양 
 ---
-= AFF C30의 주요 사양
+= AFF C30 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

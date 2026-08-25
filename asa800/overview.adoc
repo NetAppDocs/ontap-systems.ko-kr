@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ASA A800 specifications, ASA A800 specs, NetApp ASA A800, ASA A800 hardware 
 summary: ASA A800 스토리지 시스템의 주요 사양 
 ---
-= ASA A800 의 주요 사양
+= ASA A800 시스템의 주요 사양
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

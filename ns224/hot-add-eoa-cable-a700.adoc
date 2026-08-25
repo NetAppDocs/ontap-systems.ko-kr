@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ns224, shelves, shelf, ns224 shelves, hot-add, ha, pair, aff a700, cable, end-of-availability 
 summary: NS224 쉘프를 AFF A700 시스템에 케이블로 연결하여 각 쉘프가 HA 쌍의 각 컨트롤러에 두 개의 연결을 갖도록 하십시오. 
 ---
-= NS224 쉘프를 AFF A700 시스템에 케이블로 연결하십시오
+= NS224 쉘프를 AFF A700 시스템에 케이블로 연결합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
