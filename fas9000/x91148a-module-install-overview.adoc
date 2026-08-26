@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, add, x91148a, storage, module, NIC, no open, slots, open slots, system 
 summary: FAS9000 시스템에 X91148A 모듈을 추가하려면, 완전히 장착된 시스템에서 NIC 또는 스토리지 어댑터를 새 제품으로 교체하거나, 빈 섀시 슬롯에 새 NIC 또는 스토리지 어댑터를 추가하면 됩니다. 
 ---
-= FAS9000 시스템에 X91148A 모듈을 추가하는 방법에 대해 알아보십시오.
+= FAS9000 시스템에 X91148A 모듈을 추가하는 방법에 대해 알아봅니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

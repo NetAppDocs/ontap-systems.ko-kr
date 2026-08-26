@@ -3100,7 +3100,6 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="27e4f654e31a54c18c3f94846eb8fcc2" category="inline-link">디스크 쉘프에 대한 고지 사항</block>
   <block id="176cf5dfe0545aace2d630a3f6ef2208" category="summary">시스템 캐비닛 도어 및 측면 패널을 제거하여 조명이 들어오는 배지와 구성 요소를 이동하고 도어를 후진해야 합니다.</block>
-  <block id="0983ab86dcc412b07fb9139c43a350fb" category="doc">시스템 캐비닛 도어를 분리합니다</block>
   <block id="9ebafe9f71b91c97d7138894316e164d" category="list-text">시스템 캐비닛 도어가 열려 있지 않은 경우 엽니다.</block>
   <block id="5f3c4fad5ddb550e58d4e35d650a015e" category="list-text">캐비닛이 상호 연결 키트에 연결되어 있는지 여부에 따라 적절한 조치를 수행합니다.</block>
   <block id="e5225257170c4f1fef53ed68e6ad6452" category="cell">시스템 캐비닛이...</block>
@@ -3115,7 +3114,6 @@
   <block id="06ac80f4c80a7145d5f287605906355a" category="list-text">도어 상단을 시스템 캐비닛 프레임에서 조심스럽게 떼어냅니다.</block>
   <block id="828cd57cf312dbc7141b1f0b78c1d193" category="list-text">하단 힌지에서 도어를 들어 올리고 도어를 한쪽에 둡니다.</block>
   <block id="1dfe210483cc644ace5f6ac4cd8d6781" category="summary">옵션 캐비닛 상호 연결 키트를 사용하여 시스템 캐비닛을 함께 연결할 수 있습니다. 캐비닛이 분리되어 시스템 케이블이 손상되지 않도록 키트를 설치하는 것이 좋습니다.</block>
-  <block id="0d8d91428b593d6310bf06611b9f0541" category="doc">캐비닛 상호 연결 키트를 설치합니다</block>
   <block id="7da5e55afa45a5604cc061fdce9dc962" category="list-text">시스템 캐비닛을 서로 가까이 놓습니다.</block>
   <block id="7c80ef4e3a52ad55cdb70e82f071636c" category="paragraph">캐비닛은 다음 그림과 같이 배열해야 하며, 캐비닛은 중앙에 컨트롤러 모듈이 있고 캐비닛은 양쪽에 디스크 쉘프가 추가로 있습니다. 캐비닛의 면은 서로 가까이 있어야 하지만 아직 서로 닿지 않아도 됩니다.</block>
   <block id="3ff2609e0326dafc2efce7519a6960a3" category="image-alt">그림은 주변 텍스트에 설명되어 있습니다.</block>
@@ -3144,7 +3142,6 @@
   <block id="6ffc5df4a17461423317852eab42d605" category="list-text">나머지 시스템 캐비닛에 대해서도 이 과정을 반복합니다.</block>
   <block id="9513dbed5687d13ec78a5ed7ab3503cc" category="list-text">모든 상호 연결 브래킷 나사를 조입니다.</block>
   <block id="696dd736b666ee17e46c95a26790f5d2" category="summary">시스템 캐비닛의 포장을 풀 때 시스템 캐비닛을 포장재에서 제거할 공간이 충분한지 확인해야 합니다. 또한 시스템 캐비닛의 의도된 위치가 캐비닛을 제 위치로 이동할 수 있을 만큼 충분히 큰지 확인하십시오.</block>
-  <block id="595603bdc0003748af53e4c42b7507a5" category="doc">공간 요구 사항 및 시스템 캐비닛 치수</block>
   <block id="a257ee96979da8c46a7e618b50a2de66" category="section-title">시스템 캐비닛의 포장을 푸는 데 필요한 공간</block>
   <block id="e231b2f03b9f4c8eb9e846fa70e1f1a4" category="paragraph">다음 표에는 시스템 캐비닛의 포장을 풀고 설치하는 데 필요한 공간이 정의되어 있습니다.</block>
   <block id="f4843c1c797abf1a256c8802b6cd9f51" category="cell">치수</block>
@@ -3225,7 +3222,6 @@
   <block id="4470446a42dba25bf8b4675d42bea941" category="list-text">필요한 경우 자동 드라이브 할당을 다시 활성화합니다. 'storage disk option modify -node_name -autostassign on'</block>
   <block id="b4e16a9061f207bc18d1b2a614caeef2" category="paragraph">두 컨트롤러 모듈 모두에서 자동 드라이브 할당을 다시 활성화해야 합니다.</block>
   <block id="158164ba02e099ef26a07a4dc2f190fb" category="summary">시스템 캐비닛 도어를 후진할 때는 시스템 캐비닛 도어 힌지와 잠금 캐치를 반대 전면 시스템 캐비닛에 똑바로 세워 이동해야 합니다.</block>
-  <block id="4870418b0a18b6824d4496cb1208d178" category="doc">도어 힌지 및 잠금 캐치를 반대로 하십시오</block>
   <block id="44d110429706a22974a0a9f495eecabd" category="paragraph">다음 도구가 필요합니다.</block>
   <block id="400b2ac06aa0fa1e54ad61840d28a766" category="list-text">Phillips 드라이버</block>
   <block id="4ba712d4ea2e8b9f5e7e3a977d3cd5a6" category="list-text">5mm 알렌 렌치; 자석 알렌 렌치 권장</block>
@@ -3255,7 +3251,6 @@
   <block id="45c0d75f9a5b23a971e2dc3ca0a0f6c2" category="list-text">잠금 캐치에서 나사를 제거한 다음 잠금 캐치를 반대편 전면 시스템 캐비닛으로 똑바로 세웁니다.</block>
   <block id="6df4950fb076868b0e9a60e4ef9e05db" category="list-text">캐치를 180도 회전한 다음 시스템 캐비닛에 똑바로 고정합니다.</block>
   <block id="525de838b0b63aa03a438e94f2a28f29" category="summary">조명이 들어오는 배지를 제거하려면 시스템 캐비닛 전면 도어를 열고 배지의 뒷면에서 전원 코드를 뽑은 다음 시스템 캐비닛 도어에서 배지 구성 요소를 제거해야 합니다.</block>
-  <block id="fcb9814ec0f783887dac12f72d00226b" category="doc">조명이 들어오는 배지를 제거하십시오</block>
   <block id="5e431905274e59cf132f091a54196f47" category="list-text">시스템 캐비닛 전면 도어를 잠금 해제하고 엽니다.</block>
   <block id="85c3d0cde48efa347bc893ba6c30e89b" category="list-text">도어 안쪽에 있는 배지 백 패널의 조임 나사를 푼 다음 후면 패널을 도어 망에서 조심스럽게 당겨 빼냅니다.</block>
   <block id="3316ddf58954cd81f69dd3a261a67df4" category="list-text">플러그에 있는 잠금 클립을 누르고, 소켓에서 코드를 뽑고, 후면 패널에서 케이블을 분리하여 후면 패널에서 전원 코드를 뽑습니다.</block>
@@ -3264,9 +3259,7 @@
   <block id="1584d1d521973a1d61e68d313b2c7581" category="admonition">나비 나사에 있는 스템은 매우 짧습니다. 나사를 놓을 경우 손잡이 나사를 붙잡을 수 있도록 자유 손을 나사 아래에 놓습니다.</block>
   <block id="c29c1bfb6b4af19cbb452ce9d9f780aa" category="list-text">도어 전면에서 배지를 분리하여 한쪽에 둡니다.</block>
   <block id="d971400e841652c0674351e1776f8782" category="summary">시스템 캐비닛을 제자리에 배치하기 전에 시스템 캐비닛 주변의 포장재를 제거해야 합니다. 캐비닛을 개봉한 후에는 포장재를 재활용해야 합니다.</block>
-  <block id="a95834c1a8ed59ab3858580d175bb665" category="doc">시스템 캐비닛의 포장을 풉니다</block>
   <block id="9682abea21a8105e25e53a664815f083" category="summary">PDU에 시스템 구성 요소를 연결하고 PDU 케이블을 AC 전원에 연결한 다음 전원을 켭니다.</block>
-  <block id="de377ff4f06113db5f03b6d5d7501baa" category="doc">시스템 캐비닛의 전원을 켭니다</block>
   <block id="44626aa3377a470ee951473cc16b9064" category="paragraph">시스템 캐비닛의 각 PDU에 대해 사용할 수 있는 별도의 전원 회로가 있어야 합니다.</block>
   <block id="43fd8e637b5fa8a0480393ffec052db1" category="list-text">시스템 캐비닛 상단</block>
   <block id="845cc1d7e0e6e805d0656362d228ee19" category="list-text">시스템 캐비닛의 후면 도어 하단과 프레임 사이</block>
@@ -3277,7 +3270,6 @@
   <block id="2dfbf4884a2bb3ae09ba7f32bd318abc" category="list-text">구성 요소의 전원을 켠 다음 시스템을 부팅합니다.</block>
   <block id="78a5c15479f8785439b1e31dad8ef39f" category="list-text">시스템 캐비닛 도어를 닫고 잠급니다.</block>
   <block id="0c637ccaaf64b14f56fb1ef4956d2041" category="summary">도어를 닫고 조명이 들어오는 배지를 다시 설치하기 전에 전원 공급 장치 및 점등된 배지 케이블을 시스템 캐비닛 프레임의 반대쪽으로 이동해야 합니다.</block>
-  <block id="d237bc050f1a552b06f9d0db44ebc654" category="doc">배지 전원 공급 장치 및 케이블을 이동합니다</block>
   <block id="736acae917c9f78d8fe5ef43508ac7ce" category="paragraph">시스템 캐비닛 도어 및 측면 패널을 분리해야 합니다.</block>
   <block id="6389d85f34f387a4ea8fe4528c426e25" category="paragraph">시스템 캐비닛 도어를 후진할 때는 조명식 배지 전원 공급 장치, 전원 케이블 및 케이블 연결 도관을 시스템 캐비닛의 반대쪽으로 이동해야 합니다. 이 어셈블리는 배지에 연결된 케이블이 도어 힌지가 설치된 캐비닛 측면에 있도록 설계되었습니다.</block>
   <block id="709ddaede46e6b855beff61d58586373" category="list-text">전원 케이블 고정 클립을 연 다음 전원 공급 장치에서 전원 케이블을 분리합니다.</block>
@@ -3302,14 +3294,11 @@
   <block id="3543f693e588dc2b8f0d38c9c547ec79" category="list-text">도관을 PDU 전원 케이블 위로 밀고 도관을 시스템 캐비닛 프레임을 따라 PDU에 배선합니다.</block>
   <block id="f6fd32c0375af84905b62ee7c499c0f3" category="list-text">수납장의 다른 쪽에서 도관 위에 도관 고정 클립을 설치하여 캐비닛 프레임에 고정합니다.</block>
   <block id="ca2f1d75952196e0940183d0bf21cf4c" category="list-text">배지 케이블을 전원 공급 장치에 다시 연결하되, 전원 공급 장치를 전원에 다시 연결하지 마십시오.</block>
-  <block id="3536220b5e80ece536e76091bbcde43f" category="doc">지원되는 PDU 유형 및 사양</block>
   <block id="345f336ebbb6b879b90d461c9ead417e" category="paragraph">시스템 캐비닛은 다양한 PDU(Power Distribution Unit) 유형을 지원합니다. PDU는 NEMA 또는 IEC와 호환됩니다.</block>
   <block id="fa010c3e95aca618a783f3f5f398a8ba" category="paragraph">시스템 캐비닛에서 지원되는 PDU에 대한 최신 정보는 Hardware Universe에 나와 있습니다.</block>
   <block id="5404442a7ea7dc52ed099fdd23e4199c" category="inline-link">hwu.netapp.com</block>
   <block id="c9c398d96e19f76a792dde6c40d97674" category="summary">NetApp 장비가 이미 있는 경우 NetApp 스토리지 컨트롤러 및 디스크 쉘프가 설치된 시스템 캐비닛 또는 빈 시스템 캐비닛으로 주문할 수 있습니다. 옵션 상호 연결 키트를 사용하여 여러 시스템 캐비닛을 함께 연결할 수 있으며, 옵션 볼트 다운 키트를 사용하여 데이터 센터 플로어에 연결할 수 있습니다.</block>
-  <block id="04dd3356a6ed1dc409a57e068d7f5007" category="doc">시스템 캐비닛을 설치합니다</block>
   <block id="0d3dccbe0e804739d481b2318646849d" category="summary">시스템 캐비닛에는 일부 지지 레일이 이미 설치되어 있습니다. 시스템에 추가 지원 레일이 필요한 경우 시스템 구성 요소를 설치하기 전에 해당 레일을 설치해야 합니다.</block>
-  <block id="766ceed182488f716e50814e69e8d1c4" category="doc">추가 지지 레일을 설치합니다</block>
   <block id="470cb711568432436799010f6ef4aae7" category="paragraph">이 작업은 DS212C 및 DE212C 디스크 쉘프를 제외한 모든 컨트롤러 및 디스크 쉘프에 적용됩니다. 해당 디스크 쉘프 2개에 해당하는 레일 키트 전단의 지침을 사용하십시오.</block>
   <block id="b48b10c07334cd1f7b6cc752fac90f0e" category="inline-link">2 포스트 또는 4 포스트 랙에 DE212C 또는 DS212C 선반 설치</block>
   <block id="ad64d68204105d0c3d29cf63f354df89" category="paragraph"><block ref="ad64d68204105d0c3d29cf63f354df89" category="inline-link-rx"></block></block>
@@ -3318,13 +3307,11 @@
   <block id="2c66268a397bedc4a8ee565eb321a361" category="list-text">지지대 레일이 필요한 위치를 찾은 후 다음 그림을 참조하여 설치합니다.</block>
   <block id="84362391cde89925e3ad3550a96b7cd2" category="list-text">장비 장착 플랜지가 지지 레일의 나사 구멍을 지나 연장되면 필요한 경우 지지 레일 위에 케이지 너트를 설치합니다.</block>
   <block id="9f34692e20394559868d838e60e139bf" category="summary">시스템 캐비닛에 포장을 풀고 설치하기 전에 시스템 캐비닛을 제 위치로 이동하고 설치하거나 유지보수 작업을 수행하는 데 필요한 도구와 장비를 수집해야 합니다.</block>
-  <block id="3ed6da3ce264f0c66cef48e19cd15c73" category="doc">필요한 공구 및 장비</block>
   <block id="f9fe90b9a7c32c659a86cfe53f6587b1" category="list-text">디스크 쉘프에 적합한 하드웨어 가이드를 참조하십시오</block>
   <block id="bcf8fb15c418590ecd335df2dcfad4e4" category="list-text">시스템에 대한 적절한 설치 및 설정 지침</block>
   <block id="45b8f0b842002ec85fb07171d4b0d278" category="list-text">#1 및 #2 십자 드라이버</block>
   <block id="830cb2795d80d2d868f65bf4fc0302ba" category="list-text">시스템 캐비닛 수평 조정을 위한 레벨링 도구</block>
   <block id="d351abcbb11dcaf6e66ff33c4d15a5ea" category="summary">시스템 캐비닛에 추가 지원 레일을 설치한 후에는 미리 채워진 시스템 캐비닛에 더 많은 시스템 구성 요소를 추가하거나 기존 시스템 구성 요소를 빈 시스템 캐비닛에 추가할 수 있습니다.</block>
-  <block id="abcf9a9ca99b818d8f81b23edc5ef425" category="doc">시스템 캐비닛에 장비를 설치합니다</block>
   <block id="b7ba26421fe04c0ccebbe429b0f66e1d" category="list-text">시스템 캐비닛과 전면 도어가 열려 있지 않은 경우 시스템 캐비닛의 후면 도어를 잠금 해제하고 엽니다.</block>
   <block id="3bd4251422fadada51c1d1b650d91658" category="list-text">장비와 함께 제공된 설치 지침에 설명된 대로 장비를 시스템 캐비닛에 설치합니다.</block>
   <block id="1b27409723962508b456362d95ff81f8" category="paragraph">스토리지 컨트롤러는 시스템 캐비닛 중앙에 있어야 합니다. 디스크 쉘프는 스토리지 컨트롤러 위와 아래에 있어야 합니다. 모든 스위치는 시스템 캐비닛 맨 위에 있어야 합니다.</block>
@@ -3333,7 +3320,6 @@
   <block id="4ccedf93160862bbf89c3f9a64941193" category="paragraph">장비가 이미 설치된 시스템 캐비닛을 받는 경우 다음 그림과 같이 빈 캐비닛 베이 바로 아래에 있는 장비 상단의 타이 다운 레일을 제거해야 합니다.</block>
   <block id="cc32f847114f40b46bd875dc4bc7b049" category="list-text">전면 및 후면 시스템 캐비닛 도어를 다시 설치합니다.</block>
   <block id="119f03ea1c250f1b97c5928c1d9e5432" category="summary">전원 공급 장치 및 구성 요소를 시스템 캐비닛의 다른 쪽으로 이동하고 힌지와 잠금 캐치를 이동한 후에는 시스템 캐비닛 도어와 조명된 배지를 다시 설치하고 배지를 전원에 다시 연결해야 합니다.</block>
-  <block id="643cfac87180d8379362af941dea318b" category="doc">도어 및 조명 배지를 다시 설치합니다</block>
   <block id="cd7c79424e1d80a931ac6ce8733129b9" category="section-title">시스템 캐비닛 도어를 다시 설치합니다</block>
   <block id="cf0255b2706527c123b430224b973ffa" category="paragraph">도어 힌지 및 도어 캐치를 후진시킨 후, 조명이 들어오는 배지를 다시 설치하기 전에 접지 와이어 및 러그 어셈블리와 와이어, 시스템 캐비닛 전면 도어를 다시 설치해야 합니다.</block>
   <block id="9916831c694e8fa7873f994991742d8d" category="list-text">도어를 180도 돌리십시오.</block>
@@ -3365,7 +3351,6 @@
   <block id="a30d841057f0a416dd0bbc795c01e012" category="list-text">PDU 전원 스위치 또는 PDU 회로 차단기를 켭니다.</block>
   <block id="f520ae6a21fe8875386bf25f0f70cc17" category="paragraph">PDU 회로 차단기의 경우 PDU 프레임과 플러싱할 때 버튼이 켜져 있습니다.</block>
   <block id="68c2d553d90a1e1b09caccba97e62a65" category="summary">옵션 볼트 다운 키트를 설치하여 시스템 캐비닛을 바닥에 고정할 수 있습니다. 키트를 설치하면 시스템 캐비닛이 제 위치에서 굴러가지 않습니다.</block>
-  <block id="51096157b524c7405d973a26f6a00303" category="doc">볼트 다운 키트를 장착하십시오</block>
   <block id="4630806a49f3d566c73da0208c0cd76a" category="paragraph">각 볼트-다운 브래킷에 대해 바닥에 적절한 앵커 볼트를 제공해야 합니다.</block>
   <block id="147a1dc5cec13c688326299559be22ae" category="list-text">시스템 캐비닛을 설치할 바닥의 영역을 표시한 다음 캐비닛을 제자리에 밀어 넣습니다.</block>
   <block id="1966a82c06f624b9d7efa1d0aa3d578b" category="paragraph">프론트 및 리어 볼트 다운 브래킷</block>
@@ -3440,7 +3425,6 @@
   <block id="04abd72307682d4665fde1d35d82daaf" category="section-title">사각형 구멍 4포스트 랙에 SuperRail 설치</block>
   <block id="c1f04067f36960edddc9075483e6ac55" category="section-title">4포스트 원형 랙에 SuperRail 설치</block>
   <block id="7d309cda2d3359be8b443f7451192e61" category="summary">조명이 들어오는 배지, 도어, 상단 힌지 및 관련 하드웨어를 제거한 다음 시스템 캐비닛 프레임 전면 반대쪽에 설치하여 전면 도어가 열리는 방향을 변경할 수 있습니다.</block>
-  <block id="cb60a8dc869953f0c81e001801098d91" category="doc">시스템 캐비닛 전면 덮개를 뒤집습니다</block>
   <block id="0a4a8cbec44f07cf1fa6adeb0d46999d" category="paragraph">조명이 들어오는 배지가 있는 시스템 캐비닛에 대한 도어 반전을 완료하려면 다음 공구와 장비가 필요합니다.</block>
   <block id="9cffe40731208ca60bb5bf36565901c8" category="list-text">Phillips 드라이버</block>
   <block id="5f30a9d35470ff036b30560b74bc4d16" category="list-text">5mm 알렌 렌치; 자석 알렌 렌치 권장</block>
@@ -12188,7 +12172,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="da2ac8d5a8e144d9801128279d269441" category="summary">환경 변수를 확인한 후에는 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 특화된 단계를 완료해야 합니다. FAS9000 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="d500e2b8a53910c2f8ca210ea9270774" category="summary">섀시를 교체하려면 장애가 발생한 섀시에서 전원 공급 장치, 팬, 컨트롤러 모듈, I/O 모듈, DCPM 모듈 및 USB LED 모듈을 제거하고 교체용 섀시에 설치해야 합니다.</block>
   <block id="e94f76ed4f789e51d45eda953f52349d" category="summary">NVRAM11 배터리가 포함된 destage 컨트롤러 전원 모듈 DCPM을 핫 스왑하려면 고장난 DCPM 모듈을 찾아 섀시에서 제거한 다음 교체용 DCPM 모듈을 설치해야 합니다.</block>
-  <block id="aa211743815898551dd144cdebabd4e6" category="doc">플랫폼 제품군별 IO 모듈 교체 절차</block>
   <block id="284f3d864e67ec64454ad1382833e490" category="summary">NetApp 스토리지 쉘프 모델별로 정리된 NVMe 쉘프 모듈 교체 절차를 찾아보세요. 이 자료는 NS224 및 NX224 쉘프에 대한 단계별 NSM 교체 워크플로 링크를 제공하여 특정 쉘프 모델에 맞는 절차를 신속하게 찾을 수 있도록 도와줍니다.</block>
   <block id="a461d5a3ec6eff00835d5b1479552285" category="doc">플랫폼 제품군별 NVMEM 또는 NVRAM 배터리 교체 절차</block>
   <block id="66439d0b114daf635ee9ba53d5e8d568" category="summary">시스템 캐비닛은 다양한 유형의 전력 분배 장치(PDU)를 지원합니다. 해당 PDU는 NEMA 또는 IEC 규격을 준수합니다.</block>
@@ -13068,7 +13051,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a4a27b37630453b53def3d02aa2138ae" category="doc">AFF C400 컨트롤러 교체 워크플로</block>
   <block id="69529956d219369eea8aeb6b4cc119d9" category="paragraph">AFF C400 스토리지 시스템에서 과도한 수정 가능한 ECC 오류 또는 수정 불가능한 ECC 오류가 발생하는 경우, 일반적으로 단일 DIMM 오류로 인해 발생하는 이 문제를 해결하려면 해당 DIMM을 교체하십시오.</block>
   <block id="486b1ab7671e7cb630a201d3cfad0128" category="paragraph">AFF C400 스토리지 시스템에서 서비스 중단 없이 팬 모듈을 핫스왑하여 적절한 공기 흐름과 시스템 냉각을 유지할 수 있습니다.</block>
-  <block id="9a4a9bec9574e2ea168e6b50a5d8baef" category="paragraph">자세한 가이드를 사용하여 AFF C400 스토리지 시스템을 설치하고 설정하십시오. 이 가이드는 랙 설치 및 케이블 연결부터 초기 시스템 가동까지 단계별 지침을 제공합니다.</block>
   <block id="09f8bb302a248f42bf1bbe95753d829e" category="paragraph">원하는 콘텐츠 형식을 선택하여 AFF C400 스토리지 시스템을 설치하고 설정하십시오.</block>
   <block id="faf2da819e0c7d2aed627979c207fbac" category="paragraph">AFF C400 스토리지 시스템을 설치하고 케이블을 연결하는 방법을 보여주는 동영상 지침을 사용하여 AFF C400 스토리지 시스템을 설치하고 설정합니다.</block>
   <block id="04c77b27be39aa578244a75783c7caf8" category="paragraph">AFF C400 스토리지 시스템의 NVDIMM 배터리를 교체하려면 컨트롤러 모듈을 제거하고 배터리를 교체한 다음 컨트롤러 모듈을 다시 설치하십시오.</block>
@@ -13744,7 +13726,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="91ad55857c70fdeac7dcde36de99bfa5" category="paragraph">단일 고가용성(HA) 쌍에서 FAS9500 스토리지 시스템의 특정 사양을 검토하고 FAS9500 사양의 전체 목록을 보려면 <block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>(HWU)를 방문하십시오.</block>
   <block id="985854a195aa686ca6c4432cefb3052f" category="paragraph">FAS9500 시스템에서 I/O 모듈을 교체하려면 해당 노드를 종료하고, I/O 모듈을 제거한 후 다시 설치하고, 노드를 재부팅해야 합니다.</block>
   <block id="af54525abc3171fa500a45dd92721714" category="paragraph">RTC 배터리를 교체한 후 컨트롤러 모듈을 다시 설치해야 합니다. RTC 배터리를 컨트롤러 모듈에서 10분 이상 분리해 둔 경우 시간과 날짜를 재설정해야 할 수도 있습니다.</block>
-  <block id="5734120d50126564c7154ac7926db380" category="doc">ONTAP 시스템 캐비닛 특징</block>
   <block id="66474c10be348c1070ece95b6d3ee3b0" category="paragraph">ONTAP 하드웨어 시스템 캐비닛은 측면 패널, 전면 및 후면 도어, 선택 사양인 볼트 고정 키트, 선택 사양인 상호 연결 키트, 장비용 PDU 및 통합 케이블 관리 시스템으로 구성됩니다.</block>
   <block id="e0aa22d805433603bc2d47464941a024" category="paragraph">AFF A150 시스템의 부팅 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 ONTAP 복구 이미지를 저장할 수 있는 충분한 용량을 가진 FAT32 형식으로 포맷된 USB 플래시 드라이브가 있어야 하며, 비중단 교체 또는 중단 교체 중 어떤 방식을 사용할지 이해하고 있어야 합니다.</block>
   <block id="8a3c5dbfa53414ab5660114e22494ee3" category="summary">AFF A150 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A150 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
@@ -13994,10 +13975,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7e60ede96f48b6ba8d0d47f2b8035f4c" category="summary">데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 FAS9500 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="77e872222aa64b0ce342d4087f408161" category="doc">AFF A150 시스템의 부팅 미디어에서 암호화 지원 확인</block>
   <block id="c62860d1247fef919a90aaa84a1dc9e7" category="doc">AFF A150 시스템의 부팅 미디어에서 암호화 복원</block>
-  <block id="55e63eb194f1607cd9ec28b515055799" category="doc">수동 부팅 복구 프로세스를 사용하여 AFF A150 시스템에서 복구 이미지를 부팅합니다</block>
-  <block id="65628aac9d8136073fdd8bc9e2bfbf92" category="doc">AFF A150 시스템의 부팅 미디어 교체 요구 사항을 검토합니다</block>
   <block id="6a937e573bf11d96725f27c3c25d5361" category="doc">AFF A150 시스템의 부팅 미디어 교체</block>
-  <block id="acfbef481b6b5af8dd403b385265ac92" category="doc">AFF A150 시스템에서 수동 부팅 복구 과정 중 컨트롤러 종료</block>
   <block id="688c5c62b9824aa9422f308bd0a1eb33" category="doc">AFF A150 시스템의 섀시 교체를 완료합니다</block>
   <block id="b27391e479a0b809fae44fd2fd3a0129" category="doc">AFF A150 시스템의 섀시 교체</block>
   <block id="4537a3c38c191b1d2767916c8ba78bd8" category="doc">섀시를 교체하기 위해 AFF A150 컨트롤러를 종료합니다</block>
@@ -14052,9 +14030,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="16b34d7a31dd2ff6fdb1fe6f0c6f750b" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템에서 수동 부팅 복구 프로세스를 진행하는 동안 컨트롤러를 종료합니다</block>
   <block id="52212641e87206abc8d5209e161c6b3c" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 섀시 교체를 완료합니다</block>
   <block id="475c74408561352b4a717b25e0d57af5" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 섀시 교체</block>
-  <block id="f5629b7dd61134a1717382dc476f3025" category="doc">AFF A20, AFF A30 또는 AFF A50 컨트롤러를 종료하여 섀시 교체</block>
   <block id="e6b6e212a0094ee9b8cb07a680e14557" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 컨트롤러를 교체합니다</block>
-  <block id="498774ca236117dbc913131881a0fe1c" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템에서 컨트롤러를 반납하여 정상 작동을 재개합니다</block>
   <block id="0f82cd5236663c6e94ef8c7f9728153e" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 컨트롤러 교체를 완료합니다</block>
   <block id="74e6f08c422d59cbb3a512c69842af19" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="4495cc2cb1d64fab3f6960c395b15b0f" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템에서 팬 모듈 핫스왑</block>
@@ -14281,7 +14257,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2a01f144ed587285692ab18f4406a613" category="doc">AFF A700s 시스템의 부팅 미디어 교체에 대해 알아보기</block>
   <block id="8331a3d2cf20eaf1f279088099bbe139" category="doc">AFF A700s 시스템의 부팅 미디어 교체</block>
   <block id="1111db0e2ab1b6207e3db67bb452facf" category="doc">AFF A700s 시스템에서 수동 부팅 복구 과정 중에 컨트롤러를 종료합니다</block>
-  <block id="96801df09e5a3e391a3bae74eee01769" category="doc">USB 플래시 드라이브를 사용하여 AFF A700s 시스템의 부팅 미디어에 부팅 이미지를 전송합니다.</block>
   <block id="e340650c7f7d03f39f4afed4cb8d24d5" category="doc">AFF A700s 시스템의 섀시 교체를 완료합니다</block>
   <block id="668633d699fd6e34119395b6686fba8f" category="doc">AFF A700s 시스템의 섀시 교체</block>
   <block id="935e6572d8253e599578e98b08dd2797" category="doc">섀시를 교체하기 위해 AFF A700s 컨트롤러를 종료합니다</block>
@@ -14520,7 +14495,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="28cfe668e93efd2e44043a1364ad0098" category="paragraph">손상된 섀시에서 새 섀시로 하드웨어 구성 요소를 이전하고 ASA A400 시스템의 컨트롤러 모듈을 다시 설치합니다.</block>
   <block id="64b432929cd1d8edf489dd556440b946" category="doc">섀시 교체를 위해 ASA A400 컨트롤러를 종료합니다</block>
   <block id="4828f0152cc6fbddee731db2752fef8a" category="doc">ASA A400 시스템의 컨트롤러 교체</block>
-  <block id="93beb3e4f5e34ce500648aed6d65f71a" category="doc">ASA A400 시스템에서 컨트롤러를 반납하여 정상적인 작동을 재개하십시오</block>
   <block id="a159d1806f5c50ce4ba418f654f651f1" category="doc">ASA A400 시스템의 컨트롤러 교체 완료</block>
   <block id="d1bf96657c89730167214a4a3dbcaaf0" category="doc">ASA A400 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="3b618fe2d7fd571ea3c7ea61ae4a8eed" category="doc">ASA A400 시스템의 DIMM 교체</block>
@@ -14547,7 +14521,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8a55044181ae98c3bce1202fc31a4f8d" category="doc">ASA A800 섀시 교체 준비</block>
   <block id="66aff38e0c45c6192afd12b9425e8b02" category="doc">섀시 교체를 위해 ASA A800 컨트롤러를 종료합니다</block>
   <block id="b726c8abaf725a57ca5063798a5f72d0" category="doc">ASA A800 시스템의 컨트롤러 교체</block>
-  <block id="074112cff7716e2384de4f56ac4dcff5" category="doc">ASA A800 시스템에서 컨트롤러를 반납하여 정상적인 작동을 재개하십시오</block>
   <block id="9afe70815c1bb9558218db27a96294ca" category="doc">ASA A800 시스템의 컨트롤러 교체 완료</block>
   <block id="acd746fd94e32377502cfd6b1169e494" category="doc">ASA A800 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="a5228b426deb77ac6fcd882cccd12c5d" category="doc">ASA A800 시스템의 DIMM 교체</block>
@@ -14568,7 +14541,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3f51feafb7d3ea3f3bba91f6dae4014d" category="doc">ASA A900 시스템에서 수동 부팅 미디어 복구를 위한 요구 사항 검토</block>
   <block id="52a3b471da64fbdcfe841b61a64e2249" category="doc">자동 부팅 복구 프로세스 중에 ASA A900 시스템의 컨트롤러를 종료합니다</block>
   <block id="9a9e79dd633d8c03983caa69e8a9f6be" category="doc">수동 부팅 복구 프로세스 중 ASA A900 시스템에서 컨트롤러 종료</block>
-  <block id="7685419f9f2518f19b2090b00e0be856" category="doc">ASA A900 시스템의 부팅 미디어에서 암호화 지원 확인</block>
   <block id="799f2d84ebe68dad2105f4e0946e7ff8" category="doc">수동 부팅 복구 프로세스를 사용하여 ASA A900 시스템에서 복구 이미지를 부팅합니다.</block>
   <block id="f35af1c226e5a44d8d3e29b690c923b8" category="doc">ASA A900 시스템의 섀시 교체를 완료합니다</block>
   <block id="fd06cef551af8bddc5fff7deeb37dbc4" category="doc">ASA A900 시스템의 섀시 교체</block>
@@ -14577,7 +14549,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9fb844aa0c8a0553f3f978c58477fedf" category="doc">ASA A900 시스템의 컨트롤러 교체 완료</block>
   <block id="f61a4d5e5ac62fe51dde43be34a35539" category="doc">ASA A900 시스템에서 컨트롤러를 반납하여 정상적인 작동을 재개합니다</block>
   <block id="042dae10de35652f8b5ba6e1b3eed109" category="doc">ASA A900 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
-  <block id="77c241e8dfc2226834a1c7eb941e6e3a" category="doc">ASA A900 시스템에서 NVRAM11 배터리가 포함된 DCPM 교체</block>
   <block id="c92b313b7ec9b27262d215855edca8eb" category="doc">ASA A900 시스템의 DIMM 교체</block>
   <block id="fd038a2bd8ffe91a325eb865fa5a73f8" category="doc">ASA A900 시스템에서 팬 핫스왑</block>
   <block id="59cab780351f226c1acd77ec01bfcbf7" category="doc">ASA A900 스토리지 시스템을 자세한 단계로 설치합니다.</block>
@@ -14699,7 +14670,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f7925f2a583752b15a5e8d0ff3154664" category="doc">AFF C400 시스템의 컨트롤러 교체 완료</block>
   <block id="ed3403d3debdf369fb0a3502329d6871" category="doc">AFF C400 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="01755578d326613e42a728396cbd8426" category="doc">AFF C400 시스템에서 팬 모듈 핫스왑</block>
-  <block id="40acc01957bd5d7d00371de00f8dd48e" category="doc">자세한 단계별 지침에 따라 AFF C400 시스템을 설치하고 설정하십시오.</block>
   <block id="fd94dd82fee559f65c13c3e7216fcb46" category="summary">AFF C400 랙 설치, 케이블 연결 및 초기 시스템 작동 방법을 설명하는 그림 설명서를 사용하여 AFF C400 시스템을 설치하고 설정하십시오.</block>
   <block id="76b9c13f0d3b8258f2d7d5b3b7fd8980" category="doc">그래픽 지침을 사용하여 AFF C400 시스템을 설치하고 설정합니다</block>
   <block id="1615ed911deb3b8e0378fd31dcadda09" category="doc">동영상 안내를 통해 AFF C400 시스템을 설치하고 설정합니다.</block>
@@ -14753,14 +14723,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="28b125b296bfc6350f71872a44eb2393" category="doc">AFF C800 시스템의 섀시 교체 준비</block>
   <block id="13dafe725bfe1f5df61f79d3ea3c0d74" category="doc">섀시 교체를 위해 AFF C800 컨트롤러를 종료합니다</block>
   <block id="c6657220770aae9c73d8b991240d2506" category="doc">AFF C800 시스템의 컨트롤러 교체</block>
-  <block id="b3edfe1a6f0c9fb1dcb205b50f0fe8c8" category="doc">AFF C800 시스템에서 컨트롤러를 다시 케이블로 연결하고 반환합니다.</block>
   <block id="263470b0b5fa072943ccb67c514d8d5e" category="doc">AFF C800 시스템의 컨트롤러 교체 완료</block>
-  <block id="17cd739adc9922e4ba05f0892b8fd6a7" category="doc">AFF C800 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="4b3e388925fb3eea2ceda381953eea9d" category="doc">AFF C800 시스템의 팬 교체</block>
-  <block id="6f7a6d8655057a0c6fcfeea09a5ad813" category="doc">자세한 단계별 지침에 따라 AFF C800 시스템을 설치하고 설정하십시오.</block>
-  <block id="193c1df4a9f36df03b2ff8c639ca3f90" category="doc">그래픽 지침을 사용하여 AFF C800 시스템을 설치하고 설정합니다</block>
   <block id="96c48740677e9b496e17bff2b48d4d23" category="paragraph">빠른 단계, 비디오 단계 또는 자세한 단계 중 필요에 가장 적합한 콘텐츠 형식을 사용하여 AFF C800 스토리지 시스템을 설치하고 설정하십시오.</block>
-  <block id="dc10af1f670e3b5ffcdcfec0e9087d6d" category="doc">동영상 안내를 사용하여 AFF C800 시스템을 설치하고 설정합니다</block>
   <block id="495f7f46345313b8ce3cd938da81623e" category="doc">AFF C800 스토리지 시스템 유지 관리에 대해 알아보십시오</block>
   <block id="12ccd44bd92170c032a49b6f3e37050d" category="doc">AFF C800 시스템의 NVDIMM 배터리 교체</block>
   <block id="6ec214d475fc383f44d96949c756a333" category="doc">AFF C800 시스템의 NVDIMM 교체</block>
@@ -14933,7 +14898,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="52b072dce0b3f7b70c0c5ffaff86db5d" category="doc">FAS70 또는 FAS90 시스템의 섀시 교체를 완료합니다</block>
   <block id="d0b731a32c4637af395301cff1616bbf" category="doc">FAS70 또는 FAS90 시스템의 섀시 교체</block>
   <block id="0f1bfa979a1a062b26cd789d48fcab88" category="doc">FAS70 또는 FAS90 시스템의 섀시를 교체할 준비를 하십시오.</block>
-  <block id="b7768eb4698168e4a00aa8dc8303d46c" category="doc">섀시를 교체하기 위해 FAS70 또는 FAS90 컨트롤러를 종료합니다</block>
   <block id="dbfbafb190bd8c02a748792c1095dfcf" category="doc">FAS70 또는 FAS90 시스템의 컨트롤러 교체</block>
   <block id="a825fa370424c42e0d6cd11f14c3ba5e" category="doc">FAS70 또는 FAS90 시스템에서 컨트롤러를 반납하여 정상 작동을 재개합니다</block>
   <block id="411005fc2fb14b40c7386390959ff535" category="doc">FAS70 또는 FAS90 시스템의 컨트롤러 교체를 완료합니다</block>
@@ -14960,7 +14924,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1b887bad5ccd0037b0e30739aa655c6e" category="doc">FAS2600 시스템에서 복구 이미지 부팅</block>
   <block id="b457987b6e23d0495ffb5f7611137c27" category="doc">FAS2600 시스템의 부팅 미디어 교체에 대해 알아보십시오.</block>
   <block id="591d9073a132b36c9133302a9b8f0ae7" category="doc">FAS2600 시스템의 부팅 미디어 교체</block>
-  <block id="12e3e73e402d3c86e91d08796ea3c22b" category="doc">FAS2600 시스템에서 부팅 미디어 복구 중 컨트롤러 종료</block>
   <block id="0434e9d3d8f9a92d992df12fe2b1d576" category="doc">FAS2600 시스템의 캐싱 모듈 교체</block>
   <block id="3df76e4791edb795e63d3395da36a016" category="doc">FAS2600 시스템의 섀시 교체를 완료합니다.</block>
   <block id="ff0b2e7f118545bcbb6b0de09ced7cf7" category="doc">FAS2600 시스템의 섀시 교체</block>
@@ -14980,8 +14943,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="6c68c38d5cffeee6d8cf5b0dd5fd6dfd" category="doc">FAS2600 시스템용 클러스터 구성 워크시트를 사용하십시오.</block>
   <block id="a49478ba64ccc3bd429c1441b7888131" category="doc">FAS2600 스토리지 시스템 유지 관리에 대해 알아보기</block>
   <block id="2cb9e214bd9847bd5e9b83b85187b4ed" category="doc">FAS2600 시스템의 NVMEM 배터리 교체</block>
-  <block id="a4a4e39291fab67ca4b5bfb8e0edaa73" category="doc">FAS2600 시스템에서 전원 공급 장치 핫스왑</block>
-  <block id="824c0483b4d6ee17100fd5e0d751e90b" category="doc">FAS2600 시스템의 실시간 클록 배터리를 교체합니다</block>
   <block id="3986677af59eed7ff3a3762582b900e0" category="doc">FAS2700 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오.</block>
   <block id="58473fda1fd8f73a3cc61873d3222f2e" category="doc">FAS2700 시스템의 부팅 미디어에서 암호화를 복원합니다.</block>
   <block id="54dc9cfdfa7d91f1131a81825929b7d1" category="doc">FAS2700 시스템에서 복구 이미지 부팅</block>
@@ -15002,8 +14963,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="35da425717980cb046c961c47201ea6f" category="doc">FAS2700 시스템에서 드라이브 핫스왑</block>
   <block id="68d6d5ccd8594ef8cb8bc5d67e9d4e3f" category="doc">자세한 지침에 따라 FAS2700 시스템을 설치하십시오.</block>
   <block id="fa95e09df0b1097f91bc9f6cf1bee930" category="doc">빠른 단계를 통해 FAS2700 시스템을 설치합니다</block>
-  <block id="f960eb61feb4c1c115a8876e6b78ca5b" category="doc">FAS2700 설치 및 설정 환경을 선택합니다</block>
-  <block id="8b34d956e94e87a0685990341e9b17eb" category="doc">FAS2700 시스템 설치 및 설정 영상을 시청하십시오.</block>
   <block id="49354f6ca1c87d6e08256785d50a131a" category="doc">FAS2700 스토리지 시스템 유지 관리에 대해 알아보기</block>
   <block id="9a5d17c20e21610a8aafad8e6d648ecd" category="doc">FAS2700 시스템의 NVMEM 배터리 교체</block>
   <block id="33808676d3b13bb07198c96afb425599" category="summary">전원 공급 장치를 교체하려면 기존 전원 공급 장치의 전원을 끄고 연결을 해제한 후 제거하고, 새 전원 공급 장치를 설치, 연결 및 전원을 켜야 합니다.</block>
@@ -15030,7 +14989,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cea644c38fc26b4118c964dba7768166" category="doc">FAS2820 시스템에서 드라이브 핫스왑</block>
   <block id="650bd8b48eb6d3aa9975f0886c305dc1" category="doc">자세한 지침에 따라 FAS2820 시스템을 설치하십시오.</block>
   <block id="9e5fe02bc198c42a0b88d7d197984784" category="doc">빠른 단계를 사용하여 FAS2820 시스템 설치</block>
-  <block id="592fa18d41cef3f3fb6a4f7301a30172" category="doc">FAS2820 설치 및 설정 환경을 선택하십시오.</block>
   <block id="bf0b748da400b64bdb1abb8d0a8ccd72" category="doc">FAS2820 시스템 설치 및 설정 영상을 시청하십시오.</block>
   <block id="ab9365b1e0a1eeb4086ed2b8b759ada1" category="doc">FAS2820 스토리지 시스템 유지 관리에 대해 알아보기</block>
   <block id="05a2c1f309e4a47d537c560b799dcf61" category="doc">FAS2820 시스템의 NVMEM 배터리 교체</block>
@@ -15043,8 +15001,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1d5452fa298a54bc2a24db7577749b1c" category="doc">수동 부팅 복구 프로세스를 사용하여 FAS50 시스템의 부팅 미디어에서 암호화를 복원합니다.</block>
   <block id="3995e5c15996093fa455f16f2c9bd8ac" category="doc">자동 부팅 복구 프로세스를 사용하여 FAS50 시스템에서 복구 이미지를 부팅합니다.</block>
   <block id="2703ae11a7b2b11aa93946ec93cb0333" category="doc">FAS50 시스템에서 수동 부팅 복구 프로세스를 사용하여 복구 이미지를 부팅합니다.</block>
-  <block id="39ca41ee05d70d8d7f736eaf3b21c996" category="doc">FAS50 시스템에서 자동 부팅 미디어 복구를 위한 요구사항을 검토합니다</block>
-  <block id="a19ea697fe3833b1c6f159d5ca5ce6d6" category="doc">FAS50 시스템에서 수동 부팅 미디어 복구를 위한 요구 사항 검토</block>
   <block id="881878007ffdc09eef3a70c814778d65" category="doc">자동 부팅 복구 프로세스 중에 FAS50 시스템의 컨트롤러를 종료합니다</block>
   <block id="a949c31353f793cba86c2939add8eb69" category="doc">수동 부팅 복구 프로세스 중 FAS50 시스템의 컨트롤러 종료</block>
   <block id="22236e322f3e9dfdd94a8095dd2d8af7" category="doc">FAS50 시스템에서 캐싱 모듈 핫스왑</block>
@@ -15053,7 +15009,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="972e00e16ac6f05ddd86e3aff8c7d5a9" category="doc">FAS50 시스템의 섀시 교체 준비</block>
   <block id="870e10fb786126f07de662fbe54f90e9" category="doc">섀시를 교체하기 위해 FAS50 컨트롤러를 종료합니다</block>
   <block id="2c1493c207afe21f05fe5dc1be0537ef" category="doc">FAS50 시스템의 컨트롤러 교체</block>
-  <block id="5eab48858187cdfc060ba28cd6c82434" category="doc">FAS50 시스템에서 컨트롤러를 반납하여 정상 작동을 재개하십시오.</block>
   <block id="49b80cf5f219dd90c21f1696f739da48" category="doc">FAS50 시스템의 컨트롤러 교체를 완료합니다</block>
   <block id="aa2913561d4aa35dfcc9e4e0abb22917" category="doc">FAS50 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="456f7f3e0c3d440c46a11022c8e83d8f" category="summary">FAS50 스토리지 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP으로 부팅되지 않을 수 있습니다. 교체 과정은 문제가 있는 컨트롤러를 종료하고, 컨트롤러를 제거하고, DIMM을 교체한 후 컨트롤러를 다시 설치하고, 마지막으로 고장난 부품을 NetApp에 반환하는 것으로 구성됩니다.</block>
@@ -15065,7 +15020,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0a24631873ddda16ba3b5da26773e8c8" category="doc">FAS50 하드웨어를 캐비닛 또는 랙에 설치합니다</block>
   <block id="e6cafc6e67881458d17b1a923027f393" category="doc">FAS50 스토리지 시스템 전원 켜기</block>
   <block id="f2b4734072bc1f269202373cdf9ac873" category="doc">FAS50 스토리지 시스템 설치 준비</block>
-  <block id="983d8a8605178cffa2ebc07ca706f61c" category="doc">FAS50 스토리지 시스템 설치 요구 사항 검토</block>
   <block id="63c046f71a970069d835e78815f83b7d" category="doc">FAS50 시스템에 I/O 모듈 추가</block>
   <block id="b90c708522545f875bf6b160abea8da8" category="doc">FAS50 시스템에서 I/O 모듈 핫스왑</block>
   <block id="49fcd5cb41873b7d8b5dcf4c73a50360" category="doc">FAS50 시스템에서 I/O 모듈 추가 및 교체에 대해 알아보십시오.</block>
@@ -15078,8 +15032,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f96f6e4da7fb02ceec4124ff41ce9a9d" category="doc">FAS500f 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화를 복원합니다</block>
   <block id="81d3d70c9551524e9dc34280d7e46dbf" category="doc">자동 부팅 복구 프로세스를 사용하여 FAS500f 시스템에서 복구 이미지를 부팅합니다.</block>
   <block id="e5c901e587061db9be3b95576d66c72b" category="doc">FAS500f 시스템에서 수동 부팅 복구 프로세스를 사용하여 복구 이미지를 부팅합니다.</block>
-  <block id="1009d38c60f6a5b0d8a8c029a49518cd" category="doc">FAS500f 시스템에서 자동 부팅 미디어 복구 요구사항 검토</block>
-  <block id="abc31b51f27c56d6583a3603e20bf420" category="doc">FAS500f 시스템에서 수동 부팅 미디어 복구를 위한 요구 사항을 검토합니다</block>
   <block id="fcac36c80955afd2857cbae7f3e33748" category="doc">자동 부팅 복구 프로세스 중에 FAS500f 시스템의 컨트롤러를 종료합니다</block>
   <block id="12e2f88d8189c43b6fce5e3c4bdf2f37" category="doc">수동 부팅 복구 과정 중에 FAS500f 시스템의 컨트롤러를 종료합니다</block>
   <block id="480d899f1dc5ac12abd82f64c9422af7" category="doc">FAS500f 시스템의 섀시 교체를 완료합니다</block>
@@ -15088,7 +15040,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="091d119c4567ea6a255a2ea430bc30fe" category="doc">섀시를 교체하기 위해 FAS500f 컨트롤러를 종료합니다</block>
   <block id="e39d70dd19d7efd6470e90084a310e4f" category="doc">FAS500f 시스템의 컨트롤러 교체</block>
   <block id="2690773fde10f47adc3ccb720b6a58a2" category="summary">FAS500f 시스템이 정상적으로 작동을 재개할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오.</block>
-  <block id="85b1aea7890b699ddd68216d08632e5b" category="doc">FAS500f 시스템에서 컨트롤러를 반납하여 정상 작동을 재개하십시오.</block>
   <block id="385f24f4ab0cb372ac520299897f4ca3" category="paragraph">FAS500f 시스템이 정상적으로 작동할 수 있도록 스토리지 리소스 제어권을 교체 컨트롤러로 반환하십시오. 시스템 구성을 복원하고 확인한 후 시스템 케이블을 다시 연결하고 디스크를 재할당하십시오.</block>
   <block id="abbd31a8ec4a712f2cd33dcde8b9e700" category="doc">FAS500f 시스템의 컨트롤러 교체를 완료합니다.</block>
   <block id="25debe63c998c6c2032668c7bd37638d" category="doc">FAS500f 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
@@ -15108,7 +15059,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4724d795f52e0093841c4933339b611b" category="doc">FAS8200 시스템의 2노드 MetroCluster 구성에서 애그리게이트를 스위치백합니다</block>
   <block id="c01f60e95a24a7d6ab30023b4d818b07" category="doc">FAS8200 시스템의 부팅 미디어에서 암호화 지원 확인</block>
   <block id="2db51a58ba499d9176ce5c80f25aa11e" category="doc">FAS8200 시스템의 부팅 미디어에서 암호화 복원</block>
-  <block id="a796ae1961743f68bd47652fbac3af57" category="doc">FAS8200 시스템에서 복구 이미지를 부팅합니다.</block>
   <block id="db71eeaef90f51f499476d496e59f6ba" category="doc">FAS8200 시스템에서 부팅 미디어 교체에 대해 알아보십시오.</block>
   <block id="1137c105afe8c49fbf06924d66ceac6d" category="doc">FAS8200 시스템의 부팅 미디어 교체</block>
   <block id="253dd000970aa0d8ba4193814f3f0908" category="doc">수동 부팅 복구 과정 중에 FAS8200 시스템의 컨트롤러를 종료합니다</block>
@@ -15139,8 +15089,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="cf811b16f9ff31641cb4dab24409ada7" category="doc">FAS8300 또는 FAS8700 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화를 복원합니다</block>
   <block id="607fcc987cd9c2748b91dd79ca253f63" category="doc">자동 부팅 복구 프로세스를 사용하여 FAS8300 또는 FAS8700 시스템에서 복구 이미지를 부팅합니다</block>
   <block id="0f274b7d6d6859427ca3492375e0a76e" category="doc">FAS8300 또는 FAS8700 시스템에서 수동 부팅 복구 프로세스를 사용하여 복구 이미지를 부팅합니다</block>
-  <block id="8ec3d1b3dc37303f25e679c08c6c4c56" category="doc">FAS8300 또는 FAS8700 시스템에서 자동 부팅 미디어 복구에 필요한 요구 사항을 검토하십시오.</block>
-  <block id="5c9230d4452b4beb12d90d2385627164" category="doc">FAS8300 또는 FAS8700 시스템에서 수동 부팅 미디어 복구에 필요한 요구 사항을 검토하십시오.</block>
   <block id="d17bd9c7aae2054d46726ebe654be63f" category="doc">자동 부팅 복구 프로세스 중에 FAS8300 또는 FAS8700 시스템의 컨트롤러를 종료합니다</block>
   <block id="1990b81e237bc7ec359ae3cc88d3d13b" category="doc">FAS8300 또는 FAS8700 시스템에서 수동 부팅 복구 과정 중에 컨트롤러를 종료합니다</block>
   <block id="fbd3f5c1b0137fa27f196aeb989a86dc" category="doc">FAS8300 또는 FAS8700 시스템의 캐싱 모듈을 교체합니다</block>
@@ -15148,7 +15096,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="a0e62501a00665a76eabb4b011abbb2a" category="doc">FAS8300 또는 FAS8700 시스템의 섀시 교체</block>
   <block id="8abf9d49dd5fb355dcbbccb5a89c651e" category="doc">FAS8300 또는 FAS8700 컨트롤러를 종료하여 섀시를 교체합니다</block>
   <block id="f358bf0a2f5f0dc2b9152c5eb5b68c9b" category="doc">FAS8300 또는 FAS8700 시스템의 컨트롤러를 교체합니다</block>
-  <block id="eccadb6486f93b0ec3929e4295e90236" category="doc">FAS8300 또는 FAS8700 시스템에서 컨트롤러를 반납하여 정상 작동을 재개합니다.</block>
   <block id="56c2480bbb6102ed6b9dced55bd639f9" category="doc">FAS8300 또는 FAS8700 시스템의 컨트롤러 교체를 완료합니다</block>
   <block id="2fd600090a751320a8067d0215775719" category="doc">FAS8300 또는 FAS8700 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
   <block id="89bf9eb39bb3cc717358aa4b436e494c" category="summary">과도한 수정 가능 ECC 메모리 오류 또는 수정 불가능 ECC 오류 등 스토리지 시스템에 오류가 발생하는 경우 컨트롤러의 DIMM을 교체해야 합니다. 이러한 오류는 일반적으로 단일 DIMM 오류로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하는 경우에 발생합니다.</block>
@@ -15215,12 +15162,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2d4a1ecb0656e11651445135ef47dc3c" category="summary">서비스를 중단하지 않고 FAS9000 시스템의 전원 공급 장치를 핫스왑합니다. 이 절차에는 기존 전원 공급 장치를 끄고, 분리하고, 제거한 다음 교체용 전원 공급 장치를 설치하고, 연결하고, 켜는 작업이 포함됩니다.</block>
   <block id="8e4d2b600acd3ac1d3086c3860f74c15" category="doc">FAS9000 시스템에서 전원 공급 장치 핫스왑</block>
   <block id="3921a2c62a3f56ae8559cfac07dc33ff" category="summary">FAS9000 시스템의 컨트롤러 모듈에 있는 실시간 클록 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
-  <block id="7bea08a9e19ad6c71824116d06b06fa2" category="doc">FAS9000 시스템의 실시간 클록 배터리 교체</block>
   <block id="282beabff48471d02dd0a9e5a417dd60" category="paragraph">FAS9000 시스템의 컨트롤러 모듈에 있는 실시간 클록(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
   <block id="b89ec8d204634ce1402ad395d0e8a21d" category="summary">FAS9000 시스템에 X91148A 모듈을 추가하려면, 완전히 장착된 시스템에서 NIC 또는 스토리지 어댑터를 새 제품으로 교체하거나, 빈 섀시 슬롯에 새 NIC 또는 스토리지 어댑터를 추가하면 됩니다.</block>
-  <block id="222af1987cba2e77d0589122a7fbdaae" category="doc">FAS9000 시스템에 X91148A 모듈을 추가하는 방법에 대해 알아보십시오.</block>
   <block id="3cc4a19284bc8b75b02bd8aee220fb22" category="summary">완전히 구성된 FAS9000 시스템에서 하나 이상의 기존 NIC 또는 스토리지 모듈을 제거하여 하나 이상의 X91148A 스토리지 모듈을 설치하십시오.</block>
-  <block id="02d30ccd409d971529e4ce34becc6306" category="doc">모든 슬롯이 사용 중인 경우 FAS9000 시스템에 X91148A 스토리지 모듈 추가</block>
   <block id="4eb4209c4ed74e862a15cdf81371ebe8" category="summary">FAS9000 시스템의 빈 모듈 슬롯에 X91148A 모듈을 추가하여 100GbE NIC 또는 NS224 스토리지 셸프용 스토리지 모듈로 사용할 수 있습니다.</block>
   <block id="dec34dff58116feee568458333c13074" category="doc">FAS9000 시스템의 빈 슬롯을 이용하여 X91148A 모듈 추가</block>
   <block id="822c45d446bafb64d30d43ccd6641b2c" category="doc">FAS9500 시스템에 I/O 모듈 추가</block>
@@ -15229,8 +15173,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="458f8f1699087bc585e7735c5bfac540" category="doc">FAS9500 시스템에서 수동 부팅 복구 프로세스 후 부팅 미디어의 암호화를 복원합니다</block>
   <block id="087d0ab0c9289d6b48aa1305610b9d1a" category="doc">자동 부팅 복구 프로세스를 사용하여 FAS9500 시스템에서 복구 이미지를 부팅합니다.</block>
   <block id="a090a9140b59f7d8b30dcda30f991081" category="doc">FAS9500 시스템에서 수동 부팅 복구 프로세스를 사용하여 복구 이미지를 부팅합니다.</block>
-  <block id="195916b5ffbfe42dcebe0a8b94478681" category="doc">FAS9500 시스템에서 자동 부팅 미디어 복구 요구사항 검토</block>
-  <block id="574039df747795db0321d6927e026678" category="doc">FAS9500 시스템에서 수동 부팅 미디어 복구를 위한 요구 사항을 검토합니다.</block>
   <block id="826e21bb8f9933627635b3339aefe9cf" category="doc">자동 부팅 복구 프로세스 중에 FAS9500 시스템의 컨트롤러를 종료합니다</block>
   <block id="319cbfe86723e5e264dc2bb52b81faa2" category="doc">수동 부팅 복구 프로세스 중 FAS9500 시스템에서 컨트롤러 종료</block>
   <block id="6085a595dbc005028cd5699a485d389c" category="doc">FAS9500 시스템에서 캐싱 모듈 핫스왑</block>
@@ -15498,7 +15440,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2e958160ddb960bf9a8212020c63e8a4" category="doc">AFF C250 시스템에서 컨트롤러를 교체하기 위한 요구 사항을 검토하십시오.</block>
   <block id="a14abca33f31e880e45b51448e160f5a" category="doc">AFF C250 시스템에서 손상된 컨트롤러를 종료합니다.</block>
   <block id="c32acaf1886b1043c34b4b422fe7d54a" category="doc">AFF C250 시스템의 DIMM 교체</block>
-  <block id="435fef3a56aa8d9c1df074da7c748a7f" category="doc">AFF C250 시스템에서 SSD 드라이브를 핫스왑합니다</block>
   <block id="65fd91fea777bff5023bc13ed86a36ea" category="paragraph">I/O가 진행 중인 동안 AFF C250 시스템에서 장애가 발생한 SSD 드라이브를 중단 없이 핫스왑합니다.</block>
   <block id="c4fa6b139e7754ef9468873c03146f0a" category="doc">AFF C250 시스템의 주요 사양</block>
   <block id="6bb676a8216018353662982b0514357d" category="doc">자동 부팅 복구 프로세스 중에 AFF C30 또는 AFF C60 시스템의 부팅 미디어를 교체합니다</block>
@@ -15680,4 +15621,65 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dfe9112790d09e7b6b0e61cc72aba9d4" category="sidebar">AFF A700 시스템 (빈 슬롯 없음)</block>
   <block id="8d77e37cb58d140158a1ddafaadb659a" category="sidebar">섀시 개요</block>
   <block id="bbcce8e36885580102fe78ece6a5936a" category="sidebar">빈 슬롯이 없는 시스템에 X91148A 모듈 추가</block>
+  <block id="4974d1d68f1f5751ab2cab7615ee0b6e" category="doc">AFF A150 시스템에서 복구 이미지를 부팅합니다.</block>
+  <block id="e0474f90358917d163b90761b21fc8a6" category="doc">AFF A150 시스템에서 부팅 미디어를 교체하기 위한 요구 사항을 검토하십시오</block>
+  <block id="6b3d7723930a5d5c499f6bbdf32fb84c" category="doc">AFF A150 시스템에서 컨트롤러 종료</block>
+  <block id="d623bd5bf274a1905ce130ef48674109" category="doc">AFF A20, AFF A30 또는 AFF A50 컨트롤러를 종료하여 섀시를 교체합니다</block>
+  <block id="b5ca9b2d002e0c2340fa33ee4ab86368" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 컨트롤러를 반납하십시오.</block>
+  <block id="6e2dd8dffef6a2fd7ec926a02d45c8cd" category="doc">AFF A700s 시스템의 부팅 미디어에 부팅 이미지를 전송합니다.</block>
+  <block id="fa8a2e26b1abdbf50abd090b331cf664" category="doc">ASA A400 시스템에서 컨트롤러 반환</block>
+  <block id="d22502c006cc64728ccf0ee4a7cc180d" category="doc">ASA A800 시스템에서 컨트롤러 반환</block>
+  <block id="86c93166fd8e988c76fc29c5c275fdac" category="doc">수동 부팅 복구 프로세스를 사용하여 ASA A900 시스템의 부팅 미디어에서 암호화 지원 확인</block>
+  <block id="41efbe634732e37f4c6cc6e47bed6a0a" category="doc">ASA A900 시스템의 DCPM 모듈 교체</block>
+  <block id="46f4fb4233f418426f930274e802f9a2" category="doc">AFF C250 시스템에서 드라이브 핫스왑</block>
+  <block id="a477f1342caef4c6105a77677aaad41a" category="doc">자세한 지침에 따라 AFF C400 시스템을 설치하십시오.</block>
+  <block id="7421b083591a1e83d04acab2dedbd1ce" category="paragraph">랙 설치 및 케이블 연결부터 초기 시스템 가동까지 단계별 지침을 사용하여 AFF C400 스토리지 시스템을 설치하고 설정합니다.</block>
+  <block id="089b61741df9aec375723ca8fabd05e6" category="doc">AFF C800 시스템에서 컨트롤러 반환</block>
+  <block id="86dfab1d0524f3af34bfd19d2792ac64" category="doc">AFF C800 시스템의 시스템 구성을 복원하고 확인합니다</block>
+  <block id="e99b506a7f112ee8be5d6162e2b40c5e" category="doc">자세한 지침에 따라 AFF C800 시스템을 설치하고 설정하십시오.</block>
+  <block id="ab7192484a2ffc71336d7b98445bfb04" category="doc">그래픽 지침을 사용하여 AFF C800 시스템을 설치합니다</block>
+  <block id="9563887009ddc79d5cde510c275e0de0" category="doc">동영상 안내를 사용하여 AFF C800 시스템을 설치합니다</block>
+  <block id="8dc64d43e2783724961d5523e7b12289" category="doc">FAS70 또는 FAS90 컨트롤러를 종료하여 섀시를 교체합니다</block>
+  <block id="c3354a7d715a8827a6a086244b011277" category="doc">부팅 복구 과정 중에 FAS2600 시스템의 컨트롤러를 종료합니다</block>
+  <block id="da5b4dca4c04377dde753992f7961b63" category="doc">FAS2600 시스템에서 전원 공급 장치 핫스왑</block>
+  <block id="abfd786ff21d96ae2c5e7a83fcbb9bf3" category="doc">FAS2600 시스템의 RTC 배터리를 교체합니다</block>
+  <block id="347ca1965792d437cd2e37c0e30b0182" category="doc">FAS2700 스토리지 시스템 설치 방법 선택</block>
+  <block id="bf3c4b57d1ae46c1b5e5c0cd11d9d4d3" category="doc">동영상 안내를 사용하여 FAS2700 시스템을 설치합니다</block>
+  <block id="9cd80467b0e6ab919ab90756ccc839ca" category="doc">FAS2820 스토리지 시스템 설치 방법 선택</block>
+  <block id="a44a6fc61c54e8e0583b279d458f555e" category="doc">FAS50 시스템에서 자동 부팅 미디어 복구에 필요한 요구 사항을 검토하십시오.</block>
+  <block id="5f4524ce8a52ded91ffcf32ac158ddf2" category="doc">FAS50 시스템에서 수동 부팅 미디어 복구에 필요한 사항을 검토하십시오.</block>
+  <block id="fa2d59f85a5b5d8b03c66b34b6894a83" category="doc">FAS50 시스템의 컨트롤러를 반환합니다.</block>
+  <block id="21a590b1f3d712f3faad6122ec68bb09" category="doc">FAS50 스토리지 시스템 설치 요구 사항 검토</block>
+  <block id="668acba44abfa6d4a1cdd5949980e367" category="doc">FAS500f 시스템에서 자동 부팅 미디어 복구에 대한 요구 사항을 검토합니다</block>
+  <block id="e7e3dacdd36bee30bc80b2fa619774d1" category="doc">FAS500f 시스템에서 수동 부팅 미디어 복구에 필요한 사항을 검토하십시오.</block>
+  <block id="1c6b8b355a4705cb890bca3394d862b8" category="doc">FAS500f 시스템의 컨트롤러 반환</block>
+  <block id="6fc3a4125410f2c87a19afde813d0b3b" category="doc">FAS8200 시스템에서 수동 부팅 복구 프로세스를 사용하여 복구 이미지를 부팅합니다.</block>
+  <block id="3ded6073b02891d7630b0885e246f67f" category="doc">FAS8300 또는 FAS8700 시스템에서 자동 부팅 미디어 복구에 대한 요구 사항을 검토하십시오</block>
+  <block id="066e589860863f1b5b0990e0eb55a26a" category="doc">FAS8300 또는 FAS8700 시스템에서 수동 부팅 미디어 복구에 필요한 사항을 검토하십시오.</block>
+  <block id="de7c80eab8b43253b81066c8d54c303d" category="doc">FAS8300 또는 FAS8700 시스템의 컨트롤러를 반납하십시오</block>
+  <block id="18759ef44d8091ddfddf4aea1ba4f9a2" category="doc">FAS9000 시스템의 RTC 배터리를 교체합니다</block>
+  <block id="33e6ac4a4f35be5bf14be58d65642869" category="doc">FAS9000 시스템에 X91148A 모듈을 추가하는 방법에 대해 알아봅니다.</block>
+  <block id="1949bb7fb58f80a4315c95f64c31bdcc" category="doc">이미 구성품이 장착된 FAS9000 시스템에 X91148A 스토리지 모듈을 추가합니다.</block>
+  <block id="df4145aa60dc03515523b1f3c8da9e56" category="doc">FAS9500 시스템에서 자동 부팅 미디어 복구에 필요한 요구 사항을 검토하십시오.</block>
+  <block id="d92dbb9fbf5415aa8abb6325d687fe75" category="doc">FAS9500 시스템에서 수동 부팅 미디어 복구에 필요한 사항을 검토하십시오.</block>
+  <block id="ade554b9dd3913961cccafe3afa99fba" category="doc">플랫폼 제품군별 I/O 모듈 교체 절차</block>
+  <block id="f795e413d29d9debf161122a22f214c0" category="doc">ONTAP 하드웨어 시스템 캐비닛 특징</block>
+  <block id="5cc9f83899a6c580e3108fb3c4a0f556" category="doc">ONTAP 하드웨어 시스템 캐비닛에 추가 지지 레일 설치</block>
+  <block id="fe265017b8491cba6934c7b98a0d05fb" category="doc">ONTAP 하드웨어 시스템 캐비닛에 볼트 다운 키트 설치</block>
+  <block id="39a2eeae669afc9be33ba6b43e4c1ed5" category="doc">ONTAP 하드웨어 시스템 캐비닛용 캐비닛 상호 연결 키트를 설치합니다</block>
+  <block id="0d08902b99fdc7b92d532b3441abdd05" category="doc">ONTAP 하드웨어 시스템 캐비닛에 장비 설치</block>
+  <block id="088b04b793faf327753a260138e7c61e" category="doc">ONTAP 하드웨어 시스템 캐비닛 설치에 대해 알아보기</block>
+  <block id="582e7086ed20d12fe8daa1d1ecd0bd6d" category="doc">배지 전원 공급 장치 및 케이블을 ONTAP 하드웨어 시스템 캐비닛에서 이동합니다</block>
+  <block id="3ddeea559c213d9f6ee6bc9afef7294a" category="doc">ONTAP 하드웨어 시스템 캐비닛 전원 켜기</block>
+  <block id="c0c2df1df0384016fe2787d45f3570e4" category="doc">ONTAP 하드웨어 시스템 캐비닛 도어와 조명 배지를 다시 설치하십시오</block>
+  <block id="78ff5bf0a3caa11f8bc0bffd4407990c" category="doc">ONTAP 하드웨어 시스템 캐비닛 도어를 제거하십시오</block>
+  <block id="b74f554391eb5bd12637539b3b43882b" category="doc">ONTAP 하드웨어 시스템 캐비닛에서 조명 배지 제거</block>
+  <block id="1d71776e5fe39ab54c0ef3378d8124f5" category="doc">ONTAP 하드웨어 시스템 캐비닛의 PDU 교체</block>
+  <block id="75bec75cf89863af53127aeba9031646" category="doc">ONTAP 하드웨어 시스템 캐비닛에 필요한 툴 및 장비</block>
+  <block id="91ba7bd4f6ef36d3da4c83b19b649983" category="doc">ONTAP 하드웨어 시스템 캐비닛 전면 도어를 반전시킵니다.</block>
+  <block id="10f17d4703a2b0cf97622d032b4cf379" category="doc">ONTAP 하드웨어 시스템 캐비닛 도어의 경첩과 잠금 장치를 반대로 설치하십시오.</block>
+  <block id="fc3c0ff0828c3fdf86f57f3e72f3cf31" category="doc">공간 요구 사항 및 ONTAP 하드웨어 시스템 캐비닛 크기</block>
+  <block id="a0d51b97ecebc4a2164c80e9993b43b7" category="doc">ONTAP 하드웨어 시스템 캐비닛에 지원되는 PDU 유형 및 사양</block>
+  <block id="d4f15e3529c28c34230d8c8c8157f378" category="doc">ONTAP 하드웨어 시스템 캐비닛 포장 풀기</block>
+  <block id="4fce94ed1c415c154afd3821b10ac5ec" category="doc">ONTAP 하드웨어 시스템용 SuperRail 키트를 4포스트 랙에 설치합니다</block>
 </blocks>

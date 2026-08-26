@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: removing, remove, illuminate, badge, system, cabinet, front, door, unplug, power, cord, component, remove the illuminate badge 
 summary: 조명이 들어오는 배지를 제거하려면 시스템 캐비닛 전면 도어를 열고 배지의 뒷면에서 전원 코드를 뽑은 다음 시스템 캐비닛 도어에서 배지 구성 요소를 제거해야 합니다. 
 ---
-= 조명이 들어오는 배지를 제거하십시오
+= ONTAP 하드웨어 시스템 캐비닛에서 조명 배지 제거
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

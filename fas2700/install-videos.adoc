@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2700, video, rack, cable, system, manager, guided, setup, configuration 
 summary: 다음 영상은 FAS2700 시스템을 설치하고 케이블을 연결하는 방법을 보여줍니다. 
 ---
-= FAS2700 시스템 설치 및 설정 영상을 시청하십시오.
+= 동영상 안내를 사용하여 FAS2700 시스템을 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

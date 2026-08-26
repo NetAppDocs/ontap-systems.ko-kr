@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas9000, replace, real, time, battery, shut, down, impaired, node, controller, metrocluster, module, rtc, battery, reinstall, date, time, complete, process 
 summary: FAS9000 시스템의 컨트롤러 모듈에 있는 실시간 클록 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오. 
 ---
-= FAS9000 시스템의 실시간 클록 배터리 교체
+= FAS9000 시스템의 RTC 배터리를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: connect, system, component, pdu, cable, ac, power, source, cabinet, power on the system cabinet 
 summary: PDU에 시스템 구성 요소를 연결하고 PDU 케이블을 AC 전원에 연결한 다음 전원을 켭니다. 
 ---
-= 시스템 캐비닛의 전원을 켭니다
+= ONTAP 하드웨어 시스템 캐비닛 전원 켜기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

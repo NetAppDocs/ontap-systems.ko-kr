@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: superrail, install, standard, square-hole, four-post, rack, round-to-square, hole, adaptor, bracket, superrail kit installation instruction 
 summary: SuperRail은 표준 사각형 구멍 4포스트 랙에 설치하거나 원형 대 사각형 구멍 어댑터 브래킷을 사용하여 표준 원형 구멍 4포스트 랙에 설치할 수 있습니다. 
 ---
-= SuperRail 키트 설치 지침
+= ONTAP 하드웨어 시스템용 SuperRail 키트를 4포스트 랙에 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

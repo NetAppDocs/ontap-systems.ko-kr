@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2600, shut down the controller, manual, manual boot recovery 
 summary: 스토리지 시스템 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 FAS2600 스토리지 시스템의 컨트롤러를 종료하십시오. 
 ---
-= FAS2600 시스템에서 부팅 미디어 복구 중 컨트롤러 종료
+= 부팅 복구 과정 중에 FAS2600 시스템의 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
