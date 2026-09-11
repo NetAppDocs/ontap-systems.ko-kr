@@ -530,7 +530,7 @@ System Manager가 열립니다.
 . System Manager 안내식 설정을 사용하여 에서 수집한 데이터를 사용하여 스토리지 시스템을 구성합니다 <<1단계: 설치 준비>>.
 . 계정을 만들거나 계정에 로그인합니다.
 +
-.. 선택 https://mysupport.netapp.com["mysupport.netapp.com"]
+.. 선택 https://mysupport.netapp.com["mysupport.netapp.com"^]
 .. 계정을 만들거나 기존 계정에 로그인하려면 _Create Account_ 를 선택하십시오.
 
 
@@ -611,7 +611,7 @@ NOTE: 주소의 형식은 +https://x.x.x.x.+ 입니다
 
 . 계정을 만들거나 계정에 로그인합니다.
 +
-.. 선택 https://mysupport.netapp.com["mysupport.netapp.com"]
+.. 선택 https://mysupport.netapp.com["mysupport.netapp.com"^]
 .. 계정을 만들거나 기존 계정에 로그인하려면 _Create Account_ 를 선택하십시오.
 
 

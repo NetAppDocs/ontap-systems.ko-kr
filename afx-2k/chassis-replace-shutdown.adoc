@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: afx 2k, shutdown the controller 
 summary: AFX 2K 스토리지 시스템에서 컨트롤러를 종료하여 섀시 교체 시 데이터 손실을 방지하고 시스템 안정성을 확보합니다. 
 ---
-= 섀시 교체를 위해 AFX 2K 컨트롤러를 종료합니다
+= 섀시를 교체하기 위해 AFX 2K 컨트롤러를 종료합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

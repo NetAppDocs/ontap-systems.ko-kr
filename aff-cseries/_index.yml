@@ -2,7 +2,7 @@
 indexpage:
   title: ONTAP AFF C-Series 시스템
   summary: 스토리지 시스템 설명서를 통해 AFF C-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
-  keywords: aff c-series, datasheet, C250, C400, C800
+  keywords: aff c-series, datasheet, C30, C60, C80
   lead: ONTAP AFF C-시리즈 시스템은 고밀도 NVMe 용량 플래시 기술을 기반으로 구축되었습니다.
   tiles:
   - title: 시작하십시오
@@ -17,24 +17,12 @@ indexpage:
       url: "../c30-60/install-overview.html"
     - title: AFF C80 를 참조하십시오
       url: "../c80/install-overview.html"
-    - title: AFF C250
-      url: "../c250/install-setup.html"
-    - title: AFF C400
-      url: "../c400/install-setup.html"
-    - title: AFF C800
-      url: "../c800/install-setup.html"
   - title: 시스템을 유지보수하십시오
     links:
     - title: AFF C30 및 AFF C60
       url: "../c30-60/maintain-overview.html"
     - title: AFF C80 를 참조하십시오
       url: "../c80/maintain-overview.html"
-    - title: AFF C250
-      url: "../c250/maintain-overview.html"
-    - title: AFF C400
-      url: "../c400/maintain-overview.html"
-    - title: AFF C800
-      url: "../c800/maintain-overview.html"
   - title: 지원되는 스위치
     links:
     - title: Broadcom 지원 BES-53248

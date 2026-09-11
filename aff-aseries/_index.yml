@@ -2,7 +2,7 @@
 indexpage:
   title: ONTAP AFF A-Series 시스템
   summary: 스토리지 시스템 설명서를 통해 AFF A-Series 시스템을 설치, 설정 및 유지 관리할 수 있습니다.
-  keywords: aff a-series, a150, a250, a800, a900, a400, datasheet, install, setup
+  keywords: aff a-series, a1k, a20, a30, a50, a70, a90, datasheet, install, setup
   lead: ONTAP AFF A-Series 시스템은 조직이 인프라를 더욱 빠르게 혁신하고 데이터 기반 전략을 추진할 수 있도록 설계되었습니다.
   tiles:
   - title: 시작하십시오
@@ -19,16 +19,6 @@ indexpage:
       url: "../a70-90/install-overview.html"
     - title: AFF A20, A30 및 A50
       url: "../a20-30-50/install-overview.html"
-    - title: AFF A150
-      url: "../a150/install-setup.html"
-    - title: AFF A250
-      url: "../a250/install-setup.html"
-    - title: AFF A400
-      url: "../a400/install-setup.html"
-    - title: AFF A800
-      url: "../a800/install-setup.html"
-    - title: AFF A900
-      url: "../a900/install-setup.html"
   - title: 시스템을 유지보수하십시오
     links:
     - title: AFF A1K 를 참조하십시오
@@ -37,16 +27,6 @@ indexpage:
       url: "../a70-90/maintain-overview.html"
     - title: AFF A20, A30 및 A50
       url: "../a20-30-50/maintain-overview.html"
-    - title: AFF A150
-      url: "../a150/maintain-overview.html"
-    - title: AFF A250
-      url: "../a250/maintain-overview.html"
-    - title: AFF A400
-      url: "../a400/maintain-overview.html"
-    - title: AFF A800
-      url: "../a800/maintain-overview.html"
-    - title: AFF A900
-      url: "../a900/maintain-overview.html"
   - title: 지원되는 스위치
     links:
     - title: Broadcom 지원 BES-53248

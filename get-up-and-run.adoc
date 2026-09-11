@@ -35,7 +35,6 @@ MetroCluster 구성에서 스토리지 시스템이 설정되지 않은 경우 �
 [role="quick-margin-list"]
 * link:aff-aseries/index.html["AFF A-Series 시스템"]
 * link:aff-cseries/index.html["AFF C-Series 시스템"]
-* link:allsan-landing/index.html["ASA 시스템"]
 * link:https://docs.netapp.com/us-en/ontap-afx/install-setup/install-setup-workflow.html["AFX 시스템"]
 * https://docs.netapp.com/us-en/asa-r2/install-setup/install-setup-workflow.html["ASA r2 시스템"]
 * link:fas/index.html["FAS 시스템"]
