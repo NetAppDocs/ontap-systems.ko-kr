@@ -2,7 +2,7 @@
 permalink: afx-1k/controller-replace-shutdown.html 
 sidebar: sidebar 
 keywords: afx 1k, shut down the impaired controller 
-summary: AFX 1K 저장 시스템의 컨트롤러가 손상되면 끄세요.  유지관리나 구성 요소 교체를 수행하기 전에 데이터 손실을 방지하고 시스템 안정성을 확보하기 위해 컨트롤러를 안전하게 종료하는 것이 중요합니다. 
+summary: AFX 1K 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오. 
 ---
 = AFF A1K 시스템에서 손상된 컨트롤러를 종료합니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: AFX 1K 저장 시스템의 컨트롤러가 손상되면 끄세요.  유
 
 
 [role="lead"]
-컨트롤러를 교체할 때 데이터 손실을 방지하고 시스템 안정성을 확보하려면 AFX 1K 저장 시스템에서 손상된 컨트롤러를 종료하세요.
+AFX 1K 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오.
 
 다음 옵션 중 하나를 사용하여 컨트롤러 모듈을 종료합니다.
 

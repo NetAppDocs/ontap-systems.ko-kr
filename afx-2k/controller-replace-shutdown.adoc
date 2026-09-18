@@ -2,7 +2,7 @@
 permalink: afx-2k/controller-replace-shutdown.html 
 sidebar: sidebar 
 keywords: afx 2k, shut down the impaired controller 
-summary: AFX 2K 스토리지 시스템에 문제가 발생하면 컨트롤러를 종료하십시오. 유지 보수 또는 구성 요소 교체를 수행하기 전에 데이터 손실을 방지하고 시스템 안정성을 확보하기 위해 컨트롤러를 안전하게 종료하는 것이 매우 중요합니다. 
+summary: AFX 2K 스토리지 시스템에서 손상된 컨트롤러를 종료하여 데이터 손실을 방지하고 컨트롤러 교체 시 시스템 안정성을 확보하십시오. 
 ---
 = AFX 2K 시스템에서 손상된 컨트롤러를 종료합니다
 :allow-uri-read: 

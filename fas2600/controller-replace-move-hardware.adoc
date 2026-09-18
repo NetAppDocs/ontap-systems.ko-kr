@@ -2,7 +2,7 @@
 permalink: fas2600/controller-replace-move-hardware.html 
 sidebar: sidebar 
 keywords: fas2600, move the components 
-summary: FAS2600 시스템의 컨트롤러를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체용 컨트롤러 모듈로 옮긴 다음, 섀시에 설치하고 시스템을 유지보수 모드로 부팅하십시오. 
+summary: FAS2600 시스템의 컨트롤러를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체용 컨트롤러 모듈로 옮기고, 교체용 컨트롤러 모듈을 섀시에 설치한 다음 시스템을 유지보수 모드로 부팅하십시오. 
 ---
 = FAS2600 시스템의 컨트롤러 교체
 :allow-uri-read: 
