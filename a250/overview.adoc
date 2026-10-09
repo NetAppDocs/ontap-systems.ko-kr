@@ -151,6 +151,10 @@ CIFS; FC; iSCSI; NFS v3; NFS v4.0; NFS v4.1; NFS v4.2; NVMe/FC; NVMe/TCP; S3; NA
 * 인증 안전/EMC/EMI/RoHS: BSMI, CE DoC, UKCA DoC
 * 표준 EMC/EMI: BS-EN-55024, BS-EN55035, CISPR 32, EN55022, EN55024, EN55032, EN55035, EN61000-3-2, EN61000-3-3, FCC Part 15 Class A, ICES-003, KS C 9832, KS C 9835
 * 표준 안전: ANSI/UL60950-1, ANSI/UL62368-1, BS-EN62368-1, CAN/CSA C22.2 No. 60950-1, CAN/CSA C22.2 No. 62368-1, CNS 14336, EN60825-1, EN62368-1, IEC 62368-1, IEC60950-1, IS 13252(파트 1)
+* 이 제품은 ENERGY STAR 인증을 받았습니다. 자세한 내용은 link:++https://www.energystar.gov/productfinder/product/certified-data-center-storage/results?sort_direction=ASC&sort_by=brand_name&page_number=0&lastpage=0&search_text=&snia_online_taxonomy_category_filter=&brand_name_filter=NetApp&brand_name_filter=NetApp+Inc&brand_name_filter=NetApp%2C+Inc&markets_filter=United+States++["_ENERGY STAR 인증 데이터 센터 스토리지 제품_"^]을(를) 방문하십시오.
++
+image::../media/energy-star-certified-logo.png[ENERGY STAR 인증 로고]
+
 
 
 

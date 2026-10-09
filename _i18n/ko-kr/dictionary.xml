@@ -15682,4 +15682,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f36c76518c1338c3f03a21b9d4c06d87" category="summary">하드웨어 장애가 발생한 경우 ASA A1K 시스템의 컨트롤러를 교체하십시오. 교체 과정은 고장난 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮긴 후, 교체 컨트롤러를 설치하고 재부팅하는 것입니다.</block>
   <block id="1822bd93d14bcf37b38e2900ee6a8b37" category="summary">하드웨어 장애가 발생한 경우 ASA A150 시스템의 컨트롤러를 교체하십시오. 교체 과정은 고장난 컨트롤러 모듈을 제거하고, FRU 구성 요소를 교체용 컨트롤러로 옮긴 후, 교체용 컨트롤러 모듈을 섀시에 설치하고 시스템을 유지보수 모드로 부팅하는 단계로 구성됩니다.</block>
   <block id="3707941e391cf3f4e79c0ac324b37e41" category="summary">하드웨어 장애 가 발생한 경우 AFF C80 시스템의 컨트롤러를 교체하십시오. 이 과정에는 손상된 컨트롤러 제거, 구성 요소를 교체 컨트롤러로 이동, 교체 컨트롤러 설치, 시스템 재부팅이 포함됩니다.</block>
+  <block id="36ff1b0cf056d6ead654398301edbbc1" category="inline-link-macro">_ENERGY STAR 인증 데이터 센터 스토리지 제품_</block>
+  <block id="be4049092eb4f116ae37997b11912f3e" category="list-text">이 제품은 ENERGY STAR 인증을 받았습니다. 자세한 내용은 <block ref="435b6d0174c4d003719c270181300a75" category="inline-link-macro-rx"></block>을(를) 방문하십시오.</block>
+  <block id="33ba153f9c27104ac9c370d6c06d5f5e" category="image-alt">ENERGY STAR 인증 로고</block>
 </blocks>
