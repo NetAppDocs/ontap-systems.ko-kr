@@ -41,7 +41,7 @@ summary: 데이터 손실을 방지하고 섀시 교체 시 시스템 안정성�
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node _impaired_node_name_ -auto-giveback false`
+`storage failover modify -node local -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 

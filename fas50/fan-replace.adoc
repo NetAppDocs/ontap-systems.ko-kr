@@ -1,7 +1,7 @@
 ---
 permalink: fas50/fan-replace.html 
 sidebar: sidebar 
-keywords: fas50, aff, swap, out, fan, module, interrupt, service, sequence, task, hot-swap, hot-swap a fan module 
+keywords: fas50, aff, swap, out, fan, module, interrupt, service, sequence, task 
 summary: 팬 고장 또는 비효율적인 작동으로 인해 시스템 냉각 및 전반적인 성능에 영향을 미칠 수 있으므로 FAS50 시스템의 팬 모듈을 교체해야 합니다. 교체 과정은 컨트롤러를 종료하고, 컨트롤러를 분리한 후, 팬을 교체하고, 컨트롤러를 다시 설치한 다음, 고장난 부품을 NetApp에 반환하는 순서로 진행됩니다. 
 ---
 = FAS50 시스템의 팬 모듈 교체
@@ -59,7 +59,7 @@ summary: 팬 고장 또는 비효율적인 작동으로 인해 시스템 냉각 
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node _impaired_node_name_ -auto-giveback false`
+`storage failover modify -node local -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 

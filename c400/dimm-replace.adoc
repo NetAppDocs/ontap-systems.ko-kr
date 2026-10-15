@@ -58,7 +58,7 @@ AFF C400 스토리지 시스템에서 과도한 수정 가능한 ECC 오류 또�
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node _impaired_node_name_ -auto-giveback false`
+`storage failover modify -node local -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 

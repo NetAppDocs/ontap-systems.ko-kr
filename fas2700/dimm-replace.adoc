@@ -52,7 +52,7 @@ FAS2700 시스템에서 스토리지 시스템에 수정 가능한 ECC 오류가
 +
 .. 정상 컨트롤러의 콘솔에서 다음 명령을 입력하세요.
 +
-`storage failover modify -node _impaired_node_name_ -auto-giveback false`
+`storage failover modify -node local -auto-giveback false`
 
 .. 입력하다 `y` _자동 환불을 비활성화하시겠습니까?_라는 메시지가 표시되면
 
@@ -88,6 +88,8 @@ Ctrl-C를 누른 다음 메시지가 나타나면 y를 누릅니다.
 _-halt true_parameter는 Loader 프롬프트를 표시합니다.
 
 |===
+
+
 . 시스템에 섀시에 하나의 컨트롤러 모듈만 있는 경우 전원 공급 장치를 끈 다음 손상된 컨트롤러의 전원 코드를 전원에서 분리합니다.
 
 
