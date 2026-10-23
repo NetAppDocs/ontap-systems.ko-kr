@@ -374,7 +374,7 @@ NOTE: 스토리지 시스템 모델에 따라 2개 또는 4개의 DIMM이 있습
 
 
  a| 
-image::../media/icon_round_2.png[설명선 번호 1]
+image::../media/icon_round_2.png[설명선 번호 2]
  a| 
 ** 올바른 방향으로 교체 컨트롤러에 DIMM을 삽입할 수 있도록 소켓의 DIMM 방향을 기록해 둡니다.
 ** DIMM 슬롯의 양쪽 끝에 있는 2개의 DIMM 이젝터 탭을 천천히 밀어 DIMM을 꺼냅니다.

@@ -297,7 +297,7 @@ image::../media/oie_cable_sfp_gbe_copper.png[GbE SFP 구리 커넥터]
 
 
  a| 
-image::../media/icon_square_5_grey.png[설명선 아이콘 4]
+image::../media/icon_square_5_grey.png[콜아웃 아이콘 5]
  a| 
 ** 케이블을 케이블 관리 암에 연결합니다(그림 없음).
 ** 전원 케이블을 전원 공급 장치(PSU)에 연결하고 각각 다른 전원 콘센트(그림에는 표시되지 않음)에 연결하십시오. PSU1과 PSU3은 A측 구성 요소 전체에 전원을 공급하고, PSU2와 PSU4는 B측 구성 요소 전체에 전원을 공급합니다.

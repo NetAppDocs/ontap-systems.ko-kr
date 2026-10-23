@@ -234,7 +234,7 @@ image::../media/icon_round_1.png[설명선 번호 1]
 
 
  a| 
-image::../media/icon_round_1.png[설명선 번호 2]
+image::../media/icon_round_1.png[설명선 번호 1]
  a| 
 교체용 팬을 가이드에 맞춰 삽입한 다음 팬 커넥터가 소켓에 완전히 장착될 때까지 아래로 누릅니다.
 

@@ -205,7 +205,7 @@ image::../media/drw_cable_management_arm_install.svg[케이블 관리 ARM를 설
 
 
  a| 
-image::../media/icon_square_1_green.png[설명선 번호 3]]
+image::../media/icon_square_1_green.png[설명선 번호 1]
  a| 
 클러스터 인터커넥트
 

@@ -439,7 +439,7 @@ image:../media/oie_cable100_gbe_qsfp28.png["폭 = 50px"]
 
 
  a| 
-image:../media/icon_square_2_yellow.png["설명선 번호 1"]
+image:../media/icon_square_2_yellow.png["설명선 번호 2"]
  a| 
 ** 컨트롤러 B 포트 e2a를 쉘프의 NSM B에 있는 포트 e0a에 연결합니다.
 ** 컨트롤러 B 포트 e10b를 쉘프의 NSM A의 포트 e0b에 연결합니다.
