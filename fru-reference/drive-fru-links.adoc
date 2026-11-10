@@ -19,7 +19,6 @@ NetApp 스토리지 시스템의 드라이브 교체 절차를 플랫폼 또는 
 --
 * link:../a20-30-50/drive-replace.html["AFF A20/30/50"]
 * link:../a150/drive-replace.html["AFF A150"]
-* link:../a200/drive-replace.html["AFF A200"]
 * link:../a220/drive-replace.html["AFF A220"]
 * link:../a250/drive-replace.html["AFF A250"]
 * link:../a70-90/drive-replace.html["AFF A70/90"]
@@ -49,7 +48,6 @@ NetApp 스토리지 시스템의 드라이브 교체 절차를 플랫폼 또는 
 .FAS 시스템
 --
 * link:../fas500f/drive-replace.html["500f로 설정합니다"]
-* link:../fas2600/drive-replace.html["FAS2600"]
 * link:../fas2700/drive-replace.html["FAS2700"]
 * link:../fas2800/drive-replace.html["FAS2800"]
 

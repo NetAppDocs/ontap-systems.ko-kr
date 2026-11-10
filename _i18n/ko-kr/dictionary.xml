@@ -2270,32 +2270,19 @@
   <block id="d495410a7f7a2c72ad8aa73f5cdb0372" category="list-text"><block ref="d495410a7f7a2c72ad8aa73f5cdb0372" category="inline-link-rx"></block></block>
   <block id="8711dbf45eeb8f6f1664a1d0fb9dd217" category="list-text"><block ref="8711dbf45eeb8f6f1664a1d0fb9dd217" category="inline-link-rx"></block></block>
   <block id="54f4c70c653781a776673e986d65e502" category="paragraph">다음 애니메이션, 그림 또는 기록된 단계를 사용하여 전원 공급 장치를 교체할 수 있습니다.</block>
-  <block id="c8ce5afe6808111cafcf57c11a22b941" category="inline-link-macro">AFF FAS2600 NVMEM 배터리 교체 비디오</block>
   <block id="3970e41706ca509bbbe93d6bce9c9705" category="paragraph">컨트롤러 모듈의 구성 요소를 교체한 후 섀시에 다시 설치합니다.</block>
-  <block id="54460a9998b0b0517a52cc21d98c7497" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다. 구성에 맞는 절차를 사용해야 합니다.</block>
   <block id="6b0ffb907f1863f46339c1cee8853799" category="section-title">옵션 2: ONTAP의 독립 실행형 시스템에 시스템 ID를 수동으로 재할당합니다</block>
-  <block id="7030094db64cfe33a24436a2528348b6" category="inline-link-macro">AFF FAS2600 전원 공급 장치 교체 비디오</block>
-  <block id="5b9bf9643d348558871bac7550eb6bf2" category="inline-link-macro">AFF FAS2600 컨트롤러 교체 비디오</block>
-  <block id="86b067a1faa816ad3c0a245cc1e409ad" category="section-title">5단계: 캐싱 모듈을 이동합니다</block>
   <block id="482f9dcd012d730126a9c52d8eac49ab" category="paragraph">캐시 모듈을 이전 컨트롤러 모듈에서 새 모듈의 해당 슬롯으로 직접 이동할 수 있도록 새 컨트롤러 모듈이 준비되어 있어야 합니다. 스토리지 시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의해야 합니다.</block>
   <block id="6bbc48da569bffd650e8c37eb91825ba" category="list-text">캐싱 모듈을 하우징에서 똑바로 천천히 당겨 빼냅니다.</block>
   <block id="b08b6d72a159368a3b72d6c28c8a2392" category="list-text">필요에 따라 컨트롤러 모듈 덮개를 닫습니다.</block>
   <block id="a8c75b5a2932fcdaedc42e616d63e269" category="section-title">6단계: 컨트롤러를 설치합니다</block>
-  <block id="49ba302fbc53429009e579494e0457be" category="list-text"><block ref="49ba302fbc53429009e579494e0457be" category="inline-link-macro-rx"></block></block>
-  <block id="c217f888de7cccc4e5f27065cb754354" category="inline-link-macro">AFF FAS2600 DIMM 교체 비디오</block>
-  <block id="7a463f9e839bbbeef6456ebce3997799" category="paragraph">스토리지 시스템 하드웨어 구성에 따라 다른 절차를 사용하여 손상된 컨트롤러를 종료하거나 인수하십시오.</block>
-  <block id="cc0229491324372575d8e9833b910f02" category="list-text">NVMEM LED를 다시 확인하십시오.</block>
-  <block id="f6f6b5bb4c3c117ebfdad565e3beb0c3" category="inline-link-macro">AFF FAS2600 캐싱 모듈 교체 비디오</block>
   <block id="308216007c5ec00e109a42c5068cc3de" category="paragraph">캐시 모듈을 교체하기 전에 캐시 모듈의 내용을 지울 수 있습니다.</block>
   <block id="6ec04a396d43adc0bf840cc9e4cce4b3" category="list-text">캐싱 모듈의 데이터가 암호화되지만 손상된 캐싱 모듈에서 데이터를 모두 지우고 캐싱 모듈에 데이터가 없는지 확인해야 할 수 있습니다.</block>
   <block id="07b824a16e2eac6bafd600bdf983d340" category="list-text">독립 실행형 시스템의 경우 'system node halt_impaired_node_name_'</block>
   <block id="01ca059245897bf13f451aefdac2252d" category="section-title">3단계: 캐싱 모듈을 교체합니다</block>
   <block id="fcb47fab108a0238221cf0b2d24663f3" category="paragraph">컨트롤러의 레이블에 M.2 PCIe 카드라고 하는 캐싱 모듈을 교체하려면 컨트롤러 내부의 슬롯을 찾아 특정 단계를 따릅니다.</block>
   <block id="c7019f10f49a45ffd0963110e313db8d" category="paragraph">이전 섀시에서 컨트롤러 모듈 또는 모듈을 분리합니다.</block>
-  <block id="3d0a009381ea108fad1b0c7f371cca53" category="paragraph">이전 섀시의 각 베이 입구에서 새 섀시의 동일한 베이 입구로 드라이브를 이동합니다.</block>
-  <block id="431d17d73264273f0bc377c1c3bd07e9" category="paragraph">교체 섀시를 설치하기 전에 장비 랙 또는 시스템 캐비닛에서 기존 섀시를 제거합니다.</block>
   <block id="41fc2e794f85d8118c2ed7ccc20c671a" category="section-title">5단계: 컨트롤러를 설치합니다</block>
-  <block id="7d529e0ab83dded43342f45ed2a098bd" category="inline-link-macro">AFF FAS2600 설정 비디오</block>
   <block id="ac5b5b75bd82572e4d052c9c0ed18250" category="paragraph">교체 절차를 완료하고 시스템을 전체 작업으로 복원하려면 스토리지를 재가동하고, 디스크 재할당을 확인하고, NetApp Storage Encryption 구성을 복원(필요한 경우)하고, 새 컨트롤러에 대한 라이센스를 설치해야 합니다. 시스템을 전체 작동 상태로 복원하기 전에 일련의 작업을 완료해야 합니다.</block>
   <block id="9c35eb9cc1848b17dc8df9f76cc3d6cf" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다.</block>
   <block id="22f1865f37aef603f8130d88b36ec2e5" category="paragraph">구성에 올바른 절차를 사용해야 합니다.</block>
@@ -3427,17 +3414,7 @@
   <block id="9cffe40731208ca60bb5bf36565901c8" category="list-text">Phillips 드라이버</block>
   <block id="5f30a9d35470ff036b30560b74bc4d16" category="list-text">5mm 알렌 렌치; 자석 알렌 렌치 권장</block>
   <block id="fda016ce78ed407e18786222751251c3" category="list-text">상단 힌지의 Allen 볼트에 쉽게 접근할 수 있는 계단 사다리</block>
-  <block id="536b0bd1a9c2b544d6cfae19d9289ea7" category="section-title">1단계: 시스템 케이블을 다시 연결합니다</block>
-  <block id="b0da6837b9dc75b3c0fcca1c9c38d89b" category="paragraph">스토리지 시스템이 HA 쌍 내에 있는 경우, 절차 종료 시 기브백이 발생하면 새 컨트롤러 모듈의 시스템 ID가 자동으로 디스크에 할당됩니다. 독립 실행형 시스템에서는 ID를 디스크에 수동으로 재할당해야 합니다. 구성에 맞는 절차를 사용해야 합니다.</block>
   <block id="6151adb4be9acf8b78f2772f645f81b4" category="list-text">컨트롤러 모듈을 동일한 모델 유형의 컨트롤러 모듈로 교체해야 합니다. 컨트롤러 모듈만 교체하면 시스템을 업그레이드할 수 없습니다.</block>
-  <block id="5cae28c48acee98f2baac425290bbe14" category="list-text">filer_addr은 스토리지 시스템의 IP 주소입니다.</block>
-  <block id="881a30a5eb497e5f1a74adafa0d2fe0d" category="list-text">넷마스크는 HA 파트너에 연결된 관리 네트워크의 네트워크 마스크입니다.</block>
-  <block id="f902be9386ed1a89086bfd6000dab684" category="list-text">게이트웨이(gateway)는 네트워크의 관문입니다.</block>
-  <block id="e14b9c106486400a1e3f574403b479e2" category="list-text">dns_addr은 네트워크에 있는 이름 서버의 IP 주소입니다.</block>
-  <block id="613c6e7675c3db21e22a441e02c44854" category="list-text">dns_domain은 DNS(Domain Name System) 도메인 이름입니다.</block>
-  <block id="456b3ef9056943b6d990b202391c1677" category="inline-link-macro">AFF A200 설치 및 설정 지침</block>
-  <block id="c595b45124aedeb764e69a91821529a0" category="paragraph">AFF A200 시스템을 사용하는 경우 빈 슬롯 안에 플라스틱 플랩이 풀링되어 입구를 덮고 공기 흐름 및 냉각을 유지합니다.</block>
-  <block id="8ef8932f72109469af86d4e2c65c227c" category="paragraph">이전 섀시에서 교체 섀시로 전원 공급 장치를 이동합니다.</block>
   <block id="ddc3cfefb19fcaaa13d8979c5016a9e0" category="paragraph">'storage disk show -shelf_shelf_number_' 명령을 사용하여 드라이브의 상태를 확인할 수 있습니다. Container Type 컬럼의 출력은 실패한 드라이브인 경우 SPare 또는 Broken을 표시해야 합니다. 또 컨테이너 이름과 소유자 칼럼에는 대시가 있어야 합니다.</block>
   <block id="839439b189cfb3960dee96d5900594f7" category="list-text">한쪽 면을 곧게 편 종이 클립 또는 좁은 볼펜이 필요합니다.</block>
   <block id="0cec52d1b96e39b0b14f274fd8bba3d9" category="paragraph">종이 클립이나 볼펜으로 오퍼레이터 디스플레이 패널(ODP)의 LED 오른쪽에 있는 작은 구멍을 통해 쉘프 ID 버튼에 액세스할 수 있습니다.</block>
@@ -3706,7 +3683,6 @@
   <block id="ec5e81cea4c5ee83d635778e86350e80" category="sidebar">AFF A900</block>
   <block id="d5d4923aa83e46af2152de920946ba41" category="sidebar">FAS 시스템</block>
   <block id="9cce52969ddef317310e7d9d1c259895" category="sidebar">500f로 설정합니다</block>
-  <block id="7c3a0be0ea0353939d450cc4c7ccece6" category="sidebar">FAS2600</block>
   <block id="2ad111e68a24a4da0cc9b332319a0ae8" category="sidebar">FAS2700</block>
   <block id="c37feb3492d999b3f216448183986be2" category="sidebar">FAS8200</block>
   <block id="1752b126dd5e4219fbf53c09ee63d51e" category="sidebar">FAS8300</block>
@@ -3806,12 +3782,6 @@
   <block id="60aacc44860a019da72b796a579487fe" category="sidebar">AFF A400 PCIe 또는 메자닌 카드</block>
   <block id="2719a09a183f15b1adb6cd0009b4aa0e" category="sidebar">AFF A400 전원 공급 장치</block>
   <block id="6503e210009ca32dae4efdf45a8342c8" category="sidebar">AFF A400 실시간 클럭 배터리</block>
-  <block id="a1a11aef67d5e298d684852ad4d6082a" category="sidebar">FAS2600 시스템</block>
-  <block id="a0fd0339fddaf02d4c08cd24fde71873" category="sidebar">FAS2600 설치 및 설정</block>
-  <block id="ad651f9c51b9c6694a05b62812a1e8d3" category="sidebar">FAS2600은 이 상태를 유지합니다</block>
-  <block id="73eaa7df3c93c0e3bb3f0940d01d129c" category="sidebar">FAS2600 부팅 미디어</block>
-  <block id="ad9de388f41dbddb2716bd80eb671561" category="sidebar">FAS2600 섀시</block>
-  <block id="f2ce7cccebe6e19fd464832f6290305a" category="sidebar">FAS2600 컨트롤러 모듈</block>
   <block id="50e67d9b10aa79baef3dc48d6b7a85e0" category="sidebar">부팅 이미지를 교체합니다</block>
   <block id="487a62b1e3f916df9ec01e4837ea1e73" category="sidebar">컨트롤러 하드웨어를 교체합니다</block>
   <block id="d1d724370ac4931ceb4406d2e17a6217" category="sidebar">AFF A220 및 FAS2700 NVMEM 배터리</block>
@@ -3865,16 +3835,6 @@
   <block id="6cc45a7a318afd2ecfa9b7b05c51ce5c" category="sidebar">배지 전원 공급 장치 및 케이블을 이동합니다</block>
   <block id="6d5cfac2de29a5333b0a36fb584f5df6" category="sidebar">도어 힌지 및 잠금 캐치를 반대로 합니다</block>
   <block id="8c8eaddfb0bbf5e47c2729602126527a" category="sidebar">도어 및 조명 배지를 다시 장착하십시오</block>
-  <block id="c8773f5cba3b9e8aa265fa0dc1a2c09e" category="sidebar">AFF A200 시스템</block>
-  <block id="9ea8548070881e82ab793011f6dd50c5" category="sidebar">AFF A200 설치 및 설정</block>
-  <block id="d21266dfc7dc62ffd1536ac599bb377e" category="sidebar">AFF A200 유지보수</block>
-  <block id="9c6b3a3702ca810a8fdf0629162503ce" category="sidebar">AFF A200 부팅 미디어</block>
-  <block id="3388786d3a71e2dc264dd9a25e4c40cc" category="sidebar">AFF A200 섀시</block>
-  <block id="0b6d49e67e764ad459415125bfa3c436" category="sidebar">AFF A200 컨트롤러 모듈</block>
-  <block id="2370f57fe6c0c6e4cad8d7b0722ad58a" category="sidebar">AFF A200 DIMM</block>
-  <block id="69197301cb56574fc56288a3e58f5214" category="sidebar">AFF A200 NVMEM 배터리</block>
-  <block id="5a23c7002956a0e647543225fab68b63" category="sidebar">AFF A200 전원 공급 장치</block>
-  <block id="c806fa9e8b1640e211b0ebdc4dbce098" category="sidebar">AFF A200 실시간 시계 배터리</block>
   <block id="cb74611b1d6389cb0fc09a68cc007132" category="sidebar">NS224 선반 유지 관리</block>
   <block id="3cb52a5c3c25dcd729403c0c723500bc" category="list-text">'storage failover show'-반환' 명령을 사용하여 반환 작업의 진행률을 모니터링합니다.</block>
   <block id="4cc5d765a3b2155ab803f6ce50c11747" category="paragraph">'storage failover show' 명령의 출력에는 'system ID changed on partner' 메시지가 포함되지 않아야 한다.</block>
@@ -4022,17 +3982,10 @@
   <block id="335674b10e9fdcf2eb342bef30970801" category="list-text">시스템에 섀시에 하나의 컨트롤러 모듈만 있는 경우 전원 공급 장치를 끈 다음 손상된 컨트롤러의 전원 코드를 전원에서 분리합니다.</block>
   <block id="b6ea0c6054b7f5b7832dafbb8468dc0f" category="paragraph">손상된 컨트롤러를 인수하거나 중단합니다.</block>
   <block id="4571f480b4cb6246b64d91e6cacdf34c" category="list-text">HA 쌍의 경우 정상적인 컨트롤러에서 손상된 컨트롤러를 넘겨받습니다. 'storage failover -ofnode_impaired_node_name_'</block>
-  <block id="0ebf647b3184259131a8c1ffcdea60dc" category="list-text">system ID mismatch: boot_ontap로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 _replacement_controller의 LOADER 프롬프트에서 컨트롤러를 부팅하고 "y"를 입력합니다</block>
   <block id="a14d65aea00503e78c39b9273b38fa4e" category="paragraph">AFF A700s에는 1차 및 2차 또는 백업 부팅 미디어라는 2개의 부팅 미디어 장치가 있습니다. 손상된 컨트롤러에서 _replacement_controller로 이동한 다음 _replacement_controller의 해당 슬롯에 설치해야 합니다.</block>
   <block id="d0a414fa814c592a9fcc74f3aaae710b" category="paragraph">장애가 있는 컨트롤러 'storage failover -ofnode_impaired_node_name_'을(를) 인수하거나 중단합니다</block>
   <block id="e160675dcb2bc6ebdb28380884820e26" category="paragraph">손상된 컨트롤러에 기브백을 기다리는 중... 이 표시되면 Ctrl-C를 누른 다음 y를 누릅니다.</block>
   <block id="499f2b4faaecf09ce2df725ed89b18e0" category="list-text">복원된 복사본의 사용 여부를 묻는 메시지가 표시되면 y를 누른 다음 컨트롤러를 재부팅하라는 메시지가 나타나면 y를 누릅니다.</block>
-  <block id="6be69aa70f07d7fff388bde809e5a5ae" category="list-text">시스템이 HA 쌍 내에 있는 경우, 정상적인 컨트롤러는 교체되는 컨트롤러를 인수할 수 있어야 합니다(""손상된 노드" 절차라고 함).</block>
-  <block id="7343fb79026ff743ff1923cdd971a19f" category="list-text">이 절차에서는 _ replacement_node가 이전 컨트롤러 모듈과 동일한 버전의 ONTAP에서 부팅되도록 부팅 장치를 손상된 컨트롤러에서 _replacement_node로 이동합니다.</block>
-  <block id="a555f92ceccdc34af0d85dfd74c70d5b" category="list-text">impaired_node는 교체되는 컨트롤러입니다.</block>
-  <block id="5c3bec8c76d405798259f46c3a7883c5" category="list-text">replacement_node는 손상된 컨트롤러를 교체하는 새 컨트롤러입니다.</block>
-  <block id="7963bf953f9aa62d4e259bcb0523a139" category="list-text">healthy_node는 정상적인 컨트롤러입니다.</block>
-  <block id="4d81c64d68f7eeb09101e0c5153a1dfa" category="list-text">refacement_controller의 LOADER 프롬프트에서 시스템 ID 불일치로 인해 시스템 ID를 재정의하라는 메시지가 표시되면 y를 입력하여 컨트롤러를 부팅합니다</block>
   <block id="ea22b9523724a1472e9a6474903abd69" category="list-text">재부팅 시 자동 테이크오버 기능을 비활성화한 경우 정상 컨트롤러 'storage failover modify -node_replacement -node -name_-onreboot true'에서 활성화하십시오</block>
   <block id="1bab600dfeb5dd52557d4dc719a4016b" category="admonition">파트너 컨트롤러 또는 이전 컨트롤러 모듈과 일치하도록 _replacement_controller의 BIOS 버전을 다운그레이드하지 마십시오.</block>
   <block id="a28455bf2eecf6cc499c335ee152cd75" category="paragraph">다음 옵션 중 하나를 사용하여 컨트롤러를 종료하거나 손상된 컨트롤러를 인수합니다.</block>
@@ -4081,7 +4034,6 @@
   <block id="1999e7b9b8a359e0a34178719a904727" category="sidebar">FAS9000 컨트롤러</block>
   <block id="e3c2d91c7cf7bef5a04aecd6ac9a7aa2" category="sidebar">FAS9000 X91148A 모듈</block>
   <block id="3b4f8423fb92aace5b1c957248b6fd18" category="sidebar">캐비닛 및 레일 키트</block>
-  <block id="45f409f69b4619cb11a8c9066bd236ac" category="sidebar">AFF A200 드라이브</block>
   <block id="7cc615fcffd37b0f004ba9169b5db521" category="sidebar">AFF A700s 드라이브</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
@@ -4348,13 +4300,11 @@
   <block id="27858a1c4654311bc60fbcd9494b2c3e" category="admonition">FAS25XX 플랫폼은 이 콘텐츠에 포함되지 않습니다.</block>
   <block id="4efb7705f98005596f065e30ddf32363" category="section-title">다중 경로 HA 구성에서 내부 스토리지를 갖춘 플랫폼 및 다중 쉘프 스택 1개</block>
   <block id="e727b00944f81e1d0a95c12886ac4641" category="inline-link-macro">아카이브</block>
-  <block id="1c91d351b95f21de02a1d9bc700d73d0" category="list-text"><block ref="1c91d351b95f21de02a1d9bc700d73d0" category="inline-link-macro-rx"></block></block>
   <block id="f6bbb48a9b41928e229484fe63e71f8c" category="list-text">영어: <block ref="3584c2c323ff7942e23aca437704f9d5" category="inline-link-macro-rx"></block></block>
   <block id="96f14ebe376369fa093d83ad924d667a" category="paragraph">DIMM을 교체하려면 공기 덕트 상단의 DIMM 맵 레이블을 사용하여 컨트롤러 모듈에서 DIMM을 찾은 다음 특정 순서에 따라 교체해야 합니다.</block>
   <block id="66baa375eeb4eeafaa0788f1450b293e" category="paragraph"><block ref="66baa375eeb4eeafaa0788f1450b293e" category="inline-link-macro-rx"></block></block>
   <block id="cae56c0e35640281e9970acbddf74c50" category="paragraph"><block ref="cae56c0e35640281e9970acbddf74c50" category="inline-link-macro-rx"></block></block>
   <block id="ed65510b4998b0c361d8eb350c655bf1" category="paragraph"><block ref="ed65510b4998b0c361d8eb350c655bf1" category="inline-link-macro-rx"></block></block>
-  <block id="4707af501257324eebcc0182dcfed521" category="inline-link-macro">FAS2600 설치 및 설정 지침</block>
   <block id="b32a57c06a6b6572f324185a0b81d90c" category="paragraph"><block ref="b32a57c06a6b6572f324185a0b81d90c" category="inline-link-macro-rx"></block></block>
   <block id="0acd1668055811ba455a173f5b2007e1" category="inline-link-macro">AFF C190 설치 및 설정 지침</block>
   <block id="0112dd8e71f10fe869246a29836663d8" category="inline-link-macro">AFF A320 설치 및 설정 지침</block>
@@ -4380,7 +4330,6 @@
   <block id="6bcc4bf7321499602cc726d01ccea765" category="paragraph-title">HA 시스템의 시스템 ID 변경을 확인합니다</block>
   <block id="354b2998d28fedeb0bad97fc9be9b342" category="paragraph-title">2노드 MetroCluster 구성에서 시스템 ID를 재할당합니다</block>
   <block id="9826dc7dca2ce77788236ffc0e442de8" category="section-title">2단계: 컨트롤러 모듈의 HA 상태를 확인하고 설정합니다</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">필요한 것</block>
   <block id="7d60346fb854755b0fc4b8486f2e5769" category="section-title">1단계: ONTAP에서 _replacement_controller에 대한 라이센스 설치</block>
   <block id="541648f14089765ba6e8c3198be32507" category="section-title">2단계: 부팅 매체를 교체합니다</block>
   <block id="6fdf23777adc5b39f52f2829b69833e5" category="inline-link-macro">노드를 클러스터와 동기화합니다</block>
@@ -5132,7 +5081,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1c67c4a5ef0b93c44c1f3e9604637e38" category="paragraph">컨트롤러 모듈 및 기타 구성 요소를 새 섀시에 설치한 후 부팅합니다.</block>
   <block id="698f2cd8f343f1ac32bdcdfc0b9af1fb" category="paragraph">컨트롤러 모듈 내에서 구성 요소를 교체한 후 시스템 섀시에 컨트롤러 모듈을 재설치해야 합니다.</block>
   <block id="8171bd500a42ffbddf4d0e299bf71dcf" category="section-title">6단계: 교체 프로세스를 완료합니다</block>
-  <block id="07d72595c4184814138928fe23ee37b5" category="summary">fas2600 하드웨어 유지보수</block>
   <block id="ae73d2a3936345eeef63284cd26d930a" category="paragraph">부팅 매체는 시스템이 부팅될 때 사용하는 1차 및 2차 부팅 이미지 파일 세트를 저장합니다.</block>
   <block id="7e9ed6e15e72a9cf631917888173bc81" category="paragraph">시스템이 모듈이 오프라인으로 전환되었다는 단일 AutoSupport(ASUP) 메시지를 등록할 때 컨트롤러의 캐시 모듈을 교체해야 합니다.</block>
   <block id="178a229b83077855445c0b0d5fa5632e" category="paragraph">섀시는 컨트롤러/CPU 장치, 전원 공급 장치 및 I/O와 같은 모든 컨트롤러 구성 요소를 수용하는 물리적 인클로저입니다</block>
@@ -5169,7 +5117,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="68fd5ab999461d243b31a922d1452997" category="paragraph">시스템을 설치하려면 계정을 만들고 시스템을 등록해야 합니다. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="671f9966e0181f08744e85f7b6d01d05" category="summary">ASA A250 하드웨어 유지보수</block>
   <block id="63c77f3bd33a61dbe342def54e1aaf5b" category="paragraph">ASA A250 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
-  <block id="84fba8bc1002a05a2e1bc0df39a0d311" category="section-title">NVEM 배터리</block>
   <block id="b7a0d897933205e6e22755b6d3ed6203" category="list-text"><block ref="b7a0d897933205e6e22755b6d3ed6203" category="inline-link-macro-rx"></block></block>
   <block id="da918dba24d0605714c5840469413769" category="list-text"><block ref="da918dba24d0605714c5840469413769" category="inline-link-macro-rx"></block></block>
   <block id="2b55ecb41a48bac54ca526b7855130de" category="list-text"><block ref="2b55ecb41a48bac54ca526b7855130de" category="inline-link-macro-rx"></block></block>
@@ -5256,7 +5203,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="1273c9fbc5c944f1ba9781560b258420" category="summary">이 페이지에서는 랙 설치 및 케이블링에서 초기 시스템 시작까지 시스템을 설치하는 일반적인 방법에 대한 그래픽 지침을 제공합니다.</block>
   <block id="352defde9abedd69a5e5e39d250c4daf" category="summary">ASA A150 하드웨어를 유지보수하십시오</block>
   <block id="e6116e8dfa475c652d411a0fbaf5ce6a" category="paragraph">AFF A900 스토리지 시스템의 경우 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
-  <block id="85b170bab39eb57fab62b2cb616a456c" category="list-text">전원 공급 장치와 전원에 전원 케이블을 다시 연결하고 전원을 켜서 부팅 프로세스를 시작합니다.</block>
   <block id="167b832ca3a83bafa75999475b39d066" category="paragraph">ASA A150 시스템 설치 방법을 알아보십시오.</block>
   <block id="fb0d0b3df2f7ab805c8d434d4bac9447" category="paragraph">시스템을 설치하려면 NetApp Support 사이트에 계정을 만들고 시스템을 등록한 다음 라이센스 키를 받으십시오. 또한 시스템에 맞는 케이블 수와 유형을 확인하고 특정 네트워크 정보를 수집해야 합니다.</block>
   <block id="32eaf8761a3db861b1156e2738e758c1" category="paragraph">스위치가 없는 2노드 클러스터 방법 또는 클러스터 인터커넥트 네트워크 방법을 사용하여 컨트롤러를 네트워크에 연결합니다.</block>
@@ -5274,8 +5220,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="e7e663b99514b25c64e06ab89f12a96d" category="summary">하드웨어 교체를 완료하고 유지 관리 모드로 부팅한 후, 교체 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성합니다.</block>
   <block id="9e209d7a48bf7b8bd414632f31a6d032" category="paragraph">FAS9500 스토리지 시스템의 경우 다음 구성 요소에 대해 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="59f0681daaf8f83f78428571c3e8b6d4" category="paragraph">AFF C400 스토리지 시스템의 경우 다음 구성 요소에 대해 유지보수 절차를 수행할 수 있습니다.</block>
-  <block id="7152aeb3bd29d76fe947dfa4c1f97021" category="summary">AFF A200 하드웨어를 유지보수하십시오</block>
-  <block id="ec9ecc2392793e81abb2dd44deb36f6d" category="paragraph">AFF A200 스토리지 시스템의 경우, 다음 구성 요소에 대한 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="f0108a2478f6103ee8c38ce95e6fc7a9" category="paragraph">ASA A400 스토리지 시스템의 경우 다음 구성 요소에 대해 유지보수 절차를 수행할 수 있습니다.</block>
   <block id="c3c10c279bac3cb43b6f1f1f0865469c" category="list-text"><block ref="c3c10c279bac3cb43b6f1f1f0865469c" category="inline-link-macro-rx"></block></block>
   <block id="fbe5ac44caed14b65f65c674c260d4f6" category="list-text"><block ref="fbe5ac44caed14b65f65c674c260d4f6" category="inline-link-macro-rx"></block></block>
@@ -8296,8 +8240,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c9eb9dae2912644361174c87c95e219c" category="paragraph">팬이 고장나거나 효율적으로 작동하지 않는 경우 시스템 냉각 및 전체 성능에 영향을 줄 수 있으므로 AFF A70 또는 AFF A90 시스템에서 팬 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="c3c30014589b4b5af30412dba283a2b0" category="paragraph">AFF A70 또는 AFF A90 시스템에 입출력 모듈을 추가하여 네트워크 연결을 개선하고 데이터 트래픽을 처리하는 시스템의 기능을 확장합니다.</block>
   <block id="52406e048549d7615d438e28022d00e0" category="paragraph">사용 가능한 빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 입출력 모듈을 시스템에 추가할 수 있습니다.</block>
-  <block id="129c4825a4876a3275fe6fde1ef05925" category="paragraph">AFF A70 및 AFF A90 시스템은 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공하여 네트워크 연결 및 성능을 향상합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
-  <block id="bbf73d5cd427d702187273d0f71f8264" category="summary">모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드해야 하는 경우 AFF A70 또는 AFF A90 시스템의 입출력 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="9a14eb4201f018a934225cd84a42221c" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 방전되거나 고장 나면 AFF A70 또는 AFF A90 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="b85925ab6af84e80af54ee558d7cdd7b" category="summary">비휘발성 메모리에 결함이 있거나 업그레이드가 필요한 경우 AFF A70 또는 AFF A90 시스템의 NVRAM를 교체하십시오.</block>
   <block id="2529fd3c33c553ca2e8d9592843f4207" category="summary">AFF A70 또는 AFF A90 시스템에서 일반적으로 코인 셀 배터리라고 하는 실시간 클럭(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스와 응용 프로그램이 계속 작동하도록 합니다.</block>
@@ -8365,9 +8307,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="8014b2531e10b65728f5d00f10086239" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block><block ref="096e9e0acfd801adaf14a881210574f5" category="inline-link-macro-rx"></block></block>
   <block id="09669e45a232b18f400c361ee12274ac" category="summary">지나치게 수정할 수 있거나 수정할 수 없는 메모리 오류가 감지되면 AFF A1K 시스템의 DIMM을 교체합니다. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="12fae7867415134b9f235298c4fc3ae0" category="summary">AFF A1K 시스템에 입출력 모듈을 추가하여 네트워크 연결을 개선하고 데이터 트래픽을 처리하는 시스템의 기능을 확장합니다.</block>
-  <block id="209868bed00d990c1f23476188be7137" category="summary">AFF A1K 시스템은 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공하여 네트워크 연결 및 성능을 향상시킵니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
   <block id="4e411b307b5033fa0adda94171cef0e7" category="paragraph">AFF A1K 스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.</block>
-  <block id="f7322ac5923cab27b4d9379cc2503f3d" category="summary">모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 AFF A1K 시스템의 입출력 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="090242c6b7d29815595d01688302f984" category="summary">AFF A1K 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="cbc15aa840d66555f17bac7b6366a7d0" category="paragraph">유지 관리 절차에서는 AFF A1K 시스템이 이미 ONTAP 환경에서 스토리지 노드로 구축되어 있다고 가정합니다.</block>
   <block id="932fe9a7d62c95f2464fb4f5a7c4337e" category="summary">정전 시 중요한 시스템 데이터를 보존하는 역할을 하므로 배터리가 방전되거나 고장 나면 AFF A1K 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
@@ -8399,9 +8339,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="bdd967d82d036d0ed0b29ba6983694ae" category="paragraph">지나치게 수정할 수 있거나 수정할 수 없는 메모리 오류가 감지되면 ASA A70 또는 ASA A90 시스템의 DIMM을 교체합니다. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="e8afe3e9f56a1403556444ed307a82ea" category="summary">팬이 고장나거나 효율적으로 작동하지 않는 경우 시스템 냉각 및 전체 성능에 영향을 줄 수 있으므로 ASA A70 또는 ASA A90 시스템에서 팬 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="814f0dcd86c15e00b5cb4ad5d628d7d1" category="summary">ASA A70 또는 ASA A90 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
-  <block id="37c709c92540fdfafad949954d9c9d23" category="summary">ASA A70 및 ASA A90 시스템은 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공하여 네트워크 연결 및 성능을 향상합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
   <block id="ef5c567123618039bb9c6365201a9516" category="paragraph">ASA A70 또는 ASA A90 스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.</block>
-  <block id="6ec9d402bdf5f8f281a64877dcfb1834" category="paragraph">모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드해야 하는 경우 ASA A70 또는 ASA A90 시스템의 입출력 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="9820e4314a3e441bfece800b6e086ee5" category="paragraph">ASA A70 및 ASA A90 스토리지 시스템의 하드웨어를 유지 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="156e54fb574402ca9f26edcfaeff46e1" category="paragraph">유지 관리 절차에서는 ASA A70 및 ASA A90 시스템이 이미 ONTAP 환경에 스토리지 노드로 구축되어 있다고 가정합니다.</block>
   <block id="99b88f32607667ac31ffc4d65b240425" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 방전되거나 고장 나면 ASA A70 또는 ASA A90 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
@@ -8420,10 +8358,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3554082e8291b9cdbf124dd341192845" category="summary">손상된 컨트롤러를 종료하고, 컨트롤러를 분리 및 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 ASA A1K 스토리지 시스템의 컨트롤러 교체를 시작하십시오.</block>
   <block id="e74490e131d6ff28bc330a79722d7ee8" category="summary">지나치게 수정할 수 있거나 수정할 수 없는 메모리 오류가 감지되면 ASA A1K 시스템의 DIMM을 교체합니다. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="81fbab84dee840e51b947d05ddd735f0" category="summary">ASA A1K 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 데이터 트래픽 처리 능력을 확장하십시오.</block>
-  <block id="41a0e3b7c23899a0913091e05f33a16c" category="summary">ASA A1K 시스템은 네트워크 연결 및 성능을 향상시키기 위해 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다</block>
-  <block id="1ce826ab1554590d6883aa02769b6bee" category="paragraph">ASA A1K 시스템은 네트워크 연결 및 성능을 향상시키기 위해 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
   <block id="0964259faae5ffbb057f210fdf96f911" category="paragraph">ASA A1K 스토리지 시스템에서 장애가 발생한 입출력 모듈을 동일한 유형의 입출력 모듈 또는 다른 종류의 입출력 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.</block>
-  <block id="271e5509aea40fadf8358832d40d8709" category="summary">모듈에 장애가 발생하거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 ASA A1K 시스템의 입출력 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="0034e19547064f54c68ea2a26e4a1c09" category="summary">ASA A1K 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="f60f4792191ab6f28133159fba4fc7e3" category="paragraph">유지 관리 절차에서는 ASA A1K 시스템이 이미 ONTAP 환경에서 스토리지 노드로 구축되어 있다고 가정합니다.</block>
   <block id="4911cb240fadb3a7b630d1a2812158f0" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 방전되거나 고장 나면 ASA A1K 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
@@ -8441,7 +8376,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3f371c66e80d5513f4a179913cf5b591" category="paragraph">AFF C80 시스템의 DIMM을 교체하십시오. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="c3addd31ef6f6050c2957082a6b8435c" category="summary">팬이 고장나거나 효율적으로 작동하지 않으면 시스템 냉각 및 전체 성능에 영향을 줄 수 있으므로 AFF C80 시스템의 팬 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="099c3c7a7a81ab71ed79331578e0fe3d" category="summary">AFF C80 시스템에 I/O 모듈을 추가하여 네트워크 연결을 개선하고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
-  <block id="aa385fb498b53644f6dc3936ceeb2d7e" category="paragraph">AFF C80 시스템은 네트워크 연결 및 성능을 향상시키기 위해 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
   <block id="dd70af6ac86c3004056a10922bf1e4a7" category="paragraph">유지 관리 절차에서는 AFF C80 시스템이 이미 ONTAP 환경에서 스토리지 노드로 구축되어 있다고 가정합니다.</block>
   <block id="5d542a4393896b1649a9f71a10d0053c" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 충전되지 않거나 고장 나면 AFF C80 시스템의 NV 배터리를 교체하십시오.</block>
   <block id="6c723933775e16b84e349b93a65294be" category="paragraph">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리가 충전되지 않거나 고장 나면 AFF C80 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
@@ -8459,9 +8393,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dcac0d4d44ce3609f70b9f6817380eb7" category="summary">컨트롤러의 HA 구성이 활성 상태이고 FAS70 또는 FAS90 스토리지 시스템에서 올바르게 작동하는지 확인하고 시스템 어댑터에 디스크에 대한 모든 경로가 표시되는지 확인합니다.</block>
   <block id="8f15a6b55f9d40c8f4779330981502f5" category="paragraph">FAS70 또는 FAS90 시스템에 대한 시스템 구성을 복원 및 확인한 후에는 다음을 수행해야 <block ref="f96992113d4cc080f9d372523b7a919c" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="17e4dd018a5a20b5b198058502e171bc" category="summary">손상된 컨트롤러를 종료하고, 컨트롤러를 제거 및 교체하고, 시스템 설정을 재구성하고, 시스템 운영을 확인하여 FAS70 또는 FAS90 스토리지 시스템에서 컨트롤러 교체를 시작하십시오.</block>
-  <block id="86cfd8171cc9d13fd6ba34c5f4b8560b" category="summary">FAS70 또는 FAS90 시스템은 I/O 모듈을 확장 또는 교체할 수 있는 유연성을 제공하여 네트워크 연결 및 성능을 향상합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
   <block id="7b96b7e6eb8df75ce5aff9a62ce657e2" category="paragraph">FAS70 또는 FAS90 스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈 또는 다른 종류의 I/O 모듈로 교체할 수 있습니다. 빈 슬롯이 있는 시스템에 입출력 모듈을 추가할 수도 있습니다.</block>
-  <block id="55658611693e2dfb5ae95b1b317d553f" category="summary">모듈에 장애가 발생하거나 더욱 뛰어난 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 FAS70 또는 FAS90 시스템의 I/O 모듈을 교체합니다. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="763b42955255a221cd56eabbdfc3f915" category="summary">FAS70 또는 FAS90 스토리지 시스템의 하드웨어를 유지하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="95033a171cde1d1e61e319b0408276ff" category="summary">정전 시 중요한 시스템 데이터를 보존해야 하므로 배터리 충전이 소실되거나 고장이 발생하면 FAS70 또는 FAS90 시스템의 NV 배터리를 교체하십시오. 교체 프로세스에는 손상된 컨트롤러를 종료하고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="3431bba91e3459ddc9941bfbb2561cdc" category="summary">비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 FAS70 또는 FAS90 시스템의 NVRAM를 교체합니다.</block>
@@ -8723,12 +8655,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="257315f653a5868c10e8897449aa264f" category="list-text">정상 상태의 컨트롤러 콘솔에서 자동 반환 복원:</block>
   <block id="b9adb77861a7f27800ce914be076df5d" category="list-text"><block ref="b9adb77861a7f27800ce914be076df5d" category="inline-link-macro-rx"></block></block>
   <block id="ec3558cc556230de3472d8f669055445" category="paragraph"><block ref="ec3558cc556230de3472d8f669055445" category="inline-link-macro-rx"></block></block>
-  <block id="b8a400661d0d8f4681160e3984f8fe0e" category="paragraph"><block ref="b8a400661d0d8f4681160e3984f8fe0e" category="inline-link-macro-rx"></block></block>
-  <block id="c17ceb181c73449b45e8ac62b23f0788" category="paragraph"><block ref="c17ceb181c73449b45e8ac62b23f0788" category="inline-link-macro-rx"></block></block>
-  <block id="7d3ad47a619f98568e42b3c81d3fc66e" category="paragraph"><block ref="7d3ad47a619f98568e42b3c81d3fc66e" category="inline-link-macro-rx"></block></block>
-  <block id="3f6b8f5ed334d33d55220057f3840983" category="paragraph"><block ref="3f6b8f5ed334d33d55220057f3840983" category="inline-link-macro-rx"></block></block>
-  <block id="13ac941ecf968dc28151bce5851fd7a9" category="paragraph"><block ref="13ac941ecf968dc28151bce5851fd7a9" category="inline-link-macro-rx"></block></block>
-  <block id="f9314d663ff89799d6d255ab7e3ca079" category="paragraph"><block ref="f9314d663ff89799d6d255ab7e3ca079" category="inline-link-macro-rx"></block></block>
   <block id="83bff0d5c34d578fa839ac49404c9392" category="list-text">컨트롤러 모듈에서 I/O 케이블을 뽑습니다.</block>
   <block id="d86f5a7ed8b3122487d6d2983a3d95f1" category="list-text">컨트롤러 모듈 I/O 케이블을 다시 연결합니다.</block>
   <block id="db424e93139f05b40145c02ca1496dab" category="image-alt">NVDIMM 배터리를 교체합니다</block>
@@ -8868,8 +8794,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c61569158aa3671e77ca597581b887ef" category="summary">과도한 수정 가능 또는 수정 불가능 메모리 오류가 감지된 경우 ASA C30 스토리지 시스템에서 DIMM을 교체하세요. 이러한 오류는 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다. 교체 프로세스에는 손상된 컨트롤러를 종료하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 장애가 발생한 부품을 NetApp로 반환하는 과정이 포함됩니다.</block>
   <block id="f34d2c681546688dd685a08e6231060d" category="summary">팬이 고장나거나 효율적으로 작동하지 않는 경우 ASA C30 스토리지 시스템의 팬 모듈을 교체하세요. 이는 시스템 냉각 및 전반적인 성능에 영향을 미칠 수 있습니다. 교체 프로세스에는 컨트롤러 종료, 컨트롤러 제거, 팬 교체, 컨트롤러 재설치 및 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="6b9adda1cbf39f0e67bdc239d9aa4627" category="summary">ASA C30 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 기능을 확장하세요.</block>
-  <block id="efbf95fd94ecc04d20688f2a1a7413ed" category="summary">ASA C30 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때는 입출력 모듈을 추가하거나 교체하는 것이 중요합니다.</block>
-  <block id="c7d9daf18836286b26e5af2f7a1b19f0" category="summary">모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 ASA C30 스토리지 시스템의 I/O 모듈을 교체합니다. 교체 프로세스에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅하고, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="1bc87c4a07526688d1214c5a431c934a" category="summary">ASA C30 스토리지 시스템의 하드웨어를 관리하여 장기적인 안정성과 최적의 성능을 보장합니다. 고장 난 구성 요소 교체와 같은 정기 유지 관리 작업을 수행하면 가동 중지 시간 및 데이터 손실을 방지할 수 있습니다.</block>
   <block id="907caac40616ad0b3b73482a664ecc6b" category="paragraph">이 섹션의 절차에서는 ASA C30 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.</block>
   <block id="27bfa0f1b8609e118425afe072093cba" category="paragraph">ASA C30 저장 장치 시스템의 경우 다음 구성 요소에 대한 유지 보수 절차를 수행할 수 있습니다.</block>
@@ -9031,9 +8955,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="7725f6ef165da5751744a53bfaec7915" category="list-text">스토리지 시스템은 2노드(스위치리스 또는 스위치드) 클러스터 구성이어야 합니다.</block>
   <block id="f89def9f1f1d555c34df92bcf51e75d4" category="paragraph">손상된 컨트롤러가 건강한 컨트롤러를 성공적으로 인수했는지 확인하려면 다음을 입력하세요. <block ref="ddf400f1cb6b8b9330ed6c79c508123c" prefix=" " category="inline-code"></block> 명령.</block>
   <block id="3f822e21ffc331cafa53f56ab3670d6d" category="paragraph">실패한 I/O 모듈이 어느 컨트롤러에 있는지 확실하지 않은 경우 문의하세요. <block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block> .</block>
-  <block id="cfd09206f0a13c5092d1f58dd42e890d" category="summary">AFF A20, AFF A30 및 AFF A50 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
   <block id="8ef45d64afdfdfbe4e19aaf35faa33ff" category="paragraph">스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈 또는 다른 유형의 I/O 모듈로 교체할 수 있습니다. 스토리지 시스템이 특정 요구 사항을 충족하는 경우 클러스터와 HA I/O 모듈을 핫스왑할 수 있습니다. 또한, 사용 가능한 슬롯이 있는 스토리지 시스템에 I/O 모듈을 추가할 수도 있습니다.</block>
-  <block id="81e3c082eff02c485b0295e28136b279" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 I/O 모듈에 장애가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 해당 모듈을 교체하십시오. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="9371c931f382583c22141a6466950205" category="paragraph">장기적인 안정성과 최적의 성능을 보장하려면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 하드웨어를 정기적으로 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="79240be442fa7f715e4dae09f9c9ae2b" category="paragraph">유지 관리 절차에서는 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.</block>
   <block id="ea1abeada3765e1e32c2a34ae86824ee" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 경우 다음 구성 요소에 대한 유지 관리 절차를 수행할 수 있습니다.</block>
@@ -9051,14 +8973,12 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2e4843ddf40683ca1c00244d80d3270c" category="paragraph">ASA A70 또는 ASA A90 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 올바른 교체 부트 미디어를 가지고 있는지, 손상된 컨트롤러의 클러스터 포트가 제대로 작동하는지, 그리고 Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="957a8300cdf9b41cbbe3e3e196ad4dbb" category="paragraph">ASA A1K 시스템의 부트 미디어를 교체하기 전에 성공적인 교체를 위한 필수 요건을 충족하는지 확인하십시오. 여기에는 올바른 교체 부트 미디어를 가지고 있는지, 손상된 컨트롤러의 클러스터 포트가 제대로 작동하는지, 그리고 Onboard Key Manager(OKM) 또는 External Key Manager(EKM)가 활성화되어 있는지 확인하는 것이 포함됩니다.</block>
   <block id="7cfc66ffab0e5dcaf35aec6c1f45c0e4" category="paragraph">이 절차를 사용하려면 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행해야 하며 특정 시스템 요구 사항을 충족해야 합니다.</block>
-  <block id="7e40ba54f9478efaeb9f51563cb1f923" category="paragraph">ASA C30 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
   <block id="e4fd04a4bd5ca71d2941edf4b47e1b10" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템의 구성 요소에 장애가 발생하면 장애가 발생한 부품을 NetApp 으로 반송하십시오 . <block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 자세한 내용은 페이지를 참조하세요.</block>
   <block id="f34e3d5e404b7b0e5a4fa46255eb8446" category="summary">AFF C30 또는 AFF C60 스토리지 시스템의 데이터 보안을 보장하려면 부트 미디어의 암호화 키 지원 및 상태를 확인해야 합니다. ONTAP 버전이 NetApp 볼륨 암호화를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오.</block>
   <block id="1df39bd3d8f1c2e8bea2ef989716e240" category="summary">AFF C30 또는 AFF C60 스토리지 시스템의 교체 부팅 미디어에 암호화를 복원하여 데이터 보호를 지속하십시오. 교체 프로세스에는 키 가용성 확인, 암호화 설정 재적용, 데이터 보안 액세스 확인이 포함됩니다.</block>
   <block id="103e9425b904ccdc5c06bfd70bca3e6e" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템에 새 부팅 미디어 장치를 설치한 후 USB 드라이브에서 복구 이미지를 수동으로 부팅하여 파트너 노드에서 구성을 복원할 수 있습니다.</block>
   <block id="6810a823f37a2d12b68ed853581ed86a" category="summary">AFF C30 또는 AFF C60 스토리지 시스템의 부팅 미디어에는 필수 펌웨어 및 구성 데이터가 저장됩니다. 교체 과정은 컨트롤러 모듈 제거, 손상된 부팅 미디어 제거, 교체용 부팅 미디어 설치, 그리고 컨트롤러 모듈 재설치로 구성됩니다.</block>
   <block id="f8afa19df6a77c53c4b632f141408f44" category="summary">부트 이미지 자동 복구는 시스템이 적절한 부트 메뉴 옵션을 자동으로 식별하고 선택하는 과정을 포함합니다. 시스템은 파트너 노드의 부트 이미지를 사용하여 AFF C30 또는 AFF C60 스토리지 시스템의 교체 부트 미디어에 ONTAP 다시 설치합니다.</block>
-  <block id="ac8f3969a316894b12e15fbd022b3e6b" category="summary">AFF C30 및 AFF C60 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
   <block id="73cacf52c7ab30fc7a47a1633dbe49f5" category="paragraph">장기적인 안정성과 최적의 성능을 보장하려면 AFF C30 또는 AFF C60 스토리지 시스템의 하드웨어를 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="466d1cf6baca603bba771ae5236812f6" category="paragraph">이 섹션의 절차에서는 AFF C30 또는 AFF C60 스토리지 시스템이 이미 ONTAP 환경에 스토리지 노드로 배포되었다고 가정합니다.</block>
   <block id="e39a5918ade9e607f5afc8f6e8b009f2" category="summary">AFF C80 스토리지 시스템의 구성 요소에 오류가 발생하면 오류가 발생한 부품을 NetApp 으로 반환하세요.</block>
@@ -9269,8 +9189,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="af15476ed3634a2bb5b7a1d9186f2d24" category="summary">팬이 고장나거나 효율적으로 작동하지 않는 경우 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 팬 모듈을 교체하세요. 이는 시스템 냉각 및 전반적인 성능에 영향을 미칠 수 있습니다.  교체 프로세스에는 컨트롤러를 종료하고, 컨트롤러를 제거하고, 팬을 교체하고, 컨트롤러를 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="ec5eefc118260c0afeff84188cf41b90" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 기능을 확장하세요.</block>
   <block id="ceb03e8cd3860ca9352d392908222fa2" category="paragraph">사용 가능한 슬롯이 있는 경우 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에 I/O 모듈을 추가할 수 있습니다.  모든 슬롯이 완전히 채워지면 기존 모듈을 교체하여 새 모듈을 추가할 수 있습니다.</block>
-  <block id="2c483e7e1b393985fed59a22d1eca004" category="summary">ASA A20, ASA A30 및 ASA A50 스토리지 시스템은 네트워크 연결 및 성능 향상을 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 고장난 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
-  <block id="6fe7a823d65eed60023145cea31fe01d" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 I/O 모듈에 장애가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 해당 모듈을 교체하십시오. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="8f596d54dc6b2f6827f3fbc6d7522e74" category="summary">장기적인 안정성과 최적의 성능을 보장하려면 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 하드웨어를 정기적으로 유지 관리하십시오. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="a5bd16a0f9223032d1be2b5213b1264b" category="summary">정전 시에도 중요한 시스템 데이터를 보존하는 역할을 하는 NV 배터리는 배터리가 충전을 잃거나 고장나면 ASA A20, ASA A30 또는 ASA A50 저장 시스템의 NV 배터리를 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="887b99ca213a1df50e6b01633f50061c" category="summary">ASA A20, ASA A30 또는 ASA A50 스토리지 시스템의 AC 또는 DC 전원 공급 장치(PSU)에 오류가 발생하거나 오류가 발생하면 교체하여 시스템이 안정적으로 작동하는 데 필요한 전력을 계속 공급받을 수 있도록 하세요.  교체 과정에는 결함이 있는 PSU를 전원에서 분리하고, 전원 코드를 뽑고, 결함이 있는 PSU를 교체한 다음, 다시 전원에 연결하는 작업이 포함됩니다.</block>
@@ -9289,7 +9207,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b538a349617efe7059d9f642f02517f2" category="paragraph">AFF C30 또는 AFF C60 스토리지 시스템에 대한 컨트롤러 교체를 완료하려면 먼저 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우) 새 컨트롤러에 필요한 라이선스를 설치합니다.  다음으로, 논리적 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고 클러스터 상태 점검을 수행합니다.  마지막으로, 새로운 컨트롤러의 일련번호를 등록한 후, 실패한 부품을 NetApp 으로 반환합니다.</block>
   <block id="d3db264d9eacbc28b1e95a3db2488f15" category="summary">과도한 수정 가능 또는 수정 불가능 메모리 오류가 감지된 경우 AFF C30 또는 AFF C60 스토리지 시스템에서 DIMM을 교체하세요.  이러한 오류로 인해 스토리지 시스템이 ONTAP 부팅하지 못할 수 있습니다.  교체 프로세스에는 손상된 컨트롤러를 종료하고, 제거하고, DIMM을 교체하고, 컨트롤러를 다시 설치한 다음, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="30039d681358f47535e9dc792b85b7ff" category="summary">팬이 고장나거나 효율적으로 작동하지 않는 경우 AFF C30 또는 AFF C60 스토리지 시스템의 팬 모듈을 교체하세요. 이는 시스템 냉각 및 전반적인 성능에 영향을 미칠 수 있습니다.  교체 프로세스에는 컨트롤러를 종료하고, 컨트롤러를 제거하고, 팬을 교체하고, 컨트롤러를 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
-  <block id="9b18885feab6818399cdcd5895dc6c4c" category="summary">모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 AFF C30 또는 AFF C60 스토리지 시스템의 I/O 모듈을 교체합니다. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="c76ddb32b3eb44ec7a4a9ee7f5667f81" category="summary">정전 시에도 중요한 시스템 데이터를 보존하는 역할을 하는 NV 배터리는 배터리가 충전을 잃거나 고장나면 AFF C30 또는 AFF C60 저장 시스템의 NV 배터리를 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="56b247821a3c3c563db2bf847d4d2fb8" category="summary">정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 AFF C30 또는 AFF C60 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.</block>
   <block id="041b63c51d23e85878aad6b23b5c239a" category="summary">FAS50 시스템의 부품을 교체한 후에는 키트와 함께 제공된 RMA 지침에 설명된 대로 오류가 발생한 부품을 NetApp 으로 반품할 수 있습니다.</block>
@@ -9299,8 +9216,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0db644dce9b72e765dfa42cb271aa4bb" category="summary">하드웨어 장애로 인해 FAS50 스토리지 시스템의 컨트롤러를 교체해야 하는 경우  교체 과정에는 손상된 컨트롤러를 제거하고, 구성 요소를 교체 컨트롤러로 옮기고, 교체 컨트롤러를 설치하고, 재부팅하는 과정이 포함됩니다.</block>
   <block id="7f10d81a2af374e7d73011ddfefcffa0" category="summary">FAS50 시스템이 정상적인 작동을 재개할 수 있도록 스토리지 리소스의 제어권을 교체 컨트롤러로 반환하세요.  반환 절차는 시스템에서 사용하는 암호화 유형(암호화 없음, Onboard Key Manager OKM 암호화, External Key Manager EKM 암호화)에 따라 다릅니다.</block>
   <block id="bcab8849efe81ef1ee715149bbf79a0a" category="summary">FAS50 스토리지 시스템의 컨트롤러를 교체하려면 다음 워크플로 단계를 따르세요.</block>
-  <block id="a14f60f5ae08b6e865df544028d7abdf" category="summary">FAS50 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다. 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 해결할 때 I/O 모듈을 추가, 핫스왑 또는 교체하는 것은 필수적입니다.</block>
-  <block id="acf8b5ce343ee24a63607dcd4f9ec33d" category="summary">모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 FAS50 스토리지 시스템의 I/O 모듈을 교체합니다. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="1a9030bf843d5fd6c4e2ffad5e4f7589" category="summary">정전 시에도 중요한 시스템 데이터를 보존하는 역할을 하는 NV 배터리가 충전을 잃거나 고장나면 FAS50 저장 시스템의 NV 배터리를 교체하세요.  교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러 모듈을 제거하고, NV 배터리를 교체하고, 컨트롤러 모듈을 다시 설치하고, 오류가 발생한 부품을 NetApp 으로 반환하는 작업이 포함됩니다.</block>
   <block id="be9875a94cc09d90fb578f7e7eb0c1b9" category="summary">FAS50 스토리지 시스템의 AC 또는 DC 전원 공급 장치(PSU)에 오류가 발생하거나 오류가 생기면 교체하여 시스템이 안정적으로 작동하는 데 필요한 전력을 계속 공급받을 수 있도록 하세요.  교체 과정에는 결함이 있는 PSU를 전원에서 분리하고, 전원 코드를 뽑고, 결함이 있는 PSU를 교체한 다음, 다시 전원에 연결하는 작업이 포함됩니다.</block>
   <block id="5933d58ecdf477732aebddd62290e674" category="summary">정확한 시간 동기화에 의존하는 서비스와 애플리케이션이 계속 작동할 수 있도록 FAS50 스토리지 시스템의 실시간 클록(RTC) 배터리(일반적으로 코인 셀 배터리라고 함)를 교체하세요.</block>
@@ -10151,7 +10066,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="944b54488e810bf40f008acd68c8bcdb" category="inline-link-macro">FAS70/90(자동 복구)</block>
   <block id="20c54f40c4a899a3eca9825001ee5d4c" category="inline-link-macro">FAS70/90(수동 복구)</block>
   <block id="0579e26ccf814487c470d58c82e60a8b" category="inline-link-macro">FAS500f (수동 복구)</block>
-  <block id="293e389f2f48e1feb86b6dbf85c08639" category="inline-link-macro">FAS2600(수동 복구)</block>
   <block id="ad97629439b57d3454974e3994ef7d86" category="inline-link-macro">FAS2700(수동 복구)</block>
   <block id="d1e335efe63312605a092b49b372c511" category="inline-link-macro">FAS2800(자동 복구)</block>
   <block id="b37bb0f0423e3dc64cbff82a8c2f8401" category="inline-link-macro">FAS2800(수동 복구)</block>
@@ -10202,7 +10116,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9de466b45b55df40f269efb9b69bf640" category="list-text"><block ref="9de466b45b55df40f269efb9b69bf640" category="inline-link-macro-rx"></block></block>
   <block id="9e94af5d05024a57814d40a51ea2553f" category="list-text"><block ref="9e94af5d05024a57814d40a51ea2553f" category="inline-link-macro-rx"></block></block>
   <block id="e09cb2a2e64a5d832ba5d49e4e865a30" category="list-text"><block ref="e09cb2a2e64a5d832ba5d49e4e865a30" category="inline-link-macro-rx"></block></block>
-  <block id="ff4bfcae1e1da91372a5829a16edc994" category="list-text"><block ref="ff4bfcae1e1da91372a5829a16edc994" category="inline-link-macro-rx"></block></block>
   <block id="6d9a0b4c551443ef1617138b26975f75" category="list-text"><block ref="6d9a0b4c551443ef1617138b26975f75" category="inline-link-macro-rx"></block></block>
   <block id="e05ae7b3c1ea0c4153454992df283638" category="list-text"><block ref="e05ae7b3c1ea0c4153454992df283638" category="inline-link-macro-rx"></block></block>
   <block id="3323ee5bbd1e10d12ef056c6602c4368" category="list-text"><block ref="3323ee5bbd1e10d12ef056c6602c4368" category="inline-link-macro-rx"></block></block>
@@ -10238,7 +10151,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2522b6ccbd53098c083c8d98e0f9467b" category="list-text"><block ref="2522b6ccbd53098c083c8d98e0f9467b" category="inline-link-macro-rx"></block></block>
   <block id="dfd10f3473c656275329ec0e96e56c33" category="list-text"><block ref="dfd10f3473c656275329ec0e96e56c33" category="inline-link-macro-rx"></block></block>
   <block id="fb0137952b0317febe08d8e945d5fa7a" category="list-text"><block ref="fb0137952b0317febe08d8e945d5fa7a" category="inline-link-macro-rx"></block></block>
-  <block id="3bbdda55ce1e81bc8f185ac07f194fd6" category="list-text"><block ref="3bbdda55ce1e81bc8f185ac07f194fd6" category="inline-link-macro-rx"></block></block>
   <block id="7998d34e9c49d8c01d4b66a5c277d37a" category="list-text"><block ref="7998d34e9c49d8c01d4b66a5c277d37a" category="inline-link-macro-rx"></block></block>
   <block id="562ba6baba5e9d2f0da008ad8de30e1d" category="list-text"><block ref="562ba6baba5e9d2f0da008ad8de30e1d" category="inline-link-macro-rx"></block></block>
   <block id="4f597c8a45f4a7a4bdfbcefebd6db6af" category="list-text"><block ref="4f597c8a45f4a7a4bdfbcefebd6db6af" category="inline-link-macro-rx"></block></block>
@@ -10253,7 +10165,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="9546f8d518305e69a77ec2e47860e0fe" category="paragraph">플랫폼 제품군별로 정리된 NetApp 스토리지 시스템에 대한 캐싱 모듈 교체 절차를 찾아보세요.  이 참고 자료는 FAS 시스템에 대한 단계별 캐싱 모듈 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
   <block id="3a33ed38c63832a2fa4369f5f9f384be" category="list-text"><block ref="3a33ed38c63832a2fa4369f5f9f384be" category="inline-link-macro-rx"></block></block>
   <block id="4ce2ddf75d3889a64f678a40d7b2c07e" category="list-text"><block ref="4ce2ddf75d3889a64f678a40d7b2c07e" category="inline-link-macro-rx"></block></block>
-  <block id="681c056b82ba1ffdf68c4594b4f3ccd7" category="list-text"><block ref="681c056b82ba1ffdf68c4594b4f3ccd7" category="inline-link-macro-rx"></block></block>
   <block id="404c8d6781b44dedbcc4b3387c5113b1" category="list-text"><block ref="404c8d6781b44dedbcc4b3387c5113b1" category="inline-link-macro-rx"></block></block>
   <block id="afc91bb2f6a41a3dedb793e1da15567e" category="list-text"><block ref="afc91bb2f6a41a3dedb793e1da15567e" category="inline-link-macro-rx"></block></block>
   <block id="6a138fa9b6c5961082a0287a25d2aeb6" category="list-text"><block ref="6a138fa9b6c5961082a0287a25d2aeb6" category="inline-link-macro-rx"></block></block>
@@ -10264,7 +10175,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="f8a06880b6e97006b924b97d24f48f14" category="paragraph">플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 섀시 교체 절차를 찾아보세요.  이 참고 자료는 AFF 및 FAS 시스템에 대한 단계별 섀시 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
   <block id="413b4cb25290defbc315d7c11c7f25cb" category="list-text"><block ref="413b4cb25290defbc315d7c11c7f25cb" category="inline-link-macro-rx"></block></block>
   <block id="39af9e6c26414a032ade2fadf211af38" category="list-text"><block ref="39af9e6c26414a032ade2fadf211af38" category="inline-link-macro-rx"></block></block>
-  <block id="61f84ee64f264820c014ce8c41c72fe8" category="list-text"><block ref="61f84ee64f264820c014ce8c41c72fe8" category="inline-link-macro-rx"></block></block>
   <block id="e89a4ca5833791765ec628c8949df314" category="list-text"><block ref="e89a4ca5833791765ec628c8949df314" category="inline-link-macro-rx"></block></block>
   <block id="275e238c8c488cd788182e16de8f8d18" category="list-text"><block ref="275e238c8c488cd788182e16de8f8d18" category="inline-link-macro-rx"></block></block>
   <block id="887671506984a347fc2bb90850eccac4" category="list-text"><block ref="887671506984a347fc2bb90850eccac4" category="inline-link-macro-rx"></block></block>
@@ -10282,7 +10192,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="bd5b1e86a29aef36e6e499c3e57069b9" category="list-text"><block ref="bd5b1e86a29aef36e6e499c3e57069b9" category="inline-link-macro-rx"></block></block>
   <block id="26618a408ce26e97bc2d109a161d3b80" category="list-text"><block ref="26618a408ce26e97bc2d109a161d3b80" category="inline-link-macro-rx"></block></block>
   <block id="7db41139e1008b4583c7fd13af1b0a19" category="list-text"><block ref="7db41139e1008b4583c7fd13af1b0a19" category="inline-link-macro-rx"></block></block>
-  <block id="3e5eb04329f564a2e736e6e39826f7f0" category="list-text"><block ref="3e5eb04329f564a2e736e6e39826f7f0" category="inline-link-macro-rx"></block></block>
   <block id="e5340bb51df7255f8d917738c89e9ea2" category="list-text"><block ref="e5340bb51df7255f8d917738c89e9ea2" category="inline-link-macro-rx"></block></block>
   <block id="5f82ce451d0ee17094c1f6f2d3f735eb" category="list-text"><block ref="5f82ce451d0ee17094c1f6f2d3f735eb" category="inline-link-macro-rx"></block></block>
   <block id="8e5364bed31b7744c08c573502e11fc4" category="list-text"><block ref="8e5364bed31b7744c08c573502e11fc4" category="inline-link-macro-rx"></block></block>
@@ -10294,7 +10203,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="0ec21dafcaae66ea526cd8c3feeb369f" category="list-text"><block ref="0ec21dafcaae66ea526cd8c3feeb369f" category="inline-link-macro-rx"></block></block>
   <block id="74f106c1a88a5c12f519dfc0d9007238" category="list-text"><block ref="74f106c1a88a5c12f519dfc0d9007238" category="inline-link-macro-rx"></block></block>
   <block id="34857cfe5244389bf54d3dfcd8de2578" category="list-text"><block ref="34857cfe5244389bf54d3dfcd8de2578" category="inline-link-macro-rx"></block></block>
-  <block id="f4bfbdfae66e0a67d6b7d4225f7ac84f" category="list-text"><block ref="f4bfbdfae66e0a67d6b7d4225f7ac84f" category="inline-link-macro-rx"></block></block>
   <block id="5c47498d3e11ee9a57ddebd2baefb88d" category="list-text"><block ref="5c47498d3e11ee9a57ddebd2baefb88d" category="inline-link-macro-rx"></block></block>
   <block id="320b62021250ac3397d332e11199a626" category="list-text"><block ref="320b62021250ac3397d332e11199a626" category="inline-link-macro-rx"></block></block>
   <block id="891c5359e682529a1627e4999520d382" category="list-text"><block ref="891c5359e682529a1627e4999520d382" category="inline-link-macro-rx"></block></block>
@@ -10313,7 +10221,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="dfa7981aaa213042de69d18d113dbb70" category="list-text"><block ref="dfa7981aaa213042de69d18d113dbb70" category="inline-link-macro-rx"></block></block>
   <block id="b1c8613a464785e91bef89d1ccbd79af" category="list-text"><block ref="b1c8613a464785e91bef89d1ccbd79af" category="inline-link-macro-rx"></block></block>
   <block id="8353370ee687496a9e70ca73eadba195" category="list-text"><block ref="8353370ee687496a9e70ca73eadba195" category="inline-link-macro-rx"></block></block>
-  <block id="f2e81baf5c47e710bdef3091d5df1390" category="list-text"><block ref="f2e81baf5c47e710bdef3091d5df1390" category="inline-link-macro-rx"></block></block>
   <block id="49c072d4a239128d83dc028820477cc2" category="list-text"><block ref="49c072d4a239128d83dc028820477cc2" category="inline-link-macro-rx"></block></block>
   <block id="3132e68710534e3087e9540fb5faecde" category="list-text"><block ref="3132e68710534e3087e9540fb5faecde" category="inline-link-macro-rx"></block></block>
   <block id="d190ef926760f506c2d8c9da045ea3d6" category="list-text"><block ref="d190ef926760f506c2d8c9da045ea3d6" category="inline-link-macro-rx"></block></block>
@@ -10328,7 +10235,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="509d019926ab616a55716089e8066cb7" category="list-text"><block ref="509d019926ab616a55716089e8066cb7" category="inline-link-macro-rx"></block></block>
   <block id="e61eaed5078ec9f1b6b59da014de6310" category="list-text"><block ref="e61eaed5078ec9f1b6b59da014de6310" category="inline-link-macro-rx"></block></block>
   <block id="b805eea1d33457b5328993876e790c9b" category="list-text"><block ref="b805eea1d33457b5328993876e790c9b" category="inline-link-macro-rx"></block></block>
-  <block id="edc8841b9fc73c0023ba9598c4d2d3b1" category="list-text"><block ref="edc8841b9fc73c0023ba9598c4d2d3b1" category="inline-link-macro-rx"></block></block>
   <block id="dadb1189a4ac2c528da1ba1377267ad7" category="list-text"><block ref="dadb1189a4ac2c528da1ba1377267ad7" category="inline-link-macro-rx"></block></block>
   <block id="83a2469375b0c27e1f03248024deb60a" category="list-text"><block ref="83a2469375b0c27e1f03248024deb60a" category="inline-link-macro-rx"></block></block>
   <block id="9bf33c0f6b9dc1f08bafa31a6d94041b" category="list-text"><block ref="9bf33c0f6b9dc1f08bafa31a6d94041b" category="inline-link-macro-rx"></block></block>
@@ -10359,7 +10265,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2cd58d17f27cf158e8e8e34db64ed8d9" category="list-text"><block ref="2cd58d17f27cf158e8e8e34db64ed8d9" category="inline-link-macro-rx"></block></block>
   <block id="0fa766699ac8e6896b9e744280903757" category="list-text"><block ref="0fa766699ac8e6896b9e744280903757" category="inline-link-macro-rx"></block></block>
   <block id="1ae97fecbb39723867761d41fa0432b1" category="list-text"><block ref="1ae97fecbb39723867761d41fa0432b1" category="inline-link-macro-rx"></block></block>
-  <block id="2e5bfb3c9cfba40c6b883cd4a1cc8410" category="list-text"><block ref="2e5bfb3c9cfba40c6b883cd4a1cc8410" category="inline-link-macro-rx"></block></block>
   <block id="32f3e5427bf104c66b5635ceaf7d340e" category="list-text"><block ref="32f3e5427bf104c66b5635ceaf7d340e" category="inline-link-macro-rx"></block></block>
   <block id="caf2a431b09d1889dea389321ae534b4" category="list-text"><block ref="caf2a431b09d1889dea389321ae534b4" category="inline-link-macro-rx"></block></block>
   <block id="399f37b3a929a12f1e9b388c7a172022" category="list-text"><block ref="399f37b3a929a12f1e9b388c7a172022" category="inline-link-macro-rx"></block></block>
@@ -10369,7 +10274,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d5c3fc0c2d25177f5b932a7171ee9e15" category="doc">플랫폼 제품군별 드라이브 교체 절차</block>
   <block id="a3d085470eba15e9280b129464b8ddb2" category="list-text"><block ref="a3d085470eba15e9280b129464b8ddb2" category="inline-link-macro-rx"></block></block>
   <block id="7c1733a0618e460dfa7b8102d537646a" category="list-text"><block ref="7c1733a0618e460dfa7b8102d537646a" category="inline-link-macro-rx"></block></block>
-  <block id="30a350343257610f821e4d2b27acaaf8" category="list-text"><block ref="30a350343257610f821e4d2b27acaaf8" category="inline-link-macro-rx"></block></block>
   <block id="0c0433d02b08aff75a0ea8a0a17df03f" category="list-text"><block ref="0c0433d02b08aff75a0ea8a0a17df03f" category="inline-link-macro-rx"></block></block>
   <block id="0917d15439d423cf9b16ee33e651642c" category="list-text"><block ref="0917d15439d423cf9b16ee33e651642c" category="inline-link-macro-rx"></block></block>
   <block id="49474fd298e3c7c390e84a91321c2a87" category="list-text"><block ref="49474fd298e3c7c390e84a91321c2a87" category="inline-link-macro-rx"></block></block>
@@ -10389,7 +10293,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c5513e636a006ad9c1c113e28ebd6919" category="list-text"><block ref="c5513e636a006ad9c1c113e28ebd6919" category="inline-link-macro-rx"></block></block>
   <block id="787aa2e132e4c73c1db50d10d2872442" category="list-text"><block ref="787aa2e132e4c73c1db50d10d2872442" category="inline-link-macro-rx"></block></block>
   <block id="b13620c6dc237f64bce227a899e54c68" category="list-text"><block ref="b13620c6dc237f64bce227a899e54c68" category="inline-link-macro-rx"></block></block>
-  <block id="d5abf20692787851aeabe760d3d5ada5" category="list-text"><block ref="d5abf20692787851aeabe760d3d5ada5" category="inline-link-macro-rx"></block></block>
   <block id="42f9aeea39dec6cb69c87d9e8840e66a" category="list-text"><block ref="42f9aeea39dec6cb69c87d9e8840e66a" category="inline-link-macro-rx"></block></block>
   <block id="598947ec13860c87786e16a4b9e3f51a" category="list-text"><block ref="598947ec13860c87786e16a4b9e3f51a" category="inline-link-macro-rx"></block></block>
   <block id="bb464ec75f9af169f624a56ffa2955f3" category="summary">플랫폼 제품군별로 정리된 NetApp 스토리지 시스템의 팬 교체 절차를 찾아보세요.  이 참고 자료는 AFF, ASA 및 FAS 시스템에 대한 단계별 팬 교체 워크플로에 대한 직접 링크를 제공하여 특정 모델에 맞는 올바른 절차를 빠르게 찾는 데 도움을 줍니다.</block>
@@ -10482,7 +10385,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="19fdf710660be381dbee7f8da4227d94" category="list-text"><block ref="19fdf710660be381dbee7f8da4227d94" category="inline-link-macro-rx"></block></block>
   <block id="68cf8dcc4a05b4ec0938073817aad8af" category="list-text"><block ref="68cf8dcc4a05b4ec0938073817aad8af" category="inline-link-macro-rx"></block></block>
   <block id="9b10cdf6eda88aa5a12e51ecbdc904b7" category="list-text"><block ref="9b10cdf6eda88aa5a12e51ecbdc904b7" category="inline-link-macro-rx"></block></block>
-  <block id="8138bd628231989eae16fd63ab3bca92" category="list-text"><block ref="8138bd628231989eae16fd63ab3bca92" category="inline-link-macro-rx"></block></block>
   <block id="e5fb5344e46ff92fa3b08fb1a593199b" category="list-text"><block ref="e5fb5344e46ff92fa3b08fb1a593199b" category="inline-link-macro-rx"></block></block>
   <block id="025dfa9b001dacbd7540060e7725bc82" category="list-text"><block ref="025dfa9b001dacbd7540060e7725bc82" category="inline-link-macro-rx"></block></block>
   <block id="9c9f0bbd25988747f39085ebc666f5e4" category="list-text"><block ref="9c9f0bbd25988747f39085ebc666f5e4" category="inline-link-macro-rx"></block></block>
@@ -10513,7 +10415,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="882d6906bbb976cfdfc65c1f27b96098" category="list-text"><block ref="882d6906bbb976cfdfc65c1f27b96098" category="inline-link-macro-rx"></block></block>
   <block id="1cf7aa1943c1b7a1ddfc0eeb8c996030" category="list-text"><block ref="1cf7aa1943c1b7a1ddfc0eeb8c996030" category="inline-link-macro-rx"></block></block>
   <block id="6dd2781f09a534f988ce250d63de5d5f" category="list-text"><block ref="6dd2781f09a534f988ce250d63de5d5f" category="inline-link-macro-rx"></block></block>
-  <block id="3ad0b4d488ff9d235fa7d8fe35ab895a" category="list-text"><block ref="3ad0b4d488ff9d235fa7d8fe35ab895a" category="inline-link-macro-rx"></block></block>
   <block id="551c3848ca6ae1e3e23199f05a8c9122" category="list-text"><block ref="551c3848ca6ae1e3e23199f05a8c9122" category="inline-link-macro-rx"></block></block>
   <block id="c91af71b22cb5a28829ad559b294c51e" category="list-text"><block ref="c91af71b22cb5a28829ad559b294c51e" category="inline-link-macro-rx"></block></block>
   <block id="8b5aa6238e332ffd503c69330cb072b5" category="list-text"><block ref="8b5aa6238e332ffd503c69330cb072b5" category="inline-link-macro-rx"></block></block>
@@ -10557,7 +10458,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="d232e41ef2942f366d4e4e3039d3dde6" category="list-text"><block ref="d232e41ef2942f366d4e4e3039d3dde6" category="inline-link-macro-rx"></block></block>
   <block id="a547fe1961ee61d1fb3e3c53b629fa67" category="list-text"><block ref="a547fe1961ee61d1fb3e3c53b629fa67" category="inline-link-macro-rx"></block></block>
   <block id="c235833a4ed87358d00d8b27734bda67" category="list-text"><block ref="c235833a4ed87358d00d8b27734bda67" category="inline-link-macro-rx"></block></block>
-  <block id="09407908722325aa98c979f29297819e" category="list-text"><block ref="09407908722325aa98c979f29297819e" category="inline-link-macro-rx"></block></block>
   <block id="99d2706c7d1c3a74c0683a896395d738" category="list-text"><block ref="99d2706c7d1c3a74c0683a896395d738" category="inline-link-macro-rx"></block></block>
   <block id="75e4f760969da5fc11af447716f512fb" category="list-text"><block ref="75e4f760969da5fc11af447716f512fb" category="inline-link-macro-rx"></block></block>
   <block id="b3d66f2fa7f6cf465e21ff675bfa97b4" category="list-text"><block ref="b3d66f2fa7f6cf465e21ff675bfa97b4" category="inline-link-macro-rx"></block></block>
@@ -10587,7 +10487,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2b1fdb0641934559e113d258722672ec" category="list-text"><block ref="2b1fdb0641934559e113d258722672ec" category="inline-link-macro-rx"></block></block>
   <block id="4b571e10c3a117a1c90caed4f72c6c22" category="list-text"><block ref="4b571e10c3a117a1c90caed4f72c6c22" category="inline-link-macro-rx"></block></block>
   <block id="cf93fd5eaa867e4261e04e860ee832a5" category="list-text"><block ref="cf93fd5eaa867e4261e04e860ee832a5" category="inline-link-macro-rx"></block></block>
-  <block id="5b2b8a8dbbfb5f25cbe2710ff1fe346f" category="list-text"><block ref="5b2b8a8dbbfb5f25cbe2710ff1fe346f" category="inline-link-macro-rx"></block></block>
   <block id="a204615262d4060772e83d72fa9d2e34" category="list-text"><block ref="a204615262d4060772e83d72fa9d2e34" category="inline-link-macro-rx"></block></block>
   <block id="b64270ff0834613108f7dc667d622f80" category="list-text"><block ref="b64270ff0834613108f7dc667d622f80" category="inline-link-macro-rx"></block></block>
   <block id="94fea596490678220573afb52b95f5eb" category="list-text"><block ref="94fea596490678220573afb52b95f5eb" category="inline-link-macro-rx"></block></block>
@@ -10598,7 +10497,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3dc8350e60b8601315d1a14175aded21" category="list-text"><block ref="3dc8350e60b8601315d1a14175aded21" category="inline-link-macro-rx"></block></block>
   <block id="9ae102bd259983cf2409ce0c2c6e4b6e" category="list-text"><block ref="9ae102bd259983cf2409ce0c2c6e4b6e" category="inline-link-macro-rx"></block></block>
   <block id="6ec55ff57b48b05dc31c5c2dcff3c971" category="list-text"><block ref="6ec55ff57b48b05dc31c5c2dcff3c971" category="inline-link-macro-rx"></block></block>
-  <block id="2a30e7f4eaf7defffec9a8d6ff6b3df7" category="list-text"><block ref="2a30e7f4eaf7defffec9a8d6ff6b3df7" category="inline-link-macro-rx"></block></block>
   <block id="1cc30d1992b9a52a072cbc9fbc7b0cdc" category="list-text"><block ref="1cc30d1992b9a52a072cbc9fbc7b0cdc" category="inline-link-macro-rx"></block></block>
   <block id="5389bfd0d71f87580bc2a8e5b6e08d13" category="list-text"><block ref="5389bfd0d71f87580bc2a8e5b6e08d13" category="inline-link-macro-rx"></block></block>
   <block id="c5036cf6563df358b2b7ce18af29ddea" category="list-text"><block ref="c5036cf6563df358b2b7ce18af29ddea" category="inline-link-macro-rx"></block></block>
@@ -10628,7 +10526,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c351c434f29e077b830dd1412fbe0f37" category="list-text"><block ref="c351c434f29e077b830dd1412fbe0f37" category="inline-link-macro-rx"></block></block>
   <block id="afff51883ee9447f42aa8d1a30a39272" category="list-text"><block ref="afff51883ee9447f42aa8d1a30a39272" category="inline-link-macro-rx"></block></block>
   <block id="8292d9d4235b4819e59a20b0a4fb142b" category="list-text"><block ref="8292d9d4235b4819e59a20b0a4fb142b" category="inline-link-macro-rx"></block></block>
-  <block id="7255c66cc5422aa93a4fa41e95648231" category="list-text"><block ref="7255c66cc5422aa93a4fa41e95648231" category="inline-link-macro-rx"></block></block>
   <block id="235df728508fbb35b1324cdf7b6060f6" category="list-text"><block ref="235df728508fbb35b1324cdf7b6060f6" category="inline-link-macro-rx"></block></block>
   <block id="af94cecaf2c529ae3b8a3c59956267d3" category="list-text"><block ref="af94cecaf2c529ae3b8a3c59956267d3" category="inline-link-macro-rx"></block></block>
   <block id="356e708986e10daf8f33ee110c8e1459" category="list-text"><block ref="356e708986e10daf8f33ee110c8e1459" category="inline-link-macro-rx"></block></block>
@@ -10851,11 +10748,9 @@ SFP+(타겟/이니시에이터)</block>
   <block id="55a805dc1b4e566d982fa51383909399" category="paragraph">AFX 1K 스토리지 시스템의 경우 다음 구성 요소에 대한 유지 관리 절차를 수행할 수 있습니다.</block>
   <block id="ab7b8c913b9efd45d5c9bcd0a6349c30" category="summary">AFX 1K 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결을 강화하고 시스템의 데이터 트래픽 처리 능력을 확장하세요.</block>
   <block id="d0cb457957ef93870e05fde6f1d7e0b1" category="paragraph">빈 슬롯이 있거나 모든 슬롯이 완전히 채워진 경우 AFX 1K 스토리지 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
-  <block id="466feff7e54715b87511b39db238ce7d" category="summary">AFX 1K 스토리지 시스템은 네트워크 연결성과 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체하는 데 있어 유연성을 제공합니다.  네트워크 기능을 업그레이드하거나 오류가 발생한 모듈을 처리할 때 I/O 모듈을 추가하거나 교체하는 것이 필수적입니다.</block>
   <block id="9cd46df360ef153dd45a51d4a00f87bd" category="paragraph">AFX 1K 스토리지 시스템에서 오류가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈이나 다른 유형의 I/O 모듈로 교체할 수 있습니다.  빈 슬롯이 있는 시스템에 I/O 모듈을 추가할 수도 있습니다.</block>
   <block id="da12583a4d621e7218100e3f47fba9fd" category="paragraph">AFX 1K 컨트롤러의 I/O 슬롯은 다음 그림과 같이 1부터 11까지 번호가 매겨져 있습니다.</block>
   <block id="d6ae5fc17c7f8e706e65e9de9aa07e33" category="image-alt">AFX 1K 컨트롤러의 슬롯 번호 매기기</block>
-  <block id="2d1e260989bdb9eb272a3c7a309e1dc0" category="summary">AFX 1K 스토리지 시스템의 I/O 모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 해당 모듈을 교체합니다. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="20914731863c8477aa5b351df0d1d958" category="paragraph">AFX 1K 스토리지 시스템의 I/O 모듈에 오류가 발생하면 해당 모듈을 교체합니다. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.</block>
   <block id="27852913bf5f385e1b1ff032d05b76c9" category="summary">장기적인 안정성과 최적의 성능을 보장하려면 AFX 1K 스토리지 시스템의 하드웨어를 유지 관리하세요. 고장난 부품 교체와 같은 정기적인 유지 관리 작업을 수행하면 가동 중지 및 데이터 손실을 방지하는 데 도움이 됩니다.</block>
   <block id="a193d75be0d71a17cf7c6470ab81044a" category="paragraph">유지 관리 절차에서는 AFX 1K 스토리지 시스템이 이미 ONTAP 환경에서 스토리지 노드로 배포되었다고 가정합니다.</block>
@@ -11276,7 +11171,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="5330f5637c19275857b53632b7aaa06c" category="summary">AFF C80 시스템의 섀시 교체를 시작하려면 교체 요구 사항을 검토하고, 컨트롤러를 종료하고, 섀시를 교체하고, 시스템 작업을 확인하세요.</block>
   <block id="76f5f34488e514a65bf0c31e970e4fe7" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block><block ref="24cfaad2045c82e6542685b8f9154291" category="inline-link-macro-rx"></block></block>
   <block id="88cf8f1d92159c3cdea53a734f1d7a26" category="paragraph">손상된 AFF C80 컨트롤러를 교체한 후에는 다음을 수행해야 합니다.<block ref="ba0281d4e0b6e4cebf5e13fd7e583c92" category="inline-link-macro-rx"></block> .</block>
-  <block id="345fb173829c711fcd65d0471db9547b" category="paragraph">AFF C80 시스템의 I/O 모듈에 오류가 발생하거나 더 높은 성능이나 추가 기능을 지원하기 위한 업그레이드가 필요한 경우 해당 모듈을 교체합니다. 교체 절차는 컨트롤러 종료, 장애 발생 I/O 모듈 교체, 컨트롤러 재부팅, 그리고 장애 발생 부품을 NetApp 에 반환하는 과정으로 구성됩니다.  이 절차는 스토리지 시스템에서 지원하는 모든 버전의 ONTAP 에서 사용할 수 있습니다.</block>
   <block id="cf99c258aade4f04e63c51a37a560c71" category="paragraph">비휘발성 메모리에 오류가 발생하거나 업그레이드가 필요한 경우 AFF C80 시스템의 NVRAM 교체하세요. 교체 프로세스에는 손상된 컨트롤러를 끄고, 컨트롤러를 몇 인치 빼내어 전원을 완전히 차단하고, NVRAM 모듈이나 NVRAM DIMM을 교체하고, 디스크를 재할당하고, 오류가 발생한 부품을 NetApp 에 ​​반환하는 작업이 포함됩니다.</block>
   <block id="c239ad11021e49c97ea2bf8272c6588a" category="paragraph">이 프로세스는 파트너 노드에서 적절한 파일을 복원하고 노드를 재부팅합니다. 다음 단계로 넘어가세요.</block>
   <block id="774ee8b1398c2f16e1d77ddac27a50b0" category="inline-xref">자동 환불 다시 활성화</block>
@@ -11523,13 +11417,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fca9c8461c6c2e8a996867347aa55ff7" category="list-text"><block ref="fca9c8461c6c2e8a996867347aa55ff7" category="inline-link-macro-rx"></block></block>
   <block id="10039cc1a20163d1a931d80c0770f45e" category="paragraph"><block ref="10039cc1a20163d1a931d80c0770f45e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c8477b205c2f67bd8717734004366332" category="paragraph"><block ref="c8477b205c2f67bd8717734004366332" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ca21db06c06912b48d17c3197e6d0983" category="summary">부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송할 수 있습니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
-  <block id="314a33b9cb2380e7bf6cbe30954dba92" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 컨트롤러의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
-  <block id="9189347a6ca1f63634b31ff8e62e599e" category="paragraph">저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="417433163e7f6e44354674ded41b7b04" category="paragraph">교체 부팅 미디어에 암호화를 복원합니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="9c0b613b1dfa8fe40241db2b67428c79" category="paragraph">USB 드라이브에서 ONTAP 이미지를 부팅하고 파일 시스템을 복원한 다음 환경 변수를 확인해야 합니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="1b8db95aad32c822a8a3c157ccea8f39" category="paragraph">부팅 미디어에는 시스템이 부팅될 때 사용하는 기본 및 보조 시스템(부팅 이미지) 파일 세트가 저장됩니다. 네트워크 구성에 따라 중단 없는 교체 또는 중단 있는 교체를 수행할 수 있습니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="b61a13acff8399ece630b606d1113c40" category="paragraph">부팅 미디어를 교체하려면 손상된 컨트롤러 모듈을 제거하고, 교체용 부팅 미디어를 설치한 다음, 부팅 이미지를 USB 플래시 드라이브로 전송해야 합니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="6185eb520e4a892c1c1cea93ce86e7a6" category="summary">부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송할 수 있습니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="2f2b66e4958780f4b0218a228e142375" category="summary">손상된 컨트롤러를 종료하고 온보드 암호화 키의 상태를 확인하기 전에, 먼저 손상된 컨트롤러의 상태를 확인하고 자동 반환 기능을 비활성화한 다음 시스템에서 실행 중인 ONTAP 버전을 확인해야 합니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="5e4d3493c495db06014fa5d1c4ba98a2" category="paragraph">저장 시스템의 데이터 보안을 보장하려면 부팅 미디어에서 암호화 키 지원 여부와 상태를 확인해야 합니다. 사용 중인 ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하고, 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
@@ -11599,18 +11486,7 @@ SFP+(타겟/이니시에이터)</block>
   <block id="b3a51b10ba02ec214448df46a80734a4" category="paragraph">AFF C190 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오. 부팅 미디어에는 시스템 시작 시 사용되는 기본 및 보조 부팅 이미지 파일이 저장됩니다. 네트워크 구성에 따라 무중단 교체(HA 쌍이 네트워크에 연결됨) 또는 중단 교체(두 번의 재부팅 필요)를 수행할 수 있습니다.</block>
   <block id="5124334c95b4d6c8ba42a76baa65cc6a" category="summary">AFF C190 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. AFF C190 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="93e482204e53a43fa356c54257d0114c" category="paragraph">AFF C190 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. 이 절차에는 섀시에서 컨트롤러 모듈을 제거하고, 부팅 미디어 구성 요소를 물리적으로 교체하고, USB 플래시 드라이브를 사용하여 부팅 이미지를 교체 미디어로 전송하고, 시스템을 정상 작동 상태로 복원하는 과정이 포함됩니다.</block>
-  <block id="7436c89939496dcc28b8f9c7ccbc772a" category="summary">부품을 교체한 후에는 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송할 수 있습니다. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
-  <block id="c2a4b06d1cc1349c24f24b820ee36069" category="paragraph">키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp 으로 반송하십시오. 보세요<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 자세한 내용은 해당 페이지를 참조하십시오. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="48f99a557cdb12e066cd81c373c3ea86" category="summary">FAS2600 시스템에서 문제가 발생한 컨트롤러를 종료하기 전에 암호화 키 지원 여부와 상태를 확인하십시오. 이 절차에는 ONTAP 버전 호환성 확인이 포함됩니다. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="7ca680c61f0050a8d5510b0654331ca0" category="paragraph">FAS2600 시스템에서 문제가 발생한 컨트롤러를 종료하기 전에 암호화 키 지원 여부와 상태를 확인하십시오. 이 절차에는 NetApp 볼륨 암호화(NVE)와의 ONTAP 버전 호환성 확인, 키 관리자 구성 검증, 부팅 미디어 복구 중 데이터 보안을 보장하기 위한 암호화 정보 백업이 포함됩니다.</block>
-  <block id="e50bbd9920423b606b77b8053d9e14c2" category="paragraph">FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="65ef36d139347b00ddbea88d18eec7c3" category="summary">FAS2600 시스템의 교체 부팅 미디어에 암호화 구성을 복원합니다. 이 절차에는 안전한 데이터 액세스와 적절한 시스템 작동을 보장하기 위해 온보드 키 관리자(OKM), NetApp 스토리지 암호화(NSE) 또는 NetApp 볼륨 암호화(NVE)가 활성화된 시스템에 대한 교체 후 단계를 완료하는 과정이 포함됩니다.</block>
-  <block id="61bf013e936b5989a900bd93a27115a9" category="summary">FAS2600 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="f1a9c41d9d6f039272f569eb3baf2a2f" category="paragraph">FAS2600 시스템에서 USB 드라이브의 ONTAP 복구 이미지를 부팅하여 부팅 미디어를 복원하십시오. 이 절차에는 USB 플래시 드라이브로 부팅, 파일 시스템 복원, 환경 변수 확인, 부팅 미디어 교체 후 컨트롤러를 정상 작동 상태로 되돌리는 과정이 포함됩니다.</block>
-  <block id="caf2f3e60e8b9a5df9864a5424e47837" category="summary">FAS2600 시스템의 부팅 미디어 교체에 대해 알아보고 다양한 교체 방법을 이해하십시오. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="3fd4ff674a02896028e93e76dac4e3f6" category="paragraph">부팅 미디어에는 시스템 시작 시 사용되는 기본 및 보조 부팅 이미지 파일이 저장됩니다. 네트워크 구성에 따라 무중단 교체(HA 쌍이 네트워크에 연결됨) 또는 중단 교체(두 번의 재부팅 필요)를 수행할 수 있습니다.</block>
-  <block id="531859330aaf7d2cb986bba1ea86611e" category="summary">FAS2600 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. FAS2600 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
-  <block id="c5cd0685223ec8c9dfe118b80eebe6ee" category="paragraph">FAS2600 컨트롤러 모듈의 고장난 부팅 미디어를 교체하십시오. 이 절차에는 섀시에서 컨트롤러 모듈을 제거하고, 부팅 미디어 구성 요소를 물리적으로 교체하고, USB 플래시 드라이브를 사용하여 부팅 이미지를 교체 미디어로 전송하고, 시스템을 정상 작동 상태로 복원하는 과정이 포함됩니다.</block>
   <block id="6453951e8d3ca08e9ff3620e8eafe394" category="paragraph">FAS2700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="12be28c959d52cd55789d7b31c840e89" category="summary">FAS2700 시스템에서 문제가 발생한 컨트롤러를 종료하기 전에 암호화 키 지원 여부와 상태를 확인하십시오. FAS2700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
   <block id="d3c8f46411c2bbf048f38ffb243dcb21" category="paragraph">FAS2700 시스템에서 문제가 발생한 컨트롤러를 종료하기 전에 암호화 키 지원 여부와 상태를 확인하십시오. 이 절차에는 NetApp 볼륨 암호화(NVE)와의 ONTAP 버전 호환성 확인, 키 관리자 구성 검증, 부팅 미디어 복구 중 데이터 보안을 보장하기 위한 암호화 정보 백업이 포함됩니다.</block>
@@ -11737,7 +11613,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="61ab2f6fe01d01bce4a87e48be1493c1" category="paragraph">특정 I/O 모듈을 동등한 I/O 모듈로 핫 스왑하여 스토리지 시스템을 최적의 작동 상태로 복원할 수 있습니다. 핫 스왑은 수동 인수를 수행하지 않고도 완료됩니다.</block>
   <block id="ae89dd56e08246659e7955d44c92b9b6" category="paragraph">이 절차를 사용하려면 스토리지 시스템에서 ONTAP 9.17.1 이상을 실행하고 있어야 하며 시스템에서 실행 중인 ONTAP 버전에 대한 특정 요구 사항을 충족해야 합니다.</block>
   <block id="8ae7298c03883a8f408cfa1fb9c4fe9c" category="paragraph">고장난 I/O 모듈을 교체하여 스토리지 시스템을 최적의 작동 상태로 복원할 수 있습니다. 이 절차를 수행하려면 장애가 발생한 I/O 모듈이 있는 컨트롤러를 수동으로 테이크오버해야 합니다.</block>
-  <block id="59dd68824341b9d12dc0f67dd0a19dd5" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 I/O 모듈에 장애가 발생했거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 해당 모듈을 교체하십시오.</block>
   <block id="409d2a0e01863ea7b2af0d1b786d3202" category="paragraph">교체 과정에는 컨트롤러를 종료하고, 고장난 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 다음, 고장난 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
   <block id="f25ec35d4d5d6570eef543875b7ce480" category="paragraph"><block ref="f25ec35d4d5d6570eef543875b7ce480" category="inline-link-macro-rx"></block></block>
   <block id="bef7447398a4953152c06dad098a3830" category="summary">모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF A70 또는 AFF A90 스토리지 시스템에서 Ethernet I/O 모듈을 핫 스왑할 수 있습니다.</block>
@@ -11770,7 +11645,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ac0edc01a83e9b848b8cd4718317d3b3" category="list-text">AFF A-Series: A20, A30, A50</block>
   <block id="9531e61578bd8f565b10aa312388a87a" category="list-text">ASA r2: A20, A30, A50 및 C30</block>
   <block id="d5c98b58ffa424b5c269675a0f776ed1" category="list-text">AFF C-Series: C30 및 C60</block>
-  <block id="ba607022106b5e84e7dfdb6cde2391c0" category="list-text">FAS: FS50</block>
   <block id="6ed5230d92cdb5bd5ad6144ce76dc227" category="section-title">AFF C800 가용성 종료</block>
   <block id="1099abf3488280e460b0bdb29efaa68e" category="paragraph">AFF C800 시스템은 단종 예정 제품 목록으로 이동되었으며 더 이상 신규 주문이 불가능합니다.</block>
   <block id="89d808282bc3d02e142a92d345c4532a" category="inline-link-macro">단종 예정 하드웨어 보기</block>
@@ -12005,7 +11879,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="46a429f4c90efb3ab452cd903f164c59" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 컨트롤러 교체를 완료하려면 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 새 컨트롤러의 일련 번호를 등록하고 고장난 부품을 NetApp에 반환하십시오.</block>
   <block id="d446c02343f0a4295a7f9f44014d22ab" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템이 안정적으로 작동하는 데 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 PSU를 전원에서 분리하고 전원 코드를 뽑은 다음 고장 난 PSU를 교체하고 전원에 다시 연결하는 것으로 구성됩니다.</block>
   <block id="85f75fd3645ce89116e6f687ee1734ad" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 실시간 클록 배터리(일반적으로 코인형 배터리라고 함)를 교체하십시오.</block>
-  <block id="e34a49184932e88ae65124025512a1d7" category="summary">부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 부팅 이미지 파일 세트가 저장됩니다. 네트워크 구성에 따라 무중단 또는 중단 방식의 교체를 수행할 수 있습니다. AFF A200 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="939703437888acbc2d9527b5d77140bc" category="summary">AFF A220 스토리지 시스템의 교체 부팅 미디어에서 암호화를 복원합니다. AFF A220은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="d2cc36611130df774860ec2f75f321e9" category="summary">부팅 미디어에는 시스템 부팅 시 사용되는 기본 및 보조 시스템 파일 세트가 저장됩니다. AFF A220 시스템은 수동 부팅 미디어 복구 절차만 지원합니다.</block>
   <block id="6e22aeba684a6e97574c0d3f9369cbe5" category="summary">시스템을 완전히 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환하십시오.</block>
@@ -12126,7 +11999,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4d0de1aa903c8531ee993843c390d95b" category="summary">시스템에서 플래시 수명이 거의 다 되었거나 식별된 NVDIMM이 전반적으로 정상 상태가 아니라고 등록하면 컨트롤러 모듈의 NVDIMM을 교체해야 합니다. 그렇지 않으면 시스템 패닉이 발생합니다.</block>
   <block id="871ad3ba53041c3a75cf83648e719c3a" category="summary">모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFF C80 스토리지 시스템에서 이더넷 IO 모듈을 핫 스왑할 수 있습니다.</block>
   <block id="0e2576bf6135181a77de0afbb0ddb287" category="summary">AFF C80 스토리지 시스템에서 장애가 발생한 IO 모듈을 동일한 유형의 IO 모듈 또는 다른 유형의 IO 모듈로 교체할 수 있습니다. 또한 빈 슬롯이 있는 시스템에 IO 모듈을 추가할 수도 있습니다.</block>
-  <block id="476cd2535436c394ffae21a94050d5d6" category="summary">AFF C80 시스템의 IO 모듈이 고장 나거나 더 높은 성능 또는 추가 기능을 지원하기 위해 업그레이드가 필요한 경우 해당 모듈을 교체하십시오.</block>
   <block id="e4951c72c27c4acc805899cfd7022d28" category="summary">AFF C80 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고, 전원 케이블을 뽑고, 고장 난 장치를 교체한 후 전원에 다시 연결하는 방식으로 진행됩니다.</block>
   <block id="9b6acfe0850d0b16626e69b449fc54ed" category="summary">시스템을 완전히 복원하려면 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러용 라이센스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
   <block id="ac0d5817bcde76d7fd9530fd7038f298" category="summary">AFF C800 시스템에서 수정 가능하거나 수정 불가능한 메모리 오류가 과도하게 감지되면 DIMM을 교체하십시오. 이러한 오류로 인해 스토리지 시스템이 ONTAP를 부팅하지 못할 수 있습니다.</block>
@@ -12135,7 +12007,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="628e0ea8f430824b56ef084c36c8b583" category="summary">논리 인터페이스(LIF)가 홈 포트에 보고하는지 확인하고, 클러스터 상태 점검을 수행한 다음, 고장난 부품을 NetApp에 반환하여 FAS70 또는 FAS90 컨트롤러 교체 절차의 최종 단계를 완료하십시오.</block>
   <block id="4d88092f49391634d941c7f9a01627af" category="summary">FAS70 또는 FAS90 시스템의 AC 또는 DC 전원 공급 장치(PSU)가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받도록 하십시오. 교체 과정은 고장 난 PSU를 전원에서 분리하고 전원 케이블을 뽑은 다음 고장 난 PSU를 교체하고 전원에 다시 연결하는 것으로 구성됩니다.</block>
   <block id="b07aea309906d731bba58ed3043ff468" category="summary">FAS70 또는 FAS90 시스템의 실시간 클록 RTC 배터리(일반적으로 코인형 배터리라고 함)를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
-  <block id="0579440bb13bf2bfd41f6329073bb6bd" category="summary">FAS2600 시스템의 교체 부팅 미디어에 암호화 구성을 복원합니다. 이 절차에는 온보드 키 관리자, NetApp 스토리지 암호화 또는 NetApp 볼륨 암호화가 활성화된 시스템의 안전한 데이터 액세스 및 정상적인 시스템 작동을 보장하기 위한 교체 후 단계가 포함됩니다.</block>
   <block id="57c27de2d3a4250a794c5126c7689cd5" category="summary">시스템에서 모듈이 오프라인 상태가 되었다는 AutoSupport 메시지가 한 번이라도 발생하면 컨트롤러 모듈의 캐싱 모듈을 교체해야 합니다. 그렇지 않으면 성능 저하가 발생합니다.</block>
   <block id="af859bb04cfd8d814e3a4c1ae6fc8477" category="summary">FAS50 시스템의 컨트롤러 교체를 완료하려면 먼저 필요한 경우 NetApp Storage Encryption 구성을 복원하고 새 컨트롤러에 필요한 라이센스를 설치하십시오. 다음으로 논리 인터페이스가 홈 포트로 보고하는지 확인하고 클러스터 상태 점검을 수행하십시오. 마지막으로 새 컨트롤러의 일련 번호를 등록한 후 고장난 부품을 NetApp에 반환하십시오.</block>
   <block id="9a52199d89b9bc792962d6ff8bee75a4" category="summary">FAS50 스토리지 시스템의 AC 또는 DC 전원 공급 장치가 고장 나거나 오작동하는 경우 교체하여 시스템의 안정적인 작동에 필요한 전원을 지속적으로 공급받을 수 있도록 하십시오. 교체 과정은 고장 난 전원 공급 장치를 전원에서 분리하고 전원 코드를 뽑은 다음, 고장 난 전원 공급 장치를 교체하고 전원에 다시 연결하는 것입니다.</block>
@@ -12745,7 +12616,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ce6d38b71c3fb3c7fb2ed59d66f0506e" category="paragraph">AFX 2K 스토리지 시스템에 I/O 모듈을 추가하여 네트워크 연결성을 향상시키고 시스템의 데이터 트래픽 처리 능력을 확장하십시오.</block>
   <block id="4fdb5fecd36bff72c28077c8ef1fdd69" category="paragraph">빈 슬롯이 있거나 모든 슬롯이 꽉 찼을 때 AFX 2K 스토리지 시스템에 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="69f81f2052320136f3837bb5dc90b742" category="paragraph">모듈에 장애가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 AFX 2K 스토리지 시스템에서 이더넷 I/O 모듈을 핫 스왑할 수 있습니다.</block>
-  <block id="2a86a987b9aaad96420c91330dbf1d59" category="paragraph">AFX 2K 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. I/O 모듈을 추가하거나 교체하는 것은 네트워크 기능을 업그레이드하거나 장애가 발생한 모듈을 처리할 때 필수적입니다.</block>
   <block id="e79912bea1cf19564789abe796691f33" category="paragraph">AFX 2K 스토리지 시스템에서 장애가 발생한 I/O 모듈을 동일한 유형의 I/O 모듈 또는 다른 유형의 I/O 모듈로 교체할 수 있습니다. 또한 빈 슬롯이 있는 시스템에 I/O 모듈을 추가할 수도 있습니다.</block>
   <block id="93c17c81de596806e55e0bcb545b0124" category="paragraph">AFX 2K 컨트롤러의 I/O 슬롯은 다음 그림과 같이 1번부터 11번까지 번호가 매겨져 있습니다.</block>
   <block id="0c0b8e9d6d48f25f140564908a0fbefe" category="image-alt">AFX 2K 컨트롤러의 슬롯 번호 매기기</block>
@@ -13069,25 +12939,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="46bf8af591b2eda39968cb80a0f47b49" category="sidebar">단종된 ONTAP 하드웨어 시스템은 더 이상 구매할 수 없지만, 지원은 계속 제공됩니다.</block>
   <block id="16b1cc12b78f6d1dcc110d94859b49e4" category="sidebar">스토리지 시스템 설명서를 통해 ONTAP 하드웨어 시스템을 설치, 설정 및 유지 관리할 수 있습니다.</block>
   <block id="26762e33a00f4bd9df870ba0826976fe" category="sidebar">ONTAP 하드웨어 시스템의 시스템 구성 요소 교체 참조 자료</block>
-  <block id="0104e66d9e929de2c820eda8a168d62f" category="doc">장애가 발생한 AFF A200 부팅 미디어를 NetApp에 반환합니다</block>
-  <block id="06f7d4e6134dc668f23ab320d6b3e9a0" category="paragraph">키트에 동봉된 RMA 지침에 따라 부팅 미디어를 교체한 후 고장난 AFF A200 부팅 미디어를 NetApp으로 반송하십시오. 자세한 내용은<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 페이지를 참조하십시오.</block>
-  <block id="0b2c3bffea4ee561ec2f3dbe6d1d3428" category="paragraph">AFF A200 시스템의 섀시 교체를 완료하려면 섀시의 HA 상태를 확인하고 고장난 구성 요소를 NetApp에 반환하십시오.</block>
-  <block id="2b4d4dfc43648b0e9df811a6260d961b" category="paragraph">AFF A200 시스템의 섀시를 교체하려면 고장난 섀시에서 교체 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈을 이동합니다.</block>
-  <block id="5e673a54df555f24a1ec50acea66c551" category="paragraph">AFF A200 시스템의 섀시를 교체하기 전에 성공적인 교체를 위한 요구 사항을 검토하십시오. 섀시 교체 절차는 손상된 섀시에서 교체 섀시로 모든 전원 공급 장치, 드라이브 및 컨트롤러 모듈을 이동하며 시스템 운영에 지장을 줄 수 있습니다.</block>
-  <block id="a2b90fab545cfbc1e415d7fe44582700" category="paragraph">섀시를 교체하기 전에 AFF A200 시스템의 두 컨트롤러를 모두 종료하십시오.</block>
-  <block id="aefc43b3610e35b9b1e83cc93bd2e024" category="paragraph">AFF A200 시스템의 컨트롤러를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체용 컨트롤러 모듈로 옮긴 다음, 섀시에 설치하고 유지보수 모드로 부팅하십시오.</block>
-  <block id="a675ff6b0117e134f314c9702d2ec61b" category="paragraph">AFF A200 시스템의 컨트롤러를 교체하기 전에 교체 절차의 필수 조건을 검토하고 사용 중인 ONTAP 버전에 맞는 올바른 절차를 선택하십시오.</block>
-  <block id="c51a11a464c2e925b807bc73b9a976d7" category="paragraph">AFF A200 시스템의 컨트롤러 교체를 완료하려면 스토리지 케이블을 다시 연결하고 디스크 재할당을 확인하십시오.</block>
-  <block id="5838fb0d2918ac04d69dc5e33f8b02e5" category="paragraph">AFF A200 시스템의 컨트롤러 교체를 완료하려면 NetApp 스토리지 암호화 구성을 복원하고(필요한 경우), 새 컨트롤러에 대한 라이선스를 설치한 다음, 고장난 부품을 NetApp에 반환하십시오.</block>
-  <block id="afd493941b5f981a7c63dee13c17fadf" category="paragraph">AFF A200 시스템의 손상된 컨트롤러를 교체하기 전에, 해당 컨트롤러의 제어권을 넘겨받아 LOADER 프롬프트가 나타날 때까지 시스템을 종료하십시오.</block>
-  <block id="b7122890ae6c72cf4b16404dc8113df0" category="paragraph">하드웨어 교체를 완료하고 유지보수 모드로 부팅한 후 AFF A200 시스템에서 컨트롤러 구성을 복원하고 확인하십시오.</block>
-  <block id="39d7c7aca6a6ad7f79e977c00917402b" category="paragraph">AFF A200 스토리지 시스템에서 과도한 수정 가능한 ECC 오류 또는 수정 불가능한 ECC 오류가 발생하는 경우(일반적으로 단일 DIMM 오류로 인해 발생), DIMM을 교체하십시오.</block>
-  <block id="d3fd4494dbf63c71696ce8826bbb8c37" category="paragraph"><block ref="b22470d24dd615c99a09a118a80f7353" category="inline-link-macro-rx"></block>를 사용하여 새 시스템을 설치하고 설정할 수 있습니다. 이 PDF 포스터에는 추가 콘텐츠에 대한 라이브 링크와 함께 단계별 지침이 포함되어 있습니다.</block>
-  <block id="0e1b9b0a9ab429b2c10c7ea50a97b64e" category="paragraph">AFF A200 스토리지 시스템을 설치하고 설정하는 과정을 안내하는 다양한 콘텐츠 형식 중에서 선택할 수 있습니다.</block>
-  <block id="4d7066c6f0b69e280436a9ac4c5394ab" category="paragraph"><block ref="f25ec35d4d5d6570eef543875b7ce480" category="inline-link-macro-rx"></block>을 사용하여 AFF A200 클러스터 구성 시 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록하십시오.</block>
-  <block id="344aa08de2d42d5f9edb020f8c5f573d" category="paragraph">AFF A200 시스템의 NVMEM 배터리를 교체하려면 컨트롤러 모듈을 분리하고, 모듈 내부를 열어 배터리를 교체한 후 컨트롤러 모듈을 다시 설치하십시오.</block>
-  <block id="dfe2696884bd9fcff290074bdf378045" category="paragraph">AFF A200 시스템에서 전원 공급 장치를 핫스왑하려면 고장난 장치의 전원을 끄고 연결을 해제한 후 제거하고, 교체품을 설치하고 다시 연결하십시오.</block>
-  <block id="5893ed026e31ace43f8cec165a4f29d2" category="paragraph">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A200 시스템의 실시간 클록(RTC) 배터리를 교체하십시오.</block>
   <block id="aa7fc9d45e33a7233c30fc88fd913d28" category="doc">장애가 발생한 AFF A220 부팅 미디어를 NetApp에 반환합니다</block>
   <block id="61be71d3c8579f1c952d1530cf275401" category="paragraph">AFF A220 시스템의 USB 드라이브에서 ONTAP 복구 이미지를 부팅하여 수동 부팅 복구 프로세스를 통해 부팅 미디어를 복원하십시오.</block>
   <block id="c7bd2f9deaa1aac1437a037fa997de1b" category="paragraph">AFF A220 시스템의 섀시 교체를 완료하려면 섀시의 HA 상태를 확인하고 고장난 구성 요소를 NetApp에 반환하십시오.</block>
@@ -13242,7 +13093,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="fe848609a155f7dd1abb65bb14adf50a" category="summary">AFX 2K 스토리지 시스템에서 고장난 컨트롤러를 종료하고, 컨트롤러를 제거한 후 새 컨트롤러로 교체하고, 시스템 설정을 재구성하고, 시스템 작동을 확인하여 컨트롤러 교체를 시작하십시오.</block>
   <block id="ceb34cf3c1594495f284c17b375df916" category="doc">AFX 2K 컨트롤러 교체 워크플로</block>
   <block id="707b1f50e0ca8aa033bddfc3cabba83d" category="summary">AFX 2K 시스템의 고장난 팬 모듈을 교체하여 적절한 냉각을 유지하고 시스템 성능 문제를 예방하십시오. 팬은 핫 스왑 방식으로 시스템을 종료하지 않고도 교체할 수 있습니다.</block>
-  <block id="0ad8d8ae7ed314dd1184838325dd4cc1" category="summary">AFX 2K 스토리지 시스템에서 모듈에 오류가 발생하거나 성능 향상 또는 추가 기능 지원을 위해 업그레이드가 필요한 경우 I/O 모듈을 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 고장난 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 고장난 부품을 NetApp에 반환하는 단계로 구성됩니다.</block>
   <block id="5cd6d8d96dbcfbdba89053f1453b3c90" category="summary">AFX 2K 스토리지 시스템의 비휘발성 메모리에 결함이 발생하거나 업그레이드가 필요한 경우 NVRAM을 교체하십시오.</block>
   <block id="2d5d2e9f869b797f1791978aa3583233" category="summary">AFX 2K 스토리지 시스템의 AC 전원 공급 장치가 고장 나거나 결함이 있을 때 교체하여 시스템이 안정적인 작동에 필요한 전원을 계속 공급받을 수 있도록 하십시오. 교체 과정은 대상 PSU의 전원을 차단하고 전원 케이블을 뽑은 후, 고장 난 PSU를 제거하고 교체용 PSU를 설치한 다음 전원에 다시 연결하는 순서로 진행됩니다.</block>
   <block id="1eeec8acc2203e520c62eb6b0bf6b7e9" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하려면 AFX 2K 스토리지 시스템의 실시간 클록 배터리를 교체하십시오.</block>
@@ -13324,53 +13174,12 @@ SFP+(타겟/이니시에이터)</block>
   <block id="31f364d347499c03d3ea1ab94e53a068" category="paragraph">FAS70 또는 FAS90 스토리지 시스템에 빈 슬롯이 있거나 모든 슬롯이 가득 찬 경우 I/O 모듈을 추가할 수 있습니다.</block>
   <block id="5c757ca2f17f2e4bfa55f13192c4d332" category="summary">FAS70 또는 FAS90 스토리지 시스템에서 모듈에 오류가 발생하고 스토리지 시스템이 모든 ONTAP 버전 요구 사항을 충족하는 경우 Ethernet I/O 모듈을 핫 스왑할 수 있습니다.</block>
   <block id="56464f5b3edcde1d753be0fee5092598" category="list-text">핫 스왑을 수행하는 동안 올바른 컨트롤러와 I/O 슬롯에 명령을 적용해야 합니다.</block>
-  <block id="30a96a9dc86872ac794fe22c742ac39c" category="doc">실패한 FAS2600 부팅 미디어를 NetApp에 반환합니다</block>
   <block id="3f19a4eca68328ea74e33683c67f93e7" category="list-text">환경 변수가 예상대로 설정되었는지 확인하십시오.</block>
-  <block id="66e206caf30ab492b7a49c826e8880ed" category="list-text">시스템이 독립형 시스템인 경우 네트워크 연결은 필요하지 않지만, var 파일 시스템을 복원할 때 추가로 재부팅을 수행해야 합니다.</block>
-  <block id="bb9eab214c746da40d44b1228c6debaa" category="admonition">설정하는 대상 포트는 네트워크 연결을 통해 var 파일 시스템 복원 중에 정상 컨트롤러에서 손상된 컨트롤러와 통신하는 데 사용하는 포트입니다. 이 명령에서 e0M 포트를 사용할 수도 있습니다.</block>
-  <block id="09c1b377160571b2f8698e5ce155da0a" category="summary">시스템에서 모듈이 오프라인 상태가 되었다는 단일 AutoSupport 메시지가 등록되면 FAS2600 시스템의 캐싱 모듈을 교체하십시오. 그렇지 않으면 성능 저하가 발생합니다.</block>
-  <block id="bb96cf3b0c8dec700537d774453fd0ad" category="paragraph">FAS2600 시스템에서 모듈이 오프라인 상태가 되었다는 단일 AutoSupport(ASUP) 메시지가 등록되면 캐싱 모듈을 교체하십시오. 그렇지 않으면 성능 저하가 발생합니다.</block>
-  <block id="163cccdd038e61edbb6ece582dbd165e" category="paragraph">캐싱 모듈은 컨트롤러 라벨에 M.2 PCIe 카드라고 표시되어 있습니다. 컨트롤러 내부에서 해당 슬롯을 찾고 다음 단계를 따르십시오.</block>
-  <block id="dafd016da4c16c63f9dc972844658fd0" category="summary">섀시의 HA 상태를 확인하고 고장난 구성 요소를 NetApp에 반환하여 FAS2600 시스템의 섀시 교체를 완료합니다.</block>
-  <block id="c36abd125ebb806e40f189acd484be38" category="paragraph">섀시의 HA 상태를 확인하고 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반송하여 FAS2600 시스템의 섀시 교체를 완료하십시오.</block>
-  <block id="0266a19a257d36eb0dfe9d66d0322288" category="summary">FAS2600 시스템의 손상된 섀시에서 교체용 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈을 옮긴 다음, 장비 랙 또는 시스템 캐비닛에서 기존 섀시를 동일 모델의 새 섀시로 교체하십시오.</block>
-  <block id="36429a8a6c76cb2dce62df18d9b38e7e" category="paragraph">동일한 섀시에 두 개의 컨트롤러 모듈이 있는 HA 쌍의 경우, 각 컨트롤러가 섀시에 완전히 장착되는 즉시 재부팅되므로 설치 순서가 중요합니다.</block>
-  <block id="a81ab88741f7fb679b51f58e03549365" category="summary">FAS2600 시스템의 섀시를 교체하기 전에 구성 요소를 교체용 섀시로 이동하고 장비 랙 또는 시스템 캐비닛에 설치하기 위한 요구 사항을 검토하십시오.</block>
-  <block id="55998d6748d2304c5629d5c09349d7d3" category="paragraph">FAS2600 시스템의 섀시를 교체하기 전에, 고장난 섀시에서 새 섀시로 전원 공급 장치, 하드 드라이브 및 컨트롤러 모듈을 이동하고, 장비 랙 또는 시스템 캐비닛에서 고장난 섀시를 동일 모델의 새 섀시로 교체하기 위한 요구 사항을 검토하십시오.</block>
   <block id="bc202bec76b7f34057564a5e51454c89" category="paragraph">시스템의 다른 모든 구성 요소가 제대로 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오.</block>
-  <block id="ebcca84dc4d0c6c3fceeb6df040b5971" category="list-text">이 절차는 서비스 중단을 초래합니다. 2노드 클러스터의 경우 서비스가 완전히 중단되고, 다중 노드 클러스터의 경우 부분적인 서비스 중단이 발생합니다.</block>
-  <block id="c83cb12c0f48f2e21b3663189816e8e9" category="paragraph">FAS2600 시스템의 컨트롤러를 교체하려면 손상된 컨트롤러를 제거하고, FRU 구성 요소를 교체용 컨트롤러 모듈로 옮기고, 교체용 컨트롤러 모듈을 섀시에 설치한 다음 시스템을 유지보수 모드로 부팅하십시오.</block>
   <block id="7742b6ca8ec09657d13829f2dc898e06" category="paragraph">DIMM은 슬롯에 꽉 맞게 장착되지만, 쉽게 들어가야 합니다. 만약 잘 들어가지 않으면, DIMM을 슬롯에 맞춰 다시 삽입하십시오.</block>
-  <block id="0def676f42eb5cb1dc5bbb8c855414d5" category="paragraph">컨트롤러 라벨에 M.2 PCIe 카드라고 표시된 캐싱 모듈을 기존 컨트롤러 모듈에서 교체용 컨트롤러 모듈로 옮기려면 다음 단계를 따르십시오.</block>
-  <block id="e19277c60b70171625aeb6956b39011c" category="paragraph">새 컨트롤러 모듈을 준비해야만 기존 컨트롤러 모듈의 캐싱 모듈을 새 컨트롤러 모듈의 해당 슬롯으로 직접 옮길 수 있습니다. 스토리지 시스템의 다른 모든 구성 요소가 올바르게 작동해야 합니다. 그렇지 않은 경우 기술 지원 부서에 문의하십시오.</block>
-  <block id="9edd0361742f06b3816b160b39264088" category="paragraph">동일한 섀시에 두 개의 컨트롤러 모듈이 있는 HA 쌍의 경우, 컨트롤러 모듈을 설치하는 순서가 특히 중요합니다. 컨트롤러 모듈은 섀시에 완전히 장착되는 즉시 재부팅을 시도하기 때문입니다.</block>
   <block id="642b1a8cad9503576be3ccf9772f10d7" category="admonition">이 절차 후반부에서 나머지 케이블을 컨트롤러 모듈에 연결합니다.</block>
-  <block id="fd2bc76b84e348613501286204dddad5" category="summary">FAS2600 시스템의 컨트롤러를 교체하기 전에 교체 절차의 필수 조건을 검토하고 사용 중인 ONTAP 운영 체제 버전에 맞는 올바른 절차를 선택하십시오.</block>
-  <block id="ae1465d13cf1eb9382b6edfea99fb72e" category="summary">스토리지를 다시 연결하고 디스크 재할당을 확인한 후 나머지 작업을 완료하여 컨트롤러를 반납하고 FAS2600 시스템을 정상 작동 상태로 복원하십시오.</block>
-  <block id="f6e9a06b5e4710fb64b7ea3fde9bb6f1" category="summary">FAS2600 시스템을 정상 작동 상태로 복원하려면 NetApp 스토리지 암호화 구성을 복원하고 새 컨트롤러용 라이선스를 설치한 다음 고장난 부품을 NetApp에 반환해야 합니다.</block>
-  <block id="8c143f51f56e3287dcdd6f12f79c1677" category="paragraph">FAS2600 시스템을 정상 작동 상태로 복원하려면 NetApp Storage Encryption 구성을 복원하고(필요한 경우), 새 컨트롤러용 라이선스를 설치한 다음, 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반환해야 합니다.</block>
-  <block id="73ed320fb5c95a0a7a1a19f2044aea0e" category="summary">FAS2600 시스템에서 손상된 컨트롤러를 교체하기 전에 해당 컨트롤러의 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 계속 데이터를 제공할 수 있도록 손상된 컨트롤러를 인계받아 종료하십시오.</block>
-  <block id="b79bfef4682cac03197bc08fe1978bc1" category="paragraph">FAS2600 시스템에서 손상된 컨트롤러를 교체하기 전에 해당 컨트롤러의 상태를 확인하고, 필요한 경우 정상적인 컨트롤러가 손상된 컨트롤러의 스토리지에서 데이터를 계속 제공할 수 있도록 테이크오버를 수행한 후 손상된 컨트롤러를 종료하십시오.</block>
-  <block id="4baddf570f8367842b8b132b85b7c984" category="summary">하드웨어 교체를 완료하고 유지보수 모드로 부팅한 후 FAS2600 시스템에서 컨트롤러 구성을 복원하고 확인하십시오.</block>
-  <block id="908509ede66dc9ae2f990027fb3fd496" category="paragraph">하드웨어 교체를 완료하고 유지보수 모드로 부팅한 후 FAS2600 시스템에서 컨트롤러 구성을 복원하고 확인하십시오. 교체된 컨트롤러의 하위 수준 시스템 구성을 확인하고 필요에 따라 시스템 설정을 재구성하십시오.</block>
-  <block id="22ca7f04ce2f2fd6d3cebf5f4a4ee806" category="paragraph">다른 구성 요소가 제대로 작동하지 않으면 기술 지원 부서에 문의하십시오.</block>
-  <block id="2e0ef6528924d5e618067466c09a80fd" category="summary">PDF 포스터를 사용하여 FAS2600 시스템을 설치하고 설정할 수 있습니다. PDF 포스터에는 단계별 지침과 추가 콘텐츠 링크가 포함되어 있습니다.</block>
-  <block id="06ba883bb29cfc5a3b0dca2e8aac942f" category="paragraph"><block ref="7bcaada228bfef0bb9707c307be17530" category="inline-link-macro-rx"></block>을 사용하여 FAS2600 시스템을 설치하고 설정할 수 있습니다. PDF 파일에는 단계별 지침과 추가 콘텐츠에 대한 라이브 링크가 포함되어 있습니다.</block>
-  <block id="9575891351ba8bd601ff9688ed58cd29" category="summary">FAS2600 시스템을 설치하고 설정하려면 다양한 콘텐츠 형식 중에서 선택하십시오.</block>
-  <block id="404f8692016b1a6db6e68c2699a7e8a4" category="summary">이 비디오는 ONTAP 9.2를 실행하는 FAS2600 시스템의 엔드 투 엔드 소프트웨어 구성을 보여줍니다.</block>
-  <block id="bd3271f2fed54bdd67153e233039bad8" category="paragraph">이 비디오를 시청하여 ONTAP 9.2를 실행하는 FAS2600 시스템의 엔드 투 엔드 소프트웨어 구성에 대해 알아보십시오.</block>
-  <block id="e32cda9d8ea5d663b0e5f72054c0945b" category="summary">이 워크시트를 사용하여 FAS2600 시스템용 ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록할 수 있습니다.</block>
-  <block id="3af3e98e937a011a4d960e80df31439e" category="paragraph"><block ref="72e7cdb99ab8c050f94092b7b0899905" category="inline-link-macro-rx"></block>을 사용하여 FAS2600 시스템용 ONTAP 클러스터를 구성할 때 필요한 사이트별 IP 주소 및 기타 정보를 수집하고 기록하십시오.</block>
-  <block id="caa80fbdaa18256fe507114689522a4d" category="paragraph">FAS2600 스토리지 시스템의 다음 구성 요소에 대해 유지 관리 절차를 수행할 수 있습니다.</block>
-  <block id="887c82173bd91c5f66fe4f5e034d2117" category="summary">FAS2600 시스템의 NVMEM 배터리를 교체하려면 컨트롤러 모듈을 제거하고 배터리를 교체한 다음 컨트롤러 모듈을 다시 설치하십시오.</block>
-  <block id="598c8be4b49938a2840bba9166e66267" category="paragraph">FAS2600 시스템의 NVMEM 배터리를 교체하려면 컨트롤러 모듈을 분리하고, 모듈을 열고, 배터리를 교체한 다음, 컨트롤러 모듈을 닫고 다시 설치하십시오.</block>
   <block id="f7897952e6dca8c88816c8d7fb5232b7" category="paragraph">시스템의 다른 구성 요소가 올바르게 작동하지 않는 경우 기술 지원 부서에 문의하십시오.</block>
-  <block id="99816bfa7cff0c4d5fcce0dc62e12362" category="summary">FAS2600 시스템에서 전원 공급 장치를 핫스왑하려면 고장난 장치의 전원을 끄고 연결을 해제한 후 제거하고, 교체품을 설치하고 다시 연결하십시오.</block>
-  <block id="9102f8eb785601578d97ab00fc9fa948" category="paragraph">FAS2600 시스템에서 전원 공급 장치를 핫스왑하려면 기존 전원 공급 장치를 끄고, 분리하고, 제거한 다음 새 전원 공급 장치를 설치하고, 연결하고, 켜십시오.</block>
-  <block id="14caf5089eba467ed35c55265e0474ec" category="admonition">냉각 기능이 전원 공급 장치와 통합되어 있으므로 공기 흐름 감소로 인한 과열을 방지하려면 전원 공급 장치를 제거한 후 2분 이내에 교체해야 합니다. 섀시는 두 개의 HA 노드에 대해 공유 냉각 구성을 제공하므로 2분 이상 지연되면 섀시의 모든 컨트롤러 모듈이 종료됩니다. 두 컨트롤러 모듈이 모두 종료된 경우, 두 전원 공급 장치가 모두 제대로 연결되어 있는지 확인하고, 두 전원 공급 장치의 전원을 30초 동안 끈 다음 다시 켜십시오.</block>
   <block id="63828ab14500fdee44511aca8e9efc00" category="paragraph">전원 공급 장치에 전원이 복구되면 상태 LED가 녹색으로 켜져야 합니다.</block>
-  <block id="5274f50719062f4bf90255e5c9a27b89" category="summary">FAS2600 시스템의 실시간 클록 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
-  <block id="454f64784ea5b3b2a98a547944adf583" category="paragraph">FAS2600 시스템의 실시간 클록(RTC) 배터리를 교체하여 정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 하십시오.</block>
   <block id="8f4798acd8449cb11d5d5b2a89f18938" category="summary">FAS2700 시스템의 부팅 미디어를 교체한 후 키트에 동봉된 RMA 지침에 따라 고장난 부품을 NetApp으로 반송하십시오.</block>
   <block id="44b1d414266e4d557cc274b9daab7550" category="doc">실패한 FAS2700 부팅 미디어를 NetApp에 반환합니다</block>
   <block id="046e0a7fccc524dc00d4b8f1251960b6" category="paragraph">자세한 내용은<block ref="f2d8b0d8f345a4e987bed9853cde2668" category="inline-link-rx"></block> 페이지를 참조하십시오. FAS2700 시스템은 수동 부팅 미디어 복구 절차만 지원합니다. 자동 부팅 미디어 복구는 지원되지 않습니다.</block>
@@ -13746,7 +13555,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="2d87a00a93c3bbfe825f5651526dda18" category="paragraph">스토리지 시스템의 다른 모든 구성 요소가 정상적으로 작동해야 합니다. 그렇지 않은 경우 이 절차를 계속 진행하기 전에 <block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>에 문의하십시오.</block>
   <block id="d5faff5e0d36735b8c8469047195cd2a" category="admonition">RTC 배터리를 교체하고 컨트롤러를 삽입한 후 시스템 전원을 켜서 처음으로 BIOS를 재설정하면 다음과 같은 오류 메시지가 나타납니다.<block ref="049ec00df3ddcbe28d63cf4fa733682c" prefix=" " category="inline-code"></block><block ref="6c8ad83004cc8bc224a596f5f1682744" prefix=" " category="inline-code"></block> 이러한 메시지는 정상적인 현상이므로 절차를 계속 진행할 수 있습니다.</block>
   <block id="b05d1e7f78f1ec99bc81a090715d2b3a" category="list-text">LOADER 프롬프트에서 <block ref="bfa99df33b137bc8fb5f5407d7e58da8" prefix=" " category="inline-code"></block>을 입력하여 I/O 모듈 및 기타 구성 요소를 다시 초기화하고 컨트롤러를 재부팅합니다.</block>
-  <block id="4399da6bdabccdfdf68ca5f73958819d" category="summary">AFF A200 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A200 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="024349708598c2b62b13aa43e519752f" category="summary">AFF A220 스토리지 시스템의 수동 부팅 미디어 복구 과정 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 AFF A220 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="0369224cb7b34b9f300b154276c8ca18" category="paragraph">NVE 또는 NSE 작업을 완료한 후에는 컨트롤러를 종료해야 합니다.</block>
   <block id="d254d1045397ae5a20f8432d8e040a77" category="paragraph">AFF A250 스토리지 시스템의 데이터 보안을 위해 부팅 미디어에서 암호화 키 지원 및 상태를 확인하십시오. ONTAP 버전이 NetApp 볼륨 암호화(NVE)를 지원하는지 확인하십시오. 컨트롤러를 종료하기 전에 키 관리자가 활성화되어 있는지 확인하십시오.</block>
@@ -13921,7 +13729,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="660b0062bde8e6a847def6e138989137" category="summary">FAS70 또는 FAS90 스토리지 시스템 부팅 미디어를 교체할 때는 데이터 손실을 방지하고 시스템 안정성을 확보하기 위해 컨트롤러를 종료하십시오.</block>
   <block id="2a41971dc5dc0b84eae0cd47af62d3ec" category="paragraph">스토리지 시스템 자동 부팅 미디어 복구 프로세스 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS70 또는 FAS90 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="ae80c6cba62d7448616fca4e9ea209ca" category="summary">스토리지 시스템 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 FAS70 또는 FAS90 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
-  <block id="56a5e5b9c98fb8147ab07c152d49f6ec" category="summary">스토리지 시스템 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 FAS2600 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="303e1440a7feca3522dbe58d5d43ba65" category="summary">스토리지 시스템 데이터 손실을 방지하고 수동 부팅 미디어 복구 과정 중 시스템 안정성을 유지하려면 FAS2700 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="9e786fcb1f06c961613793688300813b" category="summary">FAS2820 스토리지 시스템 부팅 미디어를 교체할 때는 데이터 손실을 방지하고 시스템 안정성을 유지하기 위해 FAS2820 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
   <block id="ef7529ec0bdb1f612289cee3bb19834d" category="paragraph">자동 부팅 미디어 복구 프로세스 중 데이터 손실을 방지하고 시스템 안정성을 유지하려면 FAS2820 스토리지 시스템의 컨트롤러를 종료하십시오.</block>
@@ -14013,27 +13820,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c62385b0cf386a33ac0f72528074297e" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 NV 배터리를 교체합니다</block>
   <block id="dc4476660692318c3be67b73e1124e46" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템에서 전원 공급 장치를 핫스왑합니다</block>
   <block id="431e369301e5eedb097da9d1cda2f6b2" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 실시간 클록 배터리를 교체합니다</block>
-  <block id="c41db4136588a886c876e4525e6a4235" category="doc">AFF A200 시스템의 부팅 미디어에서 암호화 지원 확인</block>
-  <block id="23724a7cbdd11dea5549f4f7555dbfa0" category="doc">AFF A200 시스템의 부팅 미디어에서 암호화를 복원합니다</block>
-  <block id="b5e0abc9410427bf05a488a8edd127ae" category="doc">AFF A200 시스템에서 복구 이미지를 부팅합니다.</block>
-  <block id="26c2274f5cc9461b1cec92237a920af0" category="doc">AFF A200 시스템에서 부팅 미디어 교체에 대해 알아보기</block>
-  <block id="b0f6d72d130bcc35417a6192782a8b81" category="doc">AFF A200 시스템의 부팅 미디어 교체</block>
-  <block id="5f113dfe77a1605ca9709e93d3aa6969" category="doc">수동 부팅 복구 과정 중 AFF A200 시스템의 컨트롤러 종료</block>
-  <block id="3ac02b2f8e79455e964ab7c5547e92e0" category="doc">AFF A200 시스템의 섀시 교체를 완료합니다</block>
-  <block id="5b1863ccac0eb028b6bd29ffc9fad021" category="doc">AFF A200 시스템의 섀시 교체</block>
-  <block id="094a3fa68dc87e291810786b2337f96e" category="doc">섀시 교체를 위해 AFF A200 컨트롤러를 종료합니다</block>
-  <block id="050709a5f4ba0fd0f43058b123ab21e9" category="doc">AFF A200 시스템의 컨트롤러 교체</block>
-  <block id="9b4a153e32658979df9152717cf37383" category="doc">AFF A200 시스템에서 시스템 케이블을 다시 연결하고 디스크를 재할당합니다.</block>
-  <block id="e2ab45b7b794ff9786af9bf4ffc01eec" category="doc">AFF A200 시스템의 컨트롤러 교체를 완료합니다.</block>
-  <block id="fdcbd2155a6e402180bea09fa4634708" category="doc">AFF A200 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
-  <block id="e1c14ec15f8a2d599d6aced81b79f9d6" category="doc">AFF A200 시스템의 DIMM 교체</block>
-  <block id="158929bb714845c83ed9d8f71d99518e" category="doc">PDF 포스터를 사용하여 AFF A200 스토리지 시스템을 설치하고 설정합니다.</block>
-  <block id="48c53dfbde943d7089761f4ec01f575a" category="doc">구성 워크시트를 사용하여 AFF A200 클러스터 구성</block>
-  <block id="e72018dfd7593ef2c4e2885347a4c3a0" category="doc">AFF A200 스토리지 시스템 유지 관리에 대해 알아보기</block>
-  <block id="2a9cf7bd9c12207da086608207314538" category="doc">AFF A200 시스템의 NVMEM 배터리 교체</block>
-  <block id="db3a7bf9eb9f5355ec5e5daa2538c871" category="doc">AFF A200 시스템에서 전원 공급 장치 핫스왑</block>
-  <block id="f0794f22fac81fec688c6f014cb6fdd6" category="summary">정확한 시간 동기화에 의존하는 서비스 및 애플리케이션이 계속 작동하도록 AFF A200 시스템의 실시간 클록 배터리를 교체하십시오.</block>
-  <block id="23cea2573b19221ee9e9f40197d6018e" category="doc">AFF A200 시스템의 실시간 클록 배터리 교체</block>
   <block id="6e544206eb6a3cd05e22ddee73d26e28" category="doc">AFF A220 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오.</block>
   <block id="c108eac2be0defccf4513c9fa7020bfb" category="doc">AFF A220 시스템의 부팅 미디어에서 암호화 복원</block>
   <block id="07274caf043b4f73b06d8102efee7975" category="doc">AFF A220 시스템에서 복구 이미지를 부팅합니다.</block>
@@ -14703,7 +14489,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="3d74ff37c37336ffca36ea90291d3913" category="list-text">사용 가능한 슬롯이 여러 개인 경우 <block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>에서 슬롯 우선순위를 확인하고 I/O 모듈에 가장 적합한 슬롯을 사용하십시오.</block>
   <block id="0e10b9ec9e48c8cb767f113c16c8abbe" category="list-text"><block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>을 확인하여 새 I/O 모듈이 스토리지 시스템 및 실행 중인 ONTAP 버전과 호환되는지 확인하십시오.</block>
   <block id="3cc4b7cc682c7362ee687949b6d1f96d" category="list-text"><block ref="f73c85a53b5d65cc9c35da0b9e0d2f09" category="inline-link-rx"></block>을 확인하여 새 I/O 모듈이 스토리지 시스템 및 ONTAP 버전과 호환되는지 확인하십시오.</block>
-  <block id="58e80f0b80cc73c65ddb42409ac74878" category="doc">AFF A200 스토리지 시스템 설치 방법 선택</block>
   <block id="6d410d7134d0f70025529d645343c18e" category="doc">AFF A220 스토리지 시스템 설치 방법 선택</block>
   <block id="48388e2ae4ca76fefb3f057bf084e174" category="doc">AFF A300 스토리지 시스템 설치 방법 선택</block>
   <block id="9ca0ae13846f4195f5ebe0fedab5b178" category="doc">AFF A320 스토리지 시스템 설치 방법 선택</block>
@@ -14870,30 +14655,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="21030d6a1bdc4d5e93a31b3e7ef95364" category="doc">FAS70 또는 FAS90 시스템에서 전원 공급 장치 핫스왑</block>
   <block id="29f3299342fbf05902ac0907dc20a0bb" category="doc">FAS70 또는 FAS90 시스템의 실시간 클록 배터리 교체</block>
   <block id="bc04ffcbd48e5b3c638e6007ee9ea007" category="doc">FAS70 또는 FAS90 시스템의 시스템 관리 모듈 교체</block>
-  <block id="2510ba1b58c992abef5fb344124d17d4" category="doc">FAS2600 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오.</block>
-  <block id="33a6ca651b623cf07b8d9dfacac682bc" category="doc">FAS2600 시스템의 부팅 미디어에서 암호화를 복원합니다.</block>
-  <block id="1b887bad5ccd0037b0e30739aa655c6e" category="doc">FAS2600 시스템에서 복구 이미지 부팅</block>
-  <block id="b457987b6e23d0495ffb5f7611137c27" category="doc">FAS2600 시스템의 부팅 미디어 교체에 대해 알아보십시오.</block>
-  <block id="591d9073a132b36c9133302a9b8f0ae7" category="doc">FAS2600 시스템의 부팅 미디어 교체</block>
-  <block id="0434e9d3d8f9a92d992df12fe2b1d576" category="doc">FAS2600 시스템의 캐싱 모듈 교체</block>
-  <block id="3df76e4791edb795e63d3395da36a016" category="doc">FAS2600 시스템의 섀시 교체를 완료합니다.</block>
-  <block id="ff0b2e7f118545bcbb6b0de09ced7cf7" category="doc">FAS2600 시스템의 섀시 교체</block>
-  <block id="34b42a728051dc6a34f8459993f704f2" category="summary">섀시를 교체하기 전에 구성에 적합한 절차를 사용하여 FAS2600 시스템의 컨트롤러를 종료합니다.</block>
-  <block id="ea7f69e23f9e5f1a1a09a54062ae5828" category="doc">섀시를 교체하기 위해 FAS2600 컨트롤러를 종료합니다</block>
-  <block id="5bc235a2a1d14a02f04ca1949fb7ef7f" category="doc">FAS2600 시스템의 컨트롤러 교체</block>
-  <block id="24d967a409a3261f9c339a75a9f9ffdf" category="doc">FAS2600 시스템의 컨트롤러를 반환하여 정상 작동을 재개하십시오.</block>
-  <block id="7b81c1f262cb10021fa9cd0f61b01d4c" category="doc">FAS2600 시스템의 컨트롤러 교체 완료</block>
-  <block id="86aa4e505ad022ec19d0d0d5097c626b" category="doc">FAS2600 시스템에서 컨트롤러 구성을 복원하고 확인합니다</block>
-  <block id="61611f38c052570738852c63d4f187fc" category="summary">FAS2600 시스템에서 스토리지 시스템이 상태 모니터 경고에 따라 수정 가능한 ECC 오류가 과도하게 발생하거나, 단일 DIMM 오류로 인해 시스템이 ONTAP를 부팅하지 못하는 수정 불가능한 ECC 오류가 발생하는 경우 DIMM을 교체하십시오.</block>
-  <block id="0d71ed047e6458eafd4e57b4b9d5c498" category="paragraph">FAS2600 시스템에서 스토리지 시스템이 Health Monitor 경고에 따라 과도한 CECC(Correctable Error Correction Codes) 오류가 발생하거나, 일반적으로 단일 DIMM 오류로 인해 스토리지 시스템이 ONTAP를 부팅하지 못하는 수정 불가능한 ECC 오류가 발생하는 경우 DIMM을 교체하십시오.</block>
-  <block id="36f7b72765723aba121d0919d643ed4e" category="summary">FAS2600 시스템에서 드라이브 오류 경고 메시지가 시스템 콘솔에 표시되면 해당 드라이브를 핫스왑하십시오. 작업자 표시 패널의 오류 LED와 오류가 발생한 드라이브의 오류 LED가 모두 켜집니다.</block>
-  <block id="e9a51be0e10cb3d67b1086e3395e26ee" category="doc">FAS2600 시스템에서 드라이브 핫스왑</block>
-  <block id="8e959ebae59622b585d3bc19d4a2360c" category="doc">빠른 단계를 통해 FAS2600 시스템을 설치합니다</block>
-  <block id="777d731ecabd48117a6f31adf6d8e809" category="doc">FAS2600 설치 및 설정 환경을 선택합니다</block>
-  <block id="ea46da739d44a13e5cc2fae16209b1bf" category="doc">FAS2600 시스템 설치 및 설정 영상을 시청하십시오.</block>
-  <block id="6c68c38d5cffeee6d8cf5b0dd5fd6dfd" category="doc">FAS2600 시스템용 클러스터 구성 워크시트를 사용하십시오.</block>
-  <block id="a49478ba64ccc3bd429c1441b7888131" category="doc">FAS2600 스토리지 시스템 유지 관리에 대해 알아보기</block>
-  <block id="2cb9e214bd9847bd5e9b83b85187b4ed" category="doc">FAS2600 시스템의 NVMEM 배터리 교체</block>
   <block id="3986677af59eed7ff3a3762582b900e0" category="doc">FAS2700 시스템의 부팅 미디어에서 암호화 지원 여부를 확인하십시오.</block>
   <block id="58473fda1fd8f73a3cc61873d3222f2e" category="doc">FAS2700 시스템의 부팅 미디어에서 암호화를 복원합니다.</block>
   <block id="54dc9cfdfa7d91f1131a81825929b7d1" category="doc">FAS2700 시스템에서 복구 이미지 부팅</block>
@@ -15180,11 +14941,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="4a6aab07e7530a2c66ffcd2e25b79acd" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템의 DIMM 교체</block>
   <block id="0eba8a58230dc61768d4f5e66cbcd398" category="summary">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 드라이브 고장이나 업그레이드가 필요한 경우 드라이브를 핫스왑합니다. 교체 과정은 고장난 드라이브를 식별하고 안전하게 제거한 후 새 드라이브를 설치하여 지속적인 데이터 액세스 및 시스템 성능을 보장하는 것입니다.</block>
   <block id="9c294c3d6a6851923ad81e1dfb368f27" category="doc">AFF A20, AFF A30 또는 AFF A50 시스템에서 드라이브 핫스왑</block>
-  <block id="1e4bb57b5b042931f41a4c21aa73cf81" category="doc">AFF A200 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.</block>
-  <block id="0ebbc5a6889570485f93cde5e2f7fc20" category="doc">AFF A200 시스템에서 컨트롤러를 교체하기 위한 요구 사항을 검토하십시오.</block>
-  <block id="ad45d68b9bf33e5643571a0b8cdb9a84" category="doc">AFF A200 시스템에서 손상된 컨트롤러를 종료합니다.</block>
-  <block id="bf244db40f02310f66c2f1b17e8087b3" category="doc">AFF A200 시스템에서 드라이브 핫스왑</block>
-  <block id="38c241c4224d110e2f3324501a210912" category="paragraph">AFF A200 시스템에서 고장난 드라이브를 I/O 중단 없이 핫스왑할 수 있습니다. AFF A200은 SSD와 HDD를 모두 지원하며, 각각에 맞는 전용 교체 절차를 제공합니다.</block>
   <block id="25b8aad5a33c1f9a117e65973ca8b2b2" category="doc">AFF A220 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.</block>
   <block id="0ae5c48e3ba2006d28a6fd28a43687a7" category="doc">AFF A220 시스템에서 컨트롤러를 교체하기 위한 요구 사항을 검토하십시오.</block>
   <block id="5e14ba4a094e659127d785686632c8e9" category="doc">AFF A220 시스템에서 손상된 컨트롤러를 종료합니다</block>
@@ -15445,11 +15201,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c16fa2bf64901b257bb8cda2df455504" category="doc">FAS70 또는 FAS90 시스템의 DIMM 교체</block>
   <block id="ec5ffe65a558e4207d219c3c4a6a7d9a" category="doc">FAS70 시스템의 주요 사양</block>
   <block id="74e39fc95c380ee1e50106175d21552b" category="doc">FAS90 시스템의 주요 사양</block>
-  <block id="ee2fdd67826ce16446338a26be055cbe" category="doc">FAS2600 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.</block>
-  <block id="fbec1222afd38a8f8e0fa9ea9ccf4e60" category="doc">FAS2600 시스템에서 컨트롤러 교체 요구 사항을 검토합니다</block>
-  <block id="74d637031686736a63715e45c19c6bbf" category="doc">FAS2600 시스템에서 손상된 컨트롤러를 종료합니다</block>
-  <block id="991a9548bf42b698d2edcc5d1e565976" category="doc">FAS2600 시스템의 DIMM 교체</block>
-  <block id="63cca1623f4fb167cd4cce885070dc83" category="paragraph">FAS2600 시스템에서 고장난 드라이브를 I/O 작업 중에 중단 없이 핫스왑하여 스토리지 용량과 시스템 성능을 복원할 수 있습니다.</block>
   <block id="26f1eaa7bb4197550c51b614e024a960" category="doc">FAS2700 시스템에서 섀시를 교체하기 위한 요구 사항을 검토하십시오.</block>
   <block id="258dd5fdce7e3212c7b546272d23c342" category="doc">FAS2700 시스템에서 컨트롤러 교체 요구 사항을 검토합니다</block>
   <block id="fe3948656f1b54d24248b88e9727fb11" category="doc">FAS2700 시스템에서 손상된 컨트롤러를 종료합니다</block>
@@ -15590,9 +15341,6 @@ SFP+(타겟/이니시에이터)</block>
   <block id="ab7192484a2ffc71336d7b98445bfb04" category="doc">그래픽 지침을 사용하여 AFF C800 시스템을 설치합니다</block>
   <block id="9563887009ddc79d5cde510c275e0de0" category="doc">동영상 안내를 사용하여 AFF C800 시스템을 설치합니다</block>
   <block id="8dc64d43e2783724961d5523e7b12289" category="doc">FAS70 또는 FAS90 컨트롤러를 종료하여 섀시를 교체합니다</block>
-  <block id="c3354a7d715a8827a6a086244b011277" category="doc">부팅 복구 과정 중에 FAS2600 시스템의 컨트롤러를 종료합니다</block>
-  <block id="da5b4dca4c04377dde753992f7961b63" category="doc">FAS2600 시스템에서 전원 공급 장치 핫스왑</block>
-  <block id="abfd786ff21d96ae2c5e7a83fcbb9bf3" category="doc">FAS2600 시스템의 RTC 배터리를 교체합니다</block>
   <block id="347ca1965792d437cd2e37c0e30b0182" category="doc">FAS2700 스토리지 시스템 설치 방법 선택</block>
   <block id="bf3c4b57d1ae46c1b5e5c0cd11d9d4d3" category="doc">동영상 안내를 사용하여 FAS2700 시스템을 설치합니다</block>
   <block id="9cd80467b0e6ab919ab90756ccc839ca" category="doc">FAS2820 스토리지 시스템 설치 방법 선택</block>
@@ -15677,4 +15425,32 @@ SFP+(타겟/이니시에이터)</block>
   <block id="c028c85efb1d1fc04746118670c19cf2" category="list-text">캐비닛 또는 통신 랙의 가이드 핀이 섀시 가이드 슬롯에 단단히 고정되어 있는지 확인하십시오.</block>
   <block id="c0fcb1e09e77924fe85a8b205bead3af" category="image-alt">콜아웃 아이콘 5</block>
   <block id="7085927fbb8bc7e7f08b2e783854d864" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> ONTAP 클러스터를 설정하십시오</block>
+  <block id="2125a65d4e4908410c6824829fa90856" category="summary">AFF A1K 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 해결할 때는 I/O 모듈을 교체하는 것이 필수적입니다.</block>
+  <block id="d179af389bb52a3cf8b78464c7bdb4a2" category="summary">모듈에 오류가 발생하면 AFF A1K 시스템에서 I/O 모듈을 교체하십시오. 교체 과정에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="af56cddf589f804b4fd76fa40c641eed" category="summary">AFF A20, AFF A30 및 AFF A50 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 처리할 때는 I/O 모듈을 핫스왑하거나 교체하는 것이 필수적입니다.</block>
+  <block id="37c872de94bba091bb4651f36ac12476" category="summary">모듈에 오류가 발생하면 AFF A20, AFF A30 또는 AFF A50 스토리지 시스템에서 I/O 모듈을 교체하십시오. 교체 과정에는 컨트롤러 종료, 오류가 발생한 I/O 모듈 교체, 컨트롤러 재부팅, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="4800568e57bd33166164417135d0cd42" category="paragraph">AFF A20, AFF A30 또는 AFF A50 스토리지 시스템의 I/O 모듈에 장애가 발생하면 해당 모듈을 교체하십시오.</block>
+  <block id="c0afc7d43a1f318f7cc2d576f4eab8f3" category="paragraph">AFF A70 및 AFF A90 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 고장난 모듈을 처리할 때는 I/O 모듈을 교체하는 것이 필수적입니다.</block>
+  <block id="ea481b743ebea911a12e56b268a00af4" category="summary">AFF A70 또는 AFF A90 시스템에서 I/O 모듈에 오류가 발생하면 해당 모듈을 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 오류가 발생한 부품을 NetApp에 반환하는 것입니다.</block>
+  <block id="2e190cef3c1a4eec23fc793233af894a" category="summary">AFX 1K 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈 추가가 필수적입니다. 고장난 모듈을 해결할 때는 I/O 모듈 교체가 필수적입니다.</block>
+  <block id="7bc9334691d6570bd4f10f32b462b476" category="summary">AFX 2K 스토리지 시스템은 네트워크 연결 및 성능을 향상시키기 위해 I/O 모듈을 확장하거나 교체할 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 고장난 모듈 문제를 해결할 때는 I/O 모듈을 교체하는 것이 필수적입니다.</block>
+  <block id="27971b77cb3471d5775dafa3696fcba1" category="summary">ASA A70 및 ASA A90 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈 추가가 필수적입니다. 장애가 발생한 모듈을 처리할 때는 I/O 모듈 교체가 필수적입니다.</block>
+  <block id="a8504e6aa2ea46f4b82cee9773ef7d6e" category="paragraph">ASA A70 또는 ASA A90 시스템에서 I/O 모듈에 오류가 발생하면 해당 모듈을 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 오류가 발생한 부품을 NetApp에 반환하는 것입니다.</block>
+  <block id="94c6b00825e5a4e56b747b4f7f662ff3" category="summary">ASA A1K 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 해결할 때는 I/O 모듈을 교체하는 것이 필수적입니다.</block>
+  <block id="fc8bbd1803c89067715cbb7a9137cab0" category="summary">ASA A1K 시스템에서 I/O 모듈에 장애가 발생하면 해당 모듈을 교체하십시오. 교체 과정에는 컨트롤러 종료, 장애가 발생한 I/O 모듈 교체, 컨트롤러 재부팅, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="47e8181261cdd8b718b452c97c4dffc7" category="summary">ASA A20, ASA A30 및 ASA A50 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결 및 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 처리할 때는 I/O 모듈을 핫 스왑하거나 교체하는 것이 필수적입니다.</block>
+  <block id="65ef39111dd6dfee1a293110276a040d" category="summary">모듈에 장애가 발생하면 ASA A20, ASA A30 또는 ASA A50 스토리지 시스템에서 I/O 모듈을 교체하십시오. 교체 과정에는 컨트롤러 종료, 장애가 발생한 I/O 모듈 교체, 컨트롤러 재부팅, 장애가 발생한 부품을 NetApp으로 반환하는 작업이 포함됩니다.</block>
+  <block id="9615a762a3711eb71cbe68d7e0b8e9cd" category="summary">ASA C30 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈 추가가 필수적입니다. 장애가 발생한 모듈을 처리할 때는 I/O 모듈 교체가 필수적입니다.</block>
+  <block id="4bbee036ed0244ee340fc5814b820f78" category="paragraph">ASA C30 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때 I/O 모듈을 추가하는 것은 필수적입니다. 장애가 발생한 모듈을 처리할 때 I/O 모듈을 핫스왑하거나 교체하는 것은 필수적입니다.</block>
+  <block id="0097fc8e63fdca8a05f9e44bbc8cb3ba" category="summary">모듈에 장애가 발생하면 ASA C30 스토리지 시스템의 I/O 모듈을 교체하십시오. 교체 과정에는 컨트롤러 종료, 장애가 발생한 I/O 모듈 교체, 컨트롤러 재부팅, 장애가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="7b7120b2a555a4e1f6c841f6422343a0" category="summary">AFF C30 및 AFF C60 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 처리할 때는 I/O 모듈을 핫 스왑하거나 교체하는 것이 필수적입니다.</block>
+  <block id="cf2bb2ae70fabfc05da779f044a1702a" category="summary">모듈에 오류가 발생하면 AFF C30 또는 AFF C60 스토리지 시스템의 I/O 모듈을 교체하십시오. 교체 과정에는 컨트롤러 종료, 오류가 발생한 I/O 모듈 교체, 컨트롤러 재부팅, 오류가 발생한 부품을 NetApp으로 반환하는 작업이 포함됩니다.</block>
+  <block id="84093e58ddf04fe87e80308ca7c62d02" category="paragraph">AFF C80 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 해결할 때는 I/O 모듈을 교체하는 것이 필수적입니다.</block>
+  <block id="ace6067a2a141d6a09bca492fb995526" category="summary">AFF C80 시스템의 IO 모듈이 고장 나면 교체하십시오.</block>
+  <block id="88a41d46db4920f49cb36727af137861" category="paragraph">AFF C80 시스템에서 I/O 모듈에 장애가 발생하면 해당 모듈을 교체하십시오. 교체 프로세스에는 컨트롤러 종료, 장애가 발생한 I/O 모듈 교체, 컨트롤러 재부팅, 장애가 발생한 부품을 NetApp에 반환하는 과정이 포함됩니다. 스토리지 시스템에서 지원하는 모든 버전의 ONTAP에서 이 절차를 사용할 수 있습니다.</block>
+  <block id="da589b944f36948a72800d79f87c841e" category="summary">FAS70 또는 FAS90 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때는 I/O 모듈을 추가하는 것이 필수적입니다. 장애가 발생한 모듈을 해결할 때는 I/O 모듈을 교체하는 것이 필수적입니다.</block>
+  <block id="8fa543375cc97866c6d9b9381e6b307a" category="summary">FAS70 또는 FAS90 시스템에서 I/O 모듈에 오류가 발생하면 해당 모듈을 교체하십시오. 교체 과정에는 컨트롤러를 종료하고, 오류가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 오류가 발생한 부품을 NetApp에 반환하는 작업이 포함됩니다.</block>
+  <block id="024f9e2ec6a6b52885b486d36725bc5c" category="summary">FAS50 스토리지 시스템은 I/O 모듈을 확장하거나 교체하여 네트워크 연결성과 성능을 향상시킬 수 있는 유연성을 제공합니다. 네트워크 기능을 업그레이드할 때 I/O 모듈을 추가하는 것은 필수적입니다. 장애가 발생한 모듈을 처리할 때 I/O 모듈을 핫스왑하거나 교체하는 것은 필수적입니다.</block>
+  <block id="5693f1a572453b8237bb4da7f9b67e53" category="summary">모듈에 장애가 발생하면 FAS50 스토리지 시스템에서 I/O 모듈을 교체하십시오. 교체 과정은 컨트롤러를 종료하고, 장애가 발생한 I/O 모듈을 교체하고, 컨트롤러를 재부팅한 후, 장애가 발생한 부품을 NetApp에 반환하는 것입니다.</block>
+  <block id="761a6ecb5755704bc93af5c2a3f8cfc7" category="list-text">FAS: FAS50</block>
 </blocks>

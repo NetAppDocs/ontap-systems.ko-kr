@@ -68,7 +68,7 @@ NOTE: 스토리지 또는 MetroCluster 연결에 포트가 할당된 이더넷 I
 * AFF A-Series: A20, A30, A50
 * ASA r2: A20, A30, A50 및 C30
 * AFF C-Series: C30 및 C60
-* FAS: FS50
+* FAS: FAS50
 
 
 
